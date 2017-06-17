@@ -9,7 +9,7 @@ public final class Constants {
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish.xlsx";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test.xlsx";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test2.xlsx";
-	public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test2.xlsx";
+	public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test3.xlsx";
 	public static final String LOG_IN_URL = "https://patentscope.wipo.int/search/en/reg/login.jsf";
 	public static final String DATA_FILE_POSTFIX = ".out";
 	public static final String PSN_SECTOR_COMPANY = "COMPANY";
