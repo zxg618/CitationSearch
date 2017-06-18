@@ -1,5 +1,7 @@
 package citationsearch.entity;
 
+import static citationsearch.constants.Constants.*;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,7 +17,7 @@ public class Patent extends Entity {
 	/**
 	 * FK of tls211_PAT_PUBLN.PAT_PUBLN_ID
 	 */
-	protected int patPublnId = 0;
+	protected int patPublnId = DUMP_PAT_ID;
 	
 	protected String applnNum = "";
 	

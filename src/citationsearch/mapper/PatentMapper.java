@@ -124,7 +124,7 @@ public class PatentMapper extends Mapper {
 		int continueFlag = 0;
 		
 		
-		if (patPubId == 0) {
+		if (patPubId == DUMP_PAT_ID) {
 			this.query = "select appln_id, pat_publn_id from dbo.tls211_pat_publn where publn_nr = \'" + patent.getPublicationNumber() + "\'";
 			rs = this.executeGetQuery();
 			
@@ -139,7 +139,7 @@ public class PatentMapper extends Mapper {
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-		} else if (patPubId == -1) {
+		} else if (patPubId == 0) {
 			//System.out.println("Patent id " + patent.getID() + " with publication number [" + patent.getPublicationNumber() + "] exists in WIPO ONLY.");
 			return;
 		}
@@ -160,7 +160,7 @@ public class PatentMapper extends Mapper {
 		
 		if (appId == 0 || patPubId == 0) {
 			//System.out.println("Result not found.");
-			patent.setPatPublnId(-1);
+			patent.setPatPublnId(0);
 			patent.setApplnDateString(patent.getApplnDateString());
 			this.save(patent);
 			return;
