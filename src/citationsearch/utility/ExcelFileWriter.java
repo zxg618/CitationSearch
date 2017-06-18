@@ -222,6 +222,10 @@ public class ExcelFileWriter {
 			patents = this.patentMapper.getPatentsByIDRange(start, end);
 			j = 0;
 			for (i = start; i < start + patents.length; i++) {
+				if (patents[j].getPublicationNumber().length() <= 1) {
+					j++;
+					continue;
+				}
 				row = sheet.createRow((short)(i + 1));
 				cell = row.createCell(0);
 				cell.setCellValue(patents[j].getID());
