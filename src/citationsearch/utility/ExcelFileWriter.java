@@ -226,9 +226,9 @@ public class ExcelFileWriter {
 				cell = row.createCell(0);
 				cell.setCellValue(patents[j].getID());
 				cell = row.createCell(1);
-				cell.setCellValue(patents[j].getPublicationNumber());
-				cell = row.createCell(2);
 				cell.setCellValue(patents[j].getCompanyId());
+				cell = row.createCell(2);
+				cell.setCellValue(patents[j].getPublicationNumber());
 				cell = row.createCell(3);
 				cell.setCellValue(patents[j].getPatPublnId());
 				cell = row.createCell(4);

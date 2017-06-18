@@ -216,8 +216,6 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		personQuery1 = String.join(",", personIds.toArray(new String[0]));
-		
 		//go through right route
 		this.query = "select person_id, person_name from tls206_person where person_id in ("
 				+ "select person_id from tls227_pers_publn where pat_publn_id = " + patPubId
