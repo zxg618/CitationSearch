@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.Locale;
 
 public class Patent extends Entity {
+	public static final String TABLE = "dbo.unsw_bs_patent";
+	
 	/**
 	 * publication number got from WIPO content and EPO
 	 */
@@ -20,6 +22,7 @@ public class Patent extends Entity {
 	protected int patPublnId = DUMP_PAT_ID;
 	
 	protected String applnNum = "";
+	protected String priorityNum = "";
 	
 	protected String prefix = "";
 	protected String postfix = "";
@@ -27,8 +30,12 @@ public class Patent extends Entity {
 	
 	protected int citationTotal = 0;
 	
-	
-	
+	public String getPriorityNum() {
+		return priorityNum;
+	}
+	public void setPriorityNum(String priorityNum) {
+		this.priorityNum = priorityNum;
+	}
 	public String getApplnNum() {
 		return applnNum;
 	}

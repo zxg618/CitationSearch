@@ -10,7 +10,7 @@ import citationsearch.entity.CompanyApplicant;
 public class CompanyMapper extends Mapper {
 	public Company get(int id) {
 		Company company = new Company();
-		this.query = "select * from tls001_company where id = " + id;
+		this.query = "select * from " + Company.TABLE + " where id = " + id;
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -32,7 +32,7 @@ public class CompanyMapper extends Mapper {
 	}
 	
 	public int getCompanyByKeyword(String searchKeyword) {
-		this.query = "select * from dbo.tls001_company where search_keyword = N\'" + searchKeyword + "\'";
+		this.query = "select * from " + Company.TABLE + " where search_keyword = N\'" + searchKeyword + "\'";
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -49,7 +49,7 @@ public class CompanyMapper extends Mapper {
 	public Company[] getAllCompanys() {
 		ArrayList<Company> companies = new ArrayList<Company>();
 		
-		this.query = "select * from dbo.tls001_company";
+		this.query = "select * from " + Company.TABLE;
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -73,7 +73,7 @@ public class CompanyMapper extends Mapper {
 
 	public int create(Company company) {
 		
-		this.query = "INSERT INTO dbo.tls001_company (chinese_name, search_keyword, english_name, source_file_id, patents_total, citations_total)"
+		this.query = "INSERT INTO " + Company.TABLE + " (chinese_name, search_keyword, english_name, source_file_id, patents_total, citations_total)"
 				+ " VALUES (N\'"
 				+ company.getChineseName()
 				+ "\', N\'"
@@ -97,7 +97,7 @@ public class CompanyMapper extends Mapper {
 	
 	//tls010_company_applnt section
 	public int createCompantApplicant(CompanyApplicant compApplnt) {
-		this.query = "select * from tls010_company_applnt where company_id = " + compApplnt.getCompanyId() + " and person_id = " + compApplnt.getPersonId();
+		this.query = "select * from " + Company.TRANS_TABLE + " where company_id = " + compApplnt.getCompanyId() + " and person_id = " + compApplnt.getPersonId();
 		ResultSet rs = this.executeGetQuery();
 		try {
 			if (rs.next()) {
@@ -108,7 +108,7 @@ public class CompanyMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		this.query = "insert into tls010_company_applnt (company_id, person_id, company_name)"
+		this.query = "insert into " + Company.TRANS_TABLE + " (company_id, person_id, company_name)"
 				+ " values ("
 				+ compApplnt.getCompanyId() + ", "
 				+ compApplnt.getPersonId() + ", "
@@ -121,7 +121,7 @@ public class CompanyMapper extends Mapper {
 	public CompanyApplicant[] getTranslationsByCompanyId(int companyId) {
 		ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
 		
-		this.query = "select * from tls010_company_applnt where company_id = " + companyId + " order by id";
+		this.query = "select * from " + Company.TRANS_TABLE + " where company_id = " + companyId + " order by id";
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -150,7 +150,7 @@ public class CompanyMapper extends Mapper {
 		if (id == 0) {
 			return this.create(company);
 		} else {
-			this.query = "update tls001_company set "
+			this.query = "update " + Company.TABLE + " set "
 					+ "patents_total = " + company.getPatentsTotal() + ", "
 					+ "citations_total = " + company.getCitationTotal() + " "
 					+ "where id = " + company.getID()

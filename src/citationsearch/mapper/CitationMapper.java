@@ -37,7 +37,7 @@ public class CitationMapper extends Mapper {
 	
 	protected void getCitingPatentDetails(Citation cit) {
 		int patPublnId = cit.getCitingPatentId();
-		this.query = "select publn.publn_nr, appln.appln_nr, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
+		this.query = "select publn.publn_nr, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
 				+ "from tls211_pat_publn as publn "
 				+ "join tls201_appln as appln on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id "
 				+ "join tls201_appln as appln2 "
@@ -47,7 +47,8 @@ public class CitationMapper extends Mapper {
 		try {
 			if (rs.next()) {
 				cit.setCitingPublnNum(rs.getString("publn_nr"));
-				cit.setPriorityNumber(rs.getString("appln_nr"));
+				cit.setCitingAppNum(rs.getString("appln_nr"));
+				cit.setPriorityNumber(rs.getString("appln_nr_epodoc"));
 				cit.setPrefix(rs.getString("appln_auth"));
 				cit.setPostfix(rs.getString("appln_kind"));
 				cit.setApplnDateBySqlDate(rs.getDate("appln_filing_date"));
@@ -77,7 +78,7 @@ public class CitationMapper extends Mapper {
 	}
 	
 	public int save(Citation citation) {
-		this.query = "select * from tls003_citation where citing_patent_id = " + citation.getCitingPatentId() + " and citn_id = " + citation.getCitnId();
+		this.query = "select * from " + Citation.TABLE + " where citing_patent_id = " + citation.getCitingPatentId() + " and citn_id = " + citation.getCitnId();
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -89,11 +90,12 @@ public class CitationMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		this.query = "insert into tls003_citation"
+		this.query = "insert into " + Citation.TABLE
 				+ " (patent_id, "
 				+ "company_id, "
 				+ "citing_patent_id, "
 				+ "citing_publication_number, "
+				+ "citing_application_number, "
 				+ "citing_priority_number, "
 				+ "citing_prefix, "
 				+ "citing_postfix, "
@@ -103,6 +105,7 @@ public class CitationMapper extends Mapper {
 				+ citation.getCompanyId() + ", "
 				+ citation.getCitingPatentId() + ", "
 				+ "\'" + citation.getCitingPublnNum() + "\', "
+				+ "\'" + citation.getCitingAppNum() + "\', "
 				+ "\'" + citation.getPriorityNumber() + "\', "
 				+ "\'" + citation.getPrefix() + "\', "
 				+ "\'" + citation.getPostfix() + "\', "
@@ -115,7 +118,7 @@ public class CitationMapper extends Mapper {
 	
 	public int getTotalNumberOfCitations() {
 		int total = 0;
-		this.query = "select count (*) as total from tls003_citation";
+		this.query = "select count (*) as total from " + Citation.TABLE;
 		ResultSet rs = this.executeGetQuery();
 		
 		try {
@@ -131,7 +134,7 @@ public class CitationMapper extends Mapper {
 	
 	public Citation[] getCitationsByIDRange(int idStart, int idEnd) {
 		ArrayList<Citation> citations = new ArrayList<Citation>();
-		this.query = "select * from tls003_citation where id >= " + idStart + " and id < " + idEnd;
+		this.query = "select * from " + Citation.TABLE + " where id >= " + idStart + " and id < " + idEnd;
 		ResultSet rs = this.executeGetQuery();
 		
 		try {

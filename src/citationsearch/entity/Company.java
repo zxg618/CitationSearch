@@ -1,6 +1,9 @@
 package citationsearch.entity;
 
 public class Company extends Entity {
+	public static final String TABLE = "dbo.unsw_bs_company";
+	public static final String TRANS_TABLE = "dbo.unsw_bs_company_applnt";
+	
 	/**
 	 * Chinese name from excel file
 	 */

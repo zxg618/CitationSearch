@@ -8,6 +8,9 @@ import java.util.Locale;
 import citationsearch.constants.PatentTypeEnum;
 
 public class Citation extends Entity {
+	
+	public static final String TABLE = "unsw_bs_citation";
+	
 	protected int patentId = 0;
 	protected int companyId = 0;
 	
@@ -17,6 +20,7 @@ public class Citation extends Entity {
 	protected int citingPatentId = 0;
 	
 	protected String citingPublnNum = "";
+	protected String citingAppNum = "";
 	protected String priorityNumber = "";
 	protected String prefix = "";
 	protected String postfix = "";
@@ -24,6 +28,12 @@ public class Citation extends Entity {
 	
 	protected int citnId = 0;
 	
+	public String getCitingAppNum() {
+		return citingAppNum;
+	}
+	public void setCitingAppNum(String citingAppNum) {
+		this.citingAppNum = citingAppNum;
+	}
 	public String getCitingPublnNum() {
 		return citingPublnNum;
 	}
