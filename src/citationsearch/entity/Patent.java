@@ -20,6 +20,7 @@ public class Patent extends Entity {
 	 * FK of tls211_PAT_PUBLN.PAT_PUBLN_ID
 	 */
 	protected int patPublnId = DUMP_PAT_ID;
+	protected Date publnDate = null;
 	
 	protected String applnNum = "";
 	protected String priorityNum = "";
@@ -29,6 +30,34 @@ public class Patent extends Entity {
 	protected Date applnDate = null;
 	
 	protected int citationTotal = 0;
+	
+	public Date getPublnDate() {
+		return publnDate;
+	}
+	public void setPublnDate(Date publnDate) {
+		this.publnDate = publnDate;
+	}
+	
+	public String getPublnDateString() {
+		if (this.publnDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.publnDate);
+	}
+	
+	public void setPublnDateString(String dateString) {
+		try {
+			this.applnDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setPublnDateBySqlDate(java.sql.Date date) {
+		this.publnDate = new Date(date.getTime());
+	}
 	
 	public String getPriorityNum() {
 		return priorityNum;

@@ -24,7 +24,7 @@ public final class PatentTypeEnum {
 	public static final String VALUE4 = "PCT application (patent) entering national phase in China";
 	public static final String VALUE5 = "PCT application (utility model) entering national phase in China";
 	
-	public static final String DEFAULT_VALUE = "";
+	public static final String DEFAULT_VALUE = "Undefined type";
 	
 	public static String getValue(String key) {
 		switch (key) {

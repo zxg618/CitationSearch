@@ -221,6 +221,8 @@ public class ExcelFileWriter {
 		cell.setCellValue(PATENT_COLUMN10);
 		cell = row.createCell(10);
 		cell.setCellValue(PATENT_COLUMN11);
+		cell = row.createCell(11);
+		cell.setCellValue(PATENT_COLUMN12);
 		
 		while (start <= rowCount) {
 			patents = this.patentMapper.getPatentsByIDRange(start, end);
@@ -234,35 +236,36 @@ public class ExcelFileWriter {
 				cell = row.createCell(2);
 				cell.setCellValue(patents[j].getPatPublnId());				
 				cell = row.createCell(3);
-				cell.setCellValue(patents[j].getPublicationNumber());
+				cell.setCellValue(patents[j].getPrefix() + patents[j].getPublicationNumber() + patents[j].getPostfix() + " " + patents[j].getApplnDateString().replace("-", ""));
 				cell = row.createCell(4);
-				cell.setCellValue(patents[j].getApplnNum());
+				cell.setCellValue(patents[j].getPublnDateString());
 				cell = row.createCell(5);
-				cell.setCellValue(patents[j].getPriorityNum());
+				cell.setCellValue(patents[j].getApplnNum());
 				cell = row.createCell(6);
+				cell.setCellValue(patents[j].getPriorityNum() + " " + patents[j].getApplnDateString().replace("-", ""));
+				cell = row.createCell(7);
 				String applnNum = patents[j].getApplnNum();
 				if (applnNum.length() <= 0) {
 					typeKey = "N/A";
 				} else {
-					if (typeKey.length() > 8) {
+					if (applnNum.length() > 8) {
 						typeKey = applnNum.substring(4, 5);
 					} else {
 						typeKey = applnNum.substring(2, 3);
 					}
-					typeKey = applnNum.substring(0, 1);
 				}
-				cell.setCellValue(PatentTypeEnum.getValue(typeKey));
-				cell = row.createCell(7);
-				cell.setCellValue(patents[j].getPrefix());
+				cell.setCellValue(PatentTypeEnum.getValue(typeKey) + "(" + typeKey + ")");
 				cell = row.createCell(8);
-				cell.setCellValue(patents[j].getPostfix());
+				cell.setCellValue(patents[j].getPrefix());
 				cell = row.createCell(9);
+				cell.setCellValue(patents[j].getPostfix());
+				cell = row.createCell(10);
 				String dateString = patents[j].getApplnDateString();
 				if (dateString.matches("1900-01-01")) {
 					dateString = "";
 				}
 				cell.setCellValue(dateString);
-				cell = row.createCell(10);
+				cell = row.createCell(11);
 				cell.setCellValue(patents[j].getCitationTotal());
 				j++;
 			}
@@ -321,9 +324,11 @@ public class ExcelFileWriter {
 		cell = row.createCell(9);
 		cell.setCellValue(CITATION_COLUMN10);
 		cell = row.createCell(10);
-		cell.setCellValue(CITATION_COLUMN10);
+		cell.setCellValue(CITATION_COLUMN11);
 		cell = row.createCell(11);
-		cell.setCellValue(CITATION_COLUMN10);
+		cell.setCellValue(CITATION_COLUMN12);
+		cell = row.createCell(12);
+		cell.setCellValue(CITATION_COLUMN13);
 		
 		while (start <= rowCount) {
 			citations = this.citationMapper.getCitationsByIDRange(start, end);
@@ -341,18 +346,20 @@ public class ExcelFileWriter {
 				cell = row.createCell(4);
 				cell.setCellValue(citations[j].getCitingPatentId());
 				cell = row.createCell(5);
-				cell.setCellValue(citations[j].getCitingPublnNum());
+				cell.setCellValue(citations[j].getPrefix() + citations[j].getCitingPublnNum() + citations[j].getPostfix() + " " + citations[j].getApplnDateString().replace("-", ""));
 				cell = row.createCell(6);
-				cell.setCellValue(citations[j].getCitingAppNum());
+				cell.setCellValue(citations[j].getPublnDateString());
 				cell = row.createCell(7);
-				cell.setCellValue(citations[j].getPriorityNumber());
+				cell.setCellValue(citations[j].getCitingAppNum());
 				cell = row.createCell(8);
-				cell.setCellValue(citations[j].getCitingApplnType());
+				cell.setCellValue(citations[j].getPriorityNumber() + " " + citations[j].getApplnDateString().replace("-", ""));
 				cell = row.createCell(9);
-				cell.setCellValue(citations[j].getPrefix());
+				cell.setCellValue(citations[j].getCitingApplnType());
 				cell = row.createCell(10);
-				cell.setCellValue(citations[j].getPostfix());
+				cell.setCellValue(citations[j].getPrefix());
 				cell = row.createCell(11);
+				cell.setCellValue(citations[j].getPostfix());
+				cell = row.createCell(12);
 				cell.setCellValue(citations[j].getApplnDateString());
 				j++;
 			}

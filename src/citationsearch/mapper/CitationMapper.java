@@ -37,7 +37,7 @@ public class CitationMapper extends Mapper {
 	
 	protected void getCitingPatentDetails(Citation cit) {
 		int patPublnId = cit.getCitingPatentId();
-		this.query = "select publn.publn_nr, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
+		this.query = "select publn.publn_nr, publn.publn_date, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
 				+ "from tls211_pat_publn as publn "
 				+ "join tls201_appln as appln on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id "
 				+ "join tls201_appln as appln2 "
@@ -47,6 +47,7 @@ public class CitationMapper extends Mapper {
 		try {
 			if (rs.next()) {
 				cit.setCitingPublnNum(rs.getString("publn_nr"));
+				cit.setPublnDateBySqlDate(rs.getDate("publn_date"));
 				cit.setCitingAppNum(rs.getString("appln_nr"));
 				cit.setPriorityNumber(rs.getString("appln_nr_epodoc"));
 				cit.setPrefix(rs.getString("appln_auth"));
@@ -95,6 +96,7 @@ public class CitationMapper extends Mapper {
 				+ "company_id, "
 				+ "citing_patent_id, "
 				+ "citing_publication_number, "
+				+ "citing_publication_date, "
 				+ "citing_application_number, "
 				+ "citing_priority_number, "
 				+ "citing_prefix, "
@@ -105,6 +107,7 @@ public class CitationMapper extends Mapper {
 				+ citation.getCompanyId() + ", "
 				+ citation.getCitingPatentId() + ", "
 				+ "\'" + citation.getCitingPublnNum() + "\', "
+				+ "\'" + citation.getPublnDateString() + "\', "
 				+ "\'" + citation.getCitingAppNum() + "\', "
 				+ "\'" + citation.getPriorityNumber() + "\', "
 				+ "\'" + citation.getPrefix() + "\', "
@@ -145,6 +148,8 @@ public class CitationMapper extends Mapper {
 				cit.setCompanyId(rs.getInt("company_id"));
 				cit.setCitingPatentId(rs.getInt("citing_patent_id"));
 				cit.setCitingPublnNum(rs.getString("citing_publication_number"));
+				cit.setPublnDateBySqlDate(rs.getDate("citing_publication_date"));
+				cit.setCitingAppNum(rs.getString("citing_application_number"));
 				cit.setPriorityNumber(rs.getString("citing_priority_number"));
 				cit.setPrefix(rs.getString("citing_prefix"));
 				cit.setPostfix(rs.getString("citing_postfix"));

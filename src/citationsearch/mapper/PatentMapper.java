@@ -31,6 +31,7 @@ public class PatentMapper extends Mapper {
 				patent.setPublicationNumber(rs.getString("publication_number"));
 				patent.setCompanyId(rs.getInt("company_id"));
 				patent.setPatPublnId(rs.getInt("pat_publn_id"));
+				patent.setPublnDateBySqlDate(rs.getDate("publication_date"));
 				patent.setApplnNum(rs.getString("application_number"));
 				patent.setPriorityNum(rs.getString("priority_number"));
 				patent.setPrefix(rs.getString("prefix"));
@@ -59,6 +60,7 @@ public class PatentMapper extends Mapper {
 				pat.setPublicationNumber(rs.getString("publication_number"));
 				pat.setCompanyId(rs.getInt("company_id"));
 				pat.setPatPublnId(rs.getInt("pat_publn_id"));
+				pat.setPublnDateBySqlDate(rs.getDate("publication_date"));
 				pat.setApplnNum(rs.getString("application_number"));
 				pat.setPriorityNum(rs.getString("priority_number"));
 				pat.setPrefix(rs.getString("prefix"));
@@ -90,13 +92,15 @@ public class PatentMapper extends Mapper {
 	}
 	
 	public int create(Patent patent) {
-		this.query = "insert into " + Patent.TABLE + " (publication_number, company_id, pat_publn_id, application_number, priority_number, prefix, postfix, application_date, citations_total) values ("
+		this.query = "insert into " + Patent.TABLE + " (publication_number, company_id, pat_publn_id, publication_date, application_number, priority_number, prefix, postfix, application_date, citations_total) values ("
 				+ "\'" + patent.getPublicationNumber()
 				+ "\', "
 				+ patent.getCompanyId()
 				+ ", "
 				+ patent.getPatPublnId()
 				+ ", \'"
+				+ patent.getPublnDateString()
+				+ "\', \'"
 				+ patent.getApplnNum()
 				+ "\', \'"
 				+ patent.getPriorityNum()
@@ -127,11 +131,12 @@ public class PatentMapper extends Mapper {
 		ArrayList<Patent> patentList = new ArrayList<Patent>();
 		int i = 0;
 		int continueFlag = 0;
+		java.sql.Date pubDate = null;
 		
 		System.out.println("Processing patent id........... " + patent.getID());
 		
 		if (patPubId == DUMP_PAT_ID) {
-			this.query = "select appln_id, pat_publn_id from dbo.tls211_pat_publn where publn_nr = \'" + patent.getPublicationNumber() + "\' and publn_auth in " + COUNTRY_CODE_LIST;
+			this.query = "select appln_id, pat_publn_id, publn_date from dbo.tls211_pat_publn where publn_nr = \'" + patent.getPublicationNumber() + "\' and publn_auth in " + COUNTRY_CODE_LIST;
 			rs = this.executeGetQuery();
 			
 			//System.out.println("Searching patent id " + patent.getID() + " with publication number [" + patent.getPublicationNumber() + "] in EPO DB.");
@@ -140,6 +145,7 @@ public class PatentMapper extends Mapper {
 				if (rs.next()) {
 					appId = rs.getInt("appln_id");
 					patPubId = rs.getInt("pat_publn_id");
+					pubDate = rs.getDate("publn_date");
 					//System.out.println("Result found with patPubId = [" + patPubId + "].");
 				}
 			} catch (SQLException e) {
@@ -153,11 +159,12 @@ public class PatentMapper extends Mapper {
 			
 			//System.out.println("Patent id " + patent.getID() + " with publication number [" + patent.getPublicationNumber() + "] already linked to EPO DB");
 			
-			this.query = "select appln_id from dbo.tls211_pat_publn where pat_publn_id = " + patPubId;
+			this.query = "select appln_id, publn_date from dbo.tls211_pat_publn where pat_publn_id = " + patPubId;
 			rs = this.executeGetQuery();
 			try {
 				if (rs.next()) {
 					appId = rs.getInt("appln_id");
+					pubDate = rs.getDate("publn_date");
 				}
 			} catch (SQLException e) {
 				e.printStackTrace();
@@ -173,6 +180,7 @@ public class PatentMapper extends Mapper {
 		}
 
 		patent.setPatPublnId(patPubId);
+		patent.setPublnDateBySqlDate(pubDate);
 		
 		this.query = "select appln_auth, appln_nr, appln_nr_epodoc, appln_kind, appln_filing_date from tls201_appln where appln_id = " + appId;
 		
@@ -283,6 +291,7 @@ public class PatentMapper extends Mapper {
 			while (rs.next()) {
 				Patent tmpPatent = new Patent();
 				tmpPatent.setPublicationNumber(rs.getString("publn_nr"));
+				tmpPatent.setPublnDateBySqlDate(rs.getDate("publn_date"));
 				tmpPatent.setCompanyId(company.getID());
 				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
 				patentList.add(tmpPatent);
@@ -336,6 +345,7 @@ public class PatentMapper extends Mapper {
 					+ "publication_number = \'" + patent.getPublicationNumber() + "\', "
 					+ "company_id = " + patent.getCompanyId() + ", "
 					+ "pat_publn_id = " + patent.getPatPublnId() + ", "
+					+ "publication_date = \'" + patent.getPublnDateString() + "\', "
 					+ "application_number = \'" + patent.getApplnNum() + "\', "
 					+ "priority_number = \'" + patent.getPriorityNum() + "\', "
 					+ "prefix = \'" + patent.getPrefix() + "\', "
@@ -395,6 +405,7 @@ public class PatentMapper extends Mapper {
 				tmpPatent.setPublicationNumber(rs.getString("publication_number"));
 				tmpPatent.setCompanyId(rs.getInt("company_id"));
 				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
+				tmpPatent.setPublnDateBySqlDate(rs.getDate("publication_date"));
 				tmpPatent.setApplnNum(rs.getString("application_number"));
 				tmpPatent.setPriorityNum(rs.getString("priority_number"));
 				tmpPatent.setPrefix(rs.getString("prefix"));
