@@ -47,21 +47,22 @@ public final class Constants {
 	public static final String COMPANY_COLUMN5 = "Total number of Patents";
 	public static final String COMPANY_COLUMN6 = "Total number of Citations";
 	//id, publication number, company id, EPO patent id, total citations
-	public static final int PATENT_COLUMNS = 12;
+	public static final int PATENT_COLUMNS = 13;
 	public static final String PATENT_COLUMN1 = "RAP - Patent ID";
 	public static final String PATENT_COLUMN2 = "RAP - Company ID";
 	public static final String PATENT_COLUMN3 = "EPO - Patent ID";
 	public static final String PATENT_COLUMN4 = "EPO - Publication Number";
 	public static final String PATENT_COLUMN5 = "EPO - Publication Date";
 	public static final String PATENT_COLUMN6 = "EPO - Application Number";
-	public static final String PATENT_COLUMN7 = "EPO - Priority Number";
-	public static final String PATENT_COLUMN8 = "EPO - Application Type (type digit)";
-	public static final String PATENT_COLUMN9 = "EPO - Application Country";
-	public static final String PATENT_COLUMN10 = "EPO - Application Kind";
-	public static final String PATENT_COLUMN11 = "EPO - Priority Date";
-	public static final String PATENT_COLUMN12 = "Number of Citations";
+	public static final String PATENT_COLUMN7 = "EPO - Application DOCDB Family ID";
+	public static final String PATENT_COLUMN8 = "EPO - Priority Number";
+	public static final String PATENT_COLUMN9 = "EPO - Application Type (type digit)";
+	public static final String PATENT_COLUMN10 = "EPO - Application Country";
+	public static final String PATENT_COLUMN11 = "EPO - Application Kind";
+	public static final String PATENT_COLUMN12 = "EPO - Priority Date";
+	public static final String PATENT_COLUMN13 = "Number of Citations";
 	//id, patent id, company id, EPO citation id
-	public static final int CITATION_COLUMNS = 13;
+	public static final int CITATION_COLUMNS = 14;
 	public static final String CITATION_COLUMN1 = "RAP - Citation ID";
 	public static final String CITATION_COLUMN2 = "RAP - Patent ID";
 	public static final String CITATION_COLUMN3 = "RAP - Company ID";
@@ -70,11 +71,12 @@ public final class Constants {
 	public static final String CITATION_COLUMN6 = "EPO - Citing patent Publication Number";
 	public static final String CITATION_COLUMN7 = "EPO - Citing patent Publication Date";
 	public static final String CITATION_COLUMN8 = "EPO - Citing Application Number";
-	public static final String CITATION_COLUMN9 = "EPO - Citing Priority Number";
-	public static final String CITATION_COLUMN10 = "EPO - Citing patent Application Type (type digit)";
-	public static final String CITATION_COLUMN11 = "EPO - Citing patent Application Country";
-	public static final String CITATION_COLUMN12 = "EPO - Citing patent Application Kind";
-	public static final String CITATION_COLUMN13 = "EPO - Citing patent Priority Date";
+	public static final String CITATION_COLUMN9 = "EPO - Citing Application DOCDB Family ID";
+	public static final String CITATION_COLUMN10 = "EPO - Citing Priority Number";
+	public static final String CITATION_COLUMN11 = "EPO - Citing patent Application Type (type digit)";
+	public static final String CITATION_COLUMN12 = "EPO - Citing patent Application Country";
+	public static final String CITATION_COLUMN13 = "EPO - Citing patent Application Kind";
+	public static final String CITATION_COLUMN14 = "EPO - Citing patent Priority Date";
 	//id, company Chinese name, company English name, EPO company id
 	public static final int COMPANY_TRANS_COLUMNS = 5;
 	public static final String COMPANY_TRANS_COLUMN1 = "RAP - Translation ID";

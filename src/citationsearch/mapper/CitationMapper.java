@@ -37,7 +37,7 @@ public class CitationMapper extends Mapper {
 	
 	protected void getCitingPatentDetails(Citation cit) {
 		int patPublnId = cit.getCitingPatentId();
-		this.query = "select publn.publn_nr, publn.publn_date, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
+		this.query = "select publn.publn_nr, publn.publn_date, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date, appln.docdb_family_id "
 				+ "from tls211_pat_publn as publn "
 				+ "join tls201_appln as appln on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id "
 				+ "join tls201_appln as appln2 "
@@ -53,6 +53,7 @@ public class CitationMapper extends Mapper {
 				cit.setPrefix(rs.getString("appln_auth"));
 				cit.setPostfix(rs.getString("appln_kind"));
 				cit.setApplnDateBySqlDate(rs.getDate("appln_filing_date"));
+				cit.setCitingAppDocdbFamilyId(rs.getInt("docdb_family_id"));
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -102,6 +103,7 @@ public class CitationMapper extends Mapper {
 				+ "citing_prefix, "
 				+ "citing_postfix, "
 				+ "citing_priority_date, "
+				+ "citing_application_docdb_family_id, "
 				+ "citn_id) values ("
 				+ citation.getPatentId() + ", "
 				+ citation.getCompanyId() + ", "
@@ -113,6 +115,7 @@ public class CitationMapper extends Mapper {
 				+ "\'" + citation.getPrefix() + "\', "
 				+ "\'" + citation.getPostfix() + "\', "
 				+ "\'" + citation.getApplnDateString() + "\', "
+				+ citation.getCitingAppDocdbFamilyId() + ", "
 				+ citation.getCitnId()
 				+ ")";
 		
@@ -154,6 +157,7 @@ public class CitationMapper extends Mapper {
 				cit.setPrefix(rs.getString("citing_prefix"));
 				cit.setPostfix(rs.getString("citing_postfix"));
 				cit.setApplnDateBySqlDate(rs.getDate("citing_priority_date"));
+				cit.setCitingAppDocdbFamilyId(rs.getInt("citing_application_docdb_family_id"));
 				cit.setCitnId(rs.getInt("citn_id"));
 				citations.add(cit);
 			}

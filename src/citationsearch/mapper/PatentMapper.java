@@ -38,6 +38,7 @@ public class PatentMapper extends Mapper {
 				patent.setPrefix(rs.getString("prefix"));
 				patent.setPostfix(rs.getString("postfix"));
 				patent.setApplnDateBySqlDate(rs.getDate("application_date"));
+				patent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				patent.setCitationTotal(rs.getInt("citations_total"));
 				return patent;
 			}
@@ -67,6 +68,7 @@ public class PatentMapper extends Mapper {
 				pat.setPrefix(rs.getString("prefix"));
 				pat.setPostfix(rs.getString("postfix"));
 				pat.setApplnDateBySqlDate(rs.getDate("application_date"));
+				pat.setDocdbFamId(rs.getInt("docdb_family_id"));
 				pat.setCitationTotal(rs.getInt("citations_total"));
 				patentList.add(pat);
 			}
@@ -93,7 +95,7 @@ public class PatentMapper extends Mapper {
 	}
 	
 	public int create(Patent patent) {
-		this.query = "insert into " + Patent.TABLE + " (publication_number, company_id, pat_publn_id, publication_date, application_number, priority_number, prefix, postfix, application_date, citations_total) values ("
+		this.query = "insert into " + Patent.TABLE + " (publication_number, company_id, pat_publn_id, publication_date, application_number, priority_number, prefix, postfix, application_date, docdb_family_id, citations_total) values ("
 				+ "\'" + patent.getPublicationNumber()
 				+ "\', "
 				+ patent.getCompanyId()
@@ -112,6 +114,8 @@ public class PatentMapper extends Mapper {
 				+ "\', \'"
 				+ patent.getApplnDateString()
 				+ "\', "
+				+ patent.getDocdbFamId()
+				+ ", "
 				+ patent.getCitationTotal()
 				+ ")";
 		
@@ -183,7 +187,7 @@ public class PatentMapper extends Mapper {
 		patent.setPatPublnId(patPubId);
 		patent.setPublnDateBySqlDate(pubDate);
 		
-		this.query = "select appln_auth, appln_nr, appln_nr_epodoc, appln_kind, appln_filing_date from tls201_appln where appln_id = " + appId;
+		this.query = "select appln_auth, appln_nr, appln_nr_epodoc, appln_kind, appln_filing_date, docdb_family_id from tls201_appln where appln_id = " + appId;
 		
 		rs = this.executeGetQuery();
 		
@@ -194,6 +198,7 @@ public class PatentMapper extends Mapper {
 				patent.setPrefix(rs.getString("appln_auth"));
 				patent.setPostfix(rs.getString("appln_kind"));
 				patent.setApplnDateBySqlDate(rs.getDate("appln_filing_date"));
+				patent.setDocdbFamId(rs.getInt("docdb_family_id"));
 			}
 		} catch (SQLException e1) {
 			// TODO Auto-generated catch block
@@ -334,7 +339,7 @@ public class PatentMapper extends Mapper {
 			Patent tmpPatent = patentList.get(i);
 			patPubId = tmpPatent.getPatPublnId();
 			
-			this.query = "select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date from tls201_appln appln "
+			this.query = "select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, docdb_family_id from tls201_appln appln "
 					+ "join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = " + patPubId;
 			rs = this.executeGetQuery();
 			try {
@@ -344,6 +349,7 @@ public class PatentMapper extends Mapper {
 					tmpPatent.setPrefix(rs.getString("appln_auth"));
 					tmpPatent.setPostfix(rs.getString("appln_kind"));
 					tmpPatent.setApplnDateBySqlDate(rs.getDate("appln_filing_date"));
+					tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				}
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
@@ -378,6 +384,7 @@ public class PatentMapper extends Mapper {
 					+ "prefix = \'" + patent.getPrefix() + "\', "
 					+ "postfix = \'" + patent.getPostfix() + "\', "
 					+ "application_date = \'" + patent.getApplnDateString() + "\', "
+					+ "docdb_family_id = " + patent.getDocdbFamId() + ", "
 					+ "citations_total = " + patent.getCitationTotal() + " "
 					+ "where id = " + patent.getID();
 			return this.executeOtherQuery();
@@ -438,6 +445,7 @@ public class PatentMapper extends Mapper {
 				tmpPatent.setPrefix(rs.getString("prefix"));
 				tmpPatent.setPostfix(rs.getString("postfix"));
 				tmpPatent.setApplnDateBySqlDate(rs.getDate("application_date"));
+				tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				tmpPatent.setCitationTotal(rs.getInt("citations_total"));
 				patents.add(tmpPatent);
 			}

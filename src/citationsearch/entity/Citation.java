@@ -27,8 +27,16 @@ public class Citation extends Entity {
 	protected String prefix = "";
 	protected String postfix = "";
 	protected Date priorityDate = null;
+	protected int citingAppDocdbFamilyId = 0;
 	
 	protected int citnId = 0;
+	
+	public int getCitingAppDocdbFamilyId() {
+		return citingAppDocdbFamilyId;
+	}
+	public void setCitingAppDocdbFamilyId(int citingAppDocdbFamilyId) {
+		this.citingAppDocdbFamilyId = citingAppDocdbFamilyId;
+	}
 	
 	public Date getCitingPubDate() {
 		return this.citingPubDate;

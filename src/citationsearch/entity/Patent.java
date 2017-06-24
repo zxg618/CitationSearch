@@ -28,6 +28,14 @@ public class Patent extends Entity {
 	protected String prefix = "";
 	protected String postfix = "";
 	protected Date applnDate = null;
+	protected int docdbFamId = 0;
+	
+	public int getDocdbFamId() {
+		return docdbFamId;
+	}
+	public void setDocdbFamId(int docdbFamId) {
+		this.docdbFamId = docdbFamId;
+	}
 	
 	protected int citationTotal = 0;
 	
