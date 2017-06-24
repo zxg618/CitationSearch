@@ -81,6 +81,6 @@ public final class Constants {
 	public static final String COMPANY_TRANS_COLUMN2 = "RAP Company ID";
 	public static final String COMPANY_TRANS_COLUMN3 = "EPO Company ID";
 	public static final String COMPANY_TRANS_COLUMN4 = "Source - Company Name in Chinese";
-	public static final String COMPANY_TRANS_COLUMN5 = "Source - Company Name in English";
+	public static final String COMPANY_TRANS_COLUMN5 = "RAP - Company Name in English";
 	
 }

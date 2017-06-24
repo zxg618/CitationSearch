@@ -15,4 +15,6 @@
 --select * from tls209_appln_ipc where appln_id = 416613766;
 --select * from tls209_appln_ipc where appln_id in (445941994, 423126132, 439476677);
 
-select * from tls201_appln where appln_id in (416613766, 445941994, 423126132, 439476677);
+--select * from tls201_appln where appln_id in (416613766, 445941994, 423126132, 439476677);
+
+select * from tls211_pat_publn where pat_publn_id = 457963336;

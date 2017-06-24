@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Set;
 
 import citationsearch.entity.Citation;
 import citationsearch.entity.Company;
@@ -211,8 +212,6 @@ public class PatentMapper extends Mapper {
 		
 		rs = this.executeGetQuery();
 		
-		System.out.println("Left route query is " + this.query);
-		
 		//personQuery1 = this.query.replaceAll(", person_name", "");
 		//personQuery1 = personQuery1.replace("and person_id not in (select person_id from tls010_company_applnt)", "");
 		
@@ -234,8 +233,6 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Left route return these person ids " + String.join(",", personIds.toArray(new String[0])));
-		
 		//go through right route
 		this.query = "select person_id, person_name from tls206_person where person_id in ("
 				+ "select person_id from tls227_pers_publn where pat_publn_id = " + patPubId
@@ -244,8 +241,6 @@ public class PatentMapper extends Mapper {
 				;
 		
 		rs = this.executeGetQuery();
-		
-		System.out.println("Right route query is " + this.query);
 		
 		//personQuery2 = this.query.replaceAll(", person_name", "");
 		//personQuery2 = personQuery2.replace("and person_id not in (select person_id from tls010_company_applnt)", "");
@@ -268,12 +263,44 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Right route return these person ids " + String.join(",", personIds.toArray(new String[0])));
+		Set<String> hs = new HashSet<>();
+		hs.addAll(personIds);
+		personIds.clear();
+		personIds.addAll(hs);
+		System.out.println("Left and Right route return these person ids " + String.join(",", personIds.toArray(new String[0])));
 		
 		if (continueFlag <= 0 || personIds.size() == 0) {
 			cm.close();
 			return;
 		}
+		
+		personQuery1 = String.join(",", personIds.toArray(new String[0]));
+		personQuery2 = String.join(",", personIds.toArray(new String[0]));
+		
+		this.query = "select person2.* from tls206_person as person1 join tls206_person as person2 on person1.person_id in (" + personQuery1 + ") and person2.person_name = person1.person_name";
+		rs = this.executeGetQuery();
+		
+		try {
+			while (rs.next()) {
+				personId = rs.getInt("person_id");
+				personName = rs.getString("person_name");
+				personIds.add(Integer.toString(personId));
+				CompanyApplicant compApplnt = new CompanyApplicant();
+				compApplnt.setCompanyId(company.getID());
+				compApplnt.setPersonId(personId);
+				compApplnt.setCompanyName(personName);
+				cm.createCompantApplicant(compApplnt);
+			}
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		hs = new HashSet<>();
+		hs.addAll(personIds);
+		personIds.clear();
+		personIds.addAll(hs);
+		System.out.println("Name exact match return these person ids " + String.join(",", personIds.toArray(new String[0])));
 		
 		personQuery1 = String.join(",", personIds.toArray(new String[0]));
 		personQuery2 = String.join(",", personIds.toArray(new String[0]));
