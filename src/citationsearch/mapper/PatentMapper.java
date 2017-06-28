@@ -4,7 +4,9 @@ import static citationsearch.constants.Constants.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -394,7 +396,7 @@ public class PatentMapper extends Mapper {
 	public int getTotalCitationsByCompanyId(int companyId) {
 		int totalCitations = 0;
 		
-		this.query = "select count(*) as total from " + Citation.TABLE + " where company_id =" + companyId;
+		this.query = "select count(distinct citing_application_docdb_family_id) as total from " + Citation.TABLE + " where company_id =" + companyId;
 		
 		ResultSet rs = this.executeGetQuery();
 		
@@ -455,6 +457,47 @@ public class PatentMapper extends Mapper {
 		}
 		
 		return patents.toArray(new Patent[0]);
+	}
+	
+	public int countPatentsByCompanyId(int companyId) {
+		int total = 0;
+		
+		this.query = "select count(distinct docdb_family_id) as total from unsw_bs_patent where company_id = " + companyId;
+		
+		ResultSet rs = this.executeGetQuery(); 
+		
+		try {
+			if (rs.next()) {
+				total = rs.getInt("total");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return total;
+	}
+	
+	public String getEarlistFilingDate(int patPublnId) {
+		String date = "";
+		
+		this.query = "select * from tls201_appln as appln join tls211_pat_publn as publn on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id";
+		ResultSet rs = this.executeGetQuery();
+		
+		try {
+			if (rs.next()) {
+				java.sql.Date sqlDate = rs.getDate("earliest_filing_date");
+				Date tmpDate = new Date(sqlDate.getTime());
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+				date = sdf.format(tmpDate);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return date;
 	}
 	
 }

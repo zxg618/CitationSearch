@@ -13,6 +13,7 @@ public class CitationMapper extends Mapper {
 		PatentMapper pm = new PatentMapper();
 		int patPublnId = patent.getPatPublnId();
 		int i = 0;
+		int total = 0;
 		
 		String[] citationIds = this.getAllCitationIdsByPatentId(patPublnId);
 		
@@ -29,7 +30,18 @@ public class CitationMapper extends Mapper {
 			this.save(tmpCitation);
 		}
 		
-		patent.setCitationTotal(citationIds.length);
+		this.query = "select count(distinct citing_application_docdb_family_id) as total from unsw_bs_citation where patent_id = " + patent.getID();
+		ResultSet rs = this.executeGetQuery();
+		try {
+			if (rs.next()) {
+				total = rs.getInt("total");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		patent.setCitationTotal(total);
 		pm.save(patent);
 		pm.close();
 		

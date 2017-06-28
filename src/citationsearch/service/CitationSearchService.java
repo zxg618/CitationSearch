@@ -161,7 +161,7 @@ public class CitationSearchService
 				}
 				totalPatents++;
 			}
-			companies[i].setPatentsTotal(totalPatents);
+			companies[i].setPatentsTotal(pm.countPatentsByCompanyId(companies[i].getID()));
 			int total = pm.getTotalCitationsByCompanyId(companies[i].getID());
 			companies[i].setCitationTotal(total);
 			cm.save(companies[i]);
