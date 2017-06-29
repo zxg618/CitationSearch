@@ -4,9 +4,7 @@ import static citationsearch.constants.Constants.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -483,28 +481,6 @@ public class PatentMapper extends Mapper {
 		}
 		
 		return total;
-	}
-	
-	public String getEarlistFilingDate(int patPublnId) {
-		String date = "";
-		
-		this.query = "select * from tls201_appln as appln join tls211_pat_publn as publn on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id";
-		ResultSet rs = this.executeGetQuery();
-		
-		try {
-			if (rs.next()) {
-				java.sql.Date sqlDate = rs.getDate("earliest_filing_date");
-				Date tmpDate = new Date(sqlDate.getTime());
-				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-				date = sdf.format(tmpDate);
-			}
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		return date;
 	}
 	
 }

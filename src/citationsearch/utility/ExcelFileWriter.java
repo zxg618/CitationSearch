@@ -196,7 +196,6 @@ public class ExcelFileWriter {
 		Patent[] patents = null;
 		int rowCount = this.patentMapper.getTotalNumberOfPatents();
 		String typeKey = "";
-		PatentMapper pm = new PatentMapper();
 		
 		//write column titles
 		row = sheet.createRow((short)0);
@@ -295,7 +294,6 @@ public class ExcelFileWriter {
 			e.printStackTrace();
 		}
 		
-		pm.close();
 	}
 	
 	protected void generateCitationFile() {
@@ -311,7 +309,6 @@ public class ExcelFileWriter {
 		int increment = 1000;
 		int i = 0;
 		int j = 0;
-		PatentMapper pm = new PatentMapper();
 		
 		//write column titles
 		row = sheet.createRow((short)0);
