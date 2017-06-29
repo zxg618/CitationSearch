@@ -27,9 +27,41 @@ public class Citation extends Entity {
 	protected String prefix = "";
 	protected String postfix = "";
 	protected Date priorityDate = null;
+	protected Date earliestFilingDate = null;
 	protected int citingAppDocdbFamilyId = 0;
 	
 	protected int citnId = 0;
+	
+	
+	public Date getEarliestFilingDate() {
+		return earliestFilingDate;
+	}
+	
+	public String getEarliestFilingDateString() {
+		if (this.earliestFilingDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.earliestFilingDate);
+	}
+	
+	public void setEarliestFilingDateString(String dateString) {
+		try {
+			this.earliestFilingDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setEarliestFilingDateBySqlDate(java.sql.Date date) {
+		this.earliestFilingDate = new Date(date.getTime());
+	}
+	
+	public void setEarliestFilingDate(Date earliestFilingDate) {
+		this.earliestFilingDate = earliestFilingDate;
+	}
+	
 	
 	public int getCitingAppDocdbFamilyId() {
 		return citingAppDocdbFamilyId;

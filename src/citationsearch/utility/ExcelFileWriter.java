@@ -273,7 +273,7 @@ public class ExcelFileWriter {
 				}
 				cell.setCellValue(dateString);
 				cell = row.createCell(12);
-				cell.setCellValue(pm.getEarlistFilingDate(patents[j].getPatPublnId()));
+				cell.setCellValue(patents[j].getAppEarliestDateString());
 				cell = row.createCell(13);
 				cell.setCellValue(patents[j].getCitationTotal());
 				j++;
@@ -380,7 +380,7 @@ public class ExcelFileWriter {
 				cell = row.createCell(13);
 				cell.setCellValue(citations[j].getApplnDateString());
 				cell = row.createCell(14);
-				cell.setCellValue(pm.getEarlistFilingDate(citations[j].getCitingPatentId()));
+				cell.setCellValue(citations[j].getEarliestFilingDateString());
 				j++;
 			}
 			start += increment;
