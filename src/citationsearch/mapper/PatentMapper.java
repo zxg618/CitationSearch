@@ -337,7 +337,55 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		System.out.println("There are [" + patentList.size() + "] patents for company id " + company.getID());
+		System.out.println("There are [" + patentList.size() + "] patents (before docdb family id) for company id " + company.getID());
+		
+		//----------------docdb family patents search----------
+		/*
+		int patentLength = patentList.size();
+		int docdbFamId = 0;
+		for (i = 0; i < patentLength; i++) {
+			Patent tmpPatent = patentList.get(i);
+			patPubId = tmpPatent.getPatPublnId();
+			
+			this.query = "select appln.docdb_family_id from tls201_appln as appln join tls211_pat_publn as publn on publn.pat_publn_id = " + patPubId + " and publn.appln_id = appln.appln_id";
+			rs = this.executeGetQuery();
+			
+			try {
+				if (rs.next()) {
+					docdbFamId = rs.getInt("docdb_family_id");
+				}
+			} catch (SQLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			
+			this.query = "select publn.* from tls211_pat_publn as publn"
+					+ " join tls201_appln as appln"
+					+ " on appln.docdb_family_id = " + docdbFamId + " and publn.appln_id = appln.appln_id";
+			
+			rs = this.executeGetQuery();
+			
+			try {
+				while (rs.next()) { 
+					if (tmpPatent.getPublicationNumber().matches(rs.getString("publn_nr"))) {
+						continue;
+					}
+					Patent tmpPatent2 = new Patent();
+					tmpPatent2.setPublicationNumber(rs.getString("publn_nr"));
+					tmpPatent2.setCompanyId(tmpPatent.getCompanyId());
+					tmpPatent2.setPatPublnId(rs.getInt("pat_publn_id"));
+					tmpPatent2.setPublnDateBySqlDate(rs.getDate("publn_date"));
+					patentList.add(tmpPatent2);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		System.out.println("There are [" + patentList.size() + "] patents (after docdb family id) for company id " + company.getID());
+		*/
+		//--------------------------
 		
 		for (i = 0; i < patentList.size(); i++) {
 			Patent tmpPatent = patentList.get(i);
