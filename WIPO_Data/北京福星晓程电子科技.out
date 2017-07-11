@@ -1,0 +1,157 @@
+1. 104714403 FPGA (field programmable gate array)-based time measurement system and method
+CN
+17.06.2015
+G04F 10/00 Loading...
+G04F 10/00
+Loading...
+201510158172.6
+北京福星晓程电子科技股份有限公司
+周斌
+G04F 10/00
+Loading...
+The invention discloses a FPGA (field programmable gate array)-based time measurement system and method. The time measurement system comprises a first time delay chain and a second time delay chain, wherein the first time delay chain is composed of N first time delay units and K second time delay units which are sequentially connected in series, and the second time delay chain is composed of N third time delay units and K fourth time delay units which are sequentially connected in series; and the N(th) first time delay unit in the first time delay chain and the first third time delay unit in the second time delay chain are connected by a connecting line, and the first third time delay unit in the second time delay chain and the N(th) third time delay unit in the first time delay chain are connected by a connecting line so as to form a time delay loop. According to the time measurement system provided by an embodiment of the invention, the transmission of a signal in the time delay loop is not restricted by the finite lengths of the time delay chains by using the time delay loop formed by using the first time delay chain and the second time delay chain.
+2. 103532594 Power line-based communication method and power line-based communication device
+CN
+22.01.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310488776.8
+北京福星晓程电子科技股份有限公司
+周斌
+H04B 3/54
+Loading...
+The invention discloses a power line-based communication method and a power line-based communication device. The method includes the following steps that: (1) before signals are transmitted by a signal transmitter, the noise on a power line is tested; (2) the zero-crossing points of the sine waves of power frequency signals on the power line are determined; (3) a time window with each zero-crossing point as a central point is chosen as a signal transmission window for the signal transmitter; (4) a signal receiver obtains time window information, and receives the signals coming from the signal transmitter within the time windows.
+3. 103312455 通过对信号强度分级进行帧头信号识别的方法及装置
+CN
+18.09.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201310119926.8
+北京福星晓程电子科技股份有限公司
+周斌
+H04L 1/00
+Loading...
+本发明公开一种通过对信号强度分级进行帧头信号识别的方法及装置。本发明的方法对接收信号根据其信号强度分级，在对相关值进行信号识别判决时，对不同的强度级别采用不同的判决门限，这样就可以准确地对信号进行识别。本发明的装置包括：信号强度分级模块，信号强度分级模块根据信号强度大小将接收信号分类成若干个强度级别；判决门限设定模块，判决门限设定模块对于每个强度级别设置不同的判决门限；以及信号识别模块，信号识别模块在对帧头信号的相关值进行信号识别判决时，对不同的强度级别采用与其对应的判决门限。
+4. 103310622 通过控制电表发射强度来确定电表所属台区的方法和装置
+CN
+18.09.2013
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201310119917.9
+北京福星晓程电子科技股份有限公司
+周斌
+G08C 19/00
+Loading...
+本发明公开一种通过控制电表发射强度来确定电表所属台区的方法和装置。根据本发明的方法，在二个集中器收集到同一个电表发出的数据时，使该电表发出的信号强度逐步下降，直至一个集中器收到信号而另一个集中器收不到信号，并判定该电表属于此时能够收到信号的集中器的台区。本发明的装置包括：信号采集模块，其通过集中器收集各个台区中的电表发出的数据；集中器数据传输模块，其将收集的电表数据传输至主台；电表发射强度递减模块，当多个集中器同时收集到同一个电表发出的数据时，使该电表发出的信号强度逐步下降，直至只剩一个集中器能接收到信号；以及台区判定模块，其判断该电表属于经过强度递减处理后仍能收到信号的集中器所对应的台区。
+5. 103312454 通过归一化相关值进行帧头信号识别的方法及装置
+CN
+18.09.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201310119881.4
+北京福星晓程电子科技股份有限公司
+周斌
+H04L 1/00
+Loading...
+本发明公开一种通过归一化相关值进行帧头信号识别的方法及装置。本发明的方法对接收信号的相关值进行归一化，例如将相关值与信号强度相比，利用该比值来进行判决。这样就可以准确地对信号进行识别。本发明的装置包括：帧头信号相关值获取模块，帧头信号相关值获取模块获取接收信号的帧头信号的相关值；相关值归一化处理模块，相关值归一化处理模块将所获取的相关值分别进行归一化处理；以及信号识别判决模块，信号识别判决模块采用归一化处理后的相关值进行信号识别判决。
+6. 103310623 通过检测信号强度来确定电表所属台区的方法和装置
+CN
+18.09.2013
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201310119928.7
+北京福星晓程电子科技股份有限公司
+周斌
+G08C 19/00
+Loading...
+本发明公开一种通过检测信号强度来确定电表所属台区的方法和装置。根据本发明的方法，在主台发现二个集中器收集到同一个电表发出的数据时，令这二个集中器检测接收到该电表发出信号的强度，则可知该电表属于接收信号强度高的一方，从而解决自动抄表系统中的串扰问题。本发明的装置包括：信号采集模块，其通过对应集中器分别收集各个台区中的电表发出的数据；集中器数据传输模块，其将各个集中器收集的电表的数据传输至主台；信号强度检测模块，当主台发现有二个集中器同时收集到同一个电表发出的数据时，指令这二个集中器分别检测同一个电表发出信号的强度；台区判定模块，其判断同一个电表属于接收信号强度大的集中器所对应的台区。
+7. 103209104 家庭能源远程访问及控制系统和方法
+CN
+17.07.2013
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201310066612.6
+北京福星晓程电子科技股份有限公司
+周斌
+H04L 12/28
+Loading...
+本发明提供了一种家庭能源远程访问及控制系统，该系统包括：电力线载波通信模块，位于电器设备上，基于低压电力线载波采集并发送各电器设备的相关数据、接收电力线上传输的各种指令，且根据指令的内容对电器设备进行相应的操作；控制中心服务器，基于低压电力线载波接收相关数据予以存储，并基于电力线载波通信模块向各电器设备转发各种指令；通信衔接模块，用于衔接低压电力线载波和其他通信媒介；通信终端设备，基于其他至少一种通信媒介和通信衔接模块与控制中心服务器相连并进行相关数据的交互和指令的发送。相应地，还提供了一种家庭能源远程访问及控制方法。本发明为用户进行家庭能源的远程访问及控制带来了便利。
+8. 103166722 Estimation method of noise energy
+CN
+19.06.2013
+H04B 17/336 Loading...
+H04B 17/336
+Loading...
+201310060696.2
+北京福星晓程电子科技股份有限公司
+周斌
+H04B 17/336
+Loading...
+The invention provides an estimation method of noise energy. The estimation method comprises a step of receiving a signal which is polluted by noise, a step of calculating an autocorrelation function of the signal to obtain a signal power, and a step of calculating a squared value of the signal, a noise power of the signal and a signal to noise ratio of the signal. By means of the estimation method of the noise energy, calculated quantity of the estimation method of the noise energy is reduced, and at the same time, the estimation method is wide in application range.
+9. 103166675 基于扩频的电力线信号检测及获取方法和系统
+CN
+19.06.2013
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310067174.5
+北京福星晓程电子科技股份有限公司
+周斌
+H04B 3/54
+Loading...
+本发明提供了一种基于扩频的电力线信号检测及获取方法，该方法包括以下步骤：将帧前导信号进行扩频处理的步骤；将包含帧信息的帧头信号进行扩频处理的步骤；通过帧前导信号检测帧信息，通过帧头信号获取帧信息的步骤。相应地还提供了一种基于扩频的电力线信号检测及获取系统。本发明通过对帧前导信号和帧头信号进行扩频处理，提高了信号检测的概率和通信效率，增强了电力线通信系统的可靠性。
+10. 102710293 Adaptive multi-channel communication receiving equipment, system and communication method
+CN
+03.10.2012
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+201210187789.7
+北京福星晓程电子科技股份有限公司
+周斌
+H04L 5/00
+Loading...
+The invention provides an adaptive multi-channel communication method, which comprises the following steps of: modulating data to be transmitted onto one or more of a plurality of channels on a transmission spectrum for transmission by using a transmitter; receiving signals from all the channels, and performing analogue/digital conversion on the received signals to obtain sampled signals by using a receiver; identifying channels through which effective signals are transmitted; and demodulating the sampled signals transmitted through the identified channels. The invention also provides multi-channel receiving equipment and a multi-channel communication system. The performance of the multi-channel communication system can be effectively prevented from being rapidly lowered by burst interference, and the reliability of the multi-channel communication system is enhanced. Effects on a power line carrier communication system are particularly remarkable.
+11. 102299728 Power line carrier communication sending method based on time frequency coding and device
+CN
+28.12.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201110247816.0
+北京福星晓程电子科技股份有限公司
+周斌
+H04B 3/54
+Loading...
+The invention provides a power line carrier communication sending method based on time frequency coding. The sending method comprises the following steps: carrying out spread spectrum treatment on sending data, and forming a plurality of chips; carrying out time frequency coding on the plurality of chips, thus forming a multichannel transmission data, wherein with reference to one path of transmission data, at least one additional transmission data is stored so as to be orthogonal with the one path of transmission data; mapping the multiple paths of transmission data to multiple subcarriers which are subjected to mutual orthogonal frequency division multiplexing; and coupling the transmission data on the subcarriers to a power line for transmission. Correspondingly, the invention also provides a power line carrier communication sending device based on time frequency coding. According to the invention, time frequency coding is carried out on the sending data, so that the diversity gain on a time domain and a frequency domain can be obtained, and further, the transmission reliability of power line carrier communication can be effectively improved; and in addition, the transmission data being subject to time frequency coding has orthogonality, so that decoding can be conveniently performed at a receiving end by virtue of directly adopting maximum likelihood detection with well performance, and further, the decoding complexity of the receiving end can not be increased.
+12. 102237896 Power line carrier communication method as well as sending device and media player device used thereby
+CN
+09.11.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201110160529.6
+北京福星晓程电子科技股份有限公司
+周斌
+H04B 3/54
+Loading...
+The invention provides a power line carrier communication method, comprising the following steps: encoding to-be-transmitted data by a sender, wherein the to-be-transmitted data comprise operational data and non-operational data; allocating communication bandwidth for the operational data and the non-operational data in the encoded to-be-transmitted data dynamically; coupling the encoded to-be-transmitted data to a power line and sending the encoded to-be-transmitted data in the allocated communication bandwidth to a receiver by the power line; and receiving the encoded to-be-transmitted data by the receiver and decoding and processing the encoded to-be-transmitted data. The invention also provides a sending device and a mine media player data used by the method. According to the invention, the utilization rate of the power line communication bandwidth is improved effectively, and high-capacity non-operational data are transmitted at the same time of ensuring the transmission stability of the operation data in a long-distance communication process.
+13. 102014524 Wireless sensor network and power line communication-based chip and monitoring system
+CN
+13.04.2011
+H04W 84/18 Loading...
+H04W 84/18
+Loading...
+201010563484.2
+Beijing Fuxing Xiaocheng Electronic Technology Stock Co., Ltd.
+Cheng Yi
+H04W 84/18
+Loading...
+The embodiment of the invention provides a wireless sensor network (WSN) and power line communication (PLC)-based chip and a monitoring system. The chip comprises a route processing module, a data acquisition module and a multi-carrier communication module. A self-organized network mode of a wireless senor and a multi-hop multi-channel communication mode are used in the route processing module, each chip serving as a node can be dynamically set into a router or a repeater, and a plurality of chips realize automatic network organization. The data acquisition module is used for acquiring data in an external environment in real time through the sensor, an analog-digital/digital-analog converter and a programmable gain amplifier, caching the acquired data through a built-in memory and transmitting the data to the multi-carrier communication module. The embodiment of the invention realizes effective monitoring of the industrial equipment and the environment in a mode of mutually combining power carrier technology and wireless technology.
+

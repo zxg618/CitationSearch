@@ -1,0 +1,529 @@
+1. 103679979 数据处理方法及设备
+CN
+15.02.2017
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+102013000641392
+交通银行股份有限公司
+蒋韧
+G07G 1/14
+Loading...
+本发明公开了一种数据处理方法及设备，其中方法包括：终端确定该终端所属账号需进行账务处理的批上送脱机数据；终端通过无线通信方式上传批上送脱机数据；接收终端通过无线通信方式上传的批上送脱机数据；向终端返回批上送脱机数据接收信息，并根据脱机数据对该终端所属账号进行账务处理；终端在接收到返回的批上送脱机数据接收成功信息后，清除所述批上送脱机数据。采用本发明可以节省收单商户的线路申请与使用费用，联机受理脱机交易，无需网络支持、打印单据。批结操作时，通过手机银行接入银行网络，大大节省收单线路上的投入；无需新增额外设备，只需要有具备近距离无线通讯技术NFC功能的智能机即可，收单业务的灵活性大大提高。
+2. 106330987 动态负荷均衡方法
+CN
+11.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102015000334955
+交通银行股份有限公司
+黄楠
+H04L 29/08
+Loading...
+本发明提供了一种动态负荷均衡方法，所述方法包含：服务器集群中任一服务器接收到所述批处理服务请求时；所述服务器将所述批处理服务请求按业务规则进行划分后，获得多组批处理任务；所述服务器将所述多组批处理任务与服务器集群中的目标服务器匹配并发送通知消息至所述目标服务器；所述服务器将所述批处理任务存储至数据存储设备；所述目标服务器根据所述通知消息从所述数据存储设备中获取对应的所述批处理任务，处理所述批处理任务后输出处理结果至数据存储设备存储；所述服务器从所述数据存储设备中获得所述处理结果。
+3. 106294521 数据存储方法及数据仓库系统
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510329976.8
+交通银行股份有限公司
+童蕙
+G06F 17/30
+Loading...
+本发明公开了一种数据存储方法及数据仓库系统，该数据存储方法包括：确定数据仓库系统中各应用集市之间的独立加工的共性数据；对共性数据按照不同业务主题进行分类，存储到对应的主题集市中，其中，主题集市位于数据仓库系统中的应用集市和基础数据仓库之间，用于向应用集市供应数据以及作为基础数据仓库的补充；删除各应用集市中存储的共性数据。主题集市是面向业务主题的基础数据组织存储，隔离业务需求变更对应用系统架构的影响；主题集市强调建立各应用系统共建共用的共享数据集市，有利于消除系统间孤岛式的数据交流，建立统一的数据标准，解决数据孤岛、重复加工、数据差异、成本过高的问题。
+4. 106293664 代码生成方法及装置
+CN
+04.01.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102015000277985
+交通银行股份有限公司
+仇军
+G06F 9/44
+Loading...
+本发明公开了一种代码生成方法及装置，其中方法包括：对物理数据模型PDM文件进行语义分析，获得PDM文件对象；将PDM文件对象转换为表目录树，其中，表目录树包含与PDM文件对象对应的表对象；将表目录树显示在可视化界面中；在可视化界面中确定需要生成代码的表对象，对所确定的表对象进行表结构信息配置；对系统参数和系统代码模板进行配置，对自定义参数和自定义模板进行配置；将表结构信息、系统参数和自定义参数，填充至由系统代码模板和自定义模板构成的模板群中，生成预览代码；在确认预览代码正确之后，生成与预览代码相对应的前后台代码。本发明可以提高软件程序开发效率、降低开发成本、缩短开发周期。
+5. 106293891 多维投资指标监督方法
+CN
+04.01.2017
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201510320979.5
+交通银行股份有限公司
+陈伟
+G06F 9/46
+Loading...
+本发明提供了一种多维投资指标监督方法，所述多维投资指标监督方法包含：获取指标涉及的因子，根据所述因子匹配指标计算公式并配置所述因子的限定属性；根据指标定义保存的配置信息、因子数值类型和限定属性生成指标计算公式中每个因子的取数SQL；执行指标的各取数SQL，将获得的执行结果代入所述指标计算公式中得到计算结果后存储。以此，提供使用人员自定义指标的功能，符合投资监督指标的多样性、易变性特点，提高了技术预见性，降低了项目投入成本；利用数据库SQL的拼接运行，规范了应用语言，提高了应用的正确性，高效性；依靠数据库自身优化能力，提高了程序运行效率，相同工作在新方案的应用下性能提高300％。
+6. 106294486 金融行情数据的处理方法及系统
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000307320
+交通银行股份有限公司
+李翊
+G06F 17/30
+Loading...
+本发明提供了一种金融行情数据的处理方法及系统，涉及金融行情数据处理技术领域。方法包括：在市场数据源有数据更新时，实时获取市场数据源的市场更新数据；对市场更新数据进行抽取及解析，生成金融行情原始数据，并实时更新到内存数据库中；侦听内存数据库中金融行情原始数据的更新变化，并对金融行情原始数据进行处理，生成金融行情预处理数据，并实时更新到内存数据库中；接收内存数据库数据处理请求，对内存数据库中的各类型的金融行情预处理数据进行处理；接收外部应用系统发送的金融行情数据查询请求或者订阅请求，根据业务逻辑对所述金融行情预处理数据进行处理，生成更新后的金融行情报价数据，并返回给所述外部应用系统。
+7. 106296399 业务规则公式化的数据处理方法和系统
+CN
+04.01.2017
+G06Q 40/04 Loading...
+G06Q 40/04
+Loading...
+201510319135.9
+交通银行股份有限公司
+肖文生
+G06Q 40/04
+Loading...
+本发明提供了一种业务规则公式化的数据处理方法和系统，该方法包括：接收数据处理请求；根据所述数据处理请求获取对应的规则表达式；根据所述规则表达式对所述数据处理请求对应的数据进行处理。该方法能够提高数据处理系统的灵活性，降低维护成本。
+8. 103326950 一种银行卡数据流量控制方法及系统
+CN
+10.08.2016
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+102013000247595
+交通银行股份有限公司
+郑仕辉
+H04L 12/801
+Loading...
+本发明提供一种银行卡数据流量控制方法及系统，该方法包括：通过压力测试获取银行核心账务系统CB的联机交易平均处理时间的最大可承受值M；实时采集当前的联机交易平均处理时间R及跨行类交易的并发量P；比较R与M的大小，并生成比较结果；根据所述的比较结果调整卡交换处理系统CPS上送CB的通道数N，使得N满足：P*R≤N≤P*M。本发明实时检测联机交易平均处理时间R及跨行类交易的并发量P，通过比对R于最大可承受值M的大小调整CPS上送CB的通道数，可以将部分待处理的联机交易暂停上送，提高了数据处理性能，最大限度的提高了卡类联机交易的处理效率。
+9. 105096106 一种利用互联网缴纳学费的系统
+CN
+25.11.2015
+G06Q 20/10 Loading...
+G06Q 20/10
+Loading...
+201510403779.6
+交通银行股份有限公司
+牛甲荣
+G06Q 20/10
+Loading...
+本发明提出了一种利用互联网缴纳学费的系统，该系统与用户的终端之间通过互联网通信连接，包括：银行服务器、学校服务器，银行服务器与学校服务器之间通信连接；银行服务器包括：信息接收模块、签名验证模块、支付信息验证模块、款项处理模块，学校服务器包括：身份信息认证模块、缴费信息获取模块、支付订单生成模块。本发明提出的利用互联网缴纳学费的系统具有新颖的架构，该系统利用较低成本解决了学校代收学费问题，节省了人财物的投入，满足了高校对于收取学费的需求，保证了学校数据的安全，同时还方便了学生缴纳学费，提升了学生的体验，收获了社会效益。
+10. 105100050 用户权限管理方法及系统
+CN
+25.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510282086.6
+交通银行股份有限公司
+白宗杰
+H04L 29/06
+Loading...
+本发明公开了一种用户权限管理方法及系统，其中方法包括：确定用户权限数据库中的用户权限相关信息发生变更后，根据用户活跃度属性确定要进行权限计算的用户列表；根据所述用户列表，将用户权限数据库中的用户权限相关信息分布至不同的应用服务器上；在每台应用服务器上根据用户权限相关信息进行权限计算，将计算获得的用户权限信息存储至缓存数据库。采用本发明可以缓解服务器压力并保证用户权限信息的实时性，提升用户权限信息的查询效率。
+11. 104866531 快速访问银行客户信息数据的方法及系统
+CN
+26.08.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510205404.9
+交通银行股份有限公司
+常勇
+G06F 17/30
+Loading...
+本发明提供了一种快速访问银行客户信息数据的方法及系统，所述系统包含：银行终端、银行电子渠道应用系统和内存缓存系统；所述银行终端与所述银行电子渠道应用系统通信连接，用于根据用户操作指令输出访问请求；所述银行电子渠道应用系统与所述内存缓存系统通信连接，用于接收所述访问请求并向内存缓存系统发起访问请求和接收反馈结果输出至所述银行终端；所述内存缓存系统包含复数台服务器，所述复数台服务器分别与所述客户信息数据同步层通信连接，用于接收到银行电子渠道应用系统发起的访问请求，并根据访问请求查询本地应用内存中存储的银行客户信息数据，根据所述银行客户信息数据，输出反馈结果至所述银行电子渠道应用系统。
+12. 104866584 一种基于业务规则的数据分区方法及装置
+CN
+26.08.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510280258.6
+交通银行股份有限公司
+江晶
+G06F 17/30
+Loading...
+本发明涉及一种基于业务规则的数据分区方法及装置，其中，方法包括：对业务交易数据按照表的形式进行分类；在相关联的业务交易涉及到的数据表中，将访问概率大的数据表部署在相同事务处理节点上。与现有技术方案相比，本技术方案增加事务处理节点横向扩展事务处理能力，减轻单节点处理压力，同时将提升事务的处理性能。
+13. 103679979 Data processing method and data processing equipment
+CN
+26.03.2014
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+201310641392.5
+BANK OF COMMUNICATIONS CO., LTD.
+JIANG REN
+G07G 1/14
+Loading...
+The invention discloses a data processing method and data processing equipment. The data processing method includes that a terminal determines batch-submitting offline data, needing accounting treatment, of an account to which the terminal belongs; the terminal uploads the batch-submitting offline data by means of wireless communication; the batch-submitting offline data uploaded by the terminal by means of wireless communication are received; receiving information of the batch-submitting offline data is returned to the terminal, and accounting treatment is performed on the account to which the terminal belongs according to the offline data; the batch-submitting offline data are cleared after the terminal receives returned successful receiving information of the batch-submitting offline data. By the method and the equipment, line application and using cost of acquiring merchants can be saved, online acceptance of offline transactions can be realized, and network supporting and receipt printing are not needed. During batch settlement operation, a bank network is accessed through mobile banking, so that investment on acquiring lines are greatly saved; adding of extra equipment is not needed, and only an intelligent machine with a near field wireless communication (NFC) technology function is needed, so that flexibility of acquiring service is greatly improved.
+14. 103440128 Data processing method and device
+CN
+11.12.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310368103.9
+交通银行股份有限公司
+丁益斌
+G06F 9/44
+Loading...
+The invention provides a data processing method and device. The method includes the steps that data to be processed are received; a rule stream model is determined according to the content of the data to be processed; data content saved by each node in the rule stream model is compiled according to a predefined compiling limitation, and an executable script is obtained, wherein the data content of different types corresponds to different compiling limitations; the executable script is called to process the data to be processed. By the aid of the above mode, the data processing method and device solve the technical problem that data processing flexibility is low due to the fact that data processing based on rules is conducted through the preset executable script in the prior art, and therefore the technical effect that the flexibility of data processing by the adoption of the rules is effectively improved is achieved.
+15. 103337116 一种实现实时到账功能的电话收单系统及方法
+CN
+02.10.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201310277181.8
+交通银行股份有限公司
+蒋韧
+G07G 1/00
+Loading...
+本发明涉及一种实现实时到账功能的电话收单系统及方法，其中，所述电话支付终端与商户的银行账户绑定；所述电话支付终端，用于获取持卡人与商户之间的交易金额信息，并将所述交易金额信息传输至所述电话收付服务器；所述电话收付服务器，用于根据所述交易金额信息计算出实时本行消费手续费，并向所述收单行服务器发送调用信令；所述收单行服务器，包括电话支付终端实时消费交易接口，用于检测到所述电话收付服务器调用信令后触发所述电话支付终端实时消费交易接口实时完成消费交易；即所述收单行服务器扣持卡人账户余额获取交易金额，并从所述交易金额中扣除所述实时本行消费手续费，剩余余额实时转至所述商户的银行账号。
+16. 103324715 一种灾备系统可用性检测方法及装置
+CN
+25.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310251521.X
+交通银行股份有限公司
+郑仕辉
+G06F 17/30
+Loading...
+一种灾备系统可用性检测方法及装置，该方法包括：步骤S101：获取数据中心的生产环境及灾备环境的配置和运行状态信息；步骤S102：根据灾备切换高可用模型从获取的所述配置和运行状态信息中抽取信息，形成生产/灾备高可用运行指标；步骤S103：进行生产/灾备高可用运行指标比对，生成各指标项的差异；步骤S104：将所述的差异转换成告警信息或生成统计报表。本发明通过与数据中心的ITIL流程相结合，在大幅度减少为验证灾备切换可用性而进行的实战演练的前提下，能及时发现和跟踪和解决生产/灾备环境存在的可能影响灾备系统高可用的问题。
+17. 103326950 一种银行卡数据流量控制方法及系统
+CN
+25.09.2013
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201310247595.6
+交通银行股份有限公司
+郑仕辉
+H04L 12/801
+Loading...
+本发明提供一种银行卡数据流量控制方法及系统，该方法包括：通过压力测试获取银行核心账务系统CB的联机交易平均处理时间的最大可承受值M；实时采集当前的联机交易平均处理时间R及跨行类交易的并发量P；比较R与M的大小，并生成比较结果；根据所述的比较结果调整卡交换处理系统CPS上送CB的通道数N，使得N满足：P*R≤N≤P*M。本发明实时检测联机交易平均处理时间R及跨行类交易的并发量P，通过比对R于最大可承受值M的大小调整CPS上送CB的通道数，可以将部分待处理的联机交易暂停上送，提高了数据处理性能，最大限度的提高了卡类联机交易的处理效率。
+18. 103218716 安全认证终端Ukey、网银操作方法及设备
+CN
+24.07.2013
+G06Q 20/40 Loading...
+G06Q 20/40
+Loading...
+201310070653.2
+交通银行股份有限公司
+刘华
+G06Q 20/40
+Loading...
+本发明公开一种安全认证终端Ukey、网银操作方法及设备，该安全认证终端Ukey包括：安全存储单元，用于存储个人信息或证书；核心加解密运算芯片，与安全存储单元连接，用于提供密码验证功能；通用串行总线USB有线通信接口，与核心加解密运算芯片连接，用于以有线方式传输数据；无线通信控制单元，与核心加解密运算芯片连接；无线通信接口，与无线通信控制单元连接，用于以无线方式传输数据；无线通信控制单元及无线通信接口用于配合核心加解密运算芯片组成无线安全防护套件。通过集成无线接口的UKey来保障移动终端上的客户个人金融业务的安全，达到和计算机一样的安全防护级别，让用户可使用UKey在移动终端上以和计算机同样的安全性进行无线连接方式下的个人金融业务。
+19. 103207902 一种金融客户端数据更新方法及系统
+CN
+17.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310100184.4
+交通银行股份有限公司
+李海翔
+G06F 17/30
+Loading...
+本发明提供一种金融客户端数据更新方法及系统，该金融客户端数据更新方法包括：将金融客户端划分为多个模块；从版本服务器获取当前最新版本的cfg.xml配置文件；将所述金融客户端的当前cfg.xml与所述当前最新版本的cfg.xml配置文件进行比较，生成包含所述多个模块中的一或多个模块的差异文件；将所述的差异文件上传至所述的版本服务器；根据所述版本服务器返回的下载列表地址更新所述的一或多个模块。本发明通过将客户端的应用划分为多个模块，根据用户的选择对需要更新的全部或部分模块进行更新，可以提高金融客户端更新的速度与效率。
+20. 103150365 Method and equipment for performing fuzzy search by using background system of bank
+CN
+12.06.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310069458.8
+交通银行股份有限公司
+张明皓
+G06F 17/30
+Loading...
+The invention discloses a method and equipment for performing fuzzy search by using a background system of a bank. The method comprises the following steps: a foreground system transmits customer information inquiry request carrying the foreground input condition to a customer information system of the background; the customer information system submits the customer information inquiry request to a search engine server; the search engine server performs fuzzy search according to the foreground input condition carried by the customer information inquiry request and returns a customer number positioned by the fuzzy search to the customer information system; the customer information submits the customer number to a database server; the database server inquires the customer information according to the customer number and returns the inquired customer information to the customer information system; and the customer information system returns the customer information to the foreground system. The search engine server is used in combination with the customer information system to provide quick fuzzy search for the foreground system, so the fuzzy search speed is high and the average inquiry time can be reduced from about 15 seconds to about 400 milliseconds.
+21. 103106747 一种ATM机自助银行快捷操作方法及系统
+CN
+15.05.2013
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+201210548805.0
+交通银行股份有限公司
+尤宇昊
+G07F 19/00
+Loading...
+本发明实施例提供一种ATM机自助银行快捷操作方法及系统，所述ATM机自助银行快捷操作方法包括：当用户在ATM机中插入银行卡后，进行密码验证；所述密码验证通过后，利用语音识别及语义解析服务器进行识别，获取用户通过语音表述的待办业务的识别结果；利用菜单服务器，获取与所述用户通过语音表述的待办业务的识别结果匹配的ATM机菜单。本发明实施例达到了如下的技术效果：将ATM机交互菜单、语音识别、语义解析技术相结合，为用户提供了一种安全快捷的菜单导航操作方法，能够有效减少用户与ATM机的交互次数，提升ATM机的使用效率。
+22. 103092967 一种基于规则引擎的业务规则决策方法及装置
+CN
+08.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310024863.8
+交通银行股份有限公司
+丁益斌
+G06F 17/30
+Loading...
+本发明实施例提供一种基于规则引擎的业务规则决策方法及装置，所述方法包括：利用一面向业务领域语言的规则引擎中的类选项分别获取用户输入的类选项对应的业务对象的业务规则信息；根据所述用户输入的类选项对应的业务对象的业务规则信息，利用所述面向业务领域语言的规则引擎中的业务对象模型注解库、注解解析处理程序和业务对象模型元数据描述数据库进行解析；获取所述面向业务领域语言的规则引擎进行解析后对应的业务规则决策结果。本发明能够利用接近自然语言的“业务领域语言”编辑业务规则的方法，并利用编辑好的规则进行系统自动决策。通过本发明上述技术方案，业务经理可以顺利的编辑业务规则，大幅提升生产效率，快速响应市场变化。
+23. 102968721 一种手机收单系统
+CN
+13.03.2013
+G06Q 20/16 Loading...
+G06Q 20/16
+Loading...
+201210468133.2
+交通银行股份有限公司
+陈松
+G06Q 20/16
+Loading...
+本发明提供一种手机收单系统。该手机收单系统通过银行收单前置系统与银行服务器相连；其中：所述的手机收单系统包括手机和收单终端，手机与收单终端相连；收单终端包括：通讯接口，与手机的数据接口相连；读卡区，用于读取银行卡，以获取银行卡信息；密码键盘，用于输入银行卡交易密码，并将银行卡交易密码通过通讯接口发送至手机；手机包括：通信模块，用于通过无线网络登录手机银行，与所述的银行收单前置系统通信；输入模块，用于输入收单请求信息；处理器，用于接收收单请求信息，并将收单请求信息以交易报文的方式发送给银行服务器，并接收银行服务器返回的收单请求处理结果信息；输出模块，用于输出收单请求处理结果信息。
+24. 102903191 一种基于银行卡的用户消费提醒装置及方法
+CN
+30.01.2013
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+201210392853.5
+交通银行股份有限公司
+江晶
+G07G 1/14
+Loading...
+本发明实施例提供一种基于银行卡的用户消费提醒装置及方法，所述基于银行卡的用户消费提醒装置，包括：消费累计单元，用于累计银行卡用户每月或每年的刷卡消费金额；消费对比单元，用于利用累计的所述刷卡消费金额与所述银行卡用户设定的每月或每年的消费计划额度比例进行对比；消费提醒单元，用于当累计的所述刷卡消费金额超过所述银行卡用户设定的每月或每年的消费计划额度比例时，提醒所述银行卡用户。本发明实施例达到了如下的技术效果：提供了一种能够专门针对盲目消费或超出能力的消费进行有效提醒的技术方案，可以提供客户友善和理智的消费提醒，杜绝盲目或超出能力的消费，可减少他们盲目消费的冲动。
+25. 102890844 Integrated bank self-service equipment
+CN
+23.01.2013
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+201210273294.6
+交通银行股份有限公司
+张常胜
+G07F 19/00
+Loading...
+The embodiment of the invention provides integrated bank self-service equipment. The equipment comprises a basic input unit, an identity information acquisition unit, a service information acquisition unit and an output unit, wherein the basic input unit is used for receiving an operating instruction of a user and reading a bank card inserted by the user and comprises a touch screen, a password keyboard and a bank card reader; the identity information acquisition unit is used for acquiring identity information of the user; the service information acquisition unit is used for acquiring service information related to a private or public bank service and comprises a bank bill scanning and storage module, a passbook reading module and a check reading module; and the output unit is used for outputting service processing information or a processing result related to the private or public bank service and comprises a receipt printer, a journal printer, a passbook printer, a receipt printing and stamping module, a self-service card issuing module and a bank certificate issuing module. The self-service equipment can accept cash/non-cash, domestic currency/foreign currency and private/public bank services and the like.
+26. 202150137 一种银行卡申请系统
+CN
+22.02.2012
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+201120253701.8
+交通银行股份有限公司
+王锦民
+G06Q 40/00
+Loading...
+本实用新型的技术方案是提供了一种银行卡申请系统，包括审核银行卡申请信息的业务处理模块，其特征在于：业务处理模块通过有线或无线方式连接服务器，服务器通过无线网络与至少两台用于录入银行卡申请信息的移动式智能终端通信，每台移动式智能终端内置摄像头或者连接外置的摄像头，在每台移动式智能终端上还连接有身份证读取设备及便携式打印机。本实用新型的优点是：提供一种便于对银行卡申请信息进行管理，提高银行卡申请效率，同时，低碳环保的办理银行卡申请的系统。
+27. 102231200 Method for transacting bankcard application through mobile intelligent terminal
+CN
+02.11.2011
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+201110201054.0
+Bank of Communications Co.,Ltd.
+Wang Jinmin
+G06Q 40/00
+Loading...
+The invention provides a method for transacting bankcard application through a mobile intelligent terminal. The method is characterized by comprising the following steps that: firstly, the mobile intelligent terminal is distributed to each salesman who is in charge of transacting the bankcard application and all the mobile intelligent terminals communicate with a server at the rear end through a wireless network; secondly, the salesman at the front end records basic client information required by the bankcard application through the mobile intelligent terminal; then the information is transmitted to the server at the rear end; after the information is processed, a business processing module calls client bankcard application information stored in a database; and a bank auditor audits the information and judges whether to approve to transact a bankcard. The invention has the advantage that: a low-carbon and environment-friendly method for transacting the bankcard application is provided; and by the method, management of the bankcard application information is facilitated and the bankcard application efficiency is improved.
+28. 101872513 Data processing method, device and system based on POS (Point-Of-Sale) machine
+CN
+27.10.2010
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201010185396.3
+Bank of Communications Limited
+Hou Weidong
+G07G 1/00
+Loading...
+The invention provides data processing method, device and system based on a POS (Point-Of-Sale) machine, wherein the method comprises the following steps of: receiving a cardless consumption request which is from the POS machine, input by a user and includes a sign mobile phone number, a preset authentication code, a trader password and a consumption sum; authenticating the received sign mobile phone number and preset authentication code according to the preset reserved cardless consumption information which is preset and includes a sign mobile phone number, a bank card number, a preset authentication code and a reserved consumption sum; when the received sign mobile phone number is identical to the preset sign mobile phone number, the received preset authentication code is identical to the preset authentication code and the consumption sum is less than or equal to a reserved consumption sum, sending the received trader password and consumption sum to a bank background relevant to the bank card number for authentication; receiving a message for indicating that the authentication on the trader password and the consumption sum is successful and a message for indicating that debit operation is finished from the bank background and sending a message for indicating that cardless consumption is successful to the POS machine.
+29. 201584980 一种数据中心集中式控制切换系统
+CN
+15.09.2010
+H04L 1/22 Loading...
+H04L 1/22
+Loading...
+201020121911.7
+交通银行股份有限公司
+侯维栋
+H04L 1/22
+Loading...
+本实用新型提供一种数据中心集中式控制切换系统，包括2个数据中心，各包括：多台服务器；智能存储器，连接于所在数据中心的服务器和另一个数据中心的智能存储器；切换控制机，连接于所在数据中心的服务器和智能存储器以及另一个数据中心的服务器和智能存储，用于接收切换指令，控制指定的服务器执行IP修改脚本，将至少一对服务器的生产IP地址由待停用服务器切换给待启用服务器使用。本实用新型采用切换管理脚本、同城存储级数据同步使大规模开放系统中的服务器快速从主生产中心自动化切换到同城的备份中心运行，提供了高可靠、高效率、高可控的全局化切换管理。
+30. 101807985 Datacenter centralization control switching method and system
+CN
+18.08.2010
+H04L 1/22 Loading...
+H04L 1/22
+Loading...
+201010116438.8
+Industrial Bank Co., Ltd.
+Hou Weidong
+H04L 1/22
+Loading...
+The invention relates to a datacenter centralization control switching method and a system. The method comprises the following steps that: a switching command is received, the switching command at least appoints a pair of servers which are arranged in two data centers; by managing IP address, a server stopping script is executed on a server to be stopped; IP alerting script is executed on at least a pair of servers according to the switching command, and the IP address which is produced by the pair of servers is switched from the server to be stopped to the server to be started; the primary-secondary relationship of a consistency group of the pair of servers in an intelligent memory is exchanged; and by managing the IP address, the applied script of the server is executed on the server to be started. By adopting handoff management script and the intra-city memory data synchronism, the server in the large-scale opening system is automatically switched from the main production center to an intra-city backup center to run, and the high-reliable, high-efficient and high-controllable globalization switching management is provided.
+31. 101807319 Authentication method and system based on ATM
+CN
+18.08.2010
+G07F 7/00 Loading...
+G07F 7/00
+Loading...
+201010116443.9
+Industrial Bank Co., Ltd.
+Hou Weidong
+G07F 7/00
+Loading...
+The invention provides an authentication method and an authentication system based on an ATM. The authentication method based on an ATM comprises the following steps of: receiving a user-input appointed withdrawal request including a contract mobile telephone number, an authentication code, a withdrawal sum and a trading password; acquiring preset appointed withdrawal information including a bank card number, the authentication code, the withdrawal sum and the trading password from the mobile phone bank based on the contract mobile telephone number; and authenticating the received appointed withdrawal request based on the acquired appointed withdrawal information to output the sum which is the same with the withdrawal sum in the appointed withdrawal request when the authentication is successful. The invention can overcome the problem that the bank authentication is necessary for the ATM withdrawal in the prior art, thereby facilitating the user of withdrawing money from the ATM.
+32. 101789153 Magnetic card magnetic medium information safety writing method and system
+CN
+28.07.2010
+G07F 7/10 Loading...
+G07F 7/10
+Loading...
+201010022415.0
+Bank of Communications Co., Ltd.
+Qian Fei
+G07F 7/10
+Loading...
+The invention provides a magnetic card magnetic medium information safety writing method and a system, and the method comprises the following steps: receiving a magnetic card magnetic medium information modification request inputted by a user; reading original magnetic card magnetic medium information containing additional data from a magnetic card according to the magnetic card magnetic medium information modification request; comparing the read original magnetic card magnetic medium information with the stored magnetic card magnetic medium information containing the additional data; calculating the read original magnetic card magnetic medium information if the read original magnetic card magnetic medium information is the same with the stored magnetic card magnetic medium information, and generating the new magnetic card magnetic medium information; and writing the new magnetic card magnetic medium information into the magnetic card. The method and the system can lead the magnetic card magnetic medium information stolen by a criminal to become invalid by changing the magnetic card magnetic medium information of the magnetic card, thereby protecting interests of the magnetic card user.
+33. 201504266 一种基于电话银行的用户语音处理系统
+CN
+09.06.2010
+H04M 3/493 Loading...
+H04M 3/493
+Loading...
+200920078341.5
+交通银行股份有限公司
+陈松
+H04M 3/493
+Loading...
+本实用新型提供一种基于电话银行的用户语音处理系统，包括电话终端，向语音应答服务器发送拨号信息，向语音识别设备发送用户语音应答信息；语音识别设备，将用户语音应答信息识别为文字信息；功能匹配设备，将文字信息与业务信息进行匹配，并将匹配结果发送给语音应答服务器；语音应答服务器，根据电话终端发送的拨号信息反馈语音提示信息；将匹配结果发送给所述的后台服务器，接收后台服务器发送的业务处理结果，并将业务处理结果发送给电话终端；后台服务器，对从语音应答服务器接收的匹配结果进行业务处理，并将业务处理结果发送给语音应答服务器。减少了用户与语音应答服务器的交互次数，提高了语音应答服务器的运行效率。
+34. 101719257 Method and system for shunting online transaction business of mainframe
+CN
+02.06.2010
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+200910200087.6
+Bank of Communications Co., Ltd.
+Hou Weidong
+G06Q 30/00
+Loading...
+The invention provides a method and a system for shunting an online transaction business of a mainframe. The method comprises the following steps of: obtaining the CPU usage rate of a production center of a mainframe; judging whether the obtained CPU usage rate is higher than the preset highest CPU usage rate or lower than the preset lowest CPU usage rate; if the obtained CPU usage rate is higher than the preset highest CPU usage rate, calling a business shunting script to shunt a shunting business corresponding to the business shunting script to a backup center of the mainframe; and if the obtained CPU usage rate is lower than the preset lowest CPU usage rate, and the backup center of the mainframe has the shunting business, calling a business shunting return script to return the shunting business corresponding to the business shunting return script to the production center of the mainframe. The invention can realize the load balance between the production center and the backup center of the mainframe; and when the pressure of the production center is overlarge, a transaction shunting mechanism is automatically started so that the backup center shares part of businesses to lighten the pressure of the production center.
+35. 101719258 Method and system for processing remote double-center transaction information based on large computer
+CN
+02.06.2010
+G06Q 40/04 Loading...
+G06Q 40/04
+Loading...
+200910200086.1
+Bank of Communications Co., Ltd.
+Hou Weidong
+G06Q 40/04
+Loading...
+The invention discloses a method and a system for processing remote double-center transaction information based on a large computer, and provides a set of remote double-center transaction processing operating scheme based on the large computer. The method comprises the steps of: receiving sent transaction information including transaction type data; finding out transaction information with required shared resource quantity less than a preset threshold during the processing according to the transaction type data; and when the utilization rate of a CPU exceeds a preset safety threshold, sending the transaction information with required shared resource quantity less than the preset threshold during the processing to a backup processing center for processing. The system comprises a main processing center and a backup processing center. The method and the system for processing the transaction information realize remote double-processing center transaction processing of a large computer parallel coupling system including the main processing center and the backup processing center, increase the physical distance of two centers, improve the processing capacity and the reliability of the transaction system, and fully utilize the resources of the backup processing center.
+36. 101719259 Maintenance management method, device and system for bank network devices
+CN
+02.06.2010
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+200910200088.0
+Bank of Communications Co., Ltd.
+Dai Kaiming
+G06Q 40/00
+Loading...
+The invention provides a maintenance management method, a device and a system for bank network devices. The maintenance management method comprises the following steps: receiving a maintenance management request which comes from a request device and is used for maintenance management of the network devices; authenticating the maintenance management request according to a preset password; when the authentication on the maintenance management request is successful, acquiring maintenance management information related to the maintenance management request from the maintenance service center; and carrying out the maintenance management operation on the network devices according to the maintenance management information. The invention can save resources and enhance work efficiency.
+37. 201429873 一种基于ATM机的身份认证装置
+CN
+24.03.2010
+G07F 7/00 Loading...
+G07F 7/00
+Loading...
+200920078035.1
+交通银行股份有限公司
+刘雷
+G07F 7/00
+Loading...
+本实用新型提供一种基于ATM机的身份认证装置，上述装置包括：摄像单元，与ATM主机相连，对上述ATM机用户进行摄像，生成上述ATM机用户的图像；面部数据提取单元，与上述摄像单元相连，对上述ATM机用户的图像进行处理，采集上述ATM机用户的面部数据；比对认证单元，与上述面部数据提取单元相连，利用预置的上述ATM机用户的面部数据与上述面部数据提取单元采集的上述ATM机用户的面部数据进行比对，比对通过则通过上述ATM机用户的身份认证。本实用新型上述方案达到了认证ATM机用户身份的目的，具有使ATM机用户取款或转帐更加安全的技术效果。
+38. 101631305 Encryption method and system
+CN
+20.01.2010
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200910055441.0
+Bank of Communications
+Li Hao
+H04L 9/32
+Loading...
+The invention relates to the technical field of encryption, in particular to an encryption method and a system, wherein, the method comprises the following steps that a system end receives a transaction request sent by a mobile communication terminal, and an encryption protection secret key is obtained from the transaction request; and the system end forms an encrypt/ decrypt code secret key according to the transaction request of the mobile communication terminal, and the encryption protection secret key is used for encrypting and transmitting the code secret key into the mobile communication terminal. The invention has the advantages that when the client end of the mobile communication terminal starts transaction, a new code secret key is obtained from the system end each time and is used as a code for the encryption client starting the business request, thereby realizing the high grade encryption effect with one-time code.
+39. 101625740 Application business monitoring method, device and system
+CN
+13.01.2010
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+200910055440.6
+Bank of Communications Co., Ltd.
+Song Zhanjun
+G06Q 10/00
+Loading...
+The invention provides an application business monitoring method, a device and a system, and the method comprises the steps of obtaining data information in a temporary historical transaction data file in an application business core system, wherein, the data information is the data information after the completion of the application business current transaction; carrying out system problem monitoring on the obtained data information according to preset rules and parameters, simultaneously storing the data information into a permanent historical transaction data file, notifying the application business core system to delete the data information in the temporary historical transaction data file and carrying out application business data problem monitoring on the data information in the permanent historical transaction data file according to needs. The embodiment of the invention can automatically carry out monitoring on system problems and application business data problems during the application business treatment process.
+40. 101625749 Method, server and system for on-line batching data
+CN
+13.01.2010
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+200910056549.1
+Bank of Communications Co., Ltd.
+Guo Yong
+G06Q 40/00
+Loading...
+The invention provides a method, a server and a system for on-line batching data, wherein the method comprises the following steps: receiving data transmitted by one or more first parties in an on-line mode, wherein the data comprises service data of a user and an agency service number which is agreed by the first party and the user; according to the agency service number, carrying out legality validation on the service data; and when the legality validation is successful, carrying out batching operation on the service data. The invention can improve resource utilization ratio.
+41. 101609673 User voice processing method based on telephone bank and server
+CN
+23.12.2009
+G10L 15/26 Loading...
+G10L 15/26
+Loading...
+200910054567.6
+Bank of Communications Co., Ltd.
+Chen Song
+G10L 15/26
+Loading...
+The invention provides a user voice processing method based on a telephone bank and a server. The method comprises the following steps: receiving service request information sent by a client terminal; returning voice prompt information to the client terminal according to the service request information; receiving the user voice responsion information and/or keystroke responsion information fed back by the client terminal according to the voice prompt information; converting the user voice responsion information into character information; acquiring service information corresponding to the character information; processing the service information and sending the processing result to the client terminal. The embodiment of the invention reduces the information interaction times of a user and an IVR system, saves the service processing time and improves the running efficiency of the IVR system.
+42. 101609453 一种分隔页、以及利用该分隔页的文件分类的方法和装置
+CN
+23.12.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910054562.3
+交通银行股份有限公司
+李剑锋
+G06F 17/30
+Loading...
+本发明实施例提供一种分隔页、以及利用该分隔页的文件分类的方法和装置，其中所述方法包括：在对通过分隔页区分的不同类型的数个文件依序进行扫描后，按序生成包括所述分隔页和数个文件的图像；根据所述图像的几何特征查找分隔页图像；根据查找到的分隔页图像对所述不同类型的数个图像化文件进行分类。本发明实施例的优点在于：通过设计一种简单的分隔页，可以使得在对图像化的文件进行分类时提高识别分隔页的效率，进而可以根据识别出的分隔页对不同类型的文件进行分类操作，使得对文件的分类不仅简单、方便、快速，而且无需更改硬件配置。
+43. 101604379 ATM-based identity authentication method and device
+CN
+16.12.2009
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+200910054553.4
+Bank of Communications Co., Ltd.
+Liu Lei
+G06K 9/00
+Loading...
+The invention provides an ATM-based identity authentication method and a device. The device comprises: a camera unit which is connected with an ATM main machine is used for photo shooting for ATM users and generating images of the ATM users; a face data extracting unit which is connected with the camera unit is used for processing the images of the ATM users and gathering face data of the ATM users; a comparison authentication unit which is connected with the face data extracting unit is used for comparing the pre-set face data of the ATM users and face data of the ATM users gathered from the face data extracting unit, and comparison correspondence means right authentication of the ATM users. The invention achieves the aim of the authentication of ATM users, thus having safer technology effects of money withdrawal or transfer for ATM users.
+44. 101599825 System, server and method for information verification
+CN
+09.12.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200910054554.9
+Bank of Communications Co., Ltd.
+Li Rui
+H04L 9/00
+Loading...
+The invention provides a system, a server and a method for information verification, wherein, the method comprises: receiving an information sending request sent by an information sending end; generating a random code according to the information sending request and then storing the random code; sending the random code to the information sending end; receiving an information packet sent by the information sending end and including information to be verified and a verification code generated by the encryption of the information to be verified and the random code, and extracting the information to be verified and the verification code; generating an identifying code by means of encryption according to the stored random code and extracted information to be verified; checking whether the identifying code is identical to the verification code, if so, the information to be verified passes the verification. The embodiment of the invention guarantees security and integrity of information by encrypting and verifying the information to be verified.
+

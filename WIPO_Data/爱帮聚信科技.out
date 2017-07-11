@@ -1,0 +1,37 @@
+1. 103970747 网络侧计算机对搜索结果进行排序的数据处理方法
+CN
+15.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000029550
+爱帮聚信（北京）科技有限公司
+刘建国
+G06F 17/30
+Loading...
+本发明提供一种网络侧计算机对搜索结果进行排序的数据处理方法。所述方法包括：网络侧计算机接收用户终端发送的搜索请求，所述搜索请求携带有用户欲搜索关键词；所述网络侧计算机根据所述关键词，搜索得到文档数据；所述网络侧计算机获取所述关键词与所述文档数据相关的相关参数；所述网络侧计算机提取所述文档数据的完整度权重；所述网络侧计算机根据所述相关参数及完整度权重，计算所述文档数据的排序权重；所述网络侧计算机根据所述排序权重对所述文档数据进行排序，并向所述用户终端返回排序结果。较现有技术，采用本发明实施例提供的所述方法得出的排序结果的有效性更高。
+2. 101582070 Local search ordering method
+CN
+18.11.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810111876.8
+Aibang Juxin (Beijing) Information Technology Co., Ltd.
+Zhou Limin
+G06F 17/30
+Loading...
+The invention discloses a local search ordering method, which comprises the following steps: acquiring commercial tenant document weight according to commercial tenant information in the commercial tenant document; obtaining commercial tenant weight according to key words input by a user and the commercial tenant document weight; and ordering the commercial tenant document according to the commercial tenant weight. By using the local search ordering method, information which has better quality and better meets user demand can be provided for users.
+3. 101576892 Method and device for determining location and region
+CN
+11.11.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810105995.2
+Chuang Rui Xin Tong (Beijing) Co., LTD
+Zhou Limin
+G06F 17/30
+Loading...
+The invention relates to a method and a device for determining locations and regions. The method comprises the following steps: matching a merchant with address data in an address database according to acquired address words and acquired key words; when detecting that the number of the references to the address data of the merchant is greater than a first threshold, determining a geometric figure according to a maximum coordinate value and a minimum coordinate value in the address data, partitioning the geometric figure and clustering blocks according to the distance between the blocks; if the number of the references to the address data of the merchant is no greater than the first threshold, outputting the address data of the merchant to an error record file; arranging clustering results in a descending order according to the quantity of the address data of each clustering result; calculating the centre and radius of each clustering result and deleting the clustering results at a distance greater than a second threshold to a first clustering result; and outputting the clustering results. The method for determining locations and regions of the invention can reduce information irrelevant to the search targets of a user in search results, improve search accuracy and save time and energy of the user.
+

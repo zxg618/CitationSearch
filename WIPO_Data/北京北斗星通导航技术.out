@@ -1,0 +1,457 @@
+1. 103744093 一种北斗导航接收机定位引擎及定位方法
+CN
+15.03.2017
+G01S 19/37 Loading...
+G01S 19/37
+Loading...
+102014000005269
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/37
+Loading...
+本发明公开了一种北斗导航接收机定位引擎及定位方法，涉及导航领域。本发明公开的定位引擎包括：卫星发射时间维护模块、位同步有效判断模块、伪距获取模块和导航定位模块，其中，伪距获取模块，在接收机信号失锁后快速定位有效时间内，且有位同步有效标识到达时，根据卫星发射位以下时间和所述卫星发射时间维护模块维护的卫星发射位以上时间，得到卫星发射时刻的准确时间，计算伪距信息；导航定位模块，根据所述伪距信息获取接收机定位解算，得到位置时间信息。本发明还公开了一种北斗导航接收机定位方法。本申请技术方案针对北斗卫星导航接收机正常定位过程中，突然出现信号失锁的情况，实行快速定位，大大缩短重定位时间。
+2. 103401819 一种基于空时滤波的自动增益控制方法及装置
+CN
+08.02.2017
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+102013000275135
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H04L 25/03
+Loading...
+本发明公开了一种基于空时滤波的自动增益控制方法和装置；方法包括：在空时滤波开始后，对于输出的基带信号，每L个采样点计算一次幅度均值E(|I|+|Q|)；其中，L为正整数，|I|为输出的基带信号中I路信号的幅度值，|Q|为输出的基带信号中I路信号的幅度值，E(x)表示对x进行加权平均；计算比值r(j)＝T/E(|I|+|Q|)；其中T为比值门限；计算增益调节值A(j)＝α[r(j)‑1]A(j‑1)+A(j‑1)，其中α为预设的调节因子；用计算出的增益调节值A(j)更新原先保存的增益调节值A(i‑1)；j为计算增益正整数的次数序号，是正整数；将空时滤波后的基带信号放大为A(j)倍后输出。本发明能够提高在干扰环境下卫星导航信号空时滤波后自动增益控制的速度。
+3. 104360355 抗干扰方法和装置
+CN
+25.01.2017
+G01S 19/21 Loading...
+G01S 19/21
+Loading...
+102014000742500
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/21
+Loading...
+本发明提供了一种抗干扰方法和装置。涉及抗干扰滤波领域；解决了单一滤波方式局限性的问题。该方法包括：对中频信号进行频域窄带干扰预处理，得到频域数组；对所述频域数组按照多个频点分别进行空域滤波；对空域滤波后的所述频域数组进行多点IFFT变换，得到抗干扰处理后的时域中频数据。本发明提供的技术方案适用于卫星信号处理，实现了对宽带、窄带混合干扰的抵制。
+4. 104280745 Improved space-frequency signal processing method and processing device
+CN
+14.01.2015
+G01S 19/21 Loading...
+G01S 19/21
+Loading...
+201410588526.6
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/21
+Loading...
+The invention provides an improved space-frequency signal processing method and device. The improved space-frequency signal processing method comprises the steps that N sections of intermediate-frequency AD sampling signals with the length of K are accumulated for M receiving array elements of a space-frequency two-dimensional processor, the intermediate-frequency AD sampling signals comprise the satellite signals, interference and noise, and K point fast Fourier transform is conducted on the intermediate-frequency AD sampling signals respectively, so that a frequency domain array is obtained; according to the frequency domain array, the covariance matrix of each frequency point is worked out, and then the diagonal loading value of each frequency point is solved; the weight vector, under the diagonal loading linear constraint, of each frequency point is determined according to the diagonal loading value of the frequency point; spatial filtering processing is conducted on the frequency domain array through the weight vectors of all the frequency points; K point fast Fourier inversion is conducted on frequency domain data obtained after spatial filtering, and then time domain intermediate frequency data are obtained. By the adoption of the improved space-frequency signal processing method and device, interference rejection is achieved when data mismatch happens.
+5. 103941274 Navigation method and terminal
+CN
+23.07.2014
+G01S 19/49 Loading...
+G01S 19/49
+Loading...
+201410150552.0
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/49
+Loading...
+The invention provides a navigation method and terminal. The navigation method includes the steps of receiving a Beidou satellite navigation signal, receiving internal radio frequency and base band chip data, and obtaining Beidou satellite navigation preprocessed data after position, speed and time resolving processing; obtaining external observation information and original inertia measurement data; calculating error data according to the external observation information and the original inertia measurement data, wherein the external observation information includes the temperature and the starting time; resolving the original inertia measurement data with a strapdown inertial navigation algorithm to obtain the resolving result; carrying out combined navigation filtering according to the Beidou satellite navigation preprocessed data, the error data and the resolving result, and outputting the filtering result. By means of the navigation method and terminal, satellite navigation and inertia navigation are organically combined, and the navigation accuracy and the navigation reliability which are superior to the navigation accuracy and the navigation reliability of any single navigation system are achieved.
+6. 103885068 Dispatching management type user receiver
+CN
+25.06.2014
+G01S 19/14 Loading...
+G01S 19/14
+Loading...
+201410139068.8
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/14
+Loading...
+The invention discloses a dispatching management type user receiver which comprises an antenna, a signal processing unit, an interface unit and a power supply unit, wherein the antenna is used for receiving satellite signals of two frequency points of a BD communication satellite and emitting signals processed by the signal processing unit to the BD communication satellite; the signal processing unit is used for respectively processing satellite signals, received by the antenna, of different frequency points in real time, outputting the processed satellite signals to an upper computer and meanwhile processing information of the upper computer and then outputting the processed information to the antenna; the interface unit is provided with a plurality of interfaces corresponding to a plurality of encryption and decryption modules respectively and used for achieving data transmission between the signal processing unit and the encryption and decryption modules; the power supply unit is used for being externally connected with a power adapter and supplying power supplies to the units of the dispatching management type user receiver. According to the user receiver, passive location of the two frequency points of the BD is achieved, meanwhile, the encryption and decryption modules are supported, and hardware cost is low.
+7. 103760573 Method and device for acquiring ionized layer delay
+CN
+30.04.2014
+G01S 19/07 Loading...
+G01S 19/07
+Loading...
+201410028506.3
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/07
+Loading...
+The invention provides a method and device for acquiring ionized layer delay, and relates to the field of navigation. The problem that the locating precision of a receiver is poor is solved. The method comprises the steps of acquiring the position of a puncture point, acquiring the ionized layer parameter of a grid corresponding to the position of the puncture point and determining the vertical ionized layer delay of the puncture point according to the position of the puncture point and the corresponding grid ionized layer parameter. According to the technical scheme, the method and device are suitable for calculating the ionized layer delay based on the grid according to satellite signals.
+8. 103698783 Ethnic code capture method and ethnic code capture device
+CN
+02.04.2014
+G01S 19/30 Loading...
+G01S 19/30
+Loading...
+201310728686.1
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/30
+Loading...
+The invention discloses an ethnic code capture method and an ethnic code capture device. The ethnic code capture method comprises the following steps: extracting baseband signals to obtain to-be-processed baseband data, and storing by child segments; respectively performing partial matched filtering (PMF) on all the child segments by taking a local pseudo code as a tap coefficient to obtain accumulation results to complete code phase search; caching the PMF processed results, respectively performing fast Fourier transform (FFT) on the results, and performing spectral analysis to complete frequency search; respectively performing parallel delivery on FFT processed output results, and then, accumulating by points to obtain M-point incoherent accumulation results, and looking up capture results, wherein the capture results can include but are not limited to a maximum correlation value, a secondary correlation value, frequency, a phase, the number of segments, and the like. According to the ethnic code capture method and the ethnic code capture device disclosed by the invention, by adopting a mode of PMF and FFT combination, the sensitivity of ethnic code capture is improved, and the rapid capture of an ethnic code is completed in an FPGA (field programmable gate array) chip, and moreover, the ethnic code capture device can be bound with a receiver channel, and under the condition that high sensitivity is met, the capture speed is remarkably improved, and therefore, the requirement of practical application is met.
+9. 103698781 Receiver observation information extraction method and device
+CN
+02.04.2014
+G01S 19/24 Loading...
+G01S 19/24
+Loading...
+201310741567.X
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/24
+Loading...
+The invention discloses a receiver observation information extraction method and device, and relates to the technical field of satellite positioning and navigation. The precision of observation information can be improved, and therefore, the output of the receiver is synchronous with the standard time. The receiver observation information extraction method comprises the following steps of: according to a sampling pulse, collecting observation information; converting the observation information to obtain an original pseudorange; smoothening the original pseudorange by a carrier phase to obtain a smoothened pseudorange. According to the method and the device provided by the invention, the positioning information output by the receiver can be guaranteed to be synchronous with the standard time, the sampling signal and a time service signal are combined to be processed, so that the workload is reduced, and the precision of the collected observation information is improved.
+10. 103630911 Navigation information processing method and apparatus
+CN
+12.03.2014
+G01S 19/22 Loading...
+G01S 19/22
+Loading...
+201310680400.7
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/22
+Loading...
+The invention provides a navigation information processing method and a navigation information processing apparatus. The method comprises the steps of implementing N-order delaying on various paths of input signals which are obtained according to M paths of received radio-frequency signals and are L long, so as to form M*N input signals which are L long; respectively calculating a space navigation vector Ss and a time navigation vector St, and calculating a navigation vector of a useful signal according to the space navigation vector Ss and the time navigation vector St; calculating a constraint matrix and a related matrix; and finally, calculating a space-time filter weight coefficient matrix, multiplying each element in the calculated space-time filter weight coefficient matrix by one corresponding signal in the M*N input signals which are L long, and adding products to obtain an output signal. The invention can realize narrow nulling of an antenna reception directional diagram in a direction where an interference signal arrives, and simultaneously can adaptively form nulling in a multi-path direction of the useful signal reflected from the ground.
+11. 103617332 Simulation platform and method for surveying satellite navigation algorithm performance
+CN
+05.03.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201310677093.7
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G06F 17/50
+Loading...
+The invention provides a simulation platform and method for surveying the satellite navigation algorithm performance. The simulation platform comprises a data storage module, a file reading module, a data pre-processing module and a navigation and location speed measurement module, wherein the data storage module is used for storing channel sampling information and telegraph text information which come from a receiver in real time and storing data output by the navigation and location speed measurement module; the file reading module is used for reading the channel sampling information and the telegraph text information of the data storage module and sending the read data to the data pre-processing module and the navigation and location speed measurement module; the data pre-processing module is used for obtaining the satellite launching time and the satellite ephemeris according to the channel sampling information and the telegraph text information, and sending the satellite launching time and the satellite ephemeris to the navigation and location speed measurement module; the navigation and location speed measurement module is used for processing the data coming from the file reading module and the data pre-processing module with different navigation algorithms to obtain location speed measurement information and outputting the location speed measurement information to the data storage module. According to the simulation platform and method for surveying the satellite navigation algorithm performance, the performance of multiple satellite navigation algorithms can be tested in the same measuring environment.
+12. 103618557 Processing method and processing device for received signal
+CN
+05.03.2014
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+201310676838.8
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H04B 1/10
+Loading...
+The invention provides a processing method and a processing device for a received signal. The method comprises the steps of obtaining an intermediate-frequency sampled signal according to a received radio frequency signal; performing complex band-pass filtering on the intermediate-frequency sampled signal to obtain a first complex intermediate-frequency signal; performing space-time filtering on the first complex intermediate-frequency signal to obtain a second complex intermediate-frequency signal; calculating an average amplitude value of a real part of the second complex intermediate-frequency signal at an interval of L sampling points in the second complex intermediate-frequency signal, wherein L is a positive integer; dividing the average amplitude value by a ratio threshold to obtain a ratio r(z); calculating a gain adjustment value A(z); amplifying the real part of the second complex intermediate-frequency signal by A(z), and then outputting the amplified second complex intermediate-frequency signal. According to the method and the device, complexity in the implementation of space-time adaptive interference resistance and the loss of useful signals during signal receiving can be lowered.
+13. 103346756 一种空时自适应滤波方法及装置
+CN
+09.10.2013
+H03H 21/00 Loading...
+H03H 21/00
+Loading...
+201310275142.4
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H03H 21/00
+Loading...
+本发明公开了一种空时自适应滤波方法及装置；方法包括：获取多通道基带数据并存储；根据存储的多通道基带数据计算空时自适应滤波系数w；对所述空时自适应滤波系数w进行平滑处理，得到平滑后的系数wsmooth；根据平滑后的系数wsmooth对所获取的多通道基带数据进行空时滤波。本发明能够减缓空时自适应滤波器系数的波动。
+14. 202975333 一种导航仪
+CN
+05.06.2013
+G01S 19/39 Loading...
+G01S 19/39
+Loading...
+201220494329.4
+北京北斗星通导航技术股份有限公司
+胡刚
+G01S 19/39
+Loading...
+本实用新型公开了一种车辆导航仪，包括：存储模块，用于保存地图数据；信息收发接口，用于接收卫星定位数据、规定行驶路线及其它车辆的位置信息，并保存在所述存储器中；处理模块，用于根据所述存储模块中的所述卫星定位数据、规定行驶路线、其它车辆的位置信息及地图数据，计算出导航数据，保存在所述存储模块中并通过所述信息收发接口发送。本实用新型的车辆导航仪可收发信息，并结合所收信息进行导航。
+15. 202904694 一种行驶记录仪
+CN
+24.04.2013
+G07C 5/08 Loading...
+G07C 5/08
+Loading...
+201220493131.4
+北京北斗星通导航技术股份有限公司
+胡刚
+G07C 5/08
+Loading...
+本实用新型公开了一种行驶记录仪，包括：天线；导航模块，用于通过所述天线接收卫星导航信号，周期性根据该卫星导航信号计算本行驶记录仪的位置信息；将位置信息及其获取时间保存为行驶轨迹数据；码分多址模块，用于将所述行驶轨迹数据加密后采用码分多址信号通过所述天线发送。本实用新型的方案能更可靠的进行行驶记录。
+16. 202710751 一种北斗指挥监控设备
+CN
+30.01.2013
+G01S 19/01 Loading...
+G01S 19/01
+Loading...
+201220205389.X
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 19/01
+Loading...
+本实用新型公开了一种北斗指挥监控设备，解决了目前北斗指挥监控设备操作繁琐、兼容性和稳定性差的问题。所述北斗指挥监控设备包括外壳、计算机和北斗收发模块，所述计算机和北斗收发模块设置在外壳内，所述北斗收发模块与计算机相连接，其中：所述北斗收发模块接收北斗信号，并将所述信号传送至计算机；所述计算机接收北斗收发模块发送的信号，并提取信号中的监控信息；所述计算机生成指挥报文，并发送至北斗收发模块；所述北斗收发模块将计算机的指挥报文发送到用户端。本实用新型实施例的北斗指挥监控设备将计算机和北斗收发模块集成在一起，实现北斗指挥监控设备的小型化、便携化，并且提高了北斗指挥监控设备兼容性和稳定性。
+17. 202713394 一种通讯终端
+CN
+30.01.2013
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201220320061.2
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H04M 1/02
+Loading...
+本实用新型公开了一种通讯终端，克服现有固定电话终端在通讯终端载体处于移动环境下时，通话手柄容易脱落的缺陷，该通讯终端包括通话手柄以及与通话手柄相配套的挂架座，该通话手柄的头端和尾端在朝向挂架座的方向上具有凸块，该挂架座的两端与两个凸块相应的部位为凹陷部；该通话手柄至少一个凸块的至少一个侧面，设置有至少一个第一卡紧组件；该挂架座的两个凹陷部的内壁上，相应于该第一卡紧组件设置有第二卡紧组件；该通话手柄及该挂架座组合在一起时，该第一卡紧组件及第二卡紧组件之间具有预紧力。本实用新型实施例克服了在移动载体上应用通话手柄时，由于载体振动和动态变化引起通话手柄从其挂架座上脱落的缺陷。
+18. 202585701 一种北斗终端的天线装置
+CN
+05.12.2012
+H01Q 1/12 Loading...
+H01Q 1/12
+Loading...
+201120562518.6
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H01Q 1/12
+Loading...
+本实用新型提供了一种北斗终端的天线装置，克服现有的移动物体上的北斗终端应用的小型微带天线在近区场之间存在互耦而影响动态变化情况下的载体工作适应能力的缺陷，该天线装置包括双面印制电路板、三个微带天线以及三个射频接插件，该双面印制电路板的第一表面上分布有相互分离的三个配装位置，该三个配装位置相应配装该三个微带天线；该双面印制电路板的第二表面上，与该三个配装位置相对应地分布有三个接插位置，该三个接插位置相应配装该三个射频接插件。本实用新型实施例的天线装置可以保证船载或者车载北斗终端达到更好的技术性能及更大姿态变化的动态工作范围。
+19. 202406432 一种终端设备的密封外壳
+CN
+29.08.2012
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201120562484.0
+北京北斗星通导航技术股份有限公司
+不公告发明人
+H05K 5/06
+Loading...
+本实用新型公开了一种终端设备的密封外壳，克服现有的船载北斗终端密封性能较差且维护不便的缺陷，该密封外壳包括扣合在一起形成密闭空间的下壳体和上壳体，该下壳体及上壳体在相接触的部位各包含有向外伸出的边沿；在两个边沿的其中一个边沿上设置有内陷的第一凹槽，该第一凹槽中设置有第一密封圈，该两个边沿中的另外一个边沿设置两个壳体扣合后位于第一凹槽中的第一凸台；该两个边沿的其中一个边沿上沿着该两个扣合后的周向分布有至少两个通孔，该两个边沿的另外一个边沿上对应设置该两个壳体扣合后与该通孔相对的盲孔，该盲孔内嵌螺母或者内表面设置有螺纹；该通孔及该盲孔中穿有螺钉。本实用新型的实施例密封性好。
+20. 202130561 一种船载北斗终端安装固定装置
+CN
+01.02.2012
+B63B 49/00 Loading...
+B63B 49/00
+Loading...
+201120167299.1
+北斗星通信息服务有限公司
+不公告发明人
+B63B 49/00
+Loading...
+本实用新型提供了一种船载北斗终端安装固定装置，包括：安装头，所述安装头一端连接主机，另一端外周面上设置有L型导向凹槽；固定环，所述固定环内周面上设置有与所述L型导向凹槽相配的限位凸块，所述固定环一端设置有连接结构，另一端通过所述限位凸块可装拆连接所述安装头，所述固定环与安装头之间还设置有用于确定所述固定环与安装头连接位置的定位锁定结构。本实用新型中安装头上设置L型导向凹槽，固定环上设置与L型凹槽相配的限位凸块，方便进行装配，另外还设置有定位锁定结构，实现安装头与固定环之间很小相对旋转即可实现定位和锁定连接，从而避免线缆缠绕或损坏，方便主机装拆。
+21. 201844837 一种船载设备
+CN
+25.05.2011
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201020219706.4
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01C 21/00
+Loading...
+本实用新型公开了一种船载设备，克服现有技术中北斗船载终端无法做到完全监控周围船舶的动态情况的缺陷，该船载设备包括：定位通信装置，通过卫星导航系统获取该船载设备自身的定位信息；自动识别装置，获取该周围船舶的位置信息；显示控制装置，将该设备自身的定位信息、该周围船舶的位置信息发送给运营中心。本实用新型一个实施例利用北斗通信系统的通信能力，将AIS终端接收到的周围船舶的报警信息发送到北斗运营中心，扩大了AIS岸基基站和北斗运营中心的报警监控范围。
+22. 101839984 Navigational satellite signal receiver
+CN
+22.09.2010
+H04L 27/22 Loading...
+H04L 27/22
+Loading...
+201010152855.8
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned.
+H04L 27/22
+Loading...
+The invention relates to an antenna of a navigational satellite signal receiving machine, which comprises an antenna, a radio frequency front end module and a base band processing module, wherein the antenna is used for receiving one or a plurality of wave beams of navigational satellite signals, the radio frequency front end module is used for converting each wave beam of navigational satellite signals received by the antenna into two paths of middle frequency digital signals: path I and path Q, the base band processing module is used for carrying out base band signal processing on the middle frequency digital signals to obtain original data, the base band processing module concretely comprises a memory and a viterbi decoder, the memory is used for storing each path of middle frequency digital signals, when a path of stored middle frequency digital signals is a complete frame of data, the complete frame of data is sent into the viterbi decoder, and the viterbi decoder is used for decoding the sent data to obtain serial original data. The invention can realize the simultaneous receiving of a plurality of wave beams of signals, and in addition, the cost can not be greatly increased.
+23. 201589859 一种GNSS接收机板卡
+CN
+22.09.2010
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200920278236.6
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 1/04
+Loading...
+一种GNSS接收机板卡，包括：射频前端模块，用于对接收的卫星导航信号进行混频和下变频，得到数字中频信号；控制模块，用于设置信号类型；所述信号类型包括第一卫星导航信号和第二卫星导航信号；存储模块，用于保存分别对应于第一、第二卫星导航信号的信道处理参数；基带信号处理模块，用于根据所述信号类型，选取相应的信道处理参数对所述数字中频信号进行基带信号处理得到原始信号，在该原始信号中携带用于指示所述信号类型的标识后输出；导航解算模块，用于接收所述基带信号处理模块输出的原始信号，根据其中携带的标识选取相应的信道处理参数对该原始信号进行导航解算。本实用新型能够兼容两个星座的卫星导航信号，并且成本较低。
+24. 201548684 一种航迹测试系统中的GNSS控制器
+CN
+11.08.2010
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200920110563.0
+北京北斗星通导航技术股份有限公司
+不公告发明人
+G01S 5/02
+Loading...
+一种航迹测试系统中的GNSS控制器，包括：嵌入式计算机，分别与嵌入式计算机相连的电台和GNSS板卡；电台接收GNSS差分改正数/GNSS定位信息发送给嵌入式计算机，并发送从嵌入式计算机接收的GNSS定位信息/GNSS差分改正数；GNSS板卡根据接收的GNSS信号产生原始数据信息发送给嵌入式计算机，如果接收到GNSS差分改正数则根据该GNSS差分改正数和GNSS信号产生GNSS定位信息发送给所述嵌入式计算机，否则根据GNSS信号得到GNSS差分改正数发送给所述嵌入式计算机；嵌入式计算机存储所述GNSS板卡发送的原始数据信息，当本控制器为移动站时将GNSS定位信息发送给电台，将GNSS差分改正数发送给GNSS板卡，当本控制器为基准站时将GNSS差分改正数发送给电台，接收GNSS定位信息。
+25. 101746676 Deviation-preventing controller for tyre crane
+CN
+23.06.2010
+B66C 13/18 Loading...
+B66C 13/18
+Loading...
+200910243702.1
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+B66C 13/18
+Loading...
+The invention relates to a deviation-preventing controller for a tyre crane, comprising a first GNSS receiver and a second GNSS receiver, an embedded processor and a PLC; wherein the antenna of the first GNSS receiver and the second GNSS receiver are installed at a power supply room side or a power room side of a RTG cart for respectively outputting first GNSS information and second GNSS information, the embedded processor is used for calculating first horizontal distance and second horizontal distance the first GNSS receiver and the second GNSS receiver deviate from a track datum line according to the first GNSS information and the second GNSS information, the PLC is used for adjusting proceeding direction of the RTG cart according to the first horizontal distance and the second horizontal distance. With the deviation-preventing controller adopted, automatic deviation correction can be carried out on proceeding path of the cart, so that labor intensity of cart drivers can be greatly reduced, wharf working efficiency is improved and the number of collision accidents is also reduced.
+26. 101614808 Track test system
+CN
+30.12.2009
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200910089132.5
+Beijing BDStar Navigation Co., Ltd.
+The five inventors have waived the right to be mentioned.
+G01S 5/02
+Loading...
+A track test system comprises a plurality of mobile stations, a fixed reference station and at least a mobile reference station; wherein, each reference station comprises a GNSS receiver, control modules, interactive radio stations and main radio stations; the GNSS receiver is used for receiving GNSS signals and generating GNSS differential corrections; each control module is used for transmitting the data interacted between the main radio station and the interactive radio station in the reference station; the interactive radio station in the mobile reference station is used for sending the GNSS differential corrections generated by the reference station to the interactive radio station in the fixed reference station; the main radio station in the fixed reference station is used for sending the GNSS differential corrections generated by the mobile reference station and by the reference station to the mobile stations together; each mobile station is used for selecting one GNSS differential correction generated by the reference station from the received GNSS differential corrections according to the predetermined selection strategy, obtaining the GNSS position information of the mobile station according to the GNSS differential correction and returning the GNSS position information to the selected reference station. The system can expand the range of motion of the moving targets and ensure the real time of data.
+27. 101587183 Method for improving passive positioning accuracy in dipper system
+CN
+25.11.2009
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200910086595.6
+Beijing BDStar Navigation Technology Inc.
+The inventors have waived the right to be mentioned.
+G01S 5/02
+Loading...
+The invention discloses a method for improving the passive positioning accuracy in a dipper system, capable of radically solving the problem of big passive positioning error. The method comprises: according to the big and small relation of signal-noise ratio of two beams of each satellite and the big and small relation of values of the signal-noise ratio counter of two beams, adding and subtracting the values of the signal-noise ratio counter of two beams; judging whether the values of the signal-noise ratio counter of two beams after the adding and subtracting operation reach the threshold of the predetermined signal-noise ratio counting value; for the beam of which the signal-noise ratio counter value reach the threshold of the signal-noise ratio counting value, judging whether the loop tracking is stabilizing; if the loop tracking is stabilizing, adopting the beam of which the signal-noise ratio counter value reach the threshold of the signal-noise ratio counting value to engage in the passive positioning. the invention radically solves the problem of the big passive positioning accuracy error in the dipper system.
+28. 101587180 Flash break recapturing system and method of satellite receiver signal
+CN
+25.11.2009
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200910086596.0
+Beijing BDStar Navigation Technology Inc.
+The inventors have waived the right to be mentioned.
+G01S 1/02
+Loading...
+The invention discloses a flash break recapturing system and method of the satellite receiver signal, capable of shortening the time for recapturing the signal when the flash break takes place. The method comprises: via real-time estimation, obtaining the related amplitude value under the normal condition, and recording the pseudo-code phase and the downstream signal Doppler frequency; calculating a plurality of continuous related peak; judging that the signal flash break takes place if the plurality of related peak is below the related amplitude value; obtaining the Doppler frequency estimated value during the flash break recapturing period according to the downstream signal Doppler frequency and the variation velocity; setting the search range and search step-size of the Doppler frequency according to the pseudo-code phase and the Doppler frequency estimate(d) value; conducting the carrier and code phase search according to the search step-size and the related operation to obtain the correlative value; the signal flash break being over if the plurality of continuous correlative value amplitude is more than the predetermined recapturing threshold. The invention can recapture quickly to the satellite signal after the signal flash break, and the capture time is short in the recapture.
+29. 201340271 一种组合定位仪中惯性模块安装装置
+CN
+04.11.2009
+G01C 21/16 Loading...
+G01C 21/16
+Loading...
+200920104889.2
+北京北斗星通导航技术股份有限公司
+请求不公开姓名
+G01C 21/16
+Loading...
+本实用新型涉及一种组合定位仪中惯性模块安装装置，包括：安装板和紧固机构，惯性模块通过紧固机构可拆卸安装在安装板上。本实用新型中惯性模块在组合定位仪中很容易的调整安装位置。
+30. 101513983 Front-handling crane/forklift positioning control system with positioning controller
+CN
+26.08.2009
+B66F 9/075 Loading...
+B66F 9/075
+Loading...
+200910080924.6
+Beiing BDStar Navigation Co., Ltd.
+Qin Jiafa
+B66F 9/075
+Loading...
+The invention relates to a front-handling crane/forklift positioning control system with a positioning controller, which comprises a GNSS reference station subsystem, a TOS interface subsystem, a plurality of GNSS mobile station subsystems, which respectively comprise a GNSSS receiver and an on-vehicle wireless terminal; wherein, the GNSSS receiver is used for obtaining and outputting GNSSS information of differential positioning state; and the on-vehicle wireless terminal is used for acquiring the distributed information of a container and catching working instruction information; the hanger position of the front-handling crane/forklift which the GNSS mobile station subsystems are corresponding to is obtained according to the location information and compared with the box position of a box to be operated in the working instruction information, when the distance between the hanger position and the box position is equal to or less than a threshold valve, twist lock signals which show to allow twist lock are transmitted; otherwise, twist lock signals which show to prohibit twist lock are transmitted; the positioning controller comprises a twist lock control module, when the twist lock signals show to allow twist lock, a twist lock control loop used for controlling the controlled condition of the twist lock structure is connected, otherwise, the twist lock control loop is disconnected.
+31. 101475126 RTG navigation locating and container position monitoring system
+CN
+08.07.2009
+B66C 13/18 Loading...
+B66C 13/18
+Loading...
+200810247057.6
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+B66C 13/18
+Loading...
+The invention relates to an RTG navigation positioning and box position monitoring system, which comprises a GNSS reference station subsystem for generating and broadcasting GNSS difference correction, a TOS interface subsystem for providing distribution information of a container and operating instruction information, a center subsystem for acquiring, storing and forwarding the difference correction and the distribution information of the container, and a plurality of GNSS mobile station subsystems for receiving the GNSS difference correction and the distribution information of the container, automatically acquiring the operating instruction information, determining a GNSS coordinate of RTG according to the GNSS difference correction and GNSS signals received by the GNSS mobile station subsystems, determining a hanger position according to the GNSS coordinate and the installation deviation between a GNSS antenna and an RTG hanger, determining the position of the RTG in a heap, comparing the hanger position of the RTG and the box position of a box to be operated in the operating instruction information, and allowing a turn lock mechanism to act when the distance of the hanger position and the box position reaches or is smaller than a threshold value.
+32. 101464157 Combined locator
+CN
+24.06.2009
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200910077877.X
+Beijing BDStar Navigation Technology Inc.
+Shen Hongjun
+G01C 21/26
+Loading...
+The invention discloses a combination locator comprising an inertial module used for providing position estimation information, and a processing control module used for receiving GNSS information and the position estimation information output by the inertial module. When the GNSS information is usable, the locator directly outputs the GNSS information which includes position information, speed information and course information; when the GNSS information is absent or useless, the locator estimates according to the position estimation information and outputs results which include position information, speed information and course information; and when in a static state, the locator makes no summation in terms of position, speed and course information which is output before the static state. When the invention is used for navigation positioning, the error accompanying the static state is not magnified by the accumulation of time.
+33. 101464688 Tire crane anti-collision control system based on GNSS positioning system
+CN
+24.06.2009
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+200810247058.0
+Beijing BDStar Navigation Technology Inc.
+The inventor has waived the right to be mentioned
+G05B 19/418
+Loading...
+A tire crane anti-collision control system based on a GNSS positioning system comprises a GNSS reference station subsystem used for generating GNSS differential corrections, a TOS interface subsystem used for providing the container stack information and the operation instruction information, a GNSS mobile station subsystem used for receiving the GNSS differential corrections, determining the GNSS coordinate of a RTG according to the GNSS differential corrections and the GNSS signals received by the subsystem, automatically acquiring the operation instruction information, receiving the container stack information, and controlling the RTG through the combination of the stored GIS information in stacking yard, the GNSS coordinate, and the operation instruction information so as to enable the collision between containers to be avoided, a central subsystem for receiving the GNSS coordinate, and controlling each RTG according to the stored GIS information and the GNSS coordinate so as to enable the collision between RTGs, and the collision between an RTG and a fixture in the stacking yard to be avoided.
+34. 101354838 Shipborne terminal for fleet management and fleet management method
+CN
+28.01.2009
+G08G 3/00 Loading...
+G08G 3/00
+Loading...
+200810117612.3
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+G08G 3/00
+Loading...
+The invention discloses a dipper satellite system based ship-mounted terminal which realizes the reliable and flexible ship or fleet management and a method for managing the ship or fleet. The ship-mounted terminal realizes the real-time positioning of GPS and/or dipper request positioning, and simultaneously realizes the inter-communication between the ship-mounted terminal and the dipper satellite; a ground control center sends grouping information of ships and a control ship in each group downward to all ship-mounted terminals by user information; when the ground control center needs to manage the grouping ships, the collective broadcast numbers of the control ships and grouping numbers of all user terminals are used as sole numbers for identifying the ships, and the management of a plurality of ship-mounted terminals is realized under one collective broadcast number, thereby extending the number of managed ships. When the control ship needs to manage grouping ships, the control ship can call the group ships, and can also realize the single call communication with one single terminal.
+35. 101329393 Big dipper / GPS double-module shipborne terminal and coordination scheduling method thereof
+CN
+24.12.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200810117613.8
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+G01S 5/02
+Loading...
+The invention discloses a Beidou/GPS dual-mode shipboard terminal which integrates the GPS and the Beidou and a positioning and time correcting coordinated scheduling method thereof. The GPS/Beidou dual-mode shipboard terminal comprises an antenna, a low-noise amplifier, a power amplifier, a GPS module, a Beidou module and a comprehensive data control module. The Beidou/GPS dual-mode shipboard terminal carries out the periodic timing detection of the GPS and the Beidou modules, or carries out the detection according to a command of a user or a ground control center to judge the current working state of the GPS and the Beidou modules, thereby carrying out the coordinated scheduling of the working states of the GPS and the Beidou modules and ensuring the obtainment of the accurate positioning information. The GPS/Beidou dual-mode shipboard terminal and the coordinated scheduling method thereof can not only realize the real-time obtainment of the high-precision positioning information, but also can enhance the environment adaptability and the reliability of the shipboard terminal.
+36. 101329820 Shipborne terminal for implementing area alarm and alarm method
+CN
+24.12.2008
+G08G 3/00 Loading...
+G08G 3/00
+Loading...
+200810117622.7
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+G08G 3/00
+Loading...
+The invention discloses a ship-bone terminal which realizes regional alarming based on the Beidou Satellite System, and an alarming method, wherein, the ship-bone terminal can realize the real-time location of GPS or the requested location of the Beidou Satellite System, obtain the current location information of ships and communicate with Beidou satellites; after obtaining the current location information of ships, the ship-bone terminal judges whether the current location is located in own preserved alarming regions; if so, the ship-bone terminal gives alarm to a display module so as to notify users or sends the information of own current location, navigational direction, navigational speed, and emergency alarm as well as SOS, etc. to the Beidou satellites which transmit and report the information to a ground control center; furthermore, the ship-bone terminal also can receive the information of the ground control center, which is transmitted by the Beidou satellites and includes controlling instructions, messages and alarming, etc., thus carrying out interactive communication with the ground control center and realizing the functions of regional alarming, monitoring and managing, alarming and rescuing the fishery vessels.
+37. 101329180 Double-module shipborne terminal based on big dipper satellite navigation system positioning communication
+CN
+24.12.2008
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+200810117618.0
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+G01C 21/00
+Loading...
+The invention discloses a dual-mode shipborne terminal based on the location communication of a Beidou satellite navigation system, and a method. The dual-mode shipborne terminal comprises a dual-mode location communicating unit and a display control unit, realizes real-time GPS location or requests for Beidou location by the dual-mode location communicating unit, and carries out the processing of analyzing, filtering, verifying and packaging, etc. to the location data; the dual-mode shipborne terminal can also realize communication with the Beidou satellite and transmit the information of the current position, course heading, speed, and emergency alarm and SOS to the Beidou satellite which forwards and reports the information to a ground control center; the dual-mode shipborne terminal can receive control instructions, short messages and alarm information from the ground control center that are forwarded by the Beidou satellite, implement interactive communication with the ground control center, and realize the functions of monitoring, managing, alarming and rescuing, etc. to fishery vessels.
+38. 101329394 Shipborne terminal for implementing marine vehicle position supervision with low cost and method thereof
+CN
+24.12.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200810117620.8
+Beijing BDStar Navigation Co., Ltd.
+The inventor has waived the right to be mentioned
+G01S 5/02
+Loading...
+The invention discloses a low-cost shipboard terminal for realizing the position monitoring of a ship based on a Beidou satellite system and a method. The low-cost shipboard terminal comprises a GPS module, a Beidou module, a comprehensive data processing module and an emergency alarm button, the real-time GPS position data can be obtained by the GPS module, the filtering and the packaging of the GPS positioning information data are carried out by the comprehensive data processing module, and the reporting with the appropriate frequency is carried out in the mode of the Beidou short message through the Beidou module. When necessary, the emergency alarm button can be adopted for triggering the reporting. The low-cost shipboard terminal can not only meet the requirements on the real-time property, but also can reduce the sending frequency, thereby saving the occupying Beidou satellite resources and the communication costs, improving the utilization rate of the resources, saving the costs and realizing the low-cost ship position monitoring and the emergency alarm.
+

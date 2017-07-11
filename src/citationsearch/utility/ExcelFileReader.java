@@ -49,6 +49,7 @@ public class ExcelFileReader extends Reader
 		    }
 
 		    for(int r = 1; r < rows; r++) {
+		    //for(int r = EXCELFILE_START; r < EXCELFILE_END; r++) {
 		        row = sheet.getRow(r);
 		        if(row != null) {
 		            for(int c = 0; c < cols; c++) {
@@ -65,7 +66,7 @@ public class ExcelFileReader extends Reader
 		                		
 		                		//get english name
 		                		cell = row.getCell((short)(c + 6));
-		                		String englishName = cell.toString().trim();
+		                		String englishName = cell.toString().trim().replace("'", "''");
 		                		//get source file id
 		                		cell = row.getCell((short)(c - 2));
 		                		String sourceFileId = cell.toString().trim();

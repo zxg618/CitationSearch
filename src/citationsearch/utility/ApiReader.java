@@ -94,7 +94,7 @@ public class ApiReader extends Reader
 		String urlParamters = "";
 		
 		String total = "";
-		this.localFile = searchKeyword + DATA_FILE_POSTFIX;
+		this.localFile = WIPO_DATA_PATH + searchKeyword + DATA_FILE_POSTFIX;
 		if (this.fileExist()) {
 			return "FileExist";
 		}
@@ -114,7 +114,7 @@ public class ApiReader extends Reader
 	        		.maxBodySize(1024*1024*1024)
 	        		.get();
 	        //System.out.println(document.text());
-	        resultTableContent = document.select("#resultListForm").text();
+	        resultTableContent = document.select("#resultListFormTop").text();
 	        if (resultTableContent.length() == 0) {
 	        	total = "search error";
 	        	detailContent = document.select("#resultPanel1").text();

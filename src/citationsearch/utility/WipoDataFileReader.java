@@ -23,7 +23,7 @@ public class WipoDataFileReader extends Reader {
 	public void batchRead(String[] searchKeywords) {
 		int total = searchKeywords.length;
 		for (int i = 0; i < total; i++) {
-			File dataFile = new File(searchKeywords[i] + DATA_FILE_POSTFIX);
+			File dataFile = new File(WIPO_DATA_PATH + searchKeywords[i] + DATA_FILE_POSTFIX);
 			if (dataFile.length() <= 0) {
 				continue;
 			}

@@ -1,0 +1,37 @@
+1. 103378824 实时时钟装置的信号产生电路及相关的方法
+CN
+16.03.2016
+H03K 3/012 Loading...
+H03K 3/012
+Loading...
+201210110060.X
+世芯电子股份有限公司
+苏文鸿
+H03K 3/012
+Loading...
+本发明提出用于实时时钟装置的信号产生电路，包含有振荡电路、电压侦测电路及控制电路。振荡电路用以产生振荡信号，电压侦测电路用以侦测信号产生电路所耦接的电压。控制电路，耦接于电压侦测电路及计数电路，当电压侦测电路所侦测的电压位于预设的电压范围内，控制电路会于第一时间设置振荡电路以较大电流产生振荡信号，于第二时间设置振荡电路以较小电流产生振荡信号，并于第三时间依据振荡信号而产生时脉信号。上述信号产生电路不但可以降低电力消耗，并且能够改善信号产生电路在低功耗状态时易受噪声的影响，而具有更强的抗噪声能力。因此，使实时时钟装置在低功耗的状态下，即使有噪声也仍然能够正常的运作。
+2. 103812495 High pressure resistant input and output circuit
+CN
+21.05.2014
+H03K 19/003 Loading...
+H03K 19/003
+Loading...
+201210455066.0
+世芯电子（上海）有限公司
+苏文鸿
+H03K 19/003
+Loading...
+The invention provides a high pressure resistant input and output circuit for an electronic device. The high pressure resistant input and output circuit for the electronic device comprises a voltage reducing circuit, a first node, a first transistor, a second transistor and a control logic; the voltage reducing circuit which is in coupling connection with a signal connecting point of an electronic device is used for generating down regulation voltage according exterior voltage; the first node is used for providing first pressure; interior voltage output through the first node is served as the first voltage when interior voltage generated through an interior circuit is larger than the down regulation voltage; the down regulation voltage output through the first node is served as the first voltage when the down regulation voltage is larger than the interior voltage; a first end of the first transistor is in coupling connection with the signal connecting point and a control end is coupling connection with the first node; a first end of the second transistor is in coupling connection with a second end of the first transistor and a second end is in coupling connection with a fixed potential end; the control logic is operated according to the first voltage to control switching operation of the second transistor; the exterior voltage is larger than the interior voltage. The high pressure resistant input and output circuit for the electronic device can effectively avoid the problem that interior elements generate excessive electrical stress.
+3. 103296998 具噪声抵抗力的可适性时脉信号产生器
+CN
+11.09.2013
+H03K 3/013 Loading...
+H03K 3/013
+Loading...
+201210047940.7
+世芯电子股份有限公司
+周芳鼎
+H03K 3/013
+Loading...
+本发明提出的具噪声抵抗力的可适性时脉信号产生器之一，包含有：增益放大器，用于处理模拟震荡信号以产生放大信号；可调式施密特触发器，耦接于增益放大器，用于依据放大信号产生触发信号；输出缓冲器，耦接于可调式施密特触发器，用于依据触发信号产生时脉信号；以及噪声侦测器，耦接于可调式施密特触发器。噪声侦测器会侦测输入信号的噪声成分，且当侦测到的噪声变大时，噪声侦测器会加大可调式施密特触发器的迟滞窗。上述可适性时脉信号产生器的优点之一，是噪声侦测器会依据输入信号的噪声大小，动态地调整可调式施密特触发器的迟滞窗的大小，故可有效避免电源端或接地端的噪声影响到输出缓冲器输出的时脉信号的工作周期。
+

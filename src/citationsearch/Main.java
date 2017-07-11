@@ -11,8 +11,8 @@ public class Main
 		service.displayAllCompanyNames();
 		service.setApiUrl(WIPO_RESULT_URL);
 		service.displayTotalNumberOfPatentsOnWIPO();
-		service.runStatistics();
-		service.generateOutputExcelFiles();
+//		service.runStatistics();
+//		service.generateOutputExcelFiles();
 		//service.searchAllCitationsByEnglishName();
 	}
 }

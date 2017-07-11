@@ -1,0 +1,2377 @@
+1. 106846905 对车辆及其行驶道路上的目标对象进行预警的系统及方法
+CN
+13.06.2017
+G08G 1/16 Loading...
+G08G 1/16
+Loading...
+201610881277.9
+戴姆勒股份公司
+李伍兹
+G08G 1/16
+Loading...
+本发明涉及一种用于对车辆及其行驶道路上的目标对象进行预警的系统及方法。该方法包括如下步骤：检测目标对象的坐标位置和运动速度以及车辆的坐标位置；将目标对象的运动速度与预定值进行比较；若目标对象的运动速度高于预定值，则不向车辆及目标对象发送警告信息；若目标对象的运动速度低于或等于预定值，则将目标对象和车辆的坐标位置与地图作匹配；当目标对象位于车辆的行驶道路之外或者目标对象到车辆的距离大于预设值时，不向车辆及目标对象发送警告信息；当目标对象位于车辆的行驶道路之内且目标对象到车辆的距离小于或等于预设值时，向车辆及目标对象发送警告信息。所述系统包括目标对象定位设备、车辆定位设备以及云服务器。
+2. 106845324 路牌信息的处理方法和装置
+CN
+13.06.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102015000885212
+高德软件有限公司
+贾双成
+G06K 9/00
+Loading...
+本发明公开了一种路牌信息的处理方法和装置。其中，该处理方法包括：对目标道路的激光点云数据包含的激光点数据按密度进行聚类，得到至少一个激光点数据集合；获取集合中的激光点数据的外围凸包；基于外围凸包的形状与外围凸包的顶点角度识别目标道路上的路牌信息。通过本发明，解决了路牌检测方法精度低的技术问题，可以准确高效地获取路牌信息。
+3. 106844376 推荐兴趣点的方法及装置
+CN
+13.06.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510884583.3
+高德软件有限公司
+张冠囡
+G06F 17/30
+Loading...
+本申请提供一种推荐兴趣点的方法及装置，其方法包括：响应于来自客户端的兴趣点获取请求，获取客户端当前所在位置的经纬度坐标；根据客户端当前所在位置的经纬度坐标和各个兴趣点的经纬度坐标，获取客户端当前所在位置的候选推荐兴趣点；获取各个候选推荐兴趣点到所述客户端当前所在位置的距离以及各个候选推荐兴趣点的用于表征候选推荐兴趣点特性的属性信息；基于各个候选推荐兴趣点到所述客户端当前所在位置的距离以及各个候选推荐兴趣点的属性信息，从各个候选推荐兴趣点中确定所述客户端当前所在位置的推荐兴趣点；向所述客户端返回所述推荐兴趣点以供展示。本申请的技术方案，能克服利用单一的距离因子判断用户所在位置的推荐兴趣点的弊端。
+4. 106845321 路面标记信息的处理方法和装置
+CN
+13.06.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201510882685.1
+高德软件有限公司
+贾双成
+G06K 9/00
+Loading...
+本发明公开了一种路面标记信息的处理方法和装置。其中，该处理方法包括：基于激光采集设备的轨迹点信息和目标道路的激光点云数据，得到目标道路的路面点云数据，其中，激光点云数据通过激光采集设备对目标道路进行点云测量得到，路面点云数据用于描述目标道路的路面信息；按照预设范围，将路面点云数据所属的区域划分为多个路面区域；获取路面区域的反射率筛选阈值，根据路面区域的反射率筛选阈值与预设提取窗口，从路面区域的路面点云数据中筛选路面标记数据，其中，多个路面区域中至少有两个路面区域的反射率筛选阈值不同；识别路面标记数据中的路面标记。本发明解决了路面标记的识别准确度低的技术问题。
+5. 106708710 用于识别线程卡顿的方法及装置
+CN
+24.05.2017
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+102015000778093
+高德软件有限公司
+汤国行
+G06F 11/34
+Loading...
+本申请提供了一种用于识别线程卡顿的方法及装置，其中，所述方法包括：监控线程与被监控线程通讯；判断预设的特定时长范围内是否接收到所述被监控线程针对所述通讯返回的响应；若特定时长范围内未接收到所述被监控线程针对所述通讯返回的响应，则确定所述被监控线程当前处于卡顿状态。本申请实现了程序自身识别处于卡顿状态的线程，降低识别成本且适用范围更广。
+6. 106705984 兴趣点搜索方法及装置
+CN
+24.05.2017
+G01C 21/36 Loading...
+G01C 21/36
+Loading...
+201510508659.2
+高德软件有限公司
+宫冰川
+G01C 21/36
+Loading...
+本发明实施例公开了一种兴趣点搜索方法、装置，接收到用户输入的至少一个关键词后，获取导航路线上到用户当前位置的距离小于预设的距离阈值的形状点；向服务器发送第一搜索请求，以使服务器依据所获取的形状点确定兴趣点搜索区域，并在确定的搜索区域内针对每一个搜索关键词搜索与该搜索关键词匹配的兴趣点，返回与第一搜索请求对应的第一搜索响应；在接收服务器发送的第一搜索响应后，在导航界面上沿所述导航路线展示第一搜索响应携带的兴趣点。使得用户可以直接在导航界面进行操作，实现了在导航界面沿导航路径进行搜索，并在导航界面展示搜索结果，从而不必退出导航界面即可进行搜索，简化了用户操作，提高了用户体验。
+7. 106708837 兴趣点搜索方法、装置
+CN
+24.05.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510508678.5
+高德软件有限公司
+齐然
+G06F 17/30
+Loading...
+本发明实施例公开了一种兴趣点搜索方法、装置，在接收到兴趣点搜索请求后，依据由导航路线上的形状点构成的形状点序列确定兴趣点搜索区域，对于每一个搜索关键词，在所确定的兴趣点搜索区域内搜索与该关键词匹配的兴趣点，也就是说，本发明实施例提供的兴趣点搜索方法、装置，可以只发起一次搜索就能够实现沿途搜索兴趣点，从而在降低处理资源的占用量的同时，提高了兴趣点搜索效率。而且，本发明实施例中，在一次搜索过程中，可以基于多个搜索关键词分别进行搜索，从而进一步提高兴趣点搜索效率，提高客户端用户体验。
+8. 106682017 一种数据库更新方法及装置
+CN
+17.05.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000756927
+高德软件有限公司
+秦景涛
+G06F 17/30
+Loading...
+本发明公开了一种数据库更新方法及装置，所述方法包括在预先生成的断点库中，获取更新进度为未完成的数据单元断点位置；用预先下载的待更新数据中的数据单元，更新数据库中所述数据单元断点位置对应的数据单元；根据所述数据单元断点位置对应的数据单元的更新情况，更新所述断点库中所述数据单元断点位置对应的更新进度。通过本发明提供的技术方案，能够支持断点更新数据库，提高数据库更新的效率。
+9. 106610288 一种导航控制方法及装置
+CN
+03.05.2017
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201510707075.8
+高德软件有限公司
+王甫
+G01C 21/00
+Loading...
+本发明提供一种导航控制方法及装置，获取用户位置；基于用户位置，判断用户是否进入预设的距离用户位置最近的监控区域，当判断到用户进入监控区域时，可以采用第一定位技术获取用户位置；当判断到用户没有进入监控区域时，可以采用第二定位技术获取用户位置，其中第二定位技术的耗电量小于第一定位技术的耗电量。也就是说在监控区域内启用耗电多的定位技术，在监控区域外使用耗电少的定位技术；而仅在监控区域内使用耗电多的定位技术，与现有的全程都使用耗电多的定位技术相比，导航设备的耗电量明显减少，并且监控区域的数量越少导航设备的节电效果越明显，即在监控区域的数量越少的情况下导航设备的耗电量会更加明显。
+10. 106595683 一种导航方法及装置
+CN
+26.04.2017
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201510677396.8
+高德软件有限公司
+毛灵飞
+G01C 21/34
+Loading...
+本发明公开了一种导航方法及装置，在本方案中，由于在偏离导航路线后，将用户引导至导航路线，然后继续通过导航路线为用户导航，使用户到达目的地，能够解决现有技术中偏离导航路线后重新规划导航路线的方式单一的问题。此外，本发明实施例中，当由导航终端计算返回至导航路线的偏航路线时，即使用户使用的是在线导航方式，即使没有网络也能继续为用户导航，从而节约网络流量。
+11. 106600956 一种交通信息发布方法及装置
+CN
+26.04.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510662698.8
+高德软件有限公司
+杨承继
+G08G 1/01
+Loading...
+本发明涉及一种交通信息发布方法及装置，所述方法包括：获取基于参考电子地图路网数据得到的参考路段的交通信息，所述交通信息中包括交通状态信息；从所述参考电子地图路网数据中，获取所述参考路段的属性信息；将所述参考路段的属性信息与预设的目标电子地图路网数据中的路段的属性信息进行匹配，获取与所述参考路段匹配的路段，将匹配的路段作为目标路段，并获取所述目标路段的标识；生成携带所述目标路段的标识和所述交通状态信息的差分交通消息；将所述差分交通消息发送给使用所述目标电子地图路网数据的应用端。通过本发明的方法能够节约硬件资源，降低交通信息的发布对硬件资源的消耗。
+12. 103578347 展示电子地图中的POI的方法及其装置、移动终端
+CN
+19.04.2017
+G09B 29/00 Loading...
+G09B 29/00
+Loading...
+102012000272183
+高德软件有限公司
+沙涛
+G09B 29/00
+Loading...
+本发明公开了展示电子地图中的POI的方法及其装置、移动终端，以实现在电子地图中准确的显示POI的属性信息，提高显示POI的准确性和完整性。方法包括：确定以当前显示比例尺显示的电子地图中，落入终端显示屏幕范围内的待显示POI；从预先根据显示比例尺设置的POI基本位置信息及其展示信息中，确定当前显示比例尺对应的所述待显示POI的基本位置信息及其展示信息；显示所述各待显示POI的基本位置信息及其展示信息。
+13. 106560835 一种路牌识别方法及装置
+CN
+12.04.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102015000642917
+高德软件有限公司
+王奇
+G06K 9/00
+Loading...
+本发明公开一种路牌识别方法及装置，包括：接收激光扫描仪和摄像机沿着道路方向采集的激光点和道路图像；对激光点进行聚类，并确定出疑似路牌激光点集合；根据疑似路牌激光点集合中激光点的三维坐标和道路图像的拍摄位置，确定出疑似路牌的道路图像；对疑似路牌激光点集合中激光点的三维坐标进行坐标转换，得到各激光点在疑似路牌的道路图像上的像素点坐标，将像素点坐标在道路图像上构成的区域确定为疑似路牌对应的图像区域；对道路图像中疑似路牌对应的图像区域进行图像处理，得到疑似路牌的内容；将疑似路牌的内容与预置的路牌内容进行匹配，根据匹配结果确定疑似路牌是否为路牌。采用本发明实施例提供的方案，提高了路牌识别准确度和效率。
+14. 106557504 一种电子地图中道路文字数据的排版方法和装置
+CN
+05.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510627919.8
+高德软件有限公司
+方辉
+G06F 17/30
+Loading...
+本发明提供一种电子地图中道路文字数据的排版方法及装置，方法包括：从预先排序的道路文字数据队列中，每次选取一条道路文字数据；根据选取的道路文字数据的地理位置坐标、电子地图比例尺及预设的显示屏幕的尺寸，获取显示屏幕显示的电子地图的地理位置坐标范围，电子地图包含道路文字数据且道路文字数据位于显示屏幕的中心；从已排版道路文字数据队列中，获取地理位置坐标落入电子地图的地理位置坐标范围的道路文字数据；将选取的道路文字数据与获取出的道路文字数据进行压盖判断，如果没有压盖，则将选取的道路文字数据添加到已排版道路文字数据队列中。能够提升电子地图的渲染效率，保证电子地图上每条道路的文字能够均匀显示。
+15. 106556402 一种路径规划方法及装置
+CN
+05.04.2017
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201510633216.6
+高德软件有限公司
+鲍建军
+G01C 21/34
+Loading...
+本发明公开了一种路径规划方法及装置，该方法包括：若当前探索位置与路径终点位置间的距离大于或等于第一距离阈值，则对当前地图图层进行升层，根据升层后图层对应的导航数据，从当前探索位置向路径终点位置探索路径；若当前探索位置与路径终点位置间的距离小于第一距离阈值且大于或等于第二距离阈值，则根据当前地图图层对应的导航数据，从当前探索位置向路径终点位置探索路径；若当前探索位置与路径终点位置间的距离小于第二距离阈值，则对当前地图图层进行降层，若降层后图层为最低图层，则根据降层后图层对应的导航数据，从当前探索位置向路径终点位置探索路径，否则，根据降层后图层对应的导航数据，从当前探索位置向路径终点位置探索路径。
+16. 106528572 一种电子地图线要素数据处理方法和装置
+CN
+22.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000583789
+高德软件有限公司
+方辉
+G06F 17/30
+Loading...
+本发明提供一种电子地图线要素数据处理方法和装置。方法包括获取当前电子地图中的第一线要素；判断所述第一线要素上的形状点是否满足预设的筛选条件；如果满足，保留所述形状点，如果不满足，删除所述形状点。因此本发明在获取当前电子地图中的第一线要素后，对所述第一线要素上的形状点进行处理，以使得那些用户无法观察到的形状点进行删除，而只保留用户可观察到的形状点，相比于现有技术提高了电子地图数据的处理效率。
+17. 106503011 一种地图数据处理方法及装置
+CN
+15.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000564410
+高德软件有限公司
+赵常雄
+G06F 17/30
+Loading...
+本申请公开了一种地图数据处理方法及装置，方法包括：获取用于制作电子地图数据的图片点数据，该图片点数据中包括若干幅标识有位置坐标的图片；识别所述图片是否包含信息点，并对识别出的信息点进行标记；将包含同一信息点的至少一幅图片组合成有效图片点数据。本申请方法得到的有效图片点数据可以供电子地图制作人员参考，制作人员通过查阅各个有效图片点数据，可以得到若干幅携带有信息点的图片，并且依据各幅图片的位置坐标，可以在电子地图的相应位置添加信息点。由于制作人员查阅的图片均是携带有信息点的图片，其不需要执行辨别图片是否携带信息点的操作，因而大大提高了电子地图的制作效率。
+18. 106441312 一种生成引导线的方法及装置
+CN
+22.02.2017
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+201510490973.2
+高德软件有限公司
+贾双成
+G01C 21/26
+Loading...
+本发明公开了一种生成引导线的方法及装置，所述方法包括：获取交叉路口处进入车道的停车线和目标车道的停车线；从所述目标车道的停车线上选取第一控制点，从所述进入车道的停车线上选取第二控制点；根据所述进入车道和所述目标车道的夹角确定贝塞尔控制点；基于所述第一控制点，所述第二控制点以及所述贝塞尔控制点拟合生成贝塞尔曲线，所述贝塞尔曲线为所述进入车道至所述目标车道的引导线。本发明中，根据进入车道的停车线和目标车道的停车线，确定引导线上的控制点，对控制点拟合生成的贝塞尔曲线作为引导线。与人工绘制引导线的方法相比成本低效率快，并且生成的引导线上的控制点少，在交叉路口能够快速引导自动驾驶车辆通过该交叉路口。
+19. 102999510 交通状况信息查询方法及交通状况信息查询系统
+CN
+22.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110270249.0
+高德软件有限公司
+李宾
+G06F 17/30
+Loading...
+本发明提供一种交通状况信息查询方法及交通状况信息查询系统，其中，交通状况信息查询方法具体包括：接收针对待查询路口的交通状况查询请求；获取所述待查询路口所连接的道路中连接所述待查询路口的路段的位置码；获取所述位置码所对应的交通状况。使用本发明提供的上述技术方案，能够针对具体的路口查询交通状况信息。
+20. 106407206 一种道路聚合方法及装置
+CN
+15.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510455096.5
+高德软件有限公司
+吴跃进
+G06F 17/30
+Loading...
+本发明提供一种道路聚合方法及装置，该方法包括：获取设定地理区域内的道路；按道路类型对所述设定地理区域内的道路进行分类，将所述道路类型相同的道路分入同一个第一级道路簇中；针对一个第一级道路簇，将该第一级道路簇中的道路中满足预设的聚类条件的道路，聚合至同一个第二级道路簇中。本发明在基于道路类型得到的分类结果的基础上，进一步根据聚类条件对道路进行更加细致的分类，从而得到更加准确的道路分类结果，基于本发明的道路分类结果进行交通信息数据处理，所得到的处理结果能较准确反应同一地理区域内的同类道路的交通运营规律。
+21. 106384370 一种折线绘制方法及装置
+CN
+08.02.2017
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+201510463438.8
+高德软件有限公司
+陈怡
+G06T 11/00
+Loading...
+本发明公开了一种折线绘制方法及装置，用于准确划分折线的转角区域，该方法包括：获取折线AC的端点A、转角点B及端点C；确定第一线段AB的折线主体区域以及第二线段BC的折线主体区域，第一线段AB的折线主体区域与第二线段BC的折线主体区域具有同一个端点且第一线段AB的折线主体区域与第二线段BC的折线主体区域不重合；确定第一线段AB的折线转角区域以及第二线段BC的折线转角区域，第一线段AB的折线转角区域与第二线段BC的折线转角区域具有同一条边且第一线段AB的折线转角区域与第二线段BC的折线转角区域不重合。
+22. 104075729 一种电子地图显示的方法、装置和终端设备
+CN
+08.02.2017
+G01C 21/36 Loading...
+G01C 21/36
+Loading...
+102013000109520
+高德软件有限公司
+宫冰川
+G01C 21/36
+Loading...
+本发明公开了一种电子地图显示的方法、装置和终端设备。所述方法包括：计算被导航对象当前位置到被导航对象前方导航路径上最近的待放大路口之间的距离；判断所述距离是否小于预置的距离阈值；若是，则获取所述待放大路口的车道信息，并根据所述车道信息确定目标比例尺；将电子地图从初始比例尺放大至所述目标比例尺并显示。通过本发明的技术方案，终端在导航中行驶到待放大路口时可以避免下载大量待放大路口的放大图即可实现待放大路口的放大处理，从而减少了放大过程中用户需要消耗的流量并节省了终端的内存。
+23. 103900552 一种导航方法和装置
+CN
+01.02.2017
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+102012000567806
+高德软件有限公司
+宫冰川
+G01C 21/00
+Loading...
+本发明公开了一种导航方法和装置。所述导航方法包括：在导航过程中若发生中断事件时，判断导致中断事件发生的原因是否为接听来电；如果是，则暂停当前导航服务；如果否，则根据用户预先设置的中断事件处理方式，进入与所述中断事件处理方式对应的导航服务模式。通过本发明技术方案，能够满足不同的用户需求，带给用户更好导航体验。
+24. 106352882 一种信息点播报方法及终端
+CN
+25.01.2017
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+102015000424657
+高德软件有限公司
+苏令
+G01C 21/26
+Loading...
+本发明公开一种信息点播报方法及终端，该方法包括：向服务器发送携带用户GPS位置的信息点请求，并接收所述服务器返回的携带信息点集合的响应，所述信息点集合包括至少一个信息点，所述信息点位于用户行驶方向前方且到所述用户GPS位置的距离小于预置的第一距离；从信息点集合获取到用户当前GPS位置距离在预设的播报距离范围内的信息点，所述用户当前GPS位置是实时定位得到的；判断获取到的信息点的角度与所述用户当前GPS位置的角度的差值是否在预设的播报角度差值范围内，如果是，播报所述信息点。本发明实现在非导航状态下的信息点播报功能，在用户驾驶过程中，为用户提供对安全驾驶有帮助的信息播报，提高用户的安全驾驶体验。
+25. 106323307 一种路径查找方法及装置
+CN
+11.01.2017
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201510397596.8
+高德软件有限公司
+董青
+G01C 21/34
+Loading...
+本申请公开了一种路径查找方法及装置，方法为：利用目标综合交叉路口的结点和内部道路，构建该目标综合交叉路口的有向连通图，在有向连通图中查找以指定的进入道路的终点为进入结点，以指定的退出道路的起点为退出结点的所有连通路径，判断连通路径中一内部道路的起始结点与另一内部道路的终止结点是否重合，如果重合，则判断重合的两个结点是否为所述连通路径中的相邻结点，如果不是，则将相应的连通路径标记为非法路径。本申请提供的方法能够根据指定的进入和退出道路，查找出所有可能的连通路径，并且将其中的非法路径进行标记，方便了用户正常的导航出行。
+26. 106327540 基于OpenGL View的控制方法、装置及终端
+CN
+11.01.2017
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+102015000387116
+高德软件有限公司
+汤国行
+G06T 11/00
+Loading...
+本发明提供了一种基于OpenGL View的控制方法、装置及终端，其中方法包括：监控是否发生视图变动操作，若是，则判断OpenGL View是否被非OpenGL View覆盖；所述非OpenGL View是指终端操作系统自定义的界面；若是，则降低所述OpenGL View的绘制帧率。本发明在OpenGL View和非OpenGL View混合使用且OpenGL View被覆盖的情况下，及时降低OpenGL View的绘制帧率，这样使得OpenGL View的CPU占用量随之降低，节省APP运行时的耗电量，提高用户体验。
+27. 106326250 一种信息组织方法及系统
+CN
+11.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510350191.9
+高德软件有限公司
+徐积喆
+G06F 17/30
+Loading...
+本发明实施例公开了一种信息组织方法，所述方法包括：客户端发送携带搜索关键字的UI模板数据请求至服务端；客户端接收服务端返回的UI模板数据请求响应，所述UI模板数据请求响应携带与所述搜索关键字相关的POI点的属性信息；客户端从所述UI模板数据请求响应中解析所述POI点的属性信息；客户端按解析出的所述POI点的属性信息的数据类型，将所述POI点的属性信息填充到客户端UI模板中预设的能填充该数据类型的属性信息的板块中，一个板块填充一种数据类型的属性信息。本发明实施例还公开了一种信息组织系统。本发明实现了灵活配置POI点属性信息的目的，节约了人力和时间成本的目的。
+28. 106327575 一种道路的三维道路数据校正方法和装置
+CN
+11.01.2017
+G06T 17/05 Loading...
+G06T 17/05
+Loading...
+201510346947.2
+高德软件有限公司
+贾双成
+G06T 17/05
+Loading...
+本发明提供一种道路的三维道路数据校正方法和装置，方法包括：基于道路的三维路面，确定构成三维路面边缘线的形状点；依据构成所述三维路面边缘线的形状点，确定构成所述三维路面的中线的形状点；将构成所述中线的形状点与所述道路对应的二维道路的形状点进行比对，以判断所述中线与所述二维道路是否匹配，如果不匹配，则依据所述二维道路的形状点校正所述中线的形状点，以使得校正后的三维路面的中线与所述二维道路匹配。本发明利用道路对应的二维道路的形状点实现与中线的形状点进行比对、校正，保证绘制的三维路面的经纬度值与实际的地图道路路面的经纬度值相对应，提高了三维路面绘制的准确性。
+29. 106326255 一种图元分层切割方法及装置
+CN
+11.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000359216
+高德软件有限公司
+李永超
+G06F 17/30
+Loading...
+本发明实施例公开了一种图元分层切割方法，所述方法包括：获取一图元的原始矢量数据；判断待切割层级的数量是否大于或等于两个，如果是，则按照待切割层级由高到低的顺序，将图元切割为对应层级中的子图元。本发明实施例还公开了一种图元分层切割装置。本发明实现了提高了图元切割效率的目的。
+30. 106294407 一种重合路段确定方法和装置
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000266511
+高德软件有限公司
+张勇
+G06F 17/30
+Loading...
+本发明实施例公开的一种重合路段确定方法和装置，该方法通过利用空间索引算法，从第一路网数据的第一路段集合中，为第二路网数据中的每条第二路段获取位于周边的第一路段子集；从第二路网数据的第二路段集合中，为第一路网数据中的每条第一路段获取位于周边的第二路段子集；并根据上述路段之间的投影点位置，分别确定周边第一路段子集中到第二路段距离最短的第一路段和周边第二路段子集中到第一路段距离最短的第二路段；当最短的第一路段和第二路段互为距离最短的路段，确定存在重合部分。本发明所公开的方法通过上述方式，在已知存在重合部分的情况下，在路网进行更新时，能够降低重复操作和数据资源的浪费，实现提高路网更新融合效率的目的。
+31. 106297280 一种信息处理方法和装置
+CN
+04.01.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102015000266312
+高德软件有限公司
+胡健
+G08G 1/01
+Loading...
+本发明提供一种信息处理方法和装置。方法包括获取车辆一条行驶路线的行驶轨迹数据；利用地图匹配处理算法，将所述行驶轨迹数据匹配到的路段，确定所述行驶路线包含的路段；依据所述行驶轨迹数据、每个路段的属性信息，确定车辆的行驶信息。本发明在获取车辆行驶路线的行驶轨迹数据后，进一步确定出行驶路线包含的路段，将每个路段的属性信息与行驶轨迹数据结合确定车辆的行驶信息。本发明实现了从路段属性维度和车辆信息维度两个维度方向综合分析用户驾驶行为数据来获知用户的驾驶行为特征结果，相比于现有技术中单一的分析方式，本发明能够全面显示用户的驾驶行为特征。
+32. 106293494 读取信息的方法及装置、写信息的方法及装置
+CN
+04.01.2017
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510254333.1
+高德软件有限公司
+饶日锋
+G06F 3/06
+Loading...
+本发明实施例公开了一种读取信息的方法，所述方法包括：获取成功打开的第一文件的大小；从内存池中申请缓存区，所述缓存区的长度至少为所述第一文件的大小；将所述第一文件中记录的信息加载至所述第一缓存区，并从所述第一缓存区中读取信息。本发明实施例还公开了一种写信息的方法，所述方法包括：获取需要写入文件的信息的长度；从内存池中申请缓存区，所述缓存区的长度至少为所述信息的长度；将所述需要写入文件的信息加载至所述缓存区；将所述缓存区中的信息写入文件中。本发明实施例还公开了一种读取信息的装置以及写信息的装置。本发明提高了文件的读取效率和写文件的效率，优化了系统性能。
+33. 106297536 电子地图中的面状图元名称的标注位置确定方法及装置
+CN
+04.01.2017
+G09B 29/00 Loading...
+G09B 29/00
+Loading...
+102015000236494
+高德软件有限公司
+李永超
+G09B 29/00
+Loading...
+本发明涉及一种电子地图中的面状图元名称的标注位置确定方法及装置。所述方法包括：获取面状图元的外接多边形的中心点位置；依据所述外接多边形的中心点位置，获取所述面状图元的内接多边形的中心点位置；将所述内接多边形的中心点位置设为标注所述面状图元的名称的参考位置。通过本发明的方法能够提高电子地图的显示效果。
+34. 106294347 一种住宿地点搜索方法及装置
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510242561.7
+高德软件有限公司
+钱亦男
+G06F 17/30
+Loading...
+本发明公开了一种住宿地点搜索方法及装置，所述方法包括：获取用户选定的两个以上的行程点的位置坐标；根据用户选定的所有行程点的位置坐标，确定覆盖所有行程点的地理区域范围；在确定出的地理区域范围内搜索住宿地点。本发明通过用户选定的多个行程点确定搜索范围，能够为用户搜索到方便用户来往于多个行程点之间的住宿地点，带给用户更好的使用体验。
+35. 106296756 一种多边形的压缩方法及装置
+CN
+04.01.2017
+G06T 9/00 Loading...
+G06T 9/00
+Loading...
+201510303394.2
+高德软件有限公司
+邹书全
+G06T 9/00
+Loading...
+本发明提供一种多边形的压缩方法及装置，在判断出多边形为复杂多边形时，将其切切割成简单多边形，对切割得到的简单多边形进行三角剖分，得到构成简单多边形的三角形，从而实现对复杂多边形的三角切分。并在得到构成简单多边形的三角形后，对构成简单多边形的三角形进行三角带压缩，得到至少一个三角带，其中一个三角带用于存储N-2个三角形的顶点，即存储三个以上顶点时，可以得到一个以上的三角形，比如一个三角带存储的顶点个数为四时，可通过存储的四个顶点解压缩出两个三角形，而现有技术存储两个三角形时需要存储六个顶点，由此可见，本发明提供的方案相对于现有技术来说可以减少顶点数据存储量，也就减少了多边形占用的存储空间。
+36. 106297320 一种获取车辆行驶速度的方法及装置
+CN
+04.01.2017
+G08G 1/052 Loading...
+G08G 1/052
+Loading...
+201510303368.X
+高德软件有限公司
+崔翔飞
+G08G 1/052
+Loading...
+本发明提供一种获取车辆行驶速度的方法及装置，方法包括：接收车辆上的终端回传的GPS数据；由GPS数据获得车辆的行驶路程和行驶时间；将行驶时间减去无效停车所经历的时间，获得实际行驶时间；无效停车指的有效停车以外的停车，有效停车指的是道路拥堵造成的停车；由行驶路程和实际行驶时间获得车辆的行驶速度。在计算车辆的行驶速度时，扣除了车辆的无效停车时间，由于无效停车是由客观设置的停车点造成的，不是由于道路拥堵造成的，这样扣除无效停车时间之后的时间为实际行驶时间，利用行驶路程除以实际行驶时间可以获得行驶速度，计算出来的行驶速度相对于现有技术计算出的行驶速度更加精确，进而更加准确地反应车辆行驶道路的交通状况。
+37. 102589558 导航方法、导航终端和导航系统
+CN
+14.12.2016
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+102011000002418
+高德软件有限公司
+宋涛
+G01C 21/34
+Loading...
+本发明实施例提供一种导航方法、导航终端和导航系统，涉及导航技术领域。该方法包括：预先从导航服务器获取导航路径；按预置时间间隔，获取用户位置；根据所述用户位置和所述导航路径之间的相对位置进行导航。本发明实施例基于导航服务端和导航终端相结合的架构，由导航服务器来计算导航路径，使得对导航终端的要求大大降低，降低了导航终端的成本；另外，地图数据被放置在导航服务器端，导航终端无需存储地图数据，仅需根据获取的用户位置和导航路径之间的相对位置便可以实现导航，使得导航终端无需具备大的存储空间，降低导航终端成本同时也无需实时对地图进行更新，提高用户体验。
+38. 103365925 获取多音字拼音、基于拼音检索的方法及其相应装置
+CN
+14.12.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000102573
+高德软件有限公司
+吴跃进
+G06F 17/30
+Loading...
+本申请实施例公开了一种获取多音字拼音的方法。该方法包括：获取文字串；对文字串进行分词处理获得分词；将分词与预设多音字表进行匹配以判断分词是否包含多音字，若是，则将该分词与预设多音字词语表进行匹配以获得多音字在该分词中的拼音，多音字词语表为包含多音字的词语与多音字在该词语中的拼音之间的对应关系表。本申请实施例还公开了一种获取多音字拼音的装置以及基于文字拼音的检索方法和装置。本申请实施例提高了获得多音字正确拼音的概率，扩展了基于文字拼音的拼音数据库的信息容量，增加了数据库内数据的正确率，提高了基于文字拼音进行检索的检索效率。
+39. 103376117 一种信息搜索方法、系统及全球定位系统导航服务器
+CN
+28.09.2016
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+102012000126895
+高德软件有限公司
+王力强
+G01C 21/34
+Loading...
+本发明提供了一种信息搜索方法、系统及GPS导航服务器，主要内容为：GPS导航服务器在接收到来自客户端的搜索请求信息后，根据客户端的当前位置和行进状态确定客户端的预期位置，并将在所述预期位置的周边范围内搜索到的与关键字匹配的信息发送给客户端。由于所述预期位置是根据客户端的当前位置和客户端的行进状态确定的，因此，本发明实施例确定的预期位置非常接近于用户查看搜索结果时所处的位置，对于处于运动场景的用户，保证了搜索到的信息是其实际所在位置的周边信息，提高了周边信息搜索的准确度，改善了用户体验。
+40. WO/2016/131390 ELECTRONIC MAP DISPLAY METHOD, APPARATUS AND ELECTRONIC DEVICE
+WO
+25.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2016/073490
+AUTONAVI SOFTWARE CO., LTD.
+ZHANG, Shenzhen
+G06F 17/30
+Loading...
+An electronic map display method, apparatus and electronic device, the method comprising: when triggering of an electronic map display operation command in a current electronic map is detected, determining a target resolution hierarchy of a target electronic map according to the operation command (S11); determining first image pixel coordinates of a trigger point in the current electronic map according to screen coordinates of the trigger point for triggering the operation command (S12); determining second image pixel coordinates of the trigger point in the target electronic map according to the current resolution hierarchy, the target resolution hierarchy and the first image pixel coordinates of the current electronic map (S13); determining a first tile where the trigger point is located, from among tiles corresponding to the target resolution hierarchy according to the second image pixel coordinates of the trigger point (S14); according to the first tile and an electronic map display area, determining a to-be-loaded tile covering the electronic map display area, from among the tiles corresponding to the target resolution hierarchy (S15); downloading and rendering the to-be-loaded tile to obtain the target electronic map, and then displaying the target electronic map (S16). The speed of displaying an electronic map is improved.
+41. WO/2016/116031 METHOD AND DEVICE FOR ESTABLISHING SPATIAL INDEX OF ELECTRONIC MAP
+WO
+28.07.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+PCT/CN2016/071349
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G08G 1/01
+Loading...
+A method and device for establishing a spatial index of an electronic map. The method comprises: according to tiles contained in an electronic map and designated types of road elements contained in the tiles, establishing a global identifier of each road element of a designated type in each tile (S100); and establishing a road topology bitmap using the global identifier of each road element of the designated type in the electronic map, wherein the road topology bitmap records whether each road element is selected as a flag bit of the road element of a path to be calculated in one path calculation process (S110). Therefore, during path calculation, whether a road element has been evaluated can be directly determined through a flag bit in a road topology bitmap without establishing and polling an openlist table and a closedlist table, thereby greatly improving the efficiency of path calculation.
+42. WO/2016/116045 METHOD AND APPARATUS FOR GENERATING DIGITAL TERRAIN MODEL DATA OF ELECTRONIC MAPS
+WO
+28.07.2016
+G06T 15/00 Loading...
+G06T 15/00
+Loading...
+PCT/CN2016/071452
+AUTONAVI SOFTWARE CO., LTD.
+ZHU, Wenzheng
+G06T 15/00
+Loading...
+A method and apparatus for generating digital terrain model data of electronic maps. DTM raster data is acquired and then subjected to tile cutting in accordance with a preset tile standard to obtain a plurality of pieces of tile DTM raster data (S101); for every piece of tile DTM raster data, the tile DTM raster data is converted into regular triangular mesh DTM vector data, and a thinning algorithm is employed for thinning of the regular triangular mesh DTM vector data, so as to generate irregular triangular mesh DTM vector data (S102); relative coordinates of vertex longitude/latitude coordinates of an irregular triangular mesh relative to central point longitude/latitude coordinates of a tile where the vertex longitude/latitude coordinates are located are determined, the relative coordinates are stored, and the irregular triangular mesh DTM vector data is stored as DTM data corresponding to a large-scale electronic map (S103); and for every piece of tile DTM raster data, a 2.5-dimensional DTM image corresponding to the tile DTM raster data is generated and then stored as DTM data corresponding to a small-scale electronic map (S104). In the way described above, both the application requirement for clear display of the large-scale electronic map and the application requirement for quick rendering of the small-scale electronic map can be met.
+43. 105808578 一种电子地图增量更新的方法和装置
+CN
+27.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410848952.9
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明公开了一种电子地图增量更新的方法和装置，用以减少电子地图增量更新需要存储的数据量，使其适用于存储容量小的移动终端设备，同时兼顾电子地增量更新效率。电子地图增量更新的方法中，将新版和旧版电子地图的全局元素和局部元素的分别存储，其中，所述局部元素按区域存储；所述方法，包括：按区域将新版电子地图的局部元素与旧版电子地图对应区域的局部元素进行比较，用新版电子地图的局部元素对旧版电子地图的局部元素进行增量更新。
+44. 105808214 一种数据编译方法和地图编译器
+CN
+27.07.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410838107.3
+高德软件有限公司
+贾双成
+G06F 9/44
+Loading...
+本发明提供一种数据编译方法和地图编译器，方法应用于地图编译器，地图编译器包括多个编译模块，在每个编译模块的起始处设置对应的自恢复节点；方法包括：实时检测地图编译器编译过程中的异常信息；当检测到异常信息时，依据异常信息确定发生异常的编译模块；控制发生异常的编译模块根据其对应的自恢复节点中存储的初始化参数进行自恢复；在发生异常的编译模块自恢复完成后，修复发生异常的编译模块；在发生异常的编译模块修复完成后，依据用户输入的控制指令，控制目标编译模块依据其对应的自恢复节点中存储的编译数据和初始化参数继续执行编译过程。本发明对于编译模块发生异常的情况，大大缩减了编译时间，提高了数据的编译效率。
+45. 105806348 一种道路数据存储方法及设备
+CN
+27.07.2016
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+201410850926.X
+高德软件有限公司
+贾双成
+G01C 21/26
+Loading...
+本发明实施例提供了一种道路数据存储方法及设备，按照比例尺由小到大顺序，将电子地图道路数据划分为级别由高到低的道路网络；存储最低级别道路网络中各道路的形状点及道路拓扑关系；针对除最低级别道路网络之外的各级别道路网络中的每条道路，确定该道路所在级别道路网络的下一级别道路网络中与该道路对应的道路序列，以及该道路在最低级别道路网络中对应的道路序列，并对应存储；针对除最高级别道路网络之外的各级别道路网络中的每条道路所属道路序列，确定该道路所在级别道路网络的上一级别道路网络中与该道路所属道路序列对应的道路，并对应存储。提高了导航算路效率。涉及导航算路领域。
+46. 105808554 一种轨迹数据匹配方法和装置
+CN
+27.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410841809.7
+高德软件有限公司
+孙剑桥
+G06F 17/30
+Loading...
+本发明实施例公开一种轨迹数据匹配方法和装置，所述方法包括：将电子地图道路层中属于同一道路的路段进行拼接，得到完整的道路；根据预置的道路的缓冲范围，从预先采集的轨迹数据中为每一条道路的每一个路段确定出在缓冲范围内的待匹配轨迹数据；从每一条道路的每一条路段对应的待匹配轨迹数据中，为每一条道路的每一个路段选择一条属性满足预置的属性匹配条件的待匹配轨迹数据作为匹配的轨迹数据。本发明能够自动化完成轨迹数据的匹配，提高匹配效率，同时保证电子地图数据的准确性。另外，本发明在匹配轨迹数据之前，将待匹配路段构建成完整的道路，能够保证匹配后的轨迹数据具有明显连续性。
+47. 105808599 信息加载方法、装置及电子设备
+CN
+27.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410853019.0
+高德软件有限公司
+宫冰川
+G06F 17/30
+Loading...
+本发明实施例公开了一种信息加载方法、装置及电子设备，在接收待加载提示信息的索引信息后，依据待加载提示信息的索引信息确定待加载提示信息在预置的数据字典中的存储位置标识，从所述数据字典中所述存储位置标识对应的位置，读取所述待加载提示信息到内存中，可见，本发明实施例中，只将待加载提示信息从数据字典中加载到内存中，而不是将所有提示信息加载到内存中，从而降低内存不足而出现关闭占用内存过多的应用这一情况出现的概率，从而降低导航引擎对客户端其它应用的影响。
+48. 105788249 一种交通流量预测方法、预测模型生成方法及装置
+CN
+20.07.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102014000785171
+高德软件有限公司
+吴跃进
+G08G 1/01
+Loading...
+本发明公开了一种交通流量预测方法、预测模型生成方法及装置，预测方法包括：针对待预测道路，获取该待预测道路的当前时刻的前一时段的历史交通流数据；从预存的道路与交通流量预测模型的对应关系中，获取待预测道路对应的交通流量预测模型；将当前时刻的前一时段的历史交通流数据，输入至待预测道路对应的交通流量预测模型中，得到当前时刻的后一时段的交通流数据。由于交通流数据具有很强的非线性和不确定性，而神经网络模型具有较强的非线性预测能力，因此，根据道路的历史交通流数据对神经网络模型进行训练，训练得到的交通流量预测模型能够较为准确的根据道路当前时刻的前一时段交通流数据预测得到当前时刻的后一时段该道路的交通流数据。
+49. 105786822 电子地图中查询空间对象和建立空间索引的方法及装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410799760.3
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明提供一种电子地图中查询空间对象和建立空间索引的方法及装置。所述方法包括：获取待查询空间对象的二进制组合ID，所述二进制组合ID中包括表示该待查询空间对象在空间索引中所属层级的层级指示位，以及表示该空间对象在该层级所属网格的初始ID；根据二进制组合ID中的层级指示位信息，确定该待查询空间对象在空间索引中的所属层级；根据二进制组合ID中的初始ID信息，确定该待查询空间对象在层级指示位信息表示的层级中所属的网格；在确定的网格中查询所述待查询空间对象。通过本发明的方法能够提高空间对象的查询效率。
+50. 105791496 一种移动终端状态检测方法及装置
+CN
+20.07.2016
+H04M 1/24 Loading...
+H04M 1/24
+Loading...
+201410820967.4
+高德软件有限公司
+段航
+H04M 1/24
+Loading...
+本申请公开了一种移动终端状态检测方法及装置，方法包括：获取标识移动终端当前位置信息的当前定位圆，确定当前定位圆与预置的历史位置列表中标识移动终端历史位置信息的各个历史定位圆的位置关系，依据所述位置关系来确定移动终端当前状态。本申请的检测方法不需要传感器检测的数据，因此可以适用于各种类型的移动终端上。进一步，由于本申请是基于移动定位的方式实现移动终端状态的检测，不需要传感器检测的数据，因此不会受到磁场等外部环境的干扰，检测精度得到了提高。同时，即使移动终端处于匀速平稳行驶的运输工具上，由于移动终端位置上会产生很大的改变，因此本申请基于移动定位的状态检测方法也能够准确的检测移动终端的运动状态。
+51. 105786915 一种POI重要度确定方法及装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000827937
+高德软件有限公司
+师小丽
+G06F 17/30
+Loading...
+本发明公开了一种POI重要度确定方法及装置，用于提高POI重要度的准确性，该方法包括：获取待计算POI对应的客观因子清单，客观因子清单中至少包括以下两项客观因子：POI类型优先级、POI点击率、POI品牌度优先级、POI类型内部等级、POI热点地区匹配度、POI时间度、POI占地面积以及POI交通关联等级；计算客观因子清单中包括的每个客观因子的数值，以及计算客观因子清单中包括的每个客观因子对应的权重值；根据客观因子清单中的每个客观因子的数值以及对应的权重值，计算待计算POI的重要度。
+52. 105783921 一种校正汽车姿态数据的方法及装置
+CN
+20.07.2016
+G01C 21/16 Loading...
+G01C 21/16
+Loading...
+201410790515.6
+高德软件有限公司
+王晋高
+G01C 21/16
+Loading...
+本发明实施例提供了一种校正汽车姿态数据的方法及装置，根据汽车的行驶速度，获取汽车的行驶加速度；获取三轴加速度计提供的三轴加速度；根据三轴加速度计的安装坐标系与汽车的行驶坐标系之间的坐标系转换关系，从三轴加速度中去除行驶加速度产生的加速度分量，得到调整后的三轴加速度；使用基于调整后的三轴加速度确定的汽车姿态数据，对基于陀螺仪确定的汽车姿态数据进行校正。使得使用基于三轴加速度计确定的汽车姿态对基于三轴陀螺仪确定的汽车姿态进行校正准确性高。本发明涉及汽车导航技术领域。
+53. 105786914 一种导航数据检索方法及装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000827858
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明公开了一种导航数据检索方法及装置，该方法包括：接收用户输入的导航数据名称；在预先建立的全文搜索表中查找所述导航数据名称对应的全文搜索记录；在预先建立的导航数据存储位置记录表中查找所述全文搜索记录中的记录编号对应的存储位置记录；根据所述存储位置记录，获取对应的导航数据。在本方案中，通过利用全文搜索技术使得利用名称对电子地图中的道路或兴趣点等导航数据所进行的快速检索成为可能，提高了导航数据的检索效率。
+54. 105787240 一种油耗预测方法及装置
+CN
+20.07.2016
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201410816008.5
+高德软件有限公司
+贾双成
+G06F 19/00
+Loading...
+本申请公开了一种油耗预测方法及装置，方法为：依据电子地图确定待预测道路所包含的至少一种目标路况信息，针对每种目标路况信息，从预置的路况信息与油耗模型对应关系中，调用与目标路况信息对于的油耗模型，并根据目标路况信息及对应的油耗模型，计算待预测道路在各目标路况下的油耗量，最后将待预测道路在各目标路况下油耗量和值，确定为待预测道路的总油耗量。本申请的方案，考虑到待预测道路可能包含多种不同的目标路况信息，调用预置的对应油耗模型进行油耗预测，使得最终得出的总油耗更加贴近于实际情况，也即准确度更高。
+55. 105786922 一种缺失电子地图数据的确定方法和设备
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410830042.8
+高德软件有限公司
+杨自华
+G06F 17/30
+Loading...
+本发明公开了一种缺失电子地图数据的确定方法和设备，包括：在对待编码地址进行地理编码失败时，确定该待编码地址为缺失电子地图数据并存储在预置的缺失数据库中；进一步地对所述待编码地址对应的地址片段，按照其在待编码地址中的位置顺序，进行重新组合，得到至少一个包含所述待编码地址对应的部分地址片段的新地址，并对新地址进行地理编码，若地理编码失败则将该新地址确定为缺失电子地图数据。本方案通过地理编码的方式确定出缺失电子地图数据，为后续补充电子地图数据提供依据，从而能够有针对性的完善电子地图数据库，继而更进一步提高后续地理编码的成功率。
+56. 105783931 一种电子地图编译方法及装置
+CN
+20.07.2016
+G01C 21/32 Loading...
+G01C 21/32
+Loading...
+102014000827159
+高德软件有限公司
+贾双成
+G01C 21/32
+Loading...
+本发明公开了一种电子地图编译方法及装置，该方法包括：将第一数据格式的导航数据中耦合性高的导航数据划分到一个数据块中，得到多个数据块，所述多个数据块之间的耦合性低；根据各数据块中的导航数据的类型，调用与各数据块中的导航数据的类型对应的编译工具，分别将各数据块中的导航数据转换成第二数据格式的中间数据；对各中间数据进行空间索引切分，并对空间索引切分所得数据进行瓦片填充，得到所述第二数据格式的导航数据。通过本方案，可将待编译导航数据划分至相互之间耦合性低的多个数据块中，并且，每个数据块中的导航数据可采用与该数据块中的导航数据的类型对应的编译工具进行编译，提高了导航数据编译的灵活性以及效率。
+57. 105760360 一种地址纠正方法和装置
+CN
+13.07.2016
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+102014000784033
+高德软件有限公司
+姬昂
+G06F 17/27
+Loading...
+本发明实施例公开了一种地址纠正方法和装置，接收待纠正地址，进行地理编码，若地理编码失败，则执行以下步骤：对待纠正地址进行分词得到地址片段；将各地址片段与POI数据库中的POI进行匹配；若能匹配得到频次大于等于预置频次阈值的候选POI；根据所述待纠正地址的道路信息、选取的候选POI的频次及候选POI位置信息，从所述选取的候选POI中确定出目标POI；根据目标POI对所述待纠正地址进行纠正，可见，由于POI数据库中的POI均是经过预先现场采集得到的POI，且频次较高的候选POI一般是较为常见的POI，因此，根据确定出得目标POI对待纠正地址进行纠正的准确性更高，提高了对待纠正地址进行纠正的准确性。
+58. 105761483 一种车辆数据处理方法及设备
+CN
+13.07.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102014000783994
+高德软件有限公司
+杨承继
+G08G 1/01
+Loading...
+本发明公开了一种车辆数据处理方法及设备，在本方案中，可获取车辆行驶过程中的定位数据集合，并将获取到的定位数据集合中的定位数据与预置的路网拓扑数据进行匹配，得到所述车辆在所述行驶过程中的轨迹信息，进而可通过对所述轨迹信息进行分析来判断所述车辆在所述行驶过程中是否存在违章行为，从而可达到简便以及灵活高效地确定车辆在行驶过程中的违章行为，以便可及时避免无意或主观的违章动作以达到安全驾驶的效果的目的。
+59. 105761309 一种处理数字地面模型接缝的方法及装置
+CN
+13.07.2016
+G06T 17/05 Loading...
+G06T 17/05
+Loading...
+102014000785247
+高德软件有限公司
+朱玟征
+G06T 17/05
+Loading...
+本发明实施例公开了一种处理数字地面模型接缝的方法，例如，该方法可以包括：通过对数字地面模型中两个相邻三角网相邻边界上边界点在水平面上的坐标进行比较，区分出两个相邻三角网在水平面上投影相互重合的边界点，以及，在水平面上投影不重合的边界点；将在水平面上投影相互重合的边界点在垂直水平面轴向上的高度坐标更新为相同的值；将两个相邻三角网的相邻边界上的投影不重合的边界点分别添加到对方的边界点集合中；基于添加的边界点，在三角网内形成新的三角形。本发明实施例使相邻三角网相邻边界两边地形连贯、自然，且不会额外增加大面积的平面，不会降低总体绘制效率。另外，本发明实施例还公开了一种处理数字地面模型接缝的装置。
+60. 105758407 一种数据生成的方法及装置
+CN
+13.07.2016
+G01C 21/32 Loading...
+G01C 21/32
+Loading...
+201410788261.4
+高德软件有限公司
+贾双成
+G01C 21/32
+Loading...
+本发明实施例中提供了一种数据生成的方法及装置，在该方法中将交换格式的电子地图数据中的基本地图元素存储至预置的中间数据表相应NDS类别中，将中间数据表中基本地图元素的数据格式转换为NDS数据格式，并存储至预置的层次数据表中相应的NDS类别中，对电子地图进行瓦片分割，得到组成电子地图的多个瓦片，确定出层次数据表中各基本地图元素所属的瓦片，针对层次数据表中每一NDS类别，将NDS类别下所属瓦片相同的基本地图元素划分成一个子类，将划分子类后的层次数据表中的基本地图元素的属性按照预置的DNS属性进行转换，得到NDS格式的电子地图数据。从而实现了交换格式的地图数据转换为NDS格式的地图数据的目的。
+61. 105760392 一种基于电子地图的数据处理方法和装置
+CN
+13.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000790270
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明提供一种基于电子地图的数据处理方法和装置，包括：针对每条道路，从道路的起点开始依次获取道路对应的各道路形状点的参数信息，参数信息包括道路形状点的经纬度信息，以及坡度信息和/或曲率信息；根据道路的道路形状点的参数信息，依次计算相邻两个道路形状点间的三维长度；根据道路的相邻道路形状点间的三维长度，计算道路包含的各个路段的三维长度；当接收到用户输入的起始位置点和目标位置点时，根据起始位置点和目标位置点、各道路的路段的三维长度，确定一条连接起始位置点和目标位置点且三维长度最短的路径。由于参与最短路径计算的路段采用的是三维长度，而三维长度更能真实的反应路段的实际长度，因此计算得到的最短路径更准确。
+62. WO/2016/107439 ROAD DATA STORAGE METHOD AND DEVICE
+WO
+07.07.2016
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+PCT/CN2015/098083
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G01C 21/26
+Loading...
+A road data storage method and device; according to scale and in order from small to big, dividing electronic map road data into road networks of levels from high to low; storing the shape point and road topology relationship of the roads in the lowest level road network; for every road in each road network level other than the lowest level road network, determining a road sequence corresponding to said road in the road network level one lower than the road network level of said road, and the road sequence corresponding to said road in the lowest level road network, and store correspondingly; and for the road sequence of every road in each road network level other than the highest level road network, determine the road corresponding to the road sequence of said road in the road network level one higher than the road network level of said road, and store correspondingly; navigation path calculating efficiency is thereby improved.
+63. WO/2016/107440 METHOD AND APPARATUS FOR GENERATING AND DISPLAYING AN ELECTRONIC MAP
+WO
+07.07.2016
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+PCT/CN2015/098085
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G06F 17/00
+Loading...
+A method and apparatus for generating and displaying an electronic map, used for solving the problem of the reduced efficiency of looking up a route plan caused by the large amount of road sections produced when using existing road storage methods. The method comprises: determining the starting point of a road (L1) on the basis of shape point information of said road (L1); and storing the data information of the road (L1) in a tile interior road information table of a tile at the starting point of the road (L1), the data information of the road (L1) at least comprising the shape point information of said road (L1).
+64. WO/2016/101715 STATE DETECTION METHOD AND DEVICE FOR MOBILE TERMINAL
+WO
+30.06.2016
+H04W 64/00 Loading...
+H04W 64/00
+Loading...
+PCT/CN2015/094109
+AUTONAVI SOFTWARE CO., LTD.
+DUAN, Hang
+H04W 64/00
+Loading...
+Disclosed are a state detection method and device for a mobile terminal. The method comprises: acquiring a current positioning circle identifying current position information about a mobile terminal, determining a position relationship between the current positioning circle and each historical positioning circle identifying historical position information about the mobile terminal in a pre-set historical position list, and determining a current state of the mobile terminal according to the position relationship. The detection method of the present invention does not need data detected by a sensor, and therefore the method can be applied to various types of mobile terminals. Furthermore, since the present invention implements the detection of the state of a mobile terminal by means of mobile positioning without needing the data detected by the sensor, interference from an external environment such as a magnetic field is avoided, and the detection precision is improved. Moreover, even if the mobile terminal is on a transport machine driving steadily at a uniform speed, the mobile positioning-based state detection method of the present invention can accurately detect a movement state of the mobile terminal due to the fact that the mobile terminal will be greatly changed in position.
+65. WO/2016/101744 METHOD AND DEVICE FOR PREDICTING FUEL CONSUMPTION
+WO
+30.06.2016
+G09B 9/04 Loading...
+G09B 9/04
+Loading...
+PCT/CN2015/095128
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G09B 9/04
+Loading...
+A method and device for predicting fuel consumption. The method comprises: determining, according to an electronic map, at least one type of target road condition information of a road to be predicted (S400); for each type of target road condition information, calling, according to a preset correspondence between road condition information and fuel consumption models, a fuel consumption model corresponding to the target road condition information, and calculating, according to the target road condition information and the corresponding fuel consumption model, the fuel consumption in each target road condition of the road to be predicted (S410); and determining a sum of the fuel consumption in all the target road conditions of the road to be predicted as total fuel consumption of the road to be predicted (S420). In the method, considering that the road to be predicted may have different types of target road condition information, the preset corresponding fuel consumption model is called to predict the fuel consumption, so that the eventually obtained total fuel consumption is closer to actual fuel consumption, and thus the prediction is of higher accuracy.
+66. WO/2016/101797 ELECTRONIC MAP COMPILATION METHOD AND APPARATUS
+WO
+30.06.2016
+G01C 21/32 Loading...
+G01C 21/32
+Loading...
+PCT/CN2015/097117
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G01C 21/32
+Loading...
+An electronic map compilation method and apparatus. The method comprises: receiving navigation data to be compiled (101); grouping navigation data having high coupling in the navigation data in a first data format into one data block, to obtain multiple data blocks, where the multiple data blocks have low coupling (102); according to a type of navigation data in each data block, invoking a compilation tool corresponding to the type of the navigation data in each data block, and converting the navigation data in each data block respectively into intermediate data in a second data format (103); and performing spatial index partitioning on each intermediate data, and performing tile packing on data obtained through spatial index partitioning, to obtain navigation data in the second data format (104). By means of this solution, navigation data to be compiled can be grouped into multiple data blocks having low coupling, and for navigation data in each data block, a compilation tool corresponding to a type of the navigation data in the data block can be used to perform compilation, thereby improving flexibility and efficiency of compiling navigation data.
+67. WO/2016/095682 METHOD AND DEVICE FOR PROCESSING JOINT OF DIGITAL TERRAIN MODEL
+WO
+23.06.2016
+G06T 17/05 Loading...
+G06T 17/05
+Loading...
+PCT/CN2015/095642
+AUTONAVI SOFTWARE CO., LTD.
+ZHU, Wenzheng
+G06T 17/05
+Loading...
+Disclosed are a method and device for processing a joint of a digital terrain model. The method may comprise: comparing coordinates, in a horizontal plane, of boundary points on adjacent boundaries of two adjacent triangulation networks in a digital terrain model, distinguishing the boundary points, of the two adjacent triangulation networks, having overlapping projections in the horizontal plane, and distinguishing the boundary points having non-overlapping projections in the horizontal plane; updating height coordinates, in an axial direction perpendicular to the horizontal plane, of the boundary points having overlapping projections in the horizontal plane into the same values; adding the boundary points, having non-overlapping projections, on the adjacent boundaries of the two adjacent triangulation networks into each other's boundary point sets; and forming new triangles in the triangulation networks on the basis of the added boundary points. Therefore, the terrains on two sides of the adjacent boundaries of the adjacent triangulation networks are coherent and natural, no plane of a large area is added, and the total drawing efficiency is not reduced.
+68. WO/2016/095708 TRAFFIC FLOW PREDICTION METHOD, AND PREDICTION MODEL GENERATION METHOD AND DEVICE
+WO
+23.06.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+PCT/CN2015/096341
+AUTONAVI SOFTWARE CO., LTD.
+WU, Yuejin
+G08G 1/01
+Loading...
+Disclosed are a traffic flow prediction method, and a prediction model generation method and device. The prediction method comprises: for a road to be predicted, acquiring historical traffic flow data of the road to be predicted within a time period prior to the current time (301); from a correlation between a pre-existing road and a traffic flow prediction model, acquiring the traffic flow prediction model corresponding to the road to be predicted (302); and inputting the historical traffic flow data within the time period prior to the current time into the traffic flow prediction model corresponding to the road to be predicted, to obtain traffic flow data within a time period after the current time (303). Since traffic flow data has high nonlinearity and uncertainty and a neural network model has a relatively high nonlinear prediction capability, the neural network model is trained according to historical traffic flow data of a road, so that a traffic flow prediction model obtained by training can relatively accurately predict the traffic flow data of the road within the time period after the current time according to the traffic flow data of the road within the time period prior to the current time.
+69. WO/2016/095749 METHOD AND DEVICE FOR QUERYING SPATIAL OBJECT AND ESTABLISHING SPATIAL INDEX OF ELECTRONIC MAP
+WO
+23.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2015/097021
+AUTONAVI SOFTWARE CO., LTD.
+JIA, Shuangcheng
+G06F 17/30
+Loading...
+A method and device for querying spatial objects and establishing a spatial index of electronic map, the method comprising: obtaining a binary combination ID of a to-be-queried spatial object; the binary combination ID comprises a level indication bit representing a belonging level of the to-be-queried spatial object in the spatial index, and comprises an initial ID representing a belonging grid of the spatial object in said level (101); according to the level indication bit in the binary combination ID, determining the belonging level of the to-be-queried spatial object in the spatial index (102); according to the initial ID in the binary combination ID, determining the belonging grid of the to-be-queried spatial object in the level represented by the level indication bit (103); querying the to-be-queried spatial object in the determined gird (104). The method can improve query efficiency for the spatial object.
+70. WO/2016/086792 DRIVING BEHAVIOR ANALYSIS METHOD AND DEVICE
+WO
+09.06.2016
+G07C 5/08 Loading...
+G07C 5/08
+Loading...
+PCT/CN2015/095643
+AUTONAVI SOFTWARE CO., LTD.
+YAO, Yuxing
+G07C 5/08
+Loading...
+A driving behavior analysis method and device, the method comprising the following steps: reading vehicle acceleration vector data and angular velocity vector data detected by a sensor in a traveling process of a vehicle (S101); projecting the acceleration vector data and the angular velocity vector data onto a traveling coordinate system (x', y', z'), and acquiring acceleration vector data and angular velocity vector data in the traveling coordinate system (S102); selecting, from the vector data in the traveling coordinate system, an acceleration sample data set and/or an angular velocity sample data set when a driving behavior changes (S103); comparing the acceleration vector data in the acceleration sample data set with a preset acceleration reference value and a preset deceleration reference value, and determining whether an acceleration behavior or a brake behavior has occurred (S104); and comparing the angular velocity vector data in the angular velocity sample data set with a preset angular velocity reference data sequence, and determining whether a left turn behavior, a right turn behavior, a left merging behavior or a right merging behavior has occurred (S105). Since an acceleration reference value, a deceleration reference value and an angular velocity reference data sequence are configured, the present invention can accurately determine two types of changes in driving behavior.
+71. WO/2016/086862 POI DATA PROCESSING METHOD AND DEVICE
+WO
+09.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2015/096228
+AUTONAVI SOFTWARE CO., LTD.
+GAO, Jiliang
+G06F 17/30
+Loading...
+A POI data processing method and device comprises: extracting, from the stored street view data, at least one street view video frame related to location information of a POI to be processed, and extracting feature information of the POI to be processed (S101); separately calculating the similarity between each street view video frame and the POI to be processed (S102); determining the comprehensive similarity according to the similarity (S103); determining whether the comprehensive similarity is greater than or equal to the preset similarity threshold; if yes, determining that the POI to be processed is valid; if not, determining that the POI to be processed is invalid, and deleting the POI to be processed (S104).By calculating the comprehensive similarity between the street view video frame related to the location of the POI to be processed and the POI to be processed, whether the POI to be processed is valid can be accurately determined, and the POI to be processed is deleted when the POI to be processed is invalid, so as to avoid the problem of wrong guidance and presentation due to the fact that invalid POIs are presented to a user when the follow-up user retrieves POIs.
+72. WO/2016/086893 METHOD AND DEVICE FOR DISPLAYING ELECTRONIC MAP
+WO
+09.06.2016
+G06T 19/00 Loading...
+G06T 19/00
+Loading...
+PCT/CN2015/096391
+AUTONAVI SOFTWARE CO., LTD.
+PENG, Chao
+G06T 19/00
+Loading...
+A method and device for displaying an electronic map, which are used for solving the problem existing in the prior art that the display effect of an electronic map is poor due to the fact that the movement of the electronic map is inflexible. The method comprises: acquiring three-dimensional coordinates of an initial position point and a target position point of an electronic map (11); according to the three-dimensional coordinates of the initial position point and the target position point, determining a three-dimensional coordinate of a key node (12); according to the three-dimensional coordinates of the initial position point, the target position point and the key node, generating a space curve sequentially connecting the initial position point, the key node and the target position point (13); according to a pre-set map display duration, a movement function and a refresh time interval, determining a movement point from the space curve, and taking the target position point as a movement point (14); and displaying the electronic map by taking the movement point as a central point in sequence along the space curve by taking the initial position point as a start point (15).
+73. WO/2016/078606 NAVIGATION METHOD AND APPARATUS
+WO
+26.05.2016
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+PCT/CN2015/095035
+AUTONAVI SOFTWARE CO., LTD.
+GONG, Bingchuan
+G01C 21/34
+Loading...
+A navigation method and apparatus. The method comprises: planning a navigation route from a start position set by a user to a destination position (S101); acquiring a position of a navigation object, and determining whether the position of the navigation object is a non-GPS position (S102), if it is determined that the position of the navigation object is a non-GPS position, adjusting an off-course threshold according to positioning precision of the non-GPS position (S103); and performing navigation guidance for the navigation object according to the adjusted off-course threshold and the planned navigation route (S104). The method resolves the problem in the prior art that when a navigation object fails to receive a GPS signal, a route is planned again by mistake because positioning is not accurate.
+74. WO/2016/078608 ROAD CODING METHOD AND DEVICE
+WO
+26.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2015/095094
+AUTONAVI SOFTWARE CO., LTD.
+CHANG, Xiaole
+G06F 17/30
+Loading...
+Provided are a road coding method and device. The method comprises: selecting a shape point from a road to be coded, wherein the shape point comprises a start point and an end point of the road to be coded; respectively converting latitude and longitude coordinates of the shape point in the road to be coded into numericalal strings using at least two preset hash functions; and generating a code of the road to be coded according to the numerical strings obtained through the conversion of various hash functions. It can be seen from the technical solution that in the present invention, the latitude and longitude coordinates of a shape point in a road to be coded are respectively converted into numerical strings using at least two hash functions, and a code of the road to be coded is generated according to each of the numerical strings. It can be seen that the code of the road generated using the road code generation method provided in the present solution is relatively stable, thereby reducing the possibility of a road matching failure in the prior art due to the fact that the code of the road has changed since a road data version has changed. The present solution improves the accuracy of road matching.
+75. 105588573 一种备选导航路线的确定方法及装置
+CN
+18.05.2016
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201410637519.0
+高德软件有限公司
+毛灵飞
+G01C 21/34
+Loading...
+本发明实施例公开了一种备选导航路线的确定方法及装置，该方法包括：先搜索最优导航路线并计算最优导航路线的路线代价，再继续搜索新导航路线并计算该新导航路线的路线代价，然后计算新导航路线与最优导航路线之间的差异度，当差异度大于预置的差异度阈值时，将该新导航路线确定为候选导航路线；并判断候选导航路线的总数目是否大于等于预设路线数目以及判断新导航路线的路线代价是否大于预置的代价阈值，在所述候选导航数目大于等于预设线路数目或者新导航路线代价大于代价阈值时，从候选导航路线中选取备选导航路线。采用本发明技术方案，能够为用户提供与最优导航路线差异度较大、路线代价可控以及数量合理的备选导航路线，满足用户的新需求。
+76. 105589891 电子地图中道路数据制作及其更新的方法和装置
+CN
+18.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410617650.0
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明公开了一种电子地图中道路数据制作及其更新的方法和装置，用以在减少电子地图增量更新所需要数据量的同时，又不增加对服务器端数据处理能力的要求。其中，数据制作方法包括按照预置的瓦片边界，将电子地图切分为瓦片；确定瓦片边界与跨瓦片的父道路的交点的经纬度坐标，其中，所述交点将所述父道路分割为至少两条子道路；根据子道路的起始形状点的经纬度坐标，确定子道路所属的瓦片标识；确定并保存每一子道路的道路属性信息，所述道路属性信息至少包括子道路的子道路标识、子道路所属瓦片的瓦片标识及子道路的起始形状点和终止形状点。
+77. WO/2016/070767 POSITIONING DATA ACQUISITION METHOD AND DEVICE
+WO
+12.05.2016
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+PCT/CN2015/093578
+AUTONAVI SOFTWARE CO., LTD.
+DUAN, Hang
+H04W 4/02
+Loading...
+Disclosed in an embodiment of the present invention are a positioning data acquisition method and device, the method comprising: determining whether a positioning error of a satellite positioning signal of a user equipment (UE) is greater than a preset error upper limit value, and if so, then acquiring a reference coordinate of the UE, the reference coordinate being a user position coordinate determined according to a satellite positioning signal when last determining that the positioning error is less than the preset error upper limit value; acquiring a real-time movement parameter of the UE, the real-time movement parameter comprising a real-time movement direction and a real-time movement step number of the UE; according to the real-time movement direction, the real-time movement step number, the preset movement step length and the reference coordinate of the UE, determining the real-time position coordinate of the UE; detecting in real time the information of a base station and/or a wireless access point accessed by the UE; and reporting to a server the real-time position coordinate of the UE, and the information of the base station and/or the wireless access point detected by the UE. The present invention at least realizes automatic acquisition of positioning data.
+78. 105575253 一种室内地图生成方法及装置
+CN
+11.05.2016
+G09B 29/00 Loading...
+G09B 29/00
+Loading...
+201410549458.2
+高德软件有限公司
+王翔
+G09B 29/00
+Loading...
+本发明公开了一种室内地图生成方法及装置，包括：接收携带建筑物ID的建筑物室内楼层展示请求；从预存的室内地图数据中，查找建筑物ID对应的室内地图数据，并从该室内地图数据中获取该建筑物的属性信息以及当前待展示楼层对应的属性信息；再根据该建筑物的属性信息，在电子地图中该建筑物位置处绘制该建筑物的轮廓；以及根据当前待展示楼层的属性信息，在该建筑物的轮廓上绘制当前待展示楼层的轮廓和分布在所述当前待展示楼层的室内POI。采用本发明技术方案，能够在电子地图中绘制用户选定的建筑物的室内轮廓以及该建筑物当前待显示楼层的轮廓和室内POI，因此，本方案能够便于用户直接在电子地图中查看建筑物的室内信息。
+79. 105574040 一种查询串的同义变换方法及设备
+CN
+11.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410549700.6
+高德软件有限公司
+王思聪
+G06F 17/30
+Loading...
+本发明提供一种查询串的同义变换方法及设备，包括：将查询串进行分词处理，得到分词片段；以分词片段为单元利用正向最大匹配算法在预置的词库中对查询串进行同义词查询；用查询到的同义词替换查询串中对应的分词片段得到多个同义串；对每个同义串进行需求满意度统计，获得每个同义串的需求满意度值；对同义串按照需求满意度值由大到小的顺序进行排序；将排序在前的n个同义串作为同义变换后的查询串，n为预置的需要反馈的同义串个数。由于正向最大匹配算法是优先匹配最长的同义词，得到的同义串可以更符合用户的表达习惯，并且能够最大程度地减少语义偏移。由于需求满意度值较高的同义串更符合用户的查询意图，这样反馈的同义串更加准确。
+80. 105574019 一种查询参数处理方法及装置
+CN
+11.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410542279.6
+高德软件有限公司
+吴鹏杰
+G06F 17/30
+Loading...
+本发明公开了一种查询参数处理方法及装置，所述方法包括：接收用户输入的查询请求，获取所述查询请求中携带的查询参数，若根据所述查询参数中的查询数据类型参数，确定查询数据类型为兴趣点POI类型，则根据所述查询参数中的查询串以及预设的语义分析规则，确定实际的查询数据类型。也就是说，可通过分析用户输入的查询请求中携带的查询参数，来正确地获取用户的实际查询数据类型等信息，以便后续可根据获取到的用户的实际查询数据类型等信息对用户的查询请求进行重写，以构造更符合用户实际需求以及更符合计算机理解的查询方式，从而可达到改善地图搜索引擎的搜索质量的目的。
+81. 105574313 一种道路等级的确定方法和装置
+CN
+11.05.2016
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201410540027.X
+高德软件有限公司
+陈俊卿
+G06F 19/00
+Loading...
+本发明提供一种道路等级的确定方法和装置，以解决现有技术中确定道路等级不准确的问题。该方法中，根据获取的与路段匹配的GPS轨迹点集合中的GPS轨迹点，确定至少一种用于表征路段的通行能力的通行能力特征值；根据确定的至少一种通行能力的通行能力特征值，确定该路段的备选道路等级；根据该路段的各备选道路等级，确定该路段的道路等级。本方案与现有技术相比，提高了道路等级的准确性。
+82. 103384368 一种移动终端定位系统及方法
+CN
+04.05.2016
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+201210135747.9
+高德软件有限公司
+佘桥
+H04W 12/06
+Loading...
+本发明实施例涉及通信领域，公开了一种移动终端定位系统及方法，该移动终端定位系统包括分层布局并且采用松耦合的方式以数据为核心进行关联的数据采集子系统、数据处理子系统及数据发布子系统。本发明实施例公开的移动终端定位系统及方法可以同时支撑不同环境下的移动终端定位。
+83. 105539356 一种汽车防盗方法、装置及系统
+CN
+04.05.2016
+B60R 25/00 Loading...
+B60R 25/00
+Loading...
+201410601611.1
+高德软件有限公司
+王晋高
+B60R 25/00
+Loading...
+本发明公开了一种汽车防盗方法、装置及系统，以提高防盗效果。该方法包括：服务器接收用户终端发送的布防指令，并将该布防指令发送至该用户终端对应的车载终端，以触发车载终端获取并向该服务器发送汽车状态信息；服务器监听该车载终端发送的汽车状态信息，若在预设的时长内未监听到该车载终端发送的汽车状态信息，则向该用户终端发送报警消息；若监听到，则判断接收到的汽车状态信息是否异常，若异常则向该用户终端发送报警消息。
+84. 105450720 一种GPS数据采集及传输方法和装置
+CN
+30.03.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410523234.4
+高德软件有限公司
+周焕青
+H04L 29/08
+Loading...
+本发明公开了一种GPS数据采集及传输方法和装置，方法为，由网络侧服务器存储采集GPS数据的相关GPS数据采集传输配置文件，当采集终端建立与网络侧服务器的连接之后，从网络侧服务器中获取GPS数据传输配置文件，采集终端根据获取的GPS数据采集传输配置文件中包含的GPS数据采集配置信息采集GPS数据，并根据GPS数据采集传输配置文件将该采集的GPS数据发送至网络侧服务器。采用本发明技术方案，直接在网络侧服务器对GPS数据采集传输配置文件进行升级，升级GPS数据传输配置信息和GPS数据采集配置信息较为简单，且能够确保在升级GPS数据传输配置信息和GPS数据采集配置信息后还能及时、准确地采集GPS数据。
+85. 105447064 一种电子地图数据制作及其使用方法和装置
+CN
+30.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410521743.3
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明公开了一种电子地图数据制作及其使用方法和装置，用以减少电子地图绘制和检索等过程中地图元素查找时间，提高绘制速度和检索速度。数据制作方法包括：按照预设的瓦片边界，将电子地图切分为瓦片；针对每一类地图元素，逐瓦片确认该瓦片中是否存在该类地图元素；根据确认结果，为该瓦片对应的该类地图元素的识别标记赋值。绘制方法包括：获取待绘制电子地图包含的瓦片；针对每一类地图元素，根据预置的地图元素的识别标记与瓦片的对应关系，确定瓦片是否包括相应的地图元素，如果包括则进入该瓦片搜索相应地图元素数据并绘制。检索方法包括：接收地图元素检索请求；根据预置的地图元素的识别标记与瓦片的对应关系，确定包含地图元素的瓦片。
+86. 105426372 一种电子地图数据制作及更新方法和装置
+CN
+23.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410475557.0
+高德软件有限公司
+贾双成
+G06F 17/30
+Loading...
+本发明公开了一种电子地图数据制作及更新方法和装置，用以减少电子地图更新的处理时间，提高电子地图更新的效率。电子地图数据制作方法包括：针对电子地图中的地图元素，根据该地图元素的位置信息生成该地图元素的特征标识；建立该地图元素与其对应的特征标识之间的对应关系。所述电子地图更新方法，包括：针对电子地图中的同一类地图元素，将待更新的目标数据表与提供更新数据源的源数据表中的该类地图元素对应的特征标识进行比较，得到发生变化的地图元素；分别确定发生变化的地图元素在所属数据表中的变化类型；根据确定出的地图元素在所属数据表中的变化类型，对所述目标数据表进行更新。
+87. 105321338 一种交通事件的处理方法及交通事件系统
+CN
+10.02.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201410364811.X
+高德软件有限公司
+余新彦
+G08G 1/00
+Loading...
+本发明实施例提供了一种交通事件的处理方法及交通事件系统，所述方法包括：接收上报的交通事件；确定接收的交通事件的可信度，若可信度大于预设可信度阈值，则将该交通事件确定为可信交通事件；从已上报的在发布有效期内的可信交通事件中，确定与该交通事件描述同一交通事件的可信交通事件；若确定出，则将本次接收的可信交通事件和从已上报的在发布有效期内的可信交通事件中确定出的可信交通事件聚合为一个可信交通事件。本发明解决了现有技术处理得到的交通事件准确性低、有效性差、实时性差的问题。
+88. 105303522 一种图像去雾处理方法及装置
+CN
+03.02.2016
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201410305613.6
+高德软件有限公司
+陈怡
+G06T 5/00
+Loading...
+本发明涉及图像处理技术领域，尤其涉及一种图像去雾处理方法及装置，用以解决现有的对视频图像进行实时去雾处理的方法需要布设专门的硬件设备，增加了布设成本及终端硬件设施的复杂度，不适合应用在移动终端设备上的问题。本发明实施例提供一种图像去雾处理方法包括：确定待处理图像中的消失点；将所述待处理图像中位于所述消失点所在水平线上方的像素点的透射率确定为预设的第一透射率阈值；为所述待处理图像中位于所述消失点所在水平线下方的像素点确定大于所述第一透射率阈值小于等于第二透射率阈值的透射率；根据确定的所述待处理图像中各像素点的透射率、颜色分量以及预设的大气光值，确定去雾处理后的图像中各像素点的颜色分量。
+89. 105277189 一种路线推送方法及装置
+CN
+27.01.2016
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201410307070.1
+高德软件有限公司
+张志辉
+G01C 21/00
+Loading...
+本发明公开了一种路线推送方法及装置，以解决现有技术中需要用户手动输入信息来获取出行路线的路况信息而存在的查询过程繁琐的问题；方法包括：根据用户终端上传的历史轨迹数据，确定用户目标出行路线及目标出行路线的出行类型；确定目标出行路线中的关键交通节点；根据目标出行路线各路段的历史路况信息、采集的实时路况信息及历史轨迹数据中记录的时间信息，确定用户到达目标出行路线中的每一个关键交通节点和终点的时间；根据历史轨迹数据中记录的时间信息和出行类型，确定出路线推送时间；在路线推送时间到达时，向用户终端推送目标出行路线及相关信息，其中相关信息包括用户到达目标出行路线中的每一个关键交通节点和终点的时间和路况信息。
+90. 105258705 一种导航方法及装置
+CN
+20.01.2016
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201410341970.8
+高德软件有限公司
+潘锦磊
+G01C 21/34
+Loading...
+本发明涉及导航领域，尤其涉及一种导航方法及装置，能够在解决现有的导航耗电量较高问题的同时保证用户行车安全。本发明实施例的导航方法包括：根据用户设定的起、终点进行导航路径规划，得到一条导航路径；实时获取用户位置，根据获取的用户位置，判断用户是否沿所述导航路径驶入用户预设的导航语音播报区域，如果驶入，则对所述导航路径落入所述导航语音播报区域的部分进行语音播报，直到根据获取的用户位置，判断得到用户沿所述导航路径驶出了所述用户预设的导航语音播报区域，则停止导航语音播报。由于不必针对从起点到终点的整个导航路径为用户进行语音播报，节省了导航产品的耗电量，提高了驾驶安全性。
+91. 105022747 一种地址查询串解析方法及装置
+CN
+04.11.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410174465.9
+高德软件有限公司
+郭涛
+G06F 17/30
+Loading...
+本发明涉及地理位置搜索技术领域，尤其涉及一种地址查询串解析方法及装置，用以解决现有技术中在地址搜索结果不准确的问题。所述方法包括：获取用户输入的地址查询串并通过地理信息系统GEO解析，得到地址串；将所述地址串中地址成分和非地址成分通过模式识别进行修正，得到修正地址查询串；根据所述修正地址查询串分别构造一级子串和二级子串，作为解析结果。
+92. 105021202 一种地图匹配方法及设备
+CN
+04.11.2015
+G01C 21/30 Loading...
+G01C 21/30
+Loading...
+201410178812.5
+高德软件有限公司
+兰阿居
+G01C 21/30
+Loading...
+本发明公开了一种地图匹配方法及设备，在确定与获取到的车辆GPS轨迹点相邻的候补道路后，可根据所选取的包括用于反映GPS轨迹点相对候补道路的行驶状态特征匹配程度的状态特征因子的匹配因子，确定各GPS轨迹点相对各候补道路的匹配因子取值，并进而确定各GPS轨迹点相对各候补道路的匹配权值，以及选取各GPS轨迹点相对候补道路的匹配权值之和满足设定条件的候补道路作为与获取到的GPS轨迹点相匹配的道路。也就是说，在本方案中，可通过增加能够反映GPS轨迹点相对候补道路的行驶状态特征匹配程度的匹配因子，来进行相应匹配道路的选择，从而在减少误匹配的基础上，达到了提高地图匹配结果的精确性的目的。
+93. 105023431 一种确定交通限行信息的方法及装置
+CN
+04.11.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201410178779.6
+高德软件有限公司
+张祥飞
+G08G 1/01
+Loading...
+本发明公开一种确定交通限行信息的方法及装置，用以解决现有技术中人工采集的方式往往需花费大量的人力，并且采集效率较低，难以保证交通限行信息的及时更新的问题。本发明方法包括：获取多辆浮动车的轨迹点信息，每一个轨迹点信息包括浮动车的位置信息和时间点信息；根据所述多辆浮动车的轨迹点信息中的位置信息，确定出具有从第一道路驶入第二道路的行驶轨迹的浮动车；针对每一辆确定出的浮动车，根据该浮动车的轨迹点信息中的时间点信息，确定出该浮动车从第一道路驶入第二道路的时间点；根据确定出的浮动车从第一道路驶入第二道路的时间点，确定出从第一道路驶入第二道路的限行时段。
+94. 105023266 增强现实实现方法、装置和终端设备
+CN
+04.11.2015
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201410178628.0
+高德软件有限公司
+郑杰
+G06T 7/00
+Loading...
+本发明公开了一种增强现实实现方法、装置和终端设备，用以在用户拍摄的图像上实时展示对应的AR信息，并提高AR信息展示的准确性和真实性。其中，增强现实实现方法包括：获取拍摄对象的图像序列；从图像序列中选择至少一帧关键帧图像，关键帧图像为能够恢复出所述拍摄对象的局部三维点云数据的图像，相邻的关键帧图像满足预设的图像间隔距离；并确定拍摄时间最晚的关键帧图像为当前关键帧图像；根据当前关键帧图像或者选择出的至少一帧关键帧图像确定拍摄对象的完整三维点云数据；获得待展示的AR信息；根据完整三维点云数据和当前关键帧图像，确定AR信息在当前帧图像上的展示方位；根据展示方位，在当前帧图像上展示AR信息。
+95. 105023428 路况信息评估方法及装置
+CN
+04.11.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201410149401.3
+高德软件有限公司
+张晓坤
+G08G 1/01
+Loading...
+本发明公开了一种路况信息评估方法及装置，该方法包括：将浮动车定位出的各GPS轨迹点进行聚类处理，得到聚类出的各轨迹段，其中，聚类出的轨迹段中任意相邻的两个GPS轨迹点之间的距离不超过设定的距离阈值；判断聚类出的轨迹段是否为由信号灯导致的停车行为对应的轨迹段，若判断结果为是，则将该轨迹段确认为信号灯停车轨迹段；根据确定出的信号灯停车轨迹段，对浮动车在信号灯停车轨迹段所在路段中的通行速度进行修正处理；根据修正处理后的通行速度，对已发布的实时路况信息进行准确性评估。采用本发明技术方案，能够解决现有技术中评估交通数据提供商已发布的路段的实时路况信息的准确性较低的问题。
+96. 105021205 导航预览方法、相关设备和导航预览系统
+CN
+04.11.2015
+G01C 21/36 Loading...
+G01C 21/36
+Loading...
+201410174869.8
+高德软件有限公司
+王文龙
+G01C 21/36
+Loading...
+本发明公开了一种导航预览方法、相关设备和导航预览系统，用以解决现有技术中存在的进行导航预览时耗费客户端较多传输资源和处理资源的问题。其中，导航预览方法包括：接收客户端发送的导航路径和第一视口；确定所述导航路径上的各导航预览点以及每个导航预览点对应的全景图像；按照确定出的各导航预览点在所述导航路径上的先后顺序，针对各导航预览点依次执行第一指定操作；所述第一指定操作为：根据导航预览点对应的全景图像以及所述第一视口，确定导航预览点对应的可视图像，并将确定出的可视图像发送给所述客户端进行显示。
+97. 104978367 一种路况信息存储方法及装置
+CN
+14.10.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410148238.9
+高德软件有限公司
+吴跃进
+G06F 17/30
+Loading...
+本发明公开了一种路况信息存储方法及装置，方法为，在存储路段在规定时间段内的路况信息时，无需存储海量的离散数据对，而是根据该路段在规定时间段内的各数据对，拟合出该路段对应的一元多阶函数关系式，并存储拟合出的一元多阶函数关系式，那么后续就可以根据该一元多阶函数关系式得到路段在该规定时间段内的各采集时间点分别对应的行车速度值，从而避免了存储海量的离散数据对造成占用大量存储空间的问题，减轻了系统负担；并且，拟合出的一元多阶函数关系式能够线性反映出路段在规定时间段内的道路交通状况的变化规律，准确地反映了路段的道路交通状况。
+98. 104867402 一种离线的逆地理编码的方法及其装置和终端设备
+CN
+26.08.2015
+G09B 29/10 Loading...
+G09B 29/10
+Loading...
+201410064529.X
+高德软件有限公司
+段航
+G09B 29/10
+Loading...
+本发明公开了一种离线的逆地理编码的方法及其装置和终端设备，以解决现有技术中逆地理编码需要联网，从而导致终端设备无法联网时无法完成逆地理编码的技术问题。方法包括：当接收到携带有经纬度坐标的逆地理编码请求时，确定出包含该经纬度坐标的地理区域块，并获取该地理区域块对应的城市代码；当获取的城市代码为一个时，将该城市代码对应的地理位置描述信息作为所述经纬度坐标对应的逆地理编码结果；当获取的城市代码为多个时，根据该多个城市代码的多边形数据选取一个城市代码，并将该城市代码对应的地理位置描述信息作为所述经纬度坐标对应的逆地理编码结果。本发明技术方案，在终端设备本地实现逆地理编码，不需要联网也能够实现逆地理编码。
+99. 104864879 导航路径规划方法及装置
+CN
+26.08.2015
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201410064581.5
+高德软件有限公司
+孙剑桥
+G01C 21/34
+Loading...
+本发明公开了一种导航路径规划方法及装置，该方法包括：规划从起始位置到目的位置的骑行路径；若规划出的从起始位置到目的位置的骑行路径的最短骑行距离大于设定的第一距离阈值，则规划从所述起始位置到所述目的位置的公交路径；以及规划从所述起始位置到所述公交路径的起始公交站点的骑行路径以及从所述公交路径的末端公交站点到所述目的位置的骑行路径；根据规划出的公交路径、从起始位置到起始公交站点的骑行路径以及从末端公交站点到目的位置的骑行路径，确定从所述起始位置到所述目的位置的导航路径。本发明技术方案提出了一种实现各种公用交通工具间的无缝换乘的技术方案。
+100. 104677363 Road generating method and road generating device
+CN
+03.06.2015
+G01C 21/32 Loading...
+G01C 21/32
+Loading...
+201310642202.1
+高德软件有限公司
+张勇
+G01C 21/32
+Loading...
+The invention discloses a road generating method and a road generating device which are used for solving the problem that the road generating efficiency is relatively low in the prior art. The method comprises the following steps: matching tracing points uploaded on a navigation vehicle to an area block of an electronic map, and processing the tracing points in the area block to obtain a virtual tracing point corresponding to the area block; and then, analyzing the virtual tracing point of each area block to generate a new road. According to the technical scheme provided by the invention, a large quantity of tracing points uploaded by the navigation vehicle can be automatically processed to generate the new road. Compared with a mode of updating a road network by acquiring road data by acquisition staff on the spot in the prior art, according to the method and the device disclosed by the invention, the road generating efficiency and the road generating speed are improved; the navigation vehicle is more possibly distributed in each geographic area, and the data size of the tracing points uploaded by the navigation vehicle is higher, and the covered geographical range is wider; the tracing points can be used for generating more new roads at a higher speed, so that the road network road can be timely updated more comprehensively and more accurately.
+101. 103854481 一种交通路况信息的采集方法和装置
+CN
+11.06.2014
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201210521684.0
+高德软件有限公司
+张祥飞
+G08G 1/01
+Loading...
+本发明实施例公开了一种交通路况信息的采集方法和装置。其中，该方法包括：接收浮动车在当前路段的行驶过程中上报的各定位点的定位信息；针对每个定位点，根据该定位点的定位信息中的位置信息计算该定位点与所述浮动车行驶方向上最近的信号灯之间的距离；判断所述距离是否小于预设的信号灯的红灯影响距离，若是则表示所述浮动车受红灯影响而行驶缓慢或停止，删除该定位点的定位信息，否则保留该定位点的定位信息；根据保留的定位点的定位信息，确定所述浮动车在当前路段的行驶速度。根据本发明实施例，可以去除信号灯对采集结果准确度的影响，使采集结果更准确。
+102. 103794045 Real-time traffic information acquisition method and device, and vehicle-mounted equipment
+CN
+14.05.2014
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201210418511.6
+高德软件有限公司
+吴跃进
+G08G 1/01
+Loading...
+The embodiment of the invention discloses a real-time traffic information acquisition method and device, and vehicle-mounted equipment, and application is realized in the technical field of information processing. In the embodiment of the invention, after the vehicle-mounted equipment acquires real-time traffic information of a floating vehicle in the driving process according to an acquisition period, the real-time traffic information after filtering is obtained via noise filtering processing firstly, and then deviation correction processing is performed on position information in the real-time traffic information after filtering, i.e. the acquired position information is substituted by the confirmed practical position information at a sampling point moment of the floating vehicle. The real-time traffic information comprises the position information and azimuth information of the floating vehicle at each sampling point moment. Therefore, a positioning error of the vehicle-mounted equipment to the floating vehicle is considered, noise data generating reverse interference on real-time traffic information calculation and processing are filtered, and the acquired position of the floating vehicle is corrected to an existing correct way, and thus accuracy of the acquired real-time traffic information is enhanced.
+103. 103674012 Voice customizing method and device and voice identification method and device
+CN
+26.03.2014
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201210357114.2
+AUTONAVI SOFTWARE CO., LTD.
+PAN YUANYUAN
+G01C 21/00
+Loading...
+The invention discloses a voice customizing method and device, and a voice identification method and device. The voice customizing method and device can be used for correlating different application instructions in different application scenarios with same voice so as to realize one voice customization, achieve application of the voice to the multiple application scenarios and improve the voice customizing efficiency and the utilization rate. The voice customizing method comprises the steps of recording the voice, identifying the recorded voice to obtain a voice message, building the association of an application instruction selected from a preset application instruction set for the voice by a user and the voice message and storing the association, wherein one application instruction in the application instruction set corresponds to one application scenery.
+104. 103685407 Telematics platform system based on cloud technology
+CN
+26.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210347849.7
+AUTONAVI SOFTWARE CO., LTD.
+ZHOU PIN
+H04L 29/08
+Loading...
+The invention discloses a Telematics platform system based on cloud technology, wherein a cloud server can integrate the service data of each service data provider to provide more comprehensive and more diversified services for a vehicle-mounted terminal user. The system comprises the cloud server and a user terminal, wherein the cloud server is used for obtaining corresponding service data from servers of each service data provider and integrating the obtained service data, carrying out voice recognition on voice data sent by the user terminal, and storing the service data obtained according to the result of the voice recognition into an account space corresponding to the user terminal; the user terminal is used for sending the voice data to the cloud server, obtaining the service data, obtained according to the voice data, of the cloud server from the corresponding account space, and carrying out corresponding service operation on the service data.
+105. 103514626 一种显示天气信息的方法及其装置和移动终端
+CN
+15.01.2014
+G06T 17/00 Loading...
+G06T 17/00
+Loading...
+201210205964.0
+厦门高德软件有限公司
+余海箭
+G06T 17/00
+Loading...
+本发明涉及信息处理技术领域，特别是涉及一种显示天气信息的方法及其装置和移动终端，所述方法包括：获取待查询位置；获取所述待查询位置的天气信息；获取用于表示所述天气信息的动态贴图和/或动画事件；通过预先建立的天气三维立体模型，在电子地图界面中显示所述动态贴图和/或动画事件。本发明实施例中，对实时天气信息进行处理，将二维的天气信息数据转换成三维的数据进行显示，从而达到了以三维立体的方式显示天气信息的效果，获取更加直观、逼真的显示效果，使用户获取了身临其境的感受。
+106. 103186979 一种交通状态的描述方法和装置
+CN
+03.07.2013
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110448762.4
+高德软件有限公司
+曾利非
+G08G 1/00
+Loading...
+本发明公开了一种交通状态的描述方法和装置，所述方法包括：接收客户端的交通状态查询请求；获取所述交通状态查询请求对应的线路单元；根据有向路段序列对应路段的交通状态，判断是否对所述线路单元进行交通状态整体描述；若是，则为所述线路单元生成交通状态整体描述，若否，则生成所述线路单元的交通状态详细描述；综合获取到的线路单元的交通状态整体描述和/或线路单元的交通状态详细描述，得到交通状态综合描述；返回所述交通状态综合描述至所述客户端。采用本发明实施例能够为用户提供更多、更全面的交通信息，便于用户从整体和细节上把握各个线路单元的交通状态，做好出行规划。
+107. 103186524 一种地名识别方法和装置
+CN
+03.07.2013
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+201110458103.9
+高德软件有限公司
+邓小波
+G06F 17/27
+Loading...
+本发明实施例公开了一种地名识别方法和装置，用以进行地名识别。本发明实施例方法包括：对待识别的字符串进行分词得到候选词；获取各候选词在地址名称库中的所属类别；对各候选词进行遍历，若当前候选词的所属类别为第一类别，则将当前候选词作为地名添加到候选地名集合；若当前候选词的所属类别为第二类别，则对当前候选词以及在所述地址名称库中与当前候选词临近的候选词进行组合得到合成词，并将所述合成词作为地名添加到候选地名集合。本发明实施例还提供了一种地名识别装置。本发明实施例能够进行地名识别。
+108. 103186986 一种用于终端上显示路况的方法、装置
+CN
+03.07.2013
+G08G 1/0967 Loading...
+G08G 1/0967
+Loading...
+201110460387.5
+高德软件有限公司
+胡润波
+G08G 1/0967
+Loading...
+本发明实施例公开了用于终端上显示路况的方法、装置及设备，所述终端存储有道路数据，所述道路数据包括道路的外接矩形信息，道路的第一类指定点对应的第一类坐标，所述道路由路段构成；所述方法包括：接收路段的路况数据；根据输入的路况查询区域和道路数据中道路的外接矩形信息，从道路数据中获得与路况查询区域相交的待显示道路；从路况数据中，获得构成待显示道路的路段的路况状态；根据待显示道路的第一类指定点的第一类坐标，绘制待显示道路；在待显示道路上显示构成待显示道路的路段的路况状态。本发明通过使用一种比现有地图体积更小的道路数据，在客户端实现了显示路况的功能，可以脱离现有地图，具有下载、升级方便的优点。
+109. 103175541 Virtual driving positioning information generation method and device
+CN
+26.06.2013
+G01C 25/00 Loading...
+G01C 25/00
+Loading...
+201110442662.0
+厦门高德软件有限公司
+苏群
+G01C 25/00
+Loading...
+The embodiment of the invention discloses a virtual driving positioning information generation method and device. The method comprises the following steps: acquiring a virtual driving route; acquiring time, speed and driving direction determined in a rectilinear direction between adjacent positioning information acquisition points on the virtual driving route; calculating screen coordinates of the latter positioning information acquisition point according to screen coordinates of the previous positioning information acquisition point in the two adjacent positioning information acquisition points as well as the time, speed and driving direction; converting the calculated screen coordinates of the positioning information acquisition point into latitude and longitude coordinates; and transmitting the latitude and longitude coordinates to a target navigational aid. By using the method, people can position the virtual driving vehicle on the display screen without leaving home, thereby lowering the testing cost.
+110. 103175542 一种虚拟驾车定位信息生成方法和装置
+CN
+26.06.2013
+G01C 25/00 Loading...
+G01C 25/00
+Loading...
+201110442725.2
+厦门高德软件有限公司
+苏群
+G01C 25/00
+Loading...
+本发明实施例公开了一种虚拟驾车定位信息生成方法和装置，所述方法包括：获取虚拟驾车路线；获取虚拟驾车在所述虚拟驾车路线上相邻的定位信息采集点之间行驶的时间、车速及所述相邻的定位信息采集点之间直线方向确定的驾车方向；根据相邻两个定位信息采集点中前一定位信息采集点的经纬度坐标以及所述时间、车速及驾车方向，计算后一个定位信息采集点的经纬度坐标；将计算出的定位信息采集点的经纬度坐标发送至目标导航设备。该技术方案实现了足不出户就可以对显示屏幕上虚拟驾车的车位进行定位，从而降低了测试成本。
+111. 103079163 基于位置的信息分享方法、装置及系统
+CN
+01.05.2013
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201110328473.0
+高德软件有限公司
+刘建国
+H04W 4/02
+Loading...
+本发明公开了一种基于位置的信息分享方法、装置及系统，该方法包括步骤：获得第一终端设备发送的位置信息；在预存的待分享信息中，查询获得的位置信息对应的位置周边的待分享信息；将查询到的待分享信息的信息内容提供给所述第一终端设备。采用本发明技术方案，解决了现有技术进行信息分享时，灵活性较低、受众面较窄，及浪费了较多信息传输资源的问题。
+112. 103034642 数据文件生成方法、应用程序及数据下载系统及方法
+CN
+10.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110298142.7
+高德软件有限公司
+李秋标
+G06F 17/30
+Loading...
+本发明实施例提供了一种数据文件的生成方法、应用程序和数据下载系统和方法。其中，一种数据文件的生成方法包括：遍历数据文件夹内每一个数据文件，得到每一个数据文件的目录；将所述每一个数据文件的目录写入一个新的文件；从所述数据文件夹内，读取所述每一个数据文件的数据内容；将所述每一个数据文件的数据内容添加到所述新的文件，得到一个新的数据文件。本发明实施例提供的数据文件的生成方法，能够生成可供单独下载的数据文件。本发明实施例提供的应用程序和数据下载系统和方法，能够实现应用程序和数据的分离下载，缩短了应用程序和数据的下载时间，方便了用户的使用，带给用户更好的体验。
+113. 102955981 基于位置的考核系统、考核终端和考核方法
+CN
+06.03.2013
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201110235132.9
+高德软件有限公司
+刘建国
+G06Q 10/06
+Loading...
+本发明公开一种基于位置的考核系统、考核终端和考核方法，涉及地理位置应用领域。所述考核系统，包括考核管理端和考核终端；其中所述考核管理端，用于设定被考核者的考核指标，并将所述考核指标同步至所述被考核者的考核终端上；所述考核终端，包括：获取单元，用于获取所述考核管理端同步来的考核指标；定位单元，用于获取被考核者所处位置；考核单元，用于监控所述被考核者所处位置与所述考核指标给定的考核位置范围的关系，并记录所述被考核者的考核结果；考核结果反馈单元，用于将所述被考核者的考核结果发送至所述考核管理端。本发明能够有效提高对外业工作人员的考核效率、降低考核成本。
+114. 102956113 路况信息发送方法及装置
+CN
+06.03.2013
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201110247060.X
+高德软件有限公司
+魏正军
+G08G 1/09
+Loading...
+本发明公开了一种路况信息发送方法及装置，该方法包括步骤：接收用户终端发送的连接请求消息，所述连接请求消息中携带有所述用户终端的终端标识信息；在预置的路况发布条件集中，查询所述终端标识信息对应的路况发布条件；获取并发送满足所述路况发布条件的路况信息至所述用户终端。采用本发明技术方案，解决了现有技术中存在的发送路况信息时耗费较多的网络传输资源，且用户很难查找到所关注的路况信息的问题。
+115. 102901501 目标位置查询方法及服务器
+CN
+30.01.2013
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+201110210182.1
+高德软件有限公司
+李伟冬
+G01C 21/26
+Loading...
+本发明实施例提供一种目标位置查询方法及服务器，其中，目标位置查询方法包括：接收用于请求获取用户要到达的目标位置的描述信息的位置请求消息，所述位置请求消息包括：用户当前所在位置的描述信息和用户要到达的目标位置的标识；根据所述用户当前所在位置的描述信息和目标位置的标识，获取所述目标位置的描述信息，所述目标位置的描述信息包括：目标位置相对用户当前所在位置的方向描述信息和用户当前所在位置到目标位置的距离描述信息。采用上述技术方案，能够获取到目标位置到用户当前所在位置的相对方向和目标位置到用户当前所在位置的距离信息，使用户能够快速找到目标位置。
+116. 102867004 Method and system for matching addresses
+CN
+09.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110188023.6
+高德软件有限公司
+董克钦
+G06F 17/30
+Loading...
+The invention discloses a method and a system for matching addresses. The method includes the steps: judging relevancy of geographical ranges according to the intersection relationship of the geographical ranges corresponding to geographical words; and determining positional information of an address to be inquired according to the relevancy. As the relevancy of the geographical ranges is higher and matching accuracy of the geographical ranges in address matching is higher when the intersection relationship of a certain geographical range and the other geographical ranges is larger, the positional information matched with the address to be inquired can be determined according to the geographical ranges with enough high relevancy. Therefore, the addresses are matched according to the intersection relationship of the geographical words without exhausting known addresses, and address matching accuracy can be effectively improved.
+117. 102682616 无线数据广播系统交通信息发布方法和设备
+CN
+19.09.2012
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201110063857.4
+高德软件有限公司
+李中男
+G08G 1/09
+Loading...
+本发明公开一种无线数据广播系统交通信息发布方法和设备，涉及导航领域。所述方法包括：均衡考虑各项道路状况评估指标，计算交通状态为拥堵或缓行的各道路交通信息的重要等级权重值；对所述各道路交通信息按所述重要等级权重值进行排序，通过RDS无线数据广播系统发布通道按重要等级权重值由高至低的顺序进行发布。所述设备包括权重值计算模块和排序发布模块。本发明实施例能够将各项道路状况评估指标综合均衡的进行考虑，从而提高了RDS发布数据中有效数据的数量，即提高了RDS发布数据的有效性，使得发布信息更加准确合理。
+118. 102622370 Method and device for acquisition of route description and electronic map server
+CN
+01.08.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110033076.0
+高德软件有限公司
+周琦
+G06F 17/30
+Loading...
+The invention provides a method for acquisition of route description, which comprises the steps of: dividing navigation sections with similar attributes in a navigation path into one navigation section cluster; extracting user-concerned information from each navigation section cluster; and combining all the user-concerned information as the route description of the navigation path. The invention also provides a device for acquisition of the route description and an electronic map server. The server comprises the device for acquisition of the route description provided by the embodiment of the invention. Compared with the existing router description based on navigation actions, the obtained route description is more precise and direct, and users can be deeply impressed by the navigation path and can understand driving schemes more easily.
+119. 202350794 一种导航数据采集装置
+CN
+25.07.2012
+G01C 21/28 Loading...
+G01C 21/28
+Loading...
+201120486514.4
+高德软件有限公司
+陆玲
+G01C 21/28
+Loading...
+本实用新型实施例公开了一种导航数据采集装置，该装置包括：定位信息采集单元，影像拍摄单元，识别单元和数据关联单元；所述定位信息采集单元，用于获取车辆行驶轨迹；所述影像拍摄单元，用于拍摄所述车辆行驶轨迹的周边场景的图像；所述识别单元，用于识别所述图像中的导航标识；所述数据关联单元，用于将所述车辆行驶轨迹中的位置坐标与其对应的导航标识进行关联，得到导航数据。本实用新型实施例提供的装置，具有自动识别出周边场景中的导航标识，将车辆行驶轨迹中的位置坐标与其对应的导航标识进行关联，得到导航数据功能，减少了生产作业员查看摄像机影像，提高了生产效率。
+120. 102568225 Real-time traffic information distribution method, platform and system
+CN
+11.07.2012
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201010617502.0
+高德软件有限公司
+李中男
+G08G 1/09
+Loading...
+The invention discloses a real-time traffic information distribution method, a real-time traffic information distribution platform and a real-time traffic information distribution system, and relates to the field of navigation. The method comprises the following steps of: acquiring real-time traffic information; and when real-time traffic information requests are raised, acquiring and distributing coded data of distribution protocols corresponding to the requests. The platform comprises a traffic information acquisition module and a request processing module. The system comprises the real-time traffic information distribution platform and a request end. A plurality of requests can be processed in parallel, so that the processing capacity of the system is effectively utilized, the response speed of the system is greatly improved, and the instantaneity of request results in the traffic information distribution is greatly improved. Further, after the real-time traffic information is acquired, the real-time traffic information can be coded, so that the corresponding coded data are directly acquired and distributed in the requests, and the instantaneity of the traffic information is further improved. Moreover, interaction can be implemented between the platform and the request end by adopting a wireless Internet channel, so that user experience is improved and the application field is further expanded.
+121. 102519440 海洋测绘水下目标三维可视化处理系统
+CN
+27.06.2012
+G01C 13/00 Loading...
+G01C 13/00
+Loading...
+201110415818.6
+中国人民解放军92859部队
+申家双
+G01C 13/00
+Loading...
+本发明涉及一种海洋测绘水下目标三维可视化处理系统，其主要技术特点是：由水下目标获取设备、水下目标处理工作站和水下目标三维可视化客户端构成，水下目标获取设备、水下目标处理工作站和水下目标三维可视化客户端通过局域网连接在一起，完成水下目标数据采集、数据处理和数据三维可视化处理功能。本发明设计合理，解决了目前水下目标应用形式单一、管理效率低下、分析应用困难的难题，实现了水下目标数据采集、处理和管理等功能，提高了海洋测量部门的水下目标应用技术水平。
+122. 102446177 数据采集方法、设备、处理方法、系统及底图处理方法
+CN
+09.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010502394.2
+高德软件有限公司
+王涛
+G06F 17/30
+Loading...
+本发明实施例公开一种外业数据采集的方法、设备，数据处理方法、系统，及数据处理中底图数据处理方法，涉及导航领域。所述方法：外业数据采集设备中预置有图形数据库和属性数据库，且表示同一要素的图形数据和属性数据相关联；外业数据采集；并根据数据采集的内容和关联关系对图形数据表和属性数据表进行处理，比如添加、更新、查询和/或删除等操作，使得内业数据处理过程中省去大量的人工数据分析编辑工作，很大程度的提高了数据处理技术的效率，最大化的满足对地图更新速度的要求。
+123. 102339293 读取地理数据文件记录的方法及装置
+CN
+01.02.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010237817.2
+高德软件有限公司
+王志勇
+G06F 17/30
+Loading...
+本发明提供了一种读取地理数据文件记录的方法及装置。所述方法包括：接收地理数据文件记录的类型码及标识；通过所述类型码及标识，在预置的位置索引文件中查找所述记录在所述地理数据文件中的起始存储位置及长度；从所述地理数据文件中所述起始存储位置开始，读取所述长度范围内的记录。本发明还提供了一种读取地理数据文件记录的装置。采用本发明提供的技术方案能够实现快速、高效地读取地理数据文件记录。
+124. 102339220 一种生成兴趣点属性采集框的方法及装置
+CN
+01.02.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010237811.5
+高德软件有限公司
+梁占强
+G06F 9/44
+Loading...
+本发明提供了一种生成兴趣点属性采集框的方法及装置。所述方法包括：接收兴趣点属性采集框生成命令，所述命令携带了兴趣点类型编码；从预置的采集框配置文件中，查找所述兴趣点类型编码对应的采集框配置记录；解析所述采集框配置记录记载的兴趣点属性信息，生成兴趣点属性采集框。本发明还提供一种实现上述方法的装置。本发明提供的技术方案满足了采集人员在采集过程中灵活修改兴趣点属性采集框的需求，提高了采集作业的效率。
+125. 102298585 Address splitting and level marking method and device
+CN
+28.12.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010208146.7
+AutoNavi Software Co., Ltd.
+Ma Yongcheng
+G06F 17/30
+Loading...
+The invention provides an address splitting and level marking method and device. The method provided by the invention comprises the following steps of: receiving an address; performing role marking processing on the address; and splitting the address according to a role marking result to obtain address segment sequences constructing the address. The invention further provides a device for implementing the method. In the technical scheme provided by the invention, the address is split according to the role marking result, so that address segments obtained by splitting have high accuracy.
+126. 102243809 一种展现实时交通信息的方法和装置
+CN
+16.11.2011
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201010169791.2
+高德软件有限公司
+董振宁
+G08G 1/09
+Loading...
+本发明的实施例提供了一种展现实时交通信息的方法和装置，可解决现有技术不方便用户参考道路实时交通信息以选择最优的行车路线的问题。所述方法包括：获取导航路径和该导航路径对应的导航路径信息，所述导航路径信息包括至少一个路段，每一个路段由位置码来标识；根据导航路径信息获取导航路径上的实时交通信息；将导航路径的路径长度按比例映射到展现区域内，并在所述展现区域内显示该导航路径的实时交通信息。根据本发明实施例，通过将实时交通信息在展现区域中进行绘制，从而避免了在导航地图中绘制实时交通信息，解决了导航路径的显示会遮盖路段实时交通信息的问题，为用户提供了更有效、更直观的交通信息查看方式。
+127. 102236967 Method and device for screening real-time traffic information
+CN
+09.11.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201010152736.2
+AutoNavi Software Co., Ltd.
+Zhang Wendou
+G08G 1/00
+Loading...
+The invention provides a method and a device for screening real-time traffic information. The method comprises the following steps of: reading a real-time traffic information release state of a road; judging whether released real-time traffic information is same as real-time traffic information to be released of the road or not if the release state is that the real-time traffic information of the road is released; and discarding the real-time traffic information to be released if the released real-time traffic information is same as the real-time traffic information to be released of the road. The screening device comprises a release state judgment unit, a release content judgment unit and an information discarding unit, wherein the release state judgment unit is used for reading the real-time traffic information release state of the road and triggering the release content judgment unit if the release state is that the real-time traffic information of the road is released; the release content judgment unit is used for judging whether the released real-time traffic information is same as the real-time traffic information to be released of the road or not; and the information discarding unit is used for discarding the real-time traffic information to be released which is same as the released real-time traffic information. By the method and the device, more comprehensive real-time traffic information can be released, and the reliability of dynamic navigation of a vehicle can be improved.
+128. 102194312 Road merging method and road merging device
+CN
+21.09.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201010118505.X
+AutoNavi Software Co., Ltd.
+Sun Jichao
+G08G 1/00
+Loading...
+The invention discloses a road merging method and a road merging device, which are used for preprocessing a real-time traffic rendered road. The method comprises the following steps: reading a road message; searching for crossing linkage information which contains the road message from a preset crossing linkage information set; acquiring a to-be-merged road of the road corresponding to the road message according to the crossing linkage information; and merging the road and the to-be-merged road into a whole road. The invention also discloses a road merging device for realizing the method. By using the road merging method and the road merging device provided by the invention, the smooth connection of shifted roads can be ensured.
+129. 102117501 Method and device for rendering three-dimensional lines
+CN
+06.07.2011
+G06T 19/00 Loading...
+G06T 19/00
+Loading...
+200910258952.2
+Xiamen Gaode Software Co., Ltd.
+Ye Wei
+G06T 19/00
+Loading...
+The invention provides a method and device for rendering three-dimensional lines. The method comprises the following steps of: projecting an (n-1)th three-dimensional vertex coordinate and an nth three-dimensional vertex coordinate in a preset three-dimensional vertex coordinate set to an XZ plane to obtain the (n-1)th two-dimensional vertex coordinate and the nth two-dimensional vertex coordinate; calculating four two-dimensional vertex coordinates of a polygon according to a given line width and an included angle between X-axis and a straight line formed between the (n-1)th two-dimensional vertex coordinate and the nth two-dimensional vertex coordinate; and reducing the four two-dimensional vertex coordinates of the polygon into four three-dimensional vertex coordinates, and filling the polygon formed by the four three-dimensional vertex coordinates to obtain an (n-1)th line segment, wherein n is a natural number larger than or equal to 2. The invention further provides a device for rendering the three-dimensional lines to realize the method. The three-dimensional line rendering technical scheme provided by the invention does not render lines in a screen two-dimensional space (an XY plane), but renders the lines based on real three-dimensional space coordinates, thereby finally making the rendered lines have a three-dimensional space perspective effect.
+130. 102117205 Method and device for generating window resource file
+CN
+06.07.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910258953.7
+Xiamen AutoNavi Sofeware Co.,Ltd.
+Zhu Zhulin
+G06F 9/44
+Loading...
+The invention provides a method and a device for generating a window resource file. In the method provided by the invention, a window map layer tree and window image data are acquired by resolving a window photoshop document (PSD) file; and because the map layer structure of the window map layer tree is ordered, the window resource file can be automatically generated according to the window map layer tree and the window image data. Further, the invention also provides the device for implementing the method. By adopting the method and the device for generating the window resource file, the window resource file can be automatically generated without manual participation; compared with the prior art, the generation efficiency of the window resource file is improved; and in the absence of manual participation in the process of generating the window resource file, the window resource file contains all information in the PSD file, so that complete consistency of a window obtained through the window resource file and an original window designed by an artist is ensured.
+131. 102062605 Navigation method and device
+CN
+18.05.2011
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200910237685.0
+高德软件有限公司
+宋涛
+G01C 21/26
+Loading...
+The embodiment of the invention provides a navigation method and device, which can improve the accuracy for reporting information and improve the satisfaction degree of driving experience of users. The method comprises the following steps of: determining the number of obscure intersections between the start navigation reporting position and a navigation point; reporting the navigation information on the start navigation reporting position according to the number of the obscure intersections in an intersection counting manner; making a first navigation at the first determined distance away from the obscure intersection to prevent vehicles from entering the intersection by mistake; and making a second navigation at the second predetermined distance away from the navigation point to guide vehicles entering the intersection where the navigation point locates. According to the embodiment of the invention, by reporting the navigation information on the start navigation reporting position in an intersection counting manner, users cannot turn in a wrong intersection by judging the distance by mistake, thereby inaccurate navigation is avoided and the satisfaction degree of the driving experience of the users is improved.
+132. 102063423 Disambiguation method and device
+CN
+18.05.2011
+
+
+
+200910238150.5
+高德软件有限公司
+姜吉发
+
+
+The embodiment of the invention provides a disambiguation method and device, which can solve the problem of low disambiguation speed in the prior art. The method comprises the following steps: acquiring an ambiguity chain with a maximum chain length in a string to be segmented from the current word; and using the dynamic programming algorithm to carry out disambiguation. In the invention, corpuses do not need to be marked, and only word frequencies need to be reckoned from common corpuses, so that the ambiguity chain can be acquired by means of a dictionary, and the dynamic programming method can be used in the ambiguity chain to carry out disambiguation. By carrying out disambiguation in the ambiguity chain instead of the whole sentence, the invention greatly lowers the processing complexity and improves the processing efficiency.
+133. 102062608 Alternative path planning method and navigation terminal
+CN
+18.05.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+200910212391.2
+AutoNavi Software Co., Ltd.
+Hu Runbo
+G01C 21/34
+Loading...
+The invention provides an alternative path planning method and a navigation terminal. The method comprises the following steps of: acquiring a selected topological object of a planned path; multiplying a damping coefficient of the selected topological object by an initial weight of the selected topological object to obtain a dynamic weight thereof; acquiring an alternative topological object which is connected with the selected topological object and has a distance within a threshold away from the selected topological object, and multiplying a damping coefficient of the alternative topological object by an initial weight of the alternative topological object while acquiring one alternative topological object so as to obtain a dynamic weight thereof; and calculating an alternative path through a shortest path algorithm according to the dynamic weights of the alternative topological object and the selected topological object forming the planned path, and weights of other topological objects in a road transport network. The invention also provides a navigation terminal. The provided technical scheme guarantees that the alternative path consists of most of topological objects which are not overlapped with the selected topological object, and the alternative path is more reasonably planned.
+134. 102063799 Method for searching real-time traffic information-associated road, and navigation terminal
+CN
+18.05.2011
+G08G 1/0969 Loading...
+G08G 1/0969
+Loading...
+200910212390.8
+AutoNavi Software Co., Ltd.
+Zhang Lei
+G08G 1/0969
+Loading...
+The invention provides a method for searching a real-time traffic information-associated road, and a navigation terminal. The method comprises the following steps of: receiving real-time traffic information; extracting a location code carried by the real-time traffic information, step size and direction; acquiring a starting memory address of a location information memory address set of the current region of a vehicle from loaded region related information; acquiring a location code of the location code carried by the real-time traffic information in a direction range and a step size range; multiplying the location code by the length of a single location information memory address, plus the starting memory address, to obtain the memory address of the location information memory address; acquiring the location information memory address from the space corresponding to the memory address; and acquiring a physical format road mark of the real-time traffic information-associated road corresponding to the location code from the space corresponding to the location information memory address. By the technical scheme provided by the invention, the real-time traffic information-associated road in an electronic map can be quickly and efficiently searched.
+135. 102063789 Traffic information quality evaluation method and system
+CN
+18.05.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+200910238149.2
+AutoNavi Software Co., Ltd.
+Dong Zhenning
+G08G 1/00
+Loading...
+The embodiment of the invention provides a traffic information quality evaluation method and system, which can solve the problems that the prior art consumes time and labor and is very easy to cause errors. The method comprises the following steps of: acquiring information of at least two positions by a GPS (Global Positioning System) terminal and recording acquisition time corresponding to the information of the positions; determining a road section according to the information of the position; determining the average speed of the road section according to the length of the road section and the difference of starting point acquisition time and ending point acquisition time; and carrying out evaluation on issued traffic information according to the average speed. According to the embodiment of the invention, the average speed of the road section is obtained by utilizing the information of the positions and the acquisition time of actually-measured GPS points, so that accurate and effective data support is provided for evaluating the quality of the traffic information, delay is also effectively avoided, the limits and defects in the traditional evaluation technology are solved, and further the quality evaluation of the traffic information becomes a simple, reliable and scientific road measurement technology.
+136. 102033891 Retrieval method for Chinese information, retrieval engine for Chinese information and embedded terminal
+CN
+27.04.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910235592.4
+AutoNavi Software Co., Ltd.
+Wu Yuejin
+G06F 17/30
+Loading...
+The embodiment of the invention provides a retrieval method for Chinese information, a retrieval engine for Chinese information and an embedded terminal, wherein the retrieval method comprises the following steps: receiving full-word combination of retrieval keywords, and extracting an initial letter of an initial consonant and a final sound from the full-word combination; retrieving an initial offset corresponding to the initial consonant in a preset secondary retrieval index set; starting from the position corresponding to the initial offset in a primary retrieval index set, retrieving an initial offset and a final offset corresponding to the spell formed by the initial consonant and the final sound; in a preset retrieval index set, reading full-word index records from the initial offset to the final offset; and judging whether the full-word combination of the retrieval keyword is same as the first full-word combination in a full-word combination sequence of target Chinese information, and if so, retrieving the target Chinese information from the preset target Chinese information index set according to the offset of the target Chinese information. By utilizing the retrieval technology provided by the invention, the target Chinese information can be fast and accurately retrieved from the mass target Chinese information.
+137. 101996483 Traffic sign information processing method and device
+CN
+30.03.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+200910091672.7
+AutoNavi Software Co., Ltd.
+Chen Lei
+G08G 1/00
+Loading...
+The embodiment of the invention provides a traffic sign information processing method and device capable of solving the problem that a traffic sign reference direction determined though a track is false because a GPS (Global Position System) has positioning errors in the prior art. The traffic sign information processing method comprises the following steps of: acquiring traffic sign information, wherein the traffic sign information includes the traffic sign reference direction; and processing according to the acquired traffic sign information. The traffic sign reference direction is acquired on the spot in stead of acquiring traffic sign roads and the traffic sign reference direction by analyzing track data and images and recording data by a surveyor, thus the embodiment of the invention avoids misjudgment and enhances the operation efficiency; and in addition, the embodiment of the invention does not need to record the moving track of GPS equipment when acquiring traffic signs during field operation, thereby saving the storage space.
+138. 101963962 Interest point data association method and device
+CN
+02.02.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910089542.X
+AutoNavi Software Co., Ltd.
+Wang Tao
+G06F 17/30
+Loading...
+The embodiment of the invention provides an interest point data association method and an interest point data association device. The method comprises the following steps of: reading a piece of interest point data to be associated; processing the attribute of the interest point data to be associated to acquire new interest point data to be associated; acquiring a target association interest point data subset of the new interest point data to be associated from a preset target association interest point data set; and comparing the attribute of the new interest point data to be associated with the attribute of interest point data in the target association interest point data subset to acquire the same interest point data. Correspondingly, the embodiment of the invention also provides the interest point data association device. Through the method and the device in the embodiment of the invention, the same data in different batches of interest point data can be associated and the problem of repeated interest point data is effectively solved.
+139. 101963961 Interest point data correlation method and device therefor
+CN
+02.02.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910089541.5
+AutoNavi Software Co., Ltd.
+Wang Tao
+G06F 17/30
+Loading...
+The embodiment of the invention provides an interest point data correlation method and a device therefor. The method comprises the following steps: reading two batches of interest point data; grouping the interest point data to obtain grouping sets and grouping identification lists of the two batches of interest point data; respectively reading a group from the two grouping sets by the two grouping identification lists; establishing a hash table with the attribute of interest point data of a group being the keyword; matching the attribute of another group of interest point data with the keyword of the hash table to obtain two samely grouped interest point data. Correspondingly, the embodiment of the invention provides an interest point data correlation device. With the method or the device of the embodiment of the invention, repetitive data of different batches of POI data can be effectively correlated.
+140. 101957820 Method and device for generating doorplate information library
+CN
+26.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910089434.2
+AutoNavi Software Co., Ltd.
+Wang Tao
+G06F 17/30
+Loading...
+The embodiment of the invention provides a method and a device for generating a doorplate information library to solve the problem of address matching failure due to absence of doorplate information. The method for generating the doorplate information library comprises the following steps of: acquiring interest point information, wherein the interest point information comprises an interest point address and an interest point coordinate, and the interest point address comprises a house number; acquiring doorplate information to be determined according to the interest point information, wherein the doorplate information to be determined comprises the house number and a coordinate corresponding to the house number; and generating the doorplate information library according to the interest point information and the doorplate information to be determined. The embodiment of the invention also provides a device for generating a doorplate information library. According to the method and the device, the complete doorplate information library can be generated, so the address matching can be successively carried out.
+141. 101957821 Method and device for processing point of interest address information
+CN
+26.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910089435.7
+AutoNavi Software Co., Ltd.
+Wang Tao
+G06F 17/30
+Loading...
+The embodiment of the invention provides a method and a device for processing point of interest (POI) address information, which aim to solve problems caused by nonstandard POI address information in the prior art. The embodiment of the invention provides the method for processing the POI address information, which comprises the following steps of: acquiring the POI address information; and processing the POI address information according to a configuration file to acquire standard POI address information, wherein the configuration file comprises POI address information standardization rules. The method and the device of the embodiment of the invention have the advantages of standardizing various expressions of the same POI address information to acquire unique standard information and bringing convenience to further processing.
+142. 101882135 Data processing method and device
+CN
+10.11.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910083430.3
+AutoNavi Software Co., Ltd.
+Gong Qi
+G06F 17/30
+Loading...
+The embodiment of the invention provides a data processing method and a data processing device and aims to solve the problems of resource waste and low data sheet reading and writing efficiencies in the prior art. The method comprises the following steps of: capturing point of interest information which comprises production time, production technology and the field information of at least one point of interest; and judging whether the field information of the point of interest comprises a point of interest identifier or not, updating a basic data sheet and a field description information sheet according to the point of interest identifier if the field information of the point of interest comprises the point of interest identifier, otherwise distributing the point of interest identifier to the point of interest information and inserting the point of interest information into the basic data sheet, wherein the basic data sheet comprises all point of interest fields, initial operation time and initial production technology; and the field description information sheet comprises field names, the production time and the production technology. The field description information sheet is adopted in the embodiment of the invention, so that the information reliability can be enhanced.
+143. 101859554 Method and device for determining screen display mode
+CN
+13.10.2010
+G09G 5/00 Loading...
+G09G 5/00
+Loading...
+200910131260.1
+Xiamen AutoNavi Software Co., Ltd.
+Li Min
+G09G 5/00
+Loading...
+The embodiment of the invention provides a method and a device for determining a screen display mode, and solves the problems of an inconvenient manual switching mode and an automatic switching mode in the prior art. The method comprises the following steps of: determining local longitude and latitude and current date; determining a sunrise time and a sunset time according to the local longitude and latitude and the current date; and then determining the screen display mode according to the sunrise time, the sunset time and the present time. According to the embodiment of the invention, the screen display mode is determined by determining the sunrise time and the sunset time according to the local longitude and latitude and the present date, so that the screen display mode basically accords with the actual situation.
+144. 201548960 一种获取公交信息的设备
+CN
+11.08.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200920148985.7
+厦门高德软件有限公司
+吴朝良
+G06F 17/30
+Loading...
+本实用新型的实施例提供了一种获取公交信息的设备，可满足人们对公交线路知晓的需要。所述设备包括：输入模块，用于获得第一信息，所述第一信息包括：公交站点名称、公交线路名称、起点名称和终点名称；公交信息库，用于存储第二信息，所述第二信息包括站点信息和线路信息；获取模块，用于根据所述第一信息通过公交信息库中获取第二信息；电子地图获取模块，用于获取电子地图，并将获取的电子地图发给显示模块；显示模块，用于将所述获取模块获取的第二信息叠加在电子地图上。根据本实用新型实施例，能够提供随时随地的查询公交信息以及换乘方案查询，从而给人们的出行提供了便利满足了客户的需求取得了良好的效果。
+145. 201540113 楼层确定装置及导航终端
+CN
+04.08.2010
+G01C 21/10 Loading...
+G01C 21/10
+Loading...
+200920105322.7
+高德软件有限公司
+杨自华
+G01C 21/10
+Loading...
+本实用新型提供了一种楼层确定装置及导航终端。楼层确定装置包括：三轴加速度传感器，倾角测量模块，控制模块，输入模块及显示模块，三轴加速度传感器和倾角测量模块同步测量楼层确定装置的倾角及三个轴向的加速度；控制模块，通过楼层确定装置的倾角和三个轴向的加速度，得到楼层确定装置垂直于水平面的加速度，通过垂直于水平面的加速度，得到楼层确定装置从楼层基准值对应的楼层到其当前所在楼层的垂直位移，根据垂直位移，楼层间距离及楼层基准值，得到楼层确定装置当前所在楼层的层数；显示模块显示楼层层数。该装置能够准确地确定用户当前所在楼层的层数，为工作在紧急或者危险情况下人员快速、安全地完成工作提供了保证。
+146. 101776457 Navigation method and device
+CN
+14.07.2010
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+200910003009.7
+Xiamen AutoNavi Software Co., Ltd.
+Li Qiubiao
+G01C 21/34
+Loading...
+The embodiment of the invention provides a navigation method and a device, solving the problem of low navigation efficiency in the prior art. The method comprises: a path from a source node to a target node on a hierarchical road network is determined, wherein the hierarchical road network is at least two layers of road network, which divides the whole road network according to the preset rule, i.e. a bottom layer road network and an upper layer road network; the bottom layer road network is a road network universal set; as for the adjacent two layers of network, the upper layer road network is the subset of the current road network; and navigation is carried out according to the determined path. The device comprises a determining unit and a navigation unit. According to the embodiment of the invention, the path from the source node to the target node on the hierarchical road network is determined; and because the data amount of the upper layer road network is much less than that of the bottom layer road network, calculation efficiency can be improved, which is convenient to navigate.
+147. 101753967 Internet video live broadcasting method and system
+CN
+23.06.2010
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+200810240398.0
+AutoNavi Software Co., Ltd.
+Cao Kang
+H04N 21/254
+Loading...
+The embodiment of the invention provides an Internet video live broadcasting method and a system, which can solve the problem that the issuance of live program can not be controlled in the prior art. The embodiment of the invention provides the Internet video live broadcasting method, which comprises the following steps: sending live broadcasting information to a program management server by a live broadcasting client; and controlling the broadcasting of the program by the program management server according to the live broadcasting information. The Internet video live broadcasting system comprises the live broadcasting client, a broadcasting server and the program management server. According to the embodiment of the invention, the problem that the issuance of live program can not be controlled is solved.
+148. 101751451 Chinese data compression method and Chinese data decompression method and related devices
+CN
+23.06.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910131587.9
+AutoNavi Software Co., Ltd.
+Wu Yuejin
+G06F 17/30
+Loading...
+The invention discloses a Chinese data compression and a Chinese data decompression method and related devices. The Chinese data compression method comprises the following steps: in the step A, reading Chinese data to be compressed; in the step B, carrying out word segmenting on the Chinese data to obtain a word set composing the Chinese data; in the step C, reading a word from the word set, if the word consists of more than two Chinese characters, searching the word in a preset word code library, if the word is searched, acquiring a code of the word from the word code library and storing the code into compression data, wherein the code at most occupies two bytes of storage space in the compression data; and repeating the step C until all the word in the word set are processed. The Chinese data compression technology provided by the invention can realize great compression of the Chinese data. The decompression method for the Chinese compression data, which is provided by the invention, can realize rapid decompression of the compression data.
+149. 101751440 Data compression/decompression method and device thereof
+CN
+23.06.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810240397.6
+AutoNavi Software Co., Ltd.
+Chen Tao
+G06F 17/30
+Loading...
+The embodiment of the invention provides a data compression/decompression method and a device thereof, which can solve the problem of a lot of occupied system resources in the prior art. The data compression method comprises a received data group; the data group is sequentially expressed as a first data, a second data, a third data, ..., and a final data according to the receiving order; the difference of two adjacent data in the data group is smaller than a first preset value compared with any one data of the two data; the first data in the data group is encoded; the difference between the second data and the first data is calculated and encoded; the difference of the third data and the second data is calculated and encoded; and so on, until the difference between the final data and the previous data is encoded. The invention can save the storage space of the data. Because the decompression function of the invention only needs to be realized through simple addition and subtraction, the algorithm is simple, and the compression/decompression speed can be improved.
+150. 101726303 Navigation method and device
+CN
+09.06.2010
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200810224270.5
+Autonavi Software Co., Ltd.
+He Yunyan
+G01C 21/26
+Loading...
+The embodiment of the invention provides a navigation method and a navigation device, which can provide junction three-dimensional space information and driving direction information when a vehicle is driven to a preset distance range away from the front nearest junction so as to reduce driving error. The navigation method comprises the steps of: acquiring the three-dimensional road data of the junction when the vehicle is in the preset distance away from the front nearest junction; and navigating according to the three-dimensional road data. The navigation device comprises an acquiring unit and a navigation unit, wherein the acquiring unit is used for acquiring the three-dimensional road data of the junction when the vehicle is in the preset distance away from the front nearest junction; and the navigation unit is used for navigating according to the three-dimensional road data. According to the embodiment of the invention, each junction is provided with the three-dimensional road data which accurately reflects the actual condition of the junction, so the vehicle can be accurately driven.
+151. 101685021 Method and device for acquiring point of interest
+CN
+31.03.2010
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200810222961.1
+AutoNavi Software Co., Ltd.
+Lu Yegong
+G01C 21/26
+Loading...
+The embodiment of the invention provides a method and a device for acquiring points of interest, capable of solving the problem of incapable of acquiring information of points of interest in the priorart. The method comprises the following steps: acquiring the input information of the points of interest; utilizing a first fuzzy query method to acquire the information of the points of interest inaccordance with the input information of the points of interest and a word bank which consists of a fuzzy word bank. The device comprises an acquiring unit and a determinate unit. Therefore, when Chinese name information to be retrieved is input, input errors may occur for a user, if some word in the name is mistakenly input to be a homophone or a similar word, or the input keyword in the name isan alias thereof, but required points of interest information may be retrieved as the fuzzy word bank is utilized, thereby increasing fault-tolerance mechanism of query and improving the success ratiofor querying POI names.
+152. 101656037 Method for displaying large-format picture on small screen equipment and small screen equipment
+CN
+24.02.2010
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+200810118536.8
+Autonavi Software Ltd.
+Chen Tao
+G09G 3/20
+Loading...
+The invention discloses a method for displaying a large-format picture on small screen equipment and the small screen equipment. The method comprises: determining a region to be displayed according toa key diagram on the small screen equipment; calculating graph blocks required to be used during the display by using the region to be displayed as the center of the small screen equipment, wherein the graph blocks is formed by dividing the large-format picture and can be completely displayed on the small screen equipment at one time; and displaying the graph blocks obtained by calculation on thesmall screen equipment. The small screen equipment comprises a determination unit, a calculation unit and a display unit. As the large-format picture is divided into the plurality of graph blocks that can be completely displayed on the small screen equipment at one time, so the small screen equipment such as a mobile phone screen only displays a required graph block during display, thereby savingresources and increasing display speed.
+153. 101656708 Method and device for sending and receiving data, and method and system for data transmission
+CN
+24.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810118535.3
+Autonavi Software Ltd.
+Zhang Chong
+H04L 29/06
+Loading...
+The embodiment of the invention provides a method and a device for sending and receiving data, and a method and a system for data transmission, which can solve the problem that in the prior art, the data transmission or the data storing process uses a large amount of data to represent the same amount of information. The method for sending the data comprises the following steps: converting one of or any combination of the following factors of an extensible markup language into symbol marks according to a first scheduled rule: label names, attribute names and control names; and sending the symbol marks. The method for receiving the data comprises the following steps: receiving the symbol marks; and resolving the symbol marks according to a second scheduled rule so as to obtain one of or anycombination of the following factors: the label names, attribute data or control data. The embodiment of the invention represents the label names, the attribute names and the control names in an XML standard format by using the symbol marks and reduces the data volume of files, thereby accelerating the transmission speed of the files of the XML and saving the storage space.
+154. 101655366 Altitude measurement method and altitude measurement system
+CN
+24.02.2010
+G01C 5/06 Loading...
+G01C 5/06
+Loading...
+200810118537.2
+Autonavi Software Ltd.
+Yang Zihua
+G01C 5/06
+Loading...
+The embodiment of the invention provides an altitude measurement method and an altitude measurement system and solves the problem that in the prior art measurement under a specific condition is susceptible to ambient occlusion and is slow. The method comprises: acquiring the air pressure at the position of a reference station and the air pressure at the position of a target station; acquiring thealtitude of the position of the reference station according to the air pressure at the position of the reference station and acquiring the altitude of the position of the target station according to the air pressure at the position of the target station; acquiring the altitude difference between the reference station and the target station according to the altitudes of the reference station and the target station; and acquiring the altitude of the target station according to the altitude difference between the reference station and the target station and the known altitude of the target station. The system comprises a processor and two sets of air pressure acquisition devices. According to the method and the system, an air pressure gauge is adopted to measure the altitudes, so the measurement of the altitudes can be measured even when the distance between the reference station and the target station is big. And the reference station and the target station are free from limitation of ambient occlusion and the measurement process is quick and simple.
+155. 201378052 坡度测量系统和路段信息测量装置
+CN
+06.01.2010
+G01C 1/00 Loading...
+G01C 1/00
+Loading...
+200920105321.2
+高德软件有限公司
+杨自华
+G01C 1/00
+Loading...
+本实用新型提供了一种坡度测量系统和路段信息测量装置。所述坡度测量系统包括：路段信息测量装置和坡度计算装置，其中，路段信息测量装置具体包括：GPS模块，控制模块，气压计；在测量路段信息时，所述控制模块接收所述GPS模块和所述气压计相同时刻在同一路段相同位置处测量的位置坐标和气压值，并将所述位置坐标和气压值对应组合后保存，所述位置坐标至少包括：水平位置坐标；在计算路段坡度值时，所述坡度计算装置根据所述路段信息测量装置测量得到的位置坐标和气压值，计算路段的坡度。采用本实用新型提供的坡度测量系统能够实现快速、准确地测量路段的坡度值。
+156. 101545781 Method for determining pulse equivalent of speedometer in on-board integrated navigation
+CN
+30.09.2009
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200810089716.8
+Autonavi Software Co., Ltd.
+Yang Zihua
+G01C 21/26
+Loading...
+The invention discloses a method for determining pulse equivalent of a speedometer in on-board integrated navigation, which comprises the following steps: step 1) judging whether a vehicle drives straightly, otherwise, repeatedly executing the step 1); step 2) selecting effective GPS positioning points; step 3) orderly selecting point i-2, point i-1 and point i from the effective GPS positioning points, calculating the distance D(i-1) between the point i-2 and the point i-1 and the distance D(i) between the point i-1 and the point I, then being divided by pulse count respectively to obtain temporary pulse equivalent values, namely PO(i-1) and PO(i), and then being divided by a pulse equivalent value calibrated by the speedometer respectively to obtain quotients, namely alpha(i-1) and alpha(i); step (4) adding the distance of two lines obtained by orderly connecting the point i-2, the point i-1 and the point I and corresponding pulse count to a distance accumulative value and a pulse accumulative value respectively if the alpha(i-1) and the alpha(i) are more than 0.95 and a value obtained by PO(i-1) divided by PO(i) is more than 0.99 and less than 1.01, otherwise, making i equal to i+1, and executing the step 3); and step 5) a pulse equivalent value can be obtained by the distance accumulative value divided by the pulse accumulative value if the distance accumulative value is more than 1 km, otherwise, making i equal to i+1, and executing the step 3). The technical proposal of the method for determining the pulse equivalent of the speedometer in on-board integrated navigation can ensure that the pulse equivalent obtained by the calculation is more accurate.
+157. 101483661 File uploading method
+CN
+15.07.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810000465.1
+AutoNavi Software Co., Ltd.
+Zou Kuisheng
+H04L 29/08
+Loading...
+The invention discloses a file uploading method comprising that a client sends an uploading request to a server, and the uploading request comprises file name and total length of the uploading file; the server returns the number of bytes of the received uploaded file to the client; the client subtracts the number of bytes of the loaded file from the whole length, and starts to uploading the rest file at the point. Resources can be saved by using the method.
+158. 101482863 Interest point information storage method
+CN
+15.07.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810000467.0
+AutoNavi Software Co., Ltd.
+Zou Kuisheng
+G06F 17/30
+Loading...
+The present invention discloses an interested point information storing method which comprises storing the picture of interested point with image file, wherein the image file comprises picture field and data field. The description information of interested point is stored in the data field. The technical solution adopting the interested point information storing method of the invention can save resource.
+159. 101477437 Button list acquirement method and device
+CN
+08.07.2009
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+200810240890.8
+Xiamen Gaode Software Co., Ltd.
+Zhu Zhulin
+G06F 3/048
+Loading...
+The embodiment of the invention provides a method and a device for acquiring a button menu. The method comprises the following steps: acquiring a button group in a window, which needs to be chosen by a remote controller; dividing areas surrounded by buttons in the button group into grids; acquiring a row-column intersection area of each button in the button group; determining a row value and a column value of the grids surrounded by the row-column intersection area of each button in the button group; and infilling a button identification in the corresponding position of an initialized button menu according to the row value and the column value, and obtaining the button menu of the window. Correspondingly, the invention further provides a device for acquiring the button menu. With the adoption of the method and the device, which are provided by the invention, the automatic acquisition of the button menu can be realized, and the generation speed of the button menu is greatly improved.
+160. 101465747 Method for adapting grille picture between server and client
+CN
+24.06.2009
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+200710301512.1
+Autonavi Software Ltd.
+Zhang Chong
+H04L 12/18
+Loading...
+The invention discloses a raster image adaptation method between server and client, including that client determines image blocks of the raster image for current screen; the raster image is composed of a plurality of image blocks; the client encodes the image blocks; the client generates an image block request character string according to the coding; the image block request character string and the requested image block information are synthesized by the client to form request information, and the request information is sent to the server; the server receives the request information and decodes the request information to obtain the coding and image block information of the image blocks; the server obtains the image blocks according to the coding; the server performs type and quality conversion towards the image block information to obtain the image required by the client; the server sends the image to the client. Thereby, the raster image adaptation method between server and client is adopted to have less resource occupation.
+161. 101464155 Method for confirming inceptive direction in dead reckoning
+CN
+24.06.2009
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710161026.4
+Autonavi Software Ltd.
+Yang Zihua
+G01C 21/26
+Loading...
+The invention discloses a method for determining initial directions in dead reckoning. The method comprises the following steps: selecting effective GPS locating points; selecting two GPS locating points, between which the distance is larger than or equal to a threshold and the distance deviation is within a tolerance range, from the effective GPS locating points to determine the initial direction line segment; and calculating the initial direction according to the initial direction line segment. The technical scheme adopting the method for determining the initial direction in the dead reckoning ensures that the determination of the initial direction is more accurate.
+162. 101451847 Direction information recognition method between roads
+CN
+10.06.2009
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710196599.0
+AutoNavi Software Co., Ltd.
+Liang Zhanqiang
+G01C 21/26
+Loading...
+The invention discloses a method for identifying directional information among roads, comprising: calculating directional angles alpha and beta between a starting section and an ending section in relation to the starting direction centering the intersection of the starting section and the ending section and originating from the north direction of a map; calculating difference of directional angles between the starting section and the ending section; and confirming the directional information according to c value. The technical solution of the invention can reduce workload of data collection.
+163. 101453418 Updating method for synchronization between customer terminal and server
+CN
+10.06.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710199001.3
+AutoNavi Software Co., Ltd.
+Chen Tao
+H04L 12/56
+Loading...
+The invention discloses a method for updating a client and a server synchronously, which comprises the following steps: generating a static file from a dynamic file by the server and storing the static file in a static catalog; making an initial backup for the static catalog of the server by the client; regenerating the static file from the modified dynamic file when the server performs periodical check on a source catalog storing the dynamic file, storing the static file in the static catalog, and modifying the version number of the static file simultaneously; sending a static file list stored in the client to the server when the client is updated; comparing the received static file list with the static file list stored in the server by the server, and putting the static file lists with different versions to a temporary catalog; sending all the files in the temporary catalog to the client by the server; and updating the client according to the received files. Therefore, by adopting the technical proposal of the invention, the downloading stream quantity in the updating of the client can be reduced so that the downloading stream quantity is minimized.
+164. 101453751 Method for large file transmission under narrow-band network environment
+CN
+10.06.2009
+H04W 28/02 Loading...
+H04W 28/02
+Loading...
+200710199003.2
+AutoNavi Software Co., Ltd.
+Chen Tao
+H04W 28/02
+Loading...
+The invention discloses a method for transmitting large file in a narrowband network environment. A transmitting side carries out: a step 1 of dividing the large file into a plurality of data packets; a step 2 of assigning identifiers for the large file and each data packet; a step 3 of judging whether or not the data packets are completely transmitted and carrying out a step 4 if the data packets are not completely transmitted; and stopping transmitting if the data packets are completely transmitted; the step 4 of transmitting data to a receiving side taking the data packet as a unit; a step 5 of executing the step 3 if the receiving side feeds back a result of correct reception, or executing a step 4 is the receiving the receiving side feeds back a result of incorrect reception. The receiving side carries out: a step 1' of correctly receiving the data transmitted by the transmitting side and feeds back a result of correct reception or an error; and a step of 2' of reconstructing the large file with all data packets according to the identifiers of the file and data packets after all data packets are received completely. The invention adopts a single-thread transmitting mode, thereby occupying less CPU and memory and consuming less hardware resources.
+165. 101452465 Mass file data storing and reading method
+CN
+10.06.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710199002.8
+AutoNavi Software Co., Ltd.
+Yi Guozhen
+G06F 17/30
+Loading...
+The invention discloses a large-batch file data access method, which comprises: merging data of all the small files into a large file; establishing one-to-one corresponding relation between a file name and a file number of each small file; and establishing a corresponding relation between each file number and file information of the small file, wherein the file information comprises the position of the small file in the large file. Correspondingly, the invention also discloses a large-batch file data read method, which is used for reading file data accessed according to the access method. The method comprises the following steps: acquiring the file number of the small file according to the file name of the small file; acquiring the file information of the small file according to the file number; acquiring the position of the small file in the large file according to the file information; and realizing read of data of the small file through an IO interface of the large file according to the position of the small file in the large file. The technical proposal of the invention can save system resources.
+166. 101246015 Elevated route voice navigation device
+CN
+20.08.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200810000470.2
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a voice navigation device of elevated roads, which comprises a road modeling module that is used for setting up a network model and a topology relationship figure among roads; an elevated road configuring module that is used for configuring slope points on the elevated roads on the network model set up by the road modeling module, with the slope points being uprising slopes or downgoing slopes; a voice navigation database that is used for storing voice information; a path planning module that is used for determining a driving path of a vehicle according to a starting point and a destination; a GPS locating module that is used for determining the current position of a vehicle; a voice analyzing module that is used for setting up voice triggering points of the slope points of elevated roads; a navigation voice module that is used for extracting corresponding voice information from the voice navigation database so as to play the voice information; a main control module that is used for invoking the navigation voice module when the current position of the vehicle is determined to be a voice triggering point according to the results of the path planning module and the GPS locating module. The technical proposal of the voice navigation device of elevated roads of the invention can ensure driving safety.
+167. 101246014 Voice navigation device
+CN
+20.08.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200810000468.5
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a voice navigation device, which comprises a road modeling module, a voice navigation database, a configuring module of crossing direct motion information, a path planning module, a GPS locating module, a voice analyzing module, a navigation voice module and a main control module. By adopting the technical proposal of the voice navigation device of the invention, voice broadcast does not appear in a direct motion crossing, thus preventing the phenomenon of extra broadcast or error broadcast.
+168. 101246013 Vehicle mounted road navigation device
+CN
+20.08.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710196600.X
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a vehicle-mounted road navigation device, which comprises a road modeling module that is used for setting up a real road network model and a topology relationship figure thereof, a city and suburb scope dividing module that is used for dividing the scopes of cities and suburbs in an electronic map, a road property information configuring module that is used for assigning corresponding properties to each road in the electronic map, a path planning module that is used for determining a driving path of a vehicle, a GPS locating module that is used for determining the current position of a vehicle, and a navigation implementation module that is used for implementing the navigation according to the path that is planned by the path planning module and the vehicle position that is determined by the GPS locating module. The vehicle-mounted road navigation device of the invention leads the optimization degree of the path planned by the vehicle-mounted road navigation device to be improved remarkably, further fits the real driving habits of human in daily life, and leads the driving to be more convenient and faster.
+169. 101246478 Information storage and retrieval method
+CN
+20.08.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710079832.7
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G06F 17/30
+Loading...
+The invention discloses an information storage and searching method, comprising the steps of: storing the Chinese data and head letter sequence of Pinyin of word obtained processed by dividing the word in Chinese data basic information index file; storing an identifier and position information in secondary index file of the Chinese data basic information; storing Chinese data identifier belonging to the word and position recorded by the Chinese data in word Pinyin index file; storing the data cluster beginning with each letter in the secondary index file of the word Pinyin at position in the word Pinyin index file. The invention further discloses an information searching method, comprising receiving a searching letter; obtaining a result according to corresponding relationship among the Chinese data basic information index file, the secondary index file of the Chinese data basic information, the word Pinyin index file and the secondary index file of the word Pinyin. The information storage and searching method of the invention is capable of quickly, rapidly positioning the inquired target and accomplishing cross searching function.
+170. 101206122 Round island retrieval device
+CN
+25.06.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710145253.8
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G06F 17/30
+Loading...
+The invention discloses a ring island retrieval device which comprises: an input unit used to receive names of ring islands; a ring island information configuration unit used to store the related information of ring islands into a navigation electronic map database; a word division unit used to carry out the division treatments to the names of ring islands in the input unit to obtain a plurality of terms; a matching unit used to find fields matched with the terms in the navigation electronic map database; a display unit used to display the related information of the fields found by the matching unit. The ring island information configuration unit is adopted to store the information of ring islands into the navigation electronic map database, thereby being capable of retrieving the ring islands and ensuring that the retrieved information is much richer.
+171. 101206121 Placename retrieval device
+CN
+25.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145249.1
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a place name retrieval device which comprises: an input unit used to receive names of place names; a place name information configuration unit used to store the related information of place names into a navigation electronic map database; a word division unit used to carry out the division treatments to the names of place names in the input unit to obtain a plurality of terms; a matching unit used to find fields matched with the terms in the navigation electronic map database; a display unit used to display the related information of the fields found by the matching unit. The place name information configuration unit is adopted to store the information of place names into the navigation electronic map database, thereby being capable of retrieving according to the place names and ensuring that the retrieved information is much richer.
+172. 101206120 Square retrieval device
+CN
+25.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145248.7
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a square retrieval device which comprises: an input unit used to receive names of squares; a square information configuration unit used to store the related information of the squares into a navigation electronic map database; a word division unit used to carry out the division treatments to the names of the squares in the input unit to obtain a plurality of terms; a matching unit used to find fields matched with the terms in the navigation electronic map database; a display unit used to display the related information of the fields found by the matching unit. The square information configuration unit is adopted to store the information of the squares into the navigation electronic map database, thereby being capable of retrieving the squares and ensuring that the retrieved information is much richer.
+173. 101196402 Voice navigation device at height limited position
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151574.9
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a voice guidance device at the limited height, which comprises a road modeling module used for building the corresponding network module to the road in electronic map and building the topology relationship graph among roads; a deploying module at the limited height, used for deploying height limiting information on the network module built by the road modeling module; a voice guidance database, used for storing voice information; a path programming module, used for fixing the driving track of vehicle according to the initial point and the end point; a GPS positioning module, used for fixing the current position of vehicle; a guidance voice module, used for taking out the corresponding voice information from the voice guidance database to play; a main control module, used for assigning the guidance voice module to conduct voice guidance when judging the front of the current position of the vehicle is the limited height according to the path programming path and the GPS positioning module. By adopting the guidance with the road lighting information in the invention, safer guiding can be achieved.
+174. 101196406 Navigation device with road surfacing material information
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151578.7
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a guider with the information of road surface paving material, which comprises a road surface paving material information collecting module, used for collecting the information of road surface paving material of actual load; a road database, used for storing the related information of road; a path programming module, used for fixing the driving track of vehicle according to the initial point and the end point; a GPS positioning module, used for fixing the current position of vehicle; a main control module, used for displaying the information of the front road surface paving material according to the result of the path programming module and the GPS positioning module. By adopting the guider with the information of road surface paving material in the invention, safer guiding can be achieved.
+175. 101196407 Navigation device with road mark information
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151579.1
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a guider with the information of road sign, which comprises a road sign information collecting module, used for collecting the road sign information of actual road; a road database, used for storing the related information of road; a path programming module, used for fixing the driving track of vehicle according to the initial point and the end point; a GPS positioning module, used for fixing the current position of vehicle; a main control module, used for displaying the front road sign information according to the result of the path programming module and the GPS positioning module. By adopting the guider with the information of road sign, safer guiding can be achieved.
+176. 101196405 Navigation device with road lighting facilities information
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151577.2
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a guider with road light information, which comprises a comprises a road lighting information collecting module, used for collecting the lighting information of actual load; a road lighting information database, used for storing the road lighting information and the road lighting information collected by the collecting module; a path programming module, used for fixing the driving track of vehicle according to the initial point and the end point; a GPS positioning module, used for fixing the current position of vehicle; a main control module, used for displaying the front road lighting information according to the result of the path programming module and the GPS positioning module. By adopting the guider with the road lighting information in the invention, safer guiding can be achieved.
+177. 101196408 Navigation device for service area/parking area
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151580.4
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a service area /parking area guidance device, which comprises a service area /parking area collecting module, used for collecting the information of parking zone and service area in actual road; a service area /parking area distribution diagram deploying module, used for forming the service area /parking area distribution diagram according to the information of service area /parking area collected by the service area /parking area collecting module; the service area /parking area distribution diagram is the diagram reflecting the external facility distribution situation of the service area /parking area displayed on the guiding instrument; a path programming module, used for fixing the driving track of vehicle according to the initial point and the end point; a GPS positioning module, used for fixing the current position of vehicle; a main control module, used for displaying the corresponding service area /parking area distribution diagram when judging the front of the current position of vehicle is the service area/ parking area according to the result of the path programming module and the GPS positioning module. By adopting the technics scheme, good guidance effect can be achieved.
+178. 101196403 Path planning with beforehand turning roadway information
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151575.3
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a path programming device with advanced turning lane information, which comprises an advanced turning lane information collecting module, used for collecting the advanced turning lane information of actual road; a road database, used for storing the related information of road; a path programming module, used for fixing the driving track of vehicle according to the initial point, the end point and the advanced turning information. By adopting the path programming device with advanced turning lane information, the invention can make the programmed path clearer and more rational.
+179. 101196404 Navigation electronic map display equipment
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151576.8
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a road modeling module as a guidance electronic map displaying device, used for building the corresponding network module for the road in the electronic map according to the actual situation of road and building the topological relation graph between roads; a road property deploying module, used for granting public property or private property to the road in the network module according to the actual situation of road and storing in the guidance electronic map database; a path programming module, used for fixing the driving track of vehicle; a GPS positioning module, used for fixing the current position of vehicle; a displaying module, used for display the electronic map information around the current position of vehicle fixed by the path programming path and the GPS positioning module by making the road of private property. By adopting the road deploying module, the property of the road is deployed into public property or private property, which makes the displaying effect more accurate.
+180. 101197094 Guiding method for continuous branching in electronic map
+CN
+11.06.2008
+G09B 29/00 Loading...
+G09B 29/00
+Loading...
+200610162083.X
+Gaode Software Co., Ltd.
+Jiang Derong
+G09B 29/00
+Loading...
+The invention discloses a guiding method for continuous divergence in electric map, including the following procedures that: a related network model is built based on actual road conditions; high speed divergences in the network model are provided with single divergence 3D pictures; roads related to two high speed divergences which are relatively close are provided with continuous divergence 3D pictures; the current position of a car is known by positioning; when the car runs near the first divergence point of the high speed continuous divergence, continuous 3D pictures related to the high speed continuous divergence are displayed; when the car passes the first divergence point, the single divergence 3D pictures of next divergence point is displayed. Adopting the technical proposal of the invention can accurately tell actual road conditions, let a driver know in advance the road of continuous divergence and make navigation more accurate.
+181. 101196401 Voice navigation device for high-speed ramification point
+CN
+11.06.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151573.4
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a voice guidance device of high-speed bifurcation, which comprises a road modeling module used for building the corresponding network module to the road in electronic map and building the topology relationship graph among roads; a voice guidance database, used for storing voice information; a path programming module, used for fixing the driving track of vehicle; a GPS positioning module, used for fixing the current position of vehicle; a voice analyzing module, used for fixing the voice trigger point of the bifurcation according to the network module built by the road modeling module and the driving track fixed by the path programming module; a guidance voice module, used for taking out the corresponding voice information from the voice guidance database to play according to the current position of vehicle fixed by the GPS positioning module and the sound trigger point achieved from the sound analyzing module. By adopting the techincal scheme in the invention, accurate and high-efficient guiding can be achieved.
+182. 101169327 Information searching device
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151568.3
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses an information searching device, which comprises an input unit used for receiving the searching words, a word division unit used for dividing the searching words received by the input unit so as to obtain a plurality of word lemmas, a matching unit used for finding out the searching words or the matched fields of the lemmas in a navigation electronic map database, a main photo collocating unit used for storing the main photos of the interest points into the navigation electronic map database, and a display unit used for displaying the information related to the fields found out by the matching unit and the main photos. As the invention adopts the main photo collocating unit to store the main photos of the interest points into the navigation electronic map database, the corresponding main photo is displayed when the inquiring result is displayed so as to display the factual image of the inquired information of the interest points.
+183. 101169326 Additional vehicle line voice guiding device
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151567.9
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses an affixed vehicle line sound navigation device, which comprises a road modeling module used for establishing the corresponding network model to the road in the electronic map according to the factual road condition and establishing the topology relation drawings between the roads, an affixed vehicle line collocating module used for collocating the affixed vehicle line information at the affixed vehicle line on a network module established by the road modeling module, a sound navigation database used for storing sound information, a path layout module used for determining the driving path of the vehicle, a GPS positioning module used for determining the current position of the vehicle, a navigation sound module used for picking and playing the corresponding sound information from the sound navigation database, and a main control module used for transferring the navigation sound module to carry out sound navigation when judging that the front side of the current vehicle position is affixed vehicle line according to the results of the path layout module and the GPS positioning module. Adopting the technical proposal, the invention can navigate more safely.
+184. 101169329 Crossing enlarged map display device
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151570.0
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a crossing enlarged map display device, which comprises a crossing enlarged map data reading module used for reading the map data of the electronic map into the memory, a crossing enlarged map data pre-treating module used for changing the geographical coordinates in the basic map data into corresponding screen coordinates through the weighing analysis of the interest points and the diameter analysis of the crossings, a crossing enlarged map protracting module used for protracting the crossing enlarged map according to the protracting of the data obtained by the crossing enlarged map pre-treating module through the background, the path, the leading line and the interest point information layer, and a crossing enlarged map display device used for displaying the crossing enlarged map protracted by the crossing enlarged map protracting module. Adopting the technical proposal of the utility model, the invention can completely display the information of the crossings.
+185. 101169331 Vehicular navigation device using tri-dimensional picture
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151572.X
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a vehicle carried navigation device utilizing 3-D pictures, and the vehicle carried navigation device comprises a road modeling module used for establishing a corresponding network model of the road in an electronic map according to a factual road condition, a 3-D picture collocating module used for collocating corresponding 3-D pictures at the complicated crossings according to a network model established by the road modeling module, a path layout module used for determining the driving path of the vehicle, a GPS positioning module used for determining a current position of the vehicle, and a 3-D picture display module used for displaying the 3-D pictures of the complicated crossings collocated by the 3-D picture collocating module at certain distances before the complicated crossings according to the results of the path layout module and the GPS positioning module. By adopting the 3-D picture collocating module and the 3-D picture display module, the invention can provide clear and correct navigation to users.
+186. 101169330 Vehicular navigation device using single branched graph
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151571.5
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a vehicle carried navigation device utilizing single bifurcation pictures, and the vehicle carried navigation device comprises a road modeling module used for establishing the corresponding network model of the road in an electronic map according to a factual road condition, a single bifurcation picture collocating module used for collocating corresponding single bifurcation pictures at the complicated crossings according to a network model established by the road modeling module, a path layout module used for determining the driving path of the vehicle, a GPS positioning module used for determining the current position of the vehicle, and a bifurcation picture display module used for displaying the single bifurcation pictures of the complicated crossings collocated by the single bifurcation picture collocating module at certain distances before the complicated crossings according to the results of the path layout module and the GPS positioning module. By adopting the single bifurcation picture collocating module and the single bifurcation picture display module, the invention can provide clear and correct navigation to users.
+187. 101169328 Overpass searching device
+CN
+30.04.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710151569.8
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a crossroads searching unit, which comprises an input unit used for receiving a name of the crossroads, a crossroad information collocating unit used for storing the information related to the crossroads into the navigation electronic map database, a word division unit used for dividing the crossroad names of the input unit so as to obtain a plurality of word lemmas, a matching unit used for finding out the searching words or the matched fields of the lemmas in a navigation electronic map database, and a display unit used for displaying the information related to the fields found out by the matching unit. Adopting the technical proposal, the invention enables the searched information be more abundant.
+188. 101149271 Crossing point crossing searching device
+CN
+26.03.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145254.2
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a crossing search device including the input unit to receive the road name; participle unit used to participle the road name in input unit and get many word unit; the crossing computing unit used to get the crossing according to the road name; matching unit used to find the matching word in navigation map data bank; displaying unit used to display the corresponding information to the matching unit. Because of using the crossing computing unit, it can get the crossing according to the two inputting road name. So it can search the crossing to fill the search content.
+189. 101149270 Speed limiting road voice navigation device
+CN
+26.03.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145252.3
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a speech navigation device of speed-limit road including the road modeling module used to set the network module in electric map according to the react road and set the topological map between the roads; the distributed module of speed-limit road used in distributing the speed-limit information at the speed-limit position of the network module on the road modeling module; the speech navigation data bank used to memory speech information; road programming module used to determine running path of vehicle; GPS location module used to determine the present position of vehicle; navigation speech module used to take out the speech information and play from the speech navigation data bank; main controlling module used to select the navigation speech module to navigate to determine the speed-limited road according to the road modeling module and GPS position module. Because of using the phonetic cue in speed-limited road, it can provide the navigation of more safety.
+190. 101149269 Railway crossing voice navigation device
+CN
+26.03.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145250.4
+Gaode Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses a speech navigation in railway crossing including the railway crossing distributing module which is used to search the cross and stored it in the navigation electronic map databank; the speech navigation databank used to store the speech information; the path programming module used to determine the vehicle running path; GPS location module used to determine the vehicle position; navigation speech module used to take out the speech information from the speech navigation databank and broadcast; the main controlling module used to use the navigation speech module to go on the speech navigation according to the path programming module and GPS location module while the vehicle is in the front of the railway cross. Because of using the railway crossing module with the phonetic cue, it can provide the navigation of more safety and convenience.
+191. 101131325 Electronic navigation system information searching method and device thereof
+CN
+27.02.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200610112024.1
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses an information retrieval method of electronic navigation system including steps: receive search term; participle the said search term to obtain word elements; search out in the navigation map database the matched words; show relevant information of the said fields. Correspondingly the invention also discloses information retrieval device of electronic navigation system including input unit, used to receive search terms; participle unit, used to participle the said search term to obtain word elements; matching unit, used to search out the matched words in the navigation map database with the said search term or elements; display unit, used to display the relevant information matched with search term. With the technology program by the invention can retrieve the necessary information without input the full name, greatly improves the response time and retrieval accuracy.
+192. 101131326 Electronic navigation system information searching method
+CN
+27.02.2008
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200710145251.9
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/26
+Loading...
+The invention discloses information retrieval device of electronic navigation system including input unit, used to receive search terms; participle unit, used to participle the said search term to obtain word elements; matching unit, used to search out the matched words in the navigation map database with the said search term or elements; display unit, used to display the relevant information matched with search term. With the technology program by the invention can retrieve the necessary information without input the full name, greatly improves the response time and retrieval accuracy.
+193. 101131323 Collecting device for road landscape information and locating information
+CN
+27.02.2008
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+200610112025.6
+AutoNavi Software Co., Ltd.
+Jiang Derong
+G01C 21/00
+Loading...
+The invention discloses a pick device of road landscape information and positioning information including positioning information acquisition unit used for collecting positioning information of road; road landscape information acquisition unit used to collect road landscape information; control unit was used to monitor the said positioning information acquisition unit and road landscape information acquisition unit and match the locator data with road landscape data; storage unit, used for the storage of the locator data and road landscape data matched by control unit. With the technical program by the invention can improve acquisition accuracy.
+194. 201025445 道路景观信息和定位信息的采集装置
+CN
+20.02.2008
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+200620132007.X
+高德软件有限公司
+姜德荣
+G01C 21/00
+Loading...
+本实用新型公开一种道路景观信息和定位信息的采集装置包括定位信息采集单元，用于采集道路的定位信息；道路景观信息采集单元，用于采集道路景观信息；控制单元，用于监控所述定位信息采集单元和所述道路景观信息采集单元并对定位数据和道路景观数据进行匹配；存储单元，用于存储所述控制单元匹配完成的定位数据和道路景观数据。采用本实用新型的技术方案能够提高采集精度。
+195. 101122466 Electronic map track and its video data memory and inquiring method
+CN
+13.02.2008
+G01C 21/28 Loading...
+G01C 21/28
+Loading...
+200610109603.0
+Autonavi Software Co., Ltd.
+Jiang Derong
+G01C 21/28
+Loading...
+The invention discloses an electronic map trajectory and video data storing method. The method includes steps that the set system time of a location sensor is in accordance with the set system time of a camera. The synchronous trajectory data documents and video documents are copied in an optical disk, which is given a unique label. The trajectory data documents are converted to be a road graph layer form and the code of the optical disk is regarded as an attribute of the road graph layer. The road graph layer is referred to a layer for storing line map road elements in the electronic map. The road graph layer is slit into a plurality of framings. The framings are stored in a map framing database. The relative query method includes that the latitude and longitude coordinates of the roads to be queried are obtained. The framings of the roads are calculated according to the latitude and longitude coordinates. The label of the optical disk for storing the video documents of the roads is obtained according to the codes of the framings. The optical disk is found according to the label of the disk and the trajectory and the video data are read. The invention can improve the safe performance of the data and save storing media.
+196. 101122468 Interest point information storing method and navigation method using interest point information
+CN
+13.02.2008
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+200610109602.6
+Autonavi Software Co., Ltd.
+Jiang Derong
+G01C 21/34
+Loading...
+The invention discloses a storing method for information of an interest point, which includes steps mentioned below. The center point coordinate of the interest point is regarded as the display coordinate of the interest point and is stored. The attribute information of the interest point is stored. A reached coordinate can be determined according to the attribute of the interest point. The reached coordinate can be used as a coordinate for navigating road. Accordingly, a navigation method making use of the information of the interest point is disclosed, including that the reached coordinate of the interest point can be found according to the interest point. The reached coordinate is regarded as the destination. A navigation line from a staring point to the destination is planed. With the technical scheme of the invention adopted, the navigation precision can be improved.
+197. 200980122 点状地理信息采集装置
+CN
+21.11.2007
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+200620166055.0
+高德软件有限公司
+姜德荣
+H04N 5/225
+Loading...
+本实用新型公开一种点状地理信息采集装置包括GPS接收机，用于获得点状地理信息的定位位置信息；定位调整模块，用于根据电子地图各项要素对所述GPS接收机提供的定位位置信息进行调整并将调整后的定位位置信息作为点状地理信息的定位位置信息；数码相机，用于拍摄点状地理信息的详细属性信息的照片；控制单元，用于将所述定位调整模块获得的点状地理信息的定位位置信息和所述数码相机拍摄的点状地理位置信息的照片建立对应关系并存入数据库中。采用本实用新型的技术方案采集精度非常高。
+198. 1512139 Automobile global positioning self navigation system based on Naviken specification
+CN
+14.07.2004
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+02159150.4
+Gaode Software Co., Ltd.
+Xiao Jun
+G01C 21/26
+Loading...
+The present invention relates to automobile GPS autonomous navigation system based on Naviken specification with expanded coverage range of navigation map. In the compact disc of the present invention, the latitude and the longitude of each true coordinate are added with offset m and n deg to ensure the accordance with Naviken requirement of global map data. After obtaining positioning data, the navigation computer of the present invention first adds m and n deg to the latitude and the longitude separately before subsequent treatment. The said improvement makes the navigation system based on Naviken specification global applicable.
+

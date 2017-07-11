@@ -1,0 +1,97 @@
+1. 103327391 一种浏览器通过数据广播下载启动java应用的调用方法
+CN
+22.06.2016
+H04N 21/43 Loading...
+H04N 21/43
+Loading...
+102013000208426
+商埃曲网络软件（上海）有限公司
+吴玉民
+H04N 21/43
+Loading...
+本发明公开了一种浏览器通过数据广播下载启动java应用的调用方法，java应用通过数字电视系统的数据前端以OC(DSMCC Object Carousal)的方式通过Cable信号线播放，在用户终端（数字电视机顶盒）运行数字电视中间件之上的html应用，数字电视中间件会自动切台到播放该java应用的频道上，然后中间件下载该频道上的AIT表、解析AIT表，判断是否存在当前要启动的应用，若找到要启动的java应用，则根据AIT表的描述，通过doLoad接口下载java应用class文件包到本地，然后JavaVM通过mainClassName启动所述的要启动的java应用。
+2. 105245974 一种数字电视双网络下大数据推送交互系统
+CN
+13.01.2016
+H04N 21/61 Loading...
+H04N 21/61
+Loading...
+201510669905.2
+商埃曲网络软件（上海）有限公司
+许海华
+H04N 21/61
+Loading...
+本发明公开了一种数字电视双网络下大数据推送交互系统，所述的双网络是指广电有线网络和电信网络，大数据推送交互过程包括：A1，前端服务器内的文件分割模块将待传数据文件按预定容量分割并打包成多个数据包，前端服务器内的数字电视播放卡经广电有线网络依序向设定的多个终端接收机循环广播数据包；A2，终端接收机内的终端管控播放模块按序接收所述数据包，并由数据推送存储模块将所述数据包内的数据信息保存至对应的移动硬盘内；A3，终端接收机对接收到的大数据包的完整性进行判断；A4，当所述数据包完整时，直接停止循环广播。
+3. 103200449 一种用于数字电视应用管理系统方法
+CN
+10.07.2013
+H04N 21/443 Loading...
+H04N 21/443
+Loading...
+201310103310.1
+商埃曲网络软件（上海）有限公司
+吴玉明
+H04N 21/443
+Loading...
+一种用于数字电视应用管理系统方法，包括步骤：在终端平台的java应用中启动html浏览；在终端平台的html网页中启动java应用；其中，实现java应用中启动html浏览的方法是，将java应用定义为HyperText类的实现，通过HyperText类的构造函数实现browser的初始化，采用setData方法实现browser首页的设置，采用setBounds方法实现browser窗口的大小设置、全屏显示以及在java应用里面嵌入一个小网页浏览器窗口。
+4. 101593127 Cross-platform Jave virtual machine of digital television middleware system
+CN
+02.12.2009
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+200810038112.0
+3H International Technology (Shanghai) Limitd.
+Xu Haihua
+G06F 9/455
+Loading...
+The invention discloses a cross-platform Jave virtual machine of a digital television middleware system, belonging to the technical field of communication. The cross-platform Jave virtual machine comprises an operating system and a device drive program based on a hardware platform, wherein a platform adaptation layer is arranged based on the operating system and the device drive program; and a core class library containing a Java virtual machine and a set-top box device installed in the middleware system is utilized based on the platform adaptation layer to build the Jave virtual machine which is at least formed by a class loading sub-system, a security management sub-system, an execution engine and a local method invoking interface sub-system functional module so as to provide an operation platform of the Java application and the service for the digital television middleware. The invention supports the China standard, is easy to transplant to the other standards, and has no relation with the hardware platform, unified resource management, no OS limitation on the quantity of operational Jave threads, more compact system structure, less occupied hardware resource and less limitation on the hardware platform.
+5. 101453614 Interactive information simulation system and apparatus for digital television content
+CN
+10.06.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710171739.9
+3H International Technology (Shanghai) Ltd.
+Xu Haihua
+H04N 7/16
+Loading...
+The invention relates to a system and a device for interactive information simulation of digital television content, and belongs to the technical field of telecommunications. The system and the device are characterized in that the whole system and the device comprise remote controller equipment, a video debug, display equipment and an application program, wherein the remote controller equipment is realized by technologies such as a virtual keyboard of JAVA, an Observable mode, JMF and the like; the video debug uses streaming media technology to debug playing of the digital television content, and performs picture-in-picture display for hardware of a computer picture card; the display equipment simulates an environment of a playing interface of the digital television content, and creates a player interface; and through simulation similar to a television interface, adding, controlling and monitoring a feedback channel, video code stream playing, loading application, the application program converts a content creation source program into a streaming media packet capable of being played by a simulator, and calls a file playing manager.
+6. 101453613 Open middleware system for interactive digital television
+CN
+10.06.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710171735.0
+3H International Technology (Shanghai) Ltd.
+Xu Haihua
+H04N 7/16
+Loading...
+The invention relates to an open middleware system for an interactive digital television, and belongs to the technical field of telecommunications. The open middleware system comprises a set-top box operating system, and is characterized in that the system is provided with an open middleware platform with a JAVA environment on the basis of the set-top box operating system, and the system is matched with China standards to realize application receiving and processing for a broadcast head end in user terminal equipment. The system makes content production of the interactive digital television simplified and popularized, so as to push content requirement of the interactive digital television to develop as vigorously and quickly as Internet content, and push the development of the digital television industry. The system can be widely applied to the field of digital television program production.
+7. 101335882 Interactive digital television information production center platform system
+CN
+31.12.2008
+H04N 5/222 Loading...
+H04N 5/222
+Loading...
+200710041512.2
+3H International Technology (Shanghai) Ltd.
+Xu Haihua
+H04N 5/222
+Loading...
+An interactive information processing system and method for digital television pertains to the field of electrical communication technology. The system includes a digital television content manufacturing center platform, a digital television signal transmission system and a digital television signal receiving and playing system. The digital television content manufacturing center platform includes at least an interactive digital television content manufacturing unit, a manufacturing center unit, a flow media generating unit, a video compression coding unit and a user management unit; these units are connected in wired and/or wireless network, the digital television signal receiving and playing system is connected with the digital television signal transmission system, and the digital television signal receiving and playing system is connected to an applications management module of the manufacturing center unit through ISP. So that the interaction digital television content manufacturing is simplified and popularized. Thereby the demand for interactive digital television content is promoted to develop like the development of the Internet content, and the digital television can be widely used in the field of manufacturing digital TV program.
+8. 101316349 Interactive information processing system and method for digital television
+CN
+03.12.2008
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200710041511.8
+3H International Technology (Shanghai) Ltd.
+Xu Haihua
+H04N 7/14
+Loading...
+The invention discloses a system and method that are used for processing interactive information of a digital TV, which pertains to the technical field of electrical communication. An interactive digital TV content editing system that is connected with a central platform by a network is arranged at the front end of the central platform for TV content production; the production central platform provides software support for the interactive digital TV content editing system that produces an original interactive digital TV content; the editing system transmits the original interactive digital TV content to the production central platform; the production central platform carries out test, debugging and content classification to the original interactive digital TV content transmitted, and then the content of a program to be broadcasted is obtained; the production central platform transmits the content of the program to broadcasted to a television station; a television signal transmitting system in the television station transmits the content of the program to be broadcasted to a digital television signal receiving/broadcasting system of a final client end. The system and the method simplify and popularize the production of the interactive digital TV content and are beneficial to promoting the development of digital television industry.
+

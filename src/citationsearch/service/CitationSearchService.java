@@ -154,12 +154,10 @@ public class CitationSearchService
 		
 		for (i = 0; i < companies.length; i++) {
 			patents = pm.getPatentsByCompanyId(companies[i].getID());
-			int totalPatents = 0;
 			for (j = 0; j < patents.length; j++) {
 				if (patents[j].getPatPublnId() <= 0) {
 					continue;
 				}
-				totalPatents++;
 			}
 			companies[i].setPatentsTotal(pm.countPatentsByCompanyId(companies[i].getID()));
 			int total = pm.getTotalCitationsByCompanyId(companies[i].getID());

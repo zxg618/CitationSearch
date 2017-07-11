@@ -1,0 +1,97 @@
+1. 106303344 基于数字电视接收机的干扰信号的处理方法及装置
+CN
+04.01.2017
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+102016000743711
+高拓讯达(北京)科技有限公司
+王军伟
+H04N 7/10
+Loading...
+本发明提供了一种基于数字电视接收机的干扰信号处理方法及装置，其中，数字电视接收机的干扰信号处理方法包括：数字电视接收机接收数字电视信号，并将AD转换后的数字电视信号进行频谱搬移，将数字电视信号变换成复数基带信号；对复数基带信号中的第一复数基带信号进行傅立叶变换，获取第一复数基带信号中的每个信号频率对应的信号功率值，其中，第一复数基带信号为复数基带信号中的任意一段复数基带信号；判断第一复数基带信号中是否存在大于第一功率阈值的信号功率值；当第一复数基带信号中存在大于第一功率阈值的信号功率值时，则确认数字电视信号中存在干扰信号。本发明使用户收看的数字电视节目更加清晰，保证了数字电视信号的高品质特性。
+2. 106302282 判决反馈均衡处理方法及均衡器
+CN
+04.01.2017
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201610794833.9
+高拓讯达(北京)科技有限公司
+傅天煌
+H04L 25/03
+Loading...
+本发明公开了一种判决反馈均衡处理方法及均衡器。其中，该方法包括：将接收到的信息进行干扰消除；将干扰消除后的信息构成循环序列；将所述循环序列与估计的信道在频域做最小均方差均衡；根据最小均方差均衡的结果估计的有效信噪比；根据有效信噪比进行判决反馈均衡处理。本发明解决了均衡器能在复杂的环境下应对各种特殊情况的技术问题。
+3. 101945065 Frequency deviation estimating method of receiver based on DTTB (Digital Television Terrestrial Broadcasting) standard
+CN
+12.01.2011
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010264498.4
+AltoBeam (Beijing) Technology Co., Ltd.
+Zeng Chaohuang
+H04L 25/03
+Loading...
+The invention relates to a frequency deviation estimating method of a receiver based on a DTTB standard, belonging to the technical field of digital television transmission. The frequency deviation estimating method comprises the following steps of: roughly estimating frequency deviation; carrying out rough frequency deviation compensation on received data according to a rough frequency deviation estimating result; accurately estimating residual frequency deviation; and compensating finally remained residual frequency deviation of the received data according to an accurate frequency deviation estimating result. The invention ensures that the DTTB system can be used for correctly receiving and transmitting signals in large frequency deviation and high-speed movement by using the characteristics of PN (Pseudorandom Noise) sequence circulation of a frame header mode 1 and a frame head mode 3 in a DTTB system.
+4. 101909023 Multipath channel estimation method
+CN
+08.12.2010
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010218470.7
+AltoBeam (BeiJing) Technology Co., Ltd.
+Zeng Chaohuang
+H04L 25/02
+Loading...
+The invention provides a multipath channel estimation method which comprises the following steps of: acquiring synchronization parameters of a multipath channel from a received signal of the multipath channel as well as frame header information of each path of channel in the multipath channel; calculating related functions of the received signal and a local pseudo-random sequence according to the synchronization parameters and the frame header information and obtaining a rough impulse response value of the multipath channel according to the related functions; and obtaining impulse response estimation of the multipath channel according to the rough impulse response value. The invention realizes the beneficial effects of shortening the channel estimation cycle and reducing the realization complexity.
+5. 101645861 Method and system for synchronously tracking received signal
+CN
+10.02.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810118034.5
+AltoBeam (BJ) Technology Co., Ltd.
+Zeng Chaohuang
+H04L 27/26
+Loading...
+The invention discloses a method and a system for synchronously tracking a received signal. The method comprises the following steps: performing channel estimation on the received signal to obtain a channel estimation result; synchronously tracking the sample frequency offset of the received signal according to a main peak and a channel estimation value of a sampling point next to the main peak; and synchronously tracking the carrier frequency offset of the received signal according to the main peak. The method and the system for synchronously tracking the received signal can estimate and correct the sample frequency offset and the carrier frequency offset of the received signal in the period of tracking the received signal so as to ensure that the system works in a good condition all thetime.
+6. 101626354 Noise estimation method and noise estimation device of multipath channel
+CN
+13.01.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200910084280.8
+AltoBeam (Beijing) Technology Co., Ltd.
+Zeng Chaohuang
+H04L 25/03
+Loading...
+The invention provides a noise estimation method of a multipath channel, comprising the following steps: carrying out channel estimation for the multipath channel to obtain a time domain response estimation value of each path channel of the multipath channel; setting a noise threshold; selecting paths of all paths of the each path channel, which have the power lower than the noise threshold, and computing a noise estimation value of the multipath channel according to the time domain response estimation values of the selected paths. The invention solves the problem that a noise estimation method utilizing signal subspace needs to carry out higher-order statistics for received signals in a correlation technique and has higher complexity, thereby achieving the effect on reducing channel noise estimation complexity.
+7. 101309251 PN sequence detection method and system of receiver based on DTTB standard
+CN
+19.11.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810114883.3
+AltoBeam (Beijing) Technology Co., Ltd.
+Zeng Chaohuang
+H04L 27/26
+Loading...
+The invention relates to a receiver PN sequence detection method and the system based on the DTTB standard, belonging to the wireless communication technical field; the detection method includes that the moving autocorrelation method is adopted to locate the approximate position of the header of the signal frame according to the characteristics of the PN sequence; the PN sequence of the header of the first frame is adopted to process the recycle correlation with the local PN sequence to acquire the optimum sampling position information and the PN phase difference; the PN sequences of the headers of the second frame and the third frame are sequentially adopted to process the recycle correlation with the local PN sequence to acquire the PN phase differences of the second frame and the third frame; the phase differences of the three frames are adopted to determine and calculate the corresponding PN sequences, and judge if the frames use the same PN sequence. The system includes a frame header position searching module, a data intercepting module, a local PN sequence generation module, a recycle correlation module, a peak detection module and a PN sequence calculation module. The receiver PN sequence detection method and the system can realize the detection without the accurate timing position of the PN sequence, reduce the disturbance brought by the frame body of the current frame or the former frame in the multi-path channel and have good performance.
+8. 101277121 Low-power consumption receiver capable of dynamically detecting barrage jamming signal
+CN
+01.10.2008
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+200810112253.2
+AltoBeam (Beijing) Technology Co., Ltd.
+Zeng Chaohuang
+H04B 1/10
+Loading...
+The present invention relates to a low power consumption receiver which can dynamically detect the blocking interference signal and belongs to the technical field of wireless communication. The receiver comprises the following components: a radio frequency amplifier, a frequency synthesizer, a first frequency mixer, a low-pass filter, a variable gain amplifier and an analog-digital converter which are connected in sequence. The receiver also comprises a blocking interference signal detector and a system configuration regulator connected with the detector. The input end of the blocking interference signal detector can be connected with the output end of the analog-digital converter, and can be connected with the input ends and output ends of the low-pass filter and variable gain amplifier at the same time. The output end of the system configuration regulator is connected with at least one device in all devices respectively, or is connected with a plurality of receiving chains which are composed of the devices through an N-route multiplexer. The receiver presented by the invention can automatically detect the strength of the blocking interference signal and regulates the system configuration correspondingly. The receiver is leaded to work in different working modes in order to adapt different working environments.
+
