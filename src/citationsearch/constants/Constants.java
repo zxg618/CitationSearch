@@ -6,7 +6,7 @@ public final class Constants {
 	public static final String WIPO_RESULT_URL = "https://patentscope.wipo.int/search/en/result.jsf";
 	public static final String QUERY_STRING_PART1 = "?query=PA:"; //世芯电子&listLengthOption=1653";
 	public static final String QUERY_STRING_PART2 = "&listLengthOption=200";
-	public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish.xlsx";
+	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish.xlsx";
 	public static final String WIPO_DATA_PATH = "./WIPO_Data/";
 	
 	//excel file start position >=1
@@ -16,7 +16,7 @@ public final class Constants {
 	
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test.xlsx";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test2.xlsx";
-	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test2.xlsx";
+	public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test3.xlsx";
 	public static final String LOG_IN_URL = "https://patentscope.wipo.int/search/en/reg/login.jsf";
 	public static final String DATA_FILE_POSTFIX = ".out";
 	public static final String PSN_SECTOR_COMPANY = "COMPANY";

@@ -8,11 +8,21 @@ public class Main
 	public static void main(String[] args) {	
 		CitationSearchService service = new CitationSearchService();
 		service.setFilePath(FILE_PATH);
+		
+		//get all company details from excel file
 		service.displayAllCompanyNames();
+		
+		//read wipo api
 		service.setApiUrl(WIPO_RESULT_URL);
 		service.displayTotalNumberOfPatentsOnWIPO();
-//		service.runStatistics();
-//		service.generateOutputExcelFiles();
+		
+		//get related patents and citations
+		service.runStatistics();
+		
+		//generate output file
+		service.generateOutputExcelFiles();
+		
+		//not used now
 		//service.searchAllCitationsByEnglishName();
 	}
 }
