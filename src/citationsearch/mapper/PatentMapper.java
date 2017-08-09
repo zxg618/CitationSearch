@@ -448,7 +448,7 @@ public class PatentMapper extends Mapper {
 	public int getTotalCitationsByCompanyId(int companyId) {
 		int totalCitations = 0;
 		
-		this.query = "select count(distinct citing_application_docdb_family_id) as total from " + Citation.TABLE + " where company_id =" + companyId;
+		this.query = "select count(*) as total from " + Citation.TABLE + " where company_id =" + companyId;
 		
 		ResultSet rs = this.executeGetQuery();
 		

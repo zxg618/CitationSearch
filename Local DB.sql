@@ -1,4 +1,4 @@
---select * from unsw_bs_patent where id = 110;
+select * from unsw_bs_patent where id = 110;
 --select * from tls211_pat_publn where pat_publn_id = 416613767;
 --select * from tls201_appln where appln_id = 416613766;
 --select * from tls209_appln_ipc where appln_id = 416613766;
@@ -19,4 +19,4 @@
 
 --select * from tls211_pat_publn where pat_publn_id = 457963336;
 
-select * from tls228_docdb_fam_citn where docdb_family_id = 50374664
+--select * from tls228_docdb_fam_citn where docdb_family_id = 50374664
