@@ -1,0 +1,877 @@
+1. 103984478 一种动态图标的展示方法及系统
+CN
+19.04.2017
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+102014000173106
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明提供了一种动态图标的展示方法，包括以下步骤：预设触发图标动态展示事件和触发图标动态展示事件的响应动作，监测响应动作是否发生，若是，触发图标动态展示事件；图标拷贝到绘图缓冲区中生成截图；在图标截图上创建多个骨骼线及坐标点，骨骼线按照预设坐标范围进行索引，将图标截图进行拉伸变形，以实现图标响应手指点击动作做拉伸变形的动态交互效果，使得桌面图标很好地与用户的操作进行互动，增加了用户的体验。本发明还提供了一种动态图标的展示系统。
+2. 103927180 一种基于安卓系统的功能插件的实现方法及其系统
+CN
+15.02.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102014000161342
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明提供了一种基于安卓系统的功能插件的实现方法，包括：所述组件或自定义view将所述资源目录中存储的功能插件读取到内存中，为每个功能插件建立类加载器；所述组件或自定义view使用类加载器将功能插件中对应的类名反射构造实例，并将自身对象传递给实例；所述组件或自定义view将功能插件中对应的类作为其在功能插件的代理，将生命周期函数委托给RemoteProxy远程代理；实例通过RemoteProxy远程代理使功能插件获得对应类的生命周期函数，以响应所述组件或自定义view生命周期的不同状态，解决了安卓系统四大组件和自定义view插件化问题。本发明还提供了一种基于安卓系统的功能插件的系统。
+3. 103927171 一种立体桌面多屏预览的实现方法及系统
+CN
+15.02.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102014000147744
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明提供了一种立体桌面多屏预览的实现方法，包括以下步骤：桌面屏幕预设触发多屏预览事件的响应动作；监测触发多屏预览事件的响应动作是否发生，若是，触发多屏预览事件；预览屏幕围成一个棱柱体；预设手指滑动屏幕触发预览屏幕切换事件的步长阀值，监测手指滑动屏幕的步长值是否大于预设阀值，若是，触发预览屏幕切换事件；获取手指滑动屏幕的坐标值及滑动方向，滚动器根据手指滑动的坐标值和滑动方向，转化为预览屏幕绕棱柱体中心轴转动的角度值及转动方向，以实现预览屏幕响应手指滑动动作转为棱柱体的屏幕预览交互效果；使得桌面屏幕的预览很好地与用户的操作进行互动，增加了用户的体验。本发明还提供了一种立体桌面多屏预览的系统。
+4. 103984474 一种立体桌面功能表展开的实现方法及其系统
+CN
+15.02.2017
+G06F 3/0482 Loading...
+G06F 3/0482
+Loading...
+102014000189123
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0482
+Loading...
+本发明提供了一种立体桌面功能表展开的实现方法，包括以下步骤：预设第一立体模型与第二立体模型的分离事件及触发分离事件展开功能表的响应动作；监测触发第一立体模型与第二立体模型分离事件展开功能表的响应动作是否发生，若是，触发分离事件展开功能表；第一立体模型与第二立体模型按照预设的轨迹分离，功能表在第一立体模型与第二立体模型之间随着两模型的分离而展开，即可完成功能表打开的操作，满足了用户的个性化需求，增强了用户体验。本发明还提供了一种立体桌面功能表展开的系统。
+5. 106354485 一种带有场景的时间提醒系统及其实现方法
+CN
+25.01.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102016000589467
+广州恒业软件科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明提供了一种带有场景的时间提醒系统，包括：场景设置单元，用于虚拟场景的设定，所述场景设置单元设置有场景元素编辑模块，可根据用户的需求进行编辑；所述场景元素设置有声音元素，所述声音元素设置有声音元素编辑模块，可根据用户的需求进行试听编辑；提醒单元，在提醒时间到达时执行场景设置单元所设置的场景元素，以实现通过场景化的提醒系统帮助用户更好更人性化的提醒体验，满足用户的个性化需求。本发明还提供了一种带有场景的时间提醒实现方法。
+6. 106230954 一种虚拟化管理平台
+CN
+14.12.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610641183.4
+广州市久邦数码科技有限公司
+邓裕强
+H04L 29/08
+Loading...
+本发明公开一种虚拟化管理平台，包括：宿主机、交换机、存储盘柜、管理端、DNS端、ETCD端、ZABBIX端；所述宿主机分别与交换机、存储盘柜、管理集群线路连接；所述管理平台通过以下步骤搭建消息架构：S1宿主机定时向ETCD端发送自身的状态信息；S2管理端实时通过ETCD端查看宿主机的状态信息，根据负载情况向所述宿主机的任务点发送编排任务；S3 DNS端结合管理端，给VM构建和生产上提供域名解释服务；所述管理平台通过以下步骤搭建监控架构：S4宿主机、交换机和存储盘柜通过SNMP给ZABBIX端发送监控数据；S5 VM点监控按团队推送警报，未来负载数据可以结合自动容量伸缩作进一步操作，以实现实时获知各宿主机的情况、并进行消息的通知及任务分配的智能化管理功能。
+7. 106204455 一种带有多重滤镜效果的图像处理方法及其系统
+CN
+07.12.2016
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+102016000556399
+广州市久邦数码科技有限公司
+邓裕强
+G06T 3/40
+Loading...
+本发明公开一种带有多重滤镜效果的图像处理方法，所述方法包括：获取原始图像的所有像素点的位置数据；传入带有形状的滤镜图片，所述滤镜图片上各形状设有其对应的其它滤镜特效；获取图片上每一个形状的位置数据，将原始图像的像素点的位置数据与图片上形状的位置数据进行对比，确定原始图像在形状内部的像素点；根据各形状的滤镜特效，对在形状内部的像素点做相应的滤镜特效处理；根据滤镜图片的滤镜特效，对在形状外部的像素点做相应的滤镜特效处理，以实现图像的多重滤镜效果；本发明可以对滤镜图片进行编辑，可根据用户需求，在滤镜图片上添加形状并自定义各形状所对应的滤镜特效，满足用户的个性化需求。本发明还提供了一种带有多重滤镜效果的图像处理系统。
+8. 106203150 一种基于安卓系统的通知管理方法及其系统
+CN
+07.12.2016
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+102016000464943
+广州市久邦数码科技有限公司
+邓裕强
+G06F 21/62
+Loading...
+本发明提供了一种基于安卓系统的通知管理方法，所述方法包括：S1接收系统所收到的通知，并记录相应通知的类型、样式及具体内容；S2对通知详细内容进行判断，若为常驻型通知则不作处理，若为通讯或通信类涉及用户隐私的通知则进行隐藏信息处理，对信息内容进行隐藏，名字及时间等其它信息不进行隐藏；S3隐藏后按照其所属的通知样式，将处理后的通知内容发给系统以供展示，本发明既能及时通知用户又能保证用户隐私。本发明还提供了一种基于安卓系统的通知管理系统。
+9. 105956132 一种垃圾数据清理方法及其系统
+CN
+21.09.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610309142.5
+广州市久邦数码科技有限公司
+邓裕强
+G06F 17/30
+Loading...
+本发明提供了一种垃圾数据清理方法，包括：S1获取初始安装的即时通讯应用程序各功能在SD卡创建的所有数据路径并记录；S2当监测到即时通讯应用程序启用任一功能时，获取该功能在SD卡创建的所有数据路径并记录；S3将S2中创建的所有数据路径与S1中的初始创建数据路径进行比较，得出新增的文件数据路径；S4将S3中新增的文件数据路径内置到清理应用程序中，当即时通讯应用程序启动时，判断S3中新增的文件数据路径是否存在，若存在，则扫描路径下的所有文件并列表向用户展示并根据用户勾选选项，在后台线程删除相应的文件，以实现即时通讯应用程序任一功能启用后产生的垃圾数据的清理。本发明还提供了一种垃圾数据清理系统。
+10. 105929976 一种基于输入法的动态表情输入方法及其系统
+CN
+07.09.2016
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+102016000356623
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/023
+Loading...
+本发明提供了一种基于输入法的动态表情输入方法，包括：S1实时获取用户当前输入的字符串；S2通过网络与远端服务器连接，并根据所获取的字符串在远端服务器中进行模糊匹配，以获取最新的动态表情图片资源并保存到后台数据库中；S3在界面上弹框显示最新的动态表情图片供用户选择，若用户点击动态表情弹框则视为确认输入动态表情图片，弹框消失并自动发送动态表情图片，以实现快速地输入最新动态表情图片，提升用户体验。本发明还提供一种基于输入法的动态表情输入系统。
+11. 103472989 一种壁纸的切换方法及终端
+CN
+07.09.2016
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+102013000375959
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明提供一种壁纸切换的方法，终端检测到手指滑动响应，获取滑动的横向坐标值，根据所述滑动的横向坐标值，对当前屏幕链接的壁纸及相邻屏幕链接的壁纸进行渐变运算，实时显示壁纸切换时的渐变效果，若当前屏幕切换到下一屏幕，且检测到手指停止滑动响应时，切换为下一屏幕对应的壁纸，并将该壁纸进行显示，完成壁纸的切换。本发明解决了由于无法提供不同屏幕配置不同壁纸导致终端灵活性差，用户体验低的问题，提高了终端的灵活性，提高了用户体验。
+12. 105912366 一种桌面应用程序插件化的实现方法
+CN
+31.08.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102016000234646
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/445
+Loading...
+本发明提供了一种桌面应用程序插件化的实现方法，包括：S1在桌面主程序中加入DroidPlugin框架；S2在主程序的Application的onCreate方法中初始化DroidPlugin模块；S3通过DroidPlugin中InstallPackage方法模拟系统的安装方式安装第三方应用程序；S4主程序进程监控S3中的信息流，在程序向系统抛出真实的启动方式之前进行拦截，步骤S2中的安装管理通过包名判断此次启动的组件是否属于已插件化安装的应用程序，如果是，则对启动方式进行替换；S5Android系统在收到新的Intent之后进行解析，对第三方应用程序进行初始化打开，以实现应用程序的插件化。
+13. 105847588 一种带有主题的来电显示系统及其显示方法
+CN
+10.08.2016
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+102016000334372
+广州市久邦数码科技有限公司
+邓裕强
+H04M 1/725
+Loading...
+本发明提供了一种带有主题的来电显示系统，包括：监听模块，用于监听来电事件；主题加载模块，用于当来电事件发生时，加载来电主题界面，在来电主题界面中显示号码信息、接听控件及挂断控件；交互模块，当监测到用户触发接听交互事件或挂断交互事件时，交互事件被回调到主程序，主程序响应事件回调，执行实际的接听或挂断操作并关闭来电主题界面，以实现来电显示界面主题的加载，满足用户的个性化需求。本发明还提供了一种带有主题的来电显示方法。
+14. 103279263 一种文件夹快速创建和编辑的方法及系统
+CN
+10.08.2016
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+102013000152930
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明涉及一种文件夹快速创建和编辑的方法及系统，所述方法包括以下步骤：检测用于启动包含多个文件夹的第一用户界面的第一输入；响应第一输入，显示包含多个文件夹的第一用户界面；检测针对第一用户界面的文件夹的第二输入；响应第二输入，在第二用户界面打开第二输入对应的第一用户界面的文件夹。本发明通过设定的第一用户界面中的快捷文件夹图标创建文件夹或编辑文件夹中的内容，可以快速增加或减少文件夹中的应用程序图标，大大减少了现有技术中创建文件夹或编辑文件夹所花费的时间，缩短了处理流程，提高了处理速度，增强了用户的体验。
+15. 105843654 一种动态加载广告SDK的实现方法及其实现系统
+CN
+10.08.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201610237902.6
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/445
+Loading...
+本发明提供了一种动态加载广告SDK的实现方法，所述方法包括：与服务器连接下载广告SDK的class.dex类文件和资源文件；通过主程序中广告SDK的代理接口，利用DexClassLoader类加载广告SDK的class.dex类文件，并且使用反射的方式调用Android系统AssertManager资源管理器中addAssetPath方法，将下载好的资源文件加载到主程序的资源文件内；通过主程序中广告SDK的代理，对广告SDK中的类、接口以及方法进行管理；本发明实现不论需要使用多少个广告SDK，都不会使初始包体增大的目的。本发明还提供了一种实现动态加载广告SDK的系统。
+16. 105808356 一种基于安卓系统的Bitmap重复利用方法及其系统
+CN
+27.07.2016
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201610139828.4
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/50
+Loading...
+本发明提供了一种基于安卓系统的Bitmap重复利用方法，包括：S1获取安卓系统的版本；S2判断安卓系统的版本是否适用Bitmap的重复利用机制，所述Bitmap的重复利用机制为：a、获取重复利用Bitmap的Options，设置Options.inMutable属性为true；b、设置Options.inBitmap属性为重复利用的Bitmap；c、用BitmapFactory.decodeFile生成目标Bitmap，目标Bitmap将重复利用原Bitmap的内存，本发明避免了Bitmap内存的回收及重新分配，从而改善了内存的运行效率，提高了Bitmap加载的效率。本发明还提供了一种基于安卓系统的Bitmap重复利用系统。
+17. 105808148 一种基于Taptic引擎的键盘输出方法及其系统
+CN
+27.07.2016
+G06F 3/0489 Loading...
+G06F 3/0489
+Loading...
+201610142060.6
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0489
+Loading...
+本发明提供了一种基于Taptic引擎的键盘输出方法，包括：S101输入法引擎根据键盘输入，在输入候选区展示相关的字段；S102判断用户在输入候选区的按压位置，根据按压位置判断哪个选中字段；S103将选中字段根据搜索引擎的命名规则生成相应的搜索链接并传入浏览器中；S104将该选中字段按压的压力值与预设压力值进行比较判断，当判断为预览状态时，转入步骤S105；当判断为直接搜索时，转入步骤S106；S105展示搜索页面的预览视窗，当监测到按压操作结束时，则结束预览状态，关闭预览视窗，恢复至步骤S101；S106打开搜索结果页面，使得输入法应用下的字段搜索操作简单快速。本发明还提供了一种基于Taptic引擎的键盘输出系统。
+18. 105718140 一种壁纸社交方法及其系统
+CN
+29.06.2016
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201610032405.2
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明公开一种壁纸社交方法，所述方法包括：获取好友当前使用的壁纸图片的数据信息；根据好友当前使用的壁纸图片的数据信息，从本地图库中加载相同壁纸图片数据信息的壁纸图片到当前壁纸编辑界面；根据壁纸的尺寸比例对所加载的壁纸图片进行剪裁；壁纸编辑界面设有动画贴图列表，可以选取列表中的动画贴图并拖动到当前壁纸图片上；记录动画贴图在壁纸上的位置信息；应用程序将当前编辑好的壁纸及动画贴图信息数据生成变更指令并发送至好友的应用程序接收；好友的应用程序将壁纸图片数据在内存加载为位图对象，设置到桌面壁纸层上，将动画贴图数据在桌面罩子层进行绘制和播放动画，以实现壁纸的变更。本发明还公开了一种壁纸社交系统。
+19. 105677362 一种图像绘制方法及其系统
+CN
+15.06.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201610076554.9
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明公开一种图像绘制方法，所述方法是在社交应用程序下实现的，所述方法包括：获取移动终端悬浮层权限；当收到好友发来图像消息时，在悬浮层上直接绘制显示图像；所述图像消息包括好友在界面上绘制图像时的手势轨迹时间、位置以及颜色的数据信息，当接收到图像数据信息时，在悬浮层上根据数据信息实时绘制图像，以实现实时呈现动态绘制图像的过程。本发明还公开了一种图像绘制系统。
+20. 105678334 一种识别重复照片的方法及其实现系统
+CN
+15.06.2016
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201610010333.1
+广州市久邦数码科技有限公司
+邓裕强
+G06K 9/62
+Loading...
+本发明公开一种识别重复照片的方法，包括：将所有照片进行分组，把每一张照片的生成时间跟其它所有照片的生成时间进行一一比较，判断照片之间的生成时间差异是否在预设范围内，若是，则判断为时间相似的照片，并归类为同一时间组，若否，则判断为时间不相似的照片，不需要进行识别；将判断为时间相似的照片进行PHash算法运算，每个照片拥有自己独有的一串数字，作为照片的识别指纹；将时间相似的照片进行重新分组，把每一张照片的识别指纹跟同一时间组其它所有照片的识别指纹进行一一比较，判断照片之间的识别指纹差异是否在预设范围内，若是，则判断为重复的照片，若否，则判断为不重复的照片。本发明还公开了一种实现识别重复照片的系统。
+21. 105656135 一种动态计算充电剩余时间的方法、系统及移动终端设备
+CN
+08.06.2016
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201610096296.0
+广州市久邦数码科技有限公司
+邓裕强
+H02J 7/00
+Loading...
+本发明提供了一种动态计算充电剩余时间的方法，所述方法是在省电管理应用程序下实现的，包括：S1、根据移动终端系统提供的接口来获取当前电量e、电池总电量E；S2、根据系统时间增量Δt里所增加的电量增量ΔE，计算出单位时间的充电频率P＝ΔE/Δt；S3、根据当前电量e、电池总电量E、充电频率P，计算出剩余充电时间Tc＝(E-e)/P；S4、定时循环步骤S2、S3步骤，根据计算数据动态调整剩余充电时间。本发明根据实际充电或放电的情况来计算充电或待机的时间，解决了不同电源导致不同充电效率的问题以及耗电功率大于充电功率的问题。本发明还提供了一种动态计算充电剩余时间的系统和一种移动终端设备。
+22. 105611405 一种添加动态滤镜的视频处理方法及其实现系统
+CN
+25.05.2016
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+201510990681.5
+广州市久邦数码科技有限公司
+邓裕强
+H04N 21/4402
+Loading...
+本发明公开一种添加动态滤镜的视频处理方法，所述方法包括以下步骤：解码原始视频，获取视频的各帧数据；根据各帧的时间戳使用不同的滤镜算法，对帧图像添加滤镜效果；对滤镜处理后的帧数据进行编码，生成新的视频文件，本发明对视频的各帧进行处理，添加不同的滤镜效果，生成新的视频，使得视频播放时有滤镜动态变化的效果。本发明还公开一种实现添加动态滤镜的视频处理系统。
+23. 105611079 一种快速充电方法及其系统
+CN
+25.05.2016
+H04M 1/73 Loading...
+H04M 1/73
+Loading...
+201610072355.0
+广州市久邦数码科技有限公司
+邓裕强
+H04M 1/73
+Loading...
+本发明提供了一种快速充电方法，所述方法是在省电管理应用程序下实现的，包括步骤：S1、手机在充电状态下，监听是否有开屏动作通知，若是，打开充电锁屏界面，展示当前的充电状态信息，并进入步骤S2；若否，则循环监听；S2、获取后台进程正在运行的应用程序的列表，并与预设的白名单进行对比，筛选出非必要的应用程序的列表；S3、根据筛选出来的列表，杀死非必要的应用程序，以节省应用程序的耗电量，提高充电速度。本发明还提供了一种快速充电系统。
+24. 105551070 一种实时加载贴图元素的拍照系统
+CN
+04.05.2016
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+201510905979.1
+广州市久邦数码科技有限公司
+邓裕强
+G06T 11/00
+Loading...
+本发明公开一种实时加载贴图元素的拍照系统，所述系统包括：拍照预览区域，用于实时显示摄像头取景内容；贴图遮罩层，用于加载贴图元素；所述贴图遮罩层遮盖在拍照预览区域的上方，响应贴图元素的点击选择或编辑事件；照片生成单元，用于生成带有贴图元素的照片；当触发拍照事件时，所述贴图遮罩层记录当前贴图元素的大小和位置数据，并反馈至照片生成单元；照片生成单元使用相机接口获取当前拍照预览区域的图像数据并加载到内存中成为位图对象；照片生成单元根据贴图元素的大小和位置数据，将贴图元素和位图对象合成图像，并保存为图片格式文件。本发明可实时预览拍照贴图，并在拍照时选择贴图元素和贴图区域，实时预览贴图效果。
+25. 105468406 一种基于安卓系统的应用程序残留垃圾数据采集方法及其系统
+CN
+06.04.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510796734.X
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/445
+Loading...
+本发明提供了一种基于安卓系统的应用程序残留垃圾数据采集方法，包括：监听应用程序的安装事件，当收到安装应用程序通知后，记录当前的储存卡路径结构；持续监听应用程序的打开事件，当监听到该应用程序打开时，在预设的时间内再次记录当前储存卡路径结构；将第二次记录事件的储存卡路径结构与第一次记录事件的储存卡路径结构进行比对，筛选出相对于第一次记录事件新增加的路径内容数据；将新增的内容数据的路径地址回传给服务器；将其与预设的名单列表进行比对，过滤掉名单列表中的路径地址；将其合并汇总并进行统计录入到识别数据库中，以实现高准确度及执行效率的采集。本发明还提供了一种基于安卓系统的应用程序残留垃圾数据采集系统。
+26. 105389363 一种推送弹窗的展示方法及其系统
+CN
+09.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510750427.8
+广州市久邦数码科技有限公司
+邓裕强
+G06F 17/30
+Loading...
+本发明公开一种推送弹窗的展示方法，所述方法包括：通过给服务器发送请求获取推送弹窗的相关数据并进行解析，数据包括点击区域的相对坐标数据、点击区域的内容数据；每个点击区域里面配置了若干个内容数据，随机选取一内容数据作为点击区域的内容展示；当确定了点击区域的内容数据后，获取推送弹窗的尺寸数据；结合推送弹窗的尺寸数据，根据点击区域的相对坐标数据计算出点击区域在推送弹窗上的实际位置；插入点击区域的内容数据，以实现多样化的数据加载，使得弹窗可点击区域的数量变多，并且摆脱位置的限制，满足用户个性化需求。本发明还提供了一种推送弹窗的展示系统。
+27. 105353955 一种短信系统
+CN
+24.02.2016
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+201510698979.9
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明公开一种短信系统，所述系统包括即时显示短信单元，当系统接收到新信息时，在移动终端当前界面弹出即显界面，显示当前接收到的新短信信息；游戏单元，所述游戏单元在即显界面设有游戏入口触摸控件，当用户触发触摸控件时，进入游戏界面，短信系统的即显界面自带游戏入口，通过在即显界面设置游戏入口，除了可将即显界面的广告展示率提高外，还可满足用户的个性化需求。
+28. 105306835 一种图像处理系统
+CN
+03.02.2016
+H04N 5/262 Loading...
+H04N 5/262
+Loading...
+201510675580.9
+广州市久邦数码科技有限公司
+邓裕强
+H04N 5/262
+Loading...
+本发明公开一种图像处理系统，所述系统包括：视频拍摄单元，用于拍摄视频图像并进行储存，所述视频拍摄单元设有滤镜效果供用户选择；拍照单元，用于拍摄照片并进行储存，所述拍照单元设有滤镜效果供用户选择；图片编辑单元，用于编辑图片并进行储存，所述图片编辑单元设有对照片亮度调节、模糊度调节、框选裁剪的编辑工具，本发明为用户提供了操作简单、带有滤镜特效的图像处理系统。
+29. 105224099 一种基于输入法的搜索方法及其系统
+CN
+06.01.2016
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201510594765.7
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/023
+Loading...
+本发明公开一种基于输入法的搜索方法，包括以下步骤：在输入法应用下，获取触发搜索事件时在候选区输入的关键字；根据关键字，从本地缓存或者服务器获取一个搜索链接地址；将获取到的关键字和搜索链接拼接成一个可以用浏览器直接搜索的链接地址；在当前的页面启动一个弹窗，将已经拼接完成的搜索链接地址直接用浏览器直接搜索，把搜索完成后的结果直接呈现给用户，所有的操作只需要在当前的应用中进行操作，不需要在应用间来回跳转，为用户提供了一种便捷、省时省力的搜索方式。本发明还提供一种基于输入法的搜索系统。
+30. 105159538 一种展示窗数据加载方法及其系统
+CN
+16.12.2015
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201510571742.4
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明公开一种展示窗数据加载方法，包括：随机选择任意动画元素、动画元素在屏幕上的移动速度及方向，并在屏幕上随机生成各动画元素的移动初始位置；动画元素在初始位置以选择的移动速度、方向在屏幕上移动，后台开始加载展示窗数据；若数据加载完毕，则停止随机选取动画元素及其移动初始位置的生成，之前的动画元素继续在屏幕上移动直至移动出屏幕范围，展示窗口弹出；若未加载到数据，则停止随机选取动画元素及其移动初始位置的生成，之前移动的动画元素继续移动直至移动出屏幕显示范围，同时预设的未加载到数据的图片弹出，以实现个性化数据加载，满足用户个性化需求。本发明还提供一种展示窗数据加载系统。
+31. 105100462 一种自定义编辑主题的短信系统
+CN
+25.11.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201510404578.8
+广州市久邦数码科技有限公司
+邓裕强
+H04M 1/725
+Loading...
+本发明提供了一种自定义编辑主题的短信系统，其包括会话列表界面和/或会话界面和/或即显界面和/或通知栏和/或通知中心短信界面和/或锁屏短信界面，该系统还包括：背景编辑模块，用于编辑界面的背景图片，包括对背景图片的颜色属性、模糊度属性、大小属性进行编辑；字体编辑模块，用于编辑界面的字体，包括对字体类型属性、颜色属性、大小属性进行编辑；头像编辑模块，用于编辑界面的头像图片，包括对头像图片的颜色属性、模糊度属性、大小属性进行编辑，以实现短信系统主题的自定义编辑，满足用户的个性化需求。
+32. 105094553 一种子菜单栏特效的实现方法
+CN
+25.11.2015
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201510442332.X
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明提供了一种子菜单栏特效的实现方法，所述方法包括以下步骤：预设子菜单栏中各子菜单触发特效动画事件的响应区域和响应特效动画事件的显示区域；监测在响应区域是否触发任一子菜单的特效动画事件；若触发，执行该子菜单显示特效动画事件：获取该子菜单图标的背景颜色；绘制以该子菜单图标背景颜色为背景颜色的特效动画，并显示于预设的特效动画显示区域，以实现子菜单栏根据图标颜色显示相应颜色的特效动画，提高各子菜单栏的点击识别效果、满足用户的个性化需求。
+33. 104991717 一种虚拟开关中心及其控制开关切换的方法
+CN
+21.10.2015
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+201510358099.7
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明提供了一种虚拟开关中心，所述虚拟开关中心设有wifi控制开关和/或蓝牙控制开关和/或网络数据控制开关和/或亮度控制开关和/或音量控制开关和/或省电控制开关和/或屏幕旋转控制开关和/或飞行模式控制开关和/或电筒控制开关和/或震动控制开关，所述虚拟开关中心为环形控制区，将环形控制区分为若干按键块，每一按键块放置一个控制开关，本发明操作方便、可对控制开关进行分类或层级管理，满足用户个性化需求。本发明还提供一种虚拟开关中心的控制开关切换的方法。
+34. 104965733 一种批量禁用/停止应用程序的方法及其系统
+CN
+07.10.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510318801.7
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/445
+Loading...
+本发明提供了一种批量禁用/停止应用程序的方法，包括：获取移动终端所有内置应用程序的列表；在界面上显示可关闭的应用程序列表的选项框供用户勾选；根据用户的勾选结果确定出需要关闭的应用程序名单；在界面上创建一动画遮罩层，用以遮盖移动终端跳转到应用程序管理器后执行相应应用程序禁用/停止操作的界面；根据需要禁用/停止的应用程序名单逐一跳转到应用程序管理器相应应用程序关闭的界面；通过“文本匹配”或者“布局ID匹配”的方式寻找应用程序管理器界面中禁用/停止应用程序的按钮；对按钮执行点击指令，禁用/停止的应用程序，以实现自动批量禁用/停止应用程序，操作方便省时。本发明还提供了一种批量禁用/停止应用程序的系统。
+35. 104836961 一种基于安卓系统的实时滤镜拍摄的实现方法及其系统
+CN
+12.08.2015
+H04N 5/235 Loading...
+H04N 5/235
+Loading...
+201510242231.8
+广州市久邦数码科技有限公司
+邓裕强
+H04N 5/235
+Loading...
+本发明提供了一种基于安卓系统的实时滤镜拍摄的实现方法，所述方法包括：通过安卓系统的摄像接口获取图像流；通过音频采集接口在视频录制时通过麦克风采样获取音频；对图像流的每一帧图像使用滤镜算法进行处理，生成滤镜特效图像流；使用编码器接口实时将带有滤镜特效的图像流编码为视频流，将音频编码为音频流；使用音频视频合并器混合视频轨道和音频轨道，在音视频录制的同时实时生成多媒体文件，可以实现实时滤镜效果拍摄，满足用户的个性化需求。本发明还提供了一种基于安卓系统的实时滤镜拍摄的系统。
+36. 104268826 Texture image management method and system
+CN
+07.01.2015
+G06T 1/60 Loading...
+G06T 1/60
+Loading...
+201410473108.2
+广州市久邦数码科技有限公司
+邓裕强
+G06T 1/60
+Loading...
+The invention provides a texture image management method which is carried out through a 3D drawing engine. The method comprises the following steps that a picture manager carries out grading operation on internal-storage pictures which are uploaded to a video memory according to drawing frequency and binding frequency, and pictures which need to be reserved and pictures which need to be recycled are divided; and the pictures which need to be reserved are placed in a first-level cache, the pictures which need to be recycled are recycled, so that the fact that internal storage occupying is limited to a certain range is guaranteed, program internal storage occupying is effectively lowered, and good response speed is kept. The invention further provides a texture image management system.
+37. 104166497 一种立体桌面快捷栏及其切换方法
+CN
+26.11.2014
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201410263734.9
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明提供了一种立体桌面快捷栏，所述快捷栏为立体模型，所述立体模型上设有快捷条，每一屏显示一快捷条，所述快捷条上设有多个应用程序或快捷方式图标，每个图标设有相应的响应事件区域；所述立体模型上设有快捷条切换响应区，在切换响应区内获取手指滑动的坐标值及方向，滚动器将手指滑动的坐标值及方向转化为立体模型绕模型中心轴转动的角度值及方向，从而实现快捷条间的切换，满足了用户对快捷栏三维立体效果个性化需求，增强了用户体验。本发明还提供了一种立体桌面快捷栏的切换方法。
+38. 104156922 一种图像处理方法及其系统
+CN
+19.11.2014
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201410394463.0
+广州市久邦数码科技有限公司
+邓裕强
+G06T 5/00
+Loading...
+本发明提供了一种图像处理方法，包括以下步骤：获取图像的面积；创建关联的帧缓冲区，降低帧缓冲区面积为原来图像面积的2的n次方之一；将图像渲染为帧缓冲区的对象并进行高斯模糊运算绘制。本发明通过渲染时降低帧缓冲区面积和在高斯模糊运算中帧缓冲区中图像处理的每个像素与自己的权重值倍数进行相加得出相加值，再将相加值进行累加得出每个像素的高斯模糊值，以此用加法代替每个像素与自己权重值相乘的乘法运算，从而有效地减少显存占用，提高渲染效率，以实现动态渲染的目的。本发明还提供了一种图像处理系统。
+39. 104159206 一种可穿戴式设备的短信系统及其短信处理方法
+CN
+19.11.2014
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201410410043.7
+广州市久邦数码科技有限公司
+邓裕强
+H04W 4/14
+Loading...
+本发明提供了一种可穿戴式设备的短信系统，所述短信系统通过蓝牙信号与移动终端短信模块连接；所述短信系统设有短信接收单元、短信解析单元及显示单元；所述短信接收单元接收移动终端短信模块传输的信息数据包，所述短信解析单元将信息数据包进行解析并将解析结果反馈给显示单元，所述显示单元将解析的信息显示于可穿戴式设备的屏幕上，使得用户通过可穿戴式设备即可实时获知信息，省时省力。本发明还提供一种可穿戴式设备的短信处理方法。
+40. 104159199 一种带有风向显示的天气系统及其实现方法
+CN
+19.11.2014
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201410419442.X
+广州市久邦数码科技有限公司
+邓裕强
+H04W 4/02
+Loading...
+本发明提供了一种带有风向显示的天气系统，所述系统包括：显示于天气应用界面的指南针及风向指示针，指南针根据现时移动终端所处的位置指示方向；风向指示针根据所获得的风向数据在指南针上指示风向；监听单元监听系统重力感应芯片的重力事件，当重力事件发生时，指南针和风向指示针根据重力事件相应地进行转动指向正确的方向，使得本发明天气系统能感应移动终端重力变化而实时展示指南针指示方向，且结合风向数据实时在指南针上提示风向，既增强了移动终端界面趣味性和互动性，又提升了用户体验。本发明还提供一种带有风向显示的天气系统的实现方法。
+41. 104035562 Method and system for mapping three-dimensional desktop touch events
+CN
+10.09.2014
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201410273649.0
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/01
+Loading...
+The invention provides a method for mapping three-dimensional desktop touch events. The method includes the following steps that coordinate data of a touch point are determined by monitoring touch events of a screen; a virtual camera acquires the coordinate data of the touch point and projects rays to the touch point on the screen, and the rays are allowed to extend and intersect with an object in a three-dimensional scene; an operation unit determines coordinate data of points where the rays are intersected with a plane where the object is positioned and selects coordinates of the nearest intersection point as a mapping point of the touch point, so that response, of the object in a three-dimensional desktop space, to the touch events of the screen is realized, interactive operation of a three-dimensional desktop is enhanced, and user experience is improved. The invention further provides a system for mapping the three-dimensional desktop touch events.
+42. 103841267 Short message screenshot method and system
+CN
+04.06.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410098123.3
+广州市久邦数码科技有限公司
+邓裕强
+H04M 1/725
+Loading...
+The invention provides a short message screenshot method. The short message screenshot method comprises the steps that the angular deflection value in the X direction of a mobile terminal and the angular deflection value in the Y direction of the mobile terminal are captured by a gravity sensor; the angular deflection values captured by the gravity sensor are obtained by a short message system; a screenshot command is sent to a screenshot module by the short message system according to the angular deflection values, and a screen view of the current short message system is captured; the screen data of the current short message system are captured by the screenshot module, wherein the screen data contain the starting position and the stopping position of a screen of the current short message system, the width pixel value and the height pixel value, and a bitmap is generated and displayed. According to the short message screenshot method, the screenshot function of the short message system is triggered by means of a gravity sensing event, a user can conduct screenshot on a short message of the short message system conveniently, time is saved for the user, and the communication efficiency is improved. The invention further provides a short message screenshot system.
+43. 103761027 Method and system for implementing icon rotation
+CN
+30.04.2014
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201410043223.6
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+The invention provides a method for implementing icon rotation. The method for implementing icon rotation comprises the following steps of presetting an icon rotation state event, and presetting a response motion for triggering the icon rotation state event; monitoring whether the response motion happens or not, if yes, executing the next step, and if not, carrying out circulating monitoring; entering the icon rotation state event, detecting a finger sliding response, and obtaining a coordinate value of sliding; combining a coordinate value of an icon to carry out calculation according to the coordinate value of sliding, and obtaining an angle value of icon rotation; rotating the icon by the corresponding angle by using the coordinate value as the origin according to the angle value. According to the method for implementing icon rotation, the interaction effect that the icon responds to a finger sliding motion to rotate can be achieved, interaction between the icon on a desktop and operations of a user can be well carried out, the problem that in the prior art, icons on the desktop can only be seen, and cannot be moved is solved, and user experience is improved. The invention further provides a system for implementing icon rotation.
+44. 103677586 Screen locking system with theme interface carrying audio and implementation method thereof
+CN
+26.03.2014
+G06F 3/0487 Loading...
+G06F 3/0487
+Loading...
+201310655491.9
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+G06F 3/0487
+Loading...
+The invention provides a screen locking system with a theme interface carrying audio. The screen locking system comprises a resource module used for storing screen locking theme interface image animation files, a main control module used for calling screen locking theme interface image animations in the resource module, a display module used for displaying the screen locking theme interface image animations under a screen locking state, and an unlocking module used for carrying out real-time monitoring on a screen locking interface to obtain an unlocking event. Associated audio files corresponding to the screen locking theme interface image animation files in a one-to-one mode are arranged in the resource module. When the main control module calls the screen locking theme interface image animations, the main control module obtains a mobile terminal audio player interface and sends an instruction to play the corresponding associated audio files. An audio player plays the corresponding associated audio files according to the instruction. The screen locking interface carries audio playing, so that colorful visual and audio effects are created for a user and the individual requirements of the user are met. The invention further provides an implementation method of the screen locking system with the theme interface carrying the audio.
+45. 103645830 Method and system for wallpaper preview
+CN
+19.03.2014
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201310704415.2
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+G06F 3/0481
+Loading...
+The invention provides a method for wallpaper preview. Under a wallpaper preview state, a wallpaper is covered with a shade layer by a display module; the shade layer is provided with a preview display area; a user can see the picture in a certain area of the wallpaper through the preview display area, and can preview in an interception manner in any area of the wallpaper; the preview display area is a hyaline layer under the condition of simulating a situation that a mobile phone desktop interface or a lock screen interface is without the wallpaper; icons, a menu bar and/or an operation bar are on the hyaline layer; the user can acquire a visual effect produced in a way that the current selected wallpaper regional picture is used as the mobile phone desktop wallpaper or the locking screen wallpaper through the hyaline layer under the condition of simulating the situation that the mobile phone desktop interface or the lock screen interface is without the wallpaper. The invention further provides a system for wallpaper preview.
+46. 103647874 Short-message dual-SIM dual-standby identification method and system
+CN
+19.03.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201310648722.3
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+H04M 1/725
+Loading...
+The invention provides a short-message dual-SIM dual-standby identification system. The system comprises: a receiving and transmitting module, which is in signal connection with a short message center and is used for receiving and sending short message information; a data base, which is used for recording and storing a short message receiving-transmitting event; a display module, which is used for displaying short message content information at an interface according to an instruction from the receiving and transmitting module; an identification module, which is used for identifying dual-SIM dual-standby identity information of a mobile terminal ROM firmware; and an interface module, which is used for connecting a bayonet and the receiving and transmitting module. According to the invention, the identification module for identifying the dual-SIM dual-standby identity information of the mobile terminal ROM firmware and the interface module for connecting the bayonet and the receiving and transmitting module are arranged, so that the dual-SIM dual-standby identity information of the mobile phone can be identified well; and short message receiving and transmitting of the two SIMs can be carried out simultaneously, so that not only the individual requirement of the user is met and the user experience is improved. In addition, the invention also provides a short-message dual-SIM dual-standby identification method.
+47. 103647878 Weather information display system based on map and method thereof
+CN
+19.03.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201310673787.3
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+H04M 1/725
+Loading...
+The invention provides a weather information display system based on a map. The system comprises a map information acquisition module used for acquiring the map information of a user-specified region from a map information database, a weather information acquisition module which acquires the corresponding weather information from a weather information database according to the map information acquired by the map information acquisition module, a map information data buffer area used for recording and storing the map information of the user-specified region, a whether information data buffer area used for recording and storing the weather information corresponding to the map information, and a display module used for displaying the map information of the user-specified region and the corresponding weather information on a mobile terminal interface. According to the system, the map information can be loaded and the corresponding weather information can be displayed on the mobile terminal interface, thus the interest and interaction of the mobile terminal interface can be enhanced, and a user experience is improved. The invention also provides a weather information display method based on a map.
+48. 103617065 System and method for forced uninstallation of system software of mobile terminal
+CN
+05.03.2014
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201310684463.X
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+G06F 9/445
+Loading...
+The invention provides a system for forced uninstallation of system software of a mobile terminal. The system for forced uninstallation of the system software of the mobile terminal comprises a root permission obtaining module, a detection module, a monitoring module and an uninstallation module, wherein the root permission obtaining module is used for obtaining root permission of the mobile terminal, the detection module is used for detecting the installed system software of the mobile terminal, the monitoring module is used for monitoring a system software uninstallation instruction selected by a user, and the uninstallation module is used for executing a system software uninstallation operation according to the requirements of the user. According to the system for forced uninstallation of the system software of the mobile terminal, the uninstallation module directly enters the bottom layer of the mobile terminal to obtain the system software uninstallation instruction so as to carry out a delete operation on the system software, and the user can rapidly, conveniently and easily uninstall the system software. The invention further provides a method for forced uninstallation of the system software of the mobile terminal.
+49. 103616966 Gravity sensing 3D table top system and implementing method thereof
+CN
+05.03.2014
+G06F 3/0346 Loading...
+G06F 3/0346
+Loading...
+201310627994.5
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+DENG YUQIANG
+G06F 3/0346
+Loading...
+The invention provides a gravity sensing 3D table top system. A 3D model is arranged in a 3D scene. The gravity sensing 3D table top system comprises a gravity sensor, a virtual view angle camera and a master control module, wherein the gravity sensor is used for capturing angular deflection values, in the X direction and the Y direction, of a mobile terminal ; the virtual view angle camera is used for displaying a visual effect, in the 3D scene, of the 3D model in a projection mode; the master control module is used for regulating the projection angle of the virtual view angle camera according to the angular deflection values captured by the gravity sensor. According to the gravity sensing 3D table top system, the gravity sensor is used for capturing the angular deflection values, in the X direction and the Y direction, of the mobile terminal, the master control module is used for regulating the projection angle of the virtual view angle camera according to the angular deflection values captured by the gravity sensor so that the rotating visual effect of the 3D model in the 3D scene is achieved according to gravity sensing of the mobile terminal, and therefore enjoyment and interactivity of the interface of the mobile terminal can be enhanced, and user experience is improved. The invention further provides an implementing method for the gravity sensing 3D table top system.
+50. 103455342 Theme calling method and device
+CN
+18.12.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201310224007.7
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/445
+Loading...
+The invention provides a theme calling method. The method includes: a mobile terminal verifies the structure of stored file data to determine uninstalled theme data; the mobile terminal creates a class loader, corresponding to the uninstalled theme data, and theme interface class data; the mobile terminal dynamically loads the theme interface class data through the class loader and displays a loaded theme interface to complete calling of an uninstalled theme. Correspondingly, the invention further provides a theme calling device. The theme calling method and device has the advantages that the problem that the need to install themes causes waste of mobile terminal sources is solved, resources of the mobile terminal are saved, and user experience is improved.
+51. 103428658 Short message system and short message system-based intelligent dynamic conversation scene realizing method
+CN
+04.12.2013
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201210167139.6
+广州市久邦数码科技有限公司
+邓裕强
+H04W 4/14
+Loading...
+The invention, which belongs to the field of the communication technology, particularly discloses a short message system and a short message system-based intelligent dynamic conversation scene realizing method. The short message system comprises a keyword configuration file module, a dynamic effect configuration file module, a resource file module, a keyword-dynamic effect corresponding relation configuration file module, a starting module, a determination module, a multi-language keyword matching module, a dynamic scene realization module, and a system language matching module. In addition, the method comprise the following steps: reading a keyword configuration file, a dynamic effect configuration file, a resource file, a keyword-dynamic effect corresponding relation configuration file; and generating top-level displaying of dynamic view to a conversation interface according to the keyword-dynamic effect corresponding relation. According to the invention, a corresponding dynamic effect can be generated according to an input short message or a received short message of a user; and thus different surprises and experience can be provided in the dull and boring short message sending process.
+52. 103413343 一种3D图像动画引擎
+CN
+27.11.2013
+G06T 13/00 Loading...
+G06T 13/00
+Loading...
+201310390749.7
+广州市久邦数码科技有限公司
+邓裕强
+G06T 13/00
+Loading...
+本发明提供一种3D图像动画引擎，包括：能够提供大量几何运算、用于创建导入各种网格化模型的3D图形处理模块；和用于实现图形的绘制、渲染的OpenGL底层；所述3D图形处理模块与OpenGL底层封装；所述3D图形处理模块包括：视图、组件和遍历器；所述视图为组件与遍历器连接的接口；所述组件包括：用于存放该组件公共数据的公共数据区，提供方法供手机操作系统和/或该组件的父组件修改公共数据区中公共数据的数据接口，及手机操作系统根据公共数据区的公共数据在一绘图线程中实现组件绘制的图形绘制接口。本发明提供了一种适用于手机操作系统，能有效、流畅显示各类二维或三维图像动画的3D图像动画引擎。
+53. 103279263 一种文件夹快速创建和编辑的方法及系统
+CN
+04.09.2013
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201310152930.4
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0481
+Loading...
+本发明涉及一种文件夹快速创建和编辑的方法及系统，所述方法包括以下步骤：检测用于启动包含多个文件夹的第一用户界面的第一输入；响应第一输入，显示包含多个文件夹的第一用户界面；检测针对第一用户界面的文件夹的第二输入；响应第二输入，在第二用户界面打开第二输入对应的第一用户界面的文件夹。本发明通过设定的第一用户界面中的快捷文件夹图标创建文件夹或编辑文件夹中的内容，可以快速增加或减少文件夹中的应用程序图标，大大减少了现有技术中创建文件夹或编辑文件夹所花费的时间，缩短了处理流程，提高了处理速度，增强了用户的体验。
+54. 103116490 一种基于网页的九切图绘制方法
+CN
+22.05.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210512236.4
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明请求保护一种基于网页的九切图绘制方法。包含以下步骤：通过JAVA脚本语言把原始图片绘制在Html5的Canvas画布上，并读取所述原始图片的首行、首列、尾行和尾列的像素值；根据所读取的原始图片像素值来判断所述原始图片是否为九切图，若是九切图，则确定所述原始图片缩放与非缩放区域：分析读取的原始图片像素值，确定原始九切图各个区域位置和大小；判断目标图片是放大还是缩小并进行绘制，最后显示在网页上。本发明打破了九切图只能基于Android平台的现状，实现九切图的跨平台应用。
+55. 103106018 一种快速删除桌面元素的方法
+CN
+15.05.2013
+G06F 3/0486 Loading...
+G06F 3/0486
+Loading...
+201310049749.0
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0486
+Loading...
+本发明提出了一种快速删除桌面元素的方法。该方法包括以下步骤：手指长按桌面屏幕上的桌面元素A，选定桌面元素；拽动元素A往屏幕上方甩动，放手后，判断X轴与Y轴速度的向量和是否超过设定的速度下限；判断X轴与Y轴速度的向量和的角度是否在甩动点的仰角内；如果满足上述条件，则为删除元素A。本发明解决了用户在删除桌面元素时需要通过多次点击或者拖动图标至桌面上方垃圾桶操作繁琐的问题。
+56. 103092988 一种直接在桌面管理手机媒体资源的实现方法
+CN
+08.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310049699.6
+广州市久邦数码科技有限公司
+邓裕强
+G06F 17/30
+Loading...
+本发明提出了一种直接在桌面管理手机资源的实现方法。该方法包括：创建资源信息获取引擎，包括：查询模块、监听模块、数据比对模块、数据同步模块及数据交互模块；利用查询模块直接查询手机数据库中的媒体资源信息数据；利用监听模块监听是否出现媒体资源信息被修改的事件；若监听到媒体资源信息被修改的事件，则通知数据比对模块，将内存数据与原始媒体资源信息数据进行数据比对，判定内存数据与原始媒体资源信息数据是否相同；以及若内存数据与原始媒体资源信息数据不同，则调用数据同步模块，将内存数据同步更新至手机数据库中。本发明无需借助第三方软件，即可快速查找和管理手机中的媒体资源，为用户提供了更快速便捷的全新体验。
+57. 103092485 一种基于Android设备的实现桌面动态主题的方法和系统
+CN
+08.05.2013
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+201310049716.6
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明公开了一种基于Android设备的实现桌面动态主题的方法和系统，所述方法包括以下步骤：创建一用于放置按照预设的运动轨迹运动的动态元素的罩子层，将所述罩子层的Z轴索引属性置顶；检测用户的操作是否触发预设的动态元素的第二状态事件，若是，进行下一步；若否，动态元素按照预设的第一运动轨迹运动；触发第二状态事件。通过本发明可以实现用户与桌面动态主题的互动，解决了以往桌面主题无法动态互动的问题。
+58. 102984347 一种自定义手机桌面的方法及系统
+CN
+20.03.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210428222.4
+广州市久邦数码科技有限公司
+邓裕强
+H04M 1/725
+Loading...
+本发明公开了一种自定义手机桌面的方法。该方法包括以下步骤：扫描并读取手机内安装的所有桌面主题安装包文件的资源；解析这些主题安装包文件的资源，获得所有桌面主题的数据配置文件；按模块功能分类，生成各模块的主题风格信息，形成各种模块的不同主题的选项；等待用户对各种模块的主题风格分别进行选定；根据用户的选定结果，将选定的各模块主题重新组合，形成新的主题包；实时监听主题模块的状态变化，将新的主题包加载至手机桌面上。本发明可以将不同主题的各个模块组合，形成满足用户需求的个性化的主题方案，极大地丰富了主题的可用性。
+59. 102981824 一种获取安卓应用程序的入口及图标的方法
+CN
+20.03.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210429177.4
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/44
+Loading...
+本发明公开了一种获取安卓应用程序的入口及图标的方法，用于查找安卓应用程序的入口及图标，包括以下步骤：反编译所述安卓应用程序，获取安卓应用程序的配置文件；解析所述配置文件，查找安卓应用程序的启动入口，获取该启动入口的入口信息；根据所述入口信息获取安卓应用程序的入口程序名称和入口图标。本发明解决了反编译安卓应用程序后，用户无法获知入口图标的具体位置的问题，也解决了用户无法获知该安卓应用程序有多少个入口图标的问题。
+60. 102929506 一种快速添加桌面元素至桌面的方法
+CN
+13.02.2013
+G06F 3/0485 Loading...
+G06F 3/0485
+Loading...
+201210356600.2
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0485
+Loading...
+本发明公开了一种快速添加桌面元素至桌面的方法，包括以下步骤：在第一桌面启动菜单栏，所述菜单栏与第一桌面位于同一显示屏内，所述第一桌面为当前显示的桌面，所述菜单栏包括桌面元素；获取菜单栏中被选择的桌面元素的桌面元素坐标；根据预设规则，在第一桌面分配桌面坐标用于放置被选择的桌面元素，所述桌面坐标用于放置被选择的桌面元素；移动所述被选择的桌面元素至桌面坐标。本发明不仅能快捷方便地添加桌面元素，能直接看到桌面元素的添加过程及添加在桌面的位置，还能获得操作的反馈信息。
+61. 102929706 一种合并文件夹的方法
+CN
+13.02.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201210429167.0
+广州市久邦数码科技有限公司
+邓裕强
+G06F 9/46
+Loading...
+本发明公开了一种合并文件夹的方法，包括以下步骤：判断是否触发第一文件夹和第二文件夹的合并开关；若是，生成第三文件夹，存储所述第一文件夹的所有程序图标和第二文件夹的所有程序图标至第三文件夹；删除第一文件夹和第二文件夹。本发明可以将两个文件夹合并形成一个新的文件夹，免除了用户需要把两个文件夹合并后重新整理文件夹内部图标的麻烦。
+62. 102915182 一种三维锁屏方法和装置
+CN
+06.02.2013
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+201210321632.9
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/0484
+Loading...
+本发明公开了一种三维锁屏方法，解决了现有三维锁屏程序编制复杂、用户体验度不高的问题。一种三维锁屏方法，当移动终端进入锁定状态时，在移动终端的交互界面建立一锁屏界面；该方法还包括在该锁屏界面上根据三维模型建立静态场景、解锁模型和动态场景；根据锁屏界面上检测到有触摸输入于解锁界面显示静态场景、动态场景或者进行解锁操作。使用该方法大大降低了解锁程序的开发难度。
+63. 102841712 Method and system for identifying and editing gestures
+CN
+26.12.2012
+G06F 3/042 Loading...
+G06F 3/042
+Loading...
+201210240416.1
+广州市久邦数码科技有限公司
+邓裕强
+G06F 3/042
+Loading...
+The invention discloses a method and system for identifying and editing gestures. The method comprises the following steps of: receiving a start instruction of a user, instantiating a preset gesture library; reading the gesture image information input by the user; matching the input gesture image with the gesture information pre-stored in the gesture library to obtain a gesture set of which an overall image similarity is greater than a preset threshold; if a gesture set of which the overall image similarity is greater than the preset threshold exists, deleting or changing any gesture information in the gesture set according to a user instruction; splitting the strokes of the input gesture image, comparing and matching the stroke characteristics of the input gesture image with that of each gesture in the gesture set to obtain the gesture with the highest similarity, and executing the instruction corresponding to the gesture. In the method provided by the invention, a gesture operation mechanism is designed again, by matching twice, the gesture identification accuracy is improved, and the gesture instruction can be edited anytime anywhere, and thus a mobile phone can be conveniently operated and used.
+64. WO/2012/162928 METHOD FOR IMPLEMENTING INTELLIGENT QUERY AND DIALING SOFTWARE SYSTEM USED IN EMBEDDED DEVICE
+WO
+06.12.2012
+H04M 1/275 Loading...
+H04M 1/275
+Loading...
+PCT/CN2011/076929
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+YAO, Jing
+H04M 1/275
+Loading...
+Provided is a method for implementing intelligent query and a dialing software system used in an embedded device, comprising: constructing a database comprising the merchant information of a plurality of cities at a server side; the embedded device loading and storing the merchant information in a user-selected region via net-connecting to the server side; and the query method is: inputting a digit string standing for specific characters in the dialing interface of an embedded server, searching automatically and displaying the partially or totally matched merchant information on the dialing interface so that a user can select directly on the dialing interface and call to contact a required merchant. The method provided by the present invention is convenient and quick, and is widely used.
+65. WO/2012/159392 INTERACTION METHOD FOR DYNAMIC WALLPAPER AND DESKTOP COMPONENT
+WO
+29.11.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+PCT/CN2011/079367
+GUANGZHOU JIUBANG DIGITAL TECHNOLOGY CO., LTD.
+YU, Xin
+G06F 9/44
+Loading...
+Disclosed is an interaction method for a dynamic wallpaper and a desktop component, including the steps of: 1) providing a dynamic wallpaper and at least one desktop component on a terminal screen, with the dynamic wallpaper including a background image; 2) providing a screen capturing module for capturing a buffer file of the background image loaded with the desktop component and coding the same as an image format for storage; 3) providing an edge detection module for performing pixel scanning comparison on the background image and the stored buffer image; 4) circularly performing step 3) until the edge location data of the at least one desktop component is obtained; and 5) changing the dynamic effects of the dynamic wallpaper according to the data obtained in step 4). The present invention overcomes the defects of the conventional edge detection method, high-efficiently and flexibly detects the location and edge of the desktop component, enables the dynamic wallpaper and the desktop component to interact to a certain extent, and realizes dynamic effects, thus improving the facticity, aesthetics, and individualization degree of the dynamic effects of the interface.
+66. 102385515 一种基于Android系统的GO图像动画引擎
+CN
+21.03.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110322303.1
+广州市久邦数码科技有限公司
+梁国盛
+G06F 9/44
+Loading...
+本发明公开了一种基于Android系统的GO图像动画引擎，属于一种适用于Android系统上显示各种动画、图形的绘制装置和方法，包括一组件树和一遍历器，通过遍历器对组件树的遍历更新组件的数据和绘制图形。本发明所述的技术方案能够更快、更好的将动画和图形以非常流畅的速度展现在UI界面上，带来更好的动画效果。
+67. 102331934 一种基于GO桌面系统的桌面组件的实现方法
+CN
+25.01.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110322316.9
+广州市久邦数码科技有限公司
+梁国盛
+G06F 9/44
+Loading...
+本发明公开了一种在Android系统中展示桌面组件的实现方法，通过将桌面组件实现为一个独立的APK安装文件，GO桌面系统通过读取各APM安装文件中的数据将GO桌面组件加载。采用本发明所述的技术方案后，GO桌面组件可以根据用户的需求自由定义，极大的增加了视图展示的灵活性；其次GO桌面组件不仅能做到响应用户的任何动作：点击、滑屏、长按等等，再次，GO桌面组件不再是只拥有单一的展现形式，主题功能使得用户可以任意改变组件的外观，使其在界面效果上更加丰富多样，最后，用户也可以自由决定组件的安装位置，无论是手机还是SD卡。
+68. 102221996 Implementation method for performing interaction between dynamic wallpaper and desktop component
+CN
+19.10.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110132580.6
+Guangzhou Jiubang Digital Technology Co., Ltd.
+Yu Xin
+G06F 9/44
+Loading...
+The invention discloses an implementation method for performing interaction between a piece of dynamic wallpaper and a desktop component, comprising the following steps of: setting a piece of dynamic wallpaper and at least one desktop component on a terminal screen, wherein the dynamic wallpaper comprises a background picture; setting a screen capture module for capturing a buffer file of the background picture after the desktop component is loaded and encoding the buffer file as a picture format to be stored; setting an edge detection module, and performing pixel scanning comparison between the background picture and the stored buffer picture; circularly performing the step three till the edge position data of the at least one desktop component is obtained; and changing the dynamic effect of the dynamic wallpaper according to the data obtained in the step four. The implementation method overcomes the defects of the traditional edge detection method and detects the position and the edge of the desktop component efficiently and flexibly so that the dynamic wallpaper and the desktop component generate a certain degree of interaction to realize dynamic specially-good effect, thereby promoting the authenticity, appearance degree and individuation degree of the dynamic effect of the interface.
+69. 102184252 Intelligent inquiry and dialup software system used for embedded equipment and implementation method thereof
+CN
+14.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110142098.0
+Guangzhou Jiubang Digital Technology Co., Ltd.
+Yao Jing
+G06F 17/30
+Loading...
+The invention provides an intelligent inquiry and dialup software system used for embedded equipment and an implementation method thereof. The method comprises the following steps of: establishing a database which contains the business information of a plurality of cities at a server end; and loading and storing the business information of a region selected by a user by networking the embedded equipment to the server end. The inquiry method comprises the following steps of: inputting a numeric string representing a specific character on a dialup interface of an embedded server; and automatically searching and displaying the business information partially or completely matching with the character on the dialup interface so that the user can directly select and call to contact a required business on the dialup interface. The implementation method provided by the invention has convenience and rapidness, and is applied widely.
+70. 102087584 Graphical interface display method of virtual keyboard
+CN
+08.06.2011
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+201110033025.8
+Guangzhou Jiubang Digital Technology Co., Ltd.
+Xiao Wei
+G06F 3/048
+Loading...
+The invention provides a graphical interface display method of a virtual keyboard for an embedded touch screen electronic terminal. Graphical interface modifying options are arranged in a management interface of the virtual keyboard so as to carry out customized settings including the background of a vertical-screen keyboard, the background of a transverse-screen keyboard and transparency of the virtual keyboard. The graphical interface display method provided by the invention has high compatibility and customized height, can meet the needs of users to customize individual themes, and is simple in operation and wide in application range.
+71. 101996049 Virtual keyboard input method applied to embedded touch screen equipment
+CN
+30.03.2011
+G06F 3/0488 Loading...
+G06F 3/0488
+Loading...
+201010557863.0
+广州市久邦数码科技有限公司
+姚静
+G06F 3/0488
+Loading...
+The invention discloses a virtual keyboard input method applied to embedded touch screen equipment. A display area of a touch screen is provided with a virtual keyboard area, an edit area and an annular selection area, and digital keys on the virtual keyboard area respectively map a plurality of letters. The method specifically comprises the following steps of: carrying out a key pressing operation; popping up the annular selection area when judging that a letter input operation is carried out, wherein the key block on each position of the annular selection area respectively represents one letter or digit; and sliding key for selection along a direction of the letter or digit, and displaying on the edit area. Compared with the prior art, precise letter input is realized through screen promoting and the identification of touch screen sliding action of a user, therefore, the efficiency on inputting character information is greatly improved, meanwhile, the operation is convenient and visual, and better compatibility and inclusiveness can be achieved.
+72. 101976173 Multi-language hybrid input method used on embedded touch screen virtual keyboard
+CN
+16.02.2011
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+201010557858.X
+Guangzhou Jiubang Digital Technology Co., Ltd.
+Yao Jing
+G06F 3/048
+Loading...
+The invention discloses a multi-language hybrid input method used on an embedded touch screen virtual keyboard. Each key on the virtual keyboard maps three to four characters respectively; a display region of a touch screen is provided with a virtual keyboard region, an editing region and a candidate region; the touch screen also comprises a pop-up amplifying and selecting region; the method particularly comprises the following steps of: performing keystroke operation; dynamically displaying Chinese information, numerical information and foreign information related to the key at the candidate region; selecting the candidate region where a target item is positioned, popping up the amplifying and selecting region, and amplifying the row in which the target item is positioned in the candidate region by the amplifying and selecting region; and clicking or downwardly sliding the target item and selecting and displaying input Chinese information, numerical information or foreign information at the editing region in real time to finish the input. By the method, rapid hybrid input of Chinese, number, English and other foreign languages is realized, the efficiency of inputting written information is greatly improved, and the operation is intuitive and the compatibility of the method is good.
+73. 101114292 Encode combined language term storage and dynamic derived method
+CN
+30.01.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710029974.2
+Yan Chunlian
+Yan Chunlian
+G06F 17/30
+Loading...
+A coding composition language words storage and dynamic derivation method is characterized by dividing a linear general wordlist into a basic word stem table, a prefix table, a suffix table which are stored in an embedded equipment storage unit, obtaining a combined index of prefix and suffix by the prefix table and the suffix table respectively correspond to a relative index; adding corresponding data structure algorithm to the input engine to search the stem table and the combined index of prefix and suffix by inputting content using keyboards, to produce the stem automatic deformation structure by combining the stem and the prefix and suffix so that the result set of different tense, nature, and number of the stem is derived, and outputting integral words in the display terminal. The invention adopts a more reasonable word data storage structure, thereby effectively compressing the storage space and raising data retrieval efficiency. The invention can be used in man-portable embedded devices and has the advantages of reducing production cost, reducing volume and weight, raising the operating speed, and having broad application prospect.
+

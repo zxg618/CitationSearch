@@ -1,0 +1,2257 @@
+1. 106473711 一种心跳采集方法及装置
+CN
+08.03.2017
+A61B 5/02 Loading...
+A61B 5/02
+Loading...
+201510540064.5
+联想移动通信科技有限公司
+居同彬
+A61B 5/02
+Loading...
+本发明提供一种心跳采集方法及装置，其中心跳采集方法包括：获取用户触碰指纹模组后所述指纹模组收到的第一信号；从所述第一信号中滤除指纹模组的发射信号，得到第二信号；对所述第二信号进行采样，确定心跳信号。本发明实施例通过从用户手指触碰指纹模组后指纹模组收到的第一信号中滤出指纹模组的发射信号，从而实现对心跳波形的采集，进而达到测量心跳的目的，解决了指纹模组的单一性问题，增强用户体验，扩展了指纹应用。
+2. 106445260 一种消除保护套误触发电容感应的方法、装置及电子设备
+CN
+22.02.2017
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201510495634.3
+联想移动通信科技有限公司
+林辉
+G06F 3/044
+Loading...
+本发明提供了一种消除保护套误触发电容感应的方法、装置及电子设备。所述方法应用于设置有电容感应元件的电子设备，包括：采集电子设备预设位置的第一电容值，所述预设位置包括电子设备上至少两个互不相同的位置；根据所述第一电容值，判断得到所述电子设备是否添加保护套的判断结果；获取电容感应元件检测到的第二电容值；根据所述判断结果以及所述第二电容值，确定是否触发生成降低发射功率的信号。上述方案，通过检测电子设备是否增加了保护套，在电子设备增加了保护套时，电容感应元件的电容值不会误触发电子设备的功率回退，此种方式，尽可能的减小了保护套对电子设备辐射功率的影响，保证了用户对电子设备的正常使用。
+3. 106454688 一种设备的解锁方法及设备
+CN
+22.02.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510479042.2
+联想移动通信科技有限公司
+黄龙海
+H04W 4/00
+Loading...
+本发明提供一种设备的解锁方法及设备，为解决现有技术解锁时间太长，安全性不高的问题而发明。本发明的方法包括：在处于锁定状态的所述设备的第一NFC模块的NFC天线和智能手环的第二NFC模块的NFC天线之间的距离小于或等于预定距离阈值时，启动所述第一NFC模块的读写电路；通过所述读写电路识别所述智能手环的NFC信息；若识别得到的所述NFC信息与所述设备的解锁信息匹配，则解除所述设备的锁定状态。本发明的方案通过NFC手环可以对设备进行快速安全解锁，提高了设备的安全等级，可以实现快速解锁操作，大大提高了用户安全和使用体验。
+4. 106411371 一种终端及终端接收信号的方法
+CN
+15.02.2017
+H04B 7/04 Loading...
+H04B 7/04
+Loading...
+201510463871.1
+联想移动通信科技有限公司
+黄龙海
+H04B 7/04
+Loading...
+本发明提供了一种终端及终端接收信号的方法，其中，终端包括：终端本体，所述终端本体包括WI‑FI芯片；主集天线和分集天线，其中，所述主集天线和分集天线分别与所述WI‑FI芯片电连接，且所述主集天线和分集天线分别设置于所述终端本体上呈对称或对角的两端。本发明实现了无线信号的全面接收功能，提升了终端在各个方向的信号接收质量和用户体验，并且弥补了由于天线方向性问题导致的信号波动大、容易掉网的问题。
+5. 106407000 一种终端内存优化的方法、装置及系统
+CN
+15.02.2017
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201510485678.8
+联想移动通信科技有限公司
+汪岩
+G06F 9/50
+Loading...
+本发明提供了一种终端内存优化的方法、装置及系统，其中，该终端内存优化的方法包括：获取当前终端的操作系统运行的可用内存的大小；根据所述可用内存的大小与预设的可用内存级别，对终端的操作系统运行的内存进行优化。本发明实施例的终端内存优化的方法、装置及系统，当系统内存出现不足状况时，通过随机方式，从当前警戒级别的后台进程中选择杀掉一部分，若被杀掉的后台进程中，有可重启进程，对重启时间也做随机化处理，避免后台进程被杀掉后又同时重启，缓解了内存不足对系统性能的影响。
+6. 106412735 一种耳机数据的调整方法、装置、耳机及终端
+CN
+15.02.2017
+H04R 1/10 Loading...
+H04R 1/10
+Loading...
+201510453905.9
+联想移动通信科技有限公司
+张国彬
+H04R 1/10
+Loading...
+本发明提供了一种耳机数据的调整方法、装置、耳机及终端，涉及耳机设计领域，解决现有技术中用户佩戴左右声道耳塞时经常佩戴错误，从而影响用户听觉感受的问题，该方法包括：检测一耳机的左声道耳塞上的无线传感器采集的第一数据和/或所述耳机的右声道耳塞上的无线传感器采集的第二数据；根据检测结果，生成一耳机调整指令；根据所述耳机调整指令，对所述耳机的数据执行相应的调整动作。本发明的方案可在用户将左右声道耳塞佩戴错误时实现对耳机数据的自动调整，避免了对用户听觉感受的影响，提升了用户体验。
+7. 104423275 一种系统电压控制装置、方法及终端
+CN
+08.02.2017
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+102013000361916
+联想移动通信科技有限公司
+陈建成
+G05B 19/04
+Loading...
+本发明提供了一种系统电压控制装置、方法及终端。所述系统电压控制方法，包括：获取终端设备将要被执行的应用对应的第一模块的第一电流值；根据所述第一电流值，从预先存储的各个模块在使用过程中的电流值及与每个电流值对应的压降值的对应关系表中，查找到与所述第一电流值对应的第一压降值；获取所述终端设备的系统关机电压对应的第二压降值；将所述第一压降值与所述第二压降值进行比较，得到第一比较结果；根据所述第一比较结果，控制系统各模块的工作。上述装置通过对用户启动模块电流值的监测，控制系统的电压使用，并且在系统电压不足以维持模块启动时，采取关断低优先级的应用或降低被启动模块功率的措施，满足了用户对设备的功率需求。
+8. 106294360 一种内容搜索方法及装置
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510247079.2
+联想移动通信科技有限公司
+林毅福
+G06F 17/30
+Loading...
+本发明提供了一种内容搜索方法及装置，应用于一电子设备，其中内容搜索方法包括：从所述电子设备当前播放的影像资源中选择出一待搜索内容；在所述影像资源中查找与所述待搜索内容匹配的目标内容；展示所述目标内容。本发明通过首先在影像资源中锁定一待搜索的内容，以待搜索内容为依据在影像资源中查找与待搜索内容匹配的目标内容，获取所需查找的目标内容。该搜索方式简便快捷，节约了大量时间，提高了搜索效率，在宽泛的检索范围内十分便利地得到所需目标内容。
+9. 106302950 一种通话验证方法、装置及移动终端
+CN
+04.01.2017
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+102015000252554
+联想移动通信科技有限公司
+林毅福
+H04M 1/725
+Loading...
+本发明提供了一种通话验证方法、装置及移动终端。所述通话验证方法包括：获取来电用户的号码信息；将所述号码信息与所述移动终端上存储的用户号码信息表进行比对；若所述号码信息存在于所述用户号码信息表中，则进行响铃提示；若所述号码信息不存在于所述用户号码信息表中，则对来电用户进行身份验证；当来电用户的身份验证通过后，进行响铃提示；当来电用户的身份验证不能通过时，不进行响铃提示。上述方案，通过对移动终端使用者的来电进行验证控制，对不能通过验证的来电号码不进行响铃提示，此种方式，保证了移动终端使用者尽可能少的因接听骚扰电话而造成浪费时间与精力的问题。
+10. 106302944 一种识别移动终端的方法及装置
+CN
+04.01.2017
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+102015000237856
+联想移动通信科技有限公司
+梁超
+H04M 1/725
+Loading...
+本发明提供一种识别移动终端的方法及装置，其中，所述识别移动终端的方法，包括：获取用于唯一标识移动终端的硬件标识；根据所述移动终端的硬件标识，对所述移动终端进行身份认证，得到身份认证结果；在所述身份认证结果为身份认证通过时，确定所述移动终端对应的服务。这样通过将移动终端的硬件标识作为移动终端与其他设备交互的通行证，不仅提高了移动终端与其他设备之间的交互信息的能力，而且方便持有移动终端的用户来使用移动终端进行实现相关的服务。
+11. 106302307 一种硬件标识的应用方法及装置
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000238136
+联想移动通信科技有限公司
+梁超
+H04L 29/06
+Loading...
+本发明提供一种硬件标识的应用方法及装置，该硬件标识的应用方法包括：获取用于唯一标识移动终端的硬件标识；将所述硬件标识与预先设置的标识服务列表进行比对，确定与所述硬件标识对应的服务信息；根据所述服务信息提供相应服务。该方法拓展了硬件标识的应用，利用移动终端的硬件标识作为用户唯一标识，服务机构根据该硬件标识为用户提供相应服务，则每售出一台移动终端，移动终端的生产商自动获得一个用户，大大降低了终端厂商发展用户的成本；同时利用移动终端作为用户标识，具有方便携带、无需记忆、使用方便等优点。
+12. 106299615 一种天线及电子设备
+CN
+04.01.2017
+H01Q 1/36 Loading...
+H01Q 1/36
+Loading...
+201510323084.7
+联想移动通信科技有限公司
+林辉
+H01Q 1/36
+Loading...
+本发明提供了一种天线及电子设备，该天线包括：天线本体，天线本体一侧表面上设有辐射金属层；与辐射金属层的第一端相对设置的馈电体，其中，辐射金属层的第一端与馈电体采用耦合馈电的方式进行连接，并通过馈电体获取射频收发器收发的第一信号；辐射金属层的第二端与低通滤波器电连接，并通过低通滤波器对电容感应芯片采集到的感应信号进行低通滤波后获取第二信号。在本发明实施例提供的天线中，辐射金属层的第一端通过耦合馈电的方式与馈电体连接起来，第二端通过电连接的方式与低通滤波器连接起来，实现了天线与电容感应元件的二合一设计，无需增加较多器件即可消除天线匹配对电容感应元件的影响，减少了隔直电容的数量，降低了开发成本。
+13. 106296161 一种基于近距离无线通讯的支付方法及装置
+CN
+04.01.2017
+G06Q 20/32 Loading...
+G06Q 20/32
+Loading...
+102015000301190
+联想移动通信科技有限公司
+田艳军
+G06Q 20/32
+Loading...
+本发明提供了一种基于近距离无线通讯的支付方法及装置，应用于移动终端，该支付方法包括：获取第一终端发出的用于通讯连接的第一射频信号，并与第一终端进行通讯，其中，第一终端上设有安全模块；对第一终端进行安全认证，并根据认证结果判断安全认证是否通过；若认证结果为安全认证通过，则获取第二终端发出的用于激活支付的第二射频信号并进行支付。通过本发明提供的基于近距离无线通讯的支付方法，实现了第一终端与移动终端的隔离设置，所以只有当第一终端与移动终端靠近一定距离时，才能够进行安全验证，使得用户在线支付时更加安全，避免了第一终端受到在线攻击，实现了脱卡操作，提高了移动终端认证支付的安全性。
+14. 106296188 一种移动支付方法及装置
+CN
+04.01.2017
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+102015000308827
+联想移动通信科技有限公司
+顾绪宁
+G06Q 20/38
+Loading...
+本发明提供一种移动支付方法及装置，应用于一移动终端，移动终端设置有第一、第二操作系统以及供第一、第二操作系统读写的一共享存储区，第二操作系统安装有移动支付应用，其中方法包括：获取第一操作系统下的应用程序产生的移动支付信息，将移动支付信息存储到共享存储区，并将移动终端的当前操作系统由第一操作系统切换为第二操作系统；在第二操作系统下读取移动支付信息，并利用移动支付应用根据移动支付信息执行对应的支付操作，并在支付完成后，将当前操作系统切换回第一操作系统。本发明可以提高移动支付的安全性，避免了采用硬件增强移动支付安全性时携带不便、使用受限的问题，提高了用户的体验性。
+15. 106300466 一种OTG快速充电的方法、装置及终端
+CN
+04.01.2017
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201510272810.7
+联想移动通信科技有限公司
+李果
+H02J 7/00
+Loading...
+本发明提供一种OTG快速充电的方法、装置及终端，应用于第一通信终端的方法包括：接收第二通信终端发送的充电请求；根据所述充电请求，更改所述第一通信终端的设备状态，使得所述第二通信终端能够将所述第一通信终端识别为一充电电源；按照充电电源的模式向第二通信终端输送电流，为所述第二通信终端充电；本发明实施例中第一通信终端真正实现了对外大电流充电，提高了充电效率，进而提升了用户体验。
+16. 103716438 降噪方法，装置及移动终端
+CN
+07.09.2016
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+102012000372088
+联想移动通信科技有限公司
+李燚
+H04M 1/725
+Loading...
+本发明提供一种降噪方法，装置及移动终端，用于具有双麦克风的移动终端，该降噪方法包括：判断周围环境噪声是否大于预定阈值，并得一判断结果；在所述判断结果为所述周围环境噪声大于等于所述预定阈值时，开启所述双麦克风的降噪算法进行降噪；在所述判断结果为所述周围环境噪声小于所述预定阈值时，关闭所述降噪算法。采用本发明的技术方案，可以有效解决双麦克风降噪算法需要在通话前进行手动设置而带来的使用不便的问题。
+17. 103246343 一种自适应显示图像的方法和智能终端
+CN
+22.06.2016
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+102012000031172
+联想移动通信科技有限公司
+徐涛
+G06F 1/32
+Loading...
+本发明实施例提供一种自适应显示图像的方法和智能终端，应用于智能终端，该智能终端具有一显示屏，方法包括：节电业务逻辑检测到当前占据显示屏的一图像程序的类型；检测图像程序对应的图像运动类型，以及，计算图像程序对应的图像转换区域；根据图像转换区域计算一反色转换增益；当反色转换增益大于一反色增益阈值时，对图像程序的位于帧缓存中的图像进行反色转换。找到图像程序所包括的图像所需要的图像转换区域，在这一图像转换区域内，计算出图像程序当前的反色转换增益；由于图像显示不同的颜色所需的功能是不同的，如果反色转换增益大于一反色增益阈值，表明对图像反色之后再次显示图像的功耗得到了降低。
+18. 103369230 一种进行拍摄的方法和移动终端
+CN
+16.03.2016
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+201210100964.4
+联想移动通信科技有限公司
+高呈国
+H04N 5/232
+Loading...
+本发明实施例提供一种进行拍摄的方法和移动终端，方法应用于移动终端，移动终端包括拍摄单元，图像信号处理单元和图像生成单元；包括：拍摄单元实时拍摄第一预定数目帧的数字图像信号并保存；检测到移动终端进入了快拍模式，生成快拍信号并发送给图像信号处理单元；图像信号处理单元接到快拍信号之后，调取拍摄单元拍摄到的第一预定数目帧的数字图像信号；图像信号处理单元从第一预定数目帧中获取第二预定数目帧的数字图像信号，第二预定数目帧小于等于第一预定数目帧；将第二预定数目帧的数字图像信号通过与图像生成单元之间的数据传输带宽发送给图像生成单元。不需要依赖移动终端的传输带宽，实现了零时滞的快门拍照。
+19. 105353862 一种防掉电保护方法、装置及移动终端
+CN
+24.02.2016
+G06F 1/30 Loading...
+G06F 1/30
+Loading...
+201410411436.X
+联想移动通信科技有限公司
+林文新
+G06F 1/30
+Loading...
+本发明提供一种防掉电保护方法、装置及移动终端，用以解决当手持设备遇到较强烈的撞击或者抖动时，可能导致电池与电路板瞬间断开，从而引发手持设备掉电的问题。本发明的防掉电保护方法，包括：获取移动终端的加速度传感器检测到的移动终端的运动状态数据；在运动状态数据大于第一预设值时，关闭移动终端当前正在运行的至少一个应用程序，同时对所述至少一个应用程序的数据进行数据备份；在检测到电源与所述电路板断开连接后，通过与所述电源并联的储能电容为所述电路板供电。本发明电池与电路板断开时，由储能电容为移动终端提供额外电源，同时降低移动终端中的负载电流，并对移动终端中的数据进行数据备份，增强了掉电保护。
+20. 105323388 来电呼叫的处理方法、服务器和来电设置方法、移动终端
+CN
+10.02.2016
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+201410224903.8
+联想移动通信科技有限公司
+杨丰华
+H04M 3/42
+Loading...
+本发明提供了一种来电呼叫的处理方法、服务器和来电设置方法、移动终端。其中来电呼叫的处理方法，包括：获取一移动终端上传的多个情景信息，情景信息包括：移动终端作为被叫用户时，对主叫用户的来电呼叫的设置信息；检测到移动终端被呼叫时，获取移动终端当前情景信息；从多个情景信息的设置信息中，获取当前情景信息中的对主叫用户的来电呼叫的设置信息；根据所述当前情景信息中的对主叫用户的来电呼叫的设置信息对主叫用户的来电呼叫进行处理。本发明的方案用户处于不同场景信息中，由云端的服务器直接处理，在用户和来电方之间形成一条屏障，服务器通过用户设置的场景信息对来电进行处理，大大增加了用户的体验性。
+21. 105322591 一种显示电子设备充电时间的方法、装置及电子设备
+CN
+10.02.2016
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201410376779.7
+联想移动通信科技有限公司
+林文新
+H02J 7/00
+Loading...
+本发明提供了一种显示电子设备充电时间的方法、装置及电子设备，其中，上述方法包括：获取电子设备的电池在当前使用模式下完成恒流充电的第一时间值；获取电子设备的电池在完成恒流充电之后，在当前使用模式下完成恒压充电的第二时间值；根据第一时间值和第二时间值，计算得到电子设备的电池的充电完成时间值；将计算得到的电池的充电完成时间值显示在电子设备的预定区域，从而实现能精确的预判和显示电子设备的充电剩余时间。
+22. 105319996 一种控制智能设备的方法、装置及移动终端
+CN
+10.02.2016
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201410230359.8
+联想移动通信科技有限公司
+李果
+G05B 19/04
+Loading...
+本发明提供了一种控制智能设备的方法、装置及移动终端，涉及移动终端应用领域，解决现有技术中不能对空气质量进行实时监测和及时改善的问题，该控制智能设备的方法，应用于移动终端，所述移动终端与智能设备通过红外线连接，包括：获取监测到的空气质量参数；判断所述空气质量参数是否在预设范围内；当所述空气质量参数超出所述预设范围时，将所述空气质量参数发送给云端服务器，并从所述云端服务器获取对所述智能设备的控制参数；根据所述控制参数，控制所述智能设备。本发明的方案实现了对空气质量的实时监测，以及对智能设备的自动控制，提升了用户体验，方便了用户的使用，实现了家居智能化。
+23. 105306661 一种来电呼叫的处理方法、装置和电子设备
+CN
+03.02.2016
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410252209.7
+联想移动通信科技有限公司
+郑煊
+H04M 1/725
+Loading...
+本发明提供了一种来电呼叫的处理方法、装置和电子设备。方法包括步骤：检测到被叫终端有来电呼入时，弹出对来电处理的来电菜单，所述来电菜单包括第一选项菜单，第一选项菜单用于调用拒接来电呼入时的原因信息；检测到第一选项菜单被选择时，则向来电号码发送所述原因信息后，阻止该来电继续进行呼叫。装置包括：来电菜单生成模块和处理模块。本发明还提供了一种电子设备，包括如上所述的来电呼叫的处理装置。本发明的来电呼叫的处理方法，在用户不方便进行接听的时候，能先向来电方发送解释短信后再进行挂断电话的处理，既能满足用户的需求，又使得来电方得到很好的解释后才对其进行挂断、不会产生误会；从而大大提升了用户的体验度。
+24. 105302588 一种终端应用程序加载方法、装置及终端
+CN
+03.02.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410325260.6
+联想移动通信科技有限公司
+林文新
+G06F 9/445
+Loading...
+本发明提供一种终端应用程序加载方法、装置及终端，其中，所述方法包括：记录安装在所述终端上的操作系统在关闭前，安装在所述操作系统上的应用程序被启动的次数信息；根据所述应用程序被启动的次数信息，对所述应用程序进行优先级排序，并保存优先级排序的结果；在所述终端的操作系统下一次启动时，根据预先保存的所述优先级排序的结果对所述应用程序按照优先级从高到低的顺序进行加载。本发明的方案使得终端在开机过程中能够优先加载用户需求的应用程序，提升了用户的使用感知。
+25. 105301377 一种测试射频线损耗的方法、装置及系统
+CN
+03.02.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201410275379.7
+联想移动通信科技有限公司
+游力
+G01R 31/00
+Loading...
+本发明提供了一种测试射频线损耗的方法、装置及系统，其中，方法包括：控制测量仪器发射第一功率信号；控制功率测试设备获取在待测的射频线接收到所述第一功率信号后输出的第二功率信号；将所述第一功率信号与所述第二功率信号进行解析计算，得到所述待测的射频线的线损值。本发明提供的方案通过直接将输入射频线的功率信号与输出射频线的功率信号进行解析计算得到线损值，不依靠经验，得到的线损值准确；不需要金机，简化了测试系统、降低了成本、具有良好的人机界面、操作简单、增加了用户体验、适应各种产品的需求。
+26. 105278613 一种扩展坞
+CN
+27.01.2016
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201410234564.1
+联想移动通信科技有限公司
+顾绪宁
+G06F 1/16
+Loading...
+本发明提供了一种扩展坞，涉及电子技术领域，为解决现有技术中可佩带设备因面积限制等原因不能够满足用户个性化佩戴需求的问题而发明；所述扩展坞包括：第一预设数量的液晶屏层，第二预设数量的核心层，第三预设数量的模块层，所述液晶屏层、核心层与模块层通过同一保护轴连接在一起；其中，位于顶部第一层的为所述液晶屏层，位于底部第一层的为所述核心层或模块层。本发明提供的方案具有多个液晶屏层、核心层以及模块层，且通过同一保护轴连接，能够根据用户的使用场景和使用需求对应用模块进行灵活的配置与调整，极大的方便了用户的使用，使得同样的佩戴体积和空间上实现不同的功能，满足了用户个性化佩戴的需求。
+27. 105228127 一种实现手机锁网的方法、装置、SIM卡及终端
+CN
+06.01.2016
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+201410240477.7
+联想移动通信科技有限公司
+居同彬
+H04W 8/18
+Loading...
+本发明提供了一种实现手机锁网的方法、装置、SIM卡及终端，其中方法包括：获取手机终端中预先存储的第一密码信息、第一手机终端IMEI号和第一SIM卡卡号以及所述手机终端安装的SIM卡中预先存储的第二密码信息、第二手机终端IMEI号和第二SIM卡卡号；将所述第一密码信息与所述第二密码信息、所述第一手机终端IMEI号与所述第二手机终端IMEI号、所述第一SIM卡卡号与所述第二SIM卡卡号分别进行对比，得到第一对比结果、第二对比结果和第三对比结果；在所述第一对比结果、第二对比结果和第三对比结果均为一致时，则执行第一预设操作。本发明提供的方案通过验证密码信息、手机终端的IMEI号以及SIM卡卡号是否一致，实现了机卡一对一的使用，满足了运营商的需求。
+28. 105224211 一种操作对象的操作控制方法、装置及移动终端
+CN
+06.01.2016
+G06F 3/0488 Loading...
+G06F 3/0488
+Loading...
+201410249339.5
+联想移动通信科技有限公司
+顾绪宁
+G06F 3/0488
+Loading...
+本发明提供一种操作对象的操作控制方法、装置及移动终端，涉及通信技术领域。其中该方法应用于一移动终端，所述移动终端的正面具有触摸屏，所述移动终端的背面和/或侧面具有红外传感器，所述操作对象的操作控制方法包括：获取用户在所述触摸屏上的第一操作手势的第一轨迹信息；获取用户在所述红外线传感器的检测范围内的第二操作手势的第二轨迹信息，其中所述第二操作手势与所述第一操作手势同时进行或存在一预设时间差；根据所述第一轨迹信息和所述第二轨迹信息，获取一三维轨迹信息，并根据所述三维轨迹信息对操作对象进行操作控制。本发明的方案实现了支持移动终端的三维触摸，获得良好的用户体验。
+29. 105100374 一种通信控制方法、装置及终端
+CN
+25.11.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410195414.4
+联想移动通信科技有限公司
+林辉
+H04M 1/725
+Loading...
+本发明提供一种通信控制方法、装置及终端，涉及通信领域。其中，上述方法，应用于一终端，所述终端包括一内置于终端本体第一端的天线，包括：获取所述天线接收到的无线信号的信号强度；当所述信号强度小于一预设值时，在所述终端侧发出是否旋转屏幕的提示信息；接收并响应用户输入的旋转屏幕的确认指令，将所述终端的屏幕旋转一预设角度。当天线接收到的无线信号的信号强度小于一预设值时，旋转终端的屏幕倒转使用手机，使用户的手不会握到天线的位置，提高终端的信号强度，提升终端的空中下载技术OTA性能，同时提升用户的上网体验。
+30. 105025501 一种终端通话提醒装置、方法和移动终端
+CN
+04.11.2015
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201410173868.1
+联想移动通信科技有限公司
+林金强
+H04W 24/00
+Loading...
+本发明提供了一种终端通话提醒装置、方法和移动终端。其中，终端通话提醒方法包括：移动终端与基站建立通话时，检测移动终端的发射功率；发射功率小于一设定值时，发出一提醒用户可以靠近人体进行使用通话的提醒信号。终端通话提醒装置包括：检测模块，用于移动终端与基站建立通话时，检测移动终端的发射功率；提醒模块，用于发射功率小于一设定值时，发出一提醒用户可以靠近人体进行使用通话的提醒信号。本发明的移动终端，包括如上的提醒装置。本发明的终端通话提醒装置、方法，在移动终端建立通过开始时，检测移动终端的发射功率，直至发射功率小于一设定值后向用户发送可以进行使用通话的提醒，有效使得用户免于高辐射。
+31. 105025375 一种终端显示内容处理方法、装置及移动终端
+CN
+04.11.2015
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201410173825.3
+联想移动通信科技有限公司
+杨丰华
+H04N 21/472
+Loading...
+本发明提供了一种终端显示内容处理方法、装置及移动终端。其中方法包括：获取用户开始录制的指令信号；对屏幕显示内容和接收用户操作信息进行操作的过程进行录制，得到待分享内容；对所述待分享内容进行分享。所述装置包括：获取模块，用于获取用户开始录制的指令信号；录制模块，用于对屏幕显示内容和接收用户操作信息进行操作的过程进行录制，得到待分享内容；分享模块，对所述待分享内容进行分享。本发明还提供了一种移动终端，包括上述的装置。本发明的终端显示图像处理装置可以实现屏幕显示内容和操作过程的录取，屏幕录取过程中，用户可以自由操作终端功能，做到任何内容的分享大大提高了用户的体验度。
+32. 105025613 一种终端指示灯的控制方法、装置及终端
+CN
+04.11.2015
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+201410165076.X
+联想移动通信科技有限公司
+居同彬
+H05B 37/02
+Loading...
+本发明提供了一种终端指示灯的控制方法、装置及终端，涉及终端应用设计，解决现有技术中终端使用时存在一定不足，无很好的用户体验的问题，该终端指示灯的控制方法应用于终端，所述终端上设置有端口和用于指示所述端口工作状态的指示灯，所述控制方法包括：检测因外部线缆接近所述端口所导致的所述端口处的磁场变化，其中，所述外接线缆上设置有磁性部件；在所述磁场变化超出预设阈值时，控制所述指示灯工作。本发明的方案增加了对端口操作的便利性，且增加了用户使用乐趣，提升了用户体验，提高了实用性和便利性。
+33. 105022070 一种定位的控制方法、装置及终端
+CN
+04.11.2015
+G01S 19/23 Loading...
+G01S 19/23
+Loading...
+201410173851.6
+联想移动通信科技有限公司
+郑煊
+G01S 19/23
+Loading...
+本发明提供一种定位的控制方法、装置及终端，涉及全球定位系统GNSS领域。其中，该方法应用于一终端，所述终端包括全球定位系统GNSS定位单元以及辅助所述GNSS定位单元定位的传感器，所述方法包括：获取所述终端上辅助所述GNSS定位单元定位的每个传感器的平稳状态参数；当任一传感器的平稳状态参数与一预设的正常平稳状态参数不同时，控制与所述预设平稳状态参数不同的传感器的辅助GNSS定位单元定位的功能关闭。该方法通过判定终端的传感器的平稳状态，若符合正常平稳状态，则可辅助GNSS定位提高定位精度；否则，关闭不符合正常平稳状态的传感器的辅助定位功能，利用其它的传感器及GNSS进行定位，提高了定位的精度。
+34. 105023593 一种终端音频播放方法、装置及终端
+CN
+04.11.2015
+G11B 20/10 Loading...
+G11B 20/10
+Loading...
+201410159366.3
+联想移动通信科技有限公司
+张国彬
+G11B 20/10
+Loading...
+本发明提供一种终端音频播放方法、装置及终端，涉及通信技术领域。其中，该播放方法，应用于包括多个音频输出设备的终端，包括：检测到有2个以上的音频流输出时，在所述终端的显示屏上显示音频设备选择界面；获得通过所述音频设备选择界面为所述2个以上音频流分别选择的音频输出设备，并控制所述终端开启分别为所述2个以上音频流选择的所述音频输出设备，输出音频文件。该方法通过提供音频设备选择界面，使用户可以自由控制音频文件的输出设备，实现了一个终端设备能够通过不同的音频输出设备同时输出多个音频信息，提升了用户体验。
+35. 105022565 终端显示控制方法、装置和显示执行方法、终端和遥控笔
+CN
+04.11.2015
+G06F 3/0487 Loading...
+G06F 3/0487
+Loading...
+201410159314.6
+联想移动通信科技有限公司
+杨丰华
+G06F 3/0487
+Loading...
+本发明提供了一种终端显示控制方法、装置和显示执行方法、终端和遥控笔。其中，所述终端显示控制装置包括：定位模块，用于定位终端的显示界面上的一焦点；图像获取模块，用于获取所述显示界面中所述焦点周围一预设范围内的显示图像；操作模块，用于产生对所述显示图像进行操作的操作指令；通信模块，用于将所述显示图像以及所述操作指令发送给终端，由所述终端根据所述显示图像和所述操作指令对显示界面进行操作控制。本发明的终端显示的控制装置通过显示终端的显示图像对显示终端发送指令，控制显示终端进行操作。大大方便了用户对显示终端的控制，简化了操作过程，提高了用户的操作体验。
+36. 105024714 一种提升终端天线性能的方法、装置及终端
+CN
+04.11.2015
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201410165077.4
+联想移动通信科技有限公司
+林辉
+H04B 1/38
+Loading...
+本发明提供一种提升终端天线性能的方法、装置及终端，涉及数据通信领域。其中方法应用于一终端，包括下列步骤：检测所述终端是否使用保护套；在未检测到所述终端使用保护套时，调节天线达到第一天线匹配状态；在检测到所述终端使用保护套时，调节天线达到第二天线匹配状态；其中，所述第一天线匹配状态是指预先在所述终端未使用保护套的情况下对天线进行优化后得到的匹配状态；所述第二天线匹配状态是指预先在所述终端使用保护套的情况下对天线进行优化后得到的匹配状态。本发明的方案，解决了终端使用保护套后，保护套会影响天线的谐振，降低天线性能的问题。
+37. 105005440 一种移动终端显示界面滚动条切换的方法、装置及终端
+CN
+28.10.2015
+G06F 3/0485 Loading...
+G06F 3/0485
+Loading...
+201410161927.3
+联想移动通信科技有限公司
+康志洪
+G06F 3/0485
+Loading...
+本发明提供了一种移动终端显示界面滚动条切换的方法、装置及终端，涉及终端应用设计领域，解决现有技术中用户使用移动终端时会误碰到滚动条，造成使用不便的问题。该移动终端显示界面滚动条切换的方法包括：获取对移动终端的触摸屏幕的触摸操作产生的触摸信息；根据所述触摸信息，确定所述触摸操作在所述屏幕上的操作位置；根据所述操作位置，控制所述移动终端将当前显示界面的滚动条显示在与所述操作位置不同的区域中。本发明的方案有效解决了用户在使用移动终端时会误碰到滚动条的问题，方便了用户的使用，提升了用户体验，提高了实用性和便利性。
+38. 105005485 一种限制应用内存占用的方法、装置及终端
+CN
+28.10.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410151708.7
+联想移动通信科技有限公司
+林毅福
+G06F 9/445
+Loading...
+本发明提供一种限制应用内存占用的方法、装置及终端，涉及数据业务领域。其中方法包括下列步骤：在安装待安装应用之前，获取终端当前的剩余内存值；安装所述应用，并在安装所述应用后获取所述应用运行的消耗内存值；获取所述消耗内存值占所述剩余内存值的比例，当所述比例小于预设阈值，结束流程；当所述比例大于所述预设阈值，对所述应用的资源包进行裁剪处理，使经所述裁剪处理后的所述应用运行时所消耗的内存值降低，并根据裁剪处理后的所述资源包，重新安装所述应用。本发明的方案解决了配置较低的终端经常会出现由于内存不足，导致运行应用时出现异常问题，实现应用的正常运行。
+39. 105005534 一种清理内存的方法、装置及终端
+CN
+28.10.2015
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201410165102.9
+联想移动通信科技有限公司
+康志洪
+G06F 12/02
+Loading...
+本发明提供了一种清理内存的方法、装置及终端，其中，方法包括：获取运行程序在启动时占用的初始虚拟内存值；在产生清理内存的指令时，获取当前后台运行程序占用的当前虚拟内存值；根据所述当前虚拟内存值以及所述初始虚拟内存值，获得运行虚拟内存值；若所述运行虚拟内存值大于一预设阈值，则关闭与该运行虚拟内存值对应的所述当前后台运行程序。本发明提供的方案通过获取运行程序在启动时占用的初始虚拟内存值和在清理内存前获取后台当前运行程序占用的当前虚拟内存值得到运行虚拟内存值，然后将运行虚拟内存值超过预设阈值对应的后台运行程序进行关闭，彻底释放了内存，不再用重启智能设备，节省了清理时间，同时不影响用户的使用。
+40. 104980571 一种移动终端防盗的方法、装置及终端
+CN
+14.10.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410148546.1
+联想移动通信科技有限公司
+田艳军
+H04M 1/725
+Loading...
+本发明提供一种移动终端防盗的方法、装置及终端，涉及移动终端领域。其中，所述移动终端内置不可拆卸电池，上述移动终端防盗的方法包括：在所述移动终端侧检测是否满足触发防盗报警的报警触发条件；若满足所述报警触发条件，则控制所述移动终端的按压式按键失效；获取报警信号以及所述报警信号的预设音量值，并通过所述移动终端的扬声器输出所述预设音量值的报警信号。当移动终端的防盗软件发现手机被盗后，即满足所述报警触发条件后，控制移动终端的按压式按键失效，防止窃贼强制断电导致机主无法发现小偷，并同时发出报警信号，强迫窃贼被迫扔掉手机，同时报警信号也能提醒用户快速找到被盗的手机。
+41. 104980766 一种信息处理方法、装置及终端
+CN
+14.10.2015
+H04N 21/235 Loading...
+H04N 21/235
+Loading...
+201410128396.8
+联想移动通信科技有限公司
+杨丰华
+H04N 21/235
+Loading...
+本发明提供一种信息处理方法、装置及终端，涉及视频共享领域。其中，信息处理方法包括：生成一用于记录分享视频的评论信息的第一网页文件；将所述分享视频以及所述第一网页文件发送至服务器；获取服务器产生的第二网页文件，所述第二网页文件包含所述第一网页文件中的评论信息以及新增加的评论信息；在本地展示所述第二网页文件。该方法通过一记录分享视频的评论信息的第一网页文件和将新增加的评论信息加入所述第一网页文件形成的第二网页文件及时更新评论信息，并在本地展示该第二网页文件，则可以直观的同时看到视频和评论，增加了视频分享的互动性，提高用户体验。
+42. 104978116 一种调整视频画面的方法、装置及终端
+CN
+14.10.2015
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+201410133267.8
+联想移动通信科技有限公司
+张国彬
+G06F 3/0484
+Loading...
+本发明提供了一种调整视频画面的方法、装置及终端，涉及终端应用设计领域，解决现有技术中不能调整视频画面录入或播放角度的问题，该调整视频画面的方法，应用于终端，包括：获取所述终端采集的对一屏幕的操作指令信息，所述屏幕是所述终端的触摸屏；根据所述操作指令信息确定对所述屏幕上显示的视频画面进行旋转操作的旋转角度；将所述屏幕上显示的视频画面按照所述旋转角度进行旋转。本发明的方案能够调整视频录入或播放的角度，方便了用户的使用，增加了实用性和智能化。
+43. 104980557 一种手机端的多卡切换的方法、装置及终端
+CN
+14.10.2015
+H04M 1/67 Loading...
+H04M 1/67
+Loading...
+201410140391.7
+联想移动通信科技有限公司
+居同彬
+H04M 1/67
+Loading...
+本发明提供了一种手机端的多卡切换的方法、装置及终端，涉及数据通信技术领域，为解决现有技术中双卡双待的手机拨打电话时步骤多，不方便，不能够很好的满足用户体验需求的问题而发明；其中，手机端的多卡切换的方法，包括：获取用户录入的当前指纹信息；将所述当前指纹信息与手机终端中存储的与多个SIM卡分别对应的指纹信息进行对比，得到一对比结果；根据所述对比结果，选择与所述当前指纹信息对比成功的SIM卡作为当前激活并处于工作状态的SIM卡。本发明提供的方案利用用户录入的当前指纹直接选定与当前指纹对应的SIM卡进行操作，步骤少，操作方便，进一步满足了用户体验需求。
+44. 204089912 一种提升电池低温容量的移动终端
+CN
+07.01.2015
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201420551778.7
+联想移动通信科技有限公司
+林文新
+H04M 1/02
+Loading...
+本实用新型提供了一种提升电池低温容量的移动终端，包括：壳体；位于壳体内的移动终端的主板，主板上设置有多个芯片；位于壳体内与主板错开设置的电池；以及位于壳体内的定向导热连接件，定向导热连接件的一端与主板连接，定向导热连接件的另一端与电池的壳体或电池的壳体周边区域连接，以提升电池的使用环境的温度，通过提升电池的使用环境温度可以增加电池的使用容量，延长终端设备的待机时间，同时也降低终端设备在使用过程中由于过热而引起的系统不稳定问题。
+45. 203932388 一种通用串行总线母座及移动终端
+CN
+05.11.2014
+H01R 13/02 Loading...
+H01R 13/02
+Loading...
+201420366130.2
+联想移动通信科技有限公司
+李果
+H01R 13/02
+Loading...
+本实用新型提供一种通用串行总线母座及移动终端，涉及通信技术领域。该通用串行总线母座，包括：通用串行总线母座本体；以及设置于所述通用串行总线母座本体上的天线；其中所述通用串行总线母座本体包括：具有一容腔的金属外壳；其中，所述容腔开口设置于所述金属外壳第一端面处；与所述金属外壳连接，用于固定所述通用串行总线母座本体的定位脚；设置于所述容腔内的多个导电针。本实用新型的通用串行总线母座，解决了全金属后壳的移动终端内天线无法实现的问题。
+46. 104113633 利用FM实现移动终端之间通讯的方法和移动终端
+CN
+22.10.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201310140740.0
+联想移动通信科技有限公司
+郑煊
+H04M 1/725
+Loading...
+本发明提供了一种利用FM实现移动终端之间通讯的方法，包括：扫描周围预定范围内所有能够使用的信号频率，并获取每一信号频率的信号频率参数；获取与目标移动终端通讯的交互移动终端的信号频率参数；根据目标移动终端的信号频率参数和交互移动终端的信号频率参数，计算出目标移动终端和交互移动终端发送/接收的共用信号频率；利用共用信号频率与交互移动终端实现调频方式FM信号通讯。本发明还提供了一种利用FM实现通讯的移动终端，包括：扫描模块，获取模块，处理模块，通讯模块。本发明使得每一个移动终端接收/发送射频信号的信号频率的信号质量处于最合适的水平。解决某些移动终端接收射频信号时信号质量很差的问题。
+47. 104038617 Calling method and intelligent mobile terminal
+CN
+10.09.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201310069841.3
+联想移动通信科技有限公司
+李振声
+H04M 1/725
+Loading...
+The embodiment of the invention provides a calling method and an intelligent mobile terminal. The method is applied to the intelligent mobile terminal. The intelligent mobile terminal has a shooting function. The method comprises the following steps: hand behaviors are shot to form an initial video after a sign language calling function is started; at least one sign language image is identified from the initial video, wherein sign language actions in adjacent sign language images are different; feature points of the sign language actions are acquired in the sign language images in order, and the meanings of the sign language actions are determined according to the feature points; and speeches corresponding to the meanings are selected and sent. For people with functional disabilities, hand behaviors are shot, and the specific meanings of the hand behaviors are analyzed through image processing. Thus, the meaning that people with functional disabilities want to express can be understood according to their hand behaviors and can be transformed into speech so that the people can make a call to others.
+48. 103973856 Mobile terminal
+CN
+06.08.2014
+H04M 1/22 Loading...
+H04M 1/22
+Loading...
+201310045915.X
+联想移动通信科技有限公司
+李果
+H04M 1/22
+Loading...
+The invention discloses a mobile terminal. The mobile terminal comprises a shell, a backlight module and a displaying module. The backlight module and the displaying module are arranged in the shell. The backlight module has two use states. In a first use state, the backlight module provides a light source for the displaying module to display images. In a second use state, the backlight module provides backlight for illuminating the outer portion of the shell. The structure of the backlight module of a mobile terminal display screen is transformed, so that the backlight module can be pulled out of the mobile terminal shell through an opening in the same, or the backlight of the backlight module can be emitted through a light opening in the shell of the mobile terminal. Thus the backlight module of the mobile module is rationally used for illuminating with good effect, and other illuminating elements are free to mount so as to lower cost.
+49. 103685708 Terminal device and control method thereof
+CN
+26.03.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210356926.5
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+LI YI
+H04M 1/725
+Loading...
+The invention provides a terminal device and a control method thereof. The terminal device is controlled through a common one-button earphone. The terminal device includes: a detection circuit used for detecting the input method of a button; and a control circuit which is connected with the detection circuit and used for receiving the input method transmitted by the detection circuit and controlling the terminal device according to the input method. The control method includes: detecting the button input method of the one-button earphone; and controlling the terminal device according to the input method. Through adoption of the technical scheme, the terminal device can be controlled through the common one-button earphone so that cost is not increased and at the same time, control of commonly used functions can be realized conveniently and rapidly.
+50. 103685701 Peeping prevention method, device and mobile terminal
+CN
+26.03.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210344620.8
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+TIAN YANJUN
+H04M 1/725
+Loading...
+The invention discloses a peeping prevention method, a peeping prevention device and a mobile terminal. The method and the device are used for the information security protection of the mobile terminal. The peeping prevention method comprises the following steps of controlling image acquisition equipment of the mobile terminal to acquire a peripheral image of the mobile terminal; detecting whether the peripheral image comprises faces besides that of a user of the mobile terminal; when the peripheral image is detected to comprise the faces besides that of the user, transmitting a prompting signal to the user to prevent information in the mobile terminal from being peeped. Due to the adoption of the technical scheme, the secure use of the mobile terminal in a complex or public environment can be ensured, and the information of the user in the mobile terminal can be prevented from being peeped.
+51. 103685698 Incoming call reminding method and device and communication terminal
+CN
+26.03.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210341979.X
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+GAO CHENGGUO
+H04M 1/725
+Loading...
+The invention discloses an incoming call reminding method and device and a communication terminal. The method is used for preventing the communication terminal from missing incoming calls. The incoming call reminding method comprises the following steps: timing a first reminding way corresponding to the current mode of the communication terminal; when the length of reminding time of the first reminding way exceeds a preset time length, starting a second reminding way for reminding in parallel with the first reminding way. According to the technical scheme of the invention, the method can play an auxiliary role of reminding an incoming call to prevent from missing incoming calls under the condition of noisy environment.
+52. 103682564 Antenna and terminal equipment for CMMB (China mobile multimedia broadcasting)
+CN
+26.03.2014
+H01Q 1/22 Loading...
+H01Q 1/22
+Loading...
+201210335499.2
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+HUANG LONGHAI
+H01Q 1/22
+Loading...
+The invention discloses an antenna and terminal equipment for CMMB (China mobile multimedia broadcasting), and is used for receiving CMMB signals. The CMMB antenna comprises a terminal equipment metal frame which is used for receiving CMMB signals, and an antenna circuit which is connected with the metal frame and used for processing the CMMB signals, so that the CMMB signals can be played on the terminal equipment. According to the technical scheme of the invention, the CMMB antenna can complete high-sensitivity CMMB signal reception without arranging an external rod antenna or a built-in CMMB antenna; the material cost of the CMMB antenna is saved as the existing structure of the terminal equipment is used.
+53. 103682618 FM (frequency modulation) antenna and terminal equipment
+CN
+26.03.2014
+H01Q 1/44 Loading...
+H01Q 1/44
+Loading...
+201210334558.4
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+HUANG LONGHAI
+H01Q 1/44
+Loading...
+The invention discloses an FM (frequency modulation) antenna and terminal equipment for receiving FM signals. The FM antenna comprises a metal frame of the terminal equipment for receiving or transmitting FM signals, and an antenna circuit connected with the metal frame and used for processing the FM signals, so that the FM signals can be played on the terminal equipment. According to the technical scheme of the invention, the FM antenna can complete high-sensitivity FM signal reception and transmission without arranging an external rod antenna or an built-in FM antenna; and the material cost of the FM antenna is saved as the existing structure of the terminal equipment is used.
+54. 103682619 NFC (near field communication) antenna and terminal equipment
+CN
+26.03.2014
+H01Q 1/44 Loading...
+H01Q 1/44
+Loading...
+201210335522.8
+LENOVO MOBILE COMMUNICATION TECHNOLOGY LTD.
+HUANG LONGHAI
+H01Q 1/44
+Loading...
+The invention discloses an NFC antenna and terminal equipment for receiving NFC signals. The NFC antenna comprises a metal frame of the terminal equipment for receiving NFC signals, and an antenna circuit connected with the metal frame and used for processing the NFC signals, so that the terminal equipment can use the NFC signals to realize near field communication. According to the technical scheme of the invention, the NFC antenna can complete high-sensitivity NFC signal reception only by using the metal frame of the terminal equipment as the NFC antenna carrier without needing an FPC (flexible printed circuit) antenna manufactured by combining a flexible printed board with ferrite or binding an antenna on the rear casing of a cell phone battery; the material cost of the NFC antenna is saved by using the existing structure of the terminal equipment.
+55. 103327154 一种电话本排序方法及搜索方法
+CN
+25.09.2013
+H04M 1/275 Loading...
+H04M 1/275
+Loading...
+201210081723.X
+联想移动通信科技有限公司
+毛岱山
+H04M 1/275
+Loading...
+本发明涉及一种电话本排序方法及搜索方法，其中电话本的排序方法，包括以下步骤：将联系人信息生成与联系人姓名相关联的、包含第一字段数据；将所述数据按照所述第一字段进行比较排序。本发明的有益效果是：采用本发明的电话本排序方法和搜索方法，搜索结果会被按预设顺序排序，使得用户可以更快的查找到所需要的信息。
+56. 103297911 移动终端
+CN
+11.09.2013
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201210042540.7
+联想移动通信科技有限公司
+顾绪宁
+H04W 4/02
+Loading...
+本发明提供了一种具有加密功能的定位功能模块和移动终端。所述具有加密功能的定位功能模块包括位置信息获取单元、处理单元和加密单元，其中，所述位置信息获取单元，与所述处理单元的输入端电连接，用于获得移动终端的位置信息；所述处理单元，与所述加密单元的输入端电连接，用于处理该位置信息而得到位置参数；所述加密单元，用于对该位置参数进行加密，得到加密后的位置参数。本发明通过对移动终端的位置参数进行加密，并根据外部情况选择性地输出未经加密的位置参数或输出加密后的位置参数，从而既不影响用户使用定位功能模块又可以任意访问互联网络而不会泄露移动终端位置信息。
+57. 103247856 天线装置及移动终端
+CN
+14.08.2013
+H01Q 5/01 Loading...
+H01Q 5/01
+Loading...
+201210024956.6
+联想移动通信科技有限公司
+黄龙海
+H01Q 5/01
+Loading...
+本发明提供一种天线装置及移动终端，属于移动通信领域。其中，该天线装置包括：天线结构，所述天线结构包括一调频FM馈电脚和一FM馈地脚，所述FM馈地脚通过FM选频电路接地；与所述天线结构相连接的处理电路，所述处理电路包括分别与所述FM馈电脚相连接的第一信号处理电路和第二信号处理电路，所述第一信号处理电路用于接收和发射FM信号。本发明实施例的天线装置结构简单，能够实现多个天线的功能，并能够缩小天线尺寸和面积，改善天线辐射效率，从而降低移动终端的成本。
+58. 103246379 触摸反馈方法、装置及无线终端
+CN
+14.08.2013
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+201210030483.0
+联想移动通信科技有限公司
+肖荣彬
+G06F 3/041
+Loading...
+本发明提供一种触摸反馈方法、装置及无线终端，属于通信领域。该触摸反馈方法，包括：感测用户在触摸输入位置处的接触面积；根据所述接触面积生成驱动信号，所述驱动信号的强度随所述接触面积的大小而变化；将所述驱动信号发送至致动器，由所述致动器基于所述驱动信号在所述触摸输入位置处生成振动输出。本发明的技术方案能够感知用户接触触摸屏的压力大小、用户触摸的手势、动作，产生真实的反馈信号。
+59. 103248745 拨打电话号码的方法、装置及移动终端
+CN
+14.08.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210025958.7
+联想移动通信科技有限公司
+梁超
+H04M 1/725
+Loading...
+本发明提供一种拨打电话号码的方法、装置及移动终端，属于通信领域。该拨打电话号码的方法包括：接收用户输入的联系人信息，根据所述联系人信息查找出联系人的电话号码；判断所述电话号码是否包含有分机标识符；在所述电话号码包含有分机标识符时，将所述分机标识符转换成延时控制符，保留所述电话号码的其他数字或字符，形成新的电话号码，并呼叫所述新的电话号码。本发明的技术方案能够实现在不必修改现有联系人信息的情况下，用户可直接通过存储的联系人电话号码拨打联系人的分机号码。
+60. 103246343 一种自适应显示图像的方法和智能终端
+CN
+14.08.2013
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201210031172.6
+联想移动通信科技有限公司
+徐涛
+G06F 1/32
+Loading...
+本发明实施例提供一种自适应显示图像的方法和智能终端，应用于智能终端，该智能终端具有一显示屏，方法包括：节电业务逻辑检测到当前占据显示屏的一图像程序的类型；检测图像程序对应的图像运动类型，以及，计算图像程序对应的图像转换区域；根据图像转换区域计算一反色转换增益；当反色转换增益大于一反色增益阈值时，对图像程序的位于帧缓存中的图像进行反色转换。找到图像程序所包括的图像所需要的图像转换区域，在这一图像转换区域内，计算出图像程序当前的反色转换增益；由于图像显示不同的颜色所需的功能是不同的，如果反色转换增益大于一反色增益阈值，表明对图像反色之后再次显示图像的功耗得到了降低。
+61. 103219011 降噪方法、装置与通信终端
+CN
+24.07.2013
+G10L 21/0208 Loading...
+G10L 21/0208
+Loading...
+201210016262.8
+联想移动通信科技有限公司
+李燚
+G10L 21/0208
+Loading...
+本发明公开一种降噪方法、装置及通信终端，用于解决通信终端通话时的噪音干扰问题，该降噪方法包括：控制所述第一音频输入设备采集所述通信终端所处的环境噪声；将所述环境噪声与所述通信终端中预存的场景噪声进行频谱分析对比，并得一对比结果；以及根据所述对比结果，调用所述环境噪声对应的降噪参数，并根据所述降噪参数分离出所述第二音频输入设备采集的用户声音。本发明的有益效果为：通过人机交互，设置一专属按键，触发该按键调用录制菜单，用户可以自定义录制噪音并设置降噪参数，在通话状态下，通过识别场景噪声，将用户声音分离出来，提高通信终端的通话质量，节约通信终端的降噪成本。
+62. 103136085 Method for recoding state of intelligent terminal and intelligent terminal
+CN
+05.06.2013
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201110379609.0
+联想移动通信科技有限公司
+黄大荣
+G06F 11/30
+Loading...
+The invention provides a method for recoding a state of an intelligent terminal and the intelligent terminal. The method comprises the following steps: triggering a state recording function in the intelligent terminal; scanning present operational code information of the intelligent terminal, and obtaining present hardware parameters of the intelligent terminal; analyzing code information and the hardware parameters, and obtaining an analysis result; when the analysis result indicates that the state is abnormal, sending the analysis result into an information collecting system through interrupt requests or broadcast requests. According to the technical scheme, the state recording function is set in the intelligent terminal to obtain the state of the intelligent terminal at any time, when the intelligent terminal is abnormal, reasons of production of an abnormal situation can be timely analyzed and obtained, follow-up system improvement is convenient, and user experience is improved.
+63. 103124281 电子设备的追踪信息获取方法与装置、电子设备
+CN
+29.05.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110370006.4
+联想移动通信科技有限公司
+孙福侠
+H04L 29/08
+Loading...
+本发明提供一种电子设备的追踪信息获取方法与装置、电子设备，用于为失窃的电子设备的追踪提供线索，该追踪信息获取方法包括：TOE控制芯片在EFI环境下判断当前接入的第一IP地址与预设的第二IP地址是否相同，并得一判断结果；以及在判断结果为第一IP地址与第二IP地址不相同时，TOE控制芯片将第一IP地址发送至预设的邮箱地址。采用本发明提供的技术方案，自动向用户原先设定的邮箱发送新的IP地址，从而在电子设备失窃时为追踪提供重要线索。
+64. 103064608 一种彩信息的处理方法和终端设备
+CN
+24.04.2013
+G06F 3/0488 Loading...
+G06F 3/0488
+Loading...
+201110322392.X
+联想移动通信科技有限公司
+黄大荣
+G06F 3/0488
+Loading...
+本发明提供一种彩信息的处理方法和终端设备，用以解决现有终端设备在处理包括用户自绘图形或文字的彩信息时，用户操作复杂、终端设备的处理任务繁多、耗时较长的问题。该处理方法包括：采集指点物在手写板上输入的运动轨迹，并在本次采集结束后生成标明所述运动轨迹的运动轨迹图片；将所述运动轨迹图片作为彩信息的一部分内容或者全部内容进行处理。该技术方案省去了拍摄的步骤，降低了用户的操作复杂度，减少了终端设备的处理任务，加快了处理速度，耗时较短。
+65. 103022635 多功能内置天线
+CN
+03.04.2013
+H01Q 1/24 Loading...
+H01Q 1/24
+Loading...
+201110283261.5
+联想移动通信科技有限公司
+黄龙海
+H01Q 1/24
+Loading...
+本发明提供了一种多功能内置天线，安装于手机的PCB主板上，包括天线主体、天线馈电脚、第一天线馈地脚和第二天线馈地脚，其中，所述天线馈电脚、所述第一天线馈地脚和所述第二天线馈地脚设置于所述天线主体上；所述天线主体包括相互耦合的GPS天线走线、BT天线走线和WIFI天线走线。本发明所述的多功能内置天线，通过在天线主体上增加一个馈地脚，可以改善低频段GPS天线的谐振深度和辐射效率，并且可以实现GPS天线、BT天线、WIFI天线以及FM内置天线的功能，高集成化、小型化并且低成本。
+66. 103024102 一种翻盖型移动通信终端
+CN
+03.04.2013
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201110281535.7
+联想移动通信科技有限公司
+黄龙海
+H04M 1/02
+Loading...
+本发明提供一种翻盖型移动通信终端，用以解决现有翻盖型移动通信终端存在电视天线使用不方便、容易磨损和折断的问题，以及无法同时满足通信天线和电视天线的性能要求的问题。该翻盖型移动通信终端包括下翻盖和通过转动连接装置与下翻盖的第一端转动连接的上翻盖，还包括：单极通信天线，设置于下翻盖的第一端内；电视天线，设置于下翻盖的第二端内，其中，下翻盖的第二端为下翻盖的第一端的对端；天线阻抗匹配网络，设置于所述下翻盖内；低噪声放大电路，设置于下翻盖内，通过天线阻抗匹配网络与电视天线连接；滤波处理电路，设置于下翻盖内。该翻盖型移动通信终端使用方便、不易磨损和折断，且能同时满足通信天线和电视天线的性能要求。
+67. 103021163 路况状态获取、分享方法与装置和移动通信设备
+CN
+03.04.2013
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110288051.5
+联想移动通信科技有限公司
+高英睿
+G08G 1/00
+Loading...
+本发明提供一种路况状态获取、分享方法及装置和移动通信设备，用于基于用户感知的路况信息的获取与分享。该路况状态获取方法包括：服务器与安装于用户移动通信设备中的第一客户端交互，从第一客户端获取对应于第一道路的基于用户感知的多个第一路况状态及第一道路的ID；服务器综合分析多个第一路况状态，得到第一道路的第二路况状态；以及服务器保存第二路况状态以及与第二路况状态相对应的第一道路的ID。采用本发明提供的技术方案，用户主动发起路况信息分享，服务器对所有分享的信息进行整理分析，并将结果分享给所有用户，使得路况查询反馈信息及时，并充分利用移动通信终端的传输及定位功能，减少路况查询的硬件投入。
+68. 102984338 一种多卡通讯设备的通讯处理方法和多卡通讯设备
+CN
+20.03.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201110264648.6
+联想移动通信科技有限公司
+王永亮
+H04M 1/725
+Loading...
+本发明提供一种多卡通讯设备的通讯处理方法和多卡通讯设备，用以解决现有多卡通讯设备在通讯时由用户在多张卡中自主选择要使用的卡，选择的过程常会占用较长时间，实现通讯的速度较慢的问题。该方法包括：卡通讯设备接收到与目的通讯设备进行通讯的指令；所述多卡通讯设备自动根据所述指令在内置的多张卡中确定优选卡；所述多卡通讯设备使用所述优选卡响应所述指令。上述技术方案使得多卡通讯设备缩短了选卡时间，加快了实现通讯的速度。
+69. 102970550 一种裸眼可视3D显示控制系统和方法
+CN
+13.03.2013
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110257480.6
+联想移动通信科技有限公司
+林楠
+H04N 13/00
+Loading...
+本发明提供了一种裸眼可视3D显示控制系统和方法，所述裸眼可视3D显示控制系统包括裸眼3D屏幕、距离检测模块、人眼识别和定位模块以及控制模块，所述人眼识别和定位模块当识别到所述裸眼3D屏幕前方的人眼时确定其位置；所述控制模块向所述距离检测模块发送启动信号，判断该人眼位置信息是否指示所述裸眼3D屏幕的中心线位于两眼之间连线的对称面上，如果不是则向所述裸眼3D屏幕发送屏幕移动提示信息；所述距离检测模块在接收到该启动信号后，检测人眼与所述裸眼3D屏幕之间的垂直距离；所述控制模块该垂直距离与该标定垂直距离比较，如果不相等则向所述裸眼3D屏幕发送相对移动提示信息。本发明可以不需要增加硬件成本而解决裸眼3D观看不适的问题。
+70. 102957762 一种终端设备
+CN
+06.03.2013
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201110237221.7
+联想移动通信科技有限公司
+黄龙海
+H04M 1/02
+Loading...
+本发明提供了一种终端设备，用以解决现有终端设备需内置独立的CDMA天线和GPS天线，从而出现增大终端设备的体积、增加终端设备的制造成本的问题。该终端设备包括电路板，电路板上设置有：天线；码分多址电路，通过码分多址信号分离电路与所述天线连接；全球定位系统芯片，通过全球定位系统信号分离电路与所述天线连接。该技术方案实现了天线的复用，保证了用一根天线实现CDMA功能和GPS功能，减少了天线在终端设备内部的占用空间，减小了终端设备的体积，减少了终端设备的制造成本。
+71. 102956990 CMMB内置电视天线
+CN
+06.03.2013
+H01Q 23/00 Loading...
+H01Q 23/00
+Loading...
+201110236760.9
+联想移动通信科技有限公司
+黄龙海
+H01Q 23/00
+Loading...
+本发明提供了一种CMMB内置电视天线，包括依次连接的内置FPC电视天线、天线阻抗匹配网路、低噪声信号放大电路和CMMB信号接收处理电路，其中，所述内置FPC电视天线，用于接收空中的CMMB电视信号；所述天线阻抗匹配网路，用于所述内置FPC电视天线与所述低噪声信号放大器之间的阻抗匹配；所述低噪声信号放大电路，用于对所述内置FPC电视天线的接收到的CMMB电视信号进行低噪声放大处理；所述CMMB信号接收处理电路，用于接收并处理来自所述低噪声信号放大电路的放大后的CMMB电视信号。本发明所述的CMMB内置电视天线，电路匹配调试和设计相对简单，而且接收性能更为优秀，电视天线接收灵敏度提高3dB左右，价格上节省了大约80％左右，降低了设计成本。
+72. 102902195 一种终端设备的时间配置方法、装置和终端设备
+CN
+30.01.2013
+G04G 5/00 Loading...
+G04G 5/00
+Loading...
+201110217311.X
+联想移动通信科技有限公司
+李欣
+G04G 5/00
+Loading...
+本发明提供一种终端设备的时间配置方法、装置和终端设备，用以解决现有终端设备在配置时间时需要用户手动输入时间从而降低了用户的使用体验或者对网络依赖性强的问题。该时间配置方法包括：获取外部设备显示当前时间的时间画面；根据所述时间画面确定当前时间；根据所述当前时间自动配置所述终端设备的时间。该技术方案不需用户手动输入时间，提高了用户的使用体验，并且不需依赖网络完成，能自动、快速、准确地配置终端设备的时间。
+73. 102821025 Energy-saving method capable of being achieved at intelligent terminals and intelligent terminal
+CN
+12.12.2012
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+201110150944.3
+联想移动通信科技有限公司
+徐涛
+H04L 12/70
+Loading...
+The invention provides an energy-saving method capable of being achieved at intelligent terminals and an intelligent terminal. The method includes analyzing a packet header protocol in a received data package to obtain an application type of the data package; matching the application type with a rule stored in a rule base; and adjusting or maintaining a current work mode of a processor of the intelligent terminal according to an energy-saving strategy in a first rule when the application type is matched with the first rule in the rule base. The packet header protocol in the data package is acquired and analyzed instead of the fact that data in the data package are directly analyzed, so that using conditions of the intelligent terminal in the future short term can be rapidly obtained, the current work mode of the processor of the intelligent terminal is adjusted according to the using conditions, and the requirement of energy saving is met.
+74. 102800302 Method for adjusting resolution of display screen by terminal equipment, and terminal equipment
+CN
+28.11.2012
+G09G 5/391 Loading...
+G09G 5/391
+Loading...
+201110138239.1
+联想移动通信科技有限公司
+徐涛
+G09G 5/391
+Loading...
+The invention provides a method for adjusting the resolution of a display screen by terminal equipment, and the terminal equipment, and aims to solve the problems that the conventional terminal equipment cannot automatically adjust the resolution of the display screen according to a demand of a user, and the user operation is relatively complicated. The method comprises the following steps of: shooting the current user in front of the display screen, and acquiring an image comprising two-eye information; determining the current pupillary distance of two eyes in the image according to the two-eye information in the image; and adjusting and controlling the resolution of the display screen according to the current pupillary distance, so that the adjusted and controlled resolution of the display screen is matched with the current pupillary distance. By the technical scheme, the terminal equipment can automatically adjust the resolution of the display screen according to the demand of the user, so that the user does not need to manually adjust the resolution; the user operation is simple; and the reading happiness of the user is improved.
+75. 102778969 Touch type mobile terminal and operation method thereof
+CN
+14.11.2012
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+201110125702.9
+联想移动通信科技有限公司
+林楠
+G06F 3/041
+Loading...
+The embodiment of the invention provides a touch type mobile terminal and an operation method thereof. The operation method comprises the steps that the touch from a user on the part of the mobile terminal outside the touch screen area of the mobile terminal is sensed; whether the duration time of the touch exceeds the preset time or not is judged, and the touch is holding from the user if the duration time of the touch exceeds the preset time; a pre-shielding area in the touch screen area of the mobile terminal is estimated according to the touch position; and when the touch is the holding from the user, touch shielding in the pre-shielding area is started, and the pre-shielding area is set to be a touch shielding area. The terminal has a touch shielding function, misoperation caused by holding is reduced, and the use of the user is facilitated.
+76. 102768605 Display method for mobile terminal and mobile terminal
+CN
+07.11.2012
+G06F 3/0482 Loading...
+G06F 3/0482
+Loading...
+201110115719.6
+联想移动通信科技有限公司
+张春霖
+G06F 3/0482
+Loading...
+The invention provides a display method for a mobile terminal and a mobile terminal. The display method comprises the following steps: displaying one or more classification items in a folded state on a touch sensitive display of the mobile terminal; detecting a first movement trail performed on the touch sensitive display; and displaying one or more classification items in an unfolded state on the touch sensitive display in response to the first movement trail detected, wherein the one or more classification items in the unfolded state respectively display user interface elements with the same classification tag, therefore, user can find the user interface elements very conveniently and quickly.
+77. 202488518 一种终端设备
+CN
+10.10.2012
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201220120422.9
+联想移动通信科技有限公司
+张任鹤
+H04M 1/02
+Loading...
+本实用新型提供一种终端设备，用以解决现有终端设备不具备三维立体的光效图像装饰效果的问题。该终端设备，包括主体和外壳，所述外壳上设置有透视窗口；所述外壳的朝向所述主体的表面上设置有正对所述透视窗口的3D光效显示器件；其中，所述3D光效显示器件包括：用于记录3D图案信息的透光3D膜，设置于所述外壳的朝向所述主体的表面上；用于向所述透光3D膜提供背光的背光源组件，设置于所述透光3D膜的背向所述外壳的表面上。该终端设备具备了三维立体的光效图像装饰效果，使终端设备更具美感和个性。
+78. 202453074 一种能够检测次声波的电路模块和移动终端
+CN
+26.09.2012
+G01H 9/00 Loading...
+G01H 9/00
+Loading...
+201120487285.8
+联想移动通信科技有限公司
+顾绪宁
+G01H 9/00
+Loading...
+本实用新型实施例提供一种能够检测次声波的电路模块和移动终端，电路模块包括：用于将检测到的次声波的待测信号转换为电信号的次声波传感器；与所述次声波传感器电连接，用于接收所述电信号并生成对应的数字信号的检测电路子模块；与所述检测电路子模块电连接，用于接收所述数字信号，并累计所述数字信号的数量的预警累计子模块。通过随身携带的移动终端监测周围的次声波强度，如果遇到次声波超标的情况，可以提醒人们及时避开或者减少在次声波环境里的停留。
+79. 202454732 一种终端设备
+CN
+26.09.2012
+H01Q 21/30 Loading...
+H01Q 21/30
+Loading...
+201220050655.6
+联想移动通信科技有限公司
+黄龙海
+H01Q 21/30
+Loading...
+本实用新型提供了一种终端设备，用以解决现有终端设备需要设置多根天线来实现电视功能、蓝牙功能、无线局域网功能和全球定位系统功能，占用了终端设备较大的内部空间，增大终端设备的体积和制造成本的问题。该终端设备，包括电路板，电路板上设置有：走线相互耦合的电视天线、全球定位系统天线和蓝牙及无线局域网复用天线，电视天线、蓝牙及无线局域网复用天线和全球定位系统天线的一端悬空、另一端重合形成一天线馈电点；电视电路、蓝牙电路和无线局域网电路、全球定位系统电路分别与天线馈电点连接。该技术方案减少了天线在终端设备内部的占用空间，减小了终端设备的体积，减少了终端设备的制造成本。
+80. 202434702 一种终端设备
+CN
+12.09.2012
+H01Q 23/00 Loading...
+H01Q 23/00
+Loading...
+201220035562.6
+联想移动通信科技有限公司
+黄龙海
+H01Q 23/00
+Loading...
+本实用新型提供一种终端设备，用以解决现有终端设备需为FM功能和GPS功能分别设置天线，占用了终端设备较大的内部空间，增大了终端设备的体积，增加了制造成本的问题。该终端设备的电路板上设置有：FM内置天线，具有馈电脚和通过FM选频电路与电路板的地连接的馈地脚；FM信号分离电路，与馈电脚连接；低噪声放大电路，一端与FM信号分离电路连接；开关电路，一端与FM信号分离电路连接；FM芯片，与低噪声放大电路的另一端和开关电路的另一端连接；GPS信号分离电路，与馈电脚连接；GPS电路，与GPS信号分离电路连接。该技术方案节约了终端设备的制作成本，减小了天线在终端设备内占用的空间，减小了终端设备的体积。
+81. 202435507 一种终端设备
+CN
+12.09.2012
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201220046904.4
+联想移动通信科技有限公司
+黄龙海
+H04N 5/44
+Loading...
+本实用新型提供一种终端设备，用以解决现有终端设备需内置独立的主天线和电视天线，增大终端设备的体积、增加终端设备的制造成本的问题。该终端设备，包括电路板，电路板上设置有：天线；电视信号分离电路，与天线的馈脚连接；电视天线匹配网络，与电视信号分离电路连接；低噪声放大电路，与电视天线匹配网络连接；电视信号处理电路，与低噪声放大电路连接；主天线信号分离电路，与天线的馈脚连接；主天线匹配网络，与主天线信号分离电路连接；射频收发电路，与主天线匹配网络连接。该终端设备实现了天线的复用，保证了用一根天线实现电视功能和通信功能，减少了天线在终端设备内部的占用空间，减小了终端设备的体积，减少了终端设备的制造成本。
+82. 202435462 一种便携式无线免提电话会议终端
+CN
+12.09.2012
+H04M 1/60 Loading...
+H04M 1/60
+Loading...
+201220046644.0
+联想移动通信科技有限公司
+李燚
+H04M 1/60
+Loading...
+本实用新型提供了一种便携式无线免提电话会议终端，包括：用于传输语音信号的语音传输模块；用于接收语音信号的语音接收模块；用于处理语音信号的语音处理模块，分别与所述语音传输模块和所述语音接收模块连接；用于对语音信号进行功率放大的音频功率放大模块，与所述语音处理模块连接；用于播放语音信号的语音播放模块，与所述音频功率放大模块连接。本实用新型所述的便携式无线免提电话会议终端，同时支持蓝牙无线传输、WiFi无线传输和有线传输语音信号，以实现实时电话会议。
+83. 202374260 一种移动通信终端
+CN
+08.08.2012
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201120546733.7
+联想移动通信科技有限公司
+黄龙海
+H04B 1/38
+Loading...
+本实用新型提供一种移动通信终端，用以解决现有移动通信终端中电视天线的布局不利于移动通信终端上的多天线布局，无法实现天线的小型化和高集成度设计的问题。该移动通信终端包括：用于接收通信信号的通信天线，设置于主板的第一端；用于接收电视信号的电视天线，设置于所述主板的第二端的一边角处，所述第二端为所述第一端的对端；用于接收预设频段信号的功能天线，设置于所述主板的第二端的另一边角处。该移动通信终端利于多天线布局，实现了天线的小型化和高集成度设计。
+84. 202374358 一种终端设备
+CN
+08.08.2012
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201120541417.0
+联想移动通信科技有限公司
+黄龙海
+H04N 5/44
+Loading...
+本实用新型提供了一种终端设备，用以解决现有终端设备需内置独立的电视天线和GPS天线，从而出现增大终端设备的体积、增加终端设备的制造成本的问题。该终端设备包括电路板，电路板上设置有：天线；电视电路，通过电视信号分离电路与所述天线连接；全球定位系统芯片，通过全球定位系统信号分离电路与所述天线连接。该技术方案实现了天线的复用，保证了用一根天线实现电视功能和GPS功能，减少了天线在终端设备内部的占用空间，减小了终端设备的体积，减少了终端设备的制造成本。
+85. 102541254 Method and device for adjusting text display manner, and mobile terminal
+CN
+04.07.2012
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201010624442.5
+联想移动通信科技有限公司
+徐涛
+G06F 3/01
+Loading...
+The invention provides a method and device for adjusting a text display manner, and a mobile terminal and aims to solve the problem that the conventional mobile terminal cannot automatically adjust the text display manner according to the motion state of the mobile terminal. The method comprises the following steps of: acquiring a motion parameter value of the mobile terminal; determining a preset value of a text display parameter of a display screen on the mobile terminal according to the motion parameter value; and adjusting the text display manner of the display screen according to the preset value. According to the technical scheme, the text display manner of the display screen on the mobile terminal is adjusted according to the motion parameter value of the mobile terminal without being adjusted manually by a user of the mobile terminal, so that the user can read an electronic text more easily and clearly in a shaky environment and can get a pleasant reading experience.
+86. 102487518 移动终端的信令通道的测试环境的搭建方法和测试系统
+CN
+06.06.2012
+H04W 16/26 Loading...
+H04W 16/26
+Loading...
+201010575933.5
+联想移动通信科技有限公司
+林金强
+H04W 16/26
+Loading...
+本发明提供一种移动终端的信令通道的测试环境的搭建方法和测试系统，属于移动通信领域，为解决现有技术中对多制式、多频段的手机进行测试的成本比较高的技术问题而发明。所述移动终端的信令通道测试的搭建方法中，所述移动终端的硬件支持第一频段；并且所述移动终端的收发器支持制式相同的第一频段和第二频段，所述移动终端处于第二频段的基站的服务范围内，所述方法包括：在所述移动终端和第二频段的基站之间接入直放站，以补偿移动终端工作模式的更改带来的插入损耗；将移动终端切换到第二频段的工作模式，所述移动终端进行第二频段的工作模式下的信令通道的测试。本发明能够降低多制式、多频段的手机的测试成本。
+87. 102438062 多任务切换的方法、装置和移动终端
+CN
+02.05.2012
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201010299731.2
+联想移动通信科技有限公司
+梁超
+H04M 1/725
+Loading...
+本发明的实施例提供一种多任务管理的方法，包括：设置第一静态变量，需要将前台任务切换至后台，将前台任务的标识赋值在第一静态变量中；需要将后台任务切换回时，通过应用程序接口API将第一静态变量所指引的任务调取为前台任务。本发明提供的相应装置包括变量存储模块、前台任务切出模块和后台任务切回模块。本发明实施例同样还提供包含上述装置的移动终端。通过本发明的实施例，可以解决移动终端多任务之间切换时间长，用户操作繁琐的问题。
+88. 202206437 改善主天线低频天线性能的翻盖手机
+CN
+25.04.2012
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201120355000.5
+联想移动通信科技有限公司
+黄龙海
+H04M 1/02
+Loading...
+本实用新型提供了一种改善主天线低频天线性能的翻盖手机，包括主天线、下主板和位于所述下主板上方的按键面壳，所述翻盖手机还包括下主板延长地，所述主天线位于所述下主板底部；所述下主板延长地，贴在所述按键面壳上，并焊接于所述下主板的地焊盘。本实用新型通过在位于主板下方的按键面壳上增加一个下主板延长地，从而增加主天线低频GSM900频段或者GSM850频段的辐射地长度，可以有效提高翻盖手机的低频天线性能。
+89. 202206386 一种移动通信终端
+CN
+25.04.2012
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201120357177.9
+联想移动通信科技有限公司
+黄龙海
+H04B 1/38
+Loading...
+本实用新型提供一种移动通信终端，用以解决现有移动通信终端中的WIFI天线和BT天线占用了移动通信终端较大的内部空间，增大了终端设备的体积，增加了终端设备的制造成本的问题。该移动通信终端，包括印刷电路板PCB主板，PCB主板上设置有：IFA天线，设置于PCB主板的第一端，与PCB主板的地连接；无线局域网电路；蓝牙电路；开关切换电路，一端通过天线匹配电路与IFA天线连接，另一端与无线局域网电路和蓝牙电路连接。该移动通信终端减小了天线在移动通信终端内部的占用空间，减小了移动通信终端的体积，减少了移动通信终端的制造成本。
+90. 202189885 设有内置电视天线的移动终端
+CN
+11.04.2012
+H01Q 1/24 Loading...
+H01Q 1/24
+Loading...
+201120262989.5
+联想移动通信科技有限公司
+黄龙海
+H01Q 1/24
+Loading...
+本实用新型提供了一种设有内置电视天线的移动终端，包括手机PCB主板，所述手机PCB主板上设置有电视天线，并所述手机PCB主板上设置有一过孔；所述电视天线包括设置在该手机PCB主板正面的第一电视天线PCB走线和设置在该手机PCB主板背面的第二电视天线PCB走线；所述第一电视天线PCB走线的终点通过所述过孔与所述第二电视天线PCB走线的起点连接，所述第一电视天线PCB走线的起点与电视天线馈点连接。本实用新型通过在手机PCB主板上双面布置电视天线PCB走线，而不需使用单独的电视天线PCB板再将该电视天线PCB板贴片于手机PCB主板，以实现电视天线的小型化和低成本化，而且易于量产和设计。
+91. 202100602 转轴体及电子设备
+CN
+04.01.2012
+F16C 11/04 Loading...
+F16C 11/04
+Loading...
+201120219754.8
+联想移动通信科技有限公司
+冯雨
+F16C 11/04
+Loading...
+本实用新型提供的转轴体，包括固定本体，固定本体上分别可旋转地安装有第一转轴部件、第二转轴部件，第一转轴部件与第二转轴部件平行，第一转轴部件相对于固定本体按第一方向旋转的可旋转角度与第二转轴部件相对于固定本体按与第一方向相反的方向旋转的可旋转角度之和大于或等于360度。本实用新型的电子设备，显示屏和底座之间设有转动机构，显示屏能够相对底座进行360度翻转。本实用新型的转轴体结构简单、功能更加丰富，可让相关电子设备功能更多样、更能有效地利用空间。本实用新型的电子设备，显示屏相对于底座可以作360度旋转，其功能更多样，更能有效地利用空间，值得大力推广。
+92. 202085419 一种终端设备的壳体和终端设备
+CN
+21.12.2011
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201120197597.5
+联想移动通信科技有限公司
+刘剑平
+H05K 5/00
+Loading...
+本实用新型提供一种终端设备的壳体和终端设备，用以解决现有终端设备的外壳易被磨损的问题。该壳体包括：用于包覆终端设备的主体的包覆构件，所述包覆构件的形状与所述主体的形状相配合；透明层，附着于所述包覆构件的外表面上。该技术方案使得终端设备的外壳具有不易磨损、经久耐用的优点。
+93. 102279722 Method for controlling display module of terminal and terminal
+CN
+14.12.2011
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201010206712.0
+Lenovo Mobile Communication Technology Ltd.
+Li Yi
+G06F 3/14
+Loading...
+The invention provides a method for controlling a display module of a terminal and a terminal, which relates to the field of electronic products and is invented to solve the technical problem of reduction in user experience by static electricity in the prior art. The method for controlling the display module of the terminal comprises the following steps: 1, a main processor of the terminal judges whether the display module of the terminal is normal, generates a judgment result, and turns to a step 2 when the judgment result is negative; 2, the main processor sends a recovery command to the display module till the display module recovers to normal state according to the recovery command; and 3, the main processor sends a refreshing command to the display module to refresh the display module. By adopting the method, user experience can be improved.
+94. 102271423 Smart card selection method for multimode terminal and multimode terminal
+CN
+07.12.2011
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201010198099.2
+Lenovo Mobile Communication Technology Ltd.
+Zhan Di
+H04W 88/06
+Loading...
+The invention discloses a smart card selection method for a multimode terminal and the multimode terminal. The method comprises that: when required to initiate a communication service, the terminal judges whether a smart card is required to be selected according to a set smart card selection strategy or not; the terminal selects the smart card from a plurality of smart cards sets in the terminal according to the smart card selection strategy if the smart card is required to be selected according to the set smart card selection strategy, and prompts a user to select the smart card and selects a corresponding smart card according to the indication of the user if the smart card is not required to be selected according to the set smart card selection strategy; and the terminal initiates the communication service by utilizing the selected smart card. By the method and the multimode terminal, the user is prompted to select the smart card or the smart card is automatically selected according to the smart card strategy configured by the user when communication is initiated, so that the selection of the smart card can e executed on the premise of satisfying the needs of the user, the intellectualization of the smart card selection can be improved, the repeated smart card selection operations of the user can be avoided as much as possible, and user experiences are improved.
+95. 102270018 Computer and dynamic scanning method used therein
+CN
+07.12.2011
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201010196315.X
+Lenovo Mobile Communication Technology Ltd.
+Gao Chengguo
+G06F 1/16
+Loading...
+The invention discloses a computer, comprising input equipment, a liquid crystal display screen, an optical sensor array arranged on at least one part of the liquid crystal display screen so as to form an integrated dynamic scanning module and used for dynamically scanning objects oppositely arranged on the dynamic scanning module, a processor for controlling the dynamic scanning process and processing image information obtained by the dynamic scanning module through the dynamic scanning process, and a memory for storing the image information obtained by the dynamic scanning module through the scanning process and data processed by the processor.
+96. 102271236 Image display method for terminal equipment and terminal equipment
+CN
+07.12.2011
+H04N 5/74 Loading...
+H04N 5/74
+Loading...
+201010195822.1
+Lenovo Mobile Communication Technology Ltd.
+Lin Nan
+H04N 5/74
+Loading...
+The invention provides an image display method for terminal equipment and the terminal equipment. According to the invention, a problem that an increase on manufacturing costs of terminal equipment can be solved, wherein the problem is caused by increase on a liquid crystal screen size of the current terminal equipment. The method comprises the following steps that: a mini projection system receives video data that is output by a host and the video data is processed into a light beam of the image; and the light beam of the image is projected vertically towards a lower surface of a projection screen so as to form an image on the projection screen, wherein the projection screen is at a lower surface of a transparent front cover that is connected with one end of the host. According to a scheme of the invention, a projection technology is employed, so that an image display function of terminal equipment can be realized without arrangement of a liquid crystal screen, thereby reducing manufacturing costs of the terminal equipment. When an image display area is required to be enlarged, a propagation distance of an image light beam can be increased to realize the enlargement of the image display area, so that extra costs are low. Moreover, a projection technology is employed by the technical technology, so that a projection function of the terminal equipment is realized, a display area is enlarged and functions of the terminal equipment are enhanced; therefore, various demands of clients are satisfied.
+97. 102255998 Mobile terminal and information processing method for mobile terminal
+CN
+23.11.2011
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201010182935.8
+Lenovo Mobile Communication Technology Ltd.
+Gao Chengguo
+H04M 1/725
+Loading...
+The invention provides a mobile terminal and an information processing method for the mobile terminal. The information processing method comprises the following steps: capturing step: capturing appointed storage catalogue information, appointed contact number information and appointed to-be-performed operation type information of a user; retrieving step: retrieving all storage information corresponding to appointed contact numbers in an appointed storage catalogue; and processing step: processing the retrieved storage information according to an appointed operation type. By utilizing the technical scheme, the user can process the information of a same number in batch, thereby greatly promoting the information processing efficiency of the mobile terminal and bringing great convenience to the user.
+98. 202034476 印制电路板蓝牙天线及移动终端
+CN
+09.11.2011
+H01Q 1/38 Loading...
+H01Q 1/38
+Loading...
+201120157253.1
+联想移动通信科技有限公司
+黄龙海
+H01Q 1/38
+Loading...
+本实用新型提供一种印制电路板蓝牙天线及移动终端，属于移动通信领域。其中，该印制电路板蓝牙天线，包括：印刷电路板，所述印刷电路板上设置有一过孔；分别设置在所述印刷电路板正面和背面的第一金属走线和第二金属走线；其中，所述第一金属走线的终点通过所述过孔与所述第二金属走线的起点相连接，所述第一金属走线的起点与天线馈点相连接。本实用新型实施例能够节省蓝牙天线所占空间，从而降低移动终端的成本。本实用新型的技术方案适用于具有蓝牙天线的移动终端中。
+99. 102148511 Charging circuit device for mobile equipment
+CN
+10.08.2011
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201010113120.4
+Lenovo Mobile Communication Technology Ltd.
+Sun Wentao
+H02J 7/00
+Loading...
+The invention provides a charging circuit device for mobile equipment, comprising a first circuit which comprises an N-channel metal oxide semiconductor (NMOS) transistor, wherein the input of the grid of the NMOS transistor is a reference voltage VREF; the input of the drain of the NMOS transistor is a work voltage V-CHARGE; the source of the NMOS transistor is connected with a battery VBAT node; and when the reference voltage VREF is higher than the minimum breakover voltage of the NMOS transistor, the drain and the source of the NMOS transistor are in a breakover state, and the VBAT node is activated to charge a battery. By using the technical scheme provided by the invention, an activating circuit used after the over discharge of the battery is additionally arranged to enable the mobile equipment to charge all batteries not damaged, especially the battery subjected to over discharge; and the battery does not need to be separately activated by a user, but can be automatically activated by the charging circuit device.
+100. 102117406 Handheld terminal and dynamic scanning method used therein
+CN
+06.07.2011
+G06K 9/22 Loading...
+G06K 9/22
+Loading...
+200910261845.5
+Lenovo Mobile Communication Technology Ltd.
+Gao Chengguo
+G06K 9/22
+Loading...
+The invention provides a handheld terminal which comprises a dynamic scanning module for dynamically scanning an object placed on the dynamic scanning module, a switch circuit for starting the dynamic scanning module to carry out dynamic scanning, a processor for controlling the switch circuit and processing the image information scanned by the dynamic scanning module, and a memory for storing the image information scanned by the dynamic scanning module and the data processed by the processor.
+101. 102111474 Handheld device and method for searching contacts therein
+CN
+29.06.2011
+H04M 1/274 Loading...
+H04M 1/274
+Loading...
+200910265259.8
+Lenovo Mobile Communication Technology Ltd.
+Mao Daishan
+H04M 1/274
+Loading...
+The invention provides a method for searching contacts in a handheld device, comprising the following steps: inputting spelling information by a user; comparing whether the spelling information input by the user is matched with all possible spelling information of the contacts; and displaying the searched contact information when the spelling information input by the user is matched with all possible spelling information of the contacts.
+102. 201859426 一种终端
+CN
+08.06.2011
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+201020287126.9
+联想移动通信科技有限公司
+詹迪
+G06F 3/048
+Loading...
+本实用新型提供一种终端，涉及终端设备领域，为解决现有技术中终端解锁后只能进入待机界面的技术问题而设计。所述的终端包括：触摸屏和与触摸屏贴合的显示屏，当终端处于锁定状态时，显示屏上设置有解锁菜单，终端还包括：用于当所述终端处于锁定状态时，获取触摸屏从解锁菜单处为起点的被触摸轨迹，并发送被触摸轨迹的信号的轨迹获取单元，与触摸屏连接；用于接收被触摸轨迹的信号，并查询被触摸轨迹的终点位置对应的终端程序，并发送启动信号的查询单元，与轨迹获取单元连接；用于接收启动信号，并根据启动信号解锁所述终端，并启动查询到的所述终端程序的启动单元，与所述查询单元连接。本实用新型可用于手机设计领域和移动多媒体终端领域。
+103. 102081893 Device and method for making and playing multimedia specification for product
+CN
+01.06.2011
+G09F 27/00 Loading...
+G09F 27/00
+Loading...
+200910241571.3
+Lenovo Mobile Communication Technology Ltd.
+Wang Jianhong
+G09F 27/00
+Loading...
+The invention relates to a device and method for making and playing a multimedia specification for a product. The device for making the multimedia specification for the product comprises an image recording module, an explanation text making module, an explanation audio recording module and a storage module, wherein the image recording module is used for recording images related to the use of the product; the explanation text making module is used for making corresponding explanation texts of the images; the explanation audio recording module is used for recording corresponding explanation audios of the images; and the storage module is used for storing the images, the explanation texts and the explanation audios.
+104. 102035928 Handheld equipment with theft-proof tracking function and positioning method thereof
+CN
+27.04.2011
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200910093699.X
+Lenovo Mobile Communication Technology Ltd.
+Yu Lei
+H04M 1/725
+Loading...
+The invention relates to handheld equipment with theft-proof tracking function and a positioning method thereof. The handheld equipment with the theft-proof tracking function comprises a positioning module, a control module and a communication module, wherein the positioning module is used for positioning the handheld equipment and generating positioning data; the control module is used for configuring the positioning module so that the positioning module positions the handheld equipment under a preset condition; and the communication module is used for sending the positioning data generated by the positioning module to a specified platform.
+105. 201804297 一种终端设备
+CN
+20.04.2011
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201020537295.3
+联想移动通信科技有限公司
+顾绪宁
+G06F 1/16
+Loading...
+本实用新型提供一种终端设备，用以提供一种能够灵活调整显示屏幕面积和/或键盘大小的终端设备。该终端设备包括：具有触摸功能的至少两个液晶屏；用于输出切换命令的切换开关；用于输入所述切换命令，获取所述切换开关对应的工作模式配置信息，并输出组合电平设置信息的第一控制模块，与所述切换开关连接；用于输入所述组合电平设置信息，并输出工作模式切换指令至所述至少两个液晶屏的驱动通道，分别与所述第一控制模块和所述至少两个液晶屏连接。该技术方案在不增加终端设备体积的情况下，能充分利用液晶屏，能灵活调整显示屏幕面积和/或键盘大小，软件功能更加强大，方便用户使用。
+106. 201789531 翻盖式移动终端
+CN
+06.04.2011
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201020135682.4
+联想移动通信科技有限公司
+卞文良
+H04M 1/02
+Loading...
+一种翻盖式移动终端，包括：第一磁体、第二磁体、第一磁力感应部、第二磁力感应部、检测部，第一磁力感应部用于感应第一磁体的磁力，第二磁力感应部用于感应第二磁体的磁力，第一磁力感应部用于根据其感应到的第一磁体的磁力强度来改变输出电压，第二磁力感应部用于根据其感应到的第二磁体的磁力强度来改变输出电压，且第一磁体位于转轴部，第一磁力感应部位于显示部，在显示部相对于转轴部处于未翻转状态的情况下，第一磁体和第一磁力感应部彼此临近；第二磁体位于转轴部或显示部，第二磁力感应部位于键盘部，并且，在转轴部带动显示部沿第一转轴转动使显示部与键盘部重合的情况下，第二磁体与第二磁力感应部在键盘部的厚度方向上重叠且临近。
+107. 201717935 一种具有触控LED阵列的手机
+CN
+19.01.2011
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200920353338.X
+联想移动通信科技有限公司
+高呈国
+H04M 1/725
+Loading...
+本实用新型公开了一种具有触控LED阵列的手机，包括：LED阵列，设置于手机的上盖外表面，用于显示光效，其中，所述LED阵列包括多颗LED灯；触摸屏，用于对所述LED阵列进行触摸控制，其中，所述触摸屏与所述LED阵列平行设置，覆盖在所述LED阵列上。通过本实用新型不但简化了手机用户的操作使用过程，并且满足了手机用户对时尚和个性化的需求。
+108. 101902519 Terminal device and working method thereof
+CN
+01.12.2010
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200910085770.X
+Lenovo Mobile Communication Technology Ltd.
+Zhang Qiuhong
+H04M 1/725
+Loading...
+The invention provides a terminal device and a working method thereof, which are used for solving the problem that when a conventional terminal device is randomly operated, some active services are possibly started, so unnecessary troubles are brought to a user. The terminal device comprises a storage module, a determining module and a control module, wherein the storage module is used for storing a current working mode of the terminal device; the determining module is used for determining whether the current working mode, which is stored by the storage module, of the terminal device is a semi-working mode when a service starting key-press is triggered; and the control module is used for controlling the terminal device to stop executing the active service corresponding to the service starting key-press when the determining module determines that the current working mode of the terminal device is determined to be the semi-working mode. Due to the adoption of the technical scheme of the invention, when the service starting key-press on the terminal device is triggered by some random operation, if the current working mode of the terminal device is the semi-working mode, the terminal device stops executing the active service corresponding to the service starting key-press, so that the unnecessary troubles for the user are avoided.
+109. 201657037 一种用于移动终端的音腔和移动终端
+CN
+24.11.2010
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201020003373.1
+联想移动通信科技有限公司
+肖荣彬
+H04M 1/02
+Loading...
+本实用新型提供一种用于移动终端的音腔和移动终端，用以解决现有移动终端中的音腔具有易引起扬声器失真增大进而降低移动终端音质水平的问题。该用于移动终端的音腔包括非平面的音腔壁。本实用新型提供的技术方案，将音腔壁设计成非平面的形状，由于非平面的音腔壁使得扬声器声波在音腔内不易产生简谐振动，从而降低了对扬声器的影响，降低了扬声器的失真，提高了移动终端扬声器的音质水平。
+110. 201657237 一种具有可扩展音腔的便携通讯终端
+CN
+24.11.2010
+H04R 1/02 Loading...
+H04R 1/02
+Loading...
+200920277678.9
+联想移动通信科技有限公司
+李燚
+H04R 1/02
+Loading...
+本实用新型提供一种具有可扩展音腔的便携通讯终端，包括：前壳(1)和后壳(2)。其中，前壳(1)与后壳(2)在一端通过开关(6)连接，在另一端通过转轴(7)连接，在前壳(1)与后壳(2)的内表面所形成的空间中设置有可扩展部(8)，所述可扩展部(8)包括底部与折叠部，所述底部与后壳(2)的内表面接合，所述折叠部从所述底部延伸并接合至前壳(1)的内表面，所述可扩展部(8)与前壳(1)的内表面形成闭合音腔。根据本实用新型的技术方案，能够在使便携通讯终端小型化的同时，使得音腔最大化。
+111. 101848249 Slide mobile phone
+CN
+29.09.2010
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200910080909.1
+Lenovo Mobile Communication Technology Ltd.
+Chen Liuhui
+H04M 1/02
+Loading...
+The invention provides a slide mobile phone, and aims to provide the slide mobile phone with small thickness and good GPS function. The slide mobile phone comprises a main body, a sliding mechanism and a liquid crystal display, wherein the main body is provided with a first slide rail; the liquid crystal display is provided with a second slide rail and is slidably connected on the main body through the second slide rail, the first slide rail and the sliding mechanism; a soft and hard combined board is attached to a surface of the liquid crystal display facing the main body; and the top end of the liquid crystal display is provided with a global positioning system antenna. The slide mobile phone is not only small in thickness but also good in GPS function.
+112. 201594904 一种终端
+CN
+29.09.2010
+H04R 3/00 Loading...
+H04R 3/00
+Loading...
+200920247028.X
+联想移动通信科技有限公司
+李果
+H04R 3/00
+Loading...
+本实用新型公开了一种终端，包括：耳机接口，通过耳机通路与终端的功放模块连接，用于经由与耳机接口连接的转换线接收来自音频输入设备的音频信号，其中，耳机通路位于功放模块与耳机接口之间；控制模块，用于响应于用户的操作，关闭终端的内部音源、打开功放模块，使得经由转换线传输的音频信号通过耳机通路达到功放模块并由功放模块放大；或者打开功放模块和内部音源，使得功放模块放大来自内部音频源音频信号；功放模块，用于在控制模块的控制下进行音频信号的放大；扬声器，用于将由功放模块输出的放大后的音频信号转变为声信号。本实用新型利用终端的音频播放功能达到了将终端作为播放设备的目的，丰富了终端的功能，提高了用户体验。
+113. 101800877 Video communication method, video communication terminal and video communication system
+CN
+11.08.2010
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200910077650.5
+Lenovo Mobile Communication Technology Ltd.
+Gao Chengguo
+H04N 7/14
+Loading...
+The embodiment of the invention provides a video communication method, a video communication terminal and a video communication system, and belongs to the field of video communication. The embodiment is designed in order to solve the problem that the operation convenience of the video communication terminal is poor when a user is in video communication. The video communication method comprises that: when a local video communication terminal and an opposite video communication terminal are in video communication, the local video communication terminal receives video images from the opposite video communication terminal; and the local video communication terminal synchronously sends the received video images to at least one first image display device for display. In the embodiment of the invention, the user can freely change the direction of the local video communication terminal to shoot local video images and simultaneously can see the video images of the opposite video communication terminal by utilizing the first image display device during the video communication, and the operation convenience during the video communication is improved.
+114. 101742399 Method for searching for lost mobilephone and mobilephone thereof
+CN
+16.06.2010
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+200810226100.0
+Lenovo Mobile Communication Technology Co., Ltd.
+Chen Junsheng
+H04W 4/02
+Loading...
+The invention provides a method for searching for a lost mobilephone, comprising the following steps: judging whether a first SIM card inserted in a mobilephone is an initial SIM card; if not, then executing the next step; obtaining a short message related to the lost mobilephone at definite time; and sending the short message related to the lost mobilephone to a preset mobilephone number. In the method, the current SIM card in the lost mobilephone sends a short message to the preset mobilephone number, the preset mobilephone number replies a short message which has an operation order to the lost mobilephone, the lost mobilephone sends current geographic location coordinates information, picture information of the current position in which the lost mobilephone is located and other related operation of the lost mobilephone to the preset mobilephone number based on the operation order, and the owner of the lost mobilephone can easily learn the current location of the lost mobilephone and the user of the lost mobilephone to find the lost mobilephone.
+115. 201499196 一种便携通讯终端及其键盘
+CN
+02.06.2010
+H04M 1/23 Loading...
+H04M 1/23
+Loading...
+200920223077.X
+联想移动通信科技有限公司
+陈朋伟
+H04M 1/23
+Loading...
+本实用新型提供一种便携通讯终端及其键盘，该便携通讯终端包括：机身，显示器和相对于机身可移动至多个位置的键盘，其特征在于，所述键盘具有：键区，包括键帽和键座；多层导光膜，位于键区的下方，在多层导光膜上分别印刷具有不种模式的字符；以及多个LED，分别连接至多层导光膜；其中便携通讯终端还包括能够根据所述键盘移动至的位置而切换至所述多个LED中的一个LED的切换器。根据本实用新型的技术方案，能够在多个位置上操作具有不同显示的键盘，键盘的制造成本低、外观多样化、手感好且耐磨损。
+116. 201491082 一种手机
+CN
+26.05.2010
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200920172907.0
+联想移动通信科技有限公司
+李燚
+H04M 1/725
+Loading...
+本实用新型提供一种手机，包括：机体，及第一麦克风、射频模块、基带处理模块、音频功率放大器和喇叭，基带处理模块包括：第一输入端和第一输出端；机体还包括：与第一麦克风和基带处理模块相连接的语音信号处理模块，该语音信号处理模块包括：第二输入端，与第一麦克风相连接；第三输入端，与音频功率放大器的输出端相连接；第二输出端，与第一输入端相连接；用于接收通过第二、第三输入端输入的信号，对第二输入端输入的信号进行消回声处理，并将经消回声处理的信号通过第二输出端输出的第一处理模块。利用本技术方案，用户可在免提模式下时，将麦克风收集的信号中对方的声音滤除，使得对方不会听到回声，从而可用于召开免提电话会议。
+117. 201467419 一种带有声音播放功能的电子终端
+CN
+12.05.2010
+H04R 1/22 Loading...
+H04R 1/22
+Loading...
+200920110441.1
+联想移动通信科技有限公司
+肖荣彬
+H04R 1/22
+Loading...
+本实用新型提供了一种带有声音播放功能的电子终端，包括：腔体，设置于所述腔体内的扬声器，其中，还包括：设置在所述腔体内的纳米填充物。利用上述技术方案，通过在设置扬声器的腔体内设置纳米填充物，可降低设置于音腔内的扬声器的谐振频率，从而提高电子终端的低音效果。
+118. 201467226 一种终端设备
+CN
+12.05.2010
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200920106944.1
+联想移动通信科技有限公司
+陈俊生
+H04M 1/725
+Loading...
+本实用新型提供了一种终端设备，用以解决用户获得现有终端设备中的信息的效率较低的问题。本实用新型提供的终端设备包括：显示器；调用模块，输入关键字，输出调用所述关键字对应的数据入口的命令；存储器，其具有一个存储有所述关键字对应的数据入口的存储区，输入所述调用所述关键字对应的数据入口的命令，输出所述关键字对应的数据入口至所述显示器。本实用新型提供的终端设备使得用户获得信息的速度加快，效率提高。
+119. 101655846 Punctuation correlation method and punctuation correlation device of Chinese input method
+CN
+24.02.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810118770.0
+Lenovo Mobile Communication Technology Ltd.
+Chen Junsheng
+G06F 17/30
+Loading...
+The invention provides a punctuation correlation method and a punctuation correlation device of a Chinese input method. The punctuation correlation method of the Chinese input method comprises the following steps of: correspondingly storing output character strings formed by Chinese characters and punctuations and an input method in a local database; in an input state, searching the local data base to judge whether the Chinese characters and the punctuations, which correspond to the input method matched with the input of a user, exist; and if so, adding the output character strings formed by the Chinese characters and the punctuations to an alternate Chinese character list to show the data to the user. In the method, auxiliary words, empty words, Chinese short sentences and works and corresponding punctuations are all listed in an alternate character/word list, and the punctuations are associated with Chinese short sentences or works, so that the selection range is widened, the alternate characters/words and the corresponding punctuations can be picked up at one time. Thus, one process of selecting the alternate punctuations by the user is eliminated, the step of selecting the punctuations by the user under certain conditions is saved, and the velocity of inputting Chinese characters is improved.
+120. 201414144 一种手机
+CN
+24.02.2010
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200920108054.4
+联想移动通信科技有限公司
+李燚
+H04M 1/02
+Loading...
+本实用新型提供了一种手机，包括：机身，以及设置在所述机身上的喇叭出声口，还包括：具有高度的支撑点，所述支撑点与所述喇叭出声口间隔设置，且与所述喇叭出声口位于所述机身的同一平面内。本实用新型在手机喇叭出声口位置附近设计一个支撑点，使得手机喇叭出声面与手机所在平面形成一夹角，从而，当手机声音外放时，利用声的平面反射特性来提升低频频响和响度。本实用新型设计简单，几乎不需要增加额外的成本，只要计算好手机与桌面所成夹角的角度大小，即可在手机喇叭出声口紧靠桌面进行声音外放时也可获得较好的低音回放效果。
+121. 201398206 通讯终端
+CN
+03.02.2010
+H04M 1/247 Loading...
+H04M 1/247
+Loading...
+200920108136.9
+联想移动通信科技有限公司
+戚艳刚
+H04M 1/247
+Loading...
+本实用新型提供一种通讯终端，涉及通讯领域，所述通讯终端包括：呼叫启动单元，其输入为：预设号码呼叫键触发信号，输出为：根据所述预设号码呼叫键触发信号产生的预设号码呼叫信号；预设号码呼叫单元，与所述呼叫启动单元连接，其输入为：所述预设号码呼叫信号，输出为：根据所述预设号码呼叫信号而呼叫至少一个预设号码所产生的呼叫结果信号。本实用新型能够方便的拨打预设电话号码。
+122. 101634925 Method for unlocking keypad through gestures
+CN
+27.01.2010
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+200810040833.5
+Lenovo Mobile Communication Technology Ltd.
+Wu Youting
+G06F 3/048
+Loading...
+The invention relates to a method for unlocking a keypad through gestures. A gesture track for unlocking the keypad is preset in a microprocessor of handheld equipment; under the condition that a keypad is locked, a user clicks a touch screen to generate a touch event, and continues to touch the touch screen to form a touch track by using a touch point which generates the touch event as a starting point in unit time; if the touch track formed in unit time is the same as the preset gesture track for unlocking the keypad, the microprocessor runs an unlocking program to realize the unlocking of the keypad; and if the touch track is not formed in unit time or the formed touch track is not the same as the preset gesture track for unlocking the keypad, the microprocessor does not run the unlocking program and returns to the state of keypad locking. The method for unlocking the keypad through the gestures can exert the characteristics of the touch screen to allow the user to enjoy more touching fun by touching the touch screen to unlock the keypad. The unlocking process has the advantages of coherence, smooth action, convenient operation, high success rate of unlocking and the like.
+123. 101616206 Handheld equipment and method for playing multimedia thereof
+CN
+30.12.2009
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200810115408.8
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04M 1/725
+Loading...
+The invention provides handheld equipment and a method for playing multimedia thereof. The handheld equipment comprises a detection module and a multimedia playing module, wherein the detection module is used for detecting whether the handheld equipment is connected with a charging device or not, and the multimedia playing module is used for playing preset multimedia contents according to a preset playing mode when the handheld equipment is connected with the charging device. The technical scheme can play the multimedia when the handheld equipment is charged, and overcomes the defect of insufficient sustaining capacity of a battery when the handheld equipment plays the multimedia. In addition, because the playing mode to be adopted and the multimedia contents to be played can be preset, the method avoids the trouble of manually setting the playing contents each time, greatly improves the experience of users and extends the functions of the handheld equipment.
+124. 101610378 Method for automatically answering and recording video telephone and video telephone
+CN
+23.12.2009
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200810110229.5
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04N 7/14
+Loading...
+The invention provides a method for automatically answering and recording a video telephone and a video telephone, wherein the method comprises the following steps: setting an answering state for the video telephone; when the answering state is an automatic answering state, setting a play content corresponding to the automatic answering state; when an incoming call comes, judging the answering state of the video telephone and acquiring a judgment result; and when the judgment result indicates that the answering state of the video telephone is the automatic answering state, sending the play content to a caller, and recording incoming call information of the caller. The method and the video telephone are not required to add any hardware, have no hardware cost, have no need of additional support from a network end, and have no need of customizing services from an operator but only need local treatments; and a user can open and close the automatic answering set at any time, thus the method and the video telephone are convenient to use and greatly improve the using experience of the video telephone for the user.
+125. 201365287 一种终端设备
+CN
+16.12.2009
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200920105746.3
+联想移动通信科技有限公司
+高呈国
+H04M 1/725
+Loading...
+本实用新型提供了一种终端设备，用以解决现有终端设备操作效率较低、使用不方便的问题。该终端设备包括：显示菜单的显示器；与快捷子菜单相对应的按键，所述快捷子菜单包括所述菜单的子菜单的部分选项；按键监控模块，输出所述按键被触发的信号；调用模块，输入所述按键被触发的信号，输出调用所述快捷子菜单的命令；存储器，其具有一个存储有所述快捷子菜单的存储区，输入所述调用所述快捷子菜单的命令，输出所述快捷子菜单至所述显示器。本实用新型提供的终端设备利用一按键快速地调用当前显示菜单的快捷子菜单，由于快捷子菜单中的选项较少，方便用户选择，从而提高了终端设备的操作效率，提高了使用终端设备的方便性。
+126. 101599774 Mobile terminal and signal transmission method thereof
+CN
+09.12.2009
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+200810114461.6
+Lenovo Mobile Communication Technology Ltd.
+Song Qi
+H04B 1/40
+Loading...
+The invention provides a mobile terminal and a signal transmission method thereof. The mobile terminal comprises an FM receiving module, a baseband processing module and an FM launching module, wherein the FM receiving module is used for receiving a high-frequency signal and processing the high-frequency signal so as to obtain a baseband signal; the baseband processing module is used for modulating and gaining the baseband signal received by the FM receiving module, outputting the modulated and gained baseband signal to the output circuit of the mobile terminal and modulating the audio frequency signal input through the input circuit of the mobile terminal; the FM launching module is used for modulating the output signal of the baseband processing module to high frequency by adopting the fixed frequency which is the same as the fixed frequency of the FM receiving module and launching the output signal of the baseband processing module. The invention realizes the communication contact between the short distance and the terminal of the same kind under the circumstance that the mobile terminal does not depend on a network so that help seekers in disaster be well helped.
+127. 101583076 Communication method, communication system and communication device based on global positioning system
+CN
+18.11.2009
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+200810106766.2
+Lenovo Mobile Communication Technology Ltd.
+Yu Lei
+H04W 4/02
+Loading...
+The invention discloses a communication method, a communication system and a communication device based on a global positioning system, wherein the communication method adopts at least two mobile communication devices; a first mobile communication device sends a positioning request signal to a second mobile communication device to acquire current position information of the second mobile communication device; and the second mobile communication device receives the positioning request signal and acquires the current position information through the global positioning system, and sends the current position information and the time for acquiring the current position information to the first mobile communication device. The method, the system and the device use one communication device to automatically acquire the position of another communication device provided with a GPS, so that the tracking of people using the communication device provided with the GPS is grasped; and the method, the system and the device can be used for monitoring the track of outgoing children and old people.
+128. 201323638 具有辐射强度告警功能的移动终端
+CN
+07.10.2009
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200820123661.3
+联想移动通信科技有限公司
+孙文涛
+H04Q 7/32
+Loading...
+本实用新型提供一种具有辐射强度告警功能的移动终端，包括：壳体、天线和用于感应天线发射信号辐射强度的辐射感应装置，所述辐射感应装置设置所述壳体上。可避免用户在处于移动终端信号较高辐射的情况下继续使用该移动终端进行通话，有效的保护了用户的身体健康。
+129. 101540972 Method and mobile terminal for processing information determining whether to cut off talk in talking process
+CN
+23.09.2009
+H04W 4/16 Loading...
+H04W 4/16
+Loading...
+200810102078.9
+Lenovo Mobile Communication Technology Co., Ltd.
+Zhu Yajun
+H04W 4/16
+Loading...
+The invention provides a method and a mobile terminal for processing information determining whether to cut off a talk in the talking process, wherein the method comprises the following steps that: in the talking process between a first terminal and a second terminal and when the information determining whether to cut off the current voice transmission exists, a cutting director is generated; based on the cutting director, the current voice transmission is cut off, and at least one media file including an audio signal is called to play; a director of recovering the voice transmission is generated; and based on the director of recovering the voice transmission, an input source of the voice signal transmitted to the second terminal is switched to the voice inputted from a microphone of the first terminal. By utilizing the technology, the current voice transmission can be temporarily cut off and the media file can be played in an easy way, so that the action of cutting off the current voice transmission does not cause unnecessary trouble and disrespect to the user, and the current work of the user is also not affected; and because the played media file is customized, the individual style of the user can be shown more fully.
+130. 101534475 Streaming media service receiving device, method and mobile terminal thereof
+CN
+16.09.2009
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200810101650.X
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04W 4/06
+Loading...
+The invention provides a streaming media service receiving device, a method and a mobile terminal thereof, which relates to the field of mobile communication and is invented for solving the problem that the video services of the existing mobile phone requires relatively long time for switching. The streaming media service receiving device comprises a service receiving module used for receiving a plurality of services in which one is a master service and others are slave services, a service buffer module used for buffering and storing the slave services during the playing period of the master service and a service playing module used for playing the buffered slave services when the switching from the master service to the slave services is finished. The proposal realizes the fast switching of the video services of mobile phones and improves the mobile phone video using experience of users.
+131. 101478839 Mobile terminal with card reader
+CN
+08.07.2009
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+200810207727.1
+Lenovo Mobile Communication Technology Ltd.
+Gao Chengguo
+H04W 88/06
+Loading...
+The invention discloses a mobile terminal with a card reader, which comprises a mobile terminal; a card reader is arranged on the mobile terminal and is capable of identifying communication cards of various network standards, reading and writing data in the card. Through transferring property of the card reader under a regular situation to a mobile communication terminal, the mobile terminal with a card reader has the advantage that reading and processing on any terminal can be carried out speedily by the communication card with compatible physical structure through modifying software code without adding an additional hardware on the terminal.
+132. 101459654 Multi-protocol service data package parsing method, receiving terminal and sending terminal
+CN
+17.06.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710179551.9
+Lenovo Mobile Communication Technology Ltd.
+Li Huidi
+H04L 29/06
+Loading...
+The invention provides a multi-protocol service data packaging and analyzing method, a receiving end and a sending end, wherein the packaging method comprises: creating a data packet which comprises two parts of tips and payloads when a data link layer has service data which needs transmitting, storing the service data into the part of payloads in the data packet, assigning value to each field in the tips of the data packet, thereby realizing the package of the service data. The service data of different modes can be uniformly packed into an XPE/XPE-FEC bag and can be transmitted through defining an XPE bag and an XPE-FEC bag in a link data layer and through applying the technical scheme, and the package of multi-protocol data can be realized, users can conveniently and rapidly receive multi-mode service data, and compatible transmission of the multi-mode service data can be effectively solved.
+133. 101458084 Navigation equipment and navigation method
+CN
+17.06.2009
+G01C 21/08 Loading...
+G01C 21/08
+Loading...
+200910076472.4
+Lenovo Mobile Communication Technology Ltd.
+Sun Wentao
+G01C 21/08
+Loading...
+The invention provides a navigation facility and a navigation method, which is used for solving the problem that when the navigation facility of the existing global positioning system is in the low speed mobile mode, the direction of the place in which the navigation facility is positioned can not be accurately determined, thus influencing the usage of users. The navigation method comprises that whether the navigation facility is in the low speed mobile mode is determined; when the navigation facility is in the low speed mobile mode, Identifiers representing the direct of travel are converted into the identifiers representing the direction of the place in which the navigation facility is positioned; the direction of the place which the navigation facility is in is determined according to geomagnetic field signals of the place which the navigation facility is in. The technical proposal can cause that when the navigation facility is in the low speed mobile mode, the direction of the place in which the navigation facility is positioned can be accurately determined and the navigation facility realizes the normal navigation function and meets the user requirements.
+134. 101459729 Mobile terminal and method for implementing human-machine interaction
+CN
+17.06.2009
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200810240853.7
+Lenovo Mobile Communication Technology Ltd.
+Zhang Qiuhong
+H04M 1/725
+Loading...
+The invention provides a mobile terminal for realizing human-computer interaction and a method thereof, wherein the mobile terminal comprises an executing logic unit which is used to generate a service logic for realizing prearranged functions, wherein the service logic is started and operated to send data which is in the service logic and needs calculating and processing to a central processing unit, the mobile terminal also comprises a storage unit which is used to store the service logic, an input unit which is used to receive the customization of users to the service logic, a timing unit which is used to provide standard time which is used as a reference for the executing logic unit to execute a prearranged command in prearranged time according to the service logic, the central processing unit which is used to finish data which is sent by the executing logic unit and needs calculating and processing to generate output information, and an output unit which is used to output the output information. The technique realizes the mobile terminal for realizing the human-computer interaction, the mobile terminal can finish a certain function according to user prearrangement, and the user experience is intensified.
+135. 101452051 Data processing device and method
+CN
+10.06.2009
+G06F 11/273 Loading...
+G06F 11/273
+Loading...
+200710178728.3
+Lenovo Mobile Communication Technology Ltd.
+Li Jianye
+G06F 11/273
+Loading...
+The present invention provides a data processor and a method thereof, which relates to communication field. The data processor is invented for settling the problem that the software downloading through the JTGA interface is not convenient when a high-grade device in the prior art is developed, debugged, produced and maintained. The device of embodiment according to the invention comprises the following steps: a JTAG interface and an USB connector, wherein the shield pin of USB casing is connected with the test rest TRST pin of JTAG interface. The method of embodiment according to the invention comprises the following steps: obtaining a detection voltage value of the port of data processor casing when the data processor is detected to be inserted with a device; and comparing the detection voltage value with the preset voltage of comparator, and switching the signal to the USB connector or JTAG interface according to the comparing result. The debugging in developing the high-grade device, and software downloading in production and maintenance are facilitated according to the plan of the invention.
+136. 101441516 Handhold equipment and substrate for the same
+CN
+27.05.2009
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+200810241067.9
+Lenovo Mobile Communication Technology Ltd.
+Lin Wenxin
+G06F 3/02
+Loading...
+The invention provides a handheld device and a substrate for the handheld device. The substrate comprises a touch screen area and a keystroke area; in the keystroke area, a keystroke is divided into an upper conducting layer and a lower conducting layer, and a predetermined distance is between the upper conducting layer and the lower conducting layer; the upper conducting layer leads out a first connecting wire for connecting a keyboard interface in the handheld device; and a second connecting wire is led out from the lower conducting layer for connecting a keyboard interface in the handheld device. The handheld device and the substrate have the advantages that the keystroke in the keystroke area realizes simple logical function of a common keystroke by using the contact principle of similar points in the touch screen area; and keystrokes in the touch screen area and the keystroke area are manufactured on the same substrate to form integrative appearance and contact control effect and to realize on/off of the keystroke function.
+137. 201242735 一种手写移动终端
+CN
+20.05.2009
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+200820117558.8
+联想移动通信科技有限公司
+王永亮
+G06F 3/041
+Loading...
+本实用新型提供一种手写移动终端，包括触摸屏，处理器，显示屏，第一设置模块；处理器包括：一统计单元，与触摸屏连接；一计算单元，与统计单元连接；其中，触摸屏输出为至统计单元的手写字体轨迹上的触摸点的参数信息；统计单元输入为触摸点的参数信息，输出为至计算单元的触摸点的即时移动速率信息和平均移动速率信息；第一设置模块输出为至计算单元的触摸点之间连接线的基准粗细和曲度变化率信息；计算单元输入为触摸点的参数信息、即时移动速率信息、平均移动速率信息、触摸点之间连接线的基准粗细和曲度变化率信息，输出为至显示屏的手写字体轨迹的轮廓信息。本实用新型实现在显示屏上真实反映用户书法手写字体，增强使用体验。
+138. 201238330 一种电话机
+CN
+13.05.2009
+H04M 1/66 Loading...
+H04M 1/66
+Loading...
+200820108984.5
+联想移动通信科技有限公司
+徐初伟
+H04M 1/66
+Loading...
+本实用新型提供一种电话机，包括来电显示模块、来电提醒模块、查询模块和陌生来电处理模块，所述查询模块与所述来电显示模块连接，所述陌生来电处理模块与所述查询模块连接，所述来电提醒模块与所述查询模块连接；所述来电显示模块显示并输出当前来电信号，所述查询模块输入所述当前来电信号，输出在所述电话机的电话簿中存在相应记录的当前来电信号至所述来电提醒模块进行来电提醒，或者输出陌生来电信号至所述陌生来电处理模块；所述陌生来电处理模块输入所述陌生来电信号，输出正常陌生来电信号至所述来电提醒模块进行来电提醒，或者输出骚扰来电信号。本实用新型有效防止了“响一声骚扰电话”对用户的不利影响。
+139. 101426174 Apparatus and method for wireless broadcast data service implementation
+CN
+06.05.2009
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200710176630.4
+Lenovo Mobile Communication Technology Ltd.
+Li Huidi
+H04W 4/06
+Loading...
+The present invention provides an apparatus and method for realizing wireless broadcast data services. The apparatus includes a general program executing platform, for receiving and operating the executive program from the wireless broadcast transmission terminal. By applying the technique provided by the invention, service operators can change the content of data services only by updating the cross-platform executive program and service data; at the same time, the criterion and standard followed by the general program executing platform is public, therefore the service operator only needs to pay attention to the maintenance of transmitting ends after adopting the technique, the service content can be provided by a third party in an authorization and recruitment mode and the third party may publish the executive program developed themselves on their own Web site.
+140. 101419532 Method for changing information content dimension in mobile terminal and the mobile terminal
+CN
+29.04.2009
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+200810239275.5
+Lenovo Mobile Communication Technology Ltd.
+Wang Jianhong
+G06F 3/048
+Loading...
+The invention provides a method for changing information content size in a mobile terminal, and the mobile terminal. The terminal comprises a substrate unit with the same position and size as a display screen of the mobile terminal; an area selection unit which is used for selecting a zooming display area out of the center of an area to be zoomed according to the resolution and zooming folds supported by the mobile terminal after the area to be zoomed is selected; a zooming display layer unit which has the same position and size as the selected zooming display area and displays information content in the zooming display area; a display layer synthesizing unit which calculates a color value of pixels corresponding to the information content in the zooming display area after the substrate unit and the zooming display layer unit are superposed, and sends the color value to the zooming display layer unit for display. By the method and the mobile terminal, when a customer pays attention to the information on the screen, the mobile terminal can provide content with free zooming size, which comforts eyes of the customer. The information is displayed according to the content backup, so the speed is fast.
+141. 101388555 Intelligent extension power supply system for portable equipment
+CN
+18.03.2009
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+200710046016.6
+Lenovo Mobile Communication Technology Ltd.
+Liu Wei
+H02J 7/00
+Loading...
+The invention discloses an intelligent extend power supply system of portable equipment, which uses an external auxiliary battery under the premise of using a main battery. The main battery and the auxiliary battery are respectively connected with a load-break switch monomer which comprises a PMOS diode, which are managed through a power management circuit. The intelligent extend power supply system combines a combined electric quantity display mode of a man-machine interface, the main battery is firstly charged forever, and the auxiliary battery is firstly used forever, and a hot-plug character is safely supported. The auxiliary battery which is designed according to the proposal has the advantages of various forms, security, long service span of an electric core, convenience, excellent user feeling and low production cost.
+142. 101378559 Mobile phone capable of panorama shooting by pick-up head combination
+CN
+04.03.2009
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710045414.6
+Lenovo Mobile Communication Technology Ltd.
+Li Cong
+H04Q 7/32
+Loading...
+The invention discloses a mobile phone adopting a panoramic camera unit. The mobile phone comprises a mobile phone body, a plurality of cameras arranged in the mobile phone body and a picture splicing process module arranged in the interior of the mobile phone body and connected with the cameras. Worthily, every camera arranged is a mutually separate module; when adjacent cameras are arranged, shooting angles and/or image sections shot by the cameras are mutually and partially overlapped. In addition, all the cameras are lined horizontally. When the shooting angles of all the cameras are added and overlapped together, an angle obtained is larger than the shooting angle of one camera but smaller than 180 degrees. Moreover, all the cameras adopt synchronous shooting mode. The invention realizes panoramic image shooting of the mobile phone by the combination of shooting angles of a plurality of cameras and the image splicing technology.
+143. 101370196 Ring output method and device for mobile terminal
+CN
+18.02.2009
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710120265.5
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04Q 7/32
+Loading...
+The invention provides a method and a device for outputting rings of a mobile terminal, wherein the method comprises the following steps of: 1, in response to a storage instruction input by a user, pre-storing a plurality of rings that can be selected; 2, selecting at random a first ring from the plurality of pre-stored rings to output when a ring triggering event occurs, and the selected ring is differed from the ring that is selected and output in response to the last ring triggering event; wherein the inventive device comprises: a ring storage unit for storing the plurality of rings that can be selected and used in response to the storage instruction input by the user; a random ring-outputting unit for selecting at random a first ring from the plurality of rings pre-stored in the ring storage unit to output when the ring triggering event occurs, and the selected ring is differed from the ring that is selected when the last ring triggering event occurs. By using the invention, it is possible to randomly select the rings to output in case of occurrence of the ring triggering events, such as incoming calls, incoming short messages, alarm clock or arrival of schedule and so on, which avoids the tedious output rings.
+144. 101335939 Method and device for implementing procrastinator clock on mobile terminal
+CN
+31.12.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710118047.8
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04Q 7/32
+Loading...
+The invention provides a method for realizing procrastinator clock on a mobile terminal and a device, wherein system time is as real time, and a largest preset time is set; a preset time between zero and the largest preset time is computed, wherein the sum of the preset time and the system time is as the procrastinator time, which is transmitted to a screen of the mobile terminal for display. According to the method and the device of the invention, the user arranges own working schedule under the premise of without knowing the specific preset time of the mobile terminal, and under the condition that a calendar is customized, the procrastinator clock causes the user to process the events in the calendar without being late or delaying.
+145. 101335784 Method and device for displaying large font under standby state of mobile terminal
+CN
+31.12.2008
+H04M 1/247 Loading...
+H04M 1/247
+Loading...
+200710118185.6
+Lenovo Mobile Communication Technology Ltd.
+Chen Wencheng
+H04M 1/247
+Loading...
+The invention provides a method for displaying large font under standby state of mobile terminal. The method includes: dividing an area on the display screen as an amplifying area, and the other areas as the critical district; amplifying the character into a predetermined size after inputting characters, and displaying the characters at the amplifying area; if the characters input and displayed on the amplifying area reach a prescribed number, inserting the characters at the cursor of the critical district; and amplifying the character string in the critical district to a predetermined size if there is no input in the predetermined time. By the inventive method and device, the screen of the mobile terminal can display the character string large enough even if the screen is quite small. So that users can obtain a global input examining at any moment, and the users can obtain better input experience, which especially gives prodigious help for people with bad eyesight.
+146. 101308401 Mobile equipment and method for realizing Laos character input display
+CN
+19.11.2008
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+200710099171.4
+Lenovo Mobile Communication Technology Ltd.
+Chen Junsheng
+G06F 3/023
+Loading...
+The invention provides a mobile device and a method which can realize Lao character input and display; the mobile device comprises a keyboard, a display unit and a control module; the keyboard enables the Lao characters to be corresponding to the buttons; the display unit has a plurality of sub-areas displaying different types of Lao characters; the control module displays the characters in the corresponding sub-areas of the display unit based on the types of the Lao characters, and displays the Lao characters in a combined manner according to the spelling grammar of the Lao characters. Through the device and the method, an ordinary functional mobile phone can support the display and input of Lao characters; besides, the device can be transplanted to the mobile devices of other non-functional mobile phones.
+147. 101282373 Method for rapidly searching and setting handhold equipment menu
+CN
+08.10.2008
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200710008801.2
+Lenovo Mobile Communication Technology Ltd.
+Li Xuelian
+H04M 1/725
+Loading...
+The invention discloses a hand-held equipment menu rapid finding method and setting method. The finding method includes following steps: step P11, CPU judges if the shortcut key is pressed, if so, executing step P12, if not, continuing this step P11; step P12, CPU judges which menu is now in, calling shortcut menu interface set below the menu and displaying the shortcut menu interface on the display screen to be selected; step P13, CPU judges which shortcut menu in the shortcut menu interface is selected, calling sub-menu interface of the shortcut menu and displaying the sub-menu interface on the display screen, and executing step P11 synchronously. The method of the invention can integrally reduce operation steps for user menu selections effectively.
+148. 101282142 Mobile phone robot as well as control method thereof
+CN
+08.10.2008
+H04B 5/00 Loading...
+H04B 5/00
+Loading...
+200710008802.7
+Lenovo Mobile Communication Technology Ltd.
+He Zhiqiang
+H04B 5/00
+Loading...
+A mobile phone robot according to the invention and the control method thereof relate to a wireless communication mobile phone and the control method thereof. The invention settles the problem that the small-sized robot device is not suitable for the carrying of ordinary person. The mobile phone robot comprises the components of a wireless communication unit for communication function, a human/machine communion interface for data input and display, a central processing unit for the control and data procession of the whole system, an image information collecting unit for picture taking and camera shooting, a mechanical moving mechanism which supports the moving or motion of the mobile phone, and a short-distance wireless communication unit for receiving and processing of the control instruction and the information transmission. The mobile phone robot adds a mechanical moving mechanism and a short-distance wireless communication unit to the existing camera mobile phone, and can receive the control instruction of the control device with a mode of wireless communication. The mechanical moving mechanism drives the mobile phone to the environment which is not convenient for detecting by person directly to detect the image information, and then the image information is transmitted to the control device by the mobile phone.
+149. 101277120 Method and apparatus for improving sensitiveness of mobile communication apparatus
+CN
+01.10.2008
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+200710008757.5
+Lenovo Mobile Communication Technology Ltd.
+Lin Jinqiang
+H04B 1/10
+Loading...
+The present invention discloses a method for increasing the sensitivity of the mobile communication device and a device thereof. The method for transmitting the information in the mobile communication device comprises the following procedures: an electro-optical signal conversion procedure which is used for converting the electric signal transmitted by the base band data chip to the optical signal; an optical fiber transmission procedure which is used for transmitting the optical signal through the optical fiber line; an optical-electro signal conversion procedure which is used for converting the optical signal outputted by the optical fiber line to electric signal; and a signal transmission procedure which is used for inputting the electric signal into a working module. The device comprises a baseband data chip, an electro-optical coupler, an optical fiber line, a photoelectric coupler and a working module. The technical scheme according to the invention adopts an optical signal transmission designing of the optical fiber line for replacing the original electric signal transmission designing of flexible circuit bus cable. As the transmission of optical fiber line has the characteristic of shielding, the interference of harmonic component of the high-speed data wire to the RF system can be thoroughly settled. The reception sensitivity of the whole set can be increased and the EMI wave filter in the conventional circuit can be saved.
+150. 101267053 A charging device for mutual power complementation between portable devices
+CN
+17.09.2008
+H01M 10/44 Loading...
+H01M 10/44
+Loading...
+200710064372.0
+Lenovo Mobile Communication Technology Ltd.
+Jiang Fuchun
+H01M 10/44
+Loading...
+The present invention provides a charge equipment for realizing electrical quantity charging for each other between the portable equipments, including a power supply cathode, a power supply anode, further including a change-over switch and a charging interface; the power supply cathode, the power supply anode are connected with the two electrodes of the change-over switch input end respectively, the two electrodes of the change-over switch output end are connected with the charging interfaces respectively. The equipment of the invention makes user charging the portable equipment which does not have electric quantity in any place and time, realizing charge between two portable equipments, avoiding loss of user.
+151. 101262661 A method and device for automatic charging of mobile terminal
+CN
+10.09.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710064277.0
+Lenovo Mobile Communication Technology Ltd.
+Li Lei
+H04Q 7/32
+Loading...
+The invention discloses a method for realizing automatic recharging of a mobile terminal. The mobile terminal automatically obtains the information of a rechargeable card, organizes the information to be the rechargeable information which can be identified by current chargeable stations of operators according to a format agreed by the operators, establishes connection with the rechargeable stations of the operators, sends the rechargeable information to the rechargeable stations of the operators, and receives the return messages for recharging sent by the rechargeable stations of the operators. Through the method and the device of the invention, users can automatically recharge the mobile terminal at rechargeable stations of different operators, thus saving the time of recharging for users.
+152. 201114613 具有实现广角拍摄鱼眼摄像头的手机
+CN
+10.09.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200720074691.5
+联想移动通信科技有限公司
+李丛
+H04Q 7/32
+Loading...
+本实用新型公开了一种具有实现广角拍摄鱼眼摄像头的手机，包括现有拍照手机的所有部件，其还具有一安装在手机上的鱼眼摄像头。该鱼眼摄像头的镜头采用类似鱼眼的凸出结构。内部还设有具有图像矫正功能的处理模块。该处理模块与手机后端的图像矫正软件结合工作，与手机上具备图像显示功能的部件相连接。该摄像头可实现90～120度的广角拍摄，而内部所设的图像矫正处理模块通过手机后端的图像矫正软件将根据镜头的畸变特性将影像矫正成正常无畸变影像。其最终得到的图像比起现有摄像头所摄取的图像为超广角不失真的全景图像。本实用新型能实现的广角拍摄范围广，可以与数码相机广角效果相媲美。
+153. 201114611 带个性标识的手持终端
+CN
+10.09.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200720073058.4
+联想移动通信科技有限公司
+陈铭镛
+H04Q 7/32
+Loading...
+本实用新型公开了一种具有个性化标识的手持终端，包括手持终端壳体，在壳体上还包括一组或多组标识，所述标识以粘贴或覆盖的方式附着在手持终端壳体上。本实用新型借助手持终端壳体上的可供使用者方便开启(或关闭)的多种标识别，使使用者的手持终端具备了个性化标识，以区别于其它使用者的手持终端。
+154. 101242597 Method and device for automatically selecting scenario mode according to environmental noise method on mobile phone
+CN
+13.08.2008
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+200710008564.X
+Lenovo Mobile Communication Technology Ltd.
+Xiang Fei
+H04W 88/02
+Loading...
+The present invention provides a method and device of automatic selection contextual model on the mobile phone according to environmental noise, mainly including: sampling analysis audio file stored in the mobile phone memory, relegating noise grade according to the sampling digit and its distribution, applying the audio file to the contextual model, which is corresponding to the environmental characteristics according to the noise grade of the audio file; testing the present environmental characteristics and determining the contextual model corresponding to the environmental characteristics; judging whether having switching condition of the contextual model or not, if having, switching the present contextual model to the contextual model corresponding to the environmental characteristics, if no, keeping the present contextual model. The invention can automatically process noise grade classification of the audio file stored in the mobile phone, and automatically applies in the corresponding contextual model, the phone user can not need choose music from the contextual model, improving the convenience of user, enhancing the accuracy of the corresponding relation of music and contextual model at the same time.
+155. 101237256 Electronic device and NFC-control method based on other electronic device
+CN
+06.08.2008
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+200710008538.7
+Lenovo Mobile Communication Technology Ltd.
+Lu Weijia
+H04B 5/02
+Loading...
+The invention discloses an electronic device and a method for controlling the electronic device by other electronic devices through NFCs. By utilization of short-range NFC communication between electronic devices (first electronic devices) provided with perfect human-machine interfaces and NFCs and other electronic devices (second electronic devices) provided with original human-machine interfaces and NFCs, the first electronic devices acquire set menus and control menus of the second electronic devices, utilizes the humanized human-machine interfaces of the first electronic devices to display and set menu by input of options, and finally sends set menu commands and control menu commands back to the second electronic devices which then execute the commands according to the menu. The device and the method creatively adopt NFC transmission means for replacement of the original human-machine interfaces of the other electronic devices by the human-machine interfaces of the electronic devices like mobile telephones, and solve the technical problem of difficulty in operation due to the original human-machine interfaces of the other electronic devices.
+156. 101227539 Blind guiding mobile phone and blind guiding method
+CN
+23.07.2008
+H04W 88/00 Loading...
+H04W 88/00
+Loading...
+200710062852.3
+Lenovo Mobile Communication Technology Ltd.
+Luo Zhixin
+H04W 88/00
+Loading...
+The invention discloses a blind guiding cell phone, which comprises a baseband processing module and a voice output module, a range sensor and a camera shooting module, wherein the range sensor is used to detect barriers in the front and send the detecting results to the baseband processing module, the camera shooting module is used to collect the image data of the barriers in the front and transmit to the baseband processing module, the baseband processing module is used to gain the range information according to the detecting results and conduct the image matching identification for the barriers according to the image data and a local object mold base, and transmit the type and the range information of the barriers which are identified to the voice output module, and the voice output module is used to provide the type and the range information of the barriers to users through the voice way. The blind guiding cell phone and the process of the invention can provide specific information of the barriers for users, which is convenient for the action of users under the condition of paropsia.
+157. 201087959 用于手机的具有天线功能的手写笔
+CN
+16.07.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200720006793.3
+联想移动通信科技有限公司
+吕开金
+H04Q 7/32
+Loading...
+用于手机的具有天线功能的手写笔，包括可插设于手机主机壳的插槽内并与该插槽内的天线连接器接触的手写笔主体，该手写笔主体内插设有可自该手写笔的外伸端拉出的伸缩式天线。本实用新型将手机天线与手写笔结合为一体，可有效减小具有手写输入功能的手机的体积；并且适用于伸缩式的大体积天线，可应用于要求低频段的手机电视。
+158. 201086585 用于手机外壳设计的配色模板
+CN
+16.07.2008
+B44D 3/00 Loading...
+B44D 3/00
+Loading...
+200720006792.9
+联想移动通信科技有限公司
+王磊
+B44D 3/00
+Loading...
+用于手机外壳设计的配色模板，包括前上壳、后上壳、前下壳、后下壳，四者互相可拆卸地装配为一手机模型，并分别位于该手机模型的前上方、后上方、前下方、后下方。将前上壳、后上壳、前下壳、后下壳可拆卸地装配为一手机模型，通过更换不同颜色的部件，可得到不同的配色效果，比起现有的色板，本实用新型更加直观，使用更加方便。
+159. 201087925 一种I/O连接器短路保护电路
+CN
+16.07.2008
+H02H 11/00 Loading...
+H02H 11/00
+Loading...
+200720006980.1
+联想移动通信科技有限公司
+姚鹏飞
+H02H 11/00
+Loading...
+本实用新型公开了一种I/O连接器短路保护电路。该短路保护电路用于电子产品，该电子产品具有系统、电源以及I/O连接器，该短路保护电路包含有一单向电路以及一控制电路。单向电路连接于电源的正极与I/O连接器的供电脚之间，用于控制电流方向并防止出现反向短路电流的单向电路。控制电路具有两连接脚以及一控制脚，该两连接脚分别连接于单向电路的两端，该控制脚连接于系统控制信号脚，用于控制电源向外供电。本技术方案的I/O连接器短路保护电路中，单向电路用于在供电引脚发生短路的情况下阻止反向电流流过，控制电路用于控制电源向外供电，因此不但可使接口的双向供电能力不受影响，而且还可有效保护电池安全，保证系统正常稳定的工作。
+160. 101216731 Portable electronic apparatus and its line traffic control accomplishing method
+CN
+09.07.2008
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+200710063278.3
+Lenovo Mobile Communication Technology Ltd.
+Fan Lifeng
+G06F 3/023
+Loading...
+The invention discloses a portable electronic device and a wire-control method. The portable electronic device includes an earphone socket, a CPU and an interruption detecting module. During the wire-control process through a wire-control earphone, the CPU records the time from the press-down to release of the wire-control earphone key-press, compares the time length with the preset threshold to judge and record the type of the key-press corresponding to the time length, and performs corresponding functions according to the recorded type of key-press for one-time operation or the combination of key-press types for many times of operation. With the simple wire-control earphone provided by the invention, various control functions can be performed to the portable electronic device.
+161. 101207871 Mobile terminal and method for playing music ring
+CN
+25.06.2008
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200610169577.0
+Lenovo Mobile Communication Technology Ltd.
+Liu Nan
+H04M 1/725
+Loading...
+The invention discloses a method for playing the music ring, which comprises the following steps of: presetting the music ring information which includes the music file information, a playing time point and a stopping time point; playing the music section from the playing time point to the stopping time point in the music file when the exportation takes place. Correspondingly, the invention also discloses a mobile terminal. With the invention the user can freely select favorable music sections; the user needs not to cut music section on the PC and import to the mobile terminal; therefore greatly facilitating the user. Moreover, no additional memory occupation and processor resource consumption are taken by the mobile terminal.
+162. 101197965 Mobile terminal and method for reminding of watching television program
+CN
+11.06.2008
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200610164853.4
+Lenovo Mobile Communication Technology Ltd.
+Liu Nan
+H04N 5/445
+Loading...
+The invention discloses a mobile terminal and a method for reminding of watching digital television programs on the mobile terminal, wherein, the mobile terminal of the invention comprises a memory unit which is used for receiving and storing guide information of electronic programs and also comprises an execution unit, wherein, the memory unit is further used for storing information of a program which needs to be reminded of watching when an instruction that the program needs to be reminded of watching is received; the execution unit is used for executing reminding operation when time information among the information of the program which needs to be reminded of watching in the memory unit meets set reminding conditions. The mobile terminal and the method for reminding of watching digital television programs on the mobile terminal of the invention can timely remind a user about watching the television programs, and the user does not need to repeatedly browse and remember menu guide information of the electronic programs, thereby the invention provides convenience for the user.
+163. 101197580 Impedance matching and processing equipment and method thereof
+CN
+11.06.2008
+H04B 1/04 Loading...
+H04B 1/04
+Loading...
+200610164854.9
+Lenovo Mobile Communication Technology Ltd.
+Luo Zhixin
+H04B 1/04
+Loading...
+The invention discloses a device of impedance matching processing and a method of impedance matching processing, wherein, the device of impedance matching processing is connected between a power amplifier and an output device, and comprises an impedance matching module which consists of three variable capacitance diodes and at least one PI circuit with fixed inductor; a power amplifier parameter detection module which is used for detecting the current and the power of the power amplifier; a variable capacitance diode bias voltage generating module which is used for determining an actual impedance of an input device in the output direction according to the detected current and power of the power amplifier, and used for outputting bias voltage which is generated according to the actual impedance and a corresponding best impedance to the cathode of a corresponding variable capacitance diode. The device and the method of the invention can fulfill full range impedance matching, meanwhile has the advantages of simple fulfillment, small cubage and low cost.
+164. 101175101 Sound processing method and device for mobile phone microphone
+CN
+07.05.2008
+H04M 1/19 Loading...
+H04M 1/19
+Loading...
+200610069594.7
+Lenovo Mobile Communication Technology Ltd.
+Hu Jianbo
+H04M 1/19
+Loading...
+A sound processing method and a equipment for the microphone of the mobile phone mainly transforms the sound signal received by the microphone to the analog audio signal, and obtains a digital audio signal after the analog-digital conversion; the equipment carries out the coding of the digital audio signal according to the transmission form and transmits the code element to a digital baseband chip. The digital baseband chip codes and modulates the code element according to the wireless communication protocol and then sends out the code element. The invention firstly carries out the digitalization of the voice signal of the microphone, and secondly transmits the digitized audio signal. The modularization and the shielding of the entire circuit can realize the partial separation of the module and the digit for the phone at the highly miscellaneous environment of analog digital signal, reduce the interference of various radiation and conduction, so as to eliminate the interference on the audio signal from the other signal of the motherboard of the mobile phone, and result in the purer audio signal received by the other talking party.
+165. 101175285 Automatic testing method and system for mobile phone software
+CN
+07.05.2008
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200610135203.7
+Lenovo Mobile Communication Technology Ltd.
+Chen Daohu
+H04Q 7/34
+Loading...
+The present invention relates to the automatic test method and the system of mobile phone software. The method mainly includes five steps; firstly, the keystroke operation of a mobile phone is simulated by a program-controlled switching switch; secondly, communication between a base station and the mobile phone is simulated by a comprehensive mobile phone tester; thirdly, the images of the display screen of the mobile phone are real-timely collected by a camera; fourthly, according to a test task, an industrial control computer controls the unified operation of the program-controlled switching switch and the comprehensive mobile phone tester, collects information coming from the serial port of the mobile phone and the camera-collected real-time images of the display screen of the mobile phone and compares the collected real-time images with corresponding preset template images; fifthly, according to the information coming from the serial port of the mobile phone and the comparison result of the images, the industrial control computer judges the operation state of the mobile phone software. The present invention can accurately simulate the process in which a person operates a mobile phone, so the test result is more accurate. Moreover, the present invention can increase the test efficiency and ensure the comprehensive traversal of test cases.
+166. 101175284 Function testing method of portable electronic apparatus
+CN
+07.05.2008
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200610135202.2
+Lenovo Mobile Communication Technology Ltd.
+Yang Xueying
+G06F 11/36
+Loading...
+The present invention discloses the functional testing method of a portable electronic device, the portable electronic device is provided with a keyboard. The testing method includes three steps, . Step A is script recording, keystroke operations are performed on the keyboard of the electronic device in order to produce keystroke information, the produced keystroke information data is sent to a computer which receives the keystroke information; step B is script playback and includes two steps; in step B1, the computer converts the keystroke information data into the corresponding keystroke instructions, a test script file is formed by the keystroke instruction sequences, the computer plays back the test script file and sends keystroke instruction data to the electronic device; in step B2, the electronic device receives the keystroke instruction data and automatically executes the keystroke instructions in order to test the functions of the electronic device. The generation, the modification and the maintenance of the test script file of the present invention are simple and convenient.
+167. 201044087 手机照相支架
+CN
+02.04.2008
+G06F 3/033 Loading...
+G06F 3/033
+Loading...
+200720006516.2
+联想移动通信科技有限公司
+黄波
+G06F 3/033
+Loading...
+本实用新型手机照相支架，涉及一种移动通信手机的附件。解决手机照相支架不便于携带且作用单一的问题。它是将手机触笔分为笔头、下端敞开的空心笔杆、笔尾三部分；笔头可拆地联接笔杆的下端；该笔杆的管壁设沿其轴向延伸的滑槽，笔杆中设有滑动的卡扣和三个支脚可张开的弹性脚架，脚架上端与卡扣下端相连接；卡扣上端设有径向延伸的凸块，所述的凸块从笔杆的滑槽中向外伸出；笔杆上端设有联接手机的螺纹部，笔尾设螺纹连接笔杆上端的螺纹部。作为触笔使用时，脚架的三个支脚并拢随卡扣收藏在笔杆中，笔头和笔尾都安装在笔杆上。作为照相支架使用时，从笔杆上卸下笔头和笔尾，将卡扣推到滑槽下端，脚架的三个支脚从笔杆中伸出并张开。
+168. 201041824 袖珍移动通信设备的调频接收天线装置
+CN
+26.03.2008
+H01Q 1/24 Loading...
+H01Q 1/24
+Loading...
+200720006646.6
+联想移动通信科技有限公司
+陆维佳
+H01Q 1/24
+Loading...
+本实用新型袖珍移动通信设备的调频接收天线装置，涉及移动通信设备的接收天线。解决调频接收天线占用机内的空间或不便于携带和使用的问题。该天线装置，FM天线匹配电路的输出端连接FM芯片的调频信号输入端，FM天线匹配电路的输入端连接外壳上的一个金属连接件，该金属连接件与一条金属挂绳相连接。本实用新型选择金属挂绳和外壳上的金属连接件组成FM天线，符合袖珍设备通常配备挂绳的习惯，可以被各种人群所接受。其金属连接件与金属挂绳端头连接的结构简单而且灵活多样。因此非常适合在袖珍移动通信设备上推广应用。
+169. 101140760 Sound signal collecting and processing system and method thereof
+CN
+12.03.2008
+G10L 21/02 Loading...
+G10L 21/02
+Loading...
+200610151451.0
+Lenovo Mobile Communication Technology Ltd.
+Hu Jianbo
+G10L 21/02
+Loading...
+The invention discloses a system and method for sound signal acquisition and processing, which comprises a sound signal acquisition module, a sound signal pretreatment module, a beam forming module, a D/A conversion module and a noise elimination module and is used for acquiring the frequency of the beam outputted by beam forming module which is the same as that of the first spectrum component, and then send it to the D/A conversion module. The sound pressure difference of the said first spectrum component on the pick-up surface of the sound sensing element is at the predetermined value range. The said sound signal acquisition module includes a plurality of sound sensing elements whose pick-up surfaces vary with the sound source need to collect in distance. By making the sound sensing elements coaxial and co-rotated and setting a certain interval distance, the invention filters out the spectrum components whose sound pressure difference is not in the predetermined value range to eliminate the effect caused by noise inside and outside the beam and improve the quality for signal processing.
+170. 201035519 键盘
+CN
+12.03.2008
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+200720103413.8
+联想移动通信科技有限公司
+朱保玉
+G06F 3/023
+Loading...
+本实用新型公开了一种键盘，包括：按键单元和中央处理器，所述的按键单元包括按键和键盘电路，所述的键盘电路输出端与中央处理器连接，中央处理器根据接收到的键盘电路输出信号确定键值，所述的键盘电路印制在挠性印制电路板上；该键盘还包括设置在按键下、当按键按下时与按键接触的压电传感器和压力检测电路，所述的压力检测电路与所述压电传感器和所述中央处理器连接，将压力传感器接收到压力后产生的电信号进行处理后输入中央处理器，所述中央处理器根据接收到的上述信号和确定的键值执行相应的操作。本实用新型结构简单，安装方便；且硬件电路可靠性高；通过对按键力大小的采集，能够有效地实现用户与上层设备的情感互动。
+171. 101132428 Implementing method for virtual simulation keyboard of mobile communication terminal
+CN
+27.02.2008
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200610115075.X
+Lenovo Mobile Communication Technology Ltd.
+Chen Shunxiang
+H04M 1/02
+Loading...
+This invention discloses a method for realizing virtual simulated keyboards of mobile communication terminals including: a virtual keyboard in the same pattern with the keys of a physical keyboard of a mobile communication terminal enters into a state for input, if the keyboard receives a touch signal, it analyzes and determines the touched key and executes related action to the key according to the operation kind of the touched key, if the key pressed by a user is an input method switch one, said virtual keyboard enters into a waiting state, if it is a non-input method, it gets a virtual key pressed by the user and analyzes and displays corresponding information of the key.
+172. 201021993 一种带有触笔的触摸屏设备
+CN
+13.02.2008
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+200620158768.2
+联想移动通信科技有限公司
+何庆生
+G06F 3/041
+Loading...
+一种带有触笔的触摸屏设备，包括带有触摸屏的主体和可自由分离地接合于所述主体的触笔，所述主体中具有执行预定操作的控制模块，所述控制模块设有开关部件，所述触笔与所述主体的接合/分离可接通/断开所述开关部件。本实用新型的带有触笔的触摸屏设备解决了现有触摸屏设备操作复杂的问题，提高了设备的易用性，方便了用户的操作。
+173. 101118472 Device and method supporting hand-written input and keyboard input
+CN
+06.02.2008
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+200610108963.9
+Lenovo Mobile Communication Technology Ltd.
+Guo Zichao
+G06F 3/041
+Loading...
+The present invention discloses a device which supports the handwriting input and the keyboard input and a method of the handwriting input and the keyboard input. When the input signal is a handwriting input signal, the user can directly enter into a handwriting input recognizing and processing course; when the input signal is a keyboard input signal, the user can directly enter into a keyboard input processing course. The present invention comprises a keyboard, a contacting board, and a display screen, and is characterized in that the present invention also comprises a handwriting input and keyboard input seamless linking module which is respectively connected with the keyboard, the contacting board and the display screen; the handwriting input and keyboard input seamless linking module is used for identifying whether the input signal is the handwriting input from the contacting board or the input from the keyboard, the handwriting input recognizing and processing is performed for the handwriting input signal from the contacting board, and the keyboard input processing is performed for the input signal from the keyboard. The device and the method provided by the present invention can realize the seamless switching of the handwriting input and the keyboard input.
+174. 101119546 Mobile terminal and radio-frequency radiation detector with detecting function
+CN
+06.02.2008
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200610110638.6
+Lenovo Mobile Communication Technology Ltd.
+Huang Hao
+H04M 1/725
+Loading...
+The present invention discloses a mobile terminal with the function of detection and radio frequency radiation detector. The mobile terminal comprises a baseband processor and a radio frequency radiation detector which is used for detecting the radio frequency radiation signal of the surroundings, and transferring the radio frequency radiation signal into the digital signal, delivering to the baseband processor to deal; the baseband processor also includes a radio frequency radiation detecting control module used for starting the radio frequency radiation detector when choosing to start, and controlling the radio frequency radiation detector, when the radio frequency radiation detector in the mobile terminal is in the radio frequency sending state, closing the radio frequency radiation detector. The radio frequency radiation detector comprises a radio frequency radiation receiving antenna, an antenna resonance matching circuit unit, a wide band diode off-set and transrectification circuit unit, a direct voltage operation enlarging circuit unit and an AD transducer. The detection of the present invention to the radio frequency radiation is more convenient and quicker, the realized function is more varied, flexible and complex.
+175. 201011733 手持设备上的旋转摄像头装置
+CN
+23.01.2008
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+200720067144.4
+联想移动通信科技有限公司
+周吉庆
+H04N 5/225
+Loading...
+本实用新型的提供一种结构简单、合理，外观效果好，且成本低，在手持设备上容易实现的旋转摄像头装置。该装置包括设置在手持设备壳体上的摄像头模组容纳槽、滑动卡扣组件容纳槽和滑动推出组件容纳槽；一设置于所述摄像头模组容纳槽中并可在摄像头模组容纳槽中滑动、旋转、伸出手持设备壳体的圆柱体摄像头模组；一设置于所述滑动卡扣组件容纳槽中的滑动卡扣组件；一设置在手持设备壳体一侧，可驱动所述卡位件离开卡位槽的按钮组件；一设置于所述滑动推出组件容纳槽中的滑动推出组件；设置在各容纳槽上覆盖容纳槽中各部分组件的盖体。本实用新型可旋转的摄像头满足了多角度取景拍摄的要求，而且操作也相当的便捷。
+176. 201011548 一种任意角度旋转的摄像头
+CN
+23.01.2008
+G03B 29/00 Loading...
+G03B 29/00
+Loading...
+200620010937.8
+联想移动通信科技有限公司
+江福椿
+G03B 29/00
+Loading...
+本实用新型公开了一种任意角度旋转的摄像头，该摄像头设于电子设备上，电子设备上对立固设有两支架；摄像头包括摄像头模块，PCB印制板安装于电子设备内，摄像头模块可旋转设于两支架之间；所述的摄像头模块侧面固设有第一信号连接部，第一信号连接部和摄像头模块的摄像头模组之间信号连接；所述的配合于第一信号连接部的支架上固设有第二信号连接部，第二信号连接部和PCB印制板之间信号连接；第一信号连接部和第二信号连接部之间相接触并信号连接，第一信号连接部相对第二信号连接部的滑动轨迹为圆心位于摄像头模块旋转轴线上的圆形。任意旋转摄像头也不会影响到数据信号传输、也不会损坏信号连接线，能实现任意角度旋转，能实现全方位角度的摄像。
+177. 201008172 一种双盖手机
+CN
+16.01.2008
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200620167586.1
+联想移动通信科技有限公司
+陆维佳
+H04M 1/02
+Loading...
+本实用新型公开了一种双盖手机，包括上盖、下盖和受话器，以及位于上盖的出音孔和与出音孔连通的音腔；受话器位于上盖和下盖的接合部，当上盖和下盖处于打开状态时，受话器位于音腔的另一端出口侧，受话器的声音播出方向正对音腔。通过本实用新型提供的双盖手机，受话器位于上盖和下盖的结合部位，从而和现有的双盖手机的设计相比更靠近主板，当手机处于使用状态时，通过音腔和出音孔可以将受话器发出的声音较好地传送到使用者。
+178. 200997739 显示器可旋转的手持设备
+CN
+26.12.2007
+H05K 7/16 Loading...
+H05K 7/16
+Loading...
+200620048131.8
+联想移动通信科技有限公司
+陈世发
+H05K 7/16
+Loading...
+本实用新型提供了一种显示器可旋转并能在任意角度停顿，其自身能够稳定的放置的手持设备，以增强手持设备的实用性和使用范围。该显示器可旋转的手持设备，包括：第一壳体；第二壳体；一设置在两壳体边缘，连接第一壳体和第二壳体并使两壳体能相对转动的转轴机构。本实用新型的手持设备，精巧的转轴机构设置，使得手持设备可以稳定放置，当使用者在观看手机电视时感觉轻松而惬意，多扬声器的设置使得手持设备的音效大幅度提高，手持设备摄像头作为计算机视频头使用的时候，无需再使用任何支架来支撑，隐藏在手持设备旋转结合部的外置存储卡插口和I/O连接口，可有效避免接口接触灰尘，当不旋转手持设备时，整个手持设备浑然一体，更加美观。
+179. 200990598 手持电子设备
+CN
+12.12.2007
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+200620133460.2
+联想移动通信科技有限公司
+周吉庆
+H04B 1/38
+Loading...
+本实用新型的手持电子设备包括支架和设有显示屏的本体，支架通过连接装置枢装于所述本体，并可在重合位置和支撑位置之间转动，连接装置包括第一旋转构件、第二旋转构件和弹性构件，其中第一旋转构件固定于支架上；第二旋转构件连接于本体上，并可旋转地与第一旋转构件咬合；弹性构件的一端设置于第一旋转构件的轴向端，另一端位于第二旋转构件的一侧，以使第一旋转构件与第二旋转构件稳定地咬合。本实用新型的手持电子设备，不仅结构简单、合理，外观效果好、成本低；而且其上的支架能够取代传统的手机支座，便于使用。
+180. 200983611 一种手持设备的背光照明装置
+CN
+28.11.2007
+H04M 1/22 Loading...
+H04M 1/22
+Loading...
+200620149711.6
+联想移动通信科技有限公司
+江福椿
+H04M 1/22
+Loading...
+本实用新型公开了一种用于为手持设备提供背光照明的背光照明装置，该装置包括：光源，以及光纤束，所述光纤束的一端正对光源，另一端固定在该手持设备的待照明区域周围，并朝向待照明区域。本实用新型所述的背光照明装置，电路简单，避免了现有技术中电感对射频电路的电磁干扰；并且，本实用新型所述的背光照明装置，在待照明区域填充散射材料对光纤输出端发射的光线进行散射，得到了良好的视觉效果。
+181. 200983730 手持电子设备
+CN
+28.11.2007
+H05K 7/14 Loading...
+H05K 7/14
+Loading...
+200620133459.X
+联想移动通信科技有限公司
+周吉庆
+H05K 7/14
+Loading...
+一种手持电子设备，包括支架和设有显示屏的本体，支架通过连接装置枢装于本体，并可在重合位置和支撑位置之间转动，连接装置包括凸轮轴、凸轮构件和第一弹性构件，其中凸轮构件固定于本体上；凸轮轴固定于支架上，并可旋转地与所述凸轮构件咬合；第一弹性构件的一端设置于凸轮轴的轴向端，另一端位于凸轮构件的一侧，以使凸轮构件与凸轮轴上的凸轮面稳定地咬合。本实用新型的手持电子设备，不仅结构简单、合理，外观效果好、成本低；而且其上的支架能够取代传统的手机支座，便于使用；在设备支架闭合不使用时，该支架又与设备一体，具有装饰和保护功能。
+182. 200969602 添加香水并加以控制的手持设备
+CN
+31.10.2007
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200620044606.6
+联想移动通信科技有限公司
+方琼林
+H04M 1/02
+Loading...
+本实用新型提供一种添加香水并加以控制的手持设备，在这种手持设备中设置香水或其他液体容器，并对容器中的液体挥发进行控制。该手持设备，包括：一手持设备主体，一设置在手持设备主体内盛放液体的容器，其特征在于，还包括：一驱动装置，一塞体，所述液体容器顶部设有一气体挥发口，所述塞体与所述挥发口相配合，所述塞体可由上述驱动装置驱动而移动从而控制挥发口的开启和闭合。本实用新型的一种添加香水并加以控制的手持设备，通过机电一体化的控制，实现了对手持设备液体容器中液体挥发的控制，并通过可视的操作，实现人机交互式的控制，大大提高了手持设备的功能和品味。
+183. 2917107 透明翻盖手机
+CN
+27.06.2007
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200620042418.X
+联想移动通信科技有限公司
+杨万丽
+H04M 1/02
+Loading...
+本实用新型提供一种在透明翻盖上增加受话器的手机，它可以在该透明翻盖上设置受话器的导线，它包括一翻盖和一手机主机，所述翻盖通过一转轴机构与主机相连，所述翻盖包括：一不透明部件以及一透明部件，该部件对应主机输入部分，所述不透明部件设有一受话器，所述受话器通过所述导线与所述主机相连接，在所述导线布置的部位设有相应的定位槽，导线可嵌在上述定位槽内。本实用新型提供的手机的不透明翻盖部件，采用受话器设置在不透明部件内，而且受话器的导线可嵌在上述定位槽内，所以其结构简单，安装方便，制造成本低。
+184. 2785277 手机外露式天线的防转紧固结构
+CN
+31.05.2006
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200420052357.6
+联想移动通信科技有限公司
+林友斌
+H04M 1/02
+Loading...
+手机外露式天线的防转紧固结构，包括手机外壳和外露式的天线，手机外壳靠边缘位置设有一天线固定座，该固定座设有一嵌槽，该嵌槽内嵌设有一天线嵌件，固定座上还设有一个装配孔，天线嵌件中部也设有一个与该装配孔相连的固定孔，天线的底端设有一固定轴，该固定轴由外向内穿过固定座上的装配孔插设于天线嵌件的固定孔内，该天线嵌件上设有一螺纹孔，固定轴的相应位置设有一定位槽，另有一螺钉旋合于该螺纹孔内，螺钉的末端配合于该定位槽内。本实用新型使外露式天线能够牢固地和手机主体固定在一起，不会因发生相对转动而产生松动，维修时也能较方便地拆装天线，而且结构简单，成本低；另外，本实用新型适于异性天线的固定连接。
+185. 1655634 Information-display voice apparatus for mobile devices and method of realizing the same
+CN
+17.08.2005
+G10L 13/00 Loading...
+G10L 13/00
+Loading...
+200410039551.5
+Lenovo Mobile Communication Technology Ltd.
+Li Xiangdong
+G10L 13/00
+Loading...
+This invention provides a movable device information displaying sound reporting method and device, wherein the method comprises the following steps: acquiring display information string; and acquiring relative sound materials according to the string; playing the said sound materials. The device comprises the following parts: memory device to store the said display information relative sound files; display device to display the information of the movable device; reading device to read the said display information needing sound report string; matching device to math the relative sound materials; play device to play the said matching sound materials.
+186. 2672692 手机摄像头转轴的阻尼装置
+CN
+19.01.2005
+G03B 17/12 Loading...
+G03B 17/12
+Loading...
+03280897.6
+联想(北京)有限公司
+林友斌
+G03B 17/12
+Loading...
+一种手机摄像头转轴的阻尼装置，包括：一摄像头模块以及至少一转轴模块；该转轴模块包括：一与手机结合的嵌合件，以及一设置在该嵌合件自由端的盖体，该盖体内设置一弹性装置，以及一受该弹性装置抵顶而突出于该盖体通孔的钢珠，该摄像头模块包括：一与该手机电连接的摄像头，以及包覆于该摄像头外侧的壳体，该摄像头的镜头外露于该壳体上的透孔，该壳体至少一侧端设有一环壁，该环壁内侧界定出一内凹部，该环壁的内侧壁设有至少一定位凹槽，该转轴模块的盖体是嵌入于该摄像头模块的内凹部，该钢珠是抵顶于该环壁的内侧壁。本实用新型具有良好的阻尼效果，并且可以准确定位摄像头位置。
+187. 1516431 Wireless device interconnected with portable terminal
+CN
+28.07.2004
+H04M 11/00 Loading...
+H04M 11/00
+Loading...
+03100262.5
+Lenovo (Beijing) Co. Ltd.
+Sun Guobin
+H04M 11/00
+Loading...
+The invention provides a kind of wireless device which is connected to the portable terminal. The wireless device includes a wireless model which can carry on voice, instructions, data process, it also includes a power end, which is used to acquire electricity energy and supplies to the wireless model; a interface circuit which connects to the wireless model, which is used for data transmission with the portable terminal; a radiofrequency model connecting to the wireless model, which is used in reception and transmission of radiofrequency signal with wireless network. The device has the wireless communication function.
+188. 1444378 Ultra-long short message sending method
+CN
+24.09.2003
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+02104099.0
+Lenovo (Beijing) Co.
+Shi Jingwei
+H04M 3/42
+Loading...
+A method for sending super long or short message includes 1) according to a request of communication protocol 7-bit coding first maximum volume, the longest content is cut out from a paper beginning or end to examine if the said content is all 7-bit coding, if so, to go on with step 4 or to progress in step if not, 2) to cut out the content of maximum length from head or end to examine if there is single 7-bit code content, if so to carry out step 3, if not to step 4, in accordance of potocol 8-bit code second maximum volume 3) to reduce one syllable from to longest 4) to bundle the cut out content to be sent 5) to repeat step 1 from the cut point till all the content is segmented.
+

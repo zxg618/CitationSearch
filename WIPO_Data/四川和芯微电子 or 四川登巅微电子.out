@@ -1,0 +1,2401 @@
+1. 103927131 同步闪存U盘的启动方法及其控制系统
+CN
+15.02.2017
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+102014000112035
+四川和芯微电子股份有限公司
+唐剑
+G06F 3/06
+Loading...
+本发明公开了一种同步闪存U盘的启动方法及其控制系统，其启动方法包括如下步骤：a根据闪存控制器的起始读写时钟将固件的测试数据写至闪存数据缓存区；b根据起始读写时钟将测试数据读至U盘控制器内存区；c对比两内存区的测试数据是否一致，并记录对比结果及读写时钟的相位参数；d闪存控制器的起始读写时钟延迟一个延迟单位，并重复步骤a至d；e当记录结果由一致跳变至不一致时，停止重复步骤d；f从记录结果为一致的连续区间选择一个结果对应的读写时钟相位参数确定U盘访问闪存的时钟相位，并根据该时钟的相位启动U盘。本发明的技术方案可以合理利用同步闪存工作频率较高的优点，且排除了不同类型同步闪存芯片之间的差异以及PCB等因素的影响，大大提高U盘启动的速度和稳定性。
+2. 104090225 测试芯片管脚连通性的电路
+CN
+15.02.2017
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+102014000325556
+四川和芯微电子股份有限公司
+杨修
+G01R 31/28
+Loading...
+本发明公开了一种测试芯片管脚连通性的电路，其包括选择子电路、N个输入管脚及N个输出管脚，N为大于或等于2的自然数，所述选择子电路的输入端分别和芯片本体及各个所述输入管脚连接，所述选择子电路的输出端与各个所述输出管脚连接，当外部激励输入至各个所述输入管脚时，各个所述输入管脚将外部激励输入至所述选择子电路，所述选择子电路选择各个所述输入管脚的输出信号输出至各个所述输出管脚。本发明的测试芯片管脚连通性的电路，结构简单，节省了芯片面积和制造成本，可快速地实现对芯片管脚连通性的测试，外部测试环境也得以简化，减小了测试成本。
+3. 104238413 SOC系统芯片外部晶振判断电路
+CN
+01.02.2017
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+102014000452820
+四川和芯微电子股份有限公司
+杨修
+G05B 19/042
+Loading...
+本发明公开了一种SOC系统芯片外部晶振判断电路，其包括N个寄存器，N为大于或等于2的自然数，每个寄存器的时钟输入端与芯片的外部晶振输入管脚连接，当SOC系统芯片连接有外部晶振时，外部晶振的时钟通过外部晶振输入管脚输入各个寄存器的时钟输入端，外部上电复位信号输入每个寄存器的复位端，每个寄存器的输出端与输入端依次顺序连接，一与第1寄存器复位后的初始值相反的固定值输入第1寄存器的输入端，最后一个寄存器的输出端输出判断信号。本发明的电路无需修改量产程序，无需外部代码，通过在SOC系统芯片内部设置至少两个个寄存器即可实现对有外部晶振方式与无外部晶振方式的自动切换，电路简单，操作方便。
+4. 103762972 全差分电平转换电路
+CN
+25.01.2017
+H03K 19/0185 Loading...
+H03K 19/0185
+Loading...
+102014000019164
+四川和芯微电子股份有限公司
+张子澈
+H03K 19/0185
+Loading...
+本发明公开了一种全差分电平转换电路，包括正信号支路与负信号支路，且正信号支路与负信号支路结构特征完全相同均包括驱动端与负载端，外部全差分信号对应输入正信号支路与负信号支路的驱动端，其中，还包括耦合支路，耦合支路包括第一组有源耦合器件与第二组有源耦合器件，第一组有源耦合器件与第二组有源耦合器件均连接于正信号支路与负信号支路之间，且位于驱动端与负载端之间，第一组有源耦合器件与正信号支路的驱动端形成对耦结构，第二组有源耦合器件与负信号支路的驱动端形成对耦结构。本发明的全差分电平转换电路结构简单，可以实现低功耗、高速的应用，且大大地改善了输出信号的占空比。
+5. 103762989 数模转换电路
+CN
+25.01.2017
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+102014000019282
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本发明公开了一种数模转换电路，包括第一时钟产生子电路、共模电压产生子电路及转换主电路，其中，还包括第二时钟产生子电路与翻转子电路，第二时钟产生子电路与翻转子电路连接，且第二时钟产生子电路具有第三输出端与第四输出端，第三输出端与第四输出端输出互补的时钟脉冲，且当采样子电路处于采样状态时，第二时钟产生子电路输出的时钟脉冲进行翻转，翻转子电路分别与运算放大器的输出端及输入端连接，当第二时钟产生子电路输出的时钟脉冲翻转时，翻转子电路将运算放大器产生的失调电压及低频噪声的方向翻转。本发明的数模转换电路减小了运算放大器的功率，消除了运算放大器的直流失调及低频1/f噪声，提高了数模转换电路的信噪比。
+6. 103762988 音频数模转换电路
+CN
+25.01.2017
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+102014000019248
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本发明公开了一种音频数模转换电路，包括第一时钟产生子电路、共模电压产生子电路、转换主电路、第二时钟产生子电路、翻转子电路、第一互补开关子电路与第二互补开关子电路，第一互补开关子电路与第二互补开关子电路的一端均与采样子电路连接，另一端均与模拟信号输出端连接，第二时钟产生子电路与翻转子电路连接，且具有输出互补的时钟脉冲的第三输出端与第四输出端，翻转子电路分别与运算放大器的输出端及输入端连接，第二时钟产生子电路输出的时钟脉冲翻转时，翻转子电路将运算放大器产生的失调电压及低频噪声的方向翻转。本发明的音频数模转换电路减小了运算放大器的功率，消除了运算放大器的直流失调及低频1/f噪声，提高了音频数模转换电路的信噪比与精度，降低了谐波失真。
+7. 106227287 具有保护电路的低压差线性稳压器
+CN
+14.12.2016
+G05F 1/571 Loading...
+G05F 1/571
+Loading...
+201610683557.9
+四川和芯微电子股份有限公司
+刘勇
+G05F 1/571
+Loading...
+本发明公开了一种具有保护电路的低压差线性稳压器，包括分别与外部电源连接的偏置电路、误差放大电路、保护电路、功率管，偏置电路产生偏置电压并将偏置电压输入至误差放大电路与保护电路，外部差分信号输入至误差放大电路，误差放大电路对输入的差分信号进行放大并输入至保护电路，保护电路接收误差放大电路输出的信号，并输出至功率管，功率管的漏极输出稳定的输出电流；其中，保护电路包括由第一场效应管与第二场效应管组成的源跟随单元，第一场效应管的源极与外部电源连接，第一场效应管的漏极、栅极共同连接并与功率管的栅极连接，第二场效应管的源极与第一场效应管的漏极连接，第二场效应管的栅极与误差放大电路的输出端连接。本发明的电路简单，不仅减小了面积与功耗，而且同时实现了过流保护与短路保护。
+8. 106209082 锁相环电路
+CN
+07.12.2016
+H03L 7/089 Loading...
+H03L 7/089
+Loading...
+102016000536439
+四川和芯微电子股份有限公司
+何力
+H03L 7/089
+Loading...
+本发明公开了一种锁相环电路，其包括鉴相器、低通滤波器及压控振荡器，外部参考时钟输入鉴相器的一输入端，鉴相器的输出端与低通滤波器的输入端连接，低通滤波器的输出端与压控振荡器的输入端连接，压控振荡器的输出端与鉴相器的另一输入端连接；其中还包括通路选择器、电压/脉宽转换器、脉宽/电压转换器及本地振荡器，通路选择器的输入端与鉴相器的输出端连接，通路选择器的输出端可选择地与低通滤波器的输入端或脉宽/电压转换器的输入端连接，脉宽/电压转换器的输出端与电压/脉宽转换器的输入端连接，电压/脉宽转换器的输出端与低通滤波器的输入端连接。本发明的锁相环电路降低了压控振荡器输入端控制信号的高频分量,降低了锁相环电路输出信号的参考杂散，输出信号的频率更稳定可靠。
+9. 106020330 低功耗电压源电路
+CN
+12.10.2016
+G05F 3/26 Loading...
+G05F 3/26
+Loading...
+102016000584914
+四川和芯微电子股份有限公司
+蔡化
+G05F 3/26
+Loading...
+本发明公开了一种低功耗电压源电路，其包括第一支路与第二支路，第一支路产生一偏置电压输入至第二支路；第一支路由i个二极管连接的场效应管串联组成；第二支路包括第一场效应管、第二场效应管、第三场效应管、第四场效应管及第五场效应管，且第二场效应管与第三场效应管串联连接，第四场效应管与第五场效应管串联连接；第一场效应管的栅极与第j个场效应管的漏极连接，第一场效应管的源极与第二场效应管连接，第一场效应管的漏极与第五场效应管连接，第二场效应管与第三场效应管的连接点输出基准电压；i为大于1的正整数，j∈(2，i‑1)，且j为正整数。本发明的低功耗电压源电路的各个场效应管均工作在亚阈区，静态电流很低，并能产生与温度无关的基准电压，降低了功耗。
+10. 106026997 差分比较器
+CN
+12.10.2016
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201610453661.9
+四川和芯微电子股份有限公司
+蔡化
+H03K 5/22
+Loading...
+本发明公开了一种差分比较器，包括正端主体电路、负端主体电路、共模检测电路、主偏置电路及复制偏置电路，正端主体电路与负端主体电路相互连接并均与共模检测电路、复制偏置电路连接，正信号与正基准电压输入正端主体电路，负信号与负基准电压输入负端主体电路；共模检测电路还与复制偏置电路连接，共模检测电路检测正端主体电路与负端主体电路输出共模电压的变化；复制偏置电路还与主偏置电路连接，主偏置电路为整个差分比较器提供偏置信号，复制偏置电路对正端主体电路与负端主体电路进行等比例的复制。发明的差分比较器输出共模电压稳定在一定值，不会因为输入差分信号抖动而出现偏差，有效地保证了比较器的输出精度。
+11. 106026938 全差分比较器
+CN
+12.10.2016
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201610345328.6
+四川和芯微电子股份有限公司
+何力
+H03F 1/26
+Loading...
+本发明公开了一种全差分比较器，包括差分输入级与差分输出级，差分输入级包括正反馈通路、负反馈通路及偏置场效应管，差分输出级包括正输出单元与负输出单元，外部差分信号均输入负反馈通路与正反馈通路，负反馈通路、正反馈通路均分别与正反馈通路、偏置场效应管的漏极、正输出单元、负输出单元连接，外部一固定偏置电压输入偏置场效应管的栅极，偏置场效应管的源极接地，偏置场效应管为正反馈通路与负反馈通路提供偏置电流，正反馈通路与负反馈通路对输入的差分信号进行放大并输出至差分输出级，正输出单元输出经差分放大后的正信号，负输出单元输出经差分放大后的负信号。本发明的全差分比较器，节省了电路的功耗和面积，增强了放大器抵抗噪声的能力，增加了比较器的增益。
+12. 105978571 适用于单、双端输入的逐次逼近模数转换器
+CN
+28.09.2016
+H03M 1/38 Loading...
+H03M 1/38
+Loading...
+201610273712.X
+四川和芯微电子股份有限公司
+蔡化
+H03M 1/38
+Loading...
+本发明公开了一种适用于单、双端输入的逐次逼近模数转换器其包括输入采样开关、正端电容阵列、负端电容阵列、比较器、逐次逼近控制逻辑、正端选择开关阵列、负端选择开关阵列、控制开关组及切换开关；正端电容阵列、比较器通过输入采样开关与外部正相输入信号端连接；负端电容阵列、比较器通过输入采样开关与外部负相输入信号端连接，负端电容阵列通过控制开关组及切换开关与外部负相输入信号端连接，负端选择开关阵列与逐次逼近控制逻辑的输出端、控制开关组连接，切换开关与外部正相信号输入端、控制开关组连接；且正端选择开关阵列、负端选择开关阵列分别与正基准电压端、负基准电压端连接，比较器的输出端与逐次逼近控制逻辑的输入端连接。本发明的技术方案节省了的电容面积，降低了生产成本。
+13. 103762976 CDR锁定检测电路
+CN
+07.09.2016
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+102014000019184
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/085
+Loading...
+本发明公开了一种CDR锁定检测电路，包括第一分频器、第二分频器、第一采样器、第二采样器及锁定检测器，CDR输出的数据信号分别输入第一分频器的输入端及第一采样器的时钟控制端，第一分频器的输出端与第一采样器的输入端连接，CDR输出的时钟脉冲分别输入第二分频器的输入端及第二采样器的时钟控制端，第二分频器的输出端与第二采样器的输入端连接，第一采样器与第二采样器的输出端均与锁定检测器连接，锁定检测器对第一采样器输出的数据信号与第二采样器输出的时钟脉冲进行上升沿对齐的检测，并输出检测后的结果。本发明的CDR锁定检测电路尺寸功耗相对于传统结构纯数字或者纯模拟结构更低，且可对大于1Gbps的高速数据及任意协议的扩频载波进行检测，使用更灵活，运用范围更广。
+14. 105897168 RC振荡器
+CN
+24.08.2016
+H03B 5/04 Loading...
+H03B 5/04
+Loading...
+102016000239870
+四川和芯微电子股份有限公司
+何力
+H03B 5/04
+Loading...
+本发明公开了一种RC振荡器，其包括带隙基准电路、电流镜像电路、比较电压产生电路及周期信号产生电路，所述带隙基准电路与电流镜像电路及外部电源连接，所述带隙基准电路用以产生具有正温度系数的电流；所述电流镜像电路还分别与比较电压产生电路、周期信号产生电路连接，所述电流镜像电路将所述带隙基准电路产生的电流按比例镜像至所述周期信号产生电路；所述比较电压产生电路还与所述周期信号产生电路连接，且根据所述电流镜像电路的电流产生比较电压，并输入至所述周期信号产生电路；所述周期信号产生电路根据输入的电压、电流产生并输出周期振荡信号。本发明的RC振荡器结构简单，减少了所需比较器、电容个数，节省功耗也节省了电路面积，并且消除了比较器输入失调对振荡器输出频率的影响。
+15. 105867508 低压差线性稳压电路
+CN
+17.08.2016
+G05F 1/565 Loading...
+G05F 1/565
+Loading...
+201610235267.8
+四川和芯微电子股份有限公司
+蔡化
+G05F 1/565
+Loading...
+本发明公开了一种低压差线性稳压电路，其包括误差放大器、驱动器、第一电阻及第二电阻，外部基准电压输入误差放大器的正相输入端，误差放大器的输出端及第一电阻的一端均与驱动器连接，第一电阻的另一端与第二电阻的一端连接，第二电阻的另一端接地，且误差放大器的反相输入端与第一电阻的另一端及第二电阻的一端共同连接，其中，驱动器为N型耗尽场效应管，误差放大器的输出端与N型耗尽场效应管的栅极连接，外部电压输入N型耗尽场效应管的源极，N型耗尽场效应管的漏极与第一电阻的一端连接且为低压差线性稳压电路的输出端。本发明的低压差线性稳压电路结构简单，功耗低，且拓宽了所能驱动的负载范围。
+16. 103346744 电流运算器
+CN
+10.08.2016
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+102013000261106
+四川和芯微电子股份有限公司
+不公告发明人
+H03F 3/45
+Loading...
+本发明公开了一种电流运算器，其包括电阻及至少两组镜像模块，两组镜像模块包括第一镜像模块、第二镜像模块、第三镜像模块及第四镜像模块；外部第一电流分别输入第一镜像模块与第二镜像模块；外部第二电流分别输入第三镜像模块与第四镜像模块；第一镜像模块对外部第一电流的镜像比例与第三镜像模块对外部第二电流的镜像比例相同；第一镜像模块的输出端及第四镜像模块的输出端均与电阻的一端连接；第二镜像模块及第三镜像模块的输出端均与电阻的另一端连接。本发明的电流运算器不用事先知道比较电流值的大小并且输入电流源无需事先确定接入位置，就可准确地实现多路电路的电流差值及和值的运算，而且整个电流运算电路不存在失效问题，提高了运算精度。
+17. 103594108 音频播放系统
+CN
+27.07.2016
+G11C 7/16 Loading...
+G11C 7/16
+Loading...
+102013000594352
+四川和芯微电子股份有限公司
+邹铮贤
+G11C 7/16
+Loading...
+本发明公开了一种音频播放系统，包括依次连接的N位的存储器、数模转换器、低通音频功率放大器及驱动负载，其中音频播放系统，还包括失调消除电路，失调消除电路分别与N位的存储器的输出端、数模转换器的输入端、数模转换器的输出端及低通音频功率放大器的输出端连接，失调消除电路记录并存储数模转换器及低通音频功率放大器的固有失调电压信息，且失调消除电路将两失调电压信息与N位的存储器输出的N位的音频信号进行运算后输入数模转换器。本发明的音频播放系统可以有效的消除数模转换器及低通音频功率放大器的固有失调电压，而使音频播放系统在静态工作模式下，驱动负载上没有直流电流流过，避免了直流电流对驱动负载的影响，提高了音频播放系统应用时的可靠性。
+18. 105607871 智能U盘的控制方法
+CN
+25.05.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510956930.9
+四川和芯微电子股份有限公司
+唐剑
+G06F 3/06
+Loading...
+本发明公开了一种智能U盘的控制方法，其包括如下步骤：a、USB控制器接收到主机发送的数据包放置到FIFO存储器中，产生中断命令通知MCU；b、MCU解析接收到的命令，并判断所述命令的读写状态c、根据逻辑层的结果配置flash控制器的运行参数，启动flash传输DMA，并对flash进行物理读写；d、判断对flash的物理读写是否满足USB的读写长度要求。本发明的智能U盘的控制方法，所述MCU根据U盘实际工作情况可动态切换U盘主时钟的工作频率，实现了U盘控制器的性能和功耗的平衡，减小了U盘控制器在整个工作过程中的总功耗。
+19. 105301480 SOC芯片的测试方法
+CN
+03.02.2016
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201510800344.5
+四川和芯微电子股份有限公司
+舒鹏
+G01R 31/28
+Loading...
+本发明公开了一种SOC芯片的测试方法，其包括以下步骤：a.编写对应的测试程序，并初始化测试环境；b.加载测试程序至中央处理器；c.测试数据发生器根据加载的测试程序在系统函数库中调用对应的系统函数并生成测试事务列表；d.根据事务列表测试待测SOC芯片；e.判断待测SOC芯片的测试覆盖率。本发明的SOC芯片的测试方法能够很好地帮助验证工程师针对SOC芯片进行测试验证。在本发明实施例中验证工程师并不需要了解底层硬件的具体实施，验证工程师所编写的系统测试程序能够很好地移植到其它项目中，简化了测试过程，通用性强。
+20. 104965166 USB芯片的测试方法及系统
+CN
+07.10.2015
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201510420484.X
+四川和芯微电子股份有限公司
+曾月珑
+G01R 31/28
+Loading...
+本发明公开了一种USB芯片的测试方法，用于对USB3.0芯片进行多通道测试，其包括如下步骤：数据发生器随机产生测试数据包，对产生的测试数据包进行标记；将测试数据包随机传送至USB3.0芯片；串行接口单元将收到的测试数据包发送至USB3.0芯片的各个数据端点；各个数据端点对测试数据包进行并行处理；根据测试数据包的标记检测各数据端点对测试数据包的处理方式。同时，本发明还公开了一种USB芯片的测试系统。本发明的USB芯片的测试方法及系统在USB3.0芯片的测试过程中不受USB协议的限制，对USB3.0芯片的各数据端点的测试不受USB实际驱动程序的限制，可以在测试中最大可能的进行硬件的错误检测，完成对硬件的覆盖测试和错误跟踪定位。
+21. 104375547 System for detecting terminal load
+CN
+25.02.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201410453527.X
+四川和芯微电子股份有限公司
+李磊
+G05F 1/56
+Loading...
+The invention discloses a system for detecting a terminal load. The system is used for detecting whether a terminal is connected with the load or not in the transmitting process of a high-speed differential signal. The system comprises a transmitting end drive circuit, a load detection circuit, a receiving end circuit and two capacitors. The load detection circuit comprises a first detection sub circuit and a second detection sub circuit, the first detection sub circuit is connected between the transmitting end drive circuit and one capacitor, and the second detection sub circuit is connected between the transmitting end drive circuit and the other capacitor. The first detection sub circuit comprises a DC electrical source, a first resistor, a second resistor, a third resistor, a switch, a timer, a current source, a reference resistor and a comparator. The output end of the comparator outputs a first detection result. The second detection sub circuit has the structural feature which is completely the same as the structural feature of the first detection sub circuit, and the output end of a comparator of the second detection sub circuit outputs a second detection result. According to the system for detecting the terminal load, the terminal load can be detected accurately and rapidly, the structure is simple, the occupied domain area is small, and power consumption is low.
+22. 104267331 USB chip testing method
+CN
+07.01.2015
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201410472978.8
+四川和芯微电子股份有限公司
+曾月珑
+G01R 31/28
+Loading...
+The invention discloses a USB chip testing method used for testing a USB3.0 chip during data transmission between the USB3.0 chip and a storage medium. The method comprises the following steps that a, a detection module used for detecting the USB3.0 chip to be tested is designed, and the detection module is embedded in a code of a CPU of the USB3.0 chip; b, the CPU configures running parameter information of the detection module according to the content of the detection module; c, data transmission between the USB3.0 chip and the storage medium is started; d, the detection module collects running information of the code of the CPU and data information related to hardware of the chip; e, the detection module analyzes and sorts out the collected information and outputs the information to a terminal module. By means of the USB chip testing method, the data of a USB host and the storage medium can be tracked and detected in real time at any time in the testing process, whether data transmission between the USB chip and the storage medium is successful can be analyzed, and testing personnel can accurately position errors through a large amount of obtained information.
+23. 104270127 Pin multiplexing circuit of SOC
+CN
+07.01.2015
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201410472287.8
+四川和芯微电子股份有限公司
+杨修
+H03K 17/22
+Loading...
+The invention discloses a pin multiplexing circuit of an SOC. The pin multiplexing circuit comprises a power-on reset broadening sub-circuit, a sampling and storing sub-circuit, a pin and an equivalent pull-up resistor or an equivalent pull-down resistor. A power-on reset signal of the SOC is input to the power-on reset broadening sub-circuit, and the power-on reset broadening sub-circuit inputs the broadened power-on reset signal to the sampling and storing sub-circuit and the enabling end of the pin so as to control the sampling time point of the sampling and storing sub-circuit and the output of the pin. The external connection end of the pin is connected with an external application. The output end of the pin is connected with the SOC. The input end of the pin is connected with the sampling and storing sub-circuit. One end of the equivalent pull-up resistor or one end of the equivalent pull-down resistor is connected with the external connection end of the pin. The other end of the equivalent pull-up resistor is connected with an external power supply. The other end of the equivalent pull-down resistor is grounded. By means of the pin multiplexing circuit of the SOC, the fixed functional pin of the SOC can be multiplexed, the multiplexing rate of the pin of the SOC is increased, and the size of the SOC is reduced.
+24. 204009879 逻辑分析仪
+CN
+10.12.2014
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201420410283.2
+四川和芯微电子股份有限公司
+唐剑
+G06F 13/38
+Loading...
+本实用新型公开了一种逻辑分析仪，包括数据采集模块，时钟触发模块，PCIE控制器，PCIE接口，所述数据采集模块分别与所述时钟触发模块及PCIE控制器连接，所述PCIE接口分别与所述PCIE控制器及主机接口连接；所述数据采集模块根据所述时钟触发模块输出的时钟的频率采集输入的数据，所述PCIE控制器将所述数据采集模块采集获得的数据打包，打包后的数据通过所述PCIE接口传输至主机接口。本实用新型的逻辑分析仪利用PCIE的高带宽，省略逻辑分析仪内部数据存储单元，结构简单且节省了成本和简化设计，提高了逻辑分析仪的性能。
+25. 204008991 测试芯片管脚连通性的电路
+CN
+10.12.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420378744.2
+四川和芯微电子股份有限公司
+杨修
+G01R 31/28
+Loading...
+本实用新型公开了一种测试芯片管脚连通性的电路，其包括选择子电路、N个输入管脚及N个输出管脚，N为大于或等于2的自然数，所述选择子电路的输入端分别和芯片本体及各个所述输入管脚连接，所述选择子电路的输出端与各个所述输出管脚连接，当外部激励输入至各个所述输入管脚时，各个所述输入管脚将外部激励输入至所述选择子电路，所述选择子电路选择各个所述输入管脚的输出信号输出至各个所述输出管脚。本实用新型的测试芯片管脚连通性的电路，结构简单，节省了芯片面积和制造成本，可快速地实现对芯片管脚连通性的测试，外部测试环境也得以简化，减小了测试成本。
+26. 203950228 电流源电路
+CN
+19.11.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201420372294.6
+四川和芯微电子股份有限公司
+杨保顶
+G05F 1/56
+Loading...
+本实用新型公开了一种电流源电路，其包括正温系数电压产生子电路、电流镜像子电路及电流产生子电路，电流产生子电路包括第一放大器、第一场效应管、第二场效应管与第三场效应管，正温系数电压产生子电路产生一个与温度变化趋势相同的第一电压，且将第一电压输入至第一放大器的正向输入端，电流产生子电路产生的第一电流流经第一场效应管，其产生的第二电流流经第二场效应管；电流镜像子电路包括第二放大器、第四场效应管、第五场效应管及第六场效应管；第四场效应管镜像第二电流至第六场效应管，第五场效应管镜像第一电流至第六场效应管，第六场效应管的漏极输出产生的电流。本实用新型的电流源电路可有效减小温度电压，加工工艺及制程等对输出电流的影响，提高了输出电流的稳定性与准确度。
+27. 203950020 测试芯片管脚连通性的电路
+CN
+19.11.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420378451.4
+四川和芯微电子股份有限公司
+杨修
+G01R 31/28
+Loading...
+本实用新型公开了一种测试芯片管脚连通性的电路，其包括逻辑门子电路、选择子电路、N个输入管脚及M个输出管脚，N、M为大于或等于2的自然数，各个输入管脚均与逻辑门子电路连接，当外部激励输入至各个输入管脚时，各个输入管脚将外部激励输入至逻辑门子电路，当外部激励发生变化时，逻辑子电路的输出信号随着相应变化，选择子电路的输入端分别和逻辑门子电路的输出端及芯片本体连接，选择子电路的输出端与各个输出管脚连接，选择子电路选择逻辑子电路的输出信号输出至各个输出管脚。本实用新型的测试芯片管脚连通性的电路，结构简单，节省了芯片面积和制造成本，可快速地实现对芯片管脚连通性的测试，外部测试环境也得以简化，减小了测试成本。
+28. 203951234 USB下行端口充电器
+CN
+19.11.2014
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201420337093.2
+四川和芯微电子股份有限公司
+张国
+H02J 7/00
+Loading...
+本实用新型公开了一种USB下行端口充电器，设置于主机端口，其包括第一比较器、第二比较器、第三比较器、控制器及电子开关，第一比较器的正向输入端与第二比较器的反向输入端均与DP数据线连接，一低电压的参考电压输入第一比较器的反向输入端，一高电压的参考电压输入第二比较器的正向输入端，第三比较器的反向输入端与DM数据线连接，高电压的参考电压输入第三比较器的正向输入端，第一比较器、第二比较器及第三比较器的输出端均与控制器连接，电子开关的一端与DP数据线连接，另一端与DM数据线连接，电子开关的控制端与控制器的输出端连接。本实用新型的USB下行端口充电器使用简单、成本低廉，可使各USB外设进行正常充电，兼容性好。
+29. 203951450 高速时钟占空比检测系统
+CN
+19.11.2014
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201420337502.9
+四川和芯微电子股份有限公司
+李磊
+H03K 3/017
+Loading...
+本实用新型公开了一种高速时钟占空比检测系统，其包括第一检测环路与第二检测环路，第一检测环路包括第一采样器、第一多相位时钟发生器及数字逻辑电路，第一多相位时钟发生器根据待测高速时钟产生n相时钟脉冲，第一采样器根据n相时钟脉冲对待测高速时钟进行采样，数字逻辑电路计数输入的第一高速时钟信号的占空比；第二检测环路连接于第一多相位时钟发生器与数据逻辑电路之间，其根据第一多相位时钟发生器输出的一对相邻时钟而产生m相时钟脉冲，并在m相时钟脉冲下对待测高速时钟进行采样，数字逻辑电路计数输入的第二高速时钟信号的占空比。本实用新型的占空比检测系统可快速地检测待测高速时钟的占空比，检测结果准确、精度高，且所占版图面积小，功耗低，适用范围广。
+30. 104123212 System test method of USB chip
+CN
+29.10.2014
+G06F 11/28 Loading...
+G06F 11/28
+Loading...
+201410347403.3
+四川和芯微电子股份有限公司
+曾月珑
+G06F 11/28
+Loading...
+The invention discloses a system test method of a USB chip. The method is used for performing system test on a USB 3.0 chip and comprises steps as follows: a, a test encoding module marks all logic states in the standard USB 3.0 chip according to the sequence, and corresponding marking functions are generated; b, the test encoding module encodes the marking functions corresponding to the internal logic states of the chip according to a set encoding rule, and standard encoding values are formed and recorded into a standard file library; c, in a simulation process of the to-be-tested USB 3.0 chip, the test module encodes the internal logic states of the to-be-tested USB 3.0 chip according to the same encoding rule, obtained encoding values are recorded into a temporary file, encoding value contents and standard encoding value contents are compared, and the encoding value contents with different results are searched. According to the system test method of the USB chip, the investment cost is low, and the method and logic simulation are performed simultaneously in the test process, so that real time monitoring and error locating can be performed to the internal logic states of the USB 3.0 chip rapidly.
+31. 203896333 CDR鉴相器系统
+CN
+22.10.2014
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+201420275490.1
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/085
+Loading...
+本实用新型公开了一种CDR鉴相器系统，包括至少四组鉴相设备及两个或门，每组鉴相设备包括鉴相器、第一触发器及第二触发器，将在采样时钟三个连续相位时间点采样获得的采样信息输入各个鉴相器，鉴相器对输入的采样信息进行对比分析，鉴相器的第一输出端与第二输出端分别与第一触发器及第二触发器的输入端连接；系统时钟一与当前采样时钟的相位相异的时钟输入第一触发器与第二触发器的时钟控制端，系统时钟另一与当前采样时钟的相位相异的时钟输入第一触发器与第二触发器的使能端；每组鉴相设备的第一触发器均与一个或门的输入端连接，每组鉴相设备的第二触发器均与另一个或门的输入端连接。本实用新型的CDR鉴相器系统减少了系统延迟，降低了CDR鉴相器系统的抖动，提高了判决精度。
+32. 104090226 Circuit for testing connectivity of chip pins
+CN
+08.10.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201410326192.5
+四川和芯微电子股份有限公司
+杨修
+G01R 31/28
+Loading...
+The invention discloses a circuit for testing the connectivity of chip pins. The circuit for testing the connectivity of the chip pins comprises a logic gate sub-circuit, a selection sub-circuit, N input pins and M output pins, wherein N and M are natural numbers greater than or equal to two, and each input pin is connected with the logic gate sub-circuit. When external excitation is input to each input pin, each input pin inputs the external excitation to the logic gate sub-circuit. When the external excitation is changed, an output signal of the logic gate sub-circuit is changed correspondingly. The input end of the selection sub-circuit and the output end of the logic gate sub-circuit are connected with a chip body, the output end of the selection sub-circuit is connected with the output pins, and output signals of the selection sub-circuit are selected by the logic gate sub-circuit and output to the output pins. The circuit for testing the connectivity of the chip pins is simple in structure, the area and manufacturing cost of a chip are reduced, testing of the connectivity of the chip pins can be achieved rapidly, an external testing environment is simplified, and testing cost is reduced.
+33. 104079265 High-speed clock duty ratio detection system
+CN
+01.10.2014
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201410283505.3
+四川和芯微电子股份有限公司
+李磊
+H03K 3/017
+Loading...
+The invention discloses a high-speed clock duty ratio detection system. The high-speed clock duty ratio detection system comprises a first detection loop and a second detection loop. The first detection loop comprises a first sampler, a first multiphase clock generator and a digital logic circuit. The first multiphase clock generator generates n-phase clock pulses according to a high-speed clock to be detected, the first sampler samples the high-speed clock to be detected according to the n-phase clock pulses, and the digital logic circuit counts input duty ratios of first high-speed clock signals. The second detection loop is connected between the first multiphase clock generator and the digital logic circuit and generates m-phase clock pulses according to a pair of adjacent clocks output by the first multiphase clock generator, and samples the high-speed clock to be detected under the m-phase clock pulses, and the digital logic circuit counts duty ratios of input second high-speed clock signals. Through the duty ratio detection system, the duty ratios of the high-speed clock to be detected can be fast detected, and the high-speed clock duty ratio detection system is accurate in detection result, high in precision, small in occupied layout area, low in power consumption and wide in application range.
+34. 104079030 USB downlink port charger
+CN
+01.10.2014
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201410283587.1
+四川和芯微电子股份有限公司
+张国
+H02J 7/00
+Loading...
+The invention discloses a USB downlink port charger arranged on a host port. The USB downlink port charger comprises a first comparator, a second comparator, a third comparator, a controller and an electronic switch. Both the non-inverting input end of the first comparator and the inverting input end of the second comparator are connected with a DP data wire. Reference voltage of low voltage is input to the inverting input end of the first comparator. Reference voltage of high voltage is input to the non-inverting input end of the second comparator. The inverting input end of the third comparator is connected with a DM data wire. The reference voltage of the high voltage is input to the non-inverting input end of the third comparator. The output end of the first comparator, the output end of the second comparator and the output end of the third comparator are all connected with the controller. One end of the electronic switch is connected with the DP data wire and the other end of the electronic switch is connected with the DM data wire. The control end of the electronic switch is connected with the output end of the controller. The USB downlink port charger is easy to use, low in cost, capable of allowing all USB peripheral devices to be charged normally, and good in compatibility.
+35. 203813748 用于检测信号幅度的电路
+CN
+03.09.2014
+H03K 5/24 Loading...
+H03K 5/24
+Loading...
+201320838101.7
+四川和芯微电子股份有限公司
+张子澈
+H03K 5/24
+Loading...
+本实用新型提供一种用于检测信号幅度的电路，包括检测器及修调算法模块，所述检测器预设有基准阈值参考量，被测信号输入所述检测器，所述检测器的输出端与所述修调算法模块连接，所述修调算法模块记录所述检测器的输出结果并将所述输出结果进行译码并输出幅度编码值，且所述修调算法模块还产生一控制信号，所述控制信号控制所述基准阈值参考量从地电平上升至电源电平或从电源电平下降到地电平，且，当所述基准阈值参考量与所述被测信号交越时，所述检测器的输出结果为1，否则所述检测器的输出结果为0。本实用新型的用于检测信号幅度的电路使用数字方式对信号幅度进行检测，结构简单，功耗低，且芯片面积小，结果稳定，无PVT漂移。
+36. 203813761 移位分频器电路
+CN
+03.09.2014
+H03K 23/54 Loading...
+H03K 23/54
+Loading...
+201420145042.X
+四川和芯微电子股份有限公司
+张国
+H03K 23/54
+Loading...
+本实用新型公开了一种移位分频器电路，且为N分频的移位分频器电路，其中，N为大于或等于2的正整数，移位分频器电路包括反相器、N-1个寄存器及N-2个逻辑门器件；第N-1寄存器的输出端与反相器的输入端及各个逻辑门器件的一输入端连接，反相器的输出端分别与第1寄存器的输入端连接；各个逻辑门器件连接于第1寄存器至第N-1寄存器的输出端与输入端之间，且第1寄存器的输出端与第1逻辑门器件的另一输入端连接，第1逻辑门器件的输出端与第2寄存器的输入端连接，第N-2逻辑门器件的输出端与第N-1寄存器的输入端连接。本实用新型的移位分频器电路结构简单，在相同的分频需求下，所需的寄存器和逻辑门器件更少，而且在干扰过后可正常恢复分频。
+37. 203813760 移位分频器电路
+CN
+03.09.2014
+H03K 23/54 Loading...
+H03K 23/54
+Loading...
+201420143546.8
+四川和芯微电子股份有限公司
+张国
+H03K 23/54
+Loading...
+本实用新型公开了一种移位分频器电路，且为N分频的移位分频器电路，其中，N为大于或等于2的正整数，移位分频器电路包括反相器、N-1个寄存器及N-2个逻辑门器件；第N-1寄存器的输出端与反相器的输入端连接，反相器的输出端分别与第1寄存器的输入端及各个逻辑门器件的一输入端连接；各个逻辑门器件连接于第1寄存器至第N-1寄存器的输出端与输入端之间，且第1寄存器的输出端与第1逻辑门器件的另一输入端连接，第1逻辑门器件的输出端与第2寄存器的输入端连接，第N-2逻辑门器件的输出端与第N-1寄存器的输入端连接。本实用新型的移位分频器电路结构简单，在相同的分频需求下，所需的寄存器和逻辑门器件更少，而且在干扰过后可正常恢复分频。
+38. 203813763 频率锁定系统
+CN
+03.09.2014
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+201420191962.5
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/085
+Loading...
+本实用新型公开了一种频率锁定系统，用于在无晶振CDR电路中锁定时钟频率，其中，基准数据信息输入至第一低通滤波器的输入端，第一低通滤波器的输出端与第一摆幅检测器的输入端连接，第一摆幅检测器的输出端与比较器的正向输入端连接，比较器的输出端与电荷泵的输入端连接，电荷泵的输出端与电容的一端连接，电容的另一端接地，且电容的一端还与压控振荡器的输入端连接，压控振荡器的输出端与码型转换产生器的输入端连接，码型转换产生器的输出端与第二低通滤波器的输入端连接，第二低通滤波器的输出端与第二摆幅检测器的输入端连接，第二摆幅检测器的输出端与比较器的反向输入端连接。本实用新型的频率锁定系统频率锁定范围大，无倍频点。
+39. 203747769 快速比较电路
+CN
+30.07.2014
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201420027802.7
+四川和芯微电子股份有限公司
+杨保顶
+H03K 5/22
+Loading...
+本实用新型公开了一种快速比较电路，其包括级联的N级运算放大器、锁存器、偏置电路及控制信号产生电路，N≥2，需比较的两差分信号输入第一级运算放大器的输入端，第N级运算放大器的输出端与所述锁存器的输入端连接，所述偏置电路为各级放大器提供偏置电流，所述控制信号产生电路分别与N级运算放器及锁存器连接，所述控制信号产生电路为所述N级运算放大器与锁存器提供工作时序及复位控制信号，各级运算放大器具有完全相同的结构特征。本实用新型的快速比较电路不仅保证了高增益，而且提高了比较速度。
+40. 203747802 数模转换电路
+CN
+30.07.2014
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201420026183.X
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本实用新型公开了一种数模转换电路，包括第一时钟产生子电路、共模电压产生子电路及转换主电路，其中，还包括第二时钟产生子电路与翻转子电路，第二时钟产生子电路与翻转子电路连接，且第二时钟产生子电路具有第三输出端与第四输出端，第三输出端与第四输出端输出互补的时钟脉冲，且当采样子电路处于采样状态时，第二时钟产生子电路输出的时钟脉冲进行翻转，翻转子电路分别与运算放大器的输出端及输入端连接，当第二时钟产生子电路输出的时钟脉冲翻转时，翻转子电路将运算放大器产生的失调电压及低频噪声的方向翻转。本实用新型的数模转换电路减小了运算放大器的功率，消除了运算放大器的直流失调及低频1/f噪声，提高了数模转换电路的信噪比。
+41. 203747794 CDR锁定检测电路
+CN
+30.07.2014
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+201420026249.5
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/085
+Loading...
+本实用新型公开了一种CDR锁定检测电路，包括第一分频器、第二分频器、第一采样器、第二采样器及锁定检测器，CDR输出的数据信号分别输入第一分频器的输入端及第一采样器的时钟控制端，第一分频器的输出端与第一采样器的输入端连接，CDR输出的时钟脉冲分别输入第二分频器的输入端及第二采样器的时钟控制端，第二分频器的输出端与第二采样器的输入端连接，第一采样器与第二采样器的输出端均与锁定检测器连接，锁定检测器对第一采样器输出的数据信号与第二采样器输出的时钟脉冲进行上升沿对齐的检测，并输出检测后的结果。本实用新型的CDR锁定检测电路尺寸功耗相对于传统结构纯数字或者纯模拟结构更低，且可对大于1Gbps的高速数据及任意协议的扩频载波进行检测，使用更灵活，运用范围更广。
+42. 203747803 音频数模转换电路
+CN
+30.07.2014
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201420027832.8
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本实用新型公开了一种音频数模转换电路，包括第一时钟产生子电路、共模电压产生子电路、转换主电路、第二时钟产生子电路、翻转子电路、第一互补开关子电路与第二互补开关子电路，第一互补开关子电路与第二互补开关子电路的一端均与采样子电路连接，另一端均与模拟信号输出端连接，第二时钟产生子电路与翻转子电路连接，且具有输出互补的时钟脉冲的第三输出端与第四输出端，翻转子电路分别与运算放大器的输出端及输入端连接，第二时钟产生子电路输出的时钟脉冲翻转时，翻转子电路将运算放大器产生的失调电压及低频噪声的方向翻转。本实用新型的音频数模转换电路减小了运算放大器的功率，消除了运算放大器的直流失调及低频1/f噪声，提高了音频数模转换电路的信噪比与精度，降低了谐波失真。
+43. 203747759 功率放大电路
+CN
+30.07.2014
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201420026159.6
+四川和芯微电子股份有限公司
+黄俊维
+H03F 3/20
+Loading...
+本实用新型公开了一种功率放大电路，包括第一级放大器、第二级放大器、第三级放大器、主反馈单元及频率补偿单元，外部两差分信号分别对应输入第一级放大器的两输入端，第一级放大器的输出端与第二级放大器的输入端连接，第二级放大器的输出端与第三级放大器的输入端连接，频率补偿单元连接于第一级放大器的输出端与第三级放大器的输出端之间，其中，功率放大电路还包括一辅助反馈单元，第二级放大器为差分输入放大器，第一级放大器的输出端与第二级放大器的正相输入端连接，第二级放大器的反相输入端与辅助反馈单元的一端连接，辅助反馈单元的另一端与第三级放大器的输出端连接。本实用新型的功率放大电路降低了其工作的非线性，降低了总谐波失真。
+44. 203747761 自动增益调节电路
+CN
+30.07.2014
+H03G 3/30 Loading...
+H03G 3/30
+Loading...
+201420026097.9
+四川和芯微电子股份有限公司
+杨保顶
+H03G 3/30
+Loading...
+本实用新型公开了一种自动增益调节电路，其包括可变增益放大电路、比较电压生成电路及信号检测电路，可变增益放大电路接收外部输入的语音信号并放大而输出放大后的语音信号，比较电压生成电路生成一个基准电压加载至信号检测电路，信号检测电路检测比较输出的语音信号的幅度与设定幅度的偏差，当可变增益放大电路输出的语音信号的幅度偏离设定幅度时，信号检测电路反馈一个变化的电压至可变增益放大电路，且可变增益放大电路依该变化的电压而调整其输出语音信号的幅度，以使可变增益放大电路输出的语音信号的幅度与设定幅度相同。本实用新型的自动增益调节电路接收外部输入的语音信号后，均能输出一个幅度与设定幅度相同的稳定的语音信号，提高了对接收到的语音信号的识别精度。
+45. 203747786 用于全差分信号的电平转换电路
+CN
+30.07.2014
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201420027796.5
+四川和芯微电子股份有限公司
+张子澈
+H03K 19/0175
+Loading...
+本实用新型公开了一种用于全差分信号的电平转换电路，包括正信号支路与负信号支路，且正信号支路与负信号支路结构特征完全相同均包括驱动端与负载端，外部全差分信号对应输入正信号支路与负信号支路的驱动端，其中，还包括耦合支路，耦合支路包括第一组有源耦合器件与第二组有源耦合器件，第一组有源耦合器件与第二组有源耦合器件均连接于正信号支路与负信号支路之间，且位于驱动端与负载端之间，第一组有源耦合器件与正信号支路的驱动端形成对耦结构，第二组有源耦合器件与负信号支路的驱动端形成对耦结构。本实用新型的用于全差分信号的电平转换电路结构简单，可以实现低功耗、高速的应用，且大大地改善了输出信号的占空比。
+46. 203747799 采样保持开关电路
+CN
+30.07.2014
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201420026283.2
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/54
+Loading...
+本实用新型公开了一种采样保持开关电路，其包括时钟产生子电路、栅压自举单元、采样场效应管及保持电容，其中，采样保持开关电路还包括衬底选择子电路，衬底选择子电路分别与信号输入端、信号输出端及采样场效应管的衬底连接，衬底选择子电路根据输入模拟信号与输出模拟信号的电压值的大小选择信号输入端或信号输出端连接采样场效应管的衬底，以消除采样场效应管的体效应。本实用新型的采样保持开关电路减小了采样场效应管由于栅源电压随输入信号变化产生的非线性，同时消除了采样场效应管的体效应，进一步提高了采样场效应管的线性度，提高了采样保持开关电路的动态范围。
+47. 203747798 采样开关电路
+CN
+30.07.2014
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201420026167.0
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/54
+Loading...
+本实用新型公开了一种采样开关电路，包括采样场效应管及保持电容，外部信号输入采样场效应管的源极，采样场效应管的栅极与外部电源连接，其漏极与保持电容的一端连接，保持电容的另一端接地；其中，还包括补偿电压产生子电路、加法子电路及栅压自举子电路，补偿电压产生子电路产生一个固定的电压输入至加法子电路，外部信号输入加法子电路，且加法子电路将固定电压及外部信号的电压相加并输出一叠加后的电压至栅压自举子电路，栅压自举子电路分别与加法子电路的输出端、采样场效应管的栅极及外部电源连接，并将其输出的电压加载至采样场效应管的栅极。本实用新型的采样开关电路提高了采样场效应管的线性度，降低了其等效输出阻抗，保证了采样速度及采样输出的精度。
+48. 203747801 音频数模转换系统
+CN
+30.07.2014
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201420025959.6
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本实用新型公开了一种音频数模转换系统，其包括时钟产生电路、共模电压产生电路及转换主电路，转换主电路包括采样子电路及积分子电路，且积分子电路由积分电容与运算放大器构成，采样子电路的输入端与外部差分信号输出端连接，其输出端分别与运算放大器的输入端及积分电容的一端连接，积分电容的另一端与运算放大器的输出端连接，且转换主电路关于运算放大器对称设置，其中，转换主电路还包括互补开关子电路，互补开关子电路的一端连接于外部差分信号输出端与采样子电路的采样电容之间，另一端与运算放大器的输出端连接，当转换主电路处于积分状态时，互补开关子电路导通。本实用新型的音频数模转换系统运算放大器的功耗低，整个系统的谐波失真低。
+49. 203746419 自动语音识别电路
+CN
+30.07.2014
+G10L 15/00 Loading...
+G10L 15/00
+Loading...
+201420026266.9
+四川和芯微电子股份有限公司
+杨保顶
+G10L 15/00
+Loading...
+本实用新型公开了一种自动语音识别电路，其包括可变增益放大电路、比较电压生成电路及信号检测电路，可变增益放大电路接收外部输入的语音信号并放大而输出放大后的语音信号，比较电压生成电路生成一个基准电压加载至信号检测电路，信号检测电路检测比较输出的语音信号的幅度与设定幅度的偏差，当可变增益放大电路输出的语音信号的幅度偏离设定幅度时，信号检测电路反馈一个变化的电压至可变增益放大电路，且可变增益放大电路依该变化的电压而调整其输出语音信号的幅度，以使可变增益放大电路输出的语音信号的幅度与设定幅度相同。本实用新型的自动语音识别电路接收外部输入的语音信号后，均能输出一个幅度与设定幅度相同的稳定的语音信号，提高了对接收到的语音信号的识别精度。
+50. 203573658 音频播放电路
+CN
+30.04.2014
+G11C 7/16 Loading...
+G11C 7/16
+Loading...
+201320745838.4
+四川和芯微电子股份有限公司
+杨保顶
+G11C 7/16
+Loading...
+本实用新型公开了一种音频播放电路，包括依次连接的N位的存储器、数模转换器、低通音频功率放大器及驱动负载，其中音频播放电路，还包括失调消除电路，失调消除电路分别与N位的存储器的输出端、数模转换器的输入端、数模转换器的输出端及低通音频功率放大器的输出端连接，失调消除电路记录并存储数模转换器及低通音频功率放大器的固有失调电压信息，且失调消除电路将两失调电压信息与N位的存储器输出的N位的音频信号进行运算后输入数模转换器。本实用新型的音频播放电路可以有效的消除数模转换器及低通音频功率放大器的固有失调电压，而使音频播放电路在静态工作模式下，驱动负载上没有直流电流流过，避免了直流电流对驱动负载的影响，提高了音频播放电路应用时的可靠性。
+51. 203574636 音频数模转换电路
+CN
+30.04.2014
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201320752207.5
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/66
+Loading...
+本实用新型公开了一种音频数模转换电路，包括第一时钟产生子电路、共模电压产生子电路及转换主电路，其中，还包括第二时钟产生子电路与翻转子电路，第二时钟产生子电路与翻转子电路连接，且第二时钟产生子电路具有第三输出端与第四输出端，第三输出端与第四输出端输出互补的时钟脉冲，且当采样子电路处于采样状态时，第二时钟产生子电路输出的时钟脉冲进行翻转，翻转子电路分别与运算放大器的输出端及输入端连接，当第二时钟产生子电路输出的时钟脉冲翻转时，翻转子电路将运算放大器产生的失调电压及低频噪声的方向翻转。本实用新型的音频数模转换电路减小了运算放大器的功率，消除了运算放大器的直流失调及低频1/f噪声，提高了音频数模转换电路的信噪比。
+52. 103762953 自动增益调节电路
+CN
+30.04.2014
+H03G 3/30 Loading...
+H03G 3/30
+Loading...
+201410019191.6
+四川和芯微电子股份有限公司
+杨保顶
+H03G 3/30
+Loading...
+本发明公开了一种自动增益调节电路，其包括可变增益放大电路、比较电压生成电路及信号检测电路，可变增益放大电路接收外部输入的语音信号并放大而输出放大后的语音信号，比较电压生成电路生成一个基准电压加载至信号检测电路，信号检测电路检测比较输出的语音信号的幅度与设定幅度的偏差，当可变增益放大电路输出的语音信号的幅度偏离设定幅度时，信号检测电路反馈一个变化的电压至可变增益放大电路，且可变增益放大电路依该变化的电压而调整其输出语音信号的幅度，以使可变增益放大电路输出的语音信号的幅度与设定幅度相同。本发明的自动增益调节电路接收外部输入的语音信号后，均能输出一个幅度与设定幅度相同的稳定的语音信号，提高了对接收到的语音信号的识别精度。
+53. 103762985 Sampling hold circuit
+CN
+30.04.2014
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201410019131.4
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/54
+Loading...
+The invention discloses a sampling hold circuit. The sampling hold circuit comprises a sampling field-effect tube and a holding capacitor. An external signal is input to the source electrode of the sampling field-effect tube, the grid electrode of the sampling field-effect tube is connected with an external power source, the drain electrode of the sampling field-effect tube is connected with one end of the holding capacitor, and the other end of the holding capacitor is connected to the ground. The sampling hold circuit further comprises an offset voltage generating sub circuit, an addition sub circuit and a grid voltage bootstrap sub circuit, wherein the offset voltage generating sub circuit is used for generating a fixed voltage to be input to the addition sub circuit, the external signal is input to the addition sub circuit, the addition sub circuit is used for adding the fixed voltage and the voltage of the external signal together and outputting an overlaid voltage to the grid voltage bootstrap sub circuit, and the grid voltage bootstrap sub circuit is respectively connected with the output end of the addition sub circuit, the grid electrode of the sampling field-effect tube and the external power source and is used for loading the voltage output by the grid voltage bootstrap sub circuit to the grid electrode of the sampling field-effect tube. According to the sampling hold circuit, the linearity of the sampling field-effect tube is improved, the equivalent output impedance of the sampling field-effect tube is reduced, and the sampling speed and the sampling output precision are guaranteed.
+54. 203554387 放大电路
+CN
+16.04.2014
+H03F 1/42 Loading...
+H03F 1/42
+Loading...
+201320713451.0
+四川和芯微电子股份有限公司
+张子澈
+H03F 1/42
+Loading...
+本实用新型公开了一种放大电路，用于对高频信号进行放大，包括第一级跨导单元、第一级输出负载、反馈电阻、第二级跨导单元及第二级输出负载，其中，所述放大电路还包括第一电流源与第二电流源，第一电流源一端与外部电源连接，另一端与第一级跨导单元的一个场效应管连接，第二电流源一端与外部电源连接，另一端与第一级跨导单元的另一个场效应管连接。本实用新型的放大电路的各级输入输出电压稳定，最终输出信号摆幅可最大化，且不会被电源限制导致输出畸变，增大了输入共模范围。
+55. 203554413 移位分频器
+CN
+16.04.2014
+H03K 23/54 Loading...
+H03K 23/54
+Loading...
+201320674038.8
+四川和芯微电子股份有限公司
+杨修
+H03K 23/54
+Loading...
+本实用新型公开了一种移位分频器，且为N分频的移位分频器，N为大于或等于4的正整数，移位分频器包括反相器、N-2个寄存器及N-4个或门；第N-2寄存器的输出端与反相器的输入端连接，反相器的输出端分别与第1寄存器的输入端及各个或门的一输入端连接；第1寄存器的输出端与第1或门的另一输入端连接，第N-4寄存器的输出端与第N-4或门的另一输入端连接，第1或门的输出端与第2寄存器的输入端连接，第N-4或门的输出端与第N-3寄存器的输入端连接；第N-3寄存器的输出端与第N-2寄存器的输入端连接。本实用新型的移位分频器结构简单，在相同的分频需求下，所需的寄存器和门器件更少，而且在干扰过后可正常恢复分频。
+56. 203554414 振荡器
+CN
+16.04.2014
+H03L 1/02 Loading...
+H03L 1/02
+Loading...
+201320729005.9
+四川和芯微电子股份有限公司
+孙伟红
+H03L 1/02
+Loading...
+本实用新型公开了一种振荡器，其包括电压基准模块、补偿电流产生模块及环形振荡器；所述电压基准模块包括若干被测场效应管，并对所述被测场效应管进行工艺角检测，用来产生含有被测场效应管工艺角信息的基准电压，且将所述基准电压输入至所述补偿电流产生模块；所述补偿电流产生模块对基准电压进行温度补偿，并产生同时具备工艺补偿和温度补偿的电流，且所述补偿电流产生模块将产生的电流输入至所述环形振荡器；所述环形振荡器接收补偿电流产生模块产生的电流，并根据所述电流输出频率稳定的时钟。本实用新型的振荡器将工艺补偿和温度补偿独立设计，二者互不影响，便于调节；且其输出时钟频率不受工艺和温度的影响，提高了输出时钟的精度。
+57. 103675474 Signal amplitude detection circuit
+CN
+26.03.2014
+G01R 29/00 Loading...
+G01R 29/00
+Loading...
+201310699896.2
+IPGOAL MICROELECTRONICS (SICHUAN) CO., LTD.
+ZOU ZHENGXIAN
+G01R 29/00
+Loading...
+The invention provides a signal amplitude detection circuit which comprises a detector and a trimming algorithm module. The detector has a preset benchmark threshold reference amount, a signal to be tested is input into the detector, and the output end of the detector is connected with the trimming algorithm module; the trimming algorithm module is used for recording an output result of the detector, decoding the output result and outputting amplitude coding values; the trimming algorithm module further generates a control signal; the control signal controls the benchmark threshold reference amount to rise from a ground level to a power supply level or fall from the power supply level to the ground level; in addition, when crossover happens between the benchmark threshold reference amount and the tested signal, the output result of the detector is one; or else, the output result of the detector is zero. The signal amplitude detection circuit detects signal amplitude in a digital mode and is simple in structure and low in power consumption; besides, the area of a chip is small, results are stable, and PVT drift will not be caused.
+58. 203504498 用于LC振荡器的工艺补偿电路
+CN
+26.03.2014
+H03B 5/04 Loading...
+H03B 5/04
+Loading...
+201320627493.2
+四川和芯微电子股份有限公司
+吴召雷
+H03B 5/04
+Loading...
+本实用新型公开了一种用于LC振荡器的工艺补偿电路，其包括LC振荡器与参考电压端，LC振荡器包括增益级、电感及两个压控电容，增益级包括第一场效应管、第二场效应管、第三场效应管及第四场效应管，增益级具有两个电压输出端，两电压输出端上各连接一个压控电容，电感连接于两个电压输出端之间，其中，还包括跟随级及电流辅助电路，电流辅助电路分别与外部电源及跟随级连接，跟随级还与参考电压端连接，跟随级为LC振荡器提供工作电压，且跟随级还包括一检测电路，检测电路检测增益级的电流变化。本实用新型的用于LC振荡器的工艺补偿电路结构简单，消除了LC振荡器增益级工艺变化引起的LC振荡器频率的变化，保证了LC振荡器频率的稳定，提高了LC振荡器工作的精度。
+59. 103607206 Audio digital-to-analog conversion circuit
+CN
+26.02.2014
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201310606787.1
+四川和芯微电子股份有限公司
+邹铮贤
+H03M 1/66
+Loading...
+The invention discloses an audio digital-to-analog conversion circuit. The audio digital-to-analog conversion circuit comprises a first clock generation sub-circuit, a common-mode voltage generation sub-circuit and a main conversion circuit, and further comprises a second clock generation sub-circuit and an overturning sub-circuit, wherein the second clock generation sub-circuit is connected with the overturning sub-circuit and is provided with a third output end and a fourth output end, and the third output end and the fourth output end output complementary clock pulses. When a sampling sub-circuit is in a sampling state, the clock pulses output by the second clock generation sub-circuit are overturned, and the overturning sub-circuit is respectively connected with the output end and the input end of a calculation amplifier. When the clock pulses output by the second clock generation sub-circuit are overturned, the overturning sub-circuit overturns the directions of offset voltage and low-frequency noise generated by the calculation amplifier. The audio digital-to-analog conversion circuit reduces the power of the calculation amplifier, eliminates a direct current offset phenomenon and low-frequency 1/f noise of the calculation amplifier, and improves the signal-to-noise ratio.
+60. 103595356 High-frequency bandwidth amplifying circuit
+CN
+19.02.2014
+H03F 1/42 Loading...
+H03F 1/42
+Loading...
+201310561849.1
+四川和芯微电子股份有限公司
+邹铮贤
+H03F 1/42
+Loading...
+The invention discloses a high-frequency bandwidth amplifying circuit. The high-frequency bandwidth amplifying circuit comprises a first-stage transconductance unit, a first-stage output load, a feedback resistor, a second-stage transconductance unit and a second-stage output load, and further comprises a first current source and a second current source. One end of the first current source is connected with an external power supply, the other end of the first current source is connected with one field-effect tube of the first-stage transconductance unit, one end of the second current source is connected with the external power supply, and the other end of the second current source is connected with another field-effect tube of the first-stage transconductance unit. All stages of input and output voltages of the high-frequency bandwidth amplifying circuit are stable, the swing of a finally-output signal can be maximized, the phenomenon that the swing of the finally-output signal is limited by a power supply and output distortion is caused will not occur, and the input common-mode range is expanded.
+61. 203433407 USB时钟产生电路
+CN
+12.02.2014
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201320573449.8
+四川和芯微电子股份有限公司
+杨修
+G06F 1/04
+Loading...
+本实用新型公开了一种USB时钟产生电路，用于产生USB主机的工作时钟其包括：内部振荡器、可控分频器、倍频器、USB主机接口及分频控制器；USB主机接口根据倍频器提供的时钟与USB外设进行配置响应；分频控制器分别与USB主机接口及可控分频器连接，USB主机接口将其与USB外设进行配置响应的结果传送至分频控制器，分频控制器根据USB主机接口反馈的响应结果，在设定的分频比范围内调节可控分频器的分频比，且当可控分频器的分频比调节完后，分频控制器控制可控分频器按固定的分频比进行分频。本实用新型的USB时钟产生电路通过为USB主机接口产生配置一个合适的工作时钟，从而无需外部晶振就可使USB主机接口与USB外设进行高精度的通讯。
+62. 103532545 Shifting frequency divider
+CN
+22.01.2014
+H03K 23/54 Loading...
+H03K 23/54
+Loading...
+201310522075.1
+四川和芯微电子股份有限公司
+邹铮贤
+H03K 23/54
+Loading...
+The invention discloses a shifting frequency divider, and particularly discloses a shifting frequency divider with N frequency divisions, in which N is larger than or equal to 4. The shifting frequency divider comprises a phase inverter, N-2 registers and N-4 OR gates, wherein an output end of the (N-2)th register is connected with an input end of the phase inverter; an output end of the phase inverter is connected with an input end of the first register and each input end of each OR gate; an output end of the first register is connected with the other input end of the first OR gate; an output end of the (N-4)th register is connected with the other input end of the (N-4)th OR gate; an output end of the first OR gate is connected with an input end of the second register; an output end of the (N-4)th OR gate is connected with an input end of the (N-3)th register; an output end of the (N-3) register is connected with an input end of the (N-2)th register. The structure of the shifting frequency divider is simple. Under the same frequency division requirement, the required registers and the gate devices are used less, but the shifting frequency divider can normally recover frequency division after interference.
+63. 203313138 电流运算电路
+CN
+27.11.2013
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201320374194.2
+四川和芯微电子股份有限公司
+孙伟红
+H03F 3/45
+Loading...
+本实用新型公开了一种电流运算电路，其包括电阻及至少两组镜像模块，两组镜像模块包括第一镜像模块、第二镜像模块、第三镜像模块及第四镜像模块；外部第一电流分别输入第一镜像模块与第二镜像模块；外部第二电流分别输入第三镜像模块与第四镜像模块；第一镜像模块对外部第一电流的镜像比例与第三镜像模块对外部第二电流的镜像比例相同；第一镜像模块的输出端及第四镜像模块的输出端均与电阻的一端连接；第二镜像模块及第三镜像模块的输出端均与电阻的另一端连接。本实用新型的电流运算电路不用事先知道比较电流值的大小并且输入电流源无需事先确定接入位置，就可准确地实现多路电路的电流差值及和值的运算，而且整个电流运算电路不存在失效问题，提高了运算精度。
+64. 203278797 零点优化积分器电路
+CN
+06.11.2013
+H03M 3/00 Loading...
+H03M 3/00
+Loading...
+201320295736.7
+四川和芯微电子股份有限公司
+杨保顶
+H03M 3/00
+Loading...
+本实用新型公开了一种零点优化积分器电路，其适用于Sigma-Delta ADC电路，包括时钟产生子电路、反馈子电路、采样子电路及积分放大器，积分放大器包括放大器、积分电容、第一电容、第一开关及第二开关，放大器的正相输入端与外部共模电压端连接，其反相输入端分别与反馈子电路、采样子电路、积分电容的一端及第一开关的一端连接，第一开关的另一端与第二开关及第一电容的一端连接，第二开关的另一端与外部共模电压端连接，积分电容与第一电容的另一端与放大器的输出端连接；反馈子电路包括第三开关、第四开关及第二电容。本实用新型的零点优化积分器电路占用芯片面积小，寄生电容不敏感，功耗低且设计成本低。
+65. 203278880 判决反馈均衡器
+CN
+06.11.2013
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201320295283.8
+四川和芯微电子股份有限公司
+张子澈
+H04L 25/03
+Loading...
+本实用新型公开了一种判决反馈均衡器，其包括判决反馈均衡系统，判决反馈均衡系统包括选择器、D触发器及两个可调阈值采样器，其中，判决反馈均衡系统为N套，且N为大于或等于2的正整数，相邻的两套判决反馈均衡系统，前一套判决反馈均衡系统的D触发器的输出端与后一套判决反馈均衡系统的选择器的控制端连接，最后一套判决反馈均衡系统的D触发器的输出端与最前一套判决反馈均衡系统的选择器的控制端连接，每套判决反馈均衡系统的控制时钟的频率为外部输入模拟信号频率的,且每套判决反馈均衡系统的控制时钟的相位均有差异。本实用新型的判决反馈均衡器在不需改变判决反馈均衡器算法的基础上，通过改变控制时钟的频率，使得外部输入的模拟信号可以被正确地选择并获得正确的均衡结果。
+66. 203278793 积分器电路
+CN
+06.11.2013
+H03K 19/00 Loading...
+H03K 19/00
+Loading...
+201320295234.4
+四川和芯微电子股份有限公司
+杨保顶
+H03K 19/00
+Loading...
+本实用新型公开了一种积分器电路，该积分器电路适用于Sigma-delta ADC电路，其包括时钟产生子电路、反馈子电路、采样子电路及积分放大器，其中，积分放大器包括放大器、积分电容、第一电容、第一开关及第二开关，放大器的正相输入端与外部共模电压端连接，其反相输入端分别与反馈子电路、采样子电路、积分电容的一端及第一开关的一端连接，第一开关的另一端与第二开关及第一电容的一端连接，第二开关的另一端与外部共模电压端连接，积分电容与第一电容的另一端与放大器的输出端连接。本实用新型的积分器电路，该电路占用芯片面积小，寄生电容不敏感，功耗低且设计成本低。
+67. 103346744 电流运算器
+CN
+09.10.2013
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201310261106.2
+四川和芯微电子股份有限公司
+不公告发明人
+H03F 3/45
+Loading...
+本发明公开了一种电流运算器，其包括电阻及至少两组镜像模块，两组镜像模块包括第一镜像模块、第二镜像模块、第三镜像模块及第四镜像模块；外部第一电流分别输入第一镜像模块与第二镜像模块；外部第二电流分别输入第三镜像模块与第四镜像模块；第一镜像模块对外部第一电流的镜像比例与第三镜像模块对外部第二电流的镜像比例相同；第一镜像模块的输出端及第四镜像模块的输出端均与电阻的一端连接；第二镜像模块及第三镜像模块的输出端均与电阻的另一端连接。本发明的电流运算器不用事先知道比较电流值的大小并且输入电流源无需事先确定接入位置，就可准确地实现多路电路的电流差值及和值的运算，而且整个电流运算电路不存在失效问题，提高了运算精度。
+68. 103312334 适用于Sigma-Delta ADC电路的积分器电路
+CN
+18.09.2013
+H03M 3/00 Loading...
+H03M 3/00
+Loading...
+201310201297.3
+四川和芯微电子股份有限公司
+不公告发明人
+H03M 3/00
+Loading...
+本发明公开了一种适用于Sigma-delta ADC电路的积分器电路，其包括时钟产生子电路、反馈子电路、采样子电路及积分放大器，其中，积分放大器包括放大器、积分电容、第一电容、第一开关及第二开关，放大器的正相输入端与外部共模电压端连接，其反相输入端分别与反馈子电路、采样子电路、积分电容的一端及第一开关的一端连接，第一开关的另一端与第二开关及第一电容的一端连接，第二开关的另一端与外部共模电压端连接，积分电容与第一电容的另一端与放大器的输出端连接。本发明的适用于Sigma-delta ADC电路的积分器电路，该电路占用芯片面积小，寄生电容不敏感，功耗低且设计成本低。
+69. 103312333 适用于Sigma-Delta ADC电路的零点优化积分器电路
+CN
+18.09.2013
+H03M 3/00 Loading...
+H03M 3/00
+Loading...
+201310200489.2
+四川和芯微电子股份有限公司
+不公告发明人
+H03M 3/00
+Loading...
+本发明公开了一种适用于Sigma-Delta ADC电路的零点优化积分器电路，包括时钟产生子电路、反馈子电路、采样子电路及积分放大器，积分放大器包括放大器、积分电容、第一电容、第一开关及第二开关，放大器的正相输入端与外部共模电压端连接，其反相输入端分别与反馈子电路、采样子电路、积分电容的一端及第一开关的一端连接，第一开关的另一端与第二开关及第一电容的一端连接，第二开关的另一端与外部共模电压端连接，积分电容与第一电容的另一端与放大器的输出端连接；反馈子电路包括第三开关、第四开关及第二电容。本发明的零点优化积分器电路占用芯片面积小，寄生电容不敏感，功耗低且设计成本低。
+70. 103281270 超前判决反馈均衡器
+CN
+04.09.2013
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201310201939.X
+四川和芯微电子股份有限公司
+张子澈
+H04L 25/03
+Loading...
+本发明公开了一种超前判决反馈均衡器，其包括判决反馈均衡系统，判决反馈均衡系统包括选择器、D触发器及两个可调阈值采样器，其中，判决反馈均衡系统为N套，且N为大于或等于2的正整数，相邻的两套判决反馈均衡系统，前一套判决反馈均衡系统的D触发器的输出端与后一套判决反馈均衡系统的选择器的控制端连接，最后一套判决反馈均衡系统的D触发器的输出端与最前一套判决反馈均衡系统的选择器的控制端连接，每套判决反馈均衡系统的控制时钟的频率为外部输入模拟信号频率的且每套判决反馈均衡系统的控制时钟的相位均有差异。本发明的超前判决反馈均衡器在不需改变超前判决反馈均衡器算法的基础上，通过改变控制时钟的频率，使得外部输入的模拟信号可以被正确地选择并获得正确的均衡结果。
+71. 203178843 温度补偿系统
+CN
+04.09.2013
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201320140019.7
+四川和芯微电子股份有限公司
+范方平
+G05F 1/567
+Loading...
+本实用新型公开了一种温度补偿系统，用于对芯片内部的温度敏感电路进行温度补偿，所述温度补偿系统包括第一电阻、放大电路及场效应管，所述第一电阻的一端与芯片内部的大功耗电路的一端连接，且芯片内部的大功耗电路的另一端接地，所述第一电阻的另一端与外部电源连接，所述放大电路的两输入端分别对应与所述第一电阻的两端连接，所述放大电路的输出端与所述场效应管的栅极连接，所述场效应管的源极与外部电源连接，其漏极与芯片。本实用新型的温度补偿系统当芯片工作状态发生变化时，可有效地对芯片内部的温度敏感电路进行温度补偿，使得芯片在工作状态之间可平稳地过渡，提高了芯片的工作性能与精确度。
+72. 203178361 功耗检测电路
+CN
+04.09.2013
+G01R 21/06 Loading...
+G01R 21/06
+Loading...
+201320146549.2
+四川和芯微电子股份有限公司
+范方平
+G01R 21/06
+Loading...
+本实用新型公开了一种功耗检测电路，其包括电流检测模块、基准电压源与电压检测模块，所述电压检测模块分别与电流检测模块、被测电路及基准电压源连接，所述电压检测模块检测被测电路的电压值，且将检测获得的结果传送到所述电流检测模块，所述基准电压源还与被测电路连接，以输出一基准电压至所述电压检测模块及被测电路，所述电流检测模块与被测电路连接，以检测被测电路的电流值，所述电流检测模块将其电流检测结果与电压检测模块输出的电压检测结果进行加权合并，输出含有被测电路电流及电压信息的电流。本实用新型的功耗检测电路集成于芯片内部，降低了制造成本，且可同时检测芯片的电压和电流值，提高了功耗检测的精度。
+73. 103235175 功耗检测电路
+CN
+07.08.2013
+G01R 21/06 Loading...
+G01R 21/06
+Loading...
+201310102286.X
+四川和芯微电子股份有限公司
+范方平
+G01R 21/06
+Loading...
+本发明公开了一种功耗检测电路，其包括电流检测模块、基准电压源与电压检测模块，所述电压检测模块分别与电流检测模块、被测电路及基准电压源连接，所述电压检测模块检测被测电路的电压值，且将检测获得的结果传送到所述电流检测模块，所述基准电压源还与被测电路连接，以输出一基准电压至所述电压检测模块及被测电路，所述电流检测模块与被测电路连接，以检测被测电路的电流值，所述电流检测模块将其电流检测结果与电压检测模块输出的电压检测结果进行加权合并，输出含有被测电路电流及电压信息的电流。本发明的功耗检测电路集成于芯片内部，降低了制造成本，且可同时检测芯片的电压和电流值，提高了功耗检测的精度。
+74. 103235627 温度补偿系统及温度补偿的方法
+CN
+07.08.2013
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201310098261.7
+四川和芯微电子股份有限公司
+范方平
+G05F 1/567
+Loading...
+本发明公开了一种温度补偿系统及温度补偿的方法，用于对芯片内部的温度敏感电路进行温度补偿，所述温度补偿系统包括第一电阻、放大电路及场效应管，所述第一电阻的一端与芯片内部的大功耗电路的一端连接，且芯片内部的大功耗电路的另一端接地，所述第一电阻的另一端与外部电源连接，所述放大电路的两输入端分别对应与所述第一电阻的两端连接，所述放大电路的输出端与所述场效应管的栅极连接，所述场效应管的源极与外部电源连接，其漏极与芯片。本发明的温度补偿系统当芯片工作状态发生变化时，可有效地对芯片内部的温度敏感电路进行温度补偿，使得芯片在工作状态之间可平稳地过渡，提高了芯片的工作性能与精确度。
+75. 103226371 具有温度曲率补偿的基准电压源
+CN
+31.07.2013
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201310102311.4
+四川和芯微电子股份有限公司
+杨保顶
+G05F 1/567
+Loading...
+本发明公开了一种具有温度曲率补偿的基准电压源，该基准电压源包括电流求和电路及分别和电流求和电路连接的基-射极电流产生电路、与绝对温度成正比的电流产生电路、非线性电流产生电路、电流转换电路，与绝对温度成正比的电流产生电路产生一个与温度变化趋势相同的第一电流，基-射极电流产生电路产生一个与温度变化趋势相反的第二电流，非线性电流产生电路产生一个与温度相关的非线性的第三电流，电流求和电路对三电流相加并得到一个与温度无关的第四电流，电流转换电路将第四电流转换为基准电压输出。本发明的基准电压源输出的基准电压中的线性项与非线性项被同时抵消，有效地对输出的基准电压进行温度曲率补偿，提高了输出基准电压的精度与稳定性。
+76. 203102063 具有温度曲率补偿的基准电压源
+CN
+31.07.2013
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201320146642.3
+四川和芯微电子股份有限公司
+杨保顶
+G05F 1/567
+Loading...
+本实用新型公开了一种具有温度曲率补偿的基准电压源，该基准电压源包括电流求和电路及分别和电流求和电路连接的基-射极电流产生电路、与绝对温度成正比的电流产生电路、非线性电流产生电路、电流转换电路，与绝对温度成正比的电流产生电路产生一个与温度变化趋势相同的第一电流，基-射极电流产生电路产生一个与温度变化趋势相反的第二电流，非线性电流产生电路产生一个与温度相关的非线性的第三电流，电流求和电路对三电流相加并得到一个与温度无关的第四电流，电流转换电路将第四电流转换为基准电压输出。本实用新型的基准电压源输出的基准电压中的线性项与非线性项被同时抵消，有效地对输出的基准电压进行温度曲率补偿，提高了输出基准电压的精度与稳定性。
+77. 203027252 采样保持电路
+CN
+26.06.2013
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201220639913.4
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/54
+Loading...
+本实用新型公开了一种采样保持电路，其包括时钟产生子电路、栅压自举单元及采样保持子电路，时钟产生子电路具有分别和栅压自举单元连接的第一输出端和第二输出端，采样保持子电路包括采样开关和保持电容，栅压自举单元还分别和外部电源及采样开关连接，其中，采样保持电路还包括防泄漏子电路，其连接于栅压自举单元的自举电容和地之间，且和时钟产生子电路及外部电源连接，当采样保持子电路由保持切换至采样时，防泄漏子电路切断自举电容和地之间的连接。本实用新型的采样保持电路可有效防止在保持和采样的切换过程中自举电容上电荷的泄露，阻止了自举电压的下降，保证了采样开关的线性度。
+78. 203014778 锁相环系统
+CN
+19.06.2013
+H03L 7/18 Loading...
+H03L 7/18
+Loading...
+201220733878.2
+四川和芯微电子股份有限公司
+范方平
+H03L 7/18
+Loading...
+本实用新型公开了一种锁相环系统，包括鉴频鉴相器、电荷泵、低通滤波器、压控振荡器及数字分频器，鉴频鉴相器比较两输入信号的相位差，并产生控制信号；电荷泵在控制信号的控制下对滤波电容充电或放电；低通滤波器滤除电荷泵输出电压的高频抖动；压控振荡器在电压的控制下产生输出信号；数字分频器将压控振荡器产生的输出信号进行分频得到反馈信号，将反馈信号输入至鉴频鉴相器；其中，还包括频率判决器与压控电流源，频率判决器预设有期望值范围，对外部输入的信号及压控振荡器输出的信号的频率进行比较并对比较结果进行判决，根据判决结果输出高/低电平，输出的电压控制压控电流源的开/关，以给滤波电容充电。本实用新型的锁相环系统可快速地实现稳定的锁定，提高了锁相环的工作效率。
+79. 203012570 电阻校准电路
+CN
+19.06.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201220739496.0
+四川和芯微电子股份有限公司
+张子澈
+G05F 1/56
+Loading...
+本实用新型公开了一种电阻校准电路，包括基准电阻、待校准电阻、比较器及数字算法处理器，基准电阻一端与比较器的正向输入端连接，另一端接地，待校准电阻一端与比较器的反向输入端连接，另一端接地，比较器的输出端与数字算法处理器的输入端连接，数字算法处理器与待校准电阻连接，还包括第一场效应管和第二场效应管组，外部电流通过第一场效应管的漏极输入，第二场效应管组分别与第一场效应管、基准电阻的一端及待校准电阻的一端连接，且将第一场效应管上的电流按比例镜像，并将镜像后的电流输送至基准电阻与待校准电阻，数字算法处理器根据比较器的输出信号输出控制字至第二场效应管组，调节第二场效应管组的镜像比例。本实用新型的电阻校准电路结构简单，在工作过程中不需使用带隙基准电压产生子电路与稳压器，成本低廉，实用性好。
+80. 203012575 电流源电路
+CN
+19.06.2013
+G05F 1/565 Loading...
+G05F 1/565
+Loading...
+201220637690.8
+四川和芯微电子股份有限公司
+杨保顶
+G05F 1/565
+Loading...
+本实用新型公开了一种电流源电路，其包括正温系数电压产生子电路、阈值电压产生子电路及电流产生子电路，电流产生子电路包括放大器与第一场效应管，正温系数电压产生子电路产生一个与温度变化趋势相同的第一电压，且将第一电压输入至放大器的反向输入端，阈值电压产生子电路产生具有固定电压值的第二电压，且将第二电压输入至放大器的正向输入端，放大器的输出端与第一场效应管的栅极连接，第一场效应管的源极与外部电源连接，第一场效应管的漏极输出产生的电流，且第一场效应管的电子迁移率是与温度变化趋势相反的工艺参数。本实用新型的电流源电路可有效减小温度，电压，加工工艺及制程等对输出电流的影响，提高了输出电流的稳定性与准确度。
+81. 203014774 锁相环系统
+CN
+19.06.2013
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+201220548555.6
+四川和芯微电子股份有限公司
+范方平
+H03L 7/085
+Loading...
+一种锁相环系统，包括一输入端，一输出端，一第一鉴频鉴相器，一与第一鉴频鉴相器相连的第一电荷泵，一与第一电荷泵相连的第一低通滤波器，一与第一电荷泵、第一低通滤波器相连的第一压控振荡器，一与第一压控振荡器相连的第二鉴频鉴相器，一与第二鉴频鉴相器相连的第二电荷泵，一与第二电荷泵相连的第二低通滤波器，一与第二电荷泵、第二低通滤波器相连的第二压控振荡器，一连接于第一鉴频鉴相器与第二压控振荡器之间的第一数字分频器，一连接于第二鉴频鉴相器与所述第二控振荡器之间的第二数字分频器。可以同时抑制输入噪声和第二压控振荡器的相位噪声，从而大大降低了锁相环系统的噪声。
+82. 203014746 放大器
+CN
+19.06.2013
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201220668380.2
+四川和芯微电子股份有限公司
+杨保顶
+H03F 1/30
+Loading...
+本实用新型提供了一种放大器，该放大器包括电流产生电路、电流镜像电路及放大电路，电流产生电路分别与外部电源及电流镜像电路连接，电流镜像电路分别与外部电源及放大电路连接，放大电路与外部信号输入端及信号输出端连接，且放大电路包括第三场效应管、第四场效应管及两个负载电阻，第三场效应管、第四场效应管均分别和电流镜像电路、外部信号输入端、信号输出端及一个负载电阻连接，且第二场效应管、第三场效应管及第四场效应管具有完全相同的参数特征。本实用新型的放大器结构简单，而且具有稳定而精确的增益值，其增益不会随温度及工艺角的变化，保证了经放大器放大后信号的稳定性。
+83. 103078636 锁相环系统
+CN
+01.05.2013
+H03L 7/18 Loading...
+H03L 7/18
+Loading...
+201210578440.6
+四川和芯微电子股份有限公司
+范方平
+H03L 7/18
+Loading...
+本发明公开了一种锁相环系统，包括鉴频鉴相器、电荷泵、低通滤波器、压控振荡器及数字分频器，鉴频鉴相器比较两输入信号的相位差，并产生控制信号；电荷泵在控制信号的控制下对滤波电容充电或放电；低通滤波器滤除电荷泵输出电压的高频抖动；压控振荡器在电压的控制下产生输出信号；数字分频器将压控振荡器产生的输出信号进行分频得到反馈信号，将反馈信号输入至鉴频鉴相器；其中，还包括频率判决器与压控电流源,频率判决器预设有期望值范围，对外部输入的信号及压控振荡器输出的信号的频率进行比较并对比较结果进行判决，根据判决结果输出高/低电平，输出的电压控制压控电流源的开/关，以给滤波电容充电。本发明的锁相环系统可快速地实现稳定的锁定，提高了锁相环的工作效率。
+84. 103076834 电阻校准电路
+CN
+01.05.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201210584082.X
+四川和芯微电子股份有限公司
+张子澈
+G05F 1/56
+Loading...
+本发明公开了一种电阻校准电路，包括基准电阻、待校准电阻、比较器及数字算法处理器，基准电阻一端与比较器的正向输入端连接，另一端接地，待校准电阻一端与比较器的反向输入端连接，另一端接地，比较器的输出端与数字算法处理器的输入端连接，数字算法处理器与待校准电阻连接，还包括第一场效应管和第二场效应管组，外部电流通过第一场效应管的漏极输入，第二场效应管组分别与第一场效应管、基准电阻的一端及待校准电阻的一端连接，且将第一场效应管上的电流按比例镜像，并将镜像后的电流输送至基准电阻与待校准电阻，数字算法处理器根据比较器的输出信号输出控制字至第二场效应管组，调节第二场效应管组的镜像比例。本发明的电阻校准电路结构简单，在工作过程中不需使用带隙基准电压产生电路与稳压器，成本低廉，实用性好。
+85. 202904429 用于产生USB外设时钟的电路
+CN
+24.04.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201220613132.8
+四川和芯微电子股份有限公司
+杨修
+G06F 1/04
+Loading...
+本实用新型公开了一种用于产生USB外设时钟的电路，该电路包括：内部振荡器、可控分频器、倍频器、接收计时器及分频控制器，内部振荡器产生具有固定频率的时钟；可控分频器将内部振荡器产生的时钟进行分频；倍频器将分频后的时钟倍频，且将倍频后的时钟传送至USB主体结构；接收计时器根据倍频器输出的时钟接收主机发出的SOF数据包，并对接收SOF数据包的时间间隔进行计数；分频控制器比较接收计时器的计数结果与标准时间间隔的差异，并根据比较结果控制调节可控分频器的分频参数。通过本实用新型的技术方案可在不需另外占用USB主体结构的引脚的情况下，为USB主体结构提供高精度而准确的主时钟，保证USB主体结构的高速通讯。
+86. 202906839 高频带宽放大电路
+CN
+24.04.2013
+H03F 1/42 Loading...
+H03F 1/42
+Loading...
+201220548611.6
+四川和芯微电子股份有限公司
+张子澈
+H03F 1/42
+Loading...
+本实用新型公开了一种高频带宽放大电路，包括正向通路与反向通路，正向通路的输入端与外部正向输入端连接，其输出端与正向输出端口连接，反向通路的输入端与外部反向输入端连接，其输出端与反向输出端口连接，其中，高频带宽放大电路还包括一反馈网络，正向通路包括第一运放与第二运放，第一运放的输入端与外部正向输入端连接，其输出端与第二运放的输入端连接，第二运放的输出端与正向输出端口连接，反向通路包括第三运放与第四运放，第三运放的输入端与外部反向输入端连接，其输出端与第四运放的输入端连接，第四运放的输出端与反向输出端口连接，反馈网络连接于正向通路与反向通路之间。本实用新型的高频带宽放大电路具有更高的增益带宽积，更小的功耗，且主运放结构简单，寄生电容小，噪声低。
+87. 202904413 用于输出基准电压的电路
+CN
+24.04.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201220549155.7
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+本实用新型公开了一种用于输出基准电压的电路，所述用于输出基准电压的电路包括分别与外部电源连接的检测单元、反馈单元及输出单元，所述检测单元内置若干场效应管，且所述检测单元检测其内部场效应管的工艺角，所述反馈单元将检测单元的检测结果进行反馈比较并将反馈比较后的信息输出，所述输出单元将与所述场效应管工艺角对应的基准电压输出至外部输出端。本实用新型的用于输出基准电压的电路的输出基准电压能跟随场效应管工艺角变化，实现了对场效应管工艺角的补偿。
+88. 202906838 高频带宽放大电路
+CN
+24.04.2013
+H03F 1/42 Loading...
+H03F 1/42
+Loading...
+201220548397.4
+四川和芯微电子股份有限公司
+张子澈
+H03F 1/42
+Loading...
+本实用新型公开了一种高频带宽放大电路，其包括推挽放大器、反馈电阻、第一有源电感及第二有源电感，所述推挽放大器的输入端与外部输入端连接，所述推挽放大器的输出端与输出端口连接，所述反馈电阻的两端分别与外部输入端及输出端口连接，所述第一有源电感一端连接外部电源，另一端与输出端口连接，所述第二有源电感一端接地，另一端与输出端口连接。本实用新型的高频带宽放大电路具有更高的增益带宽积，更小的功耗，且推挽放大器结构简单，寄生电容小，噪声低。
+89. 202906877 ADC采样电路
+CN
+24.04.2013
+H03M 1/12 Loading...
+H03M 1/12
+Loading...
+201220542598.3
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/12
+Loading...
+本实用新型公开了一种ADC采样电路，其包括一外部输入端，一与所述外部输入端相连的采样电路和辅助电路，一与所述采样电路相连的时钟电路和外部输出端，一与所述辅助电路相连的时钟馈通电路，所述时钟馈通电路还分别与所述时钟电路和外部输出端相连。本实用新型的ADC采样电路减小了时钟馈通效应对信号采样的影响，提高了采样场效应管的线性度，降低了ADC采样电路的谐波失真度，并提高了采样速度，提高了ADC采样电路的采样精度。
+90. 202904428 用于产生USB外设时钟的电路
+CN
+24.04.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201220610928.8
+四川和芯微电子股份有限公司
+杨修
+G06F 1/04
+Loading...
+本实用新型公开了一种用于产生USB外设时钟的电路，该电路设置于USB主体结构上，其包括：内部振荡器、接收器、发送器、时钟计数器及时钟处理器；内部振荡器产生具有固定频率的时钟；接收器与内部振荡器及主机连接，接收主机发出的数据包；发送器分别与内部振荡器及主机连接，将USB主体结构的数据包发送至主机；时钟计数器分别与接收器及内部振荡器连接，对接收的数据包的长度进行计数；时钟处理器分别与时钟计数器、内部振荡器及发送器连接，根据计数的数据包的长度，控制调节发送器发送的数据包的长度。通过本实用新型的技术方案可在不需另外占用USB主体结构的引脚的情况下，为USB主体结构提供正常工作所需的主时钟，且可保证USB主体结构进行高精度的低速/全速通讯。
+91. 202904567 串行数据传输系统
+CN
+24.04.2013
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201220595084.4
+四川和芯微电子股份有限公司
+吴召雷
+G06F 13/38
+Loading...
+本实用新型公开了一种串行数据传输系统，其包括用于发送数据的发送端、用于接收所述发送端发送数据的接收端、连接于所述发送端与所述接收端之间的第一连接电容及连接于所述发送端与所述接收端之间的第二连接电容，所述发送端包括发送端驱动单元及与所述发送端驱动单元相连的幅度检测单元，所述发送端驱动单元根据接收的数据信号输出一对差分信号，所述幅度检测单元检测所述发送端驱动单元输出差分信号的幅度变化，并输出指示所述发送端与所述接收端是否连接正常的指示信号。本实用新型结构简单、抗干扰能力强且功耗低。
+92. 202903860 差分信号检测装置
+CN
+24.04.2013
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201220583714.6
+四川和芯微电子股份有限公司
+范方平
+G01R 19/00
+Loading...
+本实用新型公开了一种差分信号检测装置，其包括一次级放大器及分别和次级放大器连接的前置接收器和末级放大器，末级放大器还和一信号输出器连接；前置接收器接收外部输入的两路差分信号和基准阀值电压，并对两路差分信号进行差分转换；次级放大器接收并放大前置接收器输出的信号，并输出经再次放大信号；末级放大器将次级放大器输出信号进行差分放大，并输出两路经差分后的信号；信号输出器接收末级放大器输出的两路差分后的信号，并对该两路差分后的信号进行逻辑组合后输出。本实用新型的差分信号检测装置可对高速差分信号的幅度进行准确的检测，并可通过改变基准阀值电压改变高速差分信号的检测门限，具有很大的灵活性。
+93. 202904414 电阻校准电路
+CN
+24.04.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201220580675.4
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+本实用新型公开了一种电阻校准电路，其包括一外部电源，分别与外部电源连接的参考单元、电流校准单元及电压校准单元，分别与所述参考单元与电压校准单元连接的外部基准电压，分别与所述电流校准单元及电压校准单元连接的待校准压控电阻，所述电流校准单元还与所述参考单元连接。本实用新型的电阻校准电路可自动对待校准压控电阻的阻值的进行调节，而且调节精度高，效率高。
+94. 103036510 放大器
+CN
+10.04.2013
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201210519995.3
+四川和芯微电子股份有限公司
+杨保顶
+H03F 1/30
+Loading...
+本发明提供了一种放大器，该放大器包括电流产生电路、电流镜像电路及放大电路，电流产生电路分别与外部电源及电流镜像电路连接，电流镜像电路分别与外部电源及放大电路连接，放大电路与外部信号输入端及信号输出端连接，且放大电路包括第三场效应管、第四场效应管及两个负载电阻，第三场效应管、第四场效应管均分别和电流镜像电路、外部信号输入端、信号输出端及一个负载电阻连接，且第二场效应管、第三场效应管及第四场效应管具有完全相同的参数特征。本发明的放大器结构简单，而且具有稳定而精确的增益值，其增益不会随温度及工艺角的变化，保证了经放大器放大后信号的稳定性。
+95. 103034277 电流源电路
+CN
+10.04.2013
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201210491169.2
+四川和芯微电子股份有限公司
+杨保顶
+G05F 1/567
+Loading...
+本发明公开了一种电流源电路，其包括正温系数电压产生子电路、阈值电压产生子电路及电流产生子电路，电流产生子电路包括放大器与第一场效应管，正温系数电压产生子电路产生一个与温度变化趋势相同的第一电压，且将第一电压输入至放大器的反向输入端，阈值电压产生子电路产生具有固定电压值的第二电压，且将第二电压输入至放大器的正向输入端，放大器的输出端与第一场效应管的栅极连接，第一场效应管的源极与外部电源连接，第一场效应管的漏极输出产生的电流，且第一场效应管的电子迁移率是与温度变化趋势相反的工艺参数。本发明的电流源电路可有效减小温度电压，加工工艺及制程等对输出电流的影响，提高了输出电流的稳定性与准确度。
+96. 103036569 采样保持电路
+CN
+10.04.2013
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201210494775.X
+四川和芯微电子股份有限公司
+杨保顶
+H03M 1/54
+Loading...
+本发明公开了一种采样保持电路，其包括时钟产生子电路、栅压自举单元及采样保持子电路，时钟产生子电路具有分别和栅压自举单元连接的第一输出端和第二输出端，采样保持子电路包括采样开关和保持电容，栅压自举单元还分别和外部电源及采样开关连接，其中，采样保持电路还包括防泄漏子电路，其连接于栅压自举单元的自举电容和地之间，且和时钟产生子电路及外部电源连接，当采样保持子电路由保持切换至采样时，防泄漏子电路切断自举电容和地之间的连接。本发明的采样保持电路可有效防止在保持和采样的切换过程中自举电容上电荷的泄露，阻止了自举电压的下降，保证了采样开关的线性度。
+97. 102981991 串行数据传输系统及方法
+CN
+20.03.2013
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201210452687.3
+四川和芯微电子股份有限公司
+吴召雷
+G06F 13/38
+Loading...
+本发明公开了一种串行数据传输系统，其包括用于发送数据的发送端、用于接收所述发送端发送数据的接收端、连接于所述发送端与所述接收端之间的第一连接电容及连接于所述发送端与所述接收端之间的第二连接电容，所述发送端包括发送端驱动单元及与所述发送端驱动单元相连的幅度检测单元，所述发送端驱动单元根据接收的数据信号输出一对差分信号，所述幅度检测单元检测所述发送端驱动单元输出差分信号的幅度变化，并输出指示所述发送端与所述接收端是否连接正常的指示信号。本发明还提供一种串行数据传输方法。本发明结构简单、抗干扰能力强且功耗低。
+98. 102981541 电阻校准电路
+CN
+20.03.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201210438700.X
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+本发明公开了一种电阻校准电路，其包括一外部电源，分别与外部电源连接的参考单元、电流校准单元及电压校准单元，分别与所述参考单元与电压校准单元连接的外部基准电压，分别与所述电流校准单元及电压校准单元连接的待校准压控电阻，所述电流校准单元还与所述参考单元连接。本发明的电阻校准电路可自动对待校准压控电阻的阻值的进行调节，而且调节精度高，效率高。
+99. 202798657 一种低功耗驱动器
+CN
+13.03.2013
+H03K 19/094 Loading...
+H03K 19/094
+Loading...
+201220462910.8
+四川和芯微电子股份有限公司
+范方平
+H03K 19/094
+Loading...
+一种低功耗驱动器，包括一第一输入端、一第二输入端、一输出端、一电源端、一接地端、一驱动电路、一与驱动电路相连的调节电路及一与驱动电路及调节电路相连的偏置电路。本实用新型可根据输入差分信号的差值大小来动态调节驱动器的驱动电流，从而达到了低功耗的目的。
+100. 102945061 用于产生USB外设时钟的电路及方法
+CN
+27.02.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201210466086.8
+四川和芯微电子股份有限公司
+杨修
+G06F 1/04
+Loading...
+本发明公开了一种用于产生USB外设时钟的电路及方法，该电路包括：内部振荡器、可控分频器、倍频器、接收计时器及分频控制器，内部振荡器产生具有固定频率的时钟；可控分频器将内部振荡器产生的时钟进行分频；倍频器将分频后的时钟倍频，且将倍频后的时钟传送至USB主体结构；接收计时器根据倍频器输出的时钟接收主机发出的SOF数据包，并对接收SOF数据包的时间间隔进行计数；分频控制器比较接收计时器的计数结果与标准时间间隔的差异，并根据比较结果控制调节可控分频器的分频参数。通过本发明的技术方案可在不需另外占用USB主体结构的引脚的情况下，为USB主体结构提供高精度而准确的主时钟，保证USB主体结构的高速通讯。
+101. 102944714 差分信号检测装置
+CN
+27.02.2013
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201210441811.6
+四川和芯微电子股份有限公司
+范方平
+G01R 19/00
+Loading...
+本发明公开了一种差分信号检测装置，其包括一次级放大器及分别和次级放大器连接的前置接收器和末级放大器，末级放大器还和一信号输出器连接；前置接收器接收外部输入的两路差分信号和基准阀值电压，并对两路差分信号进行差分转换；次级放大器接收并放大前置接收器输出的信号，并输出经再次放大信号；末级放大器将次级放大器输出信号进行差分放大，并输出两路经差分后的信号；信号输出器接收末级放大器输出的两路差分后的信号，并对该两路差分后的信号进行逻辑组合后输出。本发明的差分信号检测装置可对高速差分信号的幅度进行准确的检测，并可通过改变基准阀值电压改变高速差分信号的检测门限，具有很大的灵活性。
+102. 102929330 用于产生USB外设时钟的电路及方法
+CN
+13.02.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201210466680.7
+四川和芯微电子股份有限公司
+杨修
+G06F 1/04
+Loading...
+本发明公开了一种用于产生USB外设时钟的电路及方法，该电路设置于USB主体结构上，其包括：内部振荡器、接收器、发送器、时钟计数器及时钟处理器；内部振荡器产生具有固定频率的时钟；接收器与内部振荡器及主机连接，接收主机发出的数据包；发送器分别与内部振荡器及主机连接，将USB主体结构的数据包发送至主机；时钟计数器分别与接收器及内部振荡器连接，对接收的数据包的长度进行计数；时钟处理器分别与时钟计数器、内部振荡器及发送器连接，根据计数的数据包的长度，控制调节发送器发送的数据包的长度。通过本发明的技术方案可在不需另外占用USB主体结构的引脚的情况下，为USB主体结构提供正常工作所需的主时钟，且可保证USB主体结构进行高精度的低速/全速通讯。
+103. 102915066 用于输出基准电压的电路
+CN
+06.02.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201210411734.X
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+本发明公开了一种用于输出基准电压的电路，所述用于输出基准电压的电路包括分别与外部电源连接的检测单元、反馈单元及输出单元，所述检测单元内置若干场效应管，且所述检测单元检测其内部场效应管的工艺角，所述反馈单元将检测单元的检测结果进行反馈比较并将反馈比较后的信息输出，所述输出单元将与所述场效应管工艺角对应的基准电压输出至外部输出端。本发明的用于输出基准电压的电路的输出基准电压能跟随场效应管工艺角变化，实现了对场效应管工艺角的补偿。
+104. 102916657 高频带宽放大电路
+CN
+06.02.2013
+H03F 1/42 Loading...
+H03F 1/42
+Loading...
+201210410207.7
+四川和芯微电子股份有限公司
+张子澈
+H03F 1/42
+Loading...
+本发明公开了一种高频带宽放大电路，包括正向通路与反向通路，正向通路的输入端与外部正向输入端连接，其输出端与正向输出端口连接，反向通路的输入端与外部反向输入端连接，其输出端与反向输出端口连接，其中，高频带宽放大电路还包括一反馈网络，正向通路包括第一运放与第二运放，第一运放的输入端与外部正向输入端连接，其输出端与第二运放的输入端连接，第二运放的输出端与正向输出端口连接，反向通路包括第三运放与第四运放，第三运放的输入端与外部反向输入端连接，其输出端与第四运放的输入端连接，第四运放的输出端与反向输出端口连接，反馈网络连接于正向通路与反向通路之间。本发明的高频带宽放大电路具有更高的增益带宽积，更小的功耗，且主运放结构简单，寄生电容小，噪声低。
+105. 202720630 除法器逻辑电路
+CN
+06.02.2013
+G06F 7/535 Loading...
+G06F 7/535
+Loading...
+201120494004.1
+四川和芯微电子股份有限公司
+杨修
+G06F 7/535
+Loading...
+一种除法器逻辑电路，用于求得被除数M与除数N的商S，其包括一输入商S的估计值的第一常数输入端、一第一加法器、一输入定值M-N*的第二常数输入端、一输入底数-N的底数输入端、至少一整数次乘方器、一右移移位寄存器、一第二加法器及一乘法器，为最接近N的标准幂值，=2，整数次乘方器确定以-N为底数，以i-1为指数的定值，h、i为自然数，右移移位寄存器将整数次乘方器确定的定值做右移h*i位的移位处理后传至第二加法器，乘法器将第二加法器传送的数值与第二常数输入端输入的定值相乘，第一加法器将第一常数输入端输入的定值与乘法器传送的数值相加后输出商S。本实用新型精度较高。
+106. 202720278 高速信号检测电路
+CN
+06.02.2013
+G01R 29/00 Loading...
+G01R 29/00
+Loading...
+201220359443.6
+四川和芯微电子股份有限公司
+范方平
+G01R 29/00
+Loading...
+一种高速信号检测电路，包括一输入端，一基准端，一输出端，一电源端，一接地端，一与输入端、基准端及接地端相连的前置接收器，一与前置接收器及接地端相连的次级放大器，一与次级放大器、输出端、电源端及接地端相连的末级放大器，一与前置接收器、次级放大器、末级放大器、电源端及接地端相连的偏置电路。本实用新型可以对高速信号进行准确的检测，并通过改变基准端来改变高速信号的检测门限，具有很大的灵活性。
+107. 202679313 倍频器电路
+CN
+16.01.2013
+H03B 19/00 Loading...
+H03B 19/00
+Loading...
+201220370128.3
+四川和芯微电子股份有限公司
+范方平
+H03B 19/00
+Loading...
+一种倍频器电路，包括一第一信号输入端，一第二信号输入端，一输出端，一电源端，一接地端，一与所述第一信号输入端、所述第二信号输入端、所述电源端、所述接地端相连的主控电路，一与所述电源端、所述接地端相连的基准电路，一与所述主控电路、所述基准电路、所述输出端、所述电源端、所述接地端相连的频率合成电路。本实用新型具有结构简单、易于级联、倍频精准的特点。
+108. 202586932 数据驱动电路
+CN
+05.12.2012
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201220135471.X
+四川和芯微电子股份有限公司
+范方平
+H03M 1/66
+Loading...
+一种数据驱动电路，包括一电源端、一接地端、一输入端、一驱动单元、一负载电容、一输出端、一上升沿检测单元、一下降沿检测单元、一上升沿调节单元及一下降沿调节单元，所述驱动单元包括一第一场效应管、一第二场效应管及一第一电阻，所述上升沿检测单元包括一第一比较器及一第一电压输入端，所述下降沿检测单元包括一第二比较器及一第二电压输入端，所述上升沿调节单元包括一第三场效应管、一第四场效应管、一第五场效应管及一第二电阻，所述下降沿调节单元包括一第六场效应管、一第七场效应管、一第八场效应管及所述第二电阻。本实用新型使得输出信号的上升沿与下降沿的变化速度相同。
+109. 202586900 具有自动调节输出信号占空比功能的倍频电路
+CN
+05.12.2012
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201220141014.1
+四川和芯微电子股份有限公司
+范方平
+H03K 3/017
+Loading...
+一种具有自动调节输出信号占空比功能的倍频电路，包括一输入端、一倍频控制单元、一输出端、一第一检测单元、一第二检测单元、一占空比调节单元及一接地端，所述倍频控制单元包括一第一缓冲器、一与门、一第一或非门及一第二或非门，所述第一检测单元包括一反向器、一第一电阻及一第一电容，所述第二检测单元包括一第二缓冲器、一第二电阻及一第二电容，所述占空比调节单元包括一与第一电阻、第一电容、第二电阻、第二电容及第一缓冲器相连的比较器。本实用新型能够自动将输出信号的占空比调节为50%。
+110. 202533830 具有温度补偿的电流源电路
+CN
+14.11.2012
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201220141248.6
+四川和芯微电子股份有限公司
+黄俊维
+G05F 1/567
+Loading...
+一种具有温度补偿的电流源电路，其包括一电源端、一与所述电源端相连的基准电流源单元、一与所述电源端及所述基准电流源单元相连的反馈控制单元、一与所述反馈控制单元相连的电流源产生单元及一与所述电流源产生单元相连的接地端，所述基准电流源单元为一与所述电源端相连的电流源，所述反馈控制单元包括一与所述电流源的一端相连的第一开关元件及一连接于所述电流源的另一端与所述第一开关元件之间的反向放大器，所述电流源产生单元包括一与所述第一开关元件、所述电流源及所述反向放大器相连的第二开关元件及一与所述第一开关元件、所述第二开关元件及所述接地端相连的第一电阻。本实用新型结构简单，且易于实现。
+111. 202495914 功率放大电路
+CN
+17.10.2012
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201220139819.2
+四川和芯微电子股份有限公司
+黄俊维
+H03F 3/20
+Loading...
+一种功率放大电路，包括一信号输入端、一共模电压输入端、一功率管控制单元、一反馈回路、一驱动单元、一第一开关元件、一第二开关元件、一低通滤波器、一扬声器、一电源电压端及一接地端，所述功率管控制单元包括一运算放大器、一第一开关、一第二开关、一第三开关、一第四开关、一第五开关、一第六开关、一第七开关、一第八开关、一第九开关、一与所述第三开关及所述第四开关相连的第三开关元件、一与所述第五开关及所述第六开关相连的第四开关元件及一与所述第三开关元件及所述第四开关元件相连的比较器。本实用新型同时实现CLASSAB放大器和CLASSD放大器的功能。
+112. 202487174 数据合成播放系统
+CN
+10.10.2012
+G11C 7/16 Loading...
+G11C 7/16
+Loading...
+201220089887.2
+四川和芯微电子股份有限公司
+蔡刚
+G11C 7/16
+Loading...
+一种数据合成播放系统，用于将一MP3文件的双声道数据合成为单声道数据并播放，所述数据合成播放系统包括一MP3数据流输入模块、一与MP3数据流输入模块相连的帧解码模块、一与帧解码模块相连的数据合成模块、一与数据合成模块相连的子带合成滤波模块及一与子带合成滤波模块相连的音频数据输出模块，帧解码模块输出一左声道子频带数据及一右声道子频带数据至数据合成模块，数据合成模块将左声道子频带数据及右声道子频带数据合成产生合成后的子频带数据至子带合成滤波模块，子带合成滤波模块对合成后的子频带数据进行解码，并输出合成后的音频数据至音频数据输出模块进行播放。本实用新型减少了应用成本。
+113. 202475746 音频静噪系统
+CN
+03.10.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201220062164.3
+四川和芯微电子股份有限公司
+杨保顶
+H04R 3/02
+Loading...
+一种音频静噪系统，包括一预警信号端、一开关控制端、一数字逻辑控制电路、一第一充放电信号判断端、一数字延时电路、一数字逻辑组合电路、一第二充放电信号判断端、一共模电压产生电路、一RC充电电阻、一基准电压端、一充放电曲线产生电路、一迟滞比较电路、一充放电电容及一共模电压输出端，所述数字逻辑控制电路产生一充放电完毕判断信号至所述第一充放电信号判断端，所述数字延时电路与所述数字逻辑组合电路将所述第一充放电信号判断端的判断信号进行延时，并待所述迟滞比较电路工作结束后产生一最终的充放电完毕判断信号至所述第二充放电信号判断端。本实用新型能够有效抑制POP噪声。
+114. 202475745 POP噪声抑制电路
+CN
+03.10.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201220061495.5
+四川和芯微电子股份有限公司
+杨保顶
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一电源端、一电压比较器、一充放电信号使能端、一充放电控制单元、一充放电单元、一使能控制端、一共模电压产生单元及一与所述充放电控制单元、所述电压比较器及所述充放电单元相连的接地端，所述电压比较器包括一第一电流源、一与所述第一电流源相连的第一场效应管、一第二场效应管、一与所述第一场效应管相连的第三场效应管、一与所述第二场效应管相连的第四场效应管及一连接于所述第一电流源与所述第二场效应管之间的失调电阻。本实用新型能够有效抑制POP噪声。
+115. 202374436 POP噪声抑制电路
+CN
+08.08.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201120527320.4
+四川和芯微电子股份有限公司
+杨保顶
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一电源端、一时钟信号输入端、一充电单元、一放电单元、一共模电压判断与切换控制单元、一充放电电容及一接地端，所述充电单元包括一用于产生两个互不交叠时钟信号的第一时钟产生电路及一第一等效电阻，所述放电单元包括一用于产生另外两个互不交叠时钟信号的第二时钟产生电路及一第二等效电阻，所述共模电压判断与切换控制单元判断充放电电容的电压是否达到共模电压并切换第一时钟产生电路与第二时钟产生电路之间的工作，所述充电单元产生一缓慢变化的充电电压至充放电电容，所述放电单元产生一缓慢变化的放电电压至充放电电容。本实用新型能够有效抑制POP噪声。
+116. 202353537 信号调节电路
+CN
+25.07.2012
+H03K 17/296 Loading...
+H03K 17/296
+Loading...
+201120516314.9
+四川和芯微电子股份有限公司
+范方平
+H03K 17/296
+Loading...
+一种信号调节电路，包括一第一数据输入端、一第二数据输入端、一第一基准电压输入端、一第二基准电压输入端、一时钟信号输入端、一数据驱动单元、一第一输出端、一第二输出端、一第一比较器、一第二比较器、一编码器及一偏置控制器，所述编码器对第一比较器与第二比较器输出的电压进行编码后输出用于调节输出信号的输出摆幅的数字调节信号至偏置控制器，所述偏置控制器在时钟信号的上升沿采集并解码编码器输出的数字调节信号，产生一偏置电流信号至数据驱动单元，所述数据驱动单元根据偏置电流信号将输出信号的输出摆幅调节至需要的范围。本实用新型结构简单且能够自动调节输出信号的输出摆幅。
+117. 202353566 扩频时钟信号检测系统
+CN
+25.07.2012
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201120493980.5
+四川和芯微电子股份有限公司
+张子澈
+H04B 17/00
+Loading...
+一种扩频时钟信号检测系统，包括一扩频时钟信号输入端、一参考时钟信号输入端、一与所述扩频时钟信号输入端及所述参考时钟信号输入端相连的频差检测模块、一与所述扩频时钟信号输入端、所述参考时钟信号输入端及所述频差检测模块相连的扩频脉冲检测模块、一与所述扩频脉冲检测模块相连的扩频量计算模块、一与所述扩频量计算模块相连的扩频量参考输入端及一与所述扩频量计算模块相连的输出模块，所述扩频时钟信号检测系统根据所述输出模块输出信号的扩频量大小及方向信息判断是否存在扩频时钟信号。本实用新型结构简单，且使用方便。
+118. 202331251 低压差线性稳压电路
+CN
+11.07.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201120500904.2
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+一种低压差线性稳压电路，包括一电源端、一内环控制模块、一外环控制模块、一基准电压端、一反馈模块、一输出端及一接地端，内环控制模块与反馈模块形成一高带宽、低增益的快通路，外环控制模块与反馈模块形成一高增益、低带宽的慢通路，外环控制模块包括一第一运算放大器、一与第一运算放大器相连的第一场效应管、一与第一运算放大器及第一场效应管相连的电容及一与第一场效应管相连的第一电阻，内环控制模块包括一第二运算放大器及一与第二运算放大器相连的第二场效应管，反馈模块包括一第二电阻、一与第二电阻相连的第三电阻及一与第三电阻相连的第四电阻。本实用新型具有高精度输出且能够实现快速响应。
+119. 202331252 阈值电压产生电路
+CN
+11.07.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201120500944.7
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+一种阈值电压产生电路，所述阈值电压产生电路包括一第一开关元件、一与所述第一开关元件相连的第二开关元件、一与所述第二开关元件相连的第三开关元件、一与所述第三开关元件相连的电流源、一与所述电流源相连的电源端、一与所述第一开关元件相连的接地端及一与所述第一开关元件及所述第二开关元件相连用于输出一阈值电压的输出端，所述第一开关元件的宽长比与所述第三开关元件的宽长比相等，且均为所述第二开关元件的宽长比的三倍。本实用新型可以产生一精确的阈值电压，结构简单且易于实现。
+120. 202334488 插值电路
+CN
+11.07.2012
+H03K 19/08 Loading...
+H03K 19/08
+Loading...
+201120500536.1
+四川和芯微电子股份有限公司
+张子澈
+H03K 19/08
+Loading...
+一种插值电路，包括偏置产生模块、由电流源子模块及负载电阻子模块组成的负载模块、第一时钟控制模块、第二时钟控制模块及输出模块，第一时钟控制模块包括第一输入子模块、第一源端负反馈子模块、第一多路开关子模块及第一多路电流沉子模块，偏置产生模块包括第一场效应管、第二场效应管、第三场效应管及偏置电流端，电流源子模块包括第四场效应管及第五场效应管，负载电阻子模块包括第一电阻及第二电阻，第一输入子模块包括第六场效应管及第七场效应管，第一源端负反馈子模块包括第三电阻及第一电容，第一多路开关子模块包括第一组及第二组开关，第一多路电流沉子模块包括第一组及第二组场效应管。本实用新型结构简单。
+121. 202334437 振荡电路
+CN
+11.07.2012
+H03B 5/04 Loading...
+H03B 5/04
+Loading...
+201120422443.1
+四川和芯微电子股份有限公司
+黄俊维
+H03B 5/04
+Loading...
+一种振荡电路，包括一阈值电压提取模块、一正温度系数电压产生模块、一加法模块、一共源放大模块、一充放电模块及一时钟输出模块，所述共源放大模块包括一第一场效应管及第二场效应管，所述加法模块包括一第一运算放大器、一第二运算放大器、一第三场效应管、一第四场效应管、一第五场效应管、一第六场效应管、一第一电阻、一第二电阻及一第三电阻，所述充放电模块包括一第七场效应管、一第八场效应管、一充放电场效应管、一第一开关、一第二开关、一第一比较器、一第二比较器、一第一或非门及一第二或非门。本实用新型结构简单、且易于实现。
+122. 202334444 可调增益音频功率放大电路
+CN
+11.07.2012
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201120422184.2
+四川和芯微电子股份有限公司
+朱国军
+H03F 3/20
+Loading...
+一种可调增益音频功率放大电路，包括一输入单元、一与输入单元相连的音频放大单元、一与音频放大单元相连的增益调节单元、一与增益调节单元相连的控制单元、一连接于增益调节单元与控制单元之间的比较单元及一与音频放大单元相连的输出单元，所述比较单元将输出单元的输出信号与一共模基准电压进行比较，并输出一增益调节控制信号至控制单元，所述增益调节控制信号在输出单元的输出信号与共模基准电压相等时发生翻转，所述控制单元检测出当增益调节控制信号发生翻转时，将接收的一增益调节信号传送至增益调节单元，所述增益调节单元根据接收的增益调节信号控制可调增益音频功率放大电路的增益。本实用新型结构简单且抑制了增益调节产生的噼啪声。
+123. 202334447 前置均衡放大电路
+CN
+11.07.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201120422445.0
+四川和芯微电子股份有限公司
+张子澈
+H03F 3/45
+Loading...
+一种前置均衡放大电路，包括一均衡控制模块、一输出模块、一极点调节模块及一数字控制模块，所述均衡控制模块包括一负载子模块、一输入子模块、一源端负反馈子模块及一电流源子模块，所述负载子模块包括一第一电阻及一第二电阻，所述输入子模块包括一第一输入端、一第一开关元件、一第二输入端及一第二开关元件，所述源端负反馈子模块包括一第三电阻及一第一可调电容，所述电流源子模块包括一第一电流源及一第二电流源，所述输出模块包括一第一输出端及一第二输出端，所述极点调节模块包括一第二可调电容及一第三可调电容。本实用新型保证了均衡电路调节信号的性能。
+124. 202306376 基准电流源电路
+CN
+04.07.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201120427561.1
+四川和芯微电子股份有限公司
+朱国军
+G05F 1/56
+Loading...
+一种基准电流源电路，包括一基准电压产生模块、一电压缓冲器、一等效电阻、一滤波电容、一电流镜模块及一基准电流输出端，所述电压缓冲器包括一运算放大器及一第一场效应管，所述电流镜模块包括一第二场效应管及一第三场效应管，所述等效电阻包括一振荡器、一第四场效应管、一第五场效应管及一与所述第四场效应管及所述第五场效应管相连的电容，所述振荡器产生一频率与所述振荡器内一充放电电容相关的时钟信号控制所述等效电阻内电容的充放电，所述基准电流输出端输出一与所述电容及所述充放电电容的比值相关的基准电流。本实用新型结构简单且降低了芯片的成本。
+125. 102508633 除法器逻辑电路及实现除法器逻辑电路的方法
+CN
+20.06.2012
+G06F 7/535 Loading...
+G06F 7/535
+Loading...
+201110394378.0
+四川和芯微电子股份有限公司
+杨修
+G06F 7/535
+Loading...
+一种除法器逻辑电路，用于求得被除数M与除数N的商S，其包括一输入商S的估计值的第一常数输入端、一第一加法器、一输入定值M-N*的第二常数输入端、一输入底数-N的底数输入端、至少一整数次乘方器、一右移移位寄存器、一第二加法器及一乘法器，为最接近N的标准幂值，=2，整数次乘方器确定以-N为底数，以i-1为指数的定值，h、i为自然数，右移移位寄存器将整数次乘方器确定的定值做右移h*i位的移位处理后传至第二加法器，乘法器将第二加法器传送的数值与第二常数输入端输入的定值相乘，第一加法器将第一常数输入端输入的定值与乘法器传送的数值相加后输出商S。本发明还提供实现除法器逻辑电路的方法。本发明精度较高。
+126. 102495655 阈值电压产生电路及方法
+CN
+13.06.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201110399207.7
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+一种阈值电压产生电路，所述阈值电压产生电路包括一第一开关元件、一与所述第一开关元件相连的第二开关元件、一与所述第二开关元件相连的第三开关元件、一与所述第三开关元件相连的电流源、一与所述电流源相连的电源端、一与所述第一开关元件相连的接地端及一与所述第一开关元件及所述第二开关元件相连用于输出一阈值电压的输出端，所述第一开关元件的宽长比与所述第三开关元件的宽长比相等，且均为所述第二开关元件的宽长比的三倍。本发明还提供一种阈值电压产生方法。本发明可以产生一精确的阈值电压，结构简单且易于实现。
+127. 202268868 扩频时钟信号检测系统
+CN
+06.06.2012
+H03L 7/087 Loading...
+H03L 7/087
+Loading...
+201120395657.4
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/087
+Loading...
+一种扩频时钟信号检测系统，包括一用于降低所述高速串行数据传输系统中EMI辐射的扩频时钟电路、一与所述扩频时钟电路相连用于接收所述扩频时钟信号的锁相环电路、一与所述锁相环电路相连的模数转换电路及一与所述模数转换电路相连的数字处理电路，所述锁相环电路根据所述扩频时钟信号产生一控制电压，所述模数转换电路通过采样方式对所述控制电压进行模数转换，所述数字处理电路对所述模数转换电路输出的信号进行处理，并根据所述模数转换电路输出的信号判断所述高速串行数据传输系统中是否存在所述扩频时钟信号。本实用新型结构简单，且使用方便。
+128. 202257351 具有一阶温度补偿的电流源电路
+CN
+30.05.2012
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201120395226.8
+四川和芯微电子股份有限公司
+范方平
+G05F 1/567
+Loading...
+一种具有一阶温度补偿的电流源电路，包括一电源模块及一接地模块，所述具有一阶温度补偿的电流源电路还包括一控制模块、一与控制模块相连的偏置电流源模块及一与控制模块及偏置电流源模块相连的电流源输出模块，所述控制模块包括一第一场效应管、一与第一场效应管相连的第二场效应管及一与第二场效应管相连的第三场效应管，所述偏置电流源模块包括一与第二场效应管相连的第一偏置电流源及一与第三场效应管相连的第二偏置电流源，所述电流源输出模块包括一与第三场效应管及第二偏置电流源相连的第四场效应管、一与第四场效应管相连的第五场效应管及一输出端。本实用新型结构简单，且易于实现。
+129. 202257350 直流电压偏移消除电路
+CN
+30.05.2012
+G05F 1/563 Loading...
+G05F 1/563
+Loading...
+201120395851.2
+四川和芯微电子股份有限公司
+张子澈
+G05F 1/563
+Loading...
+一种直流电压偏移消除电路，包括一第一输入端、一第二输入端、一均衡器、一限幅放大器、一第一输出端、一第二输出端、一低通滤波器及一消除控制电路，所述消除控制电路包括一与第一输入端相连的第一电容、一与第二输入端相连的第二电容、一与第一电容相连的第一电阻、一与第一电阻相连的第二电阻、一与第二电阻相连的第三电阻、一与第三电阻相连的第四电阻、一第五电阻、一与第五电阻、第二电阻及第三电阻相连的第一场效应管、一与第三电阻、第四电阻及低通滤波器相连的第二场效应管及一与第一电阻、第二电阻及低通滤波器相连的第三场效应管。本实用新型降低了高速通路负载。
+130. 202257347 具有高阶温度补偿的电流源电路
+CN
+30.05.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201120398481.8
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+一种具有高阶温度补偿的电流源电路，包括一参考电压端、一第一电源模块、一第二电源模块、一控制模块、一电流源输出模块及一偏置电流源模块，所述控制模块包括一第一场效应管、一第二场效应管及一第三场效应管，所述偏置电流源模块包括一第一偏置电流源及一第二偏置电流源，所述电流源输出模块包括一第四场效应管、一第五场效应管及一输出端，所述第一电源模块包括一第一比较器、一第六场效应管、一第一电阻及一第二电阻，所述第二电源模块包括一第二比较器、一第七场效应管、一第三电阻及一第四电阻。本实用新型结构简单，且易于控制。
+131. 202261180 自偏置运算放大电路
+CN
+30.05.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201120355708.0
+四川和芯微电子股份有限公司
+范方平
+H03F 3/45
+Loading...
+一种自偏置运算放大电路，包括一控制子电路及一与所述控制子电路相连的偏置子电路，所述控制子电路包括一第一输入端、一第二输入端、一与偏置子电路相连的第一场效应管、一与第一输入端相连的第二场效应管、一与第二输入端相连的第三场效应管、一与第二场效应管相连的第一输出端、一与第三场效应管相连的第二输出端、一与第一输出端相连的第一电阻及一与第二输出端相连的第二电阻，所述偏置子电路包括一参考电压端、一连接于参考电压端与控制子电路之间的比较器、一连接于比较器与第二输出端之间的第三电阻及一连接于比较器与第一输出端之间的第四电阻。本实用新型结构简单且设计成本大大降低。
+132. 202217266 存储控制系统
+CN
+09.05.2012
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201020580928.9
+四川和芯微电子股份有限公司
+邹铮贤
+G06F 13/16
+Loading...
+一种存储控制系统，用于控制一电脑与一外接设备的数据传输，包括一连接电脑的USB接口、一连接外接设备的外设接口及一连接于USB接口与外设接口之间的控制模组，所述控制模组包括一与电脑进行数据传输的数据传输子模组、一控制所述控制模组工作流程的微控制器、一连接微控制器的只读存储器、一解析数据的协议解析子模组、一连接外设接口用于转换协议的协议时序发生器及一连接于协议解析子模组与协议时序发生器之间用于存放数据的缓存控制器，只读存储器根据外接设备的不同更改不同的代码，微控制器根据只读存储器中的代码控制所述控制模组的工作流程。本实用新型结构简单，且成本较低。
+133. 202210276 FPGA配置装置
+CN
+02.05.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201120320381.3
+四川和芯微电子股份有限公司
+孙银明
+G06F 9/445
+Loading...
+一种FPGA配置装置，用于将一智能卡内存储的配置文件送至一FPGA中，所述FPGA配置装置包括一微处理器、一与所述微处理器相连的FPGA接口、一与所述微处理器相连用于插接所述智能卡的智能卡接口及一与所述微处理器相连用于读取输入数字的开关选择模块，所述微处理器通过所述智能卡接口与所述智能卡进行数据传输，所述微处理器根据所述开关选择模块读取的数字在所述智能卡内选择对应数字的配置文件，并通过所述FPGA接口将选择的配置文件送至所述FPGA。本实用新型节约了成本，提高了开发和验证的效率。
+134. 202210280 串行数据传输系统
+CN
+02.05.2012
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201120356785.8
+四川和芯微电子股份有限公司
+吴召雷
+G06F 13/38
+Loading...
+一种串行数据传输系统，包括一用于发送数据的发送端、一用于接收所述发送端发送数据的接收端、一连接于所述发送端与所述接收端之间的第一连接电容及一连接于所述发送端与所述接收端之间的第二连接电容，所述发送端包括一发送端驱动单元及一与所述发送端驱动单元相连的幅度检测单元，所述发送端驱动单元根据接收的数据信号输出一对差分信号，所述幅度检测单元检测所述发送端驱动单元输出差分信号的幅度变化，并输出一指示所述发送端与所述接收端是否连接正常的指示信号。本实用新型结构简单、抗干扰能力强且功耗低。
+135. 202210793 均衡电路
+CN
+02.05.2012
+H04B 1/12 Loading...
+H04B 1/12
+Loading...
+201120356260.4
+四川和芯微电子股份有限公司
+吴召雷
+H04B 1/12
+Loading...
+一种均衡电路，包括一第一输入端、一第二输入端、一第一输出端、一第二输出端、一第一级调节电路、一第二级调节电路及一偏置电压产生电路，偏置电压产生电路与第一级调节电路及第二级调节电路相连，第一级调节电路包括一第一场效应管、一第二场效应管、一第三场效应管、一第四场效应管、一与第一场效应管相连的第一电阻、一与第二场效应管相连的第二电阻、一与第三场效应管相连的第三电阻、一与第四场效应管相连的第四电阻、一与第三场效应管相连的第五电阻、一与第四场效应管相连的第六电阻、一与第三场效应管相连的第一电容及一与第四场效应管相连的第二电容。本实用新型调节范围较宽且增益可控。
+136. 202210783 运算放大电路
+CN
+02.05.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201120356438.5
+四川和芯微电子股份有限公司
+范方平
+H03F 3/45
+Loading...
+一种运算放大电路，包括一第一输入端、一第二输入端、一第一输出端、一第二输出端、一控制电路、一与控制电路相连的调节电路及一与控制电路及调节电路相连的偏置电路，所述控制电路包括一第一场效应管、一第二场效应管、一第三场效应管、一第一电阻及一第二电阻，所述调节电路包括一比较器、一与比较器相连的第一可调电流源、一与比较器及第一可调电流源相连的第二可调电流源、一与比较器相连的第三电阻及一与比较器相连的第四电阻，所述偏置电路包括一偏置电流源、一与偏置电流源相连的第五电阻、一与第五电阻相连的第四场效应管及一与第四场效应管相连的第五场效应管。本实用新型提高了共模抑制比。
+137. 202210786 信号调节电路
+CN
+02.05.2012
+H03K 17/296 Loading...
+H03K 17/296
+Loading...
+201120210307.6
+四川和芯微电子股份有限公司
+范方平
+H03K 17/296
+Loading...
+一种信号调节电路，用于自动调节输出信号的上升下降时间，所述信号调节电路包括一第一数据输入端、一第二数据输入端、一与所述第一数据输入端及所述第二数据输入端相连的数据驱动器、一与所述数据驱动器相连的第一输出端、一与所述数据驱动器相连的第二输出端、一与所述第一输出端及所述第二输出端相连的时间检测器、一与所述时间检测器相连的放大器、一与所述放大器相连的第一比较器、一与所述放大器相连的第二比较器及一与所述第一比较器及所述第二比较器相连的数字编码器。本实用新型结构简单。
+138. 102427359 插值电路及插值系统
+CN
+25.04.2012
+H03K 19/08 Loading...
+H03K 19/08
+Loading...
+201110399015.6
+四川和芯微电子股份有限公司
+张子澈
+H03K 19/08
+Loading...
+一种插值电路，包括偏置产生模块、由电流源子模块及负载电阻子模块组成的负载模块、第一时钟控制模块、第二时钟控制模块及输出模块，第一时钟控制模块包括第一输入子模块、第一源端负反馈子模块、第一多路开关子模块及第一多路电流沉子模块，偏置产生模块包括第一场效应管、第二场效应管、第三场效应管及偏置电流端，电流源子模块包括第四场效应管及第五场效应管，负载电阻子模块包括第一电阻及第二电阻，第一输入子模块包括第六场效应管及第七场效应管，第一源端负反馈子模块包括第三电阻及第一电容，第一多路开关子模块包括第一组及第二组开关，第一多路电流沉子模块包括第一组及第二组场效应管。本发明还提供一种插值系统。本发明结构简单。
+139. 102421051 POP噪声抑制电路及系统
+CN
+18.04.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201110422007.9
+四川和芯微电子股份有限公司
+杨保顶
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一电源端、一时钟信号输入端、一充电单元、一放电单元、一共模电压判断与切换控制单元、一充放电电容及一接地端，所述充电单元包括一用于产生两个互不交叠时钟信号的第一时钟产生电路及一第一等效电阻，所述放电单元包括一用于产生另外两个互不交叠时钟信号的第二时钟产生电路及一第二等效电阻，所述共模电压判断与切换控制单元判断充放电电容的电压是否达到共模电压并切换第一时钟产生电路与第二时钟产生电路之间的工作，所述充电单元产生一缓慢变化的充电电压至充放电电容，所述放电单元产生一缓慢变化的放电电压至充放电电容。本发明还提供一种POP噪声抑制系统。本发明能够有效抑制POP噪声。
+140. 102420588 信号调节电路及方法
+CN
+18.04.2012
+H03K 3/015 Loading...
+H03K 3/015
+Loading...
+201110413759.9
+四川和芯微电子股份有限公司
+范方平
+H03K 3/015
+Loading...
+一种信号调节电路，包括一第一数据输入端、一第二数据输入端、一第一基准电压输入端、一第二基准电压输入端、一时钟信号输入端、一数据驱动单元、一第一输出端、一第二输出端、一第一比较器、一第二比较器、一编码器及一偏置控制器，所述编码器对第一比较器与第二比较器输出的电压进行编码后输出用于调节输出信号的输出摆幅的数字调节信号至偏置控制器，所述偏置控制器在时钟信号的上升沿采集并解码编码器输出的数字调节信号，产生一偏置电流信号至数据驱动单元，所述数据驱动单元根据偏置电流信号将输出信号的输出摆幅调节至需要的范围。本发明还提供一种信号调节方法。本发明结构简单且能够自动调节输出信号的输出摆幅。
+141. 102411393 基准电流源电路及系统
+CN
+11.04.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201110340937.X
+四川和芯微电子股份有限公司
+朱国军
+G05F 1/56
+Loading...
+一种基准电流源电路，包括一基准电压产生模块、一电压缓冲器、一等效电阻、一滤波电容、一电流镜模块及一基准电流输出端，所述电压缓冲器包括一运算放大器及一第一场效应管，所述电流镜模块包括一第二场效应管及一第三场效应管，所述等效电阻包括一振荡器、一第四场效应管、一第五场效应管及一与所述第四场效应管及所述第五场效应管相连的电容，所述振荡器产生一频率与所述振荡器内一充放电电容相关的时钟信号控制所述等效电阻内电容的充放电，所述基准电流输出端输出一与所述电容及所述充放电电容的比值相关的基准电流。本发明进一步提供一种基准电流源系统。本发明结构简单且降低了芯片的成本。
+142. 202189558 基于SPI接口的数据存储装置
+CN
+11.04.2012
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+201120309421.4
+四川和芯微电子股份有限公司
+孙银明
+G11C 16/06
+Loading...
+一种基于SPI接口的数据存储装置，包括一SPI接口电路、一用于存储数据的NAND闪存、一连接于所述SPI接口电路及所述NAND闪存之间用于控制所述SPI接口电路与所述NAND闪存之间数据传输的NAND闪存接口、一连接于所述SPI接口电路及所述NAND闪存接口之间用于将所述SPI接口电路接收的指令转换为所述NAND闪存可以识别的指令的指令控制电路及一连接于所述SPI接口电路及所述NAND闪存接口之间用于实现串行数据与并行数据之间转换的数据转换电路。本实用新型解决了基于SPI接口的NOR闪存容量小，价格高的问题，控制了成本。
+143. 202189379 MS卡控制系统
+CN
+11.04.2012
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201120277756.2
+四川和芯微电子股份有限公司
+孙银明
+G06K 17/00
+Loading...
+一种MS卡控制系统，用于控制对一MS卡的读写操作，所述MS卡控制系统包括一微控制器、一与所述微控制器相连的微控制器接口、一与所述微控制器接口相连的用于产生控制所述MS卡所需要的命令波形的MS卡波形发生器、一连接于所述微控制器接口与所述MS卡波形发生器之间用于产生所述MS卡专用的校验码的检验码电路及一与所述MS卡波形发生器相连用于插接所述MS卡的MS卡接口。本实用新型解决了MS卡在低成本领域的应用问题。
+144. 102404062 扩频时钟信号检测系统及方法
+CN
+04.04.2012
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201110393855.1
+四川和芯微电子股份有限公司
+张子澈
+H04B 17/00
+Loading...
+一种扩频时钟信号检测系统，包括一扩频时钟信号输入端、一参考时钟信号输入端、一与所述扩频时钟信号输入端及所述参考时钟信号输入端相连的频差检测模块、一与所述扩频时钟信号输入端、所述参考时钟信号输入端及所述频差检测模块相连的扩频脉冲检测模块、一与所述扩频脉冲检测模块相连的扩频量计算模块、一与所述扩频量计算模块相连的扩频量参考输入端及一与所述扩频量计算模块相连的输出模块，所述扩频时钟信号检测系统根据所述输出模块输出信号的扩频量大小及方向信息判断是否存在扩频时钟信号。本发明还提供一种扩频时钟信号检测方法。本发明结构简单，且使用方便。
+145. 202183060 低压差线性稳压电路
+CN
+04.04.2012
+G05F 3/24 Loading...
+G05F 3/24
+Loading...
+201120320249.2
+四川和芯微电子股份有限公司
+黄俊维
+G05F 3/24
+Loading...
+一种低压差线性稳压电路，包括一电源端、一基准电压端、一输出端、一负载及一接地端，所述低压差线性稳压电路还包括一连接于电源端与负载之间用于调整输出端输出的电压值的快通道电路及一连接于电源端与负载之间用于稳定输出端输出的电压值的慢通道电路，快通道电路与慢通道通路共同连接输出端，慢通道电路与基准电压端相连，所述快通道电路包括一第一场效应管及一与所述第一场效应管相连的控制子电路，所述慢通道电路包括一与所述基准电压端相连的运算放大器、一与所述运算放大器相连的第一电阻、一与所述第一电阻相连的第二电阻及所述第一场效应管。本实用新型结构简单，降低了功耗且保证了输出精度。
+146. 102393783 具有高阶温度补偿的电流源电路及系统
+CN
+28.03.2012
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201110317652.4
+四川和芯微电子股份有限公司
+范方平
+G05F 1/567
+Loading...
+一种具有高阶温度补偿的电流源电路，包括一参考电压端、一第一电源模块、一第二电源模块、一控制模块、一电流源输出模块及一偏置电流源模块，所述控制模块包括一第一场效应管、一第二场效应管及一第三场效应管，所述偏置电流源模块包括一第一偏置电流源及一第二偏置电流源，所述电流源输出模块包括一第四场效应管、一第五场效应管及一输出端，所述第一电源模块包括一第一比较器、一第六场效应管、一第一电阻及一第二电阻，所述第二电源模块包括一第二比较器、一第七场效应管、一第三电阻及一第四电阻。本发明还提供一种具有高阶温度补偿的电流源系统。本发明结构简单，且易于控制。
+147. 102393782 具有一阶温度补偿的电流源电路及系统
+CN
+28.03.2012
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201110314882.5
+四川和芯微电子股份有限公司
+范方平
+G05F 1/567
+Loading...
+一种具有一阶温度补偿的电流源电路，包括一电源模块及一接地模块，所述具有一阶温度补偿的电流源电路还包括一控制模块、一与控制模块相连的偏置电流源模块及一与控制模块及偏置电流源模块相连的电流源输出模块，所述控制模块包括一第一场效应管、一与第一场效应管相连的第二场效应管及一与第二场效应管相连的第三场效应管，所述偏置电流源模块包括一与第二场效应管相连的第一偏置电流源及一与第三场效应管相连的第二偏置电流源，所述电流源输出模块包括一与第三场效应管及第二偏置电流源相连的第四场效应管、一与第四场效应管相连的第五场效应管及一输出端。本发明还提供一种具有一阶温度补偿的电流源系统。本发明结构简单，且易于实现。
+148. 102393781 低压差线性稳压电路及系统
+CN
+28.03.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201110399072.4
+四川和芯微电子股份有限公司
+范方平
+G05F 1/56
+Loading...
+一种低压差线性稳压电路，包括一电源端、一内环控制模块、一外环控制模块、一基准电压端、一反馈模块、一输出端及一接地端，内环控制模块与反馈模块形成一高带宽、低增益的快通路，外环控制模块与反馈模块形成一高增益、低带宽的慢通路，外环控制模块包括一第一运算放大器、一与第一运算放大器相连的第一场效应管、一与第一运算放大器及第一场效应管相连的电容及一与第一场效应管相连的第一电阻，内环控制模块包括一第二运算放大器及一与第二运算放大器相连的第二场效应管，反馈模块包括一第二电阻、一与第二电阻相连的第三电阻及一与第三电阻相连的第四电阻。本发明还提供一种低压差线性稳压系统。本发明具有高精度输出且能够实现快速响应。
+149. 102394584 前置均衡放大电路及系统
+CN
+28.03.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201110336178.X
+四川和芯微电子股份有限公司
+张子澈
+H03F 3/45
+Loading...
+一种前置均衡放大电路，包括一均衡控制模块、一输出模块、一极点调节模块及一数字控制模块，所述均衡控制模块包括一负载子模块、一输入子模块、一源端负反馈子模块及一电流源子模块，所述负载子模块包括一第一电阻及一第二电阻，所述输入子模块包括一第一输入端、一第一开关元件、一第二输入端及一第二开关元件，所述源端负反馈子模块包括一第三电阻及一第一可调电容，所述电流源子模块包括一第一电流源及一第二电流源，所述输出模块包括一第一输出端及一第二输出端，所述极点调节模块包括一第二可调电容及一第三可调电容。本发明还提供一种前置均衡放大系统。本发明保证了均衡电路调节信号的性能。
+150. 102394565 振荡电路及振荡系统
+CN
+28.03.2012
+H03B 5/04 Loading...
+H03B 5/04
+Loading...
+201110336732.4
+四川和芯微电子股份有限公司
+黄俊维
+H03B 5/04
+Loading...
+一种振荡电路，包括一阈值电压提取模块、一正温度系数电压产生模块、一加法模块、一共源放大模块、一充放电模块及一时钟输出模块，所述共源放大模块包括一第一场效应管及第二场效应管，所述加法模块包括一第一运算放大器、一第二运算放大器、一第三场效应管、一第四场效应管、一第五场效应管、一第六场效应管、一第一电阻、一第二电阻及一第三电阻，所述充放电模块包括一第七场效应管、一第八场效应管、一充放电场效应管、一第一开关、一第二开关、一第一比较器、一第二比较器、一第一或非门及一第二或非门。本发明还提供一种振荡系统。本发明结构简单、且易于实现。
+151. 102393778 低压差线性稳压电路及系统
+CN
+28.03.2012
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201110252483.0
+四川和芯微电子股份有限公司
+黄俊维
+G05F 1/56
+Loading...
+一种低压差线性稳压电路，包括一电源端、一基准电压端、一输出端、一负载及一接地端，所述低压差线性稳压电路还包括一连接于电源端与负载之间用于调整输出端输出的电压值的快通道电路及一连接于电源端与负载之间用于稳定输出端输出的电压值的慢通道电路，快通道电路与慢通道通路共同连接输出端，慢通道电路与基准电压端相连，所述快通道电路包括一第一场效应管及一与所述第一场效应管相连的控制子电路，所述慢通道电路包括一与所述基准电压端相连的运算放大器、一与所述运算放大器相连的第一电阻、一与所述第一电阻相连的第二电阻及所述第一场效应管。本发明还提供一种低压差线性稳压系统。本发明结构简单，降低了功耗且保证了输出精度。
+152. 102386864 自偏置运算放大电路及系统
+CN
+21.03.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201110282052.9
+四川和芯微电子股份有限公司
+范方平
+H03F 3/45
+Loading...
+一种自偏置运算放大电路，包括一控制子电路及一与所述控制子电路相连的偏置子电路，所述控制子电路包括一第一输入端、一第二输入端、一与偏置子电路相连的第一场效应管、一与第一输入端相连的第二场效应管、一与第二输入端相连的第三场效应管、一与第二场效应管相连的第一输出端、一与第三场效应管相连的第二输出端、一与第一输出端相连的第一电阻及一与第二输出端相连的第二电阻，所述偏置子电路包括一参考电压端、一连接于参考电压端与控制子电路之间的比较器、一连接于比较器与第二输出端之间的第三电阻及一连接于比较器与第一输出端之间的第四电阻。本发明进一步提供一种自偏置运算放大系统。本发明结构简单且设计成本大大降低。
+153. 102386865 运算放大电路
+CN
+21.03.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201110282437.5
+四川和芯微电子股份有限公司
+范方平
+H03F 3/45
+Loading...
+一种运算放大电路，包括一第一输入端、一第二输入端、一第一输出端、一第二输出端、一控制电路、一与控制电路相连的调节电路及一与控制电路及调节电路相连的偏置电路，所述控制电路包括一第一场效应管、一第二场效应管、一第三场效应管、一第一电阻及一第二电阻，所述调节电路包括一比较器、一与比较器相连的第一可调电流源、一与比较器及第一可调电流源相连的第二可调电流源、一与比较器相连的第三电阻及一与比较器相连的第四电阻，所述偏置电路包括一偏置电流源、一与偏置电流源相连的第五电阻、一与第五电阻相连的第四场效应管及一与第四场效应管相连的第五场效应管。本发明还提供一种运算放大系统。本发明提高了共模抑制比。
+154. 102361454 扩频时钟信号检测系统及方法
+CN
+22.02.2012
+H03L 7/113 Loading...
+H03L 7/113
+Loading...
+201110315441.7
+四川和芯微电子股份有限公司
+张子澈
+H03L 7/113
+Loading...
+一种扩频时钟信号检测系统，包括一用于降低所述高速串行数据传输系统中EMI辐射的扩频时钟电路、一与所述扩频时钟电路相连用于接收所述扩频时钟信号的锁相环电路、一与所述锁相环电路相连的模数转换电路及一与所述模数转换电路相连的数字处理电路，所述锁相环电路根据所述扩频时钟信号产生一控制电压，所述模数转换电路通过采样方式对所述控制电压进行模数转换，所述数字处理电路对所述模数转换电路输出的信号进行处理，并根据所述模数转换电路输出的信号判断所述高速串行数据传输系统中是否存在所述扩频时钟信号。本发明还提供一种扩频时钟信号检测方法。本发明结构简单，且使用方便。
+155. 102355245 信号调节电路及方法
+CN
+15.02.2012
+H03K 17/296 Loading...
+H03K 17/296
+Loading...
+201110167030.8
+四川和芯微电子股份有限公司
+范方平
+H03K 17/296
+Loading...
+一种信号调节电路，用于自动调节输出信号的上升下降时间，所述信号调节电路包括一第一数据输入端、一第二数据输入端、一与所述第一数据输入端及所述第二数据输入端相连的数据驱动器、一与所述数据驱动器相连的第一输出端、一与所述数据驱动器相连的第二输出端、一与所述第一输出端及所述第二输出端相连的时间检测器、一与所述时间检测器相连的放大器、一与所述放大器相连的第一比较器、一与所述放大器相连的第二比较器及一与所述第一比较器及所述第二比较器相连的数字编码器。本发明还提供一种信号调节方法。本发明结构及调节方法简单。
+156. 102355214 可调增益音频功率放大电路
+CN
+15.02.2012
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+201110336186.4
+四川和芯微电子股份有限公司
+朱国军
+H03G 3/20
+Loading...
+一种可调增益音频功率放大电路，包括一输入单元、一与输入单元相连的音频放大单元、一与音频放大单元相连的增益调节单元、一与增益调节单元相连的控制单元、一连接于增益调节单元与控制单元之间的比较单元及一与音频放大单元相连的输出单元，所述比较单元将输出单元的输出信号与一共模基准电压进行比较，并输出一增益调节控制信号至控制单元，所述增益调节控制信号在输出单元的输出信号与共模基准电压相等时发生翻转，所述控制单元检测出当增益调节控制信号发生翻转时，将接收的一增益调节信号传送至增益调节单元，所述增益调节单元根据接收的增益调节信号控制可调增益音频功率放大电路的增益。本发明结构简单且抑制了增益调节产生的噼啪声。
+157. 102355244 分频器复位电路及系统
+CN
+15.02.2012
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201110213434.6
+四川和芯微电子股份有限公司
+范方平
+H03K 17/22
+Loading...
+一种分频器复位电路，包括一时钟信号输入端、一第一信号输出端、一第二信号输出端、一上升沿触发电路、一下降沿触发电路、一分别与上升沿触发电路及下降沿触发电路相连的控制电路及一与控制电路相连的复位信号输入端，所述控制电路包括一与复位信号输入端相连的第一反相器、一与第一反相器相连的第二反相器、一与复位信号输入端相连的第十三场效应管、一与复位信号输入端相连的第十四场效应管、一与第二反相器相连的第十五场效应管及一连接于第一反相器与第二反相器之间的电容，第十三场效应管与下降沿触发电路相连，第十四场效应管及第十五场效应管与上升沿触发电路相连。本发明还提供一种分频器复位系统。本发明结构简单。
+158. 102355216 具有折叠结构的吉尔伯特单元
+CN
+15.02.2012
+H03G 3/30 Loading...
+H03G 3/30
+Loading...
+201110217888.0
+四川和芯微电子股份有限公司
+范方平
+H03G 3/30
+Loading...
+一种具有折叠结构的吉尔伯特单元，包括一第一输入端、一第二输入端、一负载电路、一输入控制电路、一增益控制电路、一尾电流、一第一输出端及一第二输出端，所述第一输入端与所述第二输入端用于输入一对差分信号，所述第一输出端与所述第二输出端用于输出一对差分信号，所述具有折叠结构的吉尔伯特单元还包括一连接于所述输入控制电路与所述增益控制电路之间的镜像电路，所述镜像电路包括一与所述输入控制电路相连的第五场效应管、一与所述输入控制电路相连的第六场效应管、一与所述第六场效应管及所述增益控制电路相连的第十场效应管及一与所述第五场效应管及所述增益控制电路相连的第十一场效应管。本发明结构简单，使用范围广泛。
+159. 202145636 分频器复位电路
+CN
+15.02.2012
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201120270781.8
+四川和芯微电子股份有限公司
+范方平
+H03K 17/22
+Loading...
+一种分频器复位电路，包括一时钟信号输入端、一第一信号输出端、一第二信号输出端、一上升沿触发电路、一下降沿触发电路、一分别与上升沿触发电路及下降沿触发电路相连的控制电路及一与控制电路相连的复位信号输入端，所述控制电路包括一与复位信号输入端相连的第一反相器、一与第一反相器相连的第二反相器、一与复位信号输入端相连的第十三场效应管、一与复位信号输入端相连的第十四场效应管、一与第二反相器相连的第十五场效应管及一连接于第一反相器与第二反相器之间的电容，第十三场效应管与下降沿触发电路相连，第十四场效应管及第十五场效应管与上升沿触发电路相连。本实用新型结构简单。
+160. 102346720 串行数据传输系统及方法
+CN
+08.02.2012
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201110282440.7
+四川和芯微电子股份有限公司
+吴召雷
+G06F 13/38
+Loading...
+一种串行数据传输系统，包括一用于发送数据的发送端、一用于接收所述发送端发送数据的接收端、一连接于所述发送端与所述接收端之间的第一连接电容及一连接于所述发送端与所述接收端之间的第二连接电容，所述发送端包括一发送端驱动单元及一与所述发送端驱动单元相连的幅度检测单元，所述发送端驱动单元根据接收的数据信号输出一对差分信号，所述幅度检测单元检测所述发送端驱动单元输出差分信号的幅度变化，并输出一指示所述发送端与所述接收端是否连接正常的指示信号。本发明还提供一种串行数据传输方法。本发明结构简单、抗干扰能力强且功耗低。
+161. 202143039 具有折叠结构的吉尔伯特单元
+CN
+08.02.2012
+H03G 3/30 Loading...
+H03G 3/30
+Loading...
+201120275776.6
+四川和芯微电子股份有限公司
+范方平
+H03G 3/30
+Loading...
+一种具有折叠结构的吉尔伯特单元，包括一第一输入端、一第二输入端、一负载电路、一输入控制电路、一增益控制电路、一尾电流、一第一输出端及一第二输出端，所述第一输入端与所述第二输入端用于输入一对差分信号，所述第一输出端与所述第二输出端用于输出一对差分信号，所述具有折叠结构的吉尔伯特单元还包括一连接于所述输入控制电路与所述增益控制电路之间的镜像电路，所述镜像电路包括一与所述输入控制电路相连的第五场效应管、一与所述输入控制电路相连的第六场效应管、一与所述第六场效应管及所述增益控制电路相连的第十场效应管及一与所述第五场效应管及所述增益控制电路相连的第十一场效应管。本实用新型结构简单，使用范围广泛。
+162. 202143202 POP噪声抑制电路
+CN
+08.02.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201120270405.9
+四川和芯微电子股份有限公司
+朱国军
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一隔直电容、一与隔直电容相连的负载、一具有恒定的小电流的充电恒流源、一具有恒定的小电流的放电恒流源、一用于控制隔直电容中电压变化的控制电压端、一与控制电压端的电压成正比的第一电流源、一与控制电压端的电压成反比的第二电流源、一与充电恒流源及第一电流源相连的充电控制开关、一与放电恒流源及第二电流源相连的放电控制开关、一与控制电压端相连的滤波电容、一连接于控制电压端与隔直电容之间的音频系统放大器，所述充电控制开关与所述放电控制开关共同连接所述控制电压端，所述隔直电容中的电压在所述音频系统开机时平滑的上升，在所述音频系统关机时平滑的下降。本实用新型能够有效抑制POP噪声。
+163. 102340301 直流电压偏移消除电路及系统
+CN
+01.02.2012
+H04L 25/06 Loading...
+H04L 25/06
+Loading...
+201110315442.1
+四川和芯微电子股份有限公司
+张子澈
+H04L 25/06
+Loading...
+一种直流电压偏移消除电路，包括一第一输入端、一第二输入端、一均衡器、一限幅放大器、一第一输出端、一第二输出端、一低通滤波器及一消除控制电路，所述消除控制电路包括一与第一输入端相连的第一电容、一与第二输入端相连的第二电容、一与第一电容相连的第一电阻、一与第一电阻相连的第二电阻、一与第二电阻相连的第三电阻、一与第三电阻相连的第四电阻、一第五电阻、一与第五电阻、第二电阻及第三电阻相连的第一场效应管、一与第三电阻、第四电阻及低通滤波器相连的第二场效应管及一与第一电阻、第二电阻及低通滤波器相连的第三场效应管。本发明还提供一种直流电压偏移消除系统。本发明降低了高速通路负载。
+164. 102333268 POP噪声抑制电路及方法
+CN
+25.01.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201110213081.X
+四川和芯微电子股份有限公司
+朱国军
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一隔直电容、一与隔直电容相连的负载、一具有恒定小电流的充电恒流源、一具有恒定小电流的放电恒流源、一控制隔直电容中电压变化的控制电压端、一与控制电压端电压成正比的第一电流源、一与控制电压端电压成反比的第二电流源、一与充电恒流源及第一电流源相连的充电控制开关、一与放电恒流源及第二电流源相连的放电控制开关、一与控制电压端相连的滤波电容、一连接于控制电压端与隔直电容之间的音频系统放大器，充电控制开关与放电控制开关共同连接控制电压端，隔直电容中的电压在音频系统开机时平滑的上升，在音频系统关机时平滑的下降。本发明还提供一种POP噪声抑制方法。本发明能够抑制POP噪声。
+165. 102324895 POP噪声抑制电路及方法
+CN
+18.01.2012
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201110182734.2
+四川和芯微电子股份有限公司
+黄俊维
+H03F 1/26
+Loading...
+一种POP噪声抑制电路，包括一隔直电容、一与隔直电容相连的输出元件、一电流产生单元、一与电流产生单元相连的充电单元、一与电流产生单元相连的放电单元、一与充电单元及放电单元相连的开关单元及一连接于开关单元与隔直电容之间的功率放大单元，所述电流产生单元分别提供一缓慢上升的电流至充电单元及放电单元，所述开关单元切换充电单元与放电单元之间的工作，所述充电单元形成一先缓慢平滑增大再缓慢平滑减小的充电电流，所述放电单元形成一先缓慢平滑增大再缓慢平滑减小的放电电流，所述隔直电容中的电压在音频系统开机时平滑的上升，在音频系统关机时平滑的下降。本发明还提供一种POP噪声抑制方法。本发明能够有效抑制POP噪声。
+166. 202121759 POP噪声抑制电路
+CN
+18.01.2012
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201120229273.5
+四川和芯微电子股份有限公司
+黄俊维
+H04R 3/02
+Loading...
+一种POP噪声抑制电路，包括一隔直电容、一与隔直电容相连的输出元件、一电流产生单元、一与电流产生单元相连的充电单元、一与电流产生单元相连的放电单元、一与充电单元及放电单元相连的开关单元及一连接于开关单元与隔直电容之间的功率放大单元，所述电流产生单元分别提供一缓慢上升的电流至充电单元及放电单元，所述开关单元切换充电单元与放电单元之间的工作，所述充电单元形成一先缓慢平滑增大再缓慢平滑减小的充电电流，所述放电单元形成一先缓慢平滑增大再缓慢平滑减小的放电电流，所述隔直电容中的电压在音频系统开机时平滑的上升，在音频系统关机时平滑的下降。本实用新型能够有效抑制POP噪声。
+167. 102314951 电流检测方法
+CN
+11.01.2012
+G11C 29/50 Loading...
+G11C 29/50
+Loading...
+201010213788.6
+四川和芯微电子股份有限公司
+何忠波
+G11C 29/50
+Loading...
+一种电流检测方法，用于检测一存储单元中的数据存储情况，其包括以下步骤：一检测电流输入端与一基准电流端分别输入一电流；一第一开关元件读取所述检测电流输入端的电流，一第二开关元件读取所述基准电流端的电流；所述第一开关元件与所述第二开关元件将读取的电流转换为电压，并传送至一比较器；及所述比较器输出一用于判断所述存储单元中是否存储数据的电压信号。该电流检测方法检测速度较快、功耗较低，且简单方便。
+168. 102315852 并串数据转换电路及并串数据转换系统
+CN
+11.01.2012
+H03M 9/00 Loading...
+H03M 9/00
+Loading...
+201110112285.4
+四川和芯微电子股份有限公司
+范方平
+H03M 9/00
+Loading...
+一种并串数据转换电路，包括一电流源、一时钟输入子电路及一并行数据输入子电路，时钟输入子电路包括一第一时钟信号端及一第二时钟信号端，第一时钟信号端与第二时钟信号端输入时钟互为反相时钟，并串数据转换电路还包括一时钟控制子电路及一串行数据输出控制子电路，时钟控制子电路包括一第一开关元件、一第二开关元件、一第三开关元件及一第四开关元件，第一与第三开关元件由第二时钟信号端控制，第二与第四开关元件由第一时钟信号端控制，串行数据输出控制子电路包括加快输出信号下降沿翻转的一第五开关元件、一第六开关元件、限制输出信号幅度的一第七开关元件及一第八开关元件。本发明还提供一种并串数据转换系统。本发明可以抑制过冲。
+169. 202111620 电荷泵电路
+CN
+11.01.2012
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201120229031.6
+四川和芯微电子股份有限公司
+唐威昀
+H02M 3/07
+Loading...
+一种电荷泵电路，包括一电流源、一第一输入端、一第二输入端、及一输出端，所述电荷泵电路还包括一与所述第一输入端及所述电流源相连的上电流镜、一与所述第二输入端及所述电流源相连的下电流镜、一与所述上电流镜及所述下电流镜相连的运算放大器及一与所述运算放大器及所述输出端相连的低通滤波器，所述运算放大器的一正相输入端与所述上电流镜及所述下电流镜相连，所述运算放大器的一反相输入端通过所述低通滤波器与所述输出端相连，所述运算放大器的一输出端与所述下电流镜相连。本实用新型保证了输出信号的稳定性。
+170. 202111688 电荷泵电路
+CN
+11.01.2012
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201120228983.6
+四川和芯微电子股份有限公司
+唐威昀
+H03L 7/08
+Loading...
+一种电荷泵电路，包括一电流源、一第一输入端、一第二输入端、及一输出端，所述电荷泵电路还包括一与所述第一输入端及所述电流源相连的上电流镜、一与所述第二输入端及所述电流源相连的下电流镜、一与所述上电流镜及所述下电流镜相连的运算放大器及一与所述运算放大器及所述输出端相连的低通滤波器，所述上电流镜为一P型场效应管集合电路，并用于产生一充电电流，所述下电流镜为一N型场效应管集合电路，并用于产生一放电电流，所述运算放大器的一正相输入端与所述上电流镜及所述下电流镜相连，所述运算放大器的一反相输入端通过所述低通滤波器与所述输出端相连，所述运算放大器的一输出端与所述上电流镜相连。本实用新型保证了输出信号的稳定性。
+171. 102306107 FPGA配置装置及配置方法
+CN
+04.01.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110252074.0
+四川和芯微电子股份有限公司
+孙银明
+G06F 9/445
+Loading...
+一种FPGA配置装置，用于将一智能卡内存储的配置文件送至一FPGA中，所述FPGA配置装置包括一微处理器、一与所述微处理器相连的FPGA接口、一与所述微处理器相连用于插接所述智能卡的智能卡接口及一与所述微处理器相连用于读取输入数字的开关选择模块，所述微处理器通过所述智能卡接口与所述智能卡进行数据传输，所述微处理器根据所述开关选择模块读取的数字在所述智能卡内选择对应数字的配置文件，并通过所述FPGA接口将选择的配置文件送至所述FPGA。本发明进一步提供了一种FPGA配置方法。本发明节约了成本，提高了开发和验证的效率。
+172. 102299721 Equalizing circuit and equalizing system
+CN
+28.12.2011
+H04B 1/12 Loading...
+H04B 1/12
+Loading...
+201110282881.7
+IPGoal Microelectronics (Sichuan) Co., Ltd.
+Wu Zhaolei
+H04B 1/12
+Loading...
+The invention relates to an equalizing circuit. The equalizing circuit comprises a first input end, a second input end, a first output end, a second output end, a first-stage regulating circuit, a second-stage regulating circuit and a bias voltage generating circuit, wherein the bias voltage generating circuit is connected with the first-stage regulating circuit and the second-stage regulating circuit; and the first-stage regulating circuit comprises a first field-effect tube, a second field-effect tube, a third field-effect tube, a fourth field-effect tube, a first resistor connected with the first field-effect tube, a second resistor connected with the second field-effect tube, a third resistor connected with the third field-effect tube, a fourth resistor connected with the fourth field-effect tube, a fifth resistor connected with the third field-effect tube, a sixth resistor connected with the fourth field-effect tube, a first capacitor connected with the third field-effect tube, and a second capacitor connected with the fourth field-effect tube. The invention also provides an equalizing system. The equalizing circuit and the equalizing system have a wide regulating range and controlled gain.
+173. 202093098 信号检测电路
+CN
+28.12.2011
+G01R 29/02 Loading...
+G01R 29/02
+Loading...
+201120203373.0
+四川和芯微电子股份有限公司
+范方平
+G01R 29/02
+Loading...
+一种信号检测电路，用于检测一输入电压信号的上升下降时间，所述信号检测电路包括一第一参考电压端、一第二参考电压端、一与第一参考电压端相连的第一比较器、一与第二参考电压端相连的第二比较器、一与第一比较器及第二比较器相连的逻辑器件及一与逻辑器件相连的电容，所述第一比较器与所述第二比较器共同接收所述输入电压信号，所述第一参考电压端为输入电压信号的最低电压输入端，所述第二参考电压端为输入电压信号的最高电压输入端，所述逻辑器件输出的信号通过所述电容进行滤波后输出一电压值与输入电压信号的上升下降时间成比例的恒定电压。本实用新型电路结构简单且速度较快。
+174. 102291146 Sampling hold circuit and method
+CN
+21.12.2011
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201110102036.7
+IPGoal Microelectronics (Sichuan) Co., Ltd.
+Zhu Guojun
+H03M 1/54
+Loading...
+The invention discloses a sampling hold circuit, which comprises an operational amplifier, and a first-stage sampling hold circuit and a second-stage sampling hold circuit which are connected with the operational amplifier respectively, wherein the operational amplifier is provided with a positive input end, a negative input end, a positive output end and a negative output end; the sampling hold circuit has a first phase and a second phase; the second-stage sampling hold circuit comprises a sampling capacitor; when the sampling hold circuit is at the first phase, the sampling capacitor is connected between the positive input end and the negative output end of the operational amplifier; and when the sampling hold circuit is at the second phase, the sampling capacitor is connected between the negative input end and the positive output end of the operational amplifier. The invention also provides a sampling hold method. The circuit has a simple structure; and the accuracy of the sampling hold circuit is improved.
+175. 102288835 Signal detection circuit and method
+CN
+21.12.2011
+G01R 29/02 Loading...
+G01R 29/02
+Loading...
+201110162239.5
+IPGoal Microelectronics (Sichuan) Co., Ltd.
+Fan Fangping
+G01R 29/02
+Loading...
+The invention relates to a signal detection circuit which is used for detecting the rise and fall time of an input voltage signal. The signal detection circuit comprises a first reference voltage end, a second reference voltage end, a first comparer connected with the first reference voltage end, a second comparer connected with the second reference voltage end, a logic device connected with the first comparer and the second comparer, and a capacitor connected with the logic device, wherein the first comparer and the second comparer together receive the input voltage signal; the first reference voltage end is the lowest voltage input end of the input voltage signal; the second reference voltage end is the highest voltage input end of the input voltage signal; and the signal output by the logic device is filtered by the capacitor, and then a constant voltage of which the voltage value is proportionate with the rise and fall time of the input voltage signal is output. The invention further provides a signal detection method. The circuit structure and the detection method are simple and high in speed.
+176. 102279820 Data storage device and control method based on SPI interface
+CN
+14.12.2011
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201110243662.8
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Sun Yinming
+G06F 13/16
+Loading...
+The invention discloses a data storage device and a control method based on an SPI (single program initiation) interface. The data storage device comprises an SPI interface circuit, an NAND flash memory, an NAND flash memory interface, a command control circuit, and a data conversion circuit, wherein the NAND flash memory is used for storing data; the NAND flash memory interface is connected between the SPI interface circuit and the NAND flash memory, and used for controlling data transmission between the SPI interface circuit and the NAND flash memory; the command control circuit is connected between the SPI interface circuit and the NAND flash memory interface, and used for converting the commands received by the SPI interface circuit into commands which can be recognized by the NAND flash memory; and the data conversion circuit is connected between the SPI interface circuit and the NAND flash memory interface, and used for realizing conversion of serial data and parallel data. The invention also provides a data storage control method based on the SPI interface. The data storage device and the data storage control method disclosed by the invention solve the problems that the NOR flash memory based on the SPI interface has low capacity and high price, and the cost is controlled.
+177. 102271009 Balancing system
+CN
+07.12.2011
+H04B 3/04 Loading...
+H04B 3/04
+Loading...
+201010190368.0
+IPGoal Microelectronics (Sichuan) Co., Ltd.
+Wu Zhaolei
+H04B 3/04
+Loading...
+The invention discloses a balancing system which comprises an adjustable balancing unit, a common mode feedback unit connected with the adjustable balancing unit, a current balancing and driving unit connected with the common mode feedback unit and the adjustable balancing unit, a first high-pass filter unit connected with the adjustable balancing unit, a second high-pass filter unit connected with the current balancing and driving unit, a first low-pass filter unit connected with the adjustable balancing unit, a second low-pass filter unit connected with the current balancing and driving unit, a first energy detecting unit connected with the first high-pass filter unit and the second high-pass filter unit, a second energy detecting unit connected with the first low-pass filter unit and the second low-pass filter unit, a first analog-to-digital conversion unit connected with the first energy detecting unit, a second analog-to-digital conversion unit connected with the second energy detecting unit, and a status judging unit connected with the first analog-to-digital conversion unit and the second analog-to-digital conversion unit, wherein the status judging unit is used for outputting a control signal for adjusting the adjustable balancing unit. The balancing system improves the quality of signals of the receiving end of the high-speed signal transmission system.
+178. 202068326 电荷泵电路
+CN
+07.12.2011
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201120191771.5
+四川和芯微电子股份有限公司
+唐威昀
+H02M 3/07
+Loading...
+一种电荷泵电路，包括一电流源、一第一输入端、一第二输入端、及一输出端，所述电荷泵电路还包括一与第一输入端及电流源相连的上电流镜、一与第二输入端及电流源相连的下电流镜及一与上电流镜、下电流镜及输出端相连的运算放大器，所述上电流镜为一P型场效应管集合电路，并用于产生一充电电流，所述下电流镜为一N型场效应管集合电路，并用于产生一放电电流，所述运算放大器的一正相输入端与所述上电流镜及所述下电流镜相连，所述运算放大器的一反相输入端与所述上电流镜、所述下电流镜及所述输出端相连，所述运算放大器的一输出端与所述上电流镜相连。本实用新型保证了输出信号的稳定性。
+179. 102255500 Charge pump circuit and charge pump system
+CN
+23.11.2011
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201110181693.5
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Tang Weiyun
+H02M 3/07
+Loading...
+A charge pump circuit comprises a current source, a first input end, a second input end, an output end, an upper current mirror which is connected with the first input end and the current source, a lower current mirror which is connected with the second input end and the current source, an operational amplifier which is connected with the upper current mirror and the lower current mirror, and a low pass filter which is connected with an output end of the operational amplifier, wherein a normal phase input end of the operational amplifier is connected with the upper current mirror and the lower current mirror, an inverted input end of the operational amplifier is connected with the low pass filter and the output end, and an output end of the operational amplifier is connected with the lower current mirror. The invention also provides a charge pump system. According to the invention, the stability of output signals can be ensured.
+180. 102255501 Charge pump circuit
+CN
+23.11.2011
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201110182515.4
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Tang Weiyun
+H02M 3/07
+Loading...
+The invention provides a charge pump circuit which comprises a current source, a first input terminal, a second input terminal, and an output terminal. The charge pump circuit also comprises an upper current mirror which is connected with the first input terminal and the current source, a lower current mirror which is connected with the second input terminal and the current source, an operational amplifier which is connected with the upper current mirror and the lower current mirror, and a low-pass filter which is connected with the operational amplifier and the output terminal. The upper current mirror is a P-type field effect transistor integrated circuit which is used for generating charging current, and the lower current mirror is an N-type field effect transistor integrated circuit which is used for generating discharging current. A positive input terminal of the operational amplifier is connected with the upper current mirror and the lower current mirror, an anti-phase input terminal of the operational amplifier is connected with the output terminal through the low-pass filter, and an output terminal of the operational amplifier is connected with the upper current mirror. According to the invention, stability of an output signal is guaranteed.
+181. 102254202 Memory stick (MS) card control system and read-write method
+CN
+23.11.2011
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201110219176.2
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Sun Yinming
+G06K 17/00
+Loading...
+The invention discloses a memory stick (MS) card control system for controlling read-write operation on an MS card. The MS card control system comprises a micro control unit, a micro control unit interface, an MS card waveform generator, a check code circuit and an MS card interface, wherein the micro control unit interface is connected with the micro control unit; the MS card waveform generator is connected with the micro control unit interface and used for generating a command waveform required for controlling the MS card; the check code circuit is connected between the micro control unit interface and the MS card waveform generator and used for generating a check code special for the MS card; the MS card interface is connected with the MS card waveform generator and is in plugging connection with the MS card. The invention also provides an MS card read-write method. By the invention, the application problem of the MS card in low-cost fields is solved.
+182. 102244501 CMFB (common mode feedback) circuit
+CN
+16.11.2011
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201010170396.6
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Fan Fangping
+H03F 3/45
+Loading...
+The invention provides a CMFB (common mode feedback) circuit, comprising an amplifying circuit, a biasing circuit connected with the amplifying circuit and a feedback loop connected with the amplifying circuit and the biasing circuit, wherein the feedback loop comprises a first field-effect transistor M1, an eighth field-effect transistor M1B connected with the first field-effect transistor M1, a tenth field-effect transistor M2B and an eleventh field-effect transistor MFB connected with the eighth field-effect transistor M1B and the tenth field-effect transistor M2B; and a common mode voltage value of the CMFB circuit is regulated by the eleventh field-effect transistor MFB. The CMFB circuit is simple in structure, is in no need of an external feedback circuit and can realize CMFB without inputting a reference voltage.
+183. 102244462 Charge pump circuit
+CN
+16.11.2011
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201010170392.8
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Fan Fangping
+H02M 3/07
+Loading...
+The invention discloses a charge pump circuit, which comprises a switching circuit and a control circuit, wherein the switching circuit is used for providing charging and discharging current; the control circuit is used for controlling the switching circuit; the switching circuit comprises a first switch used for controlling charging speed; and the control circuit generates a signal for controlling the first switch according to the pulse width of an input signal. The circuit shortens the locking time of a phase locked loop.
+184. 102243256 Threshold voltage generation circuit
+CN
+16.11.2011
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201010170364.6
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Fan Fangping
+G01R 1/28
+Loading...
+The invention provides a threshold voltage generation circuit. The circuit comprises a master control circuit and a bias circuit connected with the master control circuit, wherein the master control circuit comprises a first switch element, a second switch element connected with the first switch element, a third switch element connected with the second switch element, and a first operation amplifier connected the third switch element, wherein and the output end of the first operation amplifier outputs a threshold voltage. The circuit can generate a more accurate threshold voltage.
+185. 202026302 并串数据转换电路
+CN
+02.11.2011
+H03M 9/00 Loading...
+H03M 9/00
+Loading...
+201120135666.X
+四川和芯微电子股份有限公司
+范方平
+H03M 9/00
+Loading...
+一种并串数据转换电路，包括一电流源、一时钟输入子电路及一并行数据输入子电路，时钟输入子电路包括一第一时钟信号端及一第二时钟信号端，第一时钟信号端与第二时钟信号端输入时钟互为反相时钟，并串数据转换电路还包括一时钟控制子电路及一串行数据输出控制子电路，时钟控制子电路包括一第一开关元件、一第二开关元件、一第三开关元件及一第四开关元件，第一与第三开关元件由第二时钟信号端控制，第二与第四开关元件由第一时钟信号端控制，串行数据输出控制子电路包括加快输出信号下降沿翻转的一第五开关元件、一第六开关元件、限制输出信号幅度的一第七开关元件及一第八开关元件。本实用新型可以抑制过冲。
+186. 102226820 Circuit for detecting intermediate voltage
+CN
+26.10.2011
+G01R 19/10 Loading...
+G01R 19/10
+Loading...
+201110077434.8
+Sichuan IPGoal Microelectronics Co., Ltd.
+Fan Fangping
+G01R 19/10
+Loading...
+The invention relates to a circuit for detecting an intermediate voltage. The circuit comprises a first input terminal, a first filtering unit, a first voltage follower, a first current copy unit, a second input terminal, a second filtering unit, a second voltage follower, a second current copy unit, and an output terminal. The first input terminal and the second input terminal receives a pair of input differential voltage signals; the first filtering unit and the second filtering unit convert the received input differential voltage signals into corresponding direct current voltage signals; the first voltage follower and the second voltage follower convert the received direct current voltage signals into corresponding current signals; current values of current signals output by the first current copy unit and the second current copy unit is half of current values of input current signals; and the output terminal outputs an intermediate voltage of the differential voltage signals. According to the invention, an intermediate voltage of the differential voltage signals can be detected; besides, the structure of the circuit is simple.
+187. 202014234 高速比较器
+CN
+19.10.2011
+H03K 5/24 Loading...
+H03K 5/24
+Loading...
+201120053902.3
+四川和芯微电子股份有限公司
+范方平
+H03K 5/24
+Loading...
+一种高速比较器，包括一第一开关元件、一第二开关元件、一第三开关元件、一与所述第一开关元件相连的第一电阻、一与所述第二开关元件相连的第二电阻、一第三电阻、一第四电阻及一第五电阻，所述第三电阻连接于所述第一开关元件与所述第三开关元件之间，所述第四电阻连接于所述第二开关元件与所述第三开关元件之间，所述第五电阻与所述第一电阻及所述第二电阻相连。本实用新型结构简单，且增益不随工艺变化而变化。
+188. 202014232 占空比调节电路
+CN
+19.10.2011
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201120135310.6
+四川和芯微电子股份有限公司
+朱国军
+H03K 3/017
+Loading...
+一种占空比调节电路，包括一边沿检测电路、一与所述边沿检测电路相连的触发器、一与所述触发器相连的反馈控制电路及一与所述反馈控制电路相连的电荷泵电路，所述边沿检测电路检测一输入时钟信号的边沿，所述触发器根据所述边沿检测电路输出的时钟信号将触发器的一输出端置为一第一电平，所述电荷泵电路通过对一电容进行充放电控制所述触发器的输出端输出的第一电平的持续时间，所述触发器根据所述反馈控制电路输出的时钟信号将触发器的输出端置为一与所述第一电平相反的第二电平。本实用新型电路结构简单、调节稳定且时间快速。
+189. 201993416 中间电压检测电路
+CN
+28.09.2011
+G01R 19/10 Loading...
+G01R 19/10
+Loading...
+201120087739.2
+四川和芯微电子股份有限公司
+范方平
+G01R 19/10
+Loading...
+一种中间电压检测电路，包括一第一输入端、一第一滤波单元、一第一电压跟随器、一第一电流复制单元、一第二输入端、一第二滤波单元、一第二电压跟随器、一第二电流复制单元及一输出端，第一输入端与第二输入端接收一对输入的差分电压信号，第一滤波单元与第二滤波单元将接收的差分电压信号转换为相应的直流电压信号，第一电压跟随器与第二电压跟随器将接收到的直流电压信号转换为相应的电流信号，第一电流复制单元与第二电流复制单元输出的电流信号的电流值为输入电流信号的电流值的一半，输出端输出差分电压信号的中间电压。本实用新型能够检测出差分输入信号的中间电压，且电路结构简单。
+190. 102195476 Charge pump circuit and charge pump system
+CN
+21.09.2011
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201110153591.2
+Sichuan IPGoal Microelectronics Co., Ltd.
+Tang Weiyun
+H02M 3/07
+Loading...
+The invention discloses a charge pump circuit, which comprises a current source, a first input end, a second input end and an output end, the charge pump circuit also comprises an upper current mirror which is connected with the first input end and the current source, a lower current mirror which is connected with the second input end and the current source, and an operational amplifier which is connected the lower current mirror and the output end; the upper current mirror is a P type field effect tube integrated circuit and used for producing a charging current, the lower current mirror is an N type field effect tube integrated circuit and used for producing a discharging current; the non-inverting phase input end of the operational amplifier is connected with the upper current mirror and the lower current mirror; the inverting phase input end of the operational amplifier is connected with the upper current mirror, the lower circuit mirror and the output end; and one output end of the operational amplifier is connected with the upper circuit mirror. The invention also provides a charge pump system. The invention ensures the stability of output signals.
+191. 201985841 比较器线性度补偿系统
+CN
+21.09.2011
+H03K 21/40 Loading...
+H03K 21/40
+Loading...
+201120054716.1
+四川和芯微电子股份有限公司
+范方平
+H03K 21/40
+Loading...
+一种比较器线性度补偿系统，用于补偿一第一比较器的线性度，所述比较器线性度补偿系统包括第一比较器，所述第一比较器接收一对输入的差分电压信号，并根据输入的差分电压信号输出一对差分电压信号，所述比较器线性度补偿系统还包括一第二比较器及一第三比较器，第三比较器分别与第一比较器及第二比较器相连，第二比较器与一共模电压端相连，并输出一第一电压至第三比较器，第一比较器输出一第二电压至第三比较器，第三比较器根据第一电压与第二电压输出一偏置电压至第一比较器来控制第一电压与第二电压相等。本实用新型保证了整个输入差分电压变化期间，比较器的增益保持近似不变，提高了比较器可以忍受的最大差分电压值。
+192. 201966873 交点下移电路
+CN
+07.09.2011
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201120135700.3
+四川和芯微电子股份有限公司
+范方平
+H03F 1/26
+Loading...
+一种交点下移电路，包括一第一输入端、一第二输入端、一第一输出端及一第二输出端、一电流源、一第一电阻、一第二电阻、一第一开关元件、一第二开关元件、一第三开关元件、一第一电容、一第三电阻、一第五开关元件、一第四开关元件、一第二电容、一第四电阻及一第六开关元件，第一开关元件的一端与第一电阻相连，另一端分别与第三开关元件、第一电容、第三电阻、第五开关元件、第六开关元件及第二输出端相连，第二开关元件的一端与第二电阻相连，另一端分别与第四开关元件、第二电容、第四电阻、第六开关元件、第五开关元件及第一输出端相连。本实用新型结构简单，可以有效抑制噪声。
+193. 201966892 采样保持电路
+CN
+07.09.2011
+H03M 1/54 Loading...
+H03M 1/54
+Loading...
+201120121325.7
+四川和芯微电子股份有限公司
+朱国军
+H03M 1/54
+Loading...
+一种采样保持电路，包括一运算放大器、一分别与所述运算放大器相连的第一级采样保持电路及一第二级采样保持电路，所述运算放大器具有一正输入端、一负输入端、一正输出端及一负输出端，所述采样保持电路具有一第一相位及一第二相位，所述第二级采样保持电路包括一采样电容，在所述第一相位时，所述采样电容连接于所述运算放大器的正输入端与负输出端之间，在所述第二相位时，所述采样电容连接于所述运算放大器的负输入端与正输出端之间。本实用新型电路结构简单且提高了采样保持电路的精度。
+194. 201947231 占空比调节电路
+CN
+24.08.2011
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201120053709.X
+四川和芯微电子股份有限公司
+范方平
+H03K 3/017
+Loading...
+一种占空比调节电路，包括一运算放大器、一与运算放大器相连的第一开关元件、一时钟信号输入端、一与时钟信号输入端相连的第二开关元件、一与第一开关元件及第二开关元件相连的第一反相器、一与第一反相器相连的第二反相器、一与第二反相器相连的第三反相器、一与第三反相器相连的第一电阻、一与第一电阻相连的第一电容、一与第一反相器相连的传输门、一与传输门相连的第四反相器、一与第四反相器相连的第二电阻、一与第二电阻相连的第二电容及一与第一反相器相连的时钟信号输出端，运算放大器的正相输入端连接于第一电阻及第一电容之间，运算放大器的反相输入端连接于第二电阻与第二电容之间。本实用新型结构简单，生成时钟信号的占空比精确。
+195. 102130666 Duty ratio regulation circuit and method
+CN
+20.07.2011
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201110111961.6
+?IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Zhu Guojun
+H03K 3/017
+Loading...
+The invention discloses a duty ratio regulation circuit, which comprises an edge detection circuit, a trigger connected with the edge detection circuit, a feedback control circuit connected with the trigger, and a charge pump circuit connected with the feedback control circuit, wherein the edge detection circuit detects an edge inputting a clock signal; the trigger sets one output end of the trigger to be at a first level according to the clock signal output by the edge detection circuit; the charge pump circuit controls the duration of the first level of the output end of the trigger by charging and discharging a capacitor; and the trigger sets the output end of the trigger to be at a second level opposite to the first level according to the clock signal output by the feedback control circuit. The invention further provides a duty ratio regulation method. The circuit provided with the invention has a simple structure, and ensures regulation stability and high regulation speed.
+196. 102130655 Intersection moving-down circuit
+CN
+20.07.2011
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201110112252.X
+IPGoal Microelectronics(Sichuan)Co.,Ltd.
+Fan Fangping
+H03F 1/26
+Loading...
+The invention discloses an intersection moving-down circuit, which comprises a first input end, a second input end, a first output end, a second output end, a current source, a first resistor, a second resistor, a first switching element, a second switching element, a third switching element, a first capacitor, a third resistor, a fifth switching element, a fourth switching element, a second capacitor, a fourth resistor and a sixth switching element, wherein one end of the first switching element is connected with the first resistor, and the other end of the first switching element is connected with the third switching element, the first capacitor, the third resistor, the fifth switching element, the sixth switching element and the second output end respectively; and one end of the second switching element is connected with the second resistor, and the other end of the second switching element is connected with the fourth switching element, the second capacitor, the fourth resistor, the sixth switching element, the fifth switching element and the first output end respectively. The intersection moving-down circuit has a simple structure, and can effectively suppress noises.
+197. 201887779 时序纠错系统
+CN
+29.06.2011
+H04L 1/24 Loading...
+H04L 1/24
+Loading...
+201020537649.4
+四川和芯微电子股份有限公司
+吴召雷
+H04L 1/24
+Loading...
+一种时序纠错系统，用于高速串行数据传输系统中的发送端，所述时序纠错系统包括一接收一并行数据的数据通路、一接收一时钟信号的延迟可调的时钟通路、一与所述数据通路及所述延迟可调的时钟通路相连并将所述并行数据转换为一串行数据的串化单元、一用于将所述串行数据转换为一电流信号或一电压信号并输出的驱动单元及一计数与判决单元，所述计数与判决单元计算所述串行数据上升沿或下降沿的数目，并发送一用于调节所述时钟信号延迟时间的调节信号至所述延迟可调的时钟通路来控制所述串化单元的时序。本实用新型有效地解决了串化过程中的时序问题。
+198. 201869186 鉴频器
+CN
+15.06.2011
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201020636088.3
+四川和芯微电子股份有限公司
+全勇
+H03L 7/08
+Loading...
+一种鉴频器，包括一多相时钟产生单元、一连接多相时钟产生单元的采样单元及一连接采样单元的数字逻辑单元，所述多相时钟产生单元接收一输入的单相时钟，并将单相时钟转换为多相时钟，所述采样单元接收一输入的随机数据，并利用多相时钟产生单元产生的多相时钟对随机数据进行采样，所述随机数据的每一数据位根据多相时钟的相数被分为多个采样区间，所述数字逻辑单元对采样单元输出的采样值进行逻辑分析，确定每一采样值落入的采样区间，并根据相邻两个时刻的采样值对应的采样区间的变化输出一用于指示随机数据相对于单相时钟频率高低的指示信号。本实用新型鉴频速度较快，抗干扰能力较强，且误差较小。
+199. 102082569 Comparator linearity compensating system and method
+CN
+01.06.2011
+H03K 21/40 Loading...
+H03K 21/40
+Loading...
+201110051636.5
+IPGoal Microelectronics (Sichuan) Co., Ltd.
+Fan Fangping
+H03K 21/40
+Loading...
+The invention relates to a comparator linearity compensating system, used for compensating the linearity of a first comparator. The comparator linearity compensating system comprises the first comparator, the first comparator receives a pair of input differential voltage signals and outputs a pair of differential voltage signals according to the input differential voltage signals, the comparator linearity compensating system also comprises a second comparator and a third comparator, the third comparator is respectively connected with the first comparator and the second comparator, the second comparator is connected with a common mode voltage terminal and outputs a first voltage to the third comparator, the first comparator outputs a second voltage to the third comparator, and the second comparator outputs a bias voltage to the first comparator according the first voltage and second voltage to control the first voltage to be equal to the second voltage. The invention also provides a comparator linearity compensating method. In the invention, the gain of the comparator can be maintained to be approximately constant when the input differential voltages are changed.
+200. 201854254 时钟产生电路
+CN
+01.06.2011
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+201020636078.X
+四川和芯微电子股份有限公司
+吴召雷
+H03K 3/02
+Loading...
+一种时钟产生电路，包括一第一电流源、一电阻、一第二电流源、一第一选通电路、一第二选通电路、一电容、一第一比较器、一第二比较器及一RS触发器，第一电流源包括一第一场效应管MP1、一第二场效应管MP2、一第九场效应管MN1及一第十场效应管MN2，第二电流源包括一第四场效应管MP4、一第五场效应管MP5、一第六场效应管MP6、一运算放大器、一第十一场效应管MP11、一第九场效应管MP9、一第十五场效应管MN4、一第十六场效应管MN5、一第一三极管PNP1、一第二三极管PNP2及一第三三极管PNP3，RS触发器输出一控制第二电流源对电容进行充放电的时钟信号至第一选通电路的输入控制端及第二选通电路的输入控制端。本实用新型结构简单，提高了时钟精度。
+

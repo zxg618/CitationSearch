@@ -1,0 +1,457 @@
+1. 206041989 一种中压宽带电力线载波通信电路
+CN
+22.03.2017
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+202016001039336
+国家电网公司
+陈石东
+H04B 3/54
+Loading...
+本实用新型公开了一种中压宽带电力线载波通信电路，包括宽带载波芯片、载波放大单元、载波接收单元、耦合单元和电源单元，宽带载波芯片通过载波放大单元、载波接收单元和耦合单元相连，电源单元与宽带载波芯片、载波放大单元、载波接收单元相连，载波放大单元包括串联的载波电压放大模块和载波电流放大模块，载波电流放大模块包括并联的第一电流放大子模块和第二电流放大子模块，第一电流放大子模块和第二电流放大子模块的输出端分别和耦合单元相连。本实用新型能够以10kV中压配电网作为高速数据传输介质进行通信、能够对0~20MHz范围内的高频宽带载波信号进行功率放大，具有通信速率高、通信性能好、电路结构简单、实施成本低的优点。
+2. 106487575 一种基于电力线通信的通信模块批量升级方法
+CN
+08.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610221358.6
+青岛东软载波科技股份有限公司
+崔健
+H04L 12/24
+Loading...
+本发明涉及一种基于电力线通信的通信模块批量升级方法，可在应用现场同时对多个载波通信模块进行并发升级，其中，被升级的通信模块可以与升级设备进行直接载波通信，无需借助于被升级通信模块所在的网络，因此，无论被升级模块是否处于某网络，本升级方法均可对其实施PLC升级。本发明中提出了用于本地批量PLC升级方法，该方法可在应用现场同时对多个载波通信模块进行并发升级；本发明提出的升级方法普适于窄带、宽带载波通信模块的升级，同时，升级的并发度要高于传统的升级方式，升级效率也有大幅度提高。本发明提出的升级方法对被升级通信模块所在的网络要求不高，可随时随地进行升级。
+3. 106169939 一种中压宽带电力线载波通信电路
+CN
+30.11.2016
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201610804300.4
+国家电网公司
+陈石东
+H04B 3/54
+Loading...
+本发明公开了一种中压宽带电力线载波通信电路，包括宽带载波芯片、载波放大单元、载波接收单元、耦合单元和电源单元，宽带载波芯片分别通过载波放大单元、载波接收单元和耦合单元相连，电源单元分别与宽带载波芯片、载波放大单元、载波接收单元相连，载波放大单元包括串联的载波电压放大模块和载波电流放大模块，载波电流放大模块包括并联的第一电流放大子模块和第二电流放大子模块，第一电流放大子模块和第二电流放大子模块的输出端分别和耦合单元相连。本发明能够以10kV中压配电网作为高速数据传输介质进行通信、能够对0~20MHz范围内的高频宽带载波信号进行功率放大，具有通信速率高、通信性能好、电路结构简单、实施成本低的优点。
+4. 105897892 一种实现数据汇集的方法
+CN
+24.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000221327
+青岛东软载波科技股份有限公司
+崔健
+H04L 29/08
+Loading...
+本发明涉及一种实现数据汇集的方法，其流程如下：(1)中央协调节点发送数据汇集任务启动命令广播，通知网络内的所有节点进行数据上报，启动命令携带了抄读对应数据的应用协议广播报文；(2)在接收到中央协调节点发送的数据汇集任务启动命令时，根据启动命令携带的应用协议广播报文，通过地址替换规则，网络中的每个节点获取对应的应用设备数据；(3)节点将获取的应用数据整理封装为上报报文，并根据实时通信环境择机上报数据至中央协调节点，上报帧为单播帧，按照已有的到达中央协调节点的路径进行传输，也可根据网络环境动态选择代理节点进行传输。该发明方法充分利用了载波信道，实现用电数据的高效采集，为集抄系统业务扩展提供了保障。
+5. 105720932 自适应电源电压的功率放大器
+CN
+29.06.2016
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201410728085.5
+青岛东软载波科技股份有限公司
+崔健
+H03F 3/20
+Loading...
+本发明提供一种自适应电源电压的功率放大器，包括：电压比较模块将第一电源电压与多个参考电压中的每一个参考电压分别进行比较，得到多个比较结果，然后电流设定模块根据多个比较结果确定输出电流值，进一步的，线性跨导电路模块根据输出电流值确定输出级模块的栅极电压值，最后输出级模块根据所述栅极电压值输出对应的静态工作电流值。其中，电压比较模块可根据电源电压的不同值得到不同的比较结果，从而使得电流设定模块可以确定不同的输出电流值，最终使得线性跨导电路模块根据不同的电流值可以确定输出级的不同栅极电压，从而使得输出级输出不同的静态工作电流值，有效扩大的功率放大器的电源电压的范围。
+6. 105704027 一种基于路径优先选择策略的路由方法
+CN
+22.06.2016
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201610178693.2
+青岛东软载波科技股份有限公司
+崔健
+H04L 12/721
+Loading...
+本发明涉及一种基于路径优先选择策略的路由方法，当网络中的一标记为OSRC的节点向另一标记为FDST的节点发起通信时，当前节点需要确定一条路径，具体过程如下：(1)OSRC节点发起全网广播，该类型广播称为路径修复广播，广播携带FDST节点的信息，网络中的其他节点将转发该广播，每个节点仅转发一次该广播报文；(2)FDST节点在收到路由修复广播后，将组织路由回复帧，以单播帧的形式传输至OSRC节点。本发明方法充分使用了节点周期性的邻居列表广播所携带的信息，在具有周期性邻居广播的网络内，该方法可迅速建立任意两节点之间的通信路径，同时，在较复杂通信环境下，具有良好的健壮性。
+7. 105187337 一种基于重复编码的OFDM判决辅助信道估计算法
+CN
+23.12.2015
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201510478067.0
+青岛东软载波科技股份有限公司
+胡亚军
+H04L 25/02
+Loading...
+本发明涉及一种基于重复编码的OFDM判决辅助信道估计算法，具体步骤如下：(1)令信道估计其中为信道初始估计；(2)根据当前信道估计计算频域均衡后的符号值和该符号对应的比特软判决值(3)根据重复编码规则，加权累加编码比特软判决值；(4)根据当前比特软判决值计算编码比特的纠删判决值(5)把部分重复编码为第n个OFDM符号对应的待映射纠删比特流(6)把纠删比特流映射为的发送频域符号估计值(7)计算新的信道估计值；(8)更新信道估计值。本发明算法既增加了估计的样本点数，又不会带来插入导频引起的数据带宽的损失。
+8. 105162495 多节点低压直流电力线的宽带通信系统及其通信方法
+CN
+16.12.2015
+H04B 3/56 Loading...
+H04B 3/56
+Loading...
+201510385831.X
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/56
+Loading...
+本发明公开了一种多节点低压直流电力线的宽带通信系统及其通信方法，该系统包括两个直流电力线宽带通信装置，每个直流电力线宽带通信装置都包括RJ45接口、PHY芯片、宽带载波芯片、高频差分运放电路、带通滤波器、耦合单元，RJ45接口与PHY芯片连接，PHY芯片与宽带载波芯片连接，高频差分运放电路、带通滤波器都与带通滤波器连接，高频差分运放电路、带通滤波器还都与耦合单元连接。本发明可以实现多个节点之间高速、双向、实时可靠的数据传输，可直接替换交换机、网线，降低人工布线的成本等。
+9. 105046935 一种基于低压电力线和微功率无线的双模异构通信系统
+CN
+11.11.2015
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201510496645.3
+青岛东软载波科技股份有限公司
+崔健
+G08C 19/00
+Loading...
+本发明涉及一种基于低压电力线和微功率无线的双模异构通信系统，包括主站、集中器、采集器和智能电表等组成部分，主站通过公共通信网络连接集中器，集中器上连接有台区考核总表、多个三相智能电表、单相智能电表和采集器，采集器上连接有多个RS485智能电表；集中器、采集器、单相智能电表和三相智能电表之间采用无线通信网络或者载波通信网络连接，使双模的集中器路由模块和双模的电表模块或采集器模块协同工作，建立本台区下完的全覆盖的双通道通信网络，实现全网络的双通道多任务的双模通信。本发明中，多种通信模式互补短板，解决线路信号衰减或距离过远导致的通信失败的问题，极大地提高了通信成功率和通信效率。
+10. 104980321 一种基于判决反馈的OFDM信道质量估计算法
+CN
+14.10.2015
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510477532.9
+青岛东软载波科技股份有限公司
+胡亚军
+H04L 12/26
+Loading...
+本发明涉及一种基于判决反馈的OFDM信道质量估计算法，所采用的简化的系统频域模型为，该算法具体步骤如下：1)存储频域均衡后的符号序列根据计算原始比特软判决值，经过比特软判决重组和前向纠错解码获得信息比特序列{bj}；3)根据恢复的信息比特序列{bj}重新编码调制，获得估计的发送符号如果前向纠错解码失败，发送符号等于的欧氏判决值；4)计算子载波k的等效高斯白噪声信噪比SNRK。该发明算法利用了解映射的软判决以及解码的纠错能力去除了噪声和干扰的影响，得到的序列更接近真实正确的序列值。
+11. 204707121 多节点低压直流电力线的宽带通信系统
+CN
+14.10.2015
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201520477652.4
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/54
+Loading...
+本实用新型公开了一种多节点低压直流电力线的宽带通信系统，其实现多个节点之间的组网通信，每个节点包括两个直流电力线宽带通信装置，每个直流电力线宽带通信装置都包括RJ45接口、PHY芯片、载波芯片、差分放大器、带通滤波器、耦合单元，RJ45接口与PHY芯片连接，PHY芯片与载波芯片连接，差分放大器、带通滤波器都与带通滤波器连接，差分放大器、带通滤波器还都与耦合单元连接。本实用新型可以实现多个节点之间高速、双向、实时可靠的数据传输，可直接替换交换机、网线，降低人工布线的成本等，能实现250个节点组网通信和最远实现400m的传输距离。
+12. 104617662 Intelligent leakage protector with wireless communication and metering functions and control process of intelligent leakage protector
+CN
+13.05.2015
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201410681423.4
+青岛东软载波科技股份有限公司
+崔健
+H02J 13/00
+Loading...
+The invention relates to an intelligent leakage protector with wireless communication and metering functions and a control process of the intelligent leakage protector. The intelligent leakage protector comprises a power source, a single chip, a data memory, a wireless communication module, a voltage and current sampling part, a switch-out control part and a circuit breaker part, wherein the data memory and the wireless communication module are in two-way connection with the single chip; the voltage and current sampling part and the switch-out control part are in one-way connection with the circuit breaker part; the circuit breaker part is connected with the switch-out control part; the control process comprises an address application/registration step, an electricity consumption information collection step and a user control step. According to the intelligent leakage protector, the intelligent circuit breaker is taken as the protector in the branches of a power line; the electricity consumption information of each branch is measured, and meanwhile, the intelligent leakage protector, namely a main line controller, is used for receiving the branch information from the intelligent circuit breaker and the information is gathered and sent to a terminal device via an intelligent gateway, and therefore, domestic small-range power line information monitoring is realized.
+13. 204258738 自适应电源电压的功率放大器
+CN
+08.04.2015
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201420752550.4
+青岛东软载波科技股份有限公司
+崔健
+H03F 3/20
+Loading...
+本实用新型提供一种自适应电源电压的功率放大器，包括：电压比较模块将第一电源电压与多个参考电压中的每一个参考电压分别进行比较，得到多个比较结果，然后电流设定模块根据多个比较结果确定输出电流值，进一步的，线性跨导电路模块根据输出电流值确定输出级模块的栅极电压值，最后输出级模块根据所述栅极电压值输出对应的静态工作电流值。其中，电压比较模块可根据电源电压的不同值得到不同的比较结果，从而使得电流设定模块可以确定不同的输出电流值，最终使得线性跨导电路模块根据不同的电流值可以确定输出级的不同栅极电压，从而使得输出级输出不同的静态工作电流值，有效扩大的功率放大器的电源电压的范围。
+14. 203882437 一种电力载波适配器
+CN
+15.10.2014
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201420287963.X
+青岛东软载波科技股份有限公司
+崔健
+G08C 19/00
+Loading...
+本实用新型公开了一种电力载波适配器，包括提供适配器内部各功能模块电能的电源模块、以及用于传输信号并进行信号处理的载波模块、以及对外连接移动终端的USB接口电路和协调USB接口电路与载波模块的主控电路；所述电源模块分别为主控电路、载波模块、USB接口电路供电；所述USB接口电路、载波模块、电源模块均和主控电路连接；所述USB接口电路和主控电路之间通过USB桥接器进行连接；所述载波模块同时与载波接口电路和主控电路连接；本实用新型可以适配USB设备，无须对现有设备进行接口匹配；安装使用方便，无需进行额外配置，即插即用；采用模块化设计思路，兼容性好，能够在不同场所使用。
+15. 203761387 一种基于OFDM模式调制的低压电力线载波通信电路
+CN
+06.08.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201320813129.5
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/54
+Loading...
+本实用新型公开了一种基于OFDM模式调制的低压电力线载波通信电路，该电路包括载波控制电路、过零检测电路和信号耦合电路，所述载波控制电路由SSC1650芯片及外围电路构成；所述SSC1650芯片，该芯片包括ARM内核芯片、PLL、OFDM基带、AFE、SPI；所述ARM内核芯片通过总线和OFDM基带、SPI连接；所述芯片还包括SWD ICE、PMU Control、UART、WDT、GPIO、ADC模块；所述SWD ICE、PMU Control、UART、WDT、GPIO、ADC模块均通过总线和ARM内核芯片连接；与现有技术相比，本实用新型的基于OFDM模式调制的低压电力线载波芯片，最高速率达150kbps，且利用128bits AES加密机制，保障了通信的安全性。
+16. 103795441 BFSK, BPSK and DBPSK mode modulation-based low-voltage power line carrier communication circuit
+CN
+14.05.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310671589.3
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/54
+Loading...
+The invention discloses a BFSK, BPSK and DBPSK mode modulation-based low-voltage power line carrier communication circuit. The circuit comprises a carrier control circuit, a zero crossing detection circuit and a signal coupling circuit; the carrier control circuit is composed of an SSC1643 chip and a peripheral circuit; a signal amplifying filtering circuit and a receiving filtering circuit are connected between the carrier control circuit and the signal coupling circuit; the signal amplifying filtering circuit is connected with a current limiting circuit; the zero crossing detection circuit is connected between the carrier control circuit and a power line; and the communication circuit further comprises a power supply part for providing power for the communication circuit. According to the BFSK, BPSK and DBPSK mode modulation-based low-voltage power line carrier communication circuit of the invention, support of BFSK and DBPSK is additionally realized, communication can be arbitrarily adjusted in a range of 10 to 500kHz, and therefore, the application of the communication circuit can be more flexible; a low-power consumption LDO is adopted in the power supply part, and therefore, electric energy can be saved largely.
+17. 103795442 OFDM mode modulation-based low-voltage power line carrier communication circuit
+CN
+14.05.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310671615.2
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/54
+Loading...
+The invention discloses an OFDM mode modulation-based low-voltage power line carrier communication circuit. The circuit includes a carrier control circuit, a zero crossing detection circuit and a signal coupling circuit; the carrier control circuit is composed of an SSC1650 chip and a peripheral circuit; the SSC1650 chip comprises an ARM inner core chip, a PLL, an OFDM baseband, an AFE and SPI, wherein the ARM inner core chip is connected with the OFDM baseband and the SPI through a bus; the chip further comprises a PMU control, a UART, a WDT, a GPIO and an ADC module; and an SWD ICE, the PMU Control, the UART, the WDT, the GPIO and the ADC module are respectively connected with the ARM inner core chip through the bus. Compared with the prior art, the maximum rate of the OFDM mode modulation-based low-voltage power line carrier chip can achieve 150kbps; and with a 128-bit AES encryption mechanism adopted, communication security can be ensured.
+18. 203405948 基于载波通信的360度学习型红外转发系统
+CN
+22.01.2014
+G08C 23/04 Loading...
+G08C 23/04
+Loading...
+201320386544.7
+青岛东软载波科技股份有限公司
+崔健
+G08C 23/04
+Loading...
+本实用新型涉及一种基于载波通信的360度学习型红外转发系统，采用电力载波通信作为通信方式，具有可穿墙越壁，无需布线等优势，简化了红外转发系统的系统集成。一种基于载波通信的360度学习型红外转发系统包括红外转发器，控制终端、网关和服务器，红外转发器包括红外转发器电路板，红外转发器电路板上设置有学习/转发系统，所述的学习/转发系统包括单片机，单片机连接有指示灯电路、电源、电力载波模块和红外学习/发射模块，所述的电力载波模块和红外学习/发射模块均可与单片机进行双向通信，电力载波模块与单片机之间经串口通信电路连接。
+19. 103383808 360-degree learning infrared forwarding system based on carrier communication and method thereof
+CN
+06.11.2013
+G08C 23/04 Loading...
+G08C 23/04
+Loading...
+201310270047
+青岛东软载波科技股份有限公司
+崔健
+G08C 23/04
+Loading...
+The invention relates to a 360-degree learning infrared forwarding system based on carrier communication and a method thereof. The system adopts electric carrier communication as the communication way, the electric carrier communication has the advantages of penetration of walls and no need of wires, so that the system integration of the infrared forwarding system is simplified. The 360-degree learning infrared forwarding system based on carrier communication comprises an infrared forwarding device, a control terminal, a gateway and a server. The infrared forwarding device comprises an infrared forwarding device circuit board, the infrared forwarding device circuit board is provided with a learning/forwarding system, the learning/forwarding system comprises a single-chip, the single-chip is connected to an indicator light circuit, a power supply, an electric carrier module and an infrared learning/emitting module, the electric carrier module and the infrared learning/emitting module have two way communications with the single-chip, and the electric carrier module is connected to the single-chip through a serial port communication circuit.
+20. 203104442 低压电力线载波通信电路
+CN
+31.07.2013
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201220740043.X
+青岛东软载波科技股份有限公司
+傅涛
+H04B 3/54
+Loading...
+本实用新型涉及一种低压电力线载波通信电路，该电路包括载波控制电路、过零检测电路和信号耦合电路，所述的载波控制电路与信号耦合电路之间连接有信号放大滤波电路和接收滤波电路，其中，信号滤波放大电路将载波控制电路输出的模拟信号进行放大、滤波后，经过信号耦合电路进入电力线信道中传输，电力线信道中传输的信号经信号耦合电路变换后，经接收滤波电路消除高频干扰后输送至载波控制电路；所述的信号滤波放大电路连接有限流电路，用于控制载波控制电路的输出电流；过零检测电路连接于载波控制电路和电力线之间，用于对电力网工频信号过零进行检测。本实用新型电路简单，增加了信号放大滤波电路和限流电路，功耗低、保真度高，载波通信性能高。
+21. 203101495 过零检测电路
+CN
+31.07.2013
+G01R 19/175 Loading...
+G01R 19/175
+Loading...
+201220742109.9
+青岛东软载波科技股份有限公司
+王宪贤
+G01R 19/175
+Loading...
+本实用新型涉及一种过零检测电路，该电路包括隔离光耦E1、驱动三极管Q10和二级滤波电路，其中，驱动三极管Q10的集电极与隔离光耦E1连接，用来控制隔离光耦E1的通断，第一级滤波电路与电力线连接，用于消除电力线上的干扰，第二级滤波电路与驱动三极管Q10的基极和发射极连接，用于防止驱动三极管Q10误导通。本实用新型结构简单、成本低，能够将工频交流电的过零点时刻以脉冲的方式输入至载波电路模块，从而为过零通信以及相位判别提供依据，抗干扰性能强，检测精度高，功耗可降低至0.025W。
+22. 203104366 载波信号放大电路
+CN
+31.07.2013
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201220741110.X
+青岛东软载波科技股份有限公司
+傅涛
+H03F 3/20
+Loading...
+一种载波信号放大电路，包括放大器芯片，放大器芯片内设置有功率放大电路、过流保护电路、过温保护电路和欠压保护电路，过流保护电路、过温保护电路和欠压保护电路均与功率放大电路连接；所述的放大器芯片内还设置有中间参考电压输出电路。载波信号放大电路将器件集成在放大器芯片中，集成度高，降低了放大电路的生产成本，提高了电路的可靠性，生产检测维修容易，不易损坏，可与较为简单的外围电路配合，利用芯片封装使电路具有较高的保真度，降低了电力线污染，提高了载波通信性能。
+23. 203102060 限流电路
+CN
+31.07.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201220739633.0
+青岛东软载波科技股份有限公司
+王宪贤
+G05F 1/56
+Loading...
+本实用新型涉及一种限流电路，包括取样电阻、与输出端相连的滤波电容、限流三极管、控制三极管、控制开关三极管，限流三极管的基极与控制三极管的集电极连接，发射极与电源电路输出端连接，集电极与输出端连接；控制三极管的基极与电源电路输出端相连，发射极与+12V电源连接；取样电阻连接在电源电路输出端和+12V电源之间；控制开关三极管的发射极接地，基极与使能信号端连接，其间串连有限流电阻；控制开关三极管的集电极与限流三极管的基极相连，其间串联有分压电阻；控制三极管的集电极与+12V电源连接，其间串连有分压电阻。本实用新型限流值不随电压的变化而波动，限流值精度较高，具有负温度系数的特性，随着电路温度的升高，限流值减小，节省电能。
+24. 103063904 过零检测电路
+CN
+24.04.2013
+G01R 19/175 Loading...
+G01R 19/175
+Loading...
+201210584484.X
+青岛东软载波科技股份有限公司
+王宪贤
+G01R 19/175
+Loading...
+本发明涉及一种过零检测电路，该电路包括隔离光耦E1、驱动三极管Q10和二级滤波电路，其中，驱动三极管Q10的集电极与隔离光耦E1连接，用来控制隔离光耦E1的通断，第一级滤波电路与电力线连接，用于消除电力线上的干扰，第二级滤波电路与驱动三极管Q10的基极和发射极连接，用于防止驱动三极管Q10误导通。本发明结构简单、成本低，能够将工频交流电的过零点时刻以脉冲的方式输入至载波电路模块，从而为过零通信以及相位判别提供依据，抗干扰性能强，检测精度高，功耗可降低至0.025W。
+25. 103049029 限流电路
+CN
+17.04.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201210584586.1
+青岛东软载波科技股份有限公司
+王宪贤
+G05F 1/56
+Loading...
+本发明涉及一种限流电路，包括取样电阻、与输出端相连的滤波电容、限流三极管、控制三极管、控制开关三极管，限流三极管的基极与控制三极管的集电极连接，发射极与电源电路输出端连接，集电极与输出端连接；控制三极管的基极与电源电路输出端相连，发射极与+12V电源连接；取样电阻连接在电源电路输出端和+12V电源之间；控制开关三极管的发射极接地，基极与使能信号端连接，其间串连有限流电阻；控制开关三极管的集电极与限流三极管的基极相连，其间串联有分压电阻；控制三极管的集电极与+12V电源连接，其间串连有分压电阻。本发明限流值不随电压的变化而波动，限流值精度较高，具有负温度系数的特性，随着电路温度的升高，限流值减小，节省电能。
+26. 103036593 低压电力线载波通信电路
+CN
+10.04.2013
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201210584521.7
+青岛东软载波科技股份有限公司
+傅涛
+H04B 3/54
+Loading...
+本发明涉及一种低压电力线载波通信电路，该电路包括载波控制电路、过零检测电路和信号耦合电路，所述的载波控制电路与信号耦合电路之间连接有信号放大滤波电路和接收滤波电路，其中，信号滤波放大电路将载波控制电路输出的模拟信号进行放大、滤波后，经过信号耦合电路进入电力线信道中传输，电力线信道中传输的信号经信号耦合电路变换后，经接收滤波电路消除高频干扰后输送至载波控制电路；所述的信号滤波放大电路连接有限流电路，用于控制载波控制电路的输出电流；过零检测电路连接于载波控制电路和电力线之间，用于对电力网工频信号过零进行检测。本发明电路简单，增加了信号放大滤波电路和限流电路，功耗低、保真度高，载波通信性能高。
+27. 102195677 Receiving circuit, transmitting circuit, microcontroller and power-line carrier communication method
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123198.4
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Hu Yajun
+H04B 3/54
+Loading...
+The invention provides a receiving circuit, a transmitting circuit, a microcontroller and a power-line carrier communication method. In the invention, the receiving circuit comprises an analogue amplifier, a receiving filter, an analogue-digital converter, a digital mixer, a digital filter and a digital demodulator which are all connected in sequence; the transmitting circuit comprises a digital modulator, a gain controller, a digital-analogue converter, a sending filter and a sending amplifier which are all connected in sequence; the microcontroller comprises a central processing unit, the receiving circuit or the transmitting circuit. The power-line carrier communication method can be implemented based on the receiving circuit or the microcontroller. According to the receiving circuit, the transmitting circuit, the microcontroller and the power-line carrier communication method provided by the invention, the defect that only one modulation or demodulation method can be applied in the traditional power-line carrier communication system is overcome, different modulation or demodulation methods can be adopted to process power-line carrier communication signals.
+28. 102195678 Power line carrier signal demodulation circuit and microcontroller
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123199.9
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Hu Yajun
+H04B 3/54
+Loading...
+The invention provides a power line carrier signal demodulation circuit and a microcontroller. The power line carrier signal demodulation circuit comprises a processing module, a demodulation circuit and a grating module, wherein the demodulation circuit is connected with the processing module; the grating module is connected with the processing module and provides a selection signal for the processing module; the modulation circuit at least comprises a first modulation unit and a second modulation unit; therefore, the problem that the power line carrier signal modulation circuit in the prior art has a single demodulation mode can be solved, and the power line carrier signal demodulation circuit disclosed by the prior art can support multiple demodulation modes, so that users can select demodulation modes flexibly, the use cost for users can be reduced effectively, and the use convenience for users can be improved.
+29. 102195680 Microcontroller as well as method and device for receiving and processing power line carrier (PLC) signal
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123203.1
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Wang Rui
+H04B 3/54
+Loading...
+The invention provides a microcontroller as well as a method and device for receiving and processing a power line carrier (PLC) signal. The method comprises the following steps: an analog mixer mixes the received PLC signal; an analog filter filters the mixed PLC signal; after analog-to-digital (A/D) conversion on the filtered PLC signal, a digital mixer mixes the PLC signal after A/D conversion; a digital filter filters the PLC signal mixed by the digital mixer; and a digital demodulator demodulates the filtered signal so as to obtain PLC data. The invention further provides the corresponding device and the microcontroller comprising the device. By utilizing the technical scheme, the received PLC signal is subjected to two-stage mixing treatment so that the carrier signals with arbitrary frequency can be modulated to an approximate fixed frequency, thus achieving the purpose of demodulating the carrier signals with arbitrary frequency transmitted on a power line.
+30. 102195679 Power line carrier modulation method, demodulation method, circuit and chip
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123201.2
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Cui Jian
+H04B 3/54
+Loading...
+The invention provides a power line carrier modulation method, a demodulation method, a circuit and a chip. The modulation method comprises the following steps of: detecting narrow-band nongaussian noise frequency in a power line; selecting non-noise frequency from a preset carrier frequency band as modulation carrier frequency; generating a modulation carrier according to the modulation carrier frequency; modulating a digital signal to be modulated to the modulation carrier to generate a power line carrier signal. By using the modulation method, the narrow-band nongaussian noise frequency can be avoided, the change of noise environment of the power line can be adapted, and the quality of power line communication can be improved.
+31. 102195681 Demodulation signal gain control method and device and microcontroller
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123205.0
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Wang Rui
+H04B 3/54
+Loading...
+The invention provides a demodulation signal gain control method and device and a microcontroller. The gain control method comprises the following steps of: acquiring the effective value of a demodulation signal in power line carrier communication; selecting one preset gain adjustment value from more than two preset gain adjustment values as an actual gain adjustment value according to a difference value between the effective value of the demodulation signal and a preset signal energy reference value, and generating a gain control signal according to the actual gain adjustment value; and sending the generated gain control signal to a gain amplifier so as to amplify or attenuate the demodulation signal. The invention also provides a corresponding device and a microcontroller equipped with the device. The demodulation signal gain control method and device and the microcontroller provided by the invention are adapted to the nonlinear time varying feature of channels in power line carrier communication, thereby realizing the accurate adjustment of demodulation signals in the power line carrier communication.
+32. 102195675 载波侦听方法、电路及微控制器
+CN
+21.09.2011
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+201010123202.7
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/46
+Loading...
+本发明提供一种载波侦听方法、电路及微控制器，其中方法包括：将接收到的模拟信号进行模拟放大；将放大后的模拟信号进行模数转换生成数字信号；对所述数字信号进行解调生成解调信号；根据所述解调信号的幅度值计算所述解调信号的能量值；根据所述解调信号的能量值及预设能量范围确定增益倍数；根据所述增益倍数控制对所述接收到的模拟信号进行模拟放大时的放大倍数。本发明实现了对能量较小的电力线载波信号的侦听，扩展了应用环境。
+33. WO/2011/109963 MICRO-CONTROLLER, PROCESSING METHOD AND DEVICE FOR POWER LINE CARRIER SIGNAL RECEPTION
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073495
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+WANG, Rui
+H04B 3/54
+Loading...
+The present invention provides a micro-controller, a processing method and device for power line carrier signal reception, wherein, the method includes that: an analog mixer mixes the received power line carrier signals, and an analog filter filters the mixed power line carrier signals, the filtered power line carrier signals are processed by analog-to-digital conversion, and a digital mixer mixes the power line carrier signals after the analog-to-digital conversion, a digital filter filters the power line carrier signals which have been mixed by the digital mixer, a digital demodulator performs demodulation to obtain power line carrier data. The present invention also provides a corresponding device and a micro-controller including aforesaid device. The technical solution of the present invention can modulate carrier signals of any frequency to the neighborhood of a fixed frequency by processing the received power line carrier signals by two-stage mixing, thereby enabling to demodulate carrier signals of any frequency on power lines.
+34. WO/2011/109966 POWER LINE CARRIER SIGNAL DEMODULATION CIRCUIT AND MICRO CONTROLLER
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073512
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+HU, Yajun
+H04B 3/54
+Loading...
+A power line carrier signal demodulation circuit and a micro controller. The power line carrier signal demodulation circuit includes a processing module (12), a demodulation circuit (13) connected with the processing module (12), a multiplexer module (11) connected with the processing module (12) and providing a multiplexer signal to the processing module (12). The demodulation circuit (13) includes at least a first demodulation unit (131) and a second demodulation unit (132). The power line carrier signal demodulation circuit and the micro controller can support various demodulation modes, so that flexibly choices can be achieved by the users, the use cost can be effectively reduced, and the use convenience can be improved.
+35. WO/2011/109967 METHOD, APPARATUS AND MICROCONTROLLER OF DEMODULATION SIGNAL GAIN CONTROL
+WO
+15.09.2011
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+PCT/CN2010/073515
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+WANG, Rui
+H03G 3/20
+Loading...
+The present invention provides a method, apparatus and microcontroller of demodulation signal gain control. The method includes: obtaining the effective value of the demodulation signal in Power Line Carrier (PLC) communications; selecting one from two or more predetermined gain adjustment values as the real gain adjustment value according to the difference value between the demodulation signal's effective value and the predetermined signal energy reference value, and generating a gain control signal according to the real gain adjustment value; transferring the generated gain control signal to a gain amplifier to amplify or attenuate the demodulation signal. The present invention also provides a corresponding apparatus and a microcontroller which includes the apparatus. The method, apparatus and microcontroller of demodulation signal gain control provided in the present invention can adapt the characteristics of nonlinear time-varying channel existing in PLC communications, thus achieving an accurate adjustment on the gain of demodulation signal in PLC communications.
+36. WO/2011/109965 MODULATION METHOD, DEMODULATION METHOD, CIRCUIT AND CHIP FOR POWER LINE CARRIER
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073507
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+CUI, Jian
+H04B 3/54
+Loading...
+A modulation method, demodulation method, circuit and chip for power line carrier are provided. The modulation method includes: detecting a frequency of narrow band non-gauss noise in a power line; selecting a non-noise frequency from a preset carrier frequency band as a modulation carrier frequency; generating a modulation carrier with the modulation carrier frequency; modulating digital signals, which are to be modulated, on the modulation carrier, so as to generate power line carrier signals.
+37. WO/2011/109962 RECEIVING CIRCUIT, TRANSMITTING CIRCUIT, MICRO-CONTROLLER AND METHOD FOR POWER LINE CARRIER COMMUNICATION
+WO
+15.09.2011
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2010/073493
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+HU, Yajun
+H04M 11/04
+Loading...
+A receiving circuit, a transmitting circuit, a micro-controller and a method for power line carrier communication are provided by the present invention. The receiving circuit includes an analog amplifier, a receiving filter, an analog-to-digital converter, a digital mixer, a digital filter, a digital demodulator connected successively. The transmitting circuit includes a digital modulator, a gain controller, a digital-to-analog converter, a transmitting filter and a transmitting amplifier connected successively. The micro-controller includes a central processing unit and a receiving circuit or transmitting circuit. The method for power line carrier communication can be implemented on the basis of the receiving circuit or micro-controller. The receiving circuit, the transmitting circuit, the micro-controller and the method for power line carrier communication provided by present invention solve the defect of supporting only one modulation or demodulation mode in the prior power line carrier communication system, and can process the power line carrier signal with different modulation or demodulation mode.
+38. WO/2011/109964 METHOD, CIRCUIT AND MICROCONTROLLER FOR CARRIER SENSE
+WO
+15.09.2011
+H04L 12/413 Loading...
+H04L 12/413
+Loading...
+PCT/CN2010/073506
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY C0., LTD.
+CUI, Jian
+H04L 12/413
+Loading...
+The present invention provides a method, circuit and microcontroller for carrier sense. The method includes: performing analog amplification on the received analog signal; performing analog to digital conversion on the amplified analog signal to generate a digital signal; demodulating the digital signal to generate a demodulated signal; calculating the energy value of the demodulated signal according to the amplitude value of the demodulated signal; determining a gain multiple according to the energy value of the demodulated signal and a preset energy range; and according to the gain multiple, controlling the amplification multiple which is used when the analog amplification is performed on the received analog signal. The present invention enables the sense on the power line carrier signal which has less energy, and expands the application environment.
+

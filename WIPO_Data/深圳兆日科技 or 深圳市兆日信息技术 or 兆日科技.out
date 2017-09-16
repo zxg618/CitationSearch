@@ -1,0 +1,757 @@
+1. WO/2017/024779 MATERIAL ANTI-COUNTERFEITING METHOD AND MATERIAL ANTI-COUNTERFEITING SYSTEM
+WO
+16.02.2017
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+PCT/CN2016/073660
+SINOSUN TECHNOLOGY CO.,LTD.
+WEI, Kaiyan
+G06Q 30/00
+Loading...
+A material anti-counterfeiting method and a material anti-counterfeiting system (300). The material anti-counterfeiting method comprises: starting an infrared light source (301), so that an infrared ray output by the infrared light source (301) irradiates an identification region of a material to be identified (101); acquiring an infrared transmission image in the identification region (102); extracting physical characteristic data of the material to be identified from the infrared transmission image (103); matching the physical characteristic data of the material to be identified with pre-stored physical characteristic data (104); determining the material to be identified as a non-counterfeit material if the match is successful (105); and determining the material to be identified as a counterfeit material if the match is unsuccessful (106), wherein an extraction method of the pre-stored physical characteristic data is the same as an extraction method of the physical characteristic data of the material to be identified. By means of the technical solution, the anti-counterfeiting safety of a material can be effectively improved.
+2. 106230598 移动终端第三方应用安全认证方法和装置
+CN
+14.12.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201610615972.0
+深圳兆日科技股份有限公司
+任朝荣
+H04L 9/32
+Loading...
+本发明涉及一种移动终端第三方应用安全认证方法和装置，该方法包括如下步骤：下载第三方应用安装包；获取第三方应用的安装包中携带的公钥和安装包的签名值，其中签名值为服务器私钥对安装包的授权公钥的签名值；获取移动终端预存的服务器公钥；使用签名值和服务器公钥验证第三方应用安装包中携带的公钥是否为授权公钥，若是，则安装安装包。该方法中移动终端对安装包携带的公钥进行认证，以确保下载的安装包的公钥没有被修改，且使用了签名算法进行了签名验证，由于进行签名的服务器私钥的私有性，即使攻击者能够获取到服务器公钥，也无法对授权公钥的签名进行伪造，确保了验证的可靠性。
+3. 102402673 一种辨别射频标签的方法及装置
+CN
+14.12.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+102010000281444
+深圳兆日科技股份有限公司
+魏恺言
+G06K 7/00
+Loading...
+本发明涉及防伪技术领域，公开了一种辨别射频标签的方法及装置。本发明主要解决在现有射频(RF)标签不做任何改变的情况下，如何通过对每一枚标签物理特征的测量，来准确的区分不同的RF标签。由于标签在生产制造过程中，标签上的天线、印刷电路、电子元器件其各项参数理论上一定存在差异，结合生产工艺的精度等因素，会形成每一枚标签独一无二的自身的物理特征，由于这些物理特征是伴随整个标签生产工艺而自然形成(标签上每一个器件同样在各自生产制造过程会产生各自的物理特征)，所以这些物理特征期望通过克隆的方法来复制是不可能的，通过精确识别每一枚射频标签的物理特征来实现防伪的功能。
+4. 106156635 终端启动方法和装置
+CN
+23.11.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+102016000613787
+深圳兆日科技股份有限公司
+任朝荣
+G06F 21/57
+Loading...
+本发明涉及一种终端启动方法和装置，该方法当检测到终端启动指令时，启动终端的只读存储器和安全芯片；验证只读存储器安全芯片之间的密钥信息是否匹配；若是，执行操作系统启动进程；计算操作系统的待加载文件的Hash值；将待加载文件的Hash值送入安全芯片中，当匹配结果为待加载文件的Hash值与安全芯片中安全测量值匹配时，加载待加载文件，由于只读存储器的只读特性，通过只读存储器与安全芯片密钥信息的匹配，可验证安全芯片的是否为授权的芯片，在安全芯片可靠的基础上进行其他硬件的加载以及操作系统的加载认证，实现了由硬件到操作系统的上级度量认证下级的启动方式，终端启动安全认证强度更高。
+5. 106100853 移动终端安全认证方法和装置
+CN
+09.11.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102016000613786
+深圳兆日科技股份有限公司
+陈泽含
+H04L 9/32
+Loading...
+本发明涉及一种移动终端安全认证方法和装置，当检测到移动终端的上电指令时，获取安全芯片中预存的安全芯片签名值和特征量数据，其中，安全芯片签名值为认证私钥对特征量数据的签名值；获取只读存储器ROM中的认证公钥；判断认证公钥和特征量数据是否与安全芯片签名值对应；若是，则加载安全芯片，由于只读存储器ROM的只读特性，在使用中只读存储器ROM中的数据不可能被更改，通过只读存储器ROM存储的认证公钥验证安全芯片，安全认证强度更高。
+6. 102402674 一种基于射频标签的防伪方法及防伪系统
+CN
+09.11.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+102010000283971
+深圳兆日科技股份有限公司
+魏恺言
+G06K 7/00
+Loading...
+本发明涉及防伪技术领域，公开了一种基于射频标签的防伪方法及防伪系统。本发明所提供的基于射频标签的防伪方法及防伪系统，提供了一种难以被假冒、篡改的提取与使用射频标签特征信息的防伪方法，通过提取射频标签在特定激励电磁波作用下表现出的特征曲线信息来确认物品的区别性特征，然后设置射频标签特征曲线的真实特征曲线数据库，鉴别物品真伪时，通过将待验证射频标签的特征曲线与数据库中的真实特征曲线进行比较从而确定待验证射频标签的真实性。具有不可复制及不可克隆的优点，大大提高了安全性。
+7. 204947137 多功能密码器
+CN
+06.01.2016
+H01R 12/71 Loading...
+H01R 12/71
+Loading...
+201520743952.2
+深圳兆日科技股份有限公司
+白建雄
+H01R 12/71
+Loading...
+本实用新型涉及电子通信设备领域，特别是涉及一种多功能密码器，包括：底壳、电路板、音视频接头，底壳具有收容电路板的容置腔，并设置有固定电路板的安装位，且于容置腔的侧壁开设有用于穿设音视频接头的装配孔；安装位背离容置腔底部一侧所在的平面与装配孔中心线之间的距离等于音视频接头的中心线与电路板之间的距离；装配孔邻近容置腔的端部开设有与音视频接头抵接的倒角。上述多功能密码器，通过简化底壳与电路板的装配结构及工序，控制安装位背离容置腔底部一侧所在的平面与装配孔中心线之间的距离，并且在装配孔邻近容置腔的端部开设有倒角，从而简化组装结构、提高了产品的可靠性，进而节约了资源且降低生产成本。
+8. 105069636 一种物质防伪方法和物质防伪系统
+CN
+18.11.2015
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+201510488915.6
+深圳兆日科技股份有限公司
+魏恺言
+G06Q 30/00
+Loading...
+本发明公开了一种物质防伪方法和物质防伪系统。该物质防伪方法包括：启动红外光源，将所述红外光源输出的红外线照射在待鉴别物质的鉴别区域上；获取所述鉴别区域的红外线透射图像；从所述红外线透射图像中提取所述待鉴别物质的物理特征数据；将所述待鉴别物质的物理特征数据与预存的物理特征数据进行匹配；若匹配成功，则判定所述待鉴别物质为非伪造物质；若匹配失败，则判定所述待鉴别物质为伪造物质；其中，所述预存的物理特征数据的提取方法与所述待鉴别物质的物理特征数据的提取方法相同。本发明提供的技术方案能够有效提高物质的防伪安全性。
+9. 103679929 Payment password cipherer, password payment system and implementation method of password payment system
+CN
+26.03.2014
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201210353965.X
+SHENZHEN SINOSUN TECHNOLOGY CO., LTD.
+QIAO CHUN
+G07F 7/02
+Loading...
+The invention discloses a payment password cipherer, a password payment system and an implementation method of the password payment system. The payment password cipherer comprises a voice input unit, a voice recognition unit, a processing chip and a display unit which are connected successively. By the aid of the voice recognition technology, users can input element information required by payment passwords through the voice input unit, so that the overall element information entry process is greatly simplified, user input operations are reduced, and the user experience is improved.
+10. 103679928 Payment code device and implementation method thereof
+CN
+26.03.2014
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201210353905.8
+SHENZHEN SINOSUN TECHNOLOGY CO., LTD.
+QIAO CHUN
+G07F 7/02
+Loading...
+The invention discloses a payment code device and an implementation method thereof. The payment code device comprises a camera device, an image processor, a central processing unit and a display device; the camera device is used for shooting an image; the image processor is used for recognizing out specific bill related information in the image shot by the camera device; the central processing unit is used for calculating a payment code according to the specific bill related information recognized out through the image processor; the display device is used for displaying the payment code; the camera device, the image processor, the central processing unit and the display device are connected in turn. A user can input the element information required by the payment code through the camera device by an image recognition technology and accordingly the problems that the manual input is complicated and the error is easy to produce are solved, the input operation of the user is greatly reduced, and a great convenience is brought to the user.
+11. 103294634 一种数据总线分时复用方法、系统及电子支付密码器
+CN
+11.09.2013
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201210054847.9
+深圳兆日科技股份有限公司
+袁兰平
+G06F 13/40
+Loading...
+本发明适用于电子支付密码器领域，提供了一种数据总线分时复用方法、系统及电子支付密码器；该方法包括下述步骤：当需要对第一芯片进行读/写操作时，通过第二控制线控制第二芯片处于不使能状态；当对第一芯片的读/写操作完成后，通过第一控制线控制第一芯片处于不使能状态；当需要控制外围设备时，通过第一控制线控制第一芯片的总线处于高阻状态，根据需要改变总线数据，将总线数据输出至第二芯片的输出端，并通过第二控制线关闭第二芯片，同时输出的数据被锁存到第二芯片的输出端。本发明提供的数据总线分时复用方法可实现数码相框微处理器的数据总线分时复用给多个设备，设计更简洁可靠，成本低。
+12. 202976307 一种电子支付密码器
+CN
+05.06.2013
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201220323287.8
+深圳兆日科技股份有限公司
+魏恺言
+G07F 7/02
+Loading...
+本实用新型公开了一种电子支付密码器，其包括手持设备本体，其中，所述手持设备本体上设置有液晶屏，所述液晶屏上设置有与票据格式相同的多个输入区，每个输入区的位置与所述票据的对应填写项目位置一一对应；在所述手持设备本体内设置有用于接收所述输入区内容并计算支付密码的电路。每个输入区与票据的对应填写项目唯一对应的结构方式，从而使电子支付密码器的界面与客户熟悉的实际票据图形基本相同，客户可以直观的进行操作，提高了其操作的便捷性，缩短了对操作人员的培训周期，降低了其使用成本，使操作界面更友好。
+13. 202916909 一种支付密码器和密码支付系统
+CN
+01.05.2013
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+201220484629.4
+深圳兆日科技股份有限公司
+乔椿
+G07F 7/08
+Loading...
+本实用新型公开一种支付密码器和密码支付系统，其中，所述支付密码器包括一支付密码器本体，所述支付密码器本体上设置有语音输入装置、语音识别装置、处理芯片和显示装置；所述语音输入装置、语音识别装置、处理芯片和显示装置依次连接，所述语音输入装置为麦克风。利用语音识别技术，使用户可以通过语音输入装置实现支付密码所需的要素信息的输入，使得整个要素信息的录入过程大大简化，减少了用户的输入操作，提升了用户体验。
+14. 202870732 一种具有无线键盘的支付密码器
+CN
+10.04.2013
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+201220205847.X
+深圳兆日科技股份有限公司
+袁兰平
+G06F 3/02
+Loading...
+本实用新型公开了一种具有无线键盘的支付密码器，其包括一用于密码计算的电路板，以及，用于显示数据计算结果的显示屏，设置在所述支付密码器的本体上；其中，还包括一无线键盘，以及，在所述电路板上还设置有用于无线连接所述无线键盘的处理电路；所述无线键盘电路中设置有微控制器，以及由该微控制器控制连接的键盘矩阵和无线收发模块。本实用新型具有无线键盘的支付密码器由于采用了无线键盘的设置方式，实现了键盘与支付密码器的分离设置，方便了对键盘的更换。
+15. 202838511 一种支付密码器
+CN
+27.03.2013
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201220485063.7
+深圳兆日科技股份有限公司
+乔椿
+G07F 7/02
+Loading...
+本实用新型公开了一种支付密码器，包括一主体，在所述主体上设置有摄像装置和显示装置；在所述主体内设置有一电路板，在所述电路板上设置有图像处理器和中央处理器；所述摄像装置、图像处理器、中央处理器和显示装置依次连接；通过图像识别技术，使用户可以通过摄像装置实现支付密码所需的要素信息的输入，避免了用户人工输入不仅麻烦而且容易出错的现象，大大减少了用户的输入操作，为用户带来了大大的方便。
+16. 202838516 一种外置式支付密码计算装置
+CN
+27.03.2013
+G07F 7/10 Loading...
+G07F 7/10
+Loading...
+201220484890.4
+深圳兆日科技股份有限公司
+乔椿
+G07F 7/10
+Loading...
+本实用新型公开了一种外置式支付密码计算装置，包括用于与外部设备连接进行数据传输的MIC接口、用于根据MIC接口接收的外部设备的数据来计算支付密码的微处理器、用于存储数据的存储器；所述MIC接口和存储器分别连接微处理器；通过MIC接口与外部设备连接进行数据交互从而提供支付密码，使得支付密码的使用过程大大简化，无需显示器及输入键盘等使得体积大大减小且携带方便，为用户带来了大大的方便。
+17. 102982606 一种利用物理特征识别的防伪方法和系统
+CN
+20.03.2013
+G07D 7/20 Loading...
+G07D 7/20
+Loading...
+201110263771.6
+深圳兆日科技股份有限公司
+魏恺言
+G07D 7/20
+Loading...
+本发明公开了一种利用物理特征识别的防伪方法和系统，其方法包括：在待鉴别的物质上预先确定采集物理特征的位置，将待鉴别物质放置在光源照射下，并由光学系统和光学传感器通过采集反射图像进行物理特征图像的采集；该物理特征图像的采集通过先后至少两次：第一次由第一预定角度的第一光源照射下实现，第二次由第二预定角度的第二光源照射下实现；该第一预定角度与第二预定角度保证两个光源照射下的物理特征图像有可识别的区别。本发明利用物理特征识别的防伪方法和系统由于采用二次反射方式通过光学采集纸张本身的纤维纹理方式实现模式识别和防伪，可以有效抵御印刷纸张纹理的攻击。
+18. 102955930 一种利用物质自身物理特征识别的防伪方法和系统
+CN
+06.03.2013
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110239817.0
+深圳兆日科技股份有限公司
+魏恺言
+G06K 9/00
+Loading...
+本发明公开了一种利用物质自身物理特征识别的防伪方法和系统，所述物质可透光；其方法包括以下步骤：在待鉴别的物质上预先确定采集物理特征的位置，将待鉴别物质放置在光源与采集图像的光学系统及光学传感器之间，获取透射后光学采集到的物理特征图像；对物理特征图像进行图像处理，提取物理特征数据，并记录到特征数据库或用二维码方式记录在物质上；与特征数据库或二维码中记录存储的物理特征数据进行模式识别，判读是否一致，以判断该物质的真伪。本发明利用物质自身物理特征识别的防伪方法和系统由于采用了在可透光的物质上，通过透射能够低成本的实现对其物理特征的图像采集，并通过相应的模式识别后，实现物质真伪的防伪鉴别。
+19. WO/2013/013373 SMALL AUTOMATIC POLISHING LIQUID CLEANING DEVICE FOR RIGID GAS PERMEABLE CONTACT LENS
+WO
+31.01.2013
+B24B 57/00 Loading...
+B24B 57/00
+Loading...
+PCT/CN2011/077518
+WENZHOU FOCUSEE VISION CARE TECHNOLOGIES CO., LTD
+JIANG, Jun
+B24B 57/00
+Loading...
+A small automatic polishing liquid cleaning device for a rigid gas permeable contact lens, comprising a container (1); the container (1) is internally provided with a containing chamber. An exhaust pipe (2) and a liquid suction pipe (3) communicating with the containing chamber are disposed on the container (1); the outlet end of the exhaust pipe (2) communicates with the vacuum orifice of a vacuum generator (5); the gas inlet of the vacuum generator (5) communicates with a pipeline for compressed gas; and the liquid inlet of the liquid suction pipe (3) is disposed at the bottom of a waste liquid trough. The automatic polishing liquid cleaning device is simple and safe to use and easy to control, and can treat the waste polishing liquid in a quick and timely manner, thus preventing the waste liquid from affecting the production environment, and effectively improving the production efficiency of the rigid gas permeable contact lens via automatic cleaning.
+20. 202694335 一种USB接口与UART接口共用的电路装置
+CN
+23.01.2013
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201220205857.3
+深圳兆日科技股份有限公司
+袁兰平
+G06F 13/40
+Loading...
+本实用新型公开了一种USB接口与UART接口共用的电路装置，其设置在采用USB接口结构的壳体内，并设置四个引线，该引线包括电压引线VCC和接地引线GND，以及两个数据引线，用于USB通讯时定义为D+/D-，用于UART通讯时定义为RXD/TXD；在所述电压引线上设置有一电压检测模块，根据所述电压检测模块检测电压的不同，CPU模块选择该装置接通USB接口电路或UART接口电路来实现通讯。本实用新型USB接口与UART接口共用的电路装置实现了在同一USB接口结构上实现UART接口的电路，从而实现了将支付密码器的核心芯片电路形成USB插接结构的独立部件，方便了对支付密码装置的便携性。
+21. WO/2012/083769 METHOD AND SYSTEM FOR ANTI-COUNTERFEITING THROUGH PHYSICAL CHARACTERISTICS OF SUBSTANCE
+WO
+28.06.2012
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+PCT/CN2011/082140
+SINOSUN TECHNOLOGY CO., LTD.
+WEI, Kaiyan
+G06K 9/62
+Loading...
+Disclosed are a method and a system for anti-counterfeiting through physical characteristics of a substance. The method comprises the following steps: pre-determining a location for collecting fiber texture on a substance to be discriminated and an amplification factor, and acquiring an optically collected fiber texture image; performing digital processing on the fiber texture image to form a fiber texture feature, and recording the fiber texture feature in a feature database; when discriminating the authenticity of the substance, amplifying the substance to the same amplification factor through an optical system, acquiring a fiber texture image at the same location, and performing the same digital processing; and comparing the fiber texture feature with the fiber texture feature pre-stored in the feature database, to judge the authenticity of the substance. In the method and the system for anti-counterfeiting through physical characteristics of a substance of the present invention, the location on the substance, the amplification on the location, and the identification of fiber texture on the location are adopted, to implement accurate anti-counterfeiting discrimination of the substance without any technical processing performed on the substance additionally.
+22. 102402674 一种基于射频标签的防伪方法及防伪系统
+CN
+04.04.2012
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201010283971.3
+深圳兆日科技股份有限公司
+魏恺言
+G06K 7/00
+Loading...
+本发明涉及防伪技术领域，公开了一种基于射频标签的防伪方法及防伪系统。本发明所提供的基于射频标签的防伪方法及防伪系统，提供了一种难以被假冒、篡改的提取与使用射频标签特征信息的防伪方法，通过提取射频标签在特定激励电磁波作用下表现出的特征曲线信息来确认物品的区别性特征，然后设置射频标签特征曲线的真实特征曲线数据库，鉴别物品真伪时，通过将待验证射频标签的特征曲线与数据库中的真实特征曲线进行比较从而确定待验证射频标签的真实性。具有不可复制及不可克隆的优点，大大提高了安全性。
+23. 102402673 一种辨别射频标签的方法及装置
+CN
+04.04.2012
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201010281444.9
+深圳兆日科技股份有限公司
+魏恺言
+G06K 7/00
+Loading...
+本发明涉及防伪技术领域，公开了一种辨别射频标签的方法及装置。本发明主要解决在现有射频(RF)标签不做任何改变的情况下，如何通过对每一枚标签物理特征的测量，来准确的区分不同的RF标签。由于标签在生产制造过程中，标签上的天线、印刷电路、电子元器件其各项参数理论上一定存在差异，结合生产工艺的精度等因素，会形成每一枚标签独一无二的自身的物理特征，由于这些物理特征是伴随整个标签生产工艺而自然形成(标签上每一个器件同样在各自生产制造过程会产生各自的物理特征)，所以这些物理特征期望通过克隆的方法来复制是不可能的，通过精确识别每一枚射频标签的物理特征来实现防伪的功能。
+24. 201984486 安全芯片、加密盒及USB接口身份识别和数据存储设备
+CN
+21.09.2011
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201120003726.2
+深圳兆日科技股份有限公司
+王庆军
+G06F 21/00
+Loading...
+本实用新型适用于电子安全产品领域，提供一种安全芯片、加密盒及USB接口身份识别和数据存储设备。在本实用新型中，安全芯片采用多个USB接口，数据可以从安全芯片的一个USB接口输入，经过安全加解密模块后，从另外一个USB接口输出，从而提高数据流水和通讯速度；另外，通过将一个USB接口配置用作身份识别的U-key设备，将另一个USB接口配置用作数据存储的U盘设备，从而可以将U盘和U-key两者合二为一。
+25. 102073838 Method and system for preventing counterfeit by using differentiation of electromagnetic signals of RFID
+CN
+25.05.2011
+G06F 15/18 Loading...
+G06F 15/18
+Loading...
+201010604826.0
+Sinosun Technology (Shenzhen) Co., Ltd.
+Wei Kaiyan
+G06F 15/18
+Loading...
+The invention discloses a method and a system for preventing counterfeit by using differentiation of electromagnetic signals of radio frequency identification (RFID). The method comprises the following steps of: sending an instruction to an RFID radio frequency tag to be identified, and receiving a signal fed back by the RFID radio frequency tag; performing electromagnetic signal physical property recognition on the received signal to obtain recognition characteristics; and performing matrix recognition on comparison parameters and records in a database to judge the truth and falsehood of the RFID. In the method and the system for preventing counterfeit by using the differentiation of the electromagnetic signals of the RFID, the characteristics of substances in the RFID radio frequency tag are used, namely different RFID antenna modules and integrated circuit (IC) chips have different physical properties, and differentiation of physical properties of electromagnetic signals exists between two RFID radio frequency tags with the same property, so that different RFID radio frequency tags are differentiated by measuring the differentiation, and unduplicatedness of the RFID radio frequency tags is guaranteed.
+26. 102073865 Anti-counterfeiting method and system using autologous fiber textures of paper
+CN
+25.05.2011
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201010604824.1
+Sinosun Technology (Shenzhen) Co., Ltd.
+Wei Kaiyan
+G06K 9/62
+Loading...
+The invention discloses an anti-counterfeiting method and system using autologous fiber textures of paper. The method comprises the following steps: pre-determining a position and a preset amplification magnifying power for collecting the fiber textures on the paper to be distinguished, and acquiring a fiber texture image which is optically collected; carrying out digital processing on the fiber texture image to form fiber textural characteristics, and recording to a characteristic database; when distinguishing the paper, magnifying to the same magnifying power through an optical system and acquiring the fiber texture image at the same position, and carrying out same digital processing; and comparing with the fiber texture characteristics pre-stored in the characteristic database so as to judge whether the paper is the genuine. Because of using the positioning of the paper and the manner of realizing amplification and identification of the fiber textures for the positioning, the anti-counterfeiting method and system using the autologous fiber textures of the paper can be used for realizing accurate anti-counterfeiting identification of paper without any additional technical process for the paper.
+27. 101748659 Random distribution fiber and substance anti-counterfeiting method
+CN
+23.06.2010
+D21H 21/42 Loading...
+D21H 21/42
+Loading...
+200910189101.7
+Sinosun Technology (Shenzhen) Co., Ltd.
+Huang Peng
+D21H 21/42
+Loading...
+The invention discloses a random distribution fiber and substance anti-counterfeiting method, which comprises the following steps: sequentially extracting image information of the random distribution fiber on an anti-counterfeiting mark in more than two directions; ensuring the difference of the image information of the random distribution fiber in different directions through the selection of the more than two directions; irradiating the anti-counterfeiting mark to be verified in the same direction angle by exciting light and obtaining the fiber image information to be verified; and comparing whether the fiber image information to be verified conforms to the real random distribution fiber image information, if so, judging the anti-counterfeiting mark to be the real anti-counterfeiting mark, and if not, judging the anti-counterfeiting mark to be the counterfeited anti-counterfeiting mark. The random distribution fiber and substance anti-counterfeiting method can determine the truth of the fiber image to be verified through the comparison between the fiber image to be verified and the real image in the database, and realizes the practical substance anti-counterfeiting technology.
+28. 101388060 System and method for implementing authorisation session authentication between entities
+CN
+18.03.2009
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+200710121613.0
+Sinosun Technology Co., Ltd.
+Yang Xianwei
+G06F 21/57
+Loading...
+The invention relates to the entity security certification field, which discloses a system for realizing authorization session certification between entities, and is applied to a computer system or a computer platform. The system comprises at least one requester entity, at least one requested entity, wherein the requester entity comprises a first session module, and the requested entity comprises a second session module, a functional module and a second certificating module. The first session module and a second session module are used to create and perform a session between the requester entity and the requested entity, and the second certificating module is used to verify whether the requester entity has permission to call functions of the functional module of the requested entity nor not. Additionally, the invention further discloses a method for realizing authorization session certification between entities by applying the system.
+29. 101369889 System and method for electronic endorsement of document
+CN
+18.02.2009
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710075695.X
+Sinosun Technology Co., Ltd.
+Deng Yuping
+H04L 9/32
+Loading...
+An electronic signature system for files comprises an electronic signature server and at least a client side. A key storage and a security chip with encryption/decryption function are arranged in the electronic signature server, the electronic signature server is to provide the encryption/decryption operation server, and the electronic signature server is connected to the client side through a wired mode or a wireless mode. Because the electronic signature system uses the security chip to encrypt a private key in the RSA key pair, all the code operation is in the security chip on the service and no-extra devices are needed to protect the private key and conduct code operation. Under the condition of a large scale application of the electronic signature, the cost of the private storage and the code operation is substantially reduced, and the demands for the special situation of the non-network interface screen are satisfied. Because the processing procedure of the electronic signature for files is operated in the security chip, the security of the private key operation is improved and the authenticity of the electronic signature is guaranteed.
+30. 101231725 Interface conversion equipment and method communicating with computing electronic payment secret code safety device
+CN
+30.07.2008
+G06F 13/00 Loading...
+G06F 13/00
+Loading...
+200810056668.2
+Wei Kaiyan
+Yang Jing
+G06F 13/00
+Loading...
+The invention relates to the electronic payment and information safety field, and discloses interface conversion equipment communicating with a safety device used for calculating electronic payment codes and a method thereof. The invention is primarily used for interface conversion when the invention communicates with the safety device to calculate the electronic payment codes. The invention can effectively ensure that a PC computer or bank computer terminal equipment connects with and communicates with the safety device in USB-key mode to calculate the electronic payment codes; mains input can be provided for the safety device to calculate the electronic payment codes during communication. At the same time, the equipment can also independently support the connection with prior hand-held electronic payment coder equipment through standard serial port transfer lines, and is compatible with such operations and functions as initialization and loading account information of prior hand-held electronic payment coder equipment at the bank terminal.
+31. 101221641 On-line trading method and its safety affirmation equipment
+CN
+16.07.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710303654.1
+Wei Kaiyan
+Yang Jing
+H04L 29/06
+Loading...
+The invention discloses an on-line transaction security acknowledgement device and an on-line transaction method. The device comprises: a display which is used for displaying the on-line transaction information needing acknowledgement; a digital function keyboard which is used for inputting a command acknowledging the on-line transaction, inputting shared secret information when a safe connection with a server end is established, inputting a PIN code when a digital signature device is started, etc.; communication interfaces which comprises communication interfaces and sockets connected with a PC client end and the digital signature device; a PCB circuit module which comprises a CPU and a memory chip part and is used for driving and controlling the keyboard, the display and the communication interfaces, receiving requests from the client end and controlling safe connection and security acknowledgement operations; and a security acknowledgement module which is used for receiving and transmitting an acknowledgement code at the server end and acknowledging the connection between the client end and the server end as a safe connection.
+32. 101188495 A secure system and method for realizing powerful password authentication mode
+CN
+28.05.2008
+H04L 9/18 Loading...
+H04L 9/18
+Loading...
+200710178766.9
+Wei Kaiyan
+Yang Xianwei
+H04L 9/18
+Loading...
+The invention relates to the field of password authentication and discloses a security system and method that realizes the pattern of strong password authentication so as to resolves such problems in the prior password authentication pattern as the password being easily pried and attacked. The invention uses a security module for password authentication, and imports the user password into the security module instead of a host machine keyboard, adopts the random number with sufficient length as a user password, and the user password is not directly sent onto the network when logging in, and the dynamical information about the transmitted password is once for all, thereby being free from the attacks by various passwords. At the same time, the invention adopts a challenge/reply mechanism and a time synchronization mechanism, and combines the security function property of the security module, helping the method to prevent the counterfeit of a server and the assaults of a middleman apart from the fight against password assaults.
+33. 2896369 一种实现多路IC卡和一路串口之间的数据切换电路
+CN
+02.05.2007
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200520066811.8
+兆日科技（深圳）有限公司
+袁兰平
+G06F 13/40
+Loading...
+本实用新型公开了一种实现多路IC卡和一路串口之间的数据切换电路，在一CPU控制芯片电路和多个IC卡之间设置有一切换逻辑芯片电路，所述CPU控制芯片电路与所述切换逻辑芯片电路之间通过数据线和信号连接控制，并设置有一切换控制信号；在所述切换逻辑芯片电路和每一IC卡之间还设置有相应的通道；所述切换控制信号用于控制所述切换逻辑芯片电路对某一IC卡的通道选通。本实用新型数据切换电路实现了在最低成本的情况下多个IC卡共用同一个串口；而且由于其各个通道的独立性，避免了相互之间的干扰以及某个卡电路损坏而造成整个电路的崩溃情形，从而大大提高了整个电路的稳定性和健壮性。
+34. 2896292 一种检测外部电压的电路
+CN
+02.05.2007
+G01R 19/165 Loading...
+G01R 19/165
+Loading...
+200520120173.3
+兆日科技（深圳）有限公司
+尹轶
+G01R 19/165
+Loading...
+本实用新型公开了一种检测外部电压是否掉电的电路，其设置在需要电池供电和外部供电两种方式供电的电路中。其中，所述电路包括：一个电压比较器和一些外围器件(电阻电容等)，比较器分别从所述电池供电电压和所述外部供电电压取得电压分量进行比较，其比较结果输出到主控芯片。本实用新型电路由于采用电压比较器对输入的电池供电电压和外部供电电压进行比较，从而进行判断电路节点的电压情况，其可靠性高，实现简单，成本低，且实现了系统的数据安全防范。
+35. 2891091 一种防伪标识扫描枪中的紫外光冷阴极管结构
+CN
+18.04.2007
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+200520120171.4
+兆日科技（深圳）有限公司
+杜立峰
+G06K 7/10
+Loading...
+本实用新型公开了一种防伪标识扫描枪中的紫外光冷阴极管结构，其设置于一防伪标识扫描枪的前端，其中，所述紫外光冷阴极管结构通过一逆变器电路连接直流电流。本实用新型结构由于采用紫外光冷阴极管作为激励光源，方便生产，降低了成本，而且寿命长。
+36. 1937084 Method for realizing closing internal function of integrated circuit
+CN
+28.03.2007
+G11C 16/22 Loading...
+G11C 16/22
+Loading...
+200610062366.7
+Zhaori Technology Co., Ltd., Beijing
+Qiu Jian
+G11C 16/22
+Loading...
+The method includes following steps: (1) under working mode of IC chip, writing in a predefined characteristic value to prearranged unit in non-volatile memory; (2) resetting relevant functional circuits inside IC in stages; in resetting procedure in stages, the method validates whether there are predefined characteristic values in the non-volatile memory one by one forcibly in order to open/close corresponding function/mode. In power on and reset, the invention closes different function in selectivity so as to enhance security of chip, as well as realize permanent settings for IC based on different condition.
+37. 2884289 一种安全芯片所有人证明现场操作的装置
+CN
+28.03.2007
+G06F 1/00 Loading...
+G06F 1/00
+Loading...
+200520063141.4
+北京兆日科技有限责任公司
+李丽仙
+G06F 1/00
+Loading...
+本实用新型的一种安全芯片所有人证明现场操作的装置，其包括一安全芯片以及一CPU，其中，所述CPU还连接一由所述所有人触发的实体，其触发信号用以由该CPU控制所述安全芯片的PP脚为点位高或低。本实用新型装置由于采用了利用一实体，由所有人触发该实体产生触发信号，从而使安全芯片的一个PP脚信号的置高或低，保证了整个系统的安全性，并且从硬件上保证所有操作是由所有人现场操作完成的。
+38. 2881788 一种扫描枪装置中的隔热罩结构
+CN
+21.03.2007
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+200520120170.X
+兆日科技（深圳）有限公司
+翁一帆
+G06K 7/10
+Loading...
+本实用新型公开了一种扫描枪装置中的隔热罩结构，其设置在一扫描枪中，其中，所述隔热罩结构在所述扫描枪内形成一腔体，在该腔体内设置有高发热量元器件；各电路板设置在所述腔体外；所述腔体并设置有散热孔连通外部空间。本实用新型的扫描枪装置中的隔热罩结构由于在扫描枪中设置了隔热散热罩，减少了发热部件对电路板的影响，从而提高了产品的质量，且其结构简单、实用。
+39. 2869992 一种高速接口到低速接口的转接电路
+CN
+14.02.2007
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200520066812.2
+兆日科技（深圳）有限公司
+袁兰平
+G06F 13/40
+Loading...
+本实用新型公开了一种高速接口到低速接口的转接电路，其包括：一串并转换芯片电路，设置在一ARM控制芯片电路与一串行接口电路之间，与所述ARM控制芯片电路通过数据线、地址线以及片选、写使能、读使能、复位的各信号线控制连接；所述转接电路还设置有一中断信号线用于在所述串并转换芯片电路中的串口接收缓冲区满时向ARM控制芯片电路发送中断信号，并且ARM控制芯片电路在接收到中断信号后通过数据线并行读取所述串口接收缓冲区中的数据；所述串口接收缓冲区从所述串行接口电路接收数据。本实用新型电路大大提高了整个电路系统的应用高效性和稳定性，节省了系统资源，并能保证系统总线空闲为其他应用程序所利用。
+40. 2842659 一种闪存保护电路
+CN
+29.11.2006
+G11C 7/24 Loading...
+G11C 7/24
+Loading...
+200520066810.3
+兆日科技（深圳）有限公司
+袁兰平
+G11C 7/24
+Loading...
+本实用新型公开了一种闪存保护电路，其设置在一CPU电路和该CPU电路控制的FLASH电路中，在所述FLASH电路的复位控制线上设置有一FLASH复位电路，用于控制该复位控制线的电平高低，以使所述FLASH芯片在系统上电过程中处于保护状态。在采用本实用新型的FLASH保护电路的电子设备中，连续开关电源测试都未发现有FLASH数据被破坏的现象，在实际使用的设备中也未发现由于系统上电造成FLASH芯片数据破坏的现象，而现有技术中的闪存电路会出现数据损坏现象。
+41. 2842892 一种通过串口实现ISO7816协议的电路
+CN
+29.11.2006
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200520066809.0
+兆日科技（深圳）有限公司
+袁兰平
+H04L 29/06
+Loading...
+本实用新型公开了一种通过串口实现ISO7816协议的电路，其包括一主控制芯片，连接一外部的串口电路，通过该串口电路与PC机或其他宿主机的串口通讯连接；该主控制芯片还通过ISO7816协议连接一IC卡电路，该IC卡电路用于读取IC卡。本实用新型电路实现了一种基于PC机或其他宿主机通过RS232串口对设备实现ISO7816协议的操作，其实现简单，可靠性高。
+42. 2840135 一种可防止非破坏性物理攻击安全芯片的结构
+CN
+22.11.2006
+G06F 1/00 Loading...
+G06F 1/00
+Loading...
+200520063142.9
+北京兆日科技有限责任公司
+李丽仙
+G06F 1/00
+Loading...
+本实用新型的一种可防止非破坏性物理攻击安全芯片的结构，其中，所述结构包括至少一探测器，设置在所述安全芯片中，与芯片内总线连接，用于探测所述安全芯片外部的非破坏性物理攻击信号。本实用新型产品由于在芯片电路中设计了探测器电路，用于探测温度、电压等非破坏性物理攻击，其实现结构简单，能有效的防止各种非破坏性物理攻击。
+43. 2826492 一种安全芯片的证明所有人现场操作的实现装置
+CN
+11.10.2006
+G06F 1/00 Loading...
+G06F 1/00
+Loading...
+200520063140.X
+北京兆日科技有限责任公司
+李丽仙
+G06F 1/00
+Loading...
+本实用新型的一种安全芯片的证明所有人现场操作的实现装置，其连接一TPM芯片以及一CPU，其中，所述装置包括连接在所述TPM芯片的PP管脚上的一开关，由该开关触发证明所有人现场操作的触发信号。本实用新型实现装置通过直接在所述TPM芯片的控制管脚电平高低的控制，电路结构简单即可实现证明所有人现场操作的功能。
+44. 1831786 Data completeness protection method of flash storage
+CN
+13.09.2006
+G06F 12/00 Loading...
+G06F 12/00
+Loading...
+200510022335.4
+Zhaori Science & Technology (Shenzhen) Co., Ltd.
+Wang Zhenhui
+G06F 12/00
+Loading...
+A method for protecting data completeness of flash storage includes calculating out calibration sum of data to be written in and storing data and said sum in blank region of write in storing zone then writing data with said sum in corresponding position in backup storing zone ( BSZ ), erasing off a block of data in main storing zone ( MSZ ) first and then erasing off a block of data in said position on BSZ, fetching and calibrating data of MSZ and fetching as well as calibrating data stored in said position on BSZ if data in MSZ is damaged, using effective data in BSZ to cover damaged data in MSZ.
+45. 1811831 Fiber image antifake method
+CN
+02.08.2006
+G07D 7/06 Loading...
+G07D 7/06
+Loading...
+200510121107.2
+Zhaori Science & Technology (Shenzhen) Co., Ltd.
+Li Zhigang
+G07D 7/06
+Loading...
+Said invention discloses a fiber image forgery prevention method. Said method includes extracting true fiber image information and generating image database image database, determining verified fiber image authenticity through comparing verified fiber image and true fiber image in data base. Said invention can basically overcame authenticity insufficiency to resolve fluorescence fiber paper with naked eye on uviol lamp, eliminating fluorescence fiber paper security snag on forgery prevention application, ensuring fluorescence fiber paper made securities and note reliability.
+46. 1794267 Method of locating rectangular frame in antiforge information process
+CN
+28.06.2006
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+200510121115.7
+Zhaori Science & Technology (Shenzhen) Co., Ltd.
+Miao Dong
+G06K 9/20
+Loading...
+A method for locating rectangle frames used in anti-false information identification includes: an image sensor picks up images to be processed containing rectangle frames and regions in the frame are fiber ones for identifying anti-false information, an internal point is labeled in the image to be processed, which is processed in binary value, scanning from the internal point of the image to form an edge point set to be picked up in line to form a quadrangle to be revised geometrically to form a rectangle frame.
+47. 1794203 Simple method for deciding embedded system internal storage disclose of no-operation system
+CN
+28.06.2006
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200510121108.7
+Zhaori Science & Technology (Shenzhen) Co., Ltd.
+Huang Jinfeng
+G06F 11/36
+Loading...
+A simple way for memory releasing in an inserted system of a located non-operating system includes the following steps: inserting a memory release detection module in the primary circulation of software, which repeatedly distributes and releases the memory space in many times and records its operation time, operating the primary circulation at least two times, comparing the operation time of the module recorded, if the operation time becomes longer steadily, then it is decided that the software is released, otherwise, it is not, if it is released, then the software is operated to compare the distributing and releasing times to memories of the addresses to determine if any memory of a special address is not released and finally assigning the instruction of the memory of the special address, which is the position resulted in the memory release.
+48. 1794303 Antiforge method of abstracting using random distributed fiber image characteristics
+CN
+28.06.2006
+G07D 7/20 Loading...
+G07D 7/20
+Loading...
+200510121437.1
+Zhaori Science & Tech. (Shenzhen) Co., Ltd.
+Li Zhigang
+G07D 7/20
+Loading...
+This invention relates to an anti-false method by picking up and using randomly distributed fiber image character, which picks up characters of the cross point of randomly distributed fibers, the line direction and the line geometrical shape to make sure character of identification, then sets up a database for the characters, when differentiating true or false of goods, it ' s only necessary to check the fiber character information on the goods.
+49. 1700642 A method for implementing monotone counter
+CN
+23.11.2005
+G06F 12/00 Loading...
+G06F 12/00
+Loading...
+200510034701.8
+Sinosun Technology Co., Ltd.
+Chen Qiang
+G06F 12/00
+Loading...
+This invention relates to single meter realization method, which comprises the following steps: setting fixture procedure; processing the hardware meter unit and non-losing memory as the following: denoting the memory unit of memory in the non-losing memory as one when in first staring; dividing the non-losing memory and writing one zero in the relative position of the memory block till the block filled with zero; processing the swiping operation till the data as one and records the times; repeating step B.
+50. 2715245 一种纹理密码标签
+CN
+03.08.2005
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+03274663.6
+兆日科技（深圳）有限公司
+魏恺言
+G06K 9/00
+Loading...
+本实用新型的一种纹理密码标签，其用于防伪识别，所述纹理密码标签上设置有至少一个纤维纹理区域和一个二维条码区域，所述纤维纹理区域中随机分布有数条纹理特征随机形成的纤维丝；所述二维条码区域所记录的信息为通过识别所述纤维纹理区域内的纤维图像数据和标签附着的物品数据，并通过一第一预定算法后形成的二维条码。本实用新型的纹理密码标签产品，结合了纹理防伪技术、二维条码技术和高强度密码技术，使产品的识别特征唯一，提高了防伪性能。
+51. 2638161 一种外置发票盒的税控收款机
+CN
+01.09.2004
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+03247576.4
+深圳市兆日信息技术有限公司
+魏恺言
+G07G 1/00
+Loading...
+本实用新型的一种外置发票盒的税控收款机，其包括机体本体，在该机体本体内设置有一打印发票的打印头，一用于盛放发票的发票盒，该发票盒内具有一容置发票的容置空间；所述税控收款机的机体本体上设置有一发票进纸口，所述发票盒内的发票通过该进纸口进入并由所述打印头打印；所述发票盒与所述税控收款机可拆卸固接。所述发票盒为卷式发票盒和叠式发票盒。本实用新型的税控收款机同一机子对应多个不同类型发票的发票盒，使用方便，降低成本。
+52. 2629129 一种可长久保存数据的税控收款机
+CN
+28.07.2004
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+03261694.5
+深圳市兆日信息技术有限公司
+魏恺言
+G06F 15/78
+Loading...
+本实用新型的一种可长久保存数据的税控收款机，其包括一CPU，及在该CPU控制下实现税控处理的第一存储器，以及一用于永久数据储存的第二存储器，与所述CPU通讯连接，所述税控收款机还包括一后备电源电路单元，其包括一电源切换电路，连接在所述CPU及其周边设备与外电源之间，同时与一后备电源电连接，用于外电源中断时启用后备电源驱动CPU及其周边设备；所述CPU在接收到外电源中断的信号后即发出数据备份指令，将所述第一存储器中的数据保存到所述第二存储器中；所述第二存储器为闪存。本实用新型产品由于采用闪存存储备份数据，存储时间长久，成本低廉。
+53. 2629126 一种CPU接口转换装置及使用PS2接口的税控收款机
+CN
+28.07.2004
+G06F 13/42 Loading...
+G06F 13/42
+Loading...
+03263968.6
+深圳市兆日信息技术有限公司
+魏恺言
+G06F 13/42
+Loading...
+本实用新型的一种CPU接口转换装置及使用PS2接口的税控收款机，其包括一辅助芯片，实现由PS2接口协议与SPI接口协议的转换，该辅助芯片通过至少一个PS2接口与PS2设备相连；同时，该辅助芯片通过SPI总线与所述税控收款机CPU的SPI接口通讯连接。本实用新型的产品方便CPU编程，提高了操作系统效率，稳定性高。
+54. 2615763 具有电子回单箱功能的密码器
+CN
+12.05.2004
+G06F 17/60 Loading...
+G06F 17/60
+Loading...
+03244036.7
+深圳市兆日信息技术有限公司
+魏恺言
+G06F 17/60
+Loading...
+一种具有电子回单箱功能的密码器，其涉及一种电子支付密码器，其至少包括一主控CPU，存储模块，显示模块及输入模块，所述CPU依所述存储模块中的程序通过所述输入模块输入控制指令，实现电子支付凭证的密码运算，所述密码器还包括一通讯接口；利用该通讯接口，所述CPU控制所述密码器向网络中的银行服务器发送回单请求，并接收其回单数据存储于所述存储模块。本实用新型的密码器产品无需客户到银行回单箱取阅纸件，取阅回单方便快捷，减少了银行和客户的人力成本，提供了工作效率。
+55. 2610419 一种支付密码器的单屏显示结构
+CN
+07.04.2004
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+03203349.4
+深圳市兆日信息技术有限公司
+魏恺言
+G07G 1/12
+Loading...
+本实用新型的一种支付密码器的单屏显示结构，涉及一种支付密码器，其包括一显示装置，设置在所述支付密码器电路中；所述支付密码器还包括一存储器、一算法芯片及一CPU，所述存储器和算法芯片与所述CPU电连接并受其控制，所述显示装置具有能在同一屏内同时显示产生凭证支付密码所需的各相关信息的显示区域，并通过CPU的指令控制，在同一屏内显示产生凭证支付密码的各输入信息及凭证的支付密码。单屏显示所有产生凭证支付密码的所需信息及凭证的支付密码，方便使用者输入数据和直观地进行核校。
+56. 1475960 Image collection method of substance finger print
+CN
+18.02.2004
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+02125726.4
+Beijing Zhaori Science and Technology Co., Ltd.
+Yang Dongyi
+G06K 9/20
+Loading...
+A method of acquiring the "fringerprint" texture image, which is randomly distributed in the mass and generated by adding fluorescent fibres includes dividing the 3D image of said "fringerprint" into at least two 2D images on two layers, irradiating the mass by a light source, and acquiring the 2D images on at least two layers several times. It can be used for antiforge purpose.
+57. 1430175 Encryption antiforgery method based on substance characteristics
+CN
+16.07.2003
+G06K 5/00 Loading...
+G06K 5/00
+Loading...
+01145114.9
+Beijing Zhaori Science & Technology Co., Ltd.
+Wei Chaoyang
+G06K 5/00
+Loading...
+An antiforge encryption method based on substance characteristics includes such steps as adding the shaped material to the paper in its making procedure to form random distributed texture structure, converting the texture structure to image information able to be processed by computer, picking up the characteristic information of image, editing its bar code, printing the bar code on the antiforge label or bill, digital signing with private key, and copying the digital signature onto the object to be protected, and checking the antiforge information.
+58. 2561168 一种高速并行通信连接装置
+CN
+16.07.2003
+H04B 3/02 Loading...
+H04B 3/02
+Loading...
+02245704.6
+北京兆日科技有限责任公司
+王晓东
+H04B 3/02
+Loading...
+本实用新型涉及一种高速并行通信连接装置，用于授权设备与多个功能设备间的通信，实现热插拔。主要包括：分别与授权、功能设备连接的第一、第二端口接插件，第一、第二端口双向数据缓冲器，和双端口随机存取存储器。第一、第二端口双向数据缓冲器的一侧数据总线分别与第一、第二端口接插件连接，第一、第二端口双向数据缓冲器的另一侧数据总线分别与双端口随机存取存储器的第一、第二套数据引脚连接。第一、第二端口接插件的地址总线及控制总线分别与双端口随机存取存储器的第一、第二套地址总线及控制总线连接。装置由授权通信设备供电，且第二端口双向数据缓冲器与双端口随机存取存储器的第二套数据引脚间的数据总线上串接有限流电阻。
+59. 1427575 Electronic cipher formation and checking method
+CN
+02.07.2003
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+01144350.2
+Zhaori Science and Technology Co. Ltd., Beijing
+Wei Zhaoyang
+H04L 9/32
+Loading...
+A method for generating and checking electronic cipher is disclosed. The method for generating electronic cipher includes such steps as transforming the plaintext to coding information, performing hash operation to become short plaintext coding information and encrypting with private key to form electronic cipher. The method for checking electronic cipher includes such steps as decrypting with public key to become intermediate result, and comparing it with said short plaintext coding information.
+60. 1427351 User's identity authentication method of dynamic electron cipher equipment and its resources sharing system
+CN
+02.07.2003
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+01144349.9
+Zhaori Science and Technology Co. Ltd., Beijing
+Wei Zhaoyang
+H04L 9/32
+Loading...
+An equipment for dynamically generating and checking electric cipher is composed of microprocessor, memory unit, HASH operation chip and encrypting-decrypting chip. A user ID verifying method for the resource sharing system with said equipment includes such steps as receiving the log-in request from accessing device, recording its ID, generating a random number for the accessing device, hash operation to the random number to obtain result m, generating dynamic electronic cipher C by cipher generation algorithm according to m and private key K1, sending it to accessed device, obtaining the public key K2 of accessing device, checking the random number and C by the cipher check algorithm, and determining if the log-in request is allowed.
+61. 2489434 一种闪烁存储器模块
+CN
+01.05.2002
+G11C 7/24 Loading...
+G11C 7/24
+Loading...
+01224537.2
+北京兆日科技有限责任公司
+魏恺言
+G11C 7/24
+Loading...
+本实用新型涉及一种闪烁存储器模块,包括闪烁存储器和防误写电路,防误写电路包括电源检测器和由译码器组成的防误写信号组合逻辑电路。译码器的输入端分别连接电源检测器输出端和主控制芯片的闪烁存储器写信号输出端、闪烁存储器写允许信号输出端和复位信号输出端,译码器的输出端分别连接闪烁存储器的写信号输入端(WR非)和闪烁存储器的操作允许输入端(RP#)。为闪烁存储器设置限制写入与允许写入条件,确保闪烁存储器正确写入。
+62. 2478140 液晶显示器
+CN
+20.02.2002
+G02F 1/133 Loading...
+G02F 1/133
+Loading...
+01224523.2
+北京兆日科技有限责任公司
+魏恺言
+G02F 1/133
+Loading...
+本实用新型涉及一种液晶显示器,包括液晶显示部件和显示深淡度调节部件,可精密调整显示深淡度。现有液晶显示器的深淡度调节,其直接调节对象都是电阻,本实用新型的显示深淡度调节电路的调节对象则是电容上存储的电荷量,通过设置可调频率脉冲发生器及频率－电压转换器,利用数字方式调节方波脉冲占空比,进而调节液晶显示部件V0端上用于控制显示深淡度的电压幅度。使其显示深淡度可因个人习惯、环境、自身老化等原因随时调整。
+63. 1201961 Anti-faking insurance certificates and monitering system for insurance premium
+CN
+16.12.1998
+G09F 3/00 Loading...
+G09F 3/00
+Loading...
+98102681.8
+Zhaori Science and Technology Co., Ltd., Beijing
+Guo Yingzhong
+G09F 3/00
+Loading...
+An antiforge and monitor system for policy and premium features use of digital signature technique and public telephone to prevent counterfeit policy and to real-time monitor the charge collecting of premium for agencies. The policy can be real-time processed in different environments. The system is composed of cipher check card, cipher computer, authorizing device for cipher computer, telephone speech card, computer and application software.
+

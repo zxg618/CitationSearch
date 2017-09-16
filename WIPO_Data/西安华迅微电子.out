@@ -1,0 +1,421 @@
+1. 202750055 一种片内RC 振荡器
+CN
+20.02.2013
+H03K 3/011 Loading...
+H03K 3/011
+Loading...
+201220284000.5
+西安华迅微电子有限公司
+孙黎斌
+H03K 3/011
+Loading...
+本实用新型公开了一种片内超低功耗RC振荡器，包括偏置电流产生模块，RC振荡模块，波形整形模块。RC振荡模块中的翻转电压与偏置电流呈正比例相关特性，这使得RC振荡器频率仅与电阻R和电容C有关，通过选取合适类型的电阻R，可获得较好的温度系数。由工艺造成的初始频率偏差，对电阻R进行修调即可校准至设计值。对于500k以下的输出频率而言，振荡器功耗可以控制在2uA以内，如若使用适当类型的电阻R，电源电压和温度造成的频率偏移可控制在±2%以内。本实用新型所涉及的RC振荡器结构简单、精度高、功耗极低、且初始频率易于调节。
+2. 202748694 一种实时时钟电路
+CN
+20.02.2013
+G06F 1/14 Loading...
+G06F 1/14
+Loading...
+201220284661.8
+西安华迅微电子有限公司
+罗阳
+G06F 1/14
+Loading...
+本实用新型公开了一种实时时钟电路，包括恒定跨导偏置电流产生电路、负阻产生电路、运算放大器及缓冲器。恒定跨导偏置电流产生电路产生一个与电源电压无关的电流并提供给负阻产生电路，负阻产生电路产生一个负阻抵消晶体中的电阻损耗从而使晶体自激振荡，运算放大器放大负阻产生电路中的振荡信号，缓冲器将运算放大器输出的振荡信号整形为方波。本实用新型所述的实时时钟电路，输出信号的频率精度高、功耗小，可以集成在芯片内部。
+3. 202750074 一种高速比较器
+CN
+20.02.2013
+H03M 1/36 Loading...
+H03M 1/36
+Loading...
+201220171267.3
+西安华迅微电子有限公司
+孙黎斌
+H03M 1/36
+Loading...
+本实用新型提供了一种高速比较器，包括依次连接的前置差分放大器、动态锁存电路和输出锁存电路；其中：前置差分放大器，为有源负载结构的差分放大器，用于放大输入信号和参考信号的差值；动态锁存电路，设置有以反相器首位相接成的双稳态结构，用于放大前置差分放大器的输出信号，并将其转换为数字逻辑电平输出；输出锁存电路，由两个共源差分输入NMOS管和两个交叉耦合的PMOS管作为负载，在动态锁存器复位时间内，对动态锁存电路的输出进行锁存并输出。与其他比较器相比，本实用新型提出的比较器具有功耗低、速度快、结构简单的特点，适用于快闪式模数转换器。
+4. 102928853 一种捕获北斗D1卫星导航系统弱信号的方法
+CN
+13.02.2013
+G01S 19/24 Loading...
+G01S 19/24
+Loading...
+201210412200.9
+西安华迅微电子有限公司
+薛文通
+G01S 19/24
+Loading...
+本发明公开了一种捕获北斗D1卫星导航系统弱信号的方法，包括：a.估计信号信噪比；b.利用信噪比设定信号检测门限值，判定强弱；c.选取NH二次编码序列，进行CA码相位、多普勒频率2维捕获处理；d.采取1ms相干积分，收集20个积分结果；e.选取第1种NH二次编码序列，与20个积分结果逐个相乘；f.非相干积分，存储结果；g.重复步骤c-d，直到20种NH二次编码遍历完毕；h.选取20种积分最大值，与设定信号检测门限值比较，得出定位卫星信号是否在接收信号中；i.存在，则定位；未发现信号，则更换多普勒频段，直到所有多普勒频段遍历完毕；j.更换卫星，重复步骤c～i。本发明能够剥离NH二次编码，获取较高积分增益，从而捕获北斗D1卫星导航系统弱信号。
+5. 202550987 一种上电复位电路
+CN
+21.11.2012
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201220171269.2
+西安华迅微电子有限公司
+吕海凤
+H03K 17/22
+Loading...
+本实用新型提供了一种可集成到芯片内部的带延迟并可产生脉冲的上电复位电路。该上电复位电路包括三部分电路，所述三部分电路中第一电源电压延迟产生电路与第二电源电压延迟产生电路分别与复位信号脉冲产生电路相接第一电源电压延迟产生电路、第二电源电压延迟产生电路和复位信号脉冲产生电路，第一电源电压延迟产生电路与第二电源电压延迟产生电路结构相同，由PMOS晶体管和NMOS晶体管串联而成，仅是其中充当电容作用的NMOS晶体管大小不同，从而使得相对电源电压的延迟不同；复位信号脉冲产生部分由三个反向器和一个异或电路组成。本实用新型工作状态稳定，静态功耗小，可集成到低功耗应用的SOC芯片中。
+6. 202550976 自动增益控制电路
+CN
+21.11.2012
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+201220171268.8
+西安华迅微电子有限公司
+赵国良
+H03G 3/20
+Loading...
+本实用新型提供了一种自动增益控制电路，包括与系统输入端相连的可变增益放大器，所述可变增益放大器为模拟可变增益放大器，在模拟可变增益放大器输出端串联连接有固定增益放大器，在固定增益放大器的输出端与模拟可变增益放大器增益控制端之间并联连接有检测电路和误差放大器。本实用新型所述的自动增益控制电路，其输出信号的幅度由参考电压信号决定且保持恒定，可以避免接收机输入信号大范围变化时造成后级电路饱和或不稳定，改变其中固定放大器的增益可以平移可变增益区间且不改变增益变化范围，方便在不同的接收机应用中使用。
+7. 102270389 Information-based system and method for calling taxi
+CN
+07.12.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110156235.6
+Xi'an Huaxun Microelectronic Co., Ltd.
+Zhou Wenyi
+G08G 1/00
+Loading...
+The invention relates to an information-based system for calling a taxi, comprising a positioning terminal, a global positioning system (GPS), a mobile communication base station, a monitoring system and a mobile client inquiry terminal, wherein the positioning terminal is disposed in a taxi and connected with an empty indication handle in the taxi; the positioning terminal is connected with the GPS via a satellite signal and connected with the monitoring system via the mobile communication base station; and the mobile client inquiry terminal is connected with the monitoring system via the mobile communication base station. The information-based system for calling a taxi and the method for calling a taxi thereof can efficiently solve the problem of 'taxi looking for people while people looking for taxi' existed presently and satisfy the market requirement.
+8. 201152895 一种GPS信号相关器
+CN
+19.11.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200720126394.0
+西安华迅微电子有限公司
+兰娟
+G01S 1/02
+Loading...
+本实用新型涉及全球定位(GPS)系统接收机领域，尤其涉及提供一种GPS信号相关器，其包括：戈尔德码生成器、先进先出移位寄存器、数据存储器、数据寄存器、异或比较器(XOR)、控制器、加法器、累加器、外部时钟和处理器。该GPS信号相关器综合了串行与并行捕获的优点，在设备复杂度有限的情况下，能够获得比较短的捕获时间。
+9. 201130246 一种抗多径GPS扩频接收机的码跟踪环路
+CN
+08.10.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200720311226.9
+西安华迅微电子有限公司
+兰娟
+G01S 5/02
+Loading...
+本实用新型公开了一种改进的抗多径GPS扩频接收机的码跟踪环路，其特征在于，包括下述模块：一个用于改变信号频率的抽取器，其输入连接射频部分的数字中频信号，输出分三路分别连接提前、即时和滞后三个相关器的输入端；一个本地伪随机码发生器，其输入连接一个可调延迟器，输出分别连接所述提前相关器；两个1/n码片延迟器，其输出分别连接即时和滞后相关器并用于相应的即时和滞后信号的相关计算；一个残余码相位误差检测器，其输入分别连接提前、即时和滞后三个相关器的输出端，用于产生剩余多径码相位误差，其输出分两路控制信号，分别连接抽取器以控制抽取器的抽取比和可调延迟器用于调整可调延迟器的延迟和偏移实现码相位校正。
+10. 201130245 一种GPS接收机的信号跟踪环路
+CN
+08.10.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200720311452.7
+西安华迅微电子有限公司
+郝建军
+G01S 1/02
+Loading...
+本实用新型公开了一种GPS接收机的信号跟踪环路，包括一个连接基带部分输入信号的输入数据管理模块，其输出分三路分别连接鉴别器模块、跟踪环方程模块和比特同步模块，所述的跟踪环方程模块通过一个硬件反馈生成模块输出跟踪状态更新数据反馈给基带并输出强信号参数至基带处理部分；跟踪环方程模块的输出还连接比特同步模块和一个数据解调模块，并连接一个数字信号处理器DSP；所述的比特同步模块的输出连接数据解调模块，并与一个互相关处理器双向信号连接；所述的数据解调模块的一个输出连接互相关处理器，并另分两路输出连接数字信号处理器DSP；所述互相关处理器双向信号连接跟踪环方程模块和比特同步模块，并输出互相关数据至基带。
+11. 101275995 Global position system GPS receiver radio frequency chip
+CN
+01.10.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200810017850.7
+Xi'an Huaxun Microelectronics Co., Ltd.
+Li Di
+G01S 1/02
+Loading...
+A global positioning system GPS receiver radio frequency chip comprises a first low-noise amplifier and a second low-noise amplifier. The radio frequency input signal enters the first low-noise amplifier which is connected with the second low-noise amplifier that is connected with a frequency mixer. The frequency mixer is connected with a frequency synthesizer. The generated signal is executed with frequency mixing. The frequency mixer is connected with an intermediate frequency filter which is connected with an automatic gain control amplifier that is connected with a digital-analog signal converter. The outputted data signal enters a baseband. The baseband signal, namely a pulse width modulating signal is transmitted to an automatic gain module. Compared with former 0.35 micrometer germanium-silicon technique, the invention has the advantages of greatly improved power consumption and capability, better versatility, and excellent social and economic benefit.
+12. 201126474 一种捕获GPS和Galileo卫星信号的电路
+CN
+01.10.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200720311225.4
+西安华迅微电子有限公司
+何秋生
+G01S 1/02
+Loading...
+本实用新型公开了一种捕获GPS和Galileo卫星定位导航信号的电路，包括数字下变频模块、相位旋转模块，控制模块、匹配滤波模块，编码模块，积分模块等，数字下变频模块接收GPS射频前端A/D转换模块输出的I/Q数字中频信号，其输出在控制模块的控制下连接相位旋转模块的输入端以补偿多普勒频率偏移，然后经过匹配滤波模块进行信号匹配；控制模块与匹配滤波模块，相位旋转模块，积分模块，编码模块等模块的连接包含控制信号和数据输入输出信号，匹配滤波模块分别接入相位旋转模块输出的I和Q路信号，同时进行信号匹配；其匹配得到的结果经过增益提高，送至峰值比较模块进行捕获判断；编码模块能够产生GPS和Galileo卫星信号的伪随机噪声码。
+13. 201107402 一种全球定位系统GPS接收机的抗多径电路
+CN
+27.08.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200720126331.5
+西安华迅微电子有限公司
+郑俊卿
+G01S 5/02
+Loading...
+本实用新型公开了一种全球定位系统GPS接收机的抗多径电路，其包括依次串连的信号分离器(1)、W1鉴相器(2)、角旋转器(3)、求和电路(4)、捕获/跟踪调整器(5)、载波和码振荡器(6)和码生成器(7)，所述载波和码振荡器(6)的另一输出端与角旋转器(3)的另一输入端相连，所述码生成器(7)的输出端与鉴相器(2)的另一输入端相连，所述求和电路(4)的信号输出端即为消除了多径效应的GPS信号。利用W1鉴相器波形特点和门宽的动态可调整特性，能够减小多径失真引起的伪距误差。
+14. 201107401 一种GPS弱信号的捕获电路
+CN
+27.08.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200720126330.0
+西安华迅微电子有限公司
+郑俊卿
+G01S 5/02
+Loading...
+本实用新型涉及GPS接收机领域，特别涉及提供一种GPS弱信号的捕获电路，其包括卫星数据(1)的第一支路数据输入依次串接的基带信号采样压缩器(6)、基带信号匹配滤波器(7)和基带信号快速傅立叶变换器(8)，其特征在于，卫星数据(1)的第二支路数据输入依次串接的强信号采样压缩器(2)、强信号匹配滤波器(3)、强信号快速傅里叶变换器(4)、互相关估计器(5)、交叉模糊计算器(9)，所述基带信号快速傅立叶变换器(8)的输出也输入交叉模糊计算器(9)，所述交叉模糊计算器(9)输出去除了强弱信号间互相关影响的用于捕获的弱信号自相关值。
+15. 101221230 Multicenter common phase noise restraining device and method thereof
+CN
+16.07.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200710307723.6
+Xian Huaxun Microelectronics Co., Ltd.
+Wang Jiangan
+G01S 1/04
+Loading...
+The invention discloses a device and a method for suppressing the public phase noise with a plurality of channels, which can reduce the bandwidth of a carrier phase tracking, and consequently weakens or eliminates the public phase noise and improves the anti-interference ability of a receiver. The device comprises a plurality of phase tracking channels, and each phase tracking channel comprises a phase discriminator, a phase estimator and a phase tracker; each channel implements the carrier phase tracking of 1 to n specified satellite signals by using 1 to n phase trackers, the phase estimator output of each channel is connected with a common phase noise estimator which is used for estimating the common phase noise of each channel which is generated by an oscillator, and the phase estimator of each channel implements the phase estimation of the present time according to the phase measurement information and the precise phase value of the last time; the estimated phase value is sent into the common phase noise estimator for implementing the estimation of the phase noise of the common oscillator, the acquired phase noise estimation value and the phase tracker output of each channel are calibrated in the adder of each channel, and a precise phase value is output.
+16. 101216544 GPS receiving machine integrated radio frequency chip
+CN
+09.07.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200710307733.X
+Xian Huaxun Microelectronics Co., Ltd.
+Li Di
+G01S 1/04
+Loading...
+The invention relates to an integrated RF chip of GPS receiver, which is characterized in that a monolithic low noise amplifier, a mixer and a frequency synthesizer, a medium frequency filter, an A/D converter, an automatic gain controller, an I/O isolator, a data compressor, a serial/parallel converter and a parallel/serial converter are all integrated in a monolithic RF chip, particularly a module for controling the gain variation is integrated on the RF chip, thus simplifying the algorithm, automatically achieving signal gain feedback adjustment of automatic gain pulsewidth modulation signals between RF and base band without the need of interface, alleviating the burden for signal processing of the base band and improving the processing speed. The inventive integrated RF chip of GPS receiver is produced by adopting 0.35 mum silicon germanium process and has good social and economic benefits.
+17. 201083827 一种检测GPS信号中数据位跳变的电路模块
+CN
+09.07.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200720032706.1
+西安华迅微电子有限公司
+何秋生
+G01S 1/04
+Loading...
+本实用新型公开了一种检测GPS信号中数据位跳变的电路模块，包括数字下变频器、控制器、匹配滤波器组和数字信号处理器，数字下变频器接收GPS射频前端A/D转换器输出的I/Q数字中频信号，其输出在控制器的控制下分别连接匹配滤波器组和数字信号处理器的输入端；控制器分别与配滤波器组和数字信号处理器双向数据连接，匹配滤波器组包括两个匹配滤波器分别接入数字下变频器输出的I和Q路信号，同时进行信号匹配，并通过与数字信号处理器双向连接进行多次匹配数据处理；其匹配得到的结果送给控制器用于判断跳变位置；控制器通过匹配滤波器组比较多次的匹配结果判断出数据位的跳变位置。
+18. 201083828 一种GPS接收机码跟踪环电路
+CN
+09.07.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200720032945.7
+西安华迅微电子有限公司
+郝建军
+G01S 1/04
+Loading...
+本实用新型公开了一种GPS接收机码跟踪环电路，包括一个输入射频信号的中频滤波器，该中频滤波器的输出连接A/D转换器，其特征在于，A/D转换器的输出分别连接第一加法器、第一延迟锁定环、第二加法器，所述的第一延迟锁定环的输出信号连接第一加法器，第一加法器的输出信号通过第一数乘器进行幅度变换后连接至第二延迟锁定环，第二延迟锁定环的输出通过第二数乘器进入第二加法器，第二个加法器的输出连接第三延迟锁定环，第三延迟锁定环的的输出至相关器，所述的第一、第二和第三延迟锁定环中均设有用于信号相位调整的鉴相器。
+19. 101206255 Method for capturing GPS weak signal
+CN
+25.06.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200710188595.8
+Xi'an Huaxun Microelectronics Co., Ltd.
+Cao Lei
+G01S 1/02
+Loading...
+The invention discloses a method for obtaining high signal-to-noise ratio signal to capture GPS weak signal by means of data bit jump information, including the following steps: (a) when a receiver receives a signal, the signal-to-noise ratio of the signal is estimated by means of a signal-to-noise ratio estimation module; (b) the detection threshold value and the bit jump detection threshold value of the signal are set by means of the estimated signal-to-noise ratio; (c) the detection judgment of bit jump is carried out; whether bit jump exists in the processed 20ms signal is detected by a bit jump detector according to the estimated signal-to-noise ratio; when bit jump exists, subsequent 20ms data series are converted according to the bit jump information and are not influenced by the bit jump; then, 40ms coherent integration is carried out; when bit jump does not exist, coherent integration is directly carried out to increase the signal-to-noise ratio; (d) longtime coherent integration result is compared with a set signal detection threshold value by a comparator so as to judge whether needed satellite signal exists in received signal.
+20. 101207405 Method for capturing pseudo-code sequence
+CN
+25.06.2008
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200710199234.3
+Xi'an Huaxun Microelectronics Co., Ltd.
+Wang Jiangan
+H04B 1/707
+Loading...
+The invention relates to the direct sequence spectrum spreading communication technical filed, in particular relates to a pseudocode sequence capturing method. The invention divides all the different-code phase sequence of a local replication code evenly into n subgroups, each subgroup includes m different-code phase sequences; adding up the m different-code phase sequences of each subgroup can get a composite code sequence of the subgroup. First, the invention searches the composite code sequences which include a satellite pseudocode sequence by correspondingly integrating a composite code sequence respectively with the received satellite pseudocode sequences; then, the invention searches the satellite pseudocode sequences in the m code phase sequences in the corresponding subgroups of the composite code sequence. The method can be widely used in software receivers for receiving GPS signals, Galileo signals, and other communication signals, and can flexibly capture direct sequence spectrum spreading codes with different length.
+21. 101206256 Method for processing GPS receiver signal incoherent integral data
+CN
+25.06.2008
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200710199236.2
+Xi'an Huaxun Microelectronics Co., Ltd.
+He Jie
+G01S 1/02
+Loading...
+The invention relates to the GPS receiver signal processing field, in particular to a non-coherent integration data processing method for GPS receiver signal. The method, which adds scaling function of non-coherent integration data, not only can limit non-coherent integration value and register RAM data bit to a small scope, but also can realize longtime integration and prevents information loss caused by data overflow; moreover, the method can well reflect the relevance of satellite signal and local code.
+22. 101206259 Method for capturing multi-constellation navigation weak signal based on digital matched filter
+CN
+25.06.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200710188596.2
+Xi'an Huaxun Microelectronics Co., Ltd.
+Wang Jiangan
+G01S 5/02
+Loading...
+The invention discloses a capture method for multi-constellation navigation weak signal based on a digital matched filter, and is characterized by including the following steps: emersion sequence grouping is completed; one group is picked up for initialization congregation; summation calculation is completed after receiving sequence grouping; correlation calculation of emersion sequence and received sequence is completed; congregation of all groupings, summation calculation after receiving sequence grouping and correlation calculation procedures are completed; all correlation results are output; moreover, signal gain can be increased by means of non-coherent integration under weak signal condition. The invention adopts the method of pre-processing of emersion sequence signal, i.e. processes the emersion sequence through making full use of a processor before correlation calculation, while only plus-minus calculation is carried out during correlated process; therefore, the amount of calculation is reduced to save the processing time of the processor during correlated process.
+23. 201072442 一种GPS接收机集成射频芯片
+CN
+11.06.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200720032070.0
+西安华迅微电子有限公司
+李迪
+G01S 1/04
+Loading...
+本实用新型涉及一种用于接收射频信号的接收机芯片，将单片的低噪声放大器、混频器及频率综合器、中频滤波器、模数转换器、自动增益控制器、I/Q分离器、数据压缩器、串并转换器及并串转换器都集成在一个整体射频芯片中，尤其是将控制增益变化的模块集成在一个射频芯片上，可简化算法，使得射频和基带两个部分之间的自动增益脉宽调制信号无需接口就可实现信号增益的反馈调节，减轻基带处理信号的负担，加快处理速度。本实用新型的GPS接收机集成射频芯片采用0.35微米锗硅工艺设计生产，具有良好的社会和经济效益。
+24. 201066385 一种GPS接收机的数字信号相关运算电路
+CN
+28.05.2008
+G01S 5/14 Loading...
+G01S 5/14
+Loading...
+200720032389.3
+西安华迅微电子有限公司
+曹磊
+G01S 5/14
+Loading...
+本实用新型公开了一种电路简单，相关计算效率高的GPS接收机的数字信号相关计算电路，包括一个码产生器，用于相关运算；一个相关模块，用于多普勒模块输出的信号与所述码产生器产生的本地码进行相关处理；所述的相关模块包括I路采样移位寄存器和Q路采样移位寄存器，分别将由多普勒模块输出的两路信号进行串行转并行，并分别输出至I路采样锁存器和Q路锁采样存器，I路采样锁存器和Q路锁采样存器的输出分别与一个移位寄存器的输出连接至I路异或门和Q路异或门进行相关运算；所述移位寄存器的输入连接所述码产生器的输出；一个I/Q累加模块，用于累加相关模块输出的相关结果。
+25. 201066384 一种GPS接收机快速搜索多普勒频移的电路
+CN
+28.05.2008
+G01S 5/14 Loading...
+G01S 5/14
+Loading...
+200720032388.9
+西安华迅微电子有限公司
+兰娟
+G01S 5/14
+Loading...
+本实用新型公开了一种可快速搜索多普勒频移的电路，包括一个用于将接收到的数字信号分离的I/Q分离器；I路压缩器和Q路压缩器；用于信号串并行转换的I路第一串并转换器和Q路第一串并转换器，一个对转换信号进行相位旋转的多普勒模块；一个用于多普勒模块输出的信号与本地码进行相关处理的相关模块；一个用于累加相关模块输出的相关结果的累加模块；一个计算累加模块输出信号幅值的平方和开根器；一个累加器和一个存储信号幅度值的IQ平方存储器；用于检测累加器输出信号幅值的一个峰值检测器。本实用新型具有构造简单，成本低廉的优点。
+26. 201066383 GPS接收机的抗多径电路
+CN
+28.05.2008
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200720032477.3
+西安华迅微电子有限公司
+郑俊卿
+G01S 1/04
+Loading...
+本实用新型公开了一种GPS接收机的抗多径电路，该电路的数据分离器分别与压缩器和有限脉冲滤波器相连接，抽样判决器和压缩器分别与多普勒频移器连接，多普勒频移器分别与两个异或门电路的输入端相连接，两个异或门电路的输出端与部分累加器相连接，码生成器的输出端与第一异或门电路和第二异或门电路的输入端相连，两个部分累加器分别与第一加法器和第二加法器的输入端相连，第一加法器和第二加法器的输出端与两个寄存器相连接，两个寄存器的输出端会反馈到第一加法器和第二加法器异作为另外一个输入端。本实用新型可以有效地消除由于多径效应对导航定位所带来的影响。
+27. 201060266 加速GPS信号捕获的实时时钟电路
+CN
+14.05.2008
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200720032207.2
+西安华迅微电子有限公司
+王江安
+G01S 5/02
+Loading...
+本实用新型公开了一种加速GPS信号定位的高精度实时时钟电路，包括下述模块：一个在预定速率下生成周期时钟脉冲的低功率振荡器；一个N－比特计数器，对上述低功率振荡器作出响应，每秒生成一个脉冲信号；一个M－比特计数器，对上述每秒生成的一个脉冲信号作出响应，生成一个明确的时钟计数；一个快速存储器，用于GPS接收机关机时防止数据丢失；一个备用电源用于保持上述各模块的正常运行；其特征在于，还包括一个触发器，该触发器的一个输入接口连接GPS接收机的接收器时基至导航跟踪处理器的连线上；另一个输入接口连接N－比特计数器；输出接口连接导航跟踪处理器3；该触发器用于每毫秒对N－比特计数器的数据进行读取。
+28. 101101331 Method for determining periodical GPS signal emission time
+CN
+09.01.2008
+G01S 5/14 Loading...
+G01S 5/14
+Loading...
+200710018381.6
+Xi'an Huaxun Microelectronics Inc.
+Wang Jiangan
+G01S 5/14
+Loading...
+The invention discloses a method of using satellite to transmit periodical event information to determine periodical GPS signal transmitting time, selecting a known GPS periodical event signal; letting the periodical event signal make coherent integration with the GPS signal and making time-domain and frequency-domain peak value detection on the coherent integration value, after waiting a cycle of periodical event, when still able to detect the periodical event signal, judging the periodical event signal has been received, and then obtaining accurate GPS time based on the time when satellite transmits the periodical event according to the function of periodical event and GPS system time. When the GPS signal power and noise power spectrum density are lower than 30dB-Hz, even 20dB-Hz, it can still obtain accurate GPS time when signal is transmitted, so that the GPS receiver can still accurately position in the environment of weak signal.
+29. 200990592 一次下变频射频信号接收机芯片
+CN
+12.12.2007
+H04B 1/16 Loading...
+H04B 1/16
+Loading...
+200520079634.7
+西安华迅微电子有限公司
+周文益
+H04B 1/16
+Loading...
+本实用新型涉及一种用于接收射频信号的接收机芯片。通过采用一次下变频结构，将单片的低噪声放大器、混频器、中频滤波器、频率综合器、模数信号转换器、自动增益控制信号放大器集成一个整体射频芯片，是使射频芯片的面积与功耗大大减小，避免了片外使用滤波器的缺陷，并能够保证足够的增益。采用0.35微米锗硅工艺设计生产，射频芯片的主要作用是将射频频率范围的全球定位系统卫星信号下变频到中频范围，中频信号经放大后进入模数信号转换器，其作用是将中频模拟信号采样为数字信号输出。具有结构简单，体积小，功耗低的特点，有很好的社会和经济效益。
+30. 101078758 Doppler frequency compensation method of GPS receiver
+CN
+28.11.2007
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200710018149.2
+Xi'an Huaxun Microelectronics Inc.
+Lan Juan
+G01S 1/02
+Loading...
+The invention discloses a compensation method for Doppler-frequency of GPS receiver. The method outputs and stores data with Doppler I inputting signal and Q inputting signal from capturing module data to the multiplier in phase rotator of Doppler module. It inputs Doppler phase parameter and Doppler frequency parameter to the adder of NC oscillator of Doppler module. Doppler carrier frequency and carrier phase are added by the adder. Outputting value is inputted into outputting buffer of carrier phase to generate current carrier phase value. It is outputted by the outputting buffer of carrier phase into a sine/cosine searching table. Corresponding sine/cosine value is searched from the searching table and is inputted into the multiplier of phase rotator with Doppler I inputting signal and Q inputting signal together. Signal phase is inputted in rotation. Finally rotated value is quantized to output compensation signal of Doppler frequency to correlator and related calculation is carried out with local production code.
+31. 101078759 Digital matching filter for GPS receiver
+CN
+28.11.2007
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200710018150.5
+Xi'an Huaxun Microelectronics Inc.
+Qiang Xiaohong
+G01S 1/02
+Loading...
+The invention discloses a digital matched filter for GPS receiver, comprising a serial-to-parallel circuit, a multistage delay circuit, a clock selection circuit and a calculation circuit for correlation value. Whereinto, the serial-to-parallel circuit and the multistage delay circuit are all constituted by delayer. Inputting serial data is transformed into parallel data by the serial-to-parallel circuit and is outputted by multistage delay circuit. The calculation circuit for correlation value is used to calculate correlation value of inputting signal and local codes. When correlation value is calculated adopted method is that local codes are divided into several groups and partial correlation value of each group and inputting signal is calculated where group is a unit; finally correlation value of inputting signal and local codes in a period is calculated again.
+32. 101067651 GPS weak signal fast capturing realizing method
+CN
+07.11.2007
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200710018062.5
+Xian Huaxu Micro-Electronic Co., Ltd.
+He Qiusheng
+G01S 1/02
+Loading...
+The invention discloses GPS weak signal fast capture implement method. It includes the following steps: storing the received GPS signal data in the memory; sending to phase detection module to detect data segment position with phase jumping; dividing the data into phase jumping before and after; separately putting on the grouped data G1 and G2; processing coherent integration; sending the result to the compare module; sending the maximum to gain judgment module to judge whether the gain satisfies the capture demand or not; if it is not, sending it to the phase detect module to process the next data. The invention combines the phase jumping detection with the coherent integration to judge code phase jumping position caused by navigation message which can fully utilize received satellite data to realize coherent integration for long time, solve the problem of low capture sensitivity caused by integration loss and low gain.
+33. 101068115 Multistellar satellite signal mixed serial and parallel correlation capturing method
+CN
+07.11.2007
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200710018063.X
+Xian Huaxun Microelectronic Co., Ltd.
+He Qiusheng
+H04B 1/707
+Loading...
+A method for seizing mixed serial-parallel correlation of multi-constellation satellite signal integrates advantages of serial and parallel search and utilizes multiple time division multiplexing technique to not only raise service efficiency of hardware in parallel search but also to decrease time required in serial-search of signal.
+34. 2914164 一种可降低功耗的可编程模拟集成电路芯片
+CN
+20.06.2007
+G05F 3/16 Loading...
+G05F 3/16
+Loading...
+200520079632.8
+西安华迅微电子有限公司
+周文益
+G05F 3/16
+Loading...
+本实用新型公开了一种可降低功耗的可编程模拟集成电路芯片，整体结构由两个电路功能模块连接，译码器模块的信号进入基准模块，译码器模块将外界输入的二进制控制信号译码后输出相应的控制位信号，基准模块根据控制位信号输出所需大小的基准电流(电压)。由于模拟集成电路芯片各模块工作电流由基准电流提供，所以实现了基准电流的可控制化也就实现了芯片功耗的可编程化。本实用新型使模拟集成电路芯片中为各工作模块提供基准电流(电压)的基准电路可编程化，即基准电流(电压)可随外部控制信号所控制，从而使芯片功耗和性能达到最佳的折衷。具有结构简单，易于实现，节省能源功耗，使用面宽、功耗可控的特点，有很好的社会和经济效益。
+35. 2876800 全球定位系统与北斗二代双系统射频信号接收机装置
+CN
+07.03.2007
+G01S 1/02 Loading...
+G01S 1/02
+Loading...
+200520079633.2
+西安华迅微电子有限公司
+周文益
+G01S 1/02
+Loading...
+本实用新型公开了全球定位系统与北斗二代双系统射频信号接收机装置，能同时接收全球定位系统L1波段、北斗二代B1波段和B2波段信号的射频信号接收机装置，通过采用一次下变频结构，将低噪声放大器、混频器、中频滤波器、频率综合器、模数信号转换器、自动增益控制信号放大器集成一个整体射频信号接收机，射频接收机主要作用是将射频频率范围的全球定位系统卫星信号及北斗二代卫星导航系统信号下变频到中频范围，中频信号经放大后进入模数信号转换器，其作用是将中频模拟信号采样为数字信号输出。对结构进行精简，降低接收机面积与功耗。广泛用于交通运输车辆、船只等领域，具有结构简单，体积小，功耗低的特点，有很好的社会和经济效益。
+

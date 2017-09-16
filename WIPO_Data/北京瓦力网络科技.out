@@ -1,0 +1,157 @@
+1. 103083005 一种心率检测的方法
+CN
+08.05.2013
+A61B 5/024 Loading...
+A61B 5/024
+Loading...
+201110339784.7
+北京瓦力网络科技有限公司
+刘泱
+A61B 5/024
+Loading...
+本发明公开了一种心率检测的方法，首先移动终端通过摄像头以每次间隔小于1次心跳时间的频率拍摄手指指肚部分，并存储所有的手指指肚部分照片，计算并记录每一张手指指肚部分照片中所有像素点RGB颜色模型中红色像素值的平均值，计算相邻两张手指指肚部分照片的所有像素点RGB颜色模型中红色像素值的平均值之间的差值，得到一个差值数组，将所述差值数组进行归一化处理，得到第二数组，预设一个阈值，当第二数组中数值大于所述阈值，则判断发生一次心跳计算一分钟之内发生的心跳次数，获得心率。采用了本发明的技术方案，提高了心率检测的准确度，同时也提高了用户的使用兴趣。
+2. 103095932 一种移动终端省电的方法和装置
+CN
+08.05.2013
+H04M 1/73 Loading...
+H04M 1/73
+Loading...
+201110339786.6
+北京瓦力网络科技有限公司
+刘泱
+H04M 1/73
+Loading...
+本发明公开了一种移动终端省电的方法和装置，首先移动终端开启屏幕并解锁，发出USER_PRESENT广播，消息处理模块接收系统消息和/或自定义消息，并生成对应的事件对象，每个事件对象包括准备执行的动作信息和执行动作需要判断的条件信息，事件处理模块存储一个队列，用于保存所有待处理的事件对象，再从队列中抽取待处理的事件对象，根据其中执行动作需要判断的条件信息，对条件进行逐一判断，如果所有条件成立，则执行动作，如果其中一个条件不成立，则退出判断，不执行动作。采用了本发明的技术方案，能够根据移动终端的消息自主触发省电动作，从而延长移动终端的待机时间，方便用户使用。
+3. 103095528 一种运行检测网络流量的应用的方法和装置
+CN
+08.05.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310005548.0
+北京瓦力网络科技有限公司
+赵子龙
+H04L 12/26
+Loading...
+本发明公开了一种运行检测网络流量的应用的方法和装置，其中，方法包括以下步骤：当移动终端中的检测网络流量的应用未运行时，获取移动终端的位置，所述位置由移动终端的操作系统的地理位置提供服务提供；判断所述位置是否满足预设条件；当所述位置满足预设条件时，运行所述检测网络流量的应用以开始检测网络流量。本发明实施例利用了可在移动终端的操作系统后台执行的地理位置提供服务来获取移动终端的位置，并且当移动终端的位置满足预设条件时，运行所述检测网络流量的应用以开始检测网络流量。因此，可以实现检测网络流量的应用的自动运行，弥补了检测网络流量的应用不能保持在后台运行的缺陷。
+4. 103079224 一种检测网络流量的应用的运行方法和装置
+CN
+01.05.2013
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201310006167.4
+北京瓦力网络科技有限公司
+段少珍
+H04W 24/08
+Loading...
+本发明公开了一种检测网络流量的应用的运行方法和装置，其中，方法包括以下步骤：当所述检测网络流量的应用在移动终端的操作系统前台运行时，判断是否接收到从操作系统前台转入操作系统后台的指令；当接收到所述指令时，执行播放音频文件的操作；在音频文件播放期间，执行检测网络流量的操作。本发明中，检测网络流量的应用从操作系统前台转入操作系统后台时开始播放音频文件，利用了操作系统允许应用在后台播放音乐的特性，使得检测网络流量的应用得以在操作系统后台运行而不会休眠，因此，可以实时地、精确地对移动终端所使用的网络流量进行检测。
+5. 102916854 流量统计方法、装置及代理服务器
+CN
+06.02.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210404370.2
+北京瓦力网络科技有限公司
+袁彬
+H04L 12/26
+Loading...
+本发明公开了一种流量统计方法，包括以下步骤：代理服务器接收终端发送的接入请求，该接入请求包括代理证书相关信息；代理服务器根据代理证书监控接入的终端的访问数据；代理服务器根据监控的访问数据统计接入的终端的流量。应用本方法，能够统计终端每一个应用软件的数据流量。本发明还公开了用于实现所述方法的装置及代理服务器。
+6. 202261806 一种手机上网剩余流量的提醒系统
+CN
+30.05.2012
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201020608917.7
+北京瓦力网络科技有限公司
+刘泱
+H04W 4/14
+Loading...
+本实用新型公开了一种手机上网剩余流量的提醒系统，其特征在于，包括营业厅服务器（3）和设于手机（11）上的客户端（1）；所述客户端（1）上设有流量查询模块（2），监控模块（4），数据处理模块（5），流量提醒模块（6），其中，手机（11）与营业厅服务器（3）通过无线网络连接；流量查询模块（2）和监控模块（4）分别连接数据处理模块（5），数据处理模块（5）连接流量提醒模块（6）；所述数据处理模块（5）包括加合模块（9）。本实用新型能够获取手机上网剩余流量的实时数据，并具有自动提醒功能，使用户能够及时准确地了解手机上网的流量使用情况，便于人们合理的利用和管理自己的上网流量资源。
+7. 202143211 一种手机话费余额提醒系统
+CN
+08.02.2012
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201020608958.6
+北京瓦力网络科技有限公司
+刘泱
+H04W 4/14
+Loading...
+本实用新型公开了一种手机话费余额提醒系统，包括营业厅服务器和设于手机上的客户端；所述客户端上设有 话费查询模块，用于通过营业厅服务器获取手机话费余额数据； 数据处理模块，用于将查询到的营业厅手机话费余额数据与用户设定的最低限额进行比较； 余额提醒模块，用于当手机话费余额小于或等于用户设定的最低限额时向用户提示其话费余额； 其中，手机与营业厅服务器通过无线网络连接；话费查询模块连接数据处理模块，数据处理模块连接余额提醒模块；本实用新型能够向用户自动提醒话费余额信息，以使用户合理的控制话费开销和避免因话费透支造成的停机。
+8. 201957243 一种手机通话计费的系统
+CN
+31.08.2011
+H04W 4/24 Loading...
+H04W 4/24
+Loading...
+201020608923.2
+北京瓦力网络科技有限公司
+刘泱
+H04W 4/24
+Loading...
+本实用新型公开了一种手机通话计费的系统，包括设置在手机上的通话提醒模块（ 1 ）、属性存储模块（ 2 ）、数据运算模块（ 3 ）和显示模块（ 4 ）；通话提醒模块（ 1 ）、属性存储模块（ 2 ）、数据运算模块（ 3 ）和显示模块（ 4 ）顺次连接。本实用新型能够使手机用户实时地了解本次通话的资费信息，便于用户查看和理解，同时利用了电信运营商的通话计费规则，保证了通话资费计算的准确性，又因为计费规则存储在手机上，每 6 秒就进行一次通话资费的计算，可以无需等待一次通话结束，即可实时地计算当前通话所产生的资费，更可以在拨打、接听电话之前预估本次通话每分钟的资费，使用户能根据自身情况合理安排通话使用情况，增强了用户体验。
+9. 201957132 一种自动充值系统
+CN
+31.08.2011
+H04M 17/00 Loading...
+H04M 17/00
+Loading...
+201020608916.2
+北京瓦力网络科技有限公司
+刘泱
+H04M 17/00
+Loading...
+本实用新型公开了一种自动充值系统，它包括：设有客户端（ 1 ）的手机，充值中心服务器（ 2 ）；包括设置在客户端（ 1 ）上的：触发操作模块（ 3 ）；信息采集模块（ 4 ），与触发操作模块（ 3 ）连接；呼叫模块（ 5 ），与信息采集模块（ 4 ）和充值中心服务器（ 2 ）连接；模拟按键模块（ 6 ），与充值中心服务器（ 2 ）连接；反馈模块（ 7 ），与充值中心服务器（ 2 ）连接。本实用新型通过采用模拟按键与充值中心服务器交互的方式，实现了在整个充值过程中，所需用户的参与较少，而且保证了在充值过程中反馈给充值中心服务器的信息准确无误，从而快捷顺利的完成了为手机充值的过程，提高了用户的体验性。
+10. 101977369 Automatic charging method and system
+CN
+16.02.2011
+H04W 4/24 Loading...
+H04W 4/24
+Loading...
+201010545895.9
+Beijing Wali Network Technology Co., Ltd.
+Liu Yang
+H04W 4/24
+Loading...
+The invention discloses an automatic charging method and an automatic charging system. The method comprises the following steps that: 1, a user triggers the automatic charging operation of a mobile phone client; 2, the client acquires a charging card password; 3, the client sends a charging call to a charging center server and replying required information according to the audio information prompt of the charging center server by a simulated key method; and 4, after charging is finished, the client automatically hangs up and feeds charging amount to the mobile phone user. Through the method and the system, required user participation is a little in a mode of interacting a simulated key with the charging center server in the whole charging process, and the accuracy of information fed back to the charging center server in the charging process is ensured, so that the process of charging a mobile phone is quickly and successfully finished, and user experience is improved.
+11. 101977365 Method and system for indicating residual mobile phone Internet traffic
+CN
+16.02.2011
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201010545900.6
+Beijing Wali Network Technology Co., Ltd.
+Liu Yang
+H04W 4/14
+Loading...
+The invention discloses a method and a system for indicating residual mobile phone Internet traffic. The system comprises a traffic query module, a traffic monitoring module, a data processing module and a traffic indication module, wherein the traffic query module is used for querying the usage of business hall mobile phone Internet traffic by using a mobile phone; the traffic monitoring module is used for the mobile phone to monitor the usage of local mobile phone Internet traffic; the data processing module is used for the mobile phone to process the usage data of the business hall mobile phone Internet traffic and the usage data of the local mobile phone Internet traffic to obtain real-time residual plan traffic and compare the real-time residual plan traffic with a set threshold limit value; and the traffic indication module is used for informing a user of information about the real-time residual plan traffic by using the mobile phone when the real-time residual plan traffic is less than or equal to the set threshold limit value. In the method and the system, real-time data on the residual mobile phone Internet traffic can be acquired and an automatic indication function is realized, so that the user can timely and accurately know the usage of the mobile phone Internet traffic, and conveniently and rationally utilize and manage own Internet traffic resources.
+12. 101964967 Method and system of calculating call charges of mobile phones
+CN
+02.02.2011
+H04W 4/24 Loading...
+H04W 4/24
+Loading...
+201010545888.9
+Beijing Wali Network Technology Co., Ltd.
+Liu Yang
+H04W 4/24
+Loading...
+The invention discloses a method and a system of calculating the call charges of mobile phones, wherein the method comprises the following steps that: S1, a mobile phone client monitors a call of a user; S2, the mobile phone client judges the attribute of the call; S3, the mobile phone client calculates the charge for the call according to the attribute of the call; and S4, the mobile phone client displays the charge report of the call. By using the method and the system of the invention, the charge information of the call can be known by the user in real time, which facilitates to view and understand the charge; meanwhile, because of using the call charging rules of telecom operators, the calculation accuracy of the call charges is guaranteed, and because the charging rules are stored in mobile phones, the charge produced by the current call can be calculated in real time without waiting for the call ending; and moreover, the charge of the call per minute can be estimated before making or answering the call, so that the user can reasonably arrange the call according to the situation and enhance the user experience.
+13. 101808302 Cell phone bill inquiring device
+CN
+18.08.2010
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201010143133.6
+Liu Yang
+Liang Qiushi
+H04W 4/14
+Loading...
+The invention discloses a cell phone bill inquiring device, which is characterized by comprising a wireless network, a service supporting server (3) and a cell phone; and also comprises a user information obtaining module (1) which is arranged on the cell phone, a download module (2) for downloading the inquiry command and template, an inquiry module (4) for executing the inquiry command, a matching module (6) for obtaining the bill item content, a storage module (7) for storing the matching result of the matching module (6) and a detection module (5) for detecting the inquiry command which is not executed. The device can inquire all available bill items of the user at one time and can arrange the bill items into a bill, and each bill item in the bill is the latest number which is just inquired. The device can avoid the trouble of the user for remembering the complicated inquiry command and multiple inquiries. Moreover, the device can be used through the cell phone at any time at any place without a computer and the internet.
+

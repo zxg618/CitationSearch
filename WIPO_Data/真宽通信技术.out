@@ -1,0 +1,73 @@
+1. 101277420 Bidirectional access equipment for CATV network
+CN
+01.10.2008
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+200710021090.2
+Zhenkuan Communication Technology (Suzhou) Co., Ltd.
+Ma Jian
+H04N 7/10
+Loading...
+The invention relates to a cable television network bidirectional accessing derive which belongs to the field of communication technology. The device comprises an ONU module, an EoC module and a power supplying module. The ONU module is connected to the EoC module via the system bus connecting cable; and the ONU module and the EoC module are simultaneously connected to the power supplying module; the power supplying module is connected with a power source outside; a single optical fiber is accessed by the ONU module; the input end of the EoC module is connecting the external coaxial cable. The device can implement the transceiving only by a single-core optical fiber. The power source module can select 220V alternative municipal current for the power supplying, also can select coaxial cable 60V alternative feeding for the power supplying, simultaneously achieving the management for the devices on the different physical medium for one network managing software. The device can rapidly move the data on the frequency which is badly influenced by the noise to the other frequency to achieve the quick bandwidth recovery after the noise is happened.
+2. 1794697 Method of group transmission Ethernet passive light notwork upgoing chain circuit data
+CN
+28.06.2006
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200510111958.9
+Runxin Communication Tech (Shanghai) Co., Ltd.
+You Yong
+H04L 12/56
+Loading...
+This invention relates to an up link data packet transmission method of an Ethernet passive light network, in which, an ONU process includes: judging if a data packet on a logic channel is needed to be split and if the logic channel is at the slice state and generating an intermediate slice data packet, a head slice data packet, a tail slice data packet or a complete data packet data packet, the OLT process includes: judging if the logic channel buffer storage is at the slice state, if the data packet is a complete packet and receiving the complete and incomplete data packets of the slice state, the complete and incomplete data packets of non-slice state to realize the maximum usability of links.
+3. 1777334 Ethernet passive optical network multi-service dynamic bandwide authorizing method
+CN
+24.05.2006
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200510111363.3
+Runxin Communication Technology Co., Ltd., Shanghai
+Huang Shijun
+H04Q 11/00
+Loading...
+A dynamic bandwidth authorization method for a multi-service passive optical network of Ethernet related in this invention, incorporates each ONU's MPCP bandwidth value, TDM bandwidth allocation value, static bandwidth allocation value of Ethernet and dynamic bandwidth variable of Ethernet, which are calculated when bandwidth allocation period meter clocks from the beginning and after time goes beyond; the initialization operation, the authorization operation for MPCP bandwidth allocation, the authorization operation for TDM bandwidth authorization; the accumulative operation for the Ethernet's service bandwidth, the calculation operation for the clustering algorithm of Ethernet's bandwidth authorization from the first round to the sixth round; to sent bandwidth authorization results to each of ONU through MPCP Gate frame; to return bandwidth allocation period meter to zero to begin to clock again. The advantages of this method are good performance of bandwidth allocation period meter, high efficiency of network transmission and widespread range of application. All these advantages excellently fulfill the bandwidth demand of ONU's service, completely support the service of TDM and Ethernet.
+4. 1777066 Ethernet passive optical network multi-service dynamic broadband distributing method
+CN
+24.05.2006
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+200510111116.3
+Runxin Communication Technology (Shanghai) Co., Ltd.
+Huang Shijun
+H04B 10/12
+Loading...
+The method includes steps: timer of bandwidth assignment period starts up timing; after time-out, carrying out preprocessing operation for information of bandwidth request reported from ONU; carrying out totaling calculation operation for information variable of bandwidth request; carrying out operation for calculating initial value of dynamic bandwidth; carrying out operation for assigning MPCP bandwidth, TDM bandwidth, and static bandwidth of Ethernet; after completion of authorized calculating, arranging and distributing bandwidth, resetting timer of bandwidth assignment period and restarting up timing. Advantages are: better performance for assigning dynamic bandwidth, high precision of algorithm, good match to information for requesting bandwidth of ONU up going service, and supporting TDM service and Ethernet service fully.
+5. 1767692 Ethernet passive optical network multi service bandwidth distributing system
+CN
+03.05.2006
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200510110531.7
+BanianTech (Shanghai) Co., Ltd.
+Huang Shijun
+H04Q 11/00
+Loading...
+This invention relates to a multi-service bandwidth distribution system for the Ethernet passive optical network including an optical line terminal device (OLT) and several optical network units (ONU), in which, the OLT is connected with the OUN separately by an optical distribution network and a passive optical divider and has a bandwidth distribution and authorization device connected with the up link and the down link interfaces of the OLT and service node interfaces, the ONU has an executing device for dynamic bandwidth requiring and authorization connected with the up link and down link interfaces of the ONU and user network interfaces, which realizes the high speed dynamic bandwidth distribution function.
+6. 1767693 Method for Ethernet passive optical network multi service dynamic bandwidth request
+CN
+03.05.2006
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200510110532.1
+BanianTech (Shanghai) Co., Ltd.
+Huang Shijun
+H04Q 11/00
+Loading...
+This invention relates to a requiring method for multi-service dynamic bandwidth of the Ethernet passive optical network including: beginning timing an aged period timer to accumulate the sending rate variables according to the byte number written in the up data buffer storage queues, after the aged period timer is over the time, the low pass smooth filter computation is made to the sending rate variables to get the low pass rate variables to be compressed to get the bandwidth requiring information, the aged computation operation is done to the sending rate variables and to restart the timing when the aged period timer returns to zero to send the bandwidth requiring information to the OLT by an up MPCP report frame.
+

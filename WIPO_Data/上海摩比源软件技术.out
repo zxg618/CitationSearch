@@ -1,0 +1,73 @@
+1. 202199087 多媒介体感游戏系统
+CN
+25.04.2012
+A63F 13/12 Loading...
+A63F 13/12
+Loading...
+201120190097.9
+上海摩比源软件技术有限公司
+唐霖
+A63F 13/12
+Loading...
+本实用新型提供一种多媒介体感游戏系统，涉及电子游戏技术领域，包含：游戏主机，其上安装有体感游戏软件；摄像头，连接该游戏主机；手持终端，连接该游戏主机；显示屏，连接该游戏主机，显示游戏画面。多个玩家可以通过本实用新型利用多种媒介参与互动的体感游戏，增进感情。本实用新型可广泛应用于体感游戏。
+2. 102222342 Tracking method of human body motions and identification method thereof
+CN
+19.10.2011
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201010149878.3
+Shanghai Mobinex Software Technology Co., Ltd.
+Tang Lin
+G06T 7/20
+Loading...
+A tracking method of human body motions and an identification method thereof are disclosed. The tracking method includes the following steps: providing a continuous and multi-frame dynamic image and establish a background based on the dynamic image; simultaneously performing a pretreatment and a human body position process on every frame of the image so as to acquire and output human body position information of the frame. The identification method includes the following steps: arranging a human body identification mode, such as a mouse mapping mode, a state mode, a motion mode and the like; identifying the human body position information of the every frame based on the human body identification mode and outputting the identification information. By using the methods of the invention, a video can be tracked continuously, high-accurately and real-timely for the every frame and the human body position information can be output. Especially, the methods can be used to tracking the motions of small face sport organs, such as eyes, a mouth and face muscles and motions of an upper limb part with a large motion amplitude, a high frequency and complex motion characteristics. Simultaneously, attitude information, such as a mouse position, a mouse movement, single click, double click, hands position, a left hand movement from left to right and the like, can be identified and output.
+3. 102222343 Method for tracking human body motions and system thereof
+CN
+19.10.2011
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201010149880.0
+Shanghai Mobinex Software Technology Co., Ltd.
+Tang Lin
+G06T 7/20
+Loading...
+A method for tracking human body motions and a system thereof are disclosed. The method includes the following steps: providing a continuous and multi-frame dynamic image, wherein the dynamic image comprise a background image segment and a work image segment possessing dynamic people as a foreground and the background; inputting every frame of the background image segment and performing a background process so as to establish the background; performing an image pretreatment on the every frame of the work image segment; performing a human body position process on the every frame of the work image segment so as to acquire and output human body position information of the frame. By using the method and the system of the invention, a video can be tracked continuously, high-accurately and real-timely for the every frame and the human body position information can be output. Especially, the method and the system can be used to tracking the motions of small face sport organs, such as eyes, a mouth and face muscles and motions of an upper limb part with a large motion amplitude, high frequency and complex motion characteristics.
+4. 102156994 Joint positioning method of single-view unmarked human motion tracking
+CN
+17.08.2011
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201110098251.4
+Shanghai Mobinex Software Technology Co., Ltd.
+Tang Lin
+G06T 7/20
+Loading...
+The invention belongs to the technical field of human motion tracking, and discloses a joint positioning method of single-view unmarked human motion tracking. The method comprises the following steps of: detecting the position of a hand, and acquiring handCandidate which is {Hi (xi, yi)}, wherein i is 0, 1, ..., numHandCandidate-1, Hi (xi, yi) is the candidate of the ith hand, and numHandCandidate is the number of the hand candidates; screening the position of the hand, and acquiring the candidates with high probability as optimal candidates; detecting the position of an elbow, and acquiring candidates of the elbow; compositely screening the positions of the hand and the elbow; combining every two optimal candidates of the hand and the elbow to form front arm candidates, and performing optimization on the front arm candidates to acquire an optimal front arm candidate; compositely screening the positions of the hand, the elbow and a shoulder, and performing composite optimization according to the optimal front arm candidate and the position of the shoulder to acquire an arm sample; and performing optimization weighing on the arm candidates to acquire final positions of the hand, the elbow and the shoulder. The method can be widely applied to human tracking and positioning.
+5. 101968846 Face tracking method
+CN
+09.02.2011
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201010237424.1
+Shanghai Mobinex Software Technology Co., Ltd.
+Tang Lin
+G06K 9/00
+Loading...
+The invention discloses a face tracking method which comprises an off-line training method and an on-line tracking method, wherein the off-line training method comprises a multi-layer structure face model training method and an off-line template training method of face feature points, wherein the multi-layer structure face model training method provides a face model for the on-line tracking method, and the off-line template training method provides an off-line template of face feature points for the on-line tracking method. The multi-layer structure face model training method comprises the following steps: selecting a proper face image as a training sample; marking the feature points of the face image; acquiring a reference shape model; acquiring a global shape model; and acquiring a partial shape model. The invention belongs to the technical field of biological feature recognition and is widely applied to various face tracking and comparing systems.
+6. 101964064 Human face comparison method
+CN
+02.02.2011
+G06K 9/68 Loading...
+G06K 9/68
+Loading...
+201010237415.2
+Shanghai Mobinex Software Technology Co., Ltd.
+Tang Lin
+G06K 9/68
+Loading...
+The invention discloses a human face characteristic comparison method. The method comprises the following steps of: tracking a human face to acquire characteristic points and extracting detailed human face characteristic data; comparing human faces, namely comparing the human face characteristic data with the characteristic data of each human face in a human face database to acquire the similarity; judging whether a matched face has been found, wherein delta is a similarity threshold value; if Smax is more than delta, judging that the input face is matched with the face k' in the database; judging whether an expression is changed obviously or not; performing analysis according to continuous multi-frame human face characteristic points which comprise but not limited to the opening and the closing of a mouth and the opening and the closing of eyes; and judging whether the human face expression is changed obviously or not and outputting the compared human face. The human face characteristic comparison method belongs to the technical field of biological feature identification, is applied to human face tracking and comparison and is widely applied to various human face comparison systems.
+

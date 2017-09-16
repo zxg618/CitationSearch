@@ -128,7 +128,7 @@ public class PatentMapper extends Mapper {
 		return result;
 	}
 	
-	public void getAllRelatedPatents(Company company, Patent patent) {
+	public void getAllRelatedPatents(Company company, Patent patent, HashSet<String> hs) {
 		int appId = 0;
 		int patPubId = patent.getPatPublnId();
 		ResultSet rs = null;
@@ -142,7 +142,7 @@ public class PatentMapper extends Mapper {
 		int continueFlag = 0;
 		java.sql.Date pubDate = null;
 		
-		System.out.println("Processing patent id........... " + patent.getID());
+		System.out.println("Processing patent id........... " + patent.getID() + " of company " + company.getID());
 		
 		if (patPubId == DUMP_PAT_ID) {
 			this.query = "select appln_id, pat_publn_id, publn_date from dbo.tls211_pat_publn where publn_nr = \'" + patent.getPublicationNumber() + "\' and publn_auth in " + COUNTRY_CODE_LIST;
@@ -215,7 +215,7 @@ public class PatentMapper extends Mapper {
 		//go through left route
 		this.query = "select person_id, person_name from tls206_person where person_id in ("
 				+ "select person_id from tls207_pers_appln where appln_id = " + appId
-				+ " and APPLT_SEQ_NR = 1 and invt_seq_nr = 0) and psn_sector = \'COMPANY\' and person_ctry_code in " + COUNTRY_CODE_LIST + " "
+				+ " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0) and psn_sector = \'COMPANY\' and person_ctry_code in " + COUNTRY_CODE_LIST + " "
 				//+ "and person_id not in (select person_id from " + Company.TRANS_TABLE + " where company_id = " + company.getID() + ")"
 				;
 		
@@ -245,7 +245,7 @@ public class PatentMapper extends Mapper {
 		//go through right route
 		this.query = "select person_id, person_name from tls206_person where person_id in ("
 				+ "select person_id from tls227_pers_publn where pat_publn_id = " + patPubId
-				+ " and APPLT_SEQ_NR = 1 and invt_seq_nr = 0) and psn_sector = \'COMPANY\' and person_ctry_code in " + COUNTRY_CODE_LIST + " "
+				+ " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0) and psn_sector = \'COMPANY\' and person_ctry_code in " + COUNTRY_CODE_LIST + " "
 				//+ "and person_id not in (select person_id from " + Company.TRANS_TABLE + ")"
 				;
 		
@@ -272,21 +272,37 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
-		Set<String> hs = new HashSet<>();
-		hs.addAll(personIds);
+		Set<String> tmphs = new HashSet<>();
+		tmphs.addAll(personIds);
 		personIds.clear();
-		personIds.addAll(hs);
+		personIds.addAll(tmphs);
 		System.out.println("Left and Right route return these person ids " + String.join(",", personIds.toArray(new String[0])));
+		
+		tmphs.clear();
+		for (i = 0; i < personIds.size(); i++) {
+			String tmpPersonId = personIds.get(i);
+			if (!hs.contains(tmpPersonId)) {
+				hs.add(tmpPersonId);
+				tmphs.add(tmpPersonId);
+			}
+		}
+		personIds.clear();
+		personIds.addAll(tmphs);
 		
 		if (continueFlag <= 0 || personIds.size() == 0) {
 			cm.close();
 			return;
 		}
 		
+		System.out.println("Size of the hs is " + hs.size());
+		System.out.println("Size of the tmphs is " + tmphs.size());
+		System.out.println("Searching name exact match for these ids: " + String.join(",", personIds.toArray(new String[0])));
+		
 		personQuery1 = String.join(",", personIds.toArray(new String[0]));
 		personQuery2 = String.join(",", personIds.toArray(new String[0]));
 		
-		this.query = "select person2.* from tls206_person as person1 join tls206_person as person2 on person1.person_id in (" + personQuery1 + ") and person2.person_name = person1.person_name";
+		this.query = "select person2.* from tls206_person as person1 join"
+				+ " tls206_person as person2 on person1.person_id in (" + personQuery1 + ") and person2.person_name = person1.person_name";
 		rs = this.executeGetQuery();
 		
 		try {
@@ -305,20 +321,29 @@ public class PatentMapper extends Mapper {
 			e1.printStackTrace();
 		}
 		
-		hs = new HashSet<>();
-		hs.addAll(personIds);
+		tmphs.clear();
+		tmphs.addAll(personIds);
 		personIds.clear();
-		personIds.addAll(hs);
+		personIds.addAll(tmphs);
 		System.out.println("Name exact match return these person ids " + String.join(",", personIds.toArray(new String[0])));
+		
+		hs.addAll(personIds);
+		
+		//(--to be removed) testing: ignore searching related patents
+		boolean var = true;
+		if (var) {
+			return;
+		}
+		//--------------
 		
 		personQuery1 = String.join(",", personIds.toArray(new String[0]));
 		personQuery2 = String.join(",", personIds.toArray(new String[0]));
 		
 		this.query = "select * from tls211_pat_publn where appln_id in (select appln_id from tls207_pers_appln where person_id in "
-				+ "(" + personQuery1 + ") and APPLT_SEQ_NR = 1 and invt_seq_nr = 0"
+				+ "(" + personQuery1 + ") and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
 				+ ")"
 				+ " or pat_publn_id in (select pat_publn_id from tls227_pers_publn where person_id in "
-				+ "(" + personQuery2 + ") and APPLT_SEQ_NR = 1 and invt_seq_nr = 0"
+				+ "(" + personQuery2 + ") and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
 				+ ")";
 		
 		rs = this.executeGetQuery();
@@ -529,6 +554,30 @@ public class PatentMapper extends Mapper {
 		}
 		
 		return total;
+	}
+	
+	public String[] getPubNrByPersonId(int personId) {
+		ArrayList<String> publnNrList = new ArrayList<String>();
+		this.query = "select publn_nr from tls211_pat_publn where appln_id in (select appln_id from tls207_pers_appln where person_id = "
+				+ personId + " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
+				+ ")"
+				+ " or pat_publn_id in (select pat_publn_id from tls227_pers_publn where person_id = "
+				+ personId + " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
+				+ ")";
+		
+		ResultSet rs = this.executeGetQuery();
+		
+		try {
+			while (rs.next()) {
+				String publn = rs.getString("publn_nr");
+				publnNrList.add(publn);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return publnNrList.toArray(new String[0]);
 	}
 	
 }

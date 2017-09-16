@@ -1,0 +1,601 @@
+1. 103916140 卷积交织/解交织的实现方法及装置
+CN
+22.03.2017
+H03M 13/23 Loading...
+H03M 13/23
+Loading...
+102014000157910
+上海高清数字科技产业有限公司
+黄戈
+H03M 13/23
+Loading...
+本发明提出了一种提高总线效率和降低DDR带宽的卷积交织/解交织实现方法和装置，其至少包括：根据发送/接收系统交织传输速率计算出DDR最小占用带宽；根据卷积交织参数计算出最小占用带宽时所需DDR存储空间；根据DDR参数、AXI总线参数、交织参数计算出数据整形存储器参数以及产生Local地址、AXI总线连读或连写长度范围；根据产生的数据整形存储器参数,local地址规则，转换到AXI总线地址，完成和DDR的数据交互；该方法以降低DDR带宽和提高总线效率为优先考量，对存储规则和读写地址进行特殊设计，使得将交织对DDR带宽的占用最小化，同时大幅提高总线的读写效率。
+2. 103596013 新型解码器及解码方法
+CN
+15.02.2017
+H04N 19/44 Loading...
+H04N 19/44
+Loading...
+102013000582431
+上海高清数字科技产业有限公司
+钱宏达
+H04N 19/44
+Loading...
+本发明提供一种新型解码器及解码方法，至少包括：DDR：用来缓存解码前的视频码流以及可变长解码引擎的输出数据；可变长解码引擎：用以解码从DDR中获取的视频码流并将解码后的数据输出到数据管理模块中；数据管理模块：将可变长解码引擎的解码后的数据输出到直接内存存取模块，并将从直接内存存取模块获取的数据输出；直接内存存取模块：将数据管理模块输出的可变长解码引擎的解码后的数据输出到DDR中，并将从DDR中获取的可变长解码引擎的解码后的数据输出到数据管理模块；本发明的直接内存存取模块通过增加一个读通道和一个写通道，即，增加很小的逻辑，而去掉了两个416X22单口SRAM、缓存参数的两组寄存器，如此，对比现有技术的设计芯片综合面积节省约80000um2，而芯片整体面积减少约6%，从而大大的降低了对应的芯片成本。
+3. 103701473 LDPC码的译码方法
+CN
+01.02.2017
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+102013000705827
+上海高清数字科技产业有限公司
+黄戈
+H03M 13/11
+Loading...
+本发明提供一种LDPC码的译码方法，其特征在于，至少包括：根据能满足系统性能需求的信息更新的位宽以及校验矩阵的特点、行重和列重、1元的总数选择能使ASIC设计的存储器面积消耗最小的交互信息的存储方式；根据系统主频和吞吐量的需求，以及需要的最大迭代次数，得到并行度需求，根据确定的存储方式，选择利于实现的并行方式；根据选择的存储方式和并行方式，将需要存储的单元化零为整，进行地址深度的合并或者位宽上的合并；本发明提供了一种通用的低成本LDPC码译码方法，该方法根据不同系统、不同校验矩阵的分布特点以及能达到该系统性能需求的信息更新的位宽，选择最优的译码器存储实现方法，以及与其相适应的并行方式，并进行必要的校验矩阵变换，以达到实现资源的最小化。
+4. 103428502 一种解码方法及解码系统
+CN
+01.02.2017
+H04N 19/13 Loading...
+H04N 19/13
+Loading...
+102013000405341
+上海高清数字科技产业有限公司
+刘坤
+H04N 19/13
+Loading...
+本发明提供一种解码方法，至少包括：1）初始化全概率区间以及最后区间的低值；2）从概率模型中得到大概率符号、小概率符号以及大概率符号的概率值，用全概率区间的对数值和大概率符号的概率值的对数值得到大概率区间的对数值；3）比较最后区间的低值的对数值与大概率区间的对数值的大小：若大于等于，则输出小概率符号，并以小概率区间更新全概率区间、计算最后区间的低值；否则，输出大概率符号，并以大概率区间更新全概率区间；本发明去掉了rS1,valueS这两个变量，判决中不再使用这两个变量，从而大大的简化了判决的电路，降低了单次解码的时间，提高了单次解码速度，在硬件上可以提高解码电路的时钟频率；一次解码后需要读进来的码流数小于或者等于9；由于存储系统的总线宽度至少是32位，因此实现了单周期解码，提高了解码器解码效率。
+5. 106325180 终端运行参数监控系统及方法
+CN
+11.01.2017
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+201510350173.0
+上海高清数字科技产业有限公司
+周晓晨
+G05B 19/048
+Loading...
+本发明提供了一种终端运行参数监控系统，对与中心服务器通信连接的至少一个终端设备的运行参数进行监控，其特征在于，包含：运行参数采集单元，位于所述终端设备中采集所述运行参数；阈值设定存储单元，对正常的所述运行参数的阈值范围进行设定并存储；判断警报单元，对采集的所述运行参数是否超出所述阈值范围进行判断，当判断为超出时，则发出警报，所以，通过收集终端设备的运行参数，通过采集分析这些数据，能实时监控终端系统是否运行正常。
+6. 106326721 终端加密解密系统及方法
+CN
+11.01.2017
+G06F 21/44 Loading...
+G06F 21/44
+Loading...
+102015000349277
+上海高清数字科技产业有限公司
+周晓晨
+G06F 21/44
+Loading...
+本发明提供了一种终端加密解密系统以及方法，其特征在于，包含：终端标识生成部，为终端设备生成标识号码；标识加密部，对标识号码加密得到加密字符数据；字符存储部对加密字符数据存储；终端通信监测部用于与字符存储部以预定频率通信，对所返回的当前的终端设备的加密字符数据进行监测；预定干扰操作部对终端设备的正常运行以预定方式进行干扰；解密控制部一旦检测到当前的终端设备加密字符数据，就和该终端设备的标识号码进行解密，当解密成功时控制终端设备正常运行，当解密不成功时控制预定干扰操作部进行干扰，通过硬件加密和终端的标识号码认证的方法，来比较可靠的解决终端设备的防盗版，有效保护设备的盗用复制。
+7. 106325451 硬件管理系统及硬件管理方法
+CN
+11.01.2017
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201510350174.5
+上海高清数字科技产业有限公司
+周晓晨
+G06F 1/26
+Loading...
+本发明提供了一种硬件管理系统以及方法，其特征在于，包含：中心服务器，将用于设定电源切断、开启的中心侧时间控制指令进行设定并下发；以及终端设备，与中心服务器相通信连接，具有：主机模块，存储中心侧时间控制指令并下发；外围硬件模块，至少用于显示图像信息和通信连接中的任意至少一项；硬件供电模块，对外围硬件模块进行供电；硬件控制模块，按照中心侧时间控制指令控制硬件供电模块从而相应开启、切断外围硬件模块的电源，能从硬件设备的电源系统上完完全全的切断硬件运行或者按照预定时间开启，主机系统不受任何外围硬件状态的影响。
+8. 106331896 信息分发系统和信息分发方法
+CN
+11.01.2017
+H04N 21/63 Loading...
+H04N 21/63
+Loading...
+102015000349279
+上海高清数字科技产业有限公司
+周晓晨
+H04N 21/63
+Loading...
+本发明提供了一种信息分发系统以及方法，其特征在于，包含：广播分发子系统包括服务器侧广播通信模块、和终端侧广播通信模块，终端包括数据校验模块，网络分发子系统包括位于服务器侧网络通信模块和服务器侧网络服务模块、以及终端侧网络通信模块，服务器侧广播通信模块通过广播发布任务数据，终端侧广播通信模块接收发布的任务数据，对由所接收的任务数据进行校验，当校验为数据完整时则正常，当校验为不完整时则服务器侧网络服务模块根据由终端侧网络通信模块发送的补齐数据请求来补齐数据，将补齐的数据发布到终端侧网络通信模块再进行校验，融合广播、网络优点，增加信息传输的便捷性及稳定性，缓解网络负载的拥堵，降低构造成本。
+9. 103458245 解码器运动补偿模块的流水设计方法及系统
+CN
+28.12.2016
+H04N 19/44 Loading...
+H04N 19/44
+Loading...
+102013000390113
+上海高清数字科技产业有限公司
+商迪
+H04N 19/44
+Loading...
+本发明提供一种解码器运动补偿模块的流水设计方法，其包括参考数据读取、帧间插值、加权预测、数据重建4个子模块，其还至少包括：1）帧间插值模块完成参考数据读取时，将运动补偿模块划分为2个流水段：第一个流水段和第二个流水段；2）在第一个流水段完成参考数据读取和帧间插值的数据输入的工作；3）在第二个流水段，完成帧间插值的数据输出、加权预测计算、数据重建的工作；4）第一个流水段与第二个流水段处于并行的工作状态，运动补偿模块启动和结束时段除外；采用本发明中的设计方案，处理一个双向预测宏块需要的时钟周期数为(11+7)*(32+1)=594，对应完成1080P高清实时解码，前者所需要的解码器工作频率为144.342MHz，所需要耗费的解码器工作频率有43.75%的收益；另外，本发明的硬件实现复杂度远低于8x8的设计方案，相对于传统4x4设计方案仅有非常小幅度的增加。
+10. 106034098 基于判决反馈的符号同步方法
+CN
+19.10.2016
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201510107450.5
+上海高清数字科技产业有限公司
+马宏伟
+H04L 27/26
+Loading...
+本发明提供了一种基于判决反馈的符号同步方法及装置，其特征在于，包括如下步骤：以预定粗同步方式实现粗符号同步，得到粗同步位置；以及基于所述粗同步位置以使用判决反馈的预定细同步方式实现细符号同步，解决了已有技术中利用数据的自相关性进行符号同步对信道敏感，在复杂信道下会失效或利用频域导频的时域相关性进行符号同步但能力有限对某些特殊信道会失效这样的问题，能实现快速、准确的、有效的进行符号同步。
+11. 105991141 LDPC译码方法
+CN
+05.10.2016
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+102015000083015
+上海高清数字科技产业有限公司
+韩雄川
+H03M 13/11
+Loading...
+本发明提供了一种LDPC译码方法及装置，包括：在一次子迭代内校验节点处理中，获得校验矩阵中对应行的变量节点的软值信息绝对值，取该软值信息绝对值中最小值和预定范围内次小值，修正因子对最小值和次小值处理后获得该对应行的外信息；及利用外信息对该对应行所有变量节点进行软值更新，其特征在于，还包括：对所得的更新后软值信息进行硬判决并验证是否满足校验矩阵；当满足校验矩阵时输出外信息和更新后软值信息；当不满足校验矩阵时对外信息提高可信度后再利用所得高信度外信息重新对该对应行所有变量节点进行软值更新，使得外信息更加可靠可加速收敛，可使得含有较低度数的变量节点能够跳出陷阱集，提高低码率译码性能。
+12. 103701731 Symbol rate estimation method and device
+CN
+02.04.2014
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201310753616.1
+上海高清数字科技产业有限公司
+郭焕丽
+H04L 25/02
+Loading...
+The invention provides a symbol rate estimation method and device. The symbol rate estimation device at least comprises an AD (Analog to Digital) converter, a direct current bias canceller, a symbol rate coarse estimation module, a timing error extracting module, a symbol rate fine scanning module, wherein the AD converter is used for converting an analog signal of a receiving end into a digital signal; the direct current bias canceller is used for eliminating direct current amount in a signal frequency spectrum; the processed signal frequency spectrum is used by the symbol rate coarse estimation module; the symbol rate coarse estimation module is used for performing fixed point DFT (Discrete Fourier Transformation) on the signal subjected to direct current amount elimination, and roughly obtaining a symbol rate and a carrier frequency bias; the timing error extracting module is used for extracting timing error information; the symbol rate fine scanning module is used for scanning the symbol rate within a small range on basis of the symbol rate coarse estimation module and extracting a fine symbol rate according to the timing error information. The symbol rate estimation method and device have the beneficial effects that no matter how wide the range of the symbol rates is, the coarse estimation time of the symbol rates is consistent, DFT of some frequency points is calculated, for example, eight points, and not every frequency point is calculated; multi-round iteration is adopted, the precision is gradually increased, the symbol rate is extracted by the symbol rate fine scanning from the aspect of timing errors, and the precision is higher; the symbol rate estimation method and device do not rely on any threshold to do judgment, the robustness is better, and the symbol rates can be rapidly and more accurately detected.
+13. 103685129 Large frequency offset estimation and PN (Pseudorandom Noise) mode detection method and system
+CN
+26.03.2014
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201310742935.2
+SHANGHAI HIGH DEFINITION DIGITAL TECHNOLOGY INDUSTRIAL CORPORATION
+YU LI'NA
+H04L 27/26
+Loading...
+The invention discloses a large frequency offset estimation and PN (Pseudorandom Noise) mode detection method and system suitable for a DTMB (Digital Terrestrial Multimedia Broadcast) receiver system. The method comprises the following steps: storing a certain number of received data; realizing correlation operation by using FFT/IFFT (Fast Fourier Transform/Inverse Fast Fourier Transform); performing frequency sweeping to obtain a frequency point corresponding to a maximum correlation value and calculating system frequency offset; trying in different PN modes, wherein a PN mode corresponding to the maximum correlation value is a system PN mode; shifting FFT output data and performing frequency sweeping control in an implementation process. A correlator is replaced by using the FFT/IFFT, thereby greatly saving the hardware cost; storage data are operated, thereby increasing the operation speed; moreover, a method combining frequency sweeping and PN mode trial is adopted, thereby eliminating the limits of channels and other factors and realizing independence and high robustness.
+14. 103533346 System and method for automatically detecting DVB (digital video broadcasting)-S signals and DVB-S2 signals
+CN
+22.01.2014
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201310525002.8
+上海高清数字科技产业有限公司
+柯仙胜
+H04N 17/00
+Loading...
+The invention provides a system and a method for automatically detecting DVB-S signals and DVB-S2 signals. According to the system and the method, a mode control module is added in a demodulation module; whether received signals are DVB-S signals or DVB-S2 signals is detected and recognized automatically, and a corresponding signal type indication sign is given; and according to the signal type indication sign, one manner of a DVB-S processing manner and a DVB-S2 processing manner in the demodulation module is selected automatically, and received data are demodulated. Compared with a conventional scheme, the mode control module is added in the demodulation module, the design is simple, a mode of received signals is processed and judged automatically, the circuit design is simplified, resources are reused to the greatest extent, and the design cost and the system operation power consumption are reduced.
+15. 103297362 一种基于误差更新的信道估计系统及方法
+CN
+11.09.2013
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201310222680.7
+上海高清数字科技产业有限公司
+王猛
+H04L 25/02
+Loading...
+本发明公开了一种基于误差更新的信道估计系统及方法，其将接收的时域信号变换到频域后得到频域信号，利用已经估计的频域信道响应，对该信号进行均衡，得到均衡后的数据；对均衡后的数据进行判决得到判决值，若均衡后的数据由已知数据经过信道构造，则判决值为已知数据；基于上述信号、已估计的信道响应以及判决值，得到该已估计的响应与真实信道响应的估计误差；将该估计误差经过环路滤波，环路累加，其输出作为下一次均衡所用的信道响应；本发明由于采用环路误差更新的方式进行信道估计，因此信道估计结果对噪声存在更大的冗余度；由于采用环路误差更新的方式进行信道估计，其可以更加准确地估计出信道响应，或者有更小的信道估计误差。
+16. 103297780 提高解码速率的方法及系统
+CN
+11.09.2013
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201310225236.0
+上海高清数字科技产业有限公司
+郑成根
+H04N 7/26
+Loading...
+本发明提供一种提高解码速率的方法及系统，根据本发明所述方法：先按照预设的分块规则，将存储在外存中的参考图像分成无重叠的多个子块并对每个子块进行编号，以及将部分所述子块及相应的编号保存到内存中；再从待解码的图像帧中确定所述参考图像中用于解码所述图像帧的区域，并根据所述区域确定构成所述区域的至少一个子块的编号；3再从所述内存中的各子块的编号中查找构成所述区域的子块的编号，若查到至少一个编号，则利用所查到的编号所对应的内存中的子块对所述图像帧中的相应部分进行解码，对于未查到的编号，则从所述外存中将相应的子块及编号保存到所述内存中，并利用所保存的子块对所述图像帧中的相应部分进行解码。由此来提高解码速率。
+17. 103179408 System and method for solving chroma sampling errors
+CN
+26.06.2013
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+201210493105.6
+上海高清数字科技产业有限公司
+袁野
+H04N 9/64
+Loading...
+The invention discloses a system for solving chroma sampling errors. The system comprises a copy upper sampling unit, a same polarity field chroma low-pass filter processing unit, a different polarity filed chroma low-pass processing unit, a chroma upper sampling error detecting unit and a chroma upper sampling error processing unit. The copy upper sampling unit is used for copy mode upper sampling input 4:2:0 chroma data. The same polarity field chroma low-pass filter processing unit is used for same polarity adjacent field data low-pass filter upper sampling the input 4:2:0 chroma data. The different polarity filed chroma low-pass processing unit is used for different polarity adjacent field data low-pass filter upper sampling the input 4:2:0 chroma data. The chroma upper sampling error detecting unit is used for detecting parts with chroma upper sampling errors. The chroma upper sampling error processing unit is used for judging whether chroma upper errors occur or not according to detecting results of the chroma upper sampling error detecting unit and performing corresponding data low-pass filter processing respectively. By the system, chroma upper sampling errors can be improved under limited hardware resources.
+18. 103067117 数字信号收发系统及收发方法
+CN
+24.04.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201110149831.1
+上海高清数字科技产业有限公司
+张文军
+H04L 1/00
+Loading...
+本发明揭示了一种数字信号收发方法，包括，发射所述数字信号时，将多电平符号组成的数据流被分为连续的数据帧进行传输；在每个数据帧中添加预置信息，用于系统同步、时钟恢复、信道估计和均衡器训练；在每个数据帧中添加系统信息，用于表征本帧数据信息调制模式、交织模式和LDPC编码码率；每个数据帧中添加数据信息；其中预置信息、系统信息和数据信息形成单纯的一阶循环；接收数字信号时，检测确定预置信息的位置，以该预置信息之后第一个符号时钟位置，作为系统信息的开始；检测确定系统信息的位置，以该系统信息之后第一个符号时钟位置，作为数据信息的开始；对数据信息进行信号处理。本发明还揭示了一种数字信号收发系统。
+19. 103036738 一种验证系统及其验证方法
+CN
+10.04.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210531940.4
+上海高清数字科技产业有限公司
+杨兵
+H04L 12/26
+Loading...
+本发明公开了一种验证系统,包括：寄存器生成模块，根据被测模块的寄存器信息生成随机寄存器数据；TS测试流生成模块，根据前述的随机寄存器数据生成随机TS测试流；被测模块，接收并处理随机的寄存器数据和TS测试流，并将得到的输出数据发送到检验器；检验器，接收并处理随机寄存器数据和TS测试流，得到被测模块的检验标准值，通过检验被测模块的输出和检验标准值是否相同，判断被测模块的工作状态以实现对被测模块的验证；本发明在无“采样源”的条件下生成TS测试流，可以大幅节省TS测试流的准备时间；通过对各个数据配置随机数值，在短时间内，生成多种格式的TS流；使得TS流接收器的功能覆盖率迅速提高，同时伴随多次各种格式TS流的相互转换，使得对TS流接收器稳定性测试得以实现。
+20. 103023460 新型射频接收调谐器系统
+CN
+03.04.2013
+H03J 5/24 Loading...
+H03J 5/24
+Loading...
+201210496151.1
+上海高清数字科技产业有限公司
+王韶军
+H03J 5/24
+Loading...
+本发明提供一种新型射频接收调谐器系统，其包括如下模块：信号链路模块，负责将射频输入信号放大、变频和滤波；频率综合器模块：负责产生变频所需的本振信号；此外，系统内部还设有数字控制单元，实现与数字基带模块或微控制器的通讯；本发明的有益效果是：1、支持完整的单芯片集成的卫星数字电视调谐器，无需片外LNA、Saw Filter、晶振电路等辅助器件；2、支持多频段接收：950MHz-1450MHz(ABS-S频段)、950MHZ-1750MHz（ABS-S扩展频段）以及950MHz-2150MHz（DVB-S频段）；3、电源管理系统，采用简单的3.3V单电源供电；集成I2C总线控制器，提供软件控制接口；集成频率、增益、带宽等自动校准电路，无需人工测试调试。
+21. 103020367 一种解复用器的检验器及其检验方法
+CN
+03.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210559126.3
+上海高清数字科技产业有限公司
+杨兵
+G06F 17/50
+Loading...
+本发明公开了一种解复用器的检验器及其检验方法，主要应用于芯片设计中的功能验证，其包括：期待值生成器，采用与解复用器相同的复用数据流和寄存器数据并行接入，生成期待值；复用数据比较器，按照复用数据流的有效通道来存储数据、比较数据，并且自动输出报告信息；本发明区别于以往配置完寄存器之后输入复用数据测试流的方式，采用复用数据测试流和寄存器配置并行输入的方式，更加贴近真实使用时的环境，可以验证出复用数据测试流和寄存器配置同时输入时可能发生的错误，能够发现寄存器配置完成后，收到之前加载数据包的不可测的残留数据对于解复用器以后工作造成的影响；本发明的验证方法实现了自动验证上述测试流。
+22. 103020395 解复用接口模块的验证方法及验证系统
+CN
+03.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210594432.0
+上海高清数字科技产业有限公司
+杨兵
+G06F 17/50
+Loading...
+一种解复用接口模块的验证系统，主要应用于芯片设计中的功能验证，其包括：数据生成器，随机生成寄存器数据，然后根据寄存器数据自动生成随机TS包；寄存器数据检验器，根据被测模块同一寄存器写入和读出的寄存器数据是否一致来检验被测模块的寄存器读写功能是否正常；TS数据检验器，使用上述的随机寄存器数据对随机TS包进行解复用操作以生成TS包的期待值，把期待值和来自被测模块的实际值进行比较，以实现TS包的自动验证；断言模块，实时检测被测模块的信号时序是否符合设定时序；本发明的有益效果是：实现了自动化数据收发，数据对比和结果报告输出：模块化的验证方案，层次化的验证结构使得验证的效率极大的提高：同时模块化层次化的设计，使得验证平台的修改更加方便，所以重复利用性更好。
+23. 102917198 一种去隔行技术中的内插方法及系统
+CN
+06.02.2013
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201210323194.X
+上海高清数字科技产业有限公司
+袁野
+H04N 7/01
+Loading...
+本发明公开了一种去隔行设计中可实现的对运动点进行分类内插的方法及装置，对判断为运动的点进行类型判断，包括：平面点模型、外直角点模型、内直角点模型、前景点模型、边缘点模型；分别对相应的类型进行处理，包括：对平面点模型进行周围六点的加权平均；对外直角点模型、内直角点模型、前景点模型的点进行上下点平均；对边缘点模型的点采用基于几个邻域多个方向判断的内插算法；根据上述处理结果，输出内插值点；本发明的有益效果是：有效地保护物体边缘，又使得前景点、直角点等不会错误地被当作小角度边缘而出现错误处理，可以得到很好的内插效果。
+24. 102325014 多媒体信息发布装置
+CN
+18.01.2012
+H04L 1/16 Loading...
+H04L 1/16
+Loading...
+201110144870.2
+上海高清数字科技产业有限公司
+张震宁
+H04L 1/16
+Loading...
+一种多媒体信息发布装置，包括通信模块、存储模块、显示模块及控制模块，其中通信模块设有广播信号接收模块及第二网络接收与传输模块，该广播接收模块接收通过广播信号传输的多媒体信息内容并存储于存储模块中，而第二网络接收与传输模块用以通过第二网络接收该多媒体信息发布装置的上阶系统的控制信息，并通过向该上阶控制系统反馈多媒体信息发布装置的运行信息，如此可通过此广播接收模块接收通过广播信号传输的多媒体信息内容，从而避免现有技术中通过IP包交换的网络连接技术所出现的运营成本较高及传输效率较低的问题。
+25. 102300071 Method and device for processing movie mode video signal
+CN
+28.12.2011
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201010205567.4
+Shanghai High Definition Digital Technology Industrial Corporation
+Yuan Ye
+H04N 7/01
+Loading...
+The invention discloses a method and device for processing a movie mode video signal. The method for processing a movie mode video signal comprises the following steps of: judging whether a current field is a 24-1 pull-down duplicated field or a standard 2-2 poll-down field according to one or the combination of a homo-polar field difference, a hetero-polar field difference and a homo-polar quaternary field difference corresponding to the current field; and processing the signal according to the type of the current field. In the invention, the size change relation between the homo-polar filed difference and/or the hetero-polar field difference and/or the homo-polar quaternary field difference corresponding to the 24-1 pull-down duplicated filed and the homo-polar filed difference and/or the hetero-polar field difference and/or the homo-polar quaternary field difference of a field which is adjacent to the current field or related to be current field is computed and compared easily, so that detection of the 24-1 pull-down duplicated filed is effectively realized, and the playing quality of the movie video signal is greatly improved.
+26. 102184265 Electronic newspaper data conversion method
+CN
+14.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110164572.X
+Shanghai High Definition Digital Technology Industrial Corporation
+Cheng Weijian
+G06F 17/30
+Loading...
+The invention discloses an electronic newspaper data conversion method which is used for screening and converting original files in various formats to reduce data capacity so as to conveniently distribute information. Complete electronic newspaper data are mainly formed by identifying and screening picture files, video files and XML (Extensive Makeup Language) files of the original data, converting the selected picture files, video files and XML files into files in a unified format according to predetermined requirements and integrating the files.
+27. 102170454 Information distribution system
+CN
+31.08.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110147829.0
+Shanghai High Definition Digital Technology Industrial Corporation
+Zhang Zhenning
+H04L 29/06
+Loading...
+The invention discloses an information distribution system, which comprises a primary distribution module, a primary edition and right control module, a secondary distribution module, a secondary edition and right control module, a broadcasting signal transmission module and a receiving terminal, wherein the primary and secondary edition and right control modules are connected with the primary and secondary distribution modules by security channels respectively, and are used for editing information distributed by the primary and secondary distribution modules, and controlling own access rights; the secondary distribution module receives the information from the primary distribution module by the security channel, and also adds new information by the secondary edition and right control module; and the secondary distribution module is connected with the broadcasting signal transmission module, so that the information output by the secondary distribution module is distributed to a plurality of receiving terminals in form of broadcasting signal by the broadcasting signal transmission module. Therefore, the information distribution system fully utilizes the advantages of a broadcasting network, improves the convenience and security of information transmission, and reduces the construction cost of the whole system.
+28. 102118224 Method and device for treating soft bit values
+CN
+06.07.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010621968.8
+Shanghai High Definition Digital Technology Industrial Corporation
+Xie Xin
+H04L 1/00
+Loading...
+The invention relates to a method and a device for treating soft bit values. The method for treating soft bit values comprises the following steps: gaining the soft bit values according to a gain coefficient and limiting the amplitude of the gained soft bit values; summing the absolute values of a plurality of soft bit values and judging if the soft bit values having preset lengths meet a setting condition; and adjusting the gain coefficient according to the sum of the absolute values of the soft bit values when the soft bit values having preset lengths meet the setting condition. According to the invention, by judging a preset threshold, a preset length or preset scope and the soft bit values having the preset lengths, and using different step values, the gain coefficient of the soft bit values is adjusted in the self-adaption feedback mode through the step values, wherein the preset threshold, the preset threshold/preset scope or the preset length are only related to a code rate, thereby being capable of adjusting the soft bit values at the right time, increasing the decoding efficiency, reducing the influence of channel change on demodulation decoding, and having wide application range.
+29. 102096902 Image processing method considering cross processing, and digital image scaling method and device
+CN
+15.06.2011
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+201010567030.2
+Shanghai High Definition Digital Technology Industrial Corporation (HDIC)
+Yuan Ye
+G06T 3/40
+Loading...
+The invention discloses an image processing method considering cross processing, and a digital image scaling method and device. The image processing method considering cross processing comprises the following steps: obtaining the value of the detection parameter of a current pixel point; comparing the value of the detection parameter of the current pixel point with the values of the detection parameters of four diagonal pixel points of the current pixel point; calculating the number of the diagonal pixel points approaching to the current pixel point; comparing the value of the detection parameter of the current pixel point with the value of the detection parameter of a set adjacent point; and confirming whether the current pixel point is on the cross point. Each implementation mode in the invention accurately identifies the pixel point on the cross point, the pixel point on the cross point can be effectively distinguished from a common edge point, the edge effect in the image can be considered while considering the cross in the image, and thus image display quality is improved.
+30. 101938620 Movie-mode video signal processing method and device
+CN
+05.01.2011
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201010283102.0
+Shanghai High Definition Digital Technology Industrial Corporation
+Yuan Ye
+H04N 7/01
+Loading...
+The invention discloses a movie-mode video signal processing method and a movie-mode video signal processing device. The movie-mode video signal processing method comprises the following steps of: judging whether scene change exists or not; according to one or combinations of heteropolar scene differences and homopolar four-scene differences in set numbers before and after the scene change, judging whether miscoding exists or not before and after a scene and judging signal types before and after the scene change; and according to judgment results, performing corresponding processing on subsequent signals. In the method and the device, by fully utilizing structural characteristics of movie-mode video signals and television video signals and pixel changes among frames and the scenes obtained by the splitting of frame data, the miscoding is effectively detected according to one of the heteropolar scene differences and homopolar four-scene differences, error detection caused by the change of video signal types is effectively eliminated, and the play quality of the movie-mode video signals is greatly improved.
+31. 101895330 Signal-uninterruption method and device used during mode switching of modulator of monochromatic network
+CN
+24.11.2010
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201010195615.6
+Shanghai High Definition Digital Technology Industrial Corporation (HDIC)
+Chen Hanjian
+H04B 7/185
+Loading...
+The invention discloses spectrum-uninterruption processing method and device used during mode switching of a modulator of a monochromatic network, belonging to the technical field of digital video broadcasting. The invention particularly relates to the construction of a digital terrestrial television single-frequency network and is mainly used for processing output signals of a modulator in a terrestrial digital single-frequency network. The invention aims at the modulator in a work-mode switching process, a system can restore the related modulator and reset parameters in order to cause modulation signal interruption, the interruption leads the shut-down protection of a transmitter for no signal input, or a power amplifier of the transmitter is damaged for momentary jumping and can not be automatically restored. In the invention, a work-mode switching and monitoring function is added in the modulator; and when modes are switched, the interior ensures continues output of data by transmitting specific data in order to solve the interruption problem of modulating signals.
+32. 101873288 Method and device for code acquisition
+CN
+27.10.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910049866.0
+Shanghai High Definition Digital Technology Industrial Corporation
+Dai Yang
+H04L 27/26
+Loading...
+The invention discloses a method and a device for code acquisition and relates to synchronization technology in the field of wireless digital communication. The method for code acquisition comprises steps of: associating PN local sequences with the same phase with a PN sequence of a received signal respectively, and acquiring a plurality of PN sequence related peak values; detecting the PN sequence related peak values, finding the maximum and the sub-maximum of the related peak values in each frame, and acquiring the position difference between the maximum and sub-maximum; if the absolute value of the position difference of the maximum and the sub-maximum is the same in continuous M frames, selecting the maximum peak value position and the small or big position of the sub-maximum in the M frames as code acquisition related peak value positions; performing difference on the code acquisition related peak value positions in the M frames, and acquiring the acquisition related peak value position difference, wherein the difference is realized through N-order difference operation; and processing the absolute value of the code acquisition related peak value position difference, and acquiring a phase index of the PN sequence. The invention also provides a receiver employing the method and device.
+33. 201576752 组合式数字电视接收天线
+CN
+08.09.2010
+H01Q 21/00 Loading...
+H01Q 21/00
+Loading...
+200920174429.7
+上海高清数字科技产业有限公司
+杨亮
+H01Q 21/00
+Loading...
+本实用新型公开了一种组合式数字电视接收天线，包括基础天线，所述基础天线至少包括有源振子、反射振子及连接有源振子和反射振子的固定件，所述组合式数字电视接收天线还包括至少一个引向器或至少一个反射单元或所述引向器与所述反射单元的组合，在所述基础天线的固定件、所述引向器以及所述反射单元上分别设置有第一连接部、第二连接部以及第三连接部，所述基础天线与所述引向器或所述反射单元或所述引向器和所述反射单元的组合通过所述第一连接部与所述第二连接部或第三连接部的卡接相连接，形成可提供不同接收增益的组合式数字电视接收天线，其分别适用于距数字电视发射台近、中、远程接收点，其既可以使数字电视用户接收成本降低，又能有效满足数字电视接收效果。
+34. 101662481 Signal processing method of single frequency network system and device thereof
+CN
+03.03.2010
+H04N 21/242 Loading...
+H04N 21/242
+Loading...
+200910195398.8
+Shanghai High Definition Digital Technology Industrial Corporation
+Chen Hanjian
+H04N 21/242
+Loading...
+The invention discloses a single frequency network system device in a mobile multimedia broadcasting system and a signal processing mode in the single frequency network system. The method comprises the following steps: evenly dividing each time unit into N time slots; dividing each time slot of the divided N time slots into two parts, and inserting an SIP packet into a first half part of a first time slot of each time unit; inserting a TS data packet into a latter half part of the time slot of each time unit, adding the TS data packet and the SIP packet on the input basic data and performing code rate adaption by a single frequency network adaptive module in the single frequency network system device; and allowing a digit driver module to detect and reject the SIP packet for the received TS data flow containing the SIP packet, and performing channel coding and matched design. The invention has the effect of improving pure transmission code rate.
+35. 101656698 Channel estimation method and device
+CN
+24.02.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200910195399.2
+Shanghai High Definition Digital Technology Industrial Corporation
+Liang Weiqiang
+H04L 25/03
+Loading...
+The invention discloses channel estimation device and method based on a PN sequence. The channel estimation device comprises a data selection unit, a correlator, a data arrangement unit, an inverse matrix storage unit and a matrix multiplying unit, wherein the data selection unit is used for selecting a data window and a PN sequence window after data enter in the data selection unit; the correlator respectively carries out relevant operation between the selected data window and the generated known PN sequence window to obtain a relevant vector Ryp; the data arrangement unit combines and arranges relevant values to form a matrix according to a certain way; the inverse matrix storage unit calculates an inverse matrix Ppp<-1> of the matrix in the data arrangement unit and stores the inverse matrix Ppp<-1> of the matrix inside for standby; the matrix multiplying unit is used for multiplying the inverse matrix Ppp<-1> by the relevant vector Ryp to obtain a response of a channel to be estimated. The invention has the advantages that the method obtains a certain relevant gain through relevant operation and restrains the interference of noise, thereby obtaining better estimation performance and particularly further improving the accuracy of estimation in an environment with low signal-to-noise ratio.
+36. 101577604 PN carrier acquisition device and method
+CN
+11.11.2009
+H04B 1/7077 Loading...
+H04B 1/7077
+Loading...
+200910145255.6
+Shanghai High Definition Digital Technology Industrial Corporation
+Zhang Wenjun
+H04B 1/7077
+Loading...
+The invention provides a new carrier acquisition and tracking method which simultaneously utilizes pilot frequency and PN sequence and is based on multiposition control so as to simultaneously achieve wider carrier deviation acquisition range, finer carrier acquisition accuracy and more robust carrier acquisition reliability, namely simultaneously adopting various carrier acquisition methods, simultaneously judging carrier estimate state in a dynamic way and selecting applicable carrier acquisition method and corresponding hardware implementation according to different states. In addition, the invention also provides a novel PN carrier acquisition method and a device.
+37. 101527697 Time-domain automatic-adaptive equalizer and equalizing method thereof
+CN
+09.09.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200910047642.6
+Shanghai High Definition Digital Technology Industrial Corporation
+Huang Ge
+H04L 25/03
+Loading...
+The invention discloses a time-domain automatic-adaptive equalizer and an equalizing method thereof, wherein the time-domain automatic-adaptive equalizer comprises a plurality of equalizing units and is used for equally compensating the same input signal and outputting a plurality of paths of different equalized output signals, wherein every equalizing unit comprises a feedforward filter used for eliminating the front path of an input signal, a feedback filter used for eliminating the back path of an input signal, a decision device, an error generator, a tap coefficient renovator and a combination/selection unit used for selecting or combining a plurality of paths of different equalized output signals, and the formed output signal is the output of the time-domain automatic-adaptive equalizer. The invention differently equalizes the same input signal to output a plurality of paths of different output signals. A plurality of signals are optimized by selecting different equalizing structures and equalizing methods according to the condition of the environment of the actual-used signal path to obtain the equalizing signal of good stability.
+38. 101521787 Multi-modulation transmission system and data frame filling method thereof
+CN
+02.09.2009
+H04N 7/015 Loading...
+H04N 7/015
+Loading...
+200910005705.1
+Shanghai High Definition Digital Technology Industrial Corporation
+Zhang Wenjun
+H04N 7/015
+Loading...
+The invention provides a multi-modulation transmission system and a data frame filling method thereof, which relate to the field of digital information transmission, wherein the data frame filling method of the multi-modulation transmission system performs data frame filling after channel coding and mapping, and the data frame filling comprises single-carrier time-domain processing and multi-carrier frequency-domain processing and comprises the following steps: selecting the single-carrier time-domain processing or the multi-carrier frequency-domain processing by a time-domain or frequency-domain selecting module; according to the selection result, performing the processing of inserting reference information on data requiring the single-carrier time-domain processing, wherein the symbolic number of the inserted reference information is L; and according to the selection result, performing the processing of inserting pilot signal or strongly protected unknown information on the data requiring the multi-carrier frequency-domain processing, wherein the symbolic number N of the inserted pilot signal or the strongly protected unknown information is equal to the symbolic number L of the inserted reference information, and the output data are processed by discrete Fourier inverse transform.
+39. 101500105 Method and apparatus for diversity reception by ground digital television broadcast transmission system
+CN
+05.08.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200910047447.3
+Shanghai High Definition Digital Technology Industrial Corporation
+Ma Hongwei
+H04N 5/44
+Loading...
+The invention discloses a diversity reception device and a method of a terrestrial digital television broadcast transmission system, wherein the device comprises a diversity signal channel tracker used for tracking the signal channel change of diversity signals and a diversity signal channel equalizer connected with the diversity signal channel tracker and used for withstanding multipath of the signal channel; the diversity signal channel tracker comprises N diversity signal channel tracking units corresponding to N-path diversity signals (N is not less than 2); and the diversity signal channel equalizer comprises N feedforward filters, feedback filters, and combination devices which combines the outputs of the N feedforward filters with the signals of the feedback filters. The invention can greatly improve the robustness of a terrestrial digital television broadcast single carrier receiving system, compared with the prior art, the invention can achieve the goals of greatly improving the sensitivity of receivers and reducing the error rate under the condition of poor dynamic signal channels.
+40. 101478510 Adaptive equalizer and receiver system using the equalizer
+CN
+08.07.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200910046266.9
+Shanghai High Definition Digital Technology Industrial Corporation
+Ju Feng
+H04L 25/03
+Loading...
+The invention discloses a single carrier frequency domain self-adaptive equalizer using data self-circulation characteristics and a receiver system using the equalizer. The single carrier frequency domain self-adaptive equalizer comprises a frequency domain self-adaptive filter including an FFT and IFFT module for time/frequency conversion of digital signals, and a frequency domain equalizing module; and a controller for providing length parameters of self-circulating data blocks and length parameters of updated input data blocks of the FFT and IFFT conversion module. The single carrier frequency domain self-adaptive equalize can improve the utilization rate of the system frequency bands, has the simplest implementation complexity, and can rapidly and accurately estimate channel fading according to the channel estimation and adjust the estimation result according to the self-adaptive algorithm to acquire good performance in both of a time invariant channel and a fast time varying channel.
+41. 101415081 Digital television ground broadcasting system receiver supporting single/multi-carrier mode and method thereof
+CN
+22.04.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810181422.8
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04N 5/44
+Loading...
+The invention provides a digital television terrestrial broadcasting transmission systems receiver and a method thereof, aiming at a structure of a receiving terminal system and a method under the multi-mode of the coexistence of the single-carrier and multi-carrier transmission types. By reasonably selecting the melting points of the single-carrier processing type and the multi-carrier processing type at the receiving terminal, based on the structure of the original single-carrier receiver, data judgment on time domain/frequency domain, judgment on system information and balance processing on multi-carrier branches are added; after the automatic shifting of single/multi-carrier modes is completed, different single/multi-carrier processing data branches are controlled and selected, thus achieving the judging and receiving of the single/multi-carrier on the same receiver.
+42. 101141576 Digital television ground broadcasting system receiver and method of supporting single/multiple carrier modes
+CN
+12.03.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200610030773.X
+Shanghai High Definition Digital Technology Industrial Co.,Ltd.
+Zhang Wenjun
+H04N 5/44
+Loading...
+The present invention provides a receiver and a method for the ground broadcast transmission system of a digital television, which are the structure and the method pointed to a receiving terminal system under the multi model of a single carrier wave and multi carrier wave transmission mode coexistence. Through a rational reselection of the interfusion point on the receiving terminal of the single carrier wave disposing mode and the multi carrier wave disposing mode, data determination for the time domain/frequency domain, determination for the system information, and disposition for the multi carrier wave branch is added based on the basic structure of the original single carrier wave receiver, when the single/multi carrier wave mode is switched automatically, the determination and the receiving of the single/multi carrier wave in the same receiver can be realized by controlling the selection of the different single/multi carrier wave disposing data branch.
+43. 101110626 Digital signal emitting and receiving system and method thereof
+CN
+23.01.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200610028998.1
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04L 27/26
+Loading...
+The present invention discloses a digital signal receiving/sending method, which includes procedures below: During digital signal emission, data flows composed of multilevel symbols are divided into continuous data frames for emission. Preset information is added into each data frame for system synchronization, clock resetting, channel estimation and equalizer training. System information is added into each data frame to indicate modulation mode, intersection mode and LDPC coding rate of a current frame of data information. Data information is added into each data frame. Wherein, the preset information, the system information and data information form a simplex one-step circulation. While receiving digital signals, position of the preset information is detected and confirmed. A first symbol clock position next to the preset information is taken as a start of the system information. Position of the system information is detected and confirmed. A first symbol clock position next to the system information is taken as a start of the data information. Besides, signal processing is carried out to the data information. The present invention also discloses a digital signal receiving/sending system.
+44. 101110602 Carrier wave catching system and method based on multimode operation
+CN
+23.01.2008
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200610029156.8
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04B 1/707
+Loading...
+A novel carrier capture and tacking method synchronously a pilot frequency and PN sequence based on multi-state control to achieve synchronous larger carrier deviation capture scope, higher carrier capture precision and more robust carrier capture reliability. In detail, it is necessary to adopt a plurality of carrier capture methods at the same time, dynamically judge estimated state of the carrier and select a suitable carrier capture method and a corresponding hardware realization structure based on varied states. In addition, the present invention provides a novel PN carrier capture method and a device.
+45. 101106386 Time domain self-adapted balancer
+CN
+16.01.2008
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+200610029011.8
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04B 1/10
+Loading...
+The invention relates to a self-adaptive time domain equalizer comprising a feedforward filter which receives input signal and is used to eliminate forward multipath; a decision-feedback equalization filter used to eliminate backward multipath; a signal superimposer receiving the output from feedforward filter and decision-feedback equalization filter, making a sum and a equalization output; a level decision device which makes a decision for the equalization output and delivers the decision to decision-feedback equalization filter; an error signal generator generating error signal according to input signal and output signal of the decision device; a coefficient updating controller generating tap coefficient according to the error signal to update the tap coefficient of feedforward filter and decision-feedback equalization filter. The level decision device comprises a codebook corrector with the function of code space rotating.
+46. 101106689 Data frame filling method for multi-modulation mode transmission system
+CN
+16.01.2008
+H04N 7/015 Loading...
+H04N 7/015
+Loading...
+200610028801.4
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04N 7/015
+Loading...
+The invention relates to a data frame filling method of multi-modulating modes transmission system, which selects the data processing mode through time domain / frequency domain; when no reference information is inserted into the single carrier wave time domain processing: data requiring single carrier wave time domain processing is under increased sampling; data requiring multi carrier wave frequency domain processing is under processing of interpolation of pilot signal / strongly protected unknown information, afterwards the output data is under processing of interpolation of virtual sub-carrier wave, and finally output under processing of interpolation of virtual sub-carrier wave is under IFFT processing; when reference information is inserted into the single carrier wave time domain processing, and the inserted reference information number L is equal to the inserted pilot signal / strongly protected unknown information number N: data requiring single carrier wave time domain processing is under processing of interpolation of reference information, inserted with reference information formed by L = N signs, and then output data under processing of interpolation of reference information is under increased sampling; data requiring multi carrier wave frequency domain processing is under processing of interpolation of pilot signal / strongly protected unknown information, afterwards the output data is under processing of interpolation of virtual sub-carrier wave, and finally output under processing of interpolation of virtual sub-carrier wave is under IFFT processing.
+47. 101106690 Method for realizing automatic pattern recognition via system information
+CN
+16.01.2008
+H04N 7/015 Loading...
+H04N 7/015
+Loading...
+200610028897.4
+Shanghai High Definition Digital Technology Industrial Co., Ltd.
+Zhang Wenjun
+H04N 7/015
+Loading...
+The invention relates to a transmission mode distinguishing method suitable for transmission of digital television ground broadcasting, wherein the receiving terminal of the transmission system distinguishes the transmission mode before equalizing the data stream. The method includes: (1) when the received data stream arrives the system information position of data frame, the input data begin to multiply a random sequence of data of n digits one by one, the random sequence of data of n digits has the same generating mode as that of the random sequence used by randomizing Walsh sequence block in the system information generating process; (2) after transmitting n signs, conduct Walsh transformation on the multiplied results of n digits corresponding to these signs; (3) take out the maximum absolute valve from the n output under Walsh transformation, find the corresponding system information based on the mode self-definition of system information during transmission, then match a transmission mode of data frame based on the system information, wherein n is the power of 2.
+48. 101098396 Method and apparatus for eliminating signal interference
+CN
+02.01.2008
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+200610028350.4
+Shanghai High Definition Digital Technology Industrial Co.,Ltd.
+Liang Weiqiang
+H04N 5/21
+Loading...
+The invention provides a device of eliminating interference of signal, comprising an interference checker for converting signal into frequency domain to check interference of signal, and check the interference position at frequency domain, a frequency spectrum transfer device for transferring the interference position at frequency domain to zero frequency to transfer the frequency spectrum of signal at initial position to generate an upper transfer signal, a high-pass filter for filtering out the checked interference from the upper transfer signal to generate a filtered signal, and a frequency spectrum lower transfer device for transferring the frequency spectrum of the filtered signal back to initial position to generate a signal without interface. The invention can find and filter interference position, therefore, balancer can work at ideal condition, to improve system property, which can eliminate fixed interference and treat some additional unknown single-frequency interference, with wide application, low demand on hardware resource, and easy application. The invention also provides a method for eliminating interference.
+49. 101098418 Equalizer structure and method for error reverse rotation in digital television receiver
+CN
+02.01.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200610093488.2
+Shanghai High Definition Digital Technology Industrial Co.,Ltd.
+Liang Weiqiang
+H04N 5/44
+Loading...
+The invention discloses a balancer structure and method, for using error counter rotation to accurately recover carrier wave, in digit television ground single carrier wave broadcast transmission system, which uses the sum value and error signal of balancer to check phase and filter to obtain a phase error of input signal, and reversely rotate the error signal of the balancer and the sum value of a feedback filter, to correct the phase error, and uses the corrected error signal of balancer to fresh the extract factor of the feedback filter, therefore, the balance is not sensitive to frequency bias of carrier wave, to work at ideal synchronous condition to improve system property.
+50. 101098416 Time domain self-adaptive equalizer and decision feedback filter included therein
+CN
+02.01.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200610028349.1
+Shanghai High Definition Digital Technology Industrial Co.,Ltd.
+Ju Feng
+H04N 5/44
+Loading...
+The invention relates to a time domain self-adaptive balancer, wherein input signal flows to a forward filter which output flows into an input of an adder, another two inputs of the adder is the output of a first feedback filter and the output of a second feedback filter, the adder adds the input signals, which output is connected with the input of a judger, an error generator according to the input and output of the judger generates an error signal, a tapping factor refresher according to the error signal generates a tapping factor to refresh the tapping factor of the forward filter and the judgment feedback filter. The first feedback filter uses a rotary structure, and the second feedback filter uses a non-rotary structure, which input has some time delay relative to the input of the first feedback filter. The stage numbers of the rotary structure and non-rotary structure are decided according to the length of last path.
+

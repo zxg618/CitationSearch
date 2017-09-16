@@ -1,0 +1,253 @@
+1. 103419575 一种低功耗且全时工作的轮胎压力监测系统及其监测方法
+CN
+10.08.2016
+H04B 1/16 Loading...
+H04B 1/16
+Loading...
+102012000156330
+苏州驶安特汽车电子有限公司
+郑勇
+H04B 1/16
+Loading...
+本发明涉及一种对轮胎压力监测系统，尤其是一种低功耗且全时工作的轮胎压力监测系统及其降低能耗的监测方法。一种低功耗全时工作的轮胎压力监测系统，通过安装于轮胎上的所述传感发射器间隔发送一组数据P，所述数据P包含由38个曼彻斯特编码的“0”组成的唤醒头以及轮胎有效压力、温度的数据；所述唤醒头的持续时间长度为时间D；所述中央监控器每间隔一定时间B开启所述无线射频接收器一段时间C；在所述时间C内所述无线射频接收器接收到唤醒头中任意1Bit曼彻斯特编码的“0”，则维持所述无线射频接收器开启状态，继续接收所述传感发射器发送的数据P，直到第N个数据不符合曼彻斯特编码，则立刻关闭所述无线射频接收器，进入休眠。
+2. 205326710 基于RF信号跳频传输的胎压接收器
+CN
+22.06.2016
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201521069662.0
+苏州驶安特汽车电子有限公司
+贾战胜
+B60C 23/04
+Loading...
+本实用新型涉及轮胎压力监测系统，尤其基于RF信号跳频传输的胎压接收器。本实用新型的基于RF信号跳频传输的胎压接收器，包括固定序列生成器、控制中心和SD-PLL锁相环。所述固定序列生成器周期性产生不同宽度Tn的脉冲，控制中心将不同宽度Tn的脉冲记录为不同的脉冲序列；再依不同脉冲序列产生不同的控制信号，控制中心根据不同控制信号选择与SD-PLL锁相环连通的开关；SD-PLL锁相环根据与接通开关的不同，将接收到数据调制到不同的频率传回所述控制中心,使接收频率在fn之间选换切换，n大于等于2。本实用新型具有避开车载以及周围环境中的同频干扰信号，提高信号的接收成功率的优点。
+3. 205220238 一种基于RF信号跳频传输的胎压传感器
+CN
+11.05.2016
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201521069963.3
+苏州驶安特汽车电子有限公司
+贾战胜
+B60C 23/04
+Loading...
+本实用新型涉及轮胎压力监测系统，尤其基于RF信号跳频传输的胎压传感器。本实用新型的一种基于RF信号跳频传输的胎压传感器，包括随机序列生成器，控制中心和SD-PLL锁相环。所述随机序列生成器产生不同宽度Tn的脉冲，n大于等于2；所述控制中心将检测的所述不同宽度Tn的脉冲记录为不同的脉冲序列；再依不同脉冲序列产生不同的控制信号，所述控制中心根据不同控制信号选择连通不同开关；将与所述控制中心接通的开关的不同，将待发送数据调制到不同的频率发送。本实用新型具有抗同频干扰能力强，信号的传输可靠性的优点。
+4. 203228599 基于产线的自动匹配胎压传感器信息系统
+CN
+09.10.2013
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201320146609.0
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/04
+Loading...
+本实用新型涉及基于产线的自动匹配胎压传感器信息系统。即汽车生产线中将汽车开到指定位置，将相应的通信接口与汽车上的接口连接，通过操作控制器即可设置轮胎传感器的位置信息。本实用新型的基于产线的自动匹配胎压传感器信息系统，包括控制器和触发器，在产线特定工位上安装多个触发器，各个触发器的位置与整车各轮胎位置对应，触发器与控制器的LIN总线接口连接；控制器通过控制所述触发器进行低频触发，从而控制触发器正对位置轮胎内的传感器将传感器ID码及位置信息发送出来；控制器的CAN通讯接口与车载CAN总线连接；通过CAN总线将控制器保存的各传感器ID码及位置信息传输给车载车身控制器内保存。
+5. 203157893 特种车辆监测系统
+CN
+28.08.2013
+B60R 16/02 Loading...
+B60R 16/02
+Loading...
+201320114832.7
+苏州驶安特汽车电子有限公司
+郑勇
+B60R 16/02
+Loading...
+本实用新型涉及一种车辆监测系统；尤其涉及用于监控特种车辆上轮胎压力温度、车厢内温度、门开关等信息监测系统。本实用新型的特种车辆监测系统，包括设置于轮胎上的传感器，以及设置于车辆上的接收器，还包括：设置于车厢内部的温度传感模块，所述温度传感模块将检测到的温度信息通过无线射频的方式发送给所述接收器；所述接收器通过无线方式接收所述传感器发送的轮胎压力及温度信息和所述温度传感模块发送的车厢内部的温度信息，所述接收器通过RS232转换器将所述轮胎压力信息及所述温度信息转发至车载系统或显示器。本实用新型具有集成度高的优点。
+6. 203157618 一种挂车轮胎压力监控系统
+CN
+28.08.2013
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201320039726.7
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/04
+Loading...
+本实用新型涉及一种轮胎压力监控系统，尤其是一种在没有车头的情况下单独对挂车的轮胎压力等数据进行管理的监测系统。本实用新型一种挂车轮胎压力监控系统，包括安装在轮胎上的传感器，以及安装在挂车上的智能中继器，所述智能中继器通过射频通信的方式对所述传感器进行管理， 还包括手持工具，所述手持工具通过射频通信方式对所述中继器进行初始化设置，即将安装在轮胎上的所述传感器的ID发送至所述智能中继器内保存，所述智能中继器通过射频通信方式接收所述传感器发送的信息，并保存下来，然后接收到所述手持工具通过射频通信方式发送给所述智能中继器的读取命令后，所述智能中继器将所述保存的信息发送给所述手持工具。
+7. 203157617 一种用在多节挂车的轮胎压力监控系统
+CN
+28.08.2013
+B60C 23/02 Loading...
+B60C 23/02
+Loading...
+201320115046.9
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/02
+Loading...
+本实用新型涉及本实用新型涉及轮胎压力监控系统，尤其是一种涉及多节挂车，如公路列车的轮胎压力监控系统。本实用新型的一种用在多节挂车的轮胎压力监控系统，包括安装于轮胎上的传感器，以及用于显示轮胎压力等数据的显示器，在每节挂车上至少设有一个智能中继器，所述传感器通过无线射频的方式将轮胎压力、温度等信息发送给所述智能中继器；所述中继器一方面保存所述轮胎压力、温度等信息，一方面将所述轮胎压力、温度等信息通过无线射频的方式转发给显示器。本实用新型的优点在于：当车队检修人员例行检查，可以直接在显示器上查看所有挂车上的所有轮胎压力和温度信息，从而大幅提升了工作效率，使得检修人员不用每个轮胎一个一个的去检查。
+8. 203157620 以手机作为平台的轮胎压力监测系统
+CN
+28.08.2013
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201320167513.2
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/04
+Loading...
+本实用新型涉及轮胎压力监测系统，尤其是一种基于手机作为平台的轮胎压力监控系统。以手机作为平台的轮胎压力监测系统，包括安装于轮胎上的胎压传感器、安置在仪表台上接收模块、以及智能手机。所述胎压传感器安装在轮胎内，将检测到的轮胎的压力、温度信息组成数据流，以无线射频的方式发送出来。所述接收模块安装在轿车上，将接收的胎压传感器信息通过有线的方式转发到显示器显示。所述智能手机通过其上音频数据接口A与所述接收模块上的音频数据接口B连接。将接收到的传感器相关信息转发给智能手机，智能手机通过安装于其上的软件将相关信息显示出来。
+9. 203126412 传感器防尘透气装置及防尘透气传感器
+CN
+14.08.2013
+B60C 23/02 Loading...
+B60C 23/02
+Loading...
+201320123648.9
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/02
+Loading...
+本实用新型涉及轮胎压力传感器，尤其是一种能防止灰尘或液体进入的轮胎压力传感器的防尘透气装置及防尘透气传感器。本实用新型的防尘透气传感器，包括传感器本体和透气膜组件；所述透气膜组件由顶头和透气膜组成；所述顶头设有轴向的通孔甲，所述顶头的外缘设有外螺纹甲；所述透气膜置于所述通孔甲内并通过固定件固定于所述通孔甲内；所述传感器本体与所述透气膜组件配合固定，使用时，气体先通过所述透气膜组件后再到达所述传感器本体的内部芯片。本实用新型可有效提高轮胎压力传感器的使用寿命及工作效率。
+10. 203110845 移动匹配器及车辆轮胎传感器识别系统
+CN
+07.08.2013
+B60C 23/02 Loading...
+B60C 23/02
+Loading...
+201320096215.9
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/02
+Loading...
+本实用新型涉及一种匹配汽车轮胎压力传感器信息的移动匹配器以及采用本实用新型的车辆轮胎传感器识别系统。本实用新型的移动匹配器包括电源和电源转换器，还包括中央处理器、无线射频发送器、无线射频信号接收器、以及低频信号触发器和功能按键；所述电源为所述中央处理器供电，所述电源通过所述电源转换器为所述无线射频发送器和所述无线射频信号接收器供电；所述无线射频发送器和所述无线射频信号接收器分别与所述中央处理器连接，所述低频信号触发器和所述功能按键分别和所述中央处理器连接。即通过按下移动匹配器依次触发传感器，然后将信息发送给接收器或显示器进行初始化。
+11. 203110846 停车场车辆轮胎压力监控系统
+CN
+07.08.2013
+B60C 23/02 Loading...
+B60C 23/02
+Loading...
+201320097683.8
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/02
+Loading...
+本实用新型涉及在停车场或加油站等场所的车辆轮胎压力监控系统。本实用新型停车场车辆轮胎压力监控系统包括安装于车辆轮胎上的传感器；安装在车辆上接收器以及显示器。传感器与接收器通过无线通讯方式连接，接收器收到安装在挂车轮胎上的传感器发送的信息后，一方面将该信息通过有线方式转发给显示器，另一方面将轮胎的压力、温度信息保存下来。显示器与接收器通过有线连接。终端接收器固定于停车场内固定地点；终端接收器与接收器通过无线射频方式通讯连接，终端接收器与PC通过有线方式连接。终端接收器安装在停车场门口警卫室等场所，用于接收安装在客车上的接收器定时发送的轮胎压力、温度信息及车辆位置信息。然后将信息通过有线的方式传至PC上显示、保存、分析。
+12. 202685797 一种自动识别不同智能中继器的轮胎压力监测系统
+CN
+23.01.2013
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201220314807.9
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/04
+Loading...
+本实用新型是一种自动识别不同智能中继器的轮胎压力监测系统，包括安装于轮胎上的传感器，设置于拖车部分的智能中继器，以及设置于拖头的显示器，其中，所述显示器和所述智能中继器中各包含有一个开关量输入模块，两个所述开关量输入模块同时接在挂车ACC电上，用于检测挂车ACC电的开启或关闭；当所述ACC电从关闭到开启时，所述显示器接受并保存所述智能中继器发送的配对信息，所述信息中包含所述智能中继器的ID。
+13. WO/2009/143692 INTELLIGENT RELAY FOR TIRE PRESSURE MONITORING SYSTEM AND APPLICATION METHOD OF THE INTELLIGENT RELAY
+WO
+03.12.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+PCT/CN2009/000496
+SUZHOU SATE AUTO ELECTRONIC CO., LTD.
+ZHENG, Yong
+B60C 23/04
+Loading...
+An intelligent relay for tire pressure monitoring system and an application method of the intelligent relay are provided. The intelligent relay comprises an indicator light for the operation state of the system, a wireless radio frequency receiver, a wireless radio frequency transmitter, a power supply providing the electric energy for the intelligent relay, and also a central processing unit. The central processing unit is connected to the power supply, the indicator light for the operation state of the system, the wireless radio frequency receiver and the wireless radio frequency transmitter respectively. The central processing unit is provided with a read only memory for saving the sensor ID information. After receiving the information, the central processing unit matches the received information with the sensor ID information saved in the read only memory. If the matching is successful, the central processing unit transmits the received information out. If the matching is unsuccessful, the central processing unit receives the information again.
+14. 101574909 Intelligent repeater for tire pressure monitoring system
+CN
+11.11.2009
+B60C 23/00 Loading...
+B60C 23/00
+Loading...
+200810037033.8
+Suzhou Sate Auto Electronic Co., Ltd.
+Zheng Yong
+B60C 23/00
+Loading...
+The invention discloses an intelligent repeater for a tire pressure monitoring system and a method for applying the intelligent repeater to a trailer. The intelligent repeater comprises a system working state indicating lamp, a wireless radio frequency receiver, a wireless radio frequency transmitter, a power supply providing electric energy for the intelligent repeater, and a central processor. The central processor is respectively connected with the power supply, the system working state indicating lamp, the wireless radio frequency receiver and the wireless radio frequency transmitter, and the central processor is provided with a read-only memory used for saving ID code information of a sensor, carries out matching on received information and the ID code information of the sensor saved by the read-only memory after receiving the information, retransmits the received information if the matching succeeds, and receives the information once more if the matching does not succeed.
+15. WO/2009/127126 TIRE PRESSURE MONITORING SENSOR
+WO
+22.10.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+PCT/CN2009/000417
+SUZHOU SATE AUTO ELECTRONIC CO., LTD.
+ZHENG, Yong
+B60C 23/04
+Loading...
+A tire pressure monitoring sensor includes a pivotal sensor shell (8), a screw (9) whose one end passes through said sensor shell (8) that is pivotally coupled to the screw (9) by a rotary central shaft (11), a nut (2 ) which is coupled with said screw (9), and a sealing plate (4) which is arranged on a mounting hole (10) of the wheel hub( 14).Said sensor is fixed in the sensor shell (8). The screw (9) end is fixedly connected with an inflating valve stem (6). The sensor shell (8) has an inclined sliding plane (12). The inflating valve stem (6) abuts against said inclined sliding plane (12) of the sensor shell (8) to form a contact line. A radial sliding surface vertical to said inclined sliding plane (12) passes through said contact line and lies between said rotary central shaft (11) and a shell-hub binding surface (13). The position of said sensor shell (8) can be adjusted automatically by screwing said nut (2).
+16. WO/2009/094901 A METHOD FOR INSTANT MONITORING THE TIRE PRESSURE USING A TIRE PRESSURE MONITORING SYSTEM
+WO
+06.08.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+PCT/CN2009/000097
+SUZHOU SATE AUTO ELECTRONIC CO., LTD.
+ZHENG, Yong
+B60C 23/04
+Loading...
+A method for instant monitoring the tire pressure using a tire pressure monitoring system. The tire pressure monitoring system comprises a sensing emitter and a central monitor. An acceleration sensor is disposed in the sensing emitter, which can sense and measure the rotate speed of the wheels to determine the current running state of the vehicle. If the acceleration sensor determines the vehicle is stationary, the system applies a tire pressure DEPT detecting algorithm to monitor the pressure. The tire pressure DEPT detecting algorithm means that, the sensing emitter collects the tire pressure information P once at regular intervals S; thecentral monitor stores the last tire pressure information P0 which is transmitted to the central monitor from the sensing emitter; the current tire pressure information which is actually collected by the sensing emitter is P2, while a tire pressure update fixed value M is set. If |P2-P0|>M, the sensing emitter will transmit P2 to the central monitor which then will store P2 and display it as the current tire pressure value.
+17. WO/2009/094900 METHOD FOR PAIRING AN EXTERNAL SENSING EMITTER AND A CENTRAL MONITOR IN A TIRE PRESSURE MONITORING SYSTEM
+WO
+06.08.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+PCT/CN2009/000096
+SUZHOU SATE AUTO ELECTRONIC CO., LTD.
+ZHENG, Yong
+B60C 23/04
+Loading...
+A method for pairing an external sensing emitter and a central monitor in a tire pressure monitoring system (TPMS) involves that each tire position information is provided on the central monitor. Corresponding sensing emitters are placed on tires. Each sensing emitter transmits learning information as it is mounted on the tire. After receiving the learning information, the central monitor identifies the sensing emitter which is transmitting such information. After above identification, the central monitor determines whether the last three bits of ID code of the sensing emitter match those of the ID code stored in the central monitor. If match, the sensing emitter and the central monitor are paired, and the complete ID code of the sensing emitter is stored. By combining the step of inputting the last three bits of sensing emitter ID code with the step of transmitting learning information, the method facilitates practice, reduces operation steps, and saves time.
+18. 101492000 Tire pressure real-time monitoring method using tire pressure monitoring system
+CN
+29.07.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+200810032872.0
+Suzhou Sate Auto Electronic Co., Ltd.
+Zheng Yong
+B60C 23/04
+Loading...
+The invention discloses a method for monitoring tire pressure in real time for a tire pressure monitoring system. The tire pressure monitoring system comprises a sensing emitter and a central monitor, wherein the inside of the sensing emitter is provided with an acceleration sensor which can sense and measure the rotating speed of automobile wheels so as to determine the current moving state of the automobile. When the acceleration sensor judges that the automobile is in a still state, the tire pressure monitoring system adopts a tire pressure DETP detecting algorithm to carry out pressure monitoring. The sensing emitter acquires tire pressure information P in every fixed time interval S. The central monitor stores the pressure information P0 which is sent by the sensing emitter to the central monitor for the last time, and the tire pressure information which is acquired currently and actually by the sensing emitter is P2. At the same time, a tire pressure updating fixed value M is set, and when |P2-P0| is more than M, the sensing emitter sends the P2 to the central monitor which stores the P2 and displays the P2 as a tire current pressure value.
+19. 201220581 轮胎压力监测传感器
+CN
+15.04.2009
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+200820057486.2
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/04
+Loading...
+本实用新型一种轮胎压力监测传感器，包括一传感器外壳、一螺杆、一与螺杆配合的螺母、一抵接在轮毂安装孔上的密封垫，所述传感器固置于传感器外壳中，所述螺杆一端穿过传感器外壳，传感器外壳通过一旋转中心轴活动连接在所述螺杆上，所述螺杆端口处固设有一气门嘴杆，所述传感器外壳上设有一滑动斜面，所述气门嘴杆抵接在传感器外壳的滑动斜面上并形成一接触线，垂直于所述滑动斜面并通过所述接触线的滑动径面位于旋转中心轴与壳毂贴合面之间。该传感器采用活动式的传感器外壳，并可以通过旋动螺母来自动调节传感器外壳的活动，从而可以实现自动安装定位，满足了装配产品的要求并且在装配后有可靠的密封性。
+20. 101254738 Matching method for external sensing transmitter and central monitor in tyre pressure monitoring system
+CN
+03.09.2008
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+200810032871.6
+Suzhou Sate Auto Electronic Co., Ltd.
+Zheng Yong
+B60C 23/04
+Loading...
+The invention discloses a method for matching an out-laid sensor-transmitter and a central monitor in TPMS system by inputting the last three ID codes in combination with transmitting study information, which comprises the following steps: setting position information of each tire on the central monitor; arranging corresponding sensor-transmitters on the tires; transmitting study information when each sensor-transmitter is arranged on the tire, receiving the study information by the central monitor and determining which sensor-transmitter transmits the study information; and detecting the last three ID codes of the sensor-transmitter transmitting the study information to determine whether the laser three ID codes are matched with ID codes stored in the center monitor and, if matched, matching the sensor-transmitter with the central monitor and storing the complete ID code of the sensor-transmitter. The method can solve the problem that the sensor-transmitter having last three ID codes identical to those of the central monitor is unlikely to be used on the same suit of products, thus simplifying the production in plant and reducing the operation time and steps.
+21. 2771009 汽车轮胎压力温度监测系统
+CN
+12.04.2006
+B60C 23/00 Loading...
+B60C 23/00
+Loading...
+200420115474.2
+苏州驶安特汽车电子有限公司
+郑勇
+B60C 23/00
+Loading...
+本实用新型公开了一种能够自动调节数据发送时间间隔、实现轮胎换位设定和报警门限设定且能轮流显示不同轮胎的温度和压力的汽车轮胎压力温度监测系统，包括安装在车厢内的主机和安装在轮胎内部的传感发射装置，所述的传感发射装置包括数据采集模块和双向无线射频通信模块，双向无线射频通信模块将数据采集模块采集到的轮胎压力数据传输至主机的数据接收/发射模块，通过主机的人机交互模块显示出来。
+

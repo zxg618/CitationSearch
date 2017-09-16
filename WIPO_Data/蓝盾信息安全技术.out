@@ -1,0 +1,961 @@
+1. 103684922 基于SDN网络的出口信息保密检查检测平台系统及检测方法
+CN
+15.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102013000716971
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/26
+Loading...
+本发明公开了基于SDN网络的出口信息保密检查检测平台系统，该系统由保密检查检测模块和控制器集群控制模块构成，控制器集群控制模块包括状态分发/同步模块，分域管理模块，分布式存储管理模块，交换机共享控制模块，交换机接口通信模块。保密检查检测模块部署在保密检查检测服务器上，由日常涉密审查模块、上网行为控制模块、可疑终端检测模块、木马检测模块、平台运维管理模块、自身安全保障模块和策略数据库、病毒特征模式库、特征规则库组成。此外，本方明还公开了基于SDN网络的出口信息保密检查检测平台的检测方法。通过本发明能极大的提升互联网出口信息保密检查检测平台系统安全性，同时也减轻业务网络流量负担。
+2. 106326333 一种网络审计系统数据库动态分表方法及装置
+CN
+11.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610522946.3
+蓝盾信息安全技术有限公司
+杨育斌
+G06F 17/30
+Loading...
+本发明公开了一种网络审计系统数据库动态分表方法及装置，该方法包括：初始化数据库分表系统：设置配置文件参数，清空所有数据库表，删除所有分表，加载数据库分表信息表记录到分表控制模块。数据导入：将数据采集模块接收的数据传送给分表控制模块，分表控制模块判断数据实际需要导入的数据库表，并将该数据导入数据库。数据备份：系统硬盘占用容量比例超过阀值，则对用户发送告警信息，并将数据库的记录按照配置信息，导出到本地硬盘。
+3. 103532795 一种检测WEB业务系统可用性的监控系统及方法
+CN
+04.01.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102013000526410
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/26
+Loading...
+本发明公开了一种检测WEB业务系统可用性的监控系统，该系统包括流程录制模块、采集模块、脚本模块、统计分析模块、告警模块及系统配置模块。该系统能够零配置实现对WEB服务器及WEB业务系统的可用性进行监控，在采集客户端与服务器之间不需要通过长连接进行维护。此外，本发明还公开了一种检测WEB业务系统可用性的监控方法。本发明通过使用分布式、短连接、底端解析、中心配置管理的模式，系统具有很好的横向扩展性及开放性，可以满足同时监控多个大型WEB系统及服务器的性能要求，有效的减少占用网络资源，减轻网络负担，同时减少被入侵的可能性。
+4. 106211318 一种基于WiFi的路径损耗定位方法和系统
+CN
+07.12.2016
+H04W 64/00 Loading...
+H04W 64/00
+Loading...
+102016000528021
+蓝盾信息安全技术有限公司
+杨育斌
+H04W 64/00
+Loading...
+本发明公开了一种基于WiFi的路径损耗定位方法和系统，该方法包括：定位系统初始化：系统采集感应场内不同地点的RSSI数值以及对应移动终端到前端AP的距离，计算对应的定位参数λ。定位系统数据采集：数据采集模块接收前端AP采集到的移动终端RSSI，并传输给定位分析模块。定位系统定位分析：定位系统根据公式计算当前移动终端的地理位置信息。定位系统数据持久化：定位系统将分析得到的移动终端的地理位置信息持久保存到数据库。定位系统纠偏：定位系统删除当前的定位参数λ，重新采集感应场内的移动终端样本数据，并计算新的定位参数λ。
+5. 105956506 一种改进的RFID防碰撞方法
+CN
+21.09.2016
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+201610269112.6
+蓝盾信息安全技术有限公司
+杨育斌
+G06K 7/10
+Loading...
+本发明公开了一种改进的RFID防碰撞方法，该方法本质上是基于树型算法的改进，属于确定型方法，且该方法满足马尔可夫链的两个遍历性分布条件，具有稳定性；该方法中阅读器充分利用碰撞位信息，引入异或运算优化査询请求，将碰撞位消息经过IAC算法运算，进而自适应的生成有效的查询前缀，避免了标签识别过程中不必要空闲时隙的产生，提高了算法性能。
+6. 105763571 基于SIP的非对称语音加密
+CN
+13.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610269697.1
+蓝盾信息安全技术有限公司
+杨育斌
+H04L 29/06
+Loading...
+本发明公开了基于SIP的非对称语音加密，该发明为解决现有网络通话的安全性和保密性不足的问题，提出了对网络电话语音数据加密的解决方案。在原有SIP传输协议的基础上在SIP服务器上加入密码生成模块，然后在通信双方的移动终端上安装加解密App，即可以实现双方的私密通话。
+7. 105656632 一种群组RFID标签身份认证方法
+CN
+08.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201511023108.3
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 9/32
+Loading...
+本发明公开了一种群组RFID标签身份认证方法，能够满足RFID系统实际应用需求。本发明所提出的方法对标签端的硬件要求低，满足超轻量级协议的要求，能够实现群组RFID标签的身份认证过程，适合应用于解决低成本RFID系统的群组RFID标签身份认证问题。
+8. 105407083 基于属性的多模型联合事件分析
+CN
+16.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510698875.8
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 29/06
+Loading...
+本发明公开了基于属性的多模型联合事件分析的方法，该方法通过对各种网络设备的日志进行统一采集，提取出事件的通用属性(源IP，目的IP，源端口，目的端口，协议)，设计多种关联事件模型(统计事件模型，单事件模型，多事件模型)，运用不同事件属性的布尔逻辑运算来分析出有价值的联合事件。
+9. 105357119 一种SDN网络中准确转发数据包的方法
+CN
+24.02.2016
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201510716491.4
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 12/721
+Loading...
+本发明公开了一种SDN网络中准确转发数据包的方法，该方法针对控制器对交换机群下发流表的延时问题而引发数据包未能按指定路径传输的问题，采用了控制流表下发到不同交换机的时间及修改下发到各交换机流表生存时间的方法，确保数据包到达某交换机之前控制器为该数据包计算的路由所转换的流表已成功部署到预到达的交换机上；从而确保在SDN网络中的数据包能准确转发到目的地。
+10. 105227664 一种云计算中心的基础安全服务引擎
+CN
+06.01.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510651386.7
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 29/08
+Loading...
+本发明公开了一种云计算中心的基础安全服务引擎的方法，该方法利用面向云计算基础设施进行管理，并添加安全管控组件；向用户提供了一个整体完整的管理界面，对云计算基础资源进行灵活可定制化的管理，确保对云计算每个环节进行了严格的安全保护。一种云计算中心的基础安全服务引擎默认部署在整体柜服务器上，通过网络设备连接云资源，达到全虚拟化、自动化部署，做到真正的软硬件资源全融合。
+11. 105227582 基于入侵检测和漏洞扫描联动的黑客行为发现及分析
+CN
+06.01.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510744204.0
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 29/06
+Loading...
+本发明公开了基于入侵检测和漏洞扫描联动的黑客行为发现及分析的方法，通过入侵检测技术和漏洞扫描技术的联动来准确定位攻击，或者发现可疑黑客行为，在黑客入侵行为成功前及时干预避免损失，并且通过攻击源追踪技术来分析和发现攻击源，利用黑名单等技术防止该攻击源后续的攻击行为。
+12. 105227408 一种智能木马识别装置及方法
+CN
+06.01.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510696601.5
+蓝盾信息安全技术股份有限公司
+杨育斌
+H04L 12/26
+Loading...
+本发明公开了一种智能木马识别装置及方法，该发明针对木马检测技术中存在的对未知木马和变中木马识别能力不足等问题，提出了一种基于行为分析的检测技术和基于特征匹配的检测技术相结合的检测方法。
+13. WO/2015/081766 SDN BASED VIRTUAL MACHINE SECURITY POLICY MIGRATION SYSTEM AND METHOD
+WO
+11.06.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2014/089291
+BLUEDON INFORMATION SECURITY TECHNOLOGY CORPORATION LTD.
+YANG, Yubin
+H04L 29/06
+Loading...
+An SDN based virtual machine security policy migration system and method. The system comprises a security policy management module, a controller cluster control module, and a virtual machine migration monitoring module. The system and method can save large numbers of resources in the entire virtual machine migration process, and automatically, quickly, simply, and conveniently ensure synchronization of a security policy and flexible migration for a virtual machine during migration of the virtual machine.
+14. WO/2015/062441 CGI WEB INTERFACE MULTI-SESSION VERIFICATION CODE GENERATION AND VERIFICATION METHOD
+WO
+07.05.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2014/089249
+BLUEDON INFORMATION SECURITY TECHNOLOGY CORPORATION LTD.
+YANG, Yubin
+H04L 29/06
+Loading...
+The present invention discloses a CGI web interface multi-session verification code generation and verification method. Said method is different to the methods of verification code generation in other systems, as the verification code generation of the present invention occurs on a CGI page, and verification is carried out on a C++ background module; security performance is therefore high and concurrent processing capability is strong. Furthermore, the present invention is different to the methods of verification of verification codes in other systems; other systems can only verify one group of verification codes, and so, in the case of a plurality of simultaneous user device requests, verification codes are overlaid, causing errors in the code verification of one or a plurality of users. The present invention solves this problem, as different users request different verification codes which are not mutually interdependent.
+15. WO/2015/007069 METHOD FOR AUTOMATICALLY DEPLOYING ZOOKEEPER CLUSTER BASED ON SCRIPT PROGRAM
+WO
+22.01.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+PCT/CN2014/000043
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+YANG, Yubin
+G06F 9/445
+Loading...
+Disclosed is a method for automatically deploying a Zookeeper cluster based on a script program. In the method, automatic configuration is performed by taking a Python as a script language; on a configuration management node, an automatically deployed script program and a Zookeeper program downloaded from an official website are placed in the same folder, and the two files, i.e. zookeeper-detail.conf and zookeeper-clusters.conf are configured; and finally, the script program is run to complete an automatic configuration function. By means of the present invention, a theoretical basis and a practice foundation are provided for the automatic deployment of a distributed cluster system, such as IIBasc and Storm, which needs to use Zookeeper to maintain the cluster consistency, and a Zookeeper cluster node is quickly deployed and run, so as to provide a precondition and probability for constructing and deploying cluster software in the next step.
+16. WO/2015/007116 ANTI-THEFT METHOD FOR DATA AFTER LOSS OF CELL PHONE
+WO
+22.01.2015
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+PCT/CN2014/077633
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+YANG, Yubin
+H04W 88/02
+Loading...
+Disclosed is an anti-theft method for data after the loss of a cell phone. The flow of the method comprises: first, triggering an instruction to delete data on a designated device, and then a system entering a flow set. The flow set consists of three flows: eliminating short messages and contact persons on an SIM card at the background, securely destroying data of an external memory card at the background, restoring the system to the factory state and eliminating the internal memory of the cell phone. In the process of executing the three flows of the flow set, if a power-off instruction from a cell phone finder is received, temporarily interrupting and recording a current state, immediately performing a false power-off operation, and then returning to the interruption point to continue to execute the flow set. By means of the method of the present invention, when the finder executes a power-off operation, a power-off false appearance is given to the cell phone finder who attempts to power off, and more time is saved for a loss processing flow, thereby realizing the purpose of quickly and thoroughly deleting mobile data in the lost cell phone after the loss of the cell phone.
+17. WO/2014/187144 LINKAGE METHOD OF INTRUSION DETECTION SYSTEM AND FIREWALL
+WO
+27.11.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2014/000044
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+YANG, Yubin
+H04L 29/06
+Loading...
+Disclosed is a linkage method of an intrusion detection system and a firewall. In the method, comparison and filtering of a source IP and a target IP are used, alarm information with a same source IP and target IP are combined into one record, and corresponding blocking information is only sent when it is detected that a blocking duration needs to be extended; in this way, the number of data packets that need to be sent during linkage can be significantly reduced. Meanwhile, a method of sending multiple pieces of linkage data to a firewall one time in an http manner is further used, thereby further lowering the large number of times of connection to the firewall, so that occupation of network resources can be effectively reduced and network load is reduced.
+18. 104168141 一种自动维护业务系统的方法
+CN
+26.11.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410403330.5
+蓝盾信息安全技术有限公司
+柯宗贵
+H04L 12/24
+Loading...
+本发明公开了一种智能维护业务系统的方法，该方法是在业务系统产生告警、系统事件后，由SOC系统进行收集，并生成维护命令，发送给维护子系统，然后由维护子系统自动调用相关的维护程序，对具体的告警类型及事件进行维护处理，并将处理结果形成维护报告，发送给相关维护人员。通过本发明采用了智能识别故障及事件，并对系统进行自动维护的方法，从而实现了根据事件及告警对系统进行自动维护的目的。
+19. 104168137 一种告警压缩的方法
+CN
+26.11.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410390920.9
+蓝盾信息安全技术有限公司
+柯宗贵
+H04L 12/24
+Loading...
+本发明公开了一种告警压缩的方法，该方法通过将各孤立的设备、事件进行关联，根据设备关联关系、事件关联关系，消除状态闪烁变化而产生告警及关键节点引发的连锁告警，同时根据告警时间、阈值、持续时间、消除持续时间等技术参数对告警进行智能压缩。本发明通过使用多个阈值，事件关联、设备关联、上下级关联压缩等手段，可减少无效告警的产生数量，在众多告警中筛选出真正有用的信息。
+20. WO/2014/089896 METHOD FOR INPUTTING CHINESE INTO REMOTE DESKTOP BY MOBILE TERMINAL DEVICE
+WO
+19.06.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+PCT/CN2013/001015
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+KE, Zonggui
+H04M 1/725
+Loading...
+Disclosed is a method for inputting Chinese into a remote desktop by a mobile terminal device. A user directly uses an input method program on a mobile device to input Chinese, which is then converted into corresponding English sequences by a "reverse conversion driver program", so as to be capable of being transmitted by means of a communication protocol of a remote desktop; and these English sequences are converted into Chinese by a Chinese input method program on a remote host, thereby completing the process whereby the user inputs Chinese into an application program of the remote desktop on the mobile device. The present invention can allow a user using a mobile terminal device to conveniently and rapidly input Chinese to a remote desktop; and use of the method has no need to modify current remote desktop communication protocol, which can be greatly compatible with various existing devices.
+21. WO/2014/079139 METHOD AND SYSTEM FOR PROTECTING DATA OF MOBILE TERMINAL
+WO
+30.05.2014
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+PCT/CN2013/001016
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+KE, Zonggui
+G06F 21/60
+Loading...
+Disclosed is a system for protecting data of a mobile terminal. The system comprises five modules of an initializing template, a screen lock module, an active protection module, a passive protection module and a decryption module. Meanwhile, further disclosed is a method for protecting data of a mobile terminal. According to the present invention, when the mobile terminal leaves a mobile terminal owner, the data is prevented from being stolen by a non-authorizer, and therefore, the security of the data of the mobile terminal can be effectively protected.
+22. WO/2014/067222 SYSTEM AND METHOD FOR ISOLATING MOBILE DATA
+WO
+08.05.2014
+H04W 12/08 Loading...
+H04W 12/08
+Loading...
+PCT/CN2013/000281
+BLUEDON INFORMATION SECURITY TECHNOLOGY CO., LTD.
+KE, Zonggui
+H04W 12/08
+Loading...
+Disclosed is a system for isolating mobile data. The system comprises a tag control management module and a mobile data management module. The tag control management module comprises a tag generator, tag storage management and tag transmission control. The mobile data management module mainly identifies the user permission and a data privacy level according to a tag and performs operational control on a mobile application of the mobile data, so as to achieve maintained security protection on the fine-grained mobile data. The mobile data management module is divided into security isolation control during data processing, security control during data transmission and security isolation control during data storage. Also disclosed at the same time is a method for isolating mobile data. The present invention can effectively isolate the data of a mobile intelligent terminal, perform operational control on the fine-grained data, achieve different privacy policies, and guarantee the maintained security of mobile data.
+23. 103685300 Embedded web server
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310719004.0
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+KE ZONGGUI
+H04L 29/06
+Loading...
+The invention discloses an embedded web server which is composed of a network connection administration module, an http protocol analysis module, an SSL encryption and decryption layer module, a session administration module, a service thread pool pattern module, a configuration management module, a journal service module, a plug-in unit administration module, a URL, and parameter verification security module and a CGI distribution configuration management module. The embedded web server can provide a minimum function set achieving a B/S framework and achieve the framework efficiently, and can enable users flexibly to customize a unique and cabinet web service system for the embedded system; the web service system can operate efficiently and be flexibly deployed. The embedded web server effectively saves computational resources, and system deployment and maintenance time in the embedded system, and increases the safety of the web server.
+24. 103678654 Method for acquiring linkage information in database safety audit
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310718186.X
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+KE ZONGGUI
+G06F 17/30
+Loading...
+The invention discloses a method for acquiring linkage information in database safety audit. A database audit system in the method acquires a user address in a bypass packet capture mode, then, user information is inquired in a system table of a database, and thus the query result is linked to the current linkage. With the method, a linkage user can be effectively identified, the risk of information leakage is avoided, and the method can be achieved easily and stably.
+25. 103677850 Large-scale cluster node version detection method based on services
+CN
+26.03.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310739959.2
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+KE ZONGGUI
+G06F 9/44
+Loading...
+The invention discloses a large-scale cluster node version detection method based on services. According to the method, a version detection agent program is deployed at a detected node and started to operate on a background to provide services. Version detection mainly relates to two roles, namely the detected node and a detection client side, a version detection service is issued by the detected node, a version detection request is initiated by the detection client side, the detected node sends and returns data, and then one-time detection is finished. Version information is queried by an agent based on the node, speed is high, deployment is simple, and meanwhile based on the SOAP service, passive issue is achieved, and occupied bandwidths are small.
+26. 103678650 HBase safety plug-in based on thrift services
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310716989.1
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+KE ZONGGUI
+G06F 17/30
+Loading...
+The invention discloses an HBase safety plug-in based on thrift services. The plug-in provides 14 safety HBase services relevant to an HBase and 4 safety HBase services relevant to configurations. Basic configuration information of the HBase safety plug-in is stored in a local file, when the services are started, HBase connecting information file storage and information relevant to HBase connection are uploaded, and information mainly comprises a host name list of Zookeeper clusters and port information of a Zookeeper. Through the HBase connecting information, the safety HBase services can communicate with the HBase services, and tables in the HBase can be operated. Safety policy information of the HBase safety plug-in is stored in the Zookeeper in a Json form, and therefore a system can have high uniformity and reliability. By the adoption of the HBase safety plug-in, privacy can be protected, privacy data are encrypted, and the HBase safety plug-in is easy to deploy and efficient in operation.
+27. 103684922 Outlet information privacy checking detection platform system based on SDN (self-defending network) and detection method
+CN
+26.03.2014
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310716971.1
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+KE ZONGGUI
+H04L 12/26
+Loading...
+The invention discloses an outlet information privacy checking detection platform system based on an SDN (self-defending network). The system comprises a privacy checking detection module and a controller cluster control module, wherein the controller cluster control module comprises a state distribution/synchronization module, a domain management module, a distributed storage management module, an exchanger sharing control module and an exchanger interface communication module. The privacy checking detection module is deployed on a privacy checking detection server and comprises a daily security examination module, an internet surfing behavior control module, a suspicious terminal detection module, a Trojan horse detection module, a platform operation and maintenance management module, a self-security guarantee module, a policy database, a virus characteristic pattern base and a characteristic rule base. In addition, the invention further discloses a detection method of an outlet information privacy checking detection platform based on the SDN. Security of the internet outlet information privacy checking detection platform system can be greatly improved, and the flow burden of a service network is relieved.
+28. 103678547 Self-learning database security auditing system and method
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310646496.5
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+YANG YUBIN
+G06F 17/30
+Loading...
+The invention discloses a self-learning database security auditing system. The system comprises a client connecting auditing module, an access sentence auditing module, a frequency analysis module and a manual configuring module. The invention further discloses a self-learning database security auditing method. The system can be known continuously according to historical access records, then, the current access data are analyzed on the basis of the knowledge, and thus potential risks are found out. Moreover, complex configuration does not need to be carried out with the self-learning database security auditing system and method, and the self-learning database security auditing system and method can adapt environment changes well.
+29. 103685250 Virtual machine security policy migration system and method based on SDN
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310646449.0
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+YANG YUBIN
+H04L 29/06
+Loading...
+The invention discloses a virtual machine security policy migration system based on an SDN. The virtual machine security policy migration system is composed of a security policy management module, a controller cluster control module and a virtual machine migration monitoring module. The invention further discloses a virtual machine security policy migration method based on the SDN. By the adoption of the virtual machine security policy migration system and method based on the SDN, a great number of resources are saved in the whole migration process, and synchronous and flexible transferring of a security policy of a virtual machine is guaranteed automatically, rapidly, easily and conveniently along with the migration of the virtual machine.
+30. 103634390 Method for expressing effective time period
+CN
+12.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310608214.2
+BLUEDON INFORMATION SAFETY TECHNOLOGY CO., LTD.
+YANG YUBIN
+H04L 29/08
+Loading...
+The invention discloses a method for expressing an effective time period. The method provides a simple fixed length expression to define a time strategy and is combined with a web configuration page to express the 7X24 hours and any time period combination from Monday to Sunday, and the final expressions of the combinations have fixed length. According to the method for expressing the effective time period, the time strategy configuration of any combination in the 7X24 hours can be finished without the need of compiling any complex expression, and things done in any time period can be intuitively and clearly expressed.
+31. 103338183 一种入侵检测系统与防火墙联动的方法
+CN
+02.10.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310196253.6
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明公开了一种入侵检测系统与防火墙联动的方法，该方法使用源IP跟目标IP的比较过滤，把源IP跟目标IP都相同的报警信息合并成一条记录，在检测到需要延长阻塞时间时才发送相应的阻断信息，这样能够明显的减少联动时需要发送的数据包数量。同时再通过使用http方式一次发送多条联动数据给防火墙的方法，更进一步的降低了频繁连接防火墙的次数，这样就能够有效的减少占用网络资源，减轻网络负担。
+32. 103295097 基于平板电脑的现场检查记录系统
+CN
+11.09.2013
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201310192589.5
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06Q 10/06
+Loading...
+本发明公开了基于平板电脑的现场检查记录系统，该系统包括设置模块、创建文档模块、查看文档模块、导出文档模块、导入文档模块、合并模块。采用平板电脑进行记录、管理现场检查结果，能大大提供现场检查的工作效率；方便的后台导入，也降低了事后数据电子化的工作量，以及可能发生的检查结果错漏等。同时，系统提供手写签名功能，从而实现了纸质文档一样的不可抵赖性，为保证检查结果的有效性、认同性提供了充分的保障。
+33. 103237006 互联网出口检查系统中对图片中文字内容审计的方法
+CN
+07.08.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310092236.8
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明公开了一种互联网出口检查系统中对图片中文字内容审计的方法。通过分布式部署两台设备，一台负责对内部网络连接到互联网的数据流进行采集、分析和识别，并将采集的图片文件，通过网络发送给单独部署的另一台OCR服务器进行图片检查，以实现对图片中文字内容的审计。通过本发明可以对以图片形式出现的文字内容进行检查。即使有人试图通过截图等形式，传递一些不合规的信息，也将被检查出来，从而堵上这一传播不合规信息的漏洞。
+34. 103227730 一种大日志分析的方法及系统
+CN
+31.07.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310139353.5
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/24
+Loading...
+本发明公开了一种大日志分析的方法，该方法首先是日志中心将大日志文件分成n个模块，通过加密传输到各个节点；其次是节点主机将日志分析处理，并将分析结果加密传送到数据中心；最后是数据中心将各个节点的日志分析结果整理合并后存入数据库中。此外，本发明还公开了一种大日志分析的系统。通过本发明不但能够减轻日志中心资源消耗，避免影响日志收集，保证日志收集质量，而且能够提高日志分析效率与实时性，保证数据库中分析结果能及时更新。
+35. 103218257 基于攻防教学实训平台上统一管理虚拟机的装置
+CN
+24.07.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201310157537.4
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06F 9/46
+Loading...
+本发明公开的基于攻防教学实训平台上统一管理虚拟机的装置，是基于攻防教学实训平台基础上采用统一管理windows虚拟机和linux虚拟机技术，实现两者互相攻击或防守的模拟真实机攻防教学方式，实践完整教学目的。该装置包含：windows虚拟机、linux虚拟机、虚拟机管理中心、攻防教学实训平台、实验中心。通过该装置实现了统一管理，统一还原等功能，提高了学生们实训操作的效率，实现管理用户攻防课题的更换，实验录像的编排等功能，彻底解决虚拟机使用方面的不足，从而实现了完成攻防实践教学的目的。
+36. 103209214 一种基于NoSQL的消息中间件的实现方法
+CN
+17.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310116696.X
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/08
+Loading...
+本发明公开了一种基于NoSQL的消息中间件的实现方法，包括缓存转发和宕机恢复。在NoSQL中，数据的访问控制都在内存中进行，读写速度很高。把消息存储在NoSQL中，可保证消息缓存的高效，在对消息进行查找时能利用内存读写速度的优势，更快地定位消息。配合日志文件，更能保证在消息中间件服务器宕机后消息不丢失，并在重启后能恢复宕机前的消息。
+37. 103078760 一种在线式网络异常流量诊断方法
+CN
+01.05.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910214524.X
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/26
+Loading...
+本发明为一种在线式网络异常流量诊断方法，本发明针对传统的异常监控方法的参数基准范围难以确定，缺乏灵活性，而且误报率也相当高，调用系统也随之增多，导致机器性能下降的缺陷，提出了一种在线式网络异常流量诊断方法，以网口零拷贝方式在线抓取网络上的流量数据包，分析并格式化为统一格式，以曲线的形式表示，再与预先构建的轮廓线比较，监测异常状况。
+38. 103067361 一种智能收集Web应用防火墙白名单的方法
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210552000.3
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明公开了一种智能收集Web应用防火墙白名单的方法。采用了自动收集为主人工收集为辅的方式，加快了白名单的产生。同时还可以自动、方便地部署即时产生的规则。
+39. 103067571 一种移动终端设备对远程桌面的中文输入的方法
+CN
+24.04.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210540859.2
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04M 1/725
+Loading...
+本发明公开了一种移动终端设备对远程桌面的中文输入的方法。用户直接使用移动设备上的输入法程序输入中文，然后再由“反向转换驱动程序”转换为对应的英文序列，以便能通过远程桌面的通讯协议来传输，这些英文序列被远程主机上的中文输入法程序转换为中文，从而完成用户在移动设备上往远程桌面的应用程序输入中文的过程。通过本发明可以让使用移动终端设备的用户方便快捷地输入中文到远程桌面，并且使用该方法不需要修改现有的远程桌面通讯协议，能极大的兼容各种已有的设备。
+40. 103036961 一种日志分布式收集及存储方法
+CN
+10.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210524643.7
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/08
+Loading...
+本发明公开了一种日志分布式收集及存储方法，该方法采用tcp/ip协议进行数据交互，发送端对数据序列化，接收端对数据反序列化。为了维护长连接，客户端定期发送心跳包判断日志服务端是否在线，若在线则日志服务端对心跳包响应。调度器1对连接来的fd（file descriptor）统一调度，并将处理好的数据放在数据缓存池中，调度器2从数据缓存池中取一定数量数据后，发送给远程终端，计算机远程终端收到数据后，将数据写入数据库。通过本发明不仅改善了客户端与日志服务器传输的效率，还改善了日志服务器与数据库操作的吞吐量，提高了系统的实时性和可用性。
+41. 103034813 一种移动终端数据的保护方法及系统
+CN
+10.04.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210488831.9
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06F 21/60
+Loading...
+本发明公开了一种移动终端数据的保护系统，该系统包括五个模块，分别为初始化模板、屏幕锁模块、主动保护模块、被动保护模块和解密模块。同时，本发明还公开了一种移动终端数据的保护方法。通过该发明能够使移动终端离开移动终端所有人时防止其数据落入非授权人之手，从而可以有效的保护移动终端数据的安全。
+42. 103036879 一种审计QQ聊天内容的方法
+CN
+10.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210535086.9
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明由网络抓包模块，QQ帐号解密密钥管理模块，QQ聊天内容审计模块，审计策略模块，审计日志模块组成。在网络审计系统中加入QQ聊天内容审计模块，通过一种审计QQ聊天内容的方法可以审计QQ2009到最新版本的QQ，这样就可以做到对QQ聊天内容的审计，同时也不影响用户使用QQ，并且保护了用户的隐私和QQ帐号安全。
+43. 103036755 利用CAN总线实现分布式系统多台设备间实时通信的方法
+CN
+10.04.2013
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+201210532090.X
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/40
+Loading...
+本发明公开了一种利用CAN总线实现分布式系统多台设备间实时通信的方法。该方法是在各服务器之间既采用TCP通信方式，又同时各个设备之间架设CAN总线作为辅助通信手段。当后台负载过大无法及时处理时，通过CAN总线辅助通信通道告知各前端服务器控制发送流量，并把待上报给后台服务器的数据暂存在本地。当后台服务器或者前端服务器进入睡眠状态，即不监听socket时，通过CAN总线辅助通信通道唤醒服务器监听socket，以准备数据传输。当有紧急事件需要在服务器之间进行通报时，如发现某台服务器发生异常需要屏蔽，通过CAN总线辅助通信通道进行广播通报。通过该方法能够对数据发生拥塞、通信不畅时的紧急事务及时通报并优先处理，提高了通信的实时性和广播性。
+44. 103023732 一种信息安全实验室装置
+CN
+03.04.2013
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201210505197.5
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 12/28
+Loading...
+本发明公开了一种信息安全实验室装置，该装置由中心控制服务器、网络设备、安全设备、环境服务器、核心包服务器以及客户端组成。该装置用于高校网络专业信息安全专业以及相关专业的实训教学，该装置能够为高校提供完善的、便捷管理的、可控成本的、可扩展与研究教学的实验室教学体系。
+45. 103024020 基于WEB应用的网络数据文件存储方法及装置
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210516893.6
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/08
+Loading...
+本发明公开了一种基于WEB应用的网络数据文件存储装置，包括WEB应用程序服务器、普通资源文件服务器组、加密传输资源文件服务器组、热点资源文件服务器组。WEB应用程序服务器由PHP编写，提供网站的相关信息，当涉及到资源读取的时候，则向资源文件服务器组发送请求。如果是加密数据，则需要读取加密传输资源文件服务器组即可。本发明能有效实现海量数据基于HTTP协议的普通和加密传输，能够对资源数据实现用户权限限制，并实现了负载均衡的目的。根据不同的业务需求选择不同的传输方式，实现普通数据和加密传输数据的统筹管理，让资源上传下载类网站有更灵活，更合适的架构方式。
+46. 103023987 一种基于TCP连接的多路复用的方法
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210491389.5
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/08
+Loading...
+本发明公开了一种基于TCP连接的多路复用的方法。该方法是通过代理服务器和服务器之间的通道被多个客户端复用来实现的。Client试图与服务器通信，需先和代理服务器建立SOCKET连接请求，代理服务器端安装TCP连接池管理程序，连接请求合法后给Client分配一个唯一的ID，并和SOCKET一起作为键值对存入转发表，同意Client的通信请求并把分配的ID附带发回，则相当于Client和Server之间建立了一条虚拟通道，可以进行双向通信。通过该方法减少服务器上SOCKET创建和销毁的次数，节约服务器资源。同时通过建立虚拟通道建立服务器与众多客户端之间虚拟通道，实现多路复用。
+47. 103023912 一种防止基于虚拟机进行网络攻击的方法
+CN
+03.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210574687.0
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明公开了一种防止基于虚拟机进行网络攻击的方法。当一个虚拟机进程发出一个数据包，客户操作系统会将它写入虚拟网卡。这时VMM会捕获这个事件并将其传递给VMI攻击过滤器。VMI攻击过滤器通过VMI技术获得进程ID和用户ID，如果数据包的目的地和发送源匹配某一条过滤策略，VMI攻击过滤器会将这个数据包丢弃。相反，就会发出这个数据包。通过该方法可将过滤策略精细化到进程级别或者用户级别，同时将过滤器检查器放在VMM中可以提高整体效率。
+48. 102999631 一种Windows内核代码的定位方法
+CN
+27.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210539793.5
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06F 17/30
+Loading...
+本发明公开了一种Windows内核代码的定位方法。先比较要搜索代码的不同版本Windows的差异，得到一段比较通用的关键字，用得到的关键字在不同版本Windows下用Diff算法计算结果，分析结果后得到一个有一定范围的可行值，对未知版本Windows使用该关键字和可行值进行代码搜索，得出准确的定位结果。通过该方法可以使用在所有不同的Windows操作系统上，而不必对每个不同的Windows操作系统进行单独处理，是一种快速，准确的定位方法。
+49. 102984125 一种移动数据隔离的系统及方法
+CN
+20.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210428682.7
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/06
+Loading...
+本发明公开了一种移动数据隔离的系统，该系统包括系统由标签tag控制管理模块和移动数据管理模块组成。标签tag控制管理模块包括标签tag生成器、标签tag存储管理和标签tag传输控制。移动数据管理模块主要是根据标签识别用户权限和数据保密级别，对移动数据的移动应用进行操作控制，以实现移动数据细粒度的保密安全防护。移动数据管理模块分为数据处理过程的安全隔离控制、数据传输过程的安全控制和数据存储中的安全隔离控制。同时，本发明还公开了一种移动数据隔离的方法。通过本发明能有效对移动智能终端上的数据进行隔离，进行细粒度的操作控制，实现不同的保密策略，确保移动数据的保密安全性。
+50. 102981855 基于模板的界面自动生成的方法及系统
+CN
+20.03.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210484277.7
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06F 9/44
+Loading...
+本发明公开了一种基于模板的界面自动生成的方法及系统，通过事先设计出常用的控件、界面、按钮、图片等对象及其可用属性放入数据库中，利用XSD配置文件转换成Flash可读的AMF格式文件，并将AMF文件推送到前台，从数据库中取出对应的对象及其属性自动生成用户界面。通过该发明实现界面展示脱离浏览器，界面跨平台，且可根据需要灵活的生成配置文件形成界面。而且Flash本身特有的拖拽功能使得用户根据自己的需要再一次设计符合自己使用习惯的界面。
+51. 102982283 一种杀死受保护的恶意计算机进程的系统及方法
+CN
+20.03.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201210491369.8
+蓝盾信息安全技术股份有限公司
+柯宗贵
+G06F 21/56
+Loading...
+本发明公开了一种杀死受保护的恶意计算机进程的系统及方法，该系统是通过Win32应用程序和驱动程序两个模块来实现的，Win32应用程序模块主要包括向进程窗口发WM_CLOSE消息、注入代码调用ExitProcess函数、调用TerminateProcess函数、与内核驱动程序通信、运行日志及报告；内核驱动程序模块包含与Win32应用程序通信、调用NtTerminateProcess函数、调用PspTerminateProcess函数、将进程代码的内存页面清0。同时本发明还公开了一种杀死受保护的恶意计算机进程的方法。由于使用了内核驱动程序与Win32应用程序相结合的技术，并尝试多种杀进程的方法，使得各种类型的恶意进程基本上都能杀死，从而阻止恶意程序对计算机的攻击及数据安全。
+52. 202121603 一种反垃圾邮件系统
+CN
+18.01.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201120072312.5
+蓝盾信息安全技术股份有限公司
+柯宗庆
+H04L 29/06
+Loading...
+本实用新型公开了一种反垃圾邮件系统，涉及网络安全领域，用以解决现有技术的反垃圾邮件技术操作繁琐，过滤效果较差，并且不便于统计和更新的问题。系统包括：与过滤模块相连的匹配模块、垃圾处理模块和邮件服务系统，匹配模块还与数据库模块相连，数据库模块与日志接收模块相连，日志接收模块与日志分析模块相连；其中，过滤模块接收邮件，并通过匹配模块与数据库模块中的数据匹配，以及将正常邮件发送到邮件服务系统，垃圾邮件发送到垃圾处理模块；数据库模块的日志信息通过日志接收模块发送到日志分析模块进行分析。本实用新型操作简单，过滤效果好，便于统计和更新。
+53. 202004790 一种网络安全检测与监控审计系统
+CN
+05.10.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201120072305.5
+蓝盾信息安全技术股份有限公司
+柯宗庆
+H04L 29/06
+Loading...
+本实用新型公开了一种网络安全检测与监控审计系统，涉及网络安全领域，用以解决现有技术的网络安全检测产品和网络监控审计产品功能单一的问题。本实用新型包括：监控中心，以及与所述监控中心相连的主机监控客户端、网络监控模块和漏洞扫描器；其中，主机监控客户端、网络监控模块及漏洞扫描器将监控数据和警报数据发送给监控中心；监控中心根据收到数据实时检测网络安全，并采取相应的措施。本实用新型将网络安全检测与监控审计有机的结合在一起。
+54. 102148839 Method, device and system for managing FTP (file transfer protocol) server
+CN
+10.08.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010106977.3
+蓝盾信息安全技术股份有限公司
+柯宗贵
+H04L 29/08
+Loading...
+The invention relates to the communication technology and discloses a method, a device and a system for managing an FTP (file transfer protocol) server, which are used for reducing the complexity of the management flow of the FTP server. The method comprises the steps as follows: an FTP virtual directory is configured in a client; the FTP virtual directory is the virtual mapping of the data on the FTP server at a client; after a user logins the FTP server, non-FTP format data management command information inputted by the user through the virtual directory is received; then the non-FTP format data management command information is converted into FTP format data management command information, and sent to the FTP server to indicate the FTP server to execute corresponding data management operations. In this way, operations like downloading, modification, uploading are implemented on the data in the FTP server; therefore, the complexity of the management flow of the FTP server is effectively reduced; and the management efficiency of the management flow of the FTP server is improved. Meanwhile, the running load of a system is obviously reduced. The invention also discloses a client and a network system.
+55. 102118273 Man-machine interaction type network abnormality diagnosis method
+CN
+06.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910214526.9
+Bluedon Information Safety Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The invention provides a man-machine interaction type network abnormality diagnosis method aiming at the defects that a parameter reference range of the traditional abnormality monitoring method is difficult to determine, the traditional abnormality monitoring method is lack of flexibility and has very high false alarm rate, and the reference range of a standard parameter of a network in an abnormal state as the initial state is hard to formulate. The man-machine interaction type network abnormality diagnosis method comprises the following steps of: optionally extracting data packets of a section of historical flow rate; analyzing the data packets and formatting the data packets into a standard format; representing in the form of a curve; then comparing with a pre-constructed contour line; monitoring an abnormal condition; limiting a computer with the abnormal condition; and re-formulating the standard reference range under the condition of having a normal network condition.
+56. 102118272 Network perimeter anomaly monitoring method
+CN
+06.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910214525.4
+Bluedon Information Safety Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The invention provides a network perimeter anomaly monitoring method against the defects of the conventional anomaly monitoring method that the parameter reference range is difficult to define, the flexibility is short and the false alarm rate is rather high. In the method, flow data packets on the network are captured on line by means of network opening copying, analyzed and formatted into uniform format, expressed by a curve and then compared with an outline built in advance to monitor abnormal condition.
+57. 102088453 Method, system and method for controlling access of host computer
+CN
+08.06.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010104919.7
+Bluedon Information Security Technologies Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a method, system and device for controlling access of a host computer, which relate to the field of network security and are used for solving the problem that the access of the host computer cannot be effectively controlled in the prior art. The method comprises the following steps of: receiving a connection request from the host computer and requesting for verification information from an external authentication system of the host computer by a firewall; authenticating the obtained verification information through an access strategy by the firewall; if the authentication passes, allowing access of destination connection; and if the authentication fails, blocking the connection request. The system comprises the host computer, the external authentication system and the firewall, wherein the external authentication system is connected with the host computer; and the firewall is arranged between the host computer and the Internet and comprises a verification managing module, a connection tracking module and a blocking module. In a technology disclosed by the invention, the verification information is acquired according to the external authentication system of the host computer independent of an access request, an Internet protocol (IP) address, a media access control (MAC) address and the like, so that access of the host computer can be effectively controlled.
+58. 102081638 Method and device for matching keywords
+CN
+01.06.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010104942.6
+Blueton Information Security Technology Co., Ltd.
+Ke Zonggui
+G06F 17/30
+Loading...
+The invention discloses a method and device for matching keywords, and relates to the fields of computers and Internet. The method and the device are used for solving that the prior art cannot retrieve the keywords under the mixed condition of Chinese characters and non Chinese character symbols and cannot retrieve the similar vocabulary of target keywords. The method comprises the following steps of: coding the Chinese characters in the keywords one by one by using pinyin to generate key codes; coding the Chinese characters in a page to be retrieved one by one by using pinyin to generate code stream to be retrieved; and matching the key codes and the code stream to be retrieved to obtain a matching result. The device comprises a first coding module, a second coding module and a matching module. The method and the device can retrieve the keywords under the mixed condition of the Chinese characters and the non Chinese character symbols and can retrieve the similar vocabulary of the target keywords.
+59. 102043923 Monitoring system for monitoring kernel driving layer and monitoring method thereof
+CN
+04.05.2011
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200910193116.0
+Bluedon Information Safety Technology Co., Ltd.
+Ke Zonggui
+G06F 21/22
+Loading...
+The invention provides a monitoring system capable of monitoring a kernel driving layer. The system comprises a rule base module, a monitoring interception module, a user interface module and a functional module. The system can monitor different levels of call events of various kernels such as kernel driving, application program interface (API) calling, equipment driving and the like in real time.
+60. 101827083 Method and system for realizing unified threat management in heterogeneous network
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010106979.2
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a method and a system for realizing unified threat management in a heterogeneous network, relating to the field of network security and aiming at solving the problem that the preventive mode of single equipment UTM of the current heterogeneous network can not be realized. The method comprises the following steps: carrying out protocol matching recognition on data flowing into the UTM, and determining actual protocol types of all data packets; distributing all the data packets according to the actual protocol types of all data packets; filtering the distributed data packet by the actual protocol type corresponding to distribution; and carrying out UTM agency on filtered data packets, and sending out the data packets. The system comprises a protocol analysis module, a protocol distribution module, a filtering module and a UTM function module. As the method and the system provides a set of complete mechanism including analysis, distribution, filtering, protocol conversion, UTM agency and protocol reduction mechanism, the preventive mode of single equipment UTM of the heterogeneous network can be realized.
+61. 101827082 Method, system and device for recording and playing back desktop operating information of user
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010106967.X
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a method, system and device for recording and playing back desktop operating information of user and relates to the network security field; and the method, system and device are used to solve the problem that the technology used for recording and playing back the desktop operating information of user has an influence on the client and is not convenient to manage. The recording method comprises the following steps: an audit server intercepts data packet between the terminal and the terminal server; the intercepted data packet are analyzed, decomposed and stored; and then the analyzed and decomposed data packet are recombined and transmitted to the opposite terminal. The method for playback comprises the following steps: the audit server reads the stored data packet information according to the storage sequence; time stamps in the data packet information are analyzed to obtain the time interval between the former and later data packets; the packet header in the data packet information is analyzed to obtain the function and content of the data packet information; and the content of each data packet is played back one by one according to the reading order and time interval. The above operations are all completed in the audit server so that the operations can not influence on the client and be convenient to manage.
+62. 101826991 Method and system for identifying illegal data packet
+CN
+08.09.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010105290.8
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The embodiment of the invention discloses method and system for identifying an illegal data packet, relating to the field of network security and being used for providing a scheme for quickly and correctly identifying the illegal data packet in a host computer of a user. The method comprises the following steps that the host computer of the user obtains the data packet to be processed; the host computer of the user reads a destination port address carried in the data packet and determines an application layer network protocol corresponding to the destination port address; and the host computer of the user determines whether the format of the data packet meets a data packet format defined by the application layer network protocol or not and judges whether the data packet is a legal data packet or the illegal data packet according to a determination result. By adopting the invention, the aim of quickly and correctly identifying the illegal packet is achieved.
+63. 101826099 Method and system for identifying similar documents and determining document diffusance
+CN
+08.09.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010105297.X
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+G06F 17/30
+Loading...
+The invention discloses a method and a system for identifying similar documents. The method mainly comprises the steps: adopting maximum public sequential algorithm to identify whether the text content of a searched page and the text content of a base document are similar or not, thereby improving the accuracy of similarity identification of two documents. The invention also discloses a method and a system for determining the diffusance of documents in a network.
+64. 101826993 Method, system and device for monitoring security event
+CN
+08.09.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010105305.0
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The invention discloses a method, a system and a device for monitoring a security event, which relate to the field of network security and are used for solving the problem that the generality of the conventional network information security event monitoring technique is poor. The method comprises the steps that: an event-acquiring client acquires an event log of a node in real time; the event-acquiring client uploads the acquired event log data to a security event monitoring center; and the security event monitoring center acquires the uploaded event log data and arranges the data to have a uniform format. The system comprises a node log server, the event-acquiring client and the security event-monitoring center, wherein the event-acquiring client is arranged on the node log server; the security event-monitoring center is communicated with the event-acquiring client; and the event-acquiring client comprises an acquiring unit and an uploading unit.
+65. 101827017 Method and system for dynamically distributing network traffic
+CN
+08.09.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010105302.7
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 12/56
+Loading...
+The invention discloses a method and a system for dynamically distributing network traffic, and relates to the field of internet, which are used for solving the problem that the prior art cannot avoid bandwidth waste or congestion phenomenon under the condition of the dynamic change of network bandwidth. The method comprises the following steps of: monitoring gateway exit bandwidth at definite time to acquire the current bandwidth data; calculating the traffic of each traffic use unit, which can be distributed from the current bandwidth, according to a traffic distribution strategy and a traffic redistribution algorithm; and redistributing the traffic for each traffic use unit according to the calculating result. The system comprises a monitoring module, a calculating module and a redistributing module. A mechanism for monitoring the gateway exit bandwidth at definite time exists; the traffic of each traffic use unit, which can be distributed from the current bandwidth, can be calculated according to the traffic distribution strategy and the traffic redistribution algorithm; then the traffic redistribution is performed; and therefore, the method and the system have the advantages of realizing the dynamic distribution of the network traffic, effectively and reasonably utilizing the bandwidth and avoiding the bandwidth waste or congestion phenomenon.
+66. 101827080 Method for blocking network attacks and device
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010105286.1
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention relates to computer technology, in particular to a method for blocking network attacks and a device which are used for reducing the operation load of the system. The method comprises the steps of receiving at least one request message used for requiring system resource distribution, arranging a counter of a designed type according to the at least one request message, judging whether the accumulative receiving time of the at least one request message exceeds the critical value of the corresponding counter or not, blocking up the at least one request message if yes, and otherwise distributing corresponding system resources to the at least one request message, so the progress of sending the same request many times in a short period can be blocked in the progress pre-processing stage, and only normal requests are responded so as to avoid the consumption of a large number of resources and reduce the operation load of the system. The invention also discloses a server.
+67. 101827081 Method and system for detecting request safety
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010106957.6
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The embodiment of the invention discloses a method and a system for detecting request safety, relating to the network safety field and being used for providing a proposal for detecting response request safety. In the method, the number of the past response requests which are the same as the present response requests and are received in a given time slot is determined when a main server receives the present response requests; the main server judges whether the number exceeds a preset threshold value; and when judging that the number exceeds the preset threshold value, the main server determines that the present response requests are illegal requests and exerts a preset treatment operation. When in use, the invention can effectively detect the safety of the response requests of an application server.
+68. 101826994 Method and device for acquiring information invading source host
+CN
+08.09.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010105312.0
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The invention discloses a method and a device for acquiring the information invading a source host, which relate to the field of network security, and are used for solving the problem that the conventional invasion detection system does not determine the identity information invading the source host. The method comprises the steps of: after a probe detection device detects the invasion information, scanning a port invading the source host; sniffing network service invading the source host by the probe detection device through the port; judging an operating system for invading the source host by the probe detection device according to the network service; and reporting the acquired information by the probe detection device. The device comprises a scanning unit, a sniffing unit, a judging unit and a reporting unit, wherein the scanning unit is used for scanning the port invading the source host after determining that the invasion information is detected; the sniffing unit is used for sniffing the network service invading the source host through the port; the judging unit is used for judging the operating system for invading the source host according to the network service; and the reporting unit is used for reporting the information acquired by the scanning unit, the sniffing unit and the judging unit.
+69. 101826048 Method and system for monitoring printing
+CN
+08.09.2010
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201010106945.3
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+G06F 11/30
+Loading...
+The invention discloses a method and a system for monitoring printing. The method comprises the following steps of: comprehensively monitoring a printing service to be executed by a printer when the printer of a host computer is monitored; performing validity authorization aiming at attribute information of each printer; and executing the printing service only by the printer which receives validity authentication, and if the printer does not receive validity authentication, forbidding starting the printing service. Therefore, the method and the system realize comprehensive and fine-grained monitoring on the printer, and improve the reliability of printing monitoring on the premise of not influencing the normal printing service.
+70. 101826992 Method of linkage audit and system thereof
+CN
+08.09.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010105299.9
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 12/26
+Loading...
+The invention discloses a method of linkage audit and a system thereof, relating to the field of network security, wherein the invention is used for overcoming the defects of the existing network audit system and the host machine audit system. The method comprises the steps that: a network audit system performs data analysis, and transmits a linkage request to a target host machine audit system through a control center when discovering the condition of a target host machine for receiving and transmitting the data is abnormal; the target host machine audit system performs corresponding linkage process according to information offered by the linkage request, and feeds a linkage result to the network audit system through the control center; and the network audit system controls the target host machine according to the linkage result. The system comprises the control center, the host machine audit system which is connected with the control center and is arranged on the host machine, and the network audit system which is connected with the control center.
+71. 101820414 Host access control system and method
+CN
+01.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010104940.7
+Bluedon Information Safety Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a host access control system and a host access control method, and relates to the field of network safety for solving the problem of incapability of effectively preventing illegal access of the host to an intranet in the prior art. The method comprises the following steps that: a sender agent client judges whether a target host is in a firewall white list strategy or not, if so, directly sends a data packet, and otherwise, sends the data packet after encryption; and a receiver agent client judges whether a source host is in the firewall white list strategy or not, if so, directly receives the data packet, and otherwise, receives the data packet after decryption. The system comprises the sender agent client and the receiver agent client. Because the data is transmitted among legal hosts in the safe intranet of the invention through the encryption and decryption of a key under unified management or the firewall white list strategy, the limitation aiming to a normal host access control system is solved; and therefore, the system and the method provide a set of host access control solution with high universality, safety, controllability and extensibility.
+72. 101789941 Network safety equipment linkage method and system
+CN
+28.07.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010104928.6
+Blueton Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a network safety equipment linkage method and a system, which relate to the field of network security. The invention is used for solving the problem of poor timeliness of the linkage interrupted technique of the existing network security equipment. The method comprises the following steps: simultaneously intercepting and capturing a data pack by an auditing system and a fire wall before the data pack reaches a host machine of a user; judging that the data pack is not an http data pack by the fire wall; or judging that the data pack is the http data pack by the fire wall, and forwarding the data pack when the interrupting requirements sent by the auditing system are not received in the set time; and judging that the data pack is the http data pack by the fire wall, and carrying out interrupting processing when the interrupting requirements sent by the auditing system are received in the set time. The system comprises the fire wall and the auditing system, wherein the fire wall is arranged between a network side hub and a user host machine side exchanger, and the auditing system is connected in parallel between the hub and the exchanger.
+73. 101789942 Method for preventing sensitive data from betraying confidential matters and device thereof
+CN
+28.07.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010104930.3
+Bluedon Information Security Technologies Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a method for preventing sensitive data from betraying confidential matters and a device thereof, and relates to the field of network security, aiming at solving the problem that the existing technology for preventing sensitive data from betraying confidential matters can not effectively prevent the sensitive data from betraying confidential matters. The method comprises the steps that a firewall intercepts connecting request sent by an access source; sensitive data access policy matching is carried out on the connecting request by the firewall; if the matching result is allowed, the connecting request is transmitted, and target data is allowed to be accessed; and if the matching result is not allowed, the connecting request is blocked. The firewall comprises an intercepting unit used for intercepting the connecting request sent by an access source, a matching unit used for carrying out sensitive data access policy matching on the intercepted connecting request, a transmitting unit used for transmitting the connecting request and allowing the target data to be accessed when the matching result is allowed to be triggered, and a blocking unit used for blocking the connecting request when the matching result is not allowed to be triggered.
+74. 101777102 Security audit method and system for kernel
+CN
+14.07.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201010104937.5
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+G06F 21/00
+Loading...
+The invention discloses a security audit method and system for a kernel, which is mainly comprises: integrating the kernel inverted hook technology into a host security system, organically combining the host security audit technology and the kernel inverted hook technology, scanning each kernel module in equipment and determining kernel hooks installed in each kernel module, the kernel module provided with illegal software is determined, and the determined kernel module is unloaded, thereby improving the security and the reliability of a kernel system.
+75. 101778108 Method and device for preventing falsification of homepage of server
+CN
+14.07.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010019586.8
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/06
+Loading...
+The invention discloses a method and a device for preventing falsification of a homepage of a server and relates to the field of network security, which is used for solving the problems that the prior art affects the performance of the server and that the protection function has obvious defects. The method comprises the following steps: modification verification: if a firewall verifies a host which initiates a homepage modification request to be a trusted host, the modification is permitted, and the step of modifying the homepage is transferred to, if not, the modification is refused; homepage modification: the modified homepage is marked with a verification marker by the firewall; access verification: if the firewall verifies the verification marker in the homepage to be accessed to be legal, the step of pushing the homepage is transferred to, if not, wrong information is pushed; homepage pushing: homepage information is pushed by the firewall. The firewall comprises a modification verification module, a homepage modification module and an access verification module. The method and the device do not occupy any resource of the server and can ensure the server not to be utilized to release illegal information.
+76. 101777074 Method and device for searching page through keyword
+CN
+14.07.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010104946.4
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+G06F 17/30
+Loading...
+The invention discloses a method and a device for searching a page through a keyword, which relates to the field of computer and internet, and is used for reducing the error judgement of the page which contains a target keyword but not a target page when searching page. The method comprises: searching a target keyword on a page; confirming the paragraph of the target keyword according to the position of the target keyword on the page; searching a keyword to be removed on the paragraph; and filtering the page of the searched keyword to be removed from the searched result. The device comprises a first search unit, a positioning unit, a second search unit and a filter unit. Since the invention re-searches the keyword to be removed in the paragraph containing the target keyword, and filters the page any paragraph of which simultaneously contains the target keyword and the keyword to be removed, thus improving the capacity of identifying the target page and simultaneously reducing the probability of the error judgement of the page.
+77. 101778137 System and method for preventing webpage from being falsified
+CN
+14.07.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010019424.4
+Bluedon Information Security Technology Co., Ltd.
+Ke Zonggui
+H04L 29/08
+Loading...
+The invention discloses a system and a method for preventing a webpage from being falsified, which relates to the field of network safety, and is used for preventing a webpage from being falsified and eliminating postmortem influences. The system comprises a domino administrator, a management center server and a monitoring agent client. The method comprises the following steps: configuring a webpage monitoring policy; monitoring the state of the webpage in real time based on the webpage monitoring policy; and when the state of the webpage is changed, restoring the webpage to the state before the change. By the mechanism of monitoring the state of the webpage in real time and the mechanism of restoring the webpage to the state before the change when the state of the webpage is changed, the invention can restore the webpage to the state before the change as soon as possible after the webpage is falsified, thereby achieving the effect of preventing the webpage from being falsified.
+78. 101763319 Disk FDE (Full Disk Encryption) system and method
+CN
+30.06.2010
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201010019425.9
+Bluedon Information Security Technologies Co., Ltd.
+Ke Zonggui
+G06F 12/14
+Loading...
+The invention discloses a disk FDE system and a method, relates to computer system security field and aims to solve the problem that the security measures of the computer system in prior art only limit other users on using the computer and are incapable of preventing the breach of confidence of the data stored in the computer. The disk FDE system comprises an interception unit, an acquisition unit, an encryption-decryption and a data access unit. The method includes the steps of interception, acquisition, encryption-decryption and access. As the invention proposes the mechanism of intercepting the read-write requests to the local disk, decrypts the read file according the verification condition provided by the user after interception, and encrypts the write-in file, and accordingly realizes the full disk encryption of the local disk and further prevents the breach of confidence of the local disk data.
+79. 101763480 Computer online survey evidence-taking and analysis system and method
+CN
+30.06.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201010019584.9
+Bluedon Information Security Technologies Co., Ltd.
+Ke Zonggui
+G06F 21/00
+Loading...
+The invention discloses a computer online survey evidence-taking and analysis system and a method, relating to the field of network security and providing evidence for maintaining the network security. The system comprises a data acquisition module, a data extraction module, a process supervision module and a data storage module, wherein the data acquisition module is used for acquiring needed data from a host; the data extraction module is used for carrying out digital notarization on the acquired data; the process supervision module is used for recording operation information in the online evidence-taking process; and the data storage module is used for storing the digitally-notarized data which is acquired from the host. The method comprises the steps of data acquisition, data extraction, process supervision and data storage. Since the invention has an acquisition mechanism of easy-loss data and an acquisition mechanism of specific file data in storage medium of the host, and also comprises a digital notarization and whole-process supervision mechanism, therefore, the evidence-taking result has very high comprehensiveness and creditability, thus providing evidence for maintaining the network security.
+80. 101763225 System and method for protecting virtual disk files
+CN
+30.06.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010019585.3
+Bluedon Information Security Technologies Co., Ltd.
+Ke Zonggui
+G06F 3/06
+Loading...
+The invention discloses a system and a method for protecting virtual disk files, relates to the field of network safety and solves the problem that the prior art is short of efficient protection to the virtual disc original files and the imaged virtual disk files. The system comprises a process tactical management which is arranged for allocating a process management tactic, a file filter driving module which is arranged for filtering various operation events of the virtual disc original files and the imaged virtual disk files according to the allocated process management tactic, and a virtual disk driving module which is arranged for transforming the file system of the files pointed by the filtered operation events. The method comprises the steps of: allocating a process management tactic, filtering various operation events of the virtual disc original files and the imaged virtual disk files according to the allocated process management tactic, and transforming the file system of the files pointed by the filtered operation events.
+

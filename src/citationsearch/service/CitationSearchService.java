@@ -1,15 +1,22 @@
 package citationsearch.service;
 
+import static citationsearch.constants.Constants.*;
+
 import citationsearch.utility.ExcelFileReader;
 import citationsearch.utility.ExcelFileWriter;
 import citationsearch.utility.WipoDataFileReader;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 import java.util.Map.Entry;
 
+import org.apache.commons.text.similarity.LevenshteinDistance;
+
 import citationsearch.entity.Company;
+import citationsearch.entity.CompanyApplicant;
 import citationsearch.entity.Patent;
 import citationsearch.mapper.CitationMapper;
 import citationsearch.mapper.CompanyMapper;
@@ -50,7 +57,7 @@ public class CitationSearchService
 	
 	public void displayTotalNumberOfPatentsOnWIPO() {
 		this.apiReader.setSearchKeywords(this.companies);
-		this.total = this.apiReader.batchRead();
+		//this.total = this.apiReader.batchRead();
 		this.dataFileReader.batchRead(this.companies);
 	}
 	
@@ -82,8 +89,8 @@ public class CitationSearchService
 		
 		
 		this.getAllReplatedPatents();
-		this.getAllCitations();
-		this.countAllCitationsForEachCompany();
+		//this.getAllCitations();
+		//this.countAllCitationsForEachCompany();
 	}
 	
 	protected void getAllReplatedPatents() {
@@ -102,9 +109,14 @@ public class CitationSearchService
 		
 		for (i = 0; i < companies.length; i++) {
 			companyId = companies[i].getID();
+			if (companyId < 3174) {
+				continue;
+			}
+			
 			patents = pm.getPatentsByCompanyId(companyId);
+			HashSet<String> hs = new HashSet<>();
 			for (j = 0; j < patents.length; j++) {
-				pm.getAllRelatedPatents(companies[i], patents[j]);
+				pm.getAllRelatedPatents(companies[i], patents[j], hs);
 				pm.reConnectDB();
 			}
 		}
@@ -195,5 +207,132 @@ public class CitationSearchService
 		newString = newString.replace(",", "");
 		newString = newString.replace(".", "");
 		return newString;
+	}
+	
+	public void validateApplicants() {
+		CompanyMapper cm = new CompanyMapper();
+		Company[] compinies = cm.getAllCompanys();
+		int i = 0;
+		int j = 0;
+		
+		//make it 50% of total for now
+		int occuranceThreshold = 0;
+		
+		for (i = 0; i < compinies.length; i++) {
+			String originalEnglishName = compinies[i].getEnglishName();
+			int companyId = compinies[i].getID();
+			int sourceFileId = compinies[i].getSourceExcelLineNumbers();
+			String originalName = compinies[i].getChineseName();
+			String searchKeyword = compinies[i].getSearchKeyword();
+			CompanyApplicant[] translations = cm.getTranslationsByCompanyId(companyId);
+			Map<String, Integer> transMap = new HashMap<String, Integer>();
+			
+			int totalTranslations = translations.length;
+			if (totalTranslations > 5) {
+				occuranceThreshold = Math.round(totalTranslations / 10);	
+			} else {
+				occuranceThreshold = totalTranslations;	
+			}
+			
+			for (j = 0; j < totalTranslations; j++) {
+				String translation = translations[j].getCompanyName();
+				if (transMap.containsKey(translation)) {
+					int val = transMap.get(translation);
+					transMap.replace(translation, val);
+				} else {
+					transMap.put(translation, 1);
+				}
+			}
+			
+			for (j = 0; j < totalTranslations; j++) {
+				String translation = translations[j].getCompanyName();
+				int personid = translations[j].getPersonId();
+				String flag = "-------------------";
+				int occurance = transMap.get(translation);
+				if (occurance >= occuranceThreshold && this.isSimilarStrings(originalEnglishName, translation, 2)) {
+					flag = "good";
+				} else if (this.isSimilarStrings(originalEnglishName, translation, 3)) {
+					flag = "good";
+				}
+				//format companyId\toriginalEnglishName\tEPO Translation\tflag
+				//flag
+				String output = Integer.toString(companyId)
+						+ "\t" + personid
+						+ "\t" + sourceFileId
+						+ "\t" + originalName
+						+ "\t" + originalEnglishName 
+						+ "\t" + translation + "\t" + flag;
+				System.out.println(output);
+			}
+		}
+		
+		cm.close();
+	}
+	
+	/**
+	 * Check if search string matches target string
+	 * Goal: half of search string should match
+	 * 
+	 * @param String s1 search string
+	 * @param String s2 target string
+	 * @return boolean -1 false and others true
+	 */
+	protected boolean isSimilarStrings(String s1, String s2, int factor) {
+		boolean result = false;
+		int threshold = s1.length() / factor;
+		LevenshteinDistance ld = new LevenshteinDistance(threshold);
+		int diff = ld.apply(s1.toLowerCase(), s2.toLowerCase());
+		
+		//System.out.println(s1 + " and " + s2 + " diff is " + diff);
+		
+		if (diff >= 0) {
+			result = true;
+		}
+		
+		return result;
+	}
+	
+	public void generatePatentListByPersonIds() {
+		ExcelFileReader fr = new ExcelFileReader(PERSON_ID_FILE_PATH);
+		CompanyApplicant[] translations = fr.readCompanyPersonPairs();
+		int i = 0;
+		int j = 0;
+		int size = translations.length;
+		//System.out.println("There are total: " + size);
+		PatentMapper pm = new PatentMapper();
+		CompanyMapper cm = new CompanyMapper();
+		
+		for (i = 0; i < size; i++) {
+			int companyId = translations[i].getCompanyId();
+			String epoName = translations[i].getCompanyName();
+			int personId = translations[i].getPersonId();
+			String[] pubNrs = pm.getPubNrByPersonId(personId);
+			Company company = cm.get(companyId);
+			//System.out.println("There are " + pubNrs.length + " publication numbers from person id " + personId);
+			int pubNrLength = pubNrs.length;
+			if (pubNrLength > 5) {
+				continue;
+			}
+			int sourceFileId = company.getSourceExcelLineNumbers();
+			String originalChineseName = company.getChineseName();
+			String originalEnglishName = company.getEnglishName();
+			for (j = 0; j < pubNrLength; j++) {
+				System.out.println(
+							companyId +
+							"\t" +
+							sourceFileId +
+							"\t" +
+							personId +
+							"\t" +
+							originalChineseName +
+							"\t" +
+							originalEnglishName +
+							"\t" +
+							epoName +
+							"\t" +
+							pubNrs[j]
+						);
+			}
+		}
 	}
 }

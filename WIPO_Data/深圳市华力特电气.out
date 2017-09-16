@@ -1,0 +1,1465 @@
+1. 106601549 一种直流继电保护控制方法及电路
+CN
+26.04.2017
+H01H 47/18 Loading...
+H01H 47/18
+Loading...
+102016001139831
+深圳市华力特电气有限公司
+范永全
+H01H 47/18
+Loading...
+本发明公开了一种直流继电保护控制电路，所述电路包括控制器、脉冲控制开关电路以及继电器。所述方法包括S1、对继电器开关控制信号进行延时一段时间T1，同时使继电器两触点在预设时间T2内导通，所述T2大于T1；S2、当两个触点的电平一致，控制继电器线圈导通或断开，使继电器的两触点吸合或关闭。继电器触点闭合瞬间的机械抖动期间不产生触点间电位抖动；继电器线圈得电和失电瞬间都将产生脉冲控制触点两端短时导通；结合MOST开关与普通继电器触点开关的优点于一身，不会出现电火花放电的情况，本发明作为一种直流继电保护控制电路，广泛适用于电子电路技术领域。
+2. 103164538 一种数据解析方法和装置
+CN
+19.10.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000125255
+深圳市华力特电气股份有限公司
+梁玉生
+G06F 17/30
+Loading...
+本发明公开了一种数据解析的方法和装置。本发明实施例提供的数据解析的方法采用将数据文件划分为固定大小的多个数据块，将数据块通过缓冲区buf依次送入创建的共享解析BLOCK队列中，从而对BLOCK队列中的数据块依次进行读取和解析，大大缓解了传统的串行解析算法一次性解析数据所造成的加载时间过长的局面，提高了海量数据的解析效率，同时提高相应软件系统的运行效率及波形绘制效率。
+3. 103457755 一种IEC 61850系统通信故障检测的方法及系统
+CN
+31.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102012000182879
+深圳市华力特电气股份有限公司
+梁玉生
+H04L 12/24
+Loading...
+本发明涉及电力系统自动化技术领域，公开了一种实现IEC 61850系统通信故障检测的方法及系统，将针对网络接口故障的检测和针对各个网络节点故障的检测进行有机结合来检测IEC 61850系统通信故障。通过MII检测本地网络接口的状态，快速检测网络接口是否为连接状态，在网络接口为连接状态的情况下，通过向各个关联的网络节点发检测报文，并监测所述相关联的网络节点的响应报文，当在规定的预设时间内未收到所述相关联的网络节点的响应报文时，则确定对应的网络节点为故障网络节点。采用本发明网络故障定位准确，而且网络故障检出速度快，因此，不仅能够提高网络故障点的识别效率，还可以降低系统的维护成本，提高客户的满意度。
+4. 105186561 再生制动能量回馈装置、系统及方法
+CN
+23.12.2015
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201510559501.8
+深圳市华力特电气股份有限公司
+简炼
+H02J 3/38
+Loading...
+本发明公开了一种再生制动能量回馈装置，包括电压测量开关电路和逆变器，电压测量开关电路的第一输入端用于连接接触网，电压测量开关电路的第一输出端连接逆变器的输入端，逆变器的输出端用于向交流电网输出交流电；其中，电压测量开关电路用于检测接触网的直流电压，当检测到的直流电压大于或等于预设的直流电压时，将逆变器的输入端和接触网连通；逆变器用于当逆变器的输入端和接触网连通后，将接触网输入的直流电转换为交流电。本发明还提供了相应的系统和方法。本发明将列车制动的能量回收至交流电网，避免能量的浪费，维持了接触网电压的稳定，而且本发明装置可以安装于站点内，减轻了列车的负担，节约了列车的能耗。
+5. 203515231 一种地铁非接触式屏蔽门单元和系统
+CN
+02.04.2014
+E06B 5/10 Loading...
+E06B 5/10
+Loading...
+201320588212.7
+深圳市华力特电气股份有限公司
+屠方魁
+E06B 5/10
+Loading...
+一种地铁非接触式屏蔽门单元，包括一具有出入口的固定在站台边缘上用于隔断站台区域和轨道区域的固定门、一可沿一运行区域直线往复运动的用于封闭和打开出入口的移动门、一用于驱动所述移动门在所述运行区域内直线往复运动的驱动装置及控制驱动装置的门机控制器，移动门受磁力作用处于悬浮状态，驱动装置为直线电机，移动门通过该直线电机驱动从而在其运行区域内直线往复运动实现门的开闭。本实用新型还公开一种由上述屏蔽门单元组成的屏蔽门系统。本实用新型采用上述的技术方案，使得这种地铁屏蔽门单元的移动门不再与任何零部件发生机械接触，具有无摩擦、无磨损，低能耗、无噪音、低维护成本的特点，并且易于实现精确的控制。
+6. 103485673 Metro non-contact type shielding door unit and system
+CN
+01.01.2014
+E06B 3/46 Loading...
+E06B 3/46
+Loading...
+201310435934.3
+深圳市华力特电气股份有限公司
+屠方魁
+E06B 3/46
+Loading...
+A metro non-contact type shielding door unit comprises a fixed door, a movable door, a driving device and a door machine controller, wherein the fixed door is provided with an entrance and exit and fixed on the edge of a platform to be used for separating a platform area and a track area; the movable door can perform straight reciprocating motion along a running area to be used for closing and opening the entrance and exit; the driving device is used for driving the movable door to perform straight reciprocating motion in the running area; and the door machine controller controls the driving device. The movable door is in a suspension state due to the magnetic force effect, the driving device is a linear motor, and the movable door is driven by the linear motor to perform straight reciprocating motion in the running area so as to achieve opening and closing. The invention further discloses a shielding door system composed of the shielding door units. According to the technical scheme, the movable door of the metro shielding door unit is no longer in mechanical contact with any part and has the advantages of being free of friction, abrasion and noise and low in energy consumption and maintenance cost, and accurate control is easy to achieve.
+7. 203084488 一种继电保护装置
+CN
+24.07.2013
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+201220680810.2
+深圳市华力特电气股份有限公司
+董光府
+G05B 19/048
+Loading...
+本实用新型实施例公开了一种继电保护装置，应用于通信技术领域。一种继电保护装置，包括：数字隔离模块，与CPU连接，用于对电源进行隔离以及对输入和输出的信号进行隔离；RS485通信模块，与数字隔离模块连接。本实用新型实施例能够减少元件的占用面积。
+8. 203086097 一种继电保护装置
+CN
+24.07.2013
+H02H 1/00 Loading...
+H02H 1/00
+Loading...
+201220694523.7
+深圳市华力特电气股份有限公司
+董光府
+H02H 1/00
+Loading...
+本发明实施例公开了一种继电保护装置，应用于通信技术领域。一种继电保护装置，包括：采集模块，用于采集外部电流，将外部电流转换成供第一处理器使用的采集信号；第一处理器，用于接收采集信号，将采集信号进行处理，形成电流数据，向逻辑处理模块发送所述电流数据，并向第二处理器发送中断信号；第二处理器，用于接收中断信号时，从所述逻辑处理模块接收所述电流数据，将所述电流数据进行处理，若判断满足保护条件，则输出保护信号，并向控制中心输出保护事件；逻辑处理模块，用于接收保护信号时，输出保护中断，所述保护中断用于驱动电网中的断路器。本发明实施例数据处理能力和通信能力强。
+9. 203085309 一种电阻
+CN
+24.07.2013
+H01C 13/02 Loading...
+H01C 13/02
+Loading...
+201220694793.8
+深圳市华力特电气股份有限公司
+胡先菁
+H01C 13/02
+Loading...
+本实用新型公开提供了一种电阻，该电阻包括云母管、安装板和多个带形电阻片，所述云母管的端侧沿所述带形电阻片延伸方向可滑动的安装在所述安装板上。该电阻由于将安装板上用以安装云母管的位置设置为可滑动形式，从而使得将多个带形电阻片的一端侧固定串接在一起的云母管能够在带形电阻片延伸的方向上移动；在带形电阻片通入大电流产生高温而膨胀时，能够沿其延伸方向自由伸缩变形，而不会产生较大的弯曲形变，因此不会接触到其他的带形电阻片，避免了电阻内部短路情况的出现，进而避免了电阻因短路原因引起的损坏，保证了其使用寿命。
+10. 103200047 一种互操作测试方法
+CN
+10.07.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310105252.6
+深圳市华力特电气股份有限公司
+胡波
+H04L 12/26
+Loading...
+本发明实施例公开了一种互操作测试方法，用于变电站内设备的互操作测试，检测被测设备存在的偏差，确保被测设备的互操作性能。本发明实施例中主要通过分别对被测设备、与被测设备相类似的通信设备、客户端设备之间进行互操作测试，获取测试结果与标准协议中期望的结果进行比较来查找被测设备存在的偏差，从而纠正被测设备的偏差，保证顺畅通信。
+11. 203012014 一种电能采集设备
+CN
+19.06.2013
+G01R 22/10 Loading...
+G01R 22/10
+Loading...
+201220523450.5
+深圳市华力特电气股份有限公司
+文小龙
+G01R 22/10
+Loading...
+本申请提供了一种电能采集设备，包括：用于采集电信号的采集电路；与所述采集电路相连，用于对所述电信号进行模数转换，且内部包含8路跟踪保持放大器的16位模数转换器（ADC）。通过本申请提供的电能采集设备，只用一片16位ADC就可以达到8路模拟信号同时采集的效果，并且该16位ADC内包含8路跟踪保持放大器，该跟踪保持放大器的功能相当于跟随电路，所以本申请在不用增加跟随电路的情况下提高驱动，减少设备中元器件数量，简化电路结构。
+12. 202930897 一种继电保护装置
+CN
+08.05.2013
+H02H 1/00 Loading...
+H02H 1/00
+Loading...
+201220531978.7
+深圳市华力特电气股份有限公司
+郭彩霞
+H02H 1/00
+Loading...
+本实用新型公开了一种继电保护装置，包括一端与待保护线路相连的、接收所述待保护线路的电信号的第一CPU；一端通过SPI总线与所述第一CPU相连、另一端与开关设备相连的、若接收的所述第一CPU发送的电信号满足预设条件则控制所述开关设备对所述待保护线路进行继电保护处理的第二CPU，利用双CPU对待保护电路实施继电保护任务，使得继电保护装置具有更强大的处理能力，从而实现了两个CPU之间的高速通信，扩展了继电保护装置的功能。
+13. 202930927 一种继电保护装置
+CN
+08.05.2013
+H02H 7/26 Loading...
+H02H 7/26
+Loading...
+201220526398.9
+深圳市华力特电气股份有限公司
+郭彩霞
+H02H 7/26
+Loading...
+本实用新型实施例公开了一种继电保护装置。本实用新型实施例采用确定当前单板是否为开入板，若是，则从所述开入板上采集开入量，并存储开入量；若否，则调用存储的开入量，在根据调用的开入量确定需要控制开出时，确定开出的通道，利用确定的开出的通道进行开出控制。该方案可以根据实际需求对开出的通道数进行配置，较为灵活，而且可以将开出板和开入板都做成通用的单板，有利于减少继电保护装置的体积和成本，节省资源。
+14. 202930928 应用于排流柜的保护支路和排流柜
+CN
+08.05.2013
+H02H 9/02 Loading...
+H02H 9/02
+Loading...
+201220381019.1
+深圳市华力特电气股份有限公司
+石亮
+H02H 9/02
+Loading...
+本实用新型实施例公开了一种应用于排流柜的保护支路和排流柜。其中一种应用于排流柜的保护支路，排流柜包括排流二极管支路和/或接地二极管支路，其中，排流二极管支路和/或接地二极管支路与保护支路并联；保护支路包括至少一个电阻器和电容器，其中，所述电容器和所述电阻器串联。本实用新型方案有利于有效的抑制系统可能出现的电压、电流涌动，稳定排流柜工作状态。
+15. 103034613 一种处理器间的数据通信方法及FPGA设备
+CN
+10.04.2013
+G06F 15/163 Loading...
+G06F 15/163
+Loading...
+201210534967.9
+深圳市华力特电气股份有限公司
+董光府
+G06F 15/163
+Loading...
+本发明实施例提供一种处理器间的数据通信方法及FPGA设备，通过FPGA读取第一处理器中输出的数据，再向第二处理器写入中断信号，使得第二处理器从FPGA中读取该FPGA接收到的第一处理器输出的数据。与现有技术中利用双端口RAM芯片实现处理器间的通信方式相比，能够实时交换数据，逻辑实现更为灵活，性价比更高。
+16. 103036200 一种非电量保护重动继电器的控制电路及控制方法
+CN
+10.04.2013
+H02H 5/00 Loading...
+H02H 5/00
+Loading...
+201110304328.9
+深圳市华力特电气股份有限公司
+罗良庆
+H02H 5/00
+Loading...
+本发明实施例公开了一种非电量保护重动继电器的控制电路及控制方法，用于保证电路中的跳闸出口继电器的起动时间、跳闸出口回路的动作电压及跳闸出口回路的起动功率满足国家关于非电量保护装置的相关规定。本发明实施例方法包括：跳闸出口继电器，电阻电容回路，电阻，各跳闸出口继电器的线圈两端均并联一个电阻电容回路，以控制跳闸出口继电器的起动时间，各跳闸出口支路中均串联一个电阻，所串联的电阻的一端与跳闸出口继电器的一端相连接，以控制跳闸出口回路的动作电压，在跳闸出口回路两端并联一个电阻，所并联的电阻与任一个跳闸出口继电器的常闭接点串联，以增加跳闸出口回路的起动功率。
+17. 103019957 一种电力故障录波存储方法及装置
+CN
+03.04.2013
+G06F 12/08 Loading...
+G06F 12/08
+Loading...
+201210447225.2
+深圳市华力特电气股份有限公司
+张进军
+G06F 12/08
+Loading...
+本发明实施例公开了一种电力故障录波存储方法及装置，应用于电力系统领域。一种电力故障录波存储方法，包括：采集模块采集中断数据，将所述中断数据循环记录到缓冲栈中；录波模块定时读取所述缓冲栈中的波段数据，将所述波段数据记录到波形缓冲中，当所述波形缓冲写满时，发出通知信号，并将所述波形缓冲中的数据保存到缓冲队列中，所述波段数据由未读取的中断数据组成；存储模块接收所述通知信号后，读取所述缓冲队列中的数据，并保存到存储空间中。本发明实施例能够防止数据丢失，实时且稳定。
+18. 202794320 一种杂散电流监测装置
+CN
+13.03.2013
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201220180056.6
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/25
+Loading...
+本实用新型公开了一种杂散电流监测装置。所述杂散电流监测装置包括：采集当前监测铁轨的至少一种电气参数的采样电路；与所述采样电路相连的、分析处理所述采样电路所采集的电气参数的处理器；与所述处理器相连的、显示所述电气参数中当前待显示信息的显示器。可见，与现有技术相比，本实用新型所提供的杂散电流监测装置可以通过一显示屏准确显示所监测铁轨的至少一种电气参数。
+19. 202796290 一种限流电阻器
+CN
+13.03.2013
+H01C 3/20 Loading...
+H01C 3/20
+Loading...
+201220383584.1
+深圳市华力特电气股份有限公司
+石亮
+H01C 3/20
+Loading...
+本实用新型实施例公开了一种限流电阻器，用于提升通流能力和耐高温能力，且结构简单，使用空间较小，安装方便。本实用新型实施例提供的限流电阻器包括至少两组电阻组件，电阻组件包括不锈钢螺杆，不锈钢螺杆上还套设有多个外周设置为齿状结构的锯齿瓷件，电阻组件还包括缠绕在锯齿瓷件外的螺旋电阻带。
+20. 202796274 一种瓷绝缘子
+CN
+13.03.2013
+H01B 17/38 Loading...
+H01B 17/38
+Loading...
+201220365542.5
+深圳市华力特电气股份有限公司
+吴志云
+H01B 17/38
+Loading...
+本实用新型实施例公开了一种瓷绝缘子，用于安装在地铁车辆制动电阻器中，起着保护制动电阻器安全运行的作用。本实用新型实施例包括：两个铜嵌件、瓷元件；瓷元件为实心瓷体，且外围设置伞裙；瓷元件的两端设置凹槽，两个铜嵌件通过水泥镶嵌在瓷元件的两端的凹槽内，该瓷绝缘子具有较长的爬电距离，且结构强度高，抗振动能力强的特点。
+21. 202794318 一种采集电路
+CN
+13.03.2013
+G01R 19/22 Loading...
+G01R 19/22
+Loading...
+201220447523.7
+深圳市华力特电气股份有限公司
+文小龙
+G01R 19/22
+Loading...
+本实用新型公开了一种采集电路，由转换单元、保护单元、运放单元、滤波单元依次连接而成。所述转换单元接收0V～680V交流电压信号，并转换为恒流型电流信号，所述保护单元接收恒流型电流信号，并将所述恒流型电流信号消除震荡，且防止所述转换单元输出端开路，避免产生高压。所述运放单元接收所述保护单元输出信号，将所述保护单元输出的电流信号转变为电压信号并进行运算放大，输出给滤波单元。所述滤波单元滤除高频信号保证输出信号没有高频信号干扰。使电路可以采集到高于220V的交流电压，并供给ADC电路进行采集。
+22. 202795105 一种温湿度控制器
+CN
+13.03.2013
+G05D 27/02 Loading...
+G05D 27/02
+Loading...
+201220383585.6
+深圳市华力特电气股份有限公司
+石亮
+G05D 27/02
+Loading...
+本实用新型实施例公开了一种温湿度控制器，用于实时监控单向导通装置中的温度变化和湿度变化。其中，温湿度控制器应用于杂散电流防护系统中的单向导通装置内，该温湿度控制器包括：用于实时监测单向导通装置内温度变化的温度传感器；用于实时监测单向导通装置内湿度变化的湿度传感器；与温度传感器和湿度传感器相连，用于实时获取单向导通装置内的温湿度值，并发出控制指令的温湿度控制单元；用于接收并根据温湿度控制单元发出的控制指令，进行自动投切的加热片。
+23. 102928703 一种测量短时闪变的方法及系统
+CN
+13.02.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201210417193.1
+深圳市华力特电气股份有限公司
+程许平
+G01R 31/00
+Loading...
+本发明公开一种测量短时闪变的方法及系统。所述方法，包括：在预设时间内，获取瞬时闪变值；对所述瞬时闪变值进行分级，每个级别对应于瞬时闪变值的一个取值；记录各个级别下的所述瞬时闪变值的个数；根据所述级别，以及各个级别下的所述瞬时闪变值的个数，确定刚好小于全部瞬时闪变值中的0.1%，1%，3%，10%，50%的五个瞬时闪变值；根据公式计算所述预设时间内的短时闪变。采用本发明的方法或系统，能够减少计算过程中需要存储的数据量，使小型计算系统可以支持短时闪变的计算过程，并且简化计算过程，能够实时得到短时闪变值。
+24. 102930945 一种弹簧状电阻芯片的装配方法和装置
+CN
+13.02.2013
+H01C 17/04 Loading...
+H01C 17/04
+Loading...
+201210427773.9
+深圳市华力特电气股份有限公司
+何良
+H01C 17/04
+Loading...
+本发明公开了一种弹簧状电阻芯片的装配装置，包括驱动轴和能够带动所述驱动轴转动的驱动装置。本发明可以将固定杆套于所述驱动轴外侧，且与之固定，使得所述驱动轴能够带动所述固定杆进行转动。同时，本发明可以将所述固定杆与弹簧状电阻芯片的一端接触，控制所述驱动装置带动所述固定杆转动，从而使得所述弹簧状电阻芯片随所述固定杆转动逐步缠绕于所述固定杆上，其中，所述固定杆外表面设置有与弹簧状电阻芯片相匹配的齿状结构。相对于人工装配，本发明降低了装配时间，提高了生产效率。
+25. 102915817 一种圆柱螺旋弹簧状电阻元件自动装配设备
+CN
+06.02.2013
+H01C 17/04 Loading...
+H01C 17/04
+Loading...
+201210424067.9
+深圳市华力特电气股份有限公司
+胡先菁
+H01C 17/04
+Loading...
+本发明实施例公开了一种圆柱螺旋弹簧状电阻元件自动装配设备，用于自动装配圆柱螺旋弹簧状电阻元件，提高操作效率和产品质量。本发明实施例包括：驱动机构，瓷管装夹机构和电阻元件夹紧机构；驱动机构包括输入轴、齿轮轴和输出轴，用于在制动电机的驱动下，通过与制动电机相连接的输入轴、齿轮轴和输出轴，带动装夹在瓷管装夹机构上的瓷管旋转；瓷管装夹机构与输出轴相连接，瓷管装夹机构用于对瓷管进行装夹；电阻元件夹紧机构为多连杆结构设置，用于在操作杆的推动下带动各连杆运动，且在瓷管装夹机构的旋转下，使得圆柱螺旋弹簧状电阻元件缠绕压紧在装夹的瓷管表面。
+26. 102854369 Voltage transient detection method, device and processor
+CN
+02.01.2013
+G01R 19/12 Loading...
+G01R 19/12
+Loading...
+201210370382.8
+深圳市华力特电气股份有限公司
+程许平
+G01R 19/12
+Loading...
+The invention relates to the field of electric power application, in particular to a voltage transient detection method, device and processor. The voltage transient detection method is suitable for detection for voltage transient conditions in a power system. According to the method, whether changes of current voltage are reasonable is judged through a relative voltage change rate between a current voltage value and a voltage value of a prior sampling period, current voltage change conditions are compared with a historical state under the conditions that voltage change is not reasonable, normal fluctuation of voltage is stated if the current voltage change conditions are the same as the historical state, transient of the voltage occurs if the current voltage change conditions are not the same as the historical state, so that whether the transient of the voltage occurs can be detected accurately, and electric energy transmitting quality is guaranteed.
+27. 202600041 一种移动式杂散电流监测装置
+CN
+12.12.2012
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201220120114.6
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/25
+Loading...
+本实用新型实施例公开了一种移动式杂散电流监测装置，包括：计时时间达到预设时间值时发送触发信息，并清零的计时器；采集钢轨电压、钢结构电压和参比电极电压，并将钢轨电压、钢结构电压和参比电极电压转换为数字电压信号的电压采集器；与电压采集器相连接，依据电压采集器采集到的数字电压信号分别计算轨构电压、电极电压和极化电压的第一计算器；分别与计时器和第一计算器相连接，接收所述计时器发送的触发信息，分别计算预设时间段内，轨构电压和极化电压的最大值、最小值和平局值，以及极化电压的正向平均值和负向平均值的第二计算器，该移动式杂散电流监测装置能够获得准确的电压值，并进行实时计算，从而保证了监测结果的准确性和实时性。
+28. 202600042 一种移动式杂散电流监测装置
+CN
+12.12.2012
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201220129372.0
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/25
+Loading...
+本实用新型公开了一种移动式杂散电流监测装置，所述移动式杂散电流监测装置包括：电压采集端口、数据计算器和存储器，实际应用时，所述电压采集端口用于采集电压值，所述数据计算器计算得到电压值的平均值，并发送给存储器，由所述存储器进行存储，从而不需要构建通讯网络、配置后台监控系统，节省了成本。另外，不需要通过通讯网络将电压值传输给所述后台监控系统，不再受到网络故障的干扰，提高了杂散电流采集、监测过程中的安全性。
+29. 202487306 均流装置
+CN
+10.10.2012
+H01C 13/02 Loading...
+H01C 13/02
+Loading...
+201220020759.2
+深圳市华力特电气股份有限公司
+胡先菁
+H01C 13/02
+Loading...
+本申请公开了一种均流装置，多个电阻器、连接铜排、瓷绝缘子、箱体外壳和固定座，其中：电阻器由多个电阻单元通过连接铜排串联而成；多个电阻单元层叠放置，并且每个电阻单元为叠放在一起的多个电阻片；电阻器固定在箱体外壳上，并且箱体外壳固定在固定座上。该均流装置中，每个电阻器由多个电阻单元串联而成，并且每个电阻单元由多个平行放置、且相互间隔绝缘的电阻片组成，这样使得电阻单元不仅具有较大通流容量，而且散热效率高，提高了抗短路能力，并且多个电阻器之间可以相互作为备份，即当任何一个电阻器出现故障时，另一电阻器可以接替运行，提高了该均流装置的可靠性。
+30. 202383445 一种地铁杂散电流的排流控制装置
+CN
+15.08.2012
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201120452422.4
+深圳市华力特电气股份有限公司
+张进军
+G05B 19/04
+Loading...
+本实用新型实施例公开了一种地铁杂散电流的排流控制装置，用于实现地铁迷流监测系统中更快、更稳定地排放杂散电流。本实用新型实施例方法包括：排流控制逻辑模块；PWM输出模块；采样模块；模拟量计算模块；CPU；人机接口模块；通讯模块；其中，排流控制逻辑模块设置于主控制板，一端与CPU电性连接，另一端与PWM输出模块电性连接，用于当获取到CPU中FreeRTOS嵌入式实时操作系统命令队列中的排放杂散电流命令时，优先进行排流逻辑处理及排流输出。
+31. 202307395 中性点接地电阻
+CN
+04.07.2012
+H01C 13/02 Loading...
+H01C 13/02
+Loading...
+201120415596.3
+深圳市华力特电气股份有限公司
+何良
+H01C 13/02
+Loading...
+本申请公开了一种中性点接地电阻，包括：两个电阻片安装板、多个电阻组件和多个连接板，其中：每个电阻片安装板上设置有多个安装孔，并且两个电阻片安装板固定在多个电阻组件的两端，多个电阻组件相平行，并且每个电阻组件的端部均固定在电阻片安装板的通孔内；电阻组件包括：若干个外周带有齿状结构的锯齿瓷件、凸起型圆柱瓷件、凹进型圆柱瓷件、螺旋电阻带、不锈钢螺杆、云母箔片、多个云母垫、两个接线板和若干个固定螺栓。该中性点接地电阻的每个电阻组件中，螺旋电阻带缠绕在多个锯齿瓷件上，这样就使得电阻组件的外形尺寸大大缩小，并且每个电阻组件内的装配元件结构简单，种类较少，所以在装配时，可以提高装配效率和产品的质量。
+32. 202307382 一种制动电阻器
+CN
+04.07.2012
+H01C 1/022 Loading...
+H01C 1/022
+Loading...
+201120429409.7
+深圳市华力特电气股份有限公司
+吴志云
+H01C 1/022
+Loading...
+本申请公开了一种制动电阻器，包括：进风罩、风机、出风罩、电阻柜和电阻单元，其中：电阻柜由六块面板通过可拆卸方式连接而成；风机固定在右侧板上，进风罩位于风机的进风口上，出风罩固定在左侧板上；电阻柜内侧的上面板和底面板上均设有至少两个相平行的导轨，每一个导轨的两端均设有卡槽；电阻单元由至少一个电阻元件组成，电阻元件的上边和下边均固定有滑轨，并且上边的滑轨夹放在上面板上相邻两个导轨之间，下边的滑轨夹放在底面板上相邻两个导轨之间，在每个导轨的卡槽内均设有电阻压条。与现有技术相比，该制动电阻器在维护时，无需拆卸电阻柜骨架，只需拆卸电阻柜的前面板或后面板即可，维护简单方便，降低了维护的成本。
+33. 202309029 一种非电量保护重动继电器的控制电路
+CN
+04.07.2012
+H02H 5/00 Loading...
+H02H 5/00
+Loading...
+201120369625.7
+深圳市华力特电气股份有限公司
+罗良庆
+H02H 5/00
+Loading...
+本实用新型实施例公开了一种非电量保护重动继电器的控制电路，用于保证电路中的继电器的起动时间、跳闸出口回路的动作电压及跳闸出口回路的起动功率满足国家关于非电量保护装置的相关规定。本实用新型实施例方法包括：跳闸出口继电器，电阻电容回路，电阻，各跳闸出口继电器的线圈两端均并联一个电阻电容回路，以控制跳闸出口继电器的起动时间，各跳闸出口支路中均串联一个电阻，所串联的电阻的一端与跳闸出口继电器的一端相连接，以控制跳闸出口回路的动作电压，在跳闸出口回路两端并联一个电阻，所并联的电阻与任一个跳闸出口继电器的常闭接点串联，以增加跳闸出口回路的起动功率。
+34. 202309031 一种采用继电器控制的变压器非电量保护装置
+CN
+04.07.2012
+H02H 7/04 Loading...
+H02H 7/04
+Loading...
+201120395095.3
+深圳市华力特电气股份有限公司
+文小龙
+H02H 7/04
+Loading...
+本实用新型公开了一种采用继电器控制的变压器非电量保护装置，包括信号输入模块，跳闸出口模块，信号输出模块，信号指示灯模块和信号复归模块；所述非电量信号进入所述跳闸出口模块后直接进行出口跳闸，所述非电量信号经过所述信号输入模块重动后进入所述信号输出模块和信号指示灯模块，所述信号输出模块发出远动信号和中央告警总信号，所述信号指示灯模块发出本地指示信号，所述信号复归模块在收到复归信号后使所述信号输出模块和信号指示灯模块中的触点回到原来状态。本实用新型实施例提供的保护装置可以有效的对变压器的非电量信号进行信号重动，本地指示和远方传送，以及能及时在变压器非电量故障状态下跳开与变压器关联的断路器等。
+35. 202305654 一种杂散电流采集装置
+CN
+04.07.2012
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201120227289.2
+深圳市华力特电气股份有限公司
+程许平
+G01R 19/25
+Loading...
+本实用新型实施例公开了一种杂散电流采集装置，用于在杂散电流采集装置采集到相应数据的之后，在本地存储该数据。该装置包括：检测单元、主控单元和存储单元；所述检测单元用于检测排流网中的电信号，并向所述主控单元发送所述电信号；所述主控单元用于接收所述检测单元发送的电信号，并对所述电信号进行数据统计，向所述存储单元发送所述数据统计的结果；所述存储单元用于接收所述主控单元发送的数据统计的结果，并存储所述数据统计的结果。
+36. 202309032 一种变压器智能保护装置
+CN
+04.07.2012
+H02H 7/04 Loading...
+H02H 7/04
+Loading...
+201120396610.X
+深圳市华力特电气股份有限公司
+文小龙
+H02H 7/04
+Loading...
+本实用新型公开了一种变压器智能保护装置，包括中央处理器，模拟量输入模块，开关量输入模块和开关量输出模块，所述开关量输入模块接收变压器输出的非电量信号，所述模拟量输入模块接收变压器输出的电量信号，所述非电量信号或/和电量信号进入所述中央处理器，所述中央处理器对所述非电量信号或/和电量信号进行计算分析后，根据计算分析后的信号，发送出口命令信号给所述开关量输出模块，所述开关量输出模块根据所述出口命令信号执行跳闸出口动作；所述开关量输入模块包括光耦隔离器，所述非电量信号经过所述光耦隔离器进入所述中央处理器。本实用新型实施例提供的变压器智能保护装置具有很好的抗干扰能力。
+37. 202306235 一种智能排流控制装置
+CN
+04.07.2012
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+201120227271.2
+深圳市华力特电气股份有限公司
+文小龙
+G05B 19/048
+Loading...
+本实用新型实施例公开了一种智能排流控制装置，用于在监测排流支路的情况下，灵活的进行排流操作。该装置包括：主控模块、模拟量输入模块、脉宽调制PWM模块、开关量输入模块以及开关量输出模块；所述模拟量输入模块、脉宽调制模块、开关量输入模块以及开关量输出模块分别与所述主控模块相连接。所述主控模块用于对所述模拟量输入模块和模拟量输入模块传输的数据进行分析，并根据所述分析的结果控制所述开关量输出模块以及脉宽调制模块进行相应的操作。
+38. 102520676 一种操作票生成方法以及相关装置
+CN
+27.06.2012
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201110331128.2
+深圳市华力特电气股份有限公司
+胡波
+G05B 19/418
+Loading...
+本发明实施例公开了一种操作票生成方法以及相关装置，用于根据实时的系统状态自动生成操作票。本发明实施例方法包括：检测系统的当前状态是否满足生成操作票的启动条件，若是，则建立操作票初始模型；根据所述当前状态进行操作命令的匹配，若成功匹配操作命令，则在所述操作票初始模型中加载所述操作命令，并根据加载操作命令后的操作票初始模型进行仿真操作，若仿真成功，则将所述加载操作命令后的操作票初始模型保存为操作票。
+39. 102510048 一种防越级跳闸保护系统
+CN
+20.06.2012
+H02H 7/26 Loading...
+H02H 7/26
+Loading...
+201110331115.5
+深圳市华力特电气股份有限公司
+韩韫
+H02H 7/26
+Loading...
+本发明公开了一种防越级跳闸保护系统，用在煤矿供电系统中，煤矿供电系统包括多级变电所，防越级跳闸保护系统包括多个保护控制器，各级变电所的每个断路器中设有一个保护控制器，各保护控制器之间通过光纤以太网连接，各级保护控制器采用GOOSE直接通信；当煤矿供电系统中某一点发生故障时，各级变电所任一线路的保护控制器启动，直接向上一级发出闭锁信号，同时检测下一级是否有闭锁信息发出，如果检测到闭锁信息，则闭锁速断出口，否则故障电流若超过保护速断定值，则跳开故障线路，闭锁时间按照闭锁信息可靠传输时间和下一级保护可靠跳闸时间配合确定。本发明实施例提供的防越级跳闸保护系统，实现了选择性，可以防止越级跳闸现象的产生。
+40. 102508895 一种读取ini文件的方法及装置
+CN
+20.06.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110341758.8
+深圳市华力特电气股份有限公司
+勒长华
+G06F 17/30
+Loading...
+本发明实施例公开了一种读取ini文件的方法及装置，用于迅速的定位再次读取ini文件时，本次需读取的位置，从而快速读取该ini文件。本发明实施例方法包括：退出所读取的ini文件时，记录该ini文件当前读取的文件字符串，文件字符串包括AppName字符串，当再次读取该ini文件时，判断当前AppName字符串是否为所记录的AppName字符串，若是，则查找本次需读取的KeyName字符串，当查找到本次需读取的KeyName字符串时，从查找到的KeyName字符串处开始读取ini文件。
+41. 102495841 一种电力系统监控方法以及相关装置
+CN
+13.06.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110359722.2
+深圳市华力特电气股份有限公司
+胡波
+G06F 17/30
+Loading...
+本发明实施例公开了一种电力系统监控方法以及相关装置，用于将传统变电站与符合IEC61850标准的变电站融合起来混合运行。本发明实施例方法包括：对IEC61850变电站进行数据对象模型和通讯模型的建模，根据所述数据对象模型和通讯模型配置IEC61850客户端的功能；将所述数据对象模型解析，导出可扩展标记语言XML文件；将所述XML文件映射成四遥数据；在所述四遥数据中提取需要上传到远动主站的数据信息，根据所述数据信息生成能力描述ICD文件；向所述远动主站发送所述ICD文件；所述电力系统监控装置接收所述远动主站下发的CID文件，并根据所述CID文件配置IEC61850服务端的功能。
+42. 202257200 一种杂散电流测控装置和杂散电流防护系统
+CN
+30.05.2012
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201120227260.4
+深圳市华力特电气股份有限公司
+程许平
+G05B 19/418
+Loading...
+本实用新型实施例公开了一种杂散电流测控装置和杂散电流防护系统，其中，杂散电流测控装置由模拟量采集模块、用开关量输入模块、开关量输出模块、通讯模块以及由数字信号处理器构建的控制处理模块构成。本实用新型实施例中的杂散电流测控装置采用数字信号处理器作为主控制芯片，可为减少杂散电流对地下金属部件的电化腐蚀提供有效可靠的依据。
+43. 202260441 一种电流消弧装置
+CN
+30.05.2012
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+201120227288.8
+深圳市华力特电气股份有限公司
+文小龙
+H02H 9/08
+Loading...
+本实用新型实施例公开了一种电流消弧装置，包括：用于采集电压信号的电压采集模块；与电压采集模块连接的，用于触发可控硅驱动模块的触发模块；与触发模块连接的，用于驱动可控硅的可控硅驱动模块；与可控硅驱动模块连接的可控硅。本实用新型实施例中的电流消弧装置采用纯硬件电路，因此不存在软件处理导致的时间延迟的弊端，可保证第一时间避免电火花的产生，有效达到消弧作用。
+44. 202258594 一种中性点接地电阻以及相关元件
+CN
+30.05.2012
+H01C 3/20 Loading...
+H01C 3/20
+Loading...
+201120353300.X
+深圳市华力特电气股份有限公司
+胡先箐
+H01C 3/20
+Loading...
+本实用新型实施例公开了一种外形尺寸小、生产安装方便的中性点接地电阻以及相关元件。本实用新型实施例方法包括：螺旋槽瓷管(11)和弹簧形电阻(12)；所述弹簧形电阻(12)为螺旋的电热合金线材缠绕而成的弹簧形结构；所述弹簧形电阻(12)沿所述螺旋槽瓷管(11)的螺纹缠绕在所述螺旋槽瓷管(11)之上。
+45. 102436498 一种报表生成方法以及相关装置
+CN
+02.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110360102.0
+深圳市华力特电气股份有限公司
+胡波
+G06F 17/30
+Loading...
+本发明实施例公开了一种报表生成方法，用于根据自定义的函数获取指定的数据信息以生成Excel报表。本发明实施例方法包括：加载用户所选择的自定义函数；从数据库中获取所述自定义函数对应的数据列表，并将所述数据列表显示在所述自定义函数的服务窗口中；根据用户在所述服务窗口中选择的报表项目生成Excel报表。
+46. 202205059 一种地铁杂散电流监控装置
+CN
+25.04.2012
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+201120259226.5
+深圳市华力特电气股份有限公司
+程许平
+G05B 19/048
+Loading...
+本实用新型实施例中，一种地铁杂散电流监控装置，包括：数据采集服务器，并且所述数据采集服务器包括：用于配置每一个外接的极化电压采集点和外接的排流柜中排流通道的对应关系的配置模块；与所述配置模块通信连接，用于存储所述对应关系的存储模块；与所述存储模块通信连接，用于当外接的极化电压采集点一采集的极化电压超过规定值时，读取所述存储模块中存储的与所述极化电压采集点一相关的对应关系，按照与所述极化电压采集点一相关的对应关系启动所述排流柜中排流通道进行排流的处理模块数据，从而能够实现任意配置极化电压采集点与排流柜中排流通道的对应关系，因而接线方式灵活，设计、施工方便。
+47. 202205053 一种杂散电流监控系统
+CN
+25.04.2012
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201120259191.5
+深圳市华力特电气股份有限公司
+程许平
+G05B 19/042
+Loading...
+本实用新型实施例公开了一种杂散电流监控系统，用于对杂散电流进行处理。本实用新型实施例装置包括。用于对极化电压数据进行采集的极化电压采集传感器；包含用于对极化电压数据进行存储及处理的数值信号处理DSP芯片，及用于传输控制信号控制排流柜排流的RS485通信模块的杂散电流采集装置；用于进行排流的排流柜；极化电压采集传感器与排流柜分别与杂散电流采集装置连接。本实用新型具有较强的数据处理能力，能够有效的避免因通信干扰产生的非正常排流过程。
+48. 202206411 一种杂散电流采集装置
+CN
+25.04.2012
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+201120259214.2
+深圳市华力特电气股份有限公司
+程许平
+H04L 12/40
+Loading...
+本实用新型实施例公开了一种杂散电流采集装置，用于杂散电流的采集。本实用新型包括：用于对采集到的极化电压数据进行存储及处理的数字信号处理DSP芯片；用于将DSP芯片处理后的数据输出的RS485通信模块，控制局域网CAN通信模块，以太网通信模块；RS485通信模块，CAN通信模块，以太网通信模块分别与DSP芯片连接。本实用新型实施例能够有效的降低系统的成本，增大杂散电流采集装置的组网灵活性，提高数据传输的实时性。
+49. 102419558 一种地铁杂散电流单向导通控制方法及装置
+CN
+18.04.2012
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201110361662.8
+深圳市华力特电气股份有限公司
+张进军
+G05B 19/04
+Loading...
+本发明实施例公开了一种地铁杂散电流单向导通控制方法及装置，用于实现快速地单向导通，进而降低杂散电流泄露的可能性，保护轨道的特殊地段不受杂散电流的腐蚀。本发明实施例方法包括：获取FreeRTOS嵌入式实时操作系统消息队列中的单向导通命令；根据所述单向导通命令及预置的最高优先级，优先实时进行单向导通逻辑处理；输出进行单向导通逻辑处理后的单向导通信号。
+50. 202171808 一种带电子标签的杂散电流采集装置
+CN
+21.03.2012
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201120259194.9
+深圳市华力特电气股份有限公司
+程许平
+G06K 7/00
+Loading...
+本实用新型实施例公开了一种带电子标签的杂散电流采集装置，用于杂散电流采集装置上设备标签的显示。本实用新型包含：用于设备标签参数设置及显示的电子标签模块；用于数据存储及处理的数字信号处理DSP芯片；用于将DSP芯片处理后的数据输出的RS485通信模块；电子标签模块及RS485通信模块分别与DSP芯片连接。本实用新型实施例中的带电子标签的杂散电流采集装置能够有效的保存及显示标签参数，不易损坏，且便于管理。
+51. 202171732 一种集中式地铁杂散电流监控装置
+CN
+21.03.2012
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201120259215.7
+深圳市华力特电气股份有限公司
+程许平
+G05B 19/042
+Loading...
+本实用新型公开了一种集中式地铁杂散电流监控装置，该装置包括数据采集服务器；在每个外接的极化电压采集点，将参考电极端子和结构钢筋测试端子接至所述装置的一个端子上，在每个所述极化电压采集点所接至的所述装置的端子各不相同；所述数据采集服务器包括：和所有所述装置的端子通信连接的模拟滤波器；和所述模拟滤波器通信连接，用于通过模数转换器进行采样、对采样的杂散电流监测数据进行处理的所述数据处理模块，装置中的数据处理服务器直接对端子上采样的杂散电流监测数据进行处理，因而使用本装置时，可以不用设置后台机，也不用组485通信网，本装置简单，成本低。
+52. 202166851 一种单向导通控制装置和单向导通装置
+CN
+14.03.2012
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201120227259.1
+深圳市华力特电气股份有限公司
+文小龙
+G05B 19/04
+Loading...
+本实用新型实施例公开了一种单向导通控制装置和单向导通装置，其中，单向导通控制装置包括：模拟量输入模块、开关量输入模块、PWM输出模块、可控硅驱动模块、通讯模块以及采用数字信号处理器构建构建的控制处理模块。本实用新型实施例中的单向导通控制装置采用数字信号处理器作为主控制芯片，可对轨道绝缘接头上产生的电流实现高速、可靠和准确的单向导通控制，有效解决电弧打火烧轨道的问题。
+53. 202166690 一种带大屏幕的地铁杂散电流监控装置
+CN
+14.03.2012
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201120228587.3
+深圳市华力特电气股份有限公司
+程许平
+G01R 19/25
+Loading...
+本实用新型提供一种带大屏幕的地铁杂散电流监控装置，包括：数字信号处理芯片；与数字信号处理芯片通信连接的第一存储芯片；与数字信号处理芯片通信连接的显示控制芯片，显示控制芯片也与第一存储芯片通信连接；与显示控制芯片通信连接的信号驱动芯片；与信号驱动芯片通信连接的大屏幕液晶显示器。地铁杂散电流监控装置能够在数字信号处理芯片采集完采样数据之后，通过数字信号处理芯片、显示控制芯片以及信号驱动芯片的操作，本地实现在大屏幕液晶显示器显示数字处理之后的采样数据，为现场操作带来了极大的便利，降低了成本，扩展了装置的使用的灵活性。
+54. 202168038 一种差分运放电路
+CN
+14.03.2012
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+201120228816.1
+深圳市华力特电气股份有限公司
+程许平
+H03F 3/45
+Loading...
+本实用新型实施例公开了一种差分运放电路，用于减小差分信号的电压值，并避免产生运放自激。该装置包括：调节电路，第一运算放大器以及反馈电路；所述调节电路用于接收输入的差分信号，并调节差分运放电路的放大倍数，使得差分运放电路输出信号的电压小于输入信号的电压，所述调节电路的输出端分别与所述第一运算放大器的正极输入端和负极输入端相连；所述反馈电路的一端与所述第一运算放大器的负极输入端相连，所述反馈电路的另一端与所述第一运算放大器的输出端相连，所述第一运算放大器的电源输入端分别接上正极电源与负极电源。
+55. 102353898 一种开关量采集方法及装置
+CN
+15.02.2012
+G01R 31/327 Loading...
+G01R 31/327
+Loading...
+201110194045.3
+深圳市华力特电气股份有限公司
+程许平
+G01R 31/327
+Loading...
+本发明实施例公开了一种开关量采集方法和装置，用于清除在采集开关量中干扰信号造成的抖动。本发明实施例方法包括：读取并记录初始化的第一开关量，当达到预置采样时间时，读取并记录第二开关量，对比第一开关量与第二开关量，若二者不同，则开始记录延时时间，当发生开关变位，判断延时时间是否到达预设值，若否则复位延时时间。
+56. 202068185 应用于电力系统的主控单元
+CN
+07.12.2011
+H02J 3/00 Loading...
+H02J 3/00
+Loading...
+201020541474.4
+深圳市华力特电气股份有限公司
+王波涛
+H02J 3/00
+Loading...
+本实用新型实施例公开了一种应用于电力系统的主控单元，其中，一种应用于电力系统的主控单元包括：一个或多个第一人机交互接口；用于存储程序和数据的存储器，以及与所述存储器和第一人机交互接口连接的处理器；与所述处理器连接的IEC61850通讯模块，IEC61850通讯模块通过OPC标准接口与MMS通讯网关接口进行通讯和实时交换数据。本实用新型技术方案可简化电力系统模型的建模处理过程，有效地节省工程人员利用主控单元建立电力系统模型的时间。
+57. 102254013 Data processing method and data processing device
+CN
+23.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110204974.8
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Cheng Xuping
+G06F 17/30
+Loading...
+The embodiment of the invention discloses a data processing method and a data processing device. The data processing method and the data processing device are used for saving data storage space in a flash memory. The method comprises the following steps of: establishing an information corresponding relation table between sampling points and a storage position in the flash memory, converting a sampling time value of sampling data acquired from the sampling points into storage position information, inquiring the information corresponding relation table, and writing the converted sampling data into the corresponding storage position in the flash memory.
+58. 201893518 内电场调控空气绝缘开关设备
+CN
+06.07.2011
+H02B 13/035 Loading...
+H02B 13/035
+Loading...
+201020605474.6
+国网电力科学研究院武汉南瑞有限责任公司
+蔡心一
+H02B 13/035
+Loading...
+本实用新型提供一种内电场调控空气绝缘开关设备由母线室、断路器室、电缆室和仪表室组成，各隔室之间用金属隔板隔开，断路器通过底盘车插入到工作位置，穿墙套管和静触头盒为带内屏蔽结构，带电显示传感器改进其内部电容芯棒结构，各带电裸露电极部位均安装带环氧层的均压罩。本实用新型的优点是在设备内部高电场强度部位都安装本实用新型专有设计制造的带绝缘层的均压罩，及内屏蔽的元器件，对内部电场进行调控，大大提高了绝缘性能，减少了电气间隙，大大缩小柜体尺寸，减少占地面积，有利于升压改造，节约资金，效果十分显著。
+59. 201876970 一种电气火灾智能测控装置
+CN
+22.06.2011
+G08B 17/06 Loading...
+G08B 17/06
+Loading...
+201020531511.3
+深圳市华力特电气股份有限公司
+张进军
+G08B 17/06
+Loading...
+本实用新型实施例公开了一种电气火灾智能测控装置，用于检测和预防电气火灾的发生。本实用新型实施例装置包括中央处理器及与中央处理器电性连接的电源模块、剩余电流输入模块、温度输入模块、控制输出模块、通讯模块、人机界面、时钟模块、三相电压输入模块、三相电流输入模块。本实用新型在传统的电气火灾智能测控装置上增加了电量计量的功能，使得装置适用于电力监测系统。
+60. 201877788 继电保护装置
+CN
+22.06.2011
+H02H 3/26 Loading...
+H02H 3/26
+Loading...
+201020541622.2
+深圳市华力特电气股份有限公司
+张宝贵
+H02H 3/26
+Loading...
+本实用新型实施例公开了一种继电保护装置，包括：用于向控制器提供被保护电力线路的电压参数的三个电压互感器，电压互感器按照三角形接线方式或者星形接线方式分别与被保护电力线路相连接；与电压互感器相连接，用于按照电压参数进行继电保护分析的控制器，与控制器相连接，用于执行由控制器控制的通断操作的继电器。在本实用新型实施例中，可以用同一个继电保护装置采用不同的外部接线方式与被保护电力线路相连来实现继电保护，能够节约资源。
+61. 201867920 一种电气火灾智能测控装置
+CN
+15.06.2011
+G08B 17/00 Loading...
+G08B 17/00
+Loading...
+201020531512.8
+深圳市华力特电气股份有限公司
+张进军
+G08B 17/00
+Loading...
+本实用新型实施例公开了一种电气火灾智能测控装置，用于检测和预防电气火灾的发生。本实用新型实施例的装置包括中央处理器及与中央处理器电性连接的电源模块、剩余电流输入模块、控制输出模块、通讯模块、人机界面、时钟模块、数字量输入模块、温度输入模块。温度输入模块包括多路数字温度传感器和光耦隔离器，多路数字温度传感器采用并联的方式连接在同一条数据上，光耦隔离器与并联之后的多路数字温度传感器连接。本实用新型能够节约资源，提高抗干扰能力。
+62. 201829016 一种电气火灾监控装置
+CN
+11.05.2011
+G08B 17/06 Loading...
+G08B 17/06
+Loading...
+201020531510.9
+深圳市华力特电气股份有限公司
+张进军
+G08B 17/06
+Loading...
+本实用新型实施例提供一种电气火灾监控装置，用于精确测量异常情况下电气设备的温度，真实地反映异常情况。该装置包括：电气火灾监控主机、通讯处理器、至少一个测温探头和至少一个测温式探测器；测温探头与电气设备的带电体直接接触，将带电体的温度转化为温度数据后通过无线方式发送至测温式探测器；测温式探测器接收测温探头发送的温度数据，将温度数据发送至通讯处理器；通讯处理器汇总多个测温式探测器发送的温度数据后发送至电气火灾监控主机；电气火灾监控主机将温度数据以图形化方式进行显示。
+63. 201812008 一种继电保护装置检测电路
+CN
+27.04.2011
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201020541600.6
+深圳市华力特电气股份有限公司
+文小龙
+G01R 31/00
+Loading...
+本实用新型实施例公开了一种继电保护装置检测电路，用于当检测电压增加时，保证检测电路中电路元件的正常工作。本实用新型实施例方法包括：恒流电路以及光耦隔离输出电路；所述恒流电路的输入端接入检测电压；所述光耦隔离输出电路的输入端与恒流电路的输出端相连；所述恒流电路包括：瞬态二极管(D1)和恒流二极管(D2)，所述的瞬态二极管(D1)与恒流二级管(D2)串联；所述瞬态二极管(D1)用于提供门槛电压和分担输入的检测电压，所述恒流二极管(D2)用于为检测电路提供稳定的电流；所述光耦隔离输出电路用于传输低压控制信号。此外，本实用新型还可以通过改进实现兼容交、直流检测电压的输入。
+64. 101976492 Alarming method and device for electrical fire prevention system
+CN
+16.02.2011
+G08B 17/00 Loading...
+G08B 17/00
+Loading...
+201010291723.3
+Shenzhen Farad Electric Co., Ltd.
+Hu Bo
+G08B 17/00
+Loading...
+The invention discloses an alarm method and an alarm device for an electrical fire prevention system. The method comprises: acquiring the real-time data of the acquisition points of electrical equipment; when the real-time data of any of the acquisition points reaches a preset alarm range, recording the acquisition time of the real-time data and searing for an alarm file corresponding to the real-time data; according to the time and alarm file, constructing alarm information and searching for a contact number; and sending the alarm information to a specified contact number in form of short message. When the embodiment of the invention is implemented, that the workers analyze data to acquire alarm information according to an audible and visual alarm is not needed, so manual operation is reduced, the direct notification of the alarm information is speed up and the alarm efficiency is improved.
+65. 101976882 Master control unit applied to power system
+CN
+16.02.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201010291529.5
+Shenzhen Farad Electric Co., Ltd.
+Wang Botao
+H02J 13/00
+Loading...
+The embodiment of the invention discloses a master control unit applied to a power system. The master control unit applied to the power system comprises one or more first man-machine interaction interfaces, a memory and a processor, wherein the memory is used for storing programs and data; the data stored in the memory comprises equipment object models corresponding to primary equipment and secondary equipment in the preset power system; and the processor is connected with the memory and the first man-machine interaction interface for receiving a pre-modeling instruction and calling the equipment object model corresponding to the primary equipment or/and secondary equipment in the memory according to the pre-modeling instruction to establish a corresponding power system model; and the pre-modeling instruction is input by a user through the first man-machine interaction interface for indicating establishment of the power system model. Through the technical scheme of the invention, a modeling process of the power system model can be simplified and the time of engineering personnel for utilizing the master control unit to establish the power system model is effectively saved.
+66. 101968506 Alternating current sampling processing method and device
+CN
+09.02.2011
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201010281622.8
+Shenzhen Hualite Electric Appliances Co., Ltd.
+He Yukun
+G01R 19/00
+Loading...
+The embodiment of the invention relates to the field of electric power, and discloses an alternating current sampling processing method and an alternating current sampling processing device for improving the efficiency of alternating current sampling processing. The alternating current sampling processing method comprises that: an interrupt program triggers an awakening signal for awakening a thread; the thread is awakened by the awakening signal, and reads a pre-stored sampling value of each electric quality from a buffer area, wherein the sampling value of each electric quantity at least comprises a sampling value of alternating current voltage and a sampling value of alternating current; and the sampling value of each electric quantity is subjected to discrete Fourier transform (DFT) to obtain each alternating current electric quantity. The embodiment of the invention can reduce microprogrammed control unit (MCU) occupying time and improve the work efficiency of the MCU.
+67. 101968505 Null shift controlling method and device
+CN
+09.02.2011
+G01R 17/02 Loading...
+G01R 17/02
+Loading...
+201010283810.4
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Li Jiawan
+G01R 17/02
+Loading...
+The embodiment of the invention discloses a null shift controlling method and device, which is used for controlling the generation of the null shift phenomenon to enable the measuring result of a power measuring instrument to be more accurate. The method of the embodiment of the invention comprises the following steps: firstly, setting a default fundamental frequency value, and setting an error value range; receiving an input signal of a circuit, and then, comparing the fundamental frequency value contained in the acquired input signal with the default fundamental frequency value; and judging whether the measuring parameter value contained in the input signal is computed or not according to the comparative result and the set error value range.
+68. 101968829 Electrical fire accident review method and device
+CN
+09.02.2011
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201010291722.9
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Hu Bo
+G06F 19/00
+Loading...
+The invention discloses an electrical fire accident review method and a device. The method of the invention comprises the following steps: receiving reading information of an electrical fire accident, wherein the information carries the review point information of the electrical fire accident; according to the review point information, reading the review point data corresponding to the review point information in a real-time database; analyzing the review point data according to a preset analysis mode; and displaying the analysis result. The implementation of the embodiment of the invention realizes intelligent analysis of the review point data, and avoids the condition that a user reads the value of each basic parameter from the database but can not visually obtain the analysis result of the review point data.
+69. 101957413 Relay protection device detection circuit
+CN
+26.01.2011
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201010291700.2
+Shenzhen Farad Electric Co., Ltd.
+Wen Xiaolong
+G01R 31/00
+Loading...
+The embodiment of the invention discloses a relay protection device detection circuit, which is used for ensuring normal work of a circuit element in the detection circuit when voltage boosting is detected. The detection circuit of the embodiment of the invention comprises a constant current circuit and an optical coupler isolating output circuit, wherein an input end of the constant current circuit is connected with detection voltage; the input end of the optical coupler isolating output circuit is connected with the output end of the constant current circuit; the constant current circuit comprises a transient diode (D1) and a constant current diode (D2) which are connected in series; the transient diode (D1) is used for providing threshold voltage and allocating the input detection voltage; the constant current diode (D2) is used for providing stable current for the detection circuit; and the optical coupler isolating output circuit is used for transmitting a low-voltage control signal. In addition, the detection circuit can realize compatibility of input of alternating current detection voltage and direct current detection voltage by improvement.
+70. 101950944 Device and method for relay protection
+CN
+19.01.2011
+H02H 3/26 Loading...
+H02H 3/26
+Loading...
+201010291620.7
+Shenzhen Farad Electric Co., Ltd.
+Zhang Baogui
+H02H 3/26
+Loading...
+The embodiment of the invention discloses a device and a method for relay protection. The device and the method of the invention are characterized in that three voltage transformers can be connected with protected power lines by users through different external wiring modes; a control unit is used for acquiring voltage parameters provided by the voltage transformers, processing the voltage parameters according the different external wiring modes, and then judging whether to carry out the relay protection on the protected power lines; if so, the protected power lines are protected by controlling the on-off of relay units. Therefore, in the embodiment of the invention, the same device for the relay protection can be connected with the protected power lines through the different external wiring modes so as to realize the relay protection, which can save resources.
+71. 101949976 Method and device for measuring electrical degrees
+CN
+19.01.2011
+G01R 22/06 Loading...
+G01R 22/06
+Loading...
+201010281623.2
+Shenzhen Farad Electric Co., Ltd.
+He Yukun
+G01R 22/06
+Loading...
+The embodiment of the invention discloses a method and a device for measuring electrical degrees, which relate to the field of electrical degree measurement, and are used for realizing electrical degree measurement. The method for measuring electrical degrees comprises the following steps: reading the elapsed time t1 of a first timer; judging whether the elapsed time t1 is greater than a preset time interval delta T1, if so, reading a real-time power; calculating the total electrical degrees by using the real-time power; reading the elapsed time t2 of a second timer; and judging whether the elapsed time t2 is greater than a preset time interval delta T2, if so, writing the total electrical degrees into a EEPROM (electrically erasable programmable read only memory) for storage. The embodiment of the invention can realize electrical degree measurement, and realize other functions such as judging the elapsed times of the timers and writing the total electrical degrees into the EEPROM for storage, thereby enriching the other functions except electrical degree measurement.
+72. 101944266 Method and system for monitoring electrical fire
+CN
+12.01.2011
+G08B 17/06 Loading...
+G08B 17/06
+Loading...
+201010283818.0
+Farad Electric Co., Ltd.
+Zhang Jinjun
+G08B 17/06
+Loading...
+The invention provides a method for monitoring electrical fire, which can accurately measure the temperature of electrical equipment under an abnormal condition so as to factually reflect the abnormal condition. The method comprises the following steps: the temperature of the electrified body of the electrical equipment is introduced to a thermoprobe, wherein the thermoprobe is in direct contact with the electrified body of the electrical equipment; the temperature of the electrified body is converted to temperature data by the thermoprobe, and then, the temperature data is transmitted to a thermometric detector in a wireless mode; and the thermometric detector transmits the temperature data to an electrical fire monitoring host. The method can factually reflect the occurrence of the abnormal condition. Further, the thermoprobe is connected with the thermometric detector in a wireless mode, thereby avoiding big measuring errors and false alarms caused by the interference of surrounding electrical circuits and enabling the alarm to be more accurate and credible. Finally, the wireless connection mode also facilitates construction and installation and lowers the engineering cost.
+73. 101944056 Method and device for monitoring multitask system
+CN
+12.01.2011
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201010291526.1
+Farad Electric Co., Ltd.
+Guo Caixia
+G06F 11/30
+Loading...
+The embodiment of the invention discloses a method and device for monitoring a multitask system, which is used for improving the monitoring efficiency of the multitask system. The method comprises the following steps: setting task start flag registers and task execution flag registers, setting task start flag bits and task execution flag bits for all the tasks in the registers, when the tasks are started, setting the same flag bits for the task start flag registers and the task execution flag registers, in the process of executing main tasks, obtaining the flag bits of the task start flag registers and the flag bits of the task execution flag registers, judging whether the flag bits of the two kinds of registers are the same, if so, clearing the task counter and simultaneously clearing and resetting the task execution flag registers, and if not, resetting the system. Therefore, the operation conditions of all the tasks can be known and whether the system needs to be reset can be determined by only judging once each time, thus improving the judging efficiency.
+74. 101944775 Method for monitoring sub transformer substation by master dispatching station in power system as well as relative device and system
+CN
+12.01.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201010291724.8
+Farad Electric Co., Ltd.
+Wang Botao
+H02J 13/00
+Loading...
+The embodiment of the invention discloses a method for monitoring a sub transformer substation by a master dispatching station in a power system as well as a relative device and a system. The method for monitoring the sub transformer substation by the master dispatching station in the power system comprises the following steps of: establishing database vectors and system patterns by the sub transformer substation; packaging the database vectors, the system patterns and the communication address of the sub transformer substation into a data file packet after the communication between the sub transformer substation and the subordinate equipment is successfully debugged; acquiring the data file packet by the master dispatching station; importing the data file packet into a local database by the master dispatching station to finish the network access of the sub transformer substation; and monitoring the sub transformer substation through the communication address of the sub transformer substation by the master dispatching station after the network access of the sub transformer substation is finished. The technical scheme of the embodiment of the invention can effectively shorten the access time of the sub transformer substation by the master dispatching station and is favorable to improve the reliability of the power system.
+75. 101938116 Relay protection method and device
+CN
+05.01.2011
+H02H 7/26 Loading...
+H02H 7/26
+Loading...
+201010283785.X
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Zhang Baogui
+H02H 7/26
+Loading...
+The embodiment of the invention discloses relay protection method and device. After acquiring a real-time frequency of an AC signal, the relay protection device of the embodiment of the invention screens the real-time frequency in advance; if the real-time frequency is in a preset range, the relay protection device adjusts a first timer and controls an AC sampling frequency according the real-time frequency; and if the real-time frequency is not in the preset range, the relay protection device adjusts a first timer and controls the AC sampling frequency according to a rated frequency of the AC signal. Accordingly, the invention can reliably carry out relay protection to a power system.
+76. 101937711 Data storage method and system
+CN
+05.01.2011
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+201010291970.3
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Zhang Yingbang
+G11C 16/06
+Loading...
+The embodiment of the invention discloses a data storage method which is used for integrally writing event data into FLASH to ensure the integrity of the event data. The method of the embodiment comprises the following steps of: detecting events by an event detection device; when certain event data is detected by the event detection device, storing the event data detected by the event detection device into a cache memory by an event storage device, wherein the time for the event storage device to store the event data into the cache memory is smaller than the occurrence time interval between two events; and writing the event data in a FLASH by an event writing-in device. The embodiment of the invention also discloses a data storage system. The embodiment can integrally write the event data in the FLASH to ensure the integrity of the event data.
+77. 101938164 Power equipment control method, device and related system thereof
+CN
+05.01.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201010283843.9
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Liang Yusheng
+H02J 13/00
+Loading...
+The embodiment of the invention discloses power equipment control method, device and related system which are used for simultaneously modifying the configurations of various types of power equipment. The method of the embodiment of the invention comprises the following steps of: acquiring an intelligent power equipment type selected by a user; determining corresponding equipment configuration template according to the intelligent power equipment; producing a first configuration file according to the equipment configuration template; providing the produced first configuration file according to the user, and acquiring a second configuration file modified by the user; and invoking a communication protocol assembly according the second configuration file, establishing network connection with corresponding power equipment through a communication interface assembly corresponding to the second configuration file, and sending the second configuration file to the intelligent power equipment. The embodiment of the invention also provides a device and a related system for realizing the method.
+78. 101923493 Task scheduling method and task scheduling equipment
+CN
+22.12.2010
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201010291978.X
+Farad Electric Co., Ltd.
+Zhang Yingbang
+G06F 9/50
+Loading...
+The embodiment of the invention discloses a task scheduling method used for improving the real-time of a multitask system. The method comprises the following steps of: detecting environmental state information by using task scheduling equipment; when a preset generation condition is met, generating a corresponding event according to the environmental state information; and controlling the generated event to drive a task in a dormant state so as to make the task execute the generated event. The embodiment of the invention also discloses task scheduling equipment. The task scheduling method and the task scheduling equipment can improve the real-time of the multitask system.
+79. 201681136 中性点接地系统故障点定位装置
+CN
+22.12.2010
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200920261824.9
+深圳市华力特电气股份有限公司
+马永军
+G01R 31/08
+Loading...
+本实用新型实施例公开了一种中性点接地系统故障点定位装置，包括直流电源和手持电流检测装置；其中，所述直流电源与中性点接地系统的中性点连接，并与中性点接地系统发生接地故障的馈线形成检测回路；所述直流电源提供比中性点接地系统发生接地故障的该馈线上的接地故障电流至少大2安培的电流；所述手持电流检测装置能够在靠近导线时检测出该导线上的电流大小。本实用新型实施例的技术方案能够相对快速准确的定位出中性点接地系统的单相接地故障点，进而有利于即时的对其进行抢修，以降低事故发生的几率。
+80. 101916192 Multi-language switching method and device for user interface
+CN
+15.12.2010
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010283800.0
+Farad Electric Co., Ltd.
+Hu Bo
+G06F 9/44
+Loading...
+The invention provides a multi-language switching method and a multi-language switching device for a user interface so as to reduce repeated development of the user interface of an application system, support multi-language display and provide convenience for a user to switch the interface. The multi-language switching method comprises the following steps of: saving resource files in various languages in an extensible markup language XML format based on the system resource of an application program; reading the resource file of a target language in the XML format to an internal memory according to a switching command of the user; and displaying the user interface in the target language. Compared with the prior art, the multi-language switching method reduces the development cost. In addition, a version of an application program in different languages can be operated in any windows system, a professional developer is not needed, the user can switch the user interface to a familiar language display interface, and great convenience is provided for the user to use the application program.
+81. 101917323 Data sending method and device
+CN
+15.12.2010
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+201010281605.4
+Farad Electric Co., Ltd.
+He Yukun
+H04L 12/40
+Loading...
+The invention discloses a data sending method and a data sending device. The method comprises the following steps of: acquiring a communication task processing tag; if the communication task processing tag indicates that the processed data needs to be sent to an upper-layer host through a CAN communication link, calling a CAN communication link bottom-layer processing program, calling a common application-layer processing program to process the data needing processing, and calling a CAN communication link bottom-layer sending program to send the processed data to the upper-layer host; and if the communication task processing tag indicates that the processed data needs to be sent to the upper-layer host through an RS485 communication link, calling an RS485 communication link bottom-layer processing program, calling a common application-layer processing program to process the data needing processing, and calling an RS485 communication link bottom-layer sending program to send the processed data to the upper-layer host. The data sending method and the data sending device can improve the reuse rate of programs, and reduce storage resources occupying a system.
+82. 201654118 一种电能质量检测装置
+CN
+24.11.2010
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+200920273578.9
+深圳市华力特电气股份有限公司
+董金发
+G01R 19/25
+Loading...
+本实用新型实施例公开了一种电能质量检测装置。本实用新型技术方案由于根据低频电压信号的Teager能量算子，该低频电压信号构成的对称差分信号的Teager能量算子，和获取的采样数据，获取该低频电压信号的瞬时幅值，从而判断该低频电压信号的扰动的类型和/或低频电压信号的扰动的起止时刻。与现有技术相比，该技术方案可以更快速、简洁、有效，且能实时捕获信号的能量波动、跟踪被测低频电压信号波形变化。
+83. 201622317 中性点接地系统故障监测报警装置
+CN
+03.11.2010
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200920261825.3
+深圳市华力特电气股份有限公司
+马永军
+G01R 31/08
+Loading...
+本实用新型实施例公开了一种中性点接地系统故障监测报警装置，包括用于获取中性点接地电阻当前的有效电流值的电流值获取模块；用于将电流值获取模块获取的有效电流值与预置的第一电流阈值进行比较的电流值比较模块；用于获取中性点接地电阻当前的温度值的温度值获取模块；用于将温度值获取模块获取的温度值与预置的第一温度阈值进行比较的温度值比较模块；用于在电流值比较模块比较出电流值获取模块获取的有效电流值大于预置的第一电流阈值，且温度值比较模块比较出温度值获取模块获取的温度值大于预置的第一温度阈值时，进行接地故障报警的故障报警模块。本实用新型方案能够相对快速准确的监测出中性点接地系统是否存在的单相接地故障。
+84. 201615930 一种在线电能质量监测仪和电能质量监测系统
+CN
+27.10.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200920266285.8
+深圳市华力特电气股份有限公司
+梁羽生
+G01R 31/00
+Loading...
+本实用新型实施例公开了一种在线电能质量监测仪和电能质量监测系统。其中，一种在线电能质量监测仪，包括：用于采样电信号的数据采集装置；以及，与所述数据采集装置连接的，用于按照预置的处理算法处理所述数据采集装置采样到的电信号的数据处理装置；以及，与所述数据处理装置连接的，用于显示所述数据处理装置对电信号的处理结果，以及将所述数据处理装置对电信号的处理结果记录到本地数据库中的数据应用装置；其中，所述数据处理装置基于数字信号处理器构建，所述数据应用装置基于ARM芯片构建。本实用新型技术方案能够为有效的改善电能质量、制定有关电能质量的合理治理措施和政策提供必要可靠的依据。
+85. 201607511 中性点接地系统故障选线装置
+CN
+13.10.2010
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200920261826.8
+深圳市华力特电气股份有限公司
+马永军
+G01R 31/08
+Loading...
+本实用新型实施例公开了一种中性点接地系统故障选线装置，包括用于利用分别设置于中性点接地系统待监测的至少一组馈线中各路馈线上的电流互感器，获取待监测的至少一组馈线中各路馈线上的电流的感应电流的获取模块；以及与获取模块连接的，用于分别解析获取模块获取的各路馈线上的电流的感应电流的组分的电流组分解析模块；与电流组分解析模块连接的，用于将电流组分解析模块解析出感应电流的电流组分中包含阻性电流的对应馈线指示为接地故障馈线的故障选线模块。本实用新型技术方案能够相对快速准确的选出中性点接地系统中发生接地故障的馈线，进而有利于即时的对其进行抢修，以降低事故发生的几率。
+86. 201583825 一种测控装置
+CN
+15.09.2010
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200920165297.1
+深圳市华力特电气股份有限公司
+霍清泉
+G05B 19/048
+Loading...
+本实用新型公开了一种测控装置，该测控装置中的CPU可以对与之相连的第一类连接器和第二类连接器进行配置，使得该第一类连接器可以用作CPU与交流量采集单元之间的接口，也可以用作CPU与直流量采集单元之间的接口，使得该第二类连接器可以用作CPU与开关输入模块之间的接口，也可以用作CPU与开关输出模块之间的接口，使得该测控装置可以根据实际情况，灵活的配置开关输入模块、交流量采集单元、直流量采集单元、和开关输出模块，同时，用户在选择连接器时不易出错。
+87. 201562022 一种在线电能质量监测仪和在线电能质量监测系统
+CN
+25.08.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200920266286.2
+深圳市华力特电气股份有限公司
+梁羽生
+G01R 31/00
+Loading...
+本实用新型实施例公开了一种在线电能质量监测仪和在线电能质量监测系统。其中，一种在线电能质量监测仪包括：ARM模块和数据采集装置；以及，与所述ARM模块和所述数据采集装置连接的，用于在所述ARM模块的控制下，按照预置的处理算法处理所述数据采集装置采样到的电信号的数字信号处理器，所述数字信号处理器的型号为TMS320VC5510A，所述ARM模块采用AT91SAM9261S芯片。本实用新型技术方案有利于在在线电能监测仪上开发实现多种通用功能；提高在线电能监测仪的可扩展性。
+88. 201540468 一种测控装置
+CN
+04.08.2010
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200920165299.0
+深圳市华力特电气股份有限公司
+张进军
+G05B 19/048
+Loading...
+本实用新型公开了一种测控装置，包括：连接器、中央处理器、交流量采集单元、直流量采集单元和存储单元；所述连接器，与所述中央处理器相连，被所述中央处理器配置为开关输入模块的接口，和/或，被所述中央处理器配置为开关输出模块的接口；所述交流量采集单元，与所述中央处理器相连，用于采集交流信号，将采集到的交流信号发送给所述中央处理器处理；所述直流量采集单元，与所述中央处理器相连，用于采集直流信号，将采集到的直流信号发送给所述中央处理器处理；所述存储单元，与所述中央处理器相连，受所述中央处理器的控制，存储所述交流信号和直流信号。本实用新型技术方案实现了灵活的配置开关输入模块，和开关输出模块的目的。
+89. 101726689 Fault line selection method and device for earth neutral system
+CN
+09.06.2010
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200910189181.6
+Shenzhen Harad Electric Co., Ltd.
+Cai Xianjun
+G01R 31/08
+Loading...
+The embodiment of the invention discloses a fault line selection method and a device thereof for an earth neutral system, wherein the fault line selection method for the earth neutral system comprises the following steps: by using current transformers which are respectively arranged on each feeder line in at least one group of feeder lines to be monitored in the earth neutral system, acquiring induced current of the current on each feeder line in the at least one group of feeder lines to be monitored, wherein, each group of feeder lines to be monitored in the earth neutral system comprise three feeder lines respectively connected to three phases of output of the earth neutral system; respectively analyzing the components of the acquired induced current of the current on each feeder line; and indicating the corresponding feeder line containing resistive current in the current components of the analyzed induced current as an earth fault feeder line. The technical scheme of the invention can select the feeder line with earth fault in the earth neutral system relatively quickly and accurately, thereby being favorable to immediate repair and reducing the occurrence probability of accident.
+90. 201489042 具有显示功能的杂散电流传感器
+CN
+26.05.2010
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+200920162610.6
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/00
+Loading...
+本实用新型公开了一种具有显示功能的杂散电流传感器，其特征在于，包括：载体；采集单元；显示单元；所述采集单元设于所述载体上，用于采集与杂散电流相关的数据；所述显示单元嵌于所述载体的外侧面，与所述采集单元连接，用于对所述采集单元采集的数据进行显示。本实用新型技术方案由于能够对采集的与杂散电流相关的数据进行就地显示，从而为地铁设施维护提供了极大方便。
+91. 201489338 一种测控装置
+CN
+26.05.2010
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200920165298.6
+深圳市华力特电气股份有限公司
+张进军
+G05B 19/048
+Loading...
+本实用新型公开了一种测控装置，其包括的连接器即可以被配置为CPU与交流量采集单元之间的接口，也可以被配置为CPU与直流量采集单元之间的接口，该测控装可以根据需要灵活的配置交流量采集单元，和/或直流量采集单元，与现有技术中，交流量采集单元和直流量采集单元对于一个测控装置而言，是固定的，不可配置的情况，本实施例提供的测控装置具有更多优点。
+92. 201489041 具有计时功能的杂散电流传感器
+CN
+26.05.2010
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+200920162609.3
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/00
+Loading...
+本实用新型公开了一种具有计时功能的杂散电流传感器，包括：载体；采集单元；和时钟单元；所述采集单元设于所述载体上，用于采集与杂散电流相关的数据；所述时钟单元嵌于所述载体内，与所述数据处理电路板连接，用于向所述数据处理电路板提供时间信息；所述数据处理电路板嵌于所述载体内，连接于所述采集单元与所述时钟单元之间，用于根据所述采集单元采集的与杂散电流相关的数据以及时钟单元提供的时间信息进行数据处理，获得计算杂散电流所需参数。本实用新型技术方案由于能够对采集的与杂散电流相关的数据提供时间信息，从而提升计算杂散电流相关参数的准确性和实时性。
+93. 201477142 具有通讯功能的杂散电流传感器
+CN
+19.05.2010
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+200920162607.4
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/00
+Loading...
+本实用新型公开了一种具有通讯功能的杂散电流传感器，包括：载体；采集单元；数据处理电路板；以及通讯接口；所述采集单元设于所述载体上，用于采集与杂散电流相关的数据；所述数据处理电路板嵌于所述载体内，与所述采集单元连接，用于对从所述采集单元获取的数据进行数据处理，获得计算杂散电流所需参数；所述通讯接口嵌于所述载体的外侧面，与所述数据处理电路板连接，用于对所述数据处理电路板处理后获得的参数进行传输。本实用新型技术方案由于能够对采集的数据进行处理获得与杂散电流相关的参数，并可将该参数发送到远程监控系统，实现对杂散电流的远程监控。
+94. 201477148 具有计算本体电位功能的杂散电流传感器
+CN
+19.05.2010
+G01R 19/10 Loading...
+G01R 19/10
+Loading...
+200920162608.9
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/10
+Loading...
+本实用新型公开了一种具有计算本体电位功能的杂散电流传感器，该传感器包括：载体；采集单元；和本体电位计算电路板；其中，所述采集单元设于所述载体上，用于采集参比电极电压和结构钢电压；所述本体电位计算电路板嵌于所述载体内，与所述采集单元连接，用于将所述采集单元采集的参比电极电压减去结构钢电压，获得本体电位。通过本实用新型可简化杂散电流的计算过程，提高监测杂散电流的准确性。
+95. 201477141 具有数据处理功能的杂散电流传感器
+CN
+19.05.2010
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+200920162606.X
+深圳市华力特电气股份有限公司
+何育坤
+G01R 19/00
+Loading...
+本实用新型公开了一种具有数据处理功能的杂散电流传感器，该传感器包括：载体；采集单元；显示单元；以及数据处理电路板；所述采集单元设于所述载体上，用于采集与杂散电流相关的数据；所述数据处理电路板嵌于所述载体内，与所述采集单元连接，用于对从所述采集单元获取的数据进行数据处理，获得计算杂散电流所需参数；所述显示单元嵌于所述载体的外侧面，与所述数据处理电路板连接，用于对所述数据处理电路板获得参数进行显示。通过本实用新型可提升与杂散电流相关数据处理的准确性和实时性。
+96. 101706539 Electric energy quality monitoring method and on-line electric energy quality monitor
+CN
+12.05.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200910212295.8
+Shenzhen Harad Electric Co., Ltd.
+Dong Jinfa
+G01R 31/00
+Loading...
+The embodiment of the invention discloses an electric energy quality monitoring method and an on-line electric energy quality monitor. A first operating system is used for sending an enable signal to a second operating system; the second operating system which receives the enable signal is used for invoking an electric signal processing program for processing an electric signal sampled by a signal collecting device and buffering a processing result of the electric signal; and the first operating system is used for reading the buffered processing result of the electric signal and invoking a corresponding application program to process and display the read processing result of the electric signal. The technical scheme of the embodiment is beneficial to enhancing the expansibility of a software platform of the on-line electric energy quality monitor, meeting flexible and variable application needs of users and raising the experience of the users.
+97. 101625391 Intelligent stray current sensor
+CN
+13.01.2010
+G01R 31/02 Loading...
+G01R 31/02
+Loading...
+200910140077.8
+Farad Electric Co., Ltd.
+He Yukun
+G01R 31/02
+Loading...
+The invention discloses an intelligent stray current sensor which comprises a carrier, a collecting unit, a data processing circuit board, a display unit and an alarm unit. The collecting unit is arranged on the carrier for collecting the data relevant to the stray current; the data processing unit board is embedded in the carrier and is connected with the collecting unit for processing the data obtained from the collecting unit to obtain parameters needed by calculating the stray current; the display unit is embedded at the outer surface of the carrier to connect with the data processing circuit board and used for displaying the parameters obtained by the data processing circuit board; and the alarm unit is embedded in the carrier to connect with the data processing circuit board and used for generating alarm information when the parameters obtained by the data processing board reaches a preset value. By adopting the technical scheme, subway facilities can be conveniently maintained.
+98. 201364785 绕线型长时间通流电阻器
+CN
+16.12.2009
+H01C 3/20 Loading...
+H01C 3/20
+Loading...
+200820130226.3
+深圳市华力特电气股份有限公司
+屠方魁
+H01C 3/20
+Loading...
+本实用新型公开了一种绕线型长时间通流电阻器，包括：线型电阻和陶瓷管；所述陶瓷管的表面有间距相等的螺旋槽；所述线型电阻缠绕在所述陶瓷管的螺旋槽上。本实用新型提供的绕线型长时间通流电阻器的电阻分布均匀，散热表面积大，可以避免温升高的问题出现。
+99. 201340534 一种测控装置
+CN
+04.11.2009
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200820180233.4
+深圳市华力特电气股份有限公司
+何育坤
+G05B 19/048
+Loading...
+本实用新型公开了一种测控装置，包括：用于交流电采样的采样模块；与所述采样模块连接，用于对所述采样模块的采样值进行快速傅立叶变换，获得电能参数并输出的主控制模块；与所述主控制模块连接，用于显示所述主控制模块输出的电能参数的显示模块；与所述主控制模块连接，用于向所述主控制模块输入指令的按键模块；与所述主控制模块连接，用于根据输入所述主控制模块的指令输出控制信号对外部设备进行控制的控制模块。本实用新型提供的测控装置可以同时现实测量和控制的有机结合，进一步提高工作效率，降低人员劳动强度。
+100. 201340531 基于数字信号处理功能的测控装置
+CN
+04.11.2009
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+200820180232.X
+深圳市华力特电气股份有限公司
+何育坤
+G05B 19/042
+Loading...
+本实用新型公开了一种基于数字信号处理功能的测控装置，所述测控装置包括：用于交流电采样的采样模块；与所述采样模块连接，用于对所述采样模块的采样值进行快速傅立叶变换，获得电能参数并输出的带数字信号处理功能的控制器；与所述控制器连接，用于显示所述控制器输出的电能参数的显示模块；与所述控制器连接，用于接收上位机发送的控制指令的通信模块；所述控制器根据所述通信模块接收的上位机控制指令，对外部设备进行控制。本实用新型提供的测控装置体积小，可同时测量外部设备的多个电能参数以及对外部设备进行控制，实现测控装置的智能化。
+101. 201327747 S型电阻器
+CN
+14.10.2009
+H01C 3/10 Loading...
+H01C 3/10
+Loading...
+200820130227.8
+深圳市华力特电气股份有限公司
+屠方魁
+H01C 3/10
+Loading...
+本实用新型公开了一种S型电阻器，包括：若干个S型电阻片，所述若干个S型电阻片以可导电方式首尾连接。由于S型结构电阻片的宽度比W型结构的电阻片小，相同宽度下S型电阻片的个数比W型结构的电阻片多，从而使得电阻器的通流截面大，在相等功率下S型电阻器的温升比W型结构的短时间大电流电阻器的温升低。
+102. 201319134 一种智能测控装置
+CN
+30.09.2009
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200820180231.5
+深圳市华力特电气股份有限公司
+何育坤
+G05B 19/048
+Loading...
+本实用新型公开一种智能测控装置，包括：用于六路交流电采样的采样模块；与采样模块连接，用于对采样模块的采样值进行快速傅立叶变换，获得电能参数并输出的主控制模块；与主控制模块连接，用于显示主控制模块输出的电能参数的显示模块；与主控制模块连接，用于接入十二路开关量，将开关量由经主控制模块输出给显示模块显示的开关量接入模块；与主控制模块连接，用于接收上位机发送的控制指令，将控制指令输入主控制模块的通信模块；与主控制模块连接，用于根据输入主控制模块的控制指令输出至少一路控制信号对外部设备进行控制的控制输出模块。本实用新型体积小，可同时测量多个电能参数及开关量，及对外部设备进行控制，实现测控装置智能化。
+103. 201319133 一种液晶显示的测控装置
+CN
+30.09.2009
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200820180230.0
+深圳市华力特电气股份有限公司
+何育坤
+G05B 19/048
+Loading...
+本实用新型公开了一种液晶显示的测控装置，所述测控装置包括：用于运行参数模拟值采样的采样模块；与所述采样模块连接，用于对所述采样模块采样的运行参数模拟值进行快速傅立叶变换，并输出的主控制模块；与所述主控制模块连接，用于显示所述主控制模块输出的运行参数的液晶显示模块；与所述主控制模块连接，用于接收控制指令，并将所述控制指令输入所述主控制模块的通信模块；与所述主控制模块连接，用于根据所述输入所述主控制模块的控制指令对外部设备进行控制的控制模块。本实用新型不仅可同时测量多个运行参数，提供友好的显示界面，使用户可以方便、准确地读取各类所需数据，还可以对外部设备进行控制。
+104. 201282604 一种设备保护装置
+CN
+29.07.2009
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+200820133860.2
+深圳市华力特电气股份有限公司
+王丽娟
+H05K 5/02
+Loading...
+本实用新型公开了一种设备保护装置，包括：安装在屏体上的安装板，具有挂钩和卡扣的面板框，挂钩与卡扣在相对的两个框边上，挂钩卡持在安装板的一边，卡扣扣合在安装板的边上，面板框与安装板之间扣合紧密，存在的空隙非常小，卡持紧凑，有效防止灰尘、飞虫的进入，起到较好的保护内部设备的作用。
+105. 201274000 一种就地显示数据的槽控机
+CN
+15.07.2009
+G05B 19/02 Loading...
+G05B 19/02
+Loading...
+200820126121.0
+深圳市华力特电气股份有限公司
+张进军
+G05B 19/02
+Loading...
+本实用新型涉及电子技术领域，提供了一种就地显示数据的槽控机，通过在槽控机上增加用于现场根据采集的数据生成图形数据的图形生成单元和用于现场显示所述图形数据图形显示单元，从而实现操控机能够就地显示电解槽运行状况，方便操作员及时的了解电解槽的运行状况。
+106. 201256253 供电箱
+CN
+10.06.2009
+H02B 1/26 Loading...
+H02B 1/26
+Loading...
+200820128230.6
+深圳市华力特电气股份有限公司
+徐明昆
+H02B 1/26
+Loading...
+本实用新型涉及电力电子领域，提供了一种供电箱，包括箱体，其特征在于，还包括漏电保护开关、电缆驳接装置、插座及漏电保护开关的操作手柄，其中所述的漏电保护开关和电缆驳接装置装设在箱体的内部；插座及漏电保护开关的操作手柄装设在箱体的外壳上，电缆通过所述的电缆驳接装置接入所述的漏电保护开关，漏电保护开关的操作手柄与所述的漏电保护开关连接，以开关所述的漏电保护开关。本实用新型提供的供电箱将插座设置在箱体的外壳，使用时方便连接用于供电的插头，而且操作漏电保护开关的操作手柄也设置在箱体外壳上，方便操作。
+107. 201232085 一种电解槽柔性控制装置
+CN
+06.05.2009
+C25B 15/02 Loading...
+C25B 15/02
+Loading...
+200820127070.3
+深圳市华力特电气股份有限公司
+董光府
+C25B 15/02
+Loading...
+本实用新型提供了一种电解槽柔性控制装置，包括微处理、同步动态随机存储器、显示控制单元、光纤以太网单元；所述同步动态随机存储器与所述微处理器的外部总线接口连接，用于缓存所述微处理发送的数据；所述显示控制单元与所述微处理器的外部总线接口连接，用于控制液晶显示器对所述微处理器采集的数据进行显示；所述光纤以太网单元与所述微处理器的以太网卡连接，用于实现所述微处理与后台设备之间的通讯。通过本实用新型提供的装置，能够承受大量数据的复杂运算；能够就地显示数据；能够避免雷雨天气时雷电通过传输线路对设备产生损害。
+108. 101303570 Slot control machine of in situ displaying data and data in situ display method of slot control machine
+CN
+12.11.2008
+G05B 19/02 Loading...
+G05B 19/02
+Loading...
+200810110986.2
+Shenzhen Farad Electric Co., Ltd.
+Zhang Jinjun
+G05B 19/02
+Loading...
+The embodiment of the invention relates to the electronic field and provides a cell controlling machine for local display data and a data local display method for the cell controlling machine. By adding a graph generating unit used for generating graphic data according to data collected locally and a graph display unit used for locally displaying the graphic data to the cell controlling machine, the function of locally displaying the operation status of an electrolytic cell can be realized, thus causing operators to conveniently know the operation status of the electrolytic cell locally.
+109. 101303579 Control method of slot control machine
+CN
+12.11.2008
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200810127176.8
+Shenzhen Farad Electric Co., Ltd.
+Zhang Yingbang
+G05B 19/048
+Loading...
+The invention relates to the electrics field, in particular to a method for controlling a slot-controlled machine, which comprises that: the data of an electrolyzer is collected by the slot-controlled machine; the collected data is used for generating graphic data which is displayed; the data collected via optical fibers is transmitted to a background control unit in the form of optical signals, so that the background control unit can remotely set the parameters of the slot-controlled machine according to the received data. By the slot-controlled machine, the high efficient and reliable control on the background control unit can be realized; via on-site displaying of the collected data, an operator can know the operation situation of each electrolyzer conveniently from the site.
+110. 101294290 Flexible control method and system for aluminum cell
+CN
+29.10.2008
+C25C 3/20 Loading...
+C25C 3/20
+Loading...
+200810110985.8
+Shenzhen Farad Electric Co., Ltd.
+Zhang Yingbang
+C25C 3/20
+Loading...
+The embodiment of the invention belongs to the electricity field and provides a flexible control method of an electrolytic tank, and the system thereof. The method comprises the following steps: change trend analysis is performed to the historical data in a historical database, and a prediction curve for the change trend is obtained; blanking parameters can be calculated according to the prediction curve of the change trend, and the blanking system is controlled according to the blanking parameters. By the method, ideal blanking parameters can be obtained during the processing process of the electrolytic tank, so that the energy loss of the processing of the electrolytic tank is reduced.
+111. 101291180 Flexible controlling method based on optical fiber Ethernet and system thereof
+CN
+22.10.2008
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+200810127177.2
+Shenzhen Hualite Electric Appliances Co., Ltd.
+Dong Guangfu
+H04B 10/12
+Loading...
+The invention relates to the electricity field and provides a flexible control method based on an optical fiber ethernet and a system using the same, wherein the method comprises that an self-adaptive network card unit receives an electrical signal output by a micro-processing unit and sends the electrical signal to a converting unit in a standard ethernet electrical signal mode; the converting unit converts the received electrical signal into a light signal and transmits the light signal to a background control unit through optical fibers. The method and the system can improve the quality and the reliability of signal transmission and avoid the damage of the secondary induction lightning to the equipment through transmission lines.
+112. 201113272 一种中性点接地电阻柜
+CN
+10.09.2008
+H02B 5/01 Loading...
+H02B 5/01
+Loading...
+200720126564.5
+深圳市华力特电气股份有限公司
+屠方魁
+H02B 5/01
+Loading...
+本实用新型公开了一种中性点接地电阻柜，本实用新型涉及输配电技术领域。本实用新型的中性点接地电阻柜包括电阻片、电流互感器、监测器，所述电流互感器用于获得相连接的所述电阻片的运行状态数据；所述电流互感器与所述监测器相连接；监测器包括：所述微处理单元和分别与所述微处理单元相连的采集单元、存储单元和继电控制单元；所述采集单元用于采集所述电流互感器获得的运行状态数据，并发送给所述微处理单元分析出现故障的电路，所述继电控制单元用于在所述微处理单元的控制下切断出现故障的电路与所述电阻片的连接。监测器工作过程中，找出出现故障的电阻片，监测器报警并切断出现故障电阻片的电路连接，延长了中性点接地电阻柜使用寿命。
+113. 201083805 一种传感器以及杂散电流监测系统
+CN
+09.07.2008
+G01R 31/02 Loading...
+G01R 31/02
+Loading...
+200720155821.8
+深圳市华力特电气股份有限公司
+蔡献军
+G01R 31/02
+Loading...
+本实用新型公开了一种传感器。本实用新型传感器包括：第一电源，模/数转换单元；所述第一电源，获取市电电压，将所述市电电压转换为所述模/数转换单元的工作电压，为所述模/数转换单元供电；所述模/数转换单元，获取检测量，将所述检测量转换为符合串行通信标准的数字量，且所述数字量从模/数转换单元的数字量输出端输出。本实用新型实施例还公开了一种采用本实用新型实施例提供的传感器的杂散电流检测系统。本实用新型实施例提供的传感器选用的模/数转换单元能够将检测量转换为符合串行通信标准的数字量，使得传感器可以与工作站直接进行通信，减少了传感器的外部接线，降低了杂散电流监测系统的制造成本。
+114. 201063049 中性点接地电阻器监测装置
+CN
+21.05.2008
+G01R 27/18 Loading...
+G01R 27/18
+Loading...
+200720150327.2
+深圳市华力特电气股份有限公司
+屠方魁
+G01R 27/18
+Loading...
+本实用新型涉及一种监测设备，特别是一种中性点接地电阻器监测装置，包括微处理单元和分别与所述微处理单元相连的采集单元、告警单元、存储单元和继电控制单元，所述采集单元用于采集电阻器运行状态数据发送给所述微处理单元，所述继电控制单元用于在所述微处理单元的控制下切断电阻器。本实用新型对电阻器的电流和温度进行监测，判断电阻器是否处于正常运行状态，如果电阻器电流或温度超过门限值，说明电阻器为非正常工作，报警并切断电阻器，从而大大延长系统设备使用寿命，使系统运行的安全可靠性得到更大的提高，同时满足了现今变电站对于无人值守的发展要求。
+115. 201041451 冷藏箱不锈钢配电箱
+CN
+26.03.2008
+F25D 29/00 Loading...
+F25D 29/00
+Loading...
+200720147249.0
+深圳市华力特电气股份有限公司
+徐明昆
+F25D 29/00
+Loading...
+本实用新型公开了一种冷藏箱不锈钢配电箱，其箱体内部分为四个功能单元，最上层是电缆室，配电箱的出线电缆布置在最上层，电缆室下面并排分布另外三个功能单元，两边为供电箱单元安放室，中间是照明控制单元室，成目字形排列。本实用新型针对现有技术存在的问题进行了优化，首先体积大大缩小，只有原体积的一半，故材料成本大隔度下降，其次由于箱内主要工作单元MCCB供电箱安装位置的改变，使MCCB供电箱背后有足够的散热空间，改善了电器设备散热条件，对延长工作寿命有极大作用，具有良好的防护等级，可以抗台风，防暴雨袭击，适合于港口码头户外使用。
+116. 201018314 微机型备自投装置
+CN
+06.02.2008
+H02J 9/00 Loading...
+H02J 9/00
+Loading...
+200620160570.8
+深圳市华力特电气有限公司
+何育坤
+H02J 9/00
+Loading...
+本实用新型提供一种微机型备自投装置，包括三个断路器和自动切换电器控制器，所述两个断路器分别用于设置在两路电源系统中，另一个断路器用与连接两段母线，所述两路电源系统分别连接所述两段母线，所述自动切换电器控制器进一步包括连接所述三个断路器的模式识别器，用于对所述三个断路器状态进行监控并获得其状态，并且识别出系统运行模式是两段母线分裂运行模式还是备用电源系统运行模式。所述模式识别器还包括连接充电装置的模式输出端，输出所述两段母线分裂运行模式信号或备用电源系统运行模式信号，指示充电装置按相应模式工作。本实用新型能识别出备自投装置的运行模式，不需要人工操作，降低成本提高效率；实现各种模式下的充电功能，保证备自投正常工作。
+117. 101074973 Sensor and its scramble current monitoring system
+CN
+21.11.2007
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+200710123514.6
+Hualite Electric Co., Ltd., Shenzhen
+Cai Xianjun
+G01R 19/25
+Loading...
+A transducer consists of the first power supply for obtaining city-power voltage and for converting city-power voltage to be operation voltage of A/D conversion unit to provide power supply to A/D conversion unit, A/D conversion unit for obtaining detection value and for converting said detection value to be digital value in according with serial communication standard as well as for outputting digital value at its output end. The stray current detection system applying said transducer is also disclosed.
+118. 200979999 备自投装置
+CN
+21.11.2007
+H02J 9/00 Loading...
+H02J 9/00
+Loading...
+200620160573.1
+深圳市华力特电气有限公司
+何育坤
+H02J 9/00
+Loading...
+本实用新型提供一种备自投装置，包括三个断路器、电动操作机构以及自动切换电器控制器，所述两个断路器分别接在两路电源系统中，另一个断路器接在两段母线之间，所述两路电源系统分别连接所述两段母线，所述自动切换电器控制器进一步包括运行方式切换器，用于判断系统情况，控制电动操作机构断开出现故障的电源系统的断路器，然后闭合另一电源系统的断路器。本实用新型能合理控制电动操作机构对断路器的闭合操作，使各种故障情况下的备自投都能发挥应有的作用，并且可以有根据地进行切换，保证所有系统运行方式下备自投都能正确启动，避免系统断电造成的巨大损失。
+119. 200976511 具模式识别功能的备自投装置
+CN
+14.11.2007
+H02J 9/00 Loading...
+H02J 9/00
+Loading...
+200620160571.2
+深圳市华力特电气有限公司
+何育坤
+H02J 9/00
+Loading...
+本实用新型提供一种备自投装置，包括三个断路器和自动切换电器控制器，所述两个断路器分别用于设置在两路电源系统中，另一个断路器用与连接两段母线，所述两路电源系统分别连接所述两段母线，所述自动切换电器控制器进一步包括连接所述三个断路器的模式识别器，用于对所述三个断路器状态进行监控并获得其状态，并且识别出系统运行模式是两段母线分裂运行模式还是备用电源系统运行模式。本实用新型能识别出备自投装置的运行模式，不需要人工操作，降低成本提高效率。
+120. 200976101 智能测控装置
+CN
+14.11.2007
+G05B 15/02 Loading...
+G05B 15/02
+Loading...
+200620160572.7
+深圳市华力特电气有限公司
+李庆军
+G05B 15/02
+Loading...
+本实用新型提供一种智能测控装置，包括显示器，所述显示器包括驱动电路以及显示屏，所述显示器还包括将状态标识信号转换成在显示器上显示的数字或刻度的状态标识数字显示单元。本实用新型能让用户容易准确地对智能测控装置进行读书。
+121. 101055301 Neutral point grounding resistor monitoring device
+CN
+17.10.2007
+G01R 27/18 Loading...
+G01R 27/18
+Loading...
+200710108451.7
+Farad Electric Co., Ltd.
+Tu Fangkui
+G01R 27/18
+Loading...
+The invention relates to a monitoring equipment, especially an equipment for monitoring neutral point grounding resistor, including a micro-processing unit and a collection unit for collecting running status data of resistor and transmitting to the micro- processing unit, a warning unit, a storage unit and a relay control unit for switching off resistor under the control of micro-processing unit connected with the micro- processing unit respectively. The invention is capable of monitoring current and temperature of the resistor and determining whether the resistor is working on normal state, warning and switching off the resistor if the current or temperature of the resistor exceeds the threshold indicated unnormal working, thereby prolonging greatly service life of system equipment, improving safe reliability and satisfying simultaneously the unattended guard demand of the present transformer substation.
+122. 1610034 Three-phase operating box
+CN
+27.04.2005
+H01H 47/00 Loading...
+H01H 47/00
+Loading...
+200310111836.0
+Hualite Complete Equipment Co., Ltd., Shenzhen
+Zhuo Zhonghui
+H01H 47/00
+Loading...
+The present invention is triphase operation box and aims at facilitating the match between the current type tripping/closing blocking relay and the tripping/closing winding in breaker. The present invention has increased voltage type tripping/closing starting relay matching with tripping/closing blocking relay, and tripping/closing constant voltage branches connected parallelly to ends of the tripping/closing starting relay separately. When loop current varies in 0.25-10 A, the tripping/closing branches can maintain the voltage across the tripping/closing starting relay winding basically constant, and the voltage can actuate the tripping/closing starting relay to drive the tripping/closing blocking relay and the tripping/closing winding in the breaker, so as to realize tripping/closing function.
+

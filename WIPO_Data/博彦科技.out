@@ -1,0 +1,253 @@
+1. 103852769 一种具有节电功能的定位跟踪装置及其节电方法
+CN
+15.02.2017
+G01S 19/34 Loading...
+G01S 19/34
+Loading...
+102013000753242
+博彦科技股份有限公司
+李春岭
+G01S 19/34
+Loading...
+本发明公开了一种具有节电功能的定位跟踪装置及其节电方法。该定位跟踪装置采用频率不同的双控制模块进行工作，控制模块不需要连续不断地接入和检测数据。只有传感器模块或者电池出现异常时，从控模块才会进入正常模式，当位置数据发送至主控模块后，又会进入睡眠模式。而主控模块被从控模块唤醒，将位置数据发送后，又会进入睡眠模式。本发明最大程度地增加控制模块在睡眠模式下的工作时间，使得整个定位跟踪装置的总能耗最小化，同时也延长了电池的寿命。
+2. 105184165 用于网络附加存储系统防病毒的进程调度方法
+CN
+23.12.2015
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201510582464.2
+博彦科技股份有限公司
+白春玲
+G06F 21/56
+Loading...
+本发明公开了一种用于NAS系统防病毒的进程调度方法，包括如下步骤：将防毒服务子进程作为一级子进程，监控进程、单文件实时杀毒进程、TCP指令处理服务进程作为二级子进程，各二级子进程由一级子进程进行调度；在NAS系统运行时，防毒服务子进程首先启动各二级子进程，然后进入监控各二级子进程的状态；当出现严重消耗资源的操作时，防毒服务子进程将内存和CPU资源由预定的二级子进程独占使用，同时暂时终止其它的二级子进程。本发明通过独特的进程保护机制、重任务独占策略和非常规进程通信模式，在NAS这种硬件资源紧张的网络存储设备上实现了复杂多样的进程控制，使得NAS系统上的关键进程可以按需独占系统资源。
+3. WO/2013/107079 VANADIUM DIOXIDE COMPOSITE POWDER AND PREPARATION METHOD THEREOF
+WO
+25.07.2013
+C09D 7/12 Loading...
+C09D 7/12
+Loading...
+PCT/CN2012/072018
+SHANGHAI INSTITUTE OF CERAMICS, CHINESE ACADEMY OF SCIENCES
+LUO, Hongjie
+C09D 7/12
+Loading...
+Provided are a vanadium dioxide composite powder and a preparation method thereof. The vanadium dioxide composite powder comprises a vanadium dioxide nanopowder of V1-xMxO2, on the surface of which are grafted long-chain molecules for organic modification, and wherein M is a doped element, and x is 0 ≤ x ≤ 0.5. A dispersing assistant and an organically modified agent with long-chain molecules used for surface modifying are added into a mixture A which is obtained by dispersing the vanadium dioxide nanopowder into a dispersing medium, and then the surface of the vanadium dioxide nanopowder is organically modified in order to improve the chemical stability and the dispersibility of the vanadium dioxide powder.
+4. WO/2013/107080 VANADIUM DIOXIDE POWDERY SLURRY AND PREPARATION PROCESS THEREOF
+WO
+25.07.2013
+C01G 31/02 Loading...
+C01G 31/02
+Loading...
+PCT/CN2012/072019
+SHANGHAI INSTITUTE OF CERAMICS, CHINESE ACADEMY OF SCIENCES
+LUO, Hongjie
+C01G 31/02
+Loading...
+Provided are a vanadium dioxide powdery slurry and preparation process thereof. The vanadium dioxide powdery slurry comprises vanadium dioxide complex powder comprising vanadium dioxide nanopowders with a chemical composition of V1-xMxO2, and the surface of the vanadium dioxide nanopowders being attached to an organic-modified long chain molecule, wherein M is a doped element, and 0 ≤ x ≤ 0.5. Chemical stability and dispersibility of the vanadium dioxide powders and slurry thereof are greatly increased by organic-modifying the surface of the vanadium dioxide.
+5. WO/2013/107081 VANADIUM DIOXIDE COATING FOR INTELLIGENT TEMPERATURE CONTROL
+WO
+25.07.2013
+C09D 7/12 Loading...
+C09D 7/12
+Loading...
+PCT/CN2012/072021
+SHANGHAI INSTITUTE OF CERAMICS, CHINESE ACADEMY OF SCIENCES
+LUO, Hongjie
+C09D 7/12
+Loading...
+A vanadium dioxide coating for intelligent temperature control is formed by mixing a vanadium dioxide powder slurry, polymer emulsion and coating additives and then coating the mixture onto a substrate. The vanadium dioxide powdery slurry comprises vanadium dioxide composite powders and a dispersion medium, the composite powders comprising vanadium dioxide nanopowders having a chemical composition of V1-xMxO2, and the surface of the vanadium dioxide nanopowders being attached to organic-modified long chain molecule, wherein M is a doped element, and 0 ≤ x ≤ 0.5. Through using the vanadium dioxide powders and the slurry thereof having an organic modified surface, the coating has higher visible light transmittance, can almost completely screen the ultraviolet and simultaneously intelligently adjust the infrared ray.
+6. 103067502 一种开发测试云的硬件系统
+CN
+24.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210583621.8
+博彦科技（上海）有限公司
+不公告发明人
+H04L 29/08
+Loading...
+本发明公开了一种开发测试云的硬件系统，其特征在于，终端机对软件开发或者测试的软件或硬件需求定制完成后，所述服务器自动为所述终端机创建进行所述软件开发或者测试的虚拟机；在所述虚拟机的用户支付购买费用后，所述虚拟机对应的运行环境、功能组件、数据、工具或系统被统一存储、安装、运行在一个独立硬件设备上，并提供给所述用户；所述用户在所述独立硬件设备上的软件开发、测试数据在所述独立硬件设备通过网络接入所述服务器后，自动同步到所述虚拟机；后者产生的软件开发、测试数据也在所述独立硬件设备通过网络接入所述服务器后自动同步到所述独立硬件设备上。本发明的技术能把软件开发、测试工作统一放到一个云平台上进行；而且通过远程定制软硬件配置来订购设备，能彻底改变计算机、手机、平板电脑、移动电视、智能电视、游戏机等软硬件一体设备的销售模式。
+7. 103049383 一种开发测试云系统
+CN
+17.04.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201210583622.2
+博彦科技（上海）有限公司
+不公告发明人
+G06F 11/36
+Loading...
+本发明公开了一种开发测试云系统，其特征在于，用户开发/测试结束后，可下载其开发或者测试的软件，或者把所述软件分布到至少一个APP商店；所述系统提供一些封装的知识组件供所述用户免费或付费使用，所述知识组件包括数据、程序、文档、插件、模块、工具；所述系统向所述用户开放上传、发布其他知识组件的接口；所述系统的安全机制包括：智能aaS（Intelligence-aas）、SaaS、Security-aaS、PaaS、IaaS的安全机制。本发明的技术能把软件开发、测试工作统一放到一个云平台上进行，能大大提高软件开发/测试的速度和效率，减少软件开发/测试的成本。
+8. WO/2012/097658 METHOD AND APPARATUS FOR ASSISTING USER INPUT BASED ON MOBILE TERMINAL BROWSER
+WO
+26.07.2012
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+PCT/CN2011/084128
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+SHEN, Jinlong
+H04W 12/06
+Loading...
+Disclosed are a method and apparatus for assisting user input based on mobile phone browser: storing the login authentication information input by a user when the user login to a Internet website for the first time; confirming the current page on the mobile terminal browser is a login page and the user is re-logging in, read-in the pre-stored login authentication information into the current login page; receiving login authentication trigger information, encapsulating the login authentication information on the current login page, and generating a login request for login authentication of the Internet website corresponding to the current login page. Utilizing the method and apparatus provided in the present invention can reduce the number of times the user inputs usernames and passwords to access Internet websites, and decrease the time required for the user to access the Internet websites.
+9. WO/2012/055133 METHOD FOR CONFIGURING RECIPE EDITOR OF INTEGRATED CIRCUIT (IC) EQUIPMENTS
+WO
+03.05.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+PCT/CN2010/080086
+MICROCYBER CORPORATION
+KANG, Kai
+G06F 17/50
+Loading...
+A method for configuring a recipe editor of integrated circuit (IC) equipments includes the following steps: the configuration window of the recipe editor is started; the configuration information of the IC equipment recipes is configured in the configuration window and saved as a configuration file; the recipe editor is restarted, and the information in the configuration file is read automatically; and according to the read information in the configuration file, the recipe editor resets the structure of the recipe editor, and generates the recipe edit interface of the recipe editor. The method allows the user to configure the recipe editor effectively without modifying the code, can accomplish the configuration of the table structure of the recipe editor, such as accomplishing the parent-child relation of the parameters and the flexible split of the cells, and also can associate the recipe editor with different configuration files according to different recipe types, so as to accomplish multiple configurations of the recipe editor.
+10. WO/2012/055200 METHOD FOR CALLING FUNCTIONS OF REACTION CHAMBER AND SHEET TRANSMITTING CHAMBER FACING TO CLUSTER SEMICONDUCTOR DEVICE
+WO
+03.05.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+PCT/CN2011/071481
+MICROCYBER CORPORATION
+KANG, Kai
+G06F 19/00
+Loading...
+A method for calling function of reaction chamber and sheet transmitting chamber facing to a cluster semiconductor device is provided. The method includes the following steps: partitioning each function in the cluster semiconductor device, and constructing the corresponding function modules according to different functions; creating a command assignment table and a parameter assignment table; analyzing the external command received by the cluster semiconductor device according to the command assignment table and the parameter assignment table, and determining which function module to process the command; executing independently or cooperating with other function modules or not executing the command by the function module which takes charge of processing the command according to the present state; returning the result of the command executed independently or cooperating with other function modules to the command dispatcher together, and finishing the function calling of reaction chamber and sheet transmitting chamber. The method can manage the scheduling problem of multiple function modules in the cluster device effectively, make each function module of the device combine with each other, finish more complex functions, and improve the using efficiency of the device function.
+11. WO/2011/121859 DETECTION ELEMENT
+WO
+06.10.2011
+G01N 5/02 Loading...
+G01N 5/02
+Loading...
+PCT/JP2010/072163
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+OGI Hirotsugu
+G01N 5/02
+Loading...
+A detection element (10) is provided with cover members (1 - 3), an oscillator (4), antennas (9, 11, 12), inspection space (13), and tiny space (14). The inspection space (13) and the tiny space (14) are formed in the cover members (1 - 3). The tiny space (14) is opened with respect to the inspection space (13). The oscillator (4) is disposed in the inspection space (13) such that the edge part is inserted into the tiny space (14). The antenna (9) applies an electro-magnetic field to the oscillator (4) in collaboration with the antenna (12). The antenna (11), in collaboration with the antenna (12), receives a signal comprising the oscillation signal of the oscillator (4).
+12. WO/2011/096233 THERMAL SPRAY MATERIAL AND METHOD FOR FORMING A SPRAYED COATING
+WO
+11.08.2011
+C23C 4/10 Loading...
+C23C 4/10
+Loading...
+PCT/JP2011/000645
+NIPPON STEEL HARDFACING CO., LTD.
+SAITOH, Hidetoshi
+C23C 4/10
+Loading...
+Provided is a technique that can form a dense, high-grade metal-oxide coating that is highly abrasion-resistant, corrosion-resistant, and the like, without requiring a special thermal spray device or method. The thermal spray material used is characterized by containing at least one non-vaporizing metal chelate. Said thermal spray material is heated in a thermic fluid, removing organic components from the metal chelate(s) by thermal decomposition, and the metallic components from said metal chelate(s) are oxidized, thereby generating metal oxides. Said metal oxides are carried by the thermic fluid and collide with a target object, thereby forming a sprayed coating.
+13. WO/2010/098502 IMAGING DIAGNOSTIC AGENT AND EXTRACORPOREAL DIAGNOSTIC AGENT FOR INCURABLE NEUROLOGICAL DISEASES
+WO
+02.09.2010
+C07C 49/255 Loading...
+C07C 49/255
+Loading...
+PCT/JP2010/053590
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+TOOYAMA, Ikuo
+C07C 49/255
+Loading...
+A curcumin derivative containing fluorine atom which is represented by formula (I) [wherein R1a and R1b independently represent each a hydrogen atom, alkyl, acetyl or methoxycarbonyl; R2s independently represent each a fluorine atom, CHF2-, CF3-, CHF2O- or CF3O-; R3s independently represent each a hydrogen atom or a fluorine atom; and A represents alkyl, cyano, carboxyl, alkoxycarbonyl or R4-(CH2)m- (wherein R4 represents hydroxy, carboxy, cyano, acetyloxy, alkoxycarbonyl, alkoxyalkoxy, hydroxyalkoxy or CONR5R6 (wherein R5 and R6 independently represent each a hydrogen atom or alkyl); and m represents an integer of 1 to 5)] or a salt thereof; and an imaging diagnostic agent for diagnosing a disease in association with the accumulation of amyloid β peptide aggregates which comprises a compound having a 1,3-dicarbonyl structure, wherein said compound occurs in keto- and enol-forms and the keto-form differs from the enol-form in affinity for amyloid β peptide aggregates.
+14. 201540644 无线数传模块
+CN
+04.08.2010
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+200920240225.9
+济南博安自控科技有限公司
+李彦
+G08C 17/02
+Loading...
+本实用新型公开了一种无线数传模块，包括用于与数据监测终端通讯的RF射频单元、用于采集各种数据的数据采集单元、用于分析处理采集到的数据的MCU微控制器及用于为装置供电的电源管理单元，所述数据采集单元连接MCU微控制器的输入端，RF射频单元连接MCU微控制器的输出端。它可将被监测设备的状态稳定的无线传输至监测终端，操作方便，适用于各种设备的状态实时监控。
+15. WO/2008/059848 STRUCTURE OF MICRO/NANOCONSTRUCTION, BIOINSPECTION CHIP UTILIZING THE SAME AND PROCESS FOR PRODUCING THEM
+WO
+22.05.2008
+B29C 43/02 Loading...
+B29C 43/02
+Loading...
+PCT/JP2007/072034
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+HIRAI, Yoshihiko
+B29C 43/02
+Loading...
+A simple and easy process for direct production molding of a structure of nanoconstruction or microconstruction from a synthesized resin material; and a biosensing disk utilizing the structure and a bioinspection chip utilizing the same. The process for producing a structure of nanoconstruction or microconstruction comprises the steps of placing a powdery resin on a surface of original plate; heating the original plate and the resin at a temperature of from the glass transition temperature of the resin to the melting temperature thereof; pressing the resin against the original plate; and cooling the resin to the glass transition temperaturethereof or below and removing the original plate to thereby form a reversal construction of nanoconstruction or microconstruction with respect to the original plate. Further, there is provided a biosensing chip obtained by causing the structure to adsorb an antibody and providing the backside thereof with a light shielding layer, and provided a bioinspection chip having the biosensing chip disposed inside a flow channel side substratum and inside a lid side substratum.
+16. WO/2006/062134 IP3 RECEPTOR-DEFICIENT MOUSE
+WO
+15.06.2006
+A01K 67/027 Loading...
+A01K 67/027
+Loading...
+PCT/JP2005/022474
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+MIKOSHIBA, Katsuhiko
+A01K 67/027
+Loading...
+An animal model of saliva secretion and pancreatic secretion insufficiencies. More specifically, a nonhuman vertebrate lacking functional type 3 inositol 1,4,5-triphosphate receptor (IP3R3) and/or type 2 inositol 1,4,5-triphosphate receptor (IP3R2). A method of screening a drug capable of ameliorating exocrine secretion insufficiency is also provided.
+17. WO/2005/038897 LIQUID COMPOSITION, PROCESS FOR PRODUCING THE SAME, FILM OF LOW DIELECTRIC CONSTANT, ABRADANT AND ELECTRONIC COMPONENT
+WO
+28.04.2005
+H01L 21/314 Loading...
+H01L 21/314
+Loading...
+PCT/JP2004/015973
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+TAKAHAGI, Takayuki
+H01L 21/314
+Loading...
+A porous-structured diamond micrograin film known as a film of high heat resistance and low dielectric constant also exhibits high thermal conductivity and is promising as a multilayer wiring insulating film of semiconductor integrated circuit devices. However, diamond micrograin liquid compositions as a film raw material have had poor colloid stability and in film production, have exhibited poor reproducibility and yield. Diamond micrograin colloid liquid composition can have strikingly low viscosity and high stability when a small amount of amine is incorporated therein. Various coaters can be utilized by adjusting the viscosity thereof to desirable level with the use of a thickening agent according to necessity. As a result, a film of low dielectric constant exhibiting a specific inductive capacity of about 2.5 has been obtained. Further, the above liquid composition can be used as a finishing abradant.
+18. WO/2005/022134 FIELD-EFFECT TRANSISTOR, SINGLE ELECTRON TRANSISTOR, AND SENSOR USING SAME
+WO
+10.03.2005
+G01N 27/414 Loading...
+G01N 27/414
+Loading...
+PCT/JP2004/012402
+Japan Science and Technology Agency
+MATSUMOTO, Kazuhiko
+G01N 27/414
+Loading...
+A sensor for detecting a substance to be detected. The sensor includes a field-effect transistor (1A) having a substrate (2), a source electrode (4) and a drain electrode (5) both installed on the substrate (2), and a channel (6) to serve as a current path between the source electrode (4) and the drain electrode (5). The field-effect transistor (1A) further includes an interaction sensing gate (9) for immobilizing a specific substance (10) interactive selectively with the substance to be detected and a gate (7) to which a voltage is applied so that the interaction is detected as a characteristic variation of the field-effect transistor (1A). Such a structure enables a sensor to detect a substance to be detected with a high detection sensitivity.
+19. WO/2004/104568 SINGLE-ELECTRON TRANSISTOR, FIELD-EFFECT TRANSISTOR, SENSOR, METHOD FOR PRODUCING SENSOR, AND SENSING METHOD
+WO
+02.12.2004
+G01N 27/414 Loading...
+G01N 27/414
+Loading...
+PCT/JP2004/007300
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+MUKASA, Koichi
+G01N 27/414
+Loading...
+A single-electron transistor comprising at least a substrate (1), a source electrode (3) and a drain electrode (4) formed on top of the substrate (1) opposing to each other, and a channel arranged between the source electrode (3) and the drain electrode (4) is disclosed wherein the channel is composed of ultra fine fibers (CNT) (7). By having such a constitution, a sensor can have excellent sensitivity.
+20. WO/2004/086055 MICROCHIP, NUCLEIC ACID EXTRACTING KIT, AND NUCLEIC ACID EXTRACTING METHOD
+WO
+07.10.2004
+B01J 19/00 Loading...
+B01J 19/00
+Loading...
+PCT/JP2004/003998
+SONY CORPORATION
+OHNISHI, Michihiro
+B01J 19/00
+Loading...
+A novel technical means capable of being produced or prepared at low cost, inhibiting generation of stagnation of flow of a liquid sample, smoothly easily effecting injection, filling and transport of microbeads, and inhibiting generation of dust; and a novel nucleic acid extracting method used therefor. A microchip having a minute flow channel (3) defined by grooves (11, 21) formed in the joined surface of upper and lower boards (1, 2), wherein the minute flow channel (3) is provided with a space (31) of reduced flow channel cross section in the upper-lower, left-right or upper-lower left-right center of the cross section, and microbeads are dammed up.
+21. WO/2004/086118 OPTICAL FREQUENCY LINEAR CHIRP VARIABLE UNIT
+WO
+07.10.2004
+G02B 26/00 Loading...
+G02B 26/00
+Loading...
+PCT/JP2004/003911
+JAPAN SCIENCE AND TECHNOLOGY AGENCY
+MATSUDA, Isao
+G02B 26/00
+Loading...
+An optical frequency linear chirp variable unit employing a dielectric multilayer film mirror not requiring alignment of optical axis every time when the amount of chirp is varied. The optical frequency linear chirp variable unit comprises two dielectric multilayer film mirrors (2, 2) arranged in parallel with the dielectric multilayer film mirror surfaces (2a) facing each other, and a movable mirror (4) arranged in a space (3) formed between the dielectric multilayer film mirrors (2, 2). The movable mirror (4) reflects an incident light (5) entering obliquely from one end of the space (3) formed between the dielectric multilayer film mirrors (2, 2) and reflected a plurality of times to the direction of one end (3a) in parallel with the dielectric multilayer film mirror surface (2a) in an incident plane (7) determined by the incident light (5) and the surface normal (6) to the dielectric multilayer film mirrors (2). The movable mirror (4) is movable inward of the incident plane (7) in parallel with the dielectric multilayer film mirror surface (2a), and an amount of chirp to be added is varied by advancing or retracting the movable mirror (4) in that direction.
+

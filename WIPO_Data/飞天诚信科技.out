@@ -1,0 +1,2401 @@
+1. WO/2017/075881 MINIATURE ELECTRONIC DEVICE
+WO
+11.05.2017
+H01R 13/502 Loading...
+H01R 13/502
+Loading...
+PCT/CN2015/099031
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H01R 13/502
+Loading...
+A miniature electronic device comprises: a substrate (101) and a cover plate (102). The substrate (101) is provided with a first electronic circuit (101-1) and a first contact electrode (101-2), and the first electronic circuit (101-1) is electrically connected to the first contact electrode (101-2). The cover plate (102) covers and engages with the substrate (101), and an accommodation space (103) is provided between the cover plate (102) and the substrate (101) to accommodate the first electronic circuit (101-1). When an electronic device is inserted into a USB port, the first contact electrode (101-2) is connected to a corresponding electrode of the USB port. The electronic device has a width of 11.95-12.05 mm and a thickness of 2.4-2.5 mm. The electronic device is an electronic device comprising a substrate and a cover plate and having the substrate located where an insertion connection is made, and the electronic device having such configuration not only is a USB connector itself but also comprises an electronic circuit, thereby reducing the volume of the electronic device, achieving portability, lightweight, and practicability, and improving user experience.
+2. 106603239 一种基于蓝牙可视卡的主账户余额查询方法及蓝牙可视卡
+CN
+26.04.2017
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102016001040897
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明涉及信息安全领域，公开了一种基于蓝牙可视卡的主账户余额查询方法，包括：蓝牙可视卡接收客户端下发的查询主账户余额交易指令；选择应用；执行脱机数据认证和处理限制，执行持卡人认证和行为分析，并设置蓝牙可视卡内部的终端验证结果；当行为分析结果中的应用密文为授权请求密文时，通过客户端向发卡行服务器发起联机请求，获取联机响应报文，根据联机响应报文中的主账户余额信息显示主账户余额。同时公开了一种适用上述方法的蓝牙可视卡。本发明的有益效果在于，克服了现有技术中需要借助金融交易终端进行查询的弊端，提高了主账户余额查询的便捷性和安全性。
+3. 106603238 一种多数字证书的签发系统、设备及其工作方法
+CN
+26.04.2017
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201510681362.6
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种多数字证书的签发系统、设备及其工作方法，属于信息安全领域，所述方法包括：非交互式证书、加密证书和交互式证书的签发。采用本发明的技术方案，能够实现一个电子签名载体中具有多种签名证书，并保证证书管理端签发的交互式签名证书、加密证书和非交互式签名证书能够下载到同一电子签名载体中，保证了签名的安全性和多样性。
+4. WO/2017/063493 BLUETOOTH COMMUNICATION METHOD AND COMMUNICATION APPARATUS
+WO
+20.04.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+PCT/CN2016/099759
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04W 4/00
+Loading...
+Embodiments of the present invention provide a Bluetooth communication method and a communication apparatus. The method comprises: initializing a central device object, acquiring a first device object corresponding to a Bluetooth 4.0 device according to the central device object, pairing with the Bluetooth 4.0 device corresponding to the first device object according to the first device object, and acquiring a second device object; acquiring a third device object according to the first device object or the second device object, and acquiring a target service corresponding to a preset service identifier from the third device object; and acquiring a first service according to the target service, acquiring a target characteristic corresponding to the preset service identifier from the first service, and implementing communication with the Bluetooth 4.0 device by means of the target characteristic. In the embodiment, a target characteristic corresponding to a preset characteristic identifier in a target Bluetooth device is acquired according to a central device object, and communication with the target Bluetooth device is implemented by using the target characteristic.
+5. WO/2017/059741 AUTHENTICATION METHOD AND DEVICE BASED ON AUTHENTICATION DEVICE
+WO
+13.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/096223
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+Provided are an authentication method and device based on an authentication device. The method comprises: a client obtaining an application ID according to an acquired URI and sending to a server a device authentication request obtained according to the application ID and a user identifier; receiving current authentication data sent by the server; obtaining a client data object according to a challenge value in the current authentication data, performing a hash operation on the client data object and the application ID in the current authentication data to obtain a client parameter, acquiring a key identifier in the current authentication data, and sending to an authentication device current authentication request information constituted according to the client parameter, the key identifier and a length of the key identifier; receiving authentication response information returned by the authentication device, and sending to the server a signature verification request constituted according to the authentication response information, the client data object, and a session ID in the current authentication data; and receiving information returned by the server, and if the information is success information, determining that the authentication succeeds, otherwise, determining that the authentication fails.
+6. 104200136 一种加密锁的自适应通讯方法
+CN
+29.03.2017
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+102014000440242
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/12
+Loading...
+本发明涉及加密锁的自适应通讯方法，包括：上层软件平台设置自身通讯方式信息，当检测到加密锁与主机连接时，获取加密锁的通讯方式信息，判断自身通讯方式信息和加密锁的通讯方式信息是否相匹配，是则通过中断传输管道和加密锁进行通讯，否则通过控制传输管道向加密锁发送通讯指令，加密锁根据通讯指令中的上层软件平台的通讯方式信息设置通讯方式标识，加密锁复位，根据通讯方式标识重新设置自身的通讯方式信息。这样，上层软件平台再次检测到加密锁和主机连接时，再次获取加密锁的通讯方式信息，判断通讯方式信息相匹配，则通过中断传输管道进行通讯，从而解决了现有加密锁只能支持主机的一种通讯方式的技术问题，实现了加密锁的自适应通讯。
+7. 103957225 一种处理扩展安全报文的方法及装置
+CN
+29.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102014000223345
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种处理扩展安全报文的方法及装置，该方法包括：当装置接收到数据长度值扩展指令的明文认证方式的报文时，执行以下步骤：S1：更新读取地址，获取2个字节的数据作为数据长度值；S2：根据数据长度值得到第一长度，从报文的首地址开始，获取第一长度的数据，对获取到的数据进行消息认证码运算，得到第一认证值；S3：获取报文中的消息认证码，根据第一认证值和消息认证码判断所述报文是否通过认证，是则根据所述消息认证码更新所述报文，得到指令，根据指令执行相应操作并返回操作结果，结束；否则返回错误信息，结束。本发明的方法能够对扩展指令的安全报文进行解析，保证数据通信的保密性和数据完整性。
+8. 106549973 一种基于生物特征识别的客户端及其工作方法
+CN
+29.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611058902.6
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种基于生物特征识别的客户端及其工作方法，属于信息安全领域。所述客户端包括客户端应用程序模块和客户端身份认证模块，客户端应用程序模块根据客户端标识和从服务器获取的请求数据组成身份验证请求并发送给客户端身份认证模块；客户端身份认证模块在判断所述客户端标识和请求数据合法之后提示用户输入生物特征数据并进行验证，验证成功则根据注册标识、密钥对私钥以及所述请求数据计算得到断言数据，通过客户端应用程序模块将断言数据发送给服务器，接收并显示服务器返回的请求结果。本发明中在客户端身份认证模块中完成对用户生物特征信息的验证，降低了用户生物特征信息被攻击的风险，提高了用户在线注册和登录的安全性。
+9. 106529925 一种蓝牙可视卡及实现电子现金交易的方法
+CN
+22.03.2017
+G06Q 20/06 Loading...
+G06Q 20/06
+Loading...
+201610957870.7
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/06
+Loading...
+本发明公布一种蓝牙可视卡及实现电子现金交易的方法，涉及智能卡领域。所述方法包括：蓝牙可视卡与蓝牙卡建立连接,获取交易金额，向蓝牙卡发送包含电子现金交易的应用标识符的选应用命令；蓝牙可视卡接收蓝牙卡返回的选应用响应；根据选应用响应中的处理选项数据对象列表组织获取处理选项命令，并将获取处理选项命令发送给蓝牙卡；蓝牙可视卡接收蓝牙卡返回的应用文件定位器和应用交互特征，根据应用文件定位器从蓝牙卡获取卡片信息；根据所述应用交互特征确定脱机认证方式，根据卡片信息进行脱机认证，并判断脱机认证是否成功，是则消费批准，生成交易记录，否则消费拒绝，生成交易记录。使得蓝牙可视卡与蓝牙卡可以直接进行消费，方便快捷。
+10. 103888243 一种种子密钥安全传输的方法
+CN
+22.03.2017
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+102014000149134
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/00
+Loading...
+本发明公开了一种种子密钥安全传输的方法，属于信息安全领域。所述方法包括：认证服务器根据触发信息生成公私钥数据，将私钥数据保存，将公钥数据生成公钥文件并发送给种子生成系统，种子生成系统根据接收到的令牌号查找种子密钥，生成明文种子文件数据，生成随机数，根据公钥数据、明文种子文件数据和随机数生成处理数据，并发送给认证服务器，认证服务器根据处理数据得到第一数据、第二数据和第三数据，获取私钥数据，根据第一数据、第二数据计算得到第二摘要值，当第二摘要值与第三数据相同时，获取并保存第二解密数据的令牌号和种子密钥至数据库中，种子密钥传输成功。采用本发明的方案，保证了种子密钥在传输过程中的安全性。
+11. 106529948 一种支付认证方法及系统
+CN
+22.03.2017
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201610977393.0
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开了一种支付认证方法及系统。方法包括：客户端生成支付认证第一请求并发送至应用服务器，应用服务器根据支付认证第一请求的解析结果、订单信息和应用标识生成支付认证第二请求并发送至认证服务器，认证服务器根据支付认证第二请求的解析结果生成支付认证第二请求响应并将发送至应用服务器，应用服务器根据支付认证第二请求响应的解析结果生成支付认证第一请求响应并发送至客户端，客户端根据支付认证第一请求响应的解析结果生成待签名请求并发送至认证设备，认证设备生成验证签名请求并发送至认证服务器，认证服务器将验证签名请求中的签名值的验证结果发送至应用服务器，应用服务器根据验证结果进行允许支付操作或者拒绝支付操作。
+12. 106528053 一种终端设备高效率数据处理方法及其终端设备
+CN
+22.03.2017
+G06F 9/30 Loading...
+G06F 9/30
+Loading...
+102017000003731
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/30
+Loading...
+本发明公开了一种终端设备高效率数据处理方法及其终端设备，属于通信领域。所述方法包括：终端设备接收上位机发送来的命令报文，读取命令报文中的指令序列，根据指令序列依次执行相应操作得到一系列操作结果；或者终端设备读取命令报文中的指令序列，将指令序列依次发送给卡片，接收卡片返回的一系列操作结果；当命令报文中的指令序列全部处理完成时，终端设备将所述操作结果返回给上位机。本发明中的技术方案，在终端设备与上位机进行数据交互的过程中，一条命令报文中含有多条指令，实现了一次交换完成多条指令的处理，提升了终端设备的数据处理效率。
+13. 106529949 一种安全支付设备及方法
+CN
+22.03.2017
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201610977400.7
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开了一种安全支付设备及方法，属于信息安全领域。当安全支付设备接收到客户端下发的支付请求命令时，解析所述支付请求命令获取第一参数、第二参数、密钥句柄和交易文本，显示所述交易文本，等待用户确认操作；当接收到用户确认操作时，根据所述密钥句柄获得用户应用私钥，获取计数器的当前计数值；设备根据所述第一参数、第二参数、当前计数值和所述交易文本组成第三待签名数据，使用所述用户应用私钥对所述第三待签名数据进行签名得到第三签名结果；根据所述当前计数值和所述第三签名结果组成支付请求命令的响应数据并返回给所述客户端。本发明提供的安全支付设备及方法既简化了用户操作提升了用户体验，又保证了支付的安全性。
+14. 103957196 一种信息安全设备的同步方法和系统
+CN
+22.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102014000140971
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种信息安全设备的同步方法和系统，该系统包括信息安全设备、主机和认证服务器，信息安全设备包括智能密钥模块和动态令牌模块，信息安全设备中的动态令牌模块根据种子密钥生成第一临时密钥，根据第一临时密钥生成第一同步码和第二同步码，并通过主机中的客户端将第一同步码和第二同步码发送给认证服务器；认证服务器对接收到的第一同步码和第二同步码进行认证，并在认证成功后执行同步操作，能够有效避免同步码在传输过程中被篡改或假冒而引起的安全风险，且不需要用户手动输入同步码，提高了使用的方便性，同时解决了由于用户输入出错而导致同步失败的问题，提高了同步的成功率以及同步的安全性。
+15. WO/2017/041621 METHOD AND DEVICE FOR PERFORMING REGISTRATION BASED ON AUTHENTICATION DEVICE
+WO
+16.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/096211
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+Provided are a method and device for performing registration based on an authentication device. The method comprises: a client acquiring a uniform resource identifier, obtaining an application ID according to the uniform resource identifier, and sending to a server a device registration request obtained according to the application ID and a user identifier input by a user; receiving registration data returned by the server, and obtaining a client data object according to a challenge value in the registration data and the application ID; respectively performing a hash operation on the client data object and the application ID, so as to obtain a challenge parameter and an application parameter, and sending registration request information composed of the challenge parameter and the application parameter to an authentication device; receiving registration response information returned by the authentication device, and sending to the server a key registration request composed of the registration response information, the client data object and a session ID in the registration data; and receiving information returned by the server, and determining whether the information is success information, if so, determining that the registration succeeds, and otherwise, determining that the registration fails.
+16. 106506709 一种远程日志获取方法及系统
+CN
+15.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102017000004147
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/08
+Loading...
+本发明公开了一种远程日志获取方法及系统，涉及通信领域。所述方法包括：第一设备启动之后，等待并读取自身的第一预设端口中的数据，判断读取到的数据的类型，如为日志，则将读取到的日志发送给通过网络连接的远程服务器，继续等待并读取自身的第一预设端口中的数据；如为结束标识，则结束；第二设备启动之后，与第一设备建立非网络连接，将自身的第二预设端口重定向到第一设备的第一预设端口，并将打印的日志写至第二预设端口中。本发明中的技术方案，在远程日志获取过程中，不但部署方便，易于用户操作，而且可以提高日志获取效率，利于有效的跟踪解决问题。
+17. 106485310 一种使用蓝牙可视卡推送商品信息的方法及蓝牙可视卡
+CN
+08.03.2017
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201610810734.5
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开一种使用蓝牙可视卡推送商品信息的方法和蓝牙可视卡，属于信息技术领域。该方法包括：蓝牙可视卡接收来自蓝牙基站的蓝牙广播信息；蓝牙可视卡提示用户接收到蓝牙广播信息；蓝牙可视卡从蓝牙广播信息中获取并显示商品信息；蓝牙可视卡接收用户选定的商品信息，根据接收到的用户选定的商品信息生成订单信息，将订单信息通过蓝牙发送给智能终端。本发明公开的蓝牙可视卡包括：第一接收模块、提示模块、获取模块、显示模块、第二接收模块、生成模块和发送模块。本发明提供的方法和蓝牙可视卡，在很大程度上提高商品推送的效率；不需要推销员介绍商品，降低店铺的商品推销成本。
+18. 106454713 一种移动设备与蓝牙设备配对同步的方法及装置
+CN
+22.02.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201611115029.X
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明提供一种移动设备与蓝牙设备配对同步的方法及装置，涉及通信领域。所述方法包括：当判断出移动设备与目标蓝牙设备已绑定时，判断移动设备中是否存有与目标蓝牙设备对应的第二配对标识，是则读取第二配对标识，并根据目标蓝牙设备的广播数据中的第一配对标识判断目标蓝牙设备中是否存有第二配对标识，是则与目标蓝牙设备通信，结束；否则，将移动设备与目标蓝牙设备解除绑定并重新绑定后，与目标蓝牙设备配对，接收目标蓝牙设备返回的配对标识，并作为第二配对标识保存至移动设备中，与目标蓝牙设备通信，结束。本发明中，在移动设备与蓝牙设备建立通信时，避免了因双方配对不同步而导致的通信失败的问题，提高了蓝牙设备的易用性。
+19. 106446739 一种自适应调整增益的方法及装置
+CN
+22.02.2017
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+201610842682.X
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/10
+Loading...
+本发明公开一种自适应调整增益的方法及装置，属于智能卡领域。所述方法包括：当终端检测到卡片进入非接场时，终端多次检测外部场强并记录，根据记录的场强值判断外部场强的变化是否在预设范围内，是则依次以预设增益向非接场中发送询卡指令得到询卡结果，记录预设增益和对应的询卡结果，并根据记录的预设增益和对应的询卡结果确定最终增益，以最终增益与卡片进行数据通讯；否则，终端继续检测卡片是否进入非接场。本发明中的技术方案，在非接触卡进入非接场之后，对于运动状态中的非接触卡，当其位置的改变导致外部场强的变化在预设范围内时，终端能够不断地调整自身增益来与外部场强相适应，保证通讯的顺利进行，缩短通讯时间。
+20. 106445416 一种数据记录的存储、查询和检索的方法及装置
+CN
+22.02.2017
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201610843242.6
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/06
+Loading...
+本发明公开了一种数据记录的存储、查询和检索的方法及装置，属于存储器领域。其中，数据记录的存储方法包括：提取数据记录的关键字段，计算关键字段的特征值，判断索引区里面是否包含此特征值，如果包含，则读取相应的数据记录并判断和待存储的数据记录是否相同，若索引区不包含此特征值或读取的数据记录和待存储的数据记录不相同，则将特征值和数据记录分别存入索引区和数据区；数据记录的存储装置包括：提取模块、计算模块、第一判断模块、定位模块、读取模块、第二判断模块第一写入模块以及第二写入模块。本发明的有益效果在于：采用本发明的技术方法，将Nand Flash的存储区域划分为索引区和数据区，大大提升了数据记录的存储、查询和检索的效率。
+21. 106452845 一种在线解锁的实现方法及装置
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000833664
+飞天诚信科技股份有限公司
+陆舟
+H04L 12/24
+Loading...
+本发明公开一种在线解锁的实现方法及装置，该方法包括：当接收到用户输入的用户信息时，判断用户信息是否正确，如不正确则结束；如正确则获取智能密钥设备的序列号，并判断智能密钥设备的序列号是否与用户信息匹配，如不匹配则结束，如匹配则根据智能密钥设备的序列号获取对应的管理员密码；使用管理员密码对智能密钥设备进行解锁操作。本实施例中的方法适用于用户的智能密钥设备被锁死或者忘记个人识别码时，当用户访问网站提交资料，插入需要解锁的智能密钥设备，装置从智能密钥设备中获取智能密钥设备的序列号，根据智能密钥设备的序列号计算管理员密码，然后在使用管理员密码进行解锁，安全方便。
+22. 106411653 一种对智能密钥设备进行测试的方法及装置
+CN
+15.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610949255.1
+飞天诚信科技股份有限公司
+陆舟
+H04L 12/26
+Loading...
+本发明公开一种对智能密钥设备进行测试的方法及装置，该方法包括：根据预设参数从被测试智能密钥设备导出第一公钥；使用第一公钥对预设的第一会话密钥进行加密得到第一会话密钥密文；根据预设参数将第一会话密钥密文导入被测试智能密钥设备中，接收被测试智能密钥设备返回的第一会话密钥ID，使用第二公钥和第一会话密钥ID，从被测试智能密钥设备中导出第二会话密钥密文，使用第二私钥对第二会话密钥密文进行解密，将解密结果与第一会话密钥进行比对，如二者一致则测试通过，否则测试不通过，结束。本发明技术方案能够准确、高效地判定智能密钥设备样品是否具备会话密钥协商功能并且可以互操作。
+23. 106411506 适用于数字货币的密钥派生方法及装置
+CN
+15.02.2017
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610792595.8
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开了一种适用于数字货币的密钥派生方法，属于信息安全领域。所述方法包括：将父公钥和子密钥索引顺序拼接，使用父链码作为哈希密钥，根据预设算法计算拼接数据的哈希值，根据哈希值截取得到子链码，对截取剩余数据做ECC加法模运算，若运算结果不为预设值，则将运算结果作为子私钥，对子私钥做ECC点乘运算，得到子公钥。本发明的有益效果在于根据密钥种子能够衍生出全部密钥，所以只需备份密钥种子，无需备份全部密钥，备份体积小，还能够避免密钥损坏带来的损失。
+24. 103873459 一种自动生成报文的方法
+CN
+15.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000752730
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明提供一种自动生成报文的方法，属于信息安全领域，该方法为，上位机打开配置文件，根据配置文件中的根开始元素条件值，组织根开始元素并将保存，根据配置文件中的显示开始元素条件值，组织显示开始元素和显示条目数据并保存，根据配置文件中的显示结束元素条件值，组织显示结束元素并保存，根据配置文件中的根结束元素条件值，组织根结束元素并将其保存，获取根开始元素、显示开始元素、显示条目数据、显示结束元素、根结束元素，将这些元素写入报文。采用以上方法可以自动生成的报文，无需人工进行操作，在节省人力资源的同时，避免了人工误操作，提高了生成报文的效率。
+25. 103514052 一种多应用之间互访的方法和智能卡
+CN
+15.02.2017
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+102013000356160
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/54
+Loading...
+本发明公开一种多应用之间互访的方法和智能卡，该智能卡包括访问控制器、源应用模块和目标应用模块，源应用模块调用访问控制器的API，将访问数据发送给访问控制器；访问控制器将该访问数据中的源AID和目标AID保存为应用标识对，根据目标AID将访问数据中的第一数据发送给目标应用模块；目标应用模块对接收到的第一数据进行处理，将处理得到的第二数据返回给访问控制器；访问控制器在接收到目标应用模块返回的第二数据后，根据自身保存的应用标识对，将接收到的第二数据发送给源应用模块。本发明提供的技术方案能够实现应用之间的互访和数据共享，减少了智能卡中的数据冗余，节省了智能卡的存储空间。
+26. 103729179 安全执行委托管理命令的方法
+CN
+15.02.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102013000724111
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/44
+Loading...
+本发明公开了一种安全执行委托管理命令的方法，属于智能卡领域。所述方法包括：从安全域接收到委托管理命令后解析命令，获取命令中的预设字节、令牌长度和令牌，并发送给主安全域；主安全域接收到数据后检查主安全域的生命周期状态、从安全域的生命周期状态和权限，当检查均通过时校验令牌，并返回状态码给从安全域；从安全域判断接收到的状态码，如果是预设状态码则执行委托管理操作。本发明的有益效果在于：根据本发明提供的安全执行委托管理命令的方法，可以判断出委托管理命令的合法性，可以进一步通过避免执行非法的委托管理命令，从而保证Java卡中数据的安全性。
+27. 103823771 一种远程通信方法和系统
+CN
+08.02.2017
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+102014000075638
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/10
+Loading...
+本发明公开一种远程通信方法和系统，该系统包括主机、移动设备和外部设备，所述主机包括第一守护程序、虚拟USB总线驱动、USB设备驱动和主机操作系统，所述移动设备包括第二守护程序和驱动程序。本发明通过主机与移动设备之间的通道，将与移动设备连接的外部设备远程映射为主机上的虚拟USB设备，从而实现主机与没有USB接口的外部设备之间的通信，达到了在主机上对与移动设备连接的外部设备进行操作的目的，提高了对外部设备进行调试的工作效率。
+28. WO/2017/016456 SMART CARD AND MANUFACTURING METHOD THEREFOR
+WO
+02.02.2017
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+PCT/CN2016/091501
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06K 19/077
+Loading...
+A manufacturing method of a smart card. The manufacturing method comprises: respectively hollowing out a plurality of substrates to obtain a plurality of hollowed-out substrates (101); synthesizing the plurality of hollowed-out substrates to obtain a multilayer synthesized hollowed-out substrate (102); filling the synthesized hollowed-out substrate with an internal insert (103); and coating the synthesized hollowed-out substrate with adhesive to obtain the smart card (104). By adopting the technical solution that a multilayer synthesized hollowed-out substrate is obtained by synthesizing a plurality of hollowed-out substrates, and the synthesized hollowed-out substrate is filled with an internal insert, the production difficulty of the smart card with a function of human-computer interaction is reduced, and the production efficiency is increased.
+29. WO/2017/016329 METHOD AND APPARATUS FOR RECOVERING INCOMPLETE TRANSACTION
+WO
+02.02.2017
+G06Q 20/34 Loading...
+G06Q 20/34
+Loading...
+PCT/CN2016/085219
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06Q 20/34
+Loading...
+A method for recovering an incomplete transaction. The method comprises: step S1: a terminal judges whether a record matching a current transaction identifier exists in records in an incomplete transaction log, if yes, execute step S2, and otherwise, end the procedure; step S2: the terminal acquires data recovery data object list related data from the record matching the current transaction identifier; step S3: the terminal generates a recovery application command according to the data recovery data object list related data, sends the recovery application command to a smart card, and receives second response data returned by the smart card; and step S4: the terminal completes a transaction according to the record and data in a terminal database, and ends the procedure. The present invention allows recovery of an incomplete transaction and does not affect data in a smart card, such that data in the smart card can be prevented from being repeatedly processed in the incomplete transaction.
+30. 106372009 一种Mac系统中与USB设备通讯的方法及装置
+CN
+01.02.2017
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+201610779825.7
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/10
+Loading...
+本发明公开一种Mac系统中与USB设备通讯的方法及装置，属于通信领域。所述方法包括：应用程序获取已插入USB设备的设备信息，在获取到的设备信息中查找到与目标USB设备匹配的第一设备信息，连接第一设备信息对应的USB设备，如接收到预设错误码，则调用预设函数接口来枚举第一设备信息对应的USB设备，或者切断第一设备信息对应的USB设备与系统之间的连接并重新建立连接；如连接成功，则与第一设备信息对应的USB设备进行数据通讯。本发明中的技术方案，当系统独享USB设备的通信权限时，能够模拟USB设备的插拔从而使其他应用获得该USB设备的通信权限，减少了用户操作，提升用户体验。
+31. 103763103 一种智能卡生成脱机认证凭据的方法
+CN
+01.02.2017
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102013000750552
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种智能卡生成脱机认证凭据的方法，属于智能卡领域。所述方法包括：卡片接收终端发送的命令，判断命令类型，如果是取处理选项命令，则对该命令进行处理，得到第二凭据并返回给终端；如果是内部认证命令，则对该命令进行处理，得到第三凭据并返回给终端；如果是应用密文命令，则先判断该命令的类型，如果是第一条应用密文命令，则对该命令进行处理，得到相应凭据并返回给终端；如果是第二条应用密文命令，则对该命令进行处理，得到相应凭据并返回给终端。采用本发明的技术方法，能够实现动态数据参与智能卡的认证，在保证静态数据未被篡改的基础上，又能够防止卡片被复制，提高了使用智能卡的安全性。
+32. 103823620 一种屏幕适配的方法和装置
+CN
+25.01.2017
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+102014000077059
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/0484
+Loading...
+本发明公开一种屏幕适配的方法和装置，客户端从服务器端获取用户界面数据包，对用户界面数据包进行解析，得到各个模块的绘制信息和各个组件的绘制信息，该用户界面中的模块按照垂直方向排列，每个模块包含一个或多个组件。客户端根据对自身所在设备的屏幕方向获取各个组件的显示宽度、显示高度和显示坐标，根据各个组件的显示宽度、显示高度和显示坐标，以及需要填充到各个组件中的资源文件，绘制用户界面中的各个组件，能够对具有不同屏幕尺寸的设备进行屏幕适配和横竖屏切换，提高了屏幕适配和横竖屏切换的流畅度，减少了屏幕适配的工作量，提高了屏幕适配效率。
+33. 106357393 一种安全的数据传输方法及装置
+CN
+25.01.2017
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+102016000744373
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开了一种安全的数据传输方法及装置，涉及信息安全领域。所述方法包括：系统生成随机数作为当前随机数并发送给终端设备，根据当前随机数和与终端设备对应的预置密钥计算出第一密钥和第二密钥；使用第一密钥对待传输报文进行加密得到第一数据域，根据预设的协议头数据组织头域，使用第二密钥对头域和第一数据域计算出第一校验值；根据头域、第一数据域和第一校验值组织指令并发送给终端设备；接收并解析终端设备返回的应答数据得到操作结果，如操作成功，则根据预设方式更新当前随机数，结束；如操作失败，则结束。本发明中的技术方案，在终端设备与系统进行数据传输时，每次采用不同的密钥对数据进行加解密，保证了数据传输的安全性。
+34. 106357748 一种信息推送方法及系统
+CN
+25.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000765061
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/08
+Loading...
+本发明公布一种信息推送方法及系统，涉及无线通信领域。所述系统包括：智能密钥设备，用于广播包含设备识别码的单向广播信息；固定终端设备，用于接收智能密钥设备广播的单向广播信息，并将固定终端设备标识和设备识别码发送给服务器；服务器，用于将根据固定终端标识和设备识别码定制的推送信息发送给信息输出设备；信息输出设备，用于输出服务器发送的推送信息。本发明实现了智能密钥设备作为推广和营销的工具，使得智能密钥设备的功能更加多样化。
+35. 104298152 近场通信调制深度自适应方法及装置
+CN
+25.01.2017
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+102014000512906
+飞天诚信科技股份有限公司
+陆舟
+G05B 19/042
+Loading...
+本发明公开了一种近场通信调制深度自适应方法及装置，涉及通信领域。本发明公开的装置包括主控芯片、非接触芯片和第一存储区，所述主控芯片可以控制非接触芯片根据第一寄存器的值输出一个未调制振幅，依据第一存储区中预先存储的数据表和测量到的未调制振幅值，从数据表中获取或计算得到一个数值并写入到第二寄存器，然后控制非接触芯片根据第二寄存器的值输出已调制振幅，通过对已调制振幅的控制达到调制深度自适应调节的目的。通过本发明提供的技术方案可以使得调制深度维持在合理的范围内，提高非接通信中数据传输的稳定性。
+36. 103888470 一种动态令牌的同步方法和系统
+CN
+25.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102014000131504
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种动态令牌的同步方法和系统，应用于包括动态令牌、主机和认证服务器的系统中，认证服务器生成随机数，并将该随机数保存为与动态令牌对应的挑战码；动态令牌获取认证服务器生成的随机数，并根据该随机数生成一个同步码，认证服务器使用自身保存的与该动态令牌对应的挑战码，对动态令牌生成的同步码进行验证，在验证通过后对自身保存的令牌偏移量进行更新，从而提高了同步的成功率，防止由于使用错误的或者延迟的同步码而造成的恶意同步。
+37. 106339874 一种联机交易方法、可视金融IC卡、客户端和服务器
+CN
+18.01.2017
+G06Q 20/34 Loading...
+G06Q 20/34
+Loading...
+201610658909.5
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/34
+Loading...
+本发明公开了一种联机交易方法、可视金融IC卡、客户端和服务器，属于信息安全领域。所述方法包括：可视金融IC卡接收客户端发送的交易传输数据，从中获取交易数据，接收用户输入的联机PIN，加密得到联机PIN密文，执行行为分析得到卡片行为分析结果，设置第一交易结果，根据交易数据、联机PIN密文、卡片行为分析结果、第一交易结果组织并报文发送给客户端；接收客户端发送的联机响应包，执行完成处理得到完成处理结果，设置第二交易结果，显示相应信息，根据第二交易结果、完成处理结果组织数据包发送给客户端。本发明的有益效果在于：采用本发明提供的技术方案，不需要借助POS机等交易终端即可实现联机交易，能够提高金融IC卡交易的安全性和便捷性。
+38. 106326797 一种非接触式卡片及其工作方法
+CN
+11.01.2017
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+201610692742.4
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/10
+Loading...
+本发明公开了一种非接触式卡片及其工作方法，属于非接触通信领域。所述方法包括：卡片接收到预设命令时，向读卡设备返回预设应答，与读卡设备进行数据透传；卡片接收到请求命令或唤醒命令时，向读卡设备返回请求应答，等待读卡设备下发命令，若接收到防冲突命令，当命令中不含有效位或含与卡片UID匹配的有效位时，根据其选择的串联级别向读卡设备发送相应串联级别的卡片UID，若接收到选择命令，根据命令中的UID与卡片UID向读卡设备发送相应的选择确认。本发明的有益效果在于：采用本发明方法的非接触卡片支持两种不同的协议，既可以与标准非接触卡片在同一RF场中共存，又能够实现非接触式卡片在RF场中被准确地选择。
+39. 106325948 一种移动平台支持已有Web应用的方法及装置
+CN
+11.01.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102016000744425
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/445
+Loading...
+本发明公开了一种移动平台支持已有Web应用的方法及装置，属于互联网领域；所述方法包括：应用程序在网页中注入与网页地址对应保存的脚本，并显示网页；应用程序接收到对脚本的触发信息后产生查找本地函数请求，并将查找本地函数请求发送给系统组件；系统组件根据查找本地函数请求调用本地函数生成操作指令，将操作指令发送给信息安全设备；并接收信息安全设备返回的响应数据，将响应数据中的操作结果作为本地函数返回值；应用程序在网页中注入并执行获取本地函数返回值脚本，获取本地函数返回值,根据本地函数返回值更新并显示网页。本发明实现了将已有Web应用无缝的移植到移动平台。
+40. 106327192 一种基于云服务器和支付服务器实现的支付方法及系统
+CN
+11.01.2017
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+102016000685387
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开了一种基于云服务器和支付服务器实现的支付方法及系统，涉及电子支付领域。其中，云服务器包括与用户直接进行交互的第一接收模块和第一发送模块，还包括第一处理模块、第二处理模块以及与支付服务器进行交互的第二发送模块和第二接收模块，相应的，支付服务器包括第三接收模块、第三处理模块、第三发送模块、第四接收模块和第四处理模块。本发明提供的支付方法及系统，由云服务器承担面向用户的访问需求，这样可以有效缓解支付服务器的工作负载，从而有效解决支付服务器的高并发处理能力，降低支付服务器维护成本。
+41. 106301488 一种蓝牙适配器及其工作方法
+CN
+04.01.2017
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+102016000864548
+飞天诚信科技股份有限公司
+陆舟
+H04B 5/02
+Loading...
+本发明公开了一种蓝牙适配器及其工作方法，所述方法包括：蓝牙适配器搜索与预设设备标识相匹配的蓝牙安全设备并和其建立连接；蓝牙适配器向上位机声明自身的USB协议标识；蓝牙适配器接收来自上位机的USB指令；蓝牙适配器根据蓝牙安全设备的协议类型和USB指令组织蓝牙指令；蓝牙适配器向蓝牙安全设备发送蓝牙指令；蓝牙适配器接收来自蓝牙安全设备的蓝牙应答；蓝牙适配器根据蓝牙应答和与USB协议标识相匹配的USB协议组织USB应答；蓝牙适配器将USB应答返回给上位机，最终使蓝牙安全设备能够通过本发明提供的蓝牙适配器和上位机进行通信。
+42. 106293132 一种提高键盘输入正确性的方法及键盘过滤驱动
+CN
+04.01.2017
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201610681143.2
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/023
+Loading...
+本发明公开一种提高键盘输入正确性的方法及键盘过滤驱动，属于电子设备输入领域。该方法包括：键盘过滤驱动从系统中获取键盘输入数据，从键盘输入数据中获取当前键盘输入信息，根据当前键盘输入信息和自身保存的矫正标识对当前键盘输入数据进行处理，键盘输入数据处理完键盘输入数据中所有的键盘输入信息之后，将键盘输入数据返回系统。本发明公开的键盘过滤驱动包括：第一获取模块、第二获取模块、保存模块、矫正模块、第一更新模块、存储模块、第一移除模块、第二更新模块、第二移除模块、设置模块和返回模块。本发明提供的方法和键盘过滤驱动提高了键盘输入数据的正确性。
+43. 106295767 一种智能卡及其工作方法
+CN
+04.01.2017
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+201610621287.9
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/073
+Loading...
+本发明公开了一种智能卡及其工作方法，属于智能卡技术领域。本发明公开的智能卡的模块化组成部分包括第一响应模块、第一收发模块、第一判断模块、第二判断模块、第二收发模块、第三判断模块和第二响应模块，其中第一收发模块分别与第一响应模块、第一判断模块和第二判断模块相连，第一判断模块还与第二响应模块相连，第二判断模块分别与第一收发模块、第一判断模块、第二收发模块、第三判断模块和第二响应模块相连，第二收发模块还与第三判断模块相连，第三判断模块还与第二响应模块相连。本发明提供的智能卡及其工作方法，既可适用于标准类型智能卡，又可适用于非标准类型的智能卡，兼容性强、安全性高。
+44. 106293621 一种固件升级方法及装置
+CN
+04.01.2017
+G06F 9/24 Loading...
+G06F 9/24
+Loading...
+201610620772.4
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/24
+Loading...
+本发明提供一种固件升级方法及装置，属于通信领域。所述方法包括：终端设备接收上位机发送来的升级数据包，判断是否为最后一包，否则将升级数据作为缓存数据保存到易失性存储区中，顺序读取长度为预设长度整数倍的缓存数据，根据读取到的缓存数据更新易失性存储区中的第一校验值，并将读取到的缓存数据保存到非易失性存储区中，继续接受上位机发送来的升级数据包；是则将升级数据作为缓存数据保存到易失性存储区中，并根据易失性存储区中的缓存数据更新第一校验值，将缓存数据保存到非易失性存储区中；判断升级数据包中的第二校验值与第一校验值是否相同，是则根据非易失性存储区中的升级数据执行升级操作，否则返回错误码给上位机，结束。
+45. WO/2016/206528 METHOD FOR IMPLEMENTING AUTOMATIC BLUETOOTH RECONNECTION IN ANDROID SYSTEM
+WO
+29.12.2016
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+PCT/CN2016/084568
+FEITIAN TECHNOLOGIES CO., LTD
+LU, Zhou
+H04W 4/00
+Loading...
+The present invention relates to the field of wireless communications. Disclosed is a method for implementing automatic Bluetooth reconnection in an Android system. The method comprises: when a Bluetooth module is enabled, a mobile terminal executes, when detecting that a Bluetooth broadcast is a Bluetooth connection request, the following: determining whether a Bluetooth device address comprised in the Bluetooth connection request matches a Bluetooth device address in a buffer; and if yes, establishing a connection to a current Bluetooth device corresponding to the Bluetooth device address comprised in the Bluetooth connection request, and updating a Bluetooth connection state to connected; or otherwise, not responding to the Bluetooth connection request. The automatic Bluetooth reconnection mechanism provided in the present invention avoids troublesome manual reconnection after a Bluetooth peripheral is powered on again, enables operations to be more intelligent and simpler, and improves product usability and user experience.
+46. WO/2016/202106 WORK METHOD FOR SMART KEY DEVICE
+WO
+22.12.2016
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+PCT/CN2016/080630
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06Q 20/38
+Loading...
+A work method for a smart key device. A host machine acquires data from a trusted server via a browser and then transmits the data to a smart key device; the smart key device performs a signing operation when the data transmitted by the host machine is received and when a user confirmed by pressing a key and then returns a signing result to the host machine; and the host machine transmits data returned by the smart key device to the trusted server to verify the validity of the smart key device. This implements rapid authentication of user identity, thus allowing highly efficient, secure, and expedited online transactions.
+47. 106250789 一种读卡器及其对卡片上电的方法
+CN
+21.12.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201610621042.6
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本发明公开了一种读卡器及其对卡片上电的方法，属于电子设备领域。本发明提供的读卡器对卡片上电的方法包括：读卡器根据上位机下发的上电指令中的电压选择参数对卡片上电，接收卡片返回的复位应答，根据当前复位应答设置目标电压，使用目标电压对卡片重新上电，接收卡片返回的复位应答，根据当前复位应答进行协议和参数选择。本发明提供的读卡器包括：接收模块、上电模块、电压设置模块、判断模块、协议和参数选择模块和参数设置模块。本发明的有益效果在于能够提高读卡器对卡片的兼容性以及卡片的工作稳定性。
+48. 106255039 一种检测移动终端与非接智能卡连接异常的方法及装置
+CN
+21.12.2016
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201610644622.7
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明公开了一种检测移动终端与非接智能卡连接异常的方法及装置，所述方法包括：若移动终端检测到非接智能卡进场时，移动终端获取与非接智能卡对应的NFC标签，将卡对象更新为NFC标签；和非接智能卡建立连接，判断是否连接成功，如果是，则移动终端检测和非接智能卡的连接状态，当连接状态为有效时，则返回继续检测和非接智能卡的连接状态；当连接状态为无效时或判断出没有和非接智能卡连接成功后，移动终端通知用户非接智能卡连接异常，并将卡对象置为无卡状态。本发明公开的这种检测移动终端与非接智能卡连接异常的方法，可以让用户快速和准确的获知移动终端与非接智能卡连接异常，从而完善了移动终端的性能并且提升了用户体验。
+49. WO/2016/197934 BARCODE SECURITY AUTHENTICATION METHOD
+WO
+15.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/085200
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+A barcode security authentication method. The method comprises: when a barcode acquisition request from an application server is received by an authentication server, same generates barcode information and returns the barcode information to the application server, where the barcode information is used for displaying a barcode image; a mobile terminal token end acquires the barcode information on the basis of the barcode image, generates a user mobile terminal token response value on the basis of the barcode information and of user mobile terminal token information of self, and directly transmits the user mobile terminal token response value to the authentication server for authentication. The present invention implements the technical effects in which the degree of security of identity authentication is increased while identity authentication is made more convenient and easier to operate.
+50. WO/2016/197935 SMART CARD AND METHOD FOR MANUFACTURING SAME
+WO
+15.12.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+PCT/CN2016/085201
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06K 19/077
+Loading...
+Provided is a method for manufacturing a smart card, comprising: mounting a secure chip (230) on a modular circuit board (210) to obtain a secure chip module, one layer of the modular circuit board (210) being provided with a plurality of contact points (220) insulated from each other; planting a solder ball (240) on the secure chip solder pad (311) of the main circuit board (300); according to the position of the secure chip solder pad (311) on the main circuit board (300), milling out a groove (800) on the substrate on which the main circuit board (300) is packed, such that the solder ball (240) on the secure chip solder pad (311) is visible at the bottom of the groove (800); packing the secure chip module into the groove (800), and by means of the solder ball (240) on the secure chip solder pad (311), mounting the secure chip module onto the main circuit board (300). The method reduces the restrictions to the wiring of the main circuit board caused by the contact points on the surface of the smart card, thus improving the quality of the wiring of the main circuit board; furthermore, electronic circuit-level expansion may be performed on the contact point module and the secure chip, increasing the scalability of the smart card.
+51. 106228090 一种多主安全域Java智能卡及其实现方法
+CN
+14.12.2016
+G06F 21/77 Loading...
+G06F 21/77
+Loading...
+102016000606151
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/77
+Loading...
+本发明公开了一种Java智能卡及其实现方法，所述方法包括：Java智能卡复位后，操作系统读取缺省主安全域数量，对应创建多个主安全域，并设置其中的默认主安全域为当前主安全域；操作系统接收上位机发送的APDU数据并派遣到当前主安全域；当前主安全域判断出自身有权限处理APDU数据时，若APDU数据为第一命令，则执行设置缺省主安全域的数量或者默认主安全域的操作，若APDU数据为第二命令，则执行加载及安装与自身对应的应用的操作，并通过操作系统返回操作结果上位机，操作系统继续等待接收上位机发送的APDU数据。本发明的技术方案，使得各应用供应商相互独立的存在于同一张物理卡片中，并独立管理自己的应用。
+52. 205809903 一种镶金智能卡
+CN
+14.12.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+202016000507197
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本实用新型公开了一种镶金智能卡，属于智能卡领域。镶金智能卡包括卡体、覆盖层和金属贴；覆盖层贴覆于卡体的表面，金属贴镶嵌在卡体和/或覆盖层中；当卡体中镶嵌有金属贴时，卡体包括由透明材质构成的第一区域，覆盖层包括由透明材质构成的第二区域，第一区域和第二区域与卡体中的金属贴对应；当覆盖层中镶嵌有金属贴时，覆盖层包括由透明材质构成的第三区域，第三区域与覆盖层中的金属贴对应。本实用新型提供的镶金智能卡，金属贴镶嵌在智能卡的覆盖层和/或卡体中不会受到磨损，延长了智能卡的使用寿命，减少智能卡的更换次数，有效避免资源的浪费。
+53. 205809875 一种双向读卡器
+CN
+14.12.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+202016000507795
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本实用新型公开一种双向读卡器，包括：第一连接器、第二连接器、外接接口、壳体和第一主板模块；其中，第一连接器与第一主板模块相连，第二连接器位于第一连接器的上方并与第一主板模块相连，外接接口位于第一主板模块上，第一主板模块位于壳体中；第一连接器和第二连接上设置有触点；当芯片卡以第一方向插入时，第一连接器与芯片卡的触点接触连接；当芯片卡以第二方向插入时，第二连接器与芯片卡的触点接触连接。本实用新型中的双向读卡器进行芯片卡读卡操作时，可以不区分芯片卡的正反面而进行双向读卡，减少了用户的识别过程，提升了用户体验。
+54. 106203144 一种实现浏览器访问智能密钥设备的方法及系统
+CN
+07.12.2016
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+102016000591797
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/60
+Loading...
+本发明公开一种实现浏览器访问智能密钥设备的方法及系统，属于通信领域。该方法包括：扩展程序接收来自浏览器的第一数据，并将第一数据发送给本地应用程序；本地应用程序解析第一数据得到通讯参数，根据通讯参数调用智能密钥设备的驱动接口，向智能密钥设备发送相应指令，并接收智能密钥设备返回的操作结果；本地应用程序根据接收的操作结果组织第二数据，并将第二数据发送给扩展程序；扩展程序接收第二数据，并将第二数据发送给浏览器。本发明提供的方法及系统，可以代替浏览器通过NPAPI技术访问本地计算机的通讯方式，并且具有应用范围广、安全性高、稳定性好的优势。
+55. 106161033 一种交互式电子签名方法
+CN
+23.11.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102015000208447
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种交互式电子签名方法，属于信息安全领域，所述方法包括：电子签名载体接收到签名指令时，获取并判断待签名数据和密钥，如果均为交互式，则从待签名数据中获取交互信息并显示，当用户按键确认时，根据待签名数据、交互式密钥和交互式证书，得到交互式签名结果并返回主机；如果均为非交互式，则根据待签名数据、非交互式密钥和非交互式证书，得到非交互式签名结果并返回主机。采用本发明的技术方案，能够实现一个电子签名载体中具有两种签名方式，交互式签名和非交互式签名，而且每种签名对应各自的证书和密钥，保证了签名的安全性。
+56. 106101136 一种生物特征对比的认证方法及系统
+CN
+09.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610584160.4
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种生物特征对比的认证方法及系统，该方法包括注册过程和登录过程，注册过程包括：认证服务器使用认证装置发送来的用户身份信息对用户身份进行验证，如验证通过则认证装置通过摄像头获取用户人脸图像，否则结束；认证服务器使用公安数据库中与用户信息对应的人脸图像对认证装置发送来的用户人脸图像进行验证，如验证通过则将用户信息与用户人脸图像对应保存，结束；否则结束；登录过程包括：认证装置通过用户信息登录认证页面，通过摄像头获取用户人脸图像，并将用户信息和用户人脸图像发送给认证服务器；认证服务器判断用户人脸图像与保存的与用户信息对应的用户人脸图像是否匹配，是则登录成功，否则登录失败。
+57. 106100830 一种在NFC动态令牌中写入种子密钥的方法和设备
+CN
+09.11.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610349335.3
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开了一种在NFC动态令牌中写入种子密钥的方法和设备，该方法包括以下步骤：客户端获取NFC动态令牌的令牌序列号，接收来自NFC动态令牌的第一随机数，生成第二随机数，保存令牌序列号和第二随机数，向令牌服务器发送令牌序列号、第一随机数和第二随机数；客户端接收来自所述令牌服务器的第二密文，使用最近一次保存的令牌序列号和第二随机数，对所述第二密文进行解密，得到第一密文和校验值；客户端将所述第一密文和校验值发送给NFC动态令牌。本发明通过NFC通道将种子密钥烧写到NFC动态令牌中，提高了动态令牌的安全性和灵活性。
+58. 106102058 一种身份认证方法及装置
+CN
+09.11.2016
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+102016000368089
+飞天诚信科技股份有限公司
+陆舟
+H04W 12/06
+Loading...
+本发明公开一种身份认证方法及装置，所述方法包括：移动终端向服务器后台发送包括用户标识的第一认证请求，接收来自服务器后台的第五响应；搜索与预设服务标识相匹配的身份认证设备，并与其建立蓝牙连接；获取身份认证设备的服务；从服务中获取通知特征和写特征；使能通知特征；根据预设的认证指令类型和第五响应中的信息生成认证数据，根据写特征向身份认证设备发送包括认证数据的认证指令；接收身份认证设备通过通知特征返回的包括第二认证判据的第七响应；向服务器后台发送包括认证指令类型、第二挑战值、来源数据、应用ID、用户标识和第二认证判据的第二认证请求；接收来自服务器后台的第八响应；根据第八响应判断认证是否成功。
+59. 106067849 一种适用于PDF文档的数字签名方法及装置
+CN
+02.11.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201610348811.X
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种适用于PDF文档的数字签名方法及装置，涉及数字签名领域。本发明的方法包括：数字签名装置根据客户端发来的会话标识确定当前用户，根据客户端发来的合同ID获取当前保存的与所述合同ID对应的PDF合同文档，将所述PDF合同文档中的原内容进行摘要运算，使用当前用户的用户证书的私钥对摘要运算结果进行签名得到数字签名信息，将所述数字签名信息和客户端发来的当前用户设置完成的签署信息添加到所述PDF合同文档中。使用本发明提供方法和装置，可以使得PDF文档具有可鉴权性、完整性和不可否认性。
+60. WO/2016/169395 PROTECTION METHOD FOR PIN CODE UNDER ANDROID PLATFORM
+WO
+27.10.2016
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+PCT/CN2016/077585
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 21/60
+Loading...
+Provided is a protection method for a PIN code under an Android platform. The method comprises: a Java layer transmitting a start event to a C layer after receiving an upper layer invoke; the C layer invoking the Java layer through a JNI to generate a password storage class example after receiving the start event, and re-invoking the Java layer to enable the Java layer to monitor a user input after receiving a handle returned by the Java layer; the Java layer storing PIN code data in an example memory when monitoring the PIN code data input by the user, updating a storage location identifier, transmitting an encrypted event to the C layer, and transmitting an acknowledgement event to the C layer when monitoring user input acknowledge information; and the C layer encrypting the PIN code data through a handle access example when receiving the encrypted event, and deciphering encrypted data in the example memory through the handle access example to obtain the PIN code when receiving the acknowledgement event. The embodiment of the present invention improves the security of a PIN code under an Android platform.
+61. 106022138 安全输入方法及过滤驱动
+CN
+12.10.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+102016000324497
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/57
+Loading...
+本发明公开了一种安全输入方法及过滤驱动，属于信息安全领域。所述方法包括：过滤驱动被加载时进行初始化；过滤驱动接收到系统发送的第一硬件消息时，创建第二硬件消息，将第二硬件消息发送到系统键盘驱动设备链，待第二硬件消息被系统完成后从第二硬件消息中获取按键信息，加密得到按键信息密文，将第一硬件消息返回给系统；过滤驱动接收到系统发送的第三硬件消息时，将按键信息密文填充到第三硬件消息中，将第三硬件消息返回给系统。本发明的有益效果在于：将经过滤驱动加密的按键信息发送给系统，由系统直接传递给应用程序的输入控件，其他应用程序无法获取到用户将要输入到当前应用程序的按键信息，从而保障用户按键信息的安全。
+62. WO/2016/150267 METHOD FOR ACTIVELY CONNECTING TO AND COMMUNICATING WITH APPLE DEVICE AND APPLE DEVICE ATTACHMENT
+WO
+29.09.2016
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+PCT/CN2016/074480
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 13/38
+Loading...
+A method for actively initiating a connection to and communicating with an Apple device via USB, relating to the field of communications, and comprising: an Apple device attachment, when detecting access by a USB device, determines whether the accessing USB device is an Apple device (S1); the Apple device attachment establishes a device address for the Apple device (S2); the Apple device attachment acquires the current communication protocol setup of the Apple device, and determines whether the current communication protocol configuration of the Apple device is a preset configuration (S3); the Apple device attachment sets the current communication protocol configuration of the Apple device as the preset configuration (S4); the Apple device attachment notifies the Apple device to register the Apple device attachment to the Apple device (S5); the Apple device attachment establishes a connection with the Apple device (S6); the Apple device attachment periodically queries whether communication data has been sent by the Apple device, and when detecting communication data has been sent by the Apple device, receiving the communication data sent by the Apple device and implementing communication with the Apple device (S7). The present method can actively initiate a connection with an Apple device without using an Apple authentication chip, acting as a primary device implementing communication with the Apple device.
+63. WO/2016/150306 BATTERY AND ELECTRONIC DEVICE COMPRISING SAID BATTERY
+WO
+29.09.2016
+H01M 2/06 Loading...
+H01M 2/06
+Loading...
+PCT/CN2016/076067
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H01M 2/06
+Loading...
+A battery, said battery comprising a first electrode current collector (101), a first electrode material (102), an electrolyte (103), a second electrode material (104), a second electrode current collector (105), a PCB substrate (107), a PCB surface layer (108), a first electrode wire (109), and a second electrode wire (110), the electrolyte (103) being positioned between the first electrode material (102) and the second electrode material (104), the first electrode material (102) being positioned between the first electrode current collector (101) and the electrolyte (103), the second electrode material (104) being positioned between the second electrode current collector (105) and the electrolyte (103), the second electrode current collector (105) being positioned between the second electrode material (104) and the PCB substrate (107), and the PCB substrate (107) being positioned between the second electrode current collector (105) and the PCB surface layer (108). By means of using one of the electrode current collectors in the battery as one layer of a printed circuit board, limitations on the size of the battery can be reduced without increasing the size of the electronic device in which the battery is situated, thus increasing the battery capacity.
+64. 105976009 一种智能卡及其制造方法
+CN
+28.09.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+102016000287235
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法，所述方法包括：将天线线圈装配到电路板上；将IC模块装配到电路板上，得到包括天线线圈、IC模块和电路板的电子组件，其中，IC模块通过电路板和天线线圈连接；在电路板的接触区域内的焊盘上放置导电介质；将电子组件填充到第一基板中；在第一基板上贴覆第二基板和/或覆膜，进行层压，得到中料；根据接触区域内的焊盘的位置，在中料上铣出凹槽，使得接触区域内的焊盘上的导电介质在凹槽底部可见；将载带单元填充到凹槽中，并通过电路板上的导电介质，将载带单元装配到电路板上，使载带单元通过电路板和IC模块连接，得到智能卡。本发明在提高双界面智能卡的生产效率的同时降低了生产成本。
+65. 103366019 一种基于iOS设备的网页拦截方法和设备
+CN
+28.09.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000338264
+飞天诚信科技股份有限公司
+陆舟
+G06F 17/30
+Loading...
+本发明公开一种基于iOS设备的网页拦截方法和设备，应用于包括应用程序和系统组件的iOS设备中，应用程序通过对系统默认的统一资源定位符缓存对象进行子类化处理，得到对网络请求的控制权，使用链接字符串，对从请求消息中解析出的统一资源定位符字符串进行匹配，并在匹配成功时，生成伪装响应数据，并根据该伪装响应数据进行显示，能够实现对网页广告或恶意网页的拦截，降低对系统资源和网络资源的占用，提高系统的运行速度以及用户访问网络的速度和流畅度，减少对设备电量的消耗。
+66. 103955442 一种USB设备生产装置的工作方法
+CN
+28.09.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+102014000185120
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/40
+Loading...
+本发明公开了一种USB设备生产装置的工作方法，涉及计算机领域。本发明根据存储功能类型USB设备和非存储功能类型USB设备的结构特点，开发了一套生产流程，可以实现通过维护一套生产工具，批量化生产存储功能类型和非存储功能类型的USB设备，不仅提高了生产工具的兼容性，还方便了开发及后期生产维护管理。
+67. 102347942 一种基于图像采集的信息安全方法及系统
+CN
+28.09.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102011000185195
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种基于图像采集的信息安全方法及系统。所述方法包括：服务器端接收客户端发来的第一交易数据，根据第一交易数据生成第二交易数据；服务器端将第二交易数据转换成交易图像，将交易图像发送至客户端；动态令牌采集所述交易图像后，对交易图像进行预设处理转换成第三交易数据并显示，等待用户确认；动态令牌根据第三交易数据生成第二动态口令并显示；客户端接收用户输入的第二动态口令，将第二动态口令发送至服务器端；服务器端接收第二动态口令，根据第二交易数据生成第一动态口令，判断第一动态口令与第二动态口令是否相同，如果相同，则验证成功，执行交易，否则，取消操作，本发明还同时提供了一种基于图像采集的信息安全系统。
+68. 103559076 一种使用寄生对象管理对象堆的方法和装置
+CN
+28.09.2016
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+102013000537587
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/455
+Loading...
+本发明公开一种使用寄生对象管理对象堆的方法和装置，通过使用寄生对象标记对象堆中的空闲空间，并根据寄生对象在对象堆中为待创建对象申请空间，能够有效地管理对象堆中的空闲空间，提高对象堆的空间利用率；在执行完删包或删应用操作后，以及在检测到java卡应用程序调用与垃圾回收对应的预设API后，仅需要执行一个空操作，而不再需要通过移动对象堆中的已创建对象进行垃圾回收，减少了对已创建对象的移动次数以及移动对象带来的时间消耗，提高了Java卡虚拟机的工作效率，并在一定程度上达到磨损平衡。
+69. 103607281 一种安全设备的解锁方法和系统
+CN
+28.09.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102013000560096
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开一种安全设备的解锁方法和系统，认证服务器根据安全设备生成的动态口令生成解锁码，并通过主机将解锁码发送给安全设备；安全设备对接收到的解锁码进行校验，并在校验通过后执行解锁操作，能够有效避免解锁码在传输过程中被篡改或假冒而引起的安全风险，且不需要用户手动输入解锁码，提高了使用的方便性，同时解决了由于用户输入出错而导致解锁失败的问题，提高了解锁的成功率以及解锁的安全性。此外，由于认证服务器生成的解锁码与时间无关，解决了现有技术中由于安全设备和认证服务器之间时间不同步而造成的解锁失败问题，进一步提高了解锁成功率。
+70. 103731274 一种识别音频设备的方法
+CN
+28.09.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102014000023727
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种识别音频设备的方法，属于信息安全领域。所述方法包括：移动设备启动监听音频设备插拔线程，当移动设备与音频设备连接时：移动设备开启录音，如果在第一预设时间内接收到特征数据，则标识音频设备为音频智能密钥装置，并向音频智能密钥装置发送数据，否则关闭录音；音频智能密钥装置上电初始化，向移动设备发送音频数据，如果在第二预设时间内接收到移动设备发送的数据，则处理该数据，否则关机；当移动设备与音频设备断开连接时：移动设备关闭录音，音频设备关机。采用本发明的所述方案，移动设备能够识别插入的音频设备类型，而且是在确定是音频智能密钥装置后发数据，能够防止耳机插入时掺带杂音，用户体验良好。
+71. 103207770 一种在嵌入式系统中实现大数预计算的方法
+CN
+28.09.2016
+G06F 7/50 Loading...
+G06F 7/50
+Loading...
+102013000132081
+飞天诚信科技股份有限公司
+陆舟
+G06F 7/50
+Loading...
+本发明公开一种在嵌入式系统中实现大数预计算的方法，根据模长的数据格式以及模长对应的二进制数的各个数据位的取值，调用取模模块、模加模块和蒙哥马利模乘器进行迭代运算，能够在模长为任意值时，得到大数预计算结果，从而提高了数据处理速度。
+72. 205608728 一种双接口的智能密钥设备
+CN
+28.09.2016
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201620305548.1
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/34
+Loading...
+本实用新型公开一种双接口的智能密钥设备，微控制模块与闪电接口模块、按键模块、音频通信模块、USB接口模块、电源控制模块、苹果授权认证模块、显示模块和闪存模块连接；音频接口模块与音频通信模块连接；音频通信模块与微控制模块、音频接口模块和电源控制模块连接；电源控制模块与微控制模块、按键模块、音频通信模块、电池模块、苹果授权认证模块、显示模块和闪存模块连接。本实用新型通过音频接口外接音频设备，通过闪电接口可以传输音频数据，实现key的功能。通过闪电接口既可以传输Key数据，又可以供电，适用于现有的Android手机，使其可以继续使用音频传输数据。
+73. 205610357 一种非接触充电装置
+CN
+28.09.2016
+
+
+
+201620396164.5
+飞天诚信科技股份有限公司
+陆舟
+
+
+本实用新型涉及电子领域，尤其涉及一种非接触充电装置。装置包括：输入端、磁场发射电路、驱动电路、磁场感应电路、电压转换电路和输出端；输入端与磁场发射电路相连，磁场发射电路与驱动电路相连；磁场感应电路与电压转换电路相连；电压转换电路与输出端相连；驱动电路产生高频电信号驱动磁场发射电路与磁场感应电路互感。本实用新型提供的非接触充电装置可避免触电的危险，且不会有插拔操作引起接触松动，充电时无需电线连接，简单易用且不需要占用电源插座，没有电线互相缠绕的问题。
+74. 205608729 一体式蓝牙Key
+CN
+28.09.2016
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201620331197.1
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/34
+Loading...
+本实用新型提供了一体式蓝牙key,属于信息技术领域。一体式蓝牙key包括：微控制模块、蓝牙模块、电源管理模块和开关模块。微控制模块与蓝牙模块连接；电源管理模块与微控制模块、蓝牙模块和开关模块连接，电源管理模块在开关模块的控制下向微控制模块和蓝牙模块供电。开关模块还与蓝牙模块连接，用于在蓝牙模块的控制下控制电源管理模块向微控制模块和所述蓝牙模块供电；或者，开关模块还与微控制模块连接，用于在微控制模块的控制下控制电源管理模块向微控制模块和蓝牙模块供电。本实用新型提供的一体式蓝牙Key适用于所有型号的移动设备，而不受USB接口的限制，从而取得更广泛的应用。
+75. 105956653 一种智能卡及其制造方法
+CN
+21.09.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201610287355.2
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法，所述方法包括：将IC模块装配到电路板上；在电路板的接触区域的焊盘上放置导电介质；将装配有IC模块的电路板填充到第一基板中；将导线埋在第一基板中并绕制成天线线圈；将天线线圈的两端焊接到电路板上，使天线线圈通过电路板和IC模块连接；在第一基板上贴覆第二基板和/或覆膜，进行层压得到中料；根据接触区域内的焊盘的位置，在中料上铣出凹槽，使接触区域内的焊盘上的导电介质在凹槽底部可见；将载带单元填充到凹槽中，并通过电路板上的导电介质，将载带单元装配到电路板上，使载带单元通过电路板和IC模块连接，得到智能卡。本发明在提高双界面智能卡的生产效率的同时降低了生产成本。
+76. 105956652 一种智能卡及其制造方法
+CN
+21.09.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201610287100.6
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法，所述方法包括：将IC模块装配到电路板上；在电路板的接触区域的焊盘上放置导电介质；将装配有IC模块的电路板固定到第一基板上；将导线埋在第一基板中并绕制成天线线圈；将天线线圈的两端焊接到电路板上，使天线线圈通过电路板和IC模块连接；在第一基板上贴覆第二基板和/或覆膜，进行层压得到中料；根据接触区域内的焊盘的位置，在中料上铣出凹槽，使得接触区域内的焊盘上的导电介质在凹槽底部可见；将载带单元填充到凹槽中，并通过电路板上的导电介质，将载带单元装配到电路板上，使载带单元通过电路板和IC模块连接，得到智能卡。本发明在提高双界面智能卡的生产效率的同时降低了生产成本。
+77. 105956852 一种蓝牙智能密钥设备及其工作方法
+CN
+21.09.2016
+G06Q 20/32 Loading...
+G06Q 20/32
+Loading...
+201610453114.0
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/32
+Loading...
+本发明公开了一种蓝牙智能密钥设备及其工作方法，所述方法包括：蓝牙智能密钥设备初始化；交替进行蓝牙3.0广播和蓝牙4.0广播；当接收到来自移动终端的连接请求后，停止广播，判断连接请求的类型，当连接请求为蓝牙4.0连接请求时，和移动终端建立蓝牙4.0连接；蓝牙智能密钥设备接收来自移动终端的蓝牙4.0通讯指令，向移动终端返回蓝牙4.0通讯应答；当连接请求为蓝牙3.0连接请求时，和移动终端建立蓝牙3.0连接；蓝牙智能密钥设备接收来自移动终端的蓝牙3.0通讯指令后，向移动终端返回蓝牙3.0通讯应答。本发明公开的一种蓝牙智能密钥设备及其工作方法，能够兼容蓝牙3.0通讯方式和蓝牙4.0通讯方式。
+78. 105959393 一种卡片自动化生产方法及装置
+CN
+21.09.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610423235.0
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/08
+Loading...
+本发明提供一种卡片自动化生产方法及装置，该方法包括：服务器创建第一通讯路径和与待生产卡片对应的第二通讯路径，并通过第一通讯路径发送第二通讯路径标识给客户端，接收客户端通过第二通讯路径发送来的卡片生产命令，根据卡片生产命令对与第二通讯路径对应的待生产卡片执行相应操作得到卡片生产结果。本发明中卡片的生产部署采用总线式架构，实现了卡片生产和数据处理过程的分离，能够有效的进行卡片生产信息的收集及发卡脚本的版本管理，当面临大批量且不同需求的卡片定制时，有效的缩短了卡片的生产周期，同时实现了跨平台的合作生产。
+79. 105930757 一种扫描二维码的方法和装置
+CN
+07.09.2016
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+102016000244863
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/10
+Loading...
+本发明公开了一种扫描二维码的方法和装置，所述方法包括：应用启动系统相机；应用通过系统相机的相机预览框获取相机图像，将相机图像进行旋转，根据旋转后的相机图像及扫描框图像在旋转后的相机图像中的位置，在旋转后的相机图像中获取与扫描框对应的扫描框图像；应用对获取到的扫描框图像进行解码。本发明仅对与相机预览框中的扫描框对应的包括二维码图像的扫描框图像进行解析，不需要对扫描框之外的其他图像进行解析，提高了解码效率。
+80. 105933428 一种与苹果终端进行通讯的方法及设备
+CN
+07.09.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610366286.4
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/08
+Loading...
+本发明公开了一种与苹果终端进行通讯的方法及设备，所述方法包括：设备上电后，和苹果终端进行握手和配对之后，接收来自苹果终端的第一认证通知；向苹果终端发送包括CP芯片证书数据的第一认证请求；接收来自苹果终端的第一认证应答；从第一认证应答中获取挑战值，将挑战值发送给CP芯片获取来自CP芯片的签名结果；向苹果终端发送包括签名结果的第二认证请求；接收来自苹果终端第二认证应答；接收来自苹果终端的识别通知，向苹果终端发送包括自身的设备身份信息的第一识别请求；接收来自苹果终端的第一识别应答；接收来自苹果终端的苹果指令，向苹果终端返回接收应答。
+81. 105933039 一种蓝牙设备及其工作方法
+CN
+07.09.2016
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+102016000471163
+飞天诚信科技股份有限公司
+陆舟
+H04B 5/02
+Loading...
+本发明公开了一种蓝牙设备及其工作方法，涉及蓝牙设备在信息安全领域中的应用。所述蓝牙设备包括蓝牙连接模块、配对模块和数据通信模块，所述工作方法包括蓝牙连接过程、配对过程和数据通信过程，其中所述配对过程包括：设备根据预设认证码、从发起方获取的第一随机数、自身生成的第二随机数计算得到加密密钥，使用所述加密密钥对包含有链路加密密钥的链路加密数据进行加密得到链路加密请求并将其发送给所述发起方，所述发起方从所述链路加密请求中获取链路加密密钥。本发明在兼容现有蓝牙协议的同时增强了蓝牙设备配对过程的安全性。
+82. 105930754 一种IC卡读卡器及其接口扩展方法
+CN
+07.09.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+102016000428529
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本发明公开了一种IC卡读卡器及其接口扩展方法，属于IC卡领域。本发明提供的IC卡读卡器包括：主控模块、电源模块、电源控制模块、信号选择传递模块、信号分路模块和具有多个IC卡接口的IC卡接口模块。本发明提供的IC卡读卡器的接口扩展方法包括：IC卡读卡器上电初始化之后循环执行通信处理和IC卡接口状态查询，并在执行过程中根据需求进行IC卡接口的切换。本发明的有益效果在于：使用本发明提供的技术方案能够实现与多张IC卡的同时通信，避免了一些应用场景下需要使用多个IC卡读卡器才能实现与多个IC卡的通信的麻烦。
+83. 205566980 一种检测系统
+CN
+07.09.2016
+H05K 13/08 Loading...
+H05K 13/08
+Loading...
+202016000134227
+飞天诚信科技股份有限公司
+陆舟
+H05K 13/08
+Loading...
+本实用新型公开了一种检测系统，属于电子技术领域。检测系统包括：检测主机、至少一个检测信号探针、至少一个响应信号探针和检测工装；检测主机与检测信号探针和响应信号探针连接；检测信号探针一端与检测主机连接，另一端与PCB上的检测信号探点连接；响应信号探针一端与检测主机连接，另一与PCB上的响应信号探点连接；检测信号探针、响应信号探针以及安装有被测芯片的PCB固定在检测工装上，检测信号探针、响应信号探针在检测工装的控制下分别与PCB上对应的检测信号探点、响应信号探点接触。使用本实用新型提供的检测系统检测被测芯片上的引脚与PCB上对应的焊盘是否准确对位并接触良好，有效提高了检测效率和最终产品的合格率。
+84. WO/2016/134657 OPERATING METHOD FOR PUSH AUTHENTICATION SYSTEM AND DEVICE
+WO
+01.09.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/074468
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+An operating method for a push authentication system and device, belonging to the field of information security. The method comprises: an application interface receiving user information and sending same to an application server; the application server sending the user information and an application identifier to an authentication server; the authentication server generating a push authentication request according to a generated challenge value, token information, the user information and an application name corresponding to the application identifier and sending same to a mobile terminal token; the mobile terminal token generating login information according to the push authentication request, and generating a first response value according to the challenge value when a user selects to confirm login and sending same to the authentication server; and the authentication server generating a second response value according to the challenge value, and returning a authentication success result to the application server when the first response value and the second response value are the same. The present invention can improve the data transmission speed of traditional authentication, and a user does not need to participate in the input of a password, thereby preventing the man-in-the-middle attack and improving the security of authentication.
+85. 105915646 一种分散服务器负载的方法及装置
+CN
+31.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000443845
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/08
+Loading...
+本发明公开一种分散服务器负载的方法及装置，所述方法包括：主服务器接收请求，获取集群中多个集群服务器的负载参数，根据获取到的多个负载参数，在多个集群服务器中确定最优服务器，获取最优服务器的IP地址并发送给客户端，供客户端根据IP地址访问最优服务器。本发明中的技术方案，能够有效的分散集群中服务器的负载，减少服务器的资源消耗，提升客户端的体验。
+86. 105912482 一种IRP的处理方法及过滤驱动
+CN
+31.08.2016
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+102016000473219
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/10
+Loading...
+本发明公开一种IRP的处理方法及过滤驱动，属于电子设备输入领域。该方法包括：过滤驱动获取并保存当前目标IRP，根据当前目标IRP创建新IRP,将当前目标IRP的特征信息复制到新IRP中；过滤驱动将新IRP发送到底层驱动，等待底层驱动完成新IRP；过滤驱动接收底层驱动完成的新IRP，从底层驱动完成的新IRP中取出底层驱动返回的数据，并将底层驱动返回的数据复制到当前目标IRP中；过滤驱动完成当前目标IRP。本发明提供的IRP处理方法，第三方驱动无法截断新IRP，可以保证过滤驱动的正常运行；过滤驱动在接收到底层驱动完成的新IRP之前不会向底层驱动继续发送目标IRP，保证系统能够稳定运行。
+87. 205509647 一种开关控制装置
+CN
+24.08.2016
+H02J 9/06 Loading...
+H02J 9/06
+Loading...
+201620095597.7
+飞天诚信科技股份有限公司
+陆舟
+H02J 9/06
+Loading...
+本实用新型公开一种开关控制装置，包括：第一控制电路、第一限流电路、第一防倒流电路、第一电位保持电路、第二防倒流电路、开关电路、第三防倒流电路和第二控制电路；当第二控制电路截止并且开关电路断开时，第一控制电路截止，电池与电子设备的其他部分断开，从而实现完全断电；若芯片的控制IO输出电平控制第二控制电路和第一控制电路导通，电池电压端向电子设备供电，当外部电源供电时，第一控制电路截止，电池不能向电子设备供电，从而实现自动切换外部电源供电/电池供电方式。
+88. 205509626 一种双电源供电装置
+CN
+24.08.2016
+H02J 7/34 Loading...
+H02J 7/34
+Loading...
+201620202024.X
+飞天诚信科技股份有限公司
+陆舟
+H02J 7/34
+Loading...
+本实用新型涉及电子技术领域，特别涉及一种双电源供电装置。装置包括：USB供电模块、电池供电模块和电源管理模块；USB供电模块和电池供电模块均与电源管理模块相连；电源管理模块与外部控制端相连；电源管理模块，用于在电池供电模块和USB供电模块中选择供电模块，当接收到外部控制端输入的外部控制信号时，对选择出的供电模块提供的电压进行转换。本实用新型提供的供电设备可以减少损耗，提高电池利用率，增加了电池的使用时间。
+89. 205509141 一种USB接头
+CN
+24.08.2016
+H01R 13/629 Loading...
+H01R 13/629
+Loading...
+201620254941.2
+飞天诚信科技股份有限公司
+陆舟
+H01R 13/629
+Loading...
+本实用新型公开一种USB接头，包括：由绝缘材料制成的插板，在插板的上表面设置有第一电极、第二电极、第三电极和第四电极；在插板的下表面设置有第五电极、第六电极、第七电极和第八电极；所述USB接头还包括第一二极管、第二二极管、电源线、第一数据线、第二数据线和地线。本实用新型提供的USB接头，其两面均能够插入USB接口，避免了USB接头插入USB接口时的方向错误导致不能插入的情况，而且增加了二极管，保证单向导流，完全避免短路现象。
+90. 105897748 一种对称密钥的传输方法及设备
+CN
+24.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000366136
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种对称密钥的传输方法及设备，涉及信息安全领域。本发明首先在两个终端设备中存储相同的保护密钥，其中一个设备使用保护密钥通过特定方式计算出用于数据加密的第二密钥及一个用于信息鉴别的第一密钥，然后通过第二密钥对要传输的对称密钥进行加密得到密钥块数据域，再使用第一密钥对包括协议头和密钥块数据域在内的整个数据进行MAC计算，将由协议头、密钥块数据域和MAC计算结果组成的密钥块数据传递给另一个设备。另一个设备以同样的方法产生第一密钥及第二密钥，并通过第一密钥完成密钥模块数据完整性的校验，通过校验后，再使用第二密钥还原出明文的被传输对称密钥。
+91. WO/2016/127845 OPERATING METHOD FOR VOICE AUTHENTICATION SYSTEM AND DEVICE
+WO
+18.08.2016
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+PCT/CN2016/073107
+FEITIAN TECHNOLOGIES CO., LTD
+LU, Zhou
+H04L 9/06
+Loading...
+Disclosed is an operating method for a voice authentication system and device, which belongs to the field of information security. The method comprises: an application server sending user information sent by an application interface and a saved application name to an authentication server; the authentication server generating an authentication push request according to a generated challenge value, the user information and the application name, and sending same to a mobile terminal token; the mobile terminal token generating voice information according to the authentication push request, collecting a voice response of a user, when it is determined that login can be authorized according to the voice response, generating a first response value according to challenge value and sending same to the authentication server; and the authentication server generating a second response value according to the challenge value, and returning a successful authentication result when the two response values are the same. By means of the technical solution of the present invention, authentication information is informed to a user in the manner of a voice, and voice information is generated via a challenge value, so that a click error caused by the mistake of the user is prevented, the user is conveniently reminded of the current information, and the time delay of authentication is avoided, thereby increasing the security.
+92. 103457741 一种动态令牌的工作方法
+CN
+17.08.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102013000404877
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开一种动态令牌的工作方法，涉及通信领域，该方法包括，当令牌被唤醒时，判断置位的唤醒标识类型；如是按键唤醒标识则检测键值，根据被按下的按键执行相应操作；如是蓝牙数据唤醒标识，则接收蓝牙数据，当蓝牙数据接收完成时，则将蓝牙数据保存至接收数据缓存区，将蓝牙数据唤醒标识复位；如果是蓝牙连接唤醒标识，则显示蓝牙已连接，延时第四预设时间后清屏，将蓝牙连接唤醒标识复位；如果是蓝牙断开唤醒标识，则显示蓝牙连接已断开，清空接收数据缓存区，将蓝牙断开唤醒标识复位；如是其他唤醒标识，则根据唤醒标识执行相应操作。
+93. 105871557 电子邮件签名方法、装置及系统
+CN
+17.08.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201610329454.2
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种电子邮件签名方法、装置及系统，属于信息安全领域。所述方法包括：电子邮件签名装置接收上位机下发的指令并根据接收到的指令做相应处理和向上位机返回相应数据；上位机下发的指令包括获取相关数据指令、验证管理员PIN码指令、生成签名密钥对指令、写签名密钥指纹指令、验证用户PIN码指令和签名指令。本发明的有益效果在于：本发明提供了一种独立于上位机的电子邮件签名装置，通过在该装置上生成签名密钥对、保存私钥以及使用保存的私钥在该装置上进行签名操作，实现了电子邮件的发送方和接收方之间无需第三方机构参与即可建立信任关系，相较于现有的电子邮件签名体系实现成本低且使用方便。
+94. 205491500 一种超薄电子设备
+CN
+17.08.2016
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201620028265.7
+飞天诚信科技股份有限公司
+陆舟
+H05K 5/02
+Loading...
+本实用新型公开了一种超薄电子设备，涉及电子技术领域。设备包括面板、液晶屏、液晶屏保护壳、电路板和壳体；所述面板和所述壳体形成容纳空间，所述液晶屏、所述液晶屏保护壳以及所述电路板均置于所述容纳空间内，所述液晶屏保护壳上设有凹槽，所述液晶屏嵌入所述凹槽，所述液晶屏保护壳位于所述电路板的容置开口中，或位于所述电路板的容置缺口处。与现有技术相比，本实用新型提供的超薄电子设备体积轻薄而质地坚硬，耐弯折，抗冲击，便于随身携带。
+95. 205451131 一种可视智能卡
+CN
+10.08.2016
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+201620010027.3
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/07
+Loading...
+本实用新型实施例公开了一种可视智能卡，包括基板以及填充在所述基板中的电子组件，所述电子组件包括主控模块、显示模块和电源模块；其中，所述主控模块，具有对数据进行处理的功能；所述显示模块，与所述主控模块连接，具有对数据进行显示的功能；所述电源模块，分别与所述主控模块和所述显示模块连接，具有供电功能。本实用新型通过在可视智能卡中集成主控模块和显示模块，使得可视智能卡能够实现数据处理以及显示数据的功能，提高了可视智能卡内部芯片的利用率，使得用户能够更加便捷地使用可视智能卡。
+96. 105847247 一种认证系统及其工作方法
+CN
+10.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000162732
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种认证系统及其工作方法，属于信息安全领域，该方法包括：当服务器接收到访问请求时生成第一挑战值将其发送给客户端；客户端使用预设哈希算法对第一挑战值进行哈希计算生成挑战哈希值；当身份认证模块判断接收到的识别码与内部保存的配对码匹配时根据预设签名算法使用与匹配码对应的私钥对挑战哈希值进行计算得到签名值，客户端根据签名值生成验签请求并将其发送至服务器；服务器对验签请求进行验证，如验证成功则允许用户访问所请求的资源，如验证失败则不允许用户访问所请求的资源。采用本发明的技术方案，身份认证模块需要完成本地认证才能继续进行通讯，可以防止数据传输过程中数据泄露的问题，提高了通讯安全性。
+97. 105827652 一种认证动态口令的方法和设备
+CN
+03.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000350413
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种认证动态口令的方法和设备，该方法包括以下步骤：客户端与NFC动态令牌建立NFC通信，获取所述NFC动态令牌的令牌序列号以及来自所述NFC动态令牌的动态口令；所述客户端使用所述令牌序列号和自身保存的第二随机数，对所述动态口令进行加密，得到第三密文，并将所述第三密文、所述第二随机数和所述令牌序列号发送给令牌服务器；所述客户端接收应用服务器返回的认证成功消息或认证失败消息。本发明通过NFC通道获取NFC动态令牌生成的动态口令，并将该动态口令发送给令牌服务器进行认证，避免用户在手动输入动态口令时出错和泄密，提高了动态令牌的安全性。
+98. 105827655 一种智能密钥设备及其工作方法
+CN
+03.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610366154.1
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种智能密钥设备及其工作方法，属于信息安全领域。当所述智能密钥设备接收到注册请求命令时，根据注册请求命令中包含的数据、自身生成的第二密钥对、保存的加密密钥和预置密钥对得到密钥句柄、认证证书和第一签名结果，并根据所述第二密钥对、所述密钥句柄、所述认证证书和所述第一签名结果组成注册请求命令的响应数据；当所述智能密钥设备接收到认证请求命令时，根据所述认证请求命令中包含的数据验证当前用户合法时，根据所述认证请求命令中包含的数据和当前认证次数得到第二签名结果，根据所述第二签名结果和当前认证次数组成认证请求命令的响应数据。采用本发明可以实现快速身份验证，增强网上交易支付的安全性。
+99. 105812395 一种NFC动态令牌以及在NFC动态令牌中烧写种子密钥的方法
+CN
+27.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610350254.5
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种NFC动态令牌以及在NFC动态令牌中烧写种子密钥的方法，该方法包括以下步骤：所述NFC动态令牌检测到预设按键被触发后，开启NFC通信，通过NFC通道与移动设备建立连接；所述NFC动态令牌接收来自所述移动设备的第二指令，从所述第二指令中获取种子密钥，对所述种子密钥进行保存，并通过NFC通道向所述移动设备发送写入成功消息。本发明通过NFC通道将种子密钥烧写到NFC动态令牌中，提高了动态令牌的安全性和灵活性。
+100. 105812099 一种通过同步机制保证大数据通信稳定的方法及装置
+CN
+27.07.2016
+H04L 1/14 Loading...
+H04L 1/14
+Loading...
+201610228051.9
+飞天诚信科技股份有限公司
+陆舟
+H04L 1/14
+Loading...
+本发明涉及通信领域，尤其涉及一种通过同步机制保证大数据通信稳定的方法及装置。终端设备向无线设备发送包含序列号的第一操作指令，根据接收到的第一响应数据判断第一响应数据是否为无线设备返回的响应数据，若响应数据不是无线设备返回的则向无线设备发送取上次结果指令，从接收到的第二响应数据中获取临时序列号和执行结果，若第一操作指令中的序列号和临时序列号匹配则保存执行结果。一种通过同步机制保证大数据通信稳定的装置包括第一发送模块、第一判断模块、第二发送模块、第二判断模块、第一保存模块和更新模块。
+101. 105812127 一种NFC动态令牌及其工作方法
+CN
+27.07.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610349991.3
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开了一种NFC动态令牌及其工作方法，该方法包括以下步骤：NFC动态令牌检测到预设按键被触发后，开启NFC通信，通过NFC通道与移动设备建立连接；NFC动态令牌接收来自所述移动设备的第三指令，使用自身保存的种子数据生成动态口令，并通过NFC通道将所述动态口令发送给所述移动设备。本发明通过NFC通道将NFC动态令牌生成的动态口令发送给移动设备，避免用户在手动输入动态口令时出错和泄密，提高了动态令牌的安全性。
+102. 105787408 一种支持高速数据通讯的读卡器及其工作方法
+CN
+20.07.2016
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+102016000077395
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/10
+Loading...
+本发明公开一种支持高速数据通讯的读卡器的工作方法，属于通讯领域，所述方法包括：当读卡器判断第一到位标识无效时，读卡器在非接场中发送询卡指令，并在接收到非接触卡返回的询卡应答数据之后，向非接触卡发送调速设置指令，判断是否接收到非接触卡返回的调速设置成功应答数据，是则读卡器设置其通讯速率为以第一通讯速率将接收到的第一命令发送给非接触卡，以第二通讯速率接收非接触卡返回的操作结果，否则读卡器设置其通讯速率为以第三通讯速率将接收到的第一命令发送给非接触卡，以第四通讯速率接收非接触卡返回的操作结果；其中，第一通讯速率大于第三通讯速率，第二通讯速率大于第四通讯速率。
+103. 105790953 双接口认证设备及其工作方法
+CN
+20.07.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+102016000118010
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种双接口认证设备及其工作方法，属于信息安全领域。所述设备包括：检查模块、USB接口模块、NFC接口模块、按键模块、判断模块、数据处理模块、按键处理模块和存储模块。本发明的有益效果在于：本发明提供的认证设备设置有USB和NFC双接口，提高了认证设备的接口兼容性，扩展了认证设备的适用范围；设备中可以存放一组或多组配置信息，并通过接收和处理上位机下发的通信指令，以增加或删除认证设备中的配置信息，提高了认证设备的灵活性和可扩展性；若后台服务器的算法等信息发生变化，只要针对后台服务器算法的变化相应修改认证设备中的配置信息，就可以实现认证设备的继续使用，从而节省社会资源。
+104. 105760177 一种适用于Mac系统的控件文本的排列显示方法和装置
+CN
+13.07.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201610151020.8
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/44
+Loading...
+本发明公开了一种适用于Mac系统的控件文本的排列显示方法和装置，涉及计算机技术领域。该方法包括：获得绘制新建控件对象显示区域所需的第一矩形框的大小和位置，以及默认情况下绘制文本区域所需的第二矩形框的大小和位置；根据第一矩形框和第二矩形框的大小和位置确定第三矩形框的大小和位置；根据所述第三矩形框的大小和位置绘制文本区域并显示。该方法对应装置包括第一获取模块、第二获取模块、第三获取模块和绘制模块。本发明实现了Mac系统下控件文本的垂直对齐，进而还可以实现全局对齐，提高了用户体验。
+105. 105760193 一种生产方法及装置
+CN
+13.07.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201610080811.6
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/445
+Loading...
+本发明公开了一种生产方法及装置，涉及电子产品生产领域。本发明公开的方法包括，生产装置通过网络从服务器获取系统文件和内核镜像并保存到内存，启动内核镜像，然后从安全设备中获取生产配置信息，根据所述生产配置信息从服务器中获取对应的生产工具软件，通过启动所述生产工具软件进行生产。本发明提供的生产装置无需安装硬盘，将生产工具软件统一存储在服务器中，既方便了对生产工具软件的统一管理，又提高了生产工具软件的安全性。
+106. WO/2016/107332 CARD-BASED DYNAMIC PASSWORD GENERATION METHOD AND DEVICE
+WO
+07.07.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/095270
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+Provided is a card-based dynamic password generation method, said method comprising: a device is powered on, and the initial current operating state is a first state; a user is prompted to press a mode button; when the mode button is pressed, the device determines an operation to be executed; if a digital button is pressed, then input data is obtained according to the user's press operation on the digital button; if a state button is pressed, then a confirmed state is obtained according to the user's press operation on the state button; otherwise, an operation is executed corresponding to the current operating state, comprising obtaining password data according to interaction with a card, and performing default processing on said password data, then outputting a dynamic password. In the present invention, card internal data and information inputted by a user are involved in generating the dynamic password, thus preventing the possibility of the password data being altered, and improving the security of generation of dynamic passwords.
+107. WO/2016/107333 DEVICE AND SYSTEM OPERATING METHOD FOR ONLINE ACTIVATION OF MOBILE TERMINAL TOKEN
+WO
+07.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/095278
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+Provided are a device and system operating method for online activation of a mobile terminal token, belonging to the field of information security and applicable to a system comprising a cloud authentication management platform, a cloud authentication server, a terminal, and a mobile terminal token; the method comprises: according to a first activation request sent by the cloud authentication management platform, the cloud authentication server generates a first activation response and sends same to the cloud authentication management platform; the cloud authentication management platform sends the first activation response to the terminal to be displayed; when the mobile terminal token obtains the first activation response, the token accesses the cloud authentication server and establishes a network data link; by means of the network data link, the mobile terminal token and the cloud authentication server send data and carry out activation. The present invention accomplishes, during the process of mobile terminal token activation, activation of the token by means of secure interaction between the mobile terminal token and the cloud authentication server, thus the security of the activation process is improved.
+108. 105740741 一种磁条卡信息的解析方法及装置
+CN
+06.07.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+102016000067236
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本发明公开一种磁条卡信息的解析方法及装置，该方法包括：解析装置通过相对设置的两个磁头从磁条卡的两面获取至少三个数据；解析装置根据预设解析规则分别对获取到的数据进行解析，并根据解析结果中预定位置的校验位判断解析是否成功，如至少有一个数据解析成功则解析装置将解析成功的解析结果转换成可识别的数据，将所述可识别数据转换成预定格式的数据，否则报错，结束。本发明适用于有不同刷卡习惯的各种用户，通过本发明的方法使用户在刷卡时无须指定刷卡方向和卡面方向，提升了用户体验。
+109. WO/2016/101745 ACTIVATING MOBILE TERMINAL TOKEN METHOD
+WO
+30.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/095282
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A method for activating a mobile terminal token, comprising: a cloud authentication server generates a seed generation factor according to an activation request, and acquires a server seed secret key and saves the same according to the seed generation factor, and generates an activation code according to the seed generation factor, and generates an activation verification code and transmits the same to a mobile terminal, and encrypts the activation code using the activation verification code to acquire an encrypted activation code, and a cloud authentication management platform generates a two-dimensional code image according to the received encrypted activation code and transmits the same to a client for displaying, and the mobile terminal token acquires the encrypted activation code according to the acquired two-dimensional code image, and decrypts the encrypted activation code using the acquired activation verification code to obtain an activation code, and acquires the seed generation factor from the activation code, and acquires a token seed secret key according to the seed generation factor and saves the same. The present invention can activate the token when the mobile terminal is without network, ensuring the accuracy of the seed, thus improving the token security.
+110. 105721162 向应用程序中自动导入数字证书的方法及装置
+CN
+29.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201610067808.0
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种向应用程序中自动导入数字证书的方法及装置，涉及信息安全领域。所述装置包括：获取文件模块，用于根据证书文件名获取证书文件；获取证书模块，用于获取所述获取文件模块获取到的证书文件中的数字证书；获取槽模块，用于获取可以操作应用程序的槽；第一导入模块，用于对所述获取证书模块获取到的数字证书进行解码，通过所述获取槽模块获取到的槽将解码得到的数据导入到所述应用程序以完成所述数字证书的导入，并根据导入的数字证书的类型设置导入的数字证书的证书信任方式。本发明的有益效果在于采用本发明提供的技术方案向应用程序中自动导入数字证书，不仅可以省去用户手动操作的麻烦，还能够提高数字证书的导入效率。
+111. 105721143 一种对智能卡应用进行初始化的方法和装置
+CN
+29.06.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610067035.6
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开一种对智能卡应用进行初始化的方法，包括：智能卡根据第一应用AID选择根应用；智能卡生成第一随机数，对主控密钥进行安全认证；智能卡进行初始化；智能卡根据第二应用AID、密钥属性和密钥个数在根应用下创建应用和所述应用中的密钥；智能卡查找与第三应用AID相同的应用AID的应用，将查找到的应用设置为当前应用；智能卡生成第三随机数，对修改过程中使用的权限密钥进行安全认证；智能卡根据被修改密钥的密钥号和密钥数据，对当前应用中的密钥进行修改；智能卡根据第一文件ID在当前应用中创建文件；智能卡根据第二文件ID、数据偏移、数据长度和初始数据，在文件中写入初始数据。
+112. 105718388 一种基于USB设备的异步调用方法和装置
+CN
+29.06.2016
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+201610037716.8
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/10
+Loading...
+本发明公开一种基于USB设备的异步调用方法和装置，该方法包括：S1：接收主控装置发送的上位机指令，向主控装置返回接收成功信息，向设备发送上位机指令，接收第一响应数据；S2：判断返回码是否为第七预设值，是则将查询标识置位，否则执行S3；S3：通过调用回调函数，将第一响应数据返回给主控，结束；该方法还包括：A1：判断查询标识是否置位，是则执行A2，否则返回A1；A2：向设备发送查询指令，接收第二响应数据；A3：对返回码进行判断，若返回码为第六预设值则将查询标识复位，执行A4，若返回码为第五预设值则返回A1，若是其他值则执行A4；A4：通过调用回调函数，将第二响应数据返回给主控，返回A1。
+113. 105721443 一种链路会话密钥协商方法及装置
+CN
+29.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000045975
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种链路会话密钥协商方法及装置，属于信息安全技术领域。本发明公开的方法包括智能密钥设备向上位机返回第二公钥，以及智能密钥设备使用第二私钥从上位机发送的获取链路会话密钥的请求中解密出第二预置数据，当第二预置数据与设备中保存的第一预置数据一致时，智能密钥设备生成随机数，根据所述随机数与预设数据组成链路会话密钥，并向所述上位机返回所述随机数。本发明可有效防止链路会话密钥被非法截取，上位机与智能密钥设备进行通信时使用所述链路会话密钥对通信数据进行加解密，从而提高了通信数据传输的安全性。
+114. 105721145 一种终端与音频智能密钥设备通讯的实现方法及装置
+CN
+29.06.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610077678.9
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/08
+Loading...
+本发明公开一种终端与音频智能密钥设备通讯的实现方法和装置，属于通信领域；所述方法包括：终端设备监听音频智能密钥设备的插拔，当监听到音频智能密钥设备插入时，判断预设时间内是否检测到用户的操作，是则根据检测到的操作类型执行相应操作，否则终端设备执行录音操作，当检测到用户的操作时，继续根据检测到的操作类型执行相应操作。采用本发明的技术方案，在终端设备与音频智能密钥设备已连接但没有进行数据通讯时，可以防止终端设备的麦克接口电压降低，进而使音频智能密钥设备不息屏而处于开机状态，以便终端设备与音频智能密钥设备之间顺利进行后续的数据通讯。
+115. WO/2016/095339 METHOD FOR UPDATING SEED DATA IN DYNAMIC TOKEN
+WO
+23.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/073220
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A method for updating seed data in a dynamic token comprises: an interaction interface sends user information to an application server for verification, receives a verification result returned by the application server, continuously receives dynamic token information when the verification result is valid, and sends same to the application server; the application server generates a request data packet containing the dynamic token information and application information and sends same to an authentication centre; the authentication centre acquires seed data corresponding to the dynamic token information and the application information and sends same to the application server; the application server converts the seed data into photosensitive data and displays same by means of the interaction interface; and the dynamic token obtains the seed data by acquiring the photosensitive data. The present invention can realize that the seed data in a dynamic token is automatically updated by a user, and meanwhile, a dynamic token can be applied to multiple applications.
+116. WO/2016/095555 WORKING METHOD FOR MULTI-SEED ONE-TIME PASSWORD
+WO
+23.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/087772
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+Disclosed is a working method for a multi-seed one-time password, which falls within the field of information security. The method comprises: powering and initialising a one-time password, opening a total interrupt, initialising the state of a system, and then entering a sleep mode; when the one-time password detects the interrupt, awakening the one-time password from the sleep mode, and entering an interrupt processing flow; after the interrupt processing flow is ended, checking each awakening flag; and executing a processing flow corresponding to the set awakening flag. According to the present invention, a user can burn seed data into the one-time password by operating the one-time password, and can update the seed data in the one-time password. In addition, according to the present invention, the one-time password is capable of storing and managing a plurality of seeds. In a process of using the one-time password, a one-time command can be generated using the corresponding seed data according to the selection from the user, which is convenient for the user to use. In addition, the reliability and security of the seed data are guaranteed by means of binding between a unique identifier of the one-time password and the seed data.
+117. WO/2016/090984 METHOD FOR REALIZING BLUETOOTH BINDING OF INTELLIGENT KEY DEVICE AND MOBILE DEVICE
+WO
+16.06.2016
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+PCT/CN2015/089752
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04W 4/00
+Loading...
+A method for realizing Bluetooth binding of an intelligent key device and a mobile device is disclosed and belongs to the field of information security, the method comprising: pairing an intelligent key device with a current mobile device to be paired through Bluetooth; when the pairing is successful, acquiring and judging the binding identifier; if bound, judging whether the mac address of the current mobile device is same with the stored mac address of the bound mobile device, if yes, performing data interaction operation, otherwise, reporting an error; and, if not bound, storing the mac address of the current paired mobile device as the mac address of the bound mobile device, setting the binding identifier as be bound, and then performing data interaction operation. By adopting the technical method of the present invention, it can be realized that a user sets Bluetooth binding with an intelligent key device and the intelligent key device after power-up only connects with the bound mobile device, and the security of Bluetooth data interaction between the intelligent key device and the mobile device is improved.
+118. 105677457 一种通过精确分区保护程序存储空间的方法及装置
+CN
+15.06.2016
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201610006042.5
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/46
+Loading...
+本发明公布一种通过精确分区保护程序存储空间的方法及装置，涉及数字存储技术领域。所述方法包括：根据程序存储空间得到第一存储空间，针对第一存储空间进行处理得到前端区域和后端区域，分别将前端区域和后端区域进行递归分区，并设置分区得到的子区域的访问权限。所述装置包括：第一存储空间生成模块，第一判断模块，第一分区模块，第二判断模块，前后端区域生成模块，前端区域处理模块，后端区域处理模块，第三判断模块，第四判断模块，更新前端区域模块，更新后端区域模块。实现了通过精确分区保护程序存储空间，避免了由于分区不正确造成的程序不能正常运行的情况，也避免了系统资源的浪费。
+119. 105678152 一种与智能密钥设备通讯的方法及装置
+CN
+15.06.2016
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201610032912.6
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/34
+Loading...
+本发明公开了一种与智能密钥设备通讯的方法及装置；所述方法包括：监控流程和通讯流程；在监控流程中，移动终端采用广播或者枚举的方式，监控是否有智能密钥设备插入；当移动终端监控到智能密钥设备插入后，移动终端获取与智能密钥设备对应的设备对象，判断设备对象是否具有设备权限，当判定智能密钥设备具有设备权限后，获取与设备对象对应的设备连接句柄和设备接口对象，根据设备接口对象获取与设备对象对应的设备通讯端点；在通讯流程中，移动终端根据与智能密钥设备对应的设备对象、设备连接句柄和设备通讯端点与智能密钥设备通信。
+120. 105678547 一种检查持卡人身份的终端及其工作方法
+CN
+15.06.2016
+G06Q 20/40 Loading...
+G06Q 20/40
+Loading...
+201511000921.9
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/40
+Loading...
+本发明公开一种检查持卡人身份的终端及其工作方法，属于信息安全领域，所述方法包括：终端从卡片中获取持卡人验证方法列表，从持卡人验证方法列表中获取未处理的持卡人验证记录，作为当前持卡人验证记录；判断是否满足当前持卡人验证记录的执行条件，并判断是否支持当前持卡人验证记录的编码对应的持卡人验证方法，是则执行当前持卡人验证记录的编码对应的持卡人验证方法，否则继续验证其他持卡人验证记录。采用本发明的技术方法，在一种终端中采用多种验证持卡人身份的方法，避免了持卡验证的单一性，当遇到某一验证出现问题时，可通过其他方式进行交易，极大的提高了交易的安全性和便捷性。
+121. 105654297 一种终端间交互的方法及交易终端
+CN
+08.06.2016
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201511017956.3
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开了一种终端间交互的方法及交易终端，属于信息安全技术领域。所述方法包括：交易终端获取交易金额信息；交易终端根据交易金额信息和认证标识组织产生应用密文指令，并将产生应用密文指令发送给移动终端；交易终端接收来自移动终端的第二响应信息，从第二响应信息中获取移动终端对身份认证码的校验结果，判断校验结果是否为成功，如果是，则确认身份认证通过；否则，确认身份认证未通过。所述交易终端包括输入模块、组织模块、第一发送模块、第一接收模块、获取模块和第一判断模块。本发明提供的方法和交易终端，在电子交易中，可以有效提高身份认证的安全性、降低身份认证的风险。
+122. 105653319 一种自动向应用程序加载PKCS#11模块的方法及装置
+CN
+08.06.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510993663.2
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/445
+Loading...
+本发明公开了一种自动向应用程序加载PKCS#11模块的方法及装置，属于信息安全领域。所述方法包括：获取应用程序的缓存目录，打开应用程序的缓存目录下的安全模块数据库，生成安全模块数据库已加载模块列表，获取所述列表的指针，访问所述列表，判断所述列表中是否包含要加载的PKCS#11模块的模块名，并且当所述列表中不包含要加载的PKCS#11模块的模块名时更新所述列表，向所述列表中写入所述PKCS#11模块的模块名和绝对目录，保存更新后的所述列表。本发明的有益效果在于实现了自动向应用程序加载PKCS#11模块，不再需要用户掌握复杂的手动加载方法，省去用户手动操作的麻烦，为用户提供便利。
+123. 105653234 一种可自动调节音频参数的方法及装置
+CN
+08.06.2016
+G06F 3/16 Loading...
+G06F 3/16
+Loading...
+201610004872.4
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/16
+Loading...
+本发明公开一种可自动调节音频参数的方法及装置，该方法包括：装置获取第一对象、第二对象和第三对象；装置根据所述第一对象、音效选项的值和音效状态的值使用第二对象的第一方法获取当前音效状态；装置根据所述当前音效状态判断移动设备的音效是否关闭，是则所述移动设备与音频设备进行通讯，否则装置根据所述第一对象、所述音效选项的值和音效关闭标识使用第三对象的第一方法关闭所述移动设备的音效，所述移动设备与音频设备进行通讯。本发明技术方案通过对用户现用系统的运行环境进行检测，将音频参数设置为能正常运行环境的配置状态，有效地解决了用户因音频参数设置错误而无法进行正常交易的问题，提高用户满意度，提升用户体验。
+124. WO/2016/082317 DYNAMIC TOKEN HAVING LOG FUNCTION AND WORKING METHOD THEREFOR
+WO
+02.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/070680
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+A dynamic token having a log function and a working method therefor. After the dynamic token determines that a key interrupt flag is set, a keyboard is scanned to obtain a first key value, and a currently pressed key is judged according to the first key value; if the currently pressed key is a first key, a dynamic password and a log corresponding to the dynamic password are generated; the dynamic password is stored in a display data buffer area, and the log is stored in a log storage area; key interrupt is enabled; and if the currently pressed key is a second key or a combination of a third key and a fourth key, the log is read from the log storage area, and the read log is stored in the display data buffer area. According to the present invention, by recording information related to the completed identity authentication by means of a dynamic token, a user can recheck whether the completed identity authentication is identity authentication completed by himself/herself, thereby improving the security of an identity authentication mechanism and the dynamic token which uses a dynamic password.
+125. 105634742 一种协商会话密钥的方法及智能密钥设备
+CN
+01.06.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201511001009.5
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开一种协商会话密钥的方法及智能密钥设备，属于信息安全领域。该方法包括：智能密钥设备接收来自上位机的第三APDU指令，将协商公钥返回上位机；接收来自上位机的第四APDU指令，将签名结果返回上位机；智能密钥设备接收来自上位机的第五APDU指令，解析第五APDU指令得到加密数据，使用协商私钥对加密数据进行解密得到第二填充数据，判断第二填充数据的填充格式是否为预设的填充格式，如果是，则从第二填充数据的预定位置提取预设长度的数据作为会话密钥、向上位机返回成功响应，否则向上位机返回异常信息。本发明方法生成的会话密钥抗攻击能力强，上位机与智能密钥设备间传输的信息使用会话密钥加密后很难被恶意程序截取。
+126. 105630422 一种基于小容量处理器实现多应用的方法及设备
+CN
+01.06.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201511000181.9
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/06
+Loading...
+本发明公开了一种基于小容量处理器实现多应用的方法及设备，属于计算机技术领域。本发明公开的设备包括处理器和外部flash芯片，处理器包括用于存储和执行一个应用的内部flash芯片，与处理器连接的外部flash芯片用于存储多个应用；本发明公开的方法包括，设备根据外部存储区中存储的应用标志位判断是否需要加载应用程序，是则根据所述应用标志位从外部存储区中将要加载的应用程序加载到内部存储区中并运行，否则直接运行内部存储区中存储的应用程序。本发明公开的方法及设备，不仅扩展了设备可支持的应用功能，同时可降低设备的多应用的开发成本。
+127. 105630189 一种实现模拟键盘输入的方法及装置
+CN
+01.06.2016
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201610080645.X
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/023
+Loading...
+本发明公开了一种模拟键盘输入的方法和装置，所述方法和装置，通过创建虚拟键盘第一设备，安装一个与虚拟键盘第一设备对应的WDM(Windows？Driver？Model，视窗驱动程序模块)类型的虚拟键盘驱动，获取来自系统键盘驱动的虚拟输入接口的地址，当键盘过滤驱动被加载后，通过虚拟键盘驱动获取虚拟输入接口的地址，根据虚拟输入接口的地址实现模拟键盘输入。这种实现模拟键盘输入的方法及装置的稳定性好且系统应用性和兼容性好。
+128. 105611573 一种蓝牙防重发的实现方法及装置
+CN
+25.05.2016
+H04W 28/04 Loading...
+H04W 28/04
+Loading...
+201510962272.4
+飞天诚信科技股份有限公司
+陆舟
+H04W 28/04
+Loading...
+本发明公开一种蓝牙防重发的实现方法及装置，属于通信领域，所述方法包括：蓝牙设备提取接收到的来自终端设备的数据中的第一序列号，判断第一序列号与蓝牙设备保存的第二序列号是否匹配，如果匹配，则将与第二序列号对应保存的执行结果发送给终端设备，继续提取接收到的来自终端设备的数据中的第一序列号，如果不匹配，则更新第二序列号，根据接收到的数据，执行相应操作，得到执行结果，将得到的执行结果与第二序列号对应保存并发送给终端设备。采用本发明的技术方案，在终端设备与蓝牙设备进行通讯时，蓝牙设备可以维护终端设备下发的数据的序列号，防止终端设备重发数据而导致的通讯失败，提高了指令的处理速度。
+129. 103366000 一种大体积XML报文的解析方法
+CN
+25.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310299520.2
+飞天诚信科技股份有限公司
+陆舟
+G06F 17/30
+Loading...
+本发明公开了一种大体积XML报文的解析方法，属于信息处理技术领域。所述方法包括：当报文的长度超过预设长度时，上位机将报文拆分为多个包，通过指令下发给解析装置，解析装置接收到所述指令后，获取指令中的包，根据解析装置中保存的当前环境变量，执行相应的操作，指令解析完毕后更新当前环境变量，如果所述指令为报文的最后一包，则向上位机返回报文解析成功的响应，如果所述指令不是报文的最后一包，则向上位机返回包解析成功的响应，继续等待上位机发送下一包。采用本发明的技术方案，很好的解决了大体积报文的解析问题，而且不需要占用较大的缓存区，能够减少内存的占用。
+130. 103365712 一种线程可控装置及其工作方法
+CN
+25.05.2016
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201310338544.4
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/46
+Loading...
+本发明公开了一种线程可控装置及其工作方法，属于计算机技术领域。该装置包括初始化模块、选择模块、定位模块、判断模块、更新模块、创建子线程模块和操作模块，其工作方法是根据当前HUB编号选定一个当前HUB；根据当前端口编号选定当前HUB的一个当前端口；对当前HUB的当前端口进行操作，直至当前HUB的所有端口完成操作后选定下一个当前HUB，若是单线程工作方式则直至完成对所有枚举到的HUB的操作，若是多线程工作方式则直至完成对一个线程中的所有HUB的操作。本发明提出的该装置及其工作方法可以同时支持单线程、多线程的分组方式和并行方式，提高了HUB设备的通用性、灵活性，提高了生产效率，且能够准确的进行差错控制。
+131. 105610648 一种运维监控数据的采集方法及服务器
+CN
+25.05.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610014809.9
+飞天诚信科技股份有限公司
+陆舟
+H04L 12/26
+Loading...
+本发明公开一种运维监控数据的采集方法及服务器，属于信息安全领域。服务器根据服务器配置文件中各个监控项的采集间隔，获取有满足采集条件的监控项，将满足采集条件的监控项对应的监控信息发送至客户端，接收客户端返回的采集结果，对所述采集结果进行处理。采用本发明的技术方法，监控针对的粒度更小，从原来的机器，降到机器上的某个可以监控的资源上。在机器需要新增监控资源时，系统程序不需做修改，只需编写对应的监控数据采集应用并配置到系统中即可。提高了系统的稳定性，并且增加了系统的可扩展性。
+132. 105608485 一种智能卡及其制造方法
+CN
+25.05.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510947396.5
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法。所述方法包括：提供具有内镶件填充区的基板，将内镶件填充到基板的内镶件填充区中，在内镶件填充区所在的表面上涂敷光固化粘接剂，对涂敷光固化粘接剂的基板进行光固化得到中料，根据中料得到智能卡。本发明对涂敷光固化粘接剂的基板进行光固化处理，极大的缩短了固化的时间，提高了智能卡的生产效率。
+133. 205263203 一种射频电磁场强度测试装置
+CN
+25.05.2016
+G01R 29/08 Loading...
+G01R 29/08
+Loading...
+201521055391.3
+飞天诚信科技股份有限公司
+陆舟
+G01R 29/08
+Loading...
+本实用新型公开了一种射频电磁场强度测试装置，涉及非接触通信领域。装置包括磁场强度采集电路、电压转换电路和磁场强度指示电路；磁场强度采集电路与所述电压转换电路的输入端相连，电压转换电路的输出端与磁场强度指示电路相连；磁场强度采集电路通过感应射频电磁场强度的变化产生相应大小的电信号；电压转换电路对磁场强度采集电路产生的电信号进行转换，用转换后的电信号控制磁场强度指示电路做出相应的指示。本实用新型提供的装置能够对磁场强度进行定性测量，并能清楚地显示测试结果，简单易用且成本低。
+134. 205264910 一种电子设备
+CN
+25.05.2016
+H01R 13/502 Loading...
+H01R 13/502
+Loading...
+201520862328.4
+飞天诚信科技股份有限公司
+陆舟
+H01R 13/502
+Loading...
+本实用新型公开一种电子设备，包括：基板和盖板；基板上布置有第一电子线路和第一接触电极，第一电子线路和第一接触电极电气连接；盖板盖合在基板上，盖板和基板之间具有容纳空间，容纳空间容纳第一电子线路。当电子设备插入USB接口时，第一接触电极与USB接口中对应的电极相连。电子设备的宽度为11.95mm至12.05mm，电子设备的厚度为2.4mm至2.5mm。本实用新型提供的电子设备，包括基板和盖板，由此组成的电子设备本身即是USB接头，还包括电子线路，减小了电子设备的体积，达到便携、小巧、实用的效果，增强用户体验。
+135. 105577688 一种基于蓝牙设备的绑定方法和装置
+CN
+11.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610067798.0
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种基于蓝牙设备的绑定方法和装置，该方法包括：S2：蓝牙外接设备等待连接，判断是否在第一预设时间内接收到连接请求，是则执行S3，否则关闭，结束；S3：对连接请求进行解析，获取设备信息；S4：判断在第四预设时间内确认键是否被按下，是则执行S5，否则返回拒绝连接信息，返回S2；S5：判断白名单是否为空，是则执行S6，否则执行S7；S6：将获取到的所述蓝牙主设备的设备信息写入所述白名单，返回接受连接信息，完成连接；S7：判断所述白名单中是否存在与获取到的设备信息匹配的设备信息，是则返回接受连接信息，完成连接，否则返回拒绝连接信息，返回S2。
+136. 105577691 一种安全访问方法和服务器
+CN
+11.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610076506.X
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种安全访问方法和服务器，该方法包括：S1：服务器接收应用系统发送的访问请求，对访问请求进行解析，得到访问令牌、访问请求中的摘要和请求数据；S2：服务器判断是否能够在服务器中查找到与解析得到的访问令牌一致的访问令牌，是则执行S3，否则结束；S3：服务器判断访问令牌是否有效，是则执行S4，否则执行S5；S4：服务器根据服务器的应用密钥和访问请求中的摘要，对访问请求进行验证，判断是否验证成功，是则执行S6，否则执行S5；S5：服务器向应用系统返回错误信息，结束；S6：服务器允许应用系统根据请求数据访问服务器中的资源。
+137. WO/2016/065778 OPERATING METHOD FOR ONE-TIME PASSWORD WITH UPDATABLE SEED
+WO
+06.05.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/073226
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+An operating method for a one-time password with an updatable seed. The method comprises: a one-time password entering a dormancy mode after being powered on and initialized; being woken up when an interrupt is detected; entering an interrupt processing flow; setting a wakeup flag; entering a key processing flow when a key wakeup flag is set; judging a system state and a key manner; and completing the functions of programming seed data and generating a password according to a judgement result. According to the present invention, on the premise of guaranteeing the security, a user is permitted to program and update seed data in a one-time password, thereby facilitating the use of the user.
+138. 105554905 一种实现智能密钥装置与上位机蓝牙连接的方法及装置
+CN
+04.05.2016
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+201510908977.8
+飞天诚信科技股份有限公司
+陆舟
+H04W 76/02
+Loading...
+本发明公开一种实现智能密钥装置与上位机蓝牙连接的方法及装置，属于信息安全领域，所述智能密钥装置包括：主控模块、附属通信模块和蓝牙通信模块；主控模块通过附属通信模块与上位机建立数据连接，检测附属通信模块，获取来自上位机的获取蓝牙地址指令，通过附属通信模块将蓝牙地址发送至上位机，与上位机建立蓝牙连接，检测蓝牙通信模块，获取来自所述上位机的蓝牙通信指令，对蓝牙通信指令进行处理，将处理结果通过蓝牙通信模块返回至上位机。采用本发明的技术方法，智能密钥装置接收上位机下发的指令，通过附属通信模块向上位机发送蓝牙地址，避免了蓝牙搜索的过程，达到快速安全配对的目的，更方便了智能密钥装置与上位机的蓝牙连接。
+139. 105549235 一种具有显示功能的电池以及包含该电池的电子设备
+CN
+04.05.2016
+G02F 1/13 Loading...
+G02F 1/13
+Loading...
+201610065895.6
+飞天诚信科技股份有限公司
+陆舟
+G02F 1/13
+Loading...
+本发明公开一种具有显示功能的电池以及包含该电池的电子设备，该电池包括非易失性显示层、基材层和电源层，非易失性显示层包括第一电极层、显示介质层、第二电极层和透明介质层，电源层包括第一电极集流体、第一电极材料、电解质、第二电极材料和第二电极集流体，基材层为PCB基材，第二电极集流体和第一电极层均贴覆在PCB基材上，第二电极集流体、PCB基材和第一电极层构成PCB结构。本发明通过将电池中的一个电极集流体复用为印刷电路板的一个表层，并在该印刷电路板的另一个表层实现显示功能，使得电池所在的电子设备无需额外装配显示器，能够在不增加电子设备体积的前提下，减少对电子设备中的电池和显示器的体积限制。
+140. 105553674 一种交互系统、智能密钥设备、服务器及工作方法
+CN
+04.05.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201610015270.9
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开一种交互系统、智能密钥设备、服务器及工作方法，属于信息安全领域。服务器接收客户端发送的交易请求，根据交易请求中的用户信息，查找服务器与智能密钥设备之间建立的网络数据链路，并将交易请求中的签名数据发送至智能密钥设备，智能密钥设备从签名数据中得到显示数据并显示，检测按键，当检测到确认键按下时，对签名数据进行签名，得到签名结果，将签名结果发送至服务器进行验证，服务器验证所述签名结果成功时，向客户端发送交易成功响应，交易成功。采用本发明的技术方案，使得智能密钥设备与服务器直接进行数据交互，完成交易流程，防止数据在传输过程中被泄露，解决了现有技术中智能密钥设备与客户端之间不兼容的问题。
+141. 105549234 一种具有显示功能的电池以及包含该电池的电子设备
+CN
+04.05.2016
+G02F 1/13 Loading...
+G02F 1/13
+Loading...
+201610065446.1
+飞天诚信科技股份有限公司
+陆舟
+G02F 1/13
+Loading...
+本发明公开一种具有显示功能的电池以及包含该电池的电子设备，该电池包括易失性显示层、基材层和电源层，基材层位于易失性显示层和电源层之间；易失性显示层包括反射片、第一偏光片、第一光学膜片、第一电极层、显示介质层、第二电极层、第二光学膜片和第二偏光片，电源层包括第一电极集流体、第一电极材料、电解质、第二电极材料和第二电极集流体，基材层为PCB基材。本发明通过将电池中的一个电极集流体复用为印刷电路板的一个表层，并在该印刷电路板的另一个表层实现显示功能，使得电池所在的电子设备无需额外装配显示器，能够减少对电子设备中的电池和显示器的体积限制，提升电子设备的电池电量以及用户的使用体验。
+142. 103368975 一种批量数据安全传输的方法及系统
+CN
+06.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310329034.0
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种批量数据安全传输的方法及系统，属于信息安全领域。所述方法包括：客户端接收批量数据文件，计算生成第一签名数据，动态令牌计算生成第一签名值，客户端加密批量数据文件和第一签名值，将加密结果发给认证服务器，认证服务器解密加密结果，得到解密文件和解密数据，对解密文件计算生成第二签名值，当第二签名值和解密数据相同时，执行批量数据处理。采用本发明的技术方案，能够实现在应用动态令牌对批量目标数据操作时，无需手动输入大量数据，在易用性方面有大幅度提升，而且能够对所有目标数据做操作，防止数据被篡改或窃取，保障了批量数据传输的安全性。
+143. 105472776 一种建立蓝牙连接的方法及蓝牙智能密钥设备
+CN
+06.04.2016
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+201510789083.1
+飞天诚信科技股份有限公司
+陆舟
+H04W 76/02
+Loading...
+本发明公开了一种建立蓝牙连接的方法及蓝牙智能密钥设备，所述方法包括：蓝牙智能密钥设备设置蓝牙发现模式为隐藏模式；搜索蓝牙设备的设备信息；当搜索到蓝牙设备的设备信息后，获取设备信息中的设备标识；将设备标识作为待选信息或将设备标识和第一预设信息作为待选信息；输出待选信息；当检测到确认信号后，根据用户在待选信息中选中的目标设备标识，与对应的目标蓝牙设备建立连接；等待接收来自目标蓝牙设备的指令。本发明中，蓝牙智能密钥设备和目标蓝牙设备在建立连接的过程中，将自身的蓝牙发现模式设置为隐藏模式，和自身搜索到的目标蓝牙设备进行连接，降低了被恶意攻击的可能，提升了蓝牙智能密钥设备的安全性。
+144. 205141773 一种具有供电功能的智能密钥设备
+CN
+06.04.2016
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201520997124.1
+飞天诚信科技股份有限公司
+陆舟
+H02J 7/00
+Loading...
+本实用新型公开一种具有供电功能的智能密钥设备，其中，USB第一接口模块与微控制模块、充电模块连接；USB第二接口模块与电压控制模块连接；蓝牙模块与微控制模块和开关控制模块连接；微控制模块与USB第一接口模块、蓝牙模块、按键模块、开关控制模块和显示模块连接；按键模块与微控制模块连接；开关控制模块与蓝牙模块、微控制模块和电池模块连接；充电模块与USB第一接口模块和电池模块连接；显示模块与微控制模块连接；电压控制模块与电池模块、USB第二接口模块连；电池模块与电压控制模块、开关控制模块和充电模块连接。本实用新型将充电宝与智能密钥设备集成为一体，方便用户携带使用。
+145. 205139786 一种带有触摸面板的电子设备
+CN
+06.04.2016
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201520910400.6
+飞天诚信科技股份有限公司
+陆舟
+G06F 1/16
+Loading...
+本实用新型公开了一种带有触摸面板的电子设备，属于电子技术领域。本实用新型提供的带有触摸面板的电子设备，包括壳体、PCB板和触摸面板，通过在PCB板和触摸面板之间增加导电部件，利用导电部件将PCB板上的触摸点提升至导电部件的顶面，与触摸面板贴紧，不仅提升了产品的触摸手感及效果，而且产品结构简单，易组装。
+146. 205139780 一体式电子设备
+CN
+06.04.2016
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201520892664.3
+飞天诚信科技股份有限公司
+陆舟
+G06F 1/16
+Loading...
+本实用新型公开的一体式电子设备，包括：PCB板、外壳和一体式面板，PCB板设置于外壳内，一体式面板设置在PCB板上方并嵌合于外壳上；一体式面板上设有显示窗口和开槽，开槽将一体式面板划分出多个按键区域，PCB板上设有显示屏，显示屏位于显示窗口的下方，PCB板上设有开关，开关位于按键区域的下方。本实用新型提供的电子设备通过一体式面板，实现了电子设备的整体扁平化设计，增加了产品的一体感观度和完美的外观效果。
+147. 105447690 一种终端间交互的方法及移动终端
+CN
+30.03.2016
+G06Q 20/20 Loading...
+G06Q 20/20
+Loading...
+201511017905.0
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/20
+Loading...
+本发明公开了一种终端间交互的方法及移动终端，属于信息安全技术领域。所述方法包括：移动终端接收来自交易终端的产生应用密文指令，判断产生应用密文指令中是否包括认证标识，如果是则获取用户输入的身份认证码，否则结束流程；移动终端校验身份认证码，生成校验结果，根据校验结果组织第二响应信息，并将第二响应信息返回交易终端。所述移动终端包括第一接收模块、判断模块、输入模块、校验模块、第一组织模块和第一发送模块。本发明提供的方法和移动终端，在电子交易中可以有效提高身份认证的安全性、降低身份认证的风险。
+148. 105450269 一种实现蓝牙设备间安全交互配对认证的方法及装置
+CN
+30.03.2016
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+201510965272.X
+飞天诚信科技股份有限公司
+陆舟
+H04B 5/02
+Loading...
+本发明公开一种实现蓝牙设备间安全交互配对认证的方法及装置，属于信息安全领域。当客户端搜索到蓝牙广播包时，与蓝牙设备建立连接，生成随机数发送至蓝牙设备，蓝牙设备根据随机数生成哈希值并发送至客户端，当客户端判断接收到的哈希值正确时，根据哈希值生成配对码并显示，并向蓝牙设备发送配对请求，蓝牙设备根据保存的哈希值生成配对码并提示用户进行配对码比对，当蓝牙设备检测到确认键按下时，配对成功。采用本发明的技术方法，在配对过程中无需用户手动选择蓝牙设备，操作简便防止出现误操作，准确性高，而且在配对认证过程中加入硬件操作以及人机交互，实现蓝牙设备间的交互配对认证，提高了配对的安全性。
+149. 105427098 一种不同应用之间信息共享的实现方法及装置
+CN
+23.03.2016
+G06Q 20/36 Loading...
+G06Q 20/36
+Loading...
+201510733498.7
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/36
+Loading...
+本发明公开一种不同应用之间信息共享的实现方法及装置，该方法包括：当卡片接收到上位机下发的选择应用指令时卡片判断需要选择的应用，如为电子钱包应用则卡片用电子现金应用下的当前电子现金信息同步电子钱包应用当前电子钱包数据，当卡片判断访问电子钱包数据的条件满足要求时，根据接收到的访问电子钱包数据指令对当前电子钱包数据进行处理，将处理结果返回给上位机；如为电子现金应用则卡片用电子钱包应用下的当前电子钱包数据中的电子钱包余额同步电子现金应用下的当前电子现金信息中的电子现金余额，当卡片判断访问电子现金数据的条件满足要求时，根据接收到的访问电子现金数据指令对当前电子现金信息进行处理，将处理结果返回给上位机。
+150. 105426330 一种自动打开扩展通道的方法及装置
+CN
+23.03.2016
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201510744916.2
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/38
+Loading...
+本发明公开了一种自动打开扩展通道的方法及装置，属于信息安全领域，所述方法包括：当主设备监控到有外接设备连接时，获取当前外接设备的设备信息，根据当前外接设备的设备信息得到设备路径，根据设备路径得到当前外接设备的注册表路径，当判断在当前外接设备的注册表路径下能够获取到当前外接设备的预设子项时，将所述当前外接设备的预设子项的值设置为第一预设值，打开扩展通道成功。采用本发明的技术方案，能够实现对插入的设备实时的检测，而且不需要每次再手动设置，简单方便，效率更高。
+151. 105430605 一种蓝牙主从设备及两者建立安全通道的方法
+CN
+23.03.2016
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510909212.6
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明公开一种蓝牙主从设备及两者建立安全通道的方法，属于信息安全领域。所述方法包括：蓝牙设备双方交换各自的设备信息，根据所述设备信息，蓝牙设备间开始建立连接，蓝牙设备双方交换并验证各自根据同样的算法生成的认证密钥，当验证成功后，蓝牙设备双方根据同样算法生成通信加密密钥，至此蓝牙设备间建立安全通道；蓝牙从设备包括：数据接收模块、第一数据发送模块、第二数据发送模块、数据生成模块、运算模块、判断模块、通信加密模块、显示模块；蓝牙主设备包括：数据接收模块、数据发送模块、数据生成模块、运算模块、判断模块、通信加密模块、输入模块；实现了蓝牙设备间通过验证码进行连接，防止其他设备的恶意连接。
+152. 105407001 一种快速识别通讯参数配置的方法、系统及装置
+CN
+16.03.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510846932.2
+飞天诚信科技股份有限公司
+陆舟
+H04L 12/24
+Loading...
+本发明公开一种快速识别通讯参数配置的方法、系统及装置，该方法包括：当智能密钥设备接收到终端设备发送的快速握手指令时对其进行解析，并从解析结果中获取下行通讯参数编号并保存，当快速握手指令中包含最后一种下行通讯参数或者等待接收数据的时间超过预设时长时智能密钥设备按照保存的不同的上行频率通过第二信道分别将对应的上行通讯参数和获取到的所有下行通讯参数编号发送给终端设备；终端设备对接收到的数据进行解析，并从解析结果中获取上行通讯参数和所有的下行通讯参数编号并保存；根据保存的所有下行通讯参数编号获取对应的下行通讯参数，根据获取到的下行通讯参数和获取的所有上行通讯参数确定智能密钥设备的通讯参数配置。
+153. 105404512 一种应用程序窗口界面更改方法及装置
+CN
+16.03.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201510828823.8
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/44
+Loading...
+本发明公开了一种应用程序窗口界面更改方法及装置，属于嵌入式图形用户界面领域。所述方法包括：创建主窗口，以主窗口为父窗口创建应用程序窗口，调整应用程序窗口的位置和大小，以应用程序窗口为父窗口创建子窗口，将子窗口的纵向层叠顺序设置为最底层。所述装置包括：第一读取模块、第一创建模块、第二创建模块、覆盖模块、第二读取模块、第三创建模块和设置模块。本发明的有益效果在于通过对原有的应用程序窗口进行包装和覆盖，在不完全替换应用程序窗口的情况下，即可创建更加高效、绚丽以及易于扩展的窗口界面，可以提高应用程序窗口界面的更改效率、降低更改难度和减少更改成本。
+154. WO/2016/034048 METHOD FOR IMPLEMENTING ONLINE ANTI-PHISHING
+WO
+10.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/087742
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 29/06
+Loading...
+A method for implementing online anti-phishing, related to the field of information security, comprising: a browser loads an online anti-phishing control, the control acquires a blacklist and a whitelist, if a received URL of the browser is in the blacklist, the browser is stopped from loading, if the URL is in the whitelist, the browser is notified to load, and if the URL is neither in the blacklist nor in the whitelist, a determination is made on whether or not the URL of the browser satisfies a preset fuzzy match criterion, if same is satisfied, then a user is prompted of danger, when the user chooses to proceed, a preset account combination is acquired, when received keypress information is numerals and an input focus is an input box control, the keypress information is compared with the preset account combination, if both are identical then the user is prompted of danger, and either stop or load as chosen by the user. The method allows processing of the blacklist and the whitelist to be implemented and addition of fuzzy query, thus implementing processing of the blacklist and the whitelist, preventing a hacker from stealing banking information of the user by using a fraudulent URL identical to one in the whitelist, and enhancing security.
+155. WO/2016/034047 SELF-ADAPTIVE COMMUNICATION METHOD FOR ENCRYPTION DONGLE
+WO
+10.03.2016
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+PCT/CN2015/087741
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 21/12
+Loading...
+A self-adaptive communication method for an encryption dongle, comprising: an upper-layer software platform sets communication mode information of self, when connection of an encryption dongle to a host is detected, acquires communication mode information of the encryption dongle, determines whether or not the communication mode information of self matches the communication mode information of the encryption dongle, if yes, then communicates with the encryption dongle via an interrupt transmit pipeline, and if not, then transmits a communication instruction to the encryption dongle via a control transmit pipeline; the encryption dongle sets a communication mode identifier on the basis of the communication mode information of the upper-layer software platform in the communication instruction, and, the encryption dongle resets and resets communication mode information of self on the basis of the communication mode identifier. As such, when connection of the encryption dongle to the host is re-detected, the upper-layer software platform re-acquires the communication mode information of the encryption dongle, determines that the communication mode information is a match, and then communicates via the interrupt transmission pipeline, thus solving the technical problem that an existing encryption dongle can only support one communication mode of the host, and implementing self-adaptive communication for the encryption dongle.
+156. 105389506 一种提高输入安全性的方法和装置
+CN
+09.03.2016
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201510685462.6
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/55
+Loading...
+本发明公开了一种提高输入安全性的方法和装置，涉及信息安全领域。所述装置包括键盘过滤驱动、NT驱动和安全输入插件，所述方法包括键盘过滤驱动对模拟键盘输入信息的过滤以及将真实的键盘输入信息存储在NT驱动中，安全输入插件通过发送验证码到NT驱动进行验证，并在验证通过后从NT驱动发来的返回结果中获得密码数据。本发明提供的方法和装置，可以有效保护用户从键盘上输入的密码等数据，具有安全方便的特点。
+157. 103368746 一种签名方法
+CN
+24.02.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201310314427.4
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种签名方法，属于信息安全领域。所述方法包括：当第一CSP接口函数被调用时，返回容器对象句柄；当第二CSP接口函数被调用时，在智能密钥设备中产生密钥，根据容器对象的属性和传入的密钥参数创建密钥对象；当第一KSP接口函数被调用时，返回资源句柄；当第二KSP接口函数被调用时，返回密钥句柄；当第三KSP接口函数被调用时，返回需要的密钥属性；当第四KSP接口函数被调用时，使用密钥句柄指定的密钥执行签名操作。采用本发明的技术方案能够实现KSP与CSP的互通，使得KSP能够使用CSP中产生的密钥执行签名操作。
+158. 105323251 一种实现语音播报认证的方法及其云认证服务器
+CN
+10.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510778849.6
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种实现语音播报认证的方法及其云认证服务器，属于信息安全领域，所述方法包括：当云认证服务器接收到播报请求时，根据播报请求中的用户信息获取对应的种子密钥和用户终端标识码，对种子密钥进行计算生成第一动态口令，根据用户终端标识码将第一动态口令发送至语音播报平台进行播报；当云认证服务器接收到认证请求时，根据认证请求中的用户信息获取对应的种子密钥，对种子密钥进行计算生成第二动态口令，当认证请求中用户输入的第一动态口令与第二动态口令匹配时，认证成功。采用本发明的技术方案，能够实现生成的动态口令通过语音播报平台播报给用户，防止在动态口令生成后被窥探窃取，保证了认证的安全性。
+159. 105260157 一种重力感应智能密钥装置的工作方法及装置
+CN
+20.01.2016
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201510828962.0
+飞天诚信科技股份有限公司
+陆舟
+G06F 3/14
+Loading...
+本发明公开一种重力感应智能密钥装置的工作方法及装置，属于信息安全领域，所述方法包括：智能密钥装置读取重力感应模块中的信号数据，设置当前显示方向，显示接收到的签名指令中的当前显示数据；当第一翻页键按下且当前显示方向为第一显示方向或当第二翻页键按下且当前显示方向为第二显示方向时，显示当前显示数据之前的数据，当第一翻页键按下且当前显示方向为第二显示方向或当第二翻页键按下且当前显示方向为第一显示方向时，显示当前显示数据之后的数据。采用本发明的技术方法，通过接收重力感应模块的触发，智能密钥装置对显示方向进行相应调整，达到用户使用习惯的目的，用户体验更佳。
+160. 105260318 一种基于网页的自动化测试方法及装置
+CN
+20.01.2016
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201510829175.8
+飞天诚信科技股份有限公司
+陆舟
+G06F 11/36
+Loading...
+本发明公开一种基于网页的自动化测试方法，属于自动化测试领域。该方法包括：测试系统将预设的测试类名形成测试类列表，读取测试类列表中的测试类名查找相应的测试类，读取测试类中的测试用例名形成测试用例列表，读取测试用例列表中的测试用例名查找相应的测试用例，根据测试用例查找和操作页面元素并在被测页面上查找预设的页面元素，进行测试结果断言。测试系统判断测试用例列表中是否还有未被读取的测试用例名，是则查找相应的测试用例，否则判断测试类列表中是否还有未被读取的测试类名，若测试类列表中还有未被读取的测试类名则查找相应的测试类，否则测试结束。本方法的有益效果在于实现了基于网页的自动化测试。
+161. WO/2016/000493 FIRMWARE UPDATE METHOD IN TWO-CHIP SOLUTION FOR SECURE TERMINAL
+WO
+07.01.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+PCT/CN2015/078831
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 9/445
+Loading...
+A firmware update method in a two-chip solution for a secure terminal. The method comprises secure firmware update and application firmware update. The secure firmware update comprises: a secure processor erases a secure firmware storage area (201), decrypts a first ciphertext in firmware data to obtain a symmetric key (202), decrypts a second ciphertext in the firmware data with the symmetric key, and writes a decryption result to the secure firmware storage area (206). The application firmware update comprises: an application processor erases an application firmware storage area (301), acquires firmware data through the secure processor, decrypts a first ciphertext in the firmware data to obtain a symmetric key (302), decrypts a second ciphertext in the firmware data with the symmetric key, and writes a decryption result to the application firmware storage area (308). The method can effectively prevent firmware from being intercepted, copied, tampered, damaged or simulated during the update process of the firmware.
+162. 105227314 一种登录进入系统桌面的方法及装置
+CN
+06.01.2016
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201510542433.4
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种登录进入系统桌面的方法及装置，涉及信息安全领域。所述方法包括，先验证用户信息，待用户信息验证通过后，弹出推送动画窗口，同时向认证服务器发送登录请求，若收到认证服务器返回的允许登录消息，则成功登录进入系统桌面，否则弹出人机交互界面提示输入OTP，并将接收到的OTP发送给认证服务器进行验证，若收到认证服务器返回的验证通过消息，则成功登录进入系统桌面，否则登录失败。本发明提供的方法，可以增强系统登录保护强度，提高系统安全性。
+163. WO/2015/196946 METHOD FOR EXTENDING JAVACARD APPLICATION FUNCTIONS
+WO
+30.12.2015
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+PCT/CN2015/081834
+FEITIAN TECHNOLOGIES CO, LTD.
+LU, Zhou
+G06K 19/073
+Loading...
+A method for extending JavaCard application functions. A registration process comprises: when an extended application receives a registration command, the extended application processes a random number, and sends a processing result, an extended application identifier and an extension interface number to a main application; the main application verifies the processing result, and if the verification is passed, when the extended application corresponding to the extended application identifier has been installed, the main application sets the bit of an extension point according to the extension number and acquires and saves a handle of the extended application; and save the state of an extension interface registered by the extended application into a buffer area. By means of the solution of registering an extension interface corresponding to an extended application with a main application, and invoking the corresponding extended application through the registered extension interface when the main application needs to invoke the extended application, a method for updating applications without losing personal data of a user after masking is provided; a masking application can be used continuously after an error occurs in the masking application, and the method is suitable for masked cards and unmasked cards.
+164. 105184350 一种智能卡及其制造方法
+CN
+23.12.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510456947.8
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法，所述制造方法包括：对多个基板分别进行镂空，得到多个镂空基板；对多个镂空基板进行合成，得到多层的合成镂空基板；将内镶件填充到合成镂空基板中；在合成镂空基板上涂敷粘接剂，得到智能卡。本发明通过采用对多个镂空的基板进行合成得到多层的合成镂空基板，将内镶件填充到合成镂空基板中的技术方案，降低了具有人机交互功能的智能卡的生产难度，提高了生产效率。
+165. 105184349 一种智能卡及其制造方法
+CN
+23.12.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510456793.2
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法，所述制造方法包括：分别镂空第一基板、第二基板和第三基板，得到底层镂空基板、中层镂空基板和顶层镂空基板；对底层镂空基板、中层镂空基板和顶层镂空基板进行合成，得到合成镂空基板；将内镶件填充到合成镂空基板中；在合成镂空基板上涂敷粘接剂，得到智能卡。本发明通过采用合成三个镂空的基板得到合成镂空基板，将内镶件填充到合成镂空基板中的技术方案，降低了具有人机交互功能的智能卡的生产难度，提高了生产效率。
+166. 105188018 一种安全装置及其工作方法
+CN
+23.12.2015
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510504813.9
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明公开了一种安全装置及其工作方法，所述装置包括：蓝牙模块、音频输入模块、音频输出模块、类型报告模块和安全模块；其中，类型报告模块用于通过蓝牙模块向通讯终端发送安全装置的类型信息；蓝牙模块用于接收来自通讯终端的密文指令；以及向通讯终端发送来自安全模块的密文指令；音频输入模块用于接收数据；音频输出模块用于输出来自安全模块的解密数据；安全模块用于对数据加密得到密文数据，根据密文数据生成密文指令；以及解密密文指令得到解密数据。所述安全装置通过蓝牙模块将加密后的密文信息发送给通讯终端保证通讯终端和其他通讯终端之间传输的通讯信息均为密文信息，提高了通讯终端和其他通讯终端之间的通讯安全性。
+167. 105188023 一种蓝牙通讯方法和通讯装置
+CN
+23.12.2015
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510666316.9
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明公开了一种蓝牙通讯方法和通讯装置，所述方法包括：初始化中心设备对象，根据中心设备对象获取与蓝牙4.0设备对应的第一设备对象，根据第一设备对象和与第一设备对象对应的蓝牙4.0设备进行配对，获取第二设备对象；根据第一设备对象或第二设备对象获取第三设备对象，从第三设备对象中获取与预设服务标识对应的目标服务；根据目标服务获取第一服务，从第一服务中获取与预设特征标识对应的目标特征，通过目标特征实现与蓝牙4.0设备之间的通讯。
+168. 105187450 一种基于认证设备进行认证的方法和设备
+CN
+23.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510645439.4
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种基于认证设备进行认证的方法和设备，该方法包括：客户端根据获取到的URI得到应用ID，向服务器发送根据应用ID和用户标识得到的设备认证请求；接收服务器发送的当前认证数据；根据当前认证数据中的挑战值得到客户端数据对象，对客户端数据对象和当前认证数据中的应用ID进行哈希运算得到客户端参数，获取当前认证数据中的密钥标识，向认证设备发送根据客户端参数、密钥标识和密钥标识长度组成的当前认证请求信息；接收认证设备返回的认证响应信息，向服务器发送根据认证响应信息、客户端数据对象和当前认证数据中的会话ID组成的签名验证请求；接收服务器返回的信息，若是成功信息则确定认证成功，否则确定认证失败。
+169. 105184566 一种智能密钥设备的工作方法
+CN
+23.12.2015
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201510332534.9
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开一种智能密钥设备的工作方法，包括：当接收到上位机发送的命令，判断该命令的类型，如为注册请求命令则接收用户按键信息，将生成的用户密钥对与对应的密钥句柄关联，根据预设算法对注册请求命令中的数据域部分进行签名，得到第一签名结果并保存；生成证书序列号，使用预置的根密钥对的私钥对用户密钥对颁发对应的数字证书；根据预定格式保存用户密钥对和对应的密钥句柄，根据数字证书和第一签名结果生成注册响应数据并返回给上位机；如为认证请求命令且用户合法，则接收用户按键信息，根据预设算法使用获取到的用户密钥对中的私钥，对认证请求命令的数据域进行签名得到第二签名结果；根据第二签名结果生成认证响应数据并返回给上位机。
+170. 105162498 蓝牙适配器及其通信方法
+CN
+16.12.2015
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+201510628156.9
+飞天诚信科技股份有限公司
+陆舟
+H04B 5/02
+Loading...
+本发明公开了一种蓝牙适配器及其通信方法，属于蓝牙通信领域。所述方法包括蓝牙适配器初始化，向上位机声明为CCID设备，接收上位机下发的CCID指令，将所述CCID指令转换为蓝牙协议数据后发送给蓝牙读卡器，接收蓝牙读卡器返回的应答，将蓝牙读卡器返回的应答转换为CCID协议数据后返回给上位机；并且在接收到蓝牙读卡器发送的卡插拔消息时向上位机发送提示信息。所述蓝牙适配器包括初始化模块、指令接收模块、指令发送模块、应答接收模块、应答发送模块和事件检查模块。本发明的有益效果在于无需在终端上安装蓝牙驱动，使用方便，而且能够避免蓝牙驱动不稳定带来的问题。
+171. 105162785 一种基于认证设备进行注册的方法和设备
+CN
+16.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510563321.7
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开一种基于认证设备进行注册的方法，该方法包括：客户端获取统一资源标识符，根据统一资源标识符得到应用ID，向服务器发送根据应用ID和用户输入的用户标识得到的设备注册请求；接收服务器返回的注册数据，根据注册数据中的挑战值和应用ID得到客户端数据对象；分别对客户端数据对象和应用ID进行哈希运算得到挑战参数和应用参数，向认证设备发送由挑战参数和应用参数组成的注册请求信息；接收认证设备返回的注册响应信息，向服务器发送由注册响应信息、客户端数据对象和注册数据中的会话ID组成的密钥注册请求；接收服务器返回的信息，判断信息是否为成功信息，是则确定注册成功，否则确定注册失败。
+172. 105162594 一种快速签名方法及签名设备
+CN
+16.12.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201510462903.6
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种快速签名方法和签名设备，属于信息安全领域。所述方法包括签名设备接收中间件下发的哈希指令和签名指令，当接收到哈希指令时，从哈希指令中获取分组哈希结果和显示确认信息，根据获取到的分组哈希结果和显示确认信息获取待签名摘要值；当接收到哈希指令时，检测用户的确认操作，并当检测到用户的确认操作时对待签名摘要值进行签名，将签名结果返回给中间件。本发明的有益效果在于减少签名过程中由签名设备外部传入签名设备的数据量以及数据传输时间，提高签名的整体执行效率，并且可以支持大数据量报文的签名。
+173. 105159707 一种安全的金融终端的固件烧写方法及金融终端
+CN
+16.12.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510500802.3
+飞天诚信科技股份有限公司
+陆舟
+G06F 9/445
+Loading...
+本发明公开了一种安全的金融终端的固件烧写方法及金融终端，属于金融安全领域。所述方法包括金融终端根据上位机下发的指令完成安全环境的建立、安全boot的下载和更新、应用固件的下载和更新以及安全固件的下载和更新。所述金融终端包括通信模块、安全环境建立模块、安全boot下载更新模块、应用固件下载更新模块和安全固件下载更新模块。本发明的有益效果在于能够避免现有的金融终端的固件烧写方法的安全隐患，提高金融终端产品的安全性。
+174. 105139204 一种进行安全认证的方法和系统
+CN
+09.12.2015
+G06Q 20/40 Loading...
+G06Q 20/40
+Loading...
+201510445593.7
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/40
+Loading...
+本发明公开一种进行安全认证的方法，应用于包括应用程序、应用系统和认证系统的系统中，该方法包括：认证系统接收应用系统发送的请求信息，生成与请求信息中的用户信息对应的验证请求码，获取与用户的移动终端对应的通信标识，向用户的移动终端发送验证请求码；应用程序获取验证请求码，按照认证算法根据验证请求码和初始密钥信息生成验证响应码并显示；认证系统接收验证响应码，根据通信标识获取对应的验证请求码和初始密钥信息，按照认证算法根据验证请求码和初始密钥信息生成认证码，根据认证码对验证响应码进行认证，向应用系统发送认证结果；应用系统接收认证结果，判断是否认证成功，是则确定安全认证成功，否则确定安全认证失败。
+175. 105141420 一种安全导入、签发证书的方法、设备及服务器
+CN
+09.12.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201510454779.9
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种安全导入、签发证书的方法、设备及服务器，属于信息安全领域。本发明公开的内容包括导入证书的设备向签发证书的服务器发送下载证书请求，签发证书的服务器收到请求后对请求中包含的数据内容进行验证，若均通过验证则向设备签发证书，否则不签发证书。所述下载证书请求中包含有第二数据包，所述第二数据包中包含有设备证书。本发明提供的方法、设备及服务器，能够提高证书签发流程和导入流程的安全性，从而有效防范非法用户对证书的随意下载和更改。
+176. 105141756 一种处理异常的方法和装置
+CN
+09.12.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201510454712.5
+飞天诚信科技股份有限公司
+陆舟
+H04M 1/725
+Loading...
+本发明公开了一种处理异常的方法和装置，属于信息安全领域，所述方法包括：A：移动终端组织签名指令，发送至智能密钥设备，如果在预设时间内接收到返回的响应，则执行B，否则再次发送签名指令达预设次数；B：移动终端判断是否存在异常事件，如果存在异常事件则判断异常事件持续事件是否达到预设值，是则结束，否则执行B，如果不存在异常事件，则向智能密钥设备发送获取签名结果指令，接收返回的成功响应。采用本发明的技术方案，当智能密钥设备与移动终端进行通信时，对不同的指令采用不同的异常处理方法，能够更安全更便捷的达到在异常发生时程序正常运行的目的。
+177. 105141628 一种实现推送的方法及装置
+CN
+09.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510599096.2
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种实现推送的方法及装置，涉及信息安全领域。所述实现推送的方法包括：认证服务器在对移动终端令牌进行激活的过程中，会缓存该移动终端令牌的令牌序列号及其关联的设备标识，当认证服务器接收到推送请求时，会根据当前缓存的设备标识及其关联的令牌序列号确定移动终端令牌，并向确定的所述移动终端令牌发送推送消息。所述移动终端令牌在激活过程中会将产生的设备标识发送到认证服务器进行缓存，为认证服务器确定移动终端令牌当前所在终端设备提供依据，本发明可以实现精准地向用户当前使用的移动终端推送消息，使产品更加灵活易用，提升用户体验。
+178. 105117963 基于数字签名的装置和方法
+CN
+02.12.2015
+G06Q 40/02 Loading...
+G06Q 40/02
+Loading...
+201510449204.8
+飞天诚信科技股份有限公司
+陆舟
+G06Q 40/02
+Loading...
+本发明公开了一种基于数字签名的USB？Key及其数字签名方法，属于网上银行的安全通信领域。所述USB？Key包括：第一业务执行模块、智能密钥模块和交易通知模块。所述方法包括：USB？Key将圈存操作请求数据包签名，并发送至服务端；所述USB？Key验证所述服务端发送来的圈存允许命令数据包是否完整，如果完整，进行圈存操作，并记录操作日志，签名交易执行信息数据包，发送至所述服务端。本发明增强了网络交易的安全性和可靠性。
+179. 105095812 一种自适应谐振频率的方法和装置
+CN
+25.11.2015
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201510541937.4
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本发明公开一种自适应谐振频率的方法和装置，该方法包括：当终端接收到上位机发送的寻卡请求时，执行以下步骤：步骤S1：终端根据增益值进行寻卡，得到寻卡结果；步骤S2：终端根据寻卡结果判断是否寻卡成功，是则向上位机返回操作结果，结束，否则执行步骤S3；步骤S3：终端根据寻卡结果更新错误代码；步骤S4：终端根据错误代码调整增益值；步骤S5：终端判断调整后的增益值是否在第一预设范围内，是则返回步骤S1，否则向上位机返回寻卡失败信息，结束。本发明提供的自适应谐振频率的方法，根据寻卡过程中发生的错误类型，自动调整终端中接收智能卡信号的增益值，提高终端和智能卡的通信效率。
+180. 105069617 一种恢复不完整交易的方法和装置
+CN
+18.11.2015
+G06Q 20/34 Loading...
+G06Q 20/34
+Loading...
+201510445713.3
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/34
+Loading...
+本发明公开一种恢复不完整交易的方法和装置，本发明涉及通信领域，该方法包括：步骤S1：终端判断不完整交易日志中的记录中是否存在与当前交易标识匹配的记录，如果是，则执行步骤S2，否则结束流程；步骤S2：所述终端从所述与当前交易标识匹配的记录中，获取数据恢复数据对象列表相关数据；步骤S3：所述终端根据所述数据恢复数据对象列表相关数据，生成恢复应用命令，向智能卡发送所述恢复应用命令，接收所述智能卡返回的第二响应数据；步骤S4：所述终端根据所述记录和终端数据库中的数据完成交易，结束流程。
+181. 105046137 一种智能密钥设备防范远程挟持的实现方法及装置
+CN
+11.11.2015
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201510387880.7
+飞天诚信科技股份有限公司
+陆舟
+G06F 21/34
+Loading...
+本发明公开一种智能密钥设备防范远程挟持的实现方法及装置，该方法包括：步骤S1：智能密钥设备与上位机建立连接，复位定时器并使定时器开始计时；步骤S2：智能密钥设备等待接收上位机下发的指令；步骤S31：当智能密钥设备接收到上位机下发的预定指令时，判断自身是否处于安全锁定状态，是则给上位机返回预设数据，返回步骤S2；否则对预定指令进行处理，并将处理结果返回给上位机，复位定时器，返回步骤S2；当定时器的计时到达预设时间时，智能密钥设备将自身设置为安全锁定状态；当智能密钥设备检测到解除安全锁定键被按下时，智能密钥设备解除锁定安全状态，复位定时器。通过本发明的技术方案，可有效防范远程挟持。
+182. 105022976 一种读取智能卡中的记录的方法和装置
+CN
+04.11.2015
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201510446378.9
+飞天诚信科技股份有限公司
+陆舟
+G06K 7/00
+Loading...
+本发明公开一种读取智能卡中的记录的方法和装置，该方法包括：终端从智能卡中获取应用文件定位符；从应用文件定位符的起始位置开始，获取当前文件数据；在当前文件数据中获取当前记录号；根据当前记录号和根据当前文件数据得到的文件标识，生成读记录指令，向智能卡发送读记录指令，并接收返回的响应数据，存储响应数据中的当前记录；根据当前记录号和当前文件数据中的最终记录号判断当前记录是否为最后一条记录，如果否，则更新当前记录号；如果是，则判断应用文件定位符中是否存在位于当前文件数据之后的第一预设长度的数据，如果是，则将位于当前文件数据之后的第一预设长度的数据作为更新后的当前文件数据，否则结束流程。
+183. 105023037 一种智能卡及其制造方法和制造工具
+CN
+04.11.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510455739.6
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开了一种智能卡及其制造方法和制造工具，所述方法应用于具有定位柱的制造工具，包括：通过定位柱将具有第二定位孔的内镶件和具有第一定位孔的镂空基板定位在制造工具上；使用制造工具将内镶件填充到镂空基板中；在容纳有内镶件的镂空基板上涂敷粘接剂，得到智能卡。本发明在简化了智能卡的生产工序的同时，降低了智能卡的生产难度，大大提高了智能卡的生产效率。
+184. WO/2015/161729 OPERATING METHOD FOR CARD READER
+WO
+29.10.2015
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+PCT/CN2015/075096
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 13/38
+Loading...
+An operating method for a card reader, comprising: powering on a card reader, and setting an operating mode according to the type of a device connected thereto; judging the operating mode, waiting to receive audio data if the operating mode is an audio mode, converting the received audio data into a digital signal, forming a data packet by the digital signal, parsing the data packet to obtain a parsing result, judging an instruction type according to the parsing result, executing a corresponding operation according to the instruction type, converting the obtained operation result into an audio data packet, and sending the audio data packet to the device connected thereto; and waiting to receive USB data if the operating mode is a USB mode, judging an instruction type of the received USB data, executing a corresponding operation according to the instruction type, and returning the operation result to the device connected thereto. According to the present invention, a card reader conducts data communication with a device through an audio module or a USB module, thereby not depending on the USB module in the existing card reader to conduct data communication any longer, having relatively good compatibility, and improving the user experience.
+185. 105005540 一种具有蓝牙接口的CCID设备及其工作方法
+CN
+28.10.2015
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201510266813.X
+飞天诚信科技股份有限公司
+陆舟
+G06F 13/38
+Loading...
+本发明提供了一种具有蓝牙接口的CCID设备及其工作方法，其工作方法包括：检测通讯模式类型是否发生改变，如果否，则根据通讯模式类型和第二缓冲区中的数据，将CCID指令应答数据返回给上位机；如果是，则复位蓝牙模块，将CCID指令应答数据返回给上位机。当通过USB模块获取到CCID指令数据后，判断CCID指令数据的类型是否和通讯模式类型相匹配，是则根据CCID指令数据的类型，将串口指令数据发送给蓝牙模块；否则根据CCID指令数据的类型，设置匹配的通讯模式类型，将串口指令数据其存储到第一缓冲区；当通过蓝牙模块获取到串口指令应答数据后，将串口指令应答数据存储到第二缓冲区。
+186. 104992329 一种安全下发交易报文的方法
+CN
+21.10.2015
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201510246676.3
+飞天诚信科技股份有限公司
+陆舟
+G06Q 20/38
+Loading...
+本发明公开了一种安全下发交易报文的方法，属于信息安全领域。本发明提出的方法包括，网银后台在下发交易报文之前先对交易报文进行预设处理，然后再通过客户端下发到USBKey中，USBKey对接收到的交易报文会先进行验证处理，然后再执行签名操作，并将签名操作后的数据通过客户端返回给网银后台，网银后台执行验签的操作，并在验签成功后执行交易操作。通过本发明提供的安全下发交易报文的方法，可以有效保证交易报文的安全，从而达到提高用户交易安全性的目的。
+187. 104993932 一种提高签名安全性的方法
+CN
+21.10.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201510345822.8
+飞天诚信科技股份有限公司
+陆舟
+H04L 9/32
+Loading...
+本发明公开了一种提高签名安全性的方法，属于信息安全领域，该方法包括：当设备从上位机获得签名算法和签名密钥时，根据获得的所述签名算法设置当前哈希算法，根据获得的所述签名密钥设置当前指定密钥；当设备从上位机获得待签名摘要时，判断是否同时满足第一预设条件和第二预设条件，是则保存所述待签名摘要，根据对象标识符对保存的所述待签名摘要进行数据拼接得到数据拼接结果，使用当前指定密钥对所述数据拼接结果计算签名得到签名结果,向上位机返回所述签名结果；否则向上位机返回错误。本发明提供的方法提高了签名的安全性，可有效防止骗签行为。
+188. 104967971 一种实现Android系统下蓝牙自动回连的方法
+CN
+07.10.2015
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510363981.0
+飞天诚信科技股份有限公司
+陆舟
+H04W 4/00
+Loading...
+本发明公开了一种实现Android系统下蓝牙自动回连的方法，属于无线通信领域。该方法包括：在蓝牙模块已开启的情形下，当移动终端监听到蓝牙广播为蓝牙连接请求时执行：判断蓝牙连接请求中包含的蓝牙设备地址是否与缓存中的蓝牙设备地址匹配，是则与所述蓝牙连接请求中包含的蓝牙设备地址对应的当前蓝牙设备建立连接，并更新蓝牙连接状态为已连接；否则不响应所述蓝牙连接请求。本发明提供的蓝牙自动回连的机制，减少了蓝牙外设重新开机后，再次手动连接的麻烦，使操作更智能、简单，提高了产品的易用性以及用户体验。
+189. WO/2015/139589 WORKING METHOD OF NFC TOKEN
+WO
+24.09.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/074291
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A working method of an NFC token. The method comprises: a micro control unit in a token performing system initialization; resetting a near field communication chip in the token and sending a near field communication chip setting instruction to the near field communication chip; waiting to receive a near field communication chip setting instruction return value; upon receiving the near field communication chip setting instruction return value, sending a first preset instruction to the near field communication chip; waiting to receive a first preset instruction return value; and upon receiving the first preset instruction return value, sending a second preset instruction comprising a dynamic password to the near field communication chip. The present invention has the beneficial effects that: the token is well compatible with a mobile platform, and is convenient to use, thereby simplifying the operation procedure of a user.
+190. WO/2015/131787 SCREEN ADAPTATION METHOD AND APPARATUS
+WO
+11.09.2015
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+PCT/CN2015/073471
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 3/0484
+Loading...
+A screen adaptation method and apparatus. A client obtains a user interface data packet from a server end and parses the user interface data packet to obtain drawing information about each module and component; the modules of the user interface are arranged vertically and each module contains one or more components. According to the screen direction of the device where the client is located, the client acquires the display attributes of each component, and draws each component in the user interface according to said attributes and to a resource file required to be filled into each component.
+191. 104866895 一种智能卡及其制造方法
+CN
+26.08.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510319241.7
+飞天诚信科技股份有限公司
+陆舟
+G06K 19/077
+Loading...
+本发明公开一种智能卡及其制造方法，该方法包括以下步骤：将安全芯片倒装压合到主电路板的第一预设区域内，在所述主电路板的第二预设区域内的多个焊盘上植锡球；将所述主电路板填充到基板的开槽中，并根据所述第二预设区域内的焊盘的位置，在所述基板上铣出凹槽，使得所述第二预设区域内的焊盘上的锡球在所述凹槽底部可见；将触点模块填充到所述凹槽中，并通过所述第二预设区域内的焊盘上的锡球，将所述触点模块装配到所述主电路板上。本发明将触点模块和安全芯片分别装配到主电路板上，可对触点模块和安全芯片进行电子电路级别的扩展，提高了智能卡的可扩展性。
+192. 104869124 一种基于地理位置信息的认证方法
+CN
+26.08.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510307353.0
+飞天诚信科技股份有限公司
+陆舟
+H04L 29/06
+Loading...
+本发明公开了一种基于地理位置信息的认证方法，属于信息安全领域。本发明公开的认证方法包括认证服务器对OTP的验证和对与用户信息绑定的移动终端设备的当前地理位置信息的验证，若均通过验证则认证成功，否则认证失败；其中，对与用户信息绑定的移动终端设备的当前地理位置信息的验证可以是与存储的地理位置验证信息比较，还可以是与发来所述用户信息的客户端的IP地址对应的地理位置进行比较。本发明提供的认证方法通过将多种认证因素参与到认证流程中，可以有效增加应用系统登录的保护强度，提高登录安全性。
+193. WO/2015/106708 METHOD FOR IDENTIFYING AUDIO DEVICE
+WO
+23.07.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/070828
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A method for identifying an audio device. The method comprises: a mobile device starting a process for monitoring insertion of an audio device; when the mobile device is connected to the audio device: the mobile device starting recording, if characteristic data is received in a first preset time, identifying the audio device as an audio intelligent key apparatus, and sending data to the audio intelligent key apparatus, otherwise, shutting off the recording; powering on and initializing the audio intelligent key apparatus, and sending audio data to the mobile device, and if the data sent by the mobile device is received in a second preset time, processing the data, otherwise, shutting off the machine; and when the mobile device is disconnected to the audio device: the mobile device shutting off the recording, and turning off the audio device. According to the present invention, a mobile device can identify the type of an inserted audio device, and when it is determined that the audio device is an audio intelligent key apparatus, the mobile device sends data, and accordingly, noise can be prevented when an earphone is inserted, and the user experience is good.
+194. 104795033 Display method of paged LCD
+CN
+22.07.2015
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+201510183897.0
+飞天诚信科技股份有限公司
+陆舟
+G09G 3/36
+Loading...
+The invention discloses a display method of a paged LCD and belongs to the field of liquid crystal display. The method includes: developing a second video memory for an LCD page relating to multiple lines of characters; developing a cache area, initiating the starting line, the current starting line and the current ending line of the current line of characters, if the second video memory corresponding to the LCD page where the current starting line and the current ending line are located exists, correspondingly copying the parts from the current starting line to the current ending line of lattice data to the second video memory, displaying the data in the second video memory on the LCD, or else, correspondingly copying the parts from the current starting line to the current ending line of the lattice data to the cache area, displaying the data in the cache area on the LCD, updating the starting line, the current starting line and the current ending line of the current line of characters, and repeating the process until the display of all lines of characters is completed. By the display method, fonts of optional sizes can be displayed in the display range of the LCD by occupying small video memory space.
+195. WO/2015/101350 IDENTITY AUTHENTICATION METHOD, SYSTEM, AND DEVICE
+WO
+09.07.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2015/070091
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+An identity authentication method, system, and device, a dynamic token thereof acquires a login challenge code input by a user, and performs hashing of a work key and a first purpose code stored in the token, the obtained first hash data acting as a first calculation key, performs hashing of the first calculation key, first timing information, and the login challenge code to obtain a second hash data; the dynamic token performs truncation of the second hash data, and displays the obtained first truncated result as a login password, then the dynamic token waits for a user to trigger a key. Hence, on the basis of different purpose codes, the dynamic token generates different calculation keys, and on the basis of each calculation key generates dynamic passwords respectively applicable to each application scenario; correspondingly, on the basis of different purpose codes, an authentication server authenticates the dynamic passwords applicable to each application scenarios, reducing the risk of keys used for generating dynamic passwords being stolen, improving the security of a token authentication system.
+196. WO/2015/101139 METHOD FOR GENERATING OFF-LINE AUTHENTICATION CREDENTIALS BY INTELLIGENT CARD
+WO
+09.07.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2014/093244
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A method for generating off-line authentication credentials by an intelligent card. The method comprises: the card receiving a command sent by a terminal, determining the type of the command, and if the command is a Get Processing Option command, processing the command to obtain a second credential and returning the second credential to the terminal; if the command is an internal authentication command, processing the command to obtain a third credential and returning the third credential to the terminal; if the command is an application cryptogram command, first determining the type of the command, and if the command is a first application cryptogram command, processing the command to obtain a corresponding credential and returning the corresponding credential to the terminal; and if the command is a second application cryptogram command, processing the command to obtain a corresponding credential and returning the corresponding credential to the terminal. By means of the present invention, dynamic data can participate in authentication of the intelligent card, the card is prevented from being copied on the basis that static data is not tampered, and use security of the intelligent card is improved.
+197. WO/2015/096593 METHOD FOR SECURE EXECUTION OF ENTRUSTED MANAGEMENT COMMAND
+WO
+02.07.2015
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+PCT/CN2014/092470
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 9/44
+Loading...
+A method for secure execution of an entrusted management command. The method comprises: when an entrusted management command is received by a slave security domain, same parses the command, acquires a predetermined byte in the command, a token length, and a token, and transmits to a master security domain; when data is received by the master security domain, same checks a lifecycle status of the master security domain, a lifecycle status and a permission of the slave security domain, verifies the token when all checks are successful, and returns a status code to the slave security domain; and, the slave security domain determines the received status code, and if same is a predetermined status code, then executes an entrusted management operation. The present invention allows for determination of the validity of an entrusted management command, and further allows for prevention of an invalid entrusted management command from being executed, thus ensuring the security of data in a Java card.
+198. WO/2015/096541 METHOD AND DEVICE FOR INDEXING EXTERNAL SD CARD
+WO
+02.07.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+PCT/CN2014/088728
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+G06F 9/445
+Loading...
+A method for indexing an external SD card. The method comprises: acquiring a mount path list; determining whether or not a filter criterion is satisfied by each mount path in the mount path list, if the criterion is satisfied, then splitting with spaces a current mount path into multiple paths, determining whether or not each path contains a preset string, and if yes, then recording the current path as a suspected external SD card path; and, determining whether or not a final external SD card path is in the suspected external SD card path recorded, if yes, then a final external SD card is found, and if not, then no final external SD card is found. By analyzing a file system table and a mount command, the present invention implements acquisition of a mount path of an external SD card on Android platforms of different versions and different customizations, thus allowing the implementation in an Android operating system of external SD card indexing without having to rely on an API function for implementation, and improving compatibility.
+199. WO/2015/096698 DATA WRITING AND READING METHODS FOR FLASH
+WO
+02.07.2015
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+PCT/CN2014/094668
+FEITIAN TECHNOLOGIES CO., LTD
+LU, Zhou
+G06F 12/02
+Loading...
+Data writing and reading methods for a flash. The data writing method comprises: when remaining spaces of a data area and of an index area of a physical page are sufficient, sequentially storing present-instance write data into the data area of the physical page, and generating an index journal and sequentially writing same into the index area of the physical page; otherwise, organizing actual data in the physical page, storing the actual data into a data area of an idle page, and generating, on the basis of the actual data, an index journal and writing same into an index area of the idle page. The data reading method comprises: acquiring the actual memory address of to-be-read data on the basis of the index journal in the index area of the physical page, and reading the data from the actual memory address.
+200. WO/2015/085754 SECURE COMMUNICATION METHOD
+WO
+18.06.2015
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2014/081138
+FEITIAN TECHNOLOGIES CO., LTD.
+LU, Zhou
+H04L 9/32
+Loading...
+A secure communication method, the method comprising: step 1: power on a card reader, determine the system operating mode, and if same is an Apple mode, then enter the Apple device authentication process and execute step 2; if the mode is a USB mode, then execute step 2; step 2: wait to receive a command, determine the first preset byte of the command, and if same is a first preset value, then execute corresponding operations; if same is a second preset value, then on the basis of an initial encryption key, key sequence number, and algorithm corresponding to the algorithm identifier, decrypt the command, send the decrypted command to the card, and execute step 3; step 3: when data returned by the card is received, update the key sequence number, and using the algorithm corresponding to the algorithm identifier, the initial encryption key, and the updated key sequence number, encrypt the data returned by the card; and on the basis of the system operating mode and by means of the corresponding port, send the data returned by the card to the upper computer. On the basis of the present invention, once a card reader and upper computer have negotiated and updated a key, the updated key is used to encrypt or decrypt data; data communication security is thus improved.
+

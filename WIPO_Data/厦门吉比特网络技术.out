@@ -1,0 +1,97 @@
+1. 103713890 Method of developing browser online game clients
+CN
+09.04.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210378926.5
+厦门吉比特网络技术股份有限公司
+陈义庆
+G06F 9/44
+Loading...
+The invention provides an implementing method of developing browser online game clients. The implementing method includes: subjecting the online game client to micro-terminalization processing; for browser plug-in processing, downloading and updating the online game client subjected to the micro-terminalization processing by the aid of a browser plug-in in a webpage and subjecting executable files in a game to safety verification; after the safety verification is successful, enabling the browser plug-in to be responsible for starting up the game and forward input information of a game player to game process and acquiring rendering images of the game process to display; inserting the game client into the webpage for processing, namely operating the started game process at the backstage, receiving the information sent by the browser plug-in for corresponding processing, and sending the images obtained by rendering in each frame to the browser plug-in to display.
+2. 102509323 一种基于硬件加速渲染技术的显存控制处理方法
+CN
+20.06.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110359280.1
+厦门吉比特网络技术股份有限公司
+苏聚鎏
+G06F 19/00
+Loading...
+本发明公开了一种基于硬件加速渲染技术的显存控制处理方法，其包括：输入渲染对象；对渲染对象进行裁剪；以及预先进行的纹理缓存的创建，判断当前帧的渲染对象相对于上一帧的渲染对象是否发生改变，若是，将裁剪的渲染对象放入渲染队列，当渲染队列中有裁剪的渲染对象时，查询其是否已在显存中登记过，如果登记过则直接使用登记过的贴图进行渲染，如果尚未登记，则申请缓存区域，用裁剪的渲染对象进行更新后渲染。本发明在保持游戏原有丰富内容的前提下，严格控制住游戏客户端使用的显卡显存量，有效地降低了游戏对显卡显存的占用量，提升了执行效率。
+3. 102254337 Method for changing colours of 2D (Two-Dimensional) animation chartlet
+CN
+23.11.2011
+G06T 13/80 Loading...
+G06T 13/80
+Loading...
+201110105956.4
+Xiamen G-Bits Network Technology Co.,Ltd.
+Chen Yiqing
+G06T 13/80
+Loading...
+The invention discloses a method for changing colours of a 2D (Two-Dimensional) animation chartlet, comprising the following steps of: step A, informing a chartlet currently operated by a display card as an animation chartlet relative to a current frame, wherein an RGB (Red, Green and Blue) value Co1x of the chartlet is (r, g and b); step B, generating a colour changing coefficient and storing the colour changing coefficient in a constant register of a pixel shader of the display card, wherein the formula of the colour changing coefficient value cont is shown in the specification; step C, calculating a new RGB value of the chartlet relative to the current frame and rendering the chartlet by the display card, wherein the new RGB value ColY equals to Co1X*cont; and step D, transmitting the new RGB value ColY to a display screen by the display card; and displaying the chartlet by the display screen. By using the technical proposal, the method disclosed by the invention has the benefits that: a lot of palettes can be prevented from being adopted to change colours of an animation frame picture by using the colour changing coefficient; the colour changing coefficient only needs to be configured with nine data; the occupation memory space is very small; and the use efficiency of a memory is greatly improved.
+4. 102254335 System and method for editing game characters
+CN
+23.11.2011
+G06T 13/00 Loading...
+G06T 13/00
+Loading...
+201110183354.0
+Xiamen G-Bits Network Technology Co.,Ltd.
+Li Yahui
+G06T 13/00
+Loading...
+The invention discloses a system for editing game characters. The system comprises an animation editing module and a technical editing module. The animation editing module is used for integrating a plurality of animation resources into alternative resources and selecting the animation resources of the same kind from the alternative resources to be integrated according to a game logic. The technical editing module is used for providing visible trigger event edition and track edition to the animation resources. The invention further discloses a method for editing the game characters. The method disclosed by the invention can be used for improving the efficiency for establishing and editing the game characters, saving resources of a computer, reducing loads of the computer, accelerating the speed for processing the computer, and reducing the energy consumption of the computer.
+5. 102221929 Distribution type game server system
+CN
+19.10.2011
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+201110154535.0
+Xiamen G-Bits Network Technology Co.,Ltd.
+Lu Hongyan
+G06F 3/041
+Loading...
+The invention discloses a distribution type game server system, which comprises at least one catalog server and at least one physical server. The catalog server comprises a lookup table; the lookup table comprises catalog information and physical server information matched with the catalog information; the physical server matched with the catalog information can be searched through the catalog information and according to the lookup table; and the physical server is used for storing data objects. Servers are divided by the distribution type game server system according to catalogs, moreover, at least one physical server belongs to one catalog and is governed by one catalog server, and the physical servers can be simply overlapped, therefore, the handling capacity provided by the system is larger when more physical servers are arranged under one catalog server.
+6. 101751513 Turn-based online game implementation method based on distributed server
+CN
+23.06.2010
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200910113102.3
+Xiamen G-Bits Networks Co., Ltd.
+Lu Hongyan
+G06F 19/00
+Loading...
+The invention discloses a turn-based online game implementation method based on distributed server; when a turn-based fight is enabled, a fight domain is firstly created on a fight processing server through domain creation method, and then the game player objects participating in the turn-based fight and the battle-related data are extracted to be transmitted to the fight domain on the fight processing server through remote call mode; the corresponding game player object mirrors are created in the fight domain according to the received data, and the fight processing server processes the fight flow until the fight is over; finally, the data of game player object mirrors is extracted to be transmitted to the game player servers of the corresponding game players through remote call mode for covering the original data of the game player objects; the invention can conveniently process the logic and data of the turn-based fight game process, greatly reduces the development cost and improves the development speed.
+7. 101557400 Method for realizing anti-external hanging of online game
+CN
+14.10.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910111799.0
+Xiamen G-Bits Networks Technology Co., Ltd.
+Cai Wei
+H04L 29/06
+Loading...
+The invention discloses a method for realizing anti-external hanging of online games, and the method comprises the following steps: 1) a server end sends challenge information to a client randomly and waits for the client to respond; (2) after receiving the challenge information, the client runs script codes of the challenge information which is sent by the server end in a virtual machine, and sends the result to the server end; 3) after receiving challenge response returned by the client, the server end compares the challenge response with an expected result at the server end, if the result is in accordance with the expected result, the game client is thought to be legal and trustable; if not, the game client is thought to be illegal and not trustable. By using the method, the existing or potential external hanging can be attacked effectively so as to reliably safeguard the interests of normal users and game companies.
+8. 101261661 Realization method for distributed server in network game
+CN
+10.09.2008
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810070788.8
+Xiamen G-Bits Technology Co., Ltd.
+Lu Hongyan
+G06F 19/00
+Loading...
+The invention discloses a method for realizing an online game distributed server. The method classifies all the servers of an online game system into a directory server and bearing-domain servers which belong to the directory server; then, the data objects of the game are dispersed into the server of each bearing-domain, and low-cost long-distance transferring is provided for the communication of the data objects. The method can lead the game to be expanded limitlessly in operation, and the servers can be added at any moment according to requirements, therefore, the game world can be infinite and the maintenance cost can be reduced.
+

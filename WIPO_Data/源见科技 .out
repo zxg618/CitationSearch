@@ -1,0 +1,37 @@
+1. 101820547 Inter-frame mode selecting method
+CN
+01.09.2010
+H04N 7/32 Loading...
+H04N 7/32
+Loading...
+200910118334.8
+VisionFlow Technology (Suzhou) Co., Ltd.
+Jiao Hualong
+H04N 7/32
+Loading...
+The invention discloses an inter-frame mode selecting method, which comprises the following steps of: according to the motion vectors of adjacent macro blocks, obtaining a predicted value of a motion vector of a large-scale triangulation mode, determining an initial search point, calculating the cost functions of all triangulation modes, determining the selected triangulation mode, and carrying out motion estimation in the fractional stage to obtain the fractional pixel motion vector of the optimal triangulation mode, wherein the reference frame index and motion vector of the upper adjacent macro block of the current macro block adopt the final precise results for coding, and the reference frame index and motion vector of the left adjacent macro block of the current macro block adopt the calculation results obtained in the integer motion estimation stage. The optimal triangulation mode is obtained by calculating the cost function through the motion vector of the left adjacent macro block obtained in the integer motion estimation stage, and the corresponding fractional pixel motion vector and the optimal inter-frame prediction mode of the current macro block are obtained further so as to reduce the dependencies between the adjacent macro blocks, and improve the processing speed and coding efficiency of the flow line.
+2. 101820546 Intra-frame prediction method
+CN
+01.09.2010
+H04N 7/32 Loading...
+H04N 7/32
+Loading...
+200910118333.3
+VisionFlow Technology (Suzhou) Co., Ltd.
+Jiao Hualong
+H04N 7/32
+Loading...
+The invention discloses an intra-frame prediction method. The current macro block is subjected to the following steps by respectively using the 16*16 luma block, 4*4 small luma block and 8*8 chroma block: calculating predicted pixel values of the current macro block in various prediction modes according to the original pixel of a left block and the rebuild pixel of an upper block; and calculating a forecast error of each prediction mode according to an actual measured value of the current macro block so as to obtain the optimal prediction mode. In the method, the predicted pixel values of the luma block and the chroma block in various prediction modes are obtained according to the original pixel value of the pixel of the left adjacent block of the current luma block or chroma block and the rebuild pixel value of the pixel of the upper adjacent block thereof, and further the optimal prediction mode of the current macro block is obtained so as to reduce the dependencies between adjacent macro blocks, and improve the processing speed and coding efficiency of the flow line.
+3. 101527854 Interframe mode selection method
+CN
+09.09.2009
+H04N 7/32 Loading...
+H04N 7/32
+Loading...
+200910005620.3
+VisionFlow Inc.
+Jiao Hualong
+H04N 7/32
+Loading...
+The invention relates to an interframe mode selection method which comprises the following steps: based on the acquisition of motion vector predictive values in large-scale subdivision modes, confirming a start searching point according to the motion vector predictive values in the large-scale subdivision modes; respectively adopting different ways to calculate match errors for the start searching point and each following non-start searching point and updating and storing match results according to the match errors until a search is finished; then, calculating cost functions of all the subdivision modes according to the match results and confirming a selected subdivision mode. The interframe mode selection method calculates the cost functions at two stages, carries out motion estimation search only to 16*16 subdivision and utilizes the match error of 4*4 subdivision to obtain the match errors of other parts so as to obtain an optimal mode, further reduce a great search frequency and calculation, save the calculation time and improve the encoding efficiency.
+

@@ -97,7 +97,7 @@ public class CompanyMapper extends Mapper {
 	
 	//tls010_company_applnt section
 	public int createCompantApplicant(CompanyApplicant compApplnt) {
-		this.query = "select * from " + Company.TRANS_TABLE + " where company_id = " + compApplnt.getCompanyId() + " and person_id = " + compApplnt.getPersonId();
+		this.query = "select id from " + Company.TRANS_TABLE + " where company_id = " + compApplnt.getCompanyId() + " and person_id = " + compApplnt.getPersonId();
 		ResultSet rs = this.executeGetQuery();
 		try {
 			if (rs.next()) {
@@ -112,7 +112,7 @@ public class CompanyMapper extends Mapper {
 				+ " values ("
 				+ compApplnt.getCompanyId() + ", "
 				+ compApplnt.getPersonId() + ", "
-				+ "\'" + compApplnt.getCompanyName() + "\'"
+				+ "\'" + compApplnt.getCompanyName().replace("'", "''") + "\'"
 				+ ")";
 		
 		return this.executeOtherQuery();
@@ -171,6 +171,28 @@ public class CompanyMapper extends Mapper {
 		*/
 		
 		return true;
+	}
+	
+	public CompanyApplicant[] getAllTranslations() {
+	ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
+		
+		this.query = "select * from " + Company.TRANS_TABLE;
+		ResultSet rs = this.executeGetQuery();
+		
+		try {
+			while (rs.next()) {
+				CompanyApplicant translation = new CompanyApplicant();
+				translation.setID(rs.getInt("id"));
+				translation.setCompanyId(rs.getInt("company_id"));
+				translation.setPersonId(rs.getInt("person_id"));
+				translation.setCompanyName(rs.getNString("company_name"));
+				translations.add(translation);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return translations.toArray(new CompanyApplicant[0]);
 	}
 	
 }

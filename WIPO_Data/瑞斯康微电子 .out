@@ -1,0 +1,457 @@
+1. WO/2017/063180 POWER LINE CARRIER COMMUNICATION PERFORMANCE DETECTION DEVICE
+WO
+20.04.2017
+H04B 3/48 Loading...
+H04B 3/48
+Loading...
+PCT/CN2015/092052
+RISECOMM MICROELECTRONICS (SHENZHEN) CO., LTD.
+LIU, Zaile
+H04B 3/48
+Loading...
+The present invention relates to the technical field of power line carrier communications, and in particular to a power line carrier communication performance detection device. The power line carrier communication performance detection device comprises a first detection position used for placing first carrier equipment, a first signal coupler, a signal attenuation device, a second signal coupler, and a second detection position used for placing second carrier equipment. The power line carrier communication performance detection device of the present invention can be applicable to detection of carrier signals within a frequency range of 3 KHz-1 GHz, and is capable of completely separating a mains supply from the carrier signals. The design of the whole power line carrier communication performance detection device adopts a completely symmetrical structure, and is wide in application range, high in safety, and high in accuracy.
+2. 103973242 一种电力线载波功率放大电路
+CN
+19.04.2017
+H03F 3/21 Loading...
+H03F 3/21
+Loading...
+102014000214726
+瑞斯康微电子（深圳）有限公司
+刘再乐
+H03F 3/21
+Loading...
+本发明适用于电力线载波通信技术，提供了一种电力线载波功率放大电路，包括使能开关、低通滤波模块、前级电压放大模块、功率放大模块和信号耦合模块；使能开关的第一端输入电源电压，其第二输出端连接前级电压放大模块的第一端；低通滤波模块的第一端连接调制载波信号输入端，其第二端连接前级电压放大模块的第二端；功率放大模块的第二端连接前级电压放大模块的第三端，其第三端连接信号耦合模块的第一端；信号耦合模块的第二端连接电力线的火线，其第三端连接电力线的零线。电力线载波功率放大电路能将干扰源阻挡在产品入口的前缘，以实现对载波功率放大电路的保护。
+3. 106504512 II型采集器、数据采集方法及系统
+CN
+15.03.2017
+G08C 23/04 Loading...
+G08C 23/04
+Loading...
+102016001159053
+瑞斯康微电子（深圳）有限公司
+张友运
+G08C 23/04
+Loading...
+本发明实施例提供了一种II型采集器、数据采集方法及系统，应用于电力技术领域，其中该II型采集器包括：通信模块芯片，微控制单元，该微控制单元具有多个串口，分别通过各串口与第一通信模块、第二通信模块、该通信模块芯片相连接，该微控制单元设置有IO引脚，通过该IO引脚与该通信模块芯片的数据模块相连接，该通信模块芯片通过控制该微控制单元对该IO引脚的导通状态进行切换，以切换该数据模块与该微控制单元的数据传输通道，该数据传输通道用于传输来自该第一通信模块或该第二通信模块的数据，本发明实施例还提供了一种数据采集方法及系统，实现在不改变当前II型采集器的通信模块芯片的物理串口数量的前提下，实现数据快速采集，节约成本。
+4. WO/2016/161573 ASYNCHRONOUS TRANSMISSION METHOD BASED ON ZERO-CROSSING TRANSMISSION MODE IN POWER LINE CARRIER COMMUNICATION
+WO
+13.10.2016
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2015/076046
+RISECOMM MICROELECTRONICS (SHENZHEN) CO., LTD
+GU, Jian
+H04B 3/54
+Loading...
+The present invention relates to an asynchronous transmission method based on a zero-crossing transmission mode in power line carrier communications, comprising: step A, sample power of a mains supply in real time according to a pre-set sampling frequency and count a sampling number, and when the power of the mains supply crosses a zero point and the counted number reaches an estimated mains supply zero-crossing period sampling number, clear the counted number; step B, a sending end determines, according to the length of each component of a data packet, a sending start moment of each component, the sending start moment being represented by the counted number; and step C, a receiving end receives data, sent by the sending end, of each frame fragment. The present invention adopts an asynchronous transmission form, a sending end determines sending start time at each zero-crossing point, the sending end only needs to send effective information at positions close to the zero-crossing points, and a receiving end only needs to obtain the effective information in a timing manner according to a certain mechanism and does not need to know specific positions of the zero-crossing points, thereby avoiding influence on signal transmission and alternating current waveform synchronization from errors of a mains supply power period, and improving the pulse interference resisting capability.
+5. 205448172 一种中央空调智能温控器及中央空调系统
+CN
+10.08.2016
+F24F 11/00 Loading...
+F24F 11/00
+Loading...
+201521136671.7
+瑞斯康微电子（深圳）有限公司
+刘再乐
+F24F 11/00
+Loading...
+本实用新型适用于温度控制技术领域，提供了一种中央空调智能温控器，包括中央控制器、温度采集模块、继电器模块、载波模块和无线模块；所述温度采集模块与所述中央控制器连接，用于采集所述中央空调智能温控器所在的环境温度并传输至中央控制器；所述继电器模块用于根据所述中央控制器的指令调节中央空调的风机盘管的风速及其阀门的开关；所述载波模块用于与中央空调集中控制系统的集中器以电力线载波通信的方式进行数据的传输；所述无线模块用于与中央空调集中控制系统的集中器以无线通信的方式进行数据的传输。本实用新型提供的中央空调智能温控器及中央空调系统，免布线、免维护的通信方式能快速解决组建中央空调集中控制系统的数据通信问题。
+6. 105827456 一种嵌入分布式组网方法及其系统
+CN
+03.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610272213.9
+瑞斯康微电子（深圳）有限公司
+王旭
+H04L 12/24
+Loading...
+本发明提供了一种嵌入分布式组网方法，包括：网络拓扑形成步骤；初始路由生成步骤；实时路由维护步骤；消息发送路由步骤。本发明还提供一种嵌入分布式组网系统。本发明提供的技术方案采用四个步骤能极大提高电表抄读的效率。
+7. 105743894 一种基于文件方式的多协议报文解析方法与系统
+CN
+06.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000067883
+瑞斯康微电子（深圳）有限公司
+文新根
+H04L 29/06
+Loading...
+本发明适用于数据通信技术领域，提供的基于文件方式的多协议报文解析方法，包括：1，初始化算法内存资源和文件句柄；2，从通信口读取数据流，并存放于所述内存中的数据缓存区域；3，读取所述数据缓存区域中的数据，并将所述数据写入报文文件，同时清理陈旧的报文文件，得到更新后的报文文件；4，将所述报文文件共享给所有协议栈解析器；5，重复步骤2?4；6，每个协议栈解析器利用分配的文件句柄读取更新后的报文文件中的数据，并判断所述数据是否存在该协议报文；7，若存在，则根据协议处理后，响应报文的应用。本发明提供的方法解决了在现有的单一处理模式下，因采用轮番搜索各自协议而容易造成接收缓存溢出从而导致数据丢失的问题。
+8. 105680908 一种全频带电力线载波通信方法
+CN
+15.06.2016
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201610152998.6
+瑞斯康微电子（深圳）有限公司
+邱仁峰
+H04B 3/54
+Loading...
+本发明公开了一种全频带电力线载波通信方法，以BPLC处理器作为用于数据采集的主控制器；具有两条采集通道分别执行基于宽带载波的数据传输和基于窄带传输的数据传输；每条采集通道能单独工作以采集数据；该两条采集通道分别是宽带载波采集通道和窄带载波采集通道；宽带载波采集通道包括BPLC收发电路和BPLC耦合电路；窄带载波采集通道包括窄带载波发送电路、窄带载波接收电路、窄带信号耦合电路以及过零电路；该全频带电力线载波通信方法能显著提高抄表的成功率，且抄表效率高。
+9. WO/2016/086421 CENTRALIZED CONTROL SYSTEM FOR INTELLIGENT LIGHTING STREET LAMP
+WO
+09.06.2016
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+PCT/CN2014/093174
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+LIU, Zaile
+H05B 37/02
+Loading...
+The present invention is applicable to a street lamp lighting system, and provided is a centralized control system for an intelligent lighting street lamp, comprising a remote monitoring centre, at least one centralized controller and at least one street lamp controller for controlling the working of a street lamp and monitoring a working state parameter of the street lamp in real time, wherein the centralized controller is connected to one or more street lamp controllers via a power line, and transceives the same information with the street lamp controller in two modes, namely, power line carrier communication (PLC) and radio communication (RF); and the street lamp controller is used for transmitting the monitored working state parameter of the street lamp to the remote monitoring centre via the centralized controller, and executing a corresponding control operation on the street lamp when receiving a monitoring instruction which is forwarded by the centralized controller and from the remote monitoring centre. The present invention can fully upgrade a city public lighting management system, thereby reducing energy waste, and achieving centralized management and controlling, informatized operation and maintenance, and intelligent lighting of street lamps.
+10. WO/2016/086424 THERMAL DATA COLLECTOR AND THERMAL MANAGEMENT SYSTEM
+WO
+09.06.2016
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+PCT/CN2014/093179
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+YI, Yuting
+G08C 19/00
+Loading...
+A thermal data collector, comprising a micro-control unit (MCU) (11), a power line carrier communication module (12) and an MBUS host transceiving circuit (13); the MCU (11) is connected to the power line carrier communication module (12) and the MBUS host transceiving circuit (13) respectively; the MCU (11) is used to receive detection data of a thermal meter/thermal valve (3) via the MBUS host transceiving circuit (13), and transmit the same via the power line carrier communication module (12), and receive a control signal of the thermal meter/thermal valve (3) via the power line carrier communication module (12), and transmit the same to the thermal meter/thermal valve (3) via the MBUS host transceiving circuit (13). Also provided is a thermal management system.
+11. 105444345 一种空调及其睡眠模式的控制装置、控制方法
+CN
+30.03.2016
+F24F 11/00 Loading...
+F24F 11/00
+Loading...
+201510765893.3
+瑞斯康微电子（深圳）有限公司
+蒋周金
+F24F 11/00
+Loading...
+本发明提供一种空调及其睡眠模式的控制装置、控制方法，能根据环境光照强度的变化自动调控空调的睡眠模式，免除了手动开启或关闭空调睡眠模式的麻烦，达到提高睡眠舒适性的目的。
+12. 105356909 一种电力线载波通信性能检测装置
+CN
+24.02.2016
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+201510677221.7
+瑞斯康微电子（深圳）有限公司
+刘再乐
+H04B 3/46
+Loading...
+本发明属于电力线载波通信技术领域，尤其涉及一种电力线载波通信性能检测装置。所述电力线载波通信性能检测装置包括用于放置第一载波设备的第一检测位、第一信号耦合器、信号衰减装置、第二信号耦合器、用于放置第二载波设备的第二检测位。本发明所述的电力线载波通信性能检测装置能适用于3KHz-1GHz频率范围内的载波信号的检测，能将市电与载波信号完全分离，整个电力线载波通信性能检测装置的设计采用完全对称结构，适用范围广、安全性高、精准度高。
+13. WO/2015/192571 WATER HEATER ENERGY-SAVING CONTROL TERMINAL AND WATER HEATER ENERGY-SAVING CONTROL SYSTEM
+WO
+23.12.2015
+F24H 9/20 Loading...
+F24H 9/20
+Loading...
+PCT/CN2014/089344
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+LIU, Zaile
+F24H 9/20
+Loading...
+A water heater energy-saving control terminal (100). The water heater energy-saving control terminal (100) comprises: a power supply module (2), connected to a mains supply line (5) and used for supplying power to a water heater; and a power line carrier communication module (1), connected to the power supply module (2) and used for receiving preset power-on time period information of the water heater through the power supply module (2) and the mains supply line (5) in sequence. The power line carrier communication module (1) is further connected to a real-time clock module (3) and a relay module (4). A comparator (101) and a controller (102) are disposed in the power line carrier communication module (1). The comparator (101) is used for comparing the power-on time period information of the water heater with current time information in the real-time clock module (3). The controller (102) turns on the water heater through the relay module (4) when the current time is in the power-on time period of the water heater, and the controller (102) turns off the water heater through the relay module (4) when the current time is not in the power-on time period of the water heater. Also disclosed is a water heater energy-saving control system.
+14. WO/2015/176381 POWER LINE CARRIER POWER AMPLIFICATION CIRCUIT
+WO
+26.11.2015
+H03F 3/21 Loading...
+H03F 3/21
+Loading...
+PCT/CN2014/082635
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+LIU, Zaile
+H03F 3/21
+Loading...
+A power line carrier power amplification circuit, comprising an enabling switch, a low-pass filtering module, a pre-stage voltage amplification module, a power amplification module and a signal coupling module. A power source voltage is input to a first end of the enabling switch, and a second output end of the enabling switch is connected to a first end of the pre-stage voltage amplification module. A first end of the low-pass filtering module is connected to a modulation carrier signal input end, and a second end of the low-pass filtering module is connected to a second end of the pre-stage voltage amplification module. A second end of the power amplification module is connected to a third end of the pre-stage voltage amplification module, and a third end of the power amplification module is connected to a first end of the signal coupling module. A second end of the signal coupling module is connected to a live line of a power line, and a third end of the signal coupling module is connected to a null line of the power line. The power line carrier power amplification circuit is applicable to the power line carrier communication technology, and can block an interference source at the front edge of a product inlet, so that the carrier power amplification circuit is protected.
+15. WO/2015/139456 ZERO-CROSS DETECTION CIRCUIT FOR MAINS SUPPLY
+WO
+24.09.2015
+G01R 19/175 Loading...
+G01R 19/175
+Loading...
+PCT/CN2014/089343
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+GU, Jian
+G01R 19/175
+Loading...
+A zero-cross detection circuit for mains supply, comprising a pulse generation control module (101) which accelerates a discharging process when a voltage of mains supply reaches a zero crossing point from a positive half-cycle, and an optical coupling device (U1), wherein a first end of the pulse generation control module (101) is connected to a live wire of the mains supply, a second end of the pulse generation control module (101) is connected to a null line of the mains, and a third end of the pulse generation control module (101) is connected to an anode of a light-emitting diode in the optical coupling device (U1); and a cathode of the light-emitting diode in the optical coupling device (U1) is connected to the null line of the mains supply, a collector of a phototransistor in the optical coupling device (U1) is connected to a low-voltage direct current, and an emitter of the phototransistor in the optical coupling device (U1) is grounded and is used as an output end of a zero crossing pulse. The zero-cross detection circuit for mains supply is simple and is not easily influenced by the voltage of mains supply or component parameters.
+16. WO/2015/127788 INTELLIGENT CONTROL SWITCH FOR POWER LINE CARRIER
+WO
+03.09.2015
+H03K 17/94 Loading...
+H03K 17/94
+Loading...
+PCT/CN2014/089205
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+LIU, Zaile
+H03K 17/94
+Loading...
+An intelligent control switch for a power line carrier is arranged on a live wire. The input terminal of the intelligent control switch is electrically connected with the live wire, and the output terminal of the intelligent control switch serves as a live wire terminal. The intelligent control switch for a power line carrier includes a power supply module (101), a zero-crossing detection module (102), a power line carrier module (103), a silicon controlled rectifier control module (104) and a relay control module (105). The zero-crossing detection module (102) is connected with the input terminal, detects whether the alternating current crosses the zero point and, when zero is crossed, sends a zero-crossing signal to the power line carrier module (103); the power line carrier module (103) is connected with the power supply module (101), the zero-crossing detection module (102), the silicon controlled rectifier control module (104) and the relay control module (105), sends a closing or a disconnecting instruction to the silicon controlled rectifier control module (104) and the relay control module (105), and successively controls the actions of the silicon controlled rectifier control module (104) and the relay control module (105). The intelligent control switch for a power line carrier uses zero-crossing detection technology and the technology of switching of the silicon controlled rectifier control module (104) and the relay control module (105), and thus can adapt to more powerful impact force.
+17. WO/2015/120729 PHOTOVOLTAIC INVERTER POWER CARRIER COMMUNICATIONS SYSTEM
+WO
+20.08.2015
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+PCT/CN2014/089080
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+QU, Shiqi
+G08C 19/00
+Loading...
+A photovoltaic inverter power carrier communications system, comprising a plurality of solar panels (101), a plurality of photovoltaic microinverters (102), a photovoltaic microinverter concentrator (103), a power line (104), and a control center (105); each photovoltaic microinverter (102) of the plurality of photovoltaic microinverters (102) is connected to a corresponding solar panel (101) and is used for collecting real-time status data and performance parameters of the solar panel (101); the photovoltaic microinverter concentrator (103) is connected to the photovoltaic microinverters (102) by means of the power line (104); the control center (105) is connected to the photovoltaic microinverter concentrator (103) and controls and manages the photovoltaic microinverters (102) connected to the photovoltaic microinverter concentrator (103). The communications system uses the power line (104) as a communications medium and acquires in real time information regarding the operating conditions of each photovoltaic microinverter (102), thus accomplishing intelligent management of the photovoltaic microinverters (102); furthermore, the invention does not require the laying of additional communications control lines and is easy to install and implement.
+18. WO/2015/117381 POWER-LINE CARRIER COMMUNICATIONS TESTER
+WO
+13.08.2015
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+PCT/CN2014/089067
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+QU, Shiqi
+H04B 17/00
+Loading...
+The present invention relates to power line carrier technology and provides a power-line carrier communications tester, comprising a portable instrument case, said portable instrument case internally comprising a display module, a plurality of peripheral interfaces, a processor module, a power supply module, a power carrier module, and a testing module; said processor module is separately connected to the power supply module, the display module, and the power carrier module and is used for processing communication signals received from said peripheral interfaces or processing a carrier communications protocol stack received from said power carrier module, and sending the results of processing to the display module for display; said power carrier module is separately connected to the power line and the testing module, and is used for transmission and reception of communication signals of the power line carrier and processing the carrier communications protocol stack; said testing module tests a communications signal received from said power carrier module. The power-line carrier communications tester is used primarily for measurement and analysis of a power-line carrier communications environment.
+19. WO/2015/109873 POWER LINE CARRIER COMMUNICATION TESTING DEVICE
+WO
+30.07.2015
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+PCT/CN2014/089069
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+HUANG, Wenbin
+H04B 3/46
+Loading...
+The present invention relates to the technical field of power line carrier communication, particularly to a power line carrier communication testing device. The device comprises an isolation transformer, a high-frequency filter, an attenuator and a detector sequentially connected via a power line; the primary side of the isolation transformer is connected to utility power, and used to conduct electric isolation on the utility power; the high-frequency filter is connected to the secondary side of the isolation transformer, and used to filter high-frequency noise on the power line; the attenuator is connected to the output end of the high-frequency filter, and used to attenuate the carrier signals on the power line; the detector is connected to the output end of the attenuator, and used to detect the carrier signals on the power line; and a first power line carrier communication device and a second power line carrier communication device for power line carrier communication testing are respectively connected to the rear stages of the filter and the attenuator.
+20. WO/2015/100794 WIRELESS AUTOMATIC RELAY NETWORKING METHOD AND METER READING SYSTEM
+WO
+09.07.2015
+H04W 84/18 Loading...
+H04W 84/18
+Loading...
+PCT/CN2014/070541
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+CHEN, Zhilong
+H04W 84/18
+Loading...
+The present invention relates to the technical field of route relay networking, and particularly, to a wireless automatic relay networking method and a meter reading system. Compared with the prior art, for a small part of collectors which do not join in a concentrator routing table, a concentrator sends unicast signals to the collectors according to network addresses of the collectors to carry out name-calling networking. The networking process can be stopped, and can be continued after the concentrator finishes other communication work. In addition, the collectors to join a network are not broadcast, so that interference on other collectors and the concentrator during meter reading is greatly reduced.
+21. 204270493 一种热力数据采集器及热力管理系统
+CN
+15.04.2015
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201420760169.2
+瑞斯康微电子（深圳）有限公司
+易玉婷
+G08C 19/00
+Loading...
+本实用新型适用于热力节能技术领域，提供了一种热力数据采集器及热力管理系统。采集器的工作过程为电力线载波通讯模块通过市电线路接收来自于电力线载波集中器的指令，发送至微控制单元MCU，微控制单元MCU经过内部处理，发送至MBUS主机收发电路，经由MBUS总线，将指令信息发送至热表/热阀，热表/热阀接收指令，执行相应的动作，并将响应信息通过MBUS总线及MBUS主机收发电路返回至微控制单元MCU，微控制单元MCU再通过所述电力线载波通讯模块经由市电线路，将信息返回至电力线载波集中器。本实用新型通过电力线对热表/热阀进行信息采集与指令控制，解决了直接采用MBUS总线控制方式对施工、布线要求高的问题。
+22. 203940622 热水器节能控制终端及热水器节能控制系统
+CN
+12.11.2014
+F24H 9/20 Loading...
+F24H 9/20
+Loading...
+201420325744.6
+瑞斯康微电子（深圳）有限公司
+刘再乐
+F24H 9/20
+Loading...
+本实用新型涉及一种热水器节能控制终端及热水器节能控制系统。该热水器节能控制终端包括：电源模块，用于与市电线路连接，以为热水器供电；电力线载波通信模块，与所述电源模块连接，用于依次通过所述电源模块及市电线路接收预设的所述热水器的通电时段信息；所述电力线载波通信模块还与实时时钟模块及继电器模块连接；所述电力线载波通信模块内置有比较器和控制器，所述比较器用于将所述热水器的通电时段信息与所述实时时钟模块中的当前时间信息进行比较，并在所述当前时间处于所述热水器的通电时段内时由所述控制器通过所述继电器模块接通所述热水器的电源，在所述当前时间不在所述热水器的通电时段内时由所述控制器通过所述继电器模块断开所述热水器的电源。
+23. 203859754 一种电力线载波通信测试仪
+CN
+01.10.2014
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201420060770.0
+瑞斯康微电子（深圳）有限公司
+瞿诗琦
+H04B 17/00
+Loading...
+本实用新型涉及于电力线载波技术，提供了一种电力线载波通信测试仪，包括便携式仪器箱，所述便携式仪器箱内包括显示模块、若干外设接口、处理器模块、电源模块、电力载波模块和检测模块；所述处理器模块分别与所述电源模块、所述显示模块和所述电力载波模块相连接，用于处理从所述外设接口接收到的通讯信号或处理从所述电力载波模块接收到的载波通信协议，并把处理后的结果发送到显示模块进行显示；所述电力载波模块分别与电力线、所述检测模块相连接，用于收发电力线载波的通讯信号和载波通信协议；所述检测模块对从所述电力载波模块接收到的通讯信号进行检测。该电力线载波通信测试仪主要用于电力线载波通信环境的测量和分析。
+24. 203851105 电力线载波功率放大电路
+CN
+24.09.2014
+H03F 3/21 Loading...
+H03F 3/21
+Loading...
+201420260142.7
+瑞斯康微电子（深圳）有限公司
+刘再乐
+H03F 3/21
+Loading...
+本实用新型适用于电力线载波通信技术，提供了一种电力线载波功率放大电路，包括使能开关、低通滤波模块、前级电压放大模块、功率放大模块和信号耦合模块；使能开关的第一端输入电源电压，其第二输出端连接前级电压放大模块的第一端；低通滤波模块的第一端连接调制载波信号输入端，其第二端连接前级电压放大模块的第二端；功率放大模块的第二端连接前级电压放大模块的第三端，其第三端连接信号耦合模块的第一端；信号耦合模块的第二端连接电力线的火线，其第三端连接电力线的零线。电力线载波功率放大电路能将干扰源阻挡在产品入口的前缘，以实现对载波功率放大电路的保护。
+25. 203759106 一种市电过零检测电路
+CN
+06.08.2014
+G01R 19/175 Loading...
+G01R 19/175
+Loading...
+201420122786.X
+瑞斯康微电子（深圳）有限公司
+顾健
+G01R 19/175
+Loading...
+本实用新型涉及电力线载波技术，提供了一种市电过零检测电路，包括在市电电压从正半周到过零点时使放电过程加快的脉冲产生控制模块和光耦器件，所述脉冲产生控制模块的第一端与市电的火线相连接，所述脉冲产生控制模块的第二端与市电的零线相连接，所述脉冲产生控制模块的第三端与光耦器件中发光二极管的阳极相连接；所述光耦器件中发光二极管的阴极与市电的零线相连接，所述光耦器件中的光电三极管的集电极接低压直流电，所述光耦器件中的光电三极管的发射极接地且作为过零脉冲的输出端。所述的市电过零检测电路简单，且不易受市电电压或元器件参数的影响。
+26. 203732907 一种电力线载波智能控制开关
+CN
+23.07.2014
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201420083598.0
+瑞斯康微电子（深圳）有限公司
+刘再乐
+G05B 19/04
+Loading...
+本实用新型涉及控制开关，提供了一种电力线载波智能控制开关，所述电力线载波智能控制开关位于火线上，其输入端与火线电连接，其输出端作为火线端子使用，包括电源模块、过零检测模块、电力线载波模块、可控硅控制模块和继电器控制模块；过零检测模块与输入端连接，检测交流电是否过零点，并在过零点时发送过零信号给电力线载波模块；电力线载波模块与电源模块、过零检测模块、可控硅控制模块和继电器控制模块相连接，向可控硅控制模块和继电器控制模块发出闭合、断开指令，并先后控制可控硅控制模块和继电器控制模块的动作。所述的电力线载波智能控制开关采用过零检测技术、可控硅控制模块与继电器控制模块切换的技术，使其能适应更大的冲击力。
+27. WO/2014/101850 AUTOMATIC REGISTRATION ALGORITHM FOR LOW-VOLTAGE DISTRIBUTION NETWORK CARRIER TERMINAL
+WO
+03.07.2014
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+PCT/CN2013/090799
+RISECOMM MICROELECTONICS (SHENZHEN) CO., LTD
+CHEN, Zhilong
+H04L 12/26
+Loading...
+The present invention relates to an automatic registration algorithm for a low-voltage distribution network carrier terminal. It uses each district concentrator as a centre, relies on a domain carrier node which has finished registration, and falls into neighbourhood node registration and non-neighbourhood node registration and neighbourhood and non-neighbourhood node supplementary registration, etc. to complete the registration process of the electric meters of the overall electric grid in a multi-stage wave manner, measures the proximity of the electric-grid registration nodes by virtue of signal quality parameters carried by power-line narrow-band carrier signals during cross-district propagation, and collects, calculates and compares these parameters through a home-domain confirmation algorithm, thereby accurately determining the home district of a carrier node. In addition, a high-efficiency conflict avoidance and multi-priority carrier packet transceiving control algorithm based on a physical-layer CSMA technology is adopted to process the priorities of conflict and discharging messages so that all types of communication nodes in a district simultaneously compete to use one and the same communication medium. The present invention can be used for electric-meter registration of a plurality of types of electric-grid meter-reading networks, and is in particular suitable for electric-meter registration of an electric-power carrier remote meter-reading network in a relatively complicated communication environment.
+28. 203689677 一种光伏逆变器电力载波通信系统
+CN
+02.07.2014
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201420066541.X
+瑞斯康微电子（深圳）有限公司
+瞿诗琦
+G08C 19/00
+Loading...
+本实用新型适用于通信技术领域，提供了一种光伏逆变器电力载波通信系统，包括若干太阳能电池板、若干光伏微型逆变器、光伏微逆变集中器、电力线和控制中心，所述若干光伏微型逆变器中的每一个光伏微型逆变器均与相对应的一块太阳能电池板相连，用于收集太阳能电池板的实时状况数据和性能参数；光伏微逆变集中器通过电力线与各个光伏微型逆变器相连接；所述控制中心与光伏微逆变集中器相连接，控制管理与所述光伏微逆变集中器相连接的各个光伏微型逆变器。所述的通信系统以电力线为通讯介质，实时采集各光伏微型逆变器工况信息，进而实现对光伏微型逆变器的智能化管理，此监控系统的建立无需另外铺设通信控制线，具有易于安装实施的优点。
+29. 203691397 一种电力线载波通信测试装置
+CN
+02.07.2014
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+201420051366.7
+瑞斯康微电子（深圳）有限公司
+黄文彬
+H04B 3/46
+Loading...
+本实用新型涉及电力线载波通信技术领域，尤其涉及一种电力线载波通信测试装置。该装置包括通过电力线依次连接的隔离变压器、高频滤波器、衰减器、检波器；所述隔离变压器的原边连接市电，用于对所述市电实行电气隔离；所述高频滤波器与所述隔离变压器的副边连接，用于滤除所述电力线上的高频噪声；所述衰减器与所述高频滤波器的输出端连接，用于对所述电力线上的载波信号进行衰减；所述检波器与所述衰减器的输出端连接，用于检测所述电力线上的载波信号；用于电力线载波通信测试的第一电力线载波通信装置及第二电力线载波通信装置可分别连接于所述滤波器的后级与所述衰减器的后级。
+30. 103731193 Wireless automatic relay networking method and meter reading system
+CN
+16.04.2014
+H04B 7/15 Loading...
+H04B 7/15
+Loading...
+201410002042.9
+瑞斯康微电子（深圳）有限公司
+陈支龙
+H04B 7/15
+Loading...
+The invention relates to the technical field of route relay networking, in particular to a wireless automatic relay networking method and a meter reading system. Compared with the prior art, for a small number of collectors which do not join in a concentrator routing table yet, a concentrator sends unicast signals to the collectors according to the network addresses of the collectors to carry out name-calling networking. The networking process can be stopped and can be continued after the concentrator finishes other communication work. Meanwhile, the collectors to access a network are not broadcast, and interference on other collectors and the concentrator during meter reading is greatly lowered.
+31. 203432029 一种空调集中监控设备
+CN
+12.02.2014
+F24F 11/02 Loading...
+F24F 11/02
+Loading...
+201320433063.7
+瑞斯康微电子（深圳）有限公司
+蒋周金
+F24F 11/02
+Loading...
+本实用新型涉及一种空调集中监控设备，其特征在于：它包括液晶显示模块、触摸交互模块、电力线通讯模块、网络通讯模块、电源模块、数据存储模块和单片机模块；所述液晶显示模块通过所述单片机模块的LCD驱动接口、所述触摸交互模块通过所述单片机模块的专用AD检测接口、所述电力线通讯模块通过所述单片机模块的UART接口、所述网络通讯模块通过所述单片机模块的6800专用接口、所述电源模块通过所述单片机模块的VCC接口以及所述数据存储模块通过所述单片机模块的数据总线接口分别与所述单片机模块连接。本实用新型工程施工简单、无通讯盲区，且显示直观、操作简单便捷，本实用新型可以广泛应用于公司、学校等各种装有空调的场合。
+32. 203423828 多功能智能路灯集中控制器
+CN
+05.02.2014
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+201320479620.9
+瑞斯康微电子（深圳）有限公司
+瞿诗琦
+H05B 37/02
+Loading...
+多功能智能路灯集中控制器，包括具有电源模块、存储电路的中央处理单元、显示屏，关键是：所述的集中控制器还包括模拟量检测电路、开关量输入电路、基于RS485总线的输入输出接口电路，以及远程网络升级接口电路。本实用新型的有益效果是，采用ARM核微控器和嵌入式操作系统，在低压电网用电数据采集的实时性、路灯控制智能化、安装的方便性、使用环境的广泛性及建立系统的经济性等方面给城市照明管理部门提供了现代的手段，使路灯控制工作准确、实时、简便。
+33. 203387739 一种LED隧道灯智能控制系统
+CN
+08.01.2014
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+201320479773.3
+瑞斯康微电子（深圳）有限公司
+瞿诗琦
+H05B 37/02
+Loading...
+一种LED隧道灯智能控制系统，包括电源模块、与LED隧道灯组受控端通过总线连接的中央处理器，关键是：所述的控制系统中还包括，在隧道顶部设置的一组图像采集电路，图像采集电路采集隧道中的车流量信息发送至中央处理器，中央处理器处理后输出控制信号至LED隧道灯组。本实用新型的有益效果是，本实用新型利用世界上范围分布最广的低压电力线作为通信媒介，基于载波自动路由技术开发的远程控制LED灯具能充分的解决目前电力线高噪声、高衰减、信号畸变大的特点，并预留多种类灯具接口，可充分的应用到隧道等公共场所节能改造工程。
+34. 203385152 一种空调节能控制器
+CN
+08.01.2014
+F24F 11/02 Loading...
+F24F 11/02
+Loading...
+201320433068.X
+瑞斯康微电子（深圳）有限公司
+陈支龙
+F24F 11/02
+Loading...
+本实用新型涉及一种空调节能控制器，其特征在于：它包括房间温度监测模块、电流监测模块、遥控器监听模块、红外发送模块、电力线通讯模块、电源模块和单片机模块；所述房间温度监测模块通过所述单片机模块的P1.2口、所述电流监测模块通过所述单片机模块的IIC口、所述遥控器监听模块通过所述单片机模块的P3.2口、所述红外发送模块通过所述单片机模块的P3.1口、所述电力线通讯模块通过所述单片机模块的UART口和所述电源模块通过所述单片机模块的VCC口分别与所述单片机模块相连。本实用新型能够在不改变原有建筑结构的情况下安装，并能够对空调按季节、温度等进行合理控制。本实用新型可以广泛应用于对空调的节能控制中。
+35. 203352918 一种电力载波智能路灯控制系统
+CN
+18.12.2013
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+201320479590.1
+瑞斯康微电子（深圳）有限公司
+瞿诗琦
+H05B 37/02
+Loading...
+一种电力载波智能路灯控制系统，关键是：系统包括设置在道路上的一组集中控制器，每一个集中控制器借助电力载波线连接一组路灯组，远程监控中心通过网络与集中控制器连接，并且在远程监控中心中设置有服务器与数据库。本实用新型的有益效果是，通过城市路灯集中式的控制，加上电力线载波技术的应用，扩大了监控中心对路灯的集中控制功能，利用无线网络传输数据信息，减少了工作人员当地监查的难度，系统简单，实用性好，而且成本低廉。
+36. 103078935 一种低压配电网载波终端自动注册算法
+CN
+01.05.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210591678.2
+瑞斯康微电子（深圳）有限公司
+陈支龙
+H04L 29/08
+Loading...
+本发明涉及一种低压配电网载波终端自动注册算法，它以各台区集中器为中心，以已完成注册的有域载波节点为依托，分临近节点注册和非临近节点注册，以及临近及非临近节点补充注册等多个阶段波浪式地完成整个电网电表的注册过程，并借助电力线窄带载波信号跨台区传播时所携信号质量参数来衡量电网注册节点的临近度，通过归属域确认算法收集、计算并比较这些参数，从而准确地确定载波节点的归属台区，此外，还采用基于物理层CSMA技术的高效率冲突避让和多优先级载波包收发控制算法，处理冲突与排出消息的优先级，使台区中各类通信节点同时竞争使用同一通信媒介。本发明可以用于多种类型的电网抄表网络电表注册，尤其适用于通信环境较复杂的电力载波远程抄表网络电表注册。
+37. 101373556 Method for transmitting and receiving low pressure carrier wave centralized type network and apparatus thereof
+CN
+25.02.2009
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+200710142795.X
+Risecomm Microelectronics (Shenzhen) Co., Ltd.
+Chen Guo
+G08C 19/00
+Loading...
+The invention discloses a data packet transmitting method of a centralized low-voltage carrier communication network and a transmitting/receiving method as well as a device thereof. The nodes of the centralized low-voltage carrier communication network include configured nodes including a common node and a route node. The transmitting/receiving method comprises the following steps: (a) receiving a data packet; (b) delivering the currently-received data packet to an upper layer if the node of the received data packet is the target node of the currently-received data packet; and (c) otherwise, (c1) discarding the currently-received data packet if the node of the received data packet is the common node, and (c2) carrying the following steps if the node of the received data packet is the route node: (c21) discarding the currently-received data packet if the route node is not included in the path recorded by a route list of the currently-received data packet, or else, (c22) logically deleting the route node recorded in the path of the route list of the currently-received data packet, and retransmitting the currently-received data packet.
+38. 101009037 Low-voltage carrier centralized network and method of constructing network, transmitting and receiving thereof
+CN
+01.08.2007
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+200610004565.2
+Risecomm Microelectronics (Shenzhen) Co., Ltd.
+Chen Guo
+G08C 19/00
+Loading...
+This invention discloses one low voltage load wave integral network and its combination method, which comprises the following steps: testing integral part and its points communication quality; according to test results, setting first sub network communication quality better or equal to first preset value one point as second sub network r J>1 point; setting the other points as first sub network common points; when J>1, executing j sub network router point and its communication quality.
+

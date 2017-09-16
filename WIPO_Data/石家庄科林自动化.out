@@ -1,0 +1,121 @@
+1. 201956747 基于IEC61850通讯的电力机房监控系统
+CN
+31.08.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201020608574.4
+邢台供电公司
+徐华民
+H02J 13/00
+Loading...
+基于IEC61850通讯的电力机房监控系统，解决了现有技术引起的无法满足电力机房监控系统标准化的不足，采用的技术方案是，结构中包括有系统主控单元，网络服务器，电力机房单元，每个电力机房单元分系统结构中包括数据采集接口单元、音、视频监控单元，结构中还包括带有通讯处理单元，智能化模块；数据采集接口单元将采集到的信息、智能化模块的信息分别送至通讯处理单元，再发送至系统主控单元，系统主控单元将监控指令发送到通讯处理单元。本实用新型的有益效果是借助增设的通讯处理单元以及智能化模块，实现了电网标准化的需求，通讯处理单元为电网实现基于IEC61850通讯提供了完善的接口，并通过了四级电容兼容检测，增强了系统的稳定性、灵活性与模块化。
+2. 201910810 智能化电网中实现同步采样的装置
+CN
+27.07.2011
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201020609706.5
+石家庄科林自动化有限公司
+刘海涛
+H04J 3/06
+Loading...
+智能化电网中实现同步采样的装置，实现局域内所有采样装置的时钟同步不利用FPGA方式，这样不仅使成本大大降低，且结构完全依赖于硬件使得结构更加简单、也不易受到干扰，采用的技术方案是：上述装置的结构中包括该装置整体结构原件组装在一起的电路主板，电路主板上有标准时序码采集电路、管理电路、定时电路、存储电路及脉宽调制电路，采集电路实时接收主机的标准时序码信号，发送至管理电路，管理电路借助定时电路及存储电路进行时序校对，控制脉宽调制电路输出同步脉冲信号至A/D转换器。实现了局域分机采样装置具有保持采样时刻在10分钟内误差小于4微秒的能力，实际检测结果达到10分钟1.5微秒的守时能力。
+3. 201910673 基于SDH传输网络的电力调度通讯系统
+CN
+27.07.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201120011681.3
+邯郸供电公司
+王宇红
+H02J 13/00
+Loading...
+基于SDH传输网络的电力调度通讯系统，解决电力系统中主控与SDH传输网络之间的接口转换问题，以上系统的结构中包括在主控站端设置的前置调度服务器、由局端光端机和站端光端机组成的SDH传输网络、在子站设置的终端机，以及前置调度服务器与SDH传输网络之间设置的第一接口转换电路和SDH传输网络与终端机之间设置的E1接口转换电路，关键是：所述的第一接口转换电路是具有同步传输体系STM-1光接口的KE-3004C型接口转换器，KE-3004C型接口转换器将前置调度服务器发来的以太网数据信号转换为光信号传输至SDH传输网络。
+4. 102075414 Method for receiving data based on Ethernet by intelligent device in intelligent transformer substation system
+CN
+25.05.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010577396.8
+Shijiazhuang Kelin Automation Co., Ltd.
+Lv Yanshi
+H04L 12/56
+Loading...
+The invention discloses a method for receiving data based on an Ethernet by an intelligent device in an intelligent transformer substation system, which is used for solving technical problems of low speed, poor implementation and low work efficiency of a host processor caused by that all frame data groups received through the Ethernet are processed only by the host processor. The method adopts technical means that a preprocessor having matched management programs is added between an Ethernet interface module and the host processor so as to decode the frame data groups received by the Ethernet interface module and filter the data according to an identity identification code of the data in each of the frame data groups; the filtered data meeting an independent processing condition is processed by the preprocessor, and the data failed in meeting the independent processing condition is processed by the host processor, so that parallel processing of the whole data group is implemented by the preprocessor and the host processor, and finally, the two result data are packed into data packets in specified format for uploading or downloading.
+5. 201839090 一种基于IEC61850标准的区域集成式保护测控装置
+CN
+18.05.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201020558104.1
+石家庄科林自动化有限公司
+陈贺
+H02J 13/00
+Loading...
+一种基于IEC61850标准的区域集成式保护测控装置，解决了现有技术引起的造价昂贵、设备难以高效利用的不足，采用的技术方案是，结构中包括接收变电站中间隔上电流电压信号以及与智能终端连接的数据接口、中央处理单元、以及配套的电源供给电路，上述的数据接口中包括N个数据采样端口和N个数据发送端口，N个数据采样端口实时接收间隔上采集到的电流电压信号，发送到中央处理单元，中央处理单元处理后借助N个数据发送端口发送至智能终端，以上N个数据采样端口和N个数据发送端口定位在一块电路板内，组成过程层以太网通信接口插件，N是大于等于2小于等于4的正整数。本实用新型的有益效果是效率高、成本低、结构简单、实用性强。
+6. 201465221 一种IC卡预付费控制装置
+CN
+12.05.2010
+G07F 15/06 Loading...
+G07F 15/06
+Loading...
+200920103071.9
+石家庄科林自动化有限公司
+任月吉
+G07F 15/06
+Loading...
+本实用新型的提出了一种IC卡预付费控制装置，其特征在于，包括：控制模块、远程通讯模块、接口模块；所述远程通讯模块电连接所述控制模块，且所述远程通讯模块通过无线网络连接局端；所述接口模块电连接电表。本实用新型有如下优点：采用远程无线通讯方式，即GSM短信通讯方式、GPRS通讯方式和CDMA通讯方式，进行远程电费充值。同时可以通过接口模块连接现有的电表，这样可以在不对现有的电表进行改进即可使用。
+7. 201465222 一种带保护功能的用电预付费远程控制装置
+CN
+12.05.2010
+G07F 15/06 Loading...
+G07F 15/06
+Loading...
+200920103072.3
+石家庄科林自动化有限公司
+任月吉
+G07F 15/06
+Loading...
+本实用新型提出了一种带保护功能的用电预付费远程控制装置，包括有电表及与所述电表电连接的控制电力线的开关，所述开关为高压开关或低压断路器；其特征在于，还包括控制电路、远程通信模块、开关控制模块；所述远程通信模块电连接所述控制模块，并通过无线网络连接局端；所述开关控制模块电连接所述控制模块以根据所述控制模块的指令控制该开关导通/断开所述电力线。本实用新型有如下优点：采用远程无线通讯方式，即GSM短信通讯方式、GPRS通讯方式和CDMA通讯方式，进行远程电费充值。
+8. 201252556 一种采用单向模拟传输的通信隔离装置
+CN
+03.06.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200820105830.0
+石家庄科林自动化有限公司
+靳伟敬
+H04L 9/00
+Loading...
+本实用新型提出了一种采用单向模拟传输的通信隔离装置，针对现有技术中外网与专网连接时安全性不符合相关规定的问题而发明，包括：专网通信接口模块、编码模块、数据调制处理电路模块、数据解调处理电路模块、解码模块、外网通信接口模块；其中所述编码模块具有数据发送功能而不具有数据接收功能；所解码模块具有数据接收功能而不具有数据发送功能；数据调制处理电路模块和数据解调处理电路模块具有模拟信号与数据信号之间的转换功能。这样就可以保证数据仅能够由专网向外网发送，发送过程是物理上的单向模拟传输，而不能反向发送，这样就极大的提高了网络的安全性。
+9. 2901436 用电预付费远程控制装置
+CN
+16.05.2007
+G07F 15/06 Loading...
+G07F 15/06
+Loading...
+200620024433.1
+石家庄科林自动化有限公司
+任月吉
+G07F 15/06
+Loading...
+本实用新型公开了一种用电预付费远程控制装置，包括有控制电力线入户的开关、电表，该控制装置还包括有控制电路、通信模块和开关控制器，通信模块设有手机模块，该通信模块和电表都与控制电路相连，而开关控制器一端与控制电路相连，另一端与开关相连。本实用新型采用远程无线通讯方式，即GSM短信通讯方式、GPRS通讯方式和CDMA通讯方式，进行远程电费充值，所有控制设备对用户完全封闭，可防止用户做假，同时，在现场是将电表、用电预付费远程控制设备封闭在一个计量箱中，可有效防止遭到破坏。
+10. 1838000 Remote control device for electricity charge prepayment
+CN
+27.09.2006
+G05B 19/02 Loading...
+G05B 19/02
+Loading...
+200610072812.2
+Shijiazhuang Kelin Automation Co., Ltd.
+Ren Yueji
+G05B 19/02
+Loading...
+This invention relates to a remote control device for electricity charge prepayment, which comprises a switch to control user power line with a control circuit, a communication module with a mobile phone module, and a switch controller with ends connected to the control circuit and the switch respectively; and an ammeter. Wherein, it connects both the communication module and the ammeter to the control circuit. This invention applies GSM or GPRS or CDMA communication means to close all control devices and prevent user falsification, and seals devices into one measurement box to prevent damage.
+

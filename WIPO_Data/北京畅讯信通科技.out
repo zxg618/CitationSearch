@@ -1,0 +1,25 @@
+1. 101442489 Method for recognizing flux based on characteristic library
+CN
+27.05.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810241137.0
+Beijing QQ Technology Co., Ltd.
+Deng Fan
+H04L 12/56
+Loading...
+The invention discloses a traffic identification method based on a feature library, which comprises the following steps: the generation of the feature library, the loading of the initialized feature library, traffic identification of the feature library, and on-line maintenance of the feature library. A network application protocol can configure a plurality of feature value descriptions, and features can be concurrently matched in a coprocessor which supports quick content lookup, so the traffic identification method based on the feature library not only effectively improves the accuracy of the traffic identification, but also improves the performance of the traffic identification. A manager can browse each application in the feature library, modify the name of each application, and add or delete each application through a management interface through management interface; for each application in the feature library, the manager can edit any existing feature string and can add or delete the feature string; and all the modification to the feature library can be loaded to the coprocessor which supports the quick content lookup in a real-time mode after the manager confirms, thereby obtaining effective improvement on the expansibility of the traffic identification.
+2. 101110767 Accelerating method for asymmetric and multi-concurrency network
+CN
+23.01.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710111148.2
+Beijing QQ Technology Co., Ltd.
+Xu Mao
+H04L 12/56
+Loading...
+The present invention discloses an acceleration method of an asymmetric network or a concurrent network. In the method, firstly bearable bandwidth of the network and the actual processing bandwidth are estimated; when the packet loss or the packet retransmission occurs, if the bearable bandwidth of the network is larger than the actual processing bandwidth, the cause is considered to be the low packet processing of the sending terminal and the receiving terminal, and a lower priority is given to the confirm (ACK) packet. When the packet loss or the packet retransmission occurs, if the bearable bandwidth of the network is smaller than the actual processing bandwidth, the cause is considered to be the network congestion, then the packet is given and confirmed a higher priority; and the transmission rate of the confirm frame is adjusted according to the priority grade of the confirm packet. The present invention opens up different grades of green channels for the confirm packet, to avoid the confirm packet-intensity phenomenon, and the network congestion problem caused by the confirm packet-intensity is fundamentally solved, and the network security hidden trouble caused by losing the control of the confirm packet is avoided.
+

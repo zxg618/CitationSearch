@@ -1,0 +1,1717 @@
+1. 103596194 多业务型双传输式分布系统
+CN
+14.09.2016
+H04W 16/26 Loading...
+H04W 16/26
+Loading...
+102013000465431
+福建三元达通讯股份有限公司
+何劲财
+H04W 16/26
+Loading...
+本发明提供一种多业务双传输式分布系统，包括主单元、扩展单元和远端单元，主单元包括第一供电单元、调制解调器和主单元数字板，主单元数字板包括复数个第一CPRI‑2接口，用于连接一个扩展单元。扩展单元包括第二供电单元、扩展单元数字板和PSE板，扩展单元数字板包括复数个第一RJ45传输口、复数个第二、三CPRI‑2接口，每个第一RJ45传输口或第二CPRI‑2接口用于连接一个远端单元，每个第三CPRI‑2接口用于连接一个扩展单元。远端单元包括一个第三CPRI‑2接口与两个第五RJ45传输口，第三CPRI‑2接口用于与第二CPRI‑2接口连接，第五RJ45传输口用于与第一RJ45传输口连接。利用本发明，能够在基站资源允许的情况下实现最大组网化。
+2. 105228266 一种LTE Femto网关上残留的UE资源的释放方法及装置
+CN
+06.01.2016
+H04W 76/06 Loading...
+H04W 76/06
+Loading...
+201510529968.8
+福建三元达通讯股份有限公司
+范信斌
+H04W 76/06
+Loading...
+本发明提供一种LTE？Femto网关上残留的UE资源的释放方法，LTE？Femto网关定时校验内存中UE信息的完整性以及在线时长，若满足下列任一释放条件，LTE？Femto网关将释放该UE的资源；所述释放条件包括：a)、UE的承载没有建立成功；b)、在数据面汇聚的情况，UE承载的GTP-U隧道信息不完整；c)、长期在线的UE。本发明能清除因诸如基站重启、UE插拔、UE上线失败等场景下导致LTE？Femto网关没有释放的UE资源，便于LTE？Femto网关能对自身系统资源进行维护。
+3. 105224418 一种数据备份方法和装置
+CN
+06.01.2016
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201510559624.1
+福建三元达通讯股份有限公司
+凌铭
+G06F 11/14
+Loading...
+本发明公开一种数据备份方法和装置，所述装置包括工作单元，备份单元和存储单元，所述方法包括步骤：首先工作单元生产备份数据，根据备份数据对应的标识信息从存储单元中查找备份数据，将备份数据对应的备份状态设置为待备份状态，并发送备份请求至备份单元，所述备份请求包括备份数据对应的标识信息；而后备份单元接收备份请求，根据备份数据对应的标识信息查找备份数据，并判断备份数据对应的备份状态是否为待备份状态，若是则对备份数据进行备份，并将备份数据对应的备份状态设置为已备份状态；否则不对备份数据进行备份。本发明一方面保证了备份单元所备份的数据始终为最新的备份数据，另一方面提高了备份效率和数据备份装置的可靠性。
+4. 105119747 一种LTE Femto网关的SCTP协议栈的热备份方法
+CN
+02.12.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510534951.1
+福建三元达通讯股份有限公司
+范信斌
+H04L 12/24
+Loading...
+本发明提供一种LTE？Femto网关的SCTP协议栈的热备份方法，基于应用层面的SCTP协议栈，即usrSCTP协议栈，通过应用层面的处理，将主LTE？Femto网关的SCTP协议栈的数据备份到备LTE？Femto网关上，当主LTE？Femto网关发生宕机的时候，LTE？Femto网关系统中的业务处理将切换到备LTE？Femto网关，备LTE？Femto网关将从主LTE？Femto网关备份过来的SCTP数据取出重新创建SCTP的控制块信息，使LTE？Femto基站和LTE？Femto网关之间的SCTP连接不会发生中断。本发明基于usrSCTP协议栈，并且通过usrSCTP协议栈实现SCTP数据的备份，确保LTE？Femto网关主备实体发生倒换后，SCTP链接不会断开。
+5. 105049238 一种LTE网关设备交换子系统的冗余备份方法和设备
+CN
+11.11.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510357156.X
+福建三元达通讯股份有限公司
+罗来财
+H04L 12/24
+Loading...
+本发明提供一种LTE网关设备交换子系统的冗余备份方法和实现该方法的设备。本发明主要涉及LTE网关设备，更具体地，涉及一种在LTE网关中需要备份的设备。所述包括以下步骤：监测交换板与外部主机之间第二以太网接口的中断状态，所述中断为第二以太网接口连接断开时触发的中断；当发生所述中断时，则将所述第二交换板与外部主机的连接使能，将所述业务板与第二交换板的连接使能，将网关设备的负责数据链路的交换板由第一交换板切换到第二交换板。本发明能快速的启动备用交换板。
+6. 204539485 一种分布式基站设备和系统
+CN
+05.08.2015
+H04W 16/26 Loading...
+H04W 16/26
+Loading...
+201520302858.3
+福建三元达通讯股份有限公司
+季台福
+H04W 16/26
+Loading...
+本实用新型涉及一种分布式基站设备和系统，发明人提供了一种分布式基站设备的近端单元，所述的近端单元用于连接远端单元，所述近端单元包括：近端第一网络接口模块、近端处理器模块、近端第二网络模块、近端电源模块、近端同步模块；所述近端第一网络接口模块耦合到近端处理器模块，所述近端处理器模块耦合到近端第二网络模块，所述近端电源模块耦合到近端第二网络模块，所述近端同步模块耦合到近端处理器模块。通过分别封装的近端单元和远端单元实现分布式基站，用户的使用场景中只需要统一部署近端单元，一个近端单元可以同时耦合多个远端单元，远端单元部署到用户使用场景中，从而节约部署成本。
+7. 104270831 Multifunctional LTE wireless network card
+CN
+07.01.2015
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+201410509629.9
+福建三元达通讯股份有限公司
+柯友艺
+H04W 88/02
+Loading...
+The invention provides a multifunctional LTE wireless network card. The multifunctional LTE wireless network card comprises a baseband chip processing unit, a power source processing unit, a storage, a radio frequency amplification module, an antenna port standing wave detecting and processing module and an external interface unit, wherein the power source processing unit, the storage, the radio frequency amplification module and the external interface unit are connected with the baseband chip processing unit, and the antenna port standing wave detecting and processing module is connected with the radio frequency amplification module. The multifunctional LTE wireless network card overcomes the defects that a conventional integrated wireless transmitting module is long in development period and products are upgraded frequently and are poor in universality, and provides the antenna port standing wave detecting function.
+8. 104168273 一种瘦AP模式下实现TCP代理的方法及系统
+CN
+26.11.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410379225.2
+福建三元达通讯股份有限公司
+陈奎忠
+H04L 29/06
+Loading...
+本发明提供一种瘦AP模式下实现TCP代理的方法，包括有线服务端发送TCP报文至无线AP端进行转发处理；无线AP端将TCP报文中的SYN报文的端口号修改为所述TCP代理单元默认的端口号；无线AP提取所述SYN报文发送至TCP代理单元；TCP代理单元模拟无线客户端对有线服务端发送过来的所述SYN报文回复ACK报文；TCP代理单元获取无线客户端IP，用所述无线客户端IP替代无线AP的IP；获取无线客户端MAC地址，用无线客户端MAC地址替代所述无线AP的MAC地址；在无线AP端，TCP代理单元以修改后的包含所述无线客户端IP和所述无线客户端MAC地址的ACK报文封装隧道经AC端发送至有线服务端。实现无线AP快速回复有线服务端，经过代理转发的回复报文能够正确的封装隧道转发至服务器。
+9. 104159284 一种LTE系统上行功率的控制方法及系统
+CN
+19.11.2014
+H04W 52/14 Loading...
+H04W 52/14
+Loading...
+201410393834.3
+福建三元达通讯股份有限公司
+何劲财
+H04W 52/14
+Loading...
+本发明提供一种LTE系统上行功率的控制方法及系统，包括预设基站受终端干扰的干扰门限I1；基站周期性地检测终端对所述基站的干扰信号I；当检测到所述I>I1时，所述基站发送反馈消息至宏基站；宏基站根据调控幅度ΔT对所述终端的上行功率进行调控，直至所述I1；所述调控幅度ΔT以所述基站与终端的位置因素及所述基站和宏基站到所述终端的路径损耗比值作为调控依据。当基站检测到终端对其干扰信号超过预设干扰门限时，通过宏基站以基站与终端的位置因素及所述基站和宏基站到所述终端的路径损耗比值作为调控依据得出的调控幅度对终端的上行功率进行调控，直至降低至预设干扰门限。解决终端的上行功率过大对宏基站的上行功率传输造成干扰的问题。
+10. 104159287 一种LTE空口同步信号接收的装置及其方法
+CN
+19.11.2014
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201410416144.5
+福建三元达通讯股份有限公司
+黄海峰
+H04W 56/00
+Loading...
+本发明提供一种LTE空口同步信号接收的装置，包括PSC9132处理器、CPLD芯片、AD9362芯片、第一功放芯片、第二功放芯片、第一低噪放芯片、第二低噪放芯片、射频滤波器以及两天线开关；PSC9132处理器、CPLD芯片、AD9362芯片依次连接，PSC9132处理器与AD9362芯片连接。本发明还提供了一种LTE空口同步信号接收的方法，本发明实现接收空口侦听信号与正常工作的信号共用同一射频链路，降低了成本、功耗，并使硬件布容易，提高PCB布线效率。
+11. 104159325 基于LTE网络的WLAN室外无线接入点装置
+CN
+19.11.2014
+H04W 84/12 Loading...
+H04W 84/12
+Loading...
+201410416155.3
+福建三元达通讯股份有限公司
+何劲财
+H04W 84/12
+Loading...
+本发明提供一种基于LTE网络的WLAN室外无线接入点装置，所述装置包括：系统级处理器、信号覆盖选择单元、电源模块以及处理器外围电路单元；所述系统级处理器由中央处理器通过两个PCIE扩展桥片扩展连接到一LTE无线网卡以及多个的WLAN收发器，形成完整的数据承载链路；信号覆盖选择单元由CPLD逻辑控制器、射频收发链路及控制电路和对应的天线阵列构成；该信号覆盖选择单元受中央处理器指令控制，取得自适应信号覆盖；所述电源模块为装置提供电源；所述处理器外围电路单元用于收发数据或存储数据。本发明实现自适应信号最佳路径选择的智能覆盖，提高电磁波的抗干扰能力，增加接收信号灵敏度和覆盖信号质量。
+12. 104135452 一种IQ数据同步压缩还原算法及装置
+CN
+05.11.2014
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201410387719.5
+福建三元达通讯股份有限公司
+黄登江
+H04L 25/03
+Loading...
+本发明提供一种IQ数据同步压缩还原算法，将要压缩的数据进行分组，每组包含n个数据，n为正整数；找出该组数据中绝对值最大的值，取其绝对值Mt，设定将数据压缩为j位比特位，将j位比特位的满量程值Mf除以Mt，相除的商作为压缩因子k；将该组中的数据分别与k相乘，相乘的结果截取前j比特位的数据，得到的数据即为压缩数据；将数据Mt及n个压缩后的数据组成一个数据块送入传输通道，传输通道将数据块传输给接收方；接收方接收数据块，取出数据Mt，并将被压缩的数据分别与Mt进行相乘，相乘后得到恢复的数据，本发明还提供一种IQ数据同步压缩还原装置，使得数据压缩得更小，并且在还原过程中信号的误差向量幅度变得更小。
+13. 203912107 数字电视激励器监控系统
+CN
+29.10.2014
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201420197195.9
+福建三元达通讯股份有限公司
+颜兆熠
+H04N 17/00
+Loading...
+本实用新型公开了一种数字电视激励器监控系统，用于控制数字电视激励器，所述数字电视激励器包括FPGA以及射频电路，其特征在于；所述数字电视激励器监控系统包括控制芯片、通过422接口与控制芯片通讯的数字电视激励器集中控制器、通过液晶接口与控制芯片相连的液晶显示控制面板，其中，所述控制芯片为LM3S控制芯片；所述控制芯片通过控制接口与数字电视激励器相连，所述控制接口包括数字处理控制接口和射频控制接口，所述射频控制接口与数字电视激励器的射频电路部分相连，所述数字处理控制接口与数字电视激励器的FPGA相连，所述数字处理控制接口具体为SPI接口；所述LM3S控制芯片用于通过RJ45接口使用以太网通讯，以实现WEB功能；所述LM3S控制芯片还用于根据数字电视激励器集中控制器、液晶显示控制面或网络发送的信号，通过数字处理控制接口，控制所述FPGA实现远程统一控制数字电视激励器，以及控制所述射频电路。实现了一个较好的数字电视激励器监控系统架构，该架构由于其简单轻便增加了系统稳定性且易于生产调试却又不失其丰富的功能性；在单片机多任务系统集成WEB服务器，大大降低了配置WEB服务器的硬件门槛。
+14. 103941694 Exciter monitoring system and DPD real-time monitoring and regulating method thereof
+CN
+23.07.2014
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201410162893.X
+福建三元达通讯股份有限公司
+颜兆熠
+G05B 19/418
+Loading...
+The invention discloses a DPD real-time monitoring and regulating method applied to an exciter monitoring system. The exciter monitoring system is an embedded real-time system controlling a chip to operate. The method comprises the following steps that S201, whether a stored DPD coefficient exists is judged at the time of startup, if yes, the DPD coefficient is imported into an FPGA, and then the step S202 is executed; S202, whether DPD is normally carried out is monitored and judged, if yes, the step S202 is circularly executed, and if not, the step S203 is executed; S203, the peak value is clipped to a specific value, then DPD is quitted, the DPD coefficient is cleared away, spectrum inversion is carried out, an ECF is updated, and the step S204 is executed; S204, DPD is started to carry out DPD coefficient calculation, a calculated DPD coefficient is stored, and the step S202 is executed again. The invention further discloses the exciter monitoring system.
+15. 203675102 一种数字无线站
+CN
+25.06.2014
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201320839572.X
+福建三元达通讯股份有限公司
+黄海峰
+H04B 1/38
+Loading...
+本实用新型公开一种数字无线站，包括ARM、时钟芯片，还包括逐级相连的射频电路、双通道模数转换芯片、主处理芯片、数模转换芯片，ARM分别与主处理芯片和双通道模数转换芯片相连；所述模数转换芯片用于将射频电路输入的中频为76.8MHZ的GSM帧信号，通过61.44MHZ采样得到频点为15.36MHZ、数据速率为61.44MHZ的数字信号并输入主处理芯片；所述主处理芯片用于对数字信号进行数字信号滤波、频率搬移、自动频率校正最终生成输入数据至同步控制电路；同步控制电路用于根据输入数据产生输出电压控制晶振时钟脉冲CP实现频率校正。
+16. 203632772 一种数字电视选频移频覆盖系统
+CN
+04.06.2014
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201320778260.2
+福建三元达通讯股份有限公司
+李腾
+H04N 5/44
+Loading...
+本实用新型提供一种数字电视选频移频覆盖系统，包括施主天线、第一滤波器、低噪放大器、下变频模块、数字处理模块、上变频模块、功率放大器、第二滤波器及重发天线，所述数字处理模块包括模数转换器、FPGA模块、数模转换器、监控模块及电源模块，实现了数字电视无线信号多个载波的移频以及选频功能。
+17. 203632621 一种使用CRLH-TL补偿线提高Doherty功放线性的电路
+CN
+04.06.2014
+H03F 1/07 Loading...
+H03F 1/07
+Loading...
+201320788070.9
+福建三元达通讯股份有限公司
+何劲财
+H03F 1/07
+Loading...
+本实用新型提供一种使用CRLH-TL补偿线提高Doherty功放线性的电路。其中，功率分配器U1的一输出端连接所述主功放A1的输入端，所述主功放A1的输出端连接所述CRLH-TL补偿线的输入端，所述CRLH-TL补偿线的输出端连接λ/4传输线TL2的一端，所述功率分配器U1的另一输出端连接λ/4传输线TL1的一端，所述λ/4传输线TL1的另一端连接峰值功放A2的输入端，所述峰值功放A2的输出端连接λ/4传输线TL2的另一端和λ/4传输线TL3一端。本实用新型电路简单，成本低，同时具有良好的线性度，解决现有Doherty功放高线性度时成本高的问题。
+18. 203590464 多业务型双传输式分布系统
+CN
+07.05.2014
+H04W 16/26 Loading...
+H04W 16/26
+Loading...
+201320618420.7
+福建三元达通讯股份有限公司
+何劲财
+H04W 16/26
+Loading...
+本实用新型提供一种多业务双传输式分布系统，包括主单元、扩展单元和远端单元，主单元包括第一供电单元、调制解调器和主单元数字板，主单元数字板包括复数个第一CPRI-2接口，用于连接一个扩展单元。扩展单元包括第二供电单元、扩展单元数字板和PSE板，扩展单元数字板包括复数个第一RJ45传输口、复数个第二、三CPRI-2接口，每个第一RJ45传输口或第二CPRI-2接口用于连接一个远端单元，每个第三CPRI-2接口用于连接一个扩展单元。远端单元包括一个第三CPRI-2接口与两个第五RJ45传输口，第三CPRI-2接口用于与第二CPRI-2接口连接，第五RJ45传输口用于与第一RJ45传输口连接。利用本实用新型，能够在基站资源允许的情况下实现最大组网化。
+19. 103634218 Fast routing convergence method and fast routing convergence device
+CN
+12.03.2014
+H04L 12/751 Loading...
+H04L 12/751
+Loading...
+201310681127.X
+FUJIAN SUNNADA COMMUNICATION CO., LTD.
+YU DAFENG
+H04L 12/751
+Loading...
+The invention provides a fast routing convergence method and a fast routing convergence device. A novel LSP (Link State Packet) message is generated through construction and is flooded, and a novel connectivity check method is used during SPF (Sender Policy Framework) calculation, so that the problem of routing interruption or non routing convergence of non DIS (Designated Intermediate System)-end equipment during a broadcast link flap period is solved. Due to application of the technology, original standard protocols do not need to be extended and only local equipment is modified; only the local equipment needs to adopt a same realization mode without configuration; the revision of interaction with other equipment is inexistent; the error probability is reduced and the complexity is lowered; in addition, a Hello message and an adjacent state machine are kept unchanged, remote equipment does not need to adopt the same mode, only the local equipment needs to adopt the same mode, and the equipment compatibility is improved.
+20. 103634251 Automatic frequency correction method and system
+CN
+12.03.2014
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201310698230.5
+福建三元达通讯股份有限公司
+黄海峰
+H04L 25/03
+Loading...
+The invention discloses an automatic frequency correction method which comprises the following steps: S1. carrying out down-conversion decimation filtration on a received and sampled digital signal of with the frequency point is 15.36 MHz and the data rate is 61.44 MHz to obtain a 269.473K GSM (Global System for Mobile Communication) signal; S2 carrying out FCCH (frequency correction channel) detection on the GSM signal to acquire an FCCH signal; S3. fitting FCCH data into a linear slope, and demodulating to obtain an output slope; S4. comparing the output slope with the ideal slope to calculate a slope deviation value so as to correspondingly obtain a frequency deviation value; acquiring input data of a synchronous control circuit according to the slope deviation value through a look-up table, and allocating the input data to the synchronous control circuit; and S5. generating an output voltage by the synchronous control circuit according to the input data to control the crystal oscillator clock pulse (CP), thereby implementing the frequency correction. The invention also discloses an automatic frequency correction system.
+21. 203481355 一体化MIMO耦合器
+CN
+12.03.2014
+H01P 5/12 Loading...
+H01P 5/12
+Loading...
+201320637484.1
+福建三元达通讯股份有限公司
+黄艺勇
+H01P 5/12
+Loading...
+本实用新型涉及一体化MIMO耦合器，其特征在于：包括外壳体，所述外壳体包括有用于抵靠在墙面上的上板和连接在上板两侧的侧板，所述两侧板对应位置上设有两组以上用于固定无源器件接头的槽孔道。本实用新型一体化MIMO耦合器通过将现有的两组或两组以上耦合器和功分器直接合并为一个整体在该一体化无源器件上，从而使简化MIMO室内分布信号覆盖施工时在同一区域固定多个无源器件的麻烦。由于无源器件的一体化，端口多可以实现平行，方便前后传输线缆组装和拉线。也节约了材料，降低了成本。
+22. 103281762 AP功率的自调整方法及其系统
+CN
+04.09.2013
+H04W 52/04 Loading...
+H04W 52/04
+Loading...
+201310135845.7
+福建三元达通讯股份有限公司
+邓星德
+H04W 52/04
+Loading...
+本发明提供了一种AP功率的自调整方法及其系统，通过利用AP上的射频电路，对周期性捕获空口Beacon报文，从而对该报文的接收电平强度分析校准后计算出报文的RSSI，进而得到邻居AP的功率情况，最后根据策略即能够实现自身功率调节，降低相互干扰，使得网络性能得到了提高。该方案优点还在于功率的调整不需要借助第三方设备，且可适用不同的组网方式。
+23. 103200596 一种瘦AP架构WLAN网络中AP快速批量升级的方法
+CN
+10.07.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310095641.5
+福建三元达通讯股份有限公司
+凌铭
+H04W 24/02
+Loading...
+本发明涉及瘦AP升级技术领域，特别是一种瘦AP架构WLAN网络中AP快速批量升级的方法，当多台AP向AC发送升级请求时，AC以n台AP为一个升级组，n的值不大于AP的总数，将升级数据划分为n个分块数据并分发给组内各AP，各AP分别向组内其它AP转发本AP分块数据并收齐其它AP分块数据，重组升级数据完成升级。该方法可以在不借助外部资源、不影响原有协议兼容的情况下，提高AP升级效率，降低AC性能压力。
+24. 103188732 一种LTE Femto网关对核心网过载处理方法
+CN
+03.07.2013
+H04W 28/08 Loading...
+H04W 28/08
+Loading...
+201310082202.0
+福建三元达通讯股份有限公司
+匡程明
+H04W 28/08
+Loading...
+本发明提供一种LTE？Femto网关对核心网过载处理方法，当MME过载时发overload？start信令到LTE？Femto网关，LTE？Femto网关会终结此信令，更新保存信令中所带的服务支持状态、MME？ID以及容量信息到MME服务状态表；当MME恢复正常服务时发overload？stop信令到LTE？Femto网关，LTE？Femto网关会终结此信令，恢复至正常状态并保存到MME服务状态表；且MME服务状态表跟MME池中MME的服务状态保持一致，默认MME池中MME是正常服务状态。本发明方法能有效降低LTE？Femto基站处理负担，更智能分配新连接建立请求到合适的MME处理，提高反应速度，合理利用设备资源，提升产品服务质量。
+25. 103179618 Method for improving QoS (Quality of Service) of backhaul network based on LTE (Long Term Evolution) Femto system
+CN
+26.06.2013
+H04W 28/24 Loading...
+H04W 28/24
+Loading...
+201310089471.X
+福建三元达通讯股份有限公司
+王建磊
+H04W 28/24
+Loading...
+The invention provides a method for improving the QoS (Quality of Service) of a backhaul network based on an LTE (Long Term Evolution) Femto system. The LTE Femto system comprises an LTE Femto base station and an LTE Femto gateway, wherein the LTE Femto base station and the LTE Femto gateway are respectively provided with GTP (GPRS (General Packet Radio Service) Tunneling Protocol) packet retransmission negotiation modules, GTP packet retransmission modules, GTP packet header processing modules, GTP packet statistics modules and GTP packet retransmission receiving and inspection modules; and through the cooperation among the modules, a serial number of a GTP packet is sent by using an extension field defined in a GTP packet header, so that GTP packets are subjected to real-time statistics, and GTP packet retransmission is carried out when the packet loss rate reaches a set threshold and is stopped when the packet loss rate is smaller than the set threshold so as to save network traffic. The method has the advantages that the QoS of the backhaul network is improved, and the problem that the QoS of the backhaul network in the LTE Femto system is lowered due to packet loss is effectively solved.
+26. 203014813 远端集天线一体的数字拉远系统
+CN
+19.06.2013
+H04B 7/15 Loading...
+H04B 7/15
+Loading...
+201220749507.3
+福建三元达通讯股份有限公司
+王永泷
+H04B 7/15
+Loading...
+本实用新型公开了一种远端集天线一体的数字拉远系统，包括近端单元和远端单元；所述远端单元包括集监控数字射频一体模块、一体化射频模块、信号合路器、天线和机箱，一体化射频模块分别连接集监控数字射频一体模块和信号合路器，集监控数字射频一体模块通过光纤连接所述近端单元，信号合路器连接天线，信号合路器还包括WLAN接口；天线构成所述机箱的一侧壁，集监控数字射频一体模块、一体化射频模块和信号合路器容置于所述机箱内。本实用新型中，远端单元中天线构成机箱的一侧壁，隐蔽性好，省去了现有技术中用于连接天线的馈线电缆，功率损耗小，并且信号合路器还具有WLAN接口，可以扩展到同时处理WLAN信号，适用范围更广。
+27. 103093128 一种嵌入式终端软件防复制抄袭的方法
+CN
+08.05.2013
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+201310003134.4
+福建三元达通讯股份有限公司
+肖锋
+G06F 21/12
+Loading...
+本发明涉及一种嵌入式终端软件防复制抄袭的方法，该方法包括两部分内容：私钥的生成和加载和终端身份认证。其是在产品硬件设计上嵌入专用安全芯片，在应用软件设计上通过随机密钥认证的方法控制程序流程，由于安全芯片是焊接在主板上的，比模块化的加密狗安全性更高，成本更低。同时比一般概念上的软件狗在软硬件安全特性、指令功能和性能价格比也具有明显的优势。
+28. 103078733 一种联网终端的播放内容的加密方法
+CN
+01.05.2013
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201310010820.4
+福建三元达通讯股份有限公司
+吴长太
+H04L 9/06
+Loading...
+一种联网终端的播放内容的加密方法，将网络终端使用的节目单和素材进行分开加密处理，二者使用的加密方法也是不同的。节目单使用DES加密密方法，素材采用分块抽样加密方式。如果节目单所使用的DES加密密钥被盗，或者DES加密被非法暴力破解，那么也不用担心，还有素材分块抽样加密方式保护素材的完整性和唯一性。因此，为了保护网络终端播放内容不被非法篡改，或者恶意破坏以及满足网络终端整体运行效率，本发明在很大程度上已经能满足当前的需求。
+29. 103034543 多软件运行环境通信方法、使多软件运行环境通信的方法
+CN
+10.04.2013
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+201210516949.8
+福建三元达通讯股份有限公司
+罗来财
+G06F 9/54
+Loading...
+本发明公开一种多个软件运行环境之间的通信方法、及使多个软件运行环境之间通信的方法，其中，所述多个软件运行环境之间的通信方法包括以下步骤，S1、源软件运行环境根据待发送信息的类型与所述目的软件运行环境约定传输信息时选择的信息通道；以及，通过被选择的信息通道将所述待发送信息发送至通信驱动；S2、所述目的软件运行环境通过被选择的信息通道接收自所述通信驱动传送的待发送信息。通过本发明提供的技术方案，可以实现多个软件运行环境之间的通信。
+30. 103024069 一种使网络终端从服务器上获取媒体信息的方法
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210576880.8
+福建三元达通讯股份有限公司
+胡光杰
+H04L 29/08
+Loading...
+本发明提供一种使媒体终端从服务器上获取媒体信息的方法，对于媒体内容变换量大的媒体信息，以XML为媒体信息的传输载体，而对于媒体内容变换量小的媒体信息，直接以数据包为载体传送变换的媒体内容；通过TCP/IP协议作为通信协议，服务器下达媒体命令，该媒体命令包含媒体内容变换信息的数据包内容，终端根据媒体命令的数据包内容决定是否有XML文件形式的媒体信息需要下载，若有则由终端以FTP方式直接从服务器端下载XML文件以及素材，终端解析XML文件获取媒体信息，进行媒体播放；若没有则直接解析数据包获取媒体信息，进行媒体播放。本发明使得有限的宽带资源得到有效的利用，文件更安全高效地到达终端，终端和服务器数据传输不受到操作系统的局限。
+31. 103019797 一种通过USB接口升级广告机终端固件的方法
+CN
+03.04.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210588765.2
+福建三元达通讯股份有限公司
+肖锋
+G06F 9/445
+Loading...
+本发明涉及一种通过USB接口升级广告机终端固件的方法，其包括：步骤S01：将一U盘连接到一PC上，通过一上位机应用软件将要升级的固件程序上传到所述U盘中，所述的上位机应用软件支持设置所述广告机终端的显示参数以及升级标志；步骤S02：广告机终端上电启动后，判断升级标志，进行升级，步骤S03：固件程序升级成功后，广告机终端的系统就会自动重新加载新的固件程序。本发明方法只要使用一个U盘即可，适合各种场合的大小型广告机进行固件升级；且固件可分为多个分区，可根据具体修改的部分进行一一对应的升级，不需要每次都把整个固件程序都重新升级，提高升级速度，降低出错概率。
+32. 102983992 实现ATCA设备内多板卡之间通讯的方法、系统
+CN
+20.03.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210454147.9
+福建三元达通讯股份有限公司
+余景华
+H04L 12/24
+Loading...
+本发明提供一种实现ATCA设备内多板卡之间通讯的方法及系统，其中所述实现ATCA设备内多板卡之间通讯的方法包括：根据当前板卡的插槽号判断所述当前板卡是为管理卡，还是为线卡；若判定所述当前板卡为线卡，则关闭线卡的管理配置功能；若判定所述当前板卡为管理卡，则生成记录ATCA设备中所有线卡状态的状态表，并在管理卡与所述状态表记录的线卡之间建立数据传输通道和管理监控通道。
+33. 202818797 一种新型直放站机箱
+CN
+20.03.2013
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201220452921.8
+福建三元达通讯股份有限公司
+范大庆
+H05K 5/00
+Loading...
+本实用新型提供了一种新型直放站机箱，包括上盖和底板，所述上盖的上表面垂直设置有散热片；所述上盖前侧设置有一接线盒；该机箱还包括至少一个中框，所述中框设于所述底板上，所述中框和所述上盖通过所述铰接组件进行铰接连接。该中框可以根据设备内部器件的多或者少进行适当的增加或者减少中框。本实用新型的直放站机箱散热效果好，且可以适当的增减中框，来增加机箱的容量。
+34. 202818304 一种具备远端备份功能的数字射频拉远系统
+CN
+20.03.2013
+H04B 10/2575 Loading...
+H04B 10/2575
+Loading...
+201220374179.3
+福建三元达通讯股份有限公司
+董文峰
+H04B 10/2575
+Loading...
+本实用新型涉及一种移动通信信号的覆盖系统，特别是一种具备远端备份功能的数字射频拉远系统。该系统包括近端机、主远端机、备份远端机和远端机光路切换盒，其特征在于：所述近端机的光路与所述远端机光路切换盒分别与所述主远端机、备份远端机相连，所述远端机光路切换盒的控制链路分别与所述主远端机和备份远端机相连。本实用新型能保证数字射频拉远系统在远端机出现故障时仍能通过切换备份远端机而正常稳定的工作，架构简单，具有较好的实用价值。
+35. 202818306 一种天线美化型的光纤直放站
+CN
+20.03.2013
+H04B 10/29 Loading...
+H04B 10/29
+Loading...
+201220383021.2
+福建三元达通讯股份有限公司
+董文峰
+H04B 10/29
+Loading...
+本实用新型涉及一种天线美化型的光纤直放站，由一台近端机和多台远端机组成，所述近端机和远端机之间通过光纤连接，所述远端机设置于机箱内，所述机箱还内置有用户天线，所述用户天线设置于机箱内侧的正面或两旁侧面。本实用新型小巧美观，便于工程快捷安装，能够有效解决城中村及复杂住宅小区等场景的信号覆盖问题，适用于GSM、DCS、CDMA和WCDMA等不同通讯制式的光纤直放站，对提高各运营商信号覆盖质量具有非常重要的意义，具有广阔的应用前景。
+36. 202721267 一种提高直放站收发天线隔离度的装置
+CN
+06.02.2013
+H01Q 1/52 Loading...
+H01Q 1/52
+Loading...
+201220301164.4
+福建三元达通讯股份有限公司
+张锦清
+H01Q 1/52
+Loading...
+本实用新型涉及一种提高直放站收发天线隔离度的装置，包括施主天线BS和重发天线MS，其特征在于：还包括一金属遮挡件，所述的金属遮挡件安装在所述施主天线BS的背面，以屏蔽来自所述重发天线MS的信号通过空间反馈达到所述施主天线BS。本实用新型本实用新型有效降低直放站系统工程安装选址难度，提高系统稳定性，对直放站系统的建设具有降低成本和缩短工程建设周期及提高系统稳定性都有积极的作用。
+37. 102905268 一种提高组播安全性的方法
+CN
+30.01.2013
+H04W 12/08 Loading...
+H04W 12/08
+Loading...
+201210356835.1
+福建三元达通讯股份有限公司
+陈南忠
+H04W 12/08
+Loading...
+本发明提供一种提高组播安全性的方法，统计接入控制器AC中各组播组发送的组播报文数，统计各个成为组播成员的AP接收到的组播报文数，各所述AP将自身统计的组播报文数发送给所述接入控制器AC，所述接入控制器AC将自身对各组播组统计的组播报文数与各组播组内的AP发送的组播报文数进行比较，且所述比较是相同时间段内组播报文数的比较，若该差值超过了丢包值范围，则表明存在非法的接入AP。本发明可以及时发现存在的非法接入者，并可以做到准确定位事发位置，且实施方案简单、经济。
+38. 202696917 一种WLAN无线接入点设备
+CN
+23.01.2013
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+201220274911.X
+福建三元达通讯股份有限公司
+王全华
+H04W 88/08
+Loading...
+本实用新型提供了一种WLAN无线接入点设备，该设备，包括一系统级处理器、一RS232收发器、一以太网收发器、一射频前端模块、一闪烁存储器、复数个内存储器及一分别与所述系统级处理器、RS232收发器、以太网收发器、射频前端模块、闪烁存储器、复数个内存储器电性相接的电源模块；本实用新型优点在于电路设计结构简单，且满足双空间流的无线信号收发的需求。
+39. 202474795 光电复合缆的转接盒
+CN
+03.10.2012
+H02G 15/10 Loading...
+H02G 15/10
+Loading...
+201220093606.0
+福建三元达通讯股份有限公司
+纪承宇
+H02G 15/10
+Loading...
+本实用新型提供了一种光电复合缆的转接盒，包括：一箱体，该箱体的前板开设有复数个用以贯穿所述光电复合缆的通孔，所述箱体的后板开设有复数个FC/PC光纤法兰盘孔洞和复数个开口，所述箱体的底板内表面设有至少一个绕纤盒；复数个光缆固定座，所述光缆固定座设于所述底板内表面且位置与所述通孔相对应；复数个FC/PC光纤法兰盘，其套设于所述箱体后板的孔洞中；一多路电源转接板，该多路电源转接板设于所述底板内表面且所述多路电源转接板的各接口分别嵌套在所述箱体后板的开口中；一盖板，其对应所述箱体两侧壁的边缘处垂直向下设有两折边。本实用新型实现了在传输光信号时，能同时具有供电转接的功能，方便了工程施工。
+40. 202435357 数字电视发射机宽带大功率耦合器
+CN
+12.09.2012
+H03J 3/06 Loading...
+H03J 3/06
+Loading...
+201220004407.8
+福建三元达通讯股份有限公司
+吴雄宾
+H03J 3/06
+Loading...
+本实用新型涉及一种数字电视发射机宽带大功率耦合器，包括宽带大功率耦合器本体，其特征在于：所述耦合器本体的输入端和输出端分别连接有一幅度均衡器，所述幅度均衡器是定阻对称桥T型结构。本实用新型是在现有的耦合器的输入端和输出端设置均衡器，就能起到幅度均衡的作用，电路结构简单，具有较好的实用价值。
+41. 202309738 实现带POE以太网透传的直放站
+CN
+04.07.2012
+H04L 12/10 Loading...
+H04L 12/10
+Loading...
+201120445324.8
+福建三元达通讯股份有限公司
+张志坚
+H04L 12/10
+Loading...
+本实用新型公开了一种实现带POE以太网透传的直放站，包括设置在扩展单元的POE以太网信号电源分离模块和PSE模块，以及设置在远端单元的POE以太网信号电源整合模块和PD模块；扩展单元通过超五类线与远端单元连接。该直放站使用POE技术供电，而且实现带POE以太网透传，具有布线简单、成本低廉的优点。
+42. 202269022 一种微功率拉远系统
+CN
+06.06.2012
+H04W 16/20 Loading...
+H04W 16/20
+Loading...
+201120415754.5
+福建三元达通讯股份有限公司
+卓丽彬
+H04W 16/20
+Loading...
+本实用新型涉及一种微功率拉远系统，其特征在于：包括扩展单元以及与该扩展单元连接的复数个上行将工作频段变频至70MHz的远端机；所述的扩展单元包括：一设有天线的介质双工器、上行链路和下行链路；所述的介质双工器依次连接下行链路的下行低噪放、下变频电路、上下行中频合路将工作频率变至140MHz后，经合路单元与CATV信号合路后再通过功分器连接到CATV电缆与所述的远端机连接；所述的上下行中频合路依次经上行链路的上变频电路、上行功放与介质双工器连接。本实用新型与现有的CATV信号共用传输信号，减少布线麻烦，成本低、市场广泛。
+43. 202210791 一种带导频污染消除功能的直放站
+CN
+02.05.2012
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+201120315546.8
+福建三元达通讯股份有限公司
+张杰锋
+H04B 1/10
+Loading...
+本实用新型提供了一种带导频污染消除功能的直放站，所述直放站包括了依次连接的施主天线、第一双工器、第一射频模块、数字处理模块、第二射频模块、第二双工器、服务天线，它们均连接于一监控模块以及电源模块。所述第一射频模块包括了下行低噪声放大器和上行功率放大器。所述第二射频模块包括了下行功率放大器和上行低噪声放大器。所述数字处理模块包括了依次连接的下变频单元、模数转换单元、数字滤波单元、数模转换单元、上变频单元。本实用新型能够实现导频污染消除的功能，满足了覆盖区的信号覆盖和通话质量。
+44. 202190334 数字电视ICS同频转发器
+CN
+11.04.2012
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201120323560.2
+福建三元达通讯股份有限公司
+李腾
+H04N 5/44
+Loading...
+本实用新型涉及一种数字电视ICS同频转发器，包括接收天线BS和发射天线MS，其特征在于：外场信号经过所述接收天线BS进入转发器中的前级滤波器，对无用信号进行过滤，然后有用信号经过ICS模块放大，再经过中级滤波器进行滤波后经最后一级功放进行信号放大，放大后的信号再经过后级滤波器滤波后由所述的发射天线MS发射出去。本实用新型的ICS直放站采用数字处理技术，从无线接收信号中检测出空间反馈等干扰信号并抵消，从而消除自激和干扰，在提高系统增益同时，降低了设备对隔离度的要求。此外，由于采用了ICS技术，设备安装时将不再受制于天线隔离度的要求，收发天线可以使用一根抱杆，天馈安装简单，占地小，物业协调方便。
+45. 202190416 能改善平坦度的直放站
+CN
+11.04.2012
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+201120236650.8
+福建三元达通讯股份有限公司
+卓丽彬
+H04W 88/08
+Loading...
+本实用新型公开一种能改善平坦度的直放站，包括施主双工器、重发双工器以及连接两者的一上行链路和一下行链路；所述上行链路和下行链路均包括依次连接的低噪放电路、频带选择电路和功放电路，频带选择电路的输入端和输出端分别连接第一功率检测电路和第二功率检测电路，所述第一功率检测电路和第二功率检测电路的输出端均连接至一比较器，所述直放站还包括监控单元，所述比较器的输出端连接所述监控单元的输入端，监控单元对所述低噪放电路、频带选择电路和功放电路进行调节控制。本实用新型的直放站检测信号增益，并根据信号增益的大小对上下行链路中的各电路进行调节控制，保持信号增益在一个稳定的范围内，改善了平坦度。
+46. 202190272 一种适应工程应用的模拟光纤直放站
+CN
+11.04.2012
+H04B 10/16 Loading...
+H04B 10/16
+Loading...
+201120323557.0
+福建三元达通讯股份有限公司
+王振耀
+H04B 10/16
+Loading...
+本实用新型涉及一种适应工程应用的模拟光纤直放站，其通过优化设计光近端机、光远端机电路，对其半导体激光组件电路进行合理设计控制，依据工程环境实际应用情况，光近端机、光远端机均装置有光接收采集电路，分别对其收到的光信号进行电平取样，并将电平值送给相应模块监控电路分析后，分别指令其光发送控制电路对光发送处理电路调整，使光纤站的半导体激光器以工作在最佳状态，在没减低其工作性能参数下，以较小的光组件驱动电流工作，减小半导体激光器件的损耗，延迟光模块使用寿命,避免环境温度的升高和降低、器件老化，安装光缆长短不一，带来光通讯不畅。
+47. 202178831 一种户外型高效率数字电视发射机
+CN
+28.03.2012
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201120299288.9
+福建三元达通讯股份有限公司
+康文彪
+H04N 5/38
+Loading...
+一种户外型高效率数字电视发射机，包括户外机柜，所述户外机柜内设有两个激励器、双激励切换及前级预放单元、二功分器、两路大功率功放、二合路器、滤波器、监控系统、配电系统；所述两路大功率功放是采用峰值功率独立放大技术的大功率功放；所述户外机柜内还设有工业空调或热交换器，或工业空调与热交换器的组合。本实用新型通过采用峰值功率独立放大的技术实现发射机大功率功放的效率的提高，从而降低整机的功耗。通过采用具有IP55等级的防护机柜，实现发射机系统可安装于户外的防护条件，同时通过采用工业用的冷暖空调或带加热器的热交换器实现对发射机系统的散热。大大的降低发射机的功耗，从而提高整机效率，满足户外安装的条件。
+48. 102387539 一种WLAN系统集群管理和负载均衡的实现方法和系统
+CN
+21.03.2012
+H04W 28/08 Loading...
+H04W 28/08
+Loading...
+201110338259.3
+福建三元达通讯股份有限公司
+罗来财
+H04W 28/08
+Loading...
+本发明公开一种集群管理和负载均衡的实现方法以及系统。所述方法包括：S100：相邻无线控制器建立集群管理通道，周期性交换负载信息；S200：AP挂载到负载较轻的AC，即为AP的目标AC；S300：AP请求目标AC发送响应报文；S400：目标AC响应请求，并发送响应报文；S500：AP分析目标AC是否负载过多，若是，则发起切换目标请求；若否，则不切换目标，转S300；S600：AP切换目标AC；S700：结束。将WLAN系统集群管理和负载均衡的实现方法与所述系统相结合，通过部署多台AC即可实现分担管理控制接入点和集中转发业务流量的任务，同时实现了AC之间的负载均匀分布并且相互备份。
+49. 102361463 一种射频频带选择器
+CN
+22.02.2012
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+201110140353.8
+福建三元达通讯股份有限公司
+王振耀
+H04B 1/40
+Loading...
+本发明涉及一种射频频带选择器，其特征在于：包括LO分路器、PLL锁相VCO电路、输入输出检测误差信号处理反馈电路以及依次连接的输入匹配单元、可变增益放大电路、前端RF滤波器、下变混频器、第一中频放大器、中频滤波器、第二中频放大器、上变混频器、后端RF滤波器、缓冲放大器、输出匹配单元；所述输入输出检测误差信号处理反馈电路的输出端与所述可变增益放大电路的控制端连接；所述的PLL锁相VCO电路输出连接到LO分路器的输入端；LO分路器的输出端LO1连接到下变混频器电路的本振输入端和输出端LO2连接到上变混频器电路的本振输入端。本发明减小了射频频带选择器带内波动偏差，避免拖延开发周期和提高生产效率。
+50. 202143155 一种小功率室外型发射机主机系统及其发射系统
+CN
+08.02.2012
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201120237815.3
+福建三元达通讯股份有限公司
+李壮
+H04N 5/38
+Loading...
+本实用新型公开了一种小功率室外型发射机主机系统，包括激励器模块、功放模块、滤波器模块、电源模块以及监控模块，所述激励器模块、功放模块和滤波器模块按信号流入顺序依次排列连接；所述激励器模块、功放模块、滤波器模块和电源模块通过总线与监控模块连接，并由监控模块控制相应信号输入输出。本实用新型的有益效果是，系统最大输出功率100W到300W连续可调，适应性强，可满足多种覆盖场合需求。系统自带调测监控软件，可快速调试，设置整机参数，设备正常运行后可对设备进行实时监控，确保设备正常运行，信号不间断。并且本实用新型发射系统重量轻、体积小，移动灵活，架设十分方便。
+51. 202111862 一种多功能微功率室内分布系统
+CN
+11.01.2012
+H04W 16/20 Loading...
+H04W 16/20
+Loading...
+201120198330.8
+福建三元达通讯股份有限公司
+纪承宇
+H04W 16/20
+Loading...
+本实用新型提供一种多功能微功率室内分布系统，它包括依次连接的主单元、扩展单元、远端单元，主单元包括：滤波器或双工器、调制解调器、第一供电单元、监控单元、第一交换机、主单元数字板，主单元数字板连接到扩展单元数字板，所述主单元数字板为用于进行网络数据、射频信号数据处理的电路板；所述扩展单元包括：第二供电单元、第二交换机、扩展单元数字板，扩展单元数字板连接到远端单元，扩展单元数字板为用于进行网络数据、射频信号数据处理的电路板；远端单元为用于进行网络数据、射频信号数据处理、为PD提供网络接口和电源功能的电路板。本实用新型同时具有信号覆盖、减少物业协调施工、降低噪声、网络透传等多功能。
+52. 102281408 Outdoor high-efficiency digital television transmitter
+CN
+14.12.2011
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201110234332.2
+Fujian Sunnada Communication Co., Ltd.
+Kang Wenbiao
+H04N 5/38
+Loading...
+The invention discloses an outdoor high-efficiency digital television transmitter, which comprises an outdoor cabinet; two exciters, a double-excitation switching and pre-amplifying unit, two power dividers, a two-path high power amplifier, two combiners, a filter, a monitoring system and a power distribution system are arranged in the outdoor cabinet; the two-path high power amplifier is a high power amplifier adopting an independent peak power amplifying technology; and an industrial air-conditioner or a heat exchanger or a combination of the industrial air-conditioner and the heat exchanger is also arranged in the outdoor cabinet. Improvement on the efficiency of the high power amplifier of the transmitter is realized by adopting the independent peak power amplifying technology, so that the power consumption of the whole transmitter is reduced. The protective condition that the transmitter system can be installed outdoors is realized by adopting the protective cabinet with IP55 level, and meanwhile, heat dissipation of the transmitter system is realized by adopting the industrial heating and cooling air-conditioner or the heat exchanger with a heater. The power consumption of the transmitter is greatly reduced, so that the efficiency of the whole transmitter is improved, and the transmitter can satisfy the condition of outdoor installation.
+53. 202059397 一种采用变频自干扰方法的手机信号屏蔽电路
+CN
+30.11.2011
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+201120062525.X
+福建三元达通讯股份有限公司
+仇建宏
+H04B 1/10
+Loading...
+本实用新型提供了一种采用变频自干扰方法的手机信号屏蔽电路，它包括依次连接的：低噪声放大模块、变频滤波模块、功率放大模块、滤波合路双工器、天线，所述滤波合路双工器还连接到低噪声放大模块；所述天线为支持接收手机的上行信号和发射干扰信号的天线；所述低噪声放大模块为支持将上行信号进行低噪声放大的模块；所述变频滤波模块为支持将经过低噪声放大后的上行信号变频为对应载波频率的下行信号的模块；所述功率放大模块为支持将下行信号进行功率放大的模块；所述滤波合路双工器为支持进行滤除带外信号、隔离上行信号和下行信号的双工器。本实用新型能起到较好的干扰屏蔽效果，不会对基站产生干扰，不产生额外的辐射，节约能耗。
+54. 102231885 Multifunctional micro-power indoor distributed system
+CN
+02.11.2011
+H04W 16/20 Loading...
+H04W 16/20
+Loading...
+201110158742.3
+Fujian Sunnada Communication Co.,Ltd.
+Ji Chengyu
+H04W 16/20
+Loading...
+The invention provides a multifunctional micro-power indoor distributed system. The system comprises a master unit, an extension unit and a remote unit which are sequentially connected. The master unit comprises a filter or duplexer, a modem, a first power supply unit, a monitoring unit, a first switch and a master unit digiboard, wherein the master unit digiboard is connected to an extension unit digiboard, and is a circuit board used for network data and radio frequency signal data processing. The extension unit comprises a second power supply unit, a second switch and the extension unit digiboard, wherein the extension unit digiboard is connected to the remote unit, and is the circuit board used for the network data and radio frequency signal data processing. The remote unit is the circuit board used for processing network data and radio frequency signal data and providing network interface and power functions for a powered device (PD). The system simultaneously has the multifunction of signal coverage, property coordinated construction reduction, noise reduction, network transparent transmission and the like.
+55. 202014244 一种导频污染消除装置
+CN
+19.10.2011
+H04B 1/7113 Loading...
+H04B 1/7113
+Loading...
+201120047993.X
+福建三元达通讯股份有限公司
+梁长松
+H04B 1/7113
+Loading...
+本实用新型提供一种导频污染消除装置，它包括：施主天线、下行低噪声放大器、导频污染消除数字模块、下行功率放大器、服务天线、上行低噪声放大器、数字选频模块、上行功率放大器、监控单元。所述施主天线通过所述下行低噪声放大器、导频污染消除数字模块、下行功率放大器连接到所述服务天线，所述服务天线通过上行低噪声放大器、数字选频模块、上行功率放大器连接到所述施主天线，所述监控单元与下行低噪声放大器、导频污染消除数字模块、下行功率放大器、上行低噪声放大器、数字选频模块、上行功率放大器分别连接。本实用新型在CDMA的通信网络中，能有效消除导频污染。
+56. 102195673 Method for eliminating pilot pollution
+CN
+21.09.2011
+H04B 1/7113 Loading...
+H04B 1/7113
+Loading...
+201110046724.6
+Fujian Sunnada Communication Co., Ltd.
+Liang Changsong
+H04B 1/7113
+Loading...
+The invention provides a method for eliminating pilot pollution. The method comprises the following concrete steps: 10. receiving a plurality of downlink pilot signals containing interfering pilot signals through a donor antenna, amplifying the downlink pilot signals by a downlink low noise amplifier, then eliminating the pilot pollution to obtain a target pilot signal from a target base station, amplifying the target pilot signal by a downlink power amplifier, and finally transmitting the amplified target pilot signal through a service antenna; 20. after a mobile phone receives the target pilot signal sent from the service antenna, finding the target base station corresponding to the target pilot signal, and then transmitting an uplink signal; and 20. receiving the uplink signal through the service antenna, amplifying the uplink signal by an uplink low noise amplifier, processing by a digital filter and then amplifying by a power amplifier, and finally transmitting the amplified uplink signal to the target base station through the donor antenna. By utilizing the method, the pilot pollution can be effectively eliminated in a CDMA (code division multiple access) communication network.
+57. 201947372 一种便携式数字电视发射系统
+CN
+24.08.2011
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201120005692.0
+福建三元达通讯股份有限公司
+康文彪
+H04N 5/38
+Loading...
+本实用新型涉及一种便携式数字电视发射系统，其特征在于：包括分别设置于便携式机箱的主机系统、天馈系统以及为主机系统供电的配电系统，所述的主机系统包括激励器模块、功放模块、滤波器模块、电源模块以及监控单元，所述的激励器模块、功放模块及电源模块通过485总线的通信方式与监控单元连接；所述的天馈系统包括作为主机系统射频输出与天线之间传输媒介的天馈线、发射天线以及天线支架。本实用新型可便携拆装，重量轻、体积小，可满足多种覆盖场合需求。
+58. 201878186 具有数字预失真功能的数字选频移位装置
+CN
+22.06.2011
+H04L 25/49 Loading...
+H04L 25/49
+Loading...
+201020611161.1
+福建三元达通讯股份有限公司
+张祖良
+H04L 25/49
+Loading...
+本实用新型公开一种具有数字预失真功能的数字选频移位装置，包括数字上变频模块、数字下变频模块、模数转换模块、反馈模数转换模块、数模转换模块、主处理模块、时钟模块和天线模块。所述时钟模块为数字上变频模块、数字下变频模块、模数转换模块、反馈模数转换模块、数模转换模块和主处理模块提供时钟信号。本实用新型反馈模数转换模块的采样处理和主处理芯片的工作模式的调整，可以适用单一芯片兼容多载波多制式的需要。
+59. 201839441 一种通信网络自动检测系统
+CN
+18.05.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+200920182018.2
+福建三元达通讯股份有限公司
+梁长松
+H04W 24/10
+Loading...
+本实用新型公开了一种通信网络自动检测系统，包括自动监测单元、信息上报单元以及中央控制平台，自动监测单元用于采集各个移动网络的信号和固定电话的信号，并将采集到的信息，通过数字信息处理、设备内部分析再通过信息上报单元发送到中央控制平台，中央控制平台用于接收自动监测单元上传的信息并将所述信息通过后台分析，实时显示各个网络的信息情况，本实用新型通过中央控制平台设置所述自动监测单元信息上报方式的优先级别，所述信息上报单元根据所述信息上报方式的优先级别自动切换信息上报方式以保证中央控制平台接收信号的稳定，自动监测单元采用集中式组网方式，每个中央控制平台可实现对上万台自动监测单元的随时或定时监测、管理。
+60. 201839442 GSM&TD－SCDMA微功率分布系统
+CN
+18.05.2011
+H04W 52/00 Loading...
+H04W 52/00
+Loading...
+201020545957.1
+福建三元达通讯股份有限公司
+卓丽彬
+H04W 52/00
+Loading...
+本实用新型公开一种GSM&TD-SCDMA微功率分布系统，所述系统包括主模块、扩展模块、远端无线模块及监控模块，所述主模块、扩展模块和远端无线模块顺序电连接，所述监控模块与主模块、扩展模块、远端无线模块分别电连接。有益效果是：本实用新型采用主模块、扩展模块和远端无线模块的模块化布局，将原有分布的多种功能单元集成在三个模块中，并使用光纤和CAVT进行集中通信，且上述模块采用中频传输方式通信，不用采用干线放大器进行线损自动补偿，引入噪音小。模块化的系统布局导致工程施工简单方便，同时各功能单元并集中处理且采用光纤进行远距离传输，在传输中减少了上行信号噪音的引入。
+61. 201830205 一种TD-SCDMA数字预失真功率放大器
+CN
+11.05.2011
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201020558209.7
+福建三元达通讯股份有限公司
+王全华
+H03F 3/20
+Loading...
+本实用新型提供了一种TD-SCDMA数字预失真功率放大器，它包括：一对信号进行变频、模数转换、压缩峰均比处理的信号处理单元；一对信号进行预校正处理的数字预失真功放单元；所述信号处理单元连接所述数字预失真功放单元，它还包括：一解调基站分配下行各时隙占用状态信息，并控制功放开或关的数字解调控制单元；所述数字解调控制单元一端连接所述信号处理单元，另一端连接所述数字预失真功放单元。本实用新型可获取基站当前所分配的下行各时隙占用状态信息，并控制功率放大器的关断和开启，使得其在当前占用时隙处于开启状态，在空闲时隙处于关断状态，以达到进一步降低设备功耗的目的，大量节约了设备的电能消耗。
+62. 201830349 一种数字电视发射机激励器射频实现电路
+CN
+11.05.2011
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201020529944.5
+福建三元达通讯股份有限公司
+陈剑辉
+H04N 5/38
+Loading...
+本实用新型提供了一种数字电视发射机激励器射频信号实现电路，它包括：一CPU监控单元，一信号转换处理单元，一非线性失真信号采集单元，四个本振信号发生器；所述CPU监控单元分别与各路本振信号发生器、一外部接口连接；所述信号转换处理单元包括依次连接的：一ATT，第一变频模块，第二变频模块，第三变频模块；所述信号转换处理单元与第一本振信号发生器，第二本振信号发生器，第三本振信号发生模块连接；所述非线性失真信号采集单元与信号转换处理单元的变频本振信号共用。本实用新型能够输出整数字电视带内各载波信号、输出信号小步进、相噪好，并反馈发射机产生的非线性失真。
+63. 201821426 UHF数字电视发射机功率放大装置及功率放大设备
+CN
+04.05.2011
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201020241288.9
+福建三元达通讯股份有限公司
+李卫校
+H04N 5/38
+Loading...
+本实用新型公开一种UHF数字电视发射机功率放大装置及功率放大设备，包括第一功分器、第一功放器、第二功放器、第一栅极电压、第二栅极电压、第一微带线、第二微带线、第三微带线、PK点和阻抗匹配电路；通过把并行设置的第一功放器和第二功放器设置成不同的工作状态，第二功放器根据输入信号的功率分配来包络所述第二栅极电压的大小，开启第二功放器并逐渐放大信号。本实用新型的有益效果是：应用本实用新型的UHF数字电视发射机中，用实验测试结果得出效率比传统的设计方法提高将近一倍，从而减小散热压力，简化散热和电源设计。
+64. 201797512 无线信号屏蔽器
+CN
+13.04.2011
+H04B 1/04 Loading...
+H04B 1/04
+Loading...
+201020504304.9
+福建三元达通讯股份有限公司
+张志坚
+H04B 1/04
+Loading...
+本实用新型涉及一种无线信号屏蔽器，包括外壳及设于外壳内的信号屏蔽器工作电路，其特征在于：所述的信号屏蔽器工作电路由快速锯齿波发生器、压控振荡器、滤波器、数控衰减器、功率放大器和天线依次藕接组成。本实用新型不仅屏蔽范围广，能对目前通信领域所采用的CDMA、GSM、PHS、WCDMA、TD-SCDMA、CDMA2000、WLAN等各种模式通信频段的信号进行屏蔽，功能稳定可靠，而且外形新颖独特，操作使用也非常方便，散热效果良好，可长期工作在满功率输出；该屏蔽器可广泛应用于安全保卫，机密会议，考场，监狱以及其他领域需要对无线信号进行屏蔽的各类场所。
+65. 201777082 汽车轮胎气压监测系统
+CN
+30.03.2011
+B60C 23/02 Loading...
+B60C 23/02
+Loading...
+201020280560.4
+福建三元达通讯股份有限公司
+刘国荣
+B60C 23/02
+Loading...
+本实用新型公开一种汽车轮胎气压监测系统，包括气压检测电路、温度检测电路、行车状态检测电路、射频发射电路、发射天线、混合信号单片机；所述用于监测轮胎气压的气压检测电路的输出端与混合信号单片机的第一输入接口电连接，所述用于监测轮胎温度的温度监测电路的输出端与混合信号单片机的第二输入接口电连接，所述用于监测汽车启动停止的行车状态监测电路的输出端与混合信号单片机的第三输入接口电连接，所述混合信号单片机的输出接口通过射频发射电路与发射天线电连接。有益效果是：本实用新型从各单元电路入手，构建一种切实可行的轮胎气压监测系统电路，能够满足汽车轮胎气压监测系统的所有功能和指标要求。
+66. 101965036 GSM (Global System for Mobile Communications) and TD-SCDMA (Time Division-Synchronization Code Division Multiple Access) micropower distribution system
+CN
+02.02.2011
+H04W 52/00 Loading...
+H04W 52/00
+Loading...
+201010294988.9
+Fujian Sunnnada Communication Facilities Co., Ltd.
+Zhuo Libin
+H04W 52/00
+Loading...
+The invention discloses a GSM (Global System for Mobile Communications) and TD-SCDMA (Time Division-Synchronization Code Division Multiple Access) micropower distribution system which comprises a main module, an expansion module, a far-end wireless module and a monitoring module, wherein the main module, the expansion module and the far-end wireless module are sequentially and electrically connected; and the monitoring module is respectively and electrically connected with the main module, the expansion module and the far-end wireless module. The invention has the advantages that the modular layout of the main module, the expansion module and the far-end module is adopted, and various originally distributed functional units are integrated in the three modules; fibers and a CAVT (Constant Absolute Vorticity Trajectory) are used for centralized communication; the modules adopt a medium-frequency transmission mode to communicate, and a trunk amplifier is not needed for the automatic compensation of line loss, thus the introduced noise is low; the modular system layout ensures that the engineering construction is simple and convenient; meanwhile, all functional units are centrally processed, and the fibers are adopted to carry out remote transmission, thereby the introduction of uplink signal noise in the transmission is reduced.
+67. 201717856 一种自动设置载频的GSM数字无线直放站
+CN
+19.01.2011
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+201020264541.2
+福建三元达通讯股份有限公司
+董文峰
+H04B 1/40
+Loading...
+本实用新型提供了一种自动设置载频的GSM数字无线直放站，包括一施主端双工器、一下行低噪声放大器、一上行低噪声放大器、一第一变频模块、一数据处理模块、一第二变频模块、一下行功放电路、一上行功放电路、一重发端双工器、一监控单元以及一电源单元；所述施主端双工器、下行低噪声放大器、第一变频模块、数据处理模块、第二变频模块、下行功放电路、重发端双工器依次连接为下行链路；所述重发端双工器、上行低噪声放大器、第二变频模块、数据处理模块、第一变频模块、上行功放电路、施主端双工器依次连接为上行链路。本实用新型使直放站的载波配置参数随信源基站扇区的载波配置参数变化而变化，以减轻直放站的工程维护，保证系统的正常稳定工作。
+68. 201699655 UHF数字电视发射机功率放大装置及设备
+CN
+05.01.2011
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201020224068.5
+福建三元达通讯股份有限公司
+李卫校
+H03F 1/30
+Loading...
+本实用新型公开了一种用于提高广播数字电视发射机工作效率的功率放大装置及功率放大设备，它通过把多个并行的功率放大管设置成不同的工作状态，从影响效率和线性的因素出发，根据输入信号的包络电压来决定功率放大管栅极电压的大小，来逐渐开启功放管并放大信号，影响线性的因素主要包括阻抗特性、单管匹配、增益、输出延迟线等。这种功率放大器应用到UHF数字电视发射机中，以实验测试结果得出效率比传统的功率放大器提高将近一倍，从而减小散热压力，简化散热和电源设计；在发射机中实际应用本实用新型时，能够节省相当可观的电力资源，符合国家节能环保的政策。
+69. 201699704 一种三频无线直放站
+CN
+05.01.2011
+H04B 7/155 Loading...
+H04B 7/155
+Loading...
+201020235123.0
+福建三元达通讯股份有限公司
+卓丽彬
+H04B 7/155
+Loading...
+本实用新型提供了一种三频无线直放站，包括一施主端多工器、一重发端多工器、一监控电路、一电源电路，以及连接在该施主端多工器与该重发端多工器之间的三个频段的信号通道。本实用新型具有较多的频率资源可供运用，能经济有效地缓解单段组网方式的容量压力，从而达到降低网络建设成本，简化工程安装的目的。
+70. 201623701 宽带射频信号发生器
+CN
+03.11.2010
+H04B 1/04 Loading...
+H04B 1/04
+Loading...
+201020059213.9
+福建三元达通讯股份有限公司
+林晓兰
+H04B 1/04
+Loading...
+宽带射频信号发生器，包括一监控单元、四个信号发生单元、两个合路器、一射频开关、一功率控制单元；其中所述监控单元连接到四个信号发生单元以及所述射频开关；所述射频开关连接到所述功率监控单元；两个信号发生单元连接到一个合路器；另两个信号发生单元连接到另一个合路器；两合路器连接到所述射频开关。该宽带射频信号发生器，其带宽比低端产品做的宽，界面友好，操作方便，适用于中端用户的需求。
+71. 201623710 一种GSM和WCDMA共存的数字光纤拉远系统
+CN
+03.11.2010
+H04B 10/16 Loading...
+H04B 10/16
+Loading...
+201020112406.6
+福建三元达通讯股份有限公司
+林晓岚
+H04B 10/16
+Loading...
+一种GSM和WCDMA共存的数字光纤拉远系统，包括近端机和远端机。近端机包括近端双工器、近端上变频模块、近端下变频模块、近端合路器、近端ADC子系统、近端DAC子系统、近端光收发模块；远端机包括远端双工器、远端上变频模块、远端下变频模块、远端合路器、远端ADC子系统、远端DAC子系统、远端光收发模块、功放模块、低噪放模块；近端光收发模块与近端ADC子系统、近端DAC子系统之间连接有近端基带处理单元；远端光收发模块与远端ADC子系统、远端DAC子系统之间连接有远端基带处理单元。该直放站能实现GSM与WCDMA多载波移动信号的远距离传输、大动态范围的信号覆盖。
+72. 101873676 GSM (Global System for Mobile) micropower distribution system
+CN
+27.10.2010
+H04W 52/00 Loading...
+H04W 52/00
+Loading...
+201010232864.8
+Fujian Sunnada Communication Co., Ltd.
+Huang Haifeng
+H04W 52/00
+Loading...
+The invention relates to a GSM (Global System for Mobile) micropower distribution system. The system is characterized by comprising an expansion unit, a far-end radio unit and a monitoring circuit which are connected through a common antenna television (CATV) cable, wherein the expansion unit comprises an upstream upper variable frequency circuit, a downstream lower variable frequency circuit, an independent reference local vibration source, a power circuit, a radio receiving-transmitting circuit and a feed shunting unit; the far-end radio unit comprises an upstream low-noise power amplification circuit, an upstream lower variable frequency circuit, a downstream upper variable frequency circuit, a downstream power amplification circuit, a feed combining unit, a radio receiving-transmitting circuit and a CATV cable connecting the expansion unit with the far-end radio antenna unit; and the monitoring circuit is used for monitoring the expansion unit and the far-end radio unit. In the system, the expansion unit is connected with the far-end radio unit through the CATV cable and can support signal transmission of 0-275m. The system has simple structure, low cost and wide market.
+73. 201611885 具备光环路自愈功能的数字射频拉远装置
+CN
+20.10.2010
+H04B 10/20 Loading...
+H04B 10/20
+Loading...
+201020300114.5
+福建三元达通讯股份有限公司
+董文峰
+H04B 10/20
+Loading...
+本实用新型涉及一种具备光环路自愈功能的数字射频拉远装置，包括数字射频拉远装置的近端机和复数个远端机，其特征在于：所述的近端机和复数个远端机之间通过光纤连接，所述的近端机与最后一台远端机之间连接一根备用光纤。本实用新型能够保证当中间级设备故障或菊花链主光路因各自因素断开时在配有备用光缆的网络系统中其余正常设备将会自动搜寻备用光路，尝试和近端机重新建立通讯联系，不影响系统其它关联设备的正常使用，最大可能的保证系统工作的稳定性。
+74. 201608905 通信网络监控装置
+CN
+13.10.2010
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201020059321.6
+福建三元达通讯股份有限公司
+吴碧玲
+H04W 24/00
+Loading...
+本实用新型公开了一种通信网络监控装置，包括控制电路和至少两个连接不同通信网络的通信电路，所述控制电路包括依次连接的采集单元、判断单元以及通信选择单元，所述采集单元输入端用于连接通信网络信号检测装置，输出端连接所述判断单元的输入端，所述判断单元的输出端连接所述通信选择单元的输入端，所述通信选择单元的输出端分别连接并控制所述至少两个通信电路。本实用新型能使受监控网络情况传输至监控中心的成功率大幅提高。
+75. 101854318 High-efficiency digital predistortion method
+CN
+06.10.2010
+H04L 25/49 Loading...
+H04L 25/49
+Loading...
+200910312674.4
+Fuzhou Sunnada Communication Facilities Co., Ltd.
+Chen Yuhai
+H04L 25/49
+Loading...
+The invention relates to a high-efficiency digital predistortion method. An optimum coefficient akq of a signal Y1 (n) which is obtained after DPD and power amplification and is closest to an input signal is calculated, compared and generated through the digital predistortion (DPD) algorithm of a DPD module; and the optimum coefficient akq is stored in a lookup table, and then the coefficient is read from the lookup table and is applied to a DPD predistorter to realize the entire digital predistortion processing. The structure of hardware for realizing the invention is simple, and the invention can support kinds of carriers, is self-adaptive to kinds of power amplification and is suitable for different signal systems.
+76. 201601795 数字广播电视发射机的监控装置
+CN
+06.10.2010
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201020300838.X
+福建三元达通讯股份有限公司
+林桂芳
+H04N 17/00
+Loading...
+本实用新型涉及一种数字广播电视发射机的监控装置，包括广播发射机及监控中心，其特征在于：所述广播发射机的射频模块的子模块分别通过RS485总线与监控单元的RS485接口连接，所述的监控单元包括MCU，所述的MCU通过无线MODEM模块、以太网接口与所述监控中心通信；所述的MCU通过RS232接口与广播发射机的激励器通信；所述MCU通过I/O控制风机开关，功放电源开关，前级功放开关。本实用新型不仅能智能对发射机的运行状态实现实时监测和控制，还支持本地监控和远程监控，提高了设备安全性和稳定性。
+77. 101835005 Liquid cooling transmitter system
+CN
+15.09.2010
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+201010141471.6
+Sunnada Communication Co., Ltd.
+Kang Wenbiao
+H04N 5/38
+Loading...
+The invention relates to a liquid cooling transmitter system comprising a working circuit of the transmitter system. The liquid cooling transmitter system is characterized in that a multi-way power amplification module of the working circuit is arranged on a heat radiating plate on which a cooling pipeline is arranged. The invention can effectively solve the problem of difficult heat radiation of the whole system and the module by adopting the mode of liquid cooling, has compact module installation and high integration of the whole machine and realizes the high density and efficiency and low noise of a digital television transmitter.
+78. 201584971 一种移动通信便携式应急通讯直放站
+CN
+15.09.2010
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+201020059371.4
+福建三元达通讯股份有限公司
+张杰锋
+H04B 7/14
+Loading...
+一种移动通信便携式应急通讯直放站，包括主机单元、电源单元、接收天线、发射天线；其中主机单元包含射频单元和监控面板；所述主机单元连接电源单元；所述主机单元通过超柔电缆线分别与接收天线，发射天线连接。本实用新型在需要应急通信的场景中，能降低应急安装式选点的难度，大大减小了响应时间。
+79. 201585144 一种双频新型直放站系统
+CN
+15.09.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200920183104.5
+福建三元达通讯股份有限公司
+纪承宇
+H04W 88/08
+Loading...
+一种双频新型直放站系统，包括一标准型主单元以及复数个远端无线单元，还包括复数个扩展单元，所述标准型主单元通过光纤与扩展单元连接，扩展单元通过公用天线电视电缆与远端无线单元连接。所述一个标准型主单元连接4个扩展单元，每个扩展单元又连接8个远端无线单元。本实用新型的优点在于：成本低、且可广泛应用于城市等较为密集地区的新型直放站系统。
+80. 101807950 Method for realizing loop self-healing function of repeater system
+CN
+18.08.2010
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+201010114740.X
+Fujian Sunnada Communication Co., Ltd.
+Ding Yunfeng
+H04B 7/14
+Loading...
+The invention provides a method for realizing the loop self-healing function of a repeater system, which comprises the following steps of: designing an FPGA internal software module, and transmitting an identification code with a reserved control word at a data transmission protocol processing module, wherein a main port transmits one identification code and a subsidiary port transmits the other identification code; continuously searching the identification code in received data stream through a link locking module in the data transmission protocol processing module after a light path is normally connected and data is received, wherein the link connection is built only when the received content is accordant, otherwise, the connection is not built; and if the link has not been locked and built when a watchdog timer overflows, exchanging main-subsidiary interfaces of the data protocol processing module with two interfaces between a series-parallel convention module and a parallel-series convention module through a main-subsidiary link switching module. The method can realize the loop self-healing function by the means that no hardware is increased, can not influence the performance of a system, and reduces the networking cost to some extent.
+81. 101800586 Uplink multi-system combiner for mobile communication
+CN
+11.08.2010
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+201010102515.4
+Fujian Sunnada Communication Software Co., Ltd.
+Zhang Xiadi
+H04B 7/14
+Loading...
+The invention discloses an uplink multi-system combiner for mobile communication, which comprises a bridge, an isolator and a frequency band filter for inputting at least two channels of uplink signals. The frequency band filter, the isolator and the bridge are connected in sequence, wherein the isolator is arranged in the direction from the bridge to the frequency band filter, and the bridge outputs the uplink signals. The combiner has the advantage of low return loss, and can avoid mismatch after combination.
+82. 201536367 一种微功率直放站
+CN
+28.07.2010
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200920139070.X
+福建三元达通讯股份有限公司
+袁文久
+H04B 7/14
+Loading...
+本实用新型公开了一种微功率直放站，包括射频单元以及监控单元，射频单元包含一第一双工器、一第二双工器以及置于第一双工器和第二双工器之间的双向放大链路，双向放大链路分别为上行放大链路和下行放大链路，上行放大链路和下行放大链路均具有依次电连接的一低噪声放大链路、选带链路以及一功率放大链路，选带链路包括两个并联设置的子带选带链路，所述微功率直放站还包括一发送选频控制信号的控制单元，所述监控单元将控制单元发出的控制信号传送给射频单元，控制所述射频单元的两个子带选带链路分别选择相应的信号频率。本实用新型微功率直放站能有效解决网络优化中的优化组网问题，可以使得通信网络更加合理、完善，提高服务质量。
+83. 201533411 一种数字移频选频直放站
+CN
+21.07.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200920181405.4
+福建三元达通讯股份有限公司
+卢德湧
+H04W 88/08
+Loading...
+一种数字选频移频直放站，包括近端机与远端机，所述近端机包括依次连接的介质双工器、变频衰减器、第一数字中频滤波器、第一滤波器、第一功放、第一双工器，所述第一双工器与第一数字中频滤波器之间连接有第一低噪放；所述远端机包括依次连接的第二双工器、第二低噪放、第二数字中频滤波器、变频器、第二功放、第三双工器，所述第三双工器与所述变频器之间还连接有第三低噪放；所述第二数字中频滤波器还连接第二滤波器，第二滤波器还连接到第三功放，最后连接到第二双工器。本实用新型成本低廉，处理能力强，功能升级方便。
+84. 101778404 Automatic detecting system of communication network
+CN
+14.07.2010
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910113136.2
+Fujian Sunnnada Communication Facilities Co., Ltd.
+Liang Changsong
+H04W 24/00
+Loading...
+The invention discloses an automatic detecting system of a communication network, comprising an automatic monitoring unit, an information reporting unit and a central control platform, wherein the automatic monitoring unit is used for collecting signals of each mobile network and fixed phones, carrying out digital information processing and the internal analysis of equipment on the collected information, then sending the obtained information to the central control platform by the information reporting unit; the central control platform is used for receiving the information uploaded by the automatic monitoring unit, carrying out background analysis on the information and displaying the information condition of all networks in real time. By the central control platform, the automatic detecting system sets the priority level of the information reporting method of the automatic monitoring unit; the information reporting unit automatically switches the information reporting method according to the priority level of the information reporting method to guarantee the stability of signals receiving of the central control platform; the automatic monitoring unit adopts a centralized networking mode; and each central control platform can realize the monitoring and management of millions of automatic monitoring units at any time or fixed time.
+85. 101777879 Bypass control method for two-path bidirectional tower amplifier
+CN
+14.07.2010
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+201010300345.0
+Fujian Sunnnada Communication Facilities Co., Ltd.
+Xu Defu
+H03G 3/20
+Loading...
+The invention relates to a bypass control method for a two-path bidirectional tower amplifier, which comprises the two-path bidirectional tower amplifier and is characterized in that: a receiving antenna and a transmitting antenna of the amplifier are respectively connected with a duplexer through a radio-frequency switch; the radio-frequency switch is controlled by an MCU of the amplifier; the MCU is connected with a failure detection unit circuit; and alarms processed by the MCU comprise an over-temperature alarm, a stationary wave alarm, an amplifier failure alarm, a low noise amplifier failure alarm, a power-fail alarm, a power failure alarm and an overpower alarm. Through the method, judgement of each failure of a monitoring equipment system can be checked without misjudgement and faulted and unbypassed phenomena; after equipment is bypassed and each failure recovers, the equipment is in normal working order; remote control and inquiry can be carried out; and the method has better market value.
+86. 201523456 具备上行噪声抑制功能的GSM数字选频光纤直放站
+CN
+07.07.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200920310456.2
+福建三元达通讯股份有限公司
+董文峰
+H04W 88/08
+Loading...
+本实用新型涉及一种具备上行噪声抑制功能的GSM数字选频光纤直放站，包括近端机和远端机，其特征在于：所述的近端机包括介质双工器、衰减变频模块、数字处理模块；所述的介质双工器的下行输出端通过衰减变频模块与数字处理模块的输入端相连接，所述的数字处理模块的输出端通过衰减变频模块与介质双工器的上行输入端相连接；所述的数字处理模块的另一输出端通过光纤与远端机相连；本实用新型能够有效解决了同一小区有源设备多噪声累积严重的问题，设计新颖，具有较好的市场价值。
+87. 201490969 一种网卡触发双向放大电路
+CN
+26.05.2010
+H03F 1/00 Loading...
+H03F 1/00
+Loading...
+200920139584.5
+福建三元达通讯股份有限公司
+丁传光
+H03F 1/00
+Loading...
+本实用新型公开了一种网卡触发双向放大电路，包括同步信号处理电路、与同步信号处理电路连接的开关、与开关连接的开关控制电路以及与开关连接的至少一具有低噪特性的功放电路，网卡输出触发信号经同步信号处理电路比较处理后输出高低电平信号，高低电平信号控制开关控制电路来控制切换开关的切换状态。本实用新型网卡触发双向放大电路由网卡直接输出触发信号，触发信号通过同步信号处理电路比较处理后输出高低电平信号，高低电平信号控制开关控制电路来控制切换开关的切换状态，从而整个电路开关不会进行误切换；且双向放大电路中只采用一个有低噪特性的功放电路，从而不会产生模块自激现象，不会影响通信的正常进行，也降低了电路模块的成本。
+88. 201491277 一种基于E1线路的直放站分布式智能监控系统
+CN
+26.05.2010
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200920139647.7
+福建三元达通讯股份有限公司
+胡灿峰
+H04W 24/00
+Loading...
+一种基于E1线路的直放站分布式智能监控系统，包括监控中心和直放站，所述监控中心的主机与所述直放站之间采用E1线路进行数据传输。所述直放站包括主设备与复数个从设备，所述主设备与从设备之间采用RS485通信总线相连接；所述主设备具有E1接口与所述监控中心通过E1线路进行数据传输。本实用新型可支持大数据量的实时传输，提供给监控中心对设备的数据信息进行实时统计，如直放站的话务量统计等信息；同时提高嵌入式监控软件的智能化，可实现对带有主从结构的直放站系统进行分布式监控、支持系统内各子系统的嵌入式监控软件在线升级、支持直放站设备批量数据采集并传输到监控中心进行分析。
+89. 201479134 具备上行噪声抑制功能的GSM无线直放站
+CN
+19.05.2010
+H04B 7/155 Loading...
+H04B 7/155
+Loading...
+200920138763.7
+福建三元达通讯股份有限公司
+董文峰
+H04B 7/155
+Loading...
+本实用新型涉及一种具备上行噪声抑制功能的GSM无线直放站，包括施主天线BS和重发天线MS，其特征在于：所述的施主天线BS与双工器[a]相连，所述的双工器[a]的下行链路输出端与下行低噪放相连接，所述的下行低噪放的输出端经变频模块[1]的下变频与数字处理模块相连接，所述的数字处理模块的输出端经变频模块[2]的上变频与下行功放的输入端相连接，所述下行功放的输出端与双工器[b]相连；本实用新型能够极大改善基站上行链路的接收灵敏度，在基站的同一小区内同时可以使用更多数量的GSM无线直放站，可以提升基站网络利用的效率，极大地降低网络建设的成本，因此在GSM通信网络覆盖市场上有着广阔的发展前景。
+90. 101697623 Remote radio system and proximal device thereof
+CN
+21.04.2010
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910112672.0
+Fujian Sunnada Communication Co., Ltd.
+Dong Wenfeng
+H04W 24/00
+Loading...
+The invention discloses a remote radio system which can ensure the normal work of a communication system when a proximal machine fails and a proximal device thereof. The remote radio system comprises the proximal device and a remote device, wherein the proximal device comprises a main proximal machine, a backup proximal machine and a switching control machine; the switching control machine comprises a switching unit and a monitoring unit which are mutually connected; signal channels of the main proximal machine, the backup proximal machine and the remote machine are respectively connected with the switching unit of the switching control machine; and the monitoring unit of the switching control machine is connected with the main proximal machine, is used for monitoring whether the main proximal machine fails, and controlling the switching unit to switch a route of communication signals to a signal link between the backup proximal machine and the remote machine from the signal link between the main proximal machine and the remote machine.
+91. 101692748 Mobile communication relay system and communication method
+CN
+07.04.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200910112542.7
+Fuzhou Sunnada Communication Facilities Co., Ltd.
+Yang Tianxing
+H04W 88/08
+Loading...
+The invention discloses a mobile communication relay system and a communication method, wherein the relay system adopts a time division duplex communication way and comprises a mobile communication base station, a mobile communication relay system near end unit and a far end unit, signals between the mobile communication relay system near end unit and the far end unit are transmitted via telephone lines, both the mobile communication relay system near end unit and the far end unit have a synchronous extraction module for extracting reception and transmission signals, a first down-converter and a PCM coder, the signals are coded by the PCM coder to be converted into PCM signals which are then transmitted to the far end unit via the telephone lines, the near end unit further includes a frequency band detector for automatically detecting the band frequency of the telephone lines, and the mobile communication relay system far end unit comprises a PCM decoder and a first up-converter which restores intermediate frequency signals to high-frequency communication signals. According to the invention, appropriate band frequency at which the PCM signals are transmitted is determined by detecting the unused frequencies of the telephone lines by the frequency band detector so that the communication signals and other signals can share the telephone lines for transmission by using the communication method of the invention.
+92. 201430590 已调波数字分发系统
+CN
+24.03.2010
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+200920137456.7
+福建三元达通讯股份有限公司
+康文彪
+H04B 10/12
+Loading...
+本实用新型涉及一种已调波数字分发系统，包括近端机和远端机，其特征在于：所述的近端机的滤波器将前端机房调制器输出的射频信号或其它外部输入的射频信号经过滤波后，接入下变频器的输入端将信号下变频到中频信号后，送给数字中频模块变换到零频信号，再经光收发单元由光纤传输到远端机。远端机的光收发单元将近端机传来的光信号转换为数字信号，由数字中频模块进行解帧，并恢复为中频信号，再经上变频器将其上变到射频信号，最后经滤波器输出。本实用新型可有效解决现有数字电视单频网的受站点距离限制，站点密度大，设备同步；建网成本高的缺点。
+93. 101668356 Dual-mode digital radio remote unit (RRU)
+CN
+10.03.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200910112544.6
+Fujian Sunnada Communication Co., Ltd.
+Dong Wenfeng
+H04W 88/08
+Loading...
+The invention discloses a dual-mode digital radio remote unit (RRU), comprising a near-end machine and a far-end machine, wherein, DCS and WCDMA base station signals are respectively coupled to the near-end machine from a transceiver station of a base station by a coupler; digital processing is carried out on the signals by the system, and digitalized signals are transferred according to standardCPRI protocol; DCS and WCDMA base station signals are respectively transferred to the far-end machine of each coverage area; and the far-end machine regenerates and amplifies the signals to realize remote coverage for the DCS and WCDMA base station signals. The dual-mode digital radio remote unit of the invention has the advantages that digital transmission and regenerative amplification can be simultaneously carried out on signals of 2G-standard DCS and 3G-standard WCDMA, and meanwhile, the dual-mode digital radio remote unit has star, daisy chain and mixed type networking properties, has obvious superiority in solving large area and long distance signal coverage, has important significance on reducing construction cost of 3G network in primary stage of 3G network construction, and has vast prospect for future development.
+94. 201414218 具备上行噪声抑制功能的GSM干线放大器
+CN
+24.02.2010
+H04W 52/04 Loading...
+H04W 52/04
+Loading...
+200920138509.7
+福建三元达通讯股份有限公司
+董文峰
+H04W 52/04
+Loading...
+本实用新型涉及一种具备上行噪声抑制功能的GSM干线放大器，包括BS端和MS端，其特征在于，所述的BS端与衰减变频模块相连接；所述的衰减变频模块与数字处理模块相连接；所述的数字处理模块与变频模块相连接；所述的变频模块的上变频输出端与下行功放输入端相连，其下变频输入端与上行功放输出端相连接；所述的下行功放的输出端、上行功放的输入端分别与双工器相连接；所述的双工器与MS端相连接。本实用新型能够极大改善基站上行链路的接收灵敏度，在基站的同一小区内同时可以使用更多数量的干线放大器，可以提升基站网络利用的效率，极大地降低网络建设的成本，因此在GSM通信网络覆盖市场上有着广阔的发展前景。
+95. 101646267 Novel repeater system
+CN
+10.02.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200910173826.7
+Fujian Sunnada Communication Co., Ltd.
+Ji Chengyu
+H04W 88/08
+Loading...
+The invention provides a novel repeater system, comprising a standard main unit, plural remote wireless units and plural expanding units, wherein, the standard main unit is connected with the expanding units through optical fiber, and the expanding units are connected with the remote wireless units through community antenna television cables; the standard main unit is connected with four expandingunits, and each expanding unit is connected with eight remote wireless units. The invention has the advantages of low cost and wide application in full mode repeater systems in cities and other populated areas.
+96. 201403208 一种数字光纤拉远系统中CDMA的选频型装置
+CN
+10.02.2010
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200920137865.7
+福建三元达通讯股份有限公司
+曾培智
+H04W 88/08
+Loading...
+一种数字光纤拉远系统中CDMA的选频型装置包括ADC芯片、主处理器、DAC芯片、时钟模块、数字接口，以及单片机。模拟前端输入信号输入ADC芯片，该ADC芯片的输出数据输入主处理器，该主处理器的数据输出又输入DAC芯片，DAC芯片的数据作为模拟后端的输入信号；时钟模块的输出连接到ADC芯片、主处理器，以及DAC芯片的时钟输入端；主处理器的数字前端输出和数字后端输入与数字接口相连接；单片机的输出端连接到时钟模块和DAC芯片。本实用新型的优点在于：解决了重叠区信号波形质量变差的问题；使资源上得到简化，有利于简化设备结构，降低硬件成本。
+97. 201403074 增强型模拟预失真线性化功率放大器
+CN
+10.02.2010
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200920137992.7
+福建三元达通讯股份有限公司
+吴雄宾
+H03F 1/32
+Loading...
+一种增强型模拟预失真线性化功率放大器，包括信号分路单元、第一主功放、预失真产生单元、延时滤波器、误差功放、3dB电桥、控制单元，及接收机，信号分路单元的输入端为射频输入端口，第一主功放的输入端及预失真产生单元的第一输入端分别连到信号分路单元的输出端，第一主功放的第一输出端连到延时滤波器的输入端，第二输出端连到预失真产生单元的第二输入端，预失真产生单元的输出端连到误差功放的输入端，控制单元对各设备进行控制，延时滤波器与误差功放的输出端均连到3dB电桥的输入端，3dB电桥的输出端为射频输出端口。本实用新型的优点在于：除了可以很好的改善ACPR，还具有自适应功能、同时还大大提高了功放的整体效率，完全满足工程应用的要求。
+98. 101640555 Method for designing repeater echo canceller based on combined filter
+CN
+03.02.2010
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200810071509.X
+Fujian Sunnada Communication Co., Ltd.
+Qian Hui
+H04B 7/005
+Loading...
+The invention discloses a method for designing a repeater echo canceller based on a combined filter, which comprises the following steps: combining a forward filter and a backward filter into the combined filter; when a reset signal of the combined filter is low, initializing tap coefficients and step parameters of the combined filter; when the combined filter has signal input and then the combined filter starts to work, outputting a signal through the combined filter; updating the tap coefficients of the forward filter and the backward filter; after T1 clock period, updating the tap coefficients and the step parameters once; and if signals are continually input to the combined filter, repeatedly executing the steps till the system is stopped. The method has the advantages of effectively shortening the processing time of a self-adaptive noise canceling filter and overcoming the defect that a digital repeater antenna isolation set is unstable along with environment change. The self-adaptive canceller of the invention enables the repeater antenna isolation to acquire gain of 30dB.
+99. 201374700 一种具有上行噪声抑制的直放站
+CN
+30.12.2009
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200820229541.1
+福建三元达通讯股份有限公司
+林小泉
+H04B 7/14
+Loading...
+本实用新型涉及一种具有上行噪声抑制的直放站，包括现有的近端机和远端机，其特征在于：在所述的现有的远端机上接入上行噪声抑制电路，所述的上行噪声抑制电路包括信号延迟模块、最大相关值通道判断模块、脉冲生成模块、同步信号捕捉模块及噪声抑制模块；本实用新型能在噪声容量大、环境恶劣的条件下能自动对上行噪声进行抑制，使得信号正常的传输到基站同时将最小的噪声引入基站，确保通信系统的正常运行。
+100. 201360034 一种带驻波检测的双工器
+CN
+09.12.2009
+H01P 5/12 Loading...
+H01P 5/12
+Loading...
+200820229542.6
+福建三元达通讯股份有限公司
+陈宇
+H01P 5/12
+Loading...
+本实用新型涉及一种带驻波检测的双工器，包括现有的双工器、电压采样电路及直放站监控系统；其特征在于：所述的电压采样电路制作成PCB板，在现有的双工器隔离内侧壁上固定好并做好信号隔离保护，同时在所述的现有的双工器内部引出两个定向耦合脚，一根耦合出下行通道的反向功率、一根耦合下行通道的正向功率，耦合度都为30dB左右；正向及反向偶合口利用导线引入电压采样电路中，进行电压采样检测，同时把采样的电压数据通过导线引入直放站监控系统进行运算，得到的驻波值显示在显示器上。本实用新型提高了直放站的驻波检测的精度及可靠性，对直放站的有效输出功率及长时间稳定运行给予保证。
+101. 201349213 DDS实现的手机信号干扰屏蔽器
+CN
+18.11.2009
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+200820229543.0
+福建三元达通讯股份有限公司
+黄国荣
+H04B 1/40
+Loading...
+本实用新型涉及一种DDS实现的手机信号干扰屏蔽器，包括系统前和系统后级，其特征在于：所述的系统前级由MCU驱动DDS低频信号输出，产生的DDS低频输出信号可以经过两个通道送出，一路是直接经过耦合器耦合，然后经过末级放大管放大输出；另一路是通过射频开关，由高速射频开关对该信号进行随机切换以产生随机变化的信号，然后再经由末级放大管输出；输出的信号被送入系统后级，所述的系统后级主要是对前级产生的DDS信号耦合到高频930～960MHz，然后通过一级可控制的PA来调整该信号强度。从而实现在不对其他电子设备产生影响的情况下，结合高速DDS信号产生理论配合射频模块对手机信号进行一定范围的灵活可控的屏蔽作用。
+102. 101577534 Digital filtering frequency self-compensation circuit
+CN
+11.11.2009
+H03H 17/02 Loading...
+H03H 17/02
+Loading...
+200910111293.X
+Fujian Sunnada Communication Co., Ltd.
+Lin Xiaoquan
+H03H 17/02
+Loading...
+The invention provides a digital filtering frequency self-compensation circuit, comprising a signal acquiring circuit, a digital filter and a digital signal processing circuit. The signal acquiring circuit, the digital filter and the digital signal processing circuit are connected in sequence, wherein the digital filter is a frequency self-compensation digital filter which comprises a time domain analyzing module, a dynamic filtering module and a frequency compensation module; and the signal acquiring circuit, the time domain analyzing module, the dynamic filtering module, the frequency compensation module and the digital signal processing circuit are connected sequentially. The invention can compensate the ultrasonic frequency attenuated in transportation process of the measured object and ensure the frequency characteristic of the whole system to be unchangeable in spatial domain, the reflected signal can convey actual information accurately, and information misrepresentation and pathologic misjudgment caused by attenuation of signal during transmission process are avoided, thus greatly improving system reliability.
+103. 201345639 一种用于功放管温度补偿的智能装置
+CN
+11.11.2009
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+200820146331.6
+福建三元达通讯股份有限公司
+林凯
+H03F 1/30
+Loading...
+本实用新型涉及精确自动控制技术领域，尤其涉及一种用于功放管温度补偿的智能装置。包括数据处理模块、数据存储模块、电流检测模块、温度检测模块、通讯接口模块、数字电位器；其中数据存储模块、电流检测模块、温度检测模块、通讯接口模块、数字电位器分别与数据处理模块相连接；电流检测模块一端连接电源，另一端连接到功放管漏极；数字电位器通过偏置电阻连接到功放管栅极。该装置简单有效，并且由于这种采集数据的过程完全能够自动完成，因此可以降低试验成本，提高产品开发速度，同时提高性能。
+104. 101567838 Automatic correcting method of function chain neural network
+CN
+28.10.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810072484.5
+Fujian Sunnada Communication Co., Ltd.
+Lin Xiaoquan
+H04L 12/56
+Loading...
+The invention relates to an automatic correcting method of a function chain neural network. The original nonlinear system with complex relative price can be decomposed into a plurality of relatively simple subsystems according to the system structure and the composition characteristics. A single manual function chain neural network is used for establishing a subsystem model. After the neurone model of every subsystem is obtained according to the parameters, the input amount and the output amount of the subsystem, a relatively complex function chain neural network system is established according to the relative relationship of every subsystem, and the system memories and stores the historic parameters, the input amount and the output amount of some subsystems. When a subsystem function chain neural network is abnormal, the system can restore the relationship of the subsystem with other subsystems according to the previous relationship of the subsystems. The invention provides a function chain neural network studying algorithm with rapid speed and high capacity by the concept of convex optimization.
+105. 101567667 Enhancement type analog predistortion linear power amplifier
+CN
+28.10.2009
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+200910111630.5
+Fujian Sunnada Communication Co., Ltd.
+Wu Xiongbin
+H03F 3/20
+Loading...
+An enhancement type analog predistortion linear power amplifier, including a signal splitter unit, a first main power amplifier, a predistortion generation unit, a delaying filter, a error power amplifier, a 3dB electric bridge, a control cell and a receiver, the input end of the signal splitter unit is a radio frequency input terminal port, the input end of the first main power amplifier and the first input end of the predistortion generation unit are respectively connected to the output end of the signal splitter unit, the first output end of the first main power amplifier is connected to the input end of the delaying filter, the second output end is connected to the second input end of the predistortion generation unit, the output end of the predistortion generation unit is connected to the input end of the error power amplifier, the control cell controls every device, the output ends of the delaying filter and the error power amplifier are connected to the input end of the 3dB electric bridge, and the output end of the 3dB electric bridge is a radio frequency output terminal port. The enhancement type analog predistortion linear power amplifier provided by the invention has the advantages of improved ACPR, self-adapting function, considerably improved integral efficiency of power amplifier, thereby totally meeting the applied request of engineering.
+106. 201328166 新型无线传媒系统
+CN
+14.10.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200820145705.2
+福建三元达通讯股份有限公司
+康文彪
+H04N 7/24
+Loading...
+本实用新型涉及图像通信技术领域，公开了一种新型无线传媒系统，该系统包括：复用调制器、发射设备和接收终端，其中，所述新型无线传媒系统还包括节目管理服务器，该节目管理服务器与所述复用调制器连接，用于节目管理，建立节目信息和接收终端信息的数据库，并根据节目信息和接收终端信息建立节目播放列表，将节目信息与接收终端信息进行绑定；所述接收终端接收并播放所述节目播放列表中与所述接收终端绑定的节目。通过节目管理服务器对节目进行实时在线管理监控，从而实现不同受众区域的接收终端接收不同的节目，同时又可应急插播及在线发布更新内容并提供时效性强的公众信息，广泛用于广告、新闻、娱乐等节目。
+107. 201327394 传感装置
+CN
+14.10.2009
+G01D 5/12 Loading...
+G01D 5/12
+Loading...
+200820229455.0
+福建三元达通讯股份有限公司
+林小泉
+G01D 5/12
+Loading...
+本实用新型公开一种传感装置，包括：获取数字传感信息的数字传感器；连接所述数字传感器、并将输入的所述数字传感信息直接输出为已标定数字量的数字处理器；输出所述已标定数字量的以太网接口。本实用新型传感器可以在小型化的基础上实现精确、高效、快速的效果。
+108. 201323577 具有高方向性的无线局域网的包络检波双向放大器
+CN
+07.10.2009
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200820146216.9
+福建三元达通讯股份有限公司
+丁传光
+H04B 7/005
+Loading...
+本实用新型涉及一种具有高方向性的无线局域网的包络检波双向放大器，包括上行低噪放电路、下行功放电路、射频开关、包络检波同步信号处理电路、开关控制电路和电源控制电路，以及网卡和天线，其特征在于：在网卡和射频开关之间连接有定向耦合器，该耦合器有两个输出端，其中一个连接到射频开关，另外一个连接到包络检波同步信号处理电路。本实用新型使用定向耦合器之后，使整个电路的方向性可以达到20dB以上，保证上下行的正常切换，有利于保证覆盖区的正常通信。
+109. 201323569 手机信号屏蔽装置
+CN
+07.10.2009
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+200820146330.1
+福建三元达通讯股份有限公司
+李卫校
+H04B 1/10
+Loading...
+一种手机信号屏蔽装置，包括第一本振信号发生电路、第一混频器、第一天线、低噪声放大器、中频滤波器、第二本振信号发生电路、第二混频器、功率放大器、第二天线，以及电源电路，第一本振信号发生电路产生第一本振信号，进入到第一混频器，第二本振信号发生电路产生第二本振信号，进入到第二混频器，第一天线接收到的信号经低噪声放大器放大后，与上述第一本振信号发生电路产生的本振信号在第一混频器处混频到所需频段，再由中频滤波器滤波，然后经第二本振信号发生电路产生的本振信号由第二混频器混频到原有频点，再经功率放大器、第二天线发射出去。本实用新型的优点在于：有利于降低功耗，加强屏蔽针对性，提高手机屏蔽的效果。
+110. 201323578 具有下行自动电平控制的无线局域网双向放大器
+CN
+07.10.2009
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200820146228.1
+福建三元达通讯股份有限公司
+丁传光
+H04B 7/005
+Loading...
+本实用新型涉及一种具有下行自动电平控制的无线局域网双向放大器，包括上行低噪放电路、下行功放电路、射频开关、耦合器、包络检波同步信号处理电路、开关控制电路和电源控制电路，以及网卡和天线，其特征在于：在射频开关和下行功放电路之间连接有ATT衰减电路，所述的具有高方向性的无线局域网的包络检波双向放大器中设有微处理器，该微处理器的输入端连接有功率基准参考值，下行功放电路的一路输出通过输出功率检测电路连接到微处理器，微处理器的输出连接到ATT衰减电路的控制端。本实用新型主要解决了因网卡输出功率不同而引起放大器的最大输出功率不稳定，通用性广，不受网卡厂家生产的网卡的限制。
+111. 101488271 Anti-theft system for electric power source equipment
+CN
+22.07.2009
+G08B 13/196 Loading...
+G08B 13/196
+Loading...
+200810070474.8
+Fujian Sunnada Communication Co., Ltd.
+Chen Mujian
+G08B 13/196
+Loading...
+The invention discloses an anti-theft system of a power device, comprising a main control unit, an anti-theft alarming module connected with the main control unit, and a sampling system, as well as a remote monitoring terminal; the main control unit carries out communication with the remote monitoring terminal; wherein, the main control unit comprises at least one camera; the anti-theft alarming module realizes anti-theft alarming by an infrared detector or polar plate circuit detecting lines connected in series on each solar polar plate, and generates alarming to the main control unit; the remote monitoring terminal realizes remote monitoring and control. The anti-theft system of the power device has the advantages that: besides the infrared detection function, circuit protection is added as well, thus realizing multi-functional protection effects, not only generating the alarming function on field, but also being capable of shooting the field situations and transmitting to a party in need simultaneously. On the other hand, the system combines anti-theft and power device detection, which not only realizes anti-theft, but also can detect the performances of the power device like detecting the voltage and the current. Moreover, the anti-theft system of the power device can realize undervoltage and undercurrent alarming.
+112. 101483471 Envelop detection synchronization module for TD-SCDMA repeater system
+CN
+15.07.2009
+H04B 7/216 Loading...
+H04B 7/216
+Loading...
+200810070457.4
+Fujian Sunnada Communication Co., Ltd.
+Wang Quanhua
+H04B 7/216
+Loading...
+An envelop detection synchronizing module of time division synchronous code division multiple access repeater system comprises envelop information extracting and shaping circuit and a digital signal processing and synchronous control unit which are connected in series. The envelop information extracting and shaping circuit is connected with an RF detector circuit of repeater. The digital signal processing and synchronous control unit is connected with the uplink chain and downlink chain of repeater system. The envelop information extracting and shaping circuit comprises a sampling keeping circuit and a high-speed comparator circuit. The digital signal processing and synchronous control unit comprises a characteristic value calculating unit, a frame synchronization head catching and generating unit, a local frame synchronization head generating and correcting unit, a synchronous control signal generating unit and a microprocessor unit, wherein the characteristic value calculating unit, the frame synchronization head catching and generating unit, the local frame synchronization head generating and correcting unit, the synchronous control signal generating unit and the microprocessor unit are connected in series. The microprocessor unit communicates with a monitoring system. The envelop detection synchronizing module of time division synchronous code division multiple access repeater system has the advantages of realization of comparator threshold self-adapting adjustment, greatly increased dynamic range of synchronized input power, a correction plan adopted between the digital signal processing and synchronizing the control unit, and a further increased synchronization stability.
+113. 201274479 一种TD－SCDMA移动通信光纤直放站
+CN
+15.07.2009
+H04B 10/16 Loading...
+H04B 10/16
+Loading...
+200820145380.8
+福建三元达通讯股份有限公司
+王全华
+H04B 10/16
+Loading...
+本实用新型提供了一种TD－SCDMA移动通信光纤直放站，在原有光纤直放站近端机中增加了基带解码同步控制单元、同步转换电路，在原有光纤直放站远端机中增加了同步获取电路、同步控制单元。本实用新型的优点在于：光纤直放站近端机采用了基带解码同步方式，并利用ASK调制将近端同步信号传送给光纤直放站远端机，这样确保了光纤直放站高可靠同步性能的条件下，大大降低了设备成本。
+114. 201274467 室内信号覆盖系统及应用于该系统中的直放机
+CN
+15.07.2009
+H04B 1/00 Loading...
+H04B 1/00
+Loading...
+200820103326.7
+福建三元达通讯股份有限公司
+梁长松
+H04B 1/00
+Loading...
+一种用CATV线传输的室内信号覆盖系统及应用于该系统中的直放机。该系统中CATV线传输的信号包括直流信号、监控调制信号、上行信号、下行信号及参考本振信号，该直放机包括馈电器、分/合路器、MODEM模块、参考本振模块、上行射频模块及下行射频模块。上行射频模块根据一参考本振对处理来自移动终端的信号获得上行信号。下行射频模块根据参考本振处理下行信号获得一射频信号，并通过天线输出该射频信号。分/合路器合成MODEM模块产生的监控结果信号与上行射频模块产生的上行信号，并将合成的信号输出至CATV传输线。通过该系统及直放机，实现信号传输过程中插损更小、系统施工更方便、造价成本相对低廉；并且近远端能直接通讯、能对整个分布系统进行监测。
+115. 201274529 数字电视选频变频转发器
+CN
+15.07.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200820145502.3
+福建三元达通讯股份有限公司
+康文彪
+H04N 5/44
+Loading...
+一种数字电视选频变频转发器，其中施主天线接收空中无线弱信号后经过一前级滤波器进行滤波，滤波后经过一低噪声放大器将信号放大，通过一选频变频器选择输入信号的频率并将其变频到所需转发的频率，再通过一功率放大器将其进行放大输出，经过一后级滤波器滤波后通过重发天线向所需覆盖区域进行无线覆盖。该数字电视选频变频转发器还包括一智能监控系统对选频变频器进行输入和输出频点设置以及通道的选择控制。通过该数字电视选频变频转发器，不仅能够降低隔离度对设备的限制，而且通过对选频通道的控制，有效地将需要的频点信号进行放大，同时又消除了频点与频点之间无用信号的干扰，控制方便、灵活，非常适用于频点变化较大的地区。
+116. 201274482 一种高速数据传输接口系统
+CN
+15.07.2009
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+200820145784.7
+福建三元达通讯股份有限公司
+丁云峰
+H04L 12/02
+Loading...
+一种高速数据传输接口系统，包括1个主设备接口装置和若干个从设备接口装置，每个设备均采用一片FPGA芯片作为CPRI协议处理芯片，一单片机作为CPRI协议处理器的监控器。光电转换器连接到FPGA芯片的串并转换器引脚，FPGA的时钟信号采用时钟管理芯片提供，时钟管理芯片使用一颗有源晶体振荡器作为时钟源，并有2个时钟相位参考输入端，根据CPRI协议处理器提供的设备接口是主模式还是从模式而使用相应的参考输入端。REC模式使用另一个有源晶振作为时钟相位参考，RE模式使用CPRI协议处理器提供的一个时钟信号。各接口装置通过光纤连接。本实用新型的优点在于：不仅提供一个相对灵活的I/Q数据传输接口，方便和各种DDC/DUC数字信号处理器连接，且有效降低使用成本。
+117. 201274480 一种用于直放站检测信号强度的装置
+CN
+15.07.2009
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200820103382.0
+福建三元达通讯股份有限公司
+陈宇
+H04B 17/00
+Loading...
+一种用于直放站检测信号强度的装置，包括调制解调器、监控单元，以及电源，所述调制解调器连接到直放站的施主端双工器的耦合口，所述监控单元连接到调制解调器，所述电源连接到调制解调器以及监控单元。本实用新型的优点在于：检测信号强度不以行业常规方法在射频模块内部芯片处理，通过利用MODEM芯片检测信号强度，这样能把直放站射频模块的设计的简化。
+118. 201256386 一种具有反向功率保护的塔顶放大器
+CN
+10.06.2009
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200820103244.2
+福建三元达通讯股份有限公司
+李庆国
+H04B 7/005
+Loading...
+本实用新型在现有的塔顶放大器基础上在上行链路中增加了输入功率检测器，并在监控电路中增加了对输入功率检测器输出的电压进行比较判断的比较电路。输入功率检测器连接在重发端双工器的上行端口与低噪声放大器的输入端口连接，监控电路同时连接到输入功率检测器。上行信号经由重发端双工器的上行端口进入输入功率检测器，输入功率检测器输出一个对应于输入功率的一个电压值，监控电路检测到该电压值后，通过比较电路将该电压值与预设的一个参考的电压相比较，再输出高低电平来控制所述旁路开关切换。本实用新型的优点在于：具有反向功率保护功能，可防止在手机靠近基站时塔顶放大器发生饱和，防止发生信号互调和阻塞恶化现象。
+119. 201256432 基于有线电视光纤网络的地面数字电视传输系统
+CN
+10.06.2009
+H04N 7/22 Loading...
+H04N 7/22
+Loading...
+200820103243.8
+福建三元达通讯股份有限公司
+康文彪
+H04N 7/22
+Loading...
+一种基于有线电视光纤网络的地面数字电视传输系统，在现有有线电视光纤网络的近端光端机的前端加入合路器，并在每一个远端光端机的后端连接数字电视同频放大器。在系统前端将有线电视信号和地面电视信号合路进入近端光端机，经光纤网络传输到远端光端机，在需要地面电视信号的区域，通过远端光端机还原出地面电视信号，再通过数字电视同频放大器滤去有线电视信号、并将地面电视信号同频放大后进行覆盖。本实用新型的优点在于：完全利用原有CATV光纤网络，大大节省了投资及后期的维护管理费用。
+120. 101442334 Echo noise suppressor
+CN
+27.05.2009
+H04B 1/52 Loading...
+H04B 1/52
+Loading...
+200810072465.2
+Fujian Sunnada Communication Co., Ltd.
+Lin Xiaoquan
+H04B 1/52
+Loading...
+The invention relates to an echo noise suppressor, which comprises a secondary filter module and a main filter module, and is characterized in that the secondary filter module calculates input signals of a system after generating self excitation and estimates noise to carry out initial spectrum estimation, and provides signals for the system to acquire basic signal-to-noise ratio SNR by two parallel NLMS filters; after output signals of the two parallel NLMS filters are subjected to power averaging calculation of 4TAP, calculated numerical values are sent to an SNR calculation module which is connected with a gain margin calculation module, and the system can obtain gain acquired by a self-excitation cancellation system during system design according to output of the gain margin calculation module; and moreover, the signals processed by the SNR calculation module are input to the main filter through a step length control module. Based on design of filter algorithm of FPGA, the echo noise suppressor effectively monitors a critical self-excitation state of a repeater and automatically cancels echo noise, reduces limit of isolation to the repeater, and effectively promotes development of the repeater.
+121. 101441718 Sensor information fuse device and method
+CN
+27.05.2009
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+200810072418.8
+Fujian Sunnada Communication Co., Ltd.
+Lin Xiaoquan
+G06K 9/62
+Loading...
+The invention discloses a device and a method for fusing sensor information. The sensor-information fusion method comprises the steps of adopting a self-adaptive weighted-data fusion algorithm to allocate corresponding weight numbers for induction information from a plurality of sensors, adopting a Kalman filtering algorithm to perform optimal estimation to the induction information of the corresponding weight numbers so as to acquire the locally fused induction information, adopting a D-S theory estimation algorithm to perform interval estimation to the uncertain induction information in the locally fused induction information, adopting a multi-Bayesian estimation algorithm to perform individual association probability distribution for the induction information after interval estimation so as to synthesize a joint posteriori probability distribution function, and utilizing the joint distribution function to output a final fusion value of the induction information. The invention has the advantages of improving the reliability, confidence and efficiency of sensor information fusion.
+122. 201248034 无线多载波信号抑制器
+CN
+27.05.2009
+H04B 1/00 Loading...
+H04B 1/00
+Loading...
+200820102825.4
+福建三元达通讯股份有限公司
+林明
+H04B 1/00
+Loading...
+一种无线多载波信号抑制器，包括中频信号发生器，功放模块，以及天线，所述中频信号发生器为复数个，还包括切换开关、中频/射频转换器，所述复数个信号发生器的输出端分别电连接至切换开关，切换开关的输出端依次电连接中频/射频转换器、功放模块，以及天线。本实用新型无线多载波信号抑制器的优点在于：使用该产品可以有效降低高层建筑中手机的乒乓效应，大大降低掉话率并且改善了通话效果；另外，该设备安装方便，工程施工难度小；可单独设置也可组网覆盖，各种方案可以灵活组合；整机功耗小并且对整体网络运行不会产生干扰。
+123. 201248143 压带超远覆盖系统
+CN
+27.05.2009
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200820145369.1
+福建三元达通讯股份有限公司
+仇建宏
+H04W 88/08
+Loading...
+一种压带超远覆盖系统，包括近端机和远端机，其特征在于所述的近端机和远端机采用频率相对较低的中频信号作为传输中继频率，近端机的BTS端连接有GSM信号双工器，基站的GSM下行信号通过馈线耦合到BTS端输入近端主机，先经过该GSM信号双工器双工滤波后，进入下行衰减模块调节为适合于系统的电平，再通过下行下变选频变频模块将GSM信号频率下变为中频信号，继而使用中频信号功放对其进行高功率放大，输出的中频传输信号最终通过中频信号双工器进行滤波由中继发射天线发射出去；本实用新型无线信号空间损耗小，绕射能力强，传输距离远，受外界干扰小，信号传输过程中失真率低，适合于多山地区的农村。
+124. 201243283 双模可调带宽无线直放站
+CN
+20.05.2009
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200820102293.4
+福建三元达通讯股份有限公司
+王振耀
+H04B 7/14
+Loading...
+一种双模可调带宽无线直放站，其特征在于：上行和下行同时设有两个频段的信号通道。能经济有效地缓解单段组网方式的容量压力，从根本上解决网络容量不足的问题。由于无线直放站的频带选择器为可调带宽，可以依据实际工作的频率来预先设置无线直放站的频带和带宽，这样能限制工作频率的带宽，能有效的抑制带外信号，滤除其余频率，减小干扰等，以便实际应用的灵活性。
+125. 201243351 防非法信号入侵的数字电视补盲装置
+CN
+20.05.2009
+H04N 5/38 Loading...
+H04N 5/38
+Loading...
+200820102444.6
+福建三元达通讯股份有限公司
+康文彪
+H04N 5/38
+Loading...
+本实用新型涉及一种防非法信号入侵的数字电视补盲装置，包括施主天线、监控系统、Modem、前级滤波器、低噪声放大器、功率放大器及后级滤波器，其特征在于：施主天线的输出端与一耦合器的输入端连接，耦合器的耦合口连接到一解调器的输入端，耦合器的输出端连接前级滤波器，解调器的输出端与一校验器相连，校验器的输出端连接到监控系统的输入端。本实用新型能够有效对非法信号做出判断并告知网管平台，管理员可根据监控系统中站点的经纬度对非法信号的发射地进行调查，及时有效的进行处理。
+126. 201243292 数字选频光纤站
+CN
+20.05.2009
+H04B 10/16 Loading...
+H04B 10/16
+Loading...
+200820102983.X
+福建三元达通讯股份有限公司
+董文峰
+H04B 10/16
+Loading...
+本实用新型提供一种载波带宽可调的数字选频光纤站，运用软件无线电技术，先将射频前端的无线信号变到中频，经过AD的带通采样达到可操作范围，再运用功能强大的FPGA器件对数字化后的中频信号进行数字下变频并进行多级的低通滤波处理，通过MCU监控处理单元对FPGA滤波器系数的配置，可以调整每个信道载波的带宽，带宽变化范围可以达到使用要求。处理的载波容量根据FPGA资源的分配情况最少可以处理设置双向4路3.84M带宽的载波，最多可以处理设置双向12路200K带宽的载波，各载波的总带宽不小于24M，并能在24M频带内任意点移动，基本能够满足目前各种不同制式不同带宽应用的需要。
+127. 201207640 多载波数字中频滤波器
+CN
+11.03.2009
+H04B 1/00 Loading...
+H04B 1/00
+Loading...
+200820102442.7
+福建三元达通讯股份有限公司
+陈玉海
+H04B 1/00
+Loading...
+本实用新型涉及一种多载波数字中频滤波器，模拟前端输入信号输入ADC芯片，该芯片的输出数据输入主处理器，该主处理器的数据输出又输入DAC芯片，DAC芯片的输出数据作为模拟后端的输入信号；时钟模块的输出连接到各个芯片的时钟输入端；主处理器的数字前端输出和数字后端输入与数字接口相连接；单片机的输出端连接到时钟模块和DAC芯片。本实用新型的有益效果是：最多可进行一个天线18载波上下变频，并且可进行带宽的微调，以满足不同的需求。该设计所采用的硬件结构极为简单，只需要一个资源充足的FPGA芯片，以及满足具体设计要求的ADC和DAC即可实现一个数字中频多载波GSM中频选频器。并且可以方便地进行软件升级。
+128. 201207649 手机信号屏蔽器
+CN
+11.03.2009
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200820102441.2
+福建三元达通讯股份有限公司
+张吓弟
+H04B 7/26
+Loading...
+本实用新型涉及一种手机信号屏蔽器，包括中央处理器CPU，其特征在于：所述中央处理器CPU的输出连接到频率锁相单元电路的控制输入端，频率锁相单元电路的输出端通过带通滤波电路LF与压控单元电路VCO的输入端相连接；扫频调制信号发生电路的输出端连接到压控单元电路VCO的输入端，压控单元电路VCO的输出端通过3DB功分器连接到信号放大电路；3DB功分器的另一个输出端连接到频率锁相单元电路PLL的另一个输入端。本实用新型手机信号屏蔽器有利于保证手机频带的温度稳定性，从而保证手机屏蔽的效果。
+129. 201174685 用于前馈功放幅度周期跳变式导频信号自适应检测装置
+CN
+31.12.2008
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200720008744.3
+福建三元达通讯股份有限公司
+梁长松
+H03F 1/32
+Loading...
+本实用新型公开了一种用于前馈功放幅度周期跳变式导频信号自适应检测装置，一种前馈功放幅度周期跳变式导频信号自适应检测装置，其特征在于：包含幅度周期跳变式导频信号发生电路、控制环路[1]、控制环路[2]，所述的控制环路[1]由耦合器、调幅调相器、主功放、定向耦合器依次连接组成；所述的控制环路[2]是由混频器、低频滤波、积分器、放大处理器以及模拟开关电路和运放跟随电路依次连接组成；幅度周期跳变式导频信号发生电路的输出连接到环路[1]中调幅调相器的输入端。该装置以导频前馈技术为基础，应用于大功率前馈线性功放中，不需要用复杂的算法，具有实现简单，功放控制精度及灵敏度高，一致性好，以及良好的自适应载波抵消特点。
+130. 201134805 集群干线放大通讯装置
+CN
+15.10.2008
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200720009086.X
+福建三元达通讯股份有限公司
+陈宇
+H04B 7/14
+Loading...
+本实用新型提供一种集群干线放大通讯装置，其中的下行链路由集群网络的基站耦合出来的信号通过射频馈线接到双工器的天线口，双工器的下行通道口通过半钢跳线接至带通功放的输入口，带通功放的输出口接至第二个双工器的下行通道口，最后由双工器天线口接至覆盖天线；其中的上行链路由天线接收到的终端信号进入双工器，通过半钢连接双工器的上行通道口及低噪放的输入口，低噪放的输出口接到第一个双工器的上行通道口，最后双工器的天线口通过射频馈线引回集群通讯系统，本实用新型全双工工作，设备上/下行隔离度高适合多个系统同时使用；建设周期短，具有使用安装灵活、搬迁方便。
+131. 201123079 多载波基站放大器
+CN
+24.09.2008
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200720008927.5
+福建三元达通讯股份有限公司
+宋建斌
+H04Q 7/30
+Loading...
+本实用新型公开一种多载波基站放大器，其在上行链路(A)的双工器(3)的RX端与双工器(8)的RX端之间及上行链路(B)的双工器(4)的RX端与射频开关(11)之间串接至少一个低噪声放大器，进行上行链路的信号放大，有效改善链路平衡问题，免除现有技术中增加安装塔放的繁琐，从而达到有益的使用效果。
+132. 201122971 无线直放站模块及应用该模块的无线直放站
+CN
+24.09.2008
+H04B 7/145 Loading...
+H04B 7/145
+Loading...
+200720009008.X
+福建三元达通讯股份有限公司
+李庆国
+H04B 7/145
+Loading...
+本实用新型公开了一种无线直放站模块，属于通信设备领域，包括施主端的介质双工器、重发端的介质双工器、监控电路以及上、下行低噪放电路、上、下行频段选择电路和上、下行功放电路，并由电源电路供电；所述施主端的介质双工器先连接至下行低噪放电路，再经下行频段选择电路、下行功放电路，连接到重发端的介质双工器；所述重发端的介质双工器首先连接到上行低噪放电路，经上行频段选择电路、上行功放电路后连接到施主端的介质双工器；监控电路连接到所述上、下行低噪放电路、上、下行频段选择电路和上、下行功放电路上。上述方案将上下行低噪放、变频、功放模块整合到一个模块中，并用一个CPU实现所有监控功能，体积小、模块集成度高且成本较低。
+133. 201118586 一种干线放大器
+CN
+17.09.2008
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200720008928.X
+福建三元达通讯股份有限公司
+陈本健
+H04B 7/14
+Loading...
+一种干线放大器，主要包括重发端的腔体双工器、供电单元、监控系统和散热片机箱。所述一体化干放模块一端口与整机施主端口连接，一体化干放模块的上行端口与所述腔体双工器的上行端口连接，一体化干放模块的下行端口与腔体双工器的下行端口连接，所述腔体双工器另一端口接到整机重发端口，所述监控系统连接到一体化干放模块上，供电单元分别连接到监控系统以及一体化干放模块上，所述一体化干放模块、腔体双工器、供电单元以及监控系统装置在散热片机箱中。一体化干放模块将施主端的介质双工器、下行功率放大电路以及上行低噪声放大电路整合在一块电路板上形成。本实用新型的优点在于：体积小、模块集成度高、选址容易、安装便利，且成本较低。
+134. 201118633 中频削峰系统装置
+CN
+17.09.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200720008745.8
+福建三元达通讯股份有限公司
+李卫校
+H04L 27/26
+Loading...
+本实用新型涉及一种中频削峰系统装置，其特征在于射频信号依次经前级，失真级，耦合器1后分两路，一路经自动增益控制AGC传至调幅器，另一路直接传输至调幅器；经调幅器处理后的信号再依次经混频1、中频滤波器、混频2、主功放、耦合器2处理后成两路，一路直接输出；另一路反馈给自动增益控制AGC；另有与导频信号相互通讯的串口，将信号依次传递给微处理器MCU、锁相环路PLL和功分器，功分器再将处理后的信号分别传给上述混频1和混频2。该系统采用简单有效、低成本、完全模拟的方法，可降低信号峰均比、调试难度和生产成本。
+135. 101217769 A multi-carrier base station radio frequency control device and the corresponding method
+CN
+09.07.2008
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200810070464.4
+Fujian Sunnada Communication Co., Ltd.
+Song Jianbin
+H04Q 7/34
+Loading...
+The invention relates to a multi-carrier base station amplifier radio frequency switch control device. The invention is characterized in that the multi-carrier base station amplifier is internally provided with a radio frequency switch control circuit which is provided with a microprocessor; the output terminal of the microprocessor is connected with the control terminal of the radio frequency switch; the communication port of the microprocessor is connected with a remote control computer through an RS422 bus. The invention can realize the control to the multi-carrier base station amplifier so as to ensure the normal operation of the original system when malfunctions occur to the equipment, achieves the judgement, report and alarm to the malfunctions at the same time so as to acquire the malfunction conditions of the equipment in a long-distance, achieves corresponding maintenance and preparation according to the corresponding alarm information in time, and fast solves the problems in site, thus improving the maintenance efficiency.
+136. 101216526 Feedforward loop circuit synchronous detection device
+CN
+09.07.2008
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200710144130.2
+Fujian Sunnada Communication Co., Ltd.
+Li Weixiao
+G01R 31/28
+Loading...
+The invention belongs to the field of electronic and wireless communication technology and relates to a feed-forward loop synchronous detection circuit, which is characterized in that the device comprises a phase noise signal source, a feed-forward loop to be measured and a measurement and analytic calculation circuit; the phase noise signal source is outputted by two circuits through a phase modulator; the feed-forward loop to be measured outputs the phase noise signal to the input terminal of a power divider of the feed-forward loop; the power divider divides the phase noise signal into two portions, which are respectively amplified and delayed and converged at a counteraction position; and the two signal portions are transmitted to the measurement and analytic calculation circuit portion to measurement and analytic processing. The invention has the advantages of simple structure, high efficiency, lowered measurement cost and production cost, simple operation and high efficiency, and is suitable for batch production and debugging of feed-forward amplifier.
+137. 201054712 数字中频可调带宽无线直放站
+CN
+30.04.2008
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200720007290.8
+福建三元达通讯有限公司
+梁长松
+H04Q 7/30
+Loading...
+本实用新型提供一种数字中频可调带宽无线直放站，包括下行信号从施主天线接收下来，经过双工器滤波，输入低噪放放大、数字中频可调带宽选频模块的滤波、功放放大，再经过双工器滤波最后从重发天线发射出去；上行信号从重发天线接收，经过双工器滤波，输入低噪放放大、数字中频可调带宽选频模块的滤波、功放放大，再经过双工器滤波，最后从施主天线发射出去；本实用新型实现了各种数字中频带宽的可调，从而满足直放站各种带宽的需求，并且在运营商要扩充频带带宽时无需一一更换对应的硬件设备，只需软件升级，大大降低了成本。
+138. 101150339 A TD-SCDMA trunk amplifier using network modulation synchronization mode
+CN
+26.03.2008
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200710009670.X
+Fujian Sanyuanda Communication Co., Ltd.
+Wang Quanhua
+H04B 7/005
+Loading...
+This invention relates to a TD-SCDMA main amplifier applying envelope detection synchronization mode characterizing that the product includes a RF module composed of a directional coupler, a RF detection circuit, a RF switch, an up-line amplifying circuit, a down-line amplifying circuit and a ring device and an envelope detection synchronous process module composed of an envelope information pick-up and shaping circuit and digit signal process and synchronous control module, in which, signals generated by the RF detection circuit in the RF module are transmitted to other circuit units of the up and down amplifying circuits except the digit controlled attenuators via the envelope information pick-up and shaping circuit, the digital signal process unit and the synchronization control unit.
+139. 201039168 一种自适应移动通信直放站
+CN
+19.03.2008
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200720006890.2
+福建三元达通讯有限公司
+梁长松
+H04B 7/14
+Loading...
+本实用新型涉及一种自适应同频无线直放站。包括施主天线、重发天线和两个分别与施主天线重发天线相连的双工器以及分别连接在两双工器TX口和RS口之间由低噪声放大器、数控衰减器、选频器、功率放大器构成的下行链路和上行链路，其中上下行链路中的数控衰减器与功率放大器均连接CPU，在下行低噪声放大器的一条分路设置有底噪扫描检测模块，并通过CPU的一套程序来进行控制。这种方法是在低噪放后分一路来变到中频，并用跳频的方法做输入功率检测及边带的底噪功率的检测的扫描，直放站如果不自激，输入直放站的底噪功率为热噪声加上增益和噪声系数；如果开始微弱自激，底噪功开始发生率明显变化，与之前的记录向比较，可以判断出这时处于微弱的自激状态，这时就降低增益，保证不发生自激的现象。
+140. 201039090 纯硬件电路实现自适应控制的前馈功放装置
+CN
+19.03.2008
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200720006892.1
+福建三元达通讯有限公司
+李卫校
+H03F 1/32
+Loading...
+本实用新型提供一种纯硬件电路实现自适应控制的前馈功放装置，包括对载波信号消除的环路一以及对失真信号消除的环路二，环路一控制与环路一相连，环路二控制与环路二相连，环路一控制以及环路二控制为纯硬件电路，均包括一正相移相桥、一对积分器、一对低通滤波器以及一对象限转换器，正相移向桥的两输出端分别依次与积分器、低通滤波器以及象限转换器相连。解决了现有技术的线性化方法中所存在的复杂化缺陷，提供一种简单有效的完全硬件的自适应抵消方法。
+141. 201039169 一种多信道无线直放站
+CN
+19.03.2008
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200720006891.7
+福建三元达通讯有限公司
+梁长松
+H04B 7/14
+Loading...
+本实用新型公开了一种多信道无线直放站，包括一上行链路、一下行链路、一具有智能控制的控制电路以及多信道工作通路，所述上行链路和下行链路各包含一信道选择器及一功率放大器，所述上行链路及下行链路的信道选择器均带有一信号输入电平检测电路，功率放大器则均带有一输出功率检测电路。本实用新型充分利用多信道无线直放站的通道，在几乎不增加设备的硬件成本情况下，即可便捷地测量出能调整多信道无线直放站施主天线与重发天线之间的隔离度，并调节其通道的增益使其工作稳定，以便于工程安装、智能监控及日常维护。
+142. 2882116 射频预失真功率放大器
+CN
+21.03.2007
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200520073840.7
+福建三元达通讯有限公司
+李卫校
+H03F 1/32
+Loading...
+一种射频预失真功率放大器，包括预失真器、主功放管和外围控制电路，该预失真器是用放大管来实现的。该预失真放大管为gaas fet(砷化镓结型N沟道场效应晶体管)管，该主功放管为ldmos(横向扩散金属氧化物半导体)管，即gaas fet管推动ldmos管。从而提高了功率放大器的线性。
+143. 1901402 Method of shift frequency and changing frequency
+CN
+24.01.2007
+H04B 7/155 Loading...
+H04B 7/155
+Loading...
+200510041159.9
+Sanyuanda Communication Co., Ltd., Fujian
+He Jincai
+H04B 7/155
+Loading...
+This invention relates to a frequency shift and conversion method, in which, at the near end of a repeater, a low noise amplifier receives and amplifies signals of a base station to send them into a spectrum moving module for processing then to take out useful beat frequencies WRF1-WLO1 as the shift signals to be input and emitted out, in which, WRF10, cell phones can't demodulate baseband signals by this signal, therefore, it will not interfere normal session of cell phone users, at the far end unit, a low noise amplifier receives signals got by a near end unit and via spectrum-moving, which enters into a reverse spectrum-moved module for processing frequency conversion, in which, VRF(t)=BCOS(WRF1-WLO1+WLO1)t, namely, VRF(t)=BCOSWRFt, the output frequency is resumed to normal base station signal to be emitted to a user region by a power amplifier, so that, it's not necessary to apply for frequencies when moving frequencies to increase usability of frequencies.
+

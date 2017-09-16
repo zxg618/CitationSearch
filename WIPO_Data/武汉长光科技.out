@@ -1,0 +1,565 @@
+1. 106506313 一种提高路由桥接数据转发性能的低成本方法
+CN
+15.03.2017
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+102016001058961
+武汉长光科技有限公司
+卢方增
+H04L 12/46
+Loading...
+一种提高路由桥接数据转发性能的低成本方法，包括步骤：1)同一个桥接下的端口加入同一个虚拟局域网，同一个路由下的端口加入同一个虚拟局域网，不同的路由连接属于不同的虚拟局域网；2)创建一条硬件路由，创建多条软件路由，数据通过硬件路由和软件路由分别转发，软件路由处理的报文进入cpu，由操作系统的工具实现软件路由的转发；3)端口分别绑定到相应的桥接连接或路由连接，创建端口虚拟局域网到路由连接或桥接连接虚拟局域网的转换；4)桥接业务和路由业务属于同一虚拟局域网时，通过mac地址区分桥接业务和路由业务，数据进行虚拟局域网对称转换。本发明桥接数据能达到线速；同时实现路由和桥接业务属于同一个虚拟局域网的要求。
+2. 106469219 一种嵌入式设备配置文件同步比较的方法
+CN
+01.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610815788.0
+武汉长光科技有限公司
+胡兆祥
+G06F 17/30
+Loading...
+一种嵌入式设备配置文件同步比较的方法，包括以下步骤：S1、将配置文件中按逐行配置为最小单位，多行配置的合集形成数组块；S2、通过算法分析出数组块的最大相似块单元，也即最长公共序列：在一次最长公共序列查找中，通过特定算法将两个数组块的进行比较，对于相关或者相同的部分，在内部记录中给予标记，对于未被标记的数据块，则表示其数组块对应行的配置不同；S3、通过逐次递归分析出各个相同的配置行并标记，剩余未标记的部分导出为差异性数组块。本发明适应于基于文本行配置为基础的嵌入式设备，提升算法效率，减少处理延时，以较少的资源开销和时间延时来分析配置文件的差异，方便各个主备系统或同步系统以较少的代价完成同步更新。
+3. 106452991 一种基于同轴接入网增加用户接入数的方法
+CN
+22.02.2017
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201610815804.6
+武汉长光科技有限公司
+桂洁
+H04L 12/28
+Loading...
+本发明公开了一种基于同轴接入网增加用户接入数的方法，包括以下步骤：选好准备使用的局端设备A与设备B，确认是否使用设备A设备做为上联设备；若是，则将设备A的一路线卡cable A修改为终端模式，然后将设备B的端口隔离关闭；将设备A的线卡cable A直接与设备B的线卡相连；若否，则将设备B的一路线卡cable B改为终端模式，然后将设备A的端口隔离关闭；最后，分别往设备A与设备B的其他线卡接终端设备。最后，将设备B的cable B线卡直接与设备A的线卡相连，并且分别在设备A与设备B的其他线卡下面接终端。本发明兼容不同硬件，无须使用软件实现，只需要修改线卡模式即可，节约人力成本，减少工程上布线施工的工作量，同时增加用户接入数。
+4. 106412730 一种远程批量升级在Boot环境下ONU系统软件的方法
+CN
+15.02.2017
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+102016000815822
+武汉长光科技有限公司
+杜军
+H04Q 11/00
+Loading...
+本发明提供了一种远程批量升级在Boot环境下ONU系统软件的方法，包括如下步骤：OLT检测ONU上报的信息，当ONU处于Boot环境下时，与OLT进行报文交互，完成注册流程；当ONU处于Boot环境下时，ONU与TFTP服务器建立连接，OLT下发批量ONU升级命令；多个处于Boot环境下的ONU接收到相应的升级命令后，与指定的服务器连接，获取升级文件并执行相应远程升级动作，升级成功后重启ONU；升级成功的多个ONU注册上线到OLT，恢复正常传输业务功能。本发明通过远程局端设备OLT升级处于Boot环境下的终端设备，避免了传统的本地升级，大大减少了设备维护的工作量，提高维护效率。
+5. 106330573 一种基于FTTH的终端与模板自动对应的方法
+CN
+11.01.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610883723.X
+武汉长光科技有限公司
+董建峰
+H04L 12/24
+Loading...
+本发明公开了一种基于FTTH的终端与模板自动对应的方法，包括步骤：在网管系统上配置ONU能力模板，下发到局端设备OLT上；局端设备OLT收到下发的配置请求后，将该配置信息转换成XML文件保存在系统中；光网络单元ONU接入OLT后，OLT判断系统中是否存在对应ONU能力模板，若存在，则授权ONU上线并动态加载对应能力模板；光网络单元ONU上线成功之后，局端设备OLT根据ONU类型，所在PON口及分配的ONU ID，判断系统中是存在预配置业务模板；局端OLT对该ONU下发业务模板配置，开通业务。本发明通过简单的配置即可管理不同厂家各种类型的ONU，自动下发ONU业务配置开通业务，极大方便设备管理。
+6. 106300649 通信设备双电源供电自动切换电路装置
+CN
+04.01.2017
+H02J 9/06 Loading...
+H02J 9/06
+Loading...
+102016000969397
+武汉长光科技有限公司
+李绍杰
+H02J 9/06
+Loading...
+本发明公开了一种通信设备双电源供电自动切换电路装置，包括主用交流电源输入端，备用交流电源输入端和总电源输出端；该装置还包含第一浪涌抑制模块、第二浪涌抑制模块以及切换模块。主用交流电源输入和备用交流电源输入分别连接到第一浪涌抑制模块和第二浪涌抑制模块，经过第一浪涌抑制模块和第二浪涌抑制模块后的两组交流电源分别输入给切换模块，切换模块根据控制意图自动将两路交流电源输入切换为一路交流电源输出，经过总电源输出端后输入给后级的通信设备使用。本发明以较低的成本实现双电换源供电的切换功能，任意一路电源掉电对后续负载均没有任何影响，同时可以提升供电效率和增强设备的防浪涌冲击能力。
+7. 105791004 一种直接用OAM管理光接收机的系统及方法
+CN
+20.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000098420
+武汉长光科技有限公司
+梅景平
+H04L 12/24
+Loading...
+本发明公开了一种直接用OAM管理光接收机的系统及方法，系统包括网管系统NMS、OLT设备和若干ONU，网管系统NMS通过简单网络管理协议的管理信息库SNMP MIB与OLT设备相连，OLT设备与所有ONU相连，每个ONU内置有ONU模块和光接收机模块，光接收机模块通过串口或者I2C管理通道与ONU模块通信；各个ONU与OLT设备之间配置私有OAM，光接收机模块作成ONU的一部分，OLT设备直接通过私有OAM管理光接收机模块的信息参数。方法直接将ONU模块和光接收机模块作为一个管理对象，网管系统NMS对ONU设备和光接收机模块进行真正的统一管理。本发明通过特别定义的OAM管理协议，能够在局端实时监控光接收机模块的运行状态，修改运行参数，不仅便于网络故障诊断，而且网络拓扑比较简单，适用范围广。
+8. 105656549 一种PON系统OLT识别ONU假性dying gasp的方法
+CN
+08.06.2016
+H04B 10/079 Loading...
+H04B 10/079
+Loading...
+201610065283.7
+武汉长光科技有限公司
+王瑾
+H04B 10/079
+Loading...
+一种PON系统OLT识别ONU假性dying？gasp的方法，包括步骤：OLT对ONU上报的dying？gasp消息进行识别和过滤；OLT建立一张数据表维护和记录每个ONU的dying？gasp消息上报状态，数据表中的内容在ONU授权成功时被初始化；OLT通过查找上报dying？gasp消息的ONU在底层MPCP注册列表中的注册信息判断ONU是否在线，识别dying？gasp消息真假性；OLT采用循环检测机制确认假性dying？gasp消息；OLT在运行过程中循环扫描整机ONU，当OLT停止运行时结束扫描过程。本发明有效规避假性dying？gasp的误判，避免OLT设备处理混乱，降低维护成本。
+9. 105630542 一种EOC系统中PIB的升级方法
+CN
+01.06.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510961771.1
+武汉长光科技有限公司
+桂洁
+G06F 9/445
+Loading...
+本发明公开了一种EOC系统中PIB升级的方法，该方法包括以下步骤：先将PIB文件下载至设备flash中，软件需要读取设备上的PIB文件，根据软件预先设定的要做对比的GPIO配置信息，对原设备中的PIB文件的GPIO信息与待升级的PIB文件中的GPIO信息进行比较；若一致，则直接升级指定的PIB文件至设备；如果不一致，则保留原设备中PIB中的GPIO信息，其他信息由待升级的PIB配置信息覆盖并升级至设备。本发明EOC系统中PIB升级的方法，具有兼容不同硬件，因不同EOC需要写入不同的PIB，并且PIB有可能升级，从而需要维护多个版本，使用本发明，只需要维护一个PIB用于升级，可节约人力成本，同时提高PIB版本兼容性。
+10. 105354071 一种嵌入式软件兼容硬件的方法
+CN
+24.02.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510933925.6
+武汉长光科技有限公司
+刘宁
+G06F 9/445
+Loading...
+本发明公开了一种嵌入式软件兼容硬件的方法，其特征在于，包括以下步骤：1)嵌入式软件包括引导程序BOOT文件和应用程序APP文件，不同型号设备出厂时烧写不同的BOOT文件和统一的APP文件；2)在BOOT文件中标准化定义设备硬件差异信息；3)通过BOOT文件将定义好的设备硬件差异信息传递给其引导的APP文件；4)APP文件在初始化阶段正确解析BOOT文件传递的硬件差异信息，根据设备硬件特征完成对设备硬件差异信息的兼容适配处理，实现不同硬件的兼容。对于设备硬件核心部分如CPU、内存一致，但其他器件或应用比如Flash、IIC、GPIO应用等存在差异的情况下，通过本发明方法无需软件检测硬件特征就可以屏蔽硬件差异，实现同一软件兼容不同硬件设备，便于后续升级、维护。
+11. 105282235 一种解决RPC在双PON口ONU升级不稳定的方法
+CN
+27.01.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510585876.1
+武汉长光科技有限公司
+张宇
+H04L 29/08
+Loading...
+一种解决RPC在双PON口ONU升级不稳定的方法，该方法包括：S1：查询ONU两个PON口的注册和角色状态；S2：PON口设定处于休眠状态；S3：实时轮询PON端口角色状态变化；S4：RPC连接建立后，C端向S端发起传输升级文件请求，并启动定时器，发送文件；同时执行S7；S5：S端收到请求后，开始下载升级文件并启动定时器；S6：S端开始升级并启动升级定时器，升级完成后，执行S8；S7：C端开始升级并启动升级定时器；S8：S端发送升级成功确认给C端，返回S2；S9：C端升级成功，并确认后，上报升级成功告警；返回S2。本发明通过双向通信和启动定时重传及自动重启机制恢复升级，确保ONU双PON之间正确无误传输升级文件；且不受底层网络技术限制，可以移植到多系统。
+12. 105245402 一种基于HomePlug AV芯片的MAC地址溯源方法
+CN
+13.01.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510699951.7
+武汉长光科技有限公司
+程国平
+H04L 12/26
+Loading...
+本发明公开了一种基于HomePlug？AV芯片的MAC地址溯源方法，其特征在于，包括以下步骤：S1、EOC局端启动后台任务，定时向每个EOC终端发送MME消息查询HomePlug？AV芯片的MAC地址；S2、EOC局端为每个EOC终端在本地创建一个MAC地址表保存MAC地址；S3、溯源MAC地址，在EOC局端上保存的MAC地址中搜索要溯源的MAC地址，确定MAC地址来自哪个EOC终端；S4、EOC局端向步骤S3确定的EOC终端发送MME消息，查询EOC终端的交换芯片寄存器，确定MAC地址的来源端口。本发明通过在EOC局端的后台任务定时获取每个EOC终端HomePlug？AV芯片的MAC地址表并保存，在MAC溯源时只需将溯源MAC地址与EOC局端保存的MAC地址进行比对，减少了EOC局端和终端的MME消息交互，大大的提高了MAC地址溯源的效率以及成功率。
+13. 105120376 一种提升ONU光链路保护倒换稳定性的方法
+CN
+02.12.2015
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+201510427033.9
+武汉长光科技有限公司
+朱梅
+H04Q 11/00
+Loading...
+本发明公开了一种提升ONU光链路保护倒换稳定性的方法，其特征在于，该方法包括：步骤S1：定时查询ONU两个PON口的激活状态和注册状态；步骤S2：判断是否存在某个PON口激活状态和注册状态不一致的情况：如果一致，返回执行步骤S1；如果不一致，执行步骤S3：启动计数器计数，检查计数器超时之前，不一致现象是否消失：如果计数器超时之前，不一致现象消失，执行步骤S4：计数器清零，并重复步骤S1～S3；如果计数器超时之前，不一致现象没有消失，执行步骤S5：重置ONU状态。本发明方法对于在规定的一段时间内，激活状态和注册状态不一致的情况不能消失时，重置ONU状态，避免ONU因为这种不一致导致ONU光链路倒换异常的现象持续。
+14. 105007186 基于EPON网络的光纤到户终端自动配置方法及系统
+CN
+28.10.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510442063.7
+武汉长光科技有限公司
+王锐
+H04L 12/24
+Loading...
+本发明公开了一种基于EPON网络的光纤到户终端自动配置方法及系统，方法包括步骤：S1、网管SERVER端建立好局端OLT下ONU的配置模板；S2、终端ONU上电启动时，局端OLT发送非法ONU上线告警，网管SERVER端对告警报文进行解析，根据告警信息中的MAC地址判断该非法ONU是否在已授权MAC地址名单之中；S3、查询该MAC地址是否在MAC地址池中，若在MAC地址池中则进行ONU的授权操作；S4、根据ONU的位置及光分号从网管系统查询针对该ONU的配置模板，根据配置模板信息对该ONU端口下发配置信息；S5、端口配置信息下发完成后发送配置完成的告警通知网管客户端。本发明通过预先在系统中规划好终端配置模板，能够实现终端的即插即用，方便了终端用户大量开通的情形，具有良好的实用性前景。
+15. 203661507 一种两件式压合屏蔽罩
+CN
+18.06.2014
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+201320762730.6
+武汉长光科技有限公司
+冯宽
+H05K 9/00
+Loading...
+本实用新型提供一种两件式压合屏蔽罩，它包括屏蔽框和屏蔽盖，屏蔽框固定在电子设备的PCB板上，屏蔽盖卡合在屏蔽框上；屏蔽框的至少一个边框设有屏蔽框伸出壁，屏蔽框伸出壁上设有凸包，屏蔽框的其它边框上设有通孔；屏蔽盖与屏蔽框伸出壁对应的边框上设有与凸包匹配的通孔，屏蔽盖与屏蔽框其它边框对应的边框上设有屏蔽盖伸出壁，屏蔽盖伸出壁上设有与通孔匹配的凸包；屏蔽框与屏蔽盖通过凸包和通孔卡合。本实用新型中屏蔽框和屏蔽盖通过凸包与通孔的配合，互卡固定，安装容易，拆卸方便，维修时不用拆卸屏蔽框，节省工时，可广泛应用于电子通讯产品。
+16. 103686461 Method and device for intelligent doorbell talkback on basis of passive optical network (PON) access network
+CN
+26.03.2014
+H04Q 5/24 Loading...
+H04Q 5/24
+Loading...
+201310730151.8
+武汉长光科技有限公司
+王培佩
+H04Q 5/24
+Loading...
+The invention discloses a method and device for intelligent doorbell talkback on the basis of a passive optical network (PON) access network. The device comprises a PON access system and a talkback doorbell system. The PON access system comprises a converging exchanger, an optical line terminal, a light distribution network and a light network unit. The talkback doorbell system comprises a management center machine, a doorway mainframe and an indoor extension. The device is characterized in that the talkback doorbell system further comprises a talkback system server, a wireless router and a mobile terminal. The talkback system server is connected with the converging exchanger and the management center machine, the router is connected with the light network unit, and the mobile terminal is connected to a PON through the light network unit. A function of enabling a household to communicate with a visitor at the position of the building unit doorway mainframe through devices such as to a cell phone anytime anywhere can be achieved through the method and the device, the household does not need to walk to the position of the indoor extension, and use by the indoor extension is facilitated.
+17. 203490002 一种利用光纤传感技术的测温系统
+CN
+19.03.2014
+G01K 11/32 Loading...
+G01K 11/32
+Loading...
+201320659850.3
+国家电网公司
+陈豪
+G01K 11/32
+Loading...
+本实用新型涉及一种利用光纤传感技术的测温系统，所述系统包括：宽带光源发射模块、标准波长光谱气室、光环形器、信号处理装置、高速光切换开关、光纤传感器、波长解调器、温度显示装置；其中，所述宽带光源发射模块，连接所述标准波长光谱气室及光环形器；所述标准波长光谱气室，连接所述信号处理装置；所述光环形器，连接所述高速光切换开关及信号处理装置；所述高速光切换开关，连接光纤传感器；所述信号处理装置，连接所述波长解调器；所述波长解调器，连接温度显示装置。
+18. 203135117 水晶头弹片保护装置
+CN
+14.08.2013
+H01R 13/639 Loading...
+H01R 13/639
+Loading...
+201320063864.9
+武汉长光科技有限公司
+魏达久
+H01R 13/639
+Loading...
+本实用新型公开了一种水晶头弹片保护装置，包括矩形保护圈，该保护圈的一侧设有弧形限位凸起，水晶头置于该保护圈内，该限位凸起限制水晶头的塑料弹片向上弯折；该保护圈上与该限位凸起相对的一侧设有卡扣，该卡扣与水晶头底部的凹槽相配合。本实用新型的水晶头弹片保护装置可以直接装配到已经加工好的线缆的水晶头上，不影响水晶头的正常使用；且安装容易，拆卸方便，可回收重复利用。
+19. 103023737 基于唯一家庭定位标识的智慧家庭业务处理方法及系统
+CN
+03.04.2013
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201210572663.1
+武汉长光科技有限公司
+郑直
+H04L 12/28
+Loading...
+本发明公开了一种基于唯一家庭定位标识的智慧家庭业务处理方法及系统，对居民家庭的地理位置进行唯一定位标识，将标识存储在电子标签中，业务终端设备通过读取电子标签中的标识信息再将其发送给鉴权服务器进行鉴权，上网服务器根据鉴权结果为家庭业务终端开通相应的上网权限，完成业务的开通/关闭；家庭业务终端设备每次将家庭唯一标识信息与业务数据封装后再通过上网服务器发送给相应的上层业务服务器。通过家庭唯一标识信息对有效用户进行识别，自动获取用户的家庭物理定位信息、用户基本信息及用户权限信息等信息，用来作为计费和维护的依据。本发明可使家庭业务提供商或者公共部门只做一次用户的标识和定位工作，避免了重复建设。
+20. 103024448 基于IPQAM的多屏互动方法及视频终端设备
+CN
+03.04.2013
+H04N 21/2343 Loading...
+H04N 21/2343
+Loading...
+201210571928.6
+武汉长光科技有限公司
+唐俊
+H04N 21/2343
+Loading...
+本发明公开了一种基于IPQAM的多屏互动方法及视频终端设备，其中方法包括以下步骤：视频控制模块接收用户选择的点播文件或频道标识信息，并发送给信号源设备，以使信号源设备通过IPQAM设备返回相应的射频信号；对射频信号进行调制解调，将解调出的视频射频信号发送给流媒体生成模块；流媒体生成模块将视频射频信号进行处理生成流媒体文件，并将其发送给流媒体服务器；流媒体服务器根据局域网内的多个多媒体播放设备的请求提供流媒体服务。本发明能充分利用现有HFC网络中天然的广播传输方式和高带宽，在实现高清视频传输的同时，不占用数据传输带宽，且可最大限度地保护广电网络现有设备及网络资源的投资。
+21. 102938553 掉电告警控制电路
+CN
+20.02.2013
+H02H 3/24 Loading...
+H02H 3/24
+Loading...
+201210423937.0
+武汉长光科技有限公司
+李响
+H02H 3/24
+Loading...
+本发明公开了一种掉电告警控制电路，包括隔离模块和均与其连接的缓启动模块、DYING-GASP能量存储模块和监控模块；监控模块，用于上电后进行上电复位，在上电复位这段时间控制给DYING-GASP能量存储模块充电，以及掉电后控制能量输出给系统做掉电告警操作，其掉电告警门限值大于所在系统的正常工作电压值；缓启动模块，用于上电后抑制上电尖峰电流；DYING-GASP能量存储模块，用于在上电时存储DYING-GASP能量；隔离模块，用于在掉电时隔离输入电压和DYING-GASP能量存储模块。本发明可抑制上电尖峰电流，且可以提供充足的掉电保持时间来完成DYING-GASP过程，减少DYING-GASP的误报。
+22. 102932698 具有手拉手保护结构的EPON系统
+CN
+13.02.2013
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+201210449193.X
+武汉长光科技有限公司
+胡保民
+H04Q 11/00
+Loading...
+本发明公开了一种具有手拉手保护结构的EPON系统，包括两个光线路终端、光分配网络和多个光网络单元，每个光线路终端包括至少一对PON口，光分配网络包括至少一根三芯光缆，三根光纤上均连接多个光分路器，第一光纤与第一光线路终端的一个PON口连接，第二光纤与第二光线路终端的一个PON口连接，第三光纤连接在第一光线路终端的另一个PON口和第二光线路终端的另一个PON口之间，且第三光纤的中部被截断；光网络单元分别通过一对光分路器连接到两个光线路终端，形成手拉手结构，一对光分路器中的一光分路器位于第一光纤或第二光纤上，另一光分路器位于第三光纤上。本发明可在大规模工程应用当中可以节省基础建设成本，且可保持原有光路保护效果。
+23. 202693862 一种防静电的SFF光模块
+CN
+23.01.2013
+G02B 6/42 Loading...
+G02B 6/42
+Loading...
+201220317877.X
+武汉长光科技有限公司
+任波
+G02B 6/42
+Loading...
+本实用新型提供一种防静电的SFF光模块，其特征在于：它包括一个耐高温塑胶底座，耐高温塑胶底座上安装有PCB板，PCB板由定位块固定在耐高温塑胶底座上；它还包括一个金属罩体，金属罩体上设有开孔，所述的耐高温塑胶底座上设有与金属罩体上的开孔相配合的倒扣。通过将传统的锌合金压铸底座改为耐高温塑胶材质，而罩体还是采用金属材质，使得对外接口处全部为塑料，消除了与金属之间放电的可能，从而阻断了静电的传输路径，使得光模块接触放电能够超过8kV，保护PCB板。
+24. 102868537 Ethernet over coax (EOC) energy saving method based on Ethernet passive network over coax (EPOC)
+CN
+09.01.2013
+H04L 12/10 Loading...
+H04L 12/10
+Loading...
+201210373187.0
+武汉长光科技有限公司
+杜军
+H04L 12/10
+Loading...
+The invention provides an Ethernet over coax (EOC) energy saving method based on an Ethernet passive network over coax (EPOC). The EOC energy saving method includes that: a communication line terminal (CLT) is used for detecting uplink data and downlink data flow information of a CNU to determine whether the CNU can enter the energy saving state; when the CNU enters the energy saving state under control of the CLT, the CNU closes a transceiver arranged between the CNU and the CLT; after the CNU reaches a dormancy interval, the CNU automatically enters an awakening state and waits awakening authorization transmitted by the CLT; and when the CLT detects that the CNU should quit the energy saving state, the CLT transmits the awakening authorization to the CNU and then receives uplink data of the CNU. The EOC energy saving method is based on unified management and scheduling on the CNU carried out by the CLT, achieves automatic adjustment of the CNU state, and achieves the purpose of energy saving.
+25. 202424722 模拟EPON系统实验中可远程控制的光开关设备
+CN
+05.09.2012
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+201120528723.0
+武汉长光科技有限公司
+杜军
+H04B 10/12
+Loading...
+本实用新型涉及一种模拟EPON系统实验中可远程控制的光开关设备，它包括有与EPON系统中光纤入/出接口连接的光纤入/出接口模块，光纤入/出接口模块与光开关执行模块连接，光开关执行模块与信号处理模块连接，信号处理模块与控制信号接收模块连接，控制信号接收模块与远端PC连接，远端PC与EPON系统中的光线路终端连接。本实用新型可以对光链路进行远程控制；特别适用于实验室测试EPON系统环境需要开/断光路的情况，省去手工操作插拔光纤的麻烦，提高了测试效率，促进自动化测试的进一步发展。
+26. 202135445 一种固定散热片的屏蔽罩
+CN
+01.02.2012
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+201120227280.1
+武汉长光科技有限公司
+冯宽
+H05K 9/00
+Loading...
+本实用新型提供一种固定散热片的屏蔽罩，其特征在于：它包括一个罩体，罩体包括顶面和侧壁，顶面设有与散热片配置的开口，罩体内设有至少2个伸出脚，伸出脚的长度大于侧壁的高度；伸出脚上对称设有上、下弹性卡扣。采用本屏蔽罩可以很轻松的固定散热片，实现屏蔽和固定散热片两种功能，并且拆卸方便，极大方便了维修，减少工时，提高效率。
+27. 202135444 一种互相卡合的屏蔽罩
+CN
+01.02.2012
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+201120227279.9
+武汉长光科技有限公司
+冯宽
+H05K 9/00
+Loading...
+本实用新型提供一种互相卡合的屏蔽罩，其特征在于：它由钣金件制成，包括上屏蔽罩和下屏蔽罩，上屏蔽罩包括顶面和侧壁，下屏蔽罩包括底面和侧壁，上、下屏蔽罩的侧壁由内外卡扣卡接。在PCB板上设置穿孔，上、下屏蔽罩在PCB板的两面，搭扣穿过穿孔连接，无需焊接实现了双面屏蔽，并且安装容易，拆卸方便，特别是产品需要返修时，可极大减少工时，可广泛应用于电子通讯产品。
+28. 102315861 一种基于同轴电缆接入的可编程通信单元
+CN
+11.01.2012
+H04B 3/02 Loading...
+H04B 3/02
+Loading...
+201110257102.8
+武汉长光科技有限公司
+田明
+H04B 3/02
+Loading...
+本发明提供一种基于同轴电缆接入的可编程通信单元(300)。所述同轴通信单元(300)包括依次相连的双工滤波器(301)、模拟前端(302)和同轴以太网数据处理单元(303)，还接有连接器接插件(304)。该单元可应用于智能电网的各项数据采集，并通过同轴电缆将采集到的数据上传至集中器或相关服务器进行处理分析，为智能电网提供基于同轴电缆的采集数据方案。
+29. 202103672 一种用于智能电网的超小型可编程光通信模块
+CN
+04.01.2012
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+201120194141.3
+武汉长光科技有限公司
+胡保民
+H04B 10/12
+Loading...
+本实用新型提供一种超小型可编程光通信模块(300)。所述光通信模块(300)包括依次相连的光收发模块接口组件(301)、激光器驱动器/限幅放大器(302)和PONMAC芯片(303)，PON MAC芯片(303)还接有连接器(306)。该模块体积小、低功耗，还可以编程，使用该模块并结合光纤复合低压电缆技术可彻底地解决智能电网终端用户接入和未来大量用电信息交互的问题。
+30. 202094928 基于用电信息采集系统的多媒体广告推送系统
+CN
+28.12.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201120194163.X
+武汉长光科技有限公司
+叶勇刚
+H04L 29/06
+Loading...
+本实用新型提供一种基于用电信息采集系统的多媒体广告推送系统，通过将xPON接入技术应用到多媒体广告推送领域，只需在原有的用电采集系统中增加扩展服务器，并将内置光网络单元的用电信息采集终端与显示终端连接，即可完成多媒体广告推送系统的组网，充分利用高带宽的智能用电网络的优势。
+31. 102255661 Subminiature programmable optical communication module for intelligent power grid
+CN
+23.11.2011
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+201110155158.2
+Wuhan Yangtze Optical Technology Co., Ltd.
+Hu Baomin
+H04B 10/12
+Loading...
+The invention provides a subminiature programmable optical communication module (300). The subminiature programmable optical communication module (300) comprises an optical transmit-receive module interface component (301), a laser driver/amplitude-limiting amplifier (302) and a PON MAC (Passive Optical Network Multi-access Computer) chip (303) which are connected with each other in turn, wherein the PON MAC chip (303) is connected to a connector (306). The subminiature programmable optical communication module has small volume and low power consumption, is programmable, and can be combined with an optical compound low-voltage cable process for thoroughly solving the problem of information interaction between a terminal user of an intelligent power grid and a large amount of future used electricity.
+32. 102244596 Active relay based on EOC
+CN
+16.11.2011
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110172081.X
+Wuhan Yangtze Optical Technology Co., Ltd.
+Tian Ming
+H04L 12/28
+Loading...
+The invention provides an active relay based on an EOC. The active relay comprises two EOC business units; one of the EOC business units is in a master mode and is connected with a down-hanging coaxial cable by an analog front end circuit through a diplexer filter; and the other EOC business unit is in a slave mode and is connected with an upper connective coaxial cable by an analog front end circuit through a diplexer filter. The diplexer filter, which is connected with the upper connective coaxial cable, divides a composite signal transmitted by the coaxial cable into two frequency range signals, wherein a low frequency range signal bearing data is sent to the EOC business unit and a high frequency range signal bearing a television signal is directly sent to a high pass interface of the other diplexer filter. According to the invention, the two EOC business units are integrated in equipment, so that an application range of the EOC technology is widened; noise introduced into the network is low; a transmission range is extended and a network construction cost is reduced.
+33. 102223366 Multimedia advertisement propelling system and method thereof based on power utilization information acquisition system
+CN
+19.10.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110155171.8
+Wuhan Yangtze Optical Technology Co., Ltd.
+Ye Yonggang
+H04L 29/06
+Loading...
+The invention provides a multimedia advertisement propelling system and a method thereof based on a power utilization information acquisition system. A x passive optical network (xPON) access technology is applied to the field of multimedia advertisement propelling; only an expansion server needs to be increased in the original power utilization system; and a power utilization information acquisition terminal internally provided with an optical network unit is connected with a display terminal, thus the networking of the multimedia advertisement propelling system can be finished, and the advantages of high-bandwidth intelligent power utilization network is fully utilized.
+34. 102185303 Prevention circuit capable of supporting withstand voltage and surge of port simultaneously
+CN
+14.09.2011
+H02H 9/04 Loading...
+H02H 9/04
+Loading...
+201110116547.4
+Wuhan Yangtze Optical Technology Co., Ltd.
+Ren Bo
+H02H 9/04
+Loading...
+The invention discloses a prevention circuit capable of supporting withstand voltage and surge of a port simultaneously, comprising a network transformer T1A and an RJ45 port in connection, wherein a voltage dependent resistor RV1 and a gas-discharge tube G1 are connected in series between a primary center tap of the network transformer T1A and an earth terminal; a high-voltage capacitor C3 is connected in parallel between the primary center tap of the network transformer T1A and the earth terminal; a high-voltage capacitor C2 is connected between a secondary winding center tap of the network transformer T1A and the earth terminal; and unused pins B4 and pin B5 as well as a pin B7 and a pin B8 of the RJ45 port are connected to the primary center tap of the network transformer T1A by magnetic beads FB2 and FB3 respectively. By using the prevention circuit, a port of a communication device can support surge prevention above 4KV and withstand voltage above 500V simultaneously.
+35. 102051461 Surface strengthening method for magnetic yoke pull rod
+CN
+11.05.2011
+C21D 8/00 Loading...
+C21D 8/00
+Loading...
+201110025866.4
+Daye Yaguang High Strength Bolt Co., Ltd.
+Rao Congsheng
+C21D 8/00
+Loading...
+The invention relates to a surface strengthening method for a magnetic yoke pull rod. The technical scheme of the method comprises the following steps of: first, performing quenched-tempered heat treatment on the blank of the magnetic yoke pull rod; then, turning the blank to a specified size of the magnetic yoke pull rod; and finally, performing nanostructure strengthened rolling plastic deformation treatment on the surface of the turned magnetic yoke pull rod by using two rolling mills, wherein nanostructure strengthened rolling plastic deformation treatment is that: rollers are rotated relatively at the speed of 15 to 50 rpm; the angle between an upper roller and a lower roller is 10 to 26 degrees; the magnetic yoke pull rod is rolled by the upper roller and the lower roller along the axial directions of the rollers at the same time for 1 to 5 times; the stepping rate of the magnetic yoke pull rod is 10 to 30 m/min; the total rolling reduction of the two rolling mills is 0.01 to 0.04 mm; the blank of the magnetic yoke pull rod is made of one of medium-carbon steel, low-carbon steel and low-alloy medium-carbon steel; and the shape is in the type of long pole shafts. The method has the characteristics of low cost, simple and easy process, simple equipment, safety and environment friendliness, and is a sustainably developed material surface strengthening method under low-carbon economy.
+36. 201722219 一种太阳能供电净水及照明系统
+CN
+26.01.2011
+C02F 9/02 Loading...
+C02F 9/02
+Loading...
+201020142698.8
+长江水利委员会长江科学院
+谭德宝
+C02F 9/02
+Loading...
+本实用新型提供一种太阳能供电净水及照明系统，包括太阳能电池组、智能控制器、蓄电池组、双向逆变器、照明装置、充电器及净水系统，所述太阳能电池组通过所述智能控制器连接到所述蓄电池组，所述智能控制器通过双向逆变器分别连接至所述照明装置、充电器及净水系统。本实用新型通过将太阳能电池组提供的电能提供给照明装置、充电器及所述净水系统使用，可实现不依赖市电供电，能够实现污水净化、应急照明、为手机等小型电器充电的，集饮用水生产、照明、电器充电为一体的太阳能光伏供电净水与照明系统。
+37. 201718148 一种电信设备的散热装置
+CN
+19.01.2011
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201020184687.6
+武汉长光科技有限公司
+张传毅
+H05K 7/20
+Loading...
+本实用新型提供一种电信设备的散热装置，其特征在于：它包括散热片，散热片通过弹簧卡套在PCB板上端，散热片的上端和PCB板主芯片表面均设有导热材料涂层，散热片螺栓固定在电信设备的壳体上。PCB板主芯片上的热量通过传导方式引导到电信设备的壳体上，使整个壳体成为散热主体，借助散热孔满足电信设备正常工作所需的散热。本实用新型能较好的满足设备散热要求，解决了由风扇带来了一系列问题，并且结构简单，成本低。
+38. 101651836 Modularized monitoring terminal equipment based on EPON
+CN
+17.02.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910272128.2
+Wuhan Yangtze Optical Technology Co., Ltd.
+Wu Guangsheng
+H04N 7/26
+Loading...
+The invention provides modularized monitoring terminal equipment based on EPON, which comprises a case, an ONU module, an audio-video coding module and a control protocol gateway module, wherein the ONU module, the audio-video coding module and the control protocol gateway module are all inserted into a slot on the case and respectively provide external interfaces; and the ONU module is connectedwith EPON OLT equipment which provides a transmission function for the audio-video coding module and the control protocol gateway module through network interfaces. The equipment integrates audio-video coding compression, control protocol conversion and data transmission into a whole, is applicable to the fields of trades and enterprises, as well as occasions requiring comprehensive services suchas remote video monitoring, remote meter-checking transmission, process control, wideband data access, and the like.
+39. 101577584 Automated diagnosis and control method of ONU performance degradation
+CN
+11.11.2009
+H04B 10/07 Loading...
+H04B 10/07
+Loading...
+200910061155.5
+Wuhan Yangtze Optical Technology Co., Ltd.
+Liu Wu
+H04B 10/07
+Loading...
+The invention discloses an automatic diagnosis and control method of ONU performance degradation, which is applied in an EPON system comprising an OLT, an ODN and an ONU. The method comprises the following steps: 110) the OLT monitors an uplink signal of the ONU, sends a system alarm and simultaneously enters a system diagnosis mode when detecting that the signal is abnormal; 120) the ONU is operated according to a specific strategy, the uplink signal of the ONU is analyzed again so as to reduce the range gradually and find out a failing ONU; and 130) the failing ONU is isolated. The control mechanism and diagnosis algorithm lead the EPON system to automatically position and isolate a failure point, thereby causing a managerial staff to be capable of diagnosing and maintaining a network remotely in a complex condition and greatly improving the operation level and maintenance level of the network.
+40. 101505440 Bidirectional IP converting CATV optical fiber network based on PON
+CN
+12.08.2009
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200910060771.9
+Wuhan Yangtze Optical Technology Co., Ltd.
+Zhang Li
+H04Q 11/00
+Loading...
+The invention discloses a two-way IP CATV optical fiber network based on PON, which comprises an optical line terminal, a light distribution network and an optical network unit connected one by one, wherein a PON data interface lower-connection module is arranged in the optical line terminal and is used for sending and receiving optical data signals of the optical line terminal; a PON data interface upper-connection module is arranged in the optical network unit and is used for sending and receiving optical data signals of the optical network unit; and an IP video interface lower-connection module is also arranged in the optical line terminal and is used for sending IP video signals of the optical line terminal. The network has the advantages of upgrading the bandwidth of the prior PON data network, improving the bearing capacity and transmission efficiency of the PON data network for video service, greatly applying to the two-way IP transformation of CATV optical fiber networks and simultaneously applying to the bearing optimization of telecommunication access networks for IPTV service.
+41. 101394231 Burst type ultralong distance optical fiber protectors based on SOA optical switch
+CN
+25.03.2009
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+200810197527.2
+Wuhan Yangtze Optical Technology Co., Ltd.
+Wu Guangsheng
+H04B 10/12
+Loading...
+The invention provides a burst-type super-long distance optical fiber protector based on an SOA optical switch, which comprises an optical line terminal interface, an optical splitter, the SOA optical switch and a main fiber interface which are connected in sequence, wherein the optical splitter is connected with a light detector and a control logic circuit in sequence; and the control logic circuit is further connected with the SOA optical switch. The optical fiber protector is compatible with all PON systems, enlarges the transmission distance and the branching ratio of the PON systems, and realizes the automatic optical fiber protection switching of a PON network.
+42. 101383787 Three in one network type household gateway based on EPON access
+CN
+11.03.2009
+H04L 12/66 Loading...
+H04L 12/66
+Loading...
+200810197384.5
+Wuhan Yangtze Optical Technology Co., Ltd.
+Wu Guangsheng
+H04L 12/66
+Loading...
+The invention provides a triple-play type home gateway based on EPON access, which comprises hardware and software. A hardware platform takes an embedded processor CPU and a media processor as the core, the CPU is connected with an EPON ONU module through a WAN interface and is connected with a media processor through a PCI bus; Ethernet, voice, and video interfaces are arranged for expanding a plurality of mini-PCI slots in which functional modules including WiFi are inserted, as well as for connecting a plurality of USB interfaces of Bluetooth, Zigbee networking modules or a video camera, and then the wire and wireless hybrid networking of the internal home networks is implemented by the configuration mode including Web. The software comprises EPON access, core functions, transmission functions, business functions and networking function modules. The invention supports local Web management, TR-069 remote management, remote configuration and software upgrading, and can meet the demands of internal networking of modern home and automation of home equipment.
+43. 101346006 Radio frequency passive optical network with broadband wireless and optical transmission amalgamation access
+CN
+14.01.2009
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200810048909.9
+Wuhan Yangtze Optical Technology Co., Ltd.
+Zhang Chuanhao
+H04Q 11/00
+Loading...
+The invention provides a radio passive optical network accessed by converging of broadband wireless and optical transmission. The invention comprises an optical line terminal, an optical network unit and an optical distribution network. The optical line terminal and the optical network unit are connected through the optical distribution network. The optical line terminal is installed with a wireless signal active modulating module and demodulating module, and the optical network unit is installed with a bilateral antenna, a wireless signal passive modulating module and demodulating module. The technology combines the point to several point-to-multipoint transmission characteristic of the wireless and PON baseband service, solves the problems of blind zone of wireless access and low interference killing feature (relative to optical fiber).
+44. 101340246 Ethernet passive optical network capable of lengthening transmission distance
+CN
+07.01.2009
+H04B 10/17 Loading...
+H04B 10/17
+Loading...
+200810048759.1
+Wuhan Yangtze Optical Technology Co., Ltd.
+Zhang Li
+H04B 10/17
+Loading...
+The invention relates to an ethernet passive optical network that can extend transmission distance, which comprises an OLT and an ONU; the OLT is connected with the ONU by a passive optical splitter and an optical fiber; the ethernet passive optical network is characterized in that an EPON optical signal power amplifier is arranged in the link between the OLT and the remote ONU; the EPON optical signal power amplifier provides an upper connecting light port and a lower connecting light port; the upper connecting light port is connected with the OLT by a primary passive optical splitter, and after passing a long distance optical fiber, the lower connecting light port is connected with the remote ONU by a secondary passive optical splitter or directly; the EPON optical signal power amplifier simultaneously performs power amplification for the uplink 1318nm and downlink 1490nm optical signals. The EPON that can extend the transmission distance has the advantages of lower cost and higher stability; by adjusting configuration parameters, the registration of long distance ONU, as well as the request and distribution of bandwidth, is supported.
+45. 201126888 一种用于电信机箱的插板助插拔器
+CN
+01.10.2008
+H01R 13/629 Loading...
+H01R 13/629
+Loading...
+200720088943.X
+武汉长光科技有限公司
+张传毅
+H01R 13/629
+Loading...
+本实用新型涉及一种用于电信、网络设备所使用的12UATCA标准插箱上的插板助插拔器，包括有扳键体，其不同之处在于在板健体的前端一侧设置有端头，所述的端头前端开设有连接卡扣，端头的一侧设置有铰接孔，在铰接孔的侧上方对应配置直角形定位面，在板健体的中部对应端头一侧设置有弹性臂。所述的板健体和端头可由金属材料制成，在板健体外包覆塑料外层，且弹性臂也由塑料制成并与塑料外层相联成一体。本实用新型的有益效果在于：1.结构简单，设置合理，将原有的多个零件的装配结构简化为单一的整体件，不仅便于制作，而且使用的可靠性更强；2.本实用新型在印制电路插板的上下均可使用，通用性强，使用方便。
+46. 101014054 Three network into one card based on passive optical network
+CN
+08.08.2007
+H04L 29/10 Loading...
+H04L 29/10
+Loading...
+200710051519.2
+Wuhan Yangtze Optical Technology Co., Ltd.
+Hu Baomin
+H04L 29/10
+Loading...
+The invention relates to one fiber interface network without source and its data transmission terminal three in one card, wherein, it sets one hardware network system connected to computer through PCI interface based on one PON system light network unit composed of light network unit and its outside circuit; light network unit and its out circuit is connected to interface fiber through fiber receiver and with other end connected to computer PCI interface through Ethernet MAC controller.
+47. 101014055 Computer Ethernet card based on passive optical network
+CN
+08.08.2007
+H04L 29/10 Loading...
+H04L 29/10
+Loading...
+200710051520.5
+Wuhan Yangtze Optical Technology Co., Ltd.
+Hu Baomin
+H04L 29/10
+Loading...
+The invention relates to one fiber interface network without source and its data transmission terminal three in one card, wherein, it sets one hardware network system connected to computer through PCI interface based on one PON system light network unit composed of light network unit and its outside circuit; light network unit and its out circuit is connected to interface fiber through fiber receiver and with other end connected to computer PCI interface through Ethernet MAC controller.
+

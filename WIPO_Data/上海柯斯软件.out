@@ -1,0 +1,421 @@
+1. 105488668 SIM卡支付应用脱机交易信息实时上报的方法和系统
+CN
+13.04.2016
+G06Q 20/16 Loading...
+G06Q 20/16
+Loading...
+201410473232.9
+中国移动通信集团辽宁有限公司沈阳分公司
+喻子蛟
+G06Q 20/16
+Loading...
+本发明涉及SIM卡支付应用脱机交易信息实时上报的方法和系统，方法包括：SIM卡的交易监听模块监听SIM卡内的离线支付应用；当余额变化时，记录交易信息并向背包短信上发模块提交实时交易信息的数据；背包短信上发模块接收数据并进行缓存，根据缓存的信息状态进行背包短信的上发，并根据背包短信的发送情况来清理缓存的信息。系统包括交易监听模块和背包短信上发模块；背包短信上发模块包括交易信息缓存池子模块和背包短信上发模块。本发明能达到对发行的带有手机支付应用的SIM卡的脱机交易使用情况的实时监控、数据采集以及必要统计目的，为SIM卡中的支付应用提供额外的安全保护和交易风险监控。
+2. 104980914 一种对SIM卡内应用安全访问控制的方法和系统
+CN
+14.10.2015
+H04W 8/24 Loading...
+H04W 8/24
+Loading...
+201410128825.1
+中国移动通信集团辽宁有限公司沈阳分公司
+曹巍
+H04W 8/24
+Loading...
+本发明涉及通信技术领域，尤其涉及一种对SIM卡内应用安全访问控制的方法和系统。本发明的方法包括：在SIM卡内设置一个白名单管理模块；发卡方通过白名单管理模块，设定当前的白名单规则；当SIM卡收到外部设备发起的针对某卡内应用的访问请求时，SIM卡将该请求提交给白名单管理模块；白名单管理模块依据当前设定的白名单规则，来限制外部访问的接入，过程结束；或者允许外部访问的接入，过程结束。系统包括：白名单规则设定管理子模块，白名单规则判定子模块，白名单功能标识存储单元和白名单文件存储单元。本发明能达到对卡内应用的外部访问控制的管理，依据外部安全需求，可以限制卡内特定应用的外部访问，从而提升了SIM卡作为应用存储媒介的安全性。
+3. 103699493 System and method for controlling DTR memory space of intelligent card
+CN
+02.04.2014
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310731151.X
+上海柯斯软件股份有限公司
+王启勇
+G06F 12/02
+Loading...
+Disclosed is a system and a method for controlling DTR memory space of an intelligent card. The system comprises a DTR address distributor used for distributing DTR virtual addresses, a mapping manager used for managing mapping from the DTR addresses to physical memory addresses, and a fragment collator used for performing fragment collating on DTR space after garbage collection of objects, and the mapping manager dynamically adjusts mapping when choosing applications, removing chosen applications and distributing new objects. By the system and the method, consumption of physical RAM (random access memory) is saved, presetting of size of DTR sections is not needed, the size of all DTR sections is determined by actually-chosen context, and the problem of insufficient physical memory can be specifically and effectively solved.
+4. 203502986 双芯片支持国密算法的智能卡
+CN
+26.03.2014
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201320510738.3
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种智能卡技术领域的双芯片支持国密算法的智能卡，包括：国密安全芯片、SWP芯片和SIM卡引脚，其中：国密安全芯片分别与SWP芯片以及SIM卡的C7引脚相连，SWP芯片分别与国密安全芯片和SIM卡的C6引脚相连。本智能卡可同时应用于移动支付和国密认证业务，解决了目前主流国密芯片与NFC移动支付技术方案无法同时兼备的问题。
+5. 102855563 基于机顶盒实现安全支付的系统及方法
+CN
+02.01.2013
+G06Q 20/34 Loading...
+G06Q 20/34
+Loading...
+201210258180.4
+上海柯斯软件股份有限公司
+王启勇
+G06Q 20/34
+Loading...
+一种电视机机顶盒技术领域的基于机顶盒实现安全支付的系统及方法，该系统包括：设置于机顶盒内的中央处理单元和安全支付模块以及与机顶盒相连的安全模块管理系统，安全支付模块与机顶盒内的读卡器相连并传输账号信息，中央处理单元与安全支付模块传输账号信息，中央处理单元与电视相连输出电视信号并接收支付信息，安全支付模块分别通过广电系统网络与安全模块管理系统相连并传输安全证书及算法更新信息以及远程控制指令，并通过网络与支付系统前置机相连并传输支付请求，安全模块管理系统与支付后台相连并接收安全证书及算法更新信息，支付后台与支付系统前置机相连并传输解密后的支付信息以及支付结果反馈信息。本发明结构简单紧凑、成本低廉、操作简便且具备无限扩充能力。
+6. 202306605 具有音频接口的非接触IC卡
+CN
+04.07.2012
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+201120413035.X
+上海柯斯软件有限公司
+吴俊
+G06K 19/07
+Loading...
+一种无线通信技术领域的具有音频接口的接触IC卡，包括：音频接口、音频通讯编码器、非接触IC卡和天线线圈，音频接口分别与手机和音频通讯编码器相连，音频通讯编码器与非接触IC卡相连，天线线圈设置于音频通讯编码器和非接触IC卡的外部并与非接触IC卡相连。本装置小巧方便携带，在手机音频接口上即插即用，通过手机配套的软件相结合，既可以实现基于手机银行、手机支付、电子商务等应用的加密身份认证，其预置的非接触IC卡也可作为一张异性非接触IC卡，在非接终端上刷卡消费。
+7. 102523092 基于音频的非接触IC卡及移动认证数据传输装置
+CN
+27.06.2012
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201110398800.X
+上海柯斯软件有限公司
+吴俊
+H04L 9/32
+Loading...
+一种基于音频的非接触IC卡及移动认证数据传输装置，包括：包括：音频接口、音频通讯编解码模块、CPU控制模块、非接触IC卡模块、安全密钥处理模块和发射模块，其中：音频接口与手机相连并传输音频信号至音频通讯编解码模块，音频通讯编解码模块与CPU控制模块相连并传输模数转换后的数据，CPU控制模块将数据进行逻辑判断并分别输出用于非接触式IC应用和安全认证的数据至非接触IC卡模块以及安全密钥处理模块，发射模块与非接触IC卡模块相连并传输APDU指令，安全密钥处理模块输出解密结果至CPU控制模块。本发明可以实现基于手机银行、手机支付、电子商务等应用的加密身份认证，其预置的非接触IC卡模块也可作为一张异型非接触IC卡，在非接终端上刷卡消费。
+8. 202217313 支持双频非接触通讯的智能卡
+CN
+09.05.2012
+G06K 19/08 Loading...
+G06K 19/08
+Loading...
+201120324916.4
+上海柯斯软件有限公司
+吴俊
+G06K 19/08
+Loading...
+一种无线通信技术领域的支持双频非接触通讯的智能卡，包括：设置于SIM卡芯片中的控制芯片、射频天线、中频通讯模块、射频通讯模块和SIM卡C6引脚以及设置于移动终端内的CLF芯片和NFC天线，控制芯片分别与中频通讯模块以及射频通讯模块相连并传输来自移动终端发送的符合7816协议的APDU指令以及响应信息，中频通讯模块与C6引脚相连并接收符合SWP协议的指令信息，射频通讯模块与射频天线相连并传输2.4G数据包信息，CLF芯片分别与SIM卡引脚以及NFC天线相连并传输符合SWP协议的指令信息。本实用新型可应用于移动支付业务中不同频段数据信息的传输。
+9. 102426658 支持双协议的非接触通讯智能卡
+CN
+25.04.2012
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201110338957.3
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种无线通信技术领域的支持双协议的非接触通讯智能卡，包括：带有的内置天线线圈的SIM卡基，支持14443协议和7816协议的双界面模块、支持SWP协议和7816协议的SWP安全模块，其中：内置天线线圈与双界面模块相连并传输非接触信息；双界面模块与手机相连接并传输符合7816协议的指令信息；双界面模块与SWP安全模块相连并以7816规范传输外部非接触指令信息；SWP安全模块通过C6引脚与移动终端内的CLF芯片相连接，并发送的符合SWP协议的指令信息。本装置解决了同一张SIM卡分别插入在普通非NFC手机和NFC手机里对目前两种主流非接触式移动支付技术方案无法同时兼备的问题。
+10. 102291431 Time identification method based on radio frequency identification-subscriber identity module (RFID-SIM)
+CN
+21.12.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110186463.8
+Shanghai COS Software Inc.
+Wu Jun
+H04L 29/08
+Loading...
+The invention relates to a time identification method based on a radio frequency identification-subscriber identity module (RFID-SIM), which realizes identification sequentially through information registration, information check-in, information check-out and finally data submission through any one of an on-line mode and an off-line mode. The time identification method based on the RFID-SIM can identify volunteers, record service time of the volunteers, store and manage the service time and realize a public welfare time bank.
+11. 202041977 内置天线的SIM卡外部通信扩展装置
+CN
+16.11.2011
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201120151991.5
+上海柯斯软件有限公司
+应根军
+G06K 19/077
+Loading...
+一种移动通信技术领域的内置天线的SIM卡外部通信扩展装置，包括：基板、天线线圈和双界面芯片，双界面芯片封装于基板的内部一侧，基板的另一侧设有卡槽，天线线圈环绕设置于基板的内部且位于双界面芯片和卡槽的外围，天线线圈与双界面芯片相连。本装置能够降低卡片的整体厚度，方便贴片智能卡的安装和卸载，并且能广泛应用于不同型号的手机，具有极大的兼容性。同时可实现非接和接触式功能，组合后的系统外观与ISO7816 ID-000尺寸SIM卡一致，由于系统内置天线，不需要接插任何带连接柄式的天线。
+12. 102231883 Teledata transmission content encrypting system and method based on RFID (radio frequency identification)-SIM (subscriber identity module) card
+CN
+02.11.2011
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+201110193193.3
+Shanghai COS Software Inc.
+Wu Jun
+H04W 12/02
+Loading...
+The invention relates to a teledata transmission content encrypting system and method based on an RFID (radio frequency identification)-SIM (subscriber identity module) card in the technical field of wireless communication. The system comprises a server and an RFID-SIM card, wherein the server contains a server roof certificate and a system user personalized certificate, and the RFID-SIM card contains a service certificate and a personalized certificate. The RFID-SIM card sends short messages with encrypted data to a short message authentication server through a common wireless network provided by an operator, and the short message authentication server also sends the short messages with encrypted data to the RFID-SIM card through the common wireless network provided by the operator in the same way. By utilizing the system and method provided by the invention, the defects of symmetric encryption and asymmetric encryption in the prior art can be overcome, and more comprehensive compressing-encrypting-envelope packet data transmission can be realized.
+13. 201984492 三接口智能卡读写器
+CN
+21.09.2011
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201120018634.1
+上海柯斯软件有限公司
+刘红梅
+G06K 7/00
+Loading...
+一种射频识别技术领域的三接口智能卡读写器，包括：主控板、USB接口、射频识别读取器、接触式卡槽和含低频天线的接口板，USB接口和接触式卡槽分别焊接在接口板上且USB接口的信号端与接触式卡槽的信号端均与接口板的输出端相连接，射频识别读取器和接口板相互固定连接且射频识别读取器的输入端与接口板的输出端相连接，主控板的输出端与接口板的输入端相连接。本实用新型能够适用于传统SIM卡、2.45GHz的RFID-SIM卡以及13.56MHz非接触卡三种不同规范的存储设备。
+14. 201984512 自带内置天线的双界面SIM卡
+CN
+21.09.2011
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201120087062.2
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种无线通信技术领域的自带内置天线的双界面SIM卡，包括：SIM卡以及设置于其内部的C4触点、C8触点、双界面芯片和天线线圈，天线线圈环绕设置于双界面芯片以及C4触点、C8触点的外围，天线线圈的正负极以及C4触点和C8触点分别与双界面芯片的正负极相连。本装置解决使SIM卡结合连接柄形式的天线可能因弯折造成的死折而断线。并引出了C4和C8两个触点，使其可以单独作为普通双界面SIM卡使用，也可以外接扩展天线，以符合更多的应用环境。
+15. 201946017 双接口智能卡读写器
+CN
+24.08.2011
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201120002917.7
+上海柯斯软件有限公司
+刘红梅
+G06K 17/00
+Loading...
+一种射频识别技术领域的双接口智能卡读写器，包括：主控板、RFID读取器和接触式卡槽，主控板分别与RFID读取器以及接触式卡槽相连接。本装置既能对接触式智能卡读写，又能对频段为2.45GHz的射频智能卡读写，可同时操作接触式智能卡和2.45GHz射频智能卡。
+16. 201853804 供插入式智能卡非接触界面使用的天线
+CN
+01.06.2011
+H01Q 1/22 Loading...
+H01Q 1/22
+Loading...
+201020587253.0
+上海柯斯软件有限公司
+吴俊
+H01Q 1/22
+Loading...
+一种无线通信技术领域的供插入式智能卡非接触界面使用的天线，包括：天线、设置于天线上的接插口以及与之相连接的连接线。本装置通过可拆卸的连接线设计，有效的解决了连接线易断裂不可更换以及现有技术中天线与连接线固化成一个整体进而不方便拆卸使用的问题。
+17. 101998317 Data transition system based on short message protocol and transfer approach thereof
+CN
+30.03.2011
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201010595107.7
+Shanghai Cos Software Co., Ltd.
+Cheng Hao
+H04W 4/14
+Loading...
+The invention discloses a data transition system based on a short message protocol and a transfer approach thereof, belonging to the technical field of communication. The data transition system comprises a PC (personal computer) management station unit, a protocol data transition module, a short message gateway, a mobile phone OTA (over-the-air) card client side, an application system service interface and a data acquisition platform, wherein the PC management station unit is connected with the protocol data transition module and transmits user basic information and data information for verifying user validity and data validity; the mobile phone OTA card client side is connected with the data transition module via an operator short message gateway and transmits original short message content and the encrypted packet of data to be updated; and the protocol data transition module decrypts and resolves the short message content and outputs extracted data information to the data acquisition platform.
+18. 201732437 用于现场支付的射频智能卡刷卡装置
+CN
+02.02.2011
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201020241896.X
+上海柯斯软件有限公司
+陈本荣
+G07G 1/12
+Loading...
+一种射频识别技术领域的用于现场支付的射频智能卡刷卡装置，包括：刷卡主板、与刷卡主板相连接的电源以及屏蔽外壳，所述的刷卡主板包括：射频智能卡卡槽、发光二极管、中央处理控制器和电压调整器，其中：电源与电压调整器的输入端相连接，电压调整器的输出端与中央处理控制器以及射频智能卡卡槽相连接并输出电压，中央处理控制器的信号输出端与射频智能卡卡槽相连并传输数据信号，中央处理控制器的显示端与发光二极管相连接并输出状态信号。本实用新型为使用射频智能卡进行现场支付等操作的用户提供一种射频智能卡刷卡机。使用范围广，便于携带。有效的解决了当用户手机没电时无法在现场刷卡支付的问题。
+19. 201622597 薄膜智能卡
+CN
+03.11.2010
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201020163042.4
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种无线通信技术领域的薄膜智能卡，包括：天线圈、智能卡芯片、电容、吸波层和基底层，其中：天线圈、智能卡芯片和电容分别封装在吸波层和基底层之间，天线圈均匀环绕设置于薄膜的内部四周且天线圈的两端与智能卡芯片的天线端及电容的两端相并联，智能卡芯片和电容位于天线圈内。本实用新型整体厚度小于1毫米，能够放置在移动终端的后盖与电池中间，从而能够解决现有技术中支付型智能卡不方便携带的问题。
+20. 201622596 具有接插口的双界面薄膜智能卡
+CN
+03.11.2010
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201020163014.2
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种无线通信技术领域的具有接插口的双界面薄膜智能卡，包括：薄膜智能卡、设置于薄膜智能卡上的接插口以及与之相连接的连接线，所述的薄膜智能卡包括：天线圈、智能卡芯片、电容、吸波层和基底层，其中：天线圈、智能卡芯片和电容分别封装在吸波层和基底层之间，天线圈以正方形结构均匀环绕设置于薄膜的内部四周且天线圈的两端与智能卡芯片的天线端及电容的两端相并联，智能卡芯片和电容位于天线圈内。本实用新型解决了现有技术中载有天线层的基材和智能卡固化成了一个整体不方便拆卸使用的问题。
+21. 201622599 具有方便卡槽的微型智能卡
+CN
+03.11.2010
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201020163205.9
+上海柯斯软件有限公司
+吴俊
+G06K 19/077
+Loading...
+一种无线通信技术领域的具有方便卡槽的微型智能卡，包括：贴片智能卡、设置于贴片智能卡上的集成芯片以及与贴片智能卡活动连接的卡槽，其中：卡槽为镂空结构且内框形状与贴片智能卡及集成芯片相匹配。本实用新型将贴片智能卡的芯片与卡槽进行结合。解决了现有技术中拔取不方便的现象，方便贴片智能卡的安装和卸载，并且能广泛应用于不同型号的手机，具有极大的兼容性。
+22. 101790166 Digital signing method based on mobile phone intelligent card
+CN
+28.07.2010
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+200910312596.8
+Shanghai COS Software Inc.
+Wu Jun
+H04W 12/06
+Loading...
+The invention relates to a digital signing method based on a mobile phone intelligent card, which belongs to the technical field of mobile phone intelligent cards. The method comprises the following steps of: sending service information to a mobile authentication platform by a bank platform through a special network interface; sending data to be signed to an authentication terminal by the mobile authentication platform in a data short message mode; confirming the signature by hands or refusing to confirm the signature by a user through the authentication terminal, wherein when the signature is confirmed by hands, the intelligent card carries out encryption on the data to be signed, and sends a signing result to the mobile authentication platform, or else, the authentication process fails; after the mobile authentication platform receives the signing result, then forwarding to a digital certification authentication center to carry out signature verification processing; directly sending a signature verification result to the mobile authentication platform by the digital certification authentication center, and forwarding the signature verification result to the bank platform through the mobile authentication platform, and processing the services and authentication process results by the bank platform according to the signing result. The invention can use mobile phone short messages to realize safe and reliable digital signing authentication; and the method is simple and convenient and has high security.
+23. 101790144 Method for performing information transmission by using dialing control
+CN
+28.07.2010
+H04W 4/16 Loading...
+H04W 4/16
+Loading...
+200910312733.8
+Shanghai COS Software Inc.
+Wu Jun
+H04W 4/16
+Loading...
+The invention discloses a method for performing information transmission by using dialing control, and belongs to the technical field of mobile communication. The method for performing the information transmission by using the dialing control comprises that: a mobile phone terminal sets a data instruction to be executed as a nested label and packages the instruction in a main label which has label information, length information and a character value to call an intelligent card in a calling form; the intelligent card receives the call and analyzes the main label, namely, the intelligent card judges that the character value in the main label is the data instruction which belongs to a directly executed data instruction or an intercepted data instruction and performs corresponding common dialing control processing or information processing. By loading the instruction of operable data information into the dialing control instruction, the method for performing information transmission by using the dialing control breaks through the cognition on the dialing control, further improves the application range of the technical field of SIM cards, and is applied to any intelligent card equipment capable of communicating with the mobile phone terminal 7816 interface, and has high extensibility and practicality.
+24. 201408448 用于手机的迷你电子钱包
+CN
+17.02.2010
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+200920071756.X
+上海柯斯软件有限公司
+吴俊
+G07F 7/08
+Loading...
+一种电子通信技术领域的用于手机的迷你电子钱包，包括：芯片、线圈、吸波层、铁氧体、壳体、底座、印刷层、可拆卸数据排线、电容、插口，其中：在芯片的同一水平面上围绕着线圈，线圈的两端分别与电容连接，吸波层固定设置于线圈的下方，铁氧体固定设置于吸波层的下方，芯片、线圈、电容、吸波层和铁氧体依次固定设置于底座上方，壳体与底座固定连接，印刷层设置于电容上方，可拆卸数据排线的两端分别连接芯片和手机SIM卡，插口设置于壳体外侧。本实用新型扩展了电子钱包的应用，可通过SIM卡的空中充值功能为支付芯片充值，并可提供余额查询、交易明细查询和积分查询功能。
+25. 101334913 Method for receiving and processing multi-terminal information by self-adapting SIM chip operating system
+CN
+31.12.2008
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+200810037087.4
+Shanghai COS Software Inc.
+Lu Yunzhan
+G07F 7/08
+Loading...
+The invention relates to a multi-terminal information receiving and processing method for a self-adapting SIM chip operating system, which pertains to the technical field of mobile communication. The method comprises the steps that: first, a data communication interface of a mobile terminal is connected with a C6 pin on an SIM chip; then an NFC module in the mobile terminal receives a PBOC data command sent by an external terminal POS machine in a non-access manner according to14443 Wireless Application Protocol; the SIM chip receives data in a bidirectional 7816 standard data transmission way or in an SWP data transmission way; in the 7816 standard data transmission way, after receiving PBOC data, an SIM card enters an approach operation; a PBOC logic processing module processes credit for unload operation and credit for load operation corresponding to the PBOC data command and enters a withdrawal operation and backs to a GSM operation mode. In the SWP data transmission way, the SIM chip receives the data by the C6 pin and executes relevant operations; after operations are finished, the SIM chip is in the GSM operation mode; the two transmission ways are complementary and mutually independent and can be compatible with various mobile terminals and the hardware of the SIM chip.
+26. 101252436 Smart card dynamic password creating and judging system
+CN
+27.08.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200810035205.8
+Shanghai COS Software Inc.
+Li Huiguang
+H04L 9/32
+Loading...
+Disclosed is a system for generating and judging dynamic password of a smart card of the mobile communication technical field. The system comprises a smart card, a user mobile device, a security authentication server and a target login system; the smart card is connected with the user mobile device through a standard input/output port; the security authentication server is connected with the target login system through internet; the user mobile device and the target login system can be operated by the user; the smart card comprises a nonvolatile memory provided with user information, user-end system time and user-end dynamic password inside; the security authentication server comprises an authentication database provided with user information backup, server-end system time and server-end dynamic password inside. The application of the dynamic password of the invention is independent from the user mobile device and can not be affected by hardware difference, so as to facilitate using.
+27. 101252435 Method for realizing dynamic password generation and judge on smart card
+CN
+27.08.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200810035204.3
+Shanghai COS Software Inc.
+Li Huiguang
+H04L 9/32
+Loading...
+Disclosed is a method for realizing the generation and judgment of dynamic password on a smart card of the mobile communication technical field. The method comprises the following steps: firstly, a user registers and a security authentication server generates the user information and stores the information in a nonvolatile memory of the smart card connected with a peripheral device, and also stores the user information backup into an authentication database of the security authentication server; then the user sends dynamic password generation request and the smart card generates a user-end dynamic password, so the user sends authentication request to the security authentication server; next, the security authentication server generates a server-end dynamic password which then goes through rechecking comparison with the user-end dynamic password in the authentication request; finally, the result of failed authentication goes through rechecked error correction; if the rechecked error correction succeeds, the authentication is passed; if not, the authentication is failed and the user can select give-up or continuous authentication for desynchronizing restoration. The method can be universally applied to various peripheral devices and is not limited by hardware.
+28. 101090542 Method for read-write to file in S-SIM care
+CN
+19.12.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710043685.8
+Kesi Software Co., Ltd., Shanghai
+Shao Zhimin
+H04Q 7/32
+Loading...
+This invention discloses a method for air reading and writing file in S-SIM cards in the telecommunication technology, in which, an operator server sends down a data short message to a user mobile terminal by a short message channel, after the S-SIM card receives a data short-message sent by the server, it analyzes and executes the order and communicates with the server up and down, when writing the S-SIM card file, the S-SIM card sets up a temporary file in its Flash for storing the data short message to keep the integrality of data, after the operation, the card deletes the temporary file, and the service provider negotiates with the user S-SIM card and repeats the above operation when carrying out a new negotiation.
+29. 101017558 Method for implementing digitization of information card and method of using
+CN
+15.08.2007
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+200710037484.7
+Shanghai COS Software Inc.
+Shao Zhimin
+G06Q 30/00
+Loading...
+This invention relates to one information card digital realization and use method, wherein, the realization method comprises the following steps: producer makes information digital card stored into network servo; producer is to add digital card into anti-false actions; fixing one digital card tool in user mobile terminal. This invention use method comprises the following steps: user enters digital card clamp tool for identification; clamp automatically sends out new card to user terminal; user can process network browsing and card sorting operation; in user consumption, checking the card number or producer deice of card.
+30. 101018251 SMS classified access method based on the SIM card
+CN
+15.08.2007
+H04M 1/665 Loading...
+H04M 1/665
+Loading...
+200710036547.7
+Shanghai COS Software Inc.
+Li Huiguang
+H04M 1/665
+Loading...
+The related method for receiving SMS as type based on SIM card comprises: improving the inner structure of SIM card to build in a SMS limit-access rule table and relative menu; setting menu operation; when receiving new SMS, updating the new one into EFsms in SIM card; starting the classified accessing SMS function to compare the new SMS with rules in turns by the SIM card; if satisfying rule, notifying phone to does not show the new SMS, and limiting the SMS as pr-set; when stopping the function or beyond the rule, user can read SMS normally. This invention is benefit to overcome SMS annoyance, and extends SIM card application range.
+31. 101014059 Method for storing and extending data information of electric phone book
+CN
+08.08.2007
+H04M 1/275 Loading...
+H04M 1/275
+Loading...
+200710036332.5
+Shanghai COS Software Inc.
+Wu Jiaxi
+H04M 1/275
+Loading...
+The invention discloses one telescope communication electron book data information memory and expansion method, which comprises the following steps: setting one new telephone book files in memory of communication device; setting another new file label name files in memory; communication device uses telephone book files and label name file to process extensive book function operations.
+32. 101014167 SIM card-based classified access method of incoming call
+CN
+08.08.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710036331.0
+Shanghai COS Software Inc.
+Li Huiguang
+H04Q 7/32
+Loading...
+The invention relates to one call telephone sorting and interface method in communication technique field, which realizes user self-definition rules to control calls on base of SIM card, wherein, in the inner structure, user cell phone judges SIM car reset status through interacting platform through cell phone and SIM card; the cell phone sends detail call transfer or forbids interface order content to limit call interface to end; SIM card not sending Send USSD order to cell phone to permit cell phone to indicate user call to end.
+33. 101009884 The method for utilizing the data SMS and STK menu to realize the SMS discount coupon
+CN
+01.08.2007
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+200610148203.0
+Shanghai COS Software Inc.
+Wu Jun
+H04W 4/14
+Loading...
+The related method in telegraphy field to send courtesy card by SMS comprises: 1. user initiates a register process to obtain a unique communication key; 2. user selects the courtesy card and sends download request; 3. the server receives the request to send the courtesy card by downloading the courtesy card as enciphered data SMS to a card; 4. the card stores received courtesy card into list of SIM card; 5. user selects courtesy card from the SIM menu; and 6. the server sends courtesy card according to set attribution. This invention has well anti-falsification feature to overcome the illegal utility in prior art, protects businessman safety, and is also benefit to consumer.
+34. 101005676 Method for down loading network resource using mobile terminal
+CN
+25.07.2007
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+200710036548.1
+Kesi Software Co., Ltd., Shanghai
+Ni Jian
+H04W 8/18
+Loading...
+The method comprises: when mobile terminal starts downloading, it creates two files-'listed download file' and 'temperate download file' respectively used for saving the relevant information of downloaded files and the content of downloaded files; in download process, comparing the overall size of downloaded file with its size already downloaded to decide if the download is completed; if not, continuing to download; if yes, the copying the temperate download file to a path appointed by user, and meanwhile deleting said two files or records; when an interruption occurs in the downloading process, the mobile terminal saves the breaking point information, and provides 'automatically enabling' function to re-enable the download process.
+35. 101004797 Method for safely storing data in smart card with large capacity
+CN
+25.07.2007
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+200710036781.X
+Kesi Software Co., Ltd., Shanghai
+Ni Jian
+G06K 19/073
+Loading...
+A method for safely storing data in large-capacity intelligent card includes adding data safety processing logic unit in large-capacity intelligent card and carrying out user status verification operation by said logic unit before data read/write operation is carried out on card, forbidding external unit to carry out any data read/write operation on said card and not deciphering any data stored in storage unit by said logic unit if verification is not passed, deciphering red out data by said logic unit and outputting deciphered plain text when verification is passed and data-reading operation is done.
+

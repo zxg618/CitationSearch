@@ -1,0 +1,121 @@
+1. 101299741 Method and system of channel estimation and signal equilibrium
+CN
+05.11.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810085578.6
+Legend Silicon Corp.
+Liu Qin
+H04L 27/26
+Loading...
+In an OFDM system having pseudo-noise (PN) sequences as guard intervals, a method for channel estimation and equalization is provided. The method comprising the steps of: providing a frequency equalization scheme; providing a time domain filter; and combining the frequency equalization with time-domain filter, thereby a time lag effect is taken into consideration for the channel estimation and equalization.
+2. 101286967 Method and device for frequency domain compensation for channel estimation at an over sampling rate
+CN
+15.10.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710130010.7
+Legend Silicon
+Liu Qin
+H04L 27/26
+Loading...
+In a TDS-OFDM receiver, a method and a device for frequency-domain compensation for channel estimation at an over-sampling rate is provided. The method and device includes a correlater for correlating a first signal and a second signal; a transformer for transforming the correlated signals into a frequency domain; and an interpolater and truncater block for interpolating and truncating the transformed signal to have the interpolated and truncated, transformed signal as a reference for future use.
+3. 101286966 OFDM system adapted to multi-program transmission therefore
+CN
+15.10.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710130009.4
+Legend Silicon
+Yang Haiyun
+H04L 27/26
+Loading...
+The present invention relates to an OFDM (Orthogonal frequency-division multiplexing) communication system being suitable for multiple programs transmission, belonging to communication technique field. The system includes at least two programs being simultaneously transmitted under one spectrum. Each program is respectively modulated under a different or similar scheme. Each of the at least two programs commonly share a control frame. The control frame is transmitted under a similar or more robust modulation scheme than the at least two programs' modulations respectively.
+4. 101247202 Method for generating ldpc code for a LDPC based TDS-OFDM system
+CN
+20.08.2008
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710130007.5
+Legend Silicon
+Chen Lei
+H04L 1/00
+Loading...
+In a system for generating TDS-OFDM, a method for generating LDPC codes is provided. The method comprises the steps of: constructing a base matrix; providing a plurality of sub-matrices for forming the base matrix, with each sub-matrix being a cyclic permutation matrix; and masking the base matrix using a small sparse matrix. The LDPC codes can be encoded in linear time using simple shift-registers with complexity linearly proportional to the length of the code for parallel encoding. The code and method of the present invention also optimizes the degree distributions of check nodes and bit nodes to make the error-floor lower than 10<-12>.
+5. 101202729 TDS-OFDM communication system receiver based on LDPC code
+CN
+18.06.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710130002.2
+Legend Silicon
+Yang Lin
+H04L 27/26
+Loading...
+The present invention relates to a TDS-OFDM communication system receiver basing on the LDPC code, belongs to the communication technology field. The receivers demodulates the RF signal which is coded by the LDPC and is modulated by the TDS-OFDM and is downconverted to IF signal, and includes a synchronization block, an equalization block, an OFDM demodulation block and a FEC decoder block. The synchronization block generates a baseband signal from a digitized IF signal and performs correlation of a PN sequence in a signal frame of the received RF signal with a corresponding locally generated PN sequence to provide signals for performing carrier recovery, timing recovery and parameters for channel estimation. The equalization block performs channel estimation and channel equalization. The OFDM demodulation block performs demodulation on the baseband signal to recover OFDM symbols and converts the OFDM symbols to frequency domain. The FEC decoder block includes an LDPC decoder for decoding the OFDM symbols based on the LDPC code to generate a digital output signal indicative of the data content of the RF signal.
+6. 101174917 Receiver architecture having a LDPC decoder with an improved LLR update method for memory reduction
+CN
+07.05.2008
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710129719.5
+Legend Silicon
+Zhong Yan
+H04L 1/00
+Loading...
+The present invention provides a reduced memory implementation for the min-sum algorithm compared to traditional hardware implementations. The improvement includes innovative MIN_SUM method with reduced memory requirements suitable of computer implementation that combines the traditional row update process and column update process into a single process, in that the traditional CNU unit and VNU unit are combined into a single CVNU unit. The improvement not only reduces the time required for decoding by half, but also reduces the logic and routing efforts. Furthermore, instead of storing the whole intermediate LLR values using a significant number of memories, only a set of parameters associated with the intermediate LLR values is stored. The set of parameters includes: 1. sign of LLR; 2. the minimum LLR, 3. sub-minimum LLR, and 4. the column location of minimum value in each row. Therefore, as compared with the traditional LDPC decoder implementation, the required memory size of the present invention is significantly or tremendously reduced.
+7. 101137053 Low pin number high-speed interface for audio-video coder/decoder
+CN
+05.03.2008
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200710130001.8
+Legend Silicon Corp.
+Chen Lei
+H04N 7/24
+Loading...
+The invention relates to a high-speed interface with less pipe legs applied to the audio and video encoder-decoder, belonging to the communication technical field. The receiver comprises: at least a tuner including a shell or a shield shell surrounding some components of the tuner. Furthermore, the tuner at least has a pipe leg or wire lead out from the shield shell and a sigma delta modulator receiving at least a simulated input flow with at least a frequency from at least a tuner and outputting a data flow of at least 1 bit. Each 1 bit data flow is connected with a physical line which connects wire or pipe legs at terminal. The receiver has at least a digital filter connected with the sigma delta tuner to filter at least 1 bit data flow.
+8. 101127531 Multi-code rate LDPC code for a LDPC based TDS-OFDM system
+CN
+20.02.2008
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+200710130499.8
+Legend Silicon
+Chen Lei
+H03M 13/11
+Loading...
+The present invention provides a reduced memory implementation for the min-sum algorithm compared to traditional hardware implementations. The improvement includes innovative MIN_SUM method with reduced memory requirements suitable of computer implementation that combines the traditional row update process and column update process into a single process, in that the traditional CNU unit and VNU unit are combined into a single CVNU unit. The improvement not only reduces the time required for decoding by half, but also reduces the logic and routing efforts. Furthermore, instead of storing the whole intermediate LLR values using a significant number of memories, only a set of parameters associated with the intermediate LLR values is stored. The set of parameters includes: 1. sign of LLR; 2. the minimum LLR, 3. sub-minimum LLR, and 4. the column location of minimum value in each row. Therefore, as compared with the traditional LDPC decoder implementation, the required memory size of the present invention is significantly or tremendously reduced.
+9. 101127710 Method and device for non-repetitive package transmission
+CN
+20.02.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710130013.0
+Legend Silicon
+Chen Lei
+H04L 12/56
+Loading...
+The invention relates to a method and apparatus for non-repeatability packet transmission. The invention provides a packet transmission system with empty packet. The said system comprises transmitter end for sending the information packet with empty packet filled with redundant information or checking information; and receiver end for receiving information packet and decoding the information packet by preset decoding method; thus the information packet is transmitted once.
+10. 101119353 Ldpc coding based tds-ofdm communication system transmitter
+CN
+06.02.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710130006.0
+Legend Silicon
+Yang Lin
+H04L 27/26
+Loading...
+An OFDM (Orthogonal frequency-division multiplexing) communication system is provided. The system includes at least two programs being simultaneously transmitted under one spectrum. Each program is respectively modulated under a different or similar scheme. Each of the at least two programs commonly share a control frame. The control frame is transmitted under a similar or more robust modulation scheme than the at least two programs' modulations respectively.
+

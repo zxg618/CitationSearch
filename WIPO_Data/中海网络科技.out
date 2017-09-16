@@ -1,0 +1,1201 @@
+1. WO/2017/067045 DEVICE AND METHOD FOR MANAGING LINKAGE CONTROL PRIVILEGE
+WO
+27.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/096606
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+YANG, Zhongzhen
+H04L 29/06
+Loading...
+The present invention relates to a device for managing a linkage control privilege, comprising: a linkage service system and multiple linkage terminals; in one service instance, one linkage terminal can only play one role, i.e., a control terminal or a controlled terminal, within a period of time; the control terminal obtains a privilege token of the controlled terminal so as to perform linkage control on the controlled terminal; the linkage service system is configured to maintain the roles of the linkage terminals and the states of the privilege tokens, process or transfer application for the privilege tokens, and initiate or transfer recycling of the privilege tokens. The present invention enables multiple control terminals to sequentially perform linkage operations on one controlled terminal, including sequential distribution, allocation, recycling, and transfer of privilege tokens.
+2. 106599885 一种集装箱Bay位监测系统及方法
+CN
+26.04.2017
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+102016000770423
+中海网络科技股份有限公司
+张勇
+G06K 9/20
+Loading...
+一种集装箱Bay位监测系统，在小车底部安装第一图像抓拍器，用于对集装箱进行实时跟踪，在桥吊横梁前大臂中心位置安装有第二图像抓拍器，用于监控集装箱贝位信息，在码头的海侧安装有至少一部第三图像抓拍器，用于集装箱箱号识别，在码头的陆侧安装有至少一部第四图像抓拍器，用于集装箱箱号识别，在桥吊控制室内设有桥吊PLC和识别服务器，PLC联动控制识别服务器，将桥吊小车及吊具的实时坐标发给图像抓拍器，使其获取集装箱实时位置，在集装箱装卸过程中触发不同位置的图像抓拍器对集装箱多个面进行精确抓拍，将获取的图像信息上传至识别服务器进行集装箱号码的识别，并上传到监控管理中心。
+3. 106601237 交互式语音应答系统及其语音识别方法
+CN
+26.04.2017
+G10L 15/06 Loading...
+G10L 15/06
+Loading...
+201611245325.1
+上海智臻智能网络科技股份有限公司
+曾永梅
+G10L 15/06
+Loading...
+本发明提供了一种用于交互式语音应答系统的语音识别方法，该交互式语音应答系统包括知识库，该知识库包括知识点的集合，该语音识别方法包括基于该知识库中的知识点的集合获取语音训练语料；使用所得到的语音训练语料来训练语言模型；以及使用该语言模型来识别用户的语音输入。本发明大大提高了语料对于语言模型训练的针对性，使得以极少的训练成本获得了较高准确度的语言模型。
+4. 106571039 一种高速公路违章行为自动抓拍系统
+CN
+19.04.2017
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+102016000701713
+中海网络科技股份有限公司
+谭中慧
+G08G 1/017
+Loading...
+一种高速公路违章行为自动抓拍系统，包括前端抓拍单元、网络传输单元、检测单元以及管理服务器，其中，前端抓拍单元获取检测场景中的实时视频，网络传输单元将实时视频传输到检测单元，检测单元获得视频后，运用目标分割、轨迹跟踪、分析，寻找存在倒车、逆行及违章停车的异常行为的车辆，并给出目标车辆所在位置，控制云台转动，使目标车辆车牌处于前端抓拍单元捕获图像的中心，控制前端抓拍单元镜头变焦，调整目标在图像中的大小，使其适合进行车牌识别分析，确定车牌后，前端抓拍单元控制电动变倍镜头恢复到广角监控模式，并进行远景、近景及车牌的抓拍，同时将抓拍结果上传至管理服务器单元。
+5. 106532624 一种船舶岸电综合保护控制系统
+CN
+22.03.2017
+H02H 3/00 Loading...
+H02H 3/00
+Loading...
+201610704015.5
+中海网络科技股份有限公司
+徐永法
+H02H 3/00
+Loading...
+一种船舶岸电综合保护控制系统，包括微机和由FPGA组成的嵌入式控制器，船舶岸电接入屏、岸电连接屏和电缆卷车连接嵌入式控制器，岸电箱和岸电连接屏经过转换接口还接入微机，岸电电源经过综保继电器接入嵌入式控制器。
+6. 106529371 一种车辆智能服务系统
+CN
+22.03.2017
+G06K 7/14 Loading...
+G06K 7/14
+Loading...
+201610948992.X
+巴中市大巴山网络科技有限公司
+后志鹏
+G06K 7/14
+Loading...
+本发明涉及车辆挪车技术领域，提供一种车辆智能服务系统，包括：扫码挪车单元，用于对二维码进行扫描，获取车主联系信息，并依据车主联系信息执行挪车提醒动作；基于车牌的挪车单元，用于根据车辆的车牌信息，执行挪车提醒动作；基于车辆代码的挪车单元，用于根据预先生成的车主用户的车辆代码，执行挪车提醒动作；贴条提示服务单元，用于触发生成贴条指令，并将贴条区域信息推送给处于贴条区域内的所有车主用户的终端设备上；商家信息提示服务单元，用于对车主终端设备当前位置进行地理位置定位，并向车主的终端设备推送周边商家的位置信息和产品信息，从而为车主用户提供全方位的智能服务，实现挪车提醒、贴条提醒和商家服务提醒。
+7. 106470349 一种智能电视中HTML5视频的提取和操控优化方法
+CN
+01.03.2017
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+102015000519932
+中国科学院声学研究所
+胡琳琳
+H04N 21/266
+Loading...
+本发明提供了一种智能电视中HTML5视频的提取和操控优化方法，所述方法包括：当用户在智能电视机中搜索HTML5视频时，首先获取搜索HTML5视频的关键字，然后在多个视频网站中搜索关键字获取HTML5视频结果；将获取的HTML5视频结果进行聚合，以列表的方式进行显示；所有的视频结果在一个页面内播放。本发明的方法根据用户行为获取搜索关键字，并且对不同视频网站进行搜索，得到多源聚合的视频资源，可以大大减少用户的操作，智能化搜索极大提升智能电视用户友好性。
+8. 205987174 一种智能家居养老系统
+CN
+22.02.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201620929027.3
+江苏中纪海富网络科技有限公司
+周继兵
+H04N 7/18
+Loading...
+本实用新型公开了一种智能家居养老系统，包含数据采集终端以及与其远程连接的移动终端，所述数据采集终端包含主控制器模块以及分别与其连接的摄像头模块、WIFI模块、TF Card模块、SPI Flash模块；本实用新型智能家居养老系统具有监控家庭室内环境安全的功能，当系统在监控期间检测到异常画面，如老人摔倒、走出家门等变化图像，系统会立刻发出警报，并及时提示户主，这种模式可以用于上班或外出时家中无人的情况。
+9. 103888790 一种EPG适配系统及方法
+CN
+15.02.2017
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+102012000564497
+中国科学院声学研究所
+刘学
+H04N 21/254
+Loading...
+本发明提供了一种EPG适配系统及方法，所述系统包含：配置模块，根据EPG样本文件，设置输入与输出EPG文件的字段与样本字段的映射关系，并设置EPG文件的信息结构与存储模块存储结构转化的方式；字段适配模块，用于实现配置模块设置的EPG文件字段与存储模块字段之间的相互翻译；处理模块，用于实现配置模块设置的EPG文件信息结构与存储模块存储结构之间的相互转化；存储模块，用于存储输入的EPG文件解析后的节目信息数据，并实现EPG信息的持久化。所述处理模块进一步包含：表式处理子模块，链式处理子模块和树形处理子模块实现EPG文件的信息结构由树形结构和存储模块存储结构之间的相互转化。
+10. 104133465 船舶高压电力的模拟试验装置
+CN
+15.02.2017
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+102014000348548
+中海网络科技股份有限公司
+郑晓鸣
+G05B 23/02
+Loading...
+本发明公开了一种船舶高压电力的模拟试验装置，包括配电系统、至少一组的高压配电屏、能量管理控制器以及可调负载装置，配电系统包括2组以上的发电机组，发电机组包括低压交流发电机、电动机以及机组驱动装置，机组驱动装置包括机组驱动控制器、变频器以及电动电位器，每组高压配电屏包括负载控制屏、发电机控制屏、同步控制屏以及联络控制屏；可调负载装置包括阻性负载和感性负载，能量管理控制器通过通讯总线分别与同步控制屏、联络控制屏、发电机控制屏以及机组驱动装置相连。本发明将实船高压配电屏引入实验室，改变了以往实验室只有低压配电屏或者只有高压配电屏仿真系统的状况。
+11. 106339072 一种基于左右脑模型的分布式大数据实时处理系统及方法
+CN
+18.01.2017
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+102015000400600
+中国科学院声学研究所
+盛益强
+G06F 3/01
+Loading...
+本发明涉及一种基于左右脑模型的分布式大数据实时处理系统，包括：由m个边缘左脑模块组成的边缘左脑模块集合{B(i)EL}、由m个边缘右脑模块组成的边缘右脑模块集合{B(i)ER}、中心左脑模块BCL和中心右脑模块BCR，其中，1≤i≤m，所述m为边缘服务器的个数；第i个用户群与第i个边缘左脑模块B(i)EL之间为双向连接，从第i个用户群到第i个边缘右脑模块B(i)ER为单向连接，第i个边缘左脑模块B(i)EL与第i个边缘右脑模块B(i)ER之间为双向连接，中心左脑模块BCL与第i个边缘左脑模块B(i)EL为双向连接，从第i个边缘右脑模块B(i)ER到中心右脑模块BCR为单向连接，中心左脑模块BCL与中心右脑模块BCR之间为双向连接。
+12. 106327001 一种基于辅助代价和相似状态的非凸优化方法
+CN
+11.01.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102015000400879
+中国科学院声学研究所
+盛益强
+G06Q 10/04
+Loading...
+本发明涉及一种基于辅助代价和相似状态的非凸优化方法，包括：用基于辅助代价函数Ca的初始化方法搜索到一个初始状态，再通过快速搜索方法找到代价函数C的一个局部最优状态E1，然后开始寻找与E1类似的局部最优状态E2，之后再寻找与E2类似的局部最优状态E3，循环往复地找到一系列局部最优状态，直到代价函数C的局部最优状态的数目满足阈值为止；其中，所述辅助代价函数Ca较代价函数C的表达式简单；Ei和它的类似状态之间的相似度，随着i的增加而减小。
+13. 106257887 一种基于WebSocket的获取客户端硬件信息的方法
+CN
+28.12.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510342151.X
+中国科学院声学研究所
+胡琳琳
+H04L 29/08
+Loading...
+本发明提供了一种基于WebSocket的获取客户端硬件信息的方法，所述方法包括：步骤1)对通用WebSocket对象扩展自定义JavaScript接口函数；步骤2)客户端创建WebSocket对象，并建立与服务器的连接，调用所述步骤1)的扩展自定义JavaScript接口函数；步骤3)Web引擎内核根据WebSocket对象调用的接口函数获取相应设备硬件信息，返回给客户端；步骤4)客户端将返回的设备硬件信息包含在数据报文中发送到服务器；步骤5)所述服务器对数据报文进行处理，并根据设备硬件信息将处理结果返回到客户端；步骤6)客户端根据返回的处理结果继续对服务器发送数据报文，直至通信完毕；步骤7)通信完毕后，关闭WebSocket连接。
+14. 205754854 具有防水功能的扩声设备
+CN
+30.11.2016
+H04R 27/00 Loading...
+H04R 27/00
+Loading...
+202016000455657
+东莞市三基音响科技有限公司
+李小学
+H04R 27/00
+Loading...
+一种具有防水功能的扩声设备，包括设备本体，该设备本体的一侧面上设置有控制面板，该控制面板上设有按键、插口及旋钮，所述控制面板的外侧设有防水罩，所述防水罩完全遮盖于控制面板上，防水罩上设有用于调整防水罩密封状态的拉链。本实用新型通过设置防水罩，有效地避免了雨水对扩声设备的影响。且该防水罩的设置非常科学合理，不会给扩声设备增加过度的附加结构和重量，不影响扩声设备的轻便性。此外，所述拉链的设置，方便了控制面板的使用，且可有效避免雨水自拉链锁紧件处进入防水罩内，防水效果好，使用便利，实用性强。
+15. 106155644 适用于智能电视浏览器的网页焦点控制实现方法
+CN
+23.11.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102015000142619
+中国科学院声学研究所
+党寿江
+G06F 9/44
+Loading...
+本发明涉及一种适用于智能电视浏览器的网页焦点控制实现方法，包括：智能电视浏览器加载所要显示的网页代码；其中，所述网页代码包括有自定义的焦点标签，所述自定义的焦点标签包括自定义的属性与自定义的事件，所述自定义的属性与焦点标签的显示样式相关联；智能电视浏览器的JavaScript监听操作事件，使用焦点标签时，将监听到的操作事件映射到所述自定义的焦点标签，根据自定义的焦点标签的坐标信息及焦点标签的层级关系，计算出各个自定义的焦点标签的相对位置，并通过控制焦点标签的显示样式使某一焦点标签成为聚焦的焦点，从而实现焦点的移动。
+16. 106155778 一种应用容器的启动方法及系统
+CN
+23.11.2016
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+102016000534217
+中国科学院声学研究所
+朱小勇
+G06F 9/46
+Loading...
+本发明涉及一种应用容器的启动方法及系统，该方法包括：创建应用运行所需应用容器，并配置运行环境；安装运行所需应用；创建保存检查点文件的目录；启动运行所需应用；运行所需应用启动完成后，启动热迁移模块，冻结应用容器及应用进程；保存热迁移模块收集应用容器和应用所使用的资源到检查点目录；再次启动所述应用容器时，先创建应用运行所需应用容器，再读取保存在硬盘上的检查点数据；解析所述检查点数据，恢复所述应用容器的所需资源，恢复所需应用的进程，启动应用容器。该系统包括：应用运行模块、第一保存恢复模块、第二保存恢复模块和数据存储模块。本发明利用应用容器热迁移技术，实现了应用容器启动的加速。
+17. WO/2016/173086 MULTI-TERMINAL INTERACTION RELATION MAINTENANCE SYSTEM AND METHOD
+WO
+03.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2015/080757
+INSTITUTE OF ACOUSTICS, CHINESE ACADEMY OF SCIENCES
+YANG, Zhongzhen
+H04L 29/08
+Loading...
+Disclosed are a multi-terminal interaction relation maintenance system and method. The interaction relation is states of performing instruction and data synchronization interaction by a plurality of terminals in the same service instance in a traffic service system. The system comprises an interaction service module and an interaction terminal. Terminals that have an interaction relation belong to the same bounding group, terminals in the same bounding group are served by the same service instance, the interaction service module manages the bounding group based on rules, comprising but not limited to creating, modifying and deleting the bounding group, provides a mutual addressing service for the terminals in the bounding group and also provides a service for a terminal to be bound or unbound with other terminals, and after mutually addressing by means of the interaction service module, terminals interact with each other by means of instruction and data interaction. By means of the interaction relation maintenance method and device disclosed in the present invention, an interaction relation is maintained based on a rule of a service end, so that the maintenance cost of an interaction relation for a terminal is reduced, and the flexibility of interaction relation maintenance is improved.
+18. 106033555 基于满足K度稀疏约束的深度学习模型的大数据处理方法
+CN
+19.10.2016
+G06N 5/00 Loading...
+G06N 5/00
+Loading...
+102015000112645
+中国科学院声学研究所
+盛益强
+G06N 5/00
+Loading...
+本发明提出了基于满足K度稀疏约束的深度学习模型的大数据处理方法，所述方法包括：步骤1)通过渐变剪枝法用无标注训练样本构建满足K度稀疏约束的深度学习模型；所述K度稀疏约束包括节点K度稀疏约束和层次K度稀疏约束；步骤2)将更新后的训练样本输入所述满足K度稀疏约束的深度学习模型，优化模型的各层的权重参数；进而得到优化的满足K度稀疏约束的深度学习模型；步骤3)将待处理的大数据输入所述优化的满足K度稀疏约束的深度学习模型进行处理，最后输出处理结果。本发明的方法能够降低大数据处理的难度，提高大数据处理的速度。
+19. 106033554 一种基于分段的两级深度学习模型的大数据处理方法
+CN
+19.10.2016
+G06N 3/08 Loading...
+G06N 3/08
+Loading...
+201510111904.6
+中国科学院声学研究所
+王劲林
+G06N 3/08
+Loading...
+本发明提供了一种基于分段的两级深度学习模型的大数据处理方法，所述方法包括：步骤1)构建并训练基于分段的两级深度学习模型，该模型从纵向层次上分为两级：第一级和第二级；所述第一级的各层从横向上分为M段；第一级中不同段间相邻层的神经元节点间权重为0；步骤2)将待处理的大数据按照数据的类型分为M个子集，分别输入基于分段的两级深度学习模型的第一层的M段进行处理；步骤3)输出大数据处理结果。本发明提出的基于分段的两级深度学习模型能够有效地减小了模型规模，缩短了模型的训练时间；本发明的方法能够提高大数据的处理速度，缩短处理时间。
+20. 106004015 3D霓彩光变印刷用全自动生产线及其生产工艺
+CN
+12.10.2016
+B41F 15/12 Loading...
+B41F 15/12
+Loading...
+102016000241142
+无锡徐达防伪科技有限公司
+倪炳忠
+B41F 15/12
+Loading...
+本发明公开了一种3D霓彩光变印刷用全自动生产线，包括，3D霓彩光变定型单元，用于对底纸上的图案进行定型处理，定型后形成图案是包括具有3D霓彩光变球柱滚动或具有炫动效果；生产工艺，包括以下步骤：1）将3D霓彩光变油墨加入印刷机内，印刷版安装在印刷机上；2）放卷待印刷底纸；3）由印刷机进行印刷；4）印刷进行后对印刷图案进行3D霓彩定型；6）定型好图案后，进行固化烘干；7）固化烘干后，收卷。以上单元全部自动关联一次性完成。通过上述方式，本发明能够实现全自动化实现3D霓彩光变定型定位功能使印刷图案出现3D霓彩光变球柱滚动或炫动效果，提高了生产效率，提升印刷品质。
+21. WO/2016/145675 BIG DATA PROCESSING METHOD FOR SEGMENT-BASED TWO-GRADE DEEP LEARNING MODEL
+WO
+22.09.2016
+G06N 3/02 Loading...
+G06N 3/02
+Loading...
+PCT/CN2015/075472
+INSTITUTE OF ACOUSTICS, CHINESE ACADEMY OF SCIENCES
+WANG, Jinlin
+G06N 3/02
+Loading...
+Provided is a big data processing method for a segment-based two-grade deep learning model. The method comprises: step 1), constructing and training a segment-based two-grade deep learning model, wherein the model is divided into two grades in a longitudinal level: a first grade and a second grade, each layer of the first grade is divided into M segments in a horizontal direction, and the weight between neuron nodes of adjacent layers in different segments of the first grade is zero; step 2), dividing big data to be processed into M sub-sets according to the type of the data and respectively inputting same into M segments of a first layer of the segment-based two-grade deep learning model for processing; and step 3), outputting a big data processing result. The segment-based two-grade deep learning model provided in the present invention can effectively reduce the scale of a model and shortens a training time of the model. The method of the present invention can increase the big data processing speed and shorten the processing time.
+22. WO/2016/145676 BIG DATA PROCESSING METHOD BASED ON DEEP LEARNING MODEL SATISFYING K-DEGREE SPARSE CONSTRAINT
+WO
+22.09.2016
+G06N 5/00 Loading...
+G06N 5/00
+Loading...
+PCT/CN2015/075473
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+SHENG, Yiqiang
+G06N 5/00
+Loading...
+Proposed is a big data processing method based on a deep learning model satisfying K-degree sparse constraints. The method comprises: step 1), constructing a deep learning model satisfying K-degree sparse constraints using an un-marked training sample via a gradient pruning method, wherein the K-degree sparse constraints comprise a node K-degree sparse constraint and a level K-degree sparse constraint; step 2), inputting an updated training sample into the deep learning model satisfying the K-degree sparse constraints, and optimizing a weight parameter of each layer of the model, so as to obtain an optimized deep learning model satisfying the K-degree sparse constraint; and step 3), inputting big data to be processed into the optimized deep learning model satisfying the K-degree sparse constraints for processing, and finally outputting a processing result. The method in the present invention can reduce the difficulty of big data processing and increase the speed of big data processing.
+23. 105872122 一种支持多编码的物联网标识方法
+CN
+17.08.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201610184504.2
+中国科学院计算机网络信息中心
+袁博
+H04L 29/12
+Loading...
+本发明属于物联网信息系统技术领域，具体为一种支持多编码的物联网标识方法，它根据现有的编码与企业物联网域名通过简单变换组合而成。它本身既是物联网应用标识同时也是物联网对象标识。当作为网址直接被打开时，它作为应用标识；当通过DNS记录查询资源时，它作为对象标识。与其他物联网标识相比，本发明的支持多编码的物联网标识可以降低解析的复杂程度，让用户快速简单的获得信息。
+24. 105812472 一种基于URI的物联网标识及服务方法
+CN
+27.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610182896.9
+中国科学院计算机网络信息中心
+田野
+H04L 29/08
+Loading...
+本发明涉及一种基于URI的物联网标识及服务方法。该基于URI的物联网标识包含代理服务器标识和物品对象标识。首先通过客户端app扫描基于URI的物联网标识的二维码，发起web请求以访问代理服务器；代理服务器调用物联网标识服务功能模块，与国家物联网标识管理公共服务平台交互，发起物联网标识服务流程；代理服务器获得国家物联网标识管理公共服务平台返回的信息后，发起web跳转并反馈给客户端app；客户端app加载跳转后的URI页面内容，呈现给用户。本发明将物联网物品标识以URI的形式命名，通过设立代理服务器来发起物联网标识服务流程，能够确保客户端无需任何改动即可享用到物联网标识服务带来的便利。
+25. 105740059 一种面向可分割任务的粒子群调度方法
+CN
+06.07.2016
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201410768968.9
+中国科学院声学研究所
+尤佳莉
+G06F 9/46
+Loading...
+本发明涉及一种面向可分割任务的粒子群调度方法，包括：将待调度的任务分割为子任务后，以随机产生的任务分配方案作为一个粒子，以任务分配方案对应的时间性能作为粒子的适应度，以粒子适应度之间的差值计算粒子之间相互移动的速度，对粒子群做多次进化，从多次进化的结果中选出适应度最好的粒子；最后结合开销值，对适应度最好的粒子所对应的任务分配方案中的各个子任务做子任务调度。
+26. 105743789 一种树结构网络自治管理和节点加入方法
+CN
+06.07.2016
+H04L 12/733 Loading...
+H04L 12/733
+Loading...
+201410743785.1
+中国科学院声学研究所
+王劲林
+H04L 12/733
+Loading...
+本发明涉及一种树结构网络自治管理和节点加入方法，包括：首先测量待加入节点与树结构网络中各节点间的路由跳数，然后根据路由跳数关系将待加入节点加入到树形网络中的合适位置，使得节点间的物理跳数关系与拓扑跳数关系保持基本一致。本发明为大规模节点参与的网络服务提供一种灵活的节点自治管理方法，其加入过程尽量反映了节点间的物理位置关系，便于节点的寻址和查找。
+27. 105741364 一种同一车道兼容两种射频标准的ETC系统
+CN
+06.07.2016
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201610037167.4
+中海网络科技股份有限公司
+徐青松
+G07B 15/06
+Loading...
+本发明公开了一种同一车道兼容两种射频标准的ETC系统，沿收费岛ETC车道行车方向，车道地面依次设有第一地感线圈、第二地感线圈、第三地感线圈、第四地感线圈和第五地感线圈，所述ETC系统包括五组光栅，沿收费岛ETC车道行车方向，分别是第一光栅、第二光栅、第三光栅、第四光栅和第五光栅，每组光栅包括光源部件和接收部件，光源部件和接收部件分别位于车道两侧相对的位置，第一光栅和第二光栅设于第一地感线圈处，第三光栅和第四光栅设于第二地感线圈处，第五光栅设于第五地感线圈处，第一射频天线设于收费岛第一交易区域的一侧，第二射频天线设于第三地感线圈上方。
+28. 105743955 一种扩展JavaScript对象方法
+CN
+06.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102014000768954
+中国科学院声学研究所
+胡琳琳
+H04L 29/08
+Loading...
+一种扩展JavaScript对象的方法，所述方法包括：页面调用JavaScript对象，并将调用请求通过JavaScript层的自定义对象，Java层的对象，JNI的对象传递到C++层的对象；C++层的对象根据请求调用本地组件进行异步处理；处理结束之后，返回回调消息；C++层对象将回调的消息内容封装为JSON格式，通过socket客户端发送；在Java层，socket服务端接收消息，并把消息放在当前显示的WebView中的消息队列中；JavaScript层的自定义对象定时从消息队列中取出消息；触发JavaScript对象的事件，将消息以事件的形式通知页面。
+29. 105721182 一种树结构网络的管理结构分裂方法
+CN
+29.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102014000725489
+中国科学院声学研究所
+王劲林
+H04L 12/24
+Loading...
+本发明涉及一种树结构网络的管理结构分裂方法，包括：如果Q(R)大于L，假设一节点o为动态根节点，对于节点o的任意子节点pi，若Q(pi)Q(o)/2，将该节点pi设为动态根节点o，然后重新执行。
+30. WO/2016/090758 TREE STRUCTURE NETWORK AUTONOMOUS MANAGEMENT AND NODE ADDING METHOD
+WO
+16.06.2016
+H04L 12/733 Loading...
+H04L 12/733
+Loading...
+PCT/CN2015/074085
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+WANG, Jinlin
+H04L 12/733
+Loading...
+A tree structure network autonomous management and node adding method comprises: firstly measuring routing hops between a node to be added and each node in a tree structure network, and then adding the node to be added to an appropriate position in the tree-shaped network according to a routing hop relationship, so that a physical hop relationship and a topology hop relationship between the nodes remain substantially consistent. A flexible node autonomous management method is provided for a network service with a large scale of nodes participated, and the adding process thereof reflects a physical position relationship between nodes as far as possible, and facilitates the addressing and searching of nodes.
+31. 105677398 一种通用的嵌入式计算机软件在线升级方法
+CN
+15.06.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201511027217.2
+中海网络科技股份有限公司
+贾鑫
+G06F 9/445
+Loading...
+本发明公开了一种通用的嵌入式计算机软件在线升级方法，采用在线升级服务器对嵌入式计算机软件升级，在线升级服务器的升级步骤包括：开始升级，读取升级文件头，校验升级文件，比较版本号，发送升级文件，发送重启指令，结束升级。
+32. WO/2016/086547 MANAGEMENT STRUCTURE SPLITTING METHOD FOR TREE-STRUCTURE NETWORK
+WO
+09.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2015/074084
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+WANG, Jinlin
+H04L 12/24
+Loading...
+A management structure splitting method for a tree-structure network comprises: where Q(R) is greater than L, it is assumed that a node o is a dynamic root node, with regard to any child node Pi of the node o, if Q(Pi) < Q(o)/ 2, all nodes are aggregated into two classes; a new node is deployed or assigned as a newly split management root node, a father node of one class of nodes in the aggregated two classes in a management structure points to the new management root node, and the operation ends; otherwise, Pi and a subtree thereof are extracted as a new management tree, and then a new management root node is deployed at the position of Pi or a network position above Pi, and Pi points to the new management root node, and the operation ends; or otherwise, where Q(Pi) > Q(o)/ 2, the node Pi is set to be the dynamic root node o, and then re-execution is carried out.
+33. 105656973 一种分布式节点组内任务调度方法及系统
+CN
+08.06.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410691155.4
+中国科学院声学研究所
+王劲林
+H04L 29/08
+Loading...
+本发明提供一种分布式节点组内的任务调度方法及系统，所述方法包含：步骤101)收集组内各节点的资源状态信息和历史服务信息；步骤102)接收服务请求命令，解析请求命令获得请求的任务；步骤103)根据各节点的资源状态信息和历史状态信息，计算由组内每个节点加载任务后的资源利用率增量和组内各类资源的占用情况；依据使组内各节点的资源利用率增量尽量低和对组内各类资源的占用尽量均衡的原则选择组内的服务执行节点，由选择的服务执行节点提供请求的任务。本发明提出的适用于解决单一任务在多资源约束、包含多服务节点的节点组的情况下的分布式调度方法。
+34. 105654060 一种从道路监控视频获取车辆车速的方法
+CN
+08.06.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610003858.2
+中海网络科技股份有限公司
+谭中慧
+G06K 9/00
+Loading...
+一种从道路监控视频获取车辆车速的方法，其特征在于，所述的从道路监控视频获取车辆车速的方法包括5个主步骤，分别是预处理、建立映射关系、提取车辆投影序列、车辆空间定位和速冻拟合。
+35. WO/2016/082370 DISTRIBUTED NODE INTRA-GROUP TASK SCHEDULING METHOD AND SYSTEM
+WO
+02.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/074087
+INSTITUTE OF ACOUSTICS, CHINESE ACADEMY OF SCIENCES
+WANG, Jinlin
+H04L 29/06
+Loading...
+Provided are a distributed node intra-group task scheduling method and system. The method comprises: step 101) collecting resource state information and history service information about each node in a group; step 102) receiving a service request command and parsing the request command to obtain a request task; step 103) according to the resource state information and history service information about each node, calculating the resource utilization rate increment after each node in the group loads a task and the occupation condition of each kind of resource in the group; and according to a principle of making the resource utilization rate increment of each node in the group as low as possible and the occupation of each kind of resource in the group as balanced as possible, selecting service execution nodes in the group, and providing the request task by the selected service execution nodes. The present invention provides the distributed scheduling method suitable for solving the condition of single tasks under a node group constrained by multiple resources and containing multiple service nodes.
+36. 205263531 一种煤矿石码头监控管理学习仿真装置
+CN
+25.05.2016
+G05B 17/02 Loading...
+G05B 17/02
+Loading...
+201521089106.X
+中海网络科技股份有限公司
+陆中杰
+G05B 17/02
+Loading...
+本实用新型公开了一种煤矿石码头监控管理学习仿真装置，该学习仿真装置包括仿真工作站，该仿真工作站连接工业交换机，通过工业以太网连接控制PLC，所述的学习仿真装置还包括皮带机模拟器、堆取料机模拟器和装船机模拟器，所述的控制PLC分别与皮带机模拟器、堆取料机模拟器和装船机模拟器电连接，所述皮带机模拟器、堆取料机模拟器和装船机模拟器均装设有状态信号采集接口和报警信号接口，所述的控制PLC与这些状态信号采集接口和报警信号接口进行数据交换通信，所述的仿真工作站还包括一个独立的数据存储器，用于存储过程模拟数据。
+37. 103377296 一种多指标评价信息的数据挖掘方法
+CN
+18.05.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210116561.9
+中国科学院声学研究所
+王劲林
+G06F 17/50
+Loading...
+本发明公开了一种多指标评价信息的数据挖掘方法，包括：读取已有的交互数据；所述已有的交互数据包括显性的打分数据，所述显性的打分数据包括：一用户在与要打分的物品或服务相类似的已经打过分的其他物品或服务上的打分数据；其他用户之前在要打分的物品或服务上的打分数据；根据已有的交互数据，采用经过训练的关联模型预先计算一用户对某一物品或服务在某一指标上的打分值。本发明可以支持多指标打分的预测，并具有较高的预测准确度和分类准确度；收敛速度快，运行时间短，适合于在线实时推荐。
+38. 105574502 一种自助发卡机违章行为自动检测方法
+CN
+11.05.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201510941325.4
+中海网络科技股份有限公司
+袁彬
+G06K 9/00
+Loading...
+本发明公开了一种自助发卡机违章行为自动检测方法，采用视频监控手段，对于自助发卡机区域的车辆和行人的行为进行自动识别，所述自动检测方法包括3个主步骤，分别是目标分割、违章行为识别和违章行为检测，所述自动检测方法中的处理步骤均是针对自助发卡机区域监控视频图像的按照先后顺序处理。
+39. 205175548 振动信号传感装置
+CN
+20.04.2016
+G01H 17/00 Loading...
+G01H 17/00
+Loading...
+201520829170.0
+上海中选网络科技有限公司
+盛煦
+G01H 17/00
+Loading...
+本实用新型提供了一种振动信号传感装置，包括：依次连接的振动传感器、信号转换装置、单片机A、通信单元A、通信单元B、单片机B、无线通信单元；同时提供了另外一种振动信号传感装置，包括：依次连接的振动传感器、信号转换装置容纳槽、单片机容纳槽A、通信单元容纳槽、单片机容纳槽B、无线通信单元容纳槽；本实用新型结构布局合理、加工简单、且提供了额外的单片机、通信单元以及无线通信单元封装容纳结构，便于装置部件的装配扩展，具有较高的应用价值。
+40. 105392057 一种软键盘布局动态调优实现方法
+CN
+09.03.2016
+H04N 21/475 Loading...
+H04N 21/475
+Loading...
+201410447017.1
+中国科学院声学研究所
+刘学
+H04N 21/475
+Loading...
+本发明涉及一种软键盘布局动态调优实现方法，包括：软键盘每一次接收到用户输入的键值，都会根据已接收的键值，预测用户下一次可能输入的键值，并对预测键值的命中率进行排序，把命中率最高的键值的位置调整到指定的位置，并把当前光标移动到该位置，并以当前光标位置为中心，把预测的其他键值按照命中率排序分别排列到当前光标周围，键值命中率越高的键值，离当前光标的跳数越少。通过实施本发明，减少了软键盘用户移动光标的跳数，提高了用户输入效率，尤其在通过电视机遥控器输入的应用中，大大提升了用户的体验满意度。
+41. 105263037 一种基于客户端缓存的自适应流化方法
+CN
+20.01.2016
+H04N 21/43 Loading...
+H04N 21/43
+Loading...
+201410342636.4
+中国科学院声学研究所
+郑艳伟
+H04N 21/43
+Loading...
+本发明涉及一种基于客户端缓存的自适应流化方法，包括：为客户端的缓冲区定义两种状态：缓冲区快速填充状态、自适应码率调整状态；客户端周期性地请求媒体分片文件并播放；其中，为当前请求的媒体分片文件根据缓冲区的当前状态设定码率并以所设定的码率播放，包括：当缓冲区处于缓冲区快速填充状态时，当前请求的媒体分片文件的码率为所能提供的最低码率，当缓冲区处于自适应码率调整状态时，当前请求的媒体分片文件的码率根据包括缓冲区当前的可播放时长、当前可用带宽、媒体分片文件的固定播放时长在内的信息计算得到。
+42. 105142008 一种利用第一终端播放第二终端数据的方法
+CN
+09.12.2015
+H04N 21/436 Loading...
+H04N 21/436
+Loading...
+201510463591.0
+中国科学院声学研究所
+郭志川
+H04N 21/436
+Loading...
+本发明提出了一种利用第一终端播放第二终端数据的方法，包括：包括第一操作系统的第一终端通过组播域名系统发布Air？Play服务；所述服务还包括端口号。包括第二操作系统的第二终端通过第一终端发布的服务与第一终端进行Air？Play连接。当第二终端进行Air？Play连接时，第一终端通过端口号指定的端口接收并播放Air？Play连接传输的数据。通过第一终端发送组播域名系统广播。从而使第二终端能够发现第一终端所发布的服务，并与第一终端相连。从而实现了第一终端与第二终端之间的多屏互动，第一终端和第二终端之间实现图片、音频、视频以及镜像等数据的实时分享。
+43. WO/2015/180446 SYSTEM AND METHOD FOR MAINTAINING CONNECTION CHANNEL IN MULTI-DEVICE INTERWORKING SERVICE
+WO
+03.12.2015
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+PCT/CN2014/093467
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+LI, Yanxia
+H04N 21/422
+Loading...
+The present invention provides a system and a method for maintaining a connection channel in a multi-device interworking service. The system comprises: a multi-screen channel control client module and a multi-screen channel control server module. The multi-screen channel control client module is located on each terminal device, and used for acquiring an identifier of the device terminal and reporting a binding relationship between the terminal and a multi-screen channel to the multi-screen channel control server. The multi-screen channel control server module is used for recording the binding relationship between the terminal and the multi-screen channel, and pushing services to the bound terminal side. The multi-screen channel control server module is located on a server that provides a data service. The present invention has the advantages that the binding relationship maintenance and UI synchronization can be implemented on a newly added Websocket layer without affecting an original service, and stable service upgrade is achieved; and during the implementation of a Websocket channel on a client, multiplexing of the Websocket channel between pages is implemented in a nested iframe mode, thereby reducing the channel maintenance complexity.
+44. WO/2015/169085 METHOD, DEVICE AND SYSTEM FOR PROCESSING MEDIA RESOURCE INFORMATION
+WO
+12.11.2015
+H04N 21/262 Loading...
+H04N 21/262
+Loading...
+PCT/CN2014/093465
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+CHENG, Gang
+H04N 21/262
+Loading...
+The present invention relates to a method, a device and a system for processing media resource information. The method comprises: a server acquires media resource information and user viewing information, the media resource information comprising media features, and the user viewing information comprising user features; the server ranks the media resource information according to the media features and the user features, so as to generate a first sequence; the server schedules the first sequence into time periods of idle channels according to preset priority of channels and time periods so as to generate a program list, and sends the program list to a client; the server receives an update request sent by the client, the update request comprising time baseline changes; and the server updates the program list according to the time baseline changes.
+45. WO/2015/131470 SYSTEM AND METHOD FOR PROVIDING AN ON-SITE SERVICE
+WO
+11.09.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2014/081300
+INSTITUTE OF ACOUSTICS, CHINESE ACADEMY OF SCIENCES
+WANG, Jinlin
+H04L 29/06
+Loading...
+The present invention provides a system and method for providing an on-site service, said system containing a plurality of nodes, each node containing: a neighborhood node set generation module, used for generating a neighborhood node set on the basis of the bidirectional link bandwidth between a local node and a neighboring node; a neighborhood information index table generation module, used for generating a neighborhood information index table of the local node; a candidate service point selection module, used for selecting according to a selection function a candidate service node from the set of neighboring nodes; the definition of said selection function being: for a current service request, computing the difference between the QoS of the neighboring node i executing the service request and the QoS of the local node executing the service request; if the computed difference is smaller than a set threshold, the neighboring node i serving as the candidate service node; a service scheduling module, used for receiving status information and feedback information provided in real time by the candidate service node, and selecting, on the basis of this information, a candidate node or the local node to serve as the service-executing node.
+46. 104656459 Large-sized crane monitoring management and simulation system
+CN
+27.05.2015
+G05B 17/02 Loading...
+G05B 17/02
+Loading...
+201410838056.4
+中海网络科技股份有限公司
+陆中杰
+G05B 17/02
+Loading...
+The invention discloses a large-sized crane monitoring management and simulation system which comprises a crane monitoring management system and a crane simulation system, wherein the crane monitoring management system consists of a local monitoring management system and a remote monitoring management system and realizes functions of crane state monitoring, working area video monitoring, crane fault detection, crane management and the like; the crane simulation system is auxiliary software taking a portal crane as a simulation object and is an assembly assorted with the crane monitoring management system; simulation is realized by a computer and a controller, so that a series of difficulties of large monitoring object figure, complicated structure, expensive equipment, high safety, high operating difficulty, no migration to a lab and the like in research are solved; simulation replaces monitoring test on operation of large-sized mechanical equipment and the mechanical and electrical performance of equipment operation. The crane monitoring management and simulation system fulfills the aim of researching large-sized crane machinery monitoring software and also provides a platform for monitoring software demonstration and operator training.
+47. 204244581 一种大型悬臂式LED交通诱导板外箱体结构
+CN
+01.04.2015
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201420696991.7
+中海网络科技股份有限公司
+杨东雷
+H05K 5/00
+Loading...
+本实用新型涉及一种大型悬臂式LED交通诱导板外箱体结构，它有上部箱体和下部箱体插接固定而成，所述上部箱体包括矩形的上箱体框架，所述上箱体框架上固接前上竖挡和后上竖挡以及前上横挡和后上横挡，上箱体框架的一侧固设上箱体悬臂；所述下部箱体包括矩形的下箱体框架，所述下箱体框架上固接横向加强板前下竖挡、后下竖挡以及前下横挡和后下横挡，下箱体框架与上箱体框架相对应的一侧固设下箱体悬臂，所述下箱体框架的底部固接工作平台。本实用新型采用上部箱体和下部箱体插接固定而成，便于吊环吊装及涂装工艺。另外，由于外箱体结构内部的大部分区域空置，减轻了箱体结构重量。
+48. WO/2015/035908 SMART TELEVISION OPERATION SYSTEM
+WO
+19.03.2015
+H04N 21/443 Loading...
+H04N 21/443
+Loading...
+PCT/CN2014/086207
+ACADEMY OF BROADCASTING SCIENCE. SARFT
+ZOU, Feng
+H04N 21/443
+Loading...
+The present invention relates to a smart television operation system. The system includes: an application framework layer, an application execution environment layer, a component layer, a hardware abstraction layer and a Linux kernel layer, wherein the application framework layer is used for assembling and re-encapsulating each of component interfaces and logics of the component layer to simplify the mechanism for reusing the components of the component layer; the application execution environment layer is used for providing environment for executing and interpreting application codes; the component layer includes digital television-related components for supporting smart television applications, and each of the components provides standardized universal component interfaces for the application framework layer; the Linux kernel layer is used for managing process, managing memory, implementing network protocols and providing drivers for a hardware platform of the smart television; and the hardware abstraction layer is used for abstracting hardware functions of the Linux kernel layer, hiding hardware interface details and providing a virtual hardware platform, so as to provide a unified interface for the component layer and enable the Linux kernel layer to be hardware-independent, thereby facilitating transplant of the Linux kernel layer onto multiple platforms.
+49. WO/2014/202016 CLASSIFICATION-BASED VIRTUAL NETWORK MAPPING METHOD AND SYSTEM
+WO
+24.12.2014
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+PCT/CN2014/080372
+INSTITUTE OF ACOUSTICS,CHINESE ACADEMY OF SCIENCES
+YOU, Jiali
+H04L 12/46
+Loading...
+A classification-based virtual network mapping method and system are provided. The method comprises: classifying, in accordance with network topology information of various areas, virtual nodes in a virtual network request, then dividing, in accordance with classification results, said request into smaller virtual network subrequests, and assigning said virtual network subrequests to various local managers for parallel mapping processing; upon each local manager mapping the virtual network subrequests, using a resource balancing mechanism to perform balancing processing in respect of demand limits of each virtual network subrequest and in respect of available resources of the substrate/physical network of each area, and then coordinating and consolidating the mapping of virtual nodes and of virtual links; once all local managers complete mapping, a global manager consolidates the mapping results of all local managers and feeds back same to a user. Compared to the prior art, the present invention provides features such as a low degree of computational complexity, rapid mapping, and better load balancing on the substrate/physical network.
+50. 104144172 一种基于桌面虚拟化技术的云平台系统和方法
+CN
+12.11.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310162435.1
+上海宏第网络科技有限公司
+王志恒
+H04L 29/08
+Loading...
+一种运用云计算范畴中的桌面虚拟化技术来实现的云平台系统，主要包括网管系统、服务器端程序、客户端程序。网管系统统一管理用户账户、集中部署虚拟桌面；网管系统将管理员的操作指令发送到服务器端程序，由后者完成具体的操作并返回消息。用户账户和虚拟桌面相关信息都保存在数据库中。网管系统可以查询/设置用户账户、虚拟桌面等。服务器端程序监听网管系统发来的操作指令，完成具体的操作，包括虚拟磁盘的拷贝、虚拟机的配置、虚拟机的启动等。虚拟桌面操作系统可根据模板选择。客户端程序登陆界面，用户输入用户名和密码后，系统首先到网管系统进行身份认证；然后获取用户虚拟桌面信息；最后连接登录运行于云服务器上的虚拟桌面。
+51. 104133465 船舶高压电力的模拟试验装置
+CN
+05.11.2014
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201410348548.5
+中海网络科技股份有限公司
+郑晓鸣
+G05B 23/02
+Loading...
+本发明公开了一种船舶高压电力的模拟试验装置，包括配电系统、至少一组的高压配电屏、能量管理控制器以及可调负载装置，配电系统包括两组以上的发电机组，发电机组包括低压交流发电机、电动机以及机组驱动装置，机组驱动装置包括机组驱动控制器、变频器以及电动电位器，每组高压配电屏包括负载控制屏、发电机控制屏、同步控制屏以及联络控制屏；可调负载装置包括阻性负载和感性负载，能量管理控制器通过通讯总线分别与同步控制屏、联络控制屏、发电机控制屏以及机组驱动装置相连。本发明将实船高压配电屏引入实验室，改变了以往实验室只有低压配电屏或者只有高压配电屏仿真系统的状况。
+52. 104135578 一种基于呼叫平台的业务数据处理方法及系统
+CN
+05.11.2014
+H04M 3/493 Loading...
+H04M 3/493
+Loading...
+201410401490.6
+国家电网公司
+李仁杰
+H04M 3/493
+Loading...
+本申请公开了一种基于呼叫平台的业务数据处理方法，包括：接收呼叫平台发送的通话事件，所述通话事件包括客户端的操作信息、语音信息以及客服平台端的操作信息、语音信息；对所述通话事件进行解析并分类，将所述通话事件分为客户端通话事件和客服平台端通话事件；将所述客户端通话事件和所述客服平台端通话事件分别存储在数据库中。本申请统计了客户端在通话过程中的所有操作信息和语音信息，以及客服平台端的所有操作信息和语音信息，为后续工作的开展提供了基础的数据支持。
+53. 104135581 一种通信方法及装置
+CN
+05.11.2014
+H04M 7/00 Loading...
+H04M 7/00
+Loading...
+201410403060.8
+国家电网公司
+杨维
+H04M 7/00
+Loading...
+本申请公开了一种通信方法及装置，应用于本地呼叫平台。当本地呼叫平台接收到用户发送的与基地呼叫平台的通信请求时，获取目标通信数据，且依据预设的数据生成格式，将该目标通信数据生成符合该预设数据生成格式的目标随路数据，进而将所述目标随路数据发送至基地呼叫平台，当接地呼叫平台接收到该目标随路数据后，再依据该预设的数据生成格式，将该目标随路数据还原为目标通信数据，从而利用本地呼叫平台实现了用户与基地呼叫平台的通信连接。现有技术需要改造或更换通信设备才能实现异构的呼叫平台之间的通信连接，成本较高，而本申请无需更换设备，而是将不同的通信数据转化为统一格式的随路数据，实现成本较低。
+54. 203836528 一种大型嵌入式LED情报板安装支架
+CN
+17.09.2014
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+201320870730.8
+中海网络科技股份有限公司
+张建国
+F16M 13/02
+Loading...
+本实用新型公开了一种大型嵌入式LED情报板安装支架，所述的安装支架由多个相同的支架组件焊接成一体，支架组件的正面具有腰孔与LED情报板单元的安装孔对应匹配，并且可以用第二螺栓组连接固定，同时，所述LED情报板由多个情报板单元组成，情报板的背面与安装支架通过多套第一螺栓组连接形成一体，所述的安装支架还通过多个宽型马鞍型抱箍与建筑物的混凝土结构梁有效连接，焊接矩形扁铁框，所述安装支架的支架组件的正面具有矩形对齐托板,LED信息情报板单元分别于支架组件连接，使得各个LED信息情报板单元显示屏处在同一平面上。
+55. 203775546 一种隧道内文字屏箱体结构
+CN
+13.08.2014
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201420072251.6
+中海网络科技股份有限公司
+彭霞
+H05K 5/00
+Loading...
+本实用新型涉及一种隧道内文字屏箱体结构，其特征在于：所述隧道内文字屏箱体结构呈长条形矩形体，包括顶板（1），底板（2），左侧板（4），右侧板（3）；所述顶板（1），底板（2），左侧板（4），右侧板（3）均具有折叠板结构，并各自通过折叠板结构与相邻的面板卡合固定连接；所述左侧板（4）、右侧板（3）上分别固定模组安装面板（5），所述模组安装面板（5）下部设有控制器安装板（10）；所述文字屏箱体背面等距开设一组箱门（8），每个箱门（8）内侧上固定设置电气安装板（9）。本实用新型采用多种折弯设计结构，节省材料，轻型强度好，焊缝少，装配简单，防护性能好，外型美观，日后维修方便。
+56. 203773888 蓝牙无线遥控登高车LED可变信息情报板系统
+CN
+13.08.2014
+G09F 9/33 Loading...
+G09F 9/33
+Loading...
+201420108921.5
+中海网络科技股份有限公司
+赵蕊
+G09F 9/33
+Loading...
+本实用新型提供一种蓝牙无线遥控登高车LED可变信息情报板系统，包括登高车、LED情报板、情报板支架和手持遥控设备。所述情报板支架设置在所述登高车上，所述LED情报板固定在所述情报板支架上。所述手持遥控设备包括操作按钮、液晶屏、蓝牙天线、电源开关和分别与所述操作按钮、所述液晶屏、所述蓝牙天线、所述电源开关连接的处理单元，用于发送道路信息。所述LED情报板内置有无线通信模块，所述无线通信模块与所述蓝牙天线通信连接，所述LED情报板用于接收并发布所述道路信息。本实用新型及时而简便地向后方车辆发布了道路施工信息，避免了安全隐患，并解决了当公路情报板的控制光缆损坏时因维修施工不便而无法及时发布道路信息的问题。
+57. 203721149 一种双立柱T型停车区域情报板支架装置
+CN
+16.07.2014
+G09F 15/00 Loading...
+G09F 15/00
+Loading...
+201320870728.0
+中海网络科技股份有限公司
+黄剑斌
+G09F 15/00
+Loading...
+本实用新型涉及一种双立柱T型停车区域情报板支架装置，其特征在于：包括两根圆立柱（2），两根圆立柱（2）之间设有矩形加强板（4），圆立柱（2）向两侧分别设有三角加强板（3）；三角加强板（3）、矩形加强板（4）的后侧与多个三角支撑架（8）固定连接；多个三角支撑架（8）上边缘构成水平面，水平面上与矩形框架固定连接；矩形框架的两侧边及后侧边的上方固定设置防护框架（1），矩形框架内部设有金属丝网（7）；情报板背部通过弓形加强柱（9）与防护框架（1）及矩形框架固定连接。本实用新型制造工艺上简化施工流程，省去多项切割、焊接装配工艺，节省材料，现场安装方便，后期工作人员设备维护在高空工作平台上移动安全方便。
+58. 103841052 Bandwidth resource distribution system and method
+CN
+04.06.2014
+H04L 12/927 Loading...
+H04L 12/927
+Loading...
+201210491521.2
+中国科学院声学研究所
+朱小勇
+H04L 12/927
+Loading...
+The invention relates to a bandwidth resource distribution system. The bandwidth resource distribution system comprises a priority grading strategy storage module, a data packet classifier, a data packet processor and a residual bandwidth estimation module, wherein the data packet classifier reads a priority grading strategy from the priority grading strategy storage module and classifies network data packets which are transmitted from the outside world and are processed through a network protocol stack, the classified network data packets are transmitted into the data packet processor, the data packet processor processes the network data packets according to an estimation result of the residual bandwidth estimation module, so that it is guaranteed that the data packet with the high priority is processed preferentially, and the network data packets are finally distributed to corresponding external applications. According to the bandwidth resource distribution system, the access bandwidth and the reversed bandwidth of the system do not need to be assumed in advance, fine granularity scheduling of network data can be conducted according to the priorities, and the network service can be provided for services with lower priorities by means of the residual bandwidth on the premise that the application with the high priority can obtain the bandwidth resources as many as possible.
+59. 103823576 Intelligent terminal control information input method and system
+CN
+28.05.2014
+G06F 3/0346 Loading...
+G06F 3/0346
+Loading...
+201210465024.5
+中国科学院声学研究所
+孙鹏
+G06F 3/0346
+Loading...
+The invention relates to an intelligent terminal control information input method and system. The method is used for converting three-dimensional activity information of a control information input terminal capable of acting in a three-dimensional space into two-dimensional control information so as to control specific operations of the intelligent terminal through the two-dimensional information. The method includes steps of adopting a three-axis acceleration sensor and a three-axis angular acceleration sensor to acquire sensing information, containing an initial rotating angle values a0, b0 and c0 of the input terminal, rotating angle values of a1, b1 and c1 of the terminal at optional moments, of the control information input terminal; using differences between the rotating angle values at two moments to perform coordinate system transformation, and acquiring coordinates x and y of the differences in a set two-dimensional plane-coordinate system; using acquired two-dimensional coordinates (x, y) as control information and inputting into the intelligent terminal, and accordingly controlling activities of the intelligent terminal. The angle values are determined on the basis of a set three-dimensional coordinate system.
+60. 203608370 基于ZigBee通信的数据传输分站
+CN
+21.05.2014
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+201320802490.8
+上海中选网络科技有限公司
+于考考
+H04W 88/08
+Loading...
+本实用新型提供了一种基于ZigBee通信的数据传输分站，其特征在于，包括：传感器、ZigBee节点、ZigBee协调器、存储器A、模数转换装置、单片机、通信单元；ZigBee协调器连接多个ZigBee节点，ZigBee节点连接若干传感器，模数转换装置连接在ZigBee协调器与单片机之间，存储器A连接ZigBee协调器，通信单元连接单片机。本实用新型具有低复杂度、自组织、低功耗、高数据速率、低成本的优点，能够适合用井下自动控制和远程控制领域，具有广泛的应用前景。
+61. 203571374 一种隧道内悬挂式情报板安装支架装置
+CN
+30.04.2014
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+201320598335.9
+中海网络科技股份有限公司
+张雄刚
+F16M 13/02
+Loading...
+本实用新型涉及一种隧道内悬挂式情报板安装支架装置，其特征在于,包括：位于同一直线上的若干组悬挂臂，所述悬挂臂上端与隧道顶壁固定连接，下端与情报板固定连接；所述悬挂臂包括上固定板（2），所述上固定板（2）下端与一对竖直的嵌套式管柱固定连接，所述一对嵌套式管柱通过圆孔调节固定位置，通过腰型孔（8）调节偏移位置；所述嵌套式管柱的下端与下固定板（7）固定连接，所述下固定板（7）上开设用于与情报板连接的安装孔。安装支架设计为能够上下、左右二维方向位移，调整固定情报板悬挂在正前方空间的视觉位置，便于可变信息情报板现场施工和售后维修工作。
+62. 203455844 新型身份证识别装置
+CN
+26.02.2014
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201320497682.2
+商高电子科技（上海）有限公司
+沈宇平
+G06K 7/00
+Loading...
+本实用新型提供一种新型身份证识别装置，用以实现银行核对客户真实身份及确认交易的有效性，包括：身份证阅读器和控制器，身份证阅读器包括信息识别模块和第一通信模块，控制器包括第二通信模块、处理器模块、第三通信模块和显示屏，其中，第一通信模块分别与信息识别模块和第二通信模块连接，处理器模块与第二通信模块连接，第三通信模块和显示屏与处理器模块连接。本实用新型能够实现随时随地身份信息采集及验证，使用方便，大大提高了工作效率，降低了劳动强度，提供安全、快捷的金融服务。
+63. 203241594 一种地埋式光缆交接箱气动升降装置
+CN
+16.10.2013
+G02B 6/44 Loading...
+G02B 6/44
+Loading...
+201320282271.1
+中国联合网络通信有限公司上海市分公司
+欧大春
+G02B 6/44
+Loading...
+本实用新型公开了一种地埋式光缆交接箱气动升降装置，包括支架台、箱体托架。支架台包括支架腿、支架梁、延伸杆。支架梁构成支架台的长方形台面框架。支架腿有四根，分别安装于台面框架的四角，与台面框架垂直。其中两根相邻的支架腿向上延伸构成所述的延伸杆。延伸杆安装有转轴。箱体托架包括三角托和托架台面；三角托是直角三角形结构，其中一锐角安装于转轴上，可沿着转轴转动，另一锐角与所述托架台面相连。托架台面置于所述的台面框架上。箱体托架与支架台之间安装有气动杆。本实用新型采用旋转式并加以气动杆辅助，只需用不大于150N的人力，即可升降光缆汇集箱，且操作方便。整体采用不锈钢制作，避免生锈及防腐蚀。
+64. 203160149 一种龙门架立柱悬臂式情报板支架装置
+CN
+28.08.2013
+E01F 9/011 Loading...
+E01F 9/011
+Loading...
+201320086365.1
+中海网络科技股份有限公司
+周龙
+E01F 9/011
+Loading...
+本实用新型涉及一种龙门架立柱悬臂式情报板支架装置，它包括用于固设在龙门架立柱上的前后两块向外弯折的底座（4），所述加强筋板上端固设工作平台（42），所述工作平台的后侧设有安全防护栏杆（7）。所述工作平台（42）由纵向槽钢（10）以及等边角钢（12）成焊接成前、后两排矩形孔。靠近安全防护栏杆的矩形孔内铺设有网板（11）。所述安全防护栏杆的高度为1.2m。所述安全防护栏杆由直径为32mm的圆管焊接而成。本实用新型省去立柱等基础材料，不占用地面空间。安装支架装配后能确保情报板在风速12级时不发生抖动或明显的偏离；显示屏前没有任何遮拦阻挡视线。显示屏后安装有安全防护栏杆；便于可变信息情报板现场施工和售后维修工作。
+65. 203165371 一种大型悬臂式LED情报板箱体结构
+CN
+28.08.2013
+G09F 9/33 Loading...
+G09F 9/33
+Loading...
+201320105807.2
+中海网络科技股份有限公司
+周跃华
+G09F 9/33
+Loading...
+本实用新型涉及一种大型悬臂式LED情报板箱体结构，包括立柱（4）和LED情报板（1），所述LED情报板由情报板外箱体（3）和嵌设在情报板外箱体内的情报板内箱体（2）组成，情报板外箱体侧面的上、下端通过法兰连接组件（5）分别固设在立柱（4）上，所述LED情报板的背面安装有防护走道焊件组（7）。所述情报板外箱体上下两边的内侧设有加强槽钢（8）。所述情报板内箱体安装有纵向固定隔板（9）。所述固定隔板上由上至下间隔开设长形腰孔（9-1）。所述外箱体靠近法兰连接组件一侧的内侧边上下对称焊接有90°折弯加强板（10）。本实用新型设备强度高且结构轻巧，在风速12级时不发生抖动或明显的偏离。
+66. 203165174 一种无线遥控式LED可变信息情报板系统
+CN
+28.08.2013
+G08C 17/00 Loading...
+G08C 17/00
+Loading...
+201320131101.3
+中海网络科技股份有限公司
+汤立峰
+G08C 17/00
+Loading...
+本实用新型涉及一种无线遥控式LED可变信息情报板系统，属于LED可变信息情报板技术领域。一种无线遥控式LED可变信息情报板系统，包括至少一个LED可变信息情报板，其特征在于：所述LED可变信息情报板内设有内置无线通讯模块；还包括调控车，所述调控车内设有车载无线通讯模块和车载计算机，所述车载无线通讯模块与所述内置无线通讯模块之间设有独立的无线信道，所述车载无线通讯模块与车载计算机连接；所述调控车与所述LED可变信息情报板的间距为300m以内。本实用新型解决的大型LED智能交通可变情报板远程调试及通讯的难题。
+67. 103246033 一种空气保压防水光缆交接箱
+CN
+14.08.2013
+G02B 6/44 Loading...
+G02B 6/44
+Loading...
+201310194512.1
+中国联合网络通信有限公司上海市分公司
+欧大春
+G02B 6/44
+Loading...
+本发明公开了一种空气保压防水光缆交接箱，包括箱体、箱盖；箱体上装有防水接头；箱体和箱盖之间安装有搭扣；箱体包括箱壁和箱底；箱盖包括平顶和盖檐；平顶下安装有盖槽，盖槽的顶部安装有密封条；所述的箱壁卡在盖槽内；箱体和箱盖围成箱体腔；所述盖檐与箱壁之间有一定距离，构成盖檐腔。箱腔内安装有光缆固定板、微型免跳接尾纤引出托盘、直插式一体化托盘、开口线环、双层线环、戒指线环、余纤管理部、光缆直熔部。本发明的光缆交接箱通过密封条和空气保压双重防水，具有良好的耐水压性能，可以耐1m的水深，适合于安装在地井内。
+68. 203085059 一种控制系统半实物仿真实验装置
+CN
+24.07.2013
+G09B 25/02 Loading...
+G09B 25/02
+Loading...
+201220699232.7
+中海网络科技股份有限公司
+严敏
+G09B 25/02
+Loading...
+本实用新型公开了一种控制系统半实物仿真实验装置，该装置呈立柜结构，装置具有一边缘呈圆弧的底座，底座上方是实物展示区，实物展示区设有安装支架用于安装实验实物，实物展示区的上方是实验操作面板，该实验操作面板上设有操作开关和过程数据显示器，实验操作面板上标示有实物工作原理模拟图，用以结合过程数据显示器动态演示所对应实物的工作状态，还标示有实物指示标牌，用以对应标示安装于实物展示区的实物，装置内部具有一安装背板，用以安装仿真实验装置所需的元器件和接线，装置内部还具有电源、控制电缆和系统接地，装置是背部开门结构。
+69. 103152189 Data collection method and system based on business relation
+CN
+12.06.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110401963.9
+中国科学院声学研究所
+刘学
+H04L 12/24
+Loading...
+The invention relates to a data collection method and a system based on business relation. A data collection process and the business relation are used for providing data support for more complicated network managing business analysis. The method comprises a step of being used for generating a data item queue that a plurality of to-be-collected data items belonging to the same business are put continuously and common to-be-collected data items belonging to different business are put between the data items respectively corresponding to two business, and a step of being used for finishing the data collection of the business relation by using a plurality of collection thread groups to start the data collection process and schedule in order various items put in the data item queue. The method solves the problem of non-synchronous data collection of the business relation. All the data items of the business relation are collected in a preset time period, and therefore timeliness and accuracy of the business data analysis are enhanced. At the same time, collection time of data without business relation is discretized, and therefore concurrent stress of data collection is lowered.
+70. 202995789 一种移动式输油管线的全程实景信息管理系统
+CN
+12.06.2013
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201220349678.7
+中国人民解放军总后勤部油料研究所
+宋音
+G06Q 10/06
+Loading...
+本实用新型涉及一种基于全程实景对管线的信息管理，对移动式输油管线的全程实景信息管理系统。本实用新型系统包括实景获取设备，对移动式输油管线全程的每一实景进行图像采集；实景服务器，用于搭建实景数据库，并存储有采集和处理后的图像数据；GIS平台，与实景服务器通讯连接；数据库服务器，与实景服务器通讯连接；MIS平台，与实景服务器通讯连接。本实用新型能够改善传统的移动式输油管线管理方法，适用于改进传统输油管理方法存在的巡线人员投入多、紧急故障反应慢、巡线人员对管线信息不清楚等缺点。
+71. WO/2013/075373 SATURATION TRAFFIC DETERMINATION METHOD AND DEVICE
+WO
+30.05.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+PCT/CN2011/084184
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LI, Jin
+G08G 1/01
+Loading...
+A saturation traffic determination method and device, relating to the field of intelligent transportation and used for realizing automatic measurement and calculation of saturation traffic values. The method includes: collecting pulse data output by a detector provided at an approach of a signal crossing; counting the time headway at the approach according to the collected pulse data; and determining a saturation traffic value according to the counted time headway.
+72. WO/2013/067735 COMPONENTS MANAGING METHOD ADAPTED FOR RAIL TRANSIT COMPREHENSIVE MONITORING SYSTEM
+WO
+16.05.2013
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+PCT/CN2011/084282
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LIAO, Changbin
+B61L 27/00
+Loading...
+A components managing method adapted for rail transit comprehensive monitoring system is provided, wherein at least two level component managing service modules（11，121，12n，131，131n） are set in a computer of the rail transit comprehensive monitoring system, and some of lower level component managing service modules are harmonized and managed by a upper level component managing service module. The lower level component managing service modules are connected to the upper level component managing service module as clients. Some of components are harmonized and managed by the lowest level component managing service modules（131，13n）, and the components are connected to the lowest level component managing service modules as clients. The method enables performing hierarchical and distributed component managements, optimizing interaction process and increasing data transmission speed.
+73. 103108223 一种互动电视电子支付方法及系统
+CN
+15.05.2013
+H04N 21/2543 Loading...
+H04N 21/2543
+Loading...
+201110355850.X
+中国科学院声学研究所
+刘学
+H04N 21/2543
+Loading...
+本发明公开了一种互动电视电子支付方法及系统，所述系统用于解决采用电视终端进行电子支付时用户输入的不便的问题，所述系统包含：互动电视终端，用于发送绑定支付账号、修改支付额度，输入支付账号、密码和手机验证码，该终端有唯一的标识；业务计费系统，记录所述互动电视终端与支付账号的绑定关系，并根据用户消费生成账单，向支付系统发起支付请求；支付系统，用于处理所述互动电视终端与支付账号绑定请求、修改支付额度请求，并提示用户输入支付账号、密码或通过手机短信发送验证码以验证用户身份，并处理所述业务计费系统发送的支付请求；和支付账号绑定的手机终端，用于接收所述支付系统发送的验证码。本发明能保证安全支付减少用户输入。
+74. 103067297 一种基于资源消耗预测的动态负载均衡方法及装置
+CN
+24.04.2013
+H04L 12/803 Loading...
+H04L 12/803
+Loading...
+201310029902.3
+中国科学院声学研究所
+刘学
+H04L 12/803
+Loading...
+本发明涉及一种基于资源消耗预测的动态负载均衡方法及装置，该方法包括：计算平均资源消耗，所述平均资源消耗是各服务节点针对每种服务类型的单个服务的资源消耗；根据请求的服务类型和所述平均资源消耗，预测出各服务节点在接收所述请求后的资源消耗，得到预测资源消耗；根据所述预测资源消耗，计算各服务节点对于所述请求的优先级；以及将所述请求分发到优先级最高的服务节点。本发明通过采集服务节点的资源消耗和在线服务数量来预测服务节点的实时资源消耗，改善了资源消耗数据的非实时性；本发明还充分考虑到不同类型的请求对于服务节点中各项资源消耗的差异性，优化了请求分发。
+75. 103064298 一种半实物仿真实验系统
+CN
+24.04.2013
+G05B 17/02 Loading...
+G05B 17/02
+Loading...
+201210548900.0
+中海网络科技股份有限公司
+严敏
+G05B 17/02
+Loading...
+本发明公开了一种半实物仿真实验系统，包括管理层、控制层和设备层，管理层由多个仿真计算机组成，用于对仿真实验的环境和参数进行设置、显示和管理，控制层有多个PLC组成，用于实现数据采集、控制回路调节、顺序控制、逻辑控制和综合报警，设备层由多个对象设备、模拟屏和输入∕输出信号组成，对象设备的种类包括传感器和执行器，模拟屏所述系统的控制流程图的形象化表达，输入/输出信号，是所述系统中检测信号和动作信号的仿真输入和输出，所述控制系统向下直接连接所述设备层的传感器和执行器，以及输入/输出信号，向上通过网络与所述管理层的仿真计算机相连，将采集的数据以及对象设备的状态信号发送给仿真计算机。
+76. 103023680 一种终端状态收集系统及方法
+CN
+03.04.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110287011.9
+中国科学院声学研究所
+王玲芳
+H04L 12/24
+Loading...
+本发明提供了一种终端状态收集方法及系统，所述方法能够动态调整树结构采集方式形成的树结构，所述方法包含：用于收集各个终端设备节点状态信息，生成树结构的步骤；当满足条件时，用于对上步骤形成的树结构进行调整的步骤；用于状态上报合并的步骤；其中，所述树结构以状态收集工作站为根节点、以各个终端设备为中间节点/子节点的能动态调整的分级分层树结构。所述终端状态收集系统包含：一台状态收集工作站和若干终端设备节点，其特征在于，所述系统还包含一台树管理服务器；所述树管理服务器，用于维护所述状态收集工作站以及终端设备节点组成的树结构和各个终端设备节点间关系，并能够响应外部要求调整所述树结构的命令。
+77. 102981895 一种单进程DirectFB的虚拟多进程运行方法
+CN
+20.03.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201110262090.8
+中国科学院声学研究所
+朱小勇
+G06F 9/46
+Loading...
+本发明公开了一种单进程DirectFB的虚拟多进程运行方法，该方法用于在单进程DirectFB嵌入式平台上支持多业务时，每个业务都可以单独使用DirectFB，所述方法包含如下步骤：步骤1，用于后台业务管理进程初始化DirectFB资源的步骤；步骤2，用于各个子进程向所述后台业务管理进程申请获取DirectFB资源后才能使用DirectFB资源的步骤；其中，所述后台业务管理进程在系统启动后创建并一直处于运行状态，所述后台业务管理进程负责管理业务间切换，资源使用与分配，特别是DirectFB资源的使用，业务管理进程启动时初始化DirectFB的资源，通过父子进程共享进程空间的方式将DirectFB资源提供给子进程使用；业务子进程对应于每个业务。基于本发明提供的方法单进程DirectFB嵌入式平台上支持多业务进程时，每个业务子进程都可以单独使用DirectFB，且业务间切换流畅，无黑屏现象。
+78. 102984188 一种CDN网络中内容副本放置方法及系统
+CN
+20.03.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110262119.2
+中国科学院声学研究所
+王劲林
+H04L 29/08
+Loading...
+本发明公开了一种CDN网络中内容副本放置方法及系统，该方法选择的副本放置节点首先满足服务响应时间要求，所述方法对于内容分发网络中任意节点Mi，找出其作为接入节点时，使其满足服务响应时间要求及本地存储要求的预备副本放置节点集从上述所有的预备副本放置节点集中找出在各个预备副本放置节点集中出现次数最多的预备节点Ns，对所有满足Ns∈Ci的Ci计算其对应的接入节点Mi的请求数总和，若该总和小于Ns最大负载请求数，则将该节点选中为实际副本放置节点，否则考虑出现次数次多的节点。本发明的方法可使CDN各节点在满足服务响应时间要求的基础上，限制节点负载上限，同时降低内容副本放置数量并优化更新开销。
+79. 102957733 一种动态调优的内容发布方法及系统
+CN
+06.03.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110255573.5
+中国科学院声学研究所
+刘学
+H04L 29/08
+Loading...
+本发明公开了一种动态调优的内容发布方法及系统，该系统涉及内容管理系统和边缘内容交付系统，所述方法基本原理是，把每个内容的一次发布看成一个具有属性发布任务；内容管理系统向边缘内容交付系统请求内容发布，称为任务派遣，边缘内容交付系统获取发布内容，称为任务执行；任务派遣时，内容管理系统给每个发布任务设定优先级；边缘内容交付系统接收到发布任务后，将把发布任务加入任务队列，并按照发布优先级从高到低逐次执行；且，边缘内容交付系统根据用户对内容的请求密度来动态调整任务优先级；当任务队列中存在比当前执行的任务优先级高时，将会暂停当前任务执行，转向执行高优先级任务。本发明相对于现有技术的做法缩短内容上线时间。
+80. 202771619 用于违章停车的自动抓拍装置
+CN
+06.03.2013
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+201220349945.0
+中海网络科技股份有限公司
+张勇
+G08G 1/017
+Loading...
+本实用新型公开了一种用于违章停车的自动抓拍装置，包括前端抓拍单元、传输网络以及管理服务器，前端抓拍单元包括电动变倍镜头、智能相机以及云台，电动变倍镜头设于智能相机的前端并与智能相机相连，智能相机设于云台上，智能相机还通过传输网络与管理服务器相连。前端抓拍单元采用广角镜头监测整个监控区域，跟踪监控区域内的每一辆车的运动轨迹，当通过轨迹跟踪的方式发现停车事件后，确定停驶车辆的重心和面积，通过几何运算确定云台转动、俯仰的角度，控制云台使目标位于图像的中心，通过控制镜头变焦，调整目标在图像中的大小，使其适合做进一步图像分析即车牌号识别，车牌号识别完成后智能相机控制电动变倍镜头恢复到广角监控模式。
+81. 102882700 Warning information management method and device of network management system
+CN
+16.01.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210275248.X
+中国科学院声学研究所
+刘学
+H04L 12/24
+Loading...
+The invention relates to a warning information management method and warning information management equipment of a network management system. The network management system maintains a movable warning database, and generated and unrecovered warning information is stored in the movable warning database. The warning information management method comprises the steps as follows: whether the received warning information is a new warning or not is judged according to the warning information stored in the movable warning database; a warning index is created for the new warning under the condition that the received warning information is the new warning, and is inserted into a warning index queue; the warning index is read from the warning index queue, and whether the warning corresponding to the current read warning index is recovered or not is detected; and warning clearing is executed under the condition of the recovery of the warning. According to the invention, the warning state of the network element is regularly detected after the warning information is received, whether the network element warning is recovered or not can be surely monitored under the condition that the warning clearing information cannot received because of various reasons, thereby providing more accurate network management.
+82. 102819788 Whole journey live-action information management method and whole journey live-action information management system for movable type oil pipeline
+CN
+12.12.2012
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+201210259406.2
+中国人民解放军总后勤部油料研究所
+宋音
+G06F 17/00
+Loading...
+The invention relates to information management for an oil pipeline based on whole journey live-action, in particular to a whole journey live-action information management method and a whole journey live-action information management system for a movable type oil pipeline. The method provided by the invention comprises the following steps: constructing a live-action data base on a server according to whole journey live-action data formed after processing acquired live-action; establishing relevance between the whole journey live-action data in the live-action data base and a GIS (geographic information system) platform and an MIS (management information system) platform; marking pump stations, equipment, staff, vehicles, command post and other pipeline data in the movable type oil pipeline whole journey live-action data; uploading fields with failures to the MIS platform; exporting live-action pictures of the fields with the failures from the live-action data base by the MIS platform according to latitude/longitude coordinates of the field with the failures; and confirming damage degree through information comparison. According to the invention, the traditional management method for the movable type oil pipeline can be improved, and the defects that line walking staff input is huge, responses for emergent failures are slow, line walking staff are not clear to pipeline information, and the like in the traditional management method are improved.
+83. 202513505 一种户外电磁兼容控制箱的线槽结构
+CN
+31.10.2012
+H02G 3/04 Loading...
+H02G 3/04
+Loading...
+201220096668.7
+中海网络科技股份有限公司
+周跃华
+H02G 3/04
+Loading...
+一种户外电磁兼容控制箱的线槽结构，长形的线槽上覆盖线槽盖板，在垂直于线槽长度方向的纵向截面上，线槽和线槽盖板呈两个开口相对的“U”形，槽腔内沿线槽长度方向布置一块立式挡板，挡板将槽腔分为左、右两个半腔室，每个半腔室内均间隔布置多个穿线架，穿线架上沿线槽长度方向开设多个平行的穿线孔，线槽一端接入室内，一端固定在户外电磁兼容控制箱的顶部，本线槽结构在满足电磁兼容的情况下，户外使用防腐性能好；结构简单，防尘防水效果好；利于生产加工，制造方便。
+84. 202514216 一种快装式电气控制柜箱体
+CN
+31.10.2012
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201220098538.7
+中海网络科技股份有限公司
+周跃华
+H05K 5/06
+Loading...
+一种快装式电气控制柜箱体，包括C型骨架、三维连接组件、侧板、后板、底座、顶板、装配件、铰链、锁、门撑、前门、安装板和吊装梁，其特征在于：所述三维连接组件顶部三个面为正四方形平面，C型骨架通过螺栓固定在螺纹孔中，正四方形平面下部凹进一个板壁厚三角岭形柱状空腔，空腔内设置一个45度平台，空腔柱外侧设减重槽，减重槽开有缺口，内侧设网状减重凹槽，所述前门上安装有防水防尘密封门框。本实用新型克服现有电气控制柜箱体连接中，简化框架成型连接所需的附件，简化箱体框架零件结构，制造工艺标准化，模块化，增强了箱体的防护等级，保证同样的功能情况下，节省材料，降低制造成本，符合绿色制造要求。
+85. WO/2012/065339 METHOD, DEVICE AND SYSTEM FOR CONTROLLING TRAFFIC SIGNALS AT INTERSECTIONS
+WO
+24.05.2012
+G08G 1/08 Loading...
+G08G 1/08
+Loading...
+PCT/CN2010/080299
+QINGDAO HISENSE TRANSTECH CO., LTD.
+CHEN, Xiaoming
+G08G 1/08
+Loading...
+A method, a device and a system for controlling traffic signals at intersections are provided. The method involves detecting whether the road between an upstream intersection (A) and a downstream intersection (B) is congested or not by a congestion detector (C) arranged between the upstream intersection (A) and the downstream intersection (B), and when the road is congested, prolonging the time of the green light of the downstream intersection (B) or shortening the time of the green light of the upstream intersection (A). The system comprises a detector (51) and a traffic signal controller (52). The detector (51) detects whether the road between the upstream intersection (A) and the downstream intersection (B) is congested or not and sends a congestion message when the road is congested. The traffic signal controller (52) is connected with the detector (51) and prolongs the time of the green light of the downstream intersection (B) and/or shortens the time of the green light of the upstream intersection (A) when the congestion message is received.
+86. 202167854 一种用于无功补偿控制器的DSP控制装置
+CN
+14.03.2012
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201120227142.3
+上海市电力公司
+姚建歆
+H02J 3/18
+Loading...
+本实用新型公开了一种用于无功补偿控制器的DSP控制装置，包括一微处理器，与该微处理器连接的一看门狗、一脉宽调制电路、一串行通信接口和一A/D转换器，以及与所述A/D转换器连接的一信号采集电路。本实用新型通过采集电压和电流的信号并进行计算，生成PWM波形，使无功补偿控制器实现PWM控制，控制无功补偿装置实现容性无功的连续调节。
+87. 202167994 一种调压稳压控制系统
+CN
+14.03.2012
+H02M 5/00 Loading...
+H02M 5/00
+Loading...
+201120227105.2
+上海市电力公司
+姚建歆
+H02M 5/00
+Loading...
+本实用新型公开了一种用于输变电领域的调压稳压控制系统，其特征在于其包括输入电压计算模块、优化电压补偿模块、交流斩波器控制模块、人机界面模块和DSP控制模块，所述DSP控制模块包括DSP核心单元、内置DSP芯片和信号采集单元和PWM输出单元所述DSP核心单元内置DSP芯片。本实用新型，通过实时采样输入电压和补偿电压参数，计算投切前后的电压控制情况，根据计算结果，确定电压补偿方案，控制斩波器开关管中IGBT的开关，从而提高系统的响应速度。
+88. 202159241 一种调压稳压DSP控制装置
+CN
+07.03.2012
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201120227104.8
+上海市电力公司
+姚建歆
+G05B 19/042
+Loading...
+本实用新型公开了一种调压稳压DSP控制装置，包括信息采集模块，DSP核心模块和PWM输出模块，所述DSP核心模块内置DSP芯片；所述信号采集模块将采集到的信息，转化成电信号传递给DSP核心模块进行计算，所述DSP核心模块将所计算结果通过DSP芯片上的PWM输出端传递给PWM输出模块，所述PWM输出模块根据DSP核心模块的计算结果，生成PWM波形，从而控制斩波器上IGBT的变换。本实用新型提高了对输入电压波动的响应速度和补偿输出电压的精度。
+89. 202150801 一种用于无功补偿装置的斩波器
+CN
+22.02.2012
+H02M 5/10 Loading...
+H02M 5/10
+Loading...
+201120227125.X
+上海市电力公司
+姚建歆
+H02M 5/10
+Loading...
+本实用新型公开了一种用于无功补偿装置的斩波器，所述斩波器包括一连接所述市电的保护电阻组、与该保护电阻组分别连接的一电容器组和一IGBT功率开关元件，其中，所述IGBT功率开关元件包括并列的三单元，每个单元包括三条支路，第一支路包括相互并联的一电阻和一第一电容；第二支路包括相互串联的两个IGBT，每个IGBT并联一二极管；第三支路包括一变压器和与该变压器的二次绕组连接的第二电容。本实用新型能极速响应，使无功补偿装置快速实现容性无功的连续调节，同时，它还具有结构简单，易于实现的特点。
+90. 202150802 一种桥式斩波器
+CN
+22.02.2012
+H02M 5/42 Loading...
+H02M 5/42
+Loading...
+201120227111.8
+上海市电力公司
+姚建歆
+H02M 5/42
+Loading...
+本实用新型公开了一种用于输变电领域的桥式斩波器，包括斩波器开关管V1-V4，整流二极管VD1-VD4，所述桥式斩波器V1-V4通过所述输出变压器Tr接入市电电源和负载之间；斩波器开关管V1-V4具有快速响应并切换状态的功能，能够在几十毫秒内完成电压幅值的调节补偿，在输入电压快速升高或下降时，能够迅速稳定输出电压，相对于传统机械式稳压器和无触点补偿式稳压器具有不可比拟的优势。
+91. 202150803 一种调压稳压装置
+CN
+22.02.2012
+H02M 5/458 Loading...
+H02M 5/458
+Loading...
+201120227113.7
+上海市电力公司
+姚建歆
+H02M 5/458
+Loading...
+本实用新型公开了一种用于输变电领域的调压稳压装置，由主电路和控制电路两部分组成，所述主电路包括斩波器开关管V1-V4及其输出变压器Tr和输出滤波器、整流二极管VD1-D4，所述桥式斩波器开关管通过所述输出变压器Tr和输出滤波器次级串联于市电电源和负载之间；所述控制电路包括电压整流检测电路，比较电路，三角波发生器和状态切换触发电路。本实用新型可根据用户设置的参考电压，连续调节补偿电压的，能够在几十毫秒内完成电压幅值的调节补偿，在输入电压快速升高或下降时，能够迅速稳定输出电压，相对于传统机械式稳压器和无触点补偿式稳压器具有的优势。
+92. 202150064 一种交流斩波补偿式稳压电路
+CN
+22.02.2012
+G05F 1/40 Loading...
+G05F 1/40
+Loading...
+201120227145.7
+上海市电力公司
+姚建歆
+G05F 1/40
+Loading...
+本实用新型公开了一种交流斩波补偿式稳压电路，包括补偿变压器TB和交流斩波器CB，所述交流斩波器CB与控制电路相连接；当输入电压UI改变时，控制电路调节交流斩波器CB的输出电压，从而改变补偿变压器TB的输出补偿电压ΔU，使输出电压U0保持稳定。实用新型具有快速响应、连续调节输出补偿电压的特点，能够在几十毫秒内完成电压幅值的调节补偿，在输入电压快速升高或下降时，能够迅速稳定输出电压。
+93. 202150700 一种无功补偿装置
+CN
+22.02.2012
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201120227122.6
+上海市电力公司
+姚建歆
+H02J 3/18
+Loading...
+本实用新型公开了一种无功补偿装置，它连接市电和负载，所述无功补偿装置包括一综合控制器、与所述综合控制器分别连接的一斩波控制模块和一电容器组控制电路，所述电容器组控制电路包括一连接所述市电的多级开关、若干分别与该多级开关串联的串联支路，每个串联支路包括依次串联的一保护电阻组、一功率因数控制器连接接触器的组合、一电抗器组和一无功补偿电容器组，所述综合控制器通过对所述斩波控制模块和所述功率因数控制器的控制，连续调节补偿电容上的电压，实现容性无功的连续调节。本实用新型还具有不产生低次谐波，且控制简单，易于实现的特点。
+94. 202150701 一种无功补偿控制系统
+CN
+22.02.2012
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201120227141.9
+上海市电力公司
+姚建歆
+H02J 3/18
+Loading...
+本实用新型公开了一种无功补偿控制系统，包括一DSP控制模块，与该DSP控制模块分别连接的一快速无功计算模块、一无功功率优化分配模块、一人机界面控制模块和一交流斩波控制模块，以及与所述交流斩波控制模块依次连接的一连续无功调节模块和一电容器组控制模块，所述连续无功调节模块包括一AC-AC变换器。本实用新型利用AC-AC变换器连续调节补偿电容上的电压，实现容性无功的连续调节。
+95. 202081757 一种控制箱的脱卸式密封铰链
+CN
+21.12.2011
+E05D 7/12 Loading...
+E05D 7/12
+Loading...
+201120127647.2
+中海网络科技股份有限公司
+周跃华
+E05D 7/12
+Loading...
+一种控制箱的脱卸式密封铰链，靠近箱门和箱体接合处，在箱门侧壁和其下方的箱体侧壁上分别配置固定件，固定件的上端和下端为开口端，紧靠固定件、在其外侧配置折弯件，其水平段覆盖固定件上端，折弯件的竖直段紧贴固定件的“U”字形底部并固定，在折弯件水平段上分别开设垂直的通孔，紧贴箱体侧折弯件通孔、在箱体侧折弯件水平段的内侧焊接定位螺母，蝶形螺栓5套装垫片9后、竖直向下穿过箱门侧折弯件4-1上的通孔，蝶形螺栓5中段上套装一个止跌螺母7，尾部再向下穿过箱体侧折弯件4-2上的通孔、旋入定位螺母6，本实用新型制造工艺简单，适合数控设备批量制造，重复多次脱卸无需反复定位调整，脱卸时零件也不会散落，再次安装方便。
+96. 202085424 一种户外电磁兼容控制箱的箱体结构
+CN
+21.12.2011
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201120127740.3
+中海网络科技股份有限公司
+严敏
+H05K 5/06
+Loading...
+一种户外电磁兼容控制箱的箱体结构，其特征在于：箱体顶部的壳壁上开设门框孔，门框孔先向上折弯、折弯边再向外折出，在门框孔内配置一圈直角折弯框，直角折弯框竖直段顶部向内折进，折弯边向外折出段上配置一圈密封条，横截面上，密封条上部为弹性密封环，下部为自锁紧夹口，折弯边的向外折出段嵌装入夹口内，直角折弯框向内折进段的上表面固定一圈带胶电磁兼容密封条，门框孔外侧覆盖活动的箱门，闭合的箱门，其内侧抵压在密封条和电磁兼容密封条上，本实用新型满足电磁兼容要求户外使用防水、防尘防腐性能好，制造使用方便、可靠性好，长期使用无需维修；结构简单，仅需要箱体接地。
+97. 102194259 Method for computing toll by modeling networked tolling lane of highway based on graph theory
+CN
+21.09.2011
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201010125593.6
+Shanghai Communications Technology Development Co., Ltd.
+Xu Qingsong
+G07B 15/06
+Loading...
+The invention discloses a method for computing toll by modeling a networked tolling lane of a highway based on graph theory and relates to the technical field of the graph theory. A highway networked tolling system framework consisting of a networked tolling settlement center (1), a highway company tolling center (2), a toll station (3) and a lane (4), and a networked tolling system data transmitting framework consisting of a lane (41), a toll station (31), a highway company tolling center (21) and a networked tolling settlement center (11) are involved. A working process of computing the toll by modeling the lane based on the graph theory comprises the following steps of: A. loading basic information; B. modeling the lane based on the graph theory; C. computing the toll by using the lane model; and the like. Compared with the conventional method, the method has the advantages that: the data amount of a toll table is greatly reduced, the downloading and checking efficiency and accuracy of the toll data are improved and the discount requirements of the highway company can be met, so that the problems of large downloading data amount and long downloading time of the toll table in the networked tolling system are solved; and the method has popularization significance.
+98. 101763053 Movable type bridge security detection and analysis management system
+CN
+30.06.2010
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+200810207899.9
+Shanghai Communications Technology Development Co., Ltd.
+Cheng Li
+G05B 19/048
+Loading...
+The invention relates to a movable type bridge safety detection and analysis computer network management system, in particular to a movable type bridge security detection and analysis management system, which comprises a sensor monitoring system, a data acquisition system and a data analyzing and processing system, wherein the sensor monitoring system monitors the vibration, internal force and temperature of a main beam, displacement of a bridge tower, linetype of the main beam, vibration of the bridge tower, cable tension and environment. The data acquisition system adopts data acquisition unit access and comprises a temperature sensor, an acceleration sensor, a vibrational chord strain gauge, a total station instrument, an anemoclinograph, a digital video camera and an ultrasonic flaw detector. The data analyzing and processing system is operated and controlled by the computer of a data analyzing and processing work station. The structural working condition and the health status of the bridge are inverted according to acquired data and signals, possible structural damage degree and damage parts are identified, and a security and reliability assessment on the bridge is given in general so as to provide technical support for management and maintenance and guarantee safe operation.
+99. 101749727 High-cost performance system for controlling combustion redundancy of coal-fired heat transfer material heater
+CN
+23.06.2010
+F23N 1/02 Loading...
+F23N 1/02
+Loading...
+200810204237.6
+Shanghai Communications Technology Development Co., Ltd.
+Chen Jie
+F23N 1/02
+Loading...
+The invention discloses a high-cost performance system for controlling combustion redundancy of a coal-fired heat transfer material heater, which relates to the technical field of DCS industrial control systems, in particular to the system for controlling the combustion redundancy of the coal-fired heat transfer material heater of a large-scale chain coal bed. The system comprises a PLC, an operation management system, a frequency conversion control technical system and a conventional electric control system. The combustion control and the heating circulation control of the control system are ensured by two sets of control systems and bumpless control right transfer is realized, and the two sets of systems have low cost and high cost performance, and ensure the safety and the reliability of heat medium heater control system; a humanized operator interface is adopted and an expert diagnostic system is provided; and control software is designed with a standardized, functionalized and modularized structure and has easily expanded functions, add programs and adjust parameters. The system ensures the safe production of a heat medium heater, heat medium temperature control accuracy and the probability of improving the combustion efficiency of fire coal, and has good control effect and relatively lower running cost.
+100. 101752878 Digit type fast and accurate self-synchronous parallel operation control method of electric generator
+CN
+23.06.2010
+H02J 3/42 Loading...
+H02J 3/42
+Loading...
+200810204095.3
+Shanghai Communications Technology Development Co., Ltd.
+Chen Jie
+H02J 3/42
+Loading...
+The invention provides a digit type fast and accurate self-synchronous parallel operation control method of an electric generator, relating to the technical field of the parallel operation control of the electric generator. Based on a large-scale intelligent complex programmable logic device CPLD, the method comprises the steps of: adjusting and controlling the rotate speed of the electric generator with an impulse full period rising chord triggering counting method and a pulse-width modulation PWM technology; and realizing the fast and accurate acquisition of a switching signal with a criterion which is formed by a real-time phase pulse value measured by the set pulse value of a normal phase about a frequency difference delta F and a leading time delta T as well as a 'wave mixing counting method'. The method is practical, has low cost, stable performance and strong anti-interference, and effectively overcomes the problems of bad instantaneity, slow phase position acquisition, and low switching accuracy and success rate, and the like, in the existing common self-synchronous parallel operation control method.
+

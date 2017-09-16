@@ -1,0 +1,313 @@
+1. 106364529 一种地铁监控系统时间表管理方法
+CN
+01.02.2017
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+102016000797576
+浙江浙大中控信息技术有限公司
+张睿
+B61L 27/00
+Loading...
+本发明公开了一种地铁监控系统时间表管理方法，其包括时间表下载方法、时间表切换方法和单张时间表执行方法，综合监控系统完成时间表的编辑后，通过时间表下载方法将时间表下载到环境与设备监控系统的PLC内，环境与设备监控系统的PLC通过时间表切换方法切换至对应的时间表，然后通过单张时间表执行方法执行时间表来控制机电设备。本方案在原有的人工下载时间表的基础上，增加时间表的自动下载功能，能够在时间表生效前，完成自动下载，减少人工干预的环节；本方案还增加了时间表的版本管理，合理跟踪当前的时间表版本及修改的时间表。本发明适用于所有的地铁监控系统。
+2. 106326020 应用于静态集群上的分布式通信系统及方法
+CN
+11.01.2017
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+201610713201.5
+浙江浙大中控信息技术有限公司
+丁康
+G06F 9/54
+Loading...
+本发明公开了一种应用于静态集群上的分布式通信系统及方法，在包括N台主机，m个应用服务进程的静态集群上，服务于该静态集群的分布式通信系统包括设于每台主机上的天使服务进程，极速配置库和m个天使客户端库；每个应用服务进程均调对应的用天使客户端库，天使服务进程和各个应用服务进程均与极速配置库连接，天使服务进程分别与各个应用服务进程连接，N≥1，m≥2；本发明具有面对静态集群环境、实现简单、效率高的特点。
+3. 106292496 一种地铁监控系统报警管理方法
+CN
+04.01.2017
+G05B 19/048 Loading...
+G05B 19/048
+Loading...
+102016000797566
+浙江浙大中控信息技术有限公司
+曹辉
+G05B 19/048
+Loading...
+本发明公开了一种地铁监控系统报警管理方法，本方案对报警定义生命周期，以报警产生、报警消失、报警确认的完整过程来管理报警；另外将报警分为实时报警和历史报警：实时报警体现当前设备的报警的状态，而历史报警则对报警生命周期结束的报警进行归一化管理，在同一条报警记录中详细记录报警产生时间、报警消失时间、报警确认时间。这种方式避免了查找一个设备的报警时，需要分别查询报警产生记录、消失记录、确认记录然后归总进行分析的复杂方式，而以一种简便、直观的方式提供操作人员查询报警，提高了管理效率、事故分析的正确度。本方案适用于所有的地铁监控系统。
+4. 205722436 带故障检测及报警的信号灯
+CN
+23.11.2016
+G08G 1/095 Loading...
+G08G 1/095
+Loading...
+201620194871.6
+浙江浙大中控信息技术有限公司
+卢志强
+G08G 1/095
+Loading...
+本实用新型涉及一种带故障检测及报警的信号灯，本实用新型可以解决现有技术存在的问题，其技术方案要点是，主控灯组包括主控处理单元模块、主控通讯接口模块、主控输入采集模块、主控驱动模块、主控无线接口模块和主控灯盘模块，信号灯组包括处理单元模块、驱动模块、无线接口模块和灯盘模块，主控无线接口模块、主控通讯接口模块和主控输入采集模块与主控处理单元模块电连接，主控处理单元模块通过主控驱动模块与主控灯盘模块电连接，主控输入采集模块的输入端与信号机电连接，无线接口模块和输入采集模块均与处理单元模块电连接，处理单元模块通过驱动模块与灯盘模块电连接，无线接口模块与主控无线接口模块通信连接。
+5. 103369032 一种基于Wi-Fi的P2P无线通信方法
+CN
+14.09.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000194653
+浙江浙大中控信息技术有限公司
+楼吉汉
+H04L 29/08
+Loading...
+本发明公开了一种基于Wi‑Fi的P2P无线通信系统，无线通信系统包括两个基于Wi‑Fi通信协议的软件框架，软件框架的MAC层上设有一个P2P数据处理层，P2P数据处理层上设有虚拟以太网接口层，MAC层、P2P数据处理层和虚拟以太网接口层通过管理模块进行管理；两个软件框架的虚拟以太网接口层间通过发送接收数据帧相互通信。通信两端设备除了信道和发射功率需要配置以外，不需要其他配置，使用起来非常方便；由于不需要认证关联和Wi‑Fi协议栈的处理，数据通信的延迟很小。
+6. 205486852 室内停车场出入检测与定位系统
+CN
+17.08.2016
+G08G 1/14 Loading...
+G08G 1/14
+Loading...
+201620116490.6
+浙江浙大中控信息技术有限公司
+兰琛
+G08G 1/14
+Loading...
+本实用新型公开了一种室内停车场出入检测与定位系统，其特征在于，包括：车载设备、出入检测设备、定位基站、中心基站和系统服务器，系统服务器分别连接出入检测设备、中心基站，出入检测设备连接车载设备，中心基站分别连接车载设备、定位基站。本实用新型的室内停车场出入检测与定位系统集出入检测、停车定位功能于一体，出入检测、停车定位相关设备通过无线方式通信和维护，系统在机电方面较为安全。
+7. 105654737 一种区块背景建模的视频车流量检测方法
+CN
+08.06.2016
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201610081542.5
+浙江浙大中控信息技术有限公司
+曹锋
+G08G 1/065
+Loading...
+本发明公开了一种区块背景建模的视频车流量检测方法，其特征在于，包括如下步骤：步骤一：当确定好虚拟线圈在视频图像中的位置后，视频信号输入模块将虚拟线圈分割为3个块；步骤二：运动帧差检测模块对图像数据进行运动帧差检测，检测出虚拟线圈3个块的运动状态；步骤三：背景帧差检测模块对图像数据进行背景差检测，根据背景差检测结果，再结合先前时刻线圈的运动时序状态更新当前的背景模型。本发明结合虚拟线圈的实际应用场景，根据连续区块的运动状态时序，能快速的自我学习背景，在背景变化的情况下，能快速的切换到新背景，能很好的适应虚拟线圈交通流量视频检测背景建模的要求。
+8. 105654764 一种室内停车场定位方法
+CN
+08.06.2016
+G08G 1/123 Loading...
+G08G 1/123
+Loading...
+201610081544.4
+浙江浙大中控信息技术有限公司
+张宇
+G08G 1/123
+Loading...
+本发明公开了一种室内停车场定位方法，其特征在于，包括：包括如下步骤：步骤一：在停车场内布置无线定位基站，利用无线信号接收器采集指纹信息，对指纹信息处理形成指纹库；步骤二：根据指纹库数据、车位数据对停车场进行区域划分；步骤三：根据指纹库、车位数据、区域信息搭建可供定位的室内停车场数字环境；步骤四：用户通过智能终端设备采集无线定位基站信息，根据所述数字环境确定自身所处位置；步骤五：根据定位目标，返回定位结果；步骤六：在用户智能终端显示定位结果。本发明提高了不同终端的适应性，定位的连续性，便于大规模普及应用。摒弃了原有Wi-Fi定位系统采用指纹库需要采集大量指纹数据的弊端，方便管理人员操作。
+9. 103369033 一种基于Wi-Fi的智能交通车路快速通信系统
+CN
+25.05.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310202056.0
+浙江浙大中控信息技术有限公司
+楼吉汉
+H04L 29/08
+Loading...
+本发明公开了一种基于Wi-Fi的智能交通车路快速通信系统，包括设在汽车上的工作站和设在路边的无线接入点，工作站和无线接入点均包括有基于Wi-Fi通信协议的软件框架，软件框架内设有短消息处理模块、短消息协议模块和系统调用接口，短消息处理模块与短消息协议模块相连接，短消息协议模块与系统调用接口相连接，短消息处理模块还与管理包分发器相连接，管理包分发器与MAC层相连接，MAC层还与物理层相连接。通过在基于Wi-Fi通信协议的软件框架内加载接收发送短消息功能模块，汽车可以快速获取路况信息，智能交通系统可以快速收集路上汽车的信息并反馈给每个汽车。
+10. 105160615 一种自由检索的病历搜索引擎系统及搜索方法
+CN
+16.12.2015
+G06Q 50/24 Loading...
+G06Q 50/24
+Loading...
+201510566366.X
+浙江浙大中控信息技术有限公司
+杨爱平
+G06Q 50/24
+Loading...
+本发明涉及一种自由检索的病历搜索引擎系统及搜索方法。解决现有电子病历搜索引擎只能进行简单检索、检索精确度较低的问题。系统包括模板单元、数据单元、组合单元和返回单元，数据单元和组合单元分别与模板单元连接，返回单元与组合单元相连。系统对病历数据进行分类存储，根据用户选定的元素组合出搜索因子，搜索到病历数据后根据用户选定的元素进行自定义结果显示。本发明能够自由的定制检索条件方案，也能自由选择导出病历文档中的医疗项目现象，使得用户获得最大限度的自由，能够很好的满足他们的需求，返回用户希望看到的数据。
+11. 103778277 Connecting line drawing optimizing method of sewage treatment simulation software
+CN
+07.05.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201310752389.0
+浙江浙大中控信息技术有限公司
+何琦枫
+G06F 17/50
+Loading...
+The invention relates to a connecting line drawing optimizing method of sewage treatment simulation software. The connecting line drawing optimizing method solves the problem that in the prior art, simulation connecting lines are prone to cross collision under complex conditions. The method comprises the steps that firstly, a line is explored in a certain direction through an XY axis dynamic avoidance strategy and the priority coefficient of the line is recorded; other lines are obtained through backtracking search and meanwhile, the lines obtained through backtracking search are compared with the recorded line in priority coefficient; the recorded line is continuously replaced by the line with the smallest priority coefficient, and finally an optimal line is obtained. The connecting line drawing optimizing method has the advantages that that crossing and overlapping of connecting lines between functional modules are reduced, collision between the connecting lines and the functional modules is reduced, and therefore a graphic interface is clearer; intelligent dynamic adjusting strategies can be realized, the user configuration efficiency is effectively improved, the flexibility is enhanced and the clearness and the readability of the connecting lines are also improved.
+12. 103771582 Aeration control method for sewage treatment
+CN
+07.05.2014
+C02F 3/12 Loading...
+C02F 3/12
+Loading...
+201310658671.2
+浙江浙大中控信息技术有限公司
+赵寅军
+C02F 3/12
+Loading...
+The invention discloses an aeration control method for sewage treatment. The aeration control method comprises the steps: modeling an aeration process by utilizing various control strategies, combining various models and utilizing multi-parameter models; adapting to water quality change by utilizing adaptive selection of primary functions and BP (back propagation) neural network model prediction. The problem of aeration control lag is effectively solved by using the aeration control method so that the quality of effluent is kept to conform to the standard and stable; the aeration control method has the characteristics of high sewage treatment efficiency, low energy consumption and low sewage treatment cost.
+13. 103413445 Intelligent road traffic signal system
+CN
+27.11.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201310233387.0
+浙江浙大中控信息技术有限公司
+范全放
+G08G 1/07
+Loading...
+The invention discloses an intelligent road traffic signal system, which comprises an intersection coordinator and a plurality of intelligent devices, wherein the intersection coordinator and the intelligent devices are connected through a road local area network, all the intelligent devices are connected with each other through the road local area network, the road local area network comprises a wired network and a wireless network, and the wireless network can be a combination combination or either of a wireless local area network and a wireless mesh network; and the intersection coordinator is connected with a traffic control center through a wide area network. According to the intelligent road traffic signal system, the intersection coordinator and the intelligent devices are connected by adopting the road local area network, the addition of a device with a new function can be realized through configuration of software; and the intersection coordinator can supply power for the intelligent devices through the road local area network, the complexity of the circuit is reduced, the production cost is decreased and the reliability is improved.
+14. 202939802 一种交通信号灯黄闪控制器
+CN
+15.05.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201220623247.5
+浙江浙大中控信息技术有限公司
+王自北
+G08G 1/07
+Loading...
+本实用新型涉及一种交通信号灯黄闪控制器。解决了现有交通信号灯内黄闪控制器受控于主控模块的问题。交通信号灯黄闪控制器，包括主控单元和灯组电源，控制器包括有信号转换单元、FPGA单元、切换单元和黄闪驱动单元，该主控模块与信号转换单元连接，信号转换单元与FPGA单元连接，所述切换单元的控制端与FPGA单元连接，黄闪驱动单元和灯组电源连接在切换单元上，切换单元上还连接交通信号灯的黄灯。增加灯组电压和电流的检测功能，能快速有效的发现交通信号灯工作是否正常。增加外界手动开关可以强制黄灯进行黄闪。
+15. 202939805 一种高可靠性供电交通信号灯
+CN
+15.05.2013
+G08G 1/095 Loading...
+G08G 1/095
+Loading...
+201220623614.1
+浙江浙大中控信息技术有限公司
+王自北
+G08G 1/095
+Loading...
+本实用新型涉及一种双供电交通信号灯。解决了一般交通信号灯只有一路驱动电源，出现故障时信号就停止工作的问题，以及具有双供电的交通信号灯一路是作为备用电源需要智能判断后进行切换，增加CPU工作负担、增加成本，且会出现误判的问题。交通信号灯包括交通信号控制机、驱动电源和若干信号灯，交通信号控制机通过驱动电源与信号灯连接，驱动电源包括第一驱动电源和第二驱动电源，交通信号控制机分别连接到第一驱动电源和第二驱动电源上，第一驱动电源和第二驱动电源分别与各个信号灯相连并。采用双驱动电源同时对信号灯进行供电，当交通信号灯装置内一路驱动电源出现问题，另一路驱动电源供电交通信号灯正常工作，提高了交通信号灯的可靠性。
+16. 102982688 一种基于主干道协调优先的区域交通信号控制方法
+CN
+20.03.2013
+G08G 1/081 Loading...
+G08G 1/081
+Loading...
+201210302422.5
+浙江浙大中控信息技术有限公司
+章如峰
+G08G 1/081
+Loading...
+本发明涉及一种基于主干道协调优先的区域交通信号控制方法。解决现有技术中区域交通控制方法不适应我国城市道路交通设施现状的问题。其包括以下步骤：确定区域内主干道；根据交叉口的特征对区域内各交叉口分别选用不同的相位配置方案；依次对区域内主干道和非主干道交叉口进行相位差优化；依次确定各个交叉口的相位绿灯启动时间，完成区域交通信号配时。本发明优点是：将复杂的区域交通面控系统的优化转化为线控系统的优化，降低了区域交通信号优化的复杂度，大幅提高区域交通信号控制的效率；重点考虑了区域中交通流量较大的主干道，主次分明的优化顺序使得整个区域交通能够得到更优的控制效果。
+17. 102915643 一种信号交叉口各相位绿灯时间计算方法及系统
+CN
+06.02.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201210300637.3
+浙江浙大中控信息技术有限公司
+杨永耀
+G08G 1/07
+Loading...
+本发明涉及一种信号交叉口各相位绿灯时间计算方法及系统，该方法包括以下步骤：设定信号交叉口的服务流量目标函数；设定周期内每个相位绿灯的最大绿灯时间和最小绿灯时间，每个相位的绿灯时间小于等于最大绿灯时间并大于等于最小绿灯时间；每个相位的绿灯时间总和为周期时长；设定比例系数，使当前周期内任意两个相位的绿灯时间之比小于等于比例系数与上一周期内对应相位的流率之比的乘积；在这些约束条件下，通过遍历比例系数，计算出信号交叉口各相位的绿灯时间，使得该交叉口的服务流量最大。本方法能很好的处理空放以及渐变的交通流，并能快速的应对突变的交通流，能够使尽可能多的车辆通过交叉口，提高信号交叉口的服务水平。
+18. 102915637 一种信号控制交叉口的交通状态评价方法及系统
+CN
+06.02.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201210272195.6
+浙江浙大中控信息技术有限公司
+吴昊旻
+G08G 1/01
+Loading...
+本发明涉及一种信号控制交叉口的交通状态评价方法及系统。解决了依靠车流量计算拥堵评价指标存在的与实际情况有较大偏差的问题。其包括以下步骤：获取交叉口信号机的周期值以及每一个车道对应的相位绿灯持续时间；检测每个车道在相位绿灯时间内通过的车辆实际利用相位绿灯时间；计算出各车道时间饱和值；计算出各车道折算流量；根据各车道折算流量计算各相位折算流量比；根据各相位折算流量比计算出交叉口交通饱和度；根据交叉口交通饱和度所落在的级别评价交叉口的拥堵等级。本发明的优点是将车辆实际利用绿灯时间作为判断车道是否繁忙的重要参数，有效解决了实测车流量与车速并不是一一对应的关系。
+19. 102495895 异构数据源的统一方法、装置及系统
+CN
+13.06.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110412148.2
+浙江浙大中控信息技术有限公司
+马振宇
+G06F 17/30
+Loading...
+本发明公开了一种异构数据源标准化的方法、装置及系统，该方法包括：接收到私有术语的标准化处理请求后，获取所述标准术语与所述私有术语的映射关系、所述标准术语所处业务场景的标准结构；采集所述私有术语系统中的私有术语；将所述私有术语所处的业务场景的私有结构按照所述标准术语所处相应业务场景的标准结构进行标准化；轮询结构标准化后的私有术语中每一项数据，将每一项数据按照所述标准术语与所述私有术语的映射关系进行标准化。采用本发明实施例公开的方法、装置和系统可以构建出异构数据源的统一表述基础，达到来自不同地区统一机构的信息的统一表述，实现真正意义的共享。
+20. 101916157 Medical device monitoring method, medical device, server and medical system
+CN
+15.12.2010
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+201010225713.X
+Zhejiang Supcon Information Technology Co., Ltd.
+He Shengjie
+G06F 3/048
+Loading...
+The invention discloses a medical device monitoring method, a medical device, a server and a medical system. The medical device monitoring method comprises that: the medical device sends the detected interface parameters and parameter values to the server; the server generates a monitoring interface with various interface parameters and parameter values of the medical device; the server receives an effective modification request for one or more parameter values on the monitoring interface to generate a control demand and send the control demand to the medical device; the medical device receives the control demand sent by the server; and the medical device executes the control demand. The medical device is subjected to concentrative integrated control, and workers can perform unified monitoring and operation on each medical device in an operating room; the method provided by the invention provides convenience for the workers to operate the medical device; and in the operation process, the workers do not need entering an operating room for adjusting the medical device, so the infection probability of the patient in the operation can be reduced.
+21. 101825870 Method and system for controlling supply quantity of water-treatment flocculating agent
+CN
+08.09.2010
+G05B 13/02 Loading...
+G05B 13/02
+Loading...
+201010182234.4
+Zhejiang Supcon Information Technology Co., Ltd.
+Sun Jianbin
+G05B 13/02
+Loading...
+The embodiment of the invention discloses a method and a system for controlling the supply quantity of a water-treatment flocculating agent. The method comprises the following steps of: selecting the primary function of an undetermined coefficient as the increment of the control input of a next moment on the basis of the control input of a current moment, and presetting the increment of the control input of each posterior moment as the product of the increment of the control input of a previous moment and a preset genetic factor; obtaining the prediction output of each moment by a prediction model and obtaining a prediction output track simultaneously; fitting the prediction output track and an expected output track to obtain the coefficient of the primary function so as to obtain the control input of the next moment; and carrying out on-line correction on the prediction model by a neural network and then entering a next cyclic process. The system disclosed by the embodiment of the invention comprises a control input module, a prediction output module, an optimization module and a correction module. By the method and the system which are disclosed by the invention, the supply quantity of the water-treatment flocculating agent can be accurately and stably controlled.
+22. 101825622 Water quality prediction method and device
+CN
+08.09.2010
+G01N 33/18 Loading...
+G01N 33/18
+Loading...
+201010151395.7
+Zhejiang Supcon Information Technology Co., Ltd.
+Gu Shubo
+G01N 33/18
+Loading...
+The invention discloses a water quality prediction method and a device. The method includes the steps that: raw water data is acquired, and according to the raw water data, a prediction model is established; the relative error of the prediction model is calculated, the prediction model is an effective model when the relative error of the prediction model is smaller than or equal to a predetermined relative error, and water quality prediction is carried out according to the prediction model; and the establishment of the prediction model includes the steps that: an original GM(1,1) model is established according to the raw water data, and an original GM(1,1) model value is calculated; according to the original GM(1,1) model value, primary residual error data is determined, and is utilized to establish a primary residual error GM(1,1) model; according to the primary residual error GM(1,1) model, the original GM(1,1) model is corrected, a corrected GM(1,1) model is established, and a corrected GM(1,1) model value is calculated; and according to the corrected GM(1,1) model value, secondary residual error data is determined, and is utilized to establish a BP neural network model.
+23. 101819409 Chlorination control method and device
+CN
+01.09.2010
+G05B 13/02 Loading...
+G05B 13/02
+Loading...
+201010151408.0
+Zhejiang University SUPCON Information Technology Co., Ltd.
+Fang Fang
+G05B 13/02
+Loading...
+The embodiment of the invention discloses a chlorination control method and a chlorination control device. The method comprises the following steps of: acquiring real-time working condition data; querying a pre-established reference environment expert database, wherein the reference environment expert comprises information used for indicating corresponding relationships between reference working condition data and corresponding controlled chlorination quantity values; determining a reference working condition matched with the real-time working condition data according to a query result and taking a controlled chlorination quantity corresponding to the reference working condition as a first controlled quantity value; processing the first controlled quantity value by using a fuzzy control strategy to obtain a second controlled quantity value; and obtaining a current controlled quantity value with the weight sum of the first and second controlled quantity values, and performing chlorination control according to the current controlled quantity value. Through the method and the device, chlorination control effect can be improved and investment is saved.
+24. 101515175 Data transmitting method, data processing method and industrial control system
+CN
+26.08.2009
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+200910130871.4
+Zhejiang University SUPCON Information Technology Co., Ltd.
+Wang Yuelin
+G05B 19/418
+Loading...
+The invention provides a data transmitting method which is suitable for a industrial control system including a control station and an operation station, the control station performs the following steps: setting step, setting time label to data needed to be broadcasted; and broadcasting step, broadcasting the data set with the time label to the operation station. The invention also provides the control station, a data processing method, the operation station and the industrial control system. In the invention, the control station is used for setting time label to data broadcasted to the operation station, the time labels carried by the data received by the operation station are different, In this way, the operation station can not easily discard or cover data, thereby being favourable to subsequent data processing. Simultaneously, same data received by a plurality of operation station carries same time label, thereby avoiding same data on different operation station displaying different time.
+25. 101515297 History data inquiry method, route server and inquiry terminal and system
+CN
+26.08.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910130870.X
+Zhejiang University SUPCON Information Technology Co., Ltd.
+Wang Yuelin
+G06F 17/30
+Loading...
+The embodiment of the invention provides a history data inquiry method, a route server, a inquiry terminal and a distributed history data inquiry system. The history data inquiry method includes obtaining network address of all acquisition stations by the route server; regularly testing the acquisition stations to judge whether the acquisition stations are in movable state, judging whether a route table formed by the movable state acquisition station network address and corresponding history data source identification has update according to test result, if yes, sending the route table updated by the route server to the inquiry terminal, updating a local route table by the inquiry terminal according to the received route table; breaking original connection, establishing new connection according to updated local route table and each movable acquisition station; searching acquisition station corresponding to object history data by the local route table, and obtaining subsequent corresponding history data from the acquisition station by using the established connection. By employing the embodiment of the invention, inquiry route confusion phenomenon can be avoided when using the inquiry terminal to inquiry history data.
+26. 1664873 Digital quantity output device
+CN
+07.09.2005
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+200510053655.6
+Zhejiang SUPCON Information Co., Ltd.
+Zhao Hongming
+G08C 17/02
+Loading...
+This invention relates to a digital output device, which comprise an output unit, a controller linked to output unit to control the unit work according to control instruction, a wireless remotely controlling-receiving unit linked to controller to receive high-frequency signal sent by remote manual controller and demodulating, decoding it to control instruction, a remote manual controller for receiving control instruction input by user, and encoding, modulating it into high-frequency signal which is then output, still an on-site bus interface unit linked to controller for converting the signal into the signal capable being processed by controller and sending to controller so that controller identifies instruction given by outer control device via bus interface unit.
+

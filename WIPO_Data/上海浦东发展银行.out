@@ -1,0 +1,73 @@
+1. 106325854 一种基于Groovy的规则引擎系统
+CN
+11.01.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102016000654148
+上海浦东发展银行股份有限公司信用卡中心
+马自谦
+G06F 9/44
+Loading...
+本发明涉及一种基于Groovy的规则引擎系统，该规则引擎系统基于ApacheGroovy实现，包括：规则设置界面，用于与用户交互，供所述用户设置针对某个场景的规则及相应配置数据，并将获取的所述规则及相应配置数据存储于Redis中；规则发布模块，用于将所述规则设置界面获取的规则发布上线；规则池，用于存储有规则列表；规则计算模块，用于与用户交互，在收到所述用户的计算请求时响应，根据所述规则池内的规则列表进行计算，向用户反馈计算结果。与现有技术相比，本发明具有灵活高效、减少资源消耗等优点。
+2. 106201739 一种基于Redis的Storm的远程调用方法
+CN
+07.12.2016
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+102016000492975
+上海浦东发展银行股份有限公司信用卡中心
+马自谦
+G06F 9/54
+Loading...
+本发明涉及一种基于Redis的Storm的远程调用方法，调用客户端利用消息队列和Redis对Storm实现远程调用，所述方法包括下列步骤：调用客户端发送请求消息至消息队列；Storm从消息队列中获取请求消息并进行处理；Storm将处理后的消息结果放入Redis中；调用客户端从Redis中获取处理后的消息结果。与现有技术相比，本发明具有避免数据缓存量过大、防止单点故障以及可靠性高等优点。
+3. 106170013 一种基于Redis的Kafka消息唯一性方法
+CN
+30.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610492940.6
+上海浦东发展银行股份有限公司信用卡中心
+马自谦
+H04L 29/08
+Loading...
+本发明涉及一种基于Redis的Kafka消息唯一性方法，利用Redis解决Kafka中消息重复消费的问题，所述方法包括下列步骤：Kafka接收消息数据；采用分布式选举算法，对接收的消息数据进行过滤；对过滤后的消息数据进行业务逻辑处理；判断业务逻辑处理是否出错，若是则删除业务逻辑处理出错的消息数据，若否则正常结束。与现有技术相比，本发明具有避免消息重复消费、吞吐量高以及可靠性高等优点。
+4. 101141252 Network cipher authentication method
+CN
+12.03.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200610030978.8
+Shanghai Pudong Development Bank Co., Ltd.
+Zheng Jianyou
+H04L 9/32
+Loading...
+The utility model discloses a network cryptographic certification method, which is used for network behavior's cryptographic certification and comprises following steps: step I. The user logs onto the network system via the individual account no.; the network system consists of a processor and a storage device; step II. The network system's processor adopts the special algorithm to randomly generate the dynamic password which is provided with unique identification and can be used only once; step III. The network system delivers the dynamic password to the user for the network behavior's cryptographic certification; also, the dynamic password is stored in the network system's storage via special means. The utility model provides the user with a cryptographic certification solution which takes both the safety and the simplicity into account, so as to tackle the deficiencies in the existing cryptographic certification technique.
+5. 101093569 A method for electronic funds transfer
+CN
+26.12.2007
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+200610028087.9
+Pudong Development Bank Co., Ltd., Shanghai
+Zheng Jianyou
+G06Q 40/00
+Loading...
+A method for making electronic remitence includes using remitter electronic mail box address to enter corresponding electronic account through user terminal, carrying out remitence onto payee electronic account corresponding to payee electronic mail box through electronic remitence system and sending remitence notification to payee electronic mail box by server.
+6. 101071520 Method for concurrently realizing credit and debit functions on identical bank card
+CN
+14.11.2007
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+200610026397.7
+Shanghai Pudong Development Bank
+Zhang Yaolin
+G07F 19/00
+Loading...
+The present invention relates to a functional approach of bank with a debit card and credit at the same time, the bank debit card accounts and association at the same time credited to accounts, including the following steps: First, the client terminal judge whether legitimate bank cards read on and send card number, and other transaction information to the mainframe and then, mainframe judgment customers choose the types of financial transactions; Then, according to a pre-determined host, select accounts linked to debit or credit accounts; Finally, mainframe and customers terminals selected in the third step through the account of the completion of financial transactions. Through method above, customers can use a single credit vouchers to realize consumption, personal loans, auto payments, save species cash access, transfer and clearing a number of functions such as finance and investment, significant savings in the bank at the same time the cost of system resources and credit card of issuers is cut.
+

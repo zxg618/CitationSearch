@@ -1,0 +1,97 @@
+1. 103150406 信息查询和通知方法和装置
+CN
+17.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000109105
+北京国政通科技有限公司
+袁聪
+G06F 17/30
+Loading...
+本发明公开了一种信息查询和通知方法和装置。所述方法包括步骤：接收并且验证用户提交的身份信息；在验证通过的情况下，保存用户的身份信息；在互联网上遍历网站页面，提取符合预先定义的身份信息规则的身份信息并且建立索引；以及利用所述索引查询用户的身份信息，并且向用户通知查询结果。本发明针对互联网身份信息泄漏这一重大信息安全问题提供了解决方案。
+2. 103281296 处理密码信息的方法和装置
+CN
+04.09.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310141865.5
+北京国政通科技有限公司
+陶家圣
+H04L 29/06
+Loading...
+本发明公开了一种处理密码信息的方法和装置。所述方法包括步骤：接收用户通过客户端提交的身份信息；利用预先定义的身份信息数据库验证用户的身份信息；在验证通过的情况下，保存用户的身份信息；接收用户通过客户端提交的一个或者多个第一密码信息以及相关联的第一密码，并且将其保存在客户端本地和/或服务器端；在接收到用户通过客户端提交的包含身份信息的请求的情况下，向客户端提供所述第一密码；以及在接收到用户通过客户端提交的包含第一密码的请求的情况下，向客户端提供所述一个或者多个第一密码信息。由此，为用户的各种密码信息提供了一种统一管理的途径。
+3. 103200178 查询和处理通话参与方信息的方法和装置
+CN
+10.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310062813.9
+北京国政通科技有限公司
+何波
+H04L 29/06
+Loading...
+本发明公开了一种查询和处理通话参与方信息的方法和装置。其中，该方法包括步骤：服务器端监听向其发送的查询通话参与方信息的查询请求；在服务器端接收到所述查询请求时，基于预先定义的标识信息数据库，针对所述通话参与方的标识进行查询，并且将查询结果返回查询方；服务器端接收针对通话参与方的反馈信息；以及服务器端利用所述反馈信息，更新所述预先定义的标识信息数据库中包括的黑名单数据。本发明提高了通话参与方信息查询的准确程度，能够在查询结果中提供更充分的信息，降低了用户遭受电信欺诈的风险。
+4. 102866984 智能交易中矩阵量化分析方法及其系统
+CN
+09.01.2013
+G06F 17/16 Loading...
+G06F 17/16
+Loading...
+201210135591.4
+北京国政通科技有限公司
+曾祥洪
+G06F 17/16
+Loading...
+本发明公开一种智能交易的矩阵量化分析方法与系统，该方法包括：步骤1，建立用于矩阵量化分析的数据库，从数据库中确定时间周期，周期的长短可通过矩阵的参数进行设定；步骤2，对于历史数据的分析，首先是统计具有相同排列顺序的矩阵在下一时间周期出现涨跌的平均概率和平均波幅，然后分别计算不同周期的市场风险回报率；步骤3，根据矩阵当前时间周期的市场风险回报率确定交易策略；步骤4，根据交易策略，调用智能交易程序，开始自动进行交易；步骤5，调用风险评估系统对智能交易程序做的历史交易记录进行评估，对该交易账户的风险给出风险等级，并利用区分度模型计算出违约点，然后通过KMV模型计算该账户风险等级的违约距离和违约概率。
+5. 102841946 商品数据检索排序及商品推荐方法和系统
+CN
+26.12.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210307147.6
+北京国政通科技有限公司
+郑茂林
+G06F 17/30
+Loading...
+本发明公开了一种商品数据检索，排序及商品推荐方法，包括生成商品数据的数据库；根据用户输入的查询词从数据库中取出匹配结果；对该匹配结果的类别数及所有类别名称进行统计，并对每个类别分别计算在匹配结果中的商品类别数ni以及它在整体商品数据中包含的商品数据个数mi；计算每个类别的类别权重wi，找出类别权重wi最大的类对应的类别权重wt；将所有类别权重小于d*wt的类对应的所有商品数据从匹配结果中删除，其中，0＜d＜1，为可调参数；将其余的类别按照其类别权重进行从大至小的排序，并且将商品所在商家的价格在各个网上商城所卖价格的百分比进行展示。
+6. WO/2008/037164 UTILIZE INDIVIDUAL INFORMATION SUBMITTED BY THE USER TO SET UP USERS' REAL IDENTITY DATABASE
+WO
+03.04.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2007/002116
+BEIJING GZT NETWORK TECHNOLOGY INC.
+HUANG, Haijia
+H04L 9/32
+Loading...
+A method and system for creating a database of users' real identity by utilizing the individual information submitted by the user, and the method includes: the user applies for a identity number from the identity information authentication system through the communication network (including but not restricted in fixed, wired, wireless, telephone network, mobile network, Internet, etc.); through the communication network the identity information authentication system assigns an identity number to the user, and gives a cue to the user to submit the identity information; the user submits various identit information to the identity information authentication system through the communication network; the identity information authentication system temporarily stores the identity information, and authenticates the authenticity of the identity information submitted by the user; after passing the authentication, the identity information authentication system combines the identity information temporarily stored with the relevant expanded identity information obtained from the third party database during the authenticity authentication, and then stores it into the identity information database of the identity information authentication system, and relates the combined identity information with the identity number.
+7. 101136909 Method and system for checking user real identification using communication network
+CN
+05.03.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200610113602.3
+Beijing Guozhengtong Net Science Technology Co., Ltd.
+Huang Haijia
+H04L 29/06
+Loading...
+The method includes following steps: the checking system makes association between one or more unique attributive information (UAI) of person to be checked (PBC) and true ID information in ID database; through communication network, checker submits one or more items of UAI of PBC to the checking system as well as submits specific items to be checked; after receiving the specific items submitted from the checker, the checking system through communication network applies to the PBC for checking authorization; in answer to the application, the PBC authorizes the checker to allow checking the items through the checking system; based on authorized items by PBC, the checking system calls validated data form ID information database in the checking system, and then shows the result to the checker.
+8. 101034984 Establishing the true identify database of the user with the personal information submitted by the user
+CN
+12.09.2007
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200610113311.4
+Beijing GZT Network Technology Inc.
+Huang Haijia
+H04L 9/32
+Loading...
+This invention discloses system and method to establish a database of user's real identity by using user's personal information. The methods includes: users through communications networks (including but not limited to a fixed, cable, wireless and telephone networks, mobile networks, the Internet, etc.), to applicant a user-identity from identity verification system; identity Verification System allocated to the user a user-identity through communication network, and suggests users to submit the identity information. Users submit identity information through authentication system in which all information are stored temporarily, after the passage of identity the authentication system will received from a third party database information and the corresponding expansion as described in the identity information of the pending merger, then store the information to the database of identity information system, and merge with the identity of the identity information, and identity-related information.
+

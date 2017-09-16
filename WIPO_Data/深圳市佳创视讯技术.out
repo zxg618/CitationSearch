@@ -1,0 +1,301 @@
+1. 103813204 一种基于机顶盒的跨屏互播方法及系统
+CN
+11.01.2017
+H04N 21/436 Loading...
+H04N 21/436
+Loading...
+102014000067411
+深圳市佳创视讯技术股份有限公司
+高见
+H04N 21/436
+Loading...
+本发明公开了一种基于机顶盒的跨屏互播方法及系统，该方法包括如下步骤：第一客户端接收服务器发送的第二客户端信息、第二共享文件信息和第二权限信息；第一客户端接收到某个用户的播放第二客户端的第二共享文件的命令后，第一客户端根据第二共享文件信息判断第一客户端是否支持播放第二共享文件，若支持则向第二客户端发送播放第二共享文件的请求，第一客户端接收第二共享文件数据并播放第二共享文件；若不支持则检测是否存在机顶盒，若存在则第一客户端请求机顶盒将第二共享文件转换为第一客户端支持播放的格式，第一客户端接收机顶盒发送的转换后的第二共享文件数据并播放第二共享文件。
+2. 103458065 一种HTML5标准下基于Webkit内核的视频地址提取方法
+CN
+28.09.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102013000411248
+深圳市佳创视讯技术股份有限公司
+胡勇
+H04L 29/12
+Loading...
+本发明公开了一种HTML5标准下基于Webkit内核的视频地址提取方法，属于网络通信和多媒体信息处理技术领域。该方法主要通过Webkit内核浏览器解析视频网站，从浏览器对网页分析的流程中提取网络视频的真实地址，通过InjectedBundle接口，控制网页解析的流程，屏蔽与网络视频无关的网络请求，从简化的流程中得到视频地址。相应程序包括三个部分：一、与Webkit解析网页流程进行通信并对其控制的功能库；二、面向顶层应用的接口，负责与应用程序进行通信；三、相应的数据结构，用来维护和控制视频地址提取功能库的网址数据和运行过程。由于浏览器解析视频网站的过程是通用的，用户可以通过该功能对各大视频网站的视频网址进行解析，获取视频的真实地址。
+3. 105740407 树形结构生成方法及系统
+CN
+06.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000061637
+深圳市佳创视讯技术股份有限公司
+廖宜武
+G06F 17/30
+Loading...
+本发明涉及树形结构生成方法及系统，所述方法包括如下步骤：在页面生成预设的根节点，当在页面上检测到当前节点的触发信号时，发送分段加载请求；服务器根据分段加载请求，发送所述当前节点的下一层节点的数据；页面在获取到下一层节点的数据后，通过分段加载方式生成所述下一层节点的数据。在点击当前节点时动态地加载下一层节点的数据，同时通过分段加载的方式加载下一层节点的数据，使得页面渲染出的树形结构的速度大大提升，减少了用户等待页面加载的时间，提升了用户体验感。
+4. 105550047 基于数据库通信的方法及系统
+CN
+04.05.2016
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+201510923387.2
+深圳市佳创视讯技术股份有限公司
+陈文博
+G06F 9/54
+Loading...
+本发明涉及一种基于数据库通信的方法及系统，所述方法包括如下步骤：数据发送端将所需发送的数据存储至数据库中；数据库存储数据发送端的所需发送的数据；数据接收端从所述数据库中获取所需接收的数据。将需要调用的数据保存在数据库中，即使调用多个模块时，也只需要保存一次数据。而当流程中需要增加被调用模块或者有被调用模块功能变动时，对于调用方式毫无影响，从而减少了代码的耦合度，降低开发量；将数据存储在数据库避免了被调用模块在运行时因异常而终止所导致数据丢失的问题。
+5. 204534044 壁挂支架机构及壁挂式电视终端
+CN
+05.08.2015
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+201520009890.2
+深圳市佳创视讯技术股份有限公司
+陈鹏
+F16M 13/02
+Loading...
+本实用新型公开了一种壁挂支架机构及壁挂式电视终端。所述壁挂支架机构包括：一与壁挂式电视终端卡接的U型支架；以及一固定安装在承载物之上的T型支架。本发明提供的壁挂支架机构，其安装需求空间小，成本低廉，操作方便，维护安装快捷。用户可根据客厅电视墙实际情况选择安装位置。节约电视柜等储物柜占地空间。
+6. 103744987 Video website media asset integrating method and system based on DOM tree matching
+CN
+23.04.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410026230.5
+深圳市佳创视讯技术股份有限公司
+韦唯
+G06F 17/30
+Loading...
+The invention discloses a video website media asset integrating method and system based on DOM tree matching. The method includes S1, generating configuring files, namely generating configuring files, structurally comprising basic information units, media asset parameter units and DOM subtree structure units, according to user output; S2, acquiring HTML documents and generating DOM trees of the HTML documents, namely requiring websites to be integrated and acquiring HTML documents, and analyzing the HTML documents to generate DOM trees of the HTML documents; S3, extracting media assets, namely guiding in matching templates and generating template DOM trees, matching the DOM trees of the HTML documents with the template DOM trees, extracting sub-nodes with most simplified structures from the DOM trees of the HTML documents, and extracting media asset information contained in the sub-nodes. Compared with the prior art, the method has better compatibility and stability.
+7. 102984557 基于DRM的流媒体播放系统
+CN
+20.03.2013
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+201210519411.2
+深圳市佳创视讯技术股份有限公司
+任光明
+H04N 21/254
+Loading...
+本发明公开了一种基于DRM的流媒体播放系统，包括：数据加密处理服务器，用于对数据内容进行数据版权加密保护处理，以及对认证授权内容信息进行授权加密处理；客户端播放器，与数据加密处理服务器连接，用于对认证授权信息进行解密，并对解密的数据内容进行播放。本发明通过对内容信息进行数据版权加密保护处理，以及对认证授权内容信息进行授权加密处理，并通过客户端播放器对认证授权信息进行解密，对解密的内容信息进行HLS自适应流媒体播放。本发明同时支持HFC网络、电信网络和互联网；实现了数字版权流媒体的解密播放；在进行HLS自适应流媒体播放时，可自动检测网络状况，进行自适应码率，具有缓冲时间短的优点。
+8. 202602834 基于IPQAM调制的统一频点资源调度系统
+CN
+12.12.2012
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+201220197587.6
+深圳市佳创视讯技术股份有限公司
+庄兴赞
+H04N 21/266
+Loading...
+本实用新型公开了一种基于IPQAM调制的统一频点资源调度系统，其特征在于：包括统一频点资源调度中心和多个与终端业务相对应的业务资源管理器，所述业务资源管理器与所述统一频点资源调度中心及各个IPQAM组连接。与现有技术相比，本实用新型实现了多业务频点资源的统一配置和动态调度，提高了频点资源利用率。
+9. 202435531 应用于数字电视前端的内容注入系统
+CN
+12.09.2012
+H04N 21/2665 Loading...
+H04N 21/2665
+Loading...
+201220015327.2
+深圳市佳创视讯技术股份有限公司
+江瑞杰
+H04N 21/2665
+Loading...
+本实用新型公开了一种应用于数字电视前端的内容注入系统，包括接收广电运营商上传内容的自上传内容暂存服务器、内容存储服务器、与内容存储服务器连接的注入管理设备、以及与注入管理设备连接的中心视频存储服务器，还包括内容转码服务器、以及接收互联网用户上传内容的互联网内容暂存服务器，所述互联网内容暂存服务器与所述内容转码服务器相连，所述内容转码服务器还与所述内容存储服务器相连。与现有技术相比，本实用新型的内容注入系统实现了多形式的内容注入。
+10. 102447952 一种基于短信网关的视频点播系统和视频点播方法
+CN
+09.05.2012
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+201110296696.3
+深圳市佳创视讯技术股份有限公司
+庄兴赞
+H04N 21/254
+Loading...
+一种基于短信网关的视频点播系统和视频点播方法，系统包括单向点播中间件、ODA系统、视频服务器、QAM、数字电视机顶盒终端、支持短信发送的移动设备、短信收发器，在单向点播中间件设置与短信收发器连接的短信网关接口、分别与ODA系统、视频服务器和QAM连接的计费认证网关接口、后台管理网关接口和QAM网关接口，且在原有支持IP双向网络计费和认证的基础上升级ODA系统软件。方法依次有以下步骤：1)通过短信请求单向点播；2)确认购买点播计费；3)中止点播请求；4)维持点播状态；5)结束播放。本发明只需要运营商对视频点播系统的前端部分进行简单升级，就可以为大量的单向数字电视终端机顶盒用户提供VOD点播服务。
+11. 102419711 数字电视接收终端的嵌入式系统的包管理系统及方法
+CN
+18.04.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110363484.2
+深圳市佳创视讯技术股份有限公司
+涂睿
+G06F 9/445
+Loading...
+本发明公开了一种数字电视接收终端的嵌入式系统的包管理系统及方法，该系统包括数据源设置模块，用于设置软件包的数据源；同步模块，用于将数据源中的软件包信息列表同步至本地；软件包安装模块，该软件包安装模块包括：安装命令接收模块，用于接收用户的安装命令；安装分析模块，用于根据所述软件包信息列表在数据源中查找到安装命令所指向的软件包，并根据该软件包中的依赖关系描述文件分析出该软件包的所有依赖软件包及相互之间的依赖关系；安装执行模块，根据分析模块的分析结果从数据源下载并安装所述依赖软件包及安装命令所指向的软件包。本发明实现在嵌入式系统中一步安装有依赖关系的软件包，简化了安装过程。
+12. 102404624 一种数字机顶盒用支持硬件解码的全格式媒体播放器
+CN
+04.04.2012
+H04N 21/43 Loading...
+H04N 21/43
+Loading...
+201110348351.8
+深圳市佳创视讯技术股份有限公司
+涂睿
+H04N 21/43
+Loading...
+一种数字机顶盒用支持硬件解码的全格式媒体播放器，在封装格式解析模块与输出模块中间设有硬件解码接口以及与硬件解码接口连接的硬件解码芯片，需要采用硬件解码方式的，将解复用后的PES数据或ES数据由硬件解码接口传送至硬件解码芯片解码为音视频数据。本发明软硬件解码共存，支持硬件加速，支持多种信道，软件具备良好的扩展性，源代码具备良好的通用性，可在不同的硬件平台移植。本发明可播放本地存储介质中的媒体文件、网络媒体文件，支持全包装格式的媒体文件的播放，还可读取并播放外置存储介质的媒体文件。有效解决现有数字电视终端播放器只能播放几种特定格式的媒体文件的缺陷，不仅节约资源，还给用户提供优质的高清视频播放效果。
+13. 102289494 System and method for generating video on demand one-way or two-way WEB navigation page
+CN
+21.12.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110234877.3
+Shenzhen Advanced Video Info-tech Co., Ltd.
+Huang Zhijun
+G06F 17/30
+Loading...
+The invention discloses a system and method for generating a video on demand one-way or two-way WEB navigation page. The system comprises a database server, a data broadcasting server, a video storage server, a one-way set top box, a WEB server, an ODA (On Demand Application) server, a navigation page management edition workstation, a navigation server and a two-way set top box, wherein the navigation page management edition workstation is used for configuring various parameters and setting layouts for services to be developed; and the navigation server is used for feeding a layout effect back to the navigation page management edition workstation in real time according to various configuration operations of the navigation page management edition workstation, and recording the layout effect to the database server in real time. According to the invention, the video on demand one-way or two-way WEB navigation page is generated by using the traditional one-way set top box platform, a two-way set top box platform for establishing a navigation path, classifying programs, setting program posters or illustration layouts and generating one-way and two-way server layouts can be provided, and a digital television can be integrally translated to turn to the two-way set top box platform with excellent performances.
+14. 102291615 Television program precision searching and detail viewing device and method based on one-way network
+CN
+21.12.2011
+H04N 21/438 Loading...
+H04N 21/438
+Loading...
+201110255367.4
+Shenzhen Advanced Video Info-tech Co., Ltd.
+Hu Yong
+H04N 21/438
+Loading...
+The invention discloses a television program precision searching and detail viewing device and method based on a one-way network. An EPG (Electronic Program Guide) unit and a front-end data broadcasting unit positioned at the front end of the one-way network are arranged; a program information processing unit, a program storage unit, a Chinese characters spelling processing unit, a program searching unit and a terminal data broadcasting unit are arranged on a one-way receiving digital television set-stop box; and the program information processing unit, the program storage unit, the Chinese characters spelling processing unit, the program searching unit and the terminal data broadcasting unit mutually call software modules in operation through API (Application Programming Interface). By using the device and method disclosed by the invention, the precision searching and detail viewing of the program information can be realized through direct engineering application without making any modification to the current network; the user can obtain detailed program content introduction through associated web pages so as to solve the problems that the programs are hard to look up and the details cannot be viewed; and the using effect of the EGP is provided so that the adhesion of the digital television user to the digital television application is enhanced.
+15. 102056013 Video server system with hard disk broadcasting function
+CN
+11.05.2011
+H04N 21/23 Loading...
+H04N 21/23
+Loading...
+201010540180.4
+Shenzhen Advanced Video Info-Tech Co., Ltd.
+Li Yong
+H04N 21/23
+Loading...
+The invention discloses a video server system with a hard disk broadcasting function, which comprises one or more program publishing workstations with built-in program publishing software, a content distribution server with built-in content distribution software, one or more video servers with a memory array, a database server, one or more programming workstations with built-in program list edition software, a broadcasting server, and one or more pieces of Internet protocol quadrature amplitude modulation (IPQAM) equipment, wherein the broadcasting server consists of a central broadcasting server and one or more boundary broadcasting servers, and has built-in broadcasting software. The video server system achieves remarkable improvements in the technical levels of memory capacity, traffic pushing capacity, hierarchical deployment, system upgrade and capacity expansion, and the like, and can satisfy the needs of provincial even national hard disk broadcasting application.
+16. 102036121 Digital television browser based mosaic video navigation method
+CN
+27.04.2011
+H04N 21/4782 Loading...
+H04N 21/4782
+Loading...
+201010540276.0
+Shenzhen Advanced Video Info-tech Co., Ltd.
+Hu Liqiong
+H04N 21/4782
+Loading...
+The invention discloses a digital television browser based mosaic video navigation method which is characterized by comprising the following steps: A, abstracting the mosaic video navigation function into a plurality of interfaces by a terminal, and encapsulating the interfaces into javascript interfaces which can be directly called by a webpage; B, generating an HTML (hypertext markup language) webpage used as a mosaic video navigation interface by a front end, wherein the HTML webpage comprises calling codes for calling the javascript interfaces; and C, acquiring the HTML webpage used as the mosaic video navigation interface from the front end before playing the mosaic service by the terminal, implementing webpage codes and generating the mosaic video navigation interface comprising a plurality of small video windows. The invention has the beneficial effects that the user interface can be changed or modified only if a new HTML webpage is used, and the method in the invention is convenient for the operator to embed advertisements and the like in a navigation interface for value-added application.
+17. 102026020 Bidirectional set-top box system with time shifting on-demand service
+CN
+20.04.2011
+H04N 21/20 Loading...
+H04N 21/20
+Loading...
+201010528212.9
+Shenzhen Advanced Video Info-Tech Co., Ltd.
+Li Yong
+H04N 21/20
+Loading...
+The invention provides a bidirectional set-top box system with a time shifting on-demand service. The system realizes abundant and flexible time shifting television watching functions such as channel classification, program classification, live broadcast playback and the like through a bidirectional set-top box with embedded browser software, a time shifting program editing workstation, digital encoding equipment, a video acquisition and storage server, an acquisition control service, a database server, a web electronic program guide (WEBEPG) server and an official development assistance (ODA) server.
+18. 201750484 一种数字电视终端用户收视行为分析装置
+CN
+16.02.2011
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+201020255640.4
+深圳市佳创视讯技术股份有限公司
+胡勇
+H04N 5/00
+Loading...
+本实用新型公开了一种数字电视终端用户收视行为分析装置，包括数据接收处理单元、电子节目指南单元和用户管理单元，所述数据接收处理单元与双向网络、所述电子节目指南单元和所述用户管理单元分别相连，所述电子节目指南单元用于向所述数据接收处理单元提供关于电视节目的内容和时间的节目信息，所述用户管理单元用于向所述数据接收处理单元提供相应机顶盒的用户信息，数据接收处理单元用于从所述双向网络接收用户收视行为数据并结合所述节目信息和所述用户信息进行数据分析。本实用新型能获得节目具体内容与用户的准确比对关系，提高用户收视行为相关的各种数据分析的全面性和准确性。
+19. 201750508 一种数字电视终端用户收视行为采集装置
+CN
+16.02.2011
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+201020256026.X
+深圳市佳创视讯技术股份有限公司
+胡勇
+H04N 7/173
+Loading...
+本实用新型公开了一种数字电视终端用户收视行为采集装置，包括位于数字电视机顶盒内相连接的数据采集单元和数据发送单元，所述数据采集单元用于记录用户收视行为数据并传送至所述数据发送单元，所述数据发送单元耦合至双向网络，还包括位于所述数据发送单元和所述双向网络之间的传输转换单元，所述数据发送单元通过机顶盒的网口向所述双向网络发送用户收视行为数据或通过机顶盒的串口经所述传输转换单元后向所述双向网络发送用户收视行为数据。本实用新型能全面收集数字电视单双向机顶盒的用户行为信息，提高与用户行为相关的各种数据的全面性、准确性。
+20. 101944118 Viewer behavior analysis system
+CN
+12.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010288763.2
+Shenzhen Advanced Video Info-Tech Co., Ltd.
+Hu Yong
+G06F 17/30
+Loading...
+The invention discloses a viewer behavior analysis system. The system comprises a data conversion module, a data warehouse, a data inquiry and analysis module and a management module, wherein the data conversion module is used for acquiring viewer behavior data from a data source which stores data related to a viewer behavior, converting the acquired viewer behavior data and loading the converted viewer behavior data into the data warehouse; the data warehouse is used for storing the viewer behavior data converted by the data conversion module; the data inquiry and analysis module is used for reading the viewer behavior data in the data warehouse for analyzing; and the management module is used for the management service of the analysis system, which comprises the management on a user of the analysis system, a log of the analysis system, the data warehouse and the data conversion module. The viewer behavior analysis system of the invention can store and rapidly analyze and search a large amount of viewer behavior data of audiences.
+21. 101945111 Method, device and system for acquiring and transmitting viewing data
+CN
+12.01.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010288764.7
+Shenzhen Advanced Video Info-Tech Co., Ltd.
+Shen Xun
+H04L 29/06
+Loading...
+The invention discloses a method for acquiring and transmitting viewing data. The acquired viewing data is transmitted to a front-end receiving server, and the method comprises the following steps of: 1) acquiring the address information and port information of the front-end receiving server; 2) acquiring and storing the viewing data; 3) transmitting the currently stored viewing data to the front-end receiving server in a UDP protocol transmission mode; 4) after the viewing data is transmitted, detecting whether the reply information of the front-end receiving server is received in a preset period of time; and 5) determining corresponding operation according to the detected result in the step 4), if the reply information is received, returning to the step 2), and performing the next acquisition and transmission of the viewing data, and if the reply information is not received, returning to the step 3), and entering the next transmission of the currently acquired viewing data. The method for acquiring and transmitting the viewing data can efficiently and accurately transmit mass viewing data to the front-end receiving server.
+22. 201550208 数字电视接收装置、通用电视解码板及数字电视机
+CN
+11.08.2010
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200920205695.1
+深圳市佳创视讯技术股份有限公司
+彭忠福
+H04N 5/44
+Loading...
+本实用新型公开了一种数字电视接收装置，包括用于接收专门种类的数字电视信号并解调、解扰的数字电视接收模块和用于解码的通用电视解码板，所述通用电视解码板具有符合定义好的音视频接口总线的通用输入接口，所述数字电视接收模块具有符合所述音视频接口总线的输出接口，所述输出接口耦合到所述通用输入接口。还公开了相应的通用电视解码板、数字电视接收模块及数字电视机。本实用新型可以直接降低开发方重复性的开发成本，还更方便地扩大电视市场的推广面，而且由于通用电视解码板的通用性，也为用户省去了用于购买更多的数字电视信号接收机的费用。
+23. 101742171 Method for smoothly displaying 24-bit and 32-bit true color images under 16-bit true color
+CN
+16.06.2010
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+201010004508.0
+Shenzhen Advanced Video Info-Tech Co., Ltd.
+Chen Kunjiang
+H04N 5/445
+Loading...
+The invention discloses a method for smoothly displaying 24-bit and 32-bit true color images under a 16-bit true color, which comprises the following steps of: a, obtaining single red/green/blue original color values, a horizontal ordinate x and a vertical ordinate y of a point in the image; b, finding a color mapping table by using a color value finding function according to the single red/green/blue original color values, the horizontal ordinate x and the vertical ordinate y, wherein the color mapping table is equivalent to a three-dimensional array and comprises a plurality of array elements with predetermined values, the single red/green/blue original color values, the horizontal ordinate x and the vertical ordinate y are used for respectively determining subscripts of three dimensions of each array element, and the determined values of the array elements are used as conversion values of the single color values of the point; and c, determining the color value displayed under the 16-bit true color according to converted red, green and blue color values. The invention can smoothly display the 24-bit and the 32-bit true color images under the 16-bit true color, and effectively avoids ripples and distortion.
+24. 201383841 数字电视机顶盒应用更新升级系统及机顶盒
+CN
+13.01.2010
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200820213901.9
+深圳市佳创视讯技术股份有限公司
+陈坤江
+H04N 5/00
+Loading...
+本实用新型公开了一种数字电视机顶盒应用更新升级系统，包括数据播发装置、调制装置、传输网络以及机顶盒终端，数据播发装置包括数据广播播发模块和EPG业务模块，机顶盒终端包括升级数据提取单元和描述控制信息提取单元，数据广播播发模块和EPG业务模块的输出端分别耦合至调制装置的输入端，调制装置的输出端通过传输网络耦合至升级数据提取单元和描述控制信息提取单元的输入端。采用本实用新型的数字电视机顶盒应用更新升级系统，能实现对机顶盒应用有选择性的灵活更新升级，其更新效率高，风险低。
+25. 2619443 有线多媒体数据接收装置
+CN
+02.06.2004
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+03246995.0
+深圳市佳创视讯技术有限公司
+陈坤江
+H04N 7/10
+Loading...
+本实用新型公开了一种有线多媒体数据接收装置，旨在解决现有技术中因接收基于DVB－S标准的信号而存在的设备成本高，难以普及等局限性，包括一体化高频头单元(1)，主芯片单元(2)；网络及及外围接口单元(3)、可编程存储器(4)分别通过数据总线、地址总线与主芯片单元(2)相连接并进行相互之间控制和信息的交换；一体化高频头单元(1)包括可将输入的RF信号转化为IF信号的调谐器(11)以及通过I2C总线与调谐器相连的QAM解调芯片(12)，QAM解调芯片(12)可将接收到的IF信号解调后，输出TS信号流给主芯片单元。本实用新型可接收并高速处理通过有线电缆传输的基于DVB－C标准的宽带数据信号，具有用途广、成本低，可靠性好等优点。
+

@@ -10,17 +10,22 @@ public class Main
 		service.setFilePath(FILE_PATH);
 		
 		//get all company details from excel file
-		service.displayAllCompanyNames();
+		//service.displayAllCompanyNames();
 		
 		//read wipo api
-		service.setApiUrl(WIPO_RESULT_URL);
-		service.displayTotalNumberOfPatentsOnWIPO();
+		//service.setApiUrl(WIPO_RESULT_URL);
+		//service.displayTotalNumberOfPatentsOnWIPO();
 		
 		//get related patents and citations
-		service.runStatistics();
+		//service.runStatistics();
 		
 		//generate output file
-		service.generateOutputExcelFiles();
+		//service.generateOutputExcelFiles();
+		
+		//validate person ids
+		//service.validateApplicants();
+		
+		service.generatePatentListByPersonIds();
 		
 		//not used now
 		//service.searchAllCitationsByEnglishName();

@@ -1,0 +1,505 @@
+1. 106534091 基于云端的PID参数整定方法和装置
+CN
+22.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000947377
+浙江中控软件技术有限公司
+张军
+H04L 29/06
+Loading...
+本发明提出的基于云端的PID参数整定方法和装置，属于自动化控制领域，包括确定待整定回路与待整定数据，上传至云端服务器，提取回路信息，对回路信息进行验证；在验证通过后上传待整定数据，对待整定数据进行整定处理，输出处理结果。通过将用户身份验证以及回路信息验证的步骤全部置于云端服务器处运行，相对于现有技术中的单机运行方式，实现了集中授权管理，结合基于用户结合回路信息标识的双重身份验证技术，解决了试用到期后通过重装系统造成授权控制失效的问题，保护了知识产权，同时使得提供整定工具的厂商能够根据用户的缴费情况对授权进行控制，提高了授权控制效果，保证了厂商的盈利水平。
+2. 106444672 针对炼油和石化装置的分子水平的实时优化方法
+CN
+22.02.2017
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201610890379.7
+杭州辛孚能源科技有限公司
+何恺源
+G05B 19/418
+Loading...
+本发明公开了一种针对炼油和石化装置的分子水平的实时优化（RTO）方法，主要包含了通过原料分子组成预测产物分子组成和物化性质，优化模型，从而优化生产方案的步骤。该方法能实现炼油和石化装置的实时优化，使得装置连续的保持在最优状态，提升经济效益并降低能耗。
+3. 106408127 一种原油调度排产方法及系统
+CN
+15.02.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102016000850308
+浙江中控软件技术有限公司
+娄海川
+G06Q 10/04
+Loading...
+本发明提供的原油调度排产方法及系统，获取原油掺炼比例参数与原油调度排产参数，建立原油掺炼比例计算模型，根据所述原油掺炼比例计算模型与所述原油掺炼比例参数得到原油掺炼比例，从而完成对有限可配置原油掺炼比例的优化设定，降低了炼油企业的生产成本，然后再建立原油调度排产优化模型，根据所述原油调度排产优化模型、所述原油掺炼比例和所述调度排产参数生成原油调度排产方案，最后依据所述原油掺炼比例与所述原油调度排产方案，生成原油调度排产计划报表，下达到车间执行，提高了原油调度排产的准确性、可执行性和工作效率。
+4. 106383810 一种针对模型预测控制中病态矩阵的处理方法及装置
+CN
+08.02.2017
+G06F 17/16 Loading...
+G06F 17/16
+Loading...
+201610858284.7
+浙江中控软件技术有限公司
+李海强
+G06F 17/16
+Loading...
+本发明提供了一种针对模型预测控制中病态矩阵的处理方法及装置，通过对第二约束条件中的第一系数矩阵右乘非奇异矩阵，获得第三约束条件和第二系数矩阵，进而能够对第二系数矩阵进行分解操作，获得不存在病态问题的良态矩阵，即第一分解矩阵和第二分解矩阵，再将第一分解矩阵与第二分解矩阵代入到经过第二预转化处理后所获得的第四约束条件中进行结合运算，以获得不存在病态问题的第三系数矩阵。可见，对存在病态问题的系数矩阵右乘非奇异矩阵，再进行分解操作，可以有效降低该系数矩阵的条件数，解决其病态问题，同时也能缩减模型预测控制处理病态问题所耗费的时间，进而提高处理效率，有利于模型预测控制的稳定运行，增强其鲁棒性。
+5. 106338006 一种蒸汽管网的监控方法及系统
+CN
+18.01.2017
+F17D 5/00 Loading...
+F17D 5/00
+Loading...
+102016000905899
+浙江中控软件技术有限公司
+王宽心
+F17D 5/00
+Loading...
+本发明公开了一种蒸汽管网的监控方法，包括：通过物理层对蒸汽管网在运行过程中的数据进行实时采集，并将采集的数据发送至数据存储层；通过应用层与数据存储层进行实时通讯，读取数据存储层中的数据，基于读取的数据对蒸汽管网风险进行在线计算；通过表现层基于应用层的在线计算结果输出蒸汽管网运行状态、腐蚀速率、水击风险。本发明能够实时的对蒸汽管网进行监控，准确的获知当前蒸汽管网的运行状态，实现管网状态参数的实时监控、失效风险定量预测、失效管段的准确定位。本发明还公开了一种蒸汽管网的监控系统。
+6. 106250694 一种己内酰胺产品的质量指标软测量方法及装置
+CN
+21.12.2016
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201610624965.7
+浙江中控软件技术有限公司
+辛传贤
+G06F 19/00
+Loading...
+本发明公开了一种己内酰胺产品的质量指标软测量方法及装置，该方法包括：建立己内酰胺的物理化学指标的计算机理数学模型；根据所述计算机理数学模型进行计算，分别得到进蒸馏塔的己内酰胺的产品质量指标的分析数值；通过对所述计算机理数学模型进行数值拟合和在线校正，获得校正后的进蒸馏塔的己内酰胺产品质量指标的软测量计算结果。通过本发明建立了计算机理数学模型后，能够对己内酰胺的物理化学指标进行实时计算，同时对计算结果进行校正，得到了己内酰胺产品质量指标的软测量计算结果，实现了实时计算获得进蒸馏塔己内酰胺的产品质量信息的目的。
+7. 106096818 一种氢气资源调度方案的生成方法和装置
+CN
+09.11.2016
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201610381566.2
+浙江中控软件技术有限公司
+苏宏业
+G06Q 10/06
+Loading...
+本申请公开的一种氢气资源调度方案的生成方法和装置，利用预设的产耗氢装置价格模型和获取的产耗氢数据，生成产耗氢装置产耗价格；并根据获取的工艺参数、计划数据、调度数据、以及预设的预测模型，生成预设时间段的氢气需求量；再利用预设的氢气资源调度模型、产耗氢装置产耗价格和预设时间段的氢气需求量，得到调度方案，进而指导调度人员进行氢气资源的配置，实现调度方案的自动生成过程，减少调度方案生成所用时间，并且，避免了由于人经验不足出现氢气管网超限现象，降低了用氢成本，提高了氢气利用效率。
+8. 105787598 一种配煤系统整体优化的方法
+CN
+20.07.2016
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102016000117701
+浙江中控软件技术有限公司
+张扬
+G06Q 10/04
+Loading...
+本发明涉及配煤程控系统技术领域，公开了一种配煤系统优化方法，主要解决在生产中有多煤种混配环节的企业从经济性出发进行不同原煤的混配的问题，以降低配合煤成本、延长配煤方案使用时间、降低配合煤使用成本为目标函数，建立多目标配煤优化模型，制定优化后的配煤方案，并根据这些优化后的方案指导企业原煤采购环节，该方法可以将配合煤成本、配煤方案可使用时间、配合煤使用成本、原煤采购以及下游生产进行整体优化，以提高具有配煤环节企业的经济效益。
+9. 105759606 一种针对模型失配的稳态目标鲁棒优化方法和装置
+CN
+13.07.2016
+G05B 13/04 Loading...
+G05B 13/04
+Loading...
+102015000991026
+浙江中控软件技术有限公司
+刘传玉
+G05B 13/04
+Loading...
+本申请公开了一种针对模型失配的稳态目标鲁棒优化方法和装置。该方法首先建立用来描述被控变量的预测误差、控制变量增量以及失配增益之间关系的传递函数失配模型，进而对失配模型中的失配增益进行辨识，以确定失配增益的范围集合。继而，根据失配增益的范围集合和控制模型的稳态增益，确定控制模型总增益的范围集合，从而基于总增益的范围集合，利用预设寻优算法确定控制器的最优稳态目标。与现有技术相比，本发明在对最优稳态目标寻优时考虑到对象模型与控制器模型存在失配的情况，因而提高模型预测控制器的稳定性和鲁棒性。
+10. 105631107 一种流化催化裂化反应的预测方法和装置
+CN
+01.06.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510987974.8
+浙江中控软件技术有限公司
+辛传贤
+G06F 17/50
+Loading...
+本发明公开了一种流化催化裂化反应的预测方法。该方法应用于包括第一反应区和第二反应区的提升管反应器，采用第一进口段模型、第一反应区模型、第二进口段模型和第二反应区模型来预测提升管反应器中物料各集总的分布、温度分布、压力分布、油气和催化剂的线速度分布，其中，第一反应区模型表示第一反应区中油气与催化剂进行理想平推流反应，第二反应区模型表示在第二反应区中油气与催化剂进行理想平推流反应，第一反应区模型表示各集总在第一反应区进行一次裂化反应，第二反应区模型表示各集总在第二反应区进行增加氢转移反应和异构化反应。此外，本发明还公开了一种流化催化裂化反应的预测装置。
+11. 105608538 一种能源产耗数据处理方法和系统
+CN
+25.05.2016
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201511023087.5
+浙江中控软件技术有限公司
+田利军
+G06Q 10/06
+Loading...
+本发明实施例公开了一种能源产耗数据处理方法和系统，该方法包括：获取预先建立的生产系统数据模型，该数据模型由若干生产单元按照生产工艺逻辑连接而成，各生产单元之间具有层级关系，且每个生产单元符合预设的元模型结构，该元模型结构具有各种数据端，各数据端对应的数据之间具有符合生产经营规律的约束关系；根据该约束关系计算任一生产单元的能源产耗数据，任一生产单元的输出量与该生产单元的下级生产单元的输入量相匹配。本申请通过该数据模型，将对生产系统的分析转移到数据分析层面，能够快速、准确地处理能源产耗数据，为及时、准确发现生产经营中的问题提供基础。
+12. 105446200 一种自动控制方法及装置
+CN
+30.03.2016
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201511027359.9
+浙江中控软件技术有限公司
+张军
+G05B 19/04
+Loading...
+本发明实施例公开了一种自动控制方法和装置，应用于工业自动化控制系统，所述方法包括：创建脚本执行功能块，并基于目标控制策略编译所述脚本执行功能块对应的脚本，确定脚本执行功能块输入引脚对应的输入参数，以及输出引脚对应的输出参数；创建读功能块，并确定读功能块的输出引脚对应的输出参数；将所述读功能块的输出引脚与所述脚本执行功能块的输入引脚对应连接，以使所述读功能块输出引脚对应的输出参数与所述脚本执行功能块输入引脚对应的输入参数相匹配；确定执行读功能块和脚本执行功能块的逻辑顺序，并按照逻辑顺序执行读功能块和脚本执行功能块，以根据脚本执行块输出的参数控制控制系统。本发明实现了减小被误修改的可能性的目的。
+13. 105389642 一种蒸汽管网的优化方法及装置
+CN
+09.03.2016
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201510999036.X
+浙江中控软件技术有限公司
+王宽心
+G06Q 10/04
+Loading...
+本申请提供了一种蒸汽管网的优化方法及装置，蒸汽管网的优化方法包括：计算蒸汽管网中各个节点的节点温度和节点压力；计算各个节点的蒸汽焓值和蒸汽熵值；利用各个节点的蒸汽焓值和蒸汽熵值，计算蒸汽管网中各个管段的有效能损失；对各个管段的有效能损失进行比较，确定有效能损失最大的管段为瓶颈管段；计算瓶颈管段的功损失和热损失，并比较功损失和热损失的大小来确定蒸汽管网能耗过大的主要原因(即确定蒸汽管网能耗过大的原因为管道结构不合理或保温效果差或管道结构不合理且保温效果差)，确定能耗过大的主要原因后，计算最优管径或最优厚度来对瓶颈管段进行优化改造，从而降低蒸汽输送过程中的能量损耗，提高蒸汽能源综合利用效率。
+14. 105301985 一种电石炉电极长度的测量方法及系统
+CN
+03.02.2016
+G05B 17/02 Loading...
+G05B 17/02
+Loading...
+201510819613.2
+浙江中控软件技术有限公司
+苏宏业
+G05B 17/02
+Loading...
+本发明提供一种电石炉电极长度的检测方法，包括：基于模型训练样本集，获取电极消耗量的非线性预测模型，其中，电极温度T、电极功率P、炉料配比R和电石出炉量G为样本输入变量，电极消耗量为样本输出变量；根据电极消耗量的非线性预测模型，确定当前工况下的电极消耗量；由当前工况下的电极消耗量，确定当前电极长度。该方法可以实时监控电极的位置变化，进而指导电极的压放操作，以精确的控制各电极的压放量，使得各电极做功平衡，为电石炉的平稳生产和节能运行提供保障。
+15. 105181028 一种煤气放散流量在线测量方法、系统和应用服务器
+CN
+23.12.2015
+G01F 1/00 Loading...
+G01F 1/00
+Loading...
+201510593706.8
+浙江中控软件技术有限公司
+胡颖龙
+G01F 1/00
+Loading...
+本申请公开了一种煤气放散流量在线测量方法、系统和应用服务器，所述煤气放散流量在线测量方法包括：获取易测变量，其中，所述易测变量包括：煤气放散管网的各阀门开度，以及煤气放散管网的入口压力和入口温度；将所述易测变量输入到用于描述煤气放散管网的各管段流速与所述易测变量之间的数学关系的软测量模型中，求解得到所述各管段流速；从所述各管段流速中调取出煤气放散管网的出口流速；根据所述出口流速计算得到煤气放散流量，并输出，以克服工业现场环境的制约，实现对煤气放散流量的在线测量。
+16. 104133393 一种能源管理控制方法和装置
+CN
+05.11.2014
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201410362939.2
+浙江中控软件技术有限公司
+苏宏业
+G05B 19/04
+Loading...
+本发明提供一种能源系统的管理控制方法和装置，其中，控制方法包括：采集能源系统的仪表数据；采用混合整数线性规划算法，利用所述仪表数据和生产需求计算所述能源系统中每个发电机组的供电量、供气量和气柜吞吐量的优化值；将所述优化值反馈给所述能源系统，以使所述能源系统根据所述优化值调节每个发电机组的运行参数。如此技术方案，就能实现对能源系统的管理控制，以提高能源的综合利用效率。
+17. 104133958 一种复杂管网模拟仿真计算方法及装置
+CN
+05.11.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410363269.6
+浙江中控软件技术有限公司
+苏宏业
+G06F 17/50
+Loading...
+本发明公开了一种复杂管网模拟仿真计算方法及装置，用于利用热力学动力学耦合模拟仿真复杂管网，该方法包括：根据管网拓扑模型生成关联矩阵；初始化各流股的初始压力、初始流量、初始温度及初始组成向量；由关联矩阵联立物料守恒方程以及能量守恒方程，计算各流股的流量与压力；按照管道序贯矩阵的顺序计算各流股的组成向量，并根据热量守恒方程依次计算各流股的温度；判断各流股的温度与初始温度的温度差绝对值之和是否满足设定范围，如果是，则保存各流股的流量、压力、温度及组成向量，如果否，则将各流股的流量、压力、温度及组成向量作为各流股的初始压力、初始流量、初始温度及初始组成向量，返回计算步骤。
+18. 104102212 Dispatching method, apparatus and system for gas and steam system in iron and steel enterprises
+CN
+15.10.2014
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201410367656.7
+浙江中控软件技术有限公司
+苏宏业
+G05B 19/418
+Loading...
+The invention provides a dispatching method, apparatus and system for a gas and steam system in iron and steel enterprises. The dispatching method is deployed in a dispatching application server of the gas and steam system in the iron and steel enterprises and includes acquiring historical data of energy production and consumption of the gas and steam system as well as dispatching parameters determined by a user from a synthetic data integration platform server; predicting gas production amount of a gas production device and gas and steam consumption amount of each production user in several cycles in the future by means of the historical data of energy production and consumption of the gas and steam system; determining optimized dispatching policies of each energy user in the gas and steam system through optimization solution of a dispatching model with the optimization object of maximizing electricity generation benefits and optimizing stability of an energy system according to the dispatching parameters, predicted gas production and consumption amount data, and predicted steam consumption amount data.
+19. 104102211 Scheduling method, server and system of combined heat and power generation system of fire coal thermal power plant
+CN
+15.10.2014
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201410367650.X
+浙江中控软件技术有限公司
+苏宏业
+G05B 19/418
+Loading...
+The application provides a scheduling method, a scheduling server and a scheduling system of a combined heat and power generation system of a fire coal thermal power plant. The scheduling method of the combined heat and power generation system of the fire coal thermal power plant is deployed on the scheduling application server in the scheduling system of the combined heat and power generation system of the fire coal thermal power plant, and includes: obtaining initial data needed by building working condition models of all devices in the combined heat and power generation system from a synthetic data integration platform, and building the working condition models of all the devices in the combined heat and power generation system according to the initial data; judging whether preset scheduling conditions are met or not, and if yes, confirming a scheduling policy of the combined heat and power generation system of the fire coal thermal power plant under a current load according to real-time power and heat load data output by the working condition models, and controllable variables and auxiliary variables, which influence outputting of the working condition models. According to the scheduling method, the scheduling server and the scheduling system of the combined heat and power generation system of the fire coal thermal power plant, scheduling problems are considered by integrating blending coal, a boiler, a turbine generator and a temperature and pressure reducer together, and a scheduling scheme can be globally optimized.
+20. 103279837 一种生产数据分析方法及系统
+CN
+04.09.2013
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201310223417.X
+浙江中控软件技术有限公司
+苏宏业
+G06Q 10/06
+Loading...
+本发明公开了一种生产数据分析方法及系统，首先，获取各个样本的质量指标数据和工艺参数数据，并分析质量指标数据，得到各个样本的主成分数据；然后，分析工艺参数数据和各个样本的主成分数据，得到各个样本的关键工艺参数和主要质量指标；然后，获取预设数量的各个样本的关键工艺参数数据和主要质量指标数据，计算并绘制控制图的控制界限，并确定各个样本的关键工艺参数数据和主要质量指标数据在所述控制图上的位置；最后，判断各个样本的关键工艺参数数据和主要质量指标数据在所述控制图上的位置与控制图的控制界限的位置关系，并依据位置关系触发异常诊断模块生成对应的决策文件。上述方法及系统，自动化程度高，操作简单，准确性高。
+21. 102789505 Data processing method and device
+CN
+21.11.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210250495.4
+浙江中控软件技术有限公司
+卜梓琴
+G06F 17/30
+Loading...
+The invention discloses a data processing method and device. The method comprises the steps as follows: a local trend to be displayed in an overall trend is positioned, wherein the overall trend is displayed in an overall display window; after a local trend display instruction is received, the local trend corresponding to the local trend display instruction is displayed in a local display window; the overall display window is enabled to be absorbed on the local display window in a relocatable manner, and synchronous and complete display of the local trend and the overall trend are achieved; and both the length and the width of the overall display window are less than those of the local display window. With the scheme provided by the invention, the local trend and the overall trend can be synchronously and completely displayed without switchover, therefore, the situation that the overall trend and the local trend can be conveniently and quickly looked over by users is ensured, and further, the user experience is improved.
+22. 102750454 Hydrogen consumption predicted value acquisition method, device and system
+CN
+24.10.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201210235998.4
+浙江中控软件技术有限公司
+冯剑
+G06F 19/00
+Loading...
+The invention provides a hydrogen consumption predicted value acquisition method and device. The method comprises the following steps: acquiring historical hydrogen consumption data of a hydrogen consumption device; determining the type of the hydrogen consumption device, and inquiring an auxiliary variable corresponding to the type of the hydrogen consumption device from a preset load variable set; establishing a first mathematical model by using a multielement linear regression algorithm, and acquiring a hydrogen consumption predicted value corresponding to the historical consumption data and the auxiliary variable by using the first mathematical model; filtering out abnormal data and noise data from the historical consumption data; analyzing the average value of all data items in the filtered historical consumption data; and respectively subtracting the average value from all the data items in the historical consumption data, and assigning the computation results to the corresponding data items to obtain the historical consumption data subjected to standardization treatment.
+23. 102724205 Method for encrypting communication process in industrial field and data collection device
+CN
+10.10.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210218721.0
+浙江中控软件技术有限公司
+褚健
+H04L 29/06
+Loading...
+The invention discloses a method for encrypting the communication process in the industrial field and a data collection device. The method includes: invoking a first secret key in a first secret key disc to perform server side encrypting for regularly generated random data; sending the random data after server side encrypting to a client side; receiving data after client side encrypting sent by the client side; invoking the first secret key in the first secret key disc to perform decrypting for the data after client side encrypting; judging whether the decrypted data are identical to the random data to obtain a first judging result; and adopting the random data to serve as symmetrically secret keys to encrypt the communication process between the client side and the server side when the first judging result indicates that the decrypted data are identical to the random data. By adopting the method and the device, safety of the whole communication process can be improved.
+24. 102215164 Data transmission method
+CN
+12.10.2011
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+201110138246.1
+Zhejiang Supcon Software Co., Ltd.
+Su Hongye
+H04L 12/70
+Loading...
+The invention discloses a data transmission method. When data is transmitted to an object linking and embedding for process control (OPC) server for the first time, switching values and quality codes of each measurement point are directly transmitted, timestamps of each measurement point are also transmitted in a way of combining reference time and offset, and a data message comprises all fields specified by an OPC standard so as to ensure the integrity and accuracy of the data; in addition, each data message only comprises the reference time seizing eight bytes, and the offset of each measurement point is only required to be fewer than 20 bits so as to reduce the volume of the data transmitted to the OPC server, realize the transmission of the data to the OPC server without compressing the data and ensure the real-time of the data transmission on the premise of ensuring the integrity of the data message. When the data is transmitted to the OPC server not for the first time, only changed quality codes are transmitted so as to further reduce the volume of the data transmitted to the OPC server.
+25. 102032443 Gasholder load prediction equipment and method and gas scheduling system and method
+CN
+27.04.2011
+F17D 1/04 Loading...
+F17D 1/04
+Loading...
+200910093694.7
+China Petroleum & Chemical Corporation
+Hou Weifeng
+F17D 1/04
+Loading...
+The invention discloses gasholder load prediction equipment and a gasholder load prediction method for a gas system, and a gas scheduling system and a gas scheduling method. The gas system comprises a low-pressure gas generating device and a gasholder which are connected with each other. The method comprises the following steps of: (1) acquiring gasholder loads and gas output of the low-pressure gas generating device at different moments in a first preset time period; (2) selecting a model structure of a gasholder load prediction model, and establishing a gasholder load prediction model according to the selected model structure and the acquired gasholder loads and gas output of the low-pressure gas generating device at different moments in the first preset time period; and (3) predicting gasholder loads at different moments in a second preset time period by utilizing the established gasholder load prediction model, wherein the second preset time period is a time period after the first preset time period. The gasholder load prediction-based gas scheduling system and the gasholder load prediction-based gas scheduling method can radically solve the current problem that the gas balancing and scheduling are carried out through experiences, obviously improve the scheduling level of the gas system and prevent the gasholder loads from exceeding the upper and lower load limits of the gasholder.
+26. 101908119 Method and device for processing dynamic link library (DLL) file
+CN
+08.12.2010
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+201010253983.1
+Zhejiang Supcon Software Co., Ltd.
+Su Hongye
+G06F 21/22
+Loading...
+The embodiment of the invention discloses a method and a device for processing a dynamic link library (DLL) file. The processing method is characterized in that: the DLL file containing a key code and serving as a resource (specifically a binary resource) is embedded into an application program, wherein the DLL file is not an independent file any more and a cracker cannot easily locate the positions of the key code and the DLL file; and meanwhile, the DLL file is loaded without directly using a Load Library API function any more, the whole loading process is performed in a dynamic loading mode, and the key code of an import function in the DLL file is associated with the actual address of the import function to establish dynamic link by repositioning the actual and virtual addresses of the DLL file and modifying an entry address of the import function in an IAT table so that the cracker has difficulty in judging the time and address of actually loading the DLL file and the technical effect of securely loading the DLL file is achieved.
+27. 101847002 Method for implementing dynamic regulation of authority items, device and system thereof
+CN
+29.09.2010
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201010184156.1
+Zhejiang Supcon Software Co., Ltd.
+Gu Yong
+G05B 19/418
+Loading...
+The invention discloses a method for implementing dynamic regulation of authority items. The method comprises the following steps: generating authority codes corresponding to the authority items according to the authority items of an authority main body and storing the authority codes in a compound document manner; receiving the regulation request on the authority items which is sent by the authority main body, loading the authority codes corresponding to the authority items, and then providing the authority codes to the authority main body; and receiving the authority codes corrected by the authority main body, and then accordingly regulating the corresponding authority items according to the corrected authority codes. In the invention, the mode of dynamically loading the authority items is adopted to achieve dynamic regulation of the authority items; the regulation process is simple, and no additional maintenance cost needs to be invested by a developer; the mode of storing authority files based on a compound document and the authority codes is adopted; and on the premise of satisfying performances, the invested cost of the whole authority system is lowered, and the applicability of advanced control software is improved.
+28. 101794119 Gas system balancing and optimal scheduling method, gas balancing and optimal scheduling device and gas balancing and optimal scheduling system
+CN
+04.08.2010
+G05B 13/04 Loading...
+G05B 13/04
+Loading...
+201010128928.X
+Zhejiang Supcon Software Co., Ltd.
+Gu Yong
+G05B 13/04
+Loading...
+The invention provides a prediction data-based gas balancing and optimal scheduling method, a prediction data-based gas balancing and optimal scheduling device and a prediction data-based gas balancing and optimal scheduling system. The method comprises the following steps: acquiring data needed by the triggering of a gas system from a scheduling system; predicting a produced gas of each production device in a future preset time period and the energy demand of a boiler of a heating furnace according to the data to obtain prediction data; judging whether the production and demand of the gas system are balanced or not in the future preset time period of each production device according to the prediction data, and when the production and demand of the gas system in the future preset time period of each production device are unbalanced, optimizing a scheduling strategy and scheduling scheme of the gas system in the future preset time period of each production device according to the prediction data; and displaying the optimized scheduling strategy and scheduling scheme of the gas system in the future preset time period of each production device by using a client, so that a scheduler can optimally schedule the gas system. Through the method, the device and the system, the gas system of the petroleum chemical enterprise is optimally scheduled so as to solve problems about energy saving and emission reduction.
+29. 101661533 Predict method of procedure parameter in coke forming technology and device thereof
+CN
+03.03.2010
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200910178557.3
+Zhejiang Supcon Software Co., Ltd.
+Su Hongye
+G06F 19/00
+Loading...
+The invention discloses a predict method of procedure parameter in coke forming technology and a device thereof. The method comprises the steps of: detecting a coke forming switch event; initializinga real-time coke height value of a coke tower preparing for forming coke when the occurrence of the coke forming switch event is detected; judging whether the real-time coke height of the former measuring period is less than the transition height of the coke tower in each preset measuring period, and correspondingly ensuring the real-time coke height of the current measuring period according to ajudging result; and predicting the procedure parameter in the coke forming technology of the coke tower in the current measuring period according to the judging result, and based on the ensured real-time coke height of the current measuring period and the desired coke forming period and/or the desired coke forming height of the coke tower. The method and the device can immediately predict the procedure parameter in coke forming technology in the process of delaying the coke forming.
+30. 101626591 Detection method and detection device of data link
+CN
+13.01.2010
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+200910165553.1
+Zhejiang Supcon Software Technology Co., Ltd.
+Su Hongye
+H04W 24/06
+Loading...
+The invention embodiment relates to a detection method and a detection device of a data link. The method comprises the following steps: detecting the data flow of a general packet radio service (GPRS) interface; sending a data message to a GPRS server after confirming that the data flow is not changed; and reestablishing GPRS data connection if not receiving an answering response sent by the GPRS server within a preset time. The invention detects and maintains the GPRS data link by combining a data flow detection method and a heartbeat detection method so as to reduce an invalid data flow and network blockage at terminals and improve the detection efficiency.
+31. 101603525 Method and device for online monitoring working conditions of compressor
+CN
+16.12.2009
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+200910151234.5
+Zhejiang Supcon Software Co., Ltd.
+Su Hongye
+G05B 19/418
+Loading...
+The invention provides a method for monitoring working conditions of a compressor, comprising: collecting operation parameters of the compressor; performing wavelet decomposition on the operation parameters by using wavelet analysis method; performing wavelet reconstruction on wavelet decomposition data; comparing the wavelet reconstruction data with a predefined threshold, and judging whether current working conditions of the compressor is normal. The invention can analyze operation parameters in the operation process of the compressor by using wavelet analysis method, extract characteristic information reflecting operation state of the compressor, and take the characteristic information as criterion for judging working conditions of the compressor. By using wavelet analysis method for performing wavelet decomposition on collected information, and filtering measuring noise and normal fluctuation information, the invention obtains available characteristic information to judge whether the working conditions of the compressor is normal.
+32. 101499013 Method and apparatus for calling dynamic library
+CN
+05.08.2009
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200910118194.4
+Zhejiang Supcon Software Technology Co., Ltd.
+Su Hongye
+G06F 9/445
+Loading...
+An embodiment of this invention provides a method for transferring a dynamic base and a transfer device. The method comprises: traversing a dynamic base stored in a storage media, loading the dynamic base; receiving an input parameter information linked list and an output parameter information linked list formed in the dynamic base; according to the input parameter information in the input parameter information linked list, acquiring each input parameter value; forming a linked list of the input parameter value from the input parameter value based on the sequence of the corresponding input parameter information in the input parameter information linked list; inputting the input parameter value to the loaded dynamic base; receiving an input parameter linked list formed by the input parameter acquired by executing a calculation process of a model thereof; the sequence of the output parameter value in the output parameter linked list being in accordance with the sequence of the corresponding output parameter information in the output parameter information list; acquiring each output parameter value from the output parameter value linked list. According to the embodiment of this invention, the working load of the maintenance can be saved and the stability of the main program is improved.
+33. 101420770 Fault connection processing method and system in wireless transmission
+CN
+29.04.2009
+H04W 84/12 Loading...
+H04W 84/12
+Loading...
+200810178976.2
+Zhejiang SUPCON Software Co., Ltd.
+Su Hongye
+H04W 84/12
+Loading...
+The invention discloses a method for processing false connection in radio transmission and a system thereof. The method comprises the following steps: one or both sides to a data link set a transmission time interval of a heartbeat packet, embed the time interval in the heartbeat packet, and send a series of heartbeat packets to the other side according to the time interval; if the other side to the data link receives the heartbeats at the time interval, then the link is smooth, or a false connection happens, and Socket is cut off. The method and the system can effectively detect the connection state of TCP/IP links, and eliminate the false connection in time.
+34. 101202708 Method and device for transferring data and image and wireless network measurement and control system
+CN
+18.06.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710187585.2
+Supcon Science and Technology Group Co., Ltd.
+Su Hongye
+H04L 12/56
+Loading...
+The invention discloses a method used for transmitting data and image, including that a communication link is established; after carrying through packing on the collected data and image, a transmitting terminal puts the data and image into a data packet array and an image packet array; the data packet in the data packet array and the image packet in the image packet array are across transmitted by the communication link. The invention also simultaneously discloses a device used for transmitting data and image. In the invention, the transmitting terminal respectively carries through packing on the data and image according to a protocol engaged with a receiving terminal and then transmits the data and image on the same communication link that is set up in advance in a mixed way without needing to adopt two independent communication links to transmit the data and image respectively, so as to improve the operating factor on the communication link, thus saving the construction cost and reducing the operation cost.
+35. 101169628 Data storage method and device
+CN
+30.04.2008
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+200710188199.5
+Middle Control Technology Group Co., Ltd.
+Su Hongye
+G05B 19/04
+Loading...
+The invention discloses a method of data storage, and includes the following procedures: after the data are received, a data block and an index block are allocated based on the recorded information under the corresponding items of the data in the current file, and then the data are written into the data block and the index information of the corresponding data are written into the index block. The invention still discloses a data storage device. The invention adopts a double structural mode of a mixed/data type recording and an index type recording. When the data for some items are fewer, the data and the index of the data are stored through a mixed type recording; when the data for some items are more, the data and the index are stored through a data type recording and an index recording respectively and the storing structure is optimized. Thereby, whether for a mixed type recording or an index recording, the index information can be highly concentrated, thereby, a stronger flexibility is available when the item data with a great disparity in data size are processed, and the data retrieval efficiency is greatly improved as well.
+36. 101056250 Method and system for operation and management of real time information
+CN
+17.10.2007
+H04L 12/54 Loading...
+H04L 12/54
+Loading...
+200710090487.7
+Supcon Group Co., Ltd.
+Rong Gang
+H04L 12/54
+Loading...
+The invention discloses a real information operation management method, including: collect various real time data information provided by the real time data source; store the real time data information into the central database; utilize the central database to provide the real time service for the user. The invention also discloses a real time information operation management system. After the real time data information provided by various real time data source are collected in the invention, the real time data information will be stored into the central database; the center database is utilized to provide the real time service for various users and all users can share one set of real time system, need not purchase the database and maintain the system, they can get the real time data information via paying the low expense, so it saves the device cost.
+37. 1924913 Method for constructing integral enterprise information resources model
+CN
+07.03.2007
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+200610053278.0
+Zhejiang SUPCON Software Co., Ltd.
+Rong Gang
+G06Q 10/00
+Loading...
+This invention discloses one method to form integral business information material mode, wherein, organization comprises one module to satisfy all computer information process system on different aspects, particle and layers demands in the organization; the said executive parts are partly based on the information description data to respond to each machine information process system on the exchange requirement. The information materials data at least partly base on the element data for organization, filter and matching. The computer system can send the business interface to the information materials system.
+38. 1888896 Soft measurement method for SO3 content during phosphoric acid production process by dihydrate wet method
+CN
+03.01.2007
+G01N 31/00 Loading...
+G01N 31/00
+Loading...
+200610052741.X
+Zhejiang Zhongkong Software Technology Co., Ltd.
+Su Hongye
+G01N 31/00
+Loading...
+A soft test method uses for measuring SO3 content during the dihydrate wet-process phosphoric acid production process. The content of dissociative vitriol SO3 is the leading variable in phosphoric acid extraction equipment. The assistant variables are pulp flux, vitriol flux, material slurry flux, fluid level, pulp proportion, material slurry proportion, material slurry liquid phase proportion, material slurry liquid solid ratio, phosphorite CaO content, vitriol proportion and vitriol concentration. The dynamic mechanism soft test model of the wet-process phosphoric acid extraction equipment bases on the leading variable and assistant variables and calculate the SO3 content of the phosphoric acid extraction equipment at real time. At natural produce condition, it can exactly forecast the change current to leading variable SO3, and provide great forecast effect at non-normal condition when the key data take place big fluctuate. It has preferable precision with long observation and provides beneficial direction for the production to avoid the fluctuate of the production and establish automatism forecast control.
+39. 1866241 Real-time data compression method based on least square linear fit
+CN
+22.11.2006
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+200610052068.X
+Zhejiang SUPCON Software Co., Ltd.
+Ye Jianwei
+G06F 17/00
+Loading...
+The disclosed real-time data compression method based on LSM linear fitting comprises: to the much data with noise and redundancy in industrial field, pre-processing the real-time data firstly to store in memory historical data buffer as sample to dynamic build LSM linear fitting straight line, and deciding the point to be conserved by the distance of point in buffer to the fitting line and the user set maximal compression deviation. This invention can reduce data quantity greatly with well practice.
+40. 1851573 Modelling method for predicating impurity component concentration for dimethyl benzene oxidation process
+CN
+25.10.2006
+G05B 13/04 Loading...
+G05B 13/04
+Loading...
+200610050753.9
+Zhejiang Zhongkong Software Technology Co., Ltd.
+Zhang Ying
+G05B 13/04
+Loading...
+Present invention provides spatial distribution based blur membership grade functional: supporting vector data domain description based membership grade functional. It first obtains data field descriptive model of training centralizing sample, then assigning different membership grade according to each sample off-line data domain level. The present invention can effectively reduce regression error resulted from process updating load and raise model antinoise ability. The prediction result can completely satisfy technical application requirement with very high technical application value.
+41. 1694107 Material data correction method and its system
+CN
+09.11.2005
+G06F 17/60 Loading...
+G06F 17/60
+Loading...
+200510050167.X
+Zhejiang Univ.
+Feng Yiping
+G06F 17/60
+Loading...
+This invention discloses a method and systems of material data correction. In the process of modeling the model, it introduces random arange formula, and then enhances the expatiatory degree. It detects validity of the aboriginal meter data by data-preprocessing model, to recognize and eliminate error. It uses the built concerted model and the preprocessed detecting data, optimizes the compute by concerted model, and then provides the accordant and veracious data for process modeling, control optimizing and the statistical balance of whole factory material. This invention can effectively overcome the difficulty of complexity in detecting net and low expatiatory degree of system. It has a high precision and efficiency. The whole system structure is reasonable, opening neatly, easy to carry out, and it has superiority to work out the problem of high scale application.
+42. 1655165 Modeling method for residual oil catalytic cracking reaction mechanism model
+CN
+17.08.2005
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200510048948.5
+Zhejiang SUPCON Software Co., Ltd.
+Wang Zhangming
+G06F 17/50
+Loading...
+This invention discloses a model set up method for residual oil catalytic cracking reaction mechanism model, which divides the oil cut fraction into 6 lumps to set up serial and parallel reaction networks among 6 lumps and combines the character of the reactor with the experience dynamics equations among the lumps to set up a residual oil catalytic cracking reaction mechanism model. Besides, 6 device factors are set for calibrating the reacted dynamics rate constants among the lumps to increase the pretest accuracy of the model to product distribution.
+

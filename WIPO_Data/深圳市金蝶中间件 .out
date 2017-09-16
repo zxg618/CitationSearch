@@ -1,0 +1,949 @@
+1. 103905499 利用共享磁盘构建通信通道的方法和系统
+CN
+22.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102012000579567
+深圳市金蝶天燕中间件股份有限公司
+崔智经
+H04L 29/08
+Loading...
+本发明涉及一种利用共享磁盘构建通信通道的方法和系统。所述方法包括以下步骤：发送状态时创建数据包，并将所述数据包写入共享磁盘的数据包地址；根据所述数据包及数据包地址创建发送序号包，并将所述发送序号包写入所述共享磁盘的发送序号包地址；接收状态时从所述共享磁盘的发送序号包地址中读取所述发送序号包中数据包序号和数据包地址，从所述共享磁盘的数据包地址中读取数据包，创建答应序号包，并将所述答应序号包写入所述共享磁盘的答应序号包地址；发送状态时读取所述答应序号包地址的答应序号包，所述答应序号包中数据包序号等于数据包中数据包序号，则该数据包发送完成。提供了一条独立于网络环境的、节省成本的，可靠的通信通道。
+2. 103902170 网页内容定位方法和装置
+CN
+22.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000580751
+深圳市金蝶天燕中间件股份有限公司
+曾江
+G06F 17/30
+Loading...
+一种网页内容定位方法，包括以下步骤：获取对网页的导航区中子导航区的点击操作；获取所述点击操作对应的子导航区所链接的锚点；获取所述锚点在网页的内容显示区的版面内容中对应的网页位置；将网页的内容显示区的版面内容跳转到所述对应的网页位置；所述导航区与所述内容显示区为网页的相互独立的分区。此外，还提供一种网页内容定位装置。上述网页内容定位方法和装置，网页中包括相互独立的两个分区导航区和内容显示区，可点击导航区中的子导航区将内容显示区的版面内容定位到对应网页位置，从而提高了网页内容的定位速度。
+3. 103810171 生成限定范围的随机测试数据的方法及系统
+CN
+08.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000438493
+深圳市金蝶天燕中间件股份有限公司
+范明明
+G06F 17/30
+Loading...
+本发明提供一种生成限定范围的随机测试数据的方法及系统，所述方法包括以下步骤：根据预先定义的列类型放入测试数据，形成数据字典；其中，所述预先定义的列类型中规定了数据范围；根据用户需求建立列的映射关系和列顺序；根据所述列顺序和列类型从所述数据字典中随机抽取数据，生成随机测试数据。本发明的方法及系统，通过数据字典固化数据的生成方式，只需要简单的配置即可动态生成所有数据均属于特定数据集合、但出现位置和顺序没有规律的测试数据。采用本发明的方案极大的减少了人工参与时间，从而生成限定范围的随机测试数据的速度更快，大量的节约了生成数据的时间，并且能够更好的保证数据的随机性以及绝对保证所生成数据的范围。
+4. 103777858 文本框显示方法和装置
+CN
+21.12.2016
+G06F 3/0484 Loading...
+G06F 3/0484
+Loading...
+102012000413350
+深圳市金蝶中间件有限公司
+孙镌宸
+G06F 3/0484
+Loading...
+一种文本框显示方法，包括以下步骤：监听文本框是否获得焦点；当所述文本框获得焦点时，在所述文本框内显示需输入内容中包含的固定内容，并将光标定位到所述固定内容中的需编辑位置。上述文本显示方法，当文本框获得焦点时，在文本框内显示文本框中需输入内容中包含的固定内容，并将光标定位到固定内容中需编辑位置，一方面，用户不输入重复输入某些固定内容，从而节省了输入时间，另一方面，用户可直接从需编辑位置输入内容，不需用户手动定位光标位置，其次，显示的固定内容可帮助用户输入准确的文本内容，降低输入错误，综上所述，上述方法可提高文本框的文本内容输入效率。此外，还提供一种文本框显示装置。
+5. 102739461 基于FLEX的获取后台数据的方法
+CN
+28.09.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102011000088561
+深圳市金蝶中间件有限公司
+刘晨星
+H04L 12/26
+Loading...
+本发明涉及一种基于FLEX的获取后台数据的方法，包括如下步骤：应用程序选用任一FLEX事件并在所述FLEX事件上注册数据获取方法，所述数据获取方法包括获取数据时的相关参数；应用程序发出包含数据请求的事件对象；事件侦听器侦听所述FLEX事件；当事件侦听器捕获到所述事件对象时，执行所述数据获取方法；后台服务器根据所述参数发送包含数据的事件对象；应用程序捕获所述包含数据的事件对象，获得数据。采用事件机制的FLEX应用程序，将获取数据的方法定义在某一FLEX事件上，当事件触发时即可自行执行获取数据的方法，无需在应用程序中多处加入获取数据的代码，简化了页面代码，减少了开发人员的负担，提高了开发效率。
+6. 103167000 实现页面访问的方法及系统
+CN
+31.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102011000421408
+深圳市金蝶中间件有限公司
+陈子文
+H04L 29/08
+Loading...
+一种实现页面访问的方法，首先接收用户属性信息和页面访问请求，并获取预设的待访问页面地址与个性化页面地址的映射关系，然后可根据所述映射关系及所述待访问页面地址获得对应的个性化页面地址。用户在访问页面时，不需要输入不同的页面地址，而是根据其属性信息自动获得个性化的页面地址，这样避免了用户需要记住不同的页面地址。因此，用户访问页面时更加方便。此外，还提供一种实现页面访问的系统。
+7. 102999525 数据表处理方法及系统
+CN
+03.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102011000276277
+深圳市金蝶中间件有限公司
+陈伟君
+G06F 17/30
+Loading...
+本发明涉及一种数据表处理方法即系统。该方法包括以下步骤：创建序列表，所述序列表包括数据表的名称字段、序列当前最大值字段和主键字段；获取用户对数据表的操作请求，根据所述操作请求获取用户操作的数据表的名称；在所述序列表中查找所述用户操作的数据表的名称，将所述序列表中的包含所述数据表的名称的记录进行锁定；获取所述序列表中锁定的记录中的序列当前最大值，并将所述序列当前最大值增加预定值，更新所述序列当前最大值；根据所述更新后的序列当前最大值更新所述用户操作的数据表。上述数据表处理方法及系统，由于锁定了记录，可保证某个用户对数据表操作，其他用户对该数据表的操作无效，如此不会出现序列号冲突的情形。
+8. 105808559 处理数据冲突的方法及装置
+CN
+27.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410842938.8
+深圳市金蝶中间件有限公司
+罗先桥
+G06F 17/30
+Loading...
+本发明公开了一种处理数据冲突的方法，通过配置数据的操作语义标识符和主键唯一约束字段；根据所述数据的操作语义标识符、所述主键唯一约束字段和数据库存储的主键唯一约束字段确定所述数据是否冲突；若确定所述数据冲突，则根据所述数据的操作语义标识符和预先存储的数据冲突策略，获取所述数据的冲突策略；根据所述数据的冲突策略处理所述数据。本发明还提供一种处理数据冲突的装置，从而可以灵活处理不同业务操作数据的冲突，根据用户的集成业务来进行动态处理各种数据冲突，而不是将在代码中固化写死，并且不同的数据冲突的处理方式可以重用，从而提供解决数据冲突的灵活性。
+9. 105786357 抓取网页内容的方法及装置
+CN
+20.07.2016
+G06F 3/0486 Loading...
+G06F 3/0486
+Loading...
+102014000817178
+深圳市金蝶中间件有限公司
+刘东阳
+G06F 3/0486
+Loading...
+本发明公开了一种抓取网页内容的方法，包括以下步骤：监听鼠标在网页中的拖动动作；当监听到鼠标将在网页中选中的网页内容进行拖动时，将选中的网页内容存储至预设的保存地址。本发明还公开了一种抓取网页内容的装置。本发明仅通过对鼠标的简单拖拽操作就能完成网页内容的抓取，十分简单、方便；且存储的网页内容是用户根据自身需要通过鼠标在网页中选中的，因此，不会抓取到对用户无用的网页内容，更加准确、实用。
+10. 105760151 应用开发方法及装置
+CN
+13.07.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410805226.9
+深圳市金蝶中间件有限公司
+蔡华林
+G06F 9/44
+Loading...
+本发明公开了一种应用开发方法，包括以下步骤：在接收到应用开发的业务请求后，调用EJB数据包，并根据所述EJB数据包获取服务上下文文件及初始化所述业务请求对应的执行环境；在所述初始化后的执行环境下根据所述服务上下文文件，获取Spring数据包，并根据所述Spring数据包确定所述业务请求对应的服务以及所述服务对应的执行方法；按照所述执行方法完成所述服务，并反馈服务完成结果。本发明还公开了一种应用开发装置。本发明实现有效确保能够完整、准确地完成应用开发，提高了应用开发的体验效果。
+11. 105743745 网络拓结构及其信息更新方法和装置
+CN
+06.07.2016
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201410768067.X
+深圳市金蝶中间件有限公司
+范明明
+H04L 12/28
+Loading...
+本发明公开了一种网络拓扑结构信息更新方法，在第一节点建立与第二节点之间的连接时，第一节点获取所述第二节点的第一网络拓扑结构信息；第一节点将其保存的第二网络拓扑结构信息发送至第二节点，以供第二节点基于接收到的第二网络拓扑结构信息更新其保存的第二网络拓扑结构信息；所述第一节点基于获取到的第一网络拓扑结构信息更新其保存的第二网络拓扑结构信息；第一节点将第一网络拓扑结构信息逐级发送至其所在的网络拓扑结构中的其它第三节点，以供所述第三节点基于接收到的第一网络拓扑结构信息更新保存的第二网络拓扑结构信息。本发明还公开了一种网络拓扑结构信息更新装置和网络拓扑结构。本发明提高了第二网络拓扑结构信息查询的成功率。
+12. 105721398 数据访问的方法及装置
+CN
+29.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410734268.8
+深圳市金蝶中间件有限公司
+范明明
+H04L 29/06
+Loading...
+本发明公开了一种数据访问的方法及装置，所述数据访问的方法包括以下步骤：第一业务节点接收终端发送的业务请求，所述业务请求中包含目的业务节点的目的路由标识；判断所述第一业务节点的路由标识是否与所述目的路由标识相同；若是，则获取与所述业务请求对应的数据信息；若否，则将所述业务请求转发给第二业务节点，返回判断所述第二业务节点的路由标识是否与所述目的路由标识相同的步骤并循环，直至获取到对应的数据信息。本发明能够简化数据访问的网络配置并提高访问速率。
+13. 105094988 基于HTTP请求的数据处理方法和装置
+CN
+25.11.2015
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201510497651.0
+深圳市金蝶中间件有限公司
+黄小满
+G06F 9/50
+Loading...
+本发明涉及一种基于HTTP请求的数据处理方法，包括：接收客户端发送的HTTP请求，建立与所述客户端的网络连接，所述客户端为一个或多个；判断HTTP请求对应的读事件是否具备执行条件，如果具备，则为具备读事件执行条件的HTTP请求分配线程；在通过所述线程响应事件的过程中，当读和/或写事件不具备执行条件时，等待所述读和/或写事件具备执行条件，继续通过所述线程响应事件，提高了响应时间和响应数量之间的平衡。此外，还提供了一种基于HTTP请求的数据处理装置。
+14. 103810206 Webpage content dragging method and device
+CN
+21.05.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210453964.2
+深圳市金蝶天燕中间件股份有限公司
+陈天真
+G06F 17/30
+Loading...
+The invention discloses a webpage content dragging method and device. The method comprises the following steps: preprocessing selected contents; calculating the character offset of a dragging insertion point on a target node; inserting the selected contents behind a corresponding calculated character. The method and the device are only specific to the demand of changing the webpage content layout, easy and convenient to operate, low in memory consumption and wide in applicability.
+15. 103186564 数据对象的处理方法及系统
+CN
+03.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110448760.5
+深圳市金蝶中间件有限公司
+蒋建波
+G06F 17/30
+Loading...
+本发明涉及一种数据对象的处理方法及处理系统。该方法包括以下步骤：创建的与数据对象相关联的事务对象以及中间对象，并关联所述中间对象与所述事务对象；将对所述数据对象的操作转移到对所述中间对象，并记录对所述中间对象进行所述操作所产生的变更数据；调用所述事务对象的提交操作，将所述变更数据于所述数据对象。上述数据对象的处理方法及系统，将对数据对象的操作转移到中间对象，然后再调用事务对象的提交操作，将记录的变更数据更新到数据对象中，如此，对数据对象仅将变更数据进行更新，减小了数据量，操作简单，通过使用中间对象来缓冲对数据对象的操作，保证了对数据对象进行的事务操作具备了原子性、一致性、隔离性和持续性。
+16. 103186400 Web应用程序升级方法及系统
+CN
+03.07.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110459829.4
+深圳市金蝶中间件有限公司
+梁勇基
+G06F 9/445
+Loading...
+一种Web应用程序升级方法，该方法首先获取最新的升级包，并将最新的升级包加载到缓存。然后获取Web应用访问请求，并根据最新的升级包更新应用程序。不同的升级包对应着不同的应用程序。在升级的过程中，主程序中需要升级的部分未被覆盖，加载不同的升级包可以得到不同版本的应用程序，当程序出现故障时，可快速恢复原来的版本，且容易追查问题出现在哪个版本上。因此，通过上述方法及系统可便于对Web应用程序的版本进行管理。此外，还提供一种Web应用程序升级系统。
+17. 103166916 Method and system for updating page
+CN
+19.06.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110412401.4
+深圳市金蝶中间件有限公司
+陈子文
+H04L 29/06
+Loading...
+The invention relates to a method for updating a page. The method comprises the following steps: requests are generated by a client side; the requests are processed by a server, components influenced by the requests are counted, identification of the components is obtained, and the identification is returned to the client side; render requests of the components are generated by the client side according to the identification; the render requests are processed by the server, rendered contents are returned to the client side; and contents displayed by the components are refreshed by the client side according to the rendered contents. The invention further relates to a system for updating the page. The render requests are generated in the client side by the components influenced by the requests so that the displayed contents are refreshed, an interactive mode of redirect refresh of the whole page in the prior art is replaced by partial refresh so that consumption of calculation resources in the server is reduced.
+18. 103106197 层次化数据的展示方法及系统
+CN
+15.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110352513.5
+深圳市金蝶中间件有限公司
+徐新杰
+G06F 17/30
+Loading...
+一种层次化数据的展示方法，包括以下步骤：获取节点定位请求；根据所述节点定位请求在层次化数据中查找目标节点；以层级化方式和二维表格的方式展示所述查找到的目标节点。上述层次化数据的展示方法为用户提供了更开阔的浏览空间，方便了用户查找定位节点。
+19. 103020054 模糊查询方法及系统
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110280094.9
+深圳市金蝶中间件有限公司
+陈伟君
+G06F 17/30
+Loading...
+一种模糊查询方法，包括以下步骤：根据预设的索引值和数据项之间的映射关系对数据库表建立全局索引；将所述全局索引排序；获取查询关键字，采用区间二分法查找与所述查询关键字匹配的索引区间；获取所述索引区间内的索引值，根据所述映射关系获取与所述索引值对应的数据项，并将所述数据项作为查询结果返回。采用了上述模糊查询方法和系统，可以很好的利用二分查找方法时间复杂度低的优势，在牺牲少量空间复杂度的情况下，换取较高的检索速度，从而提高了检索效率。
+20. 103020092 懒加载树中定位节点的方法和系统
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110298068.9
+深圳市金蝶中间件有限公司
+徐新杰
+G06F 17/30
+Loading...
+本发明提供了一种懒加载树中定位节点的方法，该方法包括以下步骤：获取用户输入的节点定位请求；根据所述节点定位请求在树中查找到目标节点，获取所述目标节点在树上的路径并返回；根据所述路径将树展开。采用上述懒加载树中定位节点的方法，能够减少服务器资源耗用和网络资源耗用，也能减少客户端的内存占用。此外，本发明还提供了一种懒加载树中定位节点的系统。
+21. 102981812 网页脚本语言的执行方法及装置
+CN
+20.03.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110264110.5
+深圳市金蝶中间件有限公司
+陈界
+G06F 9/44
+Loading...
+一种网页脚本语言的执行方法，包括如下步骤：执行网页脚本语言主函数；当执行到所述网页脚本语言主函数中的第一函数时，获取设置于所述第一函数中的标记；根据所述标记之后的代码构造第二函数；在达到设定时间后执行所述第二函数。上述网页脚本语言的执行方法及装置在网页脚本语言主函数的执行过程中调用第一函数，并通过第一函数将网页脚本语言主函数中还未执行的代码构造成第二函数，进而使得网页脚本语言主函数中还未执行的代码暂停执行，待达到设定时间后通过第二函数执行网页脚本语言主函数中还未执行的代码，灵活地实现了网页脚本语言中的暂停执行，并且不会破坏原有代码的结构，易于控制网页脚本语言中的整个执行过程。
+22. 102799423 Method and device for implementing dynamic method in JSF (java service face)
+CN
+28.11.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110140766.6
+深圳市金蝶中间件有限公司
+周发志
+G06F 9/44
+Loading...
+The invention discloses a method for implementing a dynamic method in a JSF (java service face), which comprises the following steps of: registering the method so as to obtain a method expression, and storing the method expression in a database; when the method is implemented, inquiring the method expression in the database; and invoking the method according to the method expression. By using the method above, a storage space can be saved, and the data transmission between the database and an application program can be reduced, thereby improving the operating performance of a system. In addition, the invention also provides a device for implementing the dynamic method in the JSF.
+23. 102799462 Eclipse-platform-based script engine device and collocation method for Eclipse platforms
+CN
+28.11.2012
+G06F 9/45 Loading...
+G06F 9/45
+Loading...
+201110140748.8
+深圳市金蝶中间件有限公司
+宋文魁
+G06F 9/45
+Loading...
+The invention discloses an Eclipse-platform-based script engine device which comprises a script loader, a preprocessor, a grammar parser, a script virtual machine code generator and a script virtual machine, wherein the script loader is used for loading script files compiled by users; the preprocessor is used for carrying out preprocessing on a scripting language in the script files; the grammar parser is used for carrying out grammar parsing on the scripting language subjected to the preprocessing so as to generate a grammar parsing tree; the script virtual machine code generator is used for generating object codes which can run on the script virtual machine according to semantic properties and the grammar parsing tree; and the script virtual machine is used for implementing the object codes and communicating with an eclipse platform. By using the script engine device above, the flexible configuration of Eclipse platforms can be realized.
+24. 102779032 Request processing method and system based on composite components
+CN
+14.11.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110121395.7
+深圳市金蝶中间件有限公司
+李斌
+G06F 9/44
+Loading...
+The invention relates to a request processing method based on composite components, which comprises the following steps: receiving a page request, traversing components in a page, judging whether the components in the page are composite components or not, and if yes, traversing sub components in the composite components; relating the attribute values of the sub components to the attribute values of the composite components to obtain a naming spatial value; acquiring a calling method corresponding to the life cycle phase of the sub components; and executing the calling method according to the page request and the naming spatial value. According to the request processing method and system based on the composite components, the attribute values of the composite components are related to the attribute values of the sub components to obtain the naming spatial value, the calling method is executed according to the naming spatial value, the situation that a plurality of composite components in the same page are interfered with one another is greatly avoided, and under the effect of the naming spatial value, only the composite component corresponding to the naming spatial value is responded after the calling method is executed. The code recombination rate is improved, the development cost is reduced, and at the same time anti-interference between the composite components is guaranteed.
+25. 102737056 Page data processing method and device
+CN
+17.10.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110092615.8
+深圳市金蝶中间件有限公司
+陈海宇
+G06F 17/30
+Loading...
+The invention discloses a page data processing method which comprises the following steps: receiving a page session request; carrying out data processing according to the page session request, and storing the page data subjected to data processing into a case; and judging whether the storage time period of the page data in the case corresponding to the page session request achieves the threshold, if yes, cleaning up the page data, wherein the threshold is smaller than the page session period and larger than the request period. According to the page data processing method and the device, the storage of the page data in the case is controlled by judging whether the storage time period of the page data in the case corresponding to the page session request achieves the threshold, the page data among the page session requests in the case can be accessed, and the page data are cleaned up when the storage time period achieves the threshold, therefore, additional resources do not need to be consumed even under the accessing condition of massive users.
+26. 102739613 跨防火墙的动态通路方法及系统
+CN
+17.10.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110091168.4
+深圳市金蝶中间件有限公司
+刘钟泽
+H04L 29/06
+Loading...
+本发明涉及一种跨防火墙的动态通路方法及系统。该方法包括以下步骤：登录中转服务器；所述中转服务器获取用户选择的管理工具及目标服务器，并根据所述管理工具及目标服务器生成临时密钥并返回；所述管理工具根据所述临时密钥连接至所述中转服务器；所述中转服务器根据所述临时密钥获取目标服务器并与所述目标服务器建立连接；所述管理工具通过所述中转服务器与所述目标服务器进行通信。上述跨防火墙的动态通路方法及系统，管理工具与防火墙内的目标服务器之间实现了正常通信，该通信安全且操作简便，不需对防火墙进行权限的设置，防止了防火墙内的目标服务器端口暴露在互联网中而导致不安全的问题。
+27. 102541527 Hovering prompting system and method
+CN
+04.07.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010609992.X
+深圳市金蝶中间件有限公司
+柳容涛
+G06F 9/44
+Loading...
+The invention discloses a hovering prompting system which comprises a server and at least one client. The server is used for storing hovering prompting information; the client is connected with the server through a network; the client comprises a hovering signal triggering module, a hovering prompting information acquiring module and a hovering prompting information displaying module; wherein the hovering signal triggering module is used for triggering a hovering signal when a cursor stops for a long time which exceeds a predetermined value in a predetermined area; the hovering prompting information acquiring module is used for acquiring the hovering prompting information which corresponds to the predetermined area from the server according to the hovering signal; and the hovering prompting information displaying module is used for displaying the hovering prompting information in a popup window. The invention also discloses a hovering prompting method. With the adoption of the hovering prompting system and the hovering prompting method, the dynamically upgraded information prompting function or the tool prompting function can be realized.
+28. 102486736 程序自动更新方法及更新程序生成装置
+CN
+06.06.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010580032.5
+深圳市金蝶中间件有限公司
+吴超
+G06F 9/445
+Loading...
+本发明揭露了一种程序自动更新方法，所述方法包括：在主程序中预设更新生成程序和更新类库；所述更新生成程序检测是否存在更新文件，如果是，则下载所述更新文件；所述更新生成程序利用所述更新文件和更新类库生成更新程序；和利用所述更新程序更新所述主程序。本发明同时还提供一种更新程序生成装置，用于生成所述更新程序。本发明中的所述更新程序作为主程序的一部分，而非独立的进程，易于与所述主程序之间交互数据和共享类库资源，同时所述更新程序是利用动态生成的更新类编译获得的，可以实现自我更新和跨平台运行。
+29. 102479234 数据库分页操作方法和装置
+CN
+30.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010572620.4
+深圳市金蝶中间件有限公司
+梁勇基
+G06F 17/30
+Loading...
+本发明公开了一种数据库分页操作方法和装置，属于计算机领域。所述方法包括：接收分页操作数据库的命令；获取所述数据库对应的分页模板；获取所述分页操作的执行参数；根据所述执行参数使所述分页模板执行所述分页操作，得到分页操作的结果信息。本发明实施例通过事先加载数据库分页操作模板，提供使用者数据库分页操作模板，对于开发者只看到一个接口，从而简化各个数据库分页操作差异。
+30. 102447721 一种备份的方法及装置
+CN
+09.05.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010505045.6
+深圳市金蝶中间件有限公司
+郭填炼
+H04L 29/08
+Loading...
+本发明公开了一种备份的方法及装置，属于互联网通信领域。所述方法包括：接收备份请求；挂起云中的虚拟计算节点，获取所述虚拟计算节点的备份虚拟计算节点；恢复所述虚拟计算节点，并存储所述备份虚拟计算节点。所述装置包括：接收模块、挂起模块和恢复模块。本发明能够提高用户体验以及避免发生虚拟计算节点的状态被中断的现象。
+31. 102446202 管理页面的方法和装置
+CN
+09.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010510491.6
+深圳市金蝶中间件有限公司
+林学勤
+G06F 17/30
+Loading...
+本发明公开了一种管理页面的方法和装置，属于互联网领域。所述方法包括：接收页面中的任一功能模块完成操作后发送的通知；根据所述接收到的通知，使监听所述操作的功能模块执行相应的操作。所述装置包括：接收模块和执行模块。本发明通过统一管理页面上的所有功能模块，当接收到某一功能模块的操作通知后，只更新监听此操作的功能模块，提高了页面的更新速度。
+32. 102445978 一种管理数据中心的方法及设备
+CN
+09.05.2012
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201010508699.4
+深圳市金蝶中间件有限公司
+郭填炼
+G06F 1/32
+Loading...
+本发明公开了一种管理数据中心的方法及设备，属于互联网通信领域。所述方法包括：从数据中心中获取处于空闲状态的主机；保持所述数据中心中存在第二阈值个空闲状态的主机。所述设备包括：获取模块和保持模块。本发明能够减少数据中心对能源的消耗。
+33. 102402556 XML文件的校验方法和装置
+CN
+04.04.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010287146.0
+深圳市金蝶中间件有限公司
+柳容涛
+G06F 17/30
+Loading...
+本发明公开了一种XML文件的校验方法，包括：获取用户设置的待校验XML文件的校验规则；生成所述校验规则对应的XSL校验文件；获取所述待校验的XML文件；根据所述XSL校验文件对所述待校验的XML文件进行校验，输出校验结果。一种XML文件的校验装置，包括：校验规则获取模块；XSL校验文件生成模块；待校验的XML文件获取模块；校验结果输出模块。本发明通过生成所述校验规则对应的XSL校验文件，根据所述XSL校验文件对所述待校验的XML文件进行校验，实现了无需修改XML文件内容，只修改用户校验规则即可对XML文件内容的进行校验，从而使用户只需关注校验规则的书写，不用担心XML文件逻辑会改变。
+34. 102402416 一种元素出队序列设置方法及装置
+CN
+04.04.2012
+G06F 5/10 Loading...
+G06F 5/10
+Loading...
+201010282418.8
+深圳市金蝶中间件有限公司
+林育智
+G06F 5/10
+Loading...
+本发明公开了一种元素出队序列设置方法及装置，属于计算机领域。所述方法包括：根据所述元素入队时间和优先级，计算所述元素的出队优先级；根据所述元素的出队优先级进行排序，从而得到所述元素出队序列。所述装置包括：计算模块和排序模块。本发明仅需建立一个队列，不需要根据元素优先级设置多个列表或额外的进程周期性地扫描、变更元素优先级，从而减少对系统资源的占用，提升系统效率。
+35. 102281259 Method and device for decoding request information
+CN
+14.12.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010200633.9
+Shenzhen Kingdee Middleware Co., Ltd.
+Wu Chao
+H04L 29/06
+Loading...
+The invention discloses a method and device for decoding request information, belonging to the field of network application. The method comprises the following steps of: receiving request information; respectively acquiring encoding modes of a request path, an inquiry string and form content of the request information; and decoding the request information according to the acquired encoding modes. The device comprises a receiving module, a first acquisition module, a first decoding module, a second acquisition module, a third acquisition module and a second decoding module. By respectively acquiring the encoding modes of the request path, the inquiry string and the form content of the request information, the request information is decoded according to the acquired encoding modes, therefore different decoding modes can be determined according to different encoding modes, and the decoding flexibility is improved; in addition, because the request information is decoded according to the encoding modes of the request information, the decoding correctness can be ensured, and messy codes are avoided.
+36. 102253927 Copy and paste method and device
+CN
+23.11.2011
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+201010179286.6
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Chen Hongxin
+G06F 17/24
+Loading...
+The invention discloses a copy and paste method and device, belonging to the field of computer application. The method comprises the steps of: under an activated state of text editing page, storing selected target data in a copy stack; receiving a command of pasting a text, pasting a first copy text at the top of the copy stack to a selected position; and when the number of the copy texts stored in the copy stack is more than 1, pasting the copy text appointed by the command in the copy stack in the position. The invention also discloses a copy and paste device which comprises a copy module, a first paste module and a second paste module. The invention has the advantages of reducing switching among the texts, simplifying the process of copy and paste and improving user experience of copy and paste.
+37. 102253940 Method and device for processing data by tree view
+CN
+23.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010178106.2
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Li Huiyong
+G06F 17/30
+Loading...
+The invention discloses a method and a device for processing data by a tree view and belongs to the technical field of computers. The method comprises the following steps that: a view controller receives a message and allocates the message to a corresponding controller according to the type of the message; and the controller processes the message and processes a next message of the same type after the message is processed. The invention further provides the device for processing data by the tree view. Various monitors registered on a tree generate different node requests, an editor generates a response, all the requests and the response are forwarded by the view controller, and the requests and the response are processed in a specific controller to be decoupled and asynchronized, so that the tree view has excellent expandability and asynchronous delayed load is met.
+38. 102255872 Method and device for accessing non-remote object
+CN
+23.11.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010179237.2
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Jiang Haijun
+H04L 29/06
+Loading...
+The invention discloses a method and a device for accessing a non-remote object, and belongs to the field of computers. The method comprises the following steps of: receiving a target object calling request initiated by a client by using a forwarder of a server, wherein a target object is the non-remote object; forwarding the calling request to the target object and receiving a return value corresponding to the calling request from the target object; if the return value is of a transmissible type and realizes an interface, constructing another remotely accessible forwarder according to the return value, and creating the Stub of the constructed forwarder; and transmitting the Stub of the constructed forwarder to the client to make the client create a calling processor according to the Stub of the constructed forwarder, and constructing and returning a dynamic remote agent to the client according to the calling processor and the interface of the return value. The device comprises a receiving module, a forwarding module, a construction module and a transmission module. By the method and the device, the problems of failures in the remote accessing of the non-remote object are solved, and calling simplification and automation are realized.
+39. 102253826 Flex-based collection frame
+CN
+23.11.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010185199.1
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Li Huiyong
+G06F 9/44
+Loading...
+The invention discloses a Flex-based collection frame, and belongs to the technical field of computers. The collection frame comprises a collection frame system for providing general data operation and an iterator. A list iterator which can ensure a mapping sequence is provided by the collection frame system, so that the function of the Flex-based collection frame is increased; and the collection frame system can provide the general data operation and is easy to expand.
+40. 102254233 Flow driving method and flow driving device
+CN
+23.11.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010180046.8
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Chen Nieyun
+G06F 9/445
+Loading...
+The invention discloses a flow driving method and a flow driving device and belongs to the field of computers. The method comprises the following steps of: determining a flow element of a flow to be driven and a flow behavior which corresponds to the flow element; mapping the flow element into a corresponding executable object, and assembling the flow behavior of the flow element into the corresponding executable object; and during external call of the executable object, starting an execution process of the executable object. The invention has the advantages that: by mapping the flow element into the corresponding executable object, starting the execution process of the executable object during the external call of the executable object, and summarizing the behavior characteristics of various kinds of flow languages by the executable object, the flow is driven, flow languages such as blocky flow language and graphic flow language can be supported, the expansibility of the flow driving is improved, and the portability of the flow driving can be improved due to no binding with any specific data storage layer technology and an inversion of control (IOC) container.
+41. 102243633 Webpage layout method and device
+CN
+16.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010173074.7
+Shenzhen Kingdee Middleware Co., Ltd.
+Li Bin
+G06F 17/30
+Loading...
+The invention discloses a webpage layout method and device, belonging to the field of Internet. The method comprises the following steps of: calculating the actual width of a display panel, and calculating the actual width of each sub-panel according to the actual width of the display panel and the relative percentage set for each sub-panel; flooring the actual width of each sub-panel, and calculating the residual actual width of the display panel according to the flooring results of all the sub-panels; and allocating the residual actual width of the display panel to one or more sub-panels according to a preset rule, and setting the width attribute of each sub-panel according to a layout result determined after allocation. According to the invention, by flooring the actual width of each sub-panel through calculation and allocating the residual actual width of the display panel, which is obtained according to the flooring results, to one or more sub-panels, the webpage layout can change along with the changes of the actual size of the display panel, and the effects of improving webpage layout aesthetics and being compatible to various browsers are achieved.
+42. 102236682 Method and device for maintaining user state information
+CN
+09.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010167372.5
+Shenzhen Kingdee Middleware Co., Ltd.
+Xu Xinjie
+G06F 17/30
+Loading...
+The invention discloses a method and a device for maintaining user state information, belonging to the technical field of the computer. The method comprises the following steps of: intercepting a request of processing a page which is sent from a user; searching for a transaction scope context corresponding to the request; processing the page according to the user state information in the transaction scope context; and after the completion of the processing, updating the user state information in the page to the transaction scope context. The device comprises a detection module, a search module and a processing module. The method of the invention stores and updates the user state information by means of the transaction scope context, thereby realizing the maintenance of the user state information in network application; and no any limitation is specified for whether the user state information is serializable, so that the flexibility of application is greatly improved and the response speed of the page is guaranteed.
+43. 102214177 Method and device for vertically typesetting characters in label
+CN
+12.10.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010143008.5
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Xie Weixing
+G06F 17/30
+Loading...
+The invention discloses a method and a device for vertically typesetting characters in a label and belongs to the field of computers. The method comprises the following steps of: setting the width of a label container to make the label container capable of containing only one text character; setting a text display mode of the label container as an automatic word-wrapping mode; and displaying word contents in the label container in a text form. The device comprises a first setting module, a second setting module and a display module. In the invention, the label container can contain only one text word by reasonably setting the width of the label container, an effect of vertically typesetting the characters is achieved by using the automatic word-wrapping mode supported by each major browser, a mode of replacing a character label by using a picture is eliminated, the sizes and colors of the characters can be changed by re-setting character attributes without re-fabrication of the whole label, and flexibility is better.
+44. 102214109 Method and device for loading plug-ins
+CN
+12.10.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010163167.1
+深圳市金蝶中间件有限公司
+陈锐渠
+G06F 9/445
+Loading...
+The invention discloses a method and device for loading plug-ins, belonging to the field of computers. The method comprises the following steps of: when software is initialized, loading every plug-in in an extended directory and storing relevant information of every plug-in in a registration table, wherein the relevant information at least comprises the ID (Identification), interface description information, function description information and a class loader of each plug-in; monitoring the extended directory in real time; and if a new plug-in occurring in the extended directory is monitored, loading all classes of the new plug-in into a Java virtual machine, activating the new plug-in and updating the registration table according to the relevant information of the new plug-in. The device comprises a first loading module, a real-time monitoring module and a second loading module. According to the method and the device disclosed by the invention, convenience of use can be brought to users, and the new plug-in can directly run without initializing after loading.
+45. 102214076 Method and device for implementing print on Web page
+CN
+12.10.2011
+G06F 3/12 Loading...
+G06F 3/12
+Loading...
+201010154710.1
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Li Bin
+G06F 3/12
+Loading...
+The invention discloses a method and device for implementing print on a Web page, and belongs to the technical field of network communication. The method comprises the following steps: sending print text information and positioning information to Applet; and sending a print command to the Applet so that the Applet creates a print job according to the print text information and the positioning information and calls a local printer at a client side to print after receiving the print command. The device comprises a transmitting module, a processing module, a second receiving module, a print job creation module and a print job print module. The method and the device provided by the invention have the beneficial effects that the Applet calls the local printer at the client side to print without setting a Web browser, which is suitable for any browser supporting the Applet and improves generality for Web page printing; and meanwhile the print content can be accurately located, thus improving the print effect.
+46. 102200985 Correspondence device and method of webpage and document object model (DOM)
+CN
+28.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010139751.3
+Shenzhen Kingdee Middleware Company Ltd.
+Xie Weixing
+G06F 17/30
+Loading...
+The invention provides a correspondence device and a method of a webpage and a document object model (DOM) and belongs to the technical field of a computer. In the embodiment of the invention, a content of each frame body is stored in a DOM module, and a corresponding absolute position of each frame body in a page is stored to realize one-to-one correspondence between the content and each frame body in the page of a portal layout. Compared with a mode of correspondence between rows and lines where documents and the frame bodies are located for the DOM in the prior art, the invention has the advantages that: only parameters of the absolute position stored in each frame body in the DOM are required to be changed when the frame bodies move. By the embodiment of the invention, the problem of Flash failure caused by dragging of the frame bodies after Flash is applied to the webpage of the portal layout in the prior art can be solved, the webpage of the portal layout in the prior art can be simpler in structure, and the flexibility of a system is improved.
+47. 102202076 Data transmitting method and device and data sending and receiving methods and devices
+CN
+28.09.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010139755.1
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Zheng Dele
+H04L 29/08
+Loading...
+The invention provides a data transmitting method and device and data sending and receiving methods and devices, belonging to the technical field of computers. In the embodiment of the invention, the transmitting method comprises the following steps of: sending data to a receiving end according to the data state from a sending end and marking the data as sent after the receiving end receives the data; after the receiving end receives the data, making the data unusable; sending a confirmation message to the receiving end according to the data state and marking the data as confirmed after the receiving end receives the confirmation message; and after the receiving end receives the confirmation message, making the data usable. Due to the adoption of the embodiment of the invention, data can be received by using the receiving end without duplication or omission. Simultaneously, only the sending end needs to mark the data, so that the high efficiency of data transmission can be ensured. Meanwhile, only the sending end is used for marking the data state, so that high efficiency can be ensured.
+48. 102200907 Method and device for individually configuring portal application program
+CN
+28.09.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010130886.3
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Zheng Yuxian
+G06F 9/44
+Loading...
+The invention provides a method and device for individually configuring a portal application program. The method comprises the following steps: embedding a preset portal default setting interface into an interface of an edition mode; embedding a preset portal individual configuration interface into an interface of a checking mode; setting and saving a parameter in the default configuration interface if a command of the configuration parameter sent by an administrator is received, when the administrator is determined to enter the default configuration interface under the edition mode; and checking a setting effect of the default configuration interface when the checking command sent by the administrator is received. By the method and the device, an initial value interface of the administrator is separated from a user preference setting interface, so that the possibility that Portlet cannot run due to error parameter configuration or misoperation is reduced, the problem of parameter configuration of the portal application program is solved, the authentication times of the administrator is reduced, and a user can operate conveniently.
+49. 102201887 Method and device for controlling socket transmission rate
+CN
+28.09.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010139753.2
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Lin Yuzhi
+H04L 1/00
+Loading...
+The invention discloses a method and device for controlling socket transmission rate, which belong to the field of network transmission. The method comprises the steps of: obtaining the number of bytes sent within a previous period of preset time; comparing the obtained number of the bytes with the network-preset maximum number of sent bytes within the previous period of time to obtain a comparison result; and adjusting sending frequency according to the comparison result. The invention also discloses the device for controlling socket transmission rate, which comprises an acquiring module, a comparing module and an adjusting module. In the invention, by regularly collecting the number of bytes sent within a previous stage and comparing with the maximum number of sent bytes within the preset period of time, the current sending frequency is adjusted; socket transmission can be self-adaptive according to network conditions and can dynamically accept the real-time adjustment of a user; system resources are saved; the control of the rate is simplified; and the system burden is alleviated.
+50. 102193938 Method and device for acquiring incremental data
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010122947.1
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Chen Mubing
+G06F 17/30
+Loading...
+The invention discloses a method and a device for acquiring incremental data, and belongs to the field of databases. The method comprises the following steps of: checking information, corresponding to an original table, in a cache at every preset time; and if incremental data subjected to preset target operation exists in the information, recording the incremental data. The invention also discloses a device. The device comprises a checking module, a recording module, an establishing module and a storage module. By the method and the device, the incremental data can be acquired without invading the original table, so the resources of the database can be saved; furthermore, when the database is operated frequently, a system can preset an interval of acquisition of the incremental data according to a running situation and automatically select the time for acquiring the incremental data; moreover, the load of the database can be balanced and the user experience is enhanced.
+51. 102193787 Methods for serialization and de-serialization, device and system
+CN
+21.09.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010122965.X
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Lin Yuzhi
+G06F 9/44
+Loading...
+The invention discloses methods for serialization and de-serialization, a device and a system, and belongs to the field of computers. The method for the serialization comprises the following steps of: acquiring the length of a BitSet from the BitSet, and storing the length in a data stream; and acquiring each status bit from the BitSet, forming a byte by using the acquired eight-bit status bits acquired each time, and storing the byte in the data stream. The method for the de-serialization comprises the following steps of: establishing one BitSet, acquiring the length of the BitSet from the data stream, and storing the length in the established BitSet; performing bit-AND operation on each byte storing the status bits in the data stream and eight status codes respectively, and restoring the eight-bit status bits contained in each byte; and storing the eight-bit status bits of each byte in the established BitSet. The invention can provide the methods for the serialization and the de-serialization, which breaks away from the limitation of specific programming languages to reduce the maintenance cost of the BitSet.
+52. 102193955 Method and device for generating Facelets page
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010138497.5
+Shenzhen Kingdee Middleware Company Ltd.
+Xu Xinjie
+G06F 17/30
+Loading...
+The invention discloses a method and device for generating a Facelets page, and belongs to the field of computers. The method comprises the following steps of: receiving a first request for the Facelets page, and acquiring a Facelets template corresponding to a path carried by the first request; and generating the Facelets page according to the Facelets template and the service conditions. According to the scheme provided by the embodiment, when the service conditions are different, multiple different Facelets pages can be quickly and conveniently generated, and multiple requirements for the Facelets pages are met.
+53. 102147737 Method for supporting multi-operating system by system service and device
+CN
+10.08.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010111633.1
+Shenzhen Kingdee Middleware Company Ltd.
+Guo Tianlian
+G06F 9/445
+Loading...
+The invention discloses a method for supporting a multi-operating system by system service and a device, belonging to the field of a computer. The method comprises the following steps: receiving a system service command which comprises at least a system service program name; according to the system service program name and the type of a current running operating system, obtaining a corresponding batch file from a batch file collection which comprises a prefix name, a suffix name and a batch file, wherein the prefix name is identical to the system service program name, and the batch file corresponds to the type of the operating system; and according to the batch file, calling and running the system service program so as to finish the system service. The scheme leads a system administrator to be able to successfully finish the management of service on each operating system in the condition of only knowing the system service command, so as to reduce operational complexity, widen application scope and improve consumer experience.
+54. 102147752 Method and device for handling events
+CN
+10.08.2011
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+201010111614.9
+Shenzhen Kingdee Middleware Co., Ltd.
+Shi Wei
+G06F 11/00
+Loading...
+The invention discloses a method and device for handling events, belonging to the field of computers. The method comprises the following steps: acquiring the event handling program for handing an event when an event takes place; acquiring all the context information needed for handling the event from the host process; and handling the event through the event handling program according to the context information. The device comprises a first acquiring module, a second acquiring module and a processing module. The method and the device in the invention can be used for avoiding occurrence of abnormal phenomena in handling events.
+55. 102147799 Data transmitting method, device and system
+CN
+10.08.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010112657.9
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Li Kefeng
+G06F 17/30
+Loading...
+The invention discloses a data transmitting method, device and system, belonging to the technical field of computers. The method comprises the following steps of: mapping the structure type of service data object (SDO) data into a universal SDO data structure from a basic SDO data structure; and transmitting the SDO data of the universal SDO data structure. The device comprises a mapping module and a transmitting module. The system comprises a transmitting end system and a receiving end system. In the invention, the SDO data are transmitted after the structure type of the SDO data is mapped from the basic SDO data structure into the universal SDO data structure, so that the SDO data can be identified by the receiving end system without establishing a metadata exchange mechanism, and the cost on the receiving end system is reduced.
+56. 102141874 Method and system for operating primitives in graphics operation interface
+CN
+03.08.2011
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+201010112782.X
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Chen Hongxin
+G06F 3/048
+Loading...
+The invention provides a method for operating primitives in a graphics operation interface, belonging to the field of computers. The method comprises the following steps: obtaining the operation information of the primitives; and judging whether the operation information is matched with the standard action information, if so, executing the operating command corresponding to the standard action information. In addition, the invention also relates to a system for operating primitives in the graphics operation interface. The system comprises an information acquisition module, an action library, an action identification module and a calling module, wherein the information acquisition module is used for acquiring the operation information of the primitives; the action library is used for storing the standard action information and the correspondence between the standard action information and the operating command; the action identification module is used for judging whether the operation information is matched with the standard action information; and the calling module is used for calling the operating command corresponding to the standard action information obtained through matching and executing the operating command. The method and the system have the following beneficial effects: the cockamamie shortcut keys or the operation of clicking buttons can be reduced by obtaining the operation information of the primitives, matching the operation information with the standard action information and executing the operating command corresponding to the standard action information.
+57. 102142001 Method and device for expanding form
+CN
+03.08.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010110254.0
+Shenzhen Kingdee Middleware Company Co., Ltd.
+Xie Weixing
+G06F 17/30
+Loading...
+The invention discloses a method and a device for expanding a form and belongs to the field of computers. The method comprises the following steps of: scanning each table cell in a first form and acquiring a table cell to be expanded; generating a second form according to the first form and a template corresponding to contents in the first form, and showing the second form to a user; and when the user requests for displaying contents in the table cell to be expanded, displaying the contents in the table cell to be expanded to the user in the generated second form. By the scheme, long texts, pictures, audio and video and other multi-media contents can be displayed in the form, the user can intuitively know which contents can be expanded and which contents cannot be expanded, and the user experience is improved.
+58. 102141909 Primitive creation method and system
+CN
+03.08.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010113169.X
+Shenzhen Kingdee Middleware Co., Ltd.
+Chen Hongxin
+G06F 9/44
+Loading...
+The invention relates to a primitive creation method and a system. The method comprises the following steps: obtaining the box selection information of a drawing panel; and creating a corresponding primitive in a box selection area of the drawing panel according to the box selection information. Through the primitive creation method, the box selection information of the drawing panel is obtained, and the corresponding primitive in the box selection area of the drawing panel is obtained according to the box selection information. With the adoption of the method and the system, a user can create the corresponding primitive in the box selection area according to the box selection information of the user only through carrying out box selection to the drawing panel; and the repeated movement between a toolbar and the drawing panel is not required during the continuous creation. The primitive creation method and the system have simple process, are convenient and quick to operate, save a large quantity of time and energy and keep continuous drawing, thereby greatly improving the drawing efficiency and enhancing the experience effect of the user.
+59. 102063300 Help documentation generating device and method
+CN
+18.05.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010606458.3
+Shenzhen Kingdee Middleware Co., Ltd.
+Luo Fan
+G06F 9/44
+Loading...
+The invention provides a help documentation generating device and method. The device comprises a source code module and a conversion module; and the method comprises the steps of: appending a comment in source codes by adopting a wiki mode, and converting the comment in the wiki format into the comment in a HTML (Hypertext Markup Language) format. In the embodiment of the invention, a user can compose JavaDoc with the simple and easy wiki format and then convert the wiki format into the HTML format so as to reduce the use complexity. Meanwhile, the requirement on accessing wiki only concerns internet connection and a Web browser, therefore, the help documentation generating device is easy to deploy and use in comparison with other collaborative application programs and assemblies.
+60. 101546263 Method and a system for binding Java source code and corresponding accessory information
+CN
+30.09.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910119619.3
+Shenzhen Kingdee Middleware Co., Ltd.
+Luo Fan
+G06F 9/44
+Loading...
+The present invention relates to a computer software system development technology field, and provides a method and a system for binding Java source code and corresponding accessory information. The method includes defining a method interface in a Java source code editor; setting the accessory information for the method; recording the accessory information in an accessory dictionary document of an engineering catalog containing the method interface. By means of the invention, it is capable of binding various information with corresponding Java source codes by an accessory in a Java source code editor, and enriching the information quantity contained by the Java source code; at the same time, by means of the information transfer, it is capable of enquiring the binding accessory information by opening the corresponding Java source code, and the information intercommunion time cycle of synergic development is reduced.
+61. 101499099 Method and system for WEB page layout
+CN
+05.08.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910119624.4
+Shenzhen Kingdee Middleware Co., Ltd.
+Zhang Xu
+G06F 17/30
+Loading...
+The invention relates to a method and a system for WEB page layout. The method includes: obtaining a page layout command, calculating a parent container absolute size; traversing element of the parent container for obtaining a sum of the element having a first sign; obtaining a difference value of the parent container absolute size and the element having the first sign; calculating and obtaining the absolute size of the element having a second sign according with percent of the element having the second sign to the difference value; laying the web page according with the absolute size of the element having the first sign and the absolute size layout page of the element having the second sign. The method and system make the element with the second sign trying to use residual space of the parent container, and changing with the parent container size change, having a function of suitable the parent container size change dynamic.
+62. 101447993 Method and device for finding unreleased connection in connection pool
+CN
+03.06.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810187830.4
+Shenzhen Kingdee Middleware Company Ltd.
+Cheng Yongbin
+H04L 29/06
+Loading...
+The invention discloses a method and a device for finding unreleased connection in a connection pool, wherein, the method comprises: a physical connection which is currently in use is marked after the association between the physical connection and a user connection is established; after the scheduling is finished, whether the physical connection used in the scheduling still has the mark is judged; and if so, the physical connection is determined to be unreleased physical connection, the physical connection is marked before the scheduling, and a closed connection is found by checking the mark after the scheduling. Human participation is not needed in the whole process, thereby high-efficiently finding out unclosed connection and solving the problem of connection leakage.
+63. 101425034 Log recording method and log system
+CN
+06.05.2009
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+200810145706.1
+Shenzhen Kingdee Middleware Co., Ltd.
+Jiang Haijun
+G06F 11/34
+Loading...
+The embodiment of the invention discloses a log recording method and a log system. The method comprises the following steps: a log-delayed recorder receives and records commands of the log and the commands carry log entries; the log-delayed recorder stores the log entries in the commands to a log registration manager; and the log registration manager carries out writing operation to the stored log entries according to the set conditions. Correspondingly, the embodiment of the invention provides the log system comprising the log-delayed recorder and the log registration manager; wherein the log-delayed recorder is used for receiving and recording the commands of the log, the commands carry log entries, and the log-delayed recorder stores the log entries to the log registration manager; the log registration manager is used for storing the log entries transmitted by the log-delayed recorder and carrying out writing operation to the stored log entries according to the set conditions. The technical proposal provided by the embodiment of the invention can reduce the influence on normal services when the log is recorded and improve the implementing speed of the normal services.
+64. 101425070 Deadlock positioning method, deadlock positioning device and data system
+CN
+06.05.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810145707.6
+Shenzhen Kingdee Middleware Co., Ltd.
+Cheng Yongbin
+G06F 17/30
+Loading...
+The embodiment in the invention relates to a deadlock positioning method, a deadlock positioning device and a data system. The method is as follows: after the course of a database is deadlocked, acquiring the failed affairs in the deadlock and the affairs related to the generation of deadlock, combining a datasheet used by the affairs with the corresponding affairs, extracting the program execution statements corresponding to the same datasheet combination, examining a statement call stack according to the extracted program execution statements, and determining the generating device of deadlock. After the course of the database is deadlocked, the deadlock positioning method, deadlock positioning device and data system combine the datasheets used by the affairs with the corresponding affairs, examine the statement call stack according to the extracted program execution statements, and determine the generating position of deadlock, so that the information contents requiring for manual analysis for positioning the deadlock are greatly reduced; the deadlock is easily positioned; and the efficiency is increased.
+65. 101404021 Method for dynamically displaying rounded angle rectangle on web pages and web server
+CN
+08.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810167689.1
+Shenzhen Kingdee Middleware Co., Ltd.
+Zhang Xu
+G06F 17/30
+Loading...
+The embodiment of the invention provides a method for dynamically displaying a rounded rectangle on a Web page and a Web server. The method comprises the following steps: a server receives a request for accessing the Web page sent by a user terminal; for the rounded rectangle region in the page, a preset rounded rectangle component draws the rounded rectangle according to an attribute value designated for the rounded rectangle component in the page, and transmits the rounded rectangle to the server; the server sends the information containing the rounded rectangle to the user terminal; and the user terminal displays the rounded rectangle on a browser. According to the embodiment of the invention, the rounded rectangle component dynamically draws the rounded rectangle when a user accesses the page, and the server transmits the rounded rectangle to the terminal to display; when the display of the rounded rectangle needs adjustment, only the attribute value designated by the page for the rounded rectangle is changed to cause the rounded rectangle component to draw out a new rounded rectangle according to a new attribute value, which is convenient for maintenance.
+66. 101398845 Multi-language binding method and system in web applications
+CN
+01.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810174516.2
+Shenzhen Apusic Middleware Co., Ltd.
+Zhang Xu
+G06F 17/30
+Loading...
+The invention provides a multilingual binding method in web application, comprising the steps as follows: S1: a multilingual resource file is defined; S2: interface rendering is started and an interface address is analyzed; S3: a corresponding multilingual resource file is found according to the current language and interface address; S4: according to id of the interface element, a corresponding practical value is found in the multilingual resource file; S5: the practical value is given to the interface element; S6: the interface of the selected language is shown according to the interface element with given value and the interface rendering result. The method utilizes the interface element id which is defined in the development process to associate the type of the key value in the multilingual resource file, and leads the Web application to bind the multilingual information on the interface automatically during the development process; when the user shifts the language, corresponding content is displayed automatically according to the selected language, thus saving massive repeated labor of developers and improving the development efficiency.
+67. 101394421 Method, apparatus and system implementing operational notification
+CN
+25.03.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810168383.8
+Shenzhen Kingdee Middleware Company Ltd.
+Zhang Xu
+H04L 29/08
+Loading...
+The invention discloses a method, a device and a system for achieving operation report. The method comprises the following steps: executing operations requested by a client by a server, and recording stage point information when executing at a stage point; receiving all stage point information requests from the client when the server executes the operation; returning the stage point information to the client according to the stage point information requests received by the server; and displaying the received stage point information by the client to the user. The method can provide accurate information at the task execution moment for the user, thereby greatly improving the user experience.
+68. 101394406 Method and apparatus for preventing duplicate button pressing by user
+CN
+25.03.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810171188.0
+Shenzhen Kingdee Middleware Company Ltd.
+Zhang Xu
+H04L 29/06
+Loading...
+The invention provides a method and a device for preventing buttons from being pressed repeatedly by users. The method comprises the following steps: determining whether the button pressing action is a valid pressing event, if so, setting the button state as forbidden, and transmitting the processing request of the pressing event to a server; and setting the button state as available when the server receives the processing result of the server. The method can prevent the user from continuously pressing the button without writing an extra code for preventing continuous pressing when a first button pressing event is not processed completely. Accordingly, the method can reduce complexity of code writing and reduce the development cost.
+69. 101388039 Response message executing method and device
+CN
+18.03.2009
+G06F 15/173 Loading...
+G06F 15/173
+Loading...
+200810172730.4
+Shenzhen Apusic Middleware Co., Ltd.
+Zhang Xu
+G06F 15/173
+Loading...
+The invention discloses an execution method for response messages and a device, wherein the method comprises steps of receiving a response message returned from a server end, obtaining an execution serial number, wherein each response message and a request message corresponding to response message adopt a same execution serial number and the execution serial numbers are sequentially queued according to sending sequence of the request messages, based on the sending sequence of the request messages corresponding to the response messages and according to the execution serial numbers, determining whether the current to-be-executed response messages are included in the response messages which are not executed but received, if positive, executing the response messages and returning to the determining step, and if negative, caching the current received response messages and returning to the step of receiving the response messages. In accordance with the embodiment of the invention, the server end can process businesses via normal business processing logic.
+70. 101382985 Method and filter for conversing JSF original page request
+CN
+11.03.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200810170542.8
+Shenzhen Apusic Middleware Co., Ltd.
+Deng Zhizhi
+G06F 21/22
+Loading...
+The embodiment of the invention discloses a method for requesting to change a JSF original webpage and a filter thereof. The method includes: according to a deployment description file, a designated suffix of the JSF original webpage corresponding to a current application program is obtained; comparison that a suffix of a requested resource name of an intercepted request and the designated suffix are the same is carried out, and that the intercepted request is a request for the JSF original webpage is determined; and the request for the JSF original webpage is transformed into a JSF request. The embodiment directly obtains the designated suffix of the JSF original webpage in a current application program in the deployment description file, which ensures the realization of the requested transformation of the JSF original webpage in various application programs, thereby having universality; and when the deployment description file is changed, transformation arithmetic of the filter is not necessary to be manually modified.
+71. 101364930 Session control method, apparatus and system
+CN
+11.02.2009
+H04L 12/54 Loading...
+H04L 12/54
+Loading...
+200810161297.4
+Shenzhen Apusic Middleware Co., Ltd.
+Wang Xinsheng
+H04L 12/54
+Loading...
+The embodiment of the invention discloses a session control method which comprises the following steps: when the session service request is first received from a client side, the service request is sent to the server in a server cluster; the Session information generated by the server for the service request is received, and is also stored; and after the service request which is continued to be sent from the client side is received, when the server can not provide service, the stored Session information and the service request sent from the client side at the time are forwarded to other servers in the server cluster. The embodiment of the invention also discloses a session control device and a communication system. The Session information generated by the server is backed up in a load equalizer, so that the high expense required for copying the Session information among the servers can be avoided, the throughput of the system can be increased, and the success ratio of the Session failure recovery can be guaranteed.
+72. 101354722 Method, apparatus and system for controlling version
+CN
+28.01.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810149335.4
+Shenzhen Kingdee Middleware Company Ltd.
+Luo Fan
+G06F 17/30
+Loading...
+The invention discloses a method, a device and a system for controlling versions. The method comprises the following steps: the version resources are modified according to the modifying task, and a task item of the task is established; and the modified version resources and the task item are uploaded to a control server of the versions. The method also comprises the steps: the version resources stored locally are compared with the version resources in the control server of the versions; if the version resources are modified in the control server of the versions in the version resources stored locally, the task item corresponding to the modified version resources is acquired from the control server of the versions; and the version resources in the task item are synchronized to the version resources stored locally. The method, the device and the system ensure that a user can know which task items the changed version resources belong to according to the task item, thereby bringing convenience for the user to classify and sort the modified version resources, clearing the mainline and improving the work efficiency.
+73. 101354647 Method and system for creating JavaEE enterprise application engineering
+CN
+28.01.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200810166810.9
+Shenzhen Kingdee Middleware Company Ltd.
+Luo Fan
+G06F 9/44
+Loading...
+The invention provides a method and a system for creating a JavaEE enterprise application project. The method comprises the following steps of: creating a corresponding JavaEE module in an established enterprise application program EAR project; creating a ClassLoader of the JavaEE module; and then compiling the JavaEE module according to the ClassLoader to update the EAR project. The method ensures that one JavaEE enterprise application project only corresponds to one EAR project, and thus no prior mode of correspondence to a plurality of projects is needed, thereby effectively simplifying the fussy maintenance work between a plurality of sub-projects, improving the maintenance efficiency of developers, and reducing the development cost of JavaEE enterprise application.
+74. 101344858 J2EE engineering deploying method and device
+CN
+14.01.2009
+G06F 9/45 Loading...
+G06F 9/45
+Loading...
+200810146608.X
+Shenzhen Kingdee Middleware Co., Ltd.
+Xu Xinjie
+G06F 9/45
+Loading...
+The embodiment of the invention discloses a method and a device for engineering deployment. The method comprises the steps of acquiring the class loading path of a server and adding the class loading path of the server into the class loading path of engineering. The device comprises an acquiring unit used for acquiring the class loading path of the server and a loading unit used for adding the class loading path of the server into the class loading path of the engineering. The embodiment of the invention can finish engineering compilation in practical application environment by directly adding Jar packets contained in the server class path into the engineering compilation path, thereby solving the problem of abnormal operation of the engineering caused by the confliction of the Jar packets.
+75. 101236510 EJB cluster failure recovery processing method and system
+CN
+06.08.2008
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+200810007279.0
+Shenzhen Kingdee Middleware Co., Ltd.
+Yuan Honggang
+G06F 9/46
+Loading...
+The present invention provides EJB cluster failure recovery processing method, comprising the steps that: a stub of an EJB service interface is loaded in a client; the stub sends an invocation request to a target server according to the address of the target server; the target server analyzes the invocation request, and if the invocation request relates to the invocation of stateful session bean and the target server is positioned in an EJB cluster, the session state data and session ID are extracted; the context of a current service component instance is acquired according to the session ID, and the cache of the target server is updated; a server end pile of the EJB service interface is loaded; the service component instance is updated according to the session state data; the server end pile processes the service component instance so as to generate a return value of service logic and an updating value of the session state data; the client receives the return value and the updating value to update the cache of the client. The processing method can save cost, reduce resource occupation and improve EJB cluster failure recovery processing efficiency.
+76. 101119235 Method and system for positioning client terminal in application service system
+CN
+06.02.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710152258.3
+Kingdee Software (China) Company Ltd.
+Zhang Xu
+H04L 12/24
+Loading...
+The present invention discloses a client terminal position method in the application system of the client terminal-server. When the client terminal sends requirement, the server receives the requirement of the client terminal; a new thread is opened on the requirement client terminal; the IP information of the client terminal is snatched and placed in the thread context of the thread which is opened for the client terminal; when the client terminal breaks down, the IP information of the client terminal is snatched by the thread context and the broken-down client terminal is determined according to the IP information. The proposal of the present invention can reduce the cost in problem test and elimination, improves the efficiency in problem solving and reduces the work of the system maintainers. The invention also discloses a client terminal position system.
+77. 101105749 Method for inquiring class loading information from application server
+CN
+16.01.2008
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200710143973.0
+Kingdee Software (China) Company Ltd.
+Ni Xiaobing
+G06F 9/44
+Loading...
+The invention provides a method to acquire class loading information from an application server, including: add a detectaphone into the class loader when the application server starts up; activate the detectaphone when the application server operates and instantiates the class loader; the detectaphone receives the activation and reacts; the detectaphone saves the instantial adduction of the class loader, acquires the information of the internal class loader from the application server through the simple client sides or local calls, decreases the workload of the misarrangement and debugging, and reduces maintenance cost of the application server.
+78. 101106578 A method and system for changing interface subject
+CN
+16.01.2008
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200710147628.4
+Kingdee Software (China) Company Ltd.
+Zhang Xu
+H04L 29/08
+Loading...
+The invention provides a method of interface topic replacement, which includes: accept the request of client side; analyze the interface topic resources of client side loading request, according to client side request; locate the requested interface topic resources and determine the class path of the requested load interface topic resources and load determined interface topic resources. The invention can realize the management of interface topic and web application system needs no code modification and no re-deployment to increase new interface topic resources. The invention can increase any interface topic resources, greatly improve the extensibility of the interface topic management and also discloses a system of interface topic replacement.
+79. 101105757 Class loading separation method and class loading separation device
+CN
+16.01.2008
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200710147634.X
+Kingdee Software (China) Company Ltd.
+Zhang Xu
+G06F 9/445
+Loading...
+The invention discloses a method of class loader isolation. The method is as follows: start up Java process and create therein a user-defined class loader object; add a class path in the user-defined class loader object; create a startup application server thread object and appoint the user-defined class loader object for the class path; and then start up the startup application server thread object. The invention flexibly defines the class path and logic to be loaded by making use of the user-defined class loader isolating mechanism, so as to separate the class file to be loaded by the application server, with the class file to be loaded by the applications deployed on application server. Therefore, the invention can strengthen fault tolerance, compatibility and stability of application servers.
+

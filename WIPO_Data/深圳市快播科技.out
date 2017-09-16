@@ -1,0 +1,973 @@
+1. 103888839 一种视频播放方法和设备
+CN
+29.03.2017
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+102012000558235
+深圳市快播科技有限公司
+白向军
+H04N 21/472
+Loading...
+本发明公开了一种视频播放方法和设备，该方法包括：将视频帧复制成相同的两个，对其中一个进行左右分割以获得第一、二图像，对另一个进行上下分割以获得第三、四图像；分别对第一、三图像进行边缘检测，在当前视频帧为有效视频帧时，分别统计第一、三图像的边缘点最多的行号ic1、ic2和列号jc1、jc2；分别在第一、二图像中，以ic1、jc1像素点为中心开一个M*M的窗口，分别在第三、四图像中，以ic2、jc2像素点为中心开一个M*M的窗口，计算第一、二图像中所开窗口的相似度及第三、四图像中所开窗口的相似度；确定视频类型，根据所确定的视频类型播放视频。本发明能快速识别视频类型，以采用适当的播放模式进行播放。
+2. 102999500 一种点击量统计方法及系统
+CN
+15.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102011000268165
+深圳市快播科技有限公司
+李碧鸿
+G06F 17/30
+Loading...
+本发明公开了一种点击量统计方法，包括：当检测到用户点击界面元素的操作后，创建标签；将所述界面元素的相关信息添加到所述标签上；当浏览器加载所述标签时，将所述界面元素的相关信息向服务器端发送；所述服务器端根据所述相关信息统计该信息对应的界面元素的点击量。通过本发明实施例提出的点击量统计方法，不需要在每一个内容页嵌入点击统计代码，而且不借助jQeury等包，节约带宽，并且没有跨域的问题。
+3. 103856462 一种会话的管理方法及系统
+CN
+15.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102012000514591
+深圳市快播科技有限公司
+刘小杰
+H04L 29/06
+Loading...
+本发明公开了一种会话的管理方法及系统，该方法包括：预先分别使用红黑树和哈希表组织多个会话，其中，红黑树的每个节点包括关键字及节点值，关键字为超时时间，节点值为该超时时间所对应的所有会话名称的集合；哈希表的每一项包括键对象和值对象，且键对象为会话名称，值对象包括超时时间和会话信息；在红黑树中以超时时间为关键字查找相应的会话名称，且在哈希表中以会话名称为键对象查找相应的超时时间和会话信息。实施本发明的技术方案可通过会话名称或超时时间中的任一者查找相应的会话，从而提高了会话检测的效率。
+4. 103780906 一种视频编码方法和视频编码装置
+CN
+08.02.2017
+H04N 19/136 Loading...
+H04N 19/136
+Loading...
+102012000417017
+深圳市快播科技有限公司
+白向军
+H04N 19/136
+Loading...
+本发明涉及一种视频编码方法，包括如下步骤：S1、确定当前视频帧是否为模糊帧；S2、在确定当前视频帧为模糊帧时，使用比初始量化步长大的量化步长对该模糊帧进行编码；S3、在确定当前视频帧为清晰帧时，提取该清晰帧的过渡宏块，并基于过渡宏块的灰度复杂度使用合适的量化步长对该过渡宏块进行编码。本发明还涉及一种视频编码装置。本发明采用较大的量化步长对模糊帧进行编码，并基于清晰帧的过渡宏块的灰度复杂度采用合适的一定量化步长对该过渡宏块进行编码，从而能够在相同的码流下极大的提高视频图像的主观视觉效果。
+5. 103513787 用于操作多屏适配器的空中鼠标实现方法及系统
+CN
+21.12.2016
+G06F 3/0346 Loading...
+G06F 3/0346
+Loading...
+102012000222387
+深圳市快播科技有限公司
+李少群
+G06F 3/0346
+Loading...
+本发明提供一种用于操作多屏适配器的空中鼠标实现方法及系统。所述的方法包括：在移动终端和多屏适配器之间建立点对点网络通信；所述移动终端从陀螺仪传感器获取方位坐标信息；所述移动终端将所述方位坐标信息发送给所述多屏适配器；所述多屏适配器接收所述方位坐标信息，并将所述方位坐标信息写入至虚拟鼠标驱动模块中，以用于驱动所述多屏适配器并将所述移动终端作为空中鼠标来操作所述多屏适配器。本发明所提供的技术方案，实现了利用移动终端的陀螺仪传感器模拟空中鼠标，并与多屏适配器进行交互。
+6. 103067339 一种客户端网页游戏多帐号安全登录方法及系统
+CN
+14.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102011000320430
+深圳市快播科技有限公司
+王欣
+H04L 29/06
+Loading...
+本发明提供了一种客户端网页游戏多帐号安全登录方法及系统，客户端将用户硬件信息和输入的帐号及密码发送至服务器；服务器验证帐号及密码正确后，根据用户硬件信息对密码进行加密生成密码密文，并返回客户端；客户端存储帐号及密码密文；在用户选择客户端已存储的若干帐号中至少之一后，将选择的帐号与密码密文发送至服务器；服务器还原用户选择帐号的密码并验证帐号是否被授权及密码是否正确。避免了手动输入帐号及密码的繁琐步骤，且由于密码密文是由服务器加密生成，密码在传输和本地存储时均有加密，密码在服务器经过特定加密生成密码密文后再与客户端安全交互，密码密文在服务器内部解密和匹配，提高了用户帐号在网络环境的安全性。
+7. 103164207 基于安卓系统的跨硬件平台的应用程序开发方法和系统
+CN
+07.09.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102011000422896
+深圳市快播科技有限公司
+邱荣华
+G06F 9/44
+Loading...
+本发明公开了一种基于安卓系统的跨硬件平台的应用程序开发方法和系统，该方法包括：S01.预先将所有硬件平台的接口集合进行合并，且不同硬件平台的相同接口仅保留一个，从而得到统一接口集合，根据当前所使用的硬件平台，从所述统一接口集合中抽象出属于当前所使用的硬件平台的接口集合；S02.应用程序客户端在当前所使用的硬件平台的接口集合的调用下，通过应用程序客户端向所设置的代理服务器发送shell命令，代理服务器执行shell命令，以获取或设置系统参数，并向应用程序客户端发送shell命令的执行结果，从而实现当前所使用的硬件平台的接口。本发明的技术方案屏蔽了硬件平台之间的差异，减少了应用软件的重复开发。
+8. 103297803 基于机顶盒的数据更新系统及方法
+CN
+07.09.2016
+H04N 21/218 Loading...
+H04N 21/218
+Loading...
+102012000047360
+深圳市快播科技有限公司
+黄晓晖
+H04N 21/218
+Loading...
+本发明公开了一种基于机顶盒的数据更新系统及方法，以及该系统中采用的服务器和机顶盒客户端。本发明通过在服务器端进行电影节目信息采集，并在服务器端储存更新的数据，以供机顶盒客户端有需求的时候进行下载，尽可能减少本地数据更新操作次数以及相关系统资源的消耗；且机顶盒客户端根据所请求信息的反馈信息再确定更新，从而尽可能地减小电影节目信息的数据下载量，同时缩短了电影节目信息更新时间，让用户能尽快获取到最新的电影节目信息，最终改善了用户使用体验。
+9. 103517110 一种多屏互动通信系统和方法
+CN
+17.08.2016
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+102012000222585
+深圳市快播科技有限公司
+杜军
+H04N 21/422
+Loading...
+本发明公开了一种多屏互动通信系统和方法，该系统包括智能终端和远端接收机，其中，智能终端包括存储模块、第一通信模块、HTTP服务模块，远端接收机包括第二通信模块，存储模块用于存储预先下载的多屏互动应用程序，所述多屏互动应用程序包括运行于智能终端上的第一应用程序和运行于远端接收机上的第二应用程序；第一通信模块用于向第二通信模块发送第二应用程序的地址；第二通信模块用于根据所述地址向HTTP服务模块发送下载第二应用程序的请求；HTTP服务模块用于读取所述第二应用程序并将其发送至第二通信模块；第二通信模块还用于接收所述第二应用程序并自动安装。本发明的技术方案能减少管理维护上的麻烦，提高用户体验。
+10. 103778926 一种控制多媒体播放进度的方法及系统
+CN
+17.08.2016
+G11B 19/02 Loading...
+G11B 19/02
+Loading...
+102012000404016
+深圳市快播科技有限公司
+左海粟
+G11B 19/02
+Loading...
+本发明公开了一种控制多媒体播放进度的方法及其系统，应用于移动终端，该方法包括：A.接收用户输入的重力控制触发信号；B.每隔预设时间检测一次移动终端的动作信息，所述动作信息包括相对水平面的倾斜方向和角度；C.根据预先存储的倾斜方向和角度与进度调整信息的映射关系，查询移动终端当前动作所对应的进度调整信息；D.调出所述进度调整信息，并根据所述进度调整信息对播放进度进行调整，且移动终端根据调整后的播放进度播放相应的多媒体。实施本发明的技术方案，相比在触摸屏上通过拖拽进度条来控制播放进度的方式，能精细化地进行进度定位。
+11. 103327401 多媒体转码器及转码方法、多媒体播放终端
+CN
+03.08.2016
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+102012000072231
+深圳市快播科技有限公司
+吴维检
+H04N 21/4402
+Loading...
+本发明公开了一种多媒体转码器及转码方法；其中，转码器包括：预转码模块，用于在预转码模式被触发后，按照初始的转码参数，对待转码多媒体源文件进行预定时长的预转码处理，得到预转码处理文件；参数修改模块，用于当预转码处理文件的播放不正常时，修改初始转码参数，并将修改后的转码参数发送到预转码模块；正常转码模块，用于当预转码处理文件的播放正常时，根据预转码模块当前使用的转码参数，对待转码多媒体源文件进行转码。本发明通过在将多媒体源文件进行全部转码之前进行预定时长的预转码后再试播，从而在确定合适的转码参数后再进行全文件转码，避免了当全部转码后发现播放不正常而造成重新转码，从而节省时间和资源并提高转码效率。
+12. 103369384 一种电视系统及其数据通讯方法
+CN
+18.05.2016
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201210085808.5
+深圳市快播科技有限公司
+欧阳占柱
+H04N 21/422
+Loading...
+本发明公开了一种电视系统及其数据通讯方法，该数据通讯方法包括：A.移动终端与机顶盒建立通信；B.移动终端接收用户的请求，并将所述请求通过网络发送至机顶盒；C.机顶盒判断所述请求的类型，并针对不同类型的请求给予不同的反馈。实施本发明的技术方案，可以直接通过移动终端来操作机顶盒，操作简单快速且灵敏，大大提高了用户体验。
+13. 105320526 一种浏览器运行方法及其浏览器
+CN
+10.02.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410224570.9
+深圳市快播科技有限公司
+向灿
+G06F 9/445
+Loading...
+本申请公开了一种浏览器运行方法，包括：在普通浏览模式下，判断游戏模式启动单元是否被触发；若判断到游戏模式启动单元被触发，在当前窗口或新启窗口中开启游戏浏览模式；在游戏浏览模式下，判断当前浏览网页是否是网页游戏；若当前浏览网页是网页游戏，在当前浏览网页中加载网页游戏的游戏辅助功能；本申请还提供一种浏览器，用户只需选择普通浏览模式的游戏模式启动单元，即可进入游戏浏览模式，当判断单元判断用户浏览网页游戏时，加载单元自动加载游戏辅助功能，供用户体验所选择的游戏效果；用户在本申请的浏览器中可以体验多种不同的网页游戏，并能体验较好的游戏效果，消除了网页游戏用户体验的局限性。
+14. 105100923 视频播放方法及装置
+CN
+25.11.2015
+H04N 21/4728 Loading...
+H04N 21/4728
+Loading...
+201410189547.0
+深圳市快播科技有限公司
+白向军
+H04N 21/4728
+Loading...
+本发明公开了一种视频播放方法及装置，所述方法包括：在播放器播放的视频的某一视频帧中设置用户感兴趣的目标区域；将目标区域上下左右扩充预设像素构成检测区域；对检测区域进行边缘检测；对视频的后续帧中出现的检测区域的边缘点进行跟踪，以跟踪后续帧中出现的目标区域。实施本发明的有益效果是，可在视频播放过程中，对用户感兴趣区域进行跟踪，且可实现各种趣味性效果，由此，可增加播放器与用户的互动交互功能，使得播放过程更加有趣，可增加用户的观影乐趣，使用户获得更强参与感和更好的产品体验。
+15. 105100904 视频广告拦截方法、装置和浏览器
+CN
+25.11.2015
+H04N 21/454 Loading...
+H04N 21/454
+Loading...
+201410193959.1
+深圳市快播科技有限公司
+常平
+H04N 21/454
+Loading...
+本发明涉及一种视频广告拦截方法、装置和浏览器。所述视频广告拦截方法包括：S1、在本地拦截浏览器发起的视频加载请求；S2、基于本地保存的可更新的广告过滤规则判断所述视频加载请求所请求的内容是否为广告；S3、如果是广告，则过滤所述视频加载请求，如果不是广告，则返回所述视频加载请求给浏览器以从内容服务器获取所请求加载的视频内容。本发明把广告拦截工作在本地实现，无需代理，在本地设置可同步更新广告过滤规则，浏览器发起的视频加载请求被转至本地自动进行判断和过滤，实现更快速地屏蔽广告，改用用户观看视频的体验。
+16. 105099986 一种网络游戏游戏数据的共享方法和服务器
+CN
+25.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410164415.2
+深圳市快播科技有限公司
+向灿
+H04L 29/06
+Loading...
+一种网络游戏游戏数据的共享方法和服务器，该方法包括：服务器从客户端获取主用户的共享信息，所述共享信息至少包括用于唯一标识主用户的身份信息和用于唯一标识需要共享主用户游戏数据的共享用户的身份信息；服务器根据所述共享信息建立主用户和共享用户的共享关系；服务器将所述共享关系通知对应的共享用户，并将主用户的游戏数据开放给共享用户。本申请提供的网络游戏游戏数据的共享方法和服务器，通过服务器来维护主用户和共享用户的共享关系，在共享用户需要获取主用户的游戏数据时，不需要主用户的账号和密码，因此，避免了不同用户之间进行游戏数据共享时用户账号被盗的风险。
+17. 105095293 一种感兴趣类别网页的维护、获取方法和服务器
+CN
+25.11.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410206688.9
+深圳市快播科技有限公司
+何明科
+G06F 17/30
+Loading...
+一种感兴趣类别网页的维护、获取方法和服务器，其中，服务器先从互联网上获取感兴趣类别网页的网页信息，并生成包括感兴趣类别网页的网页名称和/或网页图标的网页数据集。客户端扫描获取本地的浏览器历史记录，从历史记录中筛选得到感兴趣类别网页的网址，并发送给服务器。服务器从网页数据集中搜索到与感兴趣类别网页的网址匹配的网页名称和/或网页图标后，将其返回给客户端。客户端根据返回的网页名称和/或网页图标进行展示。因此，本申请提供的感兴趣类别网页的维护、获取方法和服务器能够通过浏览器历史记录快速查找出感兴趣类别网页，并进行展示。
+18. 104683781 Video play processing method and video play processing device
+CN
+03.06.2015
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201310608680.0
+深圳市快播科技有限公司
+何明科
+H04N 13/00
+Loading...
+The invention discloses a video play processing method and a video play processing device. The method comprises the steps of obtaining scene information of a 3D video played by a mobile terminal, and configuring a 4D sensory experience instruction corresponding to the current playing scene of the 3D video according to the scene information, wherein the 4D sensory experience instruction is used for the mobile terminal to execute corresponding 4D actions according to different scenes when playing the 3D video; or, the method comprises the steps of providing scene information of a 3D video played by a mobile terminal, obtaining a 4D sensory experience instruction which is configured according to the scene information and corresponds to the current playing scene of the 3D video, and executing a 4D action indicated by the 4D sensory experience instruction according to different scenes when playing the 3D video. By adopting the video play processing method and the video play processing device of the invention, 4D interactive sensory experience can be provided at the mobile terminal, and real-time interaction with users can be realized.
+19. 104166452 用于视频播放装置的省电方法及其系统
+CN
+26.11.2014
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201310187524.1
+深圳市快播科技有限公司
+白向军
+G06F 1/32
+Loading...
+本发明实施例公开了一种用于视频播放装置的省电方法及其系统以及相应的视频播放方法与装置，所述方法检查当前进程的预设运行时间；当所述当前进程的预设运行时间小于操作系统的检查和更新周期时，将所述当前进程的实际运行时间延长至所述操作系统的检查和更新周期的时间长度。本发明的方法及系统可节省电池电量，延长电池电量的使用时长。
+20. 104142933 音视频文件标签的显示方法及系统
+CN
+12.11.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310163746.X
+深圳市快播科技有限公司
+康毅
+G06F 17/30
+Loading...
+本申请公开了一种音视频文件标签的显示方法及系统，可根据音视频文件标签的当前显示状态，获得与该当前显示状态相关的标签项信息以构建音视频文件标签，并对该构建的音视频文件标签进行显示。这样，用户只需对编辑状态下的音视频文件标签进行操作，就可以对应进行音视频文件的编辑，而无需弹出额外的窗口进行操作，降低了编辑音视频文件的复杂度，提升了用户体验；另外，音视频文件标签可灵活由与当前显示状态相关的标签项信息来构建，其形式可不仅限于文本形式，其构建方式多样，并且标签项信息也可以灵活选择，从而可提供给用户更全面的音视频文件的信息，整体效果较好，进一步提升了用户体验。
+21. WO/2014/146296 METHOD AND DEVICE FOR EMBEDDING AND DECODING INVISIBLE INFORMATION IN DIGITAL IMAGE
+WO
+25.09.2014
+H04N 1/32 Loading...
+H04N 1/32
+Loading...
+PCT/CN2013/073069
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+HE, Mingke
+H04N 1/32
+Loading...
+Provided are a method and device for embedding and decoding invisible information in a digital image, comprising: a processing method for embedding invisible information into a digital image, and the method comprises: acquiring a first image, hidden digital information in which requires embedding; converting the first image from a space domain signal into a frequency domain signal; using the hidden digital information which requires embedding to simulate an original waveform in the manner of a variable wavelength; and performing an inverse Fourier transform on the simulated frequency domain signal to obtain a second image into which the hidden digital information is embedded. A method for decoding invisible information in a digital image, comprising: acquiring an image; converting the image from a space domain signal into a frequency domain signal with a variable wavelength; parsing a waveform signal from the frequency domain signal with a variable wavelength; and according to the check digit and/or the waveform characteristic of the waveform signal, judging whether the hidden digital information is embedded or not. The present invention has the advantages of invisible embedded information, compression-resistant robustness, no need for template for decoding, and high capacity of embedded information.
+22. 203631382 隐形按键输入设备及其隐形按键指示装置
+CN
+04.06.2014
+H01H 13/83 Loading...
+H01H 13/83
+Loading...
+201320825214.3
+深圳市云海情天文化传播有限公司
+陆默
+H01H 13/83
+Loading...
+本实用新型适用于按键输入设备领域，提供了一种隐形按键输入设备及其隐形按键指示装置，该隐形按键指示装置包括用于安装在隐形按键输入设备的操作面板前方的外壳，外壳中设有轴向朝向隐形按键输入设备的按键对应的操作面板上的位置的安装通道，安装通道轴向贯穿该外壳的靠近操作面板的一侧；安装通道中安装有：光源、具有按键标签图案的菲林和调焦组件；调焦组件与光源分别位于菲林的相对两侧，调焦组件位于菲林的靠近操作面板的一侧，光源位于菲林远离操作面板的一侧。该隐形按键指示装置可以使隐形按键输入设备的操作面板，在使用时具有标签图案，在不使用时，无标签图案，与现有技术相比，不会破坏操作面板整体风格的一致性。
+23. 103680551 Player and method thereof for simultaneously playing multiple videos
+CN
+26.03.2014
+G11B 20/00 Loading...
+G11B 20/00
+Loading...
+201210355157.7
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+WU WEIJIAN
+G11B 20/00
+Loading...
+The invention discloses a player and a method thereof for simultaneously playing multiple videos. The method for simultaneously playing the multiple videos comprises a step A of determining, according to a choice of a user, the number of sub-windows which is greater than or equal to 2 and establishing a binding relationship between each sub-window and a corresponding playing module thereto; and a step B of determining at least one multimedia file to be played and at least one sub-window to be played, controlling the corresponding playing modules to preprocess the corresponding multimedia files according to the binding relationship, and playing the preprocessed corresponding multimedia files on the corresponding sub-windows. Implementation of the technical solution of the invention allows the user to display playing effects of multiple videos on a single player at the same time without the need of opening multiple players, thus improving user experience and saving resources.
+24. 103685357 Account multi-open message processing method and system
+CN
+26.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210327204.7
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+ZENG YI
+H04L 29/08
+Loading...
+The invention relates to an account multi-open message processing method and a system. The method comprises the following steps: a data center receives messages sent to target accounts by an application system and detects whether the target accounts are synchronously used by at least two clients, wherein the data center is used for maintaining the current online states of system accounts; when the target accounts are synchronously used by at least two clients, the data center determines at least two message transponders corresponding to the clients; the message transponders respectively transfer the messages sent to the target accounts to the clients. The account multi-open message processing method and system, provided by the embodiment of the invention, can enable a plurality of clients using the same account to login to synchronously receive the messages which are sent to the target accounts by the application system so as to prevent users from missing the messages and improve the user experience.
+25. 103686315 Synchronous audio and video playing method and device
+CN
+26.03.2014
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+201210338406.1
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+LIANG JIANGUO
+H04N 21/434
+Loading...
+The invention provides a synchronous audio and video playing method and a synchronous audio and video playing device. The synchronous audio and video playing method comprises the following steps: receiving streaming media data, including audio data and video data, from a system; reading the streaming media data, and recording a starting timestamp for reading the streaming media data; respectively acquiring and parsing a video data packet and an audio data packet; recording a parsing timestamp of each data packet; binding the starting timestamp and a video parsing timestamp to the video data packet as a video data sample; binding the starting timestamp and an audio parsing timestamp to the audio data packet as an audio data sample; according to the video data sample and the audio data sample as well as an external clock, synchronously playing the audio data and the video data. Through the method and the device, synchronous playing of audio and video can be effectively achieved.
+26. 103577028 Playing control method and device and player
+CN
+12.02.2014
+G06F 3/0481 Loading...
+G06F 3/0481
+Loading...
+201210259666.X
+深圳市快播科技有限公司
+张克东
+G06F 3/0481
+Loading...
+The invention discloses a playing control method and device and a player which the method is applied to. The method comprises a minimizing instruction receiving step of receiving instructions input by users and judging whether the instructions are used for minimizing a playing window; a play judging step of confirming reception of the instructions for minimizing the playing window and judging a currently played medium type; and a minimizing execution step of executing the instructions relevant with playing window minimization according to judging results and a playing status and enabling the instructions relevant with the playing window minimization to comprise instructions for directly minimizing the playing window or instructions for first suspending the playing and then minimizing the playing window. The playing control method has the advantages that whether the instructions are used for minimizing the playing window are executed is determined by judging the currently played medium type, video playing is automatically suspended when the player is minimized in the playing process, users do not need to worry about plot consistency, and accordingly user experience is improved.
+27. 103544093 监控报警控制方法及其系统
+CN
+29.01.2014
+G06F 11/32 Loading...
+G06F 11/32
+Loading...
+201210243124.3
+深圳市快播科技有限公司
+张跃
+G06F 11/32
+Loading...
+本申请公开了一种监控报警控制方法及其系统。本方法包括：监控端获取被监控端的实时监控数据并形成监控消息队列，每条监控消息中包括监控数据；从监控消息队列中读取监控消息，将监控消息中的监控数据与该监控数据对应的监控端阈值数据进行比较，根据比较结果确定是否根据该监控消息生成报警信息；判断生成的报警信息是否满足与该监控数据对应的报警触发条件，根据判断结果确定是否产生报警触发信号。本监控报警控制系统包括：数据获取模块、预警控制模块。本申请对报警信息增加了报警触发条件的限制，减少了无效报警，使监控报警更加准确，同时也方便了用户根据不同的被监控端设置不同的监控条件。
+28. 103516882 Method and system for playing pictures based on multi-screen interaction scene
+CN
+15.01.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210222379.1
+深圳市快播科技有限公司
+汪竟成
+H04M 1/725
+Loading...
+The invention provides a method and system for playing pictures based on a multi-screen interaction scene. The method comprises the following steps that a mobile terminal generates picture pre-loading information according to a currently displayed pictured; the mobile terminal sends the picture pre-loading information to an adaptor through a terminal communication module; the adaptor receives the picture pre-loading information sent by the mobile terminal through the adaptor communication module; the adaptor downloads pre-loading picture data from the mobile terminal and stores a loaded pre-loading picture in a storage unit in the adaptor; when the adaptor receives a picture display instruction, and the picture data in the storage unit in the adaptor are called out by the picture display instruction to be displayed. During the period that the mobile terminal and the adaptor display the picture, the pre-loading picture related to the displayed picture is loaded in advance, so that data transmission and sharing among multi-screen devices are achieved, and a user can smoothly browse the picture among multiple screens.
+29. 103516418 Multi-media interaction communication system, method and receiving device
+CN
+15.01.2014
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+201210222477.5
+深圳市快播科技有限公司
+杜军
+H04B 7/24
+Loading...
+The invention provides a multimedia interaction communication system which comprises at least one intelligent device and a receiving device. The intelligent device is communicated with the receiving device through a wireless network and pushes application programs and/or multimedia resources to the receiving device. The receiving device runs the application programs according to the control of the at least one intelligent device and plays the multimedia resources through an audio/video output module and/or an audio and video output device of the receiving device. The invention further provides a multimedia interaction communication method and the receiving device. The multimedia interaction communication system, method and the receiving device can achieve the sharing and remote interaction control over the multimedia resources of the receiving device through the intelligent device, and support various intelligent devices, receiving devices, multimedia resources and application programs.
+30. 103516885 一种多媒体播放系统及多媒体播放方法
+CN
+15.01.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210222588.6
+深圳市快播科技有限公司
+欧阳占柱
+H04M 1/725
+Loading...
+本发明提出一种多媒体播放系统，包括互动设备、至少一移动设备和多媒体输出设备；至少一移动设备分别通过无线网络连接互动设备，分别控制互动设备生成播放信号；互动设备通过多媒体接口连接多媒体输出设备，向多媒体输出设备发送播放信号；多媒体输出设备输出播放信号。本发明实现了一互动设备支持多个移动设备同时连接与播放操控，用户通过操控移动设备，实现对多媒体数据的播放操控，在多媒体输出设备上输出播放信号，便于将移动设备上的多媒体数据分享到其他多媒体设备上向多人共享。
+31. 203288215 一种显示设备的护眼装置
+CN
+13.11.2013
+G09G 3/00 Loading...
+G09G 3/00
+Loading...
+201320373014.9
+深圳市快播科技有限公司
+李东明
+G09G 3/00
+Loading...
+本实用新型涉及一种显示设备的护眼装置，包括：控制处理器、微处理器、人体感应器和光机开关；所述人体感应器，与所述微处理器相连，用户处于显示设备的光机前一预设距离内时，产生一感应信号，并传输至所述微处理器；所述微处理器，与所述控制处理器相连，接收所述人体感应器传输过来的信号，将所述信号量化处理得到所述距离级别，并根据所述距离级别向所述控制处理器输出控制信号；所述控制处理器，与所述光机开关相连接，根据所述控制信号控制所述光机开关，实现防止显示设备的投射光损害用户眼睛。
+32. 203276166 一种语音控制大屏幕的装置
+CN
+06.11.2013
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201320214667.2
+深圳市快播科技有限公司
+张重阳
+G06F 3/01
+Loading...
+本实用新型涉及一种语音控制大屏幕的装置，该装置包括：客户端和大屏幕端，所述客户端通过无线局域网与所述大屏幕相连接；其中，所述大屏幕端包括监听器和响应单元；所述监听器分别与所述响应单元、所述客户端相连接；所述客户端，用于获取用户语音信息后经处理生成大屏幕识别的控制命令信息，将所述控制命令信息传输至大屏幕端；所述监听器，用于将大屏幕端获取的控制命令信息回调至所述响应单元中；所述响应单元，用于解析控制命令信息做出相应的响应，实现语音控制大屏幕。
+33. 103325396 一种用于播放器的播放预览方法和系统
+CN
+25.09.2013
+G11B 19/02 Loading...
+G11B 19/02
+Loading...
+201210081162.3
+深圳市快播科技有限公司
+付豪
+G11B 19/02
+Loading...
+本发明提供了一种用于播放器的播放预览方法和系统，包括：在播放预览模式下，为视频文件设置一个视频预览窗口；所述视频预览窗口用于播放预览视频；捕捉触发播放预览的事件；当捕获到触发播放预览的事件时，则播放器处于视频预览状态；根据所捕获的触发播放预览的事件，获取所播放预览的时间戳；通过预览播放器获取从所述时间戳开始的预览播放视频数据，并在所述视频预览窗口播放。通过该播放预览方法和系统，使得用户可以播放预览特定位置的影像，预览更生动。
+34. 103327401 多媒体转码器及转码方法、多媒体播放终端
+CN
+25.09.2013
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+201210072231.4
+深圳市快播科技有限公司
+吴维检
+H04N 21/4402
+Loading...
+本发明公开了一种多媒体转码器及转码方法；其中，转码器包括：预转码模块，用于在预转码模式被触发后，按照初始的转码参数，对待转码多媒体源文件进行预定时长的预转码处理，得到预转码处理文件；参数修改模块，用于当预转码处理文件的播放不正常时，修改初始转码参数，并将修改后的转码参数发送到预转码模块；正常转码模块，用于当预转码处理文件的播放正常时，根据预转码模块当前使用的转码参数，对待转码多媒体源文件进行转码。本发明通过在将多媒体源文件进行全部转码之前进行预定时长的预转码后再试播，从而在确定合适的转码参数后再进行全文件转码，避免了当全部转码后发现播放不正常而造成重新转码，从而节省时间和资源并提高转码效率。
+35. 103309901 排序集数据的存储方法及装置
+CN
+18.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210070124.8
+深圳市快播科技有限公司
+曾毅
+G06F 17/30
+Loading...
+本发明提供一种排序集数据的存储方法及装置，其中，该方法包括：接收排序集数据并获取排序集数据的标识；将排序集数据进行压缩处理；根据排序集数据的标识将压缩处理后的排序集数据存储至数据库中对应的排序集；根据排序集将数据库进行分片处理；将分片处理后的数据库中的排序集数据映射至内存。通过本发明，可以减小redis系统数据库容量受到物理内存的限制，从而可以实现海量数据的高性能读写。
+36. 103313140 电视接收终端及其文本信息输入方法与系统、移动终端
+CN
+18.09.2013
+H04N 21/475 Loading...
+H04N 21/475
+Loading...
+201210057953.2
+深圳市快播科技有限公司
+欧阳占柱
+H04N 21/475
+Loading...
+本发明公开了一种电视接收终端的文本信息输入方法与系统，其中，方法包括：移动终端接收用户输入的输入信息，根据对所述输入信息的监听将输入信息发送给电视接收终端；所述电视接收终端接收由所述移动终端发来的所述输入信息，根据所述输入信息，对显示屏上当前光标所在的文本框进行处理。本发明利用移动终端的输入代替电视接收终端进行输入，只要从移动终端处输入文本，相应的文本数据即可传递到机顶盒，通过电视屏幕显示，操作方便，提高了用户体验，也为后续在电视上进行文字交流(如通过聊天工具聊天、发微博等)提供了快捷输入文字的保障。
+37. 103297803 基于机顶盒的数据更新系统及方法
+CN
+11.09.2013
+H04N 21/218 Loading...
+H04N 21/218
+Loading...
+201210047360.8
+深圳市快播科技有限公司
+黄晓晖
+H04N 21/218
+Loading...
+本发明公开了一种基于机顶盒的数据更新系统及方法，以及该系统中采用的服务器和机顶盒客户端。本发明通过在服务器端进行电影节目信息采集，并在服务器端储存更新的数据，以供机顶盒客户端有需求的时候进行下载，尽可能减少本地数据更新操作次数以及相关系统资源的消耗；且机顶盒客户端根据所请求信息的反馈信息再确定更新，从而尽可能地减小电影节目信息的数据下载量，同时缩短了电影节目信息更新时间，让用户能尽快获取到最新的电影节目信息，最终改善了用户使用体验。
+38. 103297828 一种移动终端模拟鼠标操作机顶盒的方法及系统
+CN
+11.09.2013
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201210054769.2
+深圳市快播科技有限公司
+欧阳占柱
+H04N 21/422
+Loading...
+本发明公开了一种移动终端模拟鼠标操作机顶盒的方法及系统，其中方法包括以下步骤：移动终端启动客户端程序，与机顶盒建立通信连接；移动终端获取手指在终端触摸屏滑动区域内的移动距离；移动终端根据记录的上次鼠标在机顶盒移动后的停留点坐标，以及鼠标的灵敏度和移动距离，计算当前点坐标；移动终端根据预设的时间间隔发送包括当前点坐标数据的移动事件给机顶盒；机顶盒接收移动事件，并根据该移动事件中的点坐标移动鼠标。本发明实现了利用移动终端模拟鼠标来操作机顶盒功能，操作非常方便，快捷，且鼠标动作在视觉上具有连贯性。
+39. 103248928 具有重力感应功能的系统及应用重力感应功能的方法
+CN
+14.08.2013
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201210030073.6
+深圳市快播科技有限公司
+欧阳占柱
+H04N 21/422
+Loading...
+本发明公开了一种具有重力感应功能的系统、应用重力感应功能的方法、以及一种机顶盒。所述系统包括数字电视接收终端和至少一个移动终端；移动终端的重力感应模块用于感应用户的动作，产生相应的重力感应数据；第一入网模块用于加入组播网络；发送模块用于发送重力感应数据；硬件构建模块用于依据模拟硬件参数构建虚拟的重力感应物理硬件；而数字电视接收终端的第二入网模块用于加入组播网络；接收模块用于接收移动终端发送来的重力感应数据；事件构建模块用于根据接收到的重力感应数据，结合重力感应物理硬件构建重力感应事件。本发明通过移动终端模拟重力感应器与机顶盒上的重力感应应用程序进行通信，满足用户需求且提升用户体验。
+40. 103209354 一种用于机顶盒的数据传输方法、系统及机顶盒
+CN
+17.07.2013
+H04N 21/437 Loading...
+H04N 21/437
+Loading...
+201210013763.0
+深圳市快播科技有限公司
+张克东
+H04N 21/437
+Loading...
+本发明公开了一种用于机顶盒的数据传输方法、系统及机顶盒，该数据传输方法包括：追踪服务器与资源服务器及机顶盒建立连接，并收集资源服务器、机顶盒的位置信息及节目的消息摘要，并存储至数据库；在通过机顶盒点播节目时，请求端机顶盒将所点播的节目的消息摘要及位置信息发送至追踪服务器；追踪服务器根据所接收的消息摘要搜索数据库，并将相关的资源服务器和机顶盒分别所对应的位置信息返回给请求端机顶盒；请求端机顶盒连接相应的资源服务器和机顶盒，并获取相应的资源服务器和机顶盒所拥有的与消息摘要相关的节目信息，以实现节目点播。实施本发明的技术方案，提高了点播速度及流畅度，且为机顶盒的运营商大大减少带宽的成本支出。
+41. 103207872 一种实时索引方法和服务器
+CN
+17.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210013843.6
+深圳市快播科技有限公司
+徐勇
+G06F 17/30
+Loading...
+本发明实施例提供一种实时索引方法和服务器，所述方法包括：建立与检索关键词相关的主搜索索引和增量搜索索引；以比所述主搜索索引的更新周期小的更新周期定时更新所述增量搜索索引，以当进行关键词的检索时，同时利用所述与检索关键词相关的主搜索索引和增量搜索索引进行检索。所述服务器包括：索引建立单元，用于建立与检索关键词相关的主搜索索引和增量搜索索引；增量索引更新单元，用于以比主搜索索引的更新周期小的更新周期定时更新所述增量搜索索引，以当进行关键词的检索时，同时利用所述与检索关键词相关的主搜索索引和增量搜索索引进行检索。本发明实施例可以使网络资源中有关检索节目对应的更新变化无法实时且及时地反映在搜索结果上。
+42. 103186475 海量数据的接收存储方法及系统
+CN
+03.07.2013
+G06F 12/08 Loading...
+G06F 12/08
+Loading...
+201110452183.7
+深圳市快播科技有限公司
+吴飞虎
+G06F 12/08
+Loading...
+本发明实施例公开了一种海量数据的接收存储方法，包括：为用户请求分配缓存标识；将根据用户请求产生的用户数据写入所述缓存标识对应的缓存模块；当所述缓存模块达到缓存上限时，将所述缓存模块中已缓存的用户数据进行数据入库处理。本发明还公开了一种海量数据的接收存储系统，该方法和系统可以减少数据接收和存储时的数据丢失问题，提高数据安全性。
+43. 103186399 大型游戏包的下载方法及装置
+CN
+03.07.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110459117.2
+深圳市快播科技有限公司
+钟智将
+G06F 9/445
+Loading...
+本发明提供一种大型游戏包的下载方法及装置，其中，该方法包括：根据预定规则将大型游戏包分为主包和次包，其中，主包包括：大型游戏初始化运行所需的文件信息，次包包括：大型游戏运行时需要监控的文件信息；根据下载请求，将主包下载至客户端并运行程序；在用户游戏过程中，下载次包至客户端并运行程序。通过本发明，可以提高用户的体验感。
+44. 103177744 Low-power-consumption playing method and device for mobile equipment
+CN
+26.06.2013
+G11B 27/10 Loading...
+G11B 27/10
+Loading...
+201110432337.6
+深圳市快播科技有限公司
+黄志阳
+G11B 27/10
+Loading...
+An embodiment of the invention provides a low-power-consumption playing method and device for mobile equipment. The method includes performing classification analysis, audio decoding and video decoding operations on audio/video data by using a thread; performing audio rendering operation on the audio data after the audio decoding and playing the audio data through an audio playing device; and performing video rendering operation on the video data after the video decoding operation and displaying the video data to users through a user interactive interface. By means of the low-power-consumption playing method and device, the time cost of thread switching can be reduced, interaction among threads can be reduced, and the amount of shared memory access locks can be reduced; next, the number of video buffer frames after decoding is increased, and therefore idle time of a central processing unit (CPU) is fully used for decoding; in addition, the dynamitic refresh rate is adopted, so that a video rendering module is matched with the refresh rate frequency of a timer synchronously when finishing frame buffering; and finally, a zoom function is achieved in a graphic processing unit, running time of the CPU is not occupied, and the operation is efficient.
+45. 103165157 Method and device for locating playing position of no-indexing audio video interleaved (AVI) file and player
+CN
+19.06.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110424374.2
+深圳市快播科技有限公司
+梁健国
+G06F 17/30
+Loading...
+The invention discloses a method and a device for locating a playing position of a no-indexing audio video interleaved (AVI) file. The method includes the steps of dividing obtained audio voice data flow including continuous data blocks into intervals according to the predetermined number, wherein each interval comprises the predetermined number of continuous data blocks, finding out a data block with the maximum data size in each interval, taking the data block with the maximum data size as a keyframe initial data block of one interval corresponding to the one interval, rebuilding an index according to the keyframe initial data blocks of all the intervals, locating the playing position of the AVI file according to external locating control data combining with the rebuilt index, and outputting the located playing position. Due to the fact that the intervals are obtained through division, the data block with the maximum data size of each interval is found out, and the data block with the maximum data size is generally the keyframe initial data block, accuracy degree of the distinguished keyframe initial data block is relatively high, and therefore the problem of anomalous images or slow response speed in the process of playing is solved to a great extent.
+46. 103167358 Set top box, media playing processing method and media resuming playing method
+CN
+19.06.2013
+H04N 21/63 Loading...
+H04N 21/63
+Loading...
+201110409027.2
+深圳市快播科技有限公司
+欧阳占柱
+H04N 21/63
+Loading...
+The invention discloses a set top box, a media playing processing method and a media resuming playing method. Based on a peer-to-peer (P2P) network, the set top box used as a P2P client-side receives a resource list from a P2P server through the P2P network when a set top box player carries out media playing, a plurality of threads are started to load media resources in a parallel mode, and the P2P client-side and the P2P server are mutually communicated through the form of a hypertext transfer protocol (http) stream. The media playing processing method comprises the steps that when the media playing of the set top box ends, the fact that whether the media playing is the first playing of the media is judged, and if the media playing is the first playing of the media, media information of the media and time point information when the media playing ends are stored, otherwise, the time point information when the media playing ends is stored. According to the set top box, the media playing processing method and the media resuming playing method, a breakpoint continuous playing function of the set top box based on the P2P network is realized.
+47. 103136104 一种内存管理方法和系统
+CN
+05.06.2013
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201110377934.3
+深圳市快播科技有限公司
+伍正勇
+G06F 12/02
+Loading...
+本发明公开了一种内存管理方法和系统，该内存管理方法包括：根据用户需求在可用的内存块中设定待分配的内存单元的大小及确定需分配的内存单元的总数n，并将n个内存单元的索引号依次设为0～n-1；在初始化时，将所述n个内存单元分别所对应的索引号、所述n个内存单元的首地址、内存单元的总数n、空闲的内存单元的数量分别进行保存，并将0赋值给第一个空闲的内存单元的索引号，将n-1赋值给最后一个空闲的内存单元的索引号；在接收到内存分配请求后，从所述n个内存单元中分配空闲可用的内存单元给用户。本发明的方法及系统不会产生内存碎片的问题，且内存利用率高、系统稳定、分配速度快。
+48. 103118293 播放进度展示方法、装置以及点播终端和点播系统
+CN
+22.05.2013
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201110365169.3
+深圳市快播科技有限公司
+关玮
+H04N 21/472
+Loading...
+一种播放进度展示方法、装置以及点播终端和点播系统，所述方法包括：在播放器用户交互界面的标题栏和/或控制栏窗口中设置进度条控件，所述播放器用户交互界面中不再单独设置进度条窗口；所述进度条控件根据当前播放时长占总时长的比例，在整个标题栏和/或控制栏窗口中动态展示播放进度。本发明实施例的技术方案无需为播放界面设置独立的进度条窗口，而是采用整个标题栏和/或控制栏窗口来展示播放进度，用户体验更丰富；并且，在播放进度展示末端可以设置富有艺术效果的拖拽按钮，以便于用户实现拖拽操作。
+49. 103092527 小文件的存储方法及系统
+CN
+08.05.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201110337553.2
+深圳市快播科技有限公司
+曾毅
+G06F 3/06
+Loading...
+本发明提供一种小文件的存储方法及系统，其中，该方法包括：管理系统接收来自客户端的存储请求；管理系统根据接收到的多个存储器的负载信息选择分布性最佳的存储器，其中，每一存储器包括至少一个外部磁盘存储器，负载信息包括磁盘剩余空间、CPU负载信息和磁盘IO信息；管理系统获取最佳存储器的IP地址并发送给客户端；客户端与最佳存储器建立连接；最佳存储器接收并存储来自客户端的需要存储的数据。通过本发明，可以提高系统的寻址效率，提高数据的读写操作速度。
+50. 103092360 一种机顶盒视频文件名称输入的方法及其机顶盒
+CN
+08.05.2013
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201110347715.0
+深圳市快播科技有限公司
+黄晓晖
+G06F 3/023
+Loading...
+本发明公开了一种机顶盒视频文件名称输入的方法及其机顶盒，其中一种机顶盒视频文件名称输入的方法包括以下步骤：根据用户的选择进入首字母输入法；接收用户输入视频文件名称的首字母；根据用户的输入从首字母词库中过滤出符合条件的视频文件名称并展示名称列表，首字母词库为首字母输入法的词库，是按照视频文件名称的各个首字母排序生成，视频文件名称中各个首字母的组合对应该视频文件名称；接收用户根据名称列表选择的视频文件名称。本发明利用机顶盒中的特有输入法和与特有输入法对应的关于视频文件名称的词库，极大地提高了用户查找想要检索的视频文件名称的速度，且提高了用户的输入查找体验。
+51. 103096046 一种视频帧处理方法、装置及播放器
+CN
+08.05.2013
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201110334684.5
+深圳市快播科技有限公司
+钟惟渊
+H04N 7/26
+Loading...
+本发明公开了一种视频帧处理方法、装置及播放器，所述视频帧处理方法包括：接收对视频帧进行三维调整的方式与参数；根据所述方式与参数调整视频帧。通过本发明实施例提出的视频帧处理方法及播放器，可以实现在三维空间内调整视频帧，克服了二维变换的局限性，产生更好的用户体验。
+52. 103095903 一种通过手机遥控机顶盒的方法及系统
+CN
+08.05.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201110349882.9
+深圳市快播科技有限公司
+邱荣华
+H04M 1/725
+Loading...
+本发明提供了一种通过手机遥控机顶盒的方法及系统，手机向在同一局域网内的各个机顶盒广播发送获取MAC地址请求消息；各个机顶盒响应手机发来的获取MAC地址请求消息，返回自身的MAC地址消息；手机收到各个机顶盒返回的MAC地址消息后，根据所返回的MAC地址消息生成遥控机顶盒列表。基于局域网数据交互技术及MAC地址识别技术，通过手机对同一局域网内机顶盒进行遥控操作的技术方案，为用户提供了一种方便简捷的遥控操作方案。
+53. 103067332 一种游戏一帐通实现方法和系统
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110316114.3
+深圳市快播科技有限公司
+王欣
+H04L 29/06
+Loading...
+本发明实施例提供了游戏一帐通实现方法和系统，该方法包括：用户通过游戏平台发出网页游戏或者客户端游戏的登录请求；所述游戏平台根据所述登录请求与网页游戏服务器或者客户端游戏服务器进行交互以实现一帐通登录。本发明实施例通过由游戏平台或者一账通服务器来统一负责和各种网页游戏服务器或者客户端游戏服务器进行交互，从而使得用户只需要一个账号就可以登录不同的网页游戏服务器及客户端游戏服务器，进而减少了系统和安全管理的开销。
+54. 103067759 播放链路的建立方法、装置及播放器
+CN
+24.04.2013
+H04N 21/40 Loading...
+H04N 21/40
+Loading...
+201110318044.5
+深圳市快播科技有限公司
+钟惟渊
+H04N 21/40
+Loading...
+本发明提供一种播放链路的建立方法、装置及播放器，其中，该方法包括：根据接收到的文件路径获取音视频文件；根据音视频文件获取音视频文件的格式类型、编码类型；根据音视频文件的格式类型、编码类型选择解析器、解码器和渲染器；根据选择的解析器、解码器和渲染器建立播放链路，以播放音视频文件。通过本发明实施例，可以实现建立链接和播放效果的最优化。
+55. 103067339 一种客户端网页游戏多帐号安全登录方法及系统
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110320430.8
+深圳市快播科技有限公司
+王欣
+H04L 29/06
+Loading...
+本发明提供了一种客户端网页游戏多帐号安全登录方法及系统，客户端将用户硬件信息和输入的帐号及密码发送至服务器；服务器验证帐号及密码正确后，根据用户硬件信息对密码进行加密生成密码密文，并返回客户端；客户端存储帐号及密码密文；在用户选择客户端已存储的若干帐号中至少之一后，将选择的帐号与密码密文发送至服务器；服务器还原用户选择帐号的密码并验证帐号是否被授权及密码是否正确。避免了手动输入帐号及密码的繁琐步骤，且由于密码密文是由服务器加密生成，密码在传输和本地存储时均有加密，密码在服务器经过特定加密生成密码密文后再与客户端安全交互，密码密文在服务器内部解密和匹配，提高了用户帐号在网络环境的安全性。
+56. 103051513 一种消息实时交互方法及系统
+CN
+17.04.2013
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201110306738.7
+深圳市快播科技有限公司
+向灿
+H04L 12/58
+Loading...
+本发明实施例公开了一种消息实时交互方法，该方法包括：接收用户通过与内容页面关联的评论消息生成入口发出的评论消息；为所述评论消息附加与所述内容页面对应的唯一分类ID；将所述评论消息加入用户的已发消息队列，使其在用户已发消息中呈现；根据所述唯一分类ID，将所述评论消息加入所述内容页面的评论消息队列，使其在所述内容页面呈现；根据所述用户的关注者信息，将所述评论消息加入所述用户的所有关注者的接收消息队列，使其在所有关注者的接收消息中呈现。本发明还公开了一种消息实时交互系统，该方法及系统可以增加消息交互的广泛性和实时性。
+57. 103036850 游戏操作复制方法、装置与客户端
+CN
+10.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110293938.3
+深圳市快播科技有限公司
+王欣
+H04L 29/06
+Loading...
+一种游戏操作复制方法、装置与客户端，所述方法包括：当使用不同账号在多个窗口操作同一游戏时，在所述多个窗口中确定主同步游戏窗口与次同步游戏窗口；将所述主同步游戏窗口的操作进行复制并提供给所述次同步游戏窗口，使所述次同步游戏窗口执行相同的操作。本发明实施例的游戏操作复制方法、装置与客户端，通过将多个游戏窗口之间的游戏操作进行同步，能够在同一个游戏、同一服或区实现多个游戏、不同游戏角色的操作复制，避免了用户对每个游戏窗口的重复操作，提高了用户的游戏体验。
+58. 103020412 一种游戏平台用户属性统计方法及系统
+CN
+03.04.2013
+A63F 13/79 Loading...
+A63F 13/79
+Loading...
+201110297972.8
+深圳市快播科技有限公司
+马志勇
+A63F 13/79
+Loading...
+本发明提供了一种游戏平台用户属性统计方法及系统，根据统计对象的操作行为数据进行归类，得到体现用户在游戏平台活动轨迹的归类的统计对象操作行为结果，并根据归类的统计对象操作行为结果赋予统计对象相应的若干用户属性，这样一来，可对用户进行归类管理以及游戏平台资源的合理调度，同时也丰富用户的体验，使用户产生自豪感和成就感。
+59. 103020076 一种播放器的视频文件动态预览方法和装置
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110285650.1
+深圳市快播科技有限公司
+吴维检
+G06F 17/30
+Loading...
+本发明实施例提供一种播放器的视频文件动态预览方法和装置，方法包括：截取视频文件的多张图像作为所述视频文件的多个缩略图并存储所述多个缩略图；在视频动态预览模式中为所述视频文件增加一缩略图窗口并展示给用户，所述缩略图窗口内显示所述多个缩略图中的一张缩略图；若鼠标落入所述缩略图窗口的范围内，则将所述多个缩略图在所述缩略图窗口内以设定的时间间隔连续轮回播放。本发明实施例通过截取视频文件在各个时间点的截图，并将这些截图以缩略图轮播的方式展示给用户，使得用户不再需要开始播放视频就可以直接预览到该视频文件的相关内容，方便了用户了解视频内容也提升了用户体验。
+60. 103024561 一种拖拽进度条的显示方法及装置
+CN
+03.04.2013
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201110297964.3
+深圳市快播科技有限公司
+刘大卫
+H04N 21/472
+Loading...
+本发明提供了一种拖拽进度条的显示方法及装置，通过用户拖拽时进度条的时间点在关键帧索引中找到对应的最近时间戳，并根据时间戳得到字节偏移量，再由字节偏移量从视频文件中获取关键帧数据并显示该关键帧。因此，在用户进行连续拖拽时，无需计算当前帧，以关键帧替代当前帧实时快速显示，避免了查找关键帧并计算当前帧的过于频繁导致的延迟显示的问题，实现了即时显示，提高了用户流畅性的体验。
+61. 102982033 小文件的存储方法及系统
+CN
+20.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110260094.2
+深圳市快播科技有限公司
+曾毅
+G06F 17/30
+Loading...
+本发明提供一种小文件的存储方法及系统，其中，该方法包括：管理系统接收来自客户端的存储请求；管理系统根据存储请求，获取主存储器的IP地址；管理系统将主存储器的IP地址发送给客户端；客户端与主存储器之间建立连接；主存储器接收并存储来自客户端的需要存储的数据，并断开客户端与主存储器建立的连接；管理系统设置群组文件名，主存储器设置需要存储数据的文件名；主存储器根据群组文件名将多个本地存储数据进行归类处理；主存储器将归类处理后的本地存储数据备份到隶属存储器，并记录存储路径信息。通过本发明，可以提高IO性能。
+62. 102984587 一种视频播放的优化方法、装置及点播终端
+CN
+20.03.2013
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201110260223.8
+深圳市快播科技有限公司
+刘大卫
+H04N 21/472
+Loading...
+本发明实施例提供一种视频播放的优化方法、装置及点播终端，方法包括：获取需要播放的视频数据；判断用户交互界面的配置文件中是否有用户的优化设置内容：若有，则根据所述配置文件中的优化设置内容对所述视频数据进行智能优化处理，或性能优化处理，或画质优化处理；若无，则对所述视频数据进行智能优化处理；将经过优化处理后的视频数据输出播放。本发明实施例由于可以根据用户的设置对分离后的视频数据进行各种优化处理，以及默认对视频数据进行智能优化处理，因此使得点播终端可以自动适应不同的播放环境，播放速度以及播放画质都可以得以提高。
+63. 102983968 一种软件后台认证方法、认证服务器和终端
+CN
+20.03.2013
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201110258719.1
+深圳市快播科技有限公司
+何迪荃
+H04L 9/32
+Loading...
+本发明公开了一种软件后台认证方法、认证服务器和终端，其中软件后台认证方法包括：MAC报备：认证服务器事先建立终端的内置网卡物理地址MAC的报备数据库于存储模块中；MAC解析与判断：当接收到终端的认证请求后，认证服务器的解析模块解析出该终端的内置网卡物理地址MAC，与报备数据库中的信息进行匹配查询，并依据获取的匹配结果指示认证服务器的应答模块给予该终端相应的应答指示；应答指示：根据解析模块的决策，应答模块向该终端发送相应的应答指示。采用本发明的技术方案，从应用层面上防止终端的网卡物理地址MAC发生冲突，将上述可能的软件故障处理成本直接降为零，同时杜绝了损害软件厂商利益的软件著作权侵权行为。
+64. 102970525 一种移动终端播放器的优化解码处理方法、装置和系统
+CN
+13.03.2013
+H04N 19/00 Loading...
+H04N 19/00
+Loading...
+201110256610.4
+深圳市快播科技有限公司
+刘军
+H04N 19/00
+Loading...
+本发明实施例提供一种移动终端播放器的优化解码处理方法、装置和系统，方法包括：获取移动终端的硬件参数；判断本地是否具有与所述硬件参数相匹配的音视频解码库文件：若有，则根据所述音视频解码库文件来对音视频文件进行解码播放若没有，则将所述硬件参数发送给服务器端；接收服务器端返回的和所述硬件参数相匹配的音视频解码库文件；根据服务器端返回的所述音视频解码库文件来对音视频文件进行解码播放。本发明实施例通过根据移动终端的硬件参数从服务器端获取与该硬件参数相对应的音视频解码库文件，优化了移动终端音视频解码，从而提高了移动终端播放器的音视频解码速度，减少了音视频解码对系统处理能力的占用。另外，本发明实施例由于在服务器端根据用户的反馈对音视频解码库文件进行动态更新，从而可以更好地支持包括各种硬件的移动终端。
+65. 102957549 一种跨平台的远程服务器管理系统及方法
+CN
+06.03.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110239016.4
+深圳市快播科技有限公司
+唐涛
+H04L 12/24
+Loading...
+本发明公开了一种跨平台的远程服务器管理系统及方法，该系统包括客户端及多个待管理的远端服务器；其中，客户端在管理员的指示下进行：根据预先存储的多个服务器的IP地址通过网络与多个服务器建立连接，并实时从多个服务器接收相应的运行信息；根据所接收的各个服务器的运行信息向相应的服务器发送控制指令，控制指令用于使服务器的运行做相应更改。实施本发明的技术方案，大大节省了人力成本，而且提高了工作效率。
+66. 102957715 一种数据传输方法及系统
+CN
+06.03.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110239988.3
+深圳市快播科技有限公司
+林金星
+H04L 29/08
+Loading...
+本发明公开了一种数据传输方法，包括：服务器端设备与浏览器端设备通过无线网络连接；在服务器端设备建立web服务器；当浏览器端设备通过浏览器向服务器端设备发送传输文件请求时，所述web服务器响应所述请求，向所述浏览器端设备返回文件管理web页面；所述浏览器端设备上传文件到服务器端设备中的web浏览器；所述web浏览器接收到文件后，保存该文件到本地。通过本发明实施例提出的方法与系统，设备之间的传输不需要电缆连接，非常方便，并且能够一个设备对应多个设备同时进行传输。进一步地，还可以将传输的媒体文件直接添加到播放器的播放列表中，实现在传输过程中实时的播放。
+67. 102955780 一种文件创建和访问的方法及其系统
+CN
+06.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110239019.8
+深圳市快播科技有限公司
+张克东
+G06F 17/30
+Loading...
+本发明公开了一种文件创建和访问的方法及其系统，其中文件创建的方法，包括以下步骤：创建第一文件，第一文件用于存储待下载文件；获取待下载文件的末尾数据；判断待下载文件是否为大文件，若否，则将待下载文件依序写入第一文件；若待下载文件为大文件，则创建临时文件，并将末尾数据写入临时文件，再顺序下载待下载文件到第一文件，在下载到末尾数据时，可直接合并临时文件中的数据，可同时删除临时文件。本发明在创建大文件的过程中，可以快速访问该文件，减少用户等待的时间。
+68. 102957966 一种播放器及用于播放器的视频帧内嵌时间的方法
+CN
+06.03.2013
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+201110239017.9
+深圳市快播科技有限公司
+钟智将
+H04N 21/4402
+Loading...
+本发明公开了一种播放器及用于播放器的视频帧内嵌时间的方法，该方法在解码视频后进行以下步骤：A.从当前视频帧的时间戳中提取时间数据；B.将所提取的时间数据取整到秒；C.将取整后的时间数据存入第一缓存器中；D.根据视频帧的格式转换视频当前时间数据的格式，并将所输出的相应图片格式的时间数据存入第二缓存器；E.将第二缓存器中的图片格式的时间数据与当前视频帧进行混合，以输出内嵌时间的视频帧。实施本发明的技术方案，能输出内嵌时间的视频帧，这样，即使在全屏播放时也能显示出视频当前时间。另外，用户在对某个时间点或时间段的视频进行截图操作时，也就将相应的时间点保存起来了，方便以后根据时间点查找所截取的图片。
+69. 102929874 检索数据的排序方法及装置
+CN
+13.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110225630.5
+深圳市快播科技有限公司
+徐勇
+G06F 17/30
+Loading...
+本发明提供一种检索数据的排序方法及装置，其中，排序方法包括：根据影视剧标识获取不同网站的多个原始检索数据，其中，影视剧标识由首次发布影视剧的系统确定；根据网站的受欢迎程度对不同网站进行排序；对排序后的每一个网站中的多个原始检索数据分别进行干扰源过滤，得到仅包含预定关键字的多个新检索数据；根据预定关键字以及预定规则对多个新检索数据进行排序，预定关键字包含影视剧名称。通过本发明，可以克服搜索引擎无法对搜索结果进行有序排列的问题，从而提高了用户的体验感。
+70. 102890816 Method and device for video image scaling
+CN
+23.01.2013
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+201110203825.X
+深圳市快播科技有限公司
+吴维检
+G06T 3/40
+Loading...
+The invention provides a method and a device for video image scaling, relating to the field of electronic technology. Technical problems of single function and complicated operation in the prior art are solved. According to the method for video image scaling, different scaling approaches are adopted when a video window is overlapped with a playing window or when a video window is smaller than a playing window. The method for video image scaling comprises the following specific steps: receiving a triggering signal input by an external device; confirming a scaling multiples according to the triggering signal; when the video window is overlapped with the playing window, playing a part of video image on the video window, wherein the part of video image is cut from an original video image based on the scale multiples; when the video window is smaller than the playing window, scaling the video window based on a proportion according to the scaling multiples, and displaying the original video image in the scaled video window. The device for video image scaling comprises a user interactive interface, a player and an external device; and the player comprises a playing window, a video window and a playing control module. The method and device are used for scaling video images.
+71. 102799422 数字视频中的拖拽截屏方法
+CN
+28.11.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110137480.2
+深圳市快播科技有限公司
+吴维检
+G06F 9/44
+Loading...
+本发明提出了一种视频截屏的方法。所述方法包括：启动播放器的用户界面，利用输入设备，将操作信息发送给用户接口模块；调用播放模块提供的接口，UI模块将截屏数据复制到临时存储区中且保存临时存储区的临时路径，并产生一个缩略图；UI模块还将缩略图的位图句柄和临时路径初始化到COM的拖拽接口中。本发明所述方法，可以将原来需要的若干步骤缩减为一步，对电脑上正在播放的视频能实现快速截屏且方便保存，同时还可以预览截屏效果及避免时滞。
+72. WO/2012/068914 OFFLINE SAVED GAME SYSTEM AND SAVE METHOD THEREOF
+WO
+31.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2011/079457
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+WANG, Xin
+G06F 17/30
+Loading...
+Disclosed is a offline saved game system, comprising a client end and a server end, wherein a management server in the server end receives a request of the client end for uploading or downloading a game progress save, stores an uploaded game progress save to a game progress storage server, or sends a game progress save corresponding to the request for downloading in the game progress storage server to the client end. Further disclosed is a game progress save method of an offline saved game, wherein a progress save of the offline saved game is uploaded to a server, or a game progress save is downloaded from the server and the offline saved game is played according to the progress save. A user may play the offline saved game on different computers by using a game progress of the same offline saved game, and a cloud storage technology is adopted, so the load of the server is reduced and the manner of managing save files in the server has the strong disaster tolerance capability, thereby ensuring the safety and stability of the server.
+73. 102479238 单机存档游戏系统及其存档方法
+CN
+30.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010576197.5
+深圳市快播科技有限公司
+王欣
+G06F 17/30
+Loading...
+一种单机存档游戏系统，包括客户端和服务器端，服务器端中的管理服务器接受所述客户端对游戏进度存档的上传或下载的请求，将上传的游戏进度存档存储到游戏进度存储服务器中，或将游戏进度存储服务器中对应于下载请求的游戏进度存档发送给所述客户端；一种单机存档游戏的游戏进度存档方法，将单机存档游戏的进度存档上传至服务器中，或从服务器中下载游戏进度存档并根据存档进度进行该单机存档游戏。用户可以在不同的计算机上使用同一种单机存档游戏的游戏进度进行单机存档游戏，由于采用的云存储技术，因此节省服务器的负载量并且这种在服务器中管理存档文件的方式具有强大的容灾能力，可保证自身的安全与稳定。
+74. 102316135 网络点播方法和系统
+CN
+11.01.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010218898.1
+深圳市快播科技有限公司
+张克东
+H04L 29/08
+Loading...
+本发明公开了一种网络点播方法和系统，所述方法包括如下步骤：通过点播终端向用户资源跟踪服务器发送资源请求；所述用户资源跟踪服务器根据所述资源请求进行计算，并形成资源列表，将该资源列表发送给发出该资源请求的点播终端；所述点播终端根据所述资源列表，与所述资源列表中给出的资源节点通过P2P方式进行交互以获取资源；所述点播终端播放获取到的资源，并将获取到的资源在网络中共享，为对该资源有需求的节点提供上传服务。本发明克服了现有P2P网络的点播系统的弊端，在多用户的并发在线流畅点播的同时，降低了网络系统的成本的损耗。
+75. WO/2012/000429 METHOD, SERVER AND TERMINAL FOR AUDIO AND VIDEO ON DEMAND
+WO
+05.01.2012
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+PCT/CN2011/076518
+SHENZHEN QVOD TECHNOLOGY CO., LTD.
+ZHANG, Kedong
+H04L 12/46
+Loading...
+The invention discloses a method, server and terminal for audio and video on demand. The method includes: receiving an audio and video resource request from an on-demand terminal; determining the network which the on-demand terminal belongs to according to the audio and video resource request; determining the resource nodes with the audio and video resource within the network which the on-demand terminal belongs to; generating a resource list according to the resource nodes with the audio and video resource within the network which the on-demand terminal belongs to; sending the resource list to the on-demand terminal so that the on-demand terminal can acquire the audio and video resource according to the resource list. The invention overcomes the disadvantage of the on-demand system of the current peer-to-peer (P2P) network, and reduces the cost loss of the network system while the concurrent online fluent on-demand of multiple users is performed.
+76. 201976180 基于便携移动终端的通讯系统
+CN
+14.09.2011
+H04M 11/00 Loading...
+H04M 11/00
+Loading...
+201020681789.9
+深圳市快播科技有限公司
+王欣
+H04M 11/00
+Loading...
+本实用新型公开了一种基于便携移动终端的通讯系统，所述通讯系统包括便携移动终端和目标设备，所述便携移动终端和所述目标设备通过局域网或互联网连接，所述目标设备根据自身功能的需求向所述便携移动终端发送指令，并根据所述便携移动终端提供的信息完成相应的功能，所述便携移动终端按照所述目标设备的指令，向所述目标设备提供相对应的信息。本实用新型可确保便携移动终端发出的信号不会导致其他同类目标设备误响应，并且，本实用新型还充分利用了目标设备的资源，提高了目标设备的功能执行效率及速度。
+77. 201917908 单机存档游戏系统
+CN
+03.08.2011
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201020626701.3
+深圳市快播科技有限公司
+王欣
+G06F 19/00
+Loading...
+本实用新型公开了一种单机存档游戏系统，包括客户端和服务器端，服务器端中的管理服务器接受所述客户端对游戏进度存档的上传或下载的请求，将上传的游戏进度存档存储到游戏进度存储服务器中，或将游戏进度存储服务器中对应于下载请求的游戏进度存档发送给所述客户端。用户可以在不同的计算机上使用同一种单机存档游戏的游戏进度进行单机存档游戏，由于采用的云存储技术，因此节省服务器的负载量并且这种在服务器中管理存档文件的方式具有强大的容灾能力，可保证自身的安全与稳定。
+78. 102135902 Method for controlling Flash game
+CN
+27.07.2011
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201110050445.7
+Shenzhen Qvod Technology Co., Ltd.
+Wang Xin
+G06F 9/46
+Loading...
+The invention discloses a method for controlling a Flash game, which is developed based on a game client software and comprises the steps: the client software establishes a main program and transmits the route of a Flash game to the main program, the main program is responsible for playing of the Flash game and the communication with users; by calling and intercepting a window function, the main program acquires picture parameters upon the pause of the Flash game as well as stacks and modules, used by a game process, and an independent thread identifier (ID) upon the pause of the game, in order to acquire all thread handle parameters of the game process; all the threads can be suspended after the thread handle parameters are acquired; and finally, the picture acquired upon the pause of the Flash game is output in order to realize the pause of the Flash game; and simultaneously, a mute function of the game can also be realized by acquiring acoustic equipment parameters of the Flash game. According to the method disclosed by the invention, the game process can be controlled when the game client software runs third-party Flash game software and the pause and sound on/off of the Flash game can be realized, thus convenience is brought to user entertainment.
+79. 201766618 网络点播系统
+CN
+16.03.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020247390.X
+深圳市快播科技有限公司
+张克东
+H04L 29/08
+Loading...
+本实用新型公开了一种网络点播系统，包括多个相互连接形成P2P网络的节点，所述多个节点在所述P2P网络中分属于一个以上的网络组，所述多个节点包括用户资源跟踪服务器和多个拥有上传资源的资源节点，所述资源节点包括用于向所述用户资源跟踪服务器发送资源请求、并根据从所述用户资源跟踪服务器返回的资源列表与资源节点进行交互来获得资源的点播终端；所述用户资源跟踪服务器确定资源列表并发送给发出该资源请求的点播终端。本实用新型克服了现有P2P网络的点播系统的弊端，在多用户的并发在线流畅点播的同时，降低了网络系统的成本的损耗。
+80. 101959053 Television system and method for realizing television value-added service thereon
+CN
+26.01.2011
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200910152041.1
+Shenzhen Kuaibo Technology Co., Ltd.
+Wang Xin
+H04N 7/173
+Loading...
+The invention discloses a television system and a method for realizing a television value-added service thereon, wherein the television system comprises a television body, a television value-added service management module and a plug-in device; a television value-added service application is stored in the plug-in device; and the management module and the plug-in device are interacted, and the television value-added service application in the plug-in device is associated with the television body so as to operate the television value-added service application on the television body. In the invention, the plug-in device is associated with a television through the management module, so that the television value-added service application can operate on the television without placing the television value-added service application in the television body, the television value-added service application thoroughly gets rid of the limitation of the television system, and the flexibility of the television value-added service application is improved.
+81. 201491113 电视系统及管理模块
+CN
+26.05.2010
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200920167934.9
+深圳市快播科技有限公司
+王欣
+H04N 5/00
+Loading...
+本实用新型公开了一种电视系统和管理模块，其中，所述电视系统包括电视机本体、电视增值业务的管理模块和外挂装置；所述外挂装置中存储有电视增值业务应用；所述管理模块与所述外挂装置进行交互，并将外挂装置中的所述电视增值业务应用与所述电视机本体关联起来，从而在所述电视机本体上运行所述电视增值业务的应用。本实用新型通过一管理模块将外挂装置与电视机关联起来，便可以使电视增值业务应用在电视机上运行，而无需将电视增值业务应用内置于电视机本体中，从而使电视增值业务应用彻底摆脱了电视系统的局限，从而提高了电视增值业务应用的灵活性。
+

@@ -1,0 +1,337 @@
+1. 103729344 一种文档稿件中语句标注的方法
+CN
+31.08.2016
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+102013000746427
+传神联合（北京）信息技术有限公司
+江潮
+G06F 17/27
+Loading...
+本发明公开了一种文档稿件中语句标注的方法，包括：确定源文档及与所述源文档具有映射关系的译稿，扫描出所述源文档中出现的所有语句；根据分析到的每个语句中的词汇参数和语句参数计算出每个语句的属性参数；将所述属性参数值大于预定阈值的语句在所述源文档及其译稿中均进行标注。本发明解决了无法对文档中的翻译难点进行统一标注的问题，并且提高了对语句标注的准确性，同时节省了所需要的大量人力资源。
+2. 103714051 一种待译文档的预处理方法
+CN
+09.04.2014
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+201310745397.2
+传神联合（北京）信息技术有限公司
+江潮
+G06F 17/27
+Loading...
+本发明公开了一种待译文档的预处理方法，包括：统计所述待译文档包括的行业类别属性的数量和所述待译文档的实义词密度；分别判断所述待译文档包括的行业类别属性的数量相对于行业类别属性设定阈值的大小、所述待译文档的实义词密度相对于实义词密度设定阈值的大小，根据所述待译文档的实义词密度相对于实义词密度设定阈值的大小匹配所述待译文档的翻译难度系数；根据这两种判断结果选择将所述待译文档按所述行业类别属性或者所述待译文档的翻译难度系数拆分。本发明通过对待译文档进行合理的预处理，将待译文档分配给译员翻译之前进行判断选择最合适的拆分方式，使待译文档能够匹配到最适合的译员，加快翻译待译文档的速度。
+3. 102495835 标签保护方法
+CN
+13.06.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110321645.1
+传神联合（北京）信息技术有限公司
+江潮
+G06F 17/30
+Loading...
+本发明公开了一种标签保护方法，包括：编制识别规则，所述识别规则用于识别网页内容中包含有标签的一段文本内容；读取文本，根据所述识别规则识别输入文本中的标签；获取所述输入文本中所有标签在文本框内的起始索引和长度，所述起始索引和长度记录有保护内容在文本里的地址信息；根据起始索引和长度对识别出的有效标签进行标记并实现保护。本发明技术方案彻底消除了人为误修改所造成翻译译稿质量低下的问题。
+4. 102184171 Method for checking mechanical translation
+CN
+14.09.2011
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+201110098977.8
+Chuanshen United (Beijing)Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/28
+Loading...
+The invention discloses a method for checking mechanical translation, which comprises the following steps: checking mechanical translation: choosing a corpus which is needed to be checked and then defining the translation direction of an original text; storing the original text into a text file and then translating by using a mechanical translation module which is used for translating an appointed text content according to the translation direction; and checking a translated text and a translation result, marking the content of the original text which reaches the similarity according to a word similarity threshold value and a mark setting in a sentence, and outputting a report form. By using the method, the time of interactive access among modules in the system is reduced.
+5. 102073694 Original translated text multi-page checking method
+CN
+25.05.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010608816.4
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/30
+Loading...
+The invention discloses an original translated text multi-page checking method. The original translated text multi-page checking method comprises the following steps of: defining a webpage original text uniform resource locator (url) list and a webpage translated text url list which need to be checked, wherein the original text url list and the translated text url list have one-to-one correspondence; loading and displaying the original text and character content of at least one translated text page; after loading the webpage, adding javascript (JS) into the current page; selecting checking information in a clicking mode; checking by comparing the original text with the translated text; clicking the part which needs to be modified and recording a modification proposal; and outputting checking information. The invention aims to double-webpage or multi-webpage checking operation. By the method, the webpage content can be acquired conveniently through a mouse; and the modified result is recorded.
+6. 102063596 Dynamic evaluation system and using method thereof
+CN
+18.05.2011
+G06F 21/30 Loading...
+G06F 21/30
+Loading...
+201010608807.5
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 21/30
+Loading...
+The invention discloses a dynamic evaluation system comprising a metadata module, an authority distribution module and an authority dispatching module, wherein the metadata module is used for storing evaluation data of the evaluation system and the definition of authority, and the authority corresponds to module authority metadata; the authority distribution module is used for defining the authority of an access request, sends the access request and the authority carried by the access request to the authority dispatching module when receiving the access request and returns the received module authority metadata to the access request; and the authority dispatching module is used for receiving and defining the access request and bound authority, dispatches the module authority metadata in the metadata module according to the bound authority and returns the obtained module authority metadata to the authority distribution module. The invention also discloses a using method of the dynamic evaluation system.
+7. 102012981 Distributing and matching method and system of general permission grade
+CN
+13.04.2011
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201010545739.2
+Transn Union (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 21/00
+Loading...
+The invention discloses a distributing and matching system of general permission grade. The system is characterized in that a metadata module is used for storing permission protection object description metadata and permission grantee description metadata; when a request is received, the corresponding permission protection object description metadata and permission grantee description metadata are sent to a requestor; metadata is data for describing the data; a permission distribution module is used for generating permission data according to the incidence relation between the permission protection object description metadata and the permission grantee description metadata, and sending the permission data to a general permission storage module; the general permission storage module is used for storing the permission data; and a permission matching module is used for receiving an access request of a user and analyzing the permission grade in the access request, and obtaining a result whether the user can operate a protected object or not according to the permission grade and the permission data. The invention also discloses a distributing and matching method of general permission grade. According to the system and method disclosed by the invention, the protected object can be defined at random.
+8. 101996164 Method and system for separating multilingual document
+CN
+30.03.2011
+G06F 17/22 Loading...
+G06F 17/22
+Loading...
+201010285962.8
+Transn (Beijing) Information Technology Co., Ltd.
+Zhao Guowei
+G06F 17/22
+Loading...
+The invention provides a method and device for separating a multilingual document. The main principle thereof is as follows: scanning the characters of the document; determining a language identifier for the currently scanned character according to character attribute information; comparing the language identifier of the currently scanned character with a language identifier needing to be separated, and if the two are the same, recording the currently scanned character as a sentence-initial character; comparing the next scanned character with a sentence-final symbol, and if the two are the same, recording the character as a sentence-final character; locating all characters from the sentence-initial character to the sentence-final character as a current sentence and allocating a storage pointer to the current sentence; and writing the current sentence into a file corresponding to the language identifier according to the storage pointer. By means of the invention, the multilingual complicated content of a Word document can be separated, thereby not only facilitating the user operation, but can greatly saving manpower resources and time.
+9. 101986308 Quick term marking method
+CN
+16.03.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010545766.X
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/30
+Loading...
+The invention discloses a quick term marking method, which comprises the following steps of: establishing a prefix table and uploading the prefix table into a memory, reading characters which comprise at least one sub-string; extracting one sub-string from the characters and searching for a term in the prefix table by using the sub-string; and recording current searched sub-strings as terms. In the invention, when the term marking is carried out, a prejudgment is made by using the term prefix table which is pre-established and cached in the memory, so that the searching times of a term base are greatly reduced.
+10. 101980184 Method and system for annotating contents of documents
+CN
+23.02.2011
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+201010522954.0
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/21
+Loading...
+The invention provides a method and a system for annotating contents of documents. The main principle is that: the method comprises the following steps of: scanning terms to be annotated in an opened document; determining the annotation content of the current term to be annotated according to a mapping relationship between the terms to be annotated and annotation contents; annotating the current term to be annotated according to the annotation content; and replacing other same terms to be annotated scanned in the document with the currently successfully annotated term. The method and the system can quickly annotate a plurality of same terms in a WORD document and greatly save annotation time so as to improve the annotation efficiency of an annotation tool.
+11. 101968804 Method for realizing collaborative translation
+CN
+09.02.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010506580.3
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/30
+Loading...
+The invention discloses a method for realizing collaborative translation. The method comprises the following steps of: converting a manuscript into a hyper text markup language (HTML) file; analyzing the HTML file and establishing a translation database file (TransIDB), wherein the HTML file is placed in the TransIDB; uploading the TransIDB to a server; downloading the TransIDB and establishing a local translation database by using a local terminal; and under the TransIDB, processing the HTML file and synchronizing the changed content to the server. Under the condition of separating from a Sharepoint program of the Microsoft, synchronous operation among office files is realized by the method, so that synchronous working between translation and checking is realized.
+12. 101957809 Anti-plagiarism method
+CN
+26.01.2011
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+201010506555.5
+Transn (Beijing) Information Technology Co., Ltd.
+Jiang Chao
+G06F 17/21
+Loading...
+The invention discloses an anti-plagiarism method, which comprises the following steps of: inputting a detection file, and extracting key words from the detection file; calling a search engine for searching the key words, retrieving source files of search result pages, and obtaining a match result of the key words to obtain the match rate of the key words; and when the match rate accords with the preset match rate, labeling contents which correspond to the key words in the file to be detected according to the set labeling mode. The method solves the problem of plagiarism identification of article contents; and the article contents are only input, so that the contents which already exist in the network and the contents which are owned by an author can be identified in a short period of time.
+13. 101950286 Error correction module and method in software translation system
+CN
+19.01.2011
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+201010281029.3
+Transn (Beijing) Information Technology Co., Ltd.
+Che Shuangwu
+G06F 17/28
+Loading...
+The invention discloses an error correction module in a software translation system, which is characterized in that an error correction module is used for receiving the source language and the target language input from outside, checking the source language and the target language to correct errors according to the stepped filter mode and the recognition rules and extracting and placing such elements as the dates, time and numbers of the source language and the target language in a record list; a comparison module is used for extracting the elements in the record list, comparing the dates, time and numbers in the source language and the target language step by step according to the comparison rules and sending the comparison results to a display module; and the display module is used for summarizing and displaying the comparison results. The invention also discloses an error correction method in the software translation system. The invention can accurately recognize the dates, time and numbers in the source language and the target language, check whether pretermission, multi-translation and wrong translation of the dates, time and numbers exist in the target language and timely display the problems to the user.
+14. 101577730 Method for uploading and downloading files synchronously based on FTP protocol
+CN
+11.11.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200910076697.X
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+H04L 29/08
+Loading...
+The invention relates to a method for uploading and downloading files synchronously based on an FTP protocol, comprising the following steps of: acquiring compressed files needing to be uploaded; splitting the files into N subfiles, wherein N is more than or equal to 2; uploading the subfiles to an FTP server; downloading the subfiles on the FTP server; and combining all the subfiles into the original compressed files correspondingly. In the uploading process of an uploading end, if one subfile is uploaded successfully, a downloading end can download; and when a larger file is uploaded, the method can save waiting time of the downloading end.
+15. 101539910 A sentence taking method for computer aided translation and system thereof
+CN
+23.09.2009
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200910076696.5
+Transn Beijing Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention relates to a sentence taking method used for computer aided translation and a system thereof. The method is as follows: PTF analyzing is carried out on a current text to be translated according to the requirements of a computer aided translation file interface by reading the current text to be translated in a file to be translated, and a computer aided translation text containing aided translation marks of RTF format is generated; and then the obtained computer aided translation text replaces the current text to be translated. As the sentence taking method and system adopt the mode of PTF analyzing on the current text to be translated to load aided translation environment, the sentence taking speed of the current text to be translated can be greatly increased, thus increasing translation efficiency.
+16. 101477569 Dictionary picture retrieval system
+CN
+08.07.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910077920.2
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/30
+Loading...
+The invention relates to a system for searching dictionary pictures, which comprises a dictionary picture library containing dictionary scanning picture documents, an index table used for storing index searching words and codes of the dictionary scanning picture documents and a searching module used for comparing input searching words with index searching words, and when the input searching words are matched with the index searching words, the dictionary scanning picture documents corresponding to the codes of the dictionary scanning picture documents corresponding to the index searching words are adjusted and extracted. By adopting the system for searching the dictionary pictures, the index can be established after the dictionary of paper medium is scanned, and the scanning documents are uploaded into the dictionary picture library, so as to facilitate inquiry and searching. Therefore, the application of the dictionary made of paper is more convenient and simpler, and the utilization rate and the application efficiency thereof can be greatly provided.
+17. 101477517 Multi-point remote synchronizing method for OFFICE documents editing
+CN
+08.07.2009
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200910076787.9
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/21
+Loading...
+The invention relates to the technical field of Office document edition multipoint remote synchronization. The method provided by the invention comprises the following steps: a first client end continuously detects the edition progress of a first Office document which is currently in an edition state, if a document segment with completed edition occurs, the edited document segment is transmitted to a document synchronization server; a second client end continuously detects the document segments on the synchronization server, if a new document segment is found, the new document segment is copied to a position in a second Office document corresponding to the first Office document; and the procedures are repeated until the edition of the first Office document is completed. The method of the invention can automatically synchronize context to a server without influencing the work habit of a user for using Office. The invention provides a new method for realizing Office document edition multipoint remote synchronization.
+18. 101477519 Original document synchronous preview apparatus and method for network translation
+CN
+08.07.2009
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200810240282.7
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention relates to a method for synchronously previewing original document used in network translation. The method comprises the following steps: obtaining and storing all naturally paging snapshot pictures and the belonging pages of a document needed to be translated; obtaining and storing all literal context and the belonging page numbers of the document ready for translating; reading literal context and conducting translation, searching for pictures belonging to the corresponding page number according to the document and the page to which a sentence belongs, and displaying the belonging pictures. The invention ensures that when a document with relatively difficult format is translated, translation staff can obtain the modality of the translated sentence in the original document, thereby increasing translation speed and accuracy.
+19. 101464906 Network word searching method and system
+CN
+24.06.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910076551.5
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/30
+Loading...
+The invention relates to a method for searching words on network and a system thereof. The method comprises the following steps: a word is submitted to an appointed website, and coding is performed on the return result; then, the explanatory content in the return result is intercepted according to HTML label, and the explanatory content is split according to a given model; and finally, the content is put into a corresponding character string data set for summary and output after splitting. The system for searching words on network comprises a link module, an acquisition module, an input module, a splitting and summarizing module and an output module, wherein, the link module is used for establishing links with a plurality of websites; the acquisition module is used for acquiring words to be searched, query conditions and site information which are submitted by a user; the input module is used for submitting the words to the appointed website and coding the return result; the splitting and summarizing module is used for intercepting the explanatory content in the return result, splitting the explanatory content according to the given model and putting the content into the corresponding data set for summarizing after splitting; and the output module is used for outputting all search results. The method and the system of the invention ensure that the time of the user for searching words on network is greatly reduced.
+20. 101276390 Sanitizing and / or reducing method and device
+CN
+01.10.2008
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200710064996.2
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 21/22
+Loading...
+A method and device for information decrypting and/or restoring are sued for quickly replacing a plurality of sensitive information in one time in the content converting of a plurality of information of the documents, characterized in that comprising the method for the following steps and device for implementing the method. The method is: selecting a plurality of information to quickly generate comparison table document by the mouse; comparing the first document, the first information decryption that needs the decryption is converted into the second information and the other first information is not changed, generating the second document; converting the information in the second document into the third information, the decrypted second information is converted to the corresponding decrypted third information, generating the third document; restoring and converting the third decrypted information in the third document to the fourth information and the third information is not changed, generating the fourth document. Thereby, the method obtains the great effect that automatically replaces the plurality of information in one time enabling the manpower reduces.
+21. 101277292 Data processing system and method
+CN
+01.10.2008
+H04L 29/02 Loading...
+H04L 29/02
+Loading...
+200710064998.1
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+H04L 29/02
+Loading...
+The invention discloses a system and a method for data processing, wherein the data processing system comprises: at least one first terminal for sending request data to a local storage device and acquiring response data in response to the request data from the local storage device; the local storage device for storing the request data and the response data locally; a network storage device for synchronously storing the request data and the response data stored in the local storage device; and at least one second terminal for generating the response data in response to the request data, and transmitting the response data to the local storage device.
+22. 101276331 Information unifying method
+CN
+01.10.2008
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200710064997.7
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention provides an information unifying method, comprising the steps of: step S202, an information processing client converts a first text to a second text that can be identified and read by a machine the content; scanning each sentence and providing scanning result to a database server; step S20, the database server analyzes and searches for a second piece of information corresponding to the first information and feeding back the searching result to the information processing client; step S206, the information processing client identifies the first information corresponding to the second information in the second text according to the searching result fed back from the database server and transmitting the identified second text to at least a client to unify the information or replacing the first information in the second text to corresponding second information directly.
+23. 101276332 Making data processing method and system
+CN
+01.10.2008
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200710064999.6
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention provides an identifying data processing method, comprising the step of: S102, a first client identifies the data in a document where the problems lie in and sends the identified data to a second client; S104, the second client processes the identified data to generate identifying reply data and sends the identifying reply data to the first client; and S106, after the first client receives the identifying reply data, applying the identifying reply data automatically to the document. The invention realizes a real time information exchange in process of information conversion process (for example translation), solves the communication problem between the specialist and the translator in the service related to the information conversion process (for example translation), improves translation quality, reduces translation cost and translation difficulty of the translator, reduces checking cost as well as accelerates project period.
+24. 101277247 Real-time communication system
+CN
+01.10.2008
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200710065000.X
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+H04L 12/58
+Loading...
+The invention provides a real-time communication system for realizing cooperative work in message conversion processing course. The real-time communication system includes: at least one instance message client port monitors received task message and/or operation message, responds task message execution and task corresponding to task message, and responds operation message for executing operation corresponding to operation message; a client port database stores first history data, and connects with server database and instance message client port according with data synchronization device; a database synchronization device is connected between client port database and server database, and realizes synchronization with first history data and second history data stored in server database; a server database stores second history data and identifying message corresponding to instance message client port; an instance message server sends operation message to instance message client port corresponding to identifying message according with identifying message. The real-time communication system realizes real-time message exchange in message conversion processing (for example translation) course.
+25. 101149733 System and method for using concealed format keeping bilingual file
+CN
+26.03.2008
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200710086683.7
+Chuanshen Lianhe (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention relates to a kind of system and method about saving bilingual file to use hiding format. This invention offers this kind of system which concludes identification module,position module,translation module and saving module. Besides, the invention also offers a kind of method to save bilingual file using the hiding format mentioned above. The system about saving bilingual file to use hiding format offered by this invention makes it convenient for translation under regulating the bilingual showed situation freely.
+26. 101034407 Quick input method based on scene lexicon in process of translation
+CN
+12.09.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710065015.6
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/30
+Loading...
+This invention relates to technology field of the rapid input method, the rapid input method based on scene thesaurus in the process of translation provided by the invention is as follows: in the process of translation of a phrase, firstly read vocabularies of the sentence; then get corresponding entries from scene thesaurus;put the entries into the input standard thesaurus used by the users,so that corresponding appropriate translation glossary entries will be displayed in the front of column shows after the users input text or corresponding alphabet, achieving targeted input; after the end of the input sentence, withdraw from the scene, removing the entries, starting translation of the next sentence. The invention based on the existing input method,by using program of input vocabulary and thesaurus, temporarily and pertinently amend the display order of the words (word frequency) during the process of the translating input. This invention uses the method of combining scene thesaurus and thesaurus input technology, effectively improves the efficiency of the input text under the circumstance of not changing the habit of users input method.
+27. 101034394 System and method for enhancing translation efficiency
+CN
+12.09.2007
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200710086684.1
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention relates to a system and method for raising translating efficiency. And the system comprises variant information recognizing database, variant rule database, double language contrast database, variant recognizing module, formatting module, contrast module, variant replacing module, translating module and result output module. And the invention also provides a method using the system. And the system can implement translation automation, especially automatic translation of large numbers of common variants in files.
+28. 101034395 Document waiting for translating processing system and document processing method using same
+CN
+12.09.2007
+G06F 17/28 Loading...
+G06F 17/28
+Loading...
+200710086685.6
+Transn (Beijing) Information Technology Co., Ltd.
+He Zhantao
+G06F 17/28
+Loading...
+The invention relates to a to-be-translated file processing system and the file processing method using the system. And the invention provides a to-be-translated file processing system, comprising information receiving module, analysis and conversion module, file segmentation module, short sentence/term repeated condition counting module, translating module, double language contrast database and result output module. And the invention also provides a file processing method using the system. And the system can be used in preprocessing of to-be-translated files, especially preprocessing of a batch of to-be-translated files.
+

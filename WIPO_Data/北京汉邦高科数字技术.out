@@ -1,0 +1,637 @@
+1. 103685888 一种无线网络摄像机及其使用方法
+CN
+15.03.2017
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+102013000589843
+北京汉邦高科数字技术股份有限公司
+乔勇
+H04N 5/225
+Loading...
+本发明公开一种无线网络摄像机，其能够同时支持无线局域网WiFi、3G（中国联通的WCDMA，中国电信的CDMA2000，中国移动的TD‑SCDMA）和4G（TD‑LTE）多种无线网络方式。这种无线网络摄像机，其包括n个mini PCI Express接口，n为正整数，每个mini PCI Express接口连接到USB上且独立地通过GPIO进行使能控制，无线网络模块插入mini PCI Express接口。还提供了使用该无线网络摄像机的方法。
+2. 106482640 一种一体机芯光轴校正的装置和方法
+CN
+08.03.2017
+G01B 11/00 Loading...
+G01B 11/00
+Loading...
+102016001114886
+北京汉邦高科数字技术股份有限公司
+郜向阳
+G01B 11/00
+Loading...
+一种一体机芯光轴校正的装置，其包括:图像采集模块、图像处理模块与成像控制模块(107)；图像采集模块包括：变焦镜片组(102)、聚焦镜片组(103)与图像传感器(104)；物体(101)经过变焦镜片组(102)、聚焦镜片组(103)后成像在图像传感器(104)上；成像控制模块(107)包括：第一电机(105)，第二电机(106)，第一电机(105)驱动变焦镜片组(102)沿光轴移动，第二电机(106)驱动聚焦镜片组(103)沿光轴移动，从而根据光轴校正专用CHART图来获得TELE端参考点图像IMAGET、WIDE端参考点图像IMAGEW；图像处理模块，其配置来将TELE端参考图像IMAGET和WIDE端参考图像IMAGEW进行处理，获取这两幅参考图像中参考特征点的坐标，并计算得出一体机芯光轴偏移坐标(Δx，Δy)。还包括校正方法。
+3. 103533311 一种高清网络摄像机装置
+CN
+11.01.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+102013000498760
+北京汉邦高科数字技术股份有限公司
+乔勇
+H04N 7/18
+Loading...
+本发明公开一种高清网络摄像机装置，其包括若干高清网络摄像机组，每组包括一个主高清网络摄像机和若干个子高清网络摄像机；主网络摄像机用于自动搜索其附近的子网络摄像机，以便分组设置，用于向子网络摄像机发送控制命令，用于响应子网络摄像机的报警，达到组内多台摄像机的协同监控和联动，用于与网络硬盘录像机或监控平台进行交互；主网络摄像机包含一个网络传输流复用模块，该模块具有单独的CPU、内存、存储单元、电源和网络，该模块接收其所在组内的各个网络摄像机发出的单节目传输流、将多个单节目传输流复用为符合数字视频广播DVB标准的包含多路节目、多路信息的多节目传输流、将多节目传输流发送给网络硬盘录像机NVR或监控平台。
+4. 203872253 一种无线网络摄像机
+CN
+08.10.2014
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+201320739377.X
+北京汉邦高科数字技术股份有限公司
+乔勇
+H04N 5/225
+Loading...
+本实用新型公开一种无线网络摄像机，其能够同时支持无线局域网WiFi、3G（中国联通的WCDMA，中国电信的CDMA2000，中国移动的TD-SCDMA）和4G（TD-LTE）多种无线网络方式。这种无线网络摄像机，其包括n个mini PCI Express接口，n为正整数，每个mini PCI Express接口连接到USB上且独立地通过GPIO进行使能控制，无线网络模块插入mini PCI Express接口。
+5. 103823973 Target tracking method based on MeanShift algorithm
+CN
+28.05.2014
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201410061346.2
+北京汉邦高科数字技术股份有限公司
+孙敬
+G06F 19/00
+Loading...
+The invention discloses a target tracking method based on a MeanShift algorithm. The method cam improve reliability in the tracking process of a single target, increase tracking speed, and reduce the situation that a tracking frame shifts away from the target. The method comprises the steps: (1) calculating a characteristic value of each pixel point in an original image and generating a characteristic image, and establishing a characteristic model of the target by utilizing a double-core smooth function according to the characteristic image; (2) improving a single core smooth function in an original MeanShift algorithm into the double-core smooth function; (3) in order to ensure convergence of the algorithm, enabling the double-core smooth function to meet the limit condition of a binary convex function; (4) in order to ensure standardization of the characteristic model of the tracked target, obtaining a standardized constant formula.
+6. 203537510 一种高清网络摄像机装置
+CN
+09.04.2014
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201320652513.1
+北京汉邦高科数字技术股份有限公司
+乔勇
+H04N 7/18
+Loading...
+本申请公开一种高清网络摄像机装置，其包括若干高清网络摄像机组，每个组包括一主摄像机和若干子摄像机；主摄像机向子摄像机发送控制命令，响应子摄像机的报警，并与网络硬盘录像机NVR或监控平台进行交互；主摄像机和子摄像机都包含符合数字视频广播DVB标准的异步串行接口ASI，采集的视音频经过编码处理后统一封装为单节目传输流并通过ASI发出；主摄像机还包含一硬件多路ASI复用器，复用器具有单独的CPU、内存、存储单元、电源和网络，硬件多路ASI复用器把组内各摄像机发出的单节目传输流复用为多节目传输流，并输出给ASI/IP协议转换器，ASI/IP协议转换器将IP数据发送给网络硬盘录像机NVR或监控平台。
+7. 203535364 一种监控摄像机机芯的散热结构
+CN
+09.04.2014
+G03B 17/55 Loading...
+G03B 17/55
+Loading...
+201320664126.X
+北京汉邦高科数字技术股份有限公司
+涂默然
+G03B 17/55
+Loading...
+本申请公开了一种监控摄像机机芯的散热结构，监控摄像机壳体内的LED灯板和电路板通过铜螺柱安装在一起，散热翼板覆盖在电路板上，散热翼板包括在一个平部和两个翼部，平部在中心，每个翼部在一侧。由于在电路板上设置散热翼板，可以将机芯内的热量快速直接地传导到壳体上，所以散热效果好、延长摄像机使用寿命，并且结构简单、安装容易。
+8. 103685888 Wireless network camera and method for using same
+CN
+26.03.2014
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+201310589843.5
+BEIJING HANBANG TECHNOLOGY CO., LTD.
+QIAO YONG
+H04N 5/225
+Loading...
+The invention discloses a wireless network camera. The wireless network camera can simultaneously support various wireless network modes such as a wireless local area network WiFi (wireless fidelity), 3G (the third generation telecommunication) comprising WCDMA (wideband code division multiple access) of China Unicom, CDMA (code division multiple access) of China Telecom and TD-SCDMA (time division-synchronization code division multiple access) of China mobile, and 4G (the fourth generation telecommunication) comprising TD-LTE (time division-long term evolution). The wireless network camera comprises n mini PCI (peripheral component interconnection) Express interfaces, n is a positive integer, each mini PCI Express interface is connected to a USB (universal serial bus) and independently carries out enabled control through GPIO (general purpose input/output), and wireless network modules are inserted in the mini PCI Express interfaces. The invention also provides a method for using the wireless network camera.
+9. 203466913 一种SDI摄像机的调试装置
+CN
+05.03.2014
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201320130054.0
+北京汉邦高科数字技术股份有限公司
+张明君
+H04N 7/18
+Loading...
+本申请公开了一种SDI摄像机的调试装置，通过同轴线缆与SDI摄像机的SDI连接，该同轴线缆传送SDI视频信号和调试控制信号，该调试装置包括显示SDI视频信号的显示屏，该调试装置外接SDI视频显示设备。同轴线缆在传输SDI视频信号的同时传输调试控制信号给SDI摄像机，利用调试控制信号来设置SDI摄像机的各项参数，这样就无需在摄像机上安装专用的调试接口，从而降低调试成本，并且实现及时便捷地调试。
+10. 103491341 Method for displaying network hard disk video
+CN
+01.01.2014
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201310300390.X
+北京汉邦高科数字技术股份有限公司
+温泉
+H04N 7/18
+Loading...
+The invention discloses a method for displaying a network hard disk video. The method includes the steps that displaying is started; whether multi-frame previewing is true or not is judged, if yes, the step (3) is performed, and if not, the step (15) is performed; whether a mouse is in a dragging state or not is judged, if yes, the step (4) is performed, and if not, the step (10) is performed; whether dragging is started or not is judged, if yes, the step (5) is performed, and if not, the step (8) is performed; starting coordinates of the mouse are recorded; according to the current frame state and the starting coordinates, a belonging channel number is analyzed; 500 milliseconds are counted, and people jump to the step (3); coordinates of every moment in the process of dragging are recorded; the channel number and the coordinates on the upper left corner serve as parameters to be transmitted to a display function, and the people jump to the step (7); whether the dragging state is switched to a non-dragging state or not is judged, if yes, the step (11) is performed, and if not, the step (7) is performed; finishing coordinates of the mouse are recorded; according to the current frame state and the finishing coordinates, a belonging channel number is analyzed; small-image displaying is finished; a window of a starting channel and a window of a finishing channel are switched, and the people jump to the step (7); the displaying is finished.
+11. 103428522 Method for improving image quality at low illumination level of web camera
+CN
+04.12.2013
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201310340973.5
+北京汉邦高科数字技术股份有限公司
+郜向阳
+H04N 17/00
+Loading...
+The invention discloses a method of improving image quality at a low illumination level of a web camera, which can adjust a black level configuration value of an image sensor dynamically and improve brightness and contrast of an image output by the web camera. The black level value of the image sensor is adjusted through an image signal processing ISP module of the web camera. The method comprises the steps of: (1) detecting the brightness of the image; (2) judging whether to change the black level value so as to obtain a to-be-set black level value; (3) outputting the to-be-set black level value; (4) sending the to-be-set black level value to the image sensor.
+12. 203289775 一种机箱
+CN
+13.11.2013
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201320286478.6
+北京汉邦高科数字技术股份有限公司
+涂默然
+H05K 5/02
+Loading...
+本申请公开了一种使模块外壳能够方便的插入和固定在机箱壳体中、能够很好的实现模块外壳快速牢固固定、防反插、防模块错插的机箱，其包括机箱壳体、内置模块的模块外壳，机箱壳体包括两个防反插槽和一个防错插滑槽，模块外壳包括两个锁紧轨和一个防错插销，两个防反插槽分别设在机箱壳体内部的左右两侧，两个锁紧轨分别设在模块外壳的左右两侧，锁紧轨与防反插槽配合连接，防错插滑槽设在机箱壳体内部的后侧，防错插销设在模块外壳的后侧，防错插滑槽与防错插销配合连接。
+13. 203287671 一种具有散热结构的摄像机
+CN
+13.11.2013
+G03B 17/55 Loading...
+G03B 17/55
+Loading...
+201320357352.3
+北京汉邦高科数字技术股份有限公司
+姚二军
+G03B 17/55
+Loading...
+本申请公开了一种散热效果好、成本低的具有散热结构的摄像机，其包括前罩、镜片组件、灯板、装有PCB板的主板安装支架、中筒、后盖，镜片组件安装在前罩内，灯板通过螺钉固定到前罩，该摄像机还包括散热块，散热块设在灯板和主板安装支架之间。
+14. 103345385 一种串行事件转换成并行事件的方法
+CN
+09.10.2013
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201310322497.4
+北京汉邦高科数字技术股份有限公司
+程卫双
+G06F 9/38
+Loading...
+本发明公开了一种不会阻塞事件回调函数、同时使原本只能串行执行的业务逻辑能并行地被执行的串行事件转换成并行事件的方法，包括事件定义、事件接收处理、事件分发三个步骤，通过使用内存池技术、线程池技术和业务控制逻辑来实现串行事件并行化。
+15. 103325399 一种播放和备份录像文件的方法
+CN
+25.09.2013
+G11B 20/10 Loading...
+G11B 20/10
+Loading...
+201310179735.0
+北京汉邦高科数字技术股份有限公司
+王震
+G11B 20/10
+Loading...
+本发明公开了一种操作简单容易、显示高效稳定的播放和备份录像文件的方法，该方法采用面向对象的编程语言，对其组成部分进行封装，并提供外部接口进行通信，其组成部分包括日历控件、通道选择区控件、视频播放区控件、时间轴控件、播放控制区控件；时间轴控件包括外部窗口和内嵌窗口；外部窗口设有时间刻度和选择备份录像文件时间段的游标，并作为外部接口；内嵌窗口动态地在该窗口添加主机设备的通道，按行在该窗口中排列显示，设有滚动条操作；时间轴控件按背景层、文件记录层、动态层进行绘制；内部数据的存储采用开源的标准模板库STL。
+16. 103279399 一种嵌入式CPU在NAND Flash上启动的方法
+CN
+04.09.2013
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+201310260943.3
+北京汉邦高科数字技术股份有限公司
+倪成钢
+G06F 11/00
+Loading...
+本发明公开了一种安全可靠的嵌入式CPU在NAND Flash上启动的方法，本方法将嵌入式CPU的引导固件Boot ROM中设置嵌入式CPU引导模块和数据完整性校验模块；嵌入式CPU引导模块完成初始化CPU、内存、NAND Flash后去指定的NAND Flash块的起始页找特定的描述符；数据完整性校验模块在搬运的过程中进行数据校验来保证全功能的Boot ROM的数据有效性。
+17. 103279928 一种基于大气散射模型的图像增强方法
+CN
+04.09.2013
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201310194227.X
+北京汉邦高科数字技术股份有限公司
+丘江
+G06T 5/00
+Loading...
+本发明公开了一种能够自适应保留图像暗部及高亮部分信息的基于大气散射模型的图像增强方法，包括步骤：（1）基于大气散射模型的暗原色通道原理的直方图图像均衡化：利用大气散射模型的暗原色通道特性及图像直方图分布特性控制图像均衡化范围，使均衡化后的图像利于保持图像中暗部及高亮区域细节特征；（2）基于大气散射模型的暗原色图像恢复。
+18. 203167110 一种网络摄像机系统
+CN
+28.08.2013
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+201320148370.0
+北京汉邦高科数字技术股份有限公司
+乔勇
+H04N 5/225
+Loading...
+本实用新型公开了一种对实际的天气和环境状况做针对性的2A设置的网络摄像机系统，包括通过网络通信的网络摄像机和基于地理信息系统GIS的服务器，网络摄像机包括GPS模块和通信模块。
+19. 203054821 一种分时控制硬盘启动的装置
+CN
+10.07.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201320039317.7
+北京汉邦高科数字技术股份有限公司
+钱正伟
+G06F 9/445
+Loading...
+本申请公开了一种在提高产品性能的同时又尽可能地降低产品成本的分时控制硬盘启动的装置，硬盘分为A组硬盘和B组硬盘，该装置包括单片机、A组硬盘电源控制电路、B组硬盘电源控制电路、直流电压转换器，通过单片机的时序控制单元控制A组硬盘电源控制电路、B组硬盘电源控制电路的开和关，A组硬盘电源控制电路、B组硬盘电源控制电路各自向A组硬盘SATA电源接口、B组硬盘SATA电源接口输出12V电压，A组硬盘电源控制电路、B组硬盘电源控制电路分别连接一个直流电压转换器从而各自向A组硬盘SATA电源接口、B组硬盘SATA电源接口输出5V电压。
+20. 103078865 一种基于TCP协议的网络服务器通信模型
+CN
+01.05.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310011088.2
+北京汉邦高科数字技术股份有限公司
+程卫双
+H04L 29/06
+Loading...
+本发明公开一种使网络应用服务器高效、稳定、逻辑清晰、易于维护的基于TCP协议的网络服务器通信模型，其包括物理传输层、逻辑控制层和业务处理层；物理传输层负责网络通信的TCP连接的建立和终止，完整网络数据包的接收与发送；逻辑控制层负责网络用户登录服务器的逻辑处理和用户的用户登录信息维护；业务处理层负责处理已登录的用户进行的业务操作。
+21. 202871266 一种超高分辨率的解码显示装置
+CN
+10.04.2013
+G09G 5/14 Loading...
+G09G 5/14
+Loading...
+201220429095.5
+北京汉邦高科数字技术股份有限公司
+钱正伟
+G09G 5/14
+Loading...
+本申请公开了一种超高分辨率的解码显示装置，其包括互连的第一解码芯片、第二解码芯片、第三解码芯片、第四解码芯片和拼接的第一显示屏、第二显示屏、第三显示屏、第四显示屏，高清码流连接到第一解码芯片，第一解码芯片、第二解码芯片、第三解码芯片、第四解码芯片分别连接到第一显示屏、第二显示屏、第三显示屏、第四显示屏。由于该装置通过四个显示屏拼接并同步显示高清码流，所以该装置相对于专业级的高分辨率液晶显示器产品更适用大众、价格更便宜。
+22. 103024328 一种提高数字视频录像机抓图质量的方法
+CN
+03.04.2013
+H04N 5/76 Loading...
+H04N 5/76
+Loading...
+201210585302.0
+北京汉邦高科数字技术股份有限公司
+郜向阳
+H04N 5/76
+Loading...
+本发明公开一种在不增加硬件成本下提高图像的抓图质量、更好地应用于监控服务的提高数字视频录像机抓图质量的方法，将一种基于权重的亮度灰度分区域线性扩展图像增强算法应用在数字视频录像机DVR抓图处理方法中，在生成抓图文件前，由一种基于权重的亮度灰度分区域线性扩展图像增强算法对原始图像数据进行图像增强运算以提高图像质量，之后再将经图像增强运算后的图像数据存储为图像文件；其中数字视频录像机DVR抓图处理方法包括：获取原始图像数据；亮度灰度极值统计；输入图像亮度灰度阈值判定；输入图像亮度灰度分区域；输入图像分区域亮度灰度统计；输出图像亮度灰度分区域；基于权重的亮度灰度分区域线性扩展；存储处理后图像数据。
+23. 202798934 一种全景摄像机装置
+CN
+13.03.2013
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+201220471213.9
+北京汉邦高科数字技术股份有限公司
+于建兵
+H04N 5/225
+Loading...
+本申请公开了一种全景摄像机装置，其包括第一高清摄像头、第二高清摄像头、图像处理单元，图像处理单元分别与第一、第二高清摄像头连接，第一高清摄像头面向第一方向安装，第二高清摄像头面向第二方向安装。由于第一高清摄像头面向第一方向安装，第二高清摄像头面向第二方向安装，并且图像处理单元对来自两个高清摄像头的数据进行处理，所以能够可视范围大、使用寿命长、边缘无畸变。
+24. 202794799 一种摄像机镜片的通用安装装置
+CN
+13.03.2013
+G03B 17/08 Loading...
+G03B 17/08
+Loading...
+201220401573.1
+北京汉邦高科数字技术股份有限公司
+姚二军
+G03B 17/08
+Loading...
+本申请公开了一种既适用普通灯镜片也适用点阵灯镜片的摄像机镜片的通用安装装置，其包括前罩、镜片组合体、镜片防水圈、中筒，镜片组合体包括大镜片、挡光圈、小镜片，镜片防水圈套在镜片组合体上并且镜片防水圈内边缘的切口与大镜片外边缘的切口对齐，该装置还包括外边缘带凸台的镜片固定支架，该凸台的一部分卡在镜片防水圈的凹槽内，另一部分卡在中筒的内壁筋上凹槽内，前罩的内壁与中筒的外壁通过螺纹连接。
+25. 102937412 一种摄像设备异物遮挡检测及智能报警的方法
+CN
+20.02.2013
+G01B 11/02 Loading...
+G01B 11/02
+Loading...
+201210458035.0
+北京汉邦高科数字技术股份有限公司
+杨素萍
+G01B 11/02
+Loading...
+本发明公开了一种占用极少的系统资源、对处理器要求不高、传感器具有很强实时性、灵活设置检测灵敏度、有效弥补视频分析处理检测异物遮挡方法的不足、成本更低、产品设计更容易实现的摄像设备异物遮挡检测及智能报警的方法，包括步骤：（1）系统启动；（2）判断检测功能是否开启，是则执行步骤（3），否则执行步骤（2）；（3）设置灵敏度等级n以及每个灵敏度级的检测周期T和距离阈值D，计数器清零；（4）开始计时，通过测距传感器获得检测周期T内的距离数据d1-dn，d1-dn指被检测的异物与摄像设备上测距传感器之间的位移；（5）计算d=（d1-dn）/n，d是位移值的均值；（6）判断d是否小于D，是则执行步骤（7），否则执行步骤（8）；（7）确定摄像设备有异物遮挡；（8）计时清零，读取T和D，跳转步骤（4）。
+26. 102932665 一种网络硬盘录像机解码性能的测试方法
+CN
+13.02.2013
+H04N 17/06 Loading...
+H04N 17/06
+Loading...
+201210458191.7
+北京汉邦高科数字技术股份有限公司
+籍书涛
+H04N 17/06
+Loading...
+本发明公开了一种能够方便地模拟各种有损压缩数据及各种网络状况进行测试的网络硬盘录像机解码性能的测试方法，包括以下步骤：（1）制作H.264原始数据文件；（2）在计算机上启动模拟软件，将该H.264原始数据文件进行丢帧、帧顺序颠倒、数据错误的处理，然后模拟网络阻塞、丢包、非实时、网络抖动地向外发送；（3）在解码芯片端通过网络接收计算机上的模拟软件发出经过步骤（2）处理的数据流，将这些数据流进行解码处理；（4）观测解码芯片的效果和性能。
+27. 202632214 一种具有双飞梭的操控装置
+CN
+26.12.2012
+G06F 3/033 Loading...
+G06F 3/033
+Loading...
+201220022832.X
+北京汉邦高科数字技术股份有限公司
+姚二军
+G06F 3/033
+Loading...
+本实用新型公开了一种使外飞梭在360度范围内旋转且与内飞梭配合操作从而实现类鼠标的操控功能、方便用户操作的具有双飞梭的操控装置，第二编码器焊接在电路板上，电路板通过螺钉连接到塑胶面壳的内部，内飞梭、外飞梭露出塑胶面壳的圆孔，设有内飞梭装饰圈的内飞梭卡在第二编码器上，外飞梭套在内飞梭外，在电路板上还焊接有第一编码器，外飞梭卡在第一编码器上，外飞梭第一装饰圈通过其自身的卡扣将聚乙烯扩散膜和外飞梭第二装饰圈卡于所述圆孔内。
+28. 102779265 Fixed-point type human face detection method
+CN
+14.11.2012
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110117985.2
+北京汉邦高科数字技术股份有限公司
+丘江
+G06K 9/00
+Loading...
+The invention discloses a fixed-point type human face detection method. According to the method, fixed-point number conversion can be realized for parameters of a relevant training floating-point model of a waterfall cascaded classifier in an AdaBoost human face detection algorithm, and fixed-point calculation and conversion can be performed on a relevant floating-point calculation process. The method specifically comprises the steps of: (1) effective separation of relevant parameters of a strong classifier from relevant parameters of a weak classifier from the calibration perspective according to classified calculation characteristics of the strong classifier and the weak classifier in the waterfall cascaded classifier; (2) conversion of the floating-point number of the parameter theta into the fixed-point number, calculation of Harr features and fixed-point calculation of integral image calculation according to the classified calculation characteristics of the weak classifier; (3) conversion of the floating-point number of at and a_th in the strong classifier into the fixed-point number according to the classified calculation characteristics of the strong classifier and parameter definitions; and (4) conversion of floating-point calculation of the AdaBoost human face detection algorithm into fixed-point calculation.
+29. 102780847 Camera automatic focusing control method focused on moving target
+CN
+14.11.2012
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+201210288584.8
+北京汉邦高科数字技术股份有限公司
+丘江
+H04N 5/232
+Loading...
+The invention discloses a camera automatic focusing control method focused on a moving target. The camera automatic focusing control method comprises the steps of: 1, calibrating a moving target position region in a scene by adopting a background subtraction-based moving target detection algorithm; and 2, realizing automatic focusing of a camera lens for the calibrated moving target by adopting a target gray gradient-based automatic focusing control algorithm after determining a camera focusing region and a focusing target, wherein the step 1 comprises the following sub-steps of: 1.1, carrying out Gaussian smoothing filter preprocessing; 1.2, modeling a Gaussian background model; 1.3, extracting a target foreground region; 1.4, updating the Gaussian background model; and 1.5, carrying out mathematical morphological processing on the target foreground region; and the step 2 comprises the sub-steps of: 2.1, extracting a moving target focusing region; 2.2, calculating a focusing evaluation function; and 2.3, carrying out focusing control.
+30. 202433439 一种接口信号检测告警电路
+CN
+12.09.2012
+G01R 19/165 Loading...
+G01R 19/165
+Loading...
+201120548888.4
+北京汉邦高科数字技术股份有限公司
+庞威
+G01R 19/165
+Loading...
+公开了一种适用检测多种接口信号、能够准确报警的接口信号检测告警电路，包括检测电路和告警电路，检测电路包括运算放大器、单稳态触发器、或门，运算放大器包括第一电压比较器、第二电压比较器；接口信号输入端与第一电压比较器的-输入端和第二电压比较器的+输入端连接，第一电压比较器的+输入端与上限电压的设置电阻连接，第二电压比较器的-输入端与下限电压的设置电阻连接，第二比较器输出端与告警电路输入端相连，第一比较器输出端与告警电路输入端和单稳态触发器输入端相连，单稳态触发器输出端与或门输入端相连，或门的输出端与告警电路的输入端相连，单稳态触发器设有延时时间设置电路。
+31. 202307127 一种对视频录像定位和检索的装置
+CN
+04.07.2012
+G11B 27/10 Loading...
+G11B 27/10
+Loading...
+201120411945.4
+北京汉邦高科数字技术股份有限公司
+杨俊柯
+G11B 27/10
+Loading...
+公开了一种检索直观、定位精确、效率高、适用范围广、适合大容量数字视频监控录像的检索的对视频录像定位和检索的装置，圆形按钮形状的时间飞梭由环形的功能飞梭环绕，时间飞梭编码器通过圆筒形的时间飞梭连接器与时间飞梭相连，功能飞梭编码器通过圆筒形的功能飞梭连接器与功能飞梭相连，时间飞梭编码器和功能飞梭编码器均连接到处理器，处理器连接到录像检索设备。
+32. 102496009 智能银行视频监控中的多人脸跟踪方法
+CN
+13.06.2012
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110408154.0
+北京汉邦高科数字技术股份有限公司
+杨慧松
+G06K 9/00
+Loading...
+公开了一种用于智能银行视频监控的多人脸跟踪方法，包括：用人脸检测子系统在当前帧内扫描得到人脸位置并添加到检测链表；在初始帧数后，拷贝检测链表中的人脸到中间跟踪链表，启动多人脸跟踪器；在当前帧内初始化检测链表、中间跟踪链表、输出跟踪链表；如果两个跟踪链表非空且有元素与检测到人脸目标匹配，用检测的人脸信息更新跟踪链表中相应的人脸状态；再次扫描检测链表，如果有未匹配的人脸目标，判别为当前帧内新人脸，并加入到中间跟踪链表；扫描中间跟踪链表，若某人脸目标的持续帧数达到阈值，则将该人脸目标转移到输出跟踪链表；对于两个跟踪链表中未匹配上的人脸判为帧内失配；多人脸跟踪的结果取自输出跟踪链表中的人脸状态信息。
+33. 102436839 一种对视频录像定位和检索的方法及其装置
+CN
+02.05.2012
+G11B 27/10 Loading...
+G11B 27/10
+Loading...
+201110328409.2
+北京汉邦高科数字技术股份有限公司
+杨俊柯
+G11B 27/10
+Loading...
+公开了一种检索直观、定位精确、效率高、适用范围广、适合大容量数字视频监控录像的检索的对视频录像定位和检索的方法，包括以下步骤：(a)采用双飞梭操作模式，一个是用于功能选择的功能飞梭，另一个是用于时间轴定位检索的时间飞梭；(b)在视频时间轴上使用时间飞梭快速定位录像，使时间飞梭正反向旋转用于时间轴上前后移动定位；(c)时间飞梭静止时在目前的时间轴的刻度上从当前位置回放录像；(d)录像播放过程中使功能飞梭正反向旋转来选择快进、快倒播放模式；(e)快进、快倒播放模式时反方向旋转功能飞梭，以便恢复正常播放速度。还提供了实现该方法的装置。
+34. 102411832 网络监控设备智能跟踪检测方法及系统
+CN
+11.04.2012
+G08B 25/00 Loading...
+G08B 25/00
+Loading...
+201110207514.0
+北京汉邦高科数字技术股份有限公司
+刘富华
+G08B 25/00
+Loading...
+本发明涉及一种网络监控设备智能跟踪检测方法，还涉及一种网络监控设备智能跟踪检测系统。所述系统包括管理服务器和若干监控设备，某一监控设备检测到告警情况时，该监控设备向与之关联的所有其它监控设备发送告警命令，其它设备接收到命令后启动监控告警功能，同时该监控设备将触发的告警信息上传至管理服务器；管理服务器接收并记录监控设备送来的告警触发信息，对告警触发信息进行分析归类，根据接收的先后顺序对与监控目标相关的所有文件连续存储。本发明的设计符合实际情况，利用本发明存储的数据，可以在出现事故后很方便找到相关线索，使得找证据简易方便。
+35. 102348107 一种实现网络监控视频即插即用的方法
+CN
+08.02.2012
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201110331593.6
+北京汉邦高科数字技术股份有限公司
+宁立君
+H04N 7/18
+Loading...
+本发明公开了一种操作简单方便的实现网络监控视频即插即用的方法，网络录像机NVR采用多网口的即插即用模块，该模块的主控芯片通过Switch芯片与多个网口连接，每个网口与连接网络摄像机IPC的视频通道一一对应；当有IPC插入网口时，NVR得到该IPC的MAC地址，通过RARP协议为该IPC分配新的IP地址，分配地址后NVR自动登录到IPC；当有IPC从网口拔出时，NVR检测到该IPC被移出，并把其MAC地址从网口配置表中去除。
+36. 102281444 Automatic volume control (AVC)-standard-based video conversion device
+CN
+14.12.2011
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201110257226.6
+Beijing Hanbanggaoke Digital Technology Co.,Ltd.
+Zhang Jiaming
+H04N 7/26
+Loading...
+The invention discloses an automatic volume control (AVC)-coding-format-based video conversion device with high macro block predicting mode selecting accuracy, short time for extracting features and no any drift effect. A macro block predicting mode is selected by using a mode identification technology. The macro block predicting mode selecting process is a category decision process in mode identification. The extracted features are input into a classifier, and a classification result, namely the macro block predicting mode is acquired. The classifier is acquired by training, so the designed video conversion device comprises a training module and a conversion module for designing the classifier; and the classifier is used for selecting the macro block predicting mode.
+37. 102253890 Embedded debugging method
+CN
+23.11.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110234401.X
+Beijing Hanbanggaoke Digital Technology Co.,Ltd.
+Tong Yonghui
+G06F 11/36
+Loading...
+The invention discloses an embedded debugging method which is capable of not reducing the operation efficiency of embedded equipment, flexibly controlling and monitoring the operation state of the embedded equipment and rapidly discovering and eliminating software and hardware faults of the embedded equipment. In the embedded debugging method, a request-response model is adopted, and an embedded server side, a communication protocol and an embedded client side are comprised, wherein the embedded server side is an independent module based on C language development, the embedded client side is a windows-based graphical tool, and the communication protocol is a communication rule of the embedded server side and the embedded client side.
+38. 102254183 Face detection method based on AdaBoost algorithm
+CN
+23.11.2011
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201110200287.9
+Beijing Hanbanggaoke Digital Technology Co.,Ltd.
+Qiu Jiang
+G06K 9/62
+Loading...
+The invention discloses a face detection method based on an AdaBoost algorithm. The method has higher real-time performance and is used for detecting faces in multi-channel monitoring video images. The method comprises the following steps of: (1) processing an image to be detected by using a scaling algorithm to generate a pyramid image set; (2) searching the faces step by step by using an AdaBoost face detector with predetermined size in the pyramid image set, wherein the AdaBoost face detector comprises a Harr characteristic computation and waterfall cascaded classifier, and the cascaded classifier comprises a strong classifier and a simple classifier; and (3) calibrating face positions. The step (2) comprises the following sub-steps of: (2.1) setting face determination quick jump control of the classifier and non-face determination quick quit control of the classifier; (2.2) combining classification computation of the strong classifier into that of the simple classifier, and constructing a new waterfall cascaded classifier; and (2.3) performing face detection and non-face detection by the new waterfall cascaded classifier.
+39. 102231808 Device and method for converting high-definition video data into eight paths of standard-definition video data
+CN
+02.11.2011
+H04N 5/268 Loading...
+H04N 5/268
+Loading...
+201110185966.3
+Beijing Han Bang Gao Ke Co.,Ltd.
+Zhao Jiaming
+H04N 5/268
+Loading...
+The invention discloses a method for converting high-definition video data into eight paths of standard-definition video data. Fewer parts are required, and the method is simple in design and low in cost. The method comprises the following steps of: transmitting odd fields of the standard-definition video data by utilizing the first frame of the high-definition video data, transmitting even fields of the standard-definition video data by utilizing the second frame of the high-definition video data, and setting that eight pieces of standard-definition video data are to be transmitted, wherein the organization form of the standard-definition video data is that: when the odd fields of the eight pieces of standard-definition video data are transmitted, the first rows of the first to eight paths of standard-definition video data are transmitted, and the third rows of the first to eight paths of standard-definition video data transmitted until the 575th row of the eight path is transmitted; and the even fields of the eight pieces of standard-definition video data are transmitted in the same way. The invention also provides a device adopting the method.
+40. 202026408 一种控制调节视频摄录设备OSD菜单的装置
+CN
+02.11.2011
+H04N 5/262 Loading...
+H04N 5/262
+Loading...
+201120150126.9
+北京汉邦高科数字技术有限公司
+韩培月
+H04N 5/262
+Loading...
+公开了一种占用空间小、成本低的控制调节视频摄录设备OSD菜单的装置。其包括开关装置和OSD控制器，开关装置控制OSD控制器将设定的OSD叠加到视频流，开关装置的数量是一个，其连接到一个控制电路，控制电路包括微控制单元MCU和定时器，MCU分别与OSD控制器和定时器相连，即通过一个开关装置控制调节视频摄录设备的OSD菜单。
+41. 102158656 Device and method for controlling and adjusting OSD (on-screen display) menu of video recording device
+CN
+17.08.2011
+H04N 5/262 Loading...
+H04N 5/262
+Loading...
+201110122169.0
+Beijing Hanbanggaoke Digital Technology Co.,Ltd.
+Han Peiyue
+H04N 5/262
+Loading...
+The invention discloses a device for controlling and adjusting an OSD (on-screen display) menu of a video recording device, and the device has the advantages of small occupied space and low cost. The device comprises one switching device and an OSD controller, wherein, the switching device controls the OSD controller to superpose the set OSD into a video stream and is connected to a control circuit; and the control circuit comprises a micro control unit (MCU) and a timer, and the MCU is respectively connected with the OSD controller and the timer, namely, the OSD menu of the video recording device is controlled and adjusted by one switching device. The invention further provides a method using the device.
+42. 102082793 Method for configuring audio-video services
+CN
+01.06.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010623628.9
+Beijing Hanbang Technology Corp.
+Sun Xin
+H04L 29/06
+Loading...
+The invention discloses a method for configuring audio-video services, which accords with a request-response model. A request message body comprises (a1) a resource path which expresses a hierarchical structure of each resource in the manner of a UNIX file system path, and (a2) a resource access mode which comprises four types of retrieving, updating, creating and deleting; and a response message body comprises (r1) a response return value, and a special return value can be also added to each resource. Because the method is an abstract method for service requirements, each resource is necessarily created, accessed, updated and deleted in service practice; when the resource is accessed, a resource path is utilized to indicate which resource is accessed and indicate an access method and obtain or update resource representation. In the method, mandatory provisions are not specified for a concrete form. The method is used for describing the essence behind message exchange, which means that, firstly, the method can only be concretely applied when the method and a bearer protocol, such as HTTP (Hyper Text Transport Protocol) or D-Bus necessarily form an entity protocol; and secondly, the method can be applied to any bearer protocol and generally used for various audio-video services.
+43. 201590850 一种视频装置
+CN
+22.09.2010
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200920246272.4
+北京汉邦高科数字技术有限公司
+艾奇
+H04N 5/14
+Loading...
+公开了一种视频装置。这种视频装置包括外壳和机体，外壳包括上插板、下插板、和后接口板，视频装置通过上插板与摄像机固定连接，并通过下插板与支架固定连接，后接口板上设有视频接口和电源接口。由于将视频装置通过上插板与摄像机紧密连接成一体并通过下插板与支架固定连接，又通过后接口板将摄像机上的视频线和电源线与视频装置相连，所以安装方便、易于小型化。
+44. 201589888 一种网络摄像机的调焦结构
+CN
+22.09.2010
+G02B 7/04 Loading...
+G02B 7/04
+Loading...
+200920246868.4
+北京汉邦高科数字技术有限公司
+孙向红
+G02B 7/04
+Loading...
+本实用新型涉及一种网络摄像机的调焦结构，包括前盖、移动套圈和调焦套圈，所述移动套圈通过螺纹嵌入连接在所述前盖里，所述调焦套圈固定套在所述移动套圈的外表面，且所述调焦套圈在所述前盖的外侧能够转动。进一步地，所述调焦套圈的内壁上设有凸键，所述移动套圈的外壁上开有凹槽，所述调焦套圈的凸键卡在所述移动套圈的凹槽里，共有3对凸键和凹槽，它们之间呈均匀分布。通过旋转(向左或向右)调焦套圈，使移动套圈沿着螺纹不断地向里或向外移动，从而达到调节焦距的目的。该结构不仅解决了摄像机成像左右有偏差的问题，而且解决了镜头有微小晃动的问题，还使得摄像机寿命加长、调焦使用更加方便。
+45. 201590255 一种硬盘安装结构
+CN
+22.09.2010
+G11B 33/04 Loading...
+G11B 33/04
+Loading...
+201020046982.5
+北京汉邦高科数字技术有限公司
+姚二军
+G11B 33/04
+Loading...
+本实用新型涉及一种硬盘安装结构，包括箱体、硬盘和硬盘支架，其特征在于：所述硬盘支架为长方形，其左右两侧设有用于卡住硬盘的卡壁，该卡壁的两端壁与中间壁成反向垂直弯曲状，沿该卡壁的中间壁有一向外垂直折弯的固定壁，所述固定壁上开有连接箱体的固定孔，所述硬盘支架的四个角上开有固定硬盘的固定孔；所述硬盘卡在所述硬盘支架与所述箱体内表面之间，且所述硬盘底面紧贴着箱体内表面。所述箱体的内表面至少设有两个螺柱，通过螺钉将所述固定壁上的固定孔与所述箱体内表面的螺柱固定，所述中间壁的高度为2.5mm～3.5mm。该结构能够使不同厚度的硬盘方便地与箱体固定，同时解决了硬盘在箱体内常见的散热不良问题。
+46. 101706814 Motion vector based file storage overlay method
+CN
+12.05.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910241621.8
+Beijing Hanbanggaoke Digital Technology Co., Ltd.
+Ai Qi
+G06F 17/30
+Loading...
+The invention relates to a motion vector based file storage overlay method, comprising the following steps: setting index blocks in storage media, setting header information for each video file storage block and deciding whether to delete the video file storage blocks by comparing the total statistics of the motion vectors of the header information in the video file storage blocks and the thresholds of the motion vectors in the index blocks, wherein the thresholds are set by users. The invention further sets time period preferred values in the index blocks. If the storage media are not enough to store the current video files, the time period preferred values and the thresholds of the motion vectors, which are set by the users, are read, according to time sequence, the statistics of the motion vectors in the time period in the header information of each file storage block are compared with the thresholds of the motion vectors to decide whether to delete the video file storage blocks. Compared with the prior art, the method has intelligence and can enable the useful history files to be stored for a long time under the condition of full storage media.
+47. 201467383 视频帧率测试仪
+CN
+12.05.2010
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200920110518.5
+北京汉邦高科数字技术有限公司
+张海峰
+H04N 17/00
+Loading...
+本实用新型涉及一种视频帧率测试仪，包括(1)图像采集部件，其用于采集被测设备播放的测试序列上的标识，并将采集的标识送到数据分析部件；(2)数据分析部件，其用于分析被测设备上标识的变化。进一步地，该测试仪还包括(3)音频采集部件，其用于采集测试序列中的音频信号，并将采集的音频信号送到数据分析部件。本实用新型能够对视频显示设备的视频显示帧率和音视频同步性能进行准确地测试，并且使用方便、适用范围广、测试范围大。
+48. 101616331 Method for testing video frequency frame rate and audio-video synchronous performance
+CN
+30.12.2009
+H04N 7/56 Loading...
+H04N 7/56
+Loading...
+200910090062.5
+Beijing Hanbanggaoke Digital Technology Co., Ltd.
+Zhang Haifeng
+H04N 7/56
+Loading...
+The invention relates to a method for testing video frequency frame rate and audio-video synchronous performance, comprising the following steps: (a) a video testing sequence of a specified testing frame rate is made; (b) a recognizable identification is overlaid on a fixed position of each frame of the video testing sequence; (c) audio signal with different frequencies is made according to each frame of the video testing sequence; (d) the video testing sequence is played on a tested device, and the audio signal corresponding to each frame of the video testing sequence is simultaneously played; (e) the change of the identification on the video testing sequence played by the tested device is analyzed to calculate practical video displaying frame rate; the audio-video synchronous performance is calculated by analyzing identification on the video testing sequence played by the tested device and the corresponding audio signal. The invention can accurately test video frequency displaying frame rate and audio-video synchronous performance of the video displaying device, and has convenient utilization, wide application range and large testing range.
+49. 201226564 一种支持多种视频压缩标准的模拟输出装置
+CN
+22.04.2009
+H04N 5/268 Loading...
+H04N 5/268
+Loading...
+200820007373.1
+北京汉邦高科数字技术有限公司
+杨晔
+H04N 5/268
+Loading...
+一种支持多种视频压缩标准的模拟输出装置，包括：高速数据通道、带DRAM的视频处理单元和多路D/A转换电路，其特征在于：所述的高速数据通道，将总线输入的高带宽连续的数字视频数据通过高速数据总线传输到所述带DRAM的视频处理单元；所述带DRAM的视频处理单元，接收、存储上述数字视频信号流，通过分离还原得到多路数字视频信号，对这些信号分别进行处理并输出到对应的所述D/A转换电路；所述的多路D/A转换电路分别输出模拟视频信号。本实用新型具有结构简单、能够支持多种视频压缩标准的模拟输出的优点。
+50. 201226562 嵌入式数字录像设备多路视频回放装置
+CN
+22.04.2009
+H04N 5/265 Loading...
+H04N 5/265
+Loading...
+200820007374.6
+北京汉邦高科数字技术有限公司
+杨晔
+H04N 5/265
+Loading...
+嵌入式数字录像设备多路视频回放装置，包括压缩视频处理单元，对多路原始视频流进行压缩处理，输出压缩视频流数据；包括系统主控单元，将多路压缩视频流数据传输到对应的输出接口；还设有带多路原始视频流输入通道和DRAM的合并压缩视频处理单元，用于接收、存储未经压缩的所述多路原始视频流，通过画面分割技术将多路原始视频流数据合并为一路标准视频信号，并对标准视频信号进行压缩，输出合并视频的压缩视频流数据，通过所述的系统主控单元传输到所述的输出接口。本装置可通过回放一路合并视频信号却同时显示多路分割的图像，达到同时回放多路图像的效果。具有结构简单、成本低的优点。
+51. 200966120 四路网络视频处理装置
+CN
+24.10.2007
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200620148801.3
+北京汉邦高科数字技术有限公司
+杨晔
+H04N 7/24
+Loading...
+本实用新型公开了一种四路网络视频处理装置。这种四路网络视频处理装置，包括合成部件、带DRAM的视频处理单元、和网络处理单元，所述合成部件，其将输入的四路标准数字视频信号合成为一个数字视频信号流；所述视频处理单元，其DRAM接收、存储上述合成后的数字视频信号流，通过分离还原得到四路数字视频信号，并对这些信号分别进行处理或压缩后，输出四路对应于输入的视频信号的数据；所述网络处理单元，视频处理单元通过PCI接口控制网络处理单元，实现多种网络协议，完成四路视频的网络实时传输。由于该四路网络视频处理装置利用一个处理装置完成四路视频压缩并且同时完成系统控制和网络传输，所以集成度高、成本低。
+52. 200962653 八路视频输入装置
+CN
+17.10.2007
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200620137600.3
+北京汉邦高科数字技术有限公司
+杨晔
+H04N 7/24
+Loading...
+本实用新型公开了一种八路视频输入装置。它包括合成部件和带DRAM的视频处理单元，其中所述合成部件，其将输入的八路标准数字视频信号通过时钟倍频技术合成为两个数字视频信号流；所述视频处理单元，其DRAM接收、存储上述合成后的数字视频信号流，通过分离还原得到八路数字视频信号，并对这些信号分别进行处理或压缩，输出八路对应于输入的视频信号的数据。由于合成部件将八路视频信号通过时钟倍频技术合成为两个视频信号流并且通过视频处理单元分离还原得到八路对应于输入的视频信号的数据，从而在保证图像质量的前提下通过两个视频口输入八路视频信号。
+53. 2912166 一种多路视频输入装置
+CN
+13.06.2007
+H04N 5/765 Loading...
+H04N 5/765
+Loading...
+200620120855.9
+北京汉邦高科数字技术有限公司
+杨晔
+H04N 5/765
+Loading...
+本实用新型公开了一种多路视频输入装置。它包括合成部件和带DRAM的视频处理单元，其中所述合成部件，其将输入的多路标准数字视频信号通过时钟倍频技术合成为一个数字视频信号流；所述视频处理单元，其DRAM接收、存储上述合成后的数字视频信号流，通过分离还原得到多路数字视频信号，并对这些信号分别进行处理或压缩，输出多路对应于输入的视频信号的数据。由于合成部件将多路视频信号通过时钟倍频技术合成为一个视频信号流并且通过视频处理单元分离还原得到多路对应于输入的视频信号的数据，从而在保证图像质量的前提下通过一个视频口输入多路视频信号。
+

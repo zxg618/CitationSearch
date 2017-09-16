@@ -1,0 +1,1045 @@
+1. 106596642 基于疏水修饰的凝血检测传感器、其制备方法及应用
+CN
+26.04.2017
+G01N 27/00 Loading...
+G01N 27/00
+Loading...
+102016001112697
+中国科学院苏州生物医学工程技术研究所
+张威
+G01N 27/00
+Loading...
+本案涉及基于疏水修饰的凝血检测传感器、其制备方法及应用，该凝血检测传感器包括有压电薄膜传感器，在该压电薄膜传感器表面修饰有疏水层，所述疏水层为聚二甲苯。本案将Parylene真空蒸镀到压电薄膜传感器表面，实现表面疏水性的提高，达到了吸附纤维蛋白疏水结构域的效果；降低了对压电传感器的影响，增强传感器表面与凝血终产物纤维蛋白结合能力，实现提高传感器输出信号频率稳定性的效果；此外，本案具有可批量化修饰的特点，有助于消除芯片修饰批间差异性。
+2. 106557700 一种用于可信计算机的度量系统及方法
+CN
+05.04.2017
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201611058840.9
+苏州国芯科技有限公司
+肖佐楠
+G06F 21/57
+Loading...
+本发明公开了一种用于可信计算机的度量系统及方法，该系统包括：位于可信计算机内的可信度量部和与可信计算机连接的OPROM校验设备，OPROM校验设备用于存储对可信计算机的主板SPI闪存中的数据进行Hash校验的OPROM校验信息，以及对应的校验结果；可信度量部用于读取和复制OPROM校验信息，根据OPROM校验信息对可信计算机的主板SPI闪存中的数据进行Hash校验，并将对应的校验结果存储至OPROM校验设备。采用外接的OPROM校验设备存储OPROM校验信息，以对可信计算机主板上的SPI闪存中的数据进行校验，并存储对应的校验结果，在可信计算机进入操作系统后，用户可以直接查看记录的校验结果，且此过程中无需对主板BIOS进行修改也无需对硬件进行修改，实现方便，降低了额外的硬件成本。
+3. 106484578 一种基于可信计算机硬件的校验系统
+CN
+08.03.2017
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201610898043.5
+苏州国芯科技有限公司
+郑茳
+G06F 11/22
+Loading...
+本发明公开了一种基于可信计算机硬件的校验系统，包括：电源模块，总线接口模块和主板模块；其中，电源模块分别与总线接口模块以及主板模块连接，总线接口模块与主板模块连接；电源模块用于为总线接口模块供电；总线接口模块用于在主板模块上电之前，读取主板模块上的BIOS数据，并进行预设校验，并在预设校验通过后，控制主板模块上电。电源模块在主板模块上电之前即为总线接口模块进行供电，以供总线接口模块在主板模块上电之前对主板模块中的BIOS数据进行预设校验，从而完成度量，并在确认通过后再控制主板模块上电，避免了主板模块上一些计算机部件开始工作再进行度量造成的不可靠问题，保证了安全可信的可靠性。
+4. 103399829 高可靠性随机存储系统
+CN
+01.03.2017
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+102013000316435
+苏州国芯科技有限公司
+郑茳
+G06F 13/16
+Loading...
+本发明提供一种高可靠性随机存储系统，包括主设备模块、随机存储器和位于主设备模块和随机存储器之间的总线连接器；随机存储器和总线连接器之间设有一总线ECC桥接模块，该总线ECC桥接模块包括至少2个选通控制寄存器、至少2个总线应答选通器、至少2个总线传输选通器和ECC桥接器；总线传输选通器的第一总线输入端和ECC桥接器的编码输入端均连接到总线连接器；总线应答选通器的第一应答输入端和ECC桥接器的解码输入端均连接到随机存储器端；ECC桥接器的编码输入端和总线连接器之间设有第一开关，随机存储器和ECC桥接器的解码输入端之间设有第二开关。本发明可根据不同的应用场合灵活选择各个随机存储器是否需要ECC校验或者随机存储器内是否需要ECC校验，方便系统的扩展应用且提高了整体的效率。
+5. 106339643 一种对易失存储体权限保护的方法与系统
+CN
+18.01.2017
+G06F 21/79 Loading...
+G06F 21/79
+Loading...
+102016000710022
+苏州国芯科技有限公司
+肖佐楠
+G06F 21/79
+Loading...
+本发明公开了一种对易失存储体权限保护的方法，包括：当接收到操作请求用户的操作请求时，MPU解析操作请求中包含的操作类型和与操作类型对应的易失存储体，并根据权限保护机制判断操作请求用户是否具有操作易失存储体的权限；如果是，则MPU对DMA控制器发送授权信号；DMA控制器接收授权信号，并依据操作请求配置与操作类型对应的参数。由此可知，只有MPU授权成功后DMA控制器才能执行相应操作，避免了易失存储体中的数据被其它用户非法更改或非法读取，增加了安全性。由于增加了对易失存储体的保护机制，因此用户可以更改对易失存储体的DMA操作权限，增加了操作的灵活性。此外，本发明还公开一种对易失存储体权限保护的系统，效果如上所述。
+6. 106227503 安全芯片COS固件更新方法、服务端、终端及系统
+CN
+14.12.2016
+G06F 9/24 Loading...
+G06F 9/24
+Loading...
+201610615216.8
+苏州国芯科技有限公司
+郑茳
+G06F 9/24
+Loading...
+本发明公开了一种安全芯片COS固件更新方法，包括：接收终端发送的安全芯片COS固件更新请求；对所述终端的身份进行验证；验证通过后采用第一随机密钥对新版COS固件及其HASH值进行对称加密，并对所述第一随机密钥进行非对称加密；将加密后的数据发送至所述终端，以使所述终端对接收到的数据进行解密，并对所述HASH值进行校验通过后，对所述新版COS固件进行更新。本申请采用非对称和对称结合的加密技术，采用随机密钥加密传输数据，对更新数据在传输过程中的安全性进行保护，能够安全、可靠、方便地实现安全芯片COS固件更新。此外，本申请还提供了一种安全芯片COS固件更新服务端、终端以及系统，同样具有上述技术优点。
+7. 106209362 一种运行非对称加密算法的嵌入式系统
+CN
+07.12.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+102016000615303
+苏州国芯科技有限公司
+郑茳
+H04L 9/08
+Loading...
+本发明公开了一种运行非对称加密算法的嵌入式系统，包括：处理器、FPGA模块以及内部总线；所述处理器为硬核处理器系统，集成于所述FPGA模块的框架中，所述处理器以及所述FPGA模块之间通过所述内部总线相连；所述处理器用于接收非对称运算指令以及运算数据，将非对称运算的硬件加速逻辑写入所述FPGA模块，对所述FPGA模块的架构进行配置，并调用所述FPGA模块来加速非对称运算。本发明通过将高性能的通用性嵌入式CPU和用于非对称运算加速的FPGA模块通过高速内部总线相连，使得非对称加解密运算的性能可以高达每秒几百次以上，可以用于需要进行频繁非对称运算的应用场合，同时还能够降低方案的整体成本和难度。
+8. 103236923 用于无线局域网的安全加密方法
+CN
+28.09.2016
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+102013000176066
+苏州国芯科技有限公司
+郑茳
+H04L 9/06
+Loading...
+一种用于无线局域网的高效安全加密方法，将第一组明文编码以字为单位分为4个编码字，将第一组主密钥编码以字为单位分为4个密钥字；将所述第一组主密钥编码中第1位密钥字至第3位密钥字与第0位密钥字运算生成一个字长的第1轮子密钥，再将第1位密钥字至第3位密钥字前移至第0位至第2位密钥字的位置，将所述第1轮子密钥移至第3位密钥字的位置；送入第二组明文编码，该第二组明文编码与其上一组明文编码间隔至少4轮时钟周期；同时，送入第二组主密钥编码，该第二组主密钥编码与其上一组主密钥编码的时间间隔与所述第二组明文编码与第一组明文编码的时间间隔相同。该方法大大提高了加解密速度和单位时间的数据吞吐量，且数据的安全性强。
+9. 103310851 一种用于DTMB解调芯片的自修复SRAM控制器设计
+CN
+10.08.2016
+G11C 29/44 Loading...
+G11C 29/44
+Loading...
+102013000233633
+苏州国芯科技有限公司
+郑茳
+G11C 29/44
+Loading...
+一种用于DTMB解调芯片的自修复SRAM控制器设计，所述控制器包括出错地址存储寄存器组，用于存储出错的常规SRAM地址。错误探测电路，用于对常规SRAM进行错误探测，并将探测到的出错地址存储到所述出错地址存储寄存器组中。修复电路，用于当中心模块访问到所述出错地址存储寄存器组存储的出错地址时，映射所述出错地址到冗余SRAM中，使得所述中心模块访问所述冗余SRAM。报错电路，用于所述修复电路映射所述出错地址到冗余SRAM后，对所述常规SRAM进行错误探测，并在探测到出错地址时报错。读写控制电路，用于完成所述中心模块对常规SRAM及冗余SRAM的读写操作。
+10. WO/2016/070761 NUCLEIC ACID DETECTION BOARD AND DETECTION SYSTEM COMBINING PIEZOELECTRIC SENSING AND LOOP-MEDIATED ISOTHERMAL AMPLIFICATION
+WO
+12.05.2016
+C12M 1/38 Loading...
+C12M 1/38
+Loading...
+PCT/CN2015/093556
+SUZHOU CASENS CO., LTD.
+ZHOU, Lianqun
+C12M 1/38
+Loading...
+A nucleic acid detection board (1) and a detection system combining piezoelectric sensing and loop-mediated isothermal amplification. The nucleic acid detection board (1) comprises a piezoelectric sensor (2) and at least one pipeline (3) that passes through the surface of the piezoelectric sensor (2). Two valves (4, 5) are disposed at an interval at an upstream end of the pipeline (3) opposite to the piezoelectric sensor (2). Nucleic acid to be detected is locked in the pipeline (3) between the two valves (4, 5) for isothermal amplification before passing through the piezoelectric sensor (2). The nucleic acid detection system comprises the nucleic acid detection board (1), a thermostat (9) that can accommodate the nucleic acid detection board (1), and a signal processor (10) that can be in a data connection to the piezoelectric sensor (2). Because isothermal amplification and piezoelectric sensing are combined for joint detection, a device structure is simplified, and detection efficiency is improved. A structure that is closed all the time can avoid problems that may be involved such as aerosol contamination in nucleic acid detection, and is easy to implement batch production. The detection system is applicable to resolving existing problems of long detection time, low flux, high costs, complex steps, and the like that are caused by blood pathogens and especially caused by platelet bacterial contamination.
+11. 104730260 Portable mobile blood clotting analyzing system and blood clotting analyzing method
+CN
+24.06.2015
+G01N 33/86 Loading...
+G01N 33/86
+Loading...
+201510173012.9
+苏州国科芯感医疗科技有限公司
+周连群
+G01N 33/86
+Loading...
+The invention provides a portable mobile blood clotting analyzing system, and belongs to the technical field of mobile medical treatment. The portable mobile blood clotting analyzing system comprises a blood clotting analyzer and a mobile terminal, wherein the blood clotting analyzer is connected with the mobile terminal and is used for testing a sample; and after the blood clotting analyzer is wirelessly connected with a mobile terminal APP (application), a testing result is transmitted to a mobile terminal, the mobile terminal displays data, and measurement control is carried out. Terminal equipment such as a smart phone and a tablet personal computer and a Bluetooth communication function of a wireless medical piezoelectric sensing system are used, a display and functional keys of the blood clotting analyzing device are omitted, the blood clotting analyzing device is simple in structure and is stable in system, the size of the blood clotting analyzing device is reduced, the power consumption is low when the blood clotting analyzing device runs normally, and the feasibility of application is high.
+12. 104498353 Isothermal-amplification piezoelectric nucleic acid detection system
+CN
+08.04.2015
+C12M 1/38 Loading...
+C12M 1/38
+Loading...
+201410619272.X
+苏州国科芯感医疗科技有限公司
+周连群
+C12M 1/38
+Loading...
+A disclosed isothermal-amplification piezoelectric nucleic acid detection system comprises a constant-temperature box arranged on a support pedestal; the constant-temperature box is inside provided with a temperature control unit, a multichannel micro-fluidic chip and a micro valve switch lifting platform; and a signal acquisition system and a multichannel precise quantitative injection pump are arranged at the outside of the constant-temperature box. The system is applicable to solve the problems, which are caused by conventional blood pathogens, especially platelet bacteria pollution, that detection time is long, flux is low, cost is high and steps are tedious.
+13. 103810122 Cache for embedded system
+CN
+21.05.2014
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201310721853.X
+苏州国芯科技有限公司
+郑茳
+G06F 13/16
+Loading...
+The invention provides a cache for an embedded system. The cache comprises an address path module, a data path module, a control logic module and an instruction storage module. The instruction storage module comprises an instruction data register, an instruction address register and a status register, wherein the instruction data register is used for storing respective instruction information in several instruction segments in a centralized mode, the instruction address register is used for storing respective instruction address information in the instruction segments in a centralized mode, and the status register is used for storing respective valid status information in the instruction segments in a centralized mode. When instruction programming is carried out on an instruction memory by a CPU, if the instruction address information in the instruction address register is matched with an instruction programming address, a corresponding instruction status bit in the status register is set to be '0' which indicates invalidity. According to the cache, the instruction segments can be conveniently cleared away, it can be achieved that only instruction segments corresponding to the programming address in the cache are cleared away after programming is carried out on the instruction memory by the CPU, and accordingly cache clearing time is greatly shortened.
+14. 103810117 Instruction storage system for processor
+CN
+21.05.2014
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310722652.1
+苏州国芯科技有限公司
+郑茳
+G06F 12/02
+Loading...
+The invention provides an instruction storage system for a processor. The instruction storage system for the processor comprises a CPU, an instruction memory and a cache unit, wherein the cache unit comprises an address path module, a data path module, a control logic module and an instruction storage module, the instruction storage module stores a plurality of instruction segments, each instruction segment is composed of an instruction address bit, an instruction status bit and an instruction data bit, the instruction data bits are used for storing instruction information from the instruction memory, the instruction address bits are used for storing instruction address information, corresponding to the instruction information in the instruction data bits, in the instruction memory, the instruction status bits are used for carrying out marking to show whether the instruction information in the instruction segments is effective or not, and the instruction storage module comprises an instruction data register, an instruction address register and a status register. According to the instruction storage system for the processor, a flush operation of a cache is facilitated; after the CPU carries out a programming operation on the instruction memory, the operation that only the instruction segments corresponding to a programming address are removed can be supported, and the time, consumed in the prior art, for removing caching in the process that a programming operation is carried out on an instruction memory by a CPU is greatly shortened.
+15. 103389924 应用于随机存储器的ECC存储系统
+CN
+13.11.2013
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+201310316679.0
+苏州国芯科技有限公司
+郑茳
+G06F 11/10
+Loading...
+本发明提供一种应用于随机存储器的ECC存储系统，包括主设备模块、随机存储器和位于主设备模块和随机存储器之间的总线连接器；随机存储器和总线连接器之间设有一总线ECC桥接模块，该总线ECC桥接模块包括至少2个选通控制寄存器、至少2个总线应答选通器、至少2个总线传输选通器和ECC桥接器，该ECC桥接器包括与总线连接器连接的总线Master接口、与随机存储器连接的总线Slave接口、ECC校验码生成电路、ECC校验电路、ECC纠错电路和控制模块；总线传输选通器的第一总线输入端和ECC桥接器的编码输入端均连接到总线连接器；总线应答选通器的第一应答输入端和ECC桥接器的解码输入端均连接到随机存储器端。本发明可灵活选择各个随机存储器是否需要ECC校验或者随机存储器内是否需要ECC校验，方便系统的扩展应用且提高了整体的效率。
+16. 103345910 单端口调色板SRAM控制器及其控制方法
+CN
+09.10.2013
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+201310231426.3
+苏州国芯科技有限公司
+郑茳
+G09G 3/36
+Loading...
+本发明公开了一种单端口调色板SRAM控制器及其控制方法，所述控制器包括：调色板SRAM、寄存器、DMA、像素解包器和时钟分频器，时钟分频器用于对总线时钟进行分频并得到像素时钟，所述总线时钟的频率至少为像素时钟的2倍。本发明通过SRAM倍频以及SRAM访存仲裁的设计，只使用一块单端口SRAM就能满足双通道LCD控制器的调色板功能。所使用的SRAM的面积是现有技术的四分之一，从而降低了芯片生产成本，提高了芯片良率，降低了芯片功耗。
+17. 103346879 面积紧凑型加解密算法实现方法
+CN
+09.10.2013
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201310234106.3
+苏州国芯科技有限公司
+郑茳
+H04L 9/06
+Loading...
+一种面积紧凑型加解密算法实现方法，将明文编码以字为单位分为4个编码字，密钥编码以字为单位分为4个密钥字；将第1位密钥字至第3位密钥字与一常量运算后，再与第0位密钥字异或运算生成一个字长的第一轮密钥，再将第1位密钥字至第3位密钥字前移至第0位至第2位密钥字的位置，将所述第一轮密钥移至第3位密钥字的位置；将所述第一轮密钥与第1位编码字至第3位编码字运算后，再与第0位编码字异或运算生成一个字长的第一轮密文字，再将第1位编码字至第3位编码字前移至第0位至第2位编码字的位置，将所述第一轮密文字移至第3位编码字的位置。该方法算法硬件实现起来面积紧凑，在保证算法实现效率的前提下大大减少了算法硬件实现的电路面积。
+18. 103338449 用于提高网络安全性的算法硬件实现方法
+CN
+02.10.2013
+H04W 12/04 Loading...
+H04W 12/04
+Loading...
+201310233373.9
+苏州国芯科技有限公司
+郑茳
+H04W 12/04
+Loading...
+一种用于提高网络安全性的算法硬件实现方法，将明文编码以字为单位分为4个编码字，密钥编码以字为单位分为4个密钥字；将第1位密钥字至第3位密钥字与一常量运算后，再与第0位密钥字异或运算生成一个字长的第一轮密钥，再将第1位密钥字至第3位密钥字前移至第0位至第2位密钥字的位置，将所述第一轮密钥移至第3位密钥字的位置；将所述第一轮密钥与第1位编码字至第3位编码字运算后，再与第0位编码字异或运算生成一个字长的第一轮密文字，再将第1位编码字至第3位编码字前移至第0位至第2位编码字的位置，将所述第一轮密文字移至第3位编码字的位置。该方法算法硬件实现起来面积紧凑，在保证算法实现效率的前提下大大减少了算法硬件实现的电路面积。
+19. 103310851 一种用于DTMB解调芯片的自修复SRAM控制器设计
+CN
+18.09.2013
+G11C 29/44 Loading...
+G11C 29/44
+Loading...
+201310233633.2
+苏州国芯科技有限公司
+郑茳
+G11C 29/44
+Loading...
+一种用于DTMB解调芯片的自修复SRAM控制器设计，所述控制器包括出错地址存储寄存器组，用于存储出错的常规SRAM地址。错误探测电路，用于对常规SRAM进行错误探测，并将探测到的出错地址存储到所述出错地址存储寄存器组中。修复电路，用于当中心模块访问到所述出错地址存储寄存器组存储的出错地址时，映射所述出错地址到冗余SRAM中，使得所述中心模块访问所述冗余SRAM。报错电路，用于所述修复电路映射所述出错地址到冗余SRAM后，对所述常规SRAM进行错误探测，并在探测到出错地址时报错。读写控制电路，用于完成所述中心模块对常规SRAM及冗余SRAM的读写操作。
+20. 103269265 用于无线局域网的高速加解密方法
+CN
+28.08.2013
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201310062732.9
+苏州国芯科技有限公司
+郑茳
+H04L 9/06
+Loading...
+本发明公开一种用于无线局域网的高速加解密方法，将一组明文编码分为4个编码字，主密钥编码分为4个密钥字；将主密钥中第1位密钥字至第3位密钥字与第0位密钥字运算生成一个字长的第一轮子密钥，再将第1位密钥字至第3位密钥字前移，将所述第一轮子密钥移至第3位密钥字的位置；将所述第一轮子密钥与一组明文编码第1位编码字至第3位编码字与第0位编码字运算生成一个字长的第一轮密文字，再将第1位编码字至第3位编码字前移，将所述第一轮密文字移至第3位编码字的位置；送入第二轮明文编码，另一组明文编码以字为单位分为4个编码字，该另一组明文编码与其上一组明文编码间隔至少4轮时钟周期。该方法大大提高了加解密速度和数据吞吐量，从而扩大了使用范围。
+21. 103269482 无线局域网用加密方法
+CN
+28.08.2013
+H04W 12/04 Loading...
+H04W 12/04
+Loading...
+201310174078.0
+苏州国芯科技有限公司
+郑茳
+H04W 12/04
+Loading...
+一种无线局域网用加密方法，将第一组明文编码以字为单位分为4个编码字，将第一组主密钥编码以字为单位分为4个密钥字；将所述第一组主密钥编码中第1位密钥字至第3位密钥字与第0位密钥字运算生成一个字长的第1轮子密钥，再将第1位密钥字至第3位密钥字前移至第0位至第2位密钥字的位置，将所述第1轮子密钥移至第3位密钥字的位置；送入第二组明文编码，该第二组明文编码与其上一组明文编码间隔至少4轮时钟周期；同时，送入第二组主密钥编码，该第二组主密钥编码与其上一组主密钥编码的时间间隔与所述第二组明文编码与第一组明文编码的时间间隔相同。该方法大大提高了加解密速度和单位时间的数据吞吐量，且数据的安全性强。
+22. 103269480 无线局域网用高速加解密方法
+CN
+28.08.2013
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+201310062519.8
+苏州国芯科技有限公司
+郑茳
+H04W 12/02
+Loading...
+本发明公开一种无线局域网用高速加解密方法，将一组明文编码分为4个编码字，主密钥编码分为4个密钥字；将主密钥中第1位密钥字至第3位密钥字与第0位密钥字运算生成一个字长的第一轮子密钥，再将第1位密钥字至第3位密钥字前移，将所述第一轮子密钥移至第3位密钥字的位置；将所述第一轮子密钥与一组明文编码第1位编码字至第3位编码字与第0位编码字运算生成一个字长的第一轮密文字，再将第1位编码字至第3位编码字前移，将所述第一轮密文字移至第3位编码字的位置；送入第二轮明文编码，另一组明文编码以字为单位分为4个编码字，该另一组明文编码与其上一组明文编码间隔至少4轮时钟周期。该方法大大提高了加解密速度和数据吞吐量，从而扩大了使用范围。
+23. 103268278 支持多核处理器的SRAM控制器及其跟踪信息处理方法
+CN
+28.08.2013
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201310236387.6
+苏州国芯科技有限公司
+郑茳
+G06F 11/34
+Loading...
+本发明公开了一种支持多核处理器的SRAM控制器及其跟踪信息处理方法，所述SRAM分别通过第一数据通路和第二数据通路与若干处理器相连，SRAM控制器还通过第一数据通路与SRAM存储器相连，所述SRAM控制器包括：依次相连的过滤模块、混合模块、SRAM读写控制模块、以及分别与过滤模块、混合模块和SRAM读写控制模块相连的若干控制寄存器和若干状态寄存器。本发明通过对多处理器发出的跟踪信息进行过滤和混合，有效降低了需要存储的跟踪信息数据量，并提高了SRAM存储器存储多处理器跟踪信息时的存储单元利用率，以达到用有限的芯片内SRAM存储单元存储尽量多的多处理器跟踪信息的目的。
+24. 103246624 一种应用于多接口SRAM带权重的优先级调度方法
+CN
+14.08.2013
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201310192525.5
+苏州国芯科技有限公司
+郑茳
+G06F 13/16
+Loading...
+一种应用于多接口SRAM带权重的优先级调度方法，其特征在于：对各模块接口分别赋予一权重值，对应于每一个模块接口均设有用于记录其访问SRAM成功次数的计数器；在初始状态下，各模块接口按照初始优先级从高到低排序；在任一状态下，当多个模块接口同时对SRAM发起访问请求时，允许当前优先级较高的模块接口访问SRAM，访问成功的同时模块接口对应的计数器记录其访问成功的次数，若访问成功次数未达到该模块接口的权重值，则各模块接口的优先级排序保持不变，若访问成功次数达到该模块接口的权重值时，将该模块接口的优先级降为最低，同时将其对应的计数器清零。本发明使用灵活，同时提高了系统的吞吐量、缩短了平均处理时间、提升了系统的整体性能。
+25. 103236923 用于无线局域网的高效安全加密方法
+CN
+07.08.2013
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201310176066.1
+苏州国芯科技有限公司
+郑茳
+H04L 9/06
+Loading...
+一种用于无线局域网的高效安全加密方法，将第一组明文编码以字为单位分为4个编码字，将第一组主密钥编码以字为单位分为4个密钥字；将所述第一组主密钥编码中第1位密钥字至第3位密钥字与第0位密钥字运算生成一个字长的第1轮子密钥，再将第1位密钥字至第3位密钥字前移至第0位至第2位密钥字的位置，将所述第1轮子密钥移至第3位密钥字的位置；送入第二组明文编码，该第二组明文编码与其上一组明文编码间隔至少4轮时钟周期；同时，送入第二组主密钥编码，该第二组主密钥编码与其上一组主密钥编码的时间间隔与所述第二组明文编码与第一组明文编码的时间间隔相同。该方法大大提高了加解密速度和单位时间的数据吞吐量，且数据的安全性强。
+26. 103235760 基于CLB总线的高利用率NorFLASH存储接口芯片
+CN
+07.08.2013
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310039055.9
+苏州国芯科技有限公司
+郑茳
+G06F 12/02
+Loading...
+本发明提供一种基于CLB总线的高利用率NorFLASH存储接口芯片，包括CPU处理器，CLB总线，NorFlash接口单元，NorFlash存储器，所述NorFlash存储器经由NorFlash接口单元通过CLB总线与CPU处理器通信；所述NorFlash接口单元进一步包括上电检测电路，地址译码电路，坏块替换电路，写控制电路以及配置寄存器组和状态寄存器组，所述NorFlash存储器内具有一信息块，此信息块记载NorFlash存储器内坏块的地址、数目和替换单元替换坏块功能使能信息，所述上电检测电路内具有一用于存储来自所述信息块内信息的坏块寄存器；所述坏块替换电路用于对坏块地址的重新映射。本发明NorFLASH存储接口芯片更大程度的提高NorFLASH的利用率。
+27. 203057381 一种可进行音视频双向传输的红外遥控装置
+CN
+10.07.2013
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201320010979.1
+天津铂创国茂电子科技发展有限公司
+华中
+H04N 21/422
+Loading...
+本实用新型提供一种可进行音视频双向传输的红外遥控装置，包括触控器、MCU、音视频输入接口、音视频输出接口、接口逻辑器件、高速红外发送控制器、高速红外接收控制器和红外数据收发器。本实用新型的有益效果是除普通红外遥控功能外还兼具视频电话和音视频信号的接收功能。
+28. 103116551 应用于CLB总线的NorFLASH存储接口模块
+CN
+22.05.2013
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310039324.1
+苏州国芯科技有限公司
+郑茳
+G06F 12/02
+Loading...
+本发明提供一种应用于CLB总线的NorFLASH存储接口模块，一NorFlash存储器通过此NorFLASH存储接口模块经由CLB总线与CPU处理器进行通信，所述NorFLASH存储接口模块进一步包括上电检测电路，地址译码电路，坏块替换电路，写控制电路以及配置寄存器组和用来显示上次操作状态的状态寄存器组；所述NorFlash存储器内具有一信息块，此信息块记载NorFlash存储器内坏块单元的地址、数目、替换单元的地址和替换单元替换坏块功能使能信息，所述上电检测电路内具有一用于存储来自所述信息块内坏块信息的坏块寄存器。本发明NorFLASH存储接口模块更大程度的提高NorFLASH的利用率；可以在芯片上直接运行代码，稳定性出色，传输速率高，耗费CPU资源小。
+29. 103067026 应用于理德-所罗门码的ECC控制器
+CN
+24.04.2013
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+201210406165.X
+苏州国芯科技有限公司
+郑茳
+H03M 13/15
+Loading...
+本发明涉及一种应用于理德-所罗门码的ECC控制器，设有编码寄存器、解码寄存器、控制寄存器、状态寄存器、纠错逻辑、数据分割逻辑，控制模块，CPU在向编码寄存器或解码寄存器输入数据的同时，数据分割逻辑将编/解码数据以符号的方式传输到理德-所罗门码编/解码模块内，进行编/解码处理，实现了单一数据流完成数据传输过程和相应ECC码或纠错码产生的过程，且实现了数据传输与ECC码或纠错码运算并行处理的ECC控制器。
+30. 103064640 应用于nandflash存储设备的快速读写方法
+CN
+24.04.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201210591544.0
+苏州国芯科技有限公司
+郑茳
+G06F 3/06
+Loading...
+本发明提供一种应用于nandflash存储设备的快速读写方法，包括一ECC控制寄存器和用于对管理字节区查错的管理查错分区，此ECC控制寄存器包括：管理字节使能位、左扇区数据使能位、右扇区数据使能位、错误校验使能位、管理字节长度控制位；读用户数据区中左扇区时，则使能ECC控制寄存器中左扇区数据使能位，如果左扇区位于第一用户数据区内，则配置ECC控制寄存器中管理字节长度控制位有效；读一个由左、右两个扇区组成的用户数据区时，则使能ECC控制寄存器中左、右扇区数据使能位，如果用户数据区为第一用户数据区，则配置ECC控制寄存器中管理字节长度控制位有效。本发明提高了对nandflash存储设备的读写速度，又保证了加载信息准确性且硬件利用率。
+31. 103049408 一种多接口SRAM读写控制电路及方法
+CN
+17.04.2013
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201210581767.9
+苏州国芯科技有限公司
+郑茳
+G06F 13/16
+Loading...
+一种多接口SRAM读写控制电路及方法，所述控制电路包括接口信号转换模块和带优先级的多路选择及反馈模块，通过简单的硬件电路，判断系统中访问SRAM的各模块接口的优先级，以协调各模块接口交替连续访问SRAM。本发明既节省了软件开销，又大大提高了SRAM的访问效率，可以广泛应用于嵌入式SOC芯片。
+32. 103020535 一种带比较功能的数据加解密系统
+CN
+03.04.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210517725.9
+苏州国芯科技有限公司
+郑茳
+G06F 21/60
+Loading...
+一种带比较功能的数据加解密系统，用于在SOC安全芯片中完成对数据的批量加解密或/和比较处理。所述加解密系统在CPU对其进行相应的配置后，可以在不耗费CPU资源，并且不占用系统总线的前提下完成对大批量数据的加解密或/和比较。本发明在提高数据批处理速度以及节约CPU和系统总线资源上具有显著优势，并且保证了芯片数据信息的安全，可以广泛应用于SOC安全芯片领域。
+33. 102930212 用于办公系统的防数据泄密方法
+CN
+13.02.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201210458456.3
+苏州国芯科技有限公司
+郑茳
+G06F 21/56
+Loading...
+本发明公开一种用于办公系统的防数据泄密方法，包括：由若干台计算机组成的局域网和移动存储设备，一USB加解密桥接器和USB密钥设备；所述USB加解密桥接器一端与所述计算机主板上的南桥芯片连接，其另一端作为外露USB存储设备的主接口；USB加解密桥接器功能管理模块，其位于USB加解密桥接器与USB密钥设备，用于响应USB密钥设备的指令从而配置USB加解密桥接器功能，此USB加解密桥接器进一步包括：第一USB从接口模块；USB主接口模块；数据存储区；第一加解密模块；第一闪存存储模块；USB数据传输管理模块；所述USB密钥设备进一步包括：第二USB从接口模块；第二加解密模块；第二闪存存储模块。本发明防数据泄密方法可任意设置工作域，方便了权限管理效率，且有效避免了工作域内数据的外泄。
+34. 102930229 用于提高数据安全性的办公系统
+CN
+13.02.2013
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+201210458365.X
+苏州国芯科技有限公司
+郑茳
+G06F 21/62
+Loading...
+本发明公开一种用于提高数据安全性的办公系统，包括：由若干台计算机组成的局域网和移动存储设备，一USB加解密桥接器和USB密钥设备；所述USB加解密桥接器一端与所述计算机主板上的南桥芯片连接，其另一端作为外露USB存储设备的主接口；USB加解密桥接器功能管理模块，其位于USB加解密桥接器与USB密钥设备，用于响应USB密钥设备的指令从而配置USB加解密桥接器功能，此USB加解密桥接器进一步包括：第一USB从接口模块；USB主接口模块；数据存储区；第一加解密模块；第一闪存存储模块；USB数据传输管理模块；所述USB密钥设备进一步包括：第二USB从接口模块；第二加解密模块；第二闪存存储模块。本发明办公系统可任意设置工作域，方便了权限管理效率，且有效避免了工作域内数据的外泄。
+35. 102831028 ECC (error correction code) error correction method and system based on data bus
+CN
+19.12.2012
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+201210329967.5
+苏州国芯科技有限公司
+郑茳
+G06F 11/10
+Loading...
+The invention discloses an ECC (error correction code) error correction method and an ECC error correction system based on a data bus. The system comprises an ECC bridge, and the ECC bridge comprises a bus Master interface connected with a bus Master, a Slave interface connected with a Slave, an ECC check code generation circuit, an ECC check circuit and an ECC error correction circuit. Since access demands of the bus Master for a unit smaller than an ECC basic protection unit are automatically processed into access which complies with bit width requirements of the ECC basic protection unit, the increase of the IP (Internet Protocol) memory of the Slave can be controlled effectively.
+36. 102522123 利用数据产生器模块来提高存储设备读写测试效率的方法
+CN
+27.06.2012
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201110400460.X
+苏州国芯科技有限公司
+郑茳
+G11C 29/56
+Loading...
+一种利用数据产生器模块来提高存储设备读写测试效率的方法，其特征在于：预先在被测试的存储设备中设置一个数据产生器模块，当采用测试电脑对存储设备进行读写测试时，所有的读写测试数据不需要在测试电脑与存储设备之间传送，测试电脑只要向存储设备发送测试的写命令和测试的读命令，存储设备内部的数据产生器模块便可以按照写命令和读命令中的逻辑地址和数据模式代码产生对应数据，并进行相应的读写操作和比对。本发明减少了批量数据的传递时间，大大提高了数据的读写速度，特别是在批量化产生大容量存储设备时，极大的提高了存储设备产品的整体读写测试效率。
+37. 102280134 Method for improving data security in removable storage device
+CN
+14.12.2011
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201110164267.0
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 12/14
+Loading...
+The invention discloses a method for improving data security in a removable storage device, comprising the following steps of: dividing a storage space of the storage device into at least two partitions including a display partition and a hidden partition; setting a partition jump flag bit and appointed file information in a firmware storage unit in the storage device, wherein the appointed file information is associated with one hidden partition; uploading information of the display partition according to a partition number in the partition jump flab bit, and searching whether the appointed file information exists in the directory entry information of the display partition; if the appointed file information exists, recording a sector and an offset address of a directory entry of the appointed file information; when a firmware is detected, marking a first byte at the offset address in the storage space as 0*E5; and setting the partition jump flag bit to be the partition number of the partition associated with the file information. The method provided by the invention solves the problem of difficulty in encryption of devices, such as cameras and the like, and the encryption mode improves the data security of the devices.
+38. 102156629 Method for extending 32-bit instructions
+CN
+17.08.2011
+G06F 9/30 Loading...
+G06F 9/30
+Loading...
+201110113831.6
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 9/30
+Loading...
+The invention provides a method for extending 32-bit instructions, comprising the following steps of 1) caching 32-bit instructions: when the cache is not full, the instruction is read from an internal memory automatically, namely when the current 16 bits in the cache are used for instruction decoding, the latter 16 bits in the cache are automatically moved to the former 16 bits, and the 16-bit instructions read in the internal memory are automatically filled in the former 16 bits in the cache; 2) judgment before instruction decoding: the former n bits of the instruction in the cache are taken as reserved fields, wherein n is more than or equal to 4 and less than or equal to 16; if the reserved field is a prearranged value, the step 4) is turned to; if not, the step 3) is turned to; 3) decoding of 16-bit instructions: after the decoding is finished, the step 5) is turned to emit or execute instructions; 4) decoding of 32-bit instructions: after the decoding is finished, the step 5) is turned to; and 5) instruction emitting or executing. By adopting the method, a CCore instruction set can be extended as a 16/32-bit mixed instruction set.
+39. 102136057 2.4G/13.56M safety radio frequency card reader and authentication method thereof
+CN
+27.07.2011
+G06K 7/08 Loading...
+G06K 7/08
+Loading...
+201110041073.1
+CCore Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06K 7/08
+Loading...
+The invention discloses a 2.4GHz/13.56MHz security radio frequency card reader and an authentication method thereof. The 2.4GHz/13.56MHz security radio frequency card reader comprises a CPU (central processing unit) module, a radio frequency transmitting-receiving module and a storage module are respectively communicated with the CPU module, the 2.4GHz/13.56MHz security radio frequency card reader is characterized by further comprising a security module which is used for encrypting and decrypting and signature verification computing, the storage module comprises a security storage region and a universal storage region, the security storage region stores a secret key and a certificate of a user, and the universal storage region stores general information. The 2.4GHz/13.56MHz security radio frequency card reader is mainly used for carrying out reading and writing operation to a 13.56MHz and/or a 2.4GHz radio frequency card, thereby being convenient for users to carry out operations such as payment, transfer of account, remittance and the like at any time and any place safely.
+40. 102081713 Office system for preventing data from being divulged
+CN
+01.06.2011
+G06F 21/79 Loading...
+G06F 21/79
+Loading...
+201110020320.X
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 21/79
+Loading...
+The invention discloses an office system for preventing data from being divulged. The office system comprises a local area network consisting of a plurality of computers, mobile storage equipment, a universal serial bus (USB) encryption and decryption bridge connector and USB key equipment, wherein one end of the USB encryption and decryption bridge connector is connected with a south bridge chip on a mainboard of the computer and the other end of the USB encryption and decryption bridge connector is used as a main interface of exposed USB storage equipment; the USB encryption and decryption bridge connector further comprises a USB device 1 connected with the south bridge of the computer, a USB host, a data storage area, a first encryption and decryption module, a first flash memory module and a USB data transmission management module; and the USB key equipment further comprises a USB device 2, a second encryption and decryption module and a second flash memory module. In the office system, working areas can be set randomly, rights management efficiency is improved and data in the working areas can be effectively prevented from being divulged.
+41. 102023937 Dataflow encryption method for USB (Universal Serial Bus) storage equipment
+CN
+20.04.2011
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201010551276.0
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 12/14
+Loading...
+The invention discloses a dataflow encryption method for USB (Universal Serial Bus) storage equipment, wherein a switching device is arranged between a host machine and a USB flash disk, a first data storage area, a second data storage area, a third data storage area and a fourth data storage area are arrayed along a clockwise direction; a USB flash disk pointer points to a next data caching area along an counter-clockwise direction, meanwhile, an encryption pointer points to a next data caching area along a counter-clockwise direction, and meanwhile, a host machine pointer points to a next data caching area along the counter-clockwise direction; a main port of the switching device transmits one unit ciphertext data in the data caching area pointed by the USB flash disk pointer to the USB flash disk, an encryption module carries out encryption treatment on the data of the data caching area pointed by the encryption pointer, and the switching device transmits next unit plaintext data from the port into the data caching area pointed by the host machine pointer. The dataflow encryption method realizes the separation among the plaintext data, the ciphertext data and the encryption algorithm, and improves the data encryption speed between the host machine and the mobile storage equipment.
+42. 102023936 Method for decrypting encrypted data in USB (universal serial bus) storage device
+CN
+20.04.2011
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201010551241.7
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 12/14
+Loading...
+The invention relates to a method for decrypting encrypted data in a USB (universal serial bus) storage device, a switching device is arranged between a host and a U disk, and a first data memory area, a second data memory area, a third data memory area and a fourth data memory area of the switching device are arranged along the clockwise direction; a host pointer, a U disk pointer and a decryption pointer are configured, the host pointer and the U disk pointer point to a next data buffer area along the clockwise direction, an encryption pointer simultaneously points to the next data buffer area along the clockwise direction, and the host pointer simultaneously points to the next data buffer area along the clockwise direction; and a main port of the switching device is used for transmitting next unit ciphertext data to the data buffer area pointed by the U disk pointer, the decryption module is used for decrypting the data in the data buffer area pointed by the decryption pointer, and the switching device is used for transmitting the data in the data buffer area pointed by the host pointer from the port to the host. By adopting the method, the separation of plaintext data, the ciphertext data and the encryption algorithm can be realized, and the data decryption speed between the host and a mobile storage device can be further improved.
+43. 102013000 Universal bank card reader
+CN
+13.04.2011
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201010574175.5
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06K 7/00
+Loading...
+The invention relates to a universal bank card reader comprising a USB (universal serial bus) interface and a serial communication interface which are connected with a central processing unit, wherein the USB interface is connected with a PC (personal computer); the universal bank card reader further comprises a universal serial interface, and the universal serial interface is connected with a smart card reader; and the universal bank card reader can automatically identify whether a bank card of a user is inserted into a magnetic stripe card reader or the smart card reader. The universal bank card reader can provide the operations for two bank cards (magnetic stripe cards and smart cards) and password input, thereby having the characteristics of being convenient and flexible for operation.
+44. 102013001 Card reader with authentication function and authentication method thereof
+CN
+13.04.2011
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201010574214.1
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06K 7/00
+Loading...
+The invention relates to a card reader with an authentication function, comprising a serial communication interface and/or a universal serial interface connected with a central processing unit (CPU), a universal serial bus (USB) interface, a universal input and output interface, a memory module and a safety module, wherein the memory module and the safety module are connected with the CPU; the serial communication interface is used for being connected with a magnetic strip card reader; the universal serial interface is used for being connected with an intelligent card reader; the universal input and output interface is connected with a digital keyboard; and the USB interface is connected with a personal computer (PC), or is connected with a bank server through the PC. A public key infrastructure (PKI) technique is adopted for the authentication of the card reader in the invention between the card reader and the bank server, a certificate issued by a certification authority(CA) is adopted to realize identity authentication between both communication parties, the operation can be carried out on a bank card only by the card reader which is qualified for the identity authentication of the bank server, and all the data transmitted by the card reader are ciphertext data, thereby greatly improving the safety of the card reader.
+45. 102012890 Universal serial bus (USB) data transmission method for composite keyboard and fingerprint recognizer
+CN
+13.04.2011
+G06F 13/42 Loading...
+G06F 13/42
+Loading...
+201010563593.4
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 13/42
+Loading...
+The invention discloses a universal serial bus (USB) data transmission method for a composite keyboard and a fingerprint recognizer, comprising the following steps: setting an interrupt endpoint and a Bulk endpoint under a USB controller of same equipment; distributing a USB address, an interrupt endpoint address and a Bulk endpoint address to the equipment by a host based on a descriptor from the equipment; storing data in a packet into a first cache region corresponding to the interrupt endpoint when the endpoint address in the packet is in line with the interrupt endpoint address; storing data in the packet into a second cache region corresponding to the Bulk endpoint when the endpoint address in the packet is in line with the Bulk endpoint address; and performing data transmission between the first cache region and a keyboard matrix or performing data transmission between the second cache region and a serial peripheral interface (SPI) of the fingerprint recognizer. In the invention, various endpoints of different USB equipment can coexist in one USB controller.
+46. 102013031 Small-capacity secure digital (SD) card
+CN
+13.04.2011
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+201010593185.3
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06K 19/07
+Loading...
+The invention discloses a small-capacity secure digital (SD) card, which is characterized in that a Norflash is adopted as a storage medium of the SD card, wherein a driving program is operated on the SD card and comprises a block data arranging module and a block data erasing module; SD read-write sector requirement performance functions are inserted in the block data arranging module and the block data scrubbing module which are overtime, and a temporary area is arranged; the total erasing time in a Norflash block is averagely divided into m numbered sections so as to carry out sectioned erasing, wherein m is more than or equal to 16; in the sectioned erasing process, the SD read-write sector requirement performance functions are operated among partial sections; and the write sector requirement of the time is stored to the temporary area; and when next writing operation is started, data which are not written in the temporary area are processed again. In the small-capacity SD card, the Norflash is utilized as the storage medium, the time of read-write operation and erasing operation is configured reasonably and the read-write requirement of small files of clients is satisfied.
+47. 201716680 一种复合键盘和指纹识别器的USB复合设备
+CN
+19.01.2011
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+201020258766.7
+苏州国芯科技有限公司
+郑茳
+G06F 3/02
+Loading...
+一种复合键盘和指纹识别器的USB复合设备，其特征在于：包括：USB物理接口模块；USB串行数据引擎模块；中断端点，用于缓存与所述复合键盘之间的按键信息；块传输(Bulk)端点，用于缓存与所述指纹识别器之间传输的数据；USB控制器，一端连接到所述USB串行数据引擎模块，另一端分别与所述中断端点和块传输(Bulk)端点连接；将数据包解包，如果该数据包内USB地址与设备的USB地址相符，则接受该数据包；或者，将来自中断端点或块传输(Bulk)端点的数据与所述设备的USB地址和相应的端点地址整合为数据包。本实用新型实现了多种类型的USB设备共用一个USB控制器。
+48. 101945383 Implementation method of area-compact arithmetic hardware for wireless local area network
+CN
+12.01.2011
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201010272417.5
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+H04L 9/06
+Loading...
+The invention relates to an implementation method of area-compact arithmetic hardware for a wireless local area network. The method comprises the following steps of: dividing a plaintext code into four coded words by taking words as units, and dividing a secret key code into four secret key words by taking words as units; operating the secret key words from a first bit to a third bit and a constant; performing WXOR operation on the secret key word of a zeroth bit to generate a first round secret key with one word length; shifting the secret key words from the first bit to the third bit to the positions of the secret key words from the zeroth bit to the second bit forwards; shifting the first round secret key to the position of the secret key word of the third bit; operating the first round secret key and the coded words from the first bit to the third bit, and performing the WXOR operation on the coded word of the zeroth bit to generate a first round ciphertext word with one word length; shifting the coded words from the first bit to the third bit to the positions of the coded words from the zeroth bit to the second bit forwards; and shifting the first round ciphertext word to the position of the coded word of the third bit. The method of the arithmetic hardware is implemented with a compact area and greatly reduces circuit areas for realizing the arithmetic hardware on the premise of ensuring algorithm implementation efficiency.
+49. 101944065 Flash memory bad block shielding method based on section
+CN
+12.01.2011
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201010260306.2
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 12/02
+Loading...
+The invention discloses a flash memory bad block shielding method based on a section, comprising the following steps: scanning each physical block of a flash memory to obtain the corresponding section state of each physical page in each physical block; determining the section mode of the physical block, wherein the section mode represents the distribution situation and the number of practical effective sections; dividing the physical blocks with the same section mode in the same group; obtaining the virtual block number, the physical page number and the page virtual section offset of the grouping by the offset; according to the virtual block number of the grouping and a physical block numbering table, obtaining the physical block number accessed by an application layer; and according to the page virtual section offset and section mode of the physical block number, obtaining a page physical section offset corresponding to the page virtual section offset. The invention maps the physical layer existing in a bad section into a continuous linear storage medium so as to furthest expand the effective volume of the storage medium.
+50. 101938739 Encryption method for wireless local area network
+CN
+05.01.2011
+H04W 12/00 Loading...
+H04W 12/00
+Loading...
+201010272420.7
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+H04W 12/00
+Loading...
+The invention relates to an encryption method for a wireless local area network, which comprises the following steps of: dividing a first group of plaintext codes into four code words by taking a word as a unit and dividing a first group of main key codes into four key words by taking a word as a unit; operating a first key word to a third key word with a zeroth key word in the first group of main key codes to generate one word length of a first turn of subkey, then shifting the first key word to the third key word forwards to the positions of the zeroth key word to a second key word and shifting the first turn of subkey to the position of the third key word; feeding a second group of plaintext codes, wherein at least four turns of clock periods are spaced between the second group of plaintext codes and the first group of plaintext codes; meanwhile, feeding a second group of main key codes, wherein the time interval between the second group of main key codes and the first group of main key codes is the same as that between the second group of plaintext codes and the first group of plaintext codes. The method greatly improves encryption and decryption speed and data throughput in unit time and data safety is high.
+51. 101930345 Block access-based flash reading and writing method
+CN
+29.12.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010260295.8
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 3/06
+Loading...
+The invention relates to a block access-based flash reading and writing method. The method comprises the following steps of: 1, scanning physical blocks of the flash to acquire corresponding page status tables of the physical blocks; 2, acquiring a partition physical block numbering table; 3, acquiring a partition capacity table of partitions according to the number of partition physical blocks and the number of corresponding effective pages; 4, determining the serial number of the partition accessed by an application layer and the offset in the partition according to the partition capacity table; 5, acquiring the virtual block number and virtual page number of the partition through the offset according to the number of effective pages of the physical blocks in the partition; and 6, acquiring the serial numbers of the physical blocks according to the virtual block number along with the partition physical block numbering table, and acquiring the physical page numbers of the effective pages according to the virtual page number along with the page status table of the physical block. By mapping the physical layers with ineffective pages into a continuous linear storage medium, the effective capacity of the storage medium is maximally extended.
+52. 101923524 Memory interface method based on CLB (Central Logic Bus) bus
+CN
+22.12.2010
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201010244742.0
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 13/16
+Loading...
+The invention discloses a memory interface method based on a CLB (Central Logic Bus) bus, comprising the following steps of, at a rising edge of a bus clock, sending a reading or writing operation request by a processor, latching address signals and control signals from the processor by the bus to obtain first latching signals, and generating enabling signals of a memory; at a falling edge arranged behind and adjacent to the rising edge of the bus clock, generating a memory clock according to the enabling signals of the memory by the memory, wherein a falling edge of the memory clock is synchronous with the falling edge of the bus clock; behind the falling edge of the memory clock, in the reading operation, outputting data to achieve the data output end of the memory, delaying by a line, and achieving the data input end of the processor in the front of an adjacent rising edge behind the rising edge of the bus clock; in the writing operation, writing data to achieve the data output end of the processor, delaying by the line, and achieving the data input end of the memory in the front of the adjacent rising edge behind the rising edge of the bus clock. When realizing high-speed reading or writing operation of the memory, the invention efficiently reduces the amount of waiting period and enhances the clock utilization.
+53. 101924630 Rapid encoding and decoding method for wireless local area network
+CN
+22.12.2010
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201010272409.0
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+H04L 9/06
+Loading...
+The invention relates to a rapid encoding and decoding method for a wireless local area network. The method comprises the following steps of: dividing a set of clear text code into four code fields, dividing a primary key code into four code fields, generating a first sub-key with a word length by calculating the key words from the first digit to the third digit and the key word on zero digit in the primary key, forwards moving the key words from the first digit to the third digit, moving the first sub-key to the position of the key word at the third digit, generating a first cipher text word with a word length by calculating the first sub-key and a set of clear text codes from the first digit to the third digit and the clear text code on zero digit, forwards moving the codes from the first digit to the third digit, moving the first cipher text word to the position of the code on the third digit, sending a second clear text code, dividing another set of clear text code into four encode words by using word as the unit, and spacing another set of clear text code and the prior set of clear text code for at least four clock periods. The method greatly increases the encoding and decoding speed, promotes the data throughput and widens the use scope.
+54. 101894084 Device for writing operation in CLB bus
+CN
+24.11.2010
+G06F 13/36 Loading...
+G06F 13/36
+Loading...
+201010156996.7
+C*Core Technology (Suzhou) Co., Ltd.
+Lin Feng
+G06F 13/36
+Loading...
+The invention discloses a device for writing operation in a CLB bus. The device comprises a microprocessor, a CLB bus and equipment, wherein the equipment is accessed by the microprocessor; a command buffer for latching a reading/writing operation instruction and data is arranged between the CLB bus and the equipment; a first-level command storage unit is arranged in the command buffer and comprises a first command significance bit, a first sign storage area, a first bit width storage area, a first address storage area and a first data storage area; the first command significance bit is used for identifying whether the first-level command storage unit stores information waiting to be executed; the first sign storage area is used for identifying access attributes; the first bit width storage area controls the bit width of the operation data; the first address storage area is used for storing access addresses; and the first data storage area is used for storing the data. The device ensures that the microprocessor can perform successive bus operation without waiting for slow equipment to finish writing operation, so that the system efficiency is improved.
+55. 101894584 Implementation method for timing parameters of read-write mode signals of dynamic random access memory
+CN
+24.11.2010
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201010198872.5
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G11C 11/4063
+Loading...
+The invention discloses an implementation method for timing parameters of read-write mode signals of a dynamic random access memory (DRAM). The method comprises the following steps: a signal selected by a row address is effectively triggered to start; a signal selected by a column address is effectively triggered to start; when the signal selected by the row address is effectively triggered to shut off, the signal selected by the column address is effectively triggered to shut off; the timing parameters of the signal selected by the row address, the signal selected by the column address, an output enable signal, a write enable signal and a data input-output signal are classified into three types, the first type of the timing parameters are set to be fixed clock periods, the second type of the timing parameters are set to be configurable timing parameters, and the timing parameters obtained from logical operation belong to the third type of the timing parameters. In the invention, the quantity of parameters needing to be set is greatly reduced, and the implementation method can support DRAMs at different working speeds.
+56. 101866695 Method for Nandflash USB controller to read and write Norflash memory
+CN
+20.10.2010
+G11C 16/26 Loading...
+G11C 16/26
+Loading...
+201010204002.4
+C*Core Technology (Suzhou) Co., Ltd.
+Kuang Qihe
+G11C 16/26
+Loading...
+The invention relates to a method for a Nandflash USB controller to read and write a Norflash memory, which is characterized in that: using the hardware design of a traditional Nandflash USB controller, for the two situations of the multiplex design and the separated design of an address line and a data line in the Norflash memory, realizing the reading and the writing operation of the Nandflash USB controller to the Norflash memory by re-defining an original connecting port of the Nandflash USB controller and the memory and by adding a software driving program meeting the reading and writing operation time sequence requirements of the Norflash memory. The invention has the beneficial effects that the hardware of the USB controller does not need to be re-designed, the hardware resources of the traditional Nandflash USB controller can be utilized, the reading and the writing to the Norflash memory are realized through software design, thereby not only saving the hardware development cost and time, but also meeting the market demand and achieving very good economy.
+57. 101847114 Method for realizing monitoring of level of signal
+CN
+29.09.2010
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201010137852.7
+C*Core Technology (Suzhou) Co., Ltd.
+Xu Xiaoyv
+G06F 11/30
+Loading...
+The invention relates to a method for realizing the monitoring of the level of a signal, which comprises the following steps of: (1) setting the alarm threshold of an alarm counter according to the maximum sustainable time of the high level of the signal to be monitored and setting the interference threshold of an interference counter according to the maximum sustainable time of the interference of the signal to be monitored; (2) monitoring the level of the signal to be monitored; when the signal has a high level, enabling the alarm counter; (3) judging whether the count value of the alarm counter is equal to the alarm threshold or not; (4) judging whether the level of the signal to be monitored is changed into a low level or not when the alarm counter counts; (5) judging whether the count value of the interference counter is equal to the interference threshold or not; and (6) judging whether the level of the signal to be monitored is changed into the high level or not when the interference counter counts. The invention has better anti-jamming capability and simple circuit structure.
+58. 101848001 Data length expanding method of BCH (broadcast Channel) coding and decoding in Flash controller
+CN
+29.09.2010
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+201010137782.5
+C*Core Technology (Suzhou) Co., Ltd.
+Lin Xiongxin
+H03M 13/15
+Loading...
+The invention relates to a data length expanding method of a BCH (broadcast Channel) coding and decoding in a Flash controller, which is characterized in that a basic processing unit for carrying out BCH coding and decoding on data in the Flash controller is designed into a mode consisting of a fixed data length of 128 bytes, 356 bytes or 1024 bytes and a configurable additional data length. When BCH coding and decoding is carried out on data by using the Flash controller, the byte number of the additional data length is configured by utilizing a control register, a one-to-one correspondence exists between the value of the control register and the byte number of the configured additional data length, and the value of the control register can configure the concrete byte number corresponding to the additional data length. The sum of the fixed data length, the additional data length and the byte the data redundancy bit is less than or equal to the capacity of a Flash section, thereby the data length for carrying out the BCH coding and decoding by the Flash controller is expanded.
+59. 101847119 Hardware breakpoint circuit used for emulation debugging
+CN
+29.09.2010
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201010137793.3
+C*Core Technology (Suzhou) Co., Ltd.
+Jiang Xiaomei
+G06F 11/36
+Loading...
+The invention discloses a hardware breakpoint circuit used for emulation debugging. The circuit comprises a first breakpoint register, a first breakpoint comparator, a second breakpoint register, a second breakpoint comparator, a first breakpoint counter, a first AND gate, a first NOT gate, a second breakpoint counter, a third AND gate, a second NOT gate, a second AND gate, a fourth AND gate and a first OR gate, wherein the first breakpoint register is used for storing first breakpoint condition information; the second breakpoint register is used for storing second breakpoint condition information; the first breakpoint counter is used for setting the times that a first breakpoint condition happens; the second breakpoint counter is used for setting the times that a second breakpoint condition happens; and the first OR gate is used for sending a breakpoint request signal to a microcontroller. The hardware breakpoint circuit can send the breakpoint request signal to the microcontroller after a certain breakpoint condition happens for N times, so that great convenience is brought to the emulation debugging and a product development cycle is shortened.
+60. 101841332 Digital phase-locked loop
+CN
+22.09.2010
+H03L 7/18 Loading...
+H03L 7/18
+Loading...
+201010161182.2
+C*Core Technology (Suzhou) Co., Ltd.
+Chen Xia
+H03L 7/18
+Loading...
+The invention discloses a digital phase-locked loop, which comprises an oscillator, an oscillation control circuit, a frequency divider, and a frequency selection circuit. The oscillator is used for generating a reference clock frequency and comprises an Nth inverter branch circuit which consists of odd digital inverters connected in series. An output end of the Nth inverter branch circuit is connected with a (N-1)th standard time delay unit and a (N-1)th inverter branch circuit, and the other end of the Nth inverter branch circuit is connected with an input end of an Nth standard time delay unit; an output end of the Nth standard time delay unit is connected with the joint of output ends of the (N-1)th inverter branch circuit and the (N-1)th standard time delay unit; a control end of the Nth standard time delay unit receives a frequency control signal from the oscillation control circuit; and an output end of the Nth standard time delay unit is used as an output end of the oscillator. The digital phase-locked loop has the advantages of simple structure, easy operation and control, low noise during frequency switching, and wide frequency modulation range.
+61. 101840379 Data transmission method of SD card controller
+CN
+22.09.2010
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201010166452.9
+C*Core Technology (Suzhou) Co., Ltd.
+Kuang Qihe
+G06F 12/14
+Loading...
+The invention relates to a data transmission method of an SD card controller, which is characterized in that: in order to distinguish the transmitted data is common data or private data, a private sector is defined in a memory space of the SD card controller in advance, and a private data characteristic field and a characteristic value are defined; when the data is written, whether to operate the private sector is judged first, and then whether the characteristic value is matched is judged so as to distinguish common data and private data; before reading the private data, a private reading enabling instruction is first sent to start a private reading enabling state; and when the data is read, whether the private sector is to be operated is first judged, and then the common data and the private data are distinguished according to the private reading enabling state. The invention provides a private data transmission channel, can transmit the private data capable of extending the functions of an SD card or improving the performance of the SD card with the channel so as to realize the firmware updating, the secondary development, the starting safety control, the hardware module diagnosis and other functions of the SD card.
+62. 101826051 Hardware breakpoint circuit for debugging program
+CN
+08.09.2010
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201010137820.7
+C*Core Technology (Suzhou) Co., Ltd.
+Jiang Xiaomei
+G06F 11/36
+Loading...
+The invention relates to a hardware breakpoint circuit for debugging a program, which comprises: a first breakpoint register which is used for storing condition information of a first breakpoint, a first breakpoint comparator, a second breakpoint register which is used for storing condition information of a second breakpoint, a second breakpoint comparator, a breakpoint control register which is used for controlling the occurrence sequence of the first breakpoint and the second breakpoint, a first coincidence gate, a second coincidence gate, a third coincidence gate which is used for outputting a first breakpoint request signal when information from a second alternation gate and a first breakpoint condition generation signal are both valid, a fourth coincidence gate which is used for outputting a second breakpoint request signal when information from a third alternation gate and a second breakpoint condition generation signal are both valid, and a first alternation gate which is used for transmitting a breakpoint request signal to a microcontroller. The invention realizes that the breakpoint request can not be transmitted when other breakpoints occur until the conditions for one breakpoint occur, thereby greatly facilitating the simulation debugging and shortening the product development cycle.
+63. 101814054 Instruction tracing controller for debugging microcontroller
+CN
+25.08.2010
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201010137849.5
+C*Core Technology (Suzhou) Co., Ltd.
+Jiang Xiaomei
+G06F 11/36
+Loading...
+The invention discloses an instruction tracing controller for debugging a microcontroller, which comprises a debugging control register, a debugging state register, a tracing counter and a port control module, wherein the debugging control register is used for controlling the switching of the microcontroller between a debugging mode and a normal mode; the debugging state register receives a debugging mode marking signal or a normal mode marking signal responded by the microcontroller; the tracing counter is used for setting a characteristic value of a debugging program and subtracting 1 from the current value of the characteristic value of the tracing counter according to an instruction end marking signal from the microcontroller; and the port control module is in bidirectional connection with the tracing counter, the debugging control register, the debugging state register and the microcontroller. The instruction tracing controller saves a built-in tracing temporary storage module, and has the advantages of simple circuit structure and low hardware cost.
+64. 101814058 Commonly-used storing device
+CN
+25.08.2010
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201010132744.0
+C*Core Technology (Suzhou) Co., Ltd.
+Chen Wanyao
+G06F 13/16
+Loading...
+A commonly-used storing device comprises a Flash storing device, a Flash controller and a CPU, and is characterized in that: a storing access interface circuit at least comprises two of the following five devices: 1, a USB interface and a controller thereof; 2, a parallel bus interface and a controller thereof; 3, an SPI interface and a controller thereof; 4, an I2C interface and a controller thereof; and 5, an SD interface and a controller thereof; the CPU is in double-way connection with the controller of each interface respectively by an address bus, a data bus and a control bus; and the commonly-used storing device is further provided with an allocation model register which is provided with three signal input ports used in an allocation mode, and is connected with the CPU through the address bus, the data bus and the control bus. The scheme provided by the invention supports a plurality of access interfaces, solves the commonly-used problem of the connection of storing devices with different interfaces, therefore the data storing and access of electric apparatus can be realized by the device without using extra design or a commutator, brings convenience to the design and use of electric apparatus, and saves cost.
+65. 101800560 Method for expanding error correcting capability of BCH (Broadcast Channel) encoding and decoding in Flash controller
+CN
+11.08.2010
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+201010132749.3
+C*Core Technology (Suzhou) Co., Ltd.
+Lin Xiongxin
+H03M 13/15
+Loading...
+The invention relates to a method for expanding the error correcting capability of BCH encoding and decoding in a Flash controller. For a NandFlash type storage device, the method expanding the error correcting capability of the original large data block by the steps of independently carrying out the BCH encoding and decoding on each small data block after dividing a large data block into a plurality of small sub-data blocks during the BCH encoding and decoding of the Flash section data.
+66. 101782626 JTAG port controller
+CN
+21.07.2010
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201010126521.3
+C*Core Technology (Suzhou) Co., Ltd.
+Jiang Xiaomei
+G01R 31/28
+Loading...
+The invention relates to a JTAG port controller. The controller at least contains an instruction register, an instruction decoding module, a first data register, a port register, a state machine control module, a first gate, a second gate, a signal combining module and a signal separating module, wherein the first gate receives the serial data information of the data input port of a test accessing port and successively outputs single-bit information from one output port; the signal combining module combines the information from the first bit to the biggest bit of the first data register with the single-bit information to form parallel data information; the first data register is a rising edge triggering register; the signal separating module separates the zero-bit information from the other bit information of the parallel data information outputted by the first data register; and the port register is a falling edge triggering register. The JTAG port controller has the advantage of performing write operation so as to instantly observe the change of information during the debugging process.
+67. 101719098 Storage controller of Nandflash chipsets
+CN
+02.06.2010
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+200910221014.5
+C*Core Technology (Suzhou) Co., Ltd.
+Wang Zongbao
+G06F 12/02
+Loading...
+The invention relates to a storage controller of Nandflash chipsets, which comprises a CPU, an inner bus, and an interrupt controller. The storage controller of the Nandflash chipsets is characterized in that a configuration register, a read signal generator, a state signal receiver and an interrupt signal creator are provided; the CPU configures the configuration register through the inner bus according to types and numbers of the plug-in Mandflash chipsets; the read signal generator generates read signals according with a Flash timing sequence according to corresponding devices and queries the state of the Nandflash chipsets in turn; the state signal receiver judges whether current operation is completed or not according to the queried state; and the interrupt signal creator creates all Nandflash chips to complete a zone bit and a final interrupt signal according to the judged results and configured parameters. In the invention, multiple interruptions correspondingly generated by multiple Nandflash chips during operation are converted into the final interrupt signal through a state enquiry mode; because the state enquiry is completed by the controller independently without occupying the inner bus, interruption frequency is reduced, system flow control is simplified, and system storage speed is improved.
+68. 101706552 Configurable on-chip testing module supporting encapsulation of different pins of chip
+CN
+12.05.2010
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200910221015.X
+C*Core Technology (Suzhou) Co., Ltd.
+Lin Xiongxin
+G01R 31/28
+Loading...
+The invention discloses a configurable on-chip testing module supporting the encapsulation of a chip through different pins, which consists of an encapsulation form controller (101), a pin converter (102), a pin signal controller (103) and a bus signal selector (104). The testing module can support the encapsulation form of the multifunctional chip that the different pins are adopted for different pieces of application. The configurable on-chip testing module supporting the encapsulation of the chip through the different pins is characterized in that: 1, the testing module is strong in universality and wide in testing range and can almost test all other functional modules except an internal CPU; 2, the testing module is less logical and can ignore influence on the area of the chip, thus the production cost of the chip is not increased; and 3, a virtual CPU (an excitation controller) adopted in testing is arranged outside the chip, thus the development on testing programs is more flexible and more relevant.
+69. 101699402 Multi-mode startup embedded system
+CN
+28.04.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200910221013.0
+C*Core Technology (Suzhou) Co., Ltd.
+Wang Zhonghai
+G06F 9/445
+Loading...
+The invention discloses a multi-mode startup embedded system, comprising a chip mode configuration port (101), a configuration control register (102), an internal memory (106), an external memory interface (105), an I/O communication module (104), a CPU (103) and a system bus (107). After the system is electrified, the startup mode of the system is determined according to information of the chip configuration port, wherein the startup mode of the system comprises startup from the internal memory, startup from the external memory, startup from the external communication equipment and the like. Users can select the startup mode of the embedded system through the chip mode configuration port. The invention not only can realize multi-mode startup of the embedded system, but also can realize multimode upgrading of system firmware, and meets the requirement of upgrading once again and multiple applications on the embedded system currently.
+70. 101699758 Method and circuit for protecting pulse signals of stepping motor from running risk
+CN
+28.04.2010
+H02P 8/00 Loading...
+H02P 8/00
+Loading...
+200910221016.4
+C*Core Technology (Suzhou) Co., Ltd.
+Zhang Yanli
+H02P 8/00
+Loading...
+The invention relates to a method and a circuit for protecting pulse signals of a stepping motor from running a risk. The method comprises the following steps that: time-delay characteristic time TNOD of a first phase pulse signal is skipped from 'valid' to 'invalid' at alternate time of two continuous shots to acquire a first phase pulse time-delay signal; time-delay characteristic time TNOD of a second phase pulse signal is skipped from 'invalid' to 'valid' to acquire a second phase pulse time-delay signal; the second phase pulse time-delay signal, the second phase pulse signal and the first phase pulse time-delay signal are subjected to logic operation to acquire a second phase pulse regular signal; and the second phase pulse regular signal and the second phase pulse signal are subjected to logics and operation to acquire a second phase risk protection pulse signal. The second phase risk protection pulse signal drives the stepping motor to effectively reduce the risks that the pulse signal of the stepping motor has a phenomenon of running a risk, thereby achieving the aim of improving the working performance of the stepping motor.
+71. 101697490 Decoding method applied to Reed-Solomon code-based ECC module
+CN
+21.04.2010
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+200910035790.6
+C*Core Technology (Suzhou) Co., Ltd.
+Zhang Yanli
+H03M 13/15
+Loading...
+The invention relates to a decoding method applied to a Reed-Solomon code-based ECC module. The method comprises the following steps: generating a decoding syndrome S(x); then obtaining a coefficient sequence loc of an error location polynomial L(x) and a coefficient sequence mag of an error value polynomial W(x) through operation; searching nonzero symbols in the coefficient sequence loc of the error location polynomial L(x), and calculating the number of error symbols in the decoding data according to the distribution of the nonzero symbols; extracting a root of the L(x) through an error symbol address solving circuit to obtain addresses of the error symbols, meanwhile generating error location valid signals found used for recording the addresses of the error symbols, and counting the error location valid signals found through a control module to obtain the number of error codes; and finally, comparing the number of the error codes and the number of the error symbols. The method can find the condition of partial decoding failure in advance, predict the number of the error symbols in the decoding data in advance, judge whether the decoding is successful or not by comparing the number of the error codes and the number of the error symbols, and improve the decoding error correction efficiency and reliability.
+72. 101695002 Coding circuit based on Reed-Solomon code
+CN
+14.04.2010
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+200910035754.X
+C*Core Technology (Suzhou) Co., Ltd.
+Zhang Yanli
+H03M 13/15
+Loading...
+The invention relates to a coding circuit based on a Reed-Solomon code. By additionally arranging gates at the input ends of a multiplying unit, an adding device and a register to switch a coding/decoding work mode, the multiplying unit, the adding device and the register are multiplexed during the coding/decoding, and the logic resources of hardware are remarkably saved.
+73. 101694644 Embedded flash controller
+CN
+14.04.2010
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+200910232953.X
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 13/16
+Loading...
+The invention relates to an embedded flash controller, which comprises a configuration register, a clock controller and a flash control signal generating circuit. The clock controller is used for transforming external clock into reference clock needed by the flash control signal generating circuit, the flash control signal generating circuit generates corresponding control signals inside the embedded flash controller through a state machine and controls timing sequences of the control signals, and the flash control signal generating circuit mainly consists of a clock counter, a time sequence comparator, a flash operation type judging state machine and a flash control signal generating state machine. The embedded flash controller has the advantages of simple realization of hardware, relatively strong portability and simple software operation.
+74. 101667837 ECC controller based on Reed-Solomon codes
+CN
+10.03.2010
+H03M 13/00 Loading...
+H03M 13/00
+Loading...
+200910034091.X
+C*Core Technology (Suzhou) Co., Ltd.
+Zhang Yanli
+H03M 13/00
+Loading...
+The invention relates to an ECC controller based on Reed-Solomon codes, provided with a coding register, a decoding register, a control register, a status register, an error correction logic unit, a data-partitioning logic unit and a control module. The data-partitioning logic unit transmits coding/decoding data to an Reed-Solomon code coding/decoding module in a symbol mode for coding/decoding processing while a CPU inputs the data to the coding register or the decoding register so that a single data flow finishes a data transmission process and a corresponding ECC code or error code-generating process and the ECC controller carrying out the parallel processing of data transmission and ECC code or error code operation is realized.
+75. 101630242 Contribution module for rapidly computing self-adaptive code book by G723.1 coder
+CN
+20.01.2010
+G06F 7/523 Loading...
+G06F 7/523
+Loading...
+200910181979.6
+C*Core Technology (Suzhou) Co., Ltd.
+Zheng Jiang
+G06F 7/523
+Loading...
+The invention relates to a contribution module for rapidly computing a self-adaptive code book by a G723.1 coder, which is characterized by being a hardware vector inner-product arithmetic unit provided with two vector input ends and four vector inner-product output ends, and the hardware vector inner-product arithmetic unit not only can carry out inner-product arithmetic of two 60-dimension vectors, but also can carry out the inner-product arithmetic of three groups of two 20-dimension vectors. The two kinds of arithmetic are both parts with largest computed strength in the process of computing the contribution part of the self-adaptive code book, thereby not only simplifying the structure by sharing one hardware vector inner-product arithmetic unit, but also improving the computing speed, particularly simultaneously processing the inner-product arithmetic of three groups of two 20-dimension vectors once while carrying out the inner-product arithmetic of the two 20-dimension vectors, and greatly improving the computing speed.
+76. 101592976 Method for synchronizing clock of on-chip emulator to microprocessor clock domain
+CN
+02.12.2009
+G06F 1/12 Loading...
+G06F 1/12
+Loading...
+200910030586.5
+C*Core Technology (Suzhou) Co., Ltd.
+Xu Xiaoyu
+G06F 1/12
+Loading...
+The invention relates to a method for synchronizing a clock of an on-chip emulator clock of a C core C310 embedded microprocessor chip to a microprocessor clock domain. In testing, a test clock signal j_tclk is latched sequentially by a first register and a second register of the microprocessor clock domain; after a signal of the output end of the second register is reversed, the signal and a signal of the output end of the first register are subjected to logic and calculation to obtain a first pulse to allow a signal j_tclk_rise to be used for controlling the sampling of a test mode selection signal j_tms and a test data input signal j_tdi by a register of the emulator; and simultaneously, after the test clock signal j_tclk is reversed, the test clock signal j_tclk and the signal of the output end of the second register are subjected to logic and calculation to obtain a second pulse to allow a signal j_tclk_fall to be used for controlling the sampling of a test data output signal j_tdo by the register of the emulator, therefore, a microprocessor chip structure with the on-chip emulator is realized under a single clock domain.
+77. 101566972 Safety control method of user multi-partitioned memory space access right in embedded system
+CN
+28.10.2009
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+200910027571.3
+C*Core Technology (Suzhou) Co., Ltd.
+Xu Xiaoyu
+G06F 12/14
+Loading...
+The invention relates to a safety control method of a user multi-partitioned memory space access right in an embedded system, which comprises that: an initiating address comparator determines a block to which a program initiating position belongs, and a target address comparator determines a block to which a program target position belongs; a time delay matching register set is used for delaying program address value to ensure that data address value input by the target address comparator is the same access as the program address value input by the initiating address comparator; and whether the block capable of accessing eigenvalue is accessed by other blocks is judged and read by comparing identification signals of the program initiating position and the program target position so as to prevent information in the block from being called by the other block programs. The method obviously improves the safety of the operation of the embedded system.
+78. 101561857 Multi-mode startup safety embedded system
+CN
+21.10.2009
+G06F 21/02 Loading...
+G06F 21/02
+Loading...
+200910031456.3
+Shenzhou C*Core Technology Co., Ltd.
+Wang Zhonghai
+G06F 21/02
+Loading...
+The invention discloses a multi-mode startup safety embedded system for ensuring the embedded system to safely enter a mode designated by a user when carrying out the multi-mode startup. The system judges the startup mode of the system according to safety feature values in a safety feature controller after being switched on, if the safety feature controller does not saves the safety feature values, the startup mode of the system is selected according to a startup mode selection signal and a startup mode control register. The different safety feature values can set the different safety levels for the startup way of the embedded system. The multi-mode startup safety embedded system can not only be used for realizing the multi-mode startup of the embedded system, but also ensure the safety of firmware and hardware in the system at the work mode which needs to be protected, thereby being applicable to the prior multi-application of the embedded system and also taking into account of the demands on the safety.
+79. 101561751 USB encryption and decryption bridging chip
+CN
+21.10.2009
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910031390.8
+Shenzhou C*Core Technology Co., Ltd.
+Wang Zhonghai
+G06F 3/06
+Loading...
+The invention relates to a USB encryption and decryption bridge chip comprising a first USB interface (102), a second USB interface (103), an encryption algorithm module (101), an internal memory (106), a CPU (104) and a communication I/O module (105). The USB encryption and decryption bridge chip is taken as a data encryption and decryption bridge device between a mainframe (20) and a mobile storage device (30), which can not only encrypt and decrypt data of the mobile storage device (30), but also lead information stored in the mobile storage device (30) to have two safety barriers, one safety barrier is that as an operating system on the storage device is also encrypted, a cracker can thick that the obtained storage device is a blank disc which is not formatted and the other one is that even the storage device is obtained illegally, if without a key, plaintext data in the storage device can not be obtained. The USB encryption and decryption bridge chip heightens the information hiding level, strengthens the confidentiality of a computer, can transform the mobile storage device to an encryption storage device and can be widely applied in information safety field.
+80. 101561888 Real-time encryption SD card and high-speed encryption/decryption method
+CN
+21.10.2009
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+200910027570.9
+C*Core Technology (Suzhou) Co., Ltd.
+Wang Zhonghai
+G06K 19/07
+Loading...
+A real-time encryption SD card and a high-speed encryption/decryption method are disclosed. The SD card comprises a SD interface (106), a SD card application module, a SD card controller, a SD card data channel, an encryption algorithm module (102), an interior memory (103), a CPU (104), an FIFO buffer and an FIFO controller (101). The invention switches logic addresses of the SD interface (106), the encryption algorithm module (102) and the SD card application module by means of the alternating function of a second control bit (202) and a third control bit (203) in the FIFO controller (101), and switches mapping relationship between the logic addresses between physical addresses of a first FIFO buffer area (109), a second FIFO buffer area (110) and a third FIFO buffer area (111), so that the first FIFO buffer area (109), the second FIFO buffer area (110) and the third FIFO buffer area (111) work parallel with the SD interface (106), the encryption algorithm module (102) and the SD card application module in turn and transfer batches of data between a SD primary device (20) and the SD card application module, thus improving the encryption/decryption speed of the data.
+81. 101556571 Bridge capable of realizing the high/low speed switch between CLB and slave modules
+CN
+14.10.2009
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200910029768.0
+C*Core Technology (Suzhou) Co., Ltd.
+Xu Xiaoyu
+G06F 13/40
+Loading...
+The invention provides a bridge capable of realizing the high/low speed switch between CLB (China core Local Bus) and slave modules on the basis of CLB. The bridge comprises a clock switch sub-module, a request processing sub-module and a response processing sub-module and is used for switching the clock frequency of the slave module. The bridge can easily solve the problem of the speed combination between the high-speed CLB and the low-speed slave modules mounted thereon; compared with the direct modification of the slave module, the bridge can improve the generality and the transferability of the modification; all you need to do upon the premise that the slave module is not modified at all is connect the bridge between the high-speed CLB and the CLB slave module to be adjusted; and if a plurality of slave modules need to be adjusted, the bridge can greatly reduce the workload.
+82. 101540191 Real-time encrypted U disk and high speed encryption-decryption method
+CN
+23.09.2009
+G11C 7/24 Loading...
+G11C 7/24
+Loading...
+200910030684.9
+Suzhou CCore TechnologyCo., Ltd.
+Wang Zhonghai
+G11C 7/24
+Loading...
+The invention relates to a real-time encrypted U disk and a high speed encryption-decryption method. The real time encrypted U disk comprises a USB interface (106), a flash memory (108), a flash memory controller (107), a cryptographic algorithm module (102), an internal memory (103), a CPU (104), an FIFO buffer and an FIFO controller (101). the invention utilizes the alternation enabling a second control bit (202) and a third control bit (203) in the FIFO controller (101) to switch over the logic addresses of the USB interface (106), the cryptographic algorithm module (102) and the flash memory controller (107) and the mapping relations between the physical addresses of a first FIFO buffer area (109), a second FIFO buffer area (110) and a third FIFO buffer area (111), so that the first FIFO buffer area (109), the second FIFO buffer area (110) and the third FIFO buffer area (111) take turns to concurrently work with the USB interface (106), the cryptographic algorithm module (110) and the flash memory controller (107) and transmit data batches between a host computer (20) and the flash memory (108), and therefore, the encryption-decryption speed of data is improved.
+83. 101488369 Interface circuit for BCH code controller
+CN
+22.07.2009
+G11C 29/42 Loading...
+G11C 29/42
+Loading...
+200910025171.9
+C*Core Technology (Suzhou) Co., Ltd.
+Zhang Wei
+G11C 29/42
+Loading...
+The invention relates to a BCH code control unit interface circuit which is characterized in that a register set is arranged in an interface of a system bus arranged between an embedded CPU encoding and decoding circuit and a BCH encoding and decoding circuit, the register set is internally provided with a non-zero error testing control bit, a zero error testing control bit and a decoding completion times status bit. In testing and scanning of bad blocks of a Flash type memory device, the non-zero error testing control bit can put a faulty address search circuit out of work after enabling, the zero error testing control bit can put a wrong position multinomial iterative circuit and a faulty address search circuit out of work after enabling, thus improving speed to test the Flash bad blocks and reducing power consumption of the circuit. In the use of the Flash type memory device, the decoding completion times status bit is used as a counter for recording the decoding completion times of a flash sector, meanwhile, a status signal faster than an interrupt signal of a response decoding circuit is supplied to the CPU, so that the CPU directly reads the value of the counter to inform corresponding modules of reading the decoded data, thus improving reading speed by 10% (2MB/s).
+84. 101488762 Area compact and fast BCH parallel decoding method
+CN
+22.07.2009
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+200910024526.2
+C*Core Technology (Suzhou) Co., Ltd.
+Zhong Mingfu
+H03M 13/15
+Loading...
+The invention relates to a quick BCH parallel decoding method with compact area in a control chip of a NandFlash type storage device, and is characterized in that a hybrid arithmetic unit of a finite field GF(2<13>) is multiplexed by the combination of the configuration logic of a control unit of a state machine and the state machine in the multinomial process of iterative operation of wrong position by using one-time multiple-beating manner, and the hybrid arithmetic unit consists of a two-input multiplier and a two-input adder of the finite field GF(2<13>); if the iterative number of rounds is an even number 2k, the hybrid arithmetic unit needs to be multiplexed by 2k+1 times in the round; if the iterative number of rounds is an odd number 2k-1, the hybrid arithmetic unit needs to be multiplexed by 3k+3 times in the round; wherein, k is an integer greater than or equal to 1. In the invention, efficient optimization is carried out by controlling area in a multinomial circuit of error position so that the availability ratio of the hybrid arithmetic unit is maximized, but the reusability is minimized. The method causes better balance of the circuit between area and arithmetic speed, thereby being capable of meeting the requirements of different applied environments.
+85. 1763734 8051 series microprocessor application system based on AMBA bus
+CN
+26.04.2006
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200510095447.2
+C*Core Technology (Suzhou) Co., Ltd.
+Xiao Zuonan
+G06F 13/40
+Loading...
+The invention discloses a 8051 serial microprocessor application system based on the AMBA bus, which comprises the following steps: (1) setting second bridge to proceed transmission between microprocessor bus and APB bus, wherein the second bridge contains register group, logical selection mode, transmission stator and transmission logical controller; (2) setting a multipath selector of one in two interview APB bus among APB bus and first bridge and second bridge; (3) adding APB bus interface on the articulated mode of AHB bus; (4) displaying the following microprocessor address mapping program: a) allocating part of external data access space to the APB system; b) expanding the external data access space and APB address space through the register group in the second bridge; c) setting individual address space of AHB system and APB system through synthetic parameter logical.
+86. 1760848 Method for designing AMBA bus applied by C*Core-microprocessor
+CN
+19.04.2006
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200510095232.0
+Guoxin Tech Co., Ltd., Suzhou
+Yu Maikou
+G06F 13/40
+Loading...
+Characters of the method are that based on AMBA bus structure, using single/double C*Core microprocessor as bus control unit; setting bridge unit from CLB bus to AMBA bus, and applying C*Core microprocessor to AMBA bus; when being corresponding to single C*Core microprocessor, bridge unit is constituted from any one bridge of following two bridges; and when being corresponding to single C*Core microprocessor, bridge unit is constituted from two beings. First bridge including a set of state machine is in use for deterring states of AHB bus from CLB bus to AMBA, and the microprocessor is connected to AHB bus. Second bridge including APB state machine transfers control logic and module selection logic, and the microprocessor is connected to APB bus system of AMBA. The invention makes C*Core microprocessor possessing CLB bus interface get the more extensive application.
+87. 1545023 Flushbonding CPU for information safety
+CN
+10.11.2004
+G06F 9/30 Loading...
+G06F 9/30
+Loading...
+200310106403.6
+C*Core Technology (Suzhou) Co., Ltd.
+Ji Hongbin
+G06F 9/30
+Loading...
+The invention is an embedded CPU for information safety and its characteristic: there is a MEPU (memory encryption protective unit) gate set between the CPU kernel and the memory. Its characters are as follows: 1, adopting data encryption and breaking up data storage addresses implements advanced back tracking mechanism; 2, dividing users into super and ordinary ones, where the super have a special authority to configure the MEPU and set the authority for the ordinary; 3, dividing the memory space into a system block, a MEPU control block and several super user programmable blocks, and the super user can set the size and position of all the programmable blocks and designate the authority to access them and if they are encrypted; 4, applying soft secret key encryption to these programmable blocks, where each of them has a different secret key, and applying hard secret key encryption to the system block, where only the chip manufacturer knows the hard secret key; 5, setting the mechanisms of judging and counting the illegal types of access, able to detect external malicious attack and decipherment and taking measures to protect the system.
+

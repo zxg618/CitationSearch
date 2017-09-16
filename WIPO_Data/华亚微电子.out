@@ -1,0 +1,913 @@
+1. 102509311 运动检测方法和装置
+CN
+20.06.2012
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201110374541.7
+华亚微电子（上海）有限公司
+钟声
+G06T 7/20
+Loading...
+一种运动检测方法和装置，所述运动检测方法包括：分别获取当前像素点及其邻域内的像素点在图像组内对应的像素点的像素值，所述图像组包括至少两个图像；根据获取的所述当前像素点及其邻域内的像素点在图像组内对应的像素点的像素值获取所述当前像素点的运动检测信息；根据所述当前像素点的运动检测信息确定所述当前像素点的运动情况。本发明的技术方案可以提高运动检测的准确性。
+2. 102497491 一种分量视频信号输入系统
+CN
+13.06.2012
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+201110376764.7
+华亚微电子（上海）有限公司
+温带豪
+H04N 5/00
+Loading...
+本发明涉及一种分量视频信号输入系统，它包括接收外部分量视频信号的模拟信号选择器、依次连接的第一钳位器、模数转换器和行锁定锁相环、依次连接的第二钳位器和同步信号分离器，以及同步信号检测和补偿模块，其一方面接收所述同步信号分离器输出的数字同步信号，并分别向所述行锁定锁相环和第一钳位器输出相应的数字同步信号；另一方面接收所述行锁定锁相环输出的锁定信号，并向所述第二钳位器输出使能信号，向所述第一钳位器输出该使能信号的反相信号。本发明通过采用同步信号检测和补偿模块同时控制钳位电压不同的第一钳位器和第二钳位器，使它们交替工作，并且使交替变化的过程平滑、稳定，从而可以减少对于芯片的视频信号采样管脚的需求。
+3. 102361456 一种时钟相位对齐调整电路
+CN
+22.02.2012
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201110330283.2
+华亚微电子（上海）有限公司
+孙海涛
+H04L 7/00
+Loading...
+本发明涉及一种时钟相位对齐调整电路，可与带有输入分频器和反馈分频器的锁相环配合实现时钟信号的相位对齐，它包括与门；第一延迟器，其输入端接收外围的复位信号，其输出端依次通过第一D触发器和第二延迟器连接至所述与门的另一个输入端，以向该与门输出使能信号；以及反相器，其输入端接收所述输入时钟信号，其输出端与所述第一D触发器连接。本发明通过控制时钟信号输送给输出分频器的时间，有效地避免了毛刺等不确定性情况的发生，利用D触发器的同步复位，使各路输出分频器具有相同的初始状态，即在同一时间开始识别锁相环输出的时钟信号或外部直接输入的时钟信号，从而使输出时钟信号的上升沿同步。
+4. 102340464 动静态多径信道自动检测方法
+CN
+01.02.2012
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110193337.5
+华亚微电子（上海）有限公司
+陈岩
+H04L 25/02
+Loading...
+本发明提供一种动静态多径信道自动检测方法，包括：分别计算多径对应的幅度、相位以及延时D帧的幅度、相位，从而得到幅度差和相位差；分别对归一化后的幅度差和相位差的绝对值求和，并计算出中间变量Ei；将Ei进行平均所得的平滑滤波后的E′i送入检测模块，检测模块根据E′i的变化即可给出动静态多径信道的判断结果。本发明提供的动静态多径信道自动检测方法，综合考虑了多径的幅度和相位信息，能够正确稳定的区分动态多径信道和静态多径信道，如果检测结果是静态多径则可以用平均信道估计的方法减少估计方差，提高信道均衡的精度。
+5. 102289499 Set top box and data downloading method based on set top box
+CN
+21.12.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110243549.X
+Huaya Microelectronics (Shanghi), Inc.
+Ding Renguo
+G06F 17/30
+Loading...
+The invention relates to a set top box and a data downloading method based on the set top box. The method comprises that a business information description list is downloaded, which comprises the identification (ID) of a logic business page; and data information of the corresponding logic business page is downloaded according to selection information of a user and the data information is stored in a memory of the set top box. The set top box comprises a selection module, a downloading module and a static memory, wherein the selection module is used for receiving the selection information of the user; the downloading module is connected with the selection module and is used for downloading the business information description list and the business information description list comprises the ID of the logic business page; the data information of the corresponding logic business page is downloaded according to the selection information of the user; and the static memory is used for storing the downloaded data information. The static memory of the set top box can be saved through the invention and data can be downloaded quickly.
+6. 102129666 Image scaling method and device
+CN
+20.07.2011
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+201010618417.6
+Huaya Microelectronic (Shanghai) Co.,Ltd.
+Zhong Sheng
+G06T 3/40
+Loading...
+The invention discloses an image scaling method and an image scaling device. The image scaling method comprises the following steps of: acquiring coordinates, corresponding to the coordinates of the pixel point in a target image, of a virtual pixel point in a source image, wherein the coordinates are horizontal coordinates or vertical coordinates; acquiring pixel values of M actual pixel points in the direction of the coordinates of the virtual pixel point in the source image according to the coordinates of the virtual pixel point; acquiring a first pixel value and a second pixel value by utilizing a multi-phase filter and the M actual pixel points, wherein M is the number of tapes of the multi-phase filter; and performing linear interpolation on the first pixel value and the second pixel value to obtain a pixel value of the pixel point in the target image. The image scaling method and the image scaling device can effectively remove spectral aliasing or reflection mirror, meet the requirement on the conversion between different video image formats, reduce the number of multipliers and filters coefficients in an actual scaling process, and can obtain a high-quality scaled image.
+7. 102123289 Image motion estimation method and device in three-dimensional comb filtering
+CN
+13.07.2011
+H04N 9/78 Loading...
+H04N 9/78
+Loading...
+201010610393.X
+Huaya Microelectronics, Inc.
+Zhong Sheng
+H04N 9/78
+Loading...
+The embodiment of the invention discloses an image motion estimation method and an image motion estimation device in three-dimensional comb filtering, which are used for estimating the motion of an image and well separating a luminance signal and a chrominance signal from a television signal according to the motion of the image so as to obtain rich image details and achieve high image quality. The method in the embodiment of the invention comprises the following steps of: performing bandstop filtering and bandpass filtering on the television image signal respectively to filter the chrominance signal and the luminance signal from the television image signal respectively; computing a basic motion metric value and a first motion metric value which are related to the luminance signal, and a motion metric value which is related to the chrominance signal by selecting a proper pixel point; multiplying the first motion metric value by a first coefficient to obtain a first metric value; multiplying the motion metric value which is related to the chrominance signal by a second coefficient to obtain a second metric value; and adding the sum of the first and second metric values and the basic motion metric value which is related to the luminance signal to obtain a motion metric value of the television image signal.
+8. 102088543 Peaking method and device based on multi-band-pass filtering
+CN
+08.06.2011
+H04N 5/208 Loading...
+H04N 5/208
+Loading...
+201010560154.8
+Huaya Microelectronics (Shanghai) Inc.
+Zhong Sheng
+H04N 5/208
+Loading...
+The embodiment of the invention discloses a peaking method and device based on multi-band-pass filtering, which is used for sharpening image signals. The peaking method comprises the following steps: inputting first luminance signals in acquired image signals into a plurality of band-pass filters simultaneously so as to obtain a plurality of second luminance signals, and carrying out image analysis on the first luminance signals so as to obtain output information of the image analysis; according to the second luminance signals and the output information of the image analysis, obtaining grain values corresponding to the second luminance signals; and using the grain values to respectively sharpen the corresponding second luminance signals. The embodiment of the invention also provides a peaking device based on multi-band-pass filtering.
+9. 201859605 显示器
+CN
+08.06.2011
+G09F 9/00 Loading...
+G09F 9/00
+Loading...
+201020543679.6
+华亚微电子(上海)有限公司
+梁丰
+G09F 9/00
+Loading...
+一种显示器，包括显示屏及其外围的面板，嵌于所述面板的摄像头，还包括滑盖和设置于所述面板的滑动部，所述滑动部位于所述摄像头的一侧或相对两侧；所述滑盖与所述滑动部滑动配合，以遮蔽或露出所述摄像头。本实用新型的显示器一方面起到了防止了显示器摄像头的镜头被划伤，另一方面也起到了防尘的作用。同时，还能防止因外界对摄像头控制而导致的用户隐私泄露的问题。
+10. 102073595 Power failure prevention loss balanced storage method
+CN
+25.05.2011
+G06F 12/06 Loading...
+G06F 12/06
+Loading...
+201110026022.1
+Huaya Microelectronics (Shanghai) Inc.
+Liang Feng
+G06F 12/06
+Loading...
+The invention provides a power failure prevention loss balanced storage method, which comprises the following steps of: scanning a memory, and associating a physical block with a logic block number corresponding to the physical block, and the use frequency of the physical block; judging whether two equal and effective logic block numbers of the physical blocks exist; if so, deleting one of the physical blocks with the smaller use frequency; generating a badblock table, an associative table and a mapping table; judging whether the use frequency of the physical block is greater than a set threshold; if so, searching a used first physical block with the smallest use frequency and a used second physical block with the greatest use frequency, and copying the data of the first physical block into the second physical block; updating the logic block numbers of the first physical block and the second physical block; deleting a source data block and updating the badblock table and the mapping data. By the method, the memory, under the condition of power failure, can automatically recover a loss balanced storage process after being powered up so as to better increase the storage use frequency of the memory and improve the effectiveness of the loss balanced storage.
+11. 102004626 Dual-port memory
+CN
+06.04.2011
+G06F 5/10 Loading...
+G06F 5/10
+Loading...
+201010548249.8
+Huaya Microelectronics (Shanghai) Inc.
+Yang Hailong
+G06F 5/10
+Loading...
+The invention discloses a dual-port memory, which comprises a single-port memory, a reading cache unit, a writing cache unit and a reading-writing selection unit, wherein the single-port memory is driven by an internal clock signal; the reading cache unit is driven by a clock reading signal to cache a reading enabling signal and a reading address and is driven by the internal clock signal to transmit the cached reading enabling signal to the signal-port memory; the writing cache unit is driven by a writing clock signal to cache a writing enabling signal, writing data and a writing address and is driven by the internal clock signal to transmit the cached writing enabling signal and the cached writing data to the single-port memory; the reading-writing selection unit is driven by the internal clock signal to control the writing cache unit and the reading cache unit to transmit the cached writing address and the cached reading address to the single-port memory in a time-division way respectively; and the frequency of the internal clock signal is at least twice that of the higher one of the frequencies of the writing clock signal and the reading clock signal. The dual-port memory is favorable for reducing the area of a chip and reducing cost.
+12. 102005051 Edge detection method and related device
+CN
+06.04.2011
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201010557271.9
+Huaya Microelectronics (Shanghai) Inc.
+Zhong Sheng
+G06T 7/00
+Loading...
+The embodiment of the invention discloses an edge detection method and a related device, which are used for effectively eliminating the effect of noise during image processing. The method of the embodiment comprises the following steps of: acquiring a brightness matrix of an input image, wherein the brightness matrix consists of the brightness value of a current pixel point and the brightness value of a neighborhood pixel point, and is an N*M matrix, and M and N are more than 2; performing edge filtering in K directions on the brightness matrix respectively to obtain K direction coefficients corresponding to K directions of the current pixel point, wherein K is more than or equal to 2; comparing the K direction coefficients, and taking the direction coefficient with the maximum value as an edge direction coefficient; and if the edge direction coefficient is more than or equal to a first threshold value, determining the current pixel point as a candidate edge point. The invention also provides the related device for implementing the method.
+13. 101986712 Digital television receiving device and channel conversion method thereof
+CN
+16.03.2011
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+201010557381.5
+Huaya Microelectronics (Shanghai) Inc.
+Li Zhengdao
+H04N 7/52
+Loading...
+The invention discloses a digital television receiving device and a channel conversion method thereof, wherein the method comprises the following steps: de-multiplexing transport stream data; descrambling the data subjected to de-multiplexing; multiplexing the data subjected to descrambling according to each service or a plurality of service combinations, and caching the data subjected to multiplexing; after receiving a channel conversion instruction, obtaining the cached data in which a targeted service is arranged; de-multiplexing the cached data in which a targeted service is arranged, and unpacking to restore the cached data to original stream data; and decoding the original stream data subjected to unpacking. Based on the channel conversion method above, the invention also provides a digital television receiving device. The invention can greatly shorten the delay time produced by channel conversion within a same frequency point, and enhance the user experience.
+14. 101984655 Digital television receiving system and channel changing method
+CN
+09.03.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010556170.X
+Huaya Microelectronics (Shanghai) Inc.
+Li Zhengdao
+H04N 5/44
+Loading...
+The invention relates to a digital television receiving system and a channel changing method. The method comprises the following steps: demultiplexing transport stream data; multiplexing the demultiplexed data of each service or the combination of multiple services and caching the multiplexed data; obtaining caching data in which the target service is located after receiving channel changing commands; demultiplexing the caching data in which the target service is located and unpacking and restoring the caching data to the initial stream data; and decoding the unpacked initial data stream. Based on the channel changing method, the invention further provides a digital television receiving system. The invention can greatly shorten delay time resulting from channel changing at the same frequency point and enhance user experience.
+15. 101980541 Digital television receiving device and channel-switching method thereof
+CN
+23.02.2011
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+201010557357.1
+Huaya Microelectronics (Shanghai) Inc.
+Li Zhengdao
+H04N 7/52
+Loading...
+The invention discloses a digital television receiving device and a channel-switching method thereof. The channel-switching method comprises the following steps of: demultiplexing transport stream data; multiplexing the demultiplexed data according to each service or the combination of a plurality of services, and caching the multiplexed data; after receiving a channel-switching instruction, acquiring cache data where a target service is positioned; demultiplexing the cache data where the target service is positioned, descrambling the demultiplexed data, and unpacking and restoring into original stream data; and decoding the unpacked original stream data. Based on the channel-switching method, the invention also provides the digital television receiving device. The method can greatly reduce the delay time generated for channel switching within the same frequency point, and enhance the user experience.
+16. 101980521 Image sharpening method and related device
+CN
+23.02.2011
+H04N 1/409 Loading...
+H04N 1/409
+Loading...
+201010555926.9
+Huaya Microelectronics (Shanghai) Inc.
+Zhong Sheng
+H04N 1/409
+Loading...
+The embodiment of the invention discloses an image sharpening method and a related device for sharpening images in frequency bands so as to avoid sharpened image distortion. The method of the embodiment of the invention comprises the following steps of: acquiring luminance signals of input images; performing high-pass filtration on the luminance signals of the input images by using different frequency bands to obtain first high-frequency components corresponding to the frequency bands of current pixel points respectively; performing image analysis on the luminance signals of the input images to obtain edge information of the current pixel points and a luminance maximum and a luminance minimum in the luminance signals of the input images; determining gains corresponding to the first high-frequency components according to the luminance maximum, the luminance minimum and the edge information of the current pixel points; and sharpening the first high-frequency components according to the corresponding gains respectively, and outputting the processing results. The invention also provides the related device corresponding to the image sharpening method.
+17. 101976558 Method and device for scaling video images
+CN
+16.02.2011
+G09G 5/00 Loading...
+G09G 5/00
+Loading...
+201010543074.1
+Huaya Microelectronics (Shanghai) Inc.
+Zhong Sheng
+G09G 5/00
+Loading...
+The embodiment of the invention discloses a method and a device for scaling video images, which are used for improving the scaling quality of the video images. The method comprises the following steps: dividing a target image into at least two sub-target images; dividing a source image into a corresponding number of sub-source images according to the way of dividing the target image into the sub-target images; acquiring a scaling factor of each pixel in each sub-target image, wherein the scaling factor is determined by the sub-target image and the sub-source image; and acquiring each pixel value in each sub-target image according to the scaling factor. The embodiment of the invention also discloses a device for scaling the video images. The embodiment of the invention can improve the scaling quality of the video images.
+18. 101969528 Three-dimensional simulation video signal noise reduction method and filtering device
+CN
+09.02.2011
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201010509149.4
+Huaya Microelectronics (Shanghai) Inc.
+Tian Guang
+H04N 5/14
+Loading...
+The embodiment of the invention discloses a three-dimensional simulation video signal noise reduction method and a filtering device, which are used for reducing noise of three-dimensional video signals. The method comprises the following steps of: respectively performing motion detection on a brightness component and two color components of a current pixel point of a received video signal to obtain a motion detection value on the brightness component and motion detection values on the two color components of the current pixel point; performing first weighted average operation on the motion detection value on the brightness component and the motion detection values on the two color components to obtain a motion detection value of the current pixel point; calculating a recursive coefficient of the current pixel point according to the motion detection value of the current pixel point; and calculating a pixel value after the current pixel point is subjected to three-dimensional filtering according to the recursive coefficient of the current pixel point. The embodiment of the invention also discloses a filtering device capable of enhancing noise reduction effect of the video signals and preventing conditions of streaking.
+19. 101951288 Processing method and processing device for synchronous errors of multipath signal
+CN
+19.01.2011
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+201010288037.0
+Huaya Microelectronics (Shanghai) Inc.
+Liu Yichen
+H04B 7/26
+Loading...
+The invention provides a processing method and a processing device for synchronous errors of a multipath signal. The processing method comprises the following steps of: respectively extracting the synchronous errors of all path signals in the multipath signal; and weighting the synchronous errors of all the path signals to obtain a weighted synchronous error. In the invention, synchronization is carried out by using the weighted synchronous errors as a reference. The synchronous information of each path signal in multiple paths is fully utilized, and the requirement of signal synchronization to a time-varying channel is satisfied without selecting and switching a main path.
+20. 101938347 Timing error extraction device and method
+CN
+05.01.2011
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201010267530.4
+Huaya Microelectronics (Shanghai) Inc.
+Chen Yan
+H04L 7/00
+Loading...
+The invention relates to a timing error extraction device, which is applicable to a receiver, and the device comprises a detection unit and an extraction unit, wherein the detection unit is used for carrying out correlation peak detection on an input sequence, a sliding correlation sequence of a given sequence and a delayed sequence of the sliding correlation sequence, thus obtaining an advance correlation output value at the current sampling moment, a correlation output value at the current sampling moment and a lag correlation output value of the current sampling moment of the input sequence, and the input sequence is obtained from a signal received by the receiver after frame synchronization; and the extraction unit is used for extracting a timing error of the input sequence at the current sampling moment according to the advance correlation output value at the current sampling moment, the correlation output value at the current sampling moment and the lag correlation output value of the current sampling moment of the input sequence which are detected by the detection unit. The timing error extraction device and the method can enhance the accuracy of the timing error at the same time of reducing the related calculation.
+21. 101895312 Pseudo random code sequence phase capturing method and capturing device
+CN
+24.11.2010
+H04B 1/7075 Loading...
+H04B 1/7075
+Loading...
+201010203844.8
+Huaya Microelectronics (Shanghai) Inc.
+Chen Yan
+H04B 1/7075
+Loading...
+The invention relates to a pseudo random code sequence phase capturing method used for simultaneous receiving of digital television terrestrial broadcasting signals. The method comprises the following steps: acquiring adjacent signal frames in received signals, extracting frame header PN code sequences of the signal frames, carrying out slide-correlating operation on the frame header PN code sequences and local PN code sequences to obtain a correlation result, and detecting a correlated peak position corresponding to each signal frame; based on the correlated peak positions, carrying out first-difference operation on the correlated peak positions of the adjacent signal frames in the received signals to obtain correlated peak intervals and peak deviations corresponding to the signal frames; carrying out second-difference operation on the adjacent peak deviations to obtain a second-difference differential value; and searching a second-difference differential value search sequence for a result corresponding to the second-difference differential value, and determining sequence numbers corresponding to the signal frames. The pseudo random code sequence phase capturing method eliminates the influence of timing errors on the adjacent signal frames and avoids the interference of timing errors on the pseudo random code sequence phase capturing by using the second-difference method.
+22. 101895505 Channel estimation method and device
+CN
+24.11.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201010240557.4
+Huaya Microelectronics (Shanghai) Inc.
+Liu Yichen
+H04L 27/26
+Loading...
+The invention relates to a channel estimation method and device which are used to perform channel estimation according to the received frame signal, wherein the frame signal consists of known sequence and data sequence. The method of the invention comprises the following steps: predicting the channel estimation predicted value of the i-th frame according to the channel estimated values of frames before the i-th frame, then obtaining the estimation predicted values of the i-th frame and the (i-1)th frame according to the channel estimation predicted value of the i-th frame; obtaining the smear of the known sequence of the i-th frame in the data sequence of the i-th frame according to the estimation predicted value of the i-th frame and the channel estimation predicted value of the i-th frame; obtaining the smear of the data sequence of the (i-1)th frame in the known sequence of the i-th frame according to the estimation predicted value of the (i-1)th frame and the channel estimation predicted value of the i-th frame, and reconstructing the known sequence of the i-th frame in time domain to obtain the frequency-domain channel estimated value and time domain channel estimated value of the i-th frame. The channel estimation method and device of the invention simplify the complexity of channel estimation and can be used to track the rapidly changing dynamic channel.
+23. 101860382 Narrow-band interference suppression method and device
+CN
+13.10.2010
+H04B 1/71 Loading...
+H04B 1/71
+Loading...
+201010140351.4
+Huaya Microelectronics (Shanghai) Inc.
+Liu Yichen
+H04B 1/71
+Loading...
+The invention discloses a narrow-band interference suppression method and a narrow-band interference suppression device. The narrow-band interference suppression device comprises a frequency determining unit, a self-adaptive filtering unit, and an interference eliminating unit, wherein the frequency determining unit determines the frequency position of the narrow-band interference in a receiving signal, forms a local oscillator signal which only comprises narrow-band interference frequency information, and provides the local oscillator signal serving as a reference noise source for the self-adaptive filtering unit; the self-adaptive filtering unit converts the reference noise source into an analog interference signal which is consistent with the narrow-band interference, and provides the analog interference signal which is consistent with the narrow-band interference for the interference eliminating unit; and the interference eliminating unit eliminates the analog interference signal which is consistent with the narrow-band interference from the receiving signal, and outputs a useful signal. The narrow-band interference suppression method and the narrow-band interference suppression device perform point-to-point sampling processing on the data, and have high response speed. During eliminating the narrow-band interference, the damage to the useful signal at the same frequency position is reduced.
+24. 101841644 Adjacent channel interference elimination device and method
+CN
+22.09.2010
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+201010154780.7
+Huaya Microelectronics (Shanghai) Inc.
+Liu Yichen
+H04N 5/21
+Loading...
+The invention relates to an adjacent channel interference elimination device and a method thereof for transmitting television signals, wherein the adjacent channel interference elimination device comprises a power detection unit, an interference elimination unit, a frequency shifter and a filter, wherein the power detection unit is used for detecting power of the television signals and judging whether adjacent channel signals cause strong adjacent channel interference on useful signals or not; the interference elimination unit comprises a frequency shifter and a filter; the frequency shifter is used for shifting the frequency of the television signals according to the power bandwidth of the filter when the power detection unit detects the adjacent channel signals which cause strong adjacent channel interference and for moving the adjacent channel signals which cause strong adjacent channel interference in the television signals to a stop band position beyond the power bandwidth of the filter; and the filter is used for filtering the adjacent channel signals at the stop band position according to frequency shifting results. The adjacent channel interference elimination device and the method thereof provided by the invention can eliminate the adjacent channel interference effectively with simple structure and lower computation complexity, and therefore, a receiver can obtain good-quality television signals.
+25. 101777030 Device and method for verifying data transmission system
+CN
+14.07.2010
+G06F 13/20 Loading...
+G06F 13/20
+Loading...
+200910248077.X
+Huaya Microelectronics (Shanghai) Inc.
+Lu Xun
+G06F 13/20
+Loading...
+The invention discloses a device and a method for verifying a data transmission system. The data transmission system comprises at least one master device and a plurality of slave devices, wherein the master device and the slave devices transmit data through a bus. The verification device comprises a distribution unit and a plurality of subtask units, wherein the number of the subtask units is determined based on a predetermined distribution rule; the distribution unit is used for distributing the data transmitted to the bus and the data received from the bus to corresponding subtask units based on the predetermined distribution rule; and the subtask units are used for receiving and storing the data which is transmitted to the bus and is distributed by the distribution unit, receiving the data which is received from the bus and is distributed by the distribution unit and comparing the data with correspondingly stored data which is transmitted to the bus. The device and the method for verifying the data transmission system can reduce the management and control complexity in the verifying process.
+26. 101763137 Current generating circuit
+CN
+30.06.2010
+G05F 3/30 Loading...
+G05F 3/30
+Loading...
+200910248080.1
+Huaya Microelectronics (Shanghai) Inc.
+Yang Dawei
+G05F 3/30
+Loading...
+The invention relates to a current generating circuit which comprises a first current generating unit and a second current generating unit, wherein the first current generating unit comprise an MOS transistor working in a subthreshold area, and is used for generating a current in direct proportion with temperature; the second current generating unit comprises an MOS transistor working in a saturation area, and is used for generating a current irrelevant to the temperature; the difference between the current generated by the second current generating unit and the current generated by the first current generating unit is the third current generated by the current generating circuit. The current generating circuit can meet requirements for semiconductor process miniaturization and system simplification.
+27. 101742081 Image stabilizer
+CN
+16.06.2010
+H04N 9/04 Loading...
+H04N 9/04
+Loading...
+200910201148.0
+Huaya Microelectronics (Shanghai) Inc.
+Hu Feng
+H04N 9/04
+Loading...
+The invention provides an image stabilizer, which is connected with image acquisition equipment. The image stabilizer comprises a signal interface unit, a dynamic control unit and a resolution conversion unit, wherein the signal interface unit extracts YUV data on the basis of the image data of the camera and generates the number of line points, the number of total lines, line synchronization, field synchronization, effective area data and camera input clock; according to the number of line points, the number of total lines and the camera input clock, which are generated by the signal interface unit, and the working clock of the dynamic control unit, the dynamic control unit generates the number of line points and the number of total lines, which adapt to the resolution of the outputted image; and according to the number of line points, the number of total lines and the effective area data, which are transmitted based on the dynamic control unit, and the YUV data transmitted by the signal interface unit, the resolution conversion unit generates the outputted image with a new image resolution. The image stabilizer can regulate the image acquired by the image acquisition equipment to provide the image of which the resolution is stable and can be regulated.
+28. 101707677 OSD controller
+CN
+12.05.2010
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+200910201131.5
+Huaya Microelectronics (Shanghai) Inc.
+Hu Feng
+H04N 21/472
+Loading...
+The invention relates to an OSD controller which comprises a control unit, a data exchange unit, a decompression unit, a character generation unit, a video memory control unit and a superposition unit, wherein the control unit starts the data exchange unit based on an external command and correspondingly starts the decompression unit or the character generation; the data exchange unit reads image data in an external memory when being started corresponding to the external command and transmits the image data to the decompression unit, or reads character codes in the external memory and transmits the character codes to the character generation unit; the decompression unit decompresses the obtained image data when being started and then transmits the decompressed image data to the video memory control unit; the character generation unit generates character data based on obtained character codes when being started, an transmits the character data to the video memory control unit; the video memory control unit stores the obtained image data and/or the character data to corresponding regions in a video memory, or reads the image data and/or the character data from the video memory; and the superposition unit carries out the superposition processing on the image and character data read by the video memory control unit and provides superposition display of images and characters. The OSD controller can provide a man-machine interaction interface with richer display contents.
+29. 101707678 OSD controller
+CN
+12.05.2010
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200910201190.2
+Huaya Microelectronics (Shanghai) Inc.
+Hu Feng
+H04N 5/445
+Loading...
+The invention relates to an OSD controller which comprises a control unit, a data exchange unit, a decompression unit, a character generation unit, a video memory control unit, a superposition unit and a power failure storage unit, wherein the control unit starts the data exchange unit based on an external command and correspondingly starts the decompression unit or the character generation unit or the power failure storage unit; the data exchange unit respectively transmits image/character data to the decompression unit/the character generation unit, or writes user defined information in the power failure storage unit; the decompression unit decompresses the image data and then transmits the decompressed image data to the video memory control unit; the character generation unit generates character data based on obtained character codes, and transmits the character data to the video memory control unit; the video memory control unit stores the obtained image data and/or the character data to corresponding regions in a video memory, or reads the image data and/or the character data from the video memory; the superposition unit carries out the superposition processing on the image and character data read by the video memory control unit; and the power failure storage unit stores the user defined information in power failure. The OSD controller can provide a man-machine interaction interface with richer display contents and can store the user defined information in power failure.
+30. 101699417 Interrupt method
+CN
+28.04.2010
+G06F 13/24 Loading...
+G06F 13/24
+Loading...
+200910197343.0
+Huaya Microelectronics (Shanghai) Inc.
+Liang Feng
+G06F 13/24
+Loading...
+The invention relates to an interrupt method which comprises an interrupt entry step, an interrupt processing step, an interrupt clearing step and an exit step, wherein the interrupt clearing step comprises the following step: executing an interrupt clearing instruction; and the interrupt clearing step also comprises the following step: carrying out time delay after executing the interrupt clearing instruction according to the time that hardware clears the interrupt. In the invention, after finishing the interrupt clearing instruction and before exiting from the interrupt, a time delay mechanism is set, so that the system can completely exit from the interrupt before executing the next operation, thereby preventing the subsequent operation from being affected by the interrupt which does not exit and ensuring the stability of the system.
+31. 101605259 Device and method for transforming coding and decoding for multimedia data
+CN
+16.12.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910052271.0
+Huaya Microelectronics (Shanghai) Inc.
+Wang Lingguang
+H04N 7/26
+Loading...
+The invention discloses a method and a device for transforming decoding for multimedia data, a method and a device for transforming coding for multimedia data, and a device for transforming coding and decoding for multimedia data. The method for transforming the decoding for the multimedia data comprises the following steps: carrying out one-dimensional inverse transformation for a frequency domain data matrix, transposing the data matrix after the one-dimensional inverse transformation, and carrying out the one-dimensional inverse transformation for the transposed data matrix again to acquire a spatial domain data matrix. The one-dimensional inverse transformation comprises the following steps: ordering the data of each row of the data matrix and carrying out multistage composite butterfly operation for the ordered data of each row. The method and the device support various transformations in multiple video standards, and can realize that one set of the device can support various transformations of multiple standards. The device for transforming the coding and decoding for the multimedia data can realize positive transformation and reverse transformation in one set of device.
+32. 101577544 Phase-locked loop with collapse protection mechanism
+CN
+11.11.2009
+H03L 7/10 Loading...
+H03L 7/10
+Loading...
+200910053140.4
+Huaya Microelectronics (Shanghai) Inc.
+Sha Yide
+H03L 7/10
+Loading...
+A phase-locked loop with a collapse protection mechanism comprises a phase detector, a charge pump, a loop filter, a frequency-division unit and a voltage-controlled oscillator and also comprises an input unit, a frequency-locking detection unit and a protection unit; the frequency-locking detection unit detects whether the phase-locked loop is locked and outputs a signal in lock state to the protection unit; the protection unit receives a feedback frequency-division signal, a reference clock and the signal in lock state, according to whether the frequency-division signal exists and generates a corresponding protection control signal, and when the frequency-division signal exists and the phase-locked loop is not locked, the protection control signal is delayed and then is fedback to the input unit; and the input unit generates a reference input signal and outputs the reference input signal to the phase discriminator according to the protection control signal and the reference signal. In the invention, once the feedback signal occurs, the protection unit carries out delay to lead the phase-locked loop to restore normal work, thus improving the stability of the circuit, saving testing time and improving the efficiency.
+33. 101557518 Method and device for compensating motion, method and device for replacing cache
+CN
+14.10.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910051086.X
+Huaya Microelectronics (Shanghai) Inc.
+Yang Wei
+H04N 7/26
+Loading...
+The invention provides a method and a device for replacing cache, and a method and a device for compensating motion. The method for replacing the cache comprises the following steps of: calculating variation tendency of a motion vector; determining a searching area corresponding to the variation tendency of the motion vector; and selecting a cache block to be replaced in the cache based on cache block information outside the searching area. The method and the device for replacing the cache and the method and the device for compensating the motion can effectively improve the hit rate of the cache so as to achieve the aim of reducing the bandwidth of an exterior memory.
+34. 201315319 一种多芯片3D堆叠封装结构
+CN
+23.09.2009
+H01L 25/00 Loading...
+H01L 25/00
+Loading...
+200820155166.0
+华亚微电子(上海)有限公司
+李云芳
+H01L 25/00
+Loading...
+本实用新型涉及一种多芯片3D堆叠封装结构，包括一个主芯片和至少一个辅助芯片，所述主芯片和辅助芯片分别具有各自的电路面和与该电路面相对的背面；所述辅助芯片堆叠在所述主芯片上；在所述主芯片的电路面上设有主焊垫，所述辅助芯片的电路面上设有辅助焊垫，所述辅助焊垫通过金属线与所述主焊垫相连。采用上述多芯片3D堆叠封装结构，将视频处理主芯片进行设计，使之可以在一个封装体内将多个辅助芯片全部通过内部导线连接，在双列直插式封装内完成三颗芯片的功能整合，芯片的高成度为客户缩小了线路板面积，缩减了生产厂商的生产成本，同时减少了信号的传输延迟，提高了系统的性能，同时系统板以及模块封装尺寸小，具有质量轻的优势。
+35. 101515249 Error inspection method
+CN
+26.08.2009
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200910048486.5
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 11/36
+Loading...
+An error inspection method comprises the following steps: searching and reading data information of core logic blocks and display logic blocks in a graphic data processing system , acquiring the dependency relationship among the core logic blocks and mapping relationship among the core logic blocks, display logic blocks and display data based on specific items, and inspecting whether the dependency relationship among the core logic blocks or mapping relationship among the core logic blocks, display logic blocks and display data makes sense based on the data information of the core logic blocks and display logic blocks. Compared with the prior art, the invention is capable of rapidly and exactly inspecting the errors resulting from the dependency relationship among the core logic blocks or mapping relationship among the core logic blocks, display logic blocks and display data to guarantee the realization of each item in the graphic data processing system.
+36. 101515234 Associated data processing method and associated data device
+CN
+26.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048487.X
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 9/44
+Loading...
+An associated data processing method and an associated data device are provided; wherein the associated data device at least comprises first data objects and second data objects which are in the unidirectional association, the second data objects depend on the first data objects, the depended objects are used for storing the dependency relationship, and the second data objects are used for automatic reset and update according to the dependency relationship and update of the first data objects when the first data objects change. The invention provides the unidirectional association between each two directly associated data objects, stores the dependency relationship through the depended objects and notifies the data objects to automatically update based on the depended data objects, thus ensuring the association stability of the associated data, avoiding human errors and efficiently saving cost.
+37. 101515235 Programming system and data processing system
+CN
+26.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048488.4
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 9/44
+Loading...
+A programming system and a data processing system are provided. The data processing system comprises a plurality of application interface units, a plurality of link units, a plurality of control units and a plurality of display units, wherein the application interface units are used for receiving operating instructions and displaying correspondingly according to the display data sent by the link units, the link units are used for sending the operating instructions received by the application interface units to the corresponding control units, the system status data sent by the corresponding control units to the corresponding display units, and the display data sent by the display units to the corresponding application interface units, the control units are used for changing the corresponding system statuses according to the operating instructions from the link units to update and send the system status data to the link units, and the display units are used for converting the system status data sent by the link units into corresponding display data and sending the data to the link units. The programming unit improves the efficiency and quality of software development. The data processing system also has higher data processing efficiency.
+38. 101510153 Data conversion logical unit
+CN
+19.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048039.X
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Dong Qi
+G06F 9/44
+Loading...
+The invention discloses a data transformation logic unit, which is used for transforming and outputting input data and characterized by comprising a header file unit and a source file unit. The header file unit is used for providing parameter-definition which is used for data interchange of the data transformation logic unit and the external part; the source file unit is used for providing concrete realization that source function is used to transform and output the input data; and the data transformation logic unit provides unified external data parameters and the source function. The logic unit has unified external data type and the source function, simplifies the check to the interface functions when invoking each other, saves the workload of programming, and reduces the code amount by improving the reusability of the codes. The invention also provides operations such as inquiry, retrieval, classification and the like, reduces the debugging difficulty and saves huge costs under the premise of guaranteeing the programming flexibility.
+39. 101510154 Standard logical unit
+CN
+19.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048042.1
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Dong Qi
+G06F 9/44
+Loading...
+The invention discloses a standard logic unit, which is used for managing and controlling the state and the behavior of a system and characterized by comprising at least one header file unit and at least one source file unit. The header file unit is used for providing parameter-definition which is used for data interchange of the standard logic unit and the external part; the source file unit is used for providing concrete realization of the matched header file unit in the standard logic unit; and the standard logic unit provides unified external interface parameters. The invention provides the standard logic unit which has unified external parameters for all the realization, simplifies the check to the interface functions when invoking each other, saves the workload of programming, provides operations such as inquiry, retrieval, classification and the like, reduces the debugging difficulty and saves huge costs under the premise of guaranteeing the programming flexibility.
+40. 101504608 Multimedia signal input processing method
+CN
+12.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048044.0
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 9/44
+Loading...
+The invention relates to a multimedia signal input processing method, which comprises the following steps that: a user interface unit receives a command signal and sends the command signal to a link unit; the link unit receives the command signal, and acquires a mapping from the user interface unit to a core logic unit from a mapping module of the link unit according to the command signal; and the link unit performs format conversion on the command signal sent by the user interface unit and transmits the command signal subjected to format conversion to the core logic unit. Compared with the prior art, a mapping rule from the user interface unit to the core logic unit is not solidified in a control module or other modules of the user interface unit, but the mapping rule is arranged in the link unit. Therefore, the reusability of the user interface unit and the core logic unit can be improved.
+41. 101505432 Chroma enhancing system and method
+CN
+12.08.2009
+H04N 9/68 Loading...
+H04N 9/68
+Loading...
+200910047314.6
+Huaya Microelectronics (Shanghai) Inc.
+Zhang Jiede
+H04N 9/68
+Loading...
+The invention provides a system and a method for increasing chromaticity. The chromaticity-increasing method comprises the following steps that: a color-degree self-defining system is established; the color-degree self-defining system comprises a plurality of colors; each color has a self-defined central value; the self-defined central value is subjected to self-defined extension towards a larger angle and a smaller angle so as to form the color gamut of the color; the sum of the angles of the color gamut is 360 degrees; based on the color-degree self-defining system, the value of a color angle corresponding to the U and V values of an obtained image signal is calculated; according to the obtained value of the color angle, the corresponding proportion of saturation adjustment is calculated so as to adjust the saturation of the image signal; and according to the obtained value of the color angle, the corresponding angle of tone adjustment is calculated so as to adjust the tone of the image signal after saturation adjustment. The system and the method for increasing chromaticity have the advantages of meeting the requirements of different users on TV images better and improving the effect of increasing chromaticity.
+42. 101504607 Window state manager and method, window management system and method
+CN
+12.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048041.7
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 9/44
+Loading...
+The invention relates to a window state manager and a method, a window management system and a method. The window state manager comprises a recording unit, a system attribute management unit and a control unit, wherein the recording unit is used for inquiring and acquiring a window state of a window where a new focus is positioned; the system attribute management unit is used for storing a window state of a window where a current focus is positioned and storing state conversion functions required by various state conversions; and the control unit calls and executes state conversion functions required by the conversion of the two window states from the system attribute management unit according to the window state of the window where the new focus is positioned acquired from the recording unit and the window state of the window where the current focus is positioned acquired from the system attribute management unit. The window state manager and the method, and the window management system and the method have compact function realization; and the system attribute management unit can be multiplexed by different projects so as to save manpower, quicken software development speed, and also prevent the miss of window attribute state conversion during window switching.
+43. 101504606 Associated data chain apparatus and its data processing method
+CN
+12.08.2009
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200910048040.2
+Huaya Microelectronics (Shanghai) Inc.
+Dong Qi
+G06F 9/44
+Loading...
+The invention relates to an associated data link device and a data processing method thereof. The associated data link device at least comprises a link consisting of a core logic unit, a display logic unit and a graph control, wherein the graph control displays required display data generated by the display logic unit; the display logic unit generating the display data depends on core data of the core logic unit; and the display data is associated with the core data, and automatically resets and updates according to the core data. By providing unidirectional data association between every two directly-associated logic units and keeping a data change linkage dependency relationship, when the depended data are changed, the data depending on the depended data is informed of automatic update according to the association, the linkage stability among the associated data link devices is ensured, the probability of an error caused by manual operation is avoided, and the software development cost is effectively saved.
+44. 101482896 Simulation method
+CN
+15.07.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200910045863.X
+Huaya Microelectronics (Shanghai) Inc.
+Liang Feng
+G06F 17/50
+Loading...
+The invention provides a simulation method, wherein implementing a single download task comprises: a simulator receives a start-to-download instruction; the simulator sends all object instructions interrelated to implementing the download task to an object board according to the start-to-download instruction; after receiving the all interrelated object instructions, the object board implements the instructions item by item. The simulation method of the invention firstly transfers the all object instructions implementing the single download task, then uses the object board to store and implement the instructions item by item to complete to download the data, thereby reducing the times of handshaking between the simulator and the object board, shortening the download time, and also improving the simulation efficiency and saving the bandwidth.
+45. 101483497 Data transmission system, receiving terminal and data packet recovery method thereof
+CN
+15.07.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810204616.5
+Huaya Microelectronics (Shanghai) Inc.
+Xiao Peng
+H04L 1/00
+Loading...
+The present invention provides a data transmission system used for transmitting television signal, a receiving end and a data package recovering method thereof, wherein the data package recovering method comprises the steps of: dividing the television signal to be transmitted to a plurality of data blocks by the transmitting end, and adding characteristic serial numbers into the data blocks for forming a plurality of data packages; detecting the received data package by the receiving end, and confirming the lost data package according to the characteristic serial numbers in the data package; and substituting the lost data package by the data package adjacent with the characteristic serial number of lost data package by the receiving end according to the relativity between the data packages, wherein the characteristic serial number comprises the data style of data package, the affiliated frame and/or field, and the position information of corresponding data block in the affiliated frame and/or field. Therefore the invention can recover the lost data with a simple substitution mode. Furthermore the complexity of system can be relatively reduced and the load of transmission channel is alleviated.
+46. 101478657 Volume control method and apparatus, television receiving apparatus
+CN
+08.07.2009
+H04N 5/60 Loading...
+H04N 5/60
+Loading...
+200810202562.9
+Huaya Microelectronics, Inc.
+Dong Qi
+H04N 5/60
+Loading...
+The present invention provides a sound volume controlling method and a device thereof, and a television receiving device. The sound volume control method comprises the following steps: collecting the sound volume control record of present frequency channel; counting the collected sound volume control record of present frequency channel for obtaining the sound volume excursion of present frequency channel relatively to the reference sound volume; executing a corresponding sound volume excursion adjustment on the reference sound volume to the present frequency channel, and using the adjusted sound volume as the output sound volume of present frequency channel. The sound volume controlling method, the sound volume controller and television receiving device all have excellent application effect to the switching between different frequency channels and the different sound volume environment.
+47. 101466048 Digital demodulation method for non-synchronous composite video signal and S video signal
+CN
+24.06.2009
+H04N 9/77 Loading...
+H04N 9/77
+Loading...
+200910045109.6
+Huaya Microelectronics (Shanghai) Inc.
+Huang Xiumin
+H04N 9/77
+Loading...
+The invention relates to a digital demodulation method and a demodulator for a non-synchronous composite video signal and an S video signal. The method comprises the following steps: a fixed sampling clock is set to collect data for the entire demodulation process; the composite video signal or the S video signal is converted into an initial digital signal; a field-synchronizing signal and a line synchronizing signal in the initial digital signal are restored, and the field frequency and the line frequency in the initial digital signal are calculated and locked; the color intensity in the initial digital signal is demodulated; a line synchronizing phase is secondarily sampled by the interpolation method; the phase is adjusted; the intense color is separated; and the brightness, the contrast degree and the saturation degree are adjusted. By utilizing the invention, the dependence on an analog phase-locked loop in a video demodulator can be eliminated. The phase-locked loop is the important core in the digital video demodulator and is the only one who cannot be separated from the analog. Therefore, in an integrated circuit of the digital video demodulator, not only the reducing of the area and complexity of the integrated circuit is realized, but also the effect brought by using the phase-locked loop is also achieved.
+48. 101419483 Clock generator based on phase-locked loop and clock generating method
+CN
+29.04.2009
+G06F 1/08 Loading...
+G06F 1/08
+Loading...
+200810203774.9
+Huaya Microelectronics Co., Ltd.
+Wen Daihao
+G06F 1/08
+Loading...
+The invention discloses a clock generator based on a phase-locked loop, which comprises a crystal oscillator, a phase-locked loop circuit, a clock adjusting module and a doubling circuit output module, wherein the clock adjusting module is used for receiving a first multi-path clock signal output by the phase-locked loop circuit, respectively adjusts the frequency and the phase of each first multi-path clock signal according to the preset frequency and phase of a target clock signal, and outputs multiple second multi-path clock signals respectively corresponding to all of the first multi-path clock signals; the doubling circuit output module is used for receiving and merging the second multi-path clock signals output by the clock adjusting module, and outputs the target clock signal with the preset frequency and phase. The invention also discloses a corresponding clock generating method. The clock generator based on a phase-locked loop and the clock generating method can conveniently and flexibly adjust the frequency and the phase of the output target clock signal, and greatly broaden the band width which can be realized.
+49. 101419777 Input/output interface circuit and transceiving circuit
+CN
+29.04.2009
+G09G 3/32 Loading...
+G09G 3/32
+Loading...
+200810203775.3
+Huaya Microelectronics Co., Ltd.
+Rong Ying
+G09G 3/32
+Loading...
+The invention provides an input-output interface circuit and a transceiving circuit. The input-output interface circuit comprises a selection control module, a parallel-serial conversion module and a transceiving module, wherein, the selection control module is used for selecting a mode for transmitting data; the parallel-serial conversion module is used for transforming the received parallel data into serial data according to the selected mode for transmitting the data; and the transceiving module is used for sending the serial data by the selected mode for transmitting data. The interface circuit can support a plurality of data transmission modes.
+50. 101404279 Multi-chip 3D stacking and packaging structure
+CN
+08.04.2009
+H01L 25/00 Loading...
+H01L 25/00
+Loading...
+200810202513.5
+Huaya Microelectronics (Shanghai) Inc.
+Li Yunfang
+H01L 25/00
+Loading...
+The invention relates to a multi-chip 3D stacked packaging structure. The structure comprises a main chip and at least one auxiliary chip. The main chip and the auxiliary chip are respectively provided with a circuit surface and a back surface facing the circuit surface; the auxiliary chip is stacked on the main chip; a main bonding pad is arranged on the circuit surface of the main chip, and an auxiliary bonding pad is arranged on the circuit surface of the auxiliary chip; the auxiliary bonding pad is connected with the main bonding pad by a metal wire. By using the multi-chip 3D stacked packaging structure, the main chip for video processing is designed to connect a plurality of auxiliary chips completely by internal leads in a package, and the functional integration of three chips in a dual in-line package is finished. High formation degree of the chip reduces the area of a circuit board, lowers the production cost of manufacturers, reduces the signal transmission delay and improves the system performance simultaneously. And the system board and the module have the advantages of small packaging size and light weight.
+51. 101365131 Simplified code table for variable length decoding by AVS video decoder suitable for VLSI implementation and implementing method
+CN
+11.02.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810041846.4
+Huaya Microelectronics (Shanghai) Inc.
+Tian Ye
+H04N 7/26
+Loading...
+The invention discloses a simplified code table for variable length decoding of an AVS video decoder suitable for VLSI implementation, and an implementation method. The simplified code table is a one-dimensional array which has the dimension of 19*29*2 equal to 1102 bytes deduced from nineteen variable length code tables of a standard appendix A and takes 'level' and 'run' as elements. The decoding method for the code tables comprises the following two steps of accessing the one-dimensional array code table and evaluating a non-zero quantization coefficient 'level' and a run 'run' according to an index address; and judging parity of 'trans coeff' and determining the plus or the minus of the 'level'; when the 'trans coeff' is less than an end mark, if the 'trans coeff' is an odd number, choosing the negative value for the 'level'; when the 'trans coeff' is bigger than the end mark, if the 'trans coeff' is an even number, choosing the negative value for the 'level'. Nineteen elements correspond to nineteen tables, so that the different blocks can be handled by uniform logic, so as achieve the purposes of simplifying the logic and eliminating excessive storage and calculation to a large limit.
+52. 101364960 High-speed differential interface
+CN
+11.02.2009
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200810040332.7
+Huaya Microelectronics (Shanghai) Inc.
+Rong Ying
+H04L 25/02
+Loading...
+The invention relates to a high speed differential interface which comprises a transmitter, a receiver, and a data channel and a clock channel between the transmitter and the receiver. The transmitter comprises an encoder for receiving external data, a serializer connected with the encoder, a driver connected with the outlet of the serializer and a frequency synthesizer for receiving reference clock signals, and the outlet of the frequency synthesizer is accessed into the serializer; and the receiver comprises a data latch unit connected with the driver through two differential data channels and a differential clock channel, a deseriallizer connected with the outlet of the data latch unit and a decoder connected with the outlet of the deseriallizer. By adopting the high speed differential interface with the structure, no frequency synthesizer is arranged on the receiver side, and the clock deviation and the data deviation mutually follow up and balance out. Through the entire interface circuit, small lead wire quantity, low energy consumption, low noise, high data rate and low cost are realized.
+53. 101365132 Fast effective parsing method for CAVLD of H.264 suitable for VLSI implementation
+CN
+11.02.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810041975.3
+Huaya Microelectronics (Shanghai) Inc.
+Tian Ye
+H04N 7/26
+Loading...
+The invention discloses a rapid and effective analytical method for H.264-CAVLD suitable for VLSI implementation, which comprises the following steps of (1) re-ordering the code tables of a coefficient mark, a total number of zeros, and a front run given by a H.264 standard, and conducting the order in the following ways of taking bit strings representing a grammar unit as input and a semantic value corresponding to the grammar unit of the bit strings as output, and then arranging respectively two sides of each of the code tables; ordering in sequence from top to bottom according to the length of the bit strings representing the grammar unit; ordering the shortest bit string on the top, and ordering the bigger values in the bit strings which have the same length on the top; (2) according to the analyzed code tables, obtaining a multi-branch search tree corresponding to the decoding code tables in the following ways that the multi-branch tree has the lightest depth; leaf nodes of the short bit strings are preferable to have the lightest depths; sub-tree which have common logic are combined into a branch; (3) analyzing the grammar unit. The invention can analyze corresponding code words with quick one step, normal two steps and three steps at a slowest speed, thereby greatly reducing the calculating amount and realizing the quick decoding.
+54. 101360226 Transmission control method of digital television transmission stream and apparatus thereof
+CN
+04.02.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200710172337.0
+Huaya Microelectronics (Shanghai) Inc.
+Chen Yidong
+H04N 7/24
+Loading...
+The invention relates to a transmission controlling method and a device for digital television transport stream, which make random floating to PID value of an appointed transport stream when an uplink port of a digital television system reuses a program and adopts the floated value as the actual PID value of transport stream; the uplink port transports the floating value of PID to a receiving equipment by an encryption mode; the receiving equipment analyzes random rules and obtains the actual PID value of the transport stream according to the appointed PID of the transport stream. The illegal receiving equipment cannot obtain the floating random number of the PID value and receive the program without knowing the encryption mode, a cryptographic key and transmission rules.
+55. 101360227 Digital television recognition method and apparatus thereof
+CN
+04.02.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200810039425.8
+Huaya Microelectronics (Shanghai) Inc.
+Chen Yidong
+H04N 7/24
+Loading...
+The invention relates to an identification method and a device for a digital television program, the method comprises the following steps: reusing and entering feature codes of the appointed digital television program in the transport stream when an uplink port of the digital television system reuses a program, finishing selectable receiving of the program according to the feature codes; receiving the program normally by a receiving equipment if the transport stream contains feature codes of the corresponding program; otherwise not receiving the program normally by the receiving equipment. As previously stated, the identification technology for digital television program can adjust to not only digital television video broadcasting but also digital audio broadcasting and other related data broadcasting services.
+56. 101102493 A method for chip storage applicable motion estimation
+CN
+09.01.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710044624.3
+Huaya Microelectronics Inc.
+Tian Ye
+H04N 7/26
+Loading...
+The method comprises: using an intra-slice space with column shape to realize the prefetch of data, reuse of data and space, motion estimation and motion compensation. The perimeter and height of the column both use pixel as the unit; the perimeter is EXT+2*SRX+16+ 2*SRX+EXT+H*16, and the height is EXT+2*SRY+16+2*SRY+EXT+(V-1)*16; wherein, SRX is the searching range in X direction, and the SRY is the searching range in y direction; EXT is up, down, left and right integer pixel number around the optimal integer pixel point required by 1/4 pixel interpolation.
+57. 200983651 数字电视传送流变化识别装置
+CN
+28.11.2007
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200620048147.9
+华亚微电子(上海)有限公司
+陈益栋
+H04N 7/26
+Loading...
+本实用新型涉及一种数字电视传送流变化识别装置，包括：PSI表过滤器，设在数字电视接收设备的解复用模块中，发送捕获到的PSI表；CRC_32值比较器，与PSI表过滤器相连，接收CRC_32字段；CRC_32值存储器，与CRC_32值比较器双向连接，将所存储的CRC_32字段发送给CRC_32值比较器，也接收来自CRC_32值比较器的CRC_32字段并存储；PSI表处理器，与PSI表过滤器相连，接收PSI表过滤器发送的PSI表；以及状态开关，设在PSI表处理器与PSI表过滤器之间，接收来自CRC_32值比较器的开关控制信号。当传送流的内容发生变化时，相应PSI表的内容也会发生变化，由此计算出来的CRC_32字段值也必定会跟着改变。由此可以根据PSI表的CRC_32字段值是否改变来判断PSI表的内容是否改变，从而判断传送流的内容是否改变。
+58. 101072372 Signal end voltage clamp circuit and system for effectiveness detection of continuous multi video input
+CN
+14.11.2007
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200710041615.9
+Huaya Microelectronics (Shanghai) Co., Ltd.
+Wen Daihao
+H04N 17/00
+Loading...
+Through a transistor, the output end of operational amplifier in clamping circuit reaches to a circuit node. The node possesses three branches: first branch is as output voltage; second branch is fed back to first input end of operational amplifier; third branch is connected to pulldown low current. Correspondingly, the system containing the said clamping circuit includes: input selection module (ISM) in use for receiving multiple inputs in video; comparator is in use for receiving a DC reference voltage, and voltage form output of constant voltage module, and after passing through an edge counter and a trigger, the output voltage of the comparator is as the output of video detection; being connected to ISM, the edge counter and the trigger, the clock control unit is in use for receiving signal of system clock. Possessing the clamping circuit, the detection system can implement detecting input signal of continuous multi video.
+59. 1767661 Color crosstalk detecting method and system in video signal
+CN
+03.05.2006
+H04N 17/02 Loading...
+H04N 17/02
+Loading...
+200410067643.4
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 17/02
+Loading...
+This invention provides a method and a system for carrying out color string test to decoded compound video signals, which tests the existence of color strings in one pixel set having the same pixel positions, each one comes from a video field in a group of different video fields including a current video field of current pixels and when the system tests the existence of color string templates, that shows that the color string phenomenon existence at the current pixel place.
+60. 1767659 Color crosstalk restraining method and system in video signal
+CN
+03.05.2006
+H04N 9/78 Loading...
+H04N 9/78
+Loading...
+200410067644.9
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 9/78
+Loading...
+This invention provides a method and a system for suppressing color strings to decoded compound video signals, which applies a first color string suppression technology to pixels in the place of pixels of the first video field where color strings appear and applies a second color string suppression technology to pixels in the pixel place of the second video field, in which, the second video field set is closely after the first one in the video signals flow.
+61. 1728808 Method ands system for cumulative static analyzing video image
+CN
+01.02.2006
+H04N 7/00 Loading...
+H04N 7/00
+Loading...
+200410053186.3
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Zhu Ge
+H04N 7/00
+Loading...
+Based on a current pixel in current field, the invention generates a piece of information of field static attribute. The information of field static attribute is cumulated to information of cumulated static attribute of current pixel corresponding to position of pixel in current field. Information of cumulated static attribute contains static information of current pixel related to corresponding pixel in previous video field.
+62. 1710931 Picture colour controlling method and system
+CN
+21.12.2005
+H04N 1/60 Loading...
+H04N 1/60
+Loading...
+200510028158.0
+Huaya Microelectronic Co., Ltd., Shanghai
+Zhu Ge
+H04N 1/60
+Loading...
+The disclosed system determines whether color of a current pixel is close to a selected color; if yes, the system generates a pixel color control factor calculated from information of current pixel and selected color in order to adjust color saturation of the pixel.
+63. 1684497 Image pantography and image pantograph device system
+CN
+19.10.2005
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200510024332.4
+Yuaya Microelectronic (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 5/14
+Loading...
+This invention provides a method and a system for zooming video images, which does not utilize the traditional related interpolation position but a high frequency regulation position in the original image to generate a pixel value of the zoomed image. The high frequency position is based on the computation of the high frequency information of the pixel adjacent to the related interpolation position. Compared with the zoomed image pixel value generated by the traditional related interpolation position, the pixel value generate by high frequency regulation position can increase the image quality. Besides, the quality is further increased by the compensation of the resolution.
+64. 1658667 Image edge smoothing system and method based on directional interpolation
+CN
+24.08.2005
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200410016394.6
+Huaya Microe Electronic (Shenghai) Co., Ltd.
+Zhu Ke
+H04N 7/01
+Loading...
+This invention discloses a method and system of smoothing the video image frames to eliminate the sawteeth at the edge. The method and system produce a smoothing filter by incorporating pels. Select the edge direction of smoothing operation through analyzing the edge in the smoothing filter. Smoothing pels is produced based on the unitary linear combination of a first edge pels, a second edge pels and the central incorporating pels of the smoothing filter. The test to the subtle structure can be used to ascertain whether it should use the smoothing pels to replace the present pels.
+65. 1658666 System and method for detecting structure characteristic of video image
+CN
+24.08.2005
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200410016393.1
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 7/01
+Loading...
+This invention discloses a method and system to test the structure characteristics of the video images. The method and system are based on the structure testing sum produced by the series of pels in the video images. The structure testing sum is used as an index of the lookup list. In the lookup list stores the structure characteristics corresponding to the structure sum. The method and system can eliminate the sawteeth appearing at the gradient edge of the moving objects in the video images.
+66. 1635779 Adjusting method for brightness edge in image and adjusting system therefor
+CN
+06.07.2005
+H04N 3/00 Loading...
+H04N 3/00
+Loading...
+200310122878.4
+Huaya Microelectronics (Shanghai) Inc.
+Chen Qianwen
+H04N 3/00
+Loading...
+A method and system for adjusting image brightness edge, which contains detecting and dividing the positive and negative edge of pulse signal, respectively sent into itself adjusting system to adjust, said adjusting system contains positive and negative edge signal identification, dividing, selective edge checking, positive and negative edge checking, differential signal process module, positive and negative signal selector and adjusting system. Said invention can independently adjust the rising edge and trailing edge to obtain sharp image figure.
+67. 1595954 A method of definition compensation during video image zoom
+CN
+16.03.2005
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200410017082.7
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 5/14
+Loading...
+The invention is a resolution compensating method for video frequency image convergent-divergent process. In the system, a resolution compensating unit is arranged together with the image convergent-divergent unit parallel. The resolution compensating unit generates a high frequency information component into the result pixel generated by the image convergent-divergent unit when the image is magnified by the resolution compensating unit; when the image is reduced, it generates a high frequency information component subtracted from the result image pixels by the image reducing unit. The invention is adaptive, and the operation is flexile, and it is convenient.
+68. 1595973 Method and system for converting interlacing video stream to line-by-line video stream
+CN
+16.03.2005
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200410018071.0
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 7/01
+Loading...
+The invention provides a method and system for converting the interleaving video frequency flow from interleaving to line-by-line. The method can judge if an interleaving video frequency flow is in normal mode or special mode. The interleaving video frequency flow in special mode is acquired by dividing the line-by-line video frequency flow, and uses special mode to convert it, and two interleaving video frequency field are integrated into one line-by-line video frequency frame. The interleaving video frequency flow in normal mode uses normal mode to convert from interleaving to line-by-line, namely converts an interleaving video frequency field into a line-by-line video frequency frame with repeating or some interpolation method.
+69. 1549592 Adaptive recursive noise reducing method of video signal for applied scene static detection
+CN
+24.11.2004
+H04N 7/015 Loading...
+H04N 7/015
+Loading...
+03128818.9
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 7/015
+Loading...
+In the method, revised picture element is stored in the field after the field is processed and field processing which is carried out after wards is done by utilizing the revised picture element. The new static picture element detection program including multithreshold and multiwinded of picture element is used by the method to carry out noise reduction only for the static picture element.
+70. 1549593 Multi-window multi-threshold method for picture element static detection
+CN
+24.11.2004
+H04N 7/015 Loading...
+H04N 7/015
+Loading...
+03128819.7
+Huaya Microelectronic (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 7/015
+Loading...
+In the method, static picture element can be detected by multithreshold and multiwindow and for example, the method is carried out as the follows: the static picture element is detected by the first window and the picture element is judged as it is static one if current picture element is detected by the first window as it is static picture element, otherwise the second window is used to carry out static picture element detection, the picture element is judged as it is static one if current picture element is detected by the second window as it is static one, and otherwise the current picture element is not static one.
+71. 1545329 System and method for transient reinforcing of video image color
+CN
+10.11.2004
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200310108511.7
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 9/64
+Loading...
+The invention provides a video image color transient enhancing system and method for eliminating color distortion transition zones between different color regions. Firstly use a transient characteristic extracting unit to calculate a group of color transient eigenvalues by a color transient detecting window of the current pixel, then using a transient threshold value unit to analyze this group of color transient eigenvalues, so as to determine whether there is color transition in the color transient detecting window. If there is, use a transient correcting unit to calculate modified U and V color values of the current pixel, respectively.
+72. 1545327 System and method for reinforcing video image quality
+CN
+10.11.2004
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200310108509.X
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 9/64
+Loading...
+The invention provides a video image quality enhancing system and method, comprising an image edge enhancing unit, an image contrast stretching unit, an image color transient enhancing unit and a color saturation control unit, and able to enhance brightness and color of video images at the same time. Concretely speaking, the image edge enhancing unit can enhance strength of boundaries in video images; the image contrast stretching unit processes brightness of video images to enhance contrast of the whole image; the image color transient enhancing unit processes image color to eliminate color distortion transition zones between different color regions; the color saturation control unit processes image color to enhance fresh degree of the whole image.
+73. 1545326 System and method for reinforcing color saturation of video image
+CN
+10.11.2004
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200310108508.5
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 9/64
+Loading...
+The invention provides a video image colour saturation control system and method, firstly using a corrected colour saturation enhanced factor calculating unit to generate a corrected colour saturation enhancement factor by a basic colour saturation enhanced factor, then using a multiplication calculating unit to multiply the corrected enhancement factor with the U and V color values of a current pixel to obtain the corrected U and V color values, respectively. For not changing the color of a current color before and after correction, the ratio of U color value to V color value after correction is equal to that before correction. When a basic color saturation enhancement factor will make the corrected U or V color value exceed the allowable range of color value of a video system, it uses a group of color saturation enhancement factors stored in a search table in advance to make correction calculation on color saturation.
+74. 1545328 System and method for promoting marginal definition of video image
+CN
+10.11.2004
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200310108510.2
+Huaya Microelectronics (Shanghai) Inc.
+Zhu Ge
+H04N 9/64
+Loading...
+The invention provides a video image edge definition enhancing system and method, firstly using an edge detecting unit to calculate the direction of leading edge of the current pixel in brightness domain, using an edge enhanced brightness calculating unit to calculate a new brightness value of the current pixel, so as to further enhance edge strength in the direction of the leading edge at the current pixel. The edge direction is approximately determined by the change direction of brightness, and the magnitude of change rate of brightness in a certain transverse direction is used to approximately express the edge strength in this direction.
+75. 1538748 Method of interleave and line by line conversion of mixing two dimensional and three dimensional
+CN
+20.10.2004
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+03116417.X
+Huaya Micro-electronic (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 7/01
+Loading...
+Based on interpolation, the method of making conversion between interlace and non-interlace generates non-interlaced video frame by using interlaced video signals in multiple fields. Pixel value of the pixel to be interpolated is generated by using interpolation method from 4 locations: a pixel above and a pixel below the pixel to be interpolated and a pixel in previous field and a pixel in next field at same position of the pixel to be interpolated. The method raises resolution and accuracy of non-interlaced video frame. Pixel value of the pixels adjacent to the pixel to be interpolated can be adjusted to raise consistency between video frames.
+76. 1536876 Frame frequency conversion method of interlaced and line-by line video signals
+CN
+13.10.2004
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+03116378.5
+Huaya Microelectronics (Shanghai) Co., Ltd.
+Zhu Ke
+H04N 5/14
+Loading...
+The invention provides a method for converting interleaved video frequency signal into line-by-line signal in normal mode or special mode. The video frequency flow in special mode, the interleaved video frequency flow is generated from a line-by-line source video frequency flow, and accomplishes the conversion from interleaved to line-by-line in the special mode, and this is realized by combining the two odd-even fields which belong to the same scene originally. The video frequency flow in normal mode will be converted into line-by-line through normal mode; it is accomplished by repeating some line or some interpolation method to generate the lost line.
+

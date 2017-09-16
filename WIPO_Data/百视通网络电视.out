@@ -1,0 +1,493 @@
+1. 103596040 数字电视地面广播与互联网双模式的电视接收系统
+CN
+15.02.2017
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+102013000642489
+百视通网络电视技术发展有限责任公司
+黄思钧
+H04N 21/434
+Loading...
+本发明提供了一种数字电视地面广播与互联网双模式的电视接收系统，包括有：网络检测模块，用于检测DTMB网络和互联网的网络状态；DTMB信道模块，用于接收并处理DTMB网络的电视节目数据，并缓存到媒体包缓存模块，形成第一缓存数据；互联网信道模块，用于接收并处理互联网的电视节目数据，并缓存到媒体包缓存模块，形成第二缓存数据；媒体包缓存模块，用于根据网络状态和预定的切换策略实现DTMB信道和互联网信道之间的切换，并将第一缓存数据或者第二缓存数据送入音视频解码器；音视频解码器，用于解码播放所述第一缓存数据或者所述第二缓存数据。借此，本发明能够优化电视内容的接收效率、接收成本、接收范围以及电视观看效果。
+2. 204259102 电视遥控触摸板
+CN
+08.04.2015
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201420788694.5
+百视通网络电视技术发展有限责任公司
+郑杰
+H04N 21/422
+Loading...
+本实用新型提供了一种电视遥控触摸板，包括触摸信号采集电路、遥控电路、蓝牙电路，触摸信号采集电路、蓝牙电路都与遥控电路连接；遥控电路包括相互连接的数据转换电路和控制电路。本实用新型电视遥控触摸板操作简单和方便，不会按错。
+3. 104135690 基于IPTV的机顶盒操控方法及系统
+CN
+05.11.2014
+H04N 21/436 Loading...
+H04N 21/436
+Loading...
+201410408642.5
+百视通网络电视技术发展有限责任公司
+郑炜
+H04N 21/436
+Loading...
+本发明适用于IPTV技术领域，提供了一种基于IPTV的机顶盒操控方法，包括步骤有：通信终端获取机顶盒唯一对应的机顶盒标识；所述通信终端将所述机顶盒标识以及所述通信终端唯一对应的终端标识发送给多屏互动系统；所述多屏互动系统根据所述机顶盒标识和所述终端标识，将所述机顶盒与所述通信终端进行关联；根据所述通信终端的机顶盒操作指令来操控所述机顶盒完成相应操作。相应地，本发明还提供一种基于IPTV的机顶盒操控系统。借此，本发明能够使用户通过通信终端方便地操控机顶盒，成本低且简单易行。
+4. 103491179 Multi-screen interaction method and system based on Web
+CN
+01.01.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310451735.1
+百视通网络电视技术发展有限责任公司
+犹杰
+H04L 29/08
+Loading...
+The invention relates to the field of internet techniques and multimedia, and provides a multi-screen interaction method and system based on the Web. The method includes the steps of logging on, wherein a user logs on a plurality of intelligent terminals at the same time and chooses to operate an application of any one of the intelligent terminals, correlating other terminals, wherein a service end responds to a Weboscket handshaking request of any one of the intelligent terminals which the user logs on, and correlates any one of the intelligent terminals with other intelligent terminals which the user logs on, communicating, wherein communication connection is built between any one of the intelligent terminals and other intelligent terminals so that switching and transmission of interconnection and interoperation signaling among the multiple intelligent terminals can be achieved, and responding, wherein other intelligent terminals respond to the operation signaling of any one of the intelligent terminals. Therefore, interconnection and interaction of various terminal devices of the user are achieved through the Internet without being limited by distance and hardware matching, the user can operate conveniently, and experience of the user for Internet multimedia services is greatly improved.
+5. 103248960 基于电视终端的用户桌面实现方法及系统
+CN
+14.08.2013
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201310207721.5
+百视通网络电视技术发展有限责任公司
+黄思钧
+H04N 21/472
+Loading...
+本发明适用于电视技术领域，提供了一种基于电视终端的用户桌面实现方法和系统，所述方法包括步骤有：日志采集步骤，所述电视终端记录EPG中的各业务项的用户操作事件，并将所述用户操作事件上报给电视服务端；统计步骤，所述电视服务端根据所述用户操作事件，统计生成各所述业务项的用户历史操作数据；评分步骤，所述电视服务端根据所述用户历史操作数据，按照预定算法对各所述业务项进行综合评分和排序，并将排序靠前的若干所述业务项设为桌面项；呈现步骤，所述电视终端呈现包括所述桌面项的用户桌面。借此，本发明能够根据用户习惯智能地生成和更新用户桌面，将符合用户偏好需求的业务项自动推荐给用户，从而简化了用户操作。
+6. 102932670 一种流媒体切片方法及系统
+CN
+13.02.2013
+H04N 21/234 Loading...
+H04N 21/234
+Loading...
+201210501658.1
+百视通网络电视技术发展有限责任公司
+周少毅
+H04N 21/234
+Loading...
+本发明涉及一种流媒体切片方法及系统，包括：解析流媒体ES流；根据所得随机切入点的时间戳序列及给定预期切片时长，通过最小最大数值优化方法，以切片后所得各切片时长与给定预期切片时长的差值序列中的最大值最小为优化目标，计算出流媒体ES流切片时间戳的最佳序列值；并据此进行切片处理。本发明提供的方法及系统，能生成符合HLS协议的切片文件，即能使隶属于同一多媒体流的不同切片时长尽可能地接近，进而降低了对终端播放器的缓冲机制的要求；同时保证了系统运行的稳定性，使切片文件的播放更为流畅，提高用户观看体验的质量。
+7. 102740142 Method for providing IPTV (Internet Protocol Television) service to different terminals and IPTV service system
+CN
+17.10.2012
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+201210193743.6
+百视通网络电视技术发展有限责任公司
+庞为浩
+H04N 21/258
+Loading...
+The invention applies to the technical field of IPTV (Internet Protocol Television), and provides a method for providing an IPTV service to different terminals. The method comprises the steps of: pre-storing the terminal information of a plurality of terminals and templates corresponding to the terminal information; acquiring the first terminal information of a first terminal after an access request of the first terminal is acquired; analyzing a first template corresponding to the first terminal information; and transmitting the first template to the first terminal. The invention also provides an IPTV service system accordingly. With the adoption of the method and system, the terminals of various types can be supported to achieve the IPTV service, and the cost of implementation and maintenance is lower.
+8. 102521085 基于IPTV的媒资数据的备份及还原方法和系统
+CN
+27.06.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110456947.X
+百视通网络电视技术发展有限责任公司
+郑炜
+G06F 11/14
+Loading...
+本发明适用于IPTV技术领域，提供了一种基于IPTV的媒资数据的备份及还原方法及系统，所述备份及还原系统包括备份及还原管理单元、在线库、缓存库和离线库；所述备份及还原管理单元进一步包括：备份管理模块，用于在备份媒资数据时，先将待备份媒资数据从在线库备份至缓存库，再将待备份媒资数据从缓存库备份至离线库；还原管理模块，用于在还原媒资数据时，查询缓存库是否存在待还原媒资数据，若是则直接将待还原媒资数据从缓存库还原至在线库；否则，先将待还原媒资数据从离线库还原至缓存库，再将待还原媒资数据从缓存库还原至在线库。借此，本发明提高了IPTV的媒资数据的备份及还原的速度，从而实现更高效地管理媒体资产。
+9. 102497590 基于IPTV的拆条视频自动生成编目图片的方法和系统
+CN
+13.06.2012
+H04N 21/435 Loading...
+H04N 21/435
+Loading...
+201110456969.6
+百视通网络电视技术发展有限责任公司
+张晓卫
+H04N 21/435
+Loading...
+本发明适用于IPTV技术领域，提供了一种基于IPTV的拆条视频自动生成编目图片的方法和系统，所述方法包括步骤有：获取拆条视频的原始截图；分析所述原始截图的主体内容分布信息，优选分析出所述原始截图的主体内容分布的数量与位置；根据所述原始截图的主体内容分布信息和预定编目要求，将所述原始截图自适应生成编目图片。借此，本发明能够在保留图片的主体内容的基础上，自动生成符合预定编目要求的编目图片，从而减轻了编辑人员的工作量，并提高了拆条视频类节目的制作效率。
+10. 102427564 基于IPTV的时间戳实现方法及系统
+CN
+25.04.2012
+H04N 21/8547 Loading...
+H04N 21/8547
+Loading...
+201110369605.4
+百视通网络电视技术发展有限责任公司
+刘永利
+H04N 21/8547
+Loading...
+本发明适用于IPTV技术领域，提供了一种基于IPTV的时间戳实现方法及系统，所述方法包括步骤有：在播放控制页面上定义第一区域和第二区域；在所述第一区域和第二区域分别同时展示输入型时间戳界面和图形化时间戳界面；当用户指令在操作所述第一区域时，仅将所述第一区域对应的所述输入型时间戳界面设为有效响应状态；或者当用户指令在操作所述第二区域时，仅将所述第二区域对应的所述图形化时间戳界面设为有效响应状态。借此，本发明能够在播放控制页面同时展示输入型时间戳界面和图形化时间戳界面，以便用户可根据需要选择希望观看的时间戳所对应的视频节目内容，并且可以避免两种时间戳界面发生按键冲突。
+11. 102404610 视频点播服务的实现方法及系统
+CN
+04.04.2012
+H04N 21/25 Loading...
+H04N 21/25
+Loading...
+201110456953.5
+百视通网络电视技术发展有限责任公司
+郑炜
+H04N 21/25
+Loading...
+本发明适用于IPTV技术领域，提供了一种视频点播服务的实现方法及系统，所述方法包括步骤有：点播管理子系统接收视频点播请求；点播管理子系统判断媒体播放子系统是否存在所述视频点播请求对应的媒体资源；若存在所述媒体资源，媒体播放子系统直接播放所述媒体资源。若不存在所述媒体资源，实时转码子系统获取所述媒体资源，同时将所述媒体资源实时转码后进行播放。借此，本发明能够根据点播服务状态灵活实现视频点播服务，从而可减少媒体资源对存储设备的占用。
+12. 102364961 基于IPTV中电子节目指南页面的字符截取方法及系统
+CN
+29.02.2012
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201110369594.X
+百视通网络电视技术发展有限责任公司
+汪文彬
+H04N 21/472
+Loading...
+本发明适用于IPTV技术领域，提供了一种基于IPTV中电子节目指南页面的字符截取方法，所述方法包括步骤有：获取不同浏览器中各类字符的各种字号的字符宽度；根据所述电子节目指南页面的字符显示区域的宽度和所述各类字符的各种字号的字符宽度，对该字符显示区域的输入字符进行逐字分析并截取字符。相应地，本发明还提供一种基于IPTV中电子节目指南页面的字符截取系统。借此，本发明其能够跨浏览器地对电子节目指南页面的字符进行精确字符截取。
+13. 102244813 Video playing method and internet television terminal applying same
+CN
+16.11.2011
+H04N 21/43 Loading...
+H04N 21/43
+Loading...
+201110172688.8
+BesTV network TV Technology Development Co., Ltd.
+Xu Jinming
+H04N 21/43
+Loading...
+The invention relates to the internet television field, and in particular relates to a video playing method compatible with various types of streaming media agreement formats of an internet and an internet television terminal applying the same. The video playing method is used for playing a video of the terminal, wherein the terminal requests a uniform resource locator needing to play the video to a service platform; the service platform feeds back the uniform resource locator; the data obtaining module is compatible with streaming media network protocols of the internet and used for analyzing protocol types of the uniform resource locator; the data obtaining module is used for transferring corresponding protocol processing interfaces according to the analyzed protocol types, establishing network data streams and obtaining video data needing to be played; and the terminal plays the video. By means of the video data obtaining method and the internet television terminal applying the same disclosed by the invention, a television terminal player can be standardized; users can watch internet videos more smoothly, simply and conveniently; and the user experience can be improved.
+14. 102223502 Self-adaption webpage generating device, method and television for playing self-adaption webpage
+CN
+19.10.2011
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+201110173906.X
+BesTV network TV Technology Development Co., Ltd.
+Wang Qingwei
+H04N 5/445
+Loading...
+The invention relates to the field of NTV (Network Television), in particular to a self-adaption webpage generating device, a method and a television for playing a self-adaption webpage. The invention provides the self-adaption webpage generating device which comprises a webpage analyzing processing module, a terminal information module, a file selection module and a business output module. By adopting the self-adaption webpage generating device, the method and the television for playing the self-adaption webpage, disclosed by the invention, the webpage of the NTV can be friendly presented at different television terminals.
+15. 102223584 Video playing authenticator system and video playing method
+CN
+19.10.2011
+H04N 21/8352 Loading...
+H04N 21/8352
+Loading...
+201110172689.2
+BesTV network TV Technology Development Co., Ltd.
+Xie Mengjun
+H04N 21/8352
+Loading...
+The invention relates to an IPTV (internet protocol television) technology field, in particular to a video playing multimode authentication system and a video playing method. The video playing system comprises a video authentication module and is characterized in that: the video authentication module comprises an authentication buffer memory module which is set to be used for buffering an authentication result obtained from an official partner authentication system. By adopting the video playing multimode authenticator system and the method, a flexible authentication method is adopted, so as to be suitable for the authentication modes of different official partners in business, greatly improve the diversity of business cooperation, greatly reduce the workload of development and maintenance of the video business, and greatly reduce the pressure of the authentication mode after a cache mode is adopted.
+16. 102131121 Method and system for displaying IPTV (Internet Protocol Television) live channels
+CN
+20.07.2011
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201010619227.6
+BesTV network TV Technology Development Co., Ltd.
+Liu Kaiqi
+H04N 21/472
+Loading...
+The invention relates to the field of IPTV (Internet Protocol Television), in particular to a method and system for navigating an electronic program guide (EPG), and provides a method for displaying IPTV live channels. A page display module is used for displaying a channel list; and after a cursor remains on a certain channel for a first period of time, a video playing window of the page display module plays the current program of the channel. The method is characterized in that: when the cursor remains on a certain channel for a second period of time, a data acquisition module acquires the review program information of the channel from the background, and the page display module displays the review program information. On the other hand, the invention provides a system for displaying IPTV live channels. By adopting the live channel displaying method and system, live channels can be played without switching a page and a clickable review program guide is displayed for a user, so that the more human-friendly EPG with more rich contents is provided for the user and better user experience can be achieved.
+17. 102123309 New service provider accessing method
+CN
+13.07.2011
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+201010619219.1
+BesTV network TV Technology Development Co., Ltd.
+Wu Haoyuan
+H04N 21/266
+Loading...
+The invention relates to a method for a new service provider to access to an internet protocol television (IPTV) system and is used for a new service provider to access to the IPTV system. The IPTV system comprises a central content management system and provincial level content management systems, wherein the central content management system allocates media information data to the provincial level content management systems. The method is characterized in that the provincial level content management systems forward the media information data to the new service provider; the old operation servicer acquires the media information data from the newly accessed server; and the newly accessed server and the old operation server issue the media information data to a media transmission network. By using the accessing method, the network expenditure due to storage from the provincial level content management systems to the service provider is saved, thereby avoiding the process of repeatedly copying media data from the central content management system and improving the efficiency.
+18. 102065327 Advertisement cut-in method and system
+CN
+18.05.2011
+H04N 21/2668 Loading...
+H04N 21/2668
+Loading...
+201010619226.1
+BesTV Co., Ltd.
+Wu Yunpeng
+H04N 21/2668
+Loading...
+The invention relates to the field of IPTV (Internet Protocol Television), in particular to an advertisement cut-in method and system in an IPTV system. An electronic program list navigation system is used for cutting advertisements in video programs according to set rules and is characterized by comprising an advertisement module, the advertisement module records the advertisement broadcasting record of each user through a set top box, and the advertisement module judges whether the current state of the user is in advertisement cut-in or not according to the advertisement broadcasting record. With the advertisement cut-in method and system, the advertisement can be cut-in according to the set rules no matter the IPTV user watches the video chain broadcasting of the IPTV in which manner. The user experience effect of the IPTV user and the advertisement broadcasting effect of an advertiser are improved.
+19. 101951497 IPTV (Internet Protocol Television) business system, central business management system, regional business management systems and operation methods
+CN
+19.01.2011
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+201010269767.6
+BesTV IPTV Technology Co., Ltd.
+Chen Jiangning
+H04N 21/254
+Loading...
+The invention relates to an IPTV (Internet Protocol Television) business system, a central business management system, regional business management systems and operation methods of all systems. The IPTV business system comprises the central business management system, wherein a plurality of regional business management systems corresponding to the central business management system are deployed, and a plurality of business demonstrating and scheduling systems corresponding the regional business management systems are deployed; and the central business management system, the regional business management systems and the business demonstrating and scheduling systems sequentially have data connection relations. The IPTV business system adopts a three-stage structure, and when a new IPTV business is needed to be on line, a business object is generated by utilizing a template in the central business management system or the regional business management systems, thus the business can be quickly on line.
+20. 101945104 Terminal anti-fake device, authentication device and anti-fake and authentication method thereof
+CN
+12.01.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010269752.X
+BesTV Network Television Technology Development Co., Ltd.
+Wang Qingwei
+H04L 29/06
+Loading...
+The invention relates to an NTV (Network Television) technique, in particular to an NTV television terminal anti-fake device, an authentication device and an anti-fake and authentication method thereof. The terminal anti-fake device comprises an information acquisition module, a message generating module, a message encrypting and decrypting module and a message receiving and transmitting module, wherein the information acquisition module is set to acquire hardware information of a terminal; the message generating module is set to generate the hardware information of the terminal into an anti-fake message of the terminal; the message encrypting and decrypting module is set to encrypt the anti-fake message of the terminal; and the message receiving and transmitting module is set to transmit the encrypted anti-fake message of the terminal. By adopting the anti-fake device provided by the embodiment of the invention, the authentication device and the anti-fake and authentication method can realize legality authentication and identification of the television terminal, thereby preventing an illegal terminal from accessing a service platform of an NTV television broadcast station.
+21. 101917594 IPTV (Internet Protocol Television) business system, central and regional business management systems and operation methods
+CN
+15.12.2010
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+201010269768.0
+BesTV Network Television Technology Development Co., Ltd.
+Li Wen
+H04N 7/173
+Loading...
+The invention belongs to the IPTV (Internet Protocol Television) network television technology and particularly relates to an IPTV distribution type business system, a central business management system, a regional business management system and an operation method of each system. The IPTV business system comprises the central business management system, a plurality of regional business management systems corresponding to the central business management system and a plurality of business displaying and dispatching systems corresponding to the regional business management systems; every two of the central business management system, the regional business management systems and the business displaying and dispatching systems are sequentially in data connection, and the central business management system or each regional business management system is provided with a business assembly. The business assembly can be plugged in and played, can rapidly deploy to realize automatic importing and flexible configuration of basic business data, has small change on the traditional system structure and realizes rapid online of new business.
+22. 101908067 Method and system for searching advertising strategy
+CN
+08.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010243870.3
+BesTV Co., Ltd.
+Chen Wenhui
+G06F 17/30
+Loading...
+The invention relates to a method and a system for searching an advertising strategy in an IPTV system. The searching method is used for searching the advertising strategy in the IPTV system; the IPTV system comprises an advertising strategy index module; the advertising strategy index module comprises a calculation index module, a search strategy module and a merge strategy module; the calculation index module converts an advertising request into a plurality of indexes; the search strategy module obtains an advertising strategy set needing to be quoted by using the indexes, and feeds the advertising strategy set back to the merge strategy module; the merge strategy module processes the advertising strategy set; and the IPTV system performs advertising according to the processing result of the merge strategy module. The method and the system for searching the strategy in the embodiment of the invention can rapidly adapt to the increase of strategy conditions, and reduces the workload of development and maintenance of the strategy index module under the condition of not greatly changing a service pattern.
+23. 101887456 System and method for migrating data
+CN
+17.11.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010217506.X
+BesTV Network Television Technology Development Co., Ltd.
+Zheng Wei
+G06F 17/30
+Loading...
+The invention relates to a system and a method for migrating media data and service data in an internet protocol television (IPTV) system, which are used for the data asset migration between a source media asset library and a target media asset library. The system comprises a content retrieval module and a content accessing module, wherein the content retrieval module is used for storing and processing the data information of the source media asset library and the data information of the target media asset library, marking statuses of data assets in the source media asset library and the target media asset library and outputting data asset information to be migrated; and the content accessing module is used for migrating the data assets to be migrated from the source media asset library to the target media asset library according to the status marks. The system and the method of the invention have the advantages of improving the migration speed and reducing the storage requirement on the conventional system and the possibility of error in the migration process of the media assets along with flexible migration scheme and suitability for different environments.
+24. 101882088 Method and system for simulating set top box (STB) and implementation method thereof
+CN
+10.11.2010
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+200910050632.8
+BesTV Technology Development Co., Ltd.
+Wang Wenbin
+G06F 9/455
+Loading...
+The invention discloses method and system for simulating a set top box (STB) and an implementation method thereof. In the invention, a software program is mainly used for simulating the functions of the STB in an internet protocol television (IPTV) system, and simulated conditions are displayed so that different STB development manufacturers can provide technical parameters for realizing a 2.0 interface on the STB, and EPG (Error Pattern Generator) developers can develop the EPG by using the simulation system as a simulation environment of the STB under the condition of no STB. In the implementation method of the simulation system, a universal programming technology is utilized, and the implemented simulation system has strong expandability.
+25. 101883227 Multi-standard and multi-terminal-supporting electronic program guide (EPG) system and implementing method thereof
+CN
+10.11.2010
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+200910050633.2
+BesTV Technology Development Co., Ltd.
+Lu Yi
+H04N 21/254
+Loading...
+The invention discloses a multi-standard and multi-terminal-supporting electronic program guide (EPG) system and an implementing method thereof. The implementing method mainly comprises the following steps of: setting multi-standard and multi-terminal-supporting HTML/JS directories in the EPG system, storing corresponding files in the corresponding directories, identifying a terminal type and a standard type by resolving browser information of a terminal, then matching corresponding directory paths in the HTML/JS directory structure according to the identified terminal type and the identified standard type, and finally making the EPG system of the invention support multiple standards and multiple terminals. Therefore, a set of EPG provided in an IPTV system can be used for the EPG of the same style no matter which type of the terminal of a user is and which standard the terminal supports. Meanwhile, the system and the method are convenient for uniform operation of operators.
+26. 101883244 System and method for inserting and playing advertisement in network television video program
+CN
+10.11.2010
+H04N 21/2668 Loading...
+H04N 21/2668
+Loading...
+200910050631.3
+BesTV Technology Development Co., Ltd.
+Yuan Tao
+H04N 21/2668
+Loading...
+The invention discloses a system for inserting and playing an advertisement in a network television video program. The system mainly comprises a content management system, an advertisement management system, an EPG management system, an EPG service system and a streaming media service system, wherein the content management system is used producing video contents and managing metadata of the video contents; the advertisement management system is used for managing an advertisement resource and a strategy; the EPG management system is used for configuring and managing an EPG and defining advertisement space; the EPG service system is used for requesting a program navigation advertisement resource and controlling play; and the streaming media service system is used for providing a video playing service. The invention also discloses a method for inserting and playing the advertisement in the network television video program, and has the core concept of presetting one or more advertisement inserting time points for a video program, dividing the video program into a plurality of video segment logically, and inserting an advertisement video between two logical video segments. The system and the method have the advantages of precisely and timely inserting and playing the advertisement into the video program of an IPTV service.
+27. 101882289 Advertisement playing control system and method thereof
+CN
+10.11.2010
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+201010217507.4
+BesTV Technology Development Co., Ltd.
+He Yu
+G06Q 30/00
+Loading...
+The invention relates to a system and a method thereof for controlling advertisement playing in an IPTV system. On one hand, the invention provides an advertisement playing control system, which comprises an advertisement policy system, the advertisement policy system comprises a user control module, which is used for recording the advertisement playing records of the advertisement policy system and processing the advertisement playing records according to an advertisement playing rule, and the advertisement policy system is used for playing advertisements according to processing results. On the other hand, the invention also provides an advertisement playing control method, the user control module records the advertisement playing records of the advertisement policy system and processes the advertisement playing records according to the advertisement playing rule, and the advertisement policy system plays advertisements according to processing results. The system and the method can effectively enhance the experience of users.
+28. 101662650 System and method for accurate and real-time advertising in IPTV video-on-demand
+CN
+03.03.2010
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200810042224.3
+BesTV Co., Ltd.
+Yuan Tao
+H04N 7/173
+Loading...
+The invention provides a system and a method for providing advertising for video-on-demand services. The system comprises the following subsystems: an advertisement management system used for advertisement resource management and advertisement strategy management and distribution; an EPG management system used for the configuration and management of the EPG and the definition of advertisement space; an EPG service system used for program navigation, advertisement resource request and play control; and a stream media service system used for supply of video playing services. The invention also discloses a method for realizing the advertising of the video-on-demand services on the system. By the method and the system, the advertisements can be inserted in the video-on-demand of the IPTV services accurately and in real time to facilitate the user behavior analysis of suppliers and operators, so that the advertising policies can be better adjusted and optimized, the advertisements can be put forward to target users, and the users can also find the merchandise information really needed.
+29. 101478664 Content cooperative management system capable of being applied in IPTV and similar novel media
+CN
+08.07.2009
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+200810042227.7
+BesTV Technology Development Co., Ltd.
+Ouyang Qizhi
+H04N 21/266
+Loading...
+A content cooperation management system which can be used for IPTV and similar novel medium adopts the following mechanisms and techniques: a central node +agents arrangement structure mechanism; a virtual network mode for completing content introduction and information synchronization mechanism; a multi-point enciphering mode; a unified interface which has expandability and a proxy technique; a content introducing flow and an internal content dispensing flow path. The actualizing method of the system comprises the following steps: introducing content; releasing and synchronizing CP enciphering content; real-time synchronizing the authorization record information of IPTV operator with CP; and generating the settlement reconciliation information of agent. The present invention adopts a simple mode for realizing the cooperation of IPTV content operator and a plurality of CPs, and represents a specific operation mode and flow path between IPTV operator and CP. The risk sharing and benefit sharing are realized. A virtuous cycle comprising content generating, content operating and income sharing is formed. The invention is also provided with an excellent expansible management sharing platform and is suitable for the novel medium fields of IPTV, interactive television which is based on Internet, bidirectional HFC network, etc.
+30. 101478663 System architecture capable of being applied in IPTV complete data analysis
+CN
+08.07.2009
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+200810042226.2
+BesTV Technology Development Co., Ltd.
+Zhou Shaoyi
+H04N 21/258
+Loading...
+A system structure which can be used for IPTV full data analysis comprises the following components: a system which is used for collecting the full samples in the various television viewing parameters (various information comprising user information of each edge node of system, user requested ordered information, television viewing information of user, etc.) of full sample in the IPTV system; a star-rod shaped analyzing topological structure which is based on cluster distributed calculation; a flexible and configurable data collection mode which is generated for responding the flexible commercial collaboration mode; and a uniformed data file collection interface specification. The analyzing achievement of full sample according to the invention can be used as a criterion for arranging program of program department and generalizing the market of market department. Simultaneously the defects of inferior pertinence and low efficiency caused by the known propagandism mode used by traditional advertisement are fundamentally settled. A definite object in propagandism is achieved. Not only is the advertisement which is interesting to the user effectively put in, but also the user which is not interested in the advertisement is not disturbed as little as possible. A novel television viewing experience is provided for the user.
+31. 101478669 Media playing control method based on browser on IPTV system
+CN
+08.07.2009
+H04N 21/438 Loading...
+H04N 21/438
+Loading...
+200810042225.8
+BesTV Technology Development Co., Ltd.
+Li Wen
+H04N 21/438
+Loading...
+The present invention provides a medium playing control system based on browser and a method thereof. An embedded medium player in set-top box provides a basic capability for playing medium. The browser embedded in the set-top box is integrated with embedded medium player through expanding the object and method of JavaScript and an information feedback mechanism of virtual press button. On one hand the medium playing capability of embedded player is called through the object and method of JavaScript; on the other hand, when the state changes or an error occurs in the playing process of embedded player, a virtual press button event is given to the embedded browser for forming a whole information feedback mechanism. The service function of medium playing is realized by the webpage in Web server. The set-top box obtains a corresponding webpage through the embedded browser and executes service logic for playing medium on the webpage. The medium playing control system of the invention is propitious to reduce the cost and risk for developing and disposing the service function, and is propitious to quickly respond the requirement of user to the medium playing service function.
+32. 101447842 Distributed digital rights management (DRM) system adopting 2-level framework
+CN
+03.06.2009
+H04H 60/23 Loading...
+H04H 60/23
+Loading...
+200810200683.X
+BesTV Technology Development Co., Ltd.
+Li Wen
+H04H 60/23
+Loading...
+The invention relates to a distributed digital rights management (DRM) system adopting a 2-level framework, aiming at providing a DRM system which has 2-level framework with distributed authorization and service and supports large-scale content and numerous users. In the invention, intensive introduction, programming, encryption, authority definition, service definition of content are completed in the central level, then corresponding content key, authority and service definition are distributed to regional service nodes for distributed authorization and service. In the invention, flexible operation modes are fully supported, and the security of a database and the reliability of a system are ensured, so as to meet operation requirements of a carrier class. The system in the invention is especially applicable to the conditions that a large amount of content service, users and concurrent service existing in IPTV, internet video service and the like. The adoption of the 2-level distributed service can effectively distribute service and users to different nodes, thus reducing service pressure on each node and lowering requirements on system performance.
+33. 101431651 IPTV advertisement system based on virtual channel and its implementing method
+CN
+13.05.2009
+H04N 21/2668 Loading...
+H04N 21/2668
+Loading...
+200710048031.4
+BesTV Technology Development Co., Ltd.
+Yuan Tao
+H04N 21/2668
+Loading...
+The invention provides a system which includes: a center media asset management system that is used in uniform media resource production, media resource editing, media resource sending down and managing; an advertisement management system that is used in advertisement resource management, advertisement strategy definition, sending and updating of advertisement sending execution; a virtual channel editing system that is used in editing the virtual channel program list; a virtual channel program list synthesis module that is used for controlling the program list receiving, synthetizing and operation synchronously; a virtual channel broadcasting control system that is broadcasted according with the program list control virtual channel. Data is synchronized among systems through a data interface, each sub-system is organically melted. The system can insert advertisement content flexibly according with advertisement strategy at the same time the virtual channel program editing process is not effected. The system realizes quasi-real-time sending of the video advertisement based on safe broadcast of the virtual channel, provides an operation system and implementation scheme with high efficiency and reliability for the IPTV virtual channel operation and advertisement.
+34. 101431425 Distributed EPG system and service flow based on network shared data center
+CN
+13.05.2009
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+200710048027.8
+BesTV Technology Development Co., Ltd.
+Li Wen
+H04N 21/254
+Loading...
+A distributed EPG system based on network sharing data center aiming at providing unified network sharing data and application service for EPG server distributed in the edge with central DB and search engine as nucleus and two-stage architecture consisted of central DB and edge server wherein EPG DB and search engine on the central not of IPTV. The consistency of program and service to all users can be guaranteed adequately, and secure DB, reliable system can be ensured to meet the operational demand in telecommunication level through the invention. The method according to the invention can completely adapt to the demand development of IPTV EPG system personalized, interactive, supported and displayed by a plurality of business, turning IPTV from a single video playback and webpage browsing platform to a more adhesive interactive communication community.
+35. 101431650 Method and system for implementing IPTV interactive advertisement based on EPG
+CN
+13.05.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710048029.7
+BesTV Technology Development Co., Ltd.
+Yuan Tao
+H04N 7/16
+Loading...
+The invention provides an IPTV interactive realization method based on EPG which uses a mechanism of real-time request and dynamic generation to EPG sending of an advertising business. The method includes: EPG page leaves an advertising position for playing advertisement on a fixed position, the content in the advertising position can be a video, picture or other media, a specific strategy is confirmed according with EPG design criterion; when EPG page is displayed, an advertisement resource is requested to an advertisement decision system, and returned advertisement resource is used for exhibiting on corresponding advertisement position. A new advertisement system can be developed by using the method provided by the invention, the advertisement sending with multi-angle and multi-form is processed, and personalized advertisement sending to various users is processed. Watching and browsing to the advertisement is recorded according with back-end data which is convenient for the supplier and operator to analysis user's action and adjusts strategy to the advertisement sending, so the advertisement can be sent to the user that needs advertisement really, the user also can find needed merchandise information.
+36. 101431682 Advertisement system suitable for IPTV and implementing method thereof
+CN
+13.05.2009
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+200710048022.5
+BesTV Technology Development Co., Ltd.
+Li Wen
+H04N 7/52
+Loading...
+The invention discloses an advertisement system for putting in and broadcasting advertisement operation based on IPTV system which includes: a whole system for managing, distributing, updating and broadcasting advertisement; a advertisement managing system for managing, decision distributing and updating advertisement resource, a center media information content managing system for uniform editing media information, generating media information and at the same time distributing media information; a virtual channel studio system for editing virtual channel, broadcasting visual channel and controlling visual channel; a content managing system for uniform integration operation management to media information and media, and a EPG system for displaying page advertisement and processing advertisement resource requirement. Using the advertisement system can put in advertisement with multi-angle and multi-form, at the same time put in advertisement individually to various user group. The system is convenient for analysing user's action to supplier and operator, and advertisement is put in the really need user, the user can find need merchandise information.
+37. 101271454 Multimedia content association search and association engine system for IPTV
+CN
+24.09.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710038348.X
+Baishitong Network TV Technology Development Co., Ltd.
+Li Wen
+G06F 17/30
+Loading...
+The present invention provides an IPTV multi-media content joint search and association engine system, including a media XML preprocessing system, which automatically organizes the corresponding fields into a database by pretreatment; an index and a classifier, which analyzes various contents and the original database and achieves the index and the classification of contents and labels; an association and a search engine, which searches various contents and information according to the labels, determines the association degree and sequence of various information, carries out intelligent substitution and sequence according to relevant rules, responds and feeds back the responding association and search results according to the portal request. The multi-media content joint search and association engine system provided by the present invention can provide rapid and convenient program and information content search service, facilitate users to conveniently browse and look for the own interested contents in an IPTV system and obtain better business experiences.
+38. 101272462 IPTV interactive special column system
+CN
+24.09.2008
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200710038356.4
+Baishitong Network TV Technology Development Co., Ltd.
+Yu Ruihua
+H04N 5/445
+Loading...
+The invention relates to an interactive special column system which includes: a live broadcasting navigation system, a navigation playing system for program re-watching, a navigation system for ordering special columns and a user-interactive operation, browse and video playing special column which comprises related information such as words, pictures, voting, etc. The interactive special column is a program which bases on a Web form special column to integrate contents related to the column (information, pictures and words, video, programs used for interacting with the user) according to different classifications in order to provide the user with special column services, collecting information, browsing pictures and words, watching video, playing interactive games, interactively voting, etc. to help the user to conveniently browse and watch the content of the special topic and participate in the interactions to obtain better operation experience. A full system platform for providing operation businessmen with video information renewal, background content management, voting charge management, etc. is also provided.
+39. 101272475 Channel switching method under video broadcasting condition suitable for IPTV
+CN
+24.09.2008
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200710038359.8
+Baishitong Network TV Technology Development Co., Ltd.
+Gui Songlei
+H04N 7/173
+Loading...
+The invention discloses a channel switching method which is suitable for IPTV under the video playing condition. A corresponding press key on a remote controller is pressed under the video condition and the mini-menu overlapped on the video is switched out. The IPTV business function menu of the mini-menu includes but not confined to the following function modules: Channel, Look Back, Recommendation of Today, Order Programs, My Favorites, Searching, Add to Favorites and Add Child Lock. The mini-menu displays information advance notice that contains the names of programs being broadcasted and other programs. Each function module is provided with a respective icon as a respective. other character modes can be used as the representative. The channel switching method of the invention has the advantages that the traditional watching habits of users are continued the overlapping of opaque or translucent menus on the video or another video/business is selected through browsing for the jumping. The translucent menu overlapped on the video ensures that the users can select other abundant IPTV businesses while going on watching the current video.
+40. 101272463 Enhanced EPG method and system
+CN
+24.09.2008
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200710038357.9
+Baishitong Network TV Technology Development Co., Ltd.
+Lu Xiao
+H04N 5/445
+Loading...
+The invention relates to an enhanced EPG system using the classification for displaying TV programs, which aims at providing an effective mechanism in IPTV system to organize the scattered TV programs . The scattered TV programs are recommended according to a certain order in order to help the user to conveniently and quickly choose TV programs in which the users are interested in the IPTV system for re-watching. The enhanced EPG described by the invention bases on a database and EPG web and takes the classification of TV programs as the interface. A tiring-room classifies the enhanced EPG into the classification of the TV programs according to the characteristics of the TV programs and recommends better TV program classification to provide service to the user. At the same time, the enhanced EPG system also provides the operation with a tiring-room platform to help the operation businessmen to configure the topic classification and recommend the TV programs.
+41. 101141607 Mutual correlation method for IPTV and implementing system thereof
+CN
+12.03.2008
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200610030993.2
+Baishitong Network TV Technology Development Co., Ltd.
+Li Wen
+H04N 7/14
+Loading...
+The present invention relates to an interactive correlation method used for a network television and the realization system. The present invention is based on a portal website and a search engine framework. The present invention comprises an interactive correlation platform used for intelligently searching and correlating various information and contents in a network television system, a media asset management system used for inputting and managing the contents and the information of the network television, an interactive correlative information portal system used for generating and managing correlative content pages and logistically controlling the service, a system for analyzing data mining and user behavior, a system for defining and managing correlative rules, a advertisement management system, a system for the streaming media service, and a set top box system. The present invention is utilized, the platform can actively and automatically searching and correlating the contents and the information of programs and other various media assets according to the user watching contents, the interested programs or the information are recommended to users, and simultaneously the content management and the services of the advertisement management function and the information management function are provided for the operation.
+

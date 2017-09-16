@@ -1,0 +1,649 @@
+1. 106604224 一种基于XDR的4G驻留比指标获取方法及系统
+CN
+26.04.2017
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+102016001048025
+北京拓明科技有限公司
+田耀华
+H04W 4/02
+Loading...
+本发明涉及一种基于XDR的4G驻留比指标获取方法及系统，所述方法包括如下步骤：采集及解析移动通信网络中Gb接口和Iups接口及S1‑MME接口的数据，获得用户的信令流程信息；根据时间顺序和时间间隔生成在2G/3G/4G的驻留顺序；通过信令判断和分析算法，识别和计算出每个用户在2G/3G/4G的驻留时间。本发明的有益效果如下：能全面体现4G用户在2G、3G、4G网络的驻留实际情况，能客观反映用户在运营商的2G/3G/4G网络的感知，对帮助运营商全面了解本网络的覆盖情况起到积极有效的评估和改善作用。
+2. 105978729 一种基于用户上网日志及位置的手机信息推送系统及方法
+CN
+28.09.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000457440
+北京拓明科技有限公司
+王广善
+H04L 12/24
+Loading...
+本发明涉及一种基于用户上网日志及位置的手机信息推送系统及方法。所述方法包括如下步骤：步骤一，通过对用户数据的分析，将用户的关注点进行关注频率排序，选取用户较为关注的关注点形成实时偏好组合；步骤二，应用联合分析方法对上述偏好组合的用户关注度进行量化评估，得到各个偏好的得分以及每个偏好组合的效用总和，根据效用总和的大小来评估偏好组合内各个偏好之间的关联程度；步骤三，利用用户偏好分类与商企营销信息分类的匹配、以及营销信息提供方商铺的地理位置与用户地理位置的匹配，形成用户偏好组合、用户位置和营销信息三者的精准匹配，然后推送营销信息。本发明提高了传统信息推送方法的精准度及最终客户感受，更客观的评估用户的偏好程度。
+3. 105407042 一种基于微信公众平台的远程SIM卡开通方法及系统
+CN
+16.03.2016
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201510835113.8
+北京拓明科技有限公司
+王广善
+H04L 12/58
+Loading...
+本发明公开了一种基于微信公众平台的远程SIM卡开通方法及系统，所述方法包括：建立SIM卡开通微信公众号，用户采用其移动终端设备通过微信公众号进入SIM卡开通平台，获取用户的身份证证件照，提取证件照中的用户身份信息，将用户身份信息关联到公安部全国公民身份信息系统，对用户身份信息进行验证，验证通过后再实时采集用户的自拍照，当自拍照与证件照或公安部全国公民身份信息系统中的用户身份证照片为同一用户时，将用户的SIM卡信息发送至运营商卡号管理系统进行核对，核对通过后激活SIM卡。该方法及系统，实现了用户的快捷合规开卡，提高电子渠道自助办理业务时的用户体验，具有良好的可操作性和使用意义。
+4. 105357692 一种多网协同的网络优化与节能方法和系统
+CN
+24.02.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201510628264.6
+北京拓明科技有限公司
+甘元华
+H04W 24/02
+Loading...
+本发明公开了一种多网协同的网络优化与节能方法和系统，属于移动通信领域。该方法包括：计算各网络小区的邻区重叠覆盖度，筛选出各网络小区的重叠覆盖邻区，将网络小区和其重叠覆盖邻区作为节能小区添加到节能小区列表中；确定每一天的节能时段，根据节能时段的历史业务量和前一时段的业务量计算列表中各小区在下一节能时段的预测业务量，根据预测业务量确定出节能小区列表中的休眠小区，并在节能小区列表中确定出休眠小区的补偿小区，之后关闭所述休眠小区，将休眠小区上的业务转移到其补偿小区上。该方法及系统，支持跨网络跨设备厂家的多网协同优化和节能分析，与传统人工优化相比，能够节约大量的人力成本，大大提高网络优化和节能效果。
+5. 105188030 一种移动网络数据进行地理栅格映射的方法
+CN
+23.12.2015
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201510520048.X
+北京拓明科技有限公司
+王广善
+H04W 4/02
+Loading...
+本发明公开了一种移动网络数据进行地理栅格映射的方法，属于移动通信网络优化分析领域。其步骤如下：首先，依据现有海量DT路测数据进行数学建模，形成实际地理区域栅格和基站小区标识的对应关系，分系统制式，得到如下对照表：栅格编号、小区、采样点数量、采样点总数、采样点分布比率、覆盖权值；对上述得到的对照表进行归一化处理，并依据有数据的地理栅格将没有数据的地理栅格进行线性插值计算，获得新的相同结构对照表；基于新的对照表，从全网的角度进行统计计算，并更新各地理栅格内各小区的覆盖权值，以利于下一步的移动网络数据的地理栅格映射计算。将移动网络数据归纳成几个大类，并依据上一步建立的对照表将移动网络数据映射到对应地理栅格中。
+6. 105163337 一种基于覆盖预测仿真的移动网络数据地理映射的方法
+CN
+16.12.2015
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201510518464.6
+北京拓明科技有限公司
+王广善
+H04W 24/02
+Loading...
+本发明涉及一种基于覆盖预测仿真的移动网络数据地理映射的方法，属于移动通信网络优化分析领域。其主要技术步骤如下：首先，基于网络规划的基础数据和无线传播模型对指定区域进行覆盖预测仿真，生成实际地理区域各位置点的最佳服务小区，进而生成所属的地理区域栅格和基站小区标识的对应关系，得到如下对照表：栅格编号、服务小区列表、对应服务小区采样点数量、栅格采样点总数、对应服务小区采样点分布比率、对应服务小区覆盖权值；将移动网络数据如资源数据、业务数据、质量数据、用户数据、终端数据等归纳成几个大类，并依据上一步建立的对照表将移动网络数据按照各服务小区对应覆盖权值映射到对应地理栅格中。
+7. 105160871 一种高速公路客车临时上下人识别的方法
+CN
+16.12.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510329013.8
+北京拓明科技有限公司
+王广善
+G08G 1/01
+Loading...
+本发明公开了一种高速公路客车临时上下人识别的方法，首先采集及解析移动通信网络中A接口和Iucs接口的数据，获得用户的通话行为信息，生成用户轨迹信息列表，再综合高速公路沿线基站位置信息挖掘高速公路用户轨迹序列模式并进行匹配，从而识别高速公路用户，还可以基于用户轨迹点驻留时间判断出高速公路用户中的轨迹异常用户，通过比对客车司机的移动轨迹信息，根据轨迹相似度算法，判断出高速公路同一客车用户，实现对高速公路客车临时上下人的识别。该方法基于现网采集的实时数据，根据分析需求进行数据的实时处理与匹配，能够更加有效的进行业务支撑；基于数据建模和完善合理的算法结构，使高速公路客车临时上下人识别更加准确可信。
+8. 105163334 LTE小区支持最大用户数能力的动态调整方法及系统
+CN
+16.12.2015
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201510405998.8
+北京拓明科技有限公司
+甘元华
+H04W 24/02
+Loading...
+本发明公开了一种LTE小区支持最大用户数能力的动态调整方法及系统，属于网络优化和无线设备工程技术领域。首先采用测试终端测试并获取LTE小区不同参数配置信息下的各项KPI性能指标，根据获取的上述数据生成LTE小区支持最大用户数优化调整方案；之后实时采集小区的RRC连接建立最大用户数和参数配置信息，根据采集得到的小区数据和生成的小区支持最大用户数优化调整方案实现了对小区支持最大用户数的动态调整。该方法及系统，实现了对小区支持最大用户数的实时调整，大大缩减了调整工作准备时间，节省了大量人工工作量，做到了高效及时且调整准确度较高，弥补了突发用户增多、小区监控不及时，无法在第一时间进行有效调整的问题。
+9. 105163292 一种主动式WLAN信息推送的方法和系统
+CN
+16.12.2015
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+201510519981.5
+北京拓明科技有限公司
+王广善
+H04W 4/12
+Loading...
+本发明公开了一种主动式WLAN信息推送的方法和系统，属于无线通信技术领域。所述方法包括：在商家或营业场所部署WLAN无线接入系统，并采用无线访问接入点定向天线进行设定区域的无线覆盖；所述WLAN无线接入系统为免登陆认证方式；在WLAN无线接入系统的无线覆盖区域内，当移动终端设备检测到满足WLAN连接条件时，所述移动终端设备自动连接到所述WLAN无线接入系统，并打开其默认浏览器的门户认证portal页面。通过该方法及系统，使得商家和营业场所附近区域的用户可以无需手动连接相应的WLAN网络即可接收到推送的信息，实现了WLAN信息的主动推送，在有效避免了用户投诉的同时，提升了用户信息访问量。
+10. 105138985 一种基于微信公众号的实名认证方法和系统
+CN
+09.12.2015
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201510524833.2
+北京拓明科技有限公司
+王广善
+G06K 9/00
+Loading...
+本发明公开了一种基于微信公众号的实名认证方法和系统，属于移动互联网实名认证领域。所述方法包括：从微信公众号入口获取用户的身份证照片信息，并提取所述用户的身份证照片信息的第一身份证关键信息；根据所述第一身份证关键信息中的身份证号码从公安部的公民身份证数据库中获取该身份证号码所对应的用户的身份证信息，并提取所述身份证信息的第二身份证关键信息；比对所述第一身份证关键信息与第二身份证关键信息是否一致，若是，则用户身份验证通过，若否，则验证失败，重新获取用户的微信身份证照片信息。通过该方法及系统，能够实现对用户的实名安全验证，判断出用户的行为是否属于故意欺骗行为，为移动互联网交易的业务和应用提供了安全保证。
+11. 105120481 一种无线信道资源的自动均衡优化方法及系统
+CN
+02.12.2015
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201510508503.4
+北京拓明科技有限公司
+李宗毅
+H04W 24/02
+Loading...
+本发明公开了一种无线信道资源的自动均衡优化方法及系统，属于移动通信领域。所述优化方法包括：采集待优化小区的话务统计数据；根据所述话务统计数据计算所述待优化小区的语音业务信道需求数和数据业务信道需求数；根据所述语音业务信道需求数和数据业务信道需求数，结合待优化小区的现网配置参数，进行待优化小区的语音业务信道和数据业务信道的均衡优化。该方法及系统基于实时实话务统计数据，实现了小区内数据业务和语音业务的自动均衡优化，有效改善了小区的数据和语音接入和感知性能，与人工优化方式相比，大大提高了小区无线信道资源的优化效率和优化效果，更好的满足了用户的应用需求。
+12. 105101267 一种LTE网络的邻区关系的自动优化方法
+CN
+25.11.2015
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201510452204.3
+北京拓明科技有限公司
+刘忠江
+H04W 24/02
+Loading...
+本发明公开了一种LTE网络的邻区关系的自动优化方法，包括：获取小区的与邻区优化关联的相关信息，根据所获取的小区的相关信息，确定LTE小区的必要GSM邻区列表、必要TD邻区列表和必要LTE邻区列表，之后将确定出的LTE小区的必要GSM邻区列表、必要TD邻区列表和必要LTE邻区列表分别与现网中LTE小区的GSM邻区关系列表、TD邻区关系列表和LTE邻区列表比对，筛选出漏匹的GSM邻区、TD邻区和LTE邻区，并将漏匹的GSM邻区、TD邻区和LTE小区分别添加当前现网的LTE小区的邻区关系列表中。该方法与现有优化方式相比、节约了大量的人力物力，实现了LTE小区邻区的自动化优化，大大提高了邻区优化效率。
+13. 104978858 一种基于手机信令的高速公路实时路况监测方法
+CN
+14.10.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510329014.2
+北京拓明科技有限公司
+王广善
+G08G 1/01
+Loading...
+本发明公开了一种基于手机信令的高速公路实时路况监测方法，首先对高速公路沿线进行无线网络覆盖测试，进行“虚拟监测点”建模，获得高速沿线基站定位参考数据；然后采集并解析Mc接口信令数据，获得用户的通话行为信息，建立单用户交通事件跟踪模型；利用高速公路用户识别模型筛选获得高速用户数据，将高速公路用户的交通事件跟踪结果与基站定位参考数据进行关联匹配计算高速公路用户的平均行驶速度，按路段输出高速公路路况的监测结果。该方法通过引入网络实测数据进行模型校正，极大地提高了基于信令定位技术进行高速公路实时路况计算的准确度，实现了移动通信技术与高速公路智能管理的融合，为高速公路的通行与管理提供了便捷、精准的实时路况信息。
+14. 103476129 Automatic optimization method for frame dividing and multiplexing structure
+CN
+25.12.2013
+H04W 72/12 Loading...
+H04W 72/12
+Loading...
+201310388683.8
+北京拓明科技有限公司
+陈茗
+H04W 72/12
+Loading...
+The invention discloses an automatic optimization method for a frame dividing and multiplexing structure, belonging to the technical field of mobile communication. The method comprises the steps of firstly turning on a frame dividing and multiplexing switch of an RNC (Radio Network Controller), collecting H carrier information, inquiring the frame dividing and multiplexing conditions of H carriers of each cell according to the collected H carrier information, determining the types of the H carriers of each cell, and finally, carrying out frame dividing and multiplexing regulation on each cell according to the number of HSDPA (High Speed Download Packet Access) users of the corresponding cell and a user regulating threshold range. According to the method disclosed by the invention, during multi-user access, a frame dividing structure of the H carriers is subjected to pre-judgment and is subjected to automatic regulation according to judged results, so that the optimized scheduling of HSDPA carrier resources is achieved, the data flow can be increased effectively, the congestion of H users is reduced, and the user perception is improved.
+15. 103428735 基于A与Abis接口信令的TD-SCDMA室内弱覆盖的判定方法
+CN
+04.12.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310341731.8
+北京拓明科技有限公司
+张重庆
+H04W 24/02
+Loading...
+本发明公开了一种基于A与Abis接口信令的TD-SCDMA室内弱覆盖的判定方法，该方法首先采集全网中A与Abis接口的全量信令数据，生成业务记录表T_tdr，并根据业务记录表查找发生TD回流的业务记录，并根据业务的当前CI将发生TD回流的用户定位到楼宇，然后通过判断楼宇的TD回流是否集中分布在一个或几个用户上判定出楼宇是否存在室内弱覆盖，从而得到存在室内局部弱覆盖的楼宇名单。通过本发明所述的方法，能够实时、简单有效的评估出TD-SCDMA的弱覆盖情况，指导TD网络规划建设。
+16. 103209422 一种WLAN网络精确选点的方法
+CN
+17.07.2013
+H04W 16/18 Loading...
+H04W 16/18
+Loading...
+201310086615.6
+北京拓明科技有限公司
+吴磊
+H04W 16/18
+Loading...
+本发明公开了一种WLAN网络精确选点的方法，该方法首先设置维度系数及各维度系数的权重，包括价值维度系数、质量维度系数、wifi用户行为维度系数和终端维度系数；然后根据维度系数CSM判断小区的WLAN价值，筛选出WLAN潜在热点小区区域；最后对潜在热点小区区域内的用户进行栅格化定位，精确定位WLAN热点小区。本发明所述的选点方法基于现网采集的实时数据，根据不同的分析需求进行数据的存储汇总，在保障高WLAN价值潜在热点的区域范围正确判断的前提下，尽可能的提高WLAN网络选点的精度。
+17. WO/2013/071678 LIVER CANCER POLYPEPTIDE MARKER ANTIGEN COMPETITIVE ENZYME-LINKED IMMUNOSORBENT ASSAY KIT
+WO
+23.05.2013
+G01N 33/574 Loading...
+G01N 33/574
+Loading...
+PCT/CN2012/000221
+BEIJING C & N INTERNATIONAL SCI-TECH CO., LTD
+WEI, Kaihua
+G01N 33/574
+Loading...
+A liver cancer polypeptide marker antigen competitive enzyme-linked immunosorbent assay kit is disclosed, and comprises: monoclonal antibody secreted by monoclonal antibody hybridoma cell lines AP0105 of an artificial antigen liver cancer polypeptide marker having a preservation number CGMCC No.5269 and polypeptide standard substance competing with the polypeptide marker in an object to be tested, the sequence of the polypeptide being: Asn-Leu-Gly-His-Gly-His-Lys-His-Glu-Arg-Asp-Gln-Gly-His-Gly-His-Gln.
+18. 103118146 基于信令的不同用户在HLR签约相同IP地址的识别方法
+CN
+22.05.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310020521.9
+北京拓明科技有限公司
+安斌
+H04L 29/12
+Loading...
+本发明公开了一种基于信令的不同用户在HLR签约相同IP地址的识别方法，该方法首先采集GPRS/TD网络的Gb/IuPS接口的原始信令，通过对采集到的原始信令进行解析，获取行业用户PDP激活过程中的IMSI、APN、请求IP地址类型、IP地址、PDP激活失败原因等信息，根据信令解析结果判定存在HLR签约数据冲突的用户,自动发现和识别出网络中两个签约用户同时申请1个IP地址的情况，指导对由于不同用户签约相同IP地址问题引起的行业用户上网问题的排障与优化。
+19. 103118382 一种数据业务小区乒乓重选的分析方法
+CN
+22.05.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310020524.2
+北京拓明科技有限公司
+安斌
+H04W 24/02
+Loading...
+本发明公开了一种数据业务小区乒乓重选的分析方法，属于移动通信领域，该方法包括以下步骤：对GPRS网络的Gb接口原始信令进行采集，对采集到的原始信令进行解析，根据信令解析的结果判决小区是否发生乒乓重选，并确定乒乓重选主覆盖小区。本发明通过对Gb接口的信令采集和分析，并结合一定算法对用户使用数据业务过程中发生的小区乒乓重选现象进行判断和分析，从而在全网范围内实现小区乒乓重选对所有数据业务用户的影响分析。
+20. 103118332 一种对室内用户所在楼层的定位方法
+CN
+22.05.2013
+H04W 4/04 Loading...
+H04W 4/04
+Loading...
+201310024287.7
+北京拓明科技有限公司
+张文生
+H04W 4/04
+Loading...
+本发明提供一种对室内用户所在楼层的定位方法，包括步骤100：基于全网用户定位室内稳定用户；步骤200：结合楼宇地理环境、邻区测量、MR测量报告综合分析匹配室内稳定用户所在楼层。通过分析A和ABIS口通话记录和用户行为判定室内稳定用户，通过分析用户MR及地理位置信息总结不同场景室内用户的规律特性，进行稳定用户匹配和楼层用户匹配。该技术方案能够对室内用户的分布进行准确定位，能够克服现有技术中处理问题周期长、准确性低、发现问题不全面、效率低下等一系列问题，为室内用户感知提升创造了新的转折点。
+21. WO/2013/067750 POLYCLONAL ANTIBODY IMMUNOLOGIC MASS SPECTROMETRY KIT OF LIVER CANCER MARKER
+WO
+16.05.2013
+G01N 33/574 Loading...
+G01N 33/574
+Loading...
+PCT/CN2012/000222
+BEIJING C & N INTERNATIONAL SCI-TECH CO., LTD
+WEI, Kaihua
+G01N 33/574
+Loading...
+Disclosed is a polyclonal antibody immunologic mass spectrometry kit of liver cancer marker and a detection method. The kit comprises a serum polypeptide polyclonal antibody and buffer solution, wherein the polyclonal antibody is fixed on a solid phase carrier, the sold phase carrier being agarose particles coating protein A or protein G, the serum polypeptide polyclonal antibody is a polyclonal antibody against synthetic polypeptide 6, and the full-length sequence of the synthetic polypeptide 6 is NLGHG HKHDR DHGHG HQ.
+22. 103108345 一种SGSN路由区冗余配置的自动识别方法
+CN
+15.05.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310020566.6
+北京拓明科技有限公司
+安斌
+H04W 24/02
+Loading...
+本发明公开了一种SGSN路由区冗余配置的自动识别方法，属于移动通信领域，包括以下步骤：采集原始信令数据，对采集到的原始信令数据进行解析，根据解析的结果数据判断GPRS网络服务支持节点SGSN是否存在冗余路由区配置信息，确定存在冗余配置的路由区列表。本发明通过对移动网络Gb接口的信令分析、对路由区更新流程的分析以及对SGSN、BSC、RAI位置信息的识别，实现自动判断由于SGSN上存在路由区冗余数据而导致路由区更新失败的现象，及时发现由于人为因素而引起的网元局数据配置问题，指导网络优化工作开展，提升数据业务用户感知。
+23. 103096356 无线网络性能的分析方法
+CN
+08.05.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310020542.0
+北京拓明科技有限公司
+安斌
+H04W 24/02
+Loading...
+本发明公开了一种端到端业务质量的主动关联分析方法，属于移动通信领域，包括以下步骤：采集原始信令数据，对采集到的原始信令数据中的业务信息和网络异常信息进行解析，基于所述解析，将业务信息与网络异常信息进行关联，得到无线网络性能的分析结果。本发明实现了针对用户的某一次业务过程来分析和定位无线网络性能对业务质量用户感知的影响，对影响业务质量和用户感知的无线网络问题进行有针对性地分析，使优化工作更具有针对性、优化效果得以更好地体现；此外还可以基于用户上网记录将端到端业务质量指标与无线性能指标进行关联分析，定位无线网络性能对业务质量和用户感知的影响程度。
+24. 103096381 基于Gb接口信令的GSM双频同站小区资源均衡方法
+CN
+08.05.2013
+H04W 28/08 Loading...
+H04W 28/08
+Loading...
+201310021357.3
+北京拓明科技有限公司
+安斌
+H04W 28/08
+Loading...
+本发明公开了一种基于Gb接口信令的GSM双频同站小区资源均衡方法，该方法首先根据基站基础数据库，筛选出GSM网络中的双频同站覆盖小区；然后采集Gb接口信令数据，统计同站双频小区下的速率值，并根据同站双频小区下的速率值计算同站双频小区满足不同用户感知条件下的PDCH配置数目；最后将计算出的PDCH数目与现网的PDCH配置进行比对，对业务不均衡的同站双频小区进行配置。该方法通过对小区PDCH资源进行合理配置实现小区资源均衡，该方法仅更改小区的配置信息，未改变重选参数、覆盖和功率的情况，对语音网的网络质量、性能及测试指标影响很小，对小区能够根据用户感知高低进行合理配置。
+25. 103093630 高速道路车辆的测速方法
+CN
+08.05.2013
+G08G 1/052 Loading...
+G08G 1/052
+Loading...
+201310003853.6
+北京拓明科技有限公司
+张光辉
+G08G 1/052
+Loading...
+本发明公开了一种高速道路车辆的测速方法，属于移动通信领域，包括：通过对覆盖高速道路的GSM网络A口信令识别高速道路的用户，基于高速道路用户的通话记录建立高速道路切换带，根据所述高速道路切换带的位置以及高速道路用户发生切换的时间进行测速。本发明实时采集处理数据，提高了实时处理能力和准确性；另外，由于该方法是基于手机信号的信令分析的，因而不需要引入新的设备，只要使用手机的人都可以进行定位，降低了设备投入；用户只要处于开机状态，就可以通过A口信令进行对其测速，测量过程是由系统根据A口信令来计算的，而不是在手机端进行用户车速计算，因而具有测量的稳定性。
+26. 103096386 一种基于信令分析的数据业务流量管控方法
+CN
+08.05.2013
+H04W 28/12 Loading...
+H04W 28/12
+Loading...
+201310020517.2
+北京拓明科技有限公司
+安斌
+H04W 28/12
+Loading...
+本发明公开了一种基于信令分析的数据业务流量管控方法，该方法首先需要采集GPRS网络Gb接口的原始信令以及用户的HLR数据和经营分析系统数据并进行信令数据的解析；然后设定小区拥塞判决参数，并根据判决参数判断小区是否拥塞；对于拥塞小区，依次通过对小区内的异常用户和特殊应用用户进行管控、对小区内低价值高流量用户进行管控、对小区内所有低价值用户进行管控的方式来实现对拥塞小区的资源调度，解决网络拥塞问题，提高网络资源利用率。
+27. 103052099 一种小区背向覆盖的识别方法
+CN
+17.04.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210533191.9
+北京拓明科技有限公司
+周慧
+H04W 24/02
+Loading...
+本发明公开了一种小区背向覆盖的识别方法，包括以下步骤：通过测量报告MR信令的解析关联，形成室外宏站小区到邻区的关系，从而建立小区的干扰矩阵，找出所有室外宏站的邻区对；对于每一个室外宏站小区，确定其邻区在该室外宏站小区的方位；根据室外宏站的邻区中出现室外宏站小区的MR统计判断室外宏站小区是否存在背向覆盖现象。本发明一方面是通过更方便、快捷、简单的方式来发现背向覆盖现象；另一方面通过对所有的室外宏站的小区进行遍历，可以找出网络中所有存在背向覆盖问题的小区，而不只是对有问题体现的背向覆盖小区进行测试和分析，不仅提高了背向覆盖问题的排查效率，同时还提供了问题定位分析的方法。
+28. 103037386 一种基于A口和IU-CS口信令的网络话务分流方法
+CN
+10.04.2013
+H04W 16/18 Loading...
+H04W 16/18
+Loading...
+201210535170.0
+北京拓明科技有限公司
+张光辉
+H04W 16/18
+Loading...
+本发明公开了一种基于A口和IU-CS接口信令的TD-SCDMA网络话务分流方法，首先对网络中A口和IU-CS口信令进行解析关联，得到业务记录，并将业务记录按照GSM和TD-SCDMA网络分别记录在两个表中，根据两个表中的数据识别出TD-SCDMA用户，并计算识别出的TD-SCDMA用户在GSM和TD-SCDMA小区产生的话务量，最后确定出TD-SCDMA用户在GSM小区产生话务量超高的小区，对TD-SCDMA用户占用GSM小区产生话务量原因分析。该方法可以更加实时精确的评估网络中TD-SCDMA话务分流的效果，将网络中的分担情况细化到小区上，能够进行精确的分析和定位，实现精确分流和调整。
+29. WO/2013/044575 ELISA KIT FOR DETECTING POLYPEPTIDE MARKER ANTIGEN
+WO
+04.04.2013
+C12N 5/20 Loading...
+C12N 5/20
+Loading...
+PCT/CN2012/000220
+BEIJING C & N INTERNATIONAL SCI-TECH CO., LTD
+WEI, Kaihua
+C12N 5/20
+Loading...
+Provided is an ELISA kit for detecting a polypeptide marker antigen, containing a monoclonal antibody of the polypeptide marker antigen. The monoclonal antibody is secreted by hybridoma cell line CGMCC No. 5269. Also provided is a detection method for the polypeptide marker antigen. The specificity of the monoclonal antibody of the polypeptide marker provided is strong and the operating steps of the detection method for the polypeptide marker antigen are easy and fast, benefitting clinical testing. The kit can perform a high-flux and low-cost enzymelinked detector test.
+30. 102970693 一种基于话务系统的SDCCH自动配置调整方法
+CN
+13.03.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210447997.6
+北京拓明科技有限公司
+鹿岩
+H04W 24/02
+Loading...
+本发明提供一种基于话务系统的SDCCH自动配置调整方法，该方法能够根据实时的TCH转换为SDCCH次数率和SDCCH占用情况、根据话务统计和根据实时的TCH转换为SDCCH次数率和SDCCH占用情况实现特殊场景、根据一段时间内TCH转化为SDCCH次数=0时，等条件动态地调整配置策略。本发明简化了参数判断，较为快捷有效地对网络容量出现的变化，做出更具时效性的容量调整配置策略，能提升网络承载能力并挖掘网络潜力，改善网络性能。
+31. 102946620 一种对数据网络进行双网分流的方法
+CN
+27.02.2013
+H04W 28/10 Loading...
+H04W 28/10
+Loading...
+201210431044.0
+北京拓明科技有限公司
+廖阳高
+H04W 28/10
+Loading...
+本发明公开了一种对数据网络进行双网分流的方法，包括以下步骤：设置价值维度V、地域维度A、业务维度C及终端维度T的维度系数，根据所述四个维度的维度阈值获取分流预警门限，根据所述维度系数以及分流预警门限进行双网分流。本发明提供的对数据网络进行双网分流的方法，对小区分流操作的潜在的收益进行四维预评估，结合具体方法进行分流操作，即可在保障用户业务感知的前提下，尽可能获得更高的分流效益。本发明基于采集现网实时数据，以5分钟为粒度进行数据汇总，能够获得现网中准确的用户信息；基于合理的数据建模和完善的算法结构，使分流结果更加准确。
+32. 102932848 一种基于栅格辅助的网络分流方法
+CN
+13.02.2013
+H04W 28/10 Loading...
+H04W 28/10
+Loading...
+201210385031.4
+北京拓明科技有限公司
+吴磊
+H04W 28/10
+Loading...
+本发明公开了一种基于栅格辅助的网络分流方法，包括以下步骤：收集栅格数据，根据所述栅格数据绘制栅格效果，基于所述栅格数据及栅格效果分析分流差的原因并进行处理。本发明通过对2G网络中使用TD终端及WLAN终端的上网用户进行精确定位，并对这部分用户的上网行为进行分析，判断其对网络带宽的需求，结合其精确的位置信息及用户行为，通过市场手段、技术手段引导用户尽量使用TD网络、WLAN网络上网，降低2G网络的利用率。通过栅格化G/T双网分流方法找出基于楼层的热点区域、用户、用户组等信息提供给市场部门实施分流；通过栅格化G/T双网分流方法找出网建、网优的短板。
+33. 102883352 GSM (global system for mobile communications) cell parameter optimization method based on traffic modeling and traffic prediction
+CN
+16.01.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210332485.5
+北京拓明科技有限公司
+鹿岩
+H04W 24/02
+Loading...
+The invention discloses a GSM cell parameter optimization method based on traffic modeling and traffic prediction. The method comprises collecting communication information of a cell according to the scene type of the cell; constructing a self-adaptive three-dimensional matrix of the cell parameter according to the communication information of the cell, the actual traffic, the half-rate parameter setting, and the TCH (traffic channel) congestion number of the cell to obtain a cell traffic model; predicting traffic of the cell; calculating the predicted traffic of the cell; and inputting the predicted traffic of the cell and the cell channel configuration information into the cell traffic model to obtain a half-rate threshold set value of the cell. The method provided by the invention can realize the self-adaptive optimization of the cell parameters through traffic modeling and traffic prediction, thereby effectively improving the equilibrium problem of the network capacity and quality, and improving the network quality.
+34. 102521044 一种基于消息中间件的分布式任务调度方法及系统
+CN
+27.06.2012
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201110453910.1
+北京拓明科技有限公司
+包博远
+G06F 9/48
+Loading...
+本发明公开了一种基于消息中间件的分布式任务调度方法及系统，属于分布式系统的任务调度领域。本发明采用消息队列的方式进行分布式任务的调度，首先将待执行的任务保存到主节点的任务队列中，然后通过负载均衡将任务均衡地分配到主节点下的可用子节点中，由子节点启动各自独立的任务进程执行任务。在任务的调度执行过程中，通过监控节点对主节点和子节点的状态进行实时监控，当出现故障时，将待执行的任务或正在执行的任务切换到备用主节点或可用子节点中。通过本发明所述的方法及系统，保证了任务之间的独立性，提高了任务执行的效率。故障切换机制进一步保证了任务调度执行的可靠性。
+35. 102355690 一种评估基站小区间天馈线接反的方法
+CN
+15.02.2012
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201110179241.3
+北京拓明科技有限公司
+赵辉
+H04W 24/08
+Loading...
+本发明公开了一种评估基站小区间天馈线接反的方法，该方法首先采集话务统计中的切换测量数据并进行分析，再根据本小区方位角、邻小区方位角、本小区基站与邻小区基站之间的连线与本小区覆盖方向的夹角以及与邻小区覆盖方向的夹角，将基站与邻小区进行了分类，最后根据各类邻区的切换次数占比与设定值的关系，评估出可能存在天馈线接反的小区。本发明所述方法，通过开启GSM话务统计中的切换测量数据，根据各类邻区的切换次数占比判断出小区天馈线是否存在接反现象，同时也对工程参数(经纬度、方位角等)的正确性进行了判断，有效提高了全网工程质量的核查效率，提高了网路质量，在一定程度上降低了评估成本。
+36. 102333340 一种基于测量报告的调整BSRXMIN的方法
+CN
+25.01.2012
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201110303510.2
+北京拓明科技有限公司
+温金泉
+H04W 24/10
+Loading...
+本发明公开了一种基于测量报告的调整BSRXMIN的方法，涉及移动通信领域。该方法首先根据通信网络中测量报告的测量统计数据，计算BSRXMIN值，对该进行修正得到BSRXMIN的第一次计算值，然后将第一次计算值设置为系统的BSRXMIN值，根据之后的测量统计数据，再次计算出BSRXMIN值，对该值进行修正得到BSRXMIN的第二次计算值，最后通过公式新BSRXMIN＝(第一次计算值的平方值+第二次计算值的平方值)/(第一次计算值+第二次计算值)计算得到最终的新BSRXMIN值。通过本发明所述的方法来调整移动通信中爱立信系统的BSRXMIN参数值，对改善全网上行弱信号掉话有显著效果。
+37. 102333328 一种基于用户信令的网络资源的分析方法及系统
+CN
+25.01.2012
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110277738.9
+北京拓明科技有限公司
+朱兴勇
+H04W 24/00
+Loading...
+本发明公开了一种基于用户信令的网络资源的分析方法及系统，涉及移动通信用户市场维护领域。该方法通过长期的用户行为统计，确定稳定占用用户的占闲时段，并将占闲时段作为市场营销的重点时段，根据用户在该时段的业务行为，确定占闲时段的用户业务类型，作为市场营销的主推业务，引导用户在网络资源相对闲时扩大业务的使用，减少网络设备的空闲状态，在不增加运营成本的基础上，提升网络资源的利用率，实现运营商和用户的双赢。
+38. 102307354 一种基于信令的GSM网络频率优化方法
+CN
+04.01.2012
+H04W 16/14 Loading...
+H04W 16/14
+Loading...
+201110251425.6
+北京拓明科技有限公司
+赵辉
+H04W 16/14
+Loading...
+本发明公开了一种基于信令的GSM网络频率优化方法，涉及移动通信领域。本发明所述的方法，开启ABIS接口信令跟踪，获取相应的信令跟踪文件，通过对ABIS接口跟踪的MR信令收集分析，客观且全面的了解小区频点的使用情况，根据各有效频点的相关参数，如接收电平、测量次数、测量概率、干扰值和优选因子等，进而进行频点精准选择，提出指定小区频点最优的选择方案，根据最优频点进行指定小区频点的替换(改频)，实现科学的频率优化，通过该方法有效提高小区频率选择的精准性，提高小区服务质量。
+39. 102209336 Neighbor cell optimizing method based on neighbor cell measurement
+CN
+05.10.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201110140223.4
+Beijing Tuoming Communication Technology Co., Ltd.
+Zhu Yanxin
+H04W 24/02
+Loading...
+The invention discloses a neighbor cell optimizing method based on neighbor cell measurement. The method comprises the following steps of: firstly, inquiring a present network cell database and extracting a neighbor cell measuring result; and then, checking the type of the extracted neighbor cell measuring result and performing corresponding processing according to the type of neighbor cell measurement: for a defined neighbor cell measuring result, determining whether a tested neighbor cell is a defined neighbor cell or not, and if not, deleting the tested neighbor cell from a neighbor cell list; and for a non-defined neighbor cell measuring result, determining whether a tested neighbor cell is a non-defined neighbor cell or not, and if not, adding the tested neighbor cell into the neighbor cell list. By adopting the method disclosed by the invention, optimizing personnel can definitely and reasonably increase or decrease adjacency relations, and the cell switching success ratio and the user satisfaction degree are increased.
+40. 102186187 Paging black hole cell locating method based on signaling of interface A
+CN
+14.09.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110103202.5
+Beijing Tuoming Communication Technology Co., Ltd.
+Qu Qinjian
+H04W 24/00
+Loading...
+The invention discloses a paging black hole cell locating method based on a signaling of an interface A, which comprises the steps of: at first, acquiring the signaling of the interface A in a GSM (Global System for Mobile communication) network, performing collection, decoding and correlation analysis via a server to generate a call detail record (CDR), and adding the CDR to a signaling database; then performing correlation analysis on signaling information in the signaling database to obtain a statistical analysis result, and sorting out paging black hole cells according to the statistical analysis result in order to obtain a list of the paging black hole cells; and finally locating the position and distribution of the paging black hole cells according to the list of the paging black hole cells. In the method, the condition of paging black holes in a network and cells in which paging failure occurs specifically are counted through the analysis based on relevant signaling data information of the interface A, thus operators can be aware of the condition of mobile communication network in time, and rapid positioning of network optimization personnel is facilitated so as to enhance optimization efficiency.
+41. 102164380 Method for assessment of mobile communication network frequency use condition
+CN
+24.08.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201110072400.X
+Beijing Tuoming Communication Technology Co., Ltd.
+Ma Xianglong
+H04W 24/02
+Loading...
+The invention relates to the technical field of mobile communication, and in particular relates to a method for assessment of the mobile communication network frequency use condition. Through setting an MR test voice quality index, a strong signal quality difference cell ratio, a frequency point use balance degree, an identical and adjacent frequency switching ratio, a cell interference factor (Ericsson), an engineering network entry amount and other index threshold values, the method can judge whether a network achieves the frequency conversion condition, so as to more reasonably perform frequency optimization on the network, reduce the interference in the network, and improve the network quality.
+42. 102123410 Silence call positioning method based on A-interface signaling
+CN
+13.07.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110048324.9
+Beijing Tuoming Technology Co., Ltd.
+Wang Qianqian
+H04W 24/00
+Loading...
+The invention discloses a silence call positioning method based on A-interface signaling. The method comprises the following steps: firstly, acquiring A-interface signaling from a GSM (global system for mobile communication) network, generating a CDR (call detail record) through the collection, decoding and correlation analysis by virtue of a server and adding the CDR to a signaling database; secondly, carrying out correlation analysis on information in the signaling database so as to obtain statistic analysis results, screening out circuits and cells at which silence calls happen at the beginning or in the middle of call, thus obtaining a list of silence call circuits and cells; and finally, positioning the geographical locations of the silence call cells according to the list. By utilizing the method, the silence call problem can be assessed effectively in real time according to the relevant signaling generated in the communication of mobile subscribers, and the cells at which the silence calls may exist can be positioned more precisely, therefore, the fast positioning of the silence calls by network optimization personnel is facilitated and the efficiency of the network optimization personnel is improved.
+43. 102123429 Method for assessing coverage rationality of mobile communication base station
+CN
+13.07.2011
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201110071836.7
+Beijing Tuoming Technology Co., Ltd.
+Qu Qinjian
+H04W 24/08
+Loading...
+The invention relates to the field of mobile communication technologies, in particular relating to a method for assessing the coverage rationality of a mobile communication base station. The method comprises the following steps: firstly, collecting measurement result records and neighborhood support measurement data during the communication process of a mobile subscriber and gathering data of traffic handover; and secondly, screening out cells at which time lead is too big, the portion of downlink weak signal traffics is over high or the portion of downlink traffics with bad quality is over large; screening out cells which detects a greater number of other cells according to the neighbor support measurement data; and screening out main cells in which a greater number of neighbor cells having handover application number exist according to the statistical data of traffic handover. By utilizing the method, the coverage condition of the mobile communication base station can be assessed effectively in real time without the influence from geographical factors or other factors, therefore, an operator can timely get information about the condition of a mobile communication network and reasonably appoint personnel for network optimization.
+44. 102123418 Ping-pong handover positioning method based on A-interface signaling
+CN
+13.07.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201110064513.5
+Beijing Tuoming Technology Co., Ltd.
+Song Yongqing
+H04W 24/02
+Loading...
+The invention discloses a ping-pong handover positioning method based on A-interface signaling. The method comprise the following steps: firstly, acquiring A-interface signaling from a GSM (global system for mobile communication) network, generating a CDR (call detail record) through the collection, decoding and correlation analysis by virtue of a server, and adding the CDR to a signaling database; secondly, carrying out correlation analysis on the information in the signaling database so as to obtain statistic analysis results, screening out ping-pong handover cell pairs according to the results, thus obtaining a list of ping-pong handover cells; and finally, ranking the ping-pong handover cells in the list according to the generation times of ping-pong handover, and positioning the locations and areas of the ping-pong handover cells. According to the method, through the analysis on relevant signaling data information during communication, the conditions of ping-pong handover and the cells at which handover practically happens are obtained through statistics, therefore, an operator can timely get information about the conditions of a mobile communication network, the fast positioning of ping-pong handover by network optimization personnel is facilitated, and the optimization efficiency is improved.
+45. 102045748 Mobile network intelligent analysis method based on data service flow and system thereof
+CN
+04.05.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010607976.7
+Beijing Tuoming Technology Co., Ltd.
+Huo Quanfu
+H04W 24/02
+Loading...
+The invention relates to a mobile communication network optimization technology, in particular to a mobile network intelligent analysis method based on data service flow and a system thereof. The method is as follows: splitting signaling flow and service flow from the flow of data service of a mobile network user, and analyzing access point name (APN) and HOST information of various services; utilizing relevant information of the service flow to find users using services with large service flow proportion; and carrying out data analysis and service mining in combination with relevant data of the users. In the mobile network intelligent analysis method, the business intelligence (BI) technology is applied to positioning of mobile network problems, so that an operator reduces the number of service analysts and reduces the service optimization cost. By deep discovery of the service flow rule, business opportunities are analyzed and mined in the service flow, the service experience of the users is improved, the current hot services are accurately positioned, and the market prospect is better analyzed.
+46. 102026234 Statistical analysis method for GSM network calling/called loss
+CN
+20.04.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010572566.3
+Beijing Tuoming Communication Technology Co., Ltd.
+Zhang Guanghui
+H04W 24/02
+Loading...
+The invention belongs to the technical field of mobile communication and particularly relates to a statistical analysis method for GSM network calling/called loss. The method comprises the steps of: collecting the signals at A interface in a GSM network so as to generate a calling detail record CDR and adding the same into a signal document library, counting all the signal points in the calling/called process by extracting signals from the signal document library, and recording a resolved calling/called loss reason value of each signal, correlatively analyzing the information so as to obtain a statistical analysis result, and directly output in a customized mode. The invention which firstly applies the calling/called loss statistic technique to the field of positioning the mobile network problem can directly statistically collect the correlatively analyzed reasons of the calling/called loss in the whole process, therefore lowering the time cost of the network optimizing workers and the service optimizing cost.
+47. 102026239 Frequency optimization method based on measurement report
+CN
+20.04.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010607996.4
+Beijing Tuoming Communication Technology Co., Ltd.
+Zhang Yajing
+H04W 24/02
+Loading...
+The invention discloses a frequency optimization method based on a measurement report. The method comprises the following steps: establishing an inter-cell interference matrix by extracting measurement report information from IUB (interface between NodeB and RNC) signaling and establishing a telephone traffic model; obtaining a recommended main frequency point allocation scheme and a recommended auxiliary frequency point allocation scheme of the cell through a genetic algorithm; and finally obtaining the recommended frequency point allocation scheme of the cell. Through the method provided by the invention, the perception of a user can be fully reflected, reasonable suggestions are offered to the frequency allocation of the current network, and the real-time performance and rationality of frequency optimization are improved.
+48. 102026240 Scrambling code optimizing method based on measurement report
+CN
+20.04.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010608006.9
+Beijing Tuoming Communication Technology Co., Ltd.
+Zhang Yajing
+H04W 24/02
+Loading...
+The invention discloses a scrambling code optimizing method based on a measurement report, which comprises the following steps: establishing an interference matrix among cells by extracting measurement report information from IUB interface signaling and establishing a traffic model; using a strong correlation synthesis method to obtain scrambling code relativities under different time delays, carrying out synthesis on the premise of considering the relativity of downlink synchronous codes under different time delays; and finally, allocating the scrambling codes by using a genetic algorithm to obtain the final scrambling code optimizing scheme of the cells. The method can sufficiently reflect the perception of users, gives rational suggestions for the allocation of scrambling codes in the present network, and enhances the rationality of scrambling code optimization.
+49. 102014426 Method for measuring interference ratio based on measurement report
+CN
+13.04.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201010549820.8
+Beijing Tuoming Communication Technology Co., Ltd.
+Chen Shaopeng
+H04W 24/10
+Loading...
+The invention relates to the field of mobile communication, in particular to a method for measuring an interference ratio based on a measurement report. The method comprises the following steps of: analyzing a service cell occupied by the measurement report for evaluating the interference ratio of a related signaling and related data from the related signaling; computing a distance from the measurement report to each cell of a frequency point with the same adjacent frequency with the frequency point occupied by the measurement report according to the longitude and latitude positioned by the current measurement report according to the longitude and latitude positioned by the current measurement report; and associating the same adjacent frequency condition among the current service cell, a cell with the same adjacent frequency and a cell generated based on the measurement report in a database, and determining an interference value of the cell with the same adjacent frequency according to different association conditions so as to calculate the interference ratio. The method can more completely reflect the magnitude of the same adjacent frequency interference on each position in each cell coverage area, and brings convenience to a mobile telecom carrier to monitor the interference condition of a mobile-communication network in real time and reasonably optimize the allocation of frequency points in time.
+50. 102014420 Method for assessing voice quality of mobile communication
+CN
+13.04.2011
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201010549835.4
+Beijing Tuoming Communication Technology Co., Ltd.
+Chen Shaopeng
+H04W 24/08
+Loading...
+The invention relates to the field of mobile communication, in particular to a method for assessing voice quality of mobile communication. The method is used for assessing the voice quality sensed by a subscriber in the voice call process of the mobile communication subscriber. The method is as follows: when a mobile communication network is adopted for calling, signallings transmitted among networks are collected, wherein related data, information and the like are carried in the signalings; and certain related data and information are utilized to assess the voice quality of the call of the mobile communication subscriber. According to the method, the assessment is not influenced by districts and other equipment, so that operators can obtain the situation of mobile communication networks timely, and persons are reasonably arranged to carry out network optimization.
+51. 102014414 Network optimization intelligent decision wizard system and automatic analysis method
+CN
+13.04.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010605612.5
+Beijing Tuoming Communication Technology Co., Ltd.
+Song Yongqing
+H04W 24/02
+Loading...
+The invention belongs to the technical field of wireless communication network optimization and particularly relates to a network optimization intelligent decision wizard system and an automatic analysis method. The system comprises a database unit, an index library unit, a rule library unit, a node library unit and a wizard library unit, wherein the database unit is used for storing telephone traffic statistic data, Abis data, warning data and various parameter data in a wireless communication network; the index library unit is used for storing various telephone traffic indexes, an Abis data index, a warning data index and various parameter indexes, which are summarized and abstracted from the database unit; the rule library unit is used for acquiring data indexes from the index library unit and generating various rules through function calculation; the node library unit is used for generating independent and reusable nodes according to certain or combination of some of rules in the rule library unit; and the wizard unit is used for sequencing nodes according to an analysis flow and forming an intelligent decision analysis wizard. The system and the method can regulate a network problem processing flow, improve network optimization rate and network benefits and improve network service quality and continuous development capability.
+52. 102014408 Data service flow and cell reelection-based mobile network analysis method
+CN
+13.04.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201010607993.0
+Beijing Tuoming Communication Technology Co., Ltd.
+Huo Quanfu
+H04W 24/00
+Loading...
+The invention relates to technology of optimization of mobile communication networks, in particular to a data service flow and cell reelection-based mobile network analysis method. The method comprises the following steps of: splitting signaling flow and service flow from the flow of a user data service of the mobile network; finding a cell with large flow difference by comparing the flow of the user data service of the cell with the flow in the same historical period; judging whether the frequency of cell reelection in the process of using the cell by the user is over-high or not, and optimizing the network structure of the cell; and calculating a ratio of the signaling flow to the service flow of a user terminal, and judging whether the user terminal has problems or not. The method can lower network optimization cost, accurately positions the problem of networks, can provide analysis opinions of optimizing terminal designs and configuration for manufacturers and the users of mobile terminals, and can improve the data service perception of the users.
+53. 102014406 Inter-operator coverage comparison method based on user measurement reports
+CN
+13.04.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201010562579.2
+Beijing Tuoming Communication Technology Co., Ltd.
+Song Yongqing
+H04W 24/00
+Loading...
+The invention relates to a wireless cellular communication technology, in particular to an operators coverage comparison method based on user measurement reports in different GSM (global system for mobile communications) mobile operator systems. The comparison method comprises the following steps: acquiring the user measurement reports, defining a field strength interval measurement threshold based on the measurement reports, and setting the range of frequency points for measurement; and after acquiring the data, processing the measurement reports based on the threshold setting of the covered measurement reports and a coverage model calculation method to obtain an evaluation conclusion of the network coverage level. By using the comparison method, the measurement reports on frequencies and levels of competitors can be collected so as to evaluate the coverage, so that the evaluation result is truer, the working efficiency is higher, and pertinent optimization can be made to the region having great disparity.
+54. 101986747 Mobile terminal positioning method
+CN
+16.03.2011
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201010514709.5
+Beijing Tuoming Communication Technology Co., Ltd.
+Chen Shaopeng
+H04W 24/08
+Loading...
+The invention discloses a mobile terminal positioning method, which comprises the following steps of: acquiring a measurement report of a mobile terminal; calculating a propagation distance of the mobile terminal in each cell by using a wireless propagation model and a time offset TA value; and calculating initial positioning point longitude and latitude of the mobile terminal in each cell by using the propagation distance, the longitude and latitude of the cell and an antenna direction angle, and calculating the final positioning point longitude and latitude of the mobile terminal according to the initial positioning point longitude and latitude of the mobile terminal in each cell. Compared with the conventional positioning method, the mobile terminal positioning method has obviously high positioning accuracy, so the mobile terminal positioning technology can be really applied practically.
+

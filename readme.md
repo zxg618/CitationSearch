@@ -25,6 +25,10 @@ The program can find all patents and citations from PATSTAT database 2016 Autumn
 5. Use these person ids to find all patents
 6. Search each patent's citations from table 212
 7. Output excel files
+    * list of companies
+    * list of patents
+    * list of citations
+    * list of different english names
 
 ## Known issues
 1. Number of citations is inconsistent with the result on EPO online

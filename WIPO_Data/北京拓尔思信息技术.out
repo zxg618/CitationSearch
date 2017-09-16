@@ -1,0 +1,109 @@
+1. 103577418 海量文档分布式检索排重系统和方法
+CN
+21.12.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000256159
+北京拓尔思信息技术股份有限公司
+王洪俊
+G06F 17/30
+Loading...
+一种海量文档分布式检索排重系统，包括文档预处理模块、文档特征计算模块、分布式建库模块、存储模块、分布式检索模块、相似度计算模块。文档特征计算模块根据词对文档的重要程度计算文档特征向量。分布式建库模块根据文档特征向量将文档映射到不同的存储分区。分布式检索模块检索目标文档所属的若干个分区，相似度计算模块计算目标文档与这若干个分区中所有文档的相似度，从而实现海量文档分布式排重操作。所提供的海量文档分布式检索排重系统和方法，借助了分布式系统的思想，将海量文档集分散到若干个子集中，使得排重计算在1个或少数几个子集中进行，减少了相似度计算量，提高了文档排重效率。
+2. 103377207 基于脚本引擎的微博用户关系采集方法
+CN
+07.12.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210114869.X
+北京拓尔思信息技术股份有限公司
+都云程
+G06F 17/30
+Loading...
+本发明涉及信息采集技术领域，公开了一种基于脚本引擎的微博用户关系采集方法，该方法包括步骤：S1，采用脚本引擎技术自动登录微博客网站；S2，采用网页采集方式对特定账户信息爬取其对应内容页面信息；S3，元数据解析，获取用户列表、用户行为机制及用户基本信息；S4，实现用户关系抽取；S5，使用广度优先遍历用户列表，丰富用户关联关系。本发明提供的采集方法克服了API访问限制问题，有利于微博客信息的规模化采集，同时也提高了信息采集的精确度。
+3. 105592356 一种音视频在线虚拟剪辑方法和系统
+CN
+18.05.2016
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+201410563990.X
+北京拓尔思信息技术股份有限公司
+肖诗斌
+H04N 21/4402
+Loading...
+本发明提供一种精准的音视频在线虚拟剪辑方法，其包括：步骤S10，音视频对象获取；步骤S20，音视频对象转码；步骤S30，用户在线剪辑；步骤S40，音视频对象准确定位；步骤S50，剪辑关联。将剪辑工具嵌入浏览器，采用流媒体增强型定位技术，精准定位到帧，剪辑信息与父视频进行关联，以实现虚拟剪辑。此外，本发明还提供一种精准的音视频在线虚拟剪辑系统，包括：播放器、在线剪辑工具，流媒体服务器、音视频数据处理服务器，数据库三大模块，实现音视频的精准、高效的在线编辑和播放，同时避免音视频的重复存储，提高存储空间有效利用率。
+4. 105592003 一种基于通知的跨域单点登录方法及系统
+CN
+18.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410563541.5
+北京拓尔思信息技术股份有限公司
+施水才
+H04L 29/06
+Loading...
+本发明提供一种基于通知的跨域单点登录方法，其包括：步骤S1.信任通道建立；步骤S2.全局认证凭证生成；步骤S3.用户身份认证；步骤S4.单点登录。借助web服务器的原有会话机制，以安全的加密通道传递会话ID，在认证服务端维护会话ID与认证凭证的关系，实现身份认证和单点登录，具有效率高、安全性高、实现成本低的特点。此外，本发明还提供一种基于通知的跨域单点登录系统，包括：客户端、应用服务端、认证中心三大模块，任意接入认证中心的应用端需携带重定向组件，认证中心负责认证凭证的生成、管理、销毁等工作，应用服务端与认证中心需建立互信通道，复用web服务的会话特性，实现跨域单点登录，具有复杂度低、安全性高、可靠性强的优点。
+5. 105590082 文档图像识别方法
+CN
+18.05.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201410563687.X
+北京拓尔思信息技术股份有限公司
+施水才
+G06K 9/00
+Loading...
+文档图像识别方法，包括图像预处理、获取图像连通区域、连通区域特征抽取、文档图像判别，图像连通区域的获取借助了聚类的思想，应用8连通准则，对灰度值为0和255的像素点分别聚类，准确识别连通区域。连通区域特征包括形状特征、颜色特征，主要分三种方式抽取，依次为疑似字符识别、一致性字符发现、真实字符判断，特征抽取简洁、复杂度低。实现了文档图像的准确、高效的识别，解决了文档图像识别性能低下的问题。
+6. 105389344 一种自助式查新方法及系统
+CN
+09.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510696381.6
+南方电网科学研究院有限责任公司
+王庆红
+G06F 17/30
+Loading...
+本发明公开了一种自助式查新方法及系统，该方法包括：根据用户输入的查新内容，对查新内容进行语义分析，提取出查新关键词，并通过关联检索生成相应的关联关键词；根据查新关键词和所述关联关键词，基于逻辑关系生成查新检索式；根据查新检索式检索各个资源数据库，获得检索结果；对检索结果进行多维度评价，并根据评价结果生成相应的查新报告；其中，多维度评价包括：基于检索内容相关度评价、基于查新点的相关度评价、基于关键词的相关度评价、基于技术指标的相关度评价。采用本发明实施例，能够提高科技查新的效率。
+7. 105302793 一种利用计算机自动评价科技文献新颖性的方法
+CN
+03.02.2016
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+201510696274.3
+南方电网科学研究院有限责任公司
+王庆红
+G06F 17/27
+Loading...
+本发明提供了一种利用计算机自动评价科技文献新颖性的方法，其包括如下步骤：A、基于文档内容排序的新颖性检测；B、基于文档语义比对的新颖性检测；C、基于关键术语的新颖性检测；D、基于数值指标的新颖性检测；E、基于步骤A-D分别得到各自的新颖性评分，运用回归模型计算出查新文档的新颖性总分。采用本发明的方法，可基于多维度新颖性检测的科技文献自动查新，提高科技查新的效率。
+8. 103853772 High-efficiency reverse index structure and organizing method
+CN
+11.06.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210511478.1
+北京拓尔思信息技术股份有限公司
+王弘蔚
+G06F 17/30
+Loading...
+The invention discloses a high-efficiency reverse index structure and an organizing method. A recording reverse item and an attribute reverse item are separately stored, so that information redundancy is reduced; reverse indexes are stored in a partitioning mode; the optimization of a database index is taken as an entry point and the advantages of a chain table and a centralized positioning table are comprehensively utilized to manage the reverse blocks, so that the dynamic maintenance of indexes is benefited and the random access under the SKIP technique is convenient; the compression technique is adopted according to inter-domain incidence relation, so that much information is stored in less space; according to the high-efficiency reverse index structure and the organizing method provided by the invention, the storage space is reduced, the access time is optimized, the problem of reverse index optimization is solved to some extent and the effective management for mass data is realized.
+9. 101178721 Method for classifying and managing useful poser information in forum
+CN
+14.05.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710163936.6
+Beijing Tuoersi Information Technology Co., Ltd.
+Xue Yonggang
+G06F 17/30
+Loading...
+The invention relates to a method used for assorting and managing the useful post information in forum and belongs to the technical field of natural language processing. The invention provides a method that can conveniently and effectively obtain useful information when the posts have big quantity and much useless data is available and the automatic text assorting method and pure manpower method can not effectively manage the data. The invention gets alternate sort of the forum information and the sequence arrayed as the believing degree by the filtering of the forum information, automatic assorting and compositor; finally, the useful information is conveniently taken out by manpower through the picking system, thereby both the efficiency and accuracy can reach good effects.
+

@@ -1,0 +1,61 @@
+1. 102073008 On-chip clock uncertainty measurement circuit device and system
+CN
+25.05.2011
+G01R 31/317 Loading...
+G01R 31/317
+Loading...
+201010534782.9
+Loongson Technology Co., Ltd.
+Yu Hang
+G01R 31/317
+Loading...
+The invention provides an on-chip clock uncertainty measurement circuit device. The device comprises a delay circuit and a detection unit, wherein the delay circuit comprises a rough adjustment circuit and a fine adjustment circuit; two paths of clock signals A and B to be measured from two different measurement points of the same time source on a chip are roughly adjusted and delayed by the rough adjustment circuit; the roughly adjusted clock signals A and B are finely adjusted and delayed by the fine adjustment circuit; the phases of the finely adjusted clock signals A and B are detected by the detection unit; and the clock skew of the clock signals A and B is calculated when the phases of the finely adjusted clock signals A and B are the same. The invention also provides a measurement system which comprises the measurement circuit device and a ruler circuit. In the invention, on-chip measurement is performed on the clock skew and even clock jitter by using a composite non-linear delay line, so the measurement accuracy is high and the required data quantity is small.
+2. 101826000 Interrupt response determining method, device and microprocessor core for pipeline microprocessor
+CN
+08.09.2010
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201010103742.9
+Beijing Loongson Zhongke Technology Service Center Co., Ltd.
+Hao Shouqing
+G06F 9/38
+Loading...
+The invention discloses an interrupt response delay determining method for a pipeline microprocessor, wherein a pipeline comprises an instruction fetching level, a decoding level and an instruction transmitting level; the method comprises the following steps: when a microprocessor receives an external interrupt signal, preventing transmission of a new instruction and marking an interrupt identifier for a first to-be-executed instruction in the pipeline; and when the interrupt identifier of an instruction in the pipeline is detected, emptying the pipeline of the processor and triggering the internal interrupt response of the processor. The invention further discloses an interrupt response delay determining device for a pipeline microprocessor and a microprocessor core. The method, device and microprocessor core of the invention can control the delay of interrupt response in a microprocessor within a determined time range, and the time is not influenced by external factor.
+3. 101706859 Device and method for protecting source code
+CN
+12.05.2010
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200910236076.3
+Beijing Loongson Zhongke Technology Service Center Co., Ltd.
+Li Zusong
+G06F 21/22
+Loading...
+The invention discloses a device and a method for protecting a source code. The device comprises a keyword information storage unit, an irreplaceable identifier information storage unit, an identifier replacing information storage unit, an identifier selecting unit, and an identifier replacing unit. The method comprises the following steps: prestoring keyword information, irreplaceable identifier information, and identifier information before and after an identifier is replaced, and executing the following steps: selecting the corresponding identifier in the source code according to a preset rule; comparing the selected identifier with the keyword information and the irreplaceable identifier information; and replacing the identifier different from the keyword information and the irreplaceable identifier information according to the identifier information before and after the identifier is replaced. In the invention, the identifier obtained after replacing the specific identifier in the source code contains no meaning or information. Therefore, the source code of which the identifier is replaced is protected well.
+4. 101706712 Operation device and method for multiplying and adding floating point vector
+CN
+12.05.2010
+G06F 7/57 Loading...
+G06F 7/57
+Loading...
+200910241614.8
+Beijing Loongson Zhongke Technology Service Center Co., Ltd.
+Chen Yunji
+G06F 7/57
+Loading...
+The invention discloses operation device and method for multiplying and adding a floating point vector. The device comprises a multiplier selecting unit, n multiplication units and n addition units, wherein the multiplier selecting unit is used for selecting the (m+1)th part of a second source operand floating point vector and outputting the (m+1)th part to the n multiplication units according to a value m of a fourth source operand, wherein m is less than or equal to n-1; the multiplication units are used for respectively multiplying the (m+1)th part of the selected second source operand floating point vector and n parts of a third source operand floating point vector and outputting an operation result from the multiplication operation to the corresponding n addition units; and the adding units are used for respectively adding the n parts of the operation result from the multiplication operation and n parts of a first source operand floating point vector to obtain a result of multiplication and addition. Therefore, a shuffle shift instruction in the operation of the floating point vector can be saved, the length of a program is reduced, and the operation efficiency and velocity of a microprocessor are improve when the multiplication and addition operations are carried out.
+5. 101692201 Fixed-point divider and operation processing method thereof
+CN
+07.04.2010
+G06F 7/487 Loading...
+G06F 7/487
+Loading...
+200910093602.5
+Beijing Loongson Technology Service Center Co., Ltd.
+Zhang Guangfei
+G06F 7/487
+Loading...
+The invention discloses a fixed-point divider and an operation processing method thereof; the divider comprises a zero judgment device for judging weather a divisor is zero; a pre-processing device for receiving an identifier which is used for indentifying weather symbol manipulation is carried out, and a dividend and the divisor, generating absolute values of the dividend and the divisor, carrying out selecting operation after the absolute values are compared and generating an identifier for processing a quotient result and a remainder and transmitting to a result processing device; a cycle shift subtractive device for controlling shifting and subtracting operation and outputting to the result processing device when the circulating is finished according to the current circle execution phase, the number of leading zero and the input operand; and the result processing device for receiving the input zero judgment processing result, the preprocessed identifier and the result of the cycle shift subtraction and outputting the quotient result and the remainder after the judgment processing is carried out. On the premise of keeping small divider area and low power consumption, the fixed-point divider has high performances.
+

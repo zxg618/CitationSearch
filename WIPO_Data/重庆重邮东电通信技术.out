@@ -1,0 +1,265 @@
+1. 102104886 一种Iub接口信道化数据采集的方法及装置
+CN
+03.08.2016
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+102011000022696
+重庆重邮东电通信技术有限公司
+梁燕
+H04W 24/00
+Loading...
+为了解决现有技术Iub接口数据采集方法及装置存在的不支持IMA的分散传输环境、不能满足Iub接口的信令监测和IMA组的捆绑猜测算法兼容性不好等问题，本发明提出一种Iub接口信道化数据采集的方法及装置。本发明Iub接口信道化数据采集方法采用基于STM-1的空分交换，完成252个E1时隙的扫描；采用时分交换完成任意126个E1时隙的下线；采用基于扫描单元、扫描索引的方法自动获取IMA组捆绑关系。本发明Iub接口信道化数据采集方法及装置的有益技术效果是克服了现有技术存在的技术问题，支持4个STM-1或1个STM-4的接入，支持信道化的IMA，支持IMA分散传输下自动获取IMA组捆绑，增加了采集密集度。
+2. 102104886 Method and device for channelized data acquisition of Iub interface
+CN
+22.06.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110022696.4
+Chongyou Dongdian Telecommunication Technology Co., Ltd.
+Liang Yan
+H04W 24/00
+Loading...
+The invention discloses a method and a device for the channelized data acquisition of an Iub interface, which aim to solve the problems of decentralized transmission environment non-supporting of an inverse multiplexing asynchronous transfer mode (AIM), incapability of meeting signaling monitoring of the Iub interface, poor compatibility of a bundling forecasting algorithm of IMA groups, and the like of the method and the device for the data acquisition of the Iub interface in the prior art. In the method for the channelized data acquisition of the Iub interface, 252 E1 time slots are scanned by adopting synchronous transfer mode (STM)-1-based space division switching; the referral of any 126 E1 time slots is finished by adopting time division switching; and IMA group bundling relationships are automatically acquired by adopting the method based on scanning units and scanning indexes. The method and the device for the channelized data acquisition of the Iub interface have the technical effects of overcoming the technical problems of the prior art, supporting the access of four STMs-1 or an STM-4, supporting a channelizing IMA, supporting the automatic acquisition of the IMA groups under the decentralized transmission of the IMA, and increasing acquisition density.
+3. 101895999 Automatic configuration method and device of Iub interface ATM adaptation layer type 2 link parameter
+CN
+24.11.2010
+H04W 80/02 Loading...
+H04W 80/02
+Loading...
+201010216771.6
+重庆重邮东电通信技术有限公司
+邬丽芬
+H04W 80/02
+Loading...
+The invention provides an automatic configuration method and device of Iub interface ATM adaptation layer type 2 (AAL2) link parameter, aiming to solve the problems that when the existing technology is used to configure the AAL2 link parameter of Iub interface, break of service is caused and the flexibility and expansibility are poor. The automatic configuration method of the invention comprises the following steps: pre-configuring the data cell PDU of each layer for each data frame according to the sequence of FP, MAC and RLC, traversing three channels of RACH, FACH and PCH; and judging the pre-configuration parameter with the maximum success rate as the successfully automatic configuration parameter and writing the parameter in configuration file. The automatic configuration device of the invention adopts an FP processing module, an MAC processing module and an RLC processing module to pre-configure the Iub interface data collected in network, uses a scheduling processing module to judge the pre-configuration result and write the result which satisfies judgment condition in configuration file.
+4. 101754244 Data acquisition processing method of time division synchronization code division multiple access (TD-SCDMA) network centralized monitoring system
+CN
+23.06.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910250948.1
+Chongyou Dongdian Telecommunication Technology Co., Ltd.
+Du Xiya
+H04L 12/26
+Loading...
+The invention provides a data acquisition processing method of a time division synchronization code division multiple access (TD-SCDMA) network centralized monitoring system for improving the data processing efficiency and the accuracy of the monitoring result of the centralized monitoring system. The data acquisition processing method of the TD-SCDMA network centralized monitoring system realizes data loading and data unloading of data through a convergence signaling link and adopting different index mechanisms, carries out measures of sequencing, decreasing and the like on the acquired data, greatly improves the utilization ratio of convergence equipment, ensures the sequence and the uniqueness of the signaling data, and remarkably improves the data processing efficiency and the accuracy of the monitoring result of the centralized monitoring system.
+5. 101754236 Technical parameter measuring and calculating model of time division synchronization code division multiple access (TD-SCDMA) network centralized monitoring system
+CN
+23.06.2010
+H04W 16/22 Loading...
+H04W 16/22
+Loading...
+200910250950.9
+Chongyou Dongdian Telecommunication Technology Co., Ltd.
+Chen Yuhua
+H04W 16/22
+Loading...
+The invention provides a technical parameter measuring and calculating model of time division synchronization code division multiple access (TD-SCDMA) network centralized monitoring system for improving the efficiency and the accuracy of the design and the plan of the TD-SCDMA network centralized monitoring system. The technical parameter measuring and calculating model of the TD-SCDMA network centralized monitoring system can measure and calculate the convergence equipment quantity, the service storage capacity and the system reliability of the centralized monitoring system according to the monitoring demands, and can be applied to networking plan and monitoring layout. The technical parameter measuring and calculating model of the TD-SCDMA network centralized monitoring system fully considers the system redundancy, has feasibility, can be used for measuring and calculating the equipment service life cycle, and provides referential criterion for the long-term plan of the operation networking.
+6. 101754245 Time division-synchronization code division multiple access (TD-SCDMA) network centralized monitoring system
+CN
+23.06.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910250951.3
+Chongyou Dongdian Telecommunication Technology Co., Ltd.
+Du Xiya
+H04L 12/26
+Loading...
+The invention provides a time division-synchronization code division multiple access (TD-SCDMA) network centralized monitoring system for solving the problem that the traditional network testing method and equipment can not meet centralized monitoring requirement. The TD-SCDMA network centralized monitoring system realizes the connection with a 2Mb/s port of a seventh signaling link by adopting a high-resistance isolation adapter, realizes the connection with an Internet IP link by adopting a port mirror and a shunt TAP/optical splitter, converges the signaling link by adopting header convergence equipment so as to realize disperse convergence and centralized acquisition, greatly improves the utilization ratio of the convergence equipment, and ensures the sequence and the uniqueness of the signaling data by auxiliarily carrying out sequencing and decreasing on the acquired data in mass, , and remarkably improves the data processing efficiency and the accuracy of the monitoring result of the centralized monitoring system.
+7. 101742358 Method and device for testing quality of network television
+CN
+16.06.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910250949.6
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Luo Jiangtao
+H04L 12/26
+Loading...
+The invention discloses a method and a device for testing the quality of a network television in order to solve the problems of single function, low testing efficiency, carrying inconvenience and the like of the method and device for testing the quality of the IPTV in the prior art. The method for testing the quality of the network television performs a test by actively sending test data to a target network and receiving test data fed back and can realize network connection in three different modes. The device for testing the quality of the network television of the invention is formed on the basis of field programmable logic array FPGA on a large scale and a plurality of kinds of integrated circuits of specific purposes; and the device is integrated so highly as to meet the IPTV testing standards publicly known in the industry and easily realize expansion, so the device is a handheld IPTV tester which has the advantages of convenience, practicability, multifunction and strong operability.
+8. 101729923 Handheld web television quality tester and manufacturing method thereof
+CN
+09.06.2010
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200910104715.0
+Chongqing Chongyoudongdian Communication Technology Co., Ltd.
+He Chunhu
+H04N 17/00
+Loading...
+Aiming at solving the problems that a web television quality tester has larger size, heavier weight, high price, and the like in the prior art, the invention provides a handheld web television quality tester and a manufacturing method thereof. The handheld web television quality tester can detect performance indexes of a web television and also directly view video images and hear audio voices of the web television. As hardware and software of the handheld web television quality tester respectively adopt miniaturized design and modularized design in the manufacturing process, the handheld web television quality tester is not only low in cost, but also small, exquisite and light as well as convenient for carrying.
+9. 101651683 Method for generating analysis source code of signaling message
+CN
+17.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910104716.5
+Chongqing Chongyoudongdian Communication Technology Co., Ltd.
+Dai Bei
+H04L 29/06
+Loading...
+The invention provides a method for generating an analysis source code of a signaling message in order to solve the problems that methods of the prior art for redacting a communication protocol analysis source code have the defects of low flexibility, low efficiency, long product development period and the like. The method comprises the following steps: defining information required by each fieldof the signaling message and the signification of a field value by field rules; matching each field rule by a code template and generating an analysis source code of the corresponding fields; and generating the analysis source code of the signaling message by a source code generating module according to the field rules and the corresponding code template. The source code required for the analysisof the signaling message can be quickly generated by the method for generating the analysis source code of the signaling message; when a novel protocol needs to be analyzed, the field rule of the protocol only needs to be redacted so as to quickly generate the source code for analyzing the protocol, and the development efficiency is greatly enhanced.
+10. 101646099 Network television quality test method
+CN
+10.02.2010
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200910104714.6
+Chongqing Chongyoudongdian Communication Technology Co., Ltd.
+He Chunhu
+H04N 17/00
+Loading...
+The invention provides a network television quality test method, aiming at solving the problems that only certain important indexes can be tested by the network television quality test method in the prior art and quality test on user experience is lacked. The network television quality test method the invention adopts media stream transmission quality and video transmission stream quality to represent the network television service quality and adopts channel switching performance to represent the user experience quality. In test indexes, not only video content quality and network transmissionquality are considered but also user experience quality is considered, the network television quality test is completed relatively comprehensively and systemically, and the network television qualitytest can be carried out visually and comprehensively by combining corresponding test instrument.
+11. 101577925 Detailed calling record synthetic method and system
+CN
+11.11.2009
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910104003.9
+Chongqing Chongyoudongdian Communication Technology Co., Ltd.
+Zhang Qiang
+H04W 24/00
+Loading...
+The invention discloses a detailed calling record synthetic method and a system for solving the defects such as a plurality of repeated work caused by the higher coupling coefficient between a CDR management module and a calling synthetic module and the like existing in the prior art. When the CDR synthesis of a certain protocol needs to be increased or corrected, the detailed calling record synthetic method and the system can be adopted to realize the purpose only by increasing or correcting the calling synthetic module of the protocol and a corresponding CDR description document; therefore, the development efficiency is greatly improved and the development cost is reduced.
+12. 101572628 Call detail record pegging method and system therefor
+CN
+04.11.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910104004.3
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Zhang Qiang
+H04L 12/24
+Loading...
+Aiming at solving the problems of comparatively high coupling coefficient between a statistic record management module and a CDR management module, complex addition or modification on query condition, comparatively large consumption and the like in the prior art, the invention provides a call detail record pegging method and a system therefor. The call detail record pegging method of the invention adopts a CDR description list and a statistic record set description list to realize the corresponding relation between statistic record and CDR, and adopts statistic record set description list to carry out configuration on CDR query condition expression. The CDR management module and the statistic record management module of the call detail record pegging system are completely separated, when the query condition needs adding or modifying, only modification or addition is needed to be carried out on the statistic record set description list, thus greatly improving development efficiency, reducing development cost, and facilitating maintenance.
+13. 101567817 Statistical method and system of network monitoring data
+CN
+28.10.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910104005.8
+Chongqing Dongyou Dongdian Communication Technology Co., Ltd.
+Zhang Qiang
+H04L 12/26
+Loading...
+The invention provides a statistical method and system of network monitoring data, which conquers the defects of the prior technique that the coupling between the real-time statistics module and the statistical data management module is stronger and a large amount of repeatability works are increased. The statistics items are increased or modified by increasing or modifying the real-time statistics modules and the correlative statistics record-set description files of the statistics items, thus the development efficiency is greatly increased and the development cost is reduced.
+14. 101568131 Multi-service call synthetic method in a GSM communication system
+CN
+28.10.2009
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910104002.4
+Chongqing Dongyou Dongdian Communication Technology Co., Ltd.
+Zuo Shuchuan
+H04W 24/00
+Loading...
+The invention provides a multi-service call synthetic method in a GSM communication system, which conquers the problem of the prior call synthetic method that: the service type is not distinguished when performing the call synthesize of the GSM network A interface information, thus the difficulty in the monitoring and analyzing process is increased and the work efficiency is reduced. The multi-service call synthetic method in the GSM communication system performs the call synthesize of the multiple concurrence or correlation information alternation of the various service types in a once SCCP connection using a tree-shaped structure. The bidirectional search is performed between father and son CDR and the overall information in the whole connection is seen in the father CDR and the whole information of the father CDR is seen in the son CDR and the position and relation of the each information in the whole information flow (namely father CDR) in the son CDR is seen.
+15. 101527658 Portable gigabit Ethernet network performance tester and manufacturing method thereof
+CN
+09.09.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910103591.4
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Liu Wei
+H04L 12/26
+Loading...
+The invention relates to a portable gigabit Ethernet network performance tester and a manufacturing method thereof, aiming at solving the problems of large volume and heavy weight as well as costly price and the like existing in the current Ethernet network performance tester. The software of the portable gigabit Ethernet network performance tester adopts modular design while the hardware thereof adopts miniature design, therefore, the tester of the invention not only can satisfy the test requirement of the gigabit Ethernet network performance, but also is small, light and convenient to carry.
+16. 101527653 Multi-segment correlation method based on text configuration files
+CN
+09.09.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910103588.2
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Shu Zhongling
+H04L 12/24
+Loading...
+The invention relates to a multi-segment correlation method based on configuration files in communication network signaling analysis, aiming at solving the problems of complexity, relatively poor module expansibility, proneness to make mistakes and the like existing in multi-segment correlation methods in current communication network signaling message analysis. In the method, single-segment correlation modules are adopted for single-segment correlation, comprehensive multi-segment correlation modules are adopted for multi-segment correlation and text configuration files are adopted to configure correlation rules in the comprehensive multi-segment correlation modules. The method of the invention has the beneficial technical effects of flexibly modifying the multi-segment correlation rules according to the actual situations, reducing the coupling coefficient among single-segment correlations, lowering the complexity and mistake rate and greatly improving the accuracy and efficiency of network signaling monitoring and analysis.
+17. 101521674 H248 protocol calling synthetic method
+CN
+02.09.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910103590.X
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Yuan Liang
+H04L 29/06
+Loading...
+The invention relates to a calling synthetic method in a communication network signaling monitoring and analyzing technique, in particular to a calling synthetic method of a 3GPP standard H248 protocol in a communication network signaling monitoring and analyzing technique. In order to solve the problem of the difficulty for calling and synthesizing the H248 protocol by the calling synthetic method in the prior art, the invention provides an H248 protocol calling synthetic method. In the method, different tag-values are used for corresponding to different phases of the calling process and used as key words in different phases for calling and synthesis, and calling and synthesizing results in different phases are combined. The H248 protocol calling synthetic method has the advantages of problem solution of the more difficulty for calling and synthesizing the H248 protocol by the calling synthetic method in the prior art, performance enhancement and complexity reduction.
+18. 101272582 Automatic recognition method for link identification and virtual route and virtual channel mapping relationship
+CN
+24.09.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810069233.1
+Chongqing Dongyou Dongdian Communication Technology Co., Ltd.
+Xia Da
+H04L 12/24
+Loading...
+To overcome the problems of low efficiency and dependence on network management in a mapping list in which Path ID and VPI/VCI relationship is manually collocated since no mapping list with Path ID and VPI/VCI relationship exists in the signaling test process of the prior art, the invention discloses an automatic identifying method of the mapping relationship of chain path identification and virtual paths and virtual channels. By applying the automatic identifying method of the mapping relationship of the chain path identification and the virtual paths and the virtual channels provided by the invention, real-time data with certain quantity in the network can be analyzed, so the mapping relationship of each Path ID and VPI/VCI can be rapidly and automatically identified, the mapping relationship list of the Path ID and VPI/VCI of each Iub interface can be obtained in a real-time manner by manual collocation without need of network management, and the complete and deep signaling monitoring and protocol analysis can be carried out.
+19. 101237454 Design method and system in protocol message editing system
+CN
+06.08.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810069323.0
+Chongqing Dongyou Dongdian Communication Technology Co., Ltd.
+Liu Xiaodong
+H04L 29/06
+Loading...
+To solve the problems of the communication protocol simulation system of the prior art that the support protocol is single, the protocol information which can be edited by a user is only limited to the modification of some values of the information property and that an editing screen does not express the correlation between the protocol information, the invention provides a method for designing a protocol information editing system and a system. The method for designing a protocol information editing system of the invention establishes a template library consisting of a plurality of protocols according to the information and generates a dendriform editing view according to the template library, and adopts different fault-tolerance levels to correspond to different degrees of the protocol information deviating from the standard protocol. The user can edit the protocol information in a form of the dendriform editing view by the protocol information editing system designed by the method for designing a protocol information editing system of the invention and the protocol information edited by the user can be tested. In addition, the protocol information editing system of the invention can test the falsification of the protocol information in order to verify the support situation of a communication device or the transmission environment on the specified protocol information and the compatibility as well as the fault tolerance ability.
+20. 101222385 Design method and system of protocol simulation system facing service
+CN
+16.07.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810069258.1
+Chongqing Chongyou Dongdian Communication Technology Co., Ltd.
+Liu Xiaorui
+H04L 12/26
+Loading...
+To solve the problems of poor flexibility, serious resource waste, strong coupling, etc. of the prior protocol simulation technique in the communication field, the invention provides a protocol simulation system designing method facing to services and a system thereof. In the protocol simulation technique designing method facing to services of the invention, a service module and a main control module are separately designed and positioned; a communication source language for communication is adopted between the main control module and the service module in order that an normal operation of a protocol simulation system is not influenced when the service requirement of the user is changed or a main control system is upgraded; only the service module is needed to increase. The protocol simulation system designed by the protocol simulation system designing method facing to services can further make use of various resources and has strong flexibility.
+21. 1777318 TD-SCDMA accessing network and core network signalling tester and testing method
+CN
+24.05.2006
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200510057363.X
+Chongqing Post & Telecommunication College
+Zhang Zhizhong
+H04Q 7/34
+Loading...
+The invention relates to a core net and access net signaling test instrumentBased on TD-SCDMA mobile communication system, using operation control machine structure, multi-link, multi-channel, consisting of multi data acquisition carks based on PCI bus. Using modularized structure, multithread and dynamic link library technology, main control module as central control unit, according to data read from different interfaces and operating request of users, controlling and calling other functional modules, finishing program thread dispatch, using loose coupling among modules. The signaling test instrument and method can realize functions such as monitoring, statistics, network optimizing, call trace and simulating test, meanwhile, overcome defects of inconvenient maintenance and upgrade in existing software, and support new service, and smooth upgrade of new application.
+22. 1688127 Method for implementing multi-channel warning service and warning managing system
+CN
+26.10.2005
+H04L 12/16 Loading...
+H04L 12/16
+Loading...
+200510057049.1
+Chongqing College of Posts and Telecommunications
+Liu Huanlin
+H04L 12/16
+Loading...
+This invention relates to a method and a management system for realizing multi-channel prompt service with the help of existing communication measures, which puts forward a combined information prompt service method integrating telephone phone, BP, SMS short message, Email and QQ network BP. A telecommunication combined information prompt center is connected with the existing fixed phone exchange center, mobile phone exchange center, SMS short message center, BP center and an Internet exchange center by E1 system with SS7 phone signaling protocol and TCP/IP protocol network and utilizing such measures to realize full-time total-direction combined information prompt service.
+

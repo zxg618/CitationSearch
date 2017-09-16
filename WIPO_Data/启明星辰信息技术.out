@@ -1,0 +1,2401 @@
+1. 106603334 一种IP地址监测方法及装置
+CN
+26.04.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102016001155838
+北京启明星辰信息安全技术有限公司
+李宝源
+H04L 12/26
+Loading...
+本发明提出一种IP地址监测方法，包括：接收包含被监测的IP地址信息的监测指令，以及接收需要监测所述IP地址的业务模块发送的，表征需要监测所述IP地址的信息；根据所述监测指令，向所述IP地址发送检测报文；如果在设定的时间间隔内，收到对应所述检测报文的响应报文，则确认所述IP地址处于有效状态；如果在设定的时间间隔内，没有收到对应所述检测报文的响应报文，则确认所述IP地址处于失效状态；将所述IP地址的状态信息发送给所述业务模块。采用本发明提出的IP地址监测方法，可以避免不同业务模块分别监测同一IP地址而造成重复监测及资源浪费，利于提升网络系统性能。
+2. 106603316 一种集群的部署方法、第一服务器和第二服务器
+CN
+26.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102017000069382
+北京启明星辰信息安全技术有限公司
+邹亚杰
+H04L 12/24
+Loading...
+本申请提供了一种集群部署的方法、第一服务器和第二服务器，在部署集群的主机服务器时，主机服务器需要部署的软件已经提前部署好，只需要在第一网卡连接到外接设备时，启动部署的软件即可，不再需要在集群的部署时，再为主机服务器部署软件。在部署集群的从机服务器时，从机服务器需要部署的软件已经提前部署好，只需要在第二网卡连接到主机服务器以及第一网卡未连接到外接设备时，启动部署的软件即可，不再需要在集群的部署时，再为从机服务器部署软件，使集群的部署过程变的简单。
+3. 106603471 一种防火墙策略检测方法及装置
+CN
+26.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000674523
+北京启明星辰信息安全技术有限公司
+闫卓旭
+H04L 29/06
+Loading...
+本发明公开了一种防火墙策略检测方法及装置，包括：在预定时间范围内从连接防火墙的交换机采集出入防火墙的流量；从所述流量中解析得到流信息；获取防火墙策略，确定每条防火墙策略对应的原子策略的数目，其中，所述原子策略指源网络协议(IP，Internet Protocol)地址、目的IP地址、目的端口以及协议不可分解的策略；针对每一条防火墙策略，根据解析得到的流信息确定与该防火墙策略匹配的流的总数，计算该防火墙策略的覆盖率，所述覆盖率由所述总数与该防火墙策略对应的原子策略的数目的比值确定，当该防火墙策略的覆盖率小于宽泛策略阈值时，判定该防火墙策略为宽泛策略。本发明公开的防火墙策略检测方法及装置，能够有效地检测防火墙策略中的宽泛策略。
+4. 106453120 一种动态集群方法和系统
+CN
+22.02.2017
+H04L 12/803 Loading...
+H04L 12/803
+Loading...
+201510475645.5
+北京网御星云信息技术有限公司
+王栋栋
+H04L 12/803
+Loading...
+本发明公开了一种动态集群控制方法和系统，包括：将全部主设备节点和从设备节点的节点信息进行同步；其中，节点信息包括预先为每个设备节点设置的节点号NID、优先级、静态网关IP地址和虚拟MAC地址；主设备节点和从设备节点是预先根据设备集群中每个设备节点的优先级，从全部设备节点中选取的。根据同步后的全部节点信息生成NID、静态网关IP地址与虚拟地址MAC地址的映射表，根据预定的负载均衡策略生成数据报文转发表。根据映射表和数据报文转发表，进行数据报文的转发。通过本发明的方案，能够实现局域网中只配置单个静态网关的情况下，高可用性设备集群中所有的设备根据权重动态地负载分担局域网中的流量。
+5. 106452811 一种故障排查方法和系统
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510484578.3
+北京网御星云信息技术有限公司
+朱志伟
+H04L 12/24
+Loading...
+本发明公开了一种故障排查方法和系统，包括：监控流经网络故障节点中各个功能模块的报文的处理流程；其中，该报文是根据网络故障节点的节点信息预先构造的，或者是从网络流量中预先抓取的。指示处理流程出现以下至少一种预定问题的功能模块进行自检；该预定问题包括：报文被丢弃，处理报文的延时大于或等于预设的延时阈值。根据自检结果确定故障原因，并确定故障原因对应的修复方法。通过本发明的方案，能够通过简单的配置来排查故障，给出详细的故障原因，并提供与之对应的修复方案，使故障的排查与修复更加简单可靠。
+6. 106452951 一种信息处理方法、装置及系统
+CN
+22.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610862431.8
+北京网御星云信息技术有限公司
+段熊春
+H04L 12/26
+Loading...
+本申请提供了一种信息处理方法、装置及系统，在本申请中，客户端和服务器可基于预先定义的管理协议进行通信，管理协议规定了协议命令格式和协议消息反馈格式，客户端获取用户的操作请求，将其处理成协议命令格式的协议命令发送至服务器，服务器从协议命令中解析出操作信息和操作参数，基于操作信息确定目标服务函数，利用目标服务函数和操作参数对虚拟机资源执行与操作信息对应的操作，将操作结果处理成协议消息反馈格式的协议消息反馈信息发送至客户端，客户端从协议消息反馈信息中解析出操作结果进行显示和/或存储。本申请既可实现对虚拟机的灵活控制，又可实现对虚拟资源的动态调整，并且，基于管理协议可以安全高效的实现数据传输。
+7. 106453434 一种网络流量的监测方法及监测系统
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611188192.9
+北京启明星辰信息安全技术有限公司
+李雪
+H04L 29/06
+Loading...
+本申请公开了一种网络流量的监测方法及监测系统，其中，网络流量的监测方法基于连接跟踪获取多个协议下的网络流量，并根据获取的用户查询指令对多个协议下的网络流量进行筛选，获得目标流量并对其进行显示的方式实现了对多个协议下的网络流量的监测和显示的目的，从而为用户或管理员在发现网络异常时分析网络攻击目标进而针对网络攻击目标采取针对性措施提供了可靠参考，大大提升了网络的安全性，同时提供和网络安全设备如防火墙等对报文有一定的联动性告警、上传日志、阻断等操作。进一步的，通过连接跟踪获取多个协议下的网络流量不需要设备特别支持某一特定的数据交换方式或数据类型，减少了对设备的依赖性。
+8. 103646078 一种实现互联网宣传监测目标评估的方法及装置
+CN
+25.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000676421
+北京启明星辰信息安全技术有限公司
+王君鹤
+G06F 17/30
+Loading...
+本申请公开了一种实现互联网宣传监测目标评估的方法及装置，包括：根据配置信息从选定的数据源中获取宣传监测目标的网页信息；对获取的各网页信息进行网站特征字分离，以获得相应的标题、正文、统计正文字数信息；对所述获得的各网页信息中的标题和正文进行分词处理且提取关键字，并分别计算宣传监测目标的各网页信息的信息量；根据各网页信息的信息量确定宣传监测目标的宣传力度信息。通过本发明获取选定的数据源的网页信息，对宣传监测目标网页信息进行网站特征字分离、分词处理，实现通过处理获得的信息，获取宣传力度信息，通过宣传力度信息的分析可以为企业进行文章投放提供有力的分析数据。
+9. 103678613 一种计算影响力数据的方法与装置
+CN
+25.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000693308
+北京启明星辰信息安全技术有限公司
+王君鹤
+G06F 17/30
+Loading...
+本发明公开了一种计算影响力数据的方法及装置；所述方法适用于社交网络，包括：以指定信息的标识作为输入，从预定的社交网络的服务器中爬取所述指定信息的用户操作数据；根据所爬取的所述用户操作数据计算每天的用户参与次数；分别计算每天的参与次数增长率；比较各相邻天的所述参与次数增长率，选出当天的所述参与次数增长率与前N天的参与次数增长率之差均大于第一预定阈值的日期、以及前M天的参与增长率均为负值，当天的所述参与次数增长率为正值且当天的用户参与次数大于第二预定阈值的日期。本发明能够提高社交网络的影响力数据的正确性和可靠性，更加符合实际情况。
+10. 106354100 一种应用于数控机床的运维审计方法和装置
+CN
+25.01.2017
+G05B 19/414 Loading...
+G05B 19/414
+Loading...
+102016001019885
+北京网御星云信息技术有限公司
+张帅
+G05B 19/414
+Loading...
+本发明提供一种应用于数控机床的运维审计设备，包括：处理器、以及分别与处理器连接的KVM接口、安全域网口和存储器。KVM接口模块连接运维电脑，安全域网口用于连接数控机床；处理器在接收到运维电脑的鼠标和/或键盘输出的操作命令时，将运维电脑的显卡输出的视频数据存储在存储器，同时通过对报文进行解析得到操作命令对应的运行指令及与运行指令对应的寄存器读写信息，并将运行指令和寄存器读写信息存储在存储器。这样通过同一时间内的运行指令和寄存器读写信息，加上录屏演示，实现现场运维的全操作审计，提高了数控机床的安全防护能力。
+11. 106302371 一种基于用户业务系统的防火墙控制方法和系统
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510323975.2
+北京网御星云信息技术有限公司
+高鹏
+H04L 29/06
+Loading...
+本发明公开一种基于用户业务系统的防火墙控制方法和系统，包括：接收客户端发送的包含业务系统标识和业务系统网络信息的网络请求信息。将业务系统标识与预置的业务安全访问控制策略中的业务系统标识相匹配。当在第一业务安全访问控制策略中找到匹配的业务系统标识时，检测第一业务安全访问控制策略中已经建立的网络连接中是否存在与业务系统网络信息相匹配的网络连接；根据检测结果以及第一业务安全访问控制策略中的相应操作指令，建立完成该操作指令的业务安全访问控制子策略。基于业务安全访问控制子策略处理业务系统向防火墙传输的报文。通过本发明的方案，能够实现基于用户业务系统的防火墙级别的安全访问控制，增强了用户安全管理的易用性。
+12. 106302555 一种网络入侵检测方法及装置
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610991854.X
+北京启明星辰信息安全技术有限公司
+周涛
+H04L 29/06
+Loading...
+本发明提供了一种网络入侵检测方法及装置，该方法包括：基于误用检测配置信息和分类器检测配置信息，对网络流量数据同时进行误用检测和分类器检测，得到表征各自检测结果的判断值；根据误用检测准确率和分类器检测准确率计算误用检测和分类器检测各自的权重值，即准确率越高，权重值越大；根据表征误用检测结果的第一判断值和表征分类器检测结果的第二判断值以及各自的权重值，可以得到表征同时检测结果的权值；依据权值与第一阈值的比较结果，生成表征同时检测结果的提示信息。基于上述公开的方法，实现了对网络流量数据同时检测，解决了单一检测技术的缺陷，提高了网络入侵检测的准确率，也减少了分析人员的工作量。
+13. 106257880 一种电磁屏蔽环境下的防火墙控制方法和系统
+CN
+28.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510338806.6
+北京网御星云信息技术有限公司
+高鹏
+H04L 29/06
+Loading...
+本发明公开了一种电磁屏蔽环境下的防火墙控制方法和系统，包括：检测预先安装于电磁屏蔽机柜柜门上的开关传感器的开关状态。根据开关传感器的开关状态判断电磁屏蔽机柜柜门的开关状态。根据电磁屏蔽机柜柜门的开关状态在防火墙中预设的一个或多个电磁安全转发策略中查找与电磁屏蔽机柜柜门的开关状态相匹配的电磁安全转发策略。根据相匹配的该电磁安全转发策略处理到达防火墙的网络报文。通过本发明的方案，能够实现在屏蔽机柜被打开的情况下保证防火墙传输信息的保密性。
+14. 106161116 一种虚拟网络的部署方法及装置
+CN
+23.11.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000862413
+北京网御星云信息技术有限公司
+张鹏
+H04L 12/24
+Loading...
+本申请提供了一种虚拟网络的部署方法及装置，应用于服务器，服务器包括多个物理网口，其中一物理网口作为物理管理网口，其它物理网口作为物理工作网口，方法包括：为物理管理网口创建openvswitch网桥作为openvswitch管理网桥，为各个物理工作网口创建openvswitch网桥作为openvswitch工作网桥；在创建虚拟机时，将为虚拟机添加的虚拟网口中，与物理管理网口对应的虚拟管理网口与openvswitch管理网桥关联，将与物理工作网口对应的虚拟工作网口与openvswitch工作网桥关联；通过openvswitch管理网桥为目标openvswitch工作网桥配置数据下发策略以指示目标openvswitch网桥将目标物理工作网口接收的多个用户的数据分别下发至对应用户的虚拟机的目标虚拟网口。本申请避免了多个租户之间的数据可能混淆，甚至出现安全隐患的问题。
+15. 106096406 一种安全漏洞回溯分析方法及装置
+CN
+09.11.2016
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201610371183.7
+北京启明星辰信息安全技术有限公司
+张延佳
+G06F 21/56
+Loading...
+本发明提供了一种安全漏洞回溯分析方法及装置。方法包括：采集网络中安全设备的日志数据和路由交换设备的Netflow数据；将采集到的日志数据和Netflow数据一同进行格式化处理，获得时序网络数据流；将获得的时序网络数据流存储于HDFS中；通过网络爬虫器获取到最新的安全漏洞数据，将所述安全漏洞数据转化为回溯分析规则；从HDFS中提取出时序网络数据流，并根据所述回溯分析规则计算得到受安全漏洞影响的IP资产相关数据；根据所述受安全漏洞影响的IP资产相关数据计算得到安全漏洞影响指数。本发明能够实现针对单一安全漏洞对特定企业网络的影响性进行动态分析，且本发明基于大数据的回溯分析来分析安全漏洞的潜在影响。
+16. 106034057 一种串联安全设备故障系统及方法
+CN
+19.10.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102015000121009
+北京启明星辰信息安全技术有限公司
+任健
+H04L 12/26
+Loading...
+本发明公开了一种串联安全设备故障检测系统及方法，包括：openflow控制器和openflow交换机；openflow控制器用于将发送的测试流通过openflow交换机传递给串联安全设备，控制测试流经过串联安全设备，并接收openflow交换机传递的测试流；当在预定的时间阈值内接收到测试流时，判定串联安全设备正常；当在预定的时间阈值内未接收到测试流时，判定串联安全设备故障。openflow交换机用于接收openflow控制器发送的测试流，并传递给与其连接的串联安全设备；并将经过串联安全设备的测试流传递给openflow控制器。通过本发明的方案，能够正确可靠的检测串联安全设备的各种故障问题，保证用户业务系统的高可靠性。
+17. 106034131 一种基于流Flow分析的业务合规检测方法和系统
+CN
+19.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000121139
+北京启明星辰信息安全技术有限公司
+申永彬
+H04L 29/06
+Loading...
+本发明公开了一种基于流Flow分析的业务合规审计方法和系统，包括：通过镜像抓包获取Flow或接收其他系统发出的Flow。通过标准化将各种Flow转化成同一种格式的标准流VFlow，记录VFlow的流属性信息。通过流重组将VFlow聚合成会话，记录会话的会话对象属性信息，会话对象属性信息基于VFlow的流属性信息得到。基于设定的流合规检测策略对该会话进行业务合规检测。通过本发明的方案，能够面对大数据，从宏观层面检测多种违规行为。
+18. 106034056 一种业务安全分析的方法和系统
+CN
+19.10.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510119606.1
+北京启明星辰信息安全技术有限公司
+郜小亮
+H04L 12/26
+Loading...
+本发明公开了一种业务安全分析的方法和系统，包括：接收网络设备发送的Netflow数据，同时主动采集全网络流量数据；对采集的流量数据进行解析并生成Netflow数据；并对获得的Netflow数据进行流量过滤、流量聚合和特征提取，对经过流量过滤、流量聚合和特征提取操作后的Netflow数据使用威胁检测技术进行威胁检测，将检测结果保存到黑、白、灰名单中，并以业务视图的形式展现Netflow数据的检测结果；结合业务数据对检测结果进行关联分析，实时获取业务系统的安全状态。通过本发明的方案，能够在复杂网络环境中，对异常流量进行精确分析。
+19. 106027508 一种认证加密的数据传输方法及装置
+CN
+12.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610311711.X
+北京网御星云信息技术有限公司
+付翠花
+H04L 29/06
+Loading...
+本发明公开了一种认证加密的数据传输方法及装置，用于实现在有NAT设备的网络环境中自由应用L2tp over IPSec技术，该方法包括：接收第一L2tp over IPSec数据包，第一L2tp over IPSec数据包为经过L2tp封装、IPSec封装以及经过网络地址转换设备进行地址转换后的L2tp over IPSec数据包；记录第一L2tp over IPSec数据包中的源端口号；对第一L2tp over IPSec数据包进行IPSec解封装获得第一L2tp数据包；将第一L2tp数据包中的源端口号转换为第一L2tp over IPSec数据包中的源端口号，生成第二L2tp数据包；对第二L2tp数据包进行L2tp解封装后发送给目标设备。
+20. 106021576 信息处理方法、关联插件、WEB服务器及系统
+CN
+12.10.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610379919.5
+北京启明星辰信息安全技术有限公司
+姜天宇
+G06F 17/30
+Loading...
+本发明实施例公开了一种信息处理方法、关联插件、WEB服务器及系统，监测到超文本传输协议请求时，生成唯一关联标识，将该唯一关联标识追加到基于该超文本传输协议请求触发的数据库操作语句中，当需要进行数据库审计时，可以通过数据库操作语句中的唯一关联标识进行信息关联。可见，本发明实施例提供的信息处理方法、关联插件、WEB服务器及系统，通过唯一关联标识而非用户信息和业务信息进行数据关联，由于唯一标识的数据量远远小于用户信息和业务信息的数据量，从而降低了对服务器的损耗。
+21. 105991623 一种业务互联关系审计方法和系统
+CN
+05.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000098835
+北京启明星辰信息安全技术有限公司
+张延佳
+H04L 29/06
+Loading...
+本发明一种业务互联关系审计方法和系统包括：通过流量镜像采集虚拟交换和实体交换机中的原始流量数据。根据原始流量数据构建业务流信息数据协议AppFlow。对业务流信息数据协议AppFlow持续计算以构建业务互联通讯对列表list；当业务互联通讯对的数量超过第一阈值时，对业务互联通讯对list进行压缩。根据压缩后的业务互联通讯对list构建特征值基线，基于特征值基线判断增加的新的业务互联通讯对是否为异常互联；如果是异常互联，则进行异常互联报警；如果是正常互联，则更新特征值基线。基于异常互联告警的次数和严重等级获得业务互联指数，作为业务互联的整体审计指标。通过本发明的方案，能够在复杂多变的云环境下，提供全面、可靠的信息安全防护。
+22. 105991517 漏洞发掘方法和装置
+CN
+05.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510044024.1
+中国信息安全测评中心
+谢丰
+H04L 29/06
+Loading...
+本发明提供了一种漏洞发掘方法和装置。涉及工作控制网络安全领域；解决了目前的测试方案无法发掘多个输入元素共同引进的漏洞的问题。该方法包括：计算造成漏洞的畸形数据的权值；构造多维测试用例；运行所述多维测试用例，以所述畸形数据为输入进行测试；在发掘到漏洞时，将造成该漏洞的畸形数据的权值设为最大。本发明提供的技术方案适用于FUZZ技术，实现了多维漏洞的发现。
+23. 105955749 软件项目的持续集成方法和装置
+CN
+21.09.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201610304929.2
+北京启明星辰信息安全技术有限公司
+徐天豪
+G06F 9/44
+Loading...
+本发明公开一种软件项目的持续集成方法和装置。所述方法包括：每隔预设时间检测版本管理系统内的软件项目代码的状态；若所述软件项目代码发生更新，对更新后的所述软件项目代码进行编译，生成软件项目文件；将所述软件项目文件发送至设定服务器，启动所述软件项目文件；对所述软件项目文件进行自动化测试，生成测试日志。应用本发明提供的技术方案，能够很好的提升软件项目持续集成的集成效率。
+24. 105959275 安全一体机系统
+CN
+21.09.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610266520.6
+北京启明星辰信息安全技术有限公司
+杨聪毅
+H04L 29/06
+Loading...
+本发明公开一种安全一体机系统，包括：安全一体机硬件平台，用于对所述安全一体机系统的整个系统架构提供计算、存储和网络支持；至少两个安全产品虚拟机，以及安全一体机系统模块；所述安全产品虚拟机，用于运行在所述安全一体机系统模块的环境中，提供完整的安全产品功能；所述安全一体机系统模块，用于提供所述安全一体机系统的硬件控制，所述安全产品虚拟机运行的环境，以及对所述安全一体机系统的整体控制。本发明提供的技术方案，能够实现综合成本明显降低，从而更加有利于推广和应用。
+25. 105871638 一种网络安全控制方法及装置
+CN
+17.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610391325.6
+北京启明星辰信息安全技术有限公司
+张延佳
+H04L 12/24
+Loading...
+本发明提供一种网络安全控制方法及装置，在获取到工控网络中任意一个待监测的业务交互元数据对象后，均可以基于自身记录的交互信息得到对应的响应指标实测值，并根据交互信息，从工控网络交互基线中获取与自身对应的响应指标基线值，进而基于响应指标实测值与响应指标基线值的偏离范围与预设范围的比较来指示待监测的业务交互元数据对象对应的IP对之间的业务是否正常，实现对工控网络中IP对之间的业务的自动监测，因此当待监测的业务交互元数据对象对应的IP对之间的业务异常的情况下，提升IP对之间通信的安全性，以此提高工控网络的信息安全。
+26. 103354530 虚拟化网络边界数据流汇聚方法及装置
+CN
+10.08.2016
+H04L 12/891 Loading...
+H04L 12/891
+Loading...
+102013000303538
+北京启明星辰信息技术股份有限公司
+李陟
+H04L 12/891
+Loading...
+本发明公开了一种虚拟化网络边界数据流汇聚方法及装置，涉及信息安全技术领域。本发明公开的装置中：安全策略模块，维护管理不同租户的网络边界安全策略；虚拟化网络数据流捕获模块，监听虚拟交换机上的网络数据流，捕获安全策略指定网络接口的数据包；网络边界数据流过滤网模块，根据各租户的网络边界安全策略，为各租户分别建立基于网络数据流过滤的过滤网，以及将捕获的网络数据包通过此数据包对应的租户的过滤网进行过滤，将过滤后得到的属于该租户的安全域边界的网络数据流进行封装，并发送给该租户对应的网络安全产品。本发明还公开了一种虚拟化网络边界数据流汇聚方法。本申请技术方案有效解决了多租户环境下虚拟化网络安全域边界网络数据流的汇聚问题。
+27. 105847236 一种防火墙安全策略配置方法和装置、以及防火墙
+CN
+10.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000146206
+北京网御星云信息技术有限公司
+贾涛
+H04L 29/06
+Loading...
+本申请公开的防火墙安全策略配置方法和装置、以及防火墙，从网络环境中获取数据包，分析数据包，得到协议信息和数据信息，将数据信息与资产模型库进行匹配，得到资产信息，将资产信息和协议信息，与策略模型库进行匹配，得到与资产信息和协议信息对应的防火墙安全策略。通过资产模型库对资产进行识别，通过策略模型库获取资产信息和协议信息对应的防火墙安全策略，自动配置防火墙安全策略，避免防火墙安全策略配置中出现策略遗漏、策略错误和策略冗余等问题。
+28. 103312679 高级持续威胁的检测方法和系统
+CN
+27.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102012000068888
+北京启明星辰信息技术股份有限公司
+孙海波
+H04L 29/06
+Loading...
+本发明提供一种高级持续威胁的检测方法和系统。所述方法，包括：获取高级持续威胁的各攻击场景所包括的攻击步骤以及用于判断每个攻击步骤前后攻击步骤是否存在的关联规则，其中每个攻击步骤对应多个不同的能够实现该攻击步骤的事件；获取网络入侵的检测结果，记录网络中发生的报警事件；如果报警事件为某一攻击场景中攻击步骤所对应的事件，则触发高级持续威胁的检测流程，对得到的攻击序列进行处理，将得到的处理结果作为高级持续威胁信息进行输出。
+29. 105791039 一种基于特征片段自发现的可疑隧道检测方法与系统
+CN
+20.07.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102014000811870
+北京启明星辰信息安全技术有限公司
+侯伟
+H04L 12/26
+Loading...
+本发明公开了一种基于特征片段自发现的可疑隧道检测方法和系统，包括基于特征片段锁定算法锁定特征片段集合并找出最邻近片段集合；在可疑隧道检测过程中，实时提取元数据片段，基于片段间最小距离搜索算法分别计算元数据片段与特征片段集合和最邻近片段之间的最小距离，计算可疑元数据片段的判定参数，当判定参数的结果小于零时，判定元数据片段为可疑片段并报警；当大于或等于零时，为非可疑片段。通过本发明的方案，能够同时具备误用检测技术的自解释能力和异常检测技术的发现未知可疑隧道的优点，避免了网络安全专家的大量精力投入，回避了统计特征被平均化的问题。
+30. 105743992 信息处理方法及装置
+CN
+06.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610202380.6
+北京启明星辰信息安全技术有限公司
+韩超
+H04L 29/08
+Loading...
+本发明实施例公开了一种信息处理方法及装置，抓取镜像网络数据包；基于网络通信协议对镜像网络数据包进行解析，获取数据内容；基于数据内容中数据的类型对数据内容进行模板化处理，得到业务操作特征；将业务操作特征与预定义的业务操作特征模板进行匹配，确定业务操作特征的业务定义。可见，本发明实施例提供的信息处理方法及装置，基于实际数据内容中的数据类型对数据内容模板化，考虑了实际环境，从而提高业务操作特征识别的准确性。
+31. 105681250 一种僵尸网络分布式实时检测方法和系统
+CN
+15.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410655378.5
+中国信息安全测评中心
+胡卫华
+H04L 29/06
+Loading...
+本发明公开了一种僵尸网络分布式实时检测方法和系统，包括：数据生成组件生成网络流量元数据Netflow信息，并发送给数据检测组件；数据检测组件的检测模型训练单元从经过标注的训练数据中提取多个训练检测特征，建立作为实时检测单元的检测标准的检测模型；数据检测组件的实时检测单元接收实时发送的Netflow信息，并提取多个检测特征，与上述检测模型进行比较，当比较结果匹配时，得出包括检测对象标识符的告警信息，将所述告警信息与主机黑白名单比较，得出确认受控僵尸主机和可疑受控僵尸主机。本发明的方案既可以应用在千兆流量的企业网，又可以应用到ISPs网络中；提高了僵尸网络检测的总体检测性能。
+32. 105635046 一种数据库命令行过滤、阻断审计方法和装置
+CN
+01.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410588938.X
+北京启明星辰信息安全技术有限公司
+胡文广
+H04L 29/06
+Loading...
+本发明提出一种数据库命令行过滤、阻断审计方法和装置。该方法和装置包括：审计引擎将数据库操作事件送入专用的结构化查询语言SQL语句解析模块；对数据库事件的SQL语句操作进行实时捕获、识别、分类；并将SQL语句的关键信息数据包发送至检测模块；检测模块将SQL语句的关键信息数据包与审计策略生成模块中预定义的阻断策略相比较；检出SQL语句的关键信息数据包中的非法关键信息和合法关键信息；将非法关键信息发送至数据包修改模块进行修改，将合法关键信息发送至数据包转发模块进行转发；非法关键信息修改为合法关键信息后被发送至数据包转发模块进行转发。通过本发明能够保证对于特定的SQL语句的阻断，而不会断开整个链接。
+33. 105635045 一种基于驱动零拷贝模式系统下的tcpdump抓包实现方法和装置
+CN
+01.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410588528.5
+北京启明星辰信息安全技术有限公司
+柴忠
+H04L 29/06
+Loading...
+本发明公开了一种基于驱动零拷贝模式系统下的传输控制协议捕获tcpdump抓包实现方法和装置，该方法和装置包括：系统加载零拷贝网卡驱动；控制工具控制网卡驱动开启或关闭tcpdump抓包工作模式；当开启tcpdump抓包工作模式时，网卡驱动将数据包放入到应用收包队列后，拷贝该数据包并进行标记，然后将拷贝的数据包发送给内核协议栈的收包队列；数据包经过内核协议栈，tcpdump工具捕获该数据包。本发明方案能够使得数据包处理过程中既能完全复用tcpdump工具的过滤、输出等全部功能，为网络数据包采集和分析提供有力工具，降低改造成本，还可以保证不影响系统其他功能模块的正常工作。
+34. 105530243 一种网络攻击事件定量分级算法的实现方法
+CN
+27.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510884075.5
+中国南方电网有限责任公司信息中心
+梁志宏
+H04L 29/06
+Loading...
+本发明的目的在于提供一种网络攻击事件定量分级算法的实现方法，本方法采集安全设备报送的网络攻击事件，采用正则表达算法获得网络攻击定性分级值(pv)，实时采集网络镜像流量并根据流量分析算法获得攻击事件相关的会话信息，基于攻击事件的全网影响比率计算网络攻击定量分级值(cv)；从而最终实现攻击事件的定量分级。本方法实现了对安全设备产生的安全事件进行定量分级计算，解决了当前安全事件分级不精确、不统一的问题。为安全决策提供有效可靠的依据。
+35. 105471880 一种可容错的分布式安全事件数据传输协议的实现方法
+CN
+06.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510884097.1
+中国南方电网有限责任公司信息中心
+樊凯
+H04L 29/06
+Loading...
+本发明的目的在于提供一种可容错的分布式安全事件数据传输协议的实现方法。本发明采用分布式集群方式处理安全事件，采用定期选举机制确定集群中的事物节点，保证消息数据的事务性；集群中各个节点采用消息队列机制，保证安全事件处理的并行与可扩展；从而实现了可容错的安全事件传输机制。本方法包括如下步骤：A、对于全网的安全事件采用事件处理分布式集群的方式进行；B、所述事件处理集群会定期选举事物节点称为Transactional；C、事物节点Transactional选举的评分因素；D、一个Performer节点可以并行处理多个Performer节点的安全事件传输请求；E、Performer节点处理消息信息。
+36. 105468765 一种多节点web服务异常检测方法和系统
+CN
+06.04.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510884649.9
+中国南方电网有限责任公司信息中心
+吕华辉
+G06F 17/30
+Loading...
+本发明的目的在于提供一种多节点web服务异常检测系统，包括元数据采集模块、元数据索引模块、web服务异常检测模块和web服务异常定位模块；元数据采集模块获取全网各节点web服务器日志元数据；元数据索引模块对不同种类web服务器的异构日志进行格式化；web服务异常检测模块周期性计算各个web服务器节点的错误日志比率；web服务异常定位模块通过web元数据索引检索异常web服务在故障时间点的所有日志元数据。本发明创新性的采用web日志元数据技术，基于数据视角，采用大数据全文检索技术，对web服务系统性能进行实时分析与关联性分析，从而对web服务系统有全面的掌控。
+37. 105337789 一种监控虚拟网络流量的方法和装置
+CN
+17.02.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410394892.8
+北京启明星辰信息安全技术有限公司
+李陟
+H04L 12/26
+Loading...
+本发明公开了一种监控虚拟网络流量的方法和装置，应用于KVM虚拟化环境中基于Linux？Bridge实现的虚拟网络，预先在虚拟网络的宿主系统上设置监控代理，并将宿主系统中的Linux？Bridge的工作模式设置为混杂模式；其中，监控代理用于捕获连接多台虚拟机的Linux？Bridge的二层数据包；该方法包括：监控代理捕获所有通过Linux？Bridge的二层数据包；监控代理判断出需要对捕获的数据包进行安全监控，将捕获的数据包发送给安全虚拟机。本发明通过监控代理在捕获到通过Linux？Bridge的二层数据包后，将需要进行安全监控的数据包发送给安全虚拟机进行安全检测，从而实现对虚拟网络流量进行监控。
+38. 105320585 一种实现应用故障诊断的方法及装置
+CN
+10.02.2016
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201410324069.X
+北京启明星辰信息安全技术有限公司
+谌颐
+G06F 11/30
+Loading...
+本发明公开了一种实现应用故障诊断的方法及装置，包括：采集多维应用数据；当业务应用发生异常时，对采集到的多维应用数据从业务异常的时间和空间关联关系中、根据业务异常类型获取业务异常涉及到的关联诊断数据；将获取的业务异常涉及到的关联诊断数据，分别与各关联诊断数据的历史诊断数据进行比较，确定应用故障类型。本发明通过多维应用数据对业务应用异常进行故障诊断，避免了采用单一的数据对故障进行诊断造成的终端单一的问题，更全面地对业务故障进行确定，解决业务异常问题。
+39. 105095318 一种实现热点分析的方法和装置
+CN
+25.11.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410220033.7
+北京启明星辰信息安全技术有限公司
+胡海雷
+G06F 17/30
+Loading...
+本发明公开了一种热点分析的方法和装置，包括：在统计周期内，根据至少一个事件的属性对事件集合进行统计分类，得到由不同事件类组成的统计结果；根据至少一个事件类的属性，将得到的统计结果中的事件类逐一映射到不同事件块的相应事件子块中；根据得到的映射结果，计算各事件块中每个事件子块的聚合度偏差；根据计算出的事件子块的聚合度偏差以及预先设置的热点判断策略，确定每个事件块中的热点。通过本发明提供的技术方案，基于所定义的事件类的聚合度，有效改进了热点分析的计算复杂度，从而很好地满足了对大量的、多种类型的、快速出现的数据进行热点分析的需求。
+40. 105024969 一种实现恶意域名识别的方法及装置
+CN
+04.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410155997.8
+北京启明星辰信息安全技术有限公司
+侯伟
+H04L 29/06
+Loading...
+本发明公开了一种实现恶意域名识别的方法及装置，包括：提取域名系统（DNS）域名的动态特征集合，通过动态特征的恶意域名可信判断模型对动态特征集合进行动态特征的恶意域名高可信判断；根据动态特征集合的恶意域名高可信判断结果，确定DNS域名是否为恶意域名，并将是否为恶意域名确定的结果存到相应的黑名单、或白名单中；动态特征集合至少包含：与IP相关的特征、和/或权威DNS服务器主域名一致率。本申请的技术方案实现了根据动态特征集合进行恶意域名确定；通过静态特征高可信判断和动态特征高可信判断，提高了恶意域名的识别效率。
+41. 104978521 一种实现恶意代码标注的方法及系统
+CN
+14.10.2015
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201410142940.4
+北京启明星辰信息安全技术有限公司
+曲武
+G06F 21/56
+Loading...
+本发明公开了一种实现恶意代码标注的方法及装置，包括：将恶意代码的可移植的执行体（PE）文件进行处理，获取恶意代码的信息摘要签名和基准标注和纹理特征；根据基准标注及信息摘要签名，将属于同一恶意代码家族的纹理特征生成相应的纹理特征集合；根据纹理特征集合生成第一聚类簇，将第一聚类簇进行合并以生成第二聚类簇，结合信息摘要签名及恶意代码家族深度命名对第二聚类簇进行深度标注。本发明通过对恶意代码进行基准标注和深度标度，采用信息摘要签名及恶意代码家族深度命名，规范了各恶意代码家族的标注方法，提高了对恶意代码标注的准确性和通用性。
+42. 104978522 一种检测恶意代码的方法和装置
+CN
+14.10.2015
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201410142983.2
+北京启明星辰信息安全技术有限公司
+曲武
+G06F 21/56
+Loading...
+本发明公开了一种检测恶意代码的方法和装置，预先建立恶意代码样本数据库，所述恶意代码样本数据库包括已知恶意代码的可移植的执行体PE文件的信息摘要；预先建立布隆过滤器Bloom-Filter索引结构；该方法包括：获取待测代码的PE文件的信息摘要；当判断出获得的信息摘要和恶意代码样本数据库中的已知恶意代码的PE文件的信息摘要不匹配时，获取所述待测代码的PE文件的纹理指纹；根据预先建立的Bloom-Filter索引结构对获得的纹理指纹进行检测，并返回第一检测报告，所述第一检测报告至少包括所述待测代码是否为恶意代码的检测结果。本发明能够弥补静态检测方法无法检测未知的恶意代码及其变种的问题。
+43. 103678613 Method and device for calculating influence data
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310693308.4
+BEIJING VENUSTECH CO., LTD.
+WANG JUNHE
+G06F 17/30
+Loading...
+The invention discloses a method and device for calculating influence data. The method is applied to a socializing network. The method includes the following steps that an identification of designated information serves as the input, and user operation data of the designated information are extracted from a server of the preset socializing network; according to the extracted user operation data, the daily number of user involvement times is calculated; the involvement time number growth rate of each day is calculated; the involvement time number growth rates of adjacent days are compared, days which conform to the situation that differences between the involvement time number growth rates of the same days and the involvement time number growth rates of N days before are larger than the first preset threshold value are selected and days which conform to the situation that the involvement time number growth rates of M days before are negative values, the involvement time number growth rates of the same days are positive values and in addition, the involvement time numbers of the same days are larger than the second preset threshold value are selected. According to the method and device for calculating the influence data, correctness and reliability of the influence data of the socializing network can be improved and real conditions can be better met.
+44. 103685608 Method and device for automatically configuring IP (Internet Protocol) address of security virtual machine
+CN
+26.03.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310723045.7
+BEIJING VENUSTECH CO., LTD.
+LI ZHI
+H04L 29/12
+Loading...
+The invention relates to a method and a device for automatically configuring IP (Internet Protocol) address of a security virtual machine, which is used for management and configuration process of a virtual security management center to the security virtual machine. The method or the device comprises the following steps: amending a template of the security virtual machine, including adding or selecting first virtual network card equipment and setting the first virtual network card equipment to be not enabled, and adding a Media Access Control (MAC) address to a configuration item of the first virtual network card equipment, setting a part of the MAC address to be protocol identification information and setting the other part of the MAC address to be IP (Internet Protocol) address of a management port needing configuration; after the security virtual machine is started, identifying the first virtual network card equipment according to the protocol identification information, reading the IP address from the MAC address of the first virtual network card equipment, and configuring the IP address onto a target virtual network card used by the management port. Through the scheme, the deployment of a virtual security product and the management authority distribution of a virtual platform can be simplified.
+45. 103647794 Data correlation method based on J2EE platform and correlation plug-in
+CN
+19.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310753027.3
+BEIJING VENUSTECH CO., LTD.
+DONG XUELIN
+H04L 29/06
+Loading...
+The invention discloses a data correlation method based on a J2EE platform and a correlation plug-in, and relates to security audit technology. The method disclosed by the invention comprises the steps that when a WEB application server receives a service request triggered by a login user, a correlation plug-in obtains and stores the correlation information of the service request, wherein the correlation information comprises user information and service information corresponding to the service request; when the WEB application server requests data from a database according to the service request, the correlation plug-in correlates the correlation information of the stored service request in an SQL (Structured Query Language) sentence in an annotation manner and transmits the SQL sentence containing the correlation information to a switch in a database protocol packet manner. The invention also discloses the correlation plug-in. The technical scheme of the application is accurate service audit technology based on J2EE platform, which is used for accurately correlating the application user login information with service action information, and the accuracy of correlation degree reaches 100%.
+46. 103646078 Method and device for realizing internet propaganda monitoring target evaluations
+CN
+19.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310676421.1
+BEIJING VENUSTECH CO., LTD.
+WANG JUNHE
+G06F 17/30
+Loading...
+The invention discloses a method and a device for realizing internet propaganda monitoring target evaluations. The method comprises the steps as follows: obtaining web page information of a propaganda monitoring target from a selected data source according to configuration information; performing website tagged word separation on each piece of obtained web page information to obtain a corresponding title, a text and statistic text word number information; performing segmentation and extraction of keywords on the title and the text of each piece of obtained web page information, and calculating the information amount of each piece of web page information of the propaganda monitoring target; and determining propaganda force information of the propaganda monitoring target according to the information amount of each piece of web page information. According to the method and the device, the web page information of the selected data source is obtained, the website tagged word separation and the segmentation are performed on the web page information of the propaganda monitoring target, the propaganda force information is obtained through processing the obtained information, and powerful analytical data can be provided to enterprises for article release through analysis of the propaganda force information.
+47. 103647665 Network flow curve analysis method and apparatus
+CN
+19.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310684985.X
+BEIJING VENUSTECH CO., LTD.
+HOU WEI
+H04L 12/24
+Loading...
+The invention relates to the field of information security, and provides a network flow curve analysis method and apparatus, for solving the problem of analyzing network flow change rules. The method comprises: according to a flow curve to be assessed, selecting from historical data a modeling sample; by taking the modeling sample as a training sample, constructing a model; and according to the model, assessing the irrelevance of the flow curve to be assessed. The technical scheme provided by the invention is applied to network situation analysis and realizes analysis of a network flow with high randomness.
+48. 103309882 一种多模式下匹配字符串的方法及系统
+CN
+18.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210064914.5
+北京启明星辰信息技术股份有限公司
+许金鹏
+G06F 17/30
+Loading...
+本发明公开了一种多模式下匹配字符串的方法及系统，涉及互联网技术领域。本发明公开的方法包括：存储模式集信息，所述模式集信息至少包括各关键字的长度和其首字母序号；当接收到字符串时，从所接收的字符串中提取出待匹配字，然后从所存储的模式集信息中查找长度和首字母序号与所述待匹配字的长度和首字母序号均相同的关键字，将所查找到的关键字与待匹配字比较，若比较结果一致，则此待匹配字匹配成功，否则匹配失败。本发明还公开了一种多模式下匹配字符串的系统。本申请技术方案通过构建hash表提供了一种快速匹配字符串的匹配方案，尤其针对小规模的模式集，通过对欲匹配字符串进行筛选，可以用极少的匹配次数完成字符串准确匹配。
+49. 103312679 高级持续威胁的检测方法和系统
+CN
+18.09.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210068888.3
+北京启明星辰信息技术股份有限公司
+孙海波
+H04L 29/06
+Loading...
+本发明提供一种高级持续威胁的检测方法和系统。所述方法，包括：获取高级持续威胁的各攻击场景所包括的攻击步骤以及用于判断每个攻击步骤前后攻击步骤是否存在的关联规则，其中每个攻击步骤对应多个不同的能够实现该攻击步骤的事件；获取网络入侵的检测结果，记录网络中发生的报警事件；如果报警事件为某一攻击场景中攻击步骤所对应的事件，则触发高级持续威胁的检测流程，对得到的攻击序列进行处理，将得到的处理结果作为高级持续威胁信息进行输出。
+50. 103077071 一种KVM虚拟机进程信息的获取方法及系统
+CN
+01.05.2013
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+201210593535.5
+北京启明星辰信息技术股份有限公司
+李陟
+G06F 9/455
+Loading...
+本发明公开了一种KVM虚拟机进程信息的获取方法及系统，涉及信息安全技术领域。本发明公开的系统包括：系统调用截获模块，截获Qemu?kvm发起的IOCTL系统调用，并将该调用的参数发送给内省API驱动模块；内省API驱动模块，替代Qemu?kvm向KVM发起IOCTL系统调用，记录KVM响应调用的vcpu并返回给Qemu?kvm，获取正在运行中的虚拟机中的进程和寄存器的相关信息，并对所获取的相关信息进行结构化处理后通过进程扫描接口暴露给外部程序，以及接收由外部程序发起的扫描命令，通过vcpu向KVM发起该请求。本发明还公开了一种KVM虚拟机进程信息的获取方法。本申请技术方案可以在不修改Qemu?kvm和KVM代码的前提下，透明的实现对其上运行的虚拟机中的进程信息的内省。
+51. 103065086 应用于动态虚拟化环境的分布式入侵检测系统及方法
+CN
+24.04.2013
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201210566928.7
+北京启明星辰信息技术股份有限公司
+叶润国
+G06F 21/55
+Loading...
+本发明提供了一种应用于动态虚拟化环境的分布式入侵检测系统及方法，该系统包括检测管理中心和位于物理服务器上的入侵检测引擎，其中：所述检测管理中心，用于获得当前虚拟机迁移前后所属的源物理服务器信息和目标物理服务器信息，通过虚拟化平台中的虚拟化管理服务器对源物理服务器上的入侵检测引擎进行停止入侵检测配置和对目标物理服务器上的入侵检测引擎进行开始入侵检测配置；所述入侵检测引擎，用于在配置了开始入侵检测安全策略后对对应的物理服务器上的特定虚拟机进行入侵检测，在配置了停止入侵检测安全策略后，停止对对应物理服务器上的特定虚拟机进行入侵检测。本发明可实现对虚拟机的连续监控。
+52. 103067380 一种虚拟安全设备的部署配置方法及系统
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210576755.7
+北京启明星辰信息技术股份有限公司
+刘新刚
+H04L 29/06
+Loading...
+本发明公开了一种虚拟安全设备的部署配置方法及系统，克服目前虚拟化技术对安全的支持较为有限以及安全设备的集中管理能力有待提高的不足，该系统中的安全管理配置中心从虚拟化管理中心获取虚拟计算环境的拓扑信息，从虚拟安全产品器件库获取可参与部署的虚拟安全设备的设备信息，将拓扑信息及设备信息展示给用户；接收用户选择需要部署的虚拟安全设备；根据需要部署的虚拟安全设备的类型引导用户输入部署参数并生成配置文件；调用虚拟化管理中心对需要部署的虚拟安全设备进行部署，并根据配置文件对需要部署的虚拟安全设备进行配置。本申请的实施例可与现有的虚拟机管理平台紧密结合，实现虚拟安全产品的自动部署、集中管理和便捷配置。
+53. 103067356 保障业务虚拟机安全的系统及方法
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210535414.5
+北京启明星辰信息技术股份有限公司
+叶润国
+H04L 29/06
+Loading...
+本发明提供了一种保障业务虚拟机安全的系统及方法，该系统包括安全管理中心和位于物理服务器上的一一对应的业务虚拟机和安全虚拟机，其中：所述安全管理中心，用于获得当前业务虚拟机迁移前后所属的源物理服务器信息和目标物理服务器信息，将当前业务虚拟机对应的安全虚拟机同步迁移到目标物理服务器上，并通过虚拟化平台中的虚拟化管理服务器向所述当前业务虚拟机对应的安全虚拟机发送安全策略；所述安全虚拟机，用于接收来自所述安全管理中心的所述安全策略，根据所述安全策略对对应的业务虚拟机进行实时安全监控。本发明通过在所关注的业务虚拟机发生迁移时，将对应的安全虚拟机同步迁移到目标物理服务器上，实现了对业务虚拟机的不间断监控。
+54. 103051479 虚拟机网络控制策略的迁移处理方法及系统
+CN
+17.04.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210567450.X
+北京启明星辰信息技术股份有限公司
+胡振宇
+H04L 12/24
+Loading...
+本发明提供了一种虚拟机网络控制策略的迁移处理方法及系统，该迁移处理方法包括：接收并处理迁出物理主机的虚拟交换机上的当前虚拟机迁出消息；处理所述迁出物理主机的虚拟交换机上的数据转发规则，使所述迁出物理主机的虚拟交换机上不存在当前虚拟机的数据转发规则；接收并处理迁入物理主机的虚拟交换机上的当前虚拟机迁入消息；处理所述迁入物理主机的虚拟交换机上的数据转发规则，使所述当前虚拟机的数据转发规则迁到所述迁入物理主机的虚拟交换机上。本发明通过对虚拟机迁移消息的监控以及对虚拟交换机数据转发规则的修改，使虚拟机在不同的物理主机上迁移时，能够保持其对应的网络策略不变，从而为虚拟机提供连续一致的网络控制报务。
+55. 103020543 一种虚拟磁盘映像加密管理系统及方法
+CN
+03.04.2013
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+201210593481.2
+北京启明星辰信息技术股份有限公司
+汪宏
+G06F 21/62
+Loading...
+本发明公开了一种虚拟磁盘映像加密管理系统及方法，涉及信息安全技术领域。本发明公开的系统至少包括：虚拟机加密磁盘映像管理代理，向所述对称密钥管理中心请求获取密钥信息，根据所获取的密钥信息，生成虚拟机加密磁盘映像，并根据用户操作管理虚拟机加密磁盘映像；对称密钥管理中心，收到所述虚拟机加密磁盘映像管理代理的请求时，将虚拟机加密磁盘映像的密钥信息发送给所述虚拟机加密磁盘映像管理代理。本发明还公开了一种虚拟磁盘映像加密管理方法。本申请技术方案保护整个虚拟机磁盘映像的安全，从而保护云或虚拟化环境下用户的数据安全。并且，方便了云或虚拟化管理中心对加密虚拟机磁盘映像的管理。
+56. 103023704 虚拟网络服务设备接入方法及系统
+CN
+03.04.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210566912.6
+北京启明星辰信息技术股份有限公司
+胡振宇
+H04L 12/24
+Loading...
+本发明提供了一种虚拟网络服务设备接入方法及系统，其中，该虚拟网络服务设备接入方包括：获得当前虚拟机在虚拟交换机上的端口号；获得接入到虚拟交换机上的网络服务设备所在的端口号；以及，查找所述虚拟交换机上所述当前虚拟机的数据转发规则，如果查找到所述当前虚拟机的数据转发规则，则根据所述网络服务设备所在的端口号修改所述数据转发规则并写入新的数据转发规则，如果没有查找到所述当前虚拟机的数据转发规则，则为所述当前虚拟机生成并写入新的数据转发规则。本发明通过对虚拟交换机上的数据转发规则的处理，使虚拟机的网络流量被导引到网络服务设备上，经由网络服务设备处理后再转发给目标设备，从而为虚拟机的网络流量监控提供服务。
+57. 103001811 故障定位方法和装置
+CN
+27.03.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210594148.3
+北京启明星辰信息技术股份有限公司
+张延佳
+H04L 12/24
+Loading...
+本发明提供了一种故障定位方法和装置。涉及计算机网络应用领域；解决了现有告警关联规则挖掘系统时效性较差、效率较低的问题。该方法包括：构建网元拓扑约束模型；检测被管网络中各个网元设备的运行状态，以发现故障事件；采集故障事件；利用所述网元拓扑约束模型，对采集到的故障事件进行时间层关联和空间层关联，确定故障位置。本发明提供的技术方案适用于故障诊断，实现了高效准确的故障定位。
+58. 102915347 一种分布式数据流聚类方法及系统
+CN
+06.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210365295.3
+中国信息安全测评中心
+吴世忠
+G06F 17/30
+Loading...
+本发明公开了一种分布式数据流聚类方法及系统，克服目前大多数的数据流聚类算法不能在分布式云环境下运行并不能轻易地进行扩展，运行时间效率较差的不足，该方法包括：对数据流进行概要处理，获得数据流的多个特征向量；利用位置敏感哈希算法获得各自包含有至少一个特征向量的多个聚类簇，并从中选取至少一个聚类簇作为候选聚类簇；周期地使用所述候选聚类簇对新到的数据流的特征向量进行聚类处理。本申请的实施例基于位置敏感哈希的聚类算法保证了比现有技术具有更好的实时性能。
+59. 102799954 Method and system for multi-objective optimization applied to risk assessment
+CN
+28.11.2012
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+201210249442.0
+中国信息安全测评中心
+曲武
+G06F 17/00
+Loading...
+The invention discloses a method and a system for multi-objective optimization applied to risk assessment. The method and the system overcome defects that no corresponding technology of rapidly and effectively finding out most risk from mass risk assessment data exists in present business management and decisions. The method comprises: bringing a guiding opinion factor in risk calculation of a to-be-evaluated system, performing risk calculation to obtain a risk assessment value; and using the multi-objective optimization method to perform query processing on the risk assessment value, to obtain a result of multi-objective optimization processing of the to-be-evaluated system. The method and the system are suitable to be used in multi-objective optimization of the risk assessment, and using the method and the system, a most risk problem can be researched.
+60. 102594625 一种APT智能检测分析平台中的白数据过滤方法及系统
+CN
+18.07.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210058696.4
+北京启明星辰信息技术股份有限公司
+万淼
+H04L 12/26
+Loading...
+本发明公开了一种APT智能检测分析平台中的白数据过滤方法及系统；方法包括：对存储的历史流量数据中的各抓包库Pcap数据包分别进行协议解析，得到各Pcap数据包的控制信息及数据；按照预定的白数据过滤条件生成过滤规则；将解析出的各Pcap数据包的控制信息与所述过滤规则进行匹配，如果一Pcap数据包的控制信息满足所述过滤规则，则删除该Pcap数据包的控制信息及数据；删除后将其余的数据及控制信息重新打包封装为Pcap数据包后发送给APT检索引擎。本发明能够合理降解过滤存储的历史数据。
+61. 102546576 Webpagehanging trojan detecting and protecting method and system as well as method for extracting corresponding code
+CN
+04.07.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010621408.2
+北京启明星辰信息技术股份有限公司
+肖小剑
+H04L 29/06
+Loading...
+The invention relates to a webpagehanging trojan detecting and protecting method and a webpagehanging trojan detecting and protecting system, as well as a method for extracting a corresponding code. The system injects a section of script code for automatically extracting a tag into an intercepted Web page and sends the Web page to a client side; the client side runs the script code, extracts the code of the tag related to the webpage hanging horse, and sends the code and a URL (Uniform Resource Locator) of the Web page to the system; and the system can match a URL to be detected with a safe URL in a corresponding baseline, if match is failed, abnormal detection is carried out on the URL to be detected, so that the security level is confirmed. The webpagehanging trojan detecting and protecting method and the webpagehanging trojan detecting and protecting system as well as the method for extracting the corresponding code have small dependence on the environment, failure in report can be reduced, and the code of the tag can be effectively extracted.
+62. 102521496 评估指标的重要性级别的获取方法和系统
+CN
+27.06.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110397552.7
+北京启明星辰信息安全技术有限公司
+刘恒
+G06F 19/00
+Loading...
+本发明提供一种评估指标的重要性级别的获取方法和系统。所述方法，包括：将得到m个系统分别对n个评估指标X1，X2，…，Xi，…，Xn所做出的评分结果保存在数据集S中，以及将每个系统的风险等级保存在数据集R中，计算数据集R中风险等级的熵H(R)；在得到n个评估指标的信息增益率后，对得到的信息增益率进行排序，从而得到n个评估指标X1，X2，…，Xi，…，Xn的重要性级别。
+63. 102495731 一种信息安全评估的实施用例的生成方法
+CN
+13.06.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110397550.8
+中国信息安全测评中心
+江常青
+G06F 9/44
+Loading...
+本发明提供了一种信息安全评估的实施用例的生成方法，包括：保存各项评估标准所对应的安全评估内容；分别形成不同行业类型和业务类型的评估用例模板；所述评估用例模板包括所属行业类型和业务类型所包含的各项评估标准对应的安全评估内容，以及各安全评估内容所对应的测试方法；根据待评估项目的业务类型、行业类型选择对应的评估用例模板，构造该待评估项目的评估用例实例；根据该待评估项目的评估用例实例，以及该待评估项目中的测试对象选择测试方法，生成测试用例实例。本发明能够在信息安全评估领域中简便、灵活、规范、系统地自动生成实施用例。
+64. 102480385 数据库安全保护方法和装置
+CN
+30.05.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010570372.X
+北京启明星辰信息技术股份有限公司
+孙海波
+H04L 12/24
+Loading...
+本发明提供了一种数据库安全保护方法和装置。涉及网络技术领域；解决了数据库安全性低的问题。该方法包括：接收并解析报文，提取所述报文中的数据库操作信息；对所述数据库操作信息进行统计；根据统计结果生成正常行为模型；根据所述正常行为模型，检测数据库操作是否存在异常。本发明提供的技术方案适用于数据库安全保护。
+65. 102469113 一种安全网关及其转发网页的方法
+CN
+23.05.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010532887.0
+北京启明星辰信息技术股份有限公司
+叶润国
+H04L 29/08
+Loading...
+本发明公开了一种安全网关及其转发网页的方法；所述方法包括：当从服务器得到客户端请求的Web页面后，将预先生成的移动代码依附到待转发Web页面中；所述移动代码被设置成当执行时遍历所依附的Web页面对应的文档对象模型，抽取出指定HTML标签中的URL，并将抽取出的URL与预先设置的恶意URL集合进行匹配；在依附了所述移动代码的所述Web页面中添加命令语句；所述命令语句设置成当所述Web页面被加载时触发所述移动代码执行；将依附了所述移动代码并添加语句后的Web页面转发给所述客户端。本发明能够在不加重安全网关计算开销的情况下，对隐藏在Web页面中的恶意URL进行准确的检测。
+66. 102456032 数据库安全保护方法和装置
+CN
+16.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010523306.7
+北京启明星辰信息技术股份有限公司
+孙海波
+G06F 17/30
+Loading...
+本发明提供了一种数据库安全保护方法和装置。涉及网络技术领域；解决了数据库安全性低的问题。该方法包括：接收并解析数据报文，提取该数据报文中对预置的关键字段的操作，以及操作相关信息；统计各关键字段被操作的次数，并根据统计结果和所述操作相关信息，生成关键字段检测模型；根据所述关键字段检测模型检测关键字段访问异常及关键字段操作异常。本发明提供的技术方案适用于大型数据库。
+67. 102426550 源代码解析方法和系统
+CN
+25.04.2012
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110328589.4
+中国信息安全测评中心
+吴世忠
+G06F 11/36
+Loading...
+本发明提供一种源代码解析方法和系统。所述方法，包括：在采用语法分析器对Perl源代码进行解析之前，获取Perl源代码中的函数信息和变量信息，其中所述函数信息包括系统函数和用户自定义的函数，所述变量信息包括系统变量以及用户自定义的包变量和词法变量；为用户自定义的函数和用户自定义的包变量和词法变量分别设置一对应的前缀标识符；在对Perl源代码的解析过程中，如果根据得到函数信息和符号信息确定得到的词素为用户自定义的函数和用户自定义的包变量和词法变量中的一个，在所述词素之前增加对应的前缀标识符，得到处理后的代码，将所述处理后的代码作为语法分析器所要解析的代码。
+68. 102426634 源代码后门发现方法
+CN
+25.04.2012
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201110328902.4
+中国信息安全测评中心
+吴世忠
+G06F 21/00
+Loading...
+本发明提供了一种源代码后门发现方法和装置。涉及计算机安全领域；解决了由于缺乏对源代码后门有效的检测方式导致系统安全性降低的问题。该方法包括：搜索存在关联的多个源代码文件；根据预置的后门检测策略对所述多个源代码文件进行规则匹配，所述检测策略包括与一源代码后门相关的多个规则以及判定存在源代码后门的判定条件；在所述多个源代码文件与所述检测策略中的规则匹配情况满足所述判定条件时，确认所述多个源代码文件为一源代码后门。本发明提供的技术方案适用于源代码检测，实现了静态高效的源代码后门发现机制。
+69. 102402517 数据库正常登录模型建立、登录行为异常检测方法及系统
+CN
+04.04.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010278808.8
+北京启明星辰信息技术股份有限公司
+孙海波
+G06F 17/30
+Loading...
+本发明公开了一种数据库正常登录模型建立方法及系统，以及一种数据库登录行为异常检测方法及系统，以克服现有技术无法在登录信息中发现可能存在异常的用户登录行为的技术问题，其中数据库正常登录模型建立方法包括：接收用户正常登录数据库产生的正常数据报文；从所述正常数据报文的字段内容中提取出登录信息；根据所述数据库的系统环境设定模型参数；根据所述登录信息及所述模型参数，为所述数据库建立正常登录模型。与现有技术相比，本发明提出的技术方案能够准确地发现用户登录行为当中隐藏的异常行为，可广泛应用于数据库业务审计产品中。
+70. 102385677 一种统一威胁管理系统及其数据处理方法
+CN
+21.03.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010270457.6
+北京启明星辰信息技术股份有限公司
+周力丹
+H04L 29/06
+Loading...
+本发明提供了一种统一威胁管理系统及其数据处理方法；系统包括：数据存储模块，包括多个数据池，各所述数据池分别用于存储一种类型的数据；服务处理模块，包括一个或多个计算池，各计算池分别用于进行实现一种服务功能的处理操作，从用于存储本计算池所需类型的数据的所述数据池读取数据，将处理后的数据输出给用于存储该类型数据的数据池；管理中心，用于保存各数据池和数据的类型之间的第一对应关系，及各计算池与服务功能之间的第二对应关系。本发明可以避免直接耦合的一体化安全网关存在的动态扩展性和容错性方面的不足。
+71. WO/2012/027923 UNIFIED THREAT MANAGEMENT SYSTEM AND DATA PROCESSING METHOD THEREOF
+WO
+08.03.2012
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+PCT/CN2010/078259
+BEIJING VENUSTECH INC.
+ZHOU, Lidan
+G06F 9/46
+Loading...
+An unified threat management system and a data processing method thereof are disclosed, and the system comprises: a data storing module including a plurality of data pools separately configured to store one type of data; a service processing module including one or more computing pools separately configured to be a processing module realizing one kind of service function, reading data from the data pool configured to store the kind of data required by the computing pool, and processing the data, and outputting the processed data to the data pool corresponding to the type of the processed data; a management center configured to store a first corresponding relationship between the data pool and the data type and a second corresponding relationship between the computing pool and the service function. The solution can prevent the deficiency in the dynamic expansion and the fault tolerance in the directly coupled integrated safe gateway.
+72. 102339319 一种WEB管理系统及其菜单加载方法
+CN
+01.02.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110328596.4
+中国信息安全测评中心
+吴世忠
+G06F 17/30
+Loading...
+本发明公开了一种WEB管理系统及其菜单加载方法，涉及WEB管理系统。本发明公开的方法包括：WEB管理系统接收用户发起的菜单操作请求，根据该菜单操作请求中的菜单标识信息从内存对象中查询该菜单操作请求所要访问的菜单的菜单数据，如果查询到，则直接向用户显示该菜单操作请求所要访问的菜单，如果未查询到，则从菜单数据表中查询所要访问的菜单的菜单数据，将查询到的菜单数据逐条封装到菜单对象，将封装的菜单对象作为子菜单对象数组加载到内存对象中对应的上级菜单对象中，向用户显示该操作请求所要访问的菜单。本申请的技术方案减少了用户每次访问页面的等待时间，大大提高的操作效率。
+73. 102340532 P2P应用识别方法及装置、P2P流量管理方法及装置
+CN
+01.02.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010238666.2
+北京启明星辰信息技术股份有限公司
+孙海波
+H04L 29/08
+Loading...
+本发明公开了一种P2P应用识别方法及装置和一种P2P流量管理方法及装置，分别克服现有技术对网络资源分配不尽合理的缺陷和P2P应用的管理方式单一的缺陷，该P2P应用识别方法主要包括：计算连接中每个源IP地址的连接数方差；选取连接数方差大于等于预设的连接数方差阈值的部分或全部源IP地址，形成一次筛选集合；按照所使用的连接协议对一次筛选集合中的源IP地址进行二次筛选，形成二次筛选集合；根据二次筛选集合中的源IP地址的连接数、连接对端所使用的端口数量及预设的端口差量阈值，确定二次筛选集合中的源IP地址是否正在进行P2P应用。本发明的P2P应用识别技术方案克服现有技术对网络资源分配不尽合理的缺陷。
+74. 102316081 一种相似网页的识别方法及装置
+CN
+11.01.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010222214.5
+北京启明星辰信息技术股份有限公司
+胡振宇
+H04L 29/06
+Loading...
+本发明提供了一种相似网页的识别方法及装置；所述识别装置包括：接收模块，用于分别接收两个网页的文档对象模型DOM树；比较模块，用于对所接收的两个DOM树进行比较，得到该两个DOM树的相似度；判断模块，用于将所述相似度与一预设的阈值比较，如果大于或等于该阈值，判断所述两个网页相似。本发明可以在服务器外部进行相似网页的对比，通过该对比结果可进一步对一个疑似的钓鱼网站进行判断，不会对服务器和钓鱼网站产生任何影响。
+75. 102279800 Source code static defect analyzer and method for processing path-sensitive symbol definition
+CN
+14.12.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110256022.0
+China Information Technology Security Evaluation Center
+Wu Shizhong
+G06F 11/36
+Loading...
+The invention discloses a source code static defect analyzer and a source code static defect analysis method for processing a path-sensitive symbol definition. The method comprises the following steps of: A, generating an intermediate code according to an input source code file; B, traversing each path in the intermediate code, analyzing statements one by one to obtain analysis data, if the statement is a symbol definition type statement, executing the step C, and after each path is traversed, executing the step D; C, recording symbols which are defined in the symbol definition type statement in the currently traversed path, directing the current definitions of the symbols to the definitions in the currently traversed path, executing the step B, and analyzing the next statement; and D, according to the analysis data and a predetermined defect rule, generating a defect analysis result. The invention has the advantage that: the source code static defect analyzer can more accurately and effectively analyze and process the path-sensitive symbol definition.
+76. 102279799 Static analyzing method and device of source codes based on include path processing method
+CN
+14.12.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110256021.6
+China Information Technology Security Evaluation Center
+Wu Shizhong
+G06F 11/36
+Loading...
+The invention discloses a static analyzing method and device of source codes based on an include path processing method. The static analyzing method of source codes comprises the steps of: when the include path is a non-constant, judging whether the variable of the include path contains a constant value; when the variable of the include path contains a constant value, finding the source code file corresponding to the include path; and substituting the source code file for the include path. In the static analyzing method of source codes, a source code static analyzer can be used for processing the variable of the include path.
+77. 102271049 Method, device and system for setting state of communication equipment
+CN
+07.12.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010196518.9
+Beijing Venustech Co., Ltd.
+An Wei
+H04L 12/24
+Loading...
+The invention provides a method, device and system for setting a state of communication equipment, which relate to the communication field. The problem that a conventional switching mechanism influences the work efficiency of the system is solved. The method comprises the following steps of: receiving a high-reliability communication message sent by another piece of equipment in a redundant group, wherein the high-reliability communication message carries the state information of monitoring groups on one side of the another piece of equipment, the state information comprises the names of the monitoring groups, the validity of the monitoring groups and the priority levels of the monitoring groups; and setting the state of local communication equipment according to the state information of the monitoring groups on one side of the another piece of equipment and the state information of local monitoring groups. The technical scheme provided by the invention is applicable to high-reliability transmission networks in primary and standby modes.
+78. 102262635 Page crawler system and page crawler method
+CN
+30.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010189998.6
+Beijing Venustech Co., Ltd.
+Xiao Xiaojian
+G06F 17/30
+Loading...
+The invention discloses a page crawler system and a page crawler method and overcomes the technical defect that a dynamic uniform resource locator (URL) cannot be effectively extracted in the prior art. The page crawler method comprises the following steps of: setting a first duplication removal queue; receiving a target page; crawling the target page by using a static crawler; regarding a URL which cannot be analyzed by the static crawler in the target page as the dynamic URL; submitting the dynamic URL to the first duplication removal queue; and continuously crawling the dynamic URL in the first duplication removal queue by using a dynamic crawler. By the invention, the technical defect that the dynamic URL cannot be effectively extracted in the prior art is overcome, the search efficiency and performance of pages are effectively improved, and the security application of the pages can be maintained.
+79. 102253948 Method and device for searching information in multi-source information system
+CN
+23.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010181851.2
+Beijing Venustech Information Technology Co.,Ltd.
+Zhou Tao
+G06F 17/30
+Loading...
+The invention provides a method for searching information in a multi-source information system, relates to the field of information management and solves the problem that a plurality of description information associations for the same object cannot be searched in the prior art. The method comprises the following steps of: acquiring a searching sequence and searching contents set by a user for multiple kinds of description information of the same object; and searching by using corresponding searching contents in a database where the description information is stored according to the searching sequence set by the user. The technical scheme can be applied to the searching of the information.
+80. 102255788 Message classification decision establishing system and method and message classification system and method
+CN
+23.11.2011
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+201010181839.1
+Beijing Venustech Information Technology Co.,Ltd.
+Ye Runguo
+H04L 12/70
+Loading...
+The invention discloses a message classification decision establishing system and method and a message classification system and method, which are used for establishing an efficiently-matched message classification system and realizing efficient message classification. The message classification decision establishing method comprises the following steps of: mapping all message classification rules onto a series of hyper-rectangles in a multi-dimensional space; dimensionally projecting the series of hyper-rectangles gradually in the multi-dimensional space to obtain the basic interval of each hyper-rectangle sequentially arranged on each dimension of the multi-dimensional space; and establishing a message classification decision tree for message classification according to the basic intervals. Compared with the prior art, the invention has the advantages that: the message classification decision tree established in the embodiment of the invention has a very small number of layers, and the message classification processing efficiency is high.
+81. 102238145 Method and device for preventing network attack
+CN
+09.11.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010161368.8
+Beijing Venustech Information Technology Co.,Ltd.
+Hong Dong
+H04L 29/06
+Loading...
+The invention provides a method and a device for preventing network attack, which relate to the field of communication and are used for solving the problem that a fire wall cannot perform network defense on a host in the fire wall. The method comprises the following steps of: obtaining current security status information of an intranet host; and controlling the intranet host to communicate with an extranet according to the current security status information of the intranet host. The technical scheme provided by the invention can be used in the field of network security.
+82. 102148691 Distributed intrusion detection system and connecting method of centralized management in same
+CN
+10.08.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010109195.5
+北京启明星辰信息技术股份有限公司
+张峰
+H04L 12/24
+Loading...
+The invention discloses a distributed intrusion detection system and a connecting method of centralized management in the same, improving the security of a detection engine in the distributed intrusion detection system. The method mainly comprises the following steps of: starting a monitoring opening by a management control center; detecting the management control center by the detection engine; sending an identity authentication request to the management control center by the detection engine for identity authentication; and establishing communication connection between the detection engine and the management control center after the management control center is authenticated. Compared with the prior art, the technical scheme provided by the invention greatly lowers the communication management complexity of the distributed intrusion detection system, improves the security of the detection engine and reduces the workload of a system administrator.
+83. 102129528 WEB page tampering identification method and system
+CN
+20.07.2011
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201010034272.5
+Beijing Venustech Information Technology Co.,Ltd.
+Hu Zhenyu
+G06F 21/60
+Loading...
+The invention discloses a WEB page tampering identification method and a WEB page tampering identification system, which aim to identify the tempering of a WEB page. The system comprises a web page acquisition module, a mode extraction module, a base line database and a tempering identification module, wherein the web page acquisition module is used for acquiring a WEB page; the mode extraction module is connected with the web page acquisition module, and is used for performing mode extraction on the WEB page and generating a page mode of the WEB page; the base line database is used for storing WEB page comparison base lines; and the tempering identification module is connected with the mode extraction module and the base line database, and is used for performing tempering identification on the page mode of a target WEB page as an identification target according to the WEB page comparison base lines to obtain an identification result. Compared with the prior art, the technical scheme provided by the invention performs WEB page tempering detection outside a web page server so as to improve the detection efficiency and realize the tempering identification of the WEB page.
+84. 101901220 General data display method and equipment
+CN
+01.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910085027.4
+Beijing Venus Information Technology Co., Ltd.
+Duan Wenguo
+G06F 17/30
+Loading...
+The invention discloses a general data display method and general data display equipment, which relate to data display technology. The method provided by the invention comprises the steps that: the display equipment constructs a display data structure table and respectively builds data display windows corresponding to data structure types in the display data structure table; and when receiving data from a data sender, the display equipment determines the data structure type of the received data according to the display data structure table, analyzes the received data according to the information of the data structure type in the display data structure table if the data display window corresponding to the data structure type exists, and displays the data in the corresponding data display window. According to technical scheme of the invention, the general display of the data of different structures is realized by a built-in custom data structure and by defining and positioning specific fields of the offset and types and the like.
+85. 101902484 Method and system for classifying local area network http application services
+CN
+01.12.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200910084703.6
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/08
+Loading...
+The invention relates to a method and a system for classifying local area network http application services. The invention provides a system for classifying network message application services. The system comprises a message capturer, a protocol analyzer and a message character filter, which are connected one by one, wherein the message capturer is arranged for capturing a network message; the protocol analyzer is arranged for analyzing a protocol for the captured network message, taking a corresponding field message and supplying the network message and the field message to the message character filter; the message character filter is arranged for matching the field message with a preset application service character message so as to classify the network message according to a matching result. The method and the system of the invention can accurately classify the network message.
+86. 101902485 Rewriting method of reversal Web agent link
+CN
+01.12.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200910085025.5
+Beijing Venus Information Technology Co., Ltd.
+Zhang Bo
+H04L 29/08
+Loading...
+The invention discloses a rewriting method of a reversal Web agent link, comprising: a proxy server or a proxy gateway inserts an execution code rewritten by a client side link into the response page of an intranet server, and sends to the client side; and the client side performs the execution code, i.e. the client side rewrites the link. Compared with the existing rewriting method of the reversal Web agent link, the invention has high forwarding speed of the proxy server or the proxy gateway, and occupies small amount of memory, CPU and other resources occupied by rewriting the link.
+87. 101902456 Safety defense system of Website
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010110771.8
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention relates to a safety defense system of a Website, comprising a flow tractor and a Web safety detector, wherein the flow tractor is connected with a DNS (Domain Name Server) and is used for receiving the DNS domain name analyzing request of a client from the DNS, analyzing the domain name into the IP address of the Web safety detector and then returning to the client; and the Web safety detector is used for receiving HTTP (Hyper Text Transport Protocol) request information and carrying out intrusion detection on the HTTP request information, if no abnormal phenomenon is found, transmitting the HTTP request information to the Website pointed by the HTTP request information. The arrangement position of the safety defense system is not limited by serial arrangement and supports distributed arrangement, the configurations of the Web client and the Web server do not need to be modified so that the cost of safety defense is saved, and the safety defense system has good compatibility and strong scalability.
+88. 101902337 Method for managing network intrusion event
+CN
+01.12.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200910085038.2
+Beijing Venus Information Technology Co., Ltd.
+Tian Jinshan
+H04L 9/36
+Loading...
+The invention relates to a method for managing a network intrusion event, which is applied to a network intrusion detection system. The method comprises the following steps that: a management control center of the network intrusion detection system judges whether an event reported by a detection engine is matched with a preset comparison rule in the management control center or not; if the event reported by the detection engine is matched with the preset comparison rule in the management control center, the management control center judges whether the corresponding response strategy of the comparison rule is consistent with a response strategy applied by the detection engine at present or not; if the corresponding response strategy of the comparison rule is not consistent with the response strategy applied by the detection engine at present, the management control center transmits the response strategy of the comparison rule to the detection engine; and the detection engine reports the event to the management control center according to the transmitted response strategy. The network intrusion detection system can automatically adjust the response strategy of the network intrusion event according to the local network condition based on the invention.
+89. 101901307 Method and device for detecting whether database is attacked by cross-site script
+CN
+01.12.2010
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+200910085040.X
+Beijing Venus Information Technology Co., Ltd.
+Qiu Shaohong
+G06F 21/56
+Loading...
+The invention relates to a method and a device for detecting whether a database is attacked by cross-site script; and the method comprises the following steps of: capturing a data packet which is submitted to a database server and extracting SQL sentences from the data packet; and if the extracted SQL sentences include the sentences containing the content of modifying fields of the database, judging whether the sentences which include the content of modifying the fields of the database include cross-site script attack or not, and if yes, determining that the database is attacked by the cross-site script. The method and the device can detect XSS attack to the database.
+90. 101901218 General data loading device and method
+CN
+01.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910085024.0
+Beijing Venus Information Technology Co., Ltd.
+Zhou Yu
+G06F 17/30
+Loading...
+The invention provides a general data loading device and a general data loading method. The method comprises the following steps of: generating a configuration file according to the type of data stream and a database; establishing a database connection according to the configuration file and a mapping relation between a data structure corresponding to the data stream and a data table structure in a database; and then writing the received data stream into the database. The technical scheme of the invention can ensure the mapping and loading processes that different data structures correspond to different data table structures in the database and perfectly solve the problem of loading data into a third-party library in a security information manage system and the general problem of data loading in other fields. At the same time, the device and the method have the characteristics of flexibility, simple implementation, few occupied resources and high efficiency.
+91. 101902366 Method and system for detecting abnormal service behaviors
+CN
+01.12.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910085032.5
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 12/26
+Loading...
+The invention provides a method for detecting abnormal service behaviors, which comprises the following steps of: establishing a model of normal service system access behaviors of users according to historical audit records prior to a current detection point of safety audit equipment; and analyzing real-time audit records of the safety audit equipment, comparing the real-time audit records with the normal behavior model, and judging whether the service access behaviors of the users are abnormal or not. The invention also provides a system for detecting abnormal service behaviors. The method and the system for detecting abnormal service behaviors can detect attack behaviors, which are legal in terms of service flow, but still bring about destruction to a service system actually, according to audit records of the safety audit equipment.
+92. 101902349 Method and system for detecting scanning behaviors of ports
+CN
+01.12.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910085033.X
+Beijing Venus Information Technology Co., Ltd.
+Li Bo
+H04L 12/24
+Loading...
+The invention provides a method and a system for detecting scanning behaviors of ports. The method comprises the following steps of: writing a corresponding relationship between the IP address of each protected client and an open port number thereof into a configuration file; monitoring the accessed condition of each protected client, and maintaining an open port access list and an unopened port access list of the access clients for the protected clients; calculating the average numbers of open ports and unopened ports, accessed by the access clients, of the protected clients according to the open port access list and the unopened port access list of the access clients for the protected clients respectively; and simultaneously performing quick scanning judgment and slow scanning judgment according to the preset quick scanning judgment rule and the preset slow scanning judgment rule so as to detect the quick scanning behaviors of the ports and well discover the slow scanning behaviors.
+93. 101902348 Network security system and system load automatic adjusting method thereof
+CN
+01.12.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910084702.1
+Beijing Venus Information Technology Co., Ltd.
+Zhao Haifeng
+H04L 12/24
+Loading...
+The invention provides a network security system. The network security system has a system load automatic adjusting function and comprises a load detector, a decision arbiter and an adjustment actuator which are sequentially connected, wherein the load detector is used for detecting the system load and feeding anomalous events back to the decision arbiter; the decision arbiter is used for generating an adjustment decision according to the anomalous events and providing the adjustment decision to the adjustment actuator; and the adjustment actuator is used for carrying out adjustment according to the adjustment decision so as to cause the system load of the network security system to tend to a normal range. The network security system and the system load automatic adjusting method thereof in the invention can ensure that the system load of the network security system is in a safe and stable operating state.
+94. 101901222 Method and system for analyzing and matching SQLs (Structured Query Languages)
+CN
+01.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910085039.7
+Beijing Venus Information Technology Co., Ltd.
+Yao Xi
+G06F 17/30
+Loading...
+The invention discloses a method and a system for analyzing and matching SQLs (Structured Query Languages), which is used for effectively analyzing and matching SQL sentences. The method comprises the following steps of: establishing an incidence relation library among a database table, a database and the fields of the database table; establishing a matching rule set according to the incidence relation library; establishing a basic syntax analyzing rule library according to SQL sentences defined by the SQL/99 standard; establishing an extended syntax analyzing rule library according to SQL sentences realized by main-trend database manufacturers; carrying out syntax analysis to the inputted SQL sentences according to the basic syntax analyzing rule library and the extended syntax analyzing rule library to obtain user concerning information; establishing an operational character set and establishing matching algorithms for operational characters in the operational character set; and selecting the matching algorithms according to the matching rule set and the operational character set and then matching the user concerning information and the matching rule set to obtain matching results. The invention can be widely applied to product for network intrusion detection, network intrusion prevention, database audit and the like.
+95. 101901219 Detection method for injection attack of database and system
+CN
+01.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910085026.X
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+G06F 17/30
+Loading...
+The invention discloses a detection method for the injection attack of a database and a system, detecting the access activities of a database in real time. The method comprises the following steps of: solely leaning through the history access record of the database and establishing an access activity pattern library of the database; receiving the real-time access of the database, judging whether the real-time access is injection attack or not according to the access activity pattern library and acquiring a judging result; and responding the real-time access according to the judging result and the preset response mode. Compared with the prior art, the invention can automatically recognize normal database access and injection attack and blocks the injection attack so as to protect the safety of a database server.
+96. 101902440 Method and device for blocking TCP connection
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910085031.0
+Beijing Venus Information Technology Co., Ltd.
+Liu Hui
+H04L 29/06
+Loading...
+The invention provides a method and a device for blocking TCP connection. The method comprises the following steps of: saving the connection information of each TCP connection, wherein the connection information of the TCP connection comprises client information, server information, request direction TCP waiting serial number and response direction TCP waiting serial number of the TCP connection; grabbing a TCP packet, finding the connection information of the TCP connection to which the TCP packet belongs, and updating the request direction TCP waiting serial number and the response direction TCP waiting serial number in the connection information according to the grabbed TCP packet; and if the grabbed TCP packet is a TCP packet to be blocked, generating an RST packet according to the updated connection information of the TCP connection to which the TCP packet belongs, and transmitting the RST packet to the client and the server of the TCP connection. The method for blocking the TCP connection can accurately and continuously block the connection. Therefore, the method can efficiently block illegal TCP connection under a high traffic environment.
+97. 101902334 Real-time confirmation method and system for safety events
+CN
+01.12.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200910084704.0
+Beijing Venus Information Technology Co., Ltd.
+Zhao Dongbin
+H04L 9/36
+Loading...
+The invention discloses a real-time confirmation method and a system for safety events, which confirms the safety events in real time efficiently. The method of the invention comprises the following steps: carrying out attack behavior detection on the received network messages, and describing the network messages in which attack behavior is detected as attack messages; extracting the response messages of the attack messages; and matching the response messages by a safety event confirmation rule, and obtaining the attack confirmation result of the attack messages, wherein the safety event confirmation rule is used for judging whether the attack is successful. The invention completes the confirmation of the attack behavior of the safety events in real time by carrying out precise matching on the response messages.
+98. 101902335 Data filter and combination method
+CN
+01.12.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200910085036.3
+Beijing Venus Information Technology Co., Ltd.
+Zhuge Lingxiao
+H04L 9/36
+Loading...
+The invention discloses a data filter and combination method, comprising: storing the structure information, the filter rule and the combination rule of data in the corresponding configuration file according to the data types; after receiving the data, reading the corresponding configuration file according to the received data type and removing by filtration or keeping the data according to structure information and filter rule in the read configuration file; if the data is kept, combining the data with relative data according to the structure information and the combination rule in the read configuration file. The invention, by using the configuration file to store the structure information, the filter rule and the combination rule of data in various types and reading the corresponding field value through the field offset and the initial position of the data in the memory, carries out data filter and combination, so as to enhance the system flexibility.
+99. 101902338 Intrusion detection system and method adopting unified detection framework
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910085041.4
+Beijing Venus Information Technology Co., Ltd.
+Jiao Yufeng
+H04L 29/06
+Loading...
+The invention relates to an intrusion detection method and system adopting a unified detection framework. The method comprises the following steps: mount points are embedded in a selected message handling unit and configured for each detecting unit; the required message characteristic information is obtained before the message handling process of each mount point; all the active detecting units are registered to the corresponding mount points; when the message passes through one mount point with the detecting unit, the detecting unit on the mount point performs intrusion detection to the message; and after the detection, for one mount point which is not the last level of mount point, the message enters the message handling unit after the mount point or the mount point for continuous handling. The system of the invention comprises a plurality of message handling units, a plurality of detecting units, a configuration unit, an initialization unit and a detection control unit on each protocol layer. The method and system can fast add or delete the detecting unit without changing the software architecture, thus saving time and system resources.
+100. 101902441 Intrusion detection method capable of realizing sequence attacking event detection
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910085069.8
+Beijing Venus Information Technology Co., Ltd.
+Zhang Zaifeng
+H04L 29/06
+Loading...
+The invention discloses an intrusion detection method capable of realizing sequence attacking event detection. The method comprises the following steps: configuring rules into a rule base, which are used for detecting a preceding event among sequence attacking events, as base rules according to each sequence attacking event to be detected; configuring rules, which are used for detecting follow-up events among the sequence attacking events, as a group of association rules of the base rules; recording the sequence of the follow-up events as the association sequence of the association rules; in the process of carrying out intrusion detection on some data message, if the data message is matched with one or a plurality of the base rules, preferably using the association rules of the matched base rules, and matching one by one according to association sequence and the follow-up messages of the data message; and if one group of the association rules of some base rule is successfully matched, detecting a corresponding sequence attacking event, and giving an alarm according to the alarm level of the sequence attacking event. The invention can realize the sequence attacking event detection and improve the detection efficiency.
+101. 101901193 Data buffer method and service end
+CN
+01.12.2010
+G06F 12/08 Loading...
+G06F 12/08
+Loading...
+200910085028.9
+Beijing Venus Information Technology Co., Ltd.
+Li Xuefeng
+G06F 12/08
+Loading...
+The invention relates to a data buffer method and a service end, and the method comprises the following steps: arranging all buffer storage regions according to a certain sequence for forming a storage queue; writing a data block into one buffer storage region every time; writing all the data blocks into all the buffer storage regions which are started from one buffer storage region and are continuous in the storage queue according to the writing time sequence of the data blocks when writing the data blocks, and generating and recording marks for respectively indicating the writing time sequence of each data block; sequentially reading the data blocks in the all the continuous buffer storage regions in the storage queue in one-time reading operation, and obtaining the marks which respectively indicate the writing time sequence of each data block; and finishing the reading operation if the mark which indicates the writing time sequence of a certain data block is different from the due mark. The data buffer method and the service end can meet the requirement on continuity of data obtainment.
+102. 101902365 Method for monitoring P2P traffic of wide area network and system thereof
+CN
+01.12.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910084788.8
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/26
+Loading...
+The invention discloses a method for monitoring P2P traffic of a wide area network and a system thereof which effectively identify and monitor the P2P traffic in a wide area network environment. The method comprises the following steps: capturing a network message to acquire traffic data in a plurality of time intervals; screening network nodes in the traffic data according to the protocol type, the IP address and the port comparison technology to acquire a screening result; calculating and accumulating the data traffics which take the IP address in the screening result as a source IP or a target IP in the current time interval to acquire a screened traffic; performing traffic filtration on the data traffic in the plurality of the time intervals by adopting the port identification technology to acquire filter traffic; comparing and combining the screened traffic and the filter traffic to acquire the P2P traffic; and generating a monitoring result according to the P2P traffic acquired by the plurality of the time intervals. By acquiring and analyzing the actual traffic, the method and the system realize identification and monitoring on P2P application therein.
+103. 101901221 Method and device for detecting cross site scripting
+CN
+01.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910085034.4
+Beijing Venus Information Technology Co., Ltd.
+Li Bo
+G06F 17/30
+Loading...
+The invention provides a device for detecting cross site scripting. The device comprises an index calculating unit, an extracting unit, a code restoring unit, a semantics restoring unit, a matching degree calculating unit and a judging unit which cooperate with each other; and malicious cross site scripts entrained in a Web page are identified and extracted by a comprehensive HTML label analysis methods (comprising four methods, namely EJSRF analysis, JavaScript code deformation analysis, JavaScript semantics denaturation analysis and XSS attack characteristic mode matching). The cross site script identification and extraction technology taking HTML label analysis as a core can efficiently and accurately distinguish a normal JavaScript from the malicious cross site scripts in the Web page to make network security detection equipment and a network terminal accurately identify and filter the Web page which contains the malicious cross site scripts, and simultaneously guarantee legal Web page (without entrained malicious cross site scripts) normally pass.
+104. 101902438 Method and device for automatically identifying web crawlers
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910084701.7
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention discloses a method and a device for automatically identifying web crawlers. The device comprises an acquisition unit, a judgment unit and an identification unit, wherein the acquisition unit is used for acquiring web requests from a remote host to a Web server in certain time; the judgment unit is used for judging whether the time interval of the adjacent web requests is greater than or equal to a predetermined threshold value delta of the time interval of the adjacent web requests; and the identification unit is used for judging whether the operation of the remote host is the web crawler according to whether each judgment result meets the preset condition. The method and the device can quickly detect the web crawlers of various types so as to provide precious response time for subsequent security response.
+105. 101902336 Rule model-based security event correlation analysis system and method
+CN
+01.12.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200910085037.8
+Beijing Venus Information Technology Co., Ltd.
+Li Jing
+H04L 9/36
+Loading...
+The invention discloses a rule model-based security event correlation analysis system and a rule model-based security event correlation analysis method so as to reduce the implementation cost of projects supported by a plurality of rule models. The method comprises the following steps: acquiring a primitive alarm event; invoking a matching algorithm corresponding to a rule model so as to match the primitive alarm event with all valid states in a state queue of the rule model; in case of failed matching, matching the primitive alarm event with the initial state of the rule model again, after the matching is successful, adding the initial state into the state queue; and in case of successful matching, maintaining the state queue firstly, then carrying out matching again, wherein maintained events including events after correlation analysis. The rule model-based security event correlation analysis system and the rule model-based security event correlation analysis method have the advantages of reducing the implementation cost of the project supported by the plurality of rule models, and theoretically supporting an infinite number of rule models so as to acquire more comprehensive analysis results.
+106. 101895516 Method and device for positioning cross-site scripting attack source
+CN
+24.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910084265.3
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention discloses a method and a device for positioning a cross-site scripting (XSS) attack source. The method comprises the following steps of: A, acquiring an entire hyper text transmission protocol (HTTP) request message, detecting whether the HTTP request carries an XSS attack or not, if the HTTP request carries the XSS attack, executing step B, or ending; B, when a link source of the HTTP request is found to be null or the link source and a uniform resource locator (URL) of the HTTP request belong to the same Web domain, determining a sender of the HTTP request as a current XSS attack source and ending, or continuing to execute step C; and C, acquiring the Webpage corresponding to the link source of the HTTP request, and searching the webpage, if the webpage comprises one webpage link address which initiates the XSS attack, determining the link source of the HTTP request as the current XSS attack source, or determining the sender of the HTTP request as the current XSS attack source. The method and the device can accurately position the attack source of the XSS attack.
+107. 101895434 Method and device for automatically identifying internet service providers in intranet
+CN
+24.11.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910084264.9
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+The invention discloses a method and a device for automatically identifying internet service providers in an intranet. The method comprises the following steps of: screening out TCP connections with complete TCP connection establishment processes in a time slot according to network messages detected in the time slot; judging each screened TCP connection respectively, and if the initiating end and terminating end of one TCP connection establishment process do not belongs to the same subnet, and a first network message is initiated from an extranet and terminated in the intranet and a network message responding to the first network message is initiated from the intranet and terminated in the extranet in the establishment process, extracting target device information of the TCP connection; and counting the extracted target device information, and identifying a plurality of target devices which most frequently appear as the internet service providers in the intranet. The method and the device overcome the defects that the conventional method for manually configuring the information of the internet service providers in the intranet is complicated and error-prone, and the like.
+108. 101895517 Method and device for extracting script semantics
+CN
+24.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910084266.8
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 29/06
+Loading...
+The invention discloses a method and a device for extracting script semantics. The method comprises the following steps of: 1, reading a script noted by a user; 2, sequentially reading the script vocabulary in the script, if the read script vocabulary is an operator, analyzing a script expression comprising the operator, or continuing reading; identifying and storing the semantics expressed by the analyzed script expression, continuing reading the script vocabulary in the script after the identification of the semantics of the script expression and executing step 3; during the identification of the semantics of the script expression, if the script expression contains a variable or a sub expression and stores the semantics of the variable or the sub expression, substituting the semantics of the variable or the sub expression for the variable or the sub expression in the expression and then performing identification; and 3, outputting the semantics of the script expression identified in step 2. The method and the device can improve the correctness and reliability of attack detection.
+109. 101888312 Attack detection and response method and device of WEB page
+CN
+17.11.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910084466.3
+Beijing Venus Information Technology Co., Ltd.
+Wang Leizhang
+H04L 12/26
+Loading...
+The invention discloses an attack detection and response method and a device of a WEB page, aiming at filtering the web page and protecting a client-side from the attack of malicious contents. The method comprises the following steps: intercepting the response message returned to the client-side by a WEB server, acquiring the response header and the response body in the response message, carrying out scanning detection on the response body, replacing the response body with prompt messages when the response body is detected to contain malicious contents, combining the prompt information with the response header and sending to the client-side. Compared with the prior art, the invention realizes the aim of precisely filtering the WEB page containing malicious contents such as Trojan horses and viruses and the like, protects the client-side from the attack of malicious contents and avoids interception of normal web page contents.
+110. 101888369 Method and device for matching network message rules
+CN
+17.11.2010
+H04L 12/753 Loading...
+H04L 12/753
+Loading...
+200910084467.8
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/753
+Loading...
+The invention discloses a method and a device for matching network message rules. The method comprises the following steps of: constructing a network message classification tree according to a network message rule set; marking each internal node in the constructed network message classification tree as a message field attribute; marking each output arc of the internal node as the value of the message field attribute marked by the internal node, wherein the value is a numerical value or an arbitrary value; marking each leaf node as a network message rule in the network message rule set; and after capturing a network message each time, searching in the constructed network message classification tree according to the value of the message field attribute contained in the network message, if a completely matched branch can be searched, the network message is matched with the network message marked by the leaf node on the branch. By using the method and the device, a matching speed of the network message rules is greatly improved.
+111. 101883017 System and method for evaluating network safe state
+CN
+10.11.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910083385.1
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 12/26
+Loading...
+The invention discloses a system and a method for evaluating network safe state, which are used for evaluating the network safe state of an intrusion detection device. The method comprises the following steps of: according to a history log before the current observation cycle of the intrusion detection device, extracting indexes of the network safe state, and establishing a normal distribution model of the indexes of the network safe state; during evaluation, according to a real-time log of the current observation cycle of the intrusion detection device, acquiring index values of the network safe state of the real-time log; and according to the index values of the network safe state of the real-time log and the normal distribution model, acquiring an evaluation result of the network safe state of the intrusion detection device in the current observation cycle. The system and the method for evaluating the network safe state can automatically evaluate the current network safe state according to the logs generated by the intrusion detection device.
+112. 101883001 Method and system for traffic identification and management of P2P application in small network
+CN
+10.11.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910083554.1
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention discloses a method and a system for the traffic identification and the management of P2P application in small network, in order to effectively identify and manage the P2P application in a small network system. The management method comprises the steps of: collecting statistics of flow information of various nodes according to flow record of the small network system, implementing P2P application flow related identification on the flow information, and managing the flow of the P2P application in the small network. The method and system can effectively identify and manage the P2P application in the small network system, thereby enhancing distribution reasonability of network resources and achieving convenience, simplicity and strong practicability.
+113. 101834735 Display method and display device of large-scale network node topological structure
+CN
+15.09.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910079462.6
+Beijing Venus Information Safety Technology Co., Ltd.
+Huang Dong
+H04L 12/24
+Loading...
+The invention discloses a display method and a display device of a large-scale network node topological structure. The display method comprises the following steps of: loading node data and relational data of nodes in a network, wherein the node data comprises nodes of all levels and subordination relations among the nodes, and the relational data is used for indicating connection relations among the nodes; when a user selects a node as an attention node, displaying child nodes of the attention node, same-level nodes which have connection relations with the attention node and belong to the same father node and nodes which have connection relations with the attention node and the levels higher than that of the attention node according to the node data; and displaying connection relations among the displayed nodes according to the relational data. The invention can visually show the topological structure of the attention node, and enable the showing efficiency to improve.
+114. 101834828 Management control end system and transmission method for security events therein
+CN
+15.09.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200910079887.7
+Beijing Venus Information Safety Technology Co., Ltd.
+Li Xuefeng
+H04L 29/08
+Loading...
+The invention discloses a management control end system and a transmission method for security events therein. In the transmission method, the service end receives the security events sent by network security equipment and stores the network security equipment in the buffer area and determines the average speed v of reported security events by the current network security equipment; a browser end actively requests the security events from the service end; the service end sends the security events in the buffer area to the browser end; the browser end receives the security events sent by the service end; T1 is determined as C/v according to the maximum number C of the security events which can be stored in the buffer area of the service end and the average speed v; and the browser end requests the security events again from the service end when T2 of requesting the security events last time is equal to or smaller than T1. The invention can effectively optimize the performance that the security events are displayed in real time by the management control end based on Web on premise that no extra cost or load of the service end is increased.
+115. 101815010 Method and system for reporting system logs
+CN
+25.08.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910078327.X
+Beijing Venus Information Security Technology Co., Ltd.
+An Wei
+H04L 12/26
+Loading...
+The invention discloses a method and a system for reporting system logs. The reporting system comprises a log collection module for organizing log information reported by all modules to generate logs and storing the logs, and a log transmission module for sending the logs stored in the log collection module to a mail server in form of mails. The method and the system can realize the monitoring of the system logs conveniently in time.
+116. 101808078 Intrusion defence system having active defence capability and method thereof
+CN
+18.08.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910078076.5
+Beijing Venus Information Technology Co., Ltd.
+Yu Zhenbo
+H04L 29/06
+Loading...
+The invention discloses an intrusion defense system having an active defense capability and a method thereof to actively defend security threats in a network. The method comprises the following steps: after receiving a data stream, setting a processing operation for an event in the data stream; setting an initial defense level for an event set consisting of multiple events based on the current network condition and the defense level requirements; matching the event in the event set based on the initial defense level, and obtaining a dynamic identification result with respect to network security situation based on a network flow and a matching result; determining the current defense level of the event set based on the initial defense level and the dynamic identification result; determining the current defense level of the event set based on the dynamic identification result; and automatically adjusting the processing operation of each event in the event set based on the current defense level, and responding to each event. The defense level can be automatically adjusted so as to actively prevent the further generation of attacks by using the various implementation manners of the invention.
+117. 101800690 Method and device for realizing source address conversion by using address pool
+CN
+11.08.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910076891.8
+Beijing Venus Information Security Technology Co., Ltd.
+Zheng Shuguang
+H04L 12/56
+Loading...
+The invention discloses a method and a device for realizing source address conversion by using an address pool. The method comprises the following steps: for a message for an internal network to visit an external network, if the flow structure being matched the message does not contain NAT information, seeking the flow structure of which the internal network source address is the same as that of the message in the flow structure recorded with the NAT information, and converting the source address of the message by using the address of the address pool in the NAT information of the flow structure as the source address after conversion; and for the flow structure carrying out the source address NAT for the first time, recording the conversion relation between the source address of the internal network and the address of the address pool in the flow structure as NAT information. The invention ensures that the same internal network source address can use the same address of the address pool after NAT, thereby avoiding access failure caused by different addresses.
+118. 101753316 Method and system for intelligently extracting features
+CN
+23.06.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200810227753.0
+Beijing Venus Information Security Technology Co., Ltd.
+Sun Haibo
+H04L 9/36
+Loading...
+The invention relates to a method and a system for intelligently extracting features. The system of the invention comprises a matching feature library, a feature matcher, a similarity calculator, a feature extractor and an intrusion detection engine. The method of the invention comprises the following steps: a feature matching step, a similarity calculating step, a feature extracting step and an intrusion detecting step. The method and the system of the invention solve the efficiency problem that the features used in the conventional intrusion detection product to carry out feature matching are all extracted manually, realize the function of carrying out extraction and updating of the features according to a data message under the condition that certain features have less change, and simultaneously have the advantages of rapid speed, high accuracy and the like.
+119. 101741633 Association analysis method and system for massive logs
+CN
+16.06.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810225913.8
+Beijing Venusense Information Security Technology Co., Ltd.
+Hao Chunguang
+H04L 12/26
+Loading...
+The invention discloses an association analysis method and an association analysis system for massive logs to evaluate the current network security condition and describe the attack condition which is paid most attention currently according to the massive logs generated by an intrusion detecting device. The method comprises the following steps: acquiring the logs of the intrusion detecting device, and judging whether a large-scale network security event exists or not by calculating the distribution condition of source addresses and destination addresses of the logs of the intrusion detecting device; merging the logs of the intrusion detecting device according to the source addresses, the destination addresses and event types, and detecting and reporting abnormal addresses and hot events; counting and displaying a propagation process of the hot events in a specific time period through graphics; and associating output results, and giving comprehensive evaluation on the current network security condition. The system comprises an entropy module unit, a triple module unit, a hot event propagation display module unit, and a comprehensive association analysis module unit.
+120. 101741608 Traffic characteristic-based P2P application identification system and method
+CN
+16.06.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810226230.4
+Beijing Venusense Information Security Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention relates to a traffic characteristic-based P2P application identification system and a traffic characteristic-based P2P application identification method. The system comprises a traffic record generator, a connected IP counter, an uplink/downlink traffic counter, a traffic information memory and a traffic analyzer. The network identification method comprises the following steps: generating a traffic record; monitoring IP filtering; counting uplink/downlink traffic; storing the traffic information; and analyzing the traffic. The system realized according to the invention solves the problem of not high accuracy because the P2P network application identification is performed based on encrypted transmission technology and the like and only dependent on the characteristic matching, and realizes the function of performing the P2P application identification in an actual network environment in real time according to the statistical condition of the traffic.
+121. 101729389 Flow control device and method based on flow prediction and trusted network address learning
+CN
+09.06.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810224570.3
+Beijing Venus Information Security Technology Co., Ltd.
+Deng Wei
+H04L 12/56
+Loading...
+The invention discloses a flow control device and a method based on flow prediction and trusted network address learning. The device comprises a forwarding engine and a flow analysis unit, wherein the forwarding engine is used for forwarding a network packet and calculating the network flow entering and leaving each target host, and reliable network addresses are collected from the network packet sent by each target host; when attack flow is detected, the network packet of the target host with attack flow is sampled, and the sample is sent to the flow analysis unit; according to the collected reliable network address and the attack flow filtering rule returned by the flow analysis unit, flow control is carried out to the network packet sent to the target host; according to the received network packet sample, the flow analysis unit takes each TCP/IP protocol packet head field value as an item to extract a frequent item set satisfying preset minimum support to serve as an attack flow filtering rule applied to the target host corresponding to the network packet sample.
+122. 101677318 Parallel multi-mode matching method and system with matching rules containing time indicator
+CN
+24.03.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810222506.1
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 29/06
+Loading...
+The invention relates to a parallel multi-mode matching system and a method with the matching rules containing a time indicator. The system comprises a generation module and a matching module, wherein, the generation module is used for reading a rule collection; dividing the matching rules containing the time indicator concentratedly into subrules at the position of the time indicator, wherein, the subrules are determined rules, the times specified by the time indicator are the specified continuous repeated times corresponding to the subrules which are connected in the front, the rules which are concentratedly specified are served as the own subrules, and the specified continuous repeated time corresponding to the subrules is one; and generating all the subrules into an AC generator according to the AC algorithm. The matching module is used for reading a search target and searching according to the AC algorithm, judging whether the search target matches all the subrules according to the sequence of the subrules in the matching rules and the specified continuous repeated times corresponding to subrules. If so, the search target matches the matching rules, therefore, the AC algorithmis utilized to process the parallel multi-pattern matching of the specified subrules continuous repeated time.
+123. 101668025 Method and device for discovering link layer network topology
+CN
+10.03.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810119624.X
+Beijing Venus Information Technology Co., Ltd.
+Li Xinhe
+H04L 29/08
+Loading...
+The invention discloses a method and a device for discovering link layer network topology. The method comprises the following steps: acquiring an address forwarding table (AFT table) of the network node by a pinging link layer network node; deriving the connection relation between network nodes by a predicate logic inference algorithm according to connection reasoning technology and repairing incomplete inverse root AFT data to acquire a complete AFT table; and utilizing a spanning tree protocol algorithm to calculate each network node according to the complete AFT table acquired according tothe predicate logic inference algorithm so as to discover a physical network topology structure of the link layer. The method provided by the invention combined with the predicate logic inference algorithm of the connection reasoning technology and a spanning tree protocol-based topology discovery algorithm can calculate the network node information effectively under the condition that the AFT data is incomplete, thereby overcoming the shortages of the prior method for discovering the link layer network topology and improving the probability of acquiring the physical network topology.
+124. WO/2010/017679 METHOD AND DEVICE FOR INTRUSION DETECTION
+WO
+18.02.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2008/072091
+VENUS INFO TECH INC.
+ZHOU, Lidan
+H04L 12/24
+Loading...
+A method and device for intrusion detection are provided. The method includes allocating one detection unit or multiple detection units to each type of network attack event to be detected, and configuring the types of objects to be detected of the types of network attack events, the detection operators and the detection knowledge bases, at the time of intrusion detection, acquiring the network data packets in real time, and acquiring the objects to be detected included in the network data packets; then performing the intrusion detection by the corresponding detection unit according to the configured detection operators and the detection knowledge bases to generate a network attack alarm event. The intrusion detection device includes a data pretreatment unit, a data distribution unit, a detection grid including one detection unit or multiple detection units connected orderly and a configuration management unit connected with the units. The invention supports the precision detection of the various complicated network attack events, and the execution efficiency of the whole intrusion detection device is considered.
+125. 101651555 Method and system for compiling network security audit strategy
+CN
+17.02.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810118387.5
+Beijing Venus Information Technology Co., Ltd.
+Li Yibo
+H04L 12/24
+Loading...
+The invention provides a role-based access network security audit strategy compiling control method and a system thereof. The invention adopts a technical scheme of: using an XML file as a medium, keeping the role-based access network audit system strategy information, and realizing the operations of exporting, importing, copying, pasting and the like the audit strategy. The method has the advantages of simplifying strategy generating process, conveniently transferring the strategy and facilitating the distributed type management.
+126. 101640666 Device and method for controlling flow quantity facing to target network
+CN
+03.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810117628.4
+Beijing Qiming Xingchen Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention discloses a device and a method for controlling the flow quantity facing to a target network. The method comprises the following steps: counting the network flow quantity passing in andout each target host computer while forwarding network data packets; when abnormal flow quantity is detected, sampling the data packet sent into the target host computer with the abnormal flow quantity; according to the sampled network data packet sample statistics and each TCP/IP protocol packet header field value as an item, extracting a frequent item set meeting the preset minimum support degree as an abnormal flow quantity filtering rule applied to the target host computer; and controlling the flow quantity of the network data packet of the target host computer according to the abnormal flow quantity filtering rule. The device and the method are applicable to a flow quantity control method applied to a network security border gateway, and can accurately discover the abnormal flow quantity aiming at the target host computer to achieve the fine grain flow quantity control of the abnormal flow quantity, and ensure the security of the target host computer.
+127. 101640594 Method and unit for extracting traffic attack message characteristics on network equipment
+CN
+03.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810117499.9
+Beijing Beijing Qiming Xingchen Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention discloses a method and a unit for extracting traffic attack message characteristics on network equipment. The method comprises the steps of: selecting a network message type which needsto extract message characteristics and is taken as an attack traffic type; taking a header field of a message with the selected type as an item, and finding all frequent item sets which meet the requirement of minimum support in the received network message with the selected type; performing descending sort on all the found frequent item sets according to element numbers, and then performing descending sort on the frequent item sets with the same element number according to the support; and sequentially selecting a group of minimum sets of frequent item sets which meet the requirement of a message filtration proportion threshold value as the attack message characteristics of the message with the selected type from the sorted frequent item sets. The method and the unit overcome the one sidedness of a traffic characteristic extraction method, can accurately filter, avoid error killing, and guarantee the normal pass of valid network traffic.
+128. 101635703 Method for detecting WEB service abnormality
+CN
+27.01.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810117114.9
+Beijing Venusense Information Technology Co., Ltd.
+Zhao Haifeng
+H04L 29/06
+Loading...
+The invention relates to a method for detecting WEB service abnormality, which comprises the following steps: analyzing and establishing a corresponding relation between a state of a Web server (4) and a behavior of communication message; detecting and analyzing network communication message in real time, and acquiring the state of the Web server (4) and transition thereof according to the behavior of the communication message; and judging and reporting whether the Web server is subjected to unknown denial service attack according to the state transition condition of the Web server (4). By analyzing and establishing the corresponding relation between the state of the Web server and the behavior of the communication message, detecting the message in real time and analyzing the corresponding state and transition of the Web server, the method can discover the abnormal state of the Web server, and can warn and stop the unknown denial service attack, and prevent, extract and record the network message with attack characteristics compared with the prior method.
+129. 101631026 Method and device for defending against denial-of-service attacks
+CN
+20.01.2010
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200810116857.4
+Beijing Venus Information Technology Co., Ltd.
+Hua Dongming
+H04L 9/36
+Loading...
+The invention discloses a method for defending against denial-of-service attacks in TCP/IP networks. The method comprises: randomly sampling TCP, UDP and ICMP flow; counting and calculating the rate of each flow; detecting flow proportion characteristics and flow distribution characteristics; verifying the credibility of corresponding source host computers; self-learning black-white lists and DoS-attack characteristic tables according to detection result and source-host-computer identity authentication result and utilizing the black-white lists and the DoS-attack characteristic tables to filter the flow, release normal flow and blocking denial-of-service attacks. By utilizing the invention, the denial-of-service attacks can be detected and blocked so as to guarantee network availability, prevent network denial of service attacks from occurring and provide network users with a secure network environment.
+130. 101620653 System and method for evaluating security risk based on asset weak point analysis
+CN
+06.01.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200810116184.2
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06F 21/00
+Loading...
+The invention discloses a system and a method for evaluating security risk based on asset weak point analysis. The system comprises two subsystems, namely a weak point risk counter and a system risk counter. The method comprises the following steps: carrying out hierarchical partition for computer security system assets in terms of function; calculating a weak point risk factor of each component according to a partitioned hierarchical model; and calculating the total risks of the whole security system according to the weak point risk factor of each component. Based on an asset hierarchical structure, the system and the method use the weak point risk of the component of the asset hierarchical structure to evaluate and calculate the risks of the system so as to overcome the defect of the prior risk evaluation algorithm and effectively realize reasonable evaluation of the security risk of the information system.
+131. 101582791 Method and system for monitoring real-time messaging session
+CN
+18.11.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810111790.5
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention discloses a method and a system for monitoring a real-time messaging session. The method comprises the following steps: (1) making protocol analysis on a data message captured in real time, if a current message load is identified to be the IM applied session message related to initialization and termination of the session, determining an IM applied type of the message and extracting information related to the session; and (2) according to a session state and the extracted information related to the session, updating the information of the stored corresponding session, and counting the number of current IM applied sessions in various types; for the session newly initialized, storing the information related to the session, and increasing the number of current IM applied sessions to which the session belongs; for the session which is about to be terminated immediately and of which the related information is stored, deleting the information of the session, and correspondingly decreasing the number of current IM applied sessions to which the session belongs; and unnecessarily processing the session of which the related information is not stored and which is about to be terminated. The method and the system are used for realizing the macro monitoring of the IM applied sessions and improving the monitoring range.
+132. 101582788 Grading processing method and grading processing system for security event
+CN
+18.11.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810106329.0
+Beijing Venus Information Technology Co., Ltd.
+Xu Jinpeng
+H04L 12/24
+Loading...
+The invention relates to a grading processing method and a grading processing system for a security event. The method comprises the following steps: obtaining a security event generated by a security system in real time and storing the security event after analysis, wherein source address information and destination address information are contained in the security event; when set processing time arrives, counting an estimated value of damage degree according to a security grade, the frequency, an address distribution parameter and a configured operation parameter of each security event and confirming the damage grade of the security event according to the obtained estimated value; and processing the security event according to the damage grade of each security event and a mode which corresponds to the damage grade. The grading processing system comprises a security event obtaining device, a security event counting device, a security event estimating device, a security event processing device and a storage device which are connected in sequence. The invention can grade the damage degree of a great number of security events and process the security events in time according to a plurality of objective factors.
+133. 101582880 Method and system for filtering messages based on audited object
+CN
+18.11.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810106659.X
+Beijing Venus Information Technology Co., Ltd.
+Zhao Haifeng
+H04L 29/06
+Loading...
+The invention discloses a method and a system for filtering messages based on an audited object. The method comprises the following steps: a control management end of an auditing system sends information containing an Ethernet MAC address, a service port, and the like of an audited server host computer to a detector; a network card driver of the detector analyzes a current network communication message captured by a network card to obtain a source MAC address, a destination address, a source port and a destination port of the current network communication message; and the source MAC address, the destination address, the source port and the destination port of the current network communication message are matched with the MAC address and the service port of the audited server host computer received by the control management end to obtain a successfully matched communication message by filtering. In the invention, messages with no need of attention are filtered and discarded in the early period of capturing the messages, thereby the processing expense in each stage of the later period can be saved, larger system resource margin can be brought, the processing ability of the system is improved, and the requirement of the network auditing system on the hardware of a messaging capturing detector is reduced.
+134. 101577707 Element identifier distribution method and application layer routing method based on element identifier
+CN
+11.11.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810106233.4
+Beijing Venus Information Technology Co., Ltd.
+Zhao Haifeng
+H04L 29/06
+Loading...
+The invention discloses an element identifier distribution method and an application layer routing method based on element identifier, which is applied in centralized-management multilayer distributed systems. In the method, node elements and element identifier of each level of a distributed system are established layer by layer; a routing table item based on the element identifier is generated in the process of generating and distributing the element identifier; and addressing is performed through the element identifier during communication so as to realize application layer routing based on the element identifier, which is needed by the communication of the centralized-management distributed system. The invention also provides a plurality of default routing rules of the routing method. The application layer routing method which is generated in the invention and based on element identifier is unrelated to TCP/IP (Transmission Control Protocol/Internet Protocol) routing methods, has the characteristics of simplicity, practicability, stability, reliability and resource conservation, and can meet special needs of distributed intrusion detection systems, distributed network auditing systems and various centralized-management multilayer distributed systems.
+135. 101577671 Method and system for automatically controlling flow of peer-to-peer networking service
+CN
+11.11.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810106029.2
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/56
+Loading...
+The invention discloses a method and a system for automatically controlling flow of peer-to-peer networking P2P service. The method comprises the following steps that: network equipment makes statistics of flow of a current network, and determines and executes a current flow control mode according to a currently occupied network flow and a flow control strategy; if the current flow is smaller than a set first threshold, the designated P2P application connection is allowed to be increased; and if the current flow is greater than a set second threshold, the designated P2P application connection is disconnected, and the first threshold is less than or equal to the second threshold. The method and the system have the advantages of overcoming the defects existing in the conventional network flow management that the management of the P2P application flow lacks of flexibility, single disconnection is performed or a single strategy is implemented, ensuring the normal operation of the network service not to be affected during a busy period of the network service, and reasonably allocating resources for the P2P so as to avoid the waste of the network resources when the network flow is small and the idle bandwidth for utilization exists.
+136. 101577703 Method for mode matching of base64 coded data without decoding
+CN
+11.11.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810106019.9
+Beijing Venus Information Technology Co., Ltd.
+Xu Jinpeng
+H04L 29/06
+Loading...
+The invention provides a method for mode matching of base64 coded data without decoding. The method can be widely applied to security systems which monitor data, such as an intrusion detection system, an auditing system and the like. The method comprises the following steps of: 1, converting the read mode data into possible base64 coded expressions; 2, completing the expression of the converted mode data by adopting a logic expression method; 3, according to the logic expression, generating a matching state tree used for parallel mode matching; 4, calling a parallel mode matching program to complete the mode matching of the mode data for the read data; and 5, reporting a matching result. The method has the advantages that: the mode matching of the base64 coded data (for example a mail) can be quickly completed. By the method, the mode matching based on the base64 coded data can be completed without the decoding operation of the base64 code.
+137. 101562605 Method and system for real-time monitoring in file transfer
+CN
+21.10.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810104322.5
+Beijing Venus Info-Tech Co., Ltd.
+Sun Haibo
+H04L 29/06
+Loading...
+The invention relates to a method and a system for real-time monitoring in file transfer. The system comprises a file transfer recognizer, a file information extractor, a file state memory, a file reformer, a detecting rule base and a detection engine. The method comprises a file transfer behavior recognizing step, a current transfer file information extracting step, a file state updating step, a file reforming step and a further detecting step. The invention solves the problem of reforming reduction because a traditional product can not accurately distinguish files of each district in the multi-file transfer process of IM software, realizes a function of accurately reforming and detecting each file in real time in the multi-file transfer process and has the advantages of high speed and accuracy, and the like.
+138. 101562560 Universal traffic control method and system
+CN
+21.10.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810104371.9
+Beijing Venus Info-Tech Co., Ltd.
+Sun Haibo
+H04L 12/56
+Loading...
+The invention relates to a universal automatic control method of network application traffic and a system thereof. The system comprises a network application feature base, a network application identifier, a policy rule base, an information extractor and a traffic control policy implementation device. Operation of the system comprises the following steps: a network application identification step, a related information extraction step and a traffic control policy implementation step. The system solves a problem that a traditional product is short of flexibility for network application traffic control, realizes real-time implementation of corresponding traffic control policy according to different rules in an actual network environment, can establish and implement proper traffic management policies according to actual requirements of user network condition, and has the characteristics of high speed, high accuracy and the like.
+139. 101562604 Non-cache model matching method based on message flow data
+CN
+21.10.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810104321.0
+Beijing Venus Info-Tech Co., Ltd.
+Xu Jinpeng
+H04L 29/06
+Loading...
+The invention relates to a non-cache mode matching method based on message flow data. When multi-message data is processed, the method can finish the model matching work crossing messages without a message cache. The method comprises the following steps: a matching model is read; the matching model is converted into a matching state tree; a matching initial state is initialized; the data to be matched is read; a matching program is invoked to carry out model match according to the current matching state; the current matching state is recorded; and if the match is successful, a matching result is reported, or else, the step for reading the data to be matched continues. The invention can finish the complete data model match of network data under the condition of not caching the message data, thereby greatly reducing time and space consumption caused by data cache and improving integrity properties.
+140. 101562603 Method and system for parsing telnet protocol by echoing
+CN
+21.10.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810104320.6
+Beijing Venus Info-Tech Co., Ltd.
+Yao Xi
+H04L 29/06
+Loading...
+The invention relates to a method and a system for parsing a telnet protocol by echoing, which are a method and a system for parsing an important protocol in an IDS/IPS and an audit product. The system comprises a special key character processing model base, a special character analyzer, a telnet data packet filter and an echoing sensitive data parser. The method is characterized by comprising a substep for establishing the special key character processing model, a substep for filtering and extracting telnet data and a substep for profoundly parsing echoing sensitive data. The invention solves the integrity problem that the traditional IDS/IPS product only depends on parsing the loading parts of all telnets requiring a data packet and improves the accuracy and the performance of telnet protocol parsing. The invention has the advantage of high integrity and accuracy of the telnet protocol parsing and can be widely used for network security products, such as IDS/IPS, audit, and the like.
+141. 101561806 Information extraction and audit method of DB2 database operation, device and system thereof
+CN
+21.10.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810104344.1
+Beijing Venus Info-Tech Co., Ltd.
+Sun Haibo
+G06F 17/30
+Loading...
+The invention discloses an information extraction and audit method of DB2 database operation and a device thereof. The method comprises the following steps: acquiring a data message exchanged between a DB2 database client side and a server, and then extracting all sq1 statements; detecting whether the extracted sq1 statements include variables, in the event of detecting the sq1 statements including the variables, identifying types of various variables of the sq1 statements including the variables in the database message; and extracting specific values of various variables of the sq1 statements including the variables from the database message according to the types of various variables. Correspondingly, the device comprises a sq1 statement extractor, a sq1 statement discriminator, a variable type identifier and a variable value extractor which are sequentially connected. The device can accurately extract the variables and the specific values thereof from the data message of the sq1 statements including binding variables and can be used for auditing.
+142. 101562528 Method for authorizing network audit software
+CN
+21.10.2009
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200810104319.3
+Beijing Venus Info-Tech Co., Ltd.
+Qiu Shaohong
+H04L 9/36
+Loading...
+The invention discloses a method for authorizing network audit software. The method comprises the steps: an MAC address or a CPU serial number or a serial number of a hard disc, and the like of an audit center are obtained to be used as a unique mark of a user ID; authorized information is encrypted by an asymmetric algorithm, the user only has a public key of the asymmetric algorithm, and a manufacturer has a public and private key pair of the asymmetric algorithm; and authorization inspection is carried out at the audit center, and the control end obtains an authorization inspected result by transmitting specific control information to the audit center. By using the invention, the authorization of the network audit software can be effectively guaranteed, and a product of an audit manufacturer is protected.
+143. 101552722 Method and device for managing network flow bandwidth
+CN
+07.10.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810103358.1
+Beijing Venus Information Technology Co., Ltd.
+Hua Dongming
+H04L 12/56
+Loading...
+The invention relates to a method and a device for managing network flow bandwidth. The method comprises the following steps: the flow is divided into source and destination IP flow, source and destination port flow and protocol flow according to the source and destination address of an IP, the source and destination port and the application layer protocol type; and the flow is divided into white flow, ashen flow and black flow according to different priority levels of the IP; and the flow is detected on the basis of the speed rate, the preset control actions are carried out according to the different detection results of the flow, and a data packet exceeding the speed limitation of the flow is discarded so that the data packet is transmitted at a speed lower than the limited speed. The network flow bandwidth can be managed by using the invention, and the network flow bandwidth can be classified, detected and controlled. Therefore, the network flow bandwidth can be effectively managed, the network bandwidth is effectively utilized, the congestion of the network flow is avoided, the abnormal network flow attack can be prevented, and a safe network environment with high service quality is provided for the network users.
+144. 101547127 Identification method of inside and outside network messages
+CN
+30.09.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810102850.7
+Beijing Venus Information Technology Co., Ltd.
+Xu Jinpeng
+H04L 12/26
+Loading...
+The invention relates to an identification method of inside and outside network messages, which is a method widely used for preventing network intrusion in a safety system and a network audit safety system for monitoring network messages. The identification method comprises an internet, a local area network, a computer terminal, a server, a workstation and a router, and comprises the steps of reading the network messages, obtaining TTL numerical values, analyzing and recording. The invention identifies the inside and the outside network messages according to the characteristics of the network messages, confirms the inside and outside network messages according to the decrement amounts of the TTL numerical values and identifies the inside network messages, the outside network messages and abnormal network messages according to the relation between the TTL numerical values and inside and outside network identification words. The method has very simple treatability method and very limited usage resources without special configurations and can achieve fast speed. The areas that attacking events occur can be confirmed by identifying the inside and outside network messages.
+145. 101547126 Network virus detecting method based on network data streams and device thereof
+CN
+30.09.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810102849.4
+Beijing Venus Information Technology Co., Ltd.
+Hua Dongming
+H04L 12/26
+Loading...
+The invention discloses a network virus detecting method based on network data streams and a device thereof in a TCP/IP network. The method comprises the steps of classifying network virus according to the types of host files, fragmenting the characteristics of the network virus according to different description types, recombining special numbers of network data packets into network data streams, matching the network virus characteristics after being classified and segmented with the network data streams, detecting implicit network virus in the network data streams and scanning format characteristics of webpage files in the matching process so as to detect embedded network virus. In the invention, twice matching can be carried out for the network data streams and the network virus characteristics to detect the embedded network virus, thereby the network virus spread in the TCP/IP network can be effectively and accurately detected, network users can be prevented from being attacked by network virus spread by a network, and a safe network environment is provided for the network users.
+146. 101527626 Storage and recovery method of static data during TELNET user operating process
+CN
+09.09.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200810101525.9
+Beijing Venus Information Technology Co., Ltd.
+Wang Zheng
+H04L 9/00
+Loading...
+The invention relates to a storage and recovery method of static data during the TELNET user operating process, which belongs to an important technology of network security. The method is characterized in that the one-time comprehensive display is performed to the entire operating process of the user on the basis of obtaining a TELNET data packet. The method comprises the following steps: the object of a CStringList (character string list) is defined, a packet grasping system is used for recording the conversation process of the TELNET at a time with unlimited storage form; the data transmitted to the client-side by a server is filtered out; a data structure is constructed and used for simulating the screen display; and the data transmitted to the client side by the server is analyzed. The invention has the advantages that the method solves the technical problem that the network data packet is stored in the database to be convenient for analyzed data transmission and transformation and is further more effective for checking the operating process.
+147. 101527649 Risk evaluation method and system based on security dependence relation
+CN
+09.09.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810101526.3
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 12/24
+Loading...
+The invention relates to a method and a system for risk evaluation based on security dependence relation, in particular to a method and a system which are applied to network security of the computer. The hardware used in the method comprises an internet; the method comprises the following steps: the risk probability of a connection event between dependency nodes is determined according to all the factors of the visit or service type; a security dependence tree is established by taking evaluated nodes as the root; the risk probability of the evaluated node is calculated; the calculated risk probability of the evaluated nodes is multiplied with the degree of significance of the evaluated nodes to obtain the risk of the evaluated nodes; and the invention establishes the security dependence relation between the evaluated nodes and other nodes by establishing the security dependence tree taking the evaluated nodes as the root and introduces a risk propagation mechanism into the risk evaluation. The invention not only considers the direct risk, but also considers the indirect risk caused by the dependence relation, therefore, the risk evaluation is more accurate and more objective.
+148. 101527648 State tree matching method capable of finishing integer matching
+CN
+09.09.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810101524.4
+Beijing Venus Information Technology Co., Ltd.
+Xu Jinpeng
+H04L 12/24
+Loading...
+The invention relates to a state tree matching method capable of finishing integer matching and finishing the numerical value matching of integers when finishing the universal parallel mode matching, in particular to a method used for intrusion monitoring and auditing of a computer or network and based on data monitoring. The method comprises the following steps: integer defining mode reading, state tree producing, data reading, mode matching and result reporting. The invention can finish the integer matching when finishing the character string matching, thereby increasing the matching speed, quickening the data detection and auditing speed, reducing the hardware expenses and improving the data detection and auditing efficiency.
+149. 101488168 Integrated risk computing method and system of computer information system
+CN
+22.07.2009
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200810056358.0
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06F 21/00
+Loading...
+The invention relates to a method and a system for integrated risk calculation of a computer information system, comprising the following functional modules: an original factor initial risk reliability valuator forms original factor initial risk reliability vector and a comprehensive risk reliability calculator connected with the original factor initial risk reliability valuator for calculating and evaluating the comprehensive risk reliability of the object; the method comprises the following steps: building risk level standard, analyzing the object and building weight, evaluating the original factor initial risk reliability, building risk reliability matrix, calculating the comprehensive risk reliability and quantizing the comprehensive risk. Evaluation factors are used as evidence of the evaluation object, and the risk of the evaluation object is calculated with an evidence synthesis method; the result of the evaluation factors is synthesized from the angle of the evidence, so as to be capable of directly expressing the uncertain or unknown factors in the evaluating process, and the information is kept in the synthesis process of the evaluation factors, thus leading the evaluation result to be more objective and real.
+150. 101478406 Method for real-time monitoring network operation behavior of remote user
+CN
+08.07.2009
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200810055631.8
+Beijing Venus Information Technology Co., Ltd.
+Hong Dong
+H04L 9/36
+Loading...
+The invention discloses a method for monitoring the network operation behavior of a remote user in real time. The method comprises the following steps: setting the ID of the remote user and grouping the network data packets according to the ID; resolving the grouped network data packets according to the different application layer protocols, and extracting the user operation commands from the resolved network data packets and displaying the operation commands on a monitor. The method achieves the effect of real-time monitoring of the operation behavior of the remote user who gets access to the monitored network, and provides the visual analysis basis for the network manager.
+151. 101471818 Detection method and system for malevolence injection script web page
+CN
+01.07.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710303985.5
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+The invention relates to a method for detecting a web page embedded with malicious scripts, and a system thereof, belonging to the technical field of computing network. The method comprises the following steps: traversing with a web page crawler and downloading all the web pages from a website to be scanned; performing cluster analysis on the downloaded web pages and extracting a web page cluster template; and detecting whether the web pages in the cluster contain embedded malicious scripts by using the web page cluster template. The system comprises a web page crawler module, a dynamic web page content flirtation module, a dynamic web page content clustering module, a web page cluster template extraction module and a embedded malicious script detection module.
+152. 101470779 Fuzzy risk evaluation system and method for computer information security
+CN
+01.07.2009
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200710303984.0
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06F 21/00
+Loading...
+The invention relates to a fuzzy risk evaluation system and a method of a computer message system, wherein the method comprises calculating out the fuzzy grade subjection degree of evaluation factors according to the risk judgment to the evaluation factors by users, combing the subjection procedure vectors of all the evaluation factors to be a fuzzy risk matrix calculator of a fuzzy risk matrix, calculating out a comprehensive risk counter of fuzzy risks of an integral system according to the fuzzy risk matrix of all the evaluation factors and weight vectors of the evaluation factors, and calculating out a system risk quantizer of risk deterministic vector values of the integral system according to the comprehensive fuzzy risk and risk level standard of the system. The invention has the advantages that fully considering the relationship among the evaluation factors, a subjection relationship table and a weight table of each factor are established through introducing a fuzzy calculating technique, thereby reducing subjective factors, and improving objective fairness of evaluation results.
+153. 101471926 Method and system for defining network behavior auditing access rule
+CN
+01.07.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710303983.6
+Beijing Venus Information Technology Co., Ltd.
+Li Yibo
+H04L 29/06
+Loading...
+The invention belongs to important application in the field of network safety, and relates to a method for defining a network behavior audit access rule. The method comprises the following steps: defining a part required to be concerned in each protocol into protocol variables through analyzing each application layer protocol; and anticipating a user to possibly operate by means of a network through appointing the values of the protocol variables, so as to further achieve the purpose of defining the user access rule.
+154. 101471781 Method and system for processing script injection event
+CN
+01.07.2009
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200710303986.X
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 9/36
+Loading...
+The invention discloses a script injection event processing method and a system. The method comprises the steps as follows: a script event output from a script injection detection system is received, whether an XSS attack behavior exists in the script event is detected and evaluated, and a result is output in the form of quantification. The script injection event processing method and the system provide the processing method for the detection of XSS attack, and provide a deterministic reference for a further action.
+155. 101465738 Real time monitoring method and system for document transmission
+CN
+24.06.2009
+H04L 9/36 Loading...
+H04L 9/36
+Loading...
+200710179693.5
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 9/36
+Loading...
+The invention relates to a method and a system for real-time monitoring in file transmission. The invention comprises a file transmission recognizer, a file reorganizer, a session information recorder, a detection rule base, a detection engine and a warning message constructor. The operation process includes the followings, a file transmission action recognition step, a file reorganization step, a session information recording step, a further detection step and a warning message construction step. The invention solves the problems that the whole file detection is performed after the file is transmitted, and the warning operation has poor real-time performance in a traditional product, and realizes real-time detection and warning function in file transmission process, and has the advantages of high speed and high accuracy.
+156. 101465760 Method and system for detecting abnegation service aggression
+CN
+24.06.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710179694.X
+Beijing Venus Information Technology Co., Ltd.
+Deng Wei
+H04L 12/26
+Loading...
+The invention relates to a method and a system for detecting denial of service attack; the invention is on the basis of a bloom counting filter and sufficiently utilizes the characteristic of heavy-tailed distribution of IP addresses and/or ports in the attack occurring process in actual network, and is able to detect the denial of service attack behavior in actual network. The invention includes a data acquisition and analyzing module, an information storage module, an information statistic module, a detection module and an alarm module. The invention adopts bloom filter and compressed data recovery technology to overcome the problem of high computation resource cost due to maintenance and IP address space traversing, and realizes the advantages of improving retrieval speed and detection performance. The invention is applied to network intrusion detection system or network intrusion prevention system and is able to finish the detection of denial of service attack under large traffic situation in actual network.
+157. 101459548 Script injection attack detection method and system
+CN
+17.06.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710179538.3
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+A script injection and attacking detection method and a system belong to the technical field of computing network, wherein the method comprises requesting and obtaining by HTTP, extracting user input data from HTTP request, doing script injection and attacking detection to user input data, and alarming script injection and attacking affairs and the like, wherein script injection and attacking detection step to user input data comprises decoding user input data, analyzing document object model structure, extracting document object model script and detecting script grammar and the like. The script injection and attacking detection system comprises an HTTP requesting and obtaining module, a user inputting data extraction module, a script injection and attacking module and a script injection and attacking alarm module, wherein the script injection and attacking detection module comprises a user input data decoding module, a document object model structure analyzing module, an injection script extracting module and a script grammar detecting module. The script injection and attacking detection method and the system are suitable for applying in Web service security insurance products.
+158. 101453358 Sql sentence audit method and system for oracle database binding variable
+CN
+10.06.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710178850.0
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention relates to a method and a system for accurately auditing of sql statement of an oracle database binding variable, in particular to a method and a system for variable extraction, valuation and in-depth audit of the sql statement of the binding variable used in the oracle database operation process of network business audit products. The system comprises a database type identification locator, an sql statement locating and variable extractor, and a variable valuation extractor and an audit system. The method is characterized in that the method comprises the steps of database type identification and locating, sql statement locating and variable extraction, and variable valuation extraction and audit. The invention solves the problem of the accuracy of the sql statement audit of the binding variable during the oracle database operation audit carried out by the prior audit product. In addition, the system and the method also have high efficiency and can be widely applied to the network business audit products.
+159. 101453320 Service identification method and system
+CN
+10.06.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710178849.8
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 9/00
+Loading...
+The invention relates to a method and a system for recognizing services. The system comprises a protocol analyzer, a service recognizer, an attack feature base, an actual detection rule base and so on. The method comprises the steps of protocol recognition, service recognition, generation of the actual detection rule base, and deep detection. The method and the system have the advantages of high detection speed, high accuracy and so on when realizing service recognition simultaneously.
+160. 101453359 Database error information extracting method and system
+CN
+10.06.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710178852.X
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention relates to a method and a system for extracting database error message, in particular to a method and a system for extracting the error message returned from a server side during the operation of six frequently-used databases and carrying out related operation audit used in network business audit product. The system comprises a database type identification locator, an error message return package locator, an error message locating and extracting device, an error code library and an audit device. The invention solves the problem that the audit of the error message returned from the server side in the database operation process is lacked in the prior audit product, and overcomes the defects that the error message audit is difficult because different database types use different protocols. The invention has very good expansibility. For new database types, the system and the method have flexible expansibility to expand audit range and very high extraction efficiency and accuracy for the error message of the different database types, and can be widely applied to network business audit products.
+161. 101442518 Protocol analysis method and system for abnormal detection
+CN
+27.05.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710177903.7
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/06
+Loading...
+The invention relates to a protocol analysis method and a protocol analysis system used for anomaly detection. The protocol analysis system comprises an abnormal key field logger, an abnormal key field library, an integrator, a protocol analyzer and an anomaly detector. The protocol analysis method comprises the steps of registration of abnormal key fields, integration of the abnormal key fields, protocol analysis and anomaly detection. The invention adopts a protocol analysis mechanism used for abnormal detection and designs a good communication means between an anomaly detection module and a protocol analysis module, so that the system has the advantages of quick anomaly detection speed, high accuracy and so on.
+162. 101441664 Paralleling multiple-mode matching method and system of matching regulation including choosing character
+CN
+27.05.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810239201.1
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06F 17/30
+Loading...
+The invention relates to a system and a method for parallel multiple patterns matching with matching rules containing selectable characters. The system comprises a matching automaton generation module and a matching execution module, wherein the matching automaton generation module is used for reading an original matching rule set, each selectable mode, which corresponds to the selectable characters, of original matching rules containing the selectable characters in the original matching rule set is generated into a new matching rule, determined original matching rules which do not contain the selectable characters are taken as new matching rules corresponding to the original matching rules which do not contain the selectable characters, and all the new matching rules are generated into an AC automaton according to an AC algorithm; and the matching execution module is used for reading a search object, the AC automaton is applied to the matching search according to the AC algorithm, whether the search object is matched with one new matching rule is judged, the matching is successful if the search object is matched with one new matching rule, and the original matching rule corresponding to the matched new matching rule is output. The system and the method can use the AC algorithm to perform the matching to the matching rules containing the selectable characters.
+163. 101442519 Method and system for monitoring P2P software
+CN
+27.05.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710177904.1
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/06
+Loading...
+The invention relates to a P2P software monitoring method and a P2P software monitoring system capable of being used in network products. The method and the system can extract various protocol features during network protocol communication according to information carried by actually captured messages, so as to realize monitoring of P2P application, and can implement interdiction of different strategies according to actual demands and aiming at different running states. The method and the system comprise three stages of establishment of a protocol feature model, application stage identification and positioning, and implementation of corresponding interdiction strategies, wherein a module for establishing the protocol feature model works out matching features of specific states of detailed P2P application; an application stage identification and positioning module realizes positioning of application states and protocol states affiliated to detailed data messages in the multi-pattern matching mode; and a corresponding interdiction strategy module realizes establishment and correlation of related strategies and corresponding monitoring function.
+164. 101436956 Method and system for measuring and calculating database operation response time
+CN
+20.05.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710177198.0
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/24
+Loading...
+The invention provides a method for measuring database operation response time and a system thereof. The system comprises a specific database operation request extractor, a service end returned information positioner and a specific operation response time calculator. The method is characterized by comprising: a step of extracting a specific database operation request; a step of positioning service end returned information; and a step of calculating specific operation response time. The method and the system solve the problem that the prior auditing product lacking calculation to the database operation response time can influence application of the database, can terminate certain operation without response or with excessive response time to improve the using efficiency of the database, can effectively reflect occupancy situation of various database operations to the system resource, and can effectively adjust and guarantee the operating performance of the database system. Furthermore, the realization process of the system sufficiently considers the flexibility and expansibility, and only adds database identification features for a novel database without great modification to the system. Therefore, the method and the system can be widely applied to network service auditing products.
+165. 101426008 Audit method and system based on back display
+CN
+06.05.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710176510.4
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/06
+Loading...
+The invention relates to a auditing method and system based on echoing, especially a method and system for determining auditing range and performing accurate network service behavior auditing for network service auditing product by using echoing. The invention comprises network service operation content extractor, echoing information recognizer, auditing device. The invention is characterized as following steps: network service operation content extraction step, echoing information identifying step, auditing step. The invention solves problem that auditing range is not accurate because traditional auditing product only depends on protocol resolving technology for auditing network service behavior, and safety problem for protecting certain private information, thereby implementing accurate network service behavior auditing and simultaneously protecting user private information; the auditing system has very high efficiency and accuracy and can be widely used in network service auditing product.
+166. 101426000 General protocol parsing method and system
+CN
+06.05.2009
+H04L 29/02 Loading...
+H04L 29/02
+Loading...
+200710176509.1
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/02
+Loading...
+A general protocol resolving method and system comprises an engine, general protocol resolving console, general protocol resolving control module, arrestor, memory, protocol resolving device. The operation comprises following steps: registering of protocol and field, trapping, protocol resolving and data processing. The general protocol resolving system of the invention solves problem of traditional network safety product depending on only port for protocol resolving, adds intelligent elicitation type protocol resolving function, possesses good design structure and strong resolving ability; the system adopts plug-in interface technology for protocol resolving and has merits of quick protocol resolving speed, high accuracy and good expandability.
+167. 101425937 SQL injection attack detection system suitable for high speed LAN environment
+CN
+06.05.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710176772.0
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+SQL injection attack detection system adapting to high speed LAN environment comprises data acquisition module, data pretreatment module, filter module for object to be detected, SQL injection attack detection module and SQL injection alarming module. The data acquisition module acquires network data pack related with HTTP service from protected network; data pretreatment module resolves operation and establishes object to be detected and transmits to the filter module for object to be detected based on TCP stream reassembly and HTTp protocol; the filter module for object to be detected matches URL of every object to be detected according to filtering rule sequence established, and performs designated processing action of matched filtering rule. The Web object type of HTTP request is divided into static Web type and dynamic Web type; static Web type HTTP requests during real time SQL injection attack detection is filtered out, which largely relieves processing pressure for SQL injection attack detection module, reduces rate of false alarm.
+168. 101425936 Macro network security status assessment method based on exception measurement
+CN
+06.05.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710176511.9
+Beijing Venus Information Technology Co., Ltd.
+Zhao Dongbin
+H04L 12/26
+Loading...
+A macro network safety state grade method based on abnormal measurement comprises: defining modeling parameter and grade standard, collecting sample data, extracting index variable for describing network safety state; extracting regularity factor capable of reflecting network operation state, filtering contingency factor, establishing network normal operation state model according to index variable extracted from sample data; collecting data to be detected, computing intensity of abnormality of detecting data and normal model; computing the normalized grade of the index according to intensity of abnormality of every index variable , giving the normalize grade of network integral state according to significance of the index variable. The invention can regulate modeling parameter and grading standard of every index variable, describe present state of important index variable of present network and integral state of network according to different involvement of every index variable in different network environment; the invention has merits of real time, accuracy, quantification and configurability.
+169. 101398820 Large scale key word matching method
+CN
+01.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710122231.X
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+G06F 17/30
+Loading...
+The invention provides a matching method used for large-scale key words, comprising a pre-processing stage and a mode matching stage; the pre-processing stage comprises a key word characteristic string cutter, the structure of a plurality of simple bloom filter based on key word characteristic string sets, and a Hash table structure based on the key word characteristic string sets; the mode matching stage comprises the steps as follows: quick judgment that the text string in the current window is not matched with any key word characteristic string is achieved by the simple bloom filter series of previous structure; the precise match with candidate key words is executed under a failed judgment condition; during the text scanning process, current hash values of the current text corresponding to all simple bloom filters are quickly calculated by a recursive algorithm. The matching method sufficiently uses the characteristics that the match success rate of the text to be matched and the key words is extremely low and the recursive hash arithmetic has high efficiency, can realize the high-speed match under the condition of large-scale key words, and is extremely suitable for online virus scanning application such as virus detection and the like.
+170. 101399710 Detection method and system for protocol format exception
+CN
+01.04.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710175418.6
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/26
+Loading...
+The invention relates to a method used for detecting the anomalies of protocol format and a system thereof; the system comprises a detection key field library, a practical detection rule library, a grammar analyzer, a protocol analyzer and a protocol format anomalies detector; the method comprises the steps as follows: establishing of the detection key field library, establishing of the practical detection rule library, data extraction and deep detection. The method and the system solve the performance problem that only misused detection is used for carrying out mode matching on the load part of all data packets in the prior art. The method and the system adopt the grammar analyzer which has powerful function so as to lead the extension of the system to be extremely convenient, can automatically generate the practical detection rule and corresponding processing function correlation, have the advantages of fast detection speed for protocol format anomalies, high exactness and the like, and have wide application prospect.
+171. 101399658 Safe log analyzing method and system
+CN
+01.04.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710122232.4
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 9/00
+Loading...
+The invention discloses a method for analyzing a security log and a system thereof, which realizes filtration of invalid logs and misreported logs in mass logs, and discovers large-scale network security events and common attack sequences. The method comprises the following steps: the mass logs are subject to cluster analysis by the attribute-oriented inductive algorithm so as to generate class description of each class of log after clustering; an administrator sets filtration regulations according to the clustered class description, unrelated and misreported logs are removed from the current log base so as to simplify the mass logs; Internet Worms, distributed denial of service attacks and other large-scale network security events characteristics are extracted; the simplified log is subject to sequential pattern mining to find attack behavior sequence description commonly used by attackers to be finally submitted to the administrator. The system comprises a clustering analysis module, a filtration module and a sequential pattern mining module. The method and the system can be applied to information processing of the mass logs of security products.
+172. 101394267 Security information management system and method based on general normalized labeling language
+CN
+25.03.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200810223695.4
+Beijing Venus Information Technology Co., Ltd.
+Duan Wenguo
+H04L 9/00
+Loading...
+A system and a method for safety information management based on universal standardized label language create the system design on the basis of the grammatical rule of the VNML language. The system actively or passively acquires security incidents from all systems including an intrusion detection system, a firewall, an operating system, application software and an anti-virus system; and the transformation into a rule in accordance with the standard format of the VNML language is conducted according to the data format of the incidents. The system comprises a standardized scheduling module, a data structure management module, a rule management module, a mapping management module and a type conversion module. The guiding star standardized label language can customize various data structures and the standardized strategies thereof according to journals or alarming sample formats of different users to design standardized safety information management systems that satisfy the requirements of different users; and the system can provide a user-customizable interface, thereby bringing convenience to developers and the users to conduct field maintenance and management.
+173. 101388899 Front-background related auditing method and system for Web server
+CN
+18.03.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200710121669.6
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 29/08
+Loading...
+The invention discloses a Web server foreground background association audition method and system thereof which realize the association of the background with the concrete http access happening on the foreground. The method comprises: acquiring the foreground and background access happening respectively though a safety audition equipment; implementing sequence division to the foreground and background access happenings; mining the sequential pattern of the divided happening sequences to find the time sequence relation between them; confirming the http access which triggers the background access according to the acquired relations. The system comprises: a sequence dividing module, a self-learning module and a real time monitoring module. The invention is adapted to the service audition for Web server.
+174. 101388044 Paralleling multi-mode matching method and system for containing operator in matching rules
+CN
+18.03.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810225563.5
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06F 17/30
+Loading...
+The invention discloses a parallel multiple-pattern string matching system and a method, wherein matching rules of the system include OR operators. The system comprises a generating module and a matching module, wherein the generating module is used to read a rule set containing the matching rules, and to cut the matching rules containing the OR operators in the rule set into sub-rules of the matching rule at the position of the OR operators, the sub-rules are validation rules, the matching rules which are centralized as the validation rules are used as sub-rules of the matching rules, then all the sub-rules are used to generate an Aho-Corasick automaton according the Aho-Corasick algorithm, the matching module is used to read search targets and to carry out searching by using the Aho-Corasick automaton according to the Aho-Corasick algorithm, thereby determining whether the search target matches with at least one sub-rule of the matching rules or not, and if matching, the search target matches with the matching rule so as to output the matching result. The invention can apply the Aho-Corasick algorithm to match the matching rules containing the OR operators.
+175. 101388768 Method and device for detecting malicious HTTP request
+CN
+18.03.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200810224571.8
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 9/00
+Loading...
+The invention provides a method and a device for detecting malicious HTTP requests, wherein the device comprises a network construction unit of Web access relationship and a detecting unit of malicious HTTP requests, wherein the network construction unit of Web access relationship is used for constructing a Web access relationship network for a to-be detected Web site, the network of Web access relationship embodies the fixed Web page access order of the Web site, the detecting unit of malicious HTTP requests is used for judging whether the HTTP requests which are sent to the Web site are corresponding with the fixed Web page access order of the Web site, if the requests are not corresponding with the order, the HTTP requests are judged as the malicious HTTP requests. The method and the device of the invention utilize the fixed Web page access order of the Web site to effectively detect the malicious HTTP requests.
+176. 101388010 Oracle database audit method and system
+CN
+18.03.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710121667.7
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+G06F 17/30
+Loading...
+Disclosed are an Oracle database audit method and a system thereof. The system comprises a user terminal driver type locator, a jdbc driven environment protocol resolver, a behavior feature keyword library, an odbc driven environment behavior feature matching and auditing information locator and an audit device. The method comprises steps of locating user terminal driver types, creating a behavior feature keyword library, locating the odbc driven environment behavior feature matching and auditing information, analyzing jdbc driven environment protocol, and auditing. The invention solves the problem of inaccuracy caused by singly depending on protocol analysis when auditing operation behaviors of the Oracle database or the system property problem caused by singly depending on feature matching in the conventional audit products, and the invention has flexible expandability upon the Oracle database edition, expands audit scope, has high audit efficiency and accuracy for various editions, and is applied to audit products of the network service.
+177. 101388763 SQL injection attack detection system supporting multiple database types
+CN
+18.03.2009
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710121668.1
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 9/00
+Loading...
+The invention relates to an SQL injection attack detecting system which supports multiple types of databases, which comprises a data acquisition module, a data preprocessing module, SQL injection attack detecting modules, an SQL injection alarming module and a classification transferring module. The system may comprise a plurality of the SQL injection attack detecting modules, and each of the SQL injection attack detecting modules respectively creates SQL injection attack detecting grammar rules based on the expanded SQL grammar of the data base types which are related with the SQL injection attack detecting modules, each of the SQL injection attack detecting modules is bound with the destination address of a certain Web application server, thereby the SQL injection attack detection of all to-be detected objects which have the same determination address is realized. The system fully considers the differences of the SQL grammar of various types of the databases, classifies the to-be detected objects according to the destination address of the Web application server, and detects the objects by the SQL injection attack detecting module which supports the SQL grammar expansion of the specific types of the databases, and greatly reduces the under-reporting problems in the SQL injection attack detecting modules.
+178. 101377816 Method and system for matching paralleling multiple-mode of matching regulation including displacement indication symbol
+CN
+04.03.2009
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+200810117945.6
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+G06K 9/62
+Loading...
+The invention relates to a parallel multimode matching system with matching rules including displacement designators and a method thereof. The system comprises a generation module used for reading the rule gathers including matching rules; a matching module used for reading search objects and searching. The generation module is used for dividing the matching rules including the displacement rules in a centralized way into subrules at the displacement designators; the subrules are determinant rules; the displacements corresponding to the subrules connected behind the displacement designators are the displacements specified by the displacement designators; the matching rules which are determinant rules are the subrules of the matching rules; all of the subrules are generated into Aho-Corasick automatons according to Aho-Corasick algorithms. The matching module is used for determining whether the search objects match with all of the subrules according to priority; the subrules connected behind the displacement designators are matched according to the displacements corresponding to the subrules; if the search objects match with the subrules according to the priority, the search objects are matched with the matching rules; and the matching results are output. In this way, Aho-Corasick algorithm can be applied for parallel multimode matching of the matching rules including the displacement designators.
+179. 101359325 Multi-key-word matching method for rapidly analyzing content
+CN
+04.02.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710119845.2
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+G06F 17/30
+Loading...
+The invention discloses a quick content analysis multi-keyword matching method which includes the preprocessing stage and the pattern matching stage; wherein, the preprocessing stage includes the keyword characteristic string clipping, the establishment of the keyword character segmentation set, the Bloom Filter (bloom filter) construction based on the keyword character segmentation set and the original keyword set linear table construction; the pattern matching stage includes the quick judgment that the text string in the current window is not matched with any keyword characteristic segmentation is realized according to the Bloom Filter; the accurate matching of the text string and the candidate keyword is realized through the character string comparison only under the situation that the quick judgment is failed; the text matching window skips in high speed with continuous multibytes. The quick content analysis multi-keyword matching method utilizes the very low success matching rate of the text for being matched and the keyword to realize the high-speed matching under the large quantity of keywords scene so that the multi-keyword matching method is very applicable to the online virus scanning application such as the virus detection.
+180. 101350745 Intrude detection method and device
+CN
+21.01.2009
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810117941.8
+Beijing Venus Information Technology Co., Ltd.
+Zhou Lidan
+H04L 12/26
+Loading...
+The present invention relates to an intrusion detection method and a device thereof. The method distributes one or more than one detection units to various types of network attacks to be detected, and is provided with the type of the object to be detected in the network attack of the type, a detection operator and a detection knowledge base. When the intrusion is detected, the real-time network data packet which comprises the object to be detected is acquired; the corresponding detection unit detects the intrusion according to the configured detection operator and the detection knowledge base, so as to generate the occurrence of alarming the network attack. The intrusion detection device orderly comprises a data pre-processing unit, a data distribution unit, a detection network which comprises one or more than one detection units, and a configuration management which is used for managing the connection of the unit. The method supports the precise detection of various complex network attacks, and comprises the detection efficiency of the whole intrusion detection device.
+181. 101312393 Detection method and system for SQL injection loophole
+CN
+26.11.2008
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710099534.4
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 9/00
+Loading...
+The invention discloses a key technique-SQL injection vulnerability detection technique of a host vulnerability scanning system as one important product for network security. The SQL injection vulnerability detection technique is characterized by submitting normal access request data and different types of SQL injection data to a server, receiving results returned by the server, then cross-comparing the returned results of different requests, and further determining exists of SQL injection vulnerabilities from the processing of submitted data by the server according to the compared results. To-be-certified website addresses are defined by means of website crawler, browser plug-in and manual input. One or a plurality of attacking templates of four different types of attacking templates can be selected to detect exists of SQL injection vulnerabilities on the to-be-certified websites. And the exists of SQL injection vulnerabilities during processing the user-submitted data by the server can be judged through cross-comparing the returned results of the normal access requests and SQL injection statements, under the condition that the server shields error information.
+182. 101309179 Real-time flux abnormity detection method on basis of host activity and communication pattern analysis
+CN
+19.11.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710099395.5
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+The invention relates to a detection method of analyzing the real-time anomaly traffic based on the host activeness and the communication mode; the invention can determine the occurring time of the anomaly traffic, identify the event type of the anomaly traffic and process physical positioning towards the anomaly traffic event under the high-speed network environment. The invention includes the WAN provides various network services, a region network and a LAN connected with the WAN and a concentration detection device on which a sampling unit, an extracting and computing unit, a comparing unit and a knowledge base unit are arranged; the detection method establishes the communication modes of various types of anomaly traffic based on the prior knowledge; the communication mode of an active host in the network is extracted to be compared with the communication modes of various types of anomaly traffic event so that the anomaly traffic event occurred on the active host can be identified; the supported anomaly traffic detection events include the Alfa traffic, various Flood events, the Flash-Crowd, the port scanning, the network scanning, the equipment failure and the worm scanning event.
+183. 101286988 Parallel multi-mode matching method and system therefor
+CN
+15.10.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810104416.2
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 29/06
+Loading...
+The invention relates to a parallel multi-mode matching method and a system. The system comprises a generation module and a matching module, wherein, the generation module is used for reading a rule set including matching rules; matching rules comprising asterisk wildcards in the rule set are divided into sub rules of the matching rules from the asterisk wildcards; the sub rules exclude the asterisk wildcards; matching rules excluding asterisk wildcards in the rule set are the sub rules of the matching rules; all sub rules are generated into an AC automaton according to AC algorithms and output from the AC automaton; the matching module is used for reading a search object and the AC automaton which is applied to searching according to the AC algorithms; whether the search object matches all sub rules of the matching rules according to the sequence of the sub rules in the matching rules is judged; if so, the search object matches the matching rules, and matching results are output, thereby not only retaining the high efficiency of the AC algorithms, but also matching indefinite rules comprising the asterisk wildcards.
+184. 101267357 A SQL injection attack detection method and system
+CN
+17.09.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710145398.8
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 12/26
+Loading...
+An SQL injection attack detecting method and system are provided, comprising building phase of SQL injection attack detecting knowledge base and detecting phase for real-time SQL injection attack. The build of SQL injection attack detecting knowledge base comprises collection of SQL injection attack sample for sorts of scenes, classification of SQL injection ways, and build of SQL injection attack detecting grammar rules aiming at sorts of SQL injection ways; the detecting phase for real-time SQL injection attack comprises extraction and decoding of user inputting data in HTTP request message and matching of the SQL injection attack detecting grammar rules and so on. This invention defines the SQL injection attack detecting grammar rules by using SQL grammar instead of defining the SQL injection attack detecting grammar rules based on the traditional attack characteristic. The invention overcomes shortcomings of uneasy extraction and inclined fraud of the attach characteristic sign of the SQL injection attack incident, which significantly reduces rate of wrong report and rate of missing report while invading the detecting system for detecting SQL injection attack.
+185. 101262373 A computer network instrument location system and method
+CN
+10.09.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810104417.7
+Beijing Venus Information Technology Co., Ltd.
+Hu Zhenyu
+H04L 12/24
+Loading...
+The invention relates to a computer network intrusion positioning system and a method thereof. The method comprises the following steps: the existing network node security dependency relationship network which comprises an intrusion prior probability of each node and a probability of hackers successfully attacking the network by utilizing security dependency relationship between the neighboring network nodes is obtained; information of monitoring nodes is obtained; a security dependency-tree with monitoring nodes as root nodes is established according to the network node security dependency relationship, and the leaf nodes of the security dependency-tree are determined; the intrusion factors of the leaf nodes of the security dependency-tree are calculated according to the probability of hackers successfully attacking the network by utilizing security dependency relationship between the neighboring network nodes in the security dependency-tree and the intrusion prior probability of the leaf nodes, thus determining information of the intrusion starting nodes. The system and the method of the invention can rapidly position the intrusion site.
+186. 201114112 一种用于以太网数据安全传输的网卡连接结构
+CN
+10.09.2008
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+200720149388.7
+北京启明星辰信息技术有限公司
+许金鹏
+H04L 12/02
+Loading...
+一种用于以太网数据安全传输的网卡连接结构，数据的传输不形成回路，两台主机的4块网卡交叉互联，把两个不同网络连接在一起，但每对网卡之间只有一个连接线，不形成回路。本实用新型的有益效果是，本系统的联接方式是通过数据传输往返路径分离，使单个网卡上只有单向的数据传输，从而使任何应用层网络协议都无法有效运行，达到2个网络的安全隔离。再通过其上运行的专用软件和专用网络协议，同时处理2个网卡上接收和发送的数据，完成数据的有效传输。数据传输的协议栈是专用协议栈，这样就使基于传统TCP/IP协议栈和传统传输模式的网络入侵和攻击行为成为不可能，从而使被保护网络免受病毒、木马、间谍软件等各类有害事件的灾害之苦。
+187. 101184094 Network node scanning detection method and system for LAN environment
+CN
+21.05.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710178851.5
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention relates to a network node scanning detection method and system applicable to both the local network environment and the high-speed local network environment, comprising a network terminal and a local network. The invention is composed of a data gathering procedure, a DNS analysis and monitoring procedure, a suspected network visiting and filtering procedure, a suspected network visiting statistics procedure and a network scanning and detecting procedure. The invention is characterized in that all the network visiting access requests sent by the nodes of each mainframe are correlated with the IP address lists analyzed by the DNS recently in the local network and the network visiting access requests related to the normal network visiting flow rate are filtered to the maximum extent. By adopting the suspected network visiting access request response rate and the target IP address divergence of the suspected network visiting access request as the network scanning detection index, the invention has the advantages of the application to the network safety products of monitoring the scanning behavior of the nodes of each mainframe in the local network by the network node scanning detection system in the local network environment.
+188. 101150432 An information system risk evaluation method and system
+CN
+26.03.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710120723.5
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 12/24
+Loading...
+This invention discloses a method and a system for risk evaluation of an information system, in which, the method includes: computing the risk value of each asset in the information system and computing the risk value of the information system according to the risk values of the assets, and the computation is based on a probability model. A risk evaluation system is installed on the UE of the internet containing a vulnerability scan unit, an asset value defining unit, an asset safeguard defining unit and a risk evaluation unit of the information system, which can quantize the risk values of assests and the information system together in an appointed fixed space and the quantized result shows the degree of vulnerability of assests or the information system.
+189. 101141326 Flux detecting method and system for self-adaptive sampling
+CN
+12.03.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710175419.0
+Beijing Venus Information Technology Co., Ltd.
+Ding Yong
+H04L 12/26
+Loading...
+The utility model provides a adaptive sampling flow test method which searches the sampling period table to obtain the correspondent sampling period; the message is randomly sampled within the sampling period; based on the sampled message's features, the overall features of the message can be produced within the sampling period; If the adaptive ruling condition is reached, searching the sampling period table again to conduct the sampling with repetition. The utility model has the advantages that the flow examination with certain accuracy can be realized while the detection performance is not affected or only slightly influenced.
+190. 101141416 Real-time rubbish mail filtering method and system used for transmission influx stage
+CN
+12.03.2008
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200710175417.1
+Beijing Venus Information Technology Co., Ltd.
+Zhang Ni
+H04L 12/58
+Loading...
+The present invention relates to a method and a system for filtering a real-time junk mail. A mail text and mail description information are extracted first, an algorithm is generated by adopting an efficient characteristic pattern to switch the mail text to be a combination of a plurality of fingerprints, to represent an original mail. If the memory has no mail with the similar content with the current mail, a mail class is created in the memory, and the information about fingerprint and description of the current mail is preserved; only the description information in the mail class is updated, if the mail number contained in the mail class exceeds the predefined threshold value of the junk mail, the mail class is taken as a junk mail class, and the mails distributed to the class at later times are determined as junk mails by a filtering system. The present invention can effectively identify the junk mail with a small amount of fingerprints, the maintenance cost is low, and the user privacy is not violated; the present invention has perfect performance in the execution efficiency and in the memory expenses, the present invention is used for filtering the junk mails under a great flow capacity environment, the problem that the junk mains occupy the network band width is abated, thus the utilization ratio of the network resources is improved, and simultaneously the filtration pressure of the client side is reduced.
+191. 101119241 Condition detection based protocol abnormity detecting method and system
+CN
+06.02.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710120722.0
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 12/26
+Loading...
+The present invention relates to a based on a status measure protocol abnormal measure method and system. The foundation of a protocol normal running state model comprises the examination of a protocol formal description expression and the making of a correlation protocol state machine; a protocol running state orientation moment realizes the exact orientation of the used protocol state in the present conversation towards the exact network communication data message; a protocol running state moving moment realizes the forecast of the next likely ongoing state moving and makes a normal state running concourse of the after-orientation protocol state; an abnormal examination moment judges whether the present protocol running accords with the protocol standard model and return the examination result by the gained subsequent message and the forecast running concourse. The present invention can check the correlative abnormal protocol in the network protocol communication process according to the exact protocol of the practically gained message and can conveniently expand the protocol normal running model according to the practical requirement.
+192. 101094234 Method and system of accurate recognition in P2P protocol based on behavior characteristics
+CN
+26.12.2007
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710119333.6
+Qimingxingchen IT Tech Co., Ltd., Beijing
+Sun Haibo
+H04L 29/06
+Loading...
+In the network protocol communication process, the invention can extracts the behavior feature from the information carried by the captured message, and based on the behavior feature, realizes the accurate identification to P2P protocol. The method comprises behavior feature model base, protocol state location multi mode match module, protocol state migration module, attach detection/audit module. Said protocol behavior feature model base is used to create the matching feature of protocol dedicated state; the protocol state location module is used to use multi mode matching approach to realize the location for protocol state of data message; the protocol state migration module is used to realize the migration tracing for the protocol running state; the attack detection/auditing module is used to call the relevant detection or auditing function according to the pre-stage output result.
+193. 101068168 Main machine invading detecting method and system
+CN
+07.11.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710098609.7
+Beijing Qimingxingchen Information Technology Co., Ltd.
+Gong Sheng
+H04L 12/26
+Loading...
+A method for detecting intrusion on host includes correlating intrusion with abnormal behavior on host and defining out response mode, setting arrangement mode to support multilevel cascade being able to be suitable to complicated network environment, defining how to make interaction between supervisor and intrusion detection system and defining characters of system operation.
+194. 101039179 Method and system for warning accurately intrusion detection
+CN
+19.09.2007
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710065442.4
+Beijing Venus Information Technology Co., Ltd.
+Zhou Tao
+H04L 9/00
+Loading...
+The invention relates to the key technology of a network intrusion detecting system as one of the important product for network safety, which is called network intrusion precisely alarming technology. The technology is characterized in that attack event information is correlated with target host information on the base of capturing suspicious intrusion event to judge the effectiveness of the attack event. The information of a protected host can be defined on two ways, anthropogenic input or introducing the scanning result. Weather an intrusion event can result in intrusion to the target host is judged according to the open port, operation system and existing leak information of the target host, thus the reported intrusion event can be filtered for precisely alarming. Weather an intrusion event should be displayed is judged according to the precisely alarming filtering result, thus the interference of ineffective event can be eliminated and the NIDS false alarm rate can be reduced.
+195. 101038549 A software updating method capable of crossing system
+CN
+19.09.2007
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200710064892.1
+Beijing Venus Information Technology Co., Ltd.
+Zheng Li
+G06F 9/44
+Loading...
+The invention relates to a trans-system software upgrading method which belongs to the software technology field, comprising the steps of: defining the upgrading instruction file, making the upgrading package using the packing program on the novel-edition software system, executing the upgrading process on the system to be upgraded, reading the upgrading package and checking the integrity, validity and adaptability of the package, upgrading in terms of the package information which probably includes the adding, deleting, changing, starting or stopping of the process or the restart of the system and recording and baking up the system state changed by each operation step, outputting the upgrading result, if any abnormality occurs, the system will be restored to the pre-upgrade state; or else the edition information will be updated and the back up information will be deleted. The upgrading process supports roll-back function, thereby the soft system can be ensured at the utmost to retreat to the original state when the upgrading fails.
+196. 101034974 Associative attack analysis and detection method and device based on the time sequence and event sequence
+CN
+12.09.2007
+H04L 9/00 Loading...
+H04L 9/00
+Loading...
+200710064933.7
+Beijing Venus Information Technology Co., Ltd.
+Chen Yu
+H04L 9/00
+Loading...
+This invention is based on the time and events sequence to analysis attacking detection methods and devices involved in exchange for the function of the network. It is a methods and devices to prevent removing data from the data transmission channel without permission .The method provides a complex text-based attack description language to make the user can amend the built-related characteristics, and add new features of related events. The present invention include: basic rules of the incident, the rules of the association, first level detection engine, correlation analysis engine. The whole process of attacking are described more comprehensive and reasonable taking into account the time factor and the order of events Such description and testing which distinct the basic incidents more carefully are more in line with the requirements of detecting attacks. The invention also describes the relation between alarm incident and not alarm incident.
+197. 101035111 Intelligent protocol parsing method and device
+CN
+12.09.2007
+H04L 29/02 Loading...
+H04L 29/02
+Loading...
+200710065443.9
+Beijing Venus Information Technology Co., Ltd.
+Sun Haibo
+H04L 29/02
+Loading...
+The invention relates to smart agreement analytical methods and devices used for intruding detection defense (IDS / IPS) and audit products. The purpose of the invention is to provide an agreement not to rely solely on the static ports and matching agreement characteristics of intelligent field protocol analysis technology and analytical format of the agreement is automatically adjusted in different versions of the software and gives accurate results, which enhanced the accuracy of the analysis of the agreement. The invention consists of three major steps: the establishment of agreements features model; agreement recognition; intelligent analysis of that agreement. This invention solved the traditional IDS / IPS products for the non-standard ports or did not have static characteristics of field data packet network protocol identification of problems but for some applications or different versions of the agreement, such as the reasons for the analytical results can provide automated error rectification work.
+198. 1972288 A customizable IDS communication method and system
+CN
+30.05.2007
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200610113365.0
+Beijing Venus Information Technology Co., Ltd.
+Xiao Chengmin
+H04L 29/06
+Loading...
+This invention relates to one preset IDS communication method and system, which comprises the following steps: a, customer end requires order bind according to user needs and communication type; b, customer end sends order bind through TCP; c, customer end receives order for analysis; d, customer end processes the received data for filtering, resetting according to need; e, service end sends affair data; f, customer end receives data.
+199. 1960293 Method for implementing virtual engine technique for intrusion detection
+CN
+09.05.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610113429.7
+Qimingxingchen IT Tech Co., Ltd., Beijing
+Liu Jianbo
+H04L 12/26
+Loading...
+The invention features the physical engine of an Intrusion Detection System that virtualizes multi engines, by which the classified protection can be made according to the network condition of client, VLAN TAG information, IP address information or MAC address information. On each virtual engine, different detection strategy and security strategy standard can be executed and set in order to implement the object-oriented intrusion detection.
+200. 1953454 A safe audit method based on role management and system thereof
+CN
+25.04.2007
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200610114101.7
+Beijing Venus Information Technology Co., Ltd.
+Ye Runguo
+H04L 29/06
+Loading...
+The invention relates to a network security audit system, and a security audit method based on role management. Wherein, the invention is characterized in that: based on detecting network data and the audit strategy of role, it audits the access on main body, protects the object, and records the TCP conversation based on the rules set by manager, to support following analysis. The invention can defines trust user, trust sub network and certificate user, and appoints the protected host and protected service, sets the access rule based on the application layer protocol, and sets angle based on the control need of resource access, packs the defined access rule into role, and appoints the angle to defined user.
+

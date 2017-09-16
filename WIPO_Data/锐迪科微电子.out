@@ -1,0 +1,1285 @@
+1. 103176932 一种DMA数据传输方法及系统
+CN
+26.04.2017
+G06F 13/32 Loading...
+G06F 13/32
+Loading...
+102011000439326
+锐迪科（重庆）微电子科技有限公司
+唐新东
+G06F 13/32
+Loading...
+本发明实施例公开了一种DMA数据传输方法及系统，能够降低CPU负担，提高数据传输的速度，从而提高系统整体性能。本发明实施例方法包括：中央处理器CPU将需要传输的传输数据写入传输数据缓冲区BUFFER进行缓存；当传输数据写入完成后，对数据传输控制模块中BUFFER的写指针进行更新；数据传输控制模块对所述BUFFER中的传输数据通过DMA方式进行传输。本发明实施例还提供一种DMA数据传输系统。本发明实施例能够有效降低CPU负担，提高数据传输的速度，从而提高系统整体性能。
+2. 106571780 一种自适应偏置的射频功率放大器
+CN
+19.04.2017
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201611020276.1
+锐迪科微电子（上海）有限公司
+孙亚楠
+H03F 1/30
+Loading...
+本申请公开了一种自适应偏置的射频功率放大器，包括偏置电路和功率级放大电路。所述偏置电路用来为功率级放大电路中的晶体管二提供动态偏置电压；工作电压一连接电阻一的一端，电阻一的另一端作为偏置电路的输出端；工作电压二连接二极管一的阳极，二极管一的阴极连接偏置电路的输出端；工作电压二的取值使二极管一默认为临界导通状态。所述功率级放大电路包括晶体管一和晶体管二，采用共源共栅结构；晶体管一采用共源极接法，其栅极接收射频输入信号；晶体管二采用共栅极接法，其漏极输出漏极电压二。本申请提供了自适应的偏置电压，延迟了增益压缩，减小由于非线性电容而产生的相位失真。
+3. 106559041 一种射频功率放大器的偏置控制电路以及控制方法
+CN
+05.04.2017
+H03F 1/02 Loading...
+H03F 1/02
+Loading...
+201610956823.0
+锐迪科微电子（上海）有限公司
+孙凯
+H03F 1/02
+Loading...
+本申请公开了一种射频功率放大器的偏置控制电路，包括控制器和延时检测电路。控制器包括一个控制电路和多个低压差稳压器；控制电路工作时根据延时检测电路中各个电压比较器的输出决定哪一个低压差稳压器开启。所述延时检测电路包括一个检波电路、一个串联分压电路和至少一个比较器。所述检波电路包括二极管一、电阻五和电容一。所述串联分压电路由多个串联的电阻提供至少一个参考电压值。每个比较器均有两个输入端和一个输出端，其中一个输入端接收检波电路的输出电压，另一个输入端接收串联分压电路的某一个参考电压值，输出端连接控制器中的控制电路。本申请在始终确保较低的动态误差矢量幅度的前提下，尽量提高射频功率放大器的效率。
+4. 106559050 一种自适应负载的差分放大电路
+CN
+05.04.2017
+H03F 1/56 Loading...
+H03F 1/56
+Loading...
+201610881961.7
+锐迪科微电子（上海）有限公司
+孙亚楠
+H03F 1/56
+Loading...
+本申请公开了一种自适应负载的差分放大电路，包括放大单元和反馈单元。所述放大单元采用差分结构，用于将一对差分输入信号放大并输出一对差分输出信号。所述反馈单元包括至少两个二极管和至少一个反馈晶体管；所述两个二极管级联；二极管级联支路的第一端为一个二极管的阳极，连接反馈晶体管的栅极；二极管级联支路的第二端为另一个二极管的阴极，接地；所述反馈晶体管的栅极还分别通过两个电阻连接所述放大单元的一对差分输出端或中间节点，所述反馈晶体管的漏极和源极分别连接所述放大单元的一对差分输入端。本申请可以提高AM‑AM的平坦性，延缓相位失真，并且改善线性度。
+5. 106559048 一种多模射频功率放大器
+CN
+05.04.2017
+H03F 1/48 Loading...
+H03F 1/48
+Loading...
+201610941513.1
+锐迪科微电子（上海）有限公司
+陈文斌
+H03F 1/48
+Loading...
+本申请公开了一种多模射频功率放大器，包括：共用放大电路将输入射频信号进行功率放大；谐波抑制电路通过开关一连接在高频段共用匹配电路的输入端，用于抑制GSM高频段或者TD‑SCDMA频段信号的谐波；高频段共用匹配电路将接收的GSM高频段、TD‑SCDMA频段或者LTE‑TDD频段的射频信号进行阻抗变换匹配；高频段差异匹配电路将接收的GSM高频段或者TD‑SCDMA频段射频信号进行进一步地阻抗变换匹配和/或谐波抑制后送往开关电路；低频段匹配电路将接收的GSM低频段射频信号进行阻抗变换匹配后送往开关电路。本申请仅用一颗芯片就可以实现GSM、TD‑SCDMA和LTE‑TDD的多模射频功率放大，大量采用电路复用与电路共享，不仅集成度高，而且电路结构简单、成本低廉。
+6. 103916334 一种信道估计方法和装置
+CN
+29.03.2017
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+102012000591896
+锐迪科（重庆）微电子科技有限公司
+肖立波
+H04L 25/02
+Loading...
+本发明实施例提供一种信道估计方法和装置，以解决现有技术中依据各径的独立判决进行信道估计而导致的常规低信噪比场景下信道估计性能降低的问题；所述方法包括：判断历史信道和当前信道是否接近；根据所述判断的判断结果，获取信号径位置；根据所述信号径位置，获取当前时域信道估计值。本发明实施例提供的方法是通过信道估计或其衍生信息作为一个整体，进一步提升噪声环境下的关于是否为突变场景的判断，从而降低了误激活非信号径的概率，提高了信道估计的准确度。
+7. 106533374 一种多频GSM射频功率放大器
+CN
+22.03.2017
+H03F 1/56 Loading...
+H03F 1/56
+Loading...
+201610835879.0
+锐迪科微电子（上海）有限公司
+林甲富
+H03F 1/56
+Loading...
+本申请公开了一种多频GSM射频功率放大器，依次包括输入匹配网络、初级放大单元、级间耦合电容、驱动级放大单元、级间匹配网络、功率级放大单元和输出匹配网络。所述初级放大单元包括两个晶体管，分别是GSM低频信号和GSM高频信号的第一次放大晶体管。所述驱动级放大单元包括驱动晶体管，它是GSM低频信号和GSM高频信号复用的第二级放大晶体管。所述级间匹配电路包括变压器一，用来实现单端信号转为差分信号以及阻抗匹配。所述功率级放大单元包括两个功率晶体管，它们是GSM低频信号和GSM高频信号复用的、采用差分结构的第三级放大晶体管。本申请实现了单个芯片适用于多频段的射频信号功率放大。
+8. 106452378 一种饱和功率放大器的功率控制电路
+CN
+22.02.2017
+H03F 3/21 Loading...
+H03F 3/21
+Loading...
+201610957309.9
+锐迪科微电子（上海）有限公司
+郑新年
+H03F 3/21
+Loading...
+本申请公开了一种饱和功率放大器的功率控制电路，包括预处理电路与传统功率控制电路。所述预处理电路的输出与输入之间大致成指数关系，预处理电路的输出作为传统功率控制电路的输入，传统功率控制电路的输出与输入之间为线性关系，传统功率控制电路的输出与预处理电路的输入之间也大致成指数关系。本申请可使饱和功率放大器的输出功率与输入的控制电压之间大致成指数关系，这使得在输出功率很小时控制电压的微小调节仅产生较小的输出功率变化，从而克服了开关谱问题。
+9. 106452377 一种自适应补偿的射频功率放大器
+CN
+22.02.2017
+H03F 3/193 Loading...
+H03F 3/193
+Loading...
+201610873564.5
+锐迪科微电子（上海）有限公司
+孙亚楠
+H03F 3/193
+Loading...
+本申请公开了一种自适应补偿的射频功率放大器。转换电路产生两路同相的输入信号。驱动级电路中，PMOSFET一和NMOSFET一的漏极相连并作为驱动级电路的输出端，同时向功率级电路和反馈电路输出中间信号。输入信号一为PMOSFET一提供直流偏置和交流输入。输入信号二叠加反馈信号为NMOSFET一提供动态偏置和交流输入。反馈电路将该中间信号中的交流高频分量滤除，仅保留直流分量和交流低频分量得到反馈信号，送往NMOSFET一的栅极。功率级电路中，中间信号为NMOSFET二提供动态偏置和交流输入，使NMOSFET二偏置在AB类并且具有增益扩展。NMOSFET二的漏极作为所述功率级电路的输出端，对外输出射频输出信号。本申请同时实现了射频功率放大器的高线性度、高效率和高功率三个目标。
+10. 106405222 一种射频功率检测电路
+CN
+15.02.2017
+G01R 21/14 Loading...
+G01R 21/14
+Loading...
+201610836141.6
+锐迪科微电子（上海）有限公司
+柯庆福
+G01R 21/14
+Loading...
+本申请公开了一种射频功率检测电路，包括第一级电路、第二级电路和保护电路。所述第一级电路包括放大晶体管，用来跟随射频功率放大器中的功率晶体管的输出成比例地同步变化。所述第二级电路包括二极管一和二极管二，用来对第一级电路输出的射频信号进行功率检测；其中二极管一用来为二极管二设置具有温度补偿特性的偏置点。所述保护电路包括保护晶体管，用来在射频功率放大器的输出功率超出正常范围时开启保护晶体管从而降低射频功率放大器的输出功率。本申请提供的射频功率检测电路具有限制保护功能、在较小输入功率时就能输出较大变化范围的电压、可放置在射频功率放大器的输入端或中间级、对温度变化不敏感。
+11. 106229953 一种静电放电防护电路
+CN
+14.12.2016
+H02H 9/02 Loading...
+H02H 9/02
+Loading...
+102016000794520
+锐迪科微电子（上海）有限公司
+郑新年
+H02H 9/02
+Loading...
+本申请公开了一种静电放电防护电路，在敏感电路单元的电源通道上设置开关器件；和/或，设置驱动器件来控制敏感电路单元的电源通道上的原有开关器件；和/或，在敏感电路单元与非敏感电路单元串联的电源通道上，设置与敏感电路单元相并联的开关器件。本申请可在ESD事件发生时对敏感电路单元实现保护，避免敏感电路单元由于过流而损坏，从而提高了整个集成电路芯片的可靠性，大幅提高了电路的抗ESD能力。本申请的ESD防护电路在现有电路结构的基础上只需增加少量器件，实现方式简便且成本较低。
+12. 106208980 一种射频功率放大器偏置电路及其实现方法
+CN
+07.12.2016
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+102016000482039
+锐迪科微电子（上海）有限公司
+柯庆福
+H03F 1/30
+Loading...
+本申请公开了一种射频功率放大器偏置电路，所述偏置电路包括由两个三极管构成的差分放大器，差分放大器以这两个三极管的基极作为差分输入端，以其中一个三极管的集电极作为单端输出端；所述偏置电路还包括有源驱动管，所述有源驱动管的基极接收差分放大器的单端输出端的电压作为输入，所述有源驱动管的发射极为功率管提供基极偏置电流；两个分压支路分别为构成差分放大器的两个三极管提供基极电压，并且在温度变化时所述构成差分放大器的两个三极管的基极电压变化方向相反。本申请能够明显降低对温度变化的敏感度，提高射频功率放大器的线性度，从而使射频功率放大器能够在较为恶劣的工作条件和环境下保持正常工作状态。
+13. 105958963 一种封装结构及其制造方法
+CN
+21.09.2016
+H03H 9/25 Loading...
+H03H 9/25
+Loading...
+201610316063.7
+锐迪科微电子（上海）有限公司
+祝明国
+H03H 9/25
+Loading...
+本申请公开了一种封装结构，具有器件的衬底倒装焊接在基板上，金属凸块将器件的引脚对外电性引出到基板。第一封装层紧紧包裹衬底，且与基板结合形成包围衬底和器件的密封结构，密封结构中有空腔；所述第一封装层为多层薄膜。本申请兼顾了封装结构的气密性和稳定性，同时尽量减小了封装结构的体积，并且简化了封装工序，降低了封装成本。
+14. 105811914 一种体声波器件、集成结构及制造方法
+CN
+27.07.2016
+H03H 9/17 Loading...
+H03H 9/17
+Loading...
+201610105130.0
+锐迪科微电子（上海）有限公司
+祝明国
+H03H 9/17
+Loading...
+本申请公开了一种体声波器件，采用包含绝缘层的衬底，绝缘层一侧的半导体材料中具有空腔，绝缘层另一侧与空腔相对应位置去除半导体材料且依次具有底电极、压电薄膜和顶电极。本申请的体声波器件大大简化了制造工艺，降低了制造成本，并且特殊的结构还使得器件性能得以优化。
+15. 105743519 一种射频发射电路、双向耦合器及定向耦合器
+CN
+06.07.2016
+H04B 1/04 Loading...
+H04B 1/04
+Loading...
+102016000213308
+锐迪科微电子（上海）有限公司
+李啸麟
+H04B 1/04
+Loading...
+本申请公开了一种射频发射电路，包括射频发射机、天线开关和天线。在天线开关和天线之间设置有双向耦合器和天线调谐器。所述双向耦合器包括一个定向耦合器和一个开关，并由开关切换对正向或反向传输功率的检测。所述定向耦合器采用多段相连的耦合线，分别位于主信号线的上方、下方、外侧、内侧的任意一个或多个位置。所述双向耦合器既用来检测发射功率，也用来检测反射功率，并将检测值输出给射频发射机。所述射频发射机既用来校准发射功率，也用来调节天线输入阻抗以实现天线阻抗匹配。本申请还公开了一种双向耦合器，结构简单、体积小、成本低、易于与集成电路制造工艺集成。本申请还公开了一种定向耦合器，耦合度高、插入损耗低。
+16. 105703736 一种体声波器件及集成结构
+CN
+22.06.2016
+H03H 9/17 Loading...
+H03H 9/17
+Loading...
+201610105113.7
+锐迪科微电子（上海）有限公司
+祝明国
+H03H 9/17
+Loading...
+本申请公开了一种体声波器件，采用包含绝缘层的衬底，在绝缘层一侧的半导体材料中具有空腔，在该层半导体材料的空腔之上依次具有底电极、压电薄膜和顶电极。本申请的体声波器件同样是基于包含绝缘层的衬底，但是结构最为简单，而且不用改变现有基于体硅衬底的体声波器件制造工艺即可实现。
+17. 105680813 一种薄膜体声波谐振器及其制造方法
+CN
+15.06.2016
+H03H 3/02 Loading...
+H03H 3/02
+Loading...
+201610105128.3
+锐迪科微电子（上海）有限公司
+李平
+H03H 3/02
+Loading...
+本申请公开了一种薄膜体声波谐振器(FBAR)，是在衬底的上方具有空腔，在空腔的上方还具有下电极、上电极以及位于两者中间的压电层。所述空腔是先填充牺牲层再移除牺牲层而得到的，并且牺牲层采用能够被氧等离子体刻蚀工艺去除的材料；所述下电极、上电极和/或电极引出端采用铝、铜或铜铝合金的一种或多种。本申请还公开了FBAR的制造方法，采用铝、铜或铜铝合金作为互联金属形成电极引出端，并采用氧等离子体刻蚀(O2Plasma)工艺去除牺牲层而形成FBAR的空气隙。本申请降低了制造成本，提高了薄膜体声波谐振器的可靠性，体现环境友好性。
+18. 105634417 多频带射频功率放大器
+CN
+01.06.2016
+H03F 3/189 Loading...
+H03F 3/189
+Loading...
+201610058769.8
+锐迪科微电子（上海）有限公司
+王成碧
+H03F 3/189
+Loading...
+本申请公开了一种多频带射频功率放大器，为单级放大电路、或两个或更多的单级放大电路级联构成的多级放大电路；每个单级放大电路在射频输入端和射频输出端之间又依次串联有放大单元和匹配网络，在放大单元和匹配网络之间还连接有一个或多个阻抗变换单元；每个阻抗变换单元工作或不工作的状态相互组合，使得所述射频功率放大器覆盖两个以上的频段。本申请取得的技术效果是提供了一种覆盖多频段的射频功率放大器，电路结构简单，使用方便。
+19. 105600738 一种用于晶圆级封装的密闭结构及其制造方法
+CN
+25.05.2016
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201510650220.3
+锐迪科微电子（上海）有限公司
+祝明国
+B81B 7/00
+Loading...
+本申请公开了一种用于晶圆级封装的密闭结构，在基底晶圆上制造半导体器件，并在基底晶圆上的各个半导体器件外围以光刻胶形成环形的墙体，还在墙体上方接合有光刻胶或玻璃材质的屋顶，所述基底晶圆、墙体和屋顶构成密闭结构将各个半导体器件包围在内。与现有的用于晶圆级封装的密闭结构相比，本申请仅使用一片晶圆作为一个底面，以光刻胶作为侧壁，以光刻胶或玻璃作为另一个底面来构成密闭结构，这将显著地减小封装后的体积，并能降低封装成本。
+20. 105552872 一种ESD保护电路
+CN
+04.05.2016
+H02H 9/04 Loading...
+H02H 9/04
+Loading...
+201510959051.1
+锐迪科创微电子(北京)有限公司
+牟鹏飞
+H02H 9/04
+Loading...
+本发明公开了一种ESD保护电路，包括：开关单元，其输入端作为ESD保护电路的输入端，第一输出端作为ESD保护电路的输出端；达林顿单元，其第一输入端与开关单元的第二输出端连接，第二输入端与开关单元的输入端连接，输出端与开关单元的第一输出端连接。本发明可以提高ESD保护电路的开启速度，提高ESD保护电路钳位电压的稳定性，改善ESD保护电路对电路阻抗匹配的影响，降低ESD保护电路的平均功率，提高稳定性。
+21. 105471397 一种双频射频功率放大模块
+CN
+06.04.2016
+H03F 1/56 Loading...
+H03F 1/56
+Loading...
+201510919690.5
+锐迪科创微电子(北京)有限公司
+王宇晨
+H03F 1/56
+Loading...
+本发明公开了一种双频射频功率放大模块，包括：功放单元，用于放大两个频段的射频信号并输出具有一定功率的输出信号；匹配单元，与所述功放单元相连接，进行阻抗匹配以使两个频段的输出信号分别在各自频段内进行最大功率传输；隔离单元，与所述匹配单元相连接，抑制各频段内的高次谐波输出以使两个频段之间的输出信号相互隔离；控制单元，根据时序要求协调所述功放单元与所述隔离单元的动作。该双频射频功率放大模块使双频射频功放裸片由两个减少为一个，同时简化了外围设计电路，减少了手机板占用空间，降低成本。
+22. 105347288 一种用于晶圆级封装的多器件密闭结构及其制造方法
+CN
+24.02.2016
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201510649886.7
+锐迪科微电子（上海）有限公司
+李平
+B81B 7/00
+Loading...
+本申请公开了一种用于晶圆级封装的多器件密闭结构，在第一晶圆上具有硅材料的环形第一凸起包围第一器件，第一器件的电极覆盖在第一凸起的某处顶部；在第二晶圆上具有第二器件，第二器件的电极对应着第一凸起的某处位置；第一晶圆与第二晶圆通过晶圆键合连为一体，第一凸起作为侧墙将至少一个第一器件和至少一个第二器件包围在内，从而由两片晶圆和第一凸起构成了多器件密闭结构。本申请省略了硅通孔工艺，从而降低了工艺难度，减少了制造成本。
+23. 105347289 适用于芯片级封装的密闭结构及其制造方法
+CN
+24.02.2016
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201510650210.X
+锐迪科微电子（上海）有限公司
+祝明国
+B81B 7/00
+Loading...
+本申请公开了一种适用于芯片级封装的密闭结构，在基底芯片单元上具有环形的密封凸起包围着半导体器件，在封装基板上也具有环形的密封焊垫或密封凸起对应于基底芯片单元上的密封凸起；将基底芯片单元倒装在封装基板上，基底芯片单元上的密封凸起与封装基板上的密封焊垫或密封凸起通过焊接连为一体，并在每个半导体器件的外围形成一个密闭结构。与现有的采用晶圆级封装技术的密闭结构相比，本申请的密闭结构采用芯片级封装技术实现，省略了晶圆刻蚀、晶圆键合、硅通孔技术，从而显著地降低了工艺成本，缩短了工艺周期。
+24. 105347290 一种用于芯片级封装的密闭结构及其制造方法
+CN
+24.02.2016
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201510650216.7
+锐迪科微电子（上海）有限公司
+祝明国
+B81B 7/00
+Loading...
+本申请公开了一种用于芯片级封装的密闭结构，将基底芯片单元倒装在封装基板上，并在基底芯片单元与封装基板之间采用粘合剂进行环形密封以形成密闭结构；封装基板切割后得到基板封装单元，所述密闭结构由基底芯片单元、基板封装单元和粘合剂构成。与现有的采用晶圆级封装技术的密闭结构相比，本申请的密闭结构采用芯片级封装技术实现，省略了晶圆刻蚀、晶圆键合、硅通孔技术，从而显著地降低了工艺成本，缩短了工艺周期。
+25. 105305985 一种射频放大装置
+CN
+03.02.2016
+H03F 1/56 Loading...
+H03F 1/56
+Loading...
+201510749907.2
+锐迪科创微电子(北京)有限公司
+姚春琦
+H03F 1/56
+Loading...
+本发明公开了一种射频放大装置，装置包括分别由依次连接的输入匹配网络、功率放大器以及功率放大器输出匹配网络构成的第一输入通路和第二输入通路以及射频开关网络，其中：第一输入通路与第二输入通路的输入分别连接到射频收发器；第一输入通路与第二输入通路均被构造成基于一个功率放大器放大处理多路不同频段/模式的射频信号；射频开关网络内部构造有多个与射频信号的频段/模式对应且输出连接到天线的输出通路；射频开关网络被构造成基于射频信号的频段/模式控制接通其内部相应的一个输出通路从而实现射频信号的输出。与现有技术相比，本发明的射频放大装置不仅体积小、成本低而且具有较高的抗干扰能力，具有较高的推广价值。
+26. 105281724 用于集成电路芯片中的上电复位电路
+CN
+27.01.2016
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201510800251.2
+锐迪科创微电子(北京)有限公司
+武振宇
+H03K 17/22
+Loading...
+本发明公开了一种用于集成电路芯片中的上电复位电路，包括延时电路，使输入的电源电压形成具有一定时间延迟的延时电压信号；比较电路，接收所述延时电压信号，当所述延时电压信号大于设定的电压值时输出复位信号；偏置电路，为所述比较电路提供设定的电压值。该上电复位电路在有效降低电路的版图面积的同时，解决了电源毛刺造成的系统不稳定的问题，且当电源缓慢上升时也能够实现可靠的复位，易于推广实施。
+27. 105281725 用于集成电路芯片中的上电复位电路
+CN
+27.01.2016
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+201510800522.4
+锐迪科创微电子(北京)有限公司
+武振宇
+H03K 17/22
+Loading...
+本发明公开了一种用于集成电路芯片中的上电复位电路，包括延时电路，使输入的电源电压形成具有一定时间延迟的延时电压信号；比较电路，接收所述延时电压信号，当所述延时电压信号大于设定的电压值时输出复位信号；偏置电路，为所述比较电路提供设定的电压值。该上电复位电路在有效降低电路的版图面积的同时，解决了电源毛刺造成的系统不稳定的问题，且当电源缓慢上升时也能够实现可靠的复位，易于推广实施。
+28. 105262455 一种高可靠性的薄膜体声波谐振器及其制造方法
+CN
+20.01.2016
+H03H 9/17 Loading...
+H03H 9/17
+Loading...
+201510649865.5
+锐迪科微电子（上海）有限公司
+李平
+H03H 9/17
+Loading...
+本申请公开了一种高可靠性的FBAR(薄膜体声波谐振器)，在整个衬底之上具有隔离层，衬底和隔离层之间具有从衬底上表面向下凹陷的空气腔；隔离层之上分别具有下电极、压电层和上电极；上电极之上具有至少覆盖整个上电极和/或下电极的暴露部分的钝化层。与现有的FBAR相比，本申请在衬底之上增加了与衬底尺寸相同的隔离层。这一方面可以降低对衬底材料在电阻率方面的要求，从而降低衬底的成本；另一方面可以在不改变衬底材料的前提下，提升衬底对器件之间的隔离，从而提升谐振器的开路阻抗。本申请还在上电极和/或下电极的暴露部分之上增加了钝化层，可以有效预防上电极和/或下电极因氧化等变质对器件性能及长期可靠性带来的影响。
+29. 105262456 一种高性能薄膜体声波谐振器及其制造方法
+CN
+20.01.2016
+H03H 9/17 Loading...
+H03H 9/17
+Loading...
+201510650207.8
+锐迪科微电子（上海）有限公司
+李平
+H03H 9/17
+Loading...
+本申请公开了一种高性能的FBAR(薄膜体声波谐振器)，在整个衬底之上具有向上凸起的隔离层，衬底和隔离层的凸起部分之间具有从衬底上表面向上凸起的空气腔；隔离层之上分别具有下电极、压电层和上电极；上电极之上具有至少覆盖整个上电极和/或下电极的暴露部分的钝化层。与现有的FBAR相比，本申请改变了空气腔的位置及制造工艺，还在衬底之上增加了与衬底尺寸相同的隔离层。这可以降低对衬底材料在电阻率方面的要求，从而降低衬底的成本；还可以在不改变衬底材料的前提下，提升衬底对器件之间的隔离，从而提升谐振器的开路阻抗。本申请还增加了钝化层，可以有效预防上电极和/或下电极因氧化等变质对器件性能及长期可靠性带来的影响。
+30. 105262446 一种多级射频功率放大电路
+CN
+20.01.2016
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+201510696630.1
+锐迪科创微电子(北京)有限公司
+贯会征
+H03F 1/32
+Loading...
+本发明公开了一种多级射频功率放大电路，包括级间匹配电路，该级间匹配电路包括：级间阻抗匹配网络，其设置于前一级放大管与后一级放大管之间，其中，级间匹配电路还包括谐振网络，谐振网络设置于前一级放大管与级间阻抗匹配网络之间，用以抑制射频信号中的谐波。本发明可以显著提高射频功率放大器的线性度，降低射频功率放大器的静态功耗，还可以显著提高功率放大线路的效率。
+31. 105159372 一种负电压生成电路
+CN
+16.12.2015
+G05F 1/46 Loading...
+G05F 1/46
+Loading...
+201510524440.1
+锐迪科创微电子(北京)有限公司
+张苗
+G05F 1/46
+Loading...
+本发明公开了一种负电压生成电路，用于射频天线开关，包括：检测模块，对射频天线开关逻辑信号进行检测，识别逻辑信号中的使能信号；控制模块，根据射频天线开关逻辑信号的使能信号生成振荡器控制信号；振荡器，在振荡器控制信号的控制下工作在正常功耗模式或节能功耗模式，生成时钟信号，其中，在使能信号有效时振荡器工作在正常功耗模式，在使能信号失效时振荡器工作在节能功耗模式；电荷泵，响应于时钟信号将外部直流电压源转换为负电压。本申请可以降低负压生成电路中振荡器产生的功耗，并且负电压生成电路输出电压稳定，具有更好的瞬态响应。
+32. 103941797 Radio frequency antenna switch voltage stabilizing circuit
+CN
+23.07.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201410156283.9
+锐迪科创微电子（北京）有限公司
+张苗
+G05F 1/56
+Loading...
+The invention relates to the technical field of integrated circuits, and discloses a radio frequency antenna switch voltage stabilizing circuit. The radio frequency antenna switch voltage stabilizing circuit comprises the power voltage input end, a diode, a resistor and the voltage output end, the resistor and the diode are coupled between the power voltage input end and the ground end in series, at least one switching circuit composed of an N-channel MOS tube and a P-channel MOS tube is further arranged between the power voltage input end and the ground end, the voltage output end and the switching circuit are correspondingly arranged, and each switching circuit provides an output voltage. An in-sheet integrated voltage stabilizing circuit is adopted, alterable and appropriate supply voltages can be provided for a radio frequency antenna switch, the radio frequency antenna switch can be suitable for wide supply voltage scopes, and the good performance is achieved under the various supply voltages.
+33. 103825571 Radio frequency (RF) antenna switch circuit capable of realizing impedance matching
+CN
+28.05.2014
+H03H 7/38 Loading...
+H03H 7/38
+Loading...
+201410079115.4
+锐迪科创微电子（北京）有限公司
+孙江涛
+H03H 7/38
+Loading...
+The invention relates to the technical field of wireless communication, and discloses a radio frequency (RF) antenna switch circuit capable of realizing impedance matching. The RF antenna switch circuit comprises a tube core, a module output port, a grounding terminal and at least one module input port, wherein the tube core is provided with a plurality of tube core input ports which are respectively connected with the module input ports one by one, and a tube core output port connected with the module output port; and a series resonant circuit formed by an inductive element and a capacitive element is connected between the tube core output port and the grinding terminal. Compared with the prior art, the RF antenna switch circuit adopts an on-chip integration technology, and an on-chip capacitor and a bonding wire are only used, so that the impedance matching can be realized by the RF antenna switch circuit; and furthermore, the RF antenna switch circuit is lower in insertion loss characteristic, smaller in packaging size, lower in manufacturing cost and easy to implement, and an RF antenna switch can work with multiple throwing times, high frequency and high performance.
+34. 203377844 低噪声放大器
+CN
+01.01.2014
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+201320494747.8
+锐迪科创微电子（北京）有限公司
+黄清华
+H03F 1/32
+Loading...
+本实用新型涉及无线通信技术领域，公开了一种低噪声放大器，所述低噪声放大器采用共源共栅结构，包括一个跟随电容，所述跟随电容的两端分别连接共源结构MOS管的栅极和地。本实用新型通过在共源结构MOS管的栅极和参考地之间设置一个跟随电容，并折中优化其电容值来提高线性度。本实用新型的电路结构简单，功耗降低，能够有效提高输入三阶交调点IIP3，提高低噪声放大器的增益，而对接收系统中后级的噪声系数不产生影响，进而改善了线性度，能够从整体上优化低噪声放大器的性能。
+35. 103401514 Low-noise amplifier
+CN
+20.11.2013
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+201310352358.6
+锐迪科创微电子（北京）有限公司
+黄清华
+H03F 1/32
+Loading...
+The invention relates to the field of wireless communication technology, and discloses a low-noise amplifier which adopts a cascode structure and comprises a following capacitor, wherein two ends of the following capacitor are connected with the grid of an MOS tube of the cascode structure and the ground respectively. As the following capacitor is arranged between the grid of the MOS tube of the cascode structure and the reference ground, and the capacitance value of the following capacitor is compromised and optimized, the linearity is improved. The low-noise amplifier has the advantages that the structure is simple; the power consumption is reduced; an input third-order intercept point IIP3 can be improved effectively; the gain of the low-noise amplifier is improved; impact on noise factors of the middle and post levels of a receiving system can be avoided, so as to improve the linearity; the performance of the low-noise amplifier can be optimized integrally.
+36. 103036509 适用于低噪声放大器的偏置电路
+CN
+10.04.2013
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201210548224.7
+锐迪科创微电子（北京）有限公司
+黄清华
+H03F 1/26
+Loading...
+本发明公开了一种适用于低噪声放大器的偏置电路，该偏置电路与低噪声放大器中的共源NMOS管和共栅NMOS管上的栅极外接的两个管脚相连接，其特征在于，所述偏置电路包括：第一至第十二MOS管(401～406、410～415)，第一至第八电阻(416～423)和第一至第三二极管(407～409)连接组合而成。本发明具有使能控制功能，能够提供两种模式的输出偏置：第一种，在低噪声放大器的工作模式中提供偏置，实现温度补偿和超宽范围的电压补偿，即保证低噪声放大器的噪声系数、增益不随温度和电源电压波动。第二种，在低噪声放大器的空闲模式提供另一种偏置，实现可靠性补偿，防止晶体管击穿。本发明还能够大大降低了电路的复杂度，减小芯片面积和成本。
+37. 102983823 射频功率放大集成电路及采用其的移动终端
+CN
+20.03.2013
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201210504648.3
+锐迪科创微电子（北京）有限公司
+路宁
+H03F 3/20
+Loading...
+本发明公开了一种具有功率控制功能的射频功率放大集成电路，由一功率控制器、三个功率单元模块、偏置电路以及匹配电路连接组成，其特征在于，所述三个功率单元模块由两个功率驱动级模块和一个功率输出放大级模块级联组成。本发明解决了现有无法有效减小射频功率放大集成电路的芯片面积、降低产品制作成本的问题。
+38. 102969995 应用于线性模式功率放大器的动态偏置控制电路
+CN
+13.03.2013
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+201210484816.7
+锐迪科创微电子（北京）有限公司
+刘磊
+H03G 3/20
+Loading...
+本发明公开了一种应用于线性模式功率放大器的动态偏置控制电路，该动态偏置控制电路与功率放大电路相耦接，其特征在于，该动态偏置控制电路包括：模式切换电路和动态偏置电路，模式切换电路与动态偏置电路相耦接，动态偏置电路与功率放大电路相耦接，其中，当功率放大器的射频输入功率较小时，模式切换电路控制动态偏置电路为功率放大器提供高偏置电压；当功率放大器的射频输入功率较大时，模式切换电路控制动态偏置电路为功率放大器提供低偏置电压。本发明解决了现有的线性射频功率放大器偏置控制电路功率损耗高、无法在较宽的输入发射信号范围内对射频功率放大器的线性度进行优化以及无法优化系统指标的问题。
+39. WO/2012/129819 RADIO FREQUENCY EMITTING FRONT END MODULE IN GLOBAL SYSTEM FOR MOBILE COMMUNICATION MANUFACTURED WITH QUAD FLAT NON-LEADED PACKAGE
+WO
+04.10.2012
+H01L 25/16 Loading...
+H01L 25/16
+Loading...
+PCT/CN2011/072590
+RDA MICROELECTRONICS (BEIJING) CO., LTD.
+CHEN, Jun
+H01L 25/16
+Loading...
+A radio frequency (RF) emitting front end module in global system for mobile communication (GSM) manufactured with quad flat non-leaded package is disclosed. There are an output match network, a radio frequency antenna switch, a power controller and a radio frequency power amplifier on a metal frame of the module, wherein the output match network, the radio frequency antenna switch, the power controller and the radio frequency power amplifier are manufactured as corresponding semiconductor dies by utilizing different semiconductor technology, and the semiconductor dies are attached to the metal frame. The solution of the RF emitting front end module in GSM can effectively reduce the cost of the RF front end module in GSM so as to reduce the total price cost of the handheld device with the RF emitting front end module in GSM.
+40. WO/2012/129822 PACKAGING SUBSTRATE WITH INSULATOR-FILLED WELL STRUCTURE AND MANUFACTURING METHOD THEREOF
+WO
+04.10.2012
+H01L 23/06 Loading...
+H01L 23/06
+Loading...
+PCT/CN2011/072701
+RDA MICROELECTRONICS (BEIJING) CO., LTD.
+CHEN, Jun
+H01L 23/06
+Loading...
+A packaging substrate with an insulator-filled (305, 308) well structure and a manufacturing method thereof are provided. The packaging substrate has at least a well, where an insulating material is filled to form the well structure. A metal pattern (306) is formed on the well structure. The method includes the follow steps: at least a well is formed in a metal framework; an insulating material is filled in the well to form the well structure; the metal pattern is formed in the well structure after the insulating material is filled. The packaging substrate with an insulator-filled well and the manufacturing method thereof solve the problem that wiring is inflexible on a multi chip module board and the value of radio frequency inductance is low, and have the advantages of simple process, low cost, unbroken grounded pads with lager area, good thermal dissipation, and interconnection with high quality.
+41. WO/2012/097486 RADIO FREQUENCY FRONT-END CIRCUIT AND MOBILE TERMINAL WITH THE CIRCUIT
+WO
+26.07.2012
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+PCT/CN2011/000937
+RDA MICROELECTRONICS (BEIJING) CO., LTD.
+LU, Ning
+H04B 1/40
+Loading...
+A radio frequency front-end circuit and a mobile terminal with the circuit are disclosed. In the radio frequency front-end circuit, a signal output from drivers(503, 504) is inputted to a first amplifier(506) through a matching circuit(505), and the matching circuit(505) is used to enable the first amplifier(506) to work at a linear region or a quasi-linear region; a power controlling circuit(501) comprises a low dropout regulator LDO, a mobile terminal power supply voltage transformation detecting circuit and a compensation circuit; the drivers(503, 504) are connected to the low dropout regulator LDO, and the first amplifier(506) is connected to the mobile terminal power supply; the mobile terminal power supply voltage transformation detecting circuit controls the value of the voltage which the low dropout regulator LDO outputs, thus reducing the variation of the output power from the first amplifier with the mobile terminal power supply voltage. It can compensate the supply power voltage transformation to a radio frequency power amplifier of the mobile terminal system, and reduce the fluctuation of the output power.
+42. 102355223 一种单芯片GSM射频天线开关模块及GSM射频前端
+CN
+15.02.2012
+H03H 7/38 Loading...
+H03H 7/38
+Loading...
+201110228391.9
+锐迪科创微电子（北京）有限公司
+陈高鹏
+H03H 7/38
+Loading...
+本发明公开了一种单芯片GSM射频天线开关模块及GSM射频前端。该单芯片GSM射频天线开关模块包括射频天线开关、逻辑控制器、对GSM低频段发射信号进行滤波的第一低通滤波器以及对GSM高频段发射信号进行滤波的第二低通滤波器；所述射频天线开关、逻辑控制器、第一低通滤波器及第二低通滤波器集成在射频天线开关管芯上；所述第一低通滤波器和第二低通滤波器网络中至少有一个串联电感是由所述管芯上金属走线及键合线实现；所述逻辑控制器中包括电平移位电路，所述逻辑控制器用于根据逻辑信号导通或断开射频天线开关。本发明的单芯片GSM射频天线开关模块外形尺寸紧凑，制造成本低廉。
+43. 102347732 功率控制电路及具有功率控制电路的射频功率放大器模块
+CN
+08.02.2012
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201110228453.6
+锐迪科创微电子（北京）有限公司
+路宁
+H03F 1/30
+Loading...
+本发明公开了功率控制电路及具有功率控制电路的射频功率放大器模块。功率控制电路的输出电压具有正比于控制电压信号的温度系数，射频功率放大器模块包括功率放大器和该功率控制电路。本发明为功率放大器驱动级提供可变的供电电压，同时可以根据功率放大器输出放大级的温度特性对其进行温度变化补偿，使得功率放大器的输出功率不随温度变化而波动。
+44. WO/2012/013040 SILICON-ON-INSULATOR (SOI) COMPLEMENTARY METAL-OXIDE-SEMICONDUCTOR (CMOS) RADIO FREQUENCY SWITCH AND RADIO FREQUENCY TRANSMISSION FRONT-END MODULE CONTAINING THIS RADIO FREQUENCY SWITCH
+WO
+02.02.2012
+H03K 17/74 Loading...
+H03K 17/74
+Loading...
+PCT/CN2011/071751
+RDA MICROELECTRONICS (BEIJING) CO., LTD.
+YUAN, Zhipeng
+H03K 17/74
+Loading...
+A Silicon-On-Insulator (SOI) Complementary Metal-Oxide-Semiconductor (CMOS) radio frequency switch is disclosed. The SOI CMOS radio frequency switch comprises a plurality of direct current blocking capacitors, a plurality of resistors and a plurality of switching transistors; said switching transistors are SOI CMOS switching transistors, the drain of the switching transistor is connected to the channel control voltage via a resistor, the source of the switching transistor is connected to the channel control voltage via another resistor, and the source of the switching transistor is connected to an antenna; the channel control voltage is greater than 0 V, and less than the difference between the high level and the threshold voltage of the switching transistor; at same time, only the voltage of control signal for one switching transistor is at the high level, and the voltages of control signals for the other switching transistors are 0 V. A mobile terminal and a radio frequency transmission front-end module containing the radio frequency switch are also disclosed. With the present solution, the structure of the radio frequency switch is simplified, and the radio frequency switch can work with a single power supply. The control signal for the switching transistors in the SOI CMOS radio frequency switch can be higher than the safety voltage of the transistors, so the reliability of the radio frequency switch is improved.
+45. WO/2011/127777 RADIO FREQUENCY POWER AMPLIFIER MODULE AND MOBILE COMMUNICATION TERMINAL
+WO
+20.10.2011
+H03F 3/189 Loading...
+H03F 3/189
+Loading...
+PCT/CN2011/071752
+RDA MICROELECTRONICS (BEIJING) CO., LTD.
+XIE, Ligang
+H03F 3/189
+Loading...
+A radio frequency power amplifier module and a mobile communication terminal are disclosed, the radio frequency power amplifier module involves: a radio frequency power amplifier, a power control circuit and an output matching network, the radio frequency power amplifier is used for amplifying the power of the input radio frequency signal, the power control circuit is used for controlling the output power of the radio frequency power amplifier, the input terminal of the output matching network is connected with the output terminal of the radio frequency power amplifier to realize the output terminal impedance matching of the radio frequency power amplifier. The output matching network is realized by integrating the passive device on the Integrated Passive Device (IPD) die, the passive device at least includes an inductance element and a capacitance element. The present application could significantly reduce the size of the radio frequency power amplifier module, simplify packaging process and greatly reduce the whole cost of the module at the same time.
+46. 102185566 Technology for controlling radio frequency power amplifier for compensating voltage change of system power supply
+CN
+14.09.2011
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+201110023832.1
+Ruidikechuang Microelectronic (Beijing) Co., Ltd.
+Lu Ning
+H03F 1/30
+Loading...
+The invention discloses a radio frequency front-end circuit and a mobile terminal having the circuit. In the radio frequency front-end circuit, a signal output by a driver (503 or 504) is input into a first amplifier (506) through a matching circuit; the matching circuit is used for making the first amplifier work in a linear area or a quasi-linear area; a power control circuit (501) comprises a low differential voltage stabilizer LDO, a mobile terminal power supply voltage change detection circuit and a compensation circuit; the driver (503 or 504) is powered by the low differential voltage stabilizer LDO; the first amplifier (506) is directly powered by a mobile terminal power supply; the output voltage of the mobile terminal power supply voltage change detection circuit is input into the low differential voltage stabilizer LDO through the compensation circuit; and the low differential voltage stabilizer LDO compensates the output voltage of the mobile terminal power supply voltage change detection circuit. By the technology, the voltage change of the system power supply of a radio frequency power amplifier in a mobile terminal system can be compensated, so the fluctuation of output power is reduced.
+47. 102184917 Global system for mobile communications (GSM) radio-frequency emission front-end module adopting Quad Flat No-lead package
+CN
+14.09.2011
+H01L 25/16 Loading...
+H01L 25/16
+Loading...
+201110073751.2
+RDA Microelectronics(Beijing)Co., Ltd.
+Chen Jun
+H01L 25/16
+Loading...
+The invention discloses a global system for mobile communications (GSM) radio-frequency emission front-end module adopting quad flat no-lead package. A metal frame of the module comprises an output matching network, a radio-frequency antenna switch, a power controller and a radio-frequency power amplifier. The module is characterized in that: the output matching network, the radio-frequency antenna switch, the power controller and the radio-frequency power amplifier are manufactured into corresponding semiconductor tube cores through different semiconductor processes respectively; and the semiconductor tube cores are stuck on the metal frame. Compared with the prior art, the invention has the advantages that: the cost of the GSM radio-frequency emission front-end module adopting the quad flat no-lead package can be effectively reduced; and the whole price cost of handheld equipment with the GSM radio-frequency emission front-end module is reasonably reduced.
+48. 102184906 Packaging substrate with well structure filled with insulator and manufacturing method thereof
+CN
+14.09.2011
+H01L 23/495 Loading...
+H01L 23/495
+Loading...
+201110079912.9
+Ruidikechuang Microelectronic (Beijing) Co., Ltd.
+Chen Jun
+H01L 23/495
+Loading...
+The invention discloses a packaging substrate with a well structure filled with an insulator and a manufacturing method thereof. The packaging substrate is characterized by being provided with at least one well; and the well is filled with insulating materials to form the well structure, and the upper surface of the well structure is provided with a metal pattern. The method comprises the following steps of: manufacturing at least one well on a metal framework; filling the well with insulating materials to form the well structure; and making the metal pattern on the upper surface of the well structure filled with the insulating materials. Compared with the prior art, the packaging substrate with the well structure filled with the insulator and the manufacturing method thereof have the advantages that the problems of inflexible routing, low radio frequency inductance value and the like of a multi-chip module substrate produced by the prior art are solved; and furthermore, the manufacturing technology is simple, the price is low, the large-area grounding pad is complete, the substrate has good radiating performance, and a high-quality interconnection method is provided.
+49. 102055491 Radio frequency front-end module and mobile communication device provided with same
+CN
+11.05.2011
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+201010146052.1
+锐迪科创微电子(北京)有限公司
+陈俊
+H04B 1/40
+Loading...
+The invention relates to a radio frequency front-end module and a mobile communication device provided with the module. The radio frequency front-end module comprises power amplifiers, a high-frequency band output impedance matching network, a low-frequency band output impedance matching network, a radio frequency antenna switch and a CMOS (complementary metal-oxide semiconductor) controller, wherein the power amplifiers comprise a high-frequency power amplification circuit and a low-frequency power amplification circuit; the high-frequency band output impedance matching network is connected with the high-frequency power amplification circuit for forming a high-frequency passage; the low-frequency band output impedance matching network is connected with the low-frequency power amplification circuit for forming a low-frequency passage; the radio frequency antenna switch is used for switching between the high-frequency passage and the low-frequency passage; and the CMOS controller is used for controlling the working modes of the power amplifiers and the switching of the radio frequency antenna switch. The design integrates two power amplifiers in one radio frequency front-end module, thereby greatly reducing the cost of elements, improving the integration level of a system and further reducing the design difficulty of a radio frequency printed circuit board.
+50. 102055414 Radio-frequency power amplifier module and mobile communication terminal
+CN
+11.05.2011
+H03F 3/189 Loading...
+H03F 3/189
+Loading...
+201010146045.1
+RDA Microelectronics (Beijing) Co., Ltd.
+Xie Ligang
+H03F 3/189
+Loading...
+The invention provides a radio-frequency power amplifier module and a mobile communication terminal. The radio-frequency power amplifier module comprises a radio-frequency power amplifier, a power control circuit and an output matching network, wherein the radio-frequency power amplifier is used for amplifying power of an input radio-frequency signal, the power control circuit is used for controlling the output power of the radio-frequency power amplifier, the input end of the output matching network is connected with the output end of the radio-frequency power amplifier for realizing the output end impedance matching of the radio-frequency power amplifier; and the output matching network is realized by integrating a passive device on an IPD (Insertion Phase Delay) die, and the passive device at least comprises an inductance element and a capacitance element. According to the invention, the size of the radio-frequency power amplifier module can be remarkably reduced, the package procedure is simplified and the integral cost of the module is greatly lowered.
+51. 101958703 SOI (Silicon on Insulator) CMOS (Complementary Metal Oxide Semiconductor) RF (Radio Frequency) switch and RF transmitter front-end module comprising same
+CN
+26.01.2011
+H03K 17/74 Loading...
+H03K 17/74
+Loading...
+201010239942.7
+RDA Microelectronics (Beijing) Co., Ltd.
+Yuan Zhipeng
+H03K 17/74
+Loading...
+The invention relates to an SOI (Silicon On Insulator) CMOS (Complementary Metal Oxide Semiconductor) RF (Radio Frequency) switch and an RF transmitter front-end module comprising the same. The SOI CMOS RF switch comprises a plurality of DC-blocking capacitors, a plurality of resistors and a plurality of switching tubes, wherein the switching tubes are SOI CMOS switching tubes, the drain electrode of each switching tube is connected to a channel control voltage through a resistor, the source electrode of each switching tube is connected to the channel control voltage through another resistor and connected with an antenna, and the channel control voltage is larger than 0 V and smaller than the difference of a high level and a threshold voltage of the switching tube. At the same moment, only one switching tube has a control signal at a high-level voltage, and the other switching tubes have control signals at the voltage of 0 V. The technical scheme provided by the invention simplifies the structure of the RF switch; and the RF switch can work under a signal power supply to ensure that the control signal voltage in a switching transistor in each SOI CMOS RF switch can be higher than the safe voltage of the transistor, thus the reliability of the RF switch is improved.
+52. 201717849 多功率模式射频发射前端模块及包含该模块的移动终端
+CN
+19.01.2011
+H04B 1/04 Loading...
+H04B 1/04
+Loading...
+201020276256.2
+锐迪科创微电子(北京)有限公司
+谢利刚
+H04B 1/04
+Loading...
+本实用新型涉及多功率模式射频发射前端模块及包含该模块的移动终端。该前端模块的高功率模式射频功率放大器(107)，中功率模式射频功率放大器(108)，低功率模式射频功率放大器(109)，第一射频开关(113)，第二射频开关(112)，第三射频开关(111)以及功率模式控制器(110)分别集成于第一集成电路芯片和第二集成电路芯片中。本实用新型减少了多功率模式射频前端的独立单元的数量，并在一个单模块中集成两块芯片，使得多功率模式射频发射前端模块占用移动终端电路板面积减小，同时也降低了移动终端的制造成本。
+53. 101917166 Configurable radio-frequency power amplifier and radio-frequency transmitting front-end module with same
+CN
+15.12.2010
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201010239944.6
+RDA Microelectronics (Beijing) Co., Ltd.
+Zhao Dongmo
+H03F 3/20
+Loading...
+The invention relates to a configurable radio-frequency power amplifier and a radio-frequency transmitting front-end module with the same. The configurable radio-frequency power amplifier comprises a configurable radio-frequency power amplifier tube core (201) and a configurable output impedance matching network (202); the output end of the configurable radio-frequency power amplifier tube core (201) is connected with the configurable output impedance matching network (202); the configurable output impedance matching network (202) is provided with a plurality of impedance circuits comprising inductors and capacitors; and the configurable output impedance matching network also comprises a radio-frequency switch which controls switch-on or switch-off of each impedance circuit. The configurable radio-frequency power amplifier reduces the number of independent units of a multi-power mode radio-frequency front end and integrates two chips in a single module so that the area, occupied by the multi-power mode radio-frequency transmitting front-end module, of a circuit board of a mobile terminal is reduced, and meanwhile, the manufacturing cost of the mobile terminal is reduced.
+54. 101916992 pHEMT (pseudomorphic High Electron Mobility Transistor) radio frequency switch ESD (Electrostatic Discharge) protection device and radio frequency front end module including same
+CN
+15.12.2010
+H02H 9/04 Loading...
+H02H 9/04
+Loading...
+201010239984.0
+RDA Microelectronics (Beijing) Co., Ltd.
+Yuan Zhipeng
+H02H 9/04
+Loading...
+The invention relates to a pHEMT (pseudomorphic High Electron Mobility Transistor) radio frequency switch ESD (Electrostatic Discharge) protection device and a radio frequency front end module including the same. The pHEMT radio frequency switch ESD protection device comprises third pHEMT switch devices (501, 504, 507, 510, 513) and a pHEMT ESD protection device, and the pHEMT ESD protection device is formed by connecting in series first pHEMT switch devices (502, 505, 508, 511) and second pHEMT switch devices (503, 506, 509, 512) in form of diodes. The pHEMT radio frequency switch ESD protection device is characterized in that the voltage of the third pHEMT switch devices (501, 504, 507, 510, 513) conducting a control signal is Vcc/2+Vth, wherein the Vcc is a power source voltage, and the Vth is a threshold voltage between the third pHEMT switch devices (501, 504, 507, 510, 513) and a source electrode. The invention provides the ESD protection for a GaAspHEMT radio frequency switch and can reduce the parasitic capacitance for protecting diodes, thereby reducing the insertion loss of the radio frequency switch.
+55. 101908881 Directional coupler and radio-frequency power amplifier containing same
+CN
+08.12.2010
+H03K 19/14 Loading...
+H03K 19/14
+Loading...
+201010239985.5
+RDA Microelectronics (Beijing) Co., Ltd.
+Zhao Dongmo
+H03K 19/14
+Loading...
+The invention relates to a directional coupler and a radio-frequency power amplifier containing the directional coupler. The directional coupler (403,503,603) comprises a terminating resistor (111) and is characterized by also comprising at least two inductors (L1,L2 and L3) and a plurality of capacitors (C1,C2,C3,C4,C5 and C6), wherein the inductors are mutually induced and coupled; the capacitors (C1,C2,C3,C4,C5 and C6) and the inductors (L1 and L3) form an output impedance matching circuit of radio-frequency power amplifier pipe cores (401,501,601,505 and 605); the capacitors (C2 and C5) and the inductor (L2) form a power coupling circuit; and the power coupling circuit is used for outputting power coupled from the output power of the radio-frequency power amplifier pipe cores (401,501,601,505 and 605) to a wave detector (117). The invention effectively reduces the area of the directional coupler and further effectively reduces the size of a radio-frequency power amplifier module, thereby greatly reducing the total cost of a wireless communication terminal.
+56. 101902243 Configurable multimode radio-frequency front end module and mobile terminal having same
+CN
+01.12.2010
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+201010239962.4
+Ruide Kechuang Microelectronics (Beijing) Co., Ltd.
+Chen Jun
+H04B 1/40
+Loading...
+The invention relates to a configurable multimode radio-frequency front end module and a mobile terminal having the same. The configurable multimode radio-frequency front end module comprises a single-pole multi-throw switch, a controller, a low-frequency band radio-frequency power amplifier die, a high-frequency band radio-frequency power amplifier die, a plurality of selector switches and a plurality of output matching networks comprising a plurality of capacitors and inductors, wherein the frequency range of the low-frequency band is 824-915 MHz, and the frequency range of the high-frequency band is 1710-2025 MHz; and the controller is used for controlling the working state of the low-frequency band radio-frequency power amplifier die or the high-frequency band radio-frequency power amplifier die and controlling the single-pole multi-throw switch and the selector switches to select an output matching network corresponding to the low-frequency band radio-frequency power amplifier die or the high-frequency band radio-frequency power amplifier die and transmit low-frequency band signals or high-frequency band signals to an antenna. The invention can reduce the area of a mobile telephone terminal circuit board occupied by the radio-frequency front end module, thereby reducing the volume of the mobile telephone terminal and lowering the cost of the mobile telephone terminal.
+57. 201616811 功率控制电路及应用该电路的射频功率放大器模块
+CN
+27.10.2010
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201020157951.7
+锐迪科创微电子(北京)有限公司
+路宁
+H03F 3/20
+Loading...
+一种功率控制电路，包括：低压差线性稳压器；以及无源滤波网络，该无源滤波网络与所述低压差线性稳压器的输出端相连接。在这种功率控制电路中集成了滤波网络，从而缩小了射频功率放大器模块的布板面积，削减了贴装滤波电容的工序，降低了射频功率放大器模块及整个无线通信系统的整体成本。
+58. 101714852 Double-frequency radio-frequency power amplifier circuit chip
+CN
+26.05.2010
+H03F 1/02 Loading...
+H03F 1/02
+Loading...
+200910057932.9
+RDA Microelectronics (Shanghai) Co., Ltd.
+Chen Jun
+H03F 1/02
+Loading...
+The invention discloses a double-frequency radio-frequency power amplifier circuit chip. A radio-frequency power amplifier circuit in the chip comprises a radio-frequency power amplifier module and two output matching networks which are connected in parallel at the back of the radio-frequency power amplifier module; the outputs of the two output matching networks are all connected to a high-isolation radio-frequency switch which is connected or disconnected with a selected output matching network; the output of the output matching network is taken as the output of the chip and then is connected to a radio-frequency antenna; and the double-frequency radio-frequency power amplifier circuit chip also comprises a CMOS controller which provides control signals for the radio-frequency power amplifier circuit. The high-isolation radio-frequency switch is adopted to select the output matching networks; the circuit structure is simple; various parts of the double-frequency radio-frequency power amplifier circuit are integrated into the same chip so as to improve integration level and reduce cost; and the performance is ensured not to be influenced.
+59. 101674051 Method for improving efficiency of radio frequency power amplifier and radio frequency power amplifier circuit
+CN
+17.03.2010
+H03F 1/02 Loading...
+H03F 1/02
+Loading...
+200910057931.4
+RDA Microelectronics (Shanghai) Corp. Ltd.
+Chen Jun
+H03F 1/02
+Loading...
+The invention discloses a method for improving the efficiency of a radio frequency power amplifier and a radio frequency power amplifier circuit which is adopted in order to realize the method. The radio frequency power amplifier circuit comprises a radio frequency power amplifier and an output matching network, wherein the output of the radio frequency power amplifier is connected to an output end of the radio frequency power amplifier circuit through the output matching network, as well as a secondary harmonic low-resistance network and a higher harmonic low-resistance network so that both the secondary harmonic impedance and the higher harmonic impedance of the output matching network are very low, and the triple harmonic impedance is very high. In the invention, the output of the radiofrequency power amplifier is connected with the secondary harmonic low-resistance network and the higher harmonic low-resistance network, thereby effectively inhibiting the secondary harmonic wave, the triple harmonic wave and the higher harmonic wave, greatly improving the efficiency of the radio frequency power amplifier and reducing the harmonic distortion of the radio frequency power amplifier.
+60. 101656517 Circuits, chips and working method of high-low power radio-frequency amplifiers
+CN
+24.02.2010
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+200910057908.5
+RDA Microelectronics Co., Ltd.
+Chen Jun
+H03F 3/20
+Loading...
+The invention discloses circuits of high-low power radio-frequency amplifiers. A direct-current control circuit respectively provides a direct-current power supply and bias voltage for the circuits ofa high power amplifier and a low power amplifier which are connected in parallel, and controls the switches of the circuits of the high power amplifier and the low power amplifier according to the change of the bias voltage. The invention also provides chips comprising the circuits. The invention also provides a working method of the circuits, which controls the opening and the closing of the circuits of the high power amplifier and the low power amplifier by the bias voltage of the power amplifiers. The invention simplifies the circuit structure, lowers the circuit loss, enhances the circuitefficiency, lowers the circuit cost and enhances the circuit integration degree.
+61. 101651461 FM signal receiving method and FM signal receiver
+CN
+17.02.2010
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+200910057278.1
+RDA Microelectronics (Shanghai) Corp. Ltd.
+Zhao Chun
+H04B 1/10
+Loading...
+The invention discloses an FM signal receiving method. The method comprises the following steps: carrying out zero intermediate frequency conversion on a signal by a frequency mixer, i.e. the center frequency Flo of the frequency mixer and the center frequency Fs of an FM signal are the same; then, before signal demodulation, filtering the signal processed by the zero intermediate frequency conversion so as to filter out low-frequency noise. The invention also discloses an FM signal receiver for realizing the method. The center frequency Flo of the frequency mixer and the center frequency Fs of the FM signal are the same, and a filter for filtering the low-frequency noise is also arranged behind the frequency mixer. The invention has the characteristics of high image rejection, high sensitivity, high integration degree, low power consumption, and the like and greatly reduces design indexes and difficulties of modules such as a programmable gain adjuster (PGA), an analog-to-digital converter (ADC), and the like related to the scheme of the invention.
+62. 101615891 Radio-frequency power amplifier circuit, power control chip and a radio-frequency power amplifying method
+CN
+30.12.2009
+H03F 3/189 Loading...
+H03F 3/189
+Loading...
+200910057633.5
+RDA Microelectronics (Shanghai) Corp. Ltd.
+Chen Jun
+H03F 3/189
+Loading...
+The invention discloses a radio-frequency power amplifier circuit, which comprises a driving stage and an amplifying stage which are connected in series and a power control circuit; the power control circuit provides driving electrical source for the driving stage so as to control output power of the driving stage. The invention also discloses a power control chip which comprises the radio-frequency power amplifier circuit. The invention further discloses a radio-frequency power amplifying method, which comprises the following steps: connecting a driving stage and an amplifying stage in series between input signals and output signals; adopting a power control circuit to provide driving electrical source for the driving stage of the radio-frequency power amplifier circuit so as to control output power of the driving stage. In the invention, the power control circuit exercises control only over output power of the driving stage, thus simplifying the structure of the radio-frequency power amplifier and reducing area of the power control chip, improving integration level of components and reducing production cost.
+63. 101587427 Method for realizing control of storage card by digital equipment by expanding SD/MMC protocol
+CN
+25.11.2009
+G06F 3/08 Loading...
+G06F 3/08
+Loading...
+200810112408.2
+Poenix Mcroelectronic (China) Co., Ltd.
+Xu Lu
+G06F 3/08
+Loading...
+The invention relates to the field of SD/MMC storage cards, in particular to a method for realizing control of a storage card by digital equipment by expanding an SD/MMC protocol. The method uses high bits of address bit Argument of reading and writing commands stipulated by the SD/MMC protocol as an identification mark of an expansion command, defines parameters of the expansion command, and controls the storage card to perform special operations except for single data reading and writing function by adopting the expansion command. The method is quite simple and feasible, and makes the digital equipment control the storage card to perform specific functions except for single data reading and writing function through the expansion protocol, thereby meeting various special and complex requirements of users on the storage card during use.
+64. 101587532 Controller special for storage card, and control system and control system for storage card
+CN
+25.11.2009
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+200810112006.2
+Poenix Mcroelectronic (China) Co., Ltd.
+Sun Min
+G06K 7/00
+Loading...
+The invention relates to control technology for a storage card, in particular to a controller special for the storage card and a control system for the storage card and a relevant control method applying the same. The controller special for the storage card comprises a card reader controller which is installed with a software program, and the software program is saved in a storage of the card reader controller and runs in a CPU of the card reader controller, so that the controller special for the storage card has the functions of mutual authentication of the controller special for the storage card and the storage card and encryption of data in the storage card, can save operation log data in a storage area of the card reader controller and is convenient for tracking the data. According to the technical proposal, compared with the card reader of the storage card in the prior art, the invention has higher safety and stronger calculation function.
+65. 101567873 Multitask Parallel processing method and multitask parallel processing system
+CN
+28.10.2009
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+200810104949.0
+Poenix Mcroelectronic (China) Co., Ltd.
+Wang Zhihong
+G06F 9/46
+Loading...
+The invention discloses a multitask parallel processing method, which comprises the following steps: carrying out input/output data processing on a task to receive integrated data according to a defined input/output protocol; sending a corresponding message to a message queue of an operating system; and according to the received message sent by the operating system, carrying out task operating processing on the task. The invention also discloses a multitask parallel processing system. Therefore, the method and the system obviously reduce the message transferring number and thus reduce the task switching frequency to substantially improve the task processing speed and substantially reduce resource consumed by the task.
+66. 101566980 Method for multiplexing interface of SD card and SD card with expanded function
+CN
+28.10.2009
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200810104739.1
+Poenix Mcroelectronic (China) Co., Ltd.
+Liu Jie
+G06F 13/40
+Loading...
+The invention relates to the field of memory cards, in particular to a method for multiplexing an interface of an SD card and an SD card with expanded function. The method comprises the following steps: on a 9-pin interface defined by an SD card protocol, multiplexing the USB interface, the ISO/IEC7816 interface and the GPIO interface respectively or simultaneously; and by controlling corresponding pins, realizing the function of various interfaces respectively or simultaneously. The corresponding SD card comprises a memory unit arranged in a card body and a controller connected with the memory unit, wherein the controller is connected with the 9-pin interface arranged on the surface of the card body; the inside of the controller is provided with an SD interface control module and is also provided with a USB interface control module, an ISO/IEC7816 interface control module and a GPIO interface control module respectively or simultaneously; and the interface control modules are connected with corresponding pins according the pin multiplexing rule. The SD card saves production cost on the basis of improving the function of the memory card, and has quite good application prospect.
+67. 101561860 Method of mutual authentication of storage card and card reader
+CN
+21.10.2009
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+200810104206.3
+Phoenix Microelectronics (China) Co., ltd.
+Xu Lu
+G06K 7/00
+Loading...
+The invention relates to a design technology of a storage card and a card reader, in particular to a method of mutual authentication of a storage card and a card reader. In the method, at the initial stage of getting electricity, the storage card carries out first processing and sends the information after the first processing to the card reader; the card reader carries out second processing of the information data after the first processing and generates results of the second processing; the card reader selects to carry out third processing or generate authentication failure information according to the results of the second processing and sends the information after the third processing or the authentication failure information to the storage card; the storage card carries out fourth processing of the information after the third processing, generates results of the fourth processing and generates authentication success information or authentication failure information according to the results of the fourth processing; and the storage card stores the authentication success information or the authentication failure information. The invention ensures the reliability, the authenticity, the safety and the uniqueness of achieving specific functions based on the storage card.
+68. 101551838 Identity authentication method and system of memory card
+CN
+07.10.2009
+G06F 21/77 Loading...
+G06F 21/77
+Loading...
+200810103359.6
+Phoenix Mcroelectronic (China) Co., Ltd.
+Jiang Quming
+G06F 21/77
+Loading...
+The invention relates to an identity authentication method and a system of a memory card. The system comprises an upper computer for invoking an application software of a file system API of an operating system and a customized memory card; and the method comprises the following steps: a special file on the memory card is read and written by invoking the file system API of the operating system so as to establish a data interaction channel between the application software of the upper computer and the memory card; and the identity authentication is finished by using the data interaction on the data interaction channel, the application software of the upper computer as well as the authorization processing at the end of the memory card. The method and the system further adopt the synchronous counting method and the synchronous comparison method at the both ends of the data interaction channel to shield the cache in the file system API, can be adapted for various operating systems, reduce the work load of development and greatly reduce the working difficulty of debugging of compatibility, thereby effectively reducing the time of development and later-period debugging and improving the efficiency.
+69. 101539891 Embedded type flash memory, storage system and method for power fail safeguard of data
+CN
+23.09.2009
+G06F 12/16 Loading...
+G06F 12/16
+Loading...
+200810102061.3
+Phoenix Microelectronics China Co., Ltd.
+Zhang Wujie
+G06F 12/16
+Loading...
+The invention provides a flash memory, a system and a method for power fail safeguard of data. The embedded type system comprises an embedded type operating system, a file system, a memory and the like; the memory comprises a flash memory of which the storage space comprises a destination data area and a backup data area; and the embedded type storage system further comprises a power fail safeguard module used for executing the process of writing the data in the backup data area first, and then executing the process of writing the data in the destination data area after executing the writing process. The invention also relates to the method for power fail safeguard of data. The flash memory, the system and the method can easily and reliably realize the application of a general file system in a severe embedded type environment and ensure the safety and reliability of the data.
+70. 101520854 Smart memory card, data safety control system and method thereof
+CN
+02.09.2009
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+200810101199.1
+Phoenix Mcroelectronic (China) Co., Ltd.
+Li Feifei
+G06K 17/00
+Loading...
+The invention discloses a smart memory card, a data safety control system and method thereof. The system consists of the smart memory card and a card access device. The smart memory card comprises a memory medium and a USB interface module and is connected with the card access device through a USB interface; the memory space of the memory medium is divided into different spaces at least comprising a confidential data area and a mass memory area; the capacity parameter of a disk configured in the USB interface module is matched with the access boundary of the mass memory area; the USB interface module is provided with a sector mapping unit used for conducting uniform mapping the different sectors covered by the confidential data area and the mass memory area and the memory sector of the card access device. The smart memory card solves the safety problem that occurs when the smart card data and mass memory data share a memory medium and data exchange is conducted with the card access device through the USB interface.
+71. 101488988 Smart card and method for implementing fixed dialing and forbidden dialing using the smart card
+CN
+22.07.2009
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200810056142.4
+Poenix Mcroelectronic (China) Co., Ltd.
+Lai Huatian
+H04M 1/725
+Loading...
+The invention discloses a smart card and a method to realize fixed dialing and forbidden dialing by the smart card, comprising steps of: creating a fixed dialing number file in a data storage area of the smart card and creating a fixed dialing open/close and a forbidden dialing open/close option in a development tool menu module of the smart card; then under condition of distributing and activating call control service, when the user calls actively, the smart card judges whether receives a call control instruction sent by a mobile device; after receiving the call control instruction, judging the open/close option of the fixed dialing and forbidden dialing and executing corresponding call movement according to judgment result. The invention makes the fixed dialing and forbidden dialing function be applied on the mobile device supporting development tool packet via a development tool packet technology.
+72. 101482606 Integer ambiguity initialization apparatus and method
+CN
+15.07.2009
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200810043017.X
+NavAsic Microelectronics (Shanghai), Inc.
+Qin Xinhua
+G01S 5/02
+Loading...
+A whole circumference ambiguity initializing apparatus comprises a changing device used for changing at least one of distance and direction of the distance vector between a first aerial and a second aerial. In the preferable embodiment mode, the changing device comprises an operating arm which is a single and is straight-rod shaped, a support shaft is provided under the operating arm, the operating arm can rotate relative to the support shaft, the directions of the distance vector between the first aerial and the second aerial. The invention also provides a whole circumference ambiguity initializing method. The whole circumference ambiguity initializing apparatus and the method provided by the invention can solve the technical problems that the changing the aerial operation is not convenient and is difficult, can enable the whole circumference ambiguity initialization to be easy to operate, the relative position of two aerials can be changed conveniently and rapidly.
+73. 101478286 Square wave-sine wave signal converting method and converting circuit
+CN
+08.07.2009
+H03B 28/00 Loading...
+H03B 28/00
+Loading...
+200810043156.2
+RDA Microelectronics (Shanghai) Inc.
+Du Dingkun
+H03B 28/00
+Loading...
+The invention discloses a square wave-sine wave signal transformation method comprising the steps as follows: a square wave signal generates N square wave control signals with the same period; the N square wave control signals arrayed in sequence respectively generate N square wave secondary signals; the amplitude sum of the N square wave secondary signals is a; the amplitude of the square wave signal n is a right type; the N square wave secondary signals are processed through superposition to obtain a false sine wave signal; and the false sine wave signal is processed through filtration to obtain a sine wave signal. A square wave-sine wave signal transformation circuit is also disclosed, and the superposition of the N square wave secondary signals in the method is realized by controlling the superposition of current so as to obtain the sine wave signal. The square wave-sine wave signal transformation method and the square wave-sine wave signal transformation circuit avoid adopting a higher order high-frequency filter directly, greatly save the area and the power consumption of a chip, and reduce the design complexity.
+74. 101478290 Method for improving linearity of multi-stage power amplifier circuit and circuit therefor
+CN
+08.07.2009
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200810043999.2
+RDA Microelectronics (Shanghai) Inc.
+Chen Jun
+H03F 1/32
+Loading...
+The invention discloses a method for increasing the linearity of a multistage power amplifier circuit. A harmonic filter network is arranged between stages of a multistage power amplifier; and the harmonic filter network leads a power matching network positioned between the stages of the amplifier to match with a power output load value of a previous-stage power tube, and leads the power matching network to reach a second harmonic through resonance at the same time by applying an LC resonance network. The multistage power amplifier circuit adopted by the method is also disclosed, comprises a cascaded multistage power amplifier circuit and an interstage matching network, and the harmonic filter network is arranged between the stages of the multistage power amplifier circuit. In the method and the multistage power amplifier circuit, the harmonic filter network is added in the interstage matching network, so that the harmonic suppression of a RF power amplifier is enhanced and the linearity of the RF power amplifier is obviously increased without increasing the static power drain of the RF power amplifier.
+75. 101478288 Method for enhancing efficiency of radio frequency power amplifier and radio frequency power amplifier circuit
+CN
+08.07.2009
+H03F 1/02 Loading...
+H03F 1/02
+Loading...
+200810043982.7
+RDA Microelectronics (Shanghai) Inc.
+Chen Jun
+H03F 1/02
+Loading...
+The invention relates to a method for increasing the efficiency of a RF power amplifier and a RF power amplifier circuit. An even harmonic low-resistivity network is added in an output network of the RF power amplifier to lead the RF power amplifier to be in an class F functional mode, the efficiency of the RF power amplifier is obviously increased by more than 70 percent, even harmonic and odd harmonic are restrained effectively, and the harmonic distortion of the RF power amplifier is reduced.
+76. 101478292 Radio frequency power amplifier circuit chip
+CN
+08.07.2009
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+200810044008.2
+RDA Microelectronics (Shanghai) Inc.
+Chen Jun
+H03F 3/20
+Loading...
+The invention discloses an RF power amplifier circuit chip. An RF power amplifier circuit in the chip comprises an RF power amplifier and a plurality of output matching networks that are mutually connected in parallel and are connected with the RF power amplifier subsequently, and the output terminal of each output matching network is a signal output part of the RF power amplifier. The number of RF power amplifier bare chips in the RF power amplifier circuit chip is reduced by one instead of the original two bare chips, so that the chip cost is lowered greatly, the occupying space of a peripheral circuit on a cell phone circuit board is reduced at the same time, and the cost of the whole solution is lowered greatly.
+77. 101478291 Radio frequency power amplifier circuit and radio frequency power amplifying method
+CN
+08.07.2009
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+200810043860.8
+RDA Microelectronics (Shanghai) Inc.
+Chen Jun
+H03F 3/20
+Loading...
+The invention discloses a RF power amplifier circuit and a RF power amplifying method realized by adopting the RF power amplifier circuit, wherein, an impedance matching network is added to be connected with a switch in a low power mode to form a high-load impedance matching network at an output terminal; when the switch is switched on, the output of a RF power amplifier passes through the switch and the high-load impedance matching network and then is transmitted to the output terminal; and the ratio between the resistance value when the switch is switched on and the load impedance value of the matching network is smaller, so that the loss of output power on the switch is reduced, and the efficiency of the power amplifier with low power is increased.
+78. 101465676 Radio-frequency power amplifier circuit and control method thereof
+CN
+24.06.2009
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200710094585.8
+RDA Microelectronics Co., Ltd.
+Chen Jun
+H04B 7/005
+Loading...
+The invention discloses a RF power amplifier circuit which comprises a RF power amplifier; the RF power amplifier is connected with a power control analog signal Vramp; the Vramp signal is also connected with an input end of an and gate; a bias circuit switch control signal TXEN is connected with the other input end of the and gate; the output end of the and gate is used as the switch control signal of the bias signal VBIAS. The invention also discloses a control method of RF power amplifier circuit; when the Vramp signal and TXEN signal are valid in the same time, the bias signal VBIAS is started to enable the RF power amplifier to operate; when at least one of the Vramp signal and the TXEN signal is invalid, the bias signal VBIAS is turned off to stop the RF power amplifier. The invention performs and operation towards the Vramp signal and TXEN signal, and adopts the two signals to control the on-off state of the RF power amplifier, avoids the RF signal leakage in pre-opening state and has better isolation degree, and improves the performance of RF power amplifier.
+79. 101465647 Filter of phase-locked loop apparatus and phase-locked loop apparatus
+CN
+24.06.2009
+H03L 7/093 Loading...
+H03L 7/093
+Loading...
+200710172875.X
+NavAsic Microelectronics (Shanghai), Inc.
+Xue Yuan
+H03L 7/093
+Loading...
+The invention discloses a filter of a phase-locked loop device. The invention adopts an equivalent capacitor as a first capacitor; as the capacitance of three capacitors which construct the equivalent capacitor is far less than expected value Cz, compared with a first capacitor with excepted value Cz in a filter circuit in the prior art, the volume of the equivalent capacitor in the invention is greatly reduced. Meanwhile, as the capacitance of the equivalent capacitor is less than the expected value, a channel additional current is added to the equivalent capacitor to enable the voltage across both ends of the equivalent capacitor to be equal to the voltage across both ends of the first capacitor with the expected value Cz in the prior filter circuit; thereby, the loop current ip has no need to be adjusted to ensure the Uf(t) to be unchanged; so the size of a second filter capacitor is reduced to realize the miniaturization of filter without the adjustment of loop current on the premise that the output voltage is ensured to be constant. The invention also discloses a phase-locked loop device.
+80. 101447770 Temperature compensation circuit and method of radio-frequency power amplifiers
+CN
+03.06.2009
+H03G 3/00 Loading...
+H03G 3/00
+Loading...
+200710094295.3
+RDA Microelectronics (Shanghai) Inc.
+Qian Yongxue
+H03G 3/00
+Loading...
+The invention discloses a temperature compensation circuit of radio-frequency power amplifiers, comprising a power control circuit, which receives power control signals Vramp, collects the temperature information T of the radio-frequency power amplifiers, converts the temperature information T into temperature compensation amounts by a temperature compensation function f(T), sums the temperature compensation amounts with original control amounts to obtain ultimate power control signals to control the output powers of the radio-frequency power amplifiers. The invention further discloses a temperature compensation method of radio-frequency power amplifiers, comprising, carrying out temperature compensation for the ultimate power control signals by importing the temperature compensation function f(T); and controlling the output powers of the radio-frequency power amplifiers. The invention can effectively compensate the changed output power of the radio-frequency power amplifiers due to temperature within certain range, and greatly reduces the temperature influence on the output powers of power amplifiers.
+81. 101446845 Frequency-adjusting device
+CN
+03.06.2009
+G06F 1/08 Loading...
+G06F 1/08
+Loading...
+200810207503.0
+NavAsic Microelectronics(Shanghai), Inc.
+Wang Wei
+G06F 1/08
+Loading...
+The invention relates to a frequency-adjusting device which comprises a microprocessor, a first register and a frequency-adjusting circuit. The microprocessor sets up a frequency division coefficient according to self workload or a working state; the first register stores the frequency division coefficient set up by the microprocessor; and the frequency adjusting circuit uses the read frequency division coefficient as a first frequency division coefficient; the first frequency division coefficient is compared with a delayed second frequency division coefficient and counted according to an effective comparison signal and a clock signal of the second frequency division coefficient; if the counting value equals to a first threshold value, a working clock signal is a low level signal; and when the counting value is smaller than the first threshold value or equals to a second threshold value, the working clock signal is a clock signal corresponding to the second frequency division coefficient. When the frequency division coefficients change, a duty cycle of the working clock signal of the device shows no mutation, thereby causing smooth transition to be achieved between working clock signals before and after the change of the frequency division coefficients. The device can be widely applied to electronic information systems.
+82. 101442509 Compatible data interface
+CN
+27.05.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200810207853.7
+NavAsic Microelectronics (Shanghai), Inc.
+Wang Wei
+H04L 25/03
+Loading...
+The invention relates to a compatible data interface. The data interface comprises a first mode unit and a combined mode unit, wherein the first mode unit combines a phase signal and an amplitude signal into a first combined signal when a second data wire transmits the amplitude signal and a first data wire transmits the phase signal; when a clock signal is normally operated, the first data wire alternately transmits the phase signal and the amplitude signal; and the combined mode unit correspondingly combines the phase signal and the amplitude signal which are extracted from the first data wire into a second combined signal with a sequence of the phase signal and the amplitude signal and a third combined signal with a sequence of the amplitude signal and the phase signal under the control of the clock signal, and selects the second combined signal or the third combined signal to be transmitted to an external device. The data interface can flexibly process various types of input data and can be widely applied to electronic equipment.
+83. 101441262 Tridimensional traffic navigation method and apparatus
+CN
+27.05.2009
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+200710170680.1
+NavAsic Microelectronics (Shanghai), Inc.
+Liu Yong
+G01S 5/02
+Loading...
+The invention provides a three-dimensional traffic navigation method and a device. The key is that the three-dimensional traffic navigation method can detect the three-dimensional traffic area of the navigated object and judge whether the navigated object is on the road level of the three-dimensional traffic area. The invention further provides a three-dimensional traffic navigation device. Through the three-dimensional traffic navigation method and device, whether the navigated object is on the road level of the three-dimensional traffic area can be effectively learnt, thus improving navigation quality.
+84. 101420259 Frame synchronization method and device
+CN
+29.04.2009
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200710047350.3
+NavAsic Microelectronics (Shanghai), Inc.
+Qiu Mobo
+H04B 7/26
+Loading...
+The present invention discloses a method for realizing the frame synchronization. The key of the method comprises forecasting navigation data that is being transmitted; matching the forecasted navigation data with the navigation data received from a GPS satellite directly; modifying the local time of the GPS receiving device to complete the frame synchronization under the condition that the matching is successful. The present invention also discloses a frame synchronization device realizing the frame synchronization method. According to the present invention, the time of achieving the frame synchronization for a GPS receiving device can be shortened.
+85. 101404535 Power supply switch control system of communication terminal
+CN
+08.04.2009
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+200810202917.4
+NavAsic Microelectronics (Shanghai), Inc.
+Wang Wei
+H04B 7/185
+Loading...
+The invention relates to a power on-off control system of a communication terminal which comprises a control module, a detection module, a switching module, a basic band microprocessor, a RF module, a basic band power which is connected with the basic band microprocessor by the switching module and a RF power which is connected with the RF module; the control module sets a power on-off control bit and an on-off count after receiving the information of a low power consumption working state; the detection module transmits a first time delay command when detecting that the power on-off control bit is effective; the switching module delays transmitting a low power consumption control signal after receiving the first time delay command and delays turning off the basic band power after receiving a second time delay command; the basic band microprocessor transmits an RF power off command and the second time delay command after receiving the low power consumption control signal; the RF module turns off the RF power after receiving the RF power off command. The power on-off control system of the communication terminal can turn off the RF power and the basic band power in sequence, thus leading the communication terminal to enter the lower power consumption working state. The power on-off control system of the communication terminal can be broadly applied to a wireless communication receiving system.
+86. 101400164 Smart card, system and method for realizing deployment customized service
+CN
+01.04.2009
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+200710175401.0
+Phoenix Mcroelectronic (China) Co., Ltd.
+Yang Yanhui
+H04W 88/02
+Loading...
+The invention discloses a smart card and a system and process for realizing the deployment and customization service. At least one customization service file is preset in the smart card, and the mobile terminal firstly emits an operating command packaged with data to the customization service file. The smart card performs operations to the corresponding customization file after receiving the operating command, writes the obtained customization traffic data into the data exchange file, and return back a command response/ execution status. The mobile terminal emits a data reading exchange file command based upon the returned command response/ execution status. The smart card returns the data exchange file to the mobile terminal after receiving the data reading exchange file command, and then the mobile terminal receives, analyzes and displays the customization service data in the data exchange file. The invention can operate the customization file flexibly by the smart card and can combine with the mobile terminal to realize the preset and display of the customization service of mobile operators.
+87. 101393258 Method for capturing satellite signal carrier frequency
+CN
+25.03.2009
+G01S 1/04 Loading...
+G01S 1/04
+Loading...
+200810201896.4
+NavAsic Microelectronics(Shanghai), Inc.
+Lu Yu
+G01S 1/04
+Loading...
+The invention relates to an acquisition method for satellite signal carrier wave frequency. The method comprises the following steps: extracting data segments from sampled data of digital IF signals S(n)=Ae and dividing each segment into data blocks, wherein wif represents satellite signal carrier wave angular frequency; determining the phrase compensation sequence of compensation angular frequency wi; processing products of the extracted data segments and a phrase compensation sequence and acquiring the angular frequency of peaks in a frequency spectrum; determining a satellite signal carrier wave angular frequency wif according to a formula that Wif is equal to wpeak minus wi and setting a working frequency of a digital controllable oscillator of a corresponding signal channel of a GPS receiver to complete acquisition of satellite signal carrier wave frequency. The method can reduce the search time for carrier frequency and time for cold start, and can be widely used in satellite receiving systems.
+88. 101394616 Incoming call displaying method for large capacity telephone number book of smart card
+CN
+25.03.2009
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+200710121850.7
+Poenix Mcroelectronic (China) Co., Ltd.
+Zhang Su
+H04W 88/02
+Loading...
+The invention relates to a caller ID displaying method for a large capacity phonebook in a smart card. The caller ID displaying method comprises the following steps: when incoming call comes, a mobile terminal (1) acquires a calling number and transfers the calling number and an inquiry instruction to a smart card (2); the smart card identifies and inquires about the large capacity phonebook of the smart card according to the calling number and the inquiry instruction, and returns the results of correct execution or wrong execution; the mobile terminal directly displays the calling number according to the results of the wrong execution or acquires inquiry results according to the results of the correct execution and displays the inquiry results; the inquiry results displayed include the calling number and information matched with the calling number and displayed by the mobile terminal or only the calling number displayed. The method can inquiry about and display more than 254 pieces of record information in the large capacity phonebook in the smart card on a real-time basis, thereby improving the availability of the record information and avoiding modifying terminal hardwares.
+89. 101383994 一种APDU命令的数据处理方法
+CN
+11.03.2009
+H04W 88/00 Loading...
+H04W 88/00
+Loading...
+200710121507.2
+锐迪科微电子(上海)有限公司
+杨延辉
+H04W 88/00
+Loading...
+本发明涉及一种APDU命令的数据处理方法，包括：在智能卡内建立专用透明文件作为数据交换文件；智能卡识别并根据收到的封装后的APDU命令转向对所述数据交换文件进行操作。这种数据处理方法，通过数据交换文件能够利用标准APDU指令直接与智能卡交换大容量数据，进一步，结合内存交换方式可以避免分块传输对同一数据交换文件的多次重复读写，从而提高数据传输效率和智能卡存储器物理寿命。
+90. 101378259 Phase selection programmable frequency divider
+CN
+04.03.2009
+H03K 23/00 Loading...
+H03K 23/00
+Loading...
+200710094053.4
+RDA Microelectronics (Shanghai) Co., Ltd.
+Wei Shuran
+H03K 23/00
+Loading...
+The invention discloses a phase selection programmable frequency divider, only an accumulator is needed in a phase selection generating circuit, thus simplifying the producing process of phase selection logic, improving the stability of the whole frequency divider, avoiding the generation of burrs in the phase selection process, and reducing the error possibility of the whole frequency divider; meanwhile, by pre-obtaining four signals working at the actual system working frequency and with the phase difference of 90 degrees, and causing the phase selection generating circuit to output a switching control signal used for controlling the phase selection switching circuit to be switched from the signal of one phase into the signal of another phase under the control of a trigger signal output by the M frequency divider, the frequency dividing value with the minimum value of 0.25 is realized, thus causing reference clock frequency to be improved to be four times of the prior one, namely, the sampling frequency of a Sigma-Delta modulator is improved to be four times of the prior one, thereby effectively reducing the in-band phase noise of a phase-locking loop and improving the entire phase noise of a frequency synthesizer.
+91. 101373212 Method for tracing satellite signal based on FFT and receiver using the same
+CN
+25.02.2009
+G01S 5/14 Loading...
+G01S 5/14
+Loading...
+200710045153.8
+NavAsic Microelectronics (Shanghai), Inc.
+Paul.Beckmann
+G01S 5/14
+Loading...
+The invention discloses a method for tracking and processing satellite signals based on the fast Fourier transform (FFT) and a receiver applying the method. The method comprises the following steps: firstly, carrying out the Fourier transform to the input satellite signals; secondly, multiplying the transformed satellite signals by the PRN code pre-stored in the receiver; then, filtering the multiplied signals and adding all the filtered satellite signals; and lastly, carrying out the inverse Fourier transform to the added signal. The Fourier transform circuit of a tracking module receiver adopting the method is the Fourier transform circuit of the multiplexed capture module. The method can remove the mutual interference among the satellite signals through filtration, and the receiver can reduce the hardware setting of the receiver through the multiplexed Fourier transform circuit.
+92. 101373980 Wireless receiver and method for eliminating DC offset voltage
+CN
+25.02.2009
+H04B 1/12 Loading...
+H04B 1/12
+Loading...
+200710094040.7
+RDA Microelectronics (Beijing) Co., Ltd.
+Yang Shengjun
+H04B 1/12
+Loading...
+The invention discloses a wireless receiver, which comprises a gain amplifier arranged on a master signal channel, and an analog-to-digital converter, a digital signal processor (DSP) and a digital-to-analog converter which are sequentially connected to a feedback channel. The invention further discloses a method for eliminating direct current offset voltage, which comprises the the following steps: a master signal is amplified via a gain amplifier on the master signal channel, the analog-to-digital converter on the feedback channel detects the size of the direct current offset voltage outputted from the gain amplifier and the size of 1/f noise and converts to digital signals, DSP carries out low-pass filtering of the digital signals converted by the analog-to-digital converter and calculates actual digital signals, and the digital analog converter converts the digital signals subjected to DSP filtering and calculation to feedback analog signals which can counteract the direct current offset voltage and the 1/f noise of the master signal. The invention can dynamically and accurately measure the size of the direct current offset voltage and the 1/f noise by using dynamic feedback method, and can carry out real-time elimination, thereby ensuring correct demodulation of the wireless receiver.
+93. 101373957 Digital gain control method and circuit
+CN
+25.02.2009
+H03G 3/00 Loading...
+H03G 3/00
+Loading...
+200710094041.1
+RDA Microelectronics (Beijing) Co., Ltd.
+Du Dingkun
+H03G 3/00
+Loading...
+The invention discloses a digital gain controlling means. An N-bit binary digit gain control code controls the resistance of a variable resistor in a variable gain amplifier for the gain adjustment of the variable gain amplifier; an MOS transistor array is used as the variable resistor; the variable resistance value is controlled by utilizing the relation between the on-resistance between source electrodes and drain electrodes of transistors and the voltage of grid electrodes; a gain control module generates the grid electrode voltage of each transistor in the MOS transistor array according to the N-bit binary digit gain control code; a circuit for realizing the digital gain controlling means is also disclosed. By adopting the digital gain controlling means and the circuit, an integrated circuit is led to have smaller chip area when satisfying the gain control demand of large range and high precision.
+94. 101373970 Phase discriminator circuit and implementing method thereof
+CN
+25.02.2009
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+200710094037.5
+RDA Microelectronics (Beijing) Co., Ltd.
+Huang Xianyang
+H03L 7/085
+Loading...
+The invention discloses a phase discriminator circuit and an implementation method thereof. The phase discriminator circuit comprises a current source, switches and an output end. Each path of input signals is a pair of differential signals; the current source is connected with the output end via two stages of switches, and each stage of switches is composed of two switches; and the two stages of switches are respectively controlled by two paths of input differential signals. The implementation method of the phase discriminator circuit comprises: representing each path of input signals as a pair of differential signals; respectively controlling the two stages of switches by using the two paths of differential signals, and inputting the signals from the current source to the output end via the two stages of switches; and allowing the output signals from the output end to be proportional to the phase difference of two paths of input signals. The inventive phase discriminator circuit inputs signals by using differential mode, so as to improve the anti-jamming capacity of the input signals of a phase discriminator; and realizes phase discrimination logic by only using cascade switches, thereby simplifying circuit structure and effectively avoiding interference among internal signals of the circuit.
+95. 101373982 High-frequency wireless reception front-end circuit
+CN
+25.02.2009
+H04L 5/20 Loading...
+H04L 5/20
+Loading...
+200710094038.X
+RDA Microelectronics (Beijing) Co., Ltd.
+Xiang Bin
+H04L 5/20
+Loading...
+The invention discloses a high-frequency wireless receiving front-end circuit, which is formed by a low-noise amplifier, a frequency mixer, a buffer circuit and a filter which are sequentially connected, wherein the buffer circuit is a phase inverter. The inventive circuit replaces the phase inverter for a transconductance amplifier, so as to avoid spontaneous oscillation phenomenon and improve circuit stability; and the circuit needs not to amplify necessary compensation capacitance and may not restrict bandwidth, and is easy to manufacture in an integrated circuit.
+96. 101373958 Automatic gain control circuit and receiver using the same
+CN
+25.02.2009
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+200710045167.X
+NavAsic Microelectronics (Shanghai), Inc.
+Xia Bing
+H03G 3/20
+Loading...
+The invention relates to an automatic gain control circuit provided with a concatenated variable gain controller. A resistance element and a capacitor element which form a closed-loop system are connected between the input terminal and the output terminal of an operational amplifier of a first-stage variable gain controller; the resistance element and the capacitor element are connected through a switching element; when the switching element is switched on, a parallel structure is formed. Through the parallel connection of the capacitor element, a closed-loop bandwidth of the automatic gain control circuit is led to be an almost invariable value when the gain is changed under the circumstances that the device cost and the dynamic power dissipation of the automatic gain control circuit are almost not increased.
+97. 101373952 Low noise amplifier capable of implementing differential amplification and method thereof
+CN
+25.02.2009
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+200710094039.4
+RDA Microelectronics (Beijing) Co., Ltd.
+Xi Zhanguo
+H03F 1/26
+Loading...
+The invention discloses a low-noise amplifier which can realize differential amplification and a method. A control logic module is adopted to realize the switching of the low-noise amplifier between a single-ended input mode and a differential input mode, so the low-noise amplifier is led to be suitable for the application situation that a radio-frequency input signal is a differential signal and also for the application situation that a radio-frequency input signal is a single-ended signal; an internal circuit (a 180-degree phase turnover module) is adopted to obtain a signal which has the same magnitude and 180 phase difference compared with the radio-frequency input signal to ensure the realization of the differential amplification under the application situation that the radio-frequency input signal is the single-ended signal, thereby not only ensuring the linear degree and the noise index of the circuit of the low-noise amplifier, but also reducing the complexity of an external matching circuit needed by the low-noise amplifier in a radio-frequency receiver, and thus lowering implementation cost.
+98. 101344861 Smart card internal memory management method
+CN
+14.01.2009
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+200710130605.2
+Poenix Mcroelectronic (China) Co., Ltd.
+Yang Yanhui
+G06F 9/50
+Loading...
+The invention relates to an intelligent card memory management method, by which the memory can be used dynamically and general applications, exclusive applications and non-exclusive applications are separated. The method comprises: as for the general applications, the applied memory is automatically released after exiting; as for the exclusive applications, the applied memory is allocated to the exclusive applications for permanent use without release; and as for the non-exclusive applications, the applied memory is only released when other non-exclusive applications apply memory. The management method can improve memory utilization efficiency of large-capacity intelligent cards and simultaneously solve the problem of memory recovery of the intelligent cards in practical application.
+99. 101324873 Compatible type non-standard bit wide serial perimeter interface and data transmission method among interfaces
+CN
+17.12.2008
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+200810040416.0
+NavAsic Microelectronics (Shanghai), Inc.
+Zeng Zhufeng
+G06F 13/38
+Loading...
+The invention relates to a compatible non-standard bit wide serial peripheral interface and a data transmission method between interfaces. The interface comprises data transmission registers with 128 bits of bit-width, a data receiving register and a shift register with 8 to 128 bits of bit-width; the method comprises the following steps: the obtained data is copied to the shift register through the data transmission registers; at the moment of jumping of the current clock signal, the transmission bit of the shift register transmits one bit data, the rest data is moved for one bit towards the direction of the transmission bit in sequence, and the receiving bit receives one bit data; whether the shift register receives electrical level of the full signal is detected; the shift register transmits the received data to the data receiving register; whether the data received by all the data transmission registers are fully copied to the shift register is detected. The interface and the data transmission method have the advantages that the data with unfixed bit-width and to be transmitted can be transmitted under the unpacked condition within the range of 128 bits, the transmission time is shorter, the operation is also more convenient, and the interface and the data transmission method can be widely applied to the communications system.
+100. 101321336 High-capacity data interchange method between mobile terminal and smart card
+CN
+10.12.2008
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+200710110448.9
+Poenix Mcroelectronic (China) Co., Ltd.
+Huang Zhengquan
+H04W 88/02
+Loading...
+The invention relates to a method for exchanging data in large capacity between a mobile terminal and a smart card, comprising the steps of: utilizing a universal APDU command to establish a data transmission channel between the smart card and the mobile terminal; using a target address and a source address corresponding to application of the mobile terminal and files of the smart card to establish a particular logic channel; applying the two channels to block-transfer large-capacity data that each block has the size consistent with standards. Such a method settles the problem about transmission of large-capacity data via a standardized ISO/IEC 7816 interface by adopting the universal APDU command opening for upper layer application to establish the shared data transmission channel between the smart card and the mobile terminal, and further by adopting the methods of data encapsulation and tunnel protocol.
+101. 101299157 Switch off control circuit of low-voltage difference linearity voltage stabilizer
+CN
+05.11.2008
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+200810039055.8
+NavAsic Microelectronics (Shanghai), Inc.
+Xia Bing
+G05F 1/56
+Loading...
+The present invention discloses a switching control circuit of the low dropout regulator LDO which is integrated in a circuit module that a main circuit is provided. The switching circuit comprises the following components: a trigger which outputs a low level triggering signal to the LDO when a reset low-level signal transmitted by a reset module is received, and outputs a high level triggering signal to the LDO when a jump edge of the signal outputted by the control module is received; the LDO which is actuated when the low-level triggering signal outputted by the trigger is received and provides a stabilizing voltage obtained by converting the power voltage to the control module, and is switched off when the high-level triggering signal outputted by the trigger is received; and a control module which outputs the signal when the stabilizing signal provided by the LDO is received, and jumps the output signal when the LDO needs to be switched off. When the invention is applied, the LDO can be simply switched off without adding a pin specialized for switching off the LDO to the processing chip when the LDO is provided at the inner part of the processing chip.
+102. 101291501 Telecommunication intelligent card implementing extension direct dialing function by applying tool kit and method thereof
+CN
+22.10.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810114482.8
+Poenix Mcroelectronic (China) Co., Ltd.
+Jiao Chunyan
+H04L 29/06
+Loading...
+The invention relates to the mobile communication field, particularly to a telecommunication intelligent card capable of realizing the function of extension direct dialing through an application tool kit and the method for the same. The intelligent card comprises a data storage module and a program storage module. The data storage module comprises a basic communication information storage module for storing mobile communication basic user information, a short message storage module and a standard directory storage module; the program storage module comprises a bottom layer control module for realizing a hardware interface, a communication management module for completing functions such as basic access authentication, and a user interface management module for completing the interaction with the user; wherein the data storage module is also provided with a self defining directory storage module, and the program storage module is also provided with a self defining directory management module for completing various operations on the self defining directory. With the application of the application tool kit technology, the invention enables a mobile communication terminal to dial an extension number in an easier and quicker way and save phone fee.
+103. 101286735 Delay device of reset signal
+CN
+15.10.2008
+H03K 19/003 Loading...
+H03K 19/003
+Loading...
+200810038412.9
+NavAsic Microelectronics (Shanghai), Inc.
+Liu Yong
+H03K 19/003
+Loading...
+The invention relates to a reset signal time-delay device which comprises a time-delay unit, a logic processing circuit and a logic adaptive unit, wherein, the time-delay unit is used for delaying the time by adopting an asynchronous counter according to a local clock signal; output signals of all levels of the counter are taken as the input signals of the logic adaptive unit; the logic processing circuit is used for resetting the input signals according to a local clock and the reset input signals are then filtered to be taken as the reset signals of the asynchronous counter and the input signals of the logic adaptive unit; the logic adaptive unit is used for carrying out logic adapting to the output signals of all levels of the asynchronous counter and the reset input signals processed by the logic processing circuit; in addition, a first output signal after the logic adapting is taken as the reset signal of a circuit to be reset while a second output signal is taken as the control signal of the local clock of the time-delay unit. The reset signal time-delay device of the invention significantly reduces the failure rate of the resetting of the circuit to be reset and can be widely applied to circuit systems.
+104. 101154923 Driving circuit of power amplifier
+CN
+02.04.2008
+H03F 1/02 Loading...
+H03F 1/02
+Loading...
+200610116555.8
+Ruidike Micro Electronic (Shanghai) Co., Ltd.
+Wei Shuran
+H03F 1/02
+Loading...
+The present invention discloses a power amplifier driving circuit which includes two parallel-connected identical double end input-single end output power amplifier driving circuit paDrvI and paDrvII, and the input signal is across connected to form a power amplifier driving circuit with the double end input-single end output structure. The invention has the advantages of wide scope of working frequency, providing enough output power, good linearity, matching the output to 50ohm and easy integrating on the chip.
+105. 101154925 Radio-frequency differential-to-single-ended converter
+CN
+02.04.2008
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+200610116553.9
+Ruidike Micro Electronic (Shanghai) Co., Ltd.
+Wei Shuran
+H03F 3/20
+Loading...
+The present invention discloses a radio frequency differential-to-single-ended converter, the basic forms of the converter is separated to two types of N type and P type which are respectively realized with N-type transistor and P-type transistor. The N-type converter combines with the P-type converter and forms a push-pull type radio frequency differential-to-single-ended converter; wherein, the outputs of N-type converter and the P-type converter are respectively coupled to the output end Vo by the intercourse of the capacitances of C1 and C2; the input end is shared, namely a transistor M1 of the N-type converter and a transistor M4 of the P-type converter use one input end Vi+, a transistor M2 of the N-type converter and a transistor M3 of the P-type converter use one input end Vi-; and the push-pull type radio frequency differential-to-single-ended converter is formed. The invention has the advantages of wide scope of working frequency, providing additional gain, high efficiency, proportional load at two differential circuits, good linearity and easily integrating on the chip.
+106. 101154922 Down-conversion mixer
+CN
+02.04.2008
+H03D 7/00 Loading...
+H03D 7/00
+Loading...
+200610116709.3
+Ruidike Micro Electronic (Shanghai) Co., Ltd.
+Huang Ting
+H03D 7/00
+Loading...
+The present invention discloses a down-converting mixer which is composed of four NMOS switching tubes and a current-electric voltage converter without operational amplifier, and the mixer has the function of image suppression. A differential radio frequency signal VRFP and VRFN which is amplified by the front low-noise amplifier (LNA) is coupled to the source pole of the switching tube with the capacitances of C1 and C2, the grids of four switching tubes are respectively connected to the orthogonal four-phase clock of the local oscillator signal, the drains are connected with each other and form the image-suppression down-converting mixer. With the structure the invention reserves the high linearity of the traditional passive down-converting mixer and obtains a higher noise capacity, and well restrains the low-frequency noise especially the flicker noise.
+107. 101145764 Output circuit of calculation amplifier
+CN
+19.03.2008
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+200610031093.X
+Ruidike Micro Electronic (Shanghai) Co.Ltd
+Wei Shuran
+H03F 3/45
+Loading...
+The invention discloses an output stage circuit of an operational amplifier, which comprises two triodes M1 and M2 with the drain electrodes thereof connected together, wherein the drain electrodes of the triodes M1 and M2 are used as an output terminal, the source electrode of the triode M2 is connected with a power end, the source electrode of the triode M1 is grounded, the grid electrode of the triode M1 is used an input terminal, the grid electrode of the triode M2 is connected with a resistor R1, the resistor R1 is not connected with one end of the triode M2 and used as a voltage biasing input terminal, and a capacitor C1 is connected between the triodes M1 and M2. The invention adds a capacitor between the grid electrodes of the two triodes, so as to omit a constant voltage source circuit, remarkably simply the circuit, as well as to improve the conduction of the circuit, increase the maximum output circuit, and improve the output efficiency of the output stage.
+

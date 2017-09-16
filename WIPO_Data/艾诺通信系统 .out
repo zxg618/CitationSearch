@@ -1,0 +1,217 @@
+1. 202196351 一种基于MicroTCA标准系统的AMC板卡
+CN
+18.04.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120298679.9
+艾诺通信系统(苏州)有限责任公司
+沈国平
+G06F 1/16
+Loading...
+本实用新型公开了一种基于MicroTCA标准系统的AMC板卡，它包括SRIO交换芯片、MMC芯片和媒体处理芯片；MMC芯片通过IPMI与背板上的MCH板卡连接；SRIO交换芯片上包括媒体处理通道和AMC板卡互联通道，媒体处理通道与媒体处理芯片对应连接，AMC板卡互联通道通过AMC连接器连接到背板上，与其它的AMC板卡进行互联。将所提供的AMC板卡用于MicroTCA媒体服务器中，使处理媒体数据流的多块AMC板卡协同作用，处理能力得到了均衡的发挥，有效地释放了MCH所面临的软硬件压力，增强了系统的稳定性、可靠性及配置的灵活性，满足了高清技术发展所带来的业务量急剧增加的处理需要。
+2. 202196352 一种基于MicroTCA标准的媒体服务器
+CN
+18.04.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120298681.6
+艾诺通信系统(苏州)有限责任公司
+沈国平
+G06F 1/16
+Loading...
+本实用新型涉及一种基于MicroTCA标准的媒体服务器。在媒体服务器的AMC板卡上包括一块SRIO交换芯片、一块MMC芯片和3～5块的媒体处理芯片；MMC芯片通过IPMI与MicroTCA标准系统背板上的MCH板卡连接，SRIO交换芯片上的媒体处理通道分别与AMC板卡内的媒体处理芯片对应连接；AMC板卡在背板上通过SRIO交换芯片上的AMC板卡互联通道相互连接。采用本实用新型提供的，使多块AMC板卡协同作用，有效地释放了MCH所面临的软硬件压力，处理媒体数据的能力得到了均衡的发挥，增强了系统的稳定性、可靠性及配置的灵活性，满足了高清技术发展所带来的业务量急剧增加的处理需要。
+3. 102325040 一种基于MicroTCA系统的电源管理方法
+CN
+18.01.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110173970.8
+艾诺通信系统(苏州)有限责任公司
+王钰昌
+H04L 12/24
+Loading...
+本发明涉及一种实现MicroTCA系统电源管理的技术。在不改变MicroTCA系统整体功能的情况下，通过简化MCH板卡电源管理模块，省去独立电源板卡，使在电源管理上操作更简洁、可靠，同时降低了生产成本。MCH板卡对AMC板卡的电源管理，在上电、热插拔和下电三种情况下，对应操作12V、3.3V电椅的开关，从而达到设计要求。本发明应用了I2C通信机制，通过I2C总线IO器件的读写，管理相应的板卡的电源，简单灵活，有效提高MicroTCA系统的稳定性和可靠性，降低生产成本。
+4. 102298418 Advanced mezzanine card (AMC) board card based on MicroTCA standard and connection method thereof
+CN
+28.12.2011
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201110235508.6
+Avonaco Communication Systems (Suzhou) Co. Ltd.
+Shen Guoping
+G06F 1/16
+Loading...
+The invention discloses an advanced mezzanine card (AMC) board card based on the MicroTCA standard and a connection method thereof. In the invention, a star or double-star structure which takes a MicroTCA carrier hub (MCH) as a central node to realize media stream exchange and distribution between AMC board cards in the prior art is changed, and a serial rapid input/output (SRIO) interconnected topology which is built between the AMC board cards is adopted to directly realize the transmission and the exchange of medial streams. Each AMC board card is respectively and topologically interconnected with the same quantity of AMC board cards through SRIO interfaces. By adopting the topological structure, software and hardware stresses which are centralized on the MCH are dispersed onto the AMC board cards, the resource space of the MCH is saved and the resource allocation of a system is balanced; and bandwidth can be configured flexibly and can be increased and decreased at proper time, and the original MCH is not affected during hardware upgrading. The AMC board card and the connection method thereof provided by the invention have the advantages that the system stability and reliability and the configuration flexibility are enhanced and the design requirements on media servers in an era of high definition can be satisfied.
+5. 102238196 SIP (Session Initiation Protocol) session auxiliary flow control method based on INFO message
+CN
+09.11.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110235513.7
+Avonaco Communication Systems (Suzhou) Co. Ltd.
+Xue Jianyong
+H04L 29/06
+Loading...
+The invention discloses a method for transmitting auxiliary flow control information through an INFO message in a centralized management mode session based on an SIP (Session Initiation Protocol). A session auxiliary flow token is controlled by a carried and extended MIME (Multipurpose Internet Mail Extensions) media type through the INFO message, so that the aim of dynamically managing the SIP session auxiliary flow is fulfilled. A token management message comprises token requesting, token request responding, token releasing and token withdrawing. A message is transmitted in the message format of XML (Extensive Makeup Language). The message contents are easy and flexible, and are easy to process and extend.
+6. 201886387 一种基于MicroTCA标准的媒体服务器
+CN
+29.06.2011
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201020678010.8
+艾诺通信系统(苏州)有限责任公司
+王海军
+G06F 1/16
+Loading...
+本实用新型涉及一种电信级的通用硬件平台，特别涉及一种基于MicroTCA标准的媒体服务器。它的电源为固定在机箱上的2路AC或DC电源，经电源模块转换后提供给背板上的Oring电路输出12V电源给负载电源系统和DC-DC电源模块，该电源模块输出3.3V电源给管理电源系统。它的负载电源系统包括4～16个负载电源模块，输出12V电源给MCH、AMC和散热风扇；它的管理电源系统包括2～14个管理电源模块，输出3.3V电源给MCH和AMC。它取消了MicroTCA标准电源模块，采用普通电源模块，由MCH进行管理系统上电，降低了系统供电的复杂性和生产成本，并在背板上增加热插拔电路，实现了热插拔功能。
+7. 102073365 MicroTCA standard-based media server
+CN
+25.05.2011
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201010603615.5
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Wang Haijun
+G06F 1/26
+Loading...
+The invention relates to a telecommunication-level universal hardware platform, in particular to a micro telecom computing architecture (TCA) standard-based media server. In the media server, two paths of alternating current (AC) or direct current (DC) power are fixed on a case; the power is converted by a power module and then provided to an Oring circuit on a back panel to output 12V power to a load power system and a DC-DC power module; the power module outputs 3.3V power to a management power system; the load power system comprises 4 to 16 load power modules, and outputs 12V power to a microTCA carrier hub (MCH), an advanced mezzanine card (AMC) and a radiating fan; and the management power system comprises 2 to 14 management power modules, and outputs 3.3V power to the MCH and the AMC. In the media server, a microTCA standard power module is cancelled, a normal power module is used, and the management system is electrified by the MCH, so that the complexity and the production cost for power supply of the system are reduced; and a hot-plug circuit is arranged on the back panel, so that a hot-plug function is realized.
+8. 101958806 Module and method for implementing MCH network port backup of MicroTCA system
+CN
+26.01.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010503016.6
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Teng Pengwei
+H04L 12/24
+Loading...
+The invention relates to technology for implementing external network port backup of an MCH board card of a MicroTCA system. The network port backup of an MCH card is implemented through a network interface card which accords with an AMC standard on the premise of not changing an MCH one-board structure, and the technology has the advantages of common universality and flexibility. An MCMC unit of the MCH board and an MMC unit of the network interface card respectively detect respective network link state, switch the state through IPMI, and close and open corresponding ports according to an active/standby switching selection mechanism so as to fulfill the aim of network port backup. The technology for implementing the external network port backup of the MCH board card of the MicroTCA system has the advantages of implementing the network port backup for the MCH one-board according to the MicroTCA standard by applying an IPMI communication mechanism of the MicroTCA standard and the extensible characteristic of the AMC module on the premise of not changing the MCH one-board structure, along with flexible configuration and capacity of effectively improving the stability and reliability of the MicroTCA system.
+9. 101841689 Video call connecting method based on H.245
+CN
+22.09.2010
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+201010166896.2
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Gao Haoran
+H04N 7/14
+Loading...
+The invention relates to a method for establishing wireless video call. The method comprises the following steps: firstly, carrying out initialization processing on relevant H.245 protocol stack, and acquiring local-end multimedia audio-video capability information; then generating signaling corresponding to MSD, OLC, MES and the like according to the description about the audio-video media attribute in a capability interaction message in H.245 protocol; and then combining the generated H.245 signaling into one strip to be transmitted to an opposite end, sending multiple OLC signaling according to the supported multiple media formats, after the opposite end receives the signaling, matching with the media format supported by the local end, finding the excellent media format according to priority, replying an ACK response to the opposite end and simultaneously starting to send the media stream with the format. The method reduces the negotiation and interaction times to be only one, thus greatly reducing the time of session establishment.
+10. 101841645 Method for removing block effect of video image
+CN
+22.09.2010
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+201010166885.4
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Zhu Chunxiang
+H04N 5/21
+Loading...
+The invention relates to a method for removing block effect by curvature driving and edge stop non-linear diffusion. The method comprises the following steps of: calculating the absolute value of gradient of each pixel in an image and the absolute value of the curvature of isophotes of the image and determining the diffusion coefficient value of each pixel according to the two parameters; then removing the block effect through non-linear diffusion algorithm, namely determining the diffusion degree according to the diffusion coefficient, and updating the gray value of the pixel; and finally calculating the signal-to-noise ratio of the result of the image diffusion, if the signal-to-noise ratio is higher than a designated value, finishing the image processing, and if the signal-to-noise ratio is not higher than a designated value, returning to the first step to continue the processing until the signal-to-noise ratio is higher than the designated value. The method is suitable for filtering the block effect of a reconstructed image and can protect the edge with good effect.
+11. 101282477 Method and system for processing multicore DSP array medium based on RapidIO interconnection
+CN
+08.10.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810025491.X
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Yu Shuizhong
+H04N 7/26
+Loading...
+The invention relates to a multi-core DSP array media processing system based on RapidIO interconnection and method thereof. Three more multi-core DSP are serially interconnected by RapidIO and are packaged inside a chip, communications between the cores are realized by employing high-speed bus and shared memory; the media processing method is: transmitting high-definition media processing streams respectively to multiple DSP high-definition decoders for decoding; transmitting the result to another multi-core DSP image synthesizer through RapidIO, and inputting the processed signal to the multi-core DSP high-definition encoders for encoding. RapidIO switching technology is employed by the invention, which can respectively provide a low-delay data switching path with maximum transmission speed of 10Gbps between each DSP chip, which ensures feasibility of pipeline processing and greatly improves processing density for a signal DSP, which can real-time distribute processing task effectively according to processing load of each DSP kernel.
+12. 101267314 Multi-function manageable MCH in Micro-TCA system
+CN
+17.09.2008
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+200810025492.4
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Zhou Qingming
+H04L 12/02
+Loading...
+The invention relates to an application of a Micro-TCA system, more particularly relates to a multifunctional, economical and manageable MCH required by the system, belonging to the technical field of network processing. The MCH card is composed by a line card module, a NPU module, an exchange module and an IPMI module; the line card module is connected with the NPU module through a gigabit Ethernet, the NPU module is connected with the exchange module through the gigabit Ethernet and a configuration channel, the exchange module is connected with a backboard golden finger through the gigabit Ethernet. An external interface of the line card module is a gigabit electric hole or a gigabit optical hole. The integrated circuit board size and golden finger pin functions of the Micro-TCA system are consistent with the Micro-TCA criterion. The invention disposes the high bandwidth channel among a plurality of integrated circuit boards into one integrated circuit board, efficiently solving the problem about shortage of bandwidth among the integrated circuit boards, realizing less slot positions and compacter system frame, and reducing the cost of entire Micro-TCA system; and the system reliability is improved by lessening the backboard connections, removing power source loss of the line card and the NPU card.
+13. 101267432 Real time interaction method for multimedia attribute
+CN
+17.09.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810036718.0
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Yao Weijian
+H04L 29/06
+Loading...
+The invention relates to a method for multimedia attributes interaction. A RTP/RTCP protocol stack is initialized first, and the multimedia audio/video attributes information of a local terminal is acquired; an information field is formed, according to the description of audio/video media attributes defined in SDP protocol, the description of audio/video media attributes in ability interaction massage in H.245 protocol or syntax defining a set of private multimedia audio/video attributes description, and filled to the content of a APP packet of RTCP. The generated APP massage is told to a corresponding end by RTCP for interaction. By using the multimedia audio/video communication interaction method, terminal equipments need not to develop complicated protocols related to media conversion description in upper layer MCS media control subsystem, thus reducing software development workload, at the same time, current RTP/RTCP protocol and various audio/video stream transmission standards are not damaged, so that multimedia audio/video attributes communication interaction can be realized precisely, realtimely and conveniently, and the media processing performance is improved.
+14. 101262426 DSP resource management method in IP multimedia system
+CN
+10.09.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810036717.6
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Zhang Jie
+H04L 12/56
+Loading...
+The invention relates to management of resources of a multiple digital signal processor in a multi-media processing system based on IP, which pertains to the filed of communication technique. The management adopts a DSP resource management system which is connected with DSP resources by Ethernet; messages between the DSP resource management system and the DSP resources are carried by TCP message and DSP resources are managed by connection of high-speed interconnection buses; the DSP resource management system comprises predetermined types of DSP recourses which are supported by the system, DSP resource ability information thereof and a DSP recourse library covering all available DSP resource information. Under dynamic conditions, a capability set is applied to abstracting the DSP resource ability, media processing tasks are distributed among multi DSP, the DSP recourses are managed unifiedly and optimal allocation is realized according to application scenarios of an IP multi-media system so as to ensure the load balancing of system operation; DSP recourse load condition is quantized by load magnitude; resource partition size is small and waste caused by a virtual channel is avoided.
+15. 101262425 Multi-cast forward method based on network address translation
+CN
+10.09.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810036715.7
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Cao Lei
+H04L 12/56
+Loading...
+The invention relates to a multicast forward method based on website address translation. The method adopts a method that a control plane module and a data plane module exchange data information by sharing storage space; the control plane module builds an empty NAT requirement list in a Hash table of the shared storage space, message is used as source and destination IP address before the NAT, and source and destination UDP port, the quadruple is taken as Hash index, NAT part of the list is filled according to address translation requirement of users and route information corresponding to each piece of NAT information is filled into the list; according to quadruple information of the message reaching the device, the data plane module finds corresponding NAT information in the Hash table and if the information is found, a group of NAT information is taken from the NAT requirement list each time to modify the corresponding position of the message, then the message is sent out as the route information in the NAT requirement list. The method of invention does not copy message format, only modifies message header, comparatively well integrates NAT and multicast forwarding resources and improves whole performance of the system.
+16. 101261591 Multi- nuclear DSP system self-adapting task scheduling method
+CN
+10.09.2008
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+200810036716.1
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Miu Chunbo
+G06F 9/48
+Loading...
+The invention relates to a task scheduling method in a multi-core DSP system. A shared task pool is established in a shared memory in the multi-core DSP system, tasks are input into the task pool, the tasks are firstly classified into two categories of time-related and non-time-related, then each task is carried out the numbering, the time-related tasks have the same serial number, the non-time-related tasks are independently carried out the numbering, the initial states of the tasks with the different serial numbers are set as the non-locked states; and a task obtaining device of each idle slave core carries out the inquiry to the shared task pool and carries out the processing of the task after obtaining the task. The task scheduling method changes the technical proposal of using a main core for distributing tasks by the traditional multi-core DSP system and adopts the method of using the slave cores to actively obtain the tasks during the idle time, which can effectively reduce the requirements on the reliability of priori knowledge and reduce the load balance of the multi-core system.
+17. 101257434 Method for looking up speedup digital signal processor software in VoIP system
+CN
+03.09.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710023602.9
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Chen Yue
+H04L 12/56
+Loading...
+The invention provides a method for searching software channel of an acceleration digital signal processor in VoIP system, comprising: transferring and defining a field of a RTP data package to store the logical number of the software channel; when one RTP data package arrives DSP, the data package can be directly located onto the corresponding software channel only by extracting the logical number from the RTP data package. The invention can also support the coding and decoding operations of 200 RTP conversations only by 10000 times of searches. Accordingly, the performance is improved, the economic benefit and the social benefit are greatly increased.
+18. 101257484 Method for designing lU system based on MicroTCA standard
+CN
+03.09.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710023603.3
+Avonaco Communication Systems (Suzhou) Co., Ltd.
+Chen Yue
+H04L 29/06
+Loading...
+The invention provides a 1U system design method based on MicroTCA standard, wherein a backboard is in horizontal arrangement and provides the physical connection based on the high speed serial technology between the high class interlayer card, and backboard is equipped with a extra strong pipe switching module, a enlargement module controller and an x86 COM-EXPRESS module. The project of the invention solves the problem of the system performance and the price under the premise which perfectly accords with the MicroTCA module interconnecting criterion with good applying foreground.
+

@@ -1,0 +1,541 @@
+1. 106559038 晶振电路
+CN
+05.04.2017
+H03B 5/06 Loading...
+H03B 5/06
+Loading...
+201611039219.8
+灿芯半导体（上海）有限公司
+陆敏
+H03B 5/06
+Loading...
+本发明提供一种晶振电路，其包括晶振电路单元和激励电路。晶振电路单元包括晶振元器件、电容C1、电容C2、偏置电阻R1和驱动电路。其中，电容C1的一端与晶振元器件的输入端子相连，其另一端与地节点相连；电容C2的一端与晶振元器件的输出端子相连，其另一端与地节点相连；偏置电阻R1连接于晶振元器件的输入端子和输出端子之间；驱动电路的输入端和输出端分别与晶振元器件的输入端子和输出端子相连。激励电路的输出端与晶振元器件的输入端子相连，在晶振单元起振时，先由激励电路经晶振元器件的输入端子，向晶振元器件注入与晶振元器件的选通频率一致的激励电流。与现有技术相比，本发明增设了激励电路，从而可以加快晶振起振速度，缩短起振时间。
+2. 106533909 邮件发送方法及系统
+CN
+22.03.2017
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201611025800.4
+灿芯半导体（上海）有限公司
+潘禹之
+H04L 12/58
+Loading...
+本发明揭露了一种邮件发送方法和系统，所述方法包括：提供待发送的邮箱地址列表；提供待发送的邮件模板；在检测到有待发送的邮箱地址列表以及邮件模板后，执行如下操作：从待发送的邮箱地址列表中随机选择一个未被发送邮件的邮箱地址，并将选择的邮箱地址作为待发送邮件的收件人，基于所述邮件模板形成待发送邮件的邮件正文以及邮件主题，以最终形成一封待发送邮件；发送形成的待发送邮件；在邮件日志中查看刚发送的邮件是否发送成功，如果发送成功，则继续以相同的方式形成和发送下一封待发送邮件，直到所述待发送的邮箱地址列表中的邮箱地址都被发送了邮件。这样，发送大量邮件的成功率高，成本低。
+3. 104378106 可编程锁相环锁定检测器及其锁相环电路
+CN
+15.03.2017
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+102014000545182
+灿芯半导体（上海）有限公司
+魏来
+H03L 7/08
+Loading...
+本发明提供一种可编程锁相环锁定检测器及其锁相环电路，所述可编程锁相环锁定检测器包括检测分频器、计数器和解码器。检测分频器对锁相环的参考时钟信号进行分频并输出分频时钟信号。计数器在分频时钟信号的时钟周期内对所述锁相环中的振荡器输出的振荡信号进行计数以得到计数值。所述解码器基于所述锁相环中的反馈分频器的当前分频系数确定目标计数值，从多个预定误差范围中选择一个作为当前允许误差范围，当所述计数器提供的计数值落入该目标计数值的当前允许误差范围时，所述解码器判定所述锁相环锁定，其中所述反馈分频器的分频系数是可调整的，不同的预定误差范围对应所述反馈分频器的不同的分频系数范围。这样，可以提高判定锁相环被锁定的精度。
+4. 104124957 电平转换电路
+CN
+15.02.2017
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+102014000399976
+灿芯半导体（上海）有限公司
+彭进忠
+H03K 19/0175
+Loading...
+本发明提供一种电平转换电路，其包括反相器和电平转换单元，所述电平转换单元包括NMOS晶体管MN1、MN1A，PMOS晶体管MP1、MP2。所述电平转换单元还包括第一切换驱动管和第二切换驱动管。第一切换驱动管的输入端与NMOS晶体管MN1的栅极相连，其输出端与PMOS晶体管MP1的栅极相连，在其输入端由低电平转换为高电平时，向其输出端输出电流以快速提升其输出端的电压。第二切换驱动管的输入端与NMOS晶体管MN1A的栅极相连，其输出端与PMOS晶体管MP1A的栅极相连，在其输入端由低电平转换为高电平时，向其输出端输出电流以快速提升其输出端的电压。这样，提高了PMOS晶体管MP1和MP1A的翻转速度，加快了电路的响应时间，提高了工作频率。
+5. 106330143 占空比校准电路
+CN
+11.01.2017
+H03K 5/156 Loading...
+H03K 5/156
+Loading...
+201610783625.9
+灿芯半导体（上海）有限公司
+戴颉
+H03K 5/156
+Loading...
+本发明提供一种占空比校准电路，其包括驱动电路和占空比检测电路。驱动电路包括MOS管M5和M6，占空比检测电路包括MOS管M1、M3、M0和M2，通过同步调整MOS管M1和M3的有效驱动能力，直到找到使MOS管M1的有效驱动能力发生最小变化，就会导致占空比检测电路输出的检测电平发生翻转的相邻的有效驱动能力值A和B。当MOS管M1的有效驱动能力分别为A和B时，MOS管M1和M0的有效驱动能力的比例分别为第一比值和第二比值。调整MOS管M6的有效驱动能力，使得MOS管M6与M5的有效驱动能力的比例等于第一比值或第二比值。占空比检测电路采用与驱动电路相似的电路结构，故可以实现快速、高精确度的占空比校准。
+6. 106301229 数据接收电路
+CN
+04.01.2017
+H03D 7/14 Loading...
+H03D 7/14
+Loading...
+102016000681404
+灿芯半导体（上海）有限公司
+郑佳鹏
+H03D 7/14
+Loading...
+本发明揭露了一种数据接收电路，其包括：连续时间线性均衡器，用于接收输入差分信号，并对输入差分信号进行处理得到输出差分信号，其包括并联的可调电阻和可调电容；决策反馈均衡器，其根据连续时间线性均衡器输出的输出差分信号得到二进制的数据序列以及与数据序列一一对应的二进制的误差序列；自适应控制器，其在决策反馈均衡器得到的数据序列中查找预定数据组，并基于该预定数据组对应的误差序列中的误差数据组中的一位或多位误差数据来调整所述可调电阻的电阻值，基于该预定数据组对应的误差序列中的误差数据组中的另外一位或多位误差数据来调整所述可调电容的电容值。这样，本发明利用决策反馈均衡器生成的数据序列和误差序列对连续时间线性均衡器的可调电阻和可调电容进行自优化调整，实现简单。
+7. 106206570 版图布局优化的集成电路
+CN
+07.12.2016
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+102016000710667
+灿芯半导体（上海）有限公司
+孔亮
+H01L 27/02
+Loading...
+本发明揭露了一种版图布局优化的集成电路，其特征在于，其包括信号单元，所述信号单元包括封装垫、低压区域及接收单元、PMOS驱动单元的前级驱动、NMOS驱动单元的前级驱动、PMOS驱动单元、NMOS驱动单元和用作静电保护的P型二极管及N型二极管，所述封装垫在晶片上的投影区域与PMOS驱动单元和NMOS驱动单元在晶片上的投影区域分开。本发明改变了传统接口单元的版图布局，以使接口单元中主要的电源线/地线区域与封装垫区域分开，从而减少接口单元中的封装垫与电源线/地线的冲突，进而减少总的金属层数，降低成本。
+8. 104898756 一种电压调整电路
+CN
+19.10.2016
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+102015000330713
+灿芯半导体（上海）有限公司
+戴颉
+G05F 1/567
+Loading...
+本发明提供一种电压调整电路，其包括高压双极型晶体管、第一电阻、第二电阻、二级管电路和电流产生电路。高压双极型晶体管的第一电极与电压调整电路的输入端相连，第二电极与电压调整电路的输出端相连，第一电阻连接于电压调整电路的输入端和高压双极型晶体管的基极之间；二级管电路的正极与高压双极型晶体管的基极相连，其负极与第二电阻的一端相连，第二电阻的另一端与地节点相连；电流产生电路的输入端与电压调整电路的输出端相连，电流产生电路的输出端与二级管电路的负极和第二电阻之间的连接节点相连，电流产生电路输出具有正温度系数的电流。与现有技术相比，本发明不依赖于工艺，且启动电压低，从而提高电路的可靠性。
+9. 105810239 延迟电路以及采用该延迟电路的DDR系统
+CN
+27.07.2016
+G11C 11/4076 Loading...
+G11C 11/4076
+Loading...
+201610104650.X
+灿芯半导体（上海）有限公司
+彭进忠
+G11C 11/4076
+Loading...
+本发明提供一种延迟电路以及采用该延迟电路的DDR系统，延迟电路包括：数字延迟模块，其用于对一输入时钟信号进行延迟处理，并输出延迟后的时钟信号；插值电路包括双相位信号产生单元和相位插值单元，双相位信号产生单元基于数字延迟模块输出的时钟信号通过其第一输出端和第二输出端分别输出第一相位信号和第二相位信号；相位插值单元包括第一输入端、第二输入端和输出端，相位插值单元的第一输入端和第二输入端分别与双相位信号产生单元的第一输出端和第二输出端相连，相位插值单元通过其输出端输出相位介于第一相位信号和第二相位信号之间的输出时钟信号。与现有技术相比，本发明可以实现解析度更高的时钟的多相位输出。
+10. 105470251 接口单元布局优化的集成电路
+CN
+06.04.2016
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+201510799480.7
+灿芯半导体（上海）有限公司
+孔亮
+H01L 27/02
+Loading...
+本发明公开一种接口单元布局优化的集成电路，其包括：第一侧边缘；临近该第一侧边缘的第一排单元，其包括多个信号单元，每个信号单元包括信号单元垫片和位于信号单元垫片下方的信号单元电路；与第一排单元平行且相邻的第二排单元，其包括多个电源/地单元，每个电源/地单元包括电源/地单元垫片和位于电源/地单元垫片下方的电源/地单元电路；第一排单元较第二排单元更靠近所述第一侧边缘。这样可以缩短所述信号单元的键合线的长度，从而降低了键合线的寄生电阻和电容，提高了信号质量。
+11. 105356742 一种高效率电荷泵
+CN
+24.02.2016
+H02M 3/07 Loading...
+H02M 3/07
+Loading...
+201510745901.8
+灿芯半导体（上海）有限公司
+陆敏
+H02M 3/07
+Loading...
+本发明提供一种高效率电荷泵，其包括电压源、倍压电路、电压差产生电路和驱动模块。倍压电路包括依次串联于第一电源端和地节点之间的第一开关管、第三开关和第二电容；依次串联于第二电源端和地节点之间的第四开关和第二开关；第一电容的正端与第一开关和第三开关之间的连接节点相连，其负端与第二开关和第四开关之间的连接节点相连；第三开关和第二电容之间的连接节点与高效率电荷泵的输出端相连；第一电源端与电压源相连。电压差产生电路基于电压源产生并输出差值电压给倍压电路的第二电源端；驱动模块控制各个开关的导通或者关断。与现有技术相比，本发明不需要经过电压转换器即可在输出端得到目标电压，从而提高电荷泵的工作效率。
+12. 105159385 低功耗低压差电压调节器
+CN
+16.12.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201510622166.1
+灿芯半导体（上海）有限公司
+陆敏
+G05F 1/56
+Loading...
+本发明提供一种低功耗低压差电压调节器，其包括：输出晶体管；运算放大器，其第一输入端连接参考电压，第二输入端与所述低压差电压调节器的输出端相连，其输出端与所述输出晶体管的控制端相连；控制晶体管，其第一连接端与输入电源电压端相连，其第二连接端与输出晶体管的控制端相连；待机模式控制器，其输出端与所述运算放大器的使能端以及所述控制晶体管的控制端相连。所述待机模式控制器输入端接收待机信号，在待机信号有效时，所述待机模式控制器输出预定占空比的周期性的使能信号，在所述使能信号无效时，所述控制晶体管导通，所述输出晶体管截止。这样可以降低低压差电压调节器的功耗。
+13. 105162452 USB高速发送芯片和电路
+CN
+16.12.2015
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201510570836.X
+灿芯半导体（上海）有限公司
+陆敏
+H03K 19/0175
+Loading...
+本发明提供一种USB高速发送芯片和电路，其中，USB高速发送芯片包括：基准电流产生电路，其包括运算放大器、第一晶体管和第一电阻，所述第一电阻上流过基准电流；电流复制电路，用于复制所述基准电流形成复制电流，并将该复制电流注入第一节点；串联于第一节点和接地端之间的第一控制开关和第二电阻，第二电阻的第一端作为第一输出端；串联于第一节点和接地端之间的第二控制开关和第三电阻，第三电阻的第一端作为第二输出端，第一电阻、第二电阻和第三电阻之间进行匹配设计，使他们的相对误差缩小至+/-1％内，这样可以保证输出电压范围可以满足USB2.0规格的要求，同时尽量降低成本。
+14. 105141295 内建时钟的自校准电路
+CN
+09.12.2015
+H03K 5/135 Loading...
+H03K 5/135
+Loading...
+201510458799.3
+灿芯半导体（上海）有限公司
+彭进忠
+H03K 5/135
+Loading...
+本发明提供一种内建时钟的自校准电路，其包括时序管理电路、时钟发生器和自校准单元。时钟发生器用于产生并通过其输出端输出时钟信号给自校准单元。自校准单元基于时钟发生器送来的时钟信号完成自校准，在自校准完成后发出有效的自校准锁定信号。时序管理电路的输入端与使能信号相连，其输出端与时钟发生器的使能端相连。当使能信号由无效电平跳变为有效电平时，时序管理电路输出的时钟控制信号由无效电平跳变为有效电平；当使能信号由有效电平跳变为无效电平时，时序管理电路输出的时钟控制信号的有效电平延续若干个时钟周期后跳变为无效电平。这样，可以解决由于时钟信号关闭过早而导致产生逻辑错误的问题。
+15. 105094200 电流源电路
+CN
+25.11.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201510500939.9
+灿芯半导体（上海）有限公司
+陆敏
+G05F 1/56
+Loading...
+本发明提供一种电流源电路，其包括：带隙基准电压电路提供正温度系数的初始电流以及零温度系数的带隙基准电压；正温度系数电流产生电路，其包括第二镜像电路，该第二镜像电路复制所述初始电流得到具有正温度系数的第一电流；负温度系数电流产生电路，其根据零温度系数的带隙基准电压和正温度系数的第三电阻产生负温度系数的第二电流；电流混合电路，其将第一电流和第二电流混合产生接近零温度系数的第三电流。这样得到的第三电流基本不随外部的温度变化而变化。
+16. 204578498 改进的相位插值器
+CN
+19.08.2015
+H03K 5/13 Loading...
+H03K 5/13
+Loading...
+201520329046.8
+灿芯半导体（上海）有限公司
+周玉镇
+H03K 5/13
+Loading...
+本实用新型提供一种改进的相位插值器，其包括：时钟选择译码器，用于对插值控制码进行译码得到一组时钟选择码；相位选择译码器，用于对插值控制码进行译码得到相位选择码；第一时钟选择电路，根据一组时钟选择码输出第一或第三时钟信号；第二时钟选择电路，根据一组时钟选择码输出第二或第四时钟信号；相位插值电路，根据相位选择码对第一或第二时钟选择电路输出的时钟信号进行插值并输出插值后的时钟信号；时钟切换判断电路，其根据一组时钟选择码中的时钟选择码的变化判断是否会进行时钟信号切换，如果是，使得所述相位选择译码器将相位选择码设定为预定的码值并输出。这样能够避免时钟切换过程中产生的毛刺对相位插值器输出信号的影响。
+17. 204578499 相位插值器
+CN
+19.08.2015
+H03K 5/13 Loading...
+H03K 5/13
+Loading...
+201520329778.7
+灿芯半导体（上海）有限公司
+周玉镇
+H03K 5/13
+Loading...
+本实用新型提供一种相位插值器，其包括：时钟选择译码器，用于对插值控制码进行译码得到原始组和预先组时钟选择码，其中预先组时钟选择码中的时钟选择码分别较原始组时钟选择码中的时钟选择码提前半个采样时钟周期变化；时钟选择判断电路，其在预先组时钟选择码中的时钟选择码变化时，选择输出预先组时钟选择码，否则，选择输出原始组时钟选择码；第一时钟选择电路根据时钟选择判断电路输出的一组时钟选择码输出第一或第三时钟信号；第二时钟选择电路根据时钟选择判断电路输出的一组时钟选择码输出第二或第四时钟信号；相位插值电路，对第一和第二时钟选择电路输出的时钟信号进行插值并输出插值后的时钟信号。这样能够避免时钟切换过程中产生的毛刺。
+18. 204578496 能够对输入信号的占空比失真进行补偿的输入电路
+CN
+19.08.2015
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201520341844.2
+灿芯半导体（上海）有限公司
+彭进忠
+H03K 3/017
+Loading...
+本实用新型提供一种能够对输入信号的占空比失真进行补偿的输入电路，其包括：占空比校准模块，其基于预定占空比的基准信号产生输出信号；占空比检测电路，其输入端连接占空比校准模块的输出端，其检测占空比校准模块输出的输出信号的占空比，并在输出信号的占空比不等于预定占空比时输出占空比校准控制信号，占空比校准模块基于占空比检测电路输出的占空比校准控制信号对占空比校准模块进行校准，直到得到的输出信号的占空比等于预定占空比；复制占空比校准模块的结构而形成的输入模块，其也基于占空比检测电路输出的占空比校准控制信号对输入模块进行校准。与现有技术相比，本实用新型提供的输入电路能够对输入信号的占空比失真进行补偿。
+19. 204578512 芯片上的接口电路中的输出驱动电阻
+CN
+19.08.2015
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201520304623.8
+灿芯半导体（上海）有限公司
+孔亮
+H03K 19/0175
+Loading...
+本实用新型提供一种芯片上的接口电路中的输出驱动电阻，其包括：若干个电阻单元，每个电阻单元包括串联于电源端和输出端或者接地端和输出端之间的一个电阻和若干个并联的MOS晶体管，每个MOS晶体管的栅极与对应的一控制信号相连，通过对应的控制信号能够控制相应的MOS晶体管的导通或关断，通过所述控制信号来调整每个电阻单元中的导通的MOS晶体管的数目以使得该电阻单元的电阻值为预定电阻值。与现有技术相比，本实用新型通过将若干个CMOS管并联后再与电阻串联，以形成驱动电阻单元，驱动电阻单元根据实际工作需要配置成不同的输出驱动电阻，这样，可以在保证输出驱动电阻大小要求及阻值线性度要求的前提下，大幅减小其所占用的芯片面积，节省成本。
+20. 204578513 一种接口电路及其中的输出电路
+CN
+19.08.2015
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201520350411.3
+灿芯半导体（上海）有限公司
+孔亮
+H03K 19/0175
+Loading...
+本实用新型提供一种接口电路及其中的输出电路，其中，输出电路包括输出驱动电路、上拉开关和短脉冲发生器。输出驱动电路包括第一驱动开关和第二驱动开关，第一驱动开关和第二驱动开关依次串联于第一电压源和接地端之间，第一驱动开关和第二驱动开关之间的连接节点与输出端OUT相连，输入信号控制第一驱动开关和第二驱动开关交替导通；上拉开关连接于第二电压源和输出端OUT之间；短脉冲发生器用于基于输入信号产生并输出短时脉冲信号给上拉开关的控制端，当输入信号由第二逻辑电平跳变为第一逻辑电平时，短脉冲发生器输出的短时脉冲使上拉开关短时导通，由第二电压源快速拉高输出端OUT的电压。与现有技术相比，本实用新型可以提高输出信号的上升沿速度。
+21. 204576334 一种接口电路中的输出阻抗调整电路
+CN
+19.08.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201520304624.2
+灿芯半导体（上海）有限公司
+孔亮
+G05F 1/56
+Loading...
+本实用新型提供一种接口电路中的输出阻抗调整电路，其包括第一控制模块，第二控制模块，依次连接于第一电压端和第二电压端之间的驱动电阻复制模块和内置校准电阻。驱动电阻复制模块复制接口电路的第一输出驱动电阻单元；内置校准电阻置于所述接口电路所在晶片内；第一控制模块基于驱动电阻复制模块和内置校准电阻之间的第一连接节点的电压同步调节驱动电阻复制模块的阻值和第一输出驱动电阻单元的阻值；第二控制模块基于第一输出驱动电阻单元和第二输出驱动电阻单元之间的第二连接节点的电压调节第二输出驱动电阻单元的阻值。与现有技术相比，本实用新型可以在无外挂校准电阻的情况下，采用内置校准电阻对输出驱动电阻进行阻抗调节。
+22. 104836548 能够对输入信号的占空比失真进行补偿的输入电路
+CN
+12.08.2015
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201510270232.3
+灿芯半导体（上海）有限公司
+彭进忠
+H03K 3/017
+Loading...
+本发明提供一种能够对输入信号的占空比失真进行补偿的输入电路，其包括：占空比校准模块，其基于预定占空比的基准信号产生输出信号；占空比检测电路，其输入端连接占空比校准模块的输出端，其检测占空比校准模块输出的输出信号的占空比，并在输出信号的占空比不等于预定占空比时输出占空比校准控制信号，其中占空比校准模块基于占空比检测电路输出的占空比校准控制信号对占空比校准模块进行校准，直到得到的输出信号的占空比等于预定占空比；复制占空比校准模块的结构而形成的输入模块，其也基于占空比检测电路输出的占空比校准控制信号对输入模块进行校准。与现有技术相比，本发明提供的输入电路能够对输入信号的占空比失真进行补偿。
+23. 104834341 一种接口电路中的输出阻抗调整电路
+CN
+12.08.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201510240247.5
+灿芯半导体（上海）有限公司
+孔亮
+G05F 1/56
+Loading...
+本发明提供一种接口电路中的输出阻抗调整电路，其包括第一控制模块，第二控制模块，依次连接于第一电压端和第二电压端之间的驱动电阻复制模块和内置校准电阻。驱动电阻复制模块复制接口电路的第一输出驱动电阻单元；内置校准电阻置于所述接口电路所在晶片内；第一控制模块基于驱动电阻复制模块和内置校准电阻之间的第一连接节点的电压同步调节驱动电阻复制模块的阻值和第一输出驱动电阻单元的阻值；第二控制模块基于第一输出驱动电阻单元和第二输出驱动电阻单元之间的第二连接节点的电压调节第二输出驱动电阻单元的阻值。与现有技术相比，本发明可以在无外挂校准电阻的情况下，采用内置校准电阻对输出驱动电阻进行阻抗调节。
+24. 104821807 改进的相位插值器
+CN
+05.08.2015
+H03K 5/13 Loading...
+H03K 5/13
+Loading...
+201510260683.9
+灿芯半导体（上海）有限公司
+周玉镇
+H03K 5/13
+Loading...
+本发明提供一种改进的相位插值器，其包括：时钟选择译码器，用于对插值控制码进行译码得到一组时钟选择码；相位选择译码器，用于对插值控制码进行译码得到相位选择码；第一时钟选择电路，根据所述一组时钟选择码输出第一或第三时钟信号；第二时钟选择电路，根据所述一组时钟选择码输出第二或第四时钟信号；相位插值电路，根据相位选择码对第一或第二时钟选择电路输出的时钟信号进行插值并输出插值后的时钟信号；时钟切换判断电路，其根据所述一组时钟选择码中的时钟选择码的变化判断是否会进行时钟信号切换，如果是，使得所述相位选择译码器将相位选择码设定为预定的码值并输出。这样能够避免时钟切换过程中产生的毛刺对相位插值器输出信号的影响。
+25. 104821808 相位插值器
+CN
+05.08.2015
+H03K 5/13 Loading...
+H03K 5/13
+Loading...
+201510260684.3
+灿芯半导体（上海）有限公司
+周玉镇
+H03K 5/13
+Loading...
+本发明提供一种相位插值器，其包括：时钟选择译码器，用于对插值控制码进行译码得到原始组和预先组时钟选择码，其中预先组时钟选择码中的时钟选择码分别较原始组时钟选择码中的时钟选择码提前半个采样时钟周期变化；时钟选择判断电路，其在预先组时钟选择码中的时钟选择码变化时，选择输出预先组时钟选择码，否则，选择输出原始组时钟选择码；第一时钟选择电路根据时钟选择判断电路输出的一组时钟选择码输出第一或第三时钟信号；第二时钟选择电路根据时钟选择判断电路输出的一组时钟选择码输出第二或第四时钟信号；相位插值电路，对第一和第二时钟选择电路输出的时钟信号进行插值并输出插值后的时钟信号。这样能够避免时钟切换过程中产生的毛刺。
+26. 104579316 Programmable frequency divider with fifty-percent duty cycles
+CN
+29.04.2015
+H03K 23/00 Loading...
+H03K 23/00
+Loading...
+201510050813.6
+灿芯半导体（上海）有限公司
+周玉镇
+H03K 23/00
+Loading...
+The invention provides a programmable frequency divider. Frequencies can be divided for source clocks by the programmable frequency divider on the basis of frequency dividing coefficients, so that frequency-divided clock signals with 50% duty cycles can be obtained. The programmable frequency divider comprises a frequency dividing coefficient setting circuit, a clock source selecting circuit, a counter, a loading signal generating circuit, a duty cycle control signal generating circuit and a state retaining circuit. The programmable frequency divider has the advantages that the clocks with the 50% duty cycles can be generated in various frequency dividing modes by the programmable frequency divider, accordingly, voltage-controlled oscillators do not need to work under frequency doubling conditions, and power consumption can be reduced.
+27. 104299640 Slew rate adaptive adjustment output circuit
+CN
+21.01.2015
+G11C 11/401 Loading...
+G11C 11/401
+Loading...
+201410512518.3
+灿芯半导体（上海）有限公司
+彭进忠
+G11C 11/401
+Loading...
+The invention provides a slew rate adaptive adjustment output circuit. The slew rate adaptive adjustment output circuit comprises an adjustable pre-driving unit, an output unit, a ring oscillator and a calibrating circuit, wherein the adjustable pre-driving unit comprises a plurality of capacitor cells connected with the output end and a plurality of trimming switches connected with the corresponding capacitor cells in series; the output unit comprises a PMOS (P-channel Metal Oxide Semiconductor) transistor and an NMOS (N-channel metal oxide semiconductor) transistor which are connected in series, the intermediate node of the PMOS transistor and the NMOS transistor is connected with the output end of the output unit, the output end of the adjustable pre-driving unit is connected with the grid electrode of the PMOS transistor of the output unit or the grid electrode of the NMOS transistor, the ring oscillator comprises a plurality of phase inverters connected end to end to form a ring, each phase inverter comprises a PMOS transistor and an NMOS transistor which are connected in series, the calibrating circuit detects the frequency of an oscillator signal of the ring oscillator, and can output a calibrating signal according to the frequency of the oscillator signal to adjust and control the switching on and off of each trimming switch, and thus, the slew rate of the output signal of the output circuit can be modulated on the basis of the oscillator signal output by the on-chip CMOS (Complementary Metal-Oxide-Semiconductor Transistor) ring oscillator and the influences of the process bias, the input voltage and the temperature on the slew rate are reduced.
+28. 203691378 基于过采样的无需时钟恢复的数据恢复电路
+CN
+02.07.2014
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201320605864.7
+灿芯半导体（上海）有限公司
+戴颉
+H03L 7/08
+Loading...
+本实用新型公开一种基于过采样的无需时钟恢复的数据恢复电路，该电路包含：锁相环电路；输入端电路连接锁相环电路的过采样电路；输入端电路连接锁相环电路的时钟信号ck0和过采样电路的同步电路；输入端电路连接锁相环电路的时钟信号ck0和同步电路的边沿检测电路；输入端电路连接锁相环电路的时钟信号ck0、同步电路和边沿检测电路的判决电路；输入端电路连接锁相环电路的时钟信号ck0和判决电路的弹性缓冲器。本实用新型使用过采样在无需时钟恢复的情况下进行数据恢复以节省时钟恢复电路并便于进行同步电路设计以节省电路面积和功耗，高了电路的可靠性，降低了接收电路的误码率。
+29. 203492007 一种高精度环形振荡器及其频率校准电路
+CN
+19.03.2014
+H03L 7/099 Loading...
+H03L 7/099
+Loading...
+201320560066.7
+灿芯半导体（上海）有限公司
+戴颉
+H03L 7/099
+Loading...
+一种高精度环形振荡器及其频率校准电路。该高精度环形振荡器包含带隙基准电路、基准电流电路、电流调节电路、环形振荡电路、输出缓冲电路。频率校准电路包含分频器、计数器、比较器、寄存器、非易失性存储器。频率校准电路快速定位高精度环形振荡器需要的调节电流并将该调整设置存储于非易失性存储器中。本实用新型通过高精度环形振荡器与频率校准电路的配合，能够补偿温度，电压和工艺偏差对振荡频率的影响来达到振荡频率的高精度。通过高精度环形振荡器与频率校准电路的配合，获得高精度的振荡频率，同时避免了复杂的电路，减小了芯片的面积和功耗，模拟比较电路的非线性、误差和噪声，提高了频率精度，节省了芯片的测试时间和成本。
+30. 203492002 低功耗自断电电路及其电平转换电路
+CN
+19.03.2014
+H03K 19/0185 Loading...
+H03K 19/0185
+Loading...
+201320531888.2
+灿芯半导体（上海）有限公司
+戴颉
+H03K 19/0185
+Loading...
+本实用新型提供一种低功耗自断电电路及其电平转换电路，当工作电路产生的电压关断信号从低电平到高电平跳变时，由信号经电平转换电路进行信号的电压域转换并发送至触发器的时钟端，使触发器的输出端向电源电路输出高电压，以切断电源电路向工作电路提供的电压；电压供给切断后，工作电路的电压关断信号电平缓慢归零，将电平转换电路输出信号的电平持续钳位在低电平；唤醒和上电复位信号的低电平有效信号，经由与门连接至触发器并将其清零，来控制所述电源电路正常地向工作电路提供电压。在自身电源被切断的情况下，本实用新型的电路能够保持电源切断信号电平不变来保持断电状态以减小功耗。同时，在电路正常工作时，该电路也没有静态功耗。
+31. 203491255 一种降噪及静电释放保护电路
+CN
+19.03.2014
+H01L 23/60 Loading...
+H01L 23/60
+Loading...
+201320325588.9
+灿芯半导体（上海）有限公司
+王强
+H01L 23/60
+Loading...
+本实用新型提供一种降噪及静电释放保护电路，用于降噪及保护电流输入及电流/电压转换电路免受静电释放冲击；该电路包含有环形绕线电感电路；环形绕线电感电路为设置在集成电路中的环形绕线，该环形绕线电感电路两端分别电路连接参考输入电流与电流输入及电流/电压转换电路；在参考输入电流与电流输入及电流/电压转换电路为两个不同电压域电路时，该环形绕线电感电路提供不同电压域之间的静电释放二级保护。本实用新型采用环形绕线在金属走线空旷区且通过多层金属绕线实现静电释放二级保护，不需要静电释放二级保护电路，节省了芯片版图面积，同时可阻挡交流噪声，提高精度。
+32. 203399083 高速串行数据恢复电路及其时序缓冲电路
+CN
+15.01.2014
+H03L 7/07 Loading...
+H03L 7/07
+Loading...
+201320427789.X
+灿芯半导体（上海）有限公司
+戴颉
+H03L 7/07
+Loading...
+本实用新型公开了一种高速串行数据恢复电路及其时序缓冲电路，通过与时钟恢复电路的配合，由时钟恢复电路提供恢复时钟和与恢复时钟相位差最大的时钟两个时钟信号给时序缓冲电路，由时序缓冲电路对过采样数据进行缓冲。最后，再由数据恢复电路根据恢复时钟和时序缓冲电路的输出进行数据恢复。通过时序缓冲电路对过采样数据的缓冲，避免了在高速串行数据进行数据恢复时对过采样数据的直接操作而容易导致的某些寄存器建立时间不足的问题从而达到最大限度的利用多次过采样的数据来进行精确的数据恢复。
+33. 103475362 Oversampling-based data recovery circuit without clock recovery
+CN
+25.12.2013
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201310453283.0
+灿芯半导体（上海）有限公司
+戴颉
+H03L 7/08
+Loading...
+The invention discloses an oversampling-based data recovery circuit without clock recovery. The circuit comprises a phase-locked loop circuit, an oversampling circuit, a synchronous circuit, an edge detecting circuit, a decision circuit and an elastic buffer. An input end circuit of the oversampling circuit is connected with the phase-locked loop circuit. An input end circuit of the synchronous circuit is connected with a clock signal ck0 of the phase-locked loop circuit and the oversampling circuit. An input end circuit of the edge detecting circuit is connected with the clock signal ck0 of the phase-locked loop circuit and the synchronous circuit. An input end circuit of the decision circuit is connected with the clock signal ck0 of the phase-locked loop circuit, the synchronous circuit and the edge detecting circuit. An input end circuit of the elastic buffer is connected with the clock signal ck0 of the phase-locked loop circuit and the decision circuit. The data recovery circuit carries out data recovery by oversampling under the situation without clock recovery, so that a clock recovery circuit is saved, synchronous circuit design is convenient, so that circuit area and power loss are lowered, the reliability of the circuit is improved, and the error rate of a receiving circuit is lowered.
+34. 203366174 低压差线性稳压器的输出动态调节电路
+CN
+25.12.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201320325579.X
+灿芯半导体（上海）有限公司
+戴颉
+G05F 1/56
+Loading...
+本实用新型涉及一种低压差线性稳压器的输出动态调节电路，通过数字电路和模拟电路的结合，由负载控制电路根据负载的变化来产生控制信号，然后由LDO中的动态输出控制电路来动态控制按比例设计的不同电流输出能力的组合来输出所需的电流。负载控制电路同时控制负载变化和LDO输出电流的变化来实现负载和其所需电流的动态快速精确匹配。当负载变化时，该电路能够同时调整输出电流大小来满足输出需求，消除负载急剧变化时对输出电压的冲击。同时，本实用新型通过交织布线技术将动态输出控制电路和LDO输出电路间隔摆放提高了输出电路的响应速度，减轻了电源噪声对LDO电路的干扰，提高了LDO电路的性能。
+35. 203293827 胎压监测系统
+CN
+20.11.2013
+B60C 23/04 Loading...
+B60C 23/04
+Loading...
+201320214205.0
+灿芯半导体（上海）有限公司
+苏一非
+B60C 23/04
+Loading...
+一种胎压监测系统，包含控制器，电路连接该控制器的压力传感器、温度传感器、陀螺仪和电压传感器，还包含电路连接控制器的RF发射模块和LF接收器，还包含电池，该电池分别电路连接控制器、RF发射模块和LF接收器。本实用新型可以在更短时间内侦测并判定轮胎为运动状态，即时唤醒胎压监测系统，降低整个胎压监测系统的功耗，延长电池使用时间。
+36. 103346770 高速串行数据恢复的时序缓冲电路及方法
+CN
+09.10.2013
+H03K 19/003 Loading...
+H03K 19/003
+Loading...
+201310301968.3
+灿芯半导体（上海）有限公司
+戴颉
+H03K 19/003
+Loading...
+本发明公开了一种高速串行数据恢复的时序缓冲电路及方法，用于过采样数据恢复电路中。通过与时钟恢复电路的配合，由时钟恢复电路提供恢复时钟和与恢复时钟相位差最大的时钟两个时钟信号给时序缓冲电路，由时序缓冲电路对过采样数据进行缓冲。最后，再由数据恢复电路根据恢复时钟和时序缓冲电路的输出进行数据恢复。通过时序缓冲电路对过采样数据的缓冲，避免了在高速串行数据进行数据恢复时对过采样数据的直接操作而容易导致的某些寄存器建立时间不足的问题从而达到最大限度的利用多次过采样的数据来进行精确的数据恢复。
+37. 103324234 低压差线性稳压器的输出动态调节电路
+CN
+25.09.2013
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201310223949.3
+灿芯半导体（上海）有限公司
+戴颉
+G05F 1/56
+Loading...
+本发明涉及一种低压差线性稳压器的输出动态调节电路，通过数字电路和模拟电路的结合，由负载控制电路根据负载的变化来产生控制信号，然后由LDO中的动态输出控制电路来动态控制按比例设计的不同电流输出能力的组合来输出所需的电流。负载控制电路同时控制负载变化和LDO输出电流的变化来实现负载和其所需电流的动态快速精确匹配。当负载变化时，该电路能够同时调整输出电流大小来满足输出需求，消除负载急剧变化时对输出电压的冲击。同时，本发明通过交织布线技术将动态输出控制电路和LDO输出电路间隔摆放提高了输出电路的响应速度，减轻了电源噪声对LDO电路的干扰，提高了LDO电路的性能。
+38. 202004638 一种用于开关电源的频率抖动电路
+CN
+05.10.2011
+H02M 1/44 Loading...
+H02M 1/44
+Loading...
+201020608367.9
+灿芯半导体（上海）有限公司
+职春星
+H02M 1/44
+Loading...
+一种用于开关电源的频率抖动电路，该频率抖动电路通过调节全差分开关电容积分器的采样电容和积分电容的比例以及输入参考电压值，可以方便的改变差分三角波的连续程度。另一方面，通过差分三角波产生电路，消除了因为开关非理想效应带来的频率抖动周期的偏差，提高了在降低芯片电磁干扰方面的一致性。最后，通过系统反馈电压处理电路，自动检测负载状况，自适应调节频率抖动电路的输出频率和频率抖动量，在降低芯片电磁干扰和维持系统稳定保持很好的折中。本实用新型的系统稳定性好，频率抖动精度高。
+39. 201947164 一种电阻短路保护装置
+CN
+24.08.2011
+H02M 1/32 Loading...
+H02M 1/32
+Loading...
+201020575086.8
+灿芯半导体（上海）有限公司
+职春星
+H02M 1/32
+Loading...
+一种电阻短路保护装置，通过功率开关和电流检测电阻接入开关电源电路，包含电路连接的比较器、第一反相器、锁存计数器、主计数器、计数锁定/启动逻辑控制电路和第二反相器。首先利用上电复位信号，初始化保护装置的数字逻辑，锁存计数器和主计数器处于复位状态，然后使得电阻短路保护装置的输出为高电平，开启功率开关，接着判断连续M个时钟周期，电流检测电阻上电压是否超过阈值电压，若是，则没有短路，若否，则短路发生，输出为低电平，关断功率开关。本实用新型提供了一种稳定可靠，可自动重启的电阻短路保护装置，抗干扰性强，不存在死循环。
+40. 102025265 Frequency jittering circuit
+CN
+20.04.2011
+H02M 1/44 Loading...
+H02M 1/44
+Loading...
+201010545413.X
+Brite Semiconductor (Shanghai) Corporation
+Zhi Chunxing
+H02M 1/44
+Loading...
+The invention provides a frequency jittering circuit, which comprises a feedback voltage processing circuit, a differential triangular wave generating circuit, a differential converting single-end circuit and a voltage-controlled oscillator which are in circuit connection, wherein the input end of the feedback voltage processing circuit is connected with feedback voltage, and the output end of the feedback voltage processing circuit is connected with the differential triangular wave generating circuit, the differential converting single-end circuit and the voltage-controlled oscillator; the output end of the differential triangular wave generating circuit is connected with the differential converting single-end circuit the output end of which is connected with the voltage-controlled oscillator; and the output end of the voltage-controlled oscillator is connected with the differential triangular wave generating circuit, and is used for outputting a clock signal. The frequency jittering circuit has the advantages of good system stability and high frequency jittering accuracy.
+41. 101969188 Resistor short-circuit protective device and protective method used for switching power supply
+CN
+09.02.2011
+H02H 7/10 Loading...
+H02H 7/10
+Loading...
+201010518119.X
+Brite Semiconductor (Shanghai) Co., Ltd.
+Zhi Chunxing
+H02H 7/10
+Loading...
+The invention discloses a resistor short-circuit protective device used for a switching power supply. The device is connected into a switching power supply circuit through a power switch and a current detecting resistor, and comprises a comparer, a first phase inverter, a latch counter, a basic counter, a counting locking/starting logic control circuit and a second phase inverter. A resistor short-circuit protective method comprises the following steps of: first, initializing the digital logic of the protective device by utilizing a power-on reset signal to make the latch counter and the basic counter in a reset state; then, making the output of the resistor short-circuit protective device be a high level; switching on the power switch; next, judging whether the voltage of the current detecting resistor is over a threshold voltage in M continuous clock cycles, if so, the resistor is not short-circuited, and otherwise, the resistor is short-circuited; later on, making the output be a low level; and finally, switching off the power switch. The invention provides the resistor short-circuit protective device which is stable and reliable and can restart automatically and the resistor short-circuit protective method, which have high anti-interference performance and no endless loop.
+42. 201589987 一种基准电压和偏置电流产生电路
+CN
+22.09.2010
+G05F 3/16 Loading...
+G05F 3/16
+Loading...
+201020102393.4
+灿芯半导体(上海)有限公司
+职春星
+G05F 3/16
+Loading...
+一种基准电压和偏置电流产生电路，该电路中，偏置电流产生电路产生偏置电流，基准电压产生电路产生基准电压，电流镜电路将偏置电流复制给低压偏置电源电路和偏置电流输出电路，由低压偏置电源电路给偏置电流产生电路、基准电压产生电路和电流镜电路提供电流，偏置电流输出电路则将偏置电流传输给功率芯片的内部电路和其他电路，启动截止电路产生启动电流传输给偏置电流产生电路，偏置电流产生电路导通并产生偏置电流，偏置电流又经过电流镜电路使低压偏置电源电路导通，一旦低压偏置电源电路导通，启动截止电路产生截止信号，启动结束。本实用新型可耐高压，且具有较高的抗扰动能力，所产生的基准电压受外部电源变化的影响很小。
+43. 201590935 一种快速启动电源
+CN
+22.09.2010
+H05B 41/282 Loading...
+H05B 41/282
+Loading...
+200920286725.6
+灿芯半导体(上海)有限公司
+职春星
+H05B 41/282
+Loading...
+一种快速启动电源，包含电路连接的偏置电流电路、初始电压电路、电压调制电路、电流镜电路和逻辑控制电路。本实用新型由于在功率芯片中引入了快速启动电压，在上电时，功率芯片内部的逻辑可以得到正确的实现。复合电源在启动和正常工作状态下可以自动的在快速启动电压和内部电路的输出电压之间切换。有了在上电时可以快速启动的能力，复合电源可以在上电复位信号变高之前正确的初始化功率芯片，在上电复位信号变高之后，复合电源又可以给功率芯片内的逻辑电路和控制电路进行稳定的供电。
+44. 101801150 Quick starting power supply for power chip
+CN
+11.08.2010
+H05B 41/282 Loading...
+H05B 41/282
+Loading...
+200910247473.0
+Brite Semiconductor (Shanghai) Corporation
+Hu Yonghua
+H05B 41/282
+Loading...
+The invention relates to a quick starting power supply for a power chip, which comprises a bias current circuit, an initial voltage circuit, a voltage modulation circuit, a current mirror circuit and a logic control circuit which are in circuit connection with each other. Since quick starting voltage is introduced in the power chip, when power is on, the logic inside the power chip can be correctly realized. Under the starting and normal working states, a composite power supply can automatically switch between the quick starting voltage and output voltage of an internal circuit. With the ability of quick starting when power is on, the composite power supply can correctly initialize the power chip before the power-on reset signals are in high level, and after the power-on reset signals are in high level, the composite power supply can stably supply power to the logic circuit and the control circuit in the power chip.
+45. 101782790 Circuit for generating reference voltage and bias current of power chip
+CN
+21.07.2010
+G05F 3/16 Loading...
+G05F 3/16
+Loading...
+201010101602.8
+Brite Semiconductor (Shanghai) Corporation
+Li Yingtian
+G05F 3/16
+Loading...
+The invention relates to a circuit for generating reference voltage and bias current of a power chip. In the circuit, a bias current generation circuit generates bias current, a reference voltage generation circuit generates reference voltage, a current mirror circuit copies the bias current to a low-voltage bias power supply circuit and a bias current output circuit, the low-voltage bias power supply circuit provides current to the bias current generation circuit, the reference voltage generation circuit and the current mirror circuit, the bias current output circuit transmits the bias current to the internal circuit and other circuits of the power chip, a starting cutoff circuit generates starting current which is transmitted to the bias current generation circuit, the bias current generation circuit is conducted and generates bias current, the bias current enables the low-voltage bias power supply circuit to be conducted through the current mirror circuit, and once the low-voltage bias power supply circuit is conducted, the starting cutoff circuit generates a cutoff signal and the starting is ended. The invention has the advantages that the high voltage resistance is good, the anti-disturbance capacity is very high and the impact of the external power supply change on the generated reference voltage is very small.
+

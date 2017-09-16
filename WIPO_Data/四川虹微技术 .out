@@ -1,0 +1,1753 @@
+1. 105163104 一种不产生空洞的中间视图合成方法
+CN
+01.03.2017
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+102015000548964
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种不产生空洞的中间视图合成方法，在给定的拍摄场景下，通过对左右两台摄像机的基线长度设置，使其小于等于背景深度值ZB与背景部分的长度LB的乘积除以背景深度值ZB与前景深度值的差值的二分之一，这样在视频终端，使用双向DIBR技术对通过左右两台摄像机获取的两幅参考图像及其对应的深度图像进行三维图像变换得到两幅虚拟视图，两幅虚拟视图再进行融合得到中央眼位置的中间视图，该中间视图没有空洞，一定程度上保证合成图像的质量，避免了空洞填充时间复杂性。
+2. 103903256 一种基于相对高度深度线索的深度估计方法
+CN
+25.01.2017
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+102013000429867
+四川虹微技术有限公司
+刘然
+G06T 7/00
+Loading...
+本发明公开了一种基于相对高度深度线索的深度估计方法，首先通过边缘检测获得边缘图，然后通过霍夫变换判断出图像场景，根据图像场景选择相应的模板进行深度估计，获得初始深度图，从而实现多种图像场景的深度估计。此外，通过获取图像的显著图，使图像中同一深度的目标得到的深度值会不一致的情况得以改善，提高深度图准确度。同时采用联合双边滤波对初始深度图以及显著图进行滤波，使其平滑强度更好，进一步改善深度图的质量。
+3. 104661014 时空结合的空洞填充方法
+CN
+28.09.2016
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+102015000045450
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种时空结合的空洞填充方法，首先根据待填充的目标图像序列生成非空洞矩阵，然后对于待填充目标图像，选择得到填充图像源集合，遍历填充图像源集合中的每帧图像，扫描待填充目标图像和填充图像源图像对应的非空洞矩阵中每个像素点对应的元素，当满足条件时即将填充图像源图像中的像素点复制到待填充目标图像的对应空洞像素点，对于剩余空洞再采用图像修复算法进行填充。本发明采用时空结合的方式，从前后序列帧中获取可用背景信息进行填充，从而显著地提高了非空洞区域的真实性，得到高质量的填充结果图像。
+4. 103759670 一种基于数字近景摄影的物体三维信息获取方法
+CN
+28.09.2016
+G01B 11/24 Loading...
+G01B 11/24
+Loading...
+102014000003730
+四川虹微技术有限公司
+黄会明
+G01B 11/24
+Loading...
+本发明公开了一种基于数字近景摄影的物体三维信息获取方法，通过在任意场景中摆设一些编码标记点，通过自标定算法对相机的内参进行标定。对物体进行三维重建的时候手持数码相机从不同角度对物体拍摄两幅图片，然后使用SIFT关键点检测方法检测物体上的关键点的坐标信息，完成摄像机的外参数的标定。然后使用光流检测法检测一幅图片上每个像素点在另一幅图片上对应的匹配点，有了匹配点和相机的内外参数采用双视图的重建方法，得到物体三维信息。传统的三维测量方法需要额外的设备例如激光、投影仪来辅助完成三维重建，而本发明使用对图片进行光流检测的方法来代替这些设备获得物体上匹配点的信息，从而实现了主动的三维重建方式，减少了硬件成本和方便实现。
+5. 205537941 一种传声器线阵列定位装置
+CN
+31.08.2016
+G01H 17/00 Loading...
+G01H 17/00
+Loading...
+201520871240.9
+昆明理工大学
+杜宝
+G01H 17/00
+Loading...
+本实用新型涉及一种传声器线阵列定位装置，属于平面近场声全息测量技术领域。本实用新型包括传声器支撑套、传声器、传声器线阵列支撑杆、阵列支架纵向运动系统、阵列支架横向运动系统、底座；传声器通过传声器支撑套固定在传声器线阵列支撑杆上，传声器线阵列支撑杆安装在阵列支架横向运动系统上，做横向运动，整个阵列支架横向运动系统安装在阵列支架纵向运动系统上，做纵向运动，阵列支架纵向运动系统底部固定在底座上。本实用新型由步进电机带动纵向运动，利用步进电机运动精度高、瞬间启动和急速停止的优越特性，实现传声器线阵列在全息面上的精确定位；降低了近场声全息测量的劳动强度，提高了近场声全息测量的自动化水平。
+6. 205483611 一种冰箱风罩的振动噪声测试实验台
+CN
+17.08.2016
+G01M 99/00 Loading...
+G01M 99/00
+Loading...
+201620029842.4
+昆明理工大学
+柳小勤
+G01M 99/00
+Loading...
+本实用新型涉及一种冰箱风罩的振动噪声测试实验台，属于工夹具技术领域。本实用新型包括风罩固定支架运动系统、底部支撑架运动系统、电机支撑架运动系统、底部工作台系统；底部工作台系统安置在地面上，风罩固定支架运动系统、底部支撑架运动系统、电机支撑架运动系统均安装在底部工作台系统上，底部工作台系统上设置有互相垂直的两个纵向导轨和两个横向导轨。本实用新型针对不同尺寸的风罩模型采用柔性化的装夹方式进行测试，不需要额外设计不同尺寸风罩的专用夹具。不会破坏被测设备，极大的节省人力和物力；减少额外的设计成本，为项目的早日完成节约了时间。且实现了离心风扇与风罩独立分离，能够有效的分离风罩振动噪声的气固耦合。
+7. 105486530 一种冰箱风罩的振动噪声测试实验台
+CN
+13.04.2016
+G01M 99/00 Loading...
+G01M 99/00
+Loading...
+201610020282.0
+昆明理工大学
+柳小勤
+G01M 99/00
+Loading...
+本发明涉及一种冰箱风罩的振动噪声测试实验台，属于工夹具技术领域。本发明包括风罩固定支架运动系统、底部支撑架运动系统、电机支撑架运动系统、底部工作台系统；底部工作台系统安置在地面上，风罩固定支架运动系统、底部支撑架运动系统、电机支撑架运动系统均安装在底部工作台系统上，底部工作台系统上设置有互相垂直的两个纵向导轨和两个横向导轨。本发明针对不同尺寸的风罩模型采用柔性化的装夹方式进行测试，不需要额外设计不同尺寸风罩的专用夹具。不会破坏被测设备，极大的节省人力和物力；减少额外的设计成本，为项目的早日完成节约了时间。且实现了离心风扇与风罩独立分离，能够有效的分离风罩振动噪声的气固耦合。
+8. 105163104 一种不产生空洞的中间视图合成方法
+CN
+16.12.2015
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201510548964.4
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种不产生空洞的中间视图合成方法，在给定的拍摄场景下，通过对左右两台摄像机的基线长度设置，使其小于等于背景深度值ZB与背景部分的长度LB的乘积除以背景深度值ZB与前景深度值的差值的二分之一，这样在视频终端，使用双向DIBR技术对通过左右两台摄像机获取的两幅参考图像及其对应的深度图像进行三维图像变换得到两幅虚拟视图，两幅虚拟视图再进行融合得到中央眼位置的中间视图，该中间视图没有空洞，一定程度上保证合成图像的质量，避免了空洞填充时间复杂性。
+9. 105069808 基于图像分割的视频图像深度估计方法
+CN
+18.11.2015
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201510547222.X
+四川虹微技术有限公司
+刘然
+G06T 7/00
+Loading...
+本发明公开了一种基于图像分割的视频图像深度估计方法，首先将需要进行深度估计的原始图像进行运动目标分割，同时进行图像分割得到若干个图像分割区域，并得到原始图像对应的显著图；通过显著图从图像分割区域中筛选出包含运动目标的图像分割区域，对该图像分割区域的连通域进行标记；通过显著图从原始图像的运动目标分割结果中筛选出真实运动目标区域，在图像分割区域中搜索与真实运动目标区域的连通域作为前景物体；得到原始图像的深度图，然后对每个前景物体区域内的深度值进行修正，使其连续，从而提高深度图中前景物体深度值的一致性。
+10. 105049834 基于FPGA的实时祼眼3D播放系统
+CN
+11.11.2015
+H04N 13/04 Loading...
+H04N 13/04
+Loading...
+201510478550.9
+四川虹微技术有限公司
+刘然
+H04N 13/04
+Loading...
+本发明公开了一种基于FPGA的实时祼眼3D播放系统，包括视频输入模块、DDR存储控制模块、DDR存储器、数据拆分模块、目标图像生成模块和上屏显示模块，视频输入模块交替接收参考图像数据和对应的深度图像并进行组合，将组合后的数据交替发送给DDR控制器模块；DDR控制器模块将参考图像数据和深度图像数据存储至DDR存储器，并按行间隔输出至数据拆分模块；数据拆分模块根据对接收到的参考图像数据和深度图像数据进行拆分发送给目标图像生成模块；目标图像生成模块通过DIBR算法合成N个目标图像构成N个立体图像对；多视点图像融合模块将N个立体图像对融合得到N个立体图像对的合成图像，发送给上屏显示模块进行上屏显示。本发明实现了对3D视频的实时播放。
+11. 104683788 Cavity filling method based on image reprojection
+CN
+03.06.2015
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201510113189.X
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+The invention discloses a cavity filling method based on image reprojection. The cavity filling method comprises the following steps: firstly, generating a target image and a non-cavity matrix according to a reference image; secondly, performing image reprojection on an original reference image so as to generate a reference image parallel to the target image; thirdly, confirming edges of all cavities except edge cavities in the target image, projecting edge pixel points to a parallel reference image by using a three-dimensional image inverse transformation method, and copying pixel points so as to fill cavities corresponding to the edge points according to the positions of the edge points in the target image and the rotation direction of the parallel reference image relative to the original reference image; finally, remedying residual cavities by using an image remediation algorithm. Compared with a conventional cavity filling method, the cavity filling method can improve the quality of filled images, and is relatively low in time complexity.
+12. 104185011 Multi-view image fusion device
+CN
+03.12.2014
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201410424125.7
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+The invention discloses a multi-view image fusion device. N view images are input to a sub-pixel collecting module in parallel through a view input module, a start view determining module generates a start view signal of each row of composite images according to a sub-pixel arrangement table and sends the start view signal to the sub-pixel collecting module which comprises an R sub-pixel sampling module, a G sub-pixel sampling module and a B sub-pixel sampling module, each sub-pixel sampling module receives a corresponding sub-pixel signal in the N view images, the sub-pixel signals are sequenced, each sub-pixel sampling module determines a first sampling sub-pixel signal according to the start view signals and a start view, the next sub-pixel signal is switched over for sampling every t minutes according to the sequence in an effective level period of effective data signals, the obtained three sampling signals are the R signal, the G signal and the B signal for synthesizing the images, an output cache module receives the R signal, the G signal and the B signal for cache and output. Consumption of hardware resources is little and the display effect of the synthesized images can be improved.
+13. 104065946 Cavity filling method based on image sequence
+CN
+24.09.2014
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201410271105.0
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+The invention discloses a cavity filling method based on an image sequence. A disparity map is obtained according to a reference image Rt and a target image Dt existing before and after three-dimensional image transformation, small cavity pre-processing is carried out on the target image Dt, an adjacent target image is generated according to a set of adjacent reference images in front of and behind the reference image Rt, the depth difference value of the adjacent target image and the target image Dt is calculated, usability marking is carried out on pixel points in the adjacent target image, usable pixel points are copied from the adjacent target image to carry out cavity filling on the target image Dt, then the adjacent reference images are used for carrying out cavity filling on the target image Dt in a movement compensation mode, a cavity filling method based on the disparity map is further carried out on a cavity smaller than a threshold value at the moment, then the next set of adjacent reference images is selected for filling, and finally filling of the rest of cavities is completed through an image inpainting algorithm. Only one path of video is needed, the good image quality can be achieved, the bandwidth needed by video data transmission is saved, and the time complexity for achieving hardware is reduced.
+14. 104038753 Three-dimensional image hole filling method
+CN
+10.09.2014
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201410269539.7
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+The invention discloses a three-dimensional image hole filling method. The three-dimensional image hole filling method includes that filling a hole in a target image generated according to a reference image with other frame reference images or corresponding target images in an image sequence, wherein a method for using the reference image includes that obtaining a pixel point corresponding to a hole edge pixel point from the reference image, selecting a current block through using the pixel point as a center, searching in the other frame reference images to obtain a matched block, and filling the hole point with the pixel point in the matched block; a method for using the target image includes that calculating motion vectors of blocks between the reference images after obtaining the matched blocks of the other frame reference images, calculating motion vectors of blocks between the target images, using the hole edge pixel point as the center to select the current block, obtaining the matched blocks of the other frame target images according to target image motion vectors, and filling the hole points with the pixel points in the matched blocks. The three-dimensional image hole filling method fills holes with other image information in the image sequence, and the filling effect is good.
+15. 103957402 Real-time full-high-definition 2D-to-3D system line reading and writing time sequence design method
+CN
+30.07.2014
+H04N 15/00 Loading...
+H04N 15/00
+Loading...
+201410191184.4
+四川虹微技术有限公司
+刘然
+H04N 15/00
+Loading...
+The invention discloses a real-time full-high-definition2D-to-3D system line reading and writing time sequence design method. A line reading and writing time sequence is reasonably designed in the converting process, two pieces of Block RAM are added in an edge graph data-caching mechanism of a depth estimation system and a depth graph data-caching mechanism of the depth estimation system respectively, reading operation or writing operation can be distributed into different time areas, DDR2 is prevented from being read and written at the same time and can be normally read and written, performing of depth estimation and depth image drawing is guaranteed, and real-time full-high-definition 2D-to-3D normal running is guaranteed.
+16. 103954861 一种双路USB负载插入检测装置
+CN
+30.07.2014
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201410164196.8
+四川虹微技术有限公司
+高君效
+G01R 31/00
+Loading...
+本发明公开了一种双路USB负载插入检测装置，在现有单路USB负载检测装置的基础，在两个USB口即USB1口和USB2口的GND端连接并联的开关管K2和检测电阻R2，其中，开关管K2控制端与主控芯片的控制端口NCTRL连接。这样，占用主控芯片的端口从现有的6个降低为4个，并且只用一个输电流采样电阻，降低了产品体积和封装成本以及物料价格成本。
+17. 203492205 一种具有组网功能的智能开关
+CN
+19.03.2014
+H04W 84/18 Loading...
+H04W 84/18
+Loading...
+201320573455.3
+四川虹微技术有限公司
+陈勇
+H04W 84/18
+Loading...
+本实用新型公开了一种具有组网功能的智能开关，通过声波接收装置以及声波发送装置实现对密码声波和配置信息声波以及智能开关标识信息的接收和发送，从而实现了便携式设备如智能手机、IPAD对具有组网功能的智能开关的入网配置，这样无需专门设备和接口，即可完成智能开关的组网工作。
+18. 203490789 一种具有安防功能的智能开关
+CN
+19.03.2014
+G08B 13/19 Loading...
+G08B 13/19
+Loading...
+201320573502.4
+四川虹微技术有限公司
+林敏
+G08B 13/19
+Loading...
+本实用新型公开了一种具有安防功能的智能开关，通过在智能开关内嵌入红外线人体感应器，这样，智能开关之间形成交叉感应网，起到安全防护的作用。在房屋原有的开关槽上装上本实用新型所述的具有安防功能的智能开关，基本上能覆盖屋内所有空间，实现安防报警，解决普通安防设备需额外施工布线、影响家居整体风格和美观的问题。此外，当智能开关感应到有人体时，通过扬声器发出报警声音。本实用新型具有安防功能的智能开关，不但具有普通智能开关的功能，同时有安防功能，具有安装简单、成本低、操作灵活等特点。
+19. 103529726 Intelligent switch with voice recognition function
+CN
+22.01.2014
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201310421720.0
+四川虹微技术有限公司
+伍川
+G05B 19/042
+Loading...
+The invention discloses an intelligent switch with a voice recognition function, wherein a microphone array pick-up device is used for picking up voice commands and sending the voice commands to an integrated circuit module to carry out voice recognition so as to obtain corresponding on or off control commands. Therefore, the picked voice commands are relatively clear, and the integrated circuit module further exactly carries out the voice recognition, so that the voice recognition capability is improved, and the voice control requirement of a user under the daily noise environment is met.
+20. 103514610 Method for parting moving target with static background
+CN
+15.01.2014
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201310426015.X
+四川虹微技术有限公司
+刘然
+G06T 7/20
+Loading...
+The invention discloses a method for parting a moving target with a static background, wherein the partition method is based on combination of a symmetric difference method and combined bilateral filtering. According to the method, firstly, a continuous three-frame image is differenced to obtain a moving area, namely a symmetric difference diagram; then, combined bilateral filtering is performed on the symmetric difference diagram with a current frame as a guide diagram by adopting different filtering templates, and results after the filtering are linearly added to obtain a moving target diagram; edge detection is performed on the current frame and the moving target diagram, and a combined value is solved for a detection result to obtain a more intact edge( an edge diagram); finally, the moving target diagram is fine parted by utilizing the edge diagram, namely scanning searching valuation is performed, and therefore the intact and accurate moving target is obtained through partition. As is shown in experiments, according to the method, the moving target can be fast, intactly and accurately parted from a video image.
+21. 103281548 一种实时高清深度估计系统
+CN
+04.09.2013
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201310173915.8
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种实时高清深度估计系统，对相对高度的深度估计算方法并对其改进，将需要大量幂运算和除法运算的约束计算公式简化为只包含加法、减法和比较运算的计算形式，有效降低了计算复杂度。并提出了一种基于DDR2的行列/列行转换器，逐行/逐列传输的边缘图数据/深度图数据经过行列/列行转换器处理后会逐列/逐行传输，有效解决了深度估计与传输方式的冲突。同时，本发明实时高清深度估计系统充分采用流水线技术和外部DDR2存储器来提高系统的工作频率和降低内存消耗。实验结果表明，本实时高清深度估计系统在200MHz时钟频率下可支持720P视频的实时处理，对室外场景具有较好的估计效果。
+22. 103248794 一种分辨率可调的行场同步信号产生装置
+CN
+14.08.2013
+H04N 5/06 Loading...
+H04N 5/06
+Loading...
+201310167976.3
+四川虹微技术有限公司
+刘然
+H04N 5/06
+Loading...
+本发明公开了一种分辨率可调的行场同步信号产生装置，采用两个行场参数寄存器分别存储默认以及分辨率可调显示模式下的行场参数，并根据顶层的显示模式选择端口的输入，选择相应的行场参数给行场同步信号产生模块；行信号计数器对时钟进行计数，场信号计数器对行信号计数器的计数周期进行计数，然后依据行场参数，根据行场信号计数器的计数值输出高电平或低电平，得到行场同步信号以及数据有效信号。本发明可用FPGA实现，采用Verilog语言描述两个计数器以及各判断模块采用相应的if语句根据计数值进行电平判断，得到分辨率可调的行场同步信号以及数据有效信号，且实现逻辑更简单直观。
+23. 103237157 一种实时高清视频图像转置器
+CN
+07.08.2013
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201310173854.5
+四川虹微技术有限公司
+刘然
+H04N 5/14
+Loading...
+本发明公开了一种实时高清视频图像转置器通过数据组合模块，首先将n行8bit的图像数据按列组合为一个n×8bit的图像数据，存储时，每存储一次偏移量增加(H/n)×data_width，完成n行后基地址增加data_width，对下n行进行相同的处理，直到整幅图像数据存储完毕；读取时，每读取一次偏移量增加data_width，数据拆分模块将H/n次读取的图像数据都进行拆分，然后依次输出，得到行列转置图像。本发明采用不同的方式，对组合的n×8bit的图像数据进行存储和读取，从而实现了图像的转置。另外通过采用帧级流水以及并行处理方式降低了存储图像的内存需求，有效地减少了内存消耗，达到图像转置实时性的要求。
+24. 103135806 Overhead mouse used for intelligent television
+CN
+05.06.2013
+G06F 3/037 Loading...
+G06F 3/037
+Loading...
+201210575755.5
+四川虹微技术有限公司
+周宗煜
+G06F 3/037
+Loading...
+The invention discloses an overhead mouse used for an intelligent television. By means of reasonable design of buttons of the overhead mouse, the confirmation button which is used most frequently is placed at a position, when a user holds the overhead mouse by hand, a thumb can press the position of the confirmation button when stretched, and an idler wheel is installed behind the position of the confirmation button to enable the user operate an interface conveniently. In addition, an application program control button is installed behind the idler wheel, and channel control buttons and voice volume control buttons are installed at positions, wherein the positions where the thumb can touch are located on the front portion of a shell and on the side portion of the confirmation button, so that the user can conveniently select application program entering, select channels and regulate voice volume. According to the overhead mouse, the buttons and the idler wheel of the overhead mouse used for the intelligent television are designed according to using frequency degrees, control of the intelligent television by each channel control button and the voice volume control button is defined, the user can watch television programs conveniently, and flexibility of remote operation is improved.
+25. 103065328 一种基于红外光斑跟踪的跟踪点频率提升方法
+CN
+24.04.2013
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201210589999.9
+四川虹微技术有限公司
+官升
+G06T 7/20
+Loading...
+本发明公开了一种红外光斑跟踪的跟踪点频率提升方法，在保证原有跟踪点频率提升方法优点的基础上，通过三个质心点拟合出跟踪点运动轨迹，减少拟合所需光斑点数，同时利用运动速度以及加速度这些实际的运动特点来增强其平滑性和连续性，并利用红外光斑成像的特点，将曲线更好的拟合到真实轨迹上。
+26. 103065312 一种手势跟踪过程中的前景提取法
+CN
+24.04.2013
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201210575198.7
+四川虹微技术有限公司
+邹雪梅
+G06T 7/00
+Loading...
+本发明公开了一种手势跟踪过程中的前景提取方法，通过对背景建立与更新，用当前帧图像减去背景图像，得到初步前景图像，并进行二值化处理、去除前景中非肤色像素点、去除前景中像素值与跟踪手掌均值相差过大的点，最后使用腐蚀膨胀算法去除杂点。本发明充分利用了跟踪对象即手掌的特征，在保证算法运算量小，数据量小的前提下，不仅能够在物体静止和运动过程中准确提取出前景，而且还去除了手势控制过程中类肤色物体对手掌跟踪的干扰，为后面的跟踪匹配过程提供了干净且有效的输入即前景图像。
+27. 103064532 一种空中鼠标遥控器
+CN
+24.04.2013
+G06F 3/0346 Loading...
+G06F 3/0346
+Loading...
+201210589495.7
+四川虹微技术有限公司
+莫启会
+G06F 3/0346
+Loading...
+本发明公开了一种空中鼠标遥控器，只需要一个3轴加速度传感器采集遥控器的运动情况，然后计算出水平方向上、垂直方向的左右、上下转动位移，然后通过光标偏移转换得到光标偏移，通过无线传输方式不断地发送给智能终端设备发，实现对智能终端设备的控制。本发明具有以下优点：3轴加速度传感器是一种微机电装置，它抗干扰能力强，采样率高，本发明的空中鼠标遥控器与通用的鼠标频率类似，反应灵敏，延迟小，完全可以满足日常的鼠标控制需求；2、操作方式人性化，容易使用；3、本发明只采用了一颗3轴加速度传感器，相比陀螺仪传感器的空中鼠标方案，成本远低于陀螺仪，更利于市场化、推广应用。
+28. 103051908 一种基于视差图的空洞填充装置
+CN
+17.04.2013
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201210574221.0
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种基于视差图的空洞填充装置，如果目标图像为左视图（右视图），通过检测跃变模块、标记空洞模块对视差图的视差值从右向左（从左到右）逐行逐像素点进行跃变检测和空洞标记，得到像素点的前景像素点视差值Forgroud_M、不含空洞的视差值Noholes_M、差值D_M以及空洞标记送入填充空洞模块中进行空洞填充，得填充后的像素点视差值，然后再用填充较大空洞的视差值来代替该较大空洞边缘的背景像素点的视差值即进行膨胀，膨胀后的视差值，构成目标图像对应的没有空洞和消除匹配误差后的新的视差图M2，最后，根据视差图M2生成目标图像。这样实现硬件以数据流的方式进行空洞填充的发明目的。
+29. 103019374 一种基于对象跟踪的远程控制系统
+CN
+03.04.2013
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201210469255.3
+四川虹微技术有限公司
+周宗煜
+G06F 3/01
+Loading...
+本发明公开了一种基于对象跟踪的远程控制系统，通过在远端手持控制设备前端加装一个红外发光源并作为跟踪对象，同时，在视频采集装置前方安装红外滤波片，滤除红外发光源的波长以外的光线，这样，几乎不受使用环境的限制和干扰，并且红外发光源是非可见，也不会在被控电子设备的屏幕上反射而影响用户的观看。本发明基于对象跟踪的远程控制系统供的光标位置以及运动轨迹根据采集的跟踪对象图像得到，与用户手持远端手持控制设备的角度无关，仅与其在空中运动的轨迹相关，因此能以一种更自然的方式进行空中手写输入。
+30. 103021324 等离子显示器的像素点扫描方法
+CN
+03.04.2013
+G09G 3/293 Loading...
+G09G 3/293
+Loading...
+201210571931.8
+四川虹微技术有限公司
+潘宇
+G09G 3/293
+Loading...
+本发明涉及一种等离子显示器的像素点扫描方法，具体的将是涉及一种可降低等离子显示器功耗的等离子显示器视频图像数据扫描显示的方法。本发明提出的等离子显示器的像素点扫描方法，其方法可以概括为：通过对行扫描方式和列扫描数据的控制，从而实现降低等离子显示器的功耗，然后通过统计第n-1行与第n行的数据翻转个数及第n-2行与第n行的数据翻转个数，并进行比较，从而决定使用逐行扫描方式或隔行扫描方式，再通过统计同一行中相邻两子像素的数据翻转个数，并进行阈值分类，从而决定显示维持控制方式。本发明的有益效果为有效的降低了列扫描驱动芯片的数据翻转率和动态功耗，从而降低PDP整机功耗，延长PDP寿命。本发明尤其适用于等离子显示器。
+31. 102999889 一种保护显著边缘的图像降噪处理方法
+CN
+27.03.2013
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201210512756.5
+四川虹微技术有限公司
+闫秀桃
+G06T 5/00
+Loading...
+本发明涉及视频信号处理技术，其公开了一种保护显著边缘的图像降噪处理方法，在进行降噪的同时对图像进行锐化处理，保护图像的显著边缘，从而提高图像质量。本发明在转向滤波核的基础上，结合拉普拉斯锐化滤波器，通过构造图像锐化标准的计算方法，将降噪与锐化两个矛盾的处理过程巧妙的结合在一起，同时完成降噪与锐化两个处理过程，在抑制噪声的同时，不会过于模糊图像的边缘，很好的保护了显著边缘，从而避免传统单一的去噪技术中平滑模糊的负面效果，适用于对图像的降噪处理。
+32. 102968598 数字文件的解密方法
+CN
+13.03.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210442371.6
+四川虹微技术有限公司
+陈奕冲
+G06F 21/60
+Loading...
+本发明涉及数字文件的解密方法，包括：a．设定一个加密参数，对所述加密参数通过杂凑函数得到一个初始值；b．将所述的初始值作为输入产生至少两个随机数据；c．将连续的序号与各随机数据逐一对应组成向量对，每一个向量对为一个解密密钥；d．将随机数据依次串联后通过杂凑函数获得为数字文件加密的文件密钥；e．解密时将各解密密钥中的数据依次串联后通过杂凑函数构建出所述的文件密钥，再经加密算法的逆运算进行解密。本发明的方法，能够实现使用唯一的文件密钥对数字文件进行加密，必须同时使用多个解密密钥进行解密的目的，有效地对保密数据进行多方参与的公证性识别，提高了安全保护的强度，从而避免了保密数据的泄漏。
+33. 102946504 一种基于边缘检测的自适应运动检测方法
+CN
+27.02.2013
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201210476628.X
+四川虹微技术有限公司
+刘成强
+H04N 5/14
+Loading...
+本发明公开了一种基于边缘检测的自适应运动检测方法，通过计算当前像素点相关的四个亮度分量场间差值以及两个U、V色差分量场间差值，然后将四个亮度分量场间差值分别与四个阈值进行比较，得到变量mov_mode，再后，根据变量mov_mode的值，并结合前面两场当前像素对应像素点的运动状态、边缘检测情况得到判断结果，最后依据U、V色差分量场间差值对判断结果进行修正。本发明通过将边缘检测情况以及色差分量参与到运动状态的判断中，提高了运动检测的鲁棒性，为隔行视频的去隔行奠定了良好的基础。
+34. 102946505 一种基于图像分块统计的自适应运动检测方法
+CN
+27.02.2013
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201210476789.9
+四川虹微技术有限公司
+刘成强
+H04N 5/14
+Loading...
+本发明公开了一种基于图像分块统计的自适应运动检测方法，通过当前像素点位置场间图像子块的亮度均值差来确定场景是否发生变化，然后根据场景是否发生变化，选择依据场间图像子块存在差异像素的数目确定较低或较高的阈值，最后将像素点所在位置的亮度分量场间差值与确定的对应场间图像子块的阈值进行比较，检测得到当前像素点的运动状态。本发明中场间图像子块的阈值与当前像素点所在视频序列位置相适应，即自适应，因而对像素点的运动状态判断更加准确，克服了现有技术采用固定的一组场间图像阈值与像素点所在位置的亮度分量场间差值进行比较，容易造成运动检测错误从而造成噪声的缺陷，提高了去隔行效果。
+35. 102937320 用于智能空调的健康保护方法
+CN
+20.02.2013
+F24F 11/00 Loading...
+F24F 11/00
+Loading...
+201210413418.6
+四川虹微技术有限公司
+何雪海
+F24F 11/00
+Loading...
+本发明涉及人机交互技术，具体的说是涉及一种用于智能空调的健康保护方法。本发明提出的用于智能空调的健康保护方法，其方法可以概括为：首先通过采集设备采集用户的体征信息；然后对采集的体征信息进行分析，判断是否包含有危险体征信号，若是，则空调自动对当前工作模式进行调节，若否，则继续采集用户当前的体征信息。本发明的有益效果为，能够让智能空调根据用户当前的健康状况信息自动进行工作模式调节，并实现了机器自动识别咳嗽音检测，并通过咳嗽音检测结果自动改变空调温度、工作模式等相应设置，能有效保护使用者健康，同时该空调特别适合行动不便或暂时无操作能力的用户。本发明尤其适用于智能空调。
+36. 102930501 一种控制DIBR系统中图像存储的多口内存控制器
+CN
+13.02.2013
+G06T 1/60 Loading...
+G06T 1/60
+Loading...
+201210384609.4
+四川虹微技术有限公司
+刘然
+G06T 1/60
+Loading...
+本发明公开了一种控制DIBR系统中图像存储的多口内存控制器，使用外部存储器作为外部缓存的存储机制，将DIBR算法所需参考图像和深度图像全部存储到外部存储器中，然后读给DIBR算法模块，保证了参考图像和深度图像同时输送给DIBR算法模块进行处理。实验表明，本发明控制DIBR系统中图像存储的多口内存控制器具有很好的可操作性，实现简单，可以大量缩减内部存储所消耗的资源。因而可以作为目前普通DVD视频流实现DIBR技术的可行方案。
+37. 102916814 一种基于矩阵运算的双向认证方法
+CN
+06.02.2013
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201210438333.3
+四川虹微技术有限公司
+陈奕冲
+H04L 9/32
+Loading...
+本发明涉及一种数字认证方法，具体的说是涉及一种基于矩阵运算的双向认证方法。本发明提出的双向认证方法，其方法可以概括为：首先分别为用户提供存在矩阵关系的公钥对，然后分别在本地存储有公钥对的用户端分别向对方发送自身存储的公钥值，并根据接收到的公钥值和自身存储的公钥值分别计算出两组认证码，并将根据自身存储的公钥值的认证码发送给对方，最后两个用户端通过对认证码值的比较实现对对方的认证。本发明的有益效果为，具备较高的安全性，同时大大减少了硬件开销，提高了适用范围，还能够有效地进行用户识别，防止身份的假冒，从而避免私有信息的泄漏。本发明尤其适用于信息双向认证。
+38. 102917250 用于数字媒体接口的音视频传输方法
+CN
+06.02.2013
+H04N 21/238 Loading...
+H04N 21/238
+Loading...
+201210442342.X
+四川虹微技术有限公司
+陈奕冲
+H04N 21/238
+Loading...
+本发明涉及用于数字媒体接口的音视频传输方法，包括步骤：发送端通过外部接口芯片提供的寄存器通道进行读写操作，完成和接收端的接口认证；发送端和接收端利用共享密钥激活各自的流密码模块；将24位位宽的音频数据分为3组音频分量存储在存储器中；将3组音频分量分别映射到不同的视频传输通道中，并将映射后的3组音频数据串联；将串联的3组音频数据转为并行数据分别放到视频数据的3个传输通道的最低比特位上进行传输。本发明的方法，使音视频的传输独立于传输接口，灵活性高，同时结合接口认证和流密码加密，达到了接口内容保护的目的。并且对音视频内容进行加解密传输，不必考虑所使用的传输接口，从而避免了所保护的数字媒体的泄漏。
+39. 102903098 一种基于图像清晰度差异的深度估计方法
+CN
+30.01.2013
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201210310062.3
+四川虹微技术有限公司
+刘然
+G06T 7/00
+Loading...
+本发明公开了一种基于图像清晰度（Image Definition）差异的深度估计方法，该方法首先将彩色的单视点单幅图像转换为灰度图，然后进行分块并选择一种图像清晰度算法计算出各图像块的清晰度并作为各图像块中像素点的清晰度，这样得到单视点单幅图像的清晰度差异情况。本发明根据摄像机通常聚焦在景物目标的前景上，被聚焦景物比较清晰的实际情况，利用清晰度差异对单视点单幅图像进行深度赋值，得到一副深度图，从而完成单视点单幅图像深度估计。本发明只需要分块计算清晰度，得到单视点单幅图像深度，相对于现有技术计算复杂性低，能够满足图像处理实时性要求。
+40. 102521799 一种用于视频图像恢复增强的结构化稀疏词典的构造方法
+CN
+27.06.2012
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201110371505.5
+四川虹微技术有限公司
+袁梓瑾
+G06T 5/00
+Loading...
+本发明公开了一种用于视频图像恢复增强的结构化稀疏词典的构造方法，通过对从自然图像库以及边缘分明的拟合图像中分别选取的图像片进行DCT变换，映射到频域空间，基于图像片的一般频域特征进行初步聚类处理，随后对每个聚类进一步的基于其高频信息特征进行二级聚类处理，最后，对得到的二级聚类提取前m个主成分分量，得到该聚类的稀疏子词典subDi_j，全部的稀疏子词典subDi_j构成最终的结构化稀疏词典，这样建立起的两级结构化稀疏词典库，区别于传统冗长低效的线性过完备词典。可以快速有效的求解输入图像视频信号的稀疏表达，对任意图像视频信号进行协同层级稀疏建模所得到稀疏系数向量是准确、有效的，具备相当程度的抗噪声特性。
+41. 102510438 一种用于视频图像恢复增强的稀疏系数向量的获取方法
+CN
+20.06.2012
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201110371503.6
+四川虹微技术有限公司
+袁梓瑾
+H04N 5/14
+Loading...
+本发明公开了一种用于视频图像恢复增强的稀疏系数向量的获取方法，通过对从自然图像库以及边缘分明的拟合图像中分别选取的图像片进行DCT变换，映射到频域空间，基于图像片的一般频域特征进行初步聚类处理，随后对每个聚类进一步的基于其高频信息特征进行二级聚类处理，最后，对得到的二级聚类提取前m个主成分分量，得到该聚类的稀疏子词典subDi_j，全部的稀疏子词典subDi_j构成最终的结构化稀疏词典，这样建立起的两级结构化稀疏词典库，区别于传统冗长低效的线性过完备词典。可以快速有效的求解输入图像视频信号的稀疏表达，对任意图像视频信号进行协同层级稀疏建模所得到稀疏系数向量是准确、有效的，具备相当程度的抗噪声特性。
+42. 102510439 一种电流钳位电路漏电流自适应补偿装置
+CN
+20.06.2012
+H04N 5/18 Loading...
+H04N 5/18
+Loading...
+201110370451.0
+四川虹微技术有限公司
+张恩阳
+H04N 5/18
+Loading...
+本发明公开了一种电流箝位电路漏电流自适应补偿装置，通过差值产生器统计出一段时间内上箝位脉冲信号与下箝位脉冲信号为1的时间差，该值反映了上箝位脉冲信号/下箝位脉冲信号箝位时的漏电流的大小，然后在辅助信号发生器中产生与时间差成正比的、频率高于上箝位脉冲信号/下箝位脉冲信号的上箝位辅助信号或下箝位信号辅助信号，最后将上箝位辅助信号/下箝位辅助信号分别与上箝位脉冲信号/下箝位脉冲信号进行混合，得到调整后的上下箝位脉冲信号。由于调整后的上下箝位脉冲信号中有频率高于上箝位脉冲信号/下箝位脉冲信号的上箝位辅助信号/下箝位辅助信号，这样可以有效地补偿两个箝位脉冲信号间的漏电流，使模拟视频信号保持在一个固定的电平。
+43. 102497524 边缘自适应去隔行的插值方法
+CN
+13.06.2012
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201110398206.0
+四川虹微技术有限公司
+刘成强
+H04N 7/01
+Loading...
+本发明涉及边缘自适应去隔行的插值方法。包括步骤：a.计算各个方向像素对的差值的和，得到初始的相关性值；b.相关性值修正补偿；c.中心方向优先选择；d.根据当前像素点所在区域的纹理类型，对当前像素点的边缘强度和设定的阈值进行比较得到最终的插值方向；e.根据插值方向得到当前插值点的候选像素值；f.对当前插值点像素的上下两个点和步骤e得到的候选像素值进行中值滤波，得到最终的插值像素。本发明的边缘自适应去隔行的插值方法，能够对图像像素有良好的边缘保护能力，并且能够得到光滑边缘、细节无闪烁的去隔行图像。
+44. 102496152 一种基于直方图的自适应图像对比度增强方法
+CN
+13.06.2012
+G06T 5/40 Loading...
+G06T 5/40
+Loading...
+201110393236.2
+四川虹微技术有限公司
+刘成强
+G06T 5/40
+Loading...
+本发明公开了一种基于直方图的自适应图像对比度增强方法，通过收缩直方图、遍历直方图上连续数个灰度阶对应的像素点个数总和，以判断图像灰度阶是否集中，对于灰度阶集中的图像，即大于总数门限的图像不进行对比度增强操作，避免增强后图像质量变换，然后根据收缩后的直方图得到的最小灰度阶、最大灰度阶以及灰度均值进行变换得到最小关键灰度阶、中值关键灰度阶、最大关键灰度阶，最后基于最小关键灰度阶、中值关键灰度阶、最大关键灰度阶对最小灰度阶、灰度均值和最大灰度阶划分出的四个空间构建空间映射关系，得到图像对比度增强的查找表，依据该表对输入图像进行图像对比度增强。这样图像对比度增强依据图像直方图分布情况，自适应调节映射关系，避免了图像对比度得过度增强。
+45. 102497492 屏幕中字幕运动的检测方法
+CN
+13.06.2012
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201110397351.7
+四川虹微技术有限公司
+刘强
+H04N 5/14
+Loading...
+本发明涉及屏幕中字幕运动的检测方法。包括步骤：a.通过输入的连续四场隔行信号判断当前像素是否为字幕点；b.计算相邻像素点的序列差的绝对和，所述绝对和值与对应像素点静止的可能性成正比，由此判断相邻的奇场或偶场中同极性场的对应点的灰度分布；c.根据两个像素块对应像素的灰度差和设置的阈值，得到灰度变化趋势的度量值，该量度值的大小与相邻两场的当前像素点的变化成正比；d.将绝对和值与量度值分别与所述两个门限值比较判断字幕点的运动状态。本发明的方法能够对图像画面中的字幕运动状态进行准确的判断，消除去隔行后出现的字幕抖动和字体不完整现象，明显的提高了图像中字幕的清晰度，提高了视觉体验。
+46. 102497523 中值滤波去隔行的方法
+CN
+13.06.2012
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201110397665.7
+四川虹微技术有限公司
+刘成强
+H04N 7/01
+Loading...
+本发明涉及中值滤波去隔行的方法，包括步骤：a.通过当前插值像素点相邻的至少13个方向的相关性值，得到第一候选像素点的值；b.对相关性进行补偿，得到第二候选像素点的初始边缘方向；c.判断初始边缘方向是否需要校正，如果需要进入步骤d，否则得到第二候选像素点的值；d.根据当前插值像素点的前后两个像素点的最终边缘方向的类型得到第二候选像素点的值；e.通过与中心方向相邻的最多9个方向的相关性值，得到第三候选像素点的值；f.通过中值滤波得到当前插值像素点的值。本发明的方法，能够对插入的候选像素点不同边缘类型分别进行处理，从而能够消除图像的闪烁和锯齿现象，得到光滑边缘、细节无闪烁的去隔行图像。
+47. 102447926 一种无摄像机标定参数的三维图像变换方法
+CN
+09.05.2012
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110277836.2
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种无摄像机标定参数的三维图像变换方法，利用摄像机标定参数与深度图像的灰度值之间的关系，将需要标定参数的三维图像变换公式简化为只含有几个可调参数的公式形式，以实现无摄像机标定参数下的三维图像变换。实验表明，该方法在无摄像机标定参数的条件下，不仅能够生成令人满意的虚拟视图，即目标视图，还能使用户根据自己的需要对可调参数进行调节，获得更好的视觉效果。同时，在硬件实现方面，也比较简单易行。
+48. 102447927 一种有摄像机标定参数的三维图像变换方法
+CN
+09.05.2012
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110278135.0
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种有标定参数的三维图像变换方法，通过平移摄像机，传感变换摄像机(shift-sensor camera)设置生成目标图像，在利用简化的基于深度图像绘制的三维图像变换公式以及像素点深度值计算公式计算出目标图像像素点坐标的前提下，将参考图像点的像素值拷贝到目标图像对应点上，从而减小了计算量，有利于硬件的实现。
+49. 102413347 一种基于DIBR的匹配误差校正方法
+CN
+11.04.2012
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110346204.7
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种基于DIBR的匹配误差校正方法，先对视差图进行滤波，从而对造成匹配误差的像素点的视差值进行校正，然后由校正后的视差得到目标图像上视差坐标对应点在参考图像上的匹配点，最后如果匹配点落在参考图像中，将参考图像上匹配点的像素信值拷贝到目标图像对应位置上，否则，不处理，这样完成匹配误差的校正。相比现有技术，本发明基于DIBR的匹配误差校正方法有以下优点：1)由于是对视差图进行滤波，而不是针对目标图像，故不会造成图像的模糊；2)只是对视差图(二维矩阵)进行滤波，计算和硬件实现都较为简单。
+50. 102307175 多载波系统的软判决方法
+CN
+04.01.2012
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110301334.9
+四川虹微技术有限公司
+李传磊
+H04L 27/26
+Loading...
+本发明涉及多载波系统的软判决方法。包括步骤：对输入的信号进行同步，再将信号进行信道估计和噪声方差估计器进行噪声方差估计；将经过所述信道估计的信号进行快速傅里叶计算后输出到相位均衡器；在相位均衡器对数据的相位进行纠正；将相位纠正后的数据、信道响应的模和估计的噪声方差数据传入软判决模块，计算软判决的公共参数；根据星座图结构和计算得到的公共参数，获得每个比特的对数似然比信息；将所述的对数似然比信息进行译码。本发明多载波系统的软判决方法能够很好的支持各种调制模式的星座解调，明显的减小了硬件开销，可以适用于对任何格雷码星座映射进行软判决，极大的提高了软判决的速度和对各种模式的星座映射的通用性。
+51. 102307312 一种对DIBR技术生成的目标图像进行空洞填充的方法
+CN
+04.01.2012
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110255783.4
+四川虹微技术有限公司
+刘然
+H04N 13/00
+Loading...
+本发明公开了一种对DIBR技术生成的目标图像进行空洞填充的方法，通过按行遍历视差图，检测较大空洞；然后利用深度值区分空洞边缘区域的前景像素点和背景像素点，确定匹配误差区域，对较大空洞进行膨胀，以去除较大空洞边缘存在匹配误差的像素点；最后从参考图像中复制对应的目标图像中需要填充的空洞区域，即背景像素点到目标图像中需要填充的空洞区域，完成空洞填充。本发明不需要预处理深度图像，最大限度地保证了较大空洞区域的真实性，得到高质量的目标图像。此外，没有复杂的运算操作，便于硬件的实现。同时，利用深度值区分前景和背景，确定匹配误差区域，通过膨胀空洞的边缘以消除/减少匹配误差区域，实现了匹配误差进行校正。
+52. 102289841 Method for regulating audience perception depth of three-dimensional image
+CN
+21.12.2011
+G06T 15/20 Loading...
+G06T 15/20
+Loading...
+201110230275.0
+Panovasic Technology Co., Ltd.
+Liu Ran
+G06T 15/20
+Loading...
+The invention discloses a method for regulating audience perception depth of a three-dimensional image. A parallel camera is used for setting in a three-dimensional television system to generate a target image, and then, a reference image and the target image are horizontally moved simultaneously towards a center point of a connecting line of the reference image and the target image to obtain a horizontal sensing parallax error of a camera space; according to the geometrical principle of display of the three-dimensional television system, a method for expressing the audience perception depth by using the horizontal sensing parallax error is determined; and finally, according to the relationship between the horizontal sensing parallax error and the horizontal screen parallax error, the audience perception depth is converted into parameters of the camera space, therefore, audiences can regulate horizontal displacement, base line distance and focus parameters to regenerate a target image so as to regulate the audience perception depth. Through experiments, different perception depths of three-dimensional images required by the audiences can be generated according to the method disclosed by the invention.
+53. 102223344 Method and system for estimating residual fractional frequency offset
+CN
+19.10.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110203959.1
+Panovasic Technology Co., Ltd.
+Xie Xiang
+H04L 27/26
+Loading...
+The invention relates to a method and a sytem for estimating residual fractional frequency offset. The method comprises the following steps: residual frequency offset computing, Doppler estimation and accumulation; according to the difference of a dispersed pilot frequency module value and a dispersed pilot frequency phase angle, obtaining a residual frequency offset estimation value of maximum and minimum borders so as to eliminate a distortion point and a phase spill point caused by a dynamic multi-path channel; during the catching state of the Doppler estimation, reducing a border value through adding a decay factor in each time slot; judging whether to unlock according to the frequency offset border update quantity wherein the decay is not carried out under a locked state; and during the accumulation, accumulating OFDM symbols and the output of the each-time Doppler estimation to be compensated to a time domain end. In the residual fractional frequency offset estimation method disclosed by the invention, the processing of the Doppler frequency offset is increased, the influence of the Doppler frequency offset to a system is reduced, therefore, the residual fractional frequency offset in the dynamic multi-path channel can be accurately estimated, and the accuracy of the residual fractional frequency offset estimation and the stability of the system are improved.
+54. 102223345 Time slot synchronization method and symbol synchronization method
+CN
+19.10.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110212053.6
+Panovasic Technology Co., Ltd.
+Wu Chang
+H04L 27/26
+Loading...
+The invention relates to a time slot synchronization method and a symbol synchronization method. The time slot synchronization method comprises the steps of time slot synchronization state control, time slot synchronization correlated operation and time slot synchronization peak-value detection, wherein an acquisition period in the time slot synchronization state control is used for acquiring the position of a first-time time slot synchronization correlated peak value; a tracking period is converted by the acquisition period after a time-slot starting position is searched for the first time; in the time slot synchronization correlated operation, a model and an angle of a correlated value are obtained by correlation of synchronous data symbols; and in the time slot synchronization peak-value detection, the position of the peak value is determined, and the peak-value detection is controlled. In the time slot synchronization method and the symbol synchronization method, correlated peaks are controlled by acquired and tracked states, so computation quantity can be remarkably reduced, false detection in a dynamic environment is prevented, and residual detection is avoided minimally.
+55. 102223543 Reference pixel read and storage system
+CN
+19.10.2011
+H04N 7/32 Loading...
+H04N 7/32
+Loading...
+201110157144.4
+Panovasic Technology Co., Ltd.
+Lu Guoning
+H04N 7/32
+Loading...
+The invention relates to a reference pixel read and storage system, comprising a motion vector prediction unit, a macroblock address generation unit and a reference pixel reading unit which are connected, wherein the motion vector prediction unit and the macroblock address generation unit are respectively connected with the reference pixel reading unit and a control unit, the motion vector prediction unit obtains the current cutting MV (mean value) according to the calculated MVP (mean value property); the macroblock address generation unit generates a reference pixel reading address according to the received MV; the reference pixel reading unit reads pixel data from an external buffer memory into an internal buffer memory space of the system. In the reference pixel read and storage system, different video processing algorithms can be combined, the current image cutting information can be automatically obtained to carry out vector prediction, the data is prepared before a coding-decoding device needs the data, so as to carry out motion compensation operation by the coding-decoding device, the operating speed and read capacity of the system are greatly improved under the premise of occupying small resource.
+56. 102215203 Method and system for estimating integer multiples of frequency offsets
+CN
+12.10.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110203886.6
+Panovasic Technology Co., Ltd.
+Xie Xiang
+H04L 27/26
+Loading...
+The invention relates to a method and a system for estimating integer multiples of frequency offsets. The method comprises the following steps of: a, receiving all synchronous symbols of each frame, and obtaining a relational expression between each synchronous symbol and a transmitted frequency-domain synchronous symbol; b, performing Fourier demodulation on each received synchronous symbol respectively to obtain a frequency domain of the synchronous symbol; c, performing conjugate multiplication on the adjacent code elements of each received synchronous symbol respectively; and d, obtaining an estimation value of the integer multiples of frequency offsets according to a maximum correlation of a result of the step c and frequency-domain data of a transmitting end after cyclic shifts. According to the method and the system for estimating the integer multiples of frequency offsets, disclosed by the invention, the integer multiples of frequency offsets in a wireless communication, in particular a China mobile multimedia broadcasting (CMMB) system can be correctly estimated, the correctness and the stability of the system are improved, the hardware is easy to realize, and the arithmetic process is fast and convenient.
+57. 102208113 Method for determining scanning sequence of reference image pixel points
+CN
+05.10.2011
+G06T 15/20 Loading...
+G06T 15/20
+Loading...
+201110139572.4
+Panovasic Technology Co., Ltd.
+Liu Ran
+G06T 15/20
+Loading...
+The invention discloses a method for determining a scanning sequence of reference image pixel points. In actual application, a right (left) view, namely a target view, is generated by using a reference image as a left (right) view under most conditions; and a baseline is parallel to the reference image. Based on a shading compatible algorithm provided by McMillan, the invention provides the method for determining the scanning sequence of the reference image pixel points in a three-dimensional image transform process. By using the method, the scanning sequence of the reference image pixel points is determined when the baseline is parallel to the reference image plane and optic centers of cameras are on the same horizontal line. The experiments show that an accurate drawing sequence of a target image can be obtained by using the method.
+58. 102186095 Matching error correction method applicable for depth-image-based rendering
+CN
+14.09.2011
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201110112710.X
+Panovasic Technology Co., Ltd.
+Liu Ran
+H04N 13/00
+Loading...
+The invention discloses a matching error correction method applicable for depth-image-based rendering. The method comprises the following steps of: calculating cross number of cross regions by one or more cross regions obtained by detection; expanding a pixel point on regions before and after the cross regions; obtaining a search region on a reference image according to a disparity map; finding out a pixel point with the maximum cross number in the cross regions except a starting point; sequentially specifying horizontal coordinates of a novel matching point of the pixel point as pixel points of the search region; finding out a preselection matching point with minimum difference quadratic sum; correcting a parallex value and determining total cross number in the cross regions after correction; copying a pixel value at the preselection matching point to the pixel point with the maximum cross number on a target image if the total cross number becomes small; performing same treatment on other pixel points with minimum difference quadratic sum on the reference image if the total cross number does not become small until the corrected total cross number becomes small; completing when the total cross number is zero or all pixel points cannot make the total cross number smaller. By determining the cross regions and calculating the minimum total cross number, matching errors can be effectively detected and corrected, and the quality of the target image is improved.
+59. 102176690 Framing searching method of DTMB (Digital Television Terrestrial Multimedia broadcasting)
+CN
+07.09.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201110053167.0
+Panovasic Technology Co., Ltd.
+Liu Guanghui
+H04L 1/00
+Loading...
+The invention relates to a framing searching method of DTMB (Digital Television Terrestrial Multimedia broadcasting), which solves the problems that the conventional method which determines a framing mode by equation calculation and verification consumes lots of system resources and time. The invention provides a simple and fast framing searching method, which cannot make wrong framing decisions in the environment that correct LDPC (Low Density Parity Check Code) decoding is performed, and can greatly reduce the consumption of hardware and time in application and can obviously improve production efficiency. The framing searching method disclosed by the invention is particularly suitable to use in 4QAM-NR or 32QAM digital modulation modes based on DTMB standard. The searching method comprises the following steps: performing frame signal synchronization; framing two successive frames; decoding LDPC block formed by framing; perform framing transformation if a framing mode is wrong; redecoding; and outputting decoded codes or performing power-failure treatment.
+60. 102137056 Method for detecting pseudo noise (PN) sequence phases
+CN
+27.07.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110056436.9
+Panovasic Technology Co., Ltd.
+He Jie
+H04L 27/26
+Loading...
+The invention relates to a method for detecting pseudo noise sequence phases, comprising the following steps: a, obtaining a plurality of continuous position sequences of the maximum correlation peak; b, judging the central point of each position sequence; c, carrying out variance calculation; d, calculating the minimum variance; e, judging whether the minimum variance is correct; and f, outputting frame numbers of PN sequences and generating local PN sequences. The method can be used to quickly and exactly detect the PN sequences in an ideal environment or on the condition of smaller carrier frequency offset, and also can be used to detect the PN sequences in transmission environments of multiple interferences and/or large-scale carrier frequency offset such as white noise, sampling frequency offset, Doppler effect and/or multipath effect and the like. The method can be used to obviously improve the accuracy of detecting the PN sequence phases in practical applications.
+61. 102111241 Method for stopping LDPC iterative decoding in advance
+CN
+29.06.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201110052448.4
+Panovasic Technology Co., Ltd.
+Wu Liangming
+H04L 1/00
+Loading...
+The invention relates to a method for stopping low density parity check (LDPC) iterative decoding in advance. The method comprises the following steps of: a, initiating information; b, updating check nodes; c, updating information nodes; d, assigning a value to an accumulating threshold, and setting an accumulating variable; e, accumulating the confidence levels of the updated information nodes, and assigning the accumulating variable to an accumulated value; and f, judging whether the value of the accumulated variable reaches the accumulating threshold or not, if the accumulating threshold is reached, stopping iterating and outputting information which is subjected to hard decision, and if the accumulating threshold is not reached, iterating to the step b to execute. Aiming at the problem that the conventional LDPC iterative decoding process is too cumbersome so that lots of resources and time are consumed in the process, the method is provided with a strategy of stopping the iterating in advance and is simple to implement, hardware is easy to realize, and few resources are consumed. Decision after the iterating is finished every time almost without delay, and a large amount of time is saved, so that the actual throughput of a system is greatly improved.
+62. 101867701 Device for inhibiting same frequency interferences of DTMB receiver
+CN
+20.10.2010
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+201010190236.8
+University of Electronic Science and Technology of China
+Liu Guanghui
+H04N 5/21
+Loading...
+The invention discloses a device for inhibiting same frequency interferences of a DTMB receiver, which comprises a CCI detector, a CCI notch filter and a selector. The CCI detector receives digital television baseband signals to perform self-correlation operation so as to obtain a correlation value Rrc(n); when a modulus of the CCI detector is more than or equal to a set threshold H0, the same frequency interferences exist; and when the modulus of the CCI detector is smaller than the set threshold H0, the same frequency interferences do not exist. The CCI notch filter receives the digital television baseband signals, filters luminance carriers, color sub-carriers and audio frequency sub-carriers of analog television signals in the baseband signals, and outputs the digital television baseband signals for inhibiting the same frequency interferences; and when the same frequency interferences exist, the selector selects the output of the digital television baseband signal for inhibiting the same frequency interferences, and when the same frequency interferences do not exist, the selector the output of the digital television baseband signals. Because the detection of the same frequency interferences is performed in a time domain, a detection result serves as a selective signal to gate the notch filter or not gate the notch filter, and the notch filtering of the digital television baseband signal is performed in a frequency domain, the detection calculating speed of the same frequency interferences does not influence the communication efficiency.
+63. 101706827 Method for caching file of embedded browser
+CN
+12.05.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910306284.6
+Sichuan Panovasic Co., Ltd.
+Hu Tao
+G06F 17/30
+Loading...
+The invention relates to the field of embedded technology, in particular to a method for caching a file of an embedded browser. The invention discloses a method for caching the file of the embedded browser; and cached files are selectively eliminated, and the response efficiency of the embedded browser is improved as much as possible in a finite storage space. The technical scheme adopts the following key points: a space with a fixed size is pre-allocated for caching all the acquired files locally; when the quantity of the cached files is less tan the cache space, the cached files are not released immediately; and when the cache space is almost full, files which are not used for the longest time are released firstly, and then files which are used most impossibly in the future according to estimation under a certain statistical rule are released. The method has the advantages that: the cached files are effectively eliminated selectively, the response efficiency of the browser is improved, and the method is suitable for the embedded browser.
+64. 101702842 Information management system of mobile equipment
+CN
+05.05.2010
+H04W 88/18 Loading...
+H04W 88/18
+Loading...
+200910310120.0
+Panovasic Co., Ltd.
+Ming Shuang
+H04W 88/18
+Loading...
+The invention relates to the technology of mobile communication. The invention solves the problem that the functions of a calling card and a map inside mobile communication equipment are relatively independent, and provides an information management system of the mobile equipment. The information management system has the technical scheme that the information management system of the mobile equipment consists of a mobile communication network, a client, a calling card management system server and a map server, wherein the client is connected with the calling card management system server by the mobile communication network, and the calling card management system server is connected with a map server. The information management system has the advantages that matching identification is carried out on the map data of the map server and the calling card information of the client by the calling card management server, so that the user can be more visualized when in querying, and the information management system is very convenient and applicable to the mobile communication.
+65. 101701830 Navigation method of navigation terminal
+CN
+05.05.2010
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+200910310668.5
+Panovasic Co., Ltd.
+Li Xia
+G01C 21/34
+Loading...
+The invention relates to information technology. Aiming at solving the problem that traffic rules are not taken into consideration in planning paths by current navigation products, the invention provides a navigation method of a navigation terminal, the technical solution thereof can be summarized as the following steps; first of all, geometric data and one-/two-way attribute data of paths are read one by one from original electronic map data, wherein the geometric data of paths comprises double-sided nodes and sides of the paths, the sides and the double-sided nodes of the paths are numbered and recorded, the read one-/two-way attribute data of paths is matched with the number record one by one and the matched data is recorded, communicative data models for the paths are then established according to the matched data, and at last, path planning is accomplished by means of the combination of the communicative data models for the paths and dijkstra algorithm. The navigation method has the advantages of great convenience for users and good suitability for vehicle navigation products.
+66. 101699859 Method for updating deciphering chip of conditional access system of digital TV
+CN
+28.04.2010
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+200910309279.0
+Sichuan Panovasic Technology Co., Ltd.
+Liu Wei
+H04N 21/418
+Loading...
+The invention relates to the technology of a conditional access system of a digital TV, solves the problem that the cryptographic algorithm of the deciphering chip of the traditional conditional access system of the digital TV is usually singular and fixed, and provides a method for updating the deciphering chip of the conditional access system of the digital TV. The technical scheme comprises that: the EEPROM of the deciphering chip is divided into a sensitive data area, a cipher algorithm area and a common data area, a master control key generating and updating various algorithms and summary, together with a deciphering chip operation system, are together masked on the ROM of the cipher chip, and the confidentiality and the integrity of the master control key and the summary are strictly protected according to a certain safety mechanism so as to construct a deciphering chip updating mechanism; therefore, the deciphering chip can safely and rapidly update a new cryptographic algorithm, a working key and configured data, and the former cryptographic algorithm, working key and configured data are safely destroyed. The method has the advantages of cost saving, and suitability for the deciphering chip of the conditional access system of the digital TV.
+67. 101686381 Digital TV-based method for playing network broadcast media information
+CN
+31.03.2010
+H04N 21/2389 Loading...
+H04N 21/2389
+Loading...
+200910305937.9
+Panovasic Co., Ltd.
+Li Jia
+H04N 21/2389
+Loading...
+The invention relates to the technology of network broadcast media information playing, solves the problem existing in the prior network broadcast playing mode that a user group is heavily limited andprovides a digital TV-based network broadcast media information playing method. The technical scheme of the invention comprises the following steps of: firstly, searching the network broadcast mediaspossibly needed, and importing the search result into a data source management server; secondly, selecting the network certain broadcast medias as required, and importing the network addresses needing to be played into a data collection treating system; thirdly, collecting data streams in the network addresses respectively, transcoding the data streams, packing the transcoded data streams, and sending the data streams to a data transmission system which transmits the packaged data streams to the transmission networks of TV program operators; and finally receiving the packed data streams by auser set-top box terminal, and decoding and playing the data streams by a user set-top box terminal. The playing method has the advantages of increasing user groups and suitably playing the network broadcast media.
+68. 101673240 Method for improving the data loading efficiency of electronic map
+CN
+17.03.2010
+G06F 12/00 Loading...
+G06F 12/00
+Loading...
+200910305377.7
+Sichuan Panovasic Co., Ltd.
+Ming Shuang
+G06F 12/00
+Loading...
+The invention relates to a method for improving the data loading efficiency of an electronic map in an embedded terminal, and the invention discloses a method for improving the data loading efficiencyof the electronic map with the main points of the technical scheme summarized as follows: a. dividing a memory into A and B memory regions; b. saving the element object collection which is loaded inthe previous time in A; c. saving the offset of current element objects needing to be loaded in B; d. judging whether the offset of every element object in A is in B or not, if yes, execute step e, and if not, execute step f; e. deleting the offset of the element object from B, and skipping to step g; f. deleting the element object from A; g. reducing the element object in B; h. adding the elements in B to A; and i. displaying the elements in A. The invention avoids repeated loading and deletion so as to improve the data loading efficiency of an electronic map, and is suitable for an embeddedterminal.
+69. 101673470 Bus electronic stop board system
+CN
+17.03.2010
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+200910306283.1
+Sichuan Panovasic Co., Ltd.
+Wu Dajun
+G08G 1/09
+Loading...
+The invention relates to the technologies of GPS, GPRS mobile communication and GIS navigation, in particular to a bus electronic stop board system which solves the problem that the time to wait for buses is increased for residents because the buses have low punctuality rate in the prior art. The problem can be solved by the technical scheme that the bus electronic stop board system comprises a processor module, a communication module, a storage module, a display module, a power supply module, an auxiliary module and a peripheral interface module, wherein the communication module, the storagemodule, the display module, the power supply module and the peripheral interface module are all connected with the processor module; the auxiliary module is connected with the processor module, and the auxiliary module comprises a temperature sensor and an illumination sensor. The invention has the beneficial effects of informing relevant public traffic information for passengers and providing convenience for taking a bus, and is suitable for bus stops.
+70. 101668201 Mixed processing method of audio-video data and stream control response
+CN
+10.03.2010
+H04N 21/6437 Loading...
+H04N 21/6437
+Loading...
+200910305929.4
+Sichuan Panovasic Co., Ltd.
+Wang Haipeng
+H04N 21/6437
+Loading...
+The invention relates to a streaming media technology, in particular to a mixed processing method of audio-video data and stream control response, which solves the problems of bandwidth waste and system resource occupation brought by single routing of the audio-video data and the stream control response in the prior art. The key points of the technical scheme thereof can be summarized as follows:a client side sends a stream control request to a server; the server receives the stream control request and packs and sends the audio-video data and the stream control response to the client side; the client side judges whether the data packet contains stream control information, if so, the audio-video data and stream control response are separated; then the stream control information is responded, the audio-video data is processed by framing; and finally the framed audio-video data is played. The method saves the bandwidth for transmitting the audio-video data and stream control response information, decreases the system resource occupation, improves the streaming media playing performance, and is applicable to streaming media playing.
+71. 101668112 Method for preventing menu display of set-top box from flickering
+CN
+10.03.2010
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200910305930.7
+Sichuan Panovasic Co., Ltd.
+Wen Jing
+H04N 5/00
+Loading...
+The invention relates to the technical field of television screen display and discloses a method for preventing menu display of a set-top box from flickering, which solves the technical problems of the prior art that as the hardware is adopted to realize flickering prevention, the cost is increased, and the design is complicated. The key points of the technical scheme are as follows: a. selectinga menu page with flickering phenomenon as a debugging object; b1. calculating the RGB value of color of a pixel point needing to be filled; b2. calling character function in the menu display, leadingthe coordinate value of a character having color contrast with character background to offset by one coordinate towards screen edge direction, and painting the character again by adopting the fill color obtained from b1 step; and b3. fine-tuning the RGB value of the fill color, observing the display effect of the menu page until achieving the effect of no flickering phenomenon and natural color transition. The method for preventing menu display of the set-top box from flickering is simple in design, does not need to be equipped with hardware circuit, does not increase cost, and is applicable to the flickering display prevention of the television screen.
+72. 101654176 Flat-panel television packaging structure and processing method thereof
+CN
+24.02.2010
+B65D 85/68 Loading...
+B65D 85/68
+Loading...
+200910306470.X
+Sichuan Panovasic Technology Co., Ltd.
+Wang Peiyi
+B65D 85/68
+Loading...
+The invention discloses a flat-panel television packaging structure capable of improving the package recovery and a processing method thereof. The flat-panel television packaging structure comprises abox body and a buffer pad; a box bottom, a box cover and the buffer pad are in cross cutting and provided with at least one set of paper boards with self-lock structures which are folded to form; thebox cover is provided with a box unpacking strip which is in break point connection with the box cover, a buckle tongue connected to the box unpacking strip and a buckle hole which is arranged at thecorresponding position of the box bottom and used as a self-lock buckle structure to be connected with the box cover and the box bottom; and the formed buffer pad consists of at least two buffer bodies based on the same substrate, wherein at least one buffer body is provided with a hollow structure. The processing method of the flat-panel television packaging structure is used for formed mutually-matched self-lock buckle structures preset on the paper boards which are folded to form the box bottom and the box cover. The flat-panel television packaging structure has simple processing and forming, convenient package, good recovery and good safety for packing the box, accords with environment-friendly trend because of full paper package and is particularly suitable for packaging flat-panel televisions and analogs thereof.
+73. 101648625 Buffer pad of flat display screen
+CN
+17.02.2010
+B65D 81/113 Loading...
+B65D 81/113
+Loading...
+200910307556.4
+Sichuan Panovasic Co., Ltd.
+Zhang Guangrong
+B65D 81/113
+Loading...
+The invention discloses a buffer pad of a flat display screen with lower cost, comprising a pad body and buffer bodies. A buffer accommodating space constructed by buffer bodies is matched with a profile of the panel display screen, planking is arranged at the periphery of the internal side of the pad body, the buffer bodies and at least two support blocks are arranged on the planking, the heightof the support blocks is larger than the height of the buffer bodies in a natural state, and the intensity of the support blocks is greater than the intensity of the buffer bodies. The pad body, the support blocks on the pad body and a positioning unit in the combined structure are made from paper materials, therefore, the invention saves the production cost of the buffer pad of the flat display screen, is favorable for degradation, is more environment friendly and is particularly suitable to be applied to horizontal lamination package of the flat display screen and analogues.
+74. 101651797 Integrated digital television
+CN
+17.02.2010
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200910306245.6
+Sichuan Panovasic Co., Ltd.
+Jia Huidong
+H04N 5/44
+Loading...
+The invention relates to the field of digital televisions. The invention solves the problem that the prior integrated digital televisions do not have expansibility, and provides a integrated digital television and an expansion method thereof. The invention has the technical proposal that the integrated digital television comprises a main unit , a digital television module and an extension module,wherein the digital television module comprises a main interface, an expansion interface and a multi-path signal processing module; the digital television module is connected with the television mainunit by the main interface; the multi-path signal processing module is connected with the expansion interface and the main interface; and the expansion module is connected with the digital televisionmodule by the expansion interface on the digital television module. The integrated digital television is convenient for users, and the expansion method is suitable for integrated digital televisions.
+75. 101646060 Protecting method of data content in storage device
+CN
+10.02.2010
+H04N 21/4623 Loading...
+H04N 21/4623
+Loading...
+200910306593.3
+Sichuan Panovasic Co., Ltd.
+Wu Yongming
+H04N 21/4623
+Loading...
+The invention relates to a technology of a storage device, and solves the problem that the data of the existing storage device is not encrypted and is easy to leak. The invention provides a protectingmethod of data content in the storage device. The technical scheme thereof can be summarized as follows: firstly, an operator front end completes encryption of data content and carries out transformation by a cable television network, then a set-top box end receives the encrypted data content, stores the data content in the storage device, authorizes a CA management system by the operator front end, and judges whether a user intelligent card has the authority for using the encrypted data content, if not, the decryption is not carried out, if so, the CA system carries out interaction with theuser intelligent card by a standard decryption algorithm so as to generate decrypted control words and carry out decryption on the encrypted data content; and finally, the decrypted data content is displayed after being decrypted. The technology of the storage device has the beneficial effects of protecting the benefit of the operator and being applicable to transmission and use of the encrypted data.
+76. 101646016 Method and device for enhancing image
+CN
+10.02.2010
+H04N 5/217 Loading...
+H04N 5/217
+Loading...
+200910306862.6
+Sichuan Panovasic Co., Ltd.
+Shi Qing
+H04N 5/217
+Loading...
+The invention relates to a video image processing technology, more particularly to a method and a device for enhancing image. The invention discloses a method for enhancing image, which enhances the image by simulation technique and settles the problem that enhancing the image by digital technique is liable to lead to image information loss. The technical solution thereof lies in that: a method for enhancing the image comprises the following steps of: a, acquiring original images and then implementing an analysis for grey scale; b, positioning simulative detailed images in the original images;c, amplifying the simulative detailed images processed in the step b and extracting the amplified simulative detailed images; d, subjecting the original images and the simulative detailed images processed in the step C to grey scale mapping to thereby obtain the enhanced images. In addition, the invention further discloses a device for enhancing the image. The invention has the beneficial effectsof: avoiding causing image information loss, enhancing image resolution and adapting to enhance various video images.
+77. 101640861 Wireless identity information communication device
+CN
+03.02.2010
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+200910306591.4
+Sichuan Panovasic Co., Ltd.
+Liu Dong
+H04W 4/12
+Loading...
+The invention relates to a wireless communication technology, in particular to a wireless identity information communication device. The invention discloses a wireless identity information communication device which solves the problems that the information communication mode is not convenient for exchanging freely and has no humanity in the prior art. The wireless identity information communication device adopts the following technical schemes of comprising a control module, a master data storage module, a contact data storage module, an information safety module, a wireless receiving and transmitting module and a display module; the master data storage module, the contact data storage module, the information safety module and the display module are all connected with the control module; and the wireless receiving and transmitting module is connected with the information safety module. The invention has the advantages that the free information exchange can be carried out conveniently,the humanity is achieved, and the device is especially suitable for social intercourse of business persons.
+78. 101635810 Method and system for preventing television advertising interference
+CN
+27.01.2010
+H04N 5/60 Loading...
+H04N 5/60
+Loading...
+200910305612.0
+Sichuan Panovasic Co., Ltd.
+Li Qiang
+H04N 5/60
+Loading...
+The invention relates to the field of radiated television, in particular to a method and a system for preventing television advertising interference. The invention discloses a method and a system for preventing television advertising interference for shielding television advertising and reducing interference for users. The method for preventing television advertising interference comprises the following steps: collecting a sound decibel number and accompanying sound current; comparing the sound decibel number collected this time and the sound decibel number collected last time; if the sound decibel number collected this time is smaller, discarding the sound decibel number collected this time; if the sound decibel number collected this time is 3 decibels or more than 3 decibels larger than the sound decibel number collected last time, controlling a volume control circuit to realize silence effect; next, comparing the accompanying sound current which is newly collected and the accompanying sound current preserved last time; if the accompanying sound current is obviously reduced, restoring normal play and canceling the silence effect; and moreover, the invention also discloses a system for preventing television advertising interference. The method and the system for preventing television advertising interference can prevent television advertising interference for users and are suitable for common families.
+79. 101635803 Method for displaying traditional images on wide screen
+CN
+27.01.2010
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200910305613.5
+Sichuan Panovasic Co., Ltd.
+Guo Wei
+H04N 5/44
+Loading...
+The invention relates to a method for displaying traditional images on a wide screen for solving the problems of image deformation and easy ageing in the prior art. The method for displaying traditional images on a wide screen comprises the following steps: a. dividing an input image into two eudipleural parts; b. dividing each divided part into M areas again, and the M is greater than or equal to 2 and is a positive integral; c. scaling the linear proportion of N areas in a left half part and a right half part near an image center in a horizontal direction, and the N is greater than or equal to 2 and is an even number; d, scaling other areas in different proportions according to user requirements in the horizontal direction; e. retaining the unchanged effect of the horizontal direction, and after the image is cut in a definite proportion in a vertical direction, linearly stretching the image with the residual proportion to the height of a screen to display. The method for displaying traditional images on the wide screen can improve the visual effect, avoid accelerated screen aging and is especially suitable for displaying traditional signals on a wide screen.
+80. 101621693 Frame frequency lifting method for combining target partition and irregular block compensation
+CN
+06.01.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910104522.5
+Chongqing University
+Tian Fengchun
+H04N 7/26
+Loading...
+The invention discloses a frame frequency lifting method for combining target partition and irregular block compensation, which is characterized by comprising the following steps that: firstly, establishing a blank frame to be inserted; secondly, sampling a reference frame and the blank frame to be inserted; thirdly, calculating the frame difference between the reference frame and the blank frame to obtain a moving target outline and a moving target area mask by applying the morphological method; fourthly, partitioning the two reference frames into a target area and a background area; fifthly, moving and estimating subarea processing to obtain an initial motion vector; sixthly, smoothening the obtained initial motion vector; seventhly, trimming the initial motion vector after being smoothened to obtain a more accurate motion vector; eighthly, calculating the compensation weight coefficient Mu; ninthly, partitioning the block into a high relevant area and a low relevant area; tenthly, compensating subarea processing; and eleventhly, generating an interpolated frame. The method can be widely applied to the technical fields of video coding and encoding and video processing.
+81. 101552759 Transmission mode detection device
+CN
+07.10.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910059253.5
+Sichuan Panovasic Co., Ltd.
+Shu Yong
+H04L 27/26
+Loading...
+The invention discloses a transmission mode detection device, comprising multiple parallel relative detectors for performing autocorrelation operation to DAB signal in a manner of circulating prefix correlation length under corresponding transmission mode and sending out relative signals; the multiple parallel frequency detectors are used for multiplying and low-pass filtering sinusoidal signal and cosine signal that are identical in correlation peak frequency under corresponding transmission mode and sending out sinusoidal product relative signal and cosine product relative signal; an accumulating and transmission mode judging module is adopted to accumulate the sinusoidal product relative signal and cosine product relative signal for a certain period, performing square operation and summing operation to the sinusoidal product relative signal and cosine product relative signal to obtain relative values of various relative signals, the maximal relative signal of which is transmission mode of DAB signal corresponding to the transmission mode; when the relative signals have relative peak, the corresponding relative values increase continuously and then they are expected to be greatly greater than that of unmatched signals after a certain period; thus, the invention can accurately judge transmission mode of DAB signal.
+82. 101552760 Method for detecting empty symbol
+CN
+07.10.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910059254.X
+Sichuan Panovasic Co., Ltd.
+Shu Yong
+H04L 27/26
+Loading...
+The invention discloses a method for detecting empty symbol, which detects empty symbol through DAB signal energy, and generates transmission mode through present empty symbol to determine periodical template signals during empty symbol period and data period, for coarse synchronization of receiver time reference to OFDM identifier, if width difference value between present empty symbol and next empty symbol and time difference value between next empty symbol and template signal corresponding empty symbol are less than set threshold value, judging as time domain frame head that captures DAB signal, entering synchronization condition of the time domain frame head to trace. Judgment of the empty symbol is done after obtaining transmission mode, error detection probability is reduced. The invention greatly improves accuracy of DAB signal empty symbol detection under low signal-to-noise ratio environment and effectively prevents production of error detection.
+83. 101527607 DAB channel decoding device
+CN
+09.09.2009
+H04H 40/27 Loading...
+H04H 40/27
+Loading...
+200910059023.9
+Panovasic Co., Ltd.
+Zou Jianxiu
+H04H 40/27
+Loading...
+The invention discloses a DAB channel decoding device. A channel decoding module carries out deconvolution coding and de-energy diffusion on FIC channel data to obtain a complete MCI list; a user-selected program MCI list generation module is used for selecting the complete MCI list according to a program selected by the user so as to generate an MCI list corresponding to the program selected by the user; and a de-time interlacing data selection module selects corresponding subchannel data from MSC channel data according to the MCI list corresponding to the program selected by the user into the channel decoding module to carry out de-time interlacing, the deconvolution coding and the de-energy diffusion so as to obtain user-selected program channel decoding data, and transmits the user selected program channel decoding data to a subsequent information source decoding module. The channel decoding module only carries out channel decoding on the subchannel data corresponding to the program selected by the user, instead of on the subchannel data corresponding programs which are not selected by the user, so that the processing operation amount of the channel decoding device can be greatly reduced.
+84. 101527038 Improved method for enhancing picture contrast based on histogram
+CN
+09.09.2009
+G06T 5/40 Loading...
+G06T 5/40
+Loading...
+200910058814.X
+Panovasic Co., Ltd.
+Yang Dong
+G06T 5/40
+Loading...
+The invention discloses an improved method for enhancing picture contrast based on histogram, comprising the following steps of: dividing picture gray into a plurality of gray levels and accumulating the pixel dimensions of each gray level; valuing for picture gray (gamma) in the range of (0, 1); gamma converting the pixel dimensions of each gray level by gamma value to obtain the converted pixel dimensions of each gray level; and treating the pixel dimensions of each gray level which is obtained by gamma converting in a way of traditional histogram equalization to obtain output picture with enhanced contrast. When the gamma is valued as (0, 1), gamma function conversion reduces larger value in histogram probability distribution so as to enlarge lower value without causing the larger value to be less than the lower value. Therefore, the excessive stretching of large probability gray level and the excessive compression of small probability gray level can be reduced, meanwhile, the contrast is improved. Namely, the degree of the histogram equalization can be adjusted by adjusting gamma value.
+85. 101521821 Fast fractional pixel motion searching method based on single-sided principle
+CN
+02.09.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910301488.0
+Panovasic Co., Ltd.
+Fang Chun
+H04N 7/26
+Loading...
+The invention relates to a video coding technique, in particular to a fast fractional pixel motion searching method based on a single-sided principle in the video coding technique. The fast fractional pixel motion searching method based on the single-sided principle guarantees the motion searching precision and also decreases detection points to increase the speed of a coder. The technical scheme of the invention is as follows: the detection directions and the detection sequences of 1/2 pixel are judged by the error values of other integral pixels around an optimally integral pixel, and after the optimal 1/2 pixel is detected, the detection directions and the detection sequences of 1/4 pixel are judged by the error values of other 1/2 pixels so as to detect an optimal 1/4 pixel. The invention guarantees the precision of motion search, also decreases the detection points and achieves 1/4 pixel precision by averagely detecting less than eight points, thereby enhancing the coding efficiency. The invention is suitable for fast video coding.
+86. 101521822 Rapid fraction movement searching method
+CN
+02.09.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910301588.3
+Panovasic Co., Ltd.
+Fang Chun
+H04N 7/26
+Loading...
+The invention belongs to video coding technique, particularly relates to a H.264 interframe fractional movement searching method. The invention provides a rapid fraction movement searching method based on integer movement vector, which is characterized in that the priority level of a pixel point to be searched is determined according to the error value of a detected point and a movement vector of the previous movement searching, and the pixel point with higher priority level is more likely to become the optimum point; the optimum point can be searched as quickly as possible by perform movement searching according to the priority level of each pixel point, and a great amount of points unlikely to become the optimum are excluded, thereby detection points are reduced and the movement searching speed is improved. Compared with full searching method, the invention reduces the detection points by about 60 percent averagely, thereby greatly improving the coding speed.
+87. 101510305 Improved self-adapting histogram equilibrium method
+CN
+19.08.2009
+G06T 5/40 Loading...
+G06T 5/40
+Loading...
+200810147864.0
+Panovasic Co., Ltd.
+Li Huiran
+G06T 5/40
+Loading...
+The invention discloses an improved self-adaptive histogram equalization method. By finding a dividing gray scale which divides the total number of pixels of each sub-image block into a proximate half, and counting the the total number of the pixels in both high light areas and low light areas of the images, the adjusting parameters of the high light areas and low light areas of the images are calculated, and sub-image blocks are divided into high light areas and low light areas and then respectively subjected to histogram equalization, thereby effectively solving the problems of noise diffusion and texture merging.
+88. 101511031 Method for Bayer Data interplation
+CN
+19.08.2009
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200810147863.6
+Panovasic Co., Ltd.
+Li Huiran
+H04N 9/64
+Loading...
+The invention discloses a method used for Bayer Data interpolation which includes steps as follows: calculating gradient value on three directions through R or B component contained by a present pixel point, selecting a pixel point containing G component on one side with minitype edge difference value of two edge direction sides for restoring G component of the present pixel point. The method solves problem of rough edge transition caused by bilinear interpolation. The method can restore lack B or R component in the present pixel point for avoiding color distortion of gradient color bilinear interpolation caused by mistake judgement.
+89. 101510306 Estimation method for video image illumination distribution
+CN
+19.08.2009
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+200810147862.1
+Panovasic Co., Ltd.
+Yuan Zijin
+G06T 7/00
+Loading...
+The invention discloses an illumination distribution evaluation method of a video image, comprising the steps as follows: by gradient screening, the gradient vector influence on a part where a gradient magnitude is larger than a gradient threshold value or on edges is eliminated; and an illumination image reconstruction is carried out to a gradient vector image after screening so as to obtain an illumination image, thereby effectively eliminating the influence on the statistics of image illumination distribution, which is caused by the serious change of reflectivity of a scene surface, and accurately evaluating the characteristics and distribution change of light source illumination in a video collecting scene. The illumination distribution evaluation method can be combined with subsequent image enhancement processing such as histogram equalization, gamut mapping, gamma correction and the like, thereby achieving the effect of enhancing the video image quality.
+90. WO/2009/097714 DEPTH SEARCHING METHOD AND DEPTH ESTIMATING METHOD FOR MULTI-VIEWING ANGLE VIDEO IMAGE
+WO
+13.08.2009
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+PCT/CN2008/072141
+PANOVASIC TECHNOLOGY CO., LTD.
+ZHANG, Xiaoyun
+G06T 7/00
+Loading...
+A depth searching method for a multi-viewing angle video image is disclosed. The method involves dynamically adjusting searching step sizes in a depth searching range according to a current depth value so that each of the searching step sizes is corresponding to a same pixel searching accuracy. A depth estimating method for a multi-viewing angle video image is disclosed. The method involves dynamically adjusting each of the searching step sizes in a depth searching range in using a view synthesizing based on depths and a depth searching based on block matching.
+91. 101488219 Fast video image bilateral filtering method
+CN
+22.07.2009
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+200810147922.X
+Sichuan Panovasic Technology Co., Ltd.
+Yuan Zijin
+G06T 5/00
+Loading...
+The invention discloses a method for quick two-sided filtering for a video image, which is realized by decomposing a filter sliding window into a plurality of overlapped constant space filtering planes, while simultaneously carrying out histogram statistics of pixel density values for each constant space filtering plane, and processing a pixel value domain filtering by conventional weighted sum based on a histogram statistic result. As per-pixel computation for filtering kernel coefficient on the pixel value domain is not necessary, the filter processing time complexity is remarkably reduced. Based on accumulated histogram computation, a histogram of the sliding window is updated by a per-pixel scanning mode, rather than constructing an independent histogram for each filter processing pixel, thus avoiding complexity of statistical calculation for large amount of histograms.
+92. 101488940 Integer frequency offset detection method and apparatus for digital receiver
+CN
+22.07.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910300773.0
+Sichuan Panovasic Technology Co., Ltd.
+Wu Liangming
+H04L 27/26
+Loading...
+This invention refers to a detection method and a device of digital receiving machine integral multiple frequency deviation. This invention discloses a detection method and a device of digital receiving machine integral multiple frequency deviation with high efficiency aiming to the problems of long searching time and large calculation amount of the integral multiple frequency deviation detection in the current technology. The detection method of digital receiving machine integral multiple frequency deviation comprises following steps: a, performing a difference calculation to a time domain OFDM data after passing a FFT module; b, performing model solving and accumulation to the difference result; c, detecting deviation post of high energy region in an empty carrier wave region so as to acquire the range of integral multiple frequency deviation; d, inputting the range of integral multiple frequency deviation into a PRS detector, when detecting that the PRS is effective, then searching in the range and acquiring the accurate integral multiple frequency deviation. In addition, this invention further discloses a detection device using the detection method. Using this method greatly reduces the searching time, saves the operation amount, improve the detection efficiency. And this invention is suitable for the detection of the digital receiving machine integral multiple frequency deviation.
+93. 101488218 Image self-adapting airspace homographic filtering method
+CN
+22.07.2009
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+200810147921.5
+Sichuan Panovasic Technology Co., Ltd.
+Li Huiran
+G06T 5/00
+Loading...
+The invention discloses a self-adapting empty domain homomorphic filtering method for an image, which carries out low-pass filtering on a luminance and grey scale image to obtain low-pass information so as to obtain high-pass information by taking the logarithm of the a luminance value of a pixel point and then subtracting a low-pass signal, and then obtain the luminance value after empty domain homomorphic filtering through exponent arithmetic. Two parameters alpha and beta in extraction of self-adapting high-pass information are changed along with self-adapting of the low-pass information, therefore, the method utilizes the low-pass information of the image to self-adaptively extract the high-pass information on an empty domain to avoid error of the current empty domain homomorphic filtering caused by linear processing.
+94. 101489034 Method for video image noise estimation and elimination
+CN
+22.07.2009
+H04N 5/217 Loading...
+H04N 5/217
+Loading...
+200810147923.4
+Sichuan Panovasic Technology Co., Ltd.
+Yuan Zijin
+H04N 5/217
+Loading...
+The invention discloses a video image noise estimation and removal method comprising: dividing a current color channel gray image and corresponding important edge image into a plurality of sub blocks, banishing blocks containing too much edge information, ensuring the statistical basic sub blocks to well anastomose a real noise variance level, thereby preserving an original feature details of the video image as much as possible at the same time of noise removal.
+95. 101483745 Video mode recognition method based on edge detection
+CN
+15.07.2009
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200810306442.3
+Sichuan Panovasic Technology Co., Ltd.
+Chen Tao
+H04N 7/01
+Loading...
+The invention relates to a method to identify whether an input video is a 3:2 pull-down movie mode or a common interlaced scanning video. The invention discloses a video mode identifying method based on edge detection aiming at deficiency of low accuracy of prior art. It identifies the video mode by using the edge detection technology according to the 3:2 pull-down movie mode characteristic. The invention detects the movie mode based on an idea that edge displacement is generated by movement, which can accurately differentiate whether the video is a 3:2 pull-down movie mode or a common interlaced scanning video. The invention has great noise disturb resisting characteristic, which can switch rapidly from the movie mode to the non movie mode. It is applied to de-interlacing video mode identifying field.
+96. 101483747 Movement detection method suitable for deinterlacing technique
+CN
+15.07.2009
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200810306450.8
+Sichuan Panovasic Technology Co., Ltd.
+Xu Huibo
+H04N 7/01
+Loading...
+The invention relates to a method of motion detection section of de-interlacing technology. Technical problem to be solved of the invention is to provide a motion detection method with more accurate adaptive algorithm. A method applied for motion detection section of de-interlacing technology comprises steps of: a, setting a motion threshold T1 and a stillness threshold T2; b, calculating a first field difference, a second field difference and a frame difference; c, using a maximal value of the first field difference, second field difference and frame difference as a motion parameter; d, judging whether the motion parameter is more than the T1,if so, motion detection result of interpolation point to be detected is moving state; if not, judging whether the motion parameter is less than the T2, if so, motion detection result of interpolation point to be detected is still state, if not, motion detection result of interpolation point to be detected is between motion and still states. The invention takes adequate consideration of motion detection condition, which avoids misjudge and emissive judgement in the motion detection process to improve definition of picture.
+97. 101483746 Deinterlacing method based on movement detection
+CN
+15.07.2009
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200810306449.5
+Sichuan Panovasic Technology Co., Ltd.
+Xu Huibo
+H04N 7/01
+Loading...
+The invention relates to a time-space domain multi-field related de-interlacing technology, which is convenient to realize by hardware. The invention provides a de-interlacing method with time-space domain information based on a movement adaptive algorithm. Different from moving state directed by an ordinary movement adaptive algorithm, that is field-in interpolation, the invention still searches for related points in a small scale of adjacent fields when it judges that it is in the moving state. It further determines specific interpolation method of next step by comparison with a predetermined value. The predetermined value ensures inter-field direction correlation of current field enough, which makes inter-field pixel points with large direction correlation participate interpolation calculation. It consumes less hardware resources compared with various search algorithms of movement compensation and is added with time domain information compared with movement adaptation, which makes the interpolation result in movement condition have time continuity. It uses peripheral point information to calculate, which overcomes effect of noise to mono-point operation and improves movement interpolation accuracy.
+98. 101483790 Movie mode video signal detection method
+CN
+15.07.2009
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200810306453.1
+Sichuan Panovasic Technology Co., Ltd.
+Liu Qiang
+H04N 17/00
+Loading...
+The invention, relating to a method of recognizing whether an input video is a 3:2 drop-down film mode or a common interlacing scan video, claims a method for detecting video signals in film mode, aiming at the defects of fixed threshold in existing technology, un-adaptation of video with great fluctuation of field difference and the existence of video signals with a little movement information. The method for detecting film modes of the invention is based on that every seven continuous input fields of the interlacing signals in film mode all contain a pair of copying fields which are totally the same in theory; a 5bits sequence is obtained by counting diversity of a field difference which is the nearest to the homopolar filed in the seven continuous fields; the sequence is compared with a standard sequence group in film mode; current field is judged to be the video filed in film mode if they are the same, otherwise, current field is judged to be a filed not in film mode. The invention is mainly used in de-interlacing process field of television signals.
+99. 101478689 Image irradiation correcting system based on color domain mapping
+CN
+08.07.2009
+H04N 9/77 Loading...
+H04N 9/77
+Loading...
+200810147787.9
+Panovasic Co., Ltd.
+Wu Yadong
+H04N 9/77
+Loading...
+The present invention discloses an image illumination correcting system based on color gamut mapping. The brightness signal of input image and R, G, B signals after color space decomposition are separated and processed. Then, the brightness value of brightness signal obtained by brightness adjustment is multiplied by the R separation color signal, G separation color signal and B separation color signal after color space decomposition for recovering and obtaining image after illumination correction. The novel color space decomposition and brightness adjusting can better retain the color of original image while the picture contrast is increased and the noise of image is not increased. Simultaneously, the illumination correcting system adopted by the invention strengthens the dark-light part and suppresses the high-light part in a brightness adjusting calculating module. The image containing high-light and dark-light can be processed.
+100. 101478690 Image irradiation correcting method based on color domain mapping
+CN
+08.07.2009
+H04N 9/77 Loading...
+H04N 9/77
+Loading...
+200810147788.3
+Panovasic Co., Ltd.
+Wu Yadong
+H04N 9/77
+Loading...
+The present invention discloses an image illumination correcting method based on color gamut mapping. The brightness of input image and R, G, B values after color space decomposition are separated and processed. Then, the brightness obtained by brightness enhancement calculation is multiplied by the R, G, B values after color space decomposition for restoring the image after illumination correction. The color space decomposition and brightness enhancement can increase the image contrast, better retains the color of original image and does not increase the noise of image. Simultaneously the illumination correction method adopted by the invention processes based on the pixel of image. The image switching and counting of image information are not required. The computing complexity is reduced and the hardware realization of the method is facilitated. Additionally, a complementary operation of image is adopted for high-brightness illumination environment so that the brightness enhancement operation has better versatility and can simultaneously process a plurality of complex illumination conditions.
+101. 101478676 Method for B frame code rate controlling
+CN
+08.07.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810147789.8
+Panovasic Co., Ltd.
+Fang Chun
+H04N 7/26
+Loading...
+The present invention discloses a method for controlling B-frame code rate. In the video coding process, when the B frame in the video image group is coded, a quantified parameter threshold TQP is firstly set, and then the quantified parameter difference DQP used for I frame and P frame or two continuous P frame is calculated. Then comparison between quantified parameter threshold TQP and quantified parameter difference DQP is executed. If the absolute value of quantified parameter difference DQP is less than quantified parameter threshold TQP, a QP calculation method which guarantees the smoothness of video quality is adopted for calculating the B-frame quantified parameter BQP. If the absolute value of quantified parameter difference DQP is larger than quantified parameter threshold TQP, a QP calculation method which guarantees the smooth capability of data in the buffer area is adopted for calculating the B-frame quantified parameter BQP. Thus the QP calculating method which guarantees the smooth video quality is adopted when the variation of QP of P frame is smooth. The QP calculating method which guarantees the smoothness of data capability in the buffer area is adopted when variation of QP of P frame is furious. Thus a better compromise is realized between the smoothness of video quality at the decoding end and the smoothness of data capacity of buffer area at the encoding end.
+102. 101448077 Self-adapting video image 3D denoise method
+CN
+03.06.2009
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+200810148033.5
+Panovasic Co., Ltd.
+Tian Fengchun
+H04N 5/21
+Loading...
+The invention discloses a self-adapting video image 3D denoise method. In the invention, noise standard deviation of real-time tracking video sequence is changed and motion estimation is then carried out after down-sampling so that not only is the influence of noise reduced but also the amount of calculation is greatly reduced and the motion intensity of matching micro blocks can be accurately ensured, for self-adaptively selecting time-domain filtering or air-domain filtering of current macro block; two-sided filtering is adopted in air-domain filtering, which can better reserve video content details with stronger motion intensity; front and back frames are adopted as reference frames which has better overcoming effect for exposure and shelter effects. The total method has smaller amount of calculation and good stability, which can efficiently improve signal to noise ratio and subjectively visual quality of digital video sequence and is very applied to real-time digital video sequence denoise.
+103. 101442648 Field interpolation method
+CN
+27.05.2009
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200810306388.2
+Sichuan Panovasic Technology Co., Ltd.
+Liu Qiang
+H04N 7/01
+Loading...
+The invention relates to video processing technology, in particular to technology of converting an interlaced video signal to a progressive video. The invention provides a field interpolation method which considers more angle pixel correlation to determine the interpolation direction and can eliminate the noise of isolated points, and a reference angle has nine directions which are divided into four small angle directions and five adjacent directions. In certain areas with small gap of pixel correlation, if a small angle is selected for interpolation, noise spots can be introduced into the area, so a small angle factor can not be considered to select the direction with maximum pixel correlation from the five adjacent directions for the interpolation as long as the pixel correlation of the adjacent directions achieves a first preset value; if the small angle is considered, whether the pixel correlation of a direction of an supplementary angle of the small angle is less than a second preset value also needs to be judged, if yes, the small angle is selected and if not so, the direction with the maximum pixel correlation is selected from the five adjacent directions for the interpolation. The video processing technology can obtain an interpolation result with smooth edges and flicker-free details.
+104. 101437137 Field interpolation method
+CN
+20.05.2009
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+200810306378.9
+Sichuan Panovasic Technology Co., Ltd.
+Liu Qiang
+H04N 7/01
+Loading...
+The invention relates to video processing technology. The technical problem to be solved is to provide a field interpolation method for determining interpolation direction by considering more angle pixel correlations and eliminating isolated point noise. The reference angle of the invention picks up nine directions, namely four small angle directions and five adjacent directions. If a small angle is chosen for interpolation in certain areas with small pixel correlation difference, noise points can be introduced to the area. Therefore, as long as the pixel correlation in adjacent directions achieves a first preset value, the small angle factor can not be considered to interpolate in the largest pixel correlation in five adjacent directions. If the small angle is considered, whether the pixel correlation of the supplementary angle of the small angle is smaller than a second preset value is determined, if yes, the small angle is selected; and if not, the largest pixel correlation direction in the five adjacent directions is chosen for interpolation. The method can acquire results of smooth edges and flicker-free details.
+105. 101425794 Digital filter with fixed coefficient
+CN
+06.05.2009
+H03H 17/02 Loading...
+H03H 17/02
+Loading...
+200810305790.9
+Sichuan Panovasic Technology Co., Ltd.
+Wang Zhihui
+H03H 17/02
+Loading...
+The invention relates to a digital filer and provides a fixed coefficient digital filer which saves more resources and comprises a delaying queue and a summer. The fixed coefficient digital filer is characterized by also comprising an identical entry calculator. The delay queue is respectively connected with the identical entry calculator and the summer, the identical entry calculator is also connected with the summer, and the delay queue is used for delaying an input signal to obtain each delay value. The identical entry calculator is used for extracting the delay value corresponding to each identical entry from the delay queue to carry out addition or subtraction operation to obtain a part sum corresponding to each identical entry according to the coefficient CSD encoding rule. The summer is used for carrying out the shift summing operation to the part sum of each common entry and the delay value of the non-common entry according to indexes in coefficient CSD codes and outputting the result of the shift summing operation as filtration. The invention can further reduce the consumption of the adder of the fixed coefficient digital filter without a multiplier and save occupied resources.
+106. 101404777 Drafting view synthesizing method based on depth image
+CN
+08.04.2009
+H04N 15/00 Loading...
+H04N 15/00
+Loading...
+200810046470.6
+Sichuan Panovasic Technology Co., Ltd.
+Liu Ran
+H04N 15/00
+Loading...
+The invention discloses a view synthetic method based on the drawing of a depth image. The method comprises that firstly, the depth image is smoothed; and then the three-dimensional image transformation is carried out twice; the first transformation uses a smoothed depth image to obtain an object image comprising a smaller hollow space; the second transformation uses an original depth image to obtain an object image comprising a larger hollow space; then, the two object images are blended based on the object image obtained in the second transformation; hallow space padding is carried out on the object image obtained in blending. The method is characterized in that a zero-one matrix corresponding to the object image is maintained from beginning to end in the process of video synthesis for pointing out whether a certain point in the object image is a hollow point or not; the three-dimensional image transformation is carried out twice in the process of view synthesis, thus guaranteeing that the quality of the image in a non-hollow area is not reduced while the hollow space is eliminated and the authenticity of the image is reserved as far as possible.
+107. 101404774 Macro-block partition mode selection method in movement search
+CN
+08.04.2009
+H04N 7/32 Loading...
+H04N 7/32
+Loading...
+200810305538.8
+Sichuan Panovasic Technology Co., Ltd.
+Fang Chun
+H04N 7/32
+Loading...
+The invention belongs to video encoding technology, in particular to an interframe fractional order movement searching method of H.264. The invention solves the technical problem that a selection method of a macro partition mode can rapidly partition a macro block in the movement searching. The selection method of the macro partition mode in the movement searching uses a threshold valve to judge SAD value of a partitioned block, thus judging matching degree of a block in the current mode; if the partitioned block has higher matching degree in the current mode, other modal partitions are not carried out on the partitioned block so as to reduce quantity of selection of the macro block partition mode; if the partitioned block has lower matching degree in the current mode, other modal partitions are carried out on the partitioned blocked so as to guarantee interframe precision of prediction. The invention can effectively reduce quantity of selection of the macro block partition selection mode and movement searching times of the block, thus improving arithmetic speed of an encoder.
+108. 101388967 Gap filling method for view synthesis
+CN
+18.03.2009
+H04N 5/262 Loading...
+H04N 5/262
+Loading...
+200810046313.5
+Sichuan Panovasic Technology Co., Ltd.
+Liu Ran
+H04N 5/262
+Loading...
+The invention discloses an empty filling method used in view composing which belongs to adjacent pixel interpolation method adapted for filling the lesser empties after the view composing is finished. The method in the invention comprises: firstly, filling the empty points in the 4 adjacent pixels set whose non-empty pixel is not less than the current cycle field value; searching again for the empty points in the 4 adjacent pixels set all of whose pixel is non-empty after filling out each cycle of empty points to start another cycle of filling until all the empty points are filled, and acquiring the final composed view. The invention is characterized in using the 0-1 matrix acquired in the view composing course to record which point is empty point in the composed view, consequently, can distinguish out the real empty accurately, and saves calculation quantity. Besides, the invention always interpolates the empty points which have more non-empty in the filling points in the filling course to ensure that the pixel value used for filling is close to the real value.
+109. 101383051 View synthesizing method based on image re-projection
+CN
+11.03.2009
+G06T 15/20 Loading...
+G06T 15/20
+Loading...
+200810046181.6
+Sichuan Panovasic Technology Co., Ltd.
+Liu Ran
+G06T 15/20
+Loading...
+The invention discloses a view synthetic method based on image re-projection, which is suitable for synthesizing a virtual view when video cameras rotate around an optical center. In the invention, the two video cameras are used to shot the same scene at different viewpoints so as to obtain two reference images; firstly, a homographic matrix and one reference image are utilized to synthesize a part of a target image, and then a three-dimensional image transformation technology is utilized to synthesize the rest of the target image according to the other reference image so as to obtain the target image. The invention is characterized in that the target view is divided into two parts to be synthesized, the synthesis of one part utilizes the good properties of the homographic matrix to a great extent to improve the quality of the synthesized view; meanwhile, the synthesis of the other part adopts the three-dimensional image transformation technology to generate the rest of the target image so as to realize the synthesis of the virtual view by the video cameras rotating around the optical center.
+110. 101355393 FFT processor for digital audio broadcasting receiver
+CN
+28.01.2009
+H04H 40/18 Loading...
+H04H 40/18
+Loading...
+200810045969.5
+Panovasic Co., Ltd.
+Huo Yongqing
+H04H 40/18
+Loading...
+The invention discloses an FFT processor for a digital audio frequency broadcasting receiver. In the FFT processor of the invention, DAB signals with different lengths, namely the input data of the FFT processor, are supplemented to be 4096 points meeting the 4 length in a simple zeroing mode, and by utilizing the same length, namely the FFT unit with the length of the 4096 point conducts the FFT calculation on the 4096 point data generated by the zeroing, and according to the logical derivation relation, the FFT result of the input data length is acquired from the FFT calculation result; therefore, by utilizing the same length, namely the FFT unit with the length of the 4096 point, the FFT calculation of the input data with a plurality of length modes of 2048, 512, 256 and 1024 length is realized, thereby simplifying the realizing complexity of the FFT algorithm.
+111. 101354700 Butterfly-shaped operation FFT processor
+CN
+28.01.2009
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200810046075.8
+Panovasic Co., Ltd.
+Huo Yongqing
+G06F 17/14
+Loading...
+The invention discloses a butterfly computation FFT processor, wherein a complex multiplier used for realizing multiplication of data and a rotation factor is a CORDIC rotation operator, and the rotation angle corresponding to the rotation factor is stored into a rotation factor memory. The butterfly computation FFT processor adopts the CORDIC rotation algorithm to realize multiplication operation of the data and the rotation factor and then uses data shift to replace complex multiplication operation, thereby reducing the computation complexity. Simultaneously, due to adoption of the CORDIC rotation algorithm to realize complex multiplication, only the rotation angle corresponding to the rotation factor is required to be stored into the rotation factor memory without the necessity of storing the sine value and the cosine value of a corresponding angle of the rotation factor, thereby a rotation factor memory unit can be saved and the reading complexity of the rotation factor is reduced.
+112. 101354701 FFT processor implementing base 4FFT/IFFT operation
+CN
+28.01.2009
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200810046076.2
+Panovasic Co., Ltd.
+Huo Yongqing
+G06F 17/14
+Loading...
+The invention discloses an FFT processor for realizing radix 4 FFT/IFFT calculation, comprising an FFT butterfly computation unit, a data memory and a data switching unit which is used for receiving four points of computed result data outputted by the FFT butterfly computation unit; if IFFT computation is performed, the data switching unit works, switches second-point data and fourth-point data in the four points of computed result data, and stores the computed result data after switching into the data memory; and if FFT computation is performed, the data switching unit does not works and the four points of computed result data do not undergo data switching, and then the FFT butterfly computation unit directly stores the four points of the computed result data into the data memory. In the FFT processor for realizing radix 4 FFT/IFFT calculation, the same FFT butterfly computation unit is used for realizing the FFT computation and the IFFT computation, thereby not only the hardware design is simplified but also the chip area is reduced; and most importantly, the FFT computation and the IFFT computation can be realized on the same FFT processor.
+113. 101340280 Stream cipher generator
+CN
+07.01.2009
+H04L 9/18 Loading...
+H04L 9/18
+Loading...
+200810045867.3
+Sichuan Panovasic Technology Co., Ltd.
+Zhu Zhengmei
+H04L 9/18
+Loading...
+The invention discloses a stream cipher generator; wherein, in the present framework, a first module of a linear transformation module F is used for compression transformation of numbers read by a state reading list module A, B and C and output numbers of the linear transformation module F and outputting the numbers which are suitable for input by a second module; the second module comprises a non-reversible linear transformation module and two S boxes which are connected in parallel and the numbers input from the first module is output after being transformed in the non-reversible linear transformation module; the location of the numbers input from the first module is selected as the input of the two S boxes, in which table search transformation is carried out, and the output thereof is combined with the output of the non-reversible linear transformation module as the output of the linear transformation module F; the S boxes randomly generate an S box pool and the S box pool is obtained by optimal selecting by analyzing the cipher characteristics with an evolutionary algorithm. The cipher characteristics of the S boxes of the invention are greatly improved, and the S boxes with high security intensity are obtained so as to improve the security intensity of the stream cipher generator.
+114. 101325724 Method for correcting polar line of stereoscopic picture pair
+CN
+17.12.2008
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+200810045622.0
+Sichuan Panovasic Technology Co., Ltd.
+Liu Ran
+H04N 13/00
+Loading...
+This invention discloses a polar regulating method for vertical image pair, comprising following steps: utilizing the matched point to calculate out a basic matrix and respective polar points of two images, then calculating the coordinate of the depth rotary shaft of the second image, converting proportion and translational magnitude, all of which are used as the initial value with the coordinate of the polar point of the image pair, adopting the nonlinear least square to optimize so as to obtain the optimum value; calculating out the respective projection change matrixes of two images, then converting so as to obtain the regulated vertical image pair. The optimum parameters of this invention are reduced to at least seven from at least ten of the traditional method so as to save the calculated amount. At the same time, the initial value of parameters is calculated out by the method completely based on the matrix, which ensures the precision of the initial value so as to conquer the sensitive defect to the initial value when optimized. Because the nonlinearity optimization is executed after the initial value of parameters is obtained, compared with the method completely based on the matrix, this invention does not excessively depend on the precision of the matrix.
+115. 101309424 Quick movement estimating method
+CN
+19.11.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810302541.4
+Sichuan Panovasic Technology Co., Ltd.
+Mo Qihui
+H04N 7/26
+Loading...
+The invention relates to a video compression technology, in particular to a fast motion estimating method. The invention provides a motion estimating method which can reduce the possibility that the local optimum is involved and can not be influence the signal noise ratio of the image basically. The video compression technology adopts the technical proposal that the fast motion estimating method comprises the following steps: firstly, the probability that the motion vector of the block in the image is equal to a predictive motion vector are equal can be counted; secondly, when the motion vector is detected, the predictive motion vector can be detected in sequence from the large vector to the small vector according the counted probability in the first step; thirdly, the termination judgment can performed to the motion searching by adopting a valve value. By the adoption of the fast motion estimating method, the unnecessary searching can be reduced, the searching efficiency can be enhanced, and the fast motion estimating method can be suitable for the high-definition video encoding and the real-time encoding.
+116. 101309379 Digital television picture-in-picture implementing method
+CN
+19.11.2008
+H04N 5/45 Loading...
+H04N 5/45
+Loading...
+200810301811.X
+Sichuan Panovasic Technology Co., Ltd.
+George.L.Young
+H04N 5/45
+Loading...
+The invention relates to the digital television technology and provides an implementation method of the picture in picture of the digital television; the technical proposal of the implementation method includes that the implementation method of the picture in picture of the digital television is characterized in that the steps include a. the sub picture channel signal and the main picture channel signal are received; b. the main picture channel signal is decoded and displayed as the main picture of the picture in picture; c. the image of the current sub picture channel signal is detected if the image is the intraframe encoding image; if the image is not the intraframe encoding image, the method switches to the step d; if so, the method switches to the step e; d. the image of the current sub picture channel signal is abandoned; e. the image is decoded and displayed as the sub picture of the picture in picture. The implementation method of the picture in picture of the digital television has the advantages of decoding the intraframe encoding image in the image of the sub picture channel signal, reducing the decoding computation of the sub picture channel signal, low cost, easy implementation and being applicable to the domestic digital televisions.
+117. 101308535 Hardware implementing method of SHA-256 algorithm
+CN
+19.11.2008
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200810302372.4
+Sichuan Panovasic Technology Co., Ltd.
+Chen Yichong
+G06F 21/00
+Loading...
+The invention relates to a secure hash algorithm SHA-256 optimized realization method, which mainly solves the technical problem of providing an SHA-256 algorithm hardware realization method for shortening the critical path. In order solve the technical problem, the invention adopts the technical proposal that in an SHA-256 algorithm hardware realization method, 8 intermediate variables a, b, c, d, e, f, g, h are simultaneously generated by a combinational logic circuit in the same cycle according to the previous iterative calculation; on the basis, auxiliary variables are introduced to make the related middle variables T1t distributed for multi-channel parallel calculation. The method of the invention has the advantages that the method enables the complicated process of calculating the middle variables a and e to be divided into a plurality of parallel calculation, so as to shorten the critical path, increase the work frequency of the circuit and greatly improve the data throughput.
+118. 101309423 Method for decoding number of non-zero coefficient and number tailing coefficient
+CN
+19.11.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810302370.5
+Sichuan Panovasic Technology Co., Ltd.
+Lu Guoning
+H04N 7/26
+Loading...
+The invention relates to a video compression technology, in particular to CALVC decoding in the video compression technology. The invention provides a method for finishing the decoding of the numbers of the nonzero coefficient and the trailing coefficient in the CAVLC decoding quickly. The method for finishing the decoding of the numbers of the nonzero coefficient and the trailing coefficient in the CAVLC decoding quickly comprises the following steps: firstly, a small decoding table to be found is determined according to the number of the nonzero coefficient, the preset read-in bit number and the code value of the preset read-in code stream; secondly, the digit number of the continuous zeros at the prefix part of the original code word and the code value at the suffix part of the original code word is judged to find the small decoding table; the small decoding table can uniquely correspond to a sub-table item through the digit number of the continuous zeros at the prefix part of the original code word and the code value at the suffix part of the original code word; thirdly, the code word of the sub-table item can be analyzed to obtain the numbers of the nonzero coefficient and the trailing coefficient. The encoding table is not needed to be traversed during the decoding process by using the video compression technology, the binary string with fixing lengthen is only required to be read, the table can be enquired for two times at best and can be enquired for one time at least according to the numerical value.
+119. 101303765 Method for reinforcing image contrast based on image mean-squared deviation
+CN
+12.11.2008
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+200810044769.8
+Sichuan Panovasic Technology Co., Ltd.
+Liu Qiang
+G06T 5/00
+Loading...
+The invention relates to an image contrast enhancement method based on image mean square deviation, which comprises the following concrete steps that: a. an image is input; b. a mean square deviation Sigma of the image is calculated; c., the next-step processing mode for input image is determined according to the size relation between the mean square deviation and a preset mean square deviation threshold T; d. if the mean square deviation Sigma of the image is less than or equal to the mean square deviation threshold T, thus the image has better contrast, only a simple edge sharpening processing is applied to the image; e. if the mean square deviation Sigma of the image is larger than the mean square deviation threshold T, the grayscale of the image is transformed so as to control the mean square deviation Sigma of the image. All the images enhanced in the method have very good contrast; furthermore, the problems of noise introduction and over-enhancement of other enhancement algorithms are solved.
+120. 101296077 Identity authentication system based on bus type topological structure
+CN
+29.10.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710049003.4
+Sichuan Panovasic Technology Co., Ltd.
+Yu Youyong
+H04L 9/32
+Loading...
+The invention discloses an identity authentication system based on bus topology, which utilizes technologies such as DH exchange and digital envelope, etc. for realizing the identity authentication of equipment and safe delivering of cipher codes. When an access system of receiving equipment or the receiving equipment can not decipher date correctly, the identity authentication with transmitting equipment is actively initiated. The transmitting equipment and the receiving equipment utilize a public and private key pair both owned to generate a shared cipher code value; the transmitting equipment utilizes the shared cipher code generated by self to convert a deciphering code and corresponding check code into a cryptograph M, and the receiving equipment utilizes the deciphering cryptograph M of the shared cipher code generated by self to obtain the deciphering code and prove the accuracy. If the receiving and the transmitting party are legal equipment, both equipment can encrypt and decipher normally; otherwise, both equipment can not encrypt and decipher normally and at least one of the equipment is illegal. The system can be used in software and hardware environments, such as digital content protection interface, e-business, banking system, smart card, and identity authentication, etc.
+121. 101296380 Interpolation method and device for movement compensating system
+CN
+29.10.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810302263.2
+Sichuan Panovasic Technology Co., Ltd.
+Yuan Zijin
+H04N 7/26
+Loading...
+The invention relates to a video compression technology and the technical problem to be solved by the invention is that an interpolation algorithm and an interpolator are provided, which can utilize intermediate results in interpolation calculation to remove calculation duplication in a motion compensating system. Interpolation filter coefficients in the interpolation calculation and the multiply operation of pixel values to be inputted are decomposed to a left shift operation and an add operation; after each pixel interpolation operation is completed, the intermediate results which can be reused in the next pixel interpolation operation are saved for the next pixel interpolation operation. The invention has the advantages that in the realization of a video encoding and decoding system based on block encoding, the intermediate results of the former interpolation calculation are fully utilized to remove the calculation duplication to maximum extent, thus effectively improving the performance realized in the interpolation calculation.
+122. 101295237 High-speed divider for quotient and balance
+CN
+29.10.2008
+G06F 7/535 Loading...
+G06F 7/535
+Loading...
+200710048957.3
+Sichuan Panovasic Technology Co., Ltd.
+Zhang Xiaoyun
+G06F 7/535
+Loading...
+The invention provides a high-speed divider used for obtaining a quotient and a reminder, comprising a basic operation unit used for calculating the two-bit quotient and the new reminder in one-step and realizing the division by a method that the basic operation unit is run by a plurality of times in a pipeline or iteration mode. The basic operation unit comprises a parallel subtracter used for executing three reduction operations in parallel, a two-bit quotient generator used for obtaining the two-bit quotient and a reminder generator used for generating the new reminder. The parallel subtracter comprises three groups of subtracters; each group of subtracter completes a reduction operation and three output differences are taken as spare novel reminders. The subtracter can be a one-bit subtracter which obtains one-bit difference in one-step or a k-bit advance borrowing subtracter which can gain the k-bit difference in one-step according to the requirement. The two-bit quotient generator comprises three quotient-bit generators; the quotient-bit generator can be simply realized by a logical not and a logical or. The reminder generator selects and determines the novel reminder out of the reminder R and the three differences which are output by the parallel subtracter according to the two-bit quotient qq which is output by the two-bit quotient generator. By using the techniques of the advance borrowing reduction, the parallel reduction, and obtaining the two-bit quotient in one-step, the invention realizes the divider which can quickly gain the quotient and the reminder with high efficiency.
+123. 101296076 Digital signature scheme based on ECC
+CN
+29.10.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710049001.5
+Sichuan Panovasic Technology Co., Ltd.
+Wang Zhihui
+H04L 9/32
+Loading...
+The invention discloses a digital signature proposal based on ECC. Scalar multiplication of an elliptic curve, point addition and Montgomery field modulo algorithm, etc. are usedfor realizing fast digital signature and signature verification. In the proposal, a method for replacement is adopted for treating random numbers which do not meet requirements, thus preventing the process for generating the random numbers again; the methods such as the replacement, interception and zeroizing are adopted to treat hash values, thus preventing frequent switch between large prime field and Montgomery field; the operations of signature and verification are basically in the Montgomery field, thus preventing time-consuming operation of modulo reduction. The digital signature proposal can be used in environments such as e-business, content protection interface, banking system, military communication, and intellectual property right protection, etc.
+124. 101296072 Sharing cryptographic key generation method of elliptic curve
+CN
+29.10.2008
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200710048999.7
+Sichuan Panovasic Technology Co., Ltd.
+Wang Zhihui
+H04L 9/08
+Loading...
+The invention discloses a method for generating a shared cipher code on an elliptic curve. Discrete logarithm of the elliptic curve, which is difficult to break down, a DH exchange protocol, and hashing functions, etc. are utilized to generate the shared cipher code quickly and safely. In case of A and B exchanging the cipher code, x and xG are generated by a trustable organization and distributed to A, and y and yG are generated and distributed to B. A and B exchange x and y for calculating the shared cipher code xyG respectively, and the hashing functions are used for validating the consistency of the shared cipher code. The method can not only be executed quickly, but also has extremely high safety intensity, which can be used in software and hardware environments such as digital content protection interface, e-business, banking system, smart card, and identity authentication, etc.
+125. 101296338 Image zooming method and apparatus
+CN
+29.10.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810302102.3
+Sichuan Panovasic Technology Co., Ltd.
+Han Daqiang
+H04N 5/44
+Loading...
+The invention pertains to the digital image processing technology and provides a method and device for realizing the image scaling based on the principle of the filter and the guideline of the piecewise function. The method and device for the image scaling judge whether a differential value belongs to a low-frequency band, a medium-frequency band or a high-frequency band by determining the differential value of the pixel values of two adjacent original pixel points in an original image; different scaling algorithms are adopted to different frequency bands. When the differential value pertains to the low-frequency band, the current interpolation point refers to the pixel values nearest to left/ upper adjacent original pixel points and left/lower adjacent original pixel points; when the differential value pertains to the medium-frequency band, the pixel values of adjacent four original pixel points from left to right/from up to down are for reference; when the differential value pertains to the high-frequency band, the pixel value of the current interpolation point is the one close to the original pixel points. The method and device of the invention have good tracking property to the whole range of frequency domain of the image and the treated image is smooth with sharp edges and the hardware resource can be saved to have a simple circuit.
+126. 101296067 Synchronization method and apparatus of DAB and T-DMB digital receiving terminal
+CN
+29.10.2008
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+200810302442.6
+Sichuan Panovasic Technology Co., Ltd.
+Xie Xiang
+H04L 7/00
+Loading...
+The invention relates to a synchronization technology of a digital broadcasting DAB and T-DMB system of an orthogonal frequency division multiplexing (OFDM) receiver. The technical problem needs to be solved by the invention is to provide a high effective, stable and structurized synchronization method and a synchronization device which are applicable to a receiving terminal of the DAB and T-DMB digital broadcasting system. The technical proposal adopted by the invention to solve the technical problem is that: the synchronization method and the device of the DAB and T-DMB digital receiving terminal are divided into a four-layer structurized processing base band for sampling signals layer after layer, which comprises the steps as follows: first layer frequency search, second layer synchronization rough detection, third layer synchronization capturing and fourth layer synchronization following. If each step fails, the signal sampling returns to the upper layer. The technology has the advantages of realizing highly effective application of synchronization arithmetic, reducing pre-error of each arithmetic operation, providing comparatively stable working state for the receiving terminal and having certain tolerance capacity to the reduced signal-to-noise ratio of the receiving environment.
+127. 101296075 Identity authentication system based on elliptic curve
+CN
+29.10.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710049000.0
+Sichuan Panovasic Technology Co., Ltd.
+Wang Zhihui
+H04L 9/32
+Loading...
+The invention discloses an identity authentication system based on an elliptic curve. A public key and private key pair, a DH cipher code exchange protocol and hashing functions preset in equipment are used for realizing fast identity authentication, thus preventing the identity authentication by using complicated arithmetic in a public key certificate system, such as a certificate chain and digital signature. The public and private key pair of equipment A are x and xG, and the public and private key pair of equipment B are y and yG; when carrying out the identity authentication, the equipment A and the equipment B exchange x and y (or xG and yG), then both calculate scalar multiplication xyG. The equipment A and the equipment B utilize hashing function H to operate each scalar multiplication result xyF so as to obtain hash value h1 and h1'; if h1=h1', both equipment are legal. The system can be used in software and hardware environments, such as digital content protection interface, e-business, banking system, smart card, and identity authentication, etc.
+128. 101287126 Rapid reading method of motion compensating data based on H.264 standard
+CN
+15.10.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810302116.5
+Sichuan Panovasic Technology Co., Ltd.
+Lu Guoning
+H04N 7/26
+Loading...
+The invention relates to the technology of video coding processing and provides a fast data reading method based on H.264 standard motion compensation. The technical proposal of the method is that: the fast data reading method based on the H.264 standard motion compensation comprises the steps as follows: a. a sub-block segmentation type and a corresponding reference frame data matrix comparison list are generated when a system is started; b. the code of the current macroblock type is analyzed and the type of the segmentation of the current sub-block is obtained; c. the reference frame data matrix scale that needs to be read is obtained after the list is checked, and a DMA controller is informed; d. the DMA controller transmits the reference frame data into the in-chip cache from an out-of-chip memory cell; e. a motion compensation unit carries out coding motion compensation calculation by visiting the reference frame data in the in-chip cache. The method of the invention has the advantages of greatly improving data access efficiency and reducing bus pressure and is suitable for a video decoding system that adopts H.264 standard.
+129. 101287125 Fast mode selection method in frame
+CN
+15.10.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810301864.1
+Sichuan Panovasic Technology Co., Ltd.
+Mao Xiafei
+H04N 7/26
+Loading...
+The invention relates to a video coding technology, in particular to an H.264 intraframe mode selecting method. The invention provides an intraframe mode selecting method that can raise the coding speed by a relatively wide margin when signal-to-noise ratio is ensured. The fast intraframe mode selecting method comprises the steps as follows: first, whether the distortion value of an MPM mode is less than or equal to a first threshold T1 is judged; if yes, the optimal predictive mode of a current block is the MPM mode; if not, the selection range of the predictive mode is gradually narrowed according to a second threshold T2 and the directivity of the predictive mode. The invention takes the directivity of the predictive mode into full consideration, and at the same time, the selection of the threshold meets the distribution characteristics of the distortion value of different modes, thus controlling the mode selection process well. Compared with traversal algorithm, the method of the invention raises the coding speed by a relatively wide margin, with the signal-to-noise ratio being hardly reduced, and is suitable for improving the H.264 coding method.
+130. 101287134 Adaptive flesh colour compensation method
+CN
+15.10.2008
+H04N 9/64 Loading...
+H04N 9/64
+Loading...
+200810301804.X
+Sichuan Panovasic Technology Co., Ltd.
+Zhao Bo
+H04N 9/64
+Loading...
+The invention relates to the technical field of digital image processing and video displaying, in particular to an adaptive complexion compensation method that promotes the complexion display effect of an image. Aiming at the problem that deviated complexion color display appears when the image is displayed, the invention provides an adaptive complexion compensation method. The adaptive complexion compensation method of the invention is characterized by comprising the steps as follows: a. the chroma space of image signals is transformed to YCbCr space; b. complexion area partition is carried out to each pixel point of the image signals; c. complexion compensation processing is carried out to the chroma signals Cb and Cr in the complexion area; d. the image signals are output. The method of the invention is used in the image displaying field and has the advantages of rectifying and compensating the color distortion of the complexion area when the image is displayed.
+131. 101286231 Contrast enhancement method for uniformly distributing image brightness
+CN
+15.10.2008
+G06T 5/40 Loading...
+G06T 5/40
+Loading...
+200810044630.3
+Sichuan Panovasic Technology Co., Ltd.
+Liu Qiang
+G06T 5/40
+Loading...
+The invention relates to a contrast enhancing method of brightness of an evenly distributed image, which comprises the specific steps: a. the image is input, the display range from 0 to 255 of the whole gray is evenly divided into at least two continuous sub-regions as the target sub-regions for the mapping of the input image; b. the distribution of a histogram of the input image is calculated, thus counting the number of pixels which are corresponding to each gray level; c. the gray levels of the input image are divided into continuous sub-regions with the same number of the target sub-regions, and the number of the pixels corresponded by the gray level of each sub-region is roughly equal; d. and each continuous gray level sub-region of the input image is mapped to the target sub-regions divided from the gray range from 0 to 255. Compared with the histogram equalization processing method, the method can not only increase the visual distance between the pixels, but also better maintain the details of the image.
+132. 101282187 Self-adaption error correction method for digital audio broadcasting receiver
+CN
+08.10.2008
+H04H 40/27 Loading...
+H04H 40/27
+Loading...
+200810301686.2
+Sichuan Panovasic Technology Co., Ltd.
+Xie Xiang
+H04H 40/27
+Loading...
+The present invention relates to a digital audio broadcast receiver system. The invention discloses a self-adopting error correction method of a digital audio broadcast receiver which adjusts the front-end procession algorithm of the digital broadcast receiver according to the channel environment. The self-adopting error correction method of the digital audio broadcast receiver according to the invention comprises the following steps: a. receiving the signal and processing the front-end signal of the radio frequency; b. processing the base band and the channel in sequence; c. processing the audio frequency and application data; d. calculating the error rate of data and adjusting the base band procession algorithm and channel procession algorithm according to the error rate of data; and e. broadcasting the data processed by the step c. The invention is used in the field of digital audio broadcast. The beneficial effect of the invention is that the digital audio broadcast receiver can adopt the base band procession algorithm and channel decoding procession algorithm with different complexities according to the good/bad degree of the channel. Not only the working efficiency of the digital audio broadcast receiver is increased but also the power consumption of the digital broadcast receiver is reduced.
+133. 101262233 Viterbi coding method
+CN
+10.09.2008
+H03M 13/41 Loading...
+H03M 13/41
+Loading...
+200810301181.6
+Sichuan Panovasic Technology Co., Ltd.
+Yang Lu
+H03M 13/41
+Loading...
+The invention relates to a decoding technology, particularly to a Viterbi decoding method used in the digital audio and video broadcasting system adopting an OFDM (orthogonal frequency division multiplexing) communication method. The Viterbi decoding method of the invention can reduce the complexity by reducing a survivor path with low likelihood. The Viterbi decoding method comprises the steps of: a. the quantity of original states are set; b. status measurement is calculated according to the value of CSI, and the value of CSI is used as the sum of corresponding Euclidean distance of the present-moment states of the weighting coefficient; c. the quantity of hold states is confirmed according to the values of CSI, and bigger value of CSI leads to less quantity of hold states; d. branching measurement is calculated; e. the corresponding branching measurements of the hold states are calculated, and path selection is conducted according to the branching measurements; f. that whether the decoding process is finished or not is judged, wherein, the coding is output when finished, and the step b is reduced when the decoding process is not finished. The Viterbi decoding method of the invention can reduce the complexity of the Viterbi decoding process and the possibility of overflow of a stored buffer.
+134. 101242265 Stream password and pseudorandom number generation method in secure system
+CN
+13.08.2008
+H04L 9/18 Loading...
+H04L 9/18
+Loading...
+200810300498.8
+Sichuan Panovasic Technology Co., Ltd.
+Yu Youyong
+H04L 9/18
+Loading...
+The invention relates to a pseudo random number generating mode for safety certification, and a stream cipher generating mode for encrypting high speed data stream in security transmission. The invention provides an enhancement type pseudo random number and stream cipher generating mode based on a hashing function. The stream cipher and pseudo random number generating mode in a security system hashing transforms any one or more in a share key Ki, a linear feedback shift register output result Si, a random number An, partial data Mi of a previous stream cipher sequence, a S box and linear transformation module output result Gi and an output composite module output result Ci in a conventional stream cipher and pseudo random number generating process. The invention make the generated pseudo random number and stream cipher have a unidirectivity, and increases the security of the pseudo random number and stream cipher.
+135. 101242275 Secure transmission method based on stream password encryption
+CN
+13.08.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200810300497.3
+Sichuan Panovasic Technology Co., Ltd.
+Yu Youyong
+H04L 9/32
+Loading...
+The invention relates to a symmetrical Encryption technology, especially to a synchronization technique for encrypting and decrypting a stream cipher. The invention is to provide a security transmission method for a data stream for enhancing privacy of synchronization information in a stream cipher encrypting and decrypting manner. The security transmission method based on stream cipher encrypt and decrypt comprises: in a encrypt data transmission process after stream cipher encrypt, using a clock as a synchronization signal independent of plaintext and encrypt data to realize a synchronization of stream cipher encrypt and decrypt; and the synchronization information is transmitted not followed the encrypt data. The invention enhances privacy of synchronization information in a stream cipher encrypting and decrypting manner, farthest reduces the leak of system information, and increases the security of stream cipher encrypt system under the condition for insuring the stream cipher encrypt system to encrypt and decrypt correctly.
+136. 101231754 Multi-visual angle video image depth detecting method and depth estimating method
+CN
+30.07.2008
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+200810300330.7
+Sichuan Panovasic Technology Co., Ltd.
+Zhang Xiaoyun
+G06T 7/00
+Loading...
+The invention relates to a multi-view video image processing technology, and provides an adaptive determination method for search length of a step and a depth estimation method based on the adaptive search length. The multi-view video image depth search method is that the search length of each step within the depth search coverage is dynamically adjusted according to the current depth value so that the search length of each step corresponds to the identical pixel search precision. The multi-view video image depth estimation method is that the search length of each step is dynamically adjusted according to the current depth value within the depth search coverage in the depth-based image synthesis and the depth search based on block matching. The technical proposal provided by the invention is applicable for multi-view video depth search and depth estimation. The depth search performance of the invention is higher than the fixed search length of the step. The absolute difference between the synthetic image blocks and the reference image blocks is small with small misestimate, low calculated amount or low frequency of depth search.
+137. 101226630 Interpolation method based on cubic spline function
+CN
+23.07.2008
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+200810300257.3
+Sichuan Panovasic Technology Co., Ltd.
+Chen Tao
+G06T 3/40
+Loading...
+The invention relates to an image scaling method of margin self-adapting treatment, in particular to cubic spline interpolation algorithm. The technique problem needed to be resolved by the invention is to provide a self-adapting interpolation method based on cubic spline function with smooth image and clear outline after being interpolated. The technical scheme comprises detecting the position of interpolation points first and employing different treatment methods to interpolate to the interpolation points located at different positions. The invention adds edge sharpness, and simultaneously effectively eliminates problems that continuous feedbacks pixels on the bilateral sides of the image edge interfering with each other cause virtual images on bilateral sides of the edge in original cubic spline interpolation algorithm on the basis of guaranteeing image gliding property. Simultaneously, the invention employs the same operational formula to calculate all interpolation points, which enables the invention to be simple to realize, and is equal to the complexity of realizing common cubic spline function interpolation algorithm.
+138. 101222647 Scene global depth estimation method for multi-vision angle video image
+CN
+16.07.2008
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+200810300254.X
+Sichuan Panovasic Technology Co., Ltd.
+Zhang Xiaoyun
+H04N 13/00
+Loading...
+The invention relates to the video signal processing technique. The invention provides a scene global depth estimation method of a multi-angle video image in the convergent camera system. The method comprises the following steps that: a. a depth value of a convergent point is taken as the depth initial estimate; b. the depth initial estimate is referred to determine the depth search range and the search step length of the global depth estimation; c. a pixel point of a target view corresponding to the pixel point in a reference view by the back projection and the double projection is calculated and a composite view in the reference camera system of the target view is obtained; d. within the depth search range, the searching is done in the search step length and the depth value with minimal error of the composite view and the reference view is taken as the scene global depth value of the target view. The invention has the advantages of estimating the global depth information of the multi-angle video image in the convergent camera system effectively and obtaining the depth information rapidly and effectively as well as directly.
+139. 101217262 A class D power amplifier and the corresponding input signal modulation method
+CN
+09.07.2008
+H03F 3/217 Loading...
+H03F 3/217
+Loading...
+200810300173.X
+Sichuan Panovasic Technology Co., Ltd.
+Yang Shanggang
+H03F 3/217
+Loading...
+The invention relates to a D-typed power amplifier, in particular to a D-type power amplifier and the input signal modulation technique. The invention discloses a D-typed power amplifier which can achieve balance between the system performance and the stability of the power amplifier and an input signal modulation method of the D-typed power amplifier. The D-typed power amplifier of the invention comprises a pulse density modulator, a pulse width modulator, a pulse molding circuit, a power magnify circuit and a low filter, and the pulse density modulator, the pulse width modulator, the pulse molding circuit, the power magnify circuit and the low filter are connected sequentially. The input signal modulation method of the D-typed power amplifier of the invention is: the signal is modulated in the pulse density aspect, the signal is modulated in the pulse width aspect, and the modulated signal is changed and is output to the power magnify circuit. The technical proposal of the invention is used for amplifying the power of the audio signal, thus efficiently improving the THD+N, SNR index and the power efficiency, and lowering the power magnify circuit of the switching frequency.
+140. 101216935 Image amplification method based on spline function interpolation algorithm
+CN
+09.07.2008
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+200810300136.9
+Sichuan Panovasic Technology Co., Ltd.
+Zhao Bo
+G06T 3/40
+Loading...
+The invention relates to digital image processing technique. The invention provides an image magnification method of calculating the distance factor and the edge factor based on the spline interpolation in interpolating. The invention comprises the following steps of: a). searching the needed consecutive point for confirming the pixel value of an interpolation point; b. computing the edge change value of the consecutive points; c. modifying the edge changes introduced by the weight coefficients of all the consecutive points according to the rule of the bigger edge change of the consecutive point, the smaller weight of the consecutive point; d. computing the pixel value of the interpolation point according to the modified weight coefficient. The invention is applicable for the image zooming which can zoom the appearance of the saw tooth and the excessive loss of details in the process.
+141. 101193304 An implementation method for quick conversion and quantification of video coding
+CN
+04.06.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810300045.5
+Hongwei Technology Co., Ltd.
+Mao Xiafei
+H04N 7/26
+Loading...
+The invention pertains to video coding technique, in particular relates to a transformation and quantization method. The technical problem to be solved by the invention is providing a transformation and quantization method which reduces the video coding complexity. The invention can detect the situation in which a residual block system is zero after transformation and quantization in advanced through prediction before the transformation and quantization, thus saving the transformation and quantization process of an all-zero block. The proposal has an outstanding meaning for video coding with a low bit rate, as the proportion of the all-zero block is lager in the situation of low bit rate. Detecting most parts of the all-zero block in advance can greatly reduce the calculating complexity of transformation and quantization, further increase the coding efficiency. Furthermore, the invention can real-timely adjust the judging conditions for the all-zero block, further enhance the coding speed and quality and avoid occurrence of missed judgment.
+142. 101193303 Fast motion estimating method
+CN
+04.06.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810300044.0
+Hongwei Technology Co., Ltd.
+Mo Qihui
+H04N 7/26
+Loading...
+The invention relates to a technical field of video coding. The technical problem to be solved by the invention is providing an estimate method for fast motion based on a lower-layer prediction motion vector and a multi-model search. The estimation method of fast motion provided by the invention takes the smallest segmentation model as a lowest-layer model and a largest segmentation model as a highest-layer model and adopts a prediction search center with an order from lower to upper. After the search center is determined, the best matching point is searched and the best motion vector is stored. The invention has beneficial effects of reducing the complexity of a coder and being applicable to coding of a high-definition video signal on the basis of guaranteeing the quality of the video coding images.
+143. 101170701 Block elimination filtering method and device for video encoding and decoding system
+CN
+30.04.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710202579.X
+Sichuan Hongwei Technology Co., Ltd.
+Yuan Zijin
+H04N 7/26
+Loading...
+The invention relates to a deblocking filter method in a video coding/decoding system. The invention aims to solve the problems in the prior art, such as unreasonable configuration between on-chip cache utilization rate and read/write frequency of out-chip memory and low concurrence level of read/write and filter calculation of out-chip memory. The invention discloses a deblocking filter method in a video coding/decoding system and a device thereof. The inventive deblocking filter method in the video coding/decoding system is based on half prefetching macro-block data technique and macro-block data monocycle post-write technique, enables the on-chip buffer to read macro-block data from the out-chip memory, and realizes the concurrent execution of filter intensity coefficient calculation and pixel filter calculation. The invention also discloses a device for implementing the above method. The invention has the advantages that: the invention keeps the balance between the on-chip cache utilization rate and read/write frequency of out-chip memory, reduces the complexity of filter calculation, and realizes the highly concurrent execution between the read/write operation of out-chip memory and the on-chip deblocking filter calculation operation.
+144. 101170702 Multi-view video coding method
+CN
+30.04.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710202653.8
+Sichuan Hongwei Technology Co., Ltd.
+Zhang Xiaoyun
+H04N 7/26
+Loading...
+The invention relates to a digital image processing and video coding/decoding technique, specifically a view synthesis predictive coding. The invention aims to solve the technical problems to provide a multi-view video coding method suitable for various camera systems. The multi-view video coding method is characterized in that the method comprises the following steps: a, independently coding video sequences of one or more views by means of motion compensation prediction; b, coding other video sequences by the minimal-cost one prediction mode selected from parallax compensation prediction, view synthesis prediction, and motion compensation prediction. The invention ensures better effect of video coding.
+145. 101163190 Image amplification method for linear interpolation arithmetic based error estimation
+CN
+16.04.2008
+H04N 1/393 Loading...
+H04N 1/393
+Loading...
+200710202354.4
+Sichuan Hongwei Technology Co., Ltd.
+Zhang Yu
+H04N 1/393
+Loading...
+The invention belongs to the technical field of digital picture processing and video screening and in particular relates to a picture amplification method based on linearity interpolation operation. The invention provides the picture amplification method based on linearity interpolation operation and can reserve picture high frequency information better, and moreover, the invention in particular comprises the following steps: a. the position of interpolation point P can be calculated; b. pixel value of four pixel points adjacent to the position of the interpolation point P can be acquired; c. difference estimation of linearity interpolation can be calculated according to pixel value of the four adjacent pixel points and the difference estimation is taken as compensation of linearity interpolation result; d. the sum of the linearity interpolation result and the difference estimation can be calculated and the result is pixel value of the interpolation point P. The invention overcomes the shortcoming that the original linearity interpolation operation leads to high frequency degeneration and picture vague. Amplification effect of the picture processed by the invention basically reaches the picture effect processed by double-third interpolation operation, with small computation and easy hardware realization.
+146. 101056102 Meter-checking computing circuit
+CN
+17.10.2007
+H03K 19/20 Loading...
+H03K 19/20
+Loading...
+200710048775.6
+Panovasic Co., Ltd.
+Yang Gang
+H03K 19/20
+Loading...
+The present invention provides a method for realizing the combinational logic circuit through table search operation in the field of designing digital circuit, and the each output bit of table value is represented as a logic function of the input bit of the table index and corresponding logic circuit is also designed. The method includes: a table composed of a series of table values and a series of corresponding table index; each output bit of the table value is represented by the input bit of the table index; the logic function is simplified and then the design of the combinational logic circuit of the logic function is realized. In the table search operation of the multiplexer, the real value table of all the input bits must be decoded entirely, thus, the process is unefficient and is a waste of hardware resources; while in the table search operation of ROM, the process has a high cost and a low speed. The method takes full use of the table characteristic to simplify and optimize the table search operation, and is realized through simple combinational logic, and the operation speed is quick and the hardware resource is saved.
+

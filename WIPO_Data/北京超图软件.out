@@ -1,0 +1,265 @@
+1. 106599241 一种GIS软件中针对大数据的可视化管理方法
+CN
+26.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201611182291.6
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本发明公开了一种GIS软件中针对大数据的可视化管理方法，该方法包括：1）构建适用不同数据存储方式的分布式数据源；2）根据数据的存储方式，输入已知参数打开对应的数据源，访问并读取存储在服务器端的大数据；3）对读取到的大数据，实现可视化的数据管理操作；4）将处理完成的数据上传到服务器端，实现数据入库或者给他人共享。本发明通过交互式的操作，方便直观的对数据集群进行操作和管理，实现直接的数据分析效果展示，帮助普通用户更好的理解数据，数据分析专家进行更深入的分析，辅助管理者进行决策。
+2. 106599272 浏览器端图形对象的动态标绘方法、装置和系统
+CN
+26.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016001202909
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本申请提供了一种浏览器端图形对象的动态标绘方法、装置和系统，所述方法的执行主体为地理信息系统的客户端浏览器，所述方法包括：将待标绘图形对象的标号信息发送至地理信息系统服务器，接收所述服务器返回的基本图元对象；所述基本图元对象包括服务器分解所述标号信息对应的标号后生成的多个点图元、线图元和/或面图元；将所述基本图元对象进行组合，生成复合图形对象，并在浏览器上渲染所述复合图形对象。本申请通上述手段，可有效解决现有技术地理信息系统不能在浏览器端对大量矢量标号进行渲染显示的问题。
+3. 106441305 室内跨楼层的路径规划方法和装置
+CN
+22.02.2017
+G01C 21/20 Loading...
+G01C 21/20
+Loading...
+201610879806.1
+北京超图软件股份有限公司
+钟耳顺
+G01C 21/20
+Loading...
+本申请提供了一种室内跨楼层的路径规划方法和装置，所述方法包括：获取室内GIS地图数据，生成多层道路网络数据和楼层间的垂直连通数据；接收用户输入的起点和终点；判断所述起点和终点是否在同一楼层；若否，从楼层间的垂直连通数据和多层道路网络数据中选择满足预设优化条件的垂直连通设施、起点与垂直连通设施之间的路径L1、垂直连通设施与终点之间的路径L2；连接L1、垂直连通设施形成的通道L3和L2，得到起点与终点之间的路径规划。本申请基于逐层分析的方法来实现各个楼层的路径规划，然后利用楼层间的连接信息，实现跨楼层位置点之间的路径规划。
+4. 106230801 GIS门户中注册服务的访问控制方法和装置
+CN
+14.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610592940.3
+北京超图软件股份有限公司
+钟耳顺
+H04L 29/06
+Loading...
+本申请提供了一种GIS门户中注册服务的访问控制方法和装置，所述方法包括：接收不同来源的GIS服务的注册请求；为所述GIS服务生成代理服务地址；建立并保存所述GIS服务的原始服务地址与代理服务地址之间的映射关系；接收用户基于所述代理服务地址发出的GIS服务请求；根据所述GIS服务的原始服务地址与代理服务地址之间的映射关系，查询所述用户发出的GIS服务请求中的代理服务地址对应的原始服务地址；向原始服务地址发送GIS服务请求，并将GIS服务的反馈结果返回给用户。本申请通过上述手段，使授权用户只能访问代理服务地址，进而实现GIS门户中对GIS服务访问的统一控制。
+5. 105608108 通用GIS数据协同采集方法和装置、服务器
+CN
+25.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510774265.1
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本申请提供了一种通用GIS数据协同采集方法和装置、服务器，所述方法包括：获取数据采集任务；根据所述数据采集任务中包括的地图信息显示地图；获取并在所述地图上显示本地采集的GIS数据以及其他数据采集装置采集的GIS数据；重复上述获取并在所述地图上显示GIS数据的过程，直至完成所述数据采集任务。本申请通过上述手段，使每个作业人员都可以实时了解当前数据采集任务的整体状态，还能够实时发现并修订采集过程中出现的错误，防止作业人员返工的问题，为后期的数据处理较大程度的减少了工作量。
+6. 105608211 一种基于ARM架构的GIS系统
+CN
+25.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511007403.X
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本申请提供了一种基于ARM架构的GIS系统，包括基础库、ARM设备相关库、ARM可视化库、GIS功能模块和二次开发模块，其中：所述ARM设备相关库包括对几何对象及其属性、投影和基础算法的基础操作，所述基础操作包括I/O操作、字符串操作、时间处理、指针和关键字长度处理；所述ARM可视化库包括基础图元、文字渲染、可视化核心算法和无显示设备的可视化机制；所述GIS功能模块用于基于所述基础库、ARM设备相关库和ARM可视化库实现数据采集和数据处理功能；所述二次开发模块用于为所述GIS功能模块提供功能扩展接口。本申请通过上述技术手段实现了具有低功耗、跨平台、支持复杂数据结构、支持不同运行环境、64位计算等优点的GIS系统。
+7. 105426513 地理空间信息的协同采集方法和系统、移动终端
+CN
+23.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510867011.4
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本申请提供了一种地理空间信息的协同采集方法和系统、移动终端，所述方法包括：接收服务器分发的信息采集任务块及其对应的底图；将采集的地理空间信息上传至服务器入库，并按预设格式编辑成消息脚本，发送至其他协同工作的移动终端；接收、解析其他协同工作的移动终端发送的消息脚本，并在底图上展现该其他协同工作的移动终端采集的地理空间信息；重复上述步骤，直至完成所有信息采集任务块的采集。本申请通过上述手段，使每个作业人员都可实时了解任务整体状态，避免不同人员重复采集同样数据导致的冗余采集问题；另外，还便于作业人员查漏补缺，及时发现并修订采集过程中出现的错误，提高工作效率。
+8. 105354295 三维动态标绘点标号的动态展示装置和方法
+CN
+24.02.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510737827.5
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本申请提供了一种三维动态标绘点标号的动态展示装置和方法，所述装置包括：点标号显示模式设置模块，用于设置三维动态点标号的显示模型及相应属性；点标号动态显示模块，用于根据所述点标号的显示模型及相应属性，调度标号资源管理模块读取相应的图形信息，在三维场景下进行图形显示；点标号资源管理模块，用于根据所述点标号的属性所包括的标识符读取对应的图形信息。本申请方案通过设置具有多种显示模式属性的三维动态标绘点标号对象，来满足用户对同一个对象的多种显示方式，可有效降低三维动态标号展示应用的复杂度。
+9. 105183491 跨平台的桌面GIS系统及其启动方法
+CN
+23.12.2015
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201510686557.X
+北京超图软件股份有限公司
+钟耳顺
+G06F 9/44
+Loading...
+本发明公开了一种跨平台的桌面GIS系统及其启动方法。该系统包括操作系统支撑层；应用程序接口层，其中，应用程序接口层采用OSGi框架，基于Java语言，使用Java？Swing图形界面实现桌面的GIS功能的展现及交互；以及应用层，其中，应用层包括用于空间数据进行管理的数据管理模块、用于对空间数据按照GIS规则进行编辑处理得到GIS数据的数据处理模块、用于将GIS数据渲染成图的制图模块、用于在三维场景中进行GIS数据显示和浏览的三维应用模块以及用于根据业务需求对GIS数据进行空间位置上处理的空间分析模块。通过本发明，能够实现在windows、linux平台上对地理空间数据的处理、分析以及展示。
+10. 104978413 GIS线数据在浏览器端可视化的装置和方法
+CN
+14.10.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510354168.7
+北京超图软件股份有限公司
+钟耳顺
+G06F 17/30
+Loading...
+本发明公开了一种GIS线数据在浏览器端可视化的装置和方法。该装置包括：数据存储模块，用于存储GIS线数据；数据图层管理器模块，用于装载从数据存储模块中获取的GIS线数据集；以及渲染器模块，用于从GIS线数据集中获取第一GIS线数据子集和第二GIS线数据子集，并确定由第一GIS线数据子集对应的第一线图像变化为由第二GIS线数据子集对应的第二线图像需要伸缩变化的部分，对需要伸缩变化的部分进行空间插值，得到由第一线图像变化为第二线图像过程中的多条插值线图像对应的GIS线数据，并根据动画管理器模块的控制依次渲染多条插值线图像。通过本发明，能够使得GIS线数据可视化效果流畅。
+11. 104268687 Scenic region infrastructure information processing method and system and perceptible signboard
+CN
+07.01.2015
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201410496592.0
+北京超图软件股份有限公司
+黄骞
+G06Q 10/06
+Loading...
+The invention provides a scenic region infrastructure information processing method and system and a perceptible signboard. The method comprises the steps of setting an electronic identification code for the scenic region infrastructure, reading the electronic identification code of the scenic region infrastructure through a mobile terminal, reading and displaying related information of the scenic region infrastructure from a server according to the electronic identification code, receiving maintenance information, input by a maintainer, for the scenic region infrastructure and storing the maintenance information to the server. In this way, position-based visual management and dynamic condition perception and servicing can be achieved, meanwhile, the current maintenance status information of the scenic region infrastructure can be uploaded to the server in real time, and the problem that the scenic region infrastructure cannot be maintained in a refined mode or managed scientifically due to the fact that the infrastructure status cannot be dynamically updated in the prior art is solved.
+12. 104268937 Method and device for creating water surface effects in three-dimensional geographic information system (GIS)
+CN
+07.01.2015
+G06T 17/00 Loading...
+G06T 17/00
+Loading...
+201410500885.1
+北京超图软件股份有限公司
+冯振华
+G06T 17/00
+Loading...
+The invention provides a method and device for creating water surface effects in a three-dimensional geographic information system (GIS). The method includes the steps that a request for displaying a water surface effect creation page is received and displayed; vector surface data of the water surface effects to be created are selected; first water surface effects corresponding to selected first water surface symbols are obtained; the first water surface effects are displayed on the basis of the selected vector surface data according to obtained results to complete creation of the water surface effects, wherein each water surface symbol corresponds to one water surface effect, and each water surface effect is determined according to a preset water surface effect parameter value. The water surface effects can be displayed in the three-dimensional GIS in a symbolization mode, and the efficiency of creation of the water surface effects can be improved; because the water surface effects are created on the basis of true geographic data, geographic environment can be represented more truly.
+13. 103679812 Realization method and device of geographic simple element three-dimensional linear model
+CN
+26.03.2014
+G06T 17/05 Loading...
+G06T 17/05
+Loading...
+201210364840.7
+SUPERMAP SOFTWARE CO., LTD.
+ZHANG SHUAI
+G06T 17/05
+Loading...
+The invention provides a realization method of a geographic simple element three-dimensional linear model and a realization device of the geographic simple element three-dimensional linear model. The realization method comprises the following steps that: an initialized three-dimensional composite linear model object is constructed; the initialized three-dimensional composite linear model is split into a section sub-linear object and a model sub-linear object; a section shape attribute interface and a texture material attribute interface are formed in the section sub-linear object; a key point model attribute interface and a relative linear model position attribute interface are formed in the model sub-line object; attribute field information is endowed with the three-dimensional composite linear model object, such that a whole three-dimensional composite linear model symbol can be formed; and the whole three-dimensional composite linear model symbol is endowed with two-dimensional linear data, such that two-dimensional-to-three-dimensional transformation can be realized, and a three-dimensional linear model is displayed in a three-dimensional scene. With the realization method of the geographic simple element three-dimensional linear model adopted, vector linear data can be directly converted into three-dimensional linear model data without re-creation of the three-dimensional linear model data required, and therefore, not only can manpower be saved, but also fabricating cost of the three-dimensional linear model can be decreased.
+14. 103685380 Geographic information data distribution service method and system
+CN
+26.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210335858.4
+SUPERMAP SOFTWARE CO., LTD.
+HUANG QIAN
+H04L 29/08
+Loading...
+The invention provides a geographic information data distribution service method and system. The system for carrying out the method comprises more than two data centers. The method comprises the steps: packaging geographic information data gathered by the system, generating grid data packets, sending the grid data packets to corresponding data centers according to data requirement catalogs of all the data centers; receiving geographic information service request sent by a user and redirecting the geographic information service request to data centers meeting user request and having highest network connection speed, through a dynamic domain name service device. The method solves the problem of concurrence bottleneck caused by wide area complex network environment in a single data center scheme of the traditional geographic information Web service through the data distribution mode of distributed multi-data center.
+15. 103632071 Copyright protection method and system for geospatial data products
+CN
+12.03.2014
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201210311748.4
+SUPERMAP SOFTWARE CO., LTD.
+TENG SHOUWEI
+G06F 21/10
+Loading...
+The present invention provides a copyright protection method and system for geospatial data products. In the issuing stage, the method includes the steps that the geospatial data products with specific digital fingerprint features are generated; according to the permission number, the service life and physical equipment hardware codes of the geospatial data products purchased by a user, authorization permission information containing the digital fingerprint features is generated; authorization permission is deployed according to the authorization permission information. In the use tracking stage, the method includes the steps that an access request for geospatial data is received; whether the authorization permission information is specific permission of physical equipment or not is checked; if not, access is ended; if yes, whether the physical equipment is in the period of validity or not is checked; if not, the access is ended; if yes, whether digital fingerprints in the authorization permission information is consistent with digital fingerprints in the products or not is checked; if not, the access is ended; if yes, the user can have access to spatial data normally. By using the copyright protection method, copyright of the geospatial data can be protected in advance with fine grit and high strength.
+16. 103631804 Map cutting method and processing system of electronic map
+CN
+12.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210304279.3
+SUPERMAP SOFTWARE CO., LTD.
+HU ZHONGNAN
+G06F 17/30
+Loading...
+The invention provides a map cutting method and a processing system of an electronic map. The map cutting method is executed by a server and client ends in a cooperative mode and comprises the steps that the server splits an entire map cutting task into a plurality of unit map cutting masks with the appropriate granularity according to a preset splitting strategy; the server distributes the unit map cutting tasks to all the client ends; all the client ends execute the unit map cutting tasks in a parallel mode to obtain map cutting tiles and the meta information of the map cutting tiles; all the client ends store the map cutting tiles to a designated spot; all the client ends send the meta information of the map cutting tiles to the server. According to the map cutting method and the processing system of the electronic map, a distributed map tile generating method is used, hardware resources can be completely used through effective management and equilibrium distribution of the tasks, the map cutting efficiency of the electronic map is effectively improved, the fact that executing of the entire map cutting task is affected due to breakdowns of a single machine can be avoided, and the reliability of map cutting work is improved.
+17. 102175254 Navigation positioning correction method and device, and positioning navigation system
+CN
+07.09.2011
+G01C 21/30 Loading...
+G01C 21/30
+Loading...
+201110006182.X
+Beijing SuperMap Software Co., Ltd.
+Ma Haibo
+G01C 21/30
+Loading...
+The invention provides a navigation positioning correction method and a navigation positioning correction device based on a global positioning system, and a positioning navigation system. The method comprises the following steps of: receiving a current positioning point acquired by the global positioning system; selecting a road with the highest weight factor as a matching road of the current positioning point, and determining that a parameter of the weight factor comprises an accordance degree of a current travelling direction and a direction of the road, and an approaching degree of the current positioning point and the road; and taking a projection point of the current positioning point to the matching road as a map matching point of the current positioning point. By the invention, an accurate matching point on a map is obtained by calculating the accordance degree of the current travelling direction and the direction of the road, and the approaching degree with each road, and projecting to the road with the highest matching degree. Compared with the conventional method for matching based on a distance only, the invention has higher precision and adaptability, and can solve the positioning problem under complex situations, such as vehicle turning, multi-intersection selecting, main and auxiliary road selecting and the like.
+18. 102081658 Hierarchical road network-based path search method and device
+CN
+01.06.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110006188.7
+Beijing SuperMap Software Co., Ltd.
+Li Kai
+G06F 17/30
+Loading...
+The invention provides a hierarchical road network-based path search method and a hierarchical road network-based path search device. The method comprises the following steps of: searching a local optimal path RSJ=(S, ..., and Ji) of a starting point S and a local optimal path RNE=(Nk, ..., and E) of a finishing point E in a preset range in a lower road network respectively, wherein a node Ji and a node Nk are nodes in an upper road network; searching a local optimal path RJN=(Ji, ..., and Nk) of the node Ji and the node Nk in the upper road network; and combining the local optimal paths to obtain an optimal path from the starting point S to the finishing point E, namely RSE=(S, ..., Ji, ..., Nk, ..., and E). In the scheme, the road network search scale is controlled by the local optimal paths of the starting point and the finishing point in the preset range; and the optimal path between the remote nodes Ji and Nk is searched in the upper road network with a small road network scale, so that the overall search scale is in a small controllable range, and path search efficiency is greatly improved.
+19. 101729412 Distributed level cluster method and system of geographic information service
+CN
+09.06.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910237230.9
+Beijing SuperMap Software Co., Ltd.
+Chen Hongbo
+H04L 12/56
+Loading...
+The invention provides distributed level cluster method and system of geographic information service, wherein the cluster system comprises a plurality of load equalizers, a plurality of secondary load equalizers and a plurality of service nodes. Each load equalizer is provided with at least one stage equalizer secondary node; the equalizer secondary node comprises at least one secondary load equalizer; and the secondary load equalizer of the equalizer secondary node is an equalizer middle secondary node or an equalizer leaf node belonging to a root load equalizer. When the secondary load equalizer is the equalizer middle secondary node, the secondary load equalizer has a next stage equalizer secondary node; when the secondary load equalizer is the equalizer leaf node, the secondary load equalizer has a leaf service node secondary node, and the leaf service node secondary node comprises at least one service node. The invention can reduce the storage burden of the cluster system, solve the problem of low reliability of the cluster system, which is caused by the storage burden, realize cluster redundancy and increase the efficiency and the reliability of the whole cluster system and does not need to increase additional costs.
+20. 101719146 Dynamic graphical method and device of geographic information application and analysis model
+CN
+02.06.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910238157.7
+Beijing SuperMap Software Co., Ltd.
+Kong Fanwei
+G06F 17/30
+Loading...
+The invention provides dynamic graphical method and device of a geographic information application and analysis model. The method comprises the following steps of: extracting space geographic information analysis model key words from the structural object information of the application and analysis model; establishing a space analysis model according to a word analysis result of the obtained space geographic information analysis model key words; and dynamically displaying a space geographic information analysis result generated by the space analysis model in the graphic form on a map. The analysis result of a geographic information space model of an application and analysis scheme can be dynamically displayed on an electronic map in a visual graphic form through establishing an incidence relation between the structural object information of the application and analysis model and the space analysis model, which solves the problem of low degree of automation of the traditional application and analysis model in a graphical process and realizes the purposes of simple input, intelligent analysis and automatic display.
+21. 101388904 GIS service aggregating method, device and system
+CN
+18.03.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810117332.2
+Beijing SuperMap Software Co., Ltd.
+Wang Erqi
+H04L 29/08
+Loading...
+The invention discloses a GIS service aggregating system, which comprises a client side, a Web server and a GIS server. Each of the client side, the Web server and the GIS server is equipped with multiple service access components corresponding to a third side service type. In which, the client side comprises a request submitting module, a Web interface module, a component scheduling module, a service access component, a client side service aggregating module and an overlapping module; the Web server comprises a client side interface module, a GIS interface module, a component scheduling module, a service access component and a Web layer service aggregating module; and the GIS server comprises a Web server interface module, a component scheduling module, a service access component, and a GIS layer service aggregating module. The invention is applied in GIS field to integrate the services in different types from different resources by a standardization process, and send to the client side in an uniform mode, consequently, combines the SOA and GIS better, and satisfies the demand to quick service in GIS field.
+22. 101354710 Method and apparatus of line segment intersection
+CN
+28.01.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810116456.9
+Beijing SuperMap Software Co., Ltd.
+Qiu Li
+G06F 17/30
+Loading...
+The invention discloses a method and a device for intersecting line sections, solving the problems of the prior line section intersecting method. The method comprises the following steps: the data to be processed is divided into data blocks, the intersecting calculation of the line sections of each data block is performed; each data block is meshed, whether the number of the line sections through the inner part of each grid is higher than the preset threshold value is judged, if not, the point of intersection of the line section inside the grid is calculated; if yes, the point of intersection of the line section inside the grid is calculated by a scanning beam method; and the point of intersection obtained by calculating is inserted into the line section of the point of intersection. The method avoids the sharp decline of the intersecting efficiency of the line section caused by the imbalanced data distribution, and adopts the mode of parallel computation to process the intersection of the line section inside each data block, thereby further improving the calculation efficiency. The method realizes the sufficient adoption of the multi-core and multi-CPU hardware equipment, greatly improves the intersecting performance of the line sections, and provides the solid technical guarantee for the improvement of the whole performance of the space analysis.
+

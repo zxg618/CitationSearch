@@ -1,0 +1,2401 @@
+1. 106598721 媒资数据流转方法及装置
+CN
+26.04.2017
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201611231633.9
+UT斯达康(深圳)技术有限公司
+欧阳涛
+G06F 9/48
+Loading...
+本发明适用于媒资技术领域，提供了一种媒资数据流转方法及装置，所述媒资数据流转方法包括：获取待处理的媒资数据以及媒资数据对应的工单，其中，媒资数据对应的工单为对媒资数据进行工位作业调度的指令单据；解析媒资数据对应的工单并自动生成相应的任务指令；根据媒资数据对应的工单、任务指令对媒资数据进行处理。本发明通过对媒资数据自动、高效地处理，从而提高了媒资数据的管理效率。
+2. 106604043 一种互联网直播方法及直播服务器
+CN
+26.04.2017
+H04N 21/2183 Loading...
+H04N 21/2183
+Loading...
+201611270040.3
+UT斯达康(深圳)技术有限公司
+陈涛
+H04N 21/2183
+Loading...
+本发明公开了一种互联网直播方法及直播服务器，其中，所述互联网直播方法包括：直播服务器接收客户端发送的数据请求指令；根据所述数据请求指令，确定所述客户端请求的目标媒体数据；在所述数据索引文件中查找所述目标媒体数据的索引信息，其中，所述数据索引文件用于记录媒体数据在数据缓存池的位置；所述数据缓存池设置于所述直播服务器内存中，用于缓存来自源服务器的媒体数据；根据所述目标媒体数据的索引信息，从所述数据缓存池中定位所述目标媒体数据并发送至客户端。本发明方案能够减少直播服务器对分布式文件系统的投入，节约成本，提升对缓存的媒体数据的管理效率。
+3. 203368502 一种远程存取运行日志记录和电路测试装置
+CN
+25.12.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201320350655.2
+UT斯达康通讯有限公司
+张劲松
+H04L 12/26
+Loading...
+本实用新型公开了一种远程存取运行日志记录和电路测试装置，用于对通信设备进行远程运行日志记录存取和电路测试，包括控制管理模块、网络接口模块和串行接口模块。通过网络接口模块安装在目标通信设备的SFP接口上，通过SFP接口进行取电和网络连接，另一端通过串行接口模块与目标通信设备的串行输出端口连接，可以将目标通信设备输出的信息数据保存在实用新型的装置内，并且远端管理设备可以通过telnet对本实用新型的装置进行访问。本实用新型方便携带安装，能够自动上电运行，避免了另外从设备机房取电，也节省了机房的安装空间。
+4. 102945236 一种通过事件触发同步不同数据库的方法
+CN
+27.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110387829.8
+UT斯达康通讯有限公司
+高中虎
+G06F 17/30
+Loading...
+本发明公开了一种通过事件触发同步不同数据库的方法，实现在不同种类数据库、不同的数据模型环境下，一个源数据库及时同步到多个目标数据库，以及大批量数据快速同步，它包括当源数据库中的数据变更时，产生请求同步的变更事件；推送数据模块扫描源数据库中的变更事件，当有变更事件时，就触发推送数据模块将这次变更的数据按照接收数据模块的数据结构组成数据包，发给接收数据模块；接收数据模块经过数据包解析后写入目标数据库。
+5. 102946349 一种基于OSPF协议的以太网E-Line业务链路发现方法及装置
+CN
+27.02.2013
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201210041762.7
+UT斯达康通讯有限公司
+吴一斐
+H04L 12/741
+Loading...
+本发明涉及一种基于OSPF协议的以太网E-Line业务链路发现方法及装置。主要是解决现有技术中基于IP地址或链路层发现协议发现链路拓扑方法存在的实现复杂、效率低的问题。该方法是以OSPF查询作为基础，结合MPLS查询所得到的AC、PW、LSP链路信息以完成自动搜索业务链路。本发明具优点在进行中间网络测试时，只需输入始末两个网元的IP地址和测试仪器的IP地址，以及始末两个网元和测试仪器之间的连接关系，就可以进行自动化网络测试即自动发现业务链路信息；可以实现自动化网络测试，提升了脚本的重复利用率，可以大大提高测试的效率，节省测试的成本。
+6. 102946376 一种异步通讯的实现方法
+CN
+27.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110387021.X
+UT斯达康通讯有限公司
+黄宇殊
+H04L 29/06
+Loading...
+本发明公开了一种异步通讯的实现方法，它使用异步通讯组件，使用多种应用协议进行数据通讯，包括：在应用A与应用B之间设置异步通讯组件，异步通讯组件分为管理端和代理端两个部分，管理端放置在主动发送的应用A上，代理端放置在被动接收的应用B上；管理端和代理端之间通过协议栈进行异步通讯。
+7. 102937955 一种基于MySQL双存储引擎的内存数据库实现方法
+CN
+20.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110387373.5
+UT斯达康通讯有限公司
+徐继军
+G06F 17/30
+Loading...
+本发明公开了一种基于MySQL双存储引擎的内存数据库实现方法，目的在于解决现有技术所存在的MySQL产品不能同时满足高可靠性、冗余备份、持久存储、高吞吐量、即时响应等技术问题。它能同时满足高可靠性、冗余备份、存储持久等要求，而且吞吐量大、响应速度快，使用十分方便，它包括以下步骤：选择两台计算机，并分别安装MySQL服务器；分别在所述两台MySQL服务器上启动相同的存储引擎，建立等同的数据库，以实现内存数据库的持久存储功能；利用MySQL的复制功能，使所述两个存储引擎互为备份；配置内存表等。
+8. 102938036 Windows动态链接库的分段双重加密及安全加载方法
+CN
+20.02.2013
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+201110388149.8
+UT斯达康通讯有限公司
+徐继军
+G06F 21/51
+Loading...
+本发明公开了一种Windows动态链接库的分段双重加密及安全加载方法，目的在于解决现有技术中动态链接库容易被跟踪调试，被应用程序私自加载，被静态反汇编等技术问题，它包括如下步骤：解析Windows动态链接库文件结构；建立私有动态链接库导出表；清除动态链接库导出表；分别对动态链接库文件的代码段、数据段使用指定加密算法的一个加密密钥进行加密；对整个动态链接库文件使用指定加密算法的另外一个加密密钥进行加密；加载时从私有动态链接库导出表输出接口函数给应用程序等。
+9. 102521232 一种互联网元数据的分布式采集处理系统及方法
+CN
+27.06.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110351493.X
+UT斯达康通讯有限公司
+杨细强
+G06F 17/30
+Loading...
+本发明涉及一种互联网元数据的分布式采集处理系统及方法，该系统包括配置管理图形用户接口模块、元数据采集组件模块和元数据输出模块，配置管理图形用户接口模块：采集分布式组件参数配置，元数据采集和输入日志查看；元数据采集组件模块：读取各业务应用系统的元数据采集配置，周期性地创建并分布式执行采集任务调度程序、生成各业务应用系统的所需要的元数据可扩展标记语言文件；元数据输出模块：负责将元数据可扩展标记语言文件输出给各业务应用系统。本发明有益的效果是:为互联网的元数据采集提供了通用、开放式的分布式组件和服务，为进一步实现互联网电视的站内精准搜索、内容聚合型应用的垂直搜索提供统一规范的数据源。
+10. 102404637 一种通过智能手机遥控电视的系统及方法
+CN
+04.04.2012
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201110351487.4
+UT斯达康通讯有限公司
+万超
+H04N 21/472
+Loading...
+本发明涉及一种通过智能手机遥控电视的系统及方法，该系统包括电视机、机顶盒和智能手机，所述系统还包括中心服务器，所述中心服务器通过互联网与机顶盒相连，所述智能手机通过互联网与中心服务器相连，所述智能手机通过http长连接操作机顶盒。本发明有益的效果是：在android手机和android机顶盒上均安装一个软件插件，通过RPC调用触发机顶盒android操作系统上的键盘或手势事件，从而实现用手机遥控机顶盒上的任何应用。遥控器与机顶盒是基于wifi网络通讯的，用户很熟悉自己的个人手机，特别是其中的输入法；手机软遥控有助于统一用户操作界面和操作方式，手机软遥控基于互联网技术，可以做到不受位置、距离、灵敏度影响，实现真正的远程遥控操作。
+11. 102025645 Method for scheduling data in peer-to-peer network
+CN
+20.04.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010623255.5
+UTStarcom Telecom Co., Ltd.
+Liu Wengang
+H04L 12/56
+Loading...
+The invention provides a method for scheduling data in a peer-to-peer (P2P) network. The P2P network is used for exchanging stream media data. According to the method, all data section requests transmitted to each P2P node which serves a scheduling period in the scheduling period are pre-collected so as to concentratedly schedule all the P2P nodes to reduce control overhead in the data request process; furthermore, the method provided by the invention determines an emergency scheduling method or a balance scheduling method used in a corresponding data scheduling period on the basis of the data requirement emergency degree of the nodes. The P2P data scheduling method can make full use of the advantages of the emergency scheduling method and the balance scheduling method in the periodic data scheduling process; and the two methods are combined together to find out and maximize the performance of a P2P group, improve the data exchanging efficiency, reduce the data exchanging redundancy and relieve the network burden.
+12. 101953089 Method and device for receiving diversity combining in OFDM system
+CN
+19.01.2011
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+200780102103.7
+Utstarcom Telecom Co., Ltd.
+Qiao Jia
+H04B 7/08
+Loading...
+A method and device for receiving diversity combining in orthogonal frequency division multiplexing system and an orthogonal frequency division multiplexing system, wherein the method for receiving diversity combining comprises the steps as follows: comparing the signal-to-noise ratio of all the diversity branches with a threshold; if there is a diversity branch whose signal-to-noise ratio is less than the threshold, setting the channel response estimated value of one or more diversity branches to zero according to the comparison result; calculating the maximum ratio combining output according to the receiving symbol of the carrier wave and the channel response estimated value of the diversity branch.
+13. 101926144 Apparatus and method for realizing automatic gain control in orthogonal frequency division multiple access system
+CN
+22.12.2010
+H04L 27/38 Loading...
+H04L 27/38
+Loading...
+200880125616.4
+Utstarcom Telecom Co., Ltd.
+Zhang Jing
+H04L 27/38
+Loading...
+An apparatus for realizing automatic gain control in OFDMA system is provided, the apparatus includes: the automatic gain controller, the Analog-Digital Converter and baseband processing module. A method for realizing automatic gain control in OFDMA system is provided, the method uses the following steps: measuring the Carrier to Interference-plus-Noise Ratio and the receiving power on the data burst of each uplink on a frame-by-frame basis; computing the Interference-plus-Noise power of the (n-1)th frame; obtaining the Interference-plus-Noise receiving power and the available signal receiving power of the nth frame; computing the total receiving power of the nth frame; and obtaining the needed digital AGC gain value according to the corresponding relationship between the total receiving power and the AGC gain value of the nth frame. Using the apparatus and method for realizing automatic gain control in OFDMA system, estimating the available receiving power of the current frame with the amounts of the power adjustment from the base station, the total receiving power of the current frame may be more accurately computed, and the automatic gain control can be realized through the corresponding relationship between the total receiving power and the digital AGC gain.
+14. 101861706 A multi-antenna receiving diversity combining method and device with decoding feedback
+CN
+13.10.2010
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+200780101563.8
+Utstarcom Telecom Co., Ltd.
+Zhang Jing
+H04B 7/08
+Loading...
+A multi-antenna receiving diversity combining method with decoding feedback includes: (1) the multi-antenna receiver sorts each branch by value of signal noise ratio; (2) choosing the branch with the maximum signal noise ratio and demodulating and decoding, if the decode is right, the decode result is output; (3) if the decode is false, the branch with the second maximum signal noise ratio is added to the maximal ratio combining concourse, namely, carrying out maximal ratio combining for the branch with the maximum signal noise ratio and the branch with the subaltern maximum signal noise ratio, and demodulating and decoding, if the decode isright, the decode result is output; (4) if the decode is false, according to the said method, the branch with the third maximum signal noise ratio is added to the maximal ratio combining concourse, until the decode is right, or all branch have participated in the maximal ratio combining.
+15. 101801073 Method and device for estimating rician fading channel K factor
+CN
+11.08.2010
+H04W 52/04 Loading...
+H04W 52/04
+Loading...
+200910008670.7
+UTStarcom Incorporated.
+Qiao Jia
+H04W 52/04
+Loading...
+The invention discloses a method and a device for realizing estimation of K factor of a rician fading channel. The device comprises a channel estimation mould, a noise estimation mould and a K factor estimation mould, wherein the channel estimation mould is used for estimating channel response according to sampled pilot signals; the noise estimation mould is used for estimating hot noise power; and the K factor estimation mould is used for estimating the K factor of the rician fading channel according to channel response and the estimation result of the hot noise power. Due to the consideration of the influence of hot noise, the method for estimating the K factor of the rician fading channel provided by the invention greatly improves the estimation precision of the K factor of the rician fading channel, and can display great superiority in particular under the condition of low signal-to-noise ratio.
+16. 101754277 Method for selecting access gateway and control node of access gateway
+CN
+23.06.2010
+H04W 28/08 Loading...
+H04W 28/08
+Loading...
+200810187263.2
+UTStarcom Telecom, Co., Ltd.
+Fei Peng
+H04W 28/08
+Loading...
+The invention discloses a method for selecting an access gateway in a CDMA network and a control node of the access gateway. The method for selecting the access gateway comprises the following steps of: transmitting registration request information to the control node of the access gateway by a wireless network; selecting the access gateway according to the contract signing attribute of a user by the control node of the access gateway and transmitting a label selecting the access gateway to the wireless network; and accessing a terminal into an IP network by the wireless network through the access gateway. By the method and the control node of the access gateway which are provided by the invention, the control nodes of PDSNs can select the PDSNs according to the contract signing attribute of the user when a plurality of PDSNs provide services simultaneously, and the load balancing of the total system is ensured.
+17. 101686217 Method and device for detecting ranging code of uplink channel of orthogonal frequency division multiple access (OFDMA) system
+CN
+31.03.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810211718.X
+UTStarcom Telecom Co., Lid.
+Zhang Jing
+H04L 27/26
+Loading...
+The invention discloses a method and a device for detecting a ranging code of an uplink channel of an orthogonal frequency division multiple access (OFDMA) system. The method comprises the following steps: after converting the received ranging signal, acquiring an energy value of each time delay tap; judging whether the maximum peak value and the second maximum peak value of the energy of each time delay tap are adjacent or not, if the maximum peak value and the second maximum peak value are adjacent, determining a decision value of the energy of each time delay tap according to the maximum peak value and the second maximum peak value, and if the maximum peak value and the second maximum peak value are not adjacent, setting the decision value of the energy of each time delay tap as a maximum peak value of the energy of each time delay tap; and according to the decision value and the threshold value of the energy of each time delay tap, determining whether a user is detected on the ranging code or not. The method for detecting the ranging code of the uplink channel of the OFDMA system greatly reduces the undetected probability of the ranging code detection by judging whether the maximum peak value and the second maximum peak value of the energy of each time delay tap are adjacent or not.
+18. 201369448 一种单孔微型连接器装置
+CN
+23.12.2009
+H01R 13/621 Loading...
+H01R 13/621
+Loading...
+200920069263.2
+UT斯达康通讯有限公司
+吴宗明
+H01R 13/621
+Loading...
+一种单孔微型连接器装置，包括连接器线缆端和面板，连接器线缆端设有电性对接插头，在插头一方一体注塑成型有一个螺钉孔位，所述的螺钉孔位上组装有一颗紧固螺钉，面板对应螺钉孔位的位置压铆设置有一与所述紧固螺钉相匹配的螺母。以实现单孔微型连接器与面板之间的可靠连接，保证了连接器连接的高可靠性。
+19. 201369449 一种多孔微型连接器装置
+CN
+23.12.2009
+H01R 13/621 Loading...
+H01R 13/621
+Loading...
+200920069264.7
+UT斯达康通讯有限公司
+吴宗明
+H01R 13/621
+Loading...
+一种多孔微型连接器装置，包括连接器线缆端和面板，连接器线缆端设有多个电性对接插头，在插头的一方一体注塑成型有螺钉孔位，所述的螺钉孔位上组装有紧固螺钉，面板对应螺钉孔位的位置压铆设置有与所述紧固螺钉相匹配的螺母。以实现多孔微型连接器与面板之间的可靠连接，保证了连接器连接的高可靠性。
+20. 101515019 Dynamic boundary scanning chain test method based on programmable devices
+CN
+26.08.2009
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200910047670.8
+UT Starcom Co., Ltd.
+Wang Qingxiang
+G01R 31/28
+Loading...
+The invention provides a dynamic boundary scanning chain test method based on PLD and FPGA devices. A dynamic scan chain linker (DSCL) is specialized in a programming device by adopting HDL RIL codes for realizing the dynamic loading and unloading of a plurality of scanning chains, thus limberly testing boundary scanning circuits. The DSCL comprises an IEEE 1149.1 TAP state machine, an instruction order register, an identifier register, a chain control register, a RTI synchronous register, a bypass register and a chain linker so that a test machine can control the chain control register by a testing access port TAP, and the chain linker links the scanning chains hooked on a link scanning port (LSP) according to the value of the chain control register.
+21. 101507323 Method for node B obtaining the channel quality information in TDD HSDPA system
+CN
+12.08.2009
+H04W 28/18 Loading...
+H04W 28/18
+Loading...
+200680055589.9
+UTStarcom Co., Ltd.
+Zhang Jing
+H04W 28/18
+Loading...
+A method for a node B obtaining the channel quality information in a TDD HSDPA system includes: the radio network controller (RNC) sends a measurement control message to a user equipment (UE), requests the UE reporting the downlink received signal quality of the serving HS-DSCH cell; the UE reports the downlink channel quality information to the RNC via a measurement report message; the RNC forwards the downlink channel quality information to the node B via a HS-DSCH (high speed downlink shared channel) frame. With the invention, when the node B performs transmission to the UE on the HS-DSCH for the first time, or the time interval is too long, the modulation and coding mode could be selected based on current channel quality information.
+22. WO/2009/094841 A METHOD FOR RAPID AND SMOOTH CHANNEL SWITCHING IN IPTV SET-TOP BOX
+WO
+06.08.2009
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+PCT/CN2008/002095
+UTSTARCOM TELECOM CO., LTD.
+LIU, Shaojun
+H04N 5/00
+Loading...
+A method for rapid and smooth channel switching, which is used in digital TV system for channel switching is provided. In the case of channel switching, at first, the decoder is adjusted into a fast forward state, and decodes the video for display, then the decoder is recovered into a normal playing state and begins to decode the audio and video simultaneously. In order to ensure the non-loss of the audio and video, the system clock is adjusted to guarantee the non-loss of the audio, at the same time, the video clock acceptance-limit parameter N of the decoder is adjusted to guarantee the non-loss of the video. The value N is reduced gradually to approach the value N in the state of synchronization of video and audio. Then the synchronization of the audio and video is realized and the next channel is began to display. With the method of present invention, the channel switching time can be shortened within one second in the same network condition without changing the configuration of the encoder. The speed of channel switching of present invention can reach or exceed that in traditional cable TV. And it is solely necessary to adjust the system software and needn't to adjust the hardware, thus, the improvement of the switching speed can be realized with the minimum cost.
+23. WO/2009/092177 AN APPARATUS AND METHOD FOR REALIZING AUTOMATIC GAIN CONTROL IN ORTHOGONAL FREQUENCY DIVISION MULTIPLE ACCESS SYSTEM
+WO
+30.07.2009
+H04L 27/38 Loading...
+H04L 27/38
+Loading...
+PCT/CN2008/000145
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04L 27/38
+Loading...
+An apparatus for realizing automatic gain control in OFDMA system is provided, the apparatus includes: the automatic gain controller, the Analog-Digital Converter and baseband processing module. A method for realizing automatic gain control in OFDMA system is provided, the method uses the following steps: measuring the Carrier to Interference-plus-Noise Ratio and the receiving power on the data burst of each uplink on a frame-by-frame basis; computing the Interference-plus-Noise power of the (n-1)th frame; obtaining the Interference-plus-Noise receiving power and the available signal receiving power of the nth frame; computing the total receiving power of the nth frame; and obtaining the needed digital AGC gain value according to the corresponding relationship between the total receiving power and the AGC gain value of the nth frame. Using the apparatus and method for realizing automatic gain control in OFDMA system, estimating the available receiving power of the current frame with the amounts of the power adjustment from the base station, the total receiving power of the current frame may be more accurately computed, and the automatic gain control can be realized through the corresponding relationship between the total receiving power and the digital AGC gain.
+24. 101480081 Method for realizing cell change of serving hs-dsch between node b in hsdpa system, the telecommunication system for realizing the method and program product including program instructions for realizi
+CN
+08.07.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200680055201.5
+UTStarcom Communication Co., Ltd.
+Zhang Jing
+H04L 29/06
+Loading...
+A method for realizing MAC-hs reconfiguration function in the cell change of serving HS-DSCH between Node B in HSDPA system is disclosed. SRNC (serving radio network control) requests the original Node B to forward the HS-DSCH data frame without being processed by original Node B, the original Node B sends the non-processed HS-DSCH data frame to SRNC. After receiving, SRNC forwards the frame to the target Node B. The present invention also provides a device, wireless telecommunication system and program product for realizing the above method. The present invention not only can be applied in AM RLC mode, but also can be applied in UM RLC mode. The present invention can obtain the advantage of avoiding the transmission of high level signal in wireless interface, therefore, greatly reducing process time delay.
+25. WO/2009/079814 ADAPTIVE MULTI-ANTENNA RECEIVING DIVERSITY MERGING METHOD AND DEVICE
+WO
+02.07.2009
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+PCT/CN2007/003507
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04B 7/08
+Loading...
+A receiving diversity merging method for an adaptive multi-antenna system includes these steps of: comparing the received signal SNR of each branch with a preset threshold T1 before the multi-antenna receiver carries out receiving merging; (2) if the received signal SNRs of all branches are less than the preset threshold T1, regarding the received signal of one of the branches as the received signal and carrying out demodulation;(3) if not all the received signal SNRs of all branches are less than the preset threshold T1, judging that whether or not the SNR of the branch whose SNR is the least one is less than the preset threshold T2; (4) if the SNR of the branch whose SNR is the least one is less than preset threshold T2, selecting the received signal of the branch whose SNR is the largest one as the received signal and carrying out selective merging demodulation; (5) if the SNR of the branch whose SNR is the least one is larger than or equal to the preset threshold T2, making use of the received signals of all the branches to carry out maximal ratio merging demodulation.
+26. WO/2009/079813 A MULTI-ANTENNA RECEIVING DIVERSITY COMBINING METHOD AND DEVICE WITH DECODING FEEDBACK
+WO
+02.07.2009
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+PCT/CN2007/003506
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04B 7/08
+Loading...
+A multi-antenna receiving diversity combining method with decoding feedback includes: (1) the multi-antenna receiver sorts each branch by value of signal noise ratio; (2) choosing the branch with the maximum signal noise ratio and demodulating and decoding, if the decode is right, the decode result is output; (3) if the decode is false, the branch with the second maximum signal noise ratio is added to the maximal ratio combining concourse, namely, carrying out maximal ratio combining for the branch with the maximum signal noise ratio and the branch with the subaltern maximum signal noise ratio, and demodulating and decoding, if the decode isright, the decode result is output; (4) if the decode is false, according to the said method, the branch with the third maximum signal noise ratio is added to the maximal ratio combining concourse, until the decode is right, or all branch have participated in the maximal ratio combining.
+27. WO/2009/079849 METHOD AND DEVICE FOR RECEIVING DIVERSITY COMBINING IN OFDM SYSTEM
+WO
+02.07.2009
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+PCT/CN2007/003736
+UTSTARCOM TELECOM CO., LTD.
+QIAO, Jia
+H04B 7/08
+Loading...
+A method and device for receiving diversity combining in orthogonal frequency division multiplexing system and an orthogonal frequency division multiplexing system, wherein the method for receiving diversity combining comprises the steps as follows: comparing the signal-to-noise ratio of all the diversity branches with a threshold; if there is a diversity branch whose signal-to-noise ratio is less than the threshold, setting the channel response estimated value of one or more diversity branches to zero according to the comparison result; calculating the maximum ratio combining output according to the receiving symbol of the carrier wave and the channel response estimated value of the diversity branch.
+28. 101473550 Method for calculating CQI during HS-PDSCH halt transmission period in UTRATDDHCR system, terminal UE capable of implementing the method, wireless communication system containing the UE and program pr
+CN
+01.07.2009
+H04B 7/00 Loading...
+H04B 7/00
+Loading...
+200680055126.2
+UT Starcom Co., Ltd.
+Zhang Jing
+H04B 7/00
+Loading...
+A method for calculating channel quality index CQI in user terminal UE side during the period for downlink high speed physical share channel HS-PDSCH not transmitting in universal terrestrial wireless access UTRA time duplex TDD high chip rate HCR system, includs steps: during the period for HS-PDSCH not transmitting, UE obtains the information relate to wireless channel environment changing; during the period for HS-PDSCH transmitting, according the wireless channel environment changing information obtained in above step the UE produces CQI reference value, and according to the wireless channel environment changing during the period for HS-PDSCH transmitting,UE amends the CQI reference value and produces CQI amendment value,and obtains the correct CQI final value according to the CQI amendment value.A device for realizing above method is provided, and a wireless communication system and program product and a storage media thereof are also provided. With this method,UE can emtimate the channel quality index CQI correctly,even during the period for HS-PDSCH not transmitting.
+29. 101467360 Portable equipment with non-contact intelligent card function
+CN
+24.06.2009
+H04B 5/00 Loading...
+H04B 5/00
+Loading...
+200680054979.4
+UT Starcom Co., Ltd.
+Sun Jie
+H04B 5/00
+Loading...
+A portable device having noncontact smart card function comprises: a detecting unit adapting to respond the signal sent by the reader writer; a processing unit connected to the detect unit; and RF circuit adapting to communicate with the reader writer and connected to the processing unit, wherein the processing unit sends start-up signal by responding to the detecting signal to start the communication processing between the RF circuit and the reader writer. It can realize automatically and quickly brushing the card through the portable device by integrating the smart card function into the portable device, and relying on the processing capability of the portable device to integrate numerous smart cards together is able to realize the la 'universal card'. And it can also realize the function of inputting and amending the smart card's information via the human-machine interface of the mobile phone.
+30. 101444052 Method and apparatus for multiple unicast delivery of media
+CN
+27.05.2009
+H04L 12/66 Loading...
+H04L 12/66
+Loading...
+200580047920.8
+Utstarcom Inc.
+Puthupparambil Devarajan S.
+H04L 12/66
+Loading...
+Unicast delivery of media to multiple recipients is achieved. An originating client issues call setup request. A list of addresses of multiple recipient clients is obtained from the call setup request. A connection is then made with the plurality of recipient clients and the media is delivered from the originating client to the plurality of recipient clients. A universal user port agent receives the list of addresses from the originating client and makes the connection with the plurality of recipient clients. When an originating client receives a reply message that a recipient client is unavailable, it may be built with the capability to search for alternate addresses and send a new call setup request.
+31. 101427604 PHS/WiMAX dual-mode base station
+CN
+06.05.2009
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+200680054411.2
+UTStarcom (China) Corp.
+Yu Xiaoming
+H04W 88/08
+Loading...
+A PHS/WiMAX dual-mode base station includes antenna for receiving and transmitting PHS signal based on PHS air interface specification and WiMAX signal based on WiMAX air interface specification; PHS module for performing the function of PHS base station; WiMAX module for performing the function of WiMAX base station; and network interface for connecting the PHS module and the WiMAX module to network. The base station can be managed by external base station management system via the network interface. The base station can implement base stations located together, antenna sharing, loop line resource sharing, and network and network management resource sharing, thus saving the cost of building and operation.
+32. 101427524 Method and system for providing an interface between switching equipment and 2g wireless interworking function
+CN
+06.05.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200580016166.1
+Utstarcom Inc.
+Sharma Abhishek
+H04L 12/56
+Loading...
+An Ethernet link connects a wireless switch and an interworking function (IWF). Both signaling information and bearer data are exchanged over the Ethernet link. The Ethernet-based interface enables wireless switch companies to keep their 2G customer base without having to deploy additional third party equipment. In order to make the Ethernet link function, an IWF chassis is modified to connect an Access Router card to a PRI card. The Access Router card packetizes and de-packetizes data to and from the PSTN. Additionally, a protocol is implemented between an application card and the Access Router card so that the application card can communicate signaling information to the Access Router card.
+33. 101426022 Implementation method for deploying JAD file in server onto mobile phone using graphical interface
+CN
+06.05.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810162243.X
+Zhejiang University
+Chen Tianzhou
+H04L 29/08
+Loading...
+The invention relates to an embedded type equipment deployment JAD file field and means to provide a method for deploying JAD file of server to mobile phone using graphical interfaces. The method comprises: establishing server, modifying JAD file attribute, compiling HTML file, downloading JAD file on server, analyzing attribute of JAD file, downloading JAR file of file system, installing temporary file and memory, operating already installed suite. The invention contains whole employment process including downloading, storing, listing, operating and removing suite.
+34. 101425073 Method for deploying JAD file on server to emulator by command line
+CN
+06.05.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810162242.5
+Zhejiang University
+Hu Wei
+G06F 17/30
+Loading...
+The invention relates to an implement method for applying a JAD file of a command line disposition server to a simulator, which belongs to the field of the disposition of an embedding type simulator. The method comprises the following steps: constructing a server, modifying JAD file attributes, downloading a JAD file of the server, analyzing the attribute of the JAD file, downloading a JAR file of a file system, installing and storing a temporary file, running an installed matched set, listing the installed matched set and removing the matched set. The method has the main function that the character of a whole process of the disposition is combined and comprises downloading, storage, listing, running and matched set removing so as to form an integrated disposition process. The invention has the advantages of convenience and flexibility.
+35. 101419607 Method for deploying JAR file in file system to simulator by using command line
+CN
+29.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810162239.3
+Zhejiang University
+Shi Qingsong
+G06F 17/30
+Loading...
+The invention relates to the embedded simulator deployment field. The invention aims at providing a method which uses a command line for deploying a JAR file in a file system to a simulator. The method comprises: the JAR file in a file system is downloaded, a temporary file is installed and stored; an installed package is run; the installed package is listed, and the package is removed. The main functions of the invention combine the characteristics of the entire deployed process, comprising downloading, storing, listing, running and removing the package and forming a complete deployment process. The invention has efficiency, practicality and independence.
+36. 101419609 Method for deploying JAR file in server to simulator by using command line
+CN
+29.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810162241.0
+Zhejiang University
+Shi Qingsong
+G06F 17/30
+Loading...
+The invention relates to the embedded simulator deployment field. The invention aims at providing a realizing method for using a command line to deploy a JAR file on a server to a simulator. The method comprises: a server is constructed, the JAR file in a file system is downloaded, a temporary file is installed and stored; an installed package is run; the installed package is listed, and the package is removed. The main functions of the invention combine the characteristics of the entire deployed process, comprising downloading, storing, listing, running and removing the package and forming a complete deployment process. The invention has convenience and flexibility.
+37. 101419608 Method for deploying JAD file in file system to simulator by using command line
+CN
+29.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810162240.6
+Zhejiang University
+Chen Tianzhou
+G06F 17/30
+Loading...
+The invention relates to the embedded simulator deployment field. The invention aims at providing a method which uses a command line for deploying a JAD file in a file system to a simulator. The method comprises: the JAD file in the file system is downloaded, the property of the JAD file is analyzed, a JAR file in the file system is downloaded, a temporary file is installed and stored; an installed package is run; the installed package is listed, and the package is removed. The main functions of the invention combine the characteristics of the entire deployed process, comprising downloading, storing, listing, running and removing the package and forming a complete deployment process. The invention has efficiency, practicality and independence.
+38. 101416442 System and apparatus for a network management system using presence and instant message techniques
+CN
+22.04.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200480036536.3
+Utstarcom Inc.
+Li Bingjun
+H04L 12/24
+Loading...
+Provided is a system for network management incorporates presence and instant messaging (PIM) techniques. A presence service is used to support the presence discovery of network elements as well as the resources, and services provided by the network elements. An instant messaging service is used for communication between the Element Management System (EMS) (14) and the network elements (28a, 28b, 28c) to support FACPS functionalities. XML is employed as the instant messaging format for the communication between EMS and network elements and adaptors to SNMP, CMIP, and other existing network management protocols (26) are provided. The presence service also allows the presence of NMS (12), EMS (14), and SMS (54) to be transparent. Use of buddy group PIM techniques to implement the management relationship between EMS and network elements, and relationship between EMS and NMS is employed. The PIM provides monitoring of servers, network elements, and resources.
+39. 101325728 Allocating method for ranging CDMA code of OFDMA system
+CN
+17.12.2008
+H04Q 7/20 Loading...
+H04Q 7/20
+Loading...
+200710111165.6
+UT Starcom Co., Ltd.
+Qiao Jia
+H04Q 7/20
+Loading...
+The invention discloses a method for distributing OFDMA system ranging CDMA code and corresponding base station, comprising steps as follows: detecting ranging code in access to users; calculating the occupancy rate of ranging code according to relevant detected ranging code; confirming whether the calculated occupancy rate of ranging code matches with the amount of ranging code; and adjusting the current distribution of ranging code if mismatching is existed, to eliminate the mismatching.
+40. 101325779 Method for adjusting subscriber station power during initiating ranging process of broadband wireless access system
+CN
+17.12.2008
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200710111166.0
+UT Starcom Co., Ltd.
+Qiao Jia
+H04Q 7/34
+Loading...
+The invention discloses a method for controlling the distance-measuring tentative transmitting power, comprising: transmitting the request to the base station to process the distance-measuring message; trying to receive the response from the base station; and re-executing the transmitting request and the receiving response if the response from the base station is not received; to the i-th distance-measuring tentative, it the following powers: Pi=EIPxP IR, min+BS-EIRP-RSSi+ (G less than Rx-SS-G less than Tx-SS+(i-1)*(EIPxP IR, max- EIPxP IR, min/(N-1)) transmits the request to the base station; i is the from 1 to N, EIPxP IR.min represents the minimum equivalent and isogonic receiving power needed by the demodulating distance-measuring tentative transmitting power in the tentative process; N represents the tentative quantity of the maximum; RSSi represents the receiving signal intensity for the i-th distance-measuring tentative user measurement; the EIPxP IR, max is the maximum equivalent and isogonic receiving power; BS-EIRP is the equivalent and isogonic transmitting power; the G Rx-SS is the user station receiving antenna increase; the GTx-SS is the user station transmitting antenna increase.
+41. 101291544 Method and system connecting roaming terminal and PDSN of home location
+CN
+22.10.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810127036.0
+UT Starcomm
+Fei Peng
+H04L 12/56
+Loading...
+The invention provides a method and a system for connecting a roaming terminal and home-location pack data service nodes. When the roaming terminal roams to a visited place, the connection between the roaming terminal and the visited place PDSN is established through a wireless network; a point-to-point protocol link control flow and a point-to-point protocol authentication flow between the roaming terminal and the visited place PDSN are initiated; an IP address of a home-location PDSN is obtained through the visited place PDSN; the visited place PDSN sends registration information defined by a PP interface to the home-location PDSN so as to establish PP connection between the visited place PDSN and the home-location PDSN; and the visited place PDSN returns the received IP address to the roaming terminal so as to establish the connection between the roaming terminal and the home-location PDSN. The method utilizes a service data transmission channel provided by the PP connection to establish the connection between the roaming terminal and the home-location and transmit the data of the roaming terminal back to the home-location.
+42. 101287160 Method for transmitting data in mobile communication network
+CN
+15.10.2008
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200810092561.3
+UT Starcomm
+Zhang Songbo
+H04Q 7/22
+Loading...
+The invention provides a method used for transmitting data in a mobile communication network, which comprises steps as follows: a terminal sends a short message which comprises an application service request to a mobile service exchange center; the mobile service exchange center sends the application service request to a corresponding application service server; the application service server returns the service data to the mobile service exchange center; and the mobile service exchange center sends a confirming message to the terminal and the service data are encapsulated in the confirming message. The downlink carrying of the service data is realized according to the embodiment of the invention and by encapsulating the service data in the confirming message and returning the service data to the terminal by the cooperative operation of a short message service center or a core network device and the application service server, thus the mode saves the occupation of network resources. In addition, although the service data are encapsulated in the confirming message by the mode, devices such as the subsystem of a base station and the mobile service exchange center, etc. can still process the MO process according to the existing mode; thus the realization is more convenient and the cost for service development is reduced.
+43. WO/2008/119259 A SYSTEM AND METHOD FOR PERFORMING A DYNAMIC ADAPTIVE FORWARD ERROR CONTROL IN IPTV NETWORK
+WO
+09.10.2008
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+PCT/CN2008/000664
+UTSTARCOM TELECOM CO., LTD
+CHEN, Junkai
+H04L 1/00
+Loading...
+A method for performing an error control on the missing of the data packets over IP network by means of a dynamic adaptive FEC in an IPTV system, comprises a real time feedback adjustment and a counting feedback adjustment, wherein, during the real time feedback adjustment, a FEC decoder sends the number of the missing data packets of the FEC packet obtained by counting to a FEC encoder, and the FEC encoder adjusts the number of the FEC data packets to be transmitted of the current FEC packet; during the counting feedback adjustment, the FEC decoder counts the condition of the missing data packets of the FEC packet over IPTV network during acertain time period, and accordingly, the FEC encoder adjusts the number of the FEC data packets of all the FEC packets to be transmitted sequently. Furthermore, the present invention also provides an IPTV system for performing a dynamic adaptive forward error control on the transmission of the streaming media content over network, which includes a set-top box, a streaming server and an authentication server. With the system and method of the present invention, it is possible to perform a dynamic adaptive error control on the transmission mode over IP network so that the maximum restorability of the missing data packets over IPTV network is provided, thus the problem of the quality depravation of the audio/video due to the missing of the data packets over IP network is solved effectively.
+44. WO/2008/119235 DISTRIBUTION SYSTEM FOR DISTRIBUTING STREAM MEDIA, MEMORY BUFFER OF STREAM MEDIA AND DISTRIBUTING METHOD
+WO
+09.10.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2008/000466
+UTSTARCOM TELECOM CO., LTD.
+XIE, Zhuzhong
+H04L 29/06
+Loading...
+A distribution system for distributing stream media is provided, a slice of stream media content is buffered in memory and is stored on magnetic disk based on heat statistic, sharing the slice of media content is realized in media station and among media stations by intelligent distribution and user configuration based on heat statistic, when media service is provided to as more users as possible, network flux and disk IO access frequency is reduced as low as possible. Three buffering method in memory for the system base on heat statistic and the distribution method wherein the slice of media content serves as a buffering unit of memory distributed in media station and among media stations are also provided. Using the invention, the hit rate of memory buffer for media content is increased greatly, disk IO access frequency is reduced effectively, so the useful life of disk is extended, reliability and stability for the system are increased.
+45. 101282182 Method for testing mobile phone bluetooth function
+CN
+08.10.2008
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200810035971.4
+UT Starcom Co., Ltd.
+Liu Lujun
+H04B 17/00
+Loading...
+The present invention discloses a method for testing the bluetooth function of the mobile phone. The bluetooth function of the mobile phone is tested on the production line. Through binding a mobile phone with the tested bluetooth earphone before mass test, the bluetooth earphone information bound in the mobile phone is read out. The information is written into the tested mobile phone and the testing plan for directly testing the tested mobile phone. The procedure for seeking and binding bluetooth earphone on each set of tested mobile phone is saved, and thereby greatly increasing the test efficiency and saving the production cost.
+46. 101273374 Method to facilitate streaming content recipient interaction
+CN
+24.09.2008
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+200580040061.X
+Utstarcom Inc.
+Raman Sundar
+G06Q 30/00
+Loading...
+Non-commercial content (11) is combined with a commercial message (12) that itself comprises, in part, recipient-interaction facilitation content that in turn yields a respondable commercial message (13). This combination of content is streamed (15) via a wireless broadband channel to a recipient. Upon detecting (16) a recipient interaction event, a predetermined action is taken (17). This predetermined action can comprise, for example, automated storage of the commercial message and/or supplemental information as corresponds thereto. This predetermined action can also comprise, if desired, the establishment of a communication link between the viewer and the advertiser, or such other action as may be desired.
+47. 201123089 一种兼容双GSM与GSM/PHS双模双待的移动终端
+CN
+24.09.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200720198700.1
+UT斯达康通讯有限公司
+邵亮
+H04Q 7/32
+Loading...
+一种兼容双卡双待或双模双待的移动终端，其主从两套不同制式第一通讯系统模块和第二通讯系统模块，两套通讯系统模块具有各自独立的基带处理和射频系统，第一通讯系统模块支持双卡双待，第一通讯系统模块与第二通讯系统模块之间通过UART口相连，移动终端具有两个卡槽，分别是第一卡槽与第二卡槽，第一卡槽与第一通讯系统模块的基带处理芯片相连，支持第一通讯系统模块的用户卡，而第二卡槽能兼容第一通讯系统模块和第二通讯系统模块的用户卡，第二卡槽通过模拟开关分别接到第一通讯系统模块的基带芯片和第二通讯系统模块的基带芯片。从而通过切换模拟开关实现两种制式单模手机、单模双卡手机、双模双待手机的应用。
+48. 201119214 ATCA通用平台插框
+CN
+17.09.2008
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+200720075865.X
+UT斯达康通讯有限公司
+赵敏
+H05K 7/20
+Loading...
+本实用新型公开一种ATCA通用平台插框，其具有前表面、后表面、右侧面及左侧面，插框内安置有多个ATCA功能板和多个RTM模块，ATCA功能板是从前表面水平插入插框内部并在插框前部呈水平放置，RTM模块是从后表面水平插入插框内部并在插框后部呈水平放置。在插框的前表面安装有两个靠近于右侧面的风扇盘，用来吸入冷空气至插框内；而在插框的后表面安装有两个靠近于第二侧面的风扇盘，用来排出热空气至插框外。前后两个风扇盘的设计，一方面可以保证插框内气流有足够的压力，另一方面在某一风扇失效需要更换时，其中任何一个风扇盘均能独立工作并在短时间内保证插框内的ATCA功能板与RTM模块能正常工作。
+49. 101262705 Method and system for connection establishment and release in roaming user session
+CN
+10.09.2008
+H04W 72/02 Loading...
+H04W 72/02
+Loading...
+200810093024.0
+UT Starcom Telecom Co., Ltd.
+Fei Peng
+H04W 72/02
+Loading...
+The invention relates to a conversation connection and establishment method for roaming subscribers. After establishing an RP connection and completing a PPP link control and a PPP authentication, a visitor location PDSN obtains an IP address of a home location PDSN; a renegotiation procedure and the PPP authentication of the PPP link control are started through a PP connection and an access request authentication is processed on an access terminal; after passing the authentication, an IP address is distributed to the access terminal through a PPP IP address control procedure and the connection between the access terminal and the home location PDSN is established. The invention further relates to a conversation connection and establishment system for the roaming subscribers and a conversation connection release method for the roaming subscribers and a system thereof, wherein, the visitor location PDSN uses the PP connection to complete the process of connection establishment between the access terminal and the home location PDSN, thus using the PP connection to provide a transmission channel of business data so as to support the data regression for the roaming subscribers.
+50. 101232395 Method for implementing network appliance to automatically collocation install
+CN
+30.07.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710173417.8
+UT Starcomm
+Cai Yi
+H04L 12/24
+Loading...
+The invention provides a method for achieving automatic configuration and installation of network device, in particular to a network management system comprising a network management client terminal, a network management server, a software center, a configuration server and a DHCP server for an automatic configuration and installation of a blade server in an internet-based interactive television network. According to an overall network layout, the blade server is subjected to pre-configuration via the client terminal of the network management. According to physical location information of the blade server, a network interface configuration can be obtained via an extended DHCP and the configuration server and the software center is accessible to acquire a logic configuration and to download softwares to carry out automatic configuration and installation , thus achieving a plug-and-play characteristics of the blade server in network. The method avoids complicated installation and configuration operation of large amount and manual installation and configuration of the local computers one by one in the blade server, thus saving the maintenance and installation cost.
+51. 101233730 Universal port user agent capable of caching route information among sessions and associated method
+CN
+30.07.2008
+H04L 12/66 Loading...
+H04L 12/66
+Loading...
+200580047919.5
+Utstarcom Inc.
+Joseph Gigo K.
+H04L 12/66
+Loading...
+An initial call is setup by a universal port user agent by sending an invitation to the proxy server. The proxy server performs a directory lookup from a back end server to obtain route information to a destination. The route information is passed to the universal port user agent in response and is stored in the universal port user agent. When subsequent calls to the same destination are requested, the subsequent calls can be setup using the stored route information. A universal port user agent performs these call setups. The route information memory is managed based on a number of routes stored and the age of the stored routes. In certain embodiments the calls are setup using the Session Initiation Protocol (SIP).
+52. 101232706 Route selection method of wireless communication data network and system thereof
+CN
+30.07.2008
+H04Q 7/38 Loading...
+H04Q 7/38
+Loading...
+200710047961.8
+UT Starcomm
+Lu Xuewen
+H04Q 7/38
+Loading...
+The invention provides a method and a system thereof for selecting routes for a wireless communication data network. The system comprises a mobile terminal, a base station, a packet server and a packet control unit, wherein, the packet control unit communicates with the packet server through an IP network; any packet control unit can visit any packet server in a system; any packet server can provide services for any packet control unit in the system. The terminal will carry the mark of the selected packet server after building the initial link with the packet server. In the consequent link of the terminal and the following process of a first link, such as switchover/sleep, the packet control unit will select a route according to the packet server mark provided by the terminal. According to the system of the invention and the method thereof, the invention ensures that all links terminate in the same packet server and the packet server for providing service for the terminal is not changed in the process of switchover and sleep, thus reducing the complexity of network.
+53. 101232636 Business customizing method of embedded type browser sending short messages
+CN
+30.07.2008
+H04W 88/18 Loading...
+H04W 88/18
+Loading...
+200710047960.3
+UT Starcomm
+Wu Bei
+H04W 88/18
+Loading...
+The invention provides a method that a mobile terminal utilizes an embedded type browser to define operation; the mobile terminal can view a webpage provided by a browse service supplier through an embedded type browser; select a target operation before sending message definition or canceling target operation. Therefore, the invention can considerably improve the convenience and smoothness in operation definition and canceling; moreover, the user also masters initiative methods of the definition and canceling, so as to freely select favorable operation; meanwhile, the embedded type browser can provide the user with visualized feeling for the operation, so as to improve the satisfaction extent. As for the service supplier, it is only necessary to update the defined webpage according to the operations that are provided.
+54. 101227330 Method and system for history performance data collection
+CN
+23.07.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810009654.5
+UT Starcomm
+Li Hongmin
+H04L 12/24
+Loading...
+The invention provides a method and a system for sampling history performance data, storing management object information which is arranged on a network element by a system configuration management, reading the management object information which is arranged through a new-added backstage default task manager, generating default measurement tasks for all management objects which are arranged with the same type, and automatically synchronizing tasks to a network element side. After the network element side prepares data, a history performance data acquisition engine collects the history performance data to store. The invention improves the usability and the reliability for collecting the history performance data and guarantees the consistency and the stability of a data sampling process.
+55. 101197962 Fast and smooth channel switching method for IPTV set top box
+CN
+11.06.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810032238.7
+UT Sidakang Communication Co., Ltd.
+Liu Shaojun
+H04N 5/44
+Loading...
+The invention provides a method for quickly and smoothly switching channels, which is used in a digital television system for switching the channels, wherein, during the process of switching the channels, a decoder is firstly adjusted to forward state and video play is decoded, and then the decoder returns to normal state and begins to simultaneously decode audios and videos. In order to guarantee that the audios and the videos are not lost, a system clock is adjusted and the audios are guaranteed to be not lost; simultaneously, a tolerance limit parameter N of a video clock of the decoder is adjusted and the videos are guaranteed to be not lost. Moreover, N value is reduced gradually and approaches N value when the audios and the videos are synchronized; synchronization of the audios and the videos is realized and a next channel is begun to play. By adoption of the method of the invention, time for switching the channels is shortened to be within one second under the condition that arrangement of a coder is unnecessary to change in the same network condition, and switching speed reaches or exceeds speed for switching channels of the prior cable television; moreover, improvement of the switching speed is realized through minimum cost only with the necessity for adjusting system softwares and without the necessity for adjusting hardwares.
+56. WO/2008/064556 A LOCATION SYSTEM AND METHOD FOR A TV NAVIGATION INTERFACE
+WO
+05.06.2008
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+PCT/CN2007/003226
+UTSTARCOM TELECOM CO., LTD.
+FAN, Cunzhi
+H04N 7/173
+Loading...
+A location system for a TV navigation interface includes a set-top box (10) and an EPG server (20). A location method for a TV navigation interface includes that: the set-top box (10) uses the service normally, inputs an EPG interface code (110), and transmits the EPG interface code to the EPG server (120), and the server inquires an EPG interface address corresponding to the EPG interface code (130), returns the EPG interface address (140), requests the EPG interface directed by the EPG interface address (150), and returns the requested EPG interface (160). The system and method of the invention can locate the operation interface quickly bythe terse and perspicuous EPG interface code, and make the communication with other TV subscribers easily.
+57. 101194474 RPR inter-connecting method and system
+CN
+04.06.2008
+H04L 12/42 Loading...
+H04L 12/42
+Loading...
+200580050053.3
+UT Sidakang Communication Co., Ltd.
+Cheng Jun
+H04L 12/42
+Loading...
+A system for inter-connecting the resilient package ring (RPR) at least includes: the first RPR and the second RPR, in which the said RPRs at least include the work station and the standby station; the work channel for transmitting the cross-ring service is established between the work stations of the RPR, and the standby channel for the standby of the work channel is established between the standby stations of the RPR; said work stations and said standby stations have memory to store the first station identifier and the second station identifier which identifies themselves, in which the first station identifier is used for cross-ring service and the second station identifier is used for local service.
+58. 101194473 Method and site for achieving link aggregation between the interconnected RPR
+CN
+04.06.2008
+H04L 12/42 Loading...
+H04L 12/42
+Loading...
+200580050024.7
+UT Sidakang Communication Co., Ltd.
+Cheng Jun
+H04L 12/42
+Loading...
+A method is provided for achieving link aggregation between the interconnected resilient packet ring (RPR) in the RPR system, and the said interconnection system comprises at least the first RPR and the second RPR, and the said RPR comprises at least two sites crossing the ring. The method comprises the steps: at least two paths crossing the ring are established between the first RPR and the second RPR to transmit the service crossing ring. Wherein a site crossing ring is selected based on the aggregation policy configured to transmit the service crossing ring in the corresponding path crossing ring. The said method and the site of the present invention can automatically transfer the service in this site to the other path crossing ring after certain site or path crossing ring is fail, and wherein the protective time less than 50ms. The service crossing ring has the same CoS in the plurality of RPRs.
+59. WO/2008/061440 TESTING SYSTEM AND METHOD OF SET TOP BOX
+WO
+29.05.2008
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+PCT/CN2007/003241
+UTSTARCOM TELECOM CO., LTD.
+HUANG, Zhongyue
+H04N 17/00
+Loading...
+A testing system of set top box is disclosed. The system includes an input unit, an operation command processing unit, a remote control signal sending unit and a detecting unit. A testing method of set top box is also disclosed. The method includes the following steps: the command with first format is received; said command with first format is converted into a second format; the signal with second format is sent to said remote control signal sending unit using serial communication interface; the remote control signal is sent to said set top box by said remote control signal sending unit to respond the command with the second format. By using the testing system and method of the present invention, the engineer can be broken away from the heavy manual operation of the remote control keys and the testing of the set top box can be more accurate and easy.
+60. 101189889 Method and apparatus for presence status facilitation by an access gateway in a mobile communications system
+CN
+28.05.2008
+H04Q 7/20 Loading...
+H04Q 7/20
+Loading...
+200580047921.2
+UTstarcom Inc.
+Borella Michael S.
+H04Q 7/20
+Loading...
+A communications system is capable of knowing presence status of mobile communications devices such as cellular transceivers. An access gateway such as, for example, a PDSN access gateway or home agent access gateway, manages access to a mobile communications device. The access gateway knows the presence status of the mobile communications device and reports it to a presence server. The access gateway can know the presence status using attributes obtained during management of system operation by the access gateway.
+61. 101184275 Service implementing method and system and mobile terminal of mobile terminal rolling screen amusement
+CN
+21.05.2008
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200710302193.6
+UT Starcom Communication Corp.
+Yang Yang
+H04Q 7/22
+Loading...
+The invention relates to a business realizing method of mobile terminal rolling screen entertainment, the system and the mobile terminal, wherein, the method is as follow: a terminal sends a request of opening rolling screen entertainment service to the rolling screen entertainment server PPS through a message center or a message gateway; the PPS server opens the rolling screen entertainment service, preserves the opening status information of the terminal, and returns the website links of the default channel and the content information; the terminal chooses channel and content information according to the website links, and sends a request of customizing channel and content information to the PPS server; the PPS server termly sends out a download notification message containing the update time of the data packet depending on the user request; the terminal downloads the data packet containing information and/or photo information after receiving the download notification message; the terminal parses the data packet and preserves the data, when the mobile phone is on a standby state, and the terminal displays the information and/or the photo content in the data packet. The invention has the advantages of enabling the user to real-time obtain more information and entertainment information conveniently, and giving the user a better experience.
+62. 101180866 Method of processing multiple ringback tone in voice service application based on SIP FORK
+CN
+14.05.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200580049830.2
+UT Sidakang Communication Co., Ltd.
+Chen Jian
+H04L 12/56
+Loading...
+A processing method based on signaling is presented based on the influence of early media (ringback tone or voice inform before session establishment) from multiple called patties to the calling party in SIP FORK voice service, which insures the calling party not to receive early media of multiple called parties at the same time.
+63. 101179435 Method of active push network management event and network management system
+CN
+14.05.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710170665.7
+UT Sidakang Communication Co., Ltd.
+Li Hongmin
+H04L 12/24
+Loading...
+The invention proposes a network management system for active pushing network management event. A user interface is set on a client browser and the management event receives the agent and the reverse Ajax client; a Web server is provided with a reverse Ajax server and the management event sends the agent and a network management functional module; the management event is sent through the http connection built between the reverse Ajax client and the reverse Ajax server, the agent is received through the management event and the management event sends the agent so as to manage the sending of the event, thus assuring that various browser clients can receives the specific event notification that the network management functional module sends as early as possible without loss to a great extent and delivering stronger robustness on the premise that the implementation cost of the server is lower.
+64. 101169759 Memory management method for application program
+CN
+30.04.2008
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+200710169274.3
+UT Starcomm
+Fei Huadong
+G06F 12/02
+Loading...
+The invention discloses a memory management method at application program level, including the management of the memory space of a fixed-size data structure and a variable-size data structure. The management method comprises managing the allocation and the release of the memory space of the fixed-size data structure in a pool-type memory management mode, and recovering memory fragments generated during the allocation and the release processes of the memory space of the fixed-size data structure by using a garbage collection mechanism; managing the allocation and the release of the memory space of the variable-size data structure in a vector mode, and recovering memory fragments generated during the allocation and the release processes of the memory space of the fixed-size data structure by using a compression mechanism. The invention improves the management efficiency of the memory allocation and release without causing system to halt due to depletion of the system memory, and is more efficient than the memory management of a system.
+65. 101167097 A method of flexible setting the charging mode in IMS system
+CN
+23.04.2008
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+200580049644.9
+UT Starcomm
+Liu Sheng
+G06Q 50/00
+Loading...
+The invention provides a method of flexible setting the charging information in Internet protocol multimedia subsystem and system thereof. According to the invention, it stores the charging mode information corresponding to each application server involved by users' service in home subscriber server, the home subscriber server sends the charging function address information and the charging mode information to the service call state control function unit, the service call state control function unit determines the charging function address corresponding to each application server according to received information of the charging function address and the charging mode, and forwards each application server corresponding the charging function address information.
+66. 101166313 A method and system for acquisition and update of scrolling news data
+CN
+23.04.2008
+H04W 92/10 Loading...
+H04W 92/10
+Loading...
+200710161847.8
+UT Starcomm
+Qi Junsheng
+H04W 92/10
+Loading...
+The method for obtaining and updating rolling news data includes steps: (1) the rolling news server end (RNSE) sends the address for downloading data to the terminal; (2) the terminal sends the downloading request including the address for downloading data to RNSE; (3) based on the downloading request from the terminal, RNSE pushes data packet including next time for updating data to the terminal; (4) based on the updating time, the terminal establishes connection to RNSE, and obtains data from the address for downloading data. The invention guarantees efficiency and flexibility to obtain data of rolling news, lightens interactive flows between server end and terminal, also balances flux load of network.
+67. 101159607 Network management system of implementing remote browse network element MIB node
+CN
+09.04.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710170667.6
+UT Starcomm
+Li Hongmin
+H04L 12/24
+Loading...
+The invention provides a network management system for implementing the remote browsing of a network element MIB mode. In a browser/server-supported SNMP network management system, based on the AJAXWeb technique, the engines of a Web server and a MIB browser are embedded inside a network management server, so that a service engineer can remotely log in the Web server and directly select the network element from the MIB browser to initiate a query or set up a command; and an asynchronous http request is constructed by an AJAX technical module and sent to the Web server inside the network management server. Therefore, the invention realizes the remote access, even the setup of current value of the related MIB node in the remote field network element, and implements the real-time on-line state diagnosis and analysis.
+68. 101159492 Simulation checking system and its method for SDH logical design
+CN
+09.04.2008
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200710154493.4
+UT Starcomm
+Wang Wenhua
+H04B 10/08
+Loading...
+The invention discloses an automatic simulated verification system used for SDH/SONET logical design, which comprises a data generation unit for generating excitation data and positioning information, and a data detection unit for receiving the processed data of the logic to be test. The invention also discloses an automatic simulated verification method. The method comprises: determining the excitation bus and detection bus in the system, setting the corresponding configuration of the excitation bus, generating the excitation data and judging whether to adjust and process the pointer; outputting the excitation data and the corresponding positioning information; setting the corresponding configuration of the detection bus; and judging whether the data received by the detection bus is correct. The inventive system and method can rapidly, simply and efficiently provide a stimulating effect, realize the real-time detection of processed data of the logic to be test, and give an alarm when detecting logic error, thereby facilitating a user to position and modulate the logic error.
+69. 101159896 Individual mobile terminal data packet downloading method
+CN
+09.04.2008
+H04W 8/24 Loading...
+H04W 8/24
+Loading...
+200710153403.X
+UT Starcomm
+Luo Le
+H04W 8/24
+Loading...
+The invention discloses a method of downloading a personal mobile terminal data packet, which mainly includes: a personal mobile terminal downloads attribute files of the data packet firstly and then downloads the data packet; if the data packet download fails, preserving the data packet attribute files and uncompleted data information; in the download of the next time, sending out a resume request containing the attribute files and the uncompleted data information to a network side server and continuing to download the uncompleted data packet. The invention can facilitate users to utilize the personal mobile terminal for data packet download realization conveniently, under the conditions of no network environment changed.
+70. 101145816 Method and module for quickly adjusting automatic gain control value
+CN
+19.03.2008
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200710147354.9
+UT Starcomm
+Yin Yefei
+H04B 7/005
+Loading...
+The invention provides a method used for fast adjusting the automatic gain control value of a wireless communication receiver and a module thereof. The method comprises that: first, an initial value is set; second, the data overflow frequency is counted; then, the automatic gain step length is regulated; then, the automatic gain control value is adjusted; finally, the process is repeated until that the automatic gain control value is restrained to the stable value. The module comprises an initialization unit, an overflow counter, an overflow frequency comparison unit, an automatic gain control step length regulation unit as well as an automatic gain control value regulation unit. The method and the module of the invention realize the fast adjustment to the automatic gain control value, accelerate the speed of the automatic gain control regulation and shorten the regulation time in the finite time division system of the dynamic range.
+71. 101141607 Mutual correlation method for IPTV and implementing system thereof
+CN
+12.03.2008
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200610030993.2
+Baishitong Network TV Technology Development Co., Ltd.
+Li Wen
+H04N 7/14
+Loading...
+The present invention relates to an interactive correlation method used for a network television and the realization system. The present invention is based on a portal website and a search engine framework. The present invention comprises an interactive correlation platform used for intelligently searching and correlating various information and contents in a network television system, a media asset management system used for inputting and managing the contents and the information of the network television, an interactive correlative information portal system used for generating and managing correlative content pages and logistically controlling the service, a system for analyzing data mining and user behavior, a system for defining and managing correlative rules, a advertisement management system, a system for the streaming media service, and a set top box system. The present invention is utilized, the platform can actively and automatically searching and correlating the contents and the information of programs and other various media assets according to the user watching contents, the interested programs or the information are recommended to users, and simultaneously the content management and the services of the advertisement management function and the information management function are provided for the operation.
+72. 201032588 一种硬盘盒的减震和插拔机构
+CN
+05.03.2008
+G11B 33/02 Loading...
+G11B 33/02
+Loading...
+200620147486.2
+UT斯达康通讯有限公司
+雷卫民
+G11B 33/02
+Loading...
+本实用新型涉及一种硬盘盒的减震和插拔机构，其特征在于，包括：导轨板、硬盘盒，所述硬盘盒包括：T型导轨、硬盘托架、开关顶杆及弹簧、硬盘盒的门和硬盘；其中所述T型导轨安装在硬盘托架的下面两侧，所述导轨板上设有容纳所述T型导轨的T型槽并用于承载硬盘盒插拔和对其固定，所述开关顶杆安装在硬盘托架的下面，所述弹簧安装在硬盘托架的上面并与开关顶杆相连，所述门通过门轴安装在硬盘托架上，门开合时通过开关顶杆触发开关达到控制硬盘的运行和停止，从而进行硬盘的插拔。根据本实用新型的硬盘盒的减震和插拔机构，优化和增加了产品的结构形式，提高了产品的性能，并能很好的防止硬盘的振动和硬盘的共振产生的谐振。
+73. 101133657 Method and apparatus to facilitate foreign agent actions with respect to home agent nonresponsiveness
+CN
+27.02.2008
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200680007140.5
+UT starcom Inc.
+Borella Michael
+H04Q 7/00
+Loading...
+A foreign agent (10) having a substantially static list (13) of one or more home agents determines (22) when a given home agent has become sufficiently nonresponsive with respect to an ability to support mobile Internet Protocol calls. Upon making such a determination, the foreign agent can optionally take (24) one or more predetermined actions. Such actions preferably serve to mitigate or ameliorate the consequences presented by a nonresponsive home agent with respect to support mobile Internet Protocol calls.
+74. WO/2008/019534 METHOD FOR NODE B OBTAINING THE CHANNEL QUALITY INFORMATION IN TDD HSDPA SYSTEM
+WO
+21.02.2008
+H04W 28/18 Loading...
+H04W 28/18
+Loading...
+PCT/CN2006/002042
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04W 28/18
+Loading...
+A method for a node B obtaining the channel quality information in a TDD HSDPA system includes: the radio network controller (RNC) sends a measurement control message to a user equipment (UE), requests the UE reporting the downlink received signal quality of the serving HS-DSCH cell; the UE reports the downlink channel quality information to the RNC via a measurement report message; the RNC forwards the downlink channel quality information to the node B via a HS-DSCH (high speed downlink shared channel) frame. With the invention, when the node B performs transmission to the UE on the HS-DSCH for the first time, or the time interval is too long, the modulation and coding mode could be selected based on current channel quality information.
+75. 101127233 Hard disc error detection and fault-tolerant method in stream media uses
+CN
+20.02.2008
+G11B 27/36 Loading...
+G11B 27/36
+Loading...
+200710161212.8
+UT Starcomm
+Chen Junkai
+G11B 27/36
+Loading...
+The utility model discloses a hard disk fault detection and fault tolerant method based on streaming media service application, comprising: monitoring each I/O operation based on streaming media service application; counting the monitored result of a plurality of I/O operations in a certain duration; confirming whether hard disk faults of hard disk damage, mistaken hard disk stored content, bad hard disk block and hard disk instantaneous fault are appeared in hard disk based on the statistics of the monitored result of each I/O operation or a plurality of I/O operations; and conducting corresponding fault tolerant treatment combining streaming media service application. The method can rapidly and accurately detect the problems that seriously influence streaming media service application but are not easy to be found by traditional hard disk detection techniques such as S.M.A.R.T. The method of the utility model can accurately and rapidly find various faults of hard disk, and take corresponding fault tolerant measures, avoids or reduces the influence on streaming media service systems, thus improve the reliability and stability of the system.
+76. 101127210 Method and device for implementing lyric synchronization when broadcasting song
+CN
+20.02.2008
+G10H 1/00 Loading...
+G10H 1/00
+Loading...
+200710153772.9
+UT Starcomm
+Cao Jinnan
+G10H 1/00
+Loading...
+The utility model discloses a method with a device for synchronous lyrics in the songs playing process, which is characterized in that: a lyrics file is analyzed to acquire time information and text contents of the lyrics which are correspondently stored in a lyrics list; in the songs playing process, the current playing time is attained, and the correspondence relationship between the passed time information of the lyrics chain list and the lyrics text is determined, then the lyrics text matched with the current time is ascertained; the ascertained lyrics text is displayed. The utility model has the advantages of not depending on the support of high-end decoder chips, and realizing synchronous lyrics in ordinary digital terminal during the songs playing process.
+77. 101127511 A self-adapted automatic adjusting method and its module for low noise amplifier
+CN
+20.02.2008
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+200710147355.3
+UT Starcomm
+Wu Suwen
+H03G 3/20
+Loading...
+The utility model relates to a method and a module for self-adapting adjustment of the state of switch of low-noise amplifiers; wherein, the method comprises the following steps: measuring the signal amplitude; adjusting the AGC (auto gain control) value; comparing the threshold value with the AGC value, and if the AGC value is smaller than the lower limit value of the threshold, the low-noise amplifier should be switched on; if the AGC value is greater than the lower limit value of the threshold, the low-noise amplifier should be switched off; under other circumstances, the status of low-noise amplifier is not changed. The module comprises a measuring unit, an AGC self-adapting adjusting unit, a comparing unit, and a switch control unit. By adopting the method and the module in the utility model, the self-adaptive adjustment of the switching state of low noise amplifier can be accomplished and automatic testing can be thus realized. t.
+78. 101127898 Slice storage and streaming service method for stream media system and multimedia files
+CN
+20.02.2008
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200710153771.4
+UT Starcomm
+Chen Junkai
+H04N 7/24
+Loading...
+The utility model provides a stream media service system, comprising a plurality of media engines, each composed of a stream service device with the capacity of stream service and a slice storing device holding multimedia file slices; and a media director, which is composed of a storage manager governing the storage positions of the multimedia file slices and a stream service director dispatching and switching stream service. The utility model also provides the method of slicing multimedia file, the storing method with slices as storage units as well as the method of stream service dispatching and switching. By adopting the system and methods in the utility model, the grid storage and grid stream service can share a cluster server so as to cut hardware cost, diminish grid copy, reduce grid flux as well as improve the IO capacity and stream service capacity of the stream media server and in turn provide the stream media service of high performance-price ratio.
+79. 101127565 A downlink synchronization method and device for time division multi-address system
+CN
+20.02.2008
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200710162701.5
+UT Starcomm
+Xu Jingquan
+H04B 7/26
+Loading...
+The utility model relates to a downlink synchronization method for a time division multiple access system (TDMA system). According to the utility model, the downlink synchronization method comprises the following steps: receiving and processing data, calculating all chip power sum of the received data and carrying out relevant calculations of downlink synchronization codes to the received data, carrying out normalization processing to the chip power sum and relevant calculation results, judging the downlink synchronization codes, completing the other processes of downlink synchronization in cells. Compared with the prior art, the utility model has the advantages of simple process, less added calculated amount, capability of anti-interference from uplink power and other timeslot power, and higher accuracy of identification to downlink synchronization codes.
+80. WO/2008/017196 METHOD FOR REALIZING CELL CHANGE OF SERVING HS-DSCH BETWEEN NODE B IN HSDPA SYSTEM, THE TELECOMMUNICATION SYSTEM FOR REALIING THE METHOD AND PROGRAM PRODUCT INCLUDING PROGRAM INSTRUCTIONS FOR REALIZING THE METHOD
+WO
+14.02.2008
+H04W 36/08 Loading...
+H04W 36/08
+Loading...
+PCT/CN2006/001843
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04W 36/08
+Loading...
+A method for realizing MAC-hs reconfiguration function in the cell change of serving HS-DSCH between Node B in HSDPA system is disclosed. SRNC (serving radio network control) requests the original Node B to forward the HS-DSCH data frame without being processed by original Node B, the original Node B sends the non-processed HS-DSCH data frame to SRNC. After receiving, SRNC forwards the frame to the target Node B. The present invention also provides a device, wireless telecommunication system and program product for realizing the above method. The present invention not only can be applied in AM RLC mode, but also can be applied in UM RLC mode. The present invention can obtain the advantage of avoiding the transmission of high level signal in wireless interface, therefore, greatly reducing process time delay.
+81. 101124543 Switchover facilitation apparatus and method
+CN
+13.02.2008
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+200580024440.X
+UTstarcom Inc.
+Alex Arun C.
+G06F 11/00
+Loading...
+Upon detecting (62) a degraded operational state, an active service unit can transmit a message (63) to a stand-by service unit. The latter can then prepare to replace (64) the active service unit and indicate its readiness with a corresponding message (65) to the active service unit. The latter can then cease (66) its operations. A controller, upon detecting this cessation of operations, can then instruct (67) the stand-by service unit to effect the switchover process. In at least some embodiments, the triggering degraded operational state need not comprise a fully debilitating condition.
+82. WO/2008/014638 A METHOD FOR CALCULATING CQI DURING THE PERIOD FOR HSDPA NOT TRANSMITTING IN UTRA TDD HCR SYSTEM, AND A TERMINAL UE PERFORMING SAID METHOD AND A WIRELESS COMMUNICATION SYSTEM INCLUDING SAID TERMINAL AND PROGRAM PRODUCT THEREOF
+WO
+07.02.2008
+H04B 7/00 Loading...
+H04B 7/00
+Loading...
+PCT/CN2006/001871
+UTSTARCOM TELECOM CO., LTD.
+ZHANG, Jing
+H04B 7/00
+Loading...
+A method for calculating channel quality index CQI in user terminal UE side during the period for downlink high speed physical share channel HS-PDSCH not transmitting in universal terrestrial wireless access UTRA time duplex TDD high chip rate HCR system, includs steps: during the period for HS-PDSCH not transmitting, UE obtains the information relate to wireless channel environment changing; during the period for HS-PDSCH transmitting, according the wireless channel environment changing information obtained in above step the UE produces CQI reference value,and according to the wireless channel environment changing during the period for HS-PDSCH transmitting,UE amends the CQI reference value and produces CQI amendment value,and obtains the correct CQI final value according to the CQI amendment value.A device for realizing above method is provided,and a wireless communication system and program product and a storage media thereof are also provided.With this method,UE can emtimate the channel quality index CQI correctly,even during the period for HS-PDSCH not transmitting.
+83. 101119132 Method and device for detecting co-channel signal of TDMA communication system
+CN
+06.02.2008
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200710154495.3
+UT Starcomm
+Wu Xuke
+H04B 1/707
+Loading...
+The invention discloses a method and a device, which is used for detecting a plurality of user signals in a time and yardage multiple access system. The method comprises the following steps: 1) the biggest co-frequency signal in received signals is confirmed as a user signal; 2) the user signal confirmed in the step 1) is estimated in a signal channel, so at to rebuilt the user signal; 3) the rebuilt user signal is deducted from the received signals; and 4) when the user signal is deducted, the received signals repeats the approaches until all the power is larger than the co-frequency signal with a preset threshold which is confirmed as the user signal. In accordance with the invention, when the situation that a plurality of co-frequency strong and weak signals with biggish power appears, the invention can precisely detect and measure the strong co-frequency signal and the weak signal; moreover, as adopting the signal channel and the interference counteract treatment, the invention effectively eliminates the interference to the weak co-frequency signal caused by the strong co-frequency signal, thus greatly enhancing the detecting precision of the weak co-frequency signal.
+84. 101116348 Method, apparatus, and system for implementing proxy accounting for a home agent
+CN
+30.01.2008
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200580047912.3
+Utstarcom Inc.
+Channasamudhram Adiseshu
+H04Q 7/00
+Loading...
+Proxy accounting for a home agent is implemented. Packets are monitored on a home network. A registration request sent from a mobile node connected to a foreign network to a home agent residing on the home network is detected among the packets, corresponding to a registration sought by the mobile node on the foreign network. A registration reply sent from the home agent to the mobile node is detected among the packets, indicating that the home agent approves the registration. It is determined that the registration is new. An accounting-start indication is caused to be recorded for the registration. A registration-termination request sent to the home agent is detected among the packets, seeking termination of the registration. A registration-termination reply sent from the home agent is detected among the packets, acknowledging termination of the registration. An accounting-stop indication is caused to be recorded for the registration.
+85. 101102476 A method for identifying media asset objects
+CN
+09.01.2008
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200710140536.3
+UT Starcomm
+Li Wenyuan
+H04N 7/173
+Loading...
+The method comprises: different content providing subsystems provide the contents with UMAI (unified media asset ID) to the content management unit in the network running subsystem; according to UMAI, the network running subsystem distinguishes the contents provided by different content providing subsystems, and provides them to the IPTV device; based on the request of customer, the IPTV device uses the UMAI to determine the content provide subsystem of the requested content and the media asset object type, and sends an authorization request and the key acquiring request to the content providing subsystem.
+86. 101099332 Dynamic firewall capabilities for wireless access gateways
+CN
+02.01.2008
+H04L 12/00 Loading...
+H04L 12/00
+Loading...
+200580030679.8
+Utstarcom Inc.
+Borella Michael
+H04L 12/00
+Loading...
+The present invention provides a method and system for dynamic filtering of data packets at an access gateway in a communication network. According to the method, a policy server receives a request for registration with the network from a network node. The server verifies the network node identity and selects the corresponding security policy for the network node. The selected security policy is indicated by the server to a network access gateway. The network access gateway selects the indicted security policy. The selected security policy is applied for the communication between the network node and the network.
+87. 101095312 Method and system for providing packet data services
+CN
+26.12.2007
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200580045312.3
+Utstarcom Inc.
+Sharma Abhishek
+H04L 12/28
+Loading...
+A platform (200) for processing data packets included in a flow of packet data traffic that is being communicated in a data network is disclosed. The platform (200) includes a backplane (270) for routing the data packets within the platform (200). The platform (200) also includes a packet switch card (220) coupled with the backplane (270). The packet switch card (220) aggregates the flow of packet data traffic in the platform (200). The platform (200) further includes a plurality of application cards (240,245,250) coupled with the backplane (270), each of the application cards of the plurality (240,245,250) selectively operating as at least one of a network interface card and a network access card. At least one application card of the plurality of application cards (240,245,250) operates as a network interface card, the first application card communicating at least a portion of the flow of packet data traffic from the network to the packet switch card (220).
+88. 101091335 Method and system for implementing multi-chain collection in UMTS system
+CN
+19.12.2007
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200480044764.5
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04B 7/26
+Loading...
+A wireless communication system includes user terminal device, radio access network linking with the user terminal device via air interface(Uu), GPRS packet data network, and external packet data network, wherein said GPRS packet data network includes service GPRS supporting node (SGSN) and gateway GPRS supporting node (GGSN). Said user terminal device supports multi-link convergence and said gateway GPRS supporting node supports multi-link convergence. A method for data transmission includes the steps of : establishing first PLMN carrying channel by first wireless Modem by means of packet data protocol context activation process; establishing second PLMN carrying channel by second wireless Modem by means of packet data protocol context activation process; converging the first PLMN and second PLMN carrying channel into an ML-PPP logic link; and transmitting data over said logic link.
+89. 101091397 Method for distributing uplink chain time gap in UTRA TDD system and its base station system
+CN
+19.12.2007
+H04W 52/34 Loading...
+H04W 52/34
+Loading...
+200480044774.9
+UT Sidakang Communication Co., Ltd.
+Qiao Jia
+H04W 52/34
+Loading...
+A method for uplink timeslot assignment in UTRA TDD system is disclosed. The method includes the following steps: The cell that prepares to assign one cross-timeslot to uplink determines the interference to the cell that caused by the downlink transmission of one neighboring cell which has assigned one cross-timeslot to downlink, wherein the power of the downlink transmission signal is limited according to BS load control of said neighboring cell which has assigned cross-timeslot to downlink. Determining the accumulated sum of the interference to the cell that caused by the downlink transmission signal and system noise of the cell. Determining the propagation loss threshold value for the cell that has assigned cross-timeslot to uplink, wherein the threshold value is in inverse proportion to the accumulated sum. Base station compares the propagation loss that measured by user equipment with the threshold value. And only when the propagation loss that measured by user equipment is lower than the threshold value, the user equipment is allowed to assign the cross-timeslot to uplink. A base station system that uses said method is also provided.
+90. WO/2007/134483 PHS/WiMAX DUAL-MODE BASE STATION
+WO
+29.11.2007
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+PCT/CN2006/001019
+UTSTARCOM (CHINA) CO. LTD.
+YU, Xiaoming
+H04W 88/08
+Loading...
+A PHS/WiMAX dual-mode base station includes antenna for receiving and transmitting PHS signal based on PHS air interface specification and WiMAX signal based on WiMAX air interface specification; PHS module for performing the function of PHS base station; WiMAX module for performing the function of WiMAX base station; and network interface for connecting the PHS module and the WiMAX module to network. The base station can be managed by external base station management system via the network interface. The base station can implement base stations located together, antenna sharing, loop line resource sharing, and network and network managementresource sharing, thus saving the cost of building and operation.
+91. 101080891 Method and apparatus to facilitate provision of an IPv6 prefix
+CN
+28.11.2007
+H04J 3/24 Loading...
+H04J 3/24
+Loading...
+200580043177.9
+UTstarcom Inc.
+Bhatia Ravideep
+H04J 3/24
+Loading...
+A mobile station indicates a need for at least one specific type of Internet Protocol version 6 (Ipv6) prefix in a message (73) transmitted to a serving network element. The latter processes this message to determine (74) the indicated IPv6 prefix type and responds with a reply message (75) comprising, at least in part, an IPv6 prefix of a type that is commensurate with the type (or types) indicated by the mobile station in the aforementioned message.
+92. 101080900 Access point controller acting as mobile IP agent in public wireless local area network
+CN
+28.11.2007
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200480044626.7
+UT Starcomm
+Lin Benhao
+H04L 12/28
+Loading...
+A method of mobile IP in public wireless local area network (PWLAN) is provided, in which the PWLAN includes multiple user terminals and multiple access point controllers and the mobile IP agent module is set in the access point controllers. Said method includes: the mobile IP agent module in the access point controllers discovers the registration of one user terminal, the mobile IP agent module in the access point controllers will choose the corresponding foreign agent and home agent for the user terminal, the mobile IP agent module substitutes the user terminal according to the mobile IP standard definition to initiate the location registering request of the mobile IP and the location information will be preserved in the home agent and the foreign agent after the successful registration. The advantage of the present invention is that the solution of Mobile IP is introduced to the PWLAN with transparence to the user terminal. At the same time, more latent user terminals will be attracted as possible because the user terminal needn't join.
+93. 101073211 System and apparatus for a carrier class WDM pon accommodating multiple services or protocols
+CN
+14.11.2007
+H04B 10/20 Loading...
+H04B 10/20
+Loading...
+200580004174.4
+Utstarcom Inc.
+Huang William X.
+H04B 10/20
+Loading...
+A Passive Optical Network (PON) is provided with capability for multiple protocols and service suppliers by employing Wavelength Division Multiplexer (WDM) elements (32) in combination with optical couplers (36) at optical distribution nodes (ODN) intermediate a local exchange office and a customer node. The local exchange office node 30 transmitting and receiving signals from a single optical fiber (38) through a WDM providing M/2 wavelength pairs for use with differing protocols and each customer node connected to one leg of an optical coupler (36) in the ODN with a WDM (40) associated with one of the wavelength pairs for received and transmitted signals.
+94. WO/2007/121607 A PORTABLE DEVICE HAVING NONCONTACT SMART CARD FUNCTION
+WO
+01.11.2007
+H04B 5/00 Loading...
+H04B 5/00
+Loading...
+PCT/CN2006/000746
+UTSTARCOM TELECOM CO., LTD.
+SUN, Jie
+H04B 5/00
+Loading...
+A portable device having noncontact smart card function comprises: a detecting unit adapting to respond the signal sent by the reader writer; a processing unit connected to the detect unit; and RF circuit adapting to communicate with the reader writer and connected to the processing unit, wherein the processing unit sends start-up signal by responding to the detecting signal to start the communication processing between the RF circuit and the reader writer. It can realize automatically and quickly brushing the card through the portable device by integrating the smart card function into the portable device, and relying on the processing capability of the portable device to integrate numerous smart cards together is able to realize the la 'universal card'. And it can also realize the function of inputting and amending the smart card's information via the human-machine interface of the mobile phone.
+95. 101043277 Pulse synchronized method and module in receptivity test of mobile communication terminal
+CN
+26.09.2007
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200710103616.1
+UT Starcomm
+Liao Zhijun
+H04B 17/00
+Loading...
+The invention provides a pulse synchronization method and module whose arithmetic is simple and easy to realize in mobile communication terminal receiving property test. The method is used to realize the synchronization between the radio frequency receiving window and burst pulse of test equipment, thereinto, Tb is the time interval of burst pulse, Tr is the time interval of opening the radio frequency receiving window, Delta T is difference between Tr and Tb, Toffset is original time warp between the radio frequency receiving window and burst pulse when the radio frequency receiving window is opened first time before synchronization, firstly, judging whether Toffset exceed the set range, if it exceeds the set range, then Tr=Tb+ Delta T is the time interval to open the radio frequency receiving window until the Toffset does not exceed the set range, secondly, correcting the time interval Tr of opening said radio frequency receiving window to fulfill Tr=Tb+Toffset.
+96. 101040546 Method and apparatus for implementing direct routing
+CN
+19.09.2007
+H04Q 7/24 Loading...
+H04Q 7/24
+Loading...
+200580034460.5
+Ut Starcom Inc.
+Ahluwalia Mankesh S.
+H04Q 7/24
+Loading...
+A method and apparatus are provided for implementing direct routing. An Internet Protocol (IP) packet sent from a first mobile node (102)to a second mobile node(104) is received at a foreign agent(120) for a foreign network, wherein both the first and second mobile nodes are visiting the foreign network. It is determined that the second mobile node is visiting the foreign network. The packet is routed to the second mobile node over a communication path that does not include a home agent(124) associated with the second mobile node(104).
+97. 101040472 System and apparatus for a carrier class WDM pon providing trunk protection with increased fiber utilization, distance and bandwidth
+CN
+19.09.2007
+H04J 14/00 Loading...
+H04J 14/00
+Loading...
+200580035024.X
+Ut Starcom Inc.
+Huang William X.
+H04J 14/00
+Loading...
+A Passive Optical Network (PON) is provided with trunk protection by employing Wavelength Division Multiplexer (WDM) elements in combination with optical couplers at distribution nodes (DN) intermediate a pair of Local Exchange Office Nodes and a customer node. The Local Exchange Office Nodes (LEON) transmitting and receiving signals on an optical fiber loop pair through a WDM with one LEON active and one backup until a failure or cable cut occurs. Each DN drops one wavelength from the downstream loop with an AD/DRWDM and employs an Optical-Electrical-Optical (OEO) repeater to amplify the downstream signal and an OEO to amplify the upstream signal before insertion onto the upstream loop by the AD/DRWDM. The DN incorporates a second WDM for multiplexing the signals from and into the OEOs and connecting through an optical coupler to multiple user nodes.
+98. 101030838 System and method for controlling self-adaptive forward error dynamically in IPTV network
+CN
+05.09.2007
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710095954.5
+UT Sidakang Telecommunication Co., Ltd.
+Chen Junkai
+H04L 1/00
+Loading...
+Method comprises a real-time feed-back adjustment and an accounting feedback adjustment. In the real-time feed-back adjustment, FEC decoder sends the amount of lost packets to FEC encoder; the FEC encoder real-time adjust the amount of FEC packets sent out in current FEC packet group. In accounting feedback adjustment, FEC decoder counts the amount of lost packet in FEC packet group in IPTV network in certain period; FEC encoder adjusts the amount of all next FEC packets to be sent out. The invention also reveals an IPTV system thereof comprising: set-top box, stream server and authentication server.
+99. 101026744 Distributed flow media distribution system, and flow media memory buffer and scheduling distribution method
+CN
+29.08.2007
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200710096229.X
+UT Starcom Communication Co., Ltd.
+Xie Zhuzhong
+H04N 7/173
+Loading...
+Based on slices of memory buffer, and stream media content stored in magnetic disc in mode of heat degree statistics (HDS), as well as based on intelligent distribution and user configuration in mode of heat degree statistics, the invention realizes sharing slices of media content inside media station and between media stations. Providing stream media services for terminal users as many as possible, the method reduces network flux and IO frequency for accessing magnetic disc as far as possible. The invention also discloses three methods of buffering memory based on HDS of distribution type stream media distribution system (DTSMDS), as well as dispatch and distribution method (DDM) by using slice of media content as memory buffer unit inside media station and between media stations. DTSMDS and DDM increase hit rate of memory buffer for media content, and reduce IO frequency so as to prolong service life of magnetic disc, and raise reliability and stability of system.
+100. 101022366 Trouble correlation analytic system and method
+CN
+22.08.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710089937.0
+UT Sidakang Communication Co., Ltd.
+Luo Yuesheng
+H04L 12/24
+Loading...
+A fault correlation analysis system comprises fault management module for carrying out fault management and network topology management module for maintaining managed network. It is featured as forming said fault management module by warning kernel treatment module for making kernel treatment on fault warning and warning correlation module for finding out fault reason by carrying out correlation analysis based on specific logic relation according to obtained warning.
+101. 101022368 Telecommunication network test method and system
+CN
+22.08.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610173355.6
+UT Sidakang Communication Co., Ltd.
+Lin Shuyong
+H04L 12/26
+Loading...
+A method for testing telecommunication network includes explaining and executing test script file as well as transmitting operation command of voice card in said file to voice card management program of the second computer by the first computer, converting said operation command to be control command of voice card and sending said control command to voice card by voice card management program, responding operation of said control command by voice card and feeding response result back to voice card management program.
+102. 101018204 PHS communication system for supporting the bidirectional fast user-defined packet channel
+CN
+15.08.2007
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710079032.5
+UT Starcomm
+Zhang Yun
+H04L 12/56
+Loading...
+The invention discloses a data grouping business communication way supporting two-way fast user-define channel in PHS system, and the business can be realized by taking the new-added channel as loading channel. The realization for this new-added channel comprises: defining the frame coding format by combining the FACCH and SACCH; extending the grouping channel air standard protocol for wireless communication device in PHS system, and applying high-speed data transmission protocol to define the interlamination structure. This invention improves data transmission speed, and shares specific advanced function in grouping mode.
+103. 101015222 Dynamic rate control system and method for multimedia service in IMS system
+CN
+08.08.2007
+H04W 28/22 Loading...
+H04W 28/22
+Loading...
+200480043934.8
+UT Starcomm
+Liu Sheng
+H04W 28/22
+Loading...
+A method and device for dynamic rate controlling the session type multi-media service in communication system, and a communication system applying the method and device are provided. According to the present invention, at the multi-media session set-up phase, the calling part and called part determine a multi-media encoding set by end-to-end signaling negotiation; the calling part and called part start transmitting user data of the multi-media in initial rate; during the multi-media session, the communication equipment in the wireless access network which calling and called part belong to continuously monitors their wireless resource condition, and make decision to adjust the media encoding rate according to this; the communication equipment making the media encoding rate adjustment decision and the other side communication equipment negotiate via media encoding rate controlling information, wherein said media encoding rate controlling information is transmitted by media packet data stream. The present invention efficiently optimizes the use of system wireless resource, and improves the wireless performance such as system capacity and coverage.
+104. 101014154 Method for optimizing channel distribution in PHS communication system
+CN
+08.08.2007
+H04Q 7/24 Loading...
+H04Q 7/24
+Loading...
+200710006808.0
+UT Starcomm
+Sun Bo
+H04Q 7/24
+Loading...
+The invention relates to one PHS communication system optimization signal channel align method, which comprises signal align optimization management units and comprises the following steps: a, the said signal channel optimization management unit sends requires to aim base station; b, the said aim station receives above requires and responds the needed relative information; c, the said signal channel align optimization unit from aim base station to process the class frequency sets.
+105. 101014139 Apparatus and method of compatibility with public net and private net calling in personal hand-phone system
+CN
+08.08.2007
+H04Q 3/00 Loading...
+H04Q 3/00
+Loading...
+200610173358.X
+UT Starcomm
+Feng Jianping
+H04Q 3/00
+Loading...
+The invention discloses one method to combine public network and private network call in PHS system, wherein, the entrepreneur exchange machine judge's main call and called network type according to the PHS communication terminal call. The invention also discloses one exchange machine, which comprises base station controller and user exchange unit, wherein, base station controller provides service to PHS public network and the user exchange unit provides service to private network.
+106. 2932495 一种具有非接触式智能卡功能的便携式设备
+CN
+08.08.2007
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+200620112215.3
+UT斯达康通讯有限公司
+孙杰
+G06K 17/00
+Loading...
+本实用新型提供一种具有非接触式智能卡功能的便携式设备，包含：适于响应读写器发射的信号而生成检测信号的检测单元；与所述检测单元相连的处理单元；以及适于与所述读写器通信并与所述处理单元相连的射频电路，其中，所述处理单元响应于所述检测信号，向所述射频电路发送启动信号以启动所述射频电路与所述读写器的通信过程。本实用新型将智能卡功能集成在便携式设备内，可实现便携式设备自动、快速地刷卡，而且借助于便携式设备的处理能力，多种智能卡被集成在一起，实现了真正意义上的“一卡通”。本实用新型还可通过手机的人机交互接口实现对智能卡信息的输入和修改。
+107. 101009918 Cell switching between the personal hand-held phone systems based on different voice coding modes
+CN
+01.08.2007
+H04W 36/04 Loading...
+H04W 36/04
+Loading...
+200610023689.5
+UT Starcomm
+Zhang Jing
+H04W 36/04
+Loading...
+The provided small-area switch method among PHS with different speech code comprises: detecting link quality, taking switch if the quality less than threshold; building connection between physical and link layer links; sending signaling message ''CC SETUP''; deciding whether the target CS uses current or new speech coder; building calling as current or new call connection for switch. This invention needs no modifying air interface.
+108. 101009899 A monitoring method and device based on the air interface of the wireless communication system
+CN
+01.08.2007
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200610023684.2
+UT Starcomm
+Liu Sheng
+H04W 24/00
+Loading...
+The related air interface monitor method comprises: a. obtaining wireless signal of the air interface; b. obtaining one or more signal related with UE; and c. extracting business data from user signal. Besides, the relative device comprises: a wireless signal receive unit, and a wireless signal decode-process unit to obtain one or more user signal related with UE and obtain business data from said user signal. This invention supports many trigger methods.
+109. 101009489 Channel coding based on the UID channel in the PHS
+CN
+01.08.2007
+H03M 13/09 Loading...
+H03M 13/09
+Loading...
+200610023688.0
+UT Starcomm
+Liu Sheng
+H03M 13/09
+Loading...
+The invention provides a means of channel coding using UDI channel of PHS, it includes: coding the sound; adding the cyclic redundancy check code that is CRC code to the sound data which is after the coding; the sound coding data is convoluotinal encoding or repeat encoding [M1]; the sound data which is after the convoluotinal encoding or repeat encoding is bit slotting or filling. The invention is simple, and it increases the fading property of PHS, and increases the sound quality. Because the invention makes UDI channel possesses bearing of coding protection, so the AMR, command, VoIP can be transferred.
+110. 101009917 A compression paging method in the personal hand-held phone system
+CN
+01.08.2007
+H04W 8/00 Loading...
+H04W 8/00
+Loading...
+200610023686.1
+UT Starcomm
+Zhang Yun
+H04W 8/00
+Loading...
+The related compress calling method for PHS comprises: network sends building-link message contained called phone PS number and PS temporary short number to a base station, the latter analyzes the received numbers to calculate the relative calling group of PS code, then queries the waiting calling queue in the group to add the PS temporary short number into queue as the compress calling message for waiting, wherein the said PS temporary short number is binary. This invention increases 3 times calling capacity, and enlarges whole capacity of PHS network.
+111. 101009603 A monitoring method and device in the wireless access network
+CN
+01.08.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610023687.6
+UT Starcomm
+Zhang Jing
+H04L 12/26
+Loading...
+The provided method monitoring in a wireless access network contained at least a wireless network controller and a base station comprises: a. obtaining the transmitting signal between the controller and station; b. extracting one or more pieces of signaling correlated with user; and c. comparing the extracted signaling with monitoring condition, and extracting user business data if the signaling matches with the condition. This invention supports multiple trigger ways.
+112. 101009916 The method for improving the seamless switching performance of the personal hand-held phone
+CN
+01.08.2007
+H04Q 7/38 Loading...
+H04Q 7/38
+Loading...
+200610023685.7
+UT Starcomm
+Zhang Yun
+H04Q 7/38
+Loading...
+The related method for seamless switch of smart-phone comprises: (a) sending request for building link channel from PHS to a second base station, and reporting the absolute time slot occupied by current TCH; (b) once receiving the request, deciding whether there is free TCH; and (c) if yes, building channel, and allocating the free TCH. This invention improves performance and user experience level.
+113. 101005685 Automatic detecting method and device for PHS communication system
+CN
+25.07.2007
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200710007450.3
+UT Sidakang Com Co., Ltd.
+Chen Bo
+H04Q 7/34
+Loading...
+The method comprises: a mobile phone simulator is used to control a calling terminal to initiate a call or send shortage message, and is used to control a called terminal to make ringing and answering so as to automatically complete each test in overall calling process, or make content constancy checking and adjusting for the received short message. If a discrepancy is found in any stage of overall process, the control system will return an error-causing code in order to make further analysis.
+114. 101004706 Diagnostic system in use for Java application
+CN
+25.07.2007
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200710007683.3
+UT Sidakang Communication Co., Ltd.
+Zeng Ji
+G06F 11/36
+Loading...
+A diagnosis system used on Java application comprises machine A for operating Java application, machine B connected to machine A through communication protocol, Java virtualizer and diagnosis-analysis agent unit both being set in machine A, diagnosis client end being set in machine B, switch controller for switching on/off diagnosis function, filtering controller for filtering information required to be diagnosed and timing controller for starting up diagnosis function on specified time.
+115. 101005672 Power amplifier based on PHS communication terminal
+CN
+25.07.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710007833.0
+UT Sidakang Com Co., Ltd.
+Chen Wen
+H04Q 7/32
+Loading...
+The invention uses HBT technical transistors connected in a chip in cascade connection; its capacity of anti-load pulling is enhanced by optimizing its output load impedance under 4:1 standing-wave ratio. The emission power of the PHS terminal is determined by the gain of antenna and the output power of the amplifier; when the gain of antenna is a constant value, the emission power of PHS terminal varies along with the variation of the output power.
+116. 101005673 Method for realizing simultaneously stand-by in double mode mobile phone
+CN
+25.07.2007
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+200710007861.2
+UT Sidakang Com Co., Ltd.
+Liu Weicheng
+H04W 88/06
+Loading...
+In the invention, the dual-mode mobile handset is realized by using hardware architecture of single group time sequence control unit. The method comprises: using a unified time unit to arrange the actions of all modes in protocol stack of dual-mode mobile handset; adding a time error compensating mechanism; using time slot as unit to label the actions; using a semaphore to control the dual-mode mobile handset in order to prevent dual modes simultaneously entering into dedicated states.
+117. 101006738 Central base station system based on advanced telecommunication computer system structure
+CN
+25.07.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480043838.3
+UT Sidakang Com Co., Ltd.
+Liu Sheng
+H04Q 7/30
+Loading...
+A centralized base station system bases on ATCA, including a main base station subsystem and one or more remote radiofrequency subsystem, the main base station subsystem includes: one or more machine frame bases on ATCA platform, each machine frame includes at least one ATCA plate type control switching module; one or more base station controller interface module; signalling module; one or more baseband processing module; one or more remote radiofrequency interface module; a first switching network includes BASE interface link of machine frame backboard, control switching module and a first network switching unit; a second switching network includes FABRIC interface link of machine frame backboard, control switching module and a second network switching unit; a clock synchronous network includes clock synchronous bus of machine frame backboard, control switching module and a clock unit; and signal transmiting network, wherein the second switching network unit and clock unit connect with the first switching network unit, one module of all control switching modules of machine frame is main control module.
+118. 101001469 Method of TDD WCDMA system shared channel switch
+CN
+18.07.2007
+H04W 36/30 Loading...
+H04W 36/30
+Loading...
+200710001627.9
+UT Sikangda Communication Co., Ltd.
+Qiao Jia
+H04W 36/30
+Loading...
+This invention relates to an improved in-line switch method for the TDD WCDMA system including: when the in-line switch judgement of a radio network controller RNC is triggered, the connection of a UE and the old local area is kept, and RNC decides to add a radio link to a new local area for said UE and the UE carries out selective receiving and emitting on the old and new radio links based on the received signal quality of the old and new, namely, said UE selects radio links of strong signals to demodulate and decode the down-line signals and selects signals on the up-line to emit up-line signals, in which, the system applies independent power control loop maintaining the radio links from old to the new local area and TA or up-line synchronous control loop but not unified control.
+119. 101001403 Expansing codeless conversion operation in system of personal mobile phone
+CN
+18.07.2007
+H04W 80/02 Loading...
+H04W 80/02
+Loading...
+200610023178.3
+UT Sidakang Communication Co., Ltd.
+Du Yinggang
+H04W 80/02
+Loading...
+This invention provides a method for TrFO and PHS executing said method including the following steps: 1, generating a UDI channel between cell phone terminals A and B based on current signaling flow of the PHS, 2, terminal A tells the coder kind list supported by it and its preferred coding mode to terminal B, 3, terminal B selects a coder based on its supported coder list, the received coder list supported by A, its preferred coding mode and the current radio environment, 4, terminal B tells A its selected coder and its supported coder list, 5, A and B carry out TrFO communication with a selected coder.
+120. 101001404 Ability consultation between personal handphone and gateway in personal communication system
+CN
+18.07.2007
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+200610023179.8
+UT Sidakang Communication Co., Ltd.
+Lin Gaoquan
+H04W 76/02
+Loading...
+This invention provides a method for setting up a call process between PS and GW to negotiate on the mode whether or not they support the new coding including: GW and PS tell the opposite side the information if it supports the new coding ability, PS reads the information of GW to distinguish if GW supports the new coding mode to decide if they apply the current mode or the new mode to set up call between PS and GW.
+121. 1998201 Distributed network address management method and apparatus
+CN
+11.07.2007
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200580024439.7
+UTstarcom Inc.
+Alex Arun C.
+H04L 12/56
+Loading...
+Various nodes within a communication network each have information regarding the network address that are locally supported and information regarding which network addresses (or mocks of network addresses) are supported by specified remote non-central nodes. Network address information as provided by mobile nodes when seeking to initiate a communication are then compared against such information to determine whether to locally support the communication or to automatically forward the corresponding request to a remote node to support the communication.
+122. 1992920 Method and system of forming physical frame for mobile communication system
+CN
+04.07.2007
+H04Q 7/20 Loading...
+H04Q 7/20
+Loading...
+200510112293.3
+UT Starcomm
+Zhang Jing
+H04Q 7/20
+Loading...
+The invention relates to a method for forming physical frame in mobile communication system and relative system, wherein said method comprises: dividing voice signal into several data blocks; processing each data block with linear predict coding algorism to obtain one voice code data frame relative to the data block; coding the channel on said voice code data frame to obtain several channel code data bit groups, to be projected into one or several physical channels. The invention uses linear predict code algorism to code the voice signal, with low sensitivity on communication error rate and support on high-error/loss condition, to improve the communication quality. And it uses simple method to code the channel, to improve service quality.
+123. 1991977 Voice coding rate confirming method for radio communication
+CN
+04.07.2007
+G10L 19/00 Loading...
+G10L 19/00
+Loading...
+200510112292.9
+UT Starcomm
+Qiao Jia
+G10L 19/00
+Loading...
+The invention provides a voice coding rate method to affirm the multi-rate voice coder and an affirming voice coding rate in wireless communication system. According to the method, it includes steps as following: the voice signal is coded into voice frame at a voice coding rate; the adjusting information of said voice information coding rate is generated based on the generating ratio or the times of the received said voice frame in every quality type. The method of the invention adjusts the voice coder mode according to the quality of received voice frame, so the error introduced by estimating the type of channel can be avoided; the accuracy of choice is increased, at the same time the cost of hardware is decreased. Besides, the threshold triggering mode shortens the responding time of the channel change; it suits to track the wireless circumstance which is declined.
+124. 1988572 Method for realizing solid network terminal moving
+CN
+27.06.2007
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+200510133808.8
+UT Starcom Co., Ltd.
+Zhou Xiaohui
+H04M 3/42
+Loading...
+The invention relates to a method and system to achieve the fixed mobile terminal, and the corresponding terminal. The method includes: establishing and superimposing PSTN mobile core network in PSTN network, which includes PSTN MSC, PSTN HLR, Intelligent Network SCP and SMC, adding SIM card interface or hardware identification in PSTN terminal as the user identification, establishing communication signaling between the terminal and MSC PSTN, using PSTN SMS mechanism and FSK and / or DTMF method to send the Call Signaling to the mobile switching of PSTN for completing identification, certification and numbers of PSTN to finish the business of PSTN terminal, and at the same time recording the cost into the SIM card or hardware identification, thus achieving the mobility of PSTN.
+125. 1977548 Interface method for long-distance radio frequency unit and centralized base station
+CN
+06.06.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043450.3
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04Q 7/00
+Loading...
+The present invention disclosed a method for transmitting signal between MU and one or multi of RRU using SDH/OTN in centralized BS system of employing RF unit the method comprises: dividing the communication interface between MU and RRU into user plane and control plane, in which the user plane mainly bearing I/Q sampling data about the user data, and the control plane mainly bearing data about the control signaling; through I/Q data frame adapting layer that the I/Q sampling data about the user data that the user plane bearing is formed I/Q data frame, then through GFP frame make frame and transmitting on the SDH/OTN; and bearing the control signaling of the control plane on the UDP/IP and/or TCP/IP, further bearing the IP packet on PPP and make frame by HDLC, through control symbol channel of the GFP frame transmitting the HDLC frame that includes control signaling on the SDH/OTN. According to the present invention, since directly utilizing the existing SDH/OTN transmitting network, operation of management and maintenance of transmitting signal are reduced further, and cost of network establish is reduced at the same time.
+126. 1976325 Network system capable of realizing immediate message communication and communicating method
+CN
+06.06.2007
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200610156503.3
+UT Sdakang Communication Co., Ltd.
+Wang Hongjiang
+H04L 12/58
+Loading...
+A network system for realizing demand message communication comprises a network management server including safety verification module, user logon module and message sending module; and multiple network management client ends. The communication method utilizing said network system of demand message communication is also disclosed.
+127. 1977550 Extendable system structure of centralized base station system
+CN
+06.06.2007
+H04W 88/00 Loading...
+H04W 88/00
+Loading...
+200480043466.4
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04W 88/00
+Loading...
+A centralized base station system includes main base station subsystem and one or more remote radio frequency subsystem, the main base station subsystem includes: one or more base station controller interface unit; signaling unit; one or more base band process unit; one or more remote radio frequency interface unit; clock synchronization unit; the first switch network, for interconnecting the base station controller interface unit, signaling unit, base band process unit, remote radio interface unit and clock synchronization unit; the second switch network, for exchanging base band signal stream between base band process module and remote radio interface unit; signal transmitting network, for, transmitting base band signal stream between remote radio interface unit and remote radio subsystem; and main controller unit , which coupled to the first switch network, for controlling the said unit in the base station.
+128. 1977547 Centralized dynamic resource distributing method in base station
+CN
+06.06.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043449.0
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04Q 7/00
+Loading...
+A method for allocating resource dynamically in a centralized base station is disclosed, wherein the centralized base station includes a plurality of channel process units independent with each other and a remote RF unit connected to the said channel process units, and the method comprises the steps of: dividing a plurality of cells controlled by the said centralized base station into geographically-adjacent cell groups which collocate in a same region, wherein the channel process of the respective cell group is implemented by a different channel process unit and the channel process units responsible to the geographically-adjacent cell groups are adjacent to each other; determining the processing load of each channel process unit and the traffic of each cell; adaptively regulating those cell groups of which the channel process is implemented by each channel process unit in accordance with the determined processing load of the respective channel process unit and the traffic of the related cell, so as to balance the processing load of each channel process unit. The present method could make use of the channel process resource effectively.
+129. 1977551 Method for distributing channel processing resource and centralized base station for realizing the same method
+CN
+06.06.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043468.3
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04Q 7/00
+Loading...
+A method for allocating channel process resource in a centralized base station is disclosed, which is based on each radio link and comprises the steps of: allocating the channel resource in terms of radio links according to the resource allocation the wireless communication system needs, in which system the said centralized base station is located, thereby allocating the uplink and downlink radio signals of the respective cells in the said centralized base station to at least one of the channel process unit in the centralized base station respectively, so that each channel process unit allocated can implement the traffic channel process for part of users in the respective cell. Also, there is provided a centralized base station for implementing the aforementioned method. The method and the centralized base station provide for allocating the channel resource in terms of radio link, therefore allow to allocate the uplink and downlink radio signals of one cell to at least one of the channel process unit, so as to implement the traffic channel process for part of the users in the cell, as a result, the availability of the channel process resource can be maximized and the flexible channel process resource allocation can be realized.
+130. 1977549 Wireless switch-in network system in mobile communication system
+CN
+06.06.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043465.X
+UT Sidakang Communication Co., Ltd.
+Liu Sheng
+H04Q 7/00
+Loading...
+The present provides a RAN system, and which including: core network CN; a plurality of radio access gateway RAG each of which accomplishes the processing of all L1/L2/L3 protocol of the radio interface access layer; a plurality of remote radio unit RRU; wherein, a plurality of said RAG are connected with said CN via Iu interface, connecting between each RAG via Iur interface or via interface Iur+ interface, and said a plurality of RAG is connected respectively with the corresponding one of a plurality of said RRU via Iua interface for realizing a plurality of said RAG controlling, the corresponding one of a plurality of said RRU and digitalwireless signal transferring between RAGS and RRUs. In one specific embodiment of the present invention, each said RAG is separated two separated network unit of radio bearing server RBS and radio controlling server RCS. The above RAN structure proposed in the present invention overcomes the problem existing in the old UTRAN structure, solves the problem of frequent mobile management, and supports the structure that the RAN user's interface is separated from control interface with clear structure and. divided definitely function.
+131. 1976522 Mobile terminal equipment and method for supporting different kind of smart cards
+CN
+06.06.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200610163419.4
+UT Sidakang Communication Co., Ltd.
+Yao Haidong
+H04Q 7/32
+Loading...
+A mobile terminal supporting intelligent cards in different type consists of intelligent card judging unit for judging out type of intelligent card inserted in intelligent card slot by utilizing exclusive file of detecting intelligent card, data fetching unit for fetching out data in intelligent card according to judging out type and data storage unit for storing data fetched out by data fetching unit. It features that three types of intelligent card as PIM / SIM / UIM can be operated on one intelligent card slot of one mobile terminal.
+132. 1971515 ARM based binary operation circumstance platform and loading method using the same
+CN
+30.05.2007
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200610149133.0
+UT Starcomm
+Li Yuzhong
+G06F 9/445
+Loading...
+The invention provides a binary execution environment platform which loads the application program to system terminal based on the ARM, it comprises: system terminal interface layer (101) provided by the system terminal for the application program; application program terminal interface layer (102) provided by the application program for the system terminal; application program development package (103) which is used to develop the application program and application program loading unit (104) which is used to load the application program to the system terminal, thereinto, said application program loading unit (104) locates the running area of the application program to prepared RAM of the system terminal to load the application program to said prepared RAM of the system terminal. So, the download, load and execution of the application program can be realized in the embedded system with low cost.
+133. 1972468 An information push-delivery apparatus and method
+CN
+30.05.2007
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+200610142648.8
+UT Starcomm
+Wang Yingxin
+H04W 4/12
+Loading...
+This invention discloses one communication system for IPTV message transfer, which comprises business transfer platform, network situation collection and feedback system and user terminal. This invention also discloses one message transfer method, which comprises the following steps: sending the outer information to platform; interacting user terminal and business transfer platform; adopting network situation collection and feedback system to send back spare or busy situation to business transfer platform; business transfer platform to change outer information and its business to update business list to analyze business list by user preference.
+134. 1972150 A transmitting and receiving method for limited feedback linear discrete code
+CN
+30.05.2007
+H04B 7/02 Loading...
+H04B 7/02
+Loading...
+200610096611.6
+University of Science & Technology of China
+Deng Dan
+H04B 7/02
+Loading...
+This invention relates to one limit feedback linear discrete code emission and receive method, which is characterized by the following: storing same codes in receive and send ends and selecting current signal optimization codes according to codes selection rules and feed backing the codes to the emission end; emission end selects the optimization codes for linear discrete codes; using optimization for decoding on receive end; due to discrete codes and feedback linkage selecting linear discrete codes for coding.
+135. 1973559 Method for transmitting packet of wireless signal in radio base station system
+CN
+30.05.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043405.8
+UT Starcomm
+Liu Sheng
+H04Q 7/00
+Loading...
+A method of transmitting one or more branches of wireless signal between channel process unit and remote radio unit over a network in centralized base station, includes: obtaining the sample data stream of each branch of wireless signal; dividing the sample data stream into continuous fixed length data section; encapsulating the data section into application protocol packet according to the predetermined protocol, which includes the first information indicating the order of the data section of the packet in all the data section in the branch which it belongs to; the second information which indicates the load type which the branch belongs to; the third information which indicates whether the packet data section includes the data sample corresponding to a wireless frame period start or not, and when the third information indicates that it includes a data sample corresponding the start of wireless frame period, the forth information for indicating the location of the data sample in the data section; and encapsulating the application protocol packet into network protocol packet according to the network protocol, in which the network packet includes the fifth information of the one or more branch which the packet belongs to, said fifth information and network transport source address and destination address distinguish each branch uniquely.
+136. 1972486 Modification method for remote wireless parameter of wireless communication terminal
+CN
+30.05.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200610164468.X
+UT Starcomm
+Wang Ruifeng
+H04Q 7/32
+Loading...
+This invention discloses one wireless communication terminal remote antenna parameter modification method, which relates to hand hold telephone system and is set with relative parameters modification function module on wireless communication terminal, wherein, it gets relative orders through coded short message and codes the content; then according to the decoded order to run parameters modification function module to update terminal parameters or update err parameters.
+137. 1964445 A positioning system and method for TV navigation interface
+CN
+16.05.2007
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200610162660.5
+UT Starcomm
+Fan Cunzhi
+H04N 5/445
+Loading...
+The disclosed positioning system for TV interface comprises: a set-top box (10), and an EPG server (20). The relative method comprises: inputting EPG interface code, sending EPG interface code to EPG server, querying relative RPG interface address, returning the address, requesting the appointed EPG interface, and returning target interface. This invention is benefit to user to communicate with others.
+138. 1964292 A method used to detect and feedback frame loss ratio of lub FP frame based on IP transmission
+CN
+16.05.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610141364.7
+UT Starcomm
+Gong Jinrong
+H04L 12/26
+Loading...
+The disclosed method for detecting the lost Iub FP frame based on IP transmission comprises: setting one or more buffer segments every responding to preset-volume FP frame from sending end to receiving end; and, detecting the lost frame number to every segment to obtain the complete study on lost frame. This invention is benefit to improve the reliability of FP frame transmission.
+139. 1965564 Method for remote service forwarding between dissimilar systems with operator, service and location portability
+CN
+16.05.2007
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+200480035849.7
+UTstarcom Inc.
+Fijolek John
+H04M 3/42
+Loading...
+The invention discloses a method for remote service forwarding (RSF) between dissimilar systems with operator, service and location portability. A remote service forwarding (RSF) system allows the telephone service user to access the subscribed services via different access devices without the loss of service. The system allows a user to access different systems or uses dissimilar phone devices or different service providers by porting services over an IP connection. The user may access subscribed services such as Centrex or PBX services over a mobile IP connection.
+140. 1961308 Domain-influenced prefix assignment method and apparatus
+CN
+09.05.2007
+G06F 15/16 Loading...
+G06F 15/16
+Loading...
+200580017973.5
+UT Starcom Inc.
+Akgun Ali
+G06F 15/16
+Loading...
+A network element (10) can retain a plurality of prefix identifiers as are used to formulate an address to be used by individual network users. Pursuant to a preferred approach, one or more of these prefix identifiers are pre-correlated to a given domain name while at least one other prefix identifier is pre-correlated to the absence of a domain name. So configured, a specific prefix identifier can be allocated for use by a given network user as a function, at least in part, of the domain name (or lack of a domain name) as may be presented by that network user when seeking to establish a network connection.
+141. 1960231 Multichannel multiplex transmission method and system for CPRI link
+CN
+09.05.2007
+H04J 14/02 Loading...
+H04J 14/02
+Loading...
+200510118606.6
+UT Sdakang Communication Co., Ltd.
+Liu Sheng
+H04J 14/02
+Loading...
+Character of the method lays on: at the sending end, maps CPRI link to GFP-T frame; packs GFP-T frame into SDH virtual capacity to form STM-N frame and emits STM-N frame via SDH circuit; at the receiving end, receives STM-N frame transferring by SDH circuit, separates SDH virtual capacity from STM-N frame; extracts GFP-T frame from SDH virtual capacity and restores CPRI link from GFP-T frame.
+142. 1960214 Method for realizing synchronization in PHS system
+CN
+09.05.2007
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200610159731.6
+UT Sdakang (China) Co., Ltd.
+Yu Xiaoming
+H04B 7/26
+Loading...
+The PHS system consists of the base station and the terminal. Comm. between the base station and the terminal uses the up-going and the down-going channels, which are counted by frames. These channels include respectively the control slot and the comm. slot. These slots include respectively the unique character for obtaining symbol synchronization. The special point is that both control slot and comm. slot adopt the 32 bits unique character. Further, when combines each two frames for channel coding, the odd frame and the even frame adopt different unique character. Furthermore, the odd frame and the even frame of synchronization impulses also adopt different unique character. Thus, the symbol synchronization, the frame synchronization and the system synchronization are realized.
+143. 1960564 Communication system and method for expanding coverage area of network
+CN
+09.05.2007
+H04Q 7/38 Loading...
+H04Q 7/38
+Loading...
+200510118552.3
+UT Sidakang Communication Co., Ltd.
+Wang Lei
+H04Q 7/38
+Loading...
+The communication system thereof comprises a first communication network and a second communication network both respectively using different communication standards, and a mobile phone. Wherein, the first communication network comprises mobile switch center (MSC), home location register (HLR), and mobile gateway (MG); the second network comprises a subscriber location register (SLR) and gateway (GW); there is a gateway between the first network and second network; when the gateway receives the call initiated by a mobile phone, it sends routing request to the first network and the second network in order to get roam number; recording the time parameter of last location registration and responding to the routing request; the first and second communication networks respectively sends the roam number and the parameter of last location registration to the gateway; the gateway decides which one of location registration times of two networks is the nearest, and selects the roam number provided by the network with the nearest location registration time to route the call.
+144. 1960511 Method for implementing aerial interface for service with half speed in personal portable telephone system
+CN
+09.05.2007
+H04W 28/22 Loading...
+H04W 28/22
+Loading...
+200610126677.5
+UT Sidakang (China) Co., Ltd.
+Chen Wei
+H04W 28/22
+Loading...
+The method comprises: appointing the rules used in time slot between the PHS base station and terminal to define a 10ms working interval on specific time slot and to divide the 32Kbps service channel into two 16Kbps service channels; wherein, said terminal supports half rate service, and is capable of identify if the PHS system supports the half rate service by modifying the PHS system broadcast message supporting the half rate service; the invention is implemented by expanding the definition of 'LCH type' of the reserved field in original system information message. The invention can also support two users on one channel so as to double the capacity of base station.
+145. 1957623 Method of resource control and softer handoff in centralized base station
+CN
+02.05.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480043140.1
+Utstarcom Telecom Communication Co., Ltd.
+Liu Cheng
+H04Q 7/00
+Loading...
+The invention puts forward a technique of channel process unit transferring, which is to solve the hard handoff problem due to the discontinuity of channel resource in centralized base station. According to the invention, when the situation that needs to perform handoff based on the prior art occurs due to the move of mobile terminal, firstly selecting an appropriate objective channel process unit, then transferring the channel process task form the original channel process unit to the objective channel process unit, thereby avoiding the hard handoff between the different channel process unit so as to permit performing softer handoff process in the objective channel process unit.
+146. 1956352 Distribution method of transmitting antenna speed, power in V-BLAST system
+CN
+02.05.2007
+H04B 7/06 Loading...
+H04B 7/06
+Loading...
+200510118454.X
+Utstarcom Telecom Co., Ltd.
+Wei Chuanming
+H04B 7/06
+Loading...
+This invention provides a method for sending rate and distributing power including: a transmission end distributes data flows to each sending antenna via serial parallel conversion, the receiving end applies a decode algorithm of canceling out compelled zero plus sequence serial interference to process received signals to get decode data characterizing that said method includes a regulation step, which calculates sub-flow late test S/N ratio of V-BLAST system under the time-varying channel to get information of the modulation mode and power distribution, the transmission end regulates the transmission antennas based on the obtained information of the modulation mode and power distribution to make the power distribution between the total power of the transmission end and the transmission antennas to change along with the variance of the channel state to optimize the BER performance of the system.
+147. 1957630 Method of allocating centralized BS resource and routing signal
+CN
+02.05.2007
+H04W 28/08 Loading...
+H04W 28/08
+Loading...
+200480043143.5
+Utstarcom Telecom Co., Ltd.
+Liu Sheng
+H04W 28/08
+Loading...
+The present invention provides a method of allocating the channel resource in the centralized BS, concluding: selecting the optimum channel processing unit respectively for each radio link newly added so that all the channel processing that relates to each radio link newly added is performed respectively in the corresponding optimum channel processing unit. The present invention also provides a method of dispatching the resource adaptively and balancing the load on the basis of complimenting the channel resource allocation, and a centralized base station that can realize the above channel resource allocating method .Accordingly, to each radio link newly added (concluding the link established newly and added due to the macro diversity), which can be allocated to a optimum channel processing unit and be processed, thereby realizing the maximum of using the channel processing resource.
+148. 1956564 Multi-protocol signal transmission method based on CPRI in distributed base station system and its device
+CN
+02.05.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200510114750.2
+Utstarcom Telecom Co., Ltd.
+Liu Cheng
+H04Q 7/30
+Loading...
+This invention provides a method for realizing multi-protocol customer signal transmission in distributed base-station subsystems including: packaging customer signals by a general framing rule transparent mode frame GFP-T, mapping said GFP-T to a lower transmission link to realize the transmission of customer signals, in which, said link can be the CPRI link and the signal may be one of the following ones: a WCDMA I/Q base-band signal supported by CPRI protocol, base band I/Q signal of other radio interface protocols apart from WCDMA, structured EI/T1, STM/1 constant rate link signals, variable rate link signals of structured Ethernet MAC frame and PPP/HDLC frame signals. This method is also suitable for synchronous transmission link between remote RF units of other kinds and the base-band master process unit such as links in OBSAI.
+149. 1956593 Method for detecting and feedback Iub FP frame transmission time delay based on IP transmission
+CN
+02.05.2007
+H04Q 7/38 Loading...
+H04Q 7/38
+Loading...
+200610128859.6
+Utstarcom Telecom Co., Ltd.
+Gong Jinrong
+H04Q 7/38
+Loading...
+This invention provides a method for realizing feedback control of FP frame transmission time delay in a UTRA TDD system including the following steps: comparing the local reference time of the transmission end of the FP frame with that of the receiving end and carrying out related actions at the transmission end based on the comparison result so as to realize the feedback control to the transmission time delay of the FP frame. This invention can test time delay accurately so as to control flows and load dispatch. This invention also provides RNC, Node B and a radio communication system including said RNC and Node B for realizing said method in the UTRA TDD system.
+150. 1954624 Method and device of implementing media resource control in soft switch call server
+CN
+25.04.2007
+H04Q 7/24 Loading...
+H04Q 7/24
+Loading...
+200480043024.X
+UT Starcomm
+Li Hui
+H04Q 7/24
+Loading...
+The present invention relates to a method and apparatus of implementing media resource control in softswitch call server. Said call server controls media resource on media gateway through gateway control protocol. Said method includes the steps of: using Leg model to define incoming media resource and corresponding outgoing media resource respectively for each media stream between said call server and said media gateway, wherein using calling LegID to identify said incoming media resource and called LegID to identify said outgoing media recourse; a call service function module in said call server identifying and managing said calling LegID and called LegID; setting a media gateway controller(MGC) module in said call server which further processes the media stream identified by said calling LegID and called LegID. The present invention is employed to implement complete separation of control and bear, and simplify the complexity of media control flow in call control layer.
+151. 1953564 A test system and method for set top box
+CN
+25.04.2007
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200610146969.5
+UT Starcomm
+Huang Zhongyue
+H04N 17/00
+Loading...
+The invention relates to a testing system of set-top box, which comprises input unit, operation command processor, remote-control signal sender, and detector. Wherein, the invention also provides a relative testing method which comprises that receiving the command at first format; converting said command into second format; using serial communication interface to send the signal at second format to the sender; the sender sends the remote-control signal to the set-top box to respond the signal at second format. The invention has high accuracy.
+152. 1954625 Structure of connecting remote RF unit in centralized base station and method therefor
+CN
+25.04.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480043022.0
+UT Starcomm
+Liu Sheng
+H04Q 7/30
+Loading...
+A structure of interconnecting channel processing main unit and multiple radio frequency units is disclosed, wherein the structure includes a line concentrator which is connected with a part or all of said multiple radio frequency units through a first link respectively and connected with said channel processing main unit through a second link, and wherein said line concentrator includes multiplex/demultiplex means for connecting said first and second links.
+153. 1954631 Macrodiversity processing method for supporting soft hand-off technique in the centralized base station
+CN
+25.04.2007
+H04W 36/18 Loading...
+H04W 36/18
+Loading...
+200480043021.6
+UT Starcomm
+Liu Sheng
+H04W 36/18
+Loading...
+The invention relates to a soft hand-off method in the centralized base station system. According to the invention, in the case of the mobile terminal performs hand-off, several radio links is synchronously established for the mobile terminal wherein the physical channel processing in the several radio links are achieved by different channel processing units in the multiple channel processing unit; and each radio link in the several different channel processing units perform selective diversity, thus, the mobile terminal can achieve the soft hand-off. Therefore, it solves the hard hand-off problem that happened in the centralized base station system, and it makes the assignment for the channel processing resource in the centralized base station flexible, but is it not limited in the effect of mobility of the mobile terminal.
+154. 1946006 Method and device for forming physical frame for personal portable telephone system
+CN
+11.04.2007
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200610143413.0
+UT Starcom (China) Co., Ltd.
+Yu Xiaoming
+H04B 7/26
+Loading...
+This invention provides a method and a device for forming physical frames used in personal portable telephone system, in which, the method includes: carrying out channel coding operation and interlacing operation to data bit flows belonging to the service channel and control channel and mapping them into the time division multiplex time slot to form physical frames, in which, signals transferred between the base station and terminals can be correctly received in even lower S/N ratio by the channel coding and interlacing technology while forming physical frames, and since attenuation of radio signals is in proportion to the transmission distance, even lower S/N ratio means wider covering sphere, besides, this invented portable phone system can be compatible to cell phone terminals by setting two sets of physical channels loading public channels.
+155. 1937816 Dual-mode mobile communication terminal
+CN
+28.03.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200610131993.1
+UT Starcom Communication Co., Ltd.
+Huo Qixian
+H04Q 7/32
+Loading...
+The invention presents a dual-mode mobile communication terminal which can reduce the mutual interference of the two modes to reach the standby at the same time. It has the first and second mode system to treat the first and second mode signal. The second mode system can generate the interface signal to the first mode system which has the first incepting channel, the first emitting channel and the base-band treating mode of the first mode. The second mode system includes the second incepting channel, the second emitting channel and the base-band treating mode of the second mode. The interfacing inhibit circuit which inhibits the interface signal is set in the first incepting channel and the second emitting channel is set with the stray interfacing inhibit circuit which inhibits the stray interface and the input yawp inhibit .amplifying circuit which inhibit yawp in the first mode signal band and amplify the second mode signal. So it can provide a dual-mode mobile communication terminal which can reach the dual-mode double standby.
+156. 1937535 Rapid volume-expanding method for network management system
+CN
+28.03.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200610131992.7
+UT Starcom Communication Co., Ltd.
+Bai Guangyuan
+H04L 12/24
+Loading...
+The invention discloses a fast capacity expanding method for network management system, belonging to the telecom network management field, using some original data as template to be exported to generate EXCEL file, then using edit function of EXCEL to modify and convert the original data into new configuration data, then importing them into the network management system to update the data so as to achieve the purpose of fast expanding capacity. And it can largely raise working efficiency, simple and convenient to operate for users, requiring no complex programming process and the updating process is controllable.
+157. 1937597 Method for reducing system signalling interactive process for multimedia subsystem
+CN
+28.03.2007
+H04L 12/64 Loading...
+H04L 12/64
+Loading...
+200610108882.9
+UT Starcom Communication Co., Ltd.
+Zhou Yi
+H04L 12/64
+Loading...
+The invention advances a signaling interacting method in IMS, able to reduce signaling interacting number and improve system stability. In the process of making signaling interaction between network element, SLF and HSS, the method comprises the steps of: a network element receives a message containing user ID; according to the user ID, it inquires HSS information corresponding to the user ID in its buffer memory; and it builds signaling interaction with attribute HSS determined by the HSS information. Thus, by addition of buffer memory to network element, the method omits the interacting process that I-CSCF inquires of SLF about user attribute HSS. Thus, the method reduces signaling interacting number and besides, improves system stability.
+158. 1929683 RSSI processing technology in WCDMA system
+CN
+14.03.2007
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200610125843.X
+UT Starcomm
+Zhang Jing
+H04B 1/707
+Loading...
+This invention discloses one new antenna receive power measurement slide process method, which comprises the following steps: removing original measurement abnormal sample values impact; then processing slide filter on sample to get total sample estimations and to get next sample values gate reference values. This invention method can realize RSSI measurement and RSSI real values.
+159. 1925367 Self-adaptive modulating and coding method for high-speed descending sectionalization access system
+CN
+07.03.2007
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200610153484.9
+UT Starcomm
+Qiao Jia
+H04B 7/26
+Loading...
+This invention relates to TD-SCDMA HSDPA system self adapting modulation and coding method, wherein, the system comprises UE and Node B with inner adjuster and the method comprises the following steps: UE is connected to the system and establishes DL DPCH and UL DPCH; Node B records relative power information emission power or power bias for main control physical channel; when inner adjuster needs to get Node B emission power or power bias to research preset power bias and needed research list.
+160. 1926869 Method, device and system for remote image monitoring of wireless base station
+CN
+07.03.2007
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+200480042318.0
+UT Starcomm
+Liu Sheng
+H04N 7/18
+Loading...
+The invention relates to a method, apparatus and system of remote monitor for the devices of the base stations in the mobile communication system. The system includes at least one or more base stations, a base station controller communicating with the base stations, an operation and maintenance center communicating with the base stations and the base station controller. This method comprises: setting a video image monitoring apparatus on the side of the base station in the communication system, and connecting the video image monitoring apparatus with one or more video image obtaining apparatus; the video image monitoring apparatus controls the operation of said one or more base station while receiving a request for monitoring the required base station, to obtain the video image data on the base stations; and transmitting the video image data obtained on the base station to the operation and maintenance center by the video image monitoring apparatus, therefore, the operation and maintenance center can achieve the remote image monitoring to the base stations.
+161. 1926898 Method of microcell management in mobile communication system using centralized base station
+CN
+07.03.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480042319.5
+UT Starcomm
+Liu Sheng
+H04Q 7/30
+Loading...
+The present application discloses a method of microcell management in mobile communication system using centralized basestation, the method comprising the steps of measuring the relevant parameters of the respective microcell, combining the microcells with the approximate parameters and geographically adjacent into a larger cell, remote radio frequency units corresponding to the combined microcells acting as contributed radio frequency transceiver systems of the cell after combining, wherein the combining procedure should meet the following conditions: the wireless interface capacity supported by the cell after combining should be not lower than the total capacity requirement of the combined microcells without the limit of the available processing resource of the centralized basestation.
+162. 1926812 Method and system for realizing system configuration
+CN
+07.03.2007
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200480042427.2
+UT Starcomm
+Feng Jie
+H04L 12/28
+Loading...
+The present invention provides a method for realizing the system configuration. Said method includes following steps: determine one or more function units required by the system to provide service; according to the request of the service that the system actually need to provide, configure each function unit independently by combining the hardware sub-units and software sub units that the system has, said function units were related with the service that the system actually need to provide, make these function units to be in the state that they can provide corresponding function and thereby complete the system configuration. In the preferred embodiment, the system configuration was completed according to minimum configuration strategy and the system can be started as soon as possible. The present invention also provides a system configured by the above method. Since the present invention configures each function unit required by the system to provide service using the flexible non-one-to-one correspondence relation between the function units and the hardware sub-units, software sub-units, the present invention can realize the system configuration easily and efficiently and avoids waste of resource.
+163. 1926782 Method and device for power control of descending chain circuit in distributed antenna system
+CN
+07.03.2007
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200480042425.3
+UT Starcomm
+Liu Sheng
+H04B 7/005
+Loading...
+The present invention discloses an device for controlling downlink power in a combined cell, based on the pulled-RF unit in a collecting base station, therein the base station comprises several RF units and RAKE receivers connected to the RF units. The device comprises: QoS measurement means for measuring quality of signal(QoS) of an uplink channel between each RF unit and the same subscriber device; calculation means for calculating an average QoS of the uplink channel, according to the measured QoS; and power control means for controlling the transmission power of the downlink channel corresponding to the uplink channel according to the calculated average QoS, so as to reduce the transmission power of the downlink channel corresponding to the uplink channel which has a reduced QoS.
+164. 1926890 Method and system of signal transmission based on radio frequency stretch base station
+CN
+07.03.2007
+H04Q 7/00 Loading...
+H04Q 7/00
+Loading...
+200480042316.1
+UT Starcomm
+Liu Sheng
+H04Q 7/00
+Loading...
+The present invention relates to a method and base station communication system of processing signal transmission between main base station and one or more remote radio unit. Therein transmission channel between above main base station and above one or more remote radio communicates using wide band transmission link or network ,and above method includes following steps: transmission is processed using synchronous digital system SDH/optical transmission network OTN on above transmission channel, as well as digital wireless signal data stream and inband control signaling stream transmitted on above transmission channel is formed as general framing regulations GFP frame, and is mapped to STM-N/OTM-n frame, thereby multiplexing above digital wireless signal data stream and above inband control signaling stream to realize transmission based on SDH/OTN. Thereby wireless signal transmission between remote radio unit and main base station without special transmission network is effectively realized , management of signal transmission and maintenance operation is reduced as well as the cost of network build is reduced.
+165. 1926807 Medium control method for realizing legal monitoring using soft exchanging system
+CN
+07.03.2007
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200480042430.4
+UT Starcomm
+Xu Wei
+H04L 12/26
+Loading...
+A media control method for realizing the lawful interception includes the following steps: establish the up-shadow-termination corresponding to the intercepted termination in the context of the intercepted termination of the intercepted object, the up-shadow-termination is used to audit the up media flow of the intercepted object; establish the down-shadow-termination corresponding to the opposite termination in the context of the opposite termination of the intercepted termination, the down-shadow-termination is used to audit the down media flow of the intercepted object; and bridge the up-shadow-termination, the down-shadow-termination and intercepting termination corresponding to the interception center to the same conference bridge, wherein the up media flow and the down media flow of the intercepted object is mixed on the conference bridge through the up-shadow-termination and the down-shadow-termination. So the present invention realizes the interception function to the intercepted termination.
+166. 1926781 Multi-input-multi-output communication mode based on distributed transmitting source
+CN
+07.03.2007
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200480042317.6
+UT Starcomm
+Liu Sheng
+H04B 7/005
+Loading...
+The present invention discloses a multiple-input multiple-output (MIMO) method for a distributed transmission source, which transmits the downlink streams between M antennas at the transmitting side and the mobile terminal having P receiving antennas, M, P>1, in which exists the multi-path distribution between at least two antennas of the transmitting side and one of the receiving antennas. Said method includes transmitting the corresponding M substreams to the mobile terminal, using the same spread spectrum code, estimating the multipath channel matrix, and processing the signal to recover the downlink data stream according to the multipath channel matrix. Said estimation includes measuring the total number of the actual multipath reception components of different time delay of the transmitted signal, constructing the channel matrix with the number which used as the multipath number, so as to set the channel parameter corresponding to the transmitting side's antennas, the receiving antennas and the time delays to zero, if the signal from the transmitting side antenna to the receiving antenna have not the multipath components corresponding to the time delays. While said transmission includes adjusting the gain of M substreams in accordance with the uplink average signal quality from mobile terminal to M transmitting side, so that the average path losses corresponding to each downlink channel are equal.
+167. 1926899 Method of regulating resource and guiding service in the multi-mode radio network
+CN
+07.03.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480042424.9
+UT Starcomm
+Liu Sheng
+H04Q 7/30
+Loading...
+The present invention discloses a method of regulating resource and guiding service in the multi-mode radio network. The multi-mode radio network concludes a common wideband transport link and multiple different mechanism mobile communication networks that have centralized BS site, the centralized BS of each mobile communication network is connected to the common BSC or RNC. According to at least one of the following factors or according to the combination of the factors, it enables the mobile terminal handover between different mobile communication networks or enables to regulate in time the resource distribution of each mobile communication network: the multi-mode support ability of the mobile terminal, the traffic in the cell and managing policy, and the running status in time.
+168. 1926891 Distributed wireless system for controlling the resource centrally
+CN
+07.03.2007
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200480042426.8
+UT Starcomm
+Huang Xiaoqing
+H04Q 7/22
+Loading...
+A distributed system is disclosed, which controls the resource centrally. The system comprises: a plurality of communication processing device connected with each other, each of which processes the channels within its own cell, such as converting the uplink radio signals finto the uplink data frames and converting the downlink data frames into the downlink radio signals; system control device, which is connected with the said communication devices and network control device and comprises a channel process and deploy means, for controlling the allocation of intermediate channel processing tasks to the said communication processing devices, so as to allocate the channel process tasks within a cell that one communication processing device is in charge to another channel processing device; and routing means, for routing and delivering data between the network control device and wireless gateway.
+169. 1926896 Method and apparatus for multi-antanna signal transmission in RF long-distance wireless BS
+CN
+07.03.2007
+H04B 7/04 Loading...
+H04B 7/04
+Loading...
+200480042315.7
+UT Starcomm
+Liu Sheng
+H04B 7/04
+Loading...
+The present invention disclosed method and apparatus for multi-antenna signal transmission in RF long-distance wireless BS.The said method comprise: perform transmit using Synchronous Digital Hierarchy (SDH)/Optical Transmission Network (OTN) on transmission channel; multiplexing the multi-antenna signal in the form of time division or GFP frame cascade multiplexing; make multiplexed antenna signal steam and inband control signaling steam to Generic Framing Procedure GFP frame; or parallel make the multi-antenna signal and corresponding control signaling on multiinband control signaling channel to corresponding multi-Generic Framing Procedure GFP frame; further mapped the GFP frame to STM-N/OTM-n frame, multiplexing the multi-antenna signal and the inband control signaling steam, so that realize transmission based on SDH/OTN. According to the present invention,in the case of using multiantenna transmission, can be ensure accurate time relation or phase relation between each antenna signal, and can be simply complexity of system,realize the same transmission delay from each antenna signal to centralized BS.
+170. 1922819 Method for managing management information base in network management system
+CN
+28.02.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200480042102.4
+UT Starcomm
+Li Dong
+H04L 12/24
+Loading...
+The invention discloses a method for managing management information base (MIB) in network managing system (NMS), the NMS comprises SNMP protocol adaptive layer as well as managed network, the SNMP protocol adaptive layer includes MIB coordinated management module, the method comprises following steps: defining a MIB version for all MIB information which is defined for managing a network cell of one version from a kind of network cell in managed network; the SNMP protocol adaptive layer will create a MIB version space for each MIB version within the NMS management range, add all MIB information included in each MIB version into the MIB version space created for the MIB version, put all conflicting SNMP objects in MIB version space respectively; the MIB coordinated management module will instantiate and de<->instantiate corresponding MIB version space according to management requirement. In term of scheme of invention, the conflict between new object and old object will be overcame, and because the old version network cell be managed no more, MIB and NMS's maintenance is convenient.
+171. 1922902 Transmission optimization in wireless base station system based on load share
+CN
+28.02.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480042192.7
+UT Starcomm
+Liu Sheng
+H04Q 7/30
+Loading...
+Providing a method of signal transmission, the method includes: in downward, sending the downward data frame of the cell by the radio network control equipment to the base station which concerns of its channel process so as to perform process; the first base station receive the downward radio signal from the base station which the channel of downward data frame of the cell concerns of ; and the first base station transmits radio signal to the cell; in upward , the first base station receive the upward radio signal of the cell; the first base station distribute the upward radio signal to the base station which its channel concerned of so as to perform process; the radio network control equipment receive the corresponding upward data frame from the base station which the channel process of the upward radio signal concerned of , the base station which the downward data frame channel process or the upward radio signal concerned of include at least the second base station .
+172. 1922901 Method and system for load share in wireless base station
+CN
+28.02.2007
+H04Q 7/30 Loading...
+H04Q 7/30
+Loading...
+200480042191.2
+UT Starcomm
+Liu Sheng
+H04Q 7/30
+Loading...
+The present invention discloses a radio base station ,which connecting with a radio network controlling apparatus ,other radio base station and user equipment , comprising the first communication apparatus for receiving/transmitting downward data frames/upward data frames from/to radio network controlling equipment; comprising the second communication apparatus for transmitting/receiving downward radio signals /upward radio signal ;comprising channel processing apparatus for processing the downward data frames/upward data frames into downward radio signal /upward data frames;comprising signal distributing element for providing the channel processing apparatus with downward data frames and upward radio signal to process,wherein the said base station further comprising the third communication equipment for communicating with other base station,and the said signal distributing element further comprising a relay controlling mean for sending the downward data frames or upward radio signal to other radio base station via the third communication apparatus,and receiving the corresponding downward radio signal or upward data frames from other base station.
+173. 1922811 System and apparatus for a carrier class WDM pon for increased split number and bandwidth
+CN
+28.02.2007
+H04J 14/00 Loading...
+H04J 14/00
+Loading...
+200580003912.3
+Utstarcom Inc.
+Huang William X.
+H04J 14/00
+Loading...
+A Passive Optical Network (PON) is provided with enhance split capability and bandwidth by employing Wavelength Division Multiplexer (WDM) elements in combination with optical couplers at optical distribution nodes (ODN) (32) intermediate a local exchange office node (20) and a customer node (42). The local exchange office node transmitting and receiving signals from a single optical fiber (28) through a WDM (26) and each customer node connected to one leg of an optical coupler (40) in the ODN with a WDM (42) for received and transmitted signals. Upstream transmission is accomplished with a single wavelength.
+174. 1921689 System and method for realizing multicast in UTRA TDD HCR system by using descending share channel
+CN
+28.02.2007
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200610094435.2
+UT Starcomm
+Zhang Jing
+H04W 4/06
+Loading...
+The invention relates to a UTRA TDD HCR system which uses descending share channel to realize multicast. Wherein, it comprises: core network; several general ground wireless access networks (UTRAN) via interface (IU) coupled with core network; several user ends (Ue) which are divided into groups and coupled with UTRAN via user interface (Uu). The invention also discloses a relative method which uses UTRAN and interface (Uu) to send multicast information at descending share channel to the Ue in same one group, to order all users in same group to receive the multicast information sent by said descending share channel. The invention can reduce the occupied wireless channel resource most, to realize the multicast function of online television and group communication effectively.
+175. 1917629 Method of operating interactive type TV
+CN
+21.02.2007
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200610115862.4
+UT Sidakang Communication Co., Ltd.
+Fan Cunzhi
+H04N 7/173
+Loading...
+The method comprises: user inputs the operation instruction into the set-top box through an input device; the set-top box sends the operation instruction to the video server; the video server reads out the video content and returns the video content to the set-top box according to the operation instruction. Wherein, the operation instruction is composed of a function description part and an operation quantity description; the function description part is used to descript the character for fast forwarding and fast backwarding the video content; the operation description part is used to descript the numeric coding of time bias quantity corresponding to the current play time in the fast forwarding and fast backwarding the video content.
+176. 1910874 ATM switched router for transmitting IP packet data
+CN
+07.02.2007
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200580002436.3
+UT Starcom Korea Ltd.
+Park Jung Hee
+H04L 12/56
+Loading...
+The present invention generally relates to a switch router for use in a High-speed ATM Multi-service Switching system (HAMS), and more particularly to a switch router for transmitting IP packet data comprising: a Switch Link Assembly (SLA) for switching ATM packet data inputted from a higher block to an IP Forwarding Control Assembly (IFCA), the SLA further being operative to switch the ATM packet data inputted from the IFCA to the higher block; an IFCA for routing the ATM packet data inputted from the SLA to an EtherNet Link board Assembly (ENLA), the IFCA further being operative to route the ATM packet data inputted from the ENLA to the SLA; and an ENLA for converting the ATM packet data routed from the IFCA to an Ethernet data and transmitting the Ethernet data to the higher block, the ENLA further being operative to convert the Ethernet data inputted from the higher block to a local ATM packet data and output the local ATM packet data to the IFCA.
+177. 1909528 Channel estimation method and device for crossing frequency division multiplexing system
+CN
+07.02.2007
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200610126417.8
+UT Starcomm
+He Tingyu
+H04L 25/02
+Loading...
+The invention relates to a signal channel estimate method used in orthogonal frequency division multiplexing system, a relative device, and an orthogonal frequency division multiplexing system using said device, wherein said signal channel estimate method comprises: fixing the signal channel frequency response of sub carrier wave of at least one forward mark and the signal channel frequency response of several pilots of one data mark in one orthogonal frequency division multiplexing frame; based on said the nearby pilot of data mark, estimating the signal channel frequency response of data sub carrier wave; using said signal frequency response to correct the signal channel frequency response of said data sub carrier wave; compared with present technique, the invention can avoid noise effect and high interpolation error, to improve the system property, with low complexity.
+178. 1910948 Structure of a management information base communicated between a network management system and an agent of a network element
+CN
+07.02.2007
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200580002425.5
+UT Starcom Korea Ltd.
+Kang Kwang Seok
+H04Q 7/34
+Loading...
+The present invention relates to a structure of a Management Information Base (MIB) communicated between a Network Management System (NMS) and an agent of a Network Element (NE). Conventionally, an operator provides the MIB to the NMS and the NE agent before the communication. If the MIB is not provided before the communication, the NMS cannot know what data to be retrieved from the NE agent and thus cannot understand the MIB. In order to resolve this problem, the present invention suggests using the claimed structure of MIB for communicating between the NMS and the NE agent. According to the present invention, when a MIB of the NE agent is changed, the MIB of the NE agent is reflected to the NMS automatically, and not by an operator's action. Therefore, the network can be managed automatically.
+179. 1910855 Method for correcting time data in a network management application using a SNMP
+CN
+07.02.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200580002437.8
+UT Starcom Korea Ltd.
+Park Sang Dae
+H04L 12/24
+Loading...
+The present invention is directed to a method for correcting time data in a network management application. In a conventional Simple Network Management Protocol (SNMP) application, time errors occur due to a time tick or a time delay in the network. To resolve the above problem, the present invention suggests a method for correcting the time data, wherein the network management application waits for the most polling periods to save system resources, checks time data for the last polling period, and requests performance information and statistic information. With the present invention, the possibility of incurring time errors due to the information request for polling can be resolved.
+180. 1905605 Charging method for cluster communication in IMS/PoC system
+CN
+31.01.2007
+H04M 15/00 Loading...
+H04M 15/00
+Loading...
+200510087673.6
+UT Sidakang Communication Co., Ltd.
+Liu Cheng
+H04M 15/00
+Loading...
+The invention relates to a method for accounting group communication in an IMS/PoC system, comprising: adding information about payment attribute of PoC group member; extending Rf interface between PoC server and accounting data function or Diameter protocol of Ro interface between PoC server and on-line accounting system to add related information about PoC group ID and accounted party in the POC group. And it enhances the function of accounting the existing PoC group communication.
+181. 1902949 Method and system of double engines sharing memory
+CN
+24.01.2007
+H04Q 1/28 Loading...
+H04Q 1/28
+Loading...
+200480039850.7
+UT Starcom (China) Co., Ltd.
+Xun Jinyou
+H04Q 1/28
+Loading...
+The present invention discloses a communication mechanism of the main control boards which is separated from specific service and constructed on normal CompactPCI bus with the peripheral single boards, which particularly satisfies the communication mechanism of high performance and high reliability required in the communication devices, the communication mechanism completes the switch between the main control boards and peripheral single boards, and between the peripheral single boards, in which the core module is high speed sharing memory engine, in the main control boards which are mutually standby, there have respectively a high speed sharing memory engine, and both the high speed sharing memory engine are hot standby mutually. when one engine fails to work or the main control board which the engine resides fails to work, another engine takes the work without gap, and any data information won't lost.
+182. 1901478 Network managing method based on SNMP
+CN
+24.01.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200610107903.5
+UT Starcom Communication Co., Ltd.
+Li Dong
+H04L 12/24
+Loading...
+This invention puts forward a high safety network management method based on SNMP including the following steps: a, NMS starts up and carries out initialization, b, the NMS tests the communication state of NE and the state of cryptographic key to determine if it's necessary to carry out cryptographic key synchronization with the NE, c, the NMS generates the SNMP Get request for enquiring the current information of the NE and sends it to the NE, which feeds back the SNMP response containing the required current information of the NE, d, the NMS generates the SNMP Set requirement for controlling/configuring NE to be ciphered and sent to the NE, which feeds back the SNMP response containing the control/configuration result.
+183. 1901428 Decoder with inner forward error correction for synchronous digital seriesl/synchronous fiber optic net system
+CN
+24.01.2007
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200510084690.4
+UT Starcom Communication Co., Ltd.
+Wang Zhaoming
+H04L 1/00
+Loading...
+This invention relates to an in-band FWC decoder used in the ADH/SONET system including: a data interleave and controller, a data TDM device for carrying out TDM to the data output from data interleave and the controller, a BCH decoder used in searching for the position of error bit in the data processed by TDM and outputting error position instruction signal and an error correcting circuit used in correcting errors based on the instruction signal, said BCH decoder further includes a generator of error position multinomial sigma(x) including a multinomial multiplier and an adder to finish the operation of totaling with a third element after two elements in the GF domain are multiplied in said multiplier and realize modulo 2 addition of the GF domain in the adder.
+184. 1897752 Method for generating user identifier H-RNTI of HSDPA system
+CN
+17.01.2007
+H04W 8/26 Loading...
+H04W 8/26
+Loading...
+200610091490.6
+UT Sidakang Communication Co., Ltd.
+Zhang Jing
+H04W 8/26
+Loading...
+The method comprises: 1) sequentially generating the temporary user ID 'H-RNTI-TEMP'; 2) using the forward error correction coding to encode the temporary subscriber ID 'H-RNTI-TEMP' in order to generate the user ID 'H-RNTI'. The invention can avoid the error receiving of HS-SCCH in the HSDPA system.
+185. 1897614 Telecommunication system with credit mechanism and method thereof
+CN
+17.01.2007
+H04M 3/22 Loading...
+H04M 3/22
+Loading...
+200610093338.1
+UT Sidakang Communication Co., Ltd.
+Li Anji
+H04M 3/22
+Loading...
+The system thereof comprises: a calling phone terminal, a calling office side, a called office side and a called phone terminal. Wherein, according to the preset credit rating, the calling number and the called number are divided into different credit ratings, and the information about the credit ratings is saved in the storage unit of its corresponding calling and called office side. The method thereof comprises: the calling phone terminal initiates a call; the calling office side retrieves the credit rating information about the calling phone number, and the called office side retrieves the credit rating information about the called phone number; according to the credit rating information of its opposite end, both select establishing or refusing the communication connections.
+186. 1896992 Method and device for analyzing XML file based on applied customization
+CN
+17.01.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610092563.3
+UT Sidakang Communication Co., Ltd.
+Zhou Yi
+G06F 17/30
+Loading...
+A method for having analysis XML file custom-made based on application includes generating user instruction tree by analyzer according to parameter instruction then carrying out custom-made analysis course of XML file according to user instruction tree and setting up speed XML parser internal memory structure for providing convenience on treatment of XML file data.
+187. 1889677 Status control system and method for supporting time shifted TV business
+CN
+03.01.2007
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200610084929.2
+UT Sidakang Communication Co., Ltd.
+Fan Cunzhi
+H04N 7/16
+Loading...
+A state control system supporting time-shift TV service is prepared as using terminal processing module to support video treatment and to support information interaction between video service module as well as to respond user operation command for judging whether user is on time-shift TV service or not by displaying time-shift TV service on TV set and display time-shift identification on picture at TV set, using charge module to receive and execute charging start-up and charging-stop command sent by video service module.
+188. 1889393 Mobile terminal electricity-saving method in TDMA system
+CN
+03.01.2007
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200610106656.7
+UT Sidakang Communication Co., Ltd.
+Chen Wei
+H04B 7/26
+Loading...
+This invention provides a method for saving electricity of mobile terminals in TDMA system, in which, an up channel and down channel are applied between the base station and the mobile terminal for communication and occupy m time slots separately, only n time slots in said channels are used for transmitting and receiving data, in which, m, n are positive integers and m>n, thus, the CPU is at the dormancy state in the k time slots not transmitting or receiving data, k=1, ...(m-n), and k is a positive integer.
+189. 1889400 Multi-mode cell phone capable of suppressing PHS mode radio frequency interference
+CN
+03.01.2007
+H04B 15/00 Loading...
+H04B 15/00
+Loading...
+200610106873.6
+UT Sadakang Communication Co., Ltd.
+Wang Hongyu
+H04B 15/00
+Loading...
+This invention discloses a multi-mode cell phone capable of suppressing the interference of PHS RF signals to non-PHS units including: a PHS unit and at least one non-PHS unit including a RF receiving circuit, in which, said non-PHS communication system includes a trapper connected to the front of the RF receiving circuit and the filter property of said filter stops signals of the control channel of the PHS unit from entering into the RF receiving circuit.
+190. 1889577 IP address distributing method based on DHCP extended attribute
+CN
+03.01.2007
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200610106637.4
+UT Sidakang Communication Co., Ltd.
+Peng Xiaofeng
+H04L 29/06
+Loading...
+A method for distributing IP address based on DHCP extension attribute can realize safety certification of DHCP by utilizing self-defined attribute field Option 60 of manufacture supported by multiple extension attribute provided in standard DHCP. The said method includes discovery course, identifying and verifying course of Option 60 field, providing course, picking up and calibrating course of Option information, selecting course, right identification control course by utilizing Option 60 and confirming course for achieving purpose of distributing network IP address safety and reliably.
+191. 1889530 Communication chain-circuit overload processing method and apparatus
+CN
+03.01.2007
+H04W 28/04 Loading...
+H04W 28/04
+Loading...
+200610107944.4
+UT Sidakang Communication Co., Ltd.
+Gong Jinrong
+H04W 28/04
+Loading...
+An interchange device of radio access network consists of a control unit for confirming dropout rate of multiple data packet to be transmitted through communication link according to communication link state and for selecting out data packet with higher priority level according to said dropout rate, an interchanging unit for transmitting data packet with higher priority level through communication link. The interchanging method utilizing said device is also disclosed.
+192. 1886936 System and method for point-to-point protocol device redundancey
+CN
+27.12.2006
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200480035398.7
+UT Starcom Inc.
+Borella Michael S.
+H04L 12/26
+Loading...
+A system and methods are shown for providing packet data serving node (PDSN) redundancy. One exemplary method includes providing an access node with a plurality of packet data serving nodes and at least one system manager, establishing an N to 1 redundancy of active to standby PDSNs. Upon establishing a communications session with,a mobile node, each active PDSN provides state updates to the standby PDSN including only nonrecoverable data. Upon failure of any active PDSN, the standby PDSN reassigned as an active PDSN replacing the failed unit and assuming the communications session with the mobile node. The remaining active PDSNs are notified of the reassignment and transmission of updated state data is discontinued.
+193. 1885832 Packet scheduling method and device for wireless communication system
+CN
+27.12.2006
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200610101084.3
+UT Starcomm
+Zhang Jing
+H04L 12/56
+Loading...
+The disclosed scheduling method for grouping business comprises: an input unit for business type and overtime, an order unit with a first unit to group and order data into multiple data sequence and a second unit to obtain the data PRI as overtime, and an allocation unit to allocate interface resource. This invention is convenient and simple.
+194. WO/2006/131019 A METHOD AND SITE FOR ACHIEVING LINK AGGREGATION BETWEEN THE INTERCONNECTED RESILIENT PACKET RING
+WO
+14.12.2006
+H04L 12/42 Loading...
+H04L 12/42
+Loading...
+PCT/CN2005/000790
+UTSTARCOM TELECOM CO., LTD.
+CHENG, Jun
+H04L 12/42
+Loading...
+A method is provided for achieving link aggregation between the interconnected resilient packet ring (RPR) in the RPR system, and the said interconnection system comprises at least the first RPR and the second RPR, and the said RPR comprises at least two sites crossing the ring. The method comprises the steps: at least two paths crossing the ring are established between the first RPR and the second RPR to transmit the service crossing ring. Wherein a site crossing ring is selected based on the aggregation policy configured to transmit the service crossing ring in the corresponding path crossing ring. The said method and the site of the present invention can automatically transfer the service in this site to the other path crossing ring after certain site or path crossing ring is fail, and wherein the protective time less than 50ms. The service crossing ring has the same CoS in the plurality of RPRs.
+195. WO/2006/131026 A METHOD AND SYSTEM FOR INTER-CONNECTING THE RESILIENT PACKAGE RING
+WO
+14.12.2006
+H04L 12/42 Loading...
+H04L 12/42
+Loading...
+PCT/CN2005/000831
+UTSTARCOM TELECOM CO., LTD.
+CHENG, Jun
+H04L 12/42
+Loading...
+A system for inter-connecting the resilient package ring (RPR) at least includes: the first RPR and the second RPR, in which the said RPRs at least include the work station and the standby station; the work channel for transmitting the cross-ring service is established between the work stations of the RPR, and the standby channel for the standby of the work channel is established between the standby stations of the RPR; said work stations and said standby stations have memory to store the first station identifier and the second station identifier which identifies themselves, in which the first station identifier is used for cross-ring service and the second station identifier is used for local service.
+196. 1878294 Controlled multicast managing method for network interactive television roaming user
+CN
+13.12.2006
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200510076560.6
+UT Starcomm
+Qu Zhe
+H04N 7/173
+Loading...
+The invention relates to a controllable multicast manage method of IPTV roaming user, which can effectively solve the defects of present multicast service that based on access network static user management. Wherein, said method comprises: STB terminal receives DHCP request of user and inserts the user recognize information into first relative message; cutting the inserted first relative message from DSLAM and extracting the user recognize information, then with the second relative message, to be sent to OSS; OSS judges if the third relative message is matched with system present message; if matches, user normally accesses into former user node; if not, said user is roaming user; if it, refreshing the message list of user, and if not, rejecting the user and refreshing the user list, and refreshing the multicast priority control list.
+197. 1874482 System and method for implementing service for making a present of program
+CN
+06.12.2006
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+200610091489.3
+UT Sdakang Communication Co., Ltd.
+Zhou Yi
+H04N 7/14
+Loading...
+The invention is used for allowing an illegal user to donate TV programs to other illegal users. A service interface unit, a donation service logical unit, and a donation service data unit are added into the interactive television system to implement the TV programs donation by combining the terminal management unit, stream display server and user's terminal.
+198. 1874485 System for managing digital copyright, and system of operating network TV
+CN
+06.12.2006
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200510074057.7
+UT Sdakang Communication Co., Ltd.
+Chen Yu
+H04N 7/16
+Loading...
+The system comprises: a content providing system used for saving and encrypting media content; a play device used for playing the media content; an authorization management subsystem used for generating an authorized object aiming at a special media content and managing the authorized object; a cipher key management subsystem used for managing content key and generating a content key corresponding to the request sent out from the authorization management subsystem. Wherein the authorized object generated from the authorization management subsystem is saved in the authorization server; the content key generated by the cipher key management subsystem will be abandoned after the playing device complete, or stop the media content, or the user shuts down the device.
+199. 1874286 Method and station site for implementing reliable data transmission between elastic packet rings
+CN
+06.12.2006
+H04L 12/437 Loading...
+H04L 12/437
+Loading...
+200510075401.4
+UT Sdakang Communication Co., Ltd.
+Cheng Jun
+H04L 12/437
+Loading...
+The interconnection system at least comprises a first resilient packet ring and a second resilient packet ring. Said resilient packet rings at least comprise a working station and a standby station. The method thereof includes: establishing a working channel between the first working station of the first resilient packet ring and the second working station of the second resilient packet ring in order to make inter-ring transmission; establishing a standby channel between the first standby station of the first resilient packet ring and the second standby station of the second resilient ring; when a failure happening in the working station or working channel is detected, the standby station uses the standby channel to make inter-ring transmission service.
+200. 1874210 Method for transmitting and receiving quasi-orthogonal time space group code, transmitter and receiver, and communication system
+CN
+06.12.2006
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200510076025.0
+UT Sdakang (China) Co., Ltd.
+Deng Dan
+H04L 1/00
+Loading...
+The invention is related to transmitting/receiving method in quasi-orthogonal time space group code, receiver and transmitter and corresponding comm. system. Random rotation matrix is obtained through Graham-Schmitt orthogonalized decomposing plural gauss random square matrix. After using multiplication between random rotation matrix and symbolic vector of planisphere, the transmitting terminal carries out encoding quasi-orthogonal time space group code so as to make new planisphere possess characteristic of random distribution. Thus, interferences among multiple antenna symbols at transmitting end are distributed evenly. Moreover, distribution of probability density in high power interference segment is smaller relatively so as to raise performance of system in high SNR. Accordingly, all possible symbolic vectors of planisphere at receiving end are carried out rotation same as transmitting end randomly and then maximum likelihood decoding is carried out.
+

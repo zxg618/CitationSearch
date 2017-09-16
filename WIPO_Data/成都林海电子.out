@@ -1,0 +1,1057 @@
+1. 103686803 Satellite mobile communication terminal user identification and authentication function test method
+CN
+26.03.2014
+H04W 24/04 Loading...
+H04W 24/04
+Loading...
+201210353607.9
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+H04W 24/04
+Loading...
+The invention discloses a satellite mobile communication terminal user identification and authentication function test method. The method comprises the following steps: a pulse digital signal is sent to an UIM card by a DSP in a timing manner; the received pulse digital signal is detected by the UIM card, if a pulse digital signal sequence code error occurs, then reset is performed directly, and connection is reestablished at the interval of a set time; the public key of an authorized user is saved by the UIM card, and the private key of the authorized user is saved by the DSP; after the password of the authorized user is received by the DSP, decryption is performed on the private key, and then signing is performed on an opening instruction with the private key and the signed data is sent to the UIM card; and after the data is received by the UIM card, authentication is performed on the opening instruction with the public key, and only after the authentication is successful, the information data can be read and a corresponding operation is entered. The method of the invention can be used to reliably verify and ensure the satellite mobile communication terminal user identification and authentication function and effectively prevent the stealing and damage of illegal users on wireless channels and information thereof so as to ensure the safety of information transmission.
+2. 103686705 Satellite mobile communication terminal user identification and authentication method
+CN
+26.03.2014
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+201210353198.2
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+H04W 12/02
+Loading...
+The invention discloses a satellite mobile communication terminal user identification and authentication method. The mobile communication terminal is based on a Beidou satellite system. The test method comprises the authentication mechanism and the encryption mechanism, wherein the authentication mechanism comprises the following steps: a public key is sent by a sender to a receiver, and a private key is saved by the sender; encryption is performed on data by the sender with the private key, and signed data is added; and verification and authentication are performed on the data by the receiver with the public key of the sender, and decryption is performed after the authentication is successful to obtain the data; and the encryption mechanism comprises the following steps: the public key is sent by the sender to the receiver, and the private key is saved by the sender; encryption is performed on data by the sender with the private key, and complete content is added; and decryption is performed on the data by the receiver with the public key, and after the authentication is successful, the data integrity is verified. The method of the invention can be used to effectively prevent various phenomenons, such as stealing calling, embezzlement, secret divulging, etc., in which mobile communication resources and services are used illegally in satellite mobile communication, and ensure satellite mobile communication network safety and ensure the legitimate rights and interests of satellite mobile communication operators and users.
+3. 103675653 Satellite mobile terminal CPLD test method
+CN
+26.03.2014
+G01R 31/3177 Loading...
+G01R 31/3177
+Loading...
+201210353828.6
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+G01R 31/3177
+Loading...
+The invention discloses a satellite mobile terminal CPLD test method. The method comprises the following steps: pin test points are set, pins of a CPLD is lead out, and the pins of the CPLD are detected whether to be connected; after the CPLD is normally connected, the CPLD is triggered through a FPGA, a high-frequency clock signal is inputted to the CPLD to make the CPLD perform logical negation operation on the high-frequency clock signal, and the operation result is detected whether to be correct; after the operation result is detected to be correct, the CPLD is triggered through the FPGA, a digit counting signal is inputted to the CPLD to make the CPLD perform logical shift and additive operation on the digit counting signal, the operation result is detected whether to be correct, and if the operation result is correct, then the CPLD is in qualified performance condition. The CPLD detected to be qualified through the method of the invention, the CPLD can be applied in a satellite mobile terminal even if other performances of the CPLD are not qualified, so the CPLD waste can be avoided, and the debugging production efficiency can be improved at the same time.
+4. 103678055 Performance testing method for storage space of PCIE bus device
+CN
+26.03.2014
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201210339764.4
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+G06F 11/22
+Loading...
+The invention discloses a performance testing method for storage space of a PCIE bus device. The performance testing method includes the steps of obtaining the capacity of the storage space of the PCIE bus device, distributing a data reading buffer and a data writing buffer according to the capacity of the storage space of the PCIE bus device, wherein the capacity of the data reading buffer and the capacity of the data writing buffer are coincident with the capacity of the storage space of the PCIE bus device, filling the data writing buffer with progressive increase data, writing the data filled into the data writing buffer into the storage space of the PCIE bus device, reading the data written into the storage space of the PCIE bus device into the data reading buffer, and detecting whether the data of the data reading buffer are the same as the data of the data writing buffer or not, wherein if the data of the data reading buffer are the same as the data of the data writing buffer, the storage space of the PCIE bus device normally works, and if the data of the data reading buffer are not the same as the data of the data writing buffer, the storage space of the PCIE bus device can not normally work. According to the performance testing method, all addresses of the storage space can be covered, and the correctness of the storage space of the device is efficiently verified.
+5. 103684624 Method for testing half-duplex voice output function of voice coder decoder of satellite mobile terminal
+CN
+26.03.2014
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201210329105.2
+成都林海电子有限责任公司
+吴伟林
+H04B 17/00
+Loading...
+The invention discloses a method for testing a half-duplex voice output function of a voice coder decoder of a satellite mobile terminal. The method comprises the following steps: enabling a PCM3500 and an AMBE2000 to enter a normal operating mode; inputting 2 KHz signals to the PCM3500; arranging the AMBE2000 to position in a coder mode only, checking the output coded format of the AMBE2000, and recording the output value of the AMBE2000; arranging the AMBE2000 to position in a decoder mode only, and checking the output coded format of the AMBE2000; inputting the recorded data into the AMBE2000; checking whether output signals are 2 KHz signals or not, wherein the half-duplex voice output function of the AMBE2000 is normal when the output signals are 2 KHz signals. The method ensures that the voice coder decoder achieves the good half-duplex voice output function, and provides guarantee for good data transmission performance of the satellite mobile communication terminal.
+6. 103680519 Method for testing full duplex voice output function of voice coder-decoder of satellite mobile terminal
+CN
+26.03.2014
+G10L 25/78 Loading...
+G10L 25/78
+Loading...
+201210329250.0
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+G10L 25/78
+Loading...
+The invention discloses a method for testing a full duplex voice output function of a voice coder-decoder of a satellite mobile terminal. The method comprises the following steps: successively detecting whether the signaling control of the FPGA over the voice coder-decoder is normal, whether the self-closed loop function of an analog-digital converter is normal, and whether the half-duplex voice output function of the voice coder-decoder is normal, and then conducting testing on the full duplex voice output function of the voice coder-decoder: enabling the analog-digital converter and the voice coder-decoder to enter a normal operating mode; inputting 2 KHz signals to the analog-digital converter; setting the voice coder-decoder to be in a coding mode and a decoding mode simultaneously; checking the output coding format of the voice coder-decoder; directly inputting the output value of the voice coder-decoder to the voice coder-decoder; if the output signals are 2 KHz signals, determining that the full duplex voice output function of the voice coder-decoder is normal. The method ensures that the voice coder-decoder achieves the good full duplex voice output function, and provides a guarantee for good data transmission performance of the satellite mobile communication terminal.
+7. 103684574 Method for testing self-closed loop performance of voice coder decoder of satellite mobile communication terminal
+CN
+26.03.2014
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201210329239.4
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+H04B 7/185
+Loading...
+The invention discloses a method for testing self-closed loop performance of a voice coder decoder of a satellite mobile communication terminal. The method comprises the following steps: successively detecting whether the connection of an FPGA with an analog-digital converter and a voice coder decoder is normal, the signaling control of the FPGA on the voice coder decoder is normal, and the self-closed loop performance of the analog-digital converter is normal, and then conducting the testing of the self-closed loop performance of the voice coder decoder: enabling the externally connected input end of the analog-digital converter, and enabling the analog-digital converter to enter a normal operating mode; enabling the externally connected input end of the voice coder decoder, and enabling the voice coder decoder to enter the self-closed loop function operating mode; inputting 2 KHz signals to the input end of the analog-digital converter; checking whether output signals are 2 KHz signals or not, wherein the self-closed loop function of the voice coder decoder is normal when the output signals are 2 KHz signals, and is abnormal when the output signals are not 2 KHz signals. The method ensures that the voice coder decoder achieves the good self-closed loop performance, and provides guarantee for good data transmission performance of the satellite mobile communication terminal.
+8. 103684625 Testing method of Beidou based satellite mobile terminal digital down converter
+CN
+26.03.2014
+H04B 17/391 Loading...
+H04B 17/391
+Loading...
+201210330379.3
+成都林海电子有限责任公司
+吴伟林
+H04B 17/391
+Loading...
+The invention discloses a testing method of a 'Beidou' based satellite mobile terminal digital down converter. According to the invention, a signal generator connected with a third radio-frequency transformer output end in the digital down converter produces and inputs intermediate-frequency signals to an AD8370 chip; a frequency spectrograph is connected between the AD8370 chip and a first radio-frequency transformer; output signals of the AD8370 chip pass a second radio-frequency transformer, a saw filter, and the first radio-frequency transformer in sequence to be inputted into an AD6655 chip to be converted into digital signals to be inputted into an FPGA; the FPGA pre-processes the digital signals and sends the pre-processed digital signals to a DSP; the DSP calculates according to a pre-processing result, and sends a calculation result to a PC for displaying. According to the invention, various functional parameters of the digital down converter can be well tested by using test devices of the PC, the frequency spectrograph and the like, and whether the parameters achieve the design requirements is judged to guarantee performance of the satellite mobile communication terminal digital down converter.
+9. 103678056 Method for testing control function of PCIE bus equipment
+CN
+26.03.2014
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201210339772.9
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+G06F 11/22
+Loading...
+The invention discloses a method for testing the control function of PCIE bus equipment. The method includes the steps that firstly, a configuration value of a local configuration register of the PCIE bus equipment is read; secondly, a corresponding function position of the configuration value of the configuration register is modified, and the working state of the PCIE bus equipment is changed; thirdly, the modified configuration value of the configuration register is rewritten into the local configuration register of the PCIE bus equipment; fourthly, local interruptions are set, whether the response of a drive module of the PCIE bus equipment is interrupted or not and whether the drive module enters the changed working state or not are detected, if the drive module enters the changed working state, it is determined that the control function of the PCIE bus equipment is normal, or else it is determined that the control function of the PCIE bus equipment is abnormal. By utilizing the method to detect whether the control of the PCIE bus equipment is successful or not, the number of times for utilizing a tester to conduct test is reduced, and working efficiency of test is effectively improved.
+10. 103687083 Beidou based satellite mobile communication terminal
+CN
+26.03.2014
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+201210330034.8
+CHENGDU LINHAI ELECTRONICS CO., LTD.
+WU WEILIN
+H04W 88/02
+Loading...
+The invention discloses a Beidou based satellite mobile communication terminal. The Beidou based satellite mobile communication terminal comprises an FPGA , a CPLD chip, a speech code and decode chip and an audio codec; the FPGA is connected with the CPLD chip and the audio codec through programmable interfaces respectively; the speech code and decode chip is connected with the CPLD chip through a control interface and a speech data interface; the FPGA controls the speech code and decode chip through a reset control signal, so that in normal working, the FPGA starts first, then the start or timely reset of the speech code and decode chip is controlled, and next the FPGA sends information content to the speech code and decode chip through a programmable interface, and controls information content of the audio codec at the same time. According to the invention, peripherals of the FPGA are extended by adopting a CPLD, so that process complexity of the FPGA is lowered, and the satellite mobile communication terminal function is improved.
+11. 203482242 基于卫星通信的医疗系统中心站网络管理系统
+CN
+12.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201320625242.0
+成都林海电子有限责任公司
+吴伟林
+H04L 29/08
+Loading...
+本实用新型公开了一种基于卫星通信的医疗系统中心站网络管理系统，包括网络交换机（1）、接入控制器（2）、路由器（3）、L频段分合路器（7）以及多个调制解调器（4）；所述网络交换机（1）、接入控制器（2）、路由器（3）、调制解调器（4）、L频段分合路器（7）依次相连。本实用新型的基于卫星通信的远程医疗系统中心站网络管理系统具备网络管理和业务通信能力，具有结构简单、组网成本低、使用和控制方便等优点。
+12. 203340077 一种远端站调制解调器的ARM与串口通信模块
+CN
+11.12.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201320467434.3
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本实用新型公开了一种远端站调制解调器的ARM与串口通信模块，包括通信显示窗口模块、串口模块、发送数据模块和接收数据模块；通信显示窗口模块与远端站调制解调器连接，远端站调制解调器与串口模块的一路输入连接，卫星移动通信终端的输出通过接收数据模块连接串口模块的另一路输入，串口模块的输出通过发送数据模块与卫星移动通信终端相连。本实用新型可有效保障远端站调制解调器与卫星移动通信终端之间的通信质量；能够适用于其他类型的远端站调制解调器，兼容性强；对信号选通采用分段式选通，能够自主选择通信速率，并可以对收发数据进行自动组包、分包，使得远端站调制解调器具有强大的兼容性，且可有效降低系统通信成本。
+13. 203337834 地震波实时监测装置及系统
+CN
+11.12.2013
+G01V 1/18 Loading...
+G01V 1/18
+Loading...
+201320472765.6
+成都林海电子有限责任公司
+吴伟林
+G01V 1/18
+Loading...
+本实用新型公开了一种地震波实时监测装置及系统，地震波实时监测装置包括中央处理单元（21）、供电单元（22）、加速度传感器（23）、数字信号处理单元（24）、通信单元（25）、定位和授时单元（26），所述中央处理单元（21）分别与供电单元（22）、加速度传感器（23）、数字信号处理单元（24）、通信单元（25）、定位和授时单元（26）相连接，所述加速度传感器（23）还与数字信号处理单元（24）、供电单元（22）分别相连。本实用新型采用加速度传感器对地震波信息进行监测、采用单独的供电系统供电、采用移动通信网通信，打破了现有地震监测系统中由于供电和通信带来的局限，具有组网方便、覆盖范围广、成本低廉等优点。
+14. 203340078 一种远端站调制解调器的ARM与网口通信模块
+CN
+11.12.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201320467446.6
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本实用新型公开了一种远端站调制解调器的ARM与网口通信模块，包括ARM网口适应模块、ARM网口通信显示窗口模块、发送数据模块、接收数据模块；ARM网口通信显示窗口模块与远端站调制解调器连接，远端站调制解调器与ARM网口适应模块的一路输入连接，卫星移动通信终端的输出通过接收数据模块连接ARM网口适应模块的另一路输入，ARM网口适应模块的输出通过发送数据模块与卫星移动通信终端相连。本实用新型可有效保障远端站调制解调器与卫星移动通信终端之间的通信质量，兼容性强；对信号选通采用分段式选通，能够自主选择通信速率，并可以对收发数据进行自动组包、分包，使得远端站调制解调器具有强大的兼容性，且可有效降低系统通信成本。
+15. 203327004 VSAT系统小站
+CN
+04.12.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201320413793.0
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本实用新型公开了一种VSAT系统小站，包括相互连接的室外设备和室内单元，所述的室内单元包括双向传递的话音单元和数据单元，话音单元与用户交换机PBX连接，数据单元与本地LAN和集群控制器连接，所述的室内单元还与视频接收机单向连接，所述的室外设备包括天线和与天线连接的低噪声下变频器LNB、固态功率放大器SSPA和上变频器，其中固态功率放大器SSPA和上变频器连接。该实用新型通过上述结构，使得通信远程医疗系统的成本降低、业务更全面还可增加覆盖面，更利于通讯平台的发展。
+16. 203313189 VSAT卫星主站
+CN
+27.11.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201320413807.9
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+VSAT卫星主站，包括基带处理部分和与基带处理部分连接的发射天线和网管设备，其特征在于：所述基带处理部分包括数据交互接口、复用器、编码器芯片、解码器芯片和与发射天线连接的调制解调器；所述调制解调器和复用器还与编码器芯片和解码器芯片分别连接；所述编码器芯片和解码器芯片还与所述网管设备连接；所述数据交互接口与复用器连接。采用本实用新型所述的VSAT卫星主站，作为VSAT系统中的传输节点，提供数据接收发送和交互功能，减少了对VSAT系统中大量小站的硬件需求，从而降低了整个VSAT系统成本。
+17. 103324559 基于FPGA的PCI Express主机到设备的数据传输速度测试方法
+CN
+25.09.2013
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201310262689.0
+成都林海电子有限责任公司
+吴伟林
+G06F 11/22
+Loading...
+本发明公开了一种基于FPGA的PCIExpress主机到设备的数据传输速度测试方法，包括以下步骤：S1：对FPGA的传输层进行修改，在其中加入测试主机和设备之间数据传输速度的测速代码；S2：设置一个读设备性能计数器；S3：测速代码读取所述的读设备性能计数器的计数值，计算传输速度：S=V/(C/H)=V*H/C，S为设备读数据的速度，C为设备性能计数器的计数值；H为设备的时钟的频率；V为设备从驱动内存读回的数据的字节数。本发明的测试速度快，每次驱动程序设置设备读数据以后就可以读出计数器的值，立刻可以计算出传输的速度，计数期间不受主机等其他外部影响，测试客观性好，测试结果准确。
+18. 103324593 一种基于FPGA的PCI Express数据传输控制方法
+CN
+25.09.2013
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201310262462.6
+成都林海电子有限责任公司
+吴伟林
+G06F 13/38
+Loading...
+本发明公开了一种基于FPGA的PCIExpress数据传输控制方法，包括以下步骤：S1：输入时钟信号clock和复位信号reset；S2：reset复位信号输入线为高电平，状态机状态变为master并执行允许数据交换请求、允许新一轮数据传输和节拍计数器置1操作；S3：进行数据传输：检查数据传输接口状态、配置要传输的slave模块、数据传输模式控制、执行数据传输、节拍计数器计数；S4：数据传输模式变为结束传输模式；S5：reset复位信号输入线为低电平以，状态机转化为slave状态。本发明的数据传输速度高，接口的数据宽度可自定义，接口在驱动和设备上不占用内存，不影响驱动和设备的运行速度。
+19. 103324558 一种基于FPGA的PCI Express设备到主机的数据传输速度测试方法
+CN
+25.09.2013
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201310262686.7
+成都林海电子有限责任公司
+吴伟林
+G06F 11/22
+Loading...
+本发明公开了一种基于FPGA的PCI Express设备到主机的数据传输速度测试方法，它包括以下步骤：S1：对FPGA的传输层进行修改，在其中加入测试设备和主机之间数据传输速度的测速代码；S2：设置一个设备写性能计数器；S3：所述的测速代码读取所述的设备写性能计数器的计数值，并按S=V/(C/H)=V*H/（C/(P-1)*P)计算设备到主机的数据传输速度。本发明测试准确性高，测试速度快，测试客观性强，测试开销小。
+20. 103324594 一种基于FPGA的PCI Express AHBUS状态机的实现方法
+CN
+25.09.2013
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201310262711.1
+成都林海电子有限责任公司
+吴伟林
+G06F 13/38
+Loading...
+本发明公开了一种基于FPGA的PCIExpressAHBUS状态机的实现方法，它包括以下步骤：S1:实时检测reset复位信号，检测到reset复位信号输入线为高电平时将状态机状态变为IDLE_ST；S2:实时检测reset复位信号，检测到reset复位信号输入线为低电平且地址位有变化则执行操作转化为ADDRESS_ST设置地址状态；S3:执行操作转化为DATA_ST状态；S4:执行操作将状态机状态转化为IDLE_ST状态；S5:实时检测reset复位信号，检测到reset复位信号输入线为低电平且有传输请求则执行操作转化为REQ_BUS_ST并响应传输请求。本发明速度高，扩展性好，接口的数据宽度可自定义，符合大容量数据传输的要求，接口不需要在驱动和设备上占用内存，并且准备时间短，不影响速度。
+21. 203166935 一种便携式超短波跳频电台性能检测仪
+CN
+28.08.2013
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201320144813.9
+成都林海电子有限责任公司
+吴伟林
+H04B 17/00
+Loading...
+本实用新型提供一种便携式超短波跳频电台性能检测仪，主要包括与被测电台连接的耦合器、射频处理模块、数据采集卡以及控制板和外接触摸屏。所述的数据采集卡包括依次连接的模数转换器、数字下变频器和现场可编程门阵列。耦合器将发射电台发射的信号送入射频处理模块；射频处理模块包含有若干个滤波器组成的滤波器组，将来自于耦合器的信号进行频段分割，得到射频信号频率组并送入到数据采集卡，数据采集卡对射频信号频率组进行数字化处理；控制板采用ARM芯片作为主处理器，对来自数据采集卡的基带信号作短时FFT变换，将计算结果送到外接触摸屏并显示。相对于现有技术，本实用新型具有设备小型化、模块化、通用化等突出优点。
+22. 103246299 一种采用模糊运算与PID控制相结合的温控系统
+CN
+14.08.2013
+G05D 23/19 Loading...
+G05D 23/19
+Loading...
+201310193911.6
+成都林海电子有限责任公司
+吴伟林
+G05D 23/19
+Loading...
+本发明公开了一种采用模糊运算与PID控制相结合的温控系统，其中温度传感器采集温控箱的温度变量数据，将采集到的温度变量数据输出送入模糊控制器；模糊控制器接收所述温度传感器送来的温度变量数据，根据温度变量数据输入偏差和偏差变化率，建立PID控制器输入调整参数与温度变量数据输入偏差和偏差变化率的模糊关系，通过模糊运算实现在线模糊推理得到不同阶段PID控制器的输出权重，实现PID控制器的分段控制；PID控制器在模糊控制器的控制下实现对温度控制执行装置的控制，由温度控制执行装置对温控箱实现加热或降温控制。本发明实现对温控箱温度的快速、精确控制，温控系统的响应速度快、稳定性高。
+23. 103228003 基于ARM2440的异构网络仿真系统
+CN
+31.07.2013
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+201310193741.1
+成都林海电子有限责任公司
+吴伟林
+H04W 24/06
+Loading...
+本发明公开了一种基于ARM2440的异构网络仿真系统，包括依次连接的PC1、第一ARM终端和第二ARM终端；所述第二ARM终端连接PC2或万维网，所述PC1通过自身的计算机网卡将数据发送到所述第一ARM终端；所述第一ARM终端接收所述PC1发出的数据并进行数据组帧后通过将数据发送给所述第二ARM终端；所述第二ARM终端将接收到的信息转换为网络数据信息并发送到所述PC2或所述万维网中。本发明模拟结果表明串口网络与以太网络之间可以进行数据交互操作，数据通讯可靠性好。
+24. 103198224 一种基于卫星通信的远程医疗系统
+CN
+10.07.2013
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201310129188.5
+成都林海电子有限责任公司
+吴伟林
+G06F 19/00
+Loading...
+本发明公开了一种基于卫星通信的远程医疗系统，该系统包括远程医疗中心站、通过卫星与所述远程医疗中心站相连的多个远程医疗端站。远程医疗中心站具有业务功能、管理功能和网络互连功能，支持与多个远程医疗端站通信，进行业务数据传输；实现基于卫星通信的远程医疗系统与卫星的连接。远程医疗端站，用于与远程医疗中心站或其他远程医疗端站进行通信和业务传输。本发明利用卫星通信系统实现远程医疗，解决了偏远地区采用传统方式建设远程医疗系统成本高、难度大的问题，具有点对多点传播、低成本、低功耗、易维护、广覆盖特性等优点。
+25. 202976207 一种四路遥感图像数据处理系统
+CN
+05.06.2013
+G06T 1/00 Loading...
+G06T 1/00
+Loading...
+201220644741.X
+成都林海电子有限责任公司
+吴伟林
+G06T 1/00
+Loading...
+本实用新型公开了一种四路高轨遥感图像数据处理系统。该系统包括中频信号接收器、4个A/D转换器、数字下变频器、FPGA单元、数字信号处理器、及PCI总线接口，其中，所述中频信号接收器与4个A/D转换器连接，4个A/D转换器均与数字下变频器连接，所述数字下变频器与FPGA单元连接，FPGA单元连接数字信号处理器和PCI接口。本实用新型高轨遥感图像数据处理系统设置有四个A/D转换器，四个A/D转换器与数字下变频器连接，可同时处理来自四路高轨遥感卫星的小于等于100Mbps的图像数据信号，满足了高轨遥感图像数据处理系统的要求。
+26. 202957821 基于紧凑型PCI接口的解调信号处理平台
+CN
+29.05.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201220679198.7
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本实用新型公开了一种基于紧凑型PCI接口的解调信号处理平台，涉及低速遥感图像解调处理技术领域。本实用新型基于紧凑型PCI接口的解调信号处理平台包括中频模拟接收模块、多个AD转换模块以及PCI接口，所述中频模拟接收模块连接于AD转换模块，所述AD转换模块连接有数字下变频器，所述数字下变频器有多个通道，数字下变频器的各通道连接于FPGA模块，所述FPGA模块还连接有DSP模块，所述FPGA模块连接于PCI接口。由于本实用新型基于紧凑型PCI接口的解调信号处理平台中，PCI接口利用FPGA连接多个并行的、独立的AD、DDC通道，可同时接收多个不同的中频信号，实现了可同时处理多个不同的低速遥感卫星图像。
+27. 202948562 机动车流量监测系统
+CN
+22.05.2013
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201220722617.0
+成都林海电子有限责任公司
+吴伟林
+G08G 1/065
+Loading...
+本实用新型公开了一种机动车流量监测系统，包括至少一个图像采集装置、中央处理装置、数据储存装置、通讯装置、供电装置、图表输出装置和信息显示装置，图像采集装置与通讯装置连接，通讯装置与中央处理装置连接，中央处理装置通过通信线路与数据储存装置连接，数据储存装置通过通信线路与图表输出装置和信息显示装置连接，供电装置与图像采集装置电性连接。本实用新型的优点在于，安装时不破坏路面，施工工序简单，工期短，施工时不影响车辆通行，可靠性高，维护简便。
+28. 202939444 低轨高清遥感图像数字信号处理平台
+CN
+15.05.2013
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201220679485.8
+成都林海电子有限责任公司
+吴伟林
+G05B 19/042
+Loading...
+本实用新型公开了一种低轨高清遥感图像数字信号处理平台，涉及低轨高清遥感图像处理技术领域。本实用新型低轨高清遥感图像数字信号处理平台包括AD转换模块以及点对点串行接口，所述点对点串行接口将前端中频信号传送至AD转换模块，所述AD转换模块包括多个并行的、独立的AD转换通道，所述AD转换模块连接有数字下变频器，所述数字下变频器连接有FPGA模块，所述AD转换模块中有一个AD转换通道连接于FPGA模块，所述FPGA模块还连接于AD转换模块。由于本实用新型低轨高清遥感图像数字信号处理平台中采用FPGA模块等作为信号处理平台的处理器，可兼容上一代、现在发射和下一代低轨遥感卫星，兼容不同制式、不同体制、不同速率的数字信号处理平台。
+29. 202940800 高轨遥感卫星解调信号处理平台
+CN
+15.05.2013
+H04B 1/16 Loading...
+H04B 1/16
+Loading...
+201220679484.3
+成都林海电子有限责任公司
+吴伟林
+H04B 1/16
+Loading...
+本实用新型公开了一种高轨遥感卫星解调信号处理平台，涉及高轨遥感卫星信关站高速数据信号解调处理技术领域。本实用新型高轨遥感卫星解调信号处理平台包括中频模拟接收模块、AD转换模块，所述中频模拟接收模块接收中频信号，并将该中频信号发送至AD转换模块，所述AD转换模块包括多个并行的、独立的AD转换通道，所述AD转换模块连接有数字下变频器，所述数字下变频器连接有FPGA模块，所述AD转换模块中有一个通道连接于FPGA模块；所述FPGA模块连接有VPX总线接口。由于本实用新型高轨遥感卫星解调信号处理平台中，使用VPX接口支持高速的数据传输，便于高速数字信号的及时处理，并且能满足军用、航空嵌入式计算系统的需要。
+30. 202940926 基于VPX接口的移动通信关口站视频信号处理平台
+CN
+15.05.2013
+H04N 21/214 Loading...
+H04N 21/214
+Loading...
+201220679357.3
+成都林海电子有限责任公司
+吴伟林
+H04N 21/214
+Loading...
+本实用新型公开了一种基于VPX接口的移动通信关口站视频信号处理平台，包括AD转换模块以及VPX总线接口，所述VPX总线接口连接于AD转换模块，所述AD转换模块包括7个AD转换通道，其中6个AD转换通道连接于数字下变频器，所述数字下变频器包括6个数字下变频器通道，与6个AD转换通道一对一连接，每个数字下变频器通道包括4个子数字下变频器通道，所述数字下变频器还连接有FPGA模块。由于本实用新型采用了6个并行的、独立的AD、DDC通道，每一个DDC通道有4个子DDC通道，每一子DDC通道接收1路视频信号，24个子DDC通道可同时接收24路视频信号，实现了可同时处理多个不同的低速遥感卫星图像。
+31. 202931321 基于PCI-E接口的卫星通信信关站信号解调处理板
+CN
+08.05.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201220644786.7
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本实用新型公开了一种基于PCI-E接口的卫星通信信关站信号解调处理板，该信号解调处理板包括210MHz中频信号接收器，所述210MHz中频信号接收器连接有至少4个A/D转换器，每4个所述A/D转换器连接一个DDC数字下变频器，所述DDC数字下变频器连接FPGA单元，所述FPGA单元连接DSP单元和PCI-E接口。本实用新型的基于PCI-E接口的卫星通信信关站信号解调处理板采用PCI-E接口，可处理210MHz卫星移动通信的中频信号，传输速率快，满足卫星通信数据传输高速率的要求。
+32. 103067944 一种移动通信网合法监控系统
+CN
+24.04.2013
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201310041097.6
+成都林海电子有限责任公司
+吴伟林
+H04W 24/00
+Loading...
+本发明公开了一种移动通信网合法监控系统，其特征在于，该系统包括接入传输子系统、信息获取子系统、信息处理子系统，其中，接入传输子系统用于从移动通信网A接口中获取数据，并发送至信息获取子系统；信息获取子系统用于采集、解析信令数据和语音数据，综合处理信令，转存短消息和语音数据；信息处理子系统用于数据存储、信息分析与处理。本发明是一种结构简单、能有效监控所有用户的语音数据和信令数据、监控数据能被有效处理并存储、监控范围广、监控容量大的移动通信网合法监控系统。
+33. 103036677 改进PAREEK加密方法
+CN
+10.04.2013
+H04L 9/28 Loading...
+H04L 9/28
+Loading...
+201210531702.3
+成都林海电子有限责任公司
+吴伟林
+H04L 9/28
+Loading...
+一种改进PAREEK加密方法，包括构造序列表DT1，序列表DT1中包括用于构建对第i块明文加密的加密秘钥Si的N初始值参数,其中N为构建加密秘钥Si的混沌索引号；本发明所述改进PAREEK加密方法对第i块明文，所述与第1至第（i-1）块加密完成的明文相关。采用本发明所述的改进PAREEK加密方法，产生流秘钥中引入了明文反馈，对不同明文，对应的流秘钥不仅依赖于既定秘钥K，也依赖于明文内容，使得对明文的破译变得困难，加密的安全性增加。
+34. 103021182 机动车闯红灯违章监测方法及装置
+CN
+03.04.2013
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+201210524683.1
+成都林海电子有限责任公司
+吴伟林
+G08G 1/017
+Loading...
+本发明公开了一种机动车闯红灯违章监测方法，包括如下步骤：A．获取红灯信号时间段，在红灯信号时间段外进行不按导向箭头行驶检测；B．在红灯信号时间段内检测停车线前车辆的行驶速度V，如车辆行驶速度大于预设值Vy，则对车辆拍摄第一张证据图；C．检测车辆是否压停车线，如是，则拍摄第二张证据图，并进行步骤D，如否，则停止检测；D．判断车辆违法类型，并拍摄第三张证据图。本发明还公开了一种机动车闯红灯违章监测装置。本发明的优点和有益效果在于，采集准确度高，数据冗余量小，成本低，能进一步确认车辆的具体违法类型、能在绿灯时监测车辆不按指示标志行驶的违章行为。
+35. 103023552 一种VSAT卫星通信L波段上下变频器切换控制方法及装置
+CN
+03.04.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201210481019.3
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+一种VSAT卫星通信L波段上下变频器切换控制方法，包括：步骤1.系统初始化；步骤2.进入等待状态；等待状态中如果检测到有输入命令，则进入步骤3；步骤3.命令判断，如果判断为真，则进入步骤4，否则返回步骤2；步骤4.命令处理；步骤5.控制事件处理，处理完毕后返回步骤2。及一种VSAT卫星通信L波段上下变频器切换控制装置。采用本发明所述的VSAT卫星通信L波段上下变频器切换控制方法及装置，对上变频器和下变频器的相关模块控制、参数调整和控制切换实现了快速控制，对输入的指令实现了实时操作，缩短了参数调整时间，提高了卫星信号发射接收设备的操作可靠性和快捷性。
+36. 103023553 一种VSAT卫星通信L波段下变频器控制方法
+CN
+03.04.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201210481061.5
+成都林海电子有限责任公司
+吴伟林
+H04L 1/00
+Loading...
+一种VSAT卫星通信L波段下变频器控制方法，包括如下步骤：步骤1.系统初始化；步骤2.进入等待状态；等待状态中如果检测到有输入命令，则进入步骤3；步骤3.命令判断，如果判断为真，则进入步骤4，否则返回步骤2；步骤4.命令处理；步骤5.控制事件处理，对下变频器完成操作后返回步骤2。所述步骤5中控制事件处理包括对下述事件的处理：预选器设置、中频带宽设置、AGC/MGC控制、第一本振频率控制、第二本振频率控制。采用本发明所述的VSAT卫星通信L波段下变频器控制方法，接收输入指令，对下变频器的相关模块自动控制，调整相应参数，实现了智能控制，对输入的指令实现了实时操作，缩短了参数调整时间，提高了下变频器的操作可靠性和快捷性。
+37. 102970070 一种VSAT卫星通信L波段上变频器控制方法
+CN
+13.03.2013
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201210481137.4
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+一种VSAT卫星通信L波段上变频器控制方法，包括如下步骤：步骤1.系统初始化；步骤2.进入等待状态；等待状态中如果检测到有输入命令，则进入步骤3；步骤3.命令判断，如果判断为真，则进入步骤4，否则返回步骤2；步骤4.命令处理；步骤5.控制事件处理，对上变频器完成操作后返回步骤2。所述步骤5中控制事件处理包括对下述事件的处理：预选器设置、中频带宽设置、程控衰减控制、第一本振频率控制、第二本振频率控制。采用本发明所述的VSAT卫星通信L波段上变频器控制方法，接收输入指令，对上变频器的相关模块自动控制，调整相应参数，实现了智能控制，对输入的指令实现了实时操作，缩短了参数调整时间，提高了上变频器的操作可靠性和快捷性。
+38. 102929753 PCIE总线设备存储空间的测试方法
+CN
+13.02.2013
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201210367642.6
+成都林海电子有限责任公司
+吴伟林
+G06F 11/22
+Loading...
+本发明公开了一种PCIE总线设备存储空间的测试方法，包括如下步骤：首先，调用设备驱动程序获取设备存储空间的容量；根据设备存储空间的容量大小分配第一数据缓冲区和第二数据缓冲区；使用递增数据填充第一数据缓冲区；调用驱动程序将第一数据缓冲区内的数据写入设备存储空间；调用设备驱动程序将设备存储空间写入的数据读取到第二数据缓冲区；最后检查判断第一数据缓冲区内的数据是否与第二数据缓冲区内的数据相同，如果完全相同，则说明设备存储空间可以正确工作。本发明的PCIE总线设备的存储空间的测试方法可以覆盖到存储空间的所有地址，从而更为高效地验证设备存储空间的正确性。
+39. 102868466 Simulation device and method for transmitting 2fsk data through simulated global system for mobile communications (GSM) channel
+CN
+09.01.2013
+H04W 16/22 Loading...
+H04W 16/22
+Loading...
+201210349296.9
+成都林海电子有限责任公司
+吴伟林
+H04W 16/22
+Loading...
+The invention discloses a simulation device for transmitting 2fsk data through a simulated global system for mobile communications (GSM) channel. The simulation device comprises a user data generating module, a 2fsk modulation module, a GSM voice modulation module, a user data storage module and a 2fsk parameter setting module. The invention also relates to a simulation method for transmitting 2fsk data through the simulated GSM channel, which comprises the following steps of: 1, starting the 2fsk parameter setting module; 2, starting the GSM voice modulation module; 3, starting the 2fsk modulation module; 4, starting the user data generating module and a data comparison module; 5, recording and storing a random signal; and 6, comparing and calculating a bit error rate. According to the simulation device and the simulation method for transmitting 2fsk data through the simulated GSM channel, the design speed is increased, the research and development cost is reduced, the performance is conveniently optimized and counted, the modulation technology is continuously perfected, the error rate is recorded, and the optimized modulation parameter is determined.
+40. 102522799 一种移动终端电源
+CN
+27.06.2012
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201110455534.X
+成都林海电子有限责任公司
+吴伟林
+H02J 7/00
+Loading...
+本发明公开了一种移动终端电源，包括锂离子电池组和DC-DC升压器，所述锂离子电池组由多个锂电池并联组串联而成，每个锂电池并联组包括多只锂电池；所述DC-DC升压器将所述锂离子电池组输出的电压升压后，提供28V直流电压给所述基于北斗卫星的移动终端10W功放，由于锂离子电池具备较佳的容量、体积比，本发明移动终端电源具有体积小重量小但连续使用时间长的优点，另外，由于在所述锂离子电池组和所述DC-DC升压器之间增加了电池监控电路，能对所述锂离子电池组充放电进行切换，能避免锂电池过充电、过放电，提高移动终端电源的使用周期。
+41. 102508020 一种移动终端电源电池组耗电时长的测量方法及装置
+CN
+20.06.2012
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201210002517.5
+成都林海电子有限责任公司
+吴伟林
+G01R 19/25
+Loading...
+本发明公开了一种移动终端电源电池组耗电时长的测量方法，所述移动通信终端电源用于为基于北斗卫星的移动终端10W功放提供电源，所述电池组由多个锂电池并联组串联而成，每个锂电池并联组包括多只锂电池，所述测量方法包括：测量电池组当前输出电压和电池组当前输出电流；根据测量出的所述电池组当前输出电压、电池组当前输出电流及电池组容量计算电池组耗电时长可简单快捷的测量出电池组耗电时长，另外，由于电池组当前电流不方便测量，本发明在在电池组与移动终端连接线中串接一电流检测电阻，通过检测所述电流检测电阻上的电压即可确定电池组当前输出电流，方便快捷。
+42. 102496370 L波段卫星移动通信系统声码器池
+CN
+13.06.2012
+G10L 19/16 Loading...
+G10L 19/16
+Loading...
+201110451294.6
+成都林海电子有限责任公司
+罗均
+G10L 19/16
+Loading...
+本发明公开了一种L波段卫星移动通信系统声码器池，涉及卫星通信领域，所述声码器池的系统主要由语音模块、控制及处理模块、CPCI接口模块组成，所述语音模块由16路语音芯片组成并与控制及处理模块相连，所述控制及处理模块连接CPCI接口模块，所述CPCI接口模块通过CPCI总线与CPCI机箱连接。本发明采用CPCI接口、500万门FPGA实时控制技术的数字电路板，电路板实现16路语音信号的编解码处理，并具有将语音速率压缩至2.4kbps的能力。可以有效地实现地面公用网64kbps的PCM信号与卫星网2.4kbps低速语音的互相转换。
+43. 102495817 一种基于PCI总线的高速数据传输方法
+CN
+13.06.2012
+G06F 13/32 Loading...
+G06F 13/32
+Loading...
+201110406436.7
+成都林海电子有限责任公司
+吴伟林
+G06F 13/32
+Loading...
+本发明公开了一种基于PCI总线的高速数据传输方法，其实现高速数据传输的驱动程序包括步骤：初始化驱动程序，分配DMA公用缓冲区用作数据缓冲队列；设置中断控制寄存器，使能设备中断；等待中断触发，若为设备中断，检查DMA是否处于数据传输完成状态，若数据传输未完成则返回重新等待中断触发，数据传输完成则禁止设备中断，配置DMA控制器，启动DMA操作，再使能设备中断；若为DMA传输完成中断，则清除DMA中断，重置数据缓冲队列头指针，再使能DMA传输完成中断。通过设置中断控制寄存器可以启动和禁止数据传输，使能中断后驱动程序响应中断信号，将设备中的数据连续读入数据缓冲队列，从而使数据传输速率得到极大提高。
+44. 202229751 通过北斗卫星通信系统实现河道轮船的安全性实时监测
+CN
+23.05.2012
+G01B 21/32 Loading...
+G01B 21/32
+Loading...
+201120252612.1
+成都林海电子有限责任公司
+吴伟林
+G01B 21/32
+Loading...
+本实用新型提供一种通过北斗卫星通信系统实现河道轮船的安全性实时监测系统，其特征在于该北斗卫星通信系统由控制中心地面站、北斗卫星和1到k个远端轮船监测点三部分组成，采用星形网络结构；该北斗卫星通过该北斗信号接收机发射装置与地面控制中心相联接；同时该地面控制中心与太阳能供电设备相连接。有益效果是：本实用新型河道轮船安全性实时监测系统能够对行驶中的轮船的船体和船侧进行实时监测，及时发现船体的裂纹或者断裂痕迹做到及时处理。
+45. 102445652 一种监控电路的检测方法
+CN
+09.05.2012
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201110456182.X
+成都林海电子有限责任公司
+吴伟林
+G01R 31/28
+Loading...
+本发明公开了一种监控电路的检测方法，用多组直流可调稳压电源模拟电池组中的各个锂电池并联组的输出电压并分别与所述电池监控芯片的各接入端子对应相连；在调节所述直流可调稳压电源使得其模拟的一路输出电压从标称值下降到所述监控电路的低保护阈值，和/或从标称值上升到所述监控电路的高保护阈值的过程中，检测所述监控电路的输出电压的变化状态，判断所述监控电路的对应接入端子是否正常，由于锂离子电池组放电、充电时间都很漫长，本发明用多组直流可调稳压电源模拟电池组中的各个锂电池并联组的输出电压，能在短时间内快速、方便地检测出监控电路各接入端子是否正常，可缩短检测人员的工作时间，提高检测工作效率。
+46. 202215296 基于VSAT卫星通信的隧道安全性实时监测系统
+CN
+09.05.2012
+E21F 17/18 Loading...
+E21F 17/18
+Loading...
+201120252679.5
+成都林海电子有限责任公司
+林晨恺
+E21F 17/18
+Loading...
+本实用新型涉及安全性监测系统，本实用新型公开了一种基于VSAT卫星通信的隧道安全性实时监测系统，包括：VSAT主站、VSAT卫星、至少一个VSAT分站、所述VSAT分站通过VSAT卫星连接VSAT主站，所述VSAT分站中设置隧道位移传感监测系统，所述隧道位移传感监测系统中设置三个传感器，分别安装在隧道监测点的水平方向和垂直方向，水平方向安装在水平X轴和水平Y轴，垂直方向安装在垂直Z轴。本实用新型公开的隧道安全性实时监测系统填补了现有技术中隧道安全监测系统的空白，通过安装在隧道监测点的三个传感器监测监测点是否存在位移，从而判断隧道是否出现坍塌等安全隐患，本实用新型基于VSAT卫星进行通信，通信稳定性高，系统成本低，实用性高。
+47. 102427380 一种卫星移动通信地面站系统
+CN
+25.04.2012
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110208247.9
+成都林海电子有限责任公司
+吴伟林
+H04L 12/28
+Loading...
+本发明公开了一种卫星移动通信地面站系统，所述卫星移动通信地面站系统采用高ATCA平台体系架构；该系统包含至少一个卫星基站系统SBSS和一个GPRS支撑节点GSN；所述卫星基站系统SBSS和GPRS支撑节点GSN之间通过有线连接组成本地网络；所述卫星基站系统SBSS与通信卫星通过馈电链路连接；所述卫星基站系统SBSS负责处理本地网络内卫星用户终端的接入；所述GPRS支撑节点GSN负责处理本地卫星移动通信网络内的通信以及本地网络与外部网络之间的通信。本发明基于ATCA的体系架构，使得卫星移动通信地面站系统能获得大容量、高可靠性、很好的扩展性、更大的单板处理能力、更高的板间互连带宽、稳定可靠的供电、散热以及统一可靠的系统管理等方面的好处。
+48. 102427381 一种卫星基站系统
+CN
+25.04.2012
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201110208328.9
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本发明公开了一种卫星基站系统，所述卫星基站系统包括射频单元和数字硬件单元部分，射频单元和数字硬件单元分别采用不同类型的机框；所述射频单元采用非ATCA平台的射频机柜，所述数字硬件单元以ATCA单板的形式安插在ATCA机柜。本发明的卫星基站系统基于ATCA的体系架构，使得卫星移动通信地面站系统能获得大容量、高可靠性、很好的扩展性、更大的单板处理能力、更高的板间互连带宽、稳定可靠的供电、散热以及统一可靠的系统管理等方面的好处。
+49. 102427487 一种卫星移动终端号码存储方法
+CN
+25.04.2012
+H04M 1/275 Loading...
+H04M 1/275
+Loading...
+201110406426.3
+成都林海电子有限责任公司
+吴伟林
+H04M 1/275
+Loading...
+本发明公开了一种卫星移动终端号码存储方法，该方法包括步骤：初始化号码存储界面，判断用户是否按键，若用户按键，即用户已输入信息；判断用户输入信息是否合法，若输入信息不合法，则返回，初始化号码存储界面；若输入信息合法，则判断用户选择的功能类型；若选择的是号码拨打功能，则激活用户选择的电话号码，使该号码处于被呼叫状态；若选择的是号码储存功能，则将信息字符串发送到存储器进行储存。本发明提供的号码存储方法为卫星移动终端系统提供图形界面形式的号码存储界面，应用于基于“北斗”的卫星移动终端，使卫星移动终端具有号码存储功能，使用户能够快速简洁的进行操作，解决了现有的号码存储系统界面无法用于该终端上的难题。
+50. 102412887 一种卫星解调器中的模拟下变频器及其抗干扰方法
+CN
+11.04.2012
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201210005105.7
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本发明公开了一种卫星解调器中的模拟下变频器及其抗干扰方法。本发明模拟下变频器包括依次连接的输入接口、选通模块、信号放大模块、第一混频器、第一放大器、滤波器、第二混频器、第二放大器、中频开关、可变增益放大电路和输出接口；所述第一混频器连接第一本地振荡器，第二混频器连接第二本地振荡器。本发明模拟下变频器及其抗干扰方法使得模拟下变频器抗干扰能力增强，性能大大提高。
+51. 102412888 一种卫星解调器中的模拟下变频器及其实现方法
+CN
+11.04.2012
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201210005139.6
+成都林海电子有限责任公司
+吴伟林
+H04B 7/185
+Loading...
+本发明公开了一种卫星解调器中的模拟下变频器及其实现方法。本发明模拟下变频器内部包括依次连接的输入接口、选通模块、信号放大模块、第一混频器、第一放大器、滤波器、第二混频器、第二放大器、可变增益放大电路和输出接口；所述第一混频器连接第一本地振荡器，第二混频器连接第二本地振荡器。本发明模拟下变频器及其实现方法使得与模拟下变频器连接的解调器能较好的与多种卫星接收前端设备连接使用，卫星解调器的兼容性增强，成本降低。
+52. 202157833 一种隧道安全性监测系统
+CN
+07.03.2012
+E21F 17/18 Loading...
+E21F 17/18
+Loading...
+201120248736.2
+成都林海电子有限责任公司
+何建宇
+E21F 17/18
+Loading...
+本实用新型公开了一种隧道安全性监测系统，其特征在于该系统由控制中心、监测中心、监测设备系统、太阳能供电系统、北斗定位和授时系统及北斗卫星通信子系统组成；所述监测设备系统由位移传感器组成，每个隧道监测点采用三个传感器，设置安装在隧道的水平方向面上和垂直方向面上。本实用新型的有益效果是：提供一种结构合理、使用方便、成本低廉、覆盖范围广、定位准确、宽带宽的监测设备和信息传输链路。
+53. 202158845 基于北斗导航卫星的飞机裂纹实时监测系统
+CN
+07.03.2012
+G01B 21/02 Loading...
+G01B 21/02
+Loading...
+201120252677.6
+成都林海电子有限责任公司
+吴伟林
+G01B 21/02
+Loading...
+本实用新型涉及安全性监测系统，本实用新型公开了一种基于北斗导航卫星的飞机裂纹实时监测系统，包括安装在飞机上两个以上监测点的监测设备、两个以上北斗导航卫星、地面站，所述监测设备通过北斗导航卫星连接地面站，所述监测设备包括位移传感器，每个监测点有二个位移传感器，分别安装在监测点的水平X轴和Y轴两个方向，所述飞机上的监测点分别设置在机身和机翼上。通过安装在机身和机翼上的位移传感器监测到监测点的水平X轴和Y轴两个方向的位移，确定飞机是否出现裂纹，实时检测飞机的安全状况并传输给地面站，地面站对接收到的信号进行处理，实时确定飞机的安全状况。
+54. 202158844 一种实时监测飞机安全性的装置
+CN
+07.03.2012
+G01B 21/02 Loading...
+G01B 21/02
+Loading...
+201120248737.7
+成都林海电子有限责任公司
+吴伟林
+G01B 21/02
+Loading...
+本实用新型公开了一种实时监测飞机安全性的装置，包括机载太阳能供电系统，其特征在于所述机载太阳能供电系统由太阳能电池薄膜板、太阳能控制器、蓄电池、逆变器、DC负载组成；所述太阳能电池薄膜板与太阳能控制器电联接，所述太阳能控制器是用于控制负载用电和为蓄电池组充电；所述太阳能控制器包含自动切换装置及系统监控、警报装置；所述太阳能控制器还设置有监控装置，用于实时监测系统的运行状态和数据记录。本实用新型的有益效果是：本实用新型采用位移传感器进行测量，具有精度高，成本低，利用太阳能供电设备解决了设备供电问题。
+55. 202153739 基于VSAT卫星通信的河道轮船安全性实时监测系统
+CN
+29.02.2012
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201120252607.0
+成都林海电子有限责任公司
+林经纬
+H04B 7/185
+Loading...
+本实用新型公开了一种基于VSAT卫星通信的河道轮船安全性实时监测系统，其特征在于VSAT卫星通信的子系统由一个主站即控制中心、卫星和1到k个VSAT终端即位移监测点三部分组成；所述主站即控制中心使用的天线直径为9m或13m，并配有高功率放大器、低噪声放大器、上/下变频器、调制解调器及数据接口设备；该主站通过卫星线路与主计算机连接；所述VSAT终端由小口径天线、室外单元和室内单元组成，室内外两单元之间以同轴电缆连接。本系统测量精度高，成本低，利用太阳能供电设备解决了设备供电问题；利用VSAT卫星通信技术，进行数据的传输，不受任何时间和地点的影响，便于大规模普及应用。
+56. 202152690 基于无线网络的隧道安全性实时监测系统
+CN
+29.02.2012
+E21F 17/18 Loading...
+E21F 17/18
+Loading...
+201120247956.3
+成都林海电子有限责任公司
+吴伟林
+E21F 17/18
+Loading...
+本实用新型公开了基于无线网络的隧道安全性实时监测系统，该系统由控制中心、监测中心、位移传感子系统、太阳能供电系统、卫星GPS高精度定位技术、卫星GPS精确授时系统和移动3G无线网络子系统组成;该系统每个监测点采用三个传感器，设置在隧道的水平方向面上和垂直方向面上，所述传感器与1KHz的低通滤波器连接，还包括一ARM9板，该ARM9板设置有LED灯光报警装置和蜂鸣器声音报警装置。本系统测量精度高，成本低，利用太阳能供电设备解决了边远山区监测点供电问题，利用移动3G无线网络系统技术，进行数据的传输，不受传输线路介质的影响，便于大规模普及应用。
+57. 202153310 基于无线网络的河道轮船安全性实时监测平台
+CN
+29.02.2012
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201120252613.6
+成都林海电子有限责任公司
+吴伟林
+G05B 19/418
+Loading...
+本实用新型提供一种基于无线网络的河道轮船安全性实时监测平台，其特征在于该实时监测平台由控制中心、监测中心、监测设备、太阳能供电系统、GPS卫星定位及授时系统和移动3G无线网络子系统组成；轮船每个监测点的设备采用三个位移传感器，安装设置在轮船船体和船侧的水平方向面上和垂直方向面上。本实用新型的有益效果是：监测设备实现对轮船船体和船侧的水平、垂直三维立体空间的监测；GPS卫星高精度定位技术确保了轮船的位置。
+58. 102355722 一种基于L波段的射频增益控制装置及系统
+CN
+15.02.2012
+H04W 52/52 Loading...
+H04W 52/52
+Loading...
+201110188119.2
+成都林海电子有限责任公司
+何戎辽
+H04W 52/52
+Loading...
+本申请公开了一种基于L波段的射频增益控制装置，包括：信号接收单元、信号选择单元、频段选择单元和调节单元；其中：所述信号接收单元用于接收卫星移动通信终端发射的射频增益控制信号；所述信号选择单元用于从所述信号接收单元接收的射频增益控制信号中选择满足预设要求的射频增益控制信号；所述频段选择单元用于依据卫星移动通信终端指令，为所述信号选择单元选择的满足预设要求的射频增益控制信号选择发射频段；所述调节单元用于对所述射频增益控制信号的功率或幅度进行调节后，在所述频段选择单元选择的发射频段内对射频增益控制信号进行发射。
+59. 102355723 一种基于L波段的射频增益控制方法
+CN
+15.02.2012
+H04W 52/52 Loading...
+H04W 52/52
+Loading...
+201110188206.8
+成都林海电子有限责任公司
+吴伟林
+H04W 52/52
+Loading...
+本申请公开了一种射频增益控制方法，所述方法包括：当卫星移动通信终端发射射频增益控制信号时，接收射频增益控制信号；选择射频增益控制信号中满足预设要求的射频增益控制信号；为满足预设要求的射频增益控制信号选择发射频段；在所述发射频段内，对射频增益控制信号的发射功率或幅度进行调节。本发明实施例缩短了射频增益信号的发射范围，节约了通信资源；同时保证了射频信号发射的稳定性；很好的实现了与卫星移动通信系统的交互。
+60. 102255649 Satellite mobile communication ground station system
+CN
+23.11.2011
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201110208543.9
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+H04B 7/185
+Loading...
+The invention discloses a satellite mobile communication ground station system, which utilizes a high ATCA (Advanced Telecom Computing Architecture) platform system architecture and comprises three network element subsystems: an SBSS (Space Based Space Surveillance), an SGSN (Service GPRS Supporting Node) and a GGSN (Gateway GPRS Support Node), wherein the SBSS is divided into a radio frequency unit module and a digital hardware unit module; a radio frequency unit utilizes an independent non-ATCA platform radio frequency cabinet; and a digital hardware unit of the SBSS, the SGSN and the GGSN are placed in respective independent ATCA cabinets. Based on the ATCA system architecture, the satellite mobile communication ground station system has the advantages of high capacity, high reliability, excellent expansibility, higher single-plate processing capacity, higher inter-plate interconnected bandwidth, stable and reliable power supply and radiating performances and the like, and uniform reliable system management is realized.
+61. 102255648 Satellite mobile communication ground station system
+CN
+23.11.2011
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110208360.7
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+H04L 12/28
+Loading...
+The invention discloses a satellite mobile communication ground station system, in which a high ATCA (Advanced Telecom Computing Architecture) platform system architecture is adopted; the system comprises three network element subsystems including a satellite base station system (SBSS), a service GPRS (General Packet Radio Service) supporting node (SGSN) and a gateway GPRS support mode (GGSN); the SGSN and the GGSN are combined to form a GPRS support node (GSN); the SBSS and the GSN are connected by a wire to form a local network; the SBSS and a communication satellite are connected by a feeder link; the SBSS is responsible for processing the access of satellite user terminals in the local network; and the GSN is responsible for processing the communication in a local satellite mobile communication network and the communication between the local network and an external network. According to the invention, based on the ATCA system architecture and redundant backup, backups can be mutually performed between machine cabinets and extension machine cabinets because switched networks are interconnected, and particularly when the machine cabinet of a GES (Ground Electronic Station) is failed, GES (Ground Earth Station) modules of other machine cabinets can take over the work of the failed machine cabinet through a certain mechanism.
+62. 102231892 Mobile communication simulation system
+CN
+02.11.2011
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+201110220961.X
+Chengdu Linhai Electronics Co.,Ltd.
+Wu Weilin
+H04W 24/06
+Loading...
+The invention discloses a satellite mobile communication simulation system. The system is used for transferring calls of a calling user, calling a called user, performing terminal user management, forwarding and temporarily storing short messages and realizing the timed and repeated broadcasting of digital broadcast information, and comprises a network communication management server, a channel management server, a user management server, a short message management server and a digital broadcast management server. The simulation system provided by the invention can highly efficiently and rapidly simulate the whole simulation process, and helps to shorten a research and development cycle and reduce research and development risks.
+63. 101995585 System for real-time monitoring safety of large-sized building based on satellite communication
+CN
+30.03.2011
+G01V 1/22 Loading...
+G01V 1/22
+Loading...
+201010268084.9
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/22
+Loading...
+The invention provides a system for real-time monitoring earthquakes. The system comprises a control center subsystem, a monitoring center subsystem, a satellite global position system (GPS) high precision positioning subsystem, a satellite GPS precision time service subsystem and a very small aperture terminal (VSAT) satellite communication subsystem; the capacities of three-dimensional navigating and positioning monitoring points are achieved by adopting a GPRS high precision positioning technology, thus the system has good anti-interference; by adopting the GPRS high precision positioning technology, the monitoring centre and each monitoring point have a synchronous clock signal of the same frequency and same phase; the seamless covering and networking of the monitoring system are achieved in national range by adopting the GPS precision time service system; and the VSAT satellite communication subsystem comprises a main station (control center), a satellite and 1-k numbered VSAT terminals (shift monitoring points).
+64. 101995586 Large building safety monitoring system based on wireless network and realization method
+CN
+30.03.2011
+G01V 1/22 Loading...
+G01V 1/22
+Loading...
+201010270281.4
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/22
+Loading...
+The invention discloses a large building safety monitoring system based on a wireless network. The large building safety monitoring system is characterized by comprising large building safety monitoring devices. The large building safety monitoring devices are respectively arranged on different large building safety monitoring points so as to monitor building vibration of corresponding large building safety monitoring points. In the invention, displacement inductors in horizontal and vertical directions are arranged on the monitoring points so as to accurately induce the vibration of the large buildings in the horizontal and vertical directions, a GPS (Global Position System) positioning and timing device is used for positioning and timing, monitored accurate vibration information of the large buildings is transmitted to a control center through a 3G (3rd-Generation) network, the vibration information of the large buildings is accurately transmitted in time without limitation of transmission mediums, and a power supply of the large building safety monitoring system is supplied by a solar energy power supply unit and is not limited by an electricity infrastructure.
+65. 101995582 Satellite communication-based earthquake real-time monitoring system
+CN
+30.03.2011
+G01V 1/00 Loading...
+G01V 1/00
+Loading...
+201010268067.5
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/00
+Loading...
+The invention discloses a satellite communication-based earthquake real-time monitoring system, which comprises a control center sub-system, a monitoring center sub-system, a displacement sensing sub-system, a solar power supply sub-system, a satellite global positioning system (GPS) high-precision positioning sub-system, a satellite GPS precision time service sub-system and a very small aperture terminal (VSAT) satellite communication sub-system. The three-dimensional measurement of earthquake waves in horizontal and vertical directions is realized by displacement sensor technology; equipment at all monitoring points is supplied with solar power; the three-dimensional navigation and positioning of the monitoring points are realized by using the GPS high-precision positioning technology with high anti-interference; the GPS precision time service system is used, so that the control center and all the monitoring points have the synchronous clock signals with the same frequency and the same phase; and the seamless coverage and networking of the monitoring system across China are realized by using the VSAT satellite communication technology.
+66. 101995583 Wired network-based earthquake real-time monitoring method
+CN
+30.03.2011
+G01V 1/00 Loading...
+G01V 1/00
+Loading...
+201010270310.7
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/00
+Loading...
+The invention discloses a wired network-based earthquake real-time monitoring method, and belongs to the field of earthquake monitoring. The method comprises the following steps of: 1, dividing an area which needs to be monitored into a plurality of small squares and installing displacement sensing subsystems and monitoring centers to which power is supplied by solar power supply equipment at four corners of each small square; 2, positioning and providing synchronous clock signals for the displacement sensing subsystems and the monitoring centers by using global positioning system (GPS) positioning and a time service system and sending signals to start the operation of each monitoring center by a control center when monitoring; and 3, transmitting acquired data to the control center through an Internet network system by the displacement sensing subsystems. The method can accurately and rapidly monitor a large area in real time when earthquake occurs.
+67. 101988968 Wireless network-based earthquake monitoring system and implementation method thereof
+CN
+23.03.2011
+G01V 1/00 Loading...
+G01V 1/00
+Loading...
+201010270154.4
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/00
+Loading...
+The invention discloses a wireless network-based earthquake monitoring system. The system comprises earthquake monitoring devices, earthquake monitoring substations, a control center, positioning devices, ARM plates and satellite positioning and timing devices, wherein the earthquake monitoring devices are respectively arranged at different earthquake monitoring points to monitor the crustal shock of corresponding earthquake monitoring points; the earthquake monitoring substations receive data of the earthquake monitoring devices and transmit the data to an earthquake monitoring master station through a 3G wireless network; the control center analyzes and processes the data received by the earthquake monitoring master station; the earthquake monitoring devices are connected with the positioning devices; displacement sensors are arranged in the positioning devices; the positioning devices are used for monitoring the crustal shock; the substations are communicated with the master station through the 3G wireless communication network; and the ARM plates and the satellite positioning and timing devices are arranged in the earthquake monitoring devices. The displacement sensors in the horizontal and vertical directions are arranged at the monitoring points and accurately sense the crustal shock in the horizontal and vertical directions; the GPS positioning and timing devices are used for positioning and timing; the monitored accurate earthquake information is sent to the control center through the 3G wireless network; the earthquake information is accurately and timely transmitted without the limitation of transmission media; and the earthquake monitoring devices are powered by solar power supply equipment without the limitation of electrical infrastructures and can be connected with video acquisition devices, computers, faxes and/or telephones and transmit related data to a data center through the 3G wireless network.
+68. 201742109 便携式移动终端电源
+CN
+09.02.2011
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+200920316155.0
+成都林海电子有限责任公司
+李凯
+H02J 7/00
+Loading...
+本实用新型公开了一种便携式移动终端电源，其特征在于：电池组经电池监控电路分别与低压差线性稳压器和DC-DC转换器连接，低压差线性稳压器与射频板连接，DC-DC转换器分别与FPGA板和ARM板连接。本实用新型连续使用时间长、多组电压大电流输出、极低噪声及纹波，同时体积及重量小。
+69. 201725322 一种包含大容量硬盘的ARM开发装置
+CN
+26.01.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201020217032.4
+成都林海电子有限责任公司
+潘宁波
+G06F 3/06
+Loading...
+本实用新型公开了一种包含大容量硬盘的ARM开发装置，属于嵌入式开发的领域。所述装置的特征在于，包含按照操作系统所支持的格式来分区和格式化的大容量硬盘、供所述大容量硬盘接入的ARM和将所述大容量硬盘与所述ARM连接的接口。由此在ARM嵌入式开发中大容量的数据采集成为现实，进而实现将采集到的数据装入硬盘中来实现其功能。
+70. 201725275 便携式移动终端键盘
+CN
+26.01.2011
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+200920316185.1
+成都林海电子有限责任公司
+吴博
+G06F 3/02
+Loading...
+本实用新型公开了一种便携式移动终端键盘，其特征在于：键盘的按键与单片机连接，单片机与便携式移动终端连接，电源与单片机连接。本实用新型设计合理，结构简单；性能稳定，操作使用便捷，减少了设备投入，降低成本。
+71. 101950033 Real-time safety monitoring system for large-sized buildings based on cable network
+CN
+19.01.2011
+G01V 1/22 Loading...
+G01V 1/22
+Loading...
+201010282528.4
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+G01V 1/22
+Loading...
+The invention discloses a real-time safety monitoring system for large-sized buildings based on a cable network, aiming at providing a vibration monitoring system for the large-sized buildings, which has the advantages of high precision, low cost and wide coverage area. The invention adopts the following technical scheme that the monitoring system comprises a control center (1), a monitoring center (2), a cable network system (3), a GPS (Global Positioning System) positioning module, GPS time service modules and solar energy power supply equipment, wherein the cable network system (3) is connected with the monitoring center (2) and connected with the control center (1); the monitoring center (2) is arranged on a large-sized building to be monitored; the monitoring center (2) is connected with the GPS positioning module; the control center (1) and the monitoring center (2) are respectively connected with the GPS time service modules; and the solar energy power supply equipment is used for supplying power for the equipment of the monitoring center (2). The invention is mainly used for monitoring vibration signals on the large-sized buildings of high-rise buildings, bridges, dams, etc.
+72. 201690470 卫星移动通信试验系统专用信号源
+CN
+29.12.2010
+H04L 27/20 Loading...
+H04L 27/20
+Loading...
+200920316160.1
+成都林海电子有限责任公司
+吴伟林
+H04L 27/20
+Loading...
+本实用新型公开了一种卫星移动通信试验系统专用信号源，该信号源，包括经声码器送入成帧单元的1kHz的正弦波震荡信源，送入成帧单元的另一信源为2.4k/s的伪随机序列信源。声码器中设置有DSP芯片。本实用新型卫星移动通信试验系统专用信号源，通过伪随机序列信源和正弦波震荡信源为卫星移动通信试验系统提供了高稳定的信号源，充分满足了试验要求，保证了试验效果。
+73. 201689164 便携式移动终端电源的电量检测装置
+CN
+29.12.2010
+G01R 31/40 Loading...
+G01R 31/40
+Loading...
+200920316186.6
+成都林海电子有限责任公司
+吴博
+G01R 31/40
+Loading...
+本实用新型公开了一种便携式移动终端电源的电量检测装置，其特征在于：包括电源、分压电路、单片机，其中，待检测电源经分压电路与单片机连接，单片机与便携式移动终端连接，电源给单片机提供稳定的5V电压。本实用新型可实时对便携式移动终端的电源进行检测，并可实时对电源电量进行显示，而且本实用新型检测速度快；另外，本实用新型生产成本低，电路结构简单。
+74. 201655293 卫星移动通信声码器语音编解码集成电路
+CN
+24.11.2010
+G10L 19/00 Loading...
+G10L 19/00
+Loading...
+200920316159.9
+成都林海电子有限责任公司
+税成侠
+G10L 19/00
+Loading...
+本实用新型公开了一种卫星移动通信声码器语音编解码集成电路，该声码器语音编解码集成电路在声码器芯片和调制解调器之间设置有DSP信号处理电路，可通过DSP芯片强大的数据处理能力和高运行速度来处理大量的语音分组数据，使分组语音能在DSP中可以很好地处理延时、抖动、回声抑制等问题，从而得到很好的音质，为卫星移动通信的语音通信提供可靠的保障。本实用新型能够保证通信过程中的语音质量优良，且有存储资源，能够减小对通信带宽的要求，在卫星移动通信中有着广阔的应用前景。
+75. 201584965 卫星移动通信便携式终端射频系统
+CN
+15.09.2010
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+200920316188.5
+成都林海电子有限责任公司
+罗均
+H04B 1/40
+Loading...
+本实用新型公开了一种卫星移动通信便携式终端射频系统，其特征在于：包括发射通道和接收通道，其中，发射通道包括双工器、功率放大器、介质滤波器、缓冲放大器、高线性混频器、频率合成器、放大器、声表面滤波器；接收通道包括双工器、LNA放大器、介质滤波器、高线性混频器、缓冲放大器、SAW滤波器、可变增益放大器。本实用新型具有很高的接收灵敏度、较低的噪声系数和较高的抗干扰能力。
+76. 101820328 Scalable network coding (SNC) method applied to interplanetary Internet
+CN
+01.09.2010
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200910312902.8
+Chengdu Linhai Electronics Co., Ltd.
+Dong Jianming
+H04L 1/00
+Loading...
+The invention discloses a scalable network coding (SNC) method applied to interplanetary Internet, and relates to the field of interplanetary Internet and satellite communication and the technical field of network coding. An information flow is divided into 6 data packets which are a1, a2, b1, b2, c1 and c2 respectively; and each data packet belongs to one of kinds A, B and C, wherein the A data packet is most important; the B data packet is second most important; and the C data packet is unimportant. When the 6 linearly independent coded data packets are received, a1 and a2 are surely coded; b1 and b2 can be coded only after 6 N2 or N3 data packets are received; and c1 and c2 can be coded only after 6 N3 data packets are received. Therefore, the coding priorities of the A, B and C data packets meet the condition that B is less than A and is more than C. The method has the advantage of providing a new idea for the method for selecting data nodes having priorities in terms of coding.
+77. 101764755 Subnet-connection (SNC) network encoding method applied to interplanetary internet
+CN
+30.06.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910312900.9
+Chengdu Linhai Electronics Co., Ltd.
+Dong Jianming
+H04L 12/56
+Loading...
+The invention discloses an SNC network encoding method applied to an interplanetary internet, relating to the field of the interplanetary internet and satellite communication and the technical field of network encoding. The SNC network encoding method comprises the following steps of: selecting a network node 1, a network node 2, a network 3 and a server in a wireless self-organization network, applying two time slices to data download, and then requesting the data of six times from the server. The SNC network encoding method fully utilizes the resources of peer nodes, shortens response time and effectively reduces the pressure of the peer nodes for the server.
+78. 101751795 Road network monitoring system based on satellite communication positioning and wireless electronic tag technology
+CN
+23.06.2010
+G08G 1/127 Loading...
+G08G 1/127
+Loading...
+200910312890.9
+Chengdu Linhai Electronics Co., Ltd.
+He Rongliao
+G08G 1/127
+Loading...
+A road network monitoring system based on satellite communication positioning and wireless electronic tag technology includes a space section and a road surface section; wherein, the space section is composed of two types of satellites, including a mobile communication satellite and a positioning satellite, the positioning satellite is used for acquiring the position information of a vehicle in a highway, and the mobile communication satellite realizes the communication between a vehicle in the highway and a command center; the road surface section is composed of a ground signal terminal station for supporting the positioning satellite and the mobile communication satellite, a command center and a vehicle positioning communication device, the ground signal terminal station receives and transmits the signals of the two types of satellites, and establishes network communication connection with the command center, and the vehicle positioning communication device is composed of a position indicator, a satellite mobile phone terminal and a wireless electronic tag. By adopting the road network monitoring system and for the vehicles in a highway, the command center can obtain the vehicle information and position information in real-time and can establish speech communication with each vehicle in certain road section, and carry out rescue in time.
+79. 201508903 便携式卫星通信系统的野外安装设备
+CN
+16.06.2010
+H01Q 1/12 Loading...
+H01Q 1/12
+Loading...
+200920309613.8
+成都林海电子有限责任公司
+倪国超
+H01Q 1/12
+Loading...
+本实用新型公开了一种便携式卫星通信系统的野外安装设备，包括安装座和支架，所述安装座包括固定座、旋转座和滚动轴承，旋转座的中心轴与滚动轴承内圈、固定座的台阶孔与滚动轴承外圈相互间通过紧配合组合在一起；所述支架与固定座紧固连接；在旋转座上设置有压紧螺杆和止动螺杆。本实用新型的优点是：通过安装座的旋转座和固定座与支架的配合使用，使便携式卫星通信系统可以方便地安装架设在任何野外场所，而且可以360度地旋转；由于具有压紧螺杆和止动螺杆，可以将便携式卫星通信系统更加稳固地固定在支架上。
+80. 201508906 便携式卫星通信系统
+CN
+16.06.2010
+H01Q 1/24 Loading...
+H01Q 1/24
+Loading...
+200920309635.4
+成都林海电子有限责任公司
+王勇
+H01Q 1/24
+Loading...
+本实用新型公开了一种便携式卫星通信系统，包括主机、平板天线和支撑板，支撑板与第一转轴紧固连接，第一转轴与第一支座通过滑动配合组合在一起，第一支座紧固连接安装在主机的安装座上；支撑板两端各与一个第二转轴紧固连接，每个第二转轴与一个第二支座通过滑动配合组合在一起，第二支座紧固连接安装在平板天线的安装座上。本实用新型的优点是：平板天线不仅具备仰俯角的调节功能，还具备平面旋转的功能；而且平板天线和主机巧妙地结合成一体，使便携式卫星通信系统的携带更加方便。
+81. 101719785 Digital trunking communication system and method based on VSAT satellite land station
+CN
+02.06.2010
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+200910310426.6
+Chengdu Linhai Electronics Co., Ltd.
+He Rongliao
+H04B 7/185
+Loading...
+The invention discloses digital trunking communication system and method based on a VSAT satellite land station. Soft exchange of communication modes of a VSAT satellite communication network and different digital trunking systems is realized by land interface units of interconnection of a VSTA satellite communication system and the digital trunking systems, thereby realizing remote interconnection of different types of digital trunking systems. The invention has the advantages of wide coverage range, wide service range, multiple service functions, complete managing and scheduling functions, high resource utilization ratio, high networking speed and low maintenance cost.
+82. 101719784 Digital trunking communication system and method based on VSAT satellite gateway station
+CN
+02.06.2010
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+200910310394.X
+Chengdu Linhai Electronics Co., Ltd.
+He Rongliao
+H04B 7/185
+Loading...
+The invention discloses digital trunking communication system and method based on a VSAT satellite gateway station. Soft exchange of communication modes of a VSAT satellite communication network and different digital trunking systems is realized by a VSAT system gateway station between a VSTA satellite and a land central station, thereby realizing remote interconnection of different types of digital trunking systems. The invention has the advantages of wide coverage range, wide service range, multiple service functions, complete managing and scheduling functions, high resource utilization ratio, high networking speed and low maintenance cost.
+83. 101720135 Satellite-ground integrated mobile communication system
+CN
+02.06.2010
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+200910310661.3
+Chengdu Linhai Electronics Co., Ltd.
+Chen Yan
+H04L 12/46
+Loading...
+The invention discloses a satellite-ground integrated mobile communication system comprising an integrated gateway station, at least one integrated wireless access point and at least one satellite, wherein the integrated gateway station and the integrated wireless access points are connected to each other, and the integrated wireless access points are connected with each other, thereby establishing a local network; the integrated gateway station is mutually connected with an external network via a satellite relay; the integrated gateway station is responsible for processing the communication in the local network and the communication between the local network and the external network; and the integrated wireless access points are responsible for processing the access of subscriber terminals having different wireless systems in the local network. By establishing the satellite-ground integrated mobile communication system, the invention can simplify the network structure, diversify the interfaces and facilitates the establishment. The satellite-ground integrated mobile communication supports the simultaneous access of subscriber terminals having different systems to the local network and simultaneously achieves the trans-network communication via the satellite relay. The invention satisfies the requirements for emergency, disaster relief and private communication network systems and provides solutions for the achievement of communication systems in remote areas.
+84. 101673258 Method for generating ARM-Linux system Chinese input method Chinese character library
+CN
+17.03.2010
+G06F 17/22 Loading...
+G06F 17/22
+Loading...
+200910309134.0
+Chengdu Linhai Electronics Co., Ltd.
+Yin Zhilei
+G06F 17/22
+Loading...
+The invention discloses a method for generating ARM-Linux system Chinese input method Chinese character library, comprising the following five steps of: acquiring Chinese characters in a Windows system PC machine; filling an initialization Chinese character library to generate a primary Chinese character library; transmitting the generated primary Chinese character library into the ARM-Linux system by the network, and determining and identifying the Chinese characters which can not be identified; eliminating the Chinese characters which can not be identified by the ARM-Linux system in the primary Chinese character library in the PC machine system; and generating a complete Chinese character library. The method supports the Chinese input method in L wave band and S wave band satellite portable mobile end systems; and further more, in the other operation platforms without the Chinese input method, the Chinese character library generated by the item also can be used for automatically developing the Chinese full spelling input method and supporting the Chinese character input for the system.
+85. 101662328 Performance detector of portable ultrashort wave frequency hopping station
+CN
+03.03.2010
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200910307535.2
+Chengdu Linhai Electronics CO., Ltd.
+Dong Jianming
+H04B 17/00
+Loading...
+The invention discloses a performance detector of a portable ultrashort wave frequency hopping station. The detector comprises a coupler which is connected with the station to be detected, and couplesa small part of signals which are transmitted by a high-power transmitting station to a radio frequency processing module through a coupling terminal; the a radio frequency processing module dividesa frequency range by various filters, and sends the obtained radio frequency signal frequency to a data acquisition card; the data acquisition card performs digital treatment on the obtained radio frequency signal frequency group; a control panel perfroms short time FFT transform on a baseband signal from the data acquisition card, calculates parameters, and sends the result to an external touch screen for display. Software radiotechnics is used to realize miniaturization, modularization and generalization and integrating part of functions of oscilloscopes, frequency spectrographs, modulationdomain analyzer and the like. The detector can realize automatic measurement of channel switching time, frequency hopping rate, frequency hopping bandwidth, frequency hopping frequency set and the like of shortwave and ultrashort wave frequency hopping stations.
+86. 101638101 Locomotive monitoring system based on technologies of satellite mobile communication, fixed communication and remote sensing
+CN
+03.02.2010
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+200910306104.4
+Chengdu Linhai Electronics Co., Ltd.
+Wu Weilin
+B61L 27/00
+Loading...
+The invention discloses a locomotive monitoring system based on a technology of satellite mobile communication, fixed communication and remote sensing, which comprises a railway network monitoring station, wherein an antenna of the railway network monitoring station transmits image information acquired by cameras installed along a railway track to a ground command center by a communication satellite; the command center judges whether a railway network has the dangerous condition or not by a received picture; a space section of the monitoring system comprises three satellites which are respectively a telemetering remote sensing satellite, a communication satellite and a mobile communication satellite; a ground section comprises the railway network monitoring station, the command center anda high-speed locomotive terminal system; the invention overcomes the defect of unstable roadway information obtained by mounting cameras on the roadway by a telemetering remote sensing technology, discovers the dangerous condition of the running front of a locomotive in time, sends an alarm signal and controls the locomotive to brake in the specified time, thereby preventing loss of life and property caused by various liability accidents.
+87. 101638100 High-speed locomotive monitoring system based on technologies of satellite mobile communication, positioning and remote sensing
+CN
+03.02.2010
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+200910306103.X
+Chengdu Linhai Electronics Co., Ltd.
+Liu Tiehua
+B61L 27/00
+Loading...
+The invention discloses a high-speed locomotive monitoring system based on technologies of satellite mobile communication, positioning and remote sensing. The monitoring system is divided into a spacesection and a ground section, wherein the space section comprises three satellites which are respectively a telemetering remote sensing satellite, a navigation positioning satellite and a mobile communication satellite; the ground section comprises ground gateway stations, a command center and a high-speed locomotive terminal system; the command center receives locomotive front road condition information, a high-speed locomotive position and the speed information acquired and processed by all the ground gateway stations and the locomotive running condition information transmitted by the mobile communication satellite and analyzes the locomotive running condition and the front danger on a center display screen according to the information; when the dangerous condition happens, an alarm command is transmitted to a running locomotive by the mobile communication satellite to control the locomotive to brake in the specified time, thereby preventing loss of life and property caused by various liability accidents.
+88. 101635575 Four-channel shortwave digital signal processing platform based on software radio
+CN
+27.01.2010
+H04B 1/00 Loading...
+H04B 1/00
+Loading...
+200910306110.X
+Chengdu Linhan Electronics Co., Ltd.
+Huang Yao
+H04B 1/00
+Loading...
+The invention discloses a four-channel shortwave digital signal processing platform based on software radio, comprising a data acquisition part, a digital signal processing part and a data transmission part. The digital signal processing part comprises a four-channel digital down converter and a field programmable logic array. Each channel of the four-channel digital down converter consists of an input selection unit, a digital frequency mixing unit, a CIC unit, a data route unit, an FIR filtering unit, a half band filtering unit and a resampling filtering unit. Independent working or cascade working of the four channels is controlled by software. The control method is realized in such a way that the output of a previous FIR filtering unit is extracted in cascade working is used as an input of a next FIR filtering unit through the data route unit so as to process signals with a bandwidth up to 2.048MHz and signals with an extremely narrow bandwidth.
+

@@ -1,0 +1,2401 @@
+1. 103595424 分量译码方法、译码器及Turbo译码方法、装置
+CN
+08.02.2017
+H03M 13/29 Loading...
+H03M 13/29
+Loading...
+102012000290493
+重庆重邮信科通信技术有限公司
+胡均浩
+H03M 13/29
+Loading...
+本发明公开了一种分量译码方法，将译码数据块划分为多个子窗，根据分量译码顺序依次对各子窗实施分量译码，在首次译码迭代时，预设除最后一个子窗外其余各子窗第二分支度量初始值；分别用各子窗最后一个第二分支度量更新该子窗前一个子窗第二分支度量初始值；本发明的技术方案能够有效的减少分量译码过程中的冗余计算量，提高Turbo译码效率。本发明还同时公开了一种与所述方法相适应的分量译码器、Turbo译码方法及Turbo译码装置。
+2. 102281116 一种生成GOLD序列的方法及装置
+CN
+01.02.2017
+H04J 13/10 Loading...
+H04J 13/10
+Loading...
+102010000198475
+重庆重邮信科通信技术有限公司
+朱志辉
+H04J 13/10
+Loading...
+本发明公开了一种生成GOLD序列的方法，使用两个31级反馈移位寄存器分别保存x1序列和x2序列的31个初始比特值；每次对反馈移位寄存器中的31个x1序列比特位并行计算得到28个x1序列后续比特，对反馈移位寄存器中的31个x2序列比特位并行计算得到28个x2序列的后续比特；当已获得的x1序列和x2序列长度大于或等于NC比特时，将移位寄存器中保存的位数不低于NC的x1序列与相同位x2序列并行异或生成相应的c(n)；将已获得的x1序列及x2序列的高31比特分别顺序存放到反馈移位寄存器中。同时，本发明还公开了一种生成GOLD序列的装置；本发明的GOLD序列计算方法及装置采用了28路并行计算x1序列、x2序列及c(n)序列，一次计算可生成28位GOLD序列比特，减小了计算GOLD序列的时间开销，提高了GOLD序列的计算速度。
+3. 102448155 一种控制信息传输方法
+CN
+25.01.2017
+H04W 52/12 Loading...
+H04W 52/12
+Loading...
+102010000500145
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 52/12
+Loading...
+本发明公开了一种控制信息传输方法，终端利用上行信道业务突发中的SS符号反馈上行同步偏移调整参数到网络端，网络端解析SS符号中的参数以获知UE是否正确接收到网络端发送的同步偏移调整控制信息。本发明的另一种技术方案是，终端利用上行信道业务突发中的SS符号重复发送所述SS符号所在时隙及物理信道TPC符号中填充的功率辐射调整控制信息，网络端对TPC及SS符号进行接收合并。本发明的技术方案充分利用了上行信道的SS符号来进行控制信息的传输，避免了物理资源的浪费，同时，有效提升控制信息传输可靠性的。
+4. 103595663 一种发射复数信号的估计方法
+CN
+21.12.2016
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+102012000293166
+重庆重邮信科通信技术有限公司
+吴广富
+H04L 25/02
+Loading...
+本发明实施例公开了一种发射复数信号的估计方法，用于降低在估计发射复数信号时的计算复杂度。本发明实施例方法包括：构建变换无线信道矩阵，所述变换无线信道矩阵中包含有扩展无线信道元素和扩展接收复数信号；使用归一化的吉文斯变换系数对所述变换无线信道矩阵进行吉文斯变换，求得扩展无线信道的上三角矩阵和变换接收复数信号；使用所述上三角矩阵和所述变换接收复数信号估计发射复数信号。
+5. 103809727 一种移动终端的省电处理方法、系统和移动终端
+CN
+21.12.2016
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+102012000459148
+重庆重邮信科通信技术有限公司
+牟伦荣
+G06F 1/32
+Loading...
+本发明公开了一种移动终端的省电处理方法、系统和移动终端，该省电方法将基带子系统的任务优先于应用子系统的任务进行调度处理，保证了实时性要求高的基带子系统任务得到及时的处理，并且该方法在应用子系统没有任务就绪时，应用子系统处于休眠状态，在此基础上，若基带子系统也没有任务就绪，则使基带子系统也进入睡眠状态，从而降低了移动终端的功耗，延长了使用时间，并且由于虚拟操作系统的引入，实现了基带子系统和应用子系统的通信，而且通过一个处理器既可以完成基带子系统的操作也可以完成应用子系统的操作，降低了生产成本。
+6. 103581033 数据流处理的方法及设备
+CN
+21.12.2016
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+102012000264139
+重庆重邮信科通信技术有限公司
+段红光
+H04L 12/801
+Loading...
+本发明公开了一种数据流处理的方法，包括：第一处理模块接收业务数据流，并为所述业务数据流分配数据流标识；所述第一处理模块向第二处理模块发送带有所述数据流标识的业务数据流；所述第二处理模块接收到所述带有所述数据流标识的业务数据流后，根据所述数据流标识确定所述数据流标识对应的健壮性的头压缩ROHC实体，并将所述带有所述数据流标识的业务数据流推送到所述ROHC实体中进行ROHC压缩。本发明实施例通过在进行一次业务数据流识别标识之后，在其他模块中直接采用数据流标识来区分不同的业务数据流，从而提高了数据流处理的效率。
+7. 103580942 一种模拟串口测试方法和装置
+CN
+21.12.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102012000273320
+重庆重邮信科通信技术有限公司
+刘桥
+H04L 12/26
+Loading...
+本发明实施例公开了一种模拟串口测试方法和装置，其中方法包括：接收客户端发送的调制解调器命令语言AT指令；读取并解析预存的各测试数据文件，得到测试数据文件中的测试指令；确认所述测试指令是否为主动上报的结果编码信息URC指令，若是，则将所述URC指令发送给所述客户端，若否，则确认所述AT指令是否包含在所述测试数据文件中的测试指令中，若包含，则将与所述AT指令对应的测试指令的响应内容发送给所述客户端，否则发送表示未匹配成功的信息给所述客户端。以上方案采用客户端的开发与调试可以在开发过程中及时得到调试，从而提高整体开发进度。
+8. 103188008 一种无线信道类型识别方法及装置
+CN
+14.12.2016
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+102011000455615
+重庆重邮信科通信技术有限公司
+陈苗
+H04B 7/08
+Loading...
+本发明公开了一种无线信道类型识别方法，包括：分别计算各天线接收信号的时域信道冲激响应；根据各天线的时域信道冲激响应选取各天线的有效径；根据各天线有效径的位置和功率计算该天线信道均方时延扩展值和信道最大时延扩展值；根据各天线的信道均方时延扩展值和信道最大时延扩展值获得各天线识别的信道类型；根据各天线信号质量对各天线识别的信道类型进行加权合并，得到最终识别的信道类型。本发明还公开了一种无线信道类型识别装置，本发明的技术方案充分利用了信号的空分特性，在多天线系统中通过对各天线分别识别的无线信道类型进行合并处理有效的降低了信号时变特性和衰落对信道类型估计的影响，提高了信道类型识别的准确性。
+9. 102737001 一种调整FPGA总线延时的方法及装置
+CN
+31.08.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+102011000080919
+重庆重邮信科通信技术有限公司
+高峰
+G06F 13/40
+Loading...
+本发明公开了一种调整FPGA总线延时的方法，包括，主FPGA通过总线发送信号给从FPGA；从FPGA检测到任何一条信号线上的信号时，记录从FPGA检测到的该组总线所有信号线上的信号；判断是否存在没有检测到状态反转的信号线；如果存在没有检测到状态反转的信号线，在主FPGA和从FPGA中选择一个总线所有管脚延时都未达到系统设定最大值的FPGA，将所选择的FPGA中所有接收到的信号正确的信号线对应的管脚延时一个延时单位，否则记录主FPGA和从FPGA所有管脚的延时单位数据。本发明还公开了一种与所述方法相适应的FPGA总线延时调整装置，本发明的技术方案实现了自动调整总线各管脚延时单元数据，提高了FPGA总线延时调整效率。
+10. 103580761 一种通信设备的测试方法和装置
+CN
+03.08.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+102012000269359
+重庆重邮信科通信技术有限公司
+桂竟晶
+H04W 24/02
+Loading...
+本发明实施例公开了一种通信设备的测试方法和装置，方法包括：创建至少一个测试通道，其中一个测试通道为主测试通道，与主被测设备相连，其他测试通道为辅测试通道，与从被测设备相连；主测试通道与信源端口间的通信信道为双向通道；辅测试通道与信源端口间的通信信道为从信源端口至辅测试通道方向的单向通道；利用测试用例生成配置信息，并将配置信息发送给测试通道、与测试通道对应的被测设备以及与信源端口连接的其他设备；启动测试用例，将测试数据发送给测试通道对应的被测设备；被测设备处理测试数据；获取测试通道对应的主被测设备以及从被测设备的测试结果，并将测试结果与预期结果比对得到测试结论。可以提高测试效率并且控制测试成本。
+11. 102446084 一种定时信息写读控制方法及装置
+CN
+03.08.2016
+G06F 5/06 Loading...
+G06F 5/06
+Loading...
+102010000500223
+重庆重邮信科通信技术有限公司
+唐平
+G06F 5/06
+Loading...
+本发明涉及通信领域，特别是涉及一种定时信息写读控制方法及装置，所述方法在写入数据之前，先对待写入时间FIFO中的数据按由小到大的顺序排序，待写入数据FIFO中的数据也作相应顺序变换，时间值小的先写入；或者，在写入数据后，实时修改写地址指针寄存器WADDR；所述装置的FIFO具有读地址指针寄存器和写地址指针寄存器，用于修改数据FIFO和时间FIFO的读写地址，其中时间FIFO和数据FIFO共用这2个寄存器；本发明能够完成在定时精度下定时信息写读控制的任务，并能够根据FIFO的执行情况，修改FIFO的读写指针，实现FIFO数据的跳转控制；并进一步支持立即发送数据的操作，满足更高的实时性要求。
+12. 102314208 一种动态调整嵌入式设备频率电压的方法及装置
+CN
+03.08.2016
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+102010000213569
+重庆重邮信科通信技术有限公司
+牟伦荣
+G06F 1/26
+Loading...
+本发明公开了一种动态调整嵌入式设备频率电压的方法，设备实时获取各模块的时钟频率需求，在模块时钟频率需求发生变化时通过调整模块所属时钟域的主时钟信号和各模块的时钟控制器为各模块提供所需的时钟频率。本发明还公开了一种相应的动态调整嵌入式设备频率电压的装置。本发明的技术方案实现了对设备各模块频率的及时精确调整，在降低嵌入式设备的动态功耗的同时提高了设备频率和电压调整的及时性和精确度。
+13. 102316574 一种多模终端系统时钟定时方法及装置
+CN
+03.08.2016
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+102010000213597
+重庆重邮信科通信技术有限公司
+王茜
+H04W 56/00
+Loading...
+本发明涉及移动通信领域，特别提供一种多模终端系统时钟定时方法及装置，所述方法首先确定TD系统、LTE系统定时精度、确定系统参考定时时钟及参考计数长度、设计参考定时时钟下的计数器、然后获取多模系统各系统的定时偏差，最后进行TD系统、LTE系统同步调整；所述装置包括参考时钟计数器、定时偏差获取单元和同步调整单元；本发明在多模终端内的两个系统利用同一参考时钟以及一个计数器，而不是对各个系统采用独立计数器计数，减小了一个计数器，节省了硬件开销，而且TD和LTE系统间的定时关系可以实时进行计算而不必采用额外的硬件电路，节省了系统资源开销。
+14. 102445953 一种嵌入式设备时钟源的调整方法
+CN
+03.08.2016
+G06F 1/08 Loading...
+G06F 1/08
+Loading...
+102010000500155
+重庆重邮信科通信技术有限公司
+牟伦荣
+G06F 1/08
+Loading...
+本发明公开了一种嵌入式设备时钟源的调整方法，设备实时获取各模块所需要的时钟频率；如果有模块所需要的时钟频率发生变化时，设备根据各模块所需的时钟频率重新配置所有模块的时钟源；设备根据重新配置的时钟源对应的电压等级对设备电压进行调整。本发明的技术方案在模块时钟频率需求发生变化时，根据时钟频率需求对整个设备的时钟源进行重新调整，使设备在满足工作需求的前提下，尽量处于较小的工作频率或尽量保证时钟源开启数量最少，从而大大降低嵌入式设备的动态功耗，延长了设备的使用时间。
+15. 102316476 一种移动终端睡眠唤醒时异频小区测量方法
+CN
+27.07.2016
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+102010000213567
+重庆重邮信科通信技术有限公司
+朱传新
+H04W 24/00
+Loading...
+本发明提出了一种移动终端在睡眠唤醒时进行异频测量的方法，对每个异频点测量子帧，UE在接收到TS0时隙数据域1的前n个chip后，计算所接收到的n个chip的平均功率，将其作为该异频点的接收信号强度指示RSSI；利用计算获得的RSSI及预期的该频点目标RSSI值RSSITarget计算自动增益控制AGC的增益调整量Δagc；根据Δagc调整所述异频点的自动增益控制AGC；使用调整后的AGC进行所述异频点各小区测量。本发明的技术方案利用新获得的数据对该异频点的AGC增益进行实时调整，有效的降低了UE在睡眠唤醒时的接收各异频点数据时的AGC增益有效性风险，提高了异频点测量精度。
+16. 105786691 一种移动终端自动化集成测试装置、方法和系统
+CN
+20.07.2016
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201410820686.9
+重庆重邮信科通信技术有限公司
+陈磊
+G06F 11/36
+Loading...
+本发明实施例提供了一种移动终端自动化集成测试装置、方法和系统，本发明实施例装置包括：源码管理服务器，用于管理移动终端各个子系统的源码；持续集成服务器，用于负责控制各个任务流的调度机制；源码编译服务器，用于负责执行源码的编译任务；版本更新测试服务器，用于负责执行镜像文件更新任务和版本自动测试任务。本发明实施例实现集成测试自动化流程，提高研发效率，降低研发成本。
+17. 105790877 扰码快速产生装置和方法
+CN
+20.07.2016
+H04J 13/10 Loading...
+H04J 13/10
+Loading...
+201410820585.1
+重庆重邮信科通信技术有限公司
+崔子川
+H04J 13/10
+Loading...
+本发明涉及通信系统数字信号处理领域，提供扰码快速生成装置，包括X序列产生器、Y序列产生器、第一异或单元、第二异或单元，还包括状态存储器、掩码存储器、X序列索引计算器和Y序列索引计算器；所述状态存储器中存储了X序列产生器和Y序列产生器分别所需的寄存器状态；所述掩码存储器中存储了X序列产生器和Y序列产生器分别所需的掩码；还提供扰码快速生成方法；本发明采用预先存储寄存器状态和掩码来实现，能够快速的产生所需的扰码，且充分利用扰码与X序列和Y序列的关系特征，减少了存储空间，运算比较简单。
+18. 105790819 一种MIMO信号接收方法和装置
+CN
+20.07.2016
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+102014000826948
+重庆重邮信科通信技术有限公司
+梁小涛
+H04B 7/08
+Loading...
+本发明实施例提出了一种MIMO信号接收方法和装置，本发明提供的MIMO信号接收方法包括：用户UE根据接收到的基站发送的下行数据获得信道响应，并通过所述信道响应识别当前信号传输场景；UE根据所述信道响应和识别到的传输场景计算获得信道矩阵；UE根据所述识别到的传输场景、所述接收到的下行数据和所述信道矩阵进行信道均衡。根据本发明实施例提出了一种显著提升MU-MIMO场景下本用户性能的接收机，并降低接收机的复杂度。
+19. 105790790 一种TSTD模式下的SCH干扰消除方法及装置
+CN
+20.07.2016
+H04B 1/7083 Loading...
+H04B 1/7083
+Loading...
+201410820247.8
+重庆重邮信科通信技术有限公司
+刘润江
+H04B 1/7083
+Loading...
+本发明涉及移动通信领域，特别涉及一种TSTD模式下SCH干扰消除方法及其装置，所述方法包括获取均衡后的公共导频信道CPICH符号，利用所述CPICH符号估计从发送端到均衡后信号所经历的系统矩阵，利用SCH模式和所述系统矩阵重构TSTD模式下的SCH信号并将其消除；本发明减少了实时运算量，减小了存储量，提升了性能。
+20. 105791180 多播广播单频网络信道估计方法和装置
+CN
+20.07.2016
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201410819564.8
+重庆重邮信科通信技术有限公司
+陈苗
+H04L 25/02
+Loading...
+本发明属于移动通信技术领域，提供一种多播广播单频网络信道估计方法和装置，所述方法包括参考信号相关计算，获取参考信号位置上的信道估计值；对参考信号位置上的信道估计值进行第一次时域插值；获取全部的信道估计值；本发明在广播多播信道环境下需要利用不同OFDM符号上的RS间隔排列的方式，进行符号间的时域插值以便获得频率上可靠信道估计结果，以克服较强频率衰落带来的估计误差。
+21. 105792361 一种LTE逻辑信道资源分配方法和装置
+CN
+20.07.2016
+H04W 72/04 Loading...
+H04W 72/04
+Loading...
+102014000826884
+重庆重邮信科通信技术有限公司
+高攀
+H04W 72/04
+Loading...
+本发明实施例提出了一种LTE逻辑信道资源分配方法和装置，本发明提供的一种LTE逻辑信道资源分配方法包括：将资源块剩余的资源大小L值进行两轮资源分配，更新逻辑信道的变量值和状态，其中，逻辑信道的状态包括未分配资源逻辑信道、已分配资源逻辑信道和回收资源逻辑信道；回收满足条件的逻辑信道已分配的资源，更新所述L值、变量值和状态，其中变量值包括Xj、Bj和Rj，Xj值用来表示该逻辑信道的数据量，Bj值用来表示逻辑信道满足传输需求所需的数据量，Rj值用来表示在资源分配中该逻辑信道实际分得的资源大小；对已回收的资源根据所述逻辑信道的状态，制定再次分配的原则，进行资源再次分配。根据本发明实施例提出的一种LTE逻辑信道资源分配方法和装置可以解决现有技术存在的逻辑信道资源分配过程中可能造成的资源浪费现象。
+22. 105786741 一种SOC高速低功耗总线及转换方法
+CN
+20.07.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+102014000817064
+重庆重邮信科通信技术有限公司
+高峰
+G06F 13/40
+Loading...
+本发明提供一种SOC高速低功耗NOC总线，包括NOC写总线和NOC读总线，所述NOC写总线将写命令总线和写数据总线合并，使用写命令和写数据复用总线来传输命令与数据，并使用写命令有效信号、写命令握手信号、写数据有效信号、写数据握手信号四个信号来区分命令与数据；并提供一种AXI总线与NOC总线转换的方法；本发明在同等功耗以及同等面积的情况下，可以提升约25％的性能，有显著的工程实现价值。
+23. 103368716 一种物理下行控制信道的管理方法、监控方法和设备
+CN
+01.06.2016
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+201210090480.6
+重庆重邮信科通信技术有限公司
+宋松伟
+H04L 5/00
+Loading...
+本发明实施例公开了一种物理下行控制信道的管理方法、监控方法和设备，以物理下行控制信道的管理方法的实现为例包括：网络侧设备依据各用户设备的资源分配情况生成物理下行控制信道PDCCH；网络侧设备根据集合等级、单倍搜索空间容量下的物理下行控制信道PDCCH候选的数目、容量倍数以及偏移值计算出可使用公共搜索空间的PDCCH候选集；网络侧设备将与无线网络临时标识RNTI对应的PDCCH放置在从所述PDCCH候选集中选定的PDCCH中。采用本发明实施例扩展公共搜索空间的方案，可以增加PDCCH公共搜索空间容量，并且有效控制引入的时间与空间开销。
+24. 105631338 一种应用程序安全认证的方法及终端
+CN
+01.06.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201410609605.0
+重庆重邮信科通信技术有限公司
+董滔
+G06F 21/57
+Loading...
+本发明实施例公开了一种应用程序安全认证的方法及终端。本发明实施例方法包括：获取待安装应用程序所需要使用的目标系统权限；根据预置的系统权限与安全等级的对应关系，确定目标系统权限对应的安全等级；根据目标系统权限对应的安全等级，计算待安装应用程序的安全威胁分值；根据安全威胁分值确定待安装应用程序的安全威胁程度，在确定有安全威胁时，给出安全提示。本发明实施例让用户直观了解应用程序的潜在风险，以便用户决定是否安装该应用程序，降低了用户安装恶意应用程序的安全风险。
+25. 103369574 一种协议栈的异常检测方法和装置
+CN
+04.05.2016
+H04W 24/04 Loading...
+H04W 24/04
+Loading...
+201210090359.3
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 24/04
+Loading...
+本发明实施例公开了一种协议栈的异常检测方法和装置，其中方法的实现包括：确定协议栈中需要检测的模块，枚举需要检测的模块的状态，并遍历各需要检测的模块的状态组合，将状态组合中状态特性不匹配的状态组合列入异常状态组合表；在异常检测启动后，检测各需要检测的模块的状态信息，并将检测到的状态信息组合与异常状态组合表中的状态组合进行比对，若检测到的状态信息组合与异常状态组合表中的状态组合相同，则确定上述协议栈异常。以上方案针对性的检测各个模块之间的状态匹配问题，主动的确认其正确性，进而可以实现对于异常的及时捕捉和针对性的现场数据保存或者自恢复。
+26. 105447056 一种查找AT指令标识符的方法及通信设备
+CN
+30.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410508652.6
+重庆重邮信科通信技术有限公司
+周萌
+G06F 17/30
+Loading...
+本发明实施例公开了一种查找AT指令标识符的方法及通信设备。本发明实施例方法包括：第一通信设备接收第二通信设备发送的第一AT指令标识符；所述第一通信设备根据所述第一AT指令标识符，利用预置的AT指令标识符哈希表，查找与所述第一AT指令标识符相匹配的第二AT指令标识符，确定第一AT指令标识符的ID。本发明实施例可以以较少的运算量快速查找到与接收到的AT指令标识符相匹配的AT指令标识符的ID，缩短了AT指令响应时间。
+27. 205124006 一种小型化模测系统
+CN
+30.03.2016
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+201520849289.4
+中国移动通信集团设计院有限公司
+李晓良
+H04W 24/06
+Loading...
+本实用新型涉及无线通信技术领域，特别涉及一种小型化模测系统，用以解决现有技术在进行模拟测试时采用的模测系统的成本较高，并且模测系统的体积较大的问题。本实用新型实施例提供了一种小型化模测系统，包括中央控制台、模拟基站和测试终端；其中，中央控制台与模拟基站连接；中央控制台与测试终端连接。由于本实用新型实施例中的小型化模测系统，使用受控于中央控制台的模拟基站和测试终端，能够以更低的成本实现小型化模拟测试的目的，并且显著减小模测系统的体积，提高模测系统的便携性。
+28. 105335178 一种启动控制方法，及装置
+CN
+17.02.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410362766.4
+重庆重邮信科通信技术有限公司
+王筑
+G06F 9/445
+Loading...
+本发明实施例公开了一种启动控制方法，及装置，其中方法的实现包括：终端在接收到开机指令后，执行引导程序，然后接收模式选择指令；确定所述模式选择指令指定的启动模式，确定与所述启动模式对应的资源配置；所述资源配置定义了与所述启动模式相关联的服务以及应用配置；加载所述资源配置以及内核镜像文件，然后启动所述终端。在启动过程中指定模式选择指令，并按照模式选择指令指定的启动模式进行启动，启动模式则对应有资源配置，资源配置中则定义了与启动模式相关联的服务以及应用配置，这样不必要每次启动都启动所有的应用和服务，使启动项能够与当前需求进行匹配，从而加快启动速度减少启动时间，并且节省终端的资源。
+29. 105338598 一种功率校准方法及终端
+CN
+17.02.2016
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201410366678.1
+重庆重邮信科通信技术有限公司
+段红光
+H04W 52/02
+Loading...
+本发明实施例公开了一种功率校准方法及终端，本发明实施例方法包括：终端根据预先确定的第一数据块的发送功率P1，以及预置的终端发送功率与功率放大器PA的工作电压之间的对应关系，查询P1对应的PA的第一工作电压V1；采用P1以及第一工作电压V1在网络分配的无线信道上发送第一数据块；根据P1以及网络发送的数据块发射功率调整请求计算发送第二数据块所需的发送功率P2；根据上述对应关系查询P2对应的PA的第二工作电压V2；采用P2以及第二工作电压V2在网络分配的无线信道上发送第二数据块。本发明实施例在减小终端PA损耗的同时，实现条件要求低，实现方式简单有效。
+30. 105323395 一种回波消除器及回波消除方法
+CN
+10.02.2016
+H04M 9/08 Loading...
+H04M 9/08
+Loading...
+201410374414.0
+重庆重邮信科通信技术有限公司
+程雪峰
+H04M 9/08
+Loading...
+本发明实施例公开了一种回波消除器及回波消除方法，用于减少自适应滤波器的系数波动，提高收敛的速度和稳定性。本发明实施例方法包括：将扬声器的输出信号经回波路径后与近端话音信号进行叠加得到麦克风的拾取信号；将所述拾取信号输入第一加法器与所述输出信号进行叠加得到第一残留信号，将所述拾取信号输入第二加法器与所述输出信号进行叠加得到第二残留信号，将所述拾取信号输入第三加法器与所述输出信号进行叠加得到第三残留信号；通过判断模块在所述判断模块确定满足系数更新条件时，所述第一自适应滤波器AF0进行系数更新，所述第二自适应滤波器AF1将系数传递给所述非自适应滤波器F，以便所述非自适应滤波器F进行系数更新。
+31. 105281814 基本奇偶归并网格单元和幸存路径选取构建方法及装置
+CN
+27.01.2016
+H04B 7/04 Loading...
+H04B 7/04
+Loading...
+201410352388.1
+重庆重邮信科通信技术有限公司
+吴广富
+H04B 7/04
+Loading...
+本发明实施例公开了一种基本奇偶归并网格单元和幸存路径选取构建方法，用于实现对不是2整数次幂的输入路径的奇偶归并排序。本发明实施例方法包括：增加输入路径并标记所增加的输入路径的位置，以使所有输入路径的条数等于2的整数次幂；给增加的输入路径填充路径度量值；根据所有输入路径的度量值进行奇偶归并排序，得到排序后的输入路径；删除排序后的输入路径中带有标记的位置的输入路径，得到剩余输入路径；对所述剩余输入路径中残留路径进行链接，作为基本比较交换单元的输入。
+32. 103369562 一种基于多待机移动终端的小区测量系统及方法
+CN
+20.01.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210092862.2
+重庆重邮信科通信技术有限公司
+段红光
+H04W 24/02
+Loading...
+本发明实施例涉及通信技术领域，公开了一种基于多待机移动终端的小区测量系统及方法。该系统包括与N个SIM卡一一对应连接的N个高层协议栈处理模块，每个高层协议栈处理模块中均包括一个单待机测量管理单元。高层协议栈处理模块用于根据SIM卡的服务小区的系统消息生成小区列表；单待机测量管理单元用于获取上述小区列表中的服务小区及邻小区的有效的小区测量值，并将有效的小区测量值与其它的单待机测量管理单元共享。实施本发明实施例，可以避免多待机移动终端对同一小区进行多次重复测量，从而节省终端的电量消耗，提升待机时间和用户体验。本发明同时公开了一种基于多待机移动终端的小区测量方法及使用上述系统的多待机移动终端。
+33. 203942652 一种具备存储功能的MiFi
+CN
+12.11.2014
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+201320878582.4
+重庆重邮信科通信技术有限公司
+万兵
+H04W 88/08
+Loading...
+本实用新型实施例提供了一种具备存储功能的MiFi，包括管理控制模块，与所述管理控制模块连接的外部存储扩展接口、和无线连接模块、和存储模块；所述管理控制模块和所述存储模块通过所述外部存储扩展接口与外部存储设备连接；所述管理控制模块和所述存储模块通过所述无线连接模块与终端设备和云服务器连接，建立数据存储共享。MiFi通过外部存储扩展接口与外部存储设备连接，并通过无线连接模块与终端设备和云服务器连接，可以使多个终端用户共享外部存储设备上的数据，并通过MiFi与云服务器实现数据交换，达到数据的即时备份和下载。
+34. 103916197 Automatic-power-control word test method
+CN
+09.07.2014
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210592115.5
+重庆重邮信科通信技术有限公司
+曹湧
+H04W 24/02
+Loading...
+The invention discloses an automatic power control (APC) word test method which includes: establishing an initial APC control word table; using the initial APC control word table to test practical transmitting powers Pr of different power grades of UEs; obtaining deviations Delta P of the Pr of the different power grades and an expected transmitting power Pe; and if all of the Delta P are smaller than a coefficient adjustment threshold D_th, using the initial APC control word table as an APC control word table of the UEs. The test method is capable of reducing effectively the tested APC control word number of the UEs in a mass production process so that the efficiency is improved.
+35. 103914281 Mobile software system application request parallel processing method and system
+CN
+09.07.2014
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201210591976.1
+重庆重邮信科通信技术有限公司
+邓翔宇
+G06F 9/38
+Loading...
+An embodiment of the invention provides a mobile software system application request parallel processing method. The method includes the steps: virtualizing application processing requests transmitted by a framework layer and received by a plurality of application modules on an RIL (radio interface layer) according to baseband functions of a baseband processing subsystem CP (communication processor), transmitting the requests to corresponding application modules, and adding the requests to request queues of the application modules; packaging the request queues into user-defined AT instructions by the RIL, and transmitting the AT instructions to the CP; packaging processing result contents of the CP into user-defined AT instructions, and transmitting the user-defined AT instructions to the RIL; judging which application module the AT instructions belong to according to header bytes, and returning the processing result contents to the application module. The embodiment of the invention further provides a mobile software system application request parallel processing system. An AP (application processor) and the CP do not need additional CMUX processing modules, additional overhead cost is not increased, the same functions of CMUX protocols are finished, and product development and test period are decreased.
+36. 103916198 定时同步估计误差测试方法及系统
+CN
+09.07.2014
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201210592140.3
+重庆重邮信科通信技术有限公司
+卢立华
+H04W 24/00
+Loading...
+本发明公开了一种定时同步估计误差测试方法，包括：信号发生装置发送射频信号到终端射频系统，同时发送定时同步参考信号到终端基带系统；基带系统检测接收到定时同步参考信号的位置；计算定时同步估计误差。本发明还公开了一种定时同步估计误差测试系统，包括：信号发生装置，包括射频信号发生模块和定时同步参考信号发生模块；终端；包括射频系统和基带系统；定时同步参考信号发生模块与基带系统连接，发送定时同步参考信号到基带系统；射频信号发生模块和射频系统连接，发送射频信号到射频系统。本发明的技术方案能够定量获取定时同步估计误差，提高了对终端定时同步估计性能测试的准确性。
+37. 103634851 Obtaining method and apparatus for transport block size
+CN
+12.03.2014
+H04W 28/16 Loading...
+H04W 28/16
+Loading...
+201210307782.4
+重庆重邮信科通信技术有限公司
+梁小涛
+H04W 28/16
+Loading...
+The embodiment of the invention discloses an obtaining method and apparatus for a transport block size (TB Size). The method and the apparatus are used for lowering the cost or the power consumption cost for TB Size obtaining and are suitable for a mobile terminal and internet terminal equipment, wherein the mobile terminal and the internet terminal equipment are sensitive to the cost and the power consumption index. According to the embodiment of the invention, the obtaining method comprises the following steps that: all TB Sizes with unequal numerical values are extracted from a TB Size table; all the TB Sizes with unequal numerical values are stored into an internal memory or an external register; and a TB Size of a current frame is obtained according to control information and all the stored TB Sizes with unequal numerical values, wherein the control information includes resource distribution information, a modulation and coding scheme (MCS) index, a channel quality indicator (CQI) index, an orthogonal frequency division multiplexing (OFDM) symbolic number occupied by a physical downlink control channel (PDCCH).
+38. 103596269 Method and device for receiving paging messages by multimode dual-standby terminal
+CN
+19.02.2014
+H04W 68/00 Loading...
+H04W 68/00
+Loading...
+201210290518.4
+重庆重邮信科通信技术有限公司
+宋松伟
+H04W 68/00
+Loading...
+The embodiment of the invention relates to the technical field of mobile communication system, and discloses a method and a device for receiving paging messages by a multimode dual-standby terminal. The method comprises that the terminal interrupts main mode services to receive and process auxiliary mode paging messages when an auxiliary mode paging time slot exists in a main mode service period; and the main mode services are recovered when processing of the auxiliary mode paging messages is completed. Meanwhile, the invention discloses a device for receiving the paging messages by the multimode dual-standby terminal. The method and the device disclosed by the embodiment of the invention can solve problems that the success rate and the effectiveness of auxiliary mode paging message receiving are low and that the user experience is affected in the main mode service period.
+39. 103596229 Cell reselection method and mobile terminal
+CN
+19.02.2014
+H04W 36/08 Loading...
+H04W 36/08
+Loading...
+201210287200.0
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 36/08
+Loading...
+An embodiment of the invention relates to the technical field of communication and discloses a cell reselection method and a mobile terminal. The method comprises the following steps: when executing a reselection task with the purpose of residing to a second cell, the signal quality of which is better, a terminal does not leave a first cell resident at present and keeps measuring the first cell and monitoring a paging channel; the reselection task with the purpose of residing to the second cell is executed; and after the reselection task is executed, if the reselection task is executed successfully, the terminal resides to the second cell; and if the reselection task is executed unsuccessfully, the terminal restarts a conventional measurement task on the first cell and still resides in the first cell. The invention simultaneously discloses the mobile terminal. According to the cell reselection method and the mobile terminal, the terminal is capable of not leaving the cell resident at present and keeping monitoring the paging channel of the original cell when executing the reselection task of the better cell, so that paging missing is prevented, and when the reselection task is executed unsuccessfully, residence process do not need to be re-performed, and thus reselection delay is greatly reduced.
+40. 103582072 Method for improving Internet searching success rate and mobile terminal
+CN
+12.02.2014
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+201210269357.0
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 48/16
+Loading...
+The embodiment of the invention relates to the technical field of communication, and discloses a method for improving Internet searching success rate and a mobile terminal. The method comprises the steps that first, when the mobile terminal receives a request for carrying out a second protocol task in the process of carrying out a first protocol task, the priority of the first protocol task and the priority of the second protocol task are compared; second, the protocol task with the lower priority is suspended, and the protocol task with the higher priority is carried out; third, when the protocol task with the higher priority is finished carrying out, the protocol task with the higher priority is used again to obtain Internet searching information to respond the protocol task with the lower priority. According to the method, when the protocol tasks conflict, the Internet searching task with the lower priority can not be simply terminated, an execution result of the task with the higher priority can be used again, the time delay of Internet searching can be greatly shortened, and the Internet searching success rate is improved.
+41. 203243526 室内覆盖接入装置及室内覆盖系统
+CN
+16.10.2013
+H04W 16/20 Loading...
+H04W 16/20
+Loading...
+201220748301.9
+重庆重邮信科通信技术有限公司
+汪代云
+H04W 16/20
+Loading...
+本实用新型公开了一种室内覆盖接入装置及室内覆盖系统，包括：第一移频模块，通过第一收发开关接收第一射频收发单元的射频信号并进行变频，通过第二收发开关发送变频后的射频信号到合路器；通过第二收发开关接收合路器的射频信号并进行恢复变频，通过第一收发开关发送恢复变频后的射频信号到第一射频收发单元；第三收发开关，从第二射频收发单元接收射频信号发送到合路器；从合路器接收射频信号发送到第二射频收发单元；同步模块，接收下行射频信号，根据上下行切换时间点控制控制各收发开关的信号传输方向。本实用新型的装置及系统能在现有室内分布系统基础上实现LTE-TDD系统MIMO射频信号的室内覆盖。
+42. 203072172 一种基带信号处理装置
+CN
+17.07.2013
+H04W 72/04 Loading...
+H04W 72/04
+Loading...
+201220747432.5
+重庆重邮信科通信技术有限公司
+宋松伟
+H04W 72/04
+Loading...
+本实用新型公开了一种基带信号处理装置，包括：MCU子系统；主DSP子系统；至少一个辅DSP子系统；所述MCU子系统与所述主DSP子系统通过数据接口和控制接口连接；所述MCU子系统和各辅DSP子系统通过数据接口连接；所述主DSP子系统和各辅DSP子系统通过控制接口连接。本实用新型的基带信号处理装置能够实现移动终端对于多载波聚合基带信号的处理。
+43. 103188747 一种重选过程中寻呼处理方法及装置
+CN
+03.07.2013
+H04W 36/00 Loading...
+H04W 36/00
+Loading...
+201110459630.1
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 36/00
+Loading...
+本发明实施例涉及第三代移动通信技术，公开了一种重选过程中寻呼处理方法及装置，用于实现重选过程与寻呼处理过程完全兼容，同时保证在质量相对最好的小区上进行寻呼响应，以提高被叫成功率；本发明实施例方法包括：目标小区重选过程中，无线资源控制层RRC收到移动管理层MM发送的承载寻呼响应消息的接口信号后，延迟处理所述接口信号；目标小区重选结束后，RRC处理所述接口信号。
+44. 103186461 一种现场数据的保存方法和恢复方法以及相关装置
+CN
+03.07.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110455767.X
+重庆重邮信科通信技术有限公司
+陈俊华
+G06F 11/36
+Loading...
+本发明实施例公开了一种现场数据的保存方法和恢复方法以及相关装置，用于解决嵌入式设备出现异常后现场数据的恢复。本发明实施例方法包括：当嵌入式设备发生异常时，触发软中断；读取所述嵌入式设备发生异常时的现场数据，将所述现场数据保存到非易失性文件系统中，所述现场数据包括所述嵌入式设备的内存中的数据、中央处理单元CPU的通用寄存器以及协处理器的寄存器中的数据；将所述现场数据的信息写入异常数据描述文件中，将所述异常数据描述文件保存到所述非易失性文件系统中，所述现场数据的信息包括：所述现场数据的数据类型、所述现场数据对应地址空间的起始地址、所述现场数据的数据长度以及所述嵌入式设备发生异常的类型。
+45. 103188723 一种多模单待用户设备的测量调度方法和装置
+CN
+03.07.2013
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201110459750.1
+重庆重邮信科通信技术有限公司
+桂竟晶
+H04W 24/08
+Loading...
+本发明实施例公开了一种多模单待用户设备的测量调度方法，从网络获取测量信息，确定测量对象类别及类别优先级，划分测量时间段，根据优先级排序进行测量对象调度；还公开了一种多模单待用户设备的测量调度装置。本发明采用确定测量对象类别及类别优先级，并划分测量时间段，在测量时间段间动态调度测量对象，或者在测量时间段间静态调度测量对象；同时在测量时间段内调度测量对象，能够保证能够满足测量上报时间要求的情况下，尽可获得更多的测量样本点。特别是对于被划分为较高优先级的测量对象来说，提高测量的准确性和实时性，可以带来UE更好的移动性性能表现。
+46. 103188008 一种无线信道类型识别方法及装置
+CN
+03.07.2013
+H04B 7/08 Loading...
+H04B 7/08
+Loading...
+201110455615.X
+重庆重邮信科通信技术有限公司
+陈苗
+H04B 7/08
+Loading...
+本发明公开了一种无线信道类型识别方法，包括：分别计算各天线接收信号的时域信道冲激响应；根据各天线的时域信道冲激响应选取各天线的有效径；根据各天线有效径的位置和功率计算该天线信道均方时延扩展值和信道最大时延扩展值；根据各天线的信道均方时延扩展值和信道最大时延扩展值获得各天线识别的信道类型；根据各天线信号质量对各天线识别的信道类型进行加权合并，得到最终识别的信道类型。本发明还公开了一种无线信道类型识别装置，本发明的技术方案充分利用了信号的空分特性，在多天线系统中通过对各天线分别识别的无线信道类型进行合并处理有效的降低了信号时变特性和衰落对信道类型估计的影响，提高了信道类型识别的准确性。
+47. 103188803 一种默认配置参数的处理方法及装置
+CN
+03.07.2013
+H04W 72/04 Loading...
+H04W 72/04
+Loading...
+201110455670.9
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 72/04
+Loading...
+本发明实施例公开了一种默认配置参数的处理方法及装置，用于减少默认配置参数占用终端的内存空间。本发明实施例方法包括：解析默认配置参数得到结构体，所述默认配置参数携带有默认配置识别号；按照所述结构体将所述默认配置参数编码为数据流；根据所述默认配置识别号将所述数据流保存在终端本地的数组中。
+48. 103188703 幸存星座点选择方法和QRM-MLD信号检测方法
+CN
+03.07.2013
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110451960.6
+重庆重邮信科通信技术有限公司
+李玉闩
+H04W 24/00
+Loading...
+本发明涉及无线通信技术领域，提供一种幸存星座点选择方法，包括将nQAM调制星座图分为n个部分，每个部分包含1个星座点；根据在星座图中的位置，选择与属于同一个部分的星座点；根据和已经选择的上述星座点，选择另外log2n个距离最近的用于计算软比特测度的星座点；还提供一种QRM-MLD信号检测方法；本发明幸存星座点集合包括了所有用于软信息测度计算的星座点，保证了软信息计算精度；充分利用了星座图映射的特点，所选的用于软信息测度计算的星座点距离预检测结果较近，保证了这些必选星座点的有效性；基于检测后SNR准则自适应增加幸存星座点集合，取得了性能和复杂度的合理折中。
+49. 103188787 一种自动增益控制方法及装置
+CN
+03.07.2013
+H04W 52/52 Loading...
+H04W 52/52
+Loading...
+201110459722.X
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 52/52
+Loading...
+本发明实施例涉及移动通信技术领域，公开了一种自动增益控制方法及装置，用于在保证自动增益控制时效性和成本的基础上，提升自动增益控制的性能；本发明方法实施例包括：捕获系统配置信息及相应特征，依据所述系统配置信息及相应特征确定自动增益控制AGC控制的增益切换时刻；统计当前和下一增益切换时刻之间的符号级时频域测量信息，所述符号级时频域测量信息包括各符号中预设资源单元位置的频域功率Pw以及各符号的时域功率Psymbol，将所述符号级时频域测量信息与自适应增益控制目标值进行比较，获取对数域差异值；依据所述对数域差异值，在所述下一增益切换时刻完成自动增益控制的增益切换。
+50. 103188042 一种IP数据包的匹配方法和匹配加速器
+CN
+03.07.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201110459754.X
+重庆重邮信科通信技术有限公司
+佘广桥
+H04L 1/00
+Loading...
+本发明实施例公开了一种IP数据包的匹配方法和匹配加速器，用于提高IP数据包与分组过滤器的匹配效率。本发明实施例提供的方法中，第i个分组过滤器在匹配完第k个缓存块中保存的IP数据包的头部参数值之后，就可以再匹配第(k+1)个缓存块中保存的IP数据包的头部参数值，而不需要等到匹配模块中的m个分组过滤器都与第k个缓存块中保存的IP数据包匹配完之后再进行，也就是说，本发明实施例中，匹配模块中的各个分组过滤器对IP头部参数缓存器中各个缓存块中保存的IP数据包的匹配可以并行处理，能够提高IP数据包与分组过滤器的匹配效率。
+51. 103036829 一种最小移频键控调制系统同步方法及装置
+CN
+10.04.2013
+H04L 27/156 Loading...
+H04L 27/156
+Loading...
+201110295964.X
+重庆重邮信科通信技术有限公司
+吴广富
+H04L 27/156
+Loading...
+本发明涉及移动通信领域，特别涉及一种最小移频键控调制系统同步方法及装置，所述方法包括将接收的基带数据恢复为最小移频键控MSK映射前的数据Dmsk1或者MSK映射后的数据Dmsk2；将数据Dmsk1与经过双极性化后的训练序列进行滑动相关，或者将数据Dmsk2与经过双极性化和MSK映射后的训练序列进行滑动相关；当相关值大于判决门限时，完成同步过程，否则重复以上过程；本发明不但可以大幅提高低信噪比下同步成功率，而且过程中全部为纯实数操作，特别适合于数字信号处理或硬件加速器实现。
+52. 103036601 一种确定秩指示和预编码矩阵索引的方法和装置
+CN
+10.04.2013
+H04B 7/06 Loading...
+H04B 7/06
+Loading...
+201110298022.7
+重庆重邮信科通信技术有限公司
+梁小涛
+H04B 7/06
+Loading...
+本发明涉及移动通信领域，本发明公开了一种确定秩指示和预编码矩阵索引的方法，该方法包括：接收来自基站的小区公共参考信号；根据基站端配置的发送天线数获取可取值的秩指示RI和可取值的预编码矩阵索引PMI；根据所述可取值的RI、可取值的PMI和接收的小区公共参考信号重新构造小区公共参考信号；对所述构造的小区参考信号进行多输入多输出MIMO信号检测；根据所述MIMO信号检测结果确定RI和PMI；本发明还公开了一种确定秩指示和预编码矩阵索引的装置，该装置包括接收模块、获取模块、构造模块、检测模块和确定模块；通过本发明的方法和装置，可以准确地确定RI和PMI，同时，根据MIMO信号检测结果确定RI和PMI，克服了信道环境快速变化的影响。
+53. 103033741 一种具有扫描链测试功能的芯片及测试方法
+CN
+10.04.2013
+G01R 31/3185 Loading...
+G01R 31/3185
+Loading...
+201110295934.9
+重庆重邮信科通信技术有限公司
+邱远
+G01R 31/3185
+Loading...
+本发明公开了一种具有扫描链测试功能的芯片，包括多条扫描链、组合电路、测试模式及功能模块参数配置模块以及由多个触发器串接而成的参数锁存触发器链和参数设置控制模块，在参数设置控制模块的控制下将测试模式及功能模块参数控制字移入触发器链并锁存到各触发器的输出端为测试模式及功能模块参数配置模块提供控制值以配置测试模式及功能模块参数。本发明还公开了一种相应的测试方法，使用本发明的技术方案，能有效提高芯片组合电路测试覆盖率，减少芯片扫描测试时对引脚的占用。
+54. 103037475 一种频点盲扫方法和装置
+CN
+10.04.2013
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+201110296684.0
+重庆重邮信科通信技术有限公司
+陈恒毅
+H04W 48/16
+Loading...
+本发明涉及无线移动通信系统领域，提供一种频点盲扫方法，构造整个频带的信号功率谱，以预定步长和预定窗对信号功率谱进行扫描，对预定窗内功率值求和得到宽带功率数组，搜索宽带功率数组获得中心频点位置；还提供一种频点盲扫装置，包括全频带信号功率谱构造模块、宽带功率计算模块和中心频点搜索模块；本发明主要通过利用接收的少量时域数据通过快速傅里叶变换构造全频段功率谱，仅需在构造的功率谱中搜索对应频点宽带功率最大值就可确定中心频点位置，与现有技术相比，本发明仅需通过有限的几帧便可构造出全频段功率谱，大大减少了搜帧时间，从而达到快速频点盲扫的目的。
+55. 103036623 一种移动终端功率控制测试校准方法及移动终端
+CN
+10.04.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201110296669.6
+重庆重邮信科通信技术有限公司
+曹湧
+H04W 24/02
+Loading...
+本发明公开了一种移动终端功率控制测试校准方法，包括，在信令模式下测试设备控制UE以不同的功率控制等级发送信号，测试设备对UE的实际发射功率进行测试并将测试结果发送给上位机，上位机获取UE各功率控制等级的实际发射功率，判断UE实际发射功率是否满足要求，如果满足要求，完成功率控制测试校准；否则根据各功率控制等级实际发射功率与该功率控制等级期望发射功率的偏差修正各功率控制等级的功率控制系数，将修正后的功率控制系数发送给UE；UE更新功率控制系数表后再次进行测试校准，直到实际发射功率满足要求。本发明还公开了一种与该测试校准方法相适应的移动终端。本发明的技术方案可以有效的提高功率控制测试校准的准确率以及测试校准的效率。
+56. 103037434 一种小区全局标识号上报方法及装置
+CN
+10.04.2013
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201110303633.6
+重庆重邮信科通信技术有限公司
+黄宗治
+H04W 24/10
+Loading...
+本发明实施例公开了一种小区全局标识号上报方法以及相关装置，用于高效的进行小区全局标识的上报。本发明实施例方法包括：若确定上报给所述基站的物理小区标识号PCI中包含有未知PCI，则触发目标PCI对应邻小区的小区全局标识号CGI标识，并向所述基站上报所述CGI标识的结果；所述目标PCI为上报给所述基站的PCI中的未知PCI。
+57. 103036820 一种基于参考信号的多小区信道估计方法和装置
+CN
+10.04.2013
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110295516.X
+重庆重邮信科通信技术有限公司
+陈苗
+H04L 25/02
+Loading...
+本发明实施例公开了一种基于参考信号的多小区信道估计方法和装置，用于在构建本地参考信号时引入对不同小区定时时延差值的相位补偿处理，再进行信道估计，提高了信道估计的性能。本发明实施例方法包括：估计干扰小区与本小区之间的定时时延差值，获取定时时延差值；生成各小区的本地参考信号，并利用定时时延差值对本地参考信号进行相位补偿；利用相位补偿后的本地参考信号进行多小区联合信道估计，获取本小区和干扰小区参考信号位置上的信道响应值。
+58. 103034581 一种嵌入式系统跟踪调试方法及装置
+CN
+10.04.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110300526.8
+重庆重邮信科通信技术有限公司
+周勃
+G06F 11/36
+Loading...
+本发明公开了一种嵌入式系统跟踪调试方法，在任务调用跟踪模块开始跟踪后，在跟踪信息缓存区为调用跟踪模块的任务分配特定的信息存储区；跟踪模块获取该任务的跟踪信息数据，组装跟踪信息，将跟踪信息写入该信息存储区；跟踪信息发送模块读取缓存的跟踪信息，发送到分析设备进行跟踪信息分析。本发明还公开了一种与该方法相适应的嵌入式系统跟踪调试装置，本发明的技术方案可有效的避免嵌入式系统跟踪调试中出现跟踪信息缓存冲突的问题。
+59. 103034480 一种嵌入式系统定时器实现方法
+CN
+10.04.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110300773.8
+重庆重邮信科通信技术有限公司
+周勃
+G06F 9/44
+Loading...
+本发明公开了一种嵌入式系统定时器实现方法，在系统中设置一个主定时器及一个辅定时器；将主定时器作为系统的基准定时器；主定时器超时时，修改剩余超时时间长度不小于主定时器最小时间片的软件定时器剩余超时时间长度，如果有软件定时器剩余超时时间长度小于主定时器最小时间片，启动辅定时器为该软件定时器提供硬件定时；辅定时器超时时，修改剩余超时时间长度小于主定时器最小时间片的软件定时器剩余超时时间长度；如果还有其他软件定时器剩余超时时间长度小于主定时器最小时间片，修改辅定时器定时长度，否则关闭辅定时器。本发明的技术方案能有效的减少系统的无效中断次数，提高系统效率。
+60. 103036833 一种OFDM 系统定时同步控制方法及装置
+CN
+10.04.2013
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110300529.1
+重庆重邮信科通信技术有限公司
+谭舒
+H04L 27/26
+Loading...
+本发明涉及移动通信系统，提供一种OFDM系统定时同步控制方法，所述方法获取信道估计器在典型信道环境及服务质量中对定时同步误差的敏感度，获取特定同步控制方法在典型信道环境及服务质量下的定时同步控制能力统计；结合信道估计器定时同步误差敏感度与定时同步控制能力统计，识别出信道估计器在典型信道环境及服务质量下的定时同步需求；依据定时同步需求，实施定时同步控制；还提供一种定时同步控制装置；本发明显著降低对精确同步误差估计的依赖，实现定时同步控制与信道估计器的较佳契合，以远低于现有方案的工程代价实现接收机均衡的有效运作。
+61. 103037404 一种路测设备小区强制切换方法
+CN
+10.04.2013
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110301611.6
+重庆重邮信科通信技术有限公司
+薛宝
+H04W 24/00
+Loading...
+本发明涉及一种路测设备小区强制切换方法，包括：接收强制切换命令；当目标小区不属于当前服务小区的邻区时，触发当前服务小区的无线链路异常流程；搜索目标小区并在目标小区进行小区更新后重建业务；通过本发明提供的一种路测设备小区切换方法，通过无线链路重建的方法在连接模式下切换到非邻区的目标小区，可以满足在移动通信网络建设和优化中路测设备切换到所有目标小区进行测试的需求。
+62. 103037326 长短信处理方法及装置
+CN
+10.04.2013
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201110295979.6
+重庆重邮信科通信技术有限公司
+周东兴
+H04W 4/14
+Loading...
+本发明公开了一种长短信处理方法和装置，涉及移动通信领域，该方法包括：接收并存储短信包；提取所述短信包的索引信息，并将所述索引信息添加到索引列表；当满足生成索引数组的条件时，根据所述索引列表生成索引数组；从所述索引数组中提取显示信息并显示短信信息给用户；所述装置包括：短信接收模块、索引列表生成模块、索引数组生成模块和显示模块；采用本发明，可以根据每个长短信分包的索引信息完成长短信的处理并显示给用户，不需要开辟额外的空间，并且由于长短信的重组只用短信包的索引信息去完成，在此之前已将短信包存储在存储介质中，有效防止了突然掉电引起的短信数据丢失问题。
+63. 103034561 通用串行总线的命令传输方法及相关装置
+CN
+10.04.2013
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110296481.1
+重庆重邮信科通信技术有限公司
+曹湧
+G06F 11/14
+Loading...
+本发明实施例公开了一种通用串行总线的命令传输方法及相关装置，用于在下位机未执行完成上位机命令而断电的情况下，仍旧能够在下次上电后继续执行未完成操作。本发明实施例方法包括：上位机向第一下位机发送第一命令包；每隔预置时长读取所述第一下位机的命令交互区，若所述读取失败，则生成并存储操作中断日志，所述操作中断日志包括：所述第一下位机的身份标识和所述第一命令包的标识；若检测到有第二下位机接入，则识别所述第二下位机的身份标识，若存有所述第二下位机的身份标识对应的操作中断日志，则触发所述第二下位机继续执行所述第二下位机对应的操作中断日志中标记的第二命令包的操作。
+64. 103019300 一种时钟控制和复位控制的方法和装置
+CN
+03.04.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201110300866.0
+重庆重邮信科通信技术有限公司
+唐新东
+G06F 1/04
+Loading...
+本发明实施例公开了一种时钟控制和复位控制的方法和装置，其中方法包括：确认当前模块是否至少有时钟信号的控制或者复位信号的控制中的一种，若有，则根据时钟控制和复位控制的对应关系进行编号，将编号得到的标识序号加入标识表中；根据标识序号与时钟控制和复位控制的对应关系，选择有效控制位或保留位设计时钟控制寄存器以及复位控制寄存器。可以降低软件复杂度和代码量，提高可维护性；同时，提高时钟和复位控制执行的效率。
+65. 202818629 一种实现多模多待单卡的装置及终端
+CN
+20.03.2013
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201220048817.2
+重庆重邮信科通信技术有限公司
+段红光
+H04W 88/06
+Loading...
+本实用新型涉及移动通信技术领域，提供了一种实现多模多待单卡的装置及终端，以用于只采用一张USIM卡，实现多模多待，减少资源浪费。本实用新型提供的一种实现多模多待单卡的装置包括，第一基带平台(10)和第二基带平台(20)和应用平台(30)，其中，第一基带平台(10)，包括第一处理模块(11)、第一全球用户识别卡USIM卡管理模块(12)、第一接口模块(13)和第一存储模块(14)；第二基带平台(20)，包括第二处理模块(21)、第二USIM卡管理模块(22)、第二接口模块(23)和第二存储模块(24)；应用平台(30)，包括控制模块(35)和第三存储模块(34)。
+66. 102968286 一种数据传输跟踪方法、装置和系统
+CN
+13.03.2013
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201110256361.9
+重庆重邮信科通信技术有限公司
+杨德勇
+G06F 3/14
+Loading...
+本发明涉及数据传输跟踪领域，公开了一种数据传输跟踪方法、装置和系统，所述方法包括：CPU设置数据传输跟踪时采用的数据包格式并将待跟踪的字符串信息存储于可执行文件中；根据所述设置的数据包格式构造数据包并发送，显示装置接收数据包，根据所述设置的数据包格式解析数据包，得到数据包类型和字符串偏移地址；根据所述数据包类型和所述字符串偏移地址，从可执行文件中查找字符串信息并根据所述字符串信息显示数据信息，本发明公开的数据传输跟踪方法，可以通过提取数据包携带的信息并查找得到可执行文件中的字符串信息，根据字符串信息转换并显示数据信息，通过传输较少的信息，跟踪得到便于阅读的数据信息。
+67. 102958148 一种用户设备发射功率控制方法及装置
+CN
+06.03.2013
+H04W 52/14 Loading...
+H04W 52/14
+Loading...
+201110249196.4
+重庆重邮信科通信技术有限公司
+梁小涛
+H04W 52/14
+Loading...
+本发明公开了一种用户设备发射功率控制方法及装置。包括：UE接收来自基站的下行信道信号，并对接收到的下行信道信号进行解析；根据解析后的下行信道信号生成上行信道信号，并计算上行发射功率；按照下行信道信号、上行发射功率、上行信道数据信号和DMRS生成过程中的功率增量，分别确定上行信道数据信号和DMRS的功率校准值；依据上行信道数据信号的功率校准值、DMRS的功率校准值、预置的硬件功控参数和基带处理特性参数，先在基带处理流程中分别进行上行信道数据信号的功率校准和DMRS的功率校准，再在硬件功控流程中统一进行上行信道数据信号的功率校准和DMRS的功率校准。本发明能够精确的对UE的发射功率进行控制。
+68. 102857449 Parallel co-frequency interference elimination method and device
+CN
+02.01.2013
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110182419.X
+重庆重邮信科通信技术有限公司
+刘润江
+H04L 25/02
+Loading...
+The invention discloses a parallel co-frequency interference elimination method and a device. The method includes parellelly subjecting all cells to single cell channel estimation; using a tap with the maximum power in taps for reference, setting a threshold, and selecting effective signal paths; subjecting the effective signal paths of the cells to signal reconstruction; using input signals minus signals which are obtained by signal reconstruction of the cells as channel estimation input signals and respectively subjecting all the cells to single cell channel estimation; repeating the steps until preset iteration stopping criterions are satisfied; respectively accumulating signals which are obtained by a plurality of times of signal reconstruction of the cells so as to obtain accumulated results of reconstruction signals of the cells; and respectively subjecting the cells to single cell channel estimation according to the accumulated results of the reconstruction signals of the cells. According to the parallel co-frequency interference elimination method and the device, problems that error signals are selected for iteration recovery due to the fact that high interference paths are used as the signal paths for recovery, and the effective signal paths are lost or more interferences are introduced due to inaccurate threshold arrangement are effectively solved.
+69. 102857461 Noise power estimating method and device
+CN
+02.01.2013
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110182448.6
+重庆重邮信科通信技术有限公司
+谭舒
+H04L 27/26
+Loading...
+The invention relates to the field of mobile communication systems and particularly provides a noise power estimating method. The noise power estimating method includes receiving a target physical channel, analyzing and reconstructing similar reference signal information, and determining a noise power rough estimation value by means of the similar reference signal information; searching and identifying vacant resource units in transmission bandwidth by means of combination of the noise power rough estimation value and auxiliary information which contains reference signal receiving power, similar reference signal power or determined resource distribution information; and determining a noise power fine estimation value by means of the vacant resource units. The invention further provides a noise power estimating device which comprises a similar reference signal generator, a noise power rough estimator, a vacant resource unit searcher and a noise power fine estimator. According to the noise power estimating method and the noise power estimating device, accurate noise power estimation can be achieved when signal qualities are located at the sensitivity position of a terminal receiver and in complicated channel environments.
+70. 202502157 一种电阻式参数和设备电压测量装置
+CN
+24.10.2012
+G01R 27/08 Loading...
+G01R 27/08
+Loading...
+201120568989.8
+重庆重邮信科通信技术有限公司
+卢嘉江
+G01R 27/08
+Loading...
+本实用新型公开了一种电阻式参数和设备电压测量装置，包括：电阻R0，其第一连接端连接到所述设备电压输出端；电阻R，其第一连接端连接到R0的第二连接端；模数转换单元ADC1，其输入端耦接到R的第一连接端；n个电阻式器件，各电阻式器件的第一连接端耦接到R的第二连接端，第二连接端耦接到地；控制单元，与各电阻式器件的第一连接端连接；在处理器的控制下分别接通或断开各电阻式器件的第一连接端与R第二连接端的耦接；处理器，与ADC1的输出端连接，从ADC1获得数字信号并计算相应参数；与控制单元连接；本实用新型的技术方案能够实现利用一个单通道ADC或一个AD通道测量多个电阻式参数及设备电压的功能，减少了设备硬件成本。
+71. 202425053 一种移动终端服务小区重选参数计算装置及移动终端
+CN
+05.09.2012
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201120548825.9
+重庆重邮信科通信技术有限公司
+段红光
+H04W 24/00
+Loading...
+本实用新型公开了一种移动终端服务小区重选参数计算装置，包括参数存储单元，保存服务小区重选参数计算参数；GPS模块，测量UE移动速度；比较单元，根据UE移动速度判断UE移动情况；Rs计算单元，根据UE移动情况选取相关参数计算Rs。本实用新型还公开了一种相应的移动终端，包括基带模块、射频模块及所述服务小区重选参数计算装置；本实用新型的技术方案能够提高Rs计算准确性，从而提高UE小区重选判断的准确性。
+72. 102573041 Timing synchronization-holding method of high speed packet access+ (HSPA+) system
+CN
+11.07.2012
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201010621606.9
+重庆重邮信科通信技术有限公司
+王清
+H04W 56/00
+Loading...
+The invention relates to a timing synchronization-holding method of a high speed packet access+ (HSPA+) system. The method comprises the following steps: extracting midamble data of a high speed-shared control channel (HS-SCCH) or/and a high-speed physical downlink shared channel (HS-PDSCH) and calculating timing synchronization deviant if HS-SCCH is firstly detected; extracting midamble data of an enhanced dedicated channel absolute grant channel (E-AGCH) or/and an enhanced dedicated channel hybrid automatic requestor acknowledgement indicator channel (E-HICH) and calculating timing synchronization deviant if E-AGCH is firstly detected; extracting the midamble data of one of the E-HICH and E-AGCH and calculating timing synchronization deviant if HS-SCCH and E-AGCH are simultaneously detected; and switching to main frequency, extracting midamble data or downlink pilot time slot (DwPTS) data of a primary common control physical channel (PCCPCH) channel and calculating timing synchronization deviant if neither HS-SCCH nor E-AGCH is detected. According to the method, all available downlink channels are used to obtain timing synchronization deviant to ensure real timing of downlink channel information and reference quantity of samples.
+73. 102567162 DSP (Digital Signal Processor) core-based physical layer system verification device and method
+CN
+11.07.2012
+G06F 11/26 Loading...
+G06F 11/26
+Loading...
+201010621603.5
+重庆重邮信科通信技术有限公司
+张旭峰
+G06F 11/26
+Loading...
+The invention relates to a verification technology of a wireless communication system, in particular to a DSP (Digital Signal Processor) core-based physical layer system verification device and method. The DSP core-based physical layer system verification device comprises a DSP flexible core, a hardware accelerator module, a radio frequency simulation module, a command analysis module, a testing example library and an output database. The invention also provides a corresponding testing method. The invention is suitable for function tests such as a physical layer system module, a link and a radio frequency drive, primitive interaction and data transmission and receiving are carried out with a DSP physical layer through simulating high layer and radio frequency and the like, so that a physical layer system code passing through verification of the scheme of the invention can be rapidly transplanted to an FPGA (Field Programmable Gate Array) or an actual chip environment, and the development period of the whole chip system is greatly shortened. Meanwhile, the DSP core-based physical layer system verification device is designed and operated in a flexible simulation environment without additional hardware testing equipment, thus the increase of hardware overhead is not involved.
+74. 102567254 采用DMA控制器进行数据归一化处理的方法
+CN
+11.07.2012
+G06F 13/28 Loading...
+G06F 13/28
+Loading...
+201010621595.4
+重庆重邮信科通信技术有限公司
+胡均浩
+G06F 13/28
+Loading...
+本发明提出一种采用DMA控制器进行数据归一化处理的方法，包括算术运算处理步骤和搬数归一化处理步骤，所述搬数归一化处理步骤根据算术运算处理输出的归一化移位因子，配置DMA控制器中归一化变位比特寄存器的值，同时配置DMA搬数控制寄存器；DMA控制器通过读数控制，从数据源存储器中读出原始位宽数据，存入DMA内部缓存寄存器中；根据归一化变位比特寄存器的值，进行数据归一化处理，得到变位后位宽数据；将变位后位宽数据送入目的地址存储；若搬数完毕，则发出DMA搬数中断信号，否则，重复以上过程；本发明使整个算术处理过程可完全流水操作，减少了时间开销，并可以在没有带来更多额外开销的情况下，提高硬件运算处理效率。
+75. 102542306 Method for accessing user identification card file by using mobile terminal application sub system
+CN
+04.07.2012
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201010621598.8
+重庆重邮信科通信技术有限公司
+赖翔
+G06K 17/00
+Loading...
+The invention relates to the field of mobile communication, in particular to a method for accessing user identification U/SIM (User/Subscriber Identity Module) card file by using a mobile terminal application sub system. According to the invention, a user-defined AT instruction, which comprises at least two parameters of a file association identifier and a file access type, is provided to an application sub system by using a baseband sub system; the application sub system is used for searching or revising file information of the baseband sub system stored in a data BUFFER through value combination of the parameters in the user-defined AT instruction and is used for accessing the information in the data BUFFER of the baseband sub system by using the user-defined AT instruction; therefore, the problem that abnormity occurs in the follow-up processing because the file information in the data BUFFER of the baseband sub system is not consistent with file information content in the U/SIM card file system is effectively avoided.
+76. 102540868 一种移动通信终端慢时钟晶体频率补偿方法及装置
+CN
+04.07.2012
+G04G 7/00 Loading...
+G04G 7/00
+Loading...
+201010621613.9
+重庆重邮信科通信技术有限公司
+唐博
+G04G 7/00
+Loading...
+本发明涉及一种移动通信终端慢时钟晶体频率补偿方法及装置，所述方法进入空闲模式，判断进入空闲模式的前一模式，若前一模式为正常工作模式，则获取校准参数，计算慢时钟晶体频率；若前一模式为睡眠模式，则首先获取同步偏差，然后判断同步偏差是否在设定的门限值内，若是，则补偿慢时钟晶体频率，否则进行慢时钟晶体频率强制校准；所述装置包括强制校准单元、同步偏差单元、修正校准单元和省电控制单元；本发明在不增加电路复杂度和终端硬件成本的条件下，保证了睡眠定时精确以及唤醒后系统不失步，并且也保证了最小限度的启动时钟校准单元，使得移动通信终端在空闲模式下睡眠时间最大化，降低了移动通信终端功耗。
+77. 102469060 一种OFDM系统同步估计方法
+CN
+23.05.2012
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110182462.6
+重庆重邮信科通信技术有限公司
+沈静
+H04L 27/26
+Loading...
+本发明涉及无线通信系统领域，特别提供一种OFDM系统同步估计方法，根据收到特定信道的译码正确的比特序列重构发送的频域数据，与接收的频域数据相关获得频域信道响应，根据频域信道响应计算时间和/或频率同步估计值，所述的特定信道为在本次更新周期内传输的比特序列不发生变化，并且终端确知下次更新周期到来时刻的信道；本发明还提供一种OFDM系统同步估计装置；本发明将信息未发生变化的重构生成的发送的频域数据存储在终端中，仅实时估计同步估计值，降低了实时运算的复杂度和计算时延，并能够在OFDM系统中获得更加精准的同步估计值，提高同步的准确性，提高终端的接入可靠性以及接收数据的性能。
+78. 102469049 移动终端射频控制方法及装置
+CN
+23.05.2012
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110182470.0
+重庆重邮信科通信技术有限公司
+唐平
+H04L 25/02
+Loading...
+本发明公开了一种移动终端射频控制装置及方法，包括，射频控制单元、基带数据收发单元、省电控制单元、定时计数单元、省电数据单元、省电控制单元、时钟控制单元、控制字选择单元，本发明的装置使用单独的省电控制单元和省电数据单元来发送省电状态控制字，解决了现有技术采用完全定时控制的方法带来的基带芯片进入省电与射频器件的打开和关闭不同步的问题，从而有效的降低了系统功耗，提高了射频控制的准确性；此外，本发明还公开了一种与所述装置相适应的射频控制方法。
+79. 102469050 长期演进系统中基于终端专用参考信号的信道估计方法
+CN
+23.05.2012
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110182504.6
+重庆重邮信科通信技术有限公司
+陈路
+H04L 25/02
+Loading...
+本发明涉及信道估计方法，尤其涉及长期演进系统中基于终端专用参考信号的信道估计方法；本发明公开了一种长期演进LTE系统中基于终端专用参考信号的信道估计方法，该方法包括：根据资源块用户分配情况，对于已分配的资源块，利用所述资源块上携带的终端专用参考信号UE-specific RS，对所述参考信号处的子载波进行信道估计；对于未分配的资源块，利用所述参考信号处的子载波的信道估计值，对所述未分配的资源块的参考信号信道估计值进行填充处理；利用处理后的全带宽上参考信号子载波上的信道估计值，对数据子载波进行信道估计。采用本发明，实现了与小区专用参考信号一致的信道估计处理流程，减少了后续处理和控制的复杂度。
+80. 102447606 一种数据传输流量控制方法及装置
+CN
+09.05.2012
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010500165.7
+重庆重邮信科通信技术有限公司
+唐燕华
+H04L 12/56
+Loading...
+本发明公开了一种数据传输流量控制方法，在数据电路终端设备DCE中设置一个数据缓存BUFFER，保存经数据处理模块处理后需要发送到网络端的数据；数据传输时，DCE对数据BUFFER中的数据量进行监控，并根据监控结果进行流量控制；本发明还公开了一种数据传输流量控制装置，包括接口模块、数据BUFFER及数据监控模块；本发明的技术方案使得流量控制能更准确的反映出DCE中所缓存的发送数据量的状况，提高了数据传输过程中流量控制的准确性，使得DTE与网络之间的数据传输速率更加稳定，同时减少了DCE中的缓存数量，降低了成本。
+81. 102448161 TD-SCDMA系统定时同步保持方法
+CN
+09.05.2012
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201010500228.9
+重庆重邮信科通信技术有限公司
+王清
+H04W 56/00
+Loading...
+本发明涉及第三代移动通信技术，特别涉及一种时分同步码分多址TD-SCDMA系统定时同步保持方法，包括获取信道冲激响应步骤、计算码片级同步偏移步骤、计算码片级以下同步偏移步骤和根据同步偏移量调整采样时钟进行同步调整步骤，在获取信道冲激响应步骤之后，还包括选取占优窗的步骤：当存在比目标窗的功率更强的窗时，该窗被视为占优窗，否则仍将目标窗视为占优窗；本发明中采用占优窗而不是高层信令下发的配置窗，避免了下行样本配置窗无数据下发导致依据常规方法获取的同步偏移值不可靠，采用基于信道质量的下行样本信息的有效性判决，利用峰均比判断下行同步采用的下行样本信息的有效性，提高了下行同步估计算法的有效性和可靠性。
+82. 102448155 一种控制信息传输方法
+CN
+09.05.2012
+H04W 52/12 Loading...
+H04W 52/12
+Loading...
+201010500145.X
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 52/12
+Loading...
+本发明公开了一种控制信息传输方法，终端利用上行信道业务突发中的SS符号反馈上行同步偏移调整参数到网络端，网络端解析SS符号中的参数以获知UE是否正确接收到网络端发送的同步偏移调整控制信息。本发明的另一种技术方案是，终端利用上行信道业务突发中的SS符号重复发送所述SS符号所在时隙及物理信道TPC符号中填充的功率辐射调整控制信息，网络端对TPC及SS符号进行接收合并。本发明的技术方案充分利用了上行信道的SS符号来进行控制信息的传输，避免了物理资源的浪费，同时，有效提升控制信息传输可靠性的。
+83. 102447521 一种解速率匹配方法及装置
+CN
+09.05.2012
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010500202.4
+重庆重邮信科通信技术有限公司
+徐翼
+H04L 1/00
+Loading...
+本发明提供一种第三代移动通信长期演进系统解速率匹配方法及装置，所述方法首先判断是否进行重传合并，若是则将上一次解交织的数据写入存储器3再进行解重复解打孔，否则直接对接收数据进行解重复解打孔，其次分别对解比特收集分出的三路数据进行解交织，若进行重传合并操作，则将存储器3中的数据读出与本次解交织的数据进行合并，并再次写入存储器3，否则将本次解交织的数据写入存储器3中；并提供了相应装置；本发明中将单独分配用于存储解重复解打孔数据的存储器删除，并将重传合并延后进行，使得存储器3共用，从而节省了一块存储器，减少了硬件资源；并进而每次能同时计算P_NUM个地址，处理效率提高了P_NUM倍。
+84. 102448051 一种移动终端能力上报方法
+CN
+09.05.2012
+H04W 8/24 Loading...
+H04W 8/24
+Loading...
+201010500135.6
+重庆重邮信科通信技术有限公司
+段红光
+H04W 8/24
+Loading...
+本发明公开了一种移动终端能力上报方法，移动终端UE在选择小区驻留并完成注册过程后，发起一个UE能力上报业务过程，以业务数据的形式上报UE的应用特性参数。本发明的技术方案在不修改现有空中接口规范、不增加额外的信令资源占用的前提下，实现了UE应用特性的灵活上报，同时，由于本发明的移动终端能力上报方法是通过业务数据来上报终端应用特性，因此可以有效的实现大量的数据上报，可以很方便的实现移动终端能力上报范围的扩展，有效的提高了网络端对支持不同版本特性移动终端的兼容性。
+85. 102446084 一种定时信息写读控制方法及装置
+CN
+09.05.2012
+G06F 5/06 Loading...
+G06F 5/06
+Loading...
+201010500223.6
+重庆重邮信科通信技术有限公司
+唐平
+G06F 5/06
+Loading...
+本发明涉及通信领域，特别是涉及一种定时信息写读控制方法及装置，所述方法在写入数据之前，先对待写入时间FIFO中的数据按由小到大的顺序排序，待写入数据FIFO中的数据也作相应顺序变换，时间值小的先写入；或者，在写入数据后，实时修改写地址指针寄存器WADDR；所述装置的FIFO具有读地址指针寄存器和写地址指针寄存器，用于修改数据FIFO和时间FIFO的读写地址，其中时间FIFO和数据FIFO共用这2个寄存器；本发明能够完成在定时精度下定时信息写读控制的任务，并能够根据FIFO的执行情况，修改FIFO的读写指针，实现FIFO数据的跳转控制；并进一步支持立即发送数据的操作，满足更高的实时性要求。
+86. 102445953 一种嵌入式设备时钟源的调整方法
+CN
+09.05.2012
+G06F 1/08 Loading...
+G06F 1/08
+Loading...
+201010500155.3
+重庆重邮信科通信技术有限公司
+牟伦荣
+G06F 1/08
+Loading...
+本发明公开了一种嵌入式设备时钟源的调整方法，设备实时获取各模块所需要的时钟频率；如果有模块所需要的时钟频率发生变化时，设备根据各模块所需的时钟频率重新配置所有模块的时钟源；设备根据重新配置的时钟源对应的电压等级对设备电压进行调整。本发明的技术方案在模块时钟频率需求发生变化时，根据时钟频率需求对整个设备的时钟源进行重新调整，使设备在满足工作需求的前提下，尽量处于较小的工作频率或尽量保证时钟源开启数量最少，从而大大降低嵌入式设备的动态功耗，延长了设备的使用时间。
+87. 102448181 TDD-LTE系统竞争解决随机接入方法
+CN
+09.05.2012
+H04W 74/08 Loading...
+H04W 74/08
+Loading...
+201010500189.2
+重庆重邮信科通信技术有限公司
+何海
+H04W 74/08
+Loading...
+本发明涉及无线通信领域，特别涉及一种TDD-LTE系统竞争解决随机接入方法，物理层收到RAR后直接进行判定，而不用与协议栈间再进行数据传递，物理层与协议栈间的交互次数也因此得到减少，降低了随机接入的处理时延，协议栈和物理层在其中交替扮演主控和辅助的角色，降低了双方的耦合度与复杂度，利于开发和维护。
+88. 102448098 基于ARM和DSP多核结构的物理层测试系统及方法
+CN
+09.05.2012
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201010500207.7
+重庆重邮信科通信技术有限公司
+李强
+H04W 24/08
+Loading...
+本发明涉及无线通信系统测试技术，特别涉及基于ARM和DSP多核结构的物理层测试系统及方法，所述系统包括控制设备、信号源、矢量信号分析仪和被测试终端，所述方法包括多个步骤；本发明在没有上层协议代码的情况下，实现对无线通信领域物理层代码的单独测试，缩短了开发测试时间，降低了测试成本，并方便快捷地实现物理层代码的自动化测试。
+89. 102377474 一种移动终端多普勒频移调整方法及装置
+CN
+14.03.2012
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+201010253197.1
+重庆重邮信科通信技术有限公司
+段红光
+H04B 7/26
+Loading...
+本发明公开了一种移动终端多普勒频移调整的方法，UE利用信标信道出现的实际时刻与预先计算得到的该信标信道应出现的理论时刻之间的差值计算由于UE移动所造成的多普勒频移，并根据计算出的多普勒频移调整UE的工作载频。本发明还公开了一种多普勒频移调整装置，包括，信标信道检测模块、定时计算模块、定时偏差计算模块、多普勒频移计算模块及载频调整模块。本发明的技术方案利用预先获得的信标信道应出现时间与实际出现的时间之差来计算由于UE移动造成的多普勒频移，有效的降低了多普勒频移计算过程的复杂度，简化了UE多普勒频移调整的实现方案，提高了系统效率。
+90. 102346669 一种基于元数据的移动终端安全中间件系统及方法
+CN
+08.02.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201110281538.0
+重庆邮电大学
+刘宴兵
+G06F 9/44
+Loading...
+本发明公开了一种基于元数据的移动终端安全中间件系统，涉及通信技术领域。该系统包括角色层、安全资源管理层和基础资源层，采用元数据驱动形式进行管理，降低了模块间的耦合性，角色层提供用户和开发者两种角色，安全资源管理层由应用程序编程接口、消息引擎、服务控制中心、服务信息中心、开发工具模块组成，基础资源层提供应用服务运行环境和安全服务具体实现，包括资源提供层和资源接口层模块。终端用户按需订购安全服务或者发布安全服务需求，开发者针对用户需求调用现有的服务或开发的新型安全服务并部署到平台，因此终端安全服务开发过程具有良好的扩展性、高效性和共享性。
+91. 102340807 一种网络监控方法
+CN
+01.02.2012
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201010234748.X
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 24/02
+Loading...
+本发明公开了一种网络监控方法，监控终端在触发网络监控时，首先针对记录的历史频点进行小区搜索，如果针对历史频点的小区搜索成功，测量所选择小区的信标信道并上报测量结果，更新历史频点；否则，进行全频段搜网，获得候选频点列表，并顺序对候选频点实施小区搜索，如果小区搜索成功，测量工作小区的信标信道，上报测量结果到后台管理中心，更新历史频点，否则监控终端上报告警信息到后台管理中心；后台管理中心根据监控终端上报的信息触发相应维护工作。本发明的技术方案可在绝大部分时候实现无需全频段搜网而完成网络监控，从而在保证网络监控实时性的前提下有效的降低了监控终端的功耗。
+92. 102314208 一种动态调整嵌入式设备频率电压的方法及装置
+CN
+11.01.2012
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201010213569.8
+重庆重邮信科通信技术有限公司
+牟伦荣
+G06F 1/26
+Loading...
+本发明公开了一种动态调整嵌入式设备频率电压的方法，设备实时获取各模块的时钟频率需求，在模块时钟频率需求发生变化时通过调整模块所属时钟域的主时钟信号和各模块的时钟控制器为各模块提供所需的时钟频率。本发明还公开了一种相应的动态调整嵌入式设备频率电压的装置。本发明的技术方案实现了对设备各模块频率的及时精确调整，在降低嵌入式设备的动态功耗的同时提高了设备频率和电压调整的及时性和精确度。
+93. 102316504 一种移动通信系统协议栈模拟器
+CN
+11.01.2012
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+201010213577.2
+重庆重邮信科通信技术有限公司
+李梁
+H04W 24/06
+Loading...
+本发明公开了一种移动通信系统协议栈模拟器，包括通信适配单元，依据与MMI之间的通信方式提供相应的通信适配功能；应用适配单元，提供移动通信系统协议栈应用适配层功能；非接入层模拟单元，提供移动通信系统协议栈非接入层功能；控制界面单元，提供与用户的交互界面，从非接入层模拟单元接收请求消息，显示请求消息的内容，提供网络信息设置及与网络交互业务的操作控制，发送操作产生的响应消息及指示消息到非接入层模拟单元。本发明的技术方案为MMI开发及调试提供了完整的协议栈功能模拟，同时降低了开发复杂度。
+94. 102316476 一种移动终端睡眠唤醒时异频小区测量方法
+CN
+11.01.2012
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201010213567.9
+重庆重邮信科通信技术有限公司
+朱传新
+H04W 24/00
+Loading...
+本发明提出了一种移动终端在睡眠唤醒时进行异频测量的方法，对每个异频点测量子帧，UE在接收到TS0时隙数据域1的前n个chip后，计算所接收到的n个chip的平均功率，将其作为该异频点的接收信号强度指示RSSI；利用计算获得的RSSI及预期的该频点目标RSSI值RSSITarget计算自动增益控制AGC的增益调整量Δagc；根据Δagc调整所述异频点的自动增益控制AGC；使用调整后的AGC进行所述异频点各小区测量。本发明的技术方案利用新获得的数据对该异频点的AGC增益进行实时调整，有效的降低了UE在睡眠唤醒时的接收各异频点数据时的AGC增益有效性风险，提高了异频点测量精度。
+95. 102316573 一种监控类信道发射功率通知方法及AGC设置方法
+CN
+11.01.2012
+H04W 52/52 Loading...
+H04W 52/52
+Loading...
+201010213589.5
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 52/52
+Loading...
+本发明提供了一种监控类信道发射功率通知方法及AGC设置方法，网络端利用无线控制资源消息预先将各监控类信道初始发射功率的设置规则及参数通知UE，UE通过接收到的设置规则及参数获得确知的监控类信道接收功率强度，并据此进行监控类信道接收AGC设置，避免了UE在设置AGC时的盲目性，提高了AGC设置的准确率，从而避免了由于AGC设置不准确带来的UE在接收监控类信道时漏检、错检率过高的问题，有效的提高了监控类信道的接收成功率。
+96. 102315896 一种监控类信道接收方法
+CN
+11.01.2012
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010213580.4
+重庆重邮信科通信技术有限公司
+谭舒
+H04L 1/00
+Loading...
+本发明公开了一种监控类信道接收方法，UE依据高层指示，在确知位置实时检测监控类信道，直至循环冗余校验正确；UE解析目标监控类信道所携带的信息，并根据解析出的信息判断目标监控类信道的有效性；如果目标监控类信道有效，UE根据目标监控类信道所携带的信息进行后续操作；否则UE继续实时检测监控类信道。本发明的技术方案中UE在检测到CRC校验正确的监控类信道信息后，根据监控类信道所携带的信息的内容对该监控类信道信息的正确性进行进一步的判断，有效的降低了监控类信道虚警率，提高了UE接收监控类信道的正确性，从而提高了UE后续操作的正确率。
+97. 102316574 一种多模终端系统时钟定时方法及装置
+CN
+11.01.2012
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201010213597.X
+重庆重邮信科通信技术有限公司
+王茜
+H04W 56/00
+Loading...
+本发明涉及移动通信领域，特别提供一种多模终端系统时钟定时方法及装置，所述方法首先确定TD系统、LTE系统定时精度、确定系统参考定时时钟及参考计数长度、设计参考定时时钟下的计数器、然后获取多模系统各系统的定时偏差，最后进行TD系统、LTE系统同步调整；所述装置包括参考时钟计数器、定时偏差获取单元和同步调整单元；本发明在多模终端内的两个系统利用同一参考时钟以及一个计数器，而不是对各个系统采用独立计数器计数，减小了一个计数器，节省了硬件开销，而且TD和LTE系统间的定时关系可以实时进行计算而不必采用额外的硬件电路，节省了系统资源开销。
+98. 102316516 一种LTE上行数据传输结构构建方法
+CN
+11.01.2012
+H04W 28/06 Loading...
+H04W 28/06
+Loading...
+201010213596.5
+重庆重邮信科通信技术有限公司
+李树春
+H04W 28/06
+Loading...
+本发明涉及移动通信领域，提供了一种LTE上行数据传输结构构建方法，在分组数据汇聚协议层增加PDCP？SDU缓存，用于存储从高层传送过来的还未转化为PDCP？PDU的PDCP？SDU？IP包指针；在无线链路控制层，删除RLC？SDU缓存，只保留RLC？PDU缓存，RLC？PDU缓存存储的是待确认的RLC？PDU，而组装成RLC？PDU的数据从PDCP？PDU缓存中取得；本发明提供了LTE上行数据高速高效传输切实可行的实现方案，极大地减少了内存的使用，缩短了数据处理的时间，明显提高数据传输的速率。
+99. 102281614 Sleep wakeup processing method for UE
+CN
+14.12.2011
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201010198484.7
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 52/02
+Loading...
+The present invention provides a sleep wakeup processing method for a UE. The UE in an idle mode reads system information, obtains the position of each subframe bearing a certain type of a system information block, and compares the position with the position of the subframe where a PICH is located, when the distance between the subframe bearing the certain type of the system information block and the subframe where the PICH is located is within a specific scope, a symbol standard mapping position corresponding to a specific physical channel bearing the certain type of system information block of the subframe is obtained by reconstruction, a frequency calibration based on the standard symbol information reconstruction is balancedly outputted by utilizing the symbol stand mapping position and the combined detection of the target code track of a TSO time slot, thus realizing the synchronous frequency recovery. The method carries out synchronous frequency recovery for sleep wakeup by utilizing known system information, and the synchronous recovery performance for sleep wakeup of the UE is improved without increasing power consumption of the UE obviously.
+100. 102281116 Method and device for generating GOLD sequence
+CN
+14.12.2011
+H04J 13/10 Loading...
+H04J 13/10
+Loading...
+201010198475.8
+Chongqing CYIT Communication Technologies Co.,Ltd.
+Zhu Zhihui
+H04J 13/10
+Loading...
+The invention discloses a method for generating a GOLD sequence. The method comprises the following steps of: respectively storing 31 initial bit values of a sequence x1 and a sequence x2 by using two 31-level feedback shift registers; carrying out parallel computation on 31 bits in the sequence x1 in the feedback shift register at a time to obtain 28 follow-up bits of the sequence x1, and carrying out parallel computation on 31 bits of the sequence x2 in the feedback shift register to obtain 28 follow-up bits of the sequence x2; when the acquired length of the sequence x1 and the acquired length of the sequence x2 are more than or equal to NC bit, carrying out parallel xor on the sequence x1 with the digits not less than NC and the sequence x2 with the same digits with the sequence x1, which are stored in the shift registers, to generate corresponding c(n); and respectively storing the acquired high 31bits of the sequence x1 and the sequence x2 to the feedback shift register in sequence. Meanwhile, the invention also discloses a device for generating the GOLD sequence. According to the method and device for generating the GOLD sequence disclosed by the invention, the sequence x1, the sequence x2 and the sequence c(n) are subjected to 28-path parallel computation, and 28 GOLD sequence bits can be generated by one-step computation, therefore the time consumption in computing the GOLD sequence is reduced, and the computation speed of the GOLD sequence is improved.
+101. 102281596 Method and device for setting QoS parameters of concurrent services, and corresponding mobile terminal
+CN
+14.12.2011
+H04W 28/22 Loading...
+H04W 28/22
+Loading...
+201010198489.X
+重庆重邮信科通信技术有限公司
+王琼
+H04W 28/22
+Loading...
+The invention discloses a method for setting QoS (Quality of Service) parameters of concurrent services, comprising the following steps that: an uplink/downlink peak rate, which is supportable to a MT (Mobile Terminal) in a current wireless access technology mode, and the QoS parameters of all activated services are stored in the MT; when the MT receives that a TE or an AP (Access Point) initiates a new service, firstly, the MT performs new service QoS parameter negotiation; if the negotiation is successful, the MT initiates a building process of the new service; otherwise, the MT denies the building of the new service; after the new service is successfully built, the MT takes the new service as the activated service, and updates the stored QoS parameters of the activated services. The invention further discloses a device for setting the QoS parameters of the concurrent services, and a corresponding mobile terminal. The technical scheme of the invention effectively avoids the situation of waste of terminal resources and meaningless signalling interaction of the MT with the TE and a network caused by blind initiation of service building flows when capability of the MT is not enough.
+102. WO/2011/150577 MEASURING AND SCHEDULING METHOD, DEVICE AND TERMINAL FOR INTER-FREQUENCY AND INTER-SYSTEM IN LONG TERM EVOLUTION (LTE) CONNECTION MODE
+WO
+08.12.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+PCT/CN2010/074043
+CHONGQING CYIT COMMUNICATION TECHNOLOGIES CO., LTD
+GUI, Jingjing
+H04W 24/10
+Loading...
+A measuring and scheduling method, device and terminal for inter-frequency and inter-system in the LTE connection mode. The method includes the following steps: obtaining the valid cell list to be measured; counting the repeating times of measurement periods of each frequency point, first arraging the measurement periods with the least repeating times in the current measurement GAP, recording the measurement periods of the other frequency points repeated with this measurement period as unable to be arranged in the current measurement GAP, eliminating the repeated information of the other measurement periods of the frequency point in which the measurement period located, and recording all the measurement periods of the frequency point as having been arranged; making the remaining valid measurement periods as the objects, repeating the process, if the number of the valid measurement periods is 0, and the number of the unarraged measurement periods is not 0, then continuing the arrangement in the next measurement GAP, until all the measurement periods are arranged. The invention also provides a measuring and scheduling device and terminal. The invention increases the real-time property and the efficiency of the system measurement, and increases the measurement efficiency.
+103. 102271384 Primary cell searching method for long term evolution (LTE) system
+CN
+07.12.2011
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+201010500089.X
+Chongqing CYIT Communication Technologies Co., Ltd.
+Liao Tunan
+H04W 48/16
+Loading...
+The invention discloses a primary cell searching method for a long term evolution (LTE) system. The method comprises that: user equipment (UE) generates local primary synchronous signals and local secondary synchronous signals corresponding to each frequency point according to frequency point information stored in a BA table; for each frequency point, the UE receives data and calculates correlation power values between the local primary synchronous signal of the frequency point and the received data and between the local secondary synchronous signal of the frequency point and the received data; the UE performs subsequent timing rough synchronization, timing precise synchronization, frequency rough synchronization, wireless frame synchronization, frequency precise synchronization and cell broadcast message reading processes according to an order from greater correlation power values to lower correlation power values corresponding to each frequency point; and if a cell broadcast message is accurately read on a selected frequency point, the UE selects a cell of the frequency point for residence. By the technical scheme provided by the invention, the blindness of frequency point selection from the BA table in a primary cell searching process is reduced, and the times for reading the cell broadcast message on a wrong frequency point by the UE can be effectively reduced, thereby shortening primary cell searching time and improving primary cell searching efficiency.
+104. 102271023 Method and device for detecting system frame number of long term evolution (LTE) system
+CN
+07.12.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010500196.2
+Chongqing CYIT Communication Technologies Co., Ltd.
+Huang Zongzhi
+H04L 1/00
+Loading...
+The invention relates to the field of wireless communication, and in particular relates to a method and device for detecting a system frame number of a long-term evolution (LTE) system. The method comprises the following steps of: equally dividing a scrambling sequence C of a TTI (transmission time interval) into four sections by using the self-decoding characteristic of PBCH (physical broadcast channel) data of a wireless frame, respectively descrambling with the PBCH data generated in the first step, after matching a descrambling rate, selecting whether to adopt a merge algorithm or not according to a condition, and then carrying out channel decoding and CRC (cyclic redundancy check), judging whether to continuously receive the data of a next wireless frame or not according to a CRC result, and determining the system frame number according to the adopted scrambling sequence. The device comprises a receiving module (10), a signal processing module (20) and an adjudicating module (30). The invention can improve the efficiency of a terminal in the blind check of the PBCH, decreases power consumption, and determines the system frame number as quickly as possible, so as to be convenient to the read of a subsequent system message.
+105. 102271424 AFC (Automatic Frequency Control) device and method for multimode wireless terminal
+CN
+07.12.2011
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201010621549.4
+Chongqing CYIT Communication Technologies Co., Ltd.
+Lin Feng
+H04W 88/06
+Loading...
+The invention provides an AFC (Automatic Frequency Control) device for a multimode wireless terminal. The device comprises an AFC_REG (Automatic Frequency Control Register), a D/A (digital to analog) module and an analog switch S1, wherein the AFC_REG is connected with a baseband module of each mode of a baseband chip of the wireless terminal through the analog switch S1 and is used for receiving an AFC voltage value from the baseband chip and storing the AFC voltage value; the D/A module is connected with the AFC_REG and is used for generating an offsetting voltage according to the AFC voltage value in the AFC_REG and outputting the offsetting voltage to a crystal oscillator; and the analog switch S1 is connected with the baseband chip and the AFC_REG and is used for selecting one baseband module of the baseband chip to switch on the AFC_REG. Meanwhile, the invention further provides a method for the AFC device to carry out AFC. With the adoption of the AFC device and the AFC method provided by the invention, the problems of frequency jittering and inaccurate clock frequency when the multimode wireless terminal is subjected to mode switching can be effectively avoided.
+106. 102271015 Blind terminal frequency point searching method and device of LTE (long term evolution) system
+CN
+07.12.2011
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+201010192251.6
+重庆重邮信科通信技术有限公司
+陈茜茜
+H04B 7/26
+Loading...
+The invention provides a blind terminal frequency point searching method and device of an LTE (long term evolution) system, which belong to the field of mobile communication. The method adopts a three-step searching method. The fine control with a gradually decreased step size narrows a frequency band searching range gradually; the position repeatability and the frequency point continuity ensure an actual system frequency to be gradually approached; and a real local main synchronous signal and a synchronous position are also obtained while the relevant detection is carried out by using a local main synchronous signal to find out a correct frequency point. The invention further discloses a blind terminal frequency point searching device of the LTE system. Compared with the prior art, the invention can effectively resist the influences of noises and multipath; the probability of finding out the correct frequency point from candidate frequency points is increased by over 30%; the blind frequency point searching time is shortened by over 35%; and the performance of blind frequency point searching is improved greatly.
+107. 102271034 Long term evolution (LTE) uplink hybrid automatic repeat request (HARQ) control method
+CN
+07.12.2011
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+201010621539.0
+Chongqing CYIT Communication Technologies Co., Ltd.
+Li Lin
+H04L 1/18
+Loading...
+The invention discloses a long term evolution (LTE) uplink hybrid automatic repeat request (HARQ) control method, which comprises the following steps of: acquiring mapping relationships between HARQ queues used for uplink HARQ transmission and subsequently possible physical hybrid ARQ indicator channel (PHICH) sub-frames for the HARQ queues according to time sequence relationships in an HARQ transmission process by using user equipment (UE); when the UE detects 0-format downlink control information (DCI0), computing sub-frame numbers of the PHICH sub-frames corresponding to the same HARQ queue before the DCI0 according to J; finding a corresponding HARQ queue by utilizing the mapping relationships; and performing uplink HARQ transmission according to the received DCI0 and the DCI0 information stored in the HARQ queue, and updating parameters in the HARQ queue. By the technical scheme, the UE still can finish repeating the uplink HARQ transmission after the misunderstanding of PHICK negative acknowledgement (NACK) as PHICH ACK in an uplink HARQ transmission process to avoid the failure of an HARQ transmission mechanism.
+108. 102271416 Method and device for generating random access limit set leader sequences in LTE (Long Term Evolution) system
+CN
+07.12.2011
+H04W 74/08 Loading...
+H04W 74/08
+Loading...
+201010621543.7
+Chongqing CYIT Communication Technologies Co., Ltd.
+Huang Zongzhi
+H04W 74/08
+Loading...
+The invention discloses a method for generating random access limit set leader sequences in an LTE (Long Term Evolution) system. The method comprises the following steps: a physical layer establishes a mapping relation table 1 between an index and corresponding Ns and a mapping relation table 2 between the index and corresponding dus under different configurations of an NCSconfig and stores the table 1 and the table 2 in a memory device; the physical layer receives leader sequence generating parameters dispatched by an upper level; an NCS is obtained according to the NCSconfig, leader code formats and set type parameters and index= indexinit is set; if a limit set is adopted, an N and a du which correspond to the index are found out from the table 1 and the table 2; a Cv and a u are calculated according to the N and the du; and a final random access leader sequence (xu, v(n)) is generated according to the Cv and the u. The invention further discloses a device which is adaptable to the method. With the adoption of the method and the device disclosed by the invention, the time for generating the random access leader sequences can be effectively reduced, thus the efficiency of the system is increased.
+109. 102271419 LTE终端非接入层ESM和EMM模块间交互操作方法
+CN
+07.12.2011
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+201010192399.X
+重庆重邮信科通信技术有限公司
+周巧成
+H04W 76/02
+Loading...
+本发明涉及移动通信长期演进LTE领域，提供一种LTE终端非接入层ESM和EMM模块间交互操作方法，增强移动管理EMM模块发起连接请求到增强会话管理ESM模块，要求ESM模块发起PDN连接过程；ESM模块收到连接请求后，向EMM模块发送PDN连接请求；EMM模块收到来自ESM模块的连接请求后，发送EPS附着请求ATTACH？REQUEST，开始EPS附着过程；本发明通过由EMM模块来触发ESM模块发起PDN连接请求，提供了一种EMM模块和ESM模块间切实可行的交互操作流程，避免了资源浪费，并且LTE终端在开机过程和出现异常时EMM模块和ESM模块间交互流程统一，便于工程实现。
+110. 102271101 HSUPA系统E-HICH SIR估计方法及装置
+CN
+07.12.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010192243.1
+重庆重邮信科通信技术有限公司
+陈鑫
+H04L 25/02
+Loading...
+本发明属于移动通信领域，提供一种HSUPA系统E-HICH？SIR估计方法及装置，所述方法在接收端将解扰码之后的软信息序列以及双极性C80矩阵行作变换后进行内积运算得到相关扫描结果，通过相关扫描结果获取编码向量识别门限，进而得到发送编码向量集以及重构的第一象限发送星座图，最后利用解扰码之后的软信息序列以及重构的第一象限发送星座图获得信干比估计结果；本发明还提供一种HSUPA系统E-HICH？SIR估计装置；本发明不需要网络端额外发送功率偏置信息且利用接收到的信息直接计算信干比，信令开销小且实时性强，且能够解决由于调制星座图混叠，造成信干比无法估计的问题。
+111. 102271358 LTE连接模式下异频异系统测量调度方法、装置及终端
+CN
+07.12.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201010192369.9
+重庆重邮信科通信技术有限公司
+桂竟晶
+H04W 24/10
+Loading...
+本发明涉及通信测量调度领域，提供一种LTE连接模式下异频异系统测量调度方法、装置及终端，所述方法包括获取有效待测小区列表；计算各个频点测量时段重复次数，首先将重复次数最少的测量时段安排在当前测量GAP，将和该测量时段重复的其他频点测量时段标记为不可安排在当前测量GAP，将该测量时段所在频点其他测量时段重复信息删除，同时把该频点的所有测量时段标记为已安排；将剩余有效测量时段作为对象，重复本过程，若有效测量时段数量为0，而未安排测量时段数量不为0，则在下一个测量GAP继续安排，直到所有测量时段被安排完；本发明还提供一种测量调度装置及终端；本发明提高了系统测量实时性和有效性，提高了测量效率。
+112. 102209370 Method for initiating circuit switch (CS) domain voice call by LTE (long term evolution) multimode terminal under LTE access mode
+CN
+05.10.2011
+H04W 48/20 Loading...
+H04W 48/20
+Loading...
+201010136821.X
+重庆重邮信科通信技术有限公司
+段红光
+H04W 48/20
+Loading...
+The invention provides a method for initiating a circuit switch (CS) domain voice call by an LTE (long term evolution) multimode terminal under an LTE access mode, and the method comprises: the terminal forcibly initiates cell reselection onto a GERAN (GSM EDGE radio access network) or UTRAN (UMTS terrestrial radio access network) cell when initiating the CS domain voice call; the terminal initiates a location area upgrading process on the reselected cell; and the terminal initiates a normal CS domain voice call building process on the reselected cell. In the technical scheme, the cell reselection is forcibly carried out when the terminal initiates the CS domain voice call, and the normal CS domain voice call building process is initiated when being reselected onto the GERAN or UTRAN cell, so that the whole calling flow is simplified, the signaling interaction between the terminal and a network is reduced, only one location area upgrading process is between the terminal and the network even if an ISR (interrupt service routine) is not supported when the terminal is in the registering process of an LTE access technology mode, the interaction of core networks of the LTE and the GERAN/UTRAN is also decreased.
+113. 102209402 Interface of radio frequency chip and base band chip of multi-mode terminal
+CN
+05.10.2011
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201010136842.1
+重庆重邮信科通信技术有限公司
+张国会
+H04W 88/06
+Loading...
+The invention discloses an interface of a radio frequency chip and a base band chip of a multi-mode terminal. The interface comprises a bidirectional data interface, a clock interface and a control interface, wherein the bidirectional data interface is used for transmitting data between the multi-mode radio frequency chip and the multi-mode base band chip; the clock interface is used for transmitting a clock signal between the multi-mode radio frequency chip and the multi-mode base band chip; and the control interface is used for transmitting control information from the multi-mode base band chip to the multi-mode radio frequency chip and reading a state signal and measurement information from the multi-mode radio frequency chip. According to the interface disclosed by the invention, the number of interface signal lines is reduced, and the communication between the multi-mode radio frequency chip and the multi-mode base band chip can be finished by using the same interface in different network modes by transmitting a control signal through the control interface. Meanwhile, the number of chip pins to be occupied by the interface is reduced, the cost and the design complexity of the base band chip and the radio frequency chip are reduced, the designed area and wiring complexity of a PCB (Printed Circuit Board) are reduced, and the miniaturization of a multi-mode terminal is more facilitated.
+114. 102208935 Repeater of time division duplex system
+CN
+05.10.2011
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+201010136824.3
+Chongqing CYIT Communication Technologies Co.,Ltd.
+Tan Shu
+H04B 7/14
+Loading...
+The invention discloses a repeater of a time division duplex system. The repeater comprises two directional transceiver antenna units which are the directional transceiver antenna units 1 and 2, two synchronous monitoring units, a channel selection control unit, a wireless communication unit, a donor unit and a forwarding unit, wherein the two directional transceiver antenna units 1 and 2 cover 1/2 of an effective transceiver space range respectively; the two synchronous monitoring units monitor candidate cells received by the two directional transceiver antenna units respectively; the channel selection control unit controls the repeater to select an optimal channel for signal transmission and reception; the wireless communication unit provides a monitored neighbor cell list for the synchronous monitoring units by the channel selection control unit; the donor unit selects the directional transceiver antenna unit corresponding to the optimal channel to receive a downlink signal from a serving base station according to the control of the channel selection control unit, relays and amplifies the downlink signal, transmits the processed downlink signal to a terminal, the wireless communication unit and the forwarding unit, relays and amplifies uplink signals from the terminal and the wireless communication unit, and transmits the processed uplink signals to a donor serving base station. The repeater provided by the invention can remarkably control Doppler frequency shift and hopping problems, and effectively ensure reliable signal relaying.
+115. 202004969 TD-SCDMA直放站同步控制能力测试系统
+CN
+05.10.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201020651623.2
+重庆重邮信科通信技术有限公司
+毛艺丞
+H04W 24/00
+Loading...
+本实用新型提供了一种TD-SCDMA直放站同步控制能力测试系统，包括：TD-SCDMA信号发生装置，与合路器及同步信号检测装置连接，产生TD-SCDMA测试信号，发送到合路器，产生同步触发信号发送给同步信号检测装置；CW信号发生器，与合路器连接，产生规定频点的模拟噪声信号发送到合路器；合路器，将来自所述TD-SCDMA信号发生装置的TD-SCDMA测试信号和所述CW信号发生器的模拟噪声信号进行合路加噪，发送合路后的信号到待测直放站模块；同步信号检测装置，从所述TD-SCDMA信号发生装置接收同步触发信号作为参考的基准信号，从所述待测直放站接收帧同步信号及同步使能信号并显示。本实用新型的测试系统可以实现对单独的直放站无线同步模块同步控制能力进行测试，同时降低了系统成本。
+116. 102200565 Chip testing device
+CN
+28.09.2011
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201010129632.X
+重庆重邮信科通信技术有限公司
+邱远
+G01R 31/28
+Loading...
+The invention provides a chip testing device, belonging to the chip testing field. The chip testing device comprises a comparer and N IP (Internet Protocol) cores, a testing input signal is connected to the N IP cores simultaneously; all the testing outputs of IP_M which is one of the N IP core are output directly outside a chip for testing; all the testing outputs of the other IP cores and the IP_M are connected with the comparer for comparing; and the comparison results of the comparer are output outside the chip for testing. Compared with the prior art, the chip testing device can be used for testing whether the chip has defects or not under the condition of not increasing or increasing few testing multiplexing pins, thereby not only shortening required test time, but also reducing the multiplexing quantity of pins of the chip, greatly improving testing efficiency and saving testing cost.
+117. 102202367 Method for switching non-access stratum of multi-mode terminal
+CN
+28.09.2011
+H04W 36/14 Loading...
+H04W 36/14
+Loading...
+201010129637.2
+重庆重邮信科通信技术有限公司
+段红光
+H04W 36/14
+Loading...
+The invention provides a method for switching a non-access stratum of a multi-mode terminal, comprising the following steps of: in the process of switching the non-access stratum, by utilizing the characteristic of a mobile management module stored with packet data protocol context (PDP Context)/default enhanced packet service bearer context (EPS Bearer Context) identifications, after the mobile management module receives switch instruction of an access stratum, respectively informing different session management (SM)/ESM (Enhanced Session Management) examples corresponding to a PDP Context and an EPS Bearer Context according to a network service access point identification (NSA PI)/special EPS Bearer identification (EBI); and establishing ESM/SM examples by respective SM/ESM examples so that non-access switch operation of different systems is completed. Based on the traditional network architecture, the invention further provides an achievable method for switching the non-access stratum of the multi-mode terminal. The overhead cost is saved.
+118. 102202335 Device and method for automatically testing calling service of terminal
+CN
+28.09.2011
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201010129621.1
+重庆重邮信科通信技术有限公司
+马丽
+H04W 24/08
+Loading...
+The invention provides a device for automatically testing the calling service of a terminal. The device comprises an input engine, a communication module, a regulator and an analyzer, wherein the input engine is used for receiving an operation command of a user, resolving the configuration parameters of the users, constructing a test example according to the configuration parameters and building a calling flow process; the communication module is used for realizing communication driving of a whole system, classifying message values of the input engine and a tested system into an input value and a feedback value and respectively transmitting the input value and the feedback value to the regulator and the analyzer; the regulator is used for receiving the input value transmitted by the communication module and automatically regulating a prediction state set by taking the input value as a state trigger condition; and the analyzer is used for analyzing and comparing the prediction state set with an actual state set and outputting an analysis result. The invention also provides a method for automatically testing the calling service of the terminal. Compared with the prior art, dynamic regulation on the prediction state set is realized, automatic analysis on a test result is realized, and manual intervention is not completely required, so the test cost is saved, and the test efficiency is improved.
+119. 102196519 Method for triggering cell reselection/switching by mobile terminal
+CN
+21.09.2011
+H04W 36/08 Loading...
+H04W 36/08
+Loading...
+201010500170.8
+Chongqing CYIT Communication Technologies Co., Ltd.
+Tan Shu
+H04W 36/08
+Loading...
+The invention discloses a method for triggering cell reselection/switching by a mobile terminal. The method comprises the following steps: UE monitors a neighbor cell and a target cell after the neighbor cell satisfying a reselection/switching triggering condition is detected; within a triggering time, the UE respectively monitors the target cell and a service cell by using a relative signal quality index measured value and an absolute signal quality index measured value as cell signal quality values; the UE exits the cell reselection or switching triggering process if the target cell does not satisfy the reselection or switching triggering condition within the triggering time; and otherwise, the UE triggers a reselection or switching triggering event while the triggering time is satisfied. In a technical scheme of the invention, the reselection/switching triggering condition is judged within the triggering time by using the relative signal quality index measured value aiming at the service cell and the reselection/switching target cell, thereby reducing the dependence of the reselection/switching event triggering on the unreliable absolute signal quality index and improving the triggering accuracy of the reselection/switching event.
+120. 102195582 AGC (automatic gain control) method and device
+CN
+21.09.2011
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+201010621564.9
+Chongqing CYIT Communication Technologies Co., Ltd.
+Tan Shu
+H03G 3/20
+Loading...
+The invention discloses an AGC (automatic gain control) method which comprises the following steps: an AGC control device generates AGC command words to carry out analogue gain control, wherein the AGC control device is provided with the data number N of digital AGC gain control objects for this time; the data section which has the preset starting point and length is selected from the digital AGC gain control objects after being converted through an ADC (analog-to-digital converter); the signal amplitude bit width of the data section is obtained and the effective bit width is output according to the signal amplitude bit width and the digital gain control to determine the digital gain; and the digital gain control is carried out on the AGC gain control objects this time according to the digital gain. Simultaneously, the invention also discloses a device which is adaptive to the method disclosed by the invention. In the technical scheme adopted by the invention, the influence of AGC gain control errors on the quality of digital signals is effectively reduced; the digital gain control accuracy is improved; the possibility for reducing the input bit width requirements of a baseband subsystem is further provided.
+121. 102196486 Reference signal received power measurement method and device for orthogonal frequency-division multiplexing system
+CN
+21.09.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010621593.5
+Chongqing CYIT Communication Technologies Co., Ltd.
+Chen Miao
+H04L 25/02
+Loading...
+The invention relates to the field of mobile communication, and provides a reference signal received power measurement method for an orthogonal frequency-division multiplexing system. The method comprises the following steps of: performing channel estimation on a received reference signal; in a measurement bandwidth range, performing inverse discrete Fourier transformation (IDFT) on a reference signal channel estimation result on a single orthogonal frequency-division multiplexing (OFDM) symbol to obtain a channel impulse response (CIR) value; performing noise elimination on the CIR value obtained by the IDFT; and performing reference signal received power (RSRP) measurement on the noise-eliminated CIR value to obtain an RSRP measurement value on the single OFDM symbol. Simultaneously, the invention also provides a measurement device. By the method and the system, the RSRP measurement is performed by utilizing the CIR value, thereby reducing the influence of timing and frequency deviations on the RSRP measurement and greatly improving the tolerance of a receiver to synchronism deviations; and simultaneously, characteristic differences of CIR signals and noises in a time domain are more remarkable than those in a frequency domain, so the noise elimination processing is performed in the time domain to further improve the accuracy of the RSRP measurement.
+122. 102196546 Uplink control method for reducing error rate of TD-HSUPA (Time Division-High Speed Uplink Packet Access)
+CN
+21.09.2011
+H04W 52/14 Loading...
+H04W 52/14
+Loading...
+201010500181.6
+Chongqing CYIT Communication Technologies Co., Ltd.
+Li Jin
+H04W 52/14
+Loading...
+The invention relates to the technical field of third generation mobile telecommunication, in particular to an uplink control method for reducing an error rate of a TD-HSUPA (Time Division-High Speed Uplink Packet Access) terminal of an enhanced technology high speed uplink packet access system of TD-SCDMA (Time Division-Synchronous Code Division Multiple Access). The method comprises the following steps of controlling the power of the terminal by using different E-PUCH (Enhanced-Uplink Physical Channel) power control strategies according to a threshold range of an E-PUCH error rate Er counted within an E-PUCH error block sliding window; and transmitting data on the E-PUCH by using the adjusted transmission power. The power of the terminal is more reasonably controlled and the error rate is largely reduced to achieve the purpose of increasing and stabilizing the speed; moreover, the size of the selected transmission block is limited through a special E-TFC (Enhanced-Transmission Channel Format Combination) selecting process; and a small data block is tried to be transmitted on the EPUCH so that the transmission time number of a big data block analyzed in a wrong way is reduced and the error rate is also reduced.
+123. 102196553 Timing synchronization correcting method of mobile terminal
+CN
+21.09.2011
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201110080932.8
+Chongqing CYIT Communication Technologies Co., Ltd.
+Xiao Libo
+H04W 56/00
+Loading...
+The invention discloses a timing synchronization correcting method of a mobile terminal, comprising the steps of collecting downlink physical channel data samples of a timing synchronization target cell by UE; screening effective data samples from the collected data samples by the UE; carrying out channel estimations on the effective data samples and weighting, aligning and accumulating the channel estimations; determining a sample number threshold according to the current business timing synchronization precision requirement and signal quality; and if the number of the processed effective samples has reached the sample number threshold or a timing synchronization estimation time has reached a preset maximum estimation time, estimating a timing synchronization error and correcting the timing synchronization according to the estimated timing synchronization error. In a technical scheme of the invention, whether the estimation of the timing synchronization error is finished or not is determined according to the business precision requirement and the signal quality as well as the number of the collected effective samples so that the timing synchronization error is accurately estimated in time under the requirements on different wireless environments and timing synchronization precision requirements.
+124. 102195905 Frequency deviation estimating method and device
+CN
+21.09.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201110080946.X
+Chongqing CYIT Communication Technologies Co., Ltd.
+Li Chunlin
+H04L 25/02
+Loading...
+The invention relates to the technical field of communication, in particular to a frequency deviation estimating method and device used in a quadrature amplitude modulation (QAM) mode. The method comprises the following steps of: calculating a frequency deviation estimated value according to the proportional relation between a virtual part and a real part of a symbol sequence; in particular, screening signal points at specific positions on a transmitting star map from a received signal sequence; and screening the phase information and position information of a plurality of screened signal points to realize frequency deviation estimation of a received QAM signal. By adopting the method and the device, the complexity of the QAM signal frequency deviation estimation in the prior art is lowered remarkably while the estimation accuracy is ensured.
+125. 102149097 Method for receiving and sending mobile equipment signal
+CN
+10.08.2011
+H04W 16/14 Loading...
+H04W 16/14
+Loading...
+201010108328.7
+重庆重邮信科通信技术有限公司
+谭舒
+H04W 16/14
+Loading...
+The invention discloses a method for receiving and sending mobile equipment signals. At least two directed receiving and sending channels covering different space ranges are arranged in mobile equipment; the directed receiving and sending channels are combined to jointly cover the omnibearing receiving and sending range of the mobile equipment; on the basis of the directed receiving and sending channels, cell search and serving cell selection are carried out by the mobile equipment to select one serving cell for residence; each directed receiving and sending channel independently monitors the quality of signals of all cells by taking preset channel selection time as a period; at least one directed receiving and sending channel with the best quality of the signal of the serving cell is selected to serve as an activated channel; and the signal is received and sent on the basis of the activated channel. In the method disclosed by the invention, same-frequency interference radiation intensity and a Doppler frequency shift hopping range are successfully lowered by spatial subdivision, the severe technical difficulties of same-frequency interference, resonance offset of high-speed rail scene signals, dramatic hopping for Doppler frequency shift and the like of the mobile equipment side in a commercial network are effectively solved, and the performance representation of the mobile equipment is obviously improved.
+126. 102149126 Method for controlling pilot frequency/inter-system measuring time interval under connection mode
+CN
+10.08.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201010108343.1
+重庆重邮信科通信技术有限公司
+段红光
+H04W 24/10
+Loading...
+The invention discloses a method for controlling a pilot frequency/inter-system measuring time interval under a connection mode, which belongs to the technical field of mobile communication multi-mode access control. In the invention, a network terminal of a required measuring time interval length or a pilot frequency operation requirement is informed by means of a measurement report message of a terminal, thereby a network is enabled to accurately release a measurement control command. The network can be used for carrying out accurate control according to an actual requirement on the measuring time interval of the terminal to satisfy the requirement on the terminal measuring time interval and avoid the blindness of configuring the measuring time interval length by the network on the one hand and furthest reduce the problems of data transmission interruption and influence on the average data transmission speed due to the measuring time interval on the other hand.
+127. 102117114 Electricity-saving method for embedded equipment
+CN
+06.07.2011
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+200910250833.2
+重庆重邮信科通信技术有限公司
+夏军
+G06F 1/32
+Loading...
+The invention discloses an electricity-saving method for embedded equipment. Before the embedded equipment enters a sleeping mode, the overtime hour of all started timers can be adjusted respectively within the respective time deviation tolerance Delta t; the timer and other timers which are overtime within the prearranged overtime (plus or minus) Delta t are set to be overtime at the same time; the sleeping time of the embedded equipment is set to enter the sleeping mode; and when the embedded equipment quits the sleeping mode, the timing length of the overtime timer can be corrected. In the technical scheme, within the time deviation tolerance scope, the overtime of all timers can be adjusted so that all prearranged overtimes are different from one another, but the timers with superposition within the T p (plus or minus) Delta t can be set to be overtime at the same time, therefore, the awakening time of the embedded equipment under the sleeping mode is reduced, and the power consumption of the equipment is reduced.
+128. 102117261 Communication method between inner processors of chip
+CN
+06.07.2011
+G06F 15/167 Loading...
+G06F 15/167
+Loading...
+200910250832.8
+重庆重邮信科通信技术有限公司
+周勃
+G06F 15/167
+Loading...
+The invention discloses a communication method between inner processors of a chip. As the communication between the processors is realized by a shared data region formed by a plurality of data storage blocks, each shared data region is provided with a read pointer, a write pointer and an interrupt resource, wherein a transmitting data processor can write data in an idle data storage block of the shared data region, modifies the write pointer to direct at the next idle data storage block, and transmits interrupts to inform a receiving data processor; and the receiving data processor responds to the interrupts, processes data in unprocessed data storage blocks in the shared data region according to instructions of the read pointer and the write pointer, modifies the read pointer and finishes the data receiving. The technical scheme of the invention can realize the data communication between two processors by utilizing a pair of interrupts, reduces the occupancy of interrupt resources in a system, and avoids delay data processing or data loss caused by coverage or loss of the interrupts.
+129. 102118839 PLMN (Public Land Mobile Network) network selecting method of multimode terminal
+CN
+06.07.2011
+H04W 48/18 Loading...
+H04W 48/18
+Loading...
+200910250834.7
+重庆重邮信科通信技术有限公司
+段红光
+H04W 48/18
+Loading...
+The invention provides a PLMN (Public Land Mobile Network) network selecting method of a multimode terminal, comprising the steps: when an access mode is LTE (Long Term Evolution) and an access stratum (AS) is in PLMN searching, searched cells with signals are stored in the AS layer; the AS of the terminal leads PLMN_IdentityList of all the cells and signal intensity to form a PossiblePLMN(maxPlmnNum) list; all the lists are reported to a non-access stratum (NAS) together; the PLMN network selecting process of the LTE access technology is fused to the PLMN network selecting method of a GSM (Global System for Mobile Communication) and TD-SCDMA (Division-Synchronization Code Division Multiple Access) dual-mode terminal. In the PLMN network selecting method provided by the invention, the problems that in the GSM or TD-SCDMA system, one cell only has one PLMN identification and one cell of the LTE can affiliate to different PLMN networks possibly are effectively solved, the characteristics of the existing GSM-TD-SCDMA system are fully utilized, the terminal design is simplified and the hardware cost is reduced.
+130. 102111487 Method and device for realizing global system for mobile communications (GSM) terminal to access 3G universal subscriber identity module (USIM) card
+CN
+29.06.2011
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200910251019.2
+重庆重邮信科通信技术有限公司
+罗勇
+H04M 1/725
+Loading...
+The invention provides a method and device for realizing a global system for mobile communications (GSM) terminal to access a 3G universal subscriber identity module (USIM) card. The method comprises the following steps: after a starting terminal activates a card, judging the type of a smart card which is inserted into a terminal in accordance with instruction conditions supported by the card; and if the smart card is the 3G USIM card, realizing information interaction between a GSM protocol stack and the card by conversion operations, wherein the conversion operations comprise the conversion of operating command heads which are sent to a USIM from the GSM terminal, the conversion of status words returned by the USIM into GSM status words, the conversion of file control parameters returned by the USIM into GSM file attributes, and the mutual conversion of 3G formatted file contents and GSM formatted file contents when the GSM terminal modifies or acquires USIM file contents. According to the invention, the protocol stack of the GSM terminal can access the 3G USIM card normally and acquire corresponding information from the 3G USIM card; and the 3G USIM card can realize fundamental service functions.
+131. 102111235 Method for reporting channel quality indicator of TD-SCDMA system
+CN
+29.06.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200910251011.6
+重庆重邮信科通信技术有限公司
+何翠
+H04L 1/00
+Loading...
+The invention provides a method for reporting a channel quality indicator of a time division-synchronous code division multiple access (TD-SCDMA) system. The method comprises the following steps of: updating a signal-to-interference and noise ratio (SINR) hold value SinrHold; obtaining a target punching rate and a pre-modulation form by using the SinrHold through a function mapping relationship; calculating a transmission block size TBsize and a transmission block size index TBI according to the target punching rate, the pre-modulation form and a resource distribution situation; and according to the value of the TBI, obtaining a recommended modulation form (RMF) used for reporting by looking up a modulation form switching table. The method utilizes the SINR hold value SinrHold instead of an SINR measurement value, avoids the instability of throughput caused by signal fluctuations, and avoids the simulation of the combination of each transmission block size and the modulation form and the storage of the mapping relationship by obtaining the target punching rate and the pre-modulation form through the function mapping relationship and saves system resources, thereby ensuing the stability of the throughput of a terminal and simultaneously ensuring the maximum of average throughput.
+132. 102111365 Discrete Fourier transform (DFT)/inverse discrete Fourier transform (IDFT) rotation factor control method, device and DFT/IDFT arithmetic device for long term evolution (LTE) system
+CN
+29.06.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910251010.1
+重庆重邮信科通信技术有限公司
+韩佳佳
+H04L 27/26
+Loading...
+The invention discloses a discrete Fourier transform (DFT)/inverse discrete Fourier transform (IDFT) rotation factor control method, a DFT/IDFT rotation factor control device and a DFT/IDFT arithmetic device for a long term evolution (LTE) system. In the method, 34 DFT/IDFT points of the LTE system can be represented by at least 10 great points, and the other points are characteristics of approximate numbers of a certain point of the at least 10 great points; only rotation factors of the at least 10 great points are stored, and the rotation factors of the 34 points are not required to be completely stored; when the rotation factors of each level are acquired, if arithmetic points belong to the stored great points, the stored rotation factors are directly read, and if the arithmetic points do not belong to the stored great points, the arithmetic points are converted into the corresponding great points and the stored rotation factors are read; and a DFT/IDFT computing mode is consistent with that of the prior art. Simultaneously, the invention also discloses a control device for implementing the method, and the DFT/IDFT arithmetic device. By the method and the devices, an arithmetic speed is not influenced, and simultaneously a storage space can be greatly saved.
+133. 102111162 Turbo component decoding method, component decoder, branch calculator and Turbo decoder
+CN
+29.06.2011
+H03M 13/27 Loading...
+H03M 13/27
+Loading...
+200910251012.0
+重庆重邮信科通信技术有限公司
+朱志辉
+H03M 13/27
+Loading...
+The invention provides a Turbo component decoding method, a component decoder, a branch calculator and a Turbo decoder. The method comprises the following steps of: calculating a forward branch metric Alpha, and interlacing and caching in an Alpha cache; and calculating a backward branch metric Beta, deinterlacing and reading the Alpha, calculating a logarithm likelihood ratio (LLR), storing the calculated LLR into the Alpha cache in situ, and outputting sequentially during outputting. By the method, the calculated LLR is stored in the Alpha cache in situ so as to save an LLR cache during the conventional technical component decoding, further save the LLR cache for each circuit branch of the Turbo decoder with a plurality of parallel circuit branches, and greatly save the hardware cost of the whole Turbo decoder. The invention further provides a Turbo decoding component decoder, a branch calculator and the Turbo decoder.
+134. 102111183 GRAKE receiver and combined weight calculating method thereof
+CN
+29.06.2011
+H04B 1/7115 Loading...
+H04B 1/7115
+Loading...
+200910251018.8
+重庆重邮信科通信技术有限公司
+陈茜茜
+H04B 1/7115
+Loading...
+The invention relates to a wireless communication signal receiving technology, in particular to a GRAKE receiver and a combined weight calculating method thereof. The combined weight calculating method comprises the following steps of: acquiring the function of a demodulated interference part, selecting a finger position, constructing an angle-symmetric matrix, calculating Ru by using the angle-symmetric matrix, and combining weights according to the calculation. The GRAKE receiver comprises a combined weight calculating module which adopts the combined weight calculating method and a multi-path position selecting module, is not required to calculate RISI and RMUI any longer, calculates a combined weight by using the angle-symmetric matrix and effectively reduces an operation amount in the process of calculating the combined weight, and improves the performance of the GRAKE receiver by the selecting module for selecting the finger position. By using the GRAKE receiver, not only the calculating overhead and the realizing complexity are greatly reduced, but also the system performance is effectively improved.
+135. 102111787 Method for reselecting mobile terminal cell
+CN
+29.06.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910251014.X
+重庆重邮信科通信技术有限公司
+杨黎明
+H04W 24/00
+Loading...
+The invention discloses a method for reselecting a mobile terminal cell. In the method, user equipment (UE) monitors all cells; when a better cell is detected for the first time, a reselecting timing device is started, and the timing length of the reselecting timing device is set to reselect monitoring time Treselection; a better cell is reselected as a target cell of the reselecting timing device, when the reselecting timing device is closed and the better cell exists, or the reselecting timing device is in an overtime state, the UE judges that if the current best cell meets reselecting conditions, namely, the S of the cell is larger than zero and the R/H value of the cell is the R/H value of a service cell, and the lasting time is larger than or equal to Treselection; and if the best cell meets the reselecting conditions, the UE initiates the reselection of the cell until the best cell is reselected and lingered, otherwise, the UE reselects one better cell as the target cell of the reselecting timing device, the reselecting timing device is restarted so as to continue to monitor all the cells. By the technical scheme in the invention, the best cell can be reselected once when the UE performs cell reselection, thereby reducing reselection time and reducing reselection delay.
+136. 102111804 Quality monitoring method for cell of mobile terminal
+CN
+29.06.2011
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+200910251017.3
+重庆重邮信科通信技术有限公司
+陈吕洋
+H04W 24/10
+Loading...
+The invention discloses a quality monitoring method for a cell of a mobile terminal, which comprises the following steps that: when status switching is caused in the process of monitoring a better cell by user equipment (UE), the UE continues monitoring the better cell if a neighbouring cell list in a new status includes the cell monitored by the UE and the cell is always the better cell; and when total time for monitoring the better cell by the UE is equal to a monitoring time duration required in the new status and a signal of the better cell is always stable and is better than that of the current service cell, the UE reselects the cell or reports a measurement result to a network side. In the technical scheme of the invention, when the better cell is monitored after the status switching, the monitored time prior to the status switching of the UE is considered comprehensively, so the delay of cell reselection or signal quality reporting due to the status switching of the UE is prevented effectively.
+137. 102104413 Method for interpreting system messages by LTE (Long Term Evolution) terminal
+CN
+22.06.2011
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200910191958.2
+Chongqing CYIT Communication Technologies Co., Ltd.
+Duan Hongguang
+H04B 7/26
+Loading...
+The invention discloses a method for interpreting system messages by an LTE (Long Term Evolution) system terminal. The method comprises the following steps of: directly analyzing MIB (Main Information Block) data by a terminal physical layer after an MIB data block is interpreted through blind detection to acquire the SFN (System Frame Number) of a radio frame of the MIB so as to confirm the possible radio frame position of the SIB1 (System Information Block I); and interpreting the SIB1 data in a corresponding position, analyzing the interpreted SIBI data by the terminal to acquire the time frequency position of other system messages and interpreting other system messages in corresponding positions. In the invention, the SFN is acquired by directly analyzing the MIB data by the physical layer which can interpret the SIB1 data without waiting for RRC (Radio Resource Control) to configure the SFN, thus, the system message interpreting speed of the terminal is improved, the interaction between the physical layer and the RRC is decreased at the same time and a system design is simplified.
+138. 102082743 Automatic frequency calibration method and device of time division-synchronization code division multiple access (TD-SCDMA) system
+CN
+01.06.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200910191639.1
+Chongqing CYIT Communication Technologies Co., Ltd.
+Tan Shu
+H04L 25/02
+Loading...
+The invention discloses an automatic frequency calibration method of a time division-synchronization code division multiple access (TD-SCDMA) system, which comprises the following steps: receiving target service signals taking a transmission time interval (TTI) as a unit by a mobile terminal or a network; carrying out demultiplexing, decoding and cyclic redundancy check (CRC) on demodulated soft information of combined detection equalized output of each target time slot in the TTI; reconstructing the standard mapping position of the symbolic information of the TTI coding combination transmission channel determined to be correct by the CRC after coding, multiplexing and modulating; carrying out frequency offset estimation (FOE) by the combined detection equalized output and the standard mapping position; and acquiring automatic frequency control (AFC) adjusted quantity according to the FOE estimated value of each TTI in a statistic period to carry out automatic frequency calibration. The invention also discloses an automatic frequency calibration device of the TD-SCDMA system, comprising a down converter, a channel estimation and combined detection module, a symbol demodulation module, a demultiplexing, decoding and CRC module, a reconstruction module, an AFC updating module and a voltage controlled oscillator. By the method and device disclosed by the invention, the problem that the estimation error of subsequent frequency offset is increased due to hard decision error in the prior art can be solved.
+139. 102081592 Composite radix DFT (Discrete Fourier Transform) and IDFT (Inverse Discrete Fourier Transform) quick implementation method and device
+CN
+01.06.2011
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200910191638.7
+Chongqing CYIT Communication Technologies Co., Ltd.
+Zhu Zhihui
+G06F 17/14
+Loading...
+The invention discloses a composite radix DFT (Discrete Fourier Transform) and IDFT (Inverse Discrete Fourier Transform) quick implementation method and device. According to the invention, a full sequence reading address is generated for a first stage of DFT operation, thus facilitating reading of an original address in the subsequent operation; two intermediate caches are configured for each stage of DFT operation for alternately storing butterfly operational data; and inter-stage flow control is adopted, so that the next stage of operation is performed before the current stage of processing is finished, i.e. the next stage of operation is performed when the current stage of operation is performed and the conditions for performing the next stage of operation are met, thereby greatly increasing the computing speed and saving the processing time without increasing the required overall storage capacity.
+140. 101924618 Implementation method of HARQ in TD-HSUPA
+CN
+22.12.2010
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+200910104065.X
+Chongqing Communication Technology Designing Co., Ltd.
+Duan Hongguang
+H04L 1/18
+Loading...
+The invention discloses an implementation method of HARQ in TD-HSUPA. An MAC layer allocates HARQ ID for an MAC-e PDU data packet, sets a retransmission sequence number (RSN) and sends the data, the HARQ ID and the RSN to a physical layer together, and simultaneously, the data is saved in the MAC layer; the physical layer selects a channel coding mode according to the RSN and sends the data and the HARQ ID to the network end together, and simultaneously, the HARQ ID is saved; and the physical layer receives an ACK/NACK instruction on a specific E-HICH channel and reports the instruction and the HARQ ID to the MAC layer, and the MAC layer retransmits the data according to the instruction. In the method of the invention, the transmission data of the HARQ is only saved by the MAC layer, and a copy is not saved in the physical layer, thereby greatly lowering the requirement for memory resources of the physical layer; and simultaneously, the MAC layer allocates the HARQ ID, thereby being favorable for preferentially scheduling the HARQ data block needing to be retransmitted in the process of retransmitting data by a terminal. On the basis of meeting the requirement of Uu interface communication, the implementation method is convenient for treating the MAC layer and the physical layer, so that the data transmission control flow of the HARQ of the HSUPA is clear, and actual hardware and software can be implemented easily.
+141. 201663637 一种多模终端射频芯片与基带芯片的接口
+CN
+01.12.2010
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201020146172.7
+重庆重邮信科通信技术有限公司
+张国会
+H04M 1/725
+Loading...
+本实用新型公开了一种多模终端射频芯片和基带芯片的接口，包括，一个双向数据接口，用于在所述多模射频芯片和所述多模基带芯片之间传输数据；一个时钟接口，用于在所述多模射频芯片和所述多模基带芯片之间传递时钟信号；一个控制接口，用于所述多模基带芯片向多模射频芯片发送控制信息及从所述多模射频芯片读取状态信号和测量信息。本实用新型的接口减少了接口信号线的数量，通过控制接口传输控制信号实现不同网络模式下使用同一接口完成多模射频芯片和多模基带芯片之间的通信。同时，减少了接口所需占用的芯片引脚数量，降低了基带芯片和射频芯片的成本和设计复杂度，减少了PCB设计的面积及布线复杂度，更有利于多模终端的小型化。
+142. 101826890 Implementation method of ZC (Zadoff-Chu) sequence in LTE (Long Term Evolution) system
+CN
+08.09.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910103294.X
+Chongqing Communication Technology Designing Co., Ltd.
+Deng Juan
+H04L 27/26
+Loading...
+The invention provides an implementation method of a ZC (Zadoff-Chu) sequence in an LTE (Long Term Evolution) system. The sequence is calculated by using a recursion mode, i.e. a value after the sequence is obtained by multiplying a value before the sequence by a coefficient, and the value of xq(n) is obtained by multiplying the value of xq(n-1) by a coefficient, wherein the ZC sequence in the LTE system can be any one signal of basic signals of a main synchronizing signal, a random access signal and an upstream reference signal. In the method, a cosine operation each time is converted into a complex multiplication operation, thereby the time of a sine operation and a division is saved and the operand is greatly reduced. In the invention, the symmetry of the ZC sequence can also be utilized, only the value of a front half of the sequence is calculated, and the value of the rear half is obtained according to the symmetry, thereby the operand is further reduced.
+143. 101771755 Electricity-saving control device for baseband chip of mobile terminal
+CN
+07.07.2010
+H04M 1/73 Loading...
+H04M 1/73
+Loading...
+200910251100.0
+Chongqing Chongyou Xinke Communication Technology Co., Ltd.
+Fu Shiming
+H04M 1/73
+Loading...
+The invention discloses an electricity-saving control device for a baseband chip of a mobile terminal. The electricity-saving control device comprises an IDLE circuit, an electricity-saving control unit, an IIC bus controller and an electricity-saving control parameter storage unit. The IDLE circuit is connected with the electricity-saving control unit, and the electricity-saving control unit is respectively connected with the IDLE circuit and the IIC bus controller. The IIC bus controller is respectively connected with the electricity-saving control unit and the electricity-saving control parameter storage unit, and is connected to a PMIC (power management chip) by an IIC bus. When the electricity-saving control device is adopted, the electricity-saving control process can be executed without the controlling of an ARM processor, so as to lead an UE to switch off a power supply of the ARM processor under the electricity-saving mode, thereby further reducing power consumption of the UE.
+144. 101719891 Signal-to-noise ratio estimation method
+CN
+02.06.2010
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200910191640.4
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Xin
+H04L 25/02
+Loading...
+The invention discloses a signal-to-noise ratio estimation method which is suitable for a digital communication system. The method comprises the steps of: creating a circular sliding window data structure, receiving a symbol sequence in a target channel, determining reference star points, calculating a signal-to-noise ratio linear estimation value, updating the information of the sliding window data structure and calculating a signal-to-noise ratio sliding estimation value through sliding average, wherein the number of values used by sliding average is adjusted according to the symbol data quantity required by qualified estimation precision instead of the fixed smooth span used in the prior art, and thus the method gives consideration to the accuracy of the signal-to-noise ratio under low symbol quantity and the real-time performance of the signal-to-noise ratio under high symbol quantity. The method adjusts the average value of received symbol amplitude under high-level modulation according to the star points and avoids estimation errors caused by the uneven distribution of the star points. The invention corrects the signal-to-noise ratio and further increases the accuracy of estimation when the signal-to-noise ratio is low.
+145. 101719788 SCH synchronized method of GSM cells under bimodal terminal TD working mode
+CN
+02.06.2010
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200910251013.5
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Lu
+H04B 7/26
+Loading...
+The invention discloses an SCH synchronized method of GSM cells under a TD-SCDMA/GSM bimodal terminal TD working mode, which comprises the following steps: carrying out SCH synchronization on GSM adjacent cells by an idle time slot of a TD frame; carrying out SCH resynchronization and calculating the TD time corresponding to the SCH according to the relation between the TD frame and a GSM frame; if the TD time appears in a TD idle window, carrying out SCH receiving; while for the SCH initial synchronization, blindly searching in the idle window; under the condition of working without affecting the TD mode, dynamically dispatching the SCH resynchronization and initial synchronization of the GSM adjacent cells; using the idle time slots in the TD frame to the maximum; and ensuring that single antenna bimodal terminals under the TD working mode monitor the synchronization information of the GSM in real time in different configuration conditions, thereby preparing for reselecting from a TD-SCDMA system or switching to a GSM system.
+146. 101715210 Method and device for assembling MAC-layer HSPA data
+CN
+26.05.2010
+H04W 28/06 Loading...
+H04W 28/06
+Loading...
+200910190923.7
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Luyang
+H04W 28/06
+Loading...
+The invention discloses a method for assembling MAC-layer HSPA data. The assembly of the MAC-layer HSPA data is realized by adopting a hardware device, and a CPU transmits a data assembly command and relevant parameters to the hardware device. In the assembly of HSUPA data, the hardware device carries out split joint according to bit on the offset information with non-integer bit length in MAC head information and MAC_d PDUs, and a plurality of MAC_d PDUs are assembled into an MAC_e PDU; in the assembly of HSDPA data, the hardware device carries out split joint according to the bit on MAC_hs PDU data according to the offset length of non-integer bit data in the MAC head information, and the MAC_hs PDU is disassembled and assembled into a plurality of MAC_d PDUs indicated by the data assembling command. In addition, the invention also discloses an MAC-layer HSUPA data assembling device and an MAC-layer HSDPA data assembling device. The technical scheme reduces the frequency of data operation in the process of data assembly and the time for occupying a CPU and a bus in the process of data assembly, and improves the transmission efficiency of HSPA data, thereby reducing the consumption on the CPU and system resources in the assembly process of the HSPA data.
+147. 101710287 Starting-up initialization method for data card
+CN
+19.05.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200910191959.7
+重庆重邮信科通信技术有限公司
+赖翔
+G06F 9/445
+Loading...
+The invention discloses a starting-up initialization method for a data card, which is suitable for the field of digital communication. In the method, after the initialization process of an ARM system is completed, the file initialization process of a USIM card is started; and when the USIM card is not needed to be verified by PIN codes, the initialization process of a data module, USB equipment enumeration and the initialization process of client software are performed simultaneously. In the method, when the PIN codes are activated, the file initialization of the USIM card is completed before the client software is started, so that the data card can enter a wireless service available state quickly after the client software is started so as to achieve the aims of shortening the starting-up initialization time of the data card and enhancing user experience.
+148. 101707490 Parallel Turbo code interleaving method
+CN
+12.05.2010
+H03M 13/27 Loading...
+H03M 13/27
+Loading...
+200910190922.2
+Chongqing CYIT Communication Technology Co., Ltd.
+Shen Jing
+H03M 13/27
+Loading...
+The invention provides a parallel Turbo code interleaving method, which comprises the following steps of: firstly calculating address offset Pn'(i) of M decoding data at the same moment, and then calculating address index qPi(i+tW) to carry out interleaving addressing on M decoding results at the same moment; at the moment of i=0, initializing to obtain Pn'(0) and qPi(0), and calculating qPi(tW) by recursion from t=1 to M-1; and calculating Pn'(i) and qPi(i+tW) by recursion from the moment of i=1 to the moment of i=M-1, wherein t=1 to M-1. In the invention, recursion calculation is carried out to obtain the index qPi(i+tW) of the tth sub-memory by utilizing the index qPi(i) of the calculated zeroth sub-memory, wherein t=1 to M-1, and m paths of data can be in parallel interleaving or deinterleaving simultaneously according to the qPi(i+tW) and Pn'(i). Only simple adding and subtracting judgement calculation is needed so that the calculated amount is low. Only the address offset Pn'(i) of the sub-memory and the address index qPi(i+tW) of the sub-memory are needed to be stored, wherein i=0, 1, 2 to W-1, thereby the memory space is smaller.
+149. 101707795 Method for eliminating interference between self-organized network base station nodes
+CN
+12.05.2010
+H04W 52/00 Loading...
+H04W 52/00
+Loading...
+200910104502.8
+Chongqing CYIT Communication Technology Co., Ltd.
+Duan Hongguang
+H04W 52/00
+Loading...
+The invention relates to the field of mobile communication, in particular to a method for eliminating interference between self-organized network base station nodes. Each base station node detects the signal intensity of an adjacent base station node and broadcasts the signal intensity in system message, and the adjacent base station node acquires own interference degree to the base station node from the monitored system message so as to adjust own transmitting power to achieve the aim of reducing mutual interference between the base station nodes. The method does not need to establish a special physical channel between the adjacent base station nodes, and does not need to change a self-organized network architecture much, thereby simplifying the complexity of the self-organized network design and saving wireless resources of air interfaces at the same time.
+150. 101707796 Power saving method for mobile communication terminal in idle mode
+CN
+12.05.2010
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+200910104223.1
+Chongqing CYIT Communication Technology Co., Ltd.
+Gong Jian
+H04W 52/02
+Loading...
+The invention discloses a power saving method for a mobile communication terminal in an idle mode. After the successful selection of a UE cell, an MCU sends each parameter related to paging detection to a DSP before the MCU enters a sleep state for the first time; and in the following detection of PICH in each DRX period, the reading of PCH and the matching of UE-ID are both finished automatically by the DSP. When the DSP detects the paging of local UE, the MCU is awakened to process. The method of the invention can effectively reduce alternation times between the MCU and the DSP and can reduce the awakening times of the MCU so as to fulfill the aim of saving power.
+151. 101707800 Method and device for obtaining synchronization timing of GSM neighboring cell
+CN
+12.05.2010
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+200910104224.6
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Lu
+H04W 56/00
+Loading...
+The invention discloses a method for obtaining the synchronization timing of a GSM neighboring cell in a TD-SCDMA/GSM double-module system. The method comprises the following steps: the characteristic of good relevance of an SCH training sequence is utilized to obtain the synchronization timing of the GSM neighboring cell, UE utilizes the idle time of TD-SCDMA to receive the SCH sequence of the GSM neighboring cell, when the SCH sequence is received, the correlation is conducted on the received information sequence by taking 64 bit as unit till the obtained correlate valve is larger than a threshold value, the UE receives the subsequent 39 bit information sequence, then the latest received 142 bit information is taken as the SCH sequence to conduct subsequent decoding, determine the timing deviation, and obtain the synchronization timing. The invention also discloses a device for realizing the method, which comprises an idle time monitoring unit, an information sequence receiving unit, a correlation calculation unit, a threshold value calculation unit, a comparing unit, a decoding unit and a timing deviation obtaining unit. By adopting the method and the device, the time consumption of the synchronization timing of the GSM neighboring cell is greatly reduced, and the probability of false detection and missing detection is reduced.
+152. 101707783 Method for searching high priority network by user terminal of third generation mobile communication system
+CN
+12.05.2010
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+200910104222.7
+Chongqing CYIT Communication Technology Co., Ltd.
+Gong Jian
+H04W 24/10
+Loading...
+The invention discloses a method for searching a high priority network by a user terminal of a third generation mobile communication system, which comprises the following steps: an RRC uses neighbor cell relevant information and corresponding PLMN information thereof obtained in a cell selection stage, and tasks to be carried out in the UE self idle mode for obtaining neighbor cell measurement results so as to supply the available PLMN information needed by a MM for searching the high priority network; therefore, blind searching process does not needed to be started and the tasks of the UE self idle mode also can not be disturbed, thus greatly speeding up the high priority network searching speed, saving energy consumption and increasing the call capture rate of the UE.
+153. 101651948 Method for realizing USAT data service
+CN
+17.02.2010
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+200910104210.4
+Chongqing CYIT Communication Technology Co., Ltd.
+Jiang Dengchao
+H04W 12/06
+Loading...
+The invention relates to the field of communication, in particular to a method for realizing USAT data service. By information mutual conversion between a user plane and a control plane, an AT commandis used for carrying the converted information of the user plane and the control plane to realize the data interaction between UICC and a network terminal. When the USAT data service needs to be realized, the invention does not need to open up a special data port for the USAT function data service, can not influence the prior software and hardware configuration and can realize the USAT data service flexibly according to the function requirement.
+154. 101651730 Method for quickly reading entries of phone book
+CN
+17.02.2010
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+200910104211.9
+Chongqing CYIT Communication Technology Co., Ltd.
+Li Liang
+H04W 88/02
+Loading...
+The invention relates to the field of communication, in particular to a method for quickly reading the entries of a phone book at a user terminal. The method comprises the following steps: initializing all the available file entries of a phone book dynamically in the initialization of the phone book, analyzing and storing the relevant information of the entries of the phone book into a data bufferarea of the phone book; when reading and processing the entries of the phone book, searching the information of the operated entries in the buffer area firstly, then reading the relevant available file entries directly according to the known information, processing and returning a result; and the invention avoids operating empty entries and reduces the operation redundancy and the time delay, thereby quickening the response speed of the user terminal during searching the entries of the phone book.
+155. 101650706 Method and device for calculating FFT branch
+CN
+17.02.2010
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200910104212.3
+Chongqing CYIT Communication Technology Co., Ltd.
+Xu Yi
+G06F 17/14
+Loading...
+The invention relates to the field of digital signal processing, in particular to a method and a device for calculating an FFT branch, solving the problem of low whole speed of FFT operation because the prior FFT branch is calculated by two double-port memories, a plurality of resources are occupied and the operation control method is complicated. The invention adopts one double-port memory, controls the read-out data and the read-in data of the double-port memory accurately and completes the in-situ storage of the data of an operation result of a butterfly unit, that is to say, the storage location of the data before the operation is the same as that of the data of a corresponding result after the operation is finished. The invention saves the occupation condition of a hardware resource greatly, reduces the area of the whole FFT processing device and can keep the FFT operation speed free from influences.
+156. 101646231 Timing recovery method for mobile terminal sleeping awakening in TD-SCDMA system
+CN
+10.02.2010
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+200910104702.3
+Chongqing CYIT Communication Technology Co., Ltd.
+Tan Shu
+H04W 56/00
+Loading...
+The invention discloses a timing recovery method for mobile terminal sleeping awakening in TD-SCDMA system, including that a UE receives TS0 midamble and SYNC_DL sequences of each sub frame before arrival of an objective PICH after a mobile terminal triggers sleeping awakening and devices are steady, and PICH timeslot midamble, TS0 midamble, SYNC_DL sequence base band data of the objective PICH sub frame is completely received based on high speed A/D sampling, and timing recovery is carried out. Timing recovery method of the invention is adopted, beacon channel midamble and SYNC_DL informationrequired by timing recovery of sleeping awakening are integrated, the conventional idea that timing recovery needs to be completed before arrival of the PICH sub frame in the existing scheme is overturned, time buffer of timing recovery is successfully obtained by high speed A/D sampling base band data total number receiving, and meanwhile class beacon channel characteristic of PICH channel is utilized, so as to use PICH midamble as data sample, and enough data quantity can be obtained in shorter time to realize timing recovery, thus the UE can obtain longer sleeping time and power consumption of the UE is effectively reduced.
+157. 101588634 Method for processing E-RUCCH process exception in TD-HSUPA
+CN
+25.11.2009
+H04W 72/12 Loading...
+H04W 72/12
+Loading...
+200810069690.0
+Chongqing CYIT Communication Technology Co., Ltd.
+Duan Hongguang
+H04W 72/12
+Loading...
+The invention discloses a method for processing E-RUCCH process exception in TD-HSUPA. A network end sends E-AGCH information which contains a special TRRI value to a terminal when a scheduling resource is not available; after receiving the E-AGCH which contains no scheduling and transmitting resource information and is sent by the corresponding network end, the terminal waits for the specified E-AGCH which contains the scheduling resource. If receiving the specified E-AGCH which contains the scheduling resource before a set timer is overtime, the terminal continues to execute normal E-RUCCH process; if not receiving the specified E-AGCH which contains the scheduling resource before a set timer is overtime, the terminal restarts the E-RUCCH process. The method can exactly distinguish the causes of exception in the terminal, avoid the failure process of wrongly starting a wireless link when the wireless link has high quality while the network end has no resource to schedule so as to avoid unnecessary processes of subdistrict reselection and business rebuild and enhance the property of the terminal.
+158. 101568145 LTE system CQI reporting implementation method
+CN
+28.10.2009
+H04W 28/04 Loading...
+H04W 28/04
+Loading...
+200910103866.4
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Qianqian
+H04W 28/04
+Loading...
+The invention relates to a wireless communication technical field, especially a LTE system CQI reporting implementation method. The invention provides a LTE system CQI reporting implementation method, capable of determining the coincidence relation between CQI sequence and I[TBS] and simulating and establishing the mapping relation between SINR and CQI. The invention provides a CQI reporting implementation method in LTE system multimode, capable of reporting the CQI sequence in multimode, wherein the mapping relation between SINR and CQI in one mode is used as the basis, based on the gradient, intercept relations between various transmission modes and the CQI sequences in other transmission modes are obtained by the fitting equation based on the mapping relation between the SINR and CQI sequence. The implementation method effectively solves the problem that many CQI combinations are formed by different cording rate and modulation mode and a large amount of emulations have a large amount of corresponding mapping relations, adverse to implement. The implementation method has simple implementation method and greatly saves the storage space.
+159. 101552998 Method for indicating channel quality in high speed descending packet access system
+CN
+07.10.2009
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910103891.2
+Chongqing CYIT Communication Technology Co., Ltd.
+Tan Shu
+H04W 24/00
+Loading...
+The invention discloses a method for indicating channel quality in high speed descending packet access system, including: after the communications chain circuit is established, UE selecting the initial RTBSindex and RMF from the pre-stored channel quality indicator CQI mapping table according to the channel measurement results, correcting RTBSindex and RMF based on the service perforating rate index, performing physical resource conversion to the RTBSindex and RMF and then reporting as the CQI, and then performing statistics to the key indicators of the channel by taking a specific number of effective HS-DSCH TTI as the cycle, and performing upward training or downward training to the CQI based on the statistical result. The inventive method can better fit the actual processing capacity of the UE receiver to obtain stable and reliable channel quality instruction to report, to achieve the best throughput of data services. At the same time, by means of physical resources conversion, the inventions achieves that the pre-stored mapping table based on specific physical resources guide the reporting of the CQI with all real possible situations of the physical resources allocation, thereby reducing the number of CQI mapping table required to pre-store in the UE, and effectively saving the storage space.
+160. 101541074 Calculation method of timing relationship between GSM/TD dual-mode terminal systems
+CN
+23.09.2009
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+200910103620.7
+Chongqing Chongyou Information Technology Co., Ltd.
+Li Xiaowen
+H04W 56/00
+Loading...
+The invention provides a calculation method of timing relationship between GSM/TD dual-mode terminal systems. Time relationship of initial synchronization of a GSM/TD terminal timing system and corresponding time relationship between the two modes after time T are determined by utilizing the time relationship between a GSM frame and a TD-SCDM subframe. The timing synchronization method not only ensures the timing precision of the GSM/TD dual-mode terminal system, but also reduces GSM/TD dual-mode terminal systems clocks to one, thus simplifying the hardware complexity of the GSM/TD dual-mode terminal systems.
+161. 101478787 Method for TD-HSUPA resource scheduling
+CN
+08.07.2009
+H04W 28/16 Loading...
+H04W 28/16
+Loading...
+200910103061.X
+Chongqing CYIT Communication Technologies Co., Ltd.
+Duan Hongguang
+H04W 28/16
+Loading...
+The invention discloses a TD-HSUPA resource scheduling method. The terminal calculates the relative priority and the relative data quantity of each logical channel according to the priority and data quantity if each logical channel in the E-TFC selection process of resource scheduling; the relative priority is compared with the relative data quantity according to the size order of the priority of the logical channels, when the relative data quantity is more than or equal to the relative priority, the logical channel is selected, and if logical channels all do not meet the condition that the relative data quantity is more than or equal to the relative priority, the logical channel with the highest priority is selected. By considering the priority and data quantity of the logical channels in the E-TFC selection process of the terminal, the method avoids the situation that the priority of some business logical channels is lower and not scheduled for a long time, leading to business failure, and at the same time, the method effectively avoids the situation that the data of logical channels with low priority is stimulated for a long term and occupies great amount of terminal buffers, improving the whole performance of the terminal.
+162. 101436900 Method and apparatus for scanning whole frequency band frequency point of advance system
+CN
+20.05.2009
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200810187530.6
+Chongqing CYIT Communication Technology Co., Ltd.
+Tan Shu
+H04B 7/26
+Loading...
+The invention discloses a method and a device for scanning full frequency range frequency points of an evolution system. The method effectively overcomes the defect that the prior method cannot resist an severe environment and the interference of a strong service channel through quickly positioning the positions of synchronous signals of each frequency point to be scanned, using the synchronous OFDM mark power as a measuring value of the frequency point, performing data fitting on full frequency range measured values simultaneously, and finally integrating position information of the synchronous signals and the synchronous OFDM mark power to acquire a reasonable candidate frequency point list. The method and the device can realize accurate search of working frequency points of a service base station when the channel environment is extremely severe and the interference of the service channel is extremely strong.
+163. 101409586 Method and apparatus for estimating frequency offset
+CN
+15.04.2009
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200810182415.X
+Chongqing CYIT Communication Technology Co., Ltd.
+Qiu Yuan
+H04B 7/26
+Loading...
+The invention discloses a method for estimating frequency deviation and a device thereof, wherein, the method comprises: the received data is demodulated to obtain the data sequence, the demodulated data sequence is distinguished by using the preset decision threshold, the component sequence S before demodulation is recovered for the decided data, interrelated operation is carried out on the recovered data S and the received data, and the interrelated result is obtained; chip merge is carried out on the interrelated result to obtain phase deviation, and frequency deviation is worked out according to the phase deviation. When small frequency excursion exists in a connection mode, the method and the device of the invention can more exactly estimate the frequency deviation between a sending terminal and a receiving terminal; as channel estimate result is not needed to reconstruct the signals, thus greatly reducing complexity and calculation time delay of the system. The estimated frequency deviation can meet the requirements of a receiver within the range of frequency deviation of -200 to +200Hz.
+164. 101409934 Method and apparatus for processing signaling stream between application platform and protocol stack
+CN
+15.04.2009
+H04W 80/02 Loading...
+H04W 80/02
+Loading...
+200810182416.4
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Junhua
+H04W 80/02
+Loading...
+The invention discloses a method for processing a signaling flow between application platforms and a protocol stack, and a device thereof. The method comprises the following steps: a signaling channel is established between each application platform and the protocol stack, and the protocol stack stores the relation between the ID of each application platform and the signaling channel; the protocol stack performs protocol analysis on the signaling received from each application platform so as to analyze the ID added to the signaling by the application platform and the serial number of the signaling, record the ID and the serial number, and process or send the signaling to a corresponding network; and the protocol stack adds the signaling which is processed and needs to be replied or the signaling which is received in the network, processed and replied, to the recorded ID and the recorded serial number, and replies the signaling to the application platform corresponding to the ID according to the corresponding relation between the recorded signaling channel and the ID of the application platform. In the method, the corresponding relation based on the ID and the serial number is established between the protocol stack and each application platform, thus realizing signaling interaction between a plurality of application platforms and the protocol stack, and improving the service efficiency of the protocol stack.
+165. 101388758 Method and apparatus for ACK/NACK information decoding by E-HICH channel
+CN
+18.03.2009
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+200810173515.6
+Chongqing CYIT Communication Technology Co., Ltd.
+Chen Xin
+H04L 1/18
+Loading...
+The invention discloses a method of decoding ACK/NACK information of an E-HICH communication channel and a device, the method of the invention comprises the following steps: obtaining soft information sequences of each of received frames and carrying out related calculation with a bipolar convert sequence of a corresponding extended sequence, judging related results according to a predetermined fixed judgment threshold in a predetermined period, and counting the quantity of the obtained ACK and NACK information, calculating a posterior judgment threshold according to the counted out information quantity, judging the related calculating results through adopting the posterior judgment threshold, and then judging the ACK and NACK information and decoding. The device of the invention comprises an extended sequence generating module, a bipolar conversion module, a related computation module, a threshold calculation module and a judgment output module. The invention judges the quantity of the received ACK/NACK, and calculating the posterior judgment threshold according to the counted out information quantity, and the invention has the advantages of dynamic updating, accurate judgment, and simple calculating process and easy to realize.
+166. 101388723 Radio communication timing synchronization method, cell searching method and system
+CN
+18.03.2009
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+200810232936.1
+Chongqing CYIT Communication Technology Co., Ltd.
+Tan Shu
+H04W 48/16
+Loading...
+The invention discloses a method for timing and synchronizing wireless communication, a method for searching districts and a system thereof. The method fully utilizes the time domain repetitiveness of a main synchronizing signal in a 5ms period and comprises: firstly, adopting predetermined step length sliding time domain cross-correlation to realize blind timing coarse synchronization with low complexity and without local synchronizing signal reconstruction, simultaneously, using normalized correlation processing to resist strong interference, finally, realizing timing fine synchronization with high precision, and correcting receiver integer multiple residual frequency deviation simultaneously. The method can realize timing and synchronization rapidly and accurately in particular in environment with low signal to interference and noise ratio, thereby realizing district searching in a long term evolution wireless communication system. The method can realize downlink timing and synchronization when the signal quality is in the sensitivity position of a terminal receiver and in the environment with strong interference.
+167. 101388751 Rate de-matching method
+CN
+18.03.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810232937.6
+Chongqing CYIT Communication Technology Co., Ltd.
+Wang Jun
+H04L 1/00
+Loading...
+The invention provides a method for solving rate matching, which comprises the following steps: without inserting dummy bits into receiving data, which are added during the dividing of code blocks and the interweaving of sub-blocks before the de-repeating operation or the de-drilling operation, directly carrying out the de-repeating operation or the de-drilling operation to the receiving data, then carrying out the de-bit-collecting and the de-interweaving, wherein for the rate de-matching of Turbo codes, the process of inserting the dummy bits into the receiving data, which are added during the dividing of the code blocks and the interweaving of the sub-blocks, is concealed, and the de-repeating operation or the de-drilling operation can be carried out only through calculating the length of non-dummy bits in the former Ncb of data and the former k0 of data in the data after the collection of bits in the rate matching, and for the rate de-matching of convolution codes, the method is more simplified, namely the de-repeating operation or the de-drilling operation can be directly carried out to the receiving date according to the size of transmission blocks. Compared with the prior art, the method simplifies the de-rate matching process, reduces the data transmitting process, greatly reduces the processing time, reduces the data quantity which needs to be processed and improves the processing efficiency.
+168. 101340206 Determination feedback multiple cell combined channel estimation method and apparatus
+CN
+07.01.2009
+H04B 1/7105 Loading...
+H04B 1/7105
+Loading...
+200810069927.5
+Chongqing City Communication & Technology Co., Ltd.
+Tan Shu
+H04B 1/7105
+Loading...
+The invention provides a method used for judging and feedbacking the multi-cell combined channel estimation and a device thereof in order to overcome the defects in the prior art that a Steiner estimator together with an interference canceller takes training sequence code midamble signals of adjacent co-frequency cells as noise without using the signals as useful information, so as to cause the channel estimation performance of the Steiner estimator to be continuously deteriorated and the data demodulation performance to decrease obviously. The method for judging and feedbacking the multi-cell combined channel estimation estimates the channels by adopting the combination of the multi-cell information and eliminates a noise tap by judging and feedbacking; the combined estimation is carried out by taking the co-frequency interference as the useful information, at the same time, the wrong information diffusion existing in the multi-cell combined channel estimation is effectively avoided or reduced by the judging and feedbacking, and the purpose of accurately obtaining the estimation of channel parameters of each cell in the environment with bad co-frequency interference is achieved.
+169. 101335729 Fixed-point soft decision demodulation method of quadrature amplitude modulation technique
+CN
+31.12.2008
+H04L 27/04 Loading...
+H04L 27/04
+Loading...
+200810069691.5
+Chongqing City Communication & Technology Co., Ltd.
+Wang Jun
+H04L 27/04
+Loading...
+Aiming at solving the defects of large error and high calculation and hardware implementation complexity of QAM (quadrature amplitude modulation) demodulation method in prior art, the invention proposes a fixed-point soft-decision demodulation method using QAM technology. The fixed-point soft-decision demodulation method for using QAM technology of the invention carries out soft decision on part defined bits of a received symbol with the mean of the absolute values of real part and imaginary part of the received symbol and then carries fixed-point soft decision on other bits with the hard-decision information of the part defined bits, thus simplifying the calculation and guaranteeing the modulation performance. In addition, the method is easy to be implemented with chip fixed-point algorithm.
+170. 101291508 Storing and invoking method for drive test data of mobile communication system
+CN
+22.10.2008
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+200810069815.X
+Chongqing Chongyou Information Technology Co., Ltd.
+Qiu Jiang
+H04W 24/08
+Loading...
+To solve the problems of the prior art that the drive test data storage and transfer method has low efficiency and poor effect, the invention provides a method for storing and transferring drive test data of a mobile communication system. The method for storing and transferring the drive test data of the mobile communication system utilizes a memory index to manage the data stored in a bi-directional list and adjusts the drive test data stored in the bi-directional list according to data information selected in a data information list box. By utilizing the method for storing and transferring the drive test data of the mobile communication system, the drive test data can be searched and transferred in a smaller local range at a high speed firstly and then be searched and transferred in the whole range. In addition, the method adjusts the drive test data stored in the bi-directional list according to the data information selected in the data information list box, thereby improving the drive test data searching and transferring efficiency and effect.
+171. 101291491 Information interaction method for connection information of user recognition card between application layer and protocol stack
+CN
+22.10.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810069814.5
+Chongqing Chongyou Information Technology Co., Ltd.
+Zhao Chunze
+H04L 29/06
+Loading...
+To overcome the defect of an unified information interaction interface of the application layer of UE produced by different manufacturers and a protocol stack in the prior art, the invention provides an information interaction method for the user identification card linkage information between the application layer of a wireless terminal and the protocol stack. The method adopts an AT command to realize the information interaction of USIM linkage information between the UE application layer and the protocol stack, thereby enabling UE to correctly realize the information interaction of USIM linkage information between the UE application layer and the protocol stack through the AT command, and also enabling information interaction interface of the application layer of UE produced by different manufacturers and the protocol stack to be unified and standardized.
+172. 101286820 Receiving method and device for high-speed data service
+CN
+15.10.2008
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810110767.4
+Chongqing Chongyou Information Technology Co., Ltd.
+Tan Shu
+H04L 1/00
+Loading...
+The invention relates to a receiving method and a device thereof for high-speed data services in the field of communication systems, in particular to a receiving method and a device thereof for high-speed data services in time division, synchronous code-division multiple access wireless communication systems. The method and the device of the invention take the minimum TTI of every transmission channel component of coding multiplexing transmission channels in target high-speed data services as a time unit, respectively receive every time slot data of all subframes in respective regions, follow the system matrices in the historical record to detect relevant data if the present time slot can inherit historical information relevant to system matrices, or otherwise detect data according to normal proposals and update historical data. According to the features that distribution of code channel resources is unified at the same transmission time interval in the data services and channel change during periods of time relevant to channels can be neglected, by making use of inheritance thought of system matrices and following system matrices in historical record, the method and the device of the invention reduce data processing complexity and realize the purpose of promoting processing efficiency of receivers, saving energy consumption and reducing cost without worsening receiving performance.
+173. 101286973 Signal-noise ratio estimation method for high-order orthogonal amplitude modulation technique
+CN
+15.10.2008
+H04L 27/34 Loading...
+H04L 27/34
+Loading...
+200810069632.8
+Chongqing Chongyou Information Technology Co., Ltd.
+Wang Jun
+H04L 27/34
+Loading...
+The invention provides a method for estimating signal-to-noise ratio in a higher order quadrature amplitude modulation technique, which aims at solving the problems of comparatively large calculation amount and estimation bias, etc. in the existing signal-to-noise ratio estimation methods in the higher order quadrature amplitude modulation technique. The method of the invention calculates the average energy of receiving signals according to the average absolute value of the real part and imaginary part of the receiving signals, calculates the noise energy of the receiving signals according to the decision value of the absolute value and corrects the estimated signal-to-noise ratio according to the ratio between the average energy and the noise energy. The method for estimating signal-to-noise ratio in the higher order quadrature amplitude modulation technique of the invention does not need to carry out hard decision of constellation points on higher order quadrature amplitude modulation towards the de-spread receiving signals, which reduces calculation amount. Moreover, signal-to-noise ratio is corrected by using the ratio between the square value of the average absolute value and the average value of the square of the absolute value, which improves efficiency and reduces the estimation bias under the condition of low signal-to-noise ratio.
+174. 101227694 Method and apparatus for obtaining TD-SCDMA system noise power, signal-noise ratio and signal-interference ratio
+CN
+23.07.2008
+H04W 52/24 Loading...
+H04W 52/24
+Loading...
+200810069201.1
+Chongqing Chongyou Information Technology Co., Ltd.
+Tan Shu
+H04W 52/24
+Loading...
+The invention provides a method and device for obtaining noise power, signal-to-noise ratio and signal to interference ratio of a TD-SCDMA system, which is provided for solving the problems that the method of the existing art for obtaining noise power, signal-to-noise ratio and signal to interference ratio can not be applied in complicated wireless channel environment, and the estimation of noise power, signal-to-noise ratio and signal to interference ratio are led to be inaccurate. The method and device for obtaining noise power, signal-to-noise ratio and signal to interference ratio of the invention comprises utilizing an ascertained noise tapping head with higher reliability in TSO time slot channel to correct with efficiency power to obtain noise power, and only renewing in preset time according to the stability character of environment noise power, avoiding the problem that bigger calculating amount is brought by long-term and continuous obtaining. The method and device for obtaining noise power, signal-to-noise ratio and signal to interference ratio of the invention can accurately, timely and reliably obtain noise power, signal-to-noise ratio and signal to interference ratio under the circumstance that channel environment is extremely bad.
+175. 101202954 Method for self-activating UE in MBMS broadcast mode
+CN
+18.06.2008
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200710093003.4
+Chongqing Chongyou Information Thchnology(Group) Co., Ltd.
+Bi Min
+H04W 4/06
+Loading...
+In order to ensure that a UE end can smoothly establish an MBMS broadcast business with a network end, the MBMS broadcast business can be carried out smoothly and the interactive activation between the network end and the UE end in the process of establishing the MBMS broadcast business can be completed, the invention discloses a UE self-activating method under the MBMS broadcast mode in a CDMA system. The UE self-activating method of the invention under the MBMS broadcast mode stores the secret key of the MBMS business by UE and transfers the secret key to an upper layer protocol stack. The UE monitors the related parameters of the MBMS business in the district network messages and judges whether the MBMS business receiving can be carried out according to the supporting ability of the UE end and the network condition and informs the UE operator, so the UE operator decides the formal activation of the MBMS business.
+176. 101159444 Decoding method of transformat combined indication
+CN
+09.04.2008
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710092956.9
+Chongqing Chongyou Information Technology Co., Ltd.
+Shen Jing
+H04L 1/00
+Loading...
+To solve the deficiency of TFCI decoding method in prior art that the decoding performance and efficiency are relatively low due to the ignorance of searching scope, the invention proposes a decoding method that utilizes the table of transmission format combination set to indicate the transmission format combinations. The method makes full use of the maximum number of decimal TFCI values that can actually be sent found by searching the transmission format combination set table (TFCS table for short) and allows to search maximum values only in the matrix of hatta code alternations of the actually available TFCI values, thus reducing the scope of TFCI decoding and the amount of computation and enhancing the performance of decoding. Therefore, the transmission format combination directive decoding method offered by the invention has a series of advantages such as small computation amount, high efficiency and good performance.
+177. 101159445 Window accumulation based channel swash response post-processing method and apparatus
+CN
+09.04.2008
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200710092958.8
+Chongqing Chongyou Information Technology Co., Ltd.
+Tan Shu
+H04L 25/02
+Loading...
+To overcome the shortcomings with the post-processing method in prior art for the channel estimate outputted by Steiner estimator that produces limited effect in processing noise interference and failure to obtain the best postprocessing performance. The invention proposes a channel shock response post-processing method and device based on window cumulation, which are mainly used in downlink business time slot when training sequence middle code distribution method is default or assigned by the user. The inventive channel shock response post-processing method and device makes full use of the linear relationship of the activated user information in the downlink channel shock response so as to minimize the impact by the noise and enhance the performance of subsequent joint detecting processes. The method and device is capable of achieving high-performance channel shock response post-processing when the channel environment is extremely bad or the code track occupation tends to be full.
+178. 101159951 HSDPA channel quality indication calculating method of TD-SCDMA system
+CN
+09.04.2008
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200710092957.3
+Chongqing Chongyou Information Technology Co., Ltd.
+Wu Chaofeng
+H04B 17/00
+Loading...
+The invention provides a calculation method of HSPDA channel quality indicators in a TD-SCDMA system and aims to allow the UE of HSPDA in the TD-SCDMA system to self-adaptively select CQI parameters based on the channel quality and thus to maintain the data transmission of HSPDA at high efficiency. The method can self-adaptively select the proper transmission block size and modulation mode (that is CQI) according to the SINR of the current channel measured by the UE and recommend to the network side, so as to increase the system throughput approximate to the maximum capacity under such conditions as the current channel environment and wireless resource. The inventive channel quality indicator calculation method employs the combination of simulated test, straight line fit and modulation mode switch, to solve the problem of complex combination calculation when the UE self-adaptively selects the transmission block size and modulation mode under the conditions of different physical resources. The invention improves the accuracy of CQI report, and forms a simple and easy process for CQI calculation and report on the premise of ensuring the accuracy of CQI report.
+179. 101132217 Method and apparatus for implementing internal information interaction of repeater station adopting AT instruction
+CN
+27.02.2008
+H04B 7/145 Loading...
+H04B 7/145
+Loading...
+200710092517.8
+Chongqing Chongyou Information Technology Co., Ltd.
+Li Tun
+H04B 7/145
+Loading...
+This invention puts forward a method and a device for interacting information in a repeater of the TD-SCDMA system to set up instructive information interaction between communication module and monitor module and transfer network information received by the repeater to the monitor module by instruction, which adjusts and maintains various parts of the repeater based on it and transmits the monitor information to the communication module by short message and then to the network manager to send adjustment and control information to the repeater based on the monitor information so as to realize remote maintenance of repeaters.
+180. 101106422 Terminal synchronization method and device for TD-SCDMA system repeater
+CN
+16.01.2008
+H04L 27/00 Loading...
+H04L 27/00
+Loading...
+200710092518.2
+Chongqing Chongyou Information Technology Co., Ltd.
+Li Tun
+H04L 27/00
+Loading...
+To overcome the drawbacks of the prior art repeater that the setting location is limited, the original signal is destroyed, the GPS signal is needed and so on, the invention proposes a method and means that by using the wireless signal transmitted by the base station, and by utilizing characteristics window method to searching and determining the position of DwPTS, a primary synchronization of the repeater and the base station (so-called coarse synchronization) is realized; then, by the sliding correlation processing of SYNC-DL code, a chip-level synchronization of the repeater and the base station (so-called fine synchronization) is realized; then, by using the midamble codebook to estimate the channel impulse response of the repeater and obtaining the synchronization deviation estimation, the synchronization of the repeater and the base station below the chip level is realized, and thereby every function of the repeater is ensured to be realized successfully. Because the synchronization mode of the repeater in the invention is much like that of the mobile wireless terminal, the invention is called as a 'terminal synchronization'method. The repeater designed by using terminal synchronization method is also called as a 'terminal synchronizing repeater'. The terminal synchronizing repeater in the invention utilizes the terminal synchronization method of TD-SCDMA system, and thus the wireless communication between the network management and the repeater is very easy to be realized.
+181. 101102144 An identification method for downlink synchronization code modulation sequence and its phase sequence
+CN
+09.01.2008
+H04B 1/7075 Loading...
+H04B 1/7075
+Loading...
+200710078615.6
+Chongqing Chongyou Information Technology Co., Ltd.
+Shen Jing
+H04B 1/7075
+Loading...
+The invention is concerned with the new confirming method of the phase modulating sequence for keeping the effect of the negative direction frequency migration to the related phase modulating sequence detection within limits and confirms the S1 phase list. It is keeping the S1 phase sequence and its transition sequence, the S2 phase sequence and its transition sequence that all of them are not related at all.
+182. 101102121 Full frequency band frequency point scanning method of time-division-synchronization code multi-address division system
+CN
+09.01.2008
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200710078616.0
+Chongqing Chongyou Information Technology Co., Ltd.
+Tan Shu
+H04B 17/00
+Loading...
+The invention is concerned with the point frequency scanning method of mobile terminal frequency segment to perform under interference environment of all sorts. It applies the low connection filtering method to eliminate the disturbance of the signal incept power volume by noise and the channel fading, directs the adjustment of the point frequency AGC and the frequency power measurement with different reference guide line separately, and conducts fitting and smoothing treatment to all the frequency section measuring volume data, and finally, generates the candidate frequency list by applying the method of power section peak value selection.
+183. 101098556 Processing method for improving success rate of communication
+CN
+02.01.2008
+H04W 8/02 Loading...
+H04W 8/02
+Loading...
+200710078589.7
+Chongqing Chongyou Information Technology Co., Ltd.
+Li Guiyong
+H04W 8/02
+Loading...
+The invention provides a method for improving communication success rate, which can avoid call failure caused by long call time of RRC connection when UE processes CS domain user call, to improve the communication success rate of UE. The invention starts a timer T303 only the CC layer of UE side judges the MM connection is built. The invention uses the CC layer at UE side to judge the MM connection build confirm message of MM layer (abbreviated as MMCC_EST_CNF)to judge if the MM connection is built or not.
+184. 101090379 Method and device for joint detection by kalman filter
+CN
+19.12.2007
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200710092461.6
+Chongyou Xinke (Group) Co., Ltd., Chongqing
+Shen Jie
+H04L 25/02
+Loading...
+This invention puts forward a method and a device for applying Kalman filter to detect jointly in a multi-user detection process of a radio mobile communication system, which fully utilizes the adaptive character of the Kalman to minimize the channel forecast error and mean square error of received data in the detection process and calculate channels accurately, at the same time, it fully utilizes the iteration operation ability and adaptiveness of the Kalman and estimates channel at the state when it does not need testing information first to realize blind test so as to save resources for expanding spread codes and getting more code channels.
+185. 101079678 A speed matching algorithm for computing and identifying hole/repeated bit position
+CN
+28.11.2007
+H04J 3/07 Loading...
+H04J 3/07
+Loading...
+200710078666.9
+Chongqing Chongyou Information Technology Co., Ltd.
+Li Jiewen
+H04J 3/07
+Loading...
+The invention discloses a counting and marking method of punching/repeating bit position, which is characterized by the following: establishing the method based on DSP order system and order pipeline executing property; realizing easily in the DSP processor; saving time consumption due to calculating non-punching or repeating bit position; saving system resource without occupying over order code of IR; fitting for optimizing different punching rate of kinds of transmission business in the 3GPP 34.108 through artificial test experiment.
+186. 101060671 A downlink synchronous pilot frequency time slot search method
+CN
+24.10.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710078500.7
+Chongqing Chongyou Information Technology Co., Ltd.
+Wu Chaofeng
+H04Q 7/32
+Loading...
+The down pilot frequency time slot search method comprises: before synchronizing frame, estimating the received signal SNR, and determining following search method accordingly. Thereby, this invention uses current feature window method for high SNR, and first eliminates noise then uses the feature window method.
+187. 101056139 Method for realizing the downlink rough synchronization in the initial search process of TD-SCDMA system cell
+CN
+17.10.2007
+H04B 1/7083 Loading...
+H04B 1/7083
+Loading...
+200710078499.8
+Chongqing Chongyou Information Technology Co., Ltd.
+Tan Shu
+H04B 1/7083
+Loading...
+The present invention provides a downlink rough synchronization method in the initial searching process of cell in the TD-SCDMA system. Said method adopts a 'resynchronization' method to perform the downlink rough synchronization in the cell initial searching process and uses a multi-frame character window power ration contrapuntal superposition method to smooth the noise influence and the correct downlink rough synchronization position is shown; then the validity of the initial position can be judged by using the power ration of the two positions, and if the requirement of the rough synchronization can be satisfied after said process, the rough resynchronization is not need; in the rough resynchronization process, a convenient and reasonable step of anti-big-interference process is adopted to eliminate the influence to the downlink rough synchronization by the big interference effectively. Thus, users can realize the rough synchronization in the cell initial searching process quickly and accurately in the environment having low signal-to-noise ratio.
+188. 101052225 Processing method for call abnormal situation
+CN
+10.10.2007
+H04W 76/00 Loading...
+H04W 76/00
+Loading...
+200710078378.3
+Chongyou Xinke (Group) Co., Ltd., Chongqing
+Li Guiyong
+H04W 76/00
+Loading...
+The method comprises: after UE establishes the RRC connection and enters into CELL-FACH state, it sends the call CONFIRM message to network; after a while, if the call connection can't be kept (namely the connection is successful or failure), UE release the RRC connection to avoid the UE keeps in CELL-FACH state and doesn't release the RRC connection so as to improve the UE stability. The invention sets up a timer on CC layer at network side, after the UE sends the CALL CONFIM message, the timer is opened, and after the CC layer enters other state except the call received state, the timer is stopped; after the timer is overtime, the RRC connection is released; returning to idle state.
+189. 101047721 Method for data filter process using DMA controller
+CN
+03.10.2007
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200710078379.8
+Chongqing Chongyou Xinke (Group) Co., Ltd.
+Tang Xindong
+H04L 29/08
+Loading...
+This invented method combines transmitted data of DMA controller with the function of data filter and process to increase filter function of the DMA controller in the read/write process of data transmission when it is enabled at the correlation control bit, when it is not enabled, the DMA controller reads and writes for data transmission directly in the process of read/write of data transmission and the write data and the read data are the same so as to lighten the operation burden of CPU and increase the operation efficiency.
+190. 101047475 Design method for HARQ technical data buffer store and its circuit
+CN
+03.10.2007
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710078451.7
+Chongqing Chongyou Xinke (Group) Co., Ltd.
+Bi Min
+H04L 1/00
+Loading...
+A method for designing buffer storage of HARQ technical data includes increasing space utilization rate of internal storage on HARQ chip and using external storage of HARQ chip to store partial data in HARQ data treatment process for satisfying storage amount required in HARQ data treatment process. The circuit used for realizing said method is also disclosed.
+191. 101047422 Method for implementing synchronous under code stage of time-division-synchronous CDMA system
+CN
+03.10.2007
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+200710078450.2
+Chongyou Xinke (Group) Co., Ltd., Chongqing
+Tan Shu
+H04W 56/00
+Loading...
+A method for realizing synchronization under code chip level in TD-SCDMA system includes sufficiently utilizing train sequence information of broadcast channel to carry out synchronization under code chip level, using broadcast channel train sequence information to replace service time slot to carry out synchronization under code chip level, utilizing strong multi-path interference-removal step to eliminate off influence of strong multi-path on synchronization under code chip level, enabling to quickly and accurately realize synchronization under downlink code chip level in TD-SCDMA system at environment of low S-N ratio and strong multi-path.
+192. 101039480 Method for accessing quickly USIM card basic document of user terminal
+CN
+19.09.2007
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+200710078381.5
+Chongqing Chongyou Information Technology Co., Ltd.
+Zhao Chunze
+G06K 19/073
+Loading...
+The inventive method only reads once of the accessing conditions contained in the EFarr document under different directories, and stores it in the corresponding accessing condition buffer zone when it reads the accessing condition for the first time, thus avoiding the repeat read to a same record, to quicken the document accessing pace. When it is needed to visit an EF document, firstly the accessing sign in thecorresponding accessing condition buffer zone is read based on the buffer zone directory document sign of the EF document and the EFarr recording index, and judges: if the accessing condition of the EF document, the EF document is accessed based on the accessing condition; if it has not been stored, it indicates that it is the first time to access the EF document, so that it is required to mark and record the indexing information based on the EFarr document of the EF, read the accessing condition of the EF document, and stores it in the corresponding accessing condition buffer zone, and then accessing the EF document based on the accessing condition. Along with the increase of the visited EF documents, the accessing conditions stored in the accessing condition buffer zone are gradually increasing.
+193. 101035372 Fast matching method of AT instruction identifier
+CN
+12.09.2007
+H04W 88/18 Loading...
+H04W 88/18
+Loading...
+200710078237.1
+Chongqing Chongyou Information Technology Co., Ltd.
+Zhao Chunze
+H04W 88/18
+Loading...
+The invention is a matching method in a 'children-brothers' mode, only arranging the known characters of AT instruction identifier in sequence into a tree structure, and in the matching course, as long as matching with some node, not matching for follow-up brother nodes of this node and children nodes of the brother nodes any more, largely reducing the matching comparison objects, effectively shortening searching time for matching and raising matching efficiency.
+194. 101034961 Management method and device of IR buffer in the multi-process HARQ technology
+CN
+12.09.2007
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+200710078383.4
+Chongqing Chongyou Information Technology (Group) Co., Ltd.
+Luo Ganghua
+H04L 1/18
+Loading...
+The invention advances a management method for dynamically managing IR buffers of multi-process HARQ technique, making dynamic allocation of IR buffers of multi-process HARQ technique to make each process able to occupy the physical space of IR buffer only when needing to store data, and when data decoding in some process succeeds, this process will occupy no more physical space of IR buffer so as to raise IR buffer utilization efficiency. And the invention also advances a device for managing IR buffers by the management method.
+195. 101035373 Method for using the AT instruction to realize the CCBS service
+CN
+12.09.2007
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+200710078380.0
+Chongqing Chongyou Information Technology (Group) Co., Ltd.
+Zhao Chunze
+H04W 4/14
+Loading...
+The invention advances a communication mode using AT instructions, establishing a message communication mode for implementing CCBS service between UE's application layer and protocol stack and making UE able to compactly and completely implement the interactive flow of CCBS service between UE and network side through the AT instructions. And the invention takes the related communication messages between UE's protocol stack and network side's equivalent layer of the CCBS service as the basis, UE's application layer requests to transmit user events to UE's protocol stack by the AT instructions, and by the AT instructions, the UE's protocol stack responds to transmit the protocol stack or the user event processing result of the network side to the UE's application layer and actively reports the network events happening in the user event processing course through URC to the UE's application layer.
+196. 101031151 Method for increasing called success probability
+CN
+05.09.2007
+H04Q 7/38 Loading...
+H04Q 7/38
+Loading...
+200710078186.2
+Chongyouxinke Co., Ltd., Chongqing
+Chen Xianliang
+H04Q 7/38
+Loading...
+By the invention, in case of not influencing the cell reselection process, the system operation message and the channel-monitored operation message are simultaneously received during one TTI so as to ensure the monitor continuously kept to channels and the paging signals correctly received from the network side.
+197. 101031152 Method for shortening user-terminal re-selection time delay under empty mode
+CN
+05.09.2007
+H04W 36/30 Loading...
+H04W 36/30
+Loading...
+200710078188.1
+Chongyouxinke Co., Ltd., Chongqing
+Chen Xianliang
+H04W 36/30
+Loading...
+The method comprises: evaluating threshold parameters-Sintrasearch and Sintersearch as the maximum value allowed by parameter S of serving cell, and saving it, such that no matter how the measurement value of serving cell varies, its corresponding S is always less than Sintrasearch and Sintersearch; thus, the RRC can open the measurement to all cells at any time and is not limited by the comparison result between S, Sintrasearch and Sintersearch, and the UE can monitor the quality of cell signals at any time.
+198. 101030975 Processing method for increasing responding speed of protocol AT commands
+CN
+05.09.2007
+H04W 80/00 Loading...
+H04W 80/00
+Loading...
+200710078238.6
+Chongyouxinke Co., Ltd., Chongqing
+Zhao Chunze
+H04W 80/00
+Loading...
+The method comprises: setting multi AT command buffers in protocol stack for use in respectively saving different service AT commands and their relevant information sent from user end; the protocol stack processes the information saved in different AT command buffers in order to make multi different AT instructions sent from application layer get parallel responses in the protocol stack. In invention can make the process for the AT command in the protocol stack changed from series to parallel so as to improve the processing speed and avoid 'break down'.
+199. 101026390 Method for accurately deterimining downlink guaranteed time slot
+CN
+29.08.2007
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+200710078129.4
+Chongqing Chongyou Xinke Co., Ltd.
+Wu Chaofeng
+H04W 56/00
+Loading...
+The disclosed decision method combines sliding correlation method with character window method. That is to say in medium and high SNR, character window method with less operation quantity is adopted; in low SNR, sliding correlation method is adopted. The disclosed decision method guarantees to find DwPTS position and SYNC code as much as possible precisely under each condition of SNR, also guarantees that operation quantity is not too big. In condition -6 to 6 SNR, the invention ensures good searching effect; in medium, high SNR, searching success ratio of determining DwPTS position accurately is 100%; in low SNR, searching success ratio of determining DwPTS position accurately is also quite high, in -5dB, the searching success ratio reaches to 90%.
+200. 101026439 Decoding method for increasing Turbo code decoding rate
+CN
+29.08.2007
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710078191.3
+Chongqing Chongyou Xinke Co., Ltd.
+Tang Ming
+H04L 1/00
+Loading...
+Simplifying structure of SISO decoder, the disclosed decoding method only needs checking info and prior info being as input info. Calculating forward state measuration (SM) for current sub frame, parallel sliding window also calculates backward SM for previous sub frame at same time. But, only forward SM of decoder is stored. De-interlaced outer info l2 k corresponding to data position read from memory SBUF added to system info is as a prior info z1k for SISO decoder 1. Interlaced summation between output outer info l1k and system info stored in memory SBUF is as a prior info z2k for SISO decoder 2. When SISO decoder 1 calculates forward / backward SM for next iteration, outer info 12k from SISO decoder 2 completes de-interlacing; and the summation of de-interlaced data and system info is as prior info z1k for SISO decoder 1. Adventages are: simplifying structure of Turbo decoder, and the input for SISO decoder 1; raising code rate to 1/1 from 1/2; and increasing decoding rate.
+

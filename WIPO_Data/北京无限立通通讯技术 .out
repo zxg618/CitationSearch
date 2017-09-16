@@ -1,0 +1,61 @@
+1. 102385549 日志处理系统、日志处理方法和日志存储子系统
+CN
+21.03.2012
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201010271815.5
+北京无限立通通讯技术有限责任公司
+肖保锋
+G06F 11/34
+Loading...
+一种日志处理系统、日志处理方法和日志存储子系统，该日志处理系统包括：生成日志信息的应用子系统；独立于应用子系统并存储日志信息的日志存储子系统；分析日志信息的日志分析子系统；应用子系统具体用于将日志信息发给日志存储子系统，日志存储子系统具体用于使用消息队列的形式存储日志信息，日志分析子系统具体用于从日志存储子系统读取日志信息并分析日志信息。通过本发明实施例，在日志处理过程中，尽量不占用日志处理系统中的应用子系统的存储资源，从而减少对应用子系统的影响。
+2. 101867607 Distributed data access method, device and system
+CN
+20.10.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010187047.5
+Beijing Leadtone Wireless Co., Ltd.
+Cui Xumin
+H04L 29/08
+Loading...
+The invention provides a distributed data access method, a device and a system. The method comprises the following steps: receiving a data access request of users; determining a buffer storage server required by data access; obtaining the data results from the determined buffer storage server; and displaying the results of the data access for the users. The invention solves the problem of visit pressure caused during the visit of a center server by terminal users, and improves the usability of the distributed buffer storage system.
+3. 101859316 Method and device for mass file access
+CN
+13.10.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010163051.8
+Beijing Infinite Leadtone Communication Technology Co., Ltd.
+Cui Xumin
+G06F 17/30
+Loading...
+The invention discloses a method and a device for mass file access. The method comprises the following steps: obtaining a user name, conducting code computation to the user name and obtaining an integer sequence corresponding to the user name; dividing the integer sequence into two parts, wherein one part is used as a primary directory, the other part is used as a secondary directory of the primary directory and the user name is used as a tertiary directory under the secondary directory; and accessing user data corresponding to the user name under the tertiary directory. By adopting the embodiment of the invention, through the integer sequence corresponding to the user name, the user data can be evenly distributed in a plurality of directories. Moreover, through adopting a multilevel storage method, the user data under each directory is reduced. Thereby, the invention has the advantages that the mass data is supported and the access efficiency is improved.
+4. 1457181 Method for realizing mobile realtime e-mail delivery by mobile short-message and mobile IP network
+CN
+19.11.2003
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+03119473.7
+Wuxian Litong Communications Technological Co., Ltd., Beijing
+Wang Haoming
+H04L 12/58
+Loading...
+A mailbox address with specific domain name in a mail server is assigned for a handset user. When an E-mail arrives, the Push mail gateway server sends a notice message to the mobile terminal device. With said notice message received, the mobile terminal device through mobile IP network connects the Push mail station to get the E-mail. The mobile terminal uses the commands in the mail access protocol to log on, define, receive and send mails by using the Push mail gateway. Transmitting a mail is to put the mail in a XML file, and then send it through TCP connection. The advantages of the invention are that uses can use own handset terminal to receive E-mail, read the E-mail and related attachment.
+5. 1457212 Method for realizing realtime mobile e-mail delivery by mobile short-message
+CN
+19.11.2003
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+03119472.9
+Wuxian Litong Communications Technological Co., Ltd., Beijing
+Wang Haoming
+H04Q 7/32
+Loading...
+The method assigns a domain name for handset users by using a main server. Push mail gateway server through MNAP interface protocol fetches mails new arrived on the user's account. With being compressed, the said new mails are sent to the user's mobile terminal device in short message format. The mobile terminal device sends mail to be delivered in SEED format to the Push mail gateway server. Then, the mails through MNAP protocol are sent to a sending out queue of the mail server. When a short message in SEED format is arrived, the mobile terminal device decompresses the combined short message into original mail. The invention possesses the advantages of real time mobile E-mail, letting users know whether a mail is arrived or not immediately. Thus, users will not waste time and memory to log online when no new mail is arrived.
+

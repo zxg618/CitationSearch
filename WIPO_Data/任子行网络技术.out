@@ -1,0 +1,505 @@
+1. 106603734 CDN服务IP检测方法和系统
+CN
+26.04.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510677263.0
+任子行网络技术股份有限公司
+张则梁
+H04L 29/12
+Loading...
+本发明公开了一种CDN服务IP检测方法，包括：向DNS服务器发送域名解析请求，提取DNS服务器返回的DNS应答包中包含的IP地址；向IP地址发送超文本传输协议http请求，获取http应答信息；根据DNS应答包和http应答信息提取CDN标识属性的属性值；以及根据CDN标识属性的属性值，利用根据朴素贝叶斯原理形成的CDN分类器判断IP地址是否是CDN服务IP，并输出判断结果。本发明利用多种CDN标识属性，并通过朴素贝叶斯原理形成的CDN分类器进行分析，相比于传统的只针对一个或多个特征进行简单的判断，更加准确，不会因某个站点不具备某项特征就被误判断。此外，本发明选取的CDN标识属性，是通过大量实际网站数据分析而得出来的，更加真实、可靠。
+2. 106599155 一种网页分类方法及系统
+CN
+26.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016001117608
+北京亚鸿世纪科技发展有限公司
+谢念
+G06F 17/30
+Loading...
+本发明公开了一种网页分类方法，包括：抓取并从网页的文本数据中提取所述网页的关键词；将所述关键词与已分类好的网页特征词库中的特征词进行匹配，统计所述特征词的词频总数；判断所述词频总数是否小于预设的阈值；若是，则截取并根据所述网页的页面图像对所述网页进行分类；若否，则根据多个所述特征词及其对应的词频对所述网页进行分类。由此，所述方法综合利用图像信息与文本信息，有机地结合了基于文本信息对网页进行分类和基于图像信息对网页进行分类的方法，通过准确的判断待分类网页属于短文本网页还是长文本网页，选择最合适有效的网页分类步骤，相比现有的网页分类方法，其在对现行的网页进行分类时有更高的准确率和召回率。
+3. 106603278 基于审计数据管理模型的网络应用审计管理方法和装置
+CN
+26.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016001086115
+任子行网络技术股份有限公司
+游帅
+H04L 12/24
+Loading...
+本发明公开了一种基于审计数据管理模型的网络应用审计管理方法和装置。所述方法包括：基于待测网络应用的不同属性，将网络应用细分为不同的审计目标；对审计目标的上网行为进行分析和审计，选择上网行为匹配的审计策略，并得到相应的审计结果；基于审计目标、上网行为、审计策略、审计结果之间的对应关系，建立审计数据管理模型；基于建立的审计数据管理模型，对待测的网络应用进行相应的审计管理。本发明提供的网络应用审计管理方法，针对待测网络应用在不同属性，不同的上网行为，不同审计结果下，合理选择审计策略，实现了对待测网络应用的精细化审计管理，提高了审计管理效率。
+4. 106570163 一种面向不可靠环境的审计日志读写管理方法以及系统
+CN
+19.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000976059
+深圳市任子行科技开发有限公司
+刘永强
+G06F 17/30
+Loading...
+一种面向不可靠环境的审计日志读写管理方法以及系统，方法包括：写入步骤，将审计设备中审计程序产生的审计日志周期性地备份至硬盘中的与时间相关的日志文件；读取步骤，根据用户选定的时间调取相应的日志文件，并将调取的日志文件导入数据库以进行查询。本发明审计日志写入日志文件，即使写入时发生断电，也只有最后一条写入日志受影响，降低了突然断电时系统的损坏概率；当用户进行日志查询时，根据用户选定的时间调取日志文件并导入数据库，在日志文件的显式导入过程中，因为用户知道导入过程的存在，不会关闭设备电源，因此系统在日志导入数据库过程中出错的可能性大大降低，进一步地，查询时采用列存储类型的数据库，可提高日志写入速度。
+5. 106570133 一种可视化的网页信息提取规则的构建方法和装置
+CN
+19.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610956895.5
+任子行网络技术股份有限公司
+李少敏
+G06F 17/30
+Loading...
+本发明公开了一种可视化的网页信息提取规则的构建方法和装置。所述方法包括：根据用户选择的网页元素，利用网页节点分析算法获取网页元素的参数信息；根据获取到的网页元素参数信息，对相应的网页信息提取动作所需的配置参数进行填充；在预设的可视化的规则动作管理区，对所需的网页信息提取动作进行相应操作，生成相应地网页信息提取规则。本发明提供的可视化的网页信息提取规则的构建方法，既免除了用户对网页结构的分析，降低了用户的专业要求，又为用户在预设的可视化的规则动作管理区中，提供了方便操作的网页信息提取动作管理，大大降低了用户对网页信息提取规则的编写和维护的难度，提高了网页信息提取规则的构建效率。
+6. 106572121 一种VPN数据的审计方法和装置
+CN
+19.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001006032
+任子行网络技术股份有限公司
+沈智杰
+H04L 29/06
+Loading...
+本发明公开了一种VPN数据的审计方法和装置。所述方法包括：获取VPN服务器与目标网站之间传输的第一数据包；解析第一数据包，并获取第一数据包中的用户上网行为信息和用户VPN虚拟IP；获取VPN服务器与用户认证服务器之间传输的第二数据包；解析第二数据包，并获取第二数据包中的用户VPN虚拟IP与用户真实IP之间的对应关系；审计用户真实IP对应的用户上网行为信息，获取用户真实IP下的审计结果。本发明提供的VPN数据的审计方法可以有效的对VPN数据进行审计，得到用户真实IP下的审计结果，解决了现有技术中无法对加密的VPN数据进行审计的问题。
+7. 106528340 移动网用户信令数据快速处理方法和系统
+CN
+22.03.2017
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201610982790.7
+深圳市任子行科技开发有限公司
+朱缓
+G06F 11/14
+Loading...
+本发明公开了一种移动网用户信令数据快速处理方法和系统，方法包括：构造Hash表，为Hash表分配内存空间；解析移动网用户信息数据，获取其在Hash表中的第一ID，将用户信息数据内容存储在服务器系统磁盘文件中第一ID的位置；恢复文件时，构造空Hash表，将所述用户信息数据逐项读取插入到所述Hash表中；系统包括：用户信息数据接收单元、初始化单元、磁盘存储单元、解析单元、插入单元、读取单元、用户信息备份文件以及Hash表；实施本发明提供的一种移动网用户信令数据快速处理方法和系统，降低了用户信息数据对服务器系统磁盘存储的占用率，提高了移动网用户信令数据的备份和恢复速度，改善了用户体验。
+8. 106528108 一种基于代码文件路由的WEB开发方法和装置
+CN
+22.03.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102016000931464
+任子行网络技术股份有限公司
+李少敏
+G06F 9/44
+Loading...
+本发明公开了一种基于代码文件路由的WEB开发方法和装置。所述方法包括：在服务器中按照预设的代码文件路由规则，在各自独立的代码文件中储存相应的代码；通过解析http请求参数来获取代码文件的路由，并调用相应代码文件中的代码，来完成相应的web开发工作。本发明提供的方法根据不同的功能将web系统分为多个功能模块，不同的功能模块之间用不同的目录来隔离，每个功能模块中不同页面以及相同页面不同操作之间也用独立的代码文件来隔离，这样会使web系统功能模块以及代码文件结构比较清晰，避免了开发过程中的代码耦合问题，极大的方便了后续web系统维护以及扩展开发。
+9. 106506081 光纤信息传输方法和系统
+CN
+15.03.2017
+H04B 10/25 Loading...
+H04B 10/25
+Loading...
+102016000978916
+任子行网络技术股份有限公司
+张健冰
+H04B 10/25
+Loading...
+本发明公开了一种光纤信息传输方法和系统，方法包括：单纤接收端系统通过第一通信单元向单纤发送端系统发连接请求和数据请求；单纤发送端系统准备被请求的数据，构造信息传输数据包；将构造好的数据包经单根光纤和光中继器发送到单纤接收端系统；单纤接收端系统接收数据包，并对数据包进行校验；系统包括单纤发送端系统、单纤光中继器以及单纤接收端系统：本发明采用数据通道与控制通道分离的方式，在单纤发送端系统和接收端系统设置通信单元，来发送链接请求和数据请求，单根光纤传输请求端请求的数据包，最大程度地保证了数据传输的有效性性，仅有少量的控制命令通过通信单元传输，节省了流量，降低了成本。
+10. 106484919 一种基于网页独立词的行业网站分类方法和系统
+CN
+08.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016001004881
+任子行网络技术股份有限公司
+胡晓光
+G06F 17/30
+Loading...
+本发明提供了一种基于网页独立词的行业网站分类方法，包括：根据已知网站样本库建立独立词特征库，独立词特征库包括用于判定网站类别的多个独立词和对应的多个独立词加权值；提取未知网站的网站首页中的独立词；以及将从未知网站提取的独立词与独立词特征库进行匹配，计算加权得分，并根据加权得分和预设阈值来生成判定结果。本发明简化了现有基于机器学习和空间向量分析对特定行业网站进行分类判定的过程和方法将网页关键特征进行了抽象和加权评分，排除了空间向量分析方法中的干扰向量维度，将多维空间降低到了二维空间进行分析判定，经过人为对独立词判定结果进行审核确认，提高了其判定的准确率和召回率。
+11. 106487803 用于大流量网络入侵检测系统的模式匹配算法和系统
+CN
+08.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000989393
+深圳市任子行科技开发有限公司
+杨强
+H04L 29/06
+Loading...
+本发明提供了一种用于大流量网络入侵检测系统的模式匹配算法，包括以下步骤：对待匹配规则集中的关键字集合进行预处理；对预处理后的规则集进行DFA编译；以及通过NFA编译对编译后的DFA终态节点进行冲突处理，生成匹配结果。本发明通过压缩待匹配规则集中的关键字集合，减少关键字状态的跳转范围，从而减少状态机的内存消耗；通过减少加入自动机中的关键字的长度，减少状态树的深度，从而减少状态机的内存消耗；通过优化关键字冲突后字符串匹配算法，提高自动机匹配后的冲突关键字查找速度，从而提高关键字的检索速度；由此，使多模匹配算法减少系统资源消耗，提高匹配速度和加载速度，从而满足大流量网络入侵检测系统的报文检测需求。
+12. 106453610 面向运营商骨干网的HTTPS数据流审计方法和系统
+CN
+22.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610988679.9
+深圳市任子行科技开发有限公司
+刘永强
+H04L 29/08
+Loading...
+本发明公开了一种面向运营商骨干网的HTTPS数据流审计方法和系统。所述方法包括：采用旁路分光的方式，获取运营商骨干网中客户端发送的携带有目标域名的DNS请求；根据获取到的NDS请求和预设的域名与欺骗IP之间的对应关系，获取相应地欺骗IP，并向客户端发送携带相应欺骗IP的响应信息；解析客户端根据欺骗IP发送的访问数据报文，并判断访问数据报文是否为明文；当访问数据报文为明文时，通过SSLstrip审计服务器审计访问数据报文。本发明的方法无需向骨干网中插入审计设备，不干扰骨干网的传输速度，能保障对客户端发送明文的审计工作顺利进行，且不干扰客户端对目标网站的加密访问。
+13. 106411654 一种处理网络流量分析的方法和装置
+CN
+15.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102016000956892
+任子行网络技术股份有限公司
+朝乐蒙
+H04L 12/26
+Loading...
+本发明公开了一种处理网络流量分析的方法和装置。所述方法包括：统计待测哈希表中哈希节点的数量；根据预设的哈希节点使用上限和哈希节点使用下限，来判断待测哈希表的桶数是否需要调整；当判断待测哈希表的桶数需要调整时，根据预设规则调整哈希表的桶数，重新建立哈希表。本发明通过调节哈希表的桶数，使得新的哈希表能够主动适应网络流量的需求，当网络流量增加时，可以扩充哈希表的桶数，以提高新的哈希表的性能，当网络流量降低时，可以缩减哈希表的桶数，以释放被占据但未被利用的内存空间，将更多的闲置内存释放给操作系统，从整体上提高现有软件的处理性能。
+14. 106412809 基于蓝牙和WIFI的MAC地址采集方法及系统
+CN
+15.02.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+102016001036984
+任子行网络技术股份有限公司
+陈恒运
+H04W 4/00
+Loading...
+本发明公开了一种基于蓝牙和WIFI的MAC地址采集方法及系统。所述系统包括：蓝牙模块、多个WIFI模块、处理模块、无线通信模块。本发明提供的系统中，WIFI模块能在同一时刻采集多个频道对应WIFI MAC地址信息，因而能保证在同一时刻采集到更多的WIFI MAC地址信息，MAC地址信息采集率较高；通过还与蓝牙模块分时间段，循环采集WIFI MAC地址信息和蓝牙MAC地址信息，避免了一些无法采集WIFI MAC地址信息，但仍需要采集网络设备的MAC地址信息的情况，适用范围广，而且采集到的WIFI MAC地址信息和蓝牙MAC地址信息，通过后台服务器进行数据碰撞能得到更加准确有用的信息，实用性强。
+15. 106161353 一种面向宽带网络侧的上网时间管理方法及系统
+CN
+23.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000149814
+国家计算机网络与信息安全管理中心
+薛晨
+H04L 29/06
+Loading...
+本发明提供了一种面向宽带网络侧的上网时间管理方法，该方法应用于包括BAS设备和核心路由器的地区的宽带网络中，其特征在于，该方法包括以下步骤：S1、实时采集全量的Radius信令数据及用户业务数据；S2、对所述全量的Radius信令数据及用户业务数据进行过滤，得到Radius信令数据；S3、对所述Radius信令数据进行逐层解码，并提取关键字段信息；S4、将所述关键字段信息存储在数据库中；S5、接收用户下发的宽带上网的管理信息；S6、根据所述管理信息和所述关键字段信息，对宽带用户上网时间进行管理。本发明还提供了对应的系统。实施本发明，操作简单，可直接对使用的宽带帐号进行下线处理，能有效地控制青少年使用宽带上网的时间。
+16. 106162686 一种基于WLAN的信令获取与关联的方法及系统
+CN
+23.11.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+102015000149295
+国家计算机网络与信息安全管理中心
+黄亮
+H04W 24/02
+Loading...
+本发明提供了一种基于WLAN的信令获取与关联的方法，其特征在于，该方法包括以下步骤：S1、采集WLAN用户与Radius服务器交互的数据流量；S2、对所述数据流量进行过滤，分别得到Radius信令数据和应用业务数据；S3、通过主键关联所述Radius信令数据，并提取关键字段信息；S4、将所述关键字段信息生成CDR记录数据，并存储在数据库中；S5、将所述CDR记录数据与所述应用业务数据进行关联。本发明还提供了对应的系统。实施本发明可完整反映出WLAN用户的应用行为与用户的身份、位置，从而为解决故障处理、业务分流效果监测和网络业务多角度的挖掘分析提供可靠的依据。
+17. 105828189 一种多维度检测违规音视频节目的方法
+CN
+03.08.2016
+H04N 21/442 Loading...
+H04N 21/442
+Loading...
+102015000004698
+任子行网络技术股份有限公司
+张东升
+H04N 21/442
+Loading...
+本发明公开了一种多维度检测违规音视频节目的方法，利用关键词比对检测当前音视频节目中的违规关键词、获取当前音视频节目所属网站的音视频节目总数并将其记录、获取当前音视频节目所属网站的违规音视频节目总数并将其记录后；根据所述违规关键词数值、所述音视频节目总数、所述违规音视频节目总数等多维度的检测因子计算当前音视频节目是否违规；通过多维度的检测，来对违规的音视频节目进行检测和判定，进而节约了大量人力，提高了工作效率，节省了工作时间，提高了检测结果的准确性。
+18. 105824822 一种由钓鱼网页聚类定位目标网页的方法
+CN
+03.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000003979
+任子行网络技术股份有限公司
+唐新民
+G06F 17/30
+Loading...
+本发明提供了一种由钓鱼网页聚类定位目标网页的方法，包括以下步骤：S1、查找给定钓鱼网页的相关网页集合；S2、提取和建模所述钓鱼网页和所述相关网页集合的网页特征信息；S3、利用DBSCAN算法聚类分析所述网页特征信息的相似度，得到同一类相似网页；S4、通过域名相似关系，定位出所述同一类相似网页中的目标网页。本发明通过已知的钓鱼网页，根据多种网页特征进行相关网页查找以及聚类分析，将相关网页集合进行筛选识别，从而能够更好地应对钓鱼网页的欺骗手段，且大范围，高准确率地找出钓鱼网站模仿的目标网页。
+19. 105634845 一种用于对海量DNS日志进行多维统计分析的方法及系统
+CN
+01.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410606547.6
+任子行网络技术股份有限公司
+胡文鹏
+H04L 12/26
+Loading...
+本发明公开了一种用于对海量DNS日志进行多维统计分析的方法及系统。所述系统包括依次连接的多个DNS数据采集模块、DNS数据汇总中心、云服务器、DNS日志处理中心、DNS日志统计分析中心及数据库。所述DNS数据汇总中心用于接收及汇总由所述多个DNS数据采集模块采集的DNS日志数据，并将汇总形成的海量DNS日志数据定期上传到所述云服务器。所述DNS日志处理中心用于接收由所述云服务器提交的DNS日志数据处理任务，从所述云服务器下载海量DNS日志数据，对该海量DNS日志数据进行分布式处理。所述DNS日志统计分析中心用于基于给定的多个维度对经处理的DNS日志数据进行统计及分析，生成多维度的DNS日志数据统计及分析结果，并将所得DNS日志数据统计及分析结果存入所述数据库。
+20. 105634846 一种通用DPI平台及其构建方法
+CN
+01.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410608640.0
+任子行网络技术股份有限公司
+刘永强
+H04L 12/26
+Loading...
+本发明公开了一种通用DPI平台及及其构建方法，解决了现有DPI平台集成多个厂商开发的功能模块时难度大的缺陷。通用DPI平台包括：配置文件设置单元；包括多个功能层的功能层单元，多个功能层按照DPI系统的功能进行划分，每个功能层定义了标准接口；包含多个功能模块集合的集合单元，一个功能模块集合与一个功能层相对应，且一个功能模块集合包括多个用于实现相同功能的功能模块，且功能模块根据相应功能层的标准接口封装。通过将DPI系统按照功能划分层次，并定义每个层次的标准接口，使得DPI厂商可以根据标准接口来开发DPI系统的功能模块，从而实现了平台与功能模块的高效对接，并保证了功能模块厂商的代码隐私。
+21. 105634841 一种减少网络审计系统冗余日志的方法与装置
+CN
+01.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410594495.5
+任子行网络技术股份有限公司
+李智勇
+H04L 12/26
+Loading...
+本发明公开了一种减少网络审计系统冗余日志的方法及装置，包含以下步骤：抓取数据包；解析所述的数据包，得到数据包对应日志；获取待检测日志的相关特征根据相关特征，判断该日志是否为相关日志；若待检测日志为不相关日志，则根据该日志的重复特征、产生时间判断其是否为重复日志，在判断是否为相关日志或者重复日志后进行相应的处理。实施本发明的有益效果是，减少了网络审计系统冗余的日志，提升了网络审计系统的处理性能。
+22. 105635038 一种甄别音视频网站的方法及系统
+CN
+01.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410584314.0
+任子行网络技术股份有限公司
+张东升
+H04L 29/06
+Loading...
+本发明提供了一种甄别音视频网站的方法，基于中心系统和多个与所述中心系统通信的地域系统，该方法包括以下步骤：S1、中心系统通过爬虫采集域名信息；S2、对所述域名信息通过AC自动机对疑似音视频网站的域名进行标记；S3、接收地域系统请求，同步项目所属地域的域名信息给所述地域系统；S4、所述地域系统将接收到的疑似音视频网站放到爬虫采集，根据爬虫的采集情况，判断域名是否为音视频网站。本发明还提供了对应的甄别音视频网站的系统。本发明能自动、快速甄别音视频网站，及提供了高效、便捷的域名信息统一维护方法。
+23. 105635036 一种电子身份证的验证系统及方法
+CN
+01.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410583446.1
+任子行网络技术股份有限公司
+于泓
+H04L 29/06
+Loading...
+本发明公开了一种电子身份证的验证系统，该系统包括：注册终端，用于依据身份证发送注册电子身份证的注册请求至所述服务器；服务器，用于依据所述注册请求生成电子身份证信息，并依据所述电子身份证信息生成与之对应的非明文身份证信息并同步所述非明文身份证信息至所述移动终端，同时，依据所述电子身份证信息生成与之对应的验证信息并将所述验证信息发送至所述验证终端；移动终端，用于向所述验证终端出示所述非明文身份证信息；验证终端，用于依据所述验证信息验证所述非明文身份证信息。该发明的有益效果为：通过移动终端代替身份证的使用，即方便了网民上网，又减少了网吧因网民未携带身份证件而拒绝其上网带来的经济损失。
+24. 105634835 一种上网数据的云审计方法、系统以及审计路由器
+CN
+01.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410584312.1
+任子行网络技术股份有限公司
+刘永强
+H04L 12/26
+Loading...
+本发明公开了一种上网数据的云审计方法、系统以及审计路由器，用于解决现有的上网数据审计技术中无法在审计路由器上实现全面、完整的审计工作以及通过上传全部上网数据到审计中心服务器极大地消耗用户的上行带宽的缺陷。方法包括：S0、审计路由器抓取用户的上网数据；S1、审计路由器将上网数据与存储的预审计策略进行匹配；S2、若匹配成功，审计路由器根据预审计策略处理所述上网数据，处理上网数据包括将上网数据上传到审计中心服务器。实现了在审计路由器上进行网路数据的预审计处理，有效减少了占用的用户带宽。
+25. 105630462 一种违规音视频节目取证方法和装置
+CN
+01.06.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410584315.5
+任子行网络技术股份有限公司
+张东升
+G06F 9/44
+Loading...
+本发明公开了一种违规音视频节目取证方法和装置，用于解决现有的网络音视频监管系统中取证操作依赖于现有的独立的取证工具，功能集成度低，操作繁琐的技术问题。方法包括：S11、在接收到启动指令时，提供取证操作界面；S12、当接收到触发指令时，获取待取证网页的视窗的静态图像并存储于本地的特定文件夹；S13、当接收到触发指令时，录制待取证网页的视窗显示的内容以生成录屏文件并存储于本地的特定文件夹；S14、当接收到触发指令时，获取待取证网页的快照信息并存储于本地的特定文件夹；S15、当接收到触发指令时，下载待取证网页的音视频内容流并存储于本地的特定文件夹。兼容性强，整个操作过程简单易行。
+26. 205247596 一种天线汇集的无线数据采集设备
+CN
+18.05.2016
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201520974880.2
+任子行网络技术股份有限公司
+黄洪发
+G08C 17/02
+Loading...
+本实用新型公开了一种天线汇集的无线数据采集设备，包括主控WIFI基带芯片、第一WIFI基带芯片、第二WIFI基带芯片、第三WIFI基带芯片、天线汇集模块、SMA接口以及天线，主控WIFI基带芯片产生频段扫描指令，控制第一WIFI基带芯片、第二WIFI基带芯片和第三WIFI基带芯片在同一时刻扫描不同信道的数据，使得在同一时刻，主控WIFI基带芯片、第一WIFI基带芯片、第二WIFI基带芯片和第三WIFI基带芯片中只有一个通过天线汇集模块使用天线。本实用新型的天线汇集的无线数据采集设备，通过天线汇集模块将4个WIFI基带芯片的天线汇集在一起，通过主控芯片进行扫描控制，这样只需一根天线，即可达到相同的采集效果，大大降低了天线及设备成本，改善了外观。
+27. 105578565 一种无线网络中信道扫描的方法及系统
+CN
+11.05.2016
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+201410555208.X
+任子行网络技术股份有限公司
+肖云
+H04W 48/16
+Loading...
+本发明提供了一种无线网络中信道扫描的方法及系统，应用于包括AP设备的无线局域网中，所述AP设备包括一个无线网卡，且该无线网卡包括一个monitor接口和一个或者多个master接口，其中，所述信道扫描方法包括步骤有：无线驱动实现一种信道切换的接口，接受外部传入的信道切换表及信道切换时间，使monitor接口能改变所述无线网卡的信道；应用程序调用信道切换的接口，在第二固定时间内扫描全信道。本发明实现了monitor接口能够和master接口同时工作，且monitor接口可以根据应用层配置参数扫描全信道，对master接口的工作影响非常小。
+28. 105574047 一种基于网站主页特征分析的中文网站分类方法和系统
+CN
+11.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410555450.7
+任子行网络技术股份有限公司
+唐新民
+G06F 17/30
+Loading...
+本发明公开了一种基于网站主页特征分析的中文网站分类方法和系统，具体包括以下步骤：S1.爬取网站内容；S2.标记网站类别；S3.提取网站信息；S4.计算权重并以特征向量的形式表示；S5.通过特征向量的对比对网站进行分类。使用所述的基于网站主页特征分析的中文网站分类方法和系统可以实现只提取网站的标题和元信息来最大程度减少噪音的干扰；通过预处理和特征向量表示将网站的特征准确地用向量表示出来，从而提高分类准确率；因为只要处理网站的标题和元信息，要处理的数据量小，处理速度快。
+29. 105578454 一种强制WLAN用户下线的方法及装置
+CN
+11.05.2016
+H04W 12/00 Loading...
+H04W 12/00
+Loading...
+201410555220.0
+任子行网络技术股份有限公司
+唐斌
+H04W 12/00
+Loading...
+本发明提供了一种强制WLAN用户下线的方法，该方法包括步骤有：实时采集所有WLAN用户与Radius服务器交互的数据包；对所述数据包中的Radius信令数据进行解码，并提取出关键字段信息，组合成一条完整的状态信息；将所述完整的状态信息以记录形式存储在数据库中；触发系统管理者输入的管理策略的指令；根据所述策略信息，查询所述数据库中的所述完整的状态信息，并根据所述完整的状态信息及共享密钥信息，伪造强制下线的Disconnect？request信令。本发明还提供了一种对应的装置。本发明可有效地管理WLAN网络中的用户，强制在线的WLAN用户下线，实现安全管理用户使用WLAN网络的目的。
+30. 105578491 一种4G用户信息与应用数据关联的方法及装置
+CN
+11.05.2016
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201410555488.4
+任子行网络技术股份有限公司
+唐斌
+H04W 24/00
+Loading...
+本发明提供了一种4G用户信息与应用数据关联的方法，该方法应用于4G移动互联网中，该方法包括以下步骤：实时采集S1-MME接口、S11接口、S1-U接口的信令数据及应用数据；通过配置过滤条件，将所述信令数据和应用数据进行过滤；对所述S1-U接口的应用数据进行解析，还原成有序的GTP-U的应用数据流；对所述S11接口、S1-MME接口的信令数据分别进行解码，提取字段信息组，生成CDR记录，并将所述CDR记录进行关联；将所述应用数据流与所述完整的CDR记录进行关联。本发明还提供了对应的装置。本发明具有用户信息提取准确、关联效率高的特点。
+31. 105549985 一种增强Linux应用系统可靠性的方法与系统
+CN
+04.05.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410596956.2
+任子行网络技术股份有限公司
+李智勇
+G06F 9/445
+Loading...
+本发明公开了一种增强Linux应用系统可靠性的方法与系统，将Linux系统文件备份存储到存储设备第一分区中，将应用系统以及应用系统的配置信息备份存储到存储设备第二分区中，所述存储设备独立于普通磁盘；在Linux系统启动阶段，通过设置在存储设备上的程序，检测Linux系统文件、应用程序以及其配置信息的正确性，若不正确则分贝利用第一分区、第二分区备份文件进行恢复。实施本发明的有益效果是，提高了Linux应用系统本身的可靠性。
+32. 105530327 一种DNS关键信息处理方法和系统
+CN
+27.04.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201410583420.7
+任子行网络技术股份有限公司
+刘俊
+H04L 29/12
+Loading...
+本发明提供了一种DNS关键信息处理方法，涉及采集模块、协议识别模块、DNS解码模块、输出模块、传输模块和汇聚中心节点服务器；包括以下步骤：S1、实时采集网络数据；S2、从网络数据中分析出DNS应答数据；S3、对DNS应答数据进行数据统计同时进行解码并生成关键信息数据；S4、存储关键信息数据；S5、生成相应的文件；S6、发送文件；S7、对文件进行去重和压缩并存储。通过对DNS数据的采集和分析，按照不同的DNS数据类型，从原始数据中提取相应的关键信息，逐条存储，保证信息的最大完整性。从DNS应答数据获取更全面，更多类型的原始记录，对原始数据只做储存，不做分析，第三方可以根据需要获取对应类型的数据，而深度挖掘，进行多维度的统计。
+33. WO/2016/058267 CHINESE WEBSITE CLASSIFICATION METHOD AND SYSTEM BASED ON CHARACTERISTIC ANALYSIS OF WEBSITE HOMEPAGE
+WO
+21.04.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2014/094220
+SURFILTER NETWORK TECHNOLOGY CO., LTD
+TANG, Xinmin
+G06F 17/30
+Loading...
+Disclosed are a Chinese website classification method and system based on characteristic analysis of a website homepage. The method specifically comprises the following steps: S1, crawling website content; S2, marking a website type; S3, extracting website information; S4, calculating a weight and expressing the weight in the form of a characteristic vector; and S5, classifying the website by comparing the characteristic vector. By utilizing the Chinese website classification method and system based on the characteristic analysis of the website homepage, the noise interference can be alleviated to the greatest extent by only extracting a title and meta-information of the website; by means of pre-processing and characteristic vector expression, the characteristics of the website are accurately expressed with the vector, so that the accuracy of classification is increased; and since only the title and meta-information of the website need to be processed, the quantity of data to be processed is small, and the processing speed is high.
+34. 205071041 网吧实名认证系统及跨网吧的实名认证系统
+CN
+02.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201520804964.1
+任子行网络技术股份有限公司
+李春光
+H04L 29/06
+Loading...
+本实用新型公开了一种网吧实名认证系统及跨网吧的实名认证系统，涉及网吧管理领域，用户无需出示身份证件也能够进行实名认证。系统包括：证件读取器；指纹采集器；本地处理器，其与证件读取器及指纹采集器连接；本地存储器，其与本地处理器连接；显示器，其与本地处理器连接；数据通信模块，其与本地处理器连接；以及云服务器，其与数据通信模块连接，本地存储器通过数据通信模块来与云服务器通信，本地处理器获取并关联绑定身份信息与指纹信息，本地存储器与云服务器保存这些绑定信息；本地处理器与云服务器均用于对比指纹采集器当前采集的指纹信息与在先存入本地存储器与云服务器的指纹信息。
+35. 205017591 MAC地址采集装置
+CN
+03.02.2016
+H04W 8/16 Loading...
+H04W 8/16
+Loading...
+201520834394.0
+任子行网络技术股份有限公司
+陈恒运
+H04W 8/16
+Loading...
+本实用新型公开了一种MAC地址采集装置，涉及WiFi领域。能够实现在同一时刻同时采集多个信道上的MAC地址，从而提高MAC地址采集率。一种MAC地址采集装置，包括主控板，所述主控板上集成有一个第一基带芯片与一个第二基带芯片；所述MAC地址采集装置还包括至少一个子板，每个子板上分别集成有一个第一基带芯片；所述主控板上还集成扫描控制模块，所述扫描控制模块控制所述主控板上集成的第一基带芯片与第二基带芯片以及所述子板上集成的第一基带芯片执行MAC地址扫描动作。本实用新型应用于无线路由器的设计。
+36. 103780409 Internet-surfing behavior management method and device
+CN
+07.05.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210400696.8
+任子行网络技术股份有限公司
+景晓军
+H04L 12/24
+Loading...
+The invention relates to an internet-surfing behavior management method and device. The method includes: receiving POST request data from a user terminal; analyzing the POST request data and restoring network-surfing content; performing matching detection on the network-surfing content; judging whether the network-surfing content contains sensitive keywords; if so, continuing judgment of a next step and if not so, allowing connection of the POST request; judging whether the user terminal sends the matched sensitive keywords in a preset time for a first time, a second time or above; if the sensitive keywords are sent for the first time, stopping the POST request and assembling a first data packet which is then returned to the user terminal so as to prompt the user to enter an authentication code; if the sensitive keywords are sent for a second time or above, stopping the POST request and assembling a second data packet which is then returned to the user terminal so as to prompt the user that the entered authentication code is wrong and needs to be reentered. The internet-surfing behavior management method and device are capable of realizing stopping of the POST request in a hidden manner without being detected easily by the user.
+37. 103024023 电子阅览室网络审计方法
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210519996.8
+任子行网络技术股份有限公司
+景晓军
+H04L 29/08
+Loading...
+本发明涉及一种电子阅览室网络审计方法及系统，所述方法包括以下步骤：A，所述无线上网终端通过所述数据收集转发装置访问互联网，所述数据收集转发装置收集所述无线上网终端的无线上网数据；B，所述审计分析云中心向所述数据收集转发装置发出数据收集指令；C，所述数据收集转发装置在接收到所述数据收集指令后将所述无线上网终端的无线上网数据上传到所述审计分析云中心；D，所述审计分析云中心对所述无线上网数据进行分析。电子阅览室只需配置一台可提供无线上网接入功能与上传无线上网数据功能的数据收集转发装置，而无线上网数据的分析和还原由远端的网络审计分析云完成，大大节省了电子阅览室的审计系统建设成本。
+38. 102509049 一种程序合法性验证方法和系统
+CN
+20.06.2012
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201110359644.6
+任子行网络技术股份有限公司
+景晓军
+G06F 21/00
+Loading...
+本发明公开了一种程序合法性验证方法和系统，该验证方法包括：获取程序的运行通知及程序的可执行性文件的读写操作通知；按照预先确定的算法计算程序的可执行性文件的代码段校验值；将所计算的代码段校验值与预先存储在程序的可执行性文件的PE头部中的代码段校验值进行比较，并存储比较结果；在程序的读写操作中，判断是否存储有当前程序的代码段校验值的比较结果，若是，则当前程序为合法程序；若否，则当前程序为非法程序。本发明还构造一种程序合法性验证系统。实施本发明的技术方案，即使需要进行合法性验证的程序数量比较多，且需要实时响应用户运行程序的文件操作控制，也不会严重影响操作系统的运行速度，大大提高了用户使用体验。
+39. 102426603 一种文字信息地域识别方法及装置
+CN
+25.04.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110356631.3
+任子行网络技术股份有限公司
+景晓军
+G06F 17/30
+Loading...
+本发明涉及一种文字信息地域识别方法及装置，其中识别方法包括步骤：A、获取待进行地域分析的文字信息，构建词向量序列；B、进行地域分层分析，得出地域分层路径；C、进行地域扩展分析，进一步得出相关的地域特征词；D、根据地域分层路径和由地域扩展分析得出的地域特征词，得到最优地域分层路径；E、构建第一主题词向量空间和第二主题词向量空间；F、对第一主题词向量空间和第二主题词向量空间进行相似度计算，根据最优地域分层路径和相似度计算结果判断文字信息所属地域。本发明实现了对信息内容所属地域进行了准确判断，这样不但判断更加准确，地域层次分明详细，还能排除与信息主题无关的地域特征词信息。
+40. 101937351 Method and system for automatically installing application software
+CN
+05.01.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010282302.4
+Shenzhen City Renzixing Network Technology Co., Ltd.
+Jing Xiaojun
+G06F 9/445
+Loading...
+The invention relates to a method and a system for automatically installing application software. The method comprises the following steps: S1, starting a source operating system; S2, starting a system identification program by the source operating system so as to automatically identify the information of a target operating system; S3, starting an automatic configuration program by the source operating system based on the information of the target operating system so as to automatically configure the suitability of a system installed in target application software, and then creating a target configuration file; and S4, starting an installation program for the target application software by the source operating system based on the target configuration file so that the target application software is automatically installed in the target operating system. By adopting the method and the system for automatically installing the application software, a user can install the application software accurately and automatically without needing to know complex computer knowledge. The method and the system can be further applied to target equipment including various target operating systems so as to install the application software accurately and automatically.
+41. 101937469 Information capture method of video website
+CN
+05.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010284859.1
+Shenzhen City Renzixing Network Technology Co., Ltd.
+Jing Xiaojun
+G06F 17/30
+Loading...
+The invention relates to an information capture method of a video website. The method comprises the following steps of: (S1) capturing a source file of a web page of the video website; (S2) appointing different regular expression sets aiming at web pages in different formats so as to position the attribute information in a video program in the source file of the web page and generate a positioning result; (S3) matching the source file of the web page with the regular expressions in the regular expression sets according to the positioning result to generate a matching result; and (S4) storing the attribute information of the video program in the source file of the web page in a corresponding attribute library according to the matching result. The information capture method of the video website of the invention can be adopted to completely and conveniently capture all video information in the video website and avoid the defect that a traditional information capture technology of the video website can not completely capture all the information of the video website program.
+42. 101937466 Webpage mailbox identification classifying method and system
+CN
+05.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010282298.1
+Shenzhen City Renzixing Network Technology Co., Ltd.
+Jing Xiaojun
+G06F 17/30
+Loading...
+The invention constructs a webpage mailbox identification classifying method. The method comprises the following steps: S0, reading the webpage address of the webpage mailbox and a characteristic string of a mail content in the webpage mailbox, and establishing an identifying engine and an analysis engine according to the webpage address and the characteristic string; S1, calling the identifying engine to identify the type of the currently visiting webpage mailbox when a user receives and sends a mail; S2, calling the corresponding analysis engine to extract the mail content corresponding to the characteristic string according to the class of the webpage mailbox; and S3, presenting the mail content in classes. The invention also constructs a webpage mailbox identification classifying system. The webpage mailbox identification classifying method and system are adopted to establish classification by analyzing the characteristic string in the mail content according to the webpage address of the webpage mailbox and the webpage address of the webpage mail, establish the characteristic string analysis engine according to different classifications, and complete differentiation and content extraction by identifying link of the webpage address when the user receives and sends the mail.
+

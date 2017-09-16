@@ -1,0 +1,421 @@
+1. 105933248 基本虚拟网络环境内的服务插入
+CN
+07.09.2016
+H04L 12/931 Loading...
+H04L 12/931
+Loading...
+201610220488.8
+山石网科通信技术有限公司
+蒋东毅
+H04L 12/931
+Loading...
+一种基本虚拟网络环境内的服务插入。本发明提供了一种处理系统包括：第一服务器，其具有第一服务模块；以及第一服务交换机；其中，第一服务器和第一服务交换机被配置为用于在虚拟机与虚拟交换机之间逻辑耦合；其中，第一服务器包括第一通信接口和第二通信接口，第二通信接口被配置为与第一服务交换机通信。第二通信接口与在虚拟交换机上的多个基于虚拟机的网络段相关联，多个基于虚拟机的网络段分别与多个虚拟机对应；其中，第一通信接口与在虚拟交换机上的原始网络段相关联。此处理系统可以在同一网络上的多个虚拟机间插入网络和安全服务。
+2. 105827623 数据中心系统
+CN
+03.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000265084
+山石网科通信技术有限公司
+蒋东毅
+H04L 29/06
+Loading...
+本发明公开了一种数据中心系统。该系统包括：通过二层网络互联的至少两个数据中心子系统，每个数据中心子系统包括多个主机、与多个主机连接的二层交换机、与二层交换机连接的防火墙组、与二层交换机连接的二层扩展设备、分别与防火墙组和二层扩展设备连接的路由设备，至少两个数据中心子系统的防火墙组通过第一虚拟局域网中的同步通道传输同步信息，至少两个数据中心子系统的二层扩展设备通过第二虚拟局域网中的业务通道传输业务信息，第一虚拟局域网和第二虚拟局域网设置在二层网络上。本发明解决了相关技术中双活数据中心不能协同工作的技术问题。
+3. 105703941 配置事务的处理方法及装置
+CN
+22.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201511029777.1
+山石网科通信技术有限公司
+渠海峡
+H04L 12/24
+Loading...
+本发明公开了一种配置事务的处理方法及装置。其中，该方法包括：在配置网络设备时，新建当前配置事务，其中，当前配置事务用于对网络设备进行配置；判断当前配置事务中是否存在错误的配置操作；若确定当前配置事务中存在错误的配置操作，则执行回滚操作，其中，回滚操作用于使网络设备返回至初始状态，初始状态是指网络设备未经当前配置事务配置时的状态。本发明解决了现有技术中网络设备配置事务处理成本较高的技术问题。
+4. 105610830 域名的检测方法及装置
+CN
+25.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511019166.9
+山石网科通信技术有限公司
+谢军
+H04L 29/06
+Loading...
+本发明公开了一种域名的检测方法及装置。其中，该方法包括：获取至少一个域名；将每个域名进行特征提取处理，生成每个域名的静态特征以及动态特征，其中，静态特征为域名的字符串特征，动态特征为域名在域名注册数据库中的注册特征；根据预设的检测算法对每个域名的静态特征以及动态特征进行检测处理，生成每个域名的检测结果，本发明解决了现有技术检测域名的方法简单导致恶意域名的检测结果不准确的技术问题。
+5. 105610646 基于分布式的虚拟网络设备的测试方法、装置及系统
+CN
+25.05.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201511019066.6
+山石网科通信技术有限公司
+赵广宇
+H04L 12/26
+Loading...
+本发明公开了一种基于分布式的虚拟网络设备的测试方法、装置及系统。其中，该系统包括：测试管理模块，设置于物理机域或虚拟机域，用于根据预先设置的测试方法生成相应的测试指令；至少一个流量生成模块，设置于物理机域，与测试管理模块连接，用于按照测试指令，生成与测试指令对应的测试流量；虚拟网络设备，设置于虚拟机域，与至少一个流量生成模块连接，对测试流量进行转发操作，并根据转发操作生成测试结果。本发明解决了无法对基于分布式的虚拟网络设备进行稳定、高效的测试的技术问题。
+6. 105554016 网络攻击的处理方法和装置
+CN
+04.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511029329.1
+山石网科通信技术有限公司
+刘小东
+H04L 29/06
+Loading...
+本发明公开了一种网络攻击的处理方法和装置。其中，该方法包括：采集数据流中的数据包信息；解析数据包信息，得到攻击检测维度数据和包特征维度数据；将攻击检测维度数据和包特征维度数据与预设/学习数据进行比较，判断攻击检测维度数据和包特征维度数据是否存在异常；当判断结果为是时，上报异常事件，并依据预设/学习数据检测包特征维度数据是否存在异常特征；当检测结果为是时，依据包特征维度数据匹配对应的缓解方案；执行缓解方案。本发明解决了由于相关技术中对正常流量的数据包在缓解洪泛攻击的过程中误伤大，确认攻击的精度低以及预防洪泛攻击而消耗的系统资源大的技术问题。
+7. 104270384 Fire wall policy redundancy detection method and device
+CN
+07.01.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410557892.5
+山石网科通信技术有限公司
+潘金平
+H04L 29/06
+Loading...
+The invention discloses a fire wall policy redundancy detection method and device. The fire wall policy redundancy detection method includes the steps that first objects and second objects of fire wall policies in a fire wall policy list are converted into values in the same type; first multi-way trees and second multi-way trees are created according to the values corresponding to the first objects and the values corresponding to the second objects respectively; a node set of the nodes, covered by the nodes of the first multi-way trees and the second multi-way trees corresponding to the other fire wall policies, of the first multi-way tree and the second multi-way tree corresponding to the fire wall policy to be detected is calculated; whether the node set is a null set or not is adjusted, if the node set is not the null set, the fire wall policy to be detected is a redundant fire wall policy. According to the fire wall policy redundancy detection method and device, the problem that the fire wall policy to be detected cannot be compared with the multiple fire wall policies at the same time for achieving redundancy detection is solved, and the effects of improving the efficiency and the accuracy of fire wall policy redundancy detection are further achieved.
+8. 103685318 Data processing method and device for protecting network security
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310751667.0
+HILLSTONE NETWORKS COMMUNICATION TECHNIQUE CO., LTD.
+ZHANG BIN
+H04L 29/06
+Loading...
+The invention discloses a data processing method and device for protecting network security. The data processing method for protecting the network security comprises the following steps: receiving a request, for accessing an application server, sent by a terminal; resolving the IP (Internet Protocol) address of the application server according to the request; judging whether the IP address obtained by resolving is an unsafe IP address or not; if the IP address obtained by resolving is an unsafe IP address according to judgment, deleting the unsafe IP address from a response message; transmitting the response message from which the unsafe IP address is deleted to the terminal. According to the data processing method and device, the protection performance of a network protection system is improved.
+9. 103685317 Protection system and device for domain name system
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310751233.0
+HILLSTONE NETWORKS COMMUNICATION TECHNIQUE CO., LTD.
+CHANG LEI
+H04L 29/06
+Loading...
+The invention discloses a protection system and device for a domain name system. The method comprises the following steps: acquiring a cache hit ratio which corresponds to each of a plurality of N-grade domain names corresponding to domain name service requests received in a first time interval, wherein N is more than or equal to 1; judging whether a domain name attack specific to any of the N-grade domain names exists or not according to the cache hit ratio corresponding to each N-grade domain name; if the domain name attack specific to any N-grade domain name exists according to judgment, performing protection processing on the N-grade domain name. According to the method and the device, the technical problem of lower protection efficiency caused by poorer accuracy of the conventional protection way specific to a prefix change attack is solved.
+10. 103685611 Network access processing method and device
+CN
+26.03.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310751669.X
+HILLSTONE NETWORKS COMMUNICATION TECHNIQUE CO., LTD.
+ZHANG BIN
+H04L 29/12
+Loading...
+The invention discloses a network access processing method and a network access processing device. The network access processing method comprises the following steps of receiving a domain name system query request; resolving the domain name of the domain name system query request to obtain a plurality of IP (Internet protocol) addresses by using a domain name system server; acquiring the IP address with the shortest path in the IP addresses; transmitting the IP address with the shortest path to a user terminal, wherein the user terminal accesses an application server based on the IP address with the shortest path. According to the method and the device, the speed of access to the application server can be increased.
+11. 103281333 数据流的转发方法及装置
+CN
+04.09.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310239522.2
+山石网科通信技术有限公司
+刘向明
+H04L 29/06
+Loading...
+本发明公开了一种数据流的转发方法及装置，在上述方法中，根据接收到的数据流的一个或多个标识信息的第一健康度获取数据流的第二健康度，其中，第一健康度和第二健康度均与发送数据流的用户和/或用户设备的访问权限相关联；采用防火墙策略属性集合确定是否对数据流进行转发，其中，防火墙策略属性集合包括：第二健康度。根据本发明提供的技术方案，提高了防火墙对网络攻击或者异常行为的识别能力，降低管理成本。
+12. 103067306 分配带宽的方法及装置
+CN
+24.04.2013
+H04L 12/911 Loading...
+H04L 12/911
+Loading...
+201210585462.5
+山石网科通信技术有限公司
+杨升
+H04L 12/911
+Loading...
+本发明公开了一种分配带宽的方法及装置。其中，该方法包括：读取分配对象的对象参数，其中，对象参数包括：优先级参数、分配次数以及分配粒度参数，优先级参数用于表示分配对象的分配优先级；读取与优先级参数相对应的分配比例参数；对分配粒度参数以及分配比例参数进行分配令牌计算，以获取分配令牌参数；根据分配令牌参数和分配次数进行带宽计算，以获取带宽参数；使用带宽参数为分配对象分配带宽。通过本发明，实现了可以根据不同应用的优先级来分配未使用的带宽，能够充分的使用带宽，实现配置带宽的充分利用，并且实现了基于优先级的带宽分配，从而有效的提升用户的体验。
+13. 103067395 诊断网络防火墙的方法及装置
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210591994.X
+山石网科通信技术有限公司
+胡仁豪
+H04L 29/06
+Loading...
+本发明公开了一种诊断网络防火墙的方法及装置。其中，该方法包括：将网络防火墙对第一数据包进行解封装和检测处理的处理过程中的数据进行记录，以获取处理过程中产生的第一过程数据；将第一过程数据与预设诊断数据进行对比，以获取第二过程数据，其中，第二过程数据为第一过程数据中与预设诊断数据相匹配的数据；对第二过程数据进行诊断，得到诊断结果。通过本发明，实现了准确快速定位网络故障的原因，并给出相关的解决方案的效果，帮助用户准确、快速、自动定位和分析网络防火墙自身配置、设置等导致第一数据包转发不正确出现的问题，从而建议用户更改设置以使第一数据包准确转发。
+14. 103001972 DDOS攻击的识别方法和识别装置及防火墙
+CN
+27.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210572156.8
+山石网科通信技术有限公司
+周明中
+H04L 29/06
+Loading...
+本发明公开了一种DDOS攻击的识别方法和识别装置及防火墙。该DDOS攻击的识别方法包括：计算第一时间窗口中网关内部的第j主机端口的会话次数，以得到第一会话次数，其中，第一时间窗口由第p子窗口至第p+s子窗口组成，第一会话次数为第一时间窗口中所有子窗口中的会话次数的和；在第一时间窗口结束后，计算第二时间窗口中第j主机端口的会话次数，以得到第二会话次数，其中，第二时间窗口由第p+x子窗口至第p+x+s子窗口组成，x
+15. 102984178 数据报文的检测方法及装置
+CN
+20.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210593865.4
+山石网科通信技术有限公司
+邓富镭
+H04L 29/06
+Loading...
+本发明公开了一种数据报文的检测方法及装置。其中，该方法包括：数据报文的检测方法，该方法包括：读取接收到的第一数据报文的域名参数；将第一数据报文的域名参数与预设域名参数进行随机程度计算，以获取第一数据报文的域名参数的随机程度分值，其中，预设域名参数为预先设定的合法数据报文的域名参数；判断随机程度分值是否大于阻断阈值；以及在随机程度分值大于阻断阈值时，确定第一数据报文为非法的数据报文。通过本发明，实现了准确识别非法数据报文，从而可以从所有DNS随机请求的流量中分理出非法的数据报文，从而能够有效而且高效地清洗DNS随即请求非法数据报文，从而使得DNS随机请求攻击失去DDOS效果。
+16. 102970309 僵尸主机的检测方法、检测装置及防火墙
+CN
+13.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210572146.4
+山石网科通信技术有限公司
+周明中
+H04L 29/06
+Loading...
+本发明公开了一种僵尸主机的检测方法、检测装置及防火墙。该检测方法包括：检测网关的内部主机的网络行为，以得到主机行为；识别主机行为，以得到主机行为的行为特征；根据行为特征判断主机行为是否属于预设行为库中的行为，其中，预设行为库中包括僵尸主机的多个行为；以及当确定多个主机行为属于预设行为库中的行为时，根据多个主机行为判断网关内部主机是否为僵尸主机。通过本发明，提高了僵尸主机检测率，减小僵尸检测的误判率。
+17. 102904780 检测网络健康度的方法及装置
+CN
+30.01.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210422997.0
+山石网科通信技术有限公司
+刘向明
+H04L 12/26
+Loading...
+本发明公开了一种检测网络健康度的方法及装置。其中，该方法包括：检测网络中各个功能模块的第一健康值根据各个第一健康值获取评价单元的健康度，其中，评价单元包括一个或多个功能模块，在各个第一健康值全部大于第一阈值的情况下，评价单元的健康度为健康；在至少有一个第一健康值小于第二阈值的情况下，评价单元的健康度为不健康在评价单元的健康度为不健康的情况下，查找小于第二阈值的第一健康值，以获取与小于第二阈值的第一健康值所对应的功能模块。通过本申请的检测网络健康度的方法及装置，实现了从整体上反映整个系统网络的网络健康度的效果。
+18. 102831232 Character string matching method and device
+CN
+19.12.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210316986.4
+山石网科通信技术有限公司
+常磊
+G06F 17/30
+Loading...
+The invention discloses a character string matching method and device. The character string matching method comprises the following steps of: getting a character mapping table, wherein all characters which are different from the characters in a preset character string in the character mapping table correspond to a first mapping character, and the first mapping character is different from the mapping characters in the mapping table, which correspond to the characters in the preset character string; receiving input data; getting the mapping characters in the character mapping table relative to the characters in the input data; and matching the character string constituted by the obtained mapping characters with the mapped character string in the character mapping table, which correspond to the characters in the preset character string. According to the character string matching method disclosed by the invention, all the non-appeared characters in the preset character string are mapped to the same character, so that the occupancy of a memory during matching is reduced and matching speed and matching efficiency are improved by only identifying whether the certain character is matched with the characters in the preset character string or not without respectively identifying all the non-matched characters during the matching process.
+19. 102833269 跨站攻击的检测方法、装置和具有该装置的防火墙
+CN
+19.12.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210346751.X
+山石网科通信技术有限公司
+张斌
+H04L 29/06
+Loading...
+本发明提供了一种跨站攻击的检测方法、检测装置和具有该装置的防火墙。该检测方法首先对用户提交的数据进行参数分解，然后对分解后的参数进行HTTP编码的解码，最后对解码后的参数进行词法分析和语法分析，并尝试建立语法树，当语法树能够成功建立时，确定用户提交的数据对应的行为是跨站攻击。通过本发明，实现了一种基于语法分析的智能检测手段，不是通过描述攻击表现形式，而是通过描述跨站攻击本质特征以达到检测跨站攻击的目的，降低了误报率和漏报率。
+20. 102510386 分布式攻击阻止方法及装置
+CN
+20.06.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110442311.X
+山石网科通信技术(北京)有限公司
+刘洪亮
+H04L 29/06
+Loading...
+本发明公开了一种分布式攻击阻止方法及装置，该方法包括：接收到客户端向第一URL发送的请求报文；向客户端发送携带有第二URL的应答报文，其中第二URL是根据第一URL生成的；接收到客户端向第二URL发送的请求报文；向网络服务器发送请求报文。本发明保证了普通用户能正常地访问网站。
+21. 102404339 防火墙系统和基于该防火墙系统的数据处理方法
+CN
+04.04.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110424951.8
+山石网科通信技术(北京)有限公司
+杨启军
+H04L 29/06
+Loading...
+本发明公开了一种防火墙系统和基于该防火墙系统的数据处理方法。其中，该系统包括：两个主控模块、多个业务处理模块、多个分流模块、多个I/O模块和一个交换模块，两个主控模块互为主备关系，用于控制各个模块，交换模块用于转发各模块间的数据包，多个I/O模块和多个分流模块绑定，每个I/O模块用于将接收的数据包发送到与其绑定的分流模块；每个分流模块用于将同一会话中的数据包发送给同一个业务处理模块；每个业务处理模块用于对数据包处理后通过一个I/O模块输出。通过本发明，解决了系统无法进行业务扩展的问题，该系统中业务处理模块的数量可以按需配置，使该系统支持业务的扩展，进而提高了该系统的性能。
+22. 102404334 拒绝服务攻击防护方法及装置
+CN
+04.04.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110404381.6
+山石网科通信技术(北京)有限公司
+刘洪亮
+H04L 29/06
+Loading...
+本发明公开了一种拒绝服务攻击防护方法及装置，该方法包括：Firewall接收Local PC发送的DNS请求包；Firewall向Local PC返回应答消息；Firewall判断Local PC是否对应答消息进行反馈，如果反馈，则验证通过；Firewall将验证通过的DNS请求包发送至DNS服务器server。采用本发明能够解决DNS服务器遭受DOS/DDOS攻击从而造成网络阻塞或者服务器资源耗尽而导致拒绝服务，合法用户无法正常访问服务器资源的技术问题。
+23. 102404345 分布式攻击阻止方法及装置
+CN
+04.04.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110442248.X
+山石网科通信技术(北京)有限公司
+刘洪亮
+H04L 29/06
+Loading...
+本发明公开了一种分布式攻击阻止方法及装置，该方法包括：响应于客户端在先发送的请求报文，向客户端发送携带有第一COOKIE值的应答报文；接收到客户端在后发送的请求报文，其中请求报文中携带有第二COOKIE值；根据第二COOKIE值向网络服务器发送在后发送的请求报文。本发明保证了普通用户能正常地访问网站。
+24. 102073562 Hardware-based main/standby switch arbitration method
+CN
+25.05.2011
+G06F 11/20 Loading...
+G06F 11/20
+Loading...
+201010620574.0
+Hillstone Networks (Beijing) Inc.
+Liu Ding
+G06F 11/20
+Loading...
+The invention provides a hardware-based main/standby switch arbitration method. The method comprises the following steps that: a hot plug unit detects a first control panel and a second control panel and transmits a detection result to a main/standby switch unit; the main/standby switch unit determines the main/standby qualifications of the first control panel and the second control panel according to respective preparation signals of a central processing unit (CPU) of the first control panel and a CPU of the second control panel and the detection result and transmits the main/standby qualifications to a main/standby switch arbitrator; and the main/standby switch arbitrator automatically performs main/standby distribution of the first control panel and the second control panel according to the main/standby qualifications. In the technical scheme of the invention, main/standby switch control is realized by a hardware-based main/standby switch arbitrator without software participation. The method has the characteristics of high speed and high stability.
+25. 102006242 Routing method of router and router
+CN
+06.04.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010606963.8
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Liu Xiangming
+H04L 12/56
+Loading...
+The invention discloses a routing method of a router and a router. The routing method of the router comprises the following steps: acquiring data stream of a sending end; dynamically inquiring the application type corresponding to the dynamic query data stream in an application mapping table according to the features of the data stream, wherein, the application mapping table comprises the features of the data stream and the mapping relation between the data stream and the application type; gating a link for transmitting the data stream in a routing table according to the application type; and forwarding the data stream to a destination port according to the link. By utilizing the invention, the forwarding efficiency of the router can be improved and guaranteed bandwidth safety control can be realized.
+26. 102006310 Data stream processing method and firewall
+CN
+06.04.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010606939.4
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Tong Jian
+H04L 29/06
+Loading...
+The invention discloses a data stream processing method and a firewall. The firewall comprises a plurality of firewall isolation units, a first switching unit and a second switching unit, wherein a relationship of mutual backup is established among the firewall isolation units by mutual communication, and each firewall isolation unit comprises a first firewall isolation unit and a second firewall isolation unit; the first switching unit is used for receiving an intranet data stream and controlling the transmission of the data stream to the first firewall isolation unit or the second firewall isolation unit through configuring a master link and a standby link for the data stream; and the second switching unit is used for acquiring the data stream processed by the first firewall isolation unit or the second firewall isolation unit and transmitting the processed data stream to an extranet. By using the invention, the firewall dual-system allocation scheme can be simplified, thereby lowering the hardware cost.
+27. 101640678 Network connection digital control method
+CN
+03.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910081567.5
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Liu Xiangming
+H04L 29/06
+Loading...
+The invention provides a network connection digital control method which comprises: when a user is accessed into the network, the role of the user can be determined; according to the role of the use,the corresponding connection digital control policy is looked up in a connection digital control policy list which is preset; and the network connection number of the user is controlled by adopting the connection digital control policy. The method can realize the technical effect of conveniently and flexibility realizing the network connection digital control.
+28. 101640634 Method for controlling network flow
+CN
+03.02.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910081565.6
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Liu Xiangming
+H04L 12/56
+Loading...
+The invention provides a method for controlling network flow, comprising: when a user is accessed into the network, the role of the user can be determined; according to the role of the use, the corresponding flow control policy is looked up in a flow control policy list which is preset; and the network flow of the user is controlled by adopting the flow control policy. The method can realize the technical effect of conveniently and flexibility controlling the network flow aiming at the user.
+29. 101640679 Domain name resolution agent method and device therefor
+CN
+03.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910081569.4
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Zhang Tao
+H04L 29/06
+Loading...
+The invention provides a domain name resolution agent method and a device therefor; the domain name resolution agent method comprises: receiving the domain name resolution request of a client and transmitting the request to a plurality of servers capable of resolving the domain name; respectively receiving the resolution results by the servers and judging whether the resolution results have intersection or not; and when no intersection exists among the resolution results, sending prompt message to the client. The invention can find out Domain Hijacking and DNS buffer pollution in the process of domain name resolution, thus realizing the technical effect of improving the safety performance.
+30. 101640607 Collocation method of virtual private network based on internet security protocol and system therefor
+CN
+03.02.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910081566.0
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Liu Xiangming
+H04L 12/24
+Loading...
+The invention provides a collocation method of IPSec VPN and a system therefor; the method comprises: in the VPN, a central server is collocated configuration parameters of branch institutions; according to the configuration parameters, the central server can authenticate the branch institutions requiring to be accessed into the virtual private network; if the authentication is successful, the central server sends the configuration parameters into the corresponding branch institution; and the branch institution utilizes the configuration parameters for collocation. The method can realize the technical effect of simply and conveniently collocating the IPSec VPN.
+31. 101640608 Network action monitoring method
+CN
+03.02.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910081568.X
+Hillstone Networks Communication Technology (Beijing) Co., Ltd.
+Liu Xiangming
+H04L 12/24
+Loading...
+The invention provides a network action monitoring method, comprising: when a user is accessed into the network, the role of the user can be determined; according to the role of the use, the corresponding action monitoring policy is looked up in a monitoring policy list which is preset; and the network action of the user is controlled by adopting the action monitoring policy. The method can realize the technical effect of conveniently and flexibility realizing the network action monitoring.
+32. 101635667 Method for adaptively adjusting IP bandwidth
+CN
+27.01.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810116948.8
+Hillstone Networks (Beijing) Inc.
+Chen Xiaolong
+H04L 12/56
+Loading...
+The invention provides a method for adaptively adjusting IP bandwidth. The method comprises the following steps of: 1, setting a plurality of parameters used for adjusting the IP bandwidth; and 2, comparing the interface bandwidth usage of the network with some of the parameters, and adjusting the current bandwidth of each IP in the network according to the comparison result. Therefore, by the method, the network congestion can be improved, and the equity problem can also be better solved. More importantly, the method allows the network to be adaptively adjusted to achieve the best state and avoid the quick shake of the speed and the unpredictability of the bandwidth use.
+33. 101635701 Method for controlling safe access
+CN
+27.01.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810116950.5
+Hillstone Networks (Beijing) Inc.
+Liu Xiangming
+H04L 29/06
+Loading...
+The invention provides a method for controlling safe access. The method comprises the following steps of: 1, in a process of access and authentication of a user, determining the role played by the user according to a user attribute; and 2, adding the determined user role to a firewall strategy so as to realize user role-based safe access control. Therefore, the method is backward-compatible with the functions of the conventional firewalls and realizes different user behavior managements on different users through the role-based safe access control, thereby laying a foundation for the integration of the network and security technology; and simultaneously, the method does not do any change in the priority and the first match principle of the firewall strategy and can be easily accepted by managers familiar with the firewall.
+34. 101635621 Interactive method for address resolution protocol
+CN
+27.01.2010
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200810116949.2
+Hillstone Networks (Beijing) Inc.
+Xu Tao
+H04L 9/08
+Loading...
+The invention provides an interactive method for an address resolution protocol. The method comprises the following steps of: 1, a public key and a private key of the equipment are generated and all clients under the equipment obtain the public key of the equipment; 2, when receiving an address resolution protocol request message from the client, the equipment completes the private key signature of the address resolution protocol packet needing to be transferred by using the signature algorithm and transmits the generated signature and the transferred address resolution protocol packet to the client as an address resolution protocol answer message; and 3, after receiving the address resolution protocol answer message from the equipment, the client determines whether to refresh the address resolution protocol buffer memory in the client according to the state of the answer message. Therefore, the method can completely prevent ARP spoofing on the equipment supporting the authentication of the ARP under a condition of being compatible with the prior equipment.
+35. 101635702 Method for forwarding data packet using security strategy
+CN
+27.01.2010
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+200810116951.X
+Hillstone Networks (Beijing) Inc.
+Yang Qijun
+H04L 12/741
+Loading...
+The invention provides a method for forwarding a data packet using security strategy. The method comprises the following steps of: 1, configuring a plurality of relation tables for forwarding the data packet; 2, according to address information in the data packet to be forwarded and address information on a virtual switch, determining a forwarding mode of the data packet to be forwarded; and 3, according to the relation tables and the address information in the data packet to be forwarded, determining an outlet interface of the data packet to be forwarded, and using the determined forwarding mode to forward or discard the data packet to be forwarded according to the security strategy from the inlet interface of the data packet to be forwarded to an outgoing interface of the data packet to be forwarded. Therefore, the method only needs a single piece of equipment to meet the security requirements on the mixing application of two or three layers, thereby greatly lowering network-building cost and network management cost.
+
