@@ -335,4 +335,8 @@ public class CitationSearchService
 			}
 		}
 	}
+	
+	public void findWipoApplicantByPubNr() {
+		this.apiReader.readWipoSimpleSearchUsingPubNr("202894649");
+	}
 }

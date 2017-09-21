@@ -25,7 +25,10 @@ public class Main
 		//validate person ids
 		//service.validateApplicants();
 		
-		service.generatePatentListByPersonIds();
+		//service.generatePatentListByPersonIds();
+		
+		service.setApiUrl(WIPO_SIMPLE_SEARCH);
+		service.findWipoApplicantByPubNr();
 		
 		//not used now
 		//service.searchAllCitationsByEnglishName();

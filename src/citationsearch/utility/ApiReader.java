@@ -6,6 +6,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -167,5 +168,30 @@ public class ApiReader extends Reader
 			e.printStackTrace();
 		}
 		
+	}
+	
+	public String readWipoSimpleSearchUsingPubNr(String pubNr) {
+		String applicantName = "";
+		
+		try {
+			//read total number of patents
+	        Document document = Jsoup.connect(this.location)
+	        		.data(
+							"simpleSearchSearchForm", "simpleSearchSearchForm",
+							"simpleSearchSearchForm:j_idt379", "FP",
+							"simpleSearchSearchForm:fpSearch", pubNr,
+							"simpleSearchSearchForm:j_idt447", "workaround"
+							)
+					.post();
+	        System.out.println(document.text());
+	        System.out.println("-----------------------");
+	        applicantName = document.select("detailMainForm:NPapplicants").text();
+	        System.out.println(applicantName);
+	        
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return applicantName;
 	}
 }

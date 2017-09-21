@@ -2,6 +2,7 @@ package citationsearch.constants;
 
 public final class Constants {
 	public static final String[] KEYWORDS = {"有限", "公司", "股份", "集团", "责任"};
+	public static final String WIPO_SIMPLE_SEARCH = "https://patentscope.wipo.int/search/en/search.jsf";
 	public static final String WIPO_STRUCTURED_SEARCH = "https://patentscope.wipo.int/search/en/structuredSearch.jsf";
 	public static final String WIPO_RESULT_URL = "https://patentscope.wipo.int/search/en/result.jsf";
 	public static final String QUERY_STRING_PART1 = "?query=PA:"; //世芯电子&listLengthOption=1653";
