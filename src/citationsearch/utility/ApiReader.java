@@ -12,6 +12,7 @@ import java.util.Map;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
+import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -174,8 +175,10 @@ public class ApiReader extends Reader
 		String applicantName = "";
 		
 		try {
+			/*
 			//read total number of patents
 	        Document document = Jsoup.connect(this.location)
+	        		//.followRedirects(true)
 	        		.data(
 							"simpleSearchSearchForm", "simpleSearchSearchForm",
 							"simpleSearchSearchForm:j_idt379", "FP",
@@ -187,7 +190,34 @@ public class ApiReader extends Reader
 	        System.out.println("-----------------------");
 	        applicantName = document.select("detailMainForm:NPapplicants").text();
 	        System.out.println(applicantName);
-	        
+	        */
+			
+			Response response = Jsoup.connect(this.location)
+					.followRedirects(false)
+					.execute();
+			System.out.println(response.url());
+			System.out.println(response.header("location"));
+			System.out.println(response.cookie("JSESSIONID"));
+			//System.out.println(response.cookie("\\_ga"));
+			
+			Response response2 = Jsoup.connect(this.location)
+					.header("Host", "patentscope.wipo.int")
+					.header("Origin", "https://patentscope.wipo.int")
+					.header("Referer", "https://patentscope.wipo.int/search/en/search.jsf")
+					.data(
+							"simpleSearchSearchForm", "simpleSearchSearchForm",
+							"simpleSearchSearchForm:fpSearch", pubNr
+							)
+				    .cookie("JSESSIONID", response.cookie("JSESSIONID"))
+				    //.cookie("_ga", response.cookie("_ga"))
+				    .method(Method.POST)
+				    .execute();
+			
+			System.out.println(response2.url());
+			System.out.println(response2.header("location"));
+			System.out.println(response2.cookie("JSESSIONID"));
+			
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

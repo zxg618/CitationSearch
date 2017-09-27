@@ -27,8 +27,9 @@ public class Main
 		
 		//service.generatePatentListByPersonIds();
 		
-		service.setApiUrl(WIPO_SIMPLE_SEARCH);
-		service.findWipoApplicantByPubNr();
+		//service.setApiUrl(WIPO_SIMPLE_SEARCH);
+		//service.findWipoApplicantByPubNr();
+		service.formatWipoApplicantsFile();
 		
 		//not used now
 		//service.searchAllCitationsByEnglishName();

@@ -4,8 +4,10 @@ import static citationsearch.constants.Constants.*;
 
 import citationsearch.utility.ExcelFileReader;
 import citationsearch.utility.ExcelFileWriter;
+import citationsearch.utility.FileReader;
 import citationsearch.utility.WipoDataFileReader;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -13,6 +15,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 
 import citationsearch.entity.Company;
@@ -337,6 +340,106 @@ public class CitationSearchService
 	}
 	
 	public void findWipoApplicantByPubNr() {
-		this.apiReader.readWipoSimpleSearchUsingPubNr("202894649");
+		//this.apiReader.readWipoSimpleSearchUsingPubNr("202894649");
+		FileReader fr = new FileReader("./output/" + PERSON_PUBNR_FILE);
+		WipoDataFileReader wfr = new WipoDataFileReader("");
+		CompanyMapper cm = new CompanyMapper();
+		String[] lines = fr.getAllLines();
+		String[] elements = null;
+		String publnNr = "";
+		int i = 0;
+		
+		Set<String> set = new HashSet<String>();
+
+		//String[] uniqueLines = set.toArray(new String[0]);
+		
+		//System.out.println(lines.length + " vs " + uniqueLines.length);
+		
+		for (i = 0; i < lines.length; i++) {
+			if (!set.add(lines[i])) {
+				continue;
+			}
+			elements = lines[i].split("\t");
+			int companyId = Integer.parseInt(elements[0]);
+			publnNr = elements[6];
+			Company comp = cm.get(companyId);
+			String applicantName = wfr.getApplicantNameByKeywordPublnNr(comp.getSearchKeyword(), publnNr);
+			//System.out.println("Search keyword is: " + comp.getSearchKeyword() + " and publication no is: " + publnNr + " and Applicant Name is: " + applicantName);
+			System.out.print(lines[i]);
+			if (applicantName.length() > 0) {
+				System.out.println("\t" + applicantName);
+			} else {
+				System.out.println();
+			}
+		}
+		
+		//System.out.println("There are " + dupCounter + " duplicates in " + lines.length + " lines");
+		
+	}
+	
+	public void formatWipoApplicantsFile() {
+		FileReader fr = new FileReader("./output/" + PERSON_PUBNR_FILE2);
+		String[] lines = fr.getAllLines();
+		int total = lines.length;
+		int i = 0;
+		int j = 0;
+		int ct = 0;
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		HashSet<String> set = new HashSet<String>();
+		
+		for (i = 0; i < total; i++) {
+			String[] elements = lines[i].split("\t");
+			if (elements.length < 8) {
+				ct++;
+				continue;
+			}
+			
+			if (!this.validateString(elements[7])) {
+				ct++;
+				continue;
+			}
+			
+			System.out.println(elements[6] + "\t" + elements[7]);
+			
+			String[] keyArray = Arrays.copyOfRange(elements, 0, 6);
+			String key = String.join("\t", keyArray);
+			
+			System.out.println("key was: " + lines[i]);
+			System.out.println("Key is: " + key);
+			
+			if (map.containsKey(key)) {
+				String value = map.get(key);
+				String[] valueArray = value.split("\\|");
+				for (j = 0; j < valueArray.length; j++) {
+					set.add(valueArray[j]);
+				}
+				set.add(elements[7]);
+				valueArray = set.toArray(new String[0]);
+				value = String.join("|", valueArray);
+				map.replace(key, value);
+			} else {
+				set.clear();
+				map.put(key, elements[7]);
+			}
+			
+			//System.out.println(lines[i]);
+		}
+		
+		Iterator<Map.Entry<String, String>> it = map.entrySet().iterator();
+		while (it.hasNext()) {
+			Map.Entry<String, String> pair = it.next();
+			System.out.println(pair.getKey() + "\t" + pair.getValue());
+		}
+		
+		System.out.println("There are total " + total + " lines and " + ct + " incomplete data and " + map.size() + " validate data");
+		//String[] tmpElements = ArrayUtils.removeElement(elements, elements[elements.length - 1]);
+		//String tmpLine = String.join("\t", tmpElements);
+	}
+	
+	protected boolean validateString(String string) {
+		 return string.codePoints().anyMatch(
+		            codepoint ->
+		            Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN);
 	}
 }

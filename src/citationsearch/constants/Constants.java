@@ -9,6 +9,8 @@ public final class Constants {
 	public static final String QUERY_STRING_PART2 = "&listLengthOption=2000";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish.xlsx";
 	public static final String WIPO_DATA_PATH = "./WIPO_Data/";
+	public static final String PERSON_PUBNR_FILE = "person_pubNr_complete.txt";
+	public static final String PERSON_PUBNR_FILE2 = "person_pubNr_complete_done.txt";
 	
 	//excel file start position >=1
 	public static final int EXCELFILE_START = 1;
