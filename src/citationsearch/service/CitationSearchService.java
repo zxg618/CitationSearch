@@ -15,7 +15,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 
 import citationsearch.entity.Company;
@@ -91,12 +90,12 @@ public class CitationSearchService
 		//fill in citations_total in tls001_company
 		
 		
-		this.getAllReplatedPatents();
+		this.getAllRelatedPatents();
 		//this.getAllCitations();
 		//this.countAllCitationsForEachCompany();
 	}
 	
-	protected void getAllReplatedPatents() {
+	protected void getAllRelatedPatents() {
 		System.out.println("---------------------------------");
 		System.out.println("Starting to find all patents from each company.");
 		System.out.println("---------------------------------");
@@ -226,7 +225,7 @@ public class CitationSearchService
 			int companyId = compinies[i].getID();
 			int sourceFileId = compinies[i].getSourceExcelLineNumbers();
 			String originalName = compinies[i].getChineseName();
-			String searchKeyword = compinies[i].getSearchKeyword();
+			//String searchKeyword = compinies[i].getSearchKeyword();
 			CompanyApplicant[] translations = cm.getTranslationsByCompanyId(companyId);
 			Map<String, Integer> transMap = new HashMap<String, Integer>();
 			
@@ -442,4 +441,59 @@ public class CitationSearchService
 		            codepoint ->
 		            Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN);
 	}
+	
+	
+	//second half of the code
+	//1. find all patents according to human filtered person ids
+	//2. find all citations according to patents
+	//3. count all patents and citations
+	//4. generate output file
+	public void processPersonIds() {
+		this.findAllPatentsByPersonIds();
+		//this.findAllCitationsByPatents();
+		this.getAllCitations();
+		this.countAllCitationsForEachCompany();
+		this.generateOutputExcelFiles();
+	}
+	
+	protected void findAllPatentsByPersonIds() {
+		FileReader fr = new FileReader("output/" + PERSONS);
+		PatentMapper pm = new PatentMapper();
+		String[] lines = fr.getAllLines();
+		int i = 0;
+		
+		for (i = 0; i < lines.length; i++) {
+			if (i == 70) {
+				//testing purpose, to be deleted
+				break;
+			}
+			
+			//index
+			//0 ra company id
+			//1 person id
+			//2 source file id
+			//3 original chinese name
+			//4 original english name
+			//5 person name
+			//6 flag
+			String[] elements = lines[i].split("\t");
+			String flag = elements[6];
+			if (!flag.equals("good")) {
+				continue;
+			}
+			
+			int companyId = Integer.parseInt(elements[0]);
+			int personId = Integer.parseInt(elements[1]);
+			pm.getPatentsByPersonId(personId, companyId);
+			
+			//System.out.println(elements[0]);
+		}
+		
+		pm.close();
+	}
+	
+	protected void findAllCitationsByPatents() {
+		//CitationMapper cm = new CitationMapper();
+	}
+	
 }

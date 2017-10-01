@@ -3,9 +3,9 @@ package citationsearch.utility;
 import java.io.BufferedReader;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
+//import java.util.HashMap;
 
-import citationsearch.entity.Company;
+//import citationsearch.entity.Company;
 
 public class FileReader extends Reader {
 
@@ -16,7 +16,7 @@ public class FileReader extends Reader {
 	public String[] getAllLines() {
 		File file = new File(this.location);
 		String line = "";
-		HashMap<String, Company> map = new HashMap<>();
+		//HashMap<String, Company> map = new HashMap<>();
 		ArrayList<String> lines = new ArrayList<>();
 		try {
 			BufferedReader br = new BufferedReader(new java.io.FileReader(file));

@@ -12,6 +12,8 @@ public final class Constants {
 	public static final String PERSON_PUBNR_FILE = "person_pubNr_complete.txt";
 	public static final String PERSON_PUBNR_FILE2 = "person_pubNr_complete_done.txt";
 	
+	public static final String PERSONS = "persons.txt";
+	
 	//excel file start position >=1
 	public static final int EXCELFILE_START = 1;
 	//excel file end position
