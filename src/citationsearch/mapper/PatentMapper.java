@@ -599,6 +599,11 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
+		//debug purpose
+		if (applnIdList.size() < 1) {
+			System.out.println("Person id: " + personId + " does not have any patents\n");
+		}
+		
 		String[] applnIds = applnIdList.toArray(new String[0]);
 		String applnIdString = String.join(",", applnIds);
 		
