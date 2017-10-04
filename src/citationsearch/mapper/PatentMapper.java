@@ -205,7 +205,6 @@ public class PatentMapper extends Mapper {
 				patent.setDocdbFamId(rs.getInt("docdb_family_id"));
 			}
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		
@@ -317,7 +316,6 @@ public class PatentMapper extends Mapper {
 				cm.createCompantApplicant(compApplnt);
 			}
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		
@@ -358,7 +356,6 @@ public class PatentMapper extends Mapper {
 				patentList.add(tmpPatent);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -380,7 +377,6 @@ public class PatentMapper extends Mapper {
 					docdbFamId = rs.getInt("docdb_family_id");
 				}
 			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			
@@ -403,7 +399,6 @@ public class PatentMapper extends Mapper {
 					patentList.add(tmpPatent2);
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -430,7 +425,6 @@ public class PatentMapper extends Mapper {
 					tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
@@ -441,7 +435,6 @@ public class PatentMapper extends Mapper {
 	}
 
 	public void delete(int id) {
-		// TODO Auto-generated method stub
 		super.delete(id);
 	}
 
@@ -482,7 +475,6 @@ public class PatentMapper extends Mapper {
 				totalCitations += rs.getInt("total");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -530,7 +522,6 @@ public class PatentMapper extends Mapper {
 				patents.add(tmpPatent);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -549,7 +540,6 @@ public class PatentMapper extends Mapper {
 				total = rs.getInt("total");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -573,11 +563,92 @@ public class PatentMapper extends Mapper {
 				publnNrList.add(publn);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		return publnNrList.toArray(new String[0]);
+	}
+	
+	public void getPatentsByPersonId(int personId, int companyId) {
+		ArrayList<Patent> patentList = new ArrayList<Patent>();
+		ArrayList<String> applnIdList = new ArrayList<String>();
+		int i = 0;
+		
+		this.query = "select * from tls211_pat_publn where appln_id in (select appln_id from tls207_pers_appln where person_id = "
+				+ personId + " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
+				+ ")"
+				+ " or pat_publn_id in (select pat_publn_id from tls227_pers_publn where person_id = "
+				+ personId + " and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
+				+ ")";
+		
+		ResultSet rs = this.executeGetQuery();
+		
+		try {
+			while (rs.next()) {
+				Patent tmpPatent = new Patent();
+				tmpPatent.setPublicationNumber(rs.getString("publn_nr"));
+				tmpPatent.setPublnDateBySqlDate(rs.getDate("publn_date"));
+				tmpPatent.setCompanyId(companyId);
+				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
+				patentList.add(tmpPatent);
+				
+				String applnId = rs.getString("appln_id");
+				applnIdList.add(applnId);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		String[] applnIds = applnIdList.toArray(new String[0]);
+		String applnIdString = String.join(",", applnIds);
+		
+		this.query = "select * from tls211_pat_publn where appln_id in ("
+				+ "select appln_id from tls201_appln where docdb_family_id in ("
+				+ "select docdb_family_id from tls201_appln where appln_id in (" + applnIdString + ")"
+				+ ")"
+				+ ");";
+		
+		//System.out.println(this.query);
+		
+		rs = this.executeGetQuery();
+		try {
+			while (rs.next()) {
+				Patent tmpPatent = new Patent();
+				tmpPatent.setPublicationNumber(rs.getString("publn_nr"));
+				tmpPatent.setPublnDateBySqlDate(rs.getDate("publn_date"));
+				tmpPatent.setCompanyId(companyId);
+				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
+				patentList.add(tmpPatent);
+			}
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		
+		
+		for (i = 0; i < patentList.size(); i++) {
+			Patent tmpPatent = patentList.get(i);
+			int patPubId = tmpPatent.getPatPublnId();
+			
+			this.query = "select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id from tls201_appln appln "
+					+ "join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = " + patPubId;
+			rs = this.executeGetQuery();
+			try {
+				if (rs.next()) {
+					tmpPatent.setApplnNum(rs.getString("appln_nr"));
+					tmpPatent.setPriorityNum(rs.getString("appln_nr_epodoc"));
+					tmpPatent.setPrefix(rs.getString("appln_auth"));
+					tmpPatent.setPostfix(rs.getString("appln_kind"));
+					tmpPatent.setAppFilingDateBySqlDate(rs.getDate("appln_filing_date"));
+					tmpPatent.setAppEarliestDateBySqlDate(rs.getDate("earliest_filing_date"));
+					tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			
+			this.save(tmpPatent);
+		}
+		
 	}
 	
 }

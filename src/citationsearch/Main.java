@@ -29,7 +29,10 @@ public class Main
 		
 		//service.setApiUrl(WIPO_SIMPLE_SEARCH);
 		//service.findWipoApplicantByPubNr();
-		service.formatWipoApplicantsFile();
+		//service.formatWipoApplicantsFile();
+		
+		//second half part
+		service.processPersonIds();
 		
 		//not used now
 		//service.searchAllCitationsByEnglishName();
