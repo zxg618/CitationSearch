@@ -205,7 +205,6 @@ public class PatentMapper extends Mapper {
 				patent.setDocdbFamId(rs.getInt("docdb_family_id"));
 			}
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		
@@ -317,7 +316,6 @@ public class PatentMapper extends Mapper {
 				cm.createCompantApplicant(compApplnt);
 			}
 		} catch (SQLException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		
@@ -358,7 +356,6 @@ public class PatentMapper extends Mapper {
 				patentList.add(tmpPatent);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -380,7 +377,6 @@ public class PatentMapper extends Mapper {
 					docdbFamId = rs.getInt("docdb_family_id");
 				}
 			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			
@@ -403,7 +399,6 @@ public class PatentMapper extends Mapper {
 					patentList.add(tmpPatent2);
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -430,7 +425,6 @@ public class PatentMapper extends Mapper {
 					tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
@@ -441,7 +435,6 @@ public class PatentMapper extends Mapper {
 	}
 
 	public void delete(int id) {
-		// TODO Auto-generated method stub
 		super.delete(id);
 	}
 
@@ -482,7 +475,6 @@ public class PatentMapper extends Mapper {
 				totalCitations += rs.getInt("total");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -530,7 +522,6 @@ public class PatentMapper extends Mapper {
 				patents.add(tmpPatent);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -549,7 +540,6 @@ public class PatentMapper extends Mapper {
 				total = rs.getInt("total");
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -573,7 +563,6 @@ public class PatentMapper extends Mapper {
 				publnNrList.add(publn);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -603,7 +592,6 @@ public class PatentMapper extends Mapper {
 				patentList.add(tmpPatent);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -625,7 +613,6 @@ public class PatentMapper extends Mapper {
 					tmpPatent.setDocdbFamId(rs.getInt("docdb_family_id"));
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
