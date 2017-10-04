@@ -571,6 +571,7 @@ public class PatentMapper extends Mapper {
 	
 	public void getPatentsByPersonId(int personId, int companyId) {
 		ArrayList<Patent> patentList = new ArrayList<Patent>();
+		ArrayList<String> applnIdList = new ArrayList<String>();
 		int i = 0;
 		
 		this.query = "select * from tls211_pat_publn where appln_id in (select appln_id from tls207_pers_appln where person_id = "
@@ -590,10 +591,39 @@ public class PatentMapper extends Mapper {
 				tmpPatent.setCompanyId(companyId);
 				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
 				patentList.add(tmpPatent);
+				
+				String applnId = rs.getString("appln_id");
+				applnIdList.add(applnId);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		
+		String[] applnIds = applnIdList.toArray(new String[0]);
+		String applnIdString = String.join(",", applnIds);
+		
+		this.query = "select * from tls211_pat_publn where appln_id in ("
+				+ "select appln_id from tls201_appln where docdb_family_id in ("
+				+ "select docdb_family_id from tls201_appln where appln_id in (" + applnIdString + ")"
+				+ ")"
+				+ ");";
+		
+		//System.out.println(this.query);
+		
+		rs = this.executeGetQuery();
+		try {
+			while (rs.next()) {
+				Patent tmpPatent = new Patent();
+				tmpPatent.setPublicationNumber(rs.getString("publn_nr"));
+				tmpPatent.setPublnDateBySqlDate(rs.getDate("publn_date"));
+				tmpPatent.setCompanyId(companyId);
+				tmpPatent.setPatPublnId(rs.getInt("pat_publn_id"));
+				patentList.add(tmpPatent);
+			}
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		
 		
 		for (i = 0; i < patentList.size(); i++) {
 			Patent tmpPatent = patentList.get(i);

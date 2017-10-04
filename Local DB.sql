@@ -54,13 +54,12 @@ select * from tls207_pers_appln where person_id = 42239199;
 select * from tls211_pat_publn where appln_id = 331345257;
 
 
---delete from unsw_bs_citation;
---delete from unsw_bs_patent;
+delete from unsw_bs_citation;
+delete from unsw_bs_patent;
 
 
---update unsw_bs_company
---set patents_total = 0;
---set citations_total = 0;
+update unsw_bs_company
+set patents_total = 0, citations_total = 0;
 
 --select * from unsw_bs_company where patents_total <> 0 and citations_total <> 0;
 
