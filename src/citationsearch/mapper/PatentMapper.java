@@ -601,7 +601,8 @@ public class PatentMapper extends Mapper {
 		
 		//debug purpose
 		if (applnIdList.size() < 1) {
-			System.out.println("Person id: " + personId + " does not have any patents\n");
+			System.out.println("Person id: " + personId + " does not have any patents");
+			return;
 		}
 		
 		String[] applnIds = applnIdList.toArray(new String[0]);

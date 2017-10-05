@@ -463,9 +463,9 @@ public class CitationSearchService
 		int i = 0;
 		
 		for (i = 0; i < lines.length; i++) {
-			if (i == 70) {
+			if (i <= 290 || i >= 330) {
 				//testing purpose, to be deleted
-				break;
+				continue;
 			}
 			
 			//index
