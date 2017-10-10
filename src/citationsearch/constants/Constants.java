@@ -19,7 +19,7 @@ public final class Constants {
 	//excel file end position
 	public static final int EXCELFILE_END = 20;
 	
-	public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test.xlsx";
+	public static final String FILE_PATH = "patentfirmsmandenglish_test.xlsx";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test2.xlsx";
 	//public static final String FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/patentfirmsmandenglish_test3.xlsx";
 	public static final String PERSON_ID_FILE_PATH = "/Users/zxg/Documents/workspace/CitationSearch/persons.xlsx";
