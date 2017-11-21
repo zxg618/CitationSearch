@@ -195,4 +195,43 @@ public class CompanyMapper extends Mapper {
 		return translations.toArray(new CompanyApplicant[0]);
 	}
 	
+	public int getCompanyIdBySourceFileId(int sourceFileId) {
+		int companyId = 0;
+		this.query = "select id from unsw_bs_company where source_file_id = " + sourceFileId;
+		ResultSet rs = this.executeGetQuery();
+		
+		try {
+			if (rs.next()) {
+				companyId = rs.getInt("id");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return companyId;
+	}
+
+	public void saveCompApplntByPersonId(int companyId, int personId) {
+		CompanyApplicant ca = new CompanyApplicant();
+		this.query = "select person_name from tls206_person where person_id = " + personId;
+		ResultSet rs = this.executeGetQuery();
+		String personName = "";
+		
+		try {
+			if (rs.next()) {
+				personName = rs.getString("person_name");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		if (personName.length() > 0) {
+			ca.setCompanyId(companyId);
+			ca.setPersonId(personId);
+			ca.setCompanyName(personName);
+			this.createCompantApplicant(ca);
+		}
+	}
 }

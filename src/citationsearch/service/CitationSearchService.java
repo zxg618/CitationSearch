@@ -450,24 +450,68 @@ public class CitationSearchService
 	//4. generate output file
 	public void processPersonIds() {
 		this.findAllPatentsByPersonIds();
-		//this.findAllCitationsByPatents();
 		this.getAllCitations();
 		this.countAllCitationsForEachCompany();
 		this.generateOutputExcelFiles();
 	}
 	
 	protected void findAllPatentsByPersonIds() {
-		FileReader fr = new FileReader("output/" + PERSONS);
 		PatentMapper pm = new PatentMapper();
-		String[] lines = fr.getAllLines();
+		CompanyMapper cm = new CompanyMapper();
+		ExcelFileReader efr = new ExcelFileReader("");
+		//refined file got from professor
+		String[] refinedLines = efr.readRefinedPersonsFileHSSF(REFINED_PERSONS_FILE);
+		//refined by us
+		String[] originalLines = efr.readRefinedPersonsFileXSSF(ORIGINAL_PERSONS_FILE);
 		int i = 0;
+		//related
+		int rCt = 0;
+		//not related
+		int nrCt = 0;
+		//none (unknown flag)
+		int ct = 0;
+		//flag length > 7 (------------  ones)
+		int valid = 0;
 		
-		for (i = 0; i < lines.length; i++) {
-			if (i <= 290 || i >= 330) {
-				//testing purpose, to be deleted
+		for (i = 1; i < originalLines.length; i++) {
+			if (i > 10) {
+				break;
+			}
+			System.out.println("Processing line " + i);
+			//0 ra company id
+			//1 source company name in Chinese
+			//2 source company name in English
+			//3 epo person id
+			//4 epo person name
+			//5 flag
+			String[] elements = originalLines[i].split("\t");
+			//System.out.println("There are total " + elements.length + " columns in line " + i);
+			if (elements.length < 6) {
+				nrCt++;
 				continue;
 			}
-			
+			String flag = elements[5];
+			//System.out.println(flag);
+			if (!flag.equalsIgnoreCase("good")) {
+				nrCt++;
+				continue;
+			}
+			valid++;
+			double rawCompId = Double.parseDouble(elements[0]);
+			int sourceCompanyId = (int) rawCompId;
+			int personId = Double.valueOf(elements[3]).intValue();
+			int companyId = cm.getCompanyIdBySourceFileId(sourceCompanyId);
+			cm.saveCompApplntByPersonId(companyId, personId);
+			pm.getPatentsByPersonId(personId, companyId);
+		}
+		
+		
+		for (i = 1; i < refinedLines.length; i++) {
+			if (i > 0) {
+				break;
+			}
+			System.out.println("Processing line " + i);
+			//System.out.println(lines[i]);
 			//index
 			//0 ra company id
 			//1 person id
@@ -476,24 +520,48 @@ public class CitationSearchService
 			//4 original english name
 			//5 person name
 			//6 flag
-			String[] elements = lines[i].split("\t");
-			String flag = elements[6];
-			if (!flag.equals("good")) {
+			String[] elements = refinedLines[i].split("\t");
+			//System.out.println("Element 7 is " + elements[7]);
+			String flag = elements[7];
+			//System.out.println("Flag string length is " + flag.length());
+			if (flag.equalsIgnoreCase("related")) {
+				rCt++;
+			} else if (flag.equalsIgnoreCase("not related")) {
+				nrCt++;
+			} else {
+				//System.out.println(lines[i]);
+				//System.out.println(flag);
+				ct++;
+			}
+			
+			if (flag.length() > 7) {
+				//System.out.println(flag + "----------");
 				continue;
 			}
 			
-			int companyId = Integer.parseInt(elements[0]);
-			int personId = Integer.parseInt(elements[1]);
+			valid++;
+			//System.out.println(flag);
+			
+			double rawCompId = Double.parseDouble(elements[0]);
+			int sourceCompanyId = (int) rawCompId;
+			int personId = Double.valueOf(elements[3]).intValue();
+			//System.out.println("Element 0 is " + companyId);
+			//System.out.println("Element 3 is " + personId);
+			int companyId = cm.getCompanyIdBySourceFileId(sourceCompanyId);
+			cm.saveCompApplntByPersonId(companyId, personId);
 			pm.getPatentsByPersonId(personId, companyId);
+			//pm.getPatentsByPersonId(personId, companyId);
 			
 			//System.out.println(elements[0]);
 		}
 		
+		System.out.println("There are " + rCt + " related");
+		System.out.println("There are " + nrCt + " not related");
+		System.out.println("There are " + ct + " none");
+		System.out.println("There are " + valid + " valid person ids");
+		
 		pm.close();
-	}
-	
-	protected void findAllCitationsByPatents() {
-		//CitationMapper cm = new CitationMapper();
+		cm.close();
 	}
 	
 }

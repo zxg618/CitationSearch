@@ -630,7 +630,7 @@ public class PatentMapper extends Mapper {
 			e1.printStackTrace();
 		}
 		
-		
+		System.out.println("There are total " + patentList.size() + " patents from person id " + personId);
 		for (i = 0; i < patentList.size(); i++) {
 			Patent tmpPatent = patentList.get(i);
 			int patPubId = tmpPatent.getPatPublnId();

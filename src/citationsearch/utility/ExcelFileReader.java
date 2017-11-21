@@ -3,8 +3,11 @@ package citationsearch.utility;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -288,5 +291,101 @@ public class ExcelFileReader extends Reader
 		}
 		
 		return translations.toArray(new CompanyApplicant[0]);
+	}
+	
+	public String[] readRefinedPersonsFileHSSF(String fileName) {
+		ArrayList<String> lines = new ArrayList<String>();
+		File file = new File(fileName);
+		
+		try {
+		    HSSFWorkbook wb = new HSSFWorkbook(new FileInputStream(file));
+		    
+		    HSSFSheet sheet = wb.getSheetAt(0);
+		    HSSFRow row;
+		    HSSFCell cell;
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+		    
+		    for(int r = 0; r < rows; r++) {
+		    	ArrayList<String> line = new ArrayList<String>();
+		        row = sheet.getRow(r);
+		        if(row != null) {
+		        	for(int c = 0; c < cols; c++) {
+		        		cell = row.getCell((short)c);
+		                if(cell != null) {
+		                	String content = cell.toString().trim();
+		                	line.add(content);
+		                }
+		        	}
+		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	lines.add(tmpLine);
+		        }
+		    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return lines.toArray(new String[0]);
+	}
+	
+	public String[] readRefinedPersonsFileXSSF(String fileName) {
+		ArrayList<String> lines = new ArrayList<String>();
+		File file = new File(fileName);
+		
+		try {
+		    XSSFWorkbook wb = new XSSFWorkbook(new FileInputStream(file));
+		    
+		    XSSFSheet sheet = wb.getSheetAt(0);
+		    XSSFRow row;
+		    XSSFCell cell;
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+		    
+		    for(int r = 0; r < rows; r++) {
+		    	ArrayList<String> line = new ArrayList<String>();
+		        row = sheet.getRow(r);
+		        if(row != null) {
+		        	for(int c = 0; c < cols; c++) {
+		        		cell = row.getCell((short)c);
+		                if(cell != null) {
+		                	String content = cell.toString().trim();
+		                	line.add(content);
+		                }
+		        	}
+		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	lines.add(tmpLine);
+		        }
+		    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return lines.toArray(new String[0]);
 	}
 }

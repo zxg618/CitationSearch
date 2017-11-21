@@ -101,4 +101,6 @@ public final class Constants {
 	public static final String COMPANY_TRANS_COLUMN4 = "Source - Company Name in Chinese";
 	public static final String COMPANY_TRANS_COLUMN5 = "RAP - Company Name in English";
 	
+	public static final String REFINED_PERSONS_FILE = "output/ReversedFulltobecheckedallcompleted.xls";
+	public static final String ORIGINAL_PERSONS_FILE = "output/CandidateCompanyNames.xlsx";
 }
