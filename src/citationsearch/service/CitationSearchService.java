@@ -13,6 +13,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.IntPredicate;
 import java.util.Map.Entry;
 
 import org.apache.commons.text.similarity.LevenshteinDistance;
@@ -436,10 +437,23 @@ public class CitationSearchService
 		//String tmpLine = String.join("\t", tmpElements);
 	}
 	
+	/* jre 8 version
 	protected boolean validateString(String string) {
 		 return string.codePoints().anyMatch(
 		            codepoint ->
 		            Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN);
+	}
+	*/
+	
+	//jre 7 version
+	protected boolean validateString(String string) {
+		 return string.codePoints().anyMatch(
+		            new IntPredicate() {
+						@Override
+						public boolean test(int codepoint) {
+							return Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN;
+						}
+					});
 	}
 	
 	
