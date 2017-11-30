@@ -13,6 +13,7 @@ public class Mapper {
 	protected Connection con = null;
 	protected Statement stmt = null;
 	protected String query = "";
+	protected ResultSet rs;
 	
 	public Mapper() {
 		try {
@@ -61,8 +62,22 @@ public class Mapper {
 	
 	protected ResultSet executeGetQuery() {
 		//System.out.println("Executing get query: " + this.query);
+		//ResultSet rs = null;
+		try {
+			this.rs = this.stmt.executeQuery(this.query);
+		} catch (SQLException e) {
+			System.out.println("Error with query: " + this.query);
+			e.printStackTrace();
+		}
+		
+		return this.rs;
+	}
+	
+	protected ResultSet executeGetQuery2() {
+		//System.out.println("Executing get query: " + this.query);
 		ResultSet rs = null;
 		try {
+			this.stmt = this.con.createStatement();
 			rs = this.stmt.executeQuery(this.query);
 		} catch (SQLException e) {
 			System.out.println("Error with query: " + this.query);
@@ -89,6 +104,16 @@ public class Mapper {
 		try {
 			this.stmt.close();
 			this.con.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void refreshStatement() {
+		try {
+			this.rs.close();
+			this.stmt.close();
+			this.stmt = this.con.createStatement();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import citationsearch.entity.Citation;
 import citationsearch.entity.Company;
@@ -466,7 +467,8 @@ public class PatentMapper extends Mapper {
 	public int getTotalCitationsByCompanyId(int companyId) {
 		int totalCitations = 0;
 		
-		this.query = "select count(*) as total from " + Citation.TABLE + " where company_id =" + companyId;
+		//this.query = "select count(*) as total from " + Citation.TABLE + " where company_id =" + companyId;
+		this.query = "select sum(citations_total) as total from " + Patent.TABLE + " where company_id =" + companyId;
 		
 		ResultSet rs = this.executeGetQuery();
 		
@@ -570,6 +572,10 @@ public class PatentMapper extends Mapper {
 	}
 	
 	public void getPatentsByPersonId(int personId, int companyId) {
+		//--------------------------
+		long startTime = System.currentTimeMillis();
+		//--------------------------
+		//this.refreshStatement();
 		ArrayList<Patent> patentList = new ArrayList<Patent>();
 		ArrayList<String> applnIdList = new ArrayList<String>();
 		int i = 0;
@@ -599,6 +605,11 @@ public class PatentMapper extends Mapper {
 			e.printStackTrace();
 		}
 		
+		this.refreshStatement();
+		
+		long endTime = System.currentTimeMillis();
+		System.out.println("Total running time for STMG query is " + TimeUnit.SECONDS.convert((endTime - startTime), TimeUnit.MILLISECONDS) + " seconds");
+		
 		//debug purpose
 		if (applnIdList.size() < 1) {
 			System.out.println("Person id: " + personId + " does not have any patents");
@@ -616,6 +627,8 @@ public class PatentMapper extends Mapper {
 		
 		//System.out.println(this.query);
 		
+		
+		
 		rs = this.executeGetQuery();
 		try {
 			while (rs.next()) {
@@ -630,6 +643,13 @@ public class PatentMapper extends Mapper {
 			e1.printStackTrace();
 		}
 		
+		this.refreshStatement();
+		
+		//----------------
+		endTime = System.currentTimeMillis();
+		System.out.println("Total running time for docdb family query is " + TimeUnit.SECONDS.convert((endTime - startTime), TimeUnit.MILLISECONDS) + " seconds");
+		//----------------
+		
 		System.out.println("There are total " + patentList.size() + " patents from person id " + personId);
 		for (i = 0; i < patentList.size(); i++) {
 			Patent tmpPatent = patentList.get(i);
@@ -637,6 +657,7 @@ public class PatentMapper extends Mapper {
 			
 			this.query = "select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id from tls201_appln appln "
 					+ "join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = " + patPubId;
+			this.query = "select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id  from tls201_appln as appln where appln_id IN (select appln_id from tls211_pat_publn where pat_publn_id = " + patPubId + ")";
 			rs = this.executeGetQuery();
 			try {
 				if (rs.next()) {
@@ -652,8 +673,14 @@ public class PatentMapper extends Mapper {
 				e.printStackTrace();
 			}
 			
+			this.refreshStatement();
+			
 			this.save(tmpPatent);
+			
+			this.refreshStatement();
 		}
+		endTime = System.currentTimeMillis();
+		System.out.println("Total running time for each application id query is " + TimeUnit.SECONDS.convert((endTime - startTime), TimeUnit.MILLISECONDS) + " seconds");
 		
 	}
 	

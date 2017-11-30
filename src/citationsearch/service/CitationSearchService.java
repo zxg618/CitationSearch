@@ -474,10 +474,10 @@ public class CitationSearchService
 		int valid = 0;
 		
 		for (i = 1; i < originalLines.length; i++) {
-			if (i > 10) {
-				break;
-			}
-			System.out.println("Processing line " + i);
+//			if (i < 10000) {
+//				continue;
+//			}
+			System.out.println("Processing original line " + i);
 			//0 ra company id
 			//1 source company name in Chinese
 			//2 source company name in English
@@ -501,16 +501,19 @@ public class CitationSearchService
 			int sourceCompanyId = (int) rawCompId;
 			int personId = Double.valueOf(elements[3]).intValue();
 			int companyId = cm.getCompanyIdBySourceFileId(sourceCompanyId);
+//			if (companyId % 100 != 1) {
+//				continue;
+//			}
 			cm.saveCompApplntByPersonId(companyId, personId);
 			pm.getPatentsByPersonId(personId, companyId);
 		}
 		
 		
 		for (i = 1; i < refinedLines.length; i++) {
-			if (i > 0) {
-				break;
-			}
-			System.out.println("Processing line " + i);
+//			if (i > 0) {
+//				break;
+//			}
+			System.out.println("Processing refined line " + i);
 			//System.out.println(lines[i]);
 			//index
 			//0 ra company id
@@ -548,6 +551,9 @@ public class CitationSearchService
 			//System.out.println("Element 0 is " + companyId);
 			//System.out.println("Element 3 is " + personId);
 			int companyId = cm.getCompanyIdBySourceFileId(sourceCompanyId);
+//			if (companyId % 100 != 1) {
+//				continue;
+//			}
 			cm.saveCompApplntByPersonId(companyId, personId);
 			pm.getPatentsByPersonId(personId, companyId);
 			//pm.getPatentsByPersonId(personId, companyId);

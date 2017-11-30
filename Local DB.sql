@@ -65,5 +65,14 @@
 
 --DBCC CHECKIDENT ('[unsw_bs_patent]', RESEED, 0);
 --DBCC CHECKIDENT ('[unsw_bs_citation]', RESEED, 0);
-select count(*) from unsw_bs_patent;
-select count(*) from unsw_bs_citation;
+--select count(*) from unsw_bs_patent;
+--select count(*) from unsw_bs_citation;
+
+select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
+from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = 418067657;
+
+select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
+from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id where publn.pat_publn_id = 418067657;
+
+--select * from tls211_pat_publn where pat_publn_id = 266826938;
+select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id  from tls201_appln as appln where appln_id IN (select appln_id from tls211_pat_publn where pat_publn_id = 418067657);
