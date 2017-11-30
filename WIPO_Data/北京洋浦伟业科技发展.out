@@ -1,0 +1,265 @@
+1. 106603311 OTA升级方法、客户端、服务器和系统
+CN
+26.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201710039466.6
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 12/24
+Loading...
+本申请公开了一种OTA升级方法、客户端、服务器和系统，所述方法包括：接收客户端发送的OTA请求，所述OTA请求携带所述客户端的身份信息和待升级软件的当前运行版本；根据所述身份信息，确定与所述当前运行版本对应的差分升级包；将所述差分升级包反馈给所述客户端，以使所述客户端根据差分升级包对所述待升级软件进行差分升级。应用本申请，能够减轻服务器与客户端的交互压力，提高OTA升级效率的方案，从而提高用户体验。
+2. 106535168 具有风险控制功能的空中下载方法和装置及设备
+CN
+22.03.2017
+H04W 8/20 Loading...
+H04W 8/20
+Loading...
+102016001110200
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04W 8/20
+Loading...
+本申请公开了一种具有风险控制功能的空中下载方法和装置及设备。该方法包括：接收空中下载服务请求；判断该空中下载服务请求中是否含有认证序号、运营商服务器标识、时间戳、以及服务内容包；如果接收到的空中下载服务请求中含有认证序号、运营商服务器标识、时间戳，将所述认证序号、运营商服务器标识、时间戳发送到空中下载网关，以便与空中下载网关应运营商服务器的请求对运营商服务器标识进行认证时分配的认证序号、针对的运营商服务器标识、时间戳的对应记录进行比对，从而进行认证；响应于接收到来自空中下载网关的认证通过消息，打开服务内容包，从而以服务内容包的内容更新本地存储的内容。本申请提高了空中下载方法的安全性。
+3. 106533675 数字签名方法及系统
+CN
+22.03.2017
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+102016001177149
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 9/08
+Loading...
+本发明提供一种数字签名方法及系统，该方法包括：生成公私钥对，按预定的拆分方式将公私钥对中的私钥拆分为第一子密钥和第二子密钥；将第二子密钥发送至目标签名节点；根据第一子密钥进行签名以生成第一签名信息，并根据签名算法和拆分方式生成签名参数；将第一签名信息和签名参数发送至目标签名节点，以供目标签名节点根据第二子密钥、第一签名信息和签名参数完成签名。本发明提供的数字签名方法及系统通过将私钥拆分成若干子密钥，并分发给若干签名节点分别进行签名，最后生成完整的签名信息，使得监控签名过程只能获取子密钥而无法获得私钥，保障了数字签名过程中私钥的安全性，可用于对区块链技术的私钥保护。
+4. 106534156 车辆电子控制单元之间的身份认证方法和装置及设备
+CN
+22.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001088695
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本申请公开了一种车辆电子控制单元之间的身份认证方法和装置。该方法包括：判断从消息发送电子控制单元接收到的消息是否含有认证序号、消息发送电子控制单元标识、以及消息正文包；如果接收到的消息含有认证序号、消息发送电子控制单元标识，将认证序号、消息发送电子控制单元标识发送到认证中心，以基于认证中心发放的认证序号和发放认证序号所针对的消息发送电子控制单元标识的对应记录进行认证；响应于接收到来自认证中心的认证通过消息，打开消息正文包。本申请实现了对ECU之间的通信进行认证从而防止车辆信息泄密。
+5. 106411518 一种密钥不固定的对称白盒加密方法和装置
+CN
+15.02.2017
+H04L 9/14 Loading...
+H04L 9/14
+Loading...
+201610853364.3
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 9/14
+Loading...
+本申请提供一种密钥不固定的对称白盒加密方法，包括步骤1：使用对称加密方法进行密钥扩展，得到多轮的加密密钥Kn；步骤2：对所述多轮的加密密钥Kn进行置换，得到置换后的密钥Kn′；步骤3：生成白盒库；步骤4：将白盒库和置换后的密钥Kn′传给用户；步骤5：用户利用置换后的密钥Kn′对待加密的数据进行白盒加密，白盒加密时利用白盒库进行查表，得到密文；其中，n表示对称加密方法的加密轮数。本发明不仅实现了白盒加密的密钥隐藏，而且白盒库与密钥相分离，用户可以自己设定密钥，方便灵活。
+6. 205644552 一种进行代码加密和内存清洗的防逆向保护模块
+CN
+12.10.2016
+G06F 21/16 Loading...
+G06F 21/16
+Loading...
+201620076111.5
+北京洋浦伟业科技发展有限公司
+阚志刚
+G06F 21/16
+Loading...
+本实用新型涉及到一种进行代码加密和内存清洗的防逆向保护模块。防逆向保护模块包括加密装置和内存清洗装置；加密装置包括依次相连的转换芯片、控制芯片、电平转换芯片和加密芯片；内存清洗装置包括电池、电源芯片、清除按钮、控制芯片、内存芯片；电池通过电源芯片与控制芯片和内存芯片分别相连；控制芯片进一步与内存芯片相连；清除按钮与电源芯片相连；内存芯片与转换芯片相连。与现有技术相比，本实用新型所述的进行代码加密和内存清洗的防逆向保护模块数据进行加密，解决了现有的加密装置与主芯片之间通信复杂且占用系统资源大的技术问题；通过断电后会自动擦除所存储的数据，可以消除数据泄漏的安全隐患。
+7. 103634419 终端的远程控制方法及终端
+CN
+31.08.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102013000573168
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/12
+Loading...
+本申请实施例提供一种终端的远程控制方法及终端。本申请实施例由于可视化控制连接可以在终端之间传输受控终端即第一终端的操作界面，使得控制终端即第二终端可以根据操作界面，操作对应按钮或输入对应信息，并通过该可视化控制连接将操作信息传输给受控终端，进而，受控终端就可以根据操作信息执行相关的控制操作，因此，能够避免现有技术中由于终端只能根据预先配置的指令与控制操作的映射关系，执行与所接收到的指令对应的控制操作的问题，从而提高了控制操作的灵活性。
+8. 105763574 一种基于大数据分析的防火墙系统
+CN
+13.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000316331
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本发明涉及一种基于大数据分析的防火墙系统。其包括设在终端内的数据收集模块、数据存储模块A、数据传送接收模块和策略设置模块，还包括设在服务器内的数据接收传送模块、数据存储模块B和数据分析应对模块；所述数据收集模块收集终端信息；所述数据存储模块A和数据存储模块B均用于存储终端信息，并存储数据分析模块发现的敏感信息和相应的参考策略；所述数据传送接收模块与数据接收传送模块通信连接；所述策略设置模块检测到敏感信息后调出参考策略，为防火墙配置相应安全策略；所述数据分析应对模块对收集的终端信息进行分析，找出敏感信息并提供相应参考策略。与现有技术相比，本发明处理效率高、实用性强，适用范围广泛、易于推广。
+9. 205356402 一种基于后台大数据分析实现智能终端漏洞实时扫描系统
+CN
+29.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+202016000077108
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本实用新型属于智能终端应用安全技术领域，具体来说，涉及到一种基于后台大数据分析实现智能终端漏洞实时扫描的系统。所述系统包括扫描模块、无线模块、微处理器和电源管理模块；所述扫描模块通过微处理器连接无线模块；所述无线模块能与智能终端的外置信号天线通过无线方式连接；所述电源管理模块与扫描模块和微处理器连接。与现有技术相比，本实用新型所述的基于后台大数据分析实现智能终端漏洞实时扫描的系统能够及时通过网络大数据或手动进行漏洞库实时更新，扫描出智能终端的漏洞，从而有利于减少来自于网络的攻击，便于用户后期对相应端口做相应处理。
+10. 105391679 一种通过大数据分析实现动态安全防护的系统和方法
+CN
+09.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510526085.1
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本发明属于网络安全技术领域，涉及到一种通过大数据分析实现动态安全防护的系统和方法。所述系统包括设在终端内的数据收集模块、数据存储模块A、数据传输模块A、数据检测模块和动态安全防护模块，还包括设在服务器内的数据传输模块B、数据存储模块B和分析应对模块。与现有技术相比，本发明所述的通过大数据分析实现动态安全防护的方法对系统信息和用户行为进行分析，得出用户潜在的风险操作，并针对该风险操作提供了相应的安全策略；若终端在安全环境下运行，则采用最低安全级别的策略，若发现风险操作，则增加相应安全策略。因此，本发明保证了系统的安全，又避免了系统资源的闲置。
+11. 204946013 一种能实现控制流程关键点安全保护的智能终端
+CN
+06.01.2016
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+201520637218.8
+北京洋浦伟业科技发展有限公司
+阚志刚
+G06F 21/51
+Loading...
+本实用新型涉及一种能实现控制流程关键点安全保护的智能终端。其包括受智能终端本体内的受微处理器单元控制的安全保护模块；该安全保护模块包括完整性保护模块、增强型访问控制模块、加密防护模块和软件安全模块；所述完整性保护模块用于系统启动前，通过引导区代码检测智能终端本体的ROM中关键文件是否完整；所述增强型访问模块用于系统运行时，根据预设的策略对操作进行控制，判断是否可以执行；所述加密防护模块用于对系统关键数据进行加密保护及对指定文件和/或文件夹及其内的文件实时加解密；所述软件安全模块用于对软件进行验证。与现有技术相比，本实用新型可以有效增强智能终端的安全性，为智能终端提供了安全保护、可靠性保障。
+12. 204945381 一种具有信息安全防护功能的北斗导航终端模块
+CN
+06.01.2016
+G01S 19/14 Loading...
+G01S 19/14
+Loading...
+201520637308.7
+北京洋浦伟业科技发展有限公司
+阚志刚
+G01S 19/14
+Loading...
+本实用新型属于通讯终端技术领域，涉及到一种具有信息安全防护功能的北斗导航终端模块。其包括均与微处理器单元相连的定位处理单元、信息加固单元、导航单元、无线通信单元、无线通信单元、显示单元和存储单元；所述信息加固单元包括依次连接的用于向安全防护设备发送操作指令的第一发送模块、用于接收安全防护设备发送应答指令的接收模块、用于采集用户生物识别特征信息的用户信息采集模块、用于生成携带有生物识别特征的用户信息生成模块和用于将用户信息发送至安全防护设备第二发送模块。与现有技术相比，本实用新型只需要通过北斗导航终端就能实现对安全防护设备的操作，而不需要亲身处在安全防护设备的近距离范围内，使用更方便。
+13. 105187414 一种基于APP加固技术的防火墙系统
+CN
+23.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510516141.3
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本发明属于信息安全技术领域，具体来说，涉及到一种基于APP加固技术的防火墙系统。其包括设在终端内的加固请求模块、流量采集分析模块和防火墙策略模块，还包括设在服务器内的程序加固系统；所述加固请求模块向程序加固系统提交的应用程序的加固请求；所述程序加固系统将加固安装包括发送回终端；所述流量采集分析模块采集加固后的应用程序的流量信息；所述防火墙策略模块根据流量信息制定相应的安全策略。与现有技术相比，本发明所述的基于APP加固技术的防火墙系统首先对应用程序进行加固处理，同时采集加固后程序的流量信息，根据流量信息再设置相应的防火墙安全策略，故具有安全性好，准确性高的特点。
+14. 105046149 一种基于大数据分析的动态加固方法
+CN
+11.11.2015
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201510462724.2
+北京洋浦伟业科技发展有限公司
+阚志刚
+G06F 21/55
+Loading...
+本发明涉及到一种基于大数据分析的动态加固方法。其具体为：1）客户端将大数据分成N个模块并传输到各个节点，该节点主机将大数据分析处理，并将分析结果传送到服务器；2）服务器的数据中心设有代码数据库，该代码数据库收集了易被攻击的特征代码；3）服务器将各个节点的大数据分析结果整理合并成新数据，并将该新数据与数据中心的代码对比，找出所有相同的特征代码；4）服务器根据特征代码的类型，向客户端反馈相应类型的动态加固方法。本发明不但能通过对大数据进行分析，找出易受攻击的代码，提前给予动态加固；而且能够减轻数据中心的资源消耗，避免影响数据收集，提高数据分析效率与实时性，保证数据库中分析结果能及时更新。
+15. 105049447 一种基于大数据分析的安全策略配置系统
+CN
+11.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510518328.7
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 29/06
+Loading...
+本发明涉及一种基于大数据分析的安全策略配置系统。其包括设在服务器内的特征码提取模块和特征码存储模块，还包括设在终端的特征码下载模块、特征码比较模块和安全策略配置模块；特征码提取模块能在对海量的网络数据进行分析比较的基础上，提取应用程序的特征码，并为特征码存储模块构建特征码对照库；特征码对照库为每个特征码都对映了一条安全策略；特征码比较模块对终端的应用程序的信息进行扫描，同时与特征码对照库中的特征码比较并给出标记；安全策略配置模块调出与各个特征码对照库中相对应的安全策略，然后配置安全策略。与现有技术相比，本发明自动生成安全策略，解决了手动配置各种安全策略的复杂性和错误率的问题。
+16. 105007156 一种基于APP加固的动态配置系统
+CN
+28.10.2015
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201510462725.7
+北京洋浦伟业科技发展有限公司
+阚志刚
+H04L 9/06
+Loading...
+本发明属于信息安全技术领域，涉及一种基于APP加固的动态配置系统。其包括输入控制器、动态密钥发生器和DES加密器；所述输入控制器对属64位分组数据的明文数据流进行控制，每当输入一个分组时，其就产生一个信号后再输入到动态密钥发生器，同时把该分组输入DES加密器；所述动态密钥发生器每接到输入控制器的一个信号就随机产生一个64位的加密密码并输入DES加密器，动态密钥发生器初始值为系统的密钥；所述DES加密器为传统的DES加密算法，在接收到输入控制器的数据和动态密钥发生器的所产生的密钥后就对数据进行加密。与现有技术相比，本发明不存在弱密钥，能抗击差分密码分析、线性密码分析及相关密钥分析。
+17. 103645799 Information feedback method and device
+CN
+19.03.2014
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201310574163.6
+YANGPUWEIYE TECHNOLOGY LIMITED
+KAN ZHIGANG
+G06F 3/01
+Loading...
+The invention provides an information feedback method and device. A target page is displayed through a client side, the shaking frequency of a terminal where the client side is located is detected accordingly, and if the shaking frequency is larger than or equal to a preset frequency threshold value, a feedback page can be displayed by the client side so that feedback information input by input equipment on the feedback page can be received by the client side. The information feedback method and device can avoid the problem that because a functional button used for feeding back problems or ideas is arranged on an appointed position of an appointed page, a user can not easily and flexibly feed back information in the prior art, thereby improving information feedback efficiency and flexibility.
+18. 103634419 Remote control method of terminal and terminal
+CN
+12.03.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310573168.7
+YANGPUWEIYE TECHNOLOGY LIMITED
+KAN ZHIGANG
+H04L 29/12
+Loading...
+The embodiment of the invention provides a remote control method of a terminal and the terminal. The operation interface of a controlled terminal, i.e., a first terminal, can be transmitted between terminals by visual control connection, a control terminal, i.e., a second terminal, can operate corresponding buttons or input corresponding information according to the operation interface, and transmits the operation information to the controlled terminal by the visual control connection, further, the controlled terminal can execute relevant control operation according to the operation information, therefore, the problem that in the prior art, the terminals can only execute the control operation corresponding to the received instruction according to the mapping relationship of the pre-allocated instruction and the control operation is avoided, and thus the flexibility of the control operation is improved.
+19. 102222292 Mobile phone payment protection method
+CN
+19.10.2011
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+201110139382.2
+Yangpuweiye Technology Limited
+Chen Biao
+G06F 21/53
+Loading...
+The invention provides a mobile phone payment protection method. The method comprises the following steps of: providing an encrypted file system, and protecting all reading and writing of a program to be redirected into the file system; performing encrypted storage on any reading and writing of the file system; performing the attach on the protected program by utilizing a ptrace function, and capturing transfer of a system of the all reading and writing of the protected program; and modifying the transfer of a path of a practical file system to be a path of a safe file system, and continuing running the program.
+20. 102184372 Reverse-sandbox-based mobilephone payment protection method
+CN
+14.09.2011
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+201110139381.8
+Yangpuweiye Technology Limited
+Chen Biao
+G06F 21/53
+Loading...
+The invention provides a reverse-sandbox-based mobilephone payment protection method, comprising the following steps: 1. classifying application programs on the operating system of an Android mobile phone according to the file identification strategy; and 2. stopping non-trusted program and running a protection program on the basis of a reverse sandbox, and starting the non-trusted program after the protection program is running over. The invention further provides an encrypted file system, and all reading and writing of the protection program are redirected to the file system.
+21. 102131001 Remote control system and method of mobile communication terminal
+CN
+20.07.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110068088.7
+Yangpuweiye Technology Limited
+Chen Biao
+H04L 29/08
+Loading...
+The invention provides a remote control system and method of a mobile phone. The system comprises one or more mobile phones and a server, wherein a local area network formed by the one or more mobile phones and the server is located under an IP (Internet protocol) address shared on the public network by use of a virtual private network (VPN) technology; and the one or more mobile phones perform remote control service based on keyboard mapping and matching through the server.
+22. 102118397 Teleconference communication method and system based on mobile phones
+CN
+06.07.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110068076.4
+Yangpuweiye Technology Limited
+Chen Biao
+H04L 29/06
+Loading...
+The invention provides a teleconference communication system bases on mobile phones, comprising one or more mobile phones and a VPN (Virtual Private Network) server, wherein the one or more mobile phones are connected with the VPN server, a conference organizer selects one of the mobile phones as an accessed mobile phone and runs an application program required by a teleconference on the accessed mobile phone. Other mobile phones acquire the screen content information of the accessed mobile phone by sending a remote control command, the content of the application program is modified by sending control information, and the function of network conferences is realized.
+

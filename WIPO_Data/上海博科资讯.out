@@ -1,0 +1,37 @@
+1. 103001830 一种计算客户端和中间层之间的网络传递速度的方法
+CN
+27.03.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210550940.9
+上海博科资讯股份有限公司
+蒋正华
+H04L 12/26
+Loading...
+本发明涉及一种计算客户端和中间层之间的网络传递速度的方法。其特征在于由下列步骤组成：客户端将数据包发给中间层，在数据包头上增加字段记录客户端的发送时间，增加字段记录包的大小，中间层收到客户端的数据包，在数据包头上增加字段记录中间层的接收时间，中间层将新的结果打成新数据包，在新数据包头上增加字段，记录中间层发送时间，增加字段记录中间层生成的新包大小，中间层将新数据包发给客户端，客户端收到中间层的新数据包，从新数据包头取得各个值，客户端解释新的数据包，（8）客户端解释新的数据包，经过计算得到客户端和中间层之间的网络传递速度，本发明的优点是考虑服务器的开销，允许中间层和客户端存在时差，实现和编程语言无关和底级协议无关底层协议。
+2. 102034194 Logistics billing method based on rule
+CN
+27.04.2011
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+200910196740.6
+Shanghai Boke Information Technology Co., Ltd.
+Xu Wanchun
+G06Q 30/00
+Loading...
+The invention provides a method for automatically calculating expenses collected or paid in a third-party logistics service, comprising the following steps of: reading required business data from a business system by using a billing system, returning business object data required by the billing system by using the business system, and accordingly calculating the expenses by using the billing system. The method can favorably meet different calculation requirements of third-party logistics service expenses so as to shorten the enforcement period of a logistics software project, reduce enforcement cost and improve customer satisfaction degree.
+3. 101996218 Method for realizing data access authority control
+CN
+30.03.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910194415.6
+Shanghai Boke Information Technology Co., Ltd.
+Jiang Zhenghua
+G06F 17/30
+Loading...
+The invention relates to a method for controlling authority of subscriber access data. Related nodes can be derived through arranging a control field for data recording so as to obtain the data recording of the nodes, thus the efficiency is improved because only the limited data recording is processed.
+

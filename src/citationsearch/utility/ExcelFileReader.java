@@ -4,12 +4,17 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import citationsearch.entity.Company;
+import citationsearch.entity.CompanyApplicant;
 import citationsearch.mapper.CompanyMapper;
 
 import static citationsearch.constants.Constants.*;
@@ -49,6 +54,7 @@ public class ExcelFileReader extends Reader
 		    }
 
 		    for(int r = 1; r < rows; r++) {
+		    //for(int r = EXCELFILE_START; r < EXCELFILE_END; r++) {
 		        row = sheet.getRow(r);
 		        if(row != null) {
 		            for(int c = 0; c < cols; c++) {
@@ -65,7 +71,7 @@ public class ExcelFileReader extends Reader
 		                		
 		                		//get english name
 		                		cell = row.getCell((short)(c + 6));
-		                		String englishName = cell.toString().trim();
+		                		String englishName = cell.toString().trim().replace("'", "''");
 		                		//get source file id
 		                		cell = row.getCell((short)(c - 2));
 		                		String sourceFileId = cell.toString().trim();
@@ -195,5 +201,191 @@ public class ExcelFileReader extends Reader
 		
 		stringBuf.setLength(0);
 		stringBuf.append(tmpStr);
+	}
+	
+	public CompanyApplicant[] readCompanyPersonPairs() {
+		ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
+		File file = new File(this.location);
+		
+		try {
+		    XSSFWorkbook wb = new XSSFWorkbook(new FileInputStream(file));
+		    
+		    XSSFSheet sheet = wb.getSheetAt(0);
+		    XSSFRow row;
+		    XSSFCell cell;
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+
+		    for(int r = 0; r < rows; r++) {
+		        row = sheet.getRow(r);
+		        if(row != null) {
+		        	String companyIdString = "";
+		        	int companyId = 0;
+		        	String personIdString = "";
+		        	int personId = 0;
+		        	String flag = "------";
+		        	String epoName = "";
+		        	
+		            for(int c = 0; c < cols; c++) {
+		            	if (c == 0) {
+		            		//company id
+		            		cell = row.getCell((short)c);
+			                if(cell != null) {
+			                	companyIdString = cell.toString().trim();
+			                }
+		            	}
+		            	if (c == 2) {
+		            		//person id
+		            		cell = row.getCell((short)c);
+			                if(cell != null) {
+			                	personIdString = cell.toString().trim(); 
+			                }
+		            	}
+		            	
+		            	if (c == 6) {
+		            		//epo name
+		            		cell = row.getCell((short)c);
+		            		if(cell != null) {
+		            			epoName = cell.toString().trim();	
+		            		}
+		            	}
+		            	
+		            	if (c == 7) {
+		            		//good flag
+		            		cell = row.getCell((short)c);
+		            		if(cell != null) {
+			            		flag = cell.toString();
+			            		//System.out.println("Flag is: " + flag);	
+		            		}
+		            		
+		            	}
+		            }
+		            if (companyIdString.length() > 0 && personIdString.length() > 0 && epoName.length() > 0 && flag.length() > 4) {
+		            	companyId = (int) Double.parseDouble(companyIdString);
+		            	personId = (int) Double.parseDouble(personIdString);
+		            	CompanyApplicant trans = new CompanyApplicant();
+		            	trans.setCompanyId(companyId);
+		            	trans.setPersonId(personId);
+		            	trans.setCompanyName(epoName);
+		            	translations.add(trans);
+		            }
+		        }
+		    }
+		    
+		    wb.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return translations.toArray(new CompanyApplicant[0]);
+	}
+	
+	public String[] readRefinedPersonsFileHSSF(String fileName) {
+		ArrayList<String> lines = new ArrayList<String>();
+		File file = new File(fileName);
+		
+		try {
+		    HSSFWorkbook wb = new HSSFWorkbook(new FileInputStream(file));
+		    
+		    HSSFSheet sheet = wb.getSheetAt(0);
+		    HSSFRow row;
+		    HSSFCell cell;
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+		    
+		    for(int r = 0; r < rows; r++) {
+		    	ArrayList<String> line = new ArrayList<String>();
+		        row = sheet.getRow(r);
+		        if(row != null) {
+		        	for(int c = 0; c < cols; c++) {
+		        		cell = row.getCell((short)c);
+		                if(cell != null) {
+		                	String content = cell.toString().trim();
+		                	line.add(content);
+		                }
+		        	}
+		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	lines.add(tmpLine);
+		        }
+		    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return lines.toArray(new String[0]);
+	}
+	
+	public String[] readRefinedPersonsFileXSSF(String fileName) {
+		ArrayList<String> lines = new ArrayList<String>();
+		File file = new File(fileName);
+		
+		try {
+		    XSSFWorkbook wb = new XSSFWorkbook(new FileInputStream(file));
+		    
+		    XSSFSheet sheet = wb.getSheetAt(0);
+		    XSSFRow row;
+		    XSSFCell cell;
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+		    
+		    for(int r = 0; r < rows; r++) {
+		    	ArrayList<String> line = new ArrayList<String>();
+		        row = sheet.getRow(r);
+		        if(row != null) {
+		        	for(int c = 0; c < cols; c++) {
+		        		cell = row.getCell((short)c);
+		                if(cell != null) {
+		                	String content = cell.toString().trim();
+		                	line.add(content);
+		                }
+		        	}
+		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	lines.add(tmpLine);
+		        }
+		    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return lines.toArray(new String[0]);
 	}
 }

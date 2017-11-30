@@ -1,0 +1,313 @@
+1. 206042212 高清视频信号的传输节点设备、中心接收端设备及传输的系统
+CN
+22.03.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+202016000831166
+北京蛙视通信技术股份有限公司
+王景峰
+H04N 7/18
+Loading...
+本实用新型公开了一种高清视频信号的传输节点设备、中心接收端设备及传输的系统，其中的节点设备及中心接收端设备采用现场可编程门阵列FPGA单元，通过视觉冗余编解码技术对途径的高清视频信号压缩解压缩，在光纤网络中传输压缩的高清视频信号，从而能够在节省成本的情况下传输多路压缩的高清视频信号。
+2. 206004692 一种加密工业以太网交换机
+CN
+08.03.2017
+H04L 12/931 Loading...
+H04L 12/931
+Loading...
+201620835200.3
+北京蛙视通信技术股份有限公司
+李志强
+H04L 12/931
+Loading...
+本实用新型公开了一种加密工业以太网交换机，其中，采用现场可编程门阵列(FPGA)单元实现数据加解密处理，由于FPGA单元中可以设置多种加解密算法，所以支持多种加解密算法以实现灵活性；采用FPGA单元进行数据加解密的速率比较快，且能够与数据吞吐量速率相适应。这样，集成了FPGA单元的加密工业以太网交换机就可以在低成本的前提下，集加解密算法灵活性与高吞吐量、低传输延时于一体。
+3. 106303584 对传输的音视频数据进行加解密方法
+CN
+04.01.2017
+H04N 21/2389 Loading...
+H04N 21/2389
+Loading...
+201610652231.X
+北京蛙视通信技术股份有限公司
+李亚军
+H04N 21/2389
+Loading...
+本发明公开了一种对传输的音视频数据进行加解密方法，将要传输的音视频数据在封装为传输流(TS)的过程中，对不同阶段的音视频数据及相关信息进行全部或部分的多次加密，然后再进行传输；在对端接收到加密的TS时，也相应地在不同阶段对TS进行全部或部分的多次解密。这样，传输音视频数据的安全性就不会受到一套加密算法的安全性影响，且不增加成本。
+4. 103702091 一种无线便携式视频监控系统的组网方法
+CN
+04.01.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+102014000005738
+北京蛙视通信技术股份有限公司
+毕学成
+H04N 7/18
+Loading...
+本发明公开了一种无线便携式视频监控系统及其组网方法，由于自组网中继基站组中的自组网中继基站相互无线连接，提高了数据传输的中继接力的能力，扩展了数据的传输距离；并且由于每个自组网中继基站均可被视频前端无线接入，也可以被监控客户端有线接入，因此可实现视频前端、自组网中继基站和监控客户端之间的灵活组网，提高了数据的传输距离和视频前端的接入容量；在组网时，视频前端与自组网中继基站通过该自组网中继基站设定的接收工作频点连接，自组网中继基站之间通过发送工作频点连接从而实现了多频传输，并且自组网中继基站可通过调节接收工作频点实现非对称网络传输，动态带宽分配，最大限度的提高网络利用率。
+5. 106155752 一种嵌入式操作系统启动的方法及装置
+CN
+23.11.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102016000626516
+北京蛙视通信技术股份有限公司
+覃才俊
+G06F 9/445
+Loading...
+本发明公开了一种嵌入式操作系统启动的方法及装置，采用双Uboot功能，在Flash的第0个块中设置微Uboot，微Uboot具有能够引导嵌入式Linux操作系统所需的最小驱动代码，将微Uboot未存储的其他驱动代码存储到设置的第二Uboot中，当嵌入式设备启动时，先采用微Uboot进行最小驱动嵌入式Linux操作系统后，再调用第二Uboot引导嵌入式Linux操作系统的完全启动。由于微Uboot存储在不会损坏的Flash的第0个块中，且该微Uboot最小驱动嵌入式Linux操作系统时具备Flash的坏块处理机制，可以解决Flash的坏块问题，从而使得在嵌入式设备中的Flash存在坏块时，保证嵌入式Linux操作系统成功启动。
+6. 105141865 动态字符叠加方法和系统
+CN
+09.12.2015
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+201510489832.9
+北京蛙视通信技术股份有限公司
+覃才俊
+H04N 5/445
+Loading...
+本申请公开了一种动态字符叠加方法和系统，其中方法包括：各视频采集设备将当前产生的待发送数据构造成数据包后，通过字符叠加器发送所述数据包；所述字符叠加器判断当前接收到的所述数据包的类型；当所述数据包为视频流数据包时，所述字符叠加器判断当前是否存在需要叠加至所述数据包的字符，如果存在，则执行对所述数据包的字符叠加处理，并将叠加后得到的新数据包转发至相应的目标接收实体；否则，直接将所述数据包转发至相应的目标接收实体；当所述数据包不属于视频流数据包时，则将所述数据包转发至相应的目标接收实体。采用本发明，可以大幅度减少硬件设备的开销。
+7. 203984453 工业以太网交换机
+CN
+03.12.2014
+H04L 12/931 Loading...
+H04L 12/931
+Loading...
+201420388909.4
+北京蛙视通信技术股份有限公司
+王喜光
+H04L 12/931
+Loading...
+本实用新型公开了一种工业以太网交换机，包括：依次连接的多个本地接口、一交换芯片、带宽整合装置、一光模块、以及一上联接口；其中，带宽整合装置与交换芯片通过多条第一数据总线实现电连接，带宽整合装置与光模块通过一条第二数据总线实现电连接，以及，第二数据总线的数据带宽大于等于多条第一数据总线的数据带宽之和。本实用新型的交换机在发送数据时，通过带宽整合装置接收多个本地接口的数据，并将其整合后汇聚为一路发送至光模块，并通过上联接口发出；接收数据时，通过带宽整合装置接收上联接口的数据，并将其分解后生成的多路数据分别发送至各个本地接口。从而通过单根光纤和单个光模块便可满足带宽需求，大大节省了成本。
+8. 203984579 高清光端机及使用该高清光端机的视频传输系统
+CN
+03.12.2014
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201420389192.5
+北京蛙视通信技术股份有限公司
+王喜光
+H04N 7/18
+Loading...
+本实用新型公开了一种高清光端机及使用该高清光端机的视频传输系统，包括依次连接的信号接收芯片、带宽转换芯片、第一光模块，本实用新型还公开了一种用于信号接收端的高清光端机，包括依次连接的第二光模块、带宽恢复芯片、信号发送芯片。本实用新型还公开了一种视频传输系统，包括依次连接的摄像机，如上所述的分别位于信号发送端和信号发送端的高清光端机，以及高清显示器。本视频传输系统通过在发送端将原始视频信号转换为低带宽的第二视频转换信号，然后经由第一光模块发出光信号；再在接收端将接收到的光信号恢复为高带宽的第三视频转换信号，并经由信号发送芯片发送恢复的终端视频信号至终端显示，从而降低了传输成本，避免了光端机的带宽浪费。
+9. 203466918 一种无线视频监控快速布防系统
+CN
+05.03.2014
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201320576270.8
+北京蛙视通信技术有限责任公司
+毕学成
+H04N 7/18
+Loading...
+本实用新型公开了一种无线视频监控快速布防系统，包括视频前端、自组网中继基站组和监控客户端；其中，自组网中继基站组中的自组网中继基站相互无线连接，提高了数据传输的中继接力的能力，扩展了数据的传输距离；并且由于每个自组网中继基站均可被视频前端无线接入，也可以被监控客户端有线接入，因此可实现视频前端、自组网中继基站和监控客户端之间的灵活组网，提高了数据的传输距离和视频前端的接入容量。
+10. 103414897 对视频图像熵解码的方法及装置
+CN
+27.11.2013
+H04N 19/91 Loading...
+H04N 19/91
+Loading...
+201310328822.8
+北京蛙视通信技术股份有限公司
+柴双林
+H04N 19/91
+Loading...
+本发明公开了一种对视频图像熵解码的方法及装置，本发明重新设置熵解码查找表，采用地址位映射码表信息，地址位由编码表标识、比特流编码值及比特流编码长度确定，映射到对应的码表信息上，码表信息可以包括拖尾系数个数、非零系数个数、拖尾系数、非零系数及每个非零系数前零个数等熵解码需要轮询查表得到的熵解码值。在比特流逐比特熵解码时，根据比特流编码长度及比特流编码值确定相应的地址位，根据相应的地址位映射得到码表信息。由于所设置的熵解码查找表寻址空间为1024，也就是采用10比特设置地址位，所以构造的解码表占用的硬件存储资源少，成本低。
+11. 202737998 一种监控摄像机
+CN
+13.02.2013
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+201220284990.2
+北京蛙视通信技术有限责任公司
+毕学成
+H04N 5/225
+Loading...
+本实用新型公开了一种监控摄像机，包括机壳、安装于所述机壳中的摄像头、固定所述机壳的安装底座、对所述摄像头供电的电源模块，其还包括：安装于所述机壳中，出射光束方向与所述摄像头镜头光轴方向平行、并由所述电源模块供电的激光发射器。本实用新型利用所述激光发射器所发射的与所述摄像头拍摄方向一致的激光，可在安装所述监控摄像机时通过激光的方向和照射到物体上的光斑来判断所述监控摄像机的拍摄角度和监控范围。与现有的安装监控摄像机的方式相比，本实用新型不需要借助任何额外工具设备并进行反复调适，在安装的同时可以确定监控摄像机的拍摄角度和监控范围，操作方便，安装效率高，并间接的降低了安装监控摄像机时的安全隐患。
+12. 202735655 一种摄像机安装支架
+CN
+13.02.2013
+G03B 17/56 Loading...
+G03B 17/56
+Loading...
+201220281611.4
+北京蛙视通信技术有限责任公司
+张媛
+G03B 17/56
+Loading...
+本申请公开了一种摄像机安装支架，用于将摄像机固定于固定物体上，包括：固定摄像机的固定架、以及支撑该固定架的支撑件，所述支撑件具有与固定架固定连接的第一固定支点、以及与固定物体固定连接的第二固定支点；所述固定架具有容纳摄像机的框型本体，以及与框型本体的底部连接的支撑托盘。本申请的摄像机安装支架的支撑件与固定架之间具有多种连接方式，能够通过改变连接方式使用在多种不同环境下摄像机的安装固定。且本申请的摄像机安装支架安装拆卸简单方便、快捷，可实现免工具拆装。
+13. 201805505 一种视频监控系统
+CN
+20.04.2011
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201020190171.2
+北京蛙视通信技术有限责任公司
+王喜光
+H04N 7/18
+Loading...
+本实用新型公开了一种视频监控系统，包括摄像头、前端设备、中心设备和辅助设备，所述前端设备与中心设备通过同步数字体系SDH网络相连；所述前端设备用于将摄像头捕获的视频图像进行压缩并转换为E1帧结构的码流传送给中心设备；所述中心设备用于将接收到的E1帧结构的码流转换为以太网帧结构的码流，并通过以太网传送给辅助设备。本实用新型没有使用现有安全性和可靠性低下的以太网传输视频码流，而是实现了通过高安全性和可靠性的SDH网络进行传输，从而保证了视频监控系统的使用效果，使其安全性和可靠性得到提升。
+14. 101820331 Optical fiber data transmission method and device
+CN
+01.09.2010
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010131944.4
+Beijing Vorx Telecommunications Co., Ltd.
+Wang Xiguang
+H04L 1/00
+Loading...
+The invention discloses optical fiber data transmission method and device. In the method, a sending end adds a frame head location code in an original parallel code stream; the sending end carries out parallel-serial transform and scrambles a serial code stream after transform; the sending end sends the scrambled serial code stream to a receiving end; the receiving end descrambles and receives the serial code stream, searches a frame head location code in the descrambled serial code stream and locates a frame head position of the descrambled serial code stream; and the receiving end carries out parallel-serial transform on the descrambled serial code stream based on the frame head position of the descrambled serial code stream to obtain the original parallel code stream. The method and the device realize self-recovery frame synchronization, enhance the safety of data transmission, and increase the utilization ratio of optical fiber bandwidth.
+15. 201440766 一种光端机外壳
+CN
+21.04.2010
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+200920153828.5
+北京蛙视通信技术有限责任公司
+申健
+H05K 5/00
+Loading...
+本实用新型公开了一种光端机外壳，一种光端机外壳，包括上盖和底座，所述上盖包括顶板、背板和侧面板，背板和两个侧面板分别固定连接于顶板的边缘上；所述底座包括底板、前面板和连接板，前面板和两个连接板分别固定连接于底板边缘上，其特征在于：每个所述连接板内侧设有一组滑轨，滑轨方向平行于底板，用于通过前面板和背板对滑轨两端的限制，将主板边缘固定于滑轨内。主板可以插入底座上连接板的滑轨内，并由上盖的背板和底座的前面板限制在滑轨内，实现了对主板的固定，从而无需在主板上留有螺孔，减少了主板设计难度，同时，由于不需要在底座上设置螺柱，避免了螺柱与螺孔的配合问题，也减少了光端机外壳和主板的制造精度要求。
+16. 201289508 老化测试装置
+CN
+12.08.2009
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200820122662.6
+北京蛙视通信技术有限责任公司
+申健
+G01R 31/00
+Loading...
+本实用新型提供了一种老化测试装置，包括：用于使多个老化测试设备收发数据的网管模块；用于测试多个老化测试设备的通信数据的误码率的误码测试仪；监控台，其具有适于连接多个老化测试设备的第一接口，适于连接网管模块的第二接口，和适于连接误码测试仪的第三接口。本实用新型的老化测试装置克服了现有老化系统不能产品在运行时的数据通信情况进行监控和测试的问题，实现了对产品在运行时的数据通信情况进行监控和测试。
+17. 201282464 一种光端机及光端机远程在线升级系统
+CN
+29.07.2009
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200820123182.1
+北京蛙视通信技术有限责任公司
+申健
+H04B 10/08
+Loading...
+本实用新型公开了一种光端机，用于光电信号的传输与转换，该光端机包括信号传输模块、主控芯片、配置芯片和网管模块，主控芯片分别与信号传输模块、配置芯片和网管模块相连，其中主控芯片中设置有远程升级模块；所述远程升级模块通过主控芯片分别与配置芯片和网管模块相连，根据从网管模块接收到的指令，从网管模块接收升级所需数据，并发送给配置芯片进行保存。该光端机可通过远程网络接收升级所需数据，在升级过程中不影响光端机的正常工作。另外，由于主控芯片与配置芯片之间的数据传输速度比现有配置接口速度快，升级所需时间更短，从而可在不影响光端机正常工作的同时，实现远程快速升级。本实用新型同时公开了一种光端机远程在线升级系统。
+18. 201280145 一种适应多种设备尺寸的老化车
+CN
+29.07.2009
+B62B 3/10 Loading...
+B62B 3/10
+Loading...
+200820123180.2
+北京蛙视通信技术有限责任公司
+申健
+B62B 3/10
+Loading...
+本实用新型公开了一种适应多种设备尺寸的老化车，可供架设不同尺寸的待老化设备，该老化车包括车架，所述的车架为长方体型框架，该老化车还包括活动支架、滑动导轨和活动挂耳；所述的滑动导轨分设在所述车架长方体型框架的上、下边框两侧；所述的活动支架定位在所述车架上、下边框两侧的滑动导轨上，与所述滑动导轨间成滑动接触；所述的活动挂耳间隔挂设在车架左、右两侧的边框上和挂设在所述的活动支架上。通过调节活动支架在滑动导轨上的位置以及安装或拆卸挂设在车架及活动支架上的活动挂耳，可使老化车架设多台不同尺寸的设备，从而提高老化车的使用效率。
+19. 201282465 一种自适应调整模块及自适应调整工作参数的设备
+CN
+29.07.2009
+H04B 10/12 Loading...
+H04B 10/12
+Loading...
+200820123181.7
+北京蛙视通信技术有限责任公司
+申健
+H04B 10/12
+Loading...
+本实用新型公开了一种自适应调整模块及自适应调整工作参数的设备，该设备具体应用可为光端机，至少包括：自适应调整模块，通过该自适应调整模块来获知当前应该采用的工作参数，进而自动调整该当前工作参数，从而无需采用现有技术中同时更新发送端和接收端两端的光端机，保证了该设备与其他未更新的光端机兼容，大大降低了更新成本。
+20. 201282463 一种点对点光端机传输故障的判断装置
+CN
+29.07.2009
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200820123179.X
+北京蛙视通信技术有限责任公司
+申健
+H04B 10/08
+Loading...
+本实用新型公开了一种点对点光端机传输故障的判断装置，包括光端机远端模块和光端机中心端模块，光端机远端模块和光端机中心端模块通过光纤相连；其中，光端机远端模块包括采集发送模块，光端机中心端模块包括接收判断模块；采集发送模块实时采样光端机远端模块的温度值和电压值，并通过光纤传送给接收判断模块；接收判断模块缓存通过光纤接收到的光端机远端模块的温度值和电压值，并在当与光端机远端模块之间的通信中断时，根据所述缓存的光端机远端模块的温度值和电压值确定传输故障原因。应用本实用新型所述的装置，能够在光端机远端模块和光端机中心端模块之间的通信出现中断的情况下，及时确定出发生传输故障的原因，从而便于维护。
+21. 201282519 一种实现非压缩数字视频信号的字符叠加装置
+CN
+29.07.2009
+H04N 5/445 Loading...
+H04N 5/445
+Loading...
+200820123178.5
+北京蛙视通信技术有限责任公司
+申健
+H04N 5/445
+Loading...
+本实用新型公开了一种实现非压缩数字视频信号的字符叠加装置，该装置的具体应用为FPGA，包括：接收单元、信号提取单元、缓存单元和字符叠加单元；接收单元分别将非压缩数字视频信号发送给信号提取单元和字符叠加单元，将字符信息发送给缓存单元；信号提取单元接收视频信号，提取该非压缩数字视频信号的行、场同步信号，将该行、场同步信号发送给字符叠加单元；字符叠加单元还与缓存单元连接，接收非压缩数字视频信号和行、场同步信号，和读取缓存单元存储的字符信息，根据该行、场同步信号将字符信息中需要显示的字符叠加在该非压缩数字视频信号上，输出叠加后的视频信号。采用本实用新型，可避免对存储字符的字符库进行升级的复杂操作。
+22. 201278535 环形连接的多媒体传输业务背板系统
+CN
+22.07.2009
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200820123176.6
+北京蛙视通信技术有限责任公司
+申健
+H04L 12/58
+Loading...
+本实用新型公开了一种环形连接的多媒体传输业务背板系统，包括N个供插接业务卡的业务卡插槽，N为大于等于4的自然数，N个业务卡插槽之间采用总线环回方式连接形成信号环回回路，所述信号环回回路为：所述N个业务卡插槽中，位于两端的业务卡插槽分别与其相邻位置和间隔一个业务卡插槽位置的业务卡插槽相连，除两端的业务卡插槽外，其余每一个业务卡插槽分别与其间隔一个业务卡插槽位置上的业务卡插槽相连。通过业务卡插槽之间间隔走线，使得多媒体传输业务背板系统的业务卡插槽之间走线长度基本一致，避免了长走线情况，提高了信号质量。
+23. 201278529 一种串口控制系统和被控设备
+CN
+22.07.2009
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200820123177.0
+北京蛙视通信技术有限责任公司
+申健
+H04B 10/08
+Loading...
+本实用新型公开了一种串口控制系统和被控设备，系统包括：控制设备和多个被控设备；控制设备利用串口与被控设备之间的连接发送地址修改指令。被控设备包括：地址设置开关、拨码开关、地址设置模块和地址修改模块；其中，地址设置开关设置被控设备的有效地址为软件地址或拨码地址；拨码开关设置拨码地址；地址设置模块设置软件地址；地址修改模块接收地址修改指令，判断该指令是否针对被控设备；当判断为是时，利用与地址设置开关的连接获取地址设置开关的状态，判断有效地址是否为软件地址；当有效地址为软件地址时，利用与地址设置模块的连接，根据地址修改指令修改软件地址。本实用新型的串口控制系统和被控设备能够使控制设备方便地修改被控设备的地址。
+24. 101466033 Distributed digital non-compression video switching equipment and method
+CN
+24.06.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200810225038.3
+Beijing Vorx Telecommunications Co., Ltd.
+Shen Jian
+H04N 7/24
+Loading...
+The invention provides a distributed type digital non-compressed video switching device and a method thereof. The distributed type digital non-compressed video switching device comprises at least two bus switching units; each bus switching unit is connected with other bus switching units in a ring shape by a video bus and is connected with one service board at most; the bus switching unit receives a video signal transmitted by the service board which is connected with the bus switching unit or receives the video signal transmitted by the last bus switching unit by the video bus, and transmits the received video signal to the next bus switching unit by the video bus; or, the bus switching unit receives the video signal transmitted by the last bus switching unit by the video bus, transmits the video signal to the next bus switching unit by the video bus and copies and transmits the video signal to the service board which is connected with the bus switching unit. The distributed type digital non-compressed video switching device and the method can increase the transmission bandwidth of each service board; besides, the total video input and the total video output are not limited by the slot position of a machine case of the device.
+25. 101465839 Transmission control method and apparatus for serial data
+CN
+24.06.2009
+H04L 29/02 Loading...
+H04L 29/02
+Loading...
+200810225039.8
+Beijing Vorx Telecommunications Co., Ltd.
+Shen Jian
+H04L 29/02
+Loading...
+The invention provides a serial data transmission control method and a device thereof. A data sending list is built for each serial port, after a serial port server is started up, all the serial ports are arranged to be in the open modes, and all the data operations are intercepted. The method includes the following steps: establishing sending items of terminals in a data sending list of the serial ports in advance; or after the serial port server receives subscription order which are sent by the terminals and contain serial port identifiers, establishing the sending items of the terminals in the data sending list of the serial ports corresponding to the serial port identifiers; once the data operations to the serial ports are intercepted, sending the operational data into all the sending items in the data sending list of the serial ports, and sending the data in all the sending items and the operation information corresponding to the data to the terminals corresponding to the sending items. Therefore, all the terminals subscribing the serial port operation can intercept the data operation conducted to the serial ports.
+26. 2523120 数字视频信号的光传输适配设备
+CN
+27.11.2002
+H04B 10/02 Loading...
+H04B 10/02
+Loading...
+02200583.8
+北京蛙视通信技术有限责任公司
+申健
+H04B 10/02
+Loading...
+本实用新型涉及一种数字视频信号的光传输适配设备，包括由视频压缩编码单元、多路光复接单元和电/光转换单元组成的发送装置，和由光/电转换单元、多路光反向复接单元和视频解压缩解码单元组成的接收装置。多路光复接单元包括nB1H反向复用器、帧(F码)定位模块和数字交叉矩阵，多路光反向复接单元包括nB1H反向复用器、帧(F码)提取模块和缓冲模块。通过自定义帧结构，利用三个具有固定相位关系的信号V SYNC、V CLOCK和V DATAx，在发送侧控制视频压缩数据到交叉矩阵的适配，和将交叉连接的矩阵信号输出给复用器，进行1路H码与n路B码的复接，将数字视频信号直接复接到光纤中，接收侧则为其反过程。具有成本低，带宽利用率高的特点。
+

@@ -1,0 +1,217 @@
+1. 106599152 一种数据缓存方法及系统
+CN
+26.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201611115904.4
+北京华夏电通科技有限公司
+邹康
+G06F 17/30
+Loading...
+本发明提供了一种数据缓存方法，所述方法包含：客户端根据访问请求，对待访问数据设置优先级；客户端将预定优先级级别的待访问数据缓存到本地作为服务端的缓存副本；当客户端进行数据访问时，将所述数据访问的目标数据与所述缓存副本进行比较，根据比较结果于所述缓存副本和/或服务端获得所述目标数据；以此，利用优先级算法和服务端数据回收事件，以及配合客户端SDK的本地缓存副本，实现了降低数据访问的网络IO请求与磁盘IO，并且通过数据回收事件，客户端可以根据实际的应用需要，灵活自主决定数据回收的策略，提升缓存数据的命中率，提高应用系统的响应效率，从而提升用户使用系统的体验，提高用户的工作效率。
+2. 106507110 庭审证人画面及视频运动画面保护方法、装置和系统
+CN
+15.03.2017
+H04N 19/167 Loading...
+H04N 19/167
+Loading...
+102016001108284
+北京华夏电通科技有限公司
+阚海北
+H04N 19/167
+Loading...
+本发明公开一种庭审证人画面保护方法：将证人进入证人室前的证人室画面作为参考帧，将证人进入证人室后的证人室画面作为当前帧，执行编码处理过程：计算参考帧与当前帧对应宏块间的亮度绝对差值和；根据亮度绝对差值和大于等于阈值的宏块确定当前帧中证人矩形区域，设置为当前帧中感兴趣区域；将当前帧中感兴趣区域的H.264编码量化参数设置为大于当前帧中除感兴趣区域外其它区域的H.264编码量化参数；对当前帧进行H.264编码后发出；将当前帧作为参考帧，将当前帧的下一帧作为当前帧，循环重复上述编码处理过程。同时公开一种庭审证人画面保护装置及系统，视频运动画面保护方法及装置。可以实现运动中证人画面动态保护，同时保证庭审直播流的实时和快速。
+3. 105469803 一种三方远程通讯中回声消除的方法及系统
+CN
+06.04.2016
+G10L 21/02 Loading...
+G10L 21/02
+Loading...
+201510814856.7
+北京华夏电通科技有限公司
+单衍景
+G10L 21/02
+Loading...
+一种三方远程通讯中回声消除的方法及系统，包含：第一从方对第一从方发出音频数据及第一从方接收音频数据进行编码；第二从方对第二从方发出音频数据及第二从方接收音频数据进行编码；主方将主方发出的音频数据及解码后的第一从方发出的音频数据和解码后的第二从方发出的音频数据进行混音处理，获得第一数据、第二数据及第三数据；主方对第一数据和第二数据分别进行编码；第一从方播放第一从方发出音频数据和第二数据混合的音频数据；第二从方播放第二从方发出音频数据和第一数据混合的音频数据；主方播放第三数据的音频数据。以此，实现三方远程通讯的回声消除，确保三方远程通讯时的良好的音效，不产生相关回声干扰。
+4. 105430316 庭审录像自动控制系统及方法
+CN
+23.03.2016
+H04N 5/781 Loading...
+H04N 5/781
+Loading...
+201510828507.0
+北京华夏电通科技有限公司
+单衍景
+H04N 5/781
+Loading...
+本发明提供了一种庭审录像自动控制系统及方法，该庭审录像自动控制系统包括信息采集子系统、图像识别子系统、声音识别子系统、控制子系统及录像子系统。信息采集子系统用于采集法庭内的图像数据及声音数据；图像识别子系统用于对所述图像数据进行特征识别，输出第一识别结果至控制子系统，声音识别子系统用于对所述声音数据进行特征识别，输出第二识别结果至控制子系统；所述控制子系统用于根据第一识别结果及第二识别结果控制录像子系统的开启或关闭。本发明能够减少因为法庭工作人员不会开启录像设备导致的没有把庭审录像录制下来，或者是庭审结束后，没有结束录制的情况发生，能够减少垃圾视频文件，节约存储空间。
+5. 105430477 一种光盘的实时刻录方法及装置
+CN
+23.03.2016
+H04N 21/433 Loading...
+H04N 21/433
+Loading...
+201510828398.2
+北京华夏电通科技有限公司
+单衍景
+H04N 21/433
+Loading...
+本发明提供了一种光盘的实时刻录方法及装置，该方法用于使文档文件与视频文件双向同步驱动显示，该方法包括：庭审开始时开始记录文档内容的录入时间；庭审开始时在光盘上刻录实时产生的视频数据，记录视频数据刻录的开始时间及结束时间；将开始时间及结束时间与文档内容录入时间的映射关系记录于一索引中；将所述索引及实时更新的文档文件刻录到光盘中；当光盘替换时，使当前光盘视频数据刻录的开始时间为上一个光盘视频数据刻录的结束时间。本发明能够使实时刻录的多个光盘上的视频文件与文档文件实现双向同步驱动显示。
+6. 105430490 直播频道的灵活控制与切换方法
+CN
+23.03.2016
+H04N 21/438 Loading...
+H04N 21/438
+Loading...
+201510857129.9
+北京华夏电通科技有限公司
+单衍景
+H04N 21/438
+Loading...
+一种直播频道的灵活控制与切换方法，该方法包含：播放端开启监听端口，且当播放端获取数据源时，将播放端的相关信息发送至流媒体服务器；流媒体服务器根据播放端相关信息建立播放端列表；当直播画面出现异常时，后台控制端获取播放当前直播画面的播放端列表和播放端列表中各播放端的相关信息，并发出频道切换指令至流媒体服务器和/或播放端列表中的各播放端；播放端根据频道切换指令切换直播画面。以此，解决后台无法对播放器直接进行控制的问题，确保对运行在公网上的播放端以及其他播放端的直播频道切换控制，同时减少全部播放器都通过流媒体服务器进行控制而对流媒体服务器转发数据性能的影响。
+7. 105280192 一种三方远程通讯中回声消除的方法及系统
+CN
+27.01.2016
+G10L 21/02 Loading...
+G10L 21/02
+Loading...
+201510815524.0
+北京华夏电通科技有限公司
+单衍景
+G10L 21/02
+Loading...
+一种三方远程通讯中回声消除的方法及系统，包含：对第一从方和第二从方发出的音频数据分别进行编码；主方对上述两从方发出的音频数据进行解码并与主方发出的音频数据进行混音处理，获得包含第一从方发出的音频数据和主方发出的音频数据的第一数据和包含第二从方发出的音频数据和主方发出的音频数据的第二数据及包含三方的音频数据的第三数据；主方对第一数据和第二数据分别进行编码；第一从方解码器与第二从方解码器分别解码第二数据和第一数据；第一从方播放器播放第一从方发出音频数据和第二数据混合的音频数据；第二从方播放器播放第二从方发出音频数据和第一数据混合的音频数据；主方播放器播放第三数据的音频数据。
+8. 202210851 一种用于标清和高清音视频编解码的控制装置
+CN
+02.05.2012
+H04N 21/6437 Loading...
+H04N 21/6437
+Loading...
+201120037088.6
+北京华夏电通科技股份有限公司
+刘卫国
+H04N 21/6437
+Loading...
+用于标清和高清音视频编解码的控制装置主要由运行在ARM端的音视频流化单元、流媒体应用框架、达芬奇多媒体应用接口、编解码引擎、Linux内核、本地硬盘存储单元六个单元所组成；以及运行在DSP端上的框架组件、DSP/BIO内核、编解码压缩算法包、DSP链接四大单元所组成。该控制装置采用了硬件双核DSP+ARM作为核心处理器，使编解码性能高达1080P60HZ的采集编码能力、或同时实现720P60HZ(1280X720P)的编解码同时工作。该控制装置还采用最先进的H.264视频算法，使占用网络带宽低，延时小等优点，布线施工也大幅度的降低。
+9. WO/2012/012924 METHOD FOR ENSURING INTEGRITY OF THE MULTIMEDIA DATA IN NETWORK STORAGE SYSTEM
+WO
+02.02.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2010/001857
+CHINASYS TECHNOLOGIES CO., LTD.
+HU, Jun
+H04L 29/06
+Loading...
+A method for holding integrity of the multimedia data in a network storage system is provided. The network storage system includes a multimedia coding-decoding device (DVC), a multimedia server (DVS) and a digital multimedia resource management system (RMS); the multimedia data of an application service is performed a living broadcast in the DVS of the network side, and is performed the local storage in the DVC, if the network occurs a failure, after the application service is end, DVS compares the consistency between the multimedia data information obtained from DVC and the multimedia data information obtained from RMS, and determines whether to backup the multimedia data information. When the network occurs a failure or DVC occurs a failure, the integrity of DVS backup data is ensured by using the integrity of start and end time label. By adopting the embodiments of the invention, the user centralized storage space is saved, and the integrity of multimedia data is ensured.
+10. 202068513 一种用于标清和高清音视频编解码器主机
+CN
+07.12.2011
+H04N 21/214 Loading...
+H04N 21/214
+Loading...
+201120027637.1
+北京华夏电通科技有限公司
+刘卫国
+H04N 21/214
+Loading...
+一种用于标清和高清音视频编解码器主机，主机由以内部印制线路板走线相互连接的视频输入装置、视频输出装置、音频输入装置、音频输出装置、本地硬盘存储装置、通讯接口、核心处理器所构成。本实用新型的主机实现了一台设备解决标清和高清编码流化、标清和高清码流接收解码显示，采用最先进的H.264视频算法，使占用网络带宽低，延时小等优点，布线施工也大幅度的降低。
+11. 201967133 一种用于多路语音混音及摄像跟踪的主机
+CN
+07.09.2011
+H04S 7/00 Loading...
+H04S 7/00
+Loading...
+201120027639.0
+北京华夏电通科技有限公司
+刘卫国
+H04S 7/00
+Loading...
+一种用于多路语音混音及摄像跟踪的主机，由以内部印制线路板走线相互连接的音频输入输出调节装置、48V麦克风幻相供电装置、RS-232串口通信装置、数字法庭专用通信装置、自动输出电平调节装置、中央控制装置、以及前面板多功能调节功能装置所组成，用于实现语音激励灵敏度、麦克风平衡式及非平衡式输出音量大小的调节、主机内音频增益的自动控制和实时指示语音激励工作状态。
+12. 201919110 一种用于数字法庭系统的庭审主机
+CN
+03.08.2011
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201020588233.5
+北京华夏电通科技有限公司
+刘卫国
+H04N 7/18
+Loading...
+一种用于数字法庭系统的数字庭审主机，由以内部印制线路板走线相互连接的主控系统、中央控制系统、视频系统、编解码系统、和会讨音频系统等组成。编解码系统主要负责音视频的H.264编解码；中央控制系统负责整个设备工作调度、与外界通讯及红外学习与发射；视频系统负责所有的视频的切换、转换、分配、画面合成工作；会讨音频系统负责所有音频的混音、音量调节、手拉手代表机的连接与控制，以及语音激励；主控系统用于整个设备的任务调度，以及通过TCP/IP协议与网络通讯。本数字庭审主机，实现了一台设备解决标清/高清编解码流化、音频调节、视频矩阵、中央控制、格式转换、画面合成、会讨主机等多种功能集为一体，从而实现智能化的自动控制功能。
+13. 201917942 一种公司费用预算报销管理系统
+CN
+03.08.2011
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+201120027717.7
+北京华夏电通科技有限公司
+刘卫国
+G06Q 10/00
+Loading...
+本实用新型涉及公司的费用预算、报销管理，包括部门费用预算及报销、项目费用预算及报销。采用本实用的费用预算报销管理系统可以方便的通用于职能型管理的公司、项目型管理的公司或矩阵型管理的公司的费用预算及报销的管理，对公司的资金进行有效方便的管理。
+14. 101930564 Method for manually and automatically dotting on record during court trial by court clerk
+CN
+29.12.2010
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+201010240629.5
+Beijing Huaxia Diantong Technology Co., Ltd.
+Liu Weiguo
+G06Q 10/00
+Loading...
+The invention provides a method for manually and automatically dotting on a record during a court trial by a court clerk. The method comprises the following steps of: at the beginning of the court trial, automatically adding a first time tag serving as an initial time tag, wherein the time of the initial time tag is set to be 0; when receiving dotting information, monitoring the set mode in an input configuration item and transmitting the information to a dotting processing module of a recording system by using the recording system, and executing dotting operation by using the processing module; judging whether the dotting process at the time is the first dotting process or not by using the recording system, if so, inserting the time tag into the corresponding punctuation of a document, and otherwise, generating new tag information according to the time tag information generated last time; updating the record of the time tag and detecting whether the configuration item of the recording system needs to upload dotting information-containing record or not by using the recording system; and if the dotting information-containing record needs to be generated, transmitting a record file to a remote server. In the method, a record time point can correspond to a court trial recording video time point accurately, so that the court clerk can proofread the record conveniently according to the video and audio and the correctness of the record contents can be guaranteed.
+15. 101917415 Digital court system for remote court trial
+CN
+15.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010240626.1
+Beijing Huaxia Diantong Technology Co., Ltd.
+Zou Kang
+H04L 29/06
+Loading...
+The invention provides a digital court system for remote court trial. Digital media resource management systems (RMS), streaming multimedia servers (SMS), multimedia coding and decoding equipment DVC and digital media control hosts MCP are respectively arranged at the request end and the receiving end of the system; the request end is connected with the receiving end through network; and a remote centralized control server (RCS) is arranged between the request end and the receiving end. By using the invention, the remote court trail can be realized without adding other peripheral equipment and systems, the cost of users can be reduced, the work efficiency of the user can be improved and the quality of the recorded image can be improved.
+16. 101917416 Method for guaranteeing data integrity in network storage
+CN
+15.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010240641.6
+Beijing Huaxia Diantong Technology Co., Ltd.
+Hu Jun
+H04L 29/06
+Loading...
+The invention discloses a method for keeping multimedia data integrity in network storage system, wherein the network storage system comprises multimedia coding and decoding equipment, a multimedia server DVS and a digital multimedia resource management system (RMS); and application service multimedia data are broadcast directly in the DVS of a network and locally stored in DVC, and if the network has a fault, the DVS judges the consistency between the multimedia data information acquired by the DVC and the multimedia data information acquired by the RMS at the end of an application service so as to determine if to back the multimedia information up. When the network or the DVC has a fault, the integrity of data backed by the DVS is guaranteed by the integrity of startup and ending time tags. When the embodiment of the invention is used, concentrated storage space can be saved for users and the integrity of the multimedia data can be guaranteed.
+17. 101916199 Control method for one-key trial in digital court system
+CN
+15.12.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010240621.9
+Beijing Huaxia Diantong Technology Co., Ltd.
+Zhang Ying
+G06F 9/445
+Loading...
+The invention provides a control method for one-key trial in a digital court system. The method comprises the following steps that: a digital media control platform (MCP) receives a control command, then analyzes the control command and judges whether the control command is from local peripheral control equipment or a network terminal according to a mark in the control command; if the control command is from the network terminal, the sender of the command is further judged; if the control command is from a digital court system (COS), a digital multi-media resource management system (RMS) or third party equipment, the control command is processed according to a corresponding processing manner; and if the control command is from the local periphery control equipment, the MCP judges related fields in the control command, processes the control command according to contents in the fields and then sends the control command to corresponding equipment. The technical scheme of the invention can realize the one-key trial in a digital court, can reduce the cost for constructing the digital court system, improve working efficiency, save time and provide convenient operation for a user.
+18. WO/2009/074017 A CLINKER CENTRAL CONVEYING AND COOLING SYSTEM
+WO
+18.06.2009
+F23J 1/02 Loading...
+F23J 1/02
+Loading...
+PCT/CN2008/001973
+BEIJING GUODIAN FUTONG SCIENCE AND TECHNOLOGY DEVELOPMENT CO., LTD.
+WANG, Yuwei
+F23J 1/02
+Loading...
+A clinker central conveying and cooling system includes a casing. A clinker inlet port and a clinker outlet port are set on the casing. The clinker inlet port is connected with the outlet of a steel belt clinker conveyor by a discharging pipe. An air locking device is set at the connection part of the clinker discharging pipe and the steel belt clinker conveyor. The clinker outlet port is connected to a conveying pipe,and the conveying pipe extends to the top of a clinker warehouse; the connection between the clinker outlet port and the conveying pipe and the connection between the conveying pipe and the clinker warehouse are airtight. There is at least one air inlet on the casing. The clinker central conveying and cooling system further comprises an air outlet and at least one device for forming negative pressure in the casing. The air outlet may be set at the top of the clinker warehouse, or be set on one end of the casing and be connected with a boiler or atmosphere by a hot air pipe. In the present invention, the environmental air masses of the two cooling stages are isolated one from the other. This avoids any influence by the heated air of the first stage on the cooling effect of the second stage and therefore improves the cooling effect.
+

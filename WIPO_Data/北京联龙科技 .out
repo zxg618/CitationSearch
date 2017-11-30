@@ -1,0 +1,313 @@
+1. 103812963 域名注册方法及其系统
+CN
+19.04.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102014000055827
+互联网域名系统北京市工程研究中心有限公司
+高雷
+H04L 29/12
+Loading...
+本发明提供一种域名注册方法及其系统，该方法包括：注册商通过EPP客户端向EPP服务器发起注册交易业务请求；EPP服务器对接收到的EPP注册交易业务进行业务逻辑判断，将符合注册业务交易规则的EPP注册交易业务数据发送至EPP注册库，并返回交易成功报文，对不符合注册业务交易规则的EPP注册交易业务数据返回错误提示报告。本发明的技术方案可以提高EPP交易高并发情况下的EPP交易吞吐量。
+2. 106470231 SFTP服务系统及其应用方法
+CN
+01.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510513009.7
+互联网域名系统北京市工程研究中心有限公司
+朱晋君
+H04L 29/08
+Loading...
+本发明提供一种SFTP服务系统及其应用方法，其中，SFTP服务系统，包括：一台主用服务器、至少一台备用服务器以及负载均衡装置；负载均衡装置分别与主用服务器、每台备用服务器连接，用于控制该主用服务器、每台备用服务器的工作状态，每台备用服务器超级用户的公钥均设置在主用服务器超级用户的配置文件中，主用服务器与每台备用服务器之间进行数据同步。本发明的技术方案，当SFTP服务系统中的主用服务器出现故障时，负载均衡装置将SFTP服务切换到备用服务器上，在主用服务器进行修复时，用户可以登录备用服务器，不影响SFTP服务的进行，可用性高。
+3. 106470195 消息的签名方法和域名服务器
+CN
+01.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000514636
+互联网域名系统北京市工程研究中心有限公司
+韩枫
+H04L 29/06
+Loading...
+本发明提供一种消息的签名方法和域名服务器，该方法适用于域名系统，域名系统包括至少一级域名服务器；该方法包括：域名服务器接收查询请求消息；其中，查询请求消息中包括所请求查询的第一域名；域名服务器根据第一域名，获取第一域名对应的资源记录；域名服务器对第一域名对应的资源记录进行数字签名，并向递归服务器发送第一应答消息，第一应答消息包括第一域名对应的资源记录和数字签名后的第一域名对应的资源记录。本发明提供的消息的签名方法和域名服务器，能够降低域名服务器的资源的开销。
+4. 106470247 域名代理注册方法和装置
+CN
+01.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510512711.1
+互联网域名系统北京市工程研究中心有限公司
+高雷
+H04L 29/12
+Loading...
+本发明提供一种域名代理注册方法和装置，其中，域名代理注册方法包括：接收待注册用户通过可扩展供应协议EPP客户端发送的注册请求报文，所述注册请求报文中包含待注册用户的标识和待注册的域名名称；对所述待注册的域名名称进行识别，确定所述待注册的域名名称是否为违规域名；若否，则将所述注册请求报文发送至境外注册设备进行域名注册。本发明提供的域名代理注册方法，确保了违规域名不会向境外注册局进行域名注册，从而保证了通用顶级域名在国内使用的安全性。
+5. 106469137 XML文档解析方法及装置
+CN
+01.03.2017
+G06F 17/22 Loading...
+G06F 17/22
+Loading...
+201510512712.6
+互联网域名系统北京市工程研究中心有限公司
+马志远
+G06F 17/22
+Loading...
+本发明实施例提供一种XML文档解析方法及装置，该方法包括：获取XML文档读取指令，所述读取指令中包括至少一个待读取行标识；根据所述至少一个待读取行标识，在XML文档中读取出所述至少一个待读取行标识对应的至少一行数据；将所述至少一行数据转换为节点树，其中，所述至少一行数据中的元素和属性成为所述节点树上的节点；对所述节点树上的节点依次进行解析，获取所述XML文档的解析结果。实现了只需要根据读取指令读取需要读取的行数据即可，而无需读取整个文档，大大降低了计算机内存的消耗，避免了内存溢出的现象，另外，只需要将读取的行数据转换为节点树进行解析，还可以提高解析效率。
+6. 106470251 域名解析方法及虚拟DNS权威服务器
+CN
+01.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510512839.8
+互联网域名系统北京市工程研究中心有限公司
+韩枫
+H04L 29/12
+Loading...
+本发明提供一种域名解析方法及虚拟DNS权威服务器。本发明域名解析方法，包括：虚拟域名系统DNS权威服务器接收递归服务器发送的第一域名解析请求，其中，第一域名解析请求中包含需要解析的域名；虚拟DNS权威服务器根据第一域名解析请求查询缓存中是否有域名的网络协议IP地址；虚拟DNS权威服务器根据查询结果向递归服务器发送第一响应消息，第一响应消息中包含域名的IP地址。本发明能提高域名解析的性能。
+7. 106470230 分布式DNS节点数据一致性同步方法和装置
+CN
+01.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510513008.2
+互联网域名系统北京市工程研究中心有限公司
+张雷
+H04L 29/08
+Loading...
+本发明提供一种分布式DNS节点数据一致性同步方法和装置，通过第一DNS节点获取至少一个第二DNS节点的taskid值，所述至少一个第二DNS节点与所述第一DNS节点属于同类DNS；若所述至少一个第二DNS节点的taskid值中存在大于所述第一DNS节点的taskid值，则所述第一DNS节点与所述至少一个第二DNS节点中最大taskid值的DNS节点进行数据同步，实现同类DNS节点自动发现其它同类节点并比较数据完整性，并通过节点之间的数据同步使同类的DNS的数据保持一致性，提升了域名解析服务的性能。
+8. 106470249 Gateway-whois域名注册查询方法和装置
+CN
+01.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510512715.X
+互联网域名系统北京市工程研究中心有限公司
+郭汉磊
+H04L 29/12
+Loading...
+本发明提供一种Gateway-whois域名注册查询方法和装置，该方法包括：Gateway-whois查询系统接收用户客户端发送的查询请求；其中，所述查询请求包括域名；所述Gateway-whois查询系统根据所述域名查询第一注册库和/或第二注册库，获取所述域名对应的域名注册信息；其中，所述第一注册库用于存储国内的域名注册信息，所述第二注册库用于存储国外的域名注册信息；所述Gateway-whois查询系统向所述用户客户端发送所述域名对应的域名注册信息，本实施例提供的方法和装置，查询过程简单，而且，不容易出现查询系统路径错误而无法获取域名注册信息的现象，查询效率高。
+9. 106470250 域名注册方法、装置和系统
+CN
+01.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510512835.X
+互联网域名系统北京市工程研究中心有限公司
+高雷
+H04L 29/12
+Loading...
+本发明提供一种域名注册方法、装置和系统，其中，域名注册方法包括：接收注册用户通过扩展供应协议EPP客户端发送的EPP注册交易请求；判断EPP注册交易请求是否符合预设的注册交易规则；若EPP注册交易请求符合预设的注册交易规则，则向EPP客户端返回注册交易成功报文，并将EPP注册交易请求存放在一消息队列中；对消息队列中的EPP注册交易请求进行费用清算处理和数据持久化处理。本发明提供的域名注册方法、装置和系统，EPP服务器在对EPP注册交易请求进行业务规则判定之后，就可以处理下一笔EPP注册交易请求，单笔交易响应时间明显缩短，有效的提高了EPP注册交易的吞吐量。
+10. 106470193 一种DNS递归服务器抗DoS、DDoS攻击的方法及装置
+CN
+01.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510513007.8
+互联网域名系统北京市工程研究中心有限公司
+蒋超
+H04L 29/06
+Loading...
+本发明提供一种DNS递归服务器抗DoS、DDoS攻击的方法及装置。本发明DNS递归服务器抗DoS、DDoS攻击的方法，包括：获取所述DNS递归服务器的CPU资源占用率；若DNS递归服务器的CPU资源占用率等于或大于预设的CPU资源占用率阈值时，则根据相同IP地址或相同IP网段的域名解析请求量，确定是否将响应IP地址或相同IP网段的域名解析请求的DNS递归服务器的CPU资源设定为预设值。本发明若相同IP地址或相同IP网段的域名解析请求量很大，或，占所有请求量的比例较大，则可以限制响应该域名解析请求的CPU资源，不会耗费大量递归服务器资源、时间和网络带宽，也不会影响正常的递归查询的响应与处理速度。
+11. 106469175 数据处理方法及装置
+CN
+01.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000514639
+互联网域名系统北京市工程研究中心有限公司
+郭汉磊
+G06F 17/30
+Loading...
+本发明提供一种数据处理方法及装置。该数据处理方法包括：获取用户终端对原始数据库的查询需求，所述查询需求包括查询信息及所述查询信息对应的查询结果需满足的第一查询条件；根据所述查询信息及所述第一查询条件，对所述原始数据库中的数据进行整合操作，获取满足所述第一查询条件的中间查询结果；根据所述中间查询结果，确定查询数据库，以使所述用户终端对所述查询数据库进行查询操作，获取目标查询结果。通过对数据量较少的查询数据库进行查询操作，可以较快的获得数据查询结果，进而提高从大量数据中获得数据查询结果的效率。
+12. 106470248 DNSSEC签名服务的热备方法及系统
+CN
+01.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510512714.5
+互联网域名系统北京市工程研究中心有限公司
+高雷
+H04L 29/12
+Loading...
+本发明提供一种DNSSEC签名服务的热备方法及系统，该方法包括：监控主DNSSEC服务器的工作状态，若判断主DNSSEC服务器发生故障，则启动备DNSSEC服务器的密钥生命周期管理进程进行DNS区的密钥生命周期管理，其中，主DNSSEC服务器和备DNSSEC服务器中的签名进程的数据信息相同，并将备DNSSEC服务器切换设置为主服务器。本发明提供的DNSSEC服务的热备方法及系统，可以有效避免在主服务器故障的情况下，DNSSEC服务不可用时间过长，保证服务的连续性和完整性，可以有效保证DNSSEC服务的高可用性。
+13. 205646390 一种安全小巧的插座转换器
+CN
+12.10.2016
+H01R 31/06 Loading...
+H01R 31/06
+Loading...
+201620372923.4
+北京九龙创新物联科技有限公司
+张明晶
+H01R 31/06
+Loading...
+本实用新型公开了一种安全小巧的插座转换器，包括上盖、USB输出模块、保护门组件、插套组件、中框、插销组件和下壳；所述上盖和下壳之间设置有中框，且上盖和下壳通过第二固定螺钉固定连接，下壳的底面上卡接有装饰片；所述中框内部设置有保护门组件、插套组件、第一固定螺钉和插销组件，且中框为空心长方体结构；所述USB输出模块设置在上盖与中框之间；所述保护门组件设置有四个，分别固定在中框的四个内侧壁上；所述插套组件设置在中框内部的中间位置，且插套组件设置在四个保护门组件之间。保护门组件整体从中框内侧安装，由模块上壳边缘与中框进行配合，有效防止模块上壳的脱落，避免载流部件的裸露带来的设备和人身伤害。
+14. 104144165 一种抗DNS死域攻击的缓存方法及系统
+CN
+12.11.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410392473.0
+互联网域名系统北京市工程研究中心有限公司
+蒋超
+H04L 29/06
+Loading...
+本发明涉及一种抗DNS死域攻击的缓存方法及系统，其中方法包括：客户端向递归服务器提出域名查询请求；递归服务器按照递归流程查询该域名所对应的权威服务器；如果对某一区域的所有权威域名服务器进行指定次数的遍历查询仍然查询失败，则在失败地址缓存模块中添加该区域的信息并启动渐进式等待计时，若在计时时间内收到该区域的查询请求，直接返回服务器失败的消息。本发明通过在递归服务器上缓存查询失败的域的相关信息，改进递归服务器的查询机制，以减少冗余查询，降低对网络造成的拥堵和服务器资源消耗，特别是能有效抵抗DNS死域攻击，维护域名查询系统正常工作。
+15. 103731516 DNS (Domain Name Server) analysis method based on nested view and DNS analysis system based on nested view
+CN
+16.04.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201410036714
+互联网域名系统北京市工程研究中心有限公司
+韩枫
+H04L 29/12
+Loading...
+The invention provides a DNS (Domain Name Server) analysis method based on a nested view and a DNS analysis system based on a nested view, and belongs to the technical field of communication. The DNS analysis method comprises the following steps: dividing into a plurality of views to form a region nested with the views; setting multiple stages of parent views to form each stage of parent view; determining a sub-view to which a client IP (Internet Protocol) belongs; determining whether the sub-view to which the client IP belongs has a resource record required by a user, if not, determining whether each stage of parent view has a resource record required by the user, and if yes, analyzing the resource record. According to the technical scheme of the invention, the redundancy and data volume of the resource records can be reduced, the resource sharing is realized, and the running speed of the DNS server is increased.
+16. 103685056 Load balancing method and load balancing system
+CN
+26.03.2014
+H04L 12/803 Loading...
+H04L 12/803
+Loading...
+201410015562.3
+INTERNET DOMAIN NAME SYSTEM BEIJING ENGINEERING RESEARCH CENTER
+CHEN CHAO
+H04L 12/803
+Loading...
+The invention provides a load balancing method and a load balancing system and belongs to the technical field of communication. The method comprises the following steps of: setting weights of IP (Internet Protocol) addresses of a plurality of DNS (Domain Name System) servers corresponding to each domain name address; calculating weight probability values of the IP addresses of the plurality of DNS servers corresponding to each domain name address; and according to the weight probability values of the IP addresses of the plurality of DNS servers, sending DNS response to a client by the weight probability values of the corresponding IP addresses. The technical scheme adopted by the invention can distribute more analysis tasks onto high-performance servers according to processing capacity of different application servers so as to implement load balancing.
+17. 102496042 一种电子标签设备
+CN
+13.06.2012
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201110431936.6
+天龙智联(北京)科技有限公司
+樊玉君
+G06K 17/00
+Loading...
+本发明公开了一种电子标签设备，用以扩展电子标签的读写距离，使得室内、室外空旷及高楼密集区域等全球范围内获得电子标签的位置信息和/或环境信息，该设备包括：电子标签设备包括GPS采集单元、主控制单元和通讯单元；GPS采集单元通过接收GPS卫星信号来采集所述电子标签设备的位置信息和/或环境信息并将其传给主控制单元；主控制单元，通过轮询所述通讯单元的方式来获知通讯信息的类型；如果所述通讯信息为获取位置命令，则唤醒通讯单元，通讯单元将从GPS采集单元获得的有效位置信息和/或环境信息通过网络传给指定的监控管理中心平台以根据所述信息显示电子标签设备相对应的位置和/或轨迹和/或环境。
+18. 102332982 一种射频电子标签非对称认证方法
+CN
+25.01.2012
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201110317611.5
+北京联合世龙科技有限公司
+郑建德
+H04L 9/32
+Loading...
+本发明的射频电子标签非对称认证方法分别以代数整数a作为公钥、以代数整数b作为私钥，其中，采用挑战-应答协议完成验证。挑战码c为随机整数，应答码其中，x是一个由c映射而成的代数整数。应答码z的验证分为两个步骤：第一步验证是否存在代数整数满足z2＝ay；第二步验证应答码z与挑战码c之间是否存在预设的映射关系。本发明提供的算法相对于现有的非对称密码算法，包括椭圆曲线密码算法更为简单，计算量较小，因此在无源电子标签中使用本发明提供的技术方案来完成认证过程，既可保证无线射频识别系统的安全性，还可有效控制电子标签芯片的造价。
+19. 102316544 机车无线通信中多工作模式切换方法及其系统
+CN
+11.01.2012
+H04W 36/14 Loading...
+H04W 36/14
+Loading...
+201110192699.2
+中国铁路总公司
+姜永富
+H04W 36/14
+Loading...
+本发明公开了一种机车无线通信中多工作模式切换方法及其系统，该切换方法包括：基于卫星定位系统实时获取列车当前位置的原始定位信息，并进行校验；取出经校验后有效的原始定位信息的经度值和纬度值，生成包含经度值和纬度值的列车当前位置的坐标，并将列车当前位置的坐标与预设的基准坐标相减，得到列车当前位置的相对坐标；根据相对坐标识别待切换的工作模式，并发送工作模式切换命令给主控模块。该机车无线通信中多工作模式切换方法及其系统，可实现多种无线通信方式下多工作模式之间的方便切换，并且效率高，为司机操作多种通信设备提供便捷。
+20. WO/2011/153884 METHOD FOR DETECTING L-ARGININE-ALPHA-KETOGLUTARATE USING HIGH PERFORMANCE LIQUID CHROMATOGRAPHY
+WO
+15.12.2011
+G01N 30/02 Loading...
+G01N 30/02
+Loading...
+PCT/CN2011/073862
+BEIJING JIASHILIANBO PHARM SCI & TECH CO., LTD.
+WEN, Shouming
+G01N 30/02
+Loading...
+A method for detecting L-arginine-alpha-ketoglutarate using high performance liquid chromatography(HPLC). Chromatographic conditions include: chromatographic column is amino column; mobile phase is methanol-acetonitrile-phosphate buffer in volume ratio of 0-20:30-70:20-50 and detection wavelength is 200-220nm.
+21. 201350970 飞艇艇囊压力控制装置
+CN
+25.11.2009
+B64B 1/62 Loading...
+B64B 1/62
+Loading...
+200820234006.5
+北京龙圣联成航空科技有限公司
+庞泰
+B64B 1/62
+Loading...
+飞艇艇囊压力控制装置，包括位于艇囊内的副囊、与副囊连接的充气电动阀门和放气电动阀门及压缩空气供给装置、压力传感器以及控制系统，控制装置采用单片微型计算机系统，艇囊外、艇囊内和副囊内设有1个或多个压力传感器，单片微型计算机系统与压力传感器、充气电动阀门、放气电动阀门和压缩空气供给装置电连接，可以通过单片微型计算机系统，对艇囊与外部大气的压差进行完善、精确的控制，中央处理器、只读存储器、随机存储器、输入输出接口等电路，都制作在一块集成电路内，整个单片微型计算机系统元件少，体积小，重量轻，为飞艇节省了宝贵的空间和载荷量。使用本实用新型的飞艇艇囊压力控制装置，可以实现多种姿态控制，更好地完成各种任务。
+22. 2932709 一种机车通信系统中主机与终端的连接器的插座和插头
+CN
+08.08.2007
+H01R 13/62 Loading...
+H01R 13/62
+Loading...
+200620001516.9
+上海新干通通信设备有限公司
+陈志杰
+H01R 13/62
+Loading...
+本实用新型涉及一种机车通信系统中主机与终端连接器的插座，包括：一限位卡接外壳；一安装法兰，套接于所述限位卡接外壳外侧；一插针定位法兰，套接于所述限位卡接外壳内侧；数个插针或插针孔，枢接于所述插针定位法兰上。还涉及一种机车通信系统中主机与终端连接器的插头，包括：一内壳；一插针孔定位架，容置于所述内壳内；数个插针孔或插针，容置于所述插接体内；一快速安装螺旋卡接外壳，与所述内壳相套接，并形成一容置槽。因此，本实用新型机车通信系统中主机与终端的连接器的插座和插头，能够在列车强震动、强电磁干扰的环境中可靠和良好的通信。
+23. 2822039 机车无线通信系统
+CN
+27.09.2006
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200520108986.0
+上海新干通通信设备有限公司
+陈志杰
+H04B 7/24
+Loading...
+本实用新型涉及一种机车无线通信系统，包括列尾主机，至少一个操作显示终端和与其相连接的主机，所述主机包括主控模块和天线馈线模块，以及与主控模块和天线馈线模块连接的800MHz列尾和列车安全预警车载电台、GSM－R话音模块、GSM－R数据模块、450MHz机车电台、450MHz调度命令模块、GPS模块、所述主机还连接有电源模块。因此，本实用新型机车无线通信系统同时满足了450MHz模拟通道的通信、800MHz通道上列尾和列车安全预警以及GMS－R网络下的语音和数据通信。
+24. 1710827 Locomotive number and train number registration and deregistration method in locomotive wireless communication system
+CN
+21.12.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078270.5
+Xingantong Communication Apparatus Co., Ltd., Shanghai
+ChenZhijie
+H04B 7/24
+Loading...
+The invention includes steps: (1) switching operation display terminals based on area covered by network; if it is district covered by GSM - R, then starting up GSM - R data module and executing step (2); if it is district covered by 450MHz analog network, then starting up 450MHz analog communication module and executing step (3); (2) based on GSM-R network, registration and cancellation of locomotive functional number and functional number of train number are carried out; if district entered is covered by 450MHz analog network, then step (3) is executed; (3) based on 450MHz analog network, registration and cancellation of locomotive number and train number are carried out; if district entered is covered by GSM-R network, then step (2) is executed. It is convenient to register and cancel locomotive number and train number in district covered by GSM - R or 450MHz analog network through the invention.
+25. 1702982 Locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078271.X
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system, which comprises engine tail, one operation display terminal and one host machine, wherein, the host comprises main control module and antenna feedback module and the 800MHz tail and safety pre-warning radio, GSM-R sound module and data module, 450MHz engine radio, 450MHz dispatching order module, GPS module. The invention meets the demands of 450MHz analogue channel communication, tail of 800MHz channel and pre-warning and the sound and data communication.
+26. 1702983 Communicating method of locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078272.4
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system method, which comprises the following steps: a, the operation display terminal switching according to path network, wherein, if the path covered by GSM-R network, then the operation and display terminal main control module sending sound module of GSM-R and data module information for starting GSM-R sound module and data module; b, if the path covered by the 450MHz network, then the operation and display terminal sending the starting information for starting; c, the antenna module receiving the sound calling information or dispatching orders or sending sound communication operations.
+

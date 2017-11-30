@@ -1,0 +1,445 @@
+1. 106505366 插拔式EOC模块安装引导装置
+CN
+15.03.2017
+H01R 13/631 Loading...
+H01R 13/631
+Loading...
+102016001237161
+江苏亿通高科技股份有限公司
+王振洪
+H01R 13/631
+Loading...
+一种插拔式EOC模块安装引导装置，用于引导模块盒内部的排针与底座上的排针座相连接，所述的模块盒在底部的长度方向的一侧构成有安装面，所述的安装面上对应于排针的位置处形成有一安装口，特点：所述的插拔式EOC模块安装引导装置包括本体，所述的本体从模块盒的底部固定到安装面上，本体在中间且沿长度方向上开设有上下贯通的引导口，所述的引导口的四个侧壁在使用状态下呈上小下大的喇叭状，所述的排针经由引导口向下探出本体外并与底座上的排针座插接。极大地提高了装配效率，而且有效避免了安装错位而导致的设备损坏，使用安全，成品合格率高。
+2. 103813363 一种移动节点自适应媒体访问控制方法
+CN
+22.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102014000063575
+江苏亿通高科技股份有限公司
+王振洪
+H04L 29/08
+Loading...
+一种移动节点自适应媒体访问控制方法，属于无线网络技术领域。所述节点周期性地进行睡眠、侦听和同步，节点在侦听期间进行数据通信，在睡眠期间进入睡眠状态以降低功耗，且通过采用同步机制，使节点之间形成一致的侦听睡眠调度，其特征在于，节点在同步期间，进行自适应调整，具体包括如下步骤：根据RSSI值的变化评估节点的移动速度；根据上述步骤得出的节点的移动速度调整同步的频率；在发送端对节点传输延时及能耗进行估算；接收端节点进行占空比自适应调整。优点：网络在节点静止和移动场景中均有较高的效率，提高了节点加入新簇的速度；在保证合理能耗的同时，进一步降低传输延时；引入的控制成本很小，易于实现。
+3. 106412619 一种基于HSV颜色直方图和DCT感知哈希的镜头边界检测方法
+CN
+15.02.2017
+H04N 21/234 Loading...
+H04N 21/234
+Loading...
+201610855759.7
+江苏亿通高科技股份有限公司
+张登银
+H04N 21/234
+Loading...
+本发明公开了一种基于HSV颜色直方图和DCT感知哈希的镜头边界检测方法，包括以下步骤：步骤1：使用基于HSV颜色空间的直方图统计方法计算出相邻两帧图像之间的直方图差异度；步骤2：采用自适应阀值对相邻两帧间的差异度进行判别，若大于阀值，则初步判定为镜头边界；步骤3：采用基于DCT的感知哈希算法对初检结果进行复检并得出最终的视频镜头边界集合，通过HSV颜色直方图的初检和基于DCT感知哈希算法的复检，有效并准确地检测出视频帧序列中的镜头边界位置，从而为多媒体视频数据的结构化分析打下坚实的基础。
+4. 106385584 基于空域相关性的分布式视频压缩感知自适应采样编码方法
+CN
+08.02.2017
+H04N 19/172 Loading...
+H04N 19/172
+Loading...
+201610855778.X
+江苏亿通高科技股份有限公司
+张登银
+H04N 19/172
+Loading...
+本发明公开了一种基于空域相关性的分布式视频压缩感知自适应采样编码方法，充分利用key帧的空域相关性，自适应采样编码。将key帧图像块按帧内空域相关性大小划分为non‑key块与key块。non‑key块利用相邻key块的重构块生成边信息，采用低采样率压缩重构；key块采用自适应高采样率的压缩重构。在相同总采样率情况下，能够提升重构图像帧质量；该方法解决了传统分布式视频压缩感知系统中key帧图像块采样率非自适应的问题。
+5. 105471629 一种智能处理端口数据的终端
+CN
+06.04.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510790137.6
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/24
+Loading...
+一种智能处理端口数据的终端，属于网络通信技术领域。包括双工滤波器、耦合变压器、模拟前端芯片、EOC芯片、交换机芯片及外部信号处理接口芯片，双工滤波器将数据信号发送至耦合变压器；耦合变压器将数据信号通过模拟前端芯片发送至EOC芯片；EOC芯片将数据信号调制为以太网信号，并将以太网信号发送至交换机芯片；交换机芯片的以太网端口连接外部以太网接口，外部信号处理接口芯片与交换机芯片连接，通过处理交换机芯片输出的状态信号来判断交换机芯片或者交换机下所接网络是否存在环路，当检测到环路时，外部信号处理接口芯片控制交换机芯片关闭环路的以太网端口。能解决终端下出现环路时对上层网络的影响，提高网络的稳定性。
+6. 205105238 一种智能处理端口数据的终端
+CN
+23.03.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201520915168.5
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/24
+Loading...
+一种智能处理端口数据的终端，属于网络通信技术领域。包括双工滤波器、耦合变压器、模拟前端芯片、EOC芯片、交换机芯片及外部信号处理接口芯片，双工滤波器将数据信号发送至耦合变压器；耦合变压器将数据信号通过模拟前端芯片发送至EOC芯片；EOC芯片将数据信号调制为以太网信号，并将以太网信号发送至交换机芯片；交换机芯片的以太网端口连接外部以太网接口，外部信号处理接口芯片与交换机芯片连接，通过处理交换机芯片输出的状态信号来判断交换机芯片或者交换机下所接网络是否存在环路，当检测到环路时，外部信号处理接口芯片控制交换机芯片关闭环路的以太网端口。能解决终端下出现环路时对上层网络的影响，提高网络的稳定性。
+7. 105071864 带射频检测功能的光纤放大器
+CN
+18.11.2015
+H04B 10/291 Loading...
+H04B 10/291
+Loading...
+201510559587.4
+江苏亿通高科技股份有限公司
+王振洪
+H04B 10/291
+Loading...
+一种带射频检测功能的光纤放大器，属于光纤通信技术领域。包括光纤放大单元和MCU处理器单元，在光纤放大单元的输入侧设有第一光分路器、第一光电探测器以及第一运算放大单元，在光纤放大单元的输出侧设有第二光分路器、第二光电探测器以及第二运算放大单元，还包括第一射频信号处理单元和第二射频信号处理单元，第一射频信号处理单元分别与第一光电探测器以及MCU处理器单元连接，第二射频信号处理单元分别与第二光电探测器以及MCU处理器单元连接。优点：能解决没有射频信号时光纤放大器仍会打开激光器并开始工作的问题，可以延长激光器及整机的使用寿命；能分别将输入、输出侧射频信号以射频方式直接输出，用于本地实时监测或其他用途。
+8. 203589178 双工滤波器结构
+CN
+07.05.2014
+H01P 1/20 Loading...
+H01P 1/20
+Loading...
+201320754177.1
+江苏亿通高科技股份有限公司
+王振洪
+H01P 1/20
+Loading...
+一种双工滤波器结构，属于滤波器技术领域。包括壳体和双工滤波器本体，在壳体的一端延伸有第一安装连接座、另一端延伸有第二安装连接座，双工滤波器本体固定在壳腔内，特点：还包括有壳盖，壳腔的上部和下部均构成为不封闭的开口状，壳盖在对应于壳腔的上部与壳体配合，并且在壳腔内构成有屏蔽板。可以增进屏蔽效果，使双工滤波器本体对信号之间的抗干扰以及抗辐射能力得以显著改善；由于将壳腔设计成上部以及下部均不封闭的开口状，因而当要对安装于电路板上的双工滤波器本体的参数指标作二次调节时，只要撤去壳盖即可进行调节，提高调试安装效率并且减轻工人的安装作业强度，无需二次焊接而可节约焊接材料。
+9. 203206264 无线MoCA终端
+CN
+18.09.2013
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201320118000.2
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/28
+Loading...
+本实用新型公开了一种无线MoCA终端，包括射频接口、射频处理单元、MoCA主芯片，还包括WIFI主芯片，WIFI主芯片与MoCA主芯片采用PHY对接的方式连接，WIFI主芯片的外围配有内存及flash存储单元、无线及以太网接口，WIFI主芯片的I/O引脚模拟MDC/MDIO总线，WIFI主芯片的CPU控制和管理MoCA主芯片，flash存储单元保存MoCA主芯片的程序和配置。本实用新型的优点是采用WIFI主芯片，无需再利用外置的微处理器MCU就可以实现MoCA主芯片的控制和管理，降低了硬件成本，同时，WIFI主芯片外围的无线及以太网接口，解决了广电运营商对于MoCA终端无线上网的需求。
+10. 203151533 具有多种VLAN模式的MoCA头端
+CN
+21.08.2013
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+201220429554.X
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/46
+Loading...
+本实用新型公开了一种具有多种VLAN模式的MoCA头端，包括MoCA主芯片、CPU和PHY芯片，CPU与PHY芯片通过MII相连接实现数据的转发，MoCA主芯片和CPU之间采用PCI接口连接，CPU中运行的内核采用PCI驱动访问控制MoCA主芯片实现数据的转发，应用PCI驱动中的sk_buff结构体传递数据包；该头端具有VLAN处理功能，适用于目前广电网络上的单端口终端网络、可管理多端口终端网络，或单端口与可管理多端口终端混用的网络，解决了不同时期的多种MoCA终端并存于同一网络的问题，满足广电用户多业务的运用需求。
+11. 103237071 一种无线EoC终端集中管理的方法
+CN
+07.08.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310136681.X
+江苏亿通高科技股份有限公司
+王振洪
+H04L 29/08
+Loading...
+本发明公开了一种无线EoC终端集中管理的方法，利用EoC头端主芯片构建Etherent II以太网二层数据包，以设备的MAC地址作为寻址方式进行通讯，Etherent II以太网二层数据包的数据部分定义成命令、索引、长度和数据负荷部分构成管理协议，EoC头端利用管理协议对其带有的所有无线EoC终端的WIFI功能模块进行操作。本发明的优点是EoC终端通过专用的管理协议实现与WIFI功能模块进行交互并且将WIFI功能模块与其连接的EoC终端模块关联使两者在管理上成为一个整体，再通过上层管理接口实现对无线EoC终端的远程管理，最终有效的解决了目前EoC技术中对终端WIFI部分的统一管理问题。
+12. 103198099 基于云计算的面向电信业务的数据挖掘应用方法
+CN
+10.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310079268.4
+南京邮电大学
+季一木
+G06F 17/30
+Loading...
+本发明是一种基于云计算的面向电信业务的数据挖掘应用方法，该方法采用分层的思想，自顶向下每层都透明的调用下层接口，最顶层为交互层，用于用户和系统之间的交互，使用分层，各层之间变得独立，易于系统的扩展，该方法的使用有利于我们方便、快速的实现计算机集群。在HADOOP平台上，采用了HDFS(分布式文件系统)来实现超大文件的存储和容错，而使用了MapReduce的编程模式来进行计算。将HADOOP运用到数据挖掘，将一些传统的数据挖掘算法实行并行化。对于传统的数据挖掘算法，结合算法自身的特点，可以很容易或者需要深入研究发现它是否能够并行。
+13. 103152235 Wireless MoCA (Multimedia over Coax Alliance) terminal
+CN
+12.06.2013
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201310083874.3
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/28
+Loading...
+The invention discloses a wireless MoCA (Multimedia over Coax Alliance) terminal, which comprises a radio-frequency interface, a radio-frequency processing unit, an MoCA main chip and a WIFI (Wireless Fidelity) main chip, wherein the WIFI main chip is connected with the MoCA main chip in a PHY (Physical Layer) butt joint way; the periphery of the WIFI main chip is provided with a memory, a flash storage unit, a wireless unit and an Ethernet interface; the I/O (Input/Output) pin of the WIFI main chip is used for simulating an MDC/MDIO (Meta Data Controller/Management Data Input/Output) bus; a CPU (Central Processing unit) of the WIFI main chip is used for controlling and managing the MoCA main chip; and the flash storage unit is used for storing the programs and configuration of the MoCA main chip. The wireless MoCA terminal has the advantages that the WIFI main chip is adopted, so that the control and management of the MoCA main chip can be realized without using an external microprocessor MCU, so that the hardware cost is lowered; and meanwhile, the wireless unit and the Ethernet interface on the periphery of the WIFI main chip are adopted, so that the requirement for wireless internet surfing of the MoCA terminal of a broadcasting operator is met.
+14. 103117911 具有多种VLAN模式的MoCA头端
+CN
+22.05.2013
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+201210309919.X
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/46
+Loading...
+本发明公开了一种具有多种VLAN模式的MoCA头端，包括MoCA主芯片、CPU和PHY芯片，CPU与PHY芯片通过MII相连接实现数据的转发，MoCA主芯片和CPU之间采用PCI接口连接，CPU中运行的内核采用PCI驱动访问控制MoCA主芯片实现数据的转发，应用PCI驱动中的sk_buff结构体传递数据包；该头端具有VLAN处理功能，适用于目前广电网络上的单端口终端网络、可管理多端口终端网络，或单端口与可管理多端口终端混用的网络，解决了不同时期的多种MoCA终端并存于同一网络的问题，满足广电用户多业务的运用需求。
+15. 103117912 MoCA终端业务配置自动下发的方法
+CN
+22.05.2013
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+201310022526.5
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/46
+Loading...
+本发明公开了一种MoCA终端业务配置自动下发的方法，在MoCA局端上设置自动下发模板，MoCA局端按照所述模板上设置的PSPV或PUPSPV下发模式自动下发业务配置到MoCA终端上。本发明的优点是通过在MoCA局端上设置的自动下发模板，实现MoCA系统的PSPV和PUPSPV模式的自动下发功能，解决了运营商要求终端安装零配置问题，提高了配置业务信息下发的简易性，且上线MoCA终端只要检测到各端口的实际配置信息与MoCA局端数据库中的信息不一致就重新配置，确保了业务下发信息的可靠性，最终解决MoCA大范围应用的配置问题。
+16. 103002040 一种云计算用户数据检查的方法
+CN
+27.03.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210543765.0
+南京邮电大学
+季一木
+H04L 29/08
+Loading...
+本发明涉及一种云计算用户数据检查的方法，为了确保云计算用户数据完整性和节省用户计算资源和通信负担，建立可靠地检查制度尤为关键，借助于第三方检查（TPA）来代理用户进行检查工作，它可以代理用户进行周期性的数据完整性检查，它采用基于同态线性认证的技术，确保TPA在没有取得用户数据的前提下能够正确代理用户进行检查工作，取得了隐私保护的目的,保证了云计算用户数据的安全。为了提高安全性和可靠性，本方案对此进行改进，增加了对用户数据块的认证过程，使得在检查数据块之前由TPA代理检查用户数据块签名，提高了检查的可靠性。
+17. 202424634 带数字信号补偿功能的自动增益控制电路
+CN
+05.09.2012
+H03G 3/28 Loading...
+H03G 3/28
+Loading...
+201120523940.0
+江苏亿通高科技股份有限公司
+王振洪
+H03G 3/28
+Loading...
+本实用新型公开了一种带数字信号补偿功能的自动增益控制电路，其包括一个或一个以上可控衰减模块、一个射频分支和检波电路、一个AD转换器、一个控制算法模块、一个DA转换器和数字信号补偿算法模块，本实用新型通过射频分支检波电路对射频输出信号进行采样，经AD转换后送入控制算法模块，控制算法加入数字信号补偿值后，计算得到的控制输出再经DA转换后对可控衰减器进行控制，从而实现带数字信号补偿功能的自动增益控制，避免了因模拟/数字信号的检波差异值而引起的自动增益控制误差。
+18. 202385110 光控自动增益控制电路
+CN
+15.08.2012
+H04B 10/17 Loading...
+H04B 10/17
+Loading...
+201120524328.5
+江苏亿通高科技股份有限公司
+王振洪
+H04B 10/17
+Loading...
+本实用新型公开了一种光控自动增益控制电路及控制电压的算法，该电路包括光电检测电路、运算放大电路、一组运算放大电路、一组二极管和可控衰减模块，用一组运算放大器实现10dB光功率变化范围内的射频AGC控制，控制精度在±1dB以内，能够满足光接收机的设计需求，本实用新型与单片机电路相比，价格低廉，稳定可靠，不会对射频回路产生干扰。
+19. 202334563 便携式MoCA网络测试仪
+CN
+11.07.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201120465670.2
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/26
+Loading...
+本实用新型公开了一种便携式MoCA网络测试仪，其包括MoCA终端和控制部分，控制部分包括LCD显示屏和MCU，LCD显示屏通过具有串口、SPI或者并口的接口方式与MC U通讯，MCU通过串口或网口与MOCA终端通讯，本实用新型借助于MoCA头端代码可配置成终端的特点，并利用此终端与电脑通过串口或网口通讯，可查看此终端自身信息的功能，采用MCU+LCD显示屏模拟电脑实现相同功能，具有便携、测试方便等优点，能测试MoCA网络所有相关参数，能有效解决目前MoCA网络测试无专用仪器的问题，有利于MoCA产品的进一步推广。
+20. 202334561 可管理的多端口MoCA终端
+CN
+11.07.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201120465724.5
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/24
+Loading...
+本实用新型公开了一种可管理的多端口MoCA终端，其MoCA主芯片通过MII接口与交换机芯片连接来完成数据的转发和通过配置寄存器把MII接口配置成PHY模式或是MAC模式；MCU与MoCA主芯片通过SMI总线相连，MoCA主芯片通过MCU使用SMI总线把代码下载到MoCA主芯片中引导其启动，并通过SMI总线操作寄存器进行配置完成整个初始化工作，在正常运行时，监测MoCA主芯片的工作状态；MCU还通过另一组SMI总线与交换机芯片相连，来单独控制交换机芯片，本实用新型的MoCA主芯片能同几乎所有的带MII接口的交换机芯片对接，硬件设计上具有较大灵活性，本实用新型可以方便实现对交换机的管理，在MoCA主芯片的MII接口上连接不同功能的交换机，可以实现不同的配置功能，能够满足多业务的需求。
+21. 102420718 便携式MoCA网络测试仪
+CN
+18.04.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110373043.0
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/26
+Loading...
+本发明公开了一种便携式MoCA网络测试仪，其包括MoCA终端和控制部分，控制部分包括LCD显示屏和MCU，LCD显示屏通过具有串口、SPI或者并口的接口方式与MCU通讯，MCU通过串口或网口与MOCA终端通讯，本发明借助于MoCA头端代码可配置成终端的特点，并利用此终端与电脑通过串口或网口通讯，可查看此终端自身信息的功能，采用MCU+LCD显示屏模拟电脑实现相同功能，具有便携、测试方便等优点，能测试MoCA网络所有相关参数，能有效解决目前MoCA网络测试无专用仪器的问题，有利于MoCA产品的进一步推广。
+22. 102412992 可管理的多端口MoCA终端
+CN
+11.04.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110372700.X
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/24
+Loading...
+本发明公开了一种可管理的多端口MoCA终端，其MoCA主芯片通过MII接口与交换机芯片连接来完成数据的转发和通过配置寄存器把MII接口配置成PHY模式或是MAC模式；MCU与MoCA主芯片通过SMI总线相连，MoCA主芯片通过MCU使用SMI总线把代码下载到MoCA主芯片中引导其启动，并通过SMI总线操作寄存器进行配置完成整个初始化工作，在正常运行时，监测MoCA主芯片的工作状态；MCU还通过另一组SMI总线与交换机芯片相连，来单独控制交换机芯片，本发明的MoCA主芯片能同几乎所有的带MII接口的交换机芯片对接，硬件设计上具有较大灵活性，本发明可以方便实现对交换机的管理，在MoCA主芯片的MII接口上连接不同功能的交换机，可以实现不同的配置功能，能够满足多业务的需求。
+23. 102413028 MoCA系统的用户终端设备接入数量限制方法
+CN
+11.04.2012
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110372699.0
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/28
+Loading...
+本发明公开了一种MoCA系统的用户终端设备接入数量限制方法，该方法在MoCA的c.LINK驱动程序的CAM管理部分，进行统计MoCA头端记录的某一终端所转发的用户终端设备MAC地址数量，当达到上层用户应用程序或c.LINK应用程序配置到c.LINK驱动程序的允许接入的最大数值时，停止其他用户终端设备MAC地址的记录；由于在CAM表中没有记录相应的MAC地址，这些用户终端设备的数据包就不能转发，从而起到禁止用户接入网络的作用。
+24. 102394830 MoCA多端口终端管理通道的实现方法
+CN
+28.03.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110373041.1
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/24
+Loading...
+本发明公开了一种MoCA多端口终端管理通道的实现方法，本方法在MoCA头端上集成了ICMP包发送程序，当远程通过SNMP、Telnet等方式把终端交换机的配置信息发送给头端后，头端把这些信息按照一定的格式承载到ICMP包的数据段，再发送到MoCA终端；MoCA终端接收报文后按照这个格式取得相应的命令或配置数据，并根据命令把相应数据放入NumOfMapTx等5个空余的32位寄存器，然后头端通过API函数来获取这五个寄存器的数据，并根据发送的命令解析这几个寄存器中的相关数据，从而实现上下行管理通道。
+25. 102377619 SNMP代理通信异常自动检测及处理方法
+CN
+14.03.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110372755.0
+江苏亿通高科技股份有限公司
+王振洪
+H04L 12/26
+Loading...
+本发明公开了一种SNMP代理通信异常自动检测及处理方法，该方法采用SNMP代理周期的发送心跳Trap信息到网管服务器，网管服务器上的NMS持续的监听Trap端口，并把最近一次发送trap信息对应的代理IP地址、MAC地址和发送时间更新到数据库，NMS周期性的从数据库取出Trap发送时间同服务器当前时间对比，如服务器时间减去Trap发送时间大于心跳周期，则判断该网元异常，记录异常信息到数据库并显示到NMS界面上；如服务器时间减去Trap发送时间小于等于心跳周期，则判断该网元正常；本方法对于管理网元数量达到几千甚至几万，特别是在设备大面积停电或者线路断开情况下，NMS仍能及时的判断服务器到网元之间的通信异常，方便维护人员及时的定位、解决网络或者设备的问题，能够使网络设备运行更加可靠、维护更加简单。
+26. 102307320 一种适用于流媒体环境的盗版追踪水印方法
+CN
+04.01.2012
+H04N 21/8358 Loading...
+H04N 21/8358
+Loading...
+201110229609.2
+江苏亿通高科技股份有限公司
+程春玲
+H04N 21/8358
+Loading...
+本发明涉及一种适用于流媒体环境的盗版追踪水印方法，属于多媒体信息安全领域。本发明在水印嵌入之前先对视频进行分段处理，水印的嵌入过程中根据流媒体视频的内容选出满足条件的宏块嵌入水印，并利用快速排序算法确定最适合嵌入水印信息的宏块。水印嵌入考虑到宏块运动矢量的水平方向和垂直方向的差异，自适应的选择合适的运动分量嵌入2bit的水印信息，嵌入水印后通过修改B帧的NAL头部,使水印能够应对网络传输而带来的帧丢失等情况的发生。运用本发明可以在流媒体视频内实时嵌入水印信息，实现盗版追踪。
+27. 102281157 Loop circuit detecting and processing method of MOCA (Model-based Constructibility Analysis) system
+CN
+14.12.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110231165.6
+Jiangsu Yitong High Technology Co.,Ltd.
+Wang Zhenhong
+H04L 12/24
+Loading...
+The invention discloses a loop circuit detecting and processing method of an MOCA (Model-based Constructibility Analysis) system, wherein the method is used for detecting and determining whether a looping condition exists in a port and processing the looping condition through the steps of sending Ethernet messages to a CPE (Central Processing Element) with intervals through an NC (Network Computer), and detecting whether the Ethernet messages are included in the received data packet or not, thus the problems occurred when the user is accessed to the network are solved immediately, the whole network is prevented from being affected, and the maintainers are informed in time to locate and solve the network problems of the user rapidly, and the MOCA system is enabled to be operated more reliably and maintained more simply.
+28. 102201956 Triple play broadband access equipment embedded management method
+CN
+28.09.2011
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110129635.8
+Jiangsu Yitong High Technology Co.,Ltd.
+Ren Xunyi
+H04L 12/28
+Loading...
+The invention discloses a triple play broadband access equipment embedded management method. In the method, intensive study is made based on the research and development of a plurality of products such as optical network unit (ONU), multimedia over coax alliance (MOCA), home plug power line alliance Ethernet over coax (HomePlug EOC) and the like, an isomerism-oriented extensible embedded method for a plurality of pieces of fiber access equipment is researched and developed based on general characteristics in the functions of a plurality of pieces of broadband access equipment of triple play, and unified management over the plurality of pieces of equipment such as the ONU, EOC, a Cable Modem, a local area network and the like can be realized.
+29. 102201955 Family intelligent terminal system
+CN
+28.09.2011
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110129300.6
+Jiangsu Yitong High Technology Co.,Ltd.
+Ren Xunyi
+H04L 12/28
+Loading...
+The invention discloses a family intelligent terminal system which employs the embedded technology. Functions of network access, control and video decoding are integrated in an Ethernet over Coax (EOC) head end so as to realize a home intelligent gateway, the control of each terminal can and bear functions of three nets fusion businesses, such as VOIP (voice over internet protocol), IPTV( internet protocol television) and the like. There are interfaces for home security. A plurality of wired and wireless accesses, family comprehensive information managements and a multimedia processing center are formed. Many services can be provided for consumers, such as entertainment, information and intelligent control for extensible household electrical appliances.
+30. 201608712 双路自适应射频传输控制系统
+CN
+13.10.2010
+H04B 3/04 Loading...
+H04B 3/04
+Loading...
+201020115634.9
+江苏亿通高科技股份有限公司
+王振洪
+H04B 3/04
+Loading...
+一种双路自适应射频传输控制系统，适用于列车运行过程中收听收看高质量的节目。包括一个广播车厢的干线射频信号放大装置Fq、N个卧铺车厢的双路自适应射频放大装置Fwn和2N个干线射频信号冗余传输的电缆L2n，干线射频信号放大装置有等电平的四路输出端口A、B、C和D，广播车厢的干线射频信号放大装置Fq可与任意一节卧铺车厢的双路自适应射频放大装置Fwn的前后位置或自身首尾位置相互对调连接，每个双路自适应射频放大装置Fwn有四个干线射频传输端口An、Bn、Cn、Dn和一个射频输出端口En。保证射频信号的正常传输；保证信号的正常传输；实现简单又高效的全自动传输。
+31. 101778239 Two-path adaptive radio frequency transmission control system
+CN
+14.07.2010
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+201010111599.8
+Jiangsu Yitong High-Tech Co., Ltd.
+Chen Xiaoxing
+H04N 7/10
+Loading...
+The invention relates to a two-path adaptive radio frequency transmission control system, which is used for listening and watching high-quality programs in a train traveling process and comprises a main line radio frequency signal amplifying device Fq of a broadcast carriage, N two-path adaptive radio frequency signal amplifying devices Fwn of sleeping carriages and 2N cables L2n for redundant transmission of main line radio frequency signals. The main line radio frequency signal amplifying device is provided with four output ports A, B, C and D with equal level; the main line radio frequency signal amplifying device Fq of the broadcast carriage can be in mutual exchanging connection with the front and back positions of the two-path adaptive radio frequency signal amplifying device Fwn of any sleeping carriage or head and tail positions per se; and each two-path adaptive radio frequency signal amplifying device Fwn is provided with four main line radio frequency transmission ports An, Bn, Cn and Dn and a radio frequency output port En. The two-path adaptive radio frequency transmission control system of the invention guarantees normal transmission of radio frequency signals, guarantees the normal transmission of signals and realizes simple and high-efficiency full-automatic transmission.
+32. 201312359 双向滤波分支分配器
+CN
+16.09.2009
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+200820214929.4
+江苏亿通高科技股份有限公司
+王振洪
+H04N 7/10
+Loading...
+一种双向滤波分支分配器，属于有线电视工程领域。包括第一高通滤波器、第二高通滤波器、低通滤波器、N路分配器、第三高通滤波器，外部输入信号接入第一高通滤波器，第一高通滤波器与第二高通滤波器和低通滤波器连接，第二高通滤波器与N路分配器连接，N路分配器输出到电视机并连接到第三高通滤波器，第三高通滤波器与低通滤波器连接后一起输出到电缆解调器。优点：是一种无源产品，结构简单，安全可靠，相比于放大器的更换或升级来说，系统改造成本低，效率高，安装方便。
+33. 201312287 步进式衰减器
+CN
+16.09.2009
+H03H 5/00 Loading...
+H03H 5/00
+Loading...
+200820214928.X
+江苏亿通高科技股份有限公司
+王振洪
+H03H 5/00
+Loading...
+一种用于有线电视双向的混合光纤同轴电缆网络中调整正反向电平的步进式衰减器，包括电阻R1、R2、R3、高通滤波器和低通滤波器，电阻R1的一端与高通滤波器和输入端IN连接，电阻R1的另一端与低通滤波器连接，电阻R2的一端与低通滤波器连接，电阻R2的另一端接地，电阻R3的一端与低通滤波器连接，电阻R3的另一端与高通滤波器和输出端OUT连接。优点：它结构简单，信号中高频部分直接经高通滤波器通过，低频部分经电阻R1、R2、R3和低通滤波器通过，改变电阻R1、R2、R3阻值实现衰减量的步进式调整，以达到进户电平的一致性。
+34. 101448124 Bidirectional filtering branch distributor
+CN
+03.06.2009
+H04N 7/10 Loading...
+H04N 7/10
+Loading...
+200810242703.X
+Jiangsu Yitong High tech Co., Ltd.
+Wang Zhenhong
+H04N 7/10
+Loading...
+A bidirectional filtering branch distributor, which belongs to the field of cable TV engineering, comprises a first high-pass filter, a second high-pass filter, a low-pass filter, N distributor, and a third high-pass filter, wherein an external input signal is inputted to the first high-pass filter; the first high-pass filter is connected with the second high-pass filter and the low-pass filter; the second high-pass filter is connected with the N distributor; the N distributors output to a television and is connected with the third high-pass filter; and the third high-pass filter is connected with the low-pass filter and outputs together with the low-pass filter to a cable demodulator. The bidirectional filtering branch distributor has the advantages of passive product, simple structure, high safety and reliability, and low system alternation cost, high efficiency and convenient installation in comparison with the replacement or updating of an amplifier.
+35. 101447772 Step attenuator
+CN
+03.06.2009
+H03H 5/00 Loading...
+H03H 5/00
+Loading...
+200810242702.5
+Jiangsu Yitong High tech Co., Ltd.
+Wang Zhenhong
+H03H 5/00
+Loading...
+A step attenuator for adjusting positive and negative levels in a bidirectional hybrid fiber coaxial cable network of cable TV comprises resistors R1, R2 and R3, a high-pass filter and a low pass filter, wherein one end of the resistor R1 is connected with the high-pass filter and an input terminal IN; the other end of the resistor R1 is connected with the low-pass filter; one end of the resistor R2 is connected with the low-pass filter, and the other end is grounded; and one end of the resistor R3 is connected with the low-pass filter, and the other end is connected with the high-pass filter and the output terminal OUT. The step attenuator has simple structure; the high-frequency section of the signal can pass directly through the high-pass filter; and the low-frequency section can pass through the resistors R1, R2 and R3 and the low-pass filter; and step attenuation amount adjustment can be achieved by adjusting the resistances of the resistors R1, R2 and R3 so as to achieve consistent incoming levels.
+36. 201141927 光纤引导装置
+CN
+29.10.2008
+G02B 6/38 Loading...
+G02B 6/38
+Loading...
+200720129611.1
+江苏亿通高科技股份有限公司
+王振洪
+G02B 6/38
+Loading...
+一种光纤引导装置，属于光纤、光缆安装连接的专用工具。它包括一导杆，该导杆的一端端部构成有一对配接耳；一插座，嵌置于导杆上的插座接应槽内并且与所述的配接耳固定；一光纤接应座，固置在插座上。优点：能伸入到光纤控制盒之间的进线槽中，将光纤从光纤控制柜的后侧引渡到前侧，便于工人将引渡而至的光纤接续到光纤控制盒的光纤接续端口上，有助于提高光纤的安装效率。
+37. 101216581 Optical fibre guiding arrangement
+CN
+09.07.2008
+G02B 6/38 Loading...
+G02B 6/38
+Loading...
+200710302478.X
+JIANGSU YITONG HIGH-TECH Co., LTD.
+Wang Zhenhong
+G02B 6/38
+Loading...
+An optical fiber guide device belongs to a special tool for arranging and connecting optical fibers and cables. The optical fiber guide device comprises a guide rod with a pair of adapter lugs formed on one end; a plug embedded in a plug receiving groove on the guide rod and fixed with the adapter lugs; and an optical fiber receiving base fixedly arranged on the plug. The invention has the advantages that the optical fiber can protrude into an inlet groove between optical fiber control boxes to guide the optical fiber from the rear side of an optical fiber control cabinet to the front side, which facilitates workers to connect the guided optical fiber with an optical fiber connection port of the optical fiber control boxes, thus improving the installation efficiency of the optical fiber.
+

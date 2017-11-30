@@ -20,15 +20,83 @@ public class Patent extends Entity {
 	 * FK of tls211_PAT_PUBLN.PAT_PUBLN_ID
 	 */
 	protected int patPublnId = DUMP_PAT_ID;
+	protected Date publnDate = null;
 	
 	protected String applnNum = "";
 	protected String priorityNum = "";
 	
 	protected String prefix = "";
 	protected String postfix = "";
-	protected Date applnDate = null;
+	protected Date appFilingDate = null;
+	protected Date appEarliestDate = null;
+	protected int docdbFamId = 0;
+	
+	public Date getAppEarliestDate() {
+		return appEarliestDate;
+	}
+	
+	public String getAppEarliestDateString() {
+		if (this.appEarliestDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.appEarliestDate);
+	}
+	
+	public void setAppEarliestDateString(String dateString) {
+		try {
+			this.appEarliestDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setAppEarliestDateBySqlDate(java.sql.Date date) {
+		this.appEarliestDate = new Date(date.getTime());
+	}
+	
+	public void setAppEarliestDate(Date appEarliestDate) {
+		this.appEarliestDate = appEarliestDate;
+	}
+	
+	
+	public int getDocdbFamId() {
+		return docdbFamId;
+	}
+	public void setDocdbFamId(int docdbFamId) {
+		this.docdbFamId = docdbFamId;
+	}
 	
 	protected int citationTotal = 0;
+	
+	public Date getPublnDate() {
+		return publnDate;
+	}
+	public void setPublnDate(Date publnDate) {
+		this.publnDate = publnDate;
+	}
+	
+	public String getPublnDateString() {
+		if (this.publnDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.publnDate);
+	}
+	
+	public void setPublnDateString(String dateString) {
+		try {
+			this.publnDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setPublnDateBySqlDate(java.sql.Date date) {
+		this.publnDate = new Date(date.getTime());
+	}
 	
 	public String getPriorityNum() {
 		return priorityNum;
@@ -54,33 +122,33 @@ public class Patent extends Entity {
 	public void setPostfix(String postfix) {
 		this.postfix = postfix;
 	}
-	public Date getApplnDate() {
-		return applnDate;
+	public Date getAppFilingDate() {
+		return appFilingDate;
 	}
 	
 	public String getApplnDateString() {
-		if (this.applnDate == null) {
+		if (this.appFilingDate == null) {
 			return "1900-01-01";
 		}
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		return sdf.format(this.applnDate);
+		return sdf.format(this.appFilingDate);
 	}
 	
-	public void setApplnDateString(String dateString) {
+	public void setAppFilingDateString(String dateString) {
 		try {
-			this.applnDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+			this.appFilingDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
-	public void setApplnDateBySqlDate(java.sql.Date date) {
-		this.applnDate = new Date(date.getTime());
+	public void setAppFilingDateBySqlDate(java.sql.Date date) {
+		this.appFilingDate = new Date(date.getTime());
 	}
 	
-	public void setApplnDate(Date applnDate) {
-		this.applnDate = applnDate;
+	public void setAppFilingDate(Date applnDate) {
+		this.appFilingDate = applnDate;
 	}
 	public String getPublicationNumber() {
 		return publicationNumber;

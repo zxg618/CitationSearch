@@ -1,0 +1,169 @@
+1. 104166666 PostgreSQL高并发流式大数据多维度准实时统计的方法
+CN
+26.11.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410207285.6
+杭州斯凯网络科技有限公司
+周正中
+G06F 17/30
+Loading...
+本发明涉及PostgreSQL高并发流式大数据多维度准实时统计的方法。其技术方案要点是：创建流水表增量状态表、统计函数、函数增量状态表和分析函数，对流水表增量状态表函数增量状态表进行初始化；计算分析函数取数的次数，以整数方式记录，作为统计次数数据，分析函数工作，进入子步骤，计算机根据统计函数得出的流水统计数据输出含有多维度准实时统计数据的统计维度表。本发明节约硬件投入至少100倍，实时时效控制在1分钟以内。
+2. 103197893 在Android系统中提示用户当前输入信息是否有误的方法
+CN
+10.07.2013
+G06F 3/0489 Loading...
+G06F 3/0489
+Loading...
+201210519440.9
+杭州斯凯网络科技有限公司
+吴庆明
+G06F 3/0489
+Loading...
+本发明公开了在Android系统中提示用户当前输入信息是否有误的方法，系统检查输入的字符串信息，若字符串信息符合此编辑框的要求，则不做任何提示，若字符串信息不符合编辑框的要求，则提示输入信息有误；当系统监控到用户当前的编辑框为密码输入框时，系统检测输入的每一个字符信息，并将此字符与正确密码所对应的字符做比较，若字符相同，则提示输入的此字符信息正确，若字符不相同，则提示输入的此字符信息不正确。本发明可以及时提示用户输入信息是否有误，且用户忘记密码时可以提示用户正确密码，且他人不知道提示用户正确密码的规则而不能获取正确密码，安全性较高。且本方法较易实现，实用性强。
+3. 102945240 一种支持分布式计算的关联规则挖掘算法实现方法及装置
+CN
+27.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210332525.6
+杭州斯凯网络科技有限公司
+杨进
+G06F 17/30
+Loading...
+本发明公开了一种支持分布式计算的关联规则挖掘算法实现方法及装置，用HDFS的编程模型对关联规则挖掘算法PA进行map函数阶段和reduce函数阶段的两阶段分解：步骤一：配置作业调度器；步骤二：用先验概率映射模块读取数据集，并通过map函数将数据集的数据行转换为键值对；步骤三：用先验概率约简模块读取步骤二处理的键值对，并通过reduce函数随机生成包含i项集的排序规则TopN，同时计算置信度的先验概率分布值；步骤四：再用规则映射模块读取同一个数据集，并再次通过map函数将数据集的数据行转换为键值对；步骤五：再用规则约简模块读取步骤四处理的键值对和步骤三的先验概率分布值，并通过reduce函数计算出排序规则TopN的预测精度值。主要用于PA分布式计算技术中。
+4. 102915247 APK插件化管理方法
+CN
+06.02.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210315794.1
+杭州斯凯网络科技有限公司
+姚伟涛
+G06F 9/445
+Loading...
+本发明涉及一种APK插件化管理方法。本发明可以解决现有技术APK安装的繁琐过程，软件在升级时，用户依然需要手动进行操作，并且安装APK将强制弹出安装界面，使得用户体验急速下降的问题，其技术方案要点是：所述的APK插件化管理方法包括以下步骤：步骤一：APK启动；步骤二：判断APK中的壳是否进行实例化，如果是，则进行APK中壳实例化，然后执行步骤三，如果APK中的壳实例化完成则安卓系统通过壳执行APK插件功能步骤；步骤三：安卓系统判断APK中的插件是否通过插件检测，如果APK中的插件通过插件检测则执行步骤四，否则执行完整升级步骤；步骤四：安卓系统加载插件，执行插件管理模块的注册步骤，然后跳转执行APK插件功能步骤。本发明能更好地提升用户体验。
+5. 102917006 一种实现计算资源和对象权限的统一控制管理方法及装置
+CN
+06.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210317126.2
+杭州斯凯网络科技有限公司
+李达
+H04L 29/08
+Loading...
+本发明公开了一种实现计算资源和对象权限的统一控制管理方法及装置，意在提供一种有效快速处理数据集群的超大数据集的应用程序，实现数据集计算资源和对象权限的统一控制管理一种实现计算资源和对象权限的统一控制管理方法及装置。包括以下步骤：对象权限差异化管理步骤：把对象授权给某个Hive角色，每个Hive角色均设一个唯一的Hive角色端口，linux系统用户通过该linux系统用户所对应的Hive角色端口来启动一个hive服务器侦听，外部访问用户采用JDBC或Thrift方式进行配置，指定一个Hive角色端口来连接Hive对象，然后执行数据检索请求语句；包括：对象权限差异化管理层，资源共享限制管理层，操作系统层，访问接入层。本发明主要用在资源与权限管理技术中。
+6. 102779037 Visual programming method for automatically generating and uniformly maintaining java items
+CN
+14.11.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210166483.3
+杭州斯凯网络科技有限公司
+许文强
+G06F 9/44
+Loading...
+The invention discloses a visual programming method for automatically generating and uniformly maintaining java items. The visual programming method is free from technical limitation, low in professional requirements, exhaustive in automatic code generation and capable of realizing real-time uniform maintenance. The method comprises the following steps of: firstly, creating a visual java item information list; then, managing the menus under the java item information list; and finally, uniformly coding, releasing and arranging the java items automatically generated after visual operation. The method provided by the invention is mainly used in the java visual programming technology.
+7. 102752193 Fast buffering method for live streaming
+CN
+24.10.2012
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+201210166973.3
+杭州斯凯网络科技有限公司
+羊君
+H04L 12/70
+Loading...
+The invention discloses a fast buffering method for a live streaming. According to the method, an acyclic queue form is used for constructing a circular queue, a fixed point accessing way is used for buffering accessing process, namely, an array way is used for constructing a circular buffering queue, and continuous sequences are used as base points for rapidly positioning data storage positions, so that the continuous seek time complexity of the circular buffering queue is reduced to 0 (1), fast buffering is achieved, and performance expenses of services are effectively reduced. The method includes the steps that a live streaming buffer pool is arranged in a mobile streaming media system and used for buffering streaming media data, so that mobile terminals can smoothly play the live streaming; and the array way is used for constructing the circular buffering queue, and continuous data identification sequences are used as the base points for positioning the data storage positions.
+8. 102340609 一种在单机游戏中提示付费结果的方法
+CN
+01.02.2012
+H04M 17/00 Loading...
+H04M 17/00
+Loading...
+201110198082.1
+杭州斯凯网络科技有限公司
+王远广
+H04M 17/00
+Loading...
+本发明公开了一种在单机游戏中提示付费结果的方法，目的在于解决现有技术所存在的手机单机游戏中等待提示付费结果影响用户体验的技术问题，提供一种在单机游戏中提示付费结果的方法，它将用户确认付费后的处理过程由后台付费插件处理，使用户游戏运行连贯，有效增强用户体验度，当付费不成功时显示提示信息并返回到与付费类型相对应的返回点，设置一前台插件、一后台插件，前台插件完成付费通道获取、解析服务器端配置的提示信息、提示用户确认、游戏运行、调用后台插件，后台插件在后台完成付费处理、付费类型判断、付费失败提示、根据付费结果进行游戏运行控制。
+9. 102314649 基于用户的支付方法及支付页面
+CN
+11.01.2012
+G06Q 20/00 Loading...
+G06Q 20/00
+Loading...
+201110211293.4
+杭州斯凯网络科技有限公司
+胡珊
+G06Q 20/00
+Loading...
+本发明公开了一种基于用户的支付方法及支付页面，目的在于解决现有技术所存在的支付操作繁琐、等待时间长等技术问题，提供一种基于用户的支付方法及支付页面，将最重要的支付功能在界面上一次展示给用户，让用户一键进入支付功能，减少用户操作步骤和等待时间。它包括在同一个页面显示帐户余额信息和支付方式列表；通过数据库记忆用户最近一次成功支付的方式，将光标聚焦在最近一次成功支付的方式上。对于手机用户硬件设备运算能力差，屏幕偏小、非触摸屏、网络交互速度比较慢的手机用户效果尤其显著。
+10. 102316097 一种减少用户等待时间的流媒体调度分发方法
+CN
+11.01.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110211291.5
+杭州斯凯网络科技有限公司
+羊君
+H04L 29/06
+Loading...
+本发明公开了一种减少用户等待时间的流媒体调度分发方法，目的在于解决现有技术所存在的网络延时大、磁盘故障率高等技术问题，提供一种结合p2p技术和移动互联网特点的一种减少用户等待时间的流媒体调度分发方法。它包括由多个区域构成分布式流媒体分发系统，区域中间设置一个数据中心；不同文件以无切片方式分散存放；区域间由媒体路由器相互通信构成P2P网络；每个区域都包含一个媒体路由器和多个媒体引擎；设置有资源的预取操作；媒体引擎实时监测系统运行负载并上报媒体路由相关信息；媒体引擎间都互相连接并通信，媒体资源在引擎间自由调度等。本发明可广泛使用于移动互联网的点播和直播服务。
+11. 102289410 Method for monitoring allocation situation of memory based on Media-Tech (MTK) platform
+CN
+21.12.2011
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201110180904.3
+Hangzhou Sky-mobi Technology Co., Ltd.
+Wang Jian
+G06F 12/02
+Loading...
+The invention relates to a method for monitoring the allocation situation of memory based on a Media-Tech (MTK) platform. The method comprises the following steps of: acquiring a starting address, an ending address and memory total amount of the whole memory block of a system; acquiring the starting addresses and the ending addresses of all free blocks; drawing to form a memory total amount duty graph; and in the memory total amount duty graph, filling the idle blocks of the memory by using a first color, and filling occupation blocks of the memory by using a second color. In the terminal development of the MTK platform, the allocation situation of an application memory is shown in a graphic mode, a debugging interface is called out by shortcut keys at any program running moment, the occupation and free situations of the memory total amount of the system by the current application can be clearly shown on the debugging interface; when a program runs, a mode of intuitively acquiring the occupation situation of the memory in real time helps a user to timely find the problems of crossing use of the memory, memory leakage of memory fragments and the like in a development process; and the memory can be timely debugged and optimized.
+12. 102281190 Networking method for load balancing apparatus, server and client access method
+CN
+14.12.2011
+H04L 12/803 Loading...
+H04L 12/803
+Loading...
+201110183147.5
+SKY-MOBI Inc.
+Wu Junchen
+H04L 12/803
+Loading...
+The present invention relates to a networking method for a cloud architecture load balancing apparatus, capable of effectively managing a load balancing apparatus cluster. The invention also relates to a method for adding a load balancing apparatus cluster to an application server, capable of acquiring the state information of the application server realtimely. Further, the invention discloses a method for accessing the application server to a client, which carries out weighted calculation based on the response time and load situation of the application server, and the network provider of the client, allocates the optimal resources automatically, and effectively shortens the response time of a request.
+13. 102281325 Method for downloading mobile application subpacket
+CN
+14.12.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110180902.4
+SKY-MOBI Inc.
+Wang Zefang
+H04L 29/08
+Loading...
+The invention relates to a method for downloading a mobile application subpacket on the basis of a MediaTek (MTK) platform. The method comprises the following steps that: 001, an App is divided into at least one main packet and at least one subpacket, wherein the main packet at least comprises a downloading module and basic function modules of the App; and the subpacket comprises at least one advanced function module of the App; 002, a user downloads and uses the main packet; 003, when the user needs to use one advanced function, the main packet prompts the user to download the subpacket containing the advanced function; 004, the user downloads and uses the subpacket; and 005, when the user needs to use another advanced function, the step 003 and the step 004 are repeated. The basic functions of the main packet meet requirement of the conventional operation of the App; the downloading function meets the further requirements of the user; the user can acquire the using experience of the App in a short time because the volume of the main packet is greatly reduced; and each advanced function can be downloaded and transmitted only when the user requires the advanced function, so the using requirements of the user are met better and unnecessary downloading time occupation is avoided.
+14. 102279762 Method for improving service efficiency of internal memory on mobile phone platform
+CN
+14.12.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110171253.1
+SKY-MOBI Inc.
+Wang Zefang
+G06F 9/445
+Loading...
+The invention relates to a method for improving a service efficiency of an internal memory on a mobile phone platform. The method aims to solve the problem that: for the lack of the internal memory management unit, complex programs cannot be operated smoothly on a low-end mobile phone platform in the prior art. The main points of the technical scheme are that: an operating system establishes a mirror image by using the data in the physic internal memory according to the main control module that is arranged in an application program, stores the temporarily unused data in the physic internal memory as the internal memory mirror image so as to remove the physic internal memory, and improves the usable internal memory amount by recalling the internal memory mirror image when it is necessary. By adopting the method provided by the invention, the service efficiency of the physic internal memory of the mobile phone platform, particularly, the low-end mobile phone platform can be improved without changing the hardware, complex application program can also be operated by a small internal memory, and the difficulty for developing the application program of the mobile phone platform is reduced.
+

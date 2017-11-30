@@ -1,0 +1,301 @@
+1. 106503427 一种面向医疗大数据处理的固态磁盘存储方法
+CN
+15.03.2017
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+102016000887788
+创业软件股份有限公司
+朱旭东
+G06F 19/00
+Loading...
+本发明公开了一种面向医疗大数据处理的固态磁盘存储方法。本发明将医疗数据分块分别映射到固态磁盘的不同存储单元，每次更新某一数据块时，检查该数据块所在的存储单元其最新一次迁移后的更新次数是否超过设定的更新阈值；如果超过，则跟固态磁盘上相对更新次数较少的存储单元，进行数据对换；同时为了防止数据对换产生的抖动，本发明设定了最小时间窗口；并限制相对更新次数较少的存储单元从文本数据文件交换给媒体文件；文本数据文件在排序操作时根据存储单元的剩余更新次数进行强制更新。本发明通将被频繁访问的数据总被动态放置到具有较低擦写次数的存储单元，从而提高整个固态磁盘的寿命，并且避免了长时间的批量迁移过程。
+2. 106485355 一种基于门诊大数据分析的就医路线优化方法
+CN
+08.03.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102016000887724
+创业软件股份有限公司
+张吕峥
+G06Q 10/04
+Loading...
+本发明公开了一种基于门诊大数据分析的就医路线优化方法。本发明将医疗机构的内部空间结构抽象成一个无向图，并将科室间的通行条件、人流密度、科室的平均等待时间和患者的行动能力这4个因素量化为无向图中的边的权重值，再按照就医顺序的约束条件对DJ算法进行改进。本发明方法针对医疗机构导医软件中的导医路径优化问题，提出一种基于大数据分析和加权有向图最短路径搜索的优化方法，综合考虑了科室间的通行条件、人流密度、科室的平均等待时间和患者的行动能力4个因素，降低患者的平均就医时间，提高医院的门诊服务效率。
+3. 103298107 一种基于加权无向图的室内无线定位AP快速部署方法
+CN
+22.06.2016
+H04W 64/00 Loading...
+H04W 64/00
+Loading...
+102013000175169
+创业软件股份有限公司
+朱旭东
+H04W 64/00
+Loading...
+本发明所公开的一种基于加权无向图的室内无线定位AP快速部署方法。本发明包括如下步骤：步骤(1)令加权无向图，生成描述抽象空间的加权无向图G；步骤(2)对节点集合V中的节点v染色，利用图论理论，使用边覆盖集合和顶点覆盖集合基本算法迭代对图中顶点进行染色；步骤(3)令AP部署位置列表，对无向加权图G中的每一个染为红色的节点v，获取其在平面图D中对应的覆盖单元的外接圆圆心位置，执行，生成AP部署位置列表。本发明已在室内定位系统中成功应用，实践表明本发明使得由此构造的室内定位系统具有较低的成本和较高的精度。
+4. 104202818 Floor identification method based on building open edge distance weighting
+CN
+10.12.2014
+H04W 64/00 Loading...
+H04W 64/00
+Loading...
+201410444615.3
+创业软件股份有限公司
+朱旭东
+H04W 64/00
+Loading...
+The invention relates to a floor identification method based on building open edge distance weighting. An extra sensor device or a complex algorithm is needed by current methods, and requirements on the operational capability and storage capability of a device are high. The floor identification method based on building open edge distance weighting comprises the steps of: deploying firstly, and then locating floors. The deployment comprises the sub-steps of: firstly, determining a minimum distance between each AP and an open edge of a floor where each AP is, so as to obtain an average value of the minimum distances; then calculating a floor positioning weight for each AP to obtain each measuring point, and measuring to obtain signal intensity vectors. The floor location comprises the sub-steps of: firstly, measuring a signal intensity vector of the current position; then calculating a signal intensity vector weighted distance between each measuring point and the current position; regarding the floor where the measuring point with the minimum signal intensity vector weighted distance as the floor where the current currently is. As the signal intensity vector distance is calculated based on the distance between each AP and the open edge of the floor as a weight factor, and a traditional algorithm is amended, a more precise floor locating result is obtained.
+5. 104202817 Multi-hotspot fingerprint map storage and matching method in large-scale indoor space
+CN
+10.12.2014
+H04W 64/00 Loading...
+H04W 64/00
+Loading...
+201410444577.1
+创业软件股份有限公司
+葛航
+H04W 64/00
+Loading...
+The invention relates to a multi-hotspot fingerprint map storage and matching method in large-scale indoor space. A traditional two-dimensional list structure is suitable for storage of sparse matrixes, but is not suitable for rapid signal intensity vectorial matching. The multi-hotspot fingerprint map storage and matching method in the large-scale indoor space comprises establishment of a memory data structure of the fingerprint map and a matching method of signal intensity vectors in the fingerprint map. A memory data structural main body of the fingerprint map is a two-dimensional sparse list and the two dimensions adopt hash tables which comprise the AP hash table and the measuring point hash table. When the memory data structure of the fingerprint map is established, positioning is started, measured signal intensity vectors are matched in the fingerprint map, the vector distance between the signal intensity vectors and one measuring point is calculated, and matching is performed according to the vector distance. The multi-hotspot fingerprint map storage and matching method in the large-scale indoor space has the advantages of improving the matching calculation speed and solving the positional latency problem caused by multi-hotspot signal fingerprint map matching in the large-scale indoor space.
+6. 104202791 Method for selecting relay node during community health care sign data wireless transmission
+CN
+10.12.2014
+H04W 40/22 Loading...
+H04W 40/22
+Loading...
+201410444613.4
+创业软件股份有限公司
+张吕峥
+H04W 40/22
+Loading...
+The invention relates to a method for selecting a relay node during community health care sign data wireless transmission. The method includes: recording tracks of all nodes passing focal points, namely, a track set S of a wearer passing through the focal points recorded by each node during normal operation; estimating time of the nodes reaching a next focal point, namely, calculating time weight t' of reaching the next focal point after each node receives a broadcast of an abnormal node; and selecting the relay node required by the abnormal node, namely, the abnormal node selects among other surrounding nodes to determine the possibility of sending sign data to the relay node of the focal point at shortest time. Through analysis of movement tracks of the nodes, expected time of the nodes reaching the next focal point is predicted, the node reaching the focal point fastest serves as the relay node, and sign data of a patient is sent to the relay node for forwarding, and therefore, by the aid of the method, the sign data is guaranteed to be sent to a community hospital as soon as possible.
+7. 104199623 一种RAID5重构中的数据源选择方法
+CN
+10.12.2014
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201410445171.5
+创业软件股份有限公司
+朱旭东
+G06F 3/06
+Loading...
+本发明涉及一种RAID5重构中的数据源选择方法。本发明方法首先确定被损坏磁盘中一个磁盘块B(x,y)的两个数据源集合Sraid和Sbackup，然后对损坏磁盘的每个磁盘块分别计算该磁盘块两个数据源Sraid和Sbackup的权重Wraid和Wbackup，Wraid和Wbackup用来估算读取Sraid和Sbackup中所有块的代价，最后根据获得的单个磁盘块的数据源及其权重，得到损坏磁盘k中所有磁盘块的最佳数据源集合Vk。本发明方法通过对当前存储系统性能和数据更新状况进行分析，在RAID5剩余磁盘和备份系统这两个数据源之间选择最为合适的数据源来重构数据，有效提高了RAID5的重构性能。
+8. 203981109 基于立体影像分析的大型散料货堆体积测量设备
+CN
+03.12.2014
+G01B 11/00 Loading...
+G01B 11/00
+Loading...
+201420089057.9
+江苏永钢集团有限公司
+赵雪凤
+G01B 11/00
+Loading...
+本实用新型涉及一种基于立体影像分析的大型散料货堆体积测量设备，其特征在于，所述基于立体影像分析的大型散料货堆体积测量设备由装配有照相设备的无人机构成；所述照相设备包含有机身与镜头；所述无人机的飞行负重至少为1800克；所述照相设备的机身与无人机之间采用有可控制云台进行连接；所述可控制云台水平旋转角度为0°～350°，水平旋转速度为40°～50°/秒；竖直旋转角度为－90°～20°，竖直旋转速度为10°～20°/秒；所述照相设备机身外部设置有红外线接收器；所述照相设备的像素至少为1400万，且其具有光学防抖装置。
+9. 103310398 一种区域医疗服务中病人身份高效识别匹配算法方案
+CN
+18.09.2013
+G06Q 50/24 Loading...
+G06Q 50/24
+Loading...
+201210055201.2
+创业软件股份有限公司
+葛航
+G06Q 50/24
+Loading...
+本发明提供了一种区域医疗服务中病人身份高效识别匹配算法方案，通过对医疗机构内部患者标识交叉索引集成规范分析，以及对其级联扩展的研究，给出了一个基于PIX级联扩展方式的区域医疗信息平台EMPI的实现方案。
+10. 103309856 一种智能化区域医疗数据中心设计方法
+CN
+18.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210055202.7
+创业软件股份有限公司
+葛航
+G06F 17/30
+Loading...
+一种智能化区域医疗数据中心设计方法公开了一种通过多媒体信息处理、智能识别、数据挖掘等技术实现非结构化数据的智能处理、描述和索引，克服底层认知鸿沟，通过多媒体数据转码技术，实现数据的融合，克服中层转换鸿沟，通过智能感知、细粒度服务划分，实现柔性可重组业务模式支撑，克服高层服务鸿沟，通过基于数据类型的分层覆盖网络技术，克服海量数据分发的质量控制瓶颈。
+11. 103312727 一种区域医疗协同服务领域云计算部署方法
+CN
+18.09.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210055203.1
+创业软件股份有限公司
+葛航
+H04L 29/08
+Loading...
+本发明公开了一种全面采用IaaS、PaaS和SaaS三种云计算模式的区域医疗协同服务领域云计算部署方法，其中在基础设施云化部署（IaaS）中采用了网络设备、服务器设备和存储设备的虚拟化部署设计，在网络平台云化部署（PaaS）中采用了分布式存储、动态资源伸缩管理、全生命周期支持、API服务等服务方式，在应用系统云化部署（SaaS）中，采用通过WebService向各用户提供软件应用服务方式。
+12. 103313269 一种针对突发高负载情况的定位数据实时无线传输方法
+CN
+18.09.2013
+H04W 16/20 Loading...
+H04W 16/20
+Loading...
+201310175752.7
+创业软件股份有限公司
+朱旭东
+H04W 16/20
+Loading...
+本发明所公开的一种针对突发高负载情况的定位数据实时无线传输方法。本发明包括如下步骤：步骤(1)对通信AP设定两个连接数量的阈值c1、c2，其中， ，c1、c 2为自然数，且满足c12， 02为无线协议支持的最大信道数；定位设备根据其当前所在的位置，和以该位置为圆心、半径为r范围内所有AP的负载，选择负载最低的通信AP进行连接，然后将定位数据上传给AP。本发明已在基于无线室内定位的监控系统中成功应用，实践表明本发明使得由此构造的室内定位系统可以在密集人群监控中具有较好的实时性。
+13. 102435328 互联网络电子温度计
+CN
+02.05.2012
+G01K 1/02 Loading...
+G01K 1/02
+Loading...
+201110256714.5
+大连创业园软件股份有限公司
+解荣生
+G01K 1/02
+Loading...
+本发明公开一种互联网络电子温度计，设有温度传感器，温度传感器的输出通过模/数转换电路与单片机相接，单片机的输出端与无线传输模块相接，结构简单，可根据需要调节分布密度，实时监测环境温度并将所测温度自动发送至互联网，使互联网用户能够及时了解、掌握特定地点的实际温度，降低了运营商的劳动强度，避免因天气预报与实际温度之间出现误差而给用户带来麻烦。
+14. 101751510 Hospital-wide PACS system based on multi-image fusion
+CN
+23.06.2010
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810305789.6
+Hangzhou Bsoft Ltd.
+Dong Zuyan
+G06F 19/00
+Loading...
+The invention discloses a hospital-wide PACS system based on multi-image fusion, which includes that: the system adopts the hierarchical storage system design, the first level storage is used as online storage for storing the databases and recent medical images of PACS, the second level storage is used as near line storage for storing inactive historical data, and the third level storage adopts the offline archiving manner for archiving the historical images of the whole hospital; the virtualized data management platform design can meet the growing storage demands and can be seamlessly integrated with the current storage architecture to realize the quick transfer and simple management of mass data, also accordingly provides a solid architecture foundation for standardized storage services.
+15. 101751511 Portal integration system of novel digital medical treatment information software
+CN
+23.06.2010
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810305923.2
+Hangzhou Bsoft Ltd.
+Fang Baolin
+G06F 19/00
+Loading...
+The invention discloses a technical scheme of a portal integration system of novel digital medical treatment information software, which comprises a unified information platform, a unified service platform, a unified authority platform, a single-point logging-in platform, a data integration platform and a user interface self-defining platform, wherein the unified information platform provides a single portal for accessing various types of information to a user; the functional modules of various types of service platforms can be integrated and intercommunicated by the unified service platform; various types of data and operation authorities are set in a unified way by the unified authority platform; by the single-point logging-in platform, a plurality of user names and passwords do not need to be recorded, and all the service operations can be finished by one-time logging-in; by the data integration platform, the user can access the data of different data sources through the portal system; and by the user interface self-defining platform, the user or a role can customize the respective application according to the requirement.
+16. 101686258 Hospital information system integrated platform data transmitting system
+CN
+31.03.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810304594.X
+Hangzhou B-soft Co., Ltd.
+Ge Hang
+H04L 29/08
+Loading...
+The present invention discloses an Internet multi-point data transmission and interaction solution project of a hospital information system integrated platform based on a data center. The solution project comprises adopting XML as a transmission media, relating to client data collection and transmission permission check; server data receiving and a storing-in process of a database; generating a single XML data package according to a serial number under an online condition, compressing and encrypting the data package and sending the data package directly to a Web Service receiver of the data center through SOAP by means of multithreading; connecting the serial number XML data sections in series to form an XML data package by means of XML data sections under an offline condition, compressing, encrypting the package and storing the package to the local media or a mobile media, then transferring to a system in an online state, directly transmitting the package to the Web Service receiver of the data center through the SOAP, or transmitting by means of multithreading after unpacking.
+17. 101369339 Community sanitation service information system
+CN
+18.02.2009
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+200710045011.1
+Shanghai Minxing Health Bureau
+Xu Su
+G06Q 50/00
+Loading...
+The invention relates to a community health service information system, comprising a performance evaluation management module, a bidirection health service management module, a community team service management module, a woman and child health supervision module, a high blood pressure management module, a diabetes management module, a communicable disease management module, a health office platform data center module, a card management module, a speech and short message platform module, a community health service public network module. The system adopts electronic computer communication network to provide medical treatment of patients, precaution, health service information, management information and decision making information and information collection, storage, process and data communication for community health service organization and each department thereof, satisfies function requirement on the information of all authorization users. Compared with the prior art, the invention is characteristics of convenient management, safe use and fast enquiry.
+18. 101369935 Community sanitation service integrated management information system
+CN
+18.02.2009
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200710045012.6
+Shanghai Minxing Health Bureau
+Xu Su
+H04L 12/28
+Loading...
+The invention relates to a comprehensive management information system of a community health service comprising a security system layer, an access service layer, an application system layer and a resource layer; the security system layer is connected to the application system layer through the access service layer and the resource layer is located under the application system layer; the community health service goes out of the community health service center (station) and into the community, extends to each resident of the community, overcomes the restrict of the region and the time, uninterruptedly provides service all day and reduces the work block caused by human factors. Comparing to the prior art, the comprehensive management information system has advantages of convenient management, safe usage and quick and convenient inquiry.
+19. 101350041 High speed data caching digitalization hospital information system integrated platform
+CN
+21.01.2009
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810304029.3
+Hangzhou Bsoft Co., Ltd.
+Ge Hang
+G06F 19/00
+Loading...
+The invention discloses the high-speed data cache technology of a digital hospital information system integrating platform, which comprises a high speed postpositional memory zone which is used to load data objects such as requests, responses and the like, a data receiving request (response) zone, which is used to receive platform data information and transfers data to a high speed storage zone, and a data processing request (response) zone which is used to process the platform data information of the high speed postpositional memory zone to process the data of the high speed storage zone.
+20. 101286953 Medical system information integration platform
+CN
+15.10.2008
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200810108597.6
+Hangzhou Chuangye Software Co., Ltd.
+Ge Hang
+H04L 12/58
+Loading...
+The invention discloses a medical system information integration platform which comprises at least one service information system used for processing one or more service objects relevant to the service of the hospital, at least one first conversion unit connected with one or more source information systems and used for obtaining service objects of a first format from the source information systems, conversing the service objects of the first format into service objects of a normal format and sending the service objects of the normal format to an information exchange unit, at least one second conversion unit connected with one or more target information systems and used for obtaining the service objects of the normal format from the information exchange unit, conversing the service objects of the normal format into service objects of a second format and sending the service objects of the second format to the target information systems, and the information exchange unit connected with the first conversion unit and the second conversion unit and used for transmitting the service objects of the normal format between the first conversion unit and/or the second conversion unit.
+21. 201114134 一种社区卫生服务综合管理信息系统模块结构
+CN
+10.09.2008
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200720073802.0
+上海市闵行区卫生局
+许速
+H04L 12/28
+Loading...
+本实用新型涉及一种社区卫生服务综合管理信息系统模块结构，该系统模块结构包括安全体系层、接入服务层、应用系统层、资源层；所述的安全体系层通过接入服务层与应用系统层连接，资源层位于应用系统层下方。与现有技术相比，本实用新型具有管理方便、使用安全、查询快捷方便等特点。
+22. 101251877 New type community medical sanitary digital diagnosis and treat integrating system
+CN
+27.08.2008
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810089324.1
+Hangzhou Chuangye Soft Co., Ltd.
+Ge Hang
+G06F 19/00
+Loading...
+The invention discloses a novel community medical digital diagnosis and treatment integrating system comprising a data storage unit used for storing correlative data of a plurality of target users; a data input unit used for inputting identification information of one of a plurality of the target users; a data transferring unit used for transferring the correlative data corresponding to one of a plurality of the target users from the data storage unit according to the identification information of one of a plurality of the target users; and a data editing unit used for editing the transferred correlative data corresponding to one of a plurality of the target users and storing the edited correlative data corresponding to one of a plurality of the target users in the data storage unit.
+23. 101236580 Medical quality control method
+CN
+06.08.2008
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810007460.1
+Hangzhou Chuangye Software Co., Ltd.
+Ge Hang
+G06F 19/00
+Loading...
+The invention provides a method for controlling medical quality, which comprises the following steps: a medical business process is limited to a plurality of links; each link maps one medical behavior of the medical business process; a key link is determined from a plurality of links; data in the key link is collected in real time; quality control is carried out on the key link through data analysis. The method for controlling medical quality realizes the low cost, high efficiency, objectivity and timeliness of quality control in hospitals.
+24. 101236579 Dynamic structured electronic patient history
+CN
+06.08.2008
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200810007256.X
+Hangzhou Chuangye Software Co., Ltd.
+Ge Hang
+G06F 19/00
+Loading...
+The invention provides a method for realizing electronic medical history and a device thereof; the method comprises the following steps of: element construction, chapter construction, element embedding and medical history construction; a format of the element construction is a standard format for inputting diagnosis and treatment data which can be standardized; a format of the chapter construction is a free format for inputting diagnosis and treatment information in a natural language form; a format of the medical history construction consists of chapters for inputting diagnosis and treatment records. The invention realizes the fusion of natural texts and structured texts of the electronic medical history and can meets the requirements of stationarytype and flexibility simultaneously.
+25. 2563642 Web服务终端
+CN
+30.07.2003
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+02235040.3
+中国科学院软件研究所
+何川
+G06F 15/78
+Loading...
+一种Web服务终端，它是由内置SDRAM，闪存卡，声卡，以太网卡，显示卡，USB接口的嵌入式CPU主板组成，嵌入式CPU通过总线分别与SDRAM，闪存卡，声卡，以太网卡，显示卡，USB接口相连，嵌入式CPU主板内置在轻便式机壳内。闪存卡中存放着一个嵌入式操作系统和一个嵌入式Web浏览器。这种Web服务终端是广泛适用于金融，电信，学校，呼叫中心，管理，医疗，保险，工商，军队，科研，家庭等行业的信息传递的Web服务终端。结构简明，模块化，操作简便，安全，节省桌面空间，耐用，嵌入式操作系统具有源程序代码和自主版权。
+

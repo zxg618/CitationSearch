@@ -1,0 +1,2401 @@
+1. 104037132 一种封装方法
+CN
+15.02.2017
+H01L 21/98 Loading...
+H01L 21/98
+Loading...
+102014000287694
+山东华芯半导体有限公司
+孟新玲
+H01L 21/98
+Loading...
+本发明公开了一种封装方法，采用两道研磨工序，并在第一道研磨工序后晶圆具有较厚的厚度，从而在划片时，以及在上片前的工序中具有更高的机械强度，不容易在这些工序中发生背崩。在第二道研磨工序中可以细磨，达到单颗晶粒的最终厚度，该最终厚度不在受划片等工序的影响，因而相对与现有的封装工艺可以做到更薄，满足当前轻薄化的技术方向。
+2. 103985674 一种安全芯片防攻击结构及防攻击的方法
+CN
+15.02.2017
+H01L 23/04 Loading...
+H01L 23/04
+Loading...
+102014000241376
+山东华芯半导体有限公司
+王冬冬
+H01L 23/04
+Loading...
+本发明公开了一种安全芯片防攻击结构及防攻击的方法，依据本发明，采用盖板，以保护芯片，再开盖攻击时，会造成盖板的变形，而导致其电阻发生变化，据此进行因电阻变化所产生的信号变化的采集，从而有效防止通过开盖所导致的芯片信息的泄漏。
+3. 103823498 一种随温度自动调节线性稳压器瞬态响应能力的装置
+CN
+11.01.2017
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+102014000074846
+西安华芯半导体有限公司
+梁超
+G05F 1/56
+Loading...
+本发明为一种随温度自动调节线性稳压器瞬态响应能力的装置，装置包括使用随温度变化的电流的偏置电流源和放大器，偏置电流源接入放大器。本发明一种随温度自动调节线性稳压器瞬态响应能力的装置采用的偏置电流源，使用随温度变化的电流Ib_t，可以使线性稳压器电路的放大器静态电流随温度而变化，从而使得线性稳压器的瞬态响应速度能够随温度的变化而变化，可以满足系统对的瞬态响应速度变化的需求。
+4. 103943521 封装热压板
+CN
+09.11.2016
+H01L 21/603 Loading...
+H01L 21/603
+Loading...
+102014000130356
+山东华芯半导体有限公司
+孟新玲
+H01L 21/603
+Loading...
+本发明公开了一种封装热压板，包括：一固定板体，为左右结构，且左右两端设有用于与焊线机连接的固定边，两固定边间形成有给定宽度的安装槽；两活动板体，左右各一地对置于安装槽的两边，且两活动板体相对的面为形成开窗窗口左右两边的开窗面，并在安装槽左右方向上具有移动动结构；以及锁紧结构，在两活动板体移动到位后把其锁固在所述固定板体上。依据本发明能够适应多种不同产品的封装。
+5. WO/2016/155290 SOC CHIP AUTHENTICATION SYSTEM AND AUTHENTICATION METHOD FOR DYNAMIC SIMULATION OF STATIC COMPILATION
+WO
+06.10.2016
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+PCT/CN2015/092391
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+DAI, Shaoxin
+G06F 9/455
+Loading...
+A SOC chip authentication system and authentication method for dynamic simulation of static compilation, the system comprising authentication model packaging modules, used for implementing instantiation of each authentication model, and packaging the authentication models; a bi-directional switch control module, used for linking the chip and the packaged authentication models, implementing connection or disconnection of the chip and the authentication models; and a model selection module, used for capturing a simulation command and, on the basis of the simulation command, controlling which authentication models need to be involved in the simulation. The present method and system allow dynamic selection of the authentication models during simulation, and the model selection module, by means of capturing the macro parameters defined in the simulation command parameters, controls which authentication models need to be involved in the simulation. An authentication model packaging module is designed for each authentication model, the authentication model being packaged in said module, and a controllable bi-directional switch is used to control the connection and disconnection of the authentication models and the SOC design, thereby controlling whether the authentication models are actually involved in dynamic simulation.
+6. WO/2016/155289 SYSTEM AND METHOD FOR ACCELERATING CHIP INTERRUPT CONTROLLER AUTHENTICATION
+WO
+06.10.2016
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+PCT/CN2015/092390
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+DAI, Shaoxin
+G06F 11/36
+Loading...
+Provided in the present invention are a system and a method for accelerating chip interrupt controller authentication, the system comprising the following modules: an interrupt trigger module; by means of a software interface, a specified register value is written into a reserved register, used for triggering an interrupt test event; an interrupt release module; by means of a software interface, a specified register value is written into a reserved register, used for triggering an interrupt release event; a simulation interrupt source module; in real time, detecting the interrupt test event and the interrupt release event, and after detecting that the interrupt test event has occurred, successively triggering every real interrupt signal, and after detecting the interrupt release event, releasing each interrupt signal. The present solution can rapidly implement authentication of an interrupt controller, and can authenticate the functions of the interrupt controller without needing to connect a real interrupt generating module, thus reducing hardware simulation resource overheads.
+7. WO/2016/155217 METHOD FOR REALIZING REUSE OF TEST CASE ON TOP LAYER OF CHIP
+WO
+06.10.2016
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+PCT/CN2015/088146
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+YAO, Xiangjun
+G01R 31/28
+Loading...
+A method for realizing reuse of a test case on a top layer of a chip, comprising the following steps: S101: setting a default value about define in a general header file 'nfc_define.h'; S102: judging whether a to-be-tested module is a default test case referring to the default value about the define in S1 or not, if so, going to step S104, and otherwise going to step S103; S103: assigning a value to the define required to be used in the general header file 'nfc_define.h', so as to decide the test case; S104: transferring the value about the define to a script about the test case; S201: preparing, according to a name of the test case and parameters of the define, a test file; and S301: modifying, according to the assigned value about the define in S103, the general header file into a specific header file.
+8. 104157619 一种新型PoP堆叠封装结构及其制造方法
+CN
+28.09.2016
+H01L 23/31 Loading...
+H01L 23/31
+Loading...
+102014000416902
+山东华芯半导体有限公司
+孟新玲
+H01L 23/31
+Loading...
+本发明的新型PoP堆叠封装结构，包括两层或两层以上的封装体，每层封装体中包含单个或多个晶片；相邻两封装体中：上层封装体中的信号端通过导通线与焊盘相连接，下层封装体中晶片的外围设置有贯穿于树脂保护层的连接通孔。本发明封装结构的制造方法包括a).晶圆磨片；b).晶圆划片；c).上片操作；d).塑封；e).再布线；f).粘附；g).开设通孔；h).置球；i).绝缘处理；j).切单。本发明的PoP堆叠封装结构，通过设置连接通孔，不仅可将上层晶片的焊盘信号引出，还可使得引脚间距增大，避免了信号之间的干扰，有利于芯片的封装。本发明的制造方法，每个晶片的处理过程均相互独立，不仅提高了工作效率，而且还保证了成品率。
+9. 104008998 多芯片层叠封装方法
+CN
+03.08.2016
+H01L 21/768 Loading...
+H01L 21/768
+Loading...
+102014000253341
+山东华芯半导体有限公司
+隋春飞
+H01L 21/768
+Loading...
+本发明公开了一种在制程中开盲孔，从而能够综合前通孔方法和后通孔方法的优点，分割成单体前，芯片的主体结构基本成型，减少了工序间的重复作业，降低了成本，并提高了效率。且堆叠时通过匹配焊接成型，效率也比较高。
+10. 105786749 一种基于NAND FLASH接口的双通道ATA协议桥接装置
+CN
+20.07.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201610148923.0
+山东华芯半导体有限公司
+刘奇浩
+G06F 13/40
+Loading...
+本发明基于NAND FLASH接口的双通道ATA协议桥接装置，包括FLASH接口转LOCAL接口子模块、BCH纠错码子模块和ATA接口子模块，FLASH接口转LOCAL接口子模块与外部FLASH主机控制器之间、FLASH接口转LOCAL接口子模块与BCH纠错码子模块之间、BCH纠错码子模块与ATA接口子模块之间、ATA接口子模块与外部硬盘之间均为双向通信连接。用户只需要设计简单的驱动程序配置该装置中的相关参数，即可利用现存的低成本存储设备应用于新的存储系统中，完成ONFI转PATA、ONFI转SATA、TOGGLE转PATA、TOGGLE转SATA四种应用功能，灵活性强，应用前景广阔。
+11. 105788636 一种基于并行多通道结构的eMMC控制器
+CN
+20.07.2016
+G11C 16/10 Loading...
+G11C 16/10
+Loading...
+201610203037.3
+山东华芯半导体有限公司
+刘奇浩
+G11C 16/10
+Loading...
+本发明基于并行多通道结构的eMMC控制器，包括ahb总线配置寄存器模块ahb_rgf、至少2个ahb总线数据传输模块ahb_mst以及与ahb_mst数量相等的单通道控制模块Channel；CPU将Software中对eMMC控制器的操作通过ahb_rgf对通道传输模式、传输命令、传输单位、传输量进行配置；ahb_mst负责完成eMMC控制器内部与系统总线System bus之间数据的读和写操作；Channel负责完成命令信息、数据信息的协议格式的封装与拆解，完成eMMC控制器与eMMC器件之间的命令和数据交互。该控制器可根据不同的应用场景，灵活切换eMMC控制器的单通道/多通道工作模式。
+12. WO/2016/091166 ARITHMETIC CIRCUIT AND DATA TRANSFER METHOD
+WO
+16.06.2016
+G06F 13/14 Loading...
+G06F 13/14
+Loading...
+PCT/CN2015/096774
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+LIU, Qihao
+G06F 13/14
+Loading...
+Disclosed are an arithmetic circuit and a data transfer method for the arithmetic circuit. The arithmetic circuit comprises: an arithmetic module; a data storage module which comprises at least two memories; and one or more multiplexers which are used for selecting at least one of the at least two memories and for connecting with the at least one selected memory; the arithmetic module is connected with the one or more multiplexers to allow the arithmetic module to be connected to the at least one selected memory through the multiplexers, so that the data transfer is performed between the arithmetic module and the data storage module by the multiplexers during the arithmetic process. The arithmetic circuit has no need of occupying a system bus frequently during the arithmetic process, thus congestion hardly occurs during data storage and high efficiency in operation is guaranteed.
+13. WO/2016/065728 METHOD FOR DETECTING WELDING STRENGTH OF CHIP BONDING WIRE
+WO
+06.05.2016
+G01N 19/04 Loading...
+G01N 19/04
+Loading...
+PCT/CN2015/000273
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+ZHAO, Yang
+G01N 19/04
+Loading...
+A method for detecting welding strength of a chip bonding wire, the method comprising: S1: preparing a solution having 20%-30% by mass of potassium hydroxide; S2: checking whether the chip has been encapsulated with a plastic encapsulation material, and if so, then moving to step S3, and if not, then moving to step S5; S3: placing the chip into a corrosive liquid, and removing the encapsulation material of the chip to expose a gold wire; S4: taking the chip from the corrosive liquid, and cleaning the chip with acetone; S5: heating the potassium hydroxide solution prepared in S1, and maintaining the potassium hydroxide solution at a temperature of 40-60ºC; S6: immersing the chip into the potassium hydroxide solution in S5, corroding the chip for 1.5-3 minutes, and then taking out the chip; S7: rinsing the chip with clean water; S8: air drying a to-be-detected chip with an ionizer; S9: placing the chip under a 40x microscope, peeling a target gold wire from a welding pad with a hook needle, and observing a crater on the chip welding pad to determine the welding strength of the bonding wire.
+14. 105447242 一种实时分析集成电路电源网络状态的方法
+CN
+30.03.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510789984.0
+西安华芯半导体有限公司
+江喜平
+G06F 17/50
+Loading...
+本发明公开一种实时分析集成电路电源网络状态的方法，包括：1、根据集成电路版图的电源走线，抽取电阻电容网络，形成spice格式的电源网络模型；2、利用集成电路中的电源模组搭建供电单元，形成spice格式的供电模型；3、基于整体电路仿真，抽取集成电路中各个模块的动态耗电状态，成为耗电模型；4、基于电源网络模型和供电模型，搭建顶层仿真电路；其中电源模型连接在供电节点，耗电模型连接在耗电节点；5、利用spice工具对顶层仿真电路做仿真；通过对不同节点的波形观测实时了解电源网络的状态。本发明能精确的分析电源网络各节点的压降，进而可以分析电源信号走线的优劣，或者作为供电单元数量和位置的调整的判断依据。
+15. 105388963 一种基于DFI接口的门控时钟控制方法
+CN
+09.03.2016
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201510789215.0
+西安华芯半导体有限公司
+左丰国
+G06F 1/04
+Loading...
+本发明公开一种基于DFI接口的门控时钟控制方法，包括：对DDR？PHY内部所有时序路径作分类隔离，分为时钟能够间断和不能够间断两大类时序路径；获取DDR控制器的DDR控制逻辑输出给DDR？PHY的DFI信息；对DFI信息进行解析，对于能够间断的时序路径，采用门控时钟控制策略；通过分析DFI接口所传送的具体命令，预判其关联数据通过的相应时序路径所需持续的时钟周期数，并按定制要求供给相应逻辑电路定制的时钟周期数，实现DDR控制器动态功耗及集成电路系统整体动态功耗管控。本发明将DDR控制器处于非休眠模式状态下时钟可间断和不可间断两大类时序路径的时钟分开供给，实现DDR控制器功耗及集成电路系统整体动态功耗管控。
+16. 105353245 一种基于ZQ管脚的DRAM DDR校准电路及方法
+CN
+24.02.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201510785176.7
+西安华芯半导体有限公司
+王嵩
+G01R 31/00
+Loading...
+本发明涉及一种基于ZQ管脚的DRAM？DDR校准电路及方法，其中电路包括PMOS管组、比较器、参考电压提供电路以及ZQ管脚判断控制模块，参考电压提供电路产生参考电压，PMOS管组中最小尺寸的PMOS管分成了N个，使得PMOS管组的阻值大于ZQ管脚提供参考电阻RZQ的8-12倍，ZQ管脚判断控制模块包括状态判断模块，PMOS管组位于外部电源VDD与ZQ管脚之间，比较器的负相输入端接参考电平，状态判断模块根据比较结果判断ZQ管脚的使用状态。为了解决现有的判断ZQ管脚使用状态的方法存在误判的技术问题，本发明是在现有的ZQ管脚使用状态校准电路中不用增加任何硬件，没有提供翻倍的面积和功耗去换取更大的对比范围。
+17. 105321552 一种延迟锁相环及其复位控制方法
+CN
+10.02.2016
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201510791126.X
+西安华芯半导体有限公司
+刘成
+G11C 11/4063
+Loading...
+本发明公开一种延迟锁相环及其复位控制方法，系统上电检测电路检测DRAM芯片上电时，发出系统上电信号给系统控制电路，系统控制电路产生一个DLL复位信号给逻辑控制电路，DLL开始锁定；当DLL完全锁定后，把DLL的锁定状态数值存储到状态存储电路里，当芯片初始化结束以后DLL复位时，直接把这组存储的DLL的锁定状态数值输出给到逻辑控制电路，逻辑控制电路通过这组存储的DLL的锁定状态数值直接控制延迟链的长度，让DLL快速锁定。本发明能够在DRAM初始化后进行读/写操作时，保证DLL能够被完全锁定，有效的避免了现有技术中DRAM上电初始化后DLL没有完全锁定就开始读/写操作所引起的读/写错误。
+18. 105304120 一种基于DFI接口的DDR控制器低功耗控制电路
+CN
+03.02.2016
+G11C 11/406 Loading...
+G11C 11/406
+Loading...
+201510790207.8
+西安华芯半导体有限公司
+江喜平
+G11C 11/406
+Loading...
+本发明公开一种基于DFI接口的DDR控制器低功耗控制电路，包括DFI解析模块、可编程门控时钟控制模块以及门控时钟产生模块；DFI解析模块的输入端连接DDR控制器中的DDR控制逻辑的DFI输出端，输出端连接可编程门控时钟控制模块的输入端，可编程门控时钟控制模块的输出端连接门控时钟产生模块的输入端，门控时钟产生模块的输出端连接DDR？PHY。本发明通过解析DDR控制器中DDR控制逻辑发送给DDR？PHY的DFI信号，能根据可编程门控时钟控制策略，定制的产生若干路门控时钟控制信号，从而实现多路门控时钟输出；分类控制以及供给DDR？PHY中不同的逻辑电路部分的时钟，从而最大可能的减少整体电路的逻辑状态翻转率以实现动态功耗管控。
+19. 105281754 一种DLL输出电路及保证DRAM省电模式退出正常的方法
+CN
+27.01.2016
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201510786326.6
+西安华芯半导体有限公司
+王嵩
+H03L 7/08
+Loading...
+本发明涉及一种DLL输出电路及保证DRAM省电模式退出正常的方法，包括接收器、DLL延迟链、输出驱动器、DLL鉴相器、DLL逻辑控制器、延迟控制链、反馈电路，还包括计数器和运算器，计数器的输入端接收触发使能信号和配置参数，所述计数器的输出端连接运算器，所述运算器链接延迟链控制器，所述计数器以配置参数为基数，在触发使能信号的作用下进行计数。本发明解决了现有DLL输出电路在面临电流突变的突发状况下，无法补偿瞬态的电压扰动，出现DRAM内部供电系统不稳定的技术问题，本发明能在DRAM省电模式退出时自动补偿，达到瞬态补偿噪声的效果。
+20. 105280220 改善DRAM存储器自刷新退出的DLL锁定过程电路和锁定方法
+CN
+27.01.2016
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201510785065.6
+西安华芯半导体有限公司
+亚历山大
+G11C 11/4063
+Loading...
+本发明涉及改善DRAM存储器自刷新退出的DLL锁定过程电路和锁定方法，包括寄存器、延时单元以及慢速控制电路，寄存器用于在DRAM存储器进入自刷新状态时，记录DLL输出电路锁定的延时单元数目N；延时单元用于在DRAM存储器退出自刷新状态时，延时一段时间后出发DLL输出电路开始锁定；慢速控制电路用于在DLL输出电路开始锁定时根据寄存器记录的延时单元数目N将DLL延迟单元的数目设定为N，后根据DLL鉴相器输出控制信号慢速调整DLL延迟单元的数目。本发明解决了现有的DRAM存储器在自刷新退出后DLL的锁定操作存在锁定时间长的技术问题，本发明提高了存储器在自刷新退出的抗干扰能力。
+21. 105281755 一种延迟锁相环及其滤波更新控制方法
+CN
+27.01.2016
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201510793693.9
+西安华芯半导体有限公司
+刘成
+H03L 7/08
+Loading...
+本发明公开一种延迟锁相环的滤波更新控制方法，包括以下步骤：当电源关闭模式退出后，存储器控制系统发出电源关闭模式退出信号给计数器，计数器输出第一信号给逻辑控制电路；逻辑控制电路通过更新速度电路控制延迟链，使其在连续若干次用1step/(m*tck)的更新速度往同一方向更新后，将更新速度调整为1step/(k*tck)，其中k>m。本发明在电源关闭模式退出时，DLL能够自动调整更新速度，避免了错误的过多的更新而产生过冲；以保证VCLK和DQS的上升沿对齐，系统操作不会出现错误。
+22. 105261392 一种基于阻变存储单元RRAM的存储单元及存储方法
+CN
+20.01.2016
+G11C 13/00 Loading...
+G11C 13/00
+Loading...
+201510786327.0
+西安华芯半导体有限公司
+王小光
+G11C 13/00
+Loading...
+本发明涉及一种基于阻变存储单元RRAM的存储单元及存储方法，包括敏感放大器、参考电阻电路以及数据通路；敏感放大器的一端连接RRAM，另一端连接参考电阻电路，敏感放大器根据两端电阻阻值感应出q端信号和qb端信号，使敏感放大器最终在高电压态或低电压态，实现对数据的锁存；参考电阻电路用于向敏感放大器提供一个参考电阻；数据通路用于通过输出端口fuseq实现输出数据的0、1输出。本发明解决了现有的eFUSE技术工艺支持性有限、只能进行一次修复的局限性的技术问题，本发明可替代eFUSE技术，能够实现多次编程操作的存储技术。本发明通过对RRAM单元进行编程操作即可实现配置数据的存储，完成芯片的修复或调节工作。
+23. 105261393 一种基于阻变存储单元RRAM的存储电路
+CN
+20.01.2016
+G11C 13/00 Loading...
+G11C 13/00
+Loading...
+201510786328.5
+西安华芯半导体有限公司
+王小光
+G11C 13/00
+Loading...
+本发明涉及一种基于阻变存储单元RRAM的存储电路，包括行控制模块、列控制模块、存储阵列、指令译码器以及测试模块，存储阵列包括多个存储单元和标志位存储单元，存储单元包括RRAM单元、敏感放大器、参考电阻电路以及数据通路；标志位存储单元用于体现存储单元是否被写过的标志位；敏感放大器根据两端电阻阻值最终在高电压态或低电压态；数据通路用于通过输出端口fuseq与待修复电路和测试模块连接；指行控制单元的输出端与各行存储连接，列控制单元的输出端与各列存储单元连接。解决了现有的eFUSE技术工艺支持性有限、只能进行一次修复的局限性的技术问题，本发明可替代eFUSE技术，能够实现多次编程操作的存储技术。
+24. 105262464 减小芯片输入端口所需建立保持时间的电路及方法
+CN
+20.01.2016
+H03K 5/135 Loading...
+H03K 5/135
+Loading...
+201510785062.2
+西安华芯半导体有限公司
+亚历山大
+H03K 5/135
+Loading...
+本发明涉及减小芯片输入端口所需建立保持时间的电路及方法，包括差分接收器、单端接收器、时钟开关电路、可变延迟单元以及输入信号采样电路，单端接收器和可变延迟单元依次连接位于信号路径上，差分接收器和时钟开关电路依次连接且位于时钟路径，时钟开关电路的输出端与输入信号采样电路连接，还包括正向时钟冗余单元、反向时钟冗余单元和判断电路。本发明利用时钟路径的clk_latch分别采样正向时钟信号vclk和反向时钟vclk_n对采样结果进行判断自动调节信号路径上的延迟单元。解决了现有的芯片的建立时间和保持时间易受到影响的技术问题，本发明可以自动调整内部延迟已达到最优的建立时间和保持时间。
+25. 105262481 提高输入时钟占空比免疫力的电路及方法
+CN
+20.01.2016
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201510785064.1
+西安华芯半导体有限公司
+亚历山大
+H03L 7/08
+Loading...
+本发明涉及提高输入时钟占空比免疫力的电路及方法，包括下降沿鉴相器，所述下降沿鉴相器用于比较输入时钟clk2dll和反馈时钟clkfb的下降沿，后根据比较结果调节输入时钟接收器，使得输入时钟的占空比为50％。本发明解决了现有的存储器时钟路径存在时钟丢失或控制电路功能异常的技术问题，本发明可以极大的提高存储器对输入时钟占空比的免疫力，提高存储器的可靠性。
+26. 105261389 提高输入时钟占空比免疫力的电路、DRAM存储器及方法
+CN
+20.01.2016
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201510785063.7
+西安华芯半导体有限公司
+亚历山大
+G11C 11/4063
+Loading...
+本发明涉及提高输入时钟占空比免疫力的电路、DRAM存储器及方法，包括增加占空比电路、减小占空比电路以及判断电路，增加占空比电路用于对所需时钟Clk_G进行占空比增加处理，得到增加占空比时钟Clk_G+；所述减小占空比电路用于对所需时钟Clk_G进行占空比减小处理，得到减小占空比时钟Clk_G-；判断电路用于判断所需时钟Clk_G、增加占空比时钟Clk_G+、减小占空比时钟Clk_G-是否有丢失，并根据判断结果调节输入时钟接收器。本发明解决了现有的时钟路径存在时钟丢失或控制电路功能异常的技术问题，本发明能够极大的提高对输入时钟占空比的免疫力。
+27. 105261399 提高备用存储阵列利用效率的方法
+CN
+20.01.2016
+G11C 29/44 Loading...
+G11C 29/44
+Loading...
+201510785336.8
+西安华芯半导体有限公司
+亚历山大
+G11C 29/44
+Loading...
+本发明涉及提高备用存储阵列利用效率的方法。包括以下步骤：1)将第一个备用单元设置为1；2)从选定备用单元中的第一个FUSE开始；3)读取当前FUSE值；如果FUSE为烧断，则FUSE为选定备用单元的主FUSE，并且选定备用单元被使用，执行步骤4)；如果读取FUSE没有烧断，则选择下一个备用单元，执行步骤2)；4)选择N+1个FUSE，读其FUSE值，并将所读取的FUSE设为当前备用单元的地址FUSE；5)选择下一个备用单元后，执行步骤2)。本发明解决了现有的备用存储阵列的使用方式导致备用单元以及FUSE的浪费，导致备用存储阵列使用效率低的技术问题，本发明可以减少备用存储阵列所需的FUSE个数以提高其修复能力。
+28. 204991151 一种控制字线泄放电流的装置
+CN
+20.01.2016
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201520182005.0
+西安华芯半导体有限公司
+梁超
+G11C 11/4063
+Loading...
+本实用新型涉及一种控制字线泄放电流的装置，包括VOD电源、VBLH电源、开关V1、开关V2、字线阵列、公共字线以及电流源，字线阵列中的每个字线与公共字线连接，公共字线通过开关V1与VOD电源连接，公共字线通过开关V2与VBLH电源连接，电流源产生泄放电流Ib通过公共字线给字线阵列中的充电字线充电，还包括控制器，控制器用于根据字线阵列中充电字线地址，控制电流源产生需要的泄放电流Ib。本实用新型解决了现有的控制字线泄放电流的装置中存在不同地址的字线使用同样泄放电流时产生过冲或者到达VBLH时间过长的技术问题，本实用新型使用控制器利用字线地址控制泄放电流大小，能够根据需要产生对应的泄放电流，使得字线电压过冲减少。
+29. 105139888 一种存储器
+CN
+09.12.2015
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201510599963.2
+西安华芯半导体有限公司
+亚历山大
+G11C 11/4063
+Loading...
+本发明提供一种存储器，主要解决了现有存储器中加入的两个额外的存储阵列中的存储单元不能读写，从而导致晶元面积利用率低，产品成本高的问题。该存储器包括多个存储阵列，各存储阵列之间均设置有灵敏放大器阵列；两端部存储阵列的外侧设置有基准电位提供模块，基准电位提供模块与端部存储阵列之间设置有灵敏放大器阵列；基准电位提供模块是电容，电容的一个极板与位线材质相同且面积与存储单元的位线面积相同，另一个极板为衬底。该存储器提高晶元面积利用率，极大地减少了芯片的体积和加工成本。
+30. 105097049 一种用于多页存储阵列的损坏单元片内统计系统
+CN
+25.11.2015
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201510482451.8
+西安华芯半导体有限公司
+王小光
+G11C 29/56
+Loading...
+本发明涉及一种用于多页存储阵列的损坏单元片内统计系统，包括锁存模块、锁存使能模块、回写地址模块、页缓存器回写模块、错误计数模块、验证结果锁存模块以及错误数目统计区，锁存模块位于读数据通路上，用于接收验证模块发送的成功标志位，并在接收到锁存使能模块发送的锁存信号的情况下，且当前地址的成功标志位为错误时，产生并保持错误操作结果给页缓存器，同时产生实时更新的错误结果给错误计数模块；本发明解决了现有的存储器芯片测试方法耗时久，测试复杂的技术问题，本发明的片内统计系统直接省略了后续的逐页读操作，极大的简化了测试序列，节省了测试时间，降低了测试成本。
+31. 105049007 高精度抗干扰比较器及方法和应用该比较器的存储结构
+CN
+11.11.2015
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201510344750.5
+西安华芯半导体有限公司
+李晓骏
+H03K 5/22
+Loading...
+本发明公开一种高精度抗干扰比较器及其方法和应用该比较器的存储器结构，该比较器包括放大器以及调整模块；放大器的输入端连接参考电压信号线和输入电压信号线；调整模块，用于调整放大器的灵敏度，使放大器工作状态灵敏度高于非工作状态。本发明在比较器比较时灵敏度很高，能够实现高精度的比较；比较之后，通过改变放大器的放大倍数降低比较器的灵敏度，从而增加比较器的抗干扰能力；相对于迟滞比较器，比较器的阈值范围更集中，可以是一个确定的值；本发明比较器实现结构简单。
+32. 105047229 一种用于RRAM的存储单元片内自测电路及方法
+CN
+11.11.2015
+G11C 29/12 Loading...
+G11C 29/12
+Loading...
+201510481271.8
+西安华芯半导体有限公司
+王小光
+G11C 29/12
+Loading...
+本发明涉及一种用于RRAM的存储单元片内自测电路及方法，包括锁存模块、锁存使能模块、回写地址模块及页缓存器回写模块；锁存模块用于接收成功标志位，并在接收到锁存信号的情况下将当前地址的成功标志位采样；锁存使能模块用于在得知当前操作为当前地址的终次操作时产生锁存信号；回写地址模块用于在得知当前操作为当前地址的终次操作时从地址发生器提取当前地址信息，并发送给页缓存器回写模块；页缓存器回写模块产生回写地址信息和回写使能，并发送给页缓存器。本发明解决了现有的存储器芯片测试方法存在耗时久，测试激励繁琐的技术问题，本发明能够较为真实的对片内存储阵列页进行自测统计，将损坏单元的位置信息记录反映在页缓存模块中。
+33. WO/2015/164996 ELLIPTIC DOMAIN CURVE OPERATIONAL METHOD AND ELLIPTIC DOMAIN CURVE OPERATIONAL UNIT
+WO
+05.11.2015
+G06F 7/72 Loading...
+G06F 7/72
+Loading...
+PCT/CN2014/001172
+SHANDONG SINOCHIP SEMICONDUCTOR CO., LTD
+LIU, Qihao
+G06F 7/72
+Loading...
+An elliptic domain curve operational method and an elliptic domain curve operational unit, which involve comprehensive operations. By using a new NAF representation method for the number k of point multiplications, the number of non-zero elements in a binary representation of k is decreased; accordingly, the number of point addition operations is reduced, the overall operational time of the point multiplication is reduced, and the operational efficiency is high.
+34. 204731670 一种可靠补偿MOS管阈值电压变化的电路
+CN
+28.10.2015
+G05F 1/46 Loading...
+G05F 1/46
+Loading...
+201520430694.2
+西安华芯半导体有限公司
+梁星
+G05F 1/46
+Loading...
+本实用新型公开一种可靠补偿MOS管阈值电压变化的电路，通过在现有补偿电路的基础上增加反馈电压生成电路U1、基准参考电压生成电路U2、第三比较器U3、第四比较器U4、逻辑控制电路U5和钳位电路U6；在衬底电压Vneg小于第三参考电压Vref3时将负压电荷泵关闭，以避免出现MOS管栅极和衬底电压差过大而致损坏MOS管寿命的问题；如果衬底电压Vneg过高大于第四参考电压Vref4时，钳位电路工作将衬底电压Vneg强制钳位到零电平，以避免出现PN结导通而漏电的问题。本实用新型有效的解决现有电路在高温或较快工艺条件下存在损坏MOS管寿命的问题和在低温或较慢工艺条件下存在PN结漏电的问题。
+35. 204732166 一种存储器
+CN
+28.10.2015
+G11C 11/4074 Loading...
+G11C 11/4074
+Loading...
+201520069985.3
+西安华芯半导体有限公司
+亚历山大
+G11C 11/4074
+Loading...
+本实用新型涉及一种存储器，包括数据通路、输出驱动器和电源，还包括复制的数据通路、复制的输出驱动器以及逻辑电路；逻辑电路用于产生冗余数据，并将冗余数据进行处理，使得冗余数据的变化与真实数据相反；复制的数据通路用于将处理后的冗余数据传输给复制的输出驱动器；复制的输出驱动器用于将冗余数据输出；电源用于给数据通路、输出驱动器、复制的数据通路和复制的输出驱动器供电。本实用新型解决了现有的存储器输出数据眼图变化的技术问题，本实用新型可以让存储器在输出数据时电源耗电恒定，从而消除由于电源变化导致的数据眼图变化。
+36. 204733141 高精度抗干扰比较器及应用该比较器的存储器结构
+CN
+28.10.2015
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201520429137.9
+西安华芯半导体有限公司
+李晓骏
+H03K 5/22
+Loading...
+本实用新型公开一种高精度抗干扰比较器及应用该比较器的存储器结构，该比较器包括放大器以及调整模块；放大器的输入端连接参考电压信号线和输入电压信号线；调整模块，用于调整放大器的灵敏度，使放大器工作状态灵敏度高于非工作状态。本实用新型在比较器比较时灵敏度很高，能够实现高精度的比较；比较之后，通过改变放大器的放大倍数降低比较器的灵敏度，从而增加比较器的抗干扰能力；相对于迟滞比较器，比较器的阈值范围更集中，可以是一个确定的值；本实用新型比较器实现结构简单。
+37. 204731773 多数据接口兼容的芯片架构
+CN
+28.10.2015
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201520069916.2
+西安华芯半导体有限公司
+亚历山大
+G06F 13/16
+Loading...
+本实用新型涉及多数据接口兼容的芯片架构，包括第一存储单元、第二存储单元、多个数据接口DQ、控制模块、第一存储读写数据总线、第二存储读写数据总线、左接口读写数据总线、右接口读写数据总线、第一开关TBFF以及第二开关TBFF；控制模块通过左接口读写数据总线与左数据接口组中的数据接口DQ连接，所述控制模块通过右接口读写数据总线与右数据接口组中的数据接口DQ连接，第一开关TBFF设置在第一存储读写数据总线上，第二开关TBFF设置在第二存储读写数据总线上。解决了现有的针对不同的数量要求的数据接口需要分别提供不同的芯片设计的技术问题，本实用新型能够实现一个架构实现多个不同数据接口功能，减少设计成本。
+38. 204733142 高精度抗干扰比较器及应用该比较器的存储器结构
+CN
+28.10.2015
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201520430358.8
+西安华芯半导体有限公司
+李晓骏
+H03K 5/22
+Loading...
+本实用新型公开一种高精度抗干扰比较器及应用该比较器的存储器结构，该比较器包括放大器以及调整模块；放大器的输入端连接参考电压信号线和输入电压信号线；调整模块，用于调整放大器的灵敏度，使放大器工作状态灵敏度高于非工作状态。本实用新型在比较器比较时灵敏度很高，能够实现高精度的比较；比较之后，通过改变放大器的放大倍数降低比较器的灵敏度，从而增加比较器的抗干扰能力；相对于迟滞比较器，比较器的阈值范围更集中，可以是一个确定的值；本实用新型比较器实现结构简单。
+39. 104992129 一种OSX系统用加密U盘及其实现方法
+CN
+21.10.2015
+G06F 21/79 Loading...
+G06F 21/79
+Loading...
+201510282018.X
+山东华芯半导体有限公司
+王璞
+G06F 21/79
+Loading...
+本发明的OSX系统用加密U盘，包括主控芯片和存储器，存储器被划分为多个逻辑存储单元，特征在于：U盘与OS X系统使用控制端点传输命令，以实现免驱通信；逻辑存储单元由登录分区和加密分区组成，登录分区用于存储有登录验证程序，加密分区实现数据存储。本发明的加密U盘实现方法包括：a).U盘分区；b).逻辑存储单元分区；c).验证密码的存储；d).显示登录分区；e).运行登录验证程序；f).验证密码的输入；g).判断密码的正确性；h).显示加密分区；i).验证失败。本发明U盘及其实现方法，通过控制端点实现命令发送，无需安装驱动，即可实现登录操作；只有登录验证通过后，才可将加密分区显示出来，有效地实现了保密作用。
+40. WO/2015/144011 DEVICE AND METHOD FOR AVOIDING FAILURE OF INTERNAL RESET SIGNAL OF CHIP
+WO
+01.10.2015
+H03K 17/22 Loading...
+H03K 17/22
+Loading...
+PCT/CN2015/074574
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+LIU, Dayou
+H03K 17/22
+Loading...
+A device and method for avoiding the failure of an internal reset signal of a chip. The method comprises: enabling an internal reset signal to pass through N registers which are connected in sequence, wherein the input end of the Nth register in the N registers is connected to the output end of the N-1th register, where N is an integer which is greater than or equal to 2; and according to the operating principle of the register which is formed by an edge-triggered D trigger, outputting the internal reset signal to the output end only under the trigger of a clock pulse rising edge, and conducting a reset operation on a circuit, so that, the internal reset signal is maintained for a period of time. Therefore, it can be ensured that the internal reset signal may not generate a condition of instantaneous availability, thereby ensuring that a circuit can be reset validly.
+41. WO/2015/139160 HARD DECISION DECODING METHOD FOR LDPC CODE OF DYNAMIC THRESHOLD BIT-FLIPPING
+WO
+24.09.2015
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+PCT/CN2014/001171
+SHANDONG SINOCHIP SEMICONDUCTOR CO., LTD
+GAO, Meizhou
+H03M 13/11
+Loading...
+Disclosed is a hard decision decoding method for an LDPC code of dynamic threshold bit-flipping. Determining an initial flipping threshold T, and using a dynamic threshold, that is, a dynamic turn threshold, and changing the flipping threshold to the dynamic threshold can reduce the probability of mistaken flipping, and also reduce the number of iterations of decoding, which makes the bit-flipping decoding of LDPC code more efficient, and also improves the error correcting capability of the LDPC code. The error correcting capability of the solution increases compared to that of the standard bit-flipping method.
+42. WO/2015/131775 2-1T1R RRAM STORAGE UNIT AND STORAGE ARRAY
+WO
+11.09.2015
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+PCT/CN2015/073334
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+REN, Qiwei
+G11C 16/06
+Loading...
+The present invention provides a 2-1T1R RRAM storage unit and a storage array. The storage unit consists of two 1T1R RRAM storage units; one is a main storage unit and the other is a reference storage unit. When a write operation is performed on the 2-1T1R RRAM storage unit, resistive units of the two 1T1R RRAM storage units are set to opposite states, and a storage value of the 2-1T1R storage unit is the same as a storage value of the main storage unit. When a read operation is performed on the 2-1T1R RRAM storage unit, a read current generated by the main storage unit and a reference current generated by the reference storage unit are compared by means of a current-based sense amplifier, and a value of the 2-1T1R RRAM storage unit is read according to a comparison result. The storage array comprises a main storage array consisting of N 2-1T1R RRAM storage units (N being an integer greater than 1), and comprises a row decoder, and a column selection and execution circuit.
+43. 204576337 一种利用负载变化信号调节功率器件的装置
+CN
+19.08.2015
+G05F 1/66 Loading...
+G05F 1/66
+Loading...
+201520181328.8
+西安华芯半导体有限公司
+梁超
+G05F 1/66
+Loading...
+本实用新型涉及一种利用负载变化信号调节功率器件的装置，包括负载和放大器，还包括电流源，所述电流源包括脉冲发生器、压控开关和电流产生单元，脉冲发生器用于根据负载变化信号产生脉冲信号，脉冲信号用于控制压控开关的控制端，电流产生单元的一端接地，另一端接压控开关的输入端，压控开关的输出端连接于负载和放大器之间，电流产生单元根据负载变化信号产生对应的电流Ib_a。为了解决现有的线性稳压器只能依靠放大器独自调节输出功率的技术问题，本实用新型使用负载切换时的控制信号Vsw(x)产生的脉冲信号，可以使线性稳压器电路的放大器瞬态响应速度随负载切换而变化，可以满足系统在负载切换时对的瞬态响应速度变化的需求。
+44. 204576512 一种低失配时钟输出电路
+CN
+19.08.2015
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201520181791.2
+西安华芯半导体有限公司
+梁超
+G06F 17/50
+Loading...
+本实用新型涉及一种低失配时钟输出电路，包括时钟产生电路、供电模块、以及多个时钟输出模块，时钟产生电路与时钟输出模块之间均通过时钟树信号线连接，供电模块与时钟输出模块之间均通过电源线连接，钟树信号线采用树状结构布线，电源线采用树状结构布线。本实用新型解决了现有的时钟输出电路中的时钟输出模块的输出时钟存在失配的技术问题，本实用新型的时钟输出电路中电源线采用树状布线方式，消除时钟输出模块之间电源的失配，提高系统性能。
+45. 104778963 RRAM sensitive amplifier
+CN
+15.07.2015
+G11C 7/06 Loading...
+G11C 7/06
+Loading...
+201510152648.5
+山东华芯半导体有限公司
+谢永宜
+G11C 7/06
+Loading...
+The invention discloses an RRAM sensitive amplifier, comprising a storage branch, a reference branch, a comparison and output circuit and a pre-charging enhancement circuit. The storage branch is used for converting state of a variable resistor in a memory cell into corresponding voltage signal Vmat; the reference branch is used for converting reference current into corresponding reference voltage Vref; the comparison and output circuit is used for comparing the voltage signal Vmat with the reference voltage Vref, and outputting standard logic high level or low level corresponding to low or high resistance state of the variable resistor; and the pre-charging enhancement circuit is used for communicating the storage branch and the reference branch during the pre-charging stage. According to the RRAM sensitive amplifier, a function of reading state of the variable resistor in the RRAM memory cell can be successfully realized; with the pre-charging enhancement function, the time of the pre-charging stage is shortened, and consequently, the whole data reading cycle is shortened, data reading speed is increased, and data throughout of the memory is improved. Result of simulation verification shows that data reading cycle is shortened by 10ns-15ns as compared with the data reading cycle in the traditional scheme in the scheme of the invention.
+46. 104536864 Fault injection method for Nand Flash simulation model with controllable bit flipping
+CN
+22.04.2015
+G06F 11/26 Loading...
+G06F 11/26
+Loading...
+201410749886.X
+山东华芯半导体有限公司
+姚香君
+G06F 11/26
+Loading...
+The invention discloses an injection method for a Nand Flash simulation model with controllable bit flipping. The injection method comprises the following steps: a), judging a bit flipping mode; b), randomly generating a bit flipping quantity; c),artificially setting the bit flipping quantity; d), establishing Err_pos_gen, and defining a fault position variable Err_pos; e), estabilihsing an Injet_err type, establishing a two-dimensional array which is 2-1 deep and 8bit wide; f) defining a flipping bit, defining a bit flipping variable err_mum_one_byte, assigning the err-bit by utilizing a principle of corresponding a value 1 in err_mum_one_byte, to the flipping bit position of 8bit data in a Nand Flash page; g) performing data fault injection operation, performing xor operation on data in the err_bit and the data in io_data_buf; h) judging fault correcting capacity. The coding error-correcting verification method can be used for performing quantity and position controllable verification method in Nand Flash page, flexibly increasing data bit random fault inseration an beneficial to quickly completing NFC verification more comprehensively.
+47. 204168277 一种延迟锁相环防止错锁的电路
+CN
+18.02.2015
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201420574507.3
+山东华芯半导体有限公司
+亚历山大
+H03L 7/08
+Loading...
+本实用新型一种延迟锁相环防止错锁的电路，包括DLL延迟链、DLL鉴相器、DLL逻辑控制电路、FB反馈电路、输入时钟分频器和反馈时钟分频器；输入时钟经DLL延迟链延迟后输出输出时钟；输出时钟经FB反馈电路后输出反馈时钟；DLL鉴相器比较经分频的输入时钟和反馈时钟的相位；DLL逻辑控制电路根据相位比较的结果控制DLL延迟链产生的输出时钟；输入时钟分频器和反馈时钟分频器分别用于将输入时钟和反馈时钟二分频。通过输入时钟分频器和反馈时钟分频器分别对输入时钟以及反馈时钟进行分频处理，将频率按两倍缩小，将原信号中的下降沿对应时刻通过分频分配到了波峰或波谷中，完全规避了DLL在反馈时钟的下降沿发生错误的锁定。
+48. 204166904 DRAM中一种减少电压端口的电路
+CN
+18.02.2015
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201420575678.8
+山东华芯半导体有限公司
+贾雪绒
+G11C 11/4063
+Loading...
+本实用新型涉及DRAM中一种减少电压端口的电路，包括内部电压检测模块：用于在互补开关的触发下，将DRAM芯片的内部电压传输给电压端口进行检测；外部电压置入模块：用于通过电压端口、互补开关接收电压；互补开关以及电压端口；用于接收内部电压检测模块的输出的检测电压，或将外部电压通过互补开关送入外部电压置入模块。解决了现有DRAM中做外部置入的电压端口多，给前端测试卡的设计带来难度的技术问题，本实用新型通过分时复用的办法，实现了一个电压端口既能实现内部电压检测，又能实现外部电压置入的功能，大大减少了DRAM芯片中电压端口的数目，降低了测试卡的设计复杂度。
+49. 204168276 延迟锁相环和占空比矫正电路结构
+CN
+18.02.2015
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201420570303.2
+山东华芯半导体有限公司
+亚历山大
+H03L 7/08
+Loading...
+本实用新型涉及延迟锁相环和占空比矫正电路结构，包括第一占空比矫正电路DCC1、延迟锁相环DLL、第二占空比矫正电路DCC2以及反相器；第一占空比矫正电路DCC1包括第一DCC延迟链和上升沿触发器；延迟锁相环DLL的输出端通过反相器与第二DCC延迟链的输入端和下降沿触发器的输入端连接。为了解决现有的DLL和DCC电路存在受输入最小脉冲的限制，或输出占空比不能精确到50％的技术问题，本实用新型对DLL电路的延时链传输占空比失真δdll起到减半的作用，所以整个电路的输出时钟的占空比比传统DLL和DCC电路有很大的改善。
+50. 104317343 一种保持MOS管阈值电压恒定的电路及方法
+CN
+28.01.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201410521612.5
+山东华芯半导体有限公司
+贾雪绒
+G05F 1/56
+Loading...
+本发明涉及一种保持MOS管阈值电压恒定的电路及方法，包括基准参考电压生成电路、第一比较器、第二比较器、逻辑控制电路、电荷泵电路、电压反馈电路：用于根据电荷泵电路生成的衬底电压Vbulk调节栅端电压Vg以及时钟产生电路。本发明解决了现有的MOS管的阈值电压会随着工艺角和温度发生较大的变化的技术问题，本发明可以使得电路的功耗和性能在温度变化和工艺角偏离时保持相对稳定的状态。
+51. 204117013 一种保持MOS管阈值电压恒定的电路
+CN
+21.01.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201420575986.0
+山东华芯半导体有限公司
+贾雪绒
+G05F 1/56
+Loading...
+本实用新型涉及一种保持MOS管阈值电压恒定的电路，包括基准参考电压生成电路、第一比较器、第二比较器、逻辑控制电路、电荷泵电路、电压反馈电路：用于根据电荷泵电路生成的衬底电压Vbulk调节栅端电压Vg以及时钟产生电路。本实用新型解决了现有的MOS管的阈值电压会随着工艺角和温度发生较大的变化的技术问题，本实用新型可以使得电路的功耗和性能在温度变化和工艺角偏离时保持相对稳定的状态。
+52. 204116393 一种用于SDRAM芯片检测的连接基座
+CN
+21.01.2015
+G01R 1/04 Loading...
+G01R 1/04
+Loading...
+201420621077.6
+山东华芯半导体有限公司
+赵杨
+G01R 1/04
+Loading...
+本实用新型涉及一种用于SDRAM芯片检测的连接基座，包括顶座、底座、以及连接顶座与底座的弹簧，顶座设有定位条，底座设有与定位条配合的定位槽，底座底部为带插置孔的底板，底板的插置孔上固定插有PIN针，底板上方设有活动板，活动板穿过PIN针，PIN针穿过活动板，活动板与底板之间设有压簧，活动板通过导杆与顶座连接，活动板上方固定设有栅板，栅板上设置有栅条，底座上还设置有夹紧机构，顶座上设置有与夹紧机构配合的触动块，PIN针按15×6阵列进行排列，PIN针包括上部两对称的短凹弧，中部两对称的长凹弧，以及底部的引针，位于同侧的短凹弧与长凹弧相接，两长凹弧的末端相接后连接引针，引针固定于底板的插置孔中。
+53. 204119209 一种高频延迟锁相环
+CN
+21.01.2015
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201420575546.5
+山东华芯半导体有限公司
+亚历山大
+H03L 7/08
+Loading...
+本实用新型一种高频延迟锁相环，包括依次串联设置的DLL电路和DCC电路，以及脉冲产生电路；输入时钟经脉冲产生电路接入到DLL电路的输入端；脉冲产生电路用于产生一个固定脉冲宽度的时钟，固定脉冲宽度不小于DLL电路要求的最小脉冲宽度。通过设置的脉冲产生电路将输入时钟的脉冲宽度调整固定为一个固定的宽度，使其在传输过程中有足够的脉冲宽度，不会因失真造成信号的消失，保证了时钟信号在DLL和DCC延迟链中传输时不丢失。同时由于仅仅是改变了脉冲信号的宽度，而对周期和相位没有进行改变，从而避免了对信号干扰和破坏，在提高了传送质量的同时，保证了信号传输的稳定和可靠性，适用范围广。
+54. 204118063 一种芯片倾斜堆叠的圆片级封装单元
+CN
+21.01.2015
+H01L 23/488 Loading...
+H01L 23/488
+Loading...
+201420530510.5
+山东华芯半导体有限公司
+张加勇
+H01L 23/488
+Loading...
+本实用新型公开了一种芯片倾斜堆叠的圆片级封装单元，包括软性胶点和N个封装芯片，第一倾斜芯片Chip1倾斜放置在软性胶点上，第二倾斜芯片Chip2平行放置在第一倾斜芯片Chip1上，且平行方向上相互交错设置，倾斜芯片均与其前一个芯片平行交错放置，N个封装芯片的芯片焊盘PAD均经重新布线RDL技术重新布局形成重布线层，重布线层设有金属焊球与外部电路进行电气连接；N个封装芯片通过DAF胶膜或FOW胶膜粘结为一体后包裹在硅胶层内，硅胶层上设有支撑硅胶层形成重构晶圆的合金层及用于激光打标的覆盖层。本实用新型还公开一种芯片倾斜堆叠的圆片级封装方法。本实用新型能够实现多功能芯片的WLP封装，并缩小封装尺寸和降低封装成本。
+55. 204118064 一种芯片倾斜堆叠的圆片级封装单元
+CN
+21.01.2015
+H01L 23/488 Loading...
+H01L 23/488
+Loading...
+201420530564.1
+山东华芯半导体有限公司
+张加勇
+H01L 23/488
+Loading...
+本实用新型公开了一种芯片倾斜堆叠的圆片级封装单元，包括水平芯片、第一倾斜芯片、第二倾斜芯片、粘结Chip0、Chip1和Chip2的芯片贴膜DAF或胶膜FOW、包裹水平芯片、第一倾斜芯片和第二倾斜芯片的硅胶层、重布线层、连接芯片焊盘和重布线层层的通孔、金属插塞及金属焊盘、金属焊球，支撑硅胶层形成重构晶圆的合金层及用于激光打标的覆盖层，第一倾斜芯片倾斜放置在水平芯片上，第二倾斜芯片平行放置在第一倾斜芯片上，所有芯片焊盘均通过金属插塞和金属焊盘与重布线层相连，并由硅胶层包裹在同一个封装体内。本实用新型还公开了芯片倾斜堆叠的圆片级封装方法。本实用新型能够实现多功能芯片的WLP封装，并缩小封装尺寸和降低封装成本。
+56. 204119201 一种延迟时间稳定的时钟树驱动电路
+CN
+21.01.2015
+H03K 19/003 Loading...
+H03K 19/003
+Loading...
+201420575679.2
+山东华芯半导体有限公司
+贾雪绒
+H03K 19/003
+Loading...
+本实用新型涉及一种延迟时间稳定的时钟树驱动电路，包括依次连接的一级时钟选择电路、驱动电路、二级时钟选择电路以及时钟沿对准电路，一级时钟选择电路、驱动电路以及二级时钟选择电路上均连接NMOS管和PMOS管，向所有NMOS管的栅端输入同一个电压，向所有PMOS管的栅端输入另一个相同电压，所有NMOS管的源端均接地，所有PMOS管的源端均接供电电压。解决了现有的时钟树驱动电路在供电电压抖动时会产生延迟，造成输出数据眼图变窄的技术问题，本实用新型的电路结构设计简单，但却大大改善了电路的性能。
+57. 204119210 一种延时锁相环
+CN
+21.01.2015
+H03L 7/085 Loading...
+H03L 7/085
+Loading...
+201420433498.6
+西安华芯半导体有限公司
+郭晓锋
+H03L 7/085
+Loading...
+本实用新型提供一种延时锁相环，在尽可能少的增加版图面积和功耗的前提下，将延时锁相环精度提高至少一倍。该延时锁相环包括DLL延时链，所述DLL延时链包括DLL粗调链和DLL微调链，其特征在于：所述DLL粗调链和DLL微调链之间设置有用于产生输入时钟信号奇时钟和偶时钟的中间相位时钟的中间相位产生器。该提高延时锁相环是通过输入的两个时钟信号偶时钟和奇时钟来产生两个时钟信号，分别是奇偶时钟和中间时钟，奇偶时钟和中间时钟的相位差是偶时钟和奇时钟相位差的一半。
+58. 104282330 Method and circuit for increasing reliability of dynamic random access memory
+CN
+14.01.2015
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201410514788.8
+山东华芯半导体有限公司
+亚历山大
+G11C 11/4063
+Loading...
+The invention provides a method and a circuit for increasing the reliability of a dynamic random access memory, which are mainly used for solving the problems in the prior art. The circuit is capable of preventing the worst-case data topology from appearing in a memory array, and is capable of improving the reliability of the dynamic random access memory and reducing the extra design time and cost.
+59. 104201168 Wafer level package unit with chips stacked obliquely and package method
+CN
+10.12.2014
+H01L 23/488 Loading...
+H01L 23/488
+Loading...
+201410470282.1
+山东华芯半导体有限公司
+张加勇
+H01L 23/488
+Loading...
+The invention discloses a wafer level package unit with chips stacked obliquely. The wafer level package unit comprises a horizontal chip, a first oblique chip, a second oblique chip, a chip DAF (die attach film) or FOW(film over wire) coating for bonding the chip0, the chip1 and the chip2, a silicon layer for covering the horizontal chip, the first oblique chip and the second oblique chip, a redistribution line layer, through holes connected with chip pads and the redistribution line layer, metal plugs and metal pads, metal solder balls, an alloy layer for supporting the silicon layer to form a reconstructed wafer, and a cover layer for laser marking. The first oblique chip is arranged on the horizontal chip obliquely, the second oblique chip is horizontally arranged on the first oblique chip, and all the chips are connected with the redistribution line layer through the metal plugs and the metal pads and are covered in the same package body with the silicon layer. The invention further discloses a wafer level package method with chips stacked obliquely. By the method, wafer level package of multifunctional chips is achieved while package size is reduced and package cost is lowered.
+60. 104190483 Preparation method of chip unit for biomolecular detection
+CN
+10.12.2014
+B01L 3/00 Loading...
+B01L 3/00
+Loading...
+201410470385.8
+山东华芯半导体有限公司
+张加勇
+B01L 3/00
+Loading...
+The invention discloses a preparation method of a chip unit for biomolecular detection. The preparation method comprises the steps that an electrothermal insulating material, a second side wall material and a base material are deposited on a substrate; a base of a first side wall is prepared by a photoetching method and a dry etching method; a first side wall material is deposited; the base of the first side wall is removed by a wet corrosion method; the second side wall material is etched by a dry method by taking the first side wall as a mask to form a stacked side wall 1; a metal layer is prepared; an insulating material layer is prepared by a film deposition technology; a nano fluid channel is prepared by chemical and mechanical polishing; the residual first side wall is reserved as a channel capping layer; a photoresist is removed; holes are formed above metal on the two sides of the channel; electrodes 2 are led out; and then the chip unit suitable for the biomolecular detection can be formed. The preparation method can break through limitation of photoetching resolution, improve the compatibility of the chip unit and a CMOS (Complementary Metal Oxide Semiconductor) technology, and improve the preparation efficiency of the chip unit suitable for the biomolecular detection.
+61. 204009644 一种随温度自动调节线性稳压器输出电压的装置
+CN
+10.12.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201420093441.6
+西安华芯半导体有限公司
+梁超
+G05F 1/56
+Loading...
+本实用新型为一种随温度自动调节线性稳压器输出电压的装置，该装置包括使用随温度变化的电流的电流源和放大器，电流源接入放大器。本实用新型一种随温度自动调节线性稳压器输出电压的装置采用的电流源，使用随温度变化的电流It，可以使线性稳压器电路的放大器输出电压随温度而变化，可以满足系统对的输出电压随温度变化的需求。
+62. 204011396 一种新型PoP堆叠封装结构
+CN
+10.12.2014
+H01L 23/31 Loading...
+H01L 23/31
+Loading...
+201420476476.8
+山东华芯半导体有限公司
+孟新玲
+H01L 23/31
+Loading...
+本实用新型的新型PoP堆叠封装结构，包括两层或两层以上的封装体，每层封装体由单个或多个晶片以及树脂保护层组成，每个晶片的正面均设置有焊盘；相邻两封装体中：上层封装体中晶片外围的树脂保护层上设置有信号端，信号端通过再布线技术形成的导通线与该层封装体内晶片的焊盘相连接。本实用新型的PoP堆叠封装结构，通过在上层封装体晶片的外围设置与晶片焊盘相连接的信号端，在下层封装体的树脂保护层中开设连接通孔，且连接通孔内填充有导电物质，通过信号端与连接通孔内导电物质的相接触，不仅可将上层晶片的焊盘信号引出，而且还可形成间距较大的信号端和引出端，避免了信号之间的干扰，有利于芯片的封装。
+63. 204013443 一种占空比矫正电路
+CN
+10.12.2014
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201420450235.6
+西安华芯半导体有限公司
+郭晓锋
+H03K 3/017
+Loading...
+本实用新型提出了一种占空比矫正电路，在传统电路结构的基础上增加了可调的延迟单元，可以很好的调整DCC的最大工作频率，使其不再受限于延迟链的最小传输时间。该占空比矫正电路包括传输输入时钟信号的第一DCC延迟链和第二延迟链、对输入时钟信号进行延迟处理并输入至上升沿触发电路的第一延迟单元、对输入时钟信号进行延迟处理并输入至鉴相器的第二延迟单元、以及对第一延迟链输出信号进行延迟处理并输入至上升沿触发电路的第三延迟单元。由于该占空比矫正电路的最高频率可以通过调整延迟单元的延迟时间来调整，所以不再受DCC延迟链最小传输时间的限制。
+64. 204008994 一种多位宽大容量叠装芯片的测试板
+CN
+10.12.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420471273.X
+山东华芯半导体有限公司
+程飞
+G01R 31/28
+Loading...
+本实用新型的多位宽大容量叠装芯片的测试板，包括测试板体，测试板体上布有芯片座和金属指接口，芯片座上设置有金属球，所述金属指接口上的控制线KDM与待测试芯片上每个单芯片的输入输出控制线DM均相连接，数据信号线与经与逻辑电路运算后接于金属指接口上的测试结果输出线RES上，、均为正整数，0≤≤7，0≤≤。本实用新型的测试板，对现有的单芯片测试装置稍加改动即可对多个单芯片叠装而成的“多位宽、大容量”芯片完成测试，既保证了测试结果的准确性，又降低了测试成本；测试方法和测试板操作简单易行、效率高。
+65. 104158514 一种占空比矫正电路及调整其最大工作频率的方法
+CN
+19.11.2014
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201410392087.1
+西安华芯半导体有限公司
+郭晓锋
+H03K 3/017
+Loading...
+本发明提出了一种新的DCC电路结构，在传统电路结构的基础上增加了可调的延迟单元，可以很好的调整DCC的最大工作频率，使其不再受限于延迟链的最小传输时间。该占空比矫正电路包括传输输入时钟信号的第一DCC延迟链和第二延迟链、对输入时钟信号进行延迟处理并输入至上升沿触发电路的第一延迟单元、对输入时钟信号进行延迟处理并输入至鉴相器的第二延迟单元、以及对第一延迟链输出信号进行延迟处理并输入至上升沿触发电路的第三延迟单元。由于该占空比矫正电路的最高频率可以通过调整延迟单元的延迟时间来调整，所以不再受DCC延迟链最小传输时间的限制。
+66. 104157583 一种芯片封装方法及模具
+CN
+19.11.2014
+H01L 21/56 Loading...
+H01L 21/56
+Loading...
+201410430051.8
+山东华芯半导体有限公司
+王冬冬
+H01L 21/56
+Loading...
+本发明公开了一种芯片塑封模具，包括上模体、下模体，上模体模腔内设有上模块、固定锤和支撑架，上模块带动与其连接的固定锤上下移动，固定锤与支撑架相间设置，固定锤与支撑架之间设有耐高温薄膜，固定锤设有拔模斜面，固定锤锤面与导线架上的芯片载体位置相对应。本发明还提供一种芯片封装方法，包括如下步骤：塑封，固定锤带动薄膜下移，薄膜与固定锤紧密贴合，支撑架、固定锤斜面与导线架之间形成空隙；塑封料从注料口注入，填充空隙，以及下模体内的腔体；填充结束后，导线架上形成塑封后腔体；贴片；焊线；贴盖。本发明满足目前芯片与外界进行信号联系的需求，提升芯片适用性，并减少塑封过程中清膜胶的使用。
+67. 104157619 一种新型PoP堆叠封装结构及其制造方法
+CN
+19.11.2014
+H01L 23/31 Loading...
+H01L 23/31
+Loading...
+201410416902.3
+山东华芯半导体有限公司
+孟新玲
+H01L 23/31
+Loading...
+本发明的新型PoP堆叠封装结构，包括两层或两层以上的封装体，每层封装体中包含单个或多个晶片；相邻两封装体中：上层封装体中的信号端通过导通线与焊盘相连接，下层封装体中晶片的外围设置有贯穿于树脂保护层的连接通孔。本发明封装结构的制造方法包括：a)晶圆磨片；b)晶圆划片；c)上片操作；d)塑封；e)再布线；f)粘附；g)开设通孔；h)置球；i)绝缘处理；j)切单。本发明的PoP堆叠封装结构，通过设置连接通孔，不仅可将上层晶片的焊盘信号引出，还可使得引脚间距增大，避免了信号之间的干扰，有利于芯片的封装。本发明的制造方法，每个晶片的处理过程均相互独立，不仅提高了工作效率，而且还保证了成品率。
+68. 104143975 一种DLL延时链及减小延时锁相环时钟占空比失真的方法
+CN
+12.11.2014
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201410377436.2
+西安华芯半导体有限公司
+郭晓锋
+H03L 7/08
+Loading...
+本发明提供一种DLL延时链及减小延时锁相环时钟占空比失真的方法，该DLL延时链有效地减小了延时锁相环占空比失真的问题。该DLL延时链及方法使用时钟差分信号的传输取代之前单端信号的传输，单端信号传输由于受PMOS和NMOS比例不匹配、器件特性随工艺的漂移、负载受版图匹配的影响等原因，势必会出现占空比的失真，而差分信号传输，以上原因所引起的占空比失真在差分路径会同时出现并抵消。DLL延时链(延迟单元电路)由于差分结构和正反馈的作用，实际是上升沿、下降沿同时作用的结果，所以同时起到对时钟占空比不断调整的作用。
+69. 203910275 存储器的快速内建自测试系统
+CN
+29.10.2014
+G11C 29/12 Loading...
+G11C 29/12
+Loading...
+201420152201.9
+西安华芯半导体有限公司
+拜福君
+G11C 29/12
+Loading...
+本实用新型涉及一种存储器的快速内建自测试系统，包括一个控制器、一个测试向量产生器、一个全局比较器和若干个本地比较器；在兼容传统的内建自测试的基础上，使用一个额外的控制信号可以实现同时对多个存储器或者一个存储器的多个存储模块进行并行测试，从而显著减少测试时间，节约布局面积。
+70. 203877910 一种封装结构
+CN
+15.10.2014
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201420315441.6
+山东华芯半导体有限公司
+户俊华
+B81B 7/00
+Loading...
+本实用新型公开了一种封装结构，包括：一焊盘，为一矩形板件，该焊盘的一面为贴装面，用以贴装待封装器件；复数个引脚，分布在焊盘四周，并与焊盘绝缘，且引脚间相互分离，藉由绝缘材料与焊盘整合为一封装载板；围坝，形成在贴装面的周缘，与该贴装面形成半包围的容腔，并于容腔内暴露出引脚，用以打线；以及封装体，覆盖于容腔开口或者填充容腔空间。
+71. 203871311 一种安全芯片防攻击结构
+CN
+08.10.2014
+H01L 23/04 Loading...
+H01L 23/04
+Loading...
+201420289731.8
+山东华芯半导体有限公司
+王冬冬
+H01L 23/04
+Loading...
+本实用新型公开了一种安全芯片防攻击结构，于芯片的有源面覆盖有具有导电性的盖板，并于盖板至少第一方向上的预定长度设有匹配该预定长度电阻的第一检测点；其中，第一检测点输出连接有第一比较电路，而第一比较电路输出推动执行电路；盖板与芯片间留有填充间隙。具体地，所述盖板为矩形盖板，其中第一方向匹配该矩形盖板之一对角线，而具有第一电阻；进而还在该矩形盖板的另一对角线形成有第二方向，而匹配有第二电阻，并匹配有第二检测点和第二比较器，第二比较器亦输出推动所述执行电路。依据本实用新型可以提高安全芯片的抗攻击能力。
+72. WO/2014/146574 STORAGE DEVICE DATA ACCESS METHOD AND STORAGE DEVICE
+WO
+25.09.2014
+G11C 29/42 Loading...
+G11C 29/42
+Loading...
+PCT/CN2014/073667
+XI'AN SINOCHIP SEMICONDUCTORS CO., LTD.
+MINZONI, Alessandro
+G11C 29/42
+Loading...
+Provided is a storage device data access method comprising the following steps: 1) a parity bit is generated for data to-be-stored; an expression bit is generated, the expression bit expresses whether a data mask is present or absent in the data to-be-stored; the data, the expression bit, and the parity bit are stored; and, 2) the data, the expression bit, and the parity bit are read; the presence or absence of the data mask is determined on the basis of the expression bit, if the expression bit expresses the presence of the data mask, then detection and correction are not performed on the data, and if the expression bit expresses the absence of the data mask, then the parity bit is used to perform detection and correction on the data. Also provided in the present invention is a storage device. In addition, also provided in the present invention is a memory error correction method.
+73. WO/2014/146488 METHOD FOR USE IN WRITING DATA INTO PROCESS OF MEMORY
+WO
+25.09.2014
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+PCT/CN2014/000294
+XI'AN SINOCHIP SEMICONDUCTORS CO., LTD.
+MINZONI, Alessandro
+G06F 11/10
+Loading...
+Provided in the present invention is a method for use in writing data into a process of a memory. In the present invention, in a process of writing data bits of a prefetch data length into the memory, a temporary bit of a parity bit is calculated while waiting for subsequent data bits when some of the data bits are acquired (received), and the temporary bit acquired previously is used for recalculation of the parity bit when the subsequent data bits are acquired (received). As such, utilization of the present invention allows for implementation of the use of the time for sequential writing of data bits for computation of a parity bit, and allows for the computation of a single parity unit to be split into multiple calculations of significantly reduced amount of computation, thus conserving time and simplifying computation.
+74. WO/2014/146489 DRAM SELF-REFRESH METHOD
+WO
+25.09.2014
+G11C 11/406 Loading...
+G11C 11/406
+Loading...
+PCT/CN2014/000295
+XI'AN SINOCHIP SEMICONDUCTORS CO., LTD.
+MINZONI, Alessandro
+G11C 11/406
+Loading...
+Provided is a DRAM self-refresh method, the method comprising performing the following steps while a first word line of the DRAM remains activated: i) reading a data bit and a check bit in a first set of storage units on the first word line, the check bit being generated for the data bit according to an error correction code rule; and determining whether the data bit and the check bit are correct by decoding the error correcting code; if the data bit and/or the check bit are incorrect, then writing a correct data bit and/or a correct check bit back to thecorresponding storage unit.
+75. 203839371 一种DRAM双芯片堆叠封装结构
+CN
+17.09.2014
+H01L 25/065 Loading...
+H01L 25/065
+Loading...
+201420242768.5
+山东华芯半导体有限公司
+孟新玲
+H01L 25/065
+Loading...
+本实用新型公开了一种DRAM双芯片堆叠封装结构，包括：基板，设有基板电路并具有第一面和与该第一面相对的第二面；第一芯片，正面朝向基板而倒装于所述基板；第二芯片，背面贴装于所述第一芯片的背面，并通过引线与所述基板键合；以及封装体，用于将基板、第一芯片以及第二芯片封装为一体。依据本实用新型的封装结构的整体结构比较简练。
+76. 104016296 一种封装结构和该封装结构的封装方法
+CN
+03.09.2014
+B81B 7/00 Loading...
+B81B 7/00
+Loading...
+201410263131.9
+山东华芯半导体有限公司
+户俊华
+B81B 7/00
+Loading...
+本发明公开了一种封装结构和该封装结构的封装方法，依据本发明，利用预制的焊盘和引脚，满足小于等于焊盘面积和引脚数的器件的封装，然后通过对容腔进行封闭，从而实现对小于等于焊盘面积和引脚数的器件封装的通用性。另外，由于焊盘和引脚的规制配置，从而可以满足大量生产的需要。
+77. 203798977 利用集成开关矩阵测量I-V电路的测试系统
+CN
+27.08.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420152872.5
+西安华芯半导体有限公司
+郝福亨
+G01R 31/28
+Loading...
+本实用新型提供一种利用集成开关矩阵测量I-V电路的测试系统，包括驱动器芯片、被测器件和测量装置；驱动器芯片的多个引脚与被测器件的多个引脚以点对点方式连接；测量装置用于产生并将数据载入被测器件中，从被测器件接收数据并测量其输出的模拟电压电平；驱动器芯片的每个引脚上都设置了含静电放电保护装置的驱动器/接收器芯片，以及能够将多个不同电压中的一个电压载入被测器件或者能够接收电平并将该电平载入至被测器件的第一晶体管开关矩阵；测量装置通过第二晶体管开关矩阵连接对应的驱动器芯片引脚。本实用新型针对集成电路，通过切换接地电压和电源电压且在不引起静电放电二极管放电的情况下，更有效地测量更大范围的电压。
+78. 203800900 一种低成本片上振荡器
+CN
+27.08.2014
+H03H 3/04 Loading...
+H03H 3/04
+Loading...
+201420147586.X
+西安华芯半导体有限公司
+谢永宜
+H03H 3/04
+Loading...
+本实用新型提出一种低成本片上振荡器，能够很大程度上节约芯片面积，降低芯片的制造和设计成本。该片上振荡器包括比较器、偏置电流产生器、参考电压产生电路和充电通路；所述偏置电流产生器提供的偏置电流还分别接入参考电压产生电路和充电通路，在参考电压产生电路中形成偏置电流源K*IB，在充电通路中形成偏置电流源IB；所述参考电压产生电路中偏置电流源K*IB与电阻R0串联接地，分压节点位于偏置电流源K*IB与电阻R0之间。本实用新型不仅具备传统方案的优点，同时又能够很大程度上节约芯片面积，降低了芯片的制造成本；对工程人员而言，还降低了周期计算和电路设计的难度，从而缩短了芯片的设计开发时间。
+79. 203800923 一种适用于芯片测试的电路
+CN
+27.08.2014
+H03M 9/00 Loading...
+H03M 9/00
+Loading...
+201420148756.6
+西安华芯半导体有限公司
+李晓骏
+H03M 9/00
+Loading...
+本实用新型提出一种适用于芯片测试的电路，该电路主要包括依次连接的测试焊盘、1位电平转换电路以及串转并电路，该串转并电路能够实现1位串行信号转n位并行信号；还设置有一控制电路对串转并电路进行控制，使得经1位电平转换电路输出的1位电平信号通过串转并电路转换为m位并行信号输出，这里m≤n。本实用新型采用测试焊盘取代传统的熔丝电路，可以通过外接探针扎到测试焊盘输入不同的信号，只使用1个测试焊盘，便实现了现有技术中n位熔丝电路的功能。
+80. 203799667 一种低写功耗的两端口静态随机存储器
+CN
+27.08.2014
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201420151869.1
+西安华芯半导体有限公司
+熊保玉
+G11C 11/413
+Loading...
+本实用新型提供一种低写功耗的两端口静态随机存储器，写预判比较器将前一周期写数据与当前写数据进行比较，如果不同，则将写位线均衡信号置为有效，否则无效；当出现连续的写“0”或写“1”操作时，由于位线上保持的数据与需要写入的数据相同，写预判比较器将写位线均衡信号置为无效，因此位线不发生反转；当连续两次写的数据不同时，写预判比较器置写位线均衡信号有效，写位线和写位线反上的电荷重新分配，写位线和写位线反被均衡至中间电平，然后写位线均衡信号无效，写使能有效，写驱动器将位线和位线反驱动至新的电平。本实用新型与传统的基于写位线均衡技术的两端口静态随机存储器相比，在写数据翻转率为50%时，写位线翻转功耗降低50%。
+81. 203800047 一种芯片中添加电容的分布结构
+CN
+27.08.2014
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+201420149627.9
+西安华芯半导体有限公司
+李晓骏
+H01L 27/02
+Loading...
+本实用新型提出一种芯片中添加电容的分布结构，芯片上各个电路模块之间的空缺位置分布设置有若干个电容；这些电路模块根据工作频率区分定义为高速电路和低速电路，根据工作功耗区分定义为高功耗电路和低功耗电路；若干个电容根据反应速度区分定义为高速电容和低速电容，根据单位面积电容值区分定义为单位容值相对较大的电容和单位容值相对较小的电容；所述高速电容放置在紧邻高速电路的周围，单位容值相对较大的电容放置在紧邻高功耗电路的周围，其它电容放置在芯片上剩余的空缺位置。本实用新型能够提高芯片的稳定性，避免高速电路因为电源的波动导致电路工作不正常；能够提高工作电源的稳定性，减少电源的波动。
+82. 203799661 一种使用单端口存储单元的双端口静态随机存储器
+CN
+27.08.2014
+G11C 7/10 Loading...
+G11C 7/10
+Loading...
+201420153043.9
+西安华芯半导体有限公司
+熊保玉
+G11C 7/10
+Loading...
+本实用新型提供一种使用单端口存储单元的双端口静态随机存储器，存储阵列采用单端口存储单元，以有效减少双端口静态随机存储器阵列的面积；预译码选择器将两个端口的并行的预译码结果转换成串行的预译码结果，使得两个端口共用一套行译码器和列译码器，从而降低译码电路的面积；读出数据串并转换电路和写入数据并串转换电路则使得两个端口共用一套读写数据通路，从而降低读写数据通路的面积；读写控制状态机产生读或写操作的控制信号，使该双端口静态随机存储器在一个周期内串行的完成两次读/写操作；两套复制电路分别为两次串行的读/写操作提供独立的自定时。与传统的基于双端口存储单元的设计相比，采用本实用新型的双端口静态随机存储器面积下降50%。
+83. 203799668 一种静态随机存储器及其位线预充电自定时电路
+CN
+27.08.2014
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201420152048.X
+西安华芯半导体有限公司
+熊保玉
+G11C 11/413
+Loading...
+本实用新型提供一种静态随机存储器及其位线预充电自定时电路，复制单元模拟正常位线上的负载，复制位线预充电电路模拟正常位线的预充电路，对复制位线进行预充电和复位操作，状态机电路用于控制复制位线预充电操作的开始与结束的状态转换，为正常位线预充电操作产生自定时信号。该电路通过模拟正常位线的预充电过程，为静态随机存储器在不同工艺电压温度下的位线预充电操作提供精确的自定时。与传统的基于反相器链延时产生位线预充电信号的方法相比，本电路具有更好的抗工艺电压温度偏差的能力。
+84. 203799671 SRAM读取时间自测试电路
+CN
+27.08.2014
+G11C 29/08 Loading...
+G11C 29/08
+Loading...
+201420152047.5
+西安华芯半导体有限公司
+拜福君
+G11C 29/08
+Loading...
+本实用新型涉及一种SRAM读取时间自测试电路，包括待测SRAM、一个二路选择器、一个延时扫描电路、一个锁存器、一个比较器、一个计数器、第一反相器和第二反相器。通过增加一个延时扫描电路、一个比较器和一个计数器，可以实现对延时时间的自动扫描从而可以快速的找到合适的延时，并通过测量环形振荡器的输出振荡周期得到SRAM的读取时间值。本实用新型避免了测试时频繁的人工操作介入，测试效率高，并且由于采用固定延时单元和具有多个可选延时的单元的组合方式，在保证较大的测量范围的前提下，节省了版图面积。
+85. 203800922 一种适用于芯片测试的功能切换电路
+CN
+27.08.2014
+H03M 9/00 Loading...
+H03M 9/00
+Loading...
+201420148740.5
+西安华芯半导体有限公司
+李晓骏
+H03M 9/00
+Loading...
+本实用新型提出一种适用于芯片测试的功能切换电路。该适用于芯片测试的功能切换电路主要包括测试焊盘、串转并电路、控制电路和n位电平转换电路；所述控制电路对串转并电路进行控制，使得测试焊盘输出的1位电平信号通过串转并电路转换为m位并行信号，这里m≤n，最后经n位电平转换电路中的m位电平转换后输出。本实用新型采用测试焊盘取代传统的熔丝电路，可以通过外接探针扎到测试焊盘输入不同的信号，只使用1个测试焊盘，便实现了现有技术中n位熔丝电路的功能。
+86. 203799670 一种适用于静态随机存储器的写复制电路
+CN
+27.08.2014
+G11C 11/419 Loading...
+G11C 11/419
+Loading...
+201420152049.4
+西安华芯半导体有限公司
+熊保玉
+G11C 11/419
+Loading...
+本实用新型提供一种适用于静态随机存储器的写复制电路，由复制字线负载、复制位线负载、复制位线选择器与复制写驱动器、写复制单元、状态机、行译码器、存储阵列、控制电路与预译码器，位线选择器与灵敏放大器及输入/输出电路组成。复制字线负载模拟正常写操作时字线上的负载，复制位线负载模拟正常写操作时的位线上的负载，复制位线选择器与复制写驱动器模拟正常写操作时的位线选择器与写驱动器，写复制单元模拟正常写操作时被改写的存储单元，状态机为正常写操作提供开始与结束之间的状态转换。该电路通过模拟正常写“0”操作，为静态随机存储器在不同工艺电压温度下的写操作提供精确的自定时。与现有技术相比写操作时的字线脉冲宽度下降20%。
+87. 203799370 时间延迟参数可调转接卡
+CN
+27.08.2014
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201420151468.6
+西安华芯半导体有限公司
+张志广
+G06F 11/22
+Loading...
+本实用新型提供一种时间延迟参数可调转接卡，包括转接卡，转接卡上设有第一触点、第二触点、第三触点、第四触点、第五触点、第六触点、控制单元、数据信号延迟单元和数据对齐信号延迟单元；第一触点和第二触点相互连接，第二触点连接控制单元，控制单元连接数据信号延迟单元和数据对齐信号延迟单元；数据信号延迟单元连接第三触点和第四触点；数据对齐信号延迟单元连接第五触点和第六触点；第一触点、第三触点和第五触点对应连接内存模组的地址命令管脚、数据管脚和数据对齐管脚；第二触点、第四触点和第六触点对应连接主板的地址命令管脚、数据管脚和数据对齐管脚。本实用新型在缺少改变主板配置的手段时，可以通过调节延迟时间来定位问题。
+88. 203799669 一种采用静态写技术减小写功耗的静态随机存储器
+CN
+27.08.2014
+G11C 11/419 Loading...
+G11C 11/419
+Loading...
+201420151870.4
+西安华芯半导体有限公司
+熊保玉
+G11C 11/419
+Loading...
+本实用新型提供一种采用静态写技术减小写功耗的静态随机存储器，位线预冲电信号产生电路在时钟的上升沿检测写使能是否有效，如果写使能信号有效，则位线预冲电信号无效；否则，位线预充电信号有效，即在写操作时位线预冲电信号无效。静态写驱动器的由反相器和三态门组成，当写使能有效时，静态写驱动器的输出直接驱动位线。与传统的静态随机存储器相比，本实用新型在写操作时，不需要对位线进行预充电操作。当出现连续的写“0”或写“1”操作时，由于位线上保持的数据与需要写入的数据相同，因此位线不发生反转，从而节省功耗。在写数据的翻转概率为二分之一的情况，本实用新型与传统的设计相比，写位线翻转功耗降低50%。
+89. 203800920 一种应用于熔丝电路的信号转换电路
+CN
+27.08.2014
+H03K 19/0185 Loading...
+H03K 19/0185
+Loading...
+201420148868.1
+西安华芯半导体有限公司
+李晓骏
+H03K 19/0185
+Loading...
+本实用新型提出一种新的应用于熔丝电路的信号转换电路。该应用于熔丝电路的信号转换电路主要包括控制电路、1位电平转换电路、并转串电路和串转并电路，所述控制电路对并转串电路和串转并电路进行控制，使得n位熔丝电路输出的m位信号通过并转串电路转换为串行信号，然后经1位电平转换电路实现电平转换，最后通过串转并电路将电平转换后的信号并行m位输出，这里m≤n。本实用新型只使用1位电平转换电路，便实现了现有技术的功能；虽然增加了控制电路、并转串电路和串转并电路，但是相对于n位电平转换电路，增加的电路面积很小，且功耗很小。
+90. 203798978 精确测量和报告芯片内两种信号的时序关系的装置
+CN
+27.08.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420152874.4
+西安华芯半导体有限公司
+郝福亨
+G01R 31/28
+Loading...
+本实用新型公开一种精确测量和报告芯片内两种信号的时序关系的装置，延迟时间脉宽的脉冲产生电路的输入端连接待测量数字信号线和参考信号线，延迟时间脉宽的脉冲产生电路输出端分成两路，一路通过周期脉宽的脉冲产生电路连接第一时间电压转换电路，另一路直接连接第二时间电压转换电路；周期脉宽的脉冲产生电路的输入端连接延迟时间脉宽的脉冲产生电路输出端和参考信号线，周期脉宽的脉冲产生电路的输出端连接第一时间电压转换电路。通过将两种信号边沿之间的时间间隔转化为模拟电压，来测量两种信号之间的时序关系，可简便检测集成电路中两组内部信号边沿的时序关系；模拟电压与边沿间的延迟时间成正比，因此，可通过读出的电压计算延迟时间。
+91. 103996416 Reusable FTL (Flash Translation Layer) verification method
+CN
+20.08.2014
+G11C 29/08 Loading...
+G11C 29/08
+Loading...
+201410226573.6
+山东华芯半导体有限公司
+杨萌
+G11C 29/08
+Loading...
+The invention discloses a reusable FTL (Flash Translation Layer) verification method. The FTL verification method comprises the following steps: establishing a verification platform of a bus structure, which is used for constructing a flash memory controller model with a USB (Universal Serial Bus) model; injecting excitation into the verification platform, wherein the excitation comprises two parts, namely one part corresponding to firmware of a flash memory controller, and an FTL sequence; calling a compiler of a CPU (Central Processing Unit) to compile the firmware to generate a target program, and injecting into an internal memory; and injecting the FTL sequence by the USB model and simulating USB equipment by the FTL sequence selected randomly to carry out verification, wherein the random selection of the FTL sequence is based on the random selection of SV (System Verilog). According to the method, the debugging efficiency of FTL verification can be improved.
+92. 203760426 封装热压板
+CN
+06.08.2014
+H01L 21/603 Loading...
+H01L 21/603
+Loading...
+201420157105.3
+山东华芯半导体有限公司
+孟新玲
+H01L 21/603
+Loading...
+本实用新型公开了一种封装热压板，包括：一固定板体，为左右结构，且左右两端设有用于与焊线机连接的固定边，两固定边间形成有给定宽度的安装槽；两活动板体，左右各一地对置于安装槽的两边，且两活动板体相对的面为形成开窗窗口左右两边的开窗面，并在安装槽左右方向上具有移动结构；以及锁紧结构，在两活动板体移动到位后把其锁固在所述固定板体上。依据本实用新型能够适应多种不同产品的封装。
+93. 203760464 一种通用预封装基板结构、封装结构
+CN
+06.08.2014
+H01L 23/498 Loading...
+H01L 23/498
+Loading...
+201420148614.X
+山东华芯半导体有限公司
+栗振超
+H01L 23/498
+Loading...
+本实用新型公开了一种通用预封装基板结构、封装结构，采用向外围延伸的金手指，在晶片贴装后，根据晶片覆盖金手指的范围进行打线，因而能够适应覆盖范围不超出金手指外伸端的晶片规格，具有良好的通用性，从而降低了模具的开发成本和周期，实现快速的封装验证，进而降低了降低封装成本和上市周期。
+94. 103942130 Sequential control method for SD card model
+CN
+23.07.2014
+G06F 11/26 Loading...
+G06F 11/26
+Loading...
+201410173001.6
+山东华芯半导体有限公司
+李风志
+G06F 11/26
+Loading...
+The invention discloses a sequential control method for an SD card model. A category for random SD card standard time sequential values is built for excitation of a verification platform for SD card model verification, the category for the random SD card standard time sequential values is matched, and a category related to different time sequential values to generate corresponding time sequential parameters is built; the method adapts to the SD card model to be detected, and when the excitation is generated according to the command operation and data reading and writing, the corresponding time sequential values and the corresponding time sequential parameters are configured for different time frames of the command operation and data reading and writing. According to the method, the time sequence of the SD card model can be controlled better.
+95. 103943598 Universal pre-packaged substrate structure, packaging structure and packaging method
+CN
+23.07.2014
+H01L 23/498 Loading...
+H01L 23/498
+Loading...
+201410123503.8
+山东华芯半导体有限公司
+栗振超
+H01L 23/498
+Loading...
+The invention discloses a universal pre-packaged substrate structure, a packaging structure and a packaging method. Golden fingers extending outwards are adopted, and wire bonding is conducted according to the range in which a wafer covers the golden fingers after the wafer is mounted, so that the covering range of the wafer does not exceed the outward extending ends of the golden fingers. Consequently, good universality is achieved, the development cost of a mould is reduced, the development cycle of the mould is shortened, quick packaging and verification are achieved, the packaging cost is reduced, and the listed cycle is shortened.
+96. 203733475 一种具有读取自参考功能的 2-1T1R RRAM 存储单元
+CN
+23.07.2014
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+201420094385.8
+山东华芯半导体有限公司
+任奇伟
+G11C 16/06
+Loading...
+本实用新型提供一种具有读取自参考功能的2-1T1R RRAM存储单元,该存储单元由两个传统的RRAM1T1R存储单元组成，一个为主存储单元，另外一个为参考存储单元。写操作时，将两个1T1R存储单元分别写入两个相反的状态，主存储单元写入‘1’，参考存储单元写入‘0’，则2-1T1R存储的值为‘1’；或者主存储单元写入‘0’，参考存储单元写入‘1’，则2-1T1R存储的值为‘0’；读操作时，参考存储单元作为产生主存储单元读取参考电流的参考单元。与传统的存储阵列使用固定读取参考电流或利用共享的参考单元产生读取参考电流相比，本实用新型读操作时的读裕度增加了一倍，大大提高了读取速度和成功率。
+97. 203733024 一种随温度自动调节线性稳压器瞬态响应能力的装置
+CN
+23.07.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201420092195.2
+西安华芯半导体有限公司
+梁超
+G05F 1/56
+Loading...
+本实用新型为一种随温度自动调节线性稳压器瞬态响应能力的装置，装置包括使用随温度变化的电流的偏置电流源和放大器，偏置电流源接入放大器。本实用新型一种随温度自动调节线性稳压器瞬态响应能力的装置采用的偏置电流源，使用随温度变化的电流Ib_t，可以使线性稳压器电路的放大器静态电流随温度而变化，从而使得线性稳压器的瞬态响应速度能够随温度的变化而变化，可以满足系统对的瞬态响应速度变化的需求。
+98. 203733474 一种同步存储器
+CN
+23.07.2014
+G11C 11/4063 Loading...
+G11C 11/4063
+Loading...
+201420093988.6
+西安华芯半导体有限公司
+亚历山大
+G11C 11/4063
+Loading...
+本实用新型提供一种新型的同步存储器，能够节省存储器面积、提高存储器性能。该同步存储器，包括先进先出堆栈、存储阵列和时钟延时单元，接收到的读命令和读地址共同输入所述先进先出堆栈，同时系统时钟对先进先出堆栈提供同步时钟信号；所述同步时钟信号经过所述时钟延时单元输出延时时钟信号，作为先进先出堆栈读取命令、地址结束的指示信号，分别提供给所述先进先出堆栈和存储阵列；所述先进先出堆栈输出延迟的读命令和读地址至存储阵列，存储阵列输出并行数据直接进行并转串模块送至数据输出接口。
+99. 203722584 高速RCV偏置系统
+CN
+16.07.2014
+H03F 1/34 Loading...
+H03F 1/34
+Loading...
+201420093442.0
+西安华芯半导体有限公司
+苏毅
+H03F 1/34
+Loading...
+本实用新型提出一种新的高速RCV偏置系统。该高速RCV偏置系统，包括偏置模块、第一级放大器以及新加入的偏置电路，所述偏置模块提供偏置电压vbias，所述偏置电路的输入为偏置电压vbias，输出偏置电压vb1和偏置电压vb2；所述第一级放大器的源电流输入由共源共栅结构器件实现，共源共栅结构器件的两个栅极分别接偏置电压vb1和偏置电压vb2。本实用新型能够大幅降低输入信号对电流源的影响，提供稳定的“Ibias”电流，可以大幅减小RCV系统对于输入信号1与0传输延迟的失配，从而有效提升RCV性能；系统结构简明、易于实现，不需占用大的版图面积，也不用对现有RCV系统进行大的改动。
+100. 203658895 一种低压差线性稳压器
+CN
+18.06.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201320674064.0
+西安华芯半导体有限公司
+贾雪绒
+G05F 1/56
+Loading...
+本实用新型提供了一种低压差线性稳压器，包括线性稳压器、第一PMOS管、第二PMOS管、第一NMOS管、第二NMOS管、第一电容、第二电容及倒相放大器；所述第一PMOS管的漏极分别与第二PMOS管的源极相连接，第一PMOS管的源极与线性稳压器相连接，第一PMOS管的漏极与源极之间通过第二电容相连接，第二PMOS管的漏极与第一NMOS管的漏极相连接，第一NMOS管的源极与第二NMOS管的漏极相连接，第二NMOS管的源极与漏极之间通过第一电容相连接，第二NMOS管的源极接地；所述倒相放大器的输入端分别与第二PMOS管的栅极、第一NMOS管的栅极相连接，倒相放大器的输出端分别与第一PMOS管的栅极、第二NMOS管的栅极相连接。本实用新型可以有效降低输出电压的电压波动。
+101. 203630782 一种面向嵌入式应用的USB接口芯片
+CN
+04.06.2014
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201320882501.8
+山东华芯半导体有限公司
+徐毅松
+G06F 13/40
+Loading...
+本实用新型公开了一种面向嵌入式应用的USB接口芯片，适配USB3.0物理层封装的所述接口芯片包括用于与外设连接的外设通信接口，所述外设通信接口包括：时钟门控制器，输入接口芯片上的时钟信号，并连接时钟控制信号线，以输出给外设的时钟信号；第一工作模式选择器；下行FIFO；第二工作模式选择器；上行FIFO，为两个，其中一个连接时钟门控制器输出的时钟信号，构成上升沿FIFO，另一个则连接第二工作模式选择器，受第二控制信号控制，构成下降沿FIFO。依据本实用新型可以满足现阶段各类嵌入式应用中队高速数据传输的需求。
+102. 203593194 片状工件吸放装置
+CN
+14.05.2014
+B65B 35/38 Loading...
+B65B 35/38
+Loading...
+201320831715.2
+山东华芯半导体有限公司
+张俊洋
+B65B 35/38
+Loading...
+本实用新型公开了一种片状工件吸放装置，其包括装配在主体框架上并位于上述的一组吸头一侧的间距调整装置，该间距调整装置则包括调整头和驱动调整头沿垂直于所述给定方向移动的驱动部件；其中调整头在朝向吸头的侧面上设有一组转换槽，该组转换槽的起端间距相同，末端间距相同，其中起端间距相应于片状工件初始间距，末端间距相当于片装工件目标间距；相应地，吸头朝向调整头的侧面设有导向于相应转换槽的导柱。依据本实用新型可转换吸盘或者吸头间距。
+103. 203563053 一种高速延迟锁相环
+CN
+23.04.2014
+H03L 7/099 Loading...
+H03L 7/099
+Loading...
+201320680569.8
+西安华芯半导体有限公司
+亚历山大
+H03L 7/099
+Loading...
+本实用新型涉及一种高速延迟锁相环，包括分频器、第一DLL延迟链、第二DLL延迟链、第一反相器以及第二反相器，分频器的输入端接输入时钟，分频器与第一DLL延迟链连接，第一DLL延迟链与第二DLL延迟链之间通过第一反相器连接，第二DLL延迟链通过第二反相器同时与占空比校正电路DCC和时钟组合电路的输入端连接，DLL逻辑控制电路控制第一DLL延迟链和第二DLL延迟链，时钟组合电路的输出、输入时钟均进入DLL鉴相器的输入端，DLL鉴相器的输出端与DLL逻辑控制电路连接。解决了现有的延迟锁相环存在高频时钟信号丢失的技术问题，本实用新型克服了高频时钟信号在延迟链里丢失的问题，实现了高速时钟信号传输。
+104. 203563050 一种金属熔线锁存器结构
+CN
+23.04.2014
+H03K 19/094 Loading...
+H03K 19/094
+Loading...
+201320682702.3
+西安华芯半导体有限公司
+田垚磊
+H03K 19/094
+Loading...
+本实用新型提供一种金属熔线锁存器结构，以改善其读取性能。该金属熔线锁存器结构主要由三级受控反相器依次串联构成，其中，第三级反相器包括依次串联的上拉驱动电路、N型晶体管N45和N型晶体管N46，其中，上拉驱动电路采用P型晶体管组上接电源、下接结点A的结构，用以对A点电压产生上拉驱动，上拉驱动电路中的一个P型晶体管的栅极连接至可调偏置电压源，源极接至结点A。本实用新型显著提高了此类产品的读取可靠性和稳定性，包含的晶体管数量较少，因此版图尺寸较小；另外，在集成电路生产后仍然能根据熔线的实际电阻特性调整熔线锁存器的读取能力。
+105. 203563034 可减小过冲和抖动的时钟占空比校正电路
+CN
+23.04.2014
+H03K 3/017 Loading...
+H03K 3/017
+Loading...
+201320681643.8
+西安华芯半导体有限公司
+亚历山大
+H03K 3/017
+Loading...
+本实用新型涉及一种可减小过冲和抖动的时钟占空比校正电路，包括：第一DCC延迟链，用于接收第一时钟信号并生成第二时钟信号；第二DCC延迟链，用于接收第二时钟信号并生成第三时钟信号；DCC鉴相器，用于接收第一时钟信号和第三时钟信号并经过相位比较输出增加或减少延迟链长度的信号；DCC逻辑控制电路，用于接收增加或减少延迟链长度的信号并分别控制第一DCC延迟链或第二DCC延迟链。解决了现有的时钟占空比校正电路的控制方法存在过冲和抖动太大的技术问题，本实用新型将过冲和抖动均减小。
+106. 203562421 一种集成电路的金属布线结构
+CN
+23.04.2014
+H01L 23/528 Loading...
+H01L 23/528
+Loading...
+201320682656.7
+西安华芯半导体有限公司
+叶艳
+H01L 23/528
+Loading...
+本实用新型提供一种集成电路金属布线结构，能够简便、有效地产生集成电路中信号间的电容。该集成电路的金属布线结构，包括n层金属，n大于1，每层金属为多条平行的金属线，其中同层金属存在传输不同信号的金属线；相邻层金属存在传输不同信号的金属线；相邻层金属，传输相同信号的金属线之间通过通孔上下相接。本实用新型在集成电路中仅通过使用金属互联线就可以产生电容；不需要使用有源区的面积；电容的速度快；由于电容是在芯片生产的后道工艺中制作，即使芯片的前道工艺已经完成，还可以有机会和时间设计和制作这样的电容。
+107. 203325471 存储器
+CN
+04.12.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201320125789.4
+西安华芯半导体有限公司
+亚历山大
+G11C 7/18
+Loading...
+本实用新型提供一种存储器，主要解决了现有存储器中加入的两个额外的存储阵列中的存储单元不能读写，从而导致晶元面积利用率低，产品成本高的问题。该存储器包括多个存储阵列，各存储阵列之间均设置有灵敏放大器阵列；两端部存储阵列的外侧设置有基准电位提供模块，基准电位提供模块与端部存储阵列之间设置有灵敏放大器阵列；基准电位提供模块是选通管或电容，选通管与存储阵列中的选通管类型相同，大小为存储阵列中的选通管大小的N倍，N为一个字线上所连接的存储单元的个数。该存储器提高晶元面积利用率，极大地减少了芯片的体积和加工成本。
+108. 103383864 Serial detection method of RAM production defects in integrated circuit
+CN
+06.11.2013
+G11C 29/04 Loading...
+G11C 29/04
+Loading...
+201210581966
+山东华芯半导体有限公司
+赵阳
+G11C 29/04
+Loading...
+The invention discloses a serial detection method of RAM production defects in an integrated circuit. According to the method, the last test procedure based RAM current address state test used in a next step is realized. There is no need to only test one test point during each test. Thus, there is no need to carry out setting again in allusion to each RAM or repeatedly use the test method, thus greatly raising efficiency.
+109. 203277377 一种DRAM双芯片堆叠封装结构
+CN
+06.11.2013
+H01L 25/065 Loading...
+H01L 25/065
+Loading...
+201320208112.7
+山东华芯半导体有限公司
+户俊华
+H01L 25/065
+Loading...
+本实用新型公开了一种DRAM双芯片堆叠封装结构，包括第一芯片、第二芯片和设有基板电路的基板，所述第一芯片贴装在所述基板预定位置，且该第一芯片的有源面为贴装面的相对面；通过键合线与所述基板电气连接的中介基板的第一面与所述第一芯片电气连接，而中介基板上与第一面相对的第二面则与所述第二芯片的有源面电气连接。本实用新型使用的键合线较少。
+110. 203276857 静态随机存储器及其位线预充电电路
+CN
+06.11.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201320122947.0
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本实用新型涉及静态随机存储器及其位线预充电电路，包括充电单元，所述充电单元包括晶体管PP1、晶体管PP2、晶体管PEQ，还包括或门电路OR，所述或门电路OR的输入端接列选择信号SEL_n和控制信号APREN，所述或门电路OR的输出端输出预充电控制信号PREN_n给充电单元。本实用新型解决了现有的静态存储器在可靠性、设计成本和难度的技术问题，本实用新型通过增加一个额外的预充电控制信号APREN，在读写操作时，将存储单元阵列中不需要访问的列的预充电电路也关闭掉，然后对需要访问的列的目标存储单元进行相对操作。
+111. 203277350 多芯片封装体
+CN
+06.11.2013
+H01L 23/31 Loading...
+H01L 23/31
+Loading...
+201320209910.1
+山东华芯半导体有限公司
+孟新玲
+H01L 23/31
+Loading...
+本实用新型公开了一种多芯片封装体，包括：一基板，设有基板电路并具有第一面和与该第一面相对的第二面，其中第一面形成有中心凹槽，而第二面则关于中心凹槽中心对称地形成有至少一对第二面凹槽；芯片组，各芯片被等数目的设置于所述中心凹槽和各第二面凹槽内，并与基板电路匹配电气连接；以及封装层，将芯片组封装在所述基板上，藉以保护各芯片。依据本实用新型能够有效降低多芯片封装时信号传输延迟及信号不同步问题。
+112. 203150141 一种包含多存储模块的存储器结构
+CN
+21.08.2013
+G11C 8/12 Loading...
+G11C 8/12
+Loading...
+201320139470.7
+西安华芯半导体有限公司
+亚历山大
+G11C 8/12
+Loading...
+本实用新型提供一种包含多存储模块的存储器结构，包括至少两个存储模块和一个设置于存储模块外部的延迟电路；每个存储模块包括一个存储阵列和连接该存储阵列的一个阵列控制模块和一个行控制模块,延迟电路连接所有存储模块的存储阵列。本实用新型将现多存储模块中所有延迟模块去除，而在存储模块之外增加一个延迟电路来控制所有存储模块；以降低存储器的功耗和面积。
+113. 203149574 集成电路芯片内模块间单线总线数据传输电路
+CN
+21.08.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201320122732.9
+西安华芯半导体有限公司
+左丰国
+G06F 17/50
+Loading...
+本实用新型具体涉及集成电路芯片内模块间单线总线数据传输电路。解决现有集成电路的芯片内各个模块间通过多线总线进行数据传输造成布线资源增多，设计的灵活性差，增加了人力物力成本的问题。该电路，主要包括霍夫曼编码器和发送寄存器、采集寄存器和霍夫曼解码器。本实用新型占用最少的布线资源；传输方式灵活，可以随时发送和接收数据；传输协议简单，无需复杂的帧结构和打包设计，电路结构简单易实现，硬件无特殊要求。
+114. 203150142 动态存储器的列选择信号驱动电路
+CN
+21.08.2013
+G11C 11/4091 Loading...
+G11C 11/4091
+Loading...
+201320138925.3
+西安华芯半导体有限公司
+段会福
+G11C 11/4091
+Loading...
+本实用新型提供一种动态存储器的列选择信号驱动电路，在现有列选择信号驱动电路的基础上增加PMOS管M3、NMOS管M6和反相器inv2，inv2输入为第二级灵敏放大器的放大使能信号cma，输出为cma_n，M3和M6的栅极接cma_n，当cma为低时，cma_n为高，M3关断，M6导通，列选择信号的值由列选择信号译码电路使能信号和预译码结果决定，当cma为高，cma_n为低，M3导通，M6关断，csl被强制为低。本实用新型通过在动态存储器中第二级灵敏放大器工作时，关闭位线和局部数据线之间的开关，以此解决动态存储器读操作时的电能浪费问题，以有效减少动态存储器的功耗。
+115. 203150143 分布式自定时电路
+CN
+21.08.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201220716443.7
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本实用新型涉及一种静态随机存储器中应用的分布式自定时电路，包括冗余列包含至少1个冗余，冗余列相邻设置有下拉放电电路列；下拉放电电路列中的下拉放电电路与冗余列中的冗余个数相同且一一对应设置；每个下拉放电电路连接到与其对应的冗余的复制位线片段上。本实用新型提供了一种稳定性高、节省布局空间的分布式自定时电路。
+116. 203150140 一种存储器阵列结构
+CN
+21.08.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201320138579.9
+西安华芯半导体有限公司
+郝福亨
+G11C 7/18
+Loading...
+本实用新型提供一种存储器阵列结构，包括若干存储阵列和若干设置于相邻两个存储阵列之间的中间灵敏放大器阵列；相邻两个存储阵列之间设置一个中间灵敏放大器阵列；所述若干存储阵列包括两个边界存储阵列，所述两个边界存储阵列各连接有一个边界灵敏放大器阵列；所述边界灵敏放大器阵列中的每一灵敏放大器连接对应边界储存阵列中的两个位线。本实用新型通过在边界存储阵列旁设置边界灵敏放大器阵列，连接边界存储阵列中冗余存储单元的位线，可以有效的使用一半的冗余存储单元，提高了存储单元的使用率；该等单元可以用于提供额外的随机存储器或只读存储器，这些存储器可以用来存储各种芯片中所需的配置信息和自修复所需的信息或者测试芯片时所需信息等。
+117. 203151459 一种能够实现部分模块电源关断的集成电路
+CN
+21.08.2013
+H03K 17/687 Loading...
+H03K 17/687
+Loading...
+201320122670.1
+西安华芯半导体有限公司
+左丰国
+H03K 17/687
+Loading...
+本实用新型涉及一种能够实现部分模块电源关断的集成电路，包括电源关断电路、隔断电路、需关断电源电路模块，电源关断电路包括断开器件和efuse器件，断开器件设置在电源网络与需关断电源电路模块之间，efuse器件的输出端与断开器件的输入端连接。本实用新型解决了现有的关断集成电路模块电源实现复杂、验证工作量大、不能永久关闭模块电源的技术问题，本实用新型电路结构简单，实现方便。
+118. 203150546 一种存储阵列及存储器
+CN
+21.08.2013
+H01L 27/105 Loading...
+H01L 27/105
+Loading...
+201320126248.3
+西安华芯半导体有限公司
+俞冰
+H01L 27/105
+Loading...
+本实用新型涉及一种存储阵列，以及含有该存储阵列的存储器，包括正常存储阵列和特殊存储阵列，所述特殊存储阵列设置在正常存储阵列的两侧，其特征在于：所述特殊存储阵列包括位线，所述位线为折叠的位线，所述折叠的位线的两端分别接有存储单元。本实用新型提供了一种可以省去相应的控制电路和熔丝结构，节省测试时间和芯片面积的存储阵列及存储器。
+119. 203151460 一种集成电路电源关断开关
+CN
+21.08.2013
+H03K 17/687 Loading...
+H03K 17/687
+Loading...
+201320122744.1
+西安华芯半导体有限公司
+左丰国
+H03K 17/687
+Loading...
+本实用新型涉及一种集成电路关断开关，包括断开器件和efuse器件，efuse器件的输出端与断开器件的输入端连接。本实用新型解决了现有的集成电路电源的关断电路实现复杂、验证工作量大、不能永久关断的技术问题，本实用新型电路结构简单，实现方便。
+120. 203150139 存储器阵列结构
+CN
+21.08.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201320138489.X
+西安华芯半导体有限公司
+俞冰
+G11C 7/18
+Loading...
+本实用新型提供一种存储器阵列结构，将存储器阵列的两个边界模块平均拆分，再在平均拆分后的两个小模块之间加入灵敏放大器；小模块与相邻中间正常存储阵列模块之间的灵敏放大器工作时，将边界处拆分的两个小模块的位线通过MOS管连接，使得小模块与相邻中间正常存储阵列模块之间的灵敏放大器工作时，基准位线和读出位线相同，以提高稳定性。本实用新型结构相较于现有结构的高度减少了一个正常存储阵列模块的高度减去一个灵敏放大器的高度。
+121. 203150144 一个可调整的静态随机存储器自定时电路
+CN
+21.08.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201220716534.0
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本实用新型涉及一个可调整的静态随机存储器自定时电路，包括依次连接的下拉强度控制电路、下拉放电电路、冗余列、复制列选和预充电路及电压探测器。本实用新型提供了一种灵活快速、节约成本的可调整的静态随机存储器自定时电路。
+122. 203150544 基于第n代DRAM开发的第n-x代DRAM
+CN
+21.08.2013
+H01L 25/18 Loading...
+H01L 25/18
+Loading...
+201320139618.7
+西安华芯半导体有限公司
+亚历山大
+H01L 25/18
+Loading...
+本实用新型提供一种基于第n代DRAM开发的第n-x代DRAM，包括第n代DRAM存储器和ASIC芯片，所述第n代DRAM存储器和ASIC芯片封装在一起形成一个封装体，即第n-x代DRAM；所述n、x均为自然数，且n≥2，n-x≥1。本实用新型从市场上购买低价的第n代DRAM存储器，然后再和另外的ASIC芯片（ASIC芯片用来支持从n代到n-x代功能转换）封装在一起，从而生产出支持第n-x代功能的DRAM存储器，其结构简单、成本低、性能可靠。
+123. 103236425 一种DRAM双芯片堆叠封装结构和封装工艺
+CN
+07.08.2013
+H01L 25/065 Loading...
+H01L 25/065
+Loading...
+201310142301.3
+山东华芯半导体有限公司
+户俊华
+H01L 25/065
+Loading...
+本发明公开了一种DRAM双芯片堆叠封装结构和封装工艺，依据本发明采用中介基板转接第一芯片和第二芯片于基板，中介基板对传输线路的约束减少，改善了数据长距离传输带来的问题，提高了封装的电气性能。区别于传统DRAM封装中第二芯片上方存在的金线弧高的特点，本方案中仅存在中介基板与基板之间的键合线，第二芯片在基板法向对冲了键合线弧高，减少了封装体的整体高度。另一方面，由于封装体只进行一次打线，减少了金线用量，由此节约了封装成本。
+124. 203102265 一种SSD控制芯片
+CN
+31.07.2013
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201320026322.4
+山东华芯半导体有限公司
+刘松
+G06F 13/16
+Loading...
+本实用新型公开了一种SSD控制芯片，包括SSD标准接口、USB接口和Flash存储控制器，所述SSD标准接口、USB接口及Flash存储控制器挂于一总线并通过所配置的总线仲裁器取得总线的占有，以用于通信连接；同时，配置有挂于所述总线的SM1加解密模块，以在使用加解密功能时，仲裁用于通信连接的设备经由该SM1加密模块进行连接。依据本实用新型的控制芯片在具有较高数据传输速度的情况下，具有高的数据存储安全性。
+125. 203102295 一种U盘控制芯片
+CN
+31.07.2013
+G06F 21/78 Loading...
+G06F 21/78
+Loading...
+201320026324.3
+山东华芯半导体有限公司
+李风志
+G06F 21/78
+Loading...
+本实用新型公开了一种U盘控制芯片，USB接口及通过USB物理层连接该USB接口的USB设备控制器，以及用于连接Flash的Flash存储控制器，其特征在于，所述USB设备控制器和Flash存储控制器挂于一总线并通过所配置的总线仲裁器取得总线的占有，以用于通信连接；同时，配置有挂于所述总线的SM1加解密模块，以在使用加解密功能时，仲裁用于通信连接的USB设备控制器和Flash存储控制器经由该SM1加密模块进行连接。依据本实用新型在具有较高数据传输速度的情况下，具有高的数据存储安全性。
+126. 103218476 集成电路芯片内模块间单线总线数据传输方法及电路
+CN
+24.07.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201310086093.X
+西安华芯半导体有限公司
+左丰国
+G06F 17/50
+Loading...
+本发明涉及集成电路芯片内模块间单线总线数据传输方法及电路。解决现有集成电路的芯片内各个模块间通过多线总线进行数据传输造成布线资源增多，设计的灵活性差，增加了人力物力成本的问题。该方法，包括（1）将芯片上模块内的待发送数据进行霍夫曼编码，存放至发送寄存器；（2）发送寄存器内的数据通过单线总线传输至采集寄存器；（3）对采集寄存器内的数据进行霍夫曼解码，提取有效数据给待接收数据的模块使用。该电路，主要包括霍夫曼编码器和发送寄存器、采集寄存器和霍夫曼解码器。本发明占用最少的布线资源；传输方式灵活，可以随时发送和接收数据；传输协议简单，无需复杂的帧结构和打包设计，电路结构简单易实现，硬件无特殊要求。
+127. 103218469 一种可识别芯片删除图形的方法
+CN
+24.07.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210563497.9
+西安华芯半导体有限公司
+李晓骏
+G06F 17/50
+Loading...
+本发明提供一种可识别芯片删除图形的方法，主要解决了现有芯片的版图设计以及在最后制造的芯片中，不能识别芯片不同版本中新删除图形或需要使用专门的分析工具的问题。该可识别芯片删除图形的方法，包括建立芯片原始版本版图的金属层；进行各版删除等。本发明通过在芯片版图设计中，新加入只用于删除图形使用的层。通过使用这些层所得到的新版本的版图以及芯片，无需使用专门的分析工具，可以很容易直接的辨别新版本版图中哪些是新删除的图形。
+128. 103219036 一个可调整的静态随机存储器自定时电路
+CN
+24.07.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201210563448.5
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本发明涉及一种可调整的静态随机存储器自定时电路。包括依次连接的下拉强度控制电路、下拉放电电路、冗余列、复制列选和预充电路及电压探测器。本发明提供了一种灵活快速、节约成本的可调整的静态随机存储器自定时电路。
+129. 203085183 一种可兼容DDR2和DDR3的OCD单元
+CN
+24.07.2013
+G11C 11/4093 Loading...
+G11C 11/4093
+Loading...
+201220716658.9
+西安华芯半导体有限公司
+刘海飞
+G11C 11/4093
+Loading...
+本实用新型提供一种可兼容DDR2和DDR3的OCD单元，包括：DDR3配置单元、DDR3校准单元以及多个并联的驱动单元，还包括DDR2配置单元、DDR2校准单元以及二选一单元；二选一单元包括配置二选一单元和校准二选一单元；DDR2配置单元与DDR3配置单元分别与配置二选一单元连接；DDR2校准单元与DDR3校准单元分别与校准二选一单元连接；配置二选一单元和校准二选一单元分别与多个并联的驱动单元连接；该实用新型比现有相关DDR3DRAM输出单元技术兼容性好，而且切换成DDR2DRAM输出单元简单、价格便宜。
+130. 203084714 可控转接卡
+CN
+24.07.2013
+G06F 11/267 Loading...
+G06F 11/267
+Loading...
+201220716661.0
+西安华芯半导体有限公司
+张志广
+G06F 11/267
+Loading...
+本实用新型涉及一种可控转接卡，包括设置在转接卡上的第一至六管角，还包括与第七、八、九管角依次连接的第一电压源、第二电压源、第三电压源；第一管角与第七管角连接，第三管角与第八管角连接，第五管角与第九管角连接。本实用新型提供了一种减小主板伤害，不受主板回路限制，可以还原内存模组上电的真实应用测试的可控转接卡。
+131. 203085182 一种基于同步静态随机存储器IP 的异步静态随机存储器
+CN
+24.07.2013
+G11C 8/04 Loading...
+G11C 8/04
+Loading...
+201220720175.6
+西安华芯半导体有限公司
+拜福君
+G11C 8/04
+Loading...
+本实用新型提供一种基于同步静态随机存储器IP的异步静态随机存储器；由一个异步控制电路和若干同步静态随机存储器IP组成。异步控制电路产生内部时钟信号对若干同步静态随机存储器IP进行触发，异步控制电路也负责将地址等其他信号进行发送给被选中的同步静态随机存储器。由于同步静态随机存储器IP是集成电路工艺线最基础的IP之一，本实用新型以成熟的同步静态随机存储器IP为基础，只需要增加一个异步控制电路就能够完成一个异步静态随机存储器，相比于传统的全定制设计流程和方法，具有设计周期短的优点。
+132. 203085184 一种使用单端口存储单元的两端口静态随机存储器
+CN
+24.07.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201220719826.X
+西安华芯半导体有限公司
+熊保玉
+G11C 11/413
+Loading...
+本实用新型提供一种使用单端口存储单元的两端口静态随机存储器，该设计主要由写驱动器、写位线选择器、写列译码器、写控制电路、写自定时模块、灵敏放大器、读位线选择器与位线预充、读列译码器、读控制电路、读自定时模块，行译码器和存储单元阵列组成。根据输入读写行地址，行译码器在一个周期内，先后产生读写字线信号。根据读写列地址，读写列译码器分别产生读写位线选择信号。读写控制电路分别产生读写操作所需要的控制信号。本设计利用读写端口复用技术，使用传统的6管存储单元，实现了两端口存储单元的功能。与传统的基于双端口存储单元的设计相比，本设计面积下降近50%。
+133. 203085531 一种可识别芯片
+CN
+24.07.2013
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+201220716662.5
+西安华芯半导体有限公司
+李晓骏
+H01L 27/02
+Loading...
+本实用新型提供一种可识别芯片，主要解决了现有芯片的版图设计以及在最后制造的芯片中，不能识别芯片不同版本中新添加图形或需要使用专门的分析工具的问题。该可识别芯片包括多个电阻，各电阻之间第一层连线为第一金属线层，各电阻之间第二层连线为第二金属线层，各电阻之间第N层连线为第N金属线层，所述各金属线层均不同。本实用新型通过在芯片版图设计中，新加入只用于添加图形使用的层。通过使用这些层所得到的新版本的版图以及芯片，无需使用专门的分析工具，可以很容易直接的辨别新版本版图中哪些是新加入的图形。
+134. 103208471 多芯片封装体
+CN
+17.07.2013
+H01L 23/485 Loading...
+H01L 23/485
+Loading...
+201310142658.1
+山东华芯半导体有限公司
+孟新玲
+H01L 23/485
+Loading...
+本发明公开了一种多芯片封装体，包括：一基板，设有基板电路并具有第一面和与该第一面相对的第二面，其中第一面形成有中心凹槽，而第二面则关于中心凹槽中心对称地形成有至少一对第二面凹槽；芯片组，各芯片被等数目的设置于所述中心凹槽和各第二面凹槽内，并与基板电路匹配电气连接；以及封装层，将芯片组封装在所述基板上，藉以保护各芯片。依据本发明能够有效降低多芯片封装时信号传输延迟及信号不同步问题。
+135. 103199836 一种集成电路电源关断开关
+CN
+10.07.2013
+H03K 17/687 Loading...
+H03K 17/687
+Loading...
+201310086306.9
+西安华芯半导体有限公司
+左丰国
+H03K 17/687
+Loading...
+本发明涉及一种集成电路关断开关，包括断开器件和efuse器件，efuse器件的输出端与断开器件的输入端连接。本发明解决了现有的集成电路电源的关断电路实现复杂、验证工作量大、不能永久关断的技术问题，本发明电路结构简单，实现方便。
+136. 103197986 内存数据中监督位快速生成方法
+CN
+10.07.2013
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+201310088812.1
+西安华芯半导体有限公司
+亚历山大
+G06F 11/10
+Loading...
+本发明提供一种内存数据中监督位快速生成方法，主要解决了现有内存ECC技术中监督位生成时间较长的问题。该内存数据中监督位快速生成方法由于在存入数据时，并不等待数据存储完成后依赖全部数据生成监督位，而是将存入数据进行割裂运算，减小每次的运算量，从整体上减少了最终监督位生成的时间，同时也简化了算法。
+137. 103198870 DRAM中非均匀分布冗余的修复方法
+CN
+10.07.2013
+G11C 29/44 Loading...
+G11C 29/44
+Loading...
+201310088672.8
+西安华芯半导体有限公司
+王帆
+G11C 29/44
+Loading...
+本发明涉及一种DRAM中非均匀分布冗余的修复方法。包括步骤：1.制作非均匀分布冗余的DRAM修复文件；2.虚拟冗余强制失效处理；3完成DRAM中非均匀分布冗余的修复。本发明提供了一种简洁、提高准确度、提高设计灵活性的DRAM中非均匀分布冗余的修复方法。
+138. 103197753 一种DARM存储器省电方法
+CN
+10.07.2013
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201310097504.5
+西安华芯半导体有限公司
+亚历山大
+G06F 1/32
+Loading...
+本发明提供了一种DRAM存储器省电方法，包括以下步骤：T0时刻DRAM接收激活指令；T1时刻关断多出的行地址接收器及对应解码电路；TA时刻接收读或写操作指令，进行读或写操作；TB时刻接收预充指令，执行预充指令；TB+1时刻再次打开所有行地址接收器及对应解码电路，为下一次有效操作做准备；利用行地址位数大于列地址位数的特性，在激活所有行地址后使得多出来的行地址接收器及对应解码电路工作在关断状态，从而达到节省电流，降低功耗的目的。
+139. 103197227 一种用于设计分析目的的晶圆测试方法
+CN
+10.07.2013
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201310097505.X
+西安华芯半导体有限公司
+张涛
+G01R 31/28
+Loading...
+本发明提供一种用于设计分析目的的晶圆测试方法，在制作完成的晶圆表面制作再分布层，通过再分布层连接线将晶圆中芯片的若干第一焊盘与再分布层上与第一焊盘对应的若干第二焊盘连接，再分布层的第二焊盘位于微探针探测的区域以外，在再分布层的第二焊盘位置用探针卡的针对晶圆加测试激励，在芯片上用微探针对芯片进行信号测试，物理上就把探针卡的针和微探针分开，探针卡的针与微探针互相不影响；最大化地增加微探针和芯片的接触范围，保证信号测试能够正常进行，显著地提高探测信号效率。
+140. 103198020 一种提高闪存使用寿命的方法
+CN
+10.07.2013
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310085719.5
+山东华芯半导体有限公司
+张洪柳
+G06F 12/02
+Loading...
+本发明公开了一种提高闪存使用寿命的方法，将闪存页进行分组，并通过闪存逻辑转换层基于并行读写的方法将组内页面映射为一个总页面，分配该总页面的一个存储空间用于存放纠错码，用于对所属组的页面进行读写时的纠错。依据本发明在通过提高纠错码纠错位数以提高闪存使用寿命的同时，减少纠错码对存储空间的占用率。
+141. 103187091 DRAM自刷新方法
+CN
+03.07.2013
+G11C 11/406 Loading...
+G11C 11/406
+Loading...
+201310088727.5
+西安华芯半导体有限公司
+亚历山大
+G11C 11/406
+Loading...
+本发明提供一种DRAM自刷新方法，主要解决了现有DRAM在进行自刷新时，仅刷新存储单元存储数据而不进行读写操作从而导致了历史噪声对单元的影响以及DM对ECC的限制的问题。该DRAM自刷新方法包括以下步骤：1]对存储单元中的字线进行激活；2]读出激活的字线上的数据和监督位，并通过解码判断字线上的数据和监督位是否存在错误，若不存在错误，则进行下个字线的激活，若存在错误，则进行错误纠正，并将纠正后的正确数据写回存储单元中，然后进行下个字线的激活。本发明提供的DRAM自刷新方法可在字线被激活的时间里同时进行读写操作，进行读写操作的次数取决于字线的激活时间和工作频率。
+142. 103187090 一种存储阵列及存储器
+CN
+03.07.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201310088852.6
+西安华芯半导体有限公司
+俞冰
+G11C 7/18
+Loading...
+本发明涉及一种存储阵列，以及含有该存储阵列的存储器，包括正常存储阵列和特殊存储阵列，所述特殊存储阵列设置在正常存储阵列的两侧，其特征在于：所述特殊存储阵列包括位线，所述位线为折叠的位线，所述折叠的位线的两端分别接有存储单元。本发明提供了一种可以省去相应的控制电路和熔丝结构，节省测试时间和芯片面积的存储阵列及存储器。
+143. 103187101 一种用于DRAM修复测试的数据压缩输出方法
+CN
+03.07.2013
+G11C 29/08 Loading...
+G11C 29/08
+Loading...
+201310088814.0
+西安华芯半导体有限公司
+亚历山大
+G11C 29/08
+Loading...
+本发明涉及一种用于DRAM修复测试的数据压缩输出方法，包括以下步骤：1）读取32位cell单元的数值；2）通过芯片内部的算法判断cell单元是否存在fail；3）芯片内部对32位cell单元的结果值进行“与”的运算；4）输出32位cell单元的唯一最终结果值；5)测试机台得到32位cell单元的结果后，如果结果为“0”，则说明存在坏掉的位线CSL，运行处理程序使冗余的CSL代替坏掉的位线CSL；如果结果为“1”，则说明没有坏掉的位线CSL。本发明提供了一种降低测试时间、降低测试成本的DRAM修复测试的数据压缩输出方法。
+144. 103187087 存储器
+CN
+03.07.2013
+G11C 7/06 Loading...
+G11C 7/06
+Loading...
+201310088451.0
+西安华芯半导体有限公司
+亚历山大
+G11C 7/06
+Loading...
+本发明提供一种存储器，主要解决了现有存储器中加入的两个额外的存储阵列中的存储单元不能读写，从而导致晶元面积利用率低，产品成本高的问题。该存储器包括多个存储阵列，各存储阵列之间均设置有灵敏放大器阵列；两端部存储阵列的外侧设置有基准电位提供模块，基准电位提供模块与端部存储阵列之间设置有灵敏放大器阵列；基准电位提供模块是选通管或电容，选通管与存储阵列中的选通管类型相同，大小为存储阵列中的选通管大小的N倍，N为一个字线上所连接的存储单元的个数。该存储器提高晶元面积利用率，极大地减少了芯片的体积和加工成本。
+145. 103187093 静态随机存储器及其存取控制方法及其位线预充电电路
+CN
+03.07.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201310086079.X
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本发明涉及静态随机存储器及其存取控制方法及其位线预充电电路，包括充电单元，所述充电单元包括晶体管PP1、晶体管PP2、晶体管PEQ，还包括或门电路OR，所述或门电路OR的输入端接列选择信号SEL_n和控制信号APREN，所述或门电路OR的输出端输出预充电控制信号PREN_n给充电单元。本发明解决了现有的静态存储器在可靠性、设计成本和难度的技术问题，本发明通过增加一个额外的预充电控制信号APREN，在读写操作时，将存储单元阵列中不需要访问的列的预充电电路也关闭掉，然后对需要访问的列的目标存储单元进行相对操作。
+146. 103177751 Memory array structure
+CN
+26.06.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201310098114.X
+西安华芯半导体有限公司
+郝福亨
+G11C 7/18
+Loading...
+The invention provides a memory array structure which comprises multiple memory arrays and multiple middle sensitive amplifier arrays, wherein the multiple middle sensitive amplifier arrays are arranged between adjacent two memory arrays; one middle sensitive amplifier array is arranged between adjacent two memory arrays; the multiple memory arrays include two boundary memory arrays, and the two boundary memory arrays are respectively connected with a boundary sensitive amplifier array; and each sensitive amplifier in the boundary sensitive amplifier array is connected with two bit lines in a corresponding boundary memory array. According to the invention, through arranging the boundary sensitive amplifier arrays beside the boundary memory arrays, and connecting the bit lines of redundant memory units in the boundary memory arrays, half of the redundant memory units can be effectively used, thereby improving the utilization rate of the memory units; and the units can be used for providing additional random access memories or read-only memories, and the memories can be used for storing configuration information required in various chips, self-healing required information or chip test required information, and the like.
+147. 103177755 Memory structure containing multiple memory modules and control method thereof
+CN
+26.06.2013
+G11C 8/12 Loading...
+G11C 8/12
+Loading...
+201310098156.3
+西安华芯半导体有限公司
+亚历山大
+G11C 8/12
+Loading...
+The invention provides a memory structure containing multiple memory modules and a control method thereof. The memory structure comprises multiple memory modules and a delay circuit, wherein the delay circuit comprises a command decoding control module, a delay module, multiple memory module address decoders and latches, multiple delay signal latches and output devices, and an address line, wherein the address line is used for selecting the memory modules; the number of the memory module address decoders and latches and the number of the delay signal latches and output devices are both same as the number of the memory modules; the address line for selecting the memory modules is connected with all the memory module address decoders and latches, and the memory module address decoders and latches are connected with corresponding delay signal latches and output devices; and the delay signal latches and output devices are connected with corresponding memory modules. According to the invention, all delay modules in the existing memory modules are removed, and a delay circuit is additionally arranged outside the memory modules to control all the memory modules so as to reduce the power consumption and area of the memory.
+148. 103177752 Memory array structure and operating method thereof
+CN
+26.06.2013
+G11C 7/18 Loading...
+G11C 7/18
+Loading...
+201310098135.1
+西安华芯半导体有限公司
+俞冰
+G11C 7/18
+Loading...
+The invention provides a memory array structure and an operating method thereof. Two boundary modules of a memory array are averagely split, and then a sensitive amplifier is added between the averagely split two small modules; and when the sensitive amplifier between each small module and an adjacent middle normal memory array module is running, the bit lines of the two small modules split at the boundaries are connected through an MOS (metal oxide semiconductor) tube, so that when the sensitive amplifier between each small module and the adjacent middle normal memory array module is running, a reference bit line is same as a read bit line so as to improve the stability. Compared with the height of the existing structure, the height of the memory array structure disclosed by the invention is reduced by a value obtained by that the height of a sensitive amplifier is subtracted from the height of a normal storage array module.
+149. 203026141 用于测试的flash板
+CN
+26.06.2013
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201220700368.5
+山东华芯半导体有限公司
+范宣荣
+G11C 29/56
+Loading...
+本实用新型公开了一种用于测试的flash板，包括板体和阵列在板体上flash芯片，以及设置在板体边缘并连接所述flash芯片以用于与上位机连接的接口，其中接口含有用于选择flash芯片的针脚。依据本实用新型可用于高效的进行flash的测试。
+150. 103151079 Method to detect random-access memory (RAM) production defects
+CN
+12.06.2013
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201210582762.8
+山东华芯半导体有限公司
+赵阳
+G11C 29/56
+Loading...
+The invention discloses a method to detect random-access memory (RAM) production defects. A test of an RAM current address state based on a preceding test step and used for a later step is achieved, the occasion that each time only one test point is tested is needless, the fact that a test method is repeatedly used due to the fact that each RAM is reset is avoided, and accordingly efficiency is greatly improved.
+151. 202995554 转接卡
+CN
+12.06.2013
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201220697645.1
+山东华芯半导体有限公司
+范宣荣
+G06F 1/16
+Loading...
+本实用新型公开了一种转接卡，用于SORDIMM内存模组与RDIMM内存模组的转接，匹配240针的RDIMM内存模组侧设有240针的金手指，而在200针的SORDIMM内存模组侧设有200针的插槽，两侧通过数据线、控制线以及电源线相连，配置三针跳线，一针连接插槽侧S2脚，另两针相应匹配于金手指侧片选脚和ECC校验脚。依据本实用新型的转接卡能够方便内存区块与ECC校验输出的快速转换。
+152. 202994975 QFP128封装芯片测试板
+CN
+12.06.2013
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201220700367.0
+山东华芯半导体有限公司
+范宣荣
+G01R 31/28
+Loading...
+本实用新型公开了一种QFP128封装芯片测试板，包括通过总线连接的主控芯片测试座和多片flash接口，其中主控芯片测试座连接有用于与上位机连接的接口，以及用于数据输出的接口；配置的板载电源含有3.3V回路和1.2V回路，并在每种回路上均设有测试点。依据本实用新型测试内容比较广，能够提高测试的效率。
+153. 202976855 一种适用于大容量静态随机存储器写操作的电路
+CN
+05.06.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201220660048.1
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本实用新型提供一种适用于大容量静态随机存储器写操作的电路，包括写驱动器和灵敏放大器；写驱动器的全局位线LDQ通过第一开关管M1连接灵敏放大器，写驱动器的全局位线LDQN通过第二开关管M2连接灵敏放大器。写操作分为两步完成：第一步将数据由写驱动器经全局位线传至灵敏放大器；第二步由灵敏放大器驱动本地位线，将数据传至存储单元。本实用新型写操作的中间过程中由灵敏放大器保持数据，并完成第二步的写驱动功能；写操作时需要克服的负载较少，驱动器尺寸小和功耗较低。
+154. 202976854 一种增强静态随机存储器写操作的电路
+CN
+05.06.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201220660047.7
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本实用新型提供一种增强静态随机存储器写操作的电路，字线驱动器连接存储单元阵列，位线选择器阵列包括多列，每列连接存储单元阵列中对应的一列；写驱动器的第一输出线经由位选选择器阵列连接所有第一位线，写驱动器的第二输出线经由位选选择器阵列连接所有第二位线；位选驱动器通过多个位选信号线连接对应行的位线选择器；字线高电压发生器连接字线驱动器和位选驱动器；位线高电压发生器和位线负电压发生器连接写驱动器。本实用新型能更迅速、可靠的覆盖存储单元中的原有数据。
+155. 103116384 一种SoC系统时钟控制的方法和SoC
+CN
+22.05.2013
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+201310039350.4
+山东华芯半导体有限公司
+刘守浩
+G06F 1/04
+Loading...
+本发明公开了一种SoC系统时钟控制的方法和SoC，依据本发明，在执行模块或者说功能模块内部运算或者与其他模块进行交互时，处理器不再参与时钟控制，而该有执行模块进行控制，并由更小的单位来驱动，也就是一个操作下的若干个传输（Trans）操作来驱动，传输操作之间的空闲阶段对应于原有方法的空运行，执行模块不再动作，从而，依据上述方案可以通过执行模块根据实际的工作情况更精确的产生控制信号，从而精确的产生执行模块所需要的时钟信号，减少执行模块空运行状态以降低电路翻转次数，有效地降低了SoC的功耗。
+156. 103106918 一种使用单端口存储单元的两端口静态随机存储器
+CN
+15.05.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201210566994.4
+西安华芯半导体有限公司
+熊保玉
+G11C 11/413
+Loading...
+本发明提供一种使用单端口存储单元的两端口静态随机存储器，该设计主要由写驱动器、写位线选择器、写列译码器、写控制电路、写自定时模块、灵敏放大器、读位线选择器与位线预充、读列译码器、读控制电路、读自定时模块，行译码器和存储单元阵列组成。根据输入读写行地址，行译码器在一个周期内，先后产生读写字线信号。根据读写列地址，读写列译码器分别产生读写位线选择信号。读写控制电路分别产生读写操作所需要的控制信号。本设计利用读写端口复用技术，使用传统的6管存储单元，实现了两端口存储单元的功能。与传统的基于双端口存储单元的设计相比，本设计面积下降近50%。
+157. 103106294 一种用于静态随机存储器编译器的版图编程方法
+CN
+15.05.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210566686.1
+西安华芯半导体有限公司
+拜福君
+G06F 17/50
+Loading...
+本发明提供一种用于静态随机存储器编译器的版图编程方法，包括：在版图中编程需要的位置处做标记，标记的文本内容或图形按照一定规则包含了生成版图所需要的信息；编译器识别版图中已有的标记，并记录其坐标、文本内容、图形尺寸等编程需要的信息；编译器根据提取的信息，通过查找或者计算找到需要操作的位置，并在该位置处进行版图操作。本发明以版图中的标记为载体，在不影响正常版图设计的同时将版图编程需要的信息直接嵌入到版图中，不需要等到版图完成后再添加，能够缩短版图设计的时间；自动提取版图编程需要的信息，节省了人力和时间；版图编程时程序根据标记进行操作，不需要涉及具体的版图信息，使编译器具有更大的灵活性和可移植性。
+158. 103092770 一种磨损均衡处理时减少内存开销的方法
+CN
+08.05.2013
+G06F 12/06 Loading...
+G06F 12/06
+Loading...
+201310026618.0
+山东华芯半导体有限公司
+高美洲
+G06F 12/06
+Loading...
+本发明公开了一种磨损均衡处理时减少内存开销的方法，创建一个磨损均衡表，记录与非闪存中每一个可用块及每一可用块之纠错码的纠错位数，并在对与非闪存操作时更新该磨损均衡表；在磨损均衡处理时，优先使用纠错位数少的可用块。依据本发明的方法在磨损均衡时能够有效降低内存开销。
+159. 103077749 一种适用于静态随机存储器的冗余容错内建自修复方法
+CN
+01.05.2013
+G11C 29/44 Loading...
+G11C 29/44
+Loading...
+201210566395.2
+西安华芯半导体有限公司
+熊保玉
+G11C 29/44
+Loading...
+本发明提供一种适用于静态随机存储器的冗余容错内建自修复方法，该方法对传统的内建自修复算法提出了改进，加入了冗余测试模块和失效冗余地址屏蔽模块，解决了传统内建自修复算法在冗余地址失效时，无法正确修复的缺陷。冗余测试模块先对冗余地址测试，如果被测试的冗余地址失效，则将其失效标志位置为1，默认为0。待冗余测试结束时，每一个冗余地址都得到它的失效标志位。此时失效冗余地址屏蔽模块工作，对冗余地址进行分析，如果该冗余地址失效标志位为0，则将该冗余地址存入有效冗余地址寄存器内，否则，将其屏蔽掉，不存入。经过对失效的冗余地址屏蔽后，就可以保证自修复地址替换时，每一个被替换的冗余地址都是有效的。
+160. 103077736 一种可兼容DDR2和DDR3的OCD模块
+CN
+01.05.2013
+G11C 7/10 Loading...
+G11C 7/10
+Loading...
+201210563555.8
+西安华芯半导体有限公司
+刘海飞
+G11C 7/10
+Loading...
+本发明提供一种可兼容DDR2和DDR3的OCD模块，包括：DDR3配置单元、DDR3校准单元以及多个并联的驱动单元，还包括DDR2配置单元、DDR2校准单元以及二选一单元；二选一单元包括配置二选一单元和校准二选一单元；DDR2配置单元与DDR3配置单元分别与配置二选一单元连接；DDR2校准单元与DDR3校准单元分别与校准二选一单元连接；配置二选一单元和校准二选一单元分别与多个并联的驱动单元连接；该发明比现有相关DDR3？DRAM输出模块技术兼容性好，而且切换成DDR2？DRAM输出模块简单、价格便宜。
+161. 103065687 并行检测集成电路中RAM生产缺陷的方法
+CN
+24.04.2013
+G11C 29/04 Loading...
+G11C 29/04
+Loading...
+201210582418.9
+山东华芯半导体有限公司
+赵阳
+G11C 29/04
+Loading...
+本发明公开了一种并行检测集成电路中RAM生产缺陷的方法，依据本发明，实现基于前一测试步骤RAM当前地址状态的用于后一步骤的测试，不必每次测试仅测试一个测试点，效率大大提高。并行测试芯片中同类RAM的测试方法，能够有效减小测试芯片的面积，降低生产成本，而且降低了测试的复杂度和测试的时间，从而降低了测试的成本。
+162. 103049363 一种NAND Flash控制器的验证方法
+CN
+17.04.2013
+G06F 11/26 Loading...
+G06F 11/26
+Loading...
+201310039353.8
+山东华芯半导体有限公司
+刘松
+G06F 11/26
+Loading...
+本发明公开了一种NAND Flash控制器的验证方法，根据NANDFlash操作命令权重创建命令权重文件，解析该命令权重文件，形成命令队列；基于命令队列及权重，随机出命令序列；使用工厂模式将随机到的所述命令序列进行重载，生成直接测试序列和随机测试序列；其中匹配当前的NAND Flash模型所增加的测试命令在所述命令权重文件中加入新的命令并匹配该命令分配不为零的权重，或者在解析命令权重文件后把新的测试命令加入所述命令队列。依据本发明能够降低验证平台的搭建难度。
+163. 103049360 一种应用于内存模组在主板上测试的供电电压的调整方法
+CN
+17.04.2013
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201210563612.2
+西安华芯半导体有限公司
+张志广
+G06F 11/22
+Loading...
+本发明提供一种应用于内存模组在主板上测试的供电电压的调整方法，主要解决了现有技术不具备电压调节功能或现有调节方法已损坏主板、不稳定、无法进行性能调试的问题。该应用于内存模组在主板上测试的供电电压的调整方法主要包括连线、测试以及上电检测等步骤，该方法不需要对主板上的电路进行改变，减少了对主板的损害；由于电压源是外接的，电压调节范围由外部设备决定，可选用高精度，宽范围的电压源，从而电压调节不受主板回路限制；在缺少主板电路图时，依然可以对主板进行电压性能测试；通过短接电路板，可以实现一般转接卡的功能；通过在转接卡上添加开关控制，可以还原内存模组上电的真实应用测试。
+164. 103051443 AES密钥扩展的方法
+CN
+17.04.2013
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201210557912.X
+山东华芯半导体有限公司
+刘大铕
+H04L 9/06
+Loading...
+本发明公开了一种AES密钥扩展的方法，不再是基于前一轮密钥的简单迭代，而是通过密钥间的运算，在通过一定的迭代实现，降低了单一密钥迭代对前轮输入的关联性，增加了破译难度，同时由于前后关联性减小，使得整个电路的时序得到了有效地改善。
+165. 103049364 可控转接卡
+CN
+17.04.2013
+G06F 11/267 Loading...
+G06F 11/267
+Loading...
+201210563446.6
+西安华芯半导体有限公司
+张志广
+G06F 11/267
+Loading...
+本发明涉及一种可控转接卡，包括设置在转接卡上的第一至六管角，还包括与第七、八、九管角依次连接的第一电压源、第二电压源、第三电压源；第一管角与第七管角连接，第三管角与第八管角连接，第五管角与第九管角连接。本发明提供了一种减小主板伤害，不受主板回路限制，可以还原内存模组上电的真实应用测试的可控转接卡。
+166. 103049611 一种可识别芯片及其添加图形的方法
+CN
+17.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210563496.4
+西安华芯半导体有限公司
+李晓骏
+G06F 17/50
+Loading...
+本发明提供一种可识别芯片及其添加图形的方法，主要解决了现有芯片的版图设计以及在最后制造的芯片中，不能识别芯片不同版本中新添加图形或需要使用专门的分析工具的问题。该可识别芯片添加图形的方法，包括建立芯片原始版本版图的金属层；进行各版添加等步骤，该可识别芯片包括多个电阻，各电阻之间金属线层均不同。本发明通过在芯片版图设计中，新加入只用于添加图形使用的层。通过使用这些层所得到的新版本的版图以及芯片，无需使用专门的分析工具，可以很容易直接的辨别新版本版图中哪些是新加入的图形。
+167. WO/2013/044566 CHIP ENCAPSULATION METHOD AND ENCAPSULATION STRUCTURE THEREOF
+WO
+04.04.2013
+H01L 25/10 Loading...
+H01L 25/10
+Loading...
+PCT/CN2011/084993
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+POECHMUELLER, Peter
+H01L 25/10
+Loading...
+The present invention relates to a chip encapsulation method and an encapsulation structure thereof. The chip encapsulation method includes the following steps: 1) installing a chip onto a single chip lead frame or a substrate; and 2) connecting one side of the chip lead frame or substrate obtained in step 1) to an external encapsulation substrate. The present invention provides a chip encapsulation method and an encapsulation structure thereof which can avoid encapsulation deformation with high encapsulation stability and good electrical performance and a wide application range.
+168. 103021455 一种适用于大容量静态随机存储器写操作的电路及方法
+CN
+03.04.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201210513334.X
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本发明提供本发明提出一种适用于大容量静态随机存储器写操作的电路及方法，存储单元阵列采用分级位线结构，分两步完成写操作，第一步时，连接本地位线与灵敏放大器的多路选择器处于关闭状态，写驱动器的负载只有全局位线和灵敏放大器，不包括本地位线和存储单元；第二步时，灵敏放大器和全局位线之间的开关管将关闭，数据保存在灵敏放大器，写驱动器可以停止工作。连接本地位线与灵敏放大器的多路选择器随后打开，灵敏放大器将相应的本地位线拉高或者拉低，并在字线有效时改写存储单元的数据。本发明写操作的中间过程中由灵敏放大器保持数据，并完成第二步的写驱动功能；写操作时需要克服的负载较少，驱动器尺寸小和功耗较低。
+169. 102969019 一种增强静态随机存储器写操作的电路
+CN
+13.03.2013
+G11C 11/413 Loading...
+G11C 11/413
+Loading...
+201210513335.4
+西安华芯半导体有限公司
+拜福君
+G11C 11/413
+Loading...
+本发明提供一种增强静态随机存储器写操作的电路，写操作时，写‘1’的位线上的电压高于存储单元的电源电压，写‘0’的位线上的电压低于存储单元的地电压。本发明在写操作时，第一位线与第二位线之间的最大电压差将增大，即使经过位线的传输导致了一定的电压损失，但仍然比不采用多电压或者仅采用负电压的技术方案在被选中的存储单元处能获得更大的电压差，从而更迅速、可靠的覆盖存储单元中的原有数据。
+170. WO/2013/020340 CABLE WITH AUTOMATIC ARRANGEMENT FUNCTION
+WO
+14.02.2013
+H01B 7/40 Loading...
+H01B 7/40
+Loading...
+PCT/CN2011/084133
+SINOCHIP SEMICONDUCTOR CO., LTD
+SONG, Weizhe
+H01B 7/40
+Loading...
+A cable with an automatic arrangement function comprises a cable body and a plurality of locking structures disposed on the peripheral wall of the cable body along the length direction, the locking structure being a joggle joint structure, and the joggle joint structure comprising a tenon structure (1) and a mortise structure (2). With the locking structures around the cable being locked to each other, the arrangement of a cable becomes convenient. If cables with different diameters use locking structures of the same structure, cables with different diameters may also be locked to each other.
+171. 102857222 Method and circuit for dynamic regulation of system clock
+CN
+02.01.2013
+H03L 7/099 Loading...
+H03L 7/099
+Loading...
+201210226789.3
+山东华芯半导体有限公司
+孙晓宁
+H03L 7/099
+Loading...
+The invention discloses a method and a circuit for dynamic regulation of a system clock. According to the method and the circuit, by the aid of a method that phase-locked loop clock output is turned off through reading of the configuration operation of a configuration register of a phase-locked loop, configuration values of the phase-locked loop are set dynamically, the phase-locked loop is turned off automatically through hardware, correspondingly, the time for mode conversion of the phase-locked loop is matched through timing control, and the phase-locked loop clock output is turned on, so that the completeness of a phase-locked loop clock is guaranteed. The clock switching is achieved by substitution of the hardware on a chip for a central processing unit (CPU), so that the burden of software and time-oriented sequential control are reduced, the reliability of the system clock is improved, and the burden of the CPU is reduced.
+172. 102819494 Optimization method for writing in flash memory in sequence
+CN
+12.12.2012
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201210247251.0
+山东华芯半导体有限公司
+李峰
+G06F 12/02
+Loading...
+The invention discloses an optimization method for writing in a flash memory in sequence. The optimization method is applied to a NAND flash memory organization structure and comprises the following steps: B, writing in data in sequence, correspondingly updating items written at the current sequence in a page of an empty block; C, if the sequence write-in stops and the empty block is written fully, transferring to D1, otherwise, transferring to D2 if the sequence write-in stops and the empty block is not written fully; D1, updating a block address mapping table and deleting a temporary address mapping table in accordance with contents of the temporary address mapping table and a block in which data is written actually; and D2, building up a page mapping table of the block in which the data is written actually in accordance with the contents of the temporary address mapping table, updating the address mapping table of the block and deleting the temporary mapping table. The optimization method provided by the invention can be used to flexibly face storage management matching with data volume.
+173. 202584117 一种支持局部复位的总线桥装置
+CN
+05.12.2012
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201220198531.2
+山东华芯半导体有限公司
+王运哲
+G06F 13/40
+Loading...
+本实用新型公开了一种支持局部复位的总线桥装置，包括用于匹配连接系统总线的系统总线接口和用于匹配连接局部总线的局部总线接口，以及互联在系统总线接口与局部总线接口间的数据缓存模块，还包括一挂接在系统总线上的同步模块，以把系统复位信号同步到所述局部总线接口相匹配的时钟域；一复位管理模块受控于同步后的所述系统复位信号依据所属的时钟域运算后而输出一个局部复位信号至所述局部总线接口。依据本实用新型的支持局部复位的总线桥装置避免系统总线不会因某个IP局部复位而挂死。
+174. WO/2012/129955 STORING METHOD, MEMORY, AND STORING SYSTEM CHARACTERIZED BY ACCUMULATED DATA-WRITING
+WO
+04.10.2012
+G11C 11/4197 Loading...
+G11C 11/4197
+Loading...
+PCT/CN2011/085007
+XI'AN SINOCHIP SEMICONDUCTORS CO., LTD.
+JOCHEN, Hoffmann
+G11C 11/4197
+Loading...
+Provided are a storing method, a memory, and a storing system characterized by accumulated data-writing. OR-operations and AND-operations are transferred from a CPU/ALU to inside of a memory so as to reduce the number of times that data transmission lines switch between read and write. An interface unit of the memory comprises a write operation instruction interface, a write instruction interface, and an address instruction interface; the write operation instruction interface comprises a "write_or" instruction interface and/or a "write_and" instruction interface; an instruction/address decoder is used to decode write operation instructions, write instructions, and address instructions; the drive capability of a p field-effect transistor is greater than the drive capability of a data switch, and the drive capability of an n field-effect transistor is smaller than the drive capability of a data switch. The storing method, memory, and storing system reduce the workload of a CPU/ALU, and enable continuous data-writing into a memory.
+175. WO/2012/129956 METHOD AND SYSTEM FOR PREVENTING ERROR LOCKING OF DELAY-LOCKED LOOP
+WO
+04.10.2012
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+PCT/CN2011/085113
+SHANDONG SINOCHIP SEMICONDUCTORS CO., LTD.
+ALESAANDRO, Minzoni
+H03L 7/08
+Loading...
+Provided are a method and system for preventing error locking of a delay-locked loop. The method comprises the following steps: 1) a continuous delay increasing phase; and 2) a fine-tuning phase. The step 1) specifically comprises: 1.1) dividing the frequency of an input clock through an input clock frequency dividing circuit, and respectively inputting acquired frequency-divided input clocks into a phase discriminator I and a phase discriminator II of a control logic circuit; 1.2) differentially dividing the frequency of a feedback clock through a feedback clock frequency dividing circuit to acquire two paths of differential feedback clocks, and respectively inputting same into the phase discriminator I and the phase discriminator II of the control logic circuit; and 1.3) sampling and comparing the frequency-divided input clock and the two paths of differential feedback clocks through the phase discriminator I and the phase discriminator II, and sending out a locking signal when outputs of the phase discriminator I and the phase discriminator II jump from 1 to 0 or from 0 to 1. The method and the system can effectively prevent the error locking phenomenon of a delay-locked loop in case of the jitter of an input clock, are simple in the control logic and can accelerate the locking process.
+176. 202472635 闪存磨损均衡装置
+CN
+03.10.2012
+G06F 13/18 Loading...
+G06F 13/18
+Loading...
+201220113290.7
+山东华芯半导体有限公司
+张洪柳
+G06F 13/18
+Loading...
+本实用新型公开了一种闪存磨损均衡装置，包括用于存放闪存块擦除信息的SRAM，还包括：数据读取模块，链接所述SRAM，以读取闪存块擦除信息；数据比较器，含有用于寄存之前所需块擦除信息的存储单元和连接该存储单元及所述数据读取模块的比较器，以获得闪存当前所需块擦除信息；以及寄存器，连接所述比较器的输出端，存放当前所需块擦除信息，并连接系统总线，以备上位机访问。依据本实用新型的闪存磨损均衡装置提高磨损均衡管理效率，并降低对系统资源的消耗。
+177. 202443462 辅助上位机检索页映射单元块中空闲块的装置
+CN
+19.09.2012
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201220044685.6
+山东华芯半导体有限公司
+张洪柳
+G06F 12/02
+Loading...
+本实用新型公开了一种辅助上位机检索页映射单元块中空闲块的装置，包括：寄存器组，用于存放页映射单元块空闲标志位；检索器，为总线设备，连接所述寄存器组，依据空闲标志位检索空闲块。依据本实用新型的辅助上位机检索页映射单元块中空闲块的装置通过硬件方式实现对页映射单元块中空闲块进行管理，较之软件方式实现的或者说文件系统中实现的检索方式速度大约有几十倍的提升，使得对空闲块的管理效率有大幅提升。
+178. 202404913 一种内存颗粒夹具的自动安装装置
+CN
+29.08.2012
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201120550299.X
+山东华芯半导体有限公司
+郝亨福
+G11C 29/56
+Loading...
+本实用新型提供一种内存颗粒夹具的自动安装装置，包括主体支架，主体支架上安装有制动引擎和由制动引擎驱动的弹性传送轨道；弹性传动轨道为两条平行的弹簧片，弹簧片上设有定位凸起；主体支架上设有支撑弹簧片的轨道支撑板；主体支架上设有压入口，压入口位于弹性传动轨道下方，轨道支撑板在压入口处断开；压入口的正上方安装有弹压器。本实用新型内存颗粒夹具的自动安装装置，实现由内存测试器控制通道直接控制夹具的自动更换、测试；该装置可对同结构的不同颗粒或是不同结构的颗粒进行远程在线更换，可复用已有的单颗粒夹具；另外，此装置不仅限于内存颗粒的测试，还可用与其他类似的芯片产品的测试。
+179. 102622249 Safety starting method preventing central processing unit (CPU) from self locking
+CN
+01.08.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210054189.3
+山东华芯半导体有限公司
+卢方勇
+G06F 9/445
+Loading...
+The invention discloses a safety starting method preventing a central processing unit (CPU) from self locking. In an embedded system, a storage space is explored in a flash memory to store a plurality of firmware mirror images. System initialization is carried out, a firmware is searched in the storage space to be loaded on a system on chip, if the firmware is searched, correctness and integrity of the searched firmware are judged, and the firmware is operated when the conditions of the correctness and the integrity are met simultaneous; if the firmware is not searched, a next firmware is searched in the storage space; if the firmware is not searched in the storage space or if correct and integral firmware is not searched in the storage space, a flow of firmware loading failure is switched into. By means of the safety starting method preventing the CPU from self locking, self locking of the CPU is effectively avoided through exactness identification of the firmware and judgment of damage or not.
+180. 202259245 一种芯片的封装结构
+CN
+30.05.2012
+H01L 23/31 Loading...
+H01L 23/31
+Loading...
+201120377068.3
+西安华芯半导体有限公司
+濮必得
+H01L 23/31
+Loading...
+本实用新型涉及一种芯片的封装结构，该芯片的封装包括芯片、芯片引线框或基板以及外部封装基板；芯片安装在芯片引线框或基板上；芯片引线框或基板的一边连接到外部封装基板。本实用新型提供了一种可避免封装变形、封装稳定性高、电气性能好以及应用范围广的芯片的封装结构。
+181. 202217036 分布式测试节点链及其多链系统
+CN
+09.05.2012
+G01R 31/3185 Loading...
+G01R 31/3185
+Loading...
+201120339241.0
+山东华芯半导体有限公司
+江喜平
+G01R 31/3185
+Loading...
+本实用新型提供一种分布式测试节点链系统及其多链系统，以解决背景技术引脚测试操作复杂的问题。分布式测试节点链由测试移位控制器、测试信号驱动器构成，所有的测试信号驱动器由三根信号线连接，它们分别是串行移位信号线(tp_ser_di)，串行掩码信号线(sf_mask)和串行时钟信号线(sft_clk)。本实用新型通过把一组零散的待测节点串接成链，经过多级驱动，最终输出需要观察的信号到共同的单一的端口。本实用新型降低了在芯片测试调试时探针对针的难度，增加接触的可靠性，提高测试信号质量；通过移位控制器可以方便的切换多个信号用以观测待测节点信号，减少了频繁的对针工作，进而缩短了产品调试开发周期。
+182. 202217035 总线式测试节点链系统
+CN
+09.05.2012
+G01R 31/3185 Loading...
+G01R 31/3185
+Loading...
+201120338182.5
+西安华芯半导体有限公司
+江喜平
+G01R 31/3185
+Loading...
+本实用新型提供一种总线式测试节点链系统，该总线式测试节点链系统包括分别连接至N个待测节点的N个测试信号驱动器和用以选通所述N个测试信号驱动器的测试移位控制器；所述测试信号驱动器包括寄存器和三态缓冲器，所述三态缓冲器具有信号输入端、数据选通端、信号输出端，其中，信号输入端接至该金属点驱动器相应的待测节点，数据选通端与相应的寄存器的串行移位数据输出端连接；N个三态缓冲器的信号输出端均接至同一测试信号总线上，所述测试信号总线的末端设置最终测试金属点。本实用新型通过把许多分散的测试节点信号串接成链，共用一个大尺寸的测试金属点，减少了片上测试金属点的数量，从而节省了顶层金属布线的通道。
+183. 102436525 一种集成电路设计过程中多节点并行自动修复保持时间违例的方法
+CN
+02.05.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110332101.5
+西安华芯半导体有限公司
+左丰国
+G06F 17/50
+Loading...
+本发明公开了一种集成电路设计过程中多节点并行自动修复保持时间违例的方法，包括：1)将所有的由提取的节点构成的组按组内节点建立时间裕度值的和由大到小汇总为一个列表；2)判断列表是否为空；3)设定列表的第一个元素为操作对象；4)依次考察列表中操作对象之后的所有元素，去除与操作对象相关的元素；5)重复步骤4)，直到列表元素都不具备相关性；6)判断列表内组的类型，进而对组内节点的值做修正7)根据列表中元素的值在相应的节点处插入缓冲单元；8)选择是否做下一轮的保持时间违例修复。本发明通过对整个电路的整体分析，能并行、高效的插入缓冲单元以修复保持时间违例，可以极大的缩减集成电路设计过程中修复保持时间违例的周期，从而缩短设计周期。
+184. 202205465 一种DRAM源同步的测试电路
+CN
+25.04.2012
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201120255443.7
+西安华芯半导体有限公司
+李进
+G11C 29/56
+Loading...
+本实用新型提供了一种DRAM源同步的测试电路，解决了现有技术测试方式复杂、可靠性不高的技术问题。本实用新型是一个集成在DRAM内部可以精确测量源同步时间参数的电路，单次运行就可测试出参数是否符合规范标准。该测试电路被激活时，同时打开DQ管脚和DQS管脚的驱动电路及接收电路。该测试电路包含可调延时单元，可以相对于DQ沿移动DQS沿，该可调延时单元位于DQS管脚驱动电路之前；可调延时单元也可放置在DQS管脚接收电路之后，DQ管脚延时接收DQS信号。本实用新型能够有效重构出测试机台无法实现的源同步测试功能；测试操作简便，精度、可靠性较好。
+185. 202189316 超低功耗接口
+CN
+11.04.2012
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201120287189.9
+山东华芯半导体有限公司
+濮必得
+G06F 1/32
+Loading...
+本实用新型提供一种超低功耗接口，包括存储器及存储控制器，所述存储器上设有译码器，所述存储控制器上设有解码器；译码器的输出端通过数据传输线连接解码器对应的输入端。在实用新型提出一种截然不同、可最小化功耗的信号方案；采用该方案，产生更低的吞吐量和使用额外的封装引脚，可降低信号传输的功耗。
+186. 202167057 一种高级图形存储器
+CN
+14.03.2012
+G06T 1/60 Loading...
+G06T 1/60
+Loading...
+201120233234.2
+山东华芯半导体有限公司
+濮必得
+G06T 1/60
+Loading...
+本实用新型提供一种高级图形存储器，包括智能图形处理缓冲器、内存控制器和存储器芯片；所述智能图形处理缓冲器连接内存控制器和存储器芯片。所述智能图形处理缓冲器包括全局控制模块、数据选择模块、缓冲模块以及逻辑运算单元；所述存储器芯片包括图形存储器和象素存储器；所述全局控制模块连接内存控制器、数据选择模块、缓冲模块以及逻辑运算单元；逻辑运算单元连接缓冲单元和数据选择模块；数据选择模块连接内存控制器、缓冲模块、图形存储器和象素存储器。本实用新型通过在标准DRAM存储器中增设具有图形处理功能的智能图形处理缓冲器，在DRAM内部实现图形数据处理，有效的降低整个系统的负荷，充分利用闲置的DRAM存储器。
+187. 202159522 一种自带整理功能的线缆
+CN
+07.03.2012
+H01B 7/40 Loading...
+H01B 7/40
+Loading...
+201120287728.9
+山东华芯半导体有限公司
+宋炜哲
+H01B 7/40
+Loading...
+本实用新型公开了一种自带整理功能的线缆，包括线缆本体，该线缆本体周壁沿长度方向设有多个扣接结构。在本实用新型的较佳实施种，所述扣接结构为榫接结构。本实用新型能够通过线缆四周的锁扣结构相互锁扣，方便线缆的整理。不同直径的线缆如果使用相同结构的锁扣结构，也能够实现不同直径的线缆相互锁扣。
+188. 202159287 一种具有数据处理功能的存储器装置
+CN
+07.03.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120142385.7
+山东华芯半导体有限公司
+郝亨福
+G06F 1/16
+Loading...
+本实用新型提供一种具有数据处理功能的存储器装置，包括存储阵列及逻辑单元；所述逻辑单元接收所述存储阵列输入的数据，进行处理后再存入所述存储阵列中。本实用新型一种存储器装置，通过在存储器中设置能够对存储阵列输入其中的数据进行预处理的逻辑单元，充分利用系统内大量闲置的存储单元，在存储器内部就可以进行数据处理，减少微处理器或微控制器与存储器之间的数据传输量，提高整个系统的计算效率。
+189. 102354562 一种自带整理功能的线缆
+CN
+15.02.2012
+H01B 7/40 Loading...
+H01B 7/40
+Loading...
+201110227058.6
+西安华芯半导体有限公司
+宋炜哲
+H01B 7/40
+Loading...
+本发明公开了一种自带整理功能的线缆，包括线缆本体，该线缆本体周壁沿长度方向设有多个扣接结构。在本发明的较佳实施种，所述扣接结构为榫接结构。本发明能够通过线缆四周的锁扣结构相互锁扣，方便线缆的整理。不同直径的线缆如果使用相同结构的锁扣结构，也能够实现不同直径的线缆相互锁扣。
+190. 102332309 一种DRAM源同步的测试方法及其测试电路
+CN
+25.01.2012
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201110201791.0
+山东华芯半导体有限公司
+李进
+G11C 29/56
+Loading...
+本发明提供了一种DRAM源同步的测试方法及其测试电路，解决了现有技术测试方式复杂、可靠性不高的技术问题。本发明是一个集成在DRAM内部可以精确测量源同步时间参数的电路，单次运行就可测试出参数是否符合规范标准。该测试电路被激活时，同时打开DQ管脚和DQS管脚的驱动电路及接收电路。该测试电路包含可调延时单元，可以相对于DQ沿移动DQS沿，该可调延时单元位于DQS管脚驱动电路之前；可调延时单元也可放置在DQS管脚接收电路之后，DQ管脚延时接收DQS信号。本发明能够有效重构出测试机台无法实现的源同步测试功能；测试操作简便，精度、可靠性较好。
+191. 102332410 一种芯片的封装方法及其封装结构
+CN
+25.01.2012
+H01L 21/50 Loading...
+H01L 21/50
+Loading...
+201110293473.1
+山东华芯半导体有限公司
+濮必得
+H01L 21/50
+Loading...
+本发明涉及一种芯片的封装方法及其封装结构，该芯片的封装方法包括以下步骤：1)将芯片安装在单独的芯片引线框或基板上；2)将步骤1)所得到的芯片引线框或基板的一边连接到外部封装基板。本发明提供了一种可避免封装变形、封装稳定性高、电气性能好以及应用范围广的芯片的封装方法及其封装结构。
+192. 102332048 集成电路设计过程中单节点并行自动修复保持时间违例的方法
+CN
+25.01.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110333286.1
+山东华芯半导体有限公司
+左丰国
+G06F 17/50
+Loading...
+本发明公开了一种集成电路设计过程中单节点并行自动修复保持时间违例的方法，包括：1)将所有的提取的节点按建立时间裕度的值由大到小汇总为一个列表；2)判断列表是否为空；3)设定列表的第一个元素为操作对象；4)依次考察列表中操作对象之后的所有元素，去除与操作对象相关的元素；5)重复步骤4)，到列表元素不具备相关性；6)根据列表中元素值在节点处插入缓冲单元；7)选择是否做下轮的保持时间违例修复；如是，则更新电路时序信息；如否则报告保持时间违例修复完毕。本发明通过对整个电路的整体分析，能并行、高效的插入缓冲单元以修复保持时间违例，可以极大的缩减集成电路设计过程中修复保持时间违例的周期，从而缩短设计周期。
+193. 102313871 总线式测试节点链系统
+CN
+11.01.2012
+G01R 31/3185 Loading...
+G01R 31/3185
+Loading...
+201110268332.4
+山东华芯半导体有限公司
+江喜平
+G01R 31/3185
+Loading...
+本发明提供一种总线式测试节点链系统，该总线式测试节点链系统包括分别连接至N个待测节点的N个测试信号驱动器和用以选通所述N个测试信号驱动器的测试移位控制器；所述测试信号驱动器包括寄存器和三态缓冲器，所述三态缓冲器具有信号输入端、数据选通端、信号输出端，其中，信号输入端接至该金属点驱动器相应的待测节点，数据选通端与相应的寄存器的串行移位数据输出端连接；N个三态缓冲器的信号输出端均接至同一测试信号总线上，所述测试信号总线的末端设置最终测试金属点。本发明通过把许多分散的测试节点信号串接成链，共用一个大尺寸的测试金属点，减少了片上测试金属点的数量，从而节省了顶层金属布线的通道。
+194. 102305909 分布式测试节点链及其多链系统
+CN
+04.01.2012
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201110268062.7
+西安华芯半导体有限公司
+江喜平
+G01R 31/28
+Loading...
+本发明提供一种分布式测试节点链系统及其多链系统，以解决背景技术引脚测试操作复杂的问题。分布式测试节点链由测试移位控制器、测试信号驱动器构成，所有的测试信号驱动器由三根信号线连接，它们分别是串行移位信号线(tp_ser_di)，串行掩码信号线(sft_mask)和串行时钟信号线(sft_clk)。本发明通过把一组零散的待测节点串接成链，经过多级驱动，最终输出需要观察的信号到共同的单一的端口。本发明降低了在芯片测试调试时探针对针的难度，增加接触的可靠性，提高测试信号质量；通过移位控制器可以方便的切换多个信号用以观测待测节点信号，减少了频繁的对针工作，提高了调试效率，进而缩短了产品调试开发周期。
+195. 102289278 Interface with extremely low power consumption
+CN
+21.12.2011
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+201110227366.9
+Xi'an SinoChip Semiconductors Co., Ltd.
+Pu Bide
+G06F 1/32
+Loading...
+The invention provides an interface with extremely low power consumption, and the interface provided by the invention comprises a memory and a storage controller, wherein an (n-2) decipherer is arranged on the memory; a (2-n) decoder is arranged on the storage controller; the output end of the (n-2) decipherer is connected with the corresponding input end of the (2-n) decoder through a data transmission line; n is a positive integer more than or equal to 1; and within one clock period, the data transmission line only has one transmitted datum. The invention provides a distinctively different signal scheme capable of minimizing the power consumption; and by utilizing the scheme, lower throughput is generated, extra packaging pins are used, and the power consumption of signal transmission can be reduced.
+196. 102280138 Storage method with cumulative write-in characteristic and storage system
+CN
+14.12.2011
+G11C 11/4197 Loading...
+G11C 11/4197
+Loading...
+201110079022.8
+Xi'an SinoChip Semiconductors Co.,Ltd.
+Hao Hengfu
+G11C 11/4197
+Loading...
+The invention provides a storage method with a cumulative write-in characteristic, a memory and a storage system. According to the invention, OR operation and AND operation are transferred from CPU/ALU (a controller) to the memory so as to reduce the data transmission line read-write transition frequency. An interface unit of the memory provided by the invention comprises a write-in operation instruction interface, a write-in instruction interface and an address instruction interface; the write-in operation instruction interface comprises a ''write-in_OR'' instruction interface and/or a ''write-in_AND'' instruction interface; an instruction/address-decoder is used for the decoding of the write-in operation instruction, the write-in instruction and the address instruction; the driving capability of a p-field effect transistor is larger than that of a data switch, and the driving capability of an n-field effect transistor is less than that of the data switch. According to the invention, the work load (load) of CPU/ALU can be reduced, and data can be continuously written into the memory (no need to read at first).
+197. 102279616 High-precision current reference source with pure MOS structure and method of manufacturing high-precision current reference source
+CN
+14.12.2011
+G05F 3/24 Loading...
+G05F 3/24
+Loading...
+201110076654.9
+Shandong Sino-chip Semiconductors Ltd.
+Zhang Qidong
+G05F 3/24
+Loading...
+The invention aims to provide a high-precision current reference source with a pure MOS structure and a method of manufacturing the high-precision current reference source, so as to solve the problem of complex circuits, large occupied area and difficult implementation in the prior art. Utilization the characteristics that the threshold voltage of a depletion-type MOS pipe is negative, a circuit of the high-precision current reference source with the pure MOS structure is externally added with a resistor with an appropriate resistance, so as to generate a negative temperature coefficient current. The negative temperature coefficient current is added with an adjustable positive temperature coefficient current to generate a zero temperature coefficient current. In the invention, main elements are MOS pipes, and the number of components used by the integral circuit of the invention is significantly reduced, compared with the prior art. The zero temperature coefficient reference current can be obtained by applying a quite easy method.
+198. 202075652 纯MOS结构高精度电流基准源
+CN
+14.12.2011
+G05F 1/567 Loading...
+G05F 1/567
+Loading...
+201120086365.2
+西安华芯半导体有限公司
+张启东
+G05F 1/567
+Loading...
+本实用新型旨在提供一种纯MOS结构高精度电流基准源，以解决现有技术中电路复杂，占用面积较大，实现起来困难的问题。本实用新型中的所述零温度系数电流镜像电路包括并联的多个镜像电流支路，其中一个镜像电流支路上设置有用以调节自偏置电压的分压电阻，该分压电阻的负端作为偏置电压输出端与作为压控恒流源的P型MOS管的栅极连接。本实用新型主要元件采用MOS管，整个电路较之于传统方案使用的元器件明显减少；应用很简便的方法即得到一个零温度系数的基准电流。
+199. 202076002 储存器阵列结构及其局部字线驱动模块
+CN
+14.12.2011
+G11C 7/12 Loading...
+G11C 7/12
+Loading...
+201120087470.8
+西安华芯半导体有限公司
+俞冰
+G11C 7/12
+Loading...
+本实用新型提供一种储存器阵列结构，包括：第一存储器阵列和第二存储阵列，所述第一存储器阵列包括第一子阵列，所述第二存储器阵列包括第二子阵列；所述第一子阵列和第二子阵列均包括耦合到局部字线和局部位线的若干存储器单元；全局字线驱动器；所述全局字线驱动器与所述第一存储器阵列和第二存储阵列相关联，所述全局字线驱动器耦合若干全局字线和解码信号线；局部字线驱动器，设置于所述第一子阵列和第二子阵列间；所述局部字线驱动器耦合第一子阵列的第一局部字线、第二子阵列的第二局部字线和对应的全局字线；驱动电路连接对应的解码信号线和局部字线驱动器。本实用新型储存器阵列将边界模块的面积降到最低，使其应用范围更加广泛。
+200. 102270490 Large-capacity DRAM chip memory array structure
+CN
+07.12.2011
+G11C 5/02 Loading...
+G11C 5/02
+Loading...
+201110076174.2
+Xi'an SinoChip Semiconductors Co., Ltd.
+Alexander
+G11C 5/02
+Loading...
+A purpose of the present invention is to provide a large-capacity DRAM chip memory array structure to realize reducing package size as much as possible during the chip expansion. The DRAM chip memory array structure comprises a plurality of memory cell arrays, corresponding row decoder circuits, corresponding column decoder circuits and a main control circuit. Each memory cell array is divided into two sets memory cell array modules along the bit line direction, wherein two sets memory cell array modules comprise a set upper memory cell array modules and a set lower memory cell array modules, the number of the row modules in the lower memory cell array modules is half of the number of the row modules in the upper memory cell array modules. The column decoder circuits are mainly arranged between the upper memory cell array modules and the lower memory cell array modules. With the present invention, according to improvements of the composition and the placement of the memory cell arrays in the DRAM chips, and improvements of the main control circuit, the row decoder circuits, and the column decoder circuits, the problem of the limited packaging of the large-capacity DRAM chip area is simply and effectively solved.
+

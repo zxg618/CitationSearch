@@ -1,0 +1,1249 @@
+1. 106886383 触发显示端口读操作的控制方法和装置
+CN
+23.06.2017
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+102017000091662
+硅谷数模半导体(北京)有限公司
+刘敬刚
+G06F 3/14
+Loading...
+本发明公开了一种触发显示端口读操作的控制方法和装置。其中，该方法包括：依据预设方式配置触发位置对应的触发值、上溢标志和下溢标志；依据预设门限时间判断当前是否发生上溢或下溢；在判断结果为发生上溢的情况下，调整触发值和清除上溢标志；在判断结果为发生下溢的情况下，调整触发值和清除下溢标志。本发明解决了由于现有技术中无法满足不同视频格式下的读操作位置，导致的上溢下溢的技术问题。
+2. 106874740 基于USB微处理器的认证方法、装置及调试器
+CN
+20.06.2017
+G06F 21/44 Loading...
+G06F 21/44
+Loading...
+102017000091664
+硅谷数模半导体(北京)有限公司
+徐盛
+G06F 21/44
+Loading...
+本发明公开了一种基于USB微处理器的认证方法、装置及调试器。其中，该方法包括：采集认证信号，其中，认证信号为对USB微处理器进行HDCP认证过程中的物理信号；对采集到的认证信号进行解析，得到认证数据；将认证数据转换为预设格式的数据，得到转换后的认证数据；以及在目标界面显示转换后的认证数据。本发明解决了在HDCP认证过程中，定位认证问题所在的位置速度慢的技术问题。
+3. 106844259 USBType‑C接口设备之间通信连接的建立方法和装置
+CN
+13.06.2017
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201611121629.7
+硅谷数模半导体(北京)有限公司
+陈香瑜
+G06F 13/40
+Loading...
+本发明公开了一种USBType‑C接口设备之间通信连接的建立方法和装置。其中，该方法包括：获取从设备的厂家ID和设备ID，其中，从设备与主设备通过USB Type‑C接口进行物理连接；在主设备的设备列表中查找是否存在与从设备的厂家ID和设备ID均相同的ID，其中，主设备的设备列表用于存储与主设备建立过通信连接的设备的ID；如果查找到与从设备的厂家ID和设备ID均相同的ID，则向从设备发送连接请求，其中，连接请求用于请求与从设备建立通信连接；在从设备接受连接请求之后，与从设备建立通信连接。本发明解决了现有USB Type‑C接口设备之间建立通信连接的方式过于复杂的技术问题。
+4. 106843037 单片机的升级方法和系统
+CN
+13.06.2017
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201611263983.3
+硅谷数模半导体(北京)有限公司
+李金秀
+G05B 19/042
+Loading...
+本发明公开了一种单片机的升级方法和系统，其中，该方法包括：通过与软件保护器Dongle连接的单片机软件MCU FW下载板接收软件升级包；依据该软件升级包升级该Dongle中的单片机。采用上述技术方案，简单易用的实现了对Dongle中的单片机进行升级，进而解决了相关技术中软件保护器中的单片机升级方式费力且破坏软件保护器外观的技术问题。
+5. 106841843 状态模拟电路和USB‑C接口测试方法
+CN
+13.06.2017
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+102016001146967
+硅谷数模半导体(北京)有限公司
+李金秀
+G01R 31/00
+Loading...
+本发明公开了一种状态模拟电路和USB‑C接口测试方法。其中，状态模拟电路包括：对外接口，用于连接待测产品的USB‑C接口，对外接口引出CC1测试接口和CC2测试接口，CC1测试接口和CC2测试接口用于连接测试设备，CC1测试接口与USB‑C接口的第一配置通道CC1相连接，CC2测试接口与USB‑C接口的第二配置通道CC2相连接；至少一个上拉电路，每个上拉电路的第一端与CC1测试接口或CC2测试接口相连接，每个上拉电路的第二端与第一外部电源相连接，至少一个上拉电路用于使USB‑C接口的配置通道处于UFP模式的预设状态以使测试设备测试USB‑C接口处于UFP模式的预设状态下的电参数。本发明解决了如何快速检测USB‑C接口处于UFP模式下的配置通道功能的技术问题。
+6. 106843438 级联通讯方法、级联电路
+CN
+13.06.2017
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+102016001147751
+硅谷数模半导体(北京)有限公司
+陈香瑜
+G06F 1/26
+Loading...
+本发明公开了一种级联通讯方法、级联电路。其中，该方法包括：检测第一CC接口的电平；根据第一CC接口的电平判断是否有PD Sink设备接入；在判断出有PD Sink设备接入的情况下，获取PD Sink设备的供电需求；向PD Source设备发送第一供电请求，其中，第一供电请求携带了PD Sink设备的供电需求和PD Middle设备的供电需求，在PD Source设备接收第一供电请求之后，根据第一供电请求向PD Middle设备供电；接收PD Source设备提供的电力。本发明解决了现有技术中USB Type‑C应用中一个VBUS无法同时给多个Type‑C接口设备供电的技术问题。
+7. 106844273 访问DP辅助通道的方法及装置
+CN
+13.06.2017
+G06F 13/42 Loading...
+G06F 13/42
+Loading...
+102016001148759
+硅谷数模半导体(北京)有限公司
+纪鑫
+G06F 13/42
+Loading...
+本发明公开了一种访问DP辅助通道的方法及装置。其中，该方法包括：设备接收通过应用层传入的输入参数；所述设备根据所述输入参数生成第一控制数据；所述设备将所述第一控制数据转换为DP格式的第二控制数据；所述设备将所述第二控制数据通过DP辅助通道输出到所述设备连接的外部设备。
+8. 106817114 延时电路
+CN
+09.06.2017
+H03K 17/284 Loading...
+H03K 17/284
+Loading...
+201611071801.2
+硅谷数模半导体(北京)有限公司
+李金秀
+H03K 17/284
+Loading...
+本发明公开了一种延时电路。其中，该延时电路包括：第一场效应晶体管，第一端与第一电阻的第一端、第二电阻的第二端均相连，第二端接地，第三端与第三电阻的第一端、第二场效应晶体管的第一端均相连；第二场效应晶体管，第一端与第一场效应晶体管的第三端、第三电阻的第一端均相连，第二端接地，第三端与第四电阻的第一端、输出端均相连；第一电阻，第一端与第二电阻的第二端、第一场效应晶体管的第一端均相连，第二端与电源、第三电阻的第二端、第四电阻的第二端均相连；第二电阻；第三电阻；第四电阻；第一电容器，并联在第二场效应晶体管的第二端和第三端之间。本发明解决了现有技术中延时电路无法灵活调整延时时间的技术问题。
+9. 106815160 布告板实现方法及布告板实现装置
+CN
+09.06.2017
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+102016001136580
+硅谷数模半导体(北京)有限公司
+纪鑫
+G06F 13/38
+Loading...
+本发明公开了一种布告板实现方法及布告板实现装置。其中，该布告板实现方法包括：在USB设备连接到USB主机之后，接收所述USB主机的读取请求；响应于所述读取请求，向所述USB主机指示描述符和/或字符串的存储位置，供所述USB主机从所述存储位置读取所述描述符和/或字符串，其中，所述描述符和/或字符串遵循USB布告板Class的协议规范，存储在所述USB设备的MCU中，所述MCU集成有USB PHY。
+10. 106817591 数据传输系统、方法和装置
+CN
+09.06.2017
+H04N 21/2389 Loading...
+H04N 21/2389
+Loading...
+102017000002071
+硅谷数模半导体(北京)有限公司
+潘胜
+H04N 21/2389
+Loading...
+本发明公开了一种数据传输系统、方法和装置。其中，该系统包括：高清数字显示接口，包括接收端和发送端，发送端向接收端发送空闲数据；时钟模块，与发送端相连接，用于产生时钟抖动，时钟抖动使发送的空闲信号产生误码；HDCP加密模块，与发送端相连接，用于根据随机数发生器生成的随机数对待传输的多媒体数据进行加密；随机数发生器，与HDCP加密模块相连接，用于以误码计数值为种子生成随机数。本发明解决了随机数产生器生成的随机数不够随机的技术问题。
+11. 206225612 插头结构
+CN
+06.06.2017
+H01R 13/04 Loading...
+H01R 13/04
+Loading...
+201621264581.0
+硅谷数模半导体(北京)有限公司
+史文森
+H01R 13/04
+Loading...
+本实用新型提供了一种插头结构，包括插头和插座，插头上具有第一信号插针和第二信号插针，插座上具有与第一信号插针对应的第一信号插柱和与第二信号插针对应的第二信号插柱，第一信号插针的长度大于第二信号插针的长度，以使在插头与插座插接时，第一信号插针与第一信号插柱先于第二信号插针与第二信号插柱接触；其中，第一信号插针为串行信号插针；应用本实用新型技术方案的插头结构，解决了现有技术中电脑主机与显示器通过VGA数据线连接时，VGA插头与显示器的VGA插座非垂直插接时导致主机无法读取EDID的问题。
+12. 206225609 充电器插头结构
+CN
+06.06.2017
+H01R 13/02 Loading...
+H01R 13/02
+Loading...
+201621265787.5
+硅谷数模半导体(北京)有限公司
+史文森
+H01R 13/02
+Loading...
+本实用新型提供了一种充电器插头结构，包括插头和插座，插头具有第一电源插针和第一信号插针，插座具有与第一电源插针适配的第二电源插针和与第一信号插针适配的第二信号插针，第一电源插针的长度小于第一信号插针的长度，以使在插头与插座处于插紧状态时，第一电源插针与第二信号插针之间具有沿插头的插设方向的安全间隙；应用本实用新型技术方案的充电器插头结构，解决了现有技术中的Type‑C充电器在稳定高压充电过程中，用户非垂直插拔插头时容易导致插座上的与其他信号插针连接的芯片管脚损坏的问题。
+13. 106802810 固件升级方法及装置、系统
+CN
+06.06.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201611075548.8
+硅谷数模半导体(北京)有限公司
+彭俊良
+G06F 9/445
+Loading...
+本发明公开了一种固件升级方法及装置、系统。其中，该方法包括：获取密钥；判断获取到的上述密钥与目标密钥是否相同，其中，上述目标密钥用于开启通讯模块与多路复用器之间的写总线通道，以对固化在目标硬件上的固件进行升级，上述通讯模块与上述多路复用器均设置在上述目标硬件上；若相同，则利用上述目标密钥开启上述写总线通道，以对上述固件进行升级。本发明解决了相关技术中固件升级时安全性低的技术问题。
+14. 106802811 程序写入方法和装置
+CN
+06.06.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201611075581.0
+硅谷数模半导体(北京)有限公司
+史文森
+G06F 9/445
+Loading...
+本发明公开了一种程序写入方法和装置。该方法包括：从预留区域中获取已经写入到存储区域的第一程序的第一起始地址，其中，存储区域为一次性可编程器件中的存储区域，存储区域中预留了多个预留区域，每个预留区域均用于保存在存储区域中存储的程序的起始地址；获取在存储区域中紧邻第一程序之后的能够写入第二程序的地址；获取第二起始地址，其中，第二起始地址的值满足如下条件：大于等于能够写入第二程序的地址、并且将能够写入第二程序的地址中的0修改为1后能够得到的；根据第二起始地址将预留区域中的第一起始地址中的0修改为1；从第二起始地址写入第二程序。通过本发明，解决了相关技术中OTP程序起始地址烧录次数有限的问题。
+15. 106776427 通信方法及装置
+CN
+31.05.2017
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+102016001107569
+硅谷数模半导体(北京)有限公司
+王少亮
+G06F 13/40
+Loading...
+本发明公开了一种通信方法及装置。其中，该方法包括：微处理器接收通信请求；响应于所述通信请求，所述微处理器与外部USB设备进行通信，以得到与所述电源请求信息对应的请求结果；所述微处理器将所述请求结果发送至主控芯片，所述微处理器在USB控制器中。本发明解决了由于主控芯片无法及时响应通信请求而导致通信失败的技术问题。
+16. 106776016 应用程序处理方法和装置
+CN
+31.05.2017
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+102016001075592
+硅谷数模半导体(北京)有限公司
+李金秀
+G06F 9/50
+Loading...
+本发明公开了一种应用程序处理方法和装置。其中，该方法包括：将应用程序中的目标变量定义为目标全局变量，其中，应用程序包括多个子程序；在执行第一子程序的过程中判断是否存在第一全局变量，其中，第一全局变量为目标全局变量中的允许第一子程序使用的全局变量，多个子程序包括第一子程序；在执行第一子程序的过程中存在第一全局变量的情况下，使用第一全局变量执行第一子程序，并在执行完第一子程序之后释放第一全局变量。本发明解决了相关技术中价格较低的单片机的RAM空间较小的技术问题。
+17. 106648504 数据处理方法和装置、转换器
+CN
+10.05.2017
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+102016001051765
+硅谷数模半导体(北京)有限公司
+黄发乾
+G06F 3/14
+Loading...
+本发明公开了一种数据处理方法和装置、转换器。其中，该方法包括：根据EDID数据规范解析第一EDID数据，得到多个时序，其中，第一EDID数据为下游EDID数据，第一EDID数据暂存在本地EDID存储器中；获取多个时序中每个时序所需要的带宽；在第一时序所需要的带宽大于第一预设带宽的情况下，按照第一时序的数据结构做滤除操作，得到第二EDID数据，其中，第一时序为多个时序中任意一个时序；将第二EDID数据存储到本地EDID存储器中，以便HDMI源进行读取。本发明解决了现有技术中HDMI到DP的转换器带宽超限的技术问题。
+18. 106656229 抖动数据的注入方法和电路，及眼图监测器
+CN
+10.05.2017
+H04B 1/16 Loading...
+H04B 1/16
+Loading...
+102016001069745
+硅谷数模半导体(北京)有限公司
+王立果
+H04B 1/16
+Loading...
+本发明公开了一种抖动数据的注入方法和电路，及眼图监测器。其中，该方法包括：通过眼图监测器向时钟数据恢复电路注入抖动数据；判断时钟数据恢复电路输出的恢复数据是否出现错误；如果恢复数据出现错误，则停止通过眼图监测器注入抖动数据。本发明解决了现有技术从片外向时钟数据恢复电路注入抖动数据，注入过程复杂且效率低的技术问题，可以实现从片内自动注入抖动数据，从而达到测量时钟数据恢复电路的裕度的目的，并且可以达到简化注入过程，提升注入效率，进一步达到降低抖动空间的测试周期，提高抖动空间的测试效率的效果。
+19. 106652871 显示数据信号的生成方法、装置和显示屏
+CN
+10.05.2017
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+201611109110.7
+硅谷数模半导体(北京)有限公司
+张箭
+G09G 3/20
+Loading...
+本发明公开了一种显示数据信号的生成方法、装置和显示屏。其中，该方法包括：检测出显示屏的输入信号的类型；根据输入信号以及输入信号的类型生成驱动电流，其中，驱动电流的大小与输入信号的类型相匹配；根据驱动电流生成显示数据信号，其中，显示屏显示显示数据信号所表示的图像。本发明解决了驱动电流固定造成的显示数据信号生成电路功耗大的技术问题。
+20. 106648754 控制器运行方法及装置
+CN
+10.05.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102016001053569
+硅谷数模半导体(北京)有限公司
+王少亮
+G06F 9/445
+Loading...
+本发明提供了一种控制器运行方法及装置，其中，该方法包括：加载控制器中存储的第一程序模块对应的第一程序，其中，第一程序模块包括：CC/VBUS监控模块，CC/VBUS监控模块用于对CC的状态和VBUS的时序进行监控；执行第一程序，同时加载第二程序模块对应的第二程序，其中，第二程序包括控制器中存储的除第一程序之外的其它程序，解决了相关技术中控制器运行的方法无法满足程序的时序要求的问题，满足了控制器运行的方法对应程序的时序要求。
+21. 106597066 USBType‑C总线电压的采样电路
+CN
+26.04.2017
+G01R 19/165 Loading...
+G01R 19/165
+Loading...
+102016001121630
+硅谷数模半导体(北京)有限公司
+陈香瑜
+G01R 19/165
+Loading...
+本发明公开了一种USBType‑C总线电压的采样电路。其中，该电路包括：第一比较电路，反向输入端输入第一参考电压，正向输入端输入USB Type‑C总线电压，输出端用于根据第一参考电压和总线电压的比较结果输出第一信号，其中，第一信号用于指示第一参考电压和总线电压的大小关系；第二比较电路，反向输入端输入第二参考电压，正向输入端输入USB Type‑C总线电压，输出端用于根据第二参考电压和总线电压的比较结果输出第二信号，其中，第二信号用于指示第二参考电压和总线电压的大小关系，其中，第一比较电路和第二比较电路的输出端所输出的结果用于表示总线电压的电压范围。本发明解决了现有的USB Type‑C USB总线电压测量使用ADC电路过于复杂的技术问题。
+22. 106569923 集成电路的静电检测系统、控制方法和装置
+CN
+19.04.2017
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201610956971.2
+硅谷数模半导体(北京)有限公司
+彭俊良
+G06F 11/22
+Loading...
+本发明公开了一种集成电路的静电检测系统、控制方法和装置。其中，该方法包括：监测装置，与集成电路中的数据处理器相连，用于监测数据处理器是否运行错误，并确定运行错误的数据处理器的错误类型；控制器，与监测装置相连，用于根据数据处理器的错误类型，对数据处理器进行复位或对集成电路进行复位。本发明解决了现有技术中集成电路由于静电导致的电子设备可靠性低的技术问题。
+23. 106549459 充电电压的确定方法和移动终端
+CN
+29.03.2017
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201611247060.9
+硅谷数模半导体(北京)有限公司
+陈香瑜
+H02J 7/00
+Loading...
+本发明公开了一种充电电压的确定方法和移动终端，其中，该方法用于确认充电器是否为符合USB Type‑C规范的标准充电器，如果确认是非标准充电器，就只用默认电压充电，详细的技术方案包括：在移动终端充电时，检测该移动终端上的通用串行总线USB Type‑C接口中CC管脚的第一电压值；该移动终端依据该第一电压值确定为该移动终端充电的充电电压。采用上述技术方案，解决了相关技术中由于非标准线缆的存在，不能用高电压对终端进行快速充电，实现了移动终端可以识别线缆是否为标准线缆，相应的确定是否进行快速充电。
+24. 106453168 接收机的自适应均衡方法和装置
+CN
+22.02.2017
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201610792058.3
+硅谷数模半导体(北京)有限公司
+巨浩
+H04L 25/03
+Loading...
+本发明公开了一种接收机的自适应均衡方法和装置。其中，该算法包括：获取接收机的时钟数据恢复电路输出的第一码型数据和第二码型数据，其中，第一码型数据和第二码型数据由时钟数据恢复电路分别从第一路数据和第二路数据中提取得到，第一路数据和第二路数据由待接收数据依次经过接收机的线性均衡器和判决反馈均衡器的补偿得到,线性均衡器的带宽为待接收数据的速率的1/4；根据第一码型数据和第二码型数据确定补偿信息；根据补偿信息调整判决反馈均衡器的判决反馈均衡系数。本发明解决了由于信道的损耗变化比较复杂造成的接收端信号质量差的技术问题。
+25. 106445752 显示测试方法和装置
+CN
+22.02.2017
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201610789856.0
+硅谷数模半导体(北京)有限公司
+郭春成
+G06F 11/22
+Loading...
+本发明公开了一种显示测试方法和装置。该方法包括：eDP TCON在BIST模块输出第一图案后，抓取整帧；在BIST模块输出第二图案后，从第二图案中获取选中区域的图案，eDP TCON的存储器中的帧画面更新区域用于指示选中区域的图案的存储位置，预更新区域用于指示选中区域的图案的数据，eDP TCON中的控制寄存器用于控制开启或关闭屏幕自刷新模式2；eDP TCON通过控制寄存器进入屏幕自刷新模式2；将第一图案和第二图案中的选中区域的图案进行混合显示，以对显示进行测试。本发明解决了相关技术中芯片屏幕自刷新功能的测试对eDP source依赖较高，导致测试效率较低、可靠性较差的技术问题。
+26. 106451594 USB type C设备的充电检测方法和装置
+CN
+22.02.2017
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201610620650.5
+硅谷数模半导体(北京)有限公司
+文其林
+H02J 7/00
+Loading...
+本发明公开了一种USB type C设备的充电检测方法和装置。其中，该方法包括：获取USB type C设备上配置信号的电压；检测配置信号的电压是否超过第一阈值；在检测到配置信号的电压超过第一阈值的情况下，禁止对USB type C设备进行高压充电；以及在检测到配置信号的电压未超过第一阈值的情况下，允许对USB type C设备进行高压充电。本发明解决了相关技术中USB type C设备进行高压充电时配置信号极易损坏的技术问题。
+27. 106445044 数据转换接口的保护方法和系统
+CN
+22.02.2017
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201610686699.0
+硅谷数模半导体(北京)有限公司
+文其林
+G06F 1/26
+Loading...
+本发明公开了一种数据转换接口的保护方法和系统。其中，该系统包括：数据传输接口、保护电路和数据发送芯片，其中：数据发送芯片，用于传输数据输出设备输出的数据；数据传输接口，用于连接终端设备；保护电路的一端与数据传输接口的第一端口组相连接，并保护电路的另外一端与数据发送芯片的第二端口组相连接，用于在检测到数据发送芯片的第二端口组的输出的电压高于预设电压的情况下，断开数据转换接口和数据输出设备之间的通信连接。本发明解决了现有技术中无法对UCB Type C控制芯片中的SBU1和SBU2管脚进行保护的技术问题。
+28. 106411797 接收机的自适应均衡方法和装置
+CN
+15.02.2017
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+102016000792056
+硅谷数模半导体(北京)有限公司
+巨浩
+H04L 25/03
+Loading...
+本发明公开了一种接收机的自适应均衡方法和装置。该方法包括：获取时钟数据恢复电路输出的第一码型数据、第二码型数据和第三码型数据，其中第一和第二码型数据分别从第一和第二路数据中提取得到，第三码型数据从第一或第二路数据中提取到，第一和第二路数据由待接收数据依次经过接收机的线性均衡器和判决反馈均衡器的补偿得到,线性均衡器的带宽为待接收数据的速率的1/4；根据第一码第二码型数据确定第一补偿信息，根据第三码型数据确定第二补偿信息；根据第一补偿信息调整判决反馈均衡器的判决反馈均衡系数，根据第二补偿信息调整线性均衡器的高频补偿增益。本发明解决了由于信道的损耗变化比较复杂造成的接收端信号质量差的技术问题。
+29. 106405386 芯片的测试方法和装置
+CN
+15.02.2017
+G01R 31/3185 Loading...
+G01R 31/3185
+Loading...
+102016000720821
+硅谷数模半导体(北京)有限公司
+翟英
+G01R 31/3185
+Loading...
+本发明公开了一种芯片的测试方法和装置。其中，该装置包括：现场可编程门阵列，生成用于测试待测试芯片的至少一个测试图像；数据转换装置，通过现场可编程门阵列的第一数据传输接口与现场可编程门阵列电连接，用于将现场可编程门阵列生成的测试图像的图像数据转换成目标信号；待测试芯片，通过数据转换装置的第二数据传输接口与数据转换装置电连接，用于根据目标信号生成控制信号，其中，控制信号用于控制显示器显示测试图像。本发明解决了现有技术中对TCON进行测试时，测试功能较单一的技术问题。
+30. 106371959 显示测试方法和装置
+CN
+01.02.2017
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+102016000785645
+硅谷数模半导体(北京)有限公司
+郭春成
+G06F 11/22
+Loading...
+本发明公开了一种显示测试方法和装置。该方法包括：eDP TCON在eDP source输出第一图案后，抓取整帧；在eDP source输出第二图案后，从第二图案中获取选中区域的图案，eDP TCON的存储器中的帧画面更新区域用于指示选中区域的图案的存储位置，eDP TCON的控制寄存器用于开启或者关闭屏幕自刷新模式2；eDP TCON通过控制寄存器进入屏幕自刷新模式2；将第一图案和第二图案中的选中的区域进行混合显示，以对显示进行测试。本发明解决了相关技术中芯片的屏幕自刷新功能的测试对eDp source或DP source的依赖较高，导致测试效率较低、可靠性较差的技术问题。
+31. 106354676 通信方法和装置、控制器芯片
+CN
+25.01.2017
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+102016000704189
+硅谷数模半导体(北京)有限公司
+王少亮
+G06F 13/38
+Loading...
+本申请公开了一种通信方法和装置、控制器芯片。其中，该方法包括：第一控制器芯片接收第二控制器芯片发送的第一指令，其中，第一指令携带了第二控制器芯片作为电源的第一参数或者第二控制器芯片作为负载的第二参数；第一控制器芯片根据第一指令中携带的参数，与第一设备通信；第一控制器芯片向第二控制器芯片发送第二指令，其中，第二指令用于指示第二控制器芯片与第一设备进行电力传输。本申请解决了现有技术中由于主控制器芯片响应时间长造成的USB PD通信失败的技术问题。
+32. 106330180 数据时钟恢复电路
+CN
+11.01.2017
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201610687949.2
+硅谷数模半导体(北京)有限公司
+刘金彬
+H03L 7/08
+Loading...
+本发明公开了一种数据时钟恢复电路。其中，该电路包括：数据时钟恢复环路，具有数据输入端和时钟输入端；鉴频器环路，与数据时钟恢复环路连接，用于跟踪数据输入端的输入数据和时钟输入端的输入时钟之间的频率变化，输出频率跟踪所述数据输入端的输入数据率，以供数据时钟恢复环路从中恢复出时钟沿与输入数据的中心点对齐的采样时钟。本发明解决了相关技术中现有的数据时钟恢复电路由于是有参考源的电路而造成的电路设计复杂、系统开销大的技术问题。
+33. 106300950 启动电路及其启动方法
+CN
+04.01.2017
+H02M 1/36 Loading...
+H02M 1/36
+Loading...
+201610786351.9
+硅谷数模半导体(北京)有限公司
+郑金鹏
+H02M 1/36
+Loading...
+本发明公开了一种启动电路及其启动方法。其中，该方法包括：待启动的电路，待启动的电路包括第一输入端、第二输入端和第三输入端；开关SW1，开关SW1的第一端与第一输入端相连接，第一输入端连接高电平；电容C1，电容C1的一端与开关SW1的第二端相连接，电容C1的另一端连接低电平，第三输入端连接低电平；开关SW2，开关SW2的第一端与开关SW1的第二端相连接，开关SW2的第二端连接第二输入端。本发明解决了现有的启动电路耗费功耗的技术问题。
+34. 106302281 接收机的自适应均衡方法和装置
+CN
+04.01.2017
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+102016000792087
+硅谷数模半导体(北京)有限公司
+巨浩
+H04L 25/03
+Loading...
+本发明公开了一种接收机的自适应均衡方法和装置。其中，该方法包括：获取接收机的时钟数据恢复电路输出的码型数据，其中，码型数据由时钟数据恢复电路从待接收数据中提取得到；根据码型数据确定补偿信息，其中，补偿信息用于对接收机的线性均衡器进行调节；根据补偿信息调整线性均衡器的高频补偿增益，其中，线性均衡器用于对待接收数据进行补偿，线性均衡器采用的带宽为待接收数据的速率的1/4。本发明解决了由于信道的损耗变化比较复杂造成的接收端信号质量差的技术问题。
+35. 106253011 数据接口的转换装置
+CN
+21.12.2016
+H01R 31/06 Loading...
+H01R 31/06
+Loading...
+201610785100.9
+硅谷数模半导体(北京)有限公司
+文其林
+H01R 31/06
+Loading...
+本发明公开了一种数据接口的转换装置。其中，该装置包括：第一数据接口，第一数据接口与终端设备相连接；第二数据接口，第二数据接口的检测端口与第一数据接口的第一端口组中的全部或者部分第一端口相连接，第二数据接口的数据输入端口与第一数据接口的第二端口组中的部分或者全部第二端口相连接；第三数据接口，第三数据接口的电源传输端口与第一数据接口的第三端口组相连接，其中，第三数据接口通过电源传输端口和第三端口组向终端设备传输的电力信号。本发明解决了在终端设备取消耳机接口时，无法满足在用户收听音频文件的同时对终端设备进行充电的技术问题。
+36. 106207687 数据接口的转换方法和装置
+CN
+07.12.2016
+H01R 31/06 Loading...
+H01R 31/06
+Loading...
+102016000785070
+硅谷数模半导体(北京)有限公司
+文其林
+H01R 31/06
+Loading...
+本发明公开了一种数据接口的转换方法和装置。其中，该装置包括：第一数据接口、第二数据接口和第三数据接口，其中：第二数据接口和第一数据接口通过第一数据线相连接，第三数据接口和第一数据接口通过第二数据线相连接，其中，第一数据接口与终端设备相连接，用于通过第二数据接口和第一数据线向音频输出设备输出音频信号，并且接收通过第三数据接口和第二数据线向终端设备传输的电力信号。本发明解决了现有技术中数据转换线的数据转换形式比较单一的技术问题。
+37. 105786576 基于串口的芯片调试方法和装置
+CN
+20.07.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102016000154450
+硅谷数模半导体(北京)有限公司
+侯建桥
+G06F 9/445
+Loading...
+本发明公开了一种基于串口的芯片调试方法和装置。其中，该方法包括：在接收到芯片调试信号时将串口切换至通信接口模式，其中，芯片调试信号用于请求对待调试芯片进行调试；根据芯片调试信号获取待调试芯片所需的调试程序；以及通过串口将调试程序下发至待调试芯片，其中，待调试芯片利用调试程序进行调试。本发明解决了相关技术需要专用烧录器对芯片进行程序烧录造成增加芯片调试成本的技术问题。
+38. 105740118 芯片异常检测方法和装置及电路面板异常检测方法和装置
+CN
+06.07.2016
+G06F 11/267 Loading...
+G06F 11/267
+Loading...
+102016000066180
+硅谷数模半导体(北京)有限公司
+袁森
+G06F 11/267
+Loading...
+本发明公开了一种芯片异常检测方法和装置及电路面板异常检测方法和装置。其中，该芯片异常检测方法包括：利用待检测芯片内控制器中的预设应用程序获取待检测芯片内至少一个寄存器中存储的状态信息；利用预设应用程序检测状态信息是否异常；以及在预设应用程序检测到状态信息异常时，确定待检测芯片异常。本发明解决了相关技术采用静电枪对电子芯片的静电放电进行检测，导致电子芯片静电放电检测效率低的技术问题。
+39. 105740117 芯片调试方法和装置
+CN
+06.07.2016
+G06F 11/267 Loading...
+G06F 11/267
+Loading...
+102016000065752
+硅谷数模半导体(北京)有限公司
+侯建桥
+G06F 11/267
+Loading...
+本发明公开了一种芯片调试方法和装置。其中，该方法包括：接收调试命令选择信号，其中，调试命令选择信号为用于从调试命令集合中选择任意一个或者多个调试命令的信号，调试命令为用于调试芯片的命令；将按照调试命令选择信号从调试命令集合中选择的一个或者多个调试命令发送至待调试芯片；以及利用从调试命令集合中选择的一个或者多个调试命令调试待调试芯片。本发明解决了相关技术基于串口终端采用手动输入调试命令对芯片进行调试，导致芯片调试效率低的技术问题。
+40. 105591355 USB-C控制芯片及其保护电路和USB-C系统
+CN
+18.05.2016
+H02H 3/20 Loading...
+H02H 3/20
+Loading...
+201610101865.6
+硅谷数模半导体(北京)有限公司
+文其林
+H02H 3/20
+Loading...
+本发明公开了一种USB-C控制芯片及其保护电路和USB-C系统。该USB-C控制芯片保护电路包括：第一NMOS晶体管，串联在USB-C控制芯片的第一接口与第一外部元件之间，其中，当第一NMOS晶体管的漏极电压超过阈值电压时，第一NMOS晶体管的源极与漏极之间断开；以及第二NMOS晶体管，串联在USB-C控制芯片的第二接口与第二外部元件之间，其中，当第二NMOS晶体管的漏极电压超过阈值电压时，第二NMOS晶体管的源极与漏极之间断开。通过本发明，解决了相关技术中USB-C控制芯片的内部电路易被输入的高电压损坏的问题。
+41. 105590603 源极驱动器及显示系统
+CN
+18.05.2016
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+201610105369.8
+硅谷数模半导体(北京)有限公司
+孙盟哲
+G09G 3/36
+Loading...
+本发明公开了一种源极驱动器及显示系统。其中，该源极驱动器包括：接收端，用于接收视频数据流和控制命令；源极驱动模块，用于驱动像素阵列以显示与视频数据流对应的图像；时序控制模块，连接在接收端和源极驱动模块之间，用于根据控制命令将来自接收端的视频数据流以指定时序传递给源极驱动模块。本发明解决了相关技术中由于源极驱动器和时序控制器必须分别设置在独立芯片上而造成系统尺寸增大、系统功耗增加的技术问题。
+42. 105356862 动态触发器
+CN
+24.02.2016
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+201510869587.4
+硅谷数模半导体(北京)有限公司
+姚维连
+H03K 3/02
+Loading...
+本发明公开了一种动态触发器。该动态触发器包括：信号转换电路，用于将输入信号转换为输出信号，信号转换电路包括待调节节点；以及电压调节电路，用于在动态触发器的输入信号处于待调节状态时，调节待调节节点的电压。通过本发明，解决了相关技术中动态触发器设计缺陷导致的动态触发器工作频率范围小的问题。
+43. 105182018 电压调节电路及其电压调节方法
+CN
+23.12.2015
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201510714234.7
+硅谷数模半导体(北京)有限公司
+郭方正
+G01R 1/28
+Loading...
+本发明公开了一种电压调节电路及其电压调节方法。其中，该电压调节电路包括：电源管理芯片，输入端与适配器电源相连接，用于将适配器电源的电压转换为输出电压；适配电阻，与电源管理芯片的反馈端相连接，用于调节适配器电源的电压为中心电压；微调器件，与适配电阻相连接，与电源管理芯片的输出端相连接，用于对中心电压进行微调以使输出电压为目标电压，其中，目标电压为[a-b，a+b]范围内的任意一个值，a为中心电压，b为目标电压的最大浮动值。本发明解决了无法准确调节供电电压的技术问题。
+44. 105161139 电子芯片的测试系统、方法及装置
+CN
+16.12.2015
+G11C 29/56 Loading...
+G11C 29/56
+Loading...
+201510532993.1
+硅谷数模半导体(北京)有限公司
+彭俊良
+G11C 29/56
+Loading...
+本发明公开了一种电子芯片的测试系统、方法及装置。其中，该系统包括：可编程处理器，用于对测试图像进行预处理，得到测试图像的子图像或者像素点的灰度值，并将测试图像的子图像或者像素点的灰度值发送至待测芯片，其中，测试图像为用于测试待测芯片的图像；待测芯片，用于按照可编程处理器输出的测试图像的子图像或者像素点的灰度值还原测试图像，并利用测试图像进行测试；以及控制器，用于对待测芯片的测试过程进行控制。本发明解决了相关技术中电子芯片的自动测试系统因其内部带有flash、DDR存储模块，导致自动测试系统的硬件成本较高、软件开发周期较长的技术问题。
+45. 105163570 抗电磁干扰方法和装置
+CN
+16.12.2015
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+201510498059.2
+硅谷数模半导体(北京)有限公司
+彭俊良
+H05K 9/00
+Loading...
+本发明公开了一种抗电磁干扰方法和装置。其中，该方法包括：检测目标芯片的干扰噪声，其中，干扰噪声的频率落在目标芯片的工作频段内；以及调整目标芯片的基础时钟频率直至干扰噪声的频率移出工作频段，其中，干扰噪声的频率为干扰模块的频率与谐波次数的乘积，干扰模块为目标芯片内部产生干扰噪声的模块，干扰模块的频率为目标芯片的基础时钟频率经过倍频后的频率。本发明解决了相关技术采用为芯片设置屏蔽罩解决芯片电磁干扰问题造成的提高硬件成本的技术问题。
+46. 105138365 接口转换器的升级方法和装置
+CN
+09.12.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510521010.4
+硅谷数模半导体(北京)有限公司
+潘胜
+G06F 9/445
+Loading...
+本发明公开了一种接口转换器的升级方法和装置。其中，该方法包括：终端设备与待升级接口转换器建立通讯连接，其中，终端设备中安装有用于对待升级接口转换器进行升级的应用程序；终端设备运行应用程序以对待升级接口转换器升级。本发明解决了现有技术中接口转接器升级不便的技术问题。
+47. 105070711 抗电磁干扰方法和装置
+CN
+18.11.2015
+H01L 23/58 Loading...
+H01L 23/58
+Loading...
+201510509486.6
+硅谷数模半导体(北京)有限公司
+彭俊良
+H01L 23/58
+Loading...
+本发明公开了一种抗电磁干扰方法和装置。其中，该方法包括：检测目标芯片的干扰噪声，其中，干扰噪声的频率落在目标芯片的工作频段内，且干扰噪声的幅度高于预设阈值；以及通过对目标芯片的基础时钟频率进行扩频使干扰噪声的幅度小于预设阈值，其中，干扰噪声由目标芯片内部模块工作频率的谐波产生，目标芯片内部模块的工作频率为基础时钟频率倍频后的频率。本发明解决了相关技术采用为芯片内部每个模块设置扩频模块的方式消除芯片电磁干扰造成的提高硬件成本的技术问题。
+48. 104980316 数据链路监测方法及装置
+CN
+14.10.2015
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510334443.9
+硅谷数模半导体(北京)有限公司
+肖勇
+H04L 12/26
+Loading...
+本发明公开了一种数据链路监测方法及装置。其中，该方法包括：接收预设参数组合，其中，预设参数组合为信号幅度参数和预加重参数的组合；判断在预设参数组合下数据链路是否被锁定；在判断出数据链路被锁定时，获取数据链路的误码数量；以及根据误码数量监测数据链路。本发明解决了由于数据链路性能监测需要借助于专门的仪器造成的数据链路性能监测不方便的技术问题。
+49. 104009813 Electrostatic discharging detection method, device and system
+CN
+27.08.2014
+H04B 17/20 Loading...
+H04B 17/20
+Loading...
+201410228455.9
+硅谷数模半导体(北京)有限公司
+谢青青
+H04B 17/20
+Loading...
+The invention discloses an electrostatic discharging detection method, device and system. The method comprises the steps that error code data of a receiving end are collected in real time; whether the error code data meet preset conditions or not in a preset time duration is judged; under the situation that the error code data in the preset time duration meet the preset conditions, the fact that electrostatic discharging occurs in the preset time duration is determined. By means of the electrostatic discharging detection method, device and system, the problems that in the prior art, the detection of electrostatic discharging is interfered by a power supply and is in accurate are solved, and the effect of accurately detecting electrostatic discharging is achieved.
+50. 103699165 Voltage control device
+CN
+02.04.2014
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201310596692.6
+硅谷数模半导体(北京)有限公司
+侯中原
+G05F 1/56
+Loading...
+The invention discloses a voltage control device. The voltage control device comprises a reference voltage generator, a main calibrator and slave calibrators, wherein the reference voltage generator is used for generating reference voltage by controlling a band-gap reference voltage source, a positive input end of an operational amplifier in the main calibrator is connected with a reference voltage output end of the reference voltage generator, and the slave calibrators are connected with an output end of the main calibrator. According to the voltage control device disclosed by the invention, the problem in the prior art that the power supply voltage of a device is unstable is solved.
+51. 103684525 Signal transmission circuit
+CN
+26.03.2014
+H04B 3/04 Loading...
+H04B 3/04
+Loading...
+201310661264.7
+硅谷数模半导体(北京)有限公司
+郑金鹏
+H04B 3/04
+Loading...
+The invention discloses a signal transmission circuit. The signal transmission circuit comprises auxiliary transmission lines arranged on the outer sides of a plurality of signal transmission lines side by side and used for transmitting second clock signals with the clock frequency. The signal transmission lines comprise outermost side transmission lines adjacent to the auxiliary transmission lines, and second-outermost side transmission lines adjacent to the outermost side transmission lines; the phase position of the second clock signals, the phase position of first clock signals corresponding to the outermost side transmission lines and the phase position of first clock signals corresponding to the second-outermost side transmission lines are the same and shift forwards or backwards in sequence. According to the signal transmission circuit, the technical problem that the signal quality of the clock signals transmitted by the outermost signal transmission lines in the signal transmission lines arranged side by side and used for transmitting the multi-phase clock signals with the same frequency is poor is solved.
+52. 203104401 电平转换电路和低压差分电路
+CN
+31.07.2013
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201220712111.1
+硅谷数模半导体(北京)有限公司
+隋海建
+H03K 19/0175
+Loading...
+本实用新型提供了一种电平转换电路和低压差分电路。其中，电平转换电路包括：输入端，用于接收输入电压；转换单元，与输入端相连接，用于对输入电压进行转换，得到转换电压；输出端，与转换单元相连接；以及补偿单元，与第一节点相连接，用于对转换电压进行补偿，其中，第一节点为转换单元与输出端之间的节点。通过本实用新型，解决了现有技术中进行电平高速转换时容易造成直流分量损失的问题，进而达到了避免电平转换时出现分量损失，提高了电平转换电路的适用性。
+53. 103218966 显示面板内部接口的数据传输方法和装置
+CN
+24.07.2013
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+201310113318.6
+硅谷数模半导体(北京)有限公司
+王鑫
+G09G 3/20
+Loading...
+本发明公开了一种显示面板内部接口的数据传输方法和装置。其中，显示面板内部接口的数据传输方法包括：显示面板内部接口的发送端将TCON侧的显示数据映射为显示面板内部接口的数据信道上数据包；发送端对数据包进行编码；发送端经由数据信道、采用固定速率发送编码后的数据包至显示面板内部接口的接收端；接收端根据数据包对应的固定速率获取时钟信息；接收端根据时钟信息对数据包进行解码；以及接收端将解码后的数据包传输至SD。通过本发明，解决了现有技术中显示面板的电磁干扰较高的问题，进而达到了降低电磁干扰、提高抗干扰性的效果。
+54. WO/2013/104254 CONTROL METHOD, DEVICE AND SYSTEM FOR RECEIVING DEVICE AND VIDEO REFRESH FREQUENCY
+WO
+18.07.2013
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+PCT/CN2012/087533
+ANALOGIX (CHINA) SEMICONDUCTOR, INC
+WANG, Xin
+H04N 7/24
+Loading...
+A control method, device and system for receiving device and video refresh frequency, the method comprising: receiving a video stream and the first refresh frequency of the video stream (S102), the video stream comprising one or more video frames; saving the video stream to a frame buffer area (S104); invoking each video frame in the frame buffer area, and controlling the output time of each video frame according to a second refresh frequency, the first refresh frequency being greater than the second refresh frequency (S106). The present method improves the energy performance on a panel side, thus reducing the power consumption of the whole display system.
+55. 103167289 Method and device for coding and decoding image
+CN
+19.06.2013
+H04N 19/61 Loading...
+H04N 19/61
+Loading...
+201310071693.9
+硅谷数模半导体(北京)有限公司
+李瑞玲
+H04N 19/61
+Loading...
+The invention discloses a method and a device for coding and decoding an image. The coding method comprises the following steps of: calculating the actual length of a first prediction error value of a color channel of pixels adjacent to pixels to be coded in the last row of pixels of the pixels to be coded in the image and the actual length of a second prediction error value of a color channel of the pixels to be coded; determining the used coding length according to the actual length of the first prediction error value and the actual length of the second prediction error value; and writing a coding rule tag corresponding to the coding length and the second prediction error value into code stream corresponding to the pixels to be coded according to the coding length. By adopting the method and the device, the problem that the compression algorithm for the image cannot simultaneously meet the design requirement of a hardware circuit with low complexity, low power consumption and high speed is solved, so that the performance of the image compression algorithm is improved.
+56. WO/2012/155401 TIMING CONTROLLER AND LCD USING THE SAME
+WO
+22.11.2012
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+PCT/CN2011/078490
+ANALOGIX (CHINA) SEMICONDUCTOR, INC.
+WANG, Xin
+G09G 3/36
+Loading...
+A timing controller and an LCD using the same are provided. Wherein, the timing controller consists of a data conversion module (10) for converting serial video stream data inputted into parallel video stream data, a memory (30) for storing the parallel video stream data and an output module (50) connected with the memory (30) to generate a preset clock signal and output the parallel data stream under the control of the preset clock signal. By the application of the technical solution in the invention, the problem in the prior art that the video stream data output rate of the timing controller is influenced by an input can be solved. Moreover, because the output video stream data is controlled by a self-generated clock signal, the problem in the prior art that long locking time of the timing controller is solved.
+57. WO/2011/137613 INTERFACE CIRCUIT OF DISPLAY PANEL AND DISPLAY PANEL
+WO
+10.11.2011
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+PCT/CN2010/076612
+ANALOGIX (CHINA) SEMICONDUCTOR, INC
+WANG, Yong
+H03K 19/0175
+Loading...
+An interface circuit of a display panel and the display panel are provided. The interface circuit of the display panel is connected with a source driver. The interface circuit includes a constant current source, a first resistance, a second resistance, a first triode, and a second triode. The gate of the first triode is connected with a first signal input end, the source of it is connected with a first end of the constant current source, and the drain of it is connected with a first input end of a receiving circuit. The gate of the second triode is connected with a second signal input end, the source of it is connected with a second end of the constant current source, and the drain of it is connected with a second input end of the receiving circuit. The first input end of the receiving circuit is connected with a first voltage of the source driver through the first resistance, and the second input end of the receiving circuit is connected with the first voltage of the source driver through the second resistance. By using the interface circuit, the power loss can be reduced.
+58. 102222457 Timing controller and liquid crystal display (LCD) with same
+CN
+19.10.2011
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+201110131088.7
+Analogix (Beijing) Co., Ltd.
+Wang Xin
+G09G 3/20
+Loading...
+The invention provides a timing controller and a liquid crystal display (LCD) with the same. The timing controller comprises a data conversion module (10), a storage (30) and an output module (50), wherein the data conversion module (10) is used for converting input serial video stream data into parallel video stream data; the storage (30) is used for storing the parallel video stream data; and the output module (50) is connected with the storage (30), and is used for generating a preset clock signal and outputting the parallel video stream data under the control of the preset clock signal. By applying the technical scheme in the invention, the problem that the video stream data output rate of the timing controller in the prior art is influenced by inputting can be sovled. Moreover, because the output video stream data is controlled by a self-generated clock signal, the problem of long locking time of the timing controller in the prior art is solved.
+59. 102064825 Clock and data recovery circuit and integrated chip with same
+CN
+18.05.2011
+H03L 7/099 Loading...
+H03L 7/099
+Loading...
+201010590700.2
+Analogix (China) Semiconductor Inc.
+Li Qi
+H03L 7/099
+Loading...
+The invention provides a clock and data recovery circuit and an integrated chip with the same, wherein a frequency adjustment loop of the clock and data recovery circuit comprises a frequency detector, a first charge pump, a resistor, a voltage-controlled oscillator, a capacitor and a voltage follower, wherein the first input end of the frequency detector is used for inputting data; the input end of the first charge pump is connected with the output end of the frequency detector and the output end forms a control node; one end of the resistor is connected to the control node; the input end of the voltage-controlled oscillator is connected with the other end of the resistor and the output end is connected with a clock output terminal and connected with the second input end of the frequency detector; one end of the capacitor is connected with the control node and the other end is grounded; and the anode input end of the voltage follower is connected to a voltage source and the output end is connected with the cathode input end and then connected to the control node. The invention ensures that the outside does not need to provide a reference clock signal for the clock and data recovery circuit so that the cost is reduced; meanwhile, training is not necessary to be carried out through sending the clock signal before data is input, thus the clock and data recovery circuit is used more flexibly.
+60. 101964656 Phase locked loop
+CN
+02.02.2011
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201010269507.9
+Analogix Semiconductor (Beijing) Co., Ltd.
+Wang Xin
+H03L 7/08
+Loading...
+The invention provides a phase locked loop (PLL). The phase locked loop comprises an oscillating clock generator, a phase discriminator, a voltage-controlled oscillator and a frequency dividing module, wherein the oscillating clock generator is used for generating a reference clock signal; the phase discriminator is used for converting difference between the reference clock signal and a clock signal which is output by the frequency dividing module and is subjected to frequency division into a voltage signal; the voltage-controlled oscillator is used for converting the voltage signal into a voltage-controlled oscillator output clock signal; and the frequency dividing module is used for dividing frequency of the voltage-controlled oscillator output clock signal to obtain the clock signal which is subjected to the frequency division according to the frequency error between the reference clock signal and the voltage-controlled oscillator output clock signal and outputting the clock signal which is subjected to the frequency division to the input end of the phase discriminator. The phase locked loop solves the problems of low clock accuracy and high jitter produced by PLL in related technology, and achieves the effect of improving the accuracy of the generated clock signal and reducing the jitter of the generated clock signal.
+61. 101937412 System on chip and access method thereof
+CN
+05.01.2011
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201010282508.7
+Analogix Semiconductor (Beijing)Inc.
+Wang Xin
+G06F 13/38
+Loading...
+The invention provides a system on chip and an access method thereof. The system on chip comprises an OSB (Oriented Shaving Board) as well as a master device and a slave device which are connected on the OSB, wherein the master device is used for sending an access request for requesting accessing the slave device to the OSB; the OSB is used for sending the access request from the master device to the slave device and sending the results of relevant operations performed by the slave device according to the access request to the master device; and the slave device is used for performing relevant operations according to the access request and sending the results of the relevant operations to the OSB. The simultaneous working of sufficient different bus control modules is supported on same bus system by reducing the access efficiency of each bus control module, no conflict occurs, and no instantaneous bus efficiency reduction is produced; thus, the problems of complex bus structure and difficult realization existing in relevant technologies are solved.
+62. 201655270 显示面板的接口电路及显示面板
+CN
+24.11.2010
+G09G 5/00 Loading...
+G09G 5/00
+Loading...
+201020186341.X
+硅谷数模半导体(北京)有限公司
+王勇
+G09G 5/00
+Loading...
+本实用新型公开了一种显示面板的接口电路及显示面板。该显示面板的接口电路与源驱动器相连接，包括：恒流源；第一电阻；第一三极管，栅极连接于第一信号输入端，源极连接于恒流源的第一端，漏极连接于接收电路的第一输入端，其中，接收电路的第一输入端经由所述第一电阻连接于源驱动器的第一电压；第二电阻；第二三极管，栅极连接于第二信号输入端，源极连接于恒流源的第二端，漏极连接于接收电路第二输入端，其中，接收电路的第二输入端经由所述第二电阻连接于源驱动器的第一电压。通过本实用新型，能够有效地降低差分信号电路的功率损耗。
+63. 101849401 Systems and methods for powering circuits for a communications interface
+CN
+29.09.2010
+H04M 1/00 Loading...
+H04M 1/00
+Loading...
+200880114589.0
+硅谷数模半导体有限公司
+迟宏武
+H04M 1/00
+Loading...
+Embodiments include systems and methods of powering data communications transmitter circuitry using current sinked from biasing circuitry used to bias a transmission line between the data communications transmitter circuitry and data communications receiver circuitry. In some embodiments, the current sinked from the biasing circuitry is sourced by a power supply configured to power the data communications receiver circuitry. The current sinked from the biasing circuitry is then re-used to power the data communications transmitter circuitry. The data communications transmitter circuitry can be operated using less power overall than the prior art by re-using the current first used to bias the transmission line to power the data communications transmitter circuitry. Various embodiments include HDMI transceivers, DVI transceivers, and DisplayPort transceivers.
+64. 101819743 Interface circuit of display panel and display panel
+CN
+01.09.2010
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+201010168161.3
+Analogix Semiconductor (Beijing)Inc.
+Wang Yong
+G09G 3/20
+Loading...
+The invention discloses an interface circuit of a display panel and a display panel. The interface circuit of the display panel is connected with a source driver and comprises a constant current source, a first resistor, a first triode, a second resistor and a second triode, wherein the grid electrode of the first triode is connected with a first signal input end, the source electrode of the first triode is connected with the first end of the constant current source, and the drain electrode of the first triode is connected with the first input end of a receiving circuit, the first input end of the receiving circuit is connected with the first voltage of the source driver through the first resistor; and the grid electrode of the second triode is connected with a second signal input end, the source electrode of the second triode is connected with the second end of the constant current source, and the drain electrode of the second triode is connected with the second input end of the receiving circuit, the second input end of the receiving circuit is connected with the first voltage of the source driver through the second resistor. The invention can effectively reduce the power loss of a differential signal circuit.
+65. 101777309 Self-adapting backlight control method and device
+CN
+14.07.2010
+G09G 3/34 Loading...
+G09G 3/34
+Loading...
+200910244083.8
+Analogix Semiconductor (Beijing) Co., Ltd.
+Zhang Wenchao
+G09G 3/34
+Loading...
+The invention provides a self-adapting backlight control method and a device thereof. The method comprises the following steps: detecting scene changes of a current frame image according to the average value Yavg of brightness components Y of the current frame image and the backlight gray scale BDG of the current frame image; when the scene changes are detected, carrying out inter-frame filtering treatment for the backlight gray scale of a multi-frame images behind the current frame image; and performing backlight control according to the backlight gray scale after the filtering treatment. The self-adapting backlight control method of the invention can be used for adjusting the backlight in a self-adapting way according to the image content, thereby achieving the energy-saving purpose.
+66. 101770760 Frame rate control-dither method for LCD display image
+CN
+07.07.2010
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+200910243249.4
+Analogix( China)Semiconductor, Inc.
+Liu Haifeng
+G09G 3/36
+Loading...
+The invention provides a frame rate control (FRC)-dither method for LCD display image, which comprises: confirming that the pixel of the current k-th frame image is on the R-th line of the current k-th frame image, and confirming that the least significant bit (LSB) of gray value of the pixel appears on the Coutrow of the R-th line; confirming the corresponding point in Dither image corresponding to LSB according to R and Coutrow; and calculating display gray value according to the value of the point and the MSB of the gray value of the pixel, and outputting the display pixel through the display gray value. The invention avoids the image flicker when displaying texture image, and can indicate the gray scale of the image according to the image content by self-adaption.
+67. 101765009 Method for compressing and uncompressing video image and circuit for LCD overdriving
+CN
+30.06.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910244084.2
+Analogix (China) Semiconductor Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention provides a method for compressing and uncompressing a video image and a circuit for LCD overdriving. The video image compressing method comprises the following steps: partitioning the video image into 2*4 blocks to obtain 8 pixel points of a current block; choosing an encoding regulation according to classifying result and gradient information of the current block; and compressing the current block according to the encoding regulation. The invention can choose the relevant encoding regulation with four times of compression ratio by using the classifying result and the gradient information of the video image blocks, so that the method can obtain four times of compression ratio and ensure the compression property at the meantime.
+68. 101673515 Dynamic backlight control method
+CN
+17.03.2010
+G09G 3/34 Loading...
+G09G 3/34
+Loading...
+200910235789.8
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+G09G 3/34
+Loading...
+The invention provides a dynamic backlight control method, which comprises the following steps: a set gray value as the boundary value, the video image pixel that is more than the gray value in a current frame is counted generally, and a one-way statistical vector Hn(i) of the video image pixel is formed, wherein i is equal to 0-(N-1), and N is any natural number within the numeric area of the video gray; a first statistical proper value h1(n) and a second statistical proper value h2(n) of the video image pixel are obtained according to the one-way statistical vector, a preset threshold and apreset complementation threshold; that whether the scene switch is carried out or not is judged according to the first statistical proper value h1(n) and the second statistical proper value h2(n) of the video image pixel, the weight value of IIR filtration is adjusted according to the judging result, and then the self-adaptation IIR filtration can be implemented on the first proper value, so as toobtain the filtration result f(n); and the backlight attenuation and the data gain can be adjusted according to the video image of the filtration result f(n).
+69. 101630485 Backlight driving method and device for digital display system
+CN
+20.01.2010
+G09G 3/34 Loading...
+G09G 3/34
+Loading...
+200910090835.X
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+G09G 3/34
+Loading...
+The invention provides a backlight driving method and a device for a digital display system, wherein, the method comprises the following steps: making the statistics of distribution density of pixels with brightness which is greater than a preset value in a video image, determining backlight brightness dimming proportion, slope of an ideal transfer function for image processing and a turning point of slope change, adjusting backlight according to the backlight brightness dimming proportion, making the statistics of distribution information of a brightness Y component of the video image, and amending the slope and the turning point of the ideal transfer function for image processing according to the distribution information, thereby improving the contrast of the video image. The backlight driving method and the device overcome the problems that when the prior art improves the backlight adjustment precision and reduces the brightness dynamic adjustment, the prior art causes flask risk, needs to increase the number of statistical segments of a histogram, leads the amount of statistical information data to be great, leads the complexity for amending the transfer function to be high and the like.
+70. 101630488 Self-adaptive video image dithering method for digital display system and device thereof
+CN
+20.01.2010
+H04N 1/409 Loading...
+H04N 1/409
+Loading...
+200910090309.3
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+H04N 1/409
+Loading...
+The invention provides a self-adaptive video image dithering method for a digital display system and a device thereof, wherein the method comprises the following steps of: dividing a pixel of the video image into a smooth pixel and non-smooth pixel; and processing the smooth pixel by means of improved space-time FRC dithering, and processing the non-smooth pixel by means of space dithering. The invention solves the problem in the prior art that video content has serious defects caused by processing the different video contents with a single image content dithering method.
+71. 101588497 Frame buffering data compression and decompression method and circuit for LCD overdrive
+CN
+25.11.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910087537.5
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention provides a frame buffering data compression method flow chart for LCD overdrive, including the following steps: executing 2X2 partitioning for the video image, calculating the gradient of the R, G and B color components of the present block in the partitioned video image in the horizontal direction and in the perpendicular direction, obtaining the maximum value of the gradient in horizontal direction and in the perpendicular direction; judging that the gradient of the present block is in the greyscale slow change according to the maximum value of the gradient in horizontal direction and in the perpendicular direction, and executing the gradient increment encoding for the present block according to the gradient. The invention solves the problem in the prior art that the larger block is needed for obtaining over three times of compression ratio, however the larger block size causes the decrease of the compressibility, further the glitter, the step and the like can appear when the bigger anamorphic former frame decompression data is used to execute OverDrive, the movement at the speed being not equal to one half of the block size exists.
+72. 101588498 Video image data compression and decompression method and device
+CN
+25.11.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910087539.4
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention provides a video image data compression method, comprising the following steps: partitioning for the video image data; adopting a compression algorithm to compress the present block of the video image data to obtain a code stream block; adopting a decoding algorithm corresponding to the compression algorithm to decode the code stream block to obtain the rebuilding data of the present block; calculating the distortion degree of the rebuilding data relative to the present block before compressing and storing the distortion flag bit reflecting the distortion degree to the code stream block. The invention solves the problem in the prior art that when the former frame image data information is adopted to execute the video processing, for example, in the motion estimation and movement compensation, the former frame data information usually obtain the data blocks with different rebuilding quality only from the former frame fixed code stream block, which has larger influence on the moving estimate accuracy, even the error can appear.
+73. 101588509 Video picture coding and decoding method
+CN
+25.11.2009
+H04N 11/04 Loading...
+H04N 11/04
+Loading...
+200910087538.X
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Wenchao
+H04N 11/04
+Loading...
+The invention provides a video picture coding and decoding method, wherein, the coding method includes: partitioning for the video image data, dividing the pixel points in the video image data block according to R, G and B color components into two species; recording two classify color CO(RO, GO, BO) and C1(R1, G1, B1) and the pixel point affiliated classified information. The invention solves the problem in the prior art that the BTC algorithm is carried out for one component of the RGB color space or transformation space such as YUV, because only the spacing correlativity of the image block in the horizontal and perpendicular direction is in consideration, but the correlativity of the color space has no full consideration, the obtained compressibility is limited.
+74. 101588499 Image coding and decoding method and device
+CN
+25.11.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910087543.0
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention provides an image coding and decoding method and device, wherein, the coding method includes the following steps: partitioning for the image data according to 1Xn in the horizontal direction, n being the integer more than or equal to 4; calculating the increment of the data point of the image in every block in the horizontal direction, and the variation relationship of the increment; when the variation relationship is the monotonic multiple-gray level, executing the BTC encoding for the increment. The invention solves the problem in the prior art that the BTC algorithm has the essential that the BTC algorithm can execute the two sorting code number for the gray-scale image in the block, and has better compressing effect only for the image of second order grey scale in the block and poor compressing effect of the multiple gray value segment in the horizontal direction.
+75. 101547366 Over-drive image compression method
+CN
+30.09.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200910083865.8
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+H04N 7/26
+Loading...
+The invention provides an over-drive image compression method, which comprises the following steps: dividing image content into a smooth block and a non-smooth block; compressing the smooth block by adopting a mean algorithm; and compressing a central non-smooth area of the non-smooth block by adopting a BTC algorithm. By dividing the image content into the smooth block and the non-smooth block, further compressing the smooth block by adopting the mean algorithm and compressing the central non-smooth area of the non-smooth block by adopting the BTC compression algorithm, the method improves the image compression ratio, can meet the requirements of increasing the size of a liquid crystal panel and improving the resolution, and solves the problems that the image compression method used for LCD over-drive in the prior art has comparatively low compression and cannot meet the requirements of increasing the size of the liquid crystal panel and improving the resolution due to pure BTC algorithm.
+76. 101431678 Image processing equipment and image processing method
+CN
+13.05.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810238960.6
+Analogix Semiconductor, Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention discloses an image processing method and a device thereof. The method includes steps as follows: segmenting each row of the image data according with pre-set length; processing multi-layer one dimensional wavelet transform with pre-set layer for segmented image data and obtaining wavelet coefficient; encoding to wavelet coefficient. The invention also discloses an image processing method and a device thereof, the method includes steps as follows: decoding the compressed encoded data and obtaining reconstructed wavelet coefficient; processing multi-layer one dimensional discrete inverse transformation according with pre-set layer to reconstructed wavelet coefficient and obtaining reconstructed each segment image data; integrating reconstructed each image data and obtaining decoded image data. The invention uses one dimensional segmenting but two-dimensional blocking to the image data, then decodes wavelet coefficient with one dimensional. Needing storing one row at most, so the needed RAM memory has low cost and chip area is reduced.
+77. 101431687 Dynamic contrast and color management method and apparatus
+CN
+13.05.2009
+H04N 9/77 Loading...
+H04N 9/77
+Loading...
+200810238956.X
+Analogix Semiconductor, Inc.
+Zhang Xiufeng
+H04N 9/77
+Loading...
+The invention provides a method and a device for managing dynamic contrast and colour. The method includes steps as follows: dividing brightness, hue and saturation component in colour region into an adjustable region and non-adjustable region; applying an adjusting gain of corresponding component to adjusting gain in the adjusting region based on an adjusting center. The method merges contrast and colour managing, can realize dynamic management for overall contrast in one hardware unit, at the same time can realize setting local contrast in the colour region and colour management for 3D (brightness, hue, saturation component), solves problems that more and complex calculating units leads to chip having high cost in prior art.
+78. 101426138 LCD overdrive frame buffering data compression method and apparatus
+CN
+06.05.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810238961.0
+Analogix (China) Semiconductor, Inc.
+Zhang Wenchao
+H04N 7/26
+Loading...
+The invention discloses an LCD overdrive frame buffering data compression method and device, including: the current sub-frame image data block; blocking the current frame image data; performing down-sampling to the blocked image data; performing block bit-cutting encoding to the blocked image data after down-sampling, and storing the block bit-cutting encoded code stream; reading the block bit-cutting encoded code stream of the front one frame image data; comparing the code stream of each block of the current frame image data with the code stream of the corresponding block of the front one frame image data; if they are identical, outputting the image data of the current block of the current frame; otherwise, performing block bit-cutting encoding and down-sampling interpolation reconstruction to the code stream of the corresponding block of the front one frame image data, and performing overdrive process to the current block data of the current image with the data of the corresponding block of the front frame after down-sampling interpolation reconstruction, for outputting the data of the overdrive lookup table.
+79. 101420517 Image zooming method
+CN
+29.04.2009
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200810238959.3
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+H04N 5/14
+Loading...
+The invention provides an image zooming method, which comprises the following steps: a first non-interlaced property of an input video, a second non-interlaced property of an output video and a vertical pantograph ration are determined; vertical zooming is carried out on the frame/field of the input video according to the vertical pantograph ration so as to obtain the top frame/field of the output video; a first initial phase position of the top frame/field of the output video is determined; vertical zooming is carried out on the frame/field of the input video according to the vertical pantograph ratio so as to obtain the bottom frame/field of the output video; according to the conversion of the first non-interlaced property to the second non-interlaced property, the first initial phase position is converted to a second initial phase position of the bottom frame/field. The method uses the initial phase position control of the vertical direction scaling; the mutual conversion between any interlaced video and non-interlacing video can be realized by controlling the initial phase position of the vertical scaling, which can substantially reduce the chip area, thus greatly reducing the cost and the power consumption of the application proposal which needs the non-interlaced inputting or outputting.
+80. 101420515 Image zooming device
+CN
+29.04.2009
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200810238957.4
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+H04N 5/14
+Loading...
+The invention provides an image scaler, which comprises a clock couple unit and an image zooming unit. The clock couple unit is used for generating the output clock of couple input clocks. The image zooming unit comprises a timing sequence synchronous module, a data buffering module, a phase position computing module and a zooming filtering module. The timing sequence synchronous module is used for outputting the clock and generating the timing sequence which is synchronous with input source image data. The data buffering module is used for using the input clock to receive the source image data and using the synchronous timing sequence to output the source image data so as to buffer the source image data; the phase position computing module is used for calculating the phase position of the synchronous timing sequence; the zooming filtering module is used for zooming filtering treating on the buffered source image data by the phase position. The image scaler provides a good modular structure, is clear and concise, has simple design, strong reusability and readability, small chip design area and low cost.
+81. 101420516 Adaptive method and device for image zooming
+CN
+29.04.2009
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+200810238958.9
+Analogix (Beijing) Semiconductor, Inc.
+Zhang Xiufeng
+H04N 5/14
+Loading...
+The invention provides an adaptive approach for image scaling and a device thereof, which comprises the following steps: the smoothing of an image is identified in real time; a multiphase filter with the corresponding characteristics is selected according to the smoothing; the selected multiphase filter is used for scaling the image. The invention can make a clear sleep of pseudomorphism of the edge or texture ringing generated because of fixedly scaling the filter and pseudomorphism of the slope ringing of a monotonous region of variation.
+82. WO/2009/046617 DATA TRANSMISSION SYSTEM USED IN COMPUTER
+WO
+16.04.2009
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+PCT/CN2008/001233
+ANALOGIX (CHINA) SEMICONDUCTOR, INC
+YAO, Fei
+G06F 1/16
+Loading...
+A data transmission system is disclosed, including first conversion modle located on the host side, for converting USB data to the data of format that the data transmission module can transmit, and for converting the data of format that data transmission module can transmit to USB data; data transmission module located between the host and display, for data intercommunication between the host and display; and second conversion module located on the display side, for converting USB data to the data of format that the data transmission module can transmit, and for converting the data of format that data transmission module can transmit to USB data. The data transmission module is DisplayPort auxiliary channel (DisplayPort AUX CH). Through the present invention, connecting the host and display of personal computer with only one DisplayPort cable can be realized, that is, integrating USB interface on the display. This method can decrease the complexity and cost of computer system, and improve user experience.
+83. 101404570 System and method for removing spread spectrum of reference clock signal
+CN
+08.04.2009
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+200710178043.9
+Analogix (China) Semiconductor, Inc.
+Wang Xin
+H04L 7/00
+Loading...
+The invention provides a system for removing spread spectrum from a reference clock signal and a method thereof, wherein, the system for removing the spread spectrum from the reference clock signal comprises an oscillation clock generating module which is used for generating a local reference clock signal without the characteristics of the spread spectrum, and sending the local reference clock signal to a clock recovery module; an initial value correction module which is used for correcting an initial value used in the clock recovery module according to the reference clock signal and a recovery clock signal from the clock recovery module, and sending the corrected initial value to the clock recovery module; and the clock recovery module which is used for generating the recovery clock signal according to the local reference clock signal and the corrected initial value, and sending the recovery clock signal to the initial value correction module.
+84. 101404569 Apparatus and method for frequency expansion of reference clock signal
+CN
+08.04.2009
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+200710178042.4
+Analogix (China) Semiconductor, Inc.
+Wang Xin
+H04L 7/00
+Loading...
+The invention provides a device for spreading spectrum of a reference clock signal and a method thereof, wherein, the device comprises a divider which is used for receiving an M value and an N value, generating a first floating point decimal according to the M value and the N value, and sending the first floating point decimal to a spread spectrum control generator; the spread spectrum control generator which is used for receiving the first floating point decimal from the divider and the reference clock signal from an analog circuit, generating a second floating point decimal for spreading the spectrum according to the first floating point decimal, the reference clock signal and modulation frequency, and sending the second floating point decimal to a delta sigma modulator; the delta sigma modulator which is used for generating a first integer distribution according to the second floating point decimal and sending the first integer distribution to the analog circuit; and the analog circuit which is used for sending the external reference clock signal to the spread spectrum control generator, generating a first frequency division clock signal according to the first integer distribution, and comparing and adjusting phases of the first frequency division clock signal, and spreading the spectrum of the reference clock signal.
+85. 101404581 Control method for Ethernet physical layer device
+CN
+08.04.2009
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+200710175759.3
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+H04L 12/02
+Loading...
+The invention discloses a control method of an Ethernet physical layer device. The method comprises the following steps: at least one idle bit in a standard register is extended as the definition of contents related to a working mode of the physical layer device at a local terminal or capability; at least the other idle bit in the standard register is extended as the definition of the contents related to the working mode of the physical layer device at an opposite terminal or the capability; and the control and consultation between the physical layer device at the local terminal and the physical layer device at the opposite terminal are realized by the idle bit in the standard register. The method can realize the allocation and consultation of the working mode or the capability beyond the IEEE802.3 standard.
+86. 101404553 Method for applying PAM code in 10/100M Ethernet physical layer
+CN
+08.04.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710175760.6
+Analogix (China) Semiconductor, Inc.
+Hao Jianbin
+H04L 1/00
+Loading...
+The invention discloses a method for applying a PAM code to a 10/100M Ethernet physical layer, wherein, PAM coding and decoding are performed in a PMA/PMD sub-layer, and the method specifically comprises the following steps: in a PMA/PMD sending sub-layer, a serial bit stream which is subject to parallel/serial conversion is received from a PCS sub-layer, the serial bit stream is subject to PAM format coding, data stream scrambling and the like, and the serial bit stream is sent onto a twisted wire for transmission after digital/analog conversion and pre-emphasis processing; in a PMA/PMD receiving sub-layer, the serial bit stream received from the twisted wire is firstly subject to analog/digital conversion and equalization processing, then subject to data stream de-scrambling and PAM decoding by the PMA/PMD sub-layer, and the processed serial bit stream is sent to the PCS sub-layer. The method can effectively reduce the attenuation of the signal EM and high-frequency part, and increase the anti-interference capability and the transmission distance on a network line of the network signal.
+87. 101404600 Self-negotiation method for implementing long-distance Ethernet operation mode in Ethernet
+CN
+08.04.2009
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200710175761.0
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+H04L 12/28
+Loading...
+The invention discloses an auto-negotiation method for realizing a long-distance Ethernet working mode in Ethernet, which comprises the following steps: step S102: auto-negotiation devices in the Ethernet mutually notify attribute information by Next Page; step S104: the devices determine working modes according to the attribute information from other devices and make arrangements according to the working modes, thus leading the auto-negotiation devices to be mutually supported; step S106: the link is established when the arrangements are finished. By using the method, the auto-negotiation of the long-distance Ethernet working mode in Ethernet can be realized and the compatibility with the present standard can be realized.
+88. 101404145 LCD control system
+CN
+08.04.2009
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+200810093397.8
+Analogix (China) Semiconductor, Inc.
+Guo Xiaoxu
+G09G 3/36
+Loading...
+The present invention discloses a liquid crystal display controlling system, which comprises an output clock generating unit, a synchronous signal buffer memory unit, a synchronous signal reading unit, N video signal buffer memory units and an video signal output unit, wherein, the output clock generating unit can generate an output clock signal with a specific scaling according to the working mode of the liquid crystal display controlling system, the synchronous signal buffer memory unit is used for storing a data enabling signal and the like, which are capable of carrying out the signal synchronization on a row or a plurality of rows of video signals, the synchronous signal reading unit is used for reading the data enabling signal and the like, from the synchronous signal buffer memory unit according to the control time sequence requirement of liquid crystal display, and processing the data enabling signal and the like, in a scaling mode according to the specific scaling; the N video signal buffer memory units are used for storing 1/N parts of a row or a plurality of rows of video signals; the video signal output unit is used for reading 1/N parts of a row or a plurality of rows of video signals from the N video signal buffer memory units according to the output clock signal, the control time sequence of the liquid crystal display, and the data enabling signal and the like, processed in a scaling mode, processing each 1/N part in a scaling mode according to the specific scaling, and outputting the signals processed in a scaling mode to outside.
+89. 101403961 User operation responding and processing system and method for computer system
+CN
+08.04.2009
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+200710175828.0
+Analogix (China) Semiconductor, Inc.
+Li Zaiyi
+G06F 3/14
+Loading...
+The invention discloses a user operated response and processing system used in a computer system and a method thereof. The user operated response and processing system comprises a detection module which is used for detecting the operation of users on a display and is arranged at the side of the display; a conversion module which is arranged at the side of the display and is used for converting the detection results of the detection module into a format which can be transferred in a transferring module; the transferring module which is arranged between a main unit and the display and is used for data intercommunication between the main unit and the display; and a processing module which is arranged at the side of the main unit and is used for obtaining the detection result which is converted by the transferring module, processing the detection result converted and transferring the processing result to the display by the transferring module, so as to lead the processing result to be displayed on the display. By adopting the invention, the control on the operation of the display can be realized at the side of the main unit, thus omitting the chips for adjusting the brightness, resolution factor, display position, contrast ratio and the like of the display from the display.
+90. 101394181 Time clock and data recovery circuit and integrated chip having the circuit
+CN
+25.03.2009
+H03L 7/18 Loading...
+H03L 7/18
+Loading...
+200810222966.4
+Analogix Semiconductor, Inc.
+Li Qi
+H03L 7/18
+Loading...
+The invention provides a clock and data recovery circuit and an integrated chip provided with the circuit. The clock and data recovery circuit comprises a data channel, a frequency locking loop and a phasing loop, wherein the frequency locking loop utilizes a training signal to generate a clock signal which is locked on an expected frequency; the phasing loop utilizes the training signal to adjust the clock signal which is locked on the expected frequency to an expected phase; and the data channel utilizes recovery data of synchronous transmission of the clock signal which is locked on the expected frequency, and the clock signal which is adjusted on the expected phase. The invention has the advantages of simple structure, low cost, and easy realization.
+91. 101394377 Pre-loading device and low voltage differential signal transmitter
+CN
+25.03.2009
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200810222967.9
+Analogix Semiconductor, Inc.
+Zhao Wei
+H04L 25/02
+Loading...
+The invention provides a pre-emphasis device and a low-voltage differential signal transmitter. The pre-emphasis device comprises a pre-emphasis pulse signal generating unit configured to generate a pre-emphasis pulse signal according to a serial data signal received from an external source; and a pre-emphasis current output unit including a bypass unit connected with an LVDS driver in parallel and including a bypass switch configured to act in response to the pre-emphasis pulse signal for bypassing an additional current applied to the LVDS driver during action, and an additional current unit including field effect transistors forming a channel, wherein the gates of the field effect transistors are connected with an external control signal and are configured to guide the additional current to the bypass unit and the LVDS driver connected with each other in parallel in response to the control signal. The pre-emphasis device can remarkably lower the power consumption of the pre-emphasis pulse signal generation circuit.
+92. 101369957 Data transmission system and method
+CN
+18.02.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710120234.X
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+H04L 12/56
+Loading...
+The invention discloses a data transmission system and method. The data transmission system comprises: a data receiving device, for receiving data from standard velocity Ethernet and/ or non-standard velocity Ethernet; a data buffer device, for buffering data received by data receiving device; and a data transmission device, for transmitting buffering data from data buffer device by data transmission velocity of standard velocity Ethernet and/or non-standard velocity Ethernet. The inventive data transmission system can transmits Ethernet data by non-standard velocity, so reduces high frequency spoilage and code error rate of transmission data, and promotes anti-interference ability and transmission distance.
+93. 101369861 Encoding mode conversion equipment and method
+CN
+18.02.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200710120212.3
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+H04L 1/00
+Loading...
+The present invention provides a encoded mode transformation equipment and a method thereof, wherein the equipment comprises a network physics layer chip; a first port and a second port arranged in the network physics layer chip and connected through a link; and the link which connects a PMA/PMD module of the first port side and a PMA/PMD module of the second port side through a PCS/PLS and an XMII interface of the first port side and an XMII interface and a PCS/PLS of the second port side. In a normal multiport ethernet network PHY, not only the basic function of the normal multiport PHY is realized, but also the transformation between different encoded modes is effectively realized, thereby the interconnect of the ethernet network device using a nonstandard physics layer encoded mode and the ethernet network device using an IEEE802. 3 standard is realized.
+94. 101369936 Method for self negotiation adopting broad pulse
+CN
+18.02.2009
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200710120213.8
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+H04L 12/28
+Loading...
+The invention discloses an auto-negotiation method using a wide pulse. The method uses the wide pulse (WLP) as a negotiation pulse for auto-negotiation between the devices in the ethernet, wherein the width of the wide pulse is from 200ns to 2000ns. The adoption of the invention can effectively conduct auto-negotiation under the condition of the distance between the devices longer than 100 meter, thereby the effective transmission distance of the ethernet is effectively expanded.
+95. 101334762 Data-transmission system for computer
+CN
+31.12.2008
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+200710175829.5
+Analogix (China) Semiconductor, Inc.
+Yao Fei
+G06F 13/38
+Loading...
+The invention discloses a data transmission system comprising a first conversion module which is arranged on a host side and used for both converting USB data into the data of a format which can be transmitted by a data transmission module and converting the data of the format which can be transmitted by the data transmission module into the USB data; the data transmission module which is arranged between the host and a display and is used for the data communication between the host and the display; a second conversion module which is arranged on the display side and is used for both converting the USB data into the data of the format which can be transmitted by the data transmission module and converting the data of the format which can be transmitted by the data transmission module into the USB data; wherein, the data transmission module is the DisplayPort auxiliary channel (DisplayPort AUX CH). With the invention, the connection between the host and the display of a PC can be realized by one DisplayPort cable, that is, the USB interface can be integrated on the display. The means of the invention can reduce the complexity and cost of the computer system and enhance the user experience.
+96. 101202723 Level switching circuit and IC chip having the same
+CN
+18.06.2008
+H04L 25/08 Loading...
+H04L 25/08
+Loading...
+200610164997.X
+Analogix Semiconductor(Beijing) Inc.
+Chi Hongwu
+H04L 25/08
+Loading...
+The invention provides a level switching circuit used for an interface chip. The interface chip is connected with a signal line of a communication line. The signal line is provided with a matched resistance and a bias power supply. The signal line, the matched resistance and the bias power supply provide a signal level. The signal level is higher than a working level of a working part of the interface chip. The level switching circuit includes a coupling part that is connected between the signal line and the working part and is used for coupling the signal level to the working part. The coupling part also loads a part of the signal level and outputs the rest parts of the signal level to the working part; wherein, the rest parts of the signal level are not higher than the working level. The invention also provides an integrated circuit chip which includes the level switching circuit.
+97. 101197364 Layout circuit with stable guiding current and IC chip with the same
+CN
+11.06.2008
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+200610164959.4
+Analogix Semiconductor(Beijing) Inc.
+Ma Ke
+H01L 27/02
+Loading...
+A layout circuit used in generating stable on-state current comprises a field effect transistor (FET) array, wherein a FET of identical type and used in a biasing circuit is arranged in each line of the FET array at intervals of a plurality of FETs, i.e. the source electrode of the FET is still connected with a power supply line, while the grid electrode is connected with the grid electrodes of the FETs arranged in front of and behind the FET on a grid electrode connecting line; moreover, the drain electrode of the corresponding FET used in the biasing circuit is connected with the grid electrodes of the FETs. Therefore, bias current Ibias in the same direction as the power supply line current is generated on the grid electrode connecting line. Because the grid electrode connecting line is still an unideal line with resistance and identical to the power supply line, the VGS of each FET is almost equal, and the on-state current ID generated under the control of the voltage is approximately equal. Therefore, the ideal effects of minor error and high precision of the on-state current can be obtained.
+98. 101197654 Method and system for implementing double-speed data sampling by semi-frequency clock
+CN
+11.06.2008
+H04L 5/22 Loading...
+H04L 5/22
+Loading...
+200610164960.7
+Analogix Semiconductor(Beijing) Inc.
+Zhang Jun
+H04L 5/22
+Loading...
+The invention provides a sampling system which realizes the double rate data sampling by adopting a half frequency clock. The sampling system comprises a multi-channel data sampling module (50) for collecting a digital signal. The multi-channel data sampling module (50) comprises a first clock signal terminal and a second clock signal terminal which are respectively used for inputting an inverted first synchronous clock signal and a second synchronous clock signal; a first data input terminal and a second data input terminal which are respectively used for inputting a first data string and a second data string, wherein, the first data string and the second data string have a phase difference of about half synchronous clock cycle; the multi-channel data sampling module (50) respectively samples the first data string and the second data string when the first synchronous clock signal and the second synchronous clock signal are at a low level or a high level. The invention also provides a sampling method which realizes the double rate data sampling by adopting a half frequency clock.
+99. 101197363 Double-joint grounding circuit and power supply circuit, and IC chip with the same
+CN
+11.06.2008
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+200610164958.X
+Analogix Semiconductor(Beijing) Inc.
+Ma Ke
+H01L 27/02
+Loading...
+The invention provides a double joint earthed circuit used inside an IC chip, wherein at least one functional module of the IC chip comprises at least two earthed lead wires; the earthed lead wires are combined with each other and are connected with an earthed pin extending out of the IC chip. The invention also provides a double joint power supply circuit used inside an IC chip, wherein at least one functional module of the IC chip comprises at least two power supply lead wires; the power supply lead wires are combined with each other and are connected with a power supply pin extending out of the IC chip. In addition, the invention also provides an IC chip which has the double joint earthed circuit and/or the double joint power supply circuit.
+100. 101141121 Oscillation frequency fluctuation reduced ring oscillation circuit and IC chip equipped with the circuit
+CN
+12.03.2008
+H03K 3/03 Loading...
+H03K 3/03
+Loading...
+200610127131.1
+Guigu Shumo Semiconductor (Beijing) Co., Ltd.
+Wang Yong
+H03K 3/03
+Loading...
+The invention discloses a ring shape oscillating circuit that consists of a regulator that is connected between the band gap voltage and the power source access end of the inverter and is used for providing stable band gap voltage for the inverter; a power source absolute current circuit that is connected to the power source access end of the inverter and is used for converting the accessed band gap voltage so as to provide power source absolute current for the inverter; an earth absolute current circuit that is connected with the earth end of the inverter and is used for converting the accessed band gap voltage so as to provide earth absolute current for the inverter. The invention also provides an integrated circuit chip that has ring shape circuit.
+101. 101140511 Cascaded carry binary adder
+CN
+12.03.2008
+G06F 7/50 Loading...
+G06F 7/50
+Loading...
+200610127132.6
+Guigu Shumo Semiconductor (Beijing) Co., Ltd.
+Zhuo Ming
+G06F 7/50
+Loading...
+The present invention discloses a cascaded carry binary adder, which comprises one or a plurality of unit groups. Wherein, the unit group is composed of a first unit Ri, Si=Ai Bi Ci-1, Ci=Ai is multiplied by Bi+Ci-1 is multiplied by (Ai+Bi) and a second unit Rj, Sj=AjBjCj-1, Cj=Aj+Bj+Cj-1 is multiplied by Aj is multiplied by Bj. Two binary bits corresponding to the first unit Ri and the second unit Rj in each unit group are adjacent and j is equal to i plus 1. In the adder, any two first units Ri are not adjacent and any two second units Rj are not adjacent. On the preconditions that circuit area is not increased, the present invention adopts the most simple ripple structure, achieves carry output based on basic logic unit AND-OR-NOT gate and greatly reduces adder time lag, thus remarkably accelerating calculation.
+102. 101140927 Ground circuit, electric power circuit and IC chip having the same
+CN
+12.03.2008
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+200610127133.0
+Guigu Shumo Semiconductor (Beijing) Co., Ltd.
+Wang Yong
+H01L 27/02
+Loading...
+The invention provides a ground circuit used in the inner of the IC chip, which comprises a functional module with a plurality of ground lead, which are separately connected with the outside of IC chip through individual ground pin. The invention also provides a power circuit used inside the IC chip, which comprises a functional module with a plurality of power lead, which is separately connected with the ouside of the IC chip through individual power pin. Besides, the invention also provides the IC chip with the said ground circuit and/or power circuit.
+103. 101141368 Method and device for controlling stream media data playback processing speed
+CN
+12.03.2008
+H04L 12/54 Loading...
+H04L 12/54
+Loading...
+200610127134.5
+Guigu Shumo Semiconductor (Beijing) Co., Ltd.
+Wang Xin
+H04L 12/54
+Loading...
+The present invention provides a streaming media playback processing rate control method, which is used for controlling the playback processing rate of a receiving terminal to the streaming media data. The streaming media playback processing rate control method is characterized in that the method comprises the following steps: step a, the changing trend of the data saturation of a register used for the registering the streaming media data in the receiving terminal is monitored, wherein the register adopts a first-in first-out stack having circular link list structure; and step b, the playback processing rate is adjusted according to the changing trend of the data saturation. The present invention also provides streaming media playback processing speed controlling device.
+104. 1890913 Signaling and coding methods and apparatus for long-range 10 and 100 Mbps Ethernet transmission
+CN
+03.01.2007
+H04L 5/14 Loading...
+H04L 5/14
+Loading...
+200480036504.3
+Analogix Semiconductor Inc.
+Yang Kewei
+H04L 5/14
+Loading...
+Signaling and coding methods and apparatus for long-range (10) and (100) mbps Ethernet transmission. In accordance with the method, a physical layer (PHY) device is provided that includes the long-range capabilities. In operation, the PHY measures the distance to a companion PHY, and if it is within the specification limits, communicates with the companion device in the normal way. If the distance is above the specification limits, the PHY checks to see if the companion PHY is similarly enabled, and if so, switches to a long-range signaling method. In a preferred embodiment, NRZ coding with pre-emphasis on the first bit of two or more bits of the same value is used for a first range exceeding the specification limit, and PAM4 coding is used for a second range exceeding the first range. Various embodiments are disclosed.
+

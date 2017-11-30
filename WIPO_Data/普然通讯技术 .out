@@ -1,0 +1,193 @@
+1. 102136982 Method for dynamically regulating uplink and downlink schedulable bandwidths
+CN
+27.07.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010027353.2
+Opulan Communication Technology (Shanghai) Co., Ltd.
+Liu Zheng
+H04L 12/56
+Loading...
+The invention discloses a method for dynamically regulating uplink and downlink schedulable bandwidths in a point-to-multipoint network, which comprises that: a system meets the requirements of user equipment on a committed information rate (CIR); the system is not required to meet the requirements of the user equipment on a peak information rate (PIR); the system is not required to meet the requirements of the user equipment on an uncommitted information rate (UIR); central office equipment can regularly regulate and reallocate the uplink and downlink bandwidths of the system; and the central office equipment also can irregularly regulate and reallocate the uplink and downlink bandwidths of the system, wherein PIR is more than or equal to CIR; and UIR is equal to a difference obtained by subtracting the CIR from the PIR. By the method, uplink and downlink bandwidth resources can be dynamically allocated as a whole.
+2. 101854563 Processing method of discovery process in EPON (Ethernet Passive Optical Network)
+CN
+06.10.2010
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200910057012.7
+Opulan Technology Company
+He Yunfeng
+H04Q 11/00
+Loading...
+The invention discloses a realization method of a discovery process in an EPON (Ethernet Passive Optical Network), which comprises the following steps of: 1. broadcasting a discovery authorization message to an unregistered ONU (Optical Network Unit) by a hardware interface module of an OLT (Optical Line Terminal) in a variable cycle; 2. sending a registration request message to the OLT by the unregistered ONU in an appointed discovery window; 3. authenticating the registration request message by the CPU (Central Processing Unit) of the OLT, registering the ONU allowing to be registered and assigning an LLID (Logical Link Identifier); generating a registration message by the CPU of the OLT, and sending to a newly registered ONU by the hardware interface module; 4. sending a registration confirmation message to the OLT by the newly registered ONU in an assigned uplink time slot; and 5. receiving the registration confirmation message by the CPU of the OLT. Through the invention, the discovery process can be processed by the OLT in a software mode, so that the processing method is more flexible, and more complicated functions can be realized.
+3. 101854564 Multi-service uplink scheduling method of optical network unit
+CN
+06.10.2010
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200910057018.4
+Opulan Technology Company
+He Yunfeng
+H04Q 11/00
+Loading...
+The invention discloses a multi-service uplink scheduling method of an optical network unit. The optical network unit receives authorizations of different logical link identifications of the optical network unit; the authorizations with partial overlaps or end-to-end connection of the effective time of different logical link identifications of the optical network unit are merged together to form an authorization link according to the sequencing order of the effective time of all authorizations; the optical network unit controls to start a laser only at the head of the authorization link to carry out synchronous control and stop the laser only at the tail of the authorization link, and simultaneously records start and end information of each independent authorization before the independent authorizations are merged so as to control the service scheduling of each independent link identification, wherein the affiliated service of the logical chain identification is invoked only at each corresponding independent authorization time interval in the service scheduling process. The invention can effectively utilize uplink bandwidth and save unnecessary expenses by carrying out multi-service uplink scheduling with the method.
+4. 101834691 Method for changing transmission rate of Ethernet Over COAX (EOC) network in real time
+CN
+15.09.2010
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200910056946.9
+Atheros Technology Company
+Li Ke
+H04L 1/00
+Loading...
+The invention discloses a method for changing the transmission rate of an Ethernet Over COAX (EOC) network in real time, which comprises the following steps that: 1, office end equipment transmits an uplink time slice allocation message in which rate changing information is added to user equipment; and 2, the user equipment receives the uplink time slice allocation message and then changes uplink transmission rate in subsequent uplink communication thereof; or, the method comprises the following steps that: 1', the user equipment transmits an uplink time slice requesting message in which the rate changing information is added to the office end equipment; and 2', the office end equipment receives the uplink time slice requesting message and then changes downlink transmission rate in subsequent downlink communication thereof. Through the method, the transmission rate can be regulated in real time according to the specific path conditions of the EOC network and the normal use of a user is not influenced. Compared with a conventional mode of specific control information, the method has the advantages of achieving higher reliability and not occupying user bandwidth.
+5. 101808253 Method for improving monitoring ability in Ethernet passive optical network
+CN
+18.08.2010
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200910056875.2
+Opulan Technologies
+Li Ke
+H04Q 11/00
+Loading...
+The invention discloses a method for improving the monitoring ability in an Ethernet passive optical network, which is characterized in that an optical network unit maintains a sending laser always turning on in the time slot of the optical network unit whether upstream traffic exists or not, and even if upstream data is not sent, the sending laser of the optical network unit still sends optical signals to carry an IDLE code group; and an optical line terminal can detect optical signals and keeps receiving synchronization based on the IDLE code group. The invention can effectively prevent the optical network unit from sending the false alarm of loss of optical signals and falsely counting up the bit error rate when the optical network unit has no upstream traffic so as to facilitate the optical line terminal to correctly measure and receive optical power. In application scenes, the stability of registration state of the optical network unit can be improved.
+6. 101500180 Method for reporting uplink communication need in real-time
+CN
+05.08.2009
+H04Q 11/00 Loading...
+H04Q 11/00
+Loading...
+200810043098.3
+Opulan Communication Technologies Shanghai Co., Ltd.
+Du Xingdong
+H04Q 11/00
+Loading...
+The invention discloses a method for reporting an upward communication requirement in real time; in a network on which the upward communication is carried out in the form of time division multiplexing, an upward communication requirement of a Report frame is sent to main equipment by slave equipment; the Report frame sequentially comprises from front to back: a destination address which is the MAC address of the main equipment; a source address which is the MAC address of the slave equipment; a length/type identifier which is used for marking the frame as the Report frame; a filling time slot which is an empty time slot filled for leading the Report frame to meet the requirements of minimum frame length; a queue length which is the upward cache queue length of the slave equipment; a frame check sequence which is the check on the sent data by the slave equipment. By the method of the invention, the queue length field is moved from a relative front position of the Report frame to a relative back position, therefore, more accurate and real-time upward communication requirements of the slave equipment are included.
+7. 101471764 Method for user side equipment to stop data receive
+CN
+01.07.2009
+H04L 5/16 Loading...
+H04L 5/16
+Loading...
+200710094619.3
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 5/16
+Loading...
+The invention discloses a receiving data stop method of a user device, which comprises the steps as follows: firstly, in a half-duplex EOC network, the user device switches off a receiving circuit of a physical layer at the zero hour of an uplink time interval, or a certain time before the zero hour of the uplink time interval, or a certain time after the zero hour of the uplink time interval; and secondly, the user device switches on the receiving circuit of the physical layer at the finish time of the uplink time interval, or a certain time before the finish time of the uplink time interval, or a certain time after the finish time of the uplink time interval. The receiving data stop method is applied to the half-duplex EOC network, and can lead the user device to stop receiving data to the greatest extent in the uplink time interval and also can receive data of a downlink time interval normally.
+8. 101471763 Method for transmitting time-interval distribution information
+CN
+01.07.2009
+H04L 5/16 Loading...
+H04L 5/16
+Loading...
+200710094613.6
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 5/16
+Loading...
+The invention discloses a method for transmitting time interval distribution information, which comprises the steps as follows: in the first step, a local side device sends time interval distribution information to a user device in a half-duplex EOC network; time interval distribution information includes one or more than one of quantity, sequencing, initial time, length and finish time of an uplink time interval and/or a downlink time interval within a certain time after the current downlink time interval; or time interval distribution information includes one or more than one of sequencing, initial time, length and finish time of the uplink time interval and/or the downlink time interval within a certain quantity after the current downlink time interval; and in the second step, the user device receives and processes time interval distribution information. The transmission method can send time interval distribution information of the half-duplex EOC network continuously through the local side device, thereby leading the user device to know whether any moment within the time or time interval range forecasted by time interval distribution information belongs to the uplink time interval or the downlink time interval.
+9. 101471836 Registration method of slave equipment to main equipment of packet-switching network
+CN
+01.07.2009
+H04L 12/413 Loading...
+H04L 12/413
+Loading...
+200710094634.8
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 12/413
+Loading...
+The invention discloses a method for login of slave equipment to primary equipment in a packet switch network. The primary equipment periodically or non-periodically allocates a login window and informs the relevant information of the login window to the slave equipment, wherein, the login window includes multiple sub-login windows with different serial numbers, each of which is not smaller than (L plus MaxRTT minus MinRTT plus 2 multiply T); and the slave equipment randomly selects a certain series number A from the series number assembly of the sub-login windows, returns to the sub-login window with the series number A and sends a login request. The method can reduce the login conflict in the packet switch network and improve the login efficiency.
+10. 101471851 Registration method of slave equipment to main equipment of packet-switching network
+CN
+01.07.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710094633.3
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 12/56
+Loading...
+The invention discloses a login of slave equipment to primary equipment in a packet switch network. The slave equipment can not only back off for one login window in the case of sending a login request but also can back off for multiple login windows in the case of login conflict, and the back-off range of the login windows is exponentially increased with the increase of conflict frequency. As an improvement of the algorithm, the upper limit of the back-off range of the login windows can be defined to avoid the problem that the back-off time of the slave equipment is too long after multiple login conflicts. The method can reduce conflict probability and improve login efficiency in the cases of low uplink bandwidth and much slave equipment, so as to reduce the requirements for the size of the login window allocated by the primary equipment and the allocation frequency.
+11. 101471762 Method for judging up and down time-interval
+CN
+01.07.2009
+H04L 5/16 Loading...
+H04L 5/16
+Loading...
+200710094612.1
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 5/16
+Loading...
+The invention discloses a method for judging uplink/downlink time. The method comprises the following steps: step 1, a local-terminal device transmits the time length information to a user-terminal device in a half duplex Ethernet over cable (EOC) network with fixed uplink/downlink time length, wherein the time length information contains one or more selected from the initial moments of uplink time and/or downlink time, the lengths of uplink time and/or downlink time, the stop moments of uplink time and/or downlink time and the length ratio of uplink time to downlink time; step 2, the user-terminal device receives and processes the time length information. The method for judging uplink/downlink time can allow the user-terminal device to automatically judge whether any moment belongs to the uplink or the downlink time in the half duplex EOC network with fixed uplink/downlink time. Usually, the network operator doesn't modify the length of uplink/downlink time frequently, and accordingly the method can allow the user-terminal device to judge the uplink/downlink time while occupying less network bandwidth.
+12. 101465787 Method for implementing single copy broadcast based on coaxial-cable packet-switching network
+CN
+24.06.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710094582.4
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 12/56
+Loading...
+The invention discloses a method for realizing single copy broadcasting of a coaxial cable-based packet switched network, including the steps that: first, in the coaxial cable-based packet switched network, a main device judges whether a downlink packet to be sent is a downlink broadcast packet; second, if the main judges that the downlink packet to be sent is a downlink broadcast packet, a broadcast identifier is taken along in the downlink broadcast packet and then the main device sends the downlink broadcast packet carrying the broadcast identifier only for one time to all the secondary devices; third, all the secondary devices receive and accept the downlink broadcast packet carrying the broadcast identifier. In the method, when downlink broadcasting is requested, the main device only needs to send the downlink broadcast packet to all the secondary devices once, and all the secondary devices will accept the packet both physically and logically, thus being called single cope broadcasting technology. The method can effectively improve the utilization efficiency of a network downlink bandwidth.
+13. 101465841 EOC network data transmission system
+CN
+24.06.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710094600.9
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 29/06
+Loading...
+The invention discloses an EOC network data transmission system, comprising a master device and a slave device, between which a splitter or a distributor is arranged. The direction, in which the master device transfers data packets to the slave device through the splitter or the distributor or both is the down direction of the data transmission; and the direction, in which the slave device transfers data packets to the master device through the splitter, or the distributor or both is the up direction of the data transmission. A down identifier is contained in the lead code of an Ethernet frame in the down direction in which the master device sends data, and an up identifier is contained in the lead code of an Ethernet frame in the up direction in which the slave device sends data. When receiving the Ethernet frames, the slave device judges the Ethernet frame in the up direction and the Ethernet frame in the down direction according to the identifiers contained in the lead codes of the Ethernet frames. By adding the up identifier and the down identifier to the lead codes for data transmission in an EOC network, the EOC network data transmission system enables the up data sent from the slave device and the down data sent from the master device to be distinguished.
+14. 101399653 Time clock synchronization implementation method
+CN
+01.04.2009
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+200710094096.2
+Puran Telecommunication Technology (shanghai) Co., Ltd.
+Du Xingdong
+H04L 7/00
+Loading...
+The invention discloses a method for realizing clock synchronization, which comprises the following steps: (1) a deviation value of local clocks of current period SLAVE (slave equipment) and MASTER (master equipment) is acquired; (2) equational compensation points of the next period are found; (3) in the equational compensation points of the next period, the current period deviation value is used as compensation dosage of the next period to make corresponding compensation on time-stamp of a SLAVE clock. The method has stable synchronous compensation without PPL (phase-locked loop), has low circuit cost, and can not introduce attached clock jitter.
+15. 101383753 Method for realizing VOQ scheduling in device cascade system
+CN
+11.03.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710094063.8
+Shanghai Opulan Technologies Co., Ltd.
+Li Ke
+H04L 12/56
+Loading...
+The invention discloses a method for implementing VOQ scheduling, which comprises the following steps: the first step, a plurality of subordinate devices send queue-status report controlling packets to a primary device, each queue-status report controlling packet comprises the uplink demand of the respective subordinate device; the second step, the primary device sends transmission controlling packets to the subordinate devices, each transmission controlling packet comprises an uplink proposal which is provided for the subordinate devices by the primary device; the subordinate devices send cascade control packets to a plurality of subordinate devices in cascade connections with the subordinate devices, each cascade control packet comprises an uplink transmission proposal which is provided for the plurality of subordinate devices in cascade connections with the subordinate device by the subordinate device. As an improvement, before the first step, the method also comprises: the primary device sends request queue status controlling packets to a plurality of subordinate devices, each request queue status controlling packet denotes that the primary device request to obtain the uplink request of the subordinate device. The invention can implement VOQ scheduling in the subordinate devices cascaded system so as to enlarge the application range of the VOQ scheduling method.
+16. 101364933 ATM cell binding and recombination method using cell descriptor
+CN
+11.02.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710094010.6
+Shanghai Opulan Technologies Co., Ltd.
+He Yunfeng
+H04L 12/56
+Loading...
+The invention discloses a method for ATM cell bonding and recombination by using cell descriptors. The method comprises the following steps: firstly, while receiving each ATM cell, a control module generates the cell descriptor of the cell; then, the control module queues the cell descriptors according to the transmission order; finally, the control module recombines the corresponding ATM cells into the AAL frame according to the transmission order of the cell descriptors. Through the ordering of cell descriptors in an internal memory, compared with the ordering of ATM cells in the external memory in the prior art, the access of the external memory can be reduced. Therefore, the occupancy of the bandwidth of the memory is reduced; simultaneously, because the identical ATM cell is always stored in an identical area in the ordering and the recombination, the occupancy of the space of the external memory is reduced; and the working efficiency of hardware processing equipment is finally improved.
+

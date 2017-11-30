@@ -1,0 +1,517 @@
+1. 106534398 一种用于IPv6网络的装置及方法
+CN
+22.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016001024883
+赛尔网络有限公司
+黄友俊
+H04L 29/12
+Loading...
+本发明提供了一种用于IPv6网络的装置及方法，装置包括IVI设备及多重NAT路由器，IVI设备用于将用户端发送的数据包中的内网IPv6地址转换为内网IPv4地址，多重NAT路由器采用静态转换、动态转换和端口多路复用中的一种对数据包进行网络地址转换，以将该数据包中的内网IPv4地址转换为外网IPv4地址，使得该数据包被发送至外网。另外，本发明通过部署流量优化平台系统，实现IPv6内网DNS服务器的负载均衡，保证了用户端的网络连接速度，同时，通过部署网站性能测量系统，其能实时对网络服务质量进行监测，提升网络Qos及用户体验。
+2. 106506718 基于多重NAT纯IPv6网络的IVI过渡方法及网络系统
+CN
+15.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016000952643
+赛尔网络有限公司
+黄友俊
+H04L 29/12
+Loading...
+本发明公开了一种基于多重NAT纯IPv6网络的IVI过渡方法方法和系统，方法包括：客户主机通过DHCP协议从DHCP服务器获得纯IPv6地址，并将流量发送到上连的IVI翻译器；IVI翻译器将符合特定条件的IPv6报文翻译成IPv4报文转发给流量分流服务器，不符合特定条件的IPv6报文直接进行转发；流量分流服务器接收到的IPv4报文如果符合特定条件则转发给VPN服务器，不符合特定条件的IPv4报文则直接进行转发。本发明提出的方法和系统能够有效解决具备纯IPv6地址的用户同时访问IPv4/IPv6网络资源的问题。
+3. 106452896 一种实现虚拟专网平台的方法及系统
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610943407.7
+赛尔网络有限公司
+黄友俊
+H04L 12/24
+Loading...
+本发明公开了一种基于多重NAT纯IPv6网络实现虚拟专网平台的方法，该方法包括：步骤1、客户端子系统和服务端子系统之间建立加密隧道；步骤2、客户端子系统监听用户数据并进行解析，将符合预定条件的用户数据转发到所述加密隧道；步骤3、服务端子系统从所述加密隧道读取所述用户数据然后对其进行协议分析，对于基于dns协议和/或http协议的用户数据分别放入不同的队列进行转发；步骤4、服务端子系统将dns解析结果和/或http响应报文通过所述加密隧道返回给客户端子系统，并同时加入缓存。
+4. 106453239 基于社交平台的安全漏洞采集监控和分发处理系统和方法
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610702765.9
+赛尔网络有限公司
+黄友俊
+H04L 29/06
+Loading...
+本发明公开了一种基于社交平台的安全漏洞信息采集监控和分发处理系统和方法。该系统包括：URL采集系统，用于采集网络上的URL地址，将采集数据处理后存储到数据库服务器中；网站系统安全服务平台系统，从数据库服务器中读取存在漏洞的记录，实现漏洞信息的展示、管理和统计；社交平台分发系统，定期从微信公众号平台拉取关注用户信息，根据关注用户的备注信息筛选用户后进行漏洞信息的定向分发；监控系统，对URL采集系统和微信消息分发系统进行监控，出现问题时通过发送电子邮件的方式通知管理员。上述方案可以向教育网内各网站提供web漏洞信息，便于其及时修复漏洞，避免带来严重损失。
+5. 106412063 教育网内CDN节点检测与资源调度系统及方法
+CN
+15.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000865750
+赛尔网络有限公司
+黄友俊
+H04L 29/08
+Loading...
+本发明公开了一种教育网内CDN节点检测与资源调度系统及方法。所述系统包括：URL采集子系统，采集教育网内客户端访问的域名地址，并将采集到的域名地址存储到域名库中；预处理服务器，其用于从所述域名库中读取域名地址，并插入到域名队列中；CDN节点检测系统，其用于从所述域名队列中读取域名地址，并进行CDN加速节点检测，在检测到所述域名地址使用了CDN加速节点加速时，则把所述域名地址和以及对应的CDN加速节点的IP地址存储到教育网CDN节点库中；数据处理服务器，其用于根据客户端的请求，为客户端调度得到最优的CDN加速阶段，完成CDN节点库的资源调度大型ISP网内CDN节点检测与服务质量监测资源调度方法。
+6. 103595577 ISP间互联口超过阈值流量监控系统及方法
+CN
+15.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102013000533364
+赛尔网络有限公司
+黄友俊
+H04L 12/26
+Loading...
+本发明公开了一种ISP间互联口流量监控系统和方法，该系统包括：分流设备，将镜像数据流分成多份发送给数据采集服务器组中相应的数据采集服务器；数据采集服务器组，用于数据采集并将生成的采集数据文件发送至通讯交换机；采集数据存储服务器，对采集数据文件进行汇总和存储，并将合并采集数据文件发送给数据处理服务器；数据处理服务器，对合并采集数据文件进行处理和/或管理并发送给通讯交换机和数据存储服务器；数据存储服务器，存储数据处理服务器处理和/或管理后得到的采集数据；web服务器，向用户展示流量监控信息；通讯交换机，提供各服务器间及和外部网络的通信通道。本发明可以进行长期流量监控，并可实现多种流量管理功能。
+7. 106355351 基于多业务类型的集团企业组织架构管理方法
+CN
+25.01.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+102016000849407
+赛尔网络有限公司
+黄友俊
+G06Q 10/06
+Loading...
+本发明提出了一种基于多业务类型的集团企业组织架构管理方法。所述方法包括：根据组织架构将集团企业划分成不同类型的机构；为每个不同类型的机构设置元素对应的机构元素，所述机构元素包括机构的业务类型、机构岗位人员及各业务类型对应的审批流程；当集团企业组织架构发生变更时在保证历史数据不变的基础上，根据变更的内容，从下层向上层查找得到发生变更的层次，并进行变更，同时对发生变更的层次对应的下层也进行相应变更；其中所述下层隶属于上层，且上层的变更会引起下层的变更。
+8. 106331211 一种实现IPv6地址访问IPv4资源的方法和系统
+CN
+11.01.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016000709456
+赛尔网络有限公司
+黄友俊
+H04L 29/12
+Loading...
+本发明公开了一种实现IPv6地址访问IPv4资源的方法和系统，该系统包括：IPv6客户端、VPN服务器、IVI服务器和路由器，其中：所述IPv6客户端配置有IPv6地址；所述VPN服务器与IPv6客户端通过隧道通信，与IVI服务器通过网线连接，所述VPN服务器用于接收所述IPv6客户端发送的IPv6数据包并将该IPv6数据包转发给所述IVI服务器、接收所述IVI服务器发送的IPv6数据包并将该IPv6数据包转发给所述IPv6客户端，所述VPN服务器同时作为访问IPv6网络的入口路由器；所述IVI服务器与所述VPN服务器和所述路由器分别通过网线连接，用于对所接收到的IPv4地址中的IVI4地址与IPv6地址中的IVI6地址进行互相转换；所述路由器与所述IVI服务器通过网线连接，作为访问IPv4网络的入口路由器；其中，所述IVI4地址为私网地址。
+9. 106330894 基于本地链路地址的SAVI代理认证系统及方法
+CN
+11.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000701943
+赛尔网络有限公司
+黄友俊
+H04L 29/06
+Loading...
+本发明公开了一种基于本地链路地址的SAVI代理认证系统及方法。该系统包括：Web Portal子系统，用于当用户联网时弹出web页面提示输入用户名和密码；SAVI代理认证子系统，用于代替SAVI客户端进行认证。上述方案目的是避免开发多种SAVI认证联网客户端程序，现在开发的Windows、Linux、MAC OS、iOS、Andriod客户端的种类太多，运行成本太高。
+10. 106302222 一种IPv4/IPv6流量转换方法及系统
+CN
+04.01.2017
+H04L 12/803 Loading...
+H04L 12/803
+Loading...
+102016000822117
+赛尔网络有限公司
+黄友俊
+H04L 12/803
+Loading...
+本发明提供了一种IPv4/IPv6流量转换方法及系统，方法在上行IPv4流量远远大于上行IPv6流量时，将部分IPV4流量转换为IPV6流量，使得带宽分配更加合理，提高整体带宽占用率；同时，方法还将下行IPv6流量转换为下行IPv4流量，使得根据上行IPv6流量响应的下行IPv6流量能够准确地下发至IPv4地址段中；另外，本发明的方法采用哈希环来存储IPv4地址段和IPv6地址段的对应关系，使得IPv4地址段和IPv6地址段在对应关系上满足单调性，不会发生例如IPv4地址段添加或者删除后，原IPv6地址段无法对应或对应多个IPv4地址段的情况。
+11. 103532796 大型ISP间互联口统计系统及方法
+CN
+04.01.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102013000530273
+赛尔网络有限公司
+邓斌
+H04L 12/26
+Loading...
+本发明公开了一种大型ISP间互联口统计系统和方法，该系统包括：分流设备，将镜像数据流分成多份发送给数据采集服务器组中相应的数据采集服务器；数据采集服务器组，用于数据采集并将生成的采集数据文件发送至通讯交换机；采集数据存储服务器，对采集数据文件进行汇总和存储，并将合并采集数据文件发送给数据处理服务器；数据处理服务器，对合并采集数据文件进行处理和/或管理并发送给通讯交换机和数据存储服务器；数据存储服务器，存储数据处理服务器处理和/或管理后得到的采集数据；web服务器，向用户展示流量监控信息；通讯交换机，提供各服务器间及和外部网络的通信通道。本发明可以对互联口的流量和内容进行统计排名。
+12. 105700944 虚拟机没有共享存储条件下的在线迁移方法和装置
+CN
+22.06.2016
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201511032362.X
+赛尔网络有限公司
+黄友俊
+G06F 9/48
+Loading...
+本发明提出了一种虚拟机没有共享存储条件下的在线迁移方法和装置。所述方法包括：接收虚拟机动态迁移的请求，所述请求包括源物理主机和目的物理主机；进行虚拟机动态迁移前的条件检查；进行虚拟机动态迁移前的预处理；进行虚拟机动态迁移；进行虚拟机动态迁移的后处理。迁移(Migration)就是把一个虚拟机从一台物理主机搬到另一台物理主机，动态(Live)就是在迁移过程中虚拟机正常工作不影响用户的使用。从用户的角度来看，好像这个过程没有发生。虚拟机虽然迁来迁去，但丝毫不会影响用户的使用。
+13. 105677772 一种ISP间互联口URL活跃度的统计方法及装置
+CN
+15.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511025131.6
+赛尔网络有限公司
+黄友俊
+G06F 17/30
+Loading...
+本发明公开了一种ISP间互联口URL活跃度统计方法及装置，所述方法包括：步骤1、收集预定时间周期内被访问的URL网页数据，对预定时间周期内点击访问的URL网页的被访问次数进行统计，获得访问次数排名靠前的预定数量的高活跃度URL及访问时间长度；步骤2、对所述预定数量的URL中新出现的URL网页的内容进行内容特征词的查找，与预先建立的特征词数据库中的特征词进行比对，划分该URL网页的内容特征方向以及内容权重并存储；步骤3、对所述高活跃度URL，依据其访问次数、内容特征方向和访问时间长度进行加权平均分析，得到每个URL的活跃度指数UAI；步骤4、利用所述活跃度指数UAI对所述URL的活跃度进行排名。
+14. 105681483 基于DNS服务器测量特定IP范围解析占比的方法及系统
+CN
+15.06.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201511009133.6
+赛尔网络有限公司
+黄友俊
+H04L 29/12
+Loading...
+本发明公开了一种基于DNS服务器测量预定IP地址范围内的IP解析占比的方法及系统，该方法包括：步骤1、解析用户发起的DNS解析请求，并把解析成功的域名以及对应的IP地址集合插入到单链表；步骤2、从单链表中提取域名和IP地址集，并根据ICP列表和特定IP地址范围生成记录插入到哈希表中；步骤3、从哈希表中读取每个ICP相关的记录，并计算出每个ICP在预定IP地址范围的解析占比，并写入日志文件。本发明提出的上述方案可以供网络运营商和ICP根据解析占比测量值适当调整接入网络运营商的带宽值，以优化ICP用户体验。
+15. 105653686 一种域名网址活跃度统计方法及系统
+CN
+08.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511021311.7
+赛尔网络有限公司
+黄友俊
+G06F 17/30
+Loading...
+本发明公开了一种域名网址活跃度统计方法及系统，所述方法包括：步骤1：从域名网址中破解得到各个子域名；步骤2：从每个所述子域名中抽取特征码；步骤3：用特征码将所有所述子域名逐个索引起来构成一个检索系统；步骤4：将每个所述子域名的特征码逐个投入检索系统，将当前所述子域名检索到的全部子域名聚成一类；步骤5：根据当前所述子域名检索到的聚为一类的全部子域名的大小确定当前子域名的活跃度。本发明通过对子域名去重算法的分析，可以看出，基于特征码的相同内容子域名的去除与合并算法，是一种线性计算复杂度的算法，而且具有很高的判别正确率和召回率。
+16. 105635121 一种基于厂商的漏洞严重等级分布统计方法、装置与系统
+CN
+01.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510977769.3
+赛尔网络有限公司
+黄友俊
+H04L 29/06
+Loading...
+本发明公开了一种基于厂商的漏洞严重等级分布统计方法、装置与系统。该方法包括根据漏洞发布网站列表，定期扫描得到最新的安全漏洞，形成最新网络漏洞列表后保存到数据库中；获取数据库中存储的所述最新网络漏洞列表，根据预定规则对所述最新网络漏洞列表中的安全漏洞进行标识，以将所述安全漏洞进行分类并指定所述安全漏洞对应的开发厂商；根据所标识的安全漏洞的严重等级和对所产生的安全影响大小，对所述最新网络漏洞列表中的每个安全漏洞生成加权严重等级评分，并以不同的时间维度进行统计，最终获得网络漏洞对应的开发厂商的安全漏洞等级排名；根据所述安全漏洞严重等级排名，按照排名先后通知对应开发厂商解决相应的安全漏洞。
+17. 105610945 一种搜索流量入口本地化处理方法及装置
+CN
+25.05.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201511021312.1
+赛尔网络有限公司
+黄友俊
+H04L 29/08
+Loading...
+本发明提出了一种将搜索流量本地化处理的方法及装置。所述方法包括：接收客户端向WEB服务器发送的WEB页面请求；将该客户端的WEB页面请求分发给反向代理服务器；所述反向代理服务器根据所接收到的客户端请求查询本地是否存储有所请求的WEB页面；若所反向代理服务器本地存储有所述请求的WEB页面，则直接返回所述请求的WEB页面给所述客户端，否则将所述WEB页面请求转发给后台WEB服务器。通过本发明的方案既减轻后台WEB服务器的负载，又提高整个网站的性能和安全性。实现了网站的负载均衡，从而提高了网站可用性和可靠性。
+18. 105610616 基于ICP活跃度的接入网单个IP平均流量统计方法及系统
+CN
+25.05.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201511009844.3
+赛尔网络有限公司
+黄友俊
+H04L 12/24
+Loading...
+本发明公开提出了一种基于ICP活跃度的接入网单个IP平均流量统计方法及系统。本发明基于ICP访问日志文件，对日志中的异常IP访问流量记录进行识别，发明了一种异常访问流量去重的方法，在日志中去除异常点击，对日志中的连续点击，单IP多用户以及单用户多IP等可能的异常点击进行识别去重，对去重后的流量提取源和目标IP以及产生的流量，来统计出每天网内活跃的IP以及其流量，再根据IP归属标示出IP对应单位，根据每个IP的活动次数以及产生的流量综合分析出IP的平均流量，可以得到单位下活跃IP的综合排名。最终还可以以单位为中心，统计出单位的活跃IP数量以及IP的平均流量，按照IP平均流量等对单位进行排名。
+19. 105471676 一种端口扫描IP网址活跃度统计系统及方法
+CN
+06.04.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510866973.8
+赛尔网络有限公司
+黄友俊
+H04L 12/26
+Loading...
+本发明公开了一种端口扫描IP网址活跃度统计系统及方法。该系统包括：IP网址采集模块，其用于采集各端口的IP网址数据，并将采集到的IP网址数据存储到数据存储服务器中；数据预处理模块，其用于从数据存储服务器上读取所述IP网址数据，并解析过滤得到HTTP协议数据，并从中解析出IP网址记录，将其存储至数据库服务器中；IP网址活跃度统计模块，其用于从所述数据库服务器中读取IP网址记录的详细信息并进行统计，在web页面中展示IP网址记录的统计结果。上述方案可以发现潜在用户群，避免一些用户偷偷溜走。
+20. 105450756 一种基于标识的URL链接失效的恢复处理方法及装置
+CN
+30.03.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510872477.3
+赛尔网络有限公司
+黄友俊
+H04L 29/08
+Loading...
+本发明公开了一种基于标识的URL链接失效的恢复处理方法及装置。所述方法包括：获取按请求频率排名的教育网外排名靠前的预定数量的URL链接；下载所获取的预定数量的URL链接对应的资源；标识所下载的资源中的热门资源后存贮在本地服务器，并在教育网的预定页面上展示给用户供用户下载使用；在下载所获取的预定数量的URL链接对应的资源时，如果所述URL链接失效，则分析所述URL链接失效的原因，并根据所述URL链接失效的原因采用不同的方式进行恢复处理。本发明就多种造成链接失效的原因进行分析，并采取技术措施解决了失效的URL访问限制问题。
+21. 105450485 一种特定接入网专用hosts文件的产生、更新系统及其方法
+CN
+30.03.2016
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201510875328.2
+赛尔网络有限公司
+黄友俊
+H04L 12/28
+Loading...
+本发明公开了一种特定接入网专用hosts文件产生、更新方法及其实现过程。此方法可找出用户访问的优质热点资源，并通过域名解析出其IP地址，然后生成hosts文件，把域名和解析出的IP地址写入文件中。用户在访问时资源时，可直接通过hosts文件找到对应的IP地址，不用经过DNS服务器进行解析，大大提高了访问速度的同时，还引导用户从此接入网访问资源。可通过两种方法实现：一是在互联口采集DNS数据；二是在接入网部署客户端测量性能，把IP和域名的数据汇总。根据性能数据和互联口解析排名，获得hosts文件。
+22. 104270319 Traffic distributing system and method for automatic switchover of multiport traffic collection
+CN
+07.01.2015
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201410476534.1
+赛尔网络有限公司
+黄友俊
+H04L 12/801
+Loading...
+The invention discloses a traffic distributing system and method for automatic switchover of multiport traffic collection. The system comprises a traffic collection and traffic distribution device (10) and at least two traffic processing servers (21-2n). The traffic collection and traffic distribution device (10) is connected with a network data switching exchange (R) located in a network and is used for obtaining the total data traffic of the network data switching exchange (R) and then distributing the traffic to at least one of the traffic processing servers (21-2n). Each traffic processing server (21-2n) is used for receiving the data traffic distributed by the traffic collection and traffic distribution device (10) and controlling the states of all the traffic processing servers (21-2n). The state of the traffic processing servers which are in a needing state are set as a collection state periodically, wherein the traffic distribution of the traffic processing servers is completed. According to the traffic distributing system and method for the automatic switchover of multiport traffic collection, the traffic processing servers are reused when the traffic is in an idle state, and therefore the waste of the calculating resources of the traffic processing serves is avoided.
+23. 104168180 基于IM信息的邮件白名单的维护方法
+CN
+26.11.2014
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201410366142.X
+赛尔网络有限公司
+王菁菁
+H04L 12/58
+Loading...
+本发明公开了一种基于IM信息的邮件白名单的维护方法，该方法包括以下步骤：用户向邮件服务器发送验证请求，验证请求中至少包括用户标识信息；邮件服务器接收验证请求并且根据数据库中存储的信息对于用户的身份进行验证；若用户身份验证失败，邮件服务器向用户返回失败提示；若用户身份验证成功，邮件服务器返回并显示与该用户关联的白名单数据属性信息；用户根据白名单数据属性信息进行消息通信。本发明能够安全有效地调用邮件系统白名单列表，既能够实时满足用户的通信需求，又能够保证邮件系统白名单信息的安全性。
+24. 103081444 用于与手机网络连接的装置及方法
+CN
+01.05.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201180036492.4
+赛尔巴迪网络有限公司
+奥菲尔·帕兹
+H04L 29/12
+Loading...
+一种与被适配成在手机网络上进行通信的移动通信装置一起使用的智能卡，该智能卡包括：至少一个通信端口，用于通过非手机信道的通信信道与收发器通信；以及一个处理器，该处理器被配置成从该收发器接收来自具有认证密钥的SIM的IMSI以及该SIM响应于该SIM的认证密钥所生成的认证响应及由手机网络发起的挑战，并将接收到的IMSI及认证响应传送给该移动通信装置，以通过由该手机网络提供的手机通信信道传送给该手机网络。
+25. 102938795 通过隧道和地址转换实现IPv6地址访问IPv4资源的方法
+CN
+20.02.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201210466174.8
+赛尔网络有限公司
+李川
+H04L 29/12
+Loading...
+本发明公开了一种在IPv6环境下通过VPN隧道及IVI(无状态的IPv4与IPv6的地址转换技术)访问IPv4资源的系统和方法。该系统包括IPv6客户端、VPN服务器、IVI服务器和路由器，其中，IPv6客户端配置有IPv6地址，未配置IPv4地址；VPN服务器与IPv6客户端通过隧道通信，与IVI服务器通过网线连接；IVI服务器与VPN服务器和路由器分别通过网线连接；路由器与IVI服务器通过网线连接，作为访问IPv4网络的入口路由器。本发明还公开一种通过VPN隧道及IVI访问IPv4资源的方法。通过本发明，能够使得在纯IPv6环境下任意点访问IPv4网络成为可能。
+26. 102929761 一种应对崩溃性错误的系统及方法
+CN
+13.02.2013
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201210466453.4
+赛尔网络有限公司
+郝健
+G06F 11/30
+Loading...
+本发明公开了一种应对崩溃性错误的系统和方法，该系统包括内核层监控模块、用户层守护模块和GUI模块，其中：内核层监控模块运行在计算机操作系统的内核层，用于监控计算机的内核状态，在计算机操作系统发生崩溃性错误时被唤醒，并在一错误信息记录文件中记录出错信息和当时系统的运行状态；用户层守护模块常驻在计算机操作系统中，用于在计算机操作系统发生崩溃性错误时唤醒内核层监控模块并对其进行初始化；GUI模块用于将出错信息及系统运行状态读取出来进行格式化处理，通过用户界面反馈给用户。本发明还公开一种应对崩溃性错误的方法。本发明能够更为方便及可扩展地捕捉系统出错信息，适用于所有服务器及设备类系统。
+27. 102916896 多路端口镜像混合数据流分流方法及设备
+CN
+06.02.2013
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201110218181.1
+赛尔网络有限公司
+黄友俊
+H04L 12/801
+Loading...
+本发明提出了一种对多路端口镜像混合数据流进行分流的方法，该方法包括：根据TCP/IP协议的传输层的端口号，将数据流按应用层协议分流，然后再通过根据对源IP做hash运算、对目的IP做hash运算或对源IP和目的IP做hash运算的结果修改mac地址，达到多路分流的目的，并支持流量多副本分发，以及对应于一套数据流的多种处理目的。此外，本发明提出了一种相应的设备，其支持对多协议、多副本、多路端口的镜像混合数据流进行分流，配置灵活，并可根据数据流的协议和流量，调整用于处理每种协议的设备数目。其有效地使用了计算能力，同时具有高性能、流量均衡等特点。
+28. 102882703 Hyper text transfer protocol (HTTP)-analysis-based uniform resource locator (URL) automatically classifying and grading system and method
+CN
+16.01.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210320169.6
+赛尔网络有限公司
+何旭
+H04L 12/24
+Loading...
+The invention discloses a hyper text transfer protocol (HTTP)-analysis-based uniform resource locator (URL) automatically classifying and grading system and an HTTP-analysis-based URL automatically classifying and grading method. The system comprises an HTTP request/response message preprocessor, an HTTP request message resolving server, an HTTP response message resolving server, a switch, an HTTP storage and correlation server and an HTTP grading and classifying server, wherein the HTTP request/response message preprocessor is used for distributing an HTTP request/response message image data flow; the HTTP request message resolving server is used for recombining the HTTP request message image data flow; the HTTP response message resolving server is used for recombining the HTTP response message image data flow; the HTTP storage and correlation server is used for storing message information; and the HTTP grading and classifying server is used for automatically classifying and grading URLs. The method comprises the following steps of: preprocessing an HTTP message image data flow to acquire the HTTP request/response message image data flow, and distributing the HTTP request/response message image data flow; recombining the request/response message image data flow, and storing the message information which is extracted from recombined data; correlating the stored information; and classifying and grading the URLs according to correlated information. By the system and the method, the URLs can be efficiently classified and graded.
+29. 102281337 Destination address access control method and system
+CN
+14.12.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110217217.4
+Cernet Co., Ltd.
+Hu Song
+H04L 29/12
+Loading...
+The invention relates to a destination address access control method and a destination address access control system. The destination address access control method comprises the following steps of: distributing user identifications, and setting network access authorities corresponding to the user identifications; when a user initiates access of a destination address, extracting the user identification of the user; determining whether the user is allowed to access the destination address according to the extracted user identification and the corresponding access authority thereof; if the user is allowed to access the destination address is determined, forwarding data packets from the user to the destination address; and if the user is not allowed to access the destination address is determined, directly blocking the access. Moreover, the invention also relates to the destination address access control system corresponding to the method. By the method and the system, the network access range of various users can be controlled in real time, great convenience is brought to network information management, the access exceeding the user access authority is blocked, the management is systematic, streamline and normalized, the user can be effectively managed, and the service quality of the network is further improved.
+30. 102271136 Access control method and equipment under NAT (Network Address Translation) network environment
+CN
+07.12.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110234878.8
+Cernet Co., Ltd.
+Huang Youjun
+H04L 29/06
+Loading...
+The invention provides an access control method and equipment under an NAT (Network Address Translation) network environment. The method comprises the following steps of: receiving an HTTP (Hyper Text Transport Protocol) access request from internal client equipment; analyzing an authentication mark in the HTTP access request; verifying whether the analyzed authentication mark is the same to an authentication mark provided by the client equipment in the event of logging in the authentication; if passing through the verification, allowing the HTTP access request; and or else, refusing the HTTP access request. Network resource theft can be effectively avoided through the scheme disclosed by the invention.
+31. 102122287 Data visualization method and device used for automatically generating matrix data table
+CN
+13.07.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010610443.4
+Cernet Co., Ltd.
+Peng Xiuju
+G06F 17/30
+Loading...
+The invention relates to a data visualization method and device used for automatically generating a matrix data table The method disclosed by the invention comprises the following steps of: obtaining a first list, a second list and a third list; outputting the first list and second list to respectively serve as the column index and the line index of the matrix table; aiming at each element in the first list, determining an element in a third list, corresponding to the combination of the element and each element in the second list; then, outputting a symbol corresponding to each element in the determined third list on the position of each matrix corresponding to each element in the second list and the first element in the first list. According to the method and the device, the user-defined display of a specific matrix cross point is supported so as to conveniently check.
+32. 102096860 Data analysis device and method
+CN
+15.06.2011
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+201010611664.3
+Cernet Co., Ltd.
+Chen Yonglin
+G06Q 10/00
+Loading...
+The invention provides a data analysis device and method which are used for an internal business system of an enterprise. The device comprises an extraction unit, a storage unit, a combination unit and a transmission unit, wherein the extraction unit is used for extracting data from business data according to extraction rules, and storing the extracted data into the storage unit; the storage unit is used for sending the extracted data which is stored into the storage unit to the combination unit; the combination unit is used for combining the extracted data into a message according to combination rules and storing the message into the storage unit; and the transmission unit is used for checking the message stored in the storage unit and transmitting the message into a target object according to the specified transmission way. According to the invention, the data in an enterprise information system can be effectively analyzed and pre-warned, so that the process flow can be correspondingly adjusted, and the decision can be made in time.
+33. 102045412 Method and equipment for carrying out compressed storage on internet protocol version (IPv)6 address prefix
+CN
+04.05.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010611546.2
+Cernet Co., Ltd.
+Huang Youjun
+H04L 29/12
+Loading...
+The invention provides a method for storing an internet protocol version (IPv)6 address prefix. The method comprises the following steps: dividing the IPv6 address prefix into L parts with the fixed length of K, wherein K and L are positive integers; initializing a multi-branch Trie structure with the step length of K and number of layers of L to store the IPv6 address prefix, wherein each node uses arrays with the length of 2K to store pointers to the node and the positions of the pointers to the node in the arrays represent K bits of the IPv6 address prefix; and using extra arrays to carry out compressed storage on each node in the generated multi-branch Trie. In addition, the invention also provides corresponding equipment for storing the IPv6 address prefix. The invention has the advantages of improving the search efficiency while effectively reducing the storage capacity.
+34. 101945139 Method for storing and looking up IPv6 address and relevant equipment
+CN
+12.01.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010212943.2
+Cernet Co., Ltd.
+Hu Song
+H04L 29/12
+Loading...
+The invention provides a method for storing and looking up an IPv6 address, which is used for partitioned storage by judging the prefix length of an IPv6 address network. Besides, the invention also provides an IPv6 access control gateway which realizes access authority control on users in an IPv6 network communication system by using the method storing and looking up IPv6 address. The method improves the looking-up efficiency when effectively reducing the storage capacity.
+35. 101945092 Method for generating uniform internet user identification
+CN
+12.01.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010212933.9
+Cernet Co., Ltd.
+Huang Youjun
+H04L 29/06
+Loading...
+The invention provides a method for generating a user identification used in networks of a plurality of organisms, comprising the following steps of: determining a category of a user; and generating the user identification according to the category of the user. The user identification comprises two parts, wherein the first part of the user identification indicates the category of the user while the second part of the user identification has a format associated with the first part. By utilizing the uniform user identification, the invention realizes access control, mobile roaming, charging and service management of the plurality of organism networks, so as to provide great convenience for identification and authority of the user identity.
+36. 101883106 Network access authentication method and server based on digital certificate
+CN
+10.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010212904.2
+Cernet Co., Ltd.
+Huang Youjun
+H04L 29/06
+Loading...
+The invention provides network access authentication method and server based on a digital certificate. The method comprises the following steps of: receiving a user digital certificate transmitted by a user host; carrying out identity authentication to a user on the basis of the received user digital certificate; analyzing user information in the user digital certificate and judging whether the user host is allowed to access a target address or not by querying an access control list according to the user information analyzed in the user information; after successfully authenticating and judging that the user host is allowed to access, transmitting an access authorization request for the user host to an access control gateway and receiving access authorization returned by the access control gateway for the user host; and transmitting an authentication result and an access authorization result to the user host.
+37. 101873330 Access control method and server for supporting IPv6/IPv4 dual stack access
+CN
+27.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010212917.X
+CERNET Co., Ltd.
+Huang Youjun
+H04L 29/06
+Loading...
+The invention relates to a central access control method and a central access control server for supporting IPv6/IPv4 dual stack access. The access control method comprises the following steps of: receiving a whole network unique identity identifier of a roaming user requesting networking from a central login server, and an IP address of a client used by the roaming user; determining the IP address belonged region by using the address matching algorithm according to the IP address of the client; and acquiring an available local free account number of the belonged region according to the IP address belonged region, and allocating the acquired available local free account number to the roaming user, wherein the available local free account number is a user resource which is allocated in the IP address belonged region, can be used by the roaming user, and can access the backbone network through a local gateway.
+38. 101867585 Service control method and device supporting IPv6 multi-address access
+CN
+20.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010212920.1
+Cer Net Co., Ltd.
+Hu Song
+H04L 29/06
+Loading...
+The invention provides a service control method supporting IPv6 multi-address access. The method comprises the following steps of: on an access control gateway, receiving an access request which comprises user information and a plurality of IPv6 addresses, forming a remote authentication dial in user service (RADIUS) authentication request by splicing the plurality of IPv6 addresses and transmitting the RADIUS authentication request to an RADIUS authentication server; and on an RADIUS authentication server, receiving and resolving the RADIUS authentication request to obtain a plurality of IPv6 addresses comprised in the RADIUS authentication request, authenticating and authorizing the user information and each IPv6 address and returning an RADIUS authentication result to the access control gateway. The invention also provides an access control gateway supporting the IPv6 multi-address access and the RADIUS authentication server supporting the IPv6 multi-address access. Due to the adoption of the method and the device, an access request which comprises a plurality of different IPv6 addresses of a user can be processed and authentication and authorization access control of the plurality of IPv6 addresses can be conveniently provided for the user.
+39. 101741924 Service control method supporting extendible IPv6 access in IPv4 environment
+CN
+16.06.2010
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+200910242354.6
+Cernet Co., Ltd.
+Hu Song
+H04L 29/12
+Loading...
+The invention discloses a service control method supporting extendible IPv6 access in an IPv4 environment, which comprises the following steps that: when a user requests an access to an NAS gateway, the NAS gateway sends identification information of the user to a RADIUS server in the form of a RADIUS protocol to perform identity authentication; when the RADIUS server successfully authenticates the user identity according to information stored in a RADIUS authorized database, the RADIUS server returns a Configuration-Token attribute value corresponding to the access service type of the user to the NAS gateway in the form of the RADIUS protocol; and the NAS gateway determines whether to open an IPv6 service to the user or not according to the Configuration-Token attribute value returned by the RADIUS server. According to the service control method, the service control of the user IPv6 access in the IPv4 environment can be realized.
+40. 101719939 Method for accessing network and certification of IPv6/IPv4 dual stack mainframe
+CN
+02.06.2010
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+200910242364.X
+CerNet Co., Ltd.
+Hu Song
+H04L 29/12
+Loading...
+The invention provides a method for accessing network and certification of an IPv6/IPv4 dual stack mainframe. In the method, when the dual stack mainframe supporting the Ipv6/Ipv4 is networked, a control gateway which access actively or is accessed passively is redirected to an certification page supplied by a Portal server; a browser plug-in which is installed on the dual stack mainframe acquires at least one Ipv4 address and at least one IPv6 address of the dual stack mainframe and sends to the Portal server; and the Portal server communicates with the access control gateway to carry out a certificate authority on the dual stack mainframe. Thus, the simultaneous certificate authority of multiple network addresses (the multiple network addresses can belong to the same protocol stack or different protocol stacks) of the dual stack mainframe is realized.
+41. 101605097 IPv6/IPv4 address hierarchical access right control method and access control gateway
+CN
+16.12.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910089531.1
+Cernet Inc.
+Hu Song
+H04L 12/56
+Loading...
+The invention provides an IPv6/IPv4 address hierarchical access right control method, which comprises the following steps: extracting access right attributes of a source address and a target address in a data packet from a client; determining whether the client is allowed to access the target address according to the access right attributes of the source address and the target address; in the condition of determining that the client is allowed to access the target address, copying the head of the data packet, performing traffic statistics, and forwarding the data packet to the target address; and in the condition of determining that the client is not allowed to access the target address, directly discarding the data packet. Besides, the invention also provides an access control gateway, which is used in an IPv6/IPv4 network communication system to realize the IPv6/IPv4 address hierarchical access right control method.
+42. 101605339 Network bandwidth resource service condition monitoring and prompting system and method
+CN
+16.12.2009
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200910089530.7
+Cernet Inc.
+Huang Youjun
+H04W 24/00
+Loading...
+The invention provides a network bandwidth resource service condition monitoring and prompting method, which comprises the following steps: monitoring in real time and periodically reporting network traffic flowing to each user from a backbone network; according to the network traffic of each user, counting and storing an actually measured bandwidth of each user; according to a contract bandwidth and the actually measured bandwidth of each user, calculating an overproof coefficient of each user; and according to the size of the overproof coefficient, generating different overproof prompts. Besides, the method can execute automatic overproof treatment on overproof users according to types of the overproof prompts, users and a preset treatment rule. For system capacity management, the method also can calculate a port coefficient of each user according to a port bandwidth and the actually measured bandwidth of each user, and generates different capacity expansion prompts according to the size of the port coefficient. Moreover, the invention also provides a network bandwidth resource service condition monitoring and prompting system.
+43. 1237070 Method for implementing global bidirection paging over network
+CN
+01.12.1999
+H04Q 7/08 Loading...
+H04Q 7/08
+Loading...
+98101961.7
+Saibeier Network and Information Technology Co., Ltd., Beijing
+Dong Zhidong
+H04Q 7/08
+Loading...
+A method for implementing the global bidirectional paging over network features that virtual paging numbers are created in paging station, each virtual paging number is correspondent an e-mail connected to system or a paging number of other station. and a terminal precessor is used to intercept the information from calling station of Internet and them sent it to destination on Internet or pager according to the direction of information. Said intercepting method is to use paging station to create a blank paging number and correspondent address code as ID marker. Its advantages are high flexibility and paging speed, and low cost.
+

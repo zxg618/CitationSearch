@@ -1,0 +1,481 @@
+1. 104036429 一种智能变电站配置文件标准化管理系统及文件校验方法
+CN
+26.04.2017
+G06Q 50/06 Loading...
+G06Q 50/06
+Loading...
+102014000067729
+国网河南省电力公司电力科学研究院
+石光
+G06Q 50/06
+Loading...
+本发明公开了一种智能变电站配置文件标准化管理系统，包括位于调度部门的服务器端和位于各个智能变电站的配置管理客户端，多个配置管理客户端通过调度数据网与服务器端通信。本发明规范了SCD文件的管理流程，能够对在本地实现对智能变电站SCD文件进行解析，并通过shema校验、模型静态校验、模型动态校验等辅助校验功能对SCD文件进行校验，保证了SCD文件的正确性、合理性和完整性，并将各智能变电站的SCD文件上传至服务器端进行统一管理，为变电站运维单位提供了一种管理、检查配置文件的有效工具，有助于基层技术人员在智能变电站建设、验收、运维、扩建过程中正确使用配置文件，保证智能变电站的可靠运行，能够广泛应用于各级电力调度中心。
+2. 106571964 基于可靠传输网络的故障录波装置关键参数远程配置方法
+CN
+19.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000970425
+国网河南省电力公司平顶山供电公司
+李晓航
+H04L 12/24
+Loading...
+本发明涉及一处基于可靠传输网络的故障录波装置关键参数远程配置方法，包括如下步骤：一变电站录波装置通过以太网口连接到数据网接入交换机，通过电力调度数据网接入录波主站数据通信服务器，数据通信服务器通过以太网接入内网交换机，同时将应用工作站接入内网交换机；二利用网络通信ping命令在应用工作站上对通道进行检测，测试录波主站到变电站录波装置之间通道，测试通过则进行远程配置；三在应用工作站上启动远程配置软件，依次对变电站录波装置进行远程配置。本发明利用可靠性高、安全性强的电力系统调度数据网，远程对对故障录波装置的各项录波参数进行配置。有效提高故障录波运维效率，对电力系统安全稳定运行有重要意义。
+3. 104158595 电力设备中降低光纤模块功耗的供电电路的处理方法
+CN
+15.02.2017
+H04B 10/80 Loading...
+H04B 10/80
+Loading...
+102014000346324
+武汉中元华电科技股份有限公司
+袁泉
+H04B 10/80
+Loading...
+本发明涉及一种电力设备中降低光纤模块功耗的供电电路及处理方法，供电电路由光模块发送部分供电电路和光模块接收部分供电电路组成，光模块接收部分供电电路：电路板电源通过一个π型滤波直接与光纤模块的接收模块电源接引脚VCCR相连；其特征在于：光模块发送部分供电电路：电路板电源通过电源开关电路与一个π型滤波电路，直接与光纤模块的发送模块电源引脚VCCT相连；电源开关电路的使能引脚高低电平，来控制光模块的发射部分工作状态，进而控制整个光模块的电源功耗。本发明优化光模块供电电路和通讯机制，降低光模块在运行时散热功耗。
+4. 106093700 一种基于电压行波原理的故障录波装置及测距方法
+CN
+09.11.2016
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+201610378636.9
+武汉中元华电科技股份有限公司
+王永业
+G01R 31/08
+Loading...
+本发明涉及一种基于电压行波原理的故障录波装置及测距方法，基于电压行波原理的故障录波装置结构为：录波判据单元、行波单元、时间同步单元、管理单元均安装在录波器模拟机箱内，管理单元分别与行波单元、录波判据单元相连，录波判据单元负责判断录波启动以及各类特征参数的计算；行波单元负责软硬件结合判定行波波头到来时间；时间同步单元接入所需时间模块，为装置提供可靠精准的系统时间；管理单元负责装置的通信管理、录波管理、综合判据管理和系统任务管理。本发明通过在故障录波装置中集成母线电压行波的方法，提高故障录波器中输电线路故障点定位的准确度，可以大大缩短故障查线和故障修复时间。
+5. 106100781 基于E1通道的时钟跟踪方法及系统
+CN
+09.11.2016
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201610345086.0
+中国南方电网有限责任公司电网技术研究中心
+陈波
+H04J 3/06
+Loading...
+本发明涉及一种基于E1通道的时钟跟踪方法及系统，基于E1通道的时钟跟踪方法包括以下步骤：在同步时钟装置完成初始化时，分别根据预设的频率源优先级顺序和预设的时间源优先级顺序，获取有效的频率参考源和有效的时间参考源；在当前时钟考察周期到来时，根据有效的频率参考源和有效的时间参考源，通过计算获取同步时钟装置中本地时钟与主时钟之间的时钟偏差；在时钟偏差大于对应的预设偏差阈值时，对本地时钟的频率和相位进行调整，得到实时调整值；根据实时调整值和预设的模型拟合参数，进行守时模型权重参数整定；根据守时模型权重参数整定的结果，对本地时钟进行时钟跟踪。本发明能够提高全网时间同步的可靠性及精度。
+6. 106093627 数字化变电站电能质量故障录波监测装置及监测方法
+CN
+09.11.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201610381489.0
+武汉中元华电科技股份有限公司
+王永业
+G01R 31/00
+Loading...
+本发明涉及数字化变电站电能质量故障录波监测装置及监测方法，包括信号接收单元、报文解析单元、稳态录波单元、电能质量故障录波分析单元、信息交互单元、电源单元，报文解析单元分别与信号接收单元、稳态录波单元、电能质量故障录波分析单元相连，信息交互单元分别与稳态录波单元、电能质量故障录波分析单元相连，信息交互单元与外部进行数据交互，电源单元为各器件供电。本发明在变电站故障监测装置中结合电能质量故障监测以及故障录波专利技术，提供更为全面的故障监测波形，追溯故障根源，为故障决策提供有效依据，同时实现数据的集中管理，电力系统运行数据和故障数据共享、同步以及电力系统整体运行情况和缺陷的综合、联动及因果分析。
+7. 205610659 基于组件状态检测及时钟信息汇聚的时钟装置
+CN
+28.09.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201620418280.2
+中国南方电网有限责任公司电网技术研究中心
+郭晓斌
+H04L 12/24
+Loading...
+本实用新型涉及一种基于组件状态检测及时钟信息汇聚的时钟装置，包括通过综合数据网接收站内时钟信息的信息汇聚单元，连接信息汇聚单元、以接收到的外部时间基准信号为时间参考驯服时钟的接入单元，连接信息汇聚单元、检测时钟组件状态和运行状态的检测单元，以及连接信息汇聚单元、对站内时钟进行远程访问和数据获取的远程访问单元；本实用新型加强了对时间同步系统的管理，通过对时间同步系统的各项状态进行实时监测，及时发现设备故障，避免因为设备故障影响被授时设备的稳定运行；极大的增强了时间同步系统访问的友好性及可靠性。
+8. 205610654 基于SDH网络E1通道故障监测的时钟装置
+CN
+28.09.2016
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201620418277.0
+中国南方电网有限责任公司电网技术研究中心
+许爱东
+H04L 7/00
+Loading...
+本实用新型涉及一种基于SDH网络E1通道故障监测的时钟装置，包括连接同步时钟、接收外部的时间基准信号和频率基准信号的输入单元，连接同步时钟、在根据时间基准信号和频率基准信号对E1通道的数据信号进行统计分析和时钟同步信号源选择的同时驯服内部本地时钟的实时监测及同步单元，以及连接同步时钟、根据内部本地时钟的时钟数据输出对智能变电站各时钟进行授时的时间信号的同步输出单元。本实用新型的装置具有对SDH网络2Mbits频率的监测及分析功能；在建设电网时间统一系统，为电网二次系统提供高精度标准时间的同时，也提高了智能变电站的可靠性。
+9. 103995193 数字化变电站全站电能质量在线监测装置
+CN
+07.09.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+102014000180543
+贵州电力试验研究院
+徐长宝
+G01R 31/00
+Loading...
+本发明提供一种数字化变电站全站电能质量在线监测装置，包括信号接入模块、通用报文解析模块、电能质量分析处理模块、信号输出模块，其中，所述信号接入模块，用于接收数字化变电站的电能质量信号，并对所述电能质量信号打上时标后发送给所述通用报文解析模块；所述通用报文解析模块，用于对所述信号接入模块发送的电能质量信号进行解析，然后发送给所述电能质量分析处理模块；所述电能质量分析处理模块，用于接收并分析所述通用报文解析模块发送的解析后的电能质量信号，得到分析结果；所述信号输出模块，用于将所述电能质量分析处理模块得到的分析结果进行输出。本发明装置能够实时监测和预警数字化变电站中电能质量的运行工况，从而完成全站电能质量监测、告警以及综合评估分析。
+10. 105812209 时间同步系统的状态检测方法和系统
+CN
+27.07.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610305311.8
+中国南方电网有限责任公司电网技术研究中心
+陈浩敏
+H04L 12/26
+Loading...
+本发明涉及一种时间同步系统的状态检测方法和系统。其中，上述时间同步系统的状态检测方法，包括：通过时间同步系统中的被监测装置发送同步报文至监测装置，所述监测装置接收所述同步报文，并根据所述同步报文继续反馈确认报文至被监测装置；记录所述同步报文交互过程中的四个时刻序列T1、T2、T3和T4；获取T1的中断时间，检测所述中断时间是否超过中断时间阈值；若所述中断时间超过中断时间阈值，则判断ABS(DET(T4?T3))＞Ta1和ABS(DET(T4?T3)+DET(T2?T1))＞Tb1是否成立；若成立，则判定时间同步系统的状态为通道切换。本发明提供的时间同步系统的状态检测方法和系统，可以提高所判定的时间同步系统状态的准确性，保证其检测效果。
+11. 105610246 基于信息冗余的变电站信息校验纠错方法
+CN
+25.05.2016
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201610102415.9
+广东电网有限责任公司电力调度控制中心
+刘琨
+H02J 13/00
+Loading...
+一种基于信息冗余的变电站信息校验纠错方法，包括：建立各个设备间的冗余信息源；根据设备间冗余方式，初始化设备间冗余信息的订阅关系，建立冗余信息存储表；在系统运行状态下，各设备接受订阅报文，并从其他冗余设备订阅APPID相同的冗余报文，将所得报文信息存储在冗余信息存储表中；将各设备与其他设备信息不符的冗余设备筛选出来，将错误信息和纠正报文发回信号源，并发出异常告警。本发明满足了变电站实时性、可靠性的运行要求，减少了信息纠错的工作量和极大降低了失误的可能性。
+12. 105093033 一种基于电网多源信息的故障综合分析系统及分析方法
+CN
+25.11.2015
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201510553083.1
+华中电网有限公司
+李会新
+G01R 31/00
+Loading...
+本发明涉及一种基于电网多源信息的故障综合分析系统及分析方法，故障综合分析系统由采集模块、数据存储模块、故障分析模块、故障展示模块四部分组成；采集模块分别与故障录波主站、保护信息主站、DMS/SCADA系统和WAMS主站相连，数据存储模块与采集模块相连，故障分析模块与数据存储模块相连，故障展示模块与故障分析模块相连。本发明能够很好地解决保信主站、故障录波主站等系统分析故障信息时信息来源不足，分析策略不一致等原因造成的故障分析不准确、保护动作评断出错等问题，效果显著。本发明加强电网故障分析水平，充分挖掘现有故障分析系统的潜力，更好地协调处理多源头故障信息数据。
+13. 105099596 一种系统内高精度时间同步方法及装置
+CN
+25.11.2015
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201510532197.8
+武汉中元华电科技股份有限公司
+王晓斌
+H04J 3/06
+Loading...
+本发明涉及一种系统内高精度时间同步装置及方法，同步装置包括同步参考时钟(Clock_master)、主系统时钟发送模块、若干子系统时间同步模块，其特征在于：同步参考时钟(Clock_master)分别与主系统时钟发送模块、若干子系统时间同步模块相连，主系统时钟发送模块分别与若干子系统时间同步模块相连。本发明采用曼彻斯特码传输主系统的时间信息以及控制信息，每秒传输一次准秒时间，各个子系统接收到曼彻斯特码后进行解码，恢复出时间信息和控制信息，补偿传输延迟后，将子系统的时间校准到主系统的时间，这样就可以实时动态的保持系统内各个子系统整秒时间的一致性。同步时钟作为子系统秒内计时参考，使各个子系统秒内时间也保持一致。
+14. 104734353 Intelligent substation hovering fault monitoring method based on network message
+CN
+24.06.2015
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201510105480.2
+江苏省电力公司电力科学研究院
+高磊
+H02J 13/00
+Loading...
+The invention discloses an intelligent substation hovering fault monitoring method based on a network message. The method is characterized by specifically comprising the following steps that 1, configuration information of all current communication subnets of a substation is analyzed from a description file of the substation; 2, communication data of the intelligent substation are analyzed in real time, and key information related to the hovering fault monitoring early warning function of the intelligent substation is filtered and processed; 3, according to the intelligent substation hovering abnormity identification method arranged in an analysis module, the substation hovering abnormity is judged, and the hovering early warning and fault diagnosis function is achieved. Abnormal equipment and an abnormal reason can be accurately judged in time, substation hovering early warning is given out in advance, by informing a backstage supporter, hidden danger is eliminated as soon as possible, and the safe and stable operation of a power grid is guaranteed.
+15. 204155074 一种用于智能变电站的时间特性检验装置
+CN
+11.02.2015
+G04G 7/00 Loading...
+G04G 7/00
+Loading...
+201420462540.7
+贵州电力试验研究院
+王宇
+G04G 7/00
+Loading...
+本实用新型涉及一种用于智能变电站的时间特性检验装置，包括接入单元、特性检验单元、可控信号输出单元，接入单元、可控信号输出单元分别与特性检验单元相连；所述接入单元用于接入外部时间基准并为时间参考；所述特性检验单元对智能变电站的时间同步信号进行接收和特性检验，将重要指标实时解析并统计；所述可控信号输出单元是对时间同步信号的特性、内容可控输出或手动控制输出所需特性信号。本实用新型以接入时间基准信号为参考对智能变电站时间同步信号进行解析和统计，给变电站数据同步异常和故障的维护、调试、定检提供可靠依据，缩短检修时间；采用可控的时间信号输出来验证变电站各类设备异常响应特性，对电网故障预防工作起到关键作用。
+16. 204065694 一种便携式卫星同步时钟检测装置
+CN
+31.12.2014
+G04R 20/02 Loading...
+G04R 20/02
+Loading...
+201420485890.5
+贵州电力试验研究院
+王宇
+G04R 20/02
+Loading...
+本实用新型涉及一种用于电力系统变电站的便携式卫星同步时钟检测装置，装置为除同步检测单元的液晶显示屏和键盘/飞梭输入电路安装在机箱外，接入单元、同步检测单元、守时单元均安装于机箱内，且接入单元、守时单元分别与同步检测单元相连；接入单元接收时钟源信号作为本地时钟基准，并传送给守时单元；同时接收变电站被测同步信号并传送给同步检测单元；同步检测单元检测同步信号的功能和性能，进行统计和显示；守时单元根据时钟源信号校准本地时钟，并进行本地时钟守时。本实用新型直接测量被测信号，自适应选择不同检测电路，实时测量和精确分析多种时间信号，同步显示被测信号波形，人机界面及功能按键便于操作，易于携带。
+17. WO/2014/153764 METHOD AND DEVICE FOR AUTOMATIC TEST OF RELAY PROTECTION FUNCTION OF INTELLIGENT SUBSTATION
+WO
+02.10.2014
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+PCT/CN2013/073402
+STATE GRID CORPORATION OF CHINA
+GAO, Lei
+G01R 31/00
+Loading...
+Disclosed are a method and device for an automatic test of a relay protection function of an intelligent substation. The test of the relay protection function of the intelligent substation is divided into a plurality of minimum test modules, and a test sequence is generated. In the test process, voltage and current data are output to a tested device in sequence in accordance with the test sequence; then, a response of the tested device is monitored; and the entire test process is recorded for checking the performance of the tested device, simplifying the test process and improving the automation degree of the test. The present invention has a good application prospect.
+18. 104065160 Method for processing abnormal message in electric power system
+CN
+24.09.2014
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201410250948.2
+武汉中元华电科技股份有限公司
+任波
+H02J 13/00
+Loading...
+The invention relates to a method for processing an abnormal message in an electric power system. The method comprises the following steps that port mirroring and monitoring are conducted on data frames of all ports through an FPGA or a network processor before the data frames enter an exchange device, so that abnormal frames which do not meet the IEC-61850 protocol and the IEEE802.3 protocol are recognized; the abnormal frames are analyzed and processed; all the normal data frames are kept intact and transmitted to a system monitoring recording and analyzing device through the exchange device. By the adoption of the method for processing the abnormal message in the electric power system, various abnormal frames of all the ports of the exchange device can be recognized, and after the abnormal frames are marked, the abnormal frames are forwarded from any assigned port, except the source ports of the abnormal frames, in the exchange device; the defects of the prior art are overcome, the system monitoring recording and analyzing device can record all the messages including abnormal messages appearing in a network in a networking mode, effective data support is provided for accident pre-warning and fault locating and analysis of an intelligent substation, and operation accidents of the intelligent substation can be reduced to a certain extent.
+19. 103997126 Fault diagnosis grading method and system based on on-off state
+CN
+20.08.2014
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201410229764.8
+华北电网有限公司
+王宁
+H02J 13/00
+Loading...
+The invention relates to the field of recording and networking fault diagnosis of a power system and discloses a fault diagnosis grading system based on an on-off state. By calculating on-off movement quantity in a recording file and combining analysis on an analog quantity, faults are divided into three grades and sent up to a D5000 dispatching automation system, so that dispatching staffs can know about faults, disturbance and abnormal states during operation of the power system and take different processing schemes by analyzing severity of a report, and normal operation of the power system can be recovered quickly. Meanwhile, fault information with different degrees can be sent up to the D5000 dispatching automation system under the conditions that no substation INF file is allocated. By means of the fault diagnosis grading system, fault diagnosis can be sent up to the D5000 dispatching automation system in a grading mode by means of the on-off movement quantity in the recording file, therefore, dispatching staffs can know about operation conditions of the system in details, and the problem that the traditional fault diagnosis system cannot analyze the faults without the INF file is solved. Furthermore, dispatching staffs can take measures to recover normal operation of the power system quickly.
+20. 103995181 Method for analyzing electric energy quality harmonic waves of digital substation
+CN
+20.08.2014
+G01R 23/167 Loading...
+G01R 23/167
+Loading...
+201410201880.9
+武汉中元华电科技股份有限公司
+熊少华
+G01R 23/167
+Loading...
+The invention relates to the technical field of electric energy quality of digital substations of an electric system, and provides a method for analyzing electric energy quality harmonic waves of a digital substation. The method comprises the first step of receiving real-time sampling data x[n] sent by a merging unit (MU) of the digital substation, the second step of carrying out software digital filtering on the received real-time sampling data x[n] to filter out higher harmonic waves and disturbing signals to obtain the system frequency, the third step of acquiring the sampling rate of the digital substation and carrying out corresponding harmonic wave and inter-harmonic wave analyzing according to the acquired sampling rate to obtain the analyzing result, and the fourth step of carrying out subsequent index operation and interface display on the electricity energy quality according to the analyzing result in the third step and sending the electricity energy to a master electricity energy quality analyzing station. The method can meet calculation demands of harmonic waves and the inter-harmonic waves under various sampling rates, the calculation amount can be greatly reduced, and the actual engineering application demands can be met.
+21. 103683509 Fault wave recording networking system
+CN
+26.03.2014
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201310680487.8
+STATE GRID CORPORATION OF CHINA
+ZHANG WENLI
+H02J 13/00
+Loading...
+The invention provides a fault wave recording networking system. The fault wave recording networking system comprises an IDM fault wave recording device, a wave recording server and a dispatching automation system, wherein the IDM fault wave recording device comprises a data acquisition system and a local storage unit, the data acquisition system transmits acquired fault wave recording data to the local storage unit to be stored, when the local storage unit receives a dispatching request sent by the wave recording server, the local storage unit sends the stored fault wave recording data to the wave recording server, the wave recording server receives the fault wave recording data and conducts fault analysis on the fault wave recording data, and then the fault analysis report is sent to the dispatching automation system. It can be seen that according to the fault wave recording networking system, accessing of the IDM fault wave recording device is achieved, meanwhile, fault analysis is conducted on the fault wave recording data, and therefore the difficult problems in the prior art are solved.
+22. 103674015 Trackless positioning navigation method and device
+CN
+26.03.2014
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201310686467.1
+STATE GRID CORPORATION OF CHINA
+CHEN RONG
+G01C 21/00
+Loading...
+The invention provides a trackless positioning navigation method and device. According to the method, the moving distance of a robot in a moving direction between adjacent time points (t-1) and t and the turning rate of the robot on a horizontal plane are measured, a position predication value of the robot is calculated through a preset dead reckoning equation and the measured moving distance and turning rate, local feature information in laser data obtained by measurement of a laser sensor is extracted and fused into a unified global feature map by the SLAM (Simultaneous Localization And Mapping) technology, and the processes of estimating the position of the robot and generating a topological graph are achieved, so that the positioning navigation stability and reliability are improved on the basis of reducing the cost and the operation and maintenance expenses, and the moving needs of the robot in a natural environment are met.
+23. 103616591 Simulation device and method of characters of merging unit of intelligent transformer substation
+CN
+05.03.2014
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201310617103.8
+国家电网公司
+李仲青
+G05B 19/042
+Loading...
+The invention relates to dynamic simulation devices and methods for all voltage grades of a power system, in particular to a simulation device and method of the characters of a merging unit of an intelligent transformer substation. The simulation device accords with a DL/T860 communication protocol and has the functions that secondary signals of multiple traditional voltage mutual inductors and current mutual inductors are received; the secondary signals are converted into digital light signals which accord with the DL/T860.92 and the GB/T 20840.8; all characters of the merging unit can be simulated at the same time, wherein the characters comprise the synchronizing and desynchronizing character, frame loss, delay, delay deviation and delay jitter of sampling valve messages, and sampling frequency deviation and jitter; the synchronous mark, the state character and the quality place of the sampling valve messages can be modified in real time, and the sampling valve deviation and superimposed harmonic components can be simulated. The simulation device and method solve the problem that simulation can not be achieved easily for abnormal conditions of the electronic mutual inductors and the merging unit in the dynamic simulation process of the intelligent transformer substation, and can be widely applied to reliability research and testing of secondary equipment of the intelligent transformer substation.
+24. 103439632 Line fault analysis method based on network message data between transformer substations
+CN
+11.12.2013
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+201310372672.0
+贵州电力试验研究院
+徐长宝
+G01R 31/08
+Loading...
+The invention provides a line fault analysis method based on network message data between transformer substations. According to the line fault analysis method, network message information in a fault time quantum of a fault line is obtained, network message data at the two ends of the line are fused, and according to the fused data at two sides, differential fault decision accounting is carried out on the line at last. When a computation result reaches a differential condition, a line fault analysis result is given. According to the technical scheme of the line fault analysis method, fault analysis of network messages between the transformer substations is achieved, a novel means is provided for the line fault analysis crossing the transformer substations, and meanwhile a referential basis is provided for deciding on post-accident protection behaviors.
+25. 103346853 一种基于IEEE1588v2协议的主时钟及其产生方法
+CN
+09.10.2013
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201310292010.2
+武汉中元华电科技股份有限公司
+袁成伟
+H04J 3/06
+Loading...
+本发明提供的一种基于IEEE1588v2协议的主时钟，由软件模块和硬件模块构成，所述软件模块包括处理器，所述硬件模块包括报文分类模块、报文合并模块、报文收发模块以及报文配置表存储器。本发明的主时钟通过采用软硬件结合的方式，能够充分发挥硬件在时间精度方面的优势和软件在协议处理方面的优势，从而提高了IEEE1588v2主时钟的负载能力；并且能够动态插入/删除或更改从时钟，操作方便；此外，由于硬件能够快速响应这种动态变化并能够采用内部高速时钟对时间进行精确控制，从而能够精确控制报文发送间隔，提高了报文时标精确度。
+26. 103296757 基于多参量辨识的智能变电站二次系统故障判断方法
+CN
+11.09.2013
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201310189416.8
+国家电网公司
+高磊
+H02J 13/00
+Loading...
+本发明公开了一种基于多参量辨识的智能变电站的二次设备故障判断方法，主要适用于符合IEC61850通信规约的数字化变电站，通过网络报文记录分析装置综合分析过程层、间隔层、站控层的各种告警信息、遥测数据、遥信状态等多维度参量，以原始报文为分析依据，以设备异常暂态记录、运行状态长期监测为手段，实时监测二次设备状态，实现对智能变电站二次系统的故障诊断和状态监控。通过运用该方法可以达到两方面的效果：一是对智能变电站的二次设备的正常状态进行监视，为状态检修提供背景数据和检修依据；二是异常状态辨识，实现快速故障诊断，为运检人员提供有效指导，提高智能站维护便利性。
+27. 103245855 基于数字仿真的智能变电站继电保护测试方法及系统
+CN
+14.08.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201310142218.6
+国家电网公司
+高磊
+G01R 31/00
+Loading...
+本发明公开了一种智能变电站继电保护功能自动测试的方法及系统，通过一台仿真主机控制多台数字式继电保护测试装置的模式实现全站仿真系统，提供测试环境，并且对智能设备完成闭环测试，通过仿真主机连接多台数字式继电保护测试装置的模式，可以实现任意规模的变电站智能设备的测试，当被测设备增加，已有仿真系统无法满足测试规模时，通过增加级联的继电保护测试装置便可以满足更大规模的智能设备的测试，同时可以实现多台智能设备的测试，具有良好的应用前景。
+28. 203104497 数字化继电保护测试装置
+CN
+31.07.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201320029803.0
+武汉中元华电科技股份有限公司
+黄勇
+H04L 12/26
+Loading...
+本实用新型涉及数字化继电保护测试装置，包括中央处理器CPU、复杂可编程逻辑器件CPLD、存储器、现场可编程门阵列FPGA、通用异步接收/发送装置UART、千兆光纤以太网模块、电以太网模块，所述的存储器为Flash存储器和DDR2存储器，其特征在于：CPU分别与CPLD、DDR2存储器、通用异步接收/发送装置UART、FPGA、电以太网模块相连，Flash存储器与CPLD相连，FPGA与千兆光纤以太网模块相连。本实用新型能够同时输出的SMV控制块数目、SMV控制块通道的数目和SMV控制块频率，决定了其能够模拟的电力系统的规模。
+29. 103217597 一种数字继电保护装置通用测试模板的构建方法
+CN
+24.07.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201310075075.1
+华中电网有限公司
+刘天斌
+G01R 31/00
+Loading...
+本发明涉及数字继电保护装置通用测试模板的构建方法，具体包括以下步骤：步骤1：筛选SCD全站配置文件，获取用于创建测试模板的智能变电站的相关配置信息；步骤2：根据内容的大小，依次按名称定义相关配置信息生成一个测试任务模块；步骤3：判断所述测试任务模块是否能够生成测试模板，如果是，进行步骤4；否则，跳转至步骤1；步骤4：由至少一个测试任务模块组合生成测试模板。本发明采用可扩展标记语言编写测试模板，利用可扩展标记语言良好的可读性和可移植性，提高测试模板的适应能力。在IED实例配置格式和通信配置相同的情况下，可以实现通用性。可扩展标记语言强大的可扩展性便于测试模板的升级与维护。
+30. 202424144 一种主变压器低压侧故障快速切除装置
+CN
+05.09.2012
+H02H 7/26 Loading...
+H02H 7/26
+Loading...
+201120572327.8
+山西省电力公司长治供电分公司
+王小琪
+H02H 7/26
+Loading...
+本实用新型涉及一种电力系统保护装置，具体是提供一种主变压器低压侧故障快速切除装置。其结构包括中央处理器系统，中央处理器系统分别连接扩展板系统和背板系统，所述背板系统连接人机界面系统。与现有技术相比，其能够实时比较主变支路电流和馈线支路电流的大小和方向，能够识别当前的运行方式，能够快速切除母线故障和启动开关失灵，大大缩短切除低压侧近区故障的时间。
+31. 202305731 一种行波测距与故障录波一体化的装置
+CN
+04.07.2012
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+201120422826.9
+武汉中元华电科技股份有限公司
+段振坤
+G01R 31/08
+Loading...
+本实用新型涉及一种行波测距与故障录波一体化的装置，包括电压变送器、电流变送器，还包括录波接入插件、DSP插件、行波插件和CPU插件。录波接入插件内设置有模数转换器和光耦，用于将输入的模拟量电压信号、模拟量电流信号经模数转换器转换成数字量信号后，与光耦接收的开关量信号一起传送至DSP插件。行波插件分别与所述DSP插件和所述CPU插件相连接，由CPU插件进行行波分析。本实用新型在单台装置内部集成故障录波装置的功能和行波测距装置的功能，并综合分析行波测距装置和录波装置的测距结果，得出最优的测距结果，提高输电线路故障点定位的准确性和精度，缩短故障查线和故障修复时间。
+32. 201966689 一种用于智能变电站的网络报文监测及故障录波一体化装置
+CN
+07.09.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201020581213.5
+华中电网有限公司
+冯维纲
+H02J 13/00
+Loading...
+本实用新型涉及一种用于智能变电站的网络报文监测及故障录波一体化装置，包括信号接入单元、信号处理分析单元和信息输出单元；所述信号接入单元用于接收智能变电站的含有一次系统信号和二次报文信号的综合信号传送给所述信号处理分析单元；所述信号处理分析单元用于对所述智能变电站的综合信号进行分析；所述信息输出单元用于将经过信号处理分析单元对综合信号分析后的包括告警信号在内的综合信号分析结果进行输出。本实用新型实现了对含有一次系统信号和二次报文信号的综合信号的综合分析，给运行、维护、调试和事故检修带来极大的便利，缩短了故障排除时间，提高了智能变电站的供电质量，并且本装置节省了传统设备所占用的空间，节省了投资。
+33. 102006173 Method and device for expanding Ethernet interface
+CN
+06.04.2011
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+201010523256.2
+Wuhan Zhongyuan Huadian Technology Co., Ltd.
+Lu Fang
+H04L 12/02
+Loading...
+The invention relates to a method for expanding an Ethernet interface. More than one network equipment are connected with a downlink Ethernet interface corresponding to an expansion device through an Ethernet interface, the expansion device is used for expanding the Ethernet interface and enables transmitted data to be with time marks, the expansion device is connected with inferior network equipment through the Ethernet interface which is named as the downlink Ethernet interface, and the expansion device is connected with a computer through an uplink Ethernet interface. The method has the advantages that the number of the Ethernet interfaces can be arbitrarily expanded, the time marks can be added in the data, the source Ethernet interface of the Ethernet data can be effectively distinguished, and the Ethernet interface for transmitting the data can be effectively determined.
+34. 201740842 一种数字故障录波装置
+CN
+09.02.2011
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200920311875.8
+河北省电力公司
+常风然
+G01R 31/08
+Loading...
+本实用新型涉及一种数字故障录波装置，包括报文集中模块和数字录波模块，所述报文集中模块用于采集过程层的报文，传送给所述数字录波模块，所述数字录波模块用于对所述报文进行分析处理，得到故障信息，所述报文集中模块中包含同步追踪单元，所述同步追踪单元用于消除所述报文集中模块内采样值通道的时延误差，实现多间隔采样值通道的同步。本实用新型的数字故障录波装置能够消除各个采样值通道间存在的时延，从而得到准确的故障分析结果。
+35. 101958581 Network message monitoring and fault recording integrated device for intelligent transformer substation
+CN
+26.01.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201010523279.3
+Central China Grid Co., Ltd.
+Feng Weigang
+H02J 13/00
+Loading...
+The invention relates to a network message monitoring and fault recording integrated device for an intelligent transformer substation. The device comprises a signal access unit, a signal processing and analyzing unit and an information output unit, wherein the signal access unit is used for receiving comprehensive signals, which contain a primary system signal and a secondary system signal of the intelligent transformer substation and transmitting the comprehensive signals to the signal processing and analyzing unit; the signal processing and analyzing unit is used for analyzing the comprehensive signals of the intelligent transformer substation; and the information output unit is used for outputting the alarm signal-containing comprehensive signal analyzing result after the analysis of the comprehensive signals. The device comprehensively analyzes the comprehensive signals, which contain the primary system signal and the secondary system signal, brings great convenience to operation, maintenance, modulation and breakdown maintenance, shortens the troubleshooting time, improves the power supply quality of the intelligent transformer substation, saves the space occupied by the traditional equipment and saves investment.
+36. 201477138 一种数字万用表
+CN
+19.05.2010
+G01R 15/12 Loading...
+G01R 15/12
+Loading...
+200920164224.0
+武汉中元华电科技股份有限公司
+杨经超
+G01R 15/12
+Loading...
+本实用新型涉及一种数字万用表，包括顺次相连的信号接入模块、解码模块、处理模块和显示模块，其中：所述信号接入模块，用于接收光信号形式的待测信号数据，并转换为电信号形式的待测信号，输出给所述解码模块；所述解码模块，用于对所述电信号形式的待测信号进行解码，输出给所述处理模块；所述处理模块，用于对解码后的待测信号进行解析、测量，得到测量结果，并将该测量结果输出给所述显示模块；所述显示模块，用于对所述测量结果进行显示。本实用新型的数字万用表能够测量数字化变电站中设备的信号量，方便数字化变电站的维护、调试和事故检修。
+37. 201418221 可互换的立式背插插件机箱
+CN
+03.03.2010
+H05K 7/14 Loading...
+H05K 7/14
+Loading...
+200920085208.2
+武汉中元华电科技股份有限公司
+邓志刚
+H05K 7/14
+Loading...
+本实用新型属于电力系统领域，具体涉及一种19寸机架式GPS时间同步系统的插件机箱。可互换的立式背插插件机箱，它包括机箱、背板；背板位于机箱的空腔内前部，背板与机箱固定连接；其特征在于：背板的后面上从右至左依次固定有接收模块插针座(或接收模块插槽座)、CPU板插针座(或CPU板插槽座)、7～14个输出插针座(或者采用输出插槽座)、电源插针座(或电源插槽座)，7～14个输出插针座(或者采用输出插槽座)采用一致的引脚定义；机箱的底面板上从右至左依次固定有10～17个导轨条，导轨条位于机箱的空腔内后部，导轨条与背板垂直，机箱的后面板上设有10～17个安装面板。该插件机箱具有散热性能好、输出立式插件板可互换的特点。
+38. 101655515 Digital multimeter
+CN
+24.02.2010
+G01R 15/12 Loading...
+G01R 15/12
+Loading...
+200910158002.2
+Wuhan Zhongyuan Huadian Technology Co., Ltd.
+Yang Jingchao
+G01R 15/12
+Loading...
+The invention relates to a digital multimeter which comprises a signal access module, a decoding module, a processing module and a display module which are connected sequentially, wherein the signal access module is used for receiving signal data to be measured in an optical signal mode, converting the signal data into signals to be measured in an electric signal mode, and outputting the signals to the decoding module; the decoding module is used for decoding the signals to be measured in the electric signal mode, and outputting the signals to the processing module; the processing module is used for analyzing and measuring the decoded signals to be measured, obtaining the measuring result, and outputting the measuring result to the display module; and the display module is used for displaying the measuring result. The digital multimeter can measure the signal amount of the equipment in a digital transformer substation, and is convenient for maintenance, debugging and accident maintenance of the digital transformer substation.
+39. 1707275 Method for removing interference inductive voltage in transmission line power frequency parameter test
+CN
+14.12.2005
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200510018675.X
+Zhongyuan Huadian Science & Technology Co., Ltd., Wuhan
+Deng Zhigang
+G01R 31/00
+Loading...
+The present invention relates to method of eliminating the interference inducing voltage in industrial frequency parameter measurement of power transmission line. The present invention features that the method of eliminating the interference inducing voltage includes the following steps: 1. adopting one sync power supply synchronous with the interference inducing voltage for industrial frequency parameter measurement of power transmission line; 2. performing twice measurement based on the sync power supply; and 3. subtracting phasors obtained in the twice measurement. The said method can eliminate interference inducing voltage in industrial frequency parameter measurement of power transmission line to raise the accuracy and precision of the measured parameters.
+40. 1595373 A two-channel synchronous recording and storing method and equipment for fault recording data
+CN
+16.03.2005
+G06F 12/00 Loading...
+G06F 12/00
+Loading...
+200410013349.5
+Zhang Xiaobo
+Zhang Xiaobo
+G06F 12/00
+Loading...
+The invention relates to a fault oscilloscope data recording and storing method of the electrical power system. Its characteristics lie in the following. The fault oscilloscope system records and stores the data collected by the fault oscillometer simultaneously through the two independent channels, which are the fault oscilloscope data recording channel and the data storing channel. The invention improves the stability of the data recording and storing. At the same time, the integrity of the fault oscilloscope data is also enhanced.
+

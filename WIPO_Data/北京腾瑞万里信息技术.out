@@ -1,0 +1,121 @@
+1. 202903201 导航终端设备和导航系统
+CN
+24.04.2013
+G01C 21/00 Loading...
+G01C 21/00
+Loading...
+201220427020.3
+北京腾瑞万里信息技术有限公司
+米兰
+G01C 21/00
+Loading...
+本实用新型提供一种导航终端设备和导航系统，该导航终端设备包括录音机、存储器和播放器，录音机连接存储器，用于将用户的语音录制成语音文件并存储到存储器中；存储器连接录音机和播放器，用于存储语音文件，并向播放器提供语音文件；播放器连接存储器，用于播放存储器提供的语音文件。本实用新型提供的导航终端设备和导航系统，能够实现导航语音的定制与共享，提高导航语音提示的准确性。
+2. 102346041 基于实时路况的路线规划方法及其服务设备
+CN
+08.02.2012
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110080416.5
+北京腾瑞万里信息技术有限公司
+陈鹏
+G01C 21/34
+Loading...
+本发明公开一种基于实时路况的路线规划方法及其服务设备，其中方法包括：等待至下一路线规划判定周期的初始时刻，获取待测目标的当前位置；获取已确定的最优路线；获取各路段当前的初始路况值；在最优路线中确定在设定行程范围内的路段，作为待测路段；在设定采集周期后，采集各待测路段的实时路况值；按照路况规划策略，计算总路况改变值；判断总路况改变值是否小于预定值，若是，则无需重新规划最优路线，并返回至等待待测目标的当前位置的操作，若否，则根据当前位置和目的地重新规划两点之间的最优路线，并返回至等待待测目标的当前位置的操作。本发明提供的基于实时路况的路线规划方法及其路线规划服务设备可以减少不必要的导航规划次数。
+3. 102346042 基于实时路况的路线规划方法及其服务设备
+CN
+08.02.2012
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110081137.0
+北京腾瑞万里信息技术有限公司
+陈鹏
+G01C 21/34
+Loading...
+本发明公开了一种基于实时路况的路线规划方法及其服务设备，其方法包括：等待获取待测目标的当前位置；获取已确定的最优路线；获取当前位置分别至最优路线内各路段终点的行程时间，以及初始路况值；确定待测路段；设定采集周期，采集各待测路段的实时路况值；按照路况规划策略，计算总加权路况改变值；判断所述总加权路况改变值是否小于预定值，若是，则视为无需重新规划最优路线，并返回执行等待待测目标的当前位置的操作，若否，则根据所述当前位置和目的地重新规划两点之间的最优路线，并返回执行等待获取待测目标的当前位置的操作。本发明提供的基于实时路况的路线规划方法及其服务设备可以减少导航线路规划次数。
+4. 102297698 Planning method and device of real-time road conditions and routes
+CN
+28.12.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110080005.6
+Tiros Inc.
+Chen Peng
+G01C 21/34
+Loading...
+The invention provides a planning method and a device of real-time road conditions and routes. The method comprises the following steps: according to the current position of the real-time road condition and route of a user, acquiring the current estimated position of an unreal-time road condition and route of the user, wherein, the unreal-time road condition and route is different from the real-time road condition and route and is an optimal route from a starting position to a destination of the user; judging whether the sum of weighted changing values of the road conditions of each roads in specified journey time from the current estimated position of the unreal-time road condition and route is larger than a preset threshold or not, if yes, carrying out planning on the real-time road condition and route from the current position to the destination to obtain the data of optimal real-time road condition and route. According to the invention, the planning volume of the route planning device can be reduced, unnecessary planning is avoided, the route planning efficiency of ITS is improved, and the burden of ITS is reduced.
+5. 102297699 Method and device for planning real-time road-condition route
+CN
+28.12.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110080016.4
+Tiros Inc.
+Chen Peng
+G01C 21/34
+Loading...
+The invention provides a method and a device for planning a real-time road-condition route. The method comprises the following steps: acquiring a current estimated position of a user on a non-real-time road-condition route according to a current position of the user on a real-time road-condition route, wherein the non-real-time road-condition route is different from the real-time road-condition route and is the optimal route of the user from a starting point to a destination; judging if the summation of change values of road-conditions from the current estimated position to an appointed section of the destination on the non-real-time road-condition route is more than a preset threshold value; and if yes, planning the real-time road-condition route from the current position to the destination, so as to generate the optimal road-condition route information. The technical scheme in the invention can be used for reducing planning capacity of a route planning device, avoiding unnecessary planning, promoting route planning efficiency of an ITS (Intelligent Transportation System) and reducing ITS load.
+6. 102288187 Real-time road condition and route planning method and equipment
+CN
+21.12.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110080414.6
+Beijing Teng Rui Miles, IT Co., Ltd.
+Chen Peng
+G01C 21/34
+Loading...
+The invention provides a real-time road condition and route planning method and equipment; the real-time road condition and route planning method comprises the steps that: if the sum of the received weighted road condition change values of all road sections in a pre-set surrounding area of a current position in current position information is judged and known to be more than a preset threshold value, a route is planned, so that the best route information is generated; and wherein, each weighted road condition change value is the multiplication of a road condition change value and a weighted coefficient. The real-time road condition and route planning equipment comprises a planning module, and is used for planning the route if the sum of the received weighted road condition change values of all road sections in the pre-set surrounding area of the current position in the current position information is judged and known to be more than the preset threshold value, so that the best route information is generated. The real-time road condition and route planning method and equipment reduce the planning quantity of the route planning equipment, avoid unnecessary planning, and improve the route planning efficiency of an intelligent traffic system.
+7. 102288188 Route planning method and device for real-time traffic
+CN
+21.12.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110080415.0
+Beijing Teng Rui Miles, IT Co., Ltd.
+Chen Peng
+G01C 21/34
+Loading...
+The invention provides a route planning method and a device for real-time traffic. The route planning method for real-time traffic comprises the following steps: planning a route to generate optimal route information if a condition that the sum of traffic changing values of all road sections in a preset peripheral area of a current position in received current position information is more than a preset threshold value is judged and acknowledged. The route planning device for real-time traffic comprises a planning module which is used for planning the route to generate the optimal route information if the condition that the sum of the traffic changing values of all the road sections in the preset peripheral area of the current position in the received current position information is more than the preset threshold value is judged and acknowledged. According to the route planning method and the device for real-time traffic provided by the invention, the planning load for the route planning device is reduced and unnecessary planning is avoided, thus the route planning efficiency of an intelligent traffic system is increased.
+8. 102230804 Method for updating and displaying navigation route of real-time traffic status and navigation server
+CN
+02.11.2011
+G01C 21/34 Loading...
+G01C 21/34
+Loading...
+201110074090.5
+Beijing Teng Rui Wan Li Information Technology Co.,Ltd.
+Chen Peng
+G01C 21/34
+Loading...
+The invention provides a method for updating and displaying a navigation route of a real-time traffic status and a navigation server. The method comprises the following steps of: calculating the running distance of a mobile terminal which runs for a first preset period of time according to an acquired current optimal route; calculating a second period of time needed by the mobile terminal for running by the running distance according to the acquired current displayed route; and when the difference between the second period of time and the first preset period of time is more than a preset threshold, transmitting the current optimal route to the mobile terminal to update a current displayed route into a current optimal route by using the mobile terminal. Due to the adoption of the method for updating and displaying the navigation route of the real-time traffic status and the navigation server, the displayed navigation route is updated only when the current optimal route is remarkably superior to the current displayed route, the updating frequency of the navigation route is lowered, and valuable communication resource is saved.
+9. 101246476 Map data downloading method, downloading device and server
+CN
+20.08.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200710063974.4
+Beijing Tengrui Wanli Information Technology Co., Ltd.
+Bai Guangbin
+G06F 17/30
+Loading...
+The invention discloses a downloading method for map data, comprising: a user terminal searches whether or not there is data of map piece corresponding to map region need to be required stored locally, if so, reading data of the map piece stored locally and executing continuous map data processing operation; if not, downloading data of the map piece from the server and executing continuous map data processing operation. The invention further discloses a downloading device for map data and a downloading server as well. The invention is capable of enabling the user to obtain quickly and accurately the map data, to accomplish personified and agile map data download aiming at different users, to reduce downloading time of the map data, to reduces storage space occupied, at the same time to reduces cost of network data stream, to reduce service cost of the user and to reduce dependency of the network, which reduces network cover rate and influence of network signal intensity for the user who uses the map.
+10. 101093168 Navigation system, and navigation method
+CN
+26.12.2007
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+200610086462.5
+Tengruiwanli IT Tech Co., Ltd., Beijing
+Dong Shan
+G01C 21/26
+Loading...
+A navigating method includes sending voice information by mobile terminal, analyzing destination information by central processing module, obtaining position information by mobile terminal through location positioning platform, sending obtained position information together with destination information to navigation information generating module to generate navigation information being sent to central processing module and utilizing the second communication module to send generated navigation information to mobile terminal for storing said navigation information there. The device used for realizing said method is also disclosed.
+

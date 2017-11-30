@@ -1,0 +1,469 @@
+1. 103927564 读写器与电子标签之间的通信方法、读写器和电子标签
+CN
+25.01.2017
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+102013000013173
+北京北大千方科技有限公司
+刘起昌
+G06K 17/00
+Loading...
+本发明提供了一种读写器与电子标签之间的通信方法、读写器和电子标签，其中的通信方法具体包括：在保持读写器和电子标签的相对位置固定的情况下，将电子标签从非金属环境逐步移动至金属环境；在所述逐步移动的过程中，读写器持续发射电磁波，并接收来自电子标签的反射电磁波；读写器通过分析所述反射电磁波的强度，得到标签芯片与标签天线之间的阻抗匹配度；读写器依据所述阻抗匹配度，通过向电子标签发送阻抗调节指令进行标签芯片阻抗的反馈调节；电子标签依据来自读写器的阻抗调节指令，进行标签芯片阻抗的调节，并在每次调节后向读写器发送反射电磁波。本发明能够保障电子标签在金属环境中的正常工作，增加电子标签的环境适用范围。
+2. 105300402 一种车辆里程的统计方法及装置
+CN
+03.02.2016
+G01C 22/00 Loading...
+G01C 22/00
+Loading...
+201510568415.3
+北京北大千方科技有限公司
+陈晔
+G01C 22/00
+Loading...
+本发明实施例提供了一种车辆里程的统计方法及装置，以解决现有里程统计精度较低的问题。所述方法包括：对区域信息按照级别进行分类，对各级区域信息构建节点树，其中每一个节点对应一级区域；接收车辆行驶中至少两个采集点的采集信息；基于第一预置算法按照所述采集信息对各采集点进行筛选，筛选得到正常采集点；按照节点树对正常采集点进行分析，确定每个正常采集点对应的区域信息；根据各正常采集点对应的区域信息按照第二预置算法确定车辆在各区域内的行驶里程。本申请实现了一种精确的里程统计方法，可以将整个行驶轨迹划分成一个或多个区域的小里程，再依次统计各区域里程，实现了分区域统计，同样提高了整个里程统计的精准度。
+3. 105187790 一种车载终端的工作状态的监控方法、装置和系统
+CN
+23.12.2015
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201510567866.5
+北京北大千方科技有限公司
+张韬
+H04N 7/18
+Loading...
+本发明公开了一种车载终端的工作状态的监控方法、装置和系统，所述方法包括：接收多个行驶的车辆上安装的车载终端上报的定位信息，针对各个车载终端，当接收的所述车载终端持续上报的所述定位信息中断时，根据最新接收的所述定位信息，预测所述车辆将经过的下一个目标监测站点，在接收的所有监测站点分别设置的视频监测设备采集的所有车辆的图像信息中，查找是否存在所述目标监测站点记录的所述车辆的图像信息，若是，则识别所述车载终端的工作状态为异常工作状态，将识别的所述车载终端的异常工作状态反馈到监控终端进行展示。依据本发明的方案可以准确地判断在车辆行驶过程中所述车辆的车载终端是处于正常工作状态。
+4. 203773159 一种车载抬头显示系统
+CN
+13.08.2014
+G02B 27/01 Loading...
+G02B 27/01
+Loading...
+201420092119.1
+北京北大千方科技有限公司
+杜水荣
+G02B 27/01
+Loading...
+本实用新型提供了一种车载抬头显示系统，包括：用于放大图像源的短距投影光学系统；短距投影光学系统位于成像面板与汽车的前挡风玻璃之间，短距投影光学系统接收成像面板出射的图像源并将图像源投影于汽车的前挡风玻璃上；短距投影光学系统包括多个同轴排列的双凸透镜、双凹透镜、弯月透镜以及胶合透镜；短距投影光学系统的投射比范围为1.2至0.53，后工作距离大于10毫米，视场角大于或等于45度。通过本实用新型，能够在汽车有限空间内显示出大小适中、且清晰的图像。
+5. 103914883 Sensitivity control method and system for road side unit
+CN
+09.07.2014
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201210591934.8
+北京北大千方科技有限公司
+汪飞
+G07B 15/06
+Loading...
+The embodiment of the invention provides a sensitivity control method and system for a road side unit (RSU) so as to solve a problem that the sensitivity of the RSU cannot be controlled accurately and thus adjacent-channel interferences are caused. The sensitivity control method and system for the RSU is capable of controlling the sensitivity of the RSU through a reference level. One reference level is corresponding to one sensitivity so that the amplitude of detection signals does not need to be adjusted. When the reference level increases, the sensitivity of the RSU increases and when the reference level reduces, the sensitivity of the RSU decreases so that the sensitivity can be controlled accurately. If the intensity of received signals is lower than the sensitivity, a logical operation does not output a result and then it can be regarded that output signals received from an on board unit (OBU) are interference signals and thus the interference signals are filtered. The RSU has only one sensitivity so that the RSU only processes signals sent by OBUs in a lane which the RSU is in and thus adjacent-channel interferences are reduced.
+6. 203325035 一种电子标签
+CN
+04.12.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201320018517.4
+北京北大千方科技有限公司
+刘雪进
+G07B 15/06
+Loading...
+本申请提供了一种电子标签，涉及智能交通领域。所述电子标签包括：主控模块，ETC交易模块，电源管理模块，图像采集模块和SD卡数据记录模块；所述主控模块分别与ETC交易模块，电源管理模块，图像采集模块和SD卡数据记录模块连接，所述图像采集模块采集的行车数据传输给主控模块处理，所述主控模块将所述行车数据传输至SD卡数据记录模块存储，所述ETC交易模块中的交易数据传输给主控模块处理；所述电源管理模块分别连接ETC交易模块，图像采集模块和SD卡数据记录模块。本实用新型从而使电子不停车收费和行车记录功能完美融合于一体机内，占用空间小，降低对驾驶员视线的影响，提供车辆行驶安全性。
+7. 203070372 一种车载单元
+CN
+17.07.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201220741030.4
+北京北大千方科技有限公司
+李琦
+G07B 15/06
+Loading...
+本申请提供了一种车载单元，涉及智能交通领域。所述车载单元包括：数据处理模块，射频模块和控制总线；所述数据处理模块包括：显示模块，读卡模块，CPU，PCB板，第一控制总线接口，通讯接口，所述显示模块通过PCB板与CPU连接，所述读卡模块通过PCB板与CPU连接，所述第一控制总线接口通过PCB板与CPU连接，所述通讯接口通过PCB板与CPU连接；所述数据处理模块安装于车辆空间内部控制台；射频模块，所述射频模块通过控制总线与数据处理模块的第一控制总线接口相连接；所述射频模块安装于车辆空间外部。解决了因为挡风玻璃或者因为挡风玻璃的车膜导致唤醒灵敏度降低从而导致交易区域变小的问题，避免了有紧跟车情况下容易出现跟车干扰和容易出现邻道干扰的情况。
+8. 203070373 一种车载单元
+CN
+17.07.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201220741388.7
+北京北大千方科技有限公司
+李琦
+G07B 15/06
+Loading...
+本实用新型提供了一种车载单元，涉及智能交通领域。所述车载单元包括：可移动模块，防拆卸模块和控制总线；所述可移动模块包括：显示模块，用户卡模块，CPU，通讯接口，射频模块，第一控制总线接口，PCB板；所述显示模块通过PCB板与CPU连接，所述用户卡模块通过PCB板与CPU连接，所述第一控制总线接口通过PCB板与CPU连接，所述通讯接口通过PCB板与CPU连接，所述射频模块通过PCB板与CPU连接；所述防拆卸模块包括ESAM模块；所述防拆卸模块通过控制总线连接第一控制总线接口；所述防拆卸模块固定安装于车辆中控台里面。本实用新型将包括ESAM的模块分离出来、通过控制总线与另外部分相连，分离出来的部分固定安装在车辆中控台上，与车辆成为一体，保证其防拆特性。
+9. 203063833 一种车载单元安装装置
+CN
+17.07.2013
+B60R 11/00 Loading...
+B60R 11/00
+Loading...
+201220742037.8
+北京北大千方科技有限公司
+陈亮
+B60R 11/00
+Loading...
+本实用新型实施例公开了一种车载单元安装装置，以解决安装OBU的压力不适当，造成玻璃损坏或OBU掉落的问题。所述装置，包括：至少两个吸盘，每个吸盘由吸盘底座和吸盘杆连接组成；至少一个横梁，每个横梁两端各存在一个孔；至少两个紧固螺帽，每个紧固螺帽旋紧在所述吸盘杆上；将OBU贴在玻璃上，所述吸盘通过吸盘底座吸附于OBU周围的玻璃，所述吸盘杆穿过横梁两端的孔，所述横梁将OBU压在玻璃上，紧固螺帽旋紧在穿过横梁两端孔的吸盘杆上，将OBU固定。本实用新型实施例专门针对OBU的安装进行设计，使OBU受力均匀，并且可以相对客观地量化安装效果，防止车辆玻璃损坏以及OBU掉落。
+10. 103178862 Vehicle-mounted unit and method for adjusting vehicle-mounted unit communication area
+CN
+26.06.2013
+H04B 1/3822 Loading...
+H04B 1/3822
+Loading...
+201110433097.1
+北京北大千方科技有限公司
+李琦
+H04B 1/3822
+Loading...
+The invention provides a vehicle-mounted unit and a method for adjusting a vehicle-mounted unit communication area and relates to the field of intelligent transportation. The vehicle-mounted unit comprises a central processing unit (CPU), a radio frequency chip, a temperature sensing unit and an analog-digital converter. The temperature sensing unit comprises at least two thermistors and a low dropout regulator. The at least two thermistors are in series connection, voltage is loaded at two ends of circuits of the at least two series-connection thermistors through the low dropout regulator, the analog-digital converter is connected with the position between two adjacent resistors in the at least two thermistors, and the CPU is connected with the radio frequency chip and the analog-digital converter. A current environment temperature value can be obtained through the CPU according to the temperature sensing unit, corresponding control instructions are sent out to the radio frequency chip according to the temperature value so as to adjust a communication area of an on-board unit (OBU), the communication area of the OBU can conform to a preset communication area, influence on following vehicles and adjacent channels is not caused, and the transaction success rate is not influenced as well.
+11. 103177479 Roadside device and data processing method in roadside device
+CN
+26.06.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110430621.X
+北京北大千方科技有限公司
+李琦
+G07B 15/06
+Loading...
+The invention provides a roadside device and a data processing method in the roadside device. The roadside device specifically comprises a central processing unit (CPU), a radio frequency module and an antenna. The radio frequency module comprises a receiving module and a transmitting module. The antenna further comprises a receiving antenna and a transmitting antenna. The road side device further comprises an integrated circuit chip connected between the CPU and the radio frequency module. The integrated circuit chip comprises a transmitting processing module and a receiving processing module. Data returned by a vehicle-mounted device are received and processed by the receiving processing module through the receiving antenna and the receiving module, and the data received and processed by the receiving processing module are output to the CPU. The data from the CPU enter the transmitting processing module to be transmitted and processed, and the data transmitted and processed by the transmitting processing module are sequentially transmitted to the vehicle-mounted device through the transmitting module and the transmitting antenna. The roadside device and the data processing method can avoid data loss in the transaction process, reduce and save transaction time and improve transaction efficiency accordingly.
+12. 103164874 Vehicle-mounted device
+CN
+19.06.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110406990.5
+北京北大千方科技有限公司
+刘起昌
+G07B 15/06
+Loading...
+The invention provides a vehicle-mounted device which comprises a metal shielding cover. The metal shielding cover is installed on a circuit board through a locating device on the circuit board where a microwave communication circuit arranged on the vehicle-mounted device is located, and the metal shielding cover is in electric connection with the circuit board. An electromagnetism shielding cavity body is formed between the metal shielding cover and the circuit board. The microwave communication circuit is located on the circuit board in the electromagnetism shielding cavity body. Through the vehicle-mounted device, anti-disturbance performance of the vehicle-mounted device is improved, and accordingly a success ratio of communication of the vehicle-mounted device is improved, and the probability that the vehicle-mounted device is mistakenly waked is decreased.
+13. 103164875 车载设备
+CN
+19.06.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110407048.0
+北京北大千方科技有限公司
+刘起昌
+G07B 15/06
+Loading...
+本申请提供了一种车载设备，所述车载设备包括车载设备本体和防拆卸结构，所述防拆卸结构包括第一电极和第二电极，所述第一电极和所述第二电极组成一个等效电容器；当所述车载设备安装到车辆上时，所述防拆卸结构所贴合的车辆部件作为该等效电容器的介质；所述车载设备本体和所述防拆卸结构为一体结构，其中设置有电容检测装置，用于在安装到车辆之后，检测所述等效电容器的电容变化。通过本申请，达到了提高车载设备防拆卸结构敏感度，避免车载设备误动作或被非法使用，提升用户使用体验的效果。
+14. 103106694 用于消除车玻璃对ETC微波信号屏蔽的车载装置及系统
+CN
+15.05.2013
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201310019427.1
+北京北大千方科技有限公司
+刘明
+G07B 15/06
+Loading...
+本发明公开一种用于消除车玻璃对ETC微波信号屏蔽的车载装置及系统，通过将车载装置的微波天线与主机分离，并将微波天线置于车外与路侧单元进行通信，直接避开了挡风玻璃对信号的干扰，很大程度上保证了通信区域的一致性，提高了通车成功率。
+15. 103078685 用于降低ETC系统中邻道干扰的方法、系统及装置
+CN
+01.05.2013
+H04B 15/00 Loading...
+H04B 15/00
+Loading...
+201210592236.X
+北京北大千方科技有限公司
+刘明
+H04B 15/00
+Loading...
+本发明公开一种用于降低ETC系统中邻道干扰的方法、系统及装置，通过对收发一体的天线进行改造，形成收发分离的天线，通过修改控制器的软件，控制发射天线在有效数据信号发送完毕时发送干扰波，同时接收天线等待接收车载单元返回的响应信号，这种全双工通信方式使得任何时刻本车道被无时间间隙地覆盖了本车道对应信道信号，从而相邻车道的信号没有插入本车道内OBU的时间空隙，能够有效降低甚至消除邻道干扰，此外，本发明的技术方案不依赖任何其他设备，天线各自独立工作，硬件成本低。
+16. 103078686 用于降低ETC系统中邻道干扰的方法、系统及装置
+CN
+01.05.2013
+H04B 15/00 Loading...
+H04B 15/00
+Loading...
+201210592967.4
+北京北大千方科技有限公司
+刘明
+H04B 15/00
+Loading...
+本发明公开一种用于降低ETC系统中邻道干扰的方法、系统及装置，在一车道上设置两路路侧单元，通过控制两路路侧单元发射信号的状态、时间及功率，使得第一路侧单元在搜索阶段只覆盖车道较小的区域，很大程度上保证了不会搜索到邻道的车载单元，并且，第二路侧单元通过车载单元具有的唯一身份标识信息对车载单元进行正确识别完成缴费操作，即使车载单元接收到邻道路侧单元发送的交易信息，根据交易信息携带的车载单元的唯一身份标识信息也能够判断是否缴费，从而有效的减低邻道干扰的概率。
+17. 202486850 车载设备
+CN
+10.10.2012
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201120509793.1
+北京北大千方科技有限公司
+刘起昌
+G07B 15/06
+Loading...
+本申请提供了一种车载设备，所述车载设备包括车载设备本体和电容感应式防拆卸结构，所述电容感应式防拆卸结构包括第一电极和第二电极，所述第一电极和所述第二电极组成一个等效电容器；当所述车载设备安装到车辆上时，所述电容感应式防拆卸结构所贴合的车辆部件作为该等效电容器的介质；所述车载设备本体和所述电容感应式防拆卸结构为一体结构，其中设置有电容检测装置，用于在安装到车辆之后，检测所述等效电容器的电容变化。通过本申请，达到了提高车载设备防拆卸结构敏感度，避免车载设备误动作或被非法使用，提升用户使用体验的效果。
+18. 202429171 一种具有防盗功能的车载单元
+CN
+12.09.2012
+B60R 25/10 Loading...
+B60R 25/10
+Loading...
+201120540746.3
+北京北大千方科技有限公司
+李琦
+B60R 25/10
+Loading...
+本申请提供了一种具有防盗功能的车载单元，涉及汽车防盗领域。本申请包括：CPU，广播通信模块，和防拆开关；所述广播通信模块与CPU相连，用于接收通信网络中的定位请求信号和发送定位信号到通信网络中；所述防拆开关与CPU相连，用于发送系统被拆卸信号给CPU；所述CPU包括广播通信控制模块，用于根据接收到的定位请求信号或被拆卸信号控制广播通信模块发送定位信号。通过本申请，用户端可根据所述定位信号确认汽车的位置，并且通过通信后可以使得OBU在通过收费站时与RSU通信后收费站系统能够发出报警，有效防止汽车被盗，并且节省成本，便于安装。
+19. 202374198 车载设备
+CN
+08.08.2012
+H02N 11/00 Loading...
+H02N 11/00
+Loading...
+201120509797.X
+北京北大千方科技有限公司
+刘起昌
+H02N 11/00
+Loading...
+本申请提供了一种车载设备，所述车载设备包括：热电转换装置、电压转化电路和电能存储元件；其中，所述热电转换装置，用于将所述车载设备所在的车辆的外部和所述车辆的内部的温度差，转化为电压并输出给所述电压转化电路；所述电压转化电路，用于接收所述热电转换装置输出的所述电压，将所述电压转化为所述车载设备的存储电压并输出给所述电能存储元件；所述电能存储元件，用于存储所述电压转化电路输出的所述存储电压，在所述车载设备控制下向所述车载设备供电。通过本申请，延长了OBU的供电时间，减少了OBU更换电池的次数，在一定程度上减轻了用户负担，提升了用户使用体验。
+20. 202362839 一种具有识别功能的OBU 装置
+CN
+01.08.2012
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201120523191.1
+北京北大千方科技有限公司
+陈亮
+G07B 15/06
+Loading...
+本申请提供了一种具有识别功能的OBU装置，以解决多人驾驶同一辆汽车难以控制使用OBU装置的问题。所述的装置包括视频识别模块、射频模块和微处理器模块，视频识别模块获取到识别图像并解码后，得到解码数据传输给微处理器，在车辆行驶中，微处理器接收到射频模块传输的付费数据后，可以根据所述解码数据中的付费标识判断是否可以付费。在多名驾驶人员使用同一辆汽车时，使用视频识别模块获取到识别图像并解码后，进而才能够通过解码数据中的付费标识使用OBU装置进行付费，对于驾驶人员进行了相应的限制和确认，可以控制使用OBU装置。
+21. 202364529 车载设备
+CN
+01.08.2012
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+201120509794.6
+北京北大千方科技有限公司
+刘起昌
+H05K 9/00
+Loading...
+本申请提供了一种车载设备，所述车载设备包括：金属屏蔽罩；所述金属屏蔽罩通过设置于所述车载设备的微波通信电路所在的电路板上的定位装置，安装于所述电路板上，且与所述电路板电气连接；并且，所述金属屏蔽罩与所述电路板之间形成电磁屏蔽腔体，所述微波通信电路位于所述电磁屏蔽腔体中的所述电路板上。通过本申请，提高了车载设备的抗干扰性能，进而提高了车载设备的通信成功率，减少了车载设备被误唤醒的机率。
+22. 102467669 一种在激光检测中提高匹配精度的方法和设备
+CN
+23.05.2012
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+201010547507.0
+北京北大千方科技有限公司
+刘成英
+G06F 17/00
+Loading...
+本发明涉及一种在激光检测中提高匹配精度的方法和设备，所述方法包括：在激光检测数据中选择需要进行匹配的参数；对所述参数进行加权处理，其中分配给每一种参数的权值各不相同；以及在加权后的参数组之间查找匹配对象；其中，根据预先设定的匹配误差阈值来确定参数组是否匹配。本发明通过对匹配所需要的参数进行加权处理，然后在匹配过程中通过建立弱匹配库或调整匹配误差阈值的方式对匹配范围进行调整，提高了匹配的整体精度。
+23. 102436536 一种客流密度的检测方法
+CN
+02.05.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110211027.1
+北京北大千方科技有限公司
+马爱民
+G06F 19/00
+Loading...
+本发明涉及一种客流密度的检测方法，所述方法包括如下步骤：检测获取第一时间点和第二时间点内的客流数量数据；测量第一时间点和第二时间点之间的客流运动速度；根据所述客流数量数据、客流运动宽度和客流运动速度得到客流密度。本发明提出的客流密度的检测方法，通过获取某时间段内客流数量数据、客流运动速度及客流运动宽度，从而实现一种准确获取客流密度的方法。
+24. 102313817 一种客流运动速度的检测方法
+CN
+11.01.2012
+G01P 3/64 Loading...
+G01P 3/64
+Loading...
+201110211153.7
+北京北大千方科技有限公司
+马爱民
+G01P 3/64
+Loading...
+本发明涉及一种客流运动速度的检测方法，其特征在于，包括下列步骤：在第一时间点获取测量点到客流个体的第一距离；在第二时间点获取测量点到客流个体的第二距离；根据所述第一距离和第二距离，以及第一时间点和第二时间点的时间差得到所述客流个体的运动速度；利用多个客流个体的运动速度得到客流运动速度。本发明利用客流运动过程中在不同的时间点从测量点到客流个体的距离及时间差计算得到客流运动速度，最大限度的适应运动条件下的客流运动速度检测，实现了一种高精度的检测客流运动速度的手段。
+25. 102306330 一种激光客流检测方法和装置
+CN
+04.01.2012
+G06M 1/10 Loading...
+G06M 1/10
+Loading...
+201110219594.1
+北京北大千方科技有限公司
+赵斌
+G06M 1/10
+Loading...
+本发明提供了一种激光客流检测方法和装置，涉及客流检测领域。所述的方法包括：在距地面固定高度的水平面内，移动垂直二维激光从三维空间区域一端至另一端来回进行扫描，获得各激光扫描截面信息；将所获取的各激光扫描截面信息进行拼接，得到三维空间区域的拼接截面信息；分析所得到的拼接截面信息，得到客流信息。相应的装置包括水平轨道，激光扫描装置，工控机和服务器。本发明通过采用二维激光水平移动扫描三维空间区域，将扫描的各个截面信息进行拼接，得到三维空间区域信息，然后对三维空间区域信息进行分析处理，得到整个三维区域通道中的人数、行人速度、行人方向。
+26. 102306285 人形识别方法
+CN
+04.01.2012
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110232631.2
+北京北大千方科技有限公司
+刘成英
+G06K 9/00
+Loading...
+本发明涉及一种人形识别方法，所述方法包括如下步骤：对场景内的扫描目标进行扫描，获取扫描数据；获取所述扫描数据中各扫描点的高度和距离；提取高度大于高度阈值的扫描点；建立一个锥形体，所述锥形体包括全部高度大于高度阈值的扫描点；如果所述锥形体的高度和半径符合预设的高度和半径，则判断所述场景内的扫描目标为人形。本发明提出的人形识别方法，通过获取场景内扫描目标的扫描数据来获取各扫描点的高度和距离，利用高度大于高度阈值的扫描点来建立锥形体，将锥形体的高度和半径与预设的高度和半径相比，从而实现了一种精确判定场景内的扫描目标是否为人形的方法。
+27. 202102596 一种便携式交通流量记录仪
+CN
+04.01.2012
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201120157276.2
+北京北大千方科技有限公司
+陈志超
+G08G 1/065
+Loading...
+本实用新型提供了一种便携式交通流量记录仪，所述的交通流量记录仪包括记录仪主机和与所述记录仪主机相连的外挂键盘，所述的记录仪主机通过外挂键盘输入信息。此便携式交通流量记录仪能由用户自由更换键盘，在按键损坏的情况通过更换一个功能完好的键盘而继续使用整个设备。
+28. 102176009 Microwave distance measurement-based antenna positioning method and device
+CN
+07.09.2011
+G01S 13/08 Loading...
+G01S 13/08
+Loading...
+201110025016.4
+China Transinfo Beijing Technology Co., Ltd.
+Li Qi
+G01S 13/08
+Loading...
+The invention provides a microwave distance measurement-based antenna positioning method and device. The method comprises the following steps of: transmitting microwave signals through a distance measurement antenna array, and receiving echo signals reflected by the microwave signals; judging whether a vehicle enters the lane by comparing the echo signals with a background signal model, wherein the background signal model is established according to the echo signals when no vehicle passes through the lane; when the vehicle enters the lane is judged, acquiring the positioning distance between the distance measurement antenna array and the current vehicle according to the current echo signals and the background signal model; and adjusting the coverage distance of a read-write antenna according to the positioning distance, so that the read-write antenna is in data communication with a vehicle-mounted electronic tag on the current vehicle. According to the method and the device, the regional range controlled by the antennas can be adjusted, the region is controlled in a range of single vehicles, and the vehicle following influence can be reduced.
+29. 102169601 Anti-dismantling method and system of on-board unit (OBU) as well as OBU
+CN
+31.08.2011
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110025017.9
+China Transinfo Beijing Technology Co., Ltd.
+Chen Yongfeng
+G07B 15/06
+Loading...
+The invention provides an anti-dismantling method and system of an on-board unit (OBU) and the OBU for solving the problem that the existing anti-teardown method has no anti-teardown effect under the condition of artificial dismantling. The installation position of the OBU is provided with a background sticker. The method comprises the following steps: acquiring the current background image of the background sticker when the OBU is waken up, and extracting a feature value of the current background image; and comparing the feature value of the current background image with that of an original background image, dismantling the OBU if the image is changed, otherwise ensuring not to dismantle the OBU. The anti-dismantling method is safer and more reliable than the existing anti-dismantling form.
+30. 102157019 Communication method for on board unit and road side unit of ETC system
+CN
+17.08.2011
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110025014.5
+China TransInfo Technology Corp.
+Liu Qichang
+G07B 15/06
+Loading...
+The invention discloses a communication method for an on board unit (OBU) and a road side unit (RSU) of an electronic toll collection (ETC) system. The method comprises that: the OBU receives microwave signals transmitted by the RSU, and acquires intensity information of the received microwave signals; the OBU adjusts internal communication parameters according to the intensity information of the microwave signals; and the OBU communicates with the RSU by adopting the internal communication parameters. The success rate of microwave communication between the OBU and the RSU of the ETC system can be improved by the method.
+31. 102136161 Releasing equipment, system and method for ETC (Electronic Toll Collection) on board unit
+CN
+27.07.2011
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201110025015.X
+China TransInfo Technology Corp.
+Liu Xuejin
+G07B 15/06
+Loading...
+The invention provides releasing equipment, system and method for an ETC (Electronic Toll Collection) on board unit, which are used for solving the problem of low releasing efficiency existing in the prior art. The releasing equipment of the ETC on board unit comprises a microwave antenna array, a microwave circuit module and a main control module, wherein the main control module is used for receiving releasing data and a releasing command and controlling the microwave circuit module to transmit the releasing data to the microwave antenna array according to the releasing command; the microwave circuit module is communicated with the microwave antenna array and the main control module respectively and is used for modulating and demodulating a microwave signal; and the microwave antenna array is used for communicating with a plurality of on board units and writing the releasing data into the plurality of on board units in batch. By adopting the releasing equipment, system and method, the releasing time is effectively saved, the operating steps of releasing personnel are reduced, and the releasing process is simpler and more efficient.
+32. 102136629 Method and system for controlling microstrip antenna energy distribution
+CN
+27.07.2011
+H01Q 3/26 Loading...
+H01Q 3/26
+Loading...
+201110025021.5
+China TransInfo Technology Corp.
+Wang Fei
+H01Q 3/26
+Loading...
+The invention provides a method and system for controlling microstrip antenna energy distribution, which solve the problem that the waking and transacting distance differences of different on-board units (OBUs) are large caused by the design of a remote subscriber unit (RSU) antenna. The method comprises the following steps: determining the actually needed antenna power distribution and the antenna radiation main direction; stimulating according to the antenna radiator power distribution and the antenna radiation main direction to obtain an antenna directional pattern; calculating the antenna power distribution according to the antenna directional pattern obtained by simulation; and comparing with the actually needed antenna power distribution, if the preset requirement is met, obtaining the actually needed antenna, and if the preset requirement is not met, simulating the antenna directional pattern again until the preset requirement is met. By the method and system provided by the invention, the distribution of the radiation energy of the designed antenna is controlled in an actually needed fixed range, and the waking and transacting distance differences of the OBUs with different sensitivities are shortened, thus satisfying the communication demands of the RSU and the OBU, and the temporary interference of vehicles can be inhibited.
+33. 201876915 一种基于传感器的多媒体互动系统
+CN
+22.06.2011
+G06Q 30/00 Loading...
+G06Q 30/00
+Loading...
+201020610794.0
+北京北大千方科技有限公司
+刘成英
+G06Q 30/00
+Loading...
+本实用新型涉及一种基于传感器的多媒体互动系统，其特征在于，包括：传感器模块、计算模块和显示模块，所述系统用于在行人通道中与行人进行互动的多媒体播放，其中，所述传感器模块电连接到所述计算模块，所述计算模块电连接到所述显示模块；行人行进经过显示模块而触发所述传感器模块产生传感信号，所述传感器模块将所述传感信号传送到所述计算模块，所述计算模块根据所述传感信号控制显示模块进行多媒体播放，从而与行人形成互动。
+34. 102081558 Watchdog circuit in on-board unit and on-board unit
+CN
+01.06.2011
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+201110025045.0
+China TransInfo Technology Group Co., Ltd.
+Liu Qichang
+G06F 11/00
+Loading...
+The invention provides a watchdog circuit in an on-board unit and the on-board unit. The watchdog circuit is positioned outside a microprocessor and comprises a timing circuit and a reset circuit. The timing circuit comprises a first resistance-capacitance charge and discharge circuit and a start enabling terminal, wherein the first resistance-capacitance charge and discharge circuit is connected with a power supply; and the start enabling terminal is connected with the first resistance-capacitance charge and discharge circuit and a control pin of the microprocessor. The reset circuit comprises a second resistance-capacitance charge and discharge circuit and a reset output end, wherein the second resistance-capacitance charge and discharge circuit is connected with the timing circuit and the power supply; and the reset output end is connected with a reset pin of the microprocessor. When the start enabling terminal has a low level, the first resistance-capacitance charge and discharge circuit generates a timing time; when the timing time is up, if the microprocessor is not abnormal, the start enabling terminal is set to have a high level; otherwise, if the microprocessor is abnormal, the second resistance-capacitance charge and discharge circuit generates a low-level reset signal. The watchdog circuit stably works, is low in power consumption and low in cost and can meet the requirements of the on-board unit (OBU).
+35. 102074059 Method and equipment for improving laser-based passenger flow detection accuracy by using decision sequence
+CN
+25.05.2011
+G07C 9/00 Loading...
+G07C 9/00
+Loading...
+201010584562.7
+China TransInfo Technology Group Co., Ltd.
+Liu Chengying
+G07C 9/00
+Loading...
+The invention relates to a method and equipment for improving laser-based passenger flow detection accuracy by using a decision sequence. The method comprises the following steps of: dividing a day, namely 24 hours, into a plurality of time intervals; performing passenger flow detection check at each time interval to acquire a checked passenger flow detection control parameter aiming at the time interval; acquiring the decision sequence by using the plurality of time intervals and checked passenger flow detection control parameters corresponding to the time intervals; and performing passenger flow detection at each time interval by using the checked passenger flow detection control parameters according to the decision sequence. In the invention, the decision sequence aiming at the passenger flow detection control parameters is applied to laser-based passenger flow detection, so laser-based passenger flow detection technology is applicable to specific passenger flow conditions at different time intervals in one day to improve the passenger flow detection accuracy according to time and place.
+36. 201556305 多模式交通信息发布终端
+CN
+18.08.2010
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+200920110029.X
+北京北大千方科技有限公司
+马爱民
+G08G 1/09
+Loading...
+本实用新型涉及计算机技术领域，公开了一种多模式交通信息发布终端。这种多模式交通信息发布终端包含通讯控制单元、数据处理单元、灯带信息显示控制单元、字符信息显示控制单元和车位信息显示控制单元，其结构连接关系是：通讯控制单元与数据处理单元连接，灯带信息显示控制单元、字符信息显示控制单元和车位信息显示控制单元通过现场总线与数据处理单元相连接。本实用新型可以满足城市各类交通信息的发布，融合了交通动态信息和静态信息，能够为公众出行提供实时路况及周边停车场空余车位信息，结构简单合理，安装便捷，实用美观，易于推广，尤其是对城市交通枢纽地段起到重要的交通诱导作用。
+37. 201465103 一种客流检测分析装置
+CN
+12.05.2010
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+200920110658.2
+北京北大千方科技有限公司
+周双全
+G06F 17/00
+Loading...
+本实用新型涉及一种客流检测分析装置，其特征在于包括传感器模块、数据分析模块、数据传输模块，其中，传感器模块对客流通道进行检测传感，获取传感器数据；数据分析模块根据来自传感器模块的所述传感器数据进行分析，得出客流统计数据并传送给数据传输模块；数据传输模块通过无线网络将来自数据分析模块的所述客流统计数据传送出去。本实用新型能够对客流状况进行检测分析，并能够将分析结果传送到信息中心，以便能够及时对被检测区域进行交通调度、安防预警、应急处理等工作。
+38. 101644717 Pedestrian advancing direction judging method adopting laser scanning
+CN
+10.02.2010
+G01P 13/02 Loading...
+G01P 13/02
+Loading...
+200910091650.0
+Peking University
+Zhao Huijing
+G01P 13/02
+Loading...
+The invention provides a pedestrian advancing direction judging method adopting laser scanning, comprising the following steps: respectively carrying out laser scanning on two parallel cross sectionsin the pedestrian advancing direction to obtain a first laser scanning data and a second laser scanning data; and determining the pedestrian advancing direction according to the first laser scanning data and the second laser scanning data. The invention can rapidly judge the pedestrian advancing direction effectively, is not easy to be influenced by an external environment and is convenient to beinstalled and maintained, thereby having good market prospect.
+39. 101626493 Method for judging forward motion direction of pedestrian by combining laser scanning and videos
+CN
+13.01.2010
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+200910090703.7
+China TransInfo Technology Corp.
+Zhou Shuangquan
+H04N 7/18
+Loading...
+The invention provides a method for judging a forward motion direction of a pedestrian by combining laser scanning and videos, which comprises the following steps: (a) carrying out vertical laser scanning and video shooting on pedestrians overhead to acquire laser scanning data and video images; (b) analyzing the laser scanning data to know that a pedestrian is scanned by laser in a frame of the laser scanning data and obtain the analytical data of the frame of the laser scanning data; (c) detecting the video images according to the analytical data so as to find out the body characteristics of the pedestrian; and (d) tracking the pedestrian in the video images according to the body characteristics so as to judge the forward motion direction of the pedestrian. The method can accurately and effectively detect a human body target in the videos by combining the laser scanning and the videos so as to carry out tracking processing and has small influence of external environment.
+

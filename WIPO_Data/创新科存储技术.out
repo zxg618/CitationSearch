@@ -1,0 +1,1405 @@
+1. 106598505 存储设备的管理方法
+CN
+26.04.2017
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+102016001222682
+创新科存储技术有限公司
+杨淑娟
+G06F 3/06
+Loading...
+本申请公开了一种存储设备的管理方法，包括：存储管理服务器与所在局域网络内的各存储设备建立连接；所述存储管理服务器按照预设的查询周期，获取各所述存储设备的硬件状态信息，并根据所获取的信息对数据库中各所述存储设备的硬件状态信息进行更新；当用户登录所述存储管理服务器后，所述存储管理服务器从所述数据库中获取各所述存储设备的相关信息，并通过web界面集中显示所述存储设备的相关信息。本发明适用于对多台存储设备的管理维护，且易于操作、有利于提高设备维护效率。
+2. 106533603 一种分布式系统的时间同步方法和装置
+CN
+22.03.2017
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201611181542.9
+创新科存储技术有限公司
+杨飞
+H04J 3/06
+Loading...
+本发明公开了一种分布式系统的时间同步方法，该分布式系统包括N个互相连接的节点，且N为大于1的自然数；对于其中的一节点，该方法包括：接收其余节点发送的时间同步消息；获取并保存接收到每个时间同步消息时的第二本地系统时间T2；计算对于节点n的第二本地接收时间间隔Δt2；判断对于节点n的第二本地接收时间间隔Δt2与该节点n的第一本地发送时间间隔Δt1的差值是否在设定的阈值内，如果是，保存当前接收到节点n的第二本地系统时间T2与第一本地系统时间T1的系统时间差值Tr；如果否，将接收到的时间同步消息丢弃。本方法通过使任一节点接收其他节点的时间同步消息来实现系统时间的同步，从而减轻了系统的负荷。
+3. 103713952 一种基于UFS的虚拟磁盘分布式存储方法
+CN
+15.02.2017
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+102013000693762
+创新科存储技术（深圳）有限公司
+许元坤
+G06F 9/50
+Loading...
+本发明公开了一种基于UFS的虚拟磁盘分布式存储方法：在XenServer平台中分别创建基于UFS的虚拟磁盘存储库和基于UFS的ISO文件存储库；当需要创建一个虚拟机时，通过所述XenServer平台，从所述虚拟磁盘存储库中申请一块预定大小的磁盘空间，并从所述ISO文件存储库中获取该虚拟机的安装系统；根据所申请的磁盘空间以及获取到的安装系统，完成该虚拟机的创建。本发明所述方案能够融合XenServer平台和UFS的特点，从而提高了存储性能。
+4. 103678025 一种磁盘阵列中的磁盘故障处理方法
+CN
+04.01.2017
+G06F 11/07 Loading...
+G06F 11/07
+Loading...
+102013000634831
+创新科软件技术（深圳）有限公司
+庄建波
+G06F 11/07
+Loading...
+本发明公开了一种RAID中的磁盘故障处理方法：为系统中的各工作RAID设置P个临时存储介质，P为正整数，初始设置时，临时存储介质中为空；其中，各工作RAID的磁盘中不设置保留空间；当任一工作RAID中的任一磁盘出现故障时，将所述故障对应的条带中的数据保存到临时存储介质中；当故障修复时，将保存在临时存储介质中的数据对应恢复到原条带中，并释放所恢复的数据在临时存储介质中占用的存储空间。应用本发明所述方法，能够实现存储空间的合理利用。
+5. 103577284 非透明桥芯片的异常检测与恢复方法
+CN
+17.08.2016
+G06F 11/18 Loading...
+G06F 11/18
+Loading...
+102013000468413
+创新科存储技术（深圳）有限公司
+冯葆
+G06F 11/18
+Loading...
+本申请公开了一种非透明桥芯片的异常检测与恢复方法，该方法中操作系统利用底层的存储扩展固件（Expander）提供的基础信息，实时检测双控构架系统中非透明桥（NT）芯片连接是否成功，并在检测到连接异常时，执行一系列异常恢复过程，从而可以实现对NT芯片状态异常的及时获知与处理，确保系统的正常运行，并且不影响系统的正常服务。
+6. 103064929 一种网络文件系统中服务器写数据的方法
+CN
+29.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000564381
+创新科存储技术（深圳）有限公司
+金振成
+G06F 17/30
+Loading...
+本申请公开了一种网络文件系统（NFS）中写数据的方法，包括：在服务器创建文件时，如果该文件需要执行同步写，在文件名称加上第一后缀；如果该文件需要执行异步写，在文件名称加上第二后缀；若服务器设置为异步写，服务器执行写操作前，判断所要写的文件的文件名是否含有第一后缀，若是，对该文件执行同步写操作，否则对该文件执行异步写操作；或者，若服务器设置为同步写，服务器执行写操作前，判断所要写的文件的文件名是否含有第二后缀，若是，对该文件执行异步写操作，否则对该文件执行同步写操作。通过应用本申请技术方案，可以实现在服务器端实现某些文件同步写，同时对另外一些文件异步写。
+7. 105630415 一种RAID5系统及在RAID5系统失效后继续写数据的方法
+CN
+01.06.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510980111.8
+创新科软件技术（深圳）有限公司
+金振成
+G06F 3/06
+Loading...
+本申请涉及数据存储技术领域。本申请公开了一种在RAID5系统坏掉2块盘后继续写数据的方法，包括：为RAID5磁盘组配置备用存储设备；在所述RAID5磁盘组出现失效的情况后，将该RAID5磁盘盘组状态设置为只写；若接收到新的写请求，将该该写请求对应的业务数据写到备用存储设备，通过配置元数据记录该业务数据原本写入RAID5磁盘组中位置和实际存放该业务数据的备用存储设备中位置的对应关系。本申请还公开了一种RAID5系统。
+8. 105630417 一种RAID5系统及在RAID5系统失效后继续写数据的方法
+CN
+01.06.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510981754.4
+创新科软件技术（深圳）有限公司
+金振成
+G06F 3/06
+Loading...
+本申请涉及数据存储技术领域。本申请公开了一种RAID5系统及其失效后继续写数据的方法，该方法包括：通过配置文件记录第一RAID5磁盘组成员盘信息，记录第一RAID磁盘组状态为正常状态，通过第一位图表记录第一RAID5磁盘组有效使用的条带；若第一RAID5磁盘组出现失效的情况，将第一RAID磁盘组的状态变更为失效状态，通过配置文件获知磁盘组还有哪些磁盘是正常的，通过第一位图表获知磁盘组中正常磁盘还有哪些条带空间还没有被使用以及剩余空间的大小；生成用于记录所述正常磁盘的条带使用情况的第二位图表；若收到写新数据的写请求，通过第二位图表查找正常磁盘的剩余空闲的条带位置，在所述空闲条带中写入新数据，并且把该条带位置记录到第二位图表中。
+9. 105630416 一种云存储系统中的踢盘方法及装置
+CN
+01.06.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510981752.5
+创新科存储技术（深圳）有限公司
+侯湘华
+G06F 3/06
+Loading...
+本申请公开了一种云存储系统中的踢盘方法，在云存储系统中设置每块磁盘第一阈值和第二阈值，所述第一阈值为写入数据队列的最大阈值，第二阈值为磁盘最低写入性能阈值；找出数据写入队列中阻塞的任务数大于或等于第一阈值且写入速度小于或等于第二阈值磁盘，将所述磁盘踢出云存储系统。本申请方案可以避免写入速度大大下降的磁盘影响云存储系统的性能。
+10. 105630694 控制内存的回收方法和装置
+CN
+01.06.2016
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201510992172.6
+创新科存储技术（深圳）有限公司
+金振成
+G06F 12/02
+Loading...
+本申请提供了控制内存的回收方法和装置。本发明中，通过有选择性地对高速缓冲存储器(cache)中的内存设置time参数值，以确定设置了time参数值的内存中的数据保留一段时间(time参数值)，防止内存被随机回收掉，这能提高后续业务命中内存的几率，有效提高业务的读性能和业务访问效率。
+11. 105573865 一种数据备份方法以及一种数据备份系统
+CN
+11.05.2016
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201510981981.7
+创新科存储技术（深圳）有限公司
+阳运生
+G06F 11/14
+Loading...
+本发明公开了一种数据备份方法：NAS客户端设备根据接收到的备份操作指令，利用NDMP协议与NAS设备进行通信，将NAS设备上的待备份数据备份到备份设备上。本发明同时公开了一种数据备份系统。应用本发明所述方案，能够节省带宽资源等。
+12. 105306566 一种云存储系统中选举主控节点的方法及系统
+CN
+03.02.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510690214.0
+创新科存储技术（深圳）有限公司
+杨卫华
+H04L 29/08
+Loading...
+本申请公开了一种云存储系统中选举主控节点的方法，包括：在云存储系统的基础平台维护各个控制节点的数据更新状态标识；当云存储系统中无主控节点时，各个控制节点从基础平台上获取其它控制节点的数据更新状态标识，根据所获取的数据更新状态标识判断本控制节点的数据是否为最新，若是，将本控制节点变更为主控节点，并通知其它控制节点本控制节点当选为主控节点。本申请还公开了一种云存储系统。
+13. 105306570 一种集群数据的存储方法
+CN
+03.02.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510707702.8
+创新科软件技术（深圳）有限公司
+阳小鲜
+H04L 29/08
+Loading...
+本申请公开了一种集群数据的存储方法，包括：a、对于当前待写入集群文件的每个数据块，客户端确定集群存储服务器中是否已保存与该数据块内容相同的物理块文件，如果是，则将已保存的所述物理块文件的路径信息，分别增加到所述客户端和所述集群存储服务器的相应逻辑文件元数据中，并将已保存的所述物理块文件的引用计数器加1；否则所述客户端触发在本客户端和所述集群存储服务器中分别保存所述数据块，并将所述数据块对应的物理块文件的路径信息，增加到所述客户端和所述集群存储服务器对应的逻辑文件元数据中，将所述物理块文件的引用计数器加1。采用本发明，可以有效提高集群存储端的利用率，同时可减少源端系统资源和网络资源的开销。
+14. 105278882 一种分布式文件系统的磁盘管理方法
+CN
+27.01.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510699041.9
+创新科存储技术有限公司
+杨卫华
+G06F 3/06
+Loading...
+本申请公开了一种分布式文件系统的磁盘管理方法，包括：当一块磁盘加入分布式文件系统时，该磁盘所在的数据存储节点向元数据节点发送增加磁盘的通知消息；元数据管理节点接收到通知消息后，为该磁盘分配一个磁盘管理标识符；将该管理标识保存在元数据管理节点的数据库中；基于所述磁盘管理标识符对磁盘进行操作。本申请方案能够实现分布式文件系统的高可靠性的维护。
+15. 105242881 分布式存储系统及其数据读写方法
+CN
+13.01.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510657207.0
+创新科软件技术（深圳）有限公司
+蔡云霞
+G06F 3/06
+Loading...
+本申请公开了一种分布式存储系统，所述分布式存储系统包括一个代理模块、一个元数据服务模块以及多个存储服务模块，每个存储服务模块管理至少一个存储节点。元数据服务模块用于维护全局的一级映射表，存储服务模块用于维护二级映射表。由于采用两级元数据组织，在写入数据时，如果已存在相同数据则不进行实际写入，从而减少数据写入的操作，并且达到全局重复数据删除的目标。本申请还公开了相应的数据读写方法。本申请方案可以实现如下技术效果：在分布式存储系统中实现了在线的全局重复数据删除，降低实际存储空间占用；写数据时由于重复的数据不需要实际的写操作，节省了应用系统和存储系统的数据交互和带宽，提高了存储效率。
+16. 203658929 一种伪控制器架构的服务器存储装置
+CN
+18.06.2014
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201320707833.2
+北海创新科存储技术有限公司
+赵勇
+G06F 1/18
+Loading...
+本实用新型提供的一种伪控制器架构的服务器存储装置，包括：机箱背板、服务器主板、电源模块、以及散热风扇，控制器模块包括服务器主板、主板转接板和电源转接板，机箱背板和服务器主板之间通过主板转接板连接，主板转接板具有与服务器主板连接的高速信号接口、以及与机箱背板连接的热插拔接口；电源模块包括备份电池、冗余电源、以及装载备份电池和冗余电源的电源板，电源板与电源转接板之间通过热插拔连接器连接，电源板通过电源线缆与机箱背板连接，电源转接板通过电源线缆与服务器主板连接。本实用新型通过主板转接板、电源转接板实现服务器主板等控制器部件的热插拔连接，既能够使用标准化服务器主板、节省开发成本，又便于安装、维护。
+17. 203553240 电池安装模块及使用其的电子设备
+CN
+16.04.2014
+H01M 2/10 Loading...
+H01M 2/10
+Loading...
+201320597886.3
+云海创想信息技术（天津）有限公司
+李灿梅
+H01M 2/10
+Loading...
+本实用新型公开了一种电池安装模块，包括：盖体；所述盖体包括盖板、一对互相平行的第一侧板、以及一对互相平行的第二侧板；并且，所述盖板与所述第一侧板和所述第二侧板包围形成具有开口的电池收容空间；所述盖体还包括用于与控制盒固定连接的一对固定板，该对所述固定板与所述盖板平行、并分别连接在一对所述第一侧板的位于所述开口处的边缘。本实用新型的电池安装模块为电池组提供独立的安装空间，即将电池组置入盖板、第一侧板和第二侧板围成的电池收容空间内，并将盖体通过固定板固定于控制盒上，从而增加电池组的抗压抗震性能，提高其稳定性。本实用新型还公开了一种电子设备，包括控制盒、电池组，还包括如上所述的电池安装模块。
+18. 103684921 Testing method and system for cloud storage system
+CN
+26.03.2014
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310699987.6
+UNITED INFORMATION TECHNOLOGY CO., LTD.
+QING YIXUAN
+H04L 12/26
+Loading...
+The invention discloses a testing method for a cloud storage system. The testing method includes the following steps that a test control unit is used for carrying initializing test configuration; the initializing test configuration includes the following steps that routine parameters of a matched test program and routine parameters of a log file of a tested program are configured for each test executing node involved in a test according to an application platform of the test executing node; the test control unit executes a preset test case and in the executing process, a test order is transmitted to the corresponding test executing node according to test steps in the automatic test case; the test executing node carries out the corresponding test steps according to the test order and feeds a test result to the test control unit; the test control unit judges whether the test result conforms to an expected target and generates a corresponding test report. The testing method for the cloud storage system can achieve automatic testing on the cloud storage system.
+19. 103678525 Method for sharing one file by multiple users
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310629397.6
+UNITED SOFTWARE TECHNOLOGY (SHENZHEN) CO., LTD.
+YI SHUWEN
+G06F 17/30
+Loading...
+The invention discloses an implementation method for sharing one file by multiple users. According to the method, a group of file operation counters is configured for each shared file; on the condition of a new file operation request, whether a requested file operation causes a file sharing conflict or not can be quickly judged according to a request mode and a sharing mode both provided by the request and a group of user number counters currently maintained. By the method, management and maintenance efficiency of sharing one file by multiple users can be effectively improved.
+20. 103678538 Method for transmitting data
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310637528.5
+UNITED INFORMATION TECHNOLOGY (SHENZHEN) CO., LTD.
+YAN PENG
+G06F 17/30
+Loading...
+The invention discloses a method for transmitting data. The method includes replacing a distributed storage system by a distributed file system in a Hadoop; enabling the Hadoop to be downward compatible and the distributed storage system to be upward compatible after the distributed storage system is replaced by the distributed file system, and butting the Hadoop to the distributed storage system to form a data transmitting interface after the distributed storage system is replaced by the distributed file system; enabling the Hadoop and the distributed storage system to perform cloud computing according to metadata via the interface after the distributed storage system is replaced by the distributed file system. The method in an embodiment of the invention has the advantage that the cloud computing can be carried out on the basis of the existing distributed storage system.
+21. 103678025 Method for processing disk failures of redundant arrays of independent disks
+CN
+26.03.2014
+G06F 11/07 Loading...
+G06F 11/07
+Loading...
+201310634831.X
+UNITED SOFTWARE TECHNOLOGY (SHENZHEN) CO., LTD.
+ZHUANG JIANBO
+G06F 11/07
+Loading...
+The invention discloses a method for processing disk failures of redundant arrays of independent disks (RAID). The method includes setting P temporary storage media for the various working RAID in a system; storing data in stripes into the corresponding temporary storage media when an optional disk in an optional working RAID fails; correspondingly restoring the data into the original stripes when a failure of the optional disk is recovered, and releasing storage spaces occupied by the restored data in the corresponding temporary storage media. The P is a positive integer, the temporary storage media are empty when initially set, reserved spaces are not set in disks of the various working RAID. The stripes correspond to the failure of the optional disk. The data are stored in the corresponding temporary storage media before being restored into the original stripes. The method has the advantage that the storage spaces can be reasonably utilized.
+22. 103543962 Disk online and offline processing method for expansion card
+CN
+29.01.2014
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201310515720.7
+创新科软件技术（深圳）有限公司
+汪洋
+G06F 3/06
+Loading...
+The invention discloses a disk online and offline processing method for an expansion card. By the method, flash breakage of a disk can be avoided. The method includes A, performing roll polling by a port management module of the expansion card to acquire a disk event; B, judging whether the disk is in a ready state or not, if yes, executing step C, and if not, executing step D; C, processing in a ready state of the disk, and returning to step A; D, detecting whether non-ready state time of the disk is detected or not, if yes, executing step E, and if not, executing step G; E, judging a difference value of the recorded non-ready state time of the disk and current system time is larger than a preset threshold value or not, if yes, executing step F, and if not, returning to step A; F, processing in a non-ready state of the disk, reporting a disk offline event to a drive module, and returning to step A; G, recording the current system time as the non-ready state time of the disk, and returning step A.
+23. 203086905 控制器盒的散热机构以及控制器盒
+CN
+24.07.2013
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201220686734.6
+创新科存储技术（深圳）有限公司
+赵勇
+H05K 7/20
+Loading...
+本实用新型公开了一种控制器盒的散热机构以及控制器盒。本实用新型提供的控制器盒的散热机构包括盒体、以及位于盒体内部的散热器和挡风板，其中：盒体一端的端面开口形成入风口、盒体顶板在靠近另一端的位置处开口形成出风口；散热器装设在盒体的入风口与出风口之间、并与盒体的底板之间形成处理器安装空间；挡风板装设在盒体的入风口与散热器之间、并形成用于将从入风口流入盒体的内部的气流向散热器汇聚的气流导向路径。因此，该散热机构能够利用挡风板所形成的气流导向路径提高散热器在盒体内部对用于热交换的气流的利用率，从而能够提升散热性能，进而能够改善控制器盒所在SBB架构存储产品的温度适应范围。
+24. 203086906 可在电源模块掉电后实现风扇散热的电子设备
+CN
+24.07.2013
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201220689558.1
+创新科存储技术有限公司
+刘伟
+H05K 7/20
+Loading...
+本实用新型公开了一种可在电源模块掉电后实现风扇散热的电子设备。本实用新型在电子设备中增设了从电池向电源模块单向导通的电池回灌电路，当电源模块掉电后，该电池回灌电路能够从电池向系统主板的供电电流中分流得到相应的电流、并将分流得到的电流回灌至电源模块，以使电源模块中的散热风扇在电源模块掉电后仍能够正常运行。从而，本实用新型无需在电子设备中铺设大面积的散热片，即可实现系统主板在电源模块掉电后的散热。
+25. 203039025 用于安装电池组和控制板的安装套件以及电池供电模块
+CN
+03.07.2013
+H01M 10/04 Loading...
+H01M 10/04
+Loading...
+201220700592.4
+创新科软件技术（深圳）有限公司
+袁晓旦
+H01M 10/04
+Loading...
+本实用新型公开了一种用于安装电池组和控制板的安装套件以及电池供电模块。本实用新型提供的用于安装电池组和控制板的安装套件包括第一固定件和第二固定件；第一固定件具有第一套筒、及第一侧连接板，第一套筒套设在电池组的一端，第一侧连接板连接在第一套筒的周面侧壁、并固定于电池组所在的电路板；第二固定件具有第二套筒、插槽、及第二侧连接板，第二套筒套设在电池组的另一端，插槽位于第二套筒的周面侧壁、且插槽内插入控制板，第二侧连接板连接在第二套筒的周面侧壁、将固定于电池组所在的电路板。该安装套件能够将电池组和控制板安装在电路板、并使控制板复用电池组的安装空间，从而能够节省电路板的面积、以满足电子设备的小型化需求。
+26. 203037681 用于辅助信号眼图量测的夹具装置
+CN
+03.07.2013
+G01R 1/04 Loading...
+G01R 1/04
+Loading...
+201220704323.5
+创新科存储技术（深圳）有限公司
+李灿梅
+G01R 1/04
+Loading...
+本实用新型公开了一种用于辅助信号眼图量测的夹具装置。本实用新型提供的夹具装置能够通过接口连接器与背板的硬盘接口对接，以从硬盘接口接收主板发送的信号并引入至电路基板的探测孔处。而且，该夹具装置利用处理芯片模拟硬盘负载、并在电路基板中开设有探测孔，因而在利用该夹具装置量测信号眼图时就无需在硬盘接口接入真实的硬盘负载、也不需要将差分探针伸入到容易受到阻碍的硬盘接口处，从而能够降低量测信号眼图的操作难度；无论背板采用何种布局方式，差分探针的量测点均位于探测孔处，因此就无需为了量测信号眼图而调整背板方位；差分探针能够插接在探测孔中、而不再需要通过手工点压，因此就能够尽可能避免信号眼图中掺杂抖动噪声。
+27. 203038191 机架式服务器
+CN
+03.07.2013
+G06F 1/20 Loading...
+G06F 1/20
+Loading...
+201220686801.4
+创新科软件技术（深圳）有限公司
+刘伟
+G06F 1/20
+Loading...
+本实用新型公开了一种机架式服务器。本实用新型提供的机架式服务器包括机箱、发热元器件、以及空气倍增机，其中，机箱内部形成有散热风道，发热元器件分布在机箱内部的散热风道中，空气倍增机装设于机箱内部的散热风道中，且空气倍增机的入风端靠近散热风道的入风口、空气倍增机的出风端靠近散热风道的出风口。可见，本实用新型提供的机架式服务器利用空气倍增机取代轴流风扇来实现对机箱内部的散热，从而能够消除由轴流风扇所产生的噪声。
+28. 203040072 通过滑动插拔方式实现电路板装卸的电子设备
+CN
+03.07.2013
+H05K 7/10 Loading...
+H05K 7/10
+Loading...
+201220694224.3
+创新科存储技术有限公司
+赵勇
+H05K 7/10
+Loading...
+本实用新型公开了一种通过滑动插拔方式实现电路板装卸的电子设备。在本实用新型中，电路板装设有卡销和螺柱，其中，通过螺柱与卡销顶部的螺纹连接能够实现卡销在电路板的固定、并使卡销底部悬置在电路板的下方；相应地，插槽的底板装设有卡销导向座、且卡销导向座开设有可供卡销底部插入的滑道，从而通过滑道对卡销底部的引导能够导向电路板的插拔。
+29. 103076991 一种主机和存储阵列的通信方法
+CN
+01.05.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201210574096.3
+创新科存储技术（深圳）有限公司
+赵胜志
+G06F 3/06
+Loading...
+本申请公开了一种主机和存储阵列的通信方法，包括：主机将所要发送的数据封装到专用数据包中，并根据数据类型设置该专用数据包的数据类型指示位；主机根据带外通道和带内通道的待发送数据队列，将该数据包送入待发送数据队列较短的通道进行传输；存储阵列从带外通道以及带内通道接收专用数据包；存储阵列解析所接收的专用数据包中的数据类型指示位，若为第一取值，从专用数据包中解析出控制数据，若为第二取值，从专用数据包中解析出用户数据。
+30. 103064929 一种网络文件系统中服务器写数据的方法
+CN
+24.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210564381.7
+创新科存储技术（深圳）有限公司
+金振成
+G06F 17/30
+Loading...
+本申请公开了一种网络文件系统（NFS）中写数据的方法，包括：在服务器创建文件时，如果该文件需要执行同步写，在文件名称加上第一后缀；如果该文件需要执行异步写，在文件名称加上第二后缀；若服务器设置为异步写，服务器执行写操作前，判断所要写的文件的文件名是否含有第一后缀，若是，对该文件执行同步写操作，否则对该文件执行异步写操作；或者，若服务器设置为同步写，服务器执行写操作前，判断所要写的文件的文件名是否含有第二后缀，若是，对该文件执行异步写操作，否则对该文件执行同步写操作。通过应用本申请技术方案，可以实现在服务器端实现某些文件同步写，同时对另外一些文件异步写。
+31. 103064636 一种固态硬盘读写方法以及一种固态硬盘
+CN
+24.04.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201210567340.3
+创新科存储技术有限公司
+金振成
+G06F 3/06
+Loading...
+本发明公开了一种固态硬盘读写方法：当接收到任一请求时，固态硬盘确定该请求为读请求、异步写请求还是同步写请求；如果是读请求，则将该请求加入到读请求队列中，并排在最后一位；如果是异步写请求，则将该请求加入到异步写请求队列中，并排在最后一位；如果是同步写请求，则将该请求加入到同步写请求队列中，并排在最后一位；固态硬盘按照由先到后的排序顺序对各队列中的各请求进行处理。本发明同时公开了一种固态硬盘。应用本发明所述方案，能够提高固态硬盘的读写效率。
+32. 103049352 一种磁盘阵列的操作系统恢复方法
+CN
+17.04.2013
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201210555711.6
+创新科软件技术（深圳）有限公司
+龚必超
+G06F 11/14
+Loading...
+本申请公开了一种磁盘阵列的操作系统恢复方法，在没有鼠标、键盘和显示器的基础上，通过面板开关连接电路板来控制系统备份盘的通电和断电。在系统备份盘通电的情况下，会启动系统备份盘中的备用操作系统，通过GHOST命令中pload参数自动将备份的RAID操作系统进行还原，完成发出告警声音告知用户还原完成，然后用户重启和系统备份盘断电，进入到RAID主操作系统。在整个过程中不需要鼠标、键盘和显示器，通过开关按键恢复崩溃的主操作系统。
+33. 103049221 磁盘阵列缓存刷写处理方法和装置
+CN
+17.04.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201210554840.3
+创新科存储技术有限公司
+陈军歌
+G06F 3/06
+Loading...
+本申请提供了磁盘阵列缓存刷写处理方法和装置。其中，该方法包括：将计数器与磁盘阵列关联，控制计数器实时记录磁盘阵列当前缓存的数据量；在预先设定条件到达时，查看所述计数器当前记录的数据量；如果查看的数据量大于第一设定数值，则触发所述磁盘阵列刷写缓存的数据至硬盘；所述磁盘阵列在接收到所述触发时，将缓存的数据刷写至硬盘。采用本发明，能够防止在一些特殊情况比如RAID未到达所述条件但此时需要断电的情况由于RAID未及时将缓存的数据刷写至硬盘而导致RAID缓存的数据丢失。
+34. 103049292 一种使用U盘安装Linux系统的方法以及一种U盘
+CN
+17.04.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210534995.0
+创新科存储技术有限公司
+阳运生
+G06F 9/445
+Loading...
+本发明公开了一种使用U盘安装Linux系统的方法：当确定预先制作的Linux启动U盘与服务器相连并启动时，对服务器中待安装Linux系统的硬盘进行分区；将预先保存在Linux启动U盘中的Linux ISO拷贝到一预定分区中，并获取Linux ISO中的引导文件，保存到所述预定分区中；当确定服务器重新启动并进入Grub界面时，进行引导信息设置，并根据引导信息以及引导文件完成Linux系统的安装。本发明同时公开了一种U盘。本发明所述方案可适用于对任意版本的Linux系统进行安装。
+35. 103051020 一种放电回路以及一种放电回路保护方法
+CN
+17.04.2013
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201210533301.1
+创新科存储技术（深圳）有限公司
+刘伟
+H02J 7/00
+Loading...
+本发明公开了一种放电回路，包括：M组MOSFET；每组中包括：两个互相连接且互为反向的MOSFET，其中一个MOSFET进一步与电源相连，另一个MOSFET进一步与电池相连；当电源对电池进行充电，且电源的电压大于电池的电压时，每组中的一个MOSFET内部的二极管导通，另一个MOSFET内部的二极管未导通，阻止形成从电源到电池方向的灌电流；当电源对电池进行充电，且电源的电压小于电池的电压时，每组中的一个MOSFET内部的二极管导通，另一个MOSFET内部的二极管未导通，阻止形成从电池到电源方向的灌电流。本发明同时公开了一种放电回路保护方法。应用本发明所述方案，能够避免形成从电池到电源方向以及从电源到电池方向的灌电流。
+36. 103021438 模拟视频数据写入到磁盘阵列的方法和装置
+CN
+03.04.2013
+G11B 27/031 Loading...
+G11B 27/031
+Loading...
+201210569883.9
+创新科软件技术（深圳）有限公司
+董映霞
+G11B 27/031
+Loading...
+本申请提供了模拟视频数据写入到磁盘阵列的方法和装置。该方法应用于视频客户端，包括：在所述视频客户端上编辑磁盘阵列的压力变化策略，并编辑视频数据相关的视频参数；控制各模拟的视频通道按照所述视频参数将所述视频数据写入至磁盘阵列；实时监控各视频通道的视频数据写入情况，依据监控的情况和所述压力变化策略调整所述视频参数。采用本发明，能够通过模拟随机变化的视频数据的写入至磁盘阵列验证磁盘阵列的性能。
+37. 103019961 缓存刷写处理方法和装置
+CN
+03.04.2013
+G06F 12/08 Loading...
+G06F 12/08
+Loading...
+201210554483.0
+创新科存储技术（深圳）有限公司
+陈军歌
+G06F 12/08
+Loading...
+本申请提供了缓存刷写处理方法和装置。其中，该方法包括：实时监控网络设备，在监控到网络设备到达预先设定条件时查询并记录所述网络设备的缓存所存储的数据量X，并触发所述网络设备的备用电池单元BBU启用；如果所述X大于第一设定数值，则在所述网络设备的BBU启用期间将所述缓存所存储的数据刷写至具有永久存储数据功能的存储区；重启所述网络设备，将所述存储区存储的数据刷写至数据硬盘。采用本发明，能够实现在BBU启用期间，及时处理缓存中的数据，避免缓存中的数据丢失。
+38. 103019901 一种磁盘阵列测试方法以及一种磁盘阵列
+CN
+03.04.2013
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201210535084.X
+创新科存储技术有限公司
+李文杰
+G06F 11/22
+Loading...
+本发明公开了一种磁盘阵列测试方法：确定得到待测试的磁盘阵列所需的磁盘；获取每个磁盘分别对应的磁盘模拟卡，每个磁盘模拟卡中仅保留有对应的磁盘中的信号处理部分；用获取到的各磁盘模拟卡得到所述磁盘阵列；向所述磁盘阵列发送测试信号，并获取所述磁盘阵列对接收到的测试信号进行处理后返回的测试结果。本发明同时公开了一种磁盘阵列。应用本发明所述方案，能够提高测试结果的准确性。
+39. 103019894 一种独立冗余磁盘阵列的重建方法
+CN
+03.04.2013
+G06F 11/16 Loading...
+G06F 11/16
+Loading...
+201210570497.1
+创新科存储技术（深圳）有限公司
+金振成
+G06F 11/16
+Loading...
+本申请公开了一种独立冗余磁盘阵列（RAID）的重建方法，包括：A、RAID系统的控制器发现该RAID系统中的第一磁盘无法响应IO操作，单独关闭第一磁盘的电源，并启动一预定时长的定时器；B、在所述定时器计时期间，RAID系统进行正常读写操作，并记录在此期间发生过写操作的所有条带号；C、所述定时器超时，开启第一磁盘的电源，给第一磁盘上电；D、第一磁盘上电之后，对第一磁盘做进行读写测试操作；E、判断第一磁盘是否读写正常，若是，执行F，否则执行步骤G；F、根据第一磁盘断电期间记录的发生过写操作的所有条带号，恢复第一磁盘对应条带中数据，恢复完毕后结束本流程；G、将第一磁盘标记为坏盘，将作为热备盘的第二磁盘替换第一磁盘，根据RAID系统中其他磁盘的数据及奇偶校验进行计算，将计算的结果写入所述第二磁盘中。
+40. 103019847 对虚拟机数据进行迁移的方法及系统
+CN
+03.04.2013
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201210564342.7
+创新科存储技术（深圳）有限公司
+聂海斌
+G06F 9/48
+Loading...
+本发明公开了对虚拟机数据进行迁移的方法及系统，其中，该方法包括：个人版本虚拟机将个人版本虚拟机数据和配置文件通过交换机存储到公共存储设备中，通过交换机向服务器版本虚拟机发送迁移指令；服务器版本虚拟机通过交换机从公共存储设备读取配置文件，对配置文件进行修改，使配置文件的参数与自身特性匹配；服务器版本虚拟机通过交换机从公共存储设备读取个人版本虚拟机数据，进行存储。本发明方案能够实现灵活地将个人版本虚拟机的数据迁移至服务器版本虚拟机中。
+41. 103023723 一种linux环境下进行iSCSI多路径测试的方法
+CN
+03.04.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210541194.7
+创新科软件技术（深圳）有限公司
+杨学龙
+H04L 12/26
+Loading...
+本申请公开了一种linux环境下进行互联网小型计算机系统接口iSCSI多路径测试的方法，该方法通过包括一台装有linux系统且安装好iptables的主机、交换机和一台iSCSI存储设备的测试系统实施，所述主机连接交换机，交换机与iSCSI存储设备的每一个网口建立一个IP连接；该方法包括：A、在linux主机上启动iptables进程；B、生成IP地址列表文件，该IP地址列表文件中包括待测的iSCSI存储设备所有业务网口的IP地址；C、依据IP地址列表文件中的IP列表顺序，iptables进程依次阻塞1条IP地址，其余IP地址正常提供给前端主机运行的应用程序建立IP连接并运行业务，记录业务运行结果。通过应用本申请技术方案，可以自动高效地完成iSCSI多路径测试。
+42. 103001833 服务器群的监控方法
+CN
+27.03.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210574228.2
+创新科存储技术（深圳）有限公司
+李年芳
+H04L 12/26
+Loading...
+本申请公开了一种服务器群的监控方法，包括：当服务器群中的服务器执行操作时，该服务器将相应的操作信息上报给所属的文件系统服务器；文件系统服务器在判定进行上报的服务器属于其监管的服务器后，将操作信息转换成智能终端可以识别的信息格式；当文件系统服务器判定操作信息属于告警信息，且属于自身可以解决的问题时，执行相应的处理，将操作信息压缩后并标识为已解决问题发送给智能终端；对于不能解决的告警信息，直接压缩后发送给智能终端；对于不属于告警信息的操作信息，进行存储并将其压缩后发送给智能终端；智能终端对操作信息解压缩后进行相应的显示和/或相应的语音提示。采用本发明可以确保用户实时、快捷地获知服务器群的运行状况。
+43. 102567203 Method and system for testing performance of distributed file system (DFS)
+CN
+11.07.2012
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110447984.4
+创新科软件技术（深圳）有限公司
+王义杰
+G06F 11/36
+Loading...
+The invention discloses a method and a system for testing the performance of a distributed file system (DFS). The method comprises the following steps of: receiving a performance test parameter input by a test user, generating a test scene table, and generating a test program corresponding to each test scene in the test scene table according to the test scene table; creating a virtual machine (VM) corresponding to each test client according to the platform types and maximum number of the test clients, which are set in the performance test parameter, and configuring a network parameter for the created VM; automatically installing a test client program for the created VM; sequentially loading the VM and a storage node which are required by each test scene in the test scene table, and starting a test; and acquiring test data of a running test of the storage node, and generating a test result report. By the method and the system, test efficiency can be improved, and test cost can be reduced.
+44. 102523410 一种写入视频数据的方法及视频数据存储设备
+CN
+27.06.2012
+H04N 5/76 Loading...
+H04N 5/76
+Loading...
+201110448847.2
+创新科存储技术（深圳）有限公司
+夏君扬
+H04N 5/76
+Loading...
+本发明公开了一种写入视频数据的方法及视频数据存储设备。该方法包括：根据视频监控系统需要监视的业务分类，在磁盘阵列中创建对应业务分类的业务廉价冗余磁盘阵列RAID；在内存中缓存接收的视频数据，并根据视频数据中包含的业务标识，将视频数据输出至对应的业务RAID；监测每一业务RAID的I/O处理时间信息，确定业务RAID的I/O处理时间超过预先设置的丢帧时间阈值，获取由空闲磁盘创建的该业务缓冲RAID；将缓存的该业务的视频数据进行分割，将分割得到的视频数据写入业务缓冲RAID中。应用本发明，可以降低视频数据存储时的丢帧率。
+45. 102495785 整机柜服务器集中管理方法和装置
+CN
+13.06.2012
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201110437440.X
+创新科存储技术（深圳）有限公司
+唐斌
+G06F 11/30
+Loading...
+本发明提供了整机柜服务器集中管理方法和装置。该方法中，将IDC中的服务器划分至至少一个机柜，在IDC中增加用于管理一个以上机柜的集中管理装置，该方法包括：集中管理装置根据管理控制平台设定的管理策略，对其管理的机柜中的服务器进行智能控制；集中管理装置接收管理控制平台针对其管理的机柜中至少一个服务器下发的控制命令，根据控制命令对服务器执行控制操作；集中管理装置采集所管理的机柜中每一服务器的状态信息，从每一服务器的状态信息中分析出需要上报至管理控制平台的信息，将分析出的信息上报至管理控制平台，由管理控制平台根据集中管理装置上报的每一服务器的信息重新设置针对该服务器的控制命令，并下发至集中管理装置。
+46. 102495680 RAID系统的重建方法
+CN
+13.06.2012
+G06F 3/03 Loading...
+G06F 3/03
+Loading...
+201110422950.X
+创新科存储技术（深圳）有限公司
+饶国林
+G06F 3/03
+Loading...
+本发明提供了一种RAID系统的重建方法，基于逻辑卷进行RAID系统的重建，并仅对逻辑卷上发生过写操作的区域进行重建。采用本发明可以提高重建的效率，缩短重建的过程。
+47. 102495804 软件自动化测试方法
+CN
+13.06.2012
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110443995.5
+创新科存储技术（深圳）有限公司
+王庆丰
+G06F 11/36
+Loading...
+本发明提供了一种软件自动化测试方法，通过对自动化测试任务以及各自动化测试任务所包含的测试用例的执行顺序进行优化排序，可以有效提高整个自动化测试过程的执行效率。
+48. 102497424 一种通过移动存储设备实现云存储的方法
+CN
+13.06.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110411946.3
+创新科存储技术（深圳）有限公司
+曾定军
+H04L 29/08
+Loading...
+本发明提供了一种通过移动存储设备实现云存储的方法，包括如下步骤：A、云存储客户端读取移动存储设备的唯一标识号，并检测该唯一标识号是否已经与云存储应用的用户账号进行绑定，若是，执行步骤C，否则执行步骤B；B、云存储客户端提示用户进行账号绑定操作，用户输入用户名，密码等信息，经Web服务器验证后完成账号绑定操作，然后转至步骤D；C、云存储客户端自动登录Web服务器；D、云存储客户端检查移动存储设备文件是否与云端文件同步，若是，则同步操作完成；否则，执行步骤E；E、云存储客户端将移动存储设备中存储的文件上传到云端，或者下载云端文件到移动存储设备，然后返回步骤D。
+49. 102495811 一种许可证生成及验证方法和一种存储设备
+CN
+13.06.2012
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201110412276.7
+创新科软件技术（深圳）有限公司
+周晓伟
+G06F 12/14
+Loading...
+本发明提供了一种许可证生成及验证方法，A、采用加密算法将存储产品的唯一性标识组合成数字签名；B、将该数字签名拆分组装成N×N的矩阵；C、将所述N×N矩阵提供给用户；D、接收用户输入的使用某一项存储功能的请求，随机生成M组行列号，并通过用户交互界面提示给用户；E、存储设备固件采用加密算法将存储产品的唯一性标识组合成数字签名，并采用特定算法将该数字签名拆分组装成N×N的矩阵，将用户输入的字符串与固件生成的矩阵相应位置的元素进行比对，如果一致则允许用户使用相应的存储功能。
+50. 102495814 存储设备的控制器之间的通讯方法
+CN
+13.06.2012
+G06F 13/16 Loading...
+G06F 13/16
+Loading...
+201110423264.4
+创新科存储技术有限公司
+黄文俊
+G06F 13/16
+Loading...
+本发明提供了一种存储设备的控制器之间的通讯方法，在需要转发命令时由控制器根据预设的通讯规则来确定相应的通讯链路，从而使控制器间的通讯设计可以屏蔽硬件设计的不同，提高控制器间通讯的灵活性，使控制器间的通讯更易于实现和维护。
+51. 102411637 分布式文件系统的元数据管理方法
+CN
+11.04.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110454262.1
+创新科软件技术（深圳）有限公司
+沈国文
+G06F 17/30
+Loading...
+本发明提供了一种分布式文件系统的元数据管理方法，通过基于元数据服务器集群对元数据进行管理，并能确保并发访问下元数据的一致性、集群的负载均衡。采用本发明能有效满足大量客户端并发访问的需求。
+52. 102402471 基于存储阵列快照功能的数据实时备份方法及系统
+CN
+04.04.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110437461.1
+创新科软件技术（深圳）有限公司
+赵胜志
+G06F 11/14
+Loading...
+本发明提供了一种基于存储阵列快照功能的数据实时备份方法，包括如下步骤：A、将存储阵列的源卷加载到应用服务器上，用以存储应用服务器的数据文件；B、存储阵列生成所述源卷的快照卷；C、建立快照卷到备份服务器的映射关系，并将快照卷加载到备份服务器。本发明还提供了一种基于存储阵列快照功能的数据实时备份系统。本发明方案可实现零备份窗口，并且能够极大节省应用服务器资源，同时备份过程对应用服务器不会造成性能上的冲击。
+53. 102404411 云存储系统的数据同步方法
+CN
+04.04.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110439044.0
+创新科存储技术有限公司
+黄钦皇
+H04L 29/08
+Loading...
+本发明提供了一种云存储系统的数据同步方法，首先对用户输入的数据进行物理数据和元数据的识别，然后再分别进行存储、更新，采用并行地方式将物理数据和元数据同步至云端存储设备中。采用本发明可以有效提高数据同步效率，同时也有利于对占用空间较大的物理数据的及时删除，进而有效节约本地存储空间。
+54. 102385542 一种RAID0数据备份的方法及装置
+CN
+21.03.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110416516.0
+云海创想信息技术（无锡）有限公司
+金振成
+G06F 11/14
+Loading...
+本发明公开了一种RAID0数据备份的方法及装置，所述方法包括：按照预定方法对RAID0中的每个磁盘进行检测，确定所述RAID0中的高危磁盘；从所述高危磁盘中按顺序依次读取预设长度datasize的数据，记录所述高危磁盘的读数据位置read_pos；将所述长度为datasize的数据备份到备用磁盘中，记录所述高危磁盘的写数据位置write_pos，将所述读数据位置read_pos移动到所述写数据位置write_pos；当需要向所述高危磁盘写入外部数据时，根据需要写入外部数据的位置pos与write_pos和read_pos+datasize的位置关系，确定将所述外部数据写入到所述高危磁盘或所述备用磁盘中。和现有技术相比，本发明提出的RAID0数据备份的方法及装置，可确保在不影响向RAID0中高危磁盘写入数据的情况下，有效地替换RAID0中的高危磁盘。
+55. 102385543 一种异步镜像方法
+CN
+21.03.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110434679.1
+创新科存储技术（深圳）有限公司
+雷伟
+G06F 11/14
+Loading...
+本发明提供了一种异步镜像方法，包括如下步骤：A、在原始逻辑卷创建原始快照i+1；i为自然数，其数值等于当前原始逻辑卷已创建快照的次数；B、读取原始快照i+1，根据原始快照i+1将原始逻辑卷的数据拷贝到镜像逻辑卷。本发明方案可以确保镜像逻辑卷的数据可用。
+56. 102385544 一种磁盘重建方法和装置
+CN
+21.03.2012
+G06F 11/20 Loading...
+G06F 11/20
+Loading...
+201110412147.8
+创新科软件技术（深圳）有限公司
+王志波
+G06F 11/20
+Loading...
+本发明公开了一种磁盘重建方法和装置：当RAID中的任一磁盘出现错误的次数达到预定阀值时，用热备盘顶替该出现错误的磁盘，并将该出现错误的磁盘设置为ACTIVE_SPARE状态；依次对热备盘中的各条带单元进行重建，其中，在对每个条带单元X进行重建时，如果与条带单元X处于同一条带内的任一条带单元出现重建读介质错误，则将处于ACTIVE_SPARE状态的磁盘中的对应条带单元中的数据写入到条带单元X中，所述对应是指所处位置相同。应用本发明所述的方法和装置，能够提高重建成功率。
+57. 102387161 一种身份验证方法
+CN
+21.03.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110417375.4
+创新科存储技术有限公司
+曹力
+H04L 29/06
+Loading...
+本发明提供了一种身份验证方法，该方法中以随机数为原文，以登录密码为密钥，进行加密。采用本发明可以大大增加破解难度，提高用户登录的安全性。
+58. 102375703 一种创建RAID时自动选盘的方法
+CN
+14.03.2012
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201110411446.X
+创新科存储技术有限公司
+聂海斌
+G06F 3/06
+Loading...
+本发明提供了一种创建独立冗余磁盘阵列RAID时自动选盘的方法，包括如下步骤：A、扫描磁盘阵列柜中的每一个硬盘槽位，获取空闲硬盘的相关信息；B、接收用户输入的RAID组类型和容量，根据已获取的空闲磁盘相关信息，自动匹配可以组建符合所述RAID组类型和容量要求的硬盘组；C、基于匹配出的硬盘组创建RAID组。
+59. 202134209 一种硬盘托架
+CN
+01.02.2012
+G11B 33/02 Loading...
+G11B 33/02
+Loading...
+201120238701.0
+创新科存储技术（深圳）有限公司
+赵勇
+G11B 33/02
+Loading...
+本实用新型提供了一种硬盘托架，包括两个分别与硬盘的两侧连接的硬盘导条，每个硬盘导条包括：至少一个用于将硬盘导条和硬盘连接在一起的连接装置；连接所述硬盘导条的挂钩，其通过与机箱的限位连接将该硬盘托架固定于机箱槽位中；位于硬盘导条的前端的把手，其可在受到外力时引导所述硬盘导条发生形变并消除所述限位连接，使硬盘托架脱离所述机箱槽位。本实用新型的硬盘托架能够引导硬盘插入至机箱槽位中，并在硬盘的两侧为硬盘提供支撑。且散热容易，结构简单，从而节省了模具开发成本，缩短了产品开发周期。
+60. 202135423 机箱面板及具有该机箱面板的电子设备
+CN
+01.02.2012
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201120226590.1
+创新科存储技术（深圳）有限公司
+唐斌
+H05K 5/02
+Loading...
+本实用新型公开了一种机箱面板及具有该机箱面板的电子设备。在本实用新型中，机箱面板包括一面板本体；该面板本体的内表面具有凸起的若干空心柱，每一空心柱内分别固定有一磁铁柱。因此，利用空心柱内的磁铁柱与机箱之间的磁吸力即可使机箱面板固定于机箱。相比于卡扣式机箱面板，本实用新型采用的内置有磁铁柱的空心柱结构比弹性卡扣结构更为简单，因而能够降低设计复杂度及设计成本，而且也不存在弹性失效的问题；相比于拉门式机箱面板，本实用新型采用的内置有磁铁柱的空心柱结构比转动轴及其相关结构更为简单，因而能够降低设计复杂度及设计成本，而且也不存机箱面板无法完全拆卸、以及转动轴及其相关结构发生形变的问题。
+61. 202110826 硬盘托架及具有该硬盘托架的电子设备
+CN
+11.01.2012
+G11B 33/02 Loading...
+G11B 33/02
+Loading...
+201120226728.8
+创新科存储技术（深圳）有限公司
+唐斌
+G11B 33/02
+Loading...
+本实用新型公开了一种硬盘托架及具有该硬盘托架的电子设备。在本实用新型中，硬盘托架包括一托架本体，该托架本体包括一可放置硬盘的底板，底板的两侧边缘分别具有向上延伸、并可向底板外侧弹性变形的侧板，底板的前端边缘具有向上延伸的前板，底板的后端边缘处留有开口；两侧板的上边缘相对地设置有朝向底板内侧、并平行于底板延伸的压接部，相对设置的压接部之间的间距在压接部随侧板向底板外侧弹性变形后大于等于硬盘的宽度、在压接部随侧板恢复常态后小于硬盘的宽度；两侧板的内表面还具有向底板内侧凸起的侧限位部；前板的内表面具有向底板内侧凸起的前限位部；开口处具有从底板外侧连接底板的后边缘、并向上凸起的后限位部。
+62. 102289275 Internal memory power supply circuit
+CN
+21.12.2011
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201110193619.5
+UIT Storage Technology (Shenzhen) Co., Ltd.
+Tang Bin
+G06F 1/26
+Loading...
+The invention provides an internal memory power supply circuit, which comprises a direct current to direct current (DC-DC) switch power supply and a voltage switching circuit, wherein the input end of the DC-DC switch power supply is connected with a system DC input and a backup power supply input, and the output end of the DC-DC switch power supply outputs power supply voltage required by an internal memory and an internal memory controller, wherein the output end of the DC-DC switch power supply is directly connected with the internal memory, the output end of the DC-DC switch power supply is connected with the input end of the voltage switching circuit, the output end of the voltage switching circuit is connected with the internal memory controller, the output end of the voltage switching circuit slowly becomes from 0 to the power supply voltage of the internal memory controller when the system DC input becomes a normal value from 0, and the voltage output from the output end of the DC-DC switch power supply simultaneously supplies electricity for the internal memory and the internal memory controller. When the system DC input becomes 0 from the normal value, the output end of the voltage switching circuit fast changes to 0 from the power supply voltage of the internal memory controller, and the voltage output from the output end of the DC-DC switch power supply only supplies electricity to the internal memory.
+63. 102290094 Low power consumption circuit for reliably keeping self-refresh state of memory
+CN
+21.12.2011
+G11C 11/402 Loading...
+G11C 11/402
+Loading...
+201110185642.X
+United Information Technology (Shenzhen) Co., Ltd.
+Tang Bin
+G11C 11/402
+Loading...
+The invention provides a low power consumption circuit for reliably keeping a self-refresh state of a memory. The low power consumption circuit comprises a first resistor, a second resistor and a plug and play (PNP) triode, wherein a base of the PNP triode is connected with one end of the first resistor and an output end of a memory controller respectively, and the other end of the first resistor is grounded; an emitter of the PNP triode is connected with one end of the second resistor and an input end of a clock signal of the memory respectively, and the other end of the second resistor is grounded; and a collector of the PNP triode is grounded. By the circuit, the memory can be stably and reliably kept in the self-refresh state; and the circuit is not required to be additionally supplied with power.
+64. 102290854 Method and device for performing state control on redundant power module
+CN
+21.12.2011
+H02J 9/00 Loading...
+H02J 9/00
+Loading...
+201110185626.0
+UIT Storage Technology (Shenzhen) Co., Ltd.
+Tang Bin
+H02J 9/00
+Loading...
+The invention provides a method for performing state control on a redundant power module. The redundant power module comprises at least two independent power supplies, and presets a first load rate threshold value and a second load rate threshold value, wherein the first threshold value is lower than the second threshold value. The method comprises the following steps of: A, detecting the current output load conditions of the redundant power module in real time, and calculating a current load rate; and B, comparing the current load rate with the first load rate threshold value and the second load rate threshold value, dynamically regulating the state of the redundant power module according to comparison results, and specifically, switching one or more power supplies off when the load rate of equipment is lower than the first load rate threshold value, starting the one or more power supplies when the load rate of the equipment is higher than the second load rate threshold value and keeping the states of the power supplies invariable when the load rate of the equipment is between the first and second load rate threshold values. The invention also provides a device for performing the state control on the redundant power module.
+65. 202025267 一种硬盘托架
+CN
+02.11.2011
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201020697863.6
+创新科存储技术有限公司
+柳小飞
+G06F 1/18
+Loading...
+本实用新型提供了一种硬盘托架，包括托盘、把手和两个导光柱，托盘包括长方形底盘和与长方形底盘的两个长边固定连接、垂直于长方形底盘的两个侧壁，两个侧壁的前端通过一个长方形网状铁皮与长方形底盘固定连接；把手与长方形底盘的一个短边、两个侧壁的一端固定连接；长方形底盘的宽度等于3.5寸标准硬盘的宽度，两个侧壁的高度大于等于3.5寸标准硬盘的高度；两个侧壁均具有沿托盘长度方向延伸的两个弧形凹槽，导光柱安装于其中一个侧壁的两个弧形凹槽中。本实用新型的硬盘托架的尺寸能够恰好将3.5寸标准硬盘容纳于其中，且硬盘定位良好、节省空间，通过搭配不同硬盘的转接板，能够实现多种硬盘共用一个硬盘托架。
+66. 202025531 一种硬盘转接板支架
+CN
+02.11.2011
+G11B 33/04 Loading...
+G11B 33/04
+Loading...
+201020700517.9
+创新科存储技术有限公司
+刘馗
+G11B 33/04
+Loading...
+本实用新型提供了一种硬盘转接板支架，该硬盘转接板为双面印制电路板，该硬盘转接板支架包括长方形底座和固设于底座的一个表面的多个用于固定硬盘转接板和该硬盘转接板支架的螺柱；长方形底座具有第一短边和第二短边，所述多个螺柱分别设置于第一短边的边缘和第二短边的边缘；设置于第一短边边缘的螺柱的数量大于设置于第二短边边缘的螺柱的数量。本实用新型的硬盘转接板支架，在不改变硬盘托架以及硬盘托架插入机箱方向的情况下，实现多种硬盘的兼容，且结构紧凑，节省空间。
+67. 202025266 一种硬盘托架
+CN
+02.11.2011
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201020690546.1
+创新科存储技术有限公司
+余意
+G06F 1/18
+Loading...
+本实用新型提供了一种硬盘托架，包括托盘、把手和两个托盘导轨，所述托盘包括长方形底盘和与长方形底盘的两个长边固定连接、垂直于该长方形底盘的两个侧壁；所述把手与长方形底盘的一个短边、两个侧壁的一端固定连接；所述长方形底盘的宽度等于2.5寸标准硬盘的宽度，两个侧壁的高度大于等于2.5寸标准硬盘的高度；所述两个托盘导轨分别与所述两个侧壁的外侧固定连接，导光柱安装于托盘导轨和侧壁之间的空隙中。本实用新型的硬盘托架的尺寸能够恰好将2.5寸标准硬盘容纳于其中，且硬盘定位良好、节省空间，且通过位于托盘两侧的不同高度的托盘导轨实现硬盘的防反插功能，其安装结构简单、实用性强。
+68. 201946303 一种硬盘装载装置
+CN
+24.08.2011
+G11B 33/02 Loading...
+G11B 33/02
+Loading...
+201020697864.0
+创新科存储技术有限公司
+刘馗
+G11B 33/02
+Loading...
+本实用新型提供了一种硬盘装载装置，包括位于硬盘两侧、用于导引硬盘插入至预定位置的两个硬盘导轨，和硬盘弹出机构；两个硬盘导轨装设在机柜中；硬盘弹出机构包括在硬盘插入至预定位置时抵靠硬盘前端面、可在硬盘所在平面内转动的杠杆，和与杠杆一端铰接、与硬盘的侧面平行设置的顶杆；顶杆的背离杠杆的一端具有在硬盘插入至预定位置时抵靠硬盘后端面的凸起。本实用新型的硬盘装载装置，在硬盘插入至预定位置时，利用凸起可对硬盘的位置进行锁定；在硬盘取出时，通过侧向移动顶杆解除凸起对硬盘的锁定，利用顶杆驱动杠杆结构推出硬盘，其结构简单，使用方便，避免了现有的托架式硬盘在固定和分离时操作复杂的问题，能够降低生产难度和成本。
+69. 201919284 风扇的插拔装置以及风扇散热装置
+CN
+03.08.2011
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201020691770.2
+创新科存储技术有限公司
+唐斌
+H05K 7/20
+Loading...
+本实用新型公开了一种风扇的插拔装置、以及装设有该插拔装置的风扇散热装置。在本实用新型中，插拔装置包括连接风扇的弹片和连接所述弹片的按钮，其中，弹片可通过与风扇的安装框之间的限位连接，使风扇的入风口所在面的连接器保持与单板连接器的连接；按钮可在受到外力时引导所述弹片发生形变并消除所述限位连接，使风扇的入风口所在面的连接器能够从单板连接器拔出。从而，无需引入带有连接器的转接板、也无需涉及螺钉拆卸的其他的拆卸过程，即可实现风扇的连接器与单板连接器的连接、以及将风扇的连接器从单板连接器拔出，进而实现风扇的热插拔。
+70. 201918160 一种旋钮式硬盘装载装置
+CN
+03.08.2011
+G11B 33/02 Loading...
+G11B 33/02
+Loading...
+201020691726.1
+创新科存储技术有限公司
+谭旭光
+G11B 33/02
+Loading...
+本实用新型提供了一种旋钮式硬盘装载装置，包括位于硬盘两侧、用于导引硬盘移动的两个硬盘导轨，旋钮锁扣和弹簧部件；所述旋钮锁扣可旋转地固定于所述硬盘导轨的一端，其具有在硬盘插入至预定位置时突出于硬盘导轨、抵靠硬盘后端的第一位置；所述弹簧部件位于所述硬盘导轨的另一端，其在硬盘插入至预定位置时抵靠硬盘前端。本实用新型的旋钮式硬盘装载装置，在硬盘插入至预定位置时，利用位于硬盘后端的可突出于导轨的旋钮对硬盘的位置进行锁定；在硬盘取出时，通过改变旋钮的位置解除锁定，利用位于硬盘前端的弹簧使硬盘弹出，其结构简单，使用方便，避免了现有的托架式硬盘在固定和分离时操作复杂的问题，能够降低生产难度和成本。
+71. 201917864 一种风扇散热装置
+CN
+03.08.2011
+G06F 1/20 Loading...
+G06F 1/20
+Loading...
+201020700516.4
+创新科存储技术有限公司
+刘伟
+G06F 1/20
+Loading...
+本实用新型提供了一种风扇散热装置，包括抽拉板和多个风扇，抽拉板在其边缘处设置安装框，所述多个风扇装设于安装框中，所述多个风扇的出风口位于抽拉板内侧，每个风扇的出风口处具有一个可完全遮蔽该出风口的挡片，该挡片具有贴合该出风口的第一位置和在风扇出风的作用下与该出风口形成一夹角的第二位置，该挡片的上边缘与该出风口的上边缘铰接。本实用新型的风扇散热装置，其通过在机箱主控板的抽拉组件内侧增加塑胶挡片，能够在风扇工作时打开形成风道，在风扇发生故障时遮蔽进风口而保护风道不被破坏。该风扇散热装置结构简单，且不影响机箱的整体使用和美观性。
+72. 102130939 Remote duplication method and device
+CN
+20.07.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010595399.4
+United Information Technology Co., Ltd.
+Ji Yongguang
+H04L 29/08
+Loading...
+The invention discloses a remote duplication method and device. The method comprises the following steps: respectively dividing each local volume and a remote volume corresponding to each local volume into more than two data blocks which have the same quantity and are in one-to-one correspondence, wherein the two data blocks with a corresponding relation have the same block number; setting an indication identification of each local volume, writing a value representing that valid data exits in the written data block in the indication identification of the written local volume when a user writes the valid data; by using the indication identification, determining that the data blocks with the valid data exist in each local volume; and aiming at each local volume, duplicating the valid data in the determined data blocks to the corresponding data blocks of the corresponding remote volume. By applying the method and device provided by the invention, the utilization of network bandwidth is improved, and the remote duplication property is improved.
+73. 102081565 Method and device for performing stability test on storage system
+CN
+01.06.2011
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201010624437.4
+United Information Technology Co., Ltd.
+Dong Yingxia
+G06F 11/22
+Loading...
+The invention provides a method for performing stability test on a storage system. The method comprises the following steps of: A, establishing internet protocol (IP) connection mode resources on storage equipment and establishing a shared folder on the IP connection mode resources of the storage equipment to ensure that the folder can be accessed at a plurality of video clients; B, establishing video reading and writing tasks for accessing the shared folder by using the plurality of the video clients, and monitoring each index and state; and C, judging whether the monitored state and the monitored index meet preset stability test requirements; if the monitored state and the monitored index do not meet the preset stability test requirements, adjusting parameters and/or tasks and returning to the step B; and if the monitored state and the monitored index meet the preset stability test requirements, ending the process. The invention also provides a device for performing the stability test on the storage system.
+74. 102073463 Flow prediction method and device, and prereading control method and device
+CN
+25.05.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010622569.3
+United Information Technology Co., Ltd.
+Xia Junyang
+G06F 3/06
+Loading...
+The invention discloses a flow prediction method and device, and a prereading control method and device. The flow prediction method can inquire most matched historical I/O information of a current read request, and can predict whether the current read request belongs to an existing flow according to the situation whether the most matched historical I/O information has the corresponding flow information when the current read request is correlated with the most matched historical I/O information. In addition, the flow prediction method can also predict whether the updated most matched historical I/O information corresponds to one new flow according to the situation whether the most matched historical I/O information, updated according to the current read request, satisfies the flow mode. Thus, only when the situation that the current read request belongs to the flow mode suitable for prereading is predicted, the prereading operation for the current read request can be triggered, so that the hit rate of the read request can be improved, I/O resource waste caused by executing prereading by position random access can be avoided, thereby helping improve the performance of a storage system.
+75. 102073613 Device and method for removing deadlock of I<2>C (Inter-Integrated Circuit) bus
+CN
+25.05.2011
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201010606296.3
+United Information Technology Co., Ltd.
+Chen Hongbin
+G06F 13/40
+Loading...
+The invention provides a device for removing deadlock of an I<2>C (Inter-Integrated Circuit) bus, wherein a detection unit of the device detects that an SCL (Serial Clock Line) is at a high level and the time of SDA (Serial Data Line) at a low level exceeds a preset first threshold, and a clock trigger signal is output to a clock unit; the clock unit generates a clock signal according to the clock trigger signal and outputs the clock signal to the SCL. The invention further provides a method for removing deadlock of an I<2>C bus, comprising the following steps: when detecting that the SCL is at the high level and the time of the SDA at the low level exceeds the preset first threshold, generating a clock signal and outputting the clock signal to the SCL; and when detecting that the SDA is restored to the high level, stopping outputting the clock signal. By utilizing the device and method provided by the invention, the cost is lower, the deadlock of the I<2>C bus is removed simultaneously, and the stability and reliability of the I<2>C bus are improved.
+76. 102075384 Performance test system and method
+CN
+25.05.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010613464.1
+United Information Technology Co., Ltd.
+Liu Zhongshui
+H04L 12/26
+Loading...
+The invention provides a performance test system, which comprises a tested server pool, a load client pool, a pressure control center, a script server and a test management server, wherein the script server is used for centrally managing test scripts according to the mode of a performance scene; the test scripts are used for dispatching programs to be operated according to the performance test strategy in load clients; the pressure control center is used for calling the test scripts on the script server after a test start command from the test management server is received, and stopping operating the current test script after a test stop command from the test management server is received; and the test management server is used for sending the test start command or the test stop command to the pressure control center, monitoring the software and hardware resources of the load clients, the pressure control center and the tested server, and providing real-time monitoring and data analysis for performance test personnel.
+77. 102063355 Automatic test server and system of disk array
+CN
+18.05.2011
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201010613462.2
+United Information Technology Co., Ltd.
+Nie Haibin
+G06F 11/22
+Loading...
+The invention provides an automatic test server of a disk array. Based on the concept of automatic test design layering, the automatic test server layers and packages test scripts to obtain two layers of supporting scripts and use case scripts, wherein the supporting scripts are supplied to the use case scripts for us in the form of a script packet and used for supplying command lines and completing command transmitting, result requiring, explaining, checking and the like, and the use case scripts are use cases compiled by test engineers with commands supplied by the supporting scripts according to the requirements of product characteristic test. The invention also provides an automatic test system of a disk array.
+78. 102063276 Storage equipment with both RAID (Redundant Array Of Inexpensive Disk) and VTL (Virtual Tape Library) functions and method
+CN
+18.05.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010618608.2
+United Information Technology Co., Ltd.
+Rao Guolin
+G06F 3/06
+Loading...
+The invention provides storage equipment, comprising an RAID (Redundant Array Of Inexpensive Disk), a RAID driver, a physical disk, a fiber channel (FC)/internet small computer system interface (iSCSI) target end and a VTL (Virtual Tape Library) management module, wherein the RAID disk is divided into two parts, the first part is applied to an RAID function, and the second part is applied to a VTL function; the FC/iSCSI target end is used for receiving a read-write access command from an RAID client and forwarding the read-write access command to the first part of the RAID disk; after the read-write access is completed, the FC/iSCSI target end reports a completion condition to the RAID client; the FC/iSCSI target end is also used for receiving a command from a VTL client and forwarding the command from the VTL client to the VTL management module; and the VTL management module is used for converting the command forwarded by the iSCSI/FC target end into a presentation format of a magnetic tape unit and sending the command of the presentation format of the magnetic tape unit to the second part of the RAID disk.
+79. 102063269 Method and system for realizing communication of double controllers of disk array
+CN
+18.05.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010608162.5
+United Information Technology Co., Ltd.
+Zhang Xuming
+G06F 3/06
+Loading...
+The invention provides a method and system for realizing the communication of double controllers of a disk array. The method comprises the following steps of: setting a multi-bit register which is contained in a GPIO (General Purpose Input/Output) register and is in an idle state to be in a state bit, a response bit and a data bit, and writing first state information to the state bit; writing a command into the state bit by a master controller according to initial response information read from the response bit, transmitting data through the data bit, and determining whether the command is finished or not according to command response information read from the response bit; reading first state information by a slave controller from the state bit, and writing the initial response information to the response bit; executing a command read from the state bit, and transmitting data through the data bit; and after the command is finished, writing the command response information to the response bit. By adopting the system and the method, the communication between the double controllers can be realized on the premise of no increase of the cost and the complexity.
+80. 102053892 Method for rapidly detecting disk array
+CN
+11.05.2011
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201010602963.0
+United Information Technology Co., Ltd.
+Jiang Yunlong
+G06F 11/22
+Loading...
+The invention provides a method for rapidly detecting a disk array. The method comprises the following steps: after the disk array is powered on, whether a toggle switch is in a detection mode is detected; if the toggle switch is in the detection mode, a test program stored in a firmware in advance is called for detecting the disk array, and the detected data is transmitted to a display module for displaying; and if the toggle switch is not in the detection mode, the disk array is normally started. By adopting the scheme, the testing flow can be optimized, and the testing efficiency can be improved.
+81. 102045202 Method and device for updating simple network management protocol management data
+CN
+04.05.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010608165.9
+Uited Information Technology Co., Ltd.
+Chen Yapu
+H04L 12/24
+Loading...
+The invention discloses a method and a device for updating simple network management protocol (SNMP) management data. When a management end device needs latest management data, main agent equipment does not immediately send the management data in a management information base (MIB) through sub agent equipment; the sub agent equipment cancels a data area in the current MIB, triggers system data acquisition equipment to acquire latest management data, fills the acquired management data into the MIB, then reregisters the data area in the MIB to the main agent equipment, and sends the latest management data to the main agent equipment; and the main agent equipment sends the latest management data to the management end device. Therefore, a managed end device does not actively update the management data, but executes update when the management end device needs the new management data, equivalently passive update, so system performance loss and input output (IO) load are lightened.
+82. 102033826 Power failure data protection device and method for internal memory
+CN
+27.04.2011
+G06F 12/16 Loading...
+G06F 12/16
+Loading...
+201010578312.2
+United Information Technology Co., Ltd.
+Tang Bin
+G06F 12/16
+Loading...
+The invention discloses power failure data protection device and method for an internal memory. In the invention, a power supply monitoring module is used for monitoring the voltage value of a main power supply; and when the voltage value of the main power supply is smaller than or equal to a preset threshold value, the power supply monitoring module informs a power failure protection control module, the power failure protection control module informs a north bridge and a CPU (Central Processing Unit) to stop current data exchange and then informs a super capacitor to supply power, the super capacitor supplies power to the internal memory through a first voltage conversion module, supplies power to the power failure protection controlmodule through a second voltage conversion module and provides supplies power to a nonvolatile storage medium through a third voltage conversion module, and the power failure protection control module saves data in the internal memory to the nonvolatile storage medium. By using the method and the device disclosed in the invention, the power failure data protection cost of the internal memory can be reduced effectively, and the reliability of s a system can be improved.
+83. 102034516 Method for detecting read-write error of storage medium
+CN
+27.04.2011
+G11B 20/18 Loading...
+G11B 20/18
+Loading...
+201010595387.1
+United Information Technology Co., Ltd.
+Wang Zhibo
+G11B 20/18
+Loading...
+The invention discloses a method for detecting the read-write error of a storage medium, which comprises the following steps that: a host terminal adds logical block addressing (LBA) and a test case identity (ID) in a write command and sends a writing command to a storage terminal; the storage terminal stores the LBA and the test case ID to a test section, reads data back on an address of the determined test section and returns the data read back to the host terminal; and thus, the storage terminal and the host terminal judges the type of the error by comparing data read back and written data. By the method, the read-write error of the storage medium can be detected quickly.
+84. 102023902 Disc array reconstruction method
+CN
+20.04.2011
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+201010622571.0
+UIT Co., Ltd.
+Xia Junyang
+G06F 11/10
+Loading...
+The invention discloses a disc array reconstruction method, comprising: during disc array raid reconstruction, only reconstructing a stripe corresponding to a data unit on a lost member disc instead of reconstructing a stripe corresponding to a checkout unit on the lost member disc; and when data are written in a stripe which does not finish reconstruction subsequently, writing data in the strip in the mode of reconstruction, and reconstructing the checkout unit on the lost member disc. The method only reconstructs the data unit on the lost member disc instead of reconstructing the checkout unit so as to reduce the data amount required to reconstruct and realize the purpose of quickening raid reconstruction. The method does not need to add additional system load when raid is normally used, a data written-in mode is changed into a reconstruction written mode when the stripe which does not finish reconstruction is written in, so that the checkout unit on the lost member disc can be reconstructed, thus gradually finishing reconstruction.
+85. 102012852 Method for implementing incremental snapshots-on-write
+CN
+13.04.2011
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201010621825.7
+United Information Technology Co., Ltd.
+Wang Kunwu
+G06F 11/14
+Loading...
+The invention provides a method for implementing incremental snapshots-on-write, which is characterized by respectively maintaining a copy-on-write data address mapping table and a snapshot-on-write data address mapping table in a snapshot volume. The method comprises the following steps: A. after receiving the command of write operation carried out on the snapshot volume, judging whether the destination address of the command exists in the snapshot-on-write data address mapping table, if yes, executing the step B, otherwise executing the step C; B. covering the data in the corresponding positions in the snapshot data area with the new data to be written and then completing the write operation; and C. applying for new space to store the data to be written, recording the address mapping relation of the data to be written in the snapshot-on-write data address mapping table and then completing the write operation. By adopting the redirect-on-write technology aiming at write operation of the incremental snapshots and recording the redirection in the snapshot-on-write data address mapping table, the method overcomes the defect that the snapshots related to the incremental snapshots are unavailable after the incremental snapshots are written and ensures the availability of the written snapshots.
+86. 102012947 Method and system for online backup of database
+CN
+13.04.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010608164.4
+United Information Technology Co., Ltd.
+Zhao Shengzhi
+G06F 17/30
+Loading...
+The utility model provides a system for online backup of a database, comprising a database server, a storage array, a backup server and a tape library, wherein the database server is used for operating a database, and using a logic volume of the storage array to store the data of the database; an instruction for carrying out snapshot generation on the logic volume called by the database server is sent to the storage array according to a command for carrying out backup operation on the database from the backup server; the backup server is used for connecting to the database server, pausing input and output of the database on the database server to a storage system, and sending a command for carrying out database backup operation on the database server; mapping information is added to a snapshot volume generated by the storage array, the snapshot volume is loaded according to the mapping information, and the data of the snapshot volume is moved to the tape library; and the storage array is used for carrying out snapshot operation on the logic volume called by the database server according to the instruction from the backup server so as to generate the snapshot volume.
+87. 102012847 Improved disk array reconstruction method
+CN
+13.04.2011
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+201010581876.1
+United Information Technology Co., Ltd.
+Qing Yixuan
+G06F 11/10
+Loading...
+The invention provides an improved disk array reconstruction method. The improved disk array reconstruction method comprises the following steps of: A, counting error counts in disks in a redundant array of independent disks (RAID) system; B, judging whether the error count in one disk of the RAID system exceeds a preset threshold value or not, if so, executing a step C, otherwise returning to the step a; C, setting the disk as a warning disk, activating a preset hot spare disk and replicating existing data in the warning disk into the hot spare disk; and D, after the replication, deleting the warning disk from the RAID system and substituting the hot spare disk for the error disk as the component disk of the RAID system. In the scheme, the risk of data loss in the reconstruction process can be effectively reduced and the reconstruction process is accelerated.
+88. 101876910 Double-controller disk memory array, firmware upgrading method and controller thereof
+CN
+03.11.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+200910236754.6
+United Information Technology Co., Ltd.
+Huang Wenjun
+G06F 9/445
+Loading...
+The invention discloses a firmware upgrading method of a double-controller disk memory array; before the firmware of any controller is upgraded, the main control power of the disk memory array and all data application services are transferred into another controller, and a controller is used for continuously providing the data application services in the upgrading process of the firmware, so that firmware upgrading without machine halt can be realized. The invention also discloses the double-controller disk memory array for realizing the method, and a controller thereof.
+89. 101840310 Data read-write method and disk array system using same
+CN
+22.09.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910243591.4
+United Information Technology Co., Ltd.
+Lei Wei
+G06F 3/06
+Loading...
+The invention discloses a data read-write method used in a disk array system. The method comprises the following steps: receiving a read-write command from a front-end protocol drive layer, judging whether the data block corresponding to the read-write command is contained in the block data corresponding to the cache block address stored in a virtual cache layer, and if so, carrying out read-write operation on the data block corresponding to the cache block address stored in the virtual cache layer and returning the operation result to the front-end protocol drive layer; and else, giving the read-write command to the lower layer of the virtual cache layer to be operated, and updating the contents stored in the current virtual cache layer into the cache block address corresponding to the read-write command. The invention also discloses a disk array system using the method. The scheme of the invention is especially suitable for the condition when multiple continuous commands operate the same one data block. The invention can carry out retrieval only once and omit other retrieval processes. Thus, compared with the prior art, the invention can greatly increase the read-write speed.
+90. 101840311 Self-repairing method suitable for RAID system and RAID system
+CN
+22.09.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910244156.3
+United Information Technology Co., Ltd.
+Bao Qingping
+G06F 3/06
+Loading...
+The invention discloses a self-repairing method suitable for a redundant array of independent disks (RAID) system. In the RAID system comprising a plurality of disks, a circuit for controlling each disk to realize independent power off and power on is arranged on a slot interface of each disk. The method of the invention comprises the following steps: A, when a first disk as a member disk in the RAID system can not respond to IO operation, carrying out independent power off treatment on the first disk through the circuit, and then carrying out independent power on treatment on the first disk; and B, judging whether the first disk can respond to the IO operation; if the first disk can respond to the IO operation, finishing self-repairing on the RAID system; and if the first disk can not respond to the IO operation, starting a hot spare disk to reconstruct the RAID system. The invention also discloses an RAID system. The scheme of the invention can avoid using the hot spare disk to carry out reconstructing operation in many cases, thus improving the performance and reliability of the RAID system and saving the disks.
+91. 101840312 RAID5 data writing method and device for multi-core processor
+CN
+22.09.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910244570.4
+United Information Technology Co., Ltd.
+Jin Zhencheng
+G06F 3/06
+Loading...
+The invention discloses an RAID5 data writing method for a multi-core processor, which comprises the following steps of: creating more than one md raid5 processing thread, and assigning each md raid5 processing thread to one CPU of the multicore processor respectively; receiving request data and adding the request data into a data linked list to be processed; and performing parallel processing on the data to be processed in the data linked list by a plurality of md raid5 processing threads. The invention also discloses an RAID5 data writing device. In the scheme, the more than one md raid5 processing thread is created and each md raid5 processing thread is assigned to one CPU of the multi-core processor respectively, so that a plurality of CPUs can write in the data parallelly and the performance advantages of the high-performance multi-core processor can be exerted.
+92. 101840408 Method for implementing write-once read-many
+CN
+22.09.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910244569.1
+United Information Technology Co., Ltd.
+Jin Zhencheng
+G06F 17/30
+Loading...
+The invention discloses a method for implementing write-once read-many, which comprises the following steps of: A, when a file system is created, creating a write-once read-many (WORM) mark in a super block of the file system; B, receiving a read-write operation request for files in the file system through a virtual file system layer, checking whether the information of the super block of the file system has the WORM mark through the virtual file system layer, and if so, executing a step C; and C, judging the attribute of the read-write operation; if the read-write operation is to create a new file or read a file, executing the corresponding operation; and if the read-write operation is to modify file contents, modify the attribute of the file or delete the file, refusing the read-write operation. The scheme of the invention can realize the WORM function totally by software in a universal Linux operating system, and can conveniently support multiple different file systems to realize the WORM function.
+93. 101840309 Access control method and system of double control disk array in multipath environment
+CN
+22.09.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910236756.5
+United Information Technology Co., Ltd.
+Xia Junyang
+G06F 3/06
+Loading...
+The invention discloses an access control method of a double control disk array in a multipath environment. A cache of a controller comprises a local cache and a mirror cache, wherein the local cache is used for caching logical volume data of which the owning user is a local controller, and the mirror cache is used for caching the logical volume data of which the owning user is a controller on an opposite terminal. In the method, a first controller receives a reading/writing access command to the disk array from a host and judges whether the owning user of logical volume corresponding to the reading/writing access command is the first controller or not; if not, the reading/writing access command is sent to a second controller on the opposite terminal; the second controller determines a local caching block X corresponding to the reading/writing access command and a mirror caching block Y corresponding to the local caching block in the first controller and sends information relevant to the local caching block X and the mirror caching block Y to the first controller; and the first controller returns the relevant information to the host. The invention also discloses a double control disk array system. With the scheme of the invention, the concurrent access of multiple controllers to the same logical volume in the multipath environment can be realized, and meanwhile, the frequent exchange of owning users of the logical volumes is avoided.
+94. 101841425 Network backup method, device and system without proxy
+CN
+22.09.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910243590.X
+United Information Technology Co., Ltd.
+Yin Liang
+H04L 12/24
+Loading...
+The invention discloses a network backup method without proxy. The method comprises the following steps that: a backup server starts a file sharing service, takes one part in a local storage area as a sharing area, generates a network address of the sharing area, sends the network address to a data generator and sends a backup request to the data generator; and the data generator acquires data to be backed up from a database after receiving the backup request, and sends the acquired data to the sharing zone of the backup server for storage through the file sharing service according to the network address. The invention also discloses the data generator, the backup server and a data backup system. Through the scheme of the invention, the network backup can be realized without proxy.
+95. 101840407 Fast file backup method
+CN
+22.09.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910244155.9
+United Information Technology Co., Ltd.
+Yin Liang
+G06F 17/30
+Loading...
+The invention discloses a fast file backup method, which is implemented in the computer equipment of a running window operating system and comprises that: a backup file storage path is preset and a backup function process is started; the backup function process detects a currently selected icon in a resource manager window, judges whether an object corresponding to the icon belongs to predefined objects which can be backed up or not, and if so, detects the operation of clicking the currently selected icon with a right mouth button to activate a right-click menu and then adds a backup option into the right-click menu; and the backup function process backs up the object corresponding to the currently selected icon into the preset storage path after detecting the operation of clicking the backup option in the right-click menu with a left mouth button. Through the scheme of the invention, complex operation required by file backup in the prior art can be saved.
+96. 101840360 Rapid reconstruction method and device of RAID (Redundant Array of Independent Disk) system
+CN
+22.09.2010
+G06F 11/10 Loading...
+G06F 11/10
+Loading...
+200910236757.X
+United Information Technology Co., Ltd.
+Bao Qingping
+G06F 11/10
+Loading...
+The invention discloses a rapid reconstruction method of a RAID (Redundant Array of Independent Disk) system. The method comprises the following steps of: A, setting a bitmap, the initial value of which is invalid, wherein each bit in the bitmap corresponds to at least a strip in the RAID system; B, modifying the bit of the bitmap corresponding to the strip into valid when the writing operation is carried out on the strip; and C, finding out the strip on which the writing operation is carried out according to the bitmap, and recovering the data of the found strip. The invention also discloses a rapid reconstruction device of the RAID system. The RAID system reconstruction can be rapidly realized according to the scheme of the invention, and the IO (Input/Output) performance and the reliability of the system can be improved.
+97. 101840308 Hierarchical memory system and logical volume management method thereof
+CN
+22.09.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200910236753.1
+United Information Technology Co., Ltd.
+Zou Bo
+G06F 3/06
+Loading...
+The invention discloses a logical volume management method applied for a hierarchical memory system. A volume group bit chart is arranged, and the bits of the volume group bit chart correspond to the physical zones of a physical volume one to one; and the bits in the volume group bit chart indicate whether the corresponding physical zone is occupied or not. The method comprises the following steps: A. initializing a mapping array, wherein each element in the mapping array corresponds to one bit in the volume group bit chart, and the element value shows the position of the corresponding bit in the volume group bit chart; B. seeking a bit set to be invalid in the volume group bit chart and setting the value of the bit to be valid; C. recording the position of the sought bit in the volume group bit chart into the element corresponding to the mapping array of the logical volume; and D. creating a new logical volume which is mapped to the physical zone corresponding to the sought bit. The invention also discloses a memory system adopting the logical volume management method. With the scheme, the invention does not need to distribute a large number of physical zones in initialization, achieves the dynamic use of the physical zones, and greatly saves the memory resources.
+98. 101840362 Method and device for achieving copy-on-write snapshot
+CN
+22.09.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+200910236755.0
+United Information Technology Co., Ltd.
+Ji Yongguang
+G06F 11/14
+Loading...
+The invention discloses an improved method for achieving copy-on-write (COW) snapshot, which comprises the following steps: setting up the bitmaps for a source data area and a snapshot area, wherein each bit in the bitmap corresponds to N data blocks; and indicating that data are written in the corresponding data blocks if the bit is valid, and if not, indicating that the data are not written in the corresponding data blocks, wherein N represents a natural number. Based on the bitmaps for the source data area and the snapshot area, the following functions can be performed: when a writing request is received by the source data area, whether the corresponding data blocks are required to be copied to the snapshot data area is judged, and the copy operation is carried out only when necessary. The invention further discloses an improved device for achieving the copy-on-write snapshot. The improved scheme provided by the invention is capable of directly responding to most writing request of a host computer instead of copying the data blocks to the snapshot data area. By making the improvement, the invention can reduce the delay in the writing request of a user, reduce the size of the snapshot citation index and the snapshot data area and increase the utilization rate of the memory space.
+99. 101840363 一种文件分块比较方法和装置
+CN
+22.09.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+200910237360.2
+创新科存储技术有限公司
+殷亮
+G06F 11/14
+Loading...
+本发明公开了一种文件分块比较方法，包括如下步骤：A、将原文件和新文件分成固定大小的块；B、采用多于一种比较顺序来依次比较这两个文件的各个块，在任一种比较顺序中比较结果为相同的块均认为是未发生改变；只有在各种比较顺序中均不相同的块才认为是发生了改变。本发明还公开了一种文件分块比较装置。本发明提出的分块比较方案，即使新文件中出现了少量块的增加或减少，仍然可以准确地判定多数未改变的块，避免了现有技术中存在的误判问题。
+100. 101448022 Control method of system interface iSCSI receiving end window of internet small computer and device
+CN
+03.06.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810215563.7
+United Information Technology Co., Ltd.
+Lei Wei
+H04L 29/08
+Loading...
+The invention discloses a control method of a system interface iSCSI receiving end window of an internet small computer, comprising the following steps of: monitoring the state of a system interface SCSI receiving end window of the small computer; and controlling the size of a session window according to the change of the state of the SCSI window when detecting that the state of the SCSI window occurs change. The invention discloses a control device of the iSCSI receiving end window simultaneously. The invention can improve the resource utilization rate of the iSCSI receiving end and the access rate of the iSCSI receiving end.
+101. 101448023 Method for accessing logic unit in storage device and device
+CN
+03.06.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810215564.1
+United Information Technology Co., Ltd.
+Ji Yongguang
+H04L 29/08
+Loading...
+The invention discloses a method for accessing a logic unit in a storage device, which is used for reducing the complexity of accessing the logic unit in the storage device and improving the efficiency of accessing the logic unit in the storage device. The method comprises the following steps: a plurality of user devices are corresponding to all established groups; and a plurality of logic units are corresponding to all the groups and at least one group is corresponding to at least two logic units; therefore, the access relation of the same group of the user devices and the logic units and the user devices access the logic units according to the access relation. The invention also discloses a device used for realizing the method, an access method and a device and a storage system.
+102. 101387943 Storage device and data caching method
+CN
+18.03.2009
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200810212326.5
+United Information Technology (Shenzhen) Co., Ltd.
+Zheng Weihong
+G06F 3/06
+Loading...
+An embodiment of the invention discloses a storage device, which comprises a plurality of buffer units and a main business processing unit, wherein the buffer units are used to buffer data, the main business processing unit is used to confirm the required time of parallel writing to-be-buffered data in a buffer unit corresponding to the main business processing unit, when the time surpasses the preset time threshold level, other buffer units except the relative buffer unit in the storage device are confirmed, and the data is written in the relative buffer unit and the other buffer units. The embodiment of the invention further discloses a method for buffering data. The invention can effectively increase the data access speed of the storage device.
+103. 101373420 Multi-controller disk array and command processing method thereof
+CN
+25.02.2009
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200810215567.5
+Uited Information Technology (Shenzhen) Co., Ltd.
+Gao Wenqiang
+G06F 3/06
+Loading...
+The invention discloses a command processing method for a multi-controller disk array which comprises the steps as follows: determining a main controller used for controlling user operating command execution in the multi-controller disk array; receiving a user operating command and controlling the execution of the user operating command through the main controller. The invention further discloses a multi-controller disk array. The invention can ensure that the controller to be operated by the user correctly obtain the user operating command to be executed.
+104. 101373445 Method and apparatus for scheduling memory
+CN
+25.02.2009
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+200810215565.6
+Uited Information Technology (Shenzhen) Co., Ltd.
+Xue Guoliang
+G06F 9/50
+Loading...
+The invention discloses a memory dispatching method which is used for realizing the optimization of a memory (Cache) dispatching strategy and improving the utilization rate of Cache resources and the speed of data processing. The method comprises the steps of operating a Cache example corresponding to the type of the business required by users and dispatching Cache according to a value of a dispatching parameter configured for the business of the type in advance through the Cache example. The invention further discloses a device and a system used to realize the method.
+105. 101354636 Method and system for writing data into magnetic disk array
+CN
+28.01.2009
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200810212330.1
+United Information Technology Co., Ltd.
+He Yonghong
+G06F 3/06
+Loading...
+The invention discloses a method and a system for writing data into disk arrays, aiming to solve the problem that the prior art is low in efficiency when carrying out disk writing operation to disk arrays. The method disclosed by the invention comprises the following steps that: a controller receives and caches a large amount of written-in information; the written-in information comprises to-be-written-in data, as well as an initial position and data length thereof; if the to-be-written-in data are mutually overlapped or continued in the positions of written-in data, the to-be-written-in data are merged; the controller determines the corresponding initial position of the to-be-written-in data after merging, as well as the data length of the to-be-written-in data after merging; the controller sends the to-be-written-in data after merging, as well as the initial position and data length thereof to a disk array; and the disk array carries out writing operation according to the to-be-written-in data after merging, as well as the initial position and data length thereof. As the disk writing operation is carried out after the to-be-written-in data overlapped or continued in the positions are merged, the efficiency of the writing operation is improved.
+106. 101355512 Data transmission system, method and transmission control server
+CN
+28.01.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810215566.0
+United Information Technology Co., Ltd.
+Xie Susu
+H04L 12/56
+Loading...
+The invention discloses a data transmission system which comprises a source terminal transmitting data, a target terminal receiving data, a transmission control server and at least one auxiliary transmission terminal, wherein the transmission control server selects at least one auxiliary transmission terminal from auxiliary transmission terminals when data transmission is performed on the source terminal and the target terminal based on the point to single point data transmission means, and then notifies information of the source terminal to the selected terminal and the target terminal; and the selected terminal and the target terminal transmits data which is transmitted by the source terminal to the target terminal based on the peer-to-peer network data transmission means according to the information of the source terminal which is notified by the transmission control server. The invention also discloses a data transmission method and a data transmission device. The proposal provided by the invention can solve the problem that the efficiency of data transmission between the terminals is limited in the prior art due to influence of the transmission bottleneck on a point to single point transmission path between the source terminal and the target terminal.
+107. 101355453 Operation management maintenance proxy apparatus and method for implementing network management
+CN
+28.01.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810212328.4
+United Information Technology Co., Ltd.
+Mo Haoran
+H04L 12/24
+Loading...
+The invention discloses an operation management and maintenance proxy device and a method for network management. To solve the problem of lower work efficiency during the network management caused by the complicated message interaction of an Agentx protocol, the method comprises the following steps: subproxies respectively store information of a management information base (MIB) of correspondingly-managed modules into storage space corresponding to different address spaces, and the storage space is taken as the storage space shared by the subproxies and a master proxy; the master proxy obtains the corresponding address space according to management information which is sent by an operation maintenance center and comprises object identifiers of the managed modules, and the corresponding relation between the object identifiers and the address spaces; and the master proxy performs processing operation to the MIB information in the storage space corresponding to the address space. Just because the master proxy directly performs processing operation to the MIB information in the storage space corresponding to the address spaces, the work efficiency during the network management is improved.
+108. 101355588 Data transmission method and transmission terminal base on peer-to-peer network
+CN
+28.01.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810212327.X
+United Information Technology Co., Ltd.
+Xie Susu
+H04L 29/08
+Loading...
+The invention discloses a method for transmitting data and a transmission terminal based on a peer-to-peer network. An intermediate terminal playing a role in auxiliarily transmitting data transmitted between a source terminal and a target terminal acquires and stores indication of each data block which is transmitted by the source terminal to the target terminal; during the process of data transmission, the intermediate terminal acquires the indication of the transmitted data block in each data block which is informed by the target terminal and is about to be transmitted to the target terminal in the source terminal; in the stored indications of each data block, the acquired indication of the data block which is transmitted is distinguished from the indication of the data block which is not transmitted; according to the distinguishing result, a data block corresponding to the indications of the data block which is not transmitted is acquired from a connected terminal, and the acquired data block is provided for the target terminal. With the technical proposal of the invention, the problems of the waste of transmission resource of a terminal in the peer-to-peer network during data auxiliary transmission in the prior art can be effectively avoided.
+109. 101354606 Method, system and apparatus for controlling energy consumption of magnetic disk array
+CN
+28.01.2009
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+200810212329.9
+United Information Technology Co., Ltd.
+Xia Junyang
+G06F 1/32
+Loading...
+The embodiment of the invention discloses a method for controlling energy consumption of a disk array. The method comprises the following steps of: determining service load capacity of each controller in the disk array to obtain total service load capacity of the disk array according to a determination result; and adjusting the hardware energy consumption grade of the disk array when the total service load capacity meets a predetermined adjustment condition. The embodiment of the invention also discloses the disk array and an energy consumption control system of the disk array. With the invention, the energy consumption of the disk array during working process can be controlled and adjusted through dynamically adjusting the hardware energy consumption grade in the disk array.
+110. 101237400 Migration method for network additive storage service and network additional storage node
+CN
+06.08.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810004257.9
+Uited Information Technology (Shenzhen) Co., Ltd.
+Cheng Renquan
+H04L 12/56
+Loading...
+The present invention discloses a migration method and an NAS node for NAS services, which are used for improving the quality of the NAS services provided from the NAS nodes to NAS user ends; the method comprises the following steps that: in an NAS assembly, each of the NAS nodes shares the IP address information of the NAS node, the communication state information of the NAS service currently provided to an NAS user end, and the address information of the served NAS user end with each of other NAS nodes; when a malfunction occurs on the NAS node which is providing NAS services to the NAS user end, an NAS node is selected from other normally worked NAS nodes; based on the IP address information which is shared by the NAS node on which a malfunction occurs, the communication state information of the NAS services provided to the NAS user end and the address information of the NAS user end, the selected NAS node continues to provide NAS services to the NAS user end.
+111. 101236525 File memory, reading, deleting and copying method and its relevant system
+CN
+06.08.2008
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+200810004256.4
+Uited Information Technology (Shenzhen) Co., Ltd.
+Qi Xiaoman
+G06F 12/02
+Loading...
+The invention discloses a file memory method, which is executed aiming at each file waiting for storage, wherein, the file is divided into data blocks and the file memory method is executed aiming at each divided data block; an unique identification of the data block is calculated according to content of the data block; existence of the calculated unique identification is searched in a first memory area of the unique identification of the storage data block; if the unique identification exists, the calculated unique identification is stored in a file corresponding to the file waiting for storage in a third memory area; if the unique identification does not exist, the calculated unique identification is stored in the first memory area; the data block and the calculated unique identification are correspondingly stored in a second memory area, and the calculated unique identification is stored in a file corresponding to the file waiting for storage in the third memory area. The invention also discloses a fetch, delete and reproducing method and related system thereof. The invention saves the memory space of storage files and reduces occupied network bandwidth resources during the process of file transmission.
+112. 101232514 Metadata synchronization method of network additional memory node and network additional memory node
+CN
+30.07.2008
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810004254.5
+Uited Information Technology (Shenzhen) Co., Ltd.
+Cheng Renquan
+H04L 29/08
+Loading...
+The invention discloses a metadata synchronization method of NAS nodes and NAS nodes for preventing NAS nodes from repeating synchronizing metadata to other NAS nodes in a NAS cluster. The method includes the following steps: every NAS node in a NAS node cluster records the changed metadata and the changing mode; and the recorded metadata and the changing mode are synchronized with other NAS nodes. The invention further discloses a metadata synchronization mode of NAS nodes and NAS nodes for improving the metadata synchronizing efficiency of NAS nodes. The method includes the following steps: each NAS node in a NAS cluster monitors whether the stored metadata has changed, and if the metadata are monitored to have changed, the NAS node synchronizes all the stored metadata with other NAS nodes.
+113. 101231653 Method and device for resolution of data block
+CN
+30.07.2008
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810004255.X
+Uited Information Technology (Shenzhen) Co., Ltd.
+Qi Xiaoman
+G06F 17/30
+Loading...
+The invention discloses a data block split method, which comprises the following steps that: the file type of a file to be split is examined; the split rule which is corresponded to the examined file type is indexed in the corresponding relation of the pre-stored file type and the split rule; the file to be split is split into data blocks according to the indexed split rule. Correspondingly, the invention also discloses a data block split device. The invention increases the repetitive rate of the data blocks which are split out aiming at the different files, so as to further filtrate the data blocks which have the repeated contents, thereby greatly reducing the storage space occupied by the stored files, and decreasing the transmission quantity of the data and saving the network bandwidth resources when the files are transmitted.
+114. 101227378 Communication service establishing method based on network storage and storage device thereof
+CN
+23.07.2008
+H04L 12/54 Loading...
+H04L 12/54
+Loading...
+200810004258.3
+Uited Information Technology (Shenzhen) Co., Ltd.
+Tan Yinhong
+H04L 12/54
+Loading...
+The invention discloses a method for establishing communications service on the base of network storage, which comprises receiving request messages of establishing discovery session which is launched by launching equipment through connecting storage equipment itself and network interface of the launching equipment, and getting group address information of a network interface group which belongs to the network interface, sending response message of the group address information to the launching equipment through the network interface, leading the storage equipment based on the group address information to receive the request which is launched by the launching equipment to establish a conversation connection with itself, choosing a network interface in the network interface group, sending information of the address of the network interface which is chosen to the launching equipment, noticing the launching equipment to repeatedly establish a conversation connection with itself according to the address which is chosen, leading the storage equipment which is based on the address which is chosen to receive the request which is launched by the launching equipment to establish a conversation connection with itself. Correspondingly, the invention also discloses storage equipment, which avoids resource waste of network interfaces through adopting the proposal of the invention.
+115. 101221485 Method for establishing redundant magnetic disk array and control device thereof
+CN
+16.07.2008
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200810004259.8
+United Information Technology Co., Ltd.
+Tan Yinhong
+G06F 3/06
+Loading...
+The present invention discloses an establishment method of redundant array of inexpensive disks (RAID), comprising the steps that: a control device correspondingly stores the address information and identifier of each disk in at least two storage devices connected with the control device; on the basis of the stored address information of each disk, the state information of each disk corresponding to the identifier of each disk is acquired; the identifier of each disk and the acquired corresponding state information of each disk are presented to users; on the basis of the identifier of each disk that users select in at least two storage devices, the address information of each disk which is stored corresponding to the selected identifier of each disk is found out; according to the RAID type set by users, the disks corresponding to the address information of each disk which is found out are combined to acquire the RAID. Accordingly, the present invention also discloses a control device. The proposal of the present invention solves the problem that the single storage device is limited in capacity, expands storage capacity, and can provide a data protection proposal with the security level corresponding to the RAID type.
+116. 101141476 File storing, downloading method and device
+CN
+12.03.2008
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200710140683.0
+Chuangxinke Storage Technology (Shenzhen) Co., Ltd.
+Qi Xiaoman
+H04L 29/08
+Loading...
+The present invention discloses a file store method to improve the availability of a storage resource, which comprises a file store demander generates a file identification uniquely corresponding to a standby store file; and the file identification generated is sent to a file store side; the file store side judges whether the file identification is stored, if the file identification is stored, the standby store file is refused to store, otherwise, the file identification is stored, and the standby store file is also stored.
+117. 101115016 Method and system for implementing application server load balancing
+CN
+30.01.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710146149.0
+United Information Technology (Shenzhen) Co., Ltd.
+Qi Xiaoman
+H04L 12/56
+Loading...
+The invention discloses a method to realize application server, comprising the following steps: a domain name analyzing server receives a request with application server cluster domain name sent by a user, and assigns an application server with an IP address mark to the user from the pre-stored application server IP address list corresponding to the domain name; the application server assigned to the user locates an application server for the user according to the current load information of each application server in the application server cluster stored in a meta-data base server, and feedbacks the application server information to the user. The located server stores the file data uploaded by the user in the storage device at the network side during the communication with the user. The invention can realize direct P2P data transmission, balance distribution operations, and make full use of every application server resource in the application server cluster.
+

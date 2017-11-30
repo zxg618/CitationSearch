@@ -1,0 +1,241 @@
+1. 106569951 一种脱离页面的Web测试方法
+CN
+19.04.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+102016000965092
+杭州顺网科技股份有限公司
+王步飞
+G06F 11/36
+Loading...
+本发明公开了一种脱离页面的Web测试方法，其运用HTTP协议的特点，编写工具，组装发送报文，按照分不同方法去请求服务器，将响应信息抓取，在客户端内存中分析渲染，获取关联连接，发送关联连接，分析响应包体，将预期数据与响应数据进行对比，作为测试结果的输出，将测试用例中描述的每一项在响应信息格式化数据字典中查找、对比、输出测试结果。本发明Web测试方法使得测试深入、灵活，使用简单，用例覆盖更广，可以快速实现自动化，能够自动检查响应html合规性，可以模拟页面无法测试的用例。
+2. 106534916 一种针对网吧环境基于三层服务器架构的视频直播系统
+CN
+22.03.2017
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+201610934287.4
+杭州顺网科技股份有限公司
+范科
+H04N 21/41
+Loading...
+本发明公开了一种针对网吧环境基于三层服务器架构的视频直播系统，包括位于云端的流媒体发布服务器集群、流媒体源服务器集群和中心控制服务器集群以及位于同一网吧局域网内的流媒体边缘服务器集群、客户端集群和边缘控制服务器。本发明通过流媒体源服务器、流媒体发布服务器和流媒体边缘服务器三层服务器架构，不仅解决了直播观众高并发观看的问题，而且能显著降低网吧对入口带宽的需求；每一层流媒体服务器集群可根据主播用户和观看用户的规模进行独立的增加和缩减，系统的架构设计灵活，可扩展性强，部署简单。
+3. 103354605 一种基于移动终端的IPTV点播系统及其点播方法
+CN
+28.09.2016
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+102013000257619
+杭州顺网科技股份有限公司
+高云
+H04N 7/173
+Loading...
+本发明公开了一种基于移动终端的IPTV点播系统，包括移动终端和IPTV中间服务平台；移动终端包括注册登录模块、节目操作模块和视频播放模块，IPTV中间服务平台包括终端管理服务器、业务网关和付费网关；本发明还公开上述点播系统的点播方法。本发明点播技术实现了一种新的IPTV业务接入方式，即使用移动终端的方式进行IPTV点播，通过付费网关，提供了多种IPTV点播的付费方式；本发明点播系统能够使移动终端实现IPTV遥控器功能，用户更加方便快捷地使用IPTV业务，实现了IPTV多屏互动、用户个性化、功能多样化，同时也极大地拓展了IPTV运营商的业务领域。
+4. 105656892 一种具备充电、防盗以及免流量上网功能的移动终端辅助系统
+CN
+08.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511029667.5
+杭州顺网科技股份有限公司
+赵良
+H04L 29/06
+Loading...
+本发明公开了一种具备充电、防盗以及免流量上网功能的移动终端辅助系统，包括主机以及与主机连接的防盗支架；其通过密码验证判断是否非法取下移动终端，通过检测充电接口断开判断是否已取下移动终端，如果是非法取下移动终端，则分别通过主机、防盗支架、移动终端进行报警；此外本发明通过虚拟专用网络与主机相连，将移动终端发出的IP数据包传送给主机虚拟网卡，并由虚拟网卡同步至真实网卡，同样地，将来自外网的数据，由主机接收后传送回移动终端。由此，本发明能够解决用户在公共场所使用移动终端时的充电、防盗的需求，简化移动终端通过电脑上网的繁琐过程，提高移动终端通过电脑上网的安全性。
+5. 105162833 应用于无盘工作站的客户机管理系统及方法
+CN
+16.12.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510451376.9
+杭州顺网科技股份有限公司
+李广斌
+H04L 29/08
+Loading...
+本发明提供应用于无盘工作站的客户机管理系统及方法，客户机设置有本地硬盘；所述本地硬盘至少存储有系统镜像数据，所述系统镜像数据用于供读取以为所述客户机启动操作系统；驱动程序，用于接管来自所述操作系统的数据读或写请求，以在所述本地硬盘完成对应的读或写操作；本发明实现无盘工作站中客户机数据读写速度的高速提升，解决现有无盘工作方案数据传输速率低的问题。
+6. 105045629 一种无盘工作站设备启动方法及系统
+CN
+11.11.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510451409.X
+杭州顺网科技股份有限公司
+蒋关平
+G06F 9/445
+Loading...
+本发明提供一种无盘工作站设备启动方法及系统。无盘工作站设备启动方法应用于多个无盘工作站设备与至少一个服务器组成的系统中，所述无盘工作站设备带有固态硬盘，所述无盘工作站设备启动方法包括：获取预设启动文件信息及启动模式，所述启动模式包括本机启动模式或无盘启动模式；当启动模式为本机启动模式时，检测固态硬盘中是否存在所述预设启动文件；当预设启动文件在固态硬盘中存在时，执行所述预设启动文件。本发明的技术方案能够兼顾无盘网络在管理和维护上的方便以及本地固态硬盘启动的性能优势。
+7. 104268069 Computer performance assessment method
+CN
+07.01.2015
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201410495319.6
+杭州顺网科技股份有限公司
+伍方龙
+G06F 11/34
+Loading...
+The invention discloses a computer performance assessment method. The method comprises the following steps: detecting the specification of main hardware of the current personal computer of a user and the software version of the operation system; analyzing the obtained data; quickly finding out a hardware short board; analyzing the level of the whole user hardware according to the hardware short board, wherein the whole analyzing process only involves the comparison process rather than computing process; finally rating. According to the computer performance assessment method, the hardware rating is performed by the relatively regular mode, the complex and comprehensive rule is adopted, and the accurate result can be simply and efficiently obtained without any interference within 3 seconds; meanwhile, the allowance function and the allowance rule are brought, and therefore, the risk caused by not maintaining for a long term can be decreased, and the error can be reduced to the maximum.
+8. 103036964 一种基于P2P的网吧服务器数据更新方法
+CN
+10.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210526284.9
+杭州顺网科技股份有限公司
+陈亮
+H04L 29/08
+Loading...
+本发明公开了一种基于P2P的网吧服务器数据更新方法，包括：(1)获取索引文件和节点列表；(2)比较索引文件，得到下载列表；(3)根据节点列表，建立P2P连接；(4)建立数据块资源列表；(5)与P2P节点进行数据交互。本发明通过将P2P自助网络通过群落模型表现出来，解决了P2P网络动态组网及自我进化的完整过程，使得P2P网络自适应于动态变化的不同环境下，达成较优的组网效果和较高的资源同步效果；同时合理规划下载热度分布，均衡IDC带宽对于差异数据请求分布，合理利用用户的带宽，以达到提供同步速度的效果；组网效果优，数据分发分享效率高，能有效提高整个网络数据的同步速度。
+9. 103023872 一种云游戏服务平台
+CN
+03.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210466093.8
+杭州顺网科技股份有限公司
+曹善焰
+H04L 29/06
+Loading...
+本发明公开了一种云游戏服务平台，包括：控制服务器集群、流媒体服务器集群和游戏服务器集群；控制服务器用于为客户机分配流媒体服务器和游戏服务器；流媒体服务器用于将客户机发送的游戏操作指令转发给游戏服务器，并将游戏服务器产生的流媒体码流转发给客户机；游戏服务器包括游戏进程管理模块、音视频抓取模块、编码模块和操作指令模拟模块，用于将所述的游戏操作指令模拟至游戏程序中。本发明云游戏服务平台能够使用户无需自建高端PC用作游戏机，只要使用一台低配置的PC，并接入高速网络即可，且能享受到较佳的游戏体验。
+10. 103001964 一种局域网环境下的缓存加速方法
+CN
+27.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210522683.8
+杭州顺网科技股份有限公司
+罗光辉
+H04L 29/06
+Loading...
+本发明公开了一种局域网环境下的缓存加速方法，其通过获取页面所有链接的资源路径，对路径进行格式匹配判断；对于匹配的路径，客户机通过http代理协议将路径发送给服务器，由服务器判断该路径对应的文件在本地是否有存储：若有则从本地提取该文件传送给客户机；若否则通过连接该路径下载对应的文件同步传送给客户机。本发明通过将一些网络大容量文件缓存至服务器本地，能够为局域网节省大量的带宽，降低局域网对带宽的需求，从而节省资金；同时本发明能够提升局域网内网民的用户体验，保障一些实时性需求较高的网络应用程序的服务质量，使得局域网维护简单，降低流控软件的复杂度。
+11. 103001891 一种用于提升局域网整体服务质量的方法
+CN
+27.03.2013
+H04L 12/927 Loading...
+H04L 12/927
+Loading...
+201210466107.6
+杭州顺网科技股份有限公司
+郭月丰
+H04L 12/927
+Loading...
+本发明公开了一种用于提升局域网整体服务质量的方法，包括：(1)制定优先级列表；(2)使局域网内客户机和路由器获取优先级列表；(3)使非专用客户机对网络应用程序发送的网络连接请求数据包打标；(4)路由器根据优先级列表以及标签，实时动态对各网络应用程序的网络连接分配带宽。本发明大大提升网民的用户体验，带宽不足时可以保障一些实时性需求较高的网络应用程序的服务质量，带宽足够时可以使带宽得到充分应用；使得局域网维护简单，自动下载更新配置模板就可以完成网络服务质量的管理；局域网几乎无需投入费用，仅仅需要升级路由器程序软件即可。
+12. 102394908 一种基于局域网的网络视频加速方法
+CN
+28.03.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110229841.6
+杭州顺网科技股份有限公司
+王浩
+H04L 29/08
+Loading...
+本发明公开了一种基于局域网的网络视频加速方法，包括：(1)构建局域网，用户计算机向服务器发送视频观看请求；(2)服务器向用户计算机提供视频内容；(3)用户计算机接收视频内容并对其进行播放。本发明通过构建局域网，利用局域网内的服务器为局域网内的用户计算机提供视频内容的缓存服务，又协调了整个局域网环境下的用户计算机为单台客户端提供多线程P2P下载服务，大大提升了用户观看视频的速度，节约了网络流量，减轻了局域网外加速服务器的负荷，极大地节省了相应的服务成本，可广泛应用于网吧、学校等网络环境下。
+13. 102355454 一种基于局域网的网游通信加速方法
+CN
+15.02.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110230257.2
+杭州顺网科技股份有限公司
+王浩
+H04L 29/06
+Loading...
+本发明公开了一种基于局域网的网游通信加速方法，包括：(1)构建局域网，用户计算机向服务器发送网游通讯包；(2)服务器向双线服务器转发网游通讯包；(3)双线服务器向网游服务器转发网游通讯包；(4)网游服务器向双线服务器发送网游应答包；(5)双线服务器向服务器转发网游应答包；(6)服务器向用户计算机转发网游应答包。本发明通过构建局域网，利用局域网内的服务器为局域网内的用户计算机提供网游包的转接服务，避免了所有用户计算机直接与双线服务器通信，减轻了双线服务器的负荷，大大降低了相应的服务成本。
+14. 102323888 一种无盘计算机启动加速方法
+CN
+18.01.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110230248.3
+杭州顺网科技股份有限公司
+程琛
+G06F 9/445
+Loading...
+本发明公开了一种无盘计算机启动加速方法，包括：(1)无盘计算机向服务器发送启动请求数据包；(2)服务器缓存、预读启动响应数据包并发送给无盘计算机；(3)无盘计算机缓存启动响应数据包并执行响应启动。本发明的无盘计算机启动加速方法，通过服务器接收请求阶段的缓存和预读技术，以及无盘计算机接收响应阶段的缓存技术，大大加快了无盘计算机的启动速度，能很好的解决无盘计算机启动阶段速度缓慢的问题，改善了用户的操作体验，可广泛应用于如网吧、学校等局域网环境。
+15. 102291457 Game content distribution system based on Barserver
+CN
+21.12.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110229848.8
+Hangzhou Shunwang Technology Co., Ltd.
+Xue Song
+H04L 29/08
+Loading...
+The invention discloses a game content distribution system based on a Barserver. The system comprises multiple client computers, multiple Internet bar servers and an IDC (Internet data center) game content server, wherein the client computers are used for sending a game download request to the IDC game content server and downloading the game content to the Internet bar servers; the Internet bar servers are used for downloading the game content to the IDC game content server and uploading the game content to the client computers; and the IDC game content server is used for uploading a P2P (peer-to-peer) Internet bar server list to the client computers and uploading the game content to the Internet bar servers. The system disclosed by the invention greatly reduces the system investment cost and eliminates investment risk by taking the Internet bar servers as node servers, eliminates difference in the download speeds of clients in different geographical regions by use of the characteristic of wide coverage of Internet bars, and better realizes network acceleration and increases the download speed of the client.
+16. 102270280 Game popular degree calculating and sorting method of Internet bar game platform
+CN
+07.12.2011
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110230255.3
+Hangzhou Shunwang Technology Co., Ltd.
+Cheng Chen
+G06F 19/00
+Loading...
+The invention discloses a game popular degree calculating and sorting method of an Internet bar game platform, comprising the following steps that: (1) an Internet bar client side reports game operation information to an Internet bar server side; (2) the Internet bar server side calculates a local popular index value of the game and reports the calculated value to an IDC (Internet data center) server side; (3) the IDC server side calculates an IDC popular index value of the game and transmits the calculated value to the Internet bar server side; (4) the Internet bar server side calculates a global popular index value of the game and sorts the game according to the global popular index value. The method brings in duration of operating the game by users so as to calculate the local popular index value, and calculates the global popular index value based on the IDC popular index value, thereby sorting the game in popularity aspect, so that the popular degree of the game is objectively and comprehensively reflected, and users are effectively guided; and simultaneously, with the method, game developers can correctly grasp development direction of game products, thereby reducing the failure rate of game development, and decreasing invaluable investment of time and money of the users, even the game developers.
+17. 101833485 System protection method based on snapshot
+CN
+15.09.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201010130799.8
+Hangzhou Shunwang Science & Technology Holdings Co., Ltd.
+Cheng Chen
+G06F 11/14
+Loading...
+The invention discloses a system protection method based on snapshot. The system protection method comprises the following steps of: assigning a reserved space for redirection in a disk; assigning a first space for recording corresponding relationship in the disk or a memory; generating a private interface for reading disk original data, namely snapshot; and intercepting and capturing read and write operations on the disk by users, intercepting and capturing load of a kernel module, respectively processing the intercepted and captured read and write operations on the disk according to whether the operations are launched through the private interface or not, and respectively processing the intercepted and captured kernel module and the content of the snapshot after comparison. In the invention, the private interface and the kernel monitoring module are additionally arranged based on a system restore method in the prior art, kernel attack can be simply and effectively resisted, and an original restore system can be ensured to normally work at the same time, thereby achieving the purpose of system protection.
+18. 101814038 Method for increasing booting speed of computer
+CN
+25.08.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010130788.X
+Hangzhou ICafe Technology Co., Ltd.
+Cheng Chen
+G06F 9/445
+Loading...
+The invention discloses a method for increasing a booting speed of a computer. The method comprises the following steps of: setting data needing to be pre-read for booting of the computer and creating a list file of the data to be pre-read; according to the list file, reading designated pre-read contents from a magnetic disk by a private interface, buffering the designated pre-read contents in a reserved space(memory), intercepting magnetic disk reading/writing operation, if the related magnetic disk sectors of the reading/writing operation have intersection sets with the magnetic disk sectors in which the pre-read contents A are located, according to a relationship recorded in the first space, finding out positions corresponding to the sectors of the intersection set from the reserved space, and directly operating the contents related to the sectors of the intersection set and needing the reading/writing operation according to the corresponding positions in the reserved space. In the method, the actual magnetic disk reading/writing operation is unnecessary, but the reserved space reading/writing operation is just performed, so that the reading/writing operation of the magnetic disk is reduced, and the booting speed of the system is increased.
+19. 101770515 Data block comparison based data updating method
+CN
+07.07.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010040010.X
+Hangzhou Shunwang Technology Co., Ltd.
+Cheng Chen
+G06F 17/30
+Loading...
+The invention provides a data block comparison based data updating method. The method comprises the following steps: (1) respectively dividing data in all versions into a plurality of data blocks, respectively extracting all documents in the data in each version and labeling map information of each data block against the data in each version; (2) establishing a corresponding index document against the data in each version; and (3) figuring out data blocks in the data in the previous version different from that in the data in the next version according to the attribute information of all documents and labeling map information in the index document in the next version when data are updated, and updating the data blocks. The data updating method greatly improves the speed of data updating by data division and specific updating algorithm, and further reduces load of a server by combining with an improved network download structure, and improves the performance of network transmission.
+20. 101727367 System reducing method capable of reserving refreshing data
+CN
+09.06.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201010040009.7
+Hangzhou Shunwang Technology Co., Ltd.
+Cheng Chen
+G06F 11/14
+Loading...
+The invention discloses a system reducing method capable of reserving refreshing data. The method comprises the following steps of: designating a reserved space for redirection in a disc; designating a first space for recording a correspondence relationship in the disc or a memory; generating a private interface for refreshing data; capturing the reading and writing operations of upper software to the disc; and respectively processing the captured reading and writing operations according to whether the captured reading and writing operations are initiated through the private interface or not. On the basis of the system reducing method of the prior art, one safe and controlled private interface is additionally arranged for the upper management program to use. When the method captures the information that the reading and writing operations to the disc are performed through the private interface, the reading and writing operations to the area are directly performed without redirection, and finally the reading and writing operations are completed through the private interface. When the system is restarted and reduced, the content written through a public interface is cleared off, but the content refreshed through the private interface is reserved.
+

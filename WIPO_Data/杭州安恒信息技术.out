@@ -1,0 +1,409 @@
+1. 103544012 一种数列相位差比较差别的方法
+CN
+26.04.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102013000508784
+杭州安恒信息技术有限公司
+王锦龙
+G06F 9/44
+Loading...
+本发明涉及一种数列相位差比较差别的方法，它由单位周期段游标的循环移动及计算，获得两个量化指标，通过对这两个量化指标的判定识别，最终获知两个数列之间的相位的差的方向是否与预计方向相同，并判别是否在预计的相位差范围（正向或者反向，相位偏差的单位周期数量范围为0到N）内，从而确认两个数列之间的相位关系是否符合预期相位差。人们根据此相位差的方向，以及是否在预计的相位差范围有判断，得出这两个数据是符合人们预计的关联关系。
+2. 106570400 一种云环境下通过自学习防攻击的系统及方法
+CN
+19.04.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201610887408.4
+杭州安恒信息技术有限公司
+胡冬
+G06F 21/56
+Loading...
+本发明涉及云安全管理技术，旨在提供一种云环境下通过自学习防攻击的系统及方法。该种云环境下通过自学习防攻击的系统包括管理端和监控端，管理端、监控端采用C/S架构，管理端部署在Server端，监控端部署在云环境中的各个主机中。本发明通过主机行为学习后形成行为规则库，极大地降低了云环境下主机防攻击的难度和复杂度，从而提升云环境下主机防攻击的效率；本发明能灵活调整行为规则库，极大地提高了云环境下主机防攻击的正确率。
+3. 104156665 一种网页篡改监测的方法
+CN
+01.02.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+102014000350025
+杭州安恒信息技术有限公司
+葛菲菲
+G06F 21/56
+Loading...
+本发明涉及信息安全技术领域，旨在提供一种网页篡改监测的方法。该种网页篡改监测的方法包括步骤：过滤标签项配置、敏感字项配置、定级项配置、文件变更配置、模板套用、爬取网页、形成基准、对比改动页面、网页截取、形成报告、产生告警。本发明通过策略配置进行篡改监测，可过滤了一些特殊网页标签，可临时针对特殊项目或者活动进行自定义过滤或自定义策略编辑，使得篡改监测更加精准更加灵活，让工作人员可以轻松地得到更加可信的篡改监测告警。
+4. 106250768 一种数据库对象脚本安全漏洞的行为检测方法
+CN
+21.12.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201610585405.5
+杭州安恒信息技术有限公司
+刘海卫
+G06F 21/57
+Loading...
+本发明涉及信息安全技术，旨在提供一种数据库对象脚本安全漏洞的行为检测方法。该种数据库对象脚本安全漏洞的行为检测方法包括下述步骤：将待检测数据库中的对象、表结构、部分表数据复制到测试数据库；获取测试数据库中所有用户编写的对象；用渗透参数库中的字符串作为传入参数，尝试执行测试数据库中所有有参数的对象；对象尝试调用后判断测试表中是否插入了测试数据，如果有说明该对象存在安全漏洞；列出有安全漏洞对象名、参数名和对应的渗透字符串，形成扫描报告输出。本发明能在不影响待检测数据库的前提下，通过渗透测试、行为分析，发现对象中SQL注入等危害比较大的安全漏洞。
+5. 106156348 一种数据库对象脚本危险操作的审计方法
+CN
+23.11.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000586138
+杭州安恒信息技术有限公司
+刘海卫
+G06F 17/30
+Loading...
+本发明涉及信息安全技术，旨在提供一种数据库对象脚本危险操作的审计方法。该种数据库对象脚本危险操作的审计方法包括下述步骤：扫描数据库的系统表，获取所有用户编写的数据库对象脚本；将危险操作关键字符表导入到内存中；对脚本根据对象类型、所属用户进行关键字智能匹配分析，判断是否有危险操作；将得出的危险操作结果，根据对象所属的用户和关键字进行危险等级判断，分等级列出有危险操作的脚本所在对象名和行号，形成扫描报告输出。本发明能快速自动发现数据库中所有用户编写的脚本里的危险操作，利用智能匹配以及用户对象识别技术降低漏报误报率；并且用户可以扩展危险操作的范围，自定义关键字。
+6. 106101071 一种基于行为触发的防御链路耗尽型CC攻击的方法
+CN
+09.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000369623
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及网络安全技术，旨在提供一种基于行为触发的防御链路耗尽型CC攻击的方法。该种基于行为触发的防御链路耗尽型CC攻击的方法包括步骤：统计攻击者对保护对象不同网站实例的访问次数，判断是否偏离预估值；对疑似IP组进行规则验证，若通过则疑似IP组中的所有IP被判定为链路耗尽型CC攻击并报警；对通过规则验证的IP组进行关联分析，对链路耗尽型CC攻击进行提前防御。本发明利用行为触发让服务器只在触发的时候进行链路耗尽型CC攻击的组规则验证，并且这些规则在有很强普适性的同时能在线性时间复杂度内被验证，最后通过关联分析使该方法有提前防御链路耗尽型CC攻击的功能。
+7. 105812349 一种基于身份信息的非对称密钥分发及消息加密方法
+CN
+27.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610036006.3
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及信息安全领域，旨在提供一种基于身份信息的非对称密钥分发及消息加密方法。该基于身份信息的非对称密钥分发及消息加密方法包括：企业管理员初始化以及用户注册过程、用户点对点进行通信过程、用户多对多进行通信过程。本发明能够更安全得分发用户个人密钥；能够分企业，分情况去构建密钥管理体系；能减少用户公钥管理数量，简便用户端的公钥体验；降低私钥被拦截，窃取的几率；增加了整个公钥系统的速度和操作可行性；增加了公钥系统对移动端或其他端的适配性；将对称加密体系和非对称加密体系结合使用在了认证与数据传输阶段。
+8. 105791301 一种面向多用户组群信密分离的密钥分发管理方法
+CN
+20.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000176138
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及信息安全领域，旨在提供一种面向多用户组群信密分离的密钥分发管理方法。该种面向多用户组群信密分离的密钥分发管理方法包括企业模块启用并初次密钥分发过程和用户通信过程，用于实现企业用户之间的加密通信。本发明能够更安全简便得分发用户个人密钥；能够分企业，分情况去构建密钥管理体系；能减少用户公钥管理数量，简便终端的公钥体验；降低密钥被拦截后被窃取的几率；增加了整个公钥系统的速度和操作可行性；增加了公钥系统对移动端或其他端的适配性；将对称加密体系和非对称加密体系结合使用在了认证与数据传输阶段。
+9. 105760274 一种动态激活与调整的日志解析方法和系统
+CN
+13.07.2016
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201610070844.2
+杭州安恒信息技术有限公司
+谈修竹
+G06F 11/30
+Loading...
+本发明公开了一种动态激活与调整的日志解析方法，包括如下步骤：A、解析规则列表定义；B、接收日志；C、步骤B得到的日志与激活的解析规则列表匹配；D、更新匹配规则信息；E、步骤B得到的日志与解析规则列表匹配；F、更新激活的解析规则列表；G、调整激活的解析规则列表。本发明能极大地降低日志解析的难度、复杂度。
+10. 205266093 一种应用于工控机平台的上架机构
+CN
+25.05.2016
+H05K 7/18 Loading...
+H05K 7/18
+Loading...
+201520805220.1
+杭州安恒信息技术有限公司
+范渊
+H05K 7/18
+Loading...
+本实用新型涉及工控机平台辅助设备，旨在提供一种应用于工控机平台的上架机构。该种应用于工控机平台的上架机构采用上架导轨和一字螺丝实现，上架导轨包括内支架和外支架，外支架与内支架利用一字螺丝连接组成上架导轨。本实用新型利用内支架的镶嵌口与工控机机箱实现安装固定，且内外支架安装完成后，导轨可直接嵌入机箱两侧的一字螺丝柱上面，该导轨可滑动，嵌入后导轨的前后分别有两个上架孔可通过上架螺丝安装到机架上面，方便快捷。
+11. 105306438 基于模糊粗糙集的网络安全态势评估方法
+CN
+03.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510593297.1
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及网络安全态势评估方法，旨在提供基于模糊粗糙集的网络安全态势评估方法。该基于模糊粗糙集的网络安全态势评估方法包括步骤：获取态势因子与态势等级，构成态势等级关于态势因子的决策表；对决策表中决策规则的态势因子进行属性约简，得到约简后的决策表，然后利用约简后的决策表，可通过KNN分类器对当前网络需要判断的数据进行决策，得到态势等级。本发明解决了粗糙集方法中实数连续属性需要离散化的问题，另一方面，采用规则聚合的方式，降低了模糊粗糙集方法的计算复杂度，同时，能提供良好的决策结果。
+12. 105141573 一种基于WEB访问合规性审计的安全防护方法和系统
+CN
+09.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510323671.6
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及网络安全防护技术领域，旨在提供一种基于WEB访问合规性审计的安全防护方法和系统。该种基于WEB访问合规性审计的安全防护方法包括下述步骤：主设备能对受保护的Web站点进行全路径自学习，再根据学习到的Web站点路径特征，生成完整的Web路径合规模型，当主设备接收来自客户端到Web站点的访问请求时，将该访问请求的信息记入记录表中，合规引擎利用Web路径合规模型，对访问请求进行分析与评估；该安全防护系统包括主设备和合规引擎。本发明能够对网站进行全路径审计，动态生成合规模型，从而对网络的不安全行为进行智能化评估与防御，规范用户的网络访问行为，并且有效减少攻击误判率。
+13. 105117645 基于文件系统过滤驱动实现沙箱虚拟机多样本运行的方法
+CN
+02.12.2015
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+201510455976.2
+杭州安恒信息技术有限公司
+李凯
+G06F 21/53
+Loading...
+本发明涉及恶意文件检测领域，旨在提供基于文件系统过滤驱动实现沙箱虚拟机多样本运行的方法。该方法包括步骤：沙箱虚拟机中的操作系统提供回调接口和开放式可疑文件的提交接口；在沙箱虚拟机的操作系统中，注册监控驱动；当沙箱虚拟机的操作系统开始模拟运行多个可疑文件时，为每个可疑文件分配专属桌面资源；可疑文件执行完成后，通过回调接口，返回捕获到的上述可疑文件的行为信息，并清理重定向的文件、注册表路径、内核对象目录，销毁所述可疑文件的专属桌面资源。本发明使多个样本可以在同一时间内互不干扰的进行检查，提升了对系统资源的利用率，也进一步提升了沙箱对可疑文件的检测效率。
+14. 105117648 一种基于虚拟机的0DAY/恶意文档检测系统及方法
+CN
+02.12.2015
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201510456001.1
+杭州安恒信息技术有限公司
+吴栋
+G06F 21/56
+Loading...
+本发明涉及软件漏洞检测与分析技术领域，旨在提供一种基于虚拟机的0DAY/恶意文档检测系统及方法。该种基于虚拟机的0DAY/恶意文档检测系统包括文档执行模块、Ring3虚拟机模块、Shellcode检测模块、Exception检测模块、ROP检测模块、日志模块，能动态检测加载在Ring3虚拟机上的文档进程；该检测方法包括步骤：加载所需检测文档的进程运行在Ring3虚拟机上，各检测模块进行实时检测，日志模块将检测结果保存到日志文件并判断该文档是否为恶意文档。本发明通过动态执行的方法进行检测，增加了检测的准确性，并且本发明能根据日志文件中记录的信息，对恶意文档进行快速有效的后续分析。
+15. 104200161 Method for achieving intelligent sandbox file detection and intelligent sandbox detection system based on method
+CN
+10.12.2014
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201410381591.1
+杭州安恒信息技术有限公司
+李凯
+G06F 21/56
+Loading...
+The invention relates to the field of malicious code detection, and provides a method for achieving intelligent sandbox file detection and an intelligent sandbox detection system based on the method. The method for achieving intelligent sandbox file detection includes the steps that when a sandbox conducts file behavior detection, after a detected file is submitted to the sandbox and operated, a detection module calls the detected file, the operating behavior of a program is monitored through an API HOOK module, and meanwhile the operating condition of the detected file in the real environment is fully restored through an intelligent simulation module of the detection module. Manual operation simulation is achieved through the proprietary program, and the problem that in the current dynamic behavior analysis process, the program operating trajectory cannot be completely restored, so that malicious acts fail to be reported is solved. The problem of anti-virtualization operation of the detected file in the file detecting process is solved through the API HOOK hijacking technology.
+16. 104009983 Detection method and system for CC attack
+CN
+27.08.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410205916.0
+杭州安恒信息技术有限公司
+郭晓
+H04L 29/06
+Loading...
+The invention relates to a network security technology and aims to provide a detection method and system for a CC attack. The detection method for the CC attack includes the steps that a request for getting access to a web page by a request IP is received, statistics are performed on the request rate of the request IP, the concentration ratio of the request is calculated, statistics are performed on the concentration request count, for the requested web page, of the request IP, and whether the request IP is the CC attack or not is judged according to the threshold value of the number of times of requests; the detection system for the CC attack comprises a request rate counting device, a concentration ratio calculation device, a concentration request count calculation device, a recording device for all numerical values of the request and a CC attack judging device. The detection method and system have the advantages of being sensitive and accurate and can be used for effectively detecting a distributed CC attack mode.
+17. 103973797 Method for conducting requests through Session
+CN
+06.08.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410200631.8
+公安部第一研究所
+李超
+H04L 29/08
+Loading...
+The invention discloses a method for conducting requests through a Session. The method mainly comprises the step that the mechanism of action of the Session is utilized, Session data in HTTP requests are analyzed, in this way, all the HTTP requests belonging to the same session cycle are found, and the method aims to solve the critical technical problem of accessing Session data of a service system in an auditing service solution of an application layer of an OSI seven-layer framework. According to the method for conducting the requests through the Session, the massive and complex HTTP requests large in quantity can be linked and combed into sessions, each session can have clear and specific related HTTP requests, in this way, the affiliation, the relevance, the time sequence, the request response and other various relations between all the sessions and all the HTTP requests can be mastered to be absolutely clear at one glance in the numerous HTTP requests like a data ocean by an auditing system, and thus the comprehensive auditing can be conducted from all angles by the auditing system.
+18. 103729405 Method for determining corresponding relation between affair flow channels according to time slice distribution data
+CN
+16.04.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310656760.3
+杭州安恒信息技术有限公司
+王锦龙
+G06F 17/30
+Loading...
+The invention relates to the field of correlation audit and aims to provide a method for determining the corresponding relation between affair flow channels according to time slice distribution data. The method for determining the corresponding relation between the affair flow channels according to the time slice distribution data includes the steps that first, when each affair passes through the flow channel of the stage PA and the flow channel of the stage PB, generated behavior event records are automatically collected, wherein the behavior event records include records of serial numbers, generation time, behavior classification characteristics and behavior occurrence time; then, according to the collected behavior event records, the formal corresponding relation between the flow channel of the stage PA and the flow channel of the stage PB is obtained. The method solves the problem caused when a work procedure model needs to be constructed reversely under the condition that the corresponding relation between the flow channels of the prior and posterior stages cannot be foreknown in the correlation audit, the audit in the single link is improved to be the audit in the whole work procedure, and a technical basis is established for development and promotion of the audit service.
+19. 103729546 Method for contrastively analyzing level of similarity through broken line deviation variance accumulation
+CN
+16.04.2014
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201310656486.X
+杭州安恒信息技术有限公司
+王锦龙
+G06Q 30/02
+Loading...
+The invention relates to the field of behavior correlation analysis businesses, and aims to provide a method for contrastively analyzing the level of similarity through broken line deviation variance accumulation. A broken line diagram is automatically generated according to data information in the behavior correlation analysis businesses. The method includes the steps that firstly, data information is extracted from a behavior correlation analysis business database according to the requirements of the behavior correlation analysis businesses and the data distribution characteristics of different behaviors, and the broken line diagraph is automatically generated based on the data information; then the level of similarity of quantified indexes of the coupling degree and the degree of deviation can be acquired by analyzing the coupling degree and the degree of deviation of two broken lines. The method can be applied to the behavior correlation analysis businesses, the broken line diagraph acquired through data summarization is further contrastively analyzed according to the data distribution characteristics of different behaviors, and then the quantifiable level of similarity and evaluation indexes of the degree of deviation can be acquired. Certainly, the method can be applied to more fields and has more analysis purposes.
+20. 103699480 一种基于JAVA的WEB动态安全漏洞检测方法
+CN
+02.04.2014
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201310631280.1
+杭州安恒信息技术有限公司
+吴卓群
+G06F 11/36
+Loading...
+本发明涉及WEB应用安全测试，旨在提供一种基于JAVA的WEB动态安全漏洞检测方法。该种基于JAVA的WEB动态安全漏洞检测方法，对WEB应用系统进行安全漏洞检测，包括步骤：修改JAVA中间件、进行fuzzing测试和动态漏洞跟踪。本发明能快速地发现更多的WEB安全漏洞问题；能覆盖黑盒测试的安全漏洞范围，并发现更多的深层次WEB安全问题；能降低白盒测试中高成本的问题；能准确定位漏洞代码的具体位置；可以保证检测过程中更低的漏报率和误报率。
+21. 103513991 Method for establishing bi-directional mapping among sequences under condition of difference limitation
+CN
+15.01.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310492005.6
+杭州安恒信息技术有限公司
+王锦龙
+G06F 9/44
+Loading...
+The invention relates to a method for establishing bi-directional mapping among sequences under the condition of difference limitation. According to the method for establishing bi-directional mapping among sequences under the condition of difference limitation, two groups of discrete data are arranged into two sequences from small to large respectively, the two sequences are stored in two comparison modules, are pointed in sequence and compared through data item vernier variable modules CurX and CurY, if two data which meet the condition of difference limitation and are respectively located in the two sequences exist, a bi-directional mapping relation is established and stored, finally data items with the bi-directional mapping relation in the two sequences are counted, and therefore the purposes of discovering the relevance and similarity of the two groups of data are achieved.
+22. 103473458 Method for comparatively analyzing similarities of fold lines
+CN
+25.12.2013
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201310420053.4
+杭州安恒信息技术有限公司
+王锦龙
+G06F 19/00
+Loading...
+The invention relates to a method for comparatively analyzing similarities of fold lines. Deviation and coupling degrees are indicated through quantitative indexes, and the similarities of a plurality of fold lines can be compared through the quantitative indexes. The method is mainly characterized in that direct deviation and square deviation can be accumulated through summarized fold lines obtained by sectional summarizing for X axes of the fold lines and are compared with reference values of direct deviation and square deviation to obtain percent quantitative indexes, so that the similarities of the fold lines are indicated through the quantitative indexes.
+23. 203261353 一种网站备案检测系统
+CN
+30.10.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201320228844.2
+杭州安恒信息技术有限公司
+范渊
+H04L 12/26
+Loading...
+本实用新型涉及一种网站备案检测系统，它包括带有网卡的备案数据采集器和带有网卡的网站数据采集器，所述的备案数据采集器由硬盘、CPU、内存和主板构成，所述的网站数据采集器由CPU、内存、主板构成，所述的备案数据采集器和网站数据采集器的网卡均与一个与互联网相连的路由器相连，该路由器与一个PC客户端相连。本实用新型具有能够高效、及时的对网站备案进行甄别和监管的特点。
+24. 203191974 一种将普通计算机用于网络安全服务器的转接器
+CN
+11.09.2013
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201320169713.1
+杭州安恒信息技术有限公司
+吴永超
+G06F 13/40
+Loading...
+本实用新型涉及一种将普通计算机用于网络安全服务器的转接器，它包括用于连接主板PCI-E接口的主板端接口转换板，该主板端接口转换板的信号输出端为高速信号传输接口，并通过该高速信号传输接口与一个高速信号传输线相连，所述的高速信号传输线的另一端通过作为信号输出端的高速信号传输接口与一个网卡端接口转换板相连，该网卡端接口转换板设有PCI-E接口。它具有能够将PCI-E接口进行转接，并进行长距离传输，使得可以在机箱外连接网卡，实现将普通计算机用于网络安全服务器的转接器的特点。
+25. 103258021 一种基于行为分析的字符终端特征数据提取方法
+CN
+21.08.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310160791.X
+杭州安恒信息技术有限公司
+刘韬
+G06F 17/30
+Loading...
+本发明涉及信息安全、数据挖掘以及数据审计，旨在提供一种基于行为分析的字符终端特征数据提取方法。该方法是通过网络监控获取用户的客户端与主机交互过程中产生的数据，通过终端模拟对数据进行分析，还原客户端与主机之间的交互过程，再根据客户端使用过程中人机直接交互的行为规则进一步提取出所需内容。本发明很好地解决了使用自动化工具分析网络字符终端设备数据流时准确性、高效性与适用性不能兼顾的问题，并提供了一种灵活的，可持续改进的逻辑系统，从而具有广阔的应用空间。
+26. 202904447 一种应用于工控机平台的防拆机构
+CN
+24.04.2013
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201220522988.4
+杭州安恒信息技术有限公司
+范渊
+G06F 1/16
+Loading...
+本实用新型涉及计算机设备的防拆机构，旨在提供一种应用于工控机平台的防拆机构。该防拆机构包括易碎标签、设置于工控机机箱内部的卡口和锁片，卡口设置于工控机机箱的上盖，锁片设置于工控机机箱的侧面，卡口和锁片上各有一个大小相同的锁孔，工控机机箱上有一个略大于所述锁孔的孔洞，且在工控机机箱上盖固定在机箱上后，卡口和锁片上的锁孔以及机箱上的孔洞都对齐；所述防拆机构还包括用于锁紧两个对齐的锁孔的螺钉。本实用新型具有易碎标签、锁孔深入机箱内部、螺钉需要使用对应异形螺纹的螺丝刀头才能打开的三道防拆防线，对所使用的产品起到了防拆作用。
+27. 102880701 Method and system for detecting database kernel invasion hidden object
+CN
+16.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210358257.5
+杭州安恒信息技术有限公司
+范渊
+G06F 17/30
+Loading...
+The invention relates to the technical field of information security, and aims to provide a method and a system for detecting a database kernel invasion hidden object. The method comprises the following steps of: acquiring a database object list in a normal way, and acquiring another database object list through a bottom layer method; comparing the object list acquired in the normal way with the object list acquired through the bottom layer method, and finding out the database object list which cannot be acquired in the normal way, namely a hidden object list; and generating a scanning report, and supplying the hidden object list to a user. According to the method, the database object list acquired in the normal way is compared with the database object list acquired through the bottom layer method, so that database objects hidden by a hacker after a database is invaded can be found; and the detail scanning report is supplied, so that a database manager can timely repair the database and eliminate the potential security hazard of the database.
+28. 102867062 Detection method and system for invading hidden user of database kernel
+CN
+09.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210359074.5
+杭州安恒信息技术有限公司
+范渊
+G06F 17/30
+Loading...
+The invention relates to the technical field of information security, aiming at providing a detection method and a detection system for an invading hidden user of a database kernel. The method comprises the following steps of: obtaining a database user list by a normal way, and obtaining a database user list by a bottom method; contracting the database user list obtained by the normal way and the database user list obtained by the bottom method, and finding out the database user list which is not obtained by the normal way, wherein the database user list which is not obtained by the normal way is a hidden user list; and then, generating a scan report, providing the hidden user list for users which use the detection system. In the invention, the database users hidden by Hacker after a database is invaded can be found through contracting the database user list obtained by the normal way and the database user list obtained by the bottom method, and the detailed scan report is provided, so that database administrators can timely repair the database to remove potential safety hazards of the database.
+29. 102521536 数据库内核对象入侵检测方法及系统
+CN
+27.06.2012
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201110401023.X
+杭州安恒信息技术有限公司
+范渊
+G06F 21/57
+Loading...
+本发明涉及信息安全技术领域，旨在提供一种数据库内核对象入侵检测方法及系统。该方法是根据数据库在各种环境下的初始内核对象生成不同的基线特征库，扫描时通过基线特征库判断当前数据库系统内核是否遭到入侵篡改，并给出相应的扫描报告，提醒数据库管理员及时修复被入侵篡改的数据库系统。该系统包括扫描模块和对比模块；扫描模块连接至数据库，对比模块与基线特征库和扫描模块相连。本发明基于基线特征库，通过基线特征库对用户数据库进行扫描检测，能够发现被篡改的数据库内核对象，并提供详细的扫描报告，使数据库管理员能及时排除数据库安全隐患。
+30. 102446227 一种交互式半自动化安全事故追溯方法与系统
+CN
+09.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210013693.9
+杭州安恒信息技术有限公司
+范渊
+G06F 17/30
+Loading...
+本发明涉及计算机应用安全管理技术，旨在提供一种交互式半自动化安全事故追溯方法。包括如下步骤：根据发生的事故读取对应的事故追溯流程的全部案例；根据案例的定义进行交互式用户输入读取，作为提供的动态条件，结合案例定义的固定条件，通过检索得到事件列表；遍历可疑事件列表，进行交互式用户核实，让用户对可疑事件与安全事故是否有关逐一进行确认，如果可疑事件与安全事故有关，则标记的可疑事件即为事故原因。本发明降低了安全管理的技术障碍和门槛，极大的降低了安全管理的成本和响应时间；交互式确认误判率非常低，使得取证结果具有很高的可信度；能够实现快速、标准化的事故发生后的处置响应案例。
+31. 102447708 一种应用层透明代理技术的通信实现方法
+CN
+09.05.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210012058.9
+杭州安恒信息技术有限公司
+范渊
+H04L 29/06
+Loading...
+本发明涉及网络通信转发技术，旨在提供一种应用层透明代理技术的通信实现方法。该方法中，代理服务将客户端或服务端的IP地址作为源IP地址进行本地绑定，通过TCP/IP协议栈向服务端或客户端发送连接建立请求；数据链路层将数据回应包转向代理定向关联模块处理并由其关联到代理服务所发出连接请求的连接进行关联处理，据此，实现客户端与代理服务的通信实现或代理服务与服务端的通信实现。在透明代理技术模型下，透明代理只需要关注需要提供代理服务的应用层业务，如只服务FTP，则其他服务可以通过网络二层透明转发的方式到达服务端，透明代理只处理FTP的透明代理转发；极大的满足了业务相关处理的灵活性，更体现了透明代理服务方式的独立性与先进性。
+32. 102184222 Quick searching method in large data volume storage
+CN
+14.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110116710.7
+DBAPPSecurity Technology Co., Ltd.
+Fan Yuan
+G06F 17/30
+Loading...
+The invention relates to the technical field of database audit, and aims at providing a quick searching method in a large data volume storage. The method comprises the steps of: storing audit records by using a relational database, wherein each record has a unique ID (identification), and a frequently-used searching character is used as a field; obtaining the audit records and storing through a protocol analyzing module; monitoring the audit record storing condition by using an independent full-text index engine, building a full-text index for the newly-stored audit records, and progressively building and maintaining a current index, a unit hour index and a unit day index; and searching by using the full-text index and adopting the searching character as a keyword, obtaining a main ID set of the audio records according with the characteristics, and obtaining complete information of all audit records according with the searching characteristics through the main ID set. In the invention, searching attributes are needed to be added for the searching characteristics in a process of establishing the full-text index, and the cost of the full-text index file is smaller than that of the storage of the audio records. Storage capacity and searching performance of a database audio system are greatly improved.
+33. 101631122 Method for improving TDS protocol analysis accuracy in packet-losing environment
+CN
+20.01.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910101388.3
+Hangzhou DBAPPSecurity Co., Ltd.
+Fan Yuan
+H04L 29/06
+Loading...
+The invention relates to a method for improving TDS protocol analysis accuracy in a packet-losing environment. The method comprises the following steps: after receiving application data finishing TCP message recombination, a TDS protocol analysis module recognizes the generation of the packet-losing condition by extracting a TDS message header in the application data and analyzing the validity of the TDS message header; after the packet-losing condition is generated and recognized, whether following generated application data are subject to the previous transport service data unit (TDU) is judged by the characteristics of TDS half-duplex communication, thereby ensuring that the application data subject to the TDU are accurately and completely received and then concrete protocol analysis is carried out on the application data under the condition of unavailable correct assembly according to a TDS protocol when the application data in the TDU lose, and improving the accuracy of TDS protocol analysis.
+34. 101370008 System for real-time intrusion detection of SQL injection WEB attacks
+CN
+18.02.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810002168.0
+Dbappsecurity Co.,ltd.
+Fan Yuan
+H04L 29/06
+Loading...
+The present invention relates to a real time intrusion detection system for detecting SQL injection Web aggression, including a method for providing learning normal database and Web application standard query statement (SQL) query data for a Website; a method for capturing real time database and Web application SQL query data for a Website; a method for detecting typical SQL injection aggression based on the normal database and Web application standard query statement (SQL) query data, as well as the real time database and Web application SQL query data. The beneficial effects of the present invention are that the invention can not only detect common SQL injection aggression, also has low alarm by mistake and high detection rate and the like.
+

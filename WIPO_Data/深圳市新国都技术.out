@@ -1,0 +1,1717 @@
+1. 106570427 一种Flash加密存储方法及装置
+CN
+19.04.2017
+G06F 21/79 Loading...
+G06F 21/79
+Loading...
+201610987767.7
+深圳市新国都支付技术有限公司
+刘志平
+G06F 21/79
+Loading...
+本发明公开了一种Flash加密存储方法及装置，所述方法包括：步骤A、获取设备唯一ID，并根据设备唯一ＩＤ生成Flash字节交换位置(i,j)和加密密钥K；步骤Ｂ、将一页数据中i,j位置的数据进行加密后进行交换，然后再存入Flash。所述装置包括：密钥生产单元和加密运算单元。本发明通过设备唯一ID生成一组字节交换位置(i,j)和密钥(K)，将一页数据中i,j位置的数据进行加密后进行交换，由于每台机器的设备唯一ID不同，这就保证了生成的交换字节位置和密钥不同，这就保证了每台机器的加密数据都是一机一密的。本发明作为一种Flash加密存储方法及装置广泛适用于存储设备的信息安全技术领域。
+2. 106570993 一种提升矩阵键盘安全性的方法、装置和键盘
+CN
+19.04.2017
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201610918945.0
+深圳市新国都支付技术有限公司
+霍耀光
+G07G 1/00
+Loading...
+本发明公开了一种提升矩阵键盘安全性的方法、装置和键盘，该方法包括设置随机模块，所述随机模块用于获取矩阵键盘引脚的信号变化，记录该信号变化发生时间，基于该发生时间读取并输出一扫描顺序指令，基于该扫描顺序指令驱动用于扫描矩形键盘引脚的处理单元变更扫描顺序。该装置用于执行对应方法。该键盘基于上述的方法。本发明基于键盘引脚变化的时间的随机性，通过哈希算法得到一个哈希值，根据该哈希值载入一个预设的扫描顺序，利用扫描顺序的时间差异性，使键盘操作的电磁辐射变化以避免被固化和逆运算得出，有利于提高键盘的输入的安全性。
+3. 206038839 一种LED灯检测系统
+CN
+22.03.2017
+G01R 31/26 Loading...
+G01R 31/26
+Loading...
+201620925996.1
+深圳市新国都支付技术有限公司
+邱诗照
+G01R 31/26
+Loading...
+本实用新型公开了一种LED灯检测系统，所述LED灯检测系统包括电源、待检测LED灯、与待检测LED灯颜色一致的颜色滤光片、光敏传感器和检测结果指示电路；所述光敏传感器与检测结果指示电路连接，所述电源为待检测LED灯与光敏传感器供电，所述待检测LED灯通电后，发出的光透过颜色滤光片投射在光敏传感器上。本实用新型一种LED灯检测系统通过颜色滤光片、光敏传感器和检测结果指示电路能够自动判断LED灯的好坏，保护眼睛，提高LED灯检测效率。本实用新型作为一种LED灯检测系统，可广泛应用于LED灯照明领域。
+4. 206039744 磁头线圈信号保护系统、带磁头线圈信号保护系统的POS机
+CN
+22.03.2017
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201620925997.6
+深圳市新国都支付技术有限公司
+邱诗照
+G07G 1/12
+Loading...
+本实用新型公开了一种磁头线圈信号保护系统，包括贴片插座和磁头信息处理电路板，贴片插座的引脚焊接在磁头信息处理电路板上，磁头线圈的引脚通过插入贴片插座的插孔与磁头信息处理电路板连接；还公开了一种带磁头线圈信号保护系统的POS机，POS机设有磁头线圈信号保护系统。本实用新型中一种磁头线圈信号保护系统保证磁头线圈的引脚不外露，确保磁头线圈的引脚信号不被窃取，提高磁头线圈信号的安全性；本实用新型中一种带磁头线圈信号保护系统的POS机，POS设置有磁头线圈信号保护系统，确保磁头线圈的信号安全，保证磁卡信息安全。本实用新型作为一种磁头线圈信号保护系统、带磁头线圈信号保护系统的POS机，可广泛应用于磁卡信息保护领域。
+5. 106506445 一种APK权限管理方法、装置和系统
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000839150
+深圳市新国都支付技术有限公司
+唐朝
+H04L 29/06
+Loading...
+本发明公开了一种APK权限管理方法、装置和系统，该方法包括：为Android系统增加Hal层管理模块，所述Hal层管理模块用于获取APK注册的申请权限信息并基于申请权限信息控制APK对Hal层接口的访问。该装置执行对应方法。该系统为能实现对应方法的系统。本发明通过增加一个Hal层管理模块，获取APK的申请的访问权限，通过监视进程获取APK的访问操作，基于申请的访问权限判断并处理访问操作，能够在Hal层上实现对APK的监控，防止APK越过framework层进行访问，能够增加Android系统的防护能力。
+6. 205987235 摄像头喇叭出音装置
+CN
+22.02.2017
+H04R 1/02 Loading...
+H04R 1/02
+Loading...
+202016000815587
+深圳市新国都技术股份有限公司
+谢宝锋
+H04R 1/02
+Loading...
+本实用新型公开了一种摄像头喇叭出音装置，包括壳体和支撑架，支撑架包括第一支架和第二支架，第一支架通过设有的第一转轴与壳体旋转连接，第二支架通过设有的第二转轴与壳体旋转连接；壳体内固定有圆形的喇叭，喇叭靠近第一转轴且第一转轴的轴线位于喇叭的偏心处，壳体设有环绕第一转轴的若干出音孔，且出音孔与圆形的喇叭边缘对齐。它的优点是喇叭发出的人耳最敏感音频位置与出音孔对齐，在相同音频效果的情况小可以减少出音孔的数量，因此可减少外部水汽或粉尘与喇叭接触的可能性；第一支架覆盖出音孔，可进一步减少外部水汽或粉尘与喇叭接触的可能性。
+7. 205987085 摄像头红外灯装置
+CN
+22.02.2017
+H04N 5/225 Loading...
+H04N 5/225
+Loading...
+202016000820183
+深圳市新国都技术股份有限公司
+GREEN DARREN
+H04N 5/225
+Loading...
+本实用新型公开了一种摄像头红外灯装置，包括壳体，与壳体可拆卸连接的透镜，固定于壳体内的电路板以及与电路板电连接的红外灯珠；还包括固定于壳体内的安装台，安装台的中心贯穿有用于安装摄像头的安装孔，红外灯珠固定于安装台的倾斜面使得红外灯珠发出的光线由安装台中心向外发射。它的优点是红外灯珠发出的光线由安装台中心向外发射，因此摄像头拍摄安装台中心以外的画面均匀清晰；结构简单，安装方便。
+8. 205984726 内嵌智能开关盒
+CN
+22.02.2017
+H01H 13/02 Loading...
+H01H 13/02
+Loading...
+202016000815586
+深圳市新国都技术股份有限公司
+谢宝锋
+H01H 13/02
+Loading...
+本实用新型公开了一种内嵌智能开关盒，包括壳体以及盖于壳体正面的前面板，前面板上设置有开关按钮，壳体内设有第一开关电路，第二开关电路和通信电路，开关按钮与第一开关电路电连接用于控制第一开关电路的开和关，第二开关电路分别与第一开关电路和通信电路电连接，通信电路用于与其它设备或其它内嵌智能开关盒通信，实现信息的读取、发送或接收，在内嵌智能开关盒的工作状态信息发生变化时将变化的工作状态信息发送给第二开关电路或其它内嵌智能开关盒。它的优点是随时随地对家电进行管理，实现家电智能管理；由于通信电路设置于壳体内，可有效防止外界水汽和风尘与通信电路接触，提高了内嵌智能开关盒的使用寿命。
+9. 205979039 摄像头水平方向角度调节装置
+CN
+22.02.2017
+F16M 11/08 Loading...
+F16M 11/08
+Loading...
+202016000815588
+深圳市新国都技术股份有限公司
+LI PENG
+F16M 11/08
+Loading...
+本实用新型公开了一种摄像头水平方向角度调节装置，包括壳体，用于支撑壳体的支撑座以及固定座；支撑座内设有与固定座相互吸引的第一磁性件，支撑座与固定座相向的端面设有第一锯齿部，固定座与支撑座相向的端面设有与第一锯齿部对应的第二锯齿部。它的优点是第一磁性件使得支撑座与固定座处于相互吸引状态，在外力作用下，壳体和支撑座可相对固定座水平旋转，当除去外力时，第一锯齿部与第二锯齿部相互啮合，防止了支撑座与固定座相对旋转；结构简单，旋转方便。
+10. 106374910 一种功能模块的上、下电和放电控制电路和方法
+CN
+01.02.2017
+H03K 19/0185 Loading...
+H03K 19/0185
+Loading...
+102016000877130
+深圳市新国都支付技术有限公司
+陈龙
+H03K 19/0185
+Loading...
+本发明公开了一种功能模块的上、下电和放电控制电路，用于对功能模块进行上下电和放电，包括控制端、电源、上下电电路和放电电路；还公开一种功能模块的上、下电和放电控制方法，应用于所述的功能模块的上、下电和放电控制电路，所述功能模块的上、下电和放电控制方法通过控制上下电电路和放电电路分时工作实现功能模块的上、下电和放电。本发明中一种功能模块的上、下电和放电控制电路和方法，利用一个控制端控制上下电电路和放电电路的通断，不仅实现了对功能模块的上下电和放电控制，而且节省了控制器的控制I/O口的数量，简化电路连线。本发明作为一种功能模块的上、下电和放电控制电路和方法，可广泛应用于功能模块的电能控制领域。
+11. 106372503 增强APK应用权限配置灵活性的方法、装置和系统
+CN
+01.02.2017
+G06F 21/54 Loading...
+G06F 21/54
+Loading...
+102016000809974
+深圳市新国都支付技术有限公司
+李泽锦
+G06F 21/54
+Loading...
+本发明公开了一种增强SEAndroid系统APK应用权限配置灵活性的方法、装置和系统，该方法包括S1、为SEAndroid系统增加应用权限子单元，用于接收、存储签名证书并修改应用权限；S2、接收APK的安装申请，生成应用权限修改指令；S3、基于应用权限修改指令修改应用权限。该装置用于执行对应方法。该系统能实现对应方法。本发明通过给现有的SEAndroid系统增加一个应用权限子单元，将原本SEAndroid系统执行的将各个客户的公私钥结合进入系统，然后根据该公私钥对APK开放对应的访问权限更改为提供一个通用的系统和存储有验证信息的子单元，根据APK验证结果再进行访问权限的修改，可以显著降低系统开发费用，提升APK安装的控制能力。
+12. 106355081 一种安卓程序启动校验方法和装置
+CN
+25.01.2017
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+102016000812207
+深圳市新国都支付技术有限公司
+李泽锦
+G06F 21/51
+Loading...
+本发明公开了一种安卓程序启动校验方法和装置，该方法包括以下步骤：S1、安装APK文件包并生成应用程序；S2、设置用于检校所述应用程序的检校单元，该检校单元还用于管理针对所述应用程序的访问权限；S3、检测应用程序的启动信号，启动检校单元并对应用程序进行检校，检校通过则启动应用程序。该装置用于执行对应的方法。该本发明为在APK安装之后，对安装完成的安卓程序进行再次的验证，通过程序完整性的验证，使得安装完成之后程序的安全性得到提升，避免因为木马或者不良连接等因素造成的安卓程序的修改导致的用户的损失，提高用户的安全性。
+13. 106331958 一种回音消除方法及装置
+CN
+11.01.2017
+H04R 3/02 Loading...
+H04R 3/02
+Loading...
+201610738218.6
+深圳市新国都支付技术有限公司
+刘祥洪
+H04R 3/02
+Loading...
+本发明公开了一种回音消除方法及装置，本发明通过麦克风在采集需要采集的信号的过程中采集最大的回音干扰就是到听筒发出的声音，本发明通过在所述语音录放设备初次上电时，扬声器发射一个标准声脉冲，通过麦克风检测接收到标准脉冲时的相位差δt1和幅值变化率a；所述语音通信设备在录放过程中，检测扬声器输出音频脉冲，并对输出音频脉冲Ｘ（ｔ）进行相位差δt1和幅值变化率a的转换得到回音音频脉冲，对麦克风采集的音频脉冲滤除回音音频冲，大大消除了语音录放设备在录音过程中的回音干扰，提高了语音录音质量。本发明作为一种回音消除方法及装置，广泛适用于语音录放技术领域。
+14. 106331623 一种安防摄像机、安防通信系统及其方法
+CN
+11.01.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201610736744.9
+深圳市新国都支付技术有限公司
+刘祥洪
+H04N 7/18
+Loading...
+本发明公开了一种安防摄像机包括主控模块、通信模块、WIFI热点模块、摄像头、存储模块、电源和无线充电模块；还公开一种安防通信系统，包括云服务器、移动终端和安防摄像机；还公开一种安防通信方法，应用于安防通信系统。本发明中一种安防摄像机可提供一个网络供其他上网设备进行联网；还可实现安防摄像机的移动使用和无线充电；本发明中一种安防通信系统中移动终端通过安防摄像机与云服务器连接实现实时监控，移动终端通过安防摄像机建立的热点网络实现联网；本发明中一种安防通信方法，通过数据的优先级高低决定数据的传输顺序，保障重要数据的优先传输。本发明作为一种安防摄像机、安防通信系统及其方法，可广泛应用于摄像机以及通信领域。
+15. 106297222 一种无线商铺管理系统和装置
+CN
+04.01.2017
+G08B 25/10 Loading...
+G08B 25/10
+Loading...
+201610716910.9
+深圳市新国都支付技术有限公司
+罗国齐
+G08B 25/10
+Loading...
+本发明公开了一种无线商铺管理系统和装置，该系统包括：安全监控模块、交互模块和管理模块；其中，所述安全监控模块包括摄像设备和报警设备；所述交互模块包括用于接收客户交互数据的接收单元和用于提供应对服务的发送单元；所述管理模块包括用于管理安全监控模块、交互模块和管理模块的设备管理单元，还包括用于处理系统数据的外部云端服务器。该装置为具有Zigbee模块与WIFI模块的摄像机装置。本发明通过无线手段集合了各种防火防盗设备、完善客户与商铺之间交互的设备，增加客户信息管理设备，建立一个能实现无线商铺管理的系统，能有效降低人力成本，同时提供一个现代与舒适的购物环境以满足客户的需求。
+16. 106303352 一种家庭视频通话装置、系统及方法
+CN
+04.01.2017
+H04N 7/14 Loading...
+H04N 7/14
+Loading...
+201610670040.6
+深圳市新国都支付技术有限公司
+刘祥洪
+H04N 7/14
+Loading...
+本发明公开了一种家庭视频通话装置、系统及方法，本发明的家庭视频通话装置通过通过自动旋转摄像头摄像采集视频信息，通过麦克风采集音频信息，通过与路由器连接接收\传输音视频数据，通过通过HDMI接口与智能电视连接实现音\视频数据传输，本发明通过智能终端、家庭视频通话装置、智能电视路由器的互联，利用智能电视显示高清音视频流，可通过智能终端控制对方摄像头，可根据客户需求任意调整摄像的视角，从而大大提高了客户的体验性和易用性。本发明作为一种家庭视频通话装置、系统及方法，广泛适用于智能家居领域。
+17. 106203257 一种可识别标识的方法和系统
+CN
+07.12.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016000477912
+深圳市新国都支付技术有限公司
+刘祥洪
+G06K 9/00
+Loading...
+本发明公开了一种可识别标识的方法，包括以下步骤：利用摄像头识别并采集预识别标识的多个分区的信息；计算所述预识别标识与摄像头的空间位置关系；分别计算所述标识划分的各区的面积，并根据预识别标识与摄像头的空间位置关系进行偏差计算；根据所得偏差的量级与所述标识的空间位置关系判定所述标识是否为目标标识。一种可识别标识的系统，包括：定位模块，空间位置计算模块，面积偏差计算模块及识别模块，根据所得偏差的量级与所述标识的空间位置关系判定所述标识是否为目标标识，十分方便快速，准确率较高。广泛应用于定位识别技术领域。
+18. 106154925 高性能智能开关控制系统及其方法
+CN
+23.11.2016
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+102016000649683
+深圳市新国都技术股份有限公司
+黄学佳
+G05B 19/042
+Loading...
+本发明涉及高性能智能开关控制系统及其方法，该系统包括输出电路、MCU及采样电路，采样电路包括与输入电源连接的电压检测电路及电流检测电路，电压检测电路的输出端与MCU连接，电流检测电路的输出端与MCU连接，输出电路包括继电器电路及可控硅电路，继电器电路的输入端及可控硅电路的输入端分别与MCU连接，继电器电路及可控硅电路的输出端分别连接有负载，可控硅电路与继电器电路并联。本发明利用电流检测电路及电压检测电路检测输入电源的电信号，负载开始工作时，先打开输出电路的可控硅电路，直至检测电流稳定后，打开继电器电路，电流通过继电器电路供给负载，实现启动设备时浪涌电流小，避免继电器寿命与可控硅发热问题，提高继电器的使用寿命。
+19. 106154860 一种智能开关及应用该智能开关的智能家居系统
+CN
+23.11.2016
+G05B 15/02 Loading...
+G05B 15/02
+Loading...
+102016000740775
+深圳市新国都支付技术有限公司
+刘祥洪
+G05B 15/02
+Loading...
+本发明公开了一种智能开关及应用该智能开关的智能家居系统，所述智能开关设有主控芯片、继电器、wifi通信模块、AC‑DC电源模块、声音采集模块以及音频播放模块，所述智能家居系统，设有智能开关、云服务器、家用电器和移动终端，通过智能开关、云服务器、家用电器和移动终端的通信连接，实现了声源定位、立体声播放、声道切换、语音识别控制等功能，本发明实现了智能开关的多元化控制，实现了智能家居功能多样化，使用户生活更加方便、舒适。本发明作为一种智能开关及应用该智能开关的智能家居系统，广泛适用于智能家居技术领域。
+20. 105979153 一种昼夜模式识别与切换的方法和系统
+CN
+28.09.2016
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+102016000489521
+深圳市新国都支付技术有限公司
+刘祥洪
+H04N 5/232
+Loading...
+本发明公开了一种昼夜模式识别与切换的方法，包括以下步骤：多次采集并记录监控区域的周期T的照度值；对采集到的照度值进行数据处理，得到多个时间-照度曲线；对所得多个时间-照度曲线进行分析以确定是否调整拍摄模式。一种昼夜模式识别与切换的系统，包括存储程序的存储器和一处理器，所述处理器运行所述程序以执行所述的方法，通过对采集的照度值进行曲线处理，使得该识别不因干扰光源的出现而产生误判，能准确判断黑天与白天切换；解决了监控产品中切换误判断率高、可靠性与稳定性低等技术难题，具有高可靠性、智能化等优点，有利于在我国交通、安防、工业生产等领域推广。广泛应用于安防监控领域。
+21. 205523117 一种打印机碳棒的保护结构
+CN
+31.08.2016
+B41J 29/00 Loading...
+B41J 29/00
+Loading...
+201620201770.7
+深圳市新国都支付技术有限公司
+项朝晖
+B41J 29/00
+Loading...
+本实用新型公开了一种打印机碳棒的保护结构，包括相互配合的底壳和面壳，所述底壳和面壳合围而具有中空内腔的外壳体，所述外壳体在其一端开设有纸盖开口，所述纸盖开口处设置有铰接在底壳上的纸盖，所述纸盖的自由端设置有碳棒固定板，所述碳棒固定板上设置有用于卡紧碳棒的碳棒固定槽，所述碳棒固定槽卡设有碳棒，纸盖的两侧设置有扣紧块，所述面壳在其配合所述扣紧块的内侧位置设置有卡紧块，所述扣紧块可配合扣紧在卡紧块上。该种打印机碳棒的保护结构具有结构简单、原理可靠、安全性高等优点。
+22. 205534952 一种滑动式安装支架与监控装置
+CN
+31.08.2016
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+201620193853.6
+深圳市新国都支付技术有限公司
+谢宝峰
+F16M 13/02
+Loading...
+本实用新型公开了一种滑动式安装支架与监控装置，其中安装支架包括底座、导轨、弹簧、左夹爪与右夹爪，导轨设于底座之上，弹簧的两端分别与左、右夹爪连接，且左、右夹爪中至少有一个可沿导轨而相对另一个左右滑动，以在二者之间形成一大小可调的夹持间隙。本实用新型无需使用螺钉等紧固件，也无需加工螺纹孔，摄像头的安装方便、快捷，有助于提升安装效率，节省安装时间；支架的宽度可调，从而可以适应不同宽度的型钢等连接件，具有良好的普适性。
+23. 205504408 一种快速安装支架与监控装置
+CN
+24.08.2016
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+202016000193444
+深圳市新国都支付技术有限公司
+罗国齐
+F16M 13/02
+Loading...
+本实用新型公开了一种快速安装支架与监控装置，其中安装支架包括固定支架、活动支架与调节螺栓，固定支架上设有螺纹孔，活动支架上设有过孔，螺栓穿过过孔后旋入螺纹孔内，固定支架与活动支架之间形成一卡合间隙，活动支架可随螺栓的旋入或者旋出而相对固定支架运动，以调整卡合间隙的宽度。本实用新型无需使用螺钉等紧固件，也无需加工螺纹孔，摄像头的安装方便、快捷，有助于提升安装效率，节省安装时间；固定支架的宽度可调，从而可以适应不同宽度的型钢等连接件，具有良好的普适性。
+24. 205504409 一种双向调节式安装支架与监控装置
+CN
+24.08.2016
+F16M 13/02 Loading...
+F16M 13/02
+Loading...
+202016000193554
+深圳市新国都支付技术有限公司
+刘祥洪
+F16M 13/02
+Loading...
+本实用新型公开了一种双向调节式安装支架与监控装置，其中安装支架包括底座与调节螺栓，底座包括底板以及自底板的左、右两端竖直伸出的左侧板与右侧板，其中，左侧板上沿竖直方向设有多个螺纹孔，调节螺栓旋入在其中一个螺纹孔内，螺栓的尾部与右侧板之间形成一宽度可调的间隙，右侧板的顶部水平伸出有一朝向左侧板的折弯片。本实用新型无需使用螺钉等紧固件，也无需加工螺纹孔，摄像头的安装方便、快捷，有助于提升安装效率，节省安装时间；安装支架可以适应不同宽度与不同厚度的型钢，从而极大的扩充了摄像头的安装范围，具有良好的普适性。
+25. 103679974 一种带通孔挡板的支付卡座
+CN
+17.08.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+102013000699759
+深圳市新国都技术股份有限公司
+项朝晖
+G07G 1/12
+Loading...
+本发明公开了一种带通孔挡板的支付卡座,其包括座体和挡板，所述挡板与座体连接并形成条形卡槽，所述卡槽内设置有用于读取磁卡信息的磁头，所述挡板上设置有一个或多个通孔。本发明支付卡座上设置有带通孔的挡板，使得刷卡时可以直接观察到磁头以及其它卡槽内的情况，可以有效避免由于卡槽内安装多个磁头而使磁卡的信息被盗取的情况，保证了磁卡支付时的安全性和可靠性，具有良好的经济和社会效益。本发明可以广泛应用于各种支付卡座。
+26. 105761069 一种POS终端通信方法和系统
+CN
+13.07.2016
+G06Q 20/20 Loading...
+G06Q 20/20
+Loading...
+201610257365.1
+深圳市新国都支付技术有限公司
+陈恩志
+G06Q 20/20
+Loading...
+本发明公开了一种POS终端通信方法，包括以下步骤：S1、POS终端通过至少两种通信方式向后台服务器发送交易信息；还公开了一种POS终端通信系统，包括：POS终端，用于通过至少两种通信方式向后台服务器发送交易信息；后台服务器，用于处理最先送达的交易信息。本发明中一种POS终端通信方法提高了POS终端的交易信息通信成功率，提高用户体验；本发明中一种POS终端通信系统结合POS终端和后台服务器解决了处理速度慢的问题，降低POS终端交易的失败率和后台的冲正率。本发明作为一种POS终端通信方法和系统可广泛应用于POS终端通信领域。
+27. 205354211 一种手持快捷支付终端
+CN
+29.06.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+202015000860193
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种手持快捷支付终端，其包括壳体，所述壳体上表面设有显示屏和用于输入信息的按键，下表面设有扳机，前端设有扫描模块，所述扳机用于控制所述扫描模块的启闭。本实用新型手持快捷支付终端具有用于手动输入信息的按键和用于屏显信息的显示屏，能够手动输入金额、密码等信息，结合一二维码扫描功能，能够与现有的多种支付软件相结合完成商品价格信息的读取、确认以及支付。
+28. 205318399 一种扫描支付设备
+CN
+15.06.2016
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+201520859641.2
+深圳市新国都支付技术有限公司
+罗国齐
+G06K 7/10
+Loading...
+本实用新型提供了一种扫描支付设备，其包括：扫描枪以及用于支撑所述扫描枪的底座；所述扫描枪包括枪体，枪体的下表面设有扳机，前端设有扫描模块；所述底座包括壳体以及置于所述底座内部的打印机，所述打印机用于打印所述扫描枪传输的打印信息。本实用新型扫描支付设备的扫描枪下方设有底座，具有底座支撑的扫描枪即便在不便于手持扫描的时候，也能够进行扫描操作，而且更加美观；底座内部设有打印机，用户的扫描以及打印操作更加方便、快捷。
+29. 205318549 一种便携移动POS机
+CN
+15.06.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520857126.0
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种便携移动POS机，其包括机体，所述机体上部设有按键板，所述按键板上设有多个一体成型的按键单元，所述按键单元相对于所述按键板呈凸起或凹陷状，所述按键单元上设有输入标识，在所述机体内部、所述按键板下方设有触摸感应单元。本实用新型便携移动POS机的按键板具有一体成型的、有凹凸感的按键单元，按键单元下方则设有触摸感应单元，该结构设计不仅保证了按键单元的使用寿命，而且使POS机整体体积小、便于携带移动，按键单元的凹凸式设计也能够给使用者带来较佳的使用体验，避免输入时的误操作。
+30. 105573918 一种轻量级闪存系统和方法
+CN
+11.05.2016
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201510955156.X
+深圳市新国都支付技术有限公司
+黄学佳
+G06F 12/02
+Loading...
+本发明的技术方案包括一种轻量级闪存系统，该系统包括：初始化模块，对闪存系统进行初始化；读取模块，对闪存系统的系统参数块进行访问，进而获取数据；写入模块，用于对闪存系统的系统参数块进行访问，进而写入数据，并进行对应更新；擦除模块，使用均衡擦除对数据块进行线性访问和擦除。本发明的技术方案还包括一种轻量级闪存方法，包括对闪存系统的初始化，对文件数据的读取和写入以及擦除方法。本发明的有益效果为：嵌入式特性，实现了快速轻量化，由于内存消耗小，可用于资源少的嵌入式系统，其快速读写操作特性，可满足嵌入式实时性要求较高场合。
+31. 105553296 一种电源兼容电路
+CN
+04.05.2016
+H02M 7/217 Loading...
+H02M 7/217
+Loading...
+201510943841.0
+深圳市新国都支付技术有限公司
+向阳
+H02M 7/217
+Loading...
+本发明公开了一种电源兼容电路，其包括交直流输入源、直流源输出端，第一MOS管、第二MOS管、第三MOS管、第四MOS管、滤波电容、第一运放U1、第一电源、上拉电阻R3和第五MOS管Q5，本发明针对现有电子设备对电源兼容性的不足，发明了一种新型自适应切换及高效率整流电路，当不同外设的电源与地极性相反或者输入电源为交流时，可以通过该电路实现自动的识别切换及交流电源高效率整流。本发明作为一种电源兼容电路，广泛适用于电源领域。
+32. 205185582 一种盒盖自锁安装结构
+CN
+27.04.2016
+B41J 15/04 Loading...
+B41J 15/04
+Loading...
+201520908003.5
+深圳市新国都支付技术有限公司
+张礼雄
+B41J 15/04
+Loading...
+本实用新型公开了一种盒盖自锁安装结构，包括盒体和铰接在所述盒体上的盒盖，所述盒盖上安装有扣手件和锁钩件，所述扣手件与锁钩件之间相互齿啮合联动，所述锁钩件上设置有锁钩，所述盒体上设置有配合所述锁钩的锁扣，所述锁钩可锁紧在所述锁扣上，所述盒盖上设置有分别用于安装扣手件和锁钩件的扣手件安装卡槽和锁钩件安装卡槽，所述扣手件和锁钩件分别安装在所述扣手件安装卡槽和锁钩安装卡槽中。该种盒盖自锁安装结构具有结构简单、应用方便、拥有自锁功能等现有技术所不具备的优点。
+33. 205177021 一种防窥支付POS机
+CN
+20.04.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520860267.8
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种防窥支付POS机，其包括触摸显示屏和遮挡罩，所述触摸显示屏具有显示密码数字的第一区和用于签名的第二区，所述遮挡罩围设于所述第一区的周边。本实用新型防窥支付POS机的触摸屏采用分区显示的方法，将密码输入区和签名区分隔开，密码输入区有遮挡罩的防窥保护，而遮挡罩不会影响签名区的书写输入，既保证了密码区的输入安全，又兼顾了签名区书写的便利。
+34. 205177020 一种POS机防拆保护结构及装置
+CN
+20.04.2016
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201520910614.3
+深圳市新国都支付技术有限公司
+董鑫
+G07G 1/00
+Loading...
+本实用新型公开了一种POS机防拆保护结构，包括设置在POS机内部的PCB板、分别设置在POS机壳体的导电触头和磁铁，所述PCB板上设置有霍尔传感器和安全触点；所述导电触头与安全触点接触连接，所述霍尔传感器用于感应磁铁的磁场信号。一种POS机防拆保护装置，包括以上所述的防拆保护结构，还包括一感应电路；所述感应电路包括第一电源端、第二电源端、电容器和放大模块。本实用新型采用了磁铁与霍尔传感器的测距结构，使得当防拆安全触点失效时，霍尔传感器产生一个触发信号给CPU，进而保障用户的数据不被窃取，安全性能大幅提升，可广泛应用于POS机应用领域。
+35. 205176993 一种POS机防拆保护结构
+CN
+20.04.2016
+G07F 9/00 Loading...
+G07F 9/00
+Loading...
+201520912307.9
+深圳市新国都支付技术有限公司
+董鑫
+G07F 9/00
+Loading...
+本实用新型公开了一种POS机防拆保护结构，包括设置在POS机内部的PCB板和Mesh线墙板，所述Mesh线墙板置于PCB板上，所述Mesh线墙板内部设置有导线，所述导线与POS机内部电路连接。本实用新型所提供的防拆保护结构，通过在安全触点的周围设置Mesh线墙板，使得在POS机遭受侧面攻击时，Mesh线墙板内部的导线并触发POS机的保护程序，保障了用户数据的安全性。另外，将Mesh线墙板与防拆安全触点相结合，同时对安全触点开关增加了一层保护，加大了对POS机内部结构的保护力度，安全性能增强，可广泛应用于POS机应用领域。
+36. 105469012 磁卡读取系统及方法
+CN
+06.04.2016
+G06K 7/08 Loading...
+G06K 7/08
+Loading...
+201510815697.2
+深圳市新国都技术股份有限公司
+杨霆
+G06K 7/08
+Loading...
+本发明公开一种磁卡读取系统，包括磁头及与磁头电连接的系统主处理器，所述磁头包括用于与磁卡耦合并产生电信号的磁耦合介质与电磁感应电路、用于对所产生的电信号进行放大和整形处理的电路，所述电信号经过放大和整形后形成脉冲信号，所述系统主处理器用于接收所述脉冲信号，并将接收到的脉冲信号进行解码及校验以得到磁卡的磁条上的数据。本发明还提供了一种磁卡读取方法。上述磁卡读取系统及方法可简化系统设计，且同时可降低成本。
+37. 105447413 一种基于动态信号的安全保护装置、方法和POS机
+CN
+30.03.2016
+G06F 21/71 Loading...
+G06F 21/71
+Loading...
+201510781070.X
+深圳市新国都支付技术有限公司
+周少荃
+G06F 21/71
+Loading...
+本发明的技术方案包括一种基于动态信号的安全保护装置、方法和POS机。该装置包括动态信号发生单元、外部保护单元和动态信号比较单元；所述动态信号发生单元连接所述外部保护单元并向其输出动态信号；所述动态信号比较单元分别连接所述动态信号发生单元和所述外部保护单元，通过输出端输出两者传输的动态信号的比较结果。该方法包括步骤：动态信号发生单元提供波形随时间动态变化的动态信号给外部保护单元和动态信号比较单元；动态信号比较单元接收所述动态信号发生单元发出的基准动态信号和经过所述外部保护单元的动态信号；动态信号比较单元通过输出端输出上述两者动态信号的比较结果。该POS机包括上述一种基于动态信号的安全保护装置。
+38. 205121745 一种具有扫码功能的支付终端
+CN
+30.03.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520860194.2
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种具有扫码功能的支付终端，其包括终端本体以及可装拆于所述终端本体上的扫码装置；所述扫码装置包括壳体，所述壳体内部设有扫描模块，所述壳体靠近所述终端本体的一端设有连接部。本实用新型具有扫码功能的支付终端在传统的支付终端的基础上增加以可装拆的扫码模块，充分利用了原始的支付终端设备，不会造成资源的浪费，设备的升级成本低廉；而且扫码模块与支付终端的可装拆式一体设计使得整体结构简单、便于使用。
+39. 205121744 一种用于支付终端的扫码装置
+CN
+30.03.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520859334.4
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种用于支付终端上的扫码装置，其包括壳体，所述壳体内部设有扫描模块以及与所述扫描模块电连接的印刷电路板，所述印刷电路板上设有用于传输数据的第一接口以及第二接口。本实用新型用于支付终端的扫码装置可直接与现有的支付终端装配使用，直接利用原始的支付终端的数据传输线，并融合了扫码功能，整体结构简单且成本相对低廉。
+40. 205122430 一种POS机硅胶按键阻隔保护结构
+CN
+30.03.2016
+H01H 13/02 Loading...
+H01H 13/02
+Loading...
+201520862290.0
+深圳市新国都支付技术有限公司
+黄羡
+H01H 13/02
+Loading...
+本实用新型公开了一种POS机硅胶按键阻隔保护结构，包括PCB板、盖设在所述PCB板上的POS机外壳和安装在所述POS机外壳且配合所述PCB板使用的按键，所述按键在其位于PCB板与POS机外壳之间间隙的部分周沿设置有保护板，所述保护板内嵌有MESH保护绕线，所述保护板上内嵌的MESH保护绕线为不规则绕线。该种POS机硅胶按键阻隔保护结构具有结构简单、安全性高、实施方便等现有技术所不具备的优点。
+41. 205121566 一种多功能密码器
+CN
+30.03.2016
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201520859320.2
+深圳市新国都支付技术有限公司
+罗国齐
+G06F 21/34
+Loading...
+本实用新型提供了一种多功能密码器，其包括壳体，所述壳体具有第一区和第二区，所述第一区向下凹陷并设置有密码输入单元，所述第二区设有签名单元。本实用新型多功能密码器具有用于密码输入的第一区和用于签名的第二区，第一区采用凹陷的结构设计，能够利用第二区的遮挡作用保证密码输入的安全性。
+42. 205121746 一种多功能快捷支付终端
+CN
+30.03.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520860266.3
+深圳市新国都支付技术有限公司
+罗国齐
+G07G 1/12
+Loading...
+本实用新型提供了一种多功能快捷支付终端，其包括壳体，所述壳体内部设有打印模块，下表面设有扳机，前端设有扫描模块，所述扳机控制所述扫描模块的启闭。本实用新型多功能快捷支付终端具有打印模块与扫描模块，扫描模块能在扳机的控制下对商品的条码或支付软件的一二维码进行扫描读取信息，打印模块的集成能够使终端整体操作更加简便、快捷。
+43. 105335196 一种POS终端程序增量下载的方法
+CN
+17.02.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510737845.3
+深圳市新国都支付技术有限公司
+李佳
+G06F 9/445
+Loading...
+一种POS终端程序增量下载的方法，其包括以下步骤：S1：查询POS终端上的现有文件，并比较现有文件和将要下载至POS终端的待下载文件；S2：若待下载文件与现有文件相比不是全新文件，分段对比所述的待下载文件与现有文件；S3：根据分段的待下载文件与分段的现有文件的差异，生成段差异信息；S4:发送所述段差异信息至POS终端；S5:POS终端利用所述的现有文件和段差异信息重构出待更新文件；S6:POS终端校验所述待更新文件并进行升级。本发明减少了文件传输的大小，节省了时间和流量，同时大大提升了用户体验，可广泛应用于数据下载领域。
+44. 105303373 一种频率防探测电路和方法
+CN
+03.02.2016
+G06Q 20/20 Loading...
+G06Q 20/20
+Loading...
+201510606033.5
+深圳市新国都支付技术有限公司
+黄善兵
+G06Q 20/20
+Loading...
+本发明的技术方案包括一种防探测电路，该电路包括外部检测装置、数据分析装置、数据存储装置、主控装置，其中外部检测装置用于检测并收集检测信息，数据分析装置用于分析检测信息是否为外部非法攻击，数据存储装置用于存储历史检测信息，主控装置是数据和操作的管理中心。本发明的技术方案还包括一种防探测电路的方法，该方法为：检测并收集检测信息，对检测信息进行分析和存储，根据检测结果实施对应措施。发明的有益效果为：实现了可控制的安全保护电路；成本低，所占体积小，显著提高安全设备在交易中安全性能，有效防止安全设备在交易时，受到恶意的破坏和攻击，保护交易双方的合法信息不受窃取。
+45. 204991939 一种POS机非接天线的安装连接结构及POS机
+CN
+20.01.2016
+H01Q 1/22 Loading...
+H01Q 1/22
+Loading...
+201520419143.6
+深圳市新国都支付技术有限公司
+谢宝锋
+H01Q 1/22
+Loading...
+本实用新型提供了一种POS机非接天线的安装连接结构，包括机壳、与所述机壳固连的天线架以及与所述天线架固连的天线，所述机壳包括相互扣合连接的上壳和下壳；所述天线架具有与上壳相连第一端、与下壳相连第二端、第一侧边以及第二侧边，所述第一侧边和第二侧边位于所述第一端与第二端之间；所述天线粘附于所述天线架表面。本实用新型还提供了一种POS机，其包括如上所述的安装连接结构、打印单元、显示单元、输入单元以及信息读取单元。本实用新型POS机非接天线的安装连接结构采用框架形天线架来固定非接天线，天线架连接了POS机的上、下壳，整体结构紧凑且非接天线安装便捷，本实用新型POS机应用上述结构也利于设备整体的小型化与轻便化。
+46. 105244701 一种长寿命新型IC卡座
+CN
+13.01.2016
+H01R 13/66 Loading...
+H01R 13/66
+Loading...
+201510728337.9
+深圳市新国都支付技术有限公司
+赵国良
+H01R 13/66
+Loading...
+本发明公开了一种长寿命新型IC卡座，包括IC卡座座体和设置在IC卡座座体上的IC卡触点，所述IC卡座内设有IC卡通信电路和IC卡检测电路，所述IC卡通信电路分别与IC卡触点和IC卡检测电路连接。本发明通过IC卡检测电路检测IC卡的插入，代替原有的机械开关，从而能大大延长卡座的使用寿命，检测的可靠性更高，适合用于频繁使用IC卡交易的设备中。而且本发明结构简单，能有效减少生产成本，有利于产品的批量生产。本发明可广泛应用于IC卡交易设备中。
+47. 105227188 一种多按键检测电路
+CN
+06.01.2016
+H03M 11/02 Loading...
+H03M 11/02
+Loading...
+201510638360.9
+深圳市新国都支付技术有限公司
+王奔
+H03M 11/02
+Loading...
+本发明公开了一种多按键检测电路，包括用于根据被按下的按键进而输出相应的频率信号，并将输出的频率信号发送至频率识别模块的频率产生模块以及用于对频率信号进行接收，并且根据接收到的频率信号进而识别出被按下的按键的频率识别模块；所述频率产生模块的输出端与频率识别模块的输入端连接。本发明的电路结构简单；本发明仅使用一个I/O口，占用的I/O口少，实用性强；所述频率识别模块利用所述处理器芯片识别按键，占用CPU开支少，提高了按键的灵敏度和识别的准确度；本发明不需要复杂的软件来实现按键检测，且电路简单，所以本发明的实现成本低。本发明作为一种多按键检测电路可广泛应用于按键检测领域。
+48. 105185003 一种POS机安全保护方法、安装结构及基于此的POS机
+CN
+23.12.2015
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201510583350.X
+深圳市新国都支付技术有限公司
+王亮
+G07G 1/12
+Loading...
+本发明公开了一种POS机安全保护方法、安装结构及基于此的POS机，其中，所述POS机安全保护方法应用于POS机领域，该种方法通过在POS机的显示屏上设置ITO走线区域，ITO走线区域两端设置导电斑马条，显示屏安装在POS机壳体上，显示屏上的ITO走线区域内的导电斑马条被压缩并与POS机的控制组件电性连通实现信号导通保护；所述OS机安全安装结构，包括显示屏，所述显示屏上设置有至少一个ITO走线区域，所述ITO走线区域内嵌有绕线，ITO走线区域内设置有导电斑马条，所述导电斑马条与ITO走线区域内的绕线电性导通。该种一种POS机安全保护方法、安装结构及基于此的POS机具有结构、工艺简单，实施方便、效率高，生产成本低、良品率高，安全性能好等现有技术所不具备的优点。
+49. 105184969 一种电容防密码探测的系统及方法
+CN
+23.12.2015
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201510588092.4
+深圳市新国都支付技术有限公司
+薛刚
+G07F 7/02
+Loading...
+本发明的技术方案包括一种电容防密码探测的系统，该系统包括：使用电容感应器采集数据，数据分析器对采集的数据进行分析，数据存储器存储历史检测数据和检测阈值，解析发送器用于解析接收信息并向密码输入设备发送警告信息。本发明还包括一种电容防密码探测的方法，包括：根据电容数值变化采集和分析检测数据，存储检测数据，还能够向密码输入设备发送警告信息。本发明的有益效果为：能在用户输入密码前，确认密码输入设备是否被覆盖密码探测装置，如果存在密码探测装置，立即停止密码输入服务，提示用户已暂停服务，避免用户密码被非法窃取，极大的保证了用户密码的安全性。
+50. 105046511 基于信息采集盒的商品交易信息在线采集系统
+CN
+11.11.2015
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201510304994.0
+深圳市新国都支付技术有限公司
+刘祥洪
+G06Q 30/02
+Loading...
+本发明公开了基于信息采集盒的商品交易信息在线采集系统，包括：多组信息采集子系统及信息分析处理系统；信息采集子系统包括：收银设备、信息采集盒、小票打印机、POS终端；信息采集盒利用小票打印机的设备信息与主机连接，收银设备在调用打印功能时，将购物小票打印信息发送给信息采集盒；信息采集盒将购物小票打印信息发送给POS终端；POS终端将购物小票打印信息与刷卡消费者银行卡账号信息进行关联，得到商品交易综合信息，并将该商品交易综合信息传送至信息分析处理系统；信息分析处理系统对商品交易综合信息进行大数据分析。本发明为大数据分析提供可靠的资料，以利于企业更客观的了解实际情况，作出科学决策。
+51. 105046845 一种POS机非接指示灯结构和POS机
+CN
+11.11.2015
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201510431017.7
+深圳市新国都支付技术有限公司
+刘喜龙
+G07G 1/00
+Loading...
+本发明公开了一种POS机非接指示灯结构和POS机，其中所述POS机非接指示灯结构应用于POS机领域，包括面壳，所述面壳上设置有显示框，所述显示框周沿设置有非接天线PCB板，所述非接天线PCB板正面设置有覆盖在显示框上面的POS机镜片，所述非接天线PCB板在其远离POS机镜片的背面设置有非接指示灯，所述非接天线PCB板在其设置非接显示灯的侧部设置有镂空孔，所述POS机镜片在其匹配非接天线PCB板上镂空孔的位置设置有丝印半透明灯孔，非接指示灯的后部设置有反光片，所述反光片可将非接指示灯发射的光线反射通过对应的镂空孔并最终从POS机镜片上的丝印半透明灯孔上射出。该种POS机非接指示灯结构和POS机具有工艺简单、良品率高、生产成本低等现有产品所不具备的优点。
+52. 104966210 一种实现商品交易综合信息在线采集的系统及方法
+CN
+07.10.2015
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201510304779.0
+深圳市新国都支付技术有限公司
+刘祥洪
+G06Q 30/02
+Loading...
+本发明公开了实现商品交易综合信息在线采集的系统及方法，所述系统包括：多组信息采集子系统及信息分析处理系统；信息采集子系统包括：收银设备、POS终端；收银设备用于生成购物小票打印信息；POS终端封装成打印机供收银设备调用，收银设备在调用打印功能时，将购物小票打印信息发送给POS终端；POS终端收到购物小票打印信息后，自动分析提取购物小票打印信息中的应收款金额，发起一笔该金额的刷卡交易；刷卡交易完成后，POS终端将购物小票打印信息与刷卡消费者银行卡账号信息进行关联，得到商品交易综合信息并将信息传送至信息分析处理系统；本发明为信息分析处理系统的大数据分析提供可靠的资料，以利于企业更客观的了解实际情况，作出科学决策。
+53. 104866421 一种POS终端的测试方法及测试系统
+CN
+26.08.2015
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201510232937.6
+深圳市新国都技术股份有限公司
+江明辉
+G06F 11/36
+Loading...
+本发明公开了一种POS终端的测试方法及系统，所述测试方法包括：创建导入用例库；根据测试需求，从用例库中导出测试用例；运行测试用例对待测试POS终端执行测试。所述POS终端的测试系统，用例库单元，用于创建用例库；导出单元，用于根据测试需求，从用例库中导出测试用例；执行单元，用于运行测试用例对待测试POS终端执行测试。本发明通过创建用例库可以实现用于测试POS终端的各个接口函数以及特定功能函数的正确性与可靠性；本发明有效地弥补了现有测试对软件接口覆盖不足的缺陷，为测试部门输出更可靠的测试报告提供依据。本发明可广泛应用于测试领域。
+54. 203689624 一种利用打印机纸仓内置非接天线的POS机
+CN
+02.07.2014
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201320751482.5
+深圳市新国都技术股份有限公司
+鲁赛军
+G07G 1/12
+Loading...
+本实用新型公开了一种利用打印机纸仓内置非接天线的POS机，包括壳体，所述壳体内设置有打印机纸仓，所述打印机纸仓包括面壳，所述面壳内设置有绕线支架，所述绕线支架套接在面壳内壁上，所述绕线支架上绕制有天线。本实用新型通过巧妙设计，将设置在柔性电路板上的导体线弯曲连接成桶状天线。本实用新型通过巧妙设计，合理利用POS机内部空间放置非接天线，使得POS机可设计得更小；天线的设置保证了天线的长度和形状，从而保证了非接天线性能。本实用新型可广泛应用于POS机。
+55. WO/2014/082477 PROTECTION METHOD FOR DATA INFORMATION ABOUT ELECTRONIC DEVICE AND PROTECTION CIRCUIT THEREFOR
+WO
+05.06.2014
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+PCT/CN2013/083258
+SHENZHEN XINGUODU TECHNOLOGY CO., LTD.
+HUANG, Shanbing
+G07G 1/00
+Loading...
+A method for protecting data information about an electronic device, comprising the following steps: 1) performing power-on detection on an electronic device of which production and installation are completed, detecting the stray capacitance of a signal line thereof, and recording same as a standard value of the signal line; 2)during a power-on operation, monitoring the stray capacitance of the signal line; 3)comparing the monitored capacitance value with the standard value, and entering step 4) when exceeding the set threshold value, otherwise entering step 2); and 4) erasing significant data in the electronic device. The method uses the manner of monitoring the stray capacitance to monitor the contact of outside foreign matter with the signal line, guarantees the security of data in the electronic device, and has the characteristics that the implementation process is simple and easy, safe and reliable, and the cost is low.
+56. 203630775 密码键盘测试机
+CN
+04.06.2014
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201320815518.1
+深圳市新国都技术股份有限公司
+张永胜
+G06F 11/22
+Loading...
+本实用新型公开了一种密码键盘测试机，包括处理单元，及与处理单元连接的输入键盘、显示屏和存储器，还包括用于与被测试键盘通讯连接的串口通讯模块；还包括底座，底座上设有用于固定被测试键盘的测试治具和用于容置处理单元、显示屏、存储器和输入键盘的控制箱；还包括与处理单元连接的检测相机。本实用新型密码键盘测试机采用XY驱动组件实现被测试键盘的移动，并通过按压执行件的下压，来实现密码键盘测试过程中的测试动作，并采用了检测相机对密码键盘的显示信息进行自动采集，代替人工的识别，实现测试过程中无人化操作，全自动地完成，降低密码键盘的测试成本，并且提高密码键盘测试的可靠性。
+57. 103825653 一种用于金融POS的红外数据传输方法
+CN
+28.05.2014
+H04B 10/11 Loading...
+H04B 10/11
+Loading...
+201410030807.X
+深圳市新国都技术股份有限公司
+肖红辉
+H04B 10/11
+Loading...
+本发明公开了一种用于金融POS的红外数据传输方法，包括：手持机与底座进行握手连接；检测是否有信息帧需要发送，若是，则执行步骤C；否则执行步骤E；发送信息帧进行信息传输；发送查询帧进行状态查询处理；发送维持链路帧进行链路维持。本发明一种用于金融POS的红外数据传输方法能保证手持机和底座进行无线通信，大大方便使用者，而且通信过程安全可靠，能有效避免了通信不稳定的情况。本发明可广泛应用于通信领域。
+58. 103738057 Hardware protective circuit used for temperature-sensitive printer
+CN
+23.04.2014
+B41J 2/375 Loading...
+B41J 2/375
+Loading...
+201310711668.2
+深圳市新国都技术股份有限公司
+李泽熊
+B41J 2/375
+Loading...
+The invention discloses a hardware protective circuit used for a temperature-sensitive printer. The circuit includes a first capacitor, a first resistor, a diode and a logic product gate. A first end of the first capacitor is connected with the ground through the first resistor. The first end of the first capacitor is connected with a cathode end of the diode. The cathode end of the diode is connected with two input ends of the logic product gate. An anode end of the diode is connected with the ground. Through control of a voltage input to an interface of the printer, the hardware protective circuit used for the temperature-sensitive printer achieves an effect of heating-time control and realizes an objective of heating-head protection so that the service life of the printer can be prolonged effectively. Moreover, the hardware protective circuit is simple in structure and capable of saving manufacturing cost significantly. The hardware protective circuit is widely applicable to circuit protection products.
+59. 103679974 Payment card base with baffle with through holes
+CN
+26.03.2014
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201310699759.9
+SHENZHEN XINGUODU TECHNOLOGY CO., LTD.
+XIANG ZHAOHUI
+G07G 1/12
+Loading...
+The invention discloses a payment card base with a baffle with through holes. The payment card base with the baffle with the through holes comprises a base body and the baffle, wherein the baffle and the base body are connected to form a strip-shaped card slot, a magnetic head used for reading information of a magnetic card is arranged in the card slot, and one or more through holes are formed in the baffle. According to the payment card base with the baffle with the through holes, due to the fact that the baffle with the through holes is arranged on the payment card base, the conditions of the magnetic head and other conditions in the card slot can be directly observed when the magnetic card is swiped, the phenomenon that due to the fact that a plurality of magnetic heads are installed in a card slot, information of magnetic cards is stolen can be effectively avoided, safety and reliability in the process of payment through the magnetic card are ensured, the good economic benefit and the good social benefit are achieved, and the payment card base with the baffle with the through holes can widely serve as various payment card bases.
+60. 103678065 Method for testing code keyboard and code keyboard test machine
+CN
+26.03.2014
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+201310675012.X
+SHENZHEN XINGUODU TECHNOLOGY CO., LTD.
+ZHANG YONGSHENG
+G06F 11/22
+Loading...
+The invention discloses a method for testing a code keyboard and a code keyboard test machine. According to the method, an upper computer and the code keyboard are connected in a serial communication mode, the code keyboard is tested by the upper computer, and the method comprises the steps that serial communication is initialized, a test case is selected and loaded, a test is started, whether the case is empty or not, whether an order needs manual participation or not, whether information needs to be input through the code keyboard or not, whether a response order is correct or not are judged, finally, whether the test case is finished or not is judged, the test is finished, and a test record is stored. According to the execution of the test of the code keyboard, the test quality and the test efficiency are improved, the interactive order test of the code keyboard and the POS upper computer and the interactive order test of the code keyboard and a POS lower computer are achieved, selection and partial execution of the case are supported, and management and maintenance of the test case are achieved through a script mode, so that an expanding test of the order is conducted. According to the code keyboard test machine, non-man operation in the test process is achieved, the process is completed in a fully automatic mode, and the test cost of the code keyboard is reduced.
+61. 103679970 POS machine magnetic head test method and POS machine card swiping test equipment
+CN
+26.03.2014
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201310706287.5
+深圳市新国都技术股份有限公司
+江泉德
+G07G 1/00
+Loading...
+The invention discloses a POS machine magnetic head test method and POS machine card swiping test equipment. The POS machine magnetic head test method includes the steps that a magnetic card special for test is swiped in a POS machine magnetic head card slot in a reciprocating mode, a POS machine sends magnetic card information read every time to an upper computer, the upper computer compares the received magnetic card information with presorted standard information, correct information is marked as successful card swiping, and incorrect information is marked as unsuccessful card swiping. According to the POS machine magnetic head test method, the card is swiped in the reciprocating mode in the test process, and therefore the card swiping speed is increased; a test working mode is set is in the POS machine, induction of a magnetic head is continuously detected, and therefore test efficiency is improved; the upper computer special for test is adopted, test results are stored in a list form, and therefore test centralized management of the POS machine is easy to achieve. According to the test equipment, a mechanical chuck is utilized to clamp the test magnetic card, card swiping power is provided by a linear drive mechanism, automatic card swiping test is achieved, the card swiping speed is increased, labor is saved, and cost is reduced.
+62. 103647143 POS (point-of-sale) machine barrel-shaped antenna and fabrication method thereof
+CN
+19.03.2014
+H01Q 1/38 Loading...
+H01Q 1/38
+Loading...
+201310603465.1
+深圳市新国都技术股份有限公司
+鲁赛军
+H01Q 1/38
+Loading...
+The invention discloses a POS (point-of-sale) machine barrel-shaped antenna and a fabrication method thereof. The barrel-shaped antenna comprises a flexible circuit board, wherein the flexible circuit board is provided with at least one conductor wire, two ends of the conductor wire are provided with welding spots or feeding pins, the flexible circuit board is bent into a barrel-shaped structure along the routing direction of the conductor wire, thereby enabling the welding spots arranged at the two ends of the conductor wire to be connected correspondingly. The fabrication method of the barrel-shaped antenna comprises the steps of arranging the conductor wire on the flexible circuit board and bending the flexible circuit board into the barrel-shaped structure along the routing direction of the conductor wire. According to the invention, the conductor wire arranged on the flexible circuit board is bent and connected into the barrel-shaped antenna through an ingenious design, thereby enabling the waste of a substrate material of the flexible circuit board to be reduced in the fabrication process, saving the production cost, being capable of transforming flexibly according to conditions of the internal space of the POS machine, occupying small space, ensuring the length of the antenna, and guaranteeing the performance of the antenna. The POS machine barrel-shaped antenna can be widely applied to fabrication of a POS machine antenna.
+63. 203465791 一种移动支付卡座及移动支付终端
+CN
+05.03.2014
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201320533257.4
+深圳市新国都技术股份有限公司
+翟建光
+G07G 1/12
+Loading...
+本实用新型涉及金融交易领域，提供了一种移动支付卡座，其包括本体、磁头和卡槽；所述卡槽嵌入在本体中，包括第一刷卡面和第二刷卡面，所述第二刷卡面为曲面；所述磁头一端嵌入在本体中，另一端从第一刷卡面延伸出；所述第一刷卡面与第二刷卡面的曲面的曲顶的间距最小。本实用新型还提供了一种移动支付终端。本实用新型的技术方案通过采用具有镂空设计的卡槽，并将磁头安装于第一刷卡面，用户可以清楚的了解卡槽内磁头的个数信息，从而可以选择是否刷卡，保证了银行卡支付时的安全性和可靠性。
+64. 103490801 Bluetooth voice communication terminal and Bluetooth communication method
+CN
+01.01.2014
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+201310462137.4
+深圳市新国都技术股份有限公司
+申伟宏
+H04B 5/02
+Loading...
+The invention discloses a Bluetooth voice communication terminal and a Bluetooth communication method. The Bluetooth voice communication terminal comprises a central processing unit, wherein the central processing unit is used for controlling selection of voice channels and modulation, demodulation, transmission and receiving of signals; the central processing unit comprises a transmitter and a receiver. The Bluetooth voice communication terminal and the Bluetooth communication method realize compatibility between a POS machine and any Bluetooth terminal and are quite simple in communication process, thereby providing a guarantee for use and popularization of the POS machine.
+65. 103481682 Method and system for correcting deviation of needle printer
+CN
+01.01.2014
+B41J 29/38 Loading...
+B41J 29/38
+Loading...
+201310384691.5
+深圳市新国都技术股份有限公司
+张伟
+B41J 29/38
+Loading...
+The invention discloses a method for correcting the deviation of a needle printer. The method comprises the first step of detecting the current position of a carrier unit, and the second step of judging whether a walking error of the carrier unit is smaller than an error threshold value or not according to a first error and a second error. The invention further provides a system for correcting the deviation of the needle printer. According to the method and system for correcting the deviation of the needle printer, the walking error of the carrier unit is obtained by detecting the walking error of the carrier unit of the needle printer, a printing mode of the needle printer is selected according to the walking error of the carrier unit, and then the printing efficiency is ensured on the premise of ensuing the printing quality.
+66. 103488441 一种阿拉伯语在POS机上打印的实现方法
+CN
+01.01.2014
+G06F 3/12 Loading...
+G06F 3/12
+Loading...
+201310400701.X
+深圳市新国都技术股份有限公司
+董凯
+G06F 3/12
+Loading...
+本发明公开了一种阿拉伯语在POS机上打印的实现方法，包括：根据阿拉伯语连写与变形规则对待打印字符串数据进行变换，从而得到新字符串；对新字符串进行预处理，从而将新字符串中连续的非阿拉伯字符部分进行水平翻转；采用freetype库构建矢量字体的对象实例，并根据打印单据的宽度请求存储缓冲区；采用改进的单个字符位图水平翻转变形规则对预处理后的字符串进行位图信息提取，并将提取的位图信息存储至存储缓冲区；对存储缓冲区中的数据进行整体水平翻转处理，并将水平翻转处理后的存储缓冲区数据发送给打印机进行打印。本发明具有打印效果较好、打印方便、占用的资源较少、简单且打印效率较高的优点，可广泛应用于嵌入式设备领域。
+67. 103456108 Casing with non-contact protection switch and POS machine
+CN
+18.12.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201310384678.X
+深圳市新国都技术股份有限公司
+翟建光
+G07G 1/00
+Loading...
+The invention discloses a casing with a non-contact protection switch and a POS machine with the casing. The casing with the non-contact protection switch comprises a casing body and a non-contact protection switch device arranged in the casing body and used for preventing the casing body from being disassembled. The casing body comprises a casing bottom and a casing cover. According to the casing with the non-contact protection switch and the POS machine, the non-contact protection switch device is used for replacing a traditional physical and mechanical switch device, the protection switch is triggered through the skillful utilization of changes of magnetic field signals or light signals, the casing anti-disassembly and protection effect is achieved, meanwhile, the defects that a casing anti-disassembly device in the prior art is prone to causing false triggering and poor in stability and reliability are overcome, and unnecessary losses caused by false triggering are avoided. The casing with the non-contact protection switch can be widely applied to various casings with protection circuits and POS machines.
+68. 103441334 Antenna structure for non-contact communication
+CN
+11.12.2013
+H01Q 7/08 Loading...
+H01Q 7/08
+Loading...
+201310356091.8
+深圳市新国都技术股份有限公司
+翟建光
+H01Q 7/08
+Loading...
+The invention discloses an antenna structure for non-contact communication. The antenna structure for non-contact communication comprises a magnetizer and an electric wire wound around the periphery of the magnetizer. The electric wire is connected with a non-contact communication IC. The magnetizer is cylindrical. According to the antenna structure for non-contact communication, the cylindrical magnetizer is used as a magnetic core of an antenna, so that the plane structure size of the antenna is greatly reduced, the original size larger than 85.5mm*54mm is reduced to the size smaller than 50mm*50mm, the size of a card reader is reduced to a large extent, and possibility of the integration and the miniaturization of non-contact communication products is provided. In addition, due to the adoption of a magnetizer material, the diameter of the magnetizer is small, the number of winding circles of the electric wire can be increased, the intensity of magnetic fields is increased, the magnetic fields are concentrated, the improvement of the communication intensity and the reliability of a non-contact communication card is facilitated, and the application of a specially-shaped non-contact communication card and the miniaturization development of the non-contact communication products are facilitated.
+69. 103440716 一种移动支付卡座及装置
+CN
+11.12.2013
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201310384701.5
+深圳市新国都技术股份有限公司
+翟建光
+G07G 1/12
+Loading...
+本发明涉及金融领域，提供了一种移动支付卡座，包括座体、磁头和卡槽；所述卡槽嵌入在座体中，包括第一边框和与第一边框相对的透明或半透明的第二边框；所述磁头一端嵌入在座体中，另一端延伸至第一边框并与第一边框接触。所述移动支付卡座或装置的卡槽为透明或者半透明，刷卡时可以直接观察到磁头，可以避免卡槽内安装多个磁头而使银行卡的信息被盗取，保证了银行卡支付时的安全性和可靠性。
+70. 103426258 Information push method and system based on POS terminal
+CN
+04.12.2013
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+201310385144.9
+深圳市新国都技术股份有限公司
+陈恩志
+G07G 1/14
+Loading...
+The invention discloses an information push method and system based on a POS terminal. The system comprises the POS terminal, a POS terminal push information custom-made server and a communication server. The method comprises the steps that the POS terminal is signed, the POS terminal sends configuration information to the POS terminal push information custom-made server, the POS terminal promotes the information custom-made server to generate corresponding push information, and generated push information is sent to the POS terminal. According to the information push method and system, the information is pushed to the POS terminal, therefore, functional diversification of the POS terminal is achieved, the commercial purpose of the POS terminal is improved, share of different commercial tenant information is achieved, and convenience is brought to users of the POS terminal. The information push method and system based on the POS terminal are widely applied to financial fields.
+71. 103400078 Method and circuit for protecting data information of electronic equipment
+CN
+20.11.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201310260806.X
+深圳市新国都技术股份有限公司
+黄善兵
+G06F 21/60
+Loading...
+The invention discloses a method and circuit for protecting data information of electronic equipment. The method for protecting the data information of the electronic equipment comprises the steps that (1) power-on detection is carried out on the installed electronic equipment, and stray capacitance of a signal line of the electronic equipment is detected and is recorded as the standard value of the signal line; (2) the stray capacitance of the signal line is detected during power-on; (3) the detected stray capacitance is compared with the standard value, the next step (4) is carried out when the detected stray capacitance is beyond a set threshold value, and the step (2) is repeated when the detected stray capacitance is within the set threshold value; (4) important data in the electronic equipment are erased. According to the method for protecting the data information of the electronic equipment, the stray capacitance is monitored to further monitor the contact between foreign matter in the outside world and the signal line, safety of data in the electronic equipment is guaranteed, the implementation process is simple and easy to achieve, safety and reliability are achieved, and cost is low. The circuit for protecting the data information of the electronic equipment has the advantages that a direct monitoring method or an indirect monitoring method can be adopted, safety and reliability are guaranteed, the development and design cycle is short, production cost is low, the structure is simple, and manufacturing is easy. The circuit for protecting the data information of the electronic equipment can be applied to different kinds of electronic equipment.
+72. 203151466 一种正负逻辑电平转换电路
+CN
+21.08.2013
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201220693844.5
+深圳市新国都技术股份有限公司
+黄善兵
+H03K 19/0175
+Loading...
+本实用新型公开一种正负逻辑电平转换电路，其包括有：一负压转正压电路及一正压转负压电路，其中，当计算机向嵌入式设备发送数据时，该数据需通过负压转正压电路进行电压转换，将计算机所发出的RS232电平转换为TTL电平，且传输至嵌入式设备；当嵌入式设备向计算机发送数据时，该数据需通过正压转负压电路进行电压转换，将嵌入式设备所发出的TTL电平转换为RS232电平，且传输至计算机，从而实现了计算机与嵌入式设备的双工通讯。本实用新型相比现有技术而言，具有成本低以及应用灵活的优点。
+73. 203151891 具有保护电路的塑胶壳体结构及其成型模具
+CN
+21.08.2013
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201320130982.7
+深圳市新国都技术股份有限公司
+张岳雷
+H05K 5/00
+Loading...
+本实用新型公开了一种具有保护电路的塑胶壳体结构及其成型模具。具有保护电路的塑胶壳体结构，包括塑胶壳本体，塑胶壳本体的内侧设有薄膜层，薄膜层包括依次设有的胶层、基层、绕线层和绝缘层；胶层与塑胶壳本体连接。本实用新型在塑胶壳本体的内侧设有带有保护导线的薄膜层，能化生产加工的过程和降低生产成本。本实用新型成型模具在凸模上设有定位机构，以定位销的方式实现薄膜层的快速定位，以此节省塑胶壳本体的成型加工时间。为了便于薄膜层的快速定位，在将薄膜层置于凸模之后，先通过预制模具将薄膜层预压成与凸模相吻合的形状。使其不再在成型模具内与塑胶一体成型，提高了塑胶产品的成品率，降低了生产过程中不良品的损失。
+74. 103249271 具有保护电路的塑胶壳体结构及其成型模具和制造方法
+CN
+14.08.2013
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201310091492.5
+深圳市新国都技术股份有限公司
+张岳雷
+H05K 5/00
+Loading...
+本发明公开了一种具有保护电路的塑胶壳体结构及其成型模具和制造方法。具有保护电路的塑胶壳体结构，包括塑胶壳本体，塑胶壳本体的内侧设有薄膜层，薄膜层包括依次设有的胶层、基层、绕线层和绝缘层；胶层与塑胶壳本体连接。本发明在塑胶壳本体的内侧设有带有保护导线的薄膜层，能化生产加工的过程和降低生产成本。本发明成型模具在凸模上设有定位机构，以定位销的方式实现薄膜层的快速定位，以此节省塑胶壳本体的成型加工时间。为了便于薄膜层的快速定位，在将薄膜层置于凸模之后，先通过预制模具将薄膜层预压成与凸模相吻合的形状。使其不再在成型模具内与塑胶一体成型，提高了塑胶产品的成品率，降低了生产过程中不良品的损失。
+75. 203104300 一种最大功率可调式开关电源
+CN
+31.07.2013
+H02M 5/40 Loading...
+H02M 5/40
+Loading...
+201220694161.1
+深圳市新国都技术股份有限公司
+黄善兵
+H02M 5/40
+Loading...
+本实用新型公开了一种最大功率可调式开关电源，其包括有依次连接的一220V交流电源端、一整流滤波电路、一MOS管、一变压器、一滤波电路及一开关电源输出端，所述开关电源还包括有一反馈电路、一PWM控制IC、一电阻切换电路及一CPU。该功率可调式开关电源中，CPU通过所反馈的电压采样信号和脉宽调制信号而判断出电子设备所需的功率后，向电阻切换电路发出控制指令，从而切换至与该功率相对应的电阻，且通过该电阻而调整PWM控制IC输出的脉宽调制信号的频率，以进一步调整开关电源的输出功率。本实用新型相比现有技术而言，不受电子设备额定功率的局限，同时，本实用新型还具有成本低廉、节省电能的优势。
+76. 203102433 一种磁卡读取装置、POS机及ATM机
+CN
+31.07.2013
+G07F 7/10 Loading...
+G07F 7/10
+Loading...
+201220694465.8
+深圳市新国都技术股份有限公司
+黄善兵
+G07F 7/10
+Loading...
+本实用新型公开一种磁卡读取装置、POS机及ATM机，磁卡读取装置，其包括有一巨磁阻磁头、一放大电路及一译码电路，所述巨磁阻磁头用于感应磁卡上的磁信号且将该磁信号转换为电信号，该电信号先通过放大电路进行运算放大后，再通过译码电路进行译码处理，之后传输至CPU，所述巨磁阻磁头包括有多个铁磁材料层和多个非铁磁材料层，所述铁磁材料层与非铁磁材料层交替层叠设置而形成磁性薄膜。带有该磁卡读取装置的POS机和ATM机，其相比现有技术而言，不仅灵敏度高，而且抗干扰能力强，同时，还能够在磁卡上记录更多的数据。
+77. 203054852 一种非接触式IC卡通讯装置
+CN
+10.07.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201220623656.5
+深圳市新国都技术股份有限公司
+黄善兵
+G06K 7/00
+Loading...
+本实用新型公开一种非接触式IC卡通讯装置，其包括有非接触式读卡器及非接触式IC卡，所述非接触式读卡器包括有一呈凹槽状设置的磁芯，所述磁芯通过感应非接触式IC卡上靠近四个侧边和四个角位的任一位置的磁场信号而采集磁卡数据。本实用新型能够减小设备的尺寸、降低无线电污染以及避免刷卡误判。
+78. WO/2013/091400 PROTECTIVE DEVICE AGAINST DATA THEFT IN ELECTRONIC CIRCUIT
+WO
+27.06.2013
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+PCT/CN2012/080899
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+QIN, Wen
+G06F 21/00
+Loading...
+Disclosed is a protective device against data theft in an electronic circuit, the device comprising a top cover plate and a side cover plate. The top cover plate, the side cover plate, and the printed circuit board where a protection data circuit is located are connected to each other to form a closed safety area on the printed circuit board, the protection data circuit being located within the safety area. The top and side cover plates are plastic parts. Both the interior surface of the top cover plate and the interior surface of the side cover plate are screen-printed with protected wiring. The protective device against data theft in the electronic circuit of the present utility model is of a simple structure and low cost, and is easy to manufacture.
+79. 203025682 一种五线电阻屏控制电路及电压采样电路
+CN
+26.06.2013
+G06F 3/045 Loading...
+G06F 3/045
+Loading...
+201220612613.7
+深圳市新国都技术股份有限公司
+黄善兵
+G06F 3/045
+Loading...
+本实用新型公开一种五线电阻屏控制电路及电压采样电路，其包括有：一五线电阻屏，其包括有一阻性层及一导电层；一多路选择模块，其多路输入端分别为高电平端及低电平端，其多路输出端分别连接五线电阻屏的阻性层的左上角、右上角、左下角及右下角；一脉冲产生电路，所述导电层所采集的电压信号经过一运放电路处理后而传输至脉冲产生电路的第一输入端，该导电层所采集的电压信号还传输至脉冲产生电路的第二输入端，所述脉冲产生电路用于将其第一输入端和第二输入端的两个电压信号转换为脉冲信号且传输至一Σ-ΔADC转换器的电压采样端口。本实用新型相比现有技术而言，极大地降低了电子产品的整机成本，适合电子产品的批量化生产。
+80. 203026568 一种开关结构
+CN
+26.06.2013
+H01M 2/10 Loading...
+H01M 2/10
+Loading...
+201220644571.5
+深圳市新国都技术股份有限公司
+陆江
+H01M 2/10
+Loading...
+本实用新型提出了一种开关结构，包括底座和上盖，底座上设有滑槽，滑槽内滑设有滑块，滑块的第一侧壁上设有扣臂，上盖设有与所述扣臂配合的卡钩，滑块通过扣臂滑入卡钩将底座和上盖锁紧固定在一起。本实用新型通过采用滑块通过扣臂滑入卡钩将底座和上盖锁紧固定在一起，在底座和上盖的锁紧过程中，保证了底座和上盖之间锁紧的可靠性，而且操作简单、方便。
+81. 203025860 一种POS 机数据信息保护电路
+CN
+26.06.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201220644869.6
+深圳市新国都技术股份有限公司
+黄善兵
+G07G 1/00
+Loading...
+本实用新型公开了一种POS机数据信息保护电路，包括多路选择模块，其用于将多路信号线上的杂散电容所产生的信号择一的输出；电容检测模块，其分别与多路选择模块和中央处理器连接，用于对多路选择模块输入的信号进行处理后传递给中央处理器。本实用新型通过采用多路选择模块将多路信号择一地从输出给电容检测模块，电容检测模块对输入的信号进行处理后，将检测信号传输给中央处理器，中央处理器根据检测信号以判断是否擦除受保护的数据，不仅安全可靠，而且开发设计周期短，降低了生产成本。
+82. WO/2013/078892 ROTATING DAMPING DEVICE
+WO
+06.06.2013
+F16F 7/02 Loading...
+F16F 7/02
+Loading...
+PCT/CN2012/080888
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+LUO, Shuikai
+F16F 7/02
+Loading...
+Disclosed in the present invention is a rotating damping device, which comprises a basement (1), a revolving member (2) and a damping ring (4). The revolving member (2) and damping ring (4) are rotatablely set on the basement (1), the damping ring (4) is made of soft material, and the revolving member (2) and the damping ring (4) press each other and can roll mutually. The rotating damping device has simple structure and a long length of life and is convenient to use, so that it is especially suitable for the simple rotating damp.
+83. WO/2013/075525 IC CARD READING DEVICE AND IC CARD RECEPTACLE PROTECTOR THEREOF
+WO
+30.05.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+PCT/CN2012/080898
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+ZHANG, Yuelei
+G06K 7/00
+Loading...
+Disclosed is an IC card receptacle protector, comprising a plastic part, a flexible printed circuit, a first conductive bar and a second conductive bar, wherein the plastic part comprises a first side arm, a second side arm and a connecting arm connecting the first side arm with the second side arm; the flexible printed circuit covers at least the top surface, bottom surface and outer sides of the plastic part; the first side arm is provided with a first through hole at the end thereof near the connecting arm; the second side arm is provided with a second through hole at the end thereof far from the connecting arm; the first conductive bar is inserted in the first through hole with one end thereof connected electrically to the flexible printed circuit and the other end thereof exposed from the bottom surface of the first arm; and the second conductive bar is inserted in the second through hole with one end thereof connected electrically to the flexible printed circuit and the other end thereof exposed from the top surface of the second arm. The IC card receptacle protector can greatly improve the safety and reliability of the IC card receptacle. Also provided is an IC card reading device having the IC card receptacle protector.
+84. WO/2013/063979 SENSING STRUCTURE AND POS MACHINE WITH MAGNETIZER
+WO
+10.05.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+PCT/CN2012/080862
+SHENZHEN XINGUODU TECHNOLOGY CO., LTD
+HUANG, Shanbing
+G06K 7/00
+Loading...
+Disclosed are a sensing structure and a POS machine with a magnetizer. The sensing structure with a magnetizer includes a circuit board provided with a sensing coil. The bottom of the circuit board is provided with a magnetizer. The POS machine with a magnetizer includes a housing and a circuit board provided inside the housing and with a sensing coil. The bottom of the circuit board is provided with a magnetizer. In the present utility model, a magnetizer is added at the bottom of the sensing coil, thus reducing the magnetic field distribution of the sensing coil in the opposite direction of a radio frequency card, which is advantageous for improving the magnetic field intensity in the direction of the radio frequency card, thus increasing the sensitivity of the radio frequency card, accelerating the sensing speed of the radio frequency card, and the radio frequency card can realize reading even at a distance far away from a reader (i.e. host), and the electromagnetic interference to the electronic components (such as CPU) in other circuit boards can be reduced. The sensing structure with a magnetizer in the present utility model can be used in the radio frequency circuit structure of a POS machine and can also be used in a public transport card-swiping system and other accounting and charging systems that use radio frequency cards.
+85. WO/2013/060196 SECURITY PROTECTION METHOD AND APPARATUS FOR TOUCH SCREEN OF ELECTRONIC DEVICE
+WO
+02.05.2013
+G06F 21/83 Loading...
+G06F 21/83
+Loading...
+PCT/CN2012/080889
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+HUANG, Shanbing
+G06F 21/83
+Loading...
+Disclosed is a security protection apparatus for a touch screen of an electronic device, including a detection module, a control processing module and a self-destruction/alarm execution module. The detection module is used for applying an excitation signal on an electrical pin of a touch screen and detecting a corresponding electrical feature value so as to use same as feature information uniquely identifying the touch screen. The control processing module is used for receiving the feature information and judging whether it is consistent with pre-stored standard feature information, and if yes, then controlling the electronic device to operate normally, otherwise, controlling the electronic device to stop operating and sending a trigger signal to the self-destruction/alarm execution module so as to enable same to execute an action of self-destructing information/sending out an alarm. The apparatus in the present invention determines whether a touch screen has been replaced illegally by detecting the feature information thereof, avoiding that the user mistakenly uses an illegally replaced touch screen to input sensitive information such as a password and thus the secret is spilled, thus greatly improving the security performance of electronic devices. At the same time, also provided is a corresponding security protection method.
+86. WO/2013/060195 METHOD FOR PREVENTING ILLEGAL REMOVAL AND COMMUNICATION FORWARDING AND DEVICE THEREOF
+WO
+02.05.2013
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+PCT/CN2012/080879
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+LIU, Xianghong
+H04W 24/00
+Loading...
+A method for preventing illegal removal and communication forwarding is provided in the present invention, which comprises a fixed end set in an electronic equipment service area and a mobile end set in the electronic equipment. The mobile end performs an access registration to the fixed end to realize binding with the fixed end. In-place confirming communication is carried out between the mobile end and the fixed end timing or non-timing. The fixed end judges if the mobile end is in the limited service area according to the communication transmission time during the in-place confirming communication course with the mobile end. If the difference between said communication transmission time and the preset time value is larger than the set range, the mobile end is not in the limited service area, and the mobile end stops working and/or generates an alarm action, contrarily, the mobile end works normally. The present invention solves efficiently the defect that the service area of the terminal of the electronic equipments, such as POS machines etc., can not be limited in the prior art by setting that the fixed end communicates with the mobile end in the electronic equipment and detects if the electronic equipment is illegal moved or communication forwarded according to their communication transmission time.
+87. WO/2013/056602 DYNAMIC BUTTON TYPE KEYBOARD DEVICE
+WO
+25.04.2013
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+PCT/CN2012/080866
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+LUO, Shuikai
+G06F 3/02
+Loading...
+Disclosed is a dynamic button type keyboard device, which comprises a circuit board, and at least two dynamic button components electrically connected to the circuit board. The dynamic button components are rotating bodies provided with a plurality of groups of button switches; and each group of button switches are electrically connected to the circuit board. Buttons in a keyboard input device are divided into a plurality of groups, each group of buttons are fixed on a rotating body, each rotating body is provided with a plurality of groups of button switches, the change of the groups of buttons is realized under the transmission of a motor, a plurality of rotating bodies can change positions once before button input each time, and a button arrangement sequence when the information input is carried out each time is different, so that the dynamic change of the button switches is realized, and keyboard input information can be effectively prevented from being stolen by others. Because the divided plurality of groups of buttons is rotatable, others can be prevented from installing a stealing keyboard on a keyboard in a re-cover mode. The present invention can be widely applied to input devices such as bank teller machines, point-of-sale (POS) machines, and public telephones.
+88. WO/2013/056603 POS MACHINE WITH FINGERPRINT IDENTIFICATION FUNCTION
+WO
+25.04.2013
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+PCT/CN2012/080900
+SHENZHEN XINGUODU TECHNOLOGY CO. LTD
+LUO, Shuikai
+G07G 1/12
+Loading...
+A POS machine with a fingerprint identification function comprises a shell (1) and a fingerprint sensor (3). A main circuit board (2) is arranged in the shell (1). A password keyboard (11) and a display screen (12) are arranged on the shell (1). The fingerprint sensor (3) is electrically connected with the main circuit board (2). A fingerprint processing module (21) which is electrically connected to the fingerprint sensor (3) is arranged on the main circuit board (2). By means of the POS machine, the bank card with the fingerprint password can be popularized and applied, so the safety factor of the bank card user is increased.
+89. 103066986 一种正负逻辑电平转换电路
+CN
+24.04.2013
+H03K 19/0175 Loading...
+H03K 19/0175
+Loading...
+201210541185.8
+深圳市新国都技术股份有限公司
+黄善兵
+H03K 19/0175
+Loading...
+本发明公开一种正负逻辑电平转换电路，其包括有：一负压转正压电路10及一正压转负压电路20，其中，当计算机向嵌入式设备发送数据时，该数据需通过负压转正压电路进行电压转换，将计算机所发出的RS232电平转换为TTL电平，且传输至嵌入式设备；当嵌入式设备向计算机发送数据时，该数据需通过正压转负压电路进行电压转换，将嵌入式设备所发出的TTL电平转换为RS232电平，且传输至计算机，从而实现了计算机与嵌入式设备的双工通讯。本发明相比现有技术而言，具有成本低以及应用灵活的优点。
+90. 202889195 一种延长掉电保护时间的控制电路
+CN
+17.04.2013
+H02M 3/155 Loading...
+H02M 3/155
+Loading...
+201220510038.X
+深圳市新国都技术股份有限公司
+黄善兵
+H02M 3/155
+Loading...
+本实用新型公开一种延长掉电保护时间的控制电路,包括DC/DC电路，其信号输出端通过第一电容连接至第一二极管的阳极，第一二极管的阴极通过第二电容接地，第一电容与第一二极管的连接点还连接至第二二极管的阴极，第二二极管的阳极连接至DC/DC电路电源输入端，第一二极管的阴极与第二电容的连接点还连接至MOS管的源极，连接点还通过第一电阻与MOS管的栅极连接，MOS管的漏极与第三二极管的阳极连接，第三二极管的阴极连接至DC/DC电路电源输出端，MOS管的栅极通过第二电阻串联在三极管的集电极，三极管的发射极接地，三极管的基极通过第三电阻连接CPU控制模块的控制信号输出端。本实用新型延长了掉电保护时间。
+91. 202889190 一种正负电压产生电路
+CN
+17.04.2013
+H02M 3/00 Loading...
+H02M 3/00
+Loading...
+201220545151.1
+深圳市新国都技术股份有限公司
+黄善兵
+H02M 3/00
+Loading...
+本实用新型公开一种正负电压产生电路，其包括有：一DC-DC电路，其用于将输入电压进行直流转直流变换后，经电压输出端输出直流电压，经脉冲输出端输出方波信号；一负压产生电路，其连接于DC-DC电路的脉冲输出端，用于将DC-DC电路输出的方波信号通过电容自举而转换为负电压；一正压产生电路，其连接于DC-DC电路的脉冲输出端，用于将DC-DC电路输出的方波信号通过电容自举而进行升压转换。本实用新型适用于为电流需求较小的电路提供正电压和负电压，同时也能够降低产品成本、减小干扰。
+92. 103035083 一种智能卡交易功能实现方法
+CN
+10.04.2013
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+201210498928.8
+深圳市新国都技术股份有限公司
+李湘云
+G07G 1/14
+Loading...
+本发明公开了一种智能卡交易功能实现方法，包括步骤B、POS机向POSP平台发起获取数据信息请求，POSP平台对该请求进行识别判断，下发与之匹配的数据信息，不仅安全可靠，而且无需对POS机的程序进行现场升级，降低了维护成本，并且升级效率高。
+93. 103034877 NFC读写器的天线增益方法
+CN
+10.04.2013
+G06K 17/00 Loading...
+G06K 17/00
+Loading...
+201210508605.2
+深圳市新国都技术股份有限公司
+戴邵池
+G06K 17/00
+Loading...
+本发明公开了一种NFC读写器的天线增益方法，该方法是在NFC读写器的询卡时增加一个询卡增益过程；该询卡过程是先进行若干次额定增益询卡；和一次高增益询卡，若额定增益有响应则设置为额定增益再进行后续交互，若为高增益时，再进行复位增益判断之后再设置为高增益，再进行后续交互。使用本方法的读写器在9次额定增益询卡中能正常识读普通卡，在1次使用高增益时放入普通卡，能自动转换到额定增益；在9次额定增益询卡时不能识读到小异型卡，在1次使用高增益时能正常识读到小异型卡，并且能正常维持该高增益应用于对该卡的后续交互。本方法对于解决非接式读写器读写小天线及带金属环境的如支付功能手机的读写问题具有良好效果。
+94. 103036447 一种最大功率可调式开关电源
+CN
+10.04.2013
+H02M 5/40 Loading...
+H02M 5/40
+Loading...
+201210543826.3
+深圳市新国都技术股份有限公司
+黄善兵
+H02M 5/40
+Loading...
+本发明公开了一种最大功率可调式开关电源，其包括有依次连接的一220V交流电源端、一整流滤波电路、一MOS管、一变压器、一滤波电路及一开关电源输出端，所述开关电源还包括有一反馈电路、一PWM控制IC、一电阻切换电路及一CPU。该功率可调式开关电源中，CPU通过所反馈的电压采样信号和脉宽调制信号而判断出电子设备所需的功率后，向电阻切换电路发出控制指令，从而切换至与该功率相对应的电阻，且通过该电阻而调整PWM控制IC输出的脉宽调制信号的频率，以进一步调整开关电源的输出功率。本发明相比现有技术而言，不受电子设备额定功率的局限，同时，本发明还具有成本低廉、节省电能的优势。
+95. 103034824 一种非接触式IC卡通讯装置
+CN
+10.04.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201210478941.7
+深圳市新国都技术股份有限公司
+黄善兵
+G06K 7/00
+Loading...
+本发明公开一种非接触式IC卡通讯装置，其包括有非接触式读卡器及非接触式IC卡，所述非接触式读卡器包括有一呈凹槽状设置的磁芯，所述磁芯通过感应非接触式IC卡上靠近四个侧边和四个角位的任一位置的磁场信号而采集磁卡数据。本发明能够减小设备的尺寸、降低无线电污染以及避免刷卡误判。
+96. 103035065 一种磁卡读取装置、POS 机及ATM机
+CN
+10.04.2013
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+201210544027.8
+深圳市新国都技术股份有限公司
+黄善兵
+G07F 7/08
+Loading...
+本发明公开一种磁卡读取装置，其包括有一巨磁阻磁头、一放大电路及一译码电路，所述巨磁阻磁头用于感应磁卡上的磁信号且将该磁信号转换为电信号，该电信号先通过放大电路进行运算放大后，再通过译码电路进行译码处理，之后传输至CPU，所述巨磁阻磁头包括有多个铁磁材料层和多个非铁磁材料层，所述铁磁材料层与非铁磁材料层交替层叠设置而形成磁性薄膜。带有该磁卡读取装置的POS机和ATM机，其相比现有技术而言，不仅灵敏度高，而且抗干扰能力强，同时，还能够在磁卡上记录更多的数据。
+97. 103035077 一种POS机数据信息保护电路
+CN
+10.04.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201210498948.5
+深圳市新国都技术股份有限公司
+黄善兵
+G07G 1/00
+Loading...
+本发明公开了一种POS机数据信息保护电路，包括多路选择模块，其用于将多路信号线上的杂散电容所产生的信号择一的输出；电容检测模块，其分别与多路选择模块和中央处理器连接，用于对多路选择模块输入的信号进行处理后传递给中央处理器。本发明通过采用多路选择模块将多路信号择一地从输出给电容检测模块，电容检测模块对输入的信号进行处理后，将检测信号传输给中央处理器，中央处理器根据检测信号以判断是否擦除受保护的数据，不仅安全可靠，而且开发设计周期短，降低了生产成本。
+98. 103022391 一种开关结构
+CN
+03.04.2013
+H01M 2/10 Loading...
+H01M 2/10
+Loading...
+201210498791.6
+深圳市新国都技术股份有限公司
+陆江
+H01M 2/10
+Loading...
+本发明涉及一种开关结构，包括底座和上盖，底座上设有滑槽，滑槽内滑设有滑块，滑块的第一侧壁上设有扣臂，上盖设有与所述扣臂配合的卡勾，滑块通过扣臂滑入卡勾将底座和上盖锁紧固定在一起。本发明通过采用滑块通过扣臂滑入卡勾将底座和上盖锁紧固定在一起，在底座和上盖的锁紧过程中，保证了底座和上盖之间锁紧的可靠性，而且操作简单、方便。
+99. 103023994 一种用于POS机的远程下载方法
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210499045.9
+深圳市新国都技术股份有限公司
+林宏志
+H04L 29/08
+Loading...
+本发明公开了一种用于POS机的远程下载方法，该方法用于将服务器的数据传输下载至POS机，包括以下的步骤：（1）服务器先对下载数据进行压缩，生成压缩数据；（2）服务器再将压缩数据分为多个数据包，分次传送至POS机；（3）POS机逐个接受服务器发来的数据包；（4）POS机将接收完成的全部数据包，进行合并，再解压成下载数据。本发明采用了压缩方式对下载数据进行压缩之后再传输，并且将下载数据分成多个数据包，分为多次下载传输，使得下载传输过程中，能根据通讯网络的传输速度，同时进行多个数据包的传输。大幅地提升了POS机的远程下载效率，降低远程下载耗时，节省通讯开支。由于下载数据占用时间少，从而提升了客户的满意度。
+100. 103020190 一种采用母POS机进行子POS机数据更新的方法
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210508914.X
+深圳市新国都技术股份有限公司
+李勤勤
+G06F 17/30
+Loading...
+本发明公开了一种采用母POS机进行子POS机数据更新的方法，该方法是先从PC机上将更新数据传输至母POS机内，母POS机再通过数据线或无线通讯方式将更新数据传输至各个子POS机，子POS机为需要进行数据更新的POS机；其中的更新数据可以包括一个POS机型或多个POS机型的数据。本发明具有以下优点：升级效率大大提高，相比用PC下载应用包时，母POS仅仅下载子POS需要的文件；操作更简单，大部分功能都是自动化完成，减小了维护人员的下载出错率；携带方便，POS机的体积比PC小得多；节约成本，无需为子POS升级专门配备便携式PC，用备用的POS机替代即可；应用数据存储安全，POS本身属于安全设备。
+101. 202854950 分体式银行卡结构及智能终端
+CN
+03.04.2013
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+201220399285.7
+深圳市新国都技术股份有限公司
+胡翔
+G07F 7/08
+Loading...
+本实用新型公开了一种分体式银行卡结构及智能终端。一种分体式银行卡结构包括卡本体，及与卡本体可拆式联接的芯片体，所述的卡本体上设有用于容置芯片体的空槽。一种实现银行卡无线支付的智能终端，其特征在于包括用于插入银行卡芯片体的插槽，及与插槽电性连接的应用处理模块，及与应用处理模块的近距离非接触通讯模块。本实用新型将银行卡设计成分体式结构，既可以与卡本体成为一个整体，用于银行系统的传统业务，比如ATM机的存取款；也可以将其取出，插入至便携式智能终端的插槽内，通过便携式智能终端实现非接触式的移动支付，大大地提高了用户在使用银行卡过程的便携性，从而有利于提高移动支付的使用频率，减少纸币的使用，既环保又节能。
+102. 202856306 一种基于双向可控硅的反接保护及过压保护电路
+CN
+03.04.2013
+H02H 3/08 Loading...
+H02H 3/08
+Loading...
+201220510065.7
+深圳市新国都技术股份有限公司
+黄善兵
+H02H 3/08
+Loading...
+本实用新型公开一种基于双向可控硅的反接保护及过压保护电路，其包括有：熔断器、双向可控硅及稳压管，所述熔断器的第一端为电源端，其第二端为供电输出端，该第二端还通过第一电阻而连接至稳压管的阴极，该稳压管的阳极通过第二电阻接地，所述熔断器的第二端还连接双向可控硅的第一极，所述双向可控硅的第二极接地，其控制极连接至稳压管的阳极。本实用新型不仅避免了电路欠压还降低了产品成本。
+103. 103020182 一种基于HASH算法的数据查找方法
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210499041.0
+深圳市新国都技术股份有限公司
+吴世林
+G06F 17/30
+Loading...
+本发明公开了一种基于HASH算法的数据查找方法，该方法是先根据数据库的数据总容量，以设定值N进行HASH算法求值，并设有N个数据链表头，每个数据链表头指定其第一个数据节点的存储位置；再根据每个数据内容逐个算出HASH值，并将其链接至该HASH值相应的数据链表头指定的第一个数据节点的存储位置，若第一个数据节点已存储有数据时，则存储至其指向的下一个存储位置，依此类推。本发明查找方法具有查找速度更快的特点，能为系统节约宝贵时间。可移植及应用扩展性方面更好，不需依赖于POS机等使用终端的操作系统；占用内存很小，整个散列链表直接固化在文件上。本发明还可以用其它数据库的查找中，比如车牌黑名单查找、身份证黑名单的查找。
+104. 102981688 一种五线电阻屏控制电路
+CN
+20.03.2013
+G06F 3/045 Loading...
+G06F 3/045
+Loading...
+201210468252.8
+深圳市新国都技术股份有限公司
+黄善兵
+G06F 3/045
+Loading...
+本发明公开一种五线电阻屏控制电路及电压采样电路，其包括有：一五线电阻屏，其包括有一阻性层及一导电层；一多路选择模块，其多路输入端分别为高电平端及低电平端，其多路输出端分别连接五线电阻屏的阻性层的左上角、右上角、左下角及右下角；一脉冲产生电路，所述导电层所采集的电压信号经过一运放电路处理后而传输至脉冲产生电路的第一输入端，该导电层所采集的电压信号还传输至脉冲产生电路的第二输入端，所述脉冲产生电路用于将其第一输入端和第二输入端的两个电压信号转换为脉冲信号且传输至一Σ-ΔADC转换器的电压采样端口。本发明相比现有技术而言，极大地降低了电子产品的整机成本，适合电子产品的批量化生产。
+105. 102982624 一种POS机交易中心基于TLV格式数据的打印方法
+CN
+20.03.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201210468371.3
+深圳市新国都技术股份有限公司
+张吉
+G07G 1/00
+Loading...
+本发明涉及一种POS机交易中心基于TLV格式数据的打印方法，包括以下步骤：发出打印指令；打印配置标题；依行次读取打印内容；所读取的打印内容如不含有标签，则直接打印读取内容；所读取的打印内容如含有标签，则对该标签所对应的TLV数据结构进行解析，得到该标签的内容，对该标签的内容依属性格式化，使用格式化的标签内容替换打印内容里的标签后进行打印；打印配置落款。本发明在打印内容中采用从交易处理结果TLV数据结构中获取标签数据，可以更加灵活的配置打印，并可以对打印格式合理配置；当打印变量更新时无需更新后台程序，从而保证了交易的顺利进行；避免了因为更新后台程序造成交易中心停机维护的现象，最大程度的降低了收单机构的业务损失。
+106. 102946190 一种正负电压产生电路
+CN
+27.02.2013
+H02M 3/00 Loading...
+H02M 3/00
+Loading...
+201210406072.7
+深圳市新国都技术股份有限公司
+黄善兵
+H02M 3/00
+Loading...
+本发明公开一种正负电压产生电路，其包括有：一DC-DC电路，其用于将输入电压进行直流转直流变换后，经电压输出端输出直流电压，经脉冲输出端输出方波信号；一负压产生电路，其连接于DC-DC电路的脉冲输出端，用于将DC-DC电路输出的方波信号通过电容自举而转换为负电压；一正压产生电路，其连接于DC-DC电路的脉冲输出端，用于将DC-DC电路输出的方波信号通过电容自举而进行升压转换。本发明适用于为电流需求较小的电路提供正电压和负电压，同时也能够降低产品成本、减小干扰。
+107. 102945579 一种POS机交易中心基于TLV格式的数据获取方法
+CN
+27.02.2013
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201210468170.3
+深圳市新国都技术股份有限公司
+张吉
+G07G 1/00
+Loading...
+本发明涉及一种POS机交易中心基于TLV格式的数据获取方法，包括以下步骤：POS机终端输入指令及数据信息；对POS机终端输入的指令解析，获取自定义信息指令或者固定交易信息指令；对输入的数据信息解析；对获取自定义信息指令的数据提取标签；依据所提取的标签将解析后的数据信息写入后台TLV数据结构中，以备交易处理使用。本发明提升了POS终端数据采集的灵活度，可以对自定义信息进行比较便捷的获取；在处理新的交易时无需增加新的结构体变量，避免了对后台交易中心程序的修改，降低了后台程序更新频率，减少了因后台停机维护造成的损失，提高了收益；可以不受限制的多次使用采集自定义信息指令，使得交易可以采集到更多需要信息，不再受后台限制。
+108. 202750378 一种核心模块保护装置和由其构成的POS机
+CN
+20.02.2013
+H05K 7/14 Loading...
+H05K 7/14
+Loading...
+201220360460.1
+深圳市新国都技术股份有限公司
+马春海
+H05K 7/14
+Loading...
+本实用新型公开了一种核心模块保护装置和由其构成的POS机。一种核心模块保护装置，包括用于安装核心模块的底板、设于底板上的防拆支架和设于防拆支架上方的盖板，还包括设于底板或盖板上的保护电路；所述的防拆支架上设有若干个竖向槽，所述的竖向槽内设有硅胶导电体，所述的硅胶导电体与所述的保护电路电性连接。本实用新型通过较为柔软并且中空的硅胶导电体实现二个PCB板内部的保护电路的导电接触，以较低的预压力实现电性连接。本实用新型结构简单易用，生产成本低，装配方便。有助于提升产品的竞争力。
+109. 202748885 一种具有新型刷卡结构的POS机
+CN
+20.02.2013
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201220360415.6
+深圳市新国都技术股份有限公司
+张岳雷
+G07G 1/12
+Loading...
+本实用新型公开了一种具有新型刷卡结构的POS机，包括机壳，及设于机壳上的输入按钮和显示屏，还包括设于机壳内的电路板，及与电路板电性连接的磁头，所述机壳的一侧边设有磁头空槽，所述的磁头穿过磁头空槽至机壳的外侧。本实用新型由于没有外磁道，使得POS机的外形结构更加地小巧，并避免了异物掉入磁道内的可能，不用担心由于外磁道变形带来的刷卡隐患，另外机具从各个角度观察，没有刷卡槽逢，外观整体性好。本实用新型还因为结构的优化，可以省略传统POS机磁头上的弹性机构，使得POS机产品的生产成本降低。使用时仅需要用手将磁卡轻轻按在桌面上，将POS机下侧边的直角槽边对准磁卡的侧边，轻轻地滑动即可，可以减少对磁卡的磨损。
+110. 102930238 一种用于磁卡的解码和纠错方法
+CN
+13.02.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201210428064.2
+深圳市新国都技术股份有限公司
+熊中仕
+G06K 7/00
+Loading...
+本发明公开一种用于磁卡的解码和纠错方法，其包括如下步骤：S10，保存每个磁道中磁信号脉冲所对应的脉宽值；S11，根据磁信号计算出与原始信号同步的数字锁相环；S12，在同一个数据周期内，判断是否有脉冲跳变，若是，执行步骤S14，若否，执行步骤S13；S13，该比特位解码的数据为0；S14，下一脉宽与当前脉宽的比值y是否满足：0.7＜y<1.3，若是，执行步骤S15，若否，执行步骤S16；S15，该比特位解码的数据为1；S16，该比特位标记的数据为2；S17，判断是否为磁信号脉冲的最末位，若是，执行步骤S18，若否，返回步骤S12；S18，按照该磁道数据的编码规则确定数据的最初位和最末位；S19，采用奇偶校验和LRC校验将数据中标记为2的数据置1或置0。本发明能够提高磁卡识别的成功率以及其准确性。
+111. 102922892 针式打印机的抗干扰打印方法
+CN
+13.02.2013
+B41M 5/00 Loading...
+B41M 5/00
+Loading...
+201210450176.8
+深圳市新国都技术股份有限公司
+黄学佳
+B41M 5/00
+Loading...
+本发明公开了一种针式打印机的抗干扰打印方法，该方法包括以下步骤：打印机初始化；通过模拟出针获取出针的正常间隔Tc，设定补偿定时器Ts，补偿定时器Ts=(1+1/f)*Tc；开始打印；补偿定时器Ts计时开始，检测是否超时未出针，若是，则进行补偿出针，若不是，则检测是否收到正常出针信号，若是，则进行正常出针，若不是，则打印结束；补偿出针或正常出针之后进行补偿定时器Ts的重置，再进入下一个打印出针。本发明方法因采用了定时出针的方式，可以使打印机在强干扰环境下受影响时，超出设定时间未出针时，将强行出针，从而防止在强干扰环境下出现打印错位的情况，有效地提升了打印机的抗干扰能力。
+112. 202662002 电子电路中数据防窃取的保护装置
+CN
+09.01.2013
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201120537440.2
+深圳市新国都技术股份有限公司
+秦文
+G06F 12/14
+Loading...
+本实用新型公开了一种电子电路中数据防窃取的保护装置，包括顶盖板和侧盖板，该顶盖板、侧盖板与保护数据电路所在的印刷电路板相互连接在保护数据电路所在的印刷电路板上形成一封闭的安全区，所要保护数据电路位于该安全区内，所述顶盖板和侧盖板为塑胶件，所述顶盖板内表面和侧盖板内表面均丝印有保护走线。本实用新型的电子电路中数据防窃取的保护装置结构简单、生产加工方便、成本低廉。
+113. 202422141 IC卡读取设备及其IC卡座保护件
+CN
+05.09.2012
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201120463727.5
+深圳市新国都技术股份有限公司
+张岳雷
+G06K 7/00
+Loading...
+本实用新型公开了一种IC卡座保护件，其包括塑胶件、柔性印刷电路、第一导电条及第二导电条，所述塑胶件包括第一侧臂、第二侧臂及连接第一侧臂和第二侧臂的连接臂，所述柔性印刷电路至少覆盖塑胶件的顶面、底面及外侧面，所述第一侧臂在靠近连接臂的一端上开设有第一通孔，所述第二侧臂在远离连接臂的一端上开设有第二通孔，所述第一导电条安插在第一通孔内且其一端与柔性印刷电路电性连接而其另一端裸露在第一侧臂的底面上，所述第二导电条安插在第二通孔内且其一端与柔性印刷电路电性连接而其另一端裸露在第二侧臂的顶面上。本实用新型IC卡座保护件可大大提高IC卡座的安全可靠性。同时，本实用新型还提供了具有所述IC卡座保护件的IC卡读取设备。
+114. 202419056 旋转阻尼装置
+CN
+05.09.2012
+F16M 11/06 Loading...
+F16M 11/06
+Loading...
+201120495072.X
+深圳市新国都技术股份有限公司
+罗水开
+F16M 11/06
+Loading...
+本实用新型公开了一种旋转阻尼装置，包括底座、转动件、阻尼圈，所述转动件和阻尼圈可转动地设置于所述底座上，所述阻尼圈由软质材料制作而成，所述转动件与所述阻尼圈相互接触并挤压所述阻尼圈。本实用新型旋转阻尼装置结构简单、使用方便、使用寿命长、特别适用于简单的旋转阻尼。
+115. 202306693 一种动态按钮式键盘装置
+CN
+04.07.2012
+G07F 7/02 Loading...
+G07F 7/02
+Loading...
+201120403790.X
+深圳市新国都技术股份有限公司
+罗水开
+G07F 7/02
+Loading...
+本实用新型公开了一种动态按钮式键盘装置，包括电路板，及至少二个与电路板电性连接的动态按钮组件，动态按钮组件为旋转体，旋转体上设有若干组按钮开关，每组按钮开关与电路板电性连接。本实用新型是将键盘输入装置中的按钮分成几组，并将每组按钮固定在一个旋转体上面，每个旋转体设有多组按钮开关，在电机的传动作用下实现每组按钮的更换，多个旋转体可以在每一次按钮输入前更换一次位置，使得每次进行信息输入时的按钮排列顺序不相同，从而实现了按钮开关的动态变化，可以有效地防止别人窃取键盘输入信息。由于分成的多组按钮是可以旋转的，可以防止他人在键盘上采用再覆盖方式安装窃取键盘。本实用新型可以广泛用于银行存取款机、POS机、公用电话机等输入装置。
+116. 202306574 具有导磁体的感应结构和POS机
+CN
+04.07.2012
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201120423550.6
+深圳市新国都技术股份有限公司
+黄善兵
+G06K 7/00
+Loading...
+本实用新型公开了具有导磁体的感应结构和POS机。具有导磁体的感应结构包括设有感应线圈的电路板，电路板的底侧设有导磁体。具有导磁体的POS机，包括壳体和设于壳体内的具有感应线圈的电路板，电路板的底侧设有导磁体。本实用新型在感应线圈的底侧增加了导磁体，从而减少感应线圈在射频卡反方向的磁场分布，有利于提高射频卡方向的磁场强度，从而增加射频卡的灵敏度，加快射频卡的感应速度，可以使射频卡在离读取器(即主机)较远的距离也能够实现读取，并能减少对其它电路板中的电子元件(比如CPU)的电磁干扰。本实用新型具有导磁体的感应结构可以用于POS机的射频电路结构中，也可以用于公交刷卡系统和其它使用射频卡的计费、扣费系统中。
+117. 202306710 一种具有指纹识别的POS机
+CN
+04.07.2012
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+201120405372.4
+深圳市新国都技术股份有限公司
+罗水开
+G07G 1/00
+Loading...
+本实用新型公开了一种具有指纹识别的POS机，包括壳体，所述的壳体内设有主电路板，所述的壳体上设有密码键盘和显示屏，还包括与主电路板电性联接的指纹传感器，所述的主电路板上设有与指纹传感器电性联接的指纹处理模块。本实用新型在传统POS机的基础上增加了指纹传感器，可以实现对银行卡用户的指纹采集，从而实现对带有指纹密码的银行卡的电子结算；并进一步增加有影像传感器，从而进一步实现对具有影像密码的银行卡的电子结算，本实用新型POS机有助于具有指纹密码的银行卡的普及应用，提高银行卡用户的安全系数。将指纹传感器设于POS机外壳的侧边，其结构小巧，不会增加POS机外壳的尺寸。
+118. 102509052 电子设备触摸屏安全保护方法与装置
+CN
+20.06.2012
+G06F 21/83 Loading...
+G06F 21/83
+Loading...
+201110333397.2
+深圳市新国都技术股份有限公司
+黄善兵
+G06F 21/83
+Loading...
+本发明公开了一种电子设备触摸屏安全保护装置，其包括检测模块、控制处理模块及自毁/报警执行模块，其中，检测模块用于向触摸屏的电气引脚施加激励信号并检测相应的电气特征值以用做唯一标识触摸屏的特征信息，控制处理模块用于接收所述特征信息并判断其与预先保存的标准特征信息是否一致，若是则控制电子设备正常工作，若否则控制电子设备停止工作并向自毁/报警执行模块发送触发信号以使其执行自毁信息/发出警报的动作。本发明的装置通过检测触摸屏的特征信息来确定其是否被非法更换过，避免用户误用经非法更换的触摸屏输入密码等敏感信息而导致泄密，从而大大提高电子设备的安全性能。同时，本发明还提供相应的安全保护方法。
+119. 102497645 防止非法移机和通信转发的方法及其装置
+CN
+13.06.2012
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201110333396.8
+深圳市新国都技术股份有限公司
+刘祥洪
+H04W 24/00
+Loading...
+本发明公开了一种防止非法移机和通信转发的方法，包括设于电子设备使用区域内的固定端和设于电子设备内的移动端，移动端向固定端进行接入注册以与固定端实现绑定，移动端与固定端之间定时或不定时地进行在位确认通信，固定端根据与移动端在位确认通信过程的通信传输时间来判断移动端是否在限制使用的区域内，若所述通信传输时间与预设的时间值的差异大于设定的范围，则判定移动端未在限制使用的区域内，移动端停止工作和/或产生警报动作，否则移动端正常工作。本发明通过设置固定端与电子设备内的移动端进行通信而以其通信传输时间来检测电子设备是否被非法移动或通信转发，从而有效地解决了现在技术中对POS机等电子设备的终端无法限定使用区域的缺陷。
+120. 102486884 具有限制使用区域功能的POS机及其方法
+CN
+06.06.2012
+G07G 1/14 Loading...
+G07G 1/14
+Loading...
+201010568198.5
+深圳市新国都技术股份有限公司
+杨星
+G07G 1/14
+Loading...
+本发明公开了具有限制使用区域功能的POS机，包括微控制器、存储器、读卡模块、无线通讯模块、显示屏、输入按钮和电源模块，无线通讯模块与无线通信基站无线联接，微控制器设有通信基站标识比较器和锁定器，存储器设有通信基站标识库，通信基站标识比较器定时或于POS机每次开机时或每笔交易进行时读取该无线通信基站的通信基站标识，并将其与通信基站标识库进行验证，验证成功正常工作，验证不成功时锁定POS机。本发明利用POS机在进行无线通信时的通信基站标识作为比较参数，在POS开机时或交易通讯时或定时地将实时通讯所对应的通信基站标识与通信基站标识库的信息进行验证，实现了POS机必须在特定地区使用。
+121. 102458059 带有导电涂层保护电路的保护罩及其构成的POS机
+CN
+16.05.2012
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201010516317.2
+深圳市新国都技术股份有限公司
+韦余红
+H05K 5/00
+Loading...
+本发明公开了一种带有导电涂层保护电路的保护罩，包括保护罩本体，保护罩内表层设有导电涂层，导电涂层为紧密分布的导电通道，所述的导电通道构成保护电路。本发明的保护罩采用由喷在保护罩内表面的导电涂层经由激光雕刻加工而成，或直接由导电油墨印刷在保护罩本体内表面而成；具有结构简单、加工成本低、容易安装的特点；本发明可以广泛用于重要数据电路的保护结构中，如POS机，银行取款机等。
+122. 102331846 一种动态按钮式键盘装置
+CN
+25.01.2012
+G06F 3/02 Loading...
+G06F 3/02
+Loading...
+201110322262.6
+深圳市新国都技术股份有限公司
+罗水开
+G06F 3/02
+Loading...
+本发明公开了一种动态按钮式键盘装置，包括电路板，及至少二个与电路板电性连接的动态按钮组件，动态按钮组件为旋转体，旋转体上设有若干组按钮开关，每组按钮开关与电路板电性连接。本发明是将键盘输入装置中的按钮分成几组，并将每组按钮固定在一个旋转体上面，每个旋转体设有多组按钮开关，在电机的传动作用下实现每组按钮的更换，多个旋转体可以在每一次按钮输入前更换一次位置，使得每次进行信息输入时的按钮排列顺序不相同，从而实现了按钮开关的动态变化，可以有效地防止别人窃取键盘输入信息。由于分成的多组按钮是可以旋转的，可以防止他人在键盘上采用再覆盖方式安装窃取键盘。本发明可以广泛用于银行存取款机、POS机、公用电话机等输入装置。
+123. 201812967 排线防拆保护结构及设有排线防拆保护结构的POS机
+CN
+27.04.2011
+H01R 12/70 Loading...
+H01R 12/70
+Loading...
+201020536442.5
+深圳市新国都技术股份有限公司
+罗水开
+H01R 12/70
+Loading...
+本实用新型公开了一种排线防拆保护结构，包括排线插头和与排线插头拔插式联接的排线插槽，所述的排线插头与排线插槽之间设有若干个电接点，所述若干个电接点中至少有一个是检测电接点，所述的检测电接点与设有的检测保护电路联接。本实用新型由于在排线插头与排线插槽之间至少设有一个检测电接点，并设有检测保护电路，使非法拆离排线插头能被检测保护电路检测到并触发保护动作。本实用新型结构能有效地防止不法分子对排线的拆离，进一步提升电子支付结算设备的安全系数，可大力推广应用于安全系数要求较高的电子设备中，比如POS机、取款机等等。
+124. 201733516 具有三个或三个以上焊接面的PCB板结构
+CN
+02.02.2011
+H05K 1/14 Loading...
+H05K 1/14
+Loading...
+201020213750.4
+深圳市新国都技术股份有限公司
+黄善兵
+H05K 1/14
+Loading...
+本实用新型公开了一种具有三个或三个以上焊接面的PCB板结构，所述的PCB板结构至少设有二块PCB基板，其中至少有一个PCB基板的内部区域为空腔，所述空腔相对应的相邻PCB基板的区域为新增焊接面，所述的新增焊接面上设有电子部件。本实用新型是于现有技术中的双层或多层PCB板结构的基础上进行创新设计的，在其中至少一个PCB基板上挖出空腔，以形成一个新增的焊接面，再利用设于外侧的保护盖板，使得中心挖空的空腔成为一个封闭的安全区域，可以在新增的焊接面贴装设有重要信息的电子部件，比如存储器等IC芯片，进一步可以形成具有安全保密功能的PCB板结构。本实用新型的推广应用有极好的经济效益和社会效益。
+125. 201732434 一种用于金融支付的多功能输入设备
+CN
+02.02.2011
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+201020199336.2
+深圳市新国都技术股份有限公司
+刘祥洪
+G07F 19/00
+Loading...
+本实用新型公开了一种用于金融支付的多功能输入设备，包括微控制器，及与微控制器连接的非接触式IC卡读卡模块、输入按钮、存储器、通讯模块和电源模块；非接触式IC卡读卡模块还连接有感应天线。非接触式IC卡读卡模块和感应天线均设有二个或二个以上。本实用新型大大地减少了消费结算时的时间，保证了结算卡的安全；同时由于在同一输入设备中具有能读取二种或二种以上的银行介质卡的功能，大大地减少了收银设备的生产成本，并为商家节约了使用空间。本实用新型的推广应用有利于保证电子结算的安全，能提高电子结算的普及应用，它的使用能带来极好的社会效益和经济效益。
+126. 201667074 一种数据电路的全封闭保护盒
+CN
+08.12.2010
+G06F 21/02 Loading...
+G06F 21/02
+Loading...
+201020136058.6
+深圳市新国都技术股份有限公司
+黄善兵
+G06F 21/02
+Loading...
+本实用新型公开了一种数据电路的全封闭保护盒，包括用于固设数据电路的底板，底板四周竖直设有侧板，及与侧板上端部联接的盖板；底板上表面设有用于与侧板联接的底板槽；盖板底表面也设有用于与侧板联接的盖板槽；底板槽的内侧设有用于构成全封闭保护电路的底板电接点，盖板槽的内侧设有用于构成全封闭保护电路的盖板电接点，侧板上端设有与盖板电接点对应的侧板上电接点，侧板下端设有与底板电接点对应的侧板下电接点。本实用新型采用了嵌入式的矩形槽结构，完全解决了各个板体之间的安装间隙问题，使各个板体相互联接后变成十分密实的保护盒体结构；具有结构简单、加工成本低、容易安装的特点，可以广泛用于重要数据电路的保护结构中。
+127. 201667770 电路保护盒结构
+CN
+08.12.2010
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201020140075.7
+深圳市新国都技术股份有限公司
+刘祥洪
+H05K 5/06
+Loading...
+本实用新型公开了一种电路保护盒结构，包括用于固设数据电路的底板，底板四周设有围板，围板上方设有盖板，围板的上端内侧设有用于嵌设盖板的凹槽，盖板的四周设有与凹槽对应的凸肩。围板可以包括多个叠加在一起的PCB围框；设于盖板下方的PCB围框为最上层PCB围框，最上层PCB围框的内侧设有前述的凹槽。本实用新型由于采用了多块由单片PCB板加工而成的PCB围框叠加而成的围板，围板上方的盖板还设有凸肩，使盖板与围板形成嵌入式联接，加以螺钉紧固后，形成密实的保护盒，使其具有结构简单、加工成本低、容易安装的特点；本实用新型可以广泛用于重要数据电路的保护结构中，如POS机，银行取款机等。
+128. 201667076 一种机壳防拆保护结构
+CN
+08.12.2010
+G06F 21/02 Loading...
+G06F 21/02
+Loading...
+201020153237.0
+深圳市新国都技术股份有限公司
+罗水开
+G06F 21/02
+Loading...
+本实用新型公开了一种机壳防拆保护结构，机壳包括用于容置数据电路板的壳底和与壳底可拆式连接的壳盖，壳盖与壳底通过螺钉紧固联接；螺钉的紧固结合面设有检测开关；检测开关设有弹性体，弹性体于螺钉紧固时压合，检测开关导通；弹性体于螺钉松开时弹回，检测开关断开。本实用新型比在机壳面板上或电路板上增加保护结构的方式更为简单、成本更低；检测开关还可以直接设在数据电路板上面，导电块则由数据电路板的安装脚构成，使检测开关更具有隐蔽性，不易被察觉；本实用新型的推广应用为数据电路中重要信息的保护又提供了一种低成本、结构又简单的方式，为发展低碳经济提供了有力的技术支持。
+129. 201667101 带有安全保护电路的机壳和POS机
+CN
+08.12.2010
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201020169630.9
+深圳市新国都技术股份有限公司
+韦余红
+G07G 1/12
+Loading...
+本实用新型公开了一种带有安全保护电路的机壳，所述的机壳用于容置数据电路，其特征在于所述的机壳设有一层或多层用于保护数据电路的保护电路。本实用新型直接在数据电路的保护外壳上设有保护电路，在保护数据电路的同时，也保护着数据电路的周边电路。本实用新型充分地利用电子产品现有的结构，相对于单独为数据电路设立一个保护壳体的结构，可以有效地减少对材料的使用，节省成本，有利于低碳经济的发展。本实用新型技术的推广与应用具有极好的社会效益和经济效益。
+130. 201667075 一种用于保护数据电路的螺钉防护装置
+CN
+08.12.2010
+G06F 21/02 Loading...
+G06F 21/02
+Loading...
+201020140079.5
+深圳市新国都技术股份有限公司
+罗水开
+G06F 21/02
+Loading...
+本实用新型公开了一种用于保护数据电路的螺钉防护装置，螺钉用于联接被固定件与基座，被固定件设有用于穿过螺钉的螺钉孔，基座于螺钉孔的对应处设有螺纹孔；被固定件于螺钉孔的四周设有防护盒体，防护盒体上端活动联接有防护盖；防护盖与防护盒体之间设有用于检测防护盖开启动作的防护电路。本实用新型在保护数据电路的螺钉外周增设了防护结构，并且设有检测电路，当防护盖被非法撬开或掀开时，检测电路的检测信号被断开，检测电路会产生触发信号输出至用于保护数据电路中重要信息的清除电路或自毁电路，从而防止不法分子窃取数据电路内的重要信息。它具有结构简单、成本低、易安装的特点，为数据电路的保护提供了一种简单又可靠的解决方案。
+131. WO/2010/118678 BURGLARPROOF DEVICE FOR INFORMATION STORAGE CIRCUIT AND METHOD THEREOF
+WO
+21.10.2010
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+PCT/CN2010/071738
+SHENZHEN XINGUODU TECHNOLOGY CO., LTD.
+WEI, Leo
+G06F 12/14
+Loading...
+A burglarproof device and method for information storage circuit are provided. The burglarproof device comprises a protective housing arranged around the information storage circuit and a burglarproof circuit arranged in the protective housing. The burglarproof circuit comprises a power source, a resistor array circuit connected to the power source, switches arranged in the resistor array circuit, a feedback circuit electrically connected to the resistor array circuit, a controller connected to the feedback circuit and a trigger circuit connected to the controller. The controller randomly outputs different control signals to each switch to compose a dynamically changing resistance network, and each combination of control signals has a matching normal feedback signal stored in the controller; once the burglarproof circuit suffers any breakage, the feedback signal received by the controller does not tally with the normal feedback signal matching with the combination of control signals, and the controller sends a trigger signal to the trigger circuit and the trigger circuit executes protection actions.
+132. 101847299 Method for limiting used space of electronic equipment and device thereof
+CN
+29.09.2010
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+201010142302.4
+Shenzhen Xinguodu Technology Co., Ltd.
+Huang Shanbing
+G07F 19/00
+Loading...
+The invention discloses a method for limiting the used space of electronic equipment, which comprises a fixed end arranged at the center of a used area of the electronic equipment and a mobile end arranged in the electronic equipment, wherein, the fixed end and the mobile end carry out wireless communication within a limited distance; the fixed end is provided with an information processing circuit; the mobile end is provided with a control circuit which limits the authority of using the electronic equipment; after the mobile end and the fixed end are connected by wireless communication, authorization information is obtained after authentication succeeds through the fixed end; the control circuit of the mobile end is open or the authority of using the electronic equipment is continuously opened; and after wireless communication connection between the mobile end and the fixed end fails or authentication fails, the control circuit of the mobile end closes the authority of using the electronic equipment. The method and the device effectively solve the defect in the prior art that a used region for a terminal user of the electronic equipment such as a POS machine and the like can not be limited, thus being beneficial to popularization and extension of electronic transaction, reducing the use of paper currency and being beneficial to development of low carbon economy. The popularization and application of the method and the device have good social benefits and economic benefits.
+133. 101834430 Data circuit protection structure with binding line safety net
+CN
+15.09.2010
+H02H 7/20 Loading...
+H02H 7/20
+Loading...
+201010190421.7
+Shenzhen Xingdu Technology Co., Ltd.
+Wei Yuhong
+H02H 7/20
+Loading...
+The invention discloses a data circuit protection structure with a binding line safety net, comprising a circuit board of a data circuit and a protection circuit connected with a self-destruction detection circuit, wherein, the safety net for protecting the data circuit is fixedly arranged around the data circuit, and the safety net is made of binding lines; and the protection circuit is mainly composed of the safety net. In the invention, a binding line structure bound by an IC is creatively applied to a safety protection structure of the data circuit; and as the existing IC binding line structure is adopted, the existing binding machine can be employed for processing production, thus lowering the production cost of the safety protection circuit of the data circuit, facilitating implementation and having obvious technical improvement. The data circuit protection structure has the characteristics of simple structure and mature production process; and the popularization and application thereof provides a low-cost implementation approach for safety protection of the data circuit.
+134. 101826718 Data circuit safety protection method and structure thereof
+CN
+08.09.2010
+G06F 21/72 Loading...
+G06F 21/72
+Loading...
+201010179935.2
+Shenzhen Xinguodu Technology Co., Ltd.
+Liu Xianghong
+G06F 21/72
+Loading...
+The invention discloses a data circuit safety protection method, and is characterized in that one or more glass plates with protection circuits are used for partitioning or surrounding electronic components with memorized sensitive information, the protection circuits of the glass plates are in network arrangement and are tightly enough, and the protection circuits are connected with a self-destruction detection circuit. The invention further discloses a structure thereof. Glass is used as a carrier for protecting circuits and has friable characteristic so that the glass is fractured due to the effect of external forced destroy; thus, the protection circuits are damaged and detected by the self-destruction detection circuit to start self-destruction function. The invention uses a simple technology that a cage circuit is covered above with reliable connection, and is worth generalization and applied to the protection of various electronic circuits of important information. The generalization and application of the invention can bring perfect social benefit and economic benefit.
+135. 201465237 密码键盘和听筒一体化的电话POS机
+CN
+12.05.2010
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+200920133447.0
+深圳市新国都技术股份有限公司
+刘亚
+G07G 1/12
+Loading...
+本实用新型公开了一种密码键盘与听筒一体化的电话POS机，包括设有电话机本体和与电话机本体联接的话筒，所述的电话机本体上设有显示屏、电话按键和刷卡槽，电话机本体内设有POS微控制器和电话电路，刷卡槽设有与POS微控制器联接的磁条读取器；所述的POS微控制器还联接有密码键盘，所述的密码键盘设于话筒上。本实用新型在电话POS机的基础上，增加了密码键盘并将其设在话筒上，使电话POS机的功能更多，使用更方便，且利用组合的方式，有效地节约产品的成本。在使用过程中能为用户减少使用面积，特别适合收银台面积很小的场所，既达到利用POS机收银的目的，同时具有了电话通讯的功能。本实用新型的应用具有良好的市场前景。
+136. 201440273 一种磁条卡的安全读取装置
+CN
+21.04.2010
+G06K 7/08 Loading...
+G06K 7/08
+Loading...
+200920133468.2
+深圳市新国都技术股份有限公司
+韦余红
+G06K 7/08
+Loading...
+本实用新型公开了一种磁条卡的安全读取装置，包括设有磁道的磁头、与磁头联接的柔性线路板、与柔性线路板联接的磁头信号采集电路及与磁头信号采集电路联接的主控制电路；柔性线路板外围设有环绕保护线，环绕保护线为一环绕于柔性线路板外围的电阻线，每个安全读取装置的电阻线上设有各不相同的用于短接电阻线的电性涂层，以构成阻值各不相同的环绕保护线；电阻线两端与主控制电路联接；主控制电路设有保护信号输出端和保护信号输入端。采用随机加设电性涂层的结构，以构成有效电阻各不相同的产品；而设有二层或二层以上的环绕保护线则可以增加密集度；另外对磁头信号进行混合加密，具有结构简单，可实施性强，成本低，安全系数高的特点。
+137. 101527159 Information storage circuit anti-theft device and method thereof
+CN
+09.09.2009
+G11C 5/00 Loading...
+G11C 5/00
+Loading...
+200910106692.7
+Shenzhen Xinguodu Technology Co., Ltd.
+Wei Yuhong
+G11C 5/00
+Loading...
+The invention discloses an information storage circuit anti-theft device comprising a protective shell arranged around the information storage circuit and a anti-theft circuit arranged in the protective shell, wherein, the anti-theft circuit comprises an electric power, a resistor matrix circuit communicated with the electric power, a switch positioned in the resistor matrix circuit, a reactive circuit communicated with the resistor matrix circuit, a controller communicated with the reactive circuit and a trigger circuit communicated with the controller; the controller randomly outputs different command signals to each switch to compose a dynamically changing resistance network, and each kind of command signal combination all has matchable normal reactive signals stored in the controller; when the anti-theft circuit suffers any destroy, and the reactive signals received by the controller does not match the normal reactive signals matching with the command signals combination, the controller outputs trigger signals to the trigger circuit and the trigger circuit executes protection action. The invention also discloses the method thereof.
+138. 101515389 POS machine system and safe consumption method
+CN
+26.08.2009
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+200910301011.2
+Shenzhen Xinguodu Software Technology Co., Ltd.
+Li Linjie
+G07F 19/00
+Loading...
+The invention discloses a POS machine system and a safe consumption method thereof, and aims to improve safety of credit card consumption. A special POS terminal is connected with a special payment gateway which is connected with a POS server, and the special POS terminal is equipped with a consumption confirmation interface, The method of the present invention includes that the special POS terminal sends consumption sum to the special payment gateway counterfeit consumption sum is generated and sent to the POS server, the special POS terminal displays the consumption confirmation interface, the POS server deducts money and sends counterfeit consumption sum message to handset, card owner inputs the counterfeit consumption sum into the consumption confirmation interface, the special payment gateway checks comparison result, and the POS server cancels counterfeit consumption deduction and deducts according to practical sum. Compared with the prior art, by using random identity checking method, the invention reduces fraudulent use risk and improves safety of credit card consumption.
+139. 1889133 Method for controlling bank card POS equipment
+CN
+03.01.2007
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+200610061682.2
+Xinguodu Technology Co., Ltd., Shenzhen City
+Liu Xiang
+G07F 19/00
+Loading...
+The invention discloses a method to control POS equipment of bank card, the technology problem which need to be solved is to monitor in real time and record the use condition of POS equipment of bank card, the CPU of bank card POS equipment in the invention divides data in equipment operation process into the basis data and the operation data, the basis data stores in the basis data area in random memory in the process of equipment usage, the operation data stores in the operation data area , the CPU preserve , calculate, and report result according to the recorded basis data, CPU stores basis data in the basis data area of the nonvolatile only read memory which can be erased by the electricity when closing bank card POS equipment, stores operation data in the operation data area. The invention compared with the existing technology, CPU calculates according to the recorded basis data, it can locate and analyze the abnormal condition in the process of using, and report the result to improve the utilization ratio of bank card POS equipment data, making full use of the using effect of the memory data.
+140. 2745125 磁卡数据写入电路
+CN
+07.12.2005
+G06K 1/12 Loading...
+G06K 1/12
+Loading...
+200420044601.4
+深圳市新国都技术有限公司
+刘祥
+G06K 1/12
+Loading...
+本实用新型公开了一种磁卡数据写入电路，包括CPU芯片U1、LCD液晶屏U2、读磁头J2及其电路、写磁头J1及其电路、光电检测开关组S1及S2、电源U3，读磁头J2的输出端与CPU芯片U1直接相连，写磁头J1的输入端与CPU芯片U1直接相连，光电检测开关组由两个光电检测开关S1、S2组成，二开关分别与CPU芯片U1相连，CPU芯片U1带有驱动电路，通过数据线直接与LCD液晶屏U2相连，芯片U1直接与按键电路P3相连，向磁头写信号电路送去写信号，读磁头J2与写磁头J1的距离保持恒定，光电检测开关S1、S2的距离保持恒定，解决了磁卡写入器缩小体积问题，具有结构简单、体积小和适用范围广等优点，适用于需要对磁卡进行写操作的各类磁卡写卡器。
+141. 2729827 银行卡安全保护使用系统
+CN
+28.09.2005
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+200420008130.1
+深圳市新国都技术有限公司
+刘祥
+G07F 7/08
+Loading...
+本实用新型公开了一种银行卡安全保护使用系统，读写器(1)由专用CPU芯片、液晶显示屏、按键、磁道读写磁头和电源组成的设备，CPU芯片是一个自行定制含特定算法的芯片，内部带有驱动电路并通过数据线直接与LCD液晶屏相连，CPU芯片直接与按键电路相连控制按键工作，芯片直接与磁头读信号电路相连接收磁头读磁道电路送来的信号，芯片还直接与磁头写信号电路相连，向磁头写信号电路送去写信号，磁头读信号电路和磁头写信号电路分别直接与磁头连接，解决了金融系统的安全问题，具有易于实施、安全可靠等优点，可广泛用于金融业或具有一定安全性要求的非金融业用磁卡。
+142. 1564182 Magnetic card data writing circuit and usage thereof
+CN
+12.01.2005
+G06K 1/00 Loading...
+G06K 1/00
+Loading...
+200410026808.3
+Xinguodu Tech Co., Ltd., Shenzhen
+Liu Xiang
+G06K 1/00
+Loading...
+The circuit possessing feedback mechanism is capable of controlling and adjusting speed for writing data to magcard. Photoelectric detection switch S1, S2 is connected to CPU in order to transfer initialization speed signal of moving magcard to the CPU. Input end of writing magnetic head J1 is connected to CPU in order to convert output electric signal from CPU to magnetic signal to write on magcard. Output end of reading magnetic head J2 is connected to CPU in order to transfer magnetic data on magcard to electric signal to transfer to CPU. Advantages are: small size, less quantity of parts, simple structure and wide application. The invention is available to magcard writer.
+143. 1558379 Bank card usage method and system for security protection
+CN
+29.12.2004
+G07F 7/08 Loading...
+G07F 7/08
+Loading...
+200410015180.7
+Shenzhen Xinguodu Technology Co., Ltd.
+Liu Xiang
+G07F 7/08
+Loading...
+The present invention discloses one kind of bank card safety protecting method and system. The local bank card processing center or bank card issuing party is equipped with magnetic track data modifying equipment to modify the information, and the modified bank card is used in the financial payment terminal, where the data in the card are fed to the local bank card processing center and the bank card issuing party to restore the modified data. The information is finally fed to the bank card business system for executing corresponding function. The present invention solves the safety problem of the financial system, has the advantages of easy realizing, being safe and reliable, etc. and may be used widely in settlement, consumption, deposition, etc.
+

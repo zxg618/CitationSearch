@@ -1,0 +1,97 @@
+1. 106506047 一种低压电力线的载波通信方法、装置及系统
+CN
+15.03.2017
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+102016001185119
+创达特（苏州）科技有限责任公司
+瞿俊杰
+H04B 3/54
+Loading...
+本发明公开了一种低压电力线的载波通信方法、装置及系统，其中，方法包括：获取通信数据，通信数据包括帧控制数据和用户数据，用户数据为通信传输的数据，帧控制数据为用于辅助解码用户数据的数据；在信道状态未知的情况下，采用正交空时块码对通信数据进行编码，生成多路发射信号；将多路发射信号分别通过三相电力线发送至电能表。本发明充分利用电力线中高频率上电信号相间耦合显著的特性，采用多种空时编解码技术，提高集中器和电能表之间电力线载波通信的可靠性。
+2. 106452621 一种峰值功率、峰均值功率比的确定方法及装置
+CN
+22.02.2017
+H04B 17/309 Loading...
+H04B 17/309
+Loading...
+201610566705.9
+创达特（苏州）科技有限责任公司
+瞿俊杰
+H04B 17/309
+Loading...
+本发明涉及信号处理领域，具体涉及一种峰值功率、峰均值功率比的确定方法及装置。其中，峰值功率的确定方法包括：获取当前采样时刻的采样功率；将当前采样时刻的采样功率与当前采样时刻的估计峰值功率进行比较；当当前采样时刻的采样功率大于当前采样时刻的估计峰值功率时，将当前采样时刻的采样功率确定为当前采样时刻的实际峰值功率。通过本发明，提高了峰值功率的检测效率，并且能够在每个采样时刻实时确定出峰值功率。
+3. 105357164 多载波接收机、多载波发射机及多载波收发系统
+CN
+24.02.2016
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201510686370.X
+南京创达特网络科技有限公司
+赖昶铭
+H04L 27/26
+Loading...
+本揭露公开了一种多载波接收机、多载波发射机及多载波收发系统。此多载波接收机包括至少第一处理单元、路由式交换器与第二处理单元。第一处理单元具有M个第一路径，对至少一射频信号进行信号强度处理以输出子载波信号。路由式交换器具有M个输入端与N个输出端，而M个输入端分别耦接至M个第一路径，接收子载波信号。路由式交换器将子载波信号输出到N个输出端，且根据一控制信号，选择将每一输入端连接到至少一输出端或不连接至任何输出端。第二处理单元具有N个第二路径分别耦接至N个输出端，对子载波信号进行一解调与一模拟数字转换以产生数字信号，其中M为大于0的整数，N为大于1的整数。
+4. 102404267 多载波接收机、多载波发射机及多载波收发系统
+CN
+04.04.2012
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201110202082.4
+南京创达特网络科技有限公司
+赖昶铭
+H04L 27/26
+Loading...
+本揭露公开了一种多载波接收机、多载波发射机及多载波收发系统。此多载波接收机包括至少第一处理单元、路由器与第二处理单元。第一处理单元具有M个第一路径，对至少一射频信号进行信号强度处理以输出子载波信号。路由器具有M个输入端与N个输出端，而M个输入端分别耦接至M个第一路径，接收子载波信号。路由器将子载波信号输出到N个输出端，且路由器的每一输出端所接收的信号包含每一输入端的子载波信号。第二处理单元具有N个第二路径分别耦接至N个输出端，对子载波信号进行一解调与一模拟数字转换以产生数字信号，其中M与N都大于0。
+5. 101421721 Vdsl2 transmitter/receiver architecture
+CN
+29.04.2009
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200680053603.1
+Triductor Technology Suzhou In
+Tan Yaolong
+G06F 17/14
+Loading...
+The invention suggests a novel pipeline FFT/IFFT architecture that not only produces time-domain samples (after IFFT) but also pushes time-domain samples into FFT in a time-based sequential order. This reduces external memory requirement for buffering the time-domain samples. Also the design is based on a mixed radix-2 and radix-22 algorithm aiming at reducing number of multipliers and adders. Compared with other FFT/IFFT design methodologies such as radix-4, it achieves the minimum multiplier use, the minimum adder use and the minimum operating memory use. On the other hand, the design architecture not only can support different FFT/IFFT size required by different VDSL2 profiles but also utilizing a novel pipeline control mechanism to reduce logic switching at low-speed profiles. This effectively further reduces the power consumption at lower profiles and enables our VDSL2 digital chipsets to compete with ADSL2+ systems in terms of power consumption.
+6. 101422004 Time-domain equalizer
+CN
+29.04.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200680053602.7
+Triductor Technology Suzhou In
+Tan Yaolong
+H04L 25/03
+Loading...
+The present invention provides a cost-effective TEQ hardware architecture to support multiple VDSL2 profiles. It supports variable TEQ tap length programmable through firmware. Larger TEQ tap length at low-speed profiles is supported by the unique design without adding additional multipliers. The maximum number of TEQ taps supported is actually inversely proportional to the profile frequency. This perfectly meets the requirement to have longer TEQ for low-speed profile and shorter TEQ for high-speed profile.
+7. 101405984 A multi-channel timing recovery system
+CN
+08.04.2009
+H04L 7/02 Loading...
+H04L 7/02
+Loading...
+200680053409.3
+Triductor Technology Suzhou In
+Tan Yaolong
+H04L 7/02
+Loading...
+The present invention discloses a novel multi-channel timing recovery scheme that utilizes a shared CORDIC to accurately compute the phase for each tone. Then a hardware-based linear combiner module is used to reconstruct the best phase estimate from multiple phase measurements. The firmware monitors the noise variance for the pilot tones and determines the corresponding weight for each tone to ensure that the minimum phase jitter noise is achieved through the linear combiner. Then a hardware-based second-order timing recovery control loop generates the frequency reference signal for VCXO or DCXO. A single sequentially controlled multiplier is used for all multiplications in the control loop.
+8. 101390293 A four-stage pipeline based vdsl2 viterbi decoder
+CN
+18.03.2009
+H03M 13/41 Loading...
+H03M 13/41
+Loading...
+200680053330.0
+Triductor Technology Suzhou In
+Tan Yaolong
+H03M 13/41
+Loading...
+The invention discloses a novel method to divide the whole decoding process of the Viterbi decoder into four pipeline stages and the Viterbi decoder therefore. With an appropriate choice on the system clock, the invention trade-off the decoding speed with the hardware cost so that the designed Viterbi decoder is able to satisfy the decoding speed requirement for the highest speed profile in VDSL2 systems, 30MHz profile. At the same time, with four- stage pipeline to just enough to meet the speed requirement, the hardware cost for the new designed Viterbi decoder is reduced compared with single-staged decoding.
+

@@ -1,0 +1,241 @@
+1. 104902265 一种基于背景边缘模型的摄像机异常检测方法及系统
+CN
+05.04.2017
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201510266956.0
+深圳市赛为智能股份有限公司
+陈雁
+H04N 17/00
+Loading...
+本发明公开了一种基于背景边缘模型的摄像机异常检测方法及系统，采用PBAS前景检测方法提取出前景图，并通过加权随机更新得到背景样本图，能在光照条件复杂和大量人群活动的场景下进行正确检测，对噪声不敏感，抗干扰能力强；通过边缘检测提取边缘特征，并结合自适应的边缘阈值初步判断摄像机的异常情况，可以快速地初步判断摄像机的所有异常情况，消耗CPU和内存资源均较少；采用surf角点特征来排除将监控画面中出现一群人的正常情况误报为摄像机异常的现象，增加了异常检测的准确性。本发明可广泛应用于视频监控领域。
+2. 106295571 光照自适应的人脸识别方法及系统
+CN
+04.01.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016000658765
+深圳市赛为智能股份有限公司
+陈雁
+G06K 9/00
+Loading...
+本发明公开了一种光照自适应的人脸识别方法，所述光照自适应的人脸识别方法包括以下步骤：采集多张人脸图片，并将获取的人脸图片按照光照强度的等级保存至相应的数据库；根据当前光照强度等级对应数据库中的人脸图片与当前拍摄的测试样本，获取当前光照强度时的测试样本的自相似度；测算当前光照强度时测试样本的图像特征最优阈值；比较当前光照强度时测试样本的自相似度与图像特征最优阈值，从而确定测试样本的分类结果。本发明还公开了一种光照自适应的人脸识别系统。本发明实现了光照自适应的调整最优阈值，提高了人脸识别分类结果的准确性，因此增加了人脸识别系统的稳定性。
+3. 106250877 近红外人脸识别方法及装置
+CN
+21.12.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610695263.8
+深圳市赛为智能股份有限公司
+陈雁
+G06K 9/00
+Loading...
+本发明提供一种近红外人脸识别方法及装置，通过一种人脸自动检测的方法捕捉视频帧中基于近红外的人脸图片，利用一种改进的局部二值算法对捕捉到的人脸图片进行处理，然后利用深度学习算法中的卷积神经网络架构提取人脸图片的特征向量，融合为人脸特征，最后将重新获取的人脸特征通过分类器进行分类匹配和识别，输出识别结果。本发明的近红外人脸识别方法及装置对光照的鲁棒性较强，解决了现有的人脸识别受环境光照影响较大，识别性能较差的技术问题，识别准确率高、适用性强。
+4. 105740751 一种目标检测与识别的方法和系统
+CN
+06.07.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102014000764839
+深圳市赛为智能股份有限公司
+陈雁
+G06K 9/00
+Loading...
+本发明公开了一种目标检测与识别的方法及系统。方法包括步骤：S1，获取候选目标；S2，计算候选目标的位置信息和大小信息；S3，根据候选目标的位置信息和大小信息计算候选目标属于对应类别的概率Px；S4，将概率Px与预先设定的概率阀值Pt进行比较，判断候选目标是否属于对应类别。系统包括：目标检测模块、计算模块和比对模块。本发明利用了图像上下文中的位置信息，并根据目标在该位置出现的可能性来对目标进行分类，用以协助判断是否为可能的目标，有效的排除图像中的干扰项，提高目标检测与识别的准确度，降低误报率，有利于图像数据的下一步分析与处理。本发明可广泛应用于各种目标识别系统。
+5. 104966304 基于卡尔曼滤波与非参数背景模型的多目标检测跟踪方法
+CN
+07.10.2015
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+201510310398.3
+深圳市赛为智能股份有限公司
+孙凯
+G06T 7/20
+Loading...
+本发明公开了一种基于卡尔曼滤波与非参数背景模型的多目标检测跟踪方法，包括：获取视频帧及相应的灰度图像；采用非参数背景建模法对获取的灰度图像进行运动前景分割，得到视频帧的二值MASK图；采用实时的线性标记算法对视频帧的二值MASK图进行联通域处理，得到运动目标联通域；分别采用卡尔曼滤波器和基于滑动窗口的检测方法对运动目标联通域进行跟踪与检测，从而得到运动目标的跟踪序列与检测序列；将运动目标的跟踪序列与检测序列进行融合，得出最终的目标队列。本发明采用了跟踪与检测的融合技术，效率更高；运算简单，在满足实时性要求的同时也提高了跟踪检测结果的准确性。本发明可广泛应用于视频监控领域。
+6. 104077776 Visual background extracting algorithm based on color space self-adapting updating
+CN
+01.10.2014
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201410300977.5
+深圳市赛为智能股份有限公司
+韦贞乐
+G06T 7/00
+Loading...
+The invention discloses a visual background extracting algorithm based on color space self-adapting updating. The algorithm includes the steps that a sample set is built for pixels of a standard video frame, the emerging times of each sample are counted, and a standard model is obtained; a pixel of a video frame to be tested is compared with a pixel of the standard model, minimum distance seek calculation is carried out, and accordingly foreground segmentation is carried out on the pixel of the video frame to be tested; credibility and self-adaptive update factors of samples in the standard model are calculated, and the samples are dynamically updated according to the self-adaptive update factors; difference and histogram analysis is carried out on foreground pictures obtained through foreground segmentation and background pictures in a YUV color space, and then shadows of foreground pixels are recognized and eliminated according to results of the histogram analysis and color characteristic differences. Due to color characteristic difference recognition and foreground pixel shadow elimination, accuracy is higher; dynamic updating is carried out through the self-adaptive updating factors, and the algorithm is more flexible and accurate and can be widely used in the field of computer visual analysis.
+7. 104008554 Railway line small target detecting method and system based on video
+CN
+27.08.2014
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201410270128.X
+深圳市赛为智能股份有限公司
+林必毅
+G06T 7/00
+Loading...
+The invention provides a railway line small target detecting method and system based on video. By adopting the nerve cell simulation mode in video detection, foreground cutting based on the frame level is further increased, and therefore the situation that a large area of fuzzy images is generated due to intense illumination change can be dealt with. When pixels, with the number larger than a ratio threshold, existing in screens are judged to belong to a foreground, the foreground obtained through foreground cutting based on colors is considered to be no longer reliable. At the moment, the outline of the foreground can be obtained by using gradient characteristic values for cutting, and therefore the complete foreground can be obtained after it is guaranteed that pixels in the outline are filled.
+8. 103984941 Face recognition checking-in method and device thereof
+CN
+13.08.2014
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201410255700.5
+深圳市赛为智能股份有限公司
+邱敏娜
+G06K 9/00
+Loading...
+The invention provides a face recognition checking-in method and a device thereof. Front and side face images of a person are obtained in the face checking-in process, then collected face images in two directions of the front and the side are matched, and the method can be switched into a normal identification process only if the collected pictures of two angles are successfully matched, so as to effectively overcome the problem of false attendance by using the picture. By adopting the scheme, not only is the recognition accuracy rate and efficiency of a face attendance machine not affected, but also the problem of false attendance by using the picture can be quickly and effectively overcome.
+9. 103824574 Video data storage method and system capable of supporting code stream switching
+CN
+28.05.2014
+G11B 20/10 Loading...
+G11B 20/10
+Loading...
+201410065673.5
+深圳市赛为智能股份有限公司
+汪勇
+G11B 20/10
+Loading...
+The invention discloses a video data storage method and system capable of supporting code stream switching. The method comprises the steps that after a trigger video instruction is received, whether an execution storage task exists or not is judged, when it is judged that the execution storage task exists, whether a first storage code stream of a new storage task corresponding to a newly received video task trigger instruction is higher than a second storage code stream of the execution storage task or not is judged, if yes, the rest execution time is calculated according to the executed time and video duration time in the execution storage task, and then a new storage task is executed after the video data in the next second in the execution storage task are received; if not, the rest execution time is calculated according to the executed time and video duration time of the execution storage task, then the execution storage task is continuously executed in the rest execution time, and the new storage task is executed at the next second after the execution storage task is completed. Through the video data storage method and system, high code streams and low code streams are flexibly switched in the video data storage process to achieve seamless splicing video storage.
+10. 103218706 工作流文件生成方法及设备、生成执行方法及系统
+CN
+24.07.2013
+G06Q 10/10 Loading...
+G06Q 10/10
+Loading...
+201310089592.4
+深圳市赛为智能股份有限公司
+顾文锦
+G06Q 10/10
+Loading...
+本发明公开一种工作流文件生成方法，包括：配置节点和节点间的连接线生成流程图，其中，所述节点配置有节点属性，节点属性包含基本属性，基本属性包括节点ID、名称及描述；根据节点属性确定工作流活动库中与节点相应的工作流活动，并按照流程图顺序依次将节点转换为相应的工作流活动，生成工作流文件。本发明公开一种工作流文件生成设备和工作流文件生成执行方法及系统。
+11. 103077200 一种音视频存储索引方法及装置
+CN
+01.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210576964.1
+深圳市赛为智能股份有限公司
+汪勇
+G06F 17/30
+Loading...
+本发明公开一种音视频存储索引方法，包括：S1、构建某个存储通道的段索引表，其中，所述段索引表包括当前段音视频的开始时间、结束时间、磁盘组号、逻辑分区名、文件名、文件ＩＤ、秒索引偏移位置、流媒体头长度、文件大小、是否有告警、连续号；S2、通过逻辑分区名与文件名映射音视频段，通过文件名映射秒级索引文件；S3、通过段索引表及秒级索引文件按音视频段的连续性返回结果集，其中，所述结果集为所有在查询时间范围内的音视频段资源链表，所述音视频段资源链表包含PlaySeek、开始时间、结束时间、逻辑分区名、文件名、秒索引偏移位置、流媒体头长度。本发明公开一种音视频存储索引装置。
+12. 103077401 一种基于光流上下文直方图的异常行为检测方法及系统
+CN
+01.05.2013
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201210579252.5
+深圳市赛为智能股份有限公司
+陈雁
+G06K 9/62
+Loading...
+本发明公开一种基于光流上下文直方图的异常行为检测方法，包括：获取，计算多个有异常行为和无异常行为的视频中每个视频的行为序列对应的基于光流上下文直方图序列；对所述基于光流上下文直方图进行降维；将经过降维后的元素输入至学习方法通过学习得到用于识别异常行为序列类别的向量；计算待检测视频的行为序列对应的基于光流上下文直方图序列；对所述基于光流上下文直方图进行降维；对降维后的元素进行计算得到测试向量；根据所述测试和识别向量确定待检测视频中行为序列的类别。本发明公开一种基于光流上下文直方图的异常行为检测系统。
+13. 202481100 轨道交通指挥调度系统
+CN
+10.10.2012
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201120550633.1
+深圳市赛为智能股份有限公司
+林必毅
+B61L 27/00
+Loading...
+本实用新型公开一种轨道交通指挥调度系统，包括调度主机和至少一个电脑调度台，所述调度主机和所述电脑调度台互相连接进行数据通讯，所述调度主机具有用于连接外部设备并与外部设备进行通信的外设接口，所述电脑调度台包括主控装置、显示屏和计算机输入装置，所述显示屏和计算机输入装置均连接主控装置，所述主控装置连接至所述调度主机。本实用新型的调度系统中以电脑调度台替代了原来的调度键盘，通过电脑来实现显示和操作指令的输入，根据电脑强大的软硬件资源，可以实现传统的调度键盘的全部功能，同时增加了操作的便捷性和非常容易的功能扩展等优点。
+14. 201354750 风机及其水泵节电装置
+CN
+02.12.2009
+F04D 27/00 Loading...
+F04D 27/00
+Loading...
+200820147411.3
+深圳市赛为智能股份有限公司
+周勇
+F04D 27/00
+Loading...
+本实用新型提供一种风机及其水泵节电装置，所述节电装置包括：风压检测单元，用于检测所述风机输出风的压力并得到所述压力信号；变频处理单元，用于接收变频信号，并依据所述变频信号控制所述风机电机的运转频率；中央处理单元，其连接所述风压检测单元和变频处理单元，用于接收、处理以及发送信号，包括接收所述风压检测单元得到的所述压力信号，根据压力风量关系得到风机的实测风量，在所述实测风量大于工作风量要求时，输出要求降低所述风机电机运转频率的所述变频信号到所述变频处理单元。本实用新型可有效降低风机的能耗。
+15. 201322411 中央空调节电装置
+CN
+07.10.2009
+F24F 11/02 Loading...
+F24F 11/02
+Loading...
+200820147410.9
+深圳市赛为智能股份有限公司
+周勇
+F24F 11/02
+Loading...
+本实用新型提供一种中央空调节电装置，所述中央空调节电装置包括：检测空调水循环系统进水点和出水点的温度的温度检测单元；接收变频信号，并依据所述变频信号控制所述水循环系统中水泵电机的运转频率的变频处理单元；接收、处理以及发送信号的中央处理单元，接收所述温度检测单元得到的所述进水点和出水点温度，计算得到所述进水点和出水点的实际温度差，在所述实际温度差小于设定温度差时，计算出将所述实际温度差调节为所述设定温度差的变频信号，并输出所述变频信号到所述变频处理单元。本实用新型可有效节省空调系统中的电能。
+16. 201264350 注塑机节电装置
+CN
+01.07.2009
+B29C 45/76 Loading...
+B29C 45/76
+Loading...
+200820147409.6
+深圳市赛为智能股份有限公司
+周勇
+B29C 45/76
+Loading...
+本实用新型提供一种注塑机节电装置，包括：状态检测单元，用于检测注塑机控制系统的工作状态信号；流量压力检测单元，用于检测并得到所述注塑机内液压油的流量和压力；变频处理单元，用于接收变频信号，并依据所述变频信号控制为所述注塑机提供液压油的液压水泵电机的运转频率；中央处理单元，用于接收所述状态检测单元得到的工作状态信号以及流量压力检测单元得到的流量压力检测信号，根据注塑机当前的工作状态得到所述状态下的工作压力及工作流量要求，在所述检测到的流量压力大于所述工作压力及工作流量要求时，输出要求降低所述液压水泵电机运转频率的所述变频信号到所述变频处理单元。本实用新型可有效降低液压系统的能耗。
+17. 201267038 智能照明节电装置
+CN
+01.07.2009
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+200820200836.6
+深圳市赛为智能股份有限公司
+周勇
+H05B 37/02
+Loading...
+本实用新型属于照明设备技术领域，涉及一种照明节电装置，包括电源总输入端、由调零型自耦变压器和接触器构成的切换器以及输出端，调零型自耦变压器包括起端、止端以及多个抽头，接触器包括旁路接触器、节电接触器、多个节电等级控制接触器，电源总输入端的低位端子与所述输出端的低点端子直接相接，本实用新型的智能照明节电装置还包括控制器以及受控制器控制并分别驱动各个接触器的继电器。本实用新型提供的智能照明节电装置，具有下列优点：节电率提高，换档不断电，无谐波，提高功率因数，在电网电压升高时可以保障得到最大的节电率，在电网电压降低时又保证不会出现灯具熄灯的现象，提高灯具的使用寿命。
+18. 101363654 Power-saving device of central air-conditioning
+CN
+11.02.2009
+F24F 11/02 Loading...
+F24F 11/02
+Loading...
+200810142199.6
+Shenzhen Sunwin Intelligent Technology Co., Ltd.
+Zhou Yong
+F24F 11/02
+Loading...
+The invention provides a power saving device used in a central air conditioner, which comprises a temperature detection unit for detecting the temperature of the water inlet and the water outlet of an air conditioning water circulation system; a frequency conversion processing unit for receiving frequency conversion signals and controlling the running frequency of a water pump motor in the water circulation system; a central processing unit for receiving, processing and sending signals which comprise the processes of receiving the temperature of the water inlet and water outlet obtained by the temperature detection unit, calculating the actual temperature difference of the water inlet and the water outlet, calculating a frequency conversion signal which regulates the actual temperature difference to the pre-determined temperature difference and outputs the frequency conversion signal to the frequency conversion processing unit when the actual temperature difference is less than the preset temperature difference. The power saving device can effectively save electric energy for the air conditioning system.
+19. 101362376 Power-saving device of injection moulding machine
+CN
+11.02.2009
+B29C 45/76 Loading...
+B29C 45/76
+Loading...
+200810142197.7
+Shenzhen Sunwin Intelligent Technology Co., Ltd.
+Zhou Yong
+B29C 45/76
+Loading...
+The invention provides a power saving device of an injection molding machine, which comprises a state detecting unit used for detecting a working state signal of a control system of the injection molding machine; a flow-pressure detecting unit used for detecting and obtaining the flow and the pressure of the hydraulic oil in the injection molding machine; a variable frequency processing unit used for receiving a variable frequency signal and controlling the operating frequency of a hydraulic pump motor providing hydraulic oil for the injection molding machine according to the variable frequency signal; and a central processing unit used for receiving the working state signal obtained by the state detecting unit and the flow-pressure detecting signal obtained by the flow-pressure detecting unit. According to the current working state of the injection molding machine, the working pressure and the working flow requirements under the state are obtained, and when the detected flow pressure is higher than the requirements of the working pressure and the working flow, the variable frequency signal requiring to reduce the operating frequency of the hydraulic pump motor is transmitted to the variable frequency processing unit. The power saving device can effectively reduce the energy consumption of the hydraulic system.
+20. 101363446 Power-saving device of blower fan water pump
+CN
+11.02.2009
+F04D 27/00 Loading...
+F04D 27/00
+Loading...
+200810142198.1
+Shenzhen Sunwin Intelligent Technology Co., Ltd.
+Zhou Yong
+F04D 27/00
+Loading...
+The invention relates to an electricity-saving device of a fan and a water pump. The device comprises: a wind pressure detecting unit which is used for detecting the pressure of wind output by the fan to obtain the pressure signal; a conversion processing unit which is used for receiving conversion signals and controlling the operation frequency of a fan motor according to the conversion signal; a central processing unit which is used for receiving, processing and transmitting signals, including the steps of receiving the pressure signals obtained by the wind pressure detecting unit, obtaining the actually measured air volume of the fan according to pressure air volume relation, and outputting the conversion signal which requires to reduce the operation frequency of a fan motor to the conversion processing unit. The electricity-saving device of the fan and the water pump can effectively reduce the energy consumption of the fan.
+

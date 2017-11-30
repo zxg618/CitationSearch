@@ -1,0 +1,73 @@
+1. 106603378 一种即时通信软件的网络检测方法
+CN
+26.04.2017
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+102015000669427
+北京慧点科技有限公司
+姜晓丹
+H04L 12/58
+Loading...
+本发明公开了一种即时通信软件的网络检测方法，包括以下步骤，第一步：客户端向控制服务器发送HTTP请求，若控制服务器返回即时通讯服务器地址，则进入第二步；若无响应，则客户端对本机进行DNS解析并向外网服务器发送外网网络检测包，进行故障检测并处理，重复第一步；第二步：客户端连接即时通讯服务器地址，如果连接成功，则客户端通过即时通信软件连接即时通讯服务器进行即时通讯；进入第三步；如果连接失败，客户端向即时通讯服务器发送即时通讯网络检测包，进行故障检测并处理，重复第二步；第三步：即时通讯的过程中，客户端实时向即时通讯服务器发送即时通讯网络检测包进行故障检测并处理，重复第三步，直至即时通讯完成。
+2. 103399734 生成REST服务和REST实现的方法及对应的设备
+CN
+08.02.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102013000288983
+北京慧点科技有限公司
+姜晓丹
+G06F 9/44
+Loading...
+本发明涉及计算机技术领域，尤其涉及生成REST服务和REST实现的方法及对应的设备。用以解决现有采用人工编码的方式生成REST服务和REST实现效率低且代码质量难以保证的问题。本发明公开的生成REST服务的方法包括：服务器扫描Java应用程序编程接口API的各服务接口，获取每一个服务接口对应的接口信息；针对每一个服务接口，服务器根据该服务接口对应的接口信息生成对应的REST服务类的类文件；针对每一个REST服务类，服务器生成对应的REST服务。本发明实施例提供的方法具有效率高、生成代码准确的优点。
+3. 105302779 一种文本相似度比对方法及装置
+CN
+03.02.2016
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+201510695861.0
+北京慧点科技有限公司
+姜晓丹
+G06F 17/21
+Loading...
+本申请一种文本相似度比对方法及装置，首先以文本为粗粒度，采用词的浅层相似度筛选出第一文本集合，进一步，通过计算第一文本与待对比文本的句子的浅层相似度、信息熵相似度和浅语义相似度，确定第一文本与待对比文本的细粒度文本相似度，筛选出细粒度文本相似度超过第二阈值的第一文本，确定为相似文本。本申请中参考文本的具体特征项和特征值与待对比文本相关，因此增强了对比效果和精确度。
+4. 105100246 一种基于下载资源名称的网络流量管控方法
+CN
+25.11.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510455456.1
+北京慧点科技有限公司
+姜晓丹
+H04L 29/08
+Loading...
+本发明公开了一种基于下载资源名称的网络流量管控方法。该方法包括接收请求报文；识别所述请求报文中的下载资源链接；如果识别成功，则解析所述请求报文，提取下载资源名称。从网络流量中提取下载资源名称，可以进一步根据下载资源名称进行网络流量的管理和控制。本发明具有针对下载流量识别细化的功能，将识别粒度的精细度加大，可以使用户对下载流量的审计和管控更加精细，对下载流量有更深层次的信息提取。
+5. 104966136 一种流程执行动态预测方法
+CN
+07.10.2015
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201510352776.4
+北京慧点科技有限公司
+姜晓丹
+G06Q 10/04
+Loading...
+本发明公开了一种流程执行动态预测方法，属于计算机技术领域。本发明在客户端用户UI界面上，提供了一个流程流转的下一步详细预测信息，完整显示了流程运行到下一步的所走的详细路径以及匹配的规则，同时也显示了下一步用户的详细信息，还可以展开用户间的即时沟通。当用户在业务表单上进行了填写和修改操作，表单上的与流程相关的业务数据会预先提交给后台流程引擎，流程引擎根据用户提交的数据进行预测执行，并及时返回流程的下一步运转所停在的环节的详细信息返回给用户UI端显示。本发明极大地改变了目前工作流或业务流程执行操作中的用户体验，能够将未来流程的信息，通过动态预测即时的展现给操作用户，方便了流程内的人员的沟通协作。
+6. 103902261 Method and device for processing software resource
+CN
+02.07.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210570539.1
+北京慧点科技有限公司
+吕翊
+G06F 9/44
+Loading...
+The invention relates to the field of computers, in particular to a method and device for processing a software resource. The method and device for processing the software resource are used for solving the problem that in the prior art, the international software resource is processed complexly. The method for processing the software resource comprises the steps that replacing marks in a general JavaScript file are determined, wherein the positions, corresponding to the content of different languages in a software resource file, in the JavaScript file are provided with the replacing marks; according to the software resource file of one language, the replacing marks in the general JavaScript file are replaced by the content, corresponding to the replacing marks in the software resource file, of the software resource file. According to the method for processing the software resource, the general JavaScript file can be automatically converted into JavaScript files corresponding to different languages, and the problem that in the prior art, the international software resource is processed complexly is solved.
+

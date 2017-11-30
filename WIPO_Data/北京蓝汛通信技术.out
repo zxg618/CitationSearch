@@ -1,0 +1,469 @@
+1. 103312716 一种访问互联网信息的方法及系统
+CN
+10.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000247175
+北京蓝汛通信技术有限责任公司
+许会荃
+H04L 29/06
+Loading...
+本发明公开了一种访问互联网信息的方法及系统，用以提高用户访问网页的访问速度。本发明提供的访问互联网信息的方法，包括：当客户端向网络侧发起访问某一域名的请求消息时，客户端根据预先存储的来自中央控制器的访问策略、客户端的本地配置策略、来自后台代理服务器的访问策略，以及自身预先生成的访问策略，确定访问所述域名的访问路径；客户端根据所述访问路径获取目标网站的内容。
+2. 104270379 HTTPS proxy forwarding method and device based on transmission control protocol
+CN
+07.01.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410542568.6
+北京蓝汛通信技术有限责任公司
+朱磊
+H04L 29/06
+Loading...
+The invention discloses an HTTPS proxy forwarding method and device based on a transmission control protocol. The method comprises the steps that transmission control protocol connection is set up between a certificateless HTTPS proxy server and a client side; the certificateless HTTPS proxy server receives a security socket layer connection request from the client side; the certificateless HTTPS proxy server obtains a source station domain name by analyzing the security socket layer connection request; the certificateless HTTPS proxy server obtains a source station network interconnection protocol address corresponding to the source station domain name by inquiring a computer domain name system server; transmission control protocol connection is set up between the certificateless HTTPS proxy server and a source station corresponding to the source station network interconnection protocol address, and the certificateless HTTPS proxy server forwards the security socket layer connection request to a source station corresponding to the source station network interconnection protocol address. Through the HTTPS proxy forwarding method and device based on the transmission control protocol, a general HTTPS proxy forwarding function is achieved, and meanwhile the effect of saving IP sources is achieved.
+3. 103560937 Data accessing method and entry server
+CN
+05.02.2014
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201310535225.2
+北京蓝汛通信技术有限责任公司
+朱磊
+H04L 12/28
+Loading...
+The invention discloses a data accessing method and an entry server. The data accessing method comprises the steps that the entry server receives access request information to be transmitted, and the access request information is used for accessing data on a target server; the entry server obtains link information between the entry server and the target server, wherein the link information is dynamically distributed by a configuration system; the entry server sends the access request information to the target server according to the link information. The data accessing method and the entry server solve the technical problem that due to the fact that a transmitting port of an existing TCP proxy server is fixed in advance, a user can only conduct manual modification and dynamic modification cannot be realized, the link utilization rate is improved through link dynamic distribution and the data transmission speed is improved.
+4. 103501358 Domain name hosting management method and device
+CN
+08.01.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310430632.7
+北京蓝汛通信技术有限责任公司
+李孟
+H04L 29/12
+Loading...
+The invention discloses a domain name hosting management method and device. The method includes the steps that on an NS domain name resolution server, a wildcard domain name serves as an NS domain name, and records A of the wildcard domain name are configured on the NS domain name resolution server; when a domain name hosting request is received, a NS domain name specific for the domain name with the hosting requirements is allocated to the domain name with the hosting requirements on a hosting domain name resolution server in the configuration process of the domain name (zone) with the hosting requirements, and NS records of the domain name with the hosting requirements are configured according to the allocated specific NS domain name.
+5. 103312724 一种DNS请求的认证方法及设备
+CN
+18.09.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310280983.4
+北京蓝汛通信技术有限责任公司
+李孟
+H04L 29/06
+Loading...
+本发明实施例公开了一种DNS请求的认证方法及设备，包括：DNS校验设备接收到DNS请求消息后进行解析；若所述DNS请求消息中未携带校验码，则采用校验码生成算法并利用从当前接收到的DNS请求消息中解析出的信息生成校验码，将生成的校验码携带于应答消息返回给所述DNS客户端；若所述DNS请求消息中携带有校验码，则采用所述校验码生成算法并利用从当前接收到的DNS请求消息中解析出的信息生成校验码，根据生成的校验码与从当前接收到的DNS请求消息中解析出的校验码，对当前接收到的DNS请求消息的合法性进行验证。本发明实施例可以提高DNS请求认证的安全性。
+6. 103312716 一种访问互联网信息的方法及系统
+CN
+18.09.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310247175.8
+北京蓝汛通信技术有限责任公司
+许会荃
+H04L 29/06
+Loading...
+本发明公开了一种访问互联网信息的方法及系统，用以提高用户访问网页的访问速度。本发明提供的访问互联网信息的方法，包括：当客户端向网络侧发起访问某一域名的请求消息时，客户端根据预先存储的来自中央控制器的访问策略、客户端的本地配置策略、来自后台代理服务器的访问策略，以及自身预先生成的访问策略，确定访问所述域名的访问路径；客户端根据所述访问路径获取目标网站的内容。
+7. 103297349 一种网络资源提供方式的调整方法及装置
+CN
+11.09.2013
+H04L 12/859 Loading...
+H04L 12/859
+Loading...
+201310209569.4
+北京蓝汛通信技术有限责任公司
+周兴博
+H04L 12/859
+Loading...
+本发明公开了一种网络资源提供方式的调整方法及装置，该方法包括：确定网络流量占用率达到第一门限值，或/和，业务请求数量达到第二门限值的若干业务；根据所述若干业务中每一个业务的业务请求数量及业务的数据传输速率确定出相应的服务质量，并根据所述若干业务中每一个业务的网络流量占用率确定出相应的资源消耗量；根据所述若干业务中每一个业务各自对应的服务质量和资源消耗量，分别确定相应的业务提供效率；针对业务提供效率低于第三门限值的业务，调整相应的网络资源提供方式，用以解决现有技术无法高效地分析网络状况、及时定位网络问题，进而导致无法及时调整网络资源的提供方式的问题。
+8. 103281367 一种负载均衡方法及装置
+CN
+04.09.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310192583.8
+北京蓝汛通信技术有限责任公司
+朱磊
+H04L 29/08
+Loading...
+本发明公开了一种负载均衡方法及装置，该方法包括：依次根据高速缓冲存储器Cache服务器集群中每一个Cache服务器在上一周期内的负载量，以及每一个Cache服务器的处理门限值，识别出上述Cache服务器集群中的热点服务器；根据每一个热点服务器在上一周期内，分别接收到的若干种统一资源定位符URL请求各自占用的资源权重，确定出上述若干种URL请求中的至少一种热点URL请求；根据确定出的至少一种热点URL请求，针对接收到的热点URL请求执行权重轮询分配，用以解决现有技术无法及时发现和处理热点问题导致的系统崩溃问题。
+9. 103200091 一种抗干扰方法
+CN
+10.07.2013
+H04L 12/705 Loading...
+H04L 12/705
+Loading...
+201310106074.9
+北京蓝汛通信技术有限责任公司
+白金
+H04L 12/705
+Loading...
+本发明涉及移动通信技术领域，尤其涉及一种抗干扰方法，用以解决网络数据传输过程中的干扰问题；本发明实施例通过判断接收到的服务器端与客户端之间的数据传输过程中的报文是否是会对客户端与服务器端传输的数据造成干扰的干扰报文，并在确定接收到的报文为干扰报文后，拦截所述干扰报文，从而可以有效解决当前网络数据传输中出现的干扰问题，维护网络数据的正常传输。
+10. 103167022 Method, relevant devices and system of transmitting data package
+CN
+19.06.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310044756.1
+北京蓝汛通信技术有限责任公司
+白金
+H04L 29/08
+Loading...
+The invention discloses a method, relevant devices and a system of transmitting data package, and an agency network device receives a request data package sent from a terminal. The original Internet protocol (IP) address of the request data package is kept to be used as the IP address of the terminal, and the request data package is sent to objective network devices through the special linkages between the objective network devices. After the objective network devices receive the request data package, a reply data package is sent by the objective network devices to the agency network device through the special linkages, or the request data package is sent to the agency network devices of the objective network devices and pre-engagement ports of the objective network devices, and the objective network devices receive the data package through the port, and transmit the reply data package to the agency network devices. The method, the relevant devices and the system of transmitting the data package solve the problem that when the terminal is communicated with the objective network devices through the agency network devices, the objective network devices can not obtain the IP address of the terminal communicated with the objective network devices. The method, the relevant devices and the system of transmitting the data package relate to the technical field of communication.
+11. 103024018 一种在单台设备运行多CDN服务进程的方法及装置
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210515017.1
+北京蓝汛通信技术有限责任公司
+姚鑫
+H04L 29/08
+Loading...
+本发明涉及互联网及内容分发网络领域，特别涉及一种在单台设备运行多CDN服务进程的方法及装置。该方法包括：在客户端发起请求并与负载均衡进程建立连接后，通过负载均衡进程获取对应的CDN服务进程标识；根据上述CDN服务进程标识找出对应的CDN服务进程，通过负载均衡进程与该CDN服务进程建立连接，将上述请求转发给CDN服务进程；通过该CDN服务进程直接与客户端建立连接，并处理客户端的请求，以及直接向客户端返回响应。本发明实施例中的方法及装置可以提高负载均衡进程的处理能力，减少内存的消耗。
+12. 102664938 Method and device for controlling downloading of resources
+CN
+12.09.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210107034.1
+北京蓝汛通信技术有限责任公司
+王鑫宇
+H04L 29/08
+Loading...
+The invention discloses a method and a device for controlling downloading of resources for improving downloading speed of the resources. The method comprises the steps: obtaining a resource downloading request of a client, determining a characteristic value of the resource requested by the client to download and an address of the client, judging whether a preset node information list includes the characteristic value of the resource requested by the client to download, wherein the node information list comprises addresses of network nodes of a distributed hash table (DHT) network and a bit stream-central server BT-Tracker network, and corresponding relation of the characteristic value of the resource provided by the network node; determining the address of the network node corresponding to the characteristic value of the resource requested by the client to download in the node information list when the node information list includes the characteristic value of the resource requested by the client to download, and transmitting the determined address of the network node to the client according to the address of the client.
+13. 102523231 一种基于DNS解析的流量调度方法、装置及服务器
+CN
+27.06.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110445047.5
+北京蓝汛通信技术有限责任公司
+李孟
+H04L 29/06
+Loading...
+本发明涉及互联网通信技术领域，公开了一种基于DNS解析的流量调度方法、装置及服务器，该方法赋予DNS动态调节流量的能力，使动态负载均衡成为可能，设置得当，可以提高服务质量；提高带宽利用率；提高服务器的利用率，减少服务器使用数量。本发明的方法包括：接收域名解析请求并获得域名；从该域名对应的多个内容服务器中选择一个内容服务器，使得选择后该多个内容服务器之间的选择次数基本满足设定比例；将选择的内容服务器返回给域名解析请求者。
+14. 102523124 一种CDN网络中批量处理大量主机的方法及装置
+CN
+27.06.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110442024.9
+北京蓝汛通信技术有限责任公司
+宗劼
+H04L 12/24
+Loading...
+本发明公开了一种CDN网络中批量处理大量主机的方法，应用于CDN网络主机运维技术领域。该方法包括：获取任务描述文件，确定待执行的任务，获取需要执行所述任务的主机清单；根据生成的工作进程的数量从所述主机清单中获取对应数量的目标主机，并将目标主机的登陆信息分别推送至每个空闲工作进程；在接收到任务执行结果后，判断主机清单中提供的主机是否还有未处理的，如果有，则获取任意一个未处理的主机的登陆信息推送至该工作进程。本发明提供的方法和装置直接接收SSH协议返回的数据包，避免了现有技术中难以认定命令输出内容的边界的问题。
+15. 102420857 操作指令传送和处理方法、传送和缓存服务器及存储系统
+CN
+18.04.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110369335.7
+北京蓝汛通信技术有限责任公司
+栗伟
+H04L 29/08
+Loading...
+本发明涉及互联网及内容分发网络技术领域，尤其涉及操作指令传送和处理方法、传送和缓存服务器及存储系统；用于提高管理缓存服务器数据库中的内容的效率；该方法包括：接收来自源站服务器的操作指令以及源站服务器的源站标识；根据预先保存的源站标识与缓存服务器的对应关系，将所述操作指令转发给所述源站标识所对应的缓存服务器；或者，根据预先保存的内容标识与缓存服务器的对应关系，将所述操作指令转发给所述操作指令中携带的内容标识所对应的缓存服务器；所述内容标识用于唯一标识所述缓存服务器中所保存的文件。可见，该方法在对缓存服务器数据库中的数据进行管理时无需人工介入，因此，可大大提高管理缓存服务器数据库中的内容的效率。
+16. 102420863 一种快速分发文件系统和方法及装置
+CN
+18.04.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110390589.7
+北京蓝汛通信技术有限责任公司
+刘浩
+H04L 29/08
+Loading...
+本发明公开了一种快速分发文件系统和方法及装置，包括：上传服务器用于在自身能接受任务安排时向中央服务器发送申请领取任务指令；并从上传服务器获取任务领取指令中指示的上传文件并存储到存储设备中；中央服务器用于接收所述上传任务信息，生成对应的任务领取指令并保存；以及在收到一个节点服务器发送的申请领取任务指令后，将所述任务领取指令发送给最早发送申请领取任务指令的节点服务器，各边缘节点根据用户请求在存储设备中获取所述上传文件。本发明通过增加节点服务器，将文件分发到各区域存储器中，以分担上传服务器的负载，并且支持UDT传输协议，提供了高效可靠的数据传输能力。
+17. 102394880 内容分发网络中的跳转响应处理方法和设备
+CN
+28.03.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110338611.3
+北京蓝汛通信技术有限责任公司
+黄勇
+H04L 29/06
+Loading...
+本发明实施例公开了一种内容分发网络CDN中的跳转响应处理方法和设备，涉及互联网及CDN领域，用于简化CDN网络中处理跳转的复杂度。本发明中，缓冲cache服务器向第一源站发送内容获取请求；cache服务器若接收到第一源站返回的携带跳转地址的跳转响应，则根据该跳转地址向第二源站发送所述内容获取请求；若接收到第一源站返回的携带所述内容获取请求所请求的内容数据的非跳转响应，则将所述内容数据发送给客户端。采用本发明，能够简化CDN网络中处理跳转的复杂度，并提高了CDN处理跳转请求的效率，使其更加智能化。
+18. 102333130 一种访问缓存服务器的方法、系统及缓存智能调度器
+CN
+25.01.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110338610.9
+北京蓝汛通信技术有限责任公司
+栗伟
+H04L 29/08
+Loading...
+本发明涉及互联网及内容分发网络技术领域，尤其涉及一种访问缓存服务器的方法、系统及缓存智能调度器，用于解决如何避免浪费缓存服务器存储资源的问题；该方法包括：第一缓存服务器根据接收到的访问请求，确定自身未保存终端所需数据时，向缓存智能调度器发送查询请求；缓存智能调度器根据所述查询请求以及预先保存的数据索引关系查找出存储终端所需数据的第二缓存服务器，并将所述第二缓存服务器信息发送给所述第一缓存服务器；所述第一缓存服务器将接收到的所述第二缓存服务器信息发送给所述终端；所述终端连接到所述第二缓存服务器去获取所需数据。可见，采用本发明提供的方法，能够避免浪费缓存服务器存储资源。
+19. 102263828 Load balanced sharing method and equipment
+CN
+30.11.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110245599.1
+ChinaCache International Holdings Ltd.
+Yue Qiang
+H04L 29/08
+Loading...
+The invention discloses a load balanced sharing method and load balanced sharing equipment. The method comprises the following steps of: receiving a request message comprising request uniform resource locator (URL) information from a user; selecting preset contents from the request URL information, and recombining the preset contents to obtain relative request URL information; processing the relative request URL information, and determining a cache server corresponding to a processing result according to correspondence between different processing results and high speed cache servers; and transmitting the request message to the corresponding cache server. In the method and the equipment, secure link removal processing is performed on the request URL information encrypted by a secure link technology, and different user request messages corresponding to the same target resource area allocated to the same cache server to solve the problem that target resources are required to be repeatedly stored on the cache server in a content delivery network (CDN) system.
+20. 102231766 Method and system for analyzing and verifying domain name
+CN
+02.11.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110214463.4
+Beijing Blue I.T. Technologies Co.,Ltd.
+Li Jiansong
+H04L 29/12
+Loading...
+The invention discloses a method and system for analyzing and verifying a domain name, which are applied to the technical field of communications. The method comprises the following steps of: obtaining current system time when a domain name request client end transfers a domain name analyzing request to an authoritative domain name server through a local domain network server (LDNS), and adding the system time as a variable factor and an internet protocol (IP) address of the LDNS into the domain name analyzing request; analyzing the domain name analyzing request by the authoritative domain name server, obtaining the IP address of the LDNS added into the domain name analyzing request as an LDNS IP address to be verified, and judging whether the source IP address of the domain name analyzing request is the same as the LDNS IP address to be verified, if not, determining that transferring of the domain name analyzing request occurs. By applying the method and system provided by the invention, the transferring of LDNS in the process of analyzing request can be verified.
+21. 102196060 Method and system for selecting source station by Cache server
+CN
+21.09.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110160398.1
+ChinaCache International Holdings Ltd.
+Huang Yong
+H04L 29/12
+Loading...
+The invention provides a method for selecting a source station by a Cache server. The method comprises the following steps of: receiving an IP address query request sent by the Cache server, and resolving an IP address corresponding to the domain name; determining a response source station with shorter response time according to the storage records of response source stations and corresponding response time; selecting the response source station with shorter response time as a preferable source station, and sending the IP address information corresponding to the preferable source station to the Cache server; and accessing the preferable source station by the Cache server. By regularly and circularly sending a detection request, storing the response source stations and the corresponding response time and performing intelligent selection in the stored response source stations, the high-quality source station is provided, the load conditions of the source stations can be balanced, the investment cost is reduced, and availability and reliability of a web site are improved.
+22. 102158568 Method and device for banning IP (Internet Protocol) addresses and content distribution network server
+CN
+17.08.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110099306.3
+Beijing China Cache Communication Technology Co.,Ltd.
+Zhao Wei
+H04L 29/12
+Loading...
+The invention discloses a method and a device for banning IP (Internet Protocol) addresses and a content distribution network server. The method comprises the following steps: receiving a request message sent by a client side, and firstly conforming a resource IP address of the request message when the request message enters a network layer; and looking up a stored blacklist, and abandoning the request message when the IP address belongs to the blacklist. With the method and the device for banning IP addresses, whether the request message is required to be banned is begun to be ensured when the request message enters the network layer, the request message is not required to be subsequently processed in other layers, and more over, other conventional processing processes in the network layer are also not required, so that the searching efficiency can be improved, the processing time for banning the IP addresses is reduced, and the processing efficiency is improved.
+23. 102136969 Method, device and system for probing link quality
+CN
+27.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110039648.6
+Beijing China Cache Communication Technology Co.,Ltd.
+Zhang Shengli
+H04L 12/26
+Loading...
+The invention relates to the technical field of communication, in particular to a method, a device and a system for probing link quality. The method comprises the following steps: according to the IP (Internet protocol) address of a stored DNS (Domain Name Server), acquiring an edge node in a CDN (Content Delivery Network) for executing a probe task; and transmitting the probe task to the edge node, wherein the edge node carries out link quality probe on the DNS according to the probe task. By using the method, the device and the system probing the link quality, as the edge node carries out the link quality probe on the DNS, no virtual probe terminal does need to be distributed, the data of the link quality can be more accurately acquired, and the actual conditions of the link can be better reflected.
+24. 102137111 Method and device for preventing CC (Challenge Collapsar) attack and content delivery network server
+CN
+27.07.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110099490.1
+Beijing China Cache Communication Technology Co.,Ltd.
+Zhao Wei
+H04L 29/06
+Loading...
+The invention discloses a method and a device for preventing CC (Challenge Collapsar) attack and a content delivery network server, which are used for solving the problem that in the prior art, when the CC attack is prevented, targeted prevention can not be carried out by referring to the actual processing conditions of a server, and the prevention effect is not ideal. The method comprises the following steps: the server receives a request message transmitted by a client, and determines the identification information of the request message; a stored blacklist is queried, and the request message is lost when the identification information is determined to belong to the blacklist, wherein the blacklist is generated according to the access records of the server. By the method and the device for preventing CC attack and the content delivery network server, the blacklist can be generated according to the access records of the server, so that the request message is filtered according to the blacklist, and further, the targeted prevention can be carried out according to the actual processing conditions of the server, so that the prevention effect is more ideal.
+25. 102118279 Method, device and system for link quality detection
+CN
+06.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110044017.3
+Beijing China Cache Communication Technology Co.,Ltd.
+Zhang Lihai
+H04L 12/26
+Loading...
+The invention discloses a method, a device and a system for link quality detection. The method comprises the following steps: receiving detection requests containing a URL (Uniform Resource Locator) addresses corresponding to targets to be detected and the total amount of data predicted to be detected; determining a detection terminal and the detection frequency which are capable of meeting the total amount of the data predicted to be detected and the detection frequency, and sending detection tasks containing the URL addresses and the detection frequency down to the detection terminal; and receiving detection data returned by the detection terminal according to the detection tasks. According to the invention, the detection terminal and the detection frequency are determined according to the total amount of the data predicted to be detected, so that the obtained detection data can fully meet the requirements of the total amount of the data predicted to be detected, the detection manner is flexible and the regulation can be carried out according to the actual conditions.
+26. 102111449 Method, device and system for updating data
+CN
+29.06.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110045104.0
+Beijing China Cache Communication Technology Co.,Ltd.
+Li Wei
+H04L 29/08
+Loading...
+The invention relates to the technical field of communication, particularly relates to a method, a device and a system for updating data. The method comprises the following steps: returning the stored data to a user terminal after receiving a data acquisition request sent by the user terminal; sending a data checking request of the data to a source station server; and receiving and reserving updated data returned by the source station server when the data in the source station server is updated. By adopting the method, the device and the system for updating data, which are provided by the embodiment of the invention, after the data acquisition request of the user terminal is received, the data is returned to the user terminal at first, and then whether the data is updated or not is checked out, accordingly, the user terminal can promptly and quickly acquire the data, and the data is checked out as soon as the user terminal sends the acquisition request without waiting for the data expiration period. Therefore, the user terminal can promptly acquire the data, and the correctness of the local storage data is guaranteed.
+27. 101867580 Method for allocating network flow and device
+CN
+20.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010197083.X
+ChinaCache Communication Technology Co., Ltd.
+Hao Zhaojun
+H04L 29/06
+Loading...
+The invention discloses a method for allocating a network flow for improving service capability of a network. The method comprises the steps of acquiring node QoS values of nodes and allocating the network flow according to the node QoS values, wherein the node QoS values are acquired according to equipment QoS values which the nodes comprise; the equipment QoS values are acquired according to each monitor term QoS value of equipment; and each monitor term QoS value is acquired according to each monitor term index of the equipment. The invention also discloses a device for implementing the method.
+28. 101441666 Video copy monitoring method and system based on content
+CN
+27.05.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810240431.X
+Tsinghua University
+Li Zheng
+G06F 17/30
+Loading...
+The invention discloses a method and a system for monitoring copy of video based on content, which aim to solve the problem that the prior art has weaker query matching ability to the same copy. The method comprises: in key point phasors of a key frame of a sensitive video of a video fingerprint database, the key point phasors, of which the distance from key point phasors of a key frame of a video to be monitored is less than a preset first threshold, are searched; the number of the searched key point phasors corresponding to the same key frame in the video fingerprint database is counted; if the ratio of the counted number and the number of the key point phasors of the key frame of the video to be monitored exceeds a preset second threshold, the existence of the copy content which is the same as the content of the video to be monitored in the sensitive video of the video fingerprint database is determined; and the existence of the copy content which is the same as the content of the video to be monitored in the sensitive video can be determined according to the ratio of the counted number and the number of the key point phasors of the key frame of the video to be monitored exceeding the preset second threshold, so the query matching ability of the same copy is improved.
+29. 101442641 Method and system for monitoring video copy based on content
+CN
+27.05.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810227101.7
+Tsinghua University
+Yin Hao
+G06F 17/30
+Loading...
+The invention discloses a method for detecting a content-based video copy and a system thereof, so as to solve the problem that the prior art has weaker search matching capability in the same copy. The method comprises the following steps: selecting a key frame in video to be detected so as to acquire a characteristic vector of the selected key frame which is an image frame representing a group of image frames; searching a proper phasor with a distance to the acquired characteristic vector smaller than a presetting threshold value in a proper phasor of the key frame of sensitive video of a video fingerprint bank; and determining copy content the same as content of the video to be detected in the sensitive video of the video fingerprint bank. In the proper phasor of the fingerprint bank, the method searches the proper phasor belonging to the same copy with the characteristic vector selected from the video to be detected so as to determine that a plurality of image frames represented by the key frame of the video to be detected belong to the sensitive video of the video fingerprint bank, so the search matching capability of the same copy can be improved.
+30. 101420458 Multimedia content monitoring system, method and device based on content distributing network
+CN
+29.04.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810224707.5
+Tsinghua University
+Yin Hao
+H04L 29/08
+Loading...
+The invention discloses a CDN-based multimedia content monitoring system, a method and a device thereof. The method comprises the following steps: receiving task configuration information generated according to a multimedia content monitoring task which comprises a URL of the multimedia content to be monitored; selecting a first CDN node acquired by execution content according to the acquired node information of a CDN node and the task execution state information, and instructing the first CDN node to acquire the multimedia content according to the URL of the multimedia content to be monitored; selecting a second CDN node generated by an execution fingerprint according to the acquired node information of the CDN node and the task execution state, and instructing the second CDN node to generate a fingerprint for the multimedia content acquired by the first CDN node; and processing the multimedia content to be monitored according to a result of matching between the fingerprint generated by the second CDN node and the fingerprint in a fingerprint database. The technical scheme can help improve the efficiency of monitoring the multimedia content.
+31. 101415069 Server and method for sending on-line play video
+CN
+22.04.2009
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200810224651.3
+Tsinghua University
+Zhang Huanqiang
+H04N 5/00
+Loading...
+The invention relates to the field of video online playing, in particular to the technology of video online playing realizing the function of supporting progress drag and drop. The invention relates to a server and a method for transmitting online playing video. The method comprises: obtaining the progress information of online playing video transmitted by a user terminal; conforming a segment starting point corresponding to the progress information; generating the media data information of a new media file on line by taking the confirmed segment starting point as the new media file; combining the pre-stored element data information of the new media file and the media data information into the new media file and transmitting the new media file to the user terminal. As a plurality of segment starting points are arranged in the playing progress of the whole video and the element data information of each media file which takes the starting points of each segment as the playing starting point is pre-generated, more time and calculating resources spent on generating the element data information of the media file on line can be avoided, thus achieving the goal of timely responding the online playing progress information transmitted by the user.
+32. 101404032 Video retrieval method and system based on contents
+CN
+08.04.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810226268.1
+Tsinghua University
+Yin Hao
+G06F 17/30
+Loading...
+The invention discloses a video retrieval method based on contents and a system thereof which are used for solving the problem of lower efficiency of the video retrieval based on contents. The method comprises the following steps: a characteristic vector of a video frame to be detected is acquired; a corresponding cartesian coordinate is searched according to the index number of the characteristic vector of a sensitive video frame to be compared in a video fingerprint database and a predefined transformation rule; the characteristic vector of the video frame to be detected is sent to a retrieval module of a corresponding server according to the searched cartesian coordinate; and the retrieval module judges the similarity between the characteristic vector of the video frame to be detected and the characteristic vector of the sensitive video frame to be compared. As a content addressable network is employed to reasonably organize the video fingerprint database, create indexes, and acquire the video example to be detected, the method utilizes a certain retrieval algorithm to search the best matched characteristic vector of the sensitive video frame from the fingerprint database, which improves the video retrieval efficiency.
+33. 101404750 Video fingerprint generation method and device
+CN
+08.04.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200810226269.6
+Tsinghua University
+Yin Hao
+H04N 7/16
+Loading...
+The invention discloses a method for generating a video fingerprint and a device thereof, and aims at solving the problem that an effective multimedia video fingerprint is unavailable in the prior art. The method comprises the following steps: a DCT coefficient of a frame I is extracted; a DCT data matrix is obtained according to the DCT coefficient of the frame I; and the video fingerprint is generated according to the DCT data matrix. The method can generate the video fingerprint.
+34. 101383853 Direct-link node number controlling method and network entity device
+CN
+11.03.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810224895.1
+Tsinghua University
+Yin Hao
+H04L 29/08
+Loading...
+The invention discloses a method for controlling a direct interconnection node amount and a network entity device. The method comprises the following steps: an end server ensures a present stage according to a total amount of nodes of a client served at present and an amount range of each stage divided in advance; the end server ensures an amount of direct interconnection nodes needed to be served at present according to the present stage and an amount determination rule arranged in advance of the direct interconnection nodes of the stage; and the end server controls the amount of the served direct interconnection nodes to reach the amount of the direct interconnection nodes needed to be served at present. The invention avoids the problems in the prior CDN-P2P mixed streaming media system that a control mechanism for the amount of the direct interconnection nodes can lead the transmission and the starting of streaming media to have long time delay, as well as overweight and excessive service pressure of the end server, occupy the service bandwidth of the end server, and limit the expansibility of the system.
+35. 101382959 Multimedia resource acquisition method, apparatus and system
+CN
+11.03.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810224968.7
+Tsinghua University
+Yin Hao
+G06F 17/30
+Loading...
+The invention discloses a multimedia resource obtaining method which comprises the steps: a multimedia resource saved in the form of vector points after hash process is stored by a first server uniformly; the first server determines a query point specified by a user and an identifier of a hashing bucket that the query point belongs to according to the request message transmitted by a client, and transmits a notification message carrying the identifier to a second server; and when determining the local existence of the hash bucket saved corresponding to the identifier according to the identifier carried in the notification message, the second server obtains at least one vector point nearest to the query point in the hash bucket and sends the at least one vector points to the client. In this way, operational pressure on the first server is released to a degree, thereby quickening the responding speed of a whole system in providing multimedia resource query service, and further improving user experience. The invention also discloses a communication device and a communication system simultaneously.
+36. 101383700 Stream data transmitting method and apparatus thereof
+CN
+11.03.2009
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200810224580.7
+Tsinghua University
+Yin Hao
+H04L 9/08
+Loading...
+The invention discloses a transmission method of stream media data and a device thereof, which are applied to a system combining a peer-to-peer network and a content distribution network and are used for solving the problems that updating cost of the session key is large and the user experience is poor in the prior art. The specific technical proposal comprises: family keys corresponding to a family are preset in nodes in the family, when the nodes in the family change, the family keys preset in the nodes of the family are updated. The transmission method comprises: session keys which are sent by the management nodes of the first family and are encrypted by the family keys corresponding to the first family are received; the received session keys are decrypted by using the preset family keys and the family keys corresponding to the first family; the stream media data which is sent by the management nodes and are encrypted by the session keys is decrypted by using the decrypted session keys.
+37. 101374234 Method and apparatus for monitoring video copy base on content
+CN
+25.02.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810223002.1
+Tsinghua University
+Zhang Huanqiang
+G06F 17/30
+Loading...
+The invention discloses a content-based video copy monitoring method and a device, and aims to solve the problem of higher consumption for content-based video copy monitoring resources. The method comprises the following steps: extracting a portion of video frames as the video frame to be monitored from videos to be monitored according to the predefined extract rules through the network; extracting the characteristic vector of the video frames to be monitored; and selecting the characteristic vector of a key frame similar to the video frame to be monitored from the key frame characteristic vectors of objectionable videos in a video fingerprint database, wherein the distance between the similar key frame characteristic vector and the characteristic vector of the video frames to be monitored is smaller than a given matching threshold. By selecting a portion of the video frames as the video frame to be monitored, the method can acquire the key frame without a large amount of calculation, and the video acquired through the network has less content and needs less storage space after downloading, thereby reducing the resource consumption during the monitoring.
+38. 101370137 Stream media transmission and broadcast method, system and user terminal equipment
+CN
+18.02.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200810222482.X
+Tsinghua University
+Yin Hao
+H04N 7/24
+Loading...
+The invention relates to the field of internet, especially a fluid medium transmission and playing technology. The invention discloses a fluid medium transmission method and system, which achieves the secure and effective internet fluid transmission and satisfies the requirement of system expandability and solves the isomerism problem of the system. The method comprises: processing the layer encoding for the video signal of the fluid medium information according to the bit rate; obtaining the data information of the basic layer and the video data information of the strengthening layer; encoding the audio information of the fluid medium information, obtaining the audio data information; encrypting the data information of the basic layer and the audio data information; a standard playing server sends the encrypted data information of the basic layer and the video data information of the strengthening layer to the client device requiring the download of the fluid medium information, and transmits video data information of the strengthening layer to the client device logging in the server by the network distributor. The invention also provides a playing method of the fluid medium and a client device.
+39. 101365000 Stream media data processing method and network node
+CN
+11.02.2009
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200810222783.2
+Tsinghua University
+Yin Hao
+H04L 29/08
+Loading...
+The invention discloses a transmission method of streaming media data and a network node, which is applied in a streaming media direct broadcast system based on P2P. The method comprises the following steps: determining an upstream node for establishing peer-to-peer (P2P) connection with the node; determining data frame class information corresponding to a data frame required to be provided by the upstream node, and informing the upstream node of the data frame class information; and receiving the data frame of a corresponding class returned by the upstream node according to the data frame class information. Through transmitting the streaming media data after being classified, the method achieves a data transfer process with high efficiency, high reliability and low transmission delay.
+

@@ -1,0 +1,709 @@
+1. 206099933 一种组合拆分射频开关及基于该开关连接而成的芯片
+CN
+12.04.2017
+H03K 17/693 Loading...
+H03K 17/693
+Loading...
+202016000921810
+江苏卓胜微电子有限公司
+周正
+H03K 17/693
+Loading...
+本实用新型公开了一种组合拆分射频开关及基于该开关连接而成的芯片，射频开关包括开关阵列、逻辑阵列、电源管理模块和接口模块；所述开关阵列由至少一个开关支路级联而成；所述开关支路由至少一个开关管连接而成；所述开关管包括至少一个开关管单元；若开关管包括多个开关管单元，则多个开关管单元的连接方式为串联、并联或者多个开关管单元先串联为一组开关管单元支路，多组开关管单元支路并联；逻辑阵列由至少两个逻辑阵列的基本单元连接而成。本实用新型能够灵活配置，通过组合拆分的方法，配置成不同掷数，不同功率要求的开关，更可以实现更加复杂的逻辑控制，组合成不同功率，插损，隔离，掷数需求的开关。
+2. 106452670 一种低复杂度滑窗处理方法
+CN
+22.02.2017
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201610840110.8
+江苏卓胜微电子有限公司
+蒋朱成
+H04L 1/00
+Loading...
+本发明公开了一种低复杂度滑窗处理方法，主要包括：创建比特索引表T[0:L‑1]，比特索引表共L*M比特，将0:L‑1初始化为T相应索引对应的内容；初始化数据序列为长度为L的0值向量S[0:L‑1]；T=T+1，若L能够表示为L=2M，则将发生高位自然溢出元素对应的索引删除，若L不能表示为L=2M，则将索引值为L的索引删除，所述T成为L‑1值索引表；将T=T+1，并将发生高位自然溢出元素对应的索引删除，T成为L‑1值索引表；将新数据s，与S[T]对应的值进行比较，利用二分法，找出应该插入的位置p，在T表中p的位置写入0，其余数值顺序后移，使得表T恢复L值，最终，S[T]为递增或递减的有序数据序列。可以克服现有技术中信号处理过程中滑窗处理存在复杂度高的缺陷，简化处理过程。
+3. 106209048 一种组合拆分射频开关
+CN
+07.12.2016
+H03K 17/693 Loading...
+H03K 17/693
+Loading...
+102016000701589
+江苏卓胜微电子有限公司
+周正
+H03K 17/693
+Loading...
+本发明公开了一种组合拆分射频开关，射频开关包括开关阵列、逻辑阵列、电源管理模块和接口模块；所述开关阵列由至少一个开关支路级联而成；所述开关支路由至少一个开关管连接而成；所述开关管包括至少一个开关管单元；若开关管包括多个开关管单元，则多个开关管单元的连接方式为串联、并联或者多个开关管单元先串联为一组开关管单元支路，多组开关管单元支路并联；逻辑阵列由至少两个逻辑阵列的基本单元连接而成。本发明能够灵活配置，通过组合拆分的方法，配置成不同掷数，不同功率要求的开关，更可以实现更加复杂的逻辑控制，组合成不同功率，插损，隔离，掷数需求的开关。
+4. 205621731 射频低噪声放大器的版图结构
+CN
+05.10.2016
+H01L 27/02 Loading...
+H01L 27/02
+Loading...
+202016000270944
+江苏卓胜微电子有限公司
+刘文永
+H01L 27/02
+Loading...
+本实用新型涉及一种射频低噪声放大器的版图结构，其特征是：包括第一版图区域、第二版图区域、第三版图区域、第四版图区域、第五版图区域、第六版图区域、第七版图区域、第八版图区域和第九版图区域；所述第二版图区域和第三版图区域位于中心位置，第一版图区域位于第二版图区域和第三版图区域的下方，第八版图区域位于第二版图区域的左方，第九版图区域位于第三版图区域的右方，第六版图区域位于第八版图区域和第二版图区域的上方。所述第一版图区域、第二版图区域和第六版图区域构成信号通路，第五版图区域、第九版图区域、第二版图区域和第八版图区域构成电源通路。本实用新型兼顾LNA性能，合理分配信号通路，优化版图布局，降低芯片成本。
+5. 105978512 多可配置旁路模式的低噪声放大器
+CN
+28.09.2016
+H03F 3/195 Loading...
+H03F 3/195
+Loading...
+201610299357.3
+江苏卓胜微电子有限公司
+刘文永
+H03F 3/195
+Loading...
+本发明涉及一种多可配置旁路模式的低噪声放大器，其特征是：包含：放大级；隔离级；负载级；输入匹配级；输出匹配级；以及多可配置的旁路模块，提供射频输入端到射频输出端的低阻通路，该低阻通路与LNA放大电路互斥，即两者同时最多只能有一路有效；本发明在LNA使能时放大射频信号，在旁路使能时旁路射频信号直接从射频输出端输出；两者都关闭，此时LNA处于关闭模式；所述放大级和负载级之间通过隔离级连接，所述多可配置的旁路模块的输入节点位于输入匹配级的输入端或者输入匹配级的输出端和放大级的输入端之间，多可配置的旁路模块的输出点位于输出匹配级的输入端或输出端。本发明提高了设计的效率和灵活性。
+6. 105281680 带有开关的低噪声放大器及射频信号放大方法
+CN
+27.01.2016
+H03F 1/26 Loading...
+H03F 1/26
+Loading...
+201510681044.X
+江苏卓胜微电子有限公司
+刘文永
+H03F 1/26
+Loading...
+本发明涉及一种带有开关的低噪声放大器及射频信号放大方法，其包括增益级电路，包含与待放大射频信号数量一致的放大器，所述放大器与射频信号一一对应，以能对每路射频信号进行独立放大；放大选择开关电路，与增益级电路连接，能根据待放大的射频信号选择增益级电路内的放大器，以使得所述增益级电路内选择确定的放大器能对所述射频信号进行放大；负载电路，用于接收经增益级电路放大后的射频输出信号，并形成将经增益级电路放大后的射频输出信号输出的射频信号放大输出端。本发明结构紧凑，同时实现射频开关以及低噪声放大的能力，减少占用面积，降低寄生影响，适应范围广，安全可靠。
+7. 103795484 Frequency-offset-following channel search method
+CN
+14.05.2014
+H04B 1/7075 Loading...
+H04B 1/7075
+Loading...
+201410068303.7
+江苏卓胜微电子有限公司
+蒋朱成
+H04B 1/7075
+Loading...
+The invention discloses a frequency-offset-following channel search method. A judgment is made by using a coherent detection means, and namely whether a frequency offset obtained through demodulation has the following characteristic. The frequency-offset-following channel search method comprises the following steps that after a signal passes through a low-pass channel selective filter with the bandwidth not smaller than 180 KHz, whether a search frequency point is an effective radio station is judged primarily according to comparison between an in-band RSSI result and a set threshold value, and the step size in search is selected; station search is conducted according to the time frequency offset characteristic of the step size in search; if three frequency offsets which correspond to three adjacent effective frequency points and are found from small to large are judged as effective radio station conditions, standard quantization is conducted according to FM frequency points, and actual frequency points are obtained; according to the found frequency points of two stations, the step size in search is adjusted. As a result, the purpose that the stations are accurately identified is achieved.
+8. 102271107 Signal-to-noise ratio estimating method in DTMB (digital terrestrial multimedia broadcasting) system and device of realizing same
+CN
+07.12.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201010191498.6
+卓胜微电子(上海)有限公司
+蒋朱成
+H04L 27/26
+Loading...
+The invention discloses a signal-to-noise ratio estimating method and device in a DTMB (digital terrestrial multimedia broadcasting) system. The method comprises the following steps of: if a frame header mode is a PN595 (pseudo random number 595) mode with double pilot existing in a protecting interval, intercepting a data sequence r1 which uses the end of the protecting interval as termination and further has a length smaller than the difference between the length of the protecting interval and predicted maximum time delay expansion from the protecting intervals of last two frames of a current frame in received data r, otherwise, intercepting the data sequence r1 from the protecting interval of the last one frame of the current frame in the received data r; intercepting a data sequence r2 which uses the end of the protecting interval as the termination and further has the length smaller than the difference between the length of the protecting interval and the predicted maximum time delay expansion from the cyclical and continuous protecting interval of the current frame in the received data r1; and obtaining average noise energy En and signal energy Es according to the data sequences r1 and r2, and dividing Es by En to obtain a signal-to-signal ratio. The method and device provided by the invention only depend on the stability of a fixed-time tracking loop and a frequency deviation tracking loop, the requirement on the signal-to-noise ratio is far lower than a receiving threshold, further, the operational complexity is low, and real-time estimation can be carried out conveniently.
+9. 102270996 Analog/digital combined adjacent channel interference detection and processing method
+CN
+07.12.2011
+H04B 1/10 Loading...
+H04B 1/10
+Loading...
+201010191480.6
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04B 1/10
+Loading...
+The invention discloses an analog/digital combined adjacent channel interference detection and processing method. The method comprises the following steps: determining whether an adjacent channel interference occurs by detecting energy of different channels based on the combination of a radio-frequency tuner and a digital processing module; and when the adjacent channel interference occurs, attenuating the adjacent channel interference with an output-stage filter of the radio-frequency tuner by adjusting radio-frequency points and setting frequency offsets of the digital processing module. The method disclosed by the invention has a strong effect of attenuating adjacent channel interferences, so that the adjacent channel interference on the digital processing module is minimized and the selection range of radio-frequency tuners is increased.
+10. 102201875 Narrowband interference detection method used for wireless communication receiving system
+CN
+28.09.2011
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+201010131139.1
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04B 17/00
+Loading...
+The invention discloses a narrowband interference detection method used for a wireless communication receiving system. The narrowband interference detection method comprises the following steps of: 1, sampling N points from a received signal, and then performing fast Fourier transform (FFT) to obtain spectrum characteristics; 2, counting amplitude spectrums of obtained frequency spectrums to obtain a peak value and a mean value of the amplitude spectrums; and 3, judging the existence or inexistence of narrowband interference according to the peak to mean ratio of the amplitude spectrums. By the method, the realization complexity may not be increased, and the narrowband interference detection accuracy can be improved; and the method is applied to any communication receiving system.
+11. 102201905 Synchronized method of low-density parity-check (LDPC) data blocks in 32quadrature amplitude modulation (32QAM) and 4quadrature amplitude modulation-nordstrom robinson (4QAM-NR) of digital television terrestrial broadcasting system (DTMB)
+CN
+28.09.2011
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201010131120.7
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04L 7/00
+Loading...
+The invention discloses a synchronized method of low-density parity-check (LDPC) data blocks in 32quadrature amplitude modulation (32QAM) and 4quadrature amplitude modulation-nordstrom robinson (4QAM-NR) of digital television terrestrial broadcasting system (DTMB). The method comprises the following steps: initializing synchronization positions of LDPC data blocks and setting beginning positions of the LDPC data blocks of a first data frame in a frame header of the data frame; receiving new frame data; detecting whether the received frame data is all-zero codes; continuously receiving next frame data if the frame data is all-zero codes; conducting a subsequent determine if the frame data is not all-zero codes; splitting the data frame to a plurality of LDPC data blocks according to the synchronization positions of LDPC data blocks; performing a LDPC decoding operation to the LDPC data blocks; performing a bose-chaudhori-hocquenghen (BCH) data block check on decoded data of the LDPC data blocks; if all the BCH data block checks are failure, which means there are synchronization errors in the LDPC data blocks, switching the synchronization positions of the LDPC data blocks and receiving next data frame; otherwise ending synchronization determination of the LDPC data blocks if synchronization of the LDPC data blocks is correct. In the invention, misjudgments of synchronization positions of the LDPC data blocks caused by bad signals can be reduced.
+12. 102202035 Irregular symbol constellation point soft-demapping realization method for communication system
+CN
+28.09.2011
+H04L 27/38 Loading...
+H04L 27/38
+Loading...
+201010131956.7
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04L 27/38
+Loading...
+The invention discloses an irregular symbol constellation point soft-demapping realization method for a communication system. Each bit is demodulated by the following steps of: obtaining decision boundary of a single bit according to an originating constellation point mapping standard; judging a position relationship between a constellation symbol point and the decision boundary of the bit according to a received constellation point position on a complex plane; deciding a soft value symbol of the bit according to the obtained position relationship; computing distances from the constellation symbol point to each section of the decision boundary of the bit; extracting the shortest distance from the distances from the constellation symbol point to each section of the decision boundary as the amplitude of a decision soft value; and obtaining a final decision soft value by using the amplitude of the decision soft value and the soft value symbol. The method is a unified constellation point soft-demodulation method simply implemented by hardware, and can be used for the constellation point soft-demodulation in any way; and regular constellation point soft-demodulation is only the simplified exception of the method.
+13. 102201797 Digital filter device
+CN
+28.09.2011
+H03H 17/02 Loading...
+H03H 17/02
+Loading...
+201010131146.1
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H03H 17/02
+Loading...
+The invention discloses a digital filter device, which comprises an adder, a delayer, a multiplier, a shifting register, a subtracter and a second subtracter, wherein the adder is used for adding an input signal X(z) to a feedback signal F(z) to obtain a signal R(z); the delayer is used for delaying the signal R(z) by one or two beats; the multiplier is used for multiplying the delayed signal R(z) with +1 or -1 to obtain a signal W(z); the shifting register is used for shifting the signal W(z) rightwards by N to obtain s signal W'(z); the subtracter is used for subtracting the signal W'(z) which is obtained by shifting the signal W(z) rightwards by N from the signal W(z) to obtain a feedback signal F(z); and the second subtractor is used for subtracting the signal W(z) from the signal R(z) to obtain a finial output signal Y(z). Due to the adoption of the device, independent removal of direct current, independent removal of double pilot or simultaneous removal of direct current and double pilot can be realized as required; and the device has a simple structure, and is suitable for a data communication system.
+14. 102202019 Forward multi-path detection device and method in wireless communication receiving system
+CN
+28.09.2011
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010131133.4
+Maxscend Technologies Inc.
+Zhang Zhuopeng
+H04L 25/03
+Loading...
+The invention discloses a forward multi-path detection device in a wireless communication receiving system. The forward multi-path detection device comprises a time-domain data selection module, a data processing Walsh transform channel estimation module and a forward multi-path judgment module, wherein the time-domain data selection module intercepts a data sequence R with the length L starting from the head of a guard interval of a PN cyclic prefix of the current frame from the received data r, and performs zero padding on the tail part of the data sequence R until the length of the cycle period of the PN pseudorandom sequence is N to obtain a data sequence C; the data processing Walsh transform channel estimation module performs quick Walsh transform channel estimation on the data sequence C to obtain a data sequence W; and the forward multi-path judgment module chooses the data sequence W by taking the multiple of the bottom noise sigma as a threshold to obtain the chosen result position p, and determines the forward multi-path position by comparing the position p. The invention also discloses a forward multi-path detection method. The device and method disclosed by the invention not only can detect the birth and death of forward multiple paths having low strength and influencing the receiving performance, but also has relatively low operation complexity, and is suitable for a communication system with the insufficient length of a cycle period and taking PN as a prefix.
+15. 102202025 Method for pulse interference detection and elimination
+CN
+28.09.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201010131117.5
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a method for pulse interference detection and elimination. The method comprises the following steps: step one, pulse interference detection: recording absolute values and Sum (n)s of orthogonal data of path I and path Q, finding out a maximum Sum (n) and a minimum Sum (n) of a present frame, and recording the maximum Sum (n) as MaxVal and the minimum Sum (n) as MinVal respectively; recording found sequence numbers MaxIdx and MinIdx respectively corresponding to the MaxVal and MinVal in the present frame; if (MaxVal-MinVal) / (MaxIdx-MinIdx) is greater than Slope, and (MaxIdx-MinIdx) is also greater than Width, there being pulse interference with an interference interval of [MinIdx, MaxIdx]; otherwise, there being no pulse interference; and step two, pulse interference elimination: selecting an offset interval of pulse interference, chasing a sampling point, and comparing the sampling point with MeanSum*ThreRatio within the selected offset interval. According to the invention, whether there is pulse interference or not can be detected effectively, and performance loss caused by the pulse interference can be reduced. Therefore, the method for pulse interference detection and elimination provided in the invention is suitable for all data communication systems.
+16. 102122974 Doppler spread estimation device
+CN
+13.07.2011
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010027242.1
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04L 25/03
+Loading...
+The invention discloses a Doppler spread estimation device, which is characterized by comprising a channel tap selection module, a zero crossing point (ZCP) interval detection module and a mode selection and Doppler frequency output module, wherein the channel tap selection module is used for selecting one or more than one plural tap coefficient from L plural tap coefficients as ZCP interval input signals X[n]; the ZCP interval detection module comprises two branches, wherein the input ends of the two branches are respectively connected with the output end of the channel tap selection module; a first branch comprises a ZCP interval counter and a smoothing filter which is connected with the ZCP interval counter; and a second branch comprises a band-pass filter (BPF) and a ZCP interval counter which is connected with the BPF, as well as a smoothing filter which is connected with the ZCP interval counter; and the mode selection and Doppler frequency output module is used for determining a Doppler frequency estimated value according to relationship among A[n] and B[n], which are the results of the counters of the two branches of the ZCP interval detection module, and two preset threshold values. The Doppler spread estimation device has the advantage of low implementation complexity and can be widely applied to the Doppler estimation.
+17. 102123112 Forward multipath detecting method and device based on pseudorandom number (PN) cyclic prefix
+CN
+13.07.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010027241.7
+卓胜微电子(上海)有限公司
+蒋朱成
+H04L 25/02
+Loading...
+The invention discloses a forward multipath detecting method based on a pseudorandom number (PN) circular prefix, which comprises the following steps of: selecting a sequence C1 and a sequence C2 as required in a guard interval of a PN cyclic prefix; respectively performing fast Walsh transform channel estimation on the two sequences, and performing cyclic shift according to corresponding phases to obtain a sequence W1 and a sequence W1; selecting the sequence W1 based on a bottom noise threshold; and determining a forward multipath position p through comparing the relative magnitude relationship of data W1 and data W2 on selected positions. The invention also discloses a forward multipath detecting device based on the cyclic prefix of the pseudorandom sequence. In the invention, the problem of multipath fuzz introduced due to the cyclic prefix is effectively avoided through comparing relative magnitudes of two groups of Walsh transforms; meanwhile, as the fast Walsh transform is adopted, the method has lower operation complexity so as to conveniently adapt to a dynamic channel environment for real-time detection. The forward multipath detecting method and device are suitable for wireless communication systems such as a DTMB (Digital Television Terrestrial Multimedia Broadcasting) and the like.
+18. 102123118 Full digital automatic gain control device and method
+CN
+13.07.2011
+H04L 27/00 Loading...
+H04L 27/00
+Loading...
+201010027236.6
+Maxscend Technologies Inc.
+Zhang Fan
+H04L 27/00
+Loading...
+The invention discloses a full digital automatic gain control device and a full digital automatic gain control implementation method. The method comprises the following steps of: detecting a highest significant bit W of an input digital signal h, and determining the direction and the number of bits of shifting operation according to a difference N between the highest significant bit W and a reference value B; carrying out N-bit shift operation on the input digital signal h, and carrying out the N-p bits shift operation on the input digital signal r, wherein the p is a positive integer of more than or equal to 0; performing fast Fourier transform (FFT) on the shifted input digital signals r and h respectively, so as to obtain a frequency-domain digital signal FFT (r) and a frequency-domain digital signal FFT (h) respectively; detecting a maximum value of the frequency-domain digital signal FFT (h), and using the maximum value as an address to obtain a gain coefficient K through table lookup; and multiplying the frequency-domain digital signal FFT (r) and the frequency-domain digital signal FFT (h) by the gain coefficient K respectively to obtain required output digital signals R and H. By the device and the method, the two paths of input digital signals r and h can be adjusted simultaneously, robustness is good, and complexity for implementation is low.
+19. 102103480 Device and method for realizing logarithm operation
+CN
+22.06.2011
+G06F 7/556 Loading...
+G06F 7/556
+Loading...
+200910202008.5
+Shanghai Zhuoshengwui Electric Co., Ltd.
+Zhang Fan
+G06F 7/556
+Loading...
+The invention discloses a device for realizing logarithm operation. The device comprises an input control logic module, a register A, a register B, a register S, a register K, an accumulator count (CNT), an iteration comparison control module and a multiplexer (MUX) module, wherein the input control logic module is used for changing the input value X into the values of A, B and S, assigning the value to the register A, the register B and the register S, and initializing the registers; the output end of the register K is connected with the iteration comparison control module, and the register K is used for storing the given constant K; the accumulator CNT is used for accumulation and calculation under the control of the iteration comparison control module; the iteration comparison control module is used for obtaining the logarithm operation result in an iteration mode; and the final logarithm result Y is obtained by the MUX module according to the accumulated value of the accumulator CNT and the symbol indicator S in the register S. The invention also discloses a method for realizing logarithm operation. The device can be flexibly configured as required to realize the operation of the logarithm with different accuracies and different base numbers, has simple structure, and realizes the low complexity.
+20. 102075475 Combined tracking method for timing deviation and sampling frequency offset
+CN
+25.05.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910201841.8
+Maxscend Technologies (Shanghai) Inc.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The present invention discloses a combined tracking method for timing deviation and sampling frequency offset, which is suitable for a digital mobile multimedia broadcasting system. The method comprises the steps of: according to channel impulse response information obtained by estimation, firstly estimating timing deviation for OFDM symbols and determining timing adjusting information for the next time slot; and then estimating sampling frequency offset according to the position information of the strongest path in the channel impulse response and the timing adjusting information for the last time slot, thereby realizing the combined adjusting of the timing deviation and the sampling frequency offset. The combined tracking method of the invention can not only track a symbol timing error brought by multipath distribution characteristic of a transmission channel, but also track and correct the sampling frequency offset brought by the inconsistency between two local oscillators for transmitting and receiving terminals; stable operation can also be realized even in the time division working mode of a receiver and the receiver can stably work by flexibly changing the estimation size of the sampling frequency offset according to the length of the time division working time of the receiver.
+21. 102075474 Channel state tracking method based on training sequence
+CN
+25.05.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910201839.0
+Maxscend Technologies (Shanghai) Inc.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The present invention discloses a channel state tracking method based on a training sequence, wherein the method is suitable for an OFDM system and comprises the steps of: (1) obtaining channel impulse response information according to a known training sequence; (2) determining a decision parameter according to the channel impulse response information, wherein the decision parameter is used for characterizing the channel characteristic; and (3) deciding the current channel type from a plurality of channel types supposed beforehand according to the decision parameter. By adopting the channel state tracking method based on a training sequence, an OFDM receiver has the capability of tracking channel change in mobile reception environment, and can correspondingly adjust the channel estimating method according to the channel change, thereby ensuring that the receiver can work in a better working state under a plurality of channel environments. The channel state tracking method based on a training sequence of the invention is especially suitable for a wireless communication system designed for reception in the mobile environment.
+22. 102025670 Residual carrier frequency offset tracking method applied to mobile multimedia broadcasting system
+CN
+20.04.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910057903.2
+Shanghai Zhuoshengwui Electric Co., Ltd.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The invention discloses a residual carrier frequency offset tracking method applied to a mobile multimedia broadcasting system, which comprises the following steps of: estimating the residual carrier frequency offset of a receiving signal which is subjected to rough synchronizing by the mobile multimedia broadcasting system; and correcting the residual carrier frequency offset by taking different types of adjustment stepping according to the difference of the accuracy of a residual carrier frequency offset estimation result, wherein the whole residual carrier frequency offset estimating and correcting process takes one time slot as a period; one time slot is divided into a front stage and a rear stage, namely high stepping residual carrier frequency offset tracking and low stepping residual carrier frequency offset tracking; the stage of high stepping residual carrier frequency offset tracking can be divided into two processes of residual frequency offset estimation and residual frequency offset correction; and the stage of low stepping residual carrier frequency offset tracking can be divided into three processes of residual frequency offset direction estimation, correction stepping selection and residual frequency offset correction. The method can realize balance between estimation accuracy and correction speed of the residual carrier frequency offset and is easy to implement.
+23. 102025477 Bit width adjusting method and system for soft demodulation and channel decoding cascade structure
+CN
+20.04.2011
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+200910057884.3
+Shanghai Zhuoshengwui Electric Co., Ltd.
+Cheng Xinhao
+H04L 5/00
+Loading...
+The invention discloses a bit width adjusting method and a bit width adjusting system for a soft demodulation and channel decoding cascade structure, and is suitable to be applied in a digital communication system combining digital demodulation technology and channel coding technology. Distribution properties of demodulated data are counted in real time by using a segment counting method, and then the distribution properties are compared with the presupposed distribution properties to acquire corresponding bit width correction values. Meanwhile, a smooth filter method is introduced to overcome the counting bias of the segment counting results due to different segment lengths so that the performance of the system is closer to perfection on the basis of adaptively tracking the change of the demodulated data.
+24. 102006255 Estimation method of frequency deviation of integral multiple of subcarriers in orthogonal frequency division multiplexing (OFDM) system
+CN
+06.04.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910057872.0
+Zhuosheng Microelectronics (Shanghai) Inc.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The invention discloses an estimation method of frequency deviation of an integral multiple of subcarriers in an orthogonal frequency division multiplexing (OFDM) system, which comprises the following steps: selecting a plurality of symbols from frequency domain signals, and selecting two sections of data with the same length from the positive frequency and the negative frequency of each symbol; computing the energy difference between every two points of the two sections of signals, and generating a difference sequence; adding the difference sequence of each symbol one by one to form a signal energy difference sequence; computing a mean value of the signal energy difference; determining the phase step position of the signal energy difference sequence according to the mean value, and computing a mean value by sequence points around the position to be used as a decision threshold; deciding the signal energy difference sequence by the decision threshold; accumulating the decision results point by point, and searching a minimum value; and estimating the frequency deviation value of the integral multiple of subcarriers according to the minimum value. The invention can realize blind estimation of frequency deviation of integral carriers, can carry out estimation of frequency deviation of the integral multiple of subcarriers under the condition that the energy boundary step property between a valid data carrier and a virtual subcarrier is relatively fuzzy, and can lower the computational complexity. The invention has the advantages of high reliability and less time consumption.
+25. 102006254 Method for capturing and controlling logic channel for China mobile multimedia broadcasting system
+CN
+06.04.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910057865.0
+Zhuosheng Microelectronics (Shanghai) Inc.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The invention discloses a method for capturing and controlling a logic channel for a China mobile multimedia broadcasting system, comprising the following steps of: detecting a complex pseudo-random sequence scrambled on the current time slot OFDM (Orthogonal Frequency Division Multiplexing) symbol in various complex pseudo-random sequences by using a complex pseudo-random sequence carried on a discrete pilot-frequency position; after correctly identifying the complex pseudo-random sequence adopted by the current time slot, redescrambling a transporting and indicating message by using the complex pseudo-random sequence; after carrying out the corresponding soft demodulation and repeated decoding treatment according to modulation code characteristics of the transporting and indicating message, detecting the transporting and indicating message; and starting a corresponding time-slot logic number accumulator through detected time-slot logic numbers in the transporting and indicating message until capturing an NO.0 time slot. The method can reliably capture and control the corresponding NO.0 time slot of the logic channel, correctly restores a control message of a broadcasting system and is easy to realize.
+26. 102006256 Estimation method of integral multiple subcarrier frequency offset of robust
+CN
+06.04.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200910057873.5
+Zhuosheng Microelectronics (Shanghai) Inc.
+Cheng Xinhao
+H04L 27/26
+Loading...
+The invention discloses an estimation method of integral multiple subcarrier frequency offset of a robust. In the method, by means of a known frequency domain training sequence in an orthogonal frequency division multiplexing (OFDM) system and the cross-correlation characteristic between a received signal and a known ideal signal, a channel frequency domain response is obtained by descrambling; and after time frequency domain conversion, an offset value of the integral multiple carrier frequency offset is judged according to the amplitude value of the obtained channel time domain pulse response. The estimation method can realize full multiplexing of a fast Fourier transform (FFT) module in the OFDM system and is slightly affected by multi-path channel attenuation; and the estimation method has the characteristics of simple implementation, high judgment accuracy and the like, thus being applicable to any OFDM communication system with the training sequence.
+27. WO/2011/026262 METHOD FOR CAPTURING CONTROL LOGIC CHANNEL USED IN CHINA MOBILE MULTIMEDIA BROADCASTING SYSTEM
+WO
+10.03.2011
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+PCT/CN2009/001499
+MAXSCEND TECHNOLOGIES INC.
+CHENG, Xinhao
+H04L 27/26
+Loading...
+A method for capturing Control Logic Channel (CLCH) used in China Mobile Multimedia Broadcasting (CMMB) system is disclosed in the present invention. The method comprises the following steps of: detecting a complex pseudorandom sequence scrambled on Orthogonal Frequency Division Multiplexing (OFDM) symbols of a current time slot in a variety of complex pseudorandom sequences by using a complex pseudorandom sequence carried in a discrete pilot frequency position firstly; after accurately identifying the complex pseudorandom sequence used by the current time slot, re-descrambling transmission indication information by using the complex pseudorandom sequence; after performing corresponding processes of soft demodulation and repetitive decoding according to the modulation code characteristic of the transmission indication information, detecting the transmission indication information; and then starting a corresponding time slot logic number accumulator by means of the time slot logic number comprised in the detected transmission indication information, until the number 0 time slot is captured. Applying the method of the present invention, the number 0 time slot corresponding to the Control Logic Channel can be captured reliably, control information of the broadcast system can be resumed accurately and the method can be realized easily.
+28. 101605116 Method for forming guard intervals of frame structure and method and device for reconstructing circular convolution
+CN
+16.12.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810043458.X
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a method for forming guard intervals of a frame structure in a wireless communication emission system. An initial state of a linear feedback shift register (LFSR) for generating a current frame of circular and continuous frame guard intervals is a final state of the LFSR for generating a previous frame of circular and continuous guard intervals. The invention also discloses a method and a device for reconstructing a signal channel and emitting an information data circular convolution. A required data sequence r1 in the current frame of the circular and continuous guard intervals, the whole information data sequence r2 behind the current frame of the circular and continuous guard intervals and a receiving data sequence r3 with a start length of a maximal predicted delay spread of a next frame of the circular and continuous guard intervals are respectively intercepted from receiving data r, and the obtained three data sequences are aligned and calculated so as to obtain a reconstructed signal channel and a circular convolution of emitted information data. The invention can reduce the calculation complexity and obtain higher accuracy.
+29. 101599776 Method for counteracting interference of low-complexity channels and hardware structure thereof
+CN
+09.12.2009
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200810043435.9
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04B 1/707
+Loading...
+The invention discloses a method for counteracting the interference of low-complexity channels and a hardware implementation structure thereof. The method comprises the following steps: respectively carrying out a quick Fourier transform of an M point on the time domain impulse response of a signal frame and a local PN sequence, and carrying out dot product on the results to obtain an interference part on the frequency domain of the signal frame; carrying out a quick inverse Fourier transform of an M point on the interference part to obtain an interference part of the time domain of the M point; and respectively carrying out addition and subtraction of displacements on the interference parts on the signal frame and the time domain to carry out interference counteraction so as to obtain a time domain signal after the interference counteraction. The invention can adapt to the interference counteraction of various emitting modes in a standard of GB20600-2006 and can complete the channel interference counteraction of various emitting modes specified by a national standard by using a uniform structure, thereby reducing the complexity and the logical quantity of the channel interference counteraction in different modes and improving the multiplex degree.
+30. 101587754 Memorizer test device based on scan chain and use method thereof
+CN
+25.11.2009
+G11C 29/32 Loading...
+G11C 29/32
+Loading...
+200810043375.0
+Maxscend Technologies Inc.
+Ma Weijian
+G11C 29/32
+Loading...
+The invention discloses a memorizer test device based on a scan chain and a use method thereof. The invention relates to a test device of a chip and a use method thereof, in particular to a test device of a memorizer and the use method thereof. The invention comprises a memorizer built-in self-test module, and the memorizer built-in self-test module comprises a test vector generating circuit, a built-in self-test control circuit and a memorizer response analysis circuit. A scan-capable trigger used for storing built-in self-test results is arranged in the memorizer built-in self-test module and is connected with a logic circuit scan-capable trigger in series to form the scan chain, and the scan chain is controllable and visible through a port of the chip of the memorizer. The invention can effectively position a defect memorizer without increasing the chip area, and is convenient for defect analysis and design improvement.
+31. 101577689 Method for detecting and correcting residual frequency offset of national standard of digital terrestrial broadcasting
+CN
+11.11.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810043330.3
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a method for detecting and correcting residual frequency offset of the national standard of digital terrestrial broadcasting, which comprises the steps: 1, decoding of system information: recovering the system information of 6 information bits; 2, stability determination: comparing the system information of 6 information bits solved by multi-frame data, determining that the system information is stable if the system information of the continuous multi-frame 6 information bits is totally same; determining that the system information is not stable if the stable system information of the continuous multi-frame is not searched in a certain frame number; and returning to the first step to receive the next data frame if the stable result is not determined; 3, constellation point determination: ending the detection and correction process of the residual frequency offset for a system in absence of the residual frequency offset; and performing the correction of the residual frequency offset for a system in presence of the residual frequency offset. The algorithm has the advantages of small complexity, less logic quantity, simple circuit implementation and less resources.
+32. 101567744 Method for analyzing system information symbols in DTMB system
+CN
+28.10.2009
+H04B 1/712 Loading...
+H04B 1/712
+Loading...
+200810043307.4
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04B 1/712
+Loading...
+The invention discloses a method for analyzing system information symbols in a DTMB system, comprising the following steps: 32 system information indication symbols are separated at a receiving end; descrambling is carried out to the 32 system information indication symbols; the real part and the imaginary part of a sequence after being descrambled are added together, and multi-frame average is carried out; the symbol bit of each value is taken from the sequence after the multi-frame average; dispreading operation is carried out, and rapid Hadamard transform is carried out for the symbol bit sequence to obtain a transformed sequence which is Y(n), wherein n is equal to 32; a maximum value is found out in the Y(n) and set as Y (index), and the index value is remembered; and finally the system information is determined, and a table is searched to obtain the system information corresponding to s4s3s2s1s0. The invention can obtain reliable system information with simple operation, and is suitable for a DTMB digital terrestrial television receiving system.
+33. 101557374 Large frequency deviation detecting method of DTMB receiving system
+CN
+14.10.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810043254.6
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a large frequency deviation detecting method of a DTMB receiving system. The position of a frame head is found through a relevance to a PN sequence and a subsection of received baseband sampling signals. Point multiplication is carried out onto a data symbol sample point which is received by and corresponds to a local PN sequence so as to obtain a point-multiplied data sequence. The point-multiplied data sequence undergoes fast Fourier transformation, and a greatest peak value is found from transformed values so as to estimate the large-carrier frequency deviation of tens of and even hundreds of kilohertz. The large frequency deviation detecting method has low complexity, can reliably and correctly estimate the carrier frequency deviation and needs shorter time compared with a frequency scanning method. The method is applicable to digital televisions receiving chips which comply with the national standard of digital terrestrial television of People's Republic of China, or other receiving chips of wireless transmission systems using a time domain pseudo-random sequence.
+34. 101547019 Method for evaluating channel in DTMB system and device realizing same
+CN
+30.09.2009
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200810043185.9
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 25/02
+Loading...
+The invention discloses a method for evaluating a channel in a DTMB system. The method comprises the following steps: intercepting a required sequence in received PN data; reading and decoding compressed generalized pseudo-inverse matrix data; solving difference on the decoded data to acquire a generalized pseudo-inverse matrix; and carrying out matrix multiplication on the generalized pseudo-inverse matrix and the intercepted PN data sequence to acquire a channel impulse response sequence h. The invention also discloses a device for realizing the method. The method and the device can effectively reduce the complexity realized by a receiving system. The method for evaluating the channel in the DTMB system is not only applicable to the DTMB system, but can be applied to the systems having continuous random training sequences.
+35. 101540752 Method for softly demodulating QAM
+CN
+23.09.2009
+H04L 27/32 Loading...
+H04L 27/32
+Loading...
+200810043177.4
+Maxscend Micro-electronics Co., Ltd.
+Jiang Zhucheng
+H04L 27/32
+Loading...
+The invention discloses a method for softly demodulating QAM. The method comprises the following steps: (1) computing a cophase signal component I and an orthogonal signal component Q in an input signal; (2) computing a fading factor amplitude value G and an intermediate parameter P value; (3) designing a QAM soft demodulation device according to parameters in the step (1) and the step (2) according to the following formula, determining the type of a modulation mode, and computing a logarithm-likelihood ratio of each bit for each modulation mode; and (4) sending an output result of the step (3) to a subsequent channel decoding unit. The method ensures that computational complexity of QAM soft demodulation is reduced on the premise of not damaging precision by adopting addition and displacement instead of multiplication operation, thereby realizing the modulation method by the simple modulation device.
+36. 101540895 Method for identifying channel of national standard digital television terrestrial broadcasting signal
+CN
+23.09.2009
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+200810043176.X
+Maxscend Micro-electronics Co., Ltd.
+Jiang Zhucheng
+H04N 21/266
+Loading...
+The invention discloses a method for identifying a channel of a national standard digital television terrestrial broadcasting signal. The method comprises the following steps: selecting data taking triple length of the length of a PN sequence from a current frame as data to be processed according to the position of the strongest path of last frame; evenly dividing the data to be processed into an A data segment, a B data segment and a C data segment in turn; generating a local PN sequence; carrying out slide correlation processing on the B data segment by the local PN sequence to acquire a correlation value sequence; selecting a path; carrying out PN correlation processing on the A data segment and the C data segment by the local PN sequence to acquire correlation value sequences thereof; respectively determining that each path of the B data segment is a front path or a rear path, or an unqualified path; and finally, determining that whether the channel is identified or not, and carrying out differentiation of a head path and a tail path. The method can quickly and accurately identify the channel of the national standard digital television signal, acquire the positions of the head path and the tail path and the range of time delay extension, and provide convenience for accurate signal receiving of a receiver and subsequent processing.
+37. 101534270 Carrier frequency offset estimation and tracking method based on signal channel estimation
+CN
+16.09.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810043164.7
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention relates to a wireless signal transmission method, in particular to a carrier frequency offset estimation and tracking method. The invention provides a carrier frequency offset estimation and tracking method based on signal channel estimation, which comprises the following steps of: step one, selecting PN sequence data and implementing signal channel estimation; step two, obtaining the position of the strongest path; step three, finding the corresponding path at the position corresponding to the next frame; step four, implementing conjugation multiplication of the strongest path and the corresponding path of the next frame which are obtained in step two and step three, and taking a symbol from an imaginary part SIm (C) of the result; and step five, using the SIm (C) for controlling the carrier adjustment. The invention can effectively utilize the existing signal channel estimation result and achieve the functions of carrier frequency offset recovery and tracking very well on the condition of not adding too much complexity and resources. In addition, the recovery of fractional carrier frequency offset and the tracking of carrier frequency offset can also be realized with essentially the same logic, thereby greatly saving resources and reducing power consumption.
+38. 101534184 Sampling frequency offset estimation method
+CN
+16.09.2009
+H04L 7/02 Loading...
+H04L 7/02
+Loading...
+200810043166.6
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04L 7/02
+Loading...
+The invention discloses a sampling frequency offset estimation method, comprising the following steps of: 1) implementing relevant operation to a signal received by a receiver at a certain moment and a local PN sequence, thus obtaining the position of the maximum modulus value; 2) starting a counter and waiting for a time which is integral times of the super-frame time span, and implementing relevant operation to the current signal received by the receiver after the counting is finished and the local PN sequence, thus obtaining the position of another maximum modulus value; and 3) adjusting the sampling clock of the receiver according to the difference value of the positions of the two maximum modulus values obtained in step one and step two. The estimation method can be operated on a code element rate, without frame number recognition or a digital phase-locking feedback loop, therefore, the estimation method is simple and feasible, and can be widely used in digital communication systems such as television terrestrial broadcasting receiving system.
+39. 101534426 National standard timing tracking method of digital television terrestrial broadcasting
+CN
+16.09.2009
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200810043167.0
+Maxscend (Shanghai) Inc.
+Jiang Zhucheng
+H04N 7/24
+Loading...
+The invention discloses a national standard timing tracking method of digital television terrestrial broadcasting, which comprises the following steps of: selecting PN sequence data; implementing channel estimation to the selected PN sequence data x '(i) and obtaining a result sequence of the channel estimation; implementing path identification to the channel estimation result and determining a path set A by the path identification; finding a first path or the strongest path from the identified path set A, comparing the found first path or the strongest path i with a preset first path or the strongest path I, moving a synchronous position right if i is less than I, and moving the synchronous position left if i is more than I. The invention has the advantages of low algorithmic complexity, high reliability and small need of resource.
+40. 101521758 Method for detecting terrestrial digital television signal
+CN
+02.09.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810043151.X
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04N 5/44
+Loading...
+The invention discloses a method for detecting a terrestrial digital television signal, comprising the following steps of: taking data symbol sampling points of frequency points to be detected from an AD port; storing the data symbol sampling points of frequency points to be detected into an SRAM; making correlation operation by using local PN sequences respectively corresponding to frame head modes of PN420, PN595 AND PN945 respectively and the data stored in the SRAM and obtaining maximum correlation values; comparing the three maximum correlation values and finding the largest value of the maximum correlation values; comparing the largest value of the maximum correlation values with the threshold value; judging that whether the terrestrial digital television signal exists on the frequency points to be detected and judging the frame head mode of the signal. The method adopts the local PN sequences corresponding to three frame head modes, carries out correlation operation to the frequency points to be detected and judges that whether the digital television signal exists on the frequency points to be detected according to the three frame head modes, if so, the frame head mode of the signal is judged.
+41. 101521759 Coarse synchronizing method of digital television signal and parallel processing method thereof
+CN
+02.09.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810043154.3
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04N 5/44
+Loading...
+The invention discloses a coarse synchronizing method of a digital television signal and a parallel processing method thereof, which comprises the following steps of: (1) utilizing an analog-to-digital converter to collect a section of data symbol sampling points with the length of N according to 7.56 MHz sampling point frequency in national standard; wherein the length of data symbols to be collected is dependent on frame head modes; and (2) carrying out processing on the collected data with the length of N by adopting I-times single correlation operation or double correlation operation and obtaining coarse synchronizing position, wherein I is equal to the frame length of the signal frame; and adopting single correlation operation or double correlation operation according to the frame head modes when carrying out processing to data with the length of N. The method realizes coarse synchronizing to the digital television signal in national standard, thus being capable of obtaining position information of the signal frame; in addition, by the parallel processing method, the coarse synchronizing process can be completed in shorter time, thus accelerating the signal locking in the process of practical application greatly.
+42. 101521760 Frame synchronizing method of digital television signal and parallel processing method thereof
+CN
+02.09.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810043155.8
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04N 5/44
+Loading...
+The invention discloses a frame synchronizing method of a digital television signal and a parallel processing method thereof, which comprises a coarse synchronizing stage and a fine synchronizing stage. The coarse synchronizing stage comprises the following steps of: (1) utilizing an analog-to-digital converter to collect a section of data symbol sampling points with the length of N according to 7.56 MHz sampling point frequency in national standard, wherein the length of data symbols to be collected is dependent on frame head modes; and (2) carrying out processing on the collected data with the length of N by adopting I-times single correlation operation or double correlation operation and obtaining coarse synchronizing position. The fine synchronizing stage carries out similar processing on the data by taking coarse synchronizing position as center to obtain the fine synchronizing position, thus realizing that the frame position information of an international digital signal can be obtained and obtaining the current frame initial phase index with circulating mode; in addition, by parallel processing, the frame synchronizing process can be completed in shorter time, thus accelerating the signal locking in the process of practical application greatly.
+43. 101515807 Digital intermediate-frequency receiver
+CN
+26.08.2009
+H04B 1/30 Loading...
+H04B 1/30
+Loading...
+200810043135.0
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04B 1/30
+Loading...
+The invention discloses a digital intermediate-frequency receiver. An analog intermediate-frequency signal of the frequency fAIF of any intermediate-frequency frequency point is input and is sampled by an A/D sampling module at sampling frequency fAD, a frequency point of a digital intermediate-frequency signal after bandpass sampling is fIF=mod(fAIF, fAD), the quadrature demodulation is performed through an NCO, the signal frequency is shift to a base band from the intermediate frequency, the digital intermediate-frequency receiver also comprises a first-stage filter, a sampling frequency conversion module, and a second-stage filter, the first-stage filter has a wider passband, partial high-frequency components in the signal after the shift are filtered to meet the anti-aliasing requirement of the sampling of the sampling frequency conversion module, the second-stage filter has a narrower passband, and the high-frequency components remained in the signal after the sampling frequency conversion are removed to improve adjacent channel selectivity. The digital intermediate-frequency receiver can be suitable for all the intermediate-frequency frequency points, and has low complexity and less consumption of hardware resources.
+44. 101499987 Low complexity general time frequency transformation implementing method and hardware implementing architecture
+CN
+05.08.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810043092.6
+Maxscend Technologies Shanghai Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a method for realizing low complexity common time frequency conversion, wherein, a new sequence x(n) of N point consisting of N-N zero values is inserted at proximately the middle position of an input sequence x(n); an intermediate result X(k) is obtained by FFT operation carried out to the new sequence x(n) by means of Cooley-Tukey FFT structure; and an FFT result of an original input sequence of the N point is obtained by a numeral sampling conversion with the sample rate of N/N carried out to the intermediate result X(k). The invention also discloses a framework for realizing the low complexity common time frequency conversion. The invention has the advantage of realizing rapid calculation of FFT of any N point on the basis of not changing the sample rate of a system and based on a single and fixed butterfly structure, and is applicable to any system needing to carry out FFT processing of any point, such as a digital television terrestrial broadcasting system.
+45. 101500100 Fusion implementation architecture for national standard digital television ground broadcast demodulator
+CN
+05.08.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810043087.5
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04N 5/44
+Loading...
+The invention discloses a demodulator fusion realization architecture of a nationwide standard digital television terrestrial broadcast receiver, which comprises a analog-to-digital conversion module, a midfrequency processing module, a PN data separation module, a blind mode detection module, a channel estimate module, an interference cancellation module, a first general time-frequency transformation processing module, a second general time-frequency transformation processing module and a frequency-domain equalizing module; signals after frequency-domain equalizing are controlled by a first select switch to be input to a multicarrier transformation processing module so as to form frequency-domain multicarrier signals meeting the multicarrier standards, and then enter a QAM demodulation and channel decoding module by a second select switch; or the signals after frequency-domain equalizing are controlled by the first select switch to be input to a third general time-frequency transformation processing module so as to form time-domain single carrier signals meeting the single carrier standards, and then enter the QAM demodulation and channel decoding module by the second select switch to form MPEG TS code stream finally. The demodulator fusion realization architecture not only can realize the fusion of the single carrier and the multicarrier, but also has high resource reusability and low realization complexity.
+46. 101488763 Deinterleaving method for DTMB symbols
+CN
+22.07.2009
+H03M 13/27 Loading...
+H03M 13/27
+Loading...
+200810043035.8
+Maxscend Technologies (Shanghai) Inc.
+Ma Weijian
+H03M 13/27
+Loading...
+The invention discloses a DTMB symbol de-interleaving method. The method comprises the following step: a de-interleaving memory is logically divided into 52 rows such as from row 0 to row 51; each row respectively writes 72 symbols in a same interleaved frame; row 0 writes the symbols such as 0, 52, 104, ..., 3692 of an interleaved frame; row 1 writes 72 symbols such as 1, 53, 105, ..., 3693; row 51 writes the symbols such as 51, 103, 155, ..., 3743; row N contains (52-N+R) blocks, R is 0 or a positive integer, and the size of each block is M symbols; after data of the interleaved frame fully writes the last block in a row of the de-interleaving memory, subsequent data memorized in the row is covered in the block written with invalid data of the row; 51 X 52 symbols are fully prewritten when initialization; and then a frame of de-interleaving common signal data is read out every frame symbol is written. The application of the method can reduce the consumption of time domain symbol de-interleaving memory space.
+47. 101472184 LDPC forward error correction decoder and method for reducing power consumption
+CN
+01.07.2009
+H04N 7/64 Loading...
+H04N 7/64
+Loading...
+200710094669.1
+Maxscend Technologies Inc.
+Pan Guozhen
+H04N 7/64
+Loading...
+The invention discloses an LDPC forward error correction decoder which comprises eight parallel-connected FEC processing modules, and each of the processing modules comprises an LDPC decoding module, and a BCH verifying module. The LDPC decoding modules simultaneously conduct the decoding operation, and any LDPC decoding module conducts the hard decision and the BCH verification on information bits when the decoding is conducted; gated clock units are respectively inserted in the LDPC decoding modules and the BCH verifying modules; and with the adoption of the gated clock units, the clock in the corresponding module is stopped when the conditions of stopping clocks are met. The invention further discloses a method for reducing the power consumption of the forward error correction decoder. The method comprises a BCH verification strategy, an LDPC stop iterative strategy, and an N-1 strategy. The invention can effectively reduce the power consumption of the forward error correction decoder.
+48. 101465974 Method for implementing encode of nonlinear code
+CN
+24.06.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200710094599.X
+Maxscend Technologies Inc.
+Jiang Zhucheng
+H04N 5/44
+Loading...
+The invention discloses a realizing method of an encoder for a nonlinear code. The method is that: the correlation additive value is determined by utilizing a tree-shaped adding structure; the exhaustive comparison is carried out on the correlation results by utilizing a tree-shaped comparing structure; then, a soft-decision output of each bit is determined. Therefore, the number of adders and comparators are greatly reduced. When calculating the correlation of an entire code word, the correlation is divided into the correlation of an info-bit part and the correlation of a check-bit part. Similar to the correlation of the info-bit part, the correlation of the check-bit part also uses the tree-shaped adding structure; only a simple reordering operation is added. When calculating the 256 correlation values of the entire code word, the negative symmetry property of a NR code table is utilized, thus leading the calculating amount of the addition to be reduced by one time. On the basis of a correlative MAP decoding algorithm, the realizing method can greatly reduce the addition and operation. The realizing method can be used for a digital television receiving chip according with the terrestrial broadcasting and transmitting of Chinese digital televisions, or other receiving chips of wireless transmitting systems which use NR codes.
+49. 101442677 Hardware architecture for decoding FEC of DMB-T demodulation chip and decoding method
+CN
+27.05.2009
+H04N 7/64 Loading...
+H04N 7/64
+Loading...
+200710094276.0
+Maxscend Technologies Inc.
+Wang Jing
+H04N 7/64
+Loading...
+The invention discloses a hardware architecture and a decoding method for forward error correction (FEC) decoding in a DMB-T modem chip. The hardware architecture comprises 8 parallel FEC data processing modules, each of which comprises an LDPC data processing module and a BCH data processing module; an input data serial/parallel conversion module is used for receiving input data; the LDPC data processing module is used for realizing the iterative computation during LDPC decoding; an LDPC state controlling module is used for controlling computation enable of the LDPC data processing module and the controlling enable of an LDPC_SRAM memorizer; the BCH data processing module is used for realizing BCH verification and BCH correction; and a BCH state controlling module controls the computation enable of the BCH data processing module and the controlling enable of the BCH SRAM memorizer. The method can efficiently decrease the complexity of realizing the hardware of forward error correction, and improve the forward error correction performance. The invention is applicable to all systems needing LDPC encoding, in particular modem chips of DMB-T digital terrestrial broadcasting.
+50. 101330482 Method for implementing rapid channel estimation using FWT in DMB-T system
+CN
+24.12.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710042117.6
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses a method for realizing fast channel estimation in a DMB-T system by using an FWT, which realizes multipath acquisition by using the FWT. The steps for related to the matching of a PN sequence are as follows: a cyclic convolution with length of N receives signal vector sequence r, and the signal vector sequence r is transformed into time-domain channel impulse response h; the strong number S and the corresponding impulse response hsi are obtained. The interference cancellation steps are as follows: as for all strong impulse response complex gains, the interference is entirely cancelled through all strong interference components hsi, and a real channel impulse response sequence h and the channel transmission function H (omega) are obtained. The method has the advantages that the computational complexity can be effectively reduced, the hardware realization is simple, and the method is suitable for matching related system by using by using the periodic PN sequence, for example, the receiving system of DMB-T digital terrestrial broadcasting.
+51. 101325706 Reed-Solomon decoder with low hardware spending
+CN
+17.12.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710041948.1
+Maxscend Technologies (Shanghai) Inc.
+Ma Weijian
+H04N 7/26
+Loading...
+The invention claims a low hardware overhead Reed-Solomon decoder, comprising: a syndrome multinomial/chain search/error estimated value calculation multifunctional module, which realizes calculation of syndrome multinomial through algorithm S=((ralphai-1+r)alphai-1+...+r<1>)alphai-1+r<0> 1<=i<=2t, and is used for timely realizing functions of hidden search and error evaluation calculation etc; error position multinomial/error estimated value multinomial acquisition multifunctional module which has no need for iterating transfer inversion operation every time when performing solving using error position multinomial iteration algorithm through improved smooth Berlekamp-Massey algorithm so as to save the hardware resource, meanwhile, it can further timely realize acquisition of error position multinomial/error estimated value multinomial. The invention optimized decoding algorithm of Reed-Solomon decoder, reduces complexity of decoded hardware, greatly reduces the expenditure on hardware, and reduces the chip area and power consumption of the decoder.
+52. 101290613 FFT processor data storage system and method
+CN
+22.10.2008
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+200710039498.2
+Maxscend Technologies (Shanghai) Inc.
+Zhang Zhuopeng
+G06F 17/14
+Loading...
+The invention discloses a system and a method for data storage of an FFT processor. The data storage system comprises a controller, a storage, a papilionaceous operation unit and a twiddle factor form; the storage is used for storing data; the twiddle factor form stores a twiddle factor needed for each papilionaceous operation according to the sequence; the papilionaceous operation unit is used for the papilionaceous operation; the controller comprises a papilionaceous operation counter, a series counter, an index number generator, an address mapping device, a delay unit and a twiddle factor serial number generator; the data storage method comprises the following steps that: according to the input sequence, input data is recorded as dindex, wherein, the index is equal to 0, 1, ..., N-1; the index is represented by a binary digit and needs m bits, wherein, the m is equal to log 2N, that is, recorded as index[m-1:0]; and the input data is stored in the storage. The system and the method for data storage of the FFT processor use a single-port storage to realize the conflict-free read-write access; and the utilization rate of the papilionaceous operation unit is nearly 100 percent, thereby effectively improving the utilization efficiency of hardware resource.
+53. 101267244 Timing tracking method
+CN
+17.09.2008
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+200710038044.3
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04B 7/26
+Loading...
+The present invention discloses a timing tracking method which is used for correcting the timing drifting generated after synchronization by a digital mobile communication system. The continuous maintaining timing synchronization of the system is guaranteed. The method comprises the procedures of selecting a length of know data a from the frequency domain signal, setting the length as N; executing complex multiplication to the frequency domain data a and the conjugation of the local known frequency spectrum sequence An for obtaining a now sequence bn=aA<*>n; executing low-pass filtering to the sequence bn for obtaining a novel sequence cn; executing zero crossing detection to the sequence cn, to all i=1, 2, ..., N-1, if the relationship cici-1<=0 is satisfied, recording as a zero point, and detecting to obtain a total number x of the zero points; calculating a synchronous offset m=x/2 according to the number of the zero point; and executing synchronous correction according to the synchronous offset obtained from calculation. The timing tracking method has the advantages of small complexity, small calculating amount, simple procedure, little resource requirement, simple structure of the hardware realizing circuit, short calculating time and low power consumption.
+54. 101267417 Estimation method for integer frequency deviation of digital communication system
+CN
+17.09.2008
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200710038045.8
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/26
+Loading...
+The invention discloses an estimation method of a digital communication system integer frequency offset, comprising the steps of: selecting a plurality of symbols in a frequency domain signal; selecting two sections of data with the same length from each symbol; adding absolute value of real and imaginary parts of each data point; accumulating the plurality of symbols; subtracting the produced two sections of sequence point by point and extracting the symbol so as to produce a comparative sequence; accumulating the comparative sequence point by point to produce a symbol accumulative sequence, and searching a minimum value; calculating an integer frequency offset according to the minimum value. The invention is capable of reducing complexity of calculation with high reliability and less time consuming, which is not only appropriate for an OFDM system, but also a single carrier system.
+55. 101242391 Carrier frequency recovery and tracking method
+CN
+13.08.2008
+H04L 27/38 Loading...
+H04L 27/38
+Loading...
+200710037355.8
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/38
+Loading...
+The invention discloses a method for carrier frequency recovery and tracking. The carrier frequency recovery: firstly carrying out related calculation to get a vector C, extracting the imaginary part symbol value of the vector C, and controlling NCO frequency to adjust frequency offset towards opposite direction. When the imaginary part symbol changes, the adjusting step halves from big to small each time. After multiple symbol adjustments, the final adjusting step reduces to a fixed scope, thus an initial carrier frequency correcting is finished. The carrier frequency tracking: setting a threshold th, finding 128 points satisfying condition |I|+|Q|>th, if there is not enough points satisfying the condition, the tracking adjustment is not carried out; getting an accumulated value ft-sigma128(QSI-ISQ) for the found points; delivering the sign bit h of the accumulated value to a frequency adjusting module. The invention is easy to control, and the cost of the hardware is low. The invention is suitable for but not limited to T-DMB standard digital television broadcast receiving system.
+56. 101242190 Time de-interweaving method
+CN
+13.08.2008
+H03M 13/27 Loading...
+H03M 13/27
+Loading...
+200710037358.1
+Maxscend Technologies (Shanghai) Inc.
+Pan Guozhen
+H03M 13/27
+Loading...
+The invention discloses a time de-interwaving method. Number of data composed corresponding to common interweaving is M; adopting c=b=b as time interweaving, y is reversed sequence value of i module z of data index number. z is integral power of 2 more than 1; generating de-interwaving memory address according to de-interwaving parameter k and outputting data and storing data from the memory unit of corresponding address of the de-interwaving memory according to memory address and k; whole de-interwaving memory is divided into (z-1)th logical FIFO. First FIFO stores data of reversed sequence value of i module z of previous (z-1)th data index number. The second FIFO stores data of reversed sequence value of i module z of previous (z-2)th data index number,..., the (z-1)th FIFO stores data of reversed sequence value of i module z of previous (z-2)th data index number. The method can greatly reduce required content of de-interwaving memory, which reduces hardware cost.
+57. 101242382 Receiving method for low-complexity digital middle-frequency data
+CN
+13.08.2008
+H04L 27/10 Loading...
+H04L 27/10
+Loading...
+200710037247.0
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04L 27/10
+Loading...
+The invention discloses a low-complexity digital intermediate frequency data receiving method. After the intermediate frequency is sampled in A/D sampling end with 4-time baseband sampling rate, and separated into I-channel and Q-channel data, the I-channel data is first delayed m beats, then 4-time down-sampled to get baseband I-channel data, and is output at single-time speed; the Q-channel data is first 2-time down-sampled, then multiplied with (-1) , and filtered, so that only needed baseband frequency signals can be passed, at the same time, one point data corresponding to every two input sampling points is output, the two-time speed data is lowered to single-time speed when filtered to extract needed Q-channel data, and output at single-time speed. The invention makes maximum use of characteristics of hardware circuit and 4-time speed sampling, removes the invalid calculating process, at baseband speed, each sampling point only needs a fixed-coefficient multiplication to greatly reduce consumption and complexity.
+58. 101242539 Frame synchronization device and method for T-DMB system receiver
+CN
+13.08.2008
+H04N 7/54 Loading...
+H04N 7/54
+Loading...
+200710037249.X
+Maxscend Technologies (Shanghai) Inc.
+Jiang Zhucheng
+H04N 7/54
+Loading...
+The present invention provides a frame synchronizer of T-DMB system receiver and its method, the device includes adder 1, selftimer 1, adder 2, selftimer 2. adder 3, a comparator, a sign counter and a decision control state machine, wherein the adders 1, 2, the selftimers 1, 2 are used for receiving input signal and the sending in the adder 3 after dot difference; the adder 3 sends the processing result to the comparator and then sends to the sign counter, the sign counter sends the enumerated data to the decision control state machine and receives the feedback of the decision control state machine. The frame synchronizer processes counting by receiving the signl of the signal width and the difference of threshold, and judging null interval, the method is quick and high effect, only using some control state machines and simple adding unit can realize because of having no filter, the method reduces the spending of the hardware, effectively overcomes time pulse.
+59. 101242189 De-interweaving method for pointer addressing time
+CN
+13.08.2008
+H03M 13/27 Loading...
+H03M 13/27
+Loading...
+200710037357.7
+Maxscend Technologies (Shanghai) Inc.
+Pan Guozhen
+H03M 13/27
+Loading...
+The invention discloses a pointer addressing time de-interwaving method. Number of data composed corresponding to common interweaving is M; adopting c< r, i>=b< r', i>=b=b as time interweaving, i represents data with data index number i of rth frame after de-interwaving, r-y, i represent data with data index number i of (r-y)th frame before interweaving, y is reversed sequence value of i module z of data index number. z is integral power of 2 more than 1; whole de-interwaving memory is divided into M/z units, each of which stores 1+2+3+4+...(z-1) data, respectively belonging to (z-1)th common interweaving frame; for each entered common interweaving frame data, quotient obtained by dividing z of data index number i is stored in corresponding unit; configuring a pointer matrix to store relative address of data in each storing unit. The point matrix can be addressed by frame number r and data index number i. The method can greatly reduce required content of de-interwaving memory, which reduces hardware cost.
+

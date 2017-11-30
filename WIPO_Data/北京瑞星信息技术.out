@@ -1,0 +1,625 @@
+1. 106845215 基于虚拟化环境下的安全防护方法及装置
+CN
+13.06.2017
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+102016001269685
+北京瑞星信息技术股份有限公司
+刘青霞
+G06F 21/53
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及装置。其中方法包括：安全虚拟机接收主动扫描任务，向主动扫描任务指定的客户虚拟机发送安全防护指令；安全虚拟机接收客户虚拟机响应于所述安全防护指令的文件事件处理请求；安全虚拟机获取安全处理流程的CPU占用率；所述安全虚拟机将CPU占用率与安全处理流程的CPU占用率预设阈值进行比较；若CPU占用率大于CPU占用率预设阈值，则安全虚拟机拒绝对所述文件事件处理请求中的文件事件进行处理。该安全防护方法及装置，通过在安全虚拟机中对主动扫描过程的CPU占用率进行限定，能够使得安全虚拟机能够对客户虚拟机中文件监控的文件事件做出快速响应，从而提高了客户虚拟机的运行速度。
+2. 106844004 基于虚拟化环境下的安全防护方法及系统
+CN
+13.06.2017
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+102016001242625
+北京瑞星信息技术股份有限公司
+唐政
+G06F 9/455
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及系统。其中方法包括：当有虚拟机需要从其所在的源物理主机迁移到目的物理主机，且源物理主机的源安全虚拟机正在对需要迁移的迁移虚拟机执行安全防护事件时，迁移虚拟机从源安全虚拟机中获取安全防护事件的防护进度信息，并从源物理内存空间中获取安全防护事件对应的待防护数据；当迁移虚拟机迁移到目的物理主机之后，迁移虚拟机将防护进度信息发送给目的物理主机的目的安全虚拟机，同时将待防护数据写入目的物理主机的目的物理内存空间；目的安全虚拟机接收到防护进度信息后，根据防护进度信息对写入目的物理内存空间中的待防护数据继续进行安全防护。其能实现虚拟机迁移的不间断安全防护。
+3. 106845214 基于虚拟化环境下的安全防护方法及系统
+CN
+13.06.2017
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+102016001242647
+北京瑞星信息技术股份有限公司
+刘思宇
+G06F 21/53
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及系统。其中方法包括：当有虚拟机捕获到安全防护事件时，捕获到安全防护事件的虚拟机作为第一虚拟机获取安全防护事件对应的待检测数据；第一虚拟机向安全虚拟机发送标识其身份的第一标记信息，并将待检测数据通过其自身的第一虚拟内存写入物理内存空间；安全虚拟机接收到所述第一标记信息后，对写入在物理内存空间的待检测数据进行安全检测，得到检测结果，并根据第一标记信息将检测结果反馈给所述第一虚拟机。其对网络环境无要求，因此能够在无网络的情况下实现对虚拟机捕获到的安全防护事件对应的数据进行安全防护，进而防止携带有安全威胁的安全防护事件威胁该虚拟机。
+4. 106844005 基于虚拟化环境下的数据恢复方法及系统
+CN
+13.06.2017
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+102016001242716
+北京瑞星信息技术股份有限公司
+田雨
+G06F 9/455
+Loading...
+本发明提供一种基于虚拟化环境下的数据恢复方法及系统。其中方法包括：安全虚拟机接收到数据恢复任务后，从本地隔离区中查找到数据恢复任务指定的备份数据，并向数据恢复任务指定的指定虚拟机发送恢复事件；安全虚拟机将备份数据写入物理内存空间中；指定虚拟机接收到恢复事件后，从物理内存空间中读取备份数据，根据数据恢复任务获得备份数据在指定虚拟机中的指定恢复位置，并将备份数据写入指定恢复位置。其克服了传统的为恢复备份在各个虚拟机上的备份数据需要在每个虚拟机上部署恢复引擎服务数据对物理资源的占用问题，避免了在各个虚拟机上重复部署恢复引擎服务数据造成的资源浪费，减轻对物理主机资源的占用，节约资源成本。
+5. 106844006 基于虚拟化环境下的数据防护方法及系统
+CN
+13.06.2017
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+102016001242765
+北京瑞星信息技术股份有限公司
+程广连
+G06F 9/455
+Loading...
+本发明提供一种基于虚拟化环境下的数据防护方法及系统。其中方法包括：虚拟机根据安全防护事件生成待防护数据，将待防护数据通过物理内存空间传送给同一物理主机的安全虚拟机；安全虚拟机对待防护数据进行检测，并在检测到待防护数据中存在病毒信息时，将待防护数据进行备份，得到原始待防护数据和备份待防护数据；安全虚拟机对备份待防护数据进行查杀处理，得到安全数据，并将安全数据回写给虚拟机；安全虚拟机对原始待防护数据进行加密处理，得到加密数据，并将加密数据写入到本地隔离区。其只将安全数据回写到虚拟机，而将原始待防护数据加密后保存在安全虚拟机的本地隔离区，因此能减少数据回写量，减少对查杀处理时间的占用，提高查杀性能。
+6. 106845231 基于虚拟化环境下的安全防护方法及装置
+CN
+13.06.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201611257373.2
+北京瑞星信息技术股份有限公司
+王宇星
+G06F 21/56
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及装置。其中方法包括：安全虚拟机接收客户虚拟机的文件检测请求；根据文件检测请求获取文件标识；根据所述文件标识，在可信文件库中查找与所述文件标识对应的可信项，所述可信项包括客户虚拟机中系统文件的标识；若查找到所述可信项，所述安全虚拟机确认该文件为系统文件，且该文件为安全文件。该安全防护方法及装置，通过先判断文件是否为安全的系统文件，再进行查杀，能够避免安全虚拟机频繁的对各个客户虚拟机中的系统文件进行检测查杀，降低查杀频率，提高了安全虚拟机及客户虚拟机的运行速度。
+7. 106845232 恶意代码库建立方法和系统
+CN
+13.06.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201611259731.3
+北京瑞星信息技术股份有限公司
+陈启
+G06F 21/56
+Loading...
+本发明涉及一种恶意代码库建立方法和系统，所述方法包括：获取文档；利用恶意代码识别软件扫描所述文档；识别包含恶意代码的文档中的各最小逻辑单元，并生成与所述各最小逻辑单元一一对应的宿主文档，且所述宿主文档只保留与之对应的一个最小逻辑单元；利用所述恶意代码识别软件分别扫描所述各宿主文档，将包含恶意代码的所述宿主文档确定为待提取文档；提取所述待提取文档中最小逻辑单元的恶意代码特征，获取恶意代码特征记录；根据所述恶意代码特征记录生成恶意代码库。本发明所提供的恶意代码库建立方法，能够自动的将恶意代码在文档中定位出并提取恶意代码特征，建立恶意代码库。
+8. 106845233 UEFI安全检测方法和系统
+CN
+13.06.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201611259734.7
+北京瑞星信息技术股份有限公司
+徐敏
+G06F 21/56
+Loading...
+本发明涉及一种UEFI安全检测方法和系统，所述方法包括：根据病毒库扫描UEFI文件，将所述UEFI文件与所述病毒库进行匹配，所述病毒库包括与各病毒一一对应的特征记录，所述特征记录包括根据病毒提取的至少两个病毒特征，以及对应的安全等级标识；当所述UEFI文件与所述病毒库中一个特征记录中的一个病毒特征匹配时，将所述特征记录中的病毒特征与所述UEFI文件进行匹配后，生成匹配记录，所述匹配记录包括与所述UEFI文件匹配的所述特征记录中的病毒特征，以及对应的安全等级标识；根据所述匹配记录中的安全等级标识确定所述UEFI文件的安全等级。本发明根据最终安全等级标识确定所述UEFI文件的安全等级，为后续UEFI文件的病毒查杀或安全评估提供更加灵活的参照。
+9. 106845216 基于虚拟化环境的查杀方法及装置
+CN
+13.06.2017
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+102016001269727
+北京瑞星信息技术股份有限公司
+王宇星
+G06F 21/53
+Loading...
+本发明涉及一种基于虚拟化环境的查杀方法及装置。所述方法包括：接收文件的访问请求；根据文件的访问请求获得文件信息；根据所述文件信息，获取文件标识；根据所述文件标识在可信文件记录中查找对应的可信项；若未查找到对应的可信项，则将所述文件送往安全虚拟机进行检测；接收所述安全虚拟机返回的检测结果；若所述检测结果为文件安全，则将所述文件标识添加到可信文件记录中，并将所述文件存入可信文件缓存。该方法通过利用可信文件记录的方法，减少了文件送往安全虚拟机进行检测的次数，使得可信文件不用每次都经过同样的检测，并且可以直接从可信文件缓存中取用文件，提高了文件访问效率。
+10. 106778229 一种基于VPN的恶意应用下载拦截方法及系统
+CN
+31.05.2017
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+102016001077568
+北京瑞星信息技术股份有限公司
+杜元
+G06F 21/51
+Loading...
+本发明涉及一种基于VPN的恶意应用下载拦截方法及系统，所述方法包括：利用用户终端上的VPN拦截网络连接请求；识别所述网络连接请求中的下载应用安装包请求；监听所述下载应用安装包请求的响应数据流；还原所述响应数据流中的应用安装包的特征信息，并根据所述特征查找恶意应用库，若在所述恶意应用库中查找到与所述应用安装包的特征信息相同的恶意特征信息，则阻断所述响应数据流。本发明利用用户终端上搭建的VPN拦截用户的网络连接请求，识别出应用程序下载请求后，监听响应的流量包，通过还原应用安装包中的特征信息，查找恶意应用库，在应用程序的下载阶段对应用程序的安全进行鉴别，避免用户安装恶意的应用程序带来的损失。
+11. 106778235 Linux文件操作控制方法及装置
+CN
+31.05.2017
+G06F 21/52 Loading...
+G06F 21/52
+Loading...
+102016001052829
+北京瑞星信息技术股份有限公司
+刘思宇
+G06F 21/52
+Loading...
+本发明提供一种Linux文件操作控制方法及装置，其中，所述方法包括：接收应用程序的运行命令，并获取应用程序的标识；加载预设的劫持函数库和动态库；运行所述应用程序并识别所述应用程序中的文件操作函数；根据所述文件操作函数和所述应用程序的标识查找所述劫持函数库，所述劫持函数库包括所述文件操作函数、所述应用程序的标识和劫持函数之间的对应关系；若查找到与所述文件操作函数和所述应用程序的标识对应的劫持函数，则运行所述劫持函数，并根据所述劫持函数的运行结果判断是否调用所述动态库中的文件操作函数。本发明所提供的Linux文件操作控制装置，能够在Linux系统中针对不同的应用程序对文件操作进行控制，提高Linux系统对文件操作控制的灵活性。
+12. 106778274 基于虚拟化环境下的安全防护方法及系统
+CN
+31.05.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+102016001242683
+北京瑞星信息技术股份有限公司
+王宇星
+G06F 21/56
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及系统。其中方法包括：安全虚拟机接收到主动扫描任务后，向主动扫描任务指定的虚拟机发送安全防护事件；指定的虚拟机接收到所述安全防护事件后，根据安全防护事件生成待检测数据，并通过其对应的虚拟机内存将待检测数据写入物理内存空间中；安全虚拟机对物理内存空间中的待检测数据进行安全检测，并在检测到待检测数据中存在病毒信息时，对待检测数据中的病毒信息进行查杀处理，并将查杀处理后的待检测数据反馈给指定的虚拟机。其能够避免在同一物理主机的多个虚拟机中重复部署多个安全防护软件时对资源的占用，且安全防护软件能够随时随地的对虚拟机进行主动安全防护。
+13. 106778275 基于虚拟化环境下的安全防护方法及系统和物理主机
+CN
+31.05.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+102016001242693
+北京瑞星信息技术股份有限公司
+王宇星
+G06F 21/56
+Loading...
+本发明提供一种基于虚拟化环境下的安全防护方法及系统和物理主机。其中方法包括：从物理主机部署的多个虚拟机中选择出预设个数的虚拟机，并将选择出的虚拟机配置为安全虚拟机；为物理主机中的每个虚拟机创建虚拟内存，各个虚拟机的虚拟内存对应同一物理内存空间；当检测有安全防护事件发生时，获取安全防护事件对应的待检测数据，并将待检测数据通过发生安全防护事件的虚拟机的虚拟内存写入物理内存空间；利用安全虚拟机对物理内存空间中的待检测数据进行安全检测，得到相应的检测结果，将检测结果反馈给发生安全防护事件的虚拟机。其不仅减轻了对计算资源或存储资源的占用，而且还对网络环境无要求。
+14. 106710343 计算机实操考试方法和系统
+CN
+24.05.2017
+G09B 7/02 Loading...
+G09B 7/02
+Loading...
+201710018007.X
+北京瑞星信息技术股份有限公司
+李丰初
+G09B 7/02
+Loading...
+本发明涉及一种计算机实操考试方法和系统，所述方法包括：接收各客户端发送的客户端信息，所述客户端信息包括随机隐含信息；获取操作对象和实操算法；根据所述各随机隐含信息、所述操作对象和所述实操算法，生成与所述各客户端对应的实操试题；向所述各客户端发送与所述各客户端对应的实操试题。由于所述的随机隐含信息，考生无法获知，而且是随机的信息，因此能从根本上杜绝作弊，并能自动生成实操试题，减轻实操考试出题的工作量。
+15. 106713077 代理服务器流量回放方法和系统
+CN
+24.05.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201710018009.9
+北京瑞星信息技术股份有限公司
+陈莲秀
+H04L 12/26
+Loading...
+本发明涉及一种代理服务器流量回放方法，所述方法包括：获取待回放原始数据；解析所述待回放原始数据，获取所述待回放原始数据中的各数据流，将解析出的各数据流按照发送方和接收方的地址组合进行分组，获取各待回放数据组；通过第一物理网口将所述各待回放数据组中其中一端的数据包发送至代理服务器的第三物理网口；通过第二物理网口将所述各待回放数据组中另一端的应答数据包发送至代理服务器的第四物理网口；其中，所述第一物理网口和所述代理服务器的第三物理网口直连，所述第二物理网口和所述代理服务器的第四物理网口直连。本发明避免了对每个回放数据包都需要进行连接跟踪，能够方便的实现对代理服务器的流量回放。
+16. 106649036 Linux网络访问监控方法及装置
+CN
+10.05.2017
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+102016001053013
+北京瑞星信息技术股份有限公司
+程广连
+G06F 11/30
+Loading...
+本发明提供一种Linux网络访问监控方法及装置，其中，所述方法包括：接收应用程序的运行命令，并获取应用程序的标识；加载预设的劫持函数库和动态库；运行所述应用程序并识别所述应用程序中的网络访问函数；根据所述网络访问函数和所述应用程序的标识查找所述劫持函数库；若查找到与所述网络访问函数和所述应用程序的标识对应的劫持函数，则运行所述劫持函数，并根据所述劫持函数的运行结果判断调用动态库中的劫持函数的同时是否对所述网络访问函数进行监控。本发明所提供的Linux网络访问监控方法，能够在Linux系统中针对不同的应用程序对网络访问进行监控，记录不同的应用程序进行网络访问时的访问日志。
+17. 106657022 Linux网络访问控制方法及装置
+CN
+10.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001053014
+北京瑞星信息技术股份有限公司
+刘思宇
+H04L 29/06
+Loading...
+本发明提供一种Linux网络访问控制方法及装置，其中，所述方法包括：接收应用程序的运行命令，并获取应用程序的标识；加载预设的劫持函数库和动态库；运行所述应用程序并识别所述应用程序中的网络访问函数；根据所述操作函数和所述应用程序的标识查找所述劫持函数库，所述劫持函数库包括所述网络访问函数、所述应用程序的标识和劫持函数之间的对应关系，若查找到与所述网络访问函数和所述应用程序的标识对应的劫持函数，则运行所述劫持函数，并根据所述劫持函数的运行结果判断是否调用所述动态库中的网络访问函数。本发明所提供的Linux网络访问控制方法，能够在Linux系统中针对不同的应用程序对网络访问进行控制，提高网络访问控制的灵活性。
+18. 106557694 Linux文件操作监控方法及装置
+CN
+05.04.2017
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201611052540.X
+北京瑞星信息技术股份有限公司
+程广连
+G06F 21/55
+Loading...
+本发明提供一种Linux文件操作监控方法及装置，其中，所述方法包括：接收应用程序的运行命令，并获取应用程序的标识；加载预设的劫持函数库和动态库；运行所述应用程序并识别所述应用程序中的文件操作函数；根据所述文件操作函数和所述应用程序的标识查找所述劫持函数库；若查找到与所述文件操作函数和所述应用程序的标识对应的劫持函数，则根据所述劫持函数的运行结果判断调用动态库中的文件操作函数的同时是否对所述文件操作函数进行监控。本发明所提供的Linux文件操作监控方法，能够在Linux系统中针对不同的应用程序对文件操作进行监控，记录不同的应用程序进行文件操作时的访问日志。
+19. 106407812 Linux实时杀毒的方法及装置
+CN
+15.02.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201611051408.7
+北京瑞星信息技术股份有限公司
+程广连
+G06F 21/56
+Loading...
+本发明提供一种Linux实时杀毒的方法及装置，所述方法包括：接收应用程序的运行命令，并获取应用程序的标识；加载预设的劫持函数库和动态库；运行所述应用程序并识别所述应用程序中的文件操作函数；根据所述应用程序的标识、所述文件操作函数查找所述劫持函数库，若查找到，则运行所述劫持函数，并根据所述劫持函数的运行结果判断是否对所述文件操作函数操作的文件进行杀毒，并根据所述文件的杀毒结果判断是否运行所述动态库中的文件操作函数。本发明所提供的Linux实时杀毒装置，能够在Linux系统中针对不同的应用程序对文件进行杀毒，提高了文件杀毒的灵活性和实时性。
+20. 106375972 运营商流量短信解析方法及系统
+CN
+01.02.2017
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+102016001092439
+北京瑞星信息技术股份有限公司
+杜元
+H04W 4/14
+Loading...
+本发明涉及一种运营商流量短信解析方法及系统，所述方法包括：获取用户信息，所述用户信息包括用户的归属运营商信息；根据所述归属运营商信息查询预设的归属运营商流量信息库，确定向所述归属运营商的查询流量短信的短信内容信息，并根据所述短信内容信息向用户的归属运营商发送流量查询短信；接收运营商发回的流量短信；对所述流量短信进行语义分析，获取用户的流量信息；根据所述流量信息和预设的流量解析模版确定用户的流量解析结果，所述流量解析结果包括总流量、已使用流量和剩余流量。本发明所提供的流量短息解析方法，能够解析不同归属运营商的流量短信，为用户提供准确的、统一的流量使用信息。
+21. 106358236 移动数据网络的闲时流量检测方法及检测装置
+CN
+25.01.2017
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+102016000982445
+北京瑞星信息技术股份有限公司
+杜元
+H04W 24/08
+Loading...
+本发明提供一种移动数据网络的闲时流量检测方法，所述方法包括：检测当前时间是否处于预设闲时流量时间段；如果当前时间处于预设闲时流量时间段，发送剩余闲时流量查询指令到运营商服务器；接收所述运营商服务器返回的第一剩余闲时流量；经过预定时间再次发送剩余闲时流量查询指令到所述运营商服务器；接收所述运营商服务器返回的第二剩余闲时流量；比较所述第二剩余闲时流量与所述第一剩余闲时流量的大小；若第二剩余闲时流量小于第一剩余闲时流量，则判定当前移动数据网络使用的是闲时流量。本发明还提供一种移动数据网络的闲时流量检测装置。本发明提供的闲时流量检测方法及检测装置能够准确的检测当前用户使用的是否为闲时流量。
+22. 104022998 网络传输数据病毒检测处理方法
+CN
+28.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000066604
+北京瑞星信息技术股份有限公司
+张量
+H04L 29/06
+Loading...
+本发明公开了一种网络传输数据病毒检测处理方法。其通过零拷贝内存，利用虚存将传输文件的数据包从内核层映射到用户层；对应用层协议进行解析，还原出传输文件并交给查毒引擎检测，使得防毒墙系统与内核的耦合很小且保持稳定；其摒弃传统的代理连接技术，采用独特的扣包机制，在不改变原始连接任何特征的前提下，通过流引擎和文件引擎的双重检测，保证了对带毒传输文件及时和准确的阻断。
+23. 105847066 服务器、终端数据传输处理方法及终端网络管理方法
+CN
+10.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610349510.9
+北京瑞星信息技术股份有限公司
+杨绍波
+H04L 12/24
+Loading...
+本发明涉及一种服务器、终端数据传输处理方法及终端网络管理方法。其中，终端网络管理方法基于超文本传输协议在服务器和终端之间进行数据传输，包括以下步骤：终端满足连接服务器的条件时，发送请求到服务器；服务器接收请求；服务器解析请求，并返回请求应答信息；请求包括第一包头部分和第一内容部分；请求应答信息中包括第二包头部分和第二内容部分；第一包头部分和第二包头部分中为固定信息，第一内容部分和第二内容部分中为可变信息。服务器能够通过终端上传的请求直接建立与终端之间的连接，不依赖网络连接状态、时序，每次网络请求都是独立的。因此，服务器与终端之间的连接更便捷，服务器管理数据更少，处理效率更高。
+24. 105282097 用于路由安全管理的方法和装置
+CN
+27.01.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410277711.3
+北京瑞星信息技术有限公司
+杜元
+H04L 29/06
+Loading...
+本发明总体上涉及路由安全管理的方法和装置。根据本发明的一个方法实施例包括：搜索网络中的作为网关的路由器；检测所述路由器的型号、设置项和管理项；对所检测的所述路由器的设置项和管理项进行安全扫描以确定是否存在不安全的设置项和管理项；以及基于所述扫描的结果来决定是否提供告警信息和/或修复建议。
+25. 105071975 数据传输和分发的方法及系统
+CN
+18.11.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510564189.1
+北京瑞星信息技术有限公司
+寇立涛
+H04L 12/24
+Loading...
+本发明提供一种数据传输和分发的方法及系统，适用于域模式下的全网计算机系统，全网计算机系统包括服务器和客户端。该方法包括以下步骤：当上层应用变更客户端的原始配置数据后，获取变更后的变更配置数据，并将变更配置数据存储到服务器中；根据变更配置数据的属性信息和客户端的客户唯一标志符获得变更配置数据与客户端的分发对应关系；根据分发对应关系将变更配置数据传输到相应的客户端。其使上层应用与配置数据分发过程分离，减少上层应用与配置数据分发时内部复杂逻辑的相关耦合度，提高了软件的开发效率，同时其使得计算机管理人员对整个企业内所有计算机进行配置管理的复杂度降低，计算机管理人员的维护时间减少，节约了人力成本。
+26. 105045661 扫描任务的调度方法及系统
+CN
+11.11.2015
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201510474717.4
+北京瑞星信息技术有限公司
+杨绍波
+G06F 9/48
+Loading...
+本发明提供一种扫描任务的调度方法及系统。其中方法包括以下步骤：任务管理器接收到创建指令后创建扫描任务，并初始化扫描任务的基本属性；任务管理器根据模式信号获取扫描任务的当前变频处理模式，根据当前变频处理模式的性能调节参数创建相应数量的扫描线程；将需要处理的扫描对象存入处理对象队列中；扫描线程从处理对象队列中获取扫描对象，并对扫描对象进行查毒杀毒处理；在扫描线程对扫描对象进行查毒杀毒的处理过程中，若任务管理器接收到变频信号，则根据变频信号获取扫描任务的当前变频处理模式，并根据当前变频处理模式的性能调节参数调度扫描线程。其实现了扫描任务的灵活智能调度，满足不同环境差异的需求，提高使用舒适度。
+27. 104866774 账户权限管理的方法及系统
+CN
+26.08.2015
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201510289494.4
+北京瑞星信息技术有限公司
+郭丹枫
+G06F 21/60
+Loading...
+本发明公开了一种账户权限管理的方法及系统。其中该方法包括账户建立管理的步骤，账户建立管理的步骤具体包括以下步骤：接收账户的权限设置信息，并根据权限设置信息确定当前设定账户的初步处理范围；查看系统中是否存在隐私账户；当系统中不存在隐私账户时，确定初步管理范围为账户的最终处理范围；当系统中存在隐私账户时，确定隐私账户的隐私处理范围，去除初步处理范围中与隐私处理范围重叠的处理范围后作为账户的最终处理范围。其通过设置隐私账户，能够保证管理区域范围内特殊文件或者功能的安全性，且通过隐私账户与其他管理账户相结合可实现多种管理范围各不相同的管理账户。使账户管理具有更好的可变性、灵活性。
+28. 104820602 软件包发布方法、装置及系统
+CN
+05.08.2015
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201510252938.7
+北京瑞星信息技术有限公司
+崔肖宾
+G06F 9/44
+Loading...
+本发明公开了一种软件包发布方法、装置及系统。其中该方法包括如下步骤：获取云端服务器中的软件安装包原始文件及结构化描述文件；其中，软件安装包原始文件中包含多个软件包文件夹；根据预设的软件包定制需求选择所述软件安装包原始文件中的部分或者全部软件包文件夹作为定制软件包文件集，并修改结构化描述文件构成定制结构化描述文件，将定制结构化描述文件及定制软件包文件集一起构成定制软件安装包；根据客户端的软件包下载请求，将对应的定制软件安装包发送到客户端。其将软件开发方的软件发布设置在云端，定制软件安装包的制作可放置在本地服务器中，用户可根据需求自行进行设置，使软件的发布更加便捷，更易满足不同客户端的软件包特定需求。
+29. 204257206 便携式无线通信存储设备
+CN
+08.04.2015
+G11C 7/10 Loading...
+G11C 7/10
+Loading...
+201420465800.6
+北京瑞星信息技术有限公司
+蔡明
+G11C 7/10
+Loading...
+本实用新型涉及便携式无线通信存储设备。根据一个实施例，便携式无线通信存储设备包括可分离的Wi-Fi模块和USB存储模块，其中Wi-Fi模块包括USB-OTG母头接口部分，USB存储模块包括USB-OTG公头接口部分，USB存储模块的USB-OTG公头接口部分能够容纳在Wi-Fi模块的USB-OTG母头接口部分中，以将Wi-Fi模块和USB存储模块组合成便携式无线通信存储设备，并且USB存储模块的USB-OTG公头接口部分还能够从Wi-Fi模块的USB-OTG母头接口部分中移出，以将便携式无线通信存储设备分解成Wi-Fi模块和USB存储模块。该便携式无线通信存储设备具有可分离式的结构，并且还具有体积小、便于携带、以及节约空间等优点。
+30. 203986547 非接触式射频识别卡防护卡套及非接触式射频识别卡装置
+CN
+10.12.2014
+A45C 11/18 Loading...
+A45C 11/18
+Loading...
+201420419279.2
+北京瑞星信息技术有限公司
+蔡明
+A45C 11/18
+Loading...
+本实用新型公开了一种非接触式射频识别卡防护卡套及非接触式射频识别卡装置。其中，该非接触式射频识别卡防护卡套包括卡套主体，卡套主体的内部设置有放置非接触式射频识别卡的容置腔；卡套主体的一边设置有与容置腔连通的用于取放非接触式射频识别卡的开口；卡套主体的体壁包含导体层。其在卡套主体中设置有导体层，从而在将银行卡通过开口放入到容置腔中时，外部的导体层可将银行卡隔离，使NFC设备即使靠近非接触式射频识别卡防护卡套中的银行卡也不能获取银行卡的信息，有效保证银行卡信息安全。该非接触式射频识别卡装置包括非接触式射频识别卡防护卡套及放置在非接触式射频识别卡防护卡套中的非接触式射频识别卡。
+31. WO/2013/091159 FREQUENCY CONVERSION ANTI-VIRUS TECHNOLOGY
+WO
+27.06.2013
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+PCT/CN2011/084212
+BEIJING RISING INFORMATION TECHNOLOGY CO., LTD.
+HAO, Xiaojun
+G06F 9/50
+Loading...
+A frequency conversion anti-virus technology, which relates to a method and device for dynamically adjusting the system resource amount occupied by a security protection software running on user equipment. The method includes the following steps: a security protection software collecting state information relevant to user equipment; calculating the expected running intensity of the security protection software according to the state information; and running the security protection software according to the calculated expected running intensity, so as to adjust the system resource amount occupied by the security protection software. The device can include modules respectively for performing the abovementioned steps. The method and device can be used to dynamically adjust the running policy of the security protection software so as to more rationally allocate system resources among the software of user equipment, thus improving the utilization rate of the system resources and improving the usage experience of the user.
+32. 102761435 网络监控设备和网络监控方法
+CN
+31.10.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110119718.9
+北京瑞星信息技术有限公司
+钱华钩
+H04L 12/26
+Loading...
+本发明提供了一种网络监控设备，包括：侦听接口，用于接收数据；镜像接口，用于对所述侦听接口进行镜像，以发送从所述侦听接口复制的数据；以及监控模块，用于对由所述侦听接口接收的数据进行安全性分析。本发明的监控设备的优点是能够在不使旧的监控设备下线的情况下，同时使用其他新的监控设备，并且能够在没有镜像接口的网络环境中用来监控网络数据流。
+33. 102761534 实现媒体接入控制层透明代理的方法和装置
+CN
+31.10.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110119721.0
+北京瑞星信息技术股份有限公司
+冯景辉
+H04L 29/06
+Loading...
+公开了一种实现媒体接入控制(MAC)层透明代理的方法和装置。在网关中能够与源站进行通信的第一网卡所截取的从所述源站发往目的站的第一帧中包含的应用层数据被进行处理之后，要响应于所述第一帧而发给所述目的站的、包含经处理的所述应用层数据的第二帧的首部中的源MAC地址信息被修改为所述源站的MAC地址，并且，通过调用所述网关中能够与所述目的站进行通信的第二网卡的发送函数，所述第二帧被发送给所述目的站。
+34. 101923482 Method and device for realizing virtual execution of user mode codes
+CN
+22.12.2010
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+200910145891.9
+Beijing Rising International Software Co., Ltd.
+Zhou Jun
+G06F 9/455
+Loading...
+The invention discloses a method and device for realizing virtual execution of user mode codes. The method comprises the following steps: constructing a client environment mutually isolated from a host environment for the user mode codes by a virtual execution management program (Hyper-H) in the host environment; mapping the Hyper-H in the client environment by the Hyper-H so as to form a virtual execution management program (Hyper-G) in the client environment; switching to the Hyper-G from the Hyper-H; and enabling a processor to switch to a user mode from a privilege level by the Hyper-G and executing the user mode codes.
+35. 101667235 Method and device for protecting user privacy
+CN
+10.03.2010
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+200810213378.4
+Beijing Rising International Software Co., Ltd.
+Bian Lu
+G06F 21/56
+Loading...
+The invention discloses a method and a device for protecting the privacy of a computer system user. The method comprises the following steps: intercepting a request for a call of a kernel layer program a user program uses for transmitting a control command to the drive of predetermined equipment; identifying whether the call request requests performing an operation of streaming media equipment ornot according to a parameter in the call request; if so, determining whether the operation on the streaming media equipment is limited or not according to a predetermined rule; if so, limiting the operation according to the predetermined rule; and otherwise, allowing the user program to call the kernel layer program for transmitting the control command to the drive of the predetermined equipment.
+36. 101667236 Method and device for controlling driver installation
+CN
+10.03.2010
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+200810213376.5
+Beijing Rising International Software Co., Ltd.
+Bian Lu
+G06F 21/51
+Loading...
+The invention relates to a method and a device for controlling a driver installation. The method comprises the following steps: intercepting a notification action of an operating system for notifyingeach functional module thereof to execute a corresponding operation and the operation action of the operating system for a functional module used for installing a driver to operate a registration table in the operating system; saving the path information on a predetermined driver when the notification action is intercepted and the intercepted notification action expresses that the operating systemnotifies the functional module used for installing the driver to install the predetermined driver; determining whether the predetermined driver is allowed to be installed or not based on the saved path information and a predetermined area which is saved with the driver but not allows the driver to be installed when the operation action is intercepted and the intercepted operation action expressesthat the functional module for installing the driver writes data in the registration table; and if the determination result is no, notifying the operating system not to install the predetermined driver. The method and the device can prevent virus, rogue software, trojan and the like from installing drivers to the operating system.
+37. 101667230 Method and device for monitoring script execution
+CN
+10.03.2010
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+200810213379.9
+Beijing Rising International Software Co., Ltd.
+Liu Feng
+G06F 21/55
+Loading...
+The invention discloses a method and a device for monitoring a script execution. The method comprises the following steps: acquiring a return result returned to a script engine by a script host; judging whether the return result is a specific interface object through which the script engine can access an attribute, the method and an event notification disclosed by the script host; if so, creatinga private interface object by packaging the specific interface object and returning the private interface object to the script engine, wherein the private interface object has the same function form as the specific interface object and is packaged with a monitoring function for monitoring an operation of the private interface object; receiving a function call of the script engine to the private interface object; and by using the monitoring function of the private interface object, determining whether the script under execution is a rogue program or not according to the information about function call.
+38. WO/2009/049555 METHOD AND APPARATUS FOR DETECTING THE MALICIOUS BEHAVIOR OF COMPUTER PROGRAM
+WO
+23.04.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+PCT/CN2008/072698
+BEIJING RISING INFORMATION TECHNOLOGY CO., LTD.
+YE, Chao
+G06F 21/22
+Loading...
+A method and an apparatus for detecting malicious behaviour of computer programs are disclosed. The method and the apparatus employ the concept of a monitored process set to analyze the behavioural characteristics of a malicious program. The method includes monitoring the actions executed by a computer program; searching for a process set associated with the monitored action in a monitored process set database which includes information about suspicious processes that associate with each other in creating connections; if a process set associated with the monitored action is discovered, then determining, through association analysis and according to the information recorded in said discovered process set, whether or not the monitored action is malicious behaviour.
+39. WO/2009/049556 METHOD AND DEVICE FOR PREVENTING THE SECURITY HOLE OF BROWSER FROM BEING UTILIZED
+WO
+23.04.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+PCT/CN2008/072699
+BEIJING RISING INFORMATION TECHNOLOGY CO., LTD.
+ZHOU, Jun
+G06F 21/22
+Loading...
+A method and device for preventing the security hole of the browser from being utilized. The method includes: monitoring files downloaded by a browser process; halting a process creating action which is initiated by the browser process; judging whether the halted process creating action intend to start the downloaded files; if judging result is yes, informing a user that the security hole of the browser may be utilized.
+40. WO/2009/049554 METHOD AND APPARATUS FOR SAFEGUARDING AUTOMATICALLY HARMFUL COMPUTER PROGRAM
+WO
+23.04.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+PCT/CN2008/072694
+BEIJING RISING INFORMATION TECHNOLOGY CO., LTD.
+YE, Chao
+G06F 21/22
+Loading...
+A method and an apparatus for safeguarding automatically a harmful computer program are provided. The said method includes that:the object program is restricted to access some resources in the computer system based on the predetermined resource access rules; the computer resources accessed by the object program are scanned to determine whether the accessed computer resources are infected by the object program or not; the malicious action is analyzed based on the action character of the object program to determine whether the object program is a harmful program or not.
+41. 101414340 Method for preventing remote thread from startup
+CN
+22.04.2009
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+200710162450.0
+北京瑞星信息技术有限公司
+周军
+G06F 21/56
+Loading...
+The invention provides a method for preventing a remote thread from starting which comprises the following steps: monitoring a request used for building a thread; judging whether the thread to be built is a local thread or a remote thread when the request used for building the thread is monitored; if the thread to be built is the remote thread, then stopping the thread from being built. The method overcomes the limitation on the number of the threads to be monitored as well as the defect of pushing out the thread by modifying a code after the thread is built instead of directly stopping the thread from being built in routine techniques.
+42. 101414996 Firewall and method thereof
+CN
+22.04.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710162441.1
+Beijing Rising International Software Co., Ltd.
+Liu Chunlin
+H04L 29/06
+Loading...
+The invention provides a firewall, comprising an interception device which is used for sniffing and intercepting access program, an engine device which is used for outputting and indicating the danger level of the access program according to the access program; wherein, the engine device comprises an analysis device which is used for analyzing the characteristic of the intercepted access program; the firewall also comprises a matching device which carries out the matching between the analyzed program characteristic and a database, and an output device which judges the danger level of the access program according to the matching result and is used for the strategy of the user. The firewall scans and analyzes the programs from the dynamic and static perspectives, discovers suspicious information in a process, gives out the danger level of the program by the intelligent analysis on the information, and leads the user to know how to process the program basically.
+43. 101414338 Method and apparatus for bypassing hook
+CN
+22.04.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200710162448.3
+Beijing Rising International Software Co., Ltd.
+Zhou Jun
+G06F 21/22
+Loading...
+The invention relates to a method for rounding a hook and a device. The method comprises as follows: loading another image of a program module in a memory under the situation of the original image of the existing program module in the memory; calculating the base address difference between the other image and the original image; and calculating the sum of the address of the function of the original image and the plot difference and using the sum as the address of the function of the other image. The invention rounds the hook of a rogue program or other programs in the original image of the program module by loading the other image of the program module and transferring the function in the other image.
+44. 101414328 Apparatus and method for exuviations of file
+CN
+22.04.2009
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200710162437.5
+Beijing Rising International Software Co., Ltd.
+Bai Zipan
+G06F 21/00
+Loading...
+The invention relates to a device and a method used for exuviating a file. The device comprises a virtual machine used for simulating a real computer; a controller used for detecting the shell type of the file; and an exuviating module used for confirming a code needed to be executed in the real computer in the exuviating process of the file based on the type of the detected shell; wherein, the virtual machine executes the rest codes except the confirmed code in the exuviating procedure of the file; the exuviating module executes the confirmed code in the real computer. The device and the method can be used to fast exuviate the file.
+45. 101414339 Method for protecting proceeding internal memory and ensuring drive program loading safety
+CN
+22.04.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200710162449.8
+Beijing Rising International Software Co., Ltd.
+Han Yu
+G06F 21/22
+Loading...
+The invention provides a method for protecting a progress memory and ensuring the loading safety of a drive procedure. The method comprises: modifying the address pointer of a corresponding function into the address pointer of a corresponding safety detecting procedure at the location of a system service number corresponding to an NtWriteVirtualMemory function or an NtLoadDriver function in SSDT; receiving the write memory request of the progress or the loading request on the drive procedure; searching a corresponding system service number in the modified SSDT and transferring a corresponding safety detecting procedure; judging whether the write memory request or the loading request is limited or legal by the safety detecting procedure; if not limited or legal, then transferring and executing the NtWriteVirtualMemory function or the NtLoadDriver function; if limited or illegal, then executing rule processing. The method can be broadly applied to ensure the network safety and system safety.
+46. 101414327 Method for file protection
+CN
+22.04.2009
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200710162435.6
+Beijing Rising International Software Co., Ltd.
+Han Yu
+G06F 21/00
+Loading...
+The invention provides a file protection method which comprises generating a rule base according to a file or a file folder needed to be protected; holding up a file operation request; resolving the operation type of the file or the file folder by building a cushion area list of the rule base and matching the rule base according to the operation type of the file or the file folder; processing the file according to the matched rule. The effectiveness of a file system can be ensured by introducing the cushion area according to the file protection method; simultaneously the operation type of the file can be accurately identified during the protection process of the file, thus achieving the goal of effectively protecting the file.
+47. 101414997 Method and apparatus for preventing malevolence program from accessing network
+CN
+22.04.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710162446.4
+Beijing Rising International Software Co., Ltd.
+Luo Xuejun
+H04L 29/06
+Loading...
+The invention provides a method used for stopping vicious programs from accessing the network, comprising a monitoring step in which a monitoring dynamic database is injected into one or more processes of the system so as to carry out monitoring, an intercepting step in which the action to establish the objects of the network application program is incepted, a judging step in which whether the process is allowed to access the network or not is judged according to the defined rule, and a processing step in which the corresponding disposal is carried out according to the judgment results.
+48. 101414329 删除正在运行中的病毒的方法
+CN
+22.04.2009
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+200710162445.X
+北京瑞星信息技术有限公司
+韩宇
+G06F 21/56
+Loading...
+本发明涉及一种用于删除正在运行的病毒文件的方法，包括：拦截由操作系统内核导出的用于文件的权限验证的函数；发现正在运行的病毒文件；当有对于该病毒文件的打开请求时，由文件系统调用所述用于文件的权限验证的函数；当确定该文件打开请求是由指定的杀毒软件提出并将删除该病毒文件时，修改所述用于文件的权限验证的函数的参数或返回值，使得文件系统成功完成文件的权限验证，以允许该指定的杀毒软件删除该病毒文件，从而清除病毒。
+49. 101350054 Method and apparatus for automatically protecting computer noxious program
+CN
+21.01.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200710180317.8
+Beijing ,Ruixing International Software Co., Ltd.
+Ye Chao
+G06F 21/22
+Loading...
+The invention provides a method and a device for automatically preventing computer harmful programs. Wherein the method of the invention comprises: restricting object programs to visit a plurality of resources in a computer system on the basis of predetermined resource access control rules, scanning the resources for computer resources which are visited by the object programs, determining whether the computer resources which are visited are infected by the object programs or not, analyzing malicious behaviors on the basis of the behavior characteristics of the object programs, and determining whether the object programs are harmful programs or not.
+50. 101350052 Method and apparatus for discovering malignancy of computer program
+CN
+21.01.2009
+G06F 21/22 Loading...
+G06F 21/22
+Loading...
+200710162442.6
+Beijing ,Ruixing International Software Co., Ltd.
+Ye Chao
+G06F 21/22
+Loading...
+The invention provides a method and a device for discovering malicious behaviors of computer programs. The behavior characteristics of vicious procedures are analyzed through using the method and the device which are provided by the invention and through using concepts of a process set which is monitored. The method for discovering the malicious behaviors of the computer programs which is provided by the invention comprises: monitoring actions which are executed by the computer programs, searching the process set which is related with the actions which are monitored in a process set library which is monitored, wherein the process set at least comprises information of at least one suspicious process which is related mutually on the creating relation, and judging whether the actions which are monitored belong to the malicious behaviors or not through association analysis according to the information which is recorded in the process set which is searched out if the process set which is related with the actions which are monitored is searched out.
+51. 1983296 Method and device for preventing illegal programm from scavenging
+CN
+20.06.2007
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200610105978.X
+Ruixing International Software Co., Ltd., Beijing
+Ma Jinsong
+G06F 21/00
+Loading...
+A method for preventing illegal program from steal of user information includes interception a system-call being possibly to be utilized by illegal program to steal user information, judging whether operation of said system-call is safe or not according to system-call parameter and/or called process data of system-call, executing relevant treatment to make said system-call be invalid if it is not.
+52. 1980131 Mail interception method and module for realizing said method
+CN
+13.06.2007
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200610089919.8
+Ruixing Internation Software Co., Ltd., Beijing
+Yang Yuqi
+H04L 9/32
+Loading...
+The method includes steps: based on request for sending E-mail from client end to build connection to client end; through connection to client end, obtaining destination address of the E-mail; based on the obtained destination address, trying connecting the destination server; if connection is successful, transferring data of non-mail body to destination server transparently; carrying out security process for data of mail body; in period for processing data of mail body, keeping connection to destination server; finally, sending processed mail to the destination server. Moreover, after operation of sending mail is failure, the method informs the information of failure to client end directly. The method makes client end possible to obtain information whether the mail is successfully sent and received.
+

@@ -1,0 +1,1321 @@
+1. 106527100 一种抗漏电干扰的可调计时电路
+CN
+22.03.2017
+G04F 10/02 Loading...
+G04F 10/02
+Loading...
+201610948469.7
+中颖电子股份有限公司
+白胜天
+G04F 10/02
+Loading...
+本发明提供了一种抗漏电干扰的可调计时电路。抗漏电干扰的可调计数电路包括：比较器，用于将外接电容的电压与一预设的电压阈值进行比较并输出比较结果；逻辑电路，具有接收时钟信号的端口，能接收使能信号、所述比较器的输出信号以及时钟信号，并输出控制信号，其中，逻辑电路从使能信号有效且外接电容开始充电开始，直到外接电容的电压到达预设的电压阈值的这段时间内对时钟信号进行计数，并获得第一计数值；逻辑电路对第一计数值进行调整，并输出控制信号；受控计数器，用于接收欲延迟的输入信号以及控制信号，并根据控制信号进行计数，当计数至第二计数值时，受控计数器才输出输入信号，其中，第二计数值由逻辑电路输出的控制信号所确定。
+2. 106449441 一种改进的数字隔离器线圈及其制作方法
+CN
+22.02.2017
+H01L 21/56 Loading...
+H01L 21/56
+Loading...
+102016000948113
+中颖电子股份有限公司
+葛晓欢
+H01L 21/56
+Loading...
+本发明公开了一种改进的数字隔离器线圈及其制作方法，包括：提供包含下层线圈的晶圆基片；在晶圆基片上沉积第一绝缘层；在第一绝缘层上局部沉积一籽晶层；在籽晶层上，光刻定义一图案，图案与下层线圈重叠；在步骤四的光刻位置沉积一金属层；去掉步骤二的第一绝缘层，保留金属层；去掉步骤三的籽晶层，保留金属层；保留的金属层构成上层线圈，上、下层线圈重叠形成隔离线圈；在上层线圈上沉积第二绝缘层。本发明通过增加一道工序，使用第二绝缘层PI而不是塑封胶对处于同一水平面的不同电位金属层进行隔绝。这样不仅改善了水平方向的隔绝能力，减少后段封装工艺或者存储环境的影响，而且缩小了芯片的面积，降低了成本。
+3. 106385666 一种蓝牙防丢实现方法
+CN
+08.02.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+102016000850933
+中颖电子股份有限公司
+张钦
+H04W 4/00
+Loading...
+本发明提供了一种蓝牙防丢实现方法。所述方法包括提供一防丢装置，其中所述防丢装置至少一蓝牙模块，一按键，一状态指示灯，所述防丢装置采用蓝牙技术，并具有待机模式、广播模式和连接模式；所述防丢装置与支持蓝牙功能的移动通信装置进行配对，其中，所述防丢装置采用蓝牙标准HID协议与所述移动通信装置进行通信，且所述移动通信装置在不安装第三方防丢应用程序的情况下与所述防丢装置直接进行配对连接以及自动重连；利用所述防丢装置寻找丢失的移动通信装置，其中，所述防丢装置利用所述自动重连的特性确定所述移动通信装置的大致方向，进而再根据连接后的信号强度，指示所述移动通信装置所在位置。
+4. 104122439 提高相位校正精度的电能表
+CN
+11.01.2017
+G01R 22/10 Loading...
+G01R 22/10
+Loading...
+102014000366395
+中颖电子股份有限公司
+张江安
+G01R 22/10
+Loading...
+本发明提供一种提高相位校正精度的电能表，包括：电流传感器，接收并感测相电流信号；电压传感器，接收并感测相电压信号；第一模数转换器，将模拟的相电流信号转换为数字的电流采样信号；第二模数转换器，将模拟的相电压信号转换为数字的电压采样信号；相位校正模块，分别与第一模数转换器和第二模数转换器相连接，对电流采样信号和电压采样信号进行实时的相位校正，分别生成电流同步信号和电压同步信号；电能计算模块，与相位校正模块相连接，分别接收电流同步信号和电压同步信号，并据此计算出有功电能和无功电能以向外输出。本发明克服了电流/电压信号延时方式的缺点，不仅能实现高精度的相位校正，而且硬件实现简单，系统成本低。
+5. 106253900 逐次逼近模数转换器
+CN
+21.12.2016
+H03M 1/08 Loading...
+H03M 1/08
+Loading...
+102016000655769
+中颖电子股份有限公司
+朱秉濬
+H03M 1/08
+Loading...
+本发明提供一种逐次逼近模数转换器，包括：数模转换模块，接收模拟输入电压；共模电平产生模块，产生共模电平；比较器，其第一输入端与所述数模转换模块的输出端连接，其第二个输入端与所述共模电平产生模块连接；逻辑模块，与所述比较器的输出端连接；以及采样保持模块，连接在所述共模电平产生模块与所述比较器的第二输入端之间，在转码阶段，所述采样保持模块保持采样阶段结束时共模电平的电压值。本发明提高了逐次逼近模数转换器的抗电源抖动的能力。
+6. 105677083 一种提高电容式触摸按键抗电磁干扰性能的方法
+CN
+15.06.2016
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+201511020533.7
+中颖电子股份有限公司
+余为国
+G06F 3/041
+Loading...
+本发明提供了一种提高电容式触摸按键抗电磁干扰性能的方法，所述方法包括：提供多个开关频点，选择其中一个开关频点作为当前按键判别用频点；判断所述当前按键判别用频点下的键值的斜率是否超出一预先设定的范围；若所述按键判别用频点下的键值的斜率超出所述预先设定的范围，则判断所述按键判别用频点下的键值被干扰，并停止采用所述频点进行按键判别；改用其他未受干扰的频点进行按键判别。
+7. 105679240 显示屏驱动方法及使用该驱动方法的显示模块
+CN
+15.06.2016
+G09G 3/3225 Loading...
+G09G 3/3225
+Loading...
+201610197410.9
+中颖电子股份有限公司
+吴常谦
+G09G 3/3225
+Loading...
+本发明涉及一种显示屏驱动方法，其中，由至少两块驱动芯片对所述显示屏进行驱动，所述显示屏分为与所述至少两块驱动芯片数量相等的至少两块子显示屏，所述至少两块驱动芯片分别驱动所述至少两块子显示屏；所述显示屏驱动方法包括：所述至少两块驱动芯片分别接收显示数据和初始化代码，至少部分所述初始化代码包含灰度-驱动电压调整参数；所述至少两块驱动芯片分别根据各自接收到的所述显示数据和所述初始化码，输出驱动电压，其中，输出的驱动电压已根据所述初始化代码中包含的灰度-驱动电压调整参数进行了调整；以及所述至少两块子显示屏分别接收各自的驱动芯片输出的驱动电压，进行显示。本发明解决了现有技术中因制造过程中随机偏差导致的显示屏显示亮度不一致的问题。
+8. 105653488 一种减小长总线中数据耦合效应的电路和方法
+CN
+08.06.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201511023963.4
+西安中颖电子有限公司
+张钰磊
+G06F 13/40
+Loading...
+本发明提供了一种减小长总线中数据耦合效应的电路，所述电路包括：数据总线，所述数据总线包括n条信号线，所述n条信号线分为偶数信号线和奇数信号线；所述偶数信号线中的每一条信号线上包括交替出现的驱动反向器和驱动缓存器，所述交替出现的驱动反向器和驱动缓存器依次耦接；所述奇数信号线中的每一条信号线上包括交替出现的驱动缓存器和驱动反向器，所述交替出现的驱动缓存器和驱动反向器依次耦接；其中，若所述偶数信号线中第一个出现的是驱动反向器，则所述奇数信号线中第一个出现的是驱动缓存器，若所述偶数信号线中第一个出现的是驱动缓存器，则所述奇数信号线中第一个出现的是驱动反向器。
+9. 105635943 一种基于低功耗蓝牙技术的数据交互方法以及采用该方法的信标装置和信标数据交互装置
+CN
+01.06.2016
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+201510969899.2
+中颖电子股份有限公司
+张钦
+H04W 4/00
+Loading...
+本发明提供了一种基于低功耗蓝牙技术的数据交互方法以及采用该方法的信标装置和信标数据交互装置。所述方法包括：信标装置在广播模式下发送广播包，并监听扫描请求包；信标数据交互装置监听所述信标装置发送的广播包，确定所述信标装置已经开始运行；所述信标数据交互装置将需要发送给所述信标装置的数据进行处理，生成设备地址数据；所述信标数据交互装置将所述设备地址数据生成标准的所述扫描请求包；所述信标装置在接收到所述信标数据交互装置发送的所述扫描请求包后，提取出所述设备地址数据并解析出其中的数据。
+10. 105609045 一种分屏驱动的驱动芯片级联系统和方法
+CN
+25.05.2016
+G09G 3/3216 Loading...
+G09G 3/3216
+Loading...
+201511008063.2
+西安中颖电子有限公司
+张小军
+G09G 3/3216
+Loading...
+本发明提供了一种分屏驱动的驱动芯片级联系统和方法。所述系统包括：显示屏面板，所述显示器面板基于扫描端被分成第一区域和第二区域；主机驱动芯片，所述主机驱动芯片用于驱动所述第一区域的扫描端和公共端；从机驱动芯片，所述从机驱动芯片用于驱动所述第二区域的扫描端和公共端。
+11. 105575303 液晶驱动芯片测试方法及使用这种测试方法的液晶驱动芯片
+CN
+11.05.2016
+G09G 3/00 Loading...
+G09G 3/00
+Loading...
+201510982857.2
+中颖电子股份有限公司
+高志强
+G09G 3/00
+Loading...
+本发明涉及一种液晶驱动芯片测试方法及使用这种测试方法的液晶驱动芯片，该液晶驱动芯片包括N个驱动电路和N个管脚，测试方法包括：在所述液晶驱动芯片的每M个驱动电路与每M个管脚之间增设一切换电路；将所述每M个管脚中的第一管脚连接到一探针卡的探针上；将所述探针卡连接到一液晶驱动芯片测试机台上；以及控制该切换电路，使所述M个驱动电路的每个按序连接到所述M个管脚的第一管脚上；其中N和M为自然数，且N≥2；2≤M≤N。
+12. 105573952 一种多通道数据传输的系统
+CN
+11.05.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201511029378.5
+西安中颖电子有限公司
+董阳
+G06F 13/40
+Loading...
+本发明提供了一种多通道数据传输的系统。所述系统包括基于MIPI的物理层数据解析模块，其具有n条通道，且根据通道数应用信息来传输所述n条通道中的一条或多条通道数据至基于MIPI的协议数据包解析模块；基于MIPI的协议数据包解析模块，包括与n条通道对应的接口电路，但不包括其他通道数对应的接口电路；通道转换模块，耦接在所述基于MIPI的物理层数据解析模块与所述基于MIPI的协议数据包解析模块之间，所述通道转换模块根据MIPI？DSI协议解包方式，以符合MIPI数据传输同步包的包头格式为起始，将所述基于MIPI的物理层数据解析模块通过所述n条通道中的一条或多条通道发送的数据包转换成n条通道数据，以与所述接口电路匹配。
+13. 105448242 一种用标准RGB显示屏显示Pentile图片的方法
+CN
+30.03.2016
+G09G 3/3208 Loading...
+G09G 3/3208
+Loading...
+201511008387.6
+西安中颖电子有限公司
+董阳
+G09G 3/3208
+Loading...
+本发明提供了一种用标准RGB显示屏显示Pentile图片的方法。所述方法包括：将Pentile图片转成数据文件，其中，所述Pentile图片中的每一个像素的每一个子像素用原始N比特数据表示；将所述Pentile图片中的每一个像素的每一个子像素按排列顺序扩展成3*N比特数据，所述3*N比特数据对应标准RGB图像的一个标准RGB像素，其中，所述Pentile图像的所述子像素颜色为RGB中的哪个颜色，就将所述标准RGB像素中的该颜色替换成这个子像素对应的所述原始N比特数据；将所述扩展后的数据转成标准RGB图片。
+14. 105425882 提高稳压器瞬态响应的方法及其稳压器
+CN
+23.03.2016
+G05F 1/12 Loading...
+G05F 1/12
+Loading...
+201510953155.1
+中颖电子股份有限公司
+朱秉濬
+G05F 1/12
+Loading...
+本发明涉及提高稳压器瞬态响应的方法及其稳压器。本发明的方法包括以下步骤：a)稳压器为负载提供电流；b)接收程序指令，并根据程序指令判断是否会引起负载电流变化；以及c)如判断结果为负载电流会发生变化，则对稳压器进行控制和调节，以保持稳压器输出电压保持恒定。本发明的稳压器包括：基准电压源和调整模块，所述调整模块输出电压给负载，还包括一判断调节模块，接收程序指令，在根据所述程序指令判断负载电流将变化时，输出一调节信号；所述调整模块接收所述调节信号，对输出电流进行调节，以使输出电压保持恒定。本发明的方法和相应的稳压器在较大幅度改善稳压器瞬态响应的同时，仅小幅增加甚至不增加芯片的功耗和面积。
+15. 105354526 提高一维条码解码效率的方法以及一维条码的解码系统
+CN
+24.02.2016
+G06K 7/14 Loading...
+G06K 7/14
+Loading...
+201510627488.5
+西安中颖电子有限公司
+冯恒
+G06K 7/14
+Loading...
+本发明提供了一种提高一维条码解码效率的方法以及一维条码的解码系统。该方法包括：a.在针对一维条码的捕获数据中标识帧头，所述帧头与所述一维条码的空白区域相关联；b.在监测周期内根据一规则判断所述捕获数据是否为可用帧，所述监测周期为颤镜摆动周期；c.若监测到所述可用帧，则根据码型特征来判断所述可用帧是否为有效帧；否则返回执行步骤b；d.若根据码型特征判断出所述可用帧为有效帧，则标识并保存所述有效帧，以待解码处理，否则返回执行步骤b。
+16. 105277902 电池异常状态检测电路以及电池异常状态检测系统
+CN
+27.01.2016
+G01R 31/36 Loading...
+G01R 31/36
+Loading...
+201510849093.X
+中颖电子股份有限公司
+张树晓
+G01R 31/36
+Loading...
+本发明公开了一种电池异常状态检测电路，所述电池异常检测电路用于检测n节电池的异常状态，所述电路包括：n个检测电压VC1～VCn，分别与n节电池中的一节电池的电压相对应；n-1个控制开关SW2～SWn，被配置成控制n-1个断线检测电流的导通时间；逻辑控制模块，被配置成控制所述n-1个控制开关SW2～SWn的开启和闭合；一个下拉电流，该下拉电流用于将VC2电压下拉至GND电压；n-2个上拉电流，该n-2个上拉电流用于将VC3～VCn上拉到VDD电压，其中所述一个下拉电流和所述n-2个上拉电流为所述断线检测电流；n个断线检测模块，各断线检测模块检测n个检测电压VC1～VCn中的一者，当检测出所述检测电压出现负值时，则判断所述检测电压所对应的电池出现断线。
+17. 105184211 一种一维条码解码方法
+CN
+23.12.2015
+G06K 7/10 Loading...
+G06K 7/10
+Loading...
+201510629136.3
+西安中颖电子有限公司
+冯恒
+G06K 7/10
+Loading...
+本发明提供了一种一维条码解码方法，其中，所述一维条码在接收时受噪声干扰，所述方法包括：将白条码的电平宽度由窄到宽进行排序获得第一数组〔b1,…,bj,…,bn〕，将黑条的电平宽度也由窄到宽进行排序获得第二数组[s1,…,sj,…,sn]；对于每一数组中的前j-1个数据取平均值，对前j个数据取平均值，j依次取2到n；对于每一数组，当前j个数据的平均值与前j-1个数据的平均值的比值大于或等于一阈值，则该第j个数据被认为是分割点，该第j个数据对应下一级宽度的条码；若小于所述阈值，则认为该第j个数据与该第j-1个数据对应的是同一级宽度的条码。
+18. 105186462 电池保护系统
+CN
+23.12.2015
+H02H 7/18 Loading...
+H02H 7/18
+Loading...
+201510733644.6
+中颖电子股份有限公司
+杨作刚
+H02H 7/18
+Loading...
+本发明提供了一种电池保护系统，该系统包括电池保护芯片和外围电路。该系统可省去专门用于检测过流电压的取样电阻，且仍能保证电池保护芯片的安全性。电池保护芯片具有电池组正极端B+、电池组负极端B-、电流检测端口SENSE、充电晶体管的控制端口CHG，放电晶体管的控制端口DSG。外围电路包括充电晶体管Q1、放电晶体管Q2、开关控制晶体管Q3、第一电阻R1、第五电阻R5、第二电阻R2、第三电阻R3、第六电阻R6。R5的两端分别与Q1的栅极和源极耦接，R1的两端分别与Q1的栅极和CHG，Q1的源极与放电回路负极端耦接。R2的两端分别与Q2的栅极和DSG耦接。Q3的栅极耦接到DSG，其源极耦接到SENSE，其漏极与R6的第一端耦接。R3的两端耦接在B-和SENSE之间。R6的第二端与Q1的漏极以及Q2的漏极耦接，Q2的源极端耦接到B-。
+19. 105117298 一种用于显屏驱动芯片的静电释放保护系统以及方法
+CN
+02.12.2015
+G06F 11/07 Loading...
+G06F 11/07
+Loading...
+201510486551.8
+中颖电子股份有限公司
+徐海涛
+G06F 11/07
+Loading...
+一种用于显屏驱动芯片的静电释放保护系统，包括多个静电释放保护装置和一校验和状态处理模块。每个所述静电释放保护装置包括首次校验和计算模块，对一功能模块内的所有显示相关寄存器进行初始的校验和计算；周期校验和计算模块，对该功能模块内的所有显示相关寄存器进行周期性地校验和计算；校验和比较模块，将首次校验和计算结果与所述周期校验和计算结果作比较，如果不相等，则将校验和状态寄存器中的模块状态值置1，如果相等，则将校验和状态寄存器中的模块状态值清0。校验和状态处理模块将各个静电释放保护装置中的校验和状态寄存器中的模块状态值做加法运算，其结果存储在静电释放结果寄存器中。
+20. 105005346 负电压箝位电路
+CN
+28.10.2015
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+201510304501.3
+中颖电子股份有限公司
+罗彦
+G05F 1/56
+Loading...
+本发明提供一种负电压箝位电路，包括NMOS管、外部限流电阻和运算放大器；其中，运算放大器的正输入端接一基准电压，负输入端接一芯片端口，输出端接NMOS管的栅极；NMOS管的源极接地，漏极接芯片端口；芯片端口向外与外部限流电阻连接，外部限流电阻再接一外部输入电压。本发明利用负反馈技术箝制外部负电压，保证芯片不受到负电压影响。
+21. 104978225 固件更新方法和装置
+CN
+14.10.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510476779.9
+中颖电子股份有限公司
+张钦
+G06F 9/445
+Loading...
+本发明公开了固件更新方法和装置，不仅可以用于正常情况下的固件更新，还可用于固件损坏导致系统无法工作时对固件进行修复更新。其技术方案为：存储卡在接收到主机命令后，对主机命令进行解析，如果是自定义的命令，则强制存储卡进入固件更新模式，配合主机进行存储卡的固件更新过程，其中自定义的命令是读卡器在标准存储卡命令的基础上增设的。
+22. 104867437 MIPI模块的ESD保护装置
+CN
+26.08.2015
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+201510334607.8
+中颖电子股份有限公司
+徐海涛
+G09G 3/20
+Loading...
+本发明提供一种MIPI模块的ESD保护装置，包括数据和时钟状态异常MIPI状态机重置电路、合并数据线分频电路以及数据不正常宽度超过一定时间MIPI整体复位电路，三者彼此并联；对数据和时钟状态异常MIPI状态机重置电路，低速切高速时序检测模块检测MIPI数据线上是否有低速切高速时序；低速和高速检测模块检测MIPI时钟线是否为低速状态；在同时满足这两条件时，第一外部MIPI接口断开模块断开显示屏驱动芯片的MIPI模块输入接口；MIPI状态机重置模块重置MIPI状态机；由第一时钟线低速切高速时序发生模块自动产生MIPI时钟线的低速切高速的时序；第一MIPI接口开启模块根据MIPI状态机的重置结果和MIPI时钟线的低速切高速的时序再打开MIPI模块输入接口，恢复接收手机主板的MIPI时钟和数据信号。
+23. 104835304 蓝牙遥控装置及其配置方法
+CN
+12.08.2015
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201510270857.X
+中颖电子股份有限公司
+张钦
+G08C 17/02
+Loading...
+本发明提供一种蓝牙遥控装置及其配置方法，装置包括存储控制模块、数据存储器和蓝牙通信模块；蓝牙通信模块用于和其他蓝牙设备进行通信；存储控制模块用于控制数据存储器内的数据的存储操作；数据存储器包括原始数据空间和可配置数据空间，原始数据空间用于存储基本配置信息，可配置数据空间用于存储功能配置信息；可配置数据空间具有一个或多个，在任意时刻，有且只有一组可配置数据空间生效，其中存储的功能配置信息为装置当前的功能配置信息。本发明可在一个遥控装置与不同型号甚至不同类型的设备配对过程中，实现遥控功能的自动配置和设定，完成后即可实现对设备的控制，整个过程无需用户干预自动完成，极大地提高使用方便性，增强用户体验。
+24. 104300639 Power battery pack management system with low power consumption state automatic wakeup function
+CN
+21.01.2015
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201410558815.1
+中颖电子股份有限公司
+韩朋朋
+H02J 7/00
+Loading...
+The invention provides a power battery pack management system with a low power consumption state automatic wakeup function. The power battery pack management system comprises a single-chip microcomputer, a voltage stabilization module, a wakeup circuit module, a discharge protection module, a charge protection module and a sampling resistor. The single-chip microcomputer controls the whole system. The voltage stabilization module supplies a power source to the single-chip microcomputer. The single-chip microcomputer can cut off output of the voltage stabilization module according to voltage drop on the sampling resistor. A charger is connected between the positive end of a battery pack and the charge protection module. A load is connected between the positive end of the battery pack and the discharge protection module. When the voltage drop on the sampling resistor is zero or the total voltage of the battery pack is lower than a low voltage value, the single-chip microcomputer cuts off output of the voltage stabilization module, so that the system enters a low power consumption state. If the charger or the load is connected, the voltage stabilization module is controlled automatically through the wakeup circuit module to conduct output normally, and automatic wakeup of the low power consumption state is realized. Under the condition that the load is not disconnected after normal use of a user, over discharge protection of the battery pack is conducted, then the power battery pack management system enters the low power consumption state, and then automatic wakeup of the low power consumption state is realized.
+25. 104300509 Under-voltage protection load latch circuit applicable to various lithium battery protection schemes
+CN
+21.01.2015
+H02H 7/18 Loading...
+H02H 7/18
+Loading...
+201410607065.2
+中颖电子股份有限公司
+白胜天
+H02H 7/18
+Loading...
+The invention provides an under-voltage protection load latch circuit applicable to various lithium battery protection schemes. The under-voltage protection load latch circuit comprises an under-voltage detection circuit and a load/charger detection circuit. In the load/charger detection circuit, the positive input end of a first comparer is connected with load detection reference voltage, and the negative input end of the first comparer is connected with a load detection end; the positive input end of a second comparer is connected with first charger detection reference voltage, and the negative input end of the second comparer is connected with a charger detection end; the positive input end of a third comparer is connected with the charger detection end, and the negative input end of the third comparer is connected with second charger detection reference voltage; the input ends of a three-input or gate are connected with the output ends of the three comparers, and the output end of the three-input or gate is connected with the input end of a filter circuit; the clock end of a D trigger is connected with the output end of the filter circuit, the reset end of the D trigger is connected with a non-under-voltage state end, and the Q end of the D trigger is connected with an under-voltage releasing end; the grid electrode of a high-voltage NMOS transistor is connected with an under-voltage state end, the source electrode of the high-voltage NMOS transistor is grounded, and the drain electrode of the high-voltage NMOS transistor is connected with the load detection end through a first resistor; the grid electrode of a high-voltage PMOS transistor is connected with the non-under-voltage state end, the source electrode of the high-voltage PMOS transistor is connected with a power source end, and the drain electrode of the high-voltage PMOS transistor is connected with the charger detection end through a second resistor.
+26. 104268448 Program code protection method for microprocessor adopting flash memory
+CN
+07.01.2015
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+201410534831.7
+中颖电子股份有限公司
+张钦
+G06F 21/12
+Loading...
+A program code protection method for a microprocessor adopting a flash memory aims at a stage that a manufacture develops a product through an MCU (Micro Controller Unit) and burns a program code. The program code protection method for the microprocessor adopting the flash memory comprises steps of electrifying the MCU through a burning tool to enable the MCU enters a Mode 0 mode when burning starts; performing erasure operation on a parameter area and a data area of an integral Flash; writing a special parameter into the parameter area of the Flash and dividing the data area of the Flash into a P1 area, a P2 area and a P3 area; burning data for the P1 area and the P2 area, burning application program codes for the P1 area and burning bottom-driven and firmware upgrading control codes for the P2 area; writing a special parameter for the parameter area of the Flash, setting the P1 area and the P2 area to be read-only under a Mode 1 mode and setting the P3 area to be read-only, writeable and erasable under the Mode 1 mode; writing a special parameter into the parameter area of the Flash, opening a secret key verifying unit and setting a secret key for verifying and a verifying mechanism for the P1 area. The program code protection method for the microprocessor adopting the flash memory can avoid procedure damage or data loss caused by external disturbance to the Flash MCU and effectively protects an original code from reading and stealing.
+27. 104111429 Method for metering residual electric quantity of lithium battery based on voltage tracking
+CN
+22.10.2014
+G01R 31/36 Loading...
+G01R 31/36
+Loading...
+201410386531.9
+中颖电子股份有限公司
+刘华伟
+G01R 31/36
+Loading...
+The invention provides a method for metering the residual electric quantity of a lithium battery based on voltage tracking. The method comprises the steps of A, performing system charging and discharging; B, estimating the residual electric quantity by a coulomb integral method; C, judging whether a discharging stop condition is met, if so, returning to the step B, otherwise, executing the step D; D, judging whether the voltage of an electric core is lower than a voltage set threshold value for voltage tracking or judging whether the percentage of the residual electric quantity of the electric core is lower than an electric quantity percentage set threshold value for the voltage tracking, if not, returning to the step B, otherwise, executing the step E; E, calculating the voltage change rate and the electric quantity change rate of the electric core; F, comparing the voltage change rate with the electric quantity change rate, if the voltage change rate is smaller than the electric quantity change rate, executing the step G, if the electric quantity change rate is larger than the voltage change rate, executing the step H, and if the voltage change rate is equal to the electric quantity change rate, directly returning to the step B; G, correspondingly increasing the residual electric quantity to enable the electric quantity change rate to be synchronized with the voltage change rate; H, correspondingly reducing the residual electric quantity to enable the electric quantity change rate to be synchronized with the voltage change rate. According to the method, the estimation precision of the residual electric quantity is improved.
+28. 103685865 Image motion state detection method for LCD (Liquid Crystal Display) driving chip
+CN
+26.03.2014
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201310718668.5
+SINO WEALTH MICROELECTRONICS CO., LTD.
+ZHANG JIANGAN
+H04N 5/14
+Loading...
+The invention provides an image motion state detection method for an LCD (Liquid Crystal Display) driving chip, wherein a current image to be detected is divided into a plurality of continuous frame images. The method comprises the following steps: setting a CRC (Cyclic Redundancy Check) code value of the previous frame image of the current frame image to be a preset definite quantity; reading the data of the current frame image; calculating the CRC code value of the current frame image; judging whether the CRC code value of the current frame image is equal to the CRC code value of the previous frame image; if yes, judging the current image is a still image; if not, judging the current image is a moving image; updating the CRC code value of the previous frame image into the CRC code value of the current frame image; judging whether the image display is ended; if the image display is not ended, carrying out the second step after the first step is returned, and circulating; if the image display is ended, ending the whole procedure. The method enables the LCD driving chip to detect the motion state at the displayed image, and lays a foundation for realizing low power consumption characteristic and some image processing functions.
+29. 103645882 Batch out-of-order random number generation method based on single-chip microcomputer
+CN
+19.03.2014
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+201310659515.8
+SINO WEALTH MICROELECTRONICS CO., LTD.
+WANG ZHENGFENG
+G06F 7/58
+Loading...
+The invention provides a batch out-of-order random number generation method based on a single-chip microcomputer. The method includes the steps that a random and no-repetition out-of-order data table with the length of 256 bytes is established, adjacent data in the out-of-order data table are not continuous, data in the out-of-order data table do not repeat, and the data are out of order; according to the length of random numbers to be generated, the number of out-of-order data tables to be produced is determined; a plurality of data seeds are obtained through random access memory data of the single-chip microcomputer; when the random numbers are generated in batches, each byte of data are made to change through a pre-determined algorithm. The random number generation mode is high in randomness, the random numbers in batches are generated, the adjacent data are out of order, and confusion caused by similarity is not prone to occurrence. Besides, the random numbers in batches will not repeat, and the method is an ideal method for generating out-of-order random IDs in batches.
+30. WO/2013/159435 ANALOG FRONT-END CIRCUIT FOR MEDICAL HEARING AID DEVICE
+WO
+31.10.2013
+H04R 27/02 Loading...
+H04R 27/02
+Loading...
+PCT/CN2012/077064
+INSTITUTE OF MICROELECTRONICS, CHINESE ACADEMY OF SCIENCES
+CHEN, Chengying
+H04R 27/02
+Loading...
+Disclosed is an analog front-end circuit for a medical hearing aid device, the analog front-end circuit comprising an automatic gain control loop and a second-order three-bit quantized Sigma-Delta analog-to-digital converter (20); the automatic gain control loop is used to achieve automatic control of the loop gain and output an analog signal to the second-order three-bit quantized Sigma-Delta analog-to-digital converter; the second-order three-bit quantized Sigma-Delta analog-to-digital converter is used to convert the analog signal outputted by the automatic gain control loop into a digital code, and output the digital code to a digital signal processor (DSP) for processing. The present invention fully integrates three power level comparators, a digital-analog hybrid automatic gain control loop, and a second-order three-bit quantized Sigma-Delta analog-to-digital converter single chip, thus achieving an analog front-end circuit for a medical hearing aid device. The analog front-end circuit has the advantages of high precision, high configurability, and low power consumption of the whole circuit, and is suitable for medical hearing aid devices.
+31. 103346679 箝位电路
+CN
+09.10.2013
+H02M 5/293 Loading...
+H02M 5/293
+Loading...
+201310294504.4
+中颖电子股份有限公司
+蒙蕾
+H02M 5/293
+Loading...
+本发明提供一种箝位电路，集成在一低压MCU芯片内部，包括：低压NMOS管，其源极与芯片内部的一低压电源相连接，其衬底与地相连接；低压PMOS管，其源极与地相连接，其衬底与低压电源相连接，低压PMOS管的漏极与低压NMOS管的漏极相连接；其中，低压NMOS管的漏极与低压PMOS管的漏极的连接中点形成一电压引出点，与芯片外部的一高压交流电平相连接。本发明通过将幅度过大的高压交流信号箝位在低压MCU芯片承受的最大耐压范围内，从而将过零比较功能集成在CMOS低压工艺中实现，减少了外部元器件，降低了成本。
+32. 103338043 基于碳膜走线的按键扫描硬件电路和按键扫描方法
+CN
+02.10.2013
+H03M 11/20 Loading...
+H03M 11/20
+Loading...
+201310307282.5
+中颖电子股份有限公司
+赵雄鹰
+H03M 11/20
+Loading...
+本发明提供一种基于碳膜走线的按键扫描硬件电路以及按键扫描方法，该电路包括：x+1条状态线；mn条扫描线；m’n’个按键，位于x+1条状态线与mn条扫描线相交的位置处；x+1个电阻选择开关，其一端分别与x+1条状态线相连接；x+1个第一等效上拉电阻和x+1个第二等效上拉电阻，每个第一等效上拉电阻和其对应的那个第二等效上拉电阻构成并联的一对等效上拉电阻对，总共x+1对等效上拉电阻对；其中，每对等效上拉电阻对的一侧均与上拉电压端相连接，x+1个电阻选择开关的另一端分别与每对等效上拉电阻对的另一侧的第一等效上拉电阻或者第二等效上拉电阻可切换连接。本发明使现有的按键扫描方式可以适用于其上，且在同一时间可以对所有的状态线进行读取，保证了扫键效率。
+33. 103295531 增强亮度和改善显示效果的PMOLED显示屏
+CN
+11.09.2013
+G09G 3/32 Loading...
+G09G 3/32
+Loading...
+201310270710.1
+中颖电子股份有限公司
+张季
+G09G 3/32
+Loading...
+本发明提供一种增强亮度和改善显示效果的PMOLED显示屏，包括：面板，其具有排成阵列的多个像素单元；驱动芯片，其具有多个公共端和多个扫描端；其中，驱动芯片从其中间引出公共端的管脚，通过第一片外走线与面板上靠近驱动芯片一侧的对应的公共端相连接；驱动芯片从其两边引出扫描端的管脚，通过第二片外走线分别与面板左右两侧对应的扫描端相连接；驱动芯片内部包括多个公共端缓冲单元，其一侧与公共端相连接，另一侧通过片内接地走线与公共端的地相连接，由公共端缓冲单元和片内接地走线构成的公共端内阻的阻值为15欧姆以内。本发明能够增强显示亮度和改善显示效果，避免出现斑马纹现象。
+34. 103217605 电池保护级联系统的充电器检测装置
+CN
+24.07.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201310101166.8
+中颖电子股份有限公司
+邢巍
+G01R 31/00
+Loading...
+本发明提供一种电池保护级联系统的充电器检测装置，包括N个电池保护芯片，与N个电池串一一对应连接；第一个为主芯片，其余为级联芯片；N个电池串彼此串联连接，各包含M节电池，N、M均为≥2的自然数；每个电池保护芯片包括接地端、电源端、主从片选信号端和充电器检测端口；第N电池保护芯片的电源端与第N电池串的正极端连接点抽出成为电池包正端，主芯片的接地端与第一电池串的负极端连接点抽出以形成电池包负端，两者之间供充电器连接；主芯片的充电器检测端口经过一端口电阻连接到电池包负端，检测其电压，判断充电器的连接状况。本发明能安全、可靠地检测充电器的连接状态，并向级联芯片传递过压迟滞控制信号，提高应用系统的安全性。
+35. 103199791 使用单采样电阻的三相电流重构方法
+CN
+10.07.2013
+H02P 23/14 Loading...
+H02P 23/14
+Loading...
+201310129619.8
+中颖电子股份有限公司
+万翔
+H02P 23/14
+Loading...
+本发明提供一种使用单采样电阻的三相电流重构方法，包括步骤：A．对变频器的直流母线电流进行采样；B．状态观测器估计出感应电机的三相电流和反电动势；C．根据有效矢量的作用时间，判断是否需要进行电流重构，若需要重构，则执行步骤D，若无需重构，则跳至步骤G；D．状态观测器在三相电流的非正常采样区对电机电流进行观测；E．对观测到的电机电流进行误差控制；F．对观测到的电机电流的变化量进行限幅处理；G．生成空间矢量脉宽调制信号；H．设置下一次直流母线电流采样的时间点，中断返回步骤A。本发明提高了电流估计的准确性和通用性，精确实现了宽范围、多种SVPWM模式的电流重构，并且不改变SVPWM电压基本矢量，显著降低电压矢量THD值。
+36. 103116974 降低内建振荡电路频率漂移的遥控器芯片
+CN
+22.05.2013
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201310068221.8
+中颖电子股份有限公司
+沈建东
+G08C 17/02
+Loading...
+本发明提供一种降低内建振荡电路频率漂移的遥控器芯片，其通过连线向外分别与遥控器电源和红外发码管连接，连线上至少存在第一、第二电感；遥控器芯片包括：内建振荡电路，与遥控器电源相连，获取芯片电源，产生初始的发码控制信号；下拉电阻，与内建振荡电路并联后也连芯片电源；N+1个发码器件，发码端并联后通过发码口连接到红外发码管，控制端分别对应接收初始的发码控制信号及N个时间逐渐延迟的发码控制信号；N个串联的时延单元，其输入端接收初始的发码控制信号，经过N次时间延迟，依次产生N个时间逐渐延迟的发码控制信号，对应提供给发码器件。本发明减小电源上的抖动，降低内建振荡器频率漂移，使遥控器发码频率满足2%的漂移要求。
+37. 103106354 限制将存储装置中受保护的数据复制到PC端的方法
+CN
+15.05.2013
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201110360146.3
+中颖电子股份有限公司
+张钦
+G06F 21/10
+Loading...
+本发明提供一种限制将存储装置中受保护的数据复制到PC端的方法，包括步骤：以正常方式将受保护的数据复制到存储装置中；存储装置对其中的受保护的数据进行地址分析和记录保存；当存储装置与PC端相连接时，存储装置检测PC端发送的数据读取命令和需要读取的数据的地址；存储装置将PC端要求访问的地址与之前记录保存的受保护的数据地址进行比较；如果要求访问的地址位于记录保存的数据地址中，则对数据进行修改后再传送给PC端，否则直接将数据读出传送给PC端。本发明的方法实现简单、使用方便、无需复杂的授权机制。存储装置只需通过修改固件的方式即可实现限制数据的复制，无需涉及硬件上的修改，不增加硬件成本。
+38. 103105885 高压基准电压产生电路
+CN
+15.05.2013
+G05F 3/24 Loading...
+G05F 3/24
+Loading...
+201210586340.8
+中颖电子股份有限公司
+白胜天
+G05F 3/24
+Loading...
+本发明提供一种高压基准电压产生电路，包括：第一NMOS管、第二NMOS管、第一电阻和第二电阻；第一NMOS管的栅极接低压基准电压，第一NMOS管的源极接第一电阻的一端，第一电阻的另一端接地，第一NMOS管的衬底与其源极短接；第二NMOS管的源极接第一NMOS管的漏极，两者的共同接点连接到本高压基准电压产生电路的输出端，第二NMOS管的衬底与其源极短接，第二NMOS管的栅极与其漏极短接，第二NMOS管的栅极与其漏极的共同接点连接到第二电阻的一端，第二电阻的另一端连接一电源端。此外，本发明还提供另一种高压基准电压产生电路。本发明能够基于任一高压产生基准电压，避免重新做一套复杂的基准电压电路，简化电路结构，节约芯片面积。
+39. 103020010 嵌入式系统存储架构
+CN
+03.04.2013
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+201210564275.9
+中颖电子股份有限公司
+张钦
+G06F 15/78
+Loading...
+本发明提供一种嵌入式系统存储架构，包括主控芯片，主控芯片内包括：数据存储器；中央处理器，与数据存储器相连接；ROM类型的程序存储器，与中央处理器相连接，其内存储有嵌入式系统存储架构的运行程序；RAM类型的可配置存储器，与中央处理器相连接，用于根据需要被配置成另一数据存储器或者另一程序存储器。本发明融合了ROM类型和RAM类型程序存储器各自的优点，可根据需要自由配置代码存储方案，兼顾成本和功能的扩展性。本发明同时具有低成本低、程序空间可扩展以及维护升级方便的优点，以一种弹性的系统架构，同时满足大部分应用。
+40. 103022981 用于多串电池级联的保护电路
+CN
+03.04.2013
+H02H 7/18 Loading...
+H02H 7/18
+Loading...
+201210586521.0
+中颖电子股份有限公司
+白胜天
+H02H 7/18
+Loading...
+本发明提供一种用于多串电池级联的保护电路，包括芯片端口耐压保护电路，其第一电阻接电池包负端和第一二极管负端，第一二极管正端接对地端；第一NMOS管漏端接第一二极管负端，源端和衬底短接并接电池包负端检测端，栅端接电源端；第二NMOS管栅端接充电管控制端，源端和衬底短接并接对地端，漏端接第二电阻，第二电阻另接电源端；PMOS管栅端接第二NMOS管漏端，源端和衬底短接并接电源端，漏端接第二二极管正端；第二二极管负端接充电管栅端；充电管源端和衬底短接并接电池包负端，漏端接放电管漏端；放电管源端与衬底短接并接对地端，栅端接放电管控制端。本发明避免极高正压和极低负压进入电池保护芯片，实现安全可靠的多串电池保护方案。
+41. 102982780 液晶显示面板的内置高电平产生电路
+CN
+20.03.2013
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+201210536542.1
+中颖电子股份有限公司
+段立忠
+G09G 3/36
+Loading...
+本发明提供一种液晶显示面板的内置高电平产生电路，包括：驱动芯片；VGH/VGL电荷泵，根据驱动芯片的控制信号产生高压VGH/VGL，VGH和VGL分别为液晶显示面板上薄膜晶体管的开启/关闭电压；两个第一电平转换电路，分别与各自侧边的行驱动器、VGH/VGL电荷泵和驱动芯片相连接，将驱动芯片产生的控制信号电压域也转换到VGL~VGH，并一起输送到行驱动器；第二电平转换电路，分别与驱动芯片和VGH/VGL电荷泵相连接，根据驱动芯片的指令控制VGH/VGL电荷泵的工作状态；其中，VGH/VGL电荷泵、第一/第二电平转换电路均内置于液晶显示面板中且独立于驱动芯片之外。本发明使驱动芯片减少面积，不再需要高压工艺，降低生产成本。另使行扫描线的VGH/VGL由面板自行产生，减少因连接阻抗导致的有效电平的降低。
+42. 102915631 遥控器芯片的开发系统
+CN
+06.02.2013
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201210382495.X
+中颖电子股份有限公司
+张文武
+G08C 17/02
+Loading...
+本发明提供一种遥控器芯片的开发系统，包括：遥控接收器，接收一遥控器发送的按键信号，并将其转换成数位数据；信号分析模块，对数位数据作逻辑分析，分离出其中的命令字、用户码和格式；编码库，将格式存入；编码/代码生成模块，接收命令字、用户码和格式后，自动生成遥控器芯片的芯片编码或者程序代码，并写入芯片。另外，本发明还提供一种无遥控器、仅有被遥控设备情形下的遥控器芯片的开发系统。本发明采用以硬件实现的逻辑过程，摒弃软件开发过程带来的不利，针对有、无遥控器两种情形，分别弥补了现有技术中的缺点，并突破了在遥控器开发中的局限，能够加快新遥控器的开发周期，降低开发门槛。
+43. 102521168 用于存储卡的数据防拷贝方法
+CN
+27.06.2012
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201110424893.9
+中颖电子股份有限公司
+张钦
+G06F 12/14
+Loading...
+本发明提供一种用于存储卡的数据防拷贝方法，包括：将受保护的数据拷贝到存储卡中；在参数区中写入所拷贝的数据的地址及读取速率判决阈值；当存储卡主机与其相连并发送数据读取命令时，记录所读取的数据的地址并计算数据读取速率；将读取地址与参数区中记录的数据的地址比较；将计算的数据读取速率与参数区中写入的读取速率判决阈值相比较；将数据读取的地址与前次读取的地址比较，判断两者是否连续；终止存储卡与其主机之间的数据读取，或者将所读取的数据修改后再传送给存储卡主机；认定当前存储卡处于正常使用情况，将数据正常读取并传送给存储卡主机。本发明只需通过修改存储卡固件就可实现数据防拷贝，无需涉及硬件上的修改，不增加成本。
+44. 102506952 电子流量表
+CN
+20.06.2012
+G01F 15/00 Loading...
+G01F 15/00
+Loading...
+201110327905.6
+中颖电子股份有限公司
+樊海涛
+G01F 15/00
+Loading...
+本发明公开了一种电子流量表，包括电子计量显示装置，用于计量流体的流量；储能装置，用于给所述电子计量显示装置提供电源输入；发电装置，用于将流体的动能转化为电能；控制装置，用于将所述发电装置的电能转换为所述储能装置所需的充电电源后、储存到所述储能装置中。本发明电子流量表，能够自动获取电流流量表所需要的供电电源。
+45. 102499661 高度集成的电子血压计电路
+CN
+20.06.2012
+A61B 5/0225 Loading...
+A61B 5/0225
+Loading...
+201110319013.1
+中颖电子股份有限公司
+曹中信
+A61B 5/0225
+Loading...
+本发明提供一种高度集成的电子血压计电路，包括：压力传感器，用于接收人体血压信号；恒流源/恒压源，用于向压力传感器提供恒定的电流/电压；可编程增益放大器，用于接收压力传感器的差分输入正负压力信号并调节至所需的增益放大；模数转换器，用于将增益放大后的正负压力信号进行模数转换；以及单片机核，用于控制整个电子血压计电路，进行数据运算、处理或中断；其中，恒流源/恒压源、可编程增益放大器、模数转换器和单片机核集成在一个芯片上。本发明高度集成，采用芯片内建全差分输入模数转换模块，能够减少外围分离元器件的数量，提高测量信号的精度。
+46. 102361439 芯片内建RC振荡器
+CN
+22.02.2012
+H03K 3/011 Loading...
+H03K 3/011
+Loading...
+201110319155.8
+中颖电子股份有限公司
+蒙蕾
+H03K 3/011
+Loading...
+本发明提供一种芯片内建RC振荡器，包括：恒定电压产生电路，用于产生恒定电压；多个电阻，彼此并联、串联或者混合连接形成电阻网络，电阻网络的一端与恒定电压产生电路相连接；以及电容，与电阻网络的另一端相连接；其中，电阻网络的等效阻值的温度系数配置为所需值。本发明通过配置RC振荡器电阻网络中的各个电阻的阻值，采用不同温度系数电阻相互补偿，大大减小RC振荡器的输出频率随温度的变异，使其在-40℃～85℃的工作温度范围内，制程内不同材质的电阻温度系数补偿匹配较好，可以使输出频率变异小于±0.5％，满足各种计时、通讯等领域对频率要求较高应用。
+47. 102331939 可利用任意读卡器升级的存储卡
+CN
+25.01.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110172512.2
+中颖电子股份有限公司
+吴勇刚
+G06F 9/445
+Loading...
+本发明提供一种可利用任意读卡器升级的存储卡，包括：存储器，用于存储数据；主控电路，与存储器相连接，用于控制存储卡工作；固件升级检测模块，与主控电路相连接，用于根据任意读卡器发出的通用命令序列检测是否需要对存储卡进行固件升级；存储卡接口，分别与固件升级检测模块和任意读卡器相连接，用于将存储卡与任意读卡器之间建立通讯连接。本发明在主控电路与存储卡接口之间设置固件升级检测模块，接收并检测任意读卡器发送的通用命令序列，使存储卡进入固件升级状态。用户采用通用读卡器，可以自行进行存储卡固件升级、版本更新等操作，不再需要寄回原厂处理，大大降低了存储卡售后维修等费用。
+48. 102324927 波特率发生器
+CN
+18.01.2012
+H03K 23/66 Loading...
+H03K 23/66
+Loading...
+201110114661.3
+中颖电子股份有限公司
+李剑英
+H03K 23/66
+Loading...
+本发明提供一种波特率发生器，包括：独立定时器，与系统时钟相连接，用于产生串行口波特率的起始溢出信号；16分频器，与独立定时器相连接，用于将波特率16等分；比特宽度微调器，分别与系统时钟、16分频器和后续的串口模块相连接，用于对16等分的波特率时钟信号的宽度进行微调输出。本发明可以对串行口波特率进行最大限度的微调，缩小波特率偏差，以满足实际通信需求，避免为了提高通信速度而定制特殊晶振的额外花费，对波特率要求较高的单片机串口通信有着十分重要的意义。另外，本发明对波特率发生器设置独立定时器，防止单片机内部的定时器被波特率发生器过多占用，导致定时器缺乏。
+49. 102280087 Singlechip microcomputer for electronic paper display
+CN
+14.12.2011
+G09G 3/34 Loading...
+G09G 3/34
+Loading...
+201110161271.1
+Sino Wealth Microelectronics Co., Ltd.
+Ji Wanli
+G09G 3/34
+Loading...
+The invention provides a singlechip microcomputer for electronic paper display. The singlechip microcomputer comprises a microprocessor core, a display and storage unit, an electronic paper driving and outputting circuit, and an electronic paper driving voltage generating circuit, wherein the microprocessor core is used for generating display data according to an externally input instruction; the display and storage unit is used for storing the display data; the electronic paper driving and outputting circuit is used for calling the display data in the display and storage unit according to the instruction of the microprocessor core and sending the display data to an electronic paper display screen for outputting; and the electronic paper driving voltage generating circuit is used for voltage required by the electronic paper driving and outputting circuit according to the instruction of the microprocessor core and supplying power to the electronic paper driving and outputting circuit. In the invention, the electronic paper driving circuit is combined with the singlechip microcomputer, a brand-new singlechip microcomputer system with the built-in electronic paper driving circuit is provided, can be used for realizing better and lower power consumption (maintained power-off display) and providing reduced number of devices and simplified circuit system for various applications with display screens, and is in accordance with the requirements of bank cards, electronic tags and other fields on flexibility, ultralow power consumption, long-time display, system simplification, and assembly convenience.
+50. 102254512 Organic light emitting diode (OLED) display driving chip and display
+CN
+23.11.2011
+G09G 3/32 Loading...
+G09G 3/32
+Loading...
+201110191800.2
+Sino Wealth Microelectronics Co., Ltd.
+Ji Wanli
+G09G 3/32
+Loading...
+The invention discloses an organic light emitting diode (OLED) display driving chip, comprising a first common drive port, as well as a second common drive port and a third common drive port positioned at two sides of the first common drive port, and a first-segment drive port and a second-segment drive port which are arranged to space the first common drive port, the second common drive port and the third common drive port. Thus, a drive output port of the OLED display driving chip additionally provides a group of COM ports with repeat functions, which can be selected for use to meet different layout requirements, therefore, the layout requirements of different OLED screens can be met through the way that drive chips in the same type can use different COM ports.
+51. 102231259 SCM (Single Chip Microcomputer) system for OLED (Organic Light Emitting Diode) display
+CN
+02.11.2011
+G09G 3/32 Loading...
+G09G 3/32
+Loading...
+201110161252.9
+Sinowealth Electronic Co.,Ltd.
+Ji Wanli
+G09G 3/32
+Loading...
+The invention provides an SCM (Single Chip Microcomputer) system for OLED (Organic Light Emitting Diode) display, comprising a microprocessor core, a display storing unit, an OLED drive outputting circuit and an OLED driving voltage generating circuit, wherein the microprocessor core is used for generating display data according to an external input instruction; the display storing unit is used for storing the display data; the OLED drive outputting circuit is used for retrieving the display data in the display storing unit according to the instruction of the microprocessor core and sending the display data to an OLED display screen to be output; and the OLED driving voltage generating circuit is used for generating the required voltage for the OLED drive outputting circuit according to the instruction of the microprocessor core and supplying electricity to the OLED drive outputting circuit. In the invention, an OLED drive circuit is combined with an SCM; a highly integrated brand new SCM system of a built-in OLED drive circuit is provided; and a better display effect, lower backlight power consumption, more simplified component number and electrical system than those of TN (Twisted Nematic), STN (Super Twisted Nematic) and LED (Liquid Crystal Display) can be provided for applications with various display screens so as to meet the requirements of enhancing the display quality, simplifying the system and reducing the energy consumption in the fields of household appliances, industrial control and the like.
+52. 102222251 High-speed low-power-consumption embedded memory card
+CN
+19.10.2011
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+201110172521.1
+Sino Wealth Microelectronics Co., Ltd.
+Wu Yonggang
+G06K 19/07
+Loading...
+The invention provides a high-speed low-power-consumption embedded memory card, comprising a memory for storing data, a main control circuit and a command filtering module, wherein the main control circuit is connected with the memory and used for controlling work of the memory card, and the command filtering module is connected with the main control circuit and a card reader respectively and used for filtering requests of not operating the memory, sent by the card reader. In the invention, the command filtering module is arranged between the card reader and the main control circuit of the memory card and is used for pre-filtering the requests of not carrying out a reading/writing/erasing operation on the memory, so that the working load of the main control circuit can be reduced, the main control circuit is enabled to process the reading/writing/erasing command requests only, the power consumption of the memory card is reduced, the software code compiling is simple, the maintenance is easy, the data space is saved and the response speed of the system is increased. The memory card is especially suitable to being applied to the embedded memory card system having low power consumption and low cost.
+53. 102184904 Bonding disc structure aiming at BOAC frame and integrated circuit device structure
+CN
+14.09.2011
+H01L 23/488 Loading...
+H01L 23/488
+Loading...
+201110090466.1
+Sino Wealth Microelectronics Co., Ltd.
+Wang Bingjie
+H01L 23/488
+Loading...
+The invention discloses a bonding disc structure aiming at a BOAC frame and an integrated circuit device structure using the same. The bonding disc structure aiming at the BOAC frame comprises a printed circuit board and a weld zone at a preset position on the printed circuit board, wherein a plurality of bonding pad structures are formed on the weld zone; and each bonding pad structure comprises at least two bonding pads with identical electrical connection, one bonding pad is used for forming a packaging connection line and the other bonding pads are used for carrying out wafer level test before packaging. By means of the bonding disc structure aiming at the BOAC frame, while the chip area is saved, the same bonding pad is avoided to be damaged, collapsed and the like because of being subjected to ceaseless external pressure; and therefore, the yield of the testing and the packaging of a device is increased and the quality is improved.
+54. 102176327 Method for erasing non-volatile semiconductor memory
+CN
+07.09.2011
+G11C 16/14 Loading...
+G11C 16/14
+Loading...
+201110051557.4
+Sino Wealth Microelectronics Co., Ltd.
+Ge Xiaohuan
+G11C 16/14
+Loading...
+The invention discloses a method for erasing a non-volatile semiconductor memory. The method has the following beneficial effects: the non-volatile semiconductor memory is put in an electric field when the non-volatile semiconductor memory is erased by adopting light rays; and the electric field ensures the electrons excited by the light rays in the non-volatile semiconductor memory to move toward a semiconductor substrate, thus preventing the electrons from moving toward the control grid of the non-volatile semiconductor memory, preventing the lowest working voltage of the non-volatile semiconductor memory from being raised and improving the properties of the non-volatile semiconductor memory.
+55. 102157546 Power supply overvoltage protection structure and manufacture method thereof
+CN
+17.08.2011
+H01L 29/06 Loading...
+H01L 29/06
+Loading...
+201110068177.1
+Sino Wealth Microelectronics Co., Ltd.
+Wu Wei
+H01L 29/06
+Loading...
+The invention discloses a power supply overvoltage protection structure comprising at least two power-supply overvoltage protection units connected in parallel, wherein each power supply overvoltage protection unit forms a PESD (polymer electro-static discharge) injection region at the junction of a P-type well region and a N-type heavy doping region, so that the breakdown voltage of a diode formed by the P-type well region and the N-type heavy doping region is slightly higher than the power supply voltage but less than the breakdown voltage of the prior buffer devices, therefore when the voltage of the power supply is excessive, the integrated circuit chip can be effectively protected free from destroying. Simultaneously, the invention further discloses a manufacture method of the power supply overvoltage protection structure, wherein the method comprises a step of forming a PESD (polymer electro-static discharge) injection region at the junction of a P-type well region and a N-type heavy doping region, so that the breakdown voltage of a diode formed by the P-type well region and the N-type heavy doping region is slightly higher than the power supply voltage but less than the breakdown voltage of the prior buffer devices, therefore when the voltage of the power supply is excessive, the integrated circuit chip can be effectively protected free from destroying.
+56. 201935782 压力传感器系统标定电路
+CN
+17.08.2011
+G01L 27/00 Loading...
+G01L 27/00
+Loading...
+201020642162.2
+中颖电子股份有限公司
+曹中信
+G01L 27/00
+Loading...
+本实用新型提供一种压力传感器系统标定电路，包括：第一仪表放大器，分别与压力传感器的正输入和负输入、第一偏置电压相连接；第二仪表放大器，分别与所述第一仪表放大器和第二偏置电压相连接；模数转换器，分别与所述第一仪表放大器和第二仪表放大器相连接；以及单片机核，与所述模数转换器相连接。本实用新型通过软件方式对压力传感器系统的各仪表放大器进行调节，不需要设置数量繁多的外围电位器，简化和加快了压力传感器的系统标定过程，减少了额外的电路元器件，能自适应压力传感器的零点偏置电压，对所使用的压力传感器没有其它特殊要求，降低了整个压力传感器系统的成本。
+57. 201912072 电子血压计电路
+CN
+03.08.2011
+A61B 5/0225 Loading...
+A61B 5/0225
+Loading...
+201020643088.6
+中颖电子股份有限公司
+曹中信
+A61B 5/0225
+Loading...
+本实用新型提供一种电子血压计电路，包括：压力传感器；恒流源/恒压源；仪表放大器；带通滤波器；信号放大器；模数转换器；以及单片机核；其中，所述恒流源/恒压源、仪表放大器、带通滤波器、信号放大器、模数转换器和单片机核集成在一个芯片上。本实用新型将恒流源/恒压源、仪表放大器、带通滤波器、信号放大器、模数转换器和单片机核一起集成在一个芯片上，使得本实用新型的电子血压计电路系统集成度较高，外围分立元器件较少，节省了外围元器件的成本，也提高了系统稳定性，有利于设计出体积更小、更具有便携性的电子血压计产品。
+58. 102136458 Improved structure aimed at BOAC framework
+CN
+27.07.2011
+H01L 23/00 Loading...
+H01L 23/00
+Loading...
+201110045023.0
+Sino Wealth Microelectronics Co., Ltd.
+Wang Bingjie
+H01L 23/00
+Loading...
+The invention provides an improved structure aimed at a BOAC framework, which comprises an active circuit and a bond pad structure arranged above the active circuit. The bond pad structure comprises a bond pad, a passivation layer, and a first metal gasket. The bond pad is arranged on a first dielectric layer; the passivation layer is covered on the periphery of the bond pad so as to form an opening area on above the bond pad; and the first metal gasket is arranged in a second dielectric layer and is arranged on the periphery of a corresponding right under the opening area. As an original metal gasket in an area right under the opening area of a bond pad of the prior art is changed into a dielectric medium material with larger mechanical strength by the improved structure, then mechanical pressure formed in the opening area during subsequent packaging process can be absorbed and born by the dielectric medium material; in this way, collapse of the bond pad and the metal gasket caused by external mechanical pressure can be effectively prevented so as to avoid the active circuit below from damaging; therefore, redundant electric property connection formed by the active circuit can be prevented; therefore, the failure rate of the active circuit is reduced, and the product yield is improved.
+59. 102062668 Pressure sensor system calibrating circuit and method
+CN
+18.05.2011
+G01L 25/00 Loading...
+G01L 25/00
+Loading...
+201010573310.4
+Zhongying Electronics Corporation
+Cao Zhongxin
+G01L 25/00
+Loading...
+The invention provides a pressure sensor system calibrating circuit which comprises a first instrument amplifier, a second instrument amplifier, an analog to digital converter and a singlechip core, wherein the first instrument amplifier is respectively connected with the positive input and the negative input of a pressure sensor and a first bias voltage; the second instrument amplifier is respectively connected with the first instrument amplifier and a second bias voltage; the analog to digital converter is respectively connected with the first instrument amplifier and the second instrument amplifier; and the singlechip core is connected with the analog to digital converter. Correspondingly, the invention also provides a pressure sensor system calibrating method. In the invention, both instrument amplifiers of a pressure sensor system are adjusted in a software way without arranging a large number of peripheral potentiometers, thereby simplifying and quickening the process of calibrating the pressure sensor system, reducing extra circuit elements, self-adapting the zero bias voltage of the pressure sensor, having no other special requirements for the used pressure sensor, and lowering the cost of the entire pressure sensor system.
+60. 102048527 Electronic sphygmomanometer circuit
+CN
+11.05.2011
+A61B 5/0225 Loading...
+A61B 5/0225
+Loading...
+201010573988.2
+Sino Wealth Electronic Ltd.
+Cao Zhongxin
+A61B 5/0225
+Loading...
+The invention provides an electronic sphygmomanometer circuit, which comprises a pressure sensor, a constant current source/constant voltage source, an instrument amplifier, a band-pass filter, a signal amplifier, an analog-digital converter and a singlechip core, wherein the constant current source/constant voltage source, the instrument amplifier, the band-pass filter, the signal amplifier, the analog-digital converter and the singlechip core are integrated on the same chip. Because the constant current source/constant voltage source, the instrument amplifier, the band-pass filter, the signal amplifier, the analog-digital converter and the singlechip core are integrated on the same chip, the electronic sphygmomanometer circuit has higher system integration and a few peripheral discrete devices, saves the cost of the peripheral devices, improves the system stability, and contributes to designing electronic sphygmomanometer products with smaller volume and higher portability.
+61. 102044457 Method for manufacturing metal bonding pad and corresponding metal bonding pad structure
+CN
+04.05.2011
+H01L 21/60 Loading...
+H01L 21/60
+Loading...
+201010102325.2
+Sino Wealth Microelectronics Co., Ltd.
+Ge Xiaohuan
+H01L 21/60
+Loading...
+The invention discloses a method for manufacturing a metal bonding pad and a corresponding metal bonding pad structure. A metal layer is additionally arranged on the original integrated circuit level, so the thickness of a metal layer on which wire bonding is to be performed is entirely increased to contribute to copper wire bonding and prevent punching phenomena; and the wire bonding can be finished by using the original bonding pad photomask, so a new photomask is not needed, or a design rule is not required to be changed. The structure comprises a semiconductor substrate, an insulating layer, a first window, a passivation layer and a second window, wherein an uppermost metal layer is arranged on the semiconductor substrate; the insulating layer covers the uppermost metal layer; the first window penetrates through the insulating layer and bonding pad metal is deposited in the first window; the passivation layer covers the insulating layer; the second window penetrates through the passivation layer and is communicated with the first window; and the bonding pad metal is deposited in the second window.
+62. 102044514 Chip lead bonding region and semiconductor device using same
+CN
+04.05.2011
+H01L 23/485 Loading...
+H01L 23/485
+Loading...
+201010165005.1
+Sino Wealth Microelectronics Co., Ltd.
+Zhou Huadong
+H01L 23/485
+Loading...
+The invention discloses a chip lead bonding region. The chip lead bonding region comprises a plurality of regions which are meshed with one another. In the chip lead bonding region and a semiconductor device using the same, one bonding region is divided into a plurality of parts which are connected with a plurality of electrode points in the chip and are bonded with a lead frame through the same lead, so that multi-channel signal transmission can be realized by utilizing one bonding region, the bonding region is utilized completely, and the aims of saving the bonding region and realizing more functions are fulfilled.
+63. 102043721 Memory management method for flash memory
+CN
+04.05.2011
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201010172669.0
+Sino Wealth Microelectronics Co., Ltd.
+Zhang Qin
+G06F 12/02
+Loading...
+The invention discloses a memory management method for a flash memory. The method comprises the following steps of: partitioning the flash memory into at least one region and at least two fields, wherein each field comprises a plurality of physical blocks and the size of the region is integer multiples of that of each field; establishing a physical block distribution table by taking the region as a unit; establishing a block address mapping table between a logic block address and a physical block address by taking the field as a unit; and when reading and writing operation is performed on the flash memory, only calling the block address mapping table of a field corresponding to a current reading and writing operation address and the physical block distribution table of a corresponding region to a random-access memory (RAM). Therefore, only the block address mapping table of one field and the physical block distribution table of one region need storing temporarily in the RAM at any moment. Compared with the prior art in which the block address mapping table and the physical block distribution table of the entire flash memory are stored, the method reduces occupied RAM resources greatly and lowers cost.
+64. 102033501 Power supply control system of singlechip
+CN
+27.04.2011
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201010567556.0
+Sino Wealth Microelectronics Co., Ltd.
+Cao Zhongxin
+G05B 19/042
+Loading...
+The invention provides a power supply control system of a singlechip, comprising an internal steady pressure source module, an external steady pressure source module, an awakening key, a power supply control module and a unidirectional conduction module, wherein the internal steady pressure source module is connected with the inner core of the singlechip; the external steady pressure source module is respectively connected with an external power supply and the internal steady pressure source module; the power supply control module is respectively connected with the inner core of the singlechip, the external steady pressure source module, the internal steady pressure source module and the awakening key; and the unidirectional conduction module is respectively connected with the inner core of the singlechip and the external power supply. When the singlechip enters a power saving mode, because the inner core of the singlechip is supplied with a low-voltage power supply, the internal steady pressure source module is instructed to enter a low-power state or closed state, and/ or the external steady pressure source module is instructed to enter the closed state while parts of circuit in the inner core of the singlechip can be maintained to work. Because the internal steady pressure source module and the external steady pressure source module consume certain electric energy when working, the standby power consumption of the singlechip and the whole circuit system can be further lowered after the internal steady pressure source module and the external steady pressure source module are turned off without influence on awakening the singlechip from the power saving mode.
+65. 102025398 Wired carrier communication method and device
+CN
+20.04.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+200910195583.7
+Sinowealth Electronic Co., Ltd.
+Zhou Xueke
+H04B 3/54
+Loading...
+The invention discloses a wired carrier communication method and a wired carrier communication device. A dual-mode communication method of spread-spectrum modulation technology and narrow-band modulation technology is utilized to improve the reliability and environmental adaptation of wired channel transmission and improve the critical physical layer communication capacity which limits the large-scale promotion and application of carrier communication currently. The wired carrier communication method comprises the following steps of: modulating a baseband signal by adopting a dual-mode modulation mode of spread-spectrum modulation and narrow-band modulation to obtain modulated signals of two modes; sending the modulated signals of the two modes; receiving the modulated signals of the two modes; and demodulating the modulated signals of the two modes by adopting the dual-mode modulation mode of spread-spectrum modulation and narrow-band modulation.
+66. 102012454 Zero passage detection method and device of counter electromotive force of permanent magnet direct current brushless Hall motor
+CN
+13.04.2011
+G01R 19/175 Loading...
+G01R 19/175
+Loading...
+201010528356.4
+Sino Wealth Electronic Co., Ltd.
+Chen Chaohui
+G01R 19/175
+Loading...
+The invention provides a zero passage detection method of counter electromotive force of a permanent magnet direct current brushless Hall motor, comprising the following steps of: applying PWM (Pulse Wavelength Modulation) voltage on two phases of three stator windings of the motor; detecting the voltage of a conducting phase and a non-conducting phase of the motor after the follow current of the PWM waveform during low level is finished; and judging whether the counter electromotive force passes zero or not by calculating the difference between two times of non-conducting voltage and the voltage of the conducting phase. The invention also provides a zero passage detection device of the counter electromotive force of the permanent magnet direct current brushless Hall motor. Since the detection is not carried out when the PWM waveform is high level, the filter and high-frequency noise can be avoided; and the invention has the advantages of favorable control performance, high precision, wide application range and low cost and is simple for realization in the whole detection process, can conveniently determine the position of a motor rotor in the operation process and realize the control of a brushless direct current motor without a Hall sensor.
+67. 102005993 Method and device for controlling permanent magnet direct current brushless without hall motor
+CN
+06.04.2011
+H02P 6/08 Loading...
+H02P 6/08
+Loading...
+201010528347.5
+Zhongying Electronics Corporation
+Chen Chaohui
+H02P 6/08
+Loading...
+The invention provides a method for controlling a permanent magnet direct current brushless without hall motor, comprising the following steps of: measuring a three-phase counter electromotive force of the motor and starting the motor; measuring a phase voltage of any phase in a PWM (Pulse Width Modulation) signal dead zone period of the one phase of bridge arm in a driving circuit of the motor so as to obtain a zero crossing point of phase current of the phase to further determine the time required when the phase current passes through a 360-degree electrical angle; and carrying out three-phase voltage sine pulse width modification (SPWM) on the motor so as to control the motor. Correspondingly, the invention also provides a device for controlling the permanent magnet direct current brushless without hall motor. After the motor is started, the phase voltage of any phase is measured at the PWM signal dead zone period of the one phase of the bridge arm of the driving circuit of the motor to finally obtain the time required when the phase current passes through the 360-degree electrical angle, and then the motor is controlled by using a three-phase SPWM method. In the invention, the motor is controlled on the basis of the existing conditions without extra hardware resources; and the invention is simple and reliable and has good controllability and low cost.
+68. 101996685 Error control method of storage management data and error controller
+CN
+30.03.2011
+G11C 29/00 Loading...
+G11C 29/00
+Loading...
+200910056282.6
+Sino Wealth Electronic (Shanghai) Ltd.
+Zhang Qin
+G11C 29/00
+Loading...
+The invention discloses an error control method of storage management data and an error controller. In the error control method, management data and corresponding main data are connected in series to form united data, and the united data are subjected to error correction of coding or decoding. The invention finishes the error control to the management data while realizing the error control of main data. Thus, the invention only needs to realize one ECC algorithm on hardware realization, thus saving the hardware cost of error control and simplifying software design.
+69. 101980159 Updating device and updating method for firmware of U disk
+CN
+23.02.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010508605.3
+Sino Wealth Electronic Co., Ltd.
+Zhang Qin
+G06F 9/445
+Loading...
+The invention provides an updating device for the firmware of a U disk. The device comprises a device body, a switch, a host end interface and an equipment end interface, wherein the host end interface is connected with a universal serial bus (USB) host; the equipment end interface is connected with the U disk; the switch controls the updating device to switch between a first connection mode and a second connection mode; and the device body concretely realizes the connection between the USB host and the U disk according to the instruction of the switch. The invention also provides the U disk comprising the updating device and an updating method for the firmware of the U disk. In spite of the damage or the damage degree of the firmware of the U disk, the firmware can be conveniently repaired or updated by the device and the method as long as the hardware part of the U disk are complete, so that the utilization rate of resources is improved. Any destructive dismantling work which possibly causes damage to the appearance or storage chip of the U disk is not needed, so that time and labor are saved. In addition, little modification, even no modification is made to the design of the conventional U disk, so that the design complexity and production cost of products almost are not influenced.
+70. 101977001 Startup method and startup device of permanent magnet direct current brushless hall-less motor
+CN
+16.02.2011
+H02P 6/20 Loading...
+H02P 6/20
+Loading...
+201010527933.8
+Sino Wealth Electronic Co., Ltd.
+Chen Chaohui
+H02P 6/20
+Loading...
+The invention provides a startup method of a permanent magnet direct current brushless hall-less motor, which comprises the following steps of: applying single-pulse voltage on any two phases of three phases of the motor; detecting and recording the value of the current passing through the two phases when the pulse is about to end; repeating the previous process to finish six-step energization and current detection of the motor; comparing all current values, finding out the maximal value and a corresponding energization phase, and judging the position of a rotor of the motor; and starting the motor according to the position of the rotor. Correspondingly, the invention also provides a startup device of the permanent magnet direct current brushless hall-less motor. By using the startup method and the startup device, forcible positioning is not necessary when determining the position of the rotor before the motor is started, the application range of the motor is not influenced, the motor is not impacted when started, and the starting process is smooth and reliable. Besides, the motor is powered on and detected based on the current condition without extra hardware resources, the startup method and the startup device are simple to implement and have low cost, and the starting speed of the motor is quick.
+71. 101958678 Starting method and starting device of high-voltage permanent-magnetism direct-current brushless no-hall motor
+CN
+26.01.2011
+H02P 6/20 Loading...
+H02P 6/20
+Loading...
+201010515530.1
+Sino Wealth Electronic Ltd.
+Chen Chaohui
+H02P 6/20
+Loading...
+The invention provides a starting method of the high-voltage permanent-magnetism direct-current brushless no-hall motor, comprising the following steps of: obtaining a preset start voltage curve; obtaining a PWM (Pulse Width Modulation) period corresponding to voltage supplied to a stator coil; switching a phase sequence after judging according to the obtained PWM period and checked counter electromotive force; controlling the voltage input into the stator coil in real time; and starting the motor. Correspondingly, the invention also provides a starting device of the high-voltage permanent-magnetism direct-current brushless no-hall motor, a cheap low-speed sampling instrument is adopted to realize the detection of the counter electromotive force of the motor so as to start the motor, and thus device cost is reduced; otherwise, when the low-speed sampling instrument with a longer sampling time is used, the invention can control average voltage input into the stator coil in real time by gradually changing the PWM period and the duty factor of the voltage input into the stator coil, thereby smoothly, safely and reliably starting the motor and avoiding burning down the motor for heavy current.
+72. 201708148 芯片引线键合区及应用其的半导体器件
+CN
+12.01.2011
+H01L 23/482 Loading...
+H01L 23/482
+Loading...
+201020181549.2
+中颖电子(上海)有限公司
+周华栋
+H01L 23/482
+Loading...
+本实用新型揭示了一种芯片引线键合区，包括：多个区；其中，所述多个区之间相互啮合。本实用新型提供的芯片引线键合区及应用其的半导体器件，是将一个键合区分为多个部分分别与芯片内的多个电极点进行连接，并通过同一条引线与引线框架键合，可以利用一个键合区实现多路信号传输，更加充分的利用率键合区，达到了节省键合区并能实现更多功能的目的。
+73. 101916493 Communication hardware decoding circuit and smoke detection system
+CN
+15.12.2010
+G08B 17/10 Loading...
+G08B 17/10
+Loading...
+201010230741.0
+Sino Wealth Electronic Ltd.
+Hu Wei
+G08B 17/10
+Loading...
+The invention discloses a communication hardware decoding circuit and a smoke detection system. The transmission and the decoding of data are realized through a hardware mode, so that the consumption of IC (Integrated Circuit) resources due to software decoding is avoided. The invention has the technical scheme that the communication hardware decoding circuit comprises a communication controller and a hardware decoding controller, the communication controller is used for completing data communication, and the hardware decoding controller is used for completing communication decoding; not only is data transmission realized, but also the decoding of the transmitted data is realized. For the smoke detection system integrated with the communication hardware decoding circuit, once the decoding of the communication hardware decoding circuit succeeds, the IC (also called as smoke detector) for receiving data knows the intent and the purpose of communication, so that corresponding measures can be taken, and the messages of host execution results and the like are returned. IC operates in a power-down mode during the process of acquiring communication IO (Input/Output), so that the power consumption of the system is greatly reduced; and meanwhile, the communication hardware decoding circuit of the IC completes data transmission and decoding, the IC resources consumed by software communication and decoding are effectively reduce, and the software control process is simplified.
+74. 101916777 Laterally diffused metal oxide semiconductor and electrostatic protection framework
+CN
+15.12.2010
+H01L 29/78 Loading...
+H01L 29/78
+Loading...
+201010229351.1
+Sino Wealth Electronic Ltd.
+Wu Wei
+H01L 29/78
+Loading...
+The invention discloses a laterally diffused metal oxide semiconductor and an electrostatic protection framework. The laterally diffused metal oxide semiconductor comprises a substrate type I; a grid electrode formed on the substrate type I, a soft doped zone type II formed in the substrate type I, a high-voltage well region type I formed in the soft doped zone type II, a high-voltage well region type II formed in the soft doped zone type II, a substrate electrode region type I formed in the high-voltage well region type I, a source electrode region type II formed in the high-voltage well region type I, a drain electrode region type II formed in the high-voltage well region type II, a substrate metal electrode directly connected with the substrate electrode region type I, a source metal electrode directly connected with the source electrode region type II, a drain metal electrode directly connected with the drain electrode region type II, and a grid metal electrode directly connected with the grid electrode. By the invention, the electrostatic discharge capacity of the laterally diffused metal oxide semiconductor can be improved.
+75. 101908876 Capacitance type touch key system and micro-control unit thereof
+CN
+08.12.2010
+H03K 17/96 Loading...
+H03K 17/96
+Loading...
+201010235749.6
+Sino Wealth Electronic Co., Ltd.
+Jing Yuke
+H03K 17/96
+Loading...
+The invention discloses a capacitance type touch key system and a micro-control unit thereof. The capacitance type touch key system comprises a comparer, a switching circuit and a charging time data processing module, wherein the positive input end of the comparer is coupled with a reference signal; the switching circuit comprises a first logic control switch, a second logic control switch and a third logic control switch, wherein the first logic control switch and the second logic control switch alternately present a closed state and a open state under the same frequency, and the third logic control switch is controlled by the output signal of the comparer; the charging time data processing module is connected with the output end of the comparer through signals; and the negative input end of the comparer is coupled with a charge-discharge capacitance end, is coupled with a power supply end through the first logic control switch and the second logic control switch, is coupled with a grounding end through the third logic control switch and is coupled with a plurality of touch key ends through the second logic control switch. The system has the advantages of simple peripheral circuit and low cost of the circuit and solves the problems of large temperature drift, high cost, complicated regulation and the like of the traditional capacitance type touch key system.
+76. 101908875 Key-judging method for capacitive touch keys
+CN
+08.12.2010
+H03K 17/96 Loading...
+H03K 17/96
+Loading...
+201010235737.3
+Sino Wealth Electronic Co., Ltd.
+Jing Yuke
+H03K 17/96
+Loading...
+The invention discloses a key-judging method for capacitive touch keys, comprising the steps of: setting an entropy coefficient; scanning keys to obtain a count value of the first charging time of a charge and discharge capacitor; dividing the count value of the first charging time into the entropy coefficient to obtain a first relative quantity reflecting the equivalent capacity of a touch key; scanning the keys again to obtain a count value of the second charging time of the charge and discharge capacitor; dividing the count value of the second charging time into the entropy coefficient to obtain a second relative quantity reflecting the equivalent capacity of the touch key; obtaining a difference value between the second relative quantity and the first relative quantity, and judging the keys by utilizing the difference value. In the key-judging method, the keys are judged by obtaining the relative variation quantity of the charging time of the charge and discharge capacitor C1. Therefore, the difference of stray capacitance on a PAD of a PCB cannot influence key judgement. The method is simple in realization and greatly reduces the requirements and the difficulty for PCB and software algorithm treatment.
+77. 101901158 Update method and device of firmware
+CN
+01.12.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010242734.2
+Sino Wealth Electronic Ltd.
+Zhang Qin
+G06F 9/445
+Loading...
+The invention discloses a method and a device for updating a firmware, which can not only be used for updating the firmware under normal condition, but also can be used for repairing and updating the firmware when the system cannot work due to the damage to the firmware. According to the technical scheme, after receiving a host command, a memory card analyzes a host command and if the host command is a defined command, the memory card is forced to enter a firmware update mode and match with a host to update the firmware of the memory card, wherein the defined command is added by a card reader on the basis of a standard memory card command.
+78. 101902215 Four-input terminal comparator
+CN
+01.12.2010
+H03K 5/22 Loading...
+H03K 5/22
+Loading...
+201010242726.8
+Sino Wealth Electronic Ltd.
+Bai Shengtian
+H03K 5/22
+Loading...
+The invention discloses a four-input terminal comparator which is provided with four input terminals. When the comparator is applied to a similar proposal for a plurality of batteries, only one reference source is required, thus saving chip area and cost and improving circuit performance. The technical scheme of the invention is as follows: the comparator is provided with a first MOS, a second MOS, a third MOS and a fourth MOS, wherein the grid electrodes of the first MOS and the second MOS are respectively connected with a first input voltage and a second input voltage, and the source electrodes of the first MOS and the second MOS are respectively connected with a third input voltage and a fourth input voltage; the third MOS and the fourth MOS form a current mirror structure, and the third MOS forms a diode connection mode; and the drain electrode of the third MOS is connected to the drain electrode of the first MOS, the drain electrode of the fourth MOS is connected to the drain electrode of the second MOS, and drain output is taken as output of the comparator.
+79. 101901022 Clock precision adjustment module, method and universal serial bus equipment using same
+CN
+01.12.2010
+G06F 1/14 Loading...
+G06F 1/14
+Loading...
+201010235745.8
+Sino Wealth Electronic Ltd.
+You Wei
+G06F 1/14
+Loading...
+The invention provides a clock precision adjustment module, a method and universal serial bus (USB) equipment using the same. The clock precision adjustment module comprises a clock counter and a precision adjustment controller, wherein the clock counter is connected to a host machine of the USB, and when the host machine of the USB sends a token packet, the clock counter is used for counting the period of a pulse signal and outputting a count value; and the precision adjustment controller is connected to the clock counter and a clock oscillator and is used for receiving the count value and controlling an electronic switch to adjust the frequency of the pulse signal in accordance with the count value. The invention uses the clock precision output by the host machine of the USE to carry out precision dynamic adjustment on the clock oscillator built in the chip of the USB equipment, thereby reducing cost of an external clock oscillator.
+80. 101882467 Memory control device with configurable ECC (Error Correction Code) parameter
+CN
+10.11.2010
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+201010219290.0
+Sino Wealth Electronic Ltd.
+Zhang Jiangan
+G11C 16/06
+Loading...
+The invention discloses a memory control device with a configurable ECC (Error Correction Code) parameter, which can be used for configuring the data block length and the error correction capability of an ECC module within a certain range. The device is internally provided with an ECC code data block length register and an ECC code error correction capability register which are respectively used for storing the data block length and the code error correction of an ECC code. In practical application, a user sets the two registers through a CPU according to the requirement of a flash memory. The memory control device is also provided with a generated multinomial register or a generated multinomial list and an iteration initial value register set or an iteration initial value list, and corresponding encoding and decoding operations are carried out through the generated multinomial register and the iteration initial value register set based on numerical values in the ECC code data block length register and the ECC code error correction capability register so as to meet different requirements on error correction codes of the flash memory.
+81. 101872231 Micro-control processing chip of built-in voltage converter and wireless mouse using same
+CN
+27.10.2010
+G06F 1/26 Loading...
+G06F 1/26
+Loading...
+201010192390.9
+Sinowealth Electronic Ltd.
+You Wei
+G06F 1/26
+Loading...
+The invention provides a micro-control processing chip of a built-in voltage converter and a wireless mouse using the same. The micro-control processing chip comprises a DC-DC converter, a timer, a central processing module, an input and output interface and a timing control module. The DC-DC converter converts a first DC voltage of a battery into a second DC voltage, and the timer outputs a timing signal; the central processing module controls the wireless mouse to enter a power saving mode based on the state of the timing signal; in the power saving mode, the input and output interface outputs a wake-up signal according to the state of an operating member, and the central processing module controls the wireless mouse to enter into an operation mode according to the state of the wake-up signal; and the timing control module controls one of the first DC voltage and the second DC voltage according to the states of the timing signal and the wake-up signal to supply operation voltage for the wireless mouse. The micro-control processing chip and the wireless mouse provided by the invention enhance system integration level, reduce the mechanism costs and can effectively manage power.
+82. 201152971 一种媒体播放装置
+CN
+19.11.2008
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+200720077611.1
+中颖电子(上海)有限公司
+范姜群权
+G06F 11/14
+Loading...
+本实用新型公开了媒体播放装置，可由用户自行解决大部分使用不当或其他原因造成的软件故障，无需返修，节省相关费用和时间。其技术方案为：媒体播放装置，包括USB接口，其中，还包括存储播放器固件的固件模块、备份该播放器固件的备份工具模块、恢复该播放器固件的恢复工具模块以及在与该装置连接的计算机上虚拟出光驱接口的光驱虚拟接口产生模块。本实用新型应用于媒体播放装置领域。
+83. 101196810 Built-in equipment operation method
+CN
+11.06.2008
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200610119357.7
+Zhongying Electronic(Shanghai) Co., Ltd.
+Yan Li
+G06F 9/44
+Loading...
+An embedded equipment operation method is provided. The embedded equipment comprises an input equipment, a state machine and an output equipment. The invention is characterized in that the method comprises the following steps: a. drawing the action process of the embedded equipment into a flow chart; b. drawing the state related with the state machine in the flow chart into a state chart; c. drawing the state and action each component located shown in each state chart into a process chart; d. transforming all icons of the flow chart, the state chart and the process chart into corresponding codes; e. coding and operating the codes on the embedded equipment. The method not only shortens the developing cycle, but also is easy to be transferred between different platforms.
+84. 101169917 Organic illuminated display and its drive method
+CN
+30.04.2008
+G09G 3/30 Loading...
+G09G 3/30
+Loading...
+200610117708.0
+Zhongying Electronic(Shanghai) Co., Ltd.
+Luo Di
+G09G 3/30
+Loading...
+The invention discloses an organic light emitting display and a drive method thereof. The organic light emitting display includes a diagrammatic representation region and a lattice region. The drive method comprises following steps: firstly, adjusting the scan line time of the diagrammatic representation region according to the brightness requirement of the diagrammatic representation region; then adjusting the drive current amount of each diagrammatic pixel in each diagrammatic representation region so as to adjust the display brightness of each diagrammatic pixel in the diagrammatic representation region, wherein the scan line time of the diagrammatic representation region is different from that of the lattice region.
+85. 101101778 Medium format support method and system
+CN
+09.01.2008
+G11B 20/10 Loading...
+G11B 20/10
+Loading...
+200610028716.8
+Sino Wealth Electronic (Shanghai) Ltd.
+Chen Minhong
+G11B 20/10
+Loading...
+This method suits for the handy playing device (HP). It includes: (1) presenting a media form converting program (MFCP) for HP; (2) when HP connects to a media offering device (MO), starting MFCP; (3) When MO receives the instruction which commands MO to store a certain media (CM) into HP, but HP does not support the format of CM, converting this format of CM via MFCP into the format supported by HP; (4) storing the converted CM into HP.
+86. 101030777 Apparatus and method for calibrating realtime clock source
+CN
+05.09.2007
+H03L 7/00 Loading...
+H03L 7/00
+Loading...
+200610058299.1
+Zhongying Electronics (Shanghai) Co., Ltd.
+Fan Haitao
+H03L 7/00
+Loading...
+The method is used for receiving a clock signal at f Hertz and outputting a calibrated clock signal at F Hertz. It comprises: in the first, receiving a reference signal at 1 Hertz and a high frequency signal at NXf Hertz; then, using the reference signal as count value of actual oscillating signal controlled by the switch in t seconds to compared the count value (tXNXF) with error free in t seconds so as to get an error value E; receiving the clock signal; when kXtXN
+87. 1937079 Protection circuit of memory device and memory using same
+CN
+28.03.2007
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+200510104927.0
+Zhongying Electronic Co., Ltd., Shanghai
+Zhu Bingjun
+G11C 16/06
+Loading...
+The invention is related to protective circuit for memory of carrying out programming operation through external high voltage received by common pin, and the memory of using the protective circuit. The memory includes common pin, write circuit, and array of memory unit. The common pin is shared by external power supply in high voltage, and other input/output. The write circuit receives power supply in high voltage in order to program array of memory unit. The disclosed protective circuit is connected between the common pin and the write circuit. When memory is in state of normal operation, the protective circuit is disconnected. When memory is in state for programming operation, the protective circuit is turned to on. Thus, through the common pin and the protective circuit, the write circuit receives external power supply in high voltage.
+88. 1928973 Method for driving passive organic light-emitting diode matrix
+CN
+14.03.2007
+G09G 3/32 Loading...
+G09G 3/32
+Loading...
+200510098326.3
+Sino Wealth Electronic (Shanghai) Ltd.
+Song Baojiang
+G09G 3/32
+Loading...
+The drive method for a passive OLED matrix comprises: according to target pixel gray-scale value, changing into corresponding charge voltage to charge the data line of target OLED; wherein, coupling the OLED with data line of a passive OLED array. This invention has well compensation effect and fit to save energy.
+89. 1921308 Postponing circuit with high electrical-magnetic compatibility
+CN
+28.02.2007
+H03K 5/13 Loading...
+H03K 5/13
+Loading...
+200610099410.1
+Sino Wealth Electronic (Shanghai) Ltd.
+Zhu Bingxun
+H03K 5/13
+Loading...
+The invention relates to a delay circuit with high electromagnetic compatibility. Wherein, said circuit uses dual-capacitor RC delay circuit to replace the RC delay circuit, to disperse the noise strength; and uses dual-conversion point buffer to replace single-conversion point buffer, while the dual-conversion point buffer can provide two reference voltages to improve the output signal quality and overcome noise.
+90. 1873910 Method for fabricating unit of encapsulating system chip through machine
+CN
+06.12.2006
+H01L 21/00 Loading...
+H01L 21/00
+Loading...
+200510073392.5
+Zhongying Electronic (Shanghai) Co., Ltd.
+Zou Min
+H01L 21/00
+Loading...
+The method includes following steps: first, integrating multiple digit control parts with different functions in system to digit chip; next, preparing analog control part of system or control part in high voltage on non-digitization chip; then, defining transmission interface between digit chip and non-digitization chip inside system; finally, packaging digit chip, and non-digitization chip to constitute unit of system.
+91. 1763834 Display driving device and its operating method
+CN
+26.04.2006
+G09G 5/36 Loading...
+G09G 5/36
+Loading...
+200410086017.X
+Sino Wealth Electronic (Shanghai) Ltd.
+Zhang Yanmei
+G09G 5/36
+Loading...
+The invention discloses a display activation device, which comprises the following parts: control circuit, copular activation circuit, storage and sector activation circuit, wherein the control circuit receives and decodes the control signal, which outputs address signal, shift control signal and copular impulse; the copular activation circuit receives the copular impulse and outputs copular activation signal; the storage outputs data signal according to the received address signal; the sector activation circuit receives data signal and shift control signal then does scroll disposal, which outputs the sector activation signal; the shift control signal contains the initiation address and ending address.
+92. 1622329 Integrated circuit chip with built-in high precision frequency oscillator
+CN
+01.06.2005
+H01L 27/00 Loading...
+H01L 27/00
+Loading...
+200310108874.0
+Sino Wealth Electronic (Shanghai) Ltd.
+You Wei
+H01L 27/00
+Loading...
+The present invention provides one kind of IC chip with built-in high-accuracy frequency vibrator. The IC chip with built-in frequency vibrator of the present invention includes: inner circuit for realizing the basic functions of the chip, and inside vibrator circuit connected to the inner circuit for providing inner clock source. The inside vibrator circuit includes: RC vibration circuit comprising resistors and capacitors to generate vibration signal, and frequency regulating circuit connected to the RC vibration circuit for regulating the frequency of vibration signal the RC vibration circuit generates.
+93. 1609756 Integrated circuit with data holding function
+CN
+27.04.2005
+G06F 1/30 Loading...
+G06F 1/30
+Loading...
+200310101999.0
+Zhongying Electronic (Shanghai) Co., Ltd.
+Wang Fei
+G06F 1/30
+Loading...
+The integrated circuit with data maintaining function includes volatile memory, detecting circuit, change-over switch and system controller. The detecting circuit detects the system voltage and compares with the preset voltage value to output detection signal. The change-over switch receives the detection signal and decides whether to cut off the connection between the system power supply and the volatile memory. The system controller decides whether to further access the volatile memory after receiving the detection signal. The volatile memory maintains the stored data on the system power supply when its voltage is higher than the preset voltage value or on the spare power supply when the system power supply voltage is lower than the preset voltage value.
+94. 1609806 Simulator with interfering simulation function and operating method for interfering simulation
+CN
+27.04.2005
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+200310101997.1
+Zhongying Electronic (Shanghai) Co., Ltd.
+Fu Qi
+G06F 11/00
+Loading...
+The simulator with interference simulating function and interference simulating operation process is suitable for the interference simulation of micro controller. The simulator is coupled to computer unit and micro controller, and includes control unit and interference simulating unit. The control unit receives the control signal from the computer unit and produces and outputs interference simulating signal based on the control signal. The interference simulating unit receives the interference simulating signal from the control unit and produces and outputs corresponding interference state signal. The micro controller receives the interference state signal and changes the operation state based on the interference state signal for operation under interference state.
+95. 1571158 Integrated circuit having electromagnetic interference power protection
+CN
+26.01.2005
+H01L 27/00 Loading...
+H01L 27/00
+Loading...
+03141637.3
+Sino Wealth Electronic (Shanghai) Ltd.
+Wang Xiaoyan
+H01L 27/00
+Loading...
+The invention provides an IC with electromagnetic interference power supply protector, adding a protecting circuit in it, and including: interference-generating circuit and logic or analog circuit, and its characteristic: connecting a circuit protecting device in series between them, the resistance of the circuit protecting device is greater than the internal resistance of an external power supply of the IC. The method is simple and almost unable to increase IC cost of manufacture.
+96. 1571275 Integrated circuit having clock electromagnetic interference protection
+CN
+26.01.2005
+H01L 27/00 Loading...
+H01L 27/00
+Loading...
+03150178.8
+Sino Wealth Electronic (Shanghai) Ltd.
+Wang Xiaoyan
+H01L 27/00
+Loading...
+The invention is a time-pulse electromagnetic interference (EMI) protection IC, in the IC, applying a time pulse protection circuit to reduce the EMI effect on the time pulse signal, improving anti-EMI ability of the circuit, making it easy to design product and able to reduce product cost in manufacturing.
+97. 1567712 Method for improving accuracy of resistance-capacitance oscillator
+CN
+19.01.2005
+H03B 5/20 Loading...
+H03B 5/20
+Loading...
+03148366.6
+Sino Wealth Electronic (Shanghai) Ltd.
+Cheng Junjian
+H03B 5/20
+Loading...
+The invention discloses a method of improving resistance-capacitance vibrator precision, after package and final test of a microcontroller is completed, using a programmer of the microcontroller to test and regulate the vibrating frequency generated by the resistance-capacitance vibrator, not only improving the precision of the vibrating frequency but able to save time of regulating the vibrating frequency and cost.
+98. 1553370 Displaying method for phonetic/music player
+CN
+08.12.2004
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+03138334.3
+Zhongying Electronic (Shanghai) Co., Ltd.
+Chen Minhong
+G06F 17/00
+Loading...
+The method uses connected computer to refresh writing file in sound/music player, then searches dot matrix data corresponding to inner code of song data to be played in refreshed writing file and finally displays correctly the found dot matrix data in any language words or drawing.
+99. 1553428 Driving circuit of low-loss electric liquid-crystal displaying panel
+CN
+08.12.2004
+G09G 3/00 Loading...
+G09G 3/00
+Loading...
+03140841.9
+Zhongying Electronic (Shanghai) Co., Ltd.
+Ji Xia
+G09G 3/00
+Loading...
+The drive circuit is control circuit and display circuit coupled to display panel, and drive circuit possesses n+1 drivers, where n is a positive integer greater than or equal to 2. In the invention, n+1 pieces are utilized to generate n levels of bias voltage, and level of bias voltage output from previous drive is as power source of drive in this stage. Thus, the invention uses smaller area of IC chip and saves consumption of external power source.
+100. 1534595 Speech sound change over synthesis device and its method
+CN
+06.10.2004
+G10L 15/00 Loading...
+G10L 15/00
+Loading...
+03116050.6
+Zhongying Electric (Shanghai) Co., ltd.
+Zhang Jiangan
+G10L 15/00
+Loading...
+A speech conversion-composition device is composed of a speech analyzing module, a speech recognizing module, and a speech composing module for outputting particular speech. Its method features that on the basis of analyzed and recognized results, a non-particular speech is converted to the speech of a particular person pointed by user.
+101. 1521710 Display driving method
+CN
+18.08.2004
+G09G 3/04 Loading...
+G09G 3/04
+Loading...
+03115237.6
+Sino Wealth Electronic (Shanghai) Ltd.
+Li Jianying
+G09G 3/04
+Loading...
+The present invention discloses display driving process, wherein the display area of the display is controlled by a common electrode signal and a sectional electrode signal, a common selection signal having a plurality of phase differences and common non-selection signals are combined to produce a common electrode signal and a common sectional electrode signal, the phase difference between which is used to produce the driving voltage with root-mean-square quantity greater than the critical voltage, so as to result in an open state in the display area.
+102. 1517966 Microcontroller with partial display function and its operating method
+CN
+04.08.2004
+G09G 3/36 Loading...
+G09G 3/36
+Loading...
+03100369.9
+Zhongying Electronic (Shanghai) Co., Ltd.
+Cheng Junjian
+G09G 3/36
+Loading...
+A microcontroller with partial display function and its operation method are disclosed. Said microcontroller features that the LCD driver and CPU are integrated in a single controller and a partial display controller is used to control the LCD driver. Its advantage is low electric consumption due to partial display.
+103. 1516190 Fetch circuit of memory element capable of reducing minimum working voltage
+CN
+28.07.2004
+G11C 7/00 Loading...
+G11C 7/00
+Loading...
+03100073.8
+Zhongying Electronics (Shanghai) Co. Ltd.
+Zhu Bingjun
+G11C 7/00
+Loading...
+The present invention relates to a fetch circuit of storage element capable of reducing minimum working voltage. The bit line is connected to drain of storage unit, and the character line is connected to grid of storage unit. Because, the drain of the storage unit can have direct current path when it is fetched, so that it can have larger power consumption, and the grid of the storage unit is capacitor load, so that its power consumption is less, therefore said invention only provides character line high voltage. Because it only has need of lower driving power to drive character line, so that it can utilize other high voltage power supply, also can create a small internal boost-up circuit to supply power so as to reduce working voltage of whole exterior of fetch circuit.
+104. 1510691 Programmable option and method for preventing large-current generation before programm
+CN
+07.07.2004
+G11C 16/06 Loading...
+G11C 16/06
+Loading...
+02159645.X
+Zhongying Electronic (Shanghai) Co., Ltd.
+Sen Jiandong
+G11C 16/06
+Loading...
+The present invention is a programmable option circuit and a method for preventing a large current from producing before the circuit is programmed. In this circuit and method, a programmable data unit records the value of the option, and cooperates with a differential outputting unit to reach the requirements of the low power consumption and the strong anti-interference, wherein the output of the differential outputting circuit is closed before data are not written into the programmable data unit to prevent large current from producing before the circuit is programmed.
+105. 1508971 Static selection circuit with high reliability and cow-power consumption
+CN
+30.06.2004
+H03K 19/00 Loading...
+H03K 19/00
+Loading...
+02158800.7
+Zhongying Electronics (Shanghai) Co., Ltd.
+Zhu Bingjun
+H03K 19/00
+Loading...
+A datum is represented by two programmable data elements in same type, and two load elements are utilized to be as a load and a feedback. Since DC path is not able to generate, thus, the invention reaches target of high reliability and low power consumption.
+106. 1472621 Primary programmable microcontroller for operating under low work voltage
+CN
+04.02.2004
+G06F 1/32 Loading...
+G06F 1/32
+Loading...
+02127591.2
+Zhongying Electronic (Shanghai) Co., Ltd.
+You Wei
+G06F 1/32
+Loading...
+The present invention can lift voltage of power supply up to two times of power supply voltage through boost up circuit in order to let primary programmable read-only-storage work normally and the data exchanging and processing between high voltage signal of the primary programmable read-only-storage and low voltage signal of the other circuits at primary programmable microcontroller can be concluded through electric potential converting circuit so that the entire primary programmable microcontroller can be operated under the power supply voltage.
+107. 1466043 Function and instruction number reduced microprocessor
+CN
+07.01.2004
+G06F 9/22 Loading...
+G06F 9/22
+Loading...
+02123073.0
+Zhongying Electronics (Shanghai) Co., Ltd.
+Wang Xiaoyan
+G06F 9/22
+Loading...
+The ivnention is a function and instruction number simplified microprocessor, including time sequence circuit, program counter, stack circuit, decoding circuit, latching circuit, ALU, accumulator and carry circuit, indirect addressing circuit, interrupt circuit, and list rank jumping storage buffer. It adopts external 16-bit ROM and 4-bit RAM, and the ROM only stores an instruction, which contains operating code and operand, thus simplifying the scale of decoding circuit and address. It only adopts 43 single character sets and single-instruction period, easy to calculate the running time of the program.
+108. 1466364 Software and hardware combined double-tone multi-frequency decoder and operation method thereof
+CN
+07.01.2004
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+02123072.2
+Zhongying Electronics (Shanghai) Co., Ltd.
+Cheng Junjian
+H04M 3/42
+Loading...
+A two-tone multifrequency hard-soft ware combined decoder and its operation method includes an amplifier, analog to digit converter and a central process unit or digit logic circuit. The analog to digit converter processes in analog to digit conversion to the amplified two-tone multifrequency signals. Since the converted signals can preserve spectrum information of two-tone multifrequency signals perfectly, the misdecoding problem in software decoding can be solved when the said signals are decoded by the central process unit or digit logic circuit.
+109. 1457032 Multiwire addressing driving mode of display device
+CN
+19.11.2003
+G09G 3/20 Loading...
+G09G 3/20
+Loading...
+02118953.6
+Zhongying Electronic (Shanghai) Co., Ltd.
+Sun Jun
+G09G 3/20
+Loading...
+The mode uses driving matrix A as line number less than column number to represent a number of common signals, driving vector X to represent a number of segment signals and vector B to represent a number of display data, of which AX=B. The effective voltage difference square value between these common signals of those not selected at this picture time and each of these segment signals is constant value C at any effective period of these common signals within a picture time. That is XtX=C. The present invention can obtain driving matrix A nd driving vector X through the equation of AX=B and XtX=C and they can be used separately as common signal and segment signal for display of liquid crystal display.
+110. 1325134 Voltage convertor for high-voltage signal input in low-voltage manufacture
+CN
+05.12.2001
+H01L 21/77 Loading...
+H01L 21/77
+Loading...
+01113128.4
+Zhongying Electronics (Shanghai) Co., Ltd.
+Zhu Bingjun
+H01L 21/77
+Loading...
+The voltage conversion device capable of directly inputting high-voltage into integrated circuit under the condition of not changing low-voltage production process of integrated circuit comprises a bleeder circuit containing two series resistors and a protective circuit containing two diodes. Under the condition of inputting high-voltage signal with 100V the integrated circuit using said voltage conversion device can normally work still, and its signal response time is less than 1 microsecond.
+

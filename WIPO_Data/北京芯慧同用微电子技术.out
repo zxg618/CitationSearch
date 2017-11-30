@@ -1,0 +1,133 @@
+1. 101727513 Method for designing and optimizing very-long instruction word processor
+CN
+09.06.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810224966.8
+General Circuits (Beijing) Co., Ltd.
+Lu An
+G06F 17/50
+Loading...
+The invention provides a method for designing and optimizing a very-long instruction word processor. The method of the invention comprises the following steps: A, receiving a software code serving as a current software code developed by using a high-level programming language aiming at the specific application, and entering step B; B, cross compiling the current software code to an architecture of the current VLIW processor to generate a machine code of the current software code; and C, when the performance analysis result of the machine code shows that the requirement of the specific application is met, outputting the machine code of the current software code and the architecture of the current VLIW processor, otherwise, performing hardware optimization for the architecture of the current VLIW processor according to the performance analysis result to acquire an optimized architecture of the VLIW processor, using the optimized architecture of the VLIW processor as the architecture of the current VLIW processor, and returning to the step B. The method can realize the development of the VLIW processor facing the final application, improve the system performance of the VLIW processor and reduce the cost of the VLIW processor.
+2. 101727435 Very-long instruction word processor
+CN
+09.06.2010
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200810224965.3
+General Circuits (Beijing) Co., Ltd.
+Lu An
+G06F 15/78
+Loading...
+The invention provides a very-long instruction word processor. The VLIW processor provided by the invention adopts data processing units with uniform interfaces and control modes, is provided with a distributed register file and a data exchange network, adopts VLIW instruction set per se with variable length, and has the capacity of randomly increasing or deleting the data processing units as application required from the application so that a designer can design the VLIW processor facing application according to the architecture of the VLIW processor provided by the invention, and the contradiction that the VLIW processor with a single structure cannot be applied to multiple application demands is avoided.
+3. 101588179 Current steering digital-to-analog converter
+CN
+25.11.2009
+H03M 1/06 Loading...
+H03M 1/06
+Loading...
+200810112182.6
+General Circuits (Beijing) Ltd.
+Zhang Xianju
+H03M 1/06
+Loading...
+The invention discloses a current steering digital-to-analog converter, which comprises a driving buffer and a current source, wherein the current source also comprises a first switching transistor and a second switching transistor, the driving buffer also comprises a first input end, a second input end, a first phase inverter consisting of a first PMOS transistor, a first NMOS transistor and a first transistor, and a second phase inverter consisting of a second PMOS transistor, a second NMOS transistor and a second transistor, a grid of the first switching transistor is connected with a grid of the second transistor and a drain of the first PMOS transistor or the first NMOS transistor, and a grid of the second switching transistor is connected with a grid of the first transistor and a drain of the second PMOS transistor or the second NMOS transistor. The current steering digital-to-analog converter can reduce the fluctuation of nodal voltage between two switching transistors of the current source and burrs of output signals.
+4. 101539958 Method and device for designing standard cell library and integrated circuit
+CN
+23.09.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810102163.5
+Beijing Circuits Micro-electronics Technology Co., Ltd.
+Luo Jin
+G06F 17/50
+Loading...
+The invention discloses a method and a device for designing a standard cell library. The method comprises a step of designing a common standard cell, and also comprises a step of designing a double-edge flip-flop cell, and the step of designing the double-edge flip-flop cell comprises: when determining the type of the standard cell, adding the double-edge flip-flop cell to the standard cell type; designing a schematic diagram of the double-edge flip-flop cell; and designing a diagram of the double-edge flip-flop cell. A mold of the double-edge flip-flop cell is established, and the method for establishing the mold comprises the following steps of: establishing a rising edge comprehensive library and a falling edge comprehensive library for the double-edge flip-flop; and establishing a double-edge flip-flop simulated library for the double-edge flip-flop. The invention also discloses a method and a device for designing an integrated circuit. Due to the method and the device, the rising edge and the falling edge for each jump of the clock signal can serve the logical function of a chip, so that the jumping frequency of the clock, needed to complete the same logical function, is reduced, and the dynamic energy consumption of the circuit is also lowered.
+5. 101526967 Design method and device for standard cell library
+CN
+09.09.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810101589.9
+Beijing XHMicro Technology Co., Ltd.
+Luo Jin
+G06F 17/50
+Loading...
+The invention discloses a design method and a device for a stand cell library. The design method comprises the following steps: a cell height is acquired, i.e. the cell height is acquired according to the size of a single-drive inverter cell and the series connection proportion of transistors; and the cell height is integral multiple of the horizontal wiring space and is larger than or equal to the sum of a first numerical value, a second numerical value and a third numerical value, wherein the first numerical value is the product of the channel width of the N-transistors of the single-drive inverter cell and the series connection proportion of the N-transistors with the maximum series connection series; the second numerical value is the product of the channel width of the P-transistors of the single-drive inverter cell and the series connection proportion of the P-transistors with the maximum series connection series; and the third numerical value is the total length regulated in a design rule. By adopting the invention, the phenomena that the cell size is not matched with a layout structure is greatly decreased; the layout area is reduced; and the design efficiency of the layout is increased.
+6. 101521498 Voltage controlled oscillator
+CN
+02.09.2009
+H03K 3/03 Loading...
+H03K 3/03
+Loading...
+200810101211.9
+Beijing XHMicro Technology Co., Ltd.
+Luo Jin
+H03K 3/03
+Loading...
+The invention discloses a voltage controlled oscillator capable of realizing oscillation during the whole range of voltage control from zero to power voltage. The voltage controlled oscillator comprises a main biasing circuit, a secondary biasing circuit, a ring oscillator, an oscillator generating circuit of a main power supply regulating circuit and a secondary power supply regulating circuit; the secondary biasing circuit outputs secondary biasing voltage to the secondary power supply regulating circuit under the function of voltage control, the secondary power supply regulating circuit is turned on and controls the ring oscillator to generate oscillation signals; the main biasing circuit outputs main biasing voltage to the main power supply regulating circuit under the situation that the control voltage is less than voltage threshold and the main power supply regulating circuit is turned off; the main biasing circuit outputs main biasing voltage to the main power supply regulating circuit when the control voltage is more than or equal to the voltage threshold, the main power supply regulating circuit is turned on and controls the ring oscillator to generate oscillation signals. The oscillator is capable of realizing oscillation during the whole range of voltage control from zero to power voltage and is characterized by high degree of linearity and broadband.
+7. 101499102 Layout designing method and apparatus
+CN
+05.08.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810057543.1
+Beijing Circuits Micro-electronics Technology Co., Ltd.
+Luo Jin
+G06F 17/50
+Loading...
+The invention provides a method and a device for designing territory. The method includes steps as follows: obtaining a distance rule among all figures in the system territory according with a first design rule; converting the distance rule into a second design rule relative with the territory frame; designing each sub-territory in the system territory according with the first design rule and the second design rule; processing rule detection to all sub-territory. The method can process territory splicing design rule detection in a design step of single sub-territory that save process for processing combination splicing detection to territory, increases efficiency for designing territory greatly; at the same time, avoids design rule error caused by territory splicing efficiently, and ensures reliability of the territory thoroughly.
+8. 101498761 Test method for step response performance of phase-locked loop system
+CN
+05.08.2009
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200810057542.7
+Beijing Circuits Micro-electronics Technology Co., Ltd.
+Luo Jin
+G01R 31/28
+Loading...
+The invention discloses a testing method for the step response performance of a phase-locked loop system, aiming at improving the testing precision of the step response performance. The testing method comprises the steps as follows: during the process that the phase-locked loop system steps from one stable oscillating frequency to another oscillating frequency, the waveform of an output voltage signal is recorded; the frequency information of the output voltage signal during the stepping process is obtained according to the waveform; and parameters of the step response performance are obtained according to the frequency information. The invention avoids leading testing parameters from a feedback loop, can not lead noise to an original system and improves the measuring precision.
+9. 101488738 Time clock generating circuit and design method
+CN
+22.07.2009
+H03K 5/151 Loading...
+H03K 5/151
+Loading...
+200810056221.5
+Beijing Vivace Tongyong Microelectronics Technology Co., Ltd.
+Luo Jin
+H03K 5/151
+Loading...
+The invention discloses a clock generating circuit and a design method thereof which comprises the following steps that an input module comprising a dispersion gate and an inverter is built, and a clock signal, which is received by the input module is transmitted into a buffer module and an output module according to an input signal; the buffer module comprising a plurality of inverters is built, and a buffer signal which is received by the buffer module, is generated according to the clock signal; the output module comprising a plurality of inverters is built, and clock signals, which are not mutually overlapped and are received by the output module, are buffered and output according to the clock signal and the buffer signal; a delay module comprising a transfer gate and a PMOS transistor is built, and a delay signal is generated by delaying the clock signal by the delay module, wherein, the output module, the buffer module and the delay module are connected in sequence, and the delay signal generated from the delay module is fed back to the input module as an input signal. Through adopting the clock generating circuit and the design method thereof, the performance of the clock generating circuit is improved and the chip space and the production cost of the chip are reduced.
+10. 101482890 Circuit simulation apparatus and method
+CN
+15.07.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810055858.2
+Beijing Vivace Tongyong Microelectronics Technology Co., Ltd.
+Luo Jin
+G06F 17/50
+Loading...
+The invention provides a circuit simulation device and a circuit simulation method. The device comprises: a noise signal module used for generating a noise signal; a simulation signal module used for generating a first simulation signal; a signal synthesis module used for synthetizing the noise signal and the first simulation signal to generate a second simulation signal; an analog-to-digital conversion module used for processing the analog-to-digital conversion simulation processing. The invention obtains the real and reliable simulation signal via synthetizing the simulation signal of the noise of the testing instrument and the simulation input signal of the Sigma-delta analog-to-digital converter, comprehensively considers various influencing factors of behavioral level circuit simulation, and improves the accuracy of the circuit simulation.
+11. 201141908 一种偏置电压产生装置
+CN
+29.10.2008
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200820078755.3
+北京芯慧同用微电子技术有限责任公司
+罗晋
+G01R 31/28
+Loading...
+本实用新型公开一种偏置电压产生装置，包括：一个固定端子与电源输出端子连接的第一可变电阻器和一个固定端子与电源接地端子连接的第二可变电阻器；所述第一可变电阻器的可变端与所述第二可变电阻器的可变端连接在一起，作为偏置电压输出端。本实用新型不但提高了测试电路板对芯片测试的精度，而且适合各种不同的芯片测试。
+

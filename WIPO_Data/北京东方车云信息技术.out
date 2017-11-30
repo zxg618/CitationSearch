@@ -1,0 +1,817 @@
+1. 106875080 一种派单处理方法及系统
+CN
+20.06.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+102016001180996
+北京东方车云信息技术有限公司
+陈义
+G06Q 10/06
+Loading...
+本发明公开了一种派单处理方法及系统，系统会检测在指定时长内司机端是否听单总数是否超过预设阈值，若是，则检测指定时长内是否存在司机端的接单信息；若不存在，则将司机端置为收车状态；若存在，则维持司机端的状态。也就是说，若是司机端长时间听单，并且未接单，则系统判定该司机端为无效司机端，并将该司机端从平台下线，从而避免了无线订单的派发，提高了派单效率，提升了成单效率，提升了平台的用户体验。
+2. 106875245 一种乘车订单生成方法及装置
+CN
+20.06.2017
+G06Q 30/06 Loading...
+G06Q 30/06
+Loading...
+102016001182653
+北京东方车云信息技术有限公司
+程超
+G06Q 30/06
+Loading...
+本发明公开了一种乘车订单生成方法及装置，该方法包括：客户端通过定位装置获取用户的当前位置，根据当前位置，确定至少一个常用目的地址，在至少一个常用目的地址中确定出当前目的地址，根据当前目的地址以及当前位置，生成乘车订单，将乘车订单发送至服务器。通过上述方法，用户可以直接选择常用乘车地址以及常用目的地址，这样避免用户再次进行位置搜索或者是手动再次输入乘车地址以及目的地址，不仅提升了操作的便捷性，并且也使得系统的成单率提高。
+3. 106843833 一种控制界面显示的方法及装置
+CN
+13.06.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201611180997.9
+北京东方车云信息技术有限公司
+王禹嘉
+G06F 9/44
+Loading...
+本发明公开了一种控制界面显示的方法及装置，该方法包括：获取显示数据，在终端的显示区域显示主界面；获取第一界面与主界面的面积比例值；判断比例值是否大于预设阈值；若是，则调整第二界面的显示参数及第二界面中的界面元素的显示状态；若否，则维持主界面的显示状态。在确定第一界面在订单主界面所占比例较大时，客户端将及时的调整第一界面的比例尺，并且重新生成规划路线，这样在第一界面中可以清晰查看到规划的路线，提升了用户使用体验。
+4. 106843659 一种信息显示方法及装置
+CN
+13.06.2017
+G06F 3/0482 Loading...
+G06F 3/0482
+Loading...
+201611180938.1
+北京东方车云信息技术有限公司
+刘红来
+G06F 3/0482
+Loading...
+本发明公开了一种信息显示方法及装置，该方法包括：在客户端的叫车界面中的动态菜单开启开启时，判定第一功能项的使用频率是否大于等于预设阈值，将第一功能项添加到包含已使用的功能项菜单栏中。通过该方法，叫车界面的菜单栏会显示指定数量内的功能项，这样避免菜单栏中显示过多的功能项，从而减少了用户的操作频繁度，方便用户的操作。
+5. 106850739 一种信息推送方法及系统
+CN
+13.06.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201611174334.6
+北京东方车云信息技术有限公司
+刘巍
+H04L 29/08
+Loading...
+本发明公开一种信息推送方法及系统，该系统包括至少一个管理模块和与该管理模块相连的多个工作模块：所述管理模块，用于实时收集所述多个工作模块的运行状态和负载信息，并根据运行状态和/或负载信息确定从所述多个工作模块中确定目标工作模块，并将多个客户端发送来的请求调度到所述目标工作模块进行处理；所述工作模块，用于与所述客户端建立连接，并将处理所述请求后生成的信息推送至连接的客户端。本发明提供的方法及装置解决现有技术中推送系统影响数据处理的速度，从而导致数据信息处理的时延过大的问题。
+6. 106846038 一种叫车方法及叫车系统、服务端
+CN
+13.06.2017
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201611174350.5
+北京东方车云信息技术有限公司
+孙金萌
+G06Q 30/02
+Loading...
+本发明公开了一种叫车方法及叫车系统及服务端，所述叫车方法包括如下步骤：A.服务端检测乘客端发出的叫车请求是否被司机接单，若已被接单，则结束流程；若未被接单，则进入步骤B；步骤B.服务端根据叫车请求及出车司机的供需情况来计算加价倍率，将所述加价倍率传送至乘客端并获取乘客端发回的对加价倍率的反馈信息，若反馈信息是拒绝加价，则结束流程；若反馈信息是同意加价，则返回步骤A。由于该加价倍率是完全根据叫车请求的信息以及当时当地的司机和乘客的供需关系且由服务端来计算的，且该加价倍率在没有司机接单前是保持一个增加趋势的，通过价格上浮的方式可以激励较远的司机前来接驾，减少了用户叫不到车的情况，从而提高了用户体验。
+7. 106845655 一种数据管理方法及系统
+CN
+13.06.2017
+G06Q 10/02 Loading...
+G06Q 10/02
+Loading...
+201611174356.2
+北京东方车云信息技术有限公司
+刘静
+G06Q 10/02
+Loading...
+本发明公开一种数据管理方法及系统，该方法包括：智能招车系统接收目标用户通过第一手机发送来的入网请求；其中，入网请求中的验证参数包括目标用户所使用车辆的车牌号信息、第一手机的第一SIM卡号码以及唯一标示目标用户的用户标识；接收到待处理的业务请求时，获取业务请求中携带的用户标识；如果确定业务请求为目标用户发送来的，则获取发送业务请求的第二手机的第二SIM卡号码，如果第二SIM卡号码与第一SIM卡号码不相同，则拒绝业务请求。本发明提供的方法和系统解决现有技术中智能招车系统存储大量的垃圾数据，并且运行速度降低的问题。
+8. 106845922 一种车辆投保方法、装置及系统
+CN
+13.06.2017
+G06Q 10/10 Loading...
+G06Q 10/10
+Loading...
+201611182616.0
+北京东方车云信息技术有限公司
+于金海
+G06Q 10/10
+Loading...
+本发明公开了一种车辆投保方法、装置及系统，该方法包括：车辆管理服务器接收司机端发送的投保指令，根据投保指令中的标识信息，调取出标识信息对应的车辆信息，将车辆信息发送至投保服务器，并接收投保服务器返回的保单，将保单发送至司机端。通过该方法，用户不再需要填写复杂的车辆数据信息，而是通过简单的一键操作来完成投保，从而使得用户的投保过程更加的简便，并且使得投保效率得到提高。
+9. 106845656 一种乘车订单处理方法及系统
+CN
+13.06.2017
+G06Q 10/02 Loading...
+G06Q 10/02
+Loading...
+201611182617.5
+北京东方车云信息技术有限公司
+蒋志轩
+G06Q 10/02
+Loading...
+本发明公开了一种乘车订单处理方法及系统，该方法包括：服务器接收订单取消的通知消息；判定订单取消时间与订单中的指定时间之间的差值是否大于等于预设阈值；若差值大于等于所述预设阈值，则检测订单是否符合预设条件；若订单符合所述预设条件，则按照预设执行规则，确定司机端对应的赔付数据，并根据赔付数据修改司机端的总金额。也就是说，在客户端延误无法完成订单的情况下，服务器可以基于司机端的保险情况来对司机端进行对应的赔付，这样可以降低司机端为无法完成订单造成的损失，保证司机端的权益，提升了使用体验。
+10. 106846084 一种信息处理方法及装置
+CN
+13.06.2017
+G06Q 30/06 Loading...
+G06Q 30/06
+Loading...
+201611182618.X
+北京东方车云信息技术有限公司
+武晓方
+G06Q 30/06
+Loading...
+本发明公开了一种信息处理方法及装置，该方法包括：接收派单结果，将一个或多个司机端展示在地图展示界面上。通过该方法用户可以直接在地图展示界面中上选择出用户需要乘坐的车辆，最后服务器将用户的订单派发给用户选择的车辆，从而满足了用户自己选择车辆的需求，提升了用户的使用体验，并且也提升了系统的成单率。
+11. 106846085 一种订单处理方法及装置
+CN
+13.06.2017
+G06Q 30/06 Loading...
+G06Q 30/06
+Loading...
+201611182619.4
+北京东方车云信息技术有限公司
+陈富强
+G06Q 30/06
+Loading...
+本发明公开了一种订单处理方法及装置，该方法包括：调取当前乘车订单之前完成的上一乘车订单中的第二行车数据，获取当前乘车订单中的第一行车数据，调取当前乘车订单之前完成的上一乘车订单中的第二行车数据，根据第一行车结束时间以及第二行车结束时间，得到计算结果；判定计算结果是否大于预设阈值；若是，则将当前乘车订单作为作弊订单，通过该方法可以每次对司机端完成的乘车订单进行作弊检测，从而实时的监测司机端是否存在作弊订单情况，这样有效的拦截大量作弊订单，不仅可以减少平台的资金损失，并且还可以减少作弊订单对专车平台系统的安全性以及稳定性的影响。
+12. 106843834 一种信息处理方法及装置
+CN
+13.06.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201611182620.7
+北京东方车云信息技术有限公司
+郑红涛
+G06F 9/44
+Loading...
+本发明公开了一种信息处理方法及装置，该方法包括：客户端获取服务器发送的标识信息，若所述标识信息与所述皮肤的当前标识信息不同时，则获取指定区域对应的皮肤安装包，并根据皮肤安装包更新应用软件的皮肤；若标识信息与皮肤的当前标识相同时，则维持应用软件皮肤这样可以根据每个客户端的位置确定对应的皮肤安装包，这样可以针对性的下载对应区域的皮肤安装包，减少了流量资源的浪费，并且也减少了皮肤安装包的下载次数，提升了服务器的更新效率，提升了用户使用体验。
+13. 106845773 一种订单派发方法及系统
+CN
+13.06.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201611182651.2
+北京东方车云信息技术有限公司
+高文瑞
+G06Q 10/06
+Loading...
+本发明公开了一种派单方法及系统，通过该方法可以将检测到司机端总数进行归类划分，并且将订单一次派发给一个组，这样按批次派发司机，且满足条件在不派发，对于订单来说，大量地减少了无效司机的派发。
+14. 106846086 一种异常信息检测方法及系统
+CN
+13.06.2017
+G06Q 30/06 Loading...
+G06Q 30/06
+Loading...
+201611182652.7
+北京东方车云信息技术有限公司
+张佳璐
+G06Q 30/06
+Loading...
+本发明公开了一种异常信息检测方法，所述方法包括：获取指定位置区域内的所有第一记录信息，并提取每个所述第一记录信息的轨迹信息，其中，所述指定位置区域为选择出的位置坐标范围；在所述轨迹信息中提取位置特征值；根据所述位置特征值，在所述所有第一记录信息中筛选满足预设相似度的第二记录信息；将所述第二记录信息作为异常信息。
+15. 106844454 一种页面展示方法、装置及电子设备
+CN
+13.06.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201611180998.3
+北京东方车云信息技术有限公司
+周聪
+G06F 17/30
+Loading...
+本发明公开了一种页面展示方法、装置及电子设备，该方法包括：获取上传的素材信息，根据预存素材配置文件，对获取到的素材信息进行校验，当素材信息校验通过时，根据素材信息，生成展示页面，将展示页面推送至客户端。通过该方法实现了基于样式管理对素材信息进行验证以及编辑，从而使得素材信息可以调整为需要展示的内容，这样可以提升素材信息的实用性，并且对于未启用的素材信息还可以随时重新启用，从而提升了素材信息的利用率。
+16. 106845772 一种派单处理方法及系统
+CN
+13.06.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201611180770.4
+北京东方车云信息技术有限公司
+刘宇
+G06Q 10/06
+Loading...
+本发明公开了一种派单处理方法及系统，该系统在基于订单筛选出司机端之后，将基于设定的风控筛选条件对筛选出的司机端进行再次筛选，从而排除具有风险的司机端，从而降低了司机端与客户端之间的作弊可能性，不仅提升了系统的安全性，并且也提升了用户的使用体验。
+17. 106813673 一种位置显示方法及装置
+CN
+09.06.2017
+G01C 21/36 Loading...
+G01C 21/36
+Loading...
+201611180769.1
+北京东方车云信息技术有限公司
+苏梦阳
+G01C 21/36
+Loading...
+本发明公开了一种位置显示方法及装置，该方法包括：客户端接收服务器下发的第一定位点，确定第一定位点与第一行车路径之间的第一垂直距离，若第一垂直距离若大于等于第一阈值并且小于等于第二阈值，则根据第一定位点以及终点生成第二行车路径。简单来说，根据司机端位置以及客户端生成行车路径之后，将通过判定定位点与规划路线之间的距离对定位点进行过滤，从而保证了定位点的准确性，也使得地图界面上更加流畅的显示司机端的位置。
+18. 106713444 一种位置信息呈现方法及服务器
+CN
+24.05.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016001180801
+北京东方车云信息技术有限公司
+刘巍
+H04L 29/08
+Loading...
+本发明公开了一种位置信息呈现方法及服务器，可以通过客户端与司机端之间的位置关联，将司机端的位置信息实时的下发给客户端，从而客户端可以及时的查看到司机端所处的位置，继而提升了用户的使用体验。
+19. 106686073 一种信息处理方法及系统
+CN
+17.05.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016001180802
+北京东方车云信息技术有限公司
+刘彦军
+H04L 29/08
+Loading...
+本发明公开了一种信息处理方法及系统，该方法包括：客户端生成应用程序更新请求，并将更新请求发送至服务器；接收服务器返回的安装包差量的存储地址，根据存储地址，获取安装包差量；根据安装包差量，更新应用程序。也就是说，客户端在需要更新时，只需要下载对应的安装包差量，而不再需要重新下载完整的安装包，这样就为客户端减少了流量损耗，并且也为服务器减少了数据流量，使得软件更新更加的快捷方便，提升了用户的使用体验。
+20. 106447074 一种将订单信息推送给司机客户端的方法、装置及系统
+CN
+22.02.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201610659477.X
+北京东方车云信息技术有限公司
+刘菲
+G06Q 10/04
+Loading...
+本发明实施例提供了一种将订单信息推送给司机客户端的方法、装置及系统，其中方法包括：接收到乘客客户端下发的订单信息时，查找是否存在所述乘客客户端关联的派单偏好信息；当存在时，按照所述派单偏好信息和服务器预设的派单规则，确定出待推送给所述乘客客户端的至少一个司机客户端及各司机客户端的派单优先顺序；所述派单偏好信息优先级高于所述派单规则；按照所述派单优先顺序，将所述订单信息分别推送给确定出的至少一个司机客户端。本发明采用按照派单偏好信息优先向司机客户端推送订单信息的原则，乘客可以优先选择自己喜爱的车辆、司机，满足乘客的个性化需求；提升了订单匹配效率，提高了达成订单成功率。
+21. 106453234 一种身份认证方法及相关服务器和客户端
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610659754.7
+北京东方车云信息技术有限公司
+刘娜
+H04L 29/06
+Loading...
+本发明提供了一种身份认证方法及相关服务器和客户端，上述方法包括：当接收到司机客户端发送的登录请求时，验证所述请求中所包含的请求登录的司机账号与预设的绑定信息是否相匹配；当验证相匹配时，对司机客户端发送的认证密码进行校验，并在校验通过时，允许所述司机账号登录。本发明采用验证司机账号与预设的绑定信息是否相匹配的方式，限制了不合法的司机账号的登录，保证了司机账号与预设的绑定信息的合法关联关系，进而保证了打车服务的质量的同时避免了由于司机账号盗用、作弊等带来的安全性问题，同时也可以从一个侧面督促司机有意识地提升服务质量。
+22. 104794887 在网络租车中利用收藏夹派车的系统和方法
+CN
+25.01.2017
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201410581973.9
+北京东方车云信息技术有限公司
+汤鹏
+G08G 1/00
+Loading...
+本发明涉及在网络租车中利用收藏夹派车的系统和方法，所述系统包括通过移动网络进行交互的乘客客户端、车载终端、提供打车服务的服务器，其特征在于,所述乘客客户端将提供了满意服务的司机收藏到收藏夹；在乘客再次打车时,所述用户客户端向服务器发送打车请求消息；所述服务器在接收到打车请求消息后，筛选出至少一个出租车，并将所述打车请求消息派发至其车载终端；所述车载终端接收所述服务器派发的打车请求,并依据运营情况决定是否接单，如果接单则将接单的消息发送给所述服务器；所述服务器在接收到出所述车载终端的接单消息后,判定如果该车司机在所述乘客的收藏夹内,则将其排在最前发送给乘客客户端。
+23. 106339763 拼车方法、乘客端及服务端
+CN
+18.01.2017
+G06Q 10/02 Loading...
+G06Q 10/02
+Loading...
+102016000662829
+北京东方车云信息技术有限公司
+张健
+G06Q 10/02
+Loading...
+本发明公开了由乘客发起且能自主选择其他拼车乘客的拼车方法、乘客端及服务端。拼车方法，包括：服务端接收第一乘客端发来的拼车发起请求，拼车发起请求中携带有线路信息、时间信息；服务端根据拼车发起请求生成待拼车订单，将待拼车订单发送至第二乘客端，使得第二乘客端用户确定是否加入拼车；若确定加入拼车，服务端接收第二乘客端发来的拼车响应请求；服务端将拼车响应请求发送至第一乘客端，以便第一乘客端的用户确定是否同意第二乘客端用户加入拼车；服务端接收第一乘客端发来的反馈信息，若反馈信息为同意，则第二乘客端用户与第一乘客端用户拼车成功。通过乘客自主发起拼车路线，自主选择拼车人，把选择权留给乘客，实现安全拼车。
+24. 104794885 在网络租车中实现接机打车服务的系统和方法
+CN
+18.01.2017
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201410393588.1
+北京东方车云信息技术有限公司
+汤鹏
+G08G 1/00
+Loading...
+本发明涉及在网络租车中实现接机的系统和方法，所述系统包括车载终端、叫车用户客户端、乘客手机、提供打车服务的服务器以及提供航班查询的系统，其特征在于，所述叫车用户客户端发出包含航班号的接机请求，所述服务器依据所述航班选择合适的出租车并向其车载终端派单，所述车载终端根据其运营情况选择是否接单，服务器将接单出租车的信息发返回到叫车用户客户端，叫车用户选定出租车，服务器生成相应订单并将订单相关的消息发送给出租车和乘客。
+25. 106327064 一种服务端的派单方法及系统
+CN
+11.01.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201610659549.0
+北京东方车云信息技术有限公司
+李小丹
+G06Q 10/06
+Loading...
+本发明公开了一种服务端的派单方法及系统，在获取到指定地址块的客户端的下单时，系统可以获取服务端与指定地址块之间的倾向性数值，该倾向性数值就表征了服务端对该指定地址块的熟悉程度。然后系统可以基于该倾向性数值来对当前所有服务端进行排序，并且指派出倾向性较高的服务端前往指定地址块，这样可以使服务端能够更好的确定客户端的位置，为客户端提供更加便捷的体验。
+26. 106327177 一种账号资源共享方法及系统
+CN
+11.01.2017
+G06Q 20/22 Loading...
+G06Q 20/22
+Loading...
+201610659899.7
+北京东方车云信息技术有限公司
+张平
+G06Q 20/22
+Loading...
+本发明公开了一种账号资源共享的方法及系统，该方法包括：接收任一客户端发出的用车请求，基于用车请求，确定客户端对应的账号类型，若账号类型为家庭账号时，则使用家庭账号资源对客户端的用车请求进行支付。也就是家庭账号绑定账号可以使用家庭账号资源进行支付，从而避免了账号资源受到使用限制，并且利用率较低的问题。
+27. 106323325 一种显示行车动画的方法及装置
+CN
+11.01.2017
+G01C 21/36 Loading...
+G01C 21/36
+Loading...
+201610659898.2
+北京东方车云信息技术有限公司
+马浩然
+G01C 21/36
+Loading...
+本发明公开了一种显示行车动画的方法及装置，该方法包括：通过踩点定位装置采集第一经纬度以及第二经纬度，并确定采集第一经纬度与第二经纬度之间的时间间隔；将时间间隔划分为N等份，根据划分的时间间隔，确定N条行车动画；在第一经纬度以及第二经纬度之间依次显示所述N条行车动画。通过该方法可以采用合理的动画执行时间，因而能够让车辆动画更加连续和平滑，从而提高了用户的体验。
+28. 106302707 一种创建快捷方式的方法及系统
+CN
+04.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000659900
+北京东方车云信息技术有限公司
+张欢
+H04L 29/08
+Loading...
+本发明公开了一种创建快捷方式的方法及系统，所述方法包括：服务器接收App的指定功能模块所需的订单数据，所述服务器将所述订单数据转换到供浏览器展示的指定页面中；基于所述指定页面，创建所述指定功能模块对应的快捷方式。通过本发明所提供的方法，用户能直接调用应用内部指定模块的功能，从而简化用户操作，提高用户体验。
+29. 106289273 一种数据处理方法及系统
+CN
+04.01.2017
+G01C 21/26 Loading...
+G01C 21/26
+Loading...
+102016000659752
+北京东方车云信息技术有限公司
+赵强
+G01C 21/26
+Loading...
+本发明公开了一种数据处理方法及系统，该方法包括：在第一时刻，服务器通过定位装置确定终端设备的第一坐标点；基于固定坐标点与第一坐标点，确定终端设备移动的第一距离值，判定第一距离值是否在第一预设距离范围内；若是，则将第一坐标点作为有效坐标点；若否，则丢弃第一坐标点，并继续获取终端设备的坐标点。本发明在行程开始前就找到点踩点，提高了基础点的有效性。
+30. 106296552 一种自动接单方法、系统及派单服务器
+CN
+04.01.2017
+G06Q 50/30 Loading...
+G06Q 50/30
+Loading...
+102016000659586
+北京东方车云信息技术有限公司
+梁小林
+G06Q 50/30
+Loading...
+本发明公开了一种自动接单方法、系统及派单服务器，派单服务器可以基于服务端上报的偏好行程信息匹配出可以让服务端自动接单的客户订单，并将该客户订单派发至对应的服务端，这样服务端对应用户不再需要进行接单操作，而是服务端直接自动接单，这样不仅提升了派单服务器的派单准确性，并且也提升了成单率。
+31. 106302439 一种数据更新方法、客户端及服务端
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000659590
+北京东方车云信息技术有限公司
+张春生
+H04L 29/06
+Loading...
+本发明公开了一种数据更新方法、服务端及客户端。一种数据更新方法，包括：服务端接收客户端发来的数据更新请求，所述数据更新请求包括客户端的本地数据的版本号；服务端判断客户端的本地数据的版本号与自身存储的最新数据的版本号是否相同，如果相同，服务端向客户端发送数据未改变的通知信息；如果不同，服务端向客户端发送更新数据包，使得客户端对本地数据进行更新。本发明技术方案大大降低了客户端与服务端之间不必要的数据通信，降低了客户端的数据流量的使用量，同时提高了客户端和服务端的工作效率。
+32. 106302706 一种将乘客服务需求信息推送给司机客户端的方法及装置
+CN
+04.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610659457.2
+北京东方车云信息技术有限公司
+张森
+H04L 29/08
+Loading...
+本发明公开了一种将乘客服务需求信息推送给司机客户端的方法，包括：查找预设的乘客客户端对应的乘客服务需求信息；当存在时，根据司机客户端当前服务状态，从所述乘客服务需求信息中选择所述服务状态下推送给司机客户端的乘客服务需求信息；将选择出的乘客服务需求信息推送给司机客户端进行展示。本发明还公开了一种打车系统的服务器。本发明解决了现有技术中不能在不同服务状态向司机客户端推送并显示不同的乘客服务需求信息的问题。
+33. 106296159 一种信息处理系统及方法
+CN
+04.01.2017
+G06Q 20/22 Loading...
+G06Q 20/22
+Loading...
+102016000659591
+北京东方车云信息技术有限公司
+张欢
+G06Q 20/22
+Loading...
+本发明公开了一种信息处理系统及方法，该系统包括：信息接收模块，用于获取个人账户对应的客户端发送的用车请求；界面输出模块，用于基于用车请求，输出用车提示界面；处理模块，用于在接收到集团结算的指令时，使用集团结算账户对个人账户的用车进行结算。也就是说，个人账户用车情况下，可以在集团账户下进行结算，这样结算车费的时候可以直接从集团账户中进行结算，避免了个人账户用车操作步骤非常繁琐，效率较低的问题，并且也可以在集团账户中查询个人账户的用车情况，方便对个人账户的用车情况进行管理。
+34. 106294776 一种数据处理方法及装置
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000659588
+北京东方车云信息技术有限公司
+赵光辉
+G06F 17/30
+Loading...
+本发明公开了一种数据处理方法及装置，该方法包括：获取数据模型类的类名以及属性列表，根据类名以及属性列表，确定数据库表的表名以及数据库表的字段；根据数据库表的表名以及数据库表的字段，生成指定结构化查询语句SQL语句；根据SQL语句对数据库表对应的数据库进操作。通过该方法简化了移动端设备上的数据库操作，提高了开发和调试效率，降低了数据库和数据模型间的耦合。
+35. 106295821 一种订车方法及系统
+CN
+04.01.2017
+G06Q 10/02 Loading...
+G06Q 10/02
+Loading...
+102016000659918
+北京东方车云信息技术有限公司
+孙金萌
+G06Q 10/02
+Loading...
+本发明公开了一种订车方法及系统，该方法包括的：根据服务器下发的热门线路配置参数，生成并显示热门线路推送界面，在检测到对所述热门线路推送界面的操作时，生成客户订单用户，并发送至服务器。简单来讲，用户可以通过客户端推送的热门线路中直接选择一条热门线路，在热门线路中自动设置了起始位置以及目标位置，不再需要用户再去手动设置，可以完成简单直接下单，不仅提升订车效率的提高，也提升了用户使用体验。
+36. 106302708 一种展示页面的方法及系统
+CN
+04.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000659919
+北京东方车云信息技术有限公司
+张晓飞
+H04L 29/08
+Loading...
+本发明公开了一种展示页面的方法及系统，该方法包括：接收服务器基于页面展示请求反馈的页面地址，通过所述页面地址，获取所述页面地址对应的展示页面，在检测到展示页面中的指定操作时，判定所述指定操作是否完，若完成，则回调本地缓存的所述展示页面，并在所述展示页面中添加完成信息，生成新展示页面，并向用户展示所述新展示页面。通过该方法可以通过本地回调页面，并在本地操作完成相应的账户充值时，并回调网页对充值的结果进行网页展示，这样做页面加载需要的网络速度降低，从而提升了页面加载的流畅性，提高了用户体验。
+37. 106254360 出车中接单失败原因分析方法、服务端及接单失败司机端
+CN
+21.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000659622
+北京东方车云信息技术有限公司
+王萍
+H04L 29/06
+Loading...
+本发明公开了一种出车中接单失败原因分析方法及相应的服务端和接单失败司机端，该方法包括：所述服务端根据乘客端选中的司机端信息来确定接单成功司机端和接单失败司机端，并根据接单成功司机端和接单失败司机端的响应信息和用户信息生成分析信息。所述服务端将分析信息发送至接单失败司机端。本发明为了克服现有技术中接单失败司机端不知道自己为何不被乘客选中，从而导致不能针对性地进行改进的缺陷，在乘客选定司机后，还将包括接单失败司机端的信息和接单成功司机端的信息的分析信息发给接单失败司机端。接单失败司机端对应的司机查看分析信息，即可知道自己是哪些方面的原因导致未被乘客选中，从而可以针对性地改进自身的服务。
+38. 106227552 一种应用程序后台长驻的方法及系统
+CN
+14.12.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102016000659232
+北京东方车云信息技术有限公司
+孙紫玲
+G06F 9/44
+Loading...
+本发明公开了一种应用程序后台长驻的方法及系统，该方法包括：当应用程序后台运行时，终端设备将运行使能后台运行定位管理，即使应用程序在后台运行时，应用程序下的经纬度数据还在继续采集，这样后台运行的应用程序将不会被系统收回，从而保证了应用程序在后台长驻的目的，进而解决了现有技术中后台应用程序会被打断并收回，从而无法实现应用程序后台长驻的问题。进而实现了应用程序稳定的后台长驻。
+39. 106228359 司机客户端的账单结算方法、打车系统服务器及相关系统
+CN
+14.12.2016
+G06Q 20/22 Loading...
+G06Q 20/22
+Loading...
+102016000659231
+北京东方车云信息技术有限公司
+刘娜
+G06Q 20/22
+Loading...
+本发明实施例提供了一种司机客户端的账单结算方法、打车系统服务器及相关系统，该结算方法用于打车系统服务器，当接收到司机客户端发送的账单结算请求时，确定乘客客户端账户的余额是否足以支付账单；当乘客客户端账户的余额不足以支付账单时，向乘客客户端推送上述乘客客户端关联的其他可支付账户信息，并提示使用上述其他可支付账户进行充值或支付；并接收上述其他可支付账户发送的充值或者支付请求，从而完成上述账单的支付。本发明实施例提供的方案在结束打车服务时，当乘客账户出现余额不足或扣款失败时，可以推送采用其他可支付账户支付，使账单正常结算，从而顺利完成订单的服务，提升了司机和乘客的使用体验。
+40. 106231143 一种虚拟号码绑定方法及系统
+CN
+14.12.2016
+H04M 3/42 Loading...
+H04M 3/42
+Loading...
+102016000659594
+北京东方车云信息技术有限公司
+孙金萌
+H04M 3/42
+Loading...
+本发明公开了一种虚拟号码绑定方法及系统，该方法包括：在获取到客户端发送的任务单请求时，获取所述客户端的联系号码；根据联系号码，生成虚拟联系号码，并将联系号码与虚拟联系号码绑定；将虚拟联系号码发送至客户端以及服务端。也就是说，客户端与服务端之间使用的是虚拟号码，这样可以避免直接使用客户端的账号，保护了用户隐私信息，提升了整个系统的安全性。
+41. 106231110 司机客户端的离线服务方法、司机客户端及相关系统
+CN
+14.12.2016
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+102016000659209
+北京东方车云信息技术有限公司
+刘娜
+H04M 1/725
+Loading...
+本发明实施例提供了一种司机客户端的离线服务方法、司机客户端及相关系统，该方法包括：监测司机客户端与打车系统服务器之间的网络连接情况；当网络连接中断时，缓存所述司机客户端在此期间的每个业务操作请求，并记录各业务操作请求的触发时间；当网络连接恢复时，根据所述记录各业务操作请求的触发时间，将所缓存的业务操作请求依次上传到打车系统服务器。本发明提供的方案可以让司机在网络中断的环境下，正常显示各种状态及订单费用，在不影响司机任何操作的基础上顺利完成订单的服务，提升了司机和乘客的使用体验。
+42. 106203931 一种出车中防止作弊的方法和出车客户端、服务端
+CN
+07.12.2016
+G06Q 10/08 Loading...
+G06Q 10/08
+Loading...
+102016000659459
+北京东方车云信息技术有限公司
+张森
+G06Q 10/08
+Loading...
+本发明公开了一种出车中防止作弊的方法及出车客户端、服务端，该方法应用于包括提供出车服务的出车客户端、出车客户端对应的移动终端和服务端的系统，包括如下步骤：程序启动时，出车客户端检测移动终端是否被root，若是，则出车客户端退出，结束，若否，则进入步骤出车客户端登录服务端；出车客户端向服务端发送移动终端的定位信息，使得服务端计算出移动终端移动的实时速度；服务端比较实时速度与预先设定的阈值，若大于阈值，则服务端对出车客户端对应的账号信息进行处理。本发明技术方案能有效防止司机通过修改定位信息来作弊。
+43. WO/2016/141710 NETWORK VEHICLE USING SYSTEM FOR REALIZING TWO-WAY SELECTION OF PASSENGER AND DRIVER
+WO
+15.09.2016
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+PCT/CN2015/090729
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G06Q 50/00
+Loading...
+The present utility model relates to a network vehicle using system for realizing two-way selection of a passenger and a driver. The system comprises a passenger client, a driver end device and a vehicle using server which carry out communications through a network, wherein the driver end device is provided with an order selection module for selecting a vehicle using request sent by a passenger; and the passenger client is provided with a driver selection module for selecting a driver who accepts the request. The two-way selection module between a passenger and a driver in the system improves the operation efficiency and the service satisfaction degree of the whole vehicle using system.
+44. WO/2016/127651 VEHICLE USE SYSTEM FOR ADJUSTING TRANSPORT CAPACITY BY USING VEHICLE USE PASSION OF OPERATING AREA
+WO
+18.08.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/090723
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+A vehicle use system for adjusting a transport capacity by using the vehicle use passion of an operating area. The system comprises a passenger end device (3) connected to a wireless network, a driver end device (2), and a transport capacity adjustment server (1). The transport capacity adjustment server (1) counts, according to an operating area, the number of vehicle use requirements with vehicle boarding positions in the operating area emitted by the passenger end device (3) in a period. The transport capacity adjustment server (1) counts, at the same time, the number of vehicles waiting for carriage in the operating area in the period. The transport capacity adjustment server (1) calculates the vehicle use passion of the operating area by using the number of vehicle use requirements and the number of vehicles waiting for carriage, and provides information of an operating area with high passion to the driver end device (2). The passion information instructs carriage vehicles to migrate to a hot spot area from a non-hot-spot area, and accordingly the objective of easing the regional nonuniformity of the transport capacity is achieved.
+45. 105808697 一种基于本地存储的数据预加载方法
+CN
+27.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610121963.6
+北京东方车云信息技术有限公司
+潘大博
+G06F 17/30
+Loading...
+本发明涉及一种基于本地存储的数据预加载方法，所述方法包括如下步骤，将应用运行时需要加载的数据生成预加载对象；将所生成的预加载对象存储到数据库文件中；将上述数据库文件连同应用一起打包；运行所述应用时直接从上述数据库文件中加载对象。
+46. WO/2016/090993 ELECTRONIC FENCE SYSTEM FOR NETWORKED CAR RENTAL
+WO
+16.06.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/090702
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+Disclosed is an electronic fence system for networked car rental, comprising a vehicle-mounted terminal (2) and an electronic fence monitoring server (1) which are mutually connected via a wireless mobile network. The vehicle-mounted terminal (2) has a positioning function. The electronic fence monitoring server (1) has geographic information covering a taxi operating area. In the system, the electronic fence monitoring server (1) can set up an electronic fence at the boundary of a certain specific operating area of taxis using the geographic information, and the electronic fence monitoring server (1) can obtain the position of the vehicle-mounted terminal (2) via the mobile network. When the electronic fence monitoring server (1) determines that a certain vehicle-mounted terminal (2) has passed the set electronic fence according to the position of the vehicle-mounted terminal (2), the server sends a message indicating that the vehicle-mounted terminal (2) has entered or exited from the fence. The electronic fence system can provide support for billing of taxis based on the operating area and can also provide support for safety monitoring or traffic control monitoring of a driving area of the taxis.
+47. WO/2016/078476 SYSTEM FOR JUDGING WHETHER PASSENGER GETS INTO OR OUT OF CAR WHEN RENTING CAR VIA NETWORK
+WO
+26.05.2016
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+PCT/CN2015/090691
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G06Q 10/00
+Loading...
+Provided is a system for judging whether a passenger gets into or out of a car when renting the car via a network. The system comprises a vehicle-mounted terminal, a passenger client and a server for judging whether a passenger gets into or out of a car which are connected to one another via a mobile network, wherein the vehicle-mounted terminal and the passenger client both have a positioning function. In the system, according to the time of acceptance for carriage in an order, the server determines a time period for tracking a passenger getting into or out of a car. In this time period, if the distance between the position of the passenger client and the position of the vehicle-mounted terminal is less than a set threshold for getting into a car at a certain moment, it is judged that the passenger gets into the car at this moment; and after it is judged that the passenger has gotten into the car, if the distance between the position of the passenger client and the position of the vehicle-mounted terminal is greater than a set threshold for getting out of a car at a certain moment, it is judged that the passenger has gotten off the car at this moment. The system can accurately and objectively judge the time and place when and where the passenger gets into or out of a car, thereby avoiding the deviation caused by manually setting the place where the passenger gets into or out of the car.
+48. WO/2016/074538 SENT ORDER RANKING SYSTEM AND METHOD FOR REDUCING NO-LOAD RUNNING AND WAITING TIME IN ONLINE TAXI RENTING
+WO
+19.05.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/090686
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+A sent order ranking system and method for reducing the no-load running and waiting time in online taxi renting. The system comprises an in-vehicle terminal, a passenger client, and a server for pushing a sent order. The passenger client sends a taxi taking request message comprising a taxi taking time, a start address, and a destination address of a passenger to the server. The server generates an order sending message according to the received taxi taking request message and information such as the distance between a taxi and the start address of the passenger, the road condition, and whether the taxi is in a no-load running state and on the basis of the taxi taking request message, and pushes the order sending message to at least one screened taxi. After receiving the order sending message, the in-vehicle terminal determines, according to a received sent order, a current position, and the no-load running and waiting time among already-taken orders, an invalid work time equivalent value of the sent order, and ranks the sent order according to the invalid work time equivalent value.
+49. WO/2016/066000 SYSTEM AND METHOD FOR SENDING TAXI BY USING FAVORITES IN ONLINE TAXI RENTING
+WO
+06.05.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/090655
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+A system and method for sending a taxi by using favorites in online taxi renting. The system comprises: a passenger client (2), vehicle-mounted terminals (1a, 1b, 1c, 1d), and a server (3) providing a taxi hailing service, all of which interact through a mobile network. The passenger client (2) adds drivers providing satisfactory service to the favorites. The passenger client (2) sends a taxi hailing request message to the server (3) when the passenger hails a taxi again. After receiving the taxi hailing request message, the server (3) selects at least one taxi and distributes the taxi hailing request message to the vehicle-mounted terminals (1a, 1b, 1c, 1d) of the selected taxies. The vehicle-mounted terminals (1a, 1b, 1c, 1d) receive the taxi hailing request distributed by the server (3) and decide whether to take the order according to the status of operation, and the vehicle-mounted terminals (1a, 1b, 1c, 1d) each send an order taking message to the server (3) if the vehicle-mounted terminals (1a, 1b, 1c, 1d) decide to take the order. After receiving the order taking messages from the vehicle-mounted terminals (1a, 1b, 1c, 1d), if the server (3) judges that the driver of the taxi is in the favorites of the passenger, the server (3) ranks the corresponding driver on the top and sends the driver to the passenger client (2).
+50. WO/2016/023434 SYSTEM AND METHOD FOR IMPLEMENTING MEET-AND-GREET TAXI HIRING SERVICE IN ONLINE TAXI HIRING
+WO
+18.02.2016
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+PCT/CN2015/086089
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+H04W 4/02
+Loading...
+A system and method or implementing meet-and-greet in online taxi hiring. The system comprises onboard terminals (1a, 1b, 1c, and 1d), a client (1) of a taxi-hailing user, a passenger mobile phone (3), a server (4) providing a taxi hiring service, and a system (5) for flight query and is characterized in that: the client of the taxi-hailing user transmits a meet-and-greet request comprising a flight number, the server (4) selects suitable taxis on the basis of the flight and transmits to the onboard terminals (1a, 1b, 1c, and 1d) a booking, the onboard terminals (1a, 1b, 1c, and 1d) choose on the basis of operating conditions thereof whether or not to accept the booking, the server (4) returns information of the taxis accepting the booking to the client (1) of the taxi-hailing user, the taxi-hailing user selects a taxi, and the server (4) generates a corresponding order and transmits an order-related message to the taxi and a passenger.
+51. WO/2016/023435 TAXI OPERATING AREA FAMILIARITY-BASED DISPATCHING SYSTEM AND METHOD IN ONLINE TAXI HIRING
+WO
+18.02.2016
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+PCT/CN2015/086090
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G06Q 10/06
+Loading...
+Taxi operating area familiarity-based dispatching system and method in online taxi hiring. The system comprises an onboard terminal, a passenger client, and a dispatch-implementing server. The passenger client transmits to the server a taxi hiring request message, where the message comprises an origin address and a destination address of a passenger; the server receives the taxi hiring request message coming from the passenger client and determines, on the basis of the origin address and the destination address in the request message, a degree of match between an operating area of the request and an operating area with which a taxi is familiar; then, the server sorts taxis by utilizing the degree of match and considering other related information and filters out at least one taxi according to the sorted order; then, the server generates from the taxi hiring request message a dispatch message and pushes same to an onboard terminal of the at least one taxi filtered out; and, the onboard terminal receives the dispatch message and determines whether or not to accept the dispatch on the basis of operating conditions.
+52. WO/2016/023433 SYSTEM AND METHOD FOR TAXI FARE ESTIMATION IN ONLINE TAXI HIRING SYSTEM
+WO
+18.02.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/086088
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+A method and system for implementing taxi fare estimation in an online taxi hiring system. The system comprises a passenger client (1), an electronic map service system (2), and a server (3) providing a fare estimation function. The passenger client accesses the electronic map service system via an electronic map client and acquires road sections between the origin and destination of a taxi ride and the travel distances and traveling speeds on the road sections (S1001); a fare estimation request message is transmitted to a fare estimation server on the basis of the described data and of a selected car model (S1002); when the fare estimation request message is received by the server, same revises the traveling speed data of the road sections and respectively estimates a travel time for each road section (S1003); the server estimates a taxi fare on the basis of the car model, the estimated travel times, and the travel distances (S1004); and, the server returns a result of the calculation to the client (S1005).
+53. WO/2016/008390 PASSENGER TAXI-HIRING HISTORY DATA-BASED SYSTEM AND METHOD FOR CORRECTING BOARDING LOCATION ON ELECTRONIC MAP
+WO
+21.01.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/083837
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+The present invention relates to a passenger taxi-hiring history data-based system for correcting a boarding location on an electronic map. The system comprises an electronic map client connected via a mobile internet and a server storing passenger taxi-hiring history data. The electronic map client is capable of making preliminary positioning on the basis of information received thereby. The server storing passenger taxi-hiring data stores passenger boarding location history data. The system is characterized in that it also comprises a boarding location correction component. The component utilizes the passenger boarding location history data to correct a current boarding location in the electronic map client. The present invention also relates to a method for using said system in correcting a boarding location on an electronic map.
+54. WO/2016/008391 METHOD AND SYSTEM FOR BOOKING TAXI FOR THIRD PARTY IN ONLINE TAXI HIRING SYSTEM
+WO
+21.01.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+PCT/CN2015/083838
+BEIJING ORIENTAL CARRING INFORMATION TECHNOLOGY CO., LTD.
+TANG, Peng
+G08G 1/00
+Loading...
+The present invention relates to a method and system for booking a taxi for a third party in an online taxi hiring system, where a passenger and a taxi-hailing user are different persons. The related system comprises a taxi-hailing user client, a passenger mobile phone, at least one driver-side onboard terminal, and a server providing a taxi hiring service. The method comprises: the taxi-hailing user client, by interacting with the server, issues a request message for booking a taxi for a third party; the server, by interacting with the onboard terminals on taxis, provides taxis accepting the booking; when a taxi is selected by the taxi-hailing user for the passenger, the server generates an order and notifies the taxi being selected and the passenger.
+55. 104866959 一种在网络用车系统中使用TF-IDF评估承运车辆与地域相关性的方法
+CN
+26.08.2015
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201510245529.4
+北京东方车云信息技术有限公司
+汤鹏
+G06Q 10/06
+Loading...
+本发明涉及一种在网络用车系统中使用TF-IDF评估承运车辆与地域相关性的方法，所述方法包括如下步骤：将承运车辆的运营区域划分为多个区块Bi；在给定的一个时间段内，统计出参与运营的承运车辆总数S，对任一区块Bi，统计出曾经以其作为运营起点或终点的承运车辆数目Ni，计算出区块Bi的IDFi＝log(S/Ni)；对每个承运车辆j，统计出其总的运营次数nj和区块Bi作为其运营起点或终点的次数ni，j，计算出区块Bi在承运车辆j中的TFi，j＝ni，j/nj；那么，承运车辆j与区块Bi的相关度Ri，j＝TFi，j＊IDFi。
+56. 204288512 用于网络租车的电子围栏系统
+CN
+22.04.2015
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201420777933.7
+北京东方车云信息技术有限公司
+汤鹏
+G08G 1/00
+Loading...
+本实用新型涉及用于网络租车的电子围栏系统，所述系统包括无线移动网络相互连接的车载终端和电子围栏监控服务器，该车载终端具有定位功能，该电子围栏监控服务器具有覆盖出租车运营区域的地理信息，在所述系统中，所述电子围栏监控服务器可以利用地理信息在出租车的某些特定运营区域的边界上设定电子围栏,并且所述电子围栏监控服务器可以通过移动网络获取车载终端的位置；当所述电子围栏监控服务器依据车载终端的位置判定某车载终端越过其设定的电子围栏时,所述服务器发出该车载终端进入或驶出该围栏的消息。所述电子围栏系统可以为出租车按运营区域计费提供支持，也可以为出租车行驶区域安全性监控或交通管制监控提供支持。
+57. 204242224 在网络租车中判断乘客上下车的系统
+CN
+01.04.2015
+G06Q 10/02 Loading...
+G06Q 10/02
+Loading...
+201420708873.3
+北京东方车云信息技术有限公司
+汤鹏
+G06Q 10/02
+Loading...
+本实用新型涉及在网络租车中判断乘客上下车的系统，所述系统包括通过移动网络相互连接的车载终端、乘客客户端和判断乘客上下车的服务器，所述车载终端和乘客客户端都具有定位功能，在所述系统中，所述服务器根据订单中的承运时间确定追踪乘客上下车的时间段,在该时间段内,如果在某时刻乘客客户端的位置与车载终端的位置距离小于设定的上车阈值,则判定乘客在该时刻上车；在判定乘客上车之后，如果在某时刻乘客客户端的位置与车载终端的位置距离大于设定的下车阈值,则判定乘客在该时刻下车。该系统可以来准确和客观地判定乘客上下车的时间和地点，避免手动设定上下车地点的偏差。
+58. 104008643 Order response device and system
+CN
+27.08.2014
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201410250555.1
+北京东方车云信息技术有限公司
+王柏
+G08G 1/00
+Loading...
+The embodiment of the invention provides an order response device and system. The order response device comprises a response signal generation module, a wireless module and a power module. After the response signal generation module generates a corresponding order accepting or rejecting signal according to the operation of a user, the order accepting or rejecting signal is sent to a vehicle-mounted terminal of a driver side through the wireless module, and thus the vehicle-mounted terminal can be remotely operated. Through the mode, the danger caused when a driver needs to select corresponding option buttons on the vehicle-mounted terminal by fingers when responding to an order in the prior art is avoided so that the driver can concentrate on driving in the driving process and meanwhile achieve order accepting or rejecting operation fast and safely, and safety of the driver and passengers is guaranteed.
+59. 103680134 Method, device and system of providing taxi calling service
+CN
+26.03.2014
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201310751822.9
+BEIJING DONGFANGCHEYUN INFORMATION TECHNOLOGY CO., LTD.
+TANG PENG
+G08G 1/00
+Loading...
+The embodiment of the invention provides a method, a device and a system of providing a taxi calling service. The method comprises the following steps of pushing a taxi calling service order carrying voice taxi calling request information to a vehicle-mounted terminal on at least one driver side which conforms to setting conditions, wherein the voice taxi calling request information comprises departure place information and destination information of a passenger; receiving voice response information returned from the vehicle-mounted terminal on the driver side; when a content of the voice response information is identified to affirm to receive the order, returning taxi calling service order success information to a passenger client. By adopting a method of receiving the voice order through the vehicle-mounted terminal on the driver side, the problems of potential traffic danger and inconvenience for a taxi driver, which are caused by conventional taxi calling software in a using process, can be solved.
+60. 103680135 Method, device and system of providing taxi calling service
+CN
+26.03.2014
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201310751986.1
+BEIJING DONGFANGCHEYUN INFORMATION TECHNOLOGY CO., LTD.
+WANG BAI
+G08G 1/00
+Loading...
+The embodiment of the invention provides a method, a device and a system of providing a taxi calling service. The method comprises the following steps of receiving voice taxi calling request information and initial address information of a passenger which are transmitted by a passenger client; generating a taxi calling service order according to the voice taxi calling request information and the initial address information, pushing the order to a vehicle-mounted terminal on at least one driver side which conforms to setting conditions; when order receiving information returned from the vehicle-mounted terminal on the driver side is received, returning taxi calling service order success information to the passenger client. By adopting a method of voice taxi calling through the passenger client, the problems of inconvenience and lower efficiency for a user as the passenger, which are caused by the conventional taxi calling software in a using process, can be solved.
+61. 202310104 一种打车难易度评估系统
+CN
+04.07.2012
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201120407856.2
+北京东方车云信息技术有限公司
+汤鹏
+H04W 4/02
+Loading...
+本实用新型公开了一种打车难易度评估系统，包括：移动终端(1)和处理服务器(2)，移动终端(1)与处理服务器(2)无线连接。本实用新型通过利用处理服务器将网友的评论数据进行聚合处理及计算打车难易度指数，从而在用户需要查询某地点的打车难易度时，可以利用移动终端直接发送查询请求，响应服务器自动返回用户所在地点的打车难易度指数，因此用户根据所返回的所在地点的打车难易度指数可以直接了解该地点的打车难易度，从而为用户节省了盲目等待车辆的时间。据大量数据统计表明，采用本实用新型后，用户的打车效率提高了14-20％。
+62. 102509449 基于模糊决策的车辆调度方法
+CN
+20.06.2012
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110325481.X
+北京东方车云信息技术有限公司
+汤鹏
+G08G 1/00
+Loading...
+本发明公开了基于模糊决策的车辆调度方法，所述方法包括以下步骤：S1，对候选车辆进行排期过滤；S2，对上述过滤后的候选车辆进行有效距离过滤；S3，利用贝叶斯信度网络筛选最有可能接单的车辆。本发明通过对候选车辆根据客观条件进行排除即根据车辆自身的排期及车辆与上车地点的距离进行排除后，对剩余的候选车辆司机的接单意愿利用贝叶斯信度网络进行概率计算，筛选出最有可能接单的车辆，再对筛选出的最有可能接单的车辆进行轮询，这样就使得轮询更有针对性，大大提高了接单的概率，节省了对另外那些不太可能接单的候选车辆的轮询的时间。据大量数据统计表明，采用本发明后，对候选车辆进行轮询，接单的概率提高了10～15％。
+63. 102495941 一种打车难易度评估方法及系统
+CN
+13.06.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110325375.1
+北京东方车云信息技术有限公司
+汤鹏
+G06F 19/00
+Loading...
+本发明公开了一种打车难易度评估方法及系统，所述方法包括以下步骤：S1，获取评论数据；S2，对所获取的评论数据进行聚合处理并计算打车难易度指数；S3，根据用户的请求返回用户所在地点的打车难易度指数和评论的内容。本发明通过将网友的评论打分数据进行聚合处理及计算打车难易度指数，从而方便用户直接通过移动终端获取其所在地点的打车难易度指数，了解该地点的打车难易程度。如果该地点较难打到车，那么用户可以行至别的区域，查询其所在地点的打车难易度指数，最终可实现用户在较容易打到车的地点上车，从而为用户节省了盲目等待车辆的时间。据大量数据统计表明，采用本发明后，用户的打车效率提高了15-20％。
+64. 202150151 一种实现汽车租赁业务的系统
+CN
+22.02.2012
+G07F 17/00 Loading...
+G07F 17/00
+Loading...
+201120033096.3
+北京东方车云信息技术有限公司
+叶一火
+G07F 17/00
+Loading...
+本实用新型公开了一种实现汽车租赁业务的系统，包括后台服务器、数据库服务器、用户终端设备、车辆智能终端和呼叫中心服务器；还包括设于后台服务器上的订单预估模块，用于规划静态路网中车辆行驶最短路程时的行驶路径、并计算车辆预估行驶时间；系统优化模块，用于对静态路网情况下得到的行驶路径和车辆预估行驶时间进行调整优化，得到新的行驶路径和车辆预估行驶时间；参数生成模块，用于离线计算生成历史调优参数；还包括设于数据库服务器上的信息存储模块，用于存储用户订单信息及车辆信息；还包括设于车辆智能终端上的信息采集模块，用于实时地采集车辆信息；本实用新型能够实现汽车租赁业务，同时能够降低车辆的空驶率，减少资源浪费。
+65. 102176264 Method and system for realizing car rental business
+CN
+07.09.2011
+G07F 17/00 Loading...
+G07F 17/00
+Loading...
+201110033046.X
+Beijing Dongfangcheyun Information Technology Co., Ltd.
+Ye Yihuo
+G07F 17/00
+Loading...
+The invention discloses a method and system for realizing a car rental business. The method comprises the following steps: a user receives a car service through a website, a call center or a mobile terminal; a service system obtains the information of user orders and cars for datamation of information in a car service process; the service system pre-estimates the running time and running path according to the data of user orders; and the running time and running path are re-calculated by combining historical data of the system to obtain a dispatching scheme. The method and system for realizing the car rental business, disclosed by the invention, can realize the car rental business, and can reduce the unloaded rate of the cars and waste of resources simultaneously.
+66. 201917944 一种智能调度车辆的系统
+CN
+03.08.2011
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+201120003730.9
+北京东方车云信息技术有限公司
+叶一火
+G06Q 50/00
+Loading...
+本实用新型公开了一种智能调度车辆的系统，它包括：智能终端、web服务器、呼叫中心服务器和客户端，web服务器与智能终端、呼叫中心服务器和客户端连接；包括智能终端上的：发送模块；包括web服务器上的：实时数据采集模块，与发送模块连接；匹配模块，与数据采集模块连接；通知模块；包括呼叫中心服务器上的：订单接收模块；还包括设置在客户端上的：显示模块一；选择模块。本实用新型通过掌握车辆的实时数据信息，并将乘客订单与车辆的实时数据信息相匹配，再选择相应的车辆派出，从而降低了车辆的空驶率，减少了资源浪费，降低了运输成本。据大量数据统计表明，采用本实用新型后，车辆的运输成本降低了60％。
+67. 102081786 Vehicle scheduling method and system
+CN
+01.06.2011
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+201110033034.7
+Beijing East Chenyuan Information Technology Co., Ltd.
+Ye Yihuo
+G06Q 50/00
+Loading...
+The invention discloses a vehicle scheduling method and system. The method comprises the following steps: S1, calculating an estimated vehicle driving time and a driving path in the case of shortest driving distance of the vehicle in a static road network according to the user order data; S2, in combination with the historical adjustment and optimization parameter of the system, performing further adjustment and optimization on the estimated vehicle driving time and driving path obtained under the conditions of the static road network, and generating a scheduling scheme; S3, storing the user order data and the distance information of the vehicle into a system database; and S4, calculating to generate a new historical adjustment and optimization parameter by the system in an offline manner. According to the invention, single order optimization in the static road network is combined with the system optimization, and the existing uncontrollable factors are completely considered, thus the vehicle scheduling efficiency can be improved and the vehicle unloaded rate can be reduced; and moreover, according to the invention, sudden events can be preferentially disposed in real time, and bad influence of the sudden events on vehicle scheduling is remarkably reduced.
+68. 102063691 Method and system for intelligently scheduling vehicles
+CN
+18.05.2011
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+201110002690.0
+Beijing East Chenyuan Information Technology Co., Ltd.
+Ye Yihuo
+G06Q 50/00
+Loading...
+The invention discloses a method and a system for intelligently scheduling vehicles. The method comprises the following steps of: S1, acquiring real-time data information transmitted by intelligent terminals of vehicles by a web server; S2, receiving order information of passengers by a calling center server; S3, matching the order information of the passengers with the real-time data information of the vehicles by the web server; and S4, selecting the vehicles and informing drivers of the selected vehicle from the matching result information. According to the invention, by grasping the real-time data information of the vehicles, matching the orders of the passengers with the real-time data information of the vehicles and selecting and dispatching corresponding vehicles, the empty-loaded rate of vehicles can be reduced, the resource waste can be reduced, the transportation cost can be reduced and the demand for the outgoing of people can be met to a greater degree. Shown by a large amount of data statistics, the transportation cost of the vehicle is reduced by 60 percent by adopting the invention.
+

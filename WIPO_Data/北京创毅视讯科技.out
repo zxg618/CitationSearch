@@ -1,0 +1,2401 @@
+1. 103365687 处理器启动方法、装置及提供初始程序装入程序的装置
+CN
+08.02.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+102013000264278
+北京创毅讯联科技股份有限公司
+刘旭明
+G06F 9/445
+Loading...
+本发明实施例公开了一种处理器启动方法、装置及提供IPL的装置，以解决处理器启动时加载并执行任意IPL，对系统安全性造成影响的问题。所述方法包括：处理器读取提供方生成的预加载IPL中SBH中的公钥，并生成与公钥对应的第二公钥摘要值；当第二公钥摘要值与预存的第一公钥摘要值相同时，通过公钥对SBH中的摘要密文进行解密操作，得到第一IPL摘要值；生成预加载IPL中程序代码的第二IPL摘要值；当第一IPL摘要值与第二IPL摘要值相同时，执行预加载IPL使得处理器启动。本发明实施例在处理器启动过程中，进行两次比较的过程，分别为公钥摘要值的比较和IPL摘要值的比较。增加了比较的过程，提高了系统的安全性。
+2. 103716837 一种选择承载的方法和LTE基站
+CN
+25.01.2017
+H04W 28/06 Loading...
+H04W 28/06
+Loading...
+102013000693695
+北京创毅视讯科技有限公司
+王伯岭
+H04W 28/06
+Loading...
+本发明提供了一种选择承载的方法和LTE基站，其中，选择承载的方法包括：LTE基站接收核心网服务网关传输的通用分组无线业务隧道协议数据包；从所述通用分组无线业务隧道协议数据包的包头中获取隧道标识；所述隧道标识包括：S1接口用户标识、承载标识以及隧道类型指示信息，其中，所述S1接口用户标识用于唯一标识S1接口的用户设备，所述承载标识用于标识所述用户设备的承载，所述隧道类型指示信息用于指示S1接口隧道的类型；依据所述S1接口用户标识、所述承载标识以及所述隧道类型指示信息，选择承载以进行数据发送。通过本发明，避免了为用户平面的处理带来额外的处理开销的同时，还提高了数据的处理效率。
+3. 103617124 一种闪存管理方法和装置
+CN
+25.01.2017
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+102013000612810
+北京创毅视讯科技有限公司
+王存友
+G06F 12/02
+Loading...
+本发明实施例公开了一种闪存管理方法和装置，以解决SPI Flash寿命低的问题。所述方法包括：对目标数据进行分段得到各目标数据段；计算各目标数据段的数据校验值；针对各目标数据段中的每一段目标数据段，当目标数据段的数据校验值与目标数据段的对应子块的数据校验值不同时，确定对应子块的可用子块，并将目标数据段的数据写入可用子块；子块为闪存中的存储单元，多个子块组成一个块；当目标数据段的数据校验值与目标数据段的对应子块的数据校验值相同时，保持对应子块的数据不变。本发明实施例只在目标数据与当前数据不同的情况下，对相关的子块进行处理和写入操作，减少了不必要的子块操作，延长SPI Flash的使用寿命。
+4. 103714033 数据处理方法和装置
+CN
+11.01.2017
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+102013000753237
+北京创毅视讯科技有限公司
+邸忠辉
+G06F 13/38
+Loading...
+本发明提供了一种数据处理方法和装置，其中，数据处理方法包括：接收用户设备发送的数据包；将数据包中的数据按照第一设定规则复制到任务控制块中，并将任务控制块中的数据设定为完成状态；调用USB接口向USB数据卡发送任务控制块中的数据，同时继续接收用户设备发送的其他数据包，并将数据按照第一设定规则分别复制到其他任务控制块中，将其他任务控制块组织成待发送任务控制块链表；在设定为完成状态的任务控制块中的数据发送完成后，对待发送任务控制块链表中的各个任务控制块中的数据进行组包；调用USB接口发送组包后的数据至USB数据卡。通过本发明，避免了USB总线的传输效率不能得到充分利用，USB数据传输速率低的问题。
+5. 103685095 一种实现邻道干扰抑制的方法和装置
+CN
+04.01.2017
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+102013000701661
+北京创毅视讯科技有限公司
+胡长俊
+H04L 25/02
+Loading...
+本发明公开了一种实现邻道干扰抑制的方法和装置；其中所述方法包括：检测接收到的信号中的邻道干扰信号强度；根据检测到的所述邻道干扰信号强度对滤波器进行参数配置；利用所述参数配置后的滤波器对所述接收到的信号进行滤波处理，滤除所述接收到的信号中的邻道干扰信号。采用本发明所述实施例的方法和装置，能够减少滤波器本身对有用信号的衰减，同时也尽可能的实现了对邻道干扰信号的抑制，改善了接收器在强干扰环境下的接收效果。
+6. 103476032 一种LTE企业网中分组用户设备间的通信方法和系统
+CN
+28.12.2016
+H04W 12/08 Loading...
+H04W 12/08
+Loading...
+102013000382019
+北京创毅讯联科技股份有限公司
+张辉
+H04W 12/08
+Loading...
+本发明实施例提供了一种LTE企业网中分组用户设备间的通信方法和系统，以解决现有的LTE企业网中不同公司或组织的用户设备可以相互通信，存在数据泄露等安全风险的问题。所述方法包括：一体化基站接收到数据包后，根据本地存储的用户ID与组织ID的映射关系判断数据包的来源用户设备的用户ID与目标用户设备的用户ID是否属于同一组织ID；用户ID为用户设备的属性信息，用户ID注册从属于至多一个组织ID；当来源用户设备的用户ID与目标用户设备的用户ID不属于同一组织ID时，一体化基站禁止转发数据包至目标用户设备。本发明实施例降低了数据泄露的风险，提高了LTE企业网内的通信安全性。
+7. 103354649 通信终端的监测方法及装置
+CN
+07.12.2016
+H04W 24/04 Loading...
+H04W 24/04
+Loading...
+201310269445.5
+北京创毅讯联科技股份有限公司
+曾燕
+H04W 24/04
+Loading...
+本发明提供了一种通信终端的监测方法及装置，所述方法包括：监测通信终端的运行状态；判断所述运行状态是否发生非空口信号质量所导致的异常；当确定所述运行状态发生非空口信号质量所导致的异常时，触发所述通信终端重新启动。本发明可以克服通信终端的通信终端自身原因引起的数据业务断流问题。
+8. 103152232 一种数据卡及基于数据卡的传输方法
+CN
+14.09.2016
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+102012000575424
+北京创毅讯联科技股份有限公司
+吴振
+H04L 12/28
+Loading...
+本发明提供了一种数据卡及基于数据卡的传输方法，以解决现有技术中USB接口的数据卡无法支持较远距离的网络数据传输的问题。所述一种数据卡包括：用于与外部设备连接的以太网网口、网口控制器和处理器，其中，所述网口控制器与所述以太网网口连接，控制所述以太网网口与所述外部设备通信，所述网口控制器还与所述处理器通信连接。本发明实施例的采用以太网网口的数据卡能够支持较远距离的网络数据的传输。
+9. 103501500 基于一体化基站的回传系统、方法和调制解调式用户设备
+CN
+31.08.2016
+H04L 29/00 Loading...
+H04L 29/00
+Loading...
+102013000419161
+北京创毅讯联科技股份有限公司
+张辉
+H04L 29/00
+Loading...
+本申请提供了一种基于一体化基站的回传系统、方法和调制解调式用户设备，其中的回传系统具体包括：一体化基站、普通基站和调制解调式用户设备；其中，所述调制解调式用户设备分别与普通基站和一体化基站相连，包括：调制处理模块，用于接收普通基站发送的数字信号，并在处理为无线信号后通过LTE网络发送给一体化基站；解调处理模块，用于通过LTE网络接收一体化基站发送的无线信号，并在处理为数字信号后发送给普通基站；所述一体化基站为长期演进LTE系统的网络侧设备，包括基站功能模块和核心网功能模块。本申请能够节省现有回传所需的网线资源，以及能够节省布线所使用的工程成本、建设周期和运营成本。
+10. 103281795 一种处理专用承载连接的方法和装置
+CN
+31.08.2016
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+102013000144010
+北京创毅讯联科技股份有限公司
+蔡燕
+H04W 76/02
+Loading...
+本发明提供了一种处理专用承载连接的方法和装置，以解决由于专用承载的连接过程过长而影响EPS附着过程的效率的问题。所述的方法包括：向网络侧发送连接专用承载的连接请求指令；当预设时间内未接收到网络侧反馈的对所述连接请求指令的响应时，生成请求取消指令；若终端处于待连接状态，则根据所述请求取消指令取消连接所述专用承载。本发明在长时间未收到连接响应时，不需要重新发送连接请求指令以再次连接专用承载，而是直接取消连接该专用承载，从而节省时间，并提高了EPS附着过程的效率。
+11. 103501499 一种基于LTE企业网系统的无线回传方法及其实现设备
+CN
+17.08.2016
+H04W 16/14 Loading...
+H04W 16/14
+Loading...
+102013000419184
+北京创毅讯联科技股份有限公司
+张辉
+H04W 16/14
+Loading...
+本申请提供了一种基于LTE企业网系统的无线回传方法及其实现设备，其中的LTE企业网系统依次通过回传式用户设备和路由设备与公网设备相连，包括至少一个一体化基站，一体化基站包括：第一建立模块，用于在启动时依据包括传输带宽参数的业务质量参数与所接入的回传式用户设备建立LTE的无线回传链路；第二建立模块，用于在无线回传链路建立成功后与所接入的普通用户设备建立普通LTE链路；传输模块，用于通过普通LTE链路接收上行数据，并通过无线回传链路向回传式用户设备发送上行数据；以及，通过无线回传链路接收下行数据，并通过普通LTE链路向普通设备发送下行数据。本申请能够保证LTE企业网系统中单个一体化基站的传输带宽。
+12. 103415062 一种网络连接装置、无线路由器和网络连接方法
+CN
+10.08.2016
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+102013000300925
+北京创毅讯联科技股份有限公司
+文会
+H04W 52/02
+Loading...
+本发明提供了一种网络连接装置、无线路由器和网络连接方法。所述网络连接装置包括：第一驱动模块，用于将无线网络设备通过第一制式网络发送的第一制式格式的网络连接请求转换为预设格式的网络连接请求；路由模块，用于针对所述网络连接请求所携带的第一地址信息分配第二地址信息，并将转换为预设格式的网络连接请求添加上所述第二地址信息；第二驱动模块，用于将添加所述第二地址信息的网络连接请求由所述预设格式转换为第二制式格式；第二制式模块，用于根据所述第二地址信息，向第二制式网络的基站发送转换为所述第二制式格式的网络连接请求。本发明可以解决无线路由器中，数据在WIFI芯片和LTE芯片之间传输效率较低的问题。
+13. 102710405 下行控制信息的处理方法及系统、基站与用户设备
+CN
+03.08.2016
+H04L 5/02 Loading...
+H04L 5/02
+Loading...
+102012000163329
+北京创毅讯联科技股份有限公司
+方晓波
+H04L 5/02
+Loading...
+本发明提供了一种下行控制信息的处理方法及系统、基站与用户设备，其中方法包括：基站确定处于激活状态的用户设备的下行控制信息在下行子帧中的位置信息；所述基站根据所述用户设备的下行控制信息在所述下行子帧中的位置信息，在所述下行子帧中携带所述用户设备的下行控制信息；所述基站向所述用户设备发送所述下行子帧，以供所述用户设备在获取所述用户设备的下行控制信息在所述下行子帧中的位置信息之后，根据所述用户设备的下行控制信息在所述下行子帧中的位置信息，从所述下行子帧中获取所述用户设备的下行控制信息。采用本发明的技术方案，没有任何虚检概率，实现简单，能够有效地提高DCI获取效率。
+14. 103227819 机器类通信中业务数据的传输方法及系统、基站和UE
+CN
+03.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000105057
+北京创毅视讯科技有限公司
+褚红发
+H04L 29/08
+Loading...
+本发明提供了一种机器类通信中业务数据的传输方法及系统、基站和UE，以解决机器类通信中用户的接入数量受到限制的问题。所述的方法包括：接收用户设备发送的传输数据，其中，所述传输数据是用户设备根据扩频信息对业务数据进行调制和扩频处理得到的；根据所述扩频信息对所述传输数据进行解扩和解调处理，得到所述业务数据。本发明的技术方案，UE可以按照该扩频信息对业务数据进行调制和扩频处理构成传输数据，从而可以通过码分复用接入更多的用户，满足MTC业务接入用户较多的特性，并且，可以通过扩频增益来提高数据传输的可靠性，从而保证接入用户的性能。
+15. 105142205 一种专网通信中调整发射功率的方法和终端
+CN
+09.12.2015
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201510325578.9
+北京创毅视讯科技有限公司
+岑雪青
+H04W 52/02
+Loading...
+本发明实施例提供了一种专网通信中调整发射功率的方法和终端，该方法包括：终端接收专网基站发送的专网基站信号，并获取所述专网基站信号的强度；将所述专网基站信号的强度与专网基站信号强度门限值进行比较，并根据比较结果调整所述终端的发射功率。通过本发明实施例提供的一种专网通信中调整发射功率的方法和终端，可以依据专网基站和终端之间的信号强度，调整终端的发射功率，实现专网基站和终端之间的信号强度可调，从而降低了终端的能耗。
+16. WO/2015/085535 BROADCAST MIDDLEWARE, BROADCAST TERMINAL, BROADCAST SERVER DEVICE AND BROADCAST COMMUNICATION METHOD
+WO
+18.06.2015
+H04N 21/43 Loading...
+H04N 21/43
+Loading...
+PCT/CN2013/089200
+INNOFIDEI TECHNOLOGIES INC.
+HU, Changjun
+H04N 21/43
+Loading...
+Provided are broadcast middleware, a broadcast terminal, a broadcast server device and a broadcast communication method. The broadcast middleware is applied to a broadcast receiver side and is used for establishing a bidirectional channel between a broadcast receiver and a broadcast server, and comprises a presentation layer module, a transmission control layer module and a physical layer module which are connected in sequence, wherein the presentation layer module is responsible for broadcasting service logic; the transmission control layer module is responsible for the transmission control of the bidirectional channel; and the physical layer module is used for sending an uplink data frame to a broadcast server side via the connected network or receiving a downlink data frame sent by the broadcast server side. The present application can expand the implementation manner of a broadcast bidirectional channel and the range of a broadcast bidirectional terminal.
+17. 104135757 一种降低终端功耗的方法、装置和基带芯片
+CN
+05.11.2014
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201410281813.2
+北京创毅视讯科技有限公司
+申贞锋
+H04W 52/02
+Loading...
+本申请实施例提供了一种降低终端功耗的方法、装置和基带芯片，其中的方法具体包括：在不使用SIM卡且停止该SIM卡的时钟的情况下，将基带芯片中与该SIM卡相连的卡管脚的工作模式从SIM模式修改为GPIO模式；并将所述卡管脚配置为输入模式。本申请实施例能够降低终端在不使用SIM卡且停止该SIM卡的时钟的情况下卡管脚的功耗，从而能够增加终端的待机时间。
+18. 103684913 Protocol stack test method, physical device, terminal and system
+CN
+26.03.2014
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310661270.2
+INNOFIDEI INC.
+SHI HUAIWEN
+H04L 12/26
+Loading...
+The invention provides a protocol stack test method, a physical device, a terminal and a system to solve the problem that an existing protocol stack test is inaccurate. The method comprises the steps that the physical device receives first test data sent by the terminal; the physical device analyzes the data head of the first test data; the physical device conducts a protocol stack test on the first test data according to the analyzed result, and feeds interactive data generated in the test process back to the terminal, so that the terminal determines the test state of the protocol stack through the interactive data. The protocol stack test is conducted under the actual hardware environments of the physical device so that an accurate test result can be obtained; the protocol stack test can be controlled and the test state can be determined through interaction between the physical device and the terminal, so that the test process is timely grasped, and the test is accurately analyzed and debugged.
+19. 103685095 Method and device for achieving adjacent-channel interference suppression
+CN
+26.03.2014
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201310701661.2
+INNOFIDEI INC.
+HU CHANGJUN
+H04L 25/02
+Loading...
+The invention discloses a method and device for achieving adjacent-channel interference suppression. The method includes the steps of detecting the intensity of adjacent-channel interference signals in received signals, carrying out parameter configuration on a filter according to the detected intensity of the adjacent-channel interference signals, and carrying out filtering processing on the received signals through the filter after parameter configuration to filter out the adjacent-channel interference signals in the received signals. By means of the method and device, attenuation of the filter to the useful signals can be reduced, meanwhile, the suppression on the adjacent-channel interference signals is achieved as far as possible, and the receiving effect of a receiver in the strong-interference environment is improved.
+20. 103647764 A method for implementing LTE system voice business and a single-chip terminal
+CN
+19.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310628497.7
+北京创毅视讯科技有限公司
+文会
+H04L 29/06
+Loading...
+The invention provides a method for implementing LTE system voice business and a single-chip terminal. A single chip of the single-chip terminal comprises a terminal device processor and a mobile device processor. The terminal device processor is used for receiving a voice calling request. According to a received voice calling request, the mobile device processor establishes EPS bearing. By the EPS bearing, register and/or authentication are requested from a CSCF. After the register and/or authentication are successful, the received voice calling request is converted into a voice calling request complying with a SIP protocol. A converted voice calling request is transmitted to the mobile device processor after packaged in an IP data pack complying with an IP protocol. The mobile device processor is used for transmitting the IP data pack to an IMS server in order to use the EPS bearing via the IMS server to perform voice conversation between the single-chip terminal and a called terminal. The method achieves long term evolution system voice business of the single-chip terminal.
+21. 103617124 Flash memory management method and device
+CN
+05.03.2014
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201310612810.8
+INNOFIDEI INC.
+WANG CUNYOU
+G06F 12/02
+Loading...
+The embodiment of the invention discloses a flash memory management method and device so that the problem of short service life of SPI Flash can be solved. The method comprises the steps that target data are segmented to obtain all target data segments; the data verification values of all the target data segments are calculated; for each target data segment of all the target data segments, when the data verification value of one target data segment is different from the data verification value of a corresponding subblock of the target data segment, an available subblock of the corresponding subblock is determined, and the data of the target data segment are written into the available subblock; the subblocks are storage units in a flash memory, and multiple subblocks form a block; when the data verification value of one target data segment is the same as the data verification value of the corresponding subblock of the target data segment, the data of the corresponding subblock are kept unchanged. According to the flash memory management method and device, only when the target data are different from the current data, can processing and writing operation be conducted on the relevant subblocks, unnecessary subblock operation is reduced, and the service life of the SPI Flash is prolonged.
+22. 103561451 Network searching-for method and wireless terminal
+CN
+05.02.2014
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+201310488598.9
+北京创毅讯联科技股份有限公司
+蔡燕
+H04W 48/16
+Loading...
+The invention provides a network searching-for method and a wireless terminal. The network searching-for method includes the steps that when an AT command parsing module of the wireless terminal receives an AT command for indicating searching for of a network, and the AT command parsing module sends the AT command for indicating searching for of the network to a an evolution packet system mobility management module and then returns a response message; when the AT command parsing module receives network information which is searched for and reported by the evolution packet system mobility management module, the network information which is searched for is output, wherein the network information which is searched for is obtained in the mode that the network is searched for through a sublayer module of a wireless resource control protocol layer of the wireless terminal and the search result is reported to the evolution packet system mobility management module. Through the network searching-for method and the wireless terminal, the network information which is searched for can be returned timely, other operations can be carried out at the same time, and the terminal management capability of a user is guaranteed.
+23. 103517335 Data set package method and device
+CN
+15.01.2014
+H04W 28/06 Loading...
+H04W 28/06
+Loading...
+201310430649.2
+北京创毅讯联科技股份有限公司
+周翠平
+H04W 28/06
+Loading...
+The invention provides a data set package method and device. The data set package method comprises the steps that the fact that the RB of data to be transmitted organizes the data to be transmitted to uplink authorization resources according to an SDU length vector corresponding to the RB is determined; the data to be transmitted organized to the uplink authorization resources are subjected to MAC SDU set package first, then the difference between the practical head length and the reserved head length of the MAC PDU is determined according to the MAC SDU set package results; or the length of RLC PDU padded in the last MAC SDU is determined, then the data to be transmitted organized to the uplink authorization resources are subjected to MAC SDU set package; according to the difference between the practical head length and the reserved head length of the MAC PDU or the length of the RLC PDU, and MAC PDU set package is carried out in a buffer zone shared by the MAC layer and the physical layer. According to the data set package method and device, address space waste is avoided, and the MAC PDU set package speed and efficiency are improved.
+24. 103501508 Service processing system and method based on LTE integrated base station
+CN
+08.01.2014
+H04W 24/04 Loading...
+H04W 24/04
+Loading...
+201310404539.9
+北京创毅讯联科技股份有限公司
+张辉
+H04W 24/04
+Loading...
+The invention provides a service processing system and method based on an LTE integrated base station. The service processing system based on the LTE integrated base station comprises a first integrated base station, a first LTE forwarding device and a service processing center platform, wherein the first integrated base station comprises a base station function module and a core network function module, is used for receiving a service, to be processed, sent by an LTE communication terminal through an LTE network after connection between the LTE communication terminal and the first integrated base station is established, and sending the service to be processed to the first LTE forwarding device, the first LTE forwarding device is used for being connected with the service processing center platform through the LTE network, and sending the service to be processed to the service processing center platform through the LTE network after receiving the service, to be processed, sent by the first integrated base station, and the service processing center platform is used for processing the service to be processed after receiving the service to be processed.
+25. 103501260 Network configuration method and access device of enterprise network
+CN
+08.01.2014
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201310415529.5
+北京创毅讯联科技股份有限公司
+张辉
+H04L 12/28
+Loading...
+The invention provides a network configuration method and access device of an enterprise network. The network configuration method and access device solve the problems that exiting network configuration is poor in flexibility and poor in disaster recovery capability. The enterprise network comprises at least one access device with the routing function, and the network configuration method comprises the steps of conducting configuration on configuration information of a local area network of the enterprise network by the current access device, and periodically conducting synchronization on the configuration information of the local area network by the current access device and the other access devices in the enterprise network. Therefore, a special controller is not adopted to modify the network configuration, the network configuration is more flexible, the distributing type network configuration in the enterprise network can be achieved, and the disaster recovery capability is stronger.
+26. 103491641 Method and enterprise network system for realizing voice services in long term evolution enterprise network
+CN
+01.01.2014
+H04W 72/12 Loading...
+H04W 72/12
+Loading...
+201310401257.3
+北京创毅讯联科技股份有限公司
+张辉
+H04W 72/12
+Loading...
+The embodiment of the invention provides a method and enterprise network system for realizing voice services in a long term evolution enterprise network in order to solve the problem that in an existing enterprise network, the quality of voice services of users is hard to guarantee. The method includes the steps that an integrated base station receives a voice service request message for requesting calling a called terminal, wherein the voice service request message is sent by a calling terminal; whether the triggering conditions for establishing a special bearer are met or not is determined; if yes, the special bearer with the service quality level identification as the pre-set value is established according to the positions of the calling terminal and the called terminal so that the voice service requested by the voice service request message can transmitted through the special bearer. According to the method and enterprise network system for realizing the voice services in the long term evolution enterprise network, the special bearer is established for voice service transmission, the problem that in the existing enterprise network, for the voice services which are high in service quality requirement, the quality of the voice services of the users is hard to guarantee is solved, the quality of the voice services is improved, and therefore the service experience of the users is improved.
+27. 103476144 Enterprise network system and user equipment registration method based on same
+CN
+25.12.2013
+H04W 84/10 Loading...
+H04W 84/10
+Loading...
+201310373770.6
+北京创毅讯联科技股份有限公司
+张辉
+H04W 84/10
+Loading...
+The invention provides an enterprise network system and a user equipment registration method based on the same, aiming at solving the problems of high wired wiring complexity and small wireless coverage when an existing enterprise network is connected with UE (user equipment) in a wired and wireless mode. The enterprise network system comprises an enhanced router and at least one integrated base station, wherein the enhanced router is connected with an external network and the integrated base station respectively and used for communicating with the integrated base station and the external network respectively; the integrated base station is connected with the UE and the enhanced router respectively and used for communicating with the external network through the enhanced router and communicating with the UE on a frequency point of a network spectrum resource of a long term evolution (LTE) system according to a universal subscriber identity module (USIM) card in the UE. The integrated base station and the UE are connected in a wireless mode and communicate with each other, so that the problem of high wired wiring complexity is solved; the wireless signal coverage of the integrated base station is relatively wide, so a large range can be covered only by a few integrated base stations.
+28. 103475997 Method and device for verifying terminals in LTE (Long Term Evolution) enterprise network
+CN
+25.12.2013
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201310373782.9
+北京创毅讯联科技股份有限公司
+张辉
+H04W 4/02
+Loading...
+The invention provides a method and a device for verifying terminals in an LTE (Long Term Evolution) enterprise network. A plurality of LTE base stations are arranged in the LTE enterprise network, and the method comprises the following steps of receiving the identity information which is stored in an identity information storage terminal and read by an identity information reading device after contacting with the identity information storage terminal, wherein the identity information reading device is located in an area covered by the LTE enterprise network; according to the identity information, obtaining the current location of an LTE communication terminal which has the same identity information with the identity information storage terminal, wherein the current location of the LTE communication terminal is determined by signal strength representation values of a plurality of LTE base stations searched by the LTE communication terminal in the LTE enterprise network; and verifying the identity information storage terminal through comparing the current location of the LTE communication terminal with the location of the identity information reading device. With the method and the device, potential risk to storeroom safety caused by loss of an entrance guard card can be avoided.
+29. 103476150 Integrated base station
+CN
+25.12.2013
+H04W 88/08 Loading...
+H04W 88/08
+Loading...
+201310373786.7
+北京创毅讯联科技股份有限公司
+张辉
+H04W 88/08
+Loading...
+The invention provides an integrated base station, and aims to solve the problems that time delay exists during transmission and treatment efficiency is affected due to a network side framework composed of a base station and a core network in the existing LTE (Long Term Evolution) system. The integrated base station is network side equipment of the LTE system and comprises a base station function module and a core network function module, wherein the base station function module is respectively connected with the core network function module and user equipment, and is used for respectively performing data and signaling interaction with the user equipment and the core network function module; and the core network function module is respectively connected with the base station function module and an external network, and is used for performing data and signaling interaction with the base station function module and performing data interaction with the external network. Both the base station function module and the core network function module are positioned in the integrated base station, so that the problem of time delay during long-distance transmission does not exist; and the core network function module and the base station function module have a one-to-one relationship, so that the data and signaling treatment efficiency is greatly improved.
+30. 103455419 Field programmable gate array platform and testing method thereof
+CN
+18.12.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201310347231.5
+北京创毅讯联科技股份有限公司
+单璐
+G06F 11/36
+Loading...
+The invention provides a field programmable gate array platform and a testing method thereof. The field programmable gate array platform comprises at least one field programmable gate array, and further comprises a universal serial bus control module. The universal serial bus control module is used for receiving testing commands sent by testing equipment outside the universal serial bus control module and downloading testing files from the testing equipment according to the testing commands. Command signal timing used for testing the field programmable gate array is configured according to the testing files. The command signal timing is sent to the field programmable gate array through bursts to allow the field programmable gate array to be tested according to the command signal timing. By the aid of the field programmable gate array platform, testing file loading time is shortened greatly, and the field programmable gate array efficiency is improved.
+31. 103399834 Data transmitting method, device and system
+CN
+20.11.2013
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201310288832.3
+北京创毅讯联科技股份有限公司
+申贞峰
+G06F 13/38
+Loading...
+The invention provides a data transmitting method, device and system. The data transmitting method, device and system aims to solve the problem that an existing data transmitting method has large influences on efficiency. A home terminal and an opposite terminal of a communication system are connected through a request bus and a data bus. The method comprises the steps that the home terminal configures a home terminal port connected with the request bus to be a working state according to data requests, and confirms the fact that an opposite terminal port connected with the request bus is in a working state through the request bus; data heads corresponding to the data requests are obtained, and clock signals are configured according to the data heads, wherein the data heads comprise data heads of valid data of the home terminal and/or data heads of the valid data of the opposite terminal; transmission of the valid data is carried out with the opposite terminal through the data bus in valid time of the clock signals; after data transmission is completed, the home terminal port connected with the request bus is configured to be an idle state, and the fact that the opposite terminal port connected with the request bus is in an idle state is confirmed through the request bus.
+32. 103327587 一种终端睡眠周期控制方法和装置
+CN
+25.09.2013
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201310206822.0
+北京创毅讯联科技股份有限公司
+周卓
+H04W 52/02
+Loading...
+本发明提供了一种终端睡眠周期控制方法和装置。所述方法包括：接收到进入睡眠模式的指令后，通过高频时钟进行计时；当确定通过所述高频时钟计时到达第一计时点时，通过低频时钟进行计时，并触发终端进入睡眠模式；当确定通过所述低频时钟计时到达第二计时点时，通过所述高频时钟进行计时；当确定通过所述高频时钟计时到达第三计时点时，触发终端进入工作模式，开始与基站进行数据交互。本发明可以延长终端的睡眠周期，降低终端的功耗。
+33. 103324599 处理器间通信方法与系统级芯片
+CN
+25.09.2013
+G06F 15/167 Loading...
+G06F 15/167
+Loading...
+201310218518.8
+北京创毅讯联科技股份有限公司
+周卓
+G06F 15/167
+Loading...
+本发明提供了一种处理器间通信方法与SOC，其中，所述方法包括：SOC中的第一处理器通过mailbox中的至少一个通道向存储空间写入信息；在写入信息完成后，配置mailbox的通道占用信息，并向第二处理器发送请求中断，致使第二处理器接收请求中断后，根据配置的mailbox的通道占用信息，确定写入信息的mailbox中的通道，并从确定的通道对应的存储空间中读取信息；接收第二处理器读取完信息并更新mailbox的通道占用信息后发送的处理完成中断，并根据更新后的mailbox的通道占用信息，解除对mailbox中已完成信息读取的通道的占用。通过本发明，提高了mailbox资源利用率。
+34. 103312771 专网通信数据处理方法与装置
+CN
+18.09.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310150427.5
+北京创毅讯联科技股份有限公司
+王佐
+H04L 29/08
+Loading...
+本发明提供了一种专网通信数据处理方法与装置，其中，专网通信数据处理方法包括：接收机接收非标准长期演进信道传输的多用户载波数据，对所述多用户载波数据使用所述接收机中的硬件装置进行快速傅里叶变换，以及使用所述硬件装置根据所述快速傅里叶变换的结果进行信道估计，得到所述信道估计后的通信数据；对所述信道估计后的通信数据进行设定顺序的接收处理；对所述接收处理后的通信数据进行信道解码。通过本发明，达到了既满足了对非标准LTE信道所需要的灵活性的支持，又保证了芯片在面积和功耗上得到一个最佳的平衡点的效果。
+35. 103297970 移动终端的鉴权方法、鉴权终端、移动终端和鉴权系统
+CN
+11.09.2013
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+201310198547.2
+北京创毅讯联科技股份有限公司
+刘华玲
+H04W 12/06
+Loading...
+本发明提供了一种移动终端的鉴权方法，以解决移动终端鉴权依赖于硬件卡的问题。所述的方法包括：接收移动终端发送的参数，其中，所述参数是所述移动终端从网络侧设备发送的鉴权请求中获取的；依据所述参数进行鉴权操作，并生成鉴权结果；向所述移动终端发送所述鉴权结果，以供所述移动终端向所述网络侧设备反馈所述鉴权结果。从而使移动终端的鉴权不依赖于硬件卡，使用非常的灵活，应用反馈更加广泛，满足各类用户的需求。
+36. 103281795 一种处理专用承载连接的方法和装置
+CN
+04.09.2013
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+201310144010.8
+北京创毅讯联科技股份有限公司
+蔡燕
+H04W 76/02
+Loading...
+本发明提供了一种处理专用承载连接的方法和装置，以解决由于专用承载的连接过程过长而影响EPS附着过程的效率的问题。所述的方法包括：向网络侧发送连接专用承载的连接请求指令；当预设时间内未接收到网络侧反馈的对所述连接请求指令的响应时，生成请求取消指令；若终端处于待连接状态，则根据所述请求取消指令取消连接所述专用承载。本发明在长时间未收到连接响应时，不需要重新发送连接请求指令以再次连接专用承载，而是直接取消连接该专用承载，从而节省时间，并提高了EPS附着过程的效率。
+37. 103269319 一种数据传输方法、设备及系统
+CN
+28.08.2013
+H04L 12/861 Loading...
+H04L 12/861
+Loading...
+201310153724.5
+北京创毅讯联科技股份有限公司
+王洪仁
+H04L 12/861
+Loading...
+本发明提供了一种数据传输方法、设备及系统，以降低数据传输所占用的硬件资源，同时降低功耗。其中，数据传输方法包括：接收至少两种接口类型的数据；打包所述至少两种接口类型的数据，生成待发送的数据包；通过复用接口向接收端发送所述待发送的数据包。本发明可以传输至少两种接口类型的数据，而且是通过复用接口传输至少两种接口类型的数据，降低了数据传输所占用的硬件资源，同时降低了数据传输的功耗。
+38. 103268262 一种多基带访问单用户识别卡的方法以及一种处理器
+CN
+28.08.2013
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201310157013.5
+北京创毅讯联科技股份有限公司
+申贞峰
+G06F 9/50
+Loading...
+本发明提供了一种多基带访问单用户识别卡的方法以及一种处理器。所述方法包括：处理器接收至少一个基带芯片在访问用户识别卡时发送的访问命令，所述处理器具备多个第一用户识别卡接口，各第一用户识别卡接口分别将对应的基带芯片的访问命令发送到所述处理器；将接收到的每个访问命令添加到命令队列中；逐个提取所述命令队列中的访问命令进行访问处理，其中，所述访问处理包括：将提取的所述访问命令发送至所述用户识别卡，接收所述用户识别卡返回的针对所述访问命令的响应信息，并将所述响应信息返回到与所述访问命令对应的基带芯片。本发明可以减少主基带芯片的功耗，避免主基带芯片无法进入睡眠模式，影响主基带芯片的使用寿命。
+39. 103258178 一种移动终端的射频控制方法及移动终端
+CN
+21.08.2013
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201310139392.5
+北京创毅讯联科技股份有限公司
+王艳龙
+G06K 7/00
+Loading...
+本发明提供了一种移动终端的射频控制方法及移动终端，以实现高精度的射频控制。移动终端的射频控制方法包括：当到达定时信息指定的时间点时，获取为所述时间点预设的事件类型；获取与所述事件类型对应的指令；根据所述指令控制射频芯片。本发明当到达定时信息指定的时间点时，获取为时间点预设的事件类型，然后获取与事件类型对应的指令，最后根据指令控制射频芯片，由于定时信息指定了具体的时间点，从而实现了高精度的射频控制。
+40. 103259939 一种终端休眠方法及终端
+CN
+21.08.2013
+H04M 1/73 Loading...
+H04M 1/73
+Loading...
+201310127952.5
+北京创毅讯联科技股份有限公司
+李明
+H04M 1/73
+Loading...
+本发明提供了一种终端休眠方法及终端，以解决单一的休眠模式无法满足不同类型的LTE终端，在不同的应用场景下低功耗需求的问题。终端休眠方法包括：判断终端是否满足休眠条件；当所述终端满足休眠条件时，获取与所述终端的终端类型对应的休眠模式；所述终端类型包括：单模终端、第一类型多模终端和第二类型多模终端，其中，所述单模终端类型对应高级精简指令集处理器下电模式，第一类型多模终端对应高级精简指令集处理器降频模式，第二类型多模终端对应高级精简指令集处理器正常频率模式；依据获取的所述休眠模式进行休眠处理。本发明可以根据不同的终端类型选择不同的休眠模式进行休眠处理，因此可以适应不同类型终端的低功耗需求。
+41. 103237126 拔卡检测方法与单卡多模终端
+CN
+07.08.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201310125666.5
+北京创毅讯联科技股份有限公司
+岳敏娟
+H04M 1/725
+Loading...
+本发明提供了一种拔卡检测方法与单卡多模终端，其中，拔卡检测方法包括：当确定单卡多模终端的第一通信模块启动的通用集成电路卡第一存在性检查定时器超时后，所述第一通信模块向所述通用集成电路卡发送状态检测命令，以检测所述通用集成电路卡是否被移除；当收到所述通用集成电路卡返回的状态检测命令响应时，确定所述通用集成电路卡未被移除；否则，则确定所述通用集成电路卡已被移除。通过本发明，有效解决了现有通用集成电路卡检测方案中，因对响应具体内容进行判断与匹配导致的拔卡误检测的问题。
+42. 103227697 一种协议数据单元的检测方法和装置
+CN
+31.07.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201310100047.0
+北京创毅视讯科技有限公司
+王虎
+H04L 1/00
+Loading...
+本发明提供了一种协议数据单元的检测方法和装置，以解决由于重建或切换而导致业务中断的问题。所述的方法包括：接收协议数据单元，并检测到所述协议数据单元在接收窗外；若窗外缓存为空且上次递交的协议数据单元在接收窗外，则对所述协议数据单元进行第一递交处理，其中，所述窗外缓存用于存储在接收窗外的协议数据单元；若所述窗外缓存不为空，或，所述窗外缓存为空且上次递交的协议数据单元不在接收窗外，则将所述协议数据单元放入所述窗外缓存；当所述窗外缓存存满时，对所述窗外缓存中的协议数据单元进行第一递交处理。
+43. 103227694 下行控制信息通知、解码方法与装置
+CN
+31.07.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201310055474.1
+北京创毅讯联科技股份有限公司
+姜戬
+H04L 1/00
+Loading...
+本发明提供了一种DCI通知方法与装置，以及一种DCI解码方法与装置，其中，DCI通知方法包括：基站根据增强物理下行控制信道EPDCCH承载的DCI的起始位置和聚合度大小的信息，生成DCI指示信令；所述基站向用户设备UE发送所述DCI指示信令，以使所述UE根据所述DCI指示信令解码获得所述UE对应的DCI。通过本发明，达到了有效减少UE处理时延和功耗的效果。
+44. 103227819 机器类通信中业务数据的传输方法及系统、基站和UE
+CN
+31.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310105057.3
+北京创毅视讯科技有限公司
+褚红发
+H04L 29/08
+Loading...
+本发明提供了一种机器类通信中业务数据的传输方法及系统、基站和UE，以解决机器类通信中用户的接入数量受到限制的问题。所述的方法包括：接收用户设备发送的传输数据，其中，所述传输数据是用户设备根据扩频信息对业务数据进行调制和扩频处理得到的；根据所述扩频信息对所述传输数据进行解扩和解调处理，得到所述业务数据。本发明的技术方案，UE可以按照该扩频信息对业务数据进行调制和扩频处理构成传输数据，从而可以通过码分复用接入更多的用户，满足MTC业务接入用户较多的特性，并且，可以通过扩频增益来提高数据传输的可靠性，从而保证接入用户的性能。
+45. 103220759 一种终端休眠方法和终端
+CN
+24.07.2013
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201310109017.6
+北京创毅视讯科技有限公司
+贾亚军
+H04W 52/02
+Loading...
+本发明实施例公开了一种终端休眠方法和终端，以解决终端在脱网状态下连续性搜网造成的终端功耗过高的问题。所述终端休眠方法包括：终端处于脱网状态下进行小区搜索；当搜索失败时，根据休眠时间依次对各部件进行休眠处理，所述休眠时间为连续两次小区搜索操作的间隔时间。本发明实施例通过采用上述技术方案，可以令终端处于脱网状态时，发起周期性的搜网过程，即间隔一段时间后继续进行搜网，可以节省终端的电量，从而降低终端的能耗，延长终端的使用时间。
+46. 103218348 快速傅里叶变换处理方法和系统
+CN
+24.07.2013
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+201310109161.X
+北京创毅视讯科技有限公司
+吴汉京
+G06F 17/14
+Loading...
+本发明提供了一种快速傅里叶变换处理方法和系统，其中，快速傅里叶变换处理方法包括：依照快速傅里叶变换规则，从存储单元的2n个存储子单元中并行读取待处理的2n个快速傅里叶变换点，生成待处理快速傅里叶变换点组，其中，所述2n个快速傅里叶变换点中的每个点按照设定规则存储在不同的存储子单元中，n为大于或等于1的自然数；将所述待处理快速傅里叶变换点组交给快速傅里叶变换并行运算单元进行快速傅里叶变换并行处理；将所述快速傅里叶变换并行处理后的处理结果并行写回所述2n个存储子单元的每个子单元中。通过本发明，改善了对系统时钟频率的要求，避免了在集成电路的实现过程中较大的时序收敛风险。
+47. 102999356 数据卡安装方法、数据卡和终端设备
+CN
+27.03.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210461339.2
+北京创毅讯联科技股份有限公司
+刘辉
+G06F 9/445
+Loading...
+本发明提供了一种数据卡安装方法、数据卡和终端设备，其中，数据卡安装方法包括：数据卡向终端设备提供数据卡第一设备参数，以使终端设备根据数据卡第一设备参数将数据卡虚拟为虚拟光驱，其中，虚拟光驱中包括有与数据卡安装文件对应的虚拟标示，数据卡安装文件包括数据卡的驱动程序的安装文件和数据卡的服务程序的安装文件；数据卡根据终端设备下发的操作虚拟标示的命令，提供与虚拟标示对应的安装文件供终端设备进行数据卡的安装；数据卡接收终端设备确定安装文件已安装后发送的弹出命令，根据弹出命令结束虚拟光驱的线程。通过本发明，使得数据卡安装过程更为方便合理。
+48. 102981116 一种验证专用集成电路的装置和方法
+CN
+20.03.2013
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201210433719.5
+北京创毅讯联科技股份有限公司
+王亮
+G01R 31/28
+Loading...
+本发明公开了一种验证专用集成电路的装置和方法。在本发明中，设计一个模拟射频部分的发送与接收的逻辑模块，通过该逻辑模块将测试终端提供的测试数据进行射频部分的处理后传递给LTE ASIC，以及将LTE ASIC根据测试数据进行相应处理后反馈的反馈数据进行射频部分的处理后传递给测试终端，使得测试终端能根据发送给逻辑模块的测试数据和从逻辑模块所接收的反馈数据对LTE ASIC进行验证。本发明的技术方案，使得在LTE ASIC的初步试产阶段，不再需要送到封装测试厂内的机台上进行验证测试，而是利用一个计算机和采用FPGA设计的逻辑模块在实验室内就可以完成对LTEASIC的快速验证，节省成本。
+49. 102984802 资源分配方法与装置
+CN
+20.03.2013
+H04W 72/04 Loading...
+H04W 72/04
+Loading...
+201210461337.3
+北京创毅讯联科技股份有限公司
+周光明
+H04W 72/04
+Loading...
+本申请提供了一种资源分配方法与装置，其中，资源分配方法包括：在获取上行授权后，判断各RB的变量Bj是否大于0，其中，RB的Bj用于标识需要给RB分配的无线资源的长度；对于Bj大于0的RB，根据RB对应的业务数据单元长度向量获取大于或等于RB的Bj、且与RB的Bj最接近的业务数据单元分段长度，其中，业务数据单元长度向量中的元素用于标识RB的各业务数据单元的分段长度；选择获取的业务数据单元的分段长度和当前剩余的上行授权资源的长度中的小值作为RB的第一轮资源分配值；按照第一轮资源分配值为RB分配上行授权资源。通过本发明的技术方案，能够有效地降低SDU的分割，减小了上层报文的开销以及被重传的可能性。
+50. 102970108 一种RLC层的数据传输方法和装置
+CN
+13.03.2013
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201210455585.7
+北京创毅讯联科技股份有限公司
+蒋诗梅
+H04L 1/00
+Loading...
+本发明实施例提供了一种RLC层的数据传输方法和装置，以解决由RLCPDU的SN突变而引起的RLC层数据接收不正常的问题。所述的方法包括：接收的RLC？PDU满足放入接收缓存的条件后，检测RLC？PDU的SN是否大于第一类参考值；若RLC？PDU的SN小于或等于第一类参考值，则将RLCPDU放入接收缓存中；若RLC？PDU的SN大于第一类参考值，则将RLC？PDU作为可疑的RLC？PDU存入可疑缓存中，并检测可疑的RLC？PDU的SN是否大于第二类参考值；若可疑的RLC？PDU的SN小于或等于第二类参考值，则将可疑的RLC？PDU放入接收缓存中；将接收缓存中的RLC？PDU进行重组后发送。
+51. 102958099 机器类通信中非连续接收周期的处理方法和网络侧设备
+CN
+06.03.2013
+H04W 28/02 Loading...
+H04W 28/02
+Loading...
+201210424940.4
+北京创毅讯联科技股份有限公司
+姜戬
+H04W 28/02
+Loading...
+本发明提供了一种机器类通信中非连续接收周期的处理方法和网络侧设备，以解决目前对非连续接收周期的改进容易造成网络拥塞的问题。其中，所述一种机器类通信中非连续接收周期的处理方法包括：网络侧设备获取机器类通信的网络负载状况；所述网络侧设备根据所述机器类通信的网络负载状况调整终端的非连续接收周期；所述网络侧设备通过基站向所述终端发送寻呼消息，所述寻呼消息中携带所述调整后的非连续接收周期，以供所述终端根据所述调整后的非连续接收周期上报数据。本发明根据网络负载状况调整终端的非连续接收周期，使终端可以根据调整后的非连续接收周期上报数据，避免了大量终端在同一时刻上报数据，因此解决了网络拥塞的问题。
+52. 102916792 数据传输方法和用户设备
+CN
+06.02.2013
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+201210387890.7
+北京创毅讯联科技股份有限公司
+佟国旭
+H04L 1/18
+Loading...
+本发明公开了一种数据传输方法和用户设备。其方法，包括：根据用户设备的性能参数与预设性能参数阈值，选取发送数据所使用的子帧；使用所选取的子帧向基站发送数据。本方案使具有不同性能参数的UE可以在不同时刻的子帧发送数据，提高了UE发送数据的灵活性。
+53. 102917401 上行资源请求方法与用户设备
+CN
+06.02.2013
+H04W 28/02 Loading...
+H04W 28/02
+Loading...
+201210383290.3
+北京创毅讯联科技股份有限公司
+方晓波
+H04W 28/02
+Loading...
+本申请提供了一种上行资源请求方法与用户设备，其中，上行资源请求方法包括：获取当前上行缓冲区的上行缓冲区大小，其中，所述当前上行缓冲区中存储有用户设备待上传的数据；判断所述上行缓冲区大小是否小于设定门限值；若是，则根据所述用户设备的历史上行缓冲区大小和/或本次上传所述待上传的数据的数据帧结构，进行上报缓冲区大小估计，获得缓冲区大小综合评估值；根据所述缓冲区大小综合评估值生成缓冲区状态报告；向基站上报所述缓冲区状态报告，以请求上传所述待上传的数据所需要的上行资源。通过本申请，使得UE上传业务的业务流量更加稳定、也提升了平均流量，保持了业务的稳定性。
+54. 102917433 一种机器类通信终端的接入方法及基站、终端
+CN
+06.02.2013
+H04W 48/06 Loading...
+H04W 48/06
+Loading...
+201210385114.3
+北京创毅讯联科技股份有限公司
+姜戬
+H04W 48/06
+Loading...
+本发明提供了一种机器类通信MTC终端的接入方法及基站、终端，以解决MTC终端大量随机接入，导致基站信令负荷过重的问题。其中，所述一种机器类通信MTC终端的接入方法包括：机器类通信MTC终端向基站发送随机接入消息1；MTC终端接收基站发送的根据所述随机接入消息1生成的随机接入响应消息2；当MTC终端从随机接入响应消息2中匹配到与MTC终端对应的随机接入响应时，向基站发送随机接入消息3；MTC终端接收基站发送的与随机接入消息3中MTC终端所属组ID对应的冲突解决消息4，并根据冲突解决消息4中包含的用于指示该组中允许接入的MTC终端的信息确定是否接入基站。本发明减少了网络负荷，避免了网络拥塞的发生。
+55. 102790679 Internet connection method of network card and network card
+CN
+21.11.2012
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+201210227209.2
+北京创毅讯联科技股份有限公司
+周沙
+H04L 12/02
+Loading...
+The invention provides an internet connection method of a network card and a network card. The method comprises the following steps: the network card acquires an IP address allocated by a base station after being connected with a client; the network card acquires an IP mask and a gateway address according to the IP address; the network card sends the IP address, the IP mask and the gateway address to the client after receiving an IP address allocation request from the client; and the network card returns a physical address to the client after receiving a physical address acquisition request from the client, so that the client can surf the internet according to the network card according to the IP address, the IP mask, the gateway address and the physical address. The technical scheme for internet connection, provided by the invention, can support various usage scenarios, and the internet connection way is very flexible, simple to implement and convenient to operate.
+56. 102655447 一种上行数据的传输方法及装置
+CN
+05.09.2012
+H04L 1/16 Loading...
+H04L 1/16
+Loading...
+201210132854.6
+北京创毅讯联科技股份有限公司
+方晓波
+H04L 1/16
+Loading...
+本申请提供了一种LTE系统中上行数据的传输方法和装置。所述上行数据依次经过PDCP子层、RLC子层和MAC子层处理，所述方法包括：接收待传输的业务数据；判断所述业务数据是否符合预设条件，若是，则将所述业务数据发送到PDCP子层，若否，则将所述业务数据添加到缓存队列；向基站发送上行数据传输请求；MAC子层按照基站依据传输请求返回的当次资源分配量，对经过PDCP子层和RLC子层处理的业务数据进行调度；按照MAC子层的调度结果进行上行数据传输，并依据预估的下次资源分配量触发所述缓存队列中的业务数据出队进入PDCP子层。本申请可以克服现有LTE系统中上行链路数据传输机制对TCP下载对应的确认包增加的时延，提高TCP下载性能。
+57. 102487529 一种提高物联网信息传输效率的方法和装置
+CN
+06.06.2012
+H04W 28/02 Loading...
+H04W 28/02
+Loading...
+201110003786.9
+北京创毅视讯科技有限公司
+张辉
+H04W 28/02
+Loading...
+本发明公开了一种提高物联网信息传输效率的方法和装置。所述方法包括：在物联网的信息采集层和信息传输层之间增加信息处理层；由所述信息处理层根据预设策略对来自信息采集层的数据进行预处理后，发送给信息传输层。本发明的技术方案能够有效提高物联网的信息传输效率，避免数据传输量巨大而造成的物联网信息传输层的数据拥堵。
+58. 102487535 支持多通信制式无线通信终端的小区切换控制方法及设备
+CN
+06.06.2012
+H04W 28/18 Loading...
+H04W 28/18
+Loading...
+201110004156.3
+北京创毅视讯科技有限公司
+张辉
+H04W 28/18
+Loading...
+本发明公开了一种支持多通信制式无线通信终端的小区切换控制方法及设备，涉及无线通信技术领域，能够使终端用户对业务的需求和网络运营商对管理的需求之间保持平衡，提高了网络管理和网络资源分配的效率，改善了系统的整体性能。本发明实施例提供的一种支持多通信制式无线通信终端的小区切换控制方法包括：所述无线通信终端在需要进行异系统小区间的切换时，向当前小区内的网络管理设备发送类切换请求消息；所述网络管理设备根据所述类切换请求消息向所述无线通信终端下发类切换响应消息，所述类切换响应消息包括切换控制信息；所述无线通信终端根据所述切换控制信息确定是否进行当前的类切换流程。
+59. 102487326 一种基于物联网的信息发布方法及系统
+CN
+06.06.2012
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+201010577860.3
+北京创毅视讯科技有限公司
+张辉
+H04L 12/18
+Loading...
+本发明提供了一种基于物联网的信息发布方法、一种基于物联网的信息发布系统、一种多媒体信息广播站及一种广播终端，以解决现有的信息发布方式采用手工更新难以保证信息更新实时性的问题。所述方法包括：将发布信息以及传送发布信息的广播信道的标识，通过物联网发送给多媒体信息广播站；将传送发布信息的广播信道的标识通过物联网通知广播终端；所述多媒体信息广播站通过与所述标识对应的广播信道将发布信息发送到广播终端。本发明保证了终端信息更新的实时性；而且，每个广播终端和多媒体信息广播站的启动、关闭和工作状态都可以通过物联网进行远程控制与监控。
+60. 102480758 具有多通信连接能力的无线通信终端及其小区选择方法
+CN
+30.05.2012
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+201110003787.3
+北京创毅视讯科技有限公司
+张辉
+H04W 24/10
+Loading...
+本发明公开了一种具有多通信连接能力的无线通信终端及其小区选择方法。该无线通信终端包括：应用处理器和若干无线通信模块，还包括用于保存优先级列表的存储模块；该优先级列表中保存了多种业务类型及对应于其中的每种业务类型的无线通信模块小区选择优先级顺序信息；对于当前业务，应用处理器根据优先级列表中的与该当前业务对应的无线通信模块小区选择优先级顺序信息，依次控制各无线通信模块测量并上报可用小区的信号强度，直到根据上报的可用小区的信号强度找到符合当前业务要求的小区；将所找到的符合当前业务要求的小区作为该当前业务的服务小区。本发明的技术方案提高了业务质量，并且缩短了小区选择时间以及降低了电能消耗。
+61. 102480764 一种无线通信终端的数据传输方法及无线通信终端
+CN
+30.05.2012
+H04W 28/24 Loading...
+H04W 28/24
+Loading...
+201010574586.4
+北京创毅视讯科技有限公司
+张辉
+H04W 28/24
+Loading...
+本发明提供了一种无线通信终端的数据传输方法，采用至少两个无线通信模块分别对应一个网络建立无线链路，并其中一个无线通信模块与所对应的网络之间的无线链路进行数据传输；应用处理器判断当前正在传输数据的无线通信模块的无线链路的质量，若低于预定值，则查询其余各无线通信模块对应的无线链路的质量；若查询到的其余无线通信模块的无线链路的质量高于当前的无线链路的质量，则断开当前的无线通信模块与网络之间的无线链路，将查询到的其余无线通信模块的其中一个与对应的网络建立无线链路。本发明的无线通信终端的数据传输方法可以根据实际情况选取无线链路质量较好的无线网络进行数据传输。本发明还提供一种无线通信终端。
+62. 102480786 一种多通信制式的无线通信方法和系统
+CN
+30.05.2012
+H04W 68/00 Loading...
+H04W 68/00
+Loading...
+201010571671.5
+北京创毅视讯科技有限公司
+张辉
+H04W 68/00
+Loading...
+本发明提供了一种多通信制式的无线通信方法和系统，所述方法包括：网络端获取无线通信终端的寻呼列表；网络端依据寻呼列表选择寻呼通信制式，在所选的寻呼通信制式下发送具有业务数据传输通信制式指示标识的寻呼消息；无线通信终端依据接收到的寻呼消息的指示标识，开启与所述业务数据传输通信制式相对应的无线通信模块，并接收网络端发送的业务数据。通过本发明，能够减少无线通信终端的耗电量，延长了终端的待机时间。
+63. 202261828 一种多基带芯片共享访问智能卡的设备
+CN
+30.05.2012
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201120176872.5
+北京创毅视讯科技有限公司
+张辉
+H04W 88/06
+Loading...
+本实用新型提供了一种多基带芯片共享访问智能卡的设备，以解决多通信制式不能同时待机的问题。所述设备包括：一个主基带芯片和至少一个从基带芯片，各从基带芯片分别与主基带芯片连接，所述主基带芯片与智能卡连接；当主基带芯片和各从基带芯片均处于待机状态，主基带芯片和/或任意所述从基带芯片产生访问智能卡的信息时：所述从基带芯片用于通过与主基带芯片的连接，将访问智能卡的信息发送至所述主基带芯片；所述主基带芯片用于通过与智能卡的连接，按照预置的策略将主基带芯片和/或任意所述从基带芯片产生的访问智能卡的信息逐个发送给智能卡。本实用新型实现了真正的多通信制式同时待机。
+64. 102411492 一种数据处理的方法和装置
+CN
+11.04.2012
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201110379988.3
+北京创毅视讯科技有限公司
+张辉
+G06F 9/38
+Loading...
+本发明公开了一种数据处理的方法和装置，能够在硬件流水线上采用不同的数据处理速率，实现硬件流水线上数据处理速率的灵活调整。本发明实施例提供的数据处理的方法包括：配置当前所使用的数据处理速率，将所配置的数据处理速率通知硬件流水线，以使硬件流水线按照当前所配置的数据处理速率进行数据处理。
+65. 102387012 一种半双工总线上数据传输的方法和接口设备
+CN
+21.03.2012
+H04L 5/16 Loading...
+H04L 5/16
+Loading...
+201110308401.X
+北京创毅视讯科技有限公司
+张辉
+H04L 5/16
+Loading...
+本发明公开了一种半双工总线上数据传输的方法和接口设备，涉及数据通信领域，能够提高数据传输的可靠性和稳定性，保证系统功能的稳定。本发明实施例提供的一种半双工总线上数据传输的方法包括：在接口设备处于发送状态下，当接口设备监测到写缓冲的数据发送完成时，接口设备自动从发送状态切换至接收状态。
+66. 102333175 赘余信号去除方法和装置
+CN
+25.01.2012
+H04N 5/21 Loading...
+H04N 5/21
+Loading...
+201010230759.0
+北京创毅视讯科技有限公司
+张辉
+H04N 5/21
+Loading...
+本发明公开了一种赘余信号去除方法和装置：对获取到的带内信号进行模数转换，并检测其中存在的各赘余信号的性能参数；确定检测到的赘余信号数M是否大于N，N表示数字滤波器数；如果是，则从各赘余信号中选出N个符合要求的赘余信号，根据这N个赘余信号的性能参数对N个数字滤波器的滤波参数进行调整，否则，根据检测到的M个赘余信号的性能参数对从N个数字滤波器中选出的任意M个数字滤波器的滤波参数进行调整；调整的原则为使得各数字滤波器能够将其对应的赘余信号滤除；利用调整后的数字滤波器对转换后的带内信号进行数字滤波。应用本发明所述方案，能够提升用户的收视观感和终端的接收灵敏度。
+67. 102315884 减轻移动电视信号中的通信信号干扰的方法及装置
+CN
+11.01.2012
+H04B 15/00 Loading...
+H04B 15/00
+Loading...
+201010221729.3
+北京创毅视讯科技有限公司
+张辉
+H04B 15/00
+Loading...
+本发明公开了减轻移动电视信号中的通信信号干扰的方法及装置。方法包括：在接收移动电视信号的过程中，检测该信号的RSSI；当正在接收非输出场信号时，根据所述RSSI，判断当前场非输出场信号中是否存在通信信号干扰，若存在，则在当前场非输出场信号的后续信号和随后的一场输出场信号的接收过程中，检测通信信号脉冲，并在通信信号脉冲出现时间内，降低当前场非输出场信号的后续信号或所述随后的一场输出场信号的RF增益，使得当前场非输出场信号的后续信号和所述随后的一场输出场信号的功率位于调谐器的工作功率范围内。本发明降低了减轻移动电视信号中的通信信号干扰的成本。
+68. 102316290 一种模拟移动电视终端的移动状态确定方法和装置
+CN
+11.01.2012
+H04N 21/414 Loading...
+H04N 21/414
+Loading...
+201010221741.4
+北京创毅视讯科技有限公司
+张辉
+H04N 21/414
+Loading...
+本发明实施方式公开了一种模拟移动电视终端的移动状态确定方法，包括：检测自动增益控制(AGC)对调谐器增益(tuner gain)的调整频率；根据检测出的调整频率，确定模拟移动电视终端的移动状态。本发明实施方式还公开了一种模拟移动电视终端的移动状态确定装置。本发明实施方式基于AGC的调整频率快慢，能够准确确定出模拟移动电视终端的移动状态。另外，本发明实施方式能够准确地，而不是盲目地调整模拟移动电视终端的视频解码质量，从而能够较有针对性地提高模拟移动电视终端的视频解码质量。
+69. 102316287 一种解调模拟电视信号的方法和装置
+CN
+11.01.2012
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010222512.4
+北京创毅视讯科技有限公司
+张辉
+H04N 5/44
+Loading...
+本发明公开了一种解调模拟电视信号的方法和装置。所述方法包括：利用相干信号对所接收的模拟电视信号进行相干解调；将模拟电视信号的理论载波频率作为相干信号的频率；跟踪模拟电视信号的载波频率，判断跟踪结果频率与模拟电视信号的理论载波频率之间的偏差是否在预设范围之内，是则，将跟踪结果频率作为相干信号的频率。本发明的技术方案采用相干解调法对模拟电视信号进行解调，提高了接收灵敏度。
+70. 102316299 图像处理方法及装置
+CN
+11.01.2012
+H04N 7/01 Loading...
+H04N 7/01
+Loading...
+201010222492.0
+北京创毅视讯科技有限公司
+张辉
+H04N 7/01
+Loading...
+本发明公开了一种图像处理方法和装置。方法包括a、根据当前场图像发生场景切换的可能性和/或当前场图像的高斯噪声的大小，确定3D算法中的参数μ的取值范围；b、利用3D算法计算μ值，并判断该μ值是否在所述取值范围内；若在所述取值范围内，则用该μ值对所述当前场图像进行处理后结束，否则，执行步骤c；c、将所述μ值调整到所述取值范围内，3D算法用调整后的μ值对当前场图像进行处理。使用该图像处理方法和装置，能够解决3D算法失效所带来的问题。另外，该方法和装置简单，实施成本低。
+71. 102316248 一种去除噪声的方法和装置
+CN
+11.01.2012
+H04N 5/213 Loading...
+H04N 5/213
+Loading...
+201010221734.4
+北京创毅视讯科技有限公司
+张辉
+H04N 5/213
+Loading...
+本发明提供了一种去除噪声的方法和装置，应用于模拟电视技术中，包括：依次接收输入的各帧图像，从接收到的第2帧图像开始，针对每帧图像M中的每个坐标为(x，y)的像素点Y，分别进行以下处理：确定像素点Y与图像M的前一帧图像N中坐标为(x，y)的像素点YF的相关性系数；从图像N中选出三个包含像素点YF的区域，分别计算每个区域中的各像素点的亮度值之和与从图像M中选出的一个包含像素点Y的区域中的各像素点的亮度值之和的差值的绝对值，每个区域中包含的像素点数均相同；根据相关性系数和绝对值确定像素点Y的亮度值，并将确定出的亮度值赋值给像素点Y。应用本发明所述方案，能够有效地去除噪声，从而消除电视画面中突然出现的亮点和黑点。
+72. 102316245 一种模拟电视接收机本地行同步时钟的调整方法和装置
+CN
+11.01.2012
+H04N 5/06 Loading...
+H04N 5/06
+Loading...
+201010222516.2
+北京创毅视讯科技有限公司
+张辉
+H04N 5/06
+Loading...
+本发明公开了一种模拟电视接收机本地行同步时钟的调整方法和装置。所述方法包括：对模拟电视接收机本地行同步时钟信号以及模拟电视接收机所接收的模拟电视信号中的行同步信号进行鉴相，得到鉴相信号；利用鉴相信号调整模拟电视接收机本地行同步时钟的输出信号；利用无限脉冲响应滤波器对鉴相信号进行搜索处理，得到第一时钟偏差值；停止利用鉴相信号调整模拟电视接收机本地行同步时钟的输出信号，利用第一时钟偏差值调整模拟电视接收机本地行同步时钟的输出信号。本发明的技术方案能够为模拟电视接收机输出稳定的行同步信号，提高了模拟电视接收机的画面输出质量。
+73. 102300061 Method and device for removing redundant signal and tuning device
+CN
+28.12.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010219613.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention discloses a method and device for removing a redundant signal. The method comprises the steps of: amplifying an obtained desired signal and an obtained redundant signal; blending the amplified desired signal and the amplified redundant signal with a local oscillation frequency (LO) to intermediate-frequency signals, wherein the value of the LO frequency during blending is equal to a frequency value where the redundant signal is in; and carrying out band-pass filtering on the intermediate-frequency signals to obtain required in-band signals, and demodulating the in-band signals. The invention also discloses a tuning device. By applying the scheme of the invention, the watching impression of a user and the receiving sensitivity of a terminal can be improved, and the cost can be lowered; and meanwhile, the method and the device are implemented simply and conveniently.
+74. 102281410 Method and device for controlling adjacent channel interference of mobile analogue television
+CN
+14.12.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010201375.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention discloses a method for controlling adjacent channel interference of a mobile analogue television. The method comprises steps of judging the state of a received signal power according to a received signal strength indicator average value (RSSI AVG); judging that the received signal power is in a saturated state when the RSSI AVG is greater than a maximum threshold (MAX Threshold), then lowering a RF (Radio Frequency) Gain; and judging that the received signal power is in an over-low state when the RSSI AVG is lower than a MIN Threshold, then escalating the RF Gain. The invention further discloses a device for controlling the adjacent channel interference of the mobile analogue television. According to the embodiment of the invention, the analogue television signal can be normally received in the presence of the adjacent channel interference of mobile television signal.
+75. 102271232 Method and device for receiving and decoding analog television signals
+CN
+07.12.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010195756.8
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention provides a method for receiving and decoding analog television signals. The method comprises the following steps: after analog television signals received by an antenna are processed successively by a filter, a low noise amplifier and a zero intermediate frequency converter, the analog television signals are subjected to analog-to-digital converting and demodulating successively by adopting the local clock signal of the receiving terminal, and the demodulated CVBS (composite video broadcast signal) is obtained; and the CVBS sampling rate is converted so as to be matched with a recovering launch pad clock, then by adopting the signal of the recovering launch pad clock, the CVBS is decoded and an image is obtained and output. The invention also provides a device for receiving and decoding the analog television signals. By adopting the invention, the effect of degraded image decoding caused by moving can be lessened so that the accuracy of receiving and decoding the analog television signals is improved.
+76. 102271231 Clock recovering device and method
+CN
+07.12.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010195745.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention provides a clock recovering device which comprises a phase detector (301), a loop filter (302), a digital frequency oscillator (303) as well as a synchronization judging unit (501), wherein, the synchronization judging unit (501) is used for sending a lost lock index signal to the phase detector (301) when a recovering launch pad clock is confirmed to lose lock with an actual launch pad clock, according to a phase difference output by the phase detector (301); and the phase detector (301), after receiving the lost lock index signal, by confirming an external CVBS(composite video broadcast signal) input to the clock recovery device in a stable state, the phase detector (301) sets a row of index signals generated by the current recovering launch pad clock to be aligned to the position of the last row of synchronous signals of the confirmed CVBS, or, to the average position of all the rows of synchronous signals of the confirmed CVBS. The invention provides a method for clock recovering as well. The invention has the advantages that rapid clock recovering can be achieved in the case of clock losing lock.
+77. 102263717 Signal demodulating equipment and signal demodulating method
+CN
+30.11.2011
+H04L 27/06 Loading...
+H04L 27/06
+Loading...
+201010191947.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/06
+Loading...
+The embodiment of the invention discloses signal demodulating equipment. A carrier phase estimation unit is used for carrying out carrier phase estimation on received amplitude modulation signals to obtain transient carrier phase signals; a phase filter is used for carrying out phase filter on the transient carrier phase signals to obtain carrier phase signals without noises; a delay matching unit is used for delaying the received amplitude modulation signals, wherein a delay value is the sum of processing delay of the carrier phase estimation unit and the phase filter; and a multiplying unit is used for performing multiplying operation on the carrier phase signals without noises from the phase filter and the delayed amplitude modulation signals from the delay matching unit to obtain demodulation signals. The embodiment of the invention also discloses a signal demodulating method. The demodulation device can be used to increase the demodulating stability and prevent the failure time from being prolonged when being interfered.
+78. 102263964 Method and device for stably displaying mobile analog television image
+CN
+30.11.2011
+H04N 9/78 Loading...
+H04N 9/78
+Loading...
+201010194913.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 9/78
+Loading...
+The invention provides a method for stably displaying a mobile analog television image. After an analog television signal received by an antenna is processed by a filter, a low-noise amplifier, a zero intermediate frequency converter and an analog/digital converter, the method comprises the following steps of: A, demodulating the analog television signal subjected to analog/digital conversion to acquire a composite video broadcast signal (CVBS); B, decoding the CVBS to acquire an image signal, and extracting a line indicating signal in the image signal; detecting the CVBS to acquire a line synchronizing signal; and C, calculating a difference between the line synchronizing signal and the line indicating signal, and adjusting the line indicating signal and a content indicating signal in the image signal according to the different so as to make the adjusted positions of the line indicating signal and the line synchronizing signal consistent. The invention also provides a device for stably displaying the mobile analog television image. By the technical scheme, display offset of the analog television image can be effectively suppressed in the mobile process.
+79. 102263981 Method and device for automatically detecting analog television PAL (Phase Alternating Line) system
+CN
+30.11.2011
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201010189975.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 17/00
+Loading...
+The invention discloses a method and a device for automatically detecting an analog television PAL (Phase Alternating Line) system. The method comprises the following steps: selecting f from audio frequency FM (Frequency Modulation) carriers f corresponding to different PAL systems; setting the FM demodulation carrier at an f-delta f position; during FM demodulation, estimating an audio frequency signal to be detected to obtain carrier frequency offset marked as a negative-phase carrier frequency offset a; setting the FM demodulation carrier at an f+delta f position; estimating the audio frequency signal to be detected in the FM demodulation to obtain a carrier frequency offset marked as a positive-phase carrier frequency offset b; if a and b satisfy the PAL system judgment condition, determining the PAL system of the analog television signal corresponding to the audio frequency to be detected according to f; otherwise, selecting f again from f corresponding to different PAL systems and not selected before; and then performing estimation. The invention also discloses a device for detecting an analog television PAL system. After the embodiment disclosed by the invention is applied, various PAL systems can be automatically recognized.
+80. 102263982 Method and device for improving moving visibility of analogue television
+CN
+30.11.2011
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201010194912.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 17/00
+Loading...
+The invention provides a method for improving moving visibility of an analogue television, comprising the following steps of: detecting image quality of image frames demodulated from an analogue television signal in real time; judging whether the image quality degrades, if so, discarding the image frames, of which the image quality degrades, according to a predetermined percentage; and based on the relation among the pixels at corresponding positions of the reserved adjacent image frames, smoothing pixels of a current image frame according to the pixels of a previous image frame. The invention further provides a device for improving the moving visibility of the analogue television. The method and the device can effectively improve viewing effect of the analogue television in a moving process.
+81. 102263965 Method and device for eliminating noises from analogue television signal
+CN
+30.11.2011
+H04N 9/78 Loading...
+H04N 9/78
+Loading...
+201010195376.4
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 9/78
+Loading...
+The invention discloses a method and a device for eliminating noises from an analogue television signal. The method comprises the following steps of: receiving an analogue television signal frame, and acquiring a brightness correlation value between a current pixel to be processed and an adjacent pixel in a current frame; classifying the acquired brightness correlation value, and determining a YUV threshold value group according to the classified brightness correlation value; computing an equivalent YUV value of the current pixel according to the YUV value of the pixel of the current frame and a pre-stored YUV value of the pixel of a previous frame, wherein the equivalent YUV value comprises an equivalent brightness value and an equivalent chroma difference value; obtaining a weighting coefficient according to the determined YUV threshold value group and the equivalent YUV value; and computing a denoised YUV value of the current pixel according to the YUV value of the current pixel, the YUV value of the pixel, at a position the same as the current pixel, in the previous frame of the current frame and the acquired weighting coefficient, and replacing the YUV value of the current pixel by using the denoised YUV value of the current pixel. By the method and the device, the noises can be eliminated from the analogue television signal, and image definition can be improved.
+82. 102256084 Automatic gain control method and device
+CN
+23.11.2011
+H04N 5/52 Loading...
+H04N 5/52
+Loading...
+201010181536.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/52
+Loading...
+The invention discloses an automatic gain control method and an automatic gain control device. The method comprises the following steps of: receiving a composite video broadcast signal (CVBS); if a rapid mode is adopted by a current automatic gain control way, judging whether recent amplitude variation values of continuous a rows of the CVBS are all lower than a first threshold value or not, starting adopting an average mode to perform automatic gain control if the recent amplitude variation values of the continuous a rows of the CVBS are all lower than the first threshold value, otherwise continuing adopting the rapid mode to perform the automatic gain control; and if the average mode is adopted by the current automatic gain control way, judging whether the recent amplitude variation values of at least c of continuous b rows of the CVBS are greater than a second threshold value, starting adopting the rapid mode to perform the automatic gain control if the recent amplitude variation values of at least c of the continuous b rows of the CVBS are greater than the second threshold value, continuing adopting the average mode to perform the automatic gain control, wherein a, b and c are preset positive integers. By the method and the device, controlled signals can reflect signal variations more accurately, and the stability of picture quality is ensured at the same time.
+83. 102256046 Shaping method and apparatus for rapid jumping video signal of mobile analog television
+CN
+23.11.2011
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201010187284.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/14
+Loading...
+The invention relates to a shaping method for a rapid jumping video signal of a mobile analog television. The method comprises the following steps: real-time detecting a black level of a composite video broadcast signal (CVBS) of a last row and a black level of a CVBS of a current row and taking a difference value between the black level of the CVBS of the last row and the black level of the CVBS of the current row as a height difference of the black level of the last row; And calculating compensated levels of all sampling points in the CVBS of the last row point by point by utilizing the black level of the CVBS of the last row and the height difference and compensating black levels of the sampling points by the compensated levels, so that the CVBS has a unified black level. In addition, the invention also discloses a shaping apparatus for a rapid jumping video signal of a mobile analog television. After the application of the embodiment of the invention, when a CVBS level jumps rapidly, the CVBS can have a unified black level and a signal amplitude, so that occurrence of a black vertical strip is avoided.
+84. 102256071 Method and device for searching channels in mobile analog television
+CN
+23.11.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010181532.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention discloses a method and device for searching channels in a mobile analog television, wherein the method comprises the steps of: A. selecting a frequency point from a plurality of preset frequency points according to a predetermined rule; B. receiving a composite video broadcast signal (CVBS) on the frequency point, respectively detecting the minimum value of the CVBS in each row time period, and recording the position of the minimum value of the CVBS; C. judging whether the situation in which the position difference between the minimum value of the CVBS in every two adjacent row time periods conforms to a predetermined requirement within N continuous row time periods exists, if so, determining that the frequency point is effective, storing the frequency point or a channel number corresponding to the frequency point, and performing a step D; if not, determining that the frequency point is ineffective, and performing the step D; and D. judging whether the selection of all the frequency points is finished, if so, ending up the flow, or, selecting a next frequency point according to the predetermined rule, and repeatedly performing the step B. By employing the scheme of the invention, the cumulative time for searching for the channels can be shortened, and the user experience is enhanced.
+85. 102256085 Automatic gain control method and device
+CN
+23.11.2011
+H04N 5/52 Loading...
+H04N 5/52
+Loading...
+201010187294.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/52
+Loading...
+The invention discloses an automatic gain control method and an automatic gain control device. The method comprises the following steps of: computing the ratio of amplitude of a reference signal to the amplitude of the whole composite video broadcast signal (CVBS) in the standard CVBS, wherein the reference signal is a sync-tip or a color burst; for any row of the CVBS, searching for the amplitude of the row of the CVBS, and computing the maximum gain of the row of the CVBS according to the ratio and the amplitude of the whole row of the CVBS; computing the gain of the row of the CVBS; and judging whether the gain of the row of the CVBS is lower than the maximum gain of the row of the CVBS, performing gain control on the row of the CVBS by adopting the gain if the gain of the row of the CVBS is lower than the maximum gain of the row of the CVBS, otherwise performing the gain control on the row of the CVBS by adopting the maximum gain. By the method and the device, when the reference signal is distorted, the problem of picture quality worsening caused by overhigh gain can be solved, the stability of the gain control is improved and luminance and chromaticity information is maximally protected.
+86. 102256086 Image adjusting method and device for television broadcast technology
+CN
+23.11.2011
+H04N 5/57 Loading...
+H04N 5/57
+Loading...
+201010184919.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/57
+Loading...
+The invention provides an image adjusting method and device for a television broadcast technology. The method comprises the following steps of: respectively determining the central position of the line synchronizing pulse of each line specific to an input negative composite video broadcast signal (CVBS); computing the signal-to-noise ratio of the negative CVBS of each line according to the determined central position of the line synchronizing pulse of each line; inquiring a pre-stored table to determine a contrast adjusting factor corresponding to the signal-to-noise ratio of the negative CVBS of each line; and converting the negative CVBS into a positive CVBS and adjusting the contrast of the positive CVBS of each line according to the determined contrast adjusting factor. By applying the scheme provided by the invention, noisy points and white strips can be covered, the bright and dark twinkling degree can be lowered, the visional discomfort caused by sudden change of image brightness is effectively reduced, and user experience is improved.
+87. 102256157 Method and apparatus for determining video signal distortion of mobile simulated television
+CN
+23.11.2011
+H04N 17/02 Loading...
+H04N 17/02
+Loading...
+201010184935.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 17/02
+Loading...
+The invention relates to a method for determining video signal distortion of a mobile simulated television. The method comprises the following steps: determining whether a variation trend of a sync-tip amp is the same as that of a black level; if the variation trends are the same, successively determining whether a variation amplitude TIP_AMP_DIFF_VAL of the sync-tip amp and a variation amplitude BLACK_DIFF_VAL of the black level are simultaneously greater than a predetermined threshold value; if so, determining that CVBS has distortion; if not, finishing the determination. In addition, the invention also discloses an apparatus for determining video signal distortion of the mobile simulated television. After the embodiment of the invention is applied, a case of signal deterioration can be dealt with timely and gain adjustment of AGC can be stopped; besides, a timely and reliable basis is provided for back-end video signal processing.
+88. 102223735 Method and equipment for multi-baseband chips to share and access smart card
+CN
+19.10.2011
+H04W 88/06 Loading...
+H04W 88/06
+Loading...
+201110142057.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 88/06
+Loading...
+The invention provides a method and equipment for multi-baseband chips to share and access a smart card, and aims to solve the problem that multi-communication standards cannot be standby simultaneously. The method comprises the following steps of: setting a master baseband chip and at least one slave baseband chip, connecting each slave baseband chip with the master baseband chip respectively, and connecting the master baseband chip with the smart card; and sending information of accessing the smart card to the smart card one by one by the master baseband chip according to a predetermined strategy when the master baseband chip and each slave baseband chip are in standby state, and the master baseband chip and/or any slave baseband chip generate/generates the information of accessing the smart card, wherein the information is generated by the master baseband chip and/or any slave baseband chip, and the information of accessing the smart card generated by the any slave baseband chip is sent to the master baseband chip by the slave baseband chip for generating the information of accessing the smart card. According to the invention, the multi-communication standards can be standby simultaneously.
+89. 201781482 一种无线导游机
+CN
+30.03.2011
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+200920109419.5
+北京创毅视讯科技有限公司
+张辉
+H04B 1/38
+Loading...
+本实用新型提供了一种无线导游机，包括：存储模块，用于保存导游信息；无线通信模块，用于向无线发射设备发送请求数据，并接收所述无线发射设备返回的地址码；查找模块，用于根据接收到的地址码，从播放列表中查找所述地址码对应的导游信息。同时本实用新型还提供了一种无线导游系统，包括无线发射设备和无线导游机。本实用新型中，导游信息不受旅游线路的影响，且无需人工手动查找，能根据游客的需要即时播放，同时保证游客获取导游信息的质量和完整性。此外，本实用新型设置的无线数字电视接收模块使游客在旅行过程中可以观看数字电视节目，方便且实用性强，同时本实用新型还解决了无线数字电视接收模块和无线通信模块的相互射频干扰的问题。
+90. 201750517 移动多媒体广播接收芯片、装置及基带处理芯片
+CN
+16.02.2011
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+201020164625.9
+北京创毅视讯科技有限公司
+张辉
+H04N 7/24
+Loading...
+本实用新型公开了一种移动多媒体广播接收芯片，该接收芯片包括：调谐器和调制解调器，调谐器将移动多媒体广播CMMB射频信号调谐为CMMB基带信号，接收芯片内还集成有密钥解密模块；调制解调器将调谐器发来的CMMB基带信号解调为加密数字节目信息包，并将该加密数字节目信息包发送至接收芯片外部；接收所述接收芯片外部发来的第一请求密钥消息，将该第一请求密钥消息携带的加密的密钥发送至密钥解密模块；密钥解密模对所述加密的密钥进行解密，并通过调制解调器将解密后的密钥回复给所述接收芯片外部。同时，本实用新型还公开了一种移动多媒体广播接收装置和基带处理芯片，采用该装置能够提高多媒体广播接收装置的集成度。
+91. 101959062 Data transmission method, system and device for China mobile multimedia broadcasting (CMMB) system
+CN
+26.01.2011
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+201010175770.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 7/24
+Loading...
+The invention provides a data transmission method, a data transmission system and a data transmission device for a China mobile multimedia broadcasting (CMMB) system. The method comprises the following steps that: first conversion equipment is arranged on a multiplexer side and second conversion equipment is arranged on a modulator side; the first conversion equipment receives the multiplexing code stream per second output by a multiplexer, bears the multiplexing code stream by using a packed multiplexing stream (PMS) packet, converts the received PMS packet into an Internet protocol (IP) packet and transmits the converted IP packet to the second conversion equipment through an Ethernet path; and the second conversion equipment converts the received IP packet into a PMS packet and transmits the PMS packet to a modulator. Due to the adoption of the scheme, the implementation cost of CMMB technology can be lowered.
+92. 101958761 Data file receiving method and device in mobile multimedia broadcasting system
+CN
+26.01.2011
+H04H 60/85 Loading...
+H04H 60/85
+Loading...
+201010175921.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/85
+Loading...
+The invention provides a data file receiving method in a mobile multimedia broadcasting system. The method comprises the following steps of: A, receiving a File Attribute Table (FAT) of the periodic broadcast of a server by a terminal, when the preset condition is satisfied, judging whether the FAT is completely received, if so, executing a step C, otherwise, requesting missing FAT fragments from the server, and executing a step B; B, receiving the missing FAT fragments returned by the server by a terminal; C, receiving a file of the periodic broadcast of the server by a terminal, when the preset condition is satisfied, judging whether the file is completely received, if so, ending the processing, otherwise, requesting missing file fragments from the server; and D, receiving the missing file fragments returned by the server by a terminal. The invention simultaneously discloses a terminal and a server. By using the scheme of the invention, the receiving time of the data file can be reduced so as to further improve the user experience.
+93. 201682523 一种移动多媒体广播的装置及系统
+CN
+22.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201020157395.3
+北京创毅视讯科技有限公司
+张辉
+H04L 29/06
+Loading...
+本实用新型提供了一种移动多媒体广播的装置及系统，服务器根据移动多媒体广播的装置的第二标识信息及认证请求，对移动多媒体广播的装置进行认证，以确定其是否具有获得业务密钥的资格；服务器根据移动多媒体广播的装置的中央处理器输出的鉴权请求及第二业务信息，产生加密的第二业务密钥并输出至中央处理器；中央处理器先对加密的第二业务密钥进行解密，再根据解密后的第二业务密钥触发信道解调单元解调获得第二业务数据；中央处理器利用解密后的第二业务密钥对第二业务数据进行解密，以对加密的移动多媒体业务数据进行实时地解密播放。采用本实用新型的装置及系统，能够提高移动多媒体业务的实时性和灵活性。
+94. 201663618 移动多媒体广播与互联网业务融合的系统、终端及服务器
+CN
+01.12.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020134429.7
+北京创毅视讯科技有限公司
+张辉
+H04L 29/08
+Loading...
+本实用新型提供了一种移动多媒体广播与互联网业务融合的系统，包括：播放器模块，用于接收并播放用户选择的移动多媒体广播内容；浏览器模块，用于在移动多媒体内容播放窗口中开启交互页面浏览区域；用户喜好分析模块，用于针对用户获取相应的喜好分类信息；交互页面生成模块，用于依据所述用户选择的移动多媒体广播内容及相应的喜好分类信息，搜索互联网内容资源，并生成相应的交互页面；交互页面展示模块，用于将所述交互页面发送至交互页面浏览区域进行展示。本实用新型将移动多媒体广播技术与移动多媒体互动与个性化的移动互联网内容推送相结合，可以了解用户个体的真正喜好，满足用户的个性化需求。
+95. 101895981 Uplink transmission method and device for internet-of-things system and internet-of-things terminal
+CN
+24.11.2010
+H04W 56/00 Loading...
+H04W 56/00
+Loading...
+201010120438.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 56/00
+Loading...
+The invention provides an uplink transmission method and an uplink transmission device for an internet-of-things system and a user terminal and a base station applied to an internet of things, and aims to solve the problem of high system overhead brought by using signaling interaction in a high-rate service system. The uplink transmission method comprises the following steps of: transmitting an uplink synchronous code together with uplink service data to be transmitted when the terminal has the uplink service data for transmission; and not transmitting the uplink synchronous code when the terminal has no uplink service data for transmission. Because the signaling interaction is not adopted during the uplink transmission, the signaling cost is saved, the time for uplink synchronization on a network side can be shortened and the transmission delay of the service data can be reduced so as to reduce the resource consumption.
+96. 101873165 Downlink transmission method and device for cyber-physical system and base station in cyber-physical system
+CN
+27.10.2010
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+201010120436.6
+Beijing Innofidei Inc.
+Liu Guang
+H04B 7/26
+Loading...
+The invention provides a downlink transmission method and a downlink transmission device for a cyber-physical system, and a base station and a user terminal which are applied to the cyber-physical system so as to solve the problem of high system overhead caused by using periodic downlink synchronous codes in a high-speed service system. The downlink transmission method comprises that: when downlink service data on a network side is needed to be sent, downlink synchronous codes are sent together with the downlink service data needed to be sent; a receiving end receives the downlink synchronous codes and the downlink service data; downlink synchronization is carried out through the downlink synchronous codes, and then the downlink service data is decoded; and when downlink service data on the network side is not needed to be sent, the downlink synchronous codes are not sent. According to the characteristics of the cyber-physical system of low speed and small transmission quantity, the periodic downlink synchronous codes are not used for downlink synchronization at the receiving end, so the time for downlink synchronization of the receiving end is shortened and resource consumption is reduced.
+97. 101866412 Device and method for reading labeled data of internet of things
+CN
+20.10.2010
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201010126997.7
+Innofidei Technology Co., Ltd.
+Liu Guang
+G06K 7/00
+Loading...
+The invention provides a device and a method for reading labeled data of an internet of things. The device at least comprises a first wireless receiving and transmitting module which is used for transmitting wireless electric wave energy for triggering a label to send dynamic attribute information of a label attachment, and is also used for receiving the dynamic attribute information sent by the label. The method comprises the following steps of: transmitting the wireless electric wave energy; receiving the wireless electric wave energy by the label, and sending the dynamic attribute information of the label attachment by the label according to the triggering of the wireless electric wave energy; and receiving the dynamic attribute information. The device for reading the labeled data not only can acquire the static attribute of an article (commodity), but also can acquire the dynamic attribute information such as the temperature, the humidity and the like of the article (commodity) in the logistics process, and provide convenience for the logistics whole-course tracking and monitoring.
+98. 101867383 Sensor network node based on internet of things and transmission method thereof
+CN
+20.10.2010
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201010126995.8
+Innofidei Technology Co., Ltd.
+Liu Guang
+H04B 1/38
+Loading...
+The invention provides a sensor network node based on internet of things and a transmission method thereof. The sensor network node comprises an information sensing device and a mobile terminal, wherein the information sensing device is used for identifying and acquiring information of a thing, and transmitting the acquired information to the mobile terminal; and the mobile terminal comprises a wireless radio frequency transceiving module which is used for receiving information, transmitting the information to an information transmission network. The invention is used to reduce the cost for setting the sensor network node.
+99. 101860406 Central processor and mobile multimedia broadcasting device, system and method
+CN
+13.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010145544.9
+Innofidei Technology Co., Ltd.
+Peng Junliang
+H04L 29/06
+Loading...
+The invention provides a central processor, a mobile multimedia broadcasting device, a mobile multimedia broadcasting system and a mobile multimedia broadcasting method. A server, according to the second identifier information and authentication request of the mobile multimedia broadcasting device, authenticates the mobile multimedia broadcasting device to determine if the mobile multimedia device is qualified to acquire a service key; the server generates an encrypted second service key according to the authentication request and second service information which are output by the central processor, and outputs the encrypted second service key to the central processor in the mobile multimedia device; the central processor decrypts the encrypted second service key first and then triggers a channel demodulating unit according to the decrypted second service key so as to acquire second service data; and the central processor uses the decrypted second service key to decrypt the second service data so as to decrypt and play encrypted mobile multimedia service data in real time. The device, the system and the method of the invention can improve the real-time and flexibility of a mobile multimedia service.
+100. 101854528 Method, system and device for realizing China mobile multi-media broadcasting technology
+CN
+06.10.2010
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+201010163884.4
+Innofidei Technology Co., Ltd.
+Li Gang
+H04N 21/236
+Loading...
+The invention provides a method, a system and a device for realizing the China mobile multi-media broadcasting technology. The method comprises the following steps that: each edge multiplexer in a single frequency network receives multiplexing code streams, which are outputted by a central multiplexer to multiplex local programs, per second and sends the multiplexing code streams per second multiplexing the local programs to corresponding modulators, wherein date time (TOD) messages carried in the multiplexing code streams per second and audio/video frame data of homologous programs remain unchanged before and after the local programs are multiplexed; each modulator performs delayed modulation on the received multiplexing code streams per second according to the preset and uniform launch delay of the single frequency network and sends the modulated multiplexing code streams to corresponding radio launchers; and each radio launcher launches the received multiplexing code streams per second. By adopting the technical scheme of the invention, the synchronous broadcasting of the homologous programs within a signal cross-coverage area in the single frequency network can be realized.
+101. 101853413 Electronic tag applied to Internet of things and system using same
+CN
+06.10.2010
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+201010127000.X
+Innofidei Technology Co., Ltd.
+Liu Guang
+G06K 19/07
+Loading...
+The invention provides an electronic tag applied to Internet of things and a system using the same. The electronic tag at least comprises an information acquisition module and a first wireless transceiving module, wherein the information acquisition module is used for acquiring dynamic attribute information of a tag attachment; and the first wireless transceiving module is used for receiving radio wave energy and sending the dynamic attribute information acquired by the information acquisition module according to the trigger of the radio wave energy. The system comprises the electronic tag and reading equipment, wherein the reading equipment is used for sending the radio wave energy to the electronic tag and receiving the dynamic attribute information sent by the electronic tag. The electronic tag can store the dynamic attribute information acquired by a sensor besides static attribute information such as weight of articles (commodity), manufacturer, manufacture data and the like.
+102. 101854346 System and method for fusing mobile multimedia broadcast and Internet service
+CN
+06.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010126828.3
+Innofidei Technology Co., Ltd.
+Wang Xiqiang
+H04L 29/06
+Loading...
+The invention provides a system for fusing mobile multimedia broadcast and Internet service, which comprises a player module, a browser module, a user preference analyzing module, an interactive page generating module and an interactive page exhibiting module, wherein the player module is used for receiving and playing mobile multimedia broadcast contents selected by a user; the browser module is used for starting an interactive page browsing area in a mobile multimedia content playing window; the user preference analyzing module is used for acquiring corresponding preference classification information aiming at the user; the interactive page generating module is used for searching Internet content resources according to the mobile multimedia broadcast contents selected by the user and the corresponding preference classification information, and generating a corresponding interactive page; and the interactive page exhibiting module is used for sending the interactive page to the interactive page browsing area to perform exhibition. The system combines mobile multimedia broadcast technology, mobile multimedia interaction and personalized mobile Internet content push so as to learn about the real preference of individual users and meet the personalized requirements of the users.
+103. 101840634 Urban real-time road condition interactive system, device and method based on internet of things
+CN
+22.09.2010
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201010135258.4
+Innofidei Technology Co., Ltd.
+Song Lei
+G08G 1/01
+Loading...
+The invention provides an urban real-time road condition interactive system, a device and a method based on an internet of things. The method is that an urban traffic command center releases real-time road conduction information; after an urban real-time road condition interactive device installed in a vehicle receives the real-time road condition information, the urban real-time road condition interactive device obtains vehicle position information and current vehicle running speed information, displays the real-time road condition information and the vehicle position information to personnel on the vehicle, and transmits the vehicle position information and the current vehicle running speed information to the urban traffic command center; and urban traffic command center determines the road condition of each road section according to the received vehicle position information and the received current vehicle running speed information, and generates real-time road condition information to be released at the next time. By adopting the scheme, the real road condition information of each road section can be obtained in time and thereby drivers can conveniently and properly select running lines.
+104. 101841344 Data transmitting method, system and equipment in Internet of things
+CN
+22.09.2010
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201010140869.8
+Innofidei Technology Co., Ltd.
+Liu Guang
+H04B 1/38
+Loading...
+The invention provides a data transmitting method in an Internet of things. The method comprises the following steps that: analog terminal equipment periodically turns on a radio transceiver per se and sends a data request message to analog base station equipment after turning on the radio transceiver every time; the analog base station equipment notifies the analog terminal equipment whether data needs transmitting after receiving the data request message and sends the data needing transmitting to the analog terminal equipment when the data needs transmitting; and the analog terminal equipment determines whether the analog base station equipment has the data needing transmitting or not, if so, receives the data from the analog base station equipment and then turns off the radio transceiver if so, and otherwise, directly turns off the radio transceiver. The invention discloses a data transmitting system in the Internet of things and the analog base station equipment and the analog terminal equipment at the same time. Through the scheme of the invention, the energy consumption of the analog terminal equipment can be effectively saved.
+105. 101841866 Method for application of LTE in Internet of things by improving bandwidth allocation and system
+CN
+22.09.2010
+H04W 28/20 Loading...
+H04W 28/20
+Loading...
+201010108145.5
+Innofidei Technology Co., Ltd.
+Liu Guang
+H04W 28/20
+Loading...
+The invention provides a method for the application of LTE (long-term evolution) in the Internet of things by improving bandwidth allocation and a system. The method comprises the following steps: setting the allocation information of the transmission bandwidth in a system message on a network side, wherein the allocation information of the transmission bandwidth comprises the allocation information of the transmission bandwidth lower than that of the minimum standard; generating the control signaling of the data transmission according to the allocation information of the transmission bandwidth by the network side, wherein the control signaling of the data transmission comprises the information about resources blocks or subcarriers occupied by the current data transmission and the information about the format of the current data; transmitting the data in the corresponding format in the corresponding frequency domain positions according to the information of the current resource block or subcarrier; and receiving the corresponding data from the corresponding frequency domain positions according to the allocation information of the transmission bandwidth in the system message and the information of the resource blocks or subcarriers in the control signaling, and analyzing the data according to the information of the data format by a receiving side. The invention can reduce the channel bandwidth and save the frequency-domain resources when the low-rate services are processed in an LTE system.
+106. 101841671 Data receiving method and terminal in mobile multimedia broadcasting (CMMB) system
+CN
+22.09.2010
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+201010177341.8
+Innofidei Technology Co., Ltd.
+Li Gang
+H04N 21/236
+Loading...
+The invention provides a data receiving method and a terminal in a mobile multimedia broadcasting (CMMB) system. The data receiving method comprises the following steps of: receiving multiplexing frame streams transmitted by the CMMB system by the terminal; performing cyclic redundancy check (CRC) on each multiplexing frame X respectively; if the check is failed, further determining the invalidation range, performing multiplexing block header searching in the determined invalidation range and performing CRC on the searched multiplexing block header; and if the check is successful, performing data recovery in different preset modes and according to an initial mark field and a trailer mark field of the multiplexing block header. Due to the application of the scheme, the receiving capacity of the terminal can be improved.
+107. 101841469 Data transmitting method, system and device in Internet of things
+CN
+22.09.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010132957.3
+Innofidei Technology Co., Ltd.
+Liu Guang
+H04L 12/56
+Loading...
+The invention provides a data transmitting method, a data transmitting system and a data transmitting device in an Internet of things. The method comprises the following steps that: a sending end sends a data packet X to a receiving end, notifies the receiving end whether an acknowledge (ACK) signal needs returning, sends a next data package after receiving the ACK signal from the receiving end if the ACK signal needs returning from the returning end, and directly sends the next data package if the data does not need returning from the receiving end; and the receiving end further judges whether the ACK signal needs returning or not if correctly receiving the data package X, returns the ACK signal to the sending end if the ACK signal needs returning, otherwise, does not return any signal to the sending end, and does not return any signal to the sending end if failing to correctly receive the data package X. Through the scheme of the invention, the information communication quantity between the sending end and the receiving end can be effectively reduced so as to effectively reduce the system overhead.
+108. 101841669 Mobile multimedia broadcast receiving chip, device, and method, and baseband processing chip
+CN
+22.09.2010
+H04N 21/414 Loading...
+H04N 21/414
+Loading...
+201010152178.X
+Innofidei Technology Co., Ltd.
+Peng Junliang
+H04N 21/414
+Loading...
+The invention discloses a mobile multimedia broadcast receiving chip. The receiving chip comprises a tuner and a modem, wherein the tuner tunes China mobile multimedia broadcast CMMB radio-frequency signals into CMMB baseband signals; a secret key decryption module is integrated in the receiving chip; the modem demodulates the CMMB baseband signals sent by the turner into an encrypted digital program information packet, and sends the encrypted digital program information packet to the external of the receiving chip; a first request secret key message sent from the external of the receiving chip is received, and the encrypted secret key carried by the first request secret key message is sent to the secret key decryption module; and the secret key decryption module decrypts the encrypted secret key, and replies the decrypted secret key to the external of the receiving chip through the modem. Meanwhile, the invention also discloses a mobile multimedia broadcast receiving device, a mobile multimedia broadcast receiving method and a baseband processing chip, and the method and the device can improve integration level of the multimedia broadcasting receiving device.
+109. 201585132 一种多媒体广告发布系统及终端设备
+CN
+15.09.2010
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+200920109081.3
+北京创毅视讯科技有限公司
+张辉
+H04W 4/12
+Loading...
+本实用新型公开了一种多媒体广告发布系统，用于在购物环境中发布多媒体广告信息，该系统包括：中心控制系统和终端设备；该中心控制系统将各种多媒体信息编码成多媒体广告信息，并采用CMMB技术构造对应于该多媒体广告信息的ESG，并将多媒体广告信息及ESG采用CMMB技术进行复用、调制之后通过射频发射天线发送给终端设备；终端设备通过射频接收天线接收来自中心控制系统的ESG和多媒体广告信息，并播放所接收到的多媒体广告信息。本实用新型还公开了一种终端设备，可以安装在购物环境中的收银台、货架、购物车或电梯口。应用本实用新型能够在商场、超市等购物环境中以较低的成本实现大数据量的、无线式的多媒体广告发布。
+110. 101820299 Method and device for solving multipath interference and mobile multimedia broadcasting receiver
+CN
+01.09.2010
+H04B 1/711 Loading...
+H04B 1/711
+Loading...
+201010110362.8
+Innofidei Technology Co., Ltd.
+Hu Zhangjun
+H04B 1/711
+Loading...
+The invention provides a method and device for solving multipath interference and a mobile multimedia broadcasting receiver, solving the problem that multipath interference is misinterpreted to ACI or CCI and the sensitivity for receiving signals is reduced. The method comprises the following steps: performing real-time sampling to the amplitude of a received signal; using the signal amplitude obtained by sampling to judge whether multipath interference exists; and if so, performing multipath interference processing to the received signal. By using the method of the invention, the situation that multipath interference is misinterpreted to ACI or CCI can be avoided, thus increasing the sensitivity for receiving signals.
+111. 101814227 System and method for remote control of equipment based on Internet of things
+CN
+25.08.2010
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201010129454.0
+Innofidei Technology Co., Ltd.
+Song Lei
+G08C 17/02
+Loading...
+The invention provides a system for remote control of equipment based on the Internet of things, which comprises a mobile terminal, a server of the Internet of things, a forwarding device and controlled devices. The mobile terminal is used for receiving a control command submitted by a user and transmitting the control command to the server of the Internet of things; the server of the Internet of things is used for determining controlled device information and a control signal according to the control command and transmitting the controlled device information and the control signal to the forwarding device; the forwarding device comprises a first transmission module, and is used for receiving the controlled device information and the control signal and distributing the control signal to a controlled device designated by the controlled device information in a way of short-distance transmission; and the controlled devices are used for responding the control signal and implementing corresponding operation. The invention can simplify the operation, save the time, avoid limitation to the number of the controlled devices, and comprehensively satisfy the requirements of users for control any time any where.
+112. 101808406 Method and system for realizing application of LTE (Long Term Evolution) in Internet of things by improving distribution of frequency domain resource
+CN
+18.08.2010
+H04W 72/04 Loading...
+H04W 72/04
+Loading...
+201010005213.5
+Innofidei Technology Co., Ltd.
+Liu Guang
+H04W 72/04
+Loading...
+The invention provides a method for realizing the application of LTE (Long Term Evolution) in the Internet of things by improving the distribution of frequency domain resources, comprising the following steps of: generating a control signaling of data transmission by a network side, wherein the control signaling comprises subcarrier information occupied by current data transmission and the format information of current data; transmitting the data in a corresponding format on a corresponding subcarrier frequency domain position according to the subcarrier information; and receiving the data from the subcarrier frequency domain position and analyzing the data according to the data format information by a receiving end. The invention can effectively enhance the utility ratio of the frequency domain resources on the basis of ensuring the reliability of low-speed service processing.
+113. 101807337 Vehicle-mounted emergency rescue device and method based on Internet of things
+CN
+18.08.2010
+G08B 21/04 Loading...
+G08B 21/04
+Loading...
+201010129277.6
+Innofidei Technology Co., Ltd.
+Song Lei
+G08B 21/04
+Loading...
+The invention provides a vehicle-mounted emergency rescue device based on the Internet of things, which comprises a central processing module, an emergency sensing module, a satellite positioning module, a vehicle information storage module and a wireless data communication module; the wireless data communication module supports more than two network modes; when sensing an accident of a vehicle, the emergency sensing module sends an emergency rescue trigger signal to the central processing module; the central processing module sends an information gathering instruction to the satellite positioning module and the vehicle information storage module and receives vehicle position information returned by the satellite positioning module and vehicle owner information and auxiliary vehicle information returned by the vehicle information storage module; and the received information is packed and integrated and is sent to a rescue connection object by the wireless data communication module. The invention also discloses a vehicle-mounted emergency rescue method based on the Internet of things. By using the scheme, the vehicle owner can get timely rescue after the accident.
+114. 101800726 OFDM time-domain synchronizing method, device and mobile multimedia broadcasting receiver
+CN
+11.08.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201010101690.1
+Innofidei Technology Co., Ltd.
+Hu Changjun
+H04L 27/26
+Loading...
+The invention provides an OFDM time-domain synchronizing, an OFDM time-domain synchronizing device and a mobile multimedia broadcasting receiver, and aims to solve the problem that the receiving sensitivity is reduced caused by the influence of in-band interference signals on time-domain synchronization. The method comprises the following steps of: carrying out in-band filtering on received signals; synchronizing the signals subjected to the in-band filtering; and stopping carrying out the in-band filtering on subsequently-received signals after the signals are synchronized. Through the method and the device, the problem of in-band interference in OFDM time-domain synchronizing process is solved and normal synchronization is realized. Moreover, the mobile multimedia broadcasting receiver is simple to realize without changing the hardware structure of the receiver and is convenient to be compatible with the conventional receiver.
+115. 101754006 Method and system for bearing mobile broadcasting service by China mobile multimedia broadcasting (CMMB) network
+CN
+23.06.2010
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+200910088718.X
+Innofidei Technology Co., Ltd.
+Li Gang
+H04N 21/236
+Loading...
+The invention provides a method for bearing an open mobile alliance (OMA) BCAST mobile broadcasting service by a China mobile multimedia broadcasting (CMMB) network. The method comprises the following steps of: receiving CMMB signals transmitted by the CMMB network, and demodulating to obtain a plurality of multiplex frames, wherein the multiplex frames comprise at least one multiplex frame for bearing control information and at least one multiplex frame for bearing IP data; obtaining a required IP data packet from corresponding multiplex subframes of the multiplex frames through demultiplex operation according to the control information obtained by demodulating and obtaining the concrete data content of the required mobile broadcasting service. In the invention, the IP data packet is multiplexed to the multiplex subframes of a CMMB channel frame, and mapping among a CMMB service platform, a service mark and IP data is established, therefore, the IP data packet needed by an upper-layer OMA BCAS standard can be conveniently transmitted and obtained through standard multiplex and demultiplex operations, and physical bearing of the OMA BCAST in the CMMB network is realized.
+116. 201515375 误比特率测试装置和移动多媒体广播终端
+CN
+23.06.2010
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200820124718.1
+北京创毅视讯科技有限公司
+张辉
+H04L 1/00
+Loading...
+本实用新型公开了一种误比特率测试装置和移动多媒体广播终端，该装置包括接口模块、存储模块和比较模块，其中，接口模块，用于按照移动多媒体广播终端的测试参数接收来自发射端的数据源；存储模块，用于存储预先设置在移动多媒体广播终端中的PN序列，以及测试参数；比较模块，用于比较来自接口模块的数据源和存储模块中的PN序列，以获取BER。包含有本实用新型装置的移动多媒体广播终端按照预先配置的测试参数接收数据源，并与自身预先设置的PN序列进行比较，以获取BER。通过本实用信息方案在移动多媒体广播终端中实现BER的测试，测试时不需要额外增加特殊的连接和BER统计设备，使得BER的测试变得简单，而且在移动多媒体广播终端中实现了全自动的测试过程。
+117. 101742275 Evaluating method and device for a multidiameter fading channel in television broadcasting
+CN
+16.06.2010
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200910241730.X
+Innofidei Technology Co., Ltd.
+Liu Rong
+H04N 7/24
+Loading...
+The invention provides an evaluating method for a multidiameter fading channel in television broadcasting. The method comprises the following steps of: receiving a television signal; extracting signals at the front half row and the back half row of the starting point of the received field-synchronizing signal; comparing the extracted signals with a reference signal 1 which is preset in local, and performing delay evaluation on each diameter of the channel; by evaluating the delay relative to each diameter, performing the amplitude and phase evaluation on each diameter, wherein the reference signal 1 which is preset in local is obtained by the signals at the front half row and the back half row of the starting point of the field-synchronizing signal in the standard signal. The invention can perform multidiameter fading channel evaluation on the analogue television signals without anti-ghost reference signals (GCR), thereby improving the picture quality when the signal is broadcast.
+118. 101715088 Automatic gain control method and device for analog mobile TV
+CN
+26.05.2010
+H04N 5/52 Loading...
+H04N 5/52
+Loading...
+200910237314.2
+Innofidei Technology Co., Ltd.
+Hu Wei
+H04N 5/52
+Loading...
+The invention provides an automatic gain control method and device for analog mobile TV. The method comprises the following steps: detecting the power of a signal; judging which preset state the power of the current signal belongs to according to preset conditions, wherein the preset state contain a normal state, an oversaturated state and a over-low state; performing the adjustment operation corresponding to different states, wherein the parameters of the adjustment operation comprise the adjustment frequency and adjustment step length; and when in the oversaturated state, determining the reduced step length according to the deviation between the power of the current signal and a target value, wherein the more the deviation is, the more the reduced step length is and the adjustment frequency in the over-low state is less than that in the oversaturated state. The invention provides the novel nonequilibrium control method which adopts different adjustment frequencies and adjustment step lengths according to different signal states so that the average power of the adjusted signal is more stable and is closest to the power of the signal in the optimum operating state of the system.
+119. 201491050 射频接收卡及移动设备
+CN
+26.05.2010
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200920150210.3
+北京创毅视讯科技有限公司
+张辉
+H04M 1/02
+Loading...
+本实用新型提供了一种射频接收卡，该接收卡包括：具有标准引脚的集成电路卡本体、设置在所述集成电路卡本体中的射频信号接收处理单元，在所述集成电路卡本体上还增设有射频引脚和辅助接地引脚；其中，所述射频信号接收处理单元通过标准引脚中的电源引脚接入电源；以及，通过标准引脚中的接地引脚和所述增设的辅助接地引脚实现接地保护；所述射频引脚用于接收广播射频信号，并传输给所述射频信号接收处理单元；所述射频信号接收处理单元用于对所述广播射频信号进行处理，并将处理结果通过所述集成电路卡本体的标准引脚输出。本实用新型在集成电路卡本体上增设了射频引脚和至少一个辅助接地引脚，提高了射频信号输入和接收的灵敏度。
+120. 101692631 Interference signal detection method and receiver with interference detection function
+CN
+07.04.2010
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200910093894.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 17/00
+Loading...
+The invention discloses an interference signal detection method which is suitable for a receiver; in the method, the band width of an I-path filter and a Q-path filter of a tuner is adjusted in an idle time that the receiver does not carry out data transmission, so as to carry out ACI and CCI interference detection; in addition, the band width of the tuner is adjusted according to the result of the interference detection, so as to control on/off state of the ACI filter and CCI filter in a demodulator; in a time slicing that the receiver receives a data package, the data package is received. The invention further discloses a receiver with an interference detection function. By applying the invention, on the premise of not affecting the data transmission, the ACI/CCI detection is realized and the integration cost is reduced.
+121. 101651452 RC integrating circuit
+CN
+17.02.2010
+H03H 11/04 Loading...
+H03H 11/04
+Loading...
+200910092363.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H03H 11/04
+Loading...
+The invention discloses an RC integrating circuit, wherein an MOS transistor is added in a feedback loop of the RC integrating circuit which is applied to an active-power filtering circuit so that theadded MOS transistor and an integrating capacitor Ci form a zero pole; the generated zero pole of the MOS transistor and the Ci just counteracts a parasitic pole caused by an RC integrator in the active-power filtering circuit by controlling the resistance value of the MOS transistor, therefore, the generation of peak response is avoided, and the linear characteristics of an active-power filter are further kept; and meanwhile, the RC integrating circuit is also additionally provided with a tracking circuit in order to guarantee the zero-pole counteraction effect under the condition of environmental changes, and the tracking circuit self-adaptively controls the resistance value of the MOS transistor according to parameter changes of components in the RC integrating circuit, thereby ensuring that the zero-pole counteraction effect is not influenced by environmental changes.
+122. 101635602 Method and device for detecting interference signal
+CN
+27.01.2010
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200910090625.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 17/00
+Loading...
+The invention discloses a method and a device for detecting interference signals. The method comprises the following steps: dividing received radio-frequency signals into two paths: I and Q, and differing the phases of the two paths of signals by 90 degrees; inputting the signals of the I path to a first LPF, inputting the signals of the Q path to a second LPF, and setting the bandwidth of the first LPF to be always greater than that of the second LPF; judging whether the total power of the signals of the I path, which are outputted by the first LPF after filtering is greater than the total power of the signals of the Q path, which are outputted by the second LPF after filtering, and judging whether the comparison value of the total power of the two paths of signals is greater than a preset ACI determination threshold; and if so, determining that ACI signals exist. The invention has simple hardware structure and simple and convenient implementation.
+123. 101582729 Method and system for acquiring service key, conditional access module and subscriber terminal
+CN
+18.11.2009
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+200910085316.4
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 12/18
+Loading...
+The invention provides a method and a system for acquiring a service key. The method comprises the following steps: a subscriber terminal acquires authorization directing at the present type of service from the network terminal; the authorization is set based on the type of service; if the authorization is broadcasting authorization, the subscriber terminal receives an authorization key from the network terminal by means of broadcasting authorization; if the authorization is bidirectional authorization, the subscriber terminal receives the authorization key from the network terminal by means of bidirectional authorization; wherein, the authorization key is generated by the network terminal based on service information. The invention further provides a conditional access module and the subscriber terminal. In the invention, the subscriber terminal which has broadcasting authorization and bidirectional authorization combines the advantages of the two authorizations, satisfies the need of different subscribers flexibly, improves the subscriber authorization efficiency, promotes subscriber experience and saves resources and power dissipation.
+124. 101568191 Data communication method between master device and slave device at mobile terminal and mobile terminal
+CN
+28.10.2009
+H04W 84/20 Loading...
+H04W 84/20
+Loading...
+200910083483.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 84/20
+Loading...
+The invention provides a data communication method between a master device and a slave device at a mobile terminal, and the method comprises the following steps: a plurality of logical channels are prearranged between the master device and the slave device, and a corresponding memory region is allocated at the slave device end for each logical channel; the logical channels are used for data communication between the master device and the slave device for specific applications; when the data transmission between the master device and the slave device is required by two or more parallel specific applications, a requesting end stores the request data of each specific application into the allocated memory region of the corresponding logical channel; a receiving end reads the request data from the allocated memory region of the corresponding logical channel of each specific application. As different memory regions are allocated for different applications, parallel data communication of a plurality of applications can be executed simultaneously between the master device and the slave device at one moment, therefore, the data communication of different applications does not interfere with each other, thus ensuring the communication efficiency.
+125. 101567920 Radio frequency receiving card and mobile device
+CN
+28.10.2009
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+200910138303.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04M 1/02
+Loading...
+The present invention provides a radio frequency receiving card which comprises the following components: an integrated circuit card body with standard pins; and a radio frequency signal receiving and processing unit which is installed in the integrated circuit card body. The integrated circuit card body is additionally installed with a radio frequency pin and auxiliary grounding pins; wherein, the radio frequency signal receiving and processing unit is switched into a power source through a power source pin in the standard pins. Furthermore, the grounding protection is realized through the grounding pin in the standard pins and the additionally installed auxiliary grounding pins. The radio frequency pin is used for receiving the broadcast radio frequency signal and transmitting to the radio frequency signal receiving and processing unit. The radio frequency signal receiving and processing unit is used for processing the broadcast radio frequency signal and outputting the processing result through the standard pins of the integrated circuit card body. According to the invention, the integrated circuit card body is additionally installed with the radio frequency pin and at least one auxiliary grounding pin. The sensitivity for inputting and receiving the radio frequency signal is increased.
+126. 101562751 Multi-service multiplexing method and multi-service multiplexing device in mobile multimedia broadcasting system
+CN
+21.10.2009
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+200810247450.5
+Beijing Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 21/236
+Loading...
+The invention discloses a multi-service multiplexing method in a mobile multimedia broadcasting system. The multi-service multiplexing method comprises the following steps: configuring multi-channel services for multiplex frames in advance, and setting respective quality of service (QoS) level for each channel of service; multiplexing data to be transmitted of the configured multi-channel services in the current multiplex frames in high-low order according to QoS level until the current multiplex frames can not carry the data to be transmitted or the data to be transmitted of all the configured services are multiplexed. The invention further provides a multi-service multiplexing device in a mobile multimedia broadcasting system. The multi-service multiplexing method and the multi-service multiplexing device in the mobile multimedia broadcasting system can help improve utilization ratio of channel resources and realize multiplex frame bandwidth sharing by a plurality of services.
+127. 201332396 一种直放站
+CN
+21.10.2009
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200820122504.0
+北京创毅视讯科技有限公司
+张辉
+H04B 7/14
+Loading...
+本实用新型公开了一种直放站，来自接收天线的射频信号经接收侧射频处理单元和第一数字下变频单元(DDC)处理后，基带处理单元以其自身输出信号的基带数字信号作为参考信号，对得到的数字中频信号进行回波消除处理后发送给数字下变频单元(DUC)，之后经DUC、发送侧射频处理单元和功率放大处理单元处理后经发送天线发射。本实用新型作为对回波消除的闭环控制的参考信号直接由基带处理单元自身产生，即以基带数字信号作为参考信号参与回波消除处理，简化了回波消除的处理复杂度：一方面，由于无需增加对参考信号进行处理的硬件电路，大大减小了系统复杂性，另一方面，同时也保证了对回波的消除效果。而且，本实用新型基带处理单元的延时相当小。
+128. 201328163 移动多媒体广播接收装置以及接收卡和接收终端
+CN
+14.10.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200820234028.1
+北京创毅视讯科技有限公司
+张辉
+H04N 7/16
+Loading...
+本实用新型公开了一种移动多媒体广播接收装置，包括：移动多媒体广播(CMMB)信号接收单元以及条件接收单元；所述CMMB信号接收单元将通过天线接收到的加密后的CMMB信号进行处理，得到符合CMMB标准的带有密钥的CMMB音视频流，并输出给所述条件接收单元；所述条件接收单元对接收到的带有密钥的CMMB音视频流进行解密，得到清流节目码流并输出。本实用新型同时公开了一种移动多媒体广播接收卡和接收终端。应用本实用新型所述的移动多媒体广播接收装置、接收卡和接收终端，能够实现对于加密后的CMMB信号的接收。
+129. 101552944 A method, device, system and mobile terminal for mobile terminal realization service
+CN
+07.10.2009
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+200910081808.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 4/00
+Loading...
+The present invention discloses a method, device, system and mobile terminal for mobile terminal realization service. Through setting the correspondence between different services and network modes, after a mobile terminal or network triggers a service, the present invention may activate the most suitable network mode for this service by means of distinguishing the currently triggered service, thus making full use of the network resources under the coexistence of multiple networks and ultimately improving user's service experience.
+130. 101552646 Data file receiving method and device in mobile multimedia broadcasting system
+CN
+07.10.2009
+H04H 60/68 Loading...
+H04H 60/68
+Loading...
+200910076279.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/68
+Loading...
+The present invention discloses a data file receiving method and a device in mobile multimedia broadcasting system. After a whole file attribute table (FAT) file is received, a temporary file and an index secondary file are established for the data file to be received according to the file attribute information described in the FAT file. The index secondary file is used for identifying whether the different file blocks or file slices in the data file to be received is written into the temporary file. The received file block or file slice is written into the temporary file with a non-repetitive mode according to the index secondary file. The internal memory resource can be saved when the method and the device according to the invention are applied.
+131. 101552651 Data file receiving method and device in mobile multimedia broadcasting system
+CN
+07.10.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200910076278.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 1/00
+Loading...
+The present invention discloses a data file receiving method in multimedia broadcasting system, wherein the method comprises the following steps: A. receiving file slice/ erasure correction slice; B. determining whether a file attribute table FAT file is wholly received, and if the file attribute table file is not wholly received, executing a step C; and C. determining whether the received file slice/erasure correction slice is stored in a corresponding temporary file through inquiring an index secondary file corresponding with the received file slice/ erasure correction slice, if yes, discarding the received file slice/ erasure correction slice and executing the step A; otherwise, storing the received file slice/ erasure correction slice into the corresponding temporary file, recording in the corresponding index secondary file, and executing the step A. The invention simultaneously discloses a data file receiver in the mobile multimedia broadcasting system. The data file receiving efficiency can be increased when the method and the device of the invention are applied.
+132. 101547052 Method and device for data transmission in mobile multimedia broadcast system
+CN
+30.09.2009
+H04H 60/68 Loading...
+H04H 60/68
+Loading...
+200910076619.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/68
+Loading...
+The invention discloses a method for data transmission in a mobile multimedia broadcast system, wherein in the process of broadcasting data files, file attribute table (FAT) data is inter cut. The invention also discloses a device for the data transmission in the mobile multimedia broadcast system. By applying the method and the device, memory resources and terminal electric quantity can be saved.
+133. 201315594 移动多媒体广播接收装置、接收卡及接收终端
+CN
+23.09.2009
+H04H 60/91 Loading...
+H04H 60/91
+Loading...
+200820109758.9
+北京创毅视讯科技有限公司
+张辉
+H04H 60/91
+Loading...
+本实用新型公开了一种移动多媒体广播(CMMB)接收装置、接收卡及接收终端。本实用新型提供的移动多媒体广播接收装置包括射频信号接收与变换，以及CMMB接收两部分，其中，射频信号接收与转换单元，接收来自天线的射频信号，将接收到的射频信号放大、滤波，并转换为基带信号；CMMB信号接收单元，接收来自射频信号接收与转换单元的基带信号，对接收到的基带信号进行处理后得到符合CMMB标准的CMMB音视频流后输出，本实用新型装置无需使用者增加硬件设计，便可方便地实现对CMMB接收功能的支持。本实用新型通过将CMMB接收功能集成在接收卡中，使得接收卡具有CMMB信号接收功能，方便了用户，缩短了接收终端开发周期，节约了投资。
+134. 201315593 接收卡及移动终端
+CN
+23.09.2009
+H04H 40/18 Loading...
+H04H 40/18
+Loading...
+200820122822.7
+北京创毅视讯科技有限公司
+张辉
+H04H 40/18
+Loading...
+本实用新型公开了一种接收卡及使用该接收卡的移动终端。本实用新型提供的接收卡包括射频信号接收与变换，以及CMMB接收两部分，无需使用者增加硬件设计，便可方便地实现对CMMB接收功能的支持。本实用新型通过通过在使用本实用新型接收卡的移动终端中设置的接口，用户只需如同平时使用接收卡一样，将接收卡插入接收终端，并通过在接收卡中设置的CMMB接收功能，便可方便地实现了对CMMB接收功能的支持，接收CMMB数字电视信号。而对于接收终端厂家来说，可以不需要增加额外的硬件技术支持，缩短了接收终端开发周期，节约了投资。
+135. 101527883 Data receiving method and receiving terminal in mobile multimedia broadcasting system
+CN
+09.09.2009
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200910081925.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 4/06
+Loading...
+The present invention discloses a data receiving method and a receiving terminal in a mobile multimedia broadcasting system, wherein the receiving method comprises the following steps: obtaining unified program list information which is obtained by combining the program list information of the cell and the program list information of available adjacent cell; simultaneously storing the channel parameter of the cell and available adjacent cell corresponding with the common program; confirming the program selected by the user is common program or unique program of available adjacent cell; if the program selected by the user is the common program, receiving data with the channel parameter of the cell corresponding with the program, if the receiving is not completed correctly, receiving data with the channel parameter of available adjacent cell corresponding with the common program; and if the program selected by the user is the unique program, receiving data directly use the channel parameter corresponding with the unique program, and finishing the flow path after receiving correctly. The application of the method and receiving terminal according to the invention can increase the service experience of user and reduce the power consumption of receiving terminal.
+136. 101521791 Mobile multimedia broadcast receiving method and device, receiving card and receiving terminal
+CN
+02.09.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200810247449.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 7/16
+Loading...
+The invention discloses a mobile multimedia broadcast receiving device, which comprises a mobile multimedia broadcast (CMMB) signal receiving unit and a condition receiving unit, wherein the CMMB signal receiving unit is used for processing an encrypted CMMB signal received by an antenna to obtain CMMB audio-video stream with a key in consistency with a CMMB standard, and outputting the CMMB audio-video stream to the condition receiving unit; and the condition receiving unit is used for decrypting the received CMMB audio-video stream with the key to obtain clear program code stream and outputting the clear program code stream. Simultaneously, the invention discloses a mobile multimedia broadcast receiving card and a receiving terminal, and a mobile multimedia broadcast receiving method. The method and the device can achieve the receiving of the encrypted CMMB signal.
+137. 101516077 Method for improving communication quality of wireless communication network, terminal and network equipment thereof
+CN
+26.08.2009
+H04W 4/16 Loading...
+H04W 4/16
+Loading...
+200910081444.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04W 4/16
+Loading...
+The invention discloses a method for improving the communication quality of wireless communication network, which leads voice call out service of a dual-model and dual-stand terminal supporting time division synchronous CDMA (TD-SCDMA) network and GSM network to be launched under the GSM network, and the voice call out service of the dual-model and dual-stand terminal under the TD-SCDMA network is carried out under the GSM network by call transfer. The invention also discloses the dual-model and dual-stand terminal and network equipment. By applying the invention, the advantages of the TD-SCDMA network and GSM network can be fully developed, thus improving the communication quality of the wireless communication network.
+138. 101505303 Method, terminal and system for implementing interactive service
+CN
+12.08.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910080234.0
+Innofidei Technology Co., Ltd.
+Yang Junyun
+H04L 29/06
+Loading...
+The invention discloses a method for achieving interactive service, which comprises that: firstly, a terminal receives main content of the interactive service issued by a multimedia broadcast service server, all additional content of the interactive service and a service logic relation of all parts in the additional content from a unidirectional broadcast network; then, the terminal carries out virtual information interaction with a user according to the main content of the interactive service, the all additional content of the interactive service and the service logic relation of all parts in the additional content to acquire a service interaction result; and finally, the terminal sends the service interaction result to an interactive service server through a bidirectional communication network so as to reduce the frequency degree of information interaction between the terminal and the interactive service server. The invention also discloses the terminal and a system for achieving the interactive service. The invention can lighten the flow load of the bidirectional communication network and reduce the communication cost of the interactive service.
+139. 101500111 Automatic gain control method, apparatus and receiver for mobile digital multimedia broadcast
+CN
+05.08.2009
+H04N 5/52 Loading...
+H04N 5/52
+Loading...
+200810239861.X
+Beijing InnoFidei Technology Limited
+Zhang Hui
+H04N 5/52
+Loading...
+The invention discloses an automatic gain control method of mobile digital multimedia broadcasting, a device and a receiver. The invention adjusts the gain of a tuner by comparing the signal strength of a current radio-frequency signal and the step size of a preset target range. The step size used for adjusting the gain of the tuner is directly relevant to the deviation of the current radio-frequency signal strength from the target range. Therefore, the adjustment speed is high and the adjustment time is less; and in a fast-fading channel environment, the consistency of the adjustment pace and the variation of the fast-fading channel and normal adjustment of the AGC are guaranteed, thereby guaranteeing to achieve an ideal multimedia playing effect.
+140. 101483453 Echo cancellation device of mobile multimedia system repeater and echo cancellation method
+CN
+15.07.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810104188.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/26
+Loading...
+The present invention discloses an echo eliminator of direct broadcasting station of mobile multimedia broadcasting system and an echo eliminating method thereof. The invention is applied for the mobile multimedia broadcasting system which has a baseband sampling rate that is larger than the physical band width and has the physical band width that is larger than the signal band width. The echo eliminating method comprises the following steps: generating a training sequence which has a baseband sampling rate that is larger than the physical band width and has the physical band width that is larger than the signal band width; eliminating echo signal channel according to the generated training sequence and receiving signal, reconstructing the echo signal according to the echo signal channel elimination result and the erasion auxiliary signal for eliminating the received echo signal; after erasing the eliminated echo signal from the received signal, adding the generated training sequence for obtaining the output signal; and simultaneously using the output signal as the erasion auxiliary signal. The invention can eliminate the echo signal of direct broadcasting station in the mobile multimedia broadcasting system and improves the performance of direct broadcasting station.
+141. 101478312 LDPC decoder and method for decoding implementation
+CN
+08.07.2009
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+200810239700.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H03M 13/11
+Loading...
+The invention discloses a low-density parity check (LDPC) encoder and a method thereof for realizing coding. In the LDPC encoder, information of a variable node is refreshed by a currently participant check node after processing of each level is completed during the information transfer process; and the variable node also participates in other check nodes, so that a VCVNU unit uses the refreshed variable node information when processing the level including the other check nodes. Therefore, the variable node information is refreshed continuously between the levels, and the information transfer mechanism is different from the existing mechanism completely; the information transfer mechanism of the LDPC encoder utilizes the known information more fully, so the convergence speed is increased, less iteration times are used to complete the coding, decoding delay is reduced, and the decoding performance is enhanced at the same time. At the same time, a memory cell is saved to a great extent because C2V information is simplified greatly, thereby effectively saving the memory space.
+142. 101478656 Co-channel interference filtering method and apparatus therefor
+CN
+08.07.2009
+H04N 5/50 Loading...
+H04N 5/50
+Loading...
+200810239698.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/50
+Loading...
+The present invention discloses a co-frequency interference filtering method and a co-frequency interference filtering device, wherein the co-frequency interference filtering method comprises the following steps: detecting the receiving frequency band for confirming the frequency point in which an interfering signal exists; respectively adjusting the filtering parameters of filters which have the number same to the number of frequency points according to the confirmed frequency points; and filtering wave with the filters which are adjusted with filtering parameters. The technical scheme disclosed by the invention can simply and reliably eliminate the known and unknown co-frequency interference signal and increase the anti-interference capability of system.
+143. 101478360 Multi-service multiplexing method and apparatus in mobile multimedia broadcast system
+CN
+08.07.2009
+H04J 3/16 Loading...
+H04J 3/16
+Loading...
+200810239913.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04J 3/16
+Loading...
+The invention discloses a multi-service multiplexing method for a China mobile multi-media broadcasting (CMMB) system. The method comprises the following steps: with regard to multiplexing frames allocated with only one path of real-time service, multiplexing the transmitted data of the real-time service in the current multiplexing frame; and determining the residual capacity of the current multiplexing frame according to the length of the multiplexing frame header and the data volume of the real-time service used by the multiplexing frame, and multiplexing the transmitted data of one path of non-real-time service in the current multiplexing frame by use of the residual capacity. The invention also discloses a multi-service multiplexing device for a CMMB system. The multi-service multiplexing method and the multi-service multiplexing device can increase the utilization rate of channel resources and allow the multiple services to share the multiplexing frame bandwidth.
+144. 101478519 Fine synchronization method and receiver
+CN
+08.07.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810239697.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/26
+Loading...
+The invention discloses a fine synchronization method comprises A. estimating a channel type, and determining a first pathway position M1, a final pathway position M2 and a channel time delay expansion of a channel; B. comparing the channel time delay expansion with the size of a CP length Ncp; if the channel time delay expansion is less than or equal to the Ncp, the fine synchronization position is determined in a region with a length of (Ncp-(M2-M1)) from M2 along an opposite direction to the M1; if the channel time delay expansion is larger than the Ncp, the fine synchronization position is determined in a position with least intersymbol interference in a region with a length of ((M2-M1)-Ncp) from (M1+Ncp) along the M2 direction. The invention also discloses a receiver. The invention can achieve the accurate fine synchronization and make the ISI and the ICI minimum.
+145. 101478507 Channel estimation method and terminal
+CN
+08.07.2009
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+200810239159.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 25/02
+Loading...
+The invention discloses a channel estimation method, which suits a CMMB terminal under the condition that channel delay extension is larger than CP. The method comprises the following steps: firstly, subjecting inputted discrete pilot frequencies to interpolation in the time direction; and then subjecting the discrete pilot frequencies to interpolation in the frequency direction. The invention further discloses a CMMB terminal. The method can improve the frequency domain resolution of the discrete pilot frequencies, thereby preventing the occurrence of aliasing even under the condition of long delay extension and further effectively improving the channel estimation performance of the CMMB terminal.
+146. 101478367 Error bit rate test method, apparatus and mobile multimedia broadcast terminal
+CN
+08.07.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810239912.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 1/00
+Loading...
+The invention discloses a method for testing bit error rate (BER). The method comprises the following steps: receiving a data source according to the pre-allocated test parameters, and comparing the data source with the preset PN sequence to obtain the BER. The invention also provides a device for testing bit error rate and a mobile multimedia broadcasting terminal. The method can test the BER in the mobile multimedia broadcasting terminal, without needing the extra specific connection or the BER statistical equipment, thereby simplifying the BER test; and the full-automatic test is realized in the mobile multimedia broadcasting terminal.
+147. 101478520 Descramble method and apparatus
+CN
+08.07.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810239701.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/26
+Loading...
+The invention discloses a descrambling method and a device comprising: receiving a scrambling Orthogonal Frequency Division Multiplexing (OFDM) signals, respectively extracting the same numbers of more than one pilot in the adjacent OFDM signals; descrambling each pilot according to the known probably adopted N types of initial phases when scrambling, and obtaining N types of descrambling results for each pilot, wherein N is a positive integer; obtaining eight relative results for each pair of OFDM signals after performing relative operations to each pair of OFDM signals based on the descrambling results of each pilot; calculating and obtaining final needed eight energy values based on the eight relative results of each pair of the OFDM signals, determining the maximum value corresponding initial phase as an initial phase used when scrambling and using the initial phase to descramble. The application of the method and the device in the invention enables a receiving end to correctly recognize the initial phase used by a transmitting end, and further realize the descrambling.
+148. 101478518 Coarse synchronization method and receiver
+CN
+08.07.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810239696.8
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/26
+Loading...
+The invention discloses a coarse synchronizing method for presetting a first constant and a second constant and comprising: A. performing an auto correlation operation to a received signal and obtaining an auto correlation energy value corresponding to each received signal sampling point; B. judging whether the first constant numbers of the auto correlation energy values which are continuous less than a relative threshold exist, if true, executes step C; C. judging whether the second constant numbers of the auto correlation energy values which are continuous bigger than the relative threshold exist from the last auto correlation energy value which is continuous less than the relative threshold, if true, executes step D; D. determining the coarse synchronizing method and fraction frequency offset according to the received signal sampling point position corresponding to the auto correlation energy values which are continuous bigger than the relative threshold. The invention also discloses a receiver. The application of the invention can realize higher precision coarse synchronization by using smaller operation quantity under the condition that strong noise, strong interference or deep fade exists.
+149. 101464491 Test method and system
+CN
+24.06.2009
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+200910077512.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+G01R 31/28
+Loading...
+The invention discloses a testing method which comprises the following steps: acquiring the testing procedure from automatic test equipment (ATE) by using a device under test (DUT) and initializing according to the testing procedure; receiving test signals by using the DUT, and testing according the test signals, and outputting test results; and reading the test results by using the ATE and determining whether the DUT conforms to the requirements according to the test results. The invention simultaneously discloses a testing system. By applying the method and the system, the test cost can be reduced, the fault coverage can be improved, and the invention can be implemented easily.
+150. 201260158 移动多媒体广播接收卡及移动设备
+CN
+17.06.2009
+H04B 1/06 Loading...
+H04B 1/06
+Loading...
+200820122847.7
+北京创毅视讯科技有限公司
+张辉
+H04B 1/06
+Loading...
+本实用新型公开了移动多媒体广播接收卡及移动设备。其中，移动多媒体广播接收卡包括：移动存储卡座本体和安装在移动存储卡座上的移动多媒体广播接收单元，在移动存储卡座本体的所有引脚中选择一个引脚作为射频引脚，将该射频引脚的一端与射频天线相连，另一端与移动多媒体广播接收单元相连，射频引脚将来自天线的移动多媒体广播射频信号传输给所述移动多媒体广播接收单元。本实用新型使得移动多媒体广播接收单元可以通过移动存储卡座本体的固有引脚来收发射频信号，无需增加新的引脚，减少了移动多媒体广播接收卡的体积；另外，移动多媒体广播接收单元还可以在移动存储卡座上自由安装、拆卸，提高了移动多媒体广播接收单元的使用灵活性。
+151. 201260178 基于移动存储卡实现的接收卡及移动设备
+CN
+17.06.2009
+H04H 60/91 Loading...
+H04H 60/91
+Loading...
+200820122849.6
+北京创毅视讯科技有限公司
+张辉
+H04H 60/91
+Loading...
+本实用新型公开了一种基于移动存储卡实现的接收卡及移动设备，其中，接收卡包括：移动存储卡本体、安装在移动存储卡本体中的多媒体广播接收单元和在移动存储卡本体上增设的射频引脚。其中，射频引脚用于将来自天线的移动多媒体广播射频信号传输给多媒体广播接收单元；多媒体广播接收单元用于将所述射频信号进行处理后转换为符合设定接口协议的音视频流通过所述移动存储卡本体的标准引脚输出。本实用新型所公开的技术方案，能够使移动存储卡成为一个支持移动多媒体广播接收功能的接收卡，使应用移动存储卡的移动设备方便地实现对移动多媒体广播接收功能的支持。
+152. 201260174 一种适用于批量产品测试的无线广播终端测试设备
+CN
+17.06.2009
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200820109402.5
+北京创毅视讯科技有限公司
+张辉
+H04B 17/00
+Loading...
+本实用新型公开了一种适用于批量产品测试的无线广播终端测试设备，包括测试信号发生器，用于将获取数据源处理成预设强度的射频信号的测试；信号衰减器，用于对接收到的预设强度的射频信号进行衰减的；以及功分器，用于将衰减后的射频信号均衡地复制成多路信号强度满足待测无线广播终端需求的射频信号，并分别通过射频线传送给各自连接的待测无线广播终端。本实用新型一台无线广播终端测试设备一次可以同时外接多台无线广播设备进行测试，大大提高了测试速度，利于批量产品测试；而且，由于数据源存储在PC机中，数据源的大小也不会受到测试信号发生器本身容量的限制。
+153. 201260203 基于移动存储卡实现多媒体广播接收的接收卡及移动设备
+CN
+17.06.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200820122848.1
+北京创毅视讯科技有限公司
+张辉
+H04N 5/44
+Loading...
+本实用新型公开了一种基于移动存储卡实现多媒体广播接收的接收卡及移动设备。接收卡包括：移动存储卡本体、多媒体广播接收单元、射频引脚和配置单元。其中，配置单元用于安装在移动设备中，根据移动设备支持的接口类型，控制接收卡工作在与移动设备的接口类型相对应的工作模式上；射频引脚用于将来自天线的移动多媒体广播射频信号传输给多媒体广播接收单元；多媒体广播接收单元用于将射频信号进行处理后得到符合移动设备接口类型的音视频流输出给移动设备。本实用新型所公开的技术方案，能使移动设备方便地实现对移动多媒体广播接收功能的支持。
+154. 201260074 一种防止产生通用串行总线浪涌电压的装置
+CN
+17.06.2009
+H02H 9/04 Loading...
+H02H 9/04
+Loading...
+200820109425.6
+北京创毅视讯科技有限公司
+张辉
+H02H 9/04
+Loading...
+本实用新型公开了一种防止产生通用串行总线USB浪涌电压的装置，包括：USB芯片以及VBUS电源；此外还包括：低压差线性稳压器LDO；所述LDO的输入管脚与所述VBUS电源相连，输出管脚与所述USB芯片的VBUS以及VBAT管脚相连；所述LDO用于将由所述VBUS电源输入的电压延迟后输出给所述USB芯片的VBUS和VBAT管脚。应用本实用新型所述的装置，能够避免USB芯片与VBUS电源相连接的瞬间由于VBUS电源输出电压过高而对USB芯片造成的损害。
+155. 101437034 Data business transmission method, system and apparatus
+CN
+20.05.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810240257.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 29/06
+Loading...
+The invention discloses a method for data service transmission, which comprises the following steps: determining multiplex sub-frames used by international protocol (IP) data packets corresponding to difference data services received currently for transmission respectively; and encapsulating all IP data packets using the same multiplex sub-frame for transmission into the same multiplex sub-frame and transmitting the data packets to a terminal. The invention also discloses a system and a device for data service transmission. The method, the system and the device of the invention can realize flexible configuration of data services and facilitate the flexible operation of the IP-based data services in a China mobile multimedia broadcast (CMMB) system.
+156. 201238306 一种覆盖建筑物深室内区域的移动多媒体广播系统
+CN
+13.05.2009
+H04H 20/61 Loading...
+H04H 20/61
+Loading...
+200820108205.1
+北京创毅视讯科技有限公司
+张辉
+H04H 20/61
+Loading...
+本实用新型公开了一种覆盖建筑物深室内区域的移动多媒体广播系统，包括用于发射移动多媒体广播信号的发射台，还包括至少一个覆盖至少一座建筑物的室内区域的变频直放站；各变频直放站与发射台通过无线链路相连，接收发射台发射的移动多媒体广播信号后，变更承载该信号的频段并放大该信号的功率后将其发射。本实用新型的技术方案能够使移动多媒体广播信号覆盖建筑物深室内区域，由于改变了承载移动多媒体广播信号的频段，因此不会对附近区域的信号造成干扰。
+157. 101426174 Apparatus and method for wireless broadcast data service implementation
+CN
+06.05.2009
+H04W 4/06 Loading...
+H04W 4/06
+Loading...
+200710176630.4
+Lenovo Mobile Communication Technology Ltd.
+Li Huidi
+H04W 4/06
+Loading...
+The present invention provides an apparatus and method for realizing wireless broadcast data services. The apparatus includes a general program executing platform, for receiving and operating the executive program from the wireless broadcast transmission terminal. By applying the technique provided by the invention, service operators can change the content of data services only by updating the cross-platform executive program and service data; at the same time, the criterion and standard followed by the general program executing platform is public, therefore the service operator only needs to pay attention to the maintenance of transmitting ends after adopting the technique, the service content can be provided by a third party in an authorization and recruitment mode and the third party may publish the executive program developed themselves on their own Web site.
+158. 101426110 Method for implementing television channel switch and multimedia broadcast receiving terminal
+CN
+06.05.2009
+H04N 5/50 Loading...
+H04N 5/50
+Loading...
+200810227804.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/50
+Loading...
+The invention discloses a method for realizing television channel switch, including: determining a channel where the current broadcast channel data source locates and a channel where the preset appointed channel data source locates, wherein, the appointed channel has one or a plurality of channels; performing receiving, channel decoding and caching to the data of the channel where the current broadcast channel data source locates and the data of the channel where the preset appointed channel data source locates, and performing data demultiplexing, audio and video decoding and broadcasting to the data cached in the channel where the current broadcast channel data source locates; when the broadcast channel is switched to any one appointed channel, directly processing and broadcasting the data cached in the channel where the appointed channel data source locates. The present invention also discloses a multimedia broadcast receiving terminal. Application of the present invention can greatly reduce the switching delay.
+159. 101414804 Power amplifier and nonlinearity correction method, apparatus thereof
+CN
+22.04.2009
+H03F 1/32 Loading...
+H03F 1/32
+Loading...
+200810222619.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H03F 1/32
+Loading...
+The invention discloses a power amplifier gamma correction method, a device and a power amplifier thereof. The invention uses a predesigned gamma correction model for carrying out the gamma correction on signals to be amplified, and then the signals are amplified and output; simultaneously, correction parameters in the gamma correction model are updated according to the output signals being amplified; wherein, a plurality of sample points are selected in the gamma correction model for portraying the amplified memory effect, that is, a simplified standard volterra model. The sample points are greatly reduced, thus reducing the computational complexity and calculation amount.
+160. 101409808 Method and apparatus for re-sampling audio, and digital television chip
+CN
+15.04.2009
+H04N 5/60 Loading...
+H04N 5/60
+Loading...
+200810224471.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/60
+Loading...
+The invention provides an audio resampling method which comprises as follows: judging whether the caching length of audio data exceeds a normal range; if yes, then raising the number of the sampling points when the caching length of audio data is smaller than the lower threshold of the normal range, calculating the upper resampling parameters and skipping to an upper resampling state; when the caching length of audio data is larger than the upper threshold of the normal range, reducing the number of the sampling points, calculating the lower resampling parameters and skipping to a lower resampling state; carrying out audio resampling under the upper resampling state according to the sampling number and the resampling parameters which are raised; carrying out audio resampling under the lower resampling state according to the sampling numbers and the resampling parameters which are reduced; judging whether the difference value between the current caching length and a standard caching length achieves a normal parameter range or not, if yes, then skipping to the normal state; if not, then circulating on the current state. In the invention, a software method is used to carry out resampling treatment on the audio data which can be integrated into a terminal chip to save the power consumption of a system.
+161. 201222532 数码电视接收器的接收天线
+CN
+15.04.2009
+H01Q 1/22 Loading...
+H01Q 1/22
+Loading...
+200820080683.6
+北京创毅视讯科技有限公司
+张辉
+H01Q 1/22
+Loading...
+本实用新型公开了一种数码电视接收器的接收天线，具有较长的使用寿命，所述接收天线安放在通用串行总线转接线中，所述接收天线两末端之一接在所述通用串行总线转接线连接所述数码电视接收器的接口上，所述接收天线与所述通用串行总线转接线中的数据传输线绝缘。本实用新型柔软且富有韧性，不易折断或折弯，延长了使用寿命，而且难以脱落。
+162. 101404561 Bit error rate estimation method, apparatus and receiver
+CN
+08.04.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810227009.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 1/00
+Loading...
+The invention discloses a bit error rate (BER) estimation method. In the method, the number of false check formulas is obtained during LDPC decoding, and the number of the bit errors is obtained by the number of false check formulas to estimate the BER. The method obtains information for estimating the BER during decoding, therefore, the relativity of the information with the BER is high, thus increasing the accuracy of the BER estimation. The invention also provides a device and a receiver for estimating the BER. By using the method, the device and the receiver also realize accurate estimation on the BER.
+163. 101404741 Audio playing apparatus and method, and digital television chip
+CN
+08.04.2009
+H04N 5/60 Loading...
+H04N 5/60
+Loading...
+200810226099.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/60
+Loading...
+The invention provides an audio playing method for a mobile multimedia broadcasting system. The audio playing method comprises the following steps: decoded audio data is obtained; an audio data address pointer is pointed to a current cache address of the decoded audio data; the audio data address pointer is compared with a playing pointer in the audio playing process, and the audio data is played or stopped playing according to the comparison result. The method aims at the disadvantages of weaker function and limited resources of an operating system on a mobile multimedia broadcasting terminal chip to control the playing of the audio data by comparing the audio data address pointer with the playing pointer; therefore, the invention has simple realization method, short realization code, no addition of hardware and software equipment and drive support and less occupied resources, and the audio data can be conveniently integrated into the mobile terminal chip. The method further realizes quick audio switching by resetting the state and directions of the playing pointer when a channel switching is carried out on the mobile terminal.
+164. 201219290 一种移动电视接收终端
+CN
+08.04.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200820108416.5
+北京创毅视讯科技有限公司
+张辉
+H04N 5/44
+Loading...
+本实用新型公开了一种移动电视接收终端，天线与终端本体可以处于分离状态。该移动电视接收终端包括天线和终端本体，所述天线与所述终端本体相互独立，所述天线含有天线接口，所述终端本体含有终端接口，所述天线与所述终端本体，通过所述天线接口与所述终端接口以方便拆装的连接方式连接在一起；所述天线接收移动电视射频信号，将所述移动电视射频信号发送至所述终端本体，所述终端本体播放移动电视节目。本实用新型中天线与终端本体分离，增加了环境适应能力。
+165. 101399594 Control means
+CN
+01.04.2009
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200810225590.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 7/14
+Loading...
+The invention discloses a control method for controlling a repeater with an echo elimination function. The method is that a corresponding relation between conditions and the working state of the repeater are preset. The working state of the repeater comprises an initial state, an open-loop working state and closed-loop working state. The method further comprises the following steps: A. after the repeater is electrified or hard reset, a radio frequency (RF) part is closed; B. when the conditions is considered corresponding to the initial state, the initial working parameters of the repeater are set; C. when the condition is considered corresponding to the open-loop working state, the RF part is opened and the echo elimination training sequence is continuously transmitted, and various modules in the repeater start to work and obtain stable working parameters; and D. when the condition is considered corresponding to the closed-loop working state, the working parameters of various modules in the repeater are readjusted. The method can improve the stability of a repeater system.
+166. 101400139 Data transmission method and base station in multiple base station collaboration system
+CN
+01.04.2009
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+200810225079.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 1/18
+Loading...
+The invention discloses a data transmission method and a base station in a multi-base station coordinated system, comprising that: when performing user scheduling for a plurality of times, with respect to the terminal of a current transmission retransmission data package in the district, the base station selects the channel information which has large response relativity with the local district terminal channel, small response relativity with the adjacent district terminal channel, and causes the terminal to obtain highest scheduling priority as the channel information corresponding to the terminal; then the base station selects the terminal with the highest scheduling priority to perform data transmission according to the channel information of each terminal in the local district. In the invention, each base station independently performs user scheduling, and realizes partial avoiding of multi-base station interference through updating the channel information.
+167. 101399622 Receiving card and mobile terminal
+CN
+01.04.2009
+H04H 40/18 Loading...
+H04H 40/18
+Loading...
+200810223215.4
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 40/18
+Loading...
+The invention discloses a receiver card and a mobile terminal using the receiver card. The receiver card comprises a radio frequency receiving and converting part and a CMMB receiving part, and the receiver card can conveniently realize support for the CMMB receiving function without increasing a hardware design by a user. The receiver card is provided with the CMMB receiving function to cause the receiver card has the function of receiving a CMMB signal; and by an interface arranged in the mobile terminal using the receiver card, the user can conveniently realize the support for the CMMB receiving function and receive CMMB digital TV signals only by inserting the receiver card into the receiving terminal as usual. As to a receiving terminal manufacturer, no additional hardware technology support is required, thus shortening the development cycle of the receiving terminal and saving the investment.
+168. 101399662 Method, system, conditional receiving module and customer terminal for obtaining service key
+CN
+01.04.2009
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200810223606.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 9/08
+Loading...
+The invention provides a method for acquiring a service key and a system thereof. The method comprises the following steps: a network terminal generates an initial service key required by a user randomly, and generates initial authorization management information with a cryptograph mode and authority information of user subscription service to be transmitted to a user terminal; the user terminal receives the initial authorization management information, and decrypts the information to obtain an initial service key; when updating is triggered, the user terminal automatically generates and updates the service key required in the authority of subscription service by current service key by adopting the operation process being same as the network terminal. The invention also provides a condition receiving module and a user terminal. The invention can improve the authorization efficiency of the user terminal and save resource of the network terminal by a simple and easy service authorization method, thereby saving transmission bandwidth.
+169. 201215982 一种车载电视控制系统
+CN
+01.04.2009
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200820108019.8
+北京创毅视讯科技有限公司
+张辉
+H04N 5/00
+Loading...
+本实用新型公开了一种车载电视控制系统，智能化控制车载电视的工作状态。该系统包括机顶盒和显示屏，还包括控制模块和开关矩阵，控制模块与机顶盒和开关矩阵相连，实时监测天线接收信号强度，信号强度变化到小于预设强度阈值时，向开关矩阵发送显示屏关闭信号，信号强度变化到大于等于强度阈值时，向开关矩阵发送显示屏开启信号；开关矩阵，与机顶盒、显示屏及控制模块相连，接收机顶盒发送的视频信号，收到显示屏关闭信号后关闭显示屏，收到显示屏开启信号后开启显示屏。本实用新型根据汽车行驶环境智能化地控制车载电视的工作状态。
+170. 101394505 Device, method and terminal for simultaneously displaying multiple programs
+CN
+25.03.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810224037.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention provides a device, a method and a terminal for simultaneously displaying a plurality of programs, the device comprises a high-frequency module, a demodulation module which establishes a plurality of logic channels, a demux module, a plurality of decoding units, a plurality of display units and a controller, the controller comprises: a relational table establishment unit for establishing the resource allocation relational table as the needed for a user, the resource allocation relational table stores the mapping relations of the logic channels, the decoding units and the display units against each program; a configuration unit for setting the obtained corresponding configuration information to the corresponding logic channels according to the resource allocation relational table; and an allocation unit for allocating the data after the demux to the corresponding decoding units and the display units according to the resource allocation relational table. The simultaneous display of a plurality of programs can be easily and simply realized through the introduction of the concept of the logic channels in the demodulation module and the establishment of the resource allocation relational table by the controller.
+171. 101394379 Two dimensional channel estimation method and estimation module
+CN
+25.03.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200810224512.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 25/03
+Loading...
+The invention discloses a 2D channel estimation method and an estimation module. The estimation method comprises the following steps: determining whether the fluctuation of a channel in time domain is less that that in frequency domain and, if so, carrying out channel estimation in the time domain first and then in the frequency domain, otherwise, carrying out channel estimation in the frequency domain first and then in the time domain. The method overcomes the traditional 2D channel estimation method, and provides the scheme for changing the estimation sequence according to the condition of the channel, thereby meeting the requirement for various kinds of channels.
+172. 101394469 Audio and video synchronization method, device and a digital television chip
+CN
+25.03.2009
+H04N 21/8547 Loading...
+H04N 21/8547
+Loading...
+200810225160.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 21/8547
+Loading...
+The invention provides an audio/video synchronization method of a mobile multimedia broadcast system, which comprises the following steps: establishing a storage address of the decoded audio data and a mapping relation table of timestamps; inquiring the mapping relation table for the timestamps of the audio data according to the storage address, to which the playing audio data point, and acquiring the timestamps of the currently playing video data; and adjusting the video playing to the audio/video synchronization state according to the timestamps of the audio data and the video data. The invention compares the playing progress of audio and video on a real-time basis based on the characteristic that the audio data are uncontrollable, and provides the corresponding adjusting opinions, so that the audio/ video synchronization under the condition that the terminal can not control the 'source' can be ensured, the audio/video data timestamp confirmation mechanism is adopted to overcome the defect that error codes exist in the broadcast channel transmission, the incorrect adjustment of the audio/video synchronization caused by the error codes is overcome, and the interference of the audio/video adjustment caused by the transmission error codes of the broadcast channel is restrained.
+173. 101394575 Terminal, system and method for collecting multimedia broadcast audience rate
+CN
+25.03.2009
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+200810225461.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 17/00
+Loading...
+The invention discloses a terminal, a system and a method for acquiring multimedia broadcasting audience rating. The terminal comprises a multimedia broadcasting receiving module used for receiving and broadcasting the data of a channel which is selected by a terminal user, and further comprises a reception monitoring module and a reception result feedback module; the reception monitoring module is used for recording the time for the multimedia broadcasting receiving module to receive all channel data; and the reception result feedback module is used for sending the record of the reception monitoring module to a network side. The technical proposal of the terminal, the system and the method leads a user terminal to count the user reception situation in a real-time manner, and feeds back the reception information to an operation business, thereby leading the operation business to collect the user audience rating accurately.
+174. 101394569 Error tolerance method, device and chip for AVS video decoder
+CN
+25.03.2009
+H04N 7/64 Loading...
+H04N 7/64
+Loading...
+200810225159.8
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 7/64
+Loading...
+The invention provides a fault-tolerant method of an AVS video decoder, which comprises the following steps: the boundary fill of a margin pixel value is performed around a reference frame which is decoded to obtain the reference frame with boundaries and available boundaries upwards and downwards as well as leftwards and rightwards, wherein, only the image contents within the available boundaries are used for video image display; the number of lines which are filled upwards and downwards as well as leftwards and rightwards is determined by the range achieved by motion vectors; the motion vectors, which are processed through AVS decoding corresponding to a macro block to be decoded in a current frame, are acquired; a matching reference macro block is found from the reference frame according to the motion vectors; and the reference macro block and a residual-error macro block which is obtained after the macro block to be decoded in a current frame is decoded are toted up, so as to obtain a restructuring macro block of the macro block to be decoded. In the fault-tolerant method, the boundary fill needs to be performed around the reference frame only, the fault-tolerant method can also be found out from the reference frame under the circumstances that the motion vectors go awry, the current frame is restructured, the operation amount of the video decoder is reduced, the memory resources are saved, and the decoding efficiency is improved.
+175. 101389101 System, method and mobile terminal for interaction between master and slave equipments
+CN
+18.03.2009
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200810223706.9
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04Q 7/32
+Loading...
+The invention provides a system, method and mobile terminal for the principal-subordinate device interaction. The system comprises a subordinate device comprising an interface interacting module and an applying module; the applying module is used for completing the specific application; the interface interacting module is used for receiving the orders, and displaying the relevant interacting interface and completing the corresponding interacting operation; a display device connected to the subordinate device; a connecting unit used for sending and answering the orders between the principal device and the subordinate device; the principal device comprises a principal applying module fir completing the mobile terminal, and an order interface; when the subordinate device starts the application, the principal device controls the display device and receives the orders of the order accessing interface of the principal device; the system can achieve the uniform of the principal device and the subordinate device, and the synchronous development of the principal device and the subordinate device, which saves the resource and the developing period of the mobile terminal products.
+176. 101388947 Image rotating system, image rotating method and decoding chip
+CN
+18.03.2009
+H04N 1/387 Loading...
+H04N 1/387
+Loading...
+200810223705.4
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 1/387
+Loading...
+The invention provides an image rotating method which can embed the rotating process into the intra-frame prediction, inter-frame prediction or loop filtering of decoding. The method comprises: reading the rotated block matrix data Dn-1R as a reference block stored in the first memory device; rotating the Dn-1R into a normal positioned block matrix Dn-1 and saving it in the second memory device; using the normal positioned block matrix Dn-1 in the second memory device to implement the corresponding intra-frame prediction, inter-frame prediction or loop filtering process and acquiring a block matrix data Dn; rotating the block matrix Dn to acquire a rotated block matrix DnR and saving it in the first memory device. The invention need not to add any independent rotating module, consequently, saves the internal memory cost, reduces the calculating quantity in internal memory process, and reduces the system load.
+177. 201210716 一种便携式移动电视收视设备
+CN
+18.03.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200820080705.9
+北京创毅视讯科技有限公司
+张辉
+H04N 5/44
+Loading...
+本实用新型公开了一种便携式移动电视收视设备，方便使用者便携、灵活地收视移动多媒体广播协议的电视节目内容。该移动电视收视设备，包括一固定装置、一信号处理装置、至少一显示屏及至少一放音装置，其中所述固定装置，将所述显示屏固定于人体头部；所述信号处理装置，挂接于所述固定装置外部或内置于所述固定装置内，接收移动多媒体广播协议的射频信号，并将所述射频信号转换为视频信号和音频信号；至少一显示屏，与所述信号处理装置相连，连接于所述固定装置，根据视频信号显示图像；至少一放音装置，与所述信号处理装置相连，根据所述音频信号播放声音。该移动电视收视设备方便使用者以舒服的姿势收看移动电视节目内容。
+178. 201210717 一种投影仪
+CN
+18.03.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200820080738.3
+北京创毅视讯科技有限公司
+张辉
+H04N 5/44
+Loading...
+本实用新型公开了一种投影仪，能投射移动电视节目内容。该投影仪包括图像显示装置，还包括信号接收装置，用于接收移动电视射频信号；信号转换装置，与所述信号接收装置及图像显示装置相连，将所述信号接收装置接收的移动电视射频信号转换为视频信号，通过所述图像显示装置投射电视节目图像。该投影仪投射移动电视节目内容时，图像显示范围大，满足多人同时观看并清晰呈现电视节目细节内容。
+179. 101383670 Mobile multimedia broadcast receiving card and mobile equipment
+CN
+11.03.2009
+H04H 40/18 Loading...
+H04H 40/18
+Loading...
+200810223824.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 40/18
+Loading...
+The invention discloses a mobile multimedia radio receiving card and a mobile device, wherein the mobile multimedia radio receiving card comprises a mobile memory card seat body and a mobile multimedia radio receiving unit which is arranged on the mobile memory card seat body, one pin is chosen from all pins of the mobile memory card seat body to be used as a radio frequency pin, one end of the radio frequency pin is connected with a radio frequency antenna, and the other end is connected with the mobile multimedia radio receiving unit, and the radio frequency pin transmits mobile multimedia radio frequency signals from the antenna to the mobile multimedia radio receiving unit. The invention causes the mobile multimedia radio receiving unit to send and receive the radio frequency signals through the pins of the mobile memory card seat body without adding new pins, so the volume of the mobile multimedia radio receiving card is reduced; in addition, the mobile multimedia radio receiving unit can be freely arranged and dismantled on the mobile memory card seat, thereby the use flexibility of the mobile multimedia radio receiving unit is improved.
+180. 101383968 Video decoder, video decoding method and mobile multimedia terminal chip
+CN
+11.03.2009
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810223605.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 7/26
+Loading...
+The invention provides a video decoder, a video decoding method and a mobile multimedia terminal chip. The decoder comprises a first processing layer and a second processing layer, wherein the first processing layer is used for receiving image data, performing entropy decoding, performing decoding at the level over macro block for the image data and generating an order sequence aiming at the second processing layer, and the order sequence is stored in the second processing layer; the second processing layer comprises a memory location used for storing the order sequence and decoding intermediate data and a controller used for implementing the read order sequence in sequence. The second processing layer completes processes of an annular wave filtering process and the like in inverse scanning, inverse quantization, inverse cosine conversion, intraframe forecasting and interframe forecasting. For the decoder of the invention, the heavy decoding work at the level below the macro block is implemented by an order implementing software code in the second processing layer, thereby the invention greatly reduces the use of hardware sources, decreases the decoding chip area, and has fast developing period and easy maintenance.
+181. 101383674 Method for realizing mobile multimedia broadcast receiving, receiving card and mobile device
+CN
+11.03.2009
+H04H 60/91 Loading...
+H04H 60/91
+Loading...
+200810223823.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/91
+Loading...
+The invention discloses a method for realizing the mobile multimedia radio receiving, a receiving card and a mobile device thereof, wherein the receiving card comprises a mobile memory card body, a mobile multimedia radio receiving unit, radio frequency pins and an allocation unit, wherein the allocation unit arranged in the mobile device is used for controlling the mobile multimedia radio receiving card to work on the working model corresponding to the interface type of the mobile device according to the interface type supported by the mobile device; the radio frequency pins are used for transmitting mobile multimedia radio frequency signals from an antenna to the mobile multimedia radio receiving unit; the mobile multimedia radio receiving unit is used for converting audio and video flows according with the mobile multimedia radio standard to audio and video flows according with the interface type of the mobile device to the mobile device after the radio frequency signal is processed to obtain audio and video flows according with the mobile multimedia radio standard. The technical proposal disclosed by the invention can cause the mobile device to conveniently realize the support of the mobile multimedia radio receiving function.
+182. 101382876 Data storage method
+CN
+11.03.2009
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+200810223822.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+G06F 3/06
+Loading...
+The invention discloses a data storing method applicable to memory cards. The method comprises the steps that the storage space of a memory card is divided in advance into a file information area used for storing file format information, a data information area used for storing the information of the initial storage address, the length and the data type of each file, and a data area; the method also includes that: the specific content of the corresponding file is stored in the corresponding storage space of the data area according to the file format information in the file information area and the information of the initial storage address, the length and the data type of each file in the data information area. The application of the method ensures that the memory card can be quite conveniently used in small communication equipment without a software operation system, thus enhancing the universality of the memory card.
+183. 101376999 Composite oxidation method for metallic products
+CN
+04.03.2009
+C25D 11/02 Loading...
+C25D 11/02
+Loading...
+200810223598.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+C25D 11/02
+Loading...
+The invention provides a composite oxidization method of a metal product, which comprises the following steps: the metal product to be treated receives conductive oxidization treatment; an area on the metal product after conductive oxidization treatment to be conducted is shielded; the shielded metal product receives anode oxidization treatment; the shielding of the area is removed. The method can prepare the metal product with low cost and high yield according to the intention of the designer.
+184. 101374029 Mobile multimedia broadcast receiving card and mobile equipment
+CN
+25.02.2009
+H04H 60/91 Loading...
+H04H 60/91
+Loading...
+200810223821.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/91
+Loading...
+The invention discloses a mobile multimedia broadcast receiver card and mobile equipment. The receiver card comprises a mobile memory card body, a mobile multimedia broadcast receiving unit, and radio-frequency pins, wherein the radio-frequency pins are used for transmitting mobile multimedia broadcast radio-frequency signals from antennae to the mobile multimedia broadcast receiving unit; and the mobile multimedia broadcast receiving unit is used for processing the radio-frequency signals to obtain audio/video streams meeting mobile multimedia broadcasting standards, and converting the audio/video streams meeting mobile multimedia broadcasting standards to audio/video streams meeting a set interface protocol and outputting via standard pins of the mobile memory card body. By using the technical proposal disclosed in the invention, the mobile memory card becomes a receiver card which supports a mobile multimedia broadcast receiving function, so that the mobile equipment using the mobile memory card can conveniently realize support of the mobile multimedia broadcast receiving function, thereby receiving mobile multimedia broadcasting and digital television signals.
+185. 101369830 Method and electronic system for improving reception sensitivity of radio frequency circuit
+CN
+18.02.2009
+H04B 7/00 Loading...
+H04B 7/00
+Loading...
+200810224511.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 7/00
+Loading...
+The invention discloses a method for improving the reception sensitivity of a radio frequency circuit applying to the electric system simultaneously having a digital circuit and a radio frequency circuit. The method regulates the clocking frequency of the highest phase-locked loop clock in the digital circuit according to the present receiving band of the radio frequency circuit to make any frequency out of the present receiving band of the radio frequency circuit in the multiharmonic frequency of the highest phase-locked loop clock. The invention provides an electric system also comprising a frequency regulation module for regulating the clocking frequency of the highest phase-locked loop clock in the digital circuit according to the present receiving band of the radio frequency circuit and making any frequency out of the present receiving band of the radio frequency circuit in the multiharmonic frequency of the highest phase-locked loop clock besides a digital circuit and an analog circuit. The affect of the digital circuit to the reception sensitivity of the radio frequency circuit is effectively reduced and the reception sensitivity of the radio frequency circuit is improved by applying the electric device to the electric system simultaneously having the digital circuit and the radio frequency circuit.
+186. 101359942 Power control module and method, transceiving apparatus comprising power control module
+CN
+04.02.2009
+H04B 7/005 Loading...
+H04B 7/005
+Loading...
+200810222618.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 7/005
+Loading...
+The invention discloses a power control module, comprising: a power control unit, a VGA, a digital domain AGC and a transmitting chain AGC, the power control unit firstly transmits the corresponding preset initial gain to the VGA, the digital domain AGC and the transmitting chain AGC respectively; before the power control module is stabilized, the power control unit executes the following operations cyclically: transmitting an instruction for augmenting the gain by preset stepping to the transmitting chain AGC, and sending a gain adjustment instruction for normalizing the power of output signals to 1 to the VGA; and when the power control module is stable, the power control unit transmits a gain adjustment instruction for normalizing the power of output signals to 1 to the VGA according to the preset cycle. The invention also discloses a transmitter-receiver comprising the power control module as well as a power control method. The invention can maintain the stability of the transmitter-receiver while eliminating echo signals.
+187. 101359956 Repeater
+CN
+04.02.2009
+H04B 7/14 Loading...
+H04B 7/14
+Loading...
+200810222263.1
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 7/14
+Loading...
+The invention discloses a repeater station, comprising a receiving side radio frequency processing unit, a first digital down conversion (DDC) unit, a base band processing unit, a digital up conversion (DUC) unit, a transmitting side radio frequency processing unit and a power amplification processing unit. The repeater station serves as reference signals ref which are directly produced by the base band processing unit itself for the closed-loop control to echo elimination, namely, base band digital signals serve as the reference signals ref for participating in the processing of echo elimination, thereby simplifying the processing complexity of echo elimination: on the one hand, the system complexity is greatly reduced because a hardware circuit need not be added for processing the reference signals, and on the other hand, the echo elimination effect can be guaranteed. Moreover, the base band processing unit has rather small delay.
+188. 101360084 Inter-carrier interference eliminating method, apparatus, signal receiving method and receiver
+CN
+04.02.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810222887.3
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 27/26
+Loading...
+The invention discloses an eliminating method of inter-carrier interference, comprising the following: obtaining current sub-carrier channel response module value; if the module value is more than a threshold set in advance, a natural number n is selected from the natural numbers set in advance to be selected, so that 2n is most close to the module value square, and conj (Hk)/2n is taken as 1/Hk to calculate an interference factor that other sub-carriers interfere with the current sub-carrier; wherein, conj(. ) is conjugate operation, and Hk is the channel response estimation value of the current sub-carrier; if the module value is less than or equal to the threshold, the interference factor that other sub-carriers interfere with the current sub-carrier is set as 0; the product of the receiving data of other sub-carriers and the interference factor that corresponding sub-carrier interferes with the current sub-carrier is subtracted from the receiving data of the current sub-carrier, and the difference value is taken as a receiving data of the current sub-carrier after the interference is eliminated. The invention also discloses an eliminating device, a signal receiving method and a receiver of the inter-carrier interference. With the invention applied, the complexity of eliminating the interference can be lowered, and real time division operation can be avoided.
+189. 101355754 Mobile phone and method thereof
+CN
+28.01.2009
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200810119660.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04M 1/725
+Loading...
+The invention discloses a mobile phone and a method thereof. The method comprises the following steps: the mobile phone comprises an audio and video playing thread used to control the playing of a TV and a short message monitoring thread used to control short messages which work synchronously and concurrently, and a plurality of marker bits which perform the communication of related data to realize the communication are arranged between the two threads, and are used to perform the communication between the two threads and control the working state of the two threads, wherein each marker bit at least comprises a short message receiving marker bit and a short message replying marker bit; the setting of the short message receiving marker bit shows that a short message is received, and the empty setting of the short message receiving marker bit shows that the received short message has been displayed; and the setting of the short message replying marker bit shows that the short message needs to be processed, and the empty setting of the short message replying marker bit shows that the processing to the short message is finished. The method has the advantages that the method ensures that a user can handle the short messages on the mobile phone on the premise of not affecting watching TV, which is convenient for the user.
+190. 101355545 Method and apparatus for implementing fine synchronization of OFDM
+CN
+28.01.2009
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+200810212133.X
+Innofidei Technology Co., Ltd.
+The inventor has waived the right to be mentioned
+H04L 27/26
+Loading...
+The invention discloses a method for realizing fine synchronization of orthogonal frequency division multiplexing (OFDM), comprising: firstly, the initial position of an energy sliding window is determined; secondly, the positions of a first path and a last path of the multipath delay spread are determined within the range of a power sliding window; and finally, according to the initial position, the first path position, the last path position and the length of a cyclic prefix of the power sliding window, the synchronized position is determined. The invention also discloses a device for realizing fine synchronization of orthogonal frequency division multiplexing (OFDM). The method can search the accurate position of the time slot starting point, realizes accurate time synchronization by a rapid channel estimating technique, and improves mobility and receiving performance of the system.
+191. 101355395 Method and system for testing electric products with function of receiving broadcast signal
+CN
+28.01.2009
+H04H 60/32 Loading...
+H04H 60/32
+Loading...
+200810119717.2
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/32
+Loading...
+The invention discloses a method for testing an electric product with the function of receiving broadcasting signals and a system thereof, which is applied to the quality test of the electric product with the function of receiving broadcasting signals. The method comprises the following steps: (a)a sending terminal sends out data containing frames with preset functional relation; (b)a receiving terminal receives the data, and the receiving terminal is connected with the electric product; (c) the received data is compared with the sending data, if both data are the same, the electric product is qualified; if both data are different, the electric product is disqualified, wherein the preset functional relation is the increasing or decreasing relation. Because each bit of the received data is analyzed and compared, the test accuracy and the test efficiency are improved.
+192. 201188135 一种光纤连接器
+CN
+28.01.2009
+G02B 6/38 Loading...
+G02B 6/38
+Loading...
+200820080424.3
+北京创毅视讯科技有限公司
+张辉
+G02B 6/38
+Loading...
+本实用新型公开了一种光纤连接器，包括：壳体和至少一路光纤线，所述壳体包括壳盖和底壳，光纤线通过柔性密封材料灌封在底壳内，壳盖扣合在该底壳上；每一路光纤线的两端安装有光纤接头，所述光纤接头固定设置在所述壳体的两端。本实用新型采用柔性密封材料将光纤线无应力地固定在壳体内，不仅避免了光纤线受到外接热应力和化学应力的破坏，保证了产品在低温、湿热、霉菌等各种恶劣的环境下可以正常工作；而且由于光纤线在光纤连接器中精确定位，并被结构件刚性固定，消除了外界的应力，保证了光信号在振动、冲击环境下的可靠通信。
+193. 101350798 Module and method for eliminating echo, transmit-receive equipment containing the module
+CN
+21.01.2009
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200810119422.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04L 25/03
+Loading...
+The invention discloses an echo cancellation module comprising a training sequence generator, a change-over switch, a training sequence detector, an adjustable delay, an echo channel estimator, a filter and an adder. Firstly, the input terminal of the switch is connected with the training sequence generator, the training sequence detector estimates the delay parameter of the echo channel according to the training sequence sent by the training sequence generator, then the echo channel estimator starts to work and estimates the echo channel according to the input signal, the training sequence and the delay parameter, and adjusts the estimator coefficient; when the estimator coefficient is convergent, the input terminal of the change-over switch is switched to the adder, afterwards, the receiving and sending equipment stops outputting the training sequence, and outputs the user signal with the echo cancelled. The invention also comprises a receiving and sending equipment comprising the echo cancellation module of the invention and an echo cancellation method. The invention can cancel the echo signal on the receiving antenna of the receiving and sending equipment which is coupled with the sending antenna of the receiving and sending equipment.
+194. 101340253 Mobile multimedia broadcast receiving apparatus, receiving card and receiving terminal
+CN
+07.01.2009
+H04H 60/91 Loading...
+H04H 60/91
+Loading...
+200810118224.7
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/91
+Loading...
+The invention discloses a receiving device for mobile multimedia broadcast (CMMB), a receiving card and a receiving terminal thereof. The receiving device for the mobile multimedia broadcast comprises radio frequency signal receiving and transformation as well as CMMB receiving, therefore, the users can conveniently realize the support for CMMB receiving function without adding hardware design. By setting the CMMB receiving function in the receiving card, the receiving card has the CMMB signal receiving function, therefore, users only need to use the receiving card as usual by inserting the receiving card into the receiving terminal so as to conveniently realize the support for the CMMB receiving function and receive CMMB digital TV signal. For receiving terminal manufacturers, no extra software and hardware technical support are needed, therefore, the development cycle of the receiving terminal is shortened and the investment is saved.
+195. 101340251 Method and network for realizing audio and video stream media service
+CN
+07.01.2009
+H04H 60/72 Loading...
+H04H 60/72
+Loading...
+200810118517.5
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 60/72
+Loading...
+The invention discloses a method used for realizing audio and video stream media service and a network thereof. In the implementation scheme of the invention, a lateral terminal of a system sends the audio and video stream media service transmitted in a flow pattern and provides corresponding session description protocol SDP files; a terminal receives the audio and video stream media service transmitted in a flow pattern, and according to the corresponding SDP files provided by the system in the side direction, the received audio and video stream media service is analyzed; therefore, the terminal can correctly analyze the audio and video stream media service multiplexed and transmitted on a data segment, the development and the popularization of CMMB service are facilitated and user experience is improved. In addition, the invention also provides a plurality of transmission modes of the SDP files; for example, the service parameter element of present ESG or CMMB portal navigation can be used without major changes, and the invention has the advantages that the realization is simple and the choice is flexible according to actual situations.
+196. 101340590 Multiplex apparatus and multiplex method
+CN
+07.01.2009
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+200810118198.8
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 7/52
+Loading...
+The invention relates to a multiplex device and a multiplex method in a communication system. A video and audio multiplex device of the invention receives video and audio data and then builds the video and audio data into multiplex frames for multiplexing, and comprises a video and audio preprocessor, a cache manager, a video frame buffer and a multiplex framer, wherein, video frame data in the video and audio data sent by the video and audio preprocessor is stored into the video frame buffer by the cache manager and the video frame with a certain data size is taken out from the video frame buffer in sequence by the cache manger and is sent with the audio data sent by the video and audio preprocessor to the multiplex framer. Furthermore, the video frame obtained from the video frame buffer is controlled so as to ensure that the sum of the capacities of the obtained video frame and the audio data sent by the video and audio preprocessor in the multiplex frame is less than or equal to the capacity for containing the video and audio data in the multiplex frame. By adopting the invention, the quality of the transmitted video when an input code rate exceeds bandwidth which can be provided by a logic channel can be improved.
+197. 101340527 Signal driving method and apparatus of digital television receiving device
+CN
+07.01.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810118518.X
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04N 5/44
+Loading...
+The invention discloses a digital television receiving apparatus, a signal driving method and a device. The device comprises a general setting interface, a signal conversion module, an MPEG2-TS stream de-multiplexing interface, a program description information gaining interface and a program filter interface. The method of the invention comprises the steps as follows: a signal transmission frequency point is arranged in the signal receiving module of the digital television receiving apparatus; the multiplexing signals received by the frequency point are de-multiplexed and re-multiplexed as the MPEG2-TS stream, which includes that the program time slot information in the multiplexing signal is converted into a program describing table in the MPEG2-TS stream; the MPEG2-TS stream is de-multiplexed so as to gain the program describing table and audio and video stream; the time slot information corresponding to the selected program in the program describing table is arranged to the signal receiving module in the digital television receiving apparatus; the signal receiving module only receives the signals from the program time slot. The digital television receiving apparatus, the signal driving method and the device can improve the compatibility of the CMMB equipment and application program based on the BDA driving frame.
+198. 101340192 Encoding method and apparatus for low density parity-check code
+CN
+07.01.2009
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+200810118227.0
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H03M 13/11
+Loading...
+The invention relates to a coding technology of low-density parity-check codes LDPC, in particular to a coding method and a coding device of LDPC codes used for carrying out staggered shift change of source bit vectors. The coding method and the coding device deform a circulating storage matrix into a staggered storage matrix which is fixed in a read-only memory, and the operation for generating the matrix is changed to the staggered shift operation of the original source bits, thereby being conductive to the parallel realization of hardware. The coding method and the coding device can improve the processing speed of a decoder of the LDPC codes, and reduce the complexity of the realization, etc.
+199. 101340248 Display method and receiving terminal of urgent broadcast
+CN
+07.01.2009
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+200810118226.6
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04H 20/59
+Loading...
+The invention discloses a display method of emergency broadcast, which comprises the following steps: emergency broadcast messages from the broadcast messages sending terminal are received and message data from the received emergency broadcast messages is analyzed; the message data comprises text data and multimedia auxiliary data; a hypertext markup language HTML web page is created according to the received message data; a browser window is called to display the created HTML web page. The invention also discloses a receiving terminal, and pictures, audio, video and other multimedia auxiliary data of the emergency broadcast can be conveniently displayed by the HTML web page. The display method has the advantages that the implement operation is simple; the extra development of display interfaces and players for the multimedia auxiliary data is avoided; the multimedia display of the emergency broadcast messages can be conveniently realized only by supporting a browser, and the development cost is saved.
+200. 101340208 Method for executing initial cell search
+CN
+07.01.2009
+H04B 1/707 Loading...
+H04B 1/707
+Loading...
+200810118519.4
+Innofidei Technology Co., Ltd.
+Zhang Hui
+H04B 1/707
+Loading...
+The invention discloses a method for carrying out initial cell search, which includes the following steps: A. determining the position of a protection interval GP between an uplink and a downlink in received signals; B. estimating the starting time of master synchronization signals PSS according to the position of GP and defining the preset time scopes which take the starting time of the estimated PSS as the center as search scopes; C. carrying out relevant time domain calculation of the received signals in the search scopes and preset PSS time domain signals and determining the starting time of PSS. The application of the method can remarkably reduce the calculation amount in the process of initial cell search.
+

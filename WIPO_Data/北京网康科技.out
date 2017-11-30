@@ -1,0 +1,781 @@
+1. 106411879 一种软件识别特征的获取方法和装置
+CN
+15.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000849610
+北京网康科技有限公司
+马勇
+H04L 29/06
+Loading...
+本发明公开了一种软件识别特征的获取方法，根据预设合法网络标识样本和非法网络标识样本，确定所述各合法网络标识和各非法网络标识各自对应的网络标识关联信息的向量值；根据各待检测网络标识关联信息的向量值，以及所述各合法网络标识和各非法网络标识分别对应的网络标识关联信息的向量值，确定所述各待检测网络标识的合法性；获取所述确定合法性的网络标识与关联软件之间的预设通信信息，将不同合法性网络标识对应的所述预设通信信息确定为不同合法性软件对应的识别特征。本发明还公开了一种软件识别特征的获取装置。
+2. 106375331 一种攻击组织的挖掘方法及装置
+CN
+01.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000847627
+北京网康科技有限公司
+易蜀锋
+H04L 29/06
+Loading...
+本发明公开了一种攻击组织的挖掘方法，包括：提取防火墙入侵防御系统日志中记录的攻击行为；所述攻击行为包括攻击时间、攻击方式、攻击方IP地址；根据每一个攻击方IP地址所对应的攻击时间和攻击方式，对所有攻击方IP地址进行聚类，以获取攻击组织。本发明还同时公开了一种攻击组织的挖掘装置。
+3. 103678092 日志分析方法及系统
+CN
+25.01.2017
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+102013000743923
+北京网康科技有限公司
+金丰
+G06F 11/34
+Loading...
+本发明涉及一种日志分析方法及系统，其日志分析方法包括以下步骤：数据处理单元接收客户端发送的用户请求；数据处理单元将用户请求处理为任务信息，并将所述任务信息发送给数据分析单元；数据分析单元根据接收到的任务信息进行日志分析生成分析结果，并将分析结果发送给数据处理单元；数据处理单元对分析结果处理为回复信息，并将回复信息发送给所述客户端。本发明的日志分析方法及系统具有实时性，可以对原始数据在任何维度进行日志信息分析，能够满足用户多维度数据查询的需求。
+4. 106209505 一种应用识别装置及方法、防火墙、服务器
+CN
+07.12.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102016000503199
+北京网康科技有限公司
+牟洪章
+H04L 12/26
+Loading...
+本发明公开了一种应用识别方法，包括：接收数据报文，对接收的数据报文进行特征识别检测，获得地址信息和应用识别结果，向服务器发送包括地址信息和应用识别结果的应用识别缓存；接收所述服务器发送的应用识别缓存集合作为本地应用识别缓存集合；根据所述本地应用识别缓存集合对新接收的数据报文进行应用识别。本发明还同时公开了一种应用识别装置、防火墙、服务器。
+5. 103067394 一种基于单向数据包的TCP连接建立方法及装置
+CN
+09.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102012000587551
+北京网康科技有限公司
+张磊
+H04L 29/06
+Loading...
+本发明涉及一种基于单向数据包的TCP连接建立方法及装置，所述方法包括：通过网络获取数据包；过滤掉一个方向上的数据包，得到第一单向数据包；根据所述单向数据包中的三次握手标志对将所述单向数据包中含有三次握手标志的数据过滤掉，得到第二单向数据包；以及根据应用层逻辑创建与所述单向数据包对应的单向TCP连接，以便通过所述单向连接将所述第二单向数据包交由应用层处理。本发明通过建立基于单向数据包的TCP连接，在网络数据丢包和大量流的环境下，提高了应用层业务数据处理的有效性，本发明的单向TCP连接依赖条件少、处理逻辑简单、维护成本低、占用资源少，有更大的灵活性。
+6. 105812188 流量识别方法及装置
+CN
+27.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610263993.0
+北京网康科技有限公司
+乔石
+H04L 12/24
+Loading...
+本发明实施例公开了一种流量识别方法，所述方法包括：接收客户端发送的进程信息；根据预设的进程和应用类型的对照关系将所述进程信息转换为应用识别信息；接收待识别的数据流，根据所述应用识别信息和所述数据流的五元组信息，识别所述数据流的应用类型。本发明实施例还公开一种流量识别装置。
+7. 105791308 一种主动识别域用户登录事件信息的方法、装置和系统
+CN
+20.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610222491.3
+北京网康科技有限公司
+张斌
+H04L 29/06
+Loading...
+本发明实施例公开了一种主动识别域用户登录事件信息的方法，包括：获取登录事件ID，向认证服务器发送查询所述登录事件ID对应的域用户登录事件信息的请求；接收域用户登录事件信息；本发明实施例还公开了一种主动识别域用户登录事件信息的装置和系统。
+8. 105763631 一种对等体组识别方法及装置
+CN
+13.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000227484
+北京网康科技有限公司
+才华
+H04L 29/08
+Loading...
+本发明实施例公开了一种对等体组识别方法，所述方法包括：根据各用户在第一预设时间内的业务访问日志，将访问同一业务系统中同一项目资源的用户划分为一组，获得若干初始分组；分析所述若干初始分组之间的相似性，将相似性满足第一预设条件的初始分组合并到一个组中，获得若干初始对等分组；根据各用户在第二预设时间内的通讯日志，将通讯次数超过第一预设阈值的一组用户划分为一频繁项集，获得若干频繁项集；根据所述频繁项集对所述若干初始对等分组进行调整，确定最终对等分组。本发明实施例还公开了一种对等体组识别装置。
+9. 105429792 用户行为流量获取方法及装置、用户行为分析方法及系统
+CN
+23.03.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510742786.9
+北京网康科技有限公司
+才华
+H04L 12/24
+Loading...
+本发明公开了一种用户行为流量获取方法及装置、用户行为分析方法及系统。所述用户行为流量获取方法包括：统计电子设备在第一指定时间内产生的总流量；剔除所述总流量中的机器行为流量，获得所述第一指定时间内的用户行为流量。
+10. 105323187 一种拥塞控制方法和装置
+CN
+10.02.2016
+H04L 12/807 Loading...
+H04L 12/807
+Loading...
+201410374765.1
+北京网康科技有限公司
+刘立功
+H04L 12/807
+Loading...
+本发明公开了一种拥塞控制方法，在单位时间周期内，根据传输控制协议TCP数据发送速率，确定网络条件反馈因子和发送窗口调整灵敏度因子；根据网络条件反馈因子和发送窗口调整灵敏度因子确定拥塞发送窗口大小，并根据所确定的拥塞发送窗口控制TCP数据发送速率。本发明同时还公开了一种拥塞控制装置。
+11. 105224691 一种信息处理方法及装置
+CN
+06.01.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510729292.7
+北京网康科技有限公司
+才华
+G06F 17/30
+Loading...
+本发明公开了一种信息处理方法，所述方法包括：从N个采样点的上网行为审计设备收集网页访问日志；其中，N为正整数；按照第一预定周期对所述网页访问日志的域名进行归类和分析，生成域名分类信息；获取来自第一用户的上网行为审计设备的网页访问日志；按照第二预定周期，并基于域名分类信息对所述来自第一用户的上网行为审计设备的网页访问日志进行分析，以识别用于表征第一用户的真实访问行为的网页访问日志。本发明还同时公开了一种信息处理装置。采用本发明的技术方案，能准确识别用户的实际访问行为。
+12. 105141575 加密应用识别和加密网页内容分类方法及装置
+CN
+09.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510359302.2
+北京网康科技有限公司
+马勇
+H04L 29/06
+Loading...
+本发明公开了一种加密应用识别方法，包括：获取网络中的连接数据，确定连接数据为域名系统(DNS)连接数据；从DNS连接数据中获取DNS反馈包，DNS反馈包包括加密应用域名和服务器网络协议(IP)地址；查询应用自动匹配表中是否包括服务器IP地址；当应用自动匹配表中不包括服务器IP地址时，查询应用规则库中是否包括加密应用域名对应的应用标识，当应用规则库中包括加密应用域名对应的应用标识时，将服务器IP地址和对应的应用标识加入应用自动匹配表。本发明还同时公开了一种加密网页内容分类方法、加密应用识别装置、加密网页内容分类装置和加密应用识别和加密网页内容分类装置。
+13. 104994128 一种数据编码类型识别及转码方法和装置
+CN
+21.10.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510249023.0
+北京网康科技有限公司
+王照旗
+H04L 29/08
+Loading...
+本发明提供了一种数据编码类型识别及转码方法，包括：提取用户操作产生的网络报文中的关键数据，对所述关键数据进行解码；确定所述关键数据解码后的数据对应的编码类型；根据所述编码类型，对所述关键数据解码后的数据进行转码。本发明还提供了一种数据编码类型识别及转码装置。
+14. 204535739 一种数据采集装置
+CN
+05.08.2015
+G01D 21/00 Loading...
+G01D 21/00
+Loading...
+201520281869.8
+北京康智乐思网络科技有限公司
+陆书圣
+G01D 21/00
+Loading...
+本实用新型公开一种数据采集装置，所述装置包括传感器、前置滤波模块、集成放大模块、A/D转换模块、主控模块及显示模块；所述传感器用于对被测对象测量信息并发送给前置滤波模块，前置滤波模块对接收到的模拟信息进行滤波并发送给集成放大模块，集成放大模块对接收到的模拟信号进行放大并发送给A/D转换模块，A/D转换模块对接收到的模拟信号转化为数字信号并发送给主控模块，主控模块对数字信号进行处理并发送给显示模块显示。本实用新型实现了实时、定时及多次测量。
+15. 204535844 智能体重秤
+CN
+05.08.2015
+G01G 19/44 Loading...
+G01G 19/44
+Loading...
+201520281384.9
+北京康智乐思网络科技有限公司
+陆书圣
+G01G 19/44
+Loading...
+一种智能体重秤，其包括：承重板、压力传感器、主控板、液晶显示模块板、以及无线通信模块板，各部件之间的连接为紧密连接；压力传感器设置于承重板下方，并收集施加在承重板上的重力信号；主控板设置于承重板的下表面，主控板包括：单片机主控模块和数据采集模块，数据采集模块具有与压力传感器和单片机主控模块相连接的相应端口；液晶显示模块板设置于承重板的一侧，并具有与单片机主控模块相连接的相应端口；无线通信模块板集成安装于所述承重板上，并具有与单片机主控模块相连接的相应端口。本实用新型的智能体重秤在称重时，精确度高，稳定性好，其可与远程客户端进行数据传输，便于对智能体重秤的控制。
+16. 103701925 Resource synchronous management and control method
+CN
+02.04.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310753070.X
+北京网康科技有限公司
+斯俊伟
+H04L 29/08
+Loading...
+The invention relates to a resource synchronous management and control method. The method comprises the steps that when resource information of a first equipment end is changed, the first equipment end sends the resource information of the first equipment end to a second equipment end, and the second equipment end receives the resource information sent by the first equipment end for synchronization; when both the resource information of the first equipment end and the resource information of the second equipment end are changed, a reference end is determined according to the types of the resource information of the first equipment end and the second equipment end; the reference end sends the resource information to the other equipment end, and the other equipment end receives the resource information sent from the reference end for synchronization; the first equipment end or the second equipment end updates the resource information of the first equipment end or the second equipment end according to the sent/received resource information. The resource synchronous management and control method can synchronously configure data and even operate multiple resources, and a better user experience can be obtained even under the condition of a poor network condition.
+17. 103701819 Hypertext transfer protocol decoding processing method and device
+CN
+02.04.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310744077.5
+北京网康科技有限公司
+刘春辉
+H04L 29/06
+Loading...
+The invention relates to a hypertext transfer protocol decoding processing method. The method comprises the following steps of receiving a first data packet, and judging whether the first data packet is a hypertext transfer protocol data packet or not; decoding the first data packet if the data packet is the hypertext transfer protocol data packet to obtain an original data message; injecting the data message to a kernel, encapsulating the data message into a second data packet, and detecting the safety of the second data packet; transmitting the second data packet. A data channel is established between a user-mode encryption-decryption program and an original kernel transfer framework, before the message is injected to a kernel transfer framework through the data channel, the message is preprocessed through a preprocessing module, the redevelopment of a forwarding route is avoided, so that the utilization rate of the original kernel transfer framework can be improved; the message is injected into the kernel through the data channel, so that the difference between the encryption flow rate and the decryption flow rate is shielded, the original kernel transfer framework is reused, the development efficiency is improved, and the cost is reduced.
+18. 103685316 Audit processing method for network transfer file
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310750369.X
+BEIJING NETENTSEC INC.
+YANG MINGLEI
+H04L 29/06
+Loading...
+The invention relates to an audit processing method for a network transfer file. The audit processing method for the network transfer file comprises creating and installing a file filter driver, wherein the file filter driver is installed in a driver layer; monitoring file operation in the process through the driver layer and obtaining a file subjected to operation processing through the file filter driver; extracting file feature data of the file from the file; enabling the file feature data to be generated into a file list and sending the file list to an application layer; matching obtained keywords of a network transfer file of a user with the file list through the application layer and backing up the matched file to a server. The audit processing method for the network transfer file bypasses parse operation on network data packets, avoids low-efficiency methods such as decryption, and accurately recognizes network file transfer actions in all processes through a hook technology of the file filter driver and the application layer, thereby improving accuracy and efficiency of audit on the network transfer file.
+19. 103684830 Method, device and system for controlling user identification
+CN
+26.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210347574.7
+北京网康科技有限公司
+陈德状
+H04L 12/24
+Loading...
+The invention relates to a method, device and system for controlling user identification. The method comprises the following steps: receiving a data packet sent by a user, and conducting batch query in prestored linkage information according to linkage information corresponding to quintuple information of the received data packet; when the data packet is inquired, comparing the source IP address of the data packet with a prestored IP address; when the comparative results are the same, judging whether the data packet is a data packet containing user information or not according to protocol characteristics of the data packet; when the data packet contains the user information, comparing the user information contained in the data packet with prestored user information; when the comparative results are different, sending the data packet to a user identification module for identification; receiving the identified user information, updating the prestored user information, adding the user information into a data base, and sending to internet. Thus, the method can simultaneously conduct flow control management and user identification, can reduce the task quantity of user identification, and meanwhile increases the realizing precision of flow control management.
+20. 103685320 Feature matching method and device of network data package
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310752692.0
+BEIJING NETENTSEC INC.
+ZHANG RUIJUAN
+H04L 29/06
+Loading...
+The invention relates to a feature matching of a network data package. The method comprises the steps of receiving a data package in a transmitted data stream in a network; acquiring the feature information of the data package; judging whether the feature information of the data package was stored in a first matching result; preprocessing the feature information to obtain a second matching result if the feature information of the data package was not stored in the first matching result, storing the second matching result to the first matching result, and setting the second matching result to be valid from invalid; and associating the first matching result with the connected data stream if the feature information of the data package was stored in the first matching result. The result of the previous feature matching is reserved by preprocessing the relationship between a feature and a strategy condition, so that the matched result is directly used by all data streams with same subsequent data packages and one connection, and the matching efficiency can be improved.
+21. 103678092 Log analysis method and system
+CN
+26.03.2014
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201310743923.1
+BEIJING NETENTSEC INC.
+JIN FENG
+G06F 11/34
+Loading...
+The invention relates to a log analysis method and system. The log analysis method includes the following steps that a data processing unit receives a user request sent by a client end; the data processing unit processes the user request as a task message and sends the task message to a data analysis unit; the data analysis unit carries out log analysis according to the received task message, generates an analysis result and sends the analysis result to the data processing unit; the data processing unit processes the analysis result as a reply message and sends the reply message to the client end. According to the log analysis method and system, real-time performance is achieved, log information analysis can be carried out on original data at any dimensionalities, and the requirements of users for multidimensional data query can be met.
+22. 203290882 智能体温计及体温监测系统
+CN
+20.11.2013
+A61B 5/01 Loading...
+A61B 5/01
+Loading...
+201320345764.5
+北京康智乐思网络科技有限公司
+柴可
+A61B 5/01
+Loading...
+本实用新型涉及数据通信领域，公开了一种智能体温计，包括电子测温计，还包括：智能控制单元和数据传输单元，所述电子测温计和数据传输单元均连接所述智能控制单元；所述智能控制单元传输采集信号至所述电子测温计；所述电子测温计接收所述采集信号并将采集的体温数据传输至所述智能控制单元；所述智能控制单元将包括体温数据的信息传输至所述数据传输单元。本实用新型达到了准确、方便地记录体温数据的效果。
+23. 203300036 人体信号检测装置及监测系统
+CN
+20.11.2013
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+201320345762.6
+北京康智乐思网络科技有限公司
+柴可
+G08C 19/00
+Loading...
+本实用新型涉及数据通信领域，公开了一种人体信号检测装置及监测系统，人体信号检测装置包括检测至少一种人体信号的电子检测器，还包括：智能控制单元和数据传输单元，所述电子检测器和数据传输单元均连接所述智能控制单元；所述智能控制单元传输采集信号至所述电子检测器；所述电子检测器接收所述采集信号并将采集的人体信号传输至所述智能控制单元；所述智能控制单元将包括人体信号的信息传输至所述数据传输单元。本实用新型达到了准确、方便地记录人体信号的效果。
+24. 103284700 智能体温计及体温监测系统
+CN
+11.09.2013
+A61B 5/01 Loading...
+A61B 5/01
+Loading...
+201310239025.2
+北京康智乐思网络科技有限公司
+柴可
+A61B 5/01
+Loading...
+本发明涉及数据通信领域，公开了一种智能体温计，包括电子测温计，还包括：智能控制单元和数据传输单元，所述电子测温计和数据传输单元均连接所述智能控制单元；所述智能控制单元传输采集信号至所述电子测温计；所述电子测温计接收所述采集信号并将采集的体温数据传输至所述智能控制单元；所述智能控制单元将包括体温数据的信息传输至所述数据传输单元。本发明达到了准确、方便地记录体温数据的效果。
+25. 103284695 人体信号检测装置及监测系统
+CN
+11.09.2013
+A61B 5/00 Loading...
+A61B 5/00
+Loading...
+201310239010.6
+北京康智乐思网络科技有限公司
+柴可
+A61B 5/00
+Loading...
+本发明涉及数据通信领域，公开了一种人体信号检测装置，包括检测至少一种人体信号的电子检测器，还包括：智能控制单元和数据传输单元，所述电子检测器和数据传输单元均连接所述智能控制单元；所述智能控制单元传输采集信号至所述电子检测器；所述电子检测器接收所述采集信号并将采集的人体信号传输至所述智能控制单元；所述智能控制单元将包括人体信号的信息传输至所述数据传输单元。本发明达到了准确、方便地记录人体信号的效果。
+26. 103188296 一种网络字节缓存的实现方法及其设备
+CN
+03.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110449249.7
+北京网康科技有限公司
+才华
+H04L 29/08
+Loading...
+本发明公开了一种网络代理缓存的方法及其设备，该方法包括以下步骤：服务端缓存设备接收来自客户端缓存设备缓存中的数据块索引信息；服务端缓存设备接收并保存所述数据块索引信息；服务端缓存设备根据生成的数据块查找本地数据块索引信息，如果查找成功，则向客户端缓存设备发送该数据块对应的索引信息。该设备包括接收模块、数据生成模块、查找模块、数据块重组模块和发送模块。本发明能够减少缓存命中失败的可能性，减少出错机率，同时对索引信息交互过程给带宽资源造成的额外压力进行优化。
+27. 103188169 一种基于应用质量的数据引流方法及其设备
+CN
+03.07.2013
+H04L 12/857 Loading...
+H04L 12/857
+Loading...
+201110454146.X
+北京网康科技有限公司
+斯俊伟
+H04L 12/857
+Loading...
+本发明公开了一种基于应用质量的数据引流方法及其设备，所述方法包括以下步骤：接收数据流量；识别所述数据流量的具体应用；计算所述应用在至少一条链路上的QoE质量指数；根据所述QoE质量指数选择所述应用的最优链路。所述设备包括接收模块、应用识别模块、计算模块和链路选择模块。根据本发明的方法及其设备，可以计算应用在某一链路中的质量状况，进而动态选择应用流量的最优链路。
+28. 103179044 Method, device and system for achieving flow management
+CN
+26.06.2013
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201110437748.4
+北京网康科技有限公司
+王庆官
+H04L 12/801
+Loading...
+The invention relates to a method, device and system for achieving flow management. The achieving method includes: building a corresponding relation between user's demands and external devices; distributing hardware addresses (MAC addresses) relative to the external devices for all the external devices, and performing corresponding binding on switchboard ports; and receiving messages, and sending the messages to the external devices corresponding to the messages in a mirror image or redirection mode. A switchboard is added between an information transfer module (ITM) device and the external devices so as to enable the ITM to be capable of being connected with more external devices, and therefore the method, device and system for achieving the flow management can perform different processing on different flow, and simultaneously solves the problem that performances of the external device are insufficient and density of the ITM is not enough. Furthermore, the MAC addresses are bound to different ports through the switchboard, the method, device and system for achieving the flow management achieves various different requirements of a user correspond to the external devices with various different functions and sends the messages in the mirror image or redirection mode.
+29. 103139252 Achieving method of network proxy cache acceleration and device thereof
+CN
+05.06.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110389138.1
+北京网康科技有限公司
+杨东晓
+H04L 29/08
+Loading...
+The invention discloses an achieving method of network proxy cache acceleration and a device thereof. The method comprises following steps: receiving a network access request from a user; transmitting the network access request to a WEB server; receiving response from the WEB server; according to contents of a head portion of a file of the WEB server response, calculating characteristic value, taking the characteristic value as index, finding whether the same pre-storing file exists in cache, and if finding successes, the pre-store file is sent to the user. The device comprises a user interface module, a transmitting module, a service interface module, a characteristic value calculating module and a finding module. The achieving method can greatly improve acceleration of network resource obtaining of the user, and saves network flow and bandwidth.
+30. 103067394 一种基于单向数据包的TCP连接建立方法及装置
+CN
+24.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210587551.3
+北京网康科技有限公司
+张磊
+H04L 29/06
+Loading...
+本发明涉及一种基于单向数据包的TCP连接建立方法及装置，所述方法包括：通过网络获取数据包；过滤掉一个方向上的数据包，得到第一单向数据包；根据所述单向数据包中的三次握手标志对将所述单向数据包中含有三次握手标志的数据过滤掉，得到第二单向数据包；以及根据应用层逻辑创建与所述单向数据包对应的单向TCP连接，以便通过所述单向连接将所述第二单向数据包交由应用层处理。本发明通过建立基于单向数据包的TCP连接，在网络数据丢包和大量流的环境下，提高了应用层业务数据处理的有效性，本发明的单向TCP连接依赖条件少、处理逻辑简单、维护成本低、占用资源少，有更大的灵活性。
+31. 103051701 一种缓存准入方法及装置
+CN
+17.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210549374.X
+北京网康科技有限公司
+李继明
+H04L 29/08
+Loading...
+本发明涉及一种缓存准入方法及装置，所述方法包括：接收针对用户请求的响应内容；根据预先计算的所述响应内容的统计信息，计算所述响应内容的缓存价值分，所述缓存价值分反映所述响应内容被用户请求的概率；以及将所述缓存价值分与缓存准入阈值分进行比较，如果所述缓存价值分高于所述缓存准入阈值分，则对所述响应内容进行缓存。优选地，根据当前的系统负载动态地计算所述缓存准入阈值分。本发明通过对用户请求进行统计，基于待缓存内容的流行度对其进行价值评分，并且根据当前的系统负载动态地设置缓存准入门槛，提高了缓存命中率，增强了系统的性能和稳定性。
+32. 103036910 一种用户Web访问行为控制方法及装置
+CN
+10.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310002586.0
+北京网康科技有限公司
+周阳
+H04L 29/06
+Loading...
+本发明涉及一种用户Web访问行为控制方法及装置，该方法包括：根据用户的Web数据识别出其对应的URL；根据URL在预先建立的特征库中找到对应的特征，特征库包含多个URL，每个URL对应一个或多个特征；根据特征调取与特征对应的HTTP实体，所述HTTP实体是预先按照HTTP协议特征从Web数据中解析出来的；在HTTP实体中搜索特征中的关键字；在搜索命中后根据特征的条件属性在HTTP实体中提取与关键字对应的内容；将提取出的内容与预定的策略条件进行匹配；执行匹配成功的策略条件所对应的策略。本发明通过URL定位，用Bypass机制跳过非对应功能的流量处理，并且对策略条件进行了预编码，从而针对用户的上网行为进行识别、提取和策略匹配，最终通过执行相应的策略动作达到了有效的行为管理。
+33. 103036726 一种网络用户管理的方法及设备
+CN
+10.04.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210548381.8
+北京网康科技有限公司
+刘卫
+H04L 12/24
+Loading...
+本发明公开了一种网络用户管理的方法及设备，所述方法包括以下步骤：在网络用户登入时，根据网络用户的用户信息查找对应的用户属性信息，用户属性包括一个或多个属性值；将用户属性信息中的一个或多个属性值与权限集进行匹配，确定一个或多个属性值可访问的功能模块的权限，并缓存匹配结果，权限集是根据属性组预先配制的由一个或多个权限记录构成的权限集合，属性组是具有相同属性的网络用户集合；将匹配结果发送给具备访问权限的功能模块；所述设备包括查找单元、匹配单元和发送单元。本发明的方法及其设备通过对属性组的管理，实现了网络用户的策略管理、查询和统计。
+34. 102970308 一种用户认证方法及服务器
+CN
+13.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210562871.3
+北京网康科技有限公司
+刘卫
+H04L 29/06
+Loading...
+本发明公开了一种用户认证方法及服务器，用户认证方法包括以下步骤：向多个认证源同时发送认证请求，并等待返回；在预定时间内只要接收到所述多个认证源中的其中一个数据源的成功认证消息，则认证成功；否则，认证失败。用户认证服务器包括：接收模块、认证模块和发送模块。本发明通过同时向多个认证源发送认证请求，实现了具备多个认证源的认证服务功能，从而提高了用户认证服务的性能。
+35. 102932400 一种识别统一资源定位符主链接的方法及装置
+CN
+13.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210253957.8
+北京网康科技有限公司
+贾晋康
+H04L 29/08
+Loading...
+本发明公开了一种识别统一资源定位符(URL)主链接的方法，包括：利用采集到的指定时长内所有客户端发出的全部超文本传送协议(HTTP)请求，根据间隔门限获取各个客户端对应的突发，对突发进行分组获得同主链突发分组；分别对同主链突发组运行关联规则的分析算法得到关联规则，将所有关联规则保存在知识库中；根据合并准则，对从知识库选出指定时间段内所有的关联规则合并，得到新的关联规则；根据支持度门限、置信度门限及新的关联规则，得到多个URL主链接及其附属链接对。本发明还同时公开了一种识别URL主链接的装置，采用本发明能提高识别URL主链接的准确性。
+36. 102857426 Network device and data stream transmitting method thereof
+CN
+02.01.2013
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201210306832.7
+北京网康科技有限公司
+陈鑫
+H04L 12/741
+Loading...
+The invention discloses a data stream transmitting method of a network device. The data stream transmitting method of the network device comprises the following steps of: judging whether logical functions of the current data package of the current data stream are required to be processed or not according to recorded logical function information; directly sending the data package out according to the recorded logical function information of the current data stream if the logical functions of the current data package of the current data stream are not required to be processed; and processing the logical functions of the data package and then sending the processed logical functions of the data package out if the logical functions of the current data package of the current data stream are required to be processed. Correspondingly, the invention further discloses a network device capable of realizing the data stream transmitting method. According to the method and the network device, the transmitting performance and the handling capacity of the network device can be enhanced, and meanwhile, the network device does not influenced by the complexity of specific logical functions.
+37. 102819586 Uniform Resource Locator (URL) classifying method and equipment based on cache
+CN
+12.12.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210269797.6
+北京网康科技有限公司
+刘立公
+G06F 17/30
+Loading...
+The invention relates to a Uniform Resource Locator (URL) classifying method as well as equipment based on a cache, wherein an index tree is stored in the cache, and URL classifying information is stored in a tree node of the index tree; the method comprises the following steps of: adding a user state reading-copying-updating (URCU) read lock on the index tree; matching the URL classifying information which is stored in the tree node with a URL to be classified from a root node of the index tree by a recursive manner; after finishing recursive matching, releasing the URCU read lock on the index tree, thereby determining type of the URL to be classified. In the method, with adoption of an RCU mechanism as well as the index tree and a multi-stage elimination chain chart in the cache, so that cache updating which develops URL query and is free from conflict with the query is supported; under a circumstance of not affecting a query performance, cache elimination efficiency is improved, and a calculation expense is reduced.
+38. 102819591 一种基于内容的网页分类方法及系统
+CN
+12.12.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210279815.9
+北京网康科技有限公司
+贾晋康
+G06F 17/30
+Loading...
+本发明公开了一种基于内容的网页分类方法，用户设备获取用户要访问的网页的统一资源定位符URL中的特征关键字，并根据所述URL中的特征关键字查询本地的URL特征库，以获取相应的网页分类信息；用户设备在URL特征库中未查询到相应的网页分类信息，则进一步获取用户要访问的网页的页面内容，并根据所述页面内容查询本地的页面模板库，以获取相应的网页分类信息。本发明还相应地公开了一种基于内容的网页分类系统。通过本发明，能够实现基于页面粒度的分类，以及提高分类准确度、提高分类实时性、减少人力成本。
+39. 102325270 一种网络视频的识别方法及其设备
+CN
+18.01.2012
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+201110269390.9
+北京网康科技有限公司
+崔渊博
+H04N 21/434
+Loading...
+本发明公开了一种网络视频的识别方法及其设备。所述方法包括以下步骤：接收HTTP请求报文；识别HTTP请求报文中的网络视频链接；如果识别成功，则解析HTTP请求报文，提取网络视频元信息。所述设备包括接收单元，用于接收HTTP请求报文；识别单元，用于识别HTTP请求报文中的网络视频链接；解析单元，用于解析HTTP请求报文，提取网络视频元信息。本发明识别精细度高、可实现性强，可作为网络流控设备功能实现，并可进行网络应用时监控。
+40. 102325124 一种支持引流功能的应用识别设备及方法
+CN
+18.01.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110135058.3
+北京网康科技有限公司
+刘林
+H04L 29/06
+Loading...
+本发明涉及一种支持引流功能的应用识别设备及方法。该设备包括连接跟踪模块、首包识别模块、引流模块。该连接跟踪模块接收来自所述终端的数据包，根据该数据包判定其是否为新建连接的首包，若是首包，则记录该新连接。该首包识别模块接收来自该连接跟踪模块的首包，并将该首包五元组中的一个或多个信息与关联表中的各表项进行匹配；如果匹配上，则提取该表项中的相应应用；其中，该关联表存储各连接的五元组信息以及相应应用。该引流模块基于来自该首包识别模块的首包、该首包所属应用以及该引流模块的内置引流策略，将该首包引流至相应链路中。本发明实现了连接的首包引流功能，能够广泛应用于各种网络设备中。
+41. 102307250 一种IP地址查找方法及其设备
+CN
+04.01.2012
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110308161.3
+北京网康科技有限公司
+刘卫
+H04L 29/12
+Loading...
+本发明公开了一种IP地址查找方法和设备，所述方法包括以下步骤：获取数据包中的IP地址；根据IP地址的网络地址部份查找对应的哈希表；根据IP地址的主机地址部份计算哈希值；根据哈希值从上述哈希表中查找IP地址对应的IP配制。所述设备包括获取模块、分类模块、计算模块和查找模块。本发明IP地址查找效率高，可作为网络设备功能实现。
+42. 102299863 Method and equipment for clustering network flow
+CN
+28.12.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201110295431.1
+Beijing NetentSec Inc.
+Chen Zhenchang
+H04L 12/56
+Loading...
+The invention discloses a method and equipment for clustering network flow. The method comprises the following steps of: acquiring global network flow; cutting the global network flow according to a single user to generate sample data; classifying network flow types of the flow according to the sample data; and selecting different characteristic combinations for clustering according to the flow types. The equipment comprises an acquiring unit, a sample data generating unit, a primary clustering unit and a secondary clustering unit. The method for clustering network flow has the advantages of high accuracy, high efficiency, wide flow identification range and capability of accurately mining application quantity in the network flow, and can be realized as network flow control equipment.
+43. 102271069 Method, device and system for detecting multi-dimensional information of users
+CN
+07.12.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110265243.4
+Beijing NetentSec Inc.
+Liu Wei
+H04L 12/26
+Loading...
+The invention relates to a method, device and system for detecting multi-dimensional information of users. The method for detecting the multidimensional information of the users comprises the steps of: firstly obtaining a data message sent by a user terminal; and then positioning the user multidimensional information and the classified chain of the user multidimensional information according to a mapping table and a tree structure feature library, wherein the mapping relationship of the user multidimensional bottom-level information and the user multidimensional information in the data message is stored in the mapping table, and artificially grouping information of the user multidimensional information is stored in the tree structure feature library in a mode of a tree structure. The method for detecting the multi-dimensional information of the users can be used for detecting the multidimensional information of the users accurately, and can be widely applied to the field of computer network security.
+44. 102209032 Application identification method and equipment for user definition
+CN
+05.10.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201110135097.3
+Beijing NetentSec Co.,Ltd.
+Chen Zhenchang
+H04L 12/56
+Loading...
+The invention discloses an application identification method and application identification equipment for user definition. The method comprises the following steps of: A, performing packet sniffing on application to be analyzed; B, extracting application signature characteristics from a data packet; C, compiling the application signature characteristics; and D, loading the compiled signature characteristics. The equipment comprises a packet sniffing module, a signature extraction module, a signature compiling module, a signature loading module and an application identification testing module, wherein the packet sniffing module is used for acquiring the data packet; the signature extraction module is used for extracting a signature in a data packet load; the signature compiling module is used for compiling the signature characteristics; the signature loading module is used for loading the compiled signature; and the application identification testing module is used for testing whether the application can be identified or not. The method and the equipment are wide in identification range and highly accurate and extensible, and can be implemented as a network equipment function.
+45. 102201982 Application identification method and equipment thereof
+CN
+28.09.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201110110407.6
+Beijing NetentSec Co.,Ltd.
+Liu Lin
+H04L 12/56
+Loading...
+The invention relates to an application identification method and equipment thereof. The invention provides application identification equipment. The application identification equipment receives data flow from a user terminal and identifies corresponding application according to the data flow. The application identification equipment comprises an application classification module and a strategy module. The application classification module receives data flow from the user terminal and uses a plurality of different identification capability modules to carry out application identification on the data flow in order so as to use one module in the modules to identify corresponding application. The strategy module receives data flow from the application classification module and employs corresponding control strategy with corresponding grade on the data flow according to the identification capability grade of the identified application module. According to the invention, execution efficiency and user experience are improved. The application identification method and equipment thereof can be used in a network behavior management.
+46. 102195816 Method and equipment for feeding back unidentified flow information
+CN
+21.09.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110135090.1
+Beijing NetentSec Inc.
+Chen Zhenchang
+H04L 12/24
+Loading...
+The invention discloses a method and equipment for feeding back unidentified flow information. The method comprises the following steps of: A, finding an unidentified flow; B, acquiring tuple information in a data packet; C, inquiring relevant process information of the data packet through the tuple information of the data packet; and D, generating log information according to the data packet and the relevant process information. The equipment comprises a data packet classification engine, a tuple information extracting module, a process inquiring module and a log generating module, wherein the data packet classification engine is used for acquiring data packet information in the unidentified flow; the tuple information extracting module is used for extracting the tuple information in the data packet; the process inquiring module is used for searching a relevant process in which the data packet is positioned according to tuple information; and the log generating module is used for recording the corresponding relation of the tuple information of the data packet and the process. The method has low cost and high processing efficiency, can be taken as functional realization of flow controlling equipment, and can be applied to network application control in a strategy.
+47. 102185762 Equipment for recognizing, extracting and processing user data sending behavior
+CN
+14.09.2011
+H04L 12/859 Loading...
+H04L 12/859
+Loading...
+201110097759.2
+Beijing NetentSec Inc.
+Liu Wei
+H04L 12/859
+Loading...
+The invention relates to equipment for recognizing, extracting and processing user data sending behavior. In the equipment, the flow of data sent by a user is firstly captured; and subsequently by starting from a root node of a tree-shaped structure characteristic library, characteristics in the tree-shaped structure characteristic library are sequentially matched with character strings in a data stream so as to recognize the user behavior, wherein the three-shaped structure characteristic library memorizes the user behavior characteristics in the form of a three-shaped structure. By adopting the equipment, the data sending behavior of the user can be exactly recognized and extracted; and related information of the user behavior can be extracted. The equipment can be widely applied to the field of computer network safety.
+48. 102014010 System and method for managing network behaviors
+CN
+13.04.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010617465.3
+Beijing NetentSec Inc.
+Yang Dongxiao
+H04L 12/24
+Loading...
+The invention relates to a system and method for managing network behaviors. The system comprises an auditing module, a strategy module and a delay and control module. The strategy module is used for detecting packets passing through the strategy module in real time in accordance with built-in strategies of the strategy module and duplicating the packets complying with the built-in strategies as well as sending the packets complying with the built-in strategies to the delay and control module. The auditing module is used for auditing contents of an application layer in the duplicated packets so as to audit whether the packets are illegal or not and sending the audit results to the relay and control module. The relay and control module is used for carrying out relayed transaction on the packets from the strategy module, and controlling and processing the delayed packets based on the audit results from the auditing module. The system and method in the invention have the advantages of good control effects, higher performances, and are widely applied to in-house networks of the enterprises.
+49. 101969654 Method and system for correlating flow and user information in general packet radio service (GRPS) network
+CN
+09.02.2011
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201010289670.1
+Beijing NetentSec, Inc.
+Tian Lijun
+H04W 24/00
+Loading...
+The invention relates to a method and a system for correlating flow and user information in a GRPS network. The method comprises the following steps of: firstly, receiving a data packet of a control type and analyzing the data packet; secondly, adding one or more of the analyzed tunnel number, state, mobile phone internet protocol (IP) address and user information into nodes of a state HASH list; thirdly, adding the mobile phone IP address and user information of the nodes in the state HASH list into the node of a user HASH list; fourthly, receiving a data packet of a data type and unpacking the data packet to obtain the mobile phone IP address of a user to which the data packet belongs; and finally, searching for the user HASH list by using the mobile phone IP address as a keyword to obtain the information of the user to which the data packet belongs so as to correlate the flow and the user information. The method and the system can be applied to the system which is required to acquire the correlation of the network flow and the user.
+50. 101964813 Method and system for detecting terminal information in GPRS network
+CN
+02.02.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010289680.5
+Beijing NetentSec, Inc.
+Yue Xiao
+H04L 29/08
+Loading...
+The invention relates to a method and a system for detecting terminal information in a GPRS network. The method comprises the following steps of: acquiring UA information and a corresponding mobile phone number thereof; performing matching analysis on the UA information and all keywords in a keyword specimen bank, and if the UA information is matched with one or more keywords in the keyword specimen bank, associatively storing the matched keywords and the mobile phone number so as to acquire the information of a terminal to which the mobile phone belongs; if the UA information is not matched with any keyword in the keyword specimen bank, storing the UA information to an unparsed UA bank; and regularly acquiring the UA information in the unparsed UA bank, extracting keywords from the UA information, and updating the extracted keywords to the keyword specimen bank. The method can be applied to systems needing acquiring mobile phone terminal information.
+51. 101964749 Message retransmission method and system based on multi-core architecture
+CN
+02.02.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010289667.X
+Beijing NetentSec, Inc.
+Liu Pengfei
+H04L 12/56
+Loading...
+The invention relates to a message retransmission method and a system based on a multi-core architecture. The method comprises the following steps: acquiring a data packet in the Internet; when the data packet is a tunnel link data packet, decapsulating the data packet to obtain an IP data packet; and carrying out Hash operation on the quintuple of the IP data packet, computing according to the obtained Hash value and Hash table size thereof and the number of CPUs in the multi-core CPU to obtain the corresponding CPU, labeling the Hash value into the IP data packet, and transmitting the labeled IP data packet to the CPU. The invention increases the utilization rate of fixed network equipment in the wireless Internet, realizes lock-free design of shared resources, and is applicable to the wireless Internet.
+52. 101917349 Network flow control system and method
+CN
+15.12.2010
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201010275436.3
+Beijing NetentSec, Inc.
+Liang Bin
+H04L 12/801
+Loading...
+The invention relates to a network flow control system and a network flow control method. The network flow control system comprises a UDP packet filter module, a flow control parameter update module and a TCP window shaping module, wherein the flow control parameter update module is used for receiving data packets of the system and calculating the flow control state, the UDP packet filtering ratio and the TCP window shaping ratio of the system according to the flow of the data packets and the flow control target set by the system; the UDP packet filter module is used for receiving the flow control state and the UDP packet filtering ratio, and filtering the UDP data packets flowing into the system according to the UDP packet filtering ratio when the flow control state is that the flow control is required; and the TCP window shaping module is used for receiving the filtered data packets, the flow control state and the TCP window shaping ratio and performing window shaping on the filtered data packets according to the size of the TCP windows of the data packets and the TCP window shaping ratio. The network flow control system and the network flow control method can be widely applied to network flow control systems.
+53. 101873261 Method and equipment for improving fluid control effect of token bucket
+CN
+27.10.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010199376.1
+Beijing NetentSec, Inc.
+Liang Zhiyong
+H04L 12/56
+Loading...
+The invention relates to a method and equipment for improving a fluid control effect of a token bucket. The method comprises the following steps of: reducing an account unit of the token bucket; according to the reduced token bucket unit, calculating the number of network consumption token buckets corresponding to different data packet sizes; and rounding the calculated number of the token buckets so as to obtain the number of actual consumption token buckets. Or, the method comprises the following steps of: increasing the table length of a table used for recording the number of the token buckets; and according to the table of which the length is increased, obtaining the number of the network consumption token buckets corresponding to the different data packet sizes. By using the method and the equipment of the invention, the accuracy of the number of network consumption token buckets is greatly improved and the fluid control effect of a network is optimized.
+54. 101841465 Content stream control system based on information interaction and realization method thereof
+CN
+22.09.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010120262.3
+Beijing NetentSec, Inc.
+Chen Xin
+H04L 12/56
+Loading...
+The invention relates to a content stream control system based on information interaction and a realization method thereof. A client intercommunicates with a network server through an application control device, a content auditing device and the Internet. First, the application control device receives a data packet from the client, identifies the type of the data packet and distributes the data packet with application type requiring content auditing and the type of the data packet to the content auditing device. Then, the content auditing device identifies contents in the data packet and transmits the contents of the data packet to the application control device to facilitate the application control device identifying whether the data packet from the client is a legal data packet or not. The method of the invention solves the problem that the network speed is reduced because the traditional application control device is connected with the content auditing device in series, greatly improves the network operation speed and can be widely used in the Internet.
+55. 101841464 Network load balancing device and implementation method thereof
+CN
+22.09.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010120244.5
+Beijing NetentSec, Inc.
+Chen Xin
+H04L 12/56
+Loading...
+The invention provides a method for balancing the load of network traffic based on a link layer by using a balancing device and a device thereof. A first link and a second link are connected in parallel between the balancing device and an external network; a third link and fourth link are connected in parallel between an internal network and the balancing device; the first link and the third link belong to the same link; the second link and the fourth link belong to the same link. The method comprises the following steps of: detecting load information of the first link; judging whether to perform link load balancing on the first link or not according to the load information; when balancing is needed, switching a data packet from the third link into the second link and recording information on connection to which the data packet belongs in a connection information table; and returning the data packet from the second link, which belongs to the same link, to the internal network along the third link according to the connection information table. For a client computer, link switching is transparent. Due to the link switching, the problem of fault or overload of the link is solved.
+56. 101840356 Multi-core CPU load balancing method based on ring and system thereof
+CN
+22.09.2010
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+200910243573.6
+Beijing NetentSec, Inc.
+Chen Xin
+G06F 9/50
+Loading...
+The invention relates to a multi-core CPU load balancing method based on ring and a system thereof. The method comprises the following steps: detecting the load balancing conditions of all CPUs in the multi-core CPU in real time and judging whether the multi-core CPU is balanced; evaluating the loading conditions of all rings under the condition that of the multi-core CPU is not balanced; and adjusting binding relationship among the ring and the CPUs by using the ring as a unit. The method uses the ring as a least unit to adjust the CPU load degree, the division of the flow rate of a network card is finer, and further the multi-core CPU load is more balanced. The method and the system thereof of the invention can be widely applied in the multi-core CPU.
+57. 101841572 IPv4 network device for supporting IPv6 network and implementation method thereof
+CN
+22.09.2010
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+200910243574.0
+Beijing NetentSec, Inc.
+Liang Bin
+H04L 29/12
+Loading...
+The invention relates to an IPv4 network device for supporting an IPv6 network and an implementation method thereof. In the invention, a first data packet conversion module, a mapping relationship memory module and a second data packet conversion module are increased in the IPv4 network device. By means of the first data packet conversion module, the IPv6 data packet received by the first data packet conversion module can be converted into an IPv4 data packet, the mapping relationship between the IPv6 data packet and the IPv4 data packet is stored in the mapping relationship memory module, and then the second data packet conversion module restores the converted IPv4 data packet into the IPv6 data packet according to the mapping relationship. The IPv4 network device for supporting the IPv6 network of the invention has low development cost and low design cost and is widely suitable for the IPv6 network and the IPv4 network.
+58. 101834807 Method for acquiring windowless RichEdit control text content and apparatus thereof
+CN
+15.09.2010
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201010161277.4
+Beijing?NetentSec, Inc.
+Li Jiming
+H04L 12/58
+Loading...
+The invention relates to a method for acquiring a windowless RichEdit control text content and an apparatus thereof. The method comprises the following steps of: firstly, mounting a message hook for monitoring a window event; secondly, modifying an entry address of establishing a text service target function of an RichEdit module in a chat software in the process of monitoring the window event; thirdly, calling a HOOK function to obtain the interface pointer of a text service target; and finally accessing the RichEdit control according to the text service target interface. The invention solves the technical problem of analyzing a network layer protocol through an algorithm secret key so as to monitor the chat information. The invention can be applied to monitoring the chat content using instant chat software.
+59. 101827095 Method and equipment for rapidly resolving protocol based on carriage returns and line feeds
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010141343.1
+Beijing NetentSec, Inc.
+Liu Wei
+H04L 29/06
+Loading...
+The invention relates to a method and equipment for rapidly resolving a protocol based on carriage returns and line feeds. The method comprises the following steps of: searching a keyword of a protocol character stream by using a state machine; once a character is not matched with a state in the state machine, searching a carriage return-linefeed character starting from the mismatched character; continuously searching the keyword of the protocol character stream starting from the next character of the carriage return-linefeed character by using the state machine; and during the process of searching the keyword of the protocol character stream by using the state machine, if one or more characters of the protocol character stream are fully matched with one branch in the state machine, judging the one or more characters to be the keyword so as to finish resolving the protocol. Compared with the conventional method for resolving the protocol by using the state machine, the method for resolving the protocol provided by the invention has the advantage of greatly improving the protocol resolution speed, so the method for resolving the protocol can be widely applied to quick network protocol resolution.
+60. 101808088 Network control equipment and implementation method thereof
+CN
+18.08.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010117659.7
+Beijing NetentSec Inc.
+Cui Yuanbo
+H04L 29/06
+Loading...
+The invention relates to network control equipment and an implementation method thereof. In the technical scheme, a client is connected with a network server through the Internet and the network control equipment, so that the client can transmit POST request data to the network server. In the method, the network control equipment receives the POST request data from the client, extracts a plurality of features in the POST request data, generates a keyword sequence for the POST request data, and matches the keyword sequence with a template in a POST template library so as to judge whether the received POST request data are data allowed to be transmitted to the network server. The network control equipment of the invention has the advantages that the volume of the POST template library is small, the maintenance cost of the network equipment is low, and the access speed is high.
+61. 101771585 Network delay measuring equipment and method thereof
+CN
+07.07.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010116886.8
+NetentSec Inc.
+Liu Yizhen
+H04L 12/26
+Loading...
+The invention relates to a network delay measuring equipment and a method thereof. A TCP data packet is transmitted between a client and a network server through the network delay measuring equipment and the internet. The network delay measuring equipment upgrades the connection state of the TCP data packet according to the connection state, the transmission direction and the marker bit information of the TCP data packets and upgrades the time relevant to the connection state to the present time in order to compute the network delay time after one transmission process of the TCP data packet is ended; the connection state includes transaction start, transaction keep and transaction end. In the invention, the equipment and the method for negatively measuring the network delay by the TCP state machine have simple network deployment, occupy no network bandwidth and have better effect on up and down network delay measurement, widely applicable to computation of network delay.
+62. 101635639 Network connection tracing method and system thereof
+CN
+27.01.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810226986.9
+Beijing NetentSec, Inc.
+Mi Jia
+H04L 12/24
+Loading...
+The invention discloses a network connection tracing method and a system thereof, and the method comprises a connection tracing logic consisting of a table for processing unconfirmed connections and a table for processing confirmed connections. The tracing method comprises the following steps: judging whether the unconfirmed connection satisfies confirmation conditions; transferring the connection into the table for processing the confirmed connection if the connection satisfies the conditions; carrying out protocol stack consequent processing on the connections in the table for processing the confirmed connection in turn. The invention adopts a two-level connection tracing table structure to minimize network resources occupied by invalid connections or meaningless connections, and distinguishes data packets in advance so as to trace connection status thereof.
+63. 101610259 Network behavior control system and method
+CN
+23.12.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910089659.8
+Beijing NetentSec, Inc.
+Liu Lin
+H04L 29/06
+Loading...
+The invention relates to the field of computer security, in particular to a network behavior control system and a method. The network behavior control system intercepts and captures an inner communication opposite end (110) and an outer communication opposite end (140) by network equipment (120) and the inner communication opposite end (110) and the outer communication opposite end (140) transmits packets of data to each other by an internet (130); under the condition that a recognition module (122) recognizes that the connection of the packets is connection reuse and the packets are illegal packets, a replacing module (121) replaces the illegal packets with legal packets or invalid packets, thus further realizing that the illegal behavior is effectively blocked while in uninterrupted connection. The system and the method have important application valve in a defense system of a local area network.
+64. 101610209 Method and device for multi-core parallel concurrent processing of network traffic flows
+CN
+23.12.2009
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200810226987.3
+Beijing Wangkang Technology Co., Ltd.
+Liang Zhiyong
+H04L 12/56
+Loading...
+The invention relates to a method and a device for the multi-core parallel concurrent processing of network traffic flows. The method comprises the following steps: capturing a data pocket from a network; and unpacking the data pocket into a plurality of traffic flows and generating a traffic flow distribution list so that a multi-core processor processes the traffic flows according to the traffic flow distribution list. The method is characterized by also comprising following steps: acquiring the load condition of each processing core; and confirming the active level of each traffic flow after generating the traffic flow distribution list which is changed according to the load conditions and the active levels so as to dynamically distribute the traffic flows. The invention effectively adjusts the load of each processing core and fully utilizes the processing performance of the multi-core processor by dynamically distributing the network traffic flows into a plurality of processing cores.
+65. 101431521 Anti-Trojan network security system and method
+CN
+13.05.2009
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810227282.3
+Beijing NetentSec, Inc.
+Zhang Yongchen
+H04L 29/06
+Loading...
+The invention relates to network safety system and method, more concretely a network safety system and method for preventing Trojan. A control terminal (240) is connected with server (210) through Internet (230) so that control terminal (240) transmits instruction to server (210) and /or server (210) transmits data back to control terminal (240). The network safety system of the invention identifies Trojan virus through virus identification module (221), performs protection operation for server (210) through strategy control module (222). In one embodiment, Trojan virus is identified based on data of application layer, while in another embodiment based on data of application layer and TCP head or IP head information, and based on relation between data packet during connection. The network safety system and method for preventing Trojan of the invention are widely used among LAN and single PC.
+

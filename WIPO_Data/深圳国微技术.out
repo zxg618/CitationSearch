@@ -1,0 +1,1837 @@
+1. 106599343 一种提高仿真效率的SOC系统验证方法和装置
+CN
+26.04.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102016000936215
+深圳国微技术有限公司
+李亚明
+G06F 17/50
+Loading...
+本发明公开了一种提高仿真效率的SOC系统验证方法和装置，其中方法所用到的主要硬件包括系统验证平台和待验证的SOC芯片，包括如下步骤：将测试激励中的硬件激励的代码整合在所述系统验证平台（105）中；在对SOC芯片（101）仿真验证之前，对构成系统验证平台（105）和SOC芯片（101）的硬件代码进行一次性编译；所述系统验证平台（105）接收外部的测试命令，选择相应的SOC芯片（101）的硬件运行环境，编译并运行相应的软件激励的代码，对所述SOC芯片（101）进行仿真验证。本发明节约了硬件代码的编译时间和SOC芯片重复上电初始化的运行时间，大大提高了SOC芯片仿真验证的效率。
+2. 106559682 一种数字电视指纹水印保护的方法及装置
+CN
+05.04.2017
+H04N 21/2389 Loading...
+H04N 21/2389
+Loading...
+201611004084.1
+深圳国微技术有限公司
+刘鹏辉
+H04N 21/2389
+Loading...
+本发明公开了一种数字电视指纹水印保护的方法及装置，其中方法包括如下步骤：在CCK更新过程中，可移除的条件访问模块对主机传递过来的解扰后的音视频数据准备进行二次加扰；将可移除的条件访问模块与主机之间的CCK变化的信息作为指纹信息扰化在音视频数据流中，然后可移除的条件访问模块对增加了指纹信息的音视频数据流进行二次加扰后再传递给主机；所述主机对二次加扰后的音视频数据流进行解扰、解码并输出相应的电视节目。本发明可以在不对原系统进行大规模改造的前提下，实现对二次加解扰的保护，同时满足低功耗需求。
+3. 103561317 一种条件接收卡CAM及数据处理方法
+CN
+15.02.2017
+H04N 21/4367 Loading...
+H04N 21/4367
+Loading...
+102013000539009
+深圳国微技术有限公司
+李诚
+H04N 21/4367
+Loading...
+本申请提供一种条件接收卡CAM，包括：存储单元，用于存储转换程序；缓存单元，用于缓存转换程序和预设统一格式的私有信息表；处理单元，用于执行转换程序，将不同格式的私有信息表转换为预设统一格式的私有信息表，并缓存至缓存单元；授权信息单元，用于获取用户授权信息；通讯单元，用于将用户授权信息发送至运营商服务器，接收运营商服务器发送的与用户授权信息相符的不同格式的私有信息表，发送至处理单元，将预设统一格式的私有信息表发送至一体机。因此本申请能够将不同格式的私有信息表转换为预设统一格式的私有信息表，降低了制造一体机的实现难度和成本，并且使得运营商可以向一体机用户下发与用户授权信息相符的私有信息表。
+4. 106375806 一种基于条件接收卡的用户界面更新方法、系统及前端装置
+CN
+01.02.2017
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201610779829.5
+深圳国微技术有限公司
+向柄宇
+H04N 21/418
+Loading...
+本发明适用于条件接收卡、前端装置领域，提供了一种基条件接收卡的用户界面更新方法、系统及其前端装置，所述用户界面更新方法包括：前端装置根据来自条件接收卡的触发在前端装置内生成UI的更新码流；将所述更新码流传输给与所述更新码流的格式相兼容匹配的主机，以通过所述主机更新显示所述UI。本发明通过在前端装置内生成UI用户界面的更新码流，再将所述更新码流传输给主机，使所述主机更新显示所述UI，避免了主机兼容性差的缺陷，能够有效地解决现有技术中因CI传输速度较慢及条件接收卡的中央处理器的性能较弱，通常会碰到界面卡顿、反应慢等一些用户体验差的技术问题。
+5. WO/2017/012433 INTELLIGENT MOBILE POS MACHINE AND PAYMENT SYSTEM
+WO
+26.01.2017
+G06Q 20/20 Loading...
+G06Q 20/20
+Loading...
+PCT/CN2016/085062
+SHENZHEN STATE MICRO TECHNOLOGY CO.,LTD
+XIANG, Bingyu
+G06Q 20/20
+Loading...
+An intelligent mobile POS machine and a payment system. The payment system comprises an intelligent mobile POS machine (21) and a mobile terminal (22). The intelligent mobile POS machine (21) comprises a payment unit (12). The payment unit (12) comprises a main control module (121), an intelligent mobile POS machine communication module (122) and a card reading module (123). The mobile terminal (22) comprises a mobile terminal communication module (221), a payment transaction module (222), a display screen (223) and a keyboard (224). The mobile terminal communication module (221) is in a communication connection with the intelligent mobile POS machine communication module (122). By means of the mobile terminal communication module (221) being in a communication connection with the intelligent mobile POS machine communication module (122), the process of an ordinary mobile terminal and the intelligent mobile POS machine (21) being used cooperatively as a whole to complete payment transaction can be realized. In this way, not only can a payment function of the customized mobile terminal be realized, but also all the functions of the ordinary mobile terminal can be realized, so that it is more convenient to operate and carry the mobile POS machine, the usage costs are reduced, and meanwhile the requirements of a user for good performance and low costs of a mobile device can be satisfied.
+6. WO/2017/000753 PAYMENT APPARATUS LOCATING METHOD AND DEVICE
+WO
+05.01.2017
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+PCT/CN2016/085052
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Zhiming
+H04M 1/725
+Loading...
+The present invention is suitable for the field of communications. Provided are a payment apparatus locating method and device. The method comprises the following steps: acquiring an input signal; determining whether the input signal matches a pre-stored locating signal of a payment apparatus; and transmitting an indication command to the payment apparatus, such that the payment apparatus outputs an indication signal. In the present invention, the indication command is transmitted to the payment apparatus after acquiring the input signal on a mobile terminal and identifying the locating signal of the payment apparatus, and the payment apparatus outputs the indication signal for indicating a position of the payment apparatus to a user after receiving the indication command, such that the user can easily find the payment apparatus without spending a large amount of time, thus finishing payment in time.
+7. WO/2016/206535 INTERNET OF THINGS MULTIFUNCTIONAL MOBILE POS TERMINAL AND INTELLIGENT PAYMENT SYSTEM
+WO
+29.12.2016
+G07G 1/00 Loading...
+G07G 1/00
+Loading...
+PCT/CN2016/085047
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LI, Yanrong
+G07G 1/00
+Loading...
+The present invention is applicable to the field of electronic payments, and provides an Internet of Things multifunctional mobile POS terminal and an intelligent payment system. The Internet of Things multifunctional mobile POS terminal comprises a master control module, an input module, an LCD display module, a communication module, and a card reading module; and the input module, the LCD display module, the communication module and the card reading module are respectively connected to the master control module. The communication module of the mobile POS terminal of the present invention can choose a corresponding network interface in the communication module according to a detected network signal to perform a wireless AP access network service so as to communicate with a background server, the mobile POS terminal can be applied in a variety of different trading places such as marketplaces, restaurants and outside transaction, and the mobility and local area network abnormality resistance of the mobile POS terminal are enhanced.
+8. WO/2016/206530 HIGHLY SECURE MOBILE PAYMENT METHOD, APPARATUS, AND SYSTEM
+WO
+29.12.2016
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+PCT/CN2016/084890
+SHENZHEN STATE MICRO TECHNOLOGY CO.,LTD
+LIN, Zhiming
+G06Q 20/38
+Loading...
+A highly secure mobile payment method, apparatus, and system, which are applicable to the field of electronic payment. The method comprises: a mobile terminal sends a consumption request to a payment device (S401); the payment device generates a payment request according to the consumption request, and sends the payment request to the mobile terminal (S402), wherein the payment request carries sensitive data, and the payment device performs an encryption operation on the sensitive data; the mobile terminal sends the payment request to a daemon server (S403); and after receiving the payment request, the daemon server decrypts the encrypted sensitive data, and interacts with a payment backend based on the payment request, to complete payment (S404). Payment is completed by means of encrypting sensitive data by using a key and sending a payment request that comprises the sensitive data to the daemon server by the mobile terminal, keys are managed by the same daemon server, the mobile terminal only forwards data, and different keys can be delivered for different payment devices or each transaction, thereby improving payment security.
+9. WO/2016/165211 MONTGOMERY MODULAR MULTIPLICATION APPARATUS AND EMBEDDED SECURITY CHIP HAVING SAME
+WO
+20.10.2016
+G06F 7/72 Loading...
+G06F 7/72
+Loading...
+PCT/CN2015/083095
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+YU, Songliang
+G06F 7/72
+Loading...
+A Montgomery modular multiplication apparatus and an embedded security chip. The Montgomery modular multiplication apparatus comprises: a first Montgomery modular multiplication module (2), configured to obtain, according to two first pre-set parameters, a first operation result A; a power calculation module (3), configured to obtain, according to the first operation result A output by the first Montgomery modular multiplication module (2), the first pre-set parameters, a second pre-set parameter and a power calculation function, a second operation result B; the first Montgomery modular multiplication module (2), further configured to obtain, according to the first operation result A and the second operation result B, a Montgomery modular multiplication conversion coefficient; and a second Montgomery modular multiplication module (5), configured to obtain, according to a first input parameter NA, a second input parameter NB and the Montgomery modular multiplication conversion coefficient, a final modular multiplication result. The Montgomery modular multiplication apparatus and the embedded security chip can avoid a calculation conversion coefficient of a large module power mode, and can save a storage space due to no need of calculating a coefficient in advance.
+10. 105721908 一种条件接收模块与运营商网络的适配方法及装置
+CN
+29.06.2016
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+102016000054888
+深圳国微技术有限公司
+王振
+H04N 21/418
+Loading...
+本申请提供了一种条件接收模块与运营商网络的适配方法及装置，条件接收模块与运营商网络的适配方法包括：条件接收模块从运营商网络中选取出待使用定制功能模块，所述待使用定制功能模块为适应于所述运营商网络所属运营商的定制功能模块；条件接收模块获取并存储待使用定制功能模块。在本申请中，条件接收模块厂商可以预先生产未集成定制功能模块的条件接收模块，不需要分别针对各个运营商生产定制的条件接收模块，降低了生产失误率，提高了生产效率。对于用户，只需要购买一张非定制的条件接收模块，就能够在条件接收模块使用过程中完成与运营商网络的适配，就能够实现播放当地的数字电视节目以及体验运营商提供的各种功能。
+11. 105721943 一种控制节目收看的方法和装置
+CN
+29.06.2016
+H04N 21/4627 Loading...
+H04N 21/4627
+Loading...
+201610058367.8
+深圳国微技术有限公司
+孙夜明
+H04N 21/4627
+Loading...
+本发明适用于数字电视技术领域。提供了一种控制节目收看的方法和装置。该控制节目收看的方法包括：当播放的节目为限制收看的节目时，采集预设的条件参数；判断采集的条件参数是否满足预设的触发条件，若是，则请求输入解扰指令，否则，继续采集预设的条件参数并重复本步骤；判断输入的解扰指令是否为预设的解扰指令，若是，则对节目解扰，否则，停止对节目解扰。本发明不需要采用其他辅助设备便可以做到对节目的有效控制，对用户收看的电视节目起到一定的约束作用。
+12. 105704521 一种实现个性化频道列表的方法及装置
+CN
+22.06.2016
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+201610055521.6
+深圳国微技术有限公司
+李瑞佳
+H04N 21/258
+Loading...
+本发明公开了一种实现个性化频道列表的方法及装置，该方法包括：接收用户终端发送的获取列表请求；通过所述用户终端的标识信息，在数据库中查找对应的电视终端信息；通过所述标识信息在所述数据库中查找与所述用户终端以及所述电视终端信息相对应的当前频道列表信息；对所述当前频道列表信息进行显示。本发明所提供的实现个性化频道列表的方法及装置，一个电视终端的每个用户终端分别对应一种频道列表，用户只需要采用对应的终端就可以控制电视终端设备，获取个性化频道列表，不需要复杂的操作过程，更加方便快捷，提升了用户的使用体验。
+13. 105704522 电视的实时监控方法及装置
+CN
+22.06.2016
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+201610058501.4
+深圳国微技术有限公司
+邹永军
+H04N 21/258
+Loading...
+本发明适用于智能电视技术领域。提供了电视的实时监控方法及装置，该电视的实时监控方法包括：统计电视节目的播放信息；将播放信息发送给与播放电视节目的电视的唯一标识码绑定的终端或应用程序的账号；接收终端发送的控制指令；根据控制指令的指令内容控制电视的播放状态。本发明使得监控人可通过终端获取电视的播放信息，实时了解电视节目的播放情况，并允许用户通过向电视端发送控制指令以实现对电视的播放状态进行控制。
+14. 105681905 一种智能电视及其提高应用程序的适配性的方法和装置
+CN
+15.06.2016
+H04N 21/443 Loading...
+H04N 21/443
+Loading...
+201610061639.X
+深圳国微技术有限公司
+张磊
+H04N 21/443
+Loading...
+本发明适用于智能电视技术领域。提供了一种智能电视及其提高应用程序的适配性的方法和装置。该提高应用程序的适配性的方法包括：接收调用应用程序的功能模块的接口的指令；判断是否预设有与调用的功能模块同类的优选功能模块的接口，若是，则获取所述优选功能模块的接口，否则，获取系统中原生的同类功能模块的接口；调用获取的接口。本发明使得需要适配的功能模块在开发时不需要考虑到应用到不同平台的中的差异性，不需要另外加载为了提高适配性而自定义的解决方案，提高了系统的使用效率，且本实施例提供的方法不针对特定的平台系统也不针对特定的功能模块，使得本发明在提高应用程序的某些功能模块的适配性的基础上还能具有较好的可移植性。
+15. 105657501 一种数字电视直播系统及方法
+CN
+08.06.2016
+H04N 21/414 Loading...
+H04N 21/414
+Loading...
+201610058633.7
+深圳国微技术有限公司
+苏志辉
+H04N 21/414
+Loading...
+本申请公开了一种数字电视直播系统及方法，该系统包括：解扰装置，与数字电视同轴电缆连接，用于接收由数字电视同轴电缆输入的数字电视信号，并根据路由设备发送的解扰命令，对数字电视信号进行解扰处理，得到相应的解扰信号数据；其中，解扰命令为路由设备在接收到智能终端发送的节目播放指令后生成的命令；路由设备，用于对解扰信号数据进行信号提取处理，得到相应的单节目音视频流；智能终端，用于通过路由设备提供的数据传输通道，获取单节目音视频流，利用自身的视频解码器，对单节目音视频流进行解码，并对解码后得到的信号进行播放。本申请实现了在减少用户购买成本的基础上，提升现场布线的整洁度的目的。
+16. 105635799 一种生成多种频道列表的方法、装置及终端
+CN
+01.06.2016
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+201610054916.4
+深圳国微技术有限公司
+杨玉成
+H04N 21/434
+Loading...
+本发明公开了一种生成多种频道列表的方法，包括：响应用户的搜台操作，进行频道搜索；加载各个频道排序插件；根据搜台结果及各个所述频道排序插件，获取各个所述频道排序插件对应的频道排序列表；其中，所述频道排序列表包括频道号对应的频道名称；该方法能够在搜台完成后，根据搜索到的频道信息以及加载的多种频道排序插件，生成多种频道列表，供用户选择最喜欢的频道列表，提高用户使用体验；本发明还公开了一种生成多种频道列表的装置及终端。
+17. 105635759 一种输出内容保护方法与条件接收模块
+CN
+01.06.2016
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+201610055960.7
+深圳国微技术有限公司
+张华森
+H04N 21/254
+Loading...
+本发明公开了一种输出内容保护方法与条件接收模块，接收主机发送的主机身份标识，主机身份标识合法则向所述主机发送自身身份标识；与主机共同确定一个加密音视频数据的目标密钥；接收主机发送的初始加密音视频数据与对应的控制信息，根据控制信息对所述初始加密音视频数据进行解密，得到目标音视频数据；根据控制信息获取目标音视频数据内容保护级别信息，可以根据解密后的目标音视频数据的控制信息获取内容保护级别信息，根据内容保护级别信息需要加密的输出内容进行再加密，可以得到主机支持的安全级别信息，根据安全级别信息决定是否将需要保护的目标音视频数据输出到主机，可以对输出内容实现保护，避免非法设备窃取到解密后的内容。
+18. 105611398 一种利用条件接收模块处理网络数据的方法和装置
+CN
+25.05.2016
+H04N 21/4367 Loading...
+H04N 21/4367
+Loading...
+201511028020.0
+深圳国微技术有限公司
+孙夜明
+H04N 21/4367
+Loading...
+本发明适用于数字电视技术领域。提供了一种利用条件接收模块处理网络数据的方法和装置。该利用条件接收模块处理网络数据的方法包括：在条件接收模块中配置与主机建立连接的虚拟网卡；通过虚拟网卡获取上行数据以及目标设备的地址和端口信息；按照与主机协商的通讯协议将上行数据依据目标设备的地址和端口信息发送给目标设备；将主机获取到的下行数据以以太包的格式封装后写入虚拟网卡，以供网络客户端从虚拟网卡中获取下行数据。本发明使得条件接收模块能够准确解析来自客户端的任何数据请求，将有效数据发送给网络运营商，让条件接收模块通过网络接入来收看IP网络节目，允许用户能在任一时段收看不同节目，给用户一种全新的体验。
+19. 105578287 一种高码率传输流的传输方法、装置以及高清数字电视
+CN
+11.05.2016
+H04N 21/4545 Loading...
+H04N 21/4545
+Loading...
+201610058504.8
+深圳国微技术有限公司
+苏志辉
+H04N 21/4545
+Loading...
+本发明适用于数字电视的技术领域，提供了一种高码率传输流的传输方法，包括如下具体步骤：接收高码率传输流；根据用户配置的过滤条件，对高码率传输流中的传输流包进行过滤，得到低码率传输流；传输低码率传输流。在本发明实施例中，针对现有技术中提高传输效率的技术无法适用于机卡分离方式中的技术问题，采用过滤传输流包的方式，使得高码率传输流能够简单、快速地转变为低码率传输流，从而大大提高传输带宽的利用率，而且整个转变过程能够在用户观看时同步进行，尤其适合于数字电视一体机等机卡分离方式的传输。
+20. 105578205 一种视频转码方法和系统
+CN
+11.05.2016
+H04N 21/2343 Loading...
+H04N 21/2343
+Loading...
+201410584834.1
+深圳国微技术有限公司
+刘志恒
+H04N 21/2343
+Loading...
+本发明提供的视频转码方法和系统，为不同类别的视频赋予均等的转码机会，具体地，可将运营商ID作为视频分类依据，并为不同运营商赋予同等的转码机会，在每轮转码中，确保各个运营商有被访问且仅被访问一次，并在访问每个运营商时，仅对该运营商中当前请求时间最早的转码任务进行转码，且本发明可对多个运营商的多个任务进行并行处理，实现了多运营商对转码过程中各处理环节(切片、转码、合片)的资源共享，各处理环节在将当前运营商任务交由下一环节后，无需闲置等待，可开始下一个运营商的相应任务处理。可见，本发明实现了多运营商多任务的并行处理，各运营商无需等待当前运营商的转码流程结束后才开始转码，提高了各运营商的转码效率。
+21. WO/2016/065705 CHANNEL LIST UPDATING METHOD AND APPARATUS, AND TERMINAL DEVICE
+WO
+06.05.2016
+H04N 21/435 Loading...
+H04N 21/435
+Loading...
+PCT/CN2014/094080
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/435
+Loading...
+Provided is a channel list updating method, which is applicable to the field of televisions. The method includes the following steps: receiving a channel list updating command; sending a newest channel list version information acquisition request to a server according to the received channel list updating command; receiving newest channel list version information returned by the server, and judging whether the newest channel list version information is newer than previous channel list version information; when it is judged that the newest channel list version information is newer than the previous channel list version information, sending a newest channel list information acquisition request to the server; and receiving newest channel list information returned by the server, and updating a previous channel list according to the newest channel list information. The channel list updating method in the present invention consumes little time, and shortens channel list updating time.
+22. 105554540 一种网络接口在条件接收卡中的实现方法和装置
+CN
+04.05.2016
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201511028019.8
+深圳国微技术有限公司
+麦向阳
+H04N 21/418
+Loading...
+本发明适用于数字电视技术领域。提供了一种网络接口在条件接收卡中的实现方法和装置。该网络接口在条件接收卡中的实现方法包括：通过虚拟网卡获取网络数据包；解析网络数据包中的IP地址以及端口；将网络数据包按照端口对应的协议类型重新封装；将重新封装后的网络数据包发送给IP地址对应设备的对应端口。本发明使得条件接收在没有真实网卡的情况下，通过利用虚拟网卡在条件接收卡中实现实体网卡的功能，为不同的CA/DRM和网络应用客户端提供一个统一标准的接口，不需要应用客户端更改接口，减少了实现难度且移植性好。
+23. WO/2016/061887 VIDEO CONVERSION METHOD AND APPARATUS, PLAYING SYSTEM AND TERMINAL
+WO
+28.04.2016
+H04N 21/00 Loading...
+H04N 21/00
+Loading...
+PCT/CN2014/094049
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/00
+Loading...
+Provided are a video conversion method and system, which are applicable to the field of video playing. The method includes the following steps: receiving a multiplex program transport stream, and converting the multiplex program transport stream into a plurality of simplex program transport streams; allocating a uniform resource locator for each simplex program transport stream; and transmitting, according to a program playing request, the corresponding simplex program transport streams to a video player through the uniform resource locator for playing. In the embodiments of the present invention, a uniform resource locator is allocated for each program transport stream in a video converter, and then a video is played by the video player, so that an Android system does not need to be modified, and the TSs can be played via a local playing interface and a mobile video terminal device, thereby reducing implementation costs and providing an excellent playing quality and internet experience for users.
+24. 205160716 一种数字视频条件接收装置
+CN
+13.04.2016
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201520921335.7
+深圳国微技术有限公司
+向柄宇
+H04N 21/418
+Loading...
+本实用新型公开了一种数字视频条件接收装置，包括：壳体、对加扰的电视节目流进行解扰和预设处理的电路板、设置在电路板上的USB接口和大智能卡卡座；其中，电路板包括上下叠放的第一电路板和第二电路板，第一电路板和第二电路板通过排线连接，卡座固定设置在第一电路板上，USB接口设置在第二电路板上，卡座设有与插入的大智能卡上的芯片触点碰触连接的对应卡座触点，卡座触点和第一电路板电连接。使得用户可以直接使用大智能卡，而无需将大智能卡减为小智能卡。由于USB接口和卡座安装在不同的电路板上，这就能尽量错开USB接口和大智能卡之间的距离，在使用时大智能卡就能避开电视机的USB接口附近的连接线，从而避免了碰撞干涉。
+25. 105468550 一种可实现链表循环的系统及方法
+CN
+06.04.2016
+G06F 13/28 Loading...
+G06F 13/28
+Loading...
+201510802699.8
+深圳国微技术有限公司
+王良清
+G06F 13/28
+Loading...
+本发明公开了一种可实现链表循环的系统及方法，其中系统包括链表，配置模块和直接存储器访问控制器：所述链表包含控制信息、源地址、目的地址、下条链表地址、结束标志和循环标志；所述直接存储访问控制器包含：控制部件，用于完成各链表定义的传输命令的执行部件，与链表所包含的各数据一一对应的各寄存器和一个分支链表寄存器，对正在执行的当前链表的循环次数进行计数的循环计数器；配置模块，对需要执行的链表配置各链表所包含的各数据，以及根据链表需要被循环的次数，配置循环计数器。本发明不仅实现了链表的循环分支执行，同时也不需要增加链表的数量，大大减轻了系统的负担。
+26. 105471870 一种密钥安全更新及使用的系统及方法
+CN
+06.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510822987.X
+深圳国微技术有限公司
+邓峰
+H04L 29/06
+Loading...
+本发明公开了一种密钥安全更新及使用的系统及方法，其中系统包括至少一个密钥存储器单元，所述密钥存储器单元包括密钥内容模块、至少一个密钥用途标记模块、有效标记模块；当密钥内容模块将密钥内容更新完毕后，所述有效标记模块设置有效标记为有效状态，所述有效状态持续至密钥内容模块下次更新前或者密钥用途标记模块的密钥用途变化前为止。该系统利用有效性标记来确保密钥更新及使用过程中的安全，提高密钥的抗攻击能力。
+27. WO/2016/045207 METHOD AND DEVICE FOR COMBINING DVB LIVE BROADCAST AND NETWORK ON-DEMAND BROADCAST
+WO
+31.03.2016
+H04N 7/08 Loading...
+H04N 7/08
+Loading...
+PCT/CN2014/094055
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 7/08
+Loading...
+The present invention is applicable in the field of Internet television. Provided are a method and device for combining a DVB live broadcast and a network on-demand broadcast, the method comprising: receiving a broadcast instruction comprising program information, the broadcast instruction being a DVB live broadcast instruction or a network on-demand broadcast instruction; when the play instruction is the DVB live broadcast instruction, sending the DVB live broadcast instruction and the program information to a conditional receiver, such that the conditional receiver returns video data; when the play instruction is the network on-demand broadcast instruction, sending the network on-demand broadcast instruction and the program information to an OTT server, such that the OTT server returns video data; playing the video data returned by the conditional receiver or the video data returned by the OTT server. An embodiment of the present invention obtains DVB live broadcast video data through the conditional receiver, and obtains a network resource by connecting to a third-party server at the same time, thus achieving unified management of the combined functions of the DVB live broadcast and the network on-demand broadcast.
+28. WO/2016/045208 DIGITAL TELEVISION BROADCAST TRANSPORT STREAM PLAYING METHOD, SYSTEM AND TERMINAL
+WO
+31.03.2016
+H04N 21/458 Loading...
+H04N 21/458
+Loading...
+PCT/CN2014/094069
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/458
+Loading...
+The present invention relates to the field of network television, and provided are a digital television broadcast transport stream playing method and system, the method comprising: receiving a multiple program transport stream outputted by a conditional receiving device; receiving a program selection instruction inputted by a user, and filtering the multiple program transport stream according to the program selection instruction to output PAT, PMT and audio/video data of a corresponding program; updating the PAT and PMT to be a single PAT and PMT, and outputting the single PAT and PMT and audio/video data to an Android player. In an embodiment of the present invention, the multiple program transport stream is filtered, packaged and updated to the single transport stream, such that the digital television program can be played in the Android system, thus meeting the requirements of the majority of users.
+29. WO/2016/045209 PROGRAM SWITCHING METHOD, DEVICE AND TERMINAL
+WO
+31.03.2016
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+PCT/CN2014/094152
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/434
+Loading...
+The present invention is suitable for the field of televisions. Provided is a program switching method, comprising the following steps: receiving a current program transport stream, and obtaining current program audio and video type information and transport identification information of current program transport stream audio and video data; when it is determined that the current program audio and video type information is the same as a previous program audio and video type information, replacing the transport identification information of the current program transport audio and video data with the transport identification information of the previous program transport audio and video data, replacing program map information of the current program with program map information of the previous program, and transporting the current program transport stream, with the transport identification information and the program map information thereof replaced, to a media player for playing the same. The program switching method provided in an embodiment of the present invention can directly play the current audio and video program without resetting the media player, such that a time for initializing a decoder is saved, thus shortening program switching time.
+30. 105446664 一种对存储器进行文件存储方法和存储装置
+CN
+30.03.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201510876978.9
+深圳国微技术有限公司
+单见元
+G06F 3/06
+Loading...
+发明提供了一种对存储器进行文件存储方法，所述文件存储方法包括以下步骤:将存储器划分为两个区域,其中一个区域为存储配置区,另一个区域为存储数据区;将存储数据区划分为两个文件区域,其中一个区域为文件数据区,另一个区域为文件交换区;向存储器写入文件交换区,并更新存储映射表，其中所述存储映射表用于指示所述文件数据区和文件交换区的逻辑地址与物理地址的关系;判断文件数据是否成功写完,如果是,将写入的文件数据更新至所述文件数据区;将更新后的存储映射表保存至所述存储配置区中。所述文件存储方法可以确保文件的完整性。
+31. 105426206 一种版本信息的控制方法和控制装置
+CN
+23.03.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510769315.7
+深圳国微技术有限公司
+单见元
+G06F 9/445
+Loading...
+本发明提供了一种版本信息的控制方法，所述控制方法包括以下步骤：获取一次性可编程器中的安全计数值，闪存中版本数据块对应的版本控制信息以及所述安全计数值和版本控制信息的签名数据；根据所述安全计数值和版本控制信息的签名数据对所述安全计数值和版本控制信息进行校验；当校验通过时，获取应用程序数据块的版本控制信息；判断应用程序数据块的版本控制信息是否高于或等于版本数据块对应的版本控制信息；如果是，加载应用程序数据块中的应用程序。该控制方法可以大大提高了版本信息的升级次数。
+32. WO/2016/037438 DIGITAL TELEVISION RECEIVING APPARATUS
+WO
+17.03.2016
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+PCT/CN2014/094110
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/418
+Loading...
+The present utility model is applicable to the field of cable televisions. Provided is a digital television receiving apparatus, which comprises a shell and a digital television signal processing apparatus arranged inside the shell. The digital television signal processing apparatus arranged inside the shell comprises a data interface, a radio frequency signal receiver, a smart card and a descrambler. The data interface is connected to the descrambler and the radio frequency signal receiver. The radio frequency signal receiver is connected to the data interface and the descrambler. The smart card is connected to the descrambler. The descrambler is connected to the radio frequency signal receiver, the smart card and the data interface. The digital television receiving apparatus provided by the present utility model performs conversion processing on digital television signals and is directly connected to a video terminal device via the data interface, so that a digital television set-top box does not need to be used, and the digital television can be played on the video terminal device.
+33. WO/2016/037436 APPARATUS AND SYSTEM FOR DESCRAMBLING DIGITAL TELEVISION SIGNAL AND TERMINAL
+WO
+17.03.2016
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+PCT/CN2014/094107
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+H04N 21/41
+Loading...
+The present invention is applicable to the field of digital televisions. Provided is an apparatus for descrambling a digital television signal. The apparatus comprises a tuning and demodulation module and a descrambling and control module. The tuning and demodulation module is separately connected to a digital television network and the descrambling and control module. The descrambling and control module is separately connected to an intelligent terminal playing system and the tuning and demodulation module. The apparatus for descrambling a digital television signal provided by an embodiment of the present invention descrambles a digital television signal of a broadcast & television network and sends the descrambled signal to an intelligent terminal, and a program playing module of the intelligent terminal is used for decoding and displaying a descrambled current program transmission stream. Therefore, the decoding and display device of the intelligent terminal is effectively utilized, and as the decoding device in the apparatus for descrambling a digital television signal is omitted, the equipment cost of the apparatus for descrambling a digital television signal is reduced.
+34. 105404496 数据传输的控制方法和控制装置及具有其的微处理器
+CN
+16.03.2016
+G06F 9/22 Loading...
+G06F 9/22
+Loading...
+201510748269.2
+深圳国微技术有限公司
+王良清
+G06F 9/22
+Loading...
+本发明提供了一种数据传输的控制方法，所述控制方法包括以下步骤:控制器获取微代码,并所述微代码中指示位的数据判断进行运算逻辑器进行运算或者是传输器进行数据传输;所述微代码中命令位的数据为操作数命令时,所述控制器将所述微代码写入所述运算逻辑器中,以及控制所述运算逻辑器进行运算并得到所述运算逻辑器的运算结果和状态数据;所述微代码中命令位的数据为读结果命令时,所述控制器读取所述运算逻辑器的运算结果,并根据所述运算结果更新所述微代码;所述微代码中命令位的数据为读状态命令时,所述控制器根据所述运算逻辑器的状态数据产生下一条微代码地址以实现微代码的跳转。该方法增加了数据传输的灵活性。
+35. 105390479 一种用于安全芯片的防篡改布线结构
+CN
+09.03.2016
+H01L 23/58 Loading...
+H01L 23/58
+Loading...
+201510731416.5
+深圳国微技术有限公司
+陈杰
+H01L 23/58
+Loading...
+本发明公开了一种用于安全芯片的防篡改布线结构，包括：至少一个防篡改基本单元，该防篡改基本单元由自顶向下层叠设置的四层金属结构构成，第一层金属结构和第三层金属结构内设有供电网络线，第二层金属结构和第四层金属结构内设有防篡改屏蔽线。多个所述的防篡改基本单元以最小金属间距进行平铺组合。相邻的防篡改基本单元之间可插入缓冲器。本发明合理又安全的将防篡改网络和供电网络结合在一起，供电网络可以承担大的电流，防篡改网络安全有效的保护整个芯片。
+36. 105338378 一种视频点播方法及装置
+CN
+17.02.2016
+H04N 21/239 Loading...
+H04N 21/239
+Loading...
+201410370986.1
+深圳国微技术有限公司
+李彬
+H04N 21/239
+Loading...
+本申请公开了一种视频点播方法及装置，该方法包括当接收到客户端发送的索引文件请求时，获取数据文件，并提取该数据文件中的目标信息，进而依据预设分块标准及目标信息，生成包含多个数据块标识的索引文件，并将索引文件返回至所述客户端，以使客户端发送包含数据块标识的数据文件请求，且当接收到该数据文件请求时，在所述数据文件中提取与对应的数据块，并将该数据块返回至客户端，以使客户端对该数据块进行解码播放。与现有技术中的视频点播方式相比，本申请当接收到索引文件请求后，利用获取到的目标信息及预设分块标准直接生成索引文件，并未包含有将视频数据进行分块的过程，因此，索引文件生成速度较快，可以及时地对客户端作出响应。
+37. 105338421 一种HLS流媒体传输方法及装置
+CN
+17.02.2016
+H04N 21/63 Loading...
+H04N 21/63
+Loading...
+201410381399.2
+深圳国微技术有限公司
+李彬
+H04N 21/63
+Loading...
+本申请提供了一种HLS流媒体传输方法及装置，所述方法包括：第一P2P用户端发送携带有目标HLS流媒体标识的视频请求至P2P索引服务器；以及，在接收到P2P索引服务器针对视频请求返回的第二P2P用户端地址时，发送目标HLS流媒体获取请求至第二P2P用户端地址对应的第二P2P用户端；以及，在未接收到P2P索引服务器针对视频请求返回的第二P2P用户端地址时，发送目标HLS流媒体获取请求至CDN服务器。本申请提供的HLS流媒体传输方法减轻了CDN服务器的负担，加快了访问请求响应速度，从而提高了HLS流媒体的播放质量和用户体验性。
+38. 105335670 一种实时完整性校验方法和校验电路及安全芯片
+CN
+17.02.2016
+G06F 21/64 Loading...
+G06F 21/64
+Loading...
+201510723081.2
+深圳国微技术有限公司
+张浩
+G06F 21/64
+Loading...
+本发明提供了一种实时完整性校验方法,所述校验方法包括以下步骤:随机控制器获取外部随机数，根据所述外部随机数生成随机数值;控制器获取到校验启动信号,并根据所述校验启动信号,控制直接存储访问器搬运校验数据至安全计算器;直接存储访问器完成一次搬运校验数据后，随机控制器开始计时,并当第一计时时间等于预设时间值与所述随机数值之和时,允许所述控制器控制直接存储访问器进行下一次获取校验数据;当直接存储访问器完成全部校验数据搬运后，安全计算器根据校验数据进行计算并将计算结果输出至控制器。该实时完整性校验方法中，内置的随机行为使得校验行为具有随机性，有效的提高了校验方法的安全性。
+39. 105306987 一种控制TS流接口输出码率的装置
+CN
+03.02.2016
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201510692402.7
+深圳国微技术有限公司
+潘武聪
+H04N 21/418
+Loading...
+本发明公开了一种控制TS流接口输出码率的装置，所述装置设置在TS流输入、输出接口之间，包括TS流接收模块，输入TS流码率监视模块，输出TS流时钟产生模块，TS流输出控制模块，所述装置接收TS流输出接口输出的TS包，并形成新的TS包的数据格式，在预设的延时时间内进行缓冲后，根据装置内部生成的新的TS流输出时钟输出TS流至TS流输入接口。本发明使得CAM可以控制TS流接口输出码率，且不需要STB等装置设置大量缓冲区，充分解决了STB与CAM之间的传输中断、传输抖动等问题。
+40. 105306966 一种直播视频数据处理方法、装置及系统
+CN
+03.02.2016
+H04N 21/239 Loading...
+H04N 21/239
+Loading...
+201410369661.1
+深圳国微技术有限公司
+李彬
+H04N 21/239
+Loading...
+本申请提供了一种直播视频数据处理方法，包括：服务器中基于Linux平台的HTTP服务器响应客户端发送的携带有视频码率和直播节目源的第一直播请求，向所述客户端发送与所述视频码率和所述直播节目源对应的m3u8文件；以及，响应客户端发送的携带有从所述m3u8文件中获取到的视频索引名称的第二直播请求，从预设哈希表中获取与所述视频索引名称对应的TS片段的内存地址；以及，从所述TS片段的内存地址对应的内存中获取TS片段；以及向发送所述第二直播请求的客户端发送所述TS片段。因此，本申请节约了磁盘空间，提高了响应用户请求的效率，改善了用户体验性。
+41. 105245330 一种密钥备份及恢复的安全实现装置及其方法
+CN
+13.01.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201510682393.3
+深圳国微技术有限公司
+赵尧
+H04L 9/08
+Loading...
+本发明公开了一种密钥备份及恢复的安全实现装置及其方法，其中装置包括若干个通道，每个通道包括密钥寄存器和算法寄存器；被划分为若干行的向量表，每行由多个用于存储密钥、通道号、算法选择等存储空间组成：控制器，备份时，将密钥所在通道的通道号以及算法选择连同密钥一起备份到向量表中的指定行。恢复时，先比较备份的通道号与指定恢复的通道号是否相等：相等则可将备份的密钥和算法选择一并恢复到指定的通道。不相等则恢复终止，防止密钥滥用。恢复后，一旦检测到恢复的算法选择被修改，立即清除恢复的密钥，防止密钥泄露。
+42. WO/2016/000422 SMART CARD CONVERTER AND SMART CARD READING DEVICE
+WO
+07.01.2016
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+PCT/CN2014/094043
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIN, Kaipeng
+G06K 7/00
+Loading...
+Disclosed is a smart card converter, comprising a converter body and an adapter panel for reading a second smart card, wherein a connecting piece is arranged on the adapter panel, the connecting piece is electrically connected to a circuit board in a card reader for reading a first smart card, and the adapter panel is fixedly connected to the converter body. Also proposed is a smart card reading device. By means of the present utility model, electrically connecting an adapter panel to a circuit board in a card reader is equivalent to extending a card reading region of the card reader to the adapter panel, so that the second smart card can be read so long as the second smart card is electrically connected to the adapter panel, and then the card reader can read smart cards of various sizes under the action of a smart convertor, thereby increasing the compatibility of card readers and being beneficial to a user.
+43. 105224887 一种用于安全芯片的防篡改屏蔽层
+CN
+06.01.2016
+G06F 21/76 Loading...
+G06F 21/76
+Loading...
+201510721372.8
+深圳国微技术有限公司
+王良清
+G06F 21/76
+Loading...
+本发明公开了一种用于安全芯片的防篡改屏蔽层，所述防篡改屏蔽层内包含防篡改线和功能线，防篡改线与功能线相互混合。本发明通过将安全芯片中关键模块的信号线作为功能线与防篡改线相互混合，使防篡改设计不仅包含单纯的防篡改功能，同时还具有其他逻辑功能。该方法使得攻击者难于单独移除防篡改屏蔽层，防止芯片内部敏感数据因防篡改屏蔽层被移除及防篡改功能被除能而导致的关键信息的泄露，提升了芯片的安全性能。
+44. 204946221 一种移动POS机
+CN
+06.01.2016
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520474861.3
+深圳国微技术有限公司
+陈建
+G07G 1/12
+Loading...
+本实用新型适用于移动支付设备领域，提供了一种移动POS机，包括：机体、设置于机体操作面的触摸显示屏以及覆盖于触摸显示屏表面的防窥膜。本实用新型实施例的移动POS机采用触摸显示屏作为密码输入设备，同时在触摸显示屏的表面设置有防窥膜，使得偷窥者无法获知用户输入的具体是哪些内容(如数字或者字母)，从而无法获知用户密码，防止了用户密码的泄露，保护了用户财产安全。
+45. WO/2015/172557 CARD READER
+WO
+19.11.2015
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+PCT/CN2014/094042
+SHENZHEN STATE MICRO TECHNOLOGY CO.,LTD
+LI, Yanrong
+G06K 7/00
+Loading...
+Disclosed is a card reader, comprising a data interface, a card reader body, and a bent connection portion connecting the data interface and the card reader body, the data interface being electrically connected with the card reader body. A data line is disposed to connect the data interface and the card reader, and is used for data transmission. Supports are also used to separately fix the data interface and the card reader, and thus the data interface and the card reader are effectively separated. Therefore, the phenomenon that a card reader of a large size blocks other interfaces on an object interacting with the card reader and thus occupies space on the periphery of the other interfaces is avoided, and because the card reader provided by the present utility model does not influence use of adjacent interfaces, the utilization rate of interfaces is raised.
+46. 105049611 一种支付设备寻找方法及装置
+CN
+11.11.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201510367338.5
+深圳国微技术有限公司
+林志明
+H04M 1/725
+Loading...
+本发明适用于通信领域，支付设备寻找方法及装置，提供了一种支付设备寻找方法及装置。所述方法包括以下步骤：采集输入信号；判断所述输入信号是否与预先存储的支付设备寻找信号匹配；向支付设备发送提醒命令，以使所述支付设备输出提醒信号。本发明通过在移动终端上采集输入信号，并在识别出支付设备寻找信号后向支付设备发送提醒命令，支付设备在接收到提醒命令后输出提醒信号提醒用户支付设备的位置，使用户无需花费大量时间便轻易地找到支付设备，能够及时完成支付。
+47. 105046489 一种移动支付方法、装置及系统
+CN
+11.11.2015
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+201510366135.4
+深圳国微技术有限公司
+林志明
+G06Q 20/38
+Loading...
+本发明适用于电子支付领域，提供一种移动支付方法、装置及系统。所述方法包括：移动终端向支付设备发送消费请求；支付设备根据消费请求生成支付请求，并将消费请求发送到移动终端，支付请求携带有敏感数据，并且由支付设备对敏感数据进行了加密操作；移动终端将支付请求发送到后台服务器；后台服务器接收到支付请求后对加密的敏感数据进行解密，并基于支付请求与支付后台进行交互以完成支付。本发明通过密钥对敏感数据进行加密后经由移动终端将包含敏感数据的支付请求发送到后台服务器进行解密以完成支付，密钥由后台服务器进行统一管理，移动终端只进行数据的转发，可以针对不同的支付设备或者每一次交易下发不同的密钥，提高了支付的安全性。
+48. 105005892 一种支付系统及移动POS机
+CN
+28.10.2015
+G06Q 20/20 Loading...
+G06Q 20/20
+Loading...
+201510426912.X
+深圳国微技术有限公司
+向柄宇
+G06Q 20/20
+Loading...
+本发明适用于通信领域，提供了一种支付系统及移动POS机，支付系统包括移动POS机以及移动终端；移动POS机包括支付单元，支付单元包括主控制模块、移动POS机通信模块以及读卡模块；移动终端包括移动终端通信模块、支付交易模块、显示屏以及键盘；移动终端通信模块与移动POS机通信模块通信连接。本发明中的移动终端通信模块与移动POS机通信模块通信连接可以实现普通移动终端与移动POS机作为一个整体配合使用完成交易支付的过程，不仅能实现定制移动终端的支付功能，而且能实现普通移动终端的所有功能，使得操作和携带更方便，可以大幅度降低使用成本，能够同时满足用户对于移动设备性能好、成本低的要求。
+49. WO/2015/158038 ENCRYPTION DEVICE AND METHOD OF DEFENDING AGAINST DIFFERENTIAL POWER ANALYSIS ATTACK
+WO
+22.10.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2014/080234
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+WANG, Liangqing
+H04L 29/06
+Loading...
+An encryption device and method of defending against a differential power analysis (DPA) attack, the encryption device comprising: a SecMasking unit implemented by employing a structure based on a universal random mask technology; a SecPrepare unit implemented by employing a structure based on a bitwise XOR device; and a SecSbox unit implemented by employing a solution of longitudinally and laterally updating table lookup results in real time based on the random mask technology. The present invention enables the working power consumption of a code operation device circuit to be independent of operational data and computing operations; in addition, the present invention can be widely used in an encryption/decryption operation code device requiring high security performance.
+50. 204719886 一种移动支付伴侣
+CN
+21.10.2015
+G07G 1/12 Loading...
+G07G 1/12
+Loading...
+201520474797.9
+深圳国微技术有限公司
+向柄宇
+G07G 1/12
+Loading...
+本实用新型适用于移动支付设备领域，提供了一种移动支付伴侣，包括本体及连接于本体背面的后盖，所述本体设置有位于所述本体正面的手机安装槽及位于背面的数据处理装置安装槽；所述数据处理装置安装槽内的一端为数据输入端，设置有集成电路卡刷卡磁头装置及集成电路卡芯片数据读取装置，所述本体位于所述数据输入端外侧设有与所述集成电路卡刷卡磁头装置对应的刷卡槽和与所述集成电路卡芯片数据读取装置对应的插卡口；所述数据处理装置安装槽内的另一端为手机通信端，设置有与手机进行数据传输的数据传输装置。本实用新型实施例解决了使用现有移动支付伴侣进行刷卡时,移动支付伴侣容易转动，长期使用易使手机音频口损坏的问题。
+51. WO/2015/109903 TELEVISION SIGNAL RECEIVING SOCKET
+WO
+30.07.2015
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+PCT/CN2014/094031
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LI, Yanrong
+H04N 21/41
+Loading...
+Disclosed in this utility model is a television signal receiving socket comprising a socket body having a cavity, with a control circuit board disposed in the cavity; the socket body is provided with a receiving unit, a CA card slot connecting the outer side of the socket body to the cavity, and a USB through hole; the USB through hole is used to receive a USB interface on the control circuit board; the control circuit board comprises a tuner, a demodulator and a descramble module; the input end of the tuner is connected to the receiving unit, and the output end of the tuner is connected to the input end of the demodulator; the output end of the demodulator is connected to the input end of the descramble module, and the output end of the descramble module is connected to the USB interface; and the descramble module is electrically connected to the CA card slot. The present utility model receives a wide variety of television program signals to facilitate use, and helps reduce product and use costs.
+52. WO/2015/109904 METHOD OF IDENTIFYING MULTIPLE TRANSPORT STREAMS BASED ON USB INTERFACE
+WO
+30.07.2015
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+PCT/CN2014/094034
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LI, Yanrong
+H04N 21/236
+Loading...
+Disclosed is a method of identifying multiple transport streams (TS) based on a USB interface, comprising the following steps: a digital TV receiver identifies multiple TS respectively and multiplexes into one TS; the digital TV receiver encapsulates the TS into a USB packet and transmits to a conditional access module (CAM) via a transmission endpoint of a pair of USB endpoints on the USB interface; the CAM decapsulates and descrambles the USB packet transmitted by the digital TV receiver, and transmits back to the digital TV receiver after encapsulation; and the digital TV receiver receives the returned USB packet via a receiving endpoint of the pair of USB endpoints on the USB interface, decapsulates, demultiplexes and decodes the USB packet. The present invention realizes identification and processing of multiple TS via a USB interface in a machine-card separation system, so that a user can realize cross-TS functions of "recording while watching" and "picture in picture" by simply using a CAM. In addition, the present invention is based on a standard USB protocol, thus facilitating development and promotion.
+53. WO/2015/106615 DIGITAL VIDEO CONDITION RECEPTION APPARATUS
+WO
+23.07.2015
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+PCT/CN2014/094038
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LI, Yanrong
+H04N 21/418
+Loading...
+Disclosed is a digital video condition reception apparatus. The apparatus comprises a housing, a circuit board, a card base used for mounting an SIM card, and a connection port adapted to a corresponding socket of a television. The connection port is disposed on the outer side a first end of the housing in a protruding manner, and the card base is disposed on the inner side of a second end. The connection port and the card base are both welded and fixed on the circuit board, and are both in communication connection with the circuit board. The card base and the circuit board are mounted in the housing. The circuit board is fixedly connected to the housing. The connection port is a USB interface. The circuit board comprises an intelligent card interface, a descrambling module, and a USB processing module. The intelligent card interface is electrically connected to the descrambling module. The descrambling module is electrically connected to the USB processing module. The present utility model has a simple structure and a small size, needs low cost, and has good expandability and a wide application range.
+54. 204104073 一种数字电视接收装置
+CN
+14.01.2015
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+201420522783.5
+深圳国微技术有限公司
+林铠鹏
+H04N 21/41
+Loading...
+本实用新型适用于有线电视领域，提供了一种数字电视接收装置，包括壳体和内置于壳体的数字电视信号处理装置，所述内置于壳体的数字电视信号处理装置包括：数据接口，分别与解扰器和射频信号接收器连接；射频信号接收器，分别与数据接口和解扰器连接；智能卡，与解扰器连接；解扰器，分别与射频信号接收器、智能卡和数据接口连接。本实用新型提供的数字电视接收装置对数字电视信号转换处理，通过数据接口直接与视频终端设备连接，无需使用数字电视机顶盒，就能在视频终端设备上播放数字电视。
+55. 104270679 DVB live broadcasting and network video-on-demand combination method and device
+CN
+07.01.2015
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201410510558.4
+深圳国微技术有限公司
+林铠鹏
+H04N 21/472
+Loading...
+The invention belongs to the field of network televisions and provides a DVB broadcasting and network video-on-demand combination method and device. The method includes the steps that a broadcasting instruction is received and includes program information, wherein the broadcasting instruction is a DVB live broadcasting instruction or a network video-on-demand instruction; when the broadcasting instruction is the DVB live broadcasting instruction, the DBV live broadcasting instruction and the program information are transmitted to a condition receiver so that the conditioner receiver can return video data; when the broadcasting instruction is the network video-on-demand instruction, the network video-on-demand instruction and program information are transmitted to an OTT server so that the OTT server can return video data; the video data returned by the condition receiver or the video data returned by the OTT server are broadcasted. According to the embodiment, the DVB live broadcasting video data are obtained through the condition receiver, meanwhile, network resources are obtained through connecting with the third-party server, and therefore unified management of the function of DVB live broadcasting and network video-on-demand combination is achieved.
+56. 104270667 Program switchover method and device and terminal
+CN
+07.01.2015
+H04N 21/434 Loading...
+H04N 21/434
+Loading...
+201410510559.9
+深圳国微技术有限公司
+林铠鹏
+H04N 21/434
+Loading...
+The invention relates to the field of televisions and provides a program switchover method. The method comprises the following steps that a current program transport stream is received, the current program audio and video type information is obtained, and transport identification information of audio and video data of the current program transport stream is also obtained; when it is judged that the current program audio and video type information is the same with the last program transport stream audio and video type information, the transport identification information of the audio and video data of the current program transport stream is replaced with transport identification information of audio and video data of a last program, program mapping information of the last program is used for replacing program mapping information of a current program, and the current program transport stream obtained by replacing the transport identification information and the program mapping information is transmitted to a media player for playing. The program switchover method can directly play the current audio and video program without resetting the media player, the time for initializing a decoder is shortened, and the program switchover time is shortened.
+57. 204009925 读卡器
+CN
+10.12.2014
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201420250639.0
+深圳国微技术有限公司
+李艳荣
+G06K 7/00
+Loading...
+本实用新型公开了一种读卡器，包括数据接口、读卡器本体以及连接数据接口和读卡器本体的弯折连接部，数据接口与读卡器本体电连接。通过设置数据线将数据接口与读卡器连接，并进行数据传输，同时采用支架分别固定数据接口与读卡器，从而使得数据接口与读卡器有效分离。因此防止了大体积的读卡器堵住与其交互对象上的其它插口，而占据其它插口周边的空间，由于本实用新型提供的读卡器防止了影响相邻插口的使用，从而提升了插口的利用率。
+58. 203930853 智能卡转换器及智能卡读取装置
+CN
+05.11.2014
+G06K 7/00 Loading...
+G06K 7/00
+Loading...
+201420358325.2
+深圳国微技术有限公司
+林铠鹏
+G06K 7/00
+Loading...
+本实用新型公开了一种智能卡转换器及智能卡读取装置，包括转换器本体、以及用于读取第二智能卡的转接板；转接板上设置有连接件，连接件与用于读取第一智能卡的读卡器内的电路板电连接，转接板与转换器本体固定连接。本实用新型还提出一种智能卡读取装置。本实用新型通过将转接板与读卡器内的电路板电连接，相当于将读卡器的读卡区延伸到转接板，使得第二智能卡只要与转接板电连接就能被读取，从而在智能转换器的作用下，使得读卡器可以读取多种尺寸的智能卡，进而增加了读卡器的兼容性有利于用户的使用。
+59. 203930796 一种真随机数产生电路
+CN
+05.11.2014
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+201320863284.8
+深圳国微技术有限公司
+王新亚
+G06F 7/58
+Loading...
+一种真随机数产生电路，其包括变频时钟电路和随机数采样与后处理电路，所述的变频时钟电路包括离散混沌映射电路、噪声放大电路、流控振荡器、偏置电路、NMOS管M1和电阻R2，所述噪声放大电路的输出端与NMOS管M1的栅极连接，电阻R2的一端与NMOS管M1的源极、所述离散混沌映射电路的输出端连接，电阻R2的一端的另一端接地，NMOS管M1的漏极与所述流控振荡器连接，所述偏置电路与所述噪声放大电路相连接，所述随机数采样与后处理电路分别与所述流控振荡器和所述离散混沌映射电路相连接。本实用新型的真随机数产生电路可提高随机序列的随机性能。
+60. 203933683 可抵御差分功耗分析攻击的加密处理装置、集成电路芯片及密码设备
+CN
+05.11.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201420181329.8
+深圳国微技术有限公司
+王良清
+H04L 29/06
+Loading...
+本实用新型公开了一种可抵御差分功耗分析攻击的加密处理装置、集成电路芯片及密码设备。所述的加密处理装置包括：掩盖处理电路单元SecMasking；预处理电路单元SecPrepare；和S盒电路单元SecSbox。本实用新型能够实现密码运算设备电路的工作功耗与运算数据及运算操作的无关化，并且其可以被广泛应用于需要高度安全性能的加解密运算密码设备。
+61. 203775349 电视信号接收插座
+CN
+13.08.2014
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+201420044154.6
+深圳国微技术有限公司
+李艳荣
+H04N 21/41
+Loading...
+本实用新型公开了一种电视信号接收插座，该电视信号接收插座包括带有空腔的插座本体及设置在空腔中的控制电路板，插座本体上设有接收单元、连通插座本体外侧及空腔的CA卡插槽及USB通孔，其中，USB通孔用于容纳控制电路板上的USB接口，控制电路板包括调谐器、解调器及解扰模块；调谐器的输入端与接收单元连接，调谐器的输出端与解调器的输入端连接；解调器的输出端与解扰模块的输入端连接，解扰模块的输出端与USB接口连接；解扰模块与CA卡插槽电连接。本实用新型可实现接收多种不同的电视节目信号，以方便用户使用，并且有利于降低产品及其使用成本。
+62. 203661230 数字视频条件接收装置
+CN
+18.06.2014
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201420025699.2
+深圳国微技术有限公司
+李艳荣
+H04N 21/418
+Loading...
+本实用新型公开一种数字视频条件接收装置，包括壳体、电路板、用于装SIM卡的卡座，及与电视机相应插口适配的连接口，所述壳体第一端外侧凸设所述连接口，第二端内侧设置所述卡座；所述连接口和卡座均与所述电路板焊接固定，并均与所述电路板通信连接；所述卡座与所述电路板装设于所述壳体内部，所述电路板与所述壳体固定连接；所述连接口为USB接口；所述电路板包括智能卡接口、解扰模块和USB处理模块，所述智能卡接口与解扰模块电连接，所述解扰模块与USB处理模块电连接。本实用新型结构简单、体积精小、成本低、扩展性好、适用范围广。
+63. 203660104 一种条件接收模块卡
+CN
+18.06.2014
+H01R 12/71 Loading...
+H01R 12/71
+Loading...
+201320660506.6
+深圳国微技术有限公司
+林铠鹏
+H01R 12/71
+Loading...
+本实用新型实施例提供了一种条件接收模块卡，用于读取SIM卡和存储卡，并能有效防止灰尘进入条件接收模块卡内部。该条件接收模块卡包括：上壳、底壳、滑盖和安装于上壳与底壳之间的印刷电路板；其中，印刷电路板上设置有用于承载SIM卡的第一卡座和用于承载存储卡的第二卡座；底壳包括第一部分和第二部分，第一部分用于承载印刷电路板，并与上壳组装连接，第二部分与滑盖相互配合并组装连接；滑盖内部两侧设置有滑动轨道，底壳第二部分的对应位置设置有与滑动轨道相互配合的滑槽。
+64. 203658932 一种带翻盖保护的PCMCIA卡
+CN
+18.06.2014
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201320793575.4
+深圳国微技术有限公司
+李艳荣
+G06F 1/18
+Loading...
+本实用新型公开了一种带翻盖保护的PCMCIA卡，其特点是在产品的一端增加一个翻盖，当需要插拔如MicroSD卡、SD卡和SIM卡等卡片时，只需翻开翻盖，插入或拔出卡片即可，然后将翻盖盖上。卡片平时并不外露而受到了翻盖的保护，使其免受可能的碰撞、水、灰尘的侵害和丢失，从而提高了产品的工作稳定性和可靠性，提高了产品质量。再有卡片是直接插入由翻盖的压板结构形成的插卡槽内，由压板压住固定，不再需要传统上的是由卡座自身的结构来固定卡片，如带PUSH-PUSH（压入弹出）型的弹出机构，其结构复杂，成本较高。而本方案则可以选用无卡片固定结构的最简单结构形式的卡座，既降低了成本又提高了工作可靠性。
+65. 103698054 温度检测校准电路及方法
+CN
+02.04.2014
+G01K 15/00 Loading...
+G01K 15/00
+Loading...
+201310717962.4
+深圳国微技术有限公司
+吴晓勇
+G01K 15/00
+Loading...
+本发明属于电路技术领域，公开了一种可应用于集成电路芯片（例如安全芯片）的温度检测校准电路及方法，本发明利用PTAT校准电压产生单元产生一个除用于温度检测以外的校准用PTAT电压，校准用PTAT电压在设计计算时与一个可调基准电压产生单元产生的与温度无关的带隙基准电压VBG或与一个和工艺相关的PN结电压VBE在校准温度时相等。校准时通过在校准温度下改变可校准基准电压，使以两者作为输入的比较器在接近阈值处翻转，从而在校准温度下，减小了由于可校准基准电压随机偏差引入的误差，同时消除了比较器失调引入的误差，可以避免输入一个外部电压基准做校准，同时减少了校准用的PAD，降低了电路的复杂度，消除了比较器失调的影响，提高了温度检测的准确性。
+66. 203520257 一种具有保护结构的PCMCIA卡
+CN
+02.04.2014
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201320632796.3
+深圳国微技术有限公司
+林铠鹏
+G06F 1/16
+Loading...
+本实用新型公开了一种具有保护结构的PCMCIA卡，具体可以采用翻盖结构，当需要插拔如MicroSD卡、SD卡和SIM卡等卡片时，只需翻开盖子，以PUSH-PUSH（压入弹出）方式插拔卡片即可，然后将盖子扣上。其内的卡片平时并不外露而受到了翻盖的保护，使其免受可能的碰撞、水、灰尘的侵害和丢失，从而极大的提高了产品的工作稳定性和可靠性，提高了产品质量。另一方面，由于现有的无大卡的CAM无需插入如PC卡、IC卡、smartcard等符合ISO7810标准尺寸的智能卡（即上述大卡），产品后端和两侧中间部分就可以做成封闭结构，也为MicroSD等卡做翻盖保护提供便利，提高了结构强度。
+67. 103677082 Clock frequency monitoring circuit and method
+CN
+26.03.2014
+G06F 1/14 Loading...
+G06F 1/14
+Loading...
+201310711651.7
+深圳国微技术有限公司
+吴晓勇
+G06F 1/14
+Loading...
+The invention belongs to the technical field of circuits and discloses a clock frequency monitoring circuit and method. The clock frequency of working clock signals to be monitored can be monitored in real time by the adoption of the clock frequency monitoring strategy, the same clock frequency monitoring circuit can be reused, and the area utilization ratio of a safe chip can be improved to a certain extent. In addition, by means of the clock frequency monitoring circuit and method, the attack motion that an attacker steals confidential information or a secret key of a user on purpose by greatly changing the clock frequency of the working clock signals to be monitored can be monitored in real time, and the usability of the clock frequency monitoring strategy is improved.
+68. 103647653 Certification and key agreement method between devices
+CN
+19.03.2014
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201310720972.3
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+CHEN JINQIANG
+H04L 9/32
+Loading...
+The invention discloses a certification and key agreement method between devices. The certification and key agreement method between the devices comprises that the same key information records are pre-established in a primary device and a slave device; when the primary device determines whether the slave device possesses the same key serial number, the slave device generates a random number RA; the primary device and the slave device calculate result data A1, B1 and C1 according to the key information records and the random number RA of the primary device and the slave device; when the primary device determines that the calculated result data A1 and B1 is equal to the calculated data A1 and B1 of the slave device, the slave device generates a random number RB; the primary device and the slave device calculate result data A2, B2 and C2 according to the key information records, the result data C1 and the random number RB of the primary device and the slave device; when the primary device determines that the calculated result data A2 and B2 is respectively equal to the result data A2 and B2 calculated by the slave device, the key between the primary device and the slave device is C2. The certification and key agreement method between the devices is safe and reliable and is beneficial to guaranteeing safety and reliability of data interaction between devices.
+69. 103647981 Method for realizing multiplexing of command and transport stream in DVB-CI interface
+CN
+19.03.2014
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+201310720051.7
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+CHEN JINQIANG
+H04N 21/236
+Loading...
+The invention discloses a method for realizing multiplexing of a command and a transport stream in a DVB-CI interface. The method comprises the steps of: packaging command data in a user-defined segmentation format of a link layer of a command interface of the DVB-CI interface according to a transport stream data packet format in an ISO/IEC13818-1 standard, wherein values of synchronous bytes in the packaged command data packet are not equal to values of synchronous bytes in the transport stream data packet; performing time division multiplexing transmission on the data packet of the transport stream and the data packet of the command data by the data sending end of the DVB-CI interface by utilizing a time division multiplexer; analyzing each received data packet by the data receiving end of the DVB-CI interface by utilizing the time division demultiplexer, and distinguishing the transport stream data packet from the command data packet based on the synchronous bytes of the data packets. Only a rapid bidirectional channel is necessary when one time division multiplexer is used for processing data bandwidth distribution, so that requirements on driving of a transmission interface are simple, and multiple physic interface also can be selected to realize the DVB-CI interface; in addition, the communication real-time performance of the DVB-CI interface can be adjusted based on the practical need.
+70. 103648021 Method for playing network video files from USB storage device
+CN
+19.03.2014
+H04N 21/438 Loading...
+H04N 21/438
+Loading...
+201310720594.9
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+CHEN JINQIANG
+H04N 21/438
+Loading...
+The invention discloses a method for playing network video files from a USB storage device. The method comprises the steps: node information of the network video files in storage space of the USB storage device is created, wherein the node information consists of relevant information files provided with the virtual video files and records and used for obtaining the network video files; a host computer plays the virtual video files in the USB storage device, the USB storage device returns cache data with preset playing lengths and stored in a real file data area to the host computer according to a host computer request and stores remaining video contents of the network video files obtained from a server into a cache according to the relevant information files of the virtual video files, and data blocks in the cache responds to the host computer request to finish playing of the network video files. The method is simple, brings convenience to a user and is especially suitable for playing of video files though intelligent terminals.
+71. 103559460 Condition access module (CAM) and data processing method
+CN
+05.02.2014
+G06F 21/74 Loading...
+G06F 21/74
+Loading...
+201310548184.0
+深圳国微技术有限公司
+向柄宇
+G06F 21/74
+Loading...
+The invention provides a condition access module (CAM), which comprises a storage unit, a processing unit, an ordinary cache unit, a sharing cache unit and a safety cache unit. According to the CAM, unsafe programs are cached in the ordinary cache unit, safe programs are cached in the safe cache unit, the unsafe programs are cached in the ordinary cache unit for running by the processing unit, and the safe programs are cached in the safe cache unit for running, so that the unsafe programs and the safe programs are not cached and run in the same internal storage any more. Moreover, safe data are cached in the safe cache unit, unsafe data are cached in the ordinary cache unit, and the safe data and the unsafe data are cached in different internal storages, so that the safety performance of the CAM provided by the invention is greatly improved.
+72. 103561326 Broadcasting method based on digital TV browser
+CN
+05.02.2014
+H04N 21/443 Loading...
+H04N 21/443
+Loading...
+201310535752.3
+深圳国微技术有限公司
+李艳荣
+H04N 21/443
+Loading...
+The invention discloses a broadcasting method based on a digital TV browser. The method includes the steps that a TV host receives an operating instruction sent by a user; according to the operating instruction sent by the user, a page corresponding to the operating instruction is loaded through the browser on the TV host; when the page corresponding to the operating instruction is loaded by the browser, operating information is obtained by executing the script of the page corresponding to the operating instruction, the operating information comprises the operating instruction and is sent to a condition receiving card CAM, the CAM card is made to process the operating information, and a processing result is returned to the TV host; the TV host receives the processing result returned by the CAM card, and the processing result is displayed on the page loaded by the browser. According to the method, various GUIs with different standard formats can be supported to be played, and requirements for a CPU of the CAM card do not need to be higher.
+73. 203193815 一种条件接收模块卡
+CN
+11.09.2013
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201320179569.X
+深圳国微技术有限公司
+林铠鹏
+H04N 21/418
+Loading...
+本实用新型实施例公开了一种数字电视接收系统中的条件接收模块卡，用于解决使用者无法正确识别条件接收模块卡当前状态的问题。本实用新型实施例包括：第一壳体、电路板、塑胶框架和第二壳体，所述第一壳体、电路板、塑胶框架和第二壳体依次组装连接，所述塑胶框架一端设置有智能卡插入口，其中，所述塑胶框架设置有智能卡插入口的一端还设置有导光板；所述电路板对应智能卡插入口开设的一端设置有与所述导光板相配合的用于展示条件接收模块卡工作状态的发光二极管。
+74. 203193814 一种条件接收模块卡
+CN
+11.09.2013
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201320179568.5
+深圳国微技术有限公司
+林铠鹏
+H04N 21/418
+Loading...
+本实用新型实施例公开了一种电视接收系统中的条件接收模块卡，用于解决现有CAM卡功能过于单一的问题。本实用新型实施例包括：第一构件、电路板和第二构件，第一构件一端设置有智能卡插入口，第一构件、电路板和第二构件依次组装连接，其中，第一构件上表面设置有存储卡插口；电路板上在与存储卡插口对应的位置设置有存储卡卡座。
+75. 103260067 一种图像数据的处理方法及条件接收模块
+CN
+21.08.2013
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201310179932.2
+深圳国微技术有限公司
+林铠鹏
+H04N 21/418
+Loading...
+本发明实施例公开了一种图像数据的处理方法及条件接收模块，用于提高叠加的图像的质量，提高用户体验。本发明实施例包括：从输入的第一传输流中提取视频基本流；对视频基本流中的视频图像帧进行解码；对待叠加的图像数据进行编码压缩，得到第一宏块数据；将解码后的视频图像帧中叠加区域的内部宏块数据替换为第一宏块数据；并清除解码后的视频图像帧叠加区域内外部宏块中的运动补偿数据和预测帧与重构帧之间的差分数据；修正解码后的视频图像帧叠加区域边缘外侧的外部宏块中的预测帧与重构帧之间的差分数据。
+76. 103210093 一种检测消化道病原体的方法
+CN
+17.07.2013
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+201180042137.8
+中国人民解放军军事医学科学院微生物流行病研究所
+姜永强
+C12Q 1/68
+Loading...
+本发明涉及一种能够检测常见消化道病原体的方法。本发明还涉及用于检测常见消化道病原体的扩增引物和延伸引物，以及包含这些引物的试剂盒。
+77. WO/2013/086759 PCMCIA CARD
+WO
+20.06.2013
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+PCT/CN2011/084763
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD.
+LI, Yanrong
+G06F 1/16
+Loading...
+Embodiments of the present invention provide a PCMCIA card, so as to solve the unstable problem caused by incompact assembly incurred as a plastic frame and a metal base plate are separately assembled. An embodiment of the present invention comprises: a metal panel 1, a plastic frame 4, and a metal base plate 5, two or more solder joints being disposed on the metal base plate 5 and soldered to corresponding solder joints on the metal panel 1, two or more first metal lugs 53 being disposed on the metal base plate 5, the first metal lugs 53 being integrally formed and inlaid inside the plastic frame 4, and an insertion slot 44 for a smart card being provided at one end of the plastic frame 4.
+78. 202998364 一种条件接收模块卡
+CN
+12.06.2013
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201220725726.8
+深圳国微技术有限公司
+林铠鹏
+H04N 21/418
+Loading...
+本实用新型实施例公开了一种数字电视接收系统中的条件接收模块卡，用于增强外壳的强度，且不用插入智能卡可避免丢卡的问题。本实用新型实施例包括：第一壳体、电路板、塑胶框架和第二壳体，其中，电路板的一端设置有连接器；塑胶框架呈两面为开放面，四面为封闭面的框架结构设置，其中，一个开放面为用于放置电路板的上表面，另一个开放面为用于放置连接器的侧面；第一壳体、电路板、塑胶框架和第二壳体依次组装连接构成封闭的条件接收模块卡外壳。
+79. 202996828 一种芯片电磁屏蔽结构
+CN
+12.06.2013
+H01L 23/552 Loading...
+H01L 23/552
+Loading...
+201220701429.X
+深圳国微技术有限公司
+陈杰
+H01L 23/552
+Loading...
+本实用新型公开了一种芯片电磁屏蔽结构，包括硅衬底、深阱和设于深阱上方的芯片，一设于芯片表面的金属屏蔽罩，所述的金属屏蔽罩由顶层密闭的矩形波屏蔽层和侧面凹凸状屏蔽层构成。本实用新型采用创新的布局布线方式，利用现有的工艺技术，结合深阱工艺，为芯片构造了一个密闭的空间，有效抵御电磁攻击，提高芯片的安全性能。
+80. 202997918 一种电源芯片输出电压纹波抑制电路
+CN
+12.06.2013
+H02M 1/14 Loading...
+H02M 1/14
+Loading...
+201220680394.6
+深圳国微技术有限公司
+王新亚
+H02M 1/14
+Loading...
+本实用新型公开了一种电源芯片输出电压纹波抑制电路，其包括：电源输入端、电源输出端、基准电源端、地端；以及开关模块，串接在电源输入端与电源输出端之间，用以稳定电源输出、增大电流驱动能力；电压基准模块，连接电源输入端、基准电源端和开关模块，用以提供基准电压；泄放模块，连接电源输出端、地端和电压基准模块，用以将电源输出端上的输出电压与基准电压比较，在输出电压大于基准电压时将电源输出端的电流对地端泄放。与现有技术相比，本实用新型对电源芯片输出电压的波峰进行电流泻放，有效地抑制了电压纹波，使得输出电压更为均衡稳定。
+81. 202996298 一种PCMCIA卡
+CN
+12.06.2013
+G11C 7/10 Loading...
+G11C 7/10
+Loading...
+201220520560.6
+深圳国微技术有限公司
+林铠鹏
+G11C 7/10
+Loading...
+本实用新型实施例公开了一种PCMCIA卡，用于解决现有PCMCIA卡塑胶壳体与金属壳体混合组装不紧密和成本高的问题。本实用新型实施例包括：第一塑胶壳体与第二塑胶壳体，第一塑胶壳体与第二塑胶壳体通过超声波塑胶焊接工艺一体成型构成PCMCIA卡的外壳。
+82. 103077346 一种基于时钟频率检测的芯片抗攻击系统及方法
+CN
+01.05.2013
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201210558276.2
+深圳国微技术有限公司
+王新亚
+G06F 21/55
+Loading...
+一种基于时钟频率检测的芯片抗攻击系统，包括依次电连接的频率采样电路、数据转换电路、比较器及监控器；所述频率采样电路，用于根据芯片时钟频率进行电压采样，并输出采样电压VI；所述数据转换电路，用于根据芯片时钟频率对频率采样电路的采样电压VI进行数据转换和均值计算，并输出均值电压信号VO；所述比较器，用于将所述输出的均值电压信号VO与基准电压VREF进行比较，并输出比较结果；监控器，用于根据比较结果判断芯片时钟频率是否发生异常，并在芯片时钟频率发生异常时发出报警信号。本发明技术方案，有效实现了对芯片时钟频率攻击的检测并及时进行报警。
+83. 103067170 一种基于EXT2文件系统的加密方法
+CN
+24.04.2013
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201210543698.2
+深圳国微技术有限公司
+陈金强
+H04L 9/32
+Loading...
+本发明公开一种基于EXT2文件系统的加密文件系统，其包括多个块组，每个块组包括如下数据对应的存储空间：超级块、块组描述表、块位图、文件与目录索引节点位图、文件与目录索引节点表、和多个数据块；所述块组描述表对应的存储空间中存有多个块组描述表；其中，所述块组进一步包括位于文件与目录索引节点表之后的密钥索引节点位图和密钥索引节点表对应的存储空间，所述块组描述表对应的存储空间中进一步存有文件系统数字证书。本发明的基于EXT2文件系统的加密文件系统提高了EXT2文件系统的安全性。本发明还提供一种基于EXT2文件系统的加密方法和解密方法。
+84. 103067785 一种图形用户界面的实现方法及条件接收模块
+CN
+24.04.2013
+H04N 21/472 Loading...
+H04N 21/472
+Loading...
+201210571691.1
+深圳国微技术有限公司
+李艳荣
+H04N 21/472
+Loading...
+本发明实施例公开了一种图形用户界面的实现方法及条件接收模块，用于降低了条件接收模块与数字电视主机的耦合度，为数字电视“机卡分离”提供了保障。本发明实施例包括：接收用户输入的控制指令；根据控制指令，生成图形用户界面，得到第一图像帧；根据第一图像帧进行编码，形成包含图形用户界面元素的传输流；输出包含图形用户界面元素的传输流。
+85. 103066988 一种限制输出端电压摆率的接口电路及其实现方法
+CN
+24.04.2013
+H03K 19/0185 Loading...
+H03K 19/0185
+Loading...
+201210549722.3
+深圳国微技术有限公司
+吴晓勇
+H03K 19/0185
+Loading...
+本发明公开了一种限制输出端电压摆率的接口电路及其实现方法，分别与电流源、电流沉串联的第一开关、第二开关，依次串接在电源与地之间的第一PMOS管和第一NMOS管，连接第一PMOS管栅极的第三开关，连接第一NMOS管栅极的第四开关，第一PMOS管与第一NMOS管的连接点作为接口电路输出端；电流源支路与电流沉支路在公共端处连接，该公共端连接第三开关和第四开关的另一端；该公共端与输出端之间连接一个片内电容；还包括分别与第一、第二、第三和第四开关控制极连接的，以控制其通断的逻辑控制单元。本发明简单有效地限制接口电路输出端口的电压摆率和输出电流，起到减小EMI和保护接口电路以及提高接口电路传输速率的作用。
+86. 103049084 一种可根据人脸方向来调整显示方向的电子设备及其方法
+CN
+17.04.2013
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201210549784.4
+深圳国微技术有限公司
+徐浩
+G06F 3/01
+Loading...
+本发明公开一种可根据人脸方向来调整显示方向的电子设备，其包括：摄像模块，用于获取用户的画面信息；面部识别模块，用于根据用户的画面信息识别出用户的脸部方位，并定位用户脸部特征与显示屏的相对方向；显示控制模块，根据用户脸部特征与显示屏的相对方向来调整显示模块显示的图像方向，使显示模块的显示的图像方向与用户的观看方向一致；和显示模块，用于显示图像。本发明的电子设备可根据用户的脸部朝向来调整显示屏幕的显示方向。本发明还提供一种根据人脸方向来调整显示方向的方法。
+87. 103049243 真随机数产生方法及其装置
+CN
+17.04.2013
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+201210548071.6
+深圳国微技术有限公司
+吴晓勇
+G06F 7/58
+Loading...
+本发明公开了一种真随机数的产生方法及其装置，通过将模数转换和数模转换过程中的量化误差的放大的过程，再与电路中引入的热噪声求和放大，产生随机数。本发明实现了将噪声的对称分布转化为输出随机序列“0”？“1”的随机特性，从而产生一种高质量的真随机数。
+88. 103051935 一种密钥梯的实现方法及装置
+CN
+17.04.2013
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+201210549783.X
+深圳国微技术有限公司
+王良清
+H04N 21/266
+Loading...
+一种用于条件接收系统中的密钥梯的实现方法及装置。该方法包括：密钥梯运算前，增加若干个冗余层，并将冗余层随机插入若干个有效层之间，有效层与冗余层的排列顺序确定；依照排列顺序，各有效层之间依次进行解密，直至最后一层有效层获得控制字，并将控制字输出给解扰器；依照排列顺序，各冗余层之间依次进行解密。由于将密钥梯的总层数进行扩展，并将冗余层随机插入到有效层之间，不仅隐藏了有效层数信息，还能扰乱有效层执行的间隔，大大增加旁道攻击的难度，提高条件接收系统抗攻击的能力。
+89. 103034804 安全芯片及其攻击检测电路
+CN
+10.04.2013
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201210530690.2
+深圳国微技术有限公司
+王新亚
+G06F 21/55
+Loading...
+一种用于安全芯片的攻击检测电路及其安全芯片。所述攻击检测电路包括：采样网络，用于对电源和地上的电压毛刺进行采样滤波处理，且能将电源和地上的噪声信号、抖动与电压毛刺攻击加以区分；检测电路，用于对采样网络输出的信号进行检测；输出级，用于对检测电路的输出信号进行处理并输出检测结果。由于攻击检测电路对安全芯片的电源或地受到的半入侵电压毛刺攻击进行检测，并输出相应的检测结果，因此，当收到攻击时，可以向安全芯片系统提出警告，由系统采取适当的安全措施预防安全隐患，从而提高了安全芯片系统的抗故障攻击能力。
+90. 103034599 安全DMA控制器、SOC系统及其数据搬运方法
+CN
+10.04.2013
+G06F 13/28 Loading...
+G06F 13/28
+Loading...
+201210534336.7
+深圳国微技术有限公司
+陶玉茂
+G06F 13/28
+Loading...
+一种安全DMA控制器、SOC系统及其数据搬运方法。该安全DMA控制器包括：主设备接口，安全DMA控制器通过其对总线上的从设备发出读写操作；从设备接口，处理器通过其对安全DMA控制器进行配置和查询；寄存器模块，包含链表描述符寄存器、状态寄存器；数据搬运监视模块，用于执行数据搬运控制信息的完整性校验；数据传输引擎，用于根据寄存器模块的链表描述符寄存器的内容，控制主设备接口读取链表并根据链表信息完成数据搬运。由于对链表的数据搬运控制信息进行完整性校验，从而防止链表数据搬运控制信息被篡改，提高数据传输安全性。
+91. 103034472 一种真随机数发生器
+CN
+10.04.2013
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+201210535392.2
+深圳国微技术有限公司
+王新亚
+G06F 7/58
+Loading...
+一种真随机数发生器包括：偏置电路，用于产生两个偏置VC2和VR；随机数采样时钟电路，用于在偏置电压VC2控制下产生固定频率的第一采样时钟和第二采样时钟；变频时钟电路，用于在第一采样时钟以及偏置电压VR的控制下产生一个频率随机变化的变频时钟，变频时钟的频率变化服从均匀分布；随机数采样与后处理电路，用于在第二采样时钟的控制下，对变频时钟CLKV进行采样得到随机序列，并对随机序列进行熵值累加运算。将产生的真随机数经过熵值累加运算，从而提高随机数的随机性能，从而满足高性能的加密系统的需求。
+92. 202679539 一种数字电视信号转发装置及数字电视收看系统
+CN
+16.01.2013
+H04N 21/426 Loading...
+H04N 21/426
+Loading...
+201220294436.2
+深圳国微技术有限公司
+李艳荣
+H04N 21/426
+Loading...
+本实用新型涉及数字电视技术领域，公开了一种数字电视信号转发装置及数字电视收看系统。其中，该数字电视信号转发装置包括：用于将所述数字电视信号进行调谐和解调的调谐解调器，用于将所述调谐和解调后得到的TS流进行解扰并加密的CA模块，以及将所述CA模块处理后的信号转换成无线信号并发送的无线控制模块。此外，本实用新型提供的数字电视收看系统包括了上述的数字电视信号转发装置及数字电视播放装置。实施本实用新型实施例，可对数字电视信号进行加密和保护。
+93. 102821306 Transport stream processing method, relative device and relative system
+CN
+12.12.2012
+H04N 21/236 Loading...
+H04N 21/236
+Loading...
+201210319272.9
+深圳国微技术有限公司
+林铠鹏
+H04N 21/236
+Loading...
+An embodiment of the invention discloses a transport stream processing method, a relative device and a relative system. The method, the device and the system are used for quickly switching current playing programs into other programs of input transport streams. The method includes acquiring and storing a first program association table (PAT) and a first program mapping table (PMT) of a first transport stream containing current playing programs, modifying a second PAT and a second PMT of a second transport stream according to the first PAT and the first PMT of the stored first transport stream when receiving a switching request of programs of the second transport stream and transmitting the modified second PAT and the modified second PMT of the second transport stream.
+94. 202587267 一种带有天线接口卡座的条件接收模块卡
+CN
+05.12.2012
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+201220192564.6
+深圳国微技术有限公司
+林铠鹏
+H04N 21/41
+Loading...
+本实用新型公开了一种带有天线接口卡座的条件接收模块卡，包括上构件、与上构件连接的下构件，以及设于上构件和下构件之间的电路板，电路板上设有天线卡座，上构件在与天线卡座对应的位置设有与天线卡座相配合的天线卡座插口。本实用新型通过电路板上设置天线卡座和在上构件上设置天线插口，使条件接收模块卡具有了安装天线的结构，从而可以增加条件接收模块卡的无线收发功能，满足条件接收模块卡扩展功能的需要。
+95. 202372889 一种PCMCIA卡
+CN
+08.08.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120519621.2
+深圳国微技术有限公司
+李艳荣
+G06F 1/16
+Loading...
+本实用新型实施例提供了一种PCMCIA卡，用于解决因塑胶框架与金属底板分开组装引起的组装不紧密而导致的不稳固问题。本实用新型实施例包括：金属面板1、塑胶框架4和金属底板5，金属底板5上设置有两个或两个以上的焊接点与金属面板1上对应的焊接点焊接；其中，金属底板5设置有两个或两个以上的第一金属凸片53，第一金属凸片53通过注塑一体成型的方式镶在塑胶框架4内；塑胶框架4一端设置有智能卡的插入口44。
+96. 202372617 一种光检测电路以及具有该电路的安全芯片
+CN
+08.08.2012
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201120540305.3
+深圳国微技术有限公司
+王新亚
+G01R 31/28
+Loading...
+本实用新型公开了一种光检测电路，其包括：将光转换成电压信号的感光电路、连接感光电路的用以放大所述电压信号的前置放大电路、连接前置放大电路的用以对所述电压信号进行二级放大并输出检测信号的二级放大电路。本实用新型还公开了具有光检测电路的安全芯片。本实用新型利用反向偏置PN节的光导电特性，检测有无光照的发生。配置了光检测电路的安全芯片，通过检测安全芯片是否受到光照进而判断安全芯片是否受到物理攻击。当发现安全芯片受到光照时，会向系统发出警告，使得系统做出相应的保护措施，从而有效防止信息泄漏。
+97. 202374246 一种1.5倍分频电路
+CN
+08.08.2012
+H03K 23/00 Loading...
+H03K 23/00
+Loading...
+201120540307.2
+深圳国微技术有限公司
+王新亚
+H03K 23/00
+Loading...
+本实用新型公开了一种1.5倍分频电路，其特征在于包括：由第一D触发器构成的时钟正沿触发二分频电路，由第二D触发器构成的时钟负沿触发二分频电路，由第一反相器、第一延时单元、第一或门构成的脉冲负沿检测电路，由第二反相器、第二延时单元、第二或门构成的另一个脉冲负沿检测电路；其中时钟正/负沿触发二分频电路接第三或门输入端，脉冲负沿检测电路接D触发器复位端，第三或门输出1.5倍分频。与现有技术相比，本实用新型结构简单、性能稳定、功耗低的优点，具有广阔的市场前景。
+98. WO/2012/100370 METHODS AND KITS FOR DETECTING PATHOGENS OF RESPIRATORY TRACT
+WO
+02.08.2012
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+PCT/CN2011/000126
+INSTITUTE OF MICROBIOLOGY AND EPIDEMIOLOGY, ACADEMY OF MILITARY MEDICAL SCIENCES, CHINESE PLA
+CHEN, Weijun
+C12Q 1/68
+Loading...
+The present invention discloses methods for detecting pathogens of respiratory tract. In addition, the present invention discloses amplification primers and extension primers for detecting pathogens of respiratory tract, and kits comprising the primers.
+99. WO/2012/100369 METHOD FOR DETECTING DIGESTIVE TRACT PATHOGENS
+WO
+02.08.2012
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+PCT/CN2011/000125
+INSTITUTE OF MICROBIOLOGY AND EPIDEMIOLOGY, ACADEMY OF MILITARY MEDICAL SCIENCES
+JIANG, Yongqiang
+C12Q 1/68
+Loading...
+The present invention provides a method for detecting common digestive tract pathogens. The present invention also provides amplification primers and extension primers for detecting common digestive tract pathogens, and kits comprising these primers.
+100. WO/2012/075857 VIDEO ON DEMAND SYSTEM AND METHOD BASED ON CONDITIONAL ACCESS DEVICE
+WO
+14.06.2012
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+PCT/CN2011/081144
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LI, Yanrong
+H04N 21/266
+Loading...
+The present invention relates to a video on demand system and method based on a conditional access device. The system comprises a VOD server, a host and a conditional access device. The VOD server communicates with the host, and the conditional access device communicates with the host. The host is arranged with a DVB application and decoder, a graphics output module, a man-machine interaction module, an IP module and a first communication interaction module, and the conditional access device is arranged with a second communication interaction module, a VOD processing module and a CA core module. In the video on demand system based on a conditional access device provided by the present invention, the conditional access device communicates with the host, and interacts with the VOD server through the IP module in the host, so that the VOD function can be achieved through the conditional access device.
+101. WO/2012/062023 BUS MONITOR FOR IMPROVING SYSTEM SAFETY OF SYSTEM ON CHIP (SOC) AND REALIZING METHOD THEREOF
+WO
+18.05.2012
+G06F 13/362 Loading...
+G06F 13/362
+Loading...
+PCT/CN2011/000326
+SHENZHEN STATE MICRO TECHNOLOGY CO., LTD
+LIU, Huayu
+G06F 13/362
+Loading...
+A bus monitor for improving the system safety of a System On Chip (SOC) and a realizing method thereof are provided. The bus monitor is arranged between a system bus and a system control unit (22) and comprises a configuring unit (204), a condition judging unit (202), an effective data selecting unit (201), a hardware algorithm unit (205) and a comparison output unit (206). The method can monitor bus behavior in real time and detect whether special bus access sequence behavior concerned by the system is changed because of accidents, interpolations and malicious fault attacks on the premise that the bus access efficiency is not influenced; if the special bus access sequence behavior is changed, the method alarms the system so that the system adopts a suitable security measure to prevent security risks and prevent confidential information from being divulged because of incorrect system safety operation.
+102. 102447955 数字电视条件接收芯片及条件接收的实现方法
+CN
+09.05.2012
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+201110444038.4
+深圳国微技术有限公司
+刘华预
+H04N 21/266
+Loading...
+本发明公开一种数字电视条件接收芯片及条件接收实现方法。所述条件接收芯片包括中央处理器、传输流处理器、非易失性存储器和控制字解密模块；DMA控制器，用于根据存储在非易失性存储器中的任务链表使控制字解密模块完成对控制字的解密运算；存储保护单元，用于根据DMA控制器从非易失性存储器搬运的配置信息进行安全配置后，对所述芯片的总线地址区间通过构建安全岛进行保护。本发明通过构建安全岛并配置DMA控制器的任务链表，攻击者无法使DMA控制器执行非法任务链表而对条件接收芯片进行攻击，提高数字电视条件接收的安全性能。
+103. 202197376 条件接收装置及TS流处理系统
+CN
+18.04.2012
+H04N 21/2347 Loading...
+H04N 21/2347
+Loading...
+201120289573.2
+深圳国微技术有限公司
+李艳荣
+H04N 21/2347
+Loading...
+本实用新型涉及一种条件接收装置及TS流处理系统，该条件接收装置，其包括：CA核心模块、通过加密模块连接所述CA核心模块的存储控制模块和连接所述存储控制模块的存储设备，所述存储控制模块还通过解密模块连接所述CA核心模块。本实用新型提供的条件接收装置，通过增加加密和解密模块，对需要存储、回放等处理的TS流节目进行加密和解密处理，以实现加密流节目安全存储，防止加密的TS流节目被非法拷贝。
+104. 202141980 一种具有防盗功能的PCMCIA卡
+CN
+08.02.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120289359.7
+深圳国微技术有限公司
+李艳荣
+G06F 1/16
+Loading...
+本实用新型公开了一种具有防盗功能的PCMCIA卡，旨在提供一种可防止卡在使用过程中被随意取出的PCMCIA卡，所述具有防盗功能的PCMCIA卡包括一可完全插入PCMCIA卡插槽的壳体，所述壳体的前端面设置有一凹槽，且所述凹槽的后部向两侧外部凹陷形成勾槽。本实用新型可用于各种PCMCIA卡，尤其是数字电视CAM卡。
+105. 102307317 利用CAM卡实现数据类增值业务的系统
+CN
+04.01.2012
+H04N 21/4367 Loading...
+H04N 21/4367
+Loading...
+201110228376.4
+深圳国微技术有限公司
+李艳荣
+H04N 21/4367
+Loading...
+本发明公开了一种利用CAM卡实现数据类增值业务的系统，包括：主机和CAM卡，所述的主机端包含DVB应用及解码模块、人机交互模块、图形输出模块，所述的CAM卡端包含CA核心模块、数据解析模块、存储模块和UI控制模块，其中：所述的CA核心模块，是实现通用解扰功能模块，用于获取CA授权信息，将前端加扰的TS流进行解扰，然后送到主机进行播放；所述的数据解析模块，用于接收根据前端定义的数据结构解析出业务数据信息，并将这些数据存入存储模块；所述的UI控制模块，用于将私有数据送到主机端，通过图形界面显示反馈给用户，同时根据用户的遥控命令输入，进行相应的操作。
+106. 102279822 Intelligent card data capturing and broadcasting device and working method thereof
+CN
+14.12.2011
+G06F 13/18 Loading...
+G06F 13/18
+Loading...
+201110228480.3
+Shenzhen State Micro Technology Co., Ltd.
+Li Yanrong
+G06F 13/18
+Loading...
+The invention discloses an intelligent card data capturing and broadcasting device and a working method thereof. The intelligent card data capturing and broadcasting device comprises a singlechip, wherein the singlechip is provided with a memorizer, a computer interface, an intelligent card connector, an intelligent card interface and a JTAG (Joint Test Action Group) interface, wherein the singlechip is used as a main control chip, program and test data are stored in the memorizer, the singlechip receives a command from the computer interface and receives input of a user equipment data set through the intelligent card interface and outputs data information of a working process of an intelligent card through the intelligent card connector; and the singlechip monitors the communication information of the intelligent card in the intelligent card connector, and outputs the communication information of the intelligent card through the computer interface to form a data test set. The singlechip is programmed through the JTAG interface and the data set is stored in the singlechip.
+107. 102271285 Conditional access module and digital television realization method
+CN
+07.12.2011
+H04N 21/4627 Loading...
+H04N 21/4627
+Loading...
+201110228247.5
+Shenzhen State Micro Technology Co., Ltd.
+Li Yanrong
+H04N 21/4627
+Loading...
+The invention discloses a conditional access module and a digital television realization method. The method comprises the following steps of: storing the personal account information, program authorization information or/and personalized customization information of a user in advance in an operation management server; establishing a link with the operation management server by using any conditional access module by the user, and verifying the input personal account information input by the user; downloading the program authorization information or/and personalized customization information corresponding to the user from the operation management server after the personal account information passes the verification; and descrambling and decrypting a transport stream by utilizing the program authorization information to obtain a digital television program, or providing personalized service for the user according to the personalized customization information by using the conditional access module. Therefore, own proprietary digital television programs and service can be acquired by utilizing the personal account information in the conditional access modules of different places and different digital television terminals; and the invention has the advantages of realization simplicity and relatively lower realization cost, and can be widely applied to various conditional access modules.
+108. 102271286 Conditional access system capable of providing multi-screen control and realization method
+CN
+07.12.2011
+H04N 21/4627 Loading...
+H04N 21/4627
+Loading...
+201110228359.0
+Shenzhen State Micro Technology Co., Ltd.
+Li Yanrong
+H04N 21/4627
+Loading...
+The invention discloses a conditional access system capable of providing multi-screen control and a realization method. The conditional access system comprises a conditional access module and network terminal equipment, wherein the conditional access module is connected with a digital television; and the network terminal equipment is used for the control operations of a user over the conditional access module after being bound with the conditional access module. In the conditional access system, the conditional access module is bound with the network terminal equipment with an Internet protocol (IP) network function, so that the user can access and control the conditional access module by the network terminal equipment to realize the multi-screen control over the conditional access module; and the realization method is simple, a plurality of control ways for controlling the conditional access module are provided for the user, and convenience is brought to the user.
+109. 202043254 基于条件接收装置的视频点播系统
+CN
+16.11.2011
+H04N 21/266 Loading...
+H04N 21/266
+Loading...
+201020653907.5
+深圳国微技术有限公司
+刁勇涛
+H04N 21/266
+Loading...
+本实用新型涉及一种基于条件接收装置的视频点播系统，该系统包括：VOD服务器、主机和条件接收装置，所述VOD服务器通信连接所述主机，所述条件接收装置通信连接所述主机。所述主机上设置有DVB应用及解码器、图形输出模块、人机交互模块、IP模块和第一通信交互模块，所述条件接收装置上设置有第二通信交互模块、VOD处理模块和CA核心模块。本实用新型提供的基于条件接收装置的视频点播系统中，条件接收装置与主机进行通信交互，并通过主机的IP模块与VOD服务器进行交互，能够通过条件接收装置实现VOD功能。
+110. 102223323 DTMB (Digital Television Terrestrial Multimedia Broadcasting) system and channel estimation method in multi-carrier DTMB
+CN
+19.10.2011
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010152613.9
+Shenzhen State Micro Technology Co., Ltd.
+Yuan Liuqing
+H04L 25/02
+Loading...
+The invention discloses a DTMB (Digital Television Terrestrial Multimedia Broadcasting) system and a channel estimation method in a multi-carrier DTMB system, wherein the channel estimation method comprises the following steps of: intercepting two sections of frame headers of transmission signal frames to generate two local related sequences s1(n) and s(2n); at the beginning of a specific position for receiving the signal frames, correlating the two local related sequences s1(n) and s(2n) so as to obtain time domain impact response h(n) of the channel estimation; performing the leakage process on the time domain impact response h(n) so as to eliminate noise and interference; and obtaining accurate estimation channel time domain impact response. According to the invention, the channel time domain impact response can be estimated accurately; the realization process is simple; a multi-path length which can be estimated is larger; and the multi-path length not only can be used in a receiving end of the DTMB system to perform the channel mode judgement but also used as an initial value of the subsequent channel estimation, or directly used in the receiving end as the channel estimation.
+111. 201995092 一种带储存卡座的条件接收模块卡
+CN
+28.09.2011
+H04N 21/2347 Loading...
+H04N 21/2347
+Loading...
+201020656093.0
+深圳国微技术有限公司
+沈继青
+H04N 21/2347
+Loading...
+本实用新型公开了一种带有存储卡座的条件接收模块卡，旨在提供一种扩展现有条件接收模块卡功能的条件接收模块卡，其包括一上构件和与所述上构件连接的下构件，所述上构件和下构件之间形成一智能卡插口，所述条件接收模块卡还包括一定位于所述上构件和下构件之间的中间构件，所述中间构件的一端设置有一存储卡座，所述上构件在与所述存储卡座对应端的对应位置设置有一存储卡插口。本实用新型可用于数字电视的CAM卡。
+112. 201967025 带内容保护的数字广播电视接收装置
+CN
+07.09.2011
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201020653892.2
+深圳国微技术有限公司
+杨富平
+H04N 5/44
+Loading...
+本实用新型涉及一种带内容保护的数字广播电视接收装置，其包括：用于接收数字信号的接收处理模块、用于将所述数字信号进行解扰并发送到加密模块的CA模块、用于将所述解扰后的数字信号进行加密的加密模块和将加密模块中加密后的数字信号发送到计算机上的控制连接器，其中，所述信号接收模块连接所述CA模块，所述CA模块连接所述加密模块，所述加密模块连接所述控制连接器。通过该装置提供的加密模块对从该装置前端到PC端整个传输路径中的数据进行加密，从而对所述数据进行有效的保护。
+113. 201936336 一种带不可更换SIM卡的条件接收模块卡
+CN
+17.08.2011
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201020656097.9
+深圳国微技术有限公司
+沈继青
+G06K 19/077
+Loading...
+本实用新型公开了一种带不可更换SIM卡的条件接收模块卡，旨在提供一种不易导致卡相互混淆、丢失和恶意更换的条件接收模块卡，其包括一不可拆卸固定于所述条件接收模块卡内的SIM卡。所述条件接收模块卡包括一上构件、与所述上构件连接的下构件和一定位于所述上构件和下构件之间的中间构件，所述中间构件包括一电路板，所述电路板上设置有一SIM卡连接座，所述SIM卡与所述SIM卡连接座连接且不可拆卸固定在所述电路板上。本实用新型可用于数字电视的CAM卡。
+114. 201886783 条件接收卡
+CN
+29.06.2011
+G11C 11/41 Loading...
+G11C 11/41
+Loading...
+201020663139.1
+深圳国微技术有限公司
+张成根
+G11C 11/41
+Loading...
+本实用新型涉及一种条件接收卡，其包括：CA核心模块、连接所述CA核心模块的存储控制模块和连接所述存储控制模块的存储设备。本实用新型提供的条件接收卡，在现有技术提供的条件接收卡上增加存储管理模块及存储设备，用于对主机发送至条件接收卡的原始传输流进行存储和回放控制，从而实现Time-shift和PVR功能。
+115. 102104805 System and method for accessing broadcast media in form of virtual file
+CN
+22.06.2011
+H04N 21/462 Loading...
+H04N 21/462
+Loading...
+201010585345.X
+Shenzhen State Micro Technology Co., Ltd.
+Zhang Xuezhi
+H04N 21/462
+Loading...
+The invention provides a system and method for accessing broadcast media in form of a virtual file, wherein the method comprises the following steps: a plurality of virtual files which are in one-to-one correspondence with broadcast media sources are established in a virtual file system of a media receiving apparatus; a media access apparatus selects and plays one of the virtual files from a file list, configures the parameter of a broadcast media receiving module by utilizing the description information of the virtual file; the broadcast media receiving module acquires a broadcast media source and processes the broadcast media source into a transmission stream, and stores the transmission stream to the virtual file; and the virtual file system sends the transmission stream in the virtual file to the media access apparatus, and a streaming media player carries out playing and processing, wherein the media receiving apparatus is virtual as a mobile storage apparatus, and a mobile storage apparatus drive program in the media access apparatus is used for carrying out data interaction. The system and the method are not limited by the system platform of the media access apparatus, and a special user access interface is not needed, thereby improving the system compatibility and saving the development cost.
+116. 102088632 Condition receiving apparatus capable of supporting two program sources and implementation method thereof
+CN
+08.06.2011
+H04N 21/4367 Loading...
+H04N 21/4367
+Loading...
+201010580511.7
+Shenzhen State Micro Technology Co., Ltd.
+Li Yanrong
+H04N 21/4367
+Loading...
+The invention provides a condition receiving apparatus capable of supporting two program sources and an implementation method thereof, wherein the condition receiving apparatus comprises a descrambling module connected with an intelligent card, a second signal receiving and processing module used for receiving a second program signal and processing the second program signal to a second transport stream, a switching module used for receiving the second transport stream corresponding to the second program signal and a first transport stream corresponding to a first program signal received by the receiving end of a digital television, and selecting one of the two transport streams and sending the transport stream to the descrambling module, wherein the switching module is connected with the second signal receiving and processing module and the descrambling module. The condition receiving apparatus of the present invention implements the input of two program sources, and can switch the two program sources randomly and even can perform a real-time recording of the program of one frequency point while the program of the other frequency point is watched.
+117. 102026036 Conditional access device and method for implementing electronic program guide (EPG) therein
+CN
+20.04.2011
+H04N 21/462 Loading...
+H04N 21/462
+Loading...
+201010585332.2
+Shenzhen State Micro Technology Co., Ltd.
+Jiang Chufa
+H04N 21/462
+Loading...
+The invention provides a conditional access device and a method for implementing an electronic program guide (EPG) therein, wherein the method comprises the following steps of: acquiring EPG data including a program list and playing parameter information by the conditional access device; acquiring an EPG application script from the conditional access device by a host, and executing the EPG application script and displaying an executing result by using a browser; and carrying out EPG information interaction between the conditional access device and the host through a communication interface (CI) port, wherein the EPG application script uses a script language which is adaptive with the browser of the host. The invention can broaden the business scope of the conditional access device and expand an implementing carrier of the EPG, is beneficial to the demand of an operator and customizes the personalized EPG with completely uniform style to carry out unified management.
+118. 101989242 Bus monitor for improving safety of SOC (System on a Chip) as well as realizing method thereof
+CN
+23.03.2011
+G06F 13/362 Loading...
+G06F 13/362
+Loading...
+201010540994.8
+Shenzhen State Micro Technology Co., Ltd.
+Liu Huayu
+G06F 13/362
+Loading...
+The invention discloses a bus monitor for improving the safety of an SOC (System on a Chip) as well as a realizing method thereof. The bus monitor is arranged between a system bus and a system control unit and comprises a setting unit, a condition judging unit, an effective data selecting unit, a hardware algorithm unit and a comparison output unit. The method of the invention can be used for monitoring bus behavior on the premise that the bus access efficiency is not influenced, detecting whether special bus access sequence behavior concerned by the system can be changed because of accidents, interpolation and malicious fault attacks and alarming the system if the special bus access sequence behavior is changed so that the system adopts a suitable safe measure to prevent security risks and prevent confidential information from being divulged because of incorrect system safety operation.
+119. 101888253 Deviation correcting method and system of communication channel baseband frequency
+CN
+17.11.2010
+H04B 1/26 Loading...
+H04B 1/26
+Loading...
+201010186884.6
+Shenzhen State Micro Technology Co., Ltd.
+Zhang Min
+H04B 1/26
+Loading...
+The invention provides a deviation correcting method and system of communication channel baseband frequency. The method of the invention comprises the following steps: detecting the deviation of the central point of input signal spectrum to zero-frequency, outputting an estimated completion indication signal, outputting a frequency deviation, which is equal to zero, before the completion of detection, outputting a constant frequency deviation after the completion of detection; adding a fixed shifting frequency and the frequency deviation to obtain a target frequency, shifting the frequency spectrum of input digital signals to the target frequency to obtain a quasi-baseband signal; controlling the low-pass filter factor to switch between large bandwidth coefficient and small bandwidth coefficient according to the estimated completion indication signal, performing low-pass filter filtering treatment to the quasi-baseband signal to obtain a low-pass signal; and performing small-frequency deviation correcting treatment to the low-pass signal to obtain a baseband signal. By using the method and system of the invention to perform large frequency deviation correcting and small frequency deviation correcting to the quasi-baseband signal, the center frequency of data is finally shifted to zero-frequency and the method and system has the advantages of convenient and fast operation and high detection accuracy.
+120. 101867539 High-frequency offset carrier recovery system and method for cable digital television
+CN
+20.10.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010176109.2
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 25/03
+Loading...
+The invention discloses a high-frequency offset carrier recovery system and a high-frequency offset carrier recovery method for a cable digital television. The recovery system comprises a sweep-frequency module, a polarity determining module, and a guide determining module which are used in a carrier recovery module and connected with one other. After sweep-frequency points are subjected to frequency sweeping, signals are subjected to polarity determination; and after the polarity determination, the signals subjected to error correction are subjected to guide determination. The rapid high-frequency offset carrier recovery method with a drifted correction center overcomes the defect that the traditional sweep-frequency and guide determining methods are time-consuming, and overcomes the defect that the polarity determining and guide determining methods correct too small frequency offset. Therefore, the carrier recovery method has the advantages of rapid correction and high-frequency offset correction.
+121. 101867449 Efficient LDPC decoder based on ground digital television
+CN
+20.10.2010
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010192873.9
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 1/00
+Loading...
+The invention provides an efficient LDPC decoder based on a ground digital television, comprising a front-end communication processor, a serial-to-parallel data conversion module, an iteration decoding module and a parallel-to-serial data conversion module, wherein the front-end communication processor is used for outputting soft bit information after carrying out cutting and partitioning, de-weaving and de-mapping treatments on received frame body data; the serial-to-parallel data conversion module is used for stopping complementing 0 before the soft bit information to form soft bit decoding blocks and output the soft bit decoding blocks in parallel; the iteration decoding module is used for receiving paralleled soft bit decoding block information, outputting paralleled hard bit data by carrying out iteration decoding for multiple times and indicating correct decoding; and the parallel-to-serial data conversion module is used for recovering the paralleled hard bit data into serial hard bit data and outputting the serial hard bit data so as to remove LDPC check bits and BCH check bits, and descrambling and outputting into continuous transport streams. The invention solves the technical problem that the existing decoding processing needs to take longer time and consumes more resources.
+122. 101867537 Two-stage variable order digital filtering method and device
+CN
+20.10.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010159676.7
+Shenzhen State Micro Technology Co., Ltd.
+Wu Zhou
+H04L 25/03
+Loading...
+The invention discloses a two-stage variable order digital filtering method and a device, which is used for digital television receivers, abandons the one-stage RRC finite impulse response filter used in the prior art, and creatively uses a two-stage digital filter to filter a mixed lower variable-frequency signal, the first stage is a low-pass finite impulse response filter, and the second stage adopts the RRC finite impulse response filter. The two-stage variable order filter can flexibly choose the filter order according to the feedback information under the condition of ensuring constant system filter transition function; the two-stage variable order filter can respectively adopt lower order under the condition of ensuring constant system filter transition function and final decoding result; and the sum of the adopted orders is less than the order for adopting the one-stage filter so as to save hardware resource.
+123. 101867740 Sampling rate converter and conservation method for digital television baseband signals
+CN
+20.10.2010
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010180411.5
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 25/02
+Loading...
+The invention discloses a sampling rate converter and a sampling rate conversion method for digital television baseband signals. The sampling rate converter comprises a data extraction module, a spectrum formation module, a ratio detection module, a ratio search module, an interpolation control module, an interpolation filter module and a regular locking detection module. In the invention, interpolation factors of the interpolation filter module are adjusted by adjusting the proportional value of a total bandwidth and a signal bandwidth, judgment is carried by the regular locking detection module, and finally, sampling frequencies are converted into symbolic frequencies. The conversion effect is good.
+124. 101860504 Channel equalization method for eliminating rear path interference by using movable tap
+CN
+13.10.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010192882.8
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 25/03
+Loading...
+The invention proposes a channel equalization method for eliminating rear path interferences by using a movable tap, which comprises the following steps of carrying out sliding correlation processing to each frame of received symbol data and local fixed frame header, computing correlation energy values and recording the maximum value of each frame of correlation energy, wherein the correlation length is the length of the frame header; according to the maximum value of the correlation energy obtained from the previous frame, setting a main path relative threshold and determining the position of a main path; according to the maximum value of the correlation energy obtained from the previous frame, setting a strong path relative threshold and detecting the quantity and the positions of rear paths; and setting a window with a preset character length by each level movable tap by using the detected position of each rear path as a center to construct an equalizer for channel equalization processing. In the invention, the movable tap is used for eliminating the rear paths to greatly reduce the level number of a feedback filter, and 0 db rear paths with great delay can be eliminated by using a feedback filter with minimum level number.
+125. 101860512 Impulse noise suppression and demapping soft decision method and system in multi-carrier system
+CN
+13.10.2010
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201010170581.5
+Shenzhen State Micro Technology Co., Ltd.
+Wu Zhou
+H04L 27/26
+Loading...
+The invention provides impulse noise suppression and demapping soft decision method and system in a multi-carrier system, wherein the method comprises the following steps of: carrying out statistics on power of receiving signals by an A/D (Analog to Digital) module by a power statistical module, comparing the power with a set threshold, judging whether impulse noise exists in the received signals or not, and if the impulse noise exists, generating an impulse indication signal and a confidence indication signal by the power statistical module; carrying out impulse noise suppression processing on the received signals which are judged to have the impulse noise by an AGC (Automatic Gain Control) module and carrying out power regulation on the receiving signal according to the impulse indication signal; feeding back the power-regulated receiving signal to the A/D module; setting up a confidence weight number according to the confidence indication signal by a demapping module, and carrying out soft decision processing on received information output from the A/D module according to the confidence weight number. The invention can effectively suppress the impulse noise and provides different confidence indications according to different impulse noise types to ensure the reliability of the demapping soft decision.
+126. 101854497 Digital television receiver and timing recovery method thereof
+CN
+06.10.2010
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201010170591.9
+Shenzhen State Micro Technology Co., Ltd.
+Wu Zhou
+H04N 5/44
+Loading...
+The invention provides a digital television receiver and timing recovery method thereof. The method comprises the following steps: an interpolation filter synchronously samples received data signals after a timing module is started, and outputs processed data signals and timing error enable signals; an effective timing error between the samples of the data signals are calculated by the timing error detector when the timing error detector receives the timing error enable signals to obtain the timing error value; a loop filter is utilized to filter the timing error value and output timing error signals and fractional factor compensating signals; and a digital control oscillator receives the timing error signals and the fractional factor compensating signals output by the loop filter, produces control signals and sampling enable signals output to the interpolation filter. The invention is suitable for any modulation manner, is not affected by modulation manners and input signal power, does not need recovery of carrier frequency; and by using the receiver and method of the invention, the timing error can be correctly estimated and timing lock can be reliably judged.
+127. 101854155 Self-adaptive variable-order filtration method and device
+CN
+06.10.2010
+H03H 21/00 Loading...
+H03H 21/00
+Loading...
+201010152610.5
+Shenzhen State Micro Technology Co., Ltd.
+Wu Zhou
+H03H 21/00
+Loading...
+The invention discloses a self-adaptive variable-order filtration method and a self-adaptive variable-order filtration device for a digital television. The method comprises the following steps that: filters are divided into a plurality of groups, filter taps with a certain order are included in each group, each group of filters correspond to a different power switches, and the filters can self-adaptively adjust the order according to the decoding result fed back; the power switches of the filter groups which are selected to join the operation are switched on, and other power switches which do not join the operation are switched off; under a condition of ensuring the final decoding result is consistent, the filters can select a lower filter order according to the feedback information, the power switches of the filter groups which are selected to join the operation are switched on, and the other switches which do not join the operation are switched off, so that an aim of lowering power consumption is achieved.
+128. 101848179 Equalizer and equalizing method of tapping-preset and LMS (Learning Management System) united-confrontation dynamic channel
+CN
+29.09.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201010186895.4
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 25/03
+Loading...
+The invention provides an equalizing method and an equalizer of a tapping-preset and LMS (Learning Management System) united-confrontation dynamic channel, . Thewherein the method comprises the following steps of: estimating the shock response of the channel by adopting an LMS algorithm to acquire the estimated value of the channel; when detecting that a main path of the communication channel is switched, acquiring and presetting the tapping coefficient of the equalizer according to the estimated value of the channel to accomplish the initialization of the tapping coefficient of the equalizer, and then carrying out self-adaptation updating on the tapping coefficient on the basis of the LMS algorithm; and equalizing the communication channel by using the equalizer to eliminate a front-path channel in a stepwise counteracting mode and directly eliminate a back-path channel. The equalizing method realizes that the equalizer carries out rapid convergence on the basis of an ideal initial state by the LMS algorithm to realize the self-adaptation updating of the tapping coefficient of the equalizer, thereby rapidly tracking the changing channel to realize the equalization on the channel.
+129. 101834812 DTMB (Digital Television Terrestrial Multimedia Broadcasting) system and method for identifying additive noise channel and multipath channel
+CN
+15.09.2010
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201010152606.9
+Shenzhen State Micro Technology Co., Ltd.
+Yuan Liuqing
+H04L 25/02
+Loading...
+The invention provides a DTMB (Digital Television Terrestrial Multimedia Broadcasting) system and a method for identifying an additive noise channel and a multipath channel under a static channel condition, wherein the method comprises the following steps of: after a receiver receives radio signals, counting the positions of channel time domains of continuous N signal frames for impacting and responding to a second main path in the radio signals and respectively recording the positions to arrays P(n); normalizing the arrays P(n) into P0(n); searching a maximum value PMAX in the array P0(n) and judging the magnitude of the maximum value PMAX and a preset threshold value PTH; and if the PMAX is larger than or equal to the PTH, judging the channel of the current radio signals to be a multipath channel, or else, judging the channel of the current radio signals to be an additive noise channel. The invention has the advantages of simple implementation and quick and effective identification of the channel types and is particularly suitable for the DTMB system.
+130. 101719170 Simulation test method of integrated circuits
+CN
+02.06.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200910109891.3
+Shenzhen SMiT Co., Ltd.
+Li Jiayong
+G06F 17/50
+Loading...
+The invention relates to a simulation test method of integrated circuits, which comprises the following steps of: reading in a netlist of the integrated circuits; generating corresponding list files according to data of a register, a latch, an RAM and an ROM; generating a field data preservation task and a field data recovery task according to a verilog hardware description language by the list files; transferring the field data preservation task at different simulation time points to preserve simulation field data at different appointed simulation time points; generating a plurality of mutually independent simulation threads, wherein every simulation thread starts simulation software; transferring the field data recovery task for initializing the integrated circuit which is in simulation correspondence with each simulation software into the field data preserved at different simulation time points, and starting up all the simulation threads for simulation verification. The invention greatly shortens the simulation time and improves the simulation efficiency.
+131. 201489524 代码完整性校验电路
+CN
+26.05.2010
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+200920134285.2
+深圳国微技术有限公司
+郭小强
+G06F 12/14
+Loading...
+本实用新型公开一种代码完整性校验电路，其包括系统总线、闪存、实时完整性校验单元、一次性可编程存储器、DMA控制器及CPU，所述闪存、实时完整性校验单元、一次性可编程存储器、DMA控制器及CPU都连接到所述系统总线上，所述实现完整性校验单元与所述DMA控制器相连接。本实用新型的代码完整性校验电路具有安全性高的优点。
+132. 101710964 Method for enciphering and deciphering MPEG2 transport stream packets
+CN
+19.05.2010
+H04N 21/2389 Loading...
+H04N 21/2389
+Loading...
+200910109747.X
+Shenzhen State Micro Technology Co., Ltd.
+Li Xinguo
+H04N 21/2389
+Loading...
+The invention provides a method for enciphering and deciphering MPEG2 transport stream packets. The method comprises the following steps of: based on the length of L bits, dividing the payload of transport stream packets into n subgroups of P1, P2, P3 till Pn; enciphering the ith subgroup Pi of the payload of the transport stream packets, and outputting the cipher subgroup Ci which is the enciphered result of the bit-by-bit XOR value of Pi and IVi-1 by using a secret key K, wherein n is less than n and not less than 1; if the length of the subgroup Pn is equal to L bits, the cipher subgroup Cn output after enciphering the subgroup Pn is the enciphered result of the bit-by-bit XOR value of Pn and IVn-1 by using the secret key K; and if the length t of the subgroup Pn is less than L bits, adding L-t zeros at the right of Pn, then XORing the result with added zeros and the enciphered result of IVn-1, and finally outputting the first t bits of the XOR result as the cipher of Pn (Cn). The invention has the advantages of high safety performance and easy implementation.
+133. 101710859 Authentication key agreement method
+CN
+19.05.2010
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200910109748.4
+Shenzhen State Micro Technology Co., Ltd.
+Li Xinguo
+H04L 9/32
+Loading...
+The invention provides an authentication key agreement method, which is used for a communication entity A and a communication entity B to authenticate identities of each other and negotiate a shared key, and comprises the following steps of: combining a first random number generated by the entity A and a public key of the entity B to generate a first message and sending the first message to the entity B; combining a second random number generated by the entity B and a public key of the entity A to generate a second message, calculating a hashing function to generate a hash value RB, and sending the second message and the hash value RB to the entity A; verifying the hash value RB with the entity A, if the hash value RB passes the verification, calculating the hashing function with the entity A to generate a hash value RA and the shared key, and sending the hash value RA to the entity B with the entity A; and verifying the hash value RA with the entity B, if the hash value RA passes the verification, calculating the shared key with the entity B. The method provided by the invention needs relatively small calculated amount and low communication traffic, thereby facilitating improving the communication speed and the communication efficiency.
+134. 101710884 Method for identifying QAM mode based on channel estimation and equalization
+CN
+19.05.2010
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+200910188732.7
+Shenzhen State Micro Technology Co., Ltd.
+Chen Yansheng
+H04L 25/03
+Loading...
+The invention relates to a method for identifying a QAM mode based on channel estimation and equalization. The method comprises the following steps of: A, receiving input data in a QAM mode; B, adjusting the energy of the received data with a first convergence step length to make the data signal energy larger than an energy threshold; C, carrying out the equal convergence with a second convergence step length, and carrying the phase position and frequency offset correction on the received data when signal carrier recovery frequency-offset detection is locked; D, carrying out the equal convergence with a third convergence step length, and detecting whether the mean square error of the converged data is less than a threshold, if yes, going to Step E, otherwise, going to Step F; E, carrying out the LMS adaptive equal convergence on the input data by an equalizer, and detecting whether the mean square error of the converged data is less than a threshold, if yes, inputting data by the LMS adaptive equal convergence, otherwise, going to Step F; and F, changing the QAM mode and going to Step B. The invention effectively realizes the data equalization and completes the QAM mode identification in a simple and easily achievable mode.
+135. 201477600 一种保护芯片的篡改检测电路
+CN
+19.05.2010
+G06F 21/02 Loading...
+G06F 21/02
+Loading...
+200920134284.8
+深圳国微技术有限公司
+王良清
+G06F 21/02
+Loading...
+本实用新型公开一种保护芯片的篡改检测电路，包括：一个随机数发生器，一个寄存器组，一个篡改检测单元，多个异或逻辑门和一个或逻辑门，其中，所述随机数发生器的输出连接所述寄存器组的输入，所述寄存器组输出多路信号并分别连接信号布线和相同数量的所述异或逻辑门的输入，所述多路信号通过所述布线传输到篡改检测单元，所述篡改检测单元输出多路信号并分别连接所述多个异或逻辑门的另一输入，所述异或逻辑门的输出连接所述或逻辑门的输入。通过本实用新型，可以保证芯片正常工作的前提下，能够对芯片的篡改操作进行检测，将检测信号反馈回系统，系统做出相应的反应以保护芯片以及内部的机密信息，使得产品更具有安全性。
+136. 201477578 存储器访问保护系统
+CN
+19.05.2010
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+200920134195.3
+深圳国微技术有限公司
+郭小强
+G06F 12/14
+Loading...
+本实用新型公开一种存储器访问保护系统，其包括处理器、地址总线、解码器、第一存储器访问保护装置、片选控制逻辑及存储器，所述处理器通过地址总线连接至所述解码器，所述解码器通过片选方式分别连接至所述第一存储器访问保护装置及所述片选控制逻辑，所述第一存储器访问保护装置连接至所述片选控制逻辑，所述片选控制逻辑通过片选方式连接至所述存储器的多个存储区域。本实用新型的存储器访问保护系统可节省存储器访问保护装置的面积。
+137. 101625889 Memory with redefined pins and protection method thereof
+CN
+13.01.2010
+G11C 7/24 Loading...
+G11C 7/24
+Loading...
+200910109143.5
+Shenzhen State Micro Technology Co., Ltd.
+Wang Liangqing
+G11C 7/24
+Loading...
+The invention discloses a memory with redefined pins and a protection method thereof. The memory comprises: a plurality of pins communicated to the outside, an inside unit (12) with a pin configuration module (121) which provides a user programming definition pin and preserves into pin configuration information not allowing outside users of the memory access to, and a pin redefining unit (11) connected with pins through a plurality of bidirectional ports and performing data communication with the inside unit (12) through a plurality of unidirectional signal ports having mapping relationship with each bidirectional signal port; and the mapping relationship between the bidirectional signal port and the unidirectional signal port is reconfigured according to the pin configuration information of the pin configuration module (121). The invention can redefine an outside pin of the memory so that illegal users can not learn the specific meaning of signals inside the memory corresponding to the memory, thereby ensuring safety of inside information of the memory.
+138. 101620523 Random number generator circuit
+CN
+06.01.2010
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+200910109146.9
+Shenzhen State Micro Technology Co., Ltd.
+Wang Liangqing
+G06F 7/58
+Loading...
+The invention discloses a random number generator circuit based on real-time data streams and pseudo random numbers, comprising an m-bit linear feedback shift register circuit, an n-bit cellular automaton shift register circuit, a random counter circuit, a random data acquisition circuit, a logic exclusive-OR circuit and an HASH diffusion circuit, wherein the random data acquisition circuit outputs random bit streams; the logic exclusive-OR circuit processes the obtained original random bit streams and then generates internal random bit streams; and the HASH diffusion circuit processes the internal random bit streams to form and output random bits with different places, which are used for a crypto module. The invention can generate reliable and unpredictable random numbers, thereby enhancing the safety and the reliability of products.
+139. 101620656 Safety JTAG module and method for protecting safety of information inside chip
+CN
+06.01.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200910109145.4
+Shenzhen State Micro Technology Co., Ltd.
+Wang Liangqing
+G06F 21/00
+Loading...
+The invention relates to a safety JTAG module and a method for protecting security of information inside a chip, wherein the safety JTAG module comprises a nonvolatile medium (206), a loading circuit (205), a security attribute control register (214), a TAP controller (201), two selectors (207 and 211), a switch (203), a password authentication module and a logic processing module; the TAP controller (201) and the two selectors (207 and 211) are connected between a JTAG port (1) and a protected object inside the chip; the switch (203) is switched by the control of a timer (202); the password authentication module is used for authenticating whether a clear-text password input by a user is accordant with a fuzzification password or not; and the logic processing module is used for logically processing an authentication result output by the password authentication module and an indication signal output by the security attribute control register (214) and outputting an enable signal to the two selectors (207 and 211) so as to control whether the JTAG port (1) is allowed to be connected with the protected object inside the chip through the TAP controller (201) or not. The invention ensures the security and the convenience of an SOC chip in testing and debugging processes, thereby protecting the security of data inside the chip.
+140. 101453302 Deinterleaver, data interleaving/deinterleaving implementation method in data transmission system
+CN
+10.06.2009
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+200810241364.3
+Shenzhen State Micro Technology Co., Ltd.
+Zhang Wei
+H04L 1/00
+Loading...
+The invention discloses a method for realizing data interleaving/de-interleaving in a data transmission system, which is characterized by comprising: dividing a single SPRAM for completing interleaving/de-interleaving into a plurality of memory blocks, and rearranging the memory space of each memory block according to a predetermined basic memory unit; and determining the address arrangement mode when data is written into the plurality of the memory blocks or read out from the plurality of the memory blocks according to the arrangement mode of the basic memory units, generating a writing address of writing operation or a reading address of reading operation by a writing address generating module or a reading address generating module respectively according to the address arrangement mode, and realizing data interleaving/de-interleaving by performing writing operation or reading operation on the data according to the time sequence requirement. The invention also discloses a de-interleaver. When a block grouping interleaver/de-interleaver of large-scale data is required to be designed, the method not only can save the area and effectively improve the data throughout but also can simultaneously take the data transmission speed into account.
+141. 101303354 Biological chips of surface plasma resonating biological sensor, preparation and application
+CN
+12.11.2008
+G01N 33/577 Loading...
+G01N 33/577
+Loading...
+200610119362.8
+Shanghai Institute of Microsystem and Information Technology, Chinese Academy of
+Cao Huimin
+G01N 33/577
+Loading...
+The invention relates to a cell surface receptor biochip based on a surface plasmon resonance biosensor, a preparation method and application thereof. The biochip is characterized in that the chip is provided with a gold surface coating at a glass substrate and the gold surface is fixed with a sephadex layer which is fixed with the monoclonal antibody of the Beta subunit of the receptors of anti para-insulin and surface receptors are fixed by antibody capture. The preparation method includes that the monoclonal antibody of the Beta subunit of the receptors of anti para-insulin adopts the method of antibody capture and is fixed on the surface of CM5 chip based on the surface plasmon resonance biosensor, so as to produce the protein chip of para-insulin receptors which is applicable to the mutual action between IGF-1R and IRS-1, SHC, PI3K or GRB2 and hopeful to be applied to screening cancer-fighting drugs.
+142. 101198021 Mobile digital television condition receiver and card separating device and method based on SDIO interface
+CN
+11.06.2008
+H04N 7/167 Loading...
+H04N 7/167
+Loading...
+200710077593.1
+Shenzhen Guowei Technology Co., Ltd.
+Zhang Tongyou
+H04N 7/167
+Loading...
+The invention discloses an SDIO-interface-based mobile digital television conditional receiver-card separating device and a method for realizing the same. The device comprises: an antenna module; a mobile digital television receiver with SDIO interface which comprises a master control module for judging a digital television signal code stream, transmitting a transparent code stream to a decoding module, and transmitting an encrypted code stream to a conditional reception module through the SDIO interface; the decoding module which is used for decoding the transparent code stream; and the conditional reception module with SDIO interface which is used for connection and protocol negotiation with the SDIO interface of the mobile digital television receiver, instruction exchange, and bidirectional transmission of the digital television signal code stream, and is also used for carrying out de-interference treatment and transmitting the transparent code stream after de-interference to the master control module. The invention realizes the mobile digital television conditional receiver-card separation through the SDIO interfaces of the machine and card, and provides a more effective protective mode of digital television content.
+143. 101188426 Decoder for parallel processing of LDPC code of aligning cycle structure and its method
+CN
+28.05.2008
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+200710077592.7
+Guowei Technology Co., Ltd.
+Luo Hao
+H03M 13/11
+Loading...
+The invention discloses an encoder and a method conducting parallel processing on the LDPC code of a semi-cycle structure. The encoder includes a check node processing unit which takes a row in a check matrix as a unit, and conducts the update processing of the check node information on each row of the check matrix in turn by time division multiplexing; a variable node processing unit which takes a column in the check matrix as the unit and conducts the update processing of the variable node information on each column of data in turn by time division multiplexing; a RAM memorizer which is used as the buffer of data during the encoding process; a microinstruction controller which is connected with the check node processing unit, the variable node processing unit, and the RAM memorizer, and used for sending microinstruction to control the iterative decoding processing of the mutual transmission and update of the results of the check node processing unit and the variable node processing unit. The invention can save the hardware resource, and can improve the processing speed of the encoding.
+144. 101135042 Method for vacuum plating titania film on hollow micro-bead surface
+CN
+05.03.2008
+C23C 14/34 Loading...
+C23C 14/34
+Loading...
+200610015533.2
+Station Nami Technology & Engineering Research Academy
+Shen Zhigang
+C23C 14/34
+Loading...
+The vacuum coating process of forming titania film on the surface of hollow bead is completed in pulse sputtering vacuum coating equipment and with hollow bead material as the substrate and metal titanium as the target material. Through filling oxygen and argon into the vacuum chamber and glow discharge in the vacuum chamber by the pulse power source, metal titanium and oxygen are made to react to form photocatalytic titania film on the surface of hollow bead. The present invention has the advantages of forming single anatase type titania film capable of catalyzing the degradation of organic matter under the action of ultraviolet, high homogeneity and high adhesion of the film, and easy recovery of the hollow bead in the specific weight smaller than water.
+145. 101135045 Method for magnetron sputtering coppering film on SiC micro-particle surface
+CN
+05.03.2008
+C23C 14/35 Loading...
+C23C 14/35
+Loading...
+200610015536.6
+Station Nami Technology & Engineering Research Academy
+Shen Zhigang
+C23C 14/35
+Loading...
+The magnetically controlled sputtering process for coating copper film on the surface of SiC grain features that metal copper film is deposited on the surface of SiC grain in 0.1-500 micron size as the substrate inside magnetically controlled sputtering equipment with copper target of 99.999 % purity by means of regulating the vibrating power of ultrasonic wave and the oscillation frequency of sample holder to disperse SiC grains homogeneously and controlling the operation pressure inside the vacuum chamber, sputtering power, temperature, sputtering period and other technological conditions. The technological process is simple, low in cost and without waste pollution, and the prepared film is homogeneous and continuous.
+146. 2904337 条件接收模块卡组合装置
+CN
+23.05.2007
+H01R 12/16 Loading...
+H01R 12/16
+Loading...
+200620055254.4
+深圳国微技术有限公司
+李建佺
+H01R 12/16
+Loading...
+本实用新型涉及一种电子卡连接器，特别是一种机卡分离条件接收模块CAM(Condition access module)卡连接器组合装置，一种组配方便、不易扭曲变形的连接器。这种CAM卡组合装置由上、下构件组成，其特殊之处在于：上、下两个构件的一端设有抽拉式连接机构，其中一个构件的连接机构为由端头向内的滑动槽，另一个构件的连接机构为与上述滑动槽相匹配的滑动块；上、下构件的另一端设有扣合式连接机构，其中一个构件设有内扣槽，另一个构件设有具有一定高度的弹性勾扣件。其中上下构件的塑胶件和金属件采用嵌件成型(insert molding)为一体，为后续组装节省了装配程序和时间，而且产品坚固、抗摔、抗震，平行度好不易变形。
+147. 2848872 用于微颗粒表面真空镀金属膜的设备
+CN
+20.12.2006
+C23C 14/34 Loading...
+C23C 14/34
+Loading...
+200520026799.8
+国家纳米技术产业化基地
+沈志刚
+C23C 14/34
+Loading...
+本实用新型涉及用于微颗粒表面真空镀金属膜的设备，包括真空室、溅射靶架、样品架、样品皿、加热器、观察窗、放气阀、密封圈及真空抽气装置；真空室内上部设置溅射靶架，其下部对应设有样品架，样品架上面设有样品皿，样品架下面设有加热器，真空室还设有观察窗、放气阀、密封圈，设有真空抽气装置通过管路与真空室联通；并对应连接流量计、分子泵和机械泵，同时配置电器控制及冷却循环水系统；其特征是样品架连接设有振动发生器。通过调节样品架的摆动频率和超声波或机械振动发生器的振动功率，让每个微颗粒都充分暴露其表面，显著提高微颗粒表面镀金属膜的纯度、均匀性、致密性和附着力。结构简单、操作简便，无废水废气污染，节能降耗且应用广。
+148. 1718845 Technology of vacuum metal film plating on microparticle surface and its equipment
+CN
+11.01.2006
+C23C 14/34 Loading...
+C23C 14/34
+Loading...
+200510014639.6
+Beijing Univ. of Aeronautics and Astronautics
+Shen Zhigang
+C23C 14/34
+Loading...
+A technology and equipment for the vacuum plating of metallic film on the surface of microparticles features that the specimen holder is connected with the plating equipment having ultrasonic or mechanical vibration generator. Said technology includes such steps as providing microparticles and sputtering metal target, fixing target and microparticle utensil, turning on mechanical pump for vacuumizing, turning on molecular pump for further vacuumizing, turning on ultrasonic or mechanical vibrator, regulating power, frequency and time, and sputtering.
+149. 1602057 Access device and realizing method based on CI interface of ground and satellite diyital television
+CN
+30.03.2005
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200410051540.9
+Guowei Tech Co., Ltd., Shenzhen
+Zhao Bailong
+H04N 5/44
+Loading...
+Digital TV receiving card and CAM card through CI interface respectively are connected to signal router. CI interface is connected to DVB-T or DVB-S receiving unit, and its signal through signal router and MPEG2 decoding module is sent to TV output interface. Operating steps are as following: inserting DVB-T or DVB-S receiving card into CI interface, detecting and configuring the board inserted by STB; selecting and connecting DVB-T or DVB-S by signal router; after being decoding and demodulating, signal, signal enters into another router, which forwards scrambled code stream through CI interface to CAM module; CAM filters scrambled code stream and sends processed data stream through CI interface to STB. Through source decoding unit in STB, original audio/video information obtained is sent to TV set for display.
+150. 1602045 Conversion device and method for public interfacing digital television CI to IEEE-1394 interface
+CN
+30.03.2005
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200410051535.8
+Guowei Tech Co., Ltd., Shenzhen
+Yan Xianfeng
+H04N 5/00
+Loading...
+The invention relates to a device of connecting IEEE-1394 device to digital TV, and supporting data in IEEE-1394 device to be displayed on digital TV directly as well as relates to conversion equipment and method of connecting CI common interface of digital TV, which saves TV program on external IEEE-1394 device, to IEEE-1394 interface. Common interface is adopted between digital TV set and the conversion equipment. The conversion method includes steps: determining whether file of IEEE-1394 device selected by user can be decoded by decoder build in digital TV set; executing step, if file can not be decoded, microprocessor through logic unit of conversion equipment to carry out decoding, re-encoding; sending step, decoded file recognized by decoder built in TV set is partitioned and packed as standard TS stream format, which through CI data stream is provided for digital TV set to playback.
+151. 1602074 Special appts based on PCMCIA interface for realizing DVB return channel
+CN
+30.03.2005
+H04M 11/06 Loading...
+H04M 11/06
+Loading...
+200410051539.6
+Guowei Tech Co., Ltd., Shenzhen
+Zhao Baolong
+H04M 11/06
+Loading...
+Through PCMCIA interface as slot for telephone line modem card or wireless CDMA/GPRS network card, through connected PSTN or CDMA/GPRS network as feedback channel, set-top box between interactive channel in positive/negative direction and terminal provides communication with digital TV interactive service. When modem card or wireless network card being detected, set-top box through modem card or wireless network card builds bi-directional linkage with interactive network of digital TV manager. Through backward channel of down going chain from core network of broadcasting company to set-top box at user side, digital TV service provider converts data packets in IP format protocol to data packets in TS format protocol of MPEG-2, and sends data to users through digital TV broadcast channel as well as sends data needed to specified user.
+152. 1602046 Conversion device and realizing method for public interfacing digital television CI to family network
+CN
+30.03.2005
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200410051537.7
+Guowei Teih Co., Ltd., Shenzhen
+Huang Jingwen
+H04N 5/00
+Loading...
+Common interface is adopted between digital TV set and the conversion equipment in wireless mode. The conversion method includes steps: determining whether file selected by user can be decoded by decoder built in digital TV set; executing step, if file can not be decoded, based on different wavelengths, calculating by microprocessor and encoding by encoder converts file to format acceptable by PC; sending step, decoded file recognized by decoder built in TV set is partitioned and packed as standard TS stream format, then through CI data stream interface. Compressed data through wireless communication mode are transferred to PC.
+153. 1602047 Conversion device and method for public interfacing digital television CI to USB mterface
+CN
+30.03.2005
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200410051538.1
+Guowei Tech Co., Ltd., Shenzhen
+Tang Kai
+H04N 5/00
+Loading...
+The invention relates to a device of connecting USB device to digital TV, and supporting data in USB device to be displayed on digital TV directly as well as relates to conversion equipment and method of connecting CI common interface of digital TV, which saves TV program on external USB device, to USB interface. Common interface is adopted between digital TV set and the conversion equipment. The conversion method includes steps: determining whether file of USB device selected by user can be decoded by decoder build in digital TV set; executing step, if file can not be decoded, microprocessor through logic unit of conversion equipment to carry out decoding, re-encoding; sending step, decoded file recognized by decoder built in TV set is partitioned and packed as standard TS stream format, which through CI data stream is provided for digital TV set to playback.
+

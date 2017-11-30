@@ -1,0 +1,1489 @@
+1. 106569544 实时时钟芯片及其时钟校准方法、装置
+CN
+19.04.2017
+G06F 1/14 Loading...
+G06F 1/14
+Loading...
+201510653697.7
+上海东软载波微电子有限公司
+陈诚
+G06F 1/14
+Loading...
+一种实时时钟芯片及其时钟校准方法、装置，所述实时时钟芯片包括片内振荡器、晶振电路、时钟计数器，所述时钟校准方法包括：获取所述片内振荡器在当前校准周期内的振荡频率；根据所述当前校准周期内的振荡频率获取所述晶振电路在当前校准周期内的频率偏差；结合所述晶振电路在上一个校准周期内的频率偏差，对所述时钟计数器的计数值进行校准。采用所述实时时钟芯片及时钟校准方法、装置，可以有效降低实时时钟芯片成本，减少功耗。
+2. 106569861 芯片IAP数据更新控制方法及系统
+CN
+19.04.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201610985454.8
+上海东软载波微电子有限公司
+许克龙
+G06F 9/445
+Loading...
+一种芯片IAP数据更新控制方法及系统，所述控制方法包括：判断是否接收到第一LVD中断信号，所述第一LVD中断信号为所述芯片的LVD电路在检测到所述芯片的内部电压低于第一预设电压值时生成；当接收到所述第一LVD中断信号时，禁止IAP数据更新。上述方案能够避免系统内部电压不稳定导致系统软件更新失败的问题。
+3. 106556793 芯片测试系统及测试方法
+CN
+05.04.2017
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201610985458.6
+上海东软载波微电子有限公司
+周彦杰
+G01R 31/28
+Loading...
+一种芯片测试系统及测试方法，所述芯片内部设置有控制器、Flash存储器、SRAM以及BIST电路，所述测试方法包括：所述控制器从所述Flash存储器中读取适于对所述SRAM进行测试的配置信息，所述配置信息由测试机写入的，所述测试机与所述芯片耦接；所述控制器将所述配置信息写入至与所述BIST电路对应的专用寄存器中；所述控制器向所述专用寄存器写入测试触发信息，所述BIST电路在读取到所述测试触发信息时，自动对所述SRAM进行测试；所述控制器接收所述BIST电路发送的测试结果，对所述测试结果进行运算处理，并将所述运算处理对应的运算结果发送至所述测试机。采用上述方案，可以提高芯片测试的效率。
+4. 106502919 一种Flash闪存的写操作方法及装置
+CN
+15.03.2017
+G06F 12/06 Loading...
+G06F 12/06
+Loading...
+102016000888884
+上海东软载波微电子有限公司
+陈诚
+G06F 12/06
+Loading...
+一种Flash闪存的写操作方法及装置，所述Flash闪存的页为行与列的矩阵结构，每一行对应一个EEPROM地址，所述方法包括：接收对EEPROM地址的写操作指令，获取所述Flash闪存中与所述EEPROM地址对应的目标地址；判断所述目标地址是否能够写入所述写操作指令对应的待写入数据；当所述目标地址能够写入所述写操作指令对应的待写入数据时，将所述待写入数据写入所述目标地址；当所述目标地址中无法写入所述待写入数据时，在所述目标地址所处的Flash闪存的页上查找空白列地址，并将所述待写入数据写入至所述空白列地址中。上述方案能够有效减少Flash闪存的擦除次数，提高Flash闪存的使用寿命。
+5. 106501618 电容容值测量电路
+CN
+15.03.2017
+G01R 27/26 Loading...
+G01R 27/26
+Loading...
+102016001264800
+上海东软载波微电子有限公司
+万峰
+G01R 27/26
+Loading...
+一种电容容值测量电路，包括：控制器、待测电容、电容充放电单元、计时器以及计数器，其中：控制器，适于在获取到待测电容的电压达到放电完成电压阈值时，输出充电控制信号；在获取到待测电容的电压达到充电完成电压阈值时，输出放电控制信号；在测试完成后，计算待测电容的平均充电时长；根据预设的标准电容对应的充电时长与标准电容容值的对应关系，计算待测电容容值；电容充放电单元，适于在充电控制信号的控制下，与待测电容形成充电回路；在接收到放电控制信号时，控制待测电容放电；计时器，适于计时待测电容的充电总时长；计数器，适于记录测试过程中待测电容的充电总次数。上述方案能够提高电容容值测量的精度。
+6. 106487421 电力线载波通信测试系统及其测试方法
+CN
+08.03.2017
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+102015000548388
+上海东软载波微电子有限公司
+沈力为
+H04B 3/54
+Loading...
+一种电力线载波通信测试系统及其测试方法，所述测试系统包括：发送端，适于对测试数据进行处理以生成测试数据帧并缓存，在预设的每个定时发送周期中的固定发送时刻，将所述测试数据帧通过电力线发送至所述接收端；所述接收端，适于在第i个定时接收周期内接收来自所述电力线的所有数据并缓存；在第i个定时接收周期之后的时间段内从接收到的所有数据中获取所述测试数据帧，对所述测试数据帧进行处理以确定是否成功接收所述测试数据帧并统计接收成功率，且当完成对所述测试数据帧进行处理后，在下一个定时接收周期内接收来自所述电力线上的所有数据并缓存。采用所述系统及方法，可以有效地减少电力线载波通信系统的设计及测试周期。
+7. 106324479 一种芯片校准方法、电路及芯片
+CN
+11.01.2017
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201610655888.1
+上海东软载波微电子有限公司
+袁俊
+G01R 31/28
+Loading...
+一种芯片校准方法、电路及芯片，所述方法包括：接收基准模拟信号，利用模数转换器将所述基准模拟信号转换成第一类数字信号；接收待校准信号，利用所述模数转换器将所述待校准信号转换成第二类数字信号，所述待校准信号来自待校准芯片的信号产生器；计算所述第一类数字信号和所述第二类数字信号的差值，根据所述第一类数字信号与所述第二类数字信号的差值和预设的差值范围完成校准，其中，所述模数转换器的基准电压由所述待校准芯片以外的电压源提供。所述方法、电路及芯片可以提升芯片的校准效率，降低校准成本。
+8. 106292839 实时时钟补偿电路及校准方法、装置
+CN
+04.01.2017
+G06F 1/14 Loading...
+G06F 1/14
+Loading...
+102016000655911
+上海东软载波微电子有限公司
+朱晓飞
+G06F 1/14
+Loading...
+一种实时时钟补偿电路及校准方法、装置，所述实时时钟补偿电路包括振荡器，所述校准方法包括：获取所述实时时钟补偿电路所处环境的当前温度值；根据所述当前温度值获取对应的频率偏差值；对所述频率偏差值进行调整，并根据调整后的频率偏差值计算第一频率调整步进数，所述第一频率调整步进数为整数；根据所述第一频率调整步进数对所述振荡器的振荡频率进行调整。采用上述方案，可以提高实时时钟补偿电路的输出精度。
+9. 106294044 芯片内部寄存器的校验电路及芯片
+CN
+04.01.2017
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+102016000646958
+上海东软载波微电子有限公司
+沈力为
+G06F 11/22
+Loading...
+一种芯片内部寄存器的校验电路及芯片，所述校验电路设置在芯片内部，所述校验电路包括：第一校验单元、第二校验单元、比较电路以及反馈信号生成电路，其中：第一校验单元，适于对接收到的理论校验值进行第一校验运算，并当得到的第一校验结果与接收到的第一校验值不相等时，向反馈信号生成电路发送第一触发信号；第二校验单元，适于对写入寄存器组的配置数据进行校验，生成实际校验值；比较电路，适于将实际校验值与理论校验值进行比较；反馈信号生成电路，适于当实际校验值与理论校验值不同时，或接收到第一触发信号时，生成反馈信号并最终发送至上位机。上述方案能够提高对芯片内部寄存器的校验效率，提高校验结果的可靠性。
+10. 106301716 数据发送端及方法、数据接收端及方法和数据传输系统
+CN
+04.01.2017
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+201510240235.2
+上海东软载波微电子有限公司
+吴焜
+H04L 5/00
+Loading...
+一种数据发送端及方法、数据接收端及方法和数据传输系统，所述数据发送端包括：数据发送端启动电路、数据帧生成电路、数据发送端收发电路和数据发送端关闭电路。上述的方案可以节约数据传输过程中的软件资源。
+11. 106301360 鉴频鉴相器、电荷泵和锁相环电路
+CN
+04.01.2017
+H03L 7/18 Loading...
+H03L 7/18
+Loading...
+102015000281766
+上海东软载波微电子有限公司
+吕洁洁
+H03L 7/18
+Loading...
+鉴频鉴相器、电荷泵和锁相环电路，所述鉴频鉴相器包括：第一上升沿D触发器、第二上升沿D触发器、第一与门逻辑电路、第二与门逻辑电路和复位电路；所述电荷泵包括：第一控制开关和第一电流源、第二控制开关和第二电流源，以及充电补偿单元、放电补偿单元和控制装置。上述技术方案，通过鉴频鉴相器输出的信号对充电补偿单元或放电补偿单元进行控制，对电荷泵的充电电流和放电电流进行补偿，使得锁相环电路中鉴频鉴相器和电荷泵的传输曲线整体上移或者下移，从而可以提升锁相环的线性度。
+12. 106160933 Turbo码交织方法、装置及交织器
+CN
+23.11.2016
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+102015000170979
+上海东软载波微电子有限公司
+沈力为
+H04L 1/00
+Loading...
+一种Turbo码交织方法、装置及交织器，所述方法包括：获取当前业务对应的数据包长度，以及所述当前业务所对应的子载波数；根据所述数据包长度以及所述子载波数，计算对应的OFDM符号数；根据所述子载波数以及所述OFDM符号数，计算所述当前业务对应的交织参数；根据所述子载波数、所述OFDM符号数以及所述交织参数，计算对应的交织地址。采用所述交织方法、装置及交织器，可以有效地降低OFDM PLC通信系统中数据的误码率。
+13. 106034035 电力线通信网络广播通信方法及装置
+CN
+19.10.2016
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+102015000121534
+上海东软载波微电子有限公司
+孙德云
+H04L 12/18
+Loading...
+一种电力线通信网络广播通信方法及装置，所述通信方法包括：接收上一级传输节点发送的数据帧，对所述数据帧中的数据进行校验；当所述数据帧中的数据校验正确后，判断所述数据帧是否为广播帧；当所述数据帧为广播帧时，获取所述广播帧中的预设数值N，将所述预设数值N与预设固定值M进行比较，当N大于M时，将N更新为N‑1，并更新所述广播帧；在定时时刻到达时，将所述更新后的广播帧广播至下一级传输节点。采用所述方法及装置，可以减少电力线通信网络中的信息传输时延，提高广播信息传输可靠性。
+14. 105991013 电源系统保护电路
+CN
+05.10.2016
+H02M 1/32 Loading...
+H02M 1/32
+Loading...
+102015000063771
+上海东软载波微电子有限公司
+袁俊
+H02M 1/32
+Loading...
+一种电源系统保护电路，所述电源系统包括具有限流保护功能的芯片，所述芯片包括设置有功率管的输出级电路，所述电源系统保护电路包括：平均电流检测单元，与所述芯片的电源输入端耦接，适于获取输入到所述芯片的平均电流；峰值电流检测单元，与所述芯片输出级电路的输出端耦接，适于检测所述输出级电路中的功率管的峰值电流；控制单元，第一输入端与所述平均电流检测单元耦接，第二输入端与所述峰值电流检测单元耦接，输出端与所述输出级电路耦接，适于当所述功率管的峰值电流大于所述平均电流时，减少所述输出级电路的输入电流，以减小所述电源输出的平均电流。采用所述电源系统保护电路，可以更加有效地对芯片以及电源进行保护。
+15. 105894079 时钟加扰电路
+CN
+24.08.2016
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+102016000255899
+上海东软载波微电子有限公司
+陈诚
+G06K 19/073
+Loading...
+一种时钟加扰电路，包括：控制器以及时钟信号加扰电路，其中：所述控制器，与所述时钟信号加扰电路耦接，适于生成控制信号并输入至所述时钟信号加扰电路；所述时钟信号加扰电路，适于接收所述控制信号，对输入的时钟信号进行随机加扰处理。采用所述时钟加扰电路，可以提高安全芯片的抗攻击性能。
+16. 103728549 晶体振荡电路的测试方法及测试装置
+CN
+03.08.2016
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+102012000391704
+上海东软载波微电子有限公司
+郑玲玲
+G01R 31/28
+Loading...
+本发明提供一种晶体振荡电路的测试方法及测试装置。其中，该方法包括：采用至少一种模式，对所述晶体振荡电路中的反馈网络进行测试，获取所述反馈网络的反馈电阻阻值，对所述晶体振荡电路的输出端口的反向驱动力进行测试，获取反向驱动力参数值，并对所述晶体振荡电路中的基本运放电路的电压传输特性进行测试，获取电压传输特性参数值，其中，不同的模式用于对应不同外加时钟源；确定各模式下测试获得的反馈电阻阻值、反向驱动力参数值以及电压传输特性参数值是否均在对应的模式下的各参数取值的正常范围内；若是，则确定所述晶体振荡电路能够在与所述至少一种模式对应的外加时钟源下正常工作。
+17. 105717439 芯片测试方法及系统
+CN
+29.06.2016
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+102016000100952
+上海东软载波微电子有限公司
+周彦杰
+G01R 31/28
+Loading...
+一种芯片测试方法及系统，所述芯片测试系统包括：芯片夹具、测试板以及测试机，其中：芯片夹具，适于固定进行测试的芯片；对所述芯片进行测试操作，并将所述芯片生成的与所述测试操作对应的反馈信号转发至所述测试板；测试板，与芯片夹具电连接，适于向测试机发送自身的标识信号；以及接收所述反馈信号并转发至所述测试机；测试机，适于向测试板发送测试激励信号；选取与标识信号对应的测试程序段，并向测试板发送与所述测试程序段对应的测试操作信号；根据接收到的所述反馈信号判断芯片是否与所述测试板匹配；并当芯片与测试板不匹配时，向报警装置发出报警指令。采用所述方法及系统，可以避免芯片测试过程中出现混料。
+18. 105720932 自适应电源电压的功率放大器
+CN
+29.06.2016
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201410728085.5
+青岛东软载波科技股份有限公司
+崔健
+H03F 3/20
+Loading...
+本发明提供一种自适应电源电压的功率放大器，包括：电压比较模块将第一电源电压与多个参考电压中的每一个参考电压分别进行比较，得到多个比较结果，然后电流设定模块根据多个比较结果确定输出电流值，进一步的，线性跨导电路模块根据输出电流值确定输出级模块的栅极电压值，最后输出级模块根据所述栅极电压值输出对应的静态工作电流值。其中，电压比较模块可根据电源电压的不同值得到不同的比较结果，从而使得电流设定模块可以确定不同的输出电流值，最终使得线性跨导电路模块根据不同的电流值可以确定输出级的不同栅极电压，从而使得输出级输出不同的静态工作电流值，有效扩大的功率放大器的电源电压的范围。
+19. 105682295 LED控制电路
+CN
+15.06.2016
+H05B 33/08 Loading...
+H05B 33/08
+Loading...
+201610159996.X
+上海东软载波微电子有限公司
+黄增锋
+H05B 33/08
+Loading...
+一种LED控制电路，包括：控制器、第一开关电路以及第二开关电路，其中：所述控制器，适于当接收到色温调节信号时，根据所述色温调节信号计算对应的目标色温值，通过第一PWM信号输出端输出与所述目标色温值对应占空比的第一PWM信号，通过第二PWM信号输出端输出第二PWM信号，且所述第一PWM信号与所述第二PWM信号互补；所述第一开关电路，与所述第一PWM信号输出端以及冷光LED阵列的控制端耦接；所述第二开关电路，与所述第二PWM信号输出端以及暖光LED阵列的控制端耦接。采用所述LED控制电路，可以实现对LED色温的简便调整。
+20. 105653105 触控芯片及其数据采集方法
+CN
+08.06.2016
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201410648285.X
+上海东软载波微电子有限公司
+王江伟
+G06F 3/044
+Loading...
+一种触控芯片及其数据采集方法，所述触控芯片包括：N个感应引脚，适于接收触摸屏上的感应信号；M个模拟侦测通道，与M个感应引脚选择开关一一对应耦接，每一个感应引脚选择开关与一个或多个感应引脚可选择耦接，适于在一个时钟周期内选择一个感应引脚与对应的模拟侦测通道建立连接，1≤M
+21. 105654587 控制系统、无线遥控设备及配对的装置、方法
+CN
+08.06.2016
+G07C 9/00 Loading...
+G07C 9/00
+Loading...
+201511030375.3
+上海东软载波微电子有限公司
+孙德云
+G07C 9/00
+Loading...
+一种控制系统、无线遥控设备及配对的装置、方法，所述控制系统包括控制装置以及与之配对的无线遥控设备，其中：所述无线遥控设备，适于通过预先设定的专用通信信道发送无线信号，所述无线遥控设备与所述专用通信信道一一对应；所述控制装置，安装在执行主体上，适于当通过所述专用通信信道接收到所述无线信号时，从所述无线信号中读取控制信息，并控制所述执行主体执行与所述控制信息对应的操作。采用所述控制系统、无线遥控设备及配对的装置、方法，可以实现无线遥控设备对执行主体进行自动控制。
+22. 105591632 实时时钟生成方法及装置
+CN
+18.05.2016
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+201410568204.5
+上海东软载波微电子有限公司
+万峰
+H03K 3/02
+Loading...
+一种实时时钟生成方法及装置，所述实时时钟生成方法包括：采用低频计数器及高频计数器分别对晶体振荡器产生的低频脉冲及高频时钟产生的高频脉冲进行同步计数；当所述低频计数器计数得到的低频脉冲个数达到预设脉冲个数时，获取对应的所述高频计数器计数得到的第一高频脉冲个数，所述预设脉冲为所述晶体振荡器标称频率值对应的脉冲个数；获取当前温度下晶体振荡器的频率补偿值；根据所述预设脉冲个数、所述第一高频脉冲个数以及所述当前温度下晶体振荡器的频率补偿值，计算得到第二高频脉冲个数；当所述实时时钟接收到的高频脉冲个数为所述第二高频脉冲个数时，输出一个频率为1Hz的脉冲。采用所述方法及装置，可以更精确地输出频率为1Hz的脉冲。
+23. 205157615 一种电能计量潜动启动电路
+CN
+13.04.2016
+G01R 11/17 Loading...
+G01R 11/17
+Loading...
+201520781169.5
+上海东软载波微电子有限公司
+陈光胜
+G01R 11/17
+Loading...
+本实用新型公开了一种电能计量潜动启动电路，包括电流有效值与功率计算单元和潜动启动判定单元；潜动启动判定单元包括第一比较模块、第二比较模块和第三比较模块；第一比较模块输入视在功率值与功率比较阈值，当视在功率值小于功率比较阈值时输出1；第二比较模块输入有功功率值与功率比较阈值，当有功功率值小于功率比较阈值时输出1；第三比较模块输入电流有效值与电流有效值比较阈值，当电流有效值小于电流有效值阈值时输出1；第一比较模块和第二比较模块的输出接入与运算器，与运算器的输出和第三比较模块的输出接入或运算器，或运算器输出潜动判定信号。本实用新型通过功率法和电流有效值的有效结合满足精准的潜动和启动的需求。
+24. 105337625 信号调整电路及方法、接收机
+CN
+17.02.2016
+H04B 1/28 Loading...
+H04B 1/28
+Loading...
+201410301282.9
+上海东软载波微电子有限公司
+陶晶晶
+H04B 1/28
+Loading...
+一种信号调整电路及方法、接收机，所述信号调整电路包括第一电阻、第二电阻、第三电阻、第四电阻、第一电容、第二电容以及第一全差分放大器。本发明提供的接收机、信号调整电路及方法，能够调整信号的相位和幅度，减小I信号和Q信号间的幅度误差和相位误差，提高接收机的镜像抑制性能。
+25. 105337916 载波频偏的补偿方法及装置、接收系统
+CN
+17.02.2016
+H04L 27/26 Loading...
+H04L 27/26
+Loading...
+201410331048.0
+上海东软载波微电子有限公司
+沈力为
+H04L 27/26
+Loading...
+一种载波频偏的补偿方法及装置、接收系统。所述载波频偏的补偿方法包括：针对扫频范围内的各扫频频点，分别计算接收信号的信号强度指示值；所述扫频频点用于调整接收端本振信号的频率；基于所述信号强度指示值及其分别对应的扫频频点的频率值，确定载波频偏的估计值；基于所述载波频偏的估计值调整本振信号的频率，以实现对所述载波频偏的补偿。进一步，结合载波频偏细补偿方法，对如上所述的补偿后的载波频偏进行细补偿。在载波频偏较大的情况下仍可以有效对载波频偏进行估计和补偿，有效保证在低通滤波器小带宽工作模式下仍可以补偿大的载波频偏，提高接收机性能的同时有效扩展载波频偏补偿范围。
+26. 105163376 射频片上系统、控制方法及通信数据传输方法
+CN
+16.12.2015
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+201510547976.5
+上海东软载波微电子有限公司
+陈光胜
+H04W 52/02
+Loading...
+一种射频片上系统、控制方法及通信数据传输方法，所述射频片上系统包括：射频状态机以及微控制器，所述射频状态机与所述微控制器相耦接；所述微控制器配置成能够处于第一供电状态或第二供电状态，所述微控制器处于所述第一供电状态的功耗小于处于第二供电状态的功耗；所述射频状态机适于在启动后，控制所述微控制器的供电状态为第一供电状态。通过本射频片上系统、控制方法以及通信数据传输方法可以降低系统功耗。
+27. WO/2015/096368 PHASE-LOCKED LOOP FREQUENCY CALIBRATION CIRCUIT AND METHOD
+WO
+02.07.2015
+H03L 7/099 Loading...
+H03L 7/099
+Loading...
+PCT/CN2014/078264
+SHANGHAI EASTSOFT MICROELECTRONICS CO., LTD.
+LIU, Ruijin
+H03L 7/099
+Loading...
+A phase-locked loop frequency calibration circuit and a method, wherein the phase-locked loop frequency calibration circuit comprises: a timer, a counter, a control module, a frequency divider and a voltage-controlled oscillator. An output end of the voltage-controlled oscillator is connected to a first input end of the frequency divider. An output end of the frequency divider is connected to a first input end of the counter. A second input end of the frequency divider, a first input end of the timer and a second input end of the counter are connected to the a first output end of the control module respectively. A third input end of the counter is connected to an output end of the timer. An output end of the counter is connected to a first input end of the control module. A reference clock signal is input through a second input end of the timer and a second input end of the control module respectively. A number of clocks used by the frequency divider to perform frequency dividing on a clock signal output by the voltage-controlled oscillator is input from a third input end of the control module, which can reduce time taken to automatically calibrate an output frequency of the voltage-controlled oscillator.
+28. WO/2015/081666 CARRIER FREQUENCY OFFSET PROCESSING METHOD AND APPARATUS AND RECEIVER
+WO
+11.06.2015
+H04B 1/16 Loading...
+H04B 1/16
+Loading...
+PCT/CN2014/078261
+SHANGHAI EASTSOFT MICROELECTRONICS CO., LTD.
+SHEN, Liwei
+H04B 1/16
+Loading...
+The present invention provides a carrier frequency offset processing method and apparatus and a receiver. The carrier frequency offset processing method of the present invention comprises: receiving, by using a software/hardware interface, a packet frequency offset estimated value sent by an automatic frequency offset control module; collecting statistics on the received packet frequency offset estimated value, and calculating a carrier frequency offset statistical value between receiving and sending modules; and dynamically adjusting bandwidth of a low pass filter according to the carrier frequency offset statistical value by using the software/hardware interface. According to the present invention, a carrier frequency offset statistical value between receiving and sending modules is calculated, and bandwidth of a low pass filter is dynamically adjusted according to the carrier frequency offset statistical value by using a software/hardware interface, thereby implementing dynamic adjustment of bandwidth of a low pass filter in a signal receiving process of a receiver, and solving a problem of an effect on processing performance caused by fixed bandwidth of the low pass filter in the prior art.
+29. 204258738 自适应电源电压的功率放大器
+CN
+08.04.2015
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201420752550.4
+青岛东软载波科技股份有限公司
+崔健
+H03F 3/20
+Loading...
+本实用新型提供一种自适应电源电压的功率放大器，包括：电压比较模块将第一电源电压与多个参考电压中的每一个参考电压分别进行比较，得到多个比较结果，然后电流设定模块根据多个比较结果确定输出电流值，进一步的，线性跨导电路模块根据输出电流值确定输出级模块的栅极电压值，最后输出级模块根据所述栅极电压值输出对应的静态工作电流值。其中，电压比较模块可根据电源电压的不同值得到不同的比较结果，从而使得电流设定模块可以确定不同的输出电流值，最终使得线性跨导电路模块根据不同的电流值可以确定输出级的不同栅极电压，从而使得输出级输出不同的静态工作电流值，有效扩大的功率放大器的电源电压的范围。
+30. WO/2015/014104 LOW-NOISE AMPLIFIER AND CHIP
+WO
+05.02.2015
+H03F 3/45 Loading...
+H03F 3/45
+Loading...
+PCT/CN2014/070065
+SHANGHAI EASTSOFT MICROELECTRONICS CO., LTD.
+TAO, Jingjing
+H03F 3/45
+Loading...
+The present invention provides a low-noise amplifier and a chip. The amplifier comprises a bias circuit unit, a first amplification circuit unit, a first adjustment unit, a first signal input end, a second signal input end, and a first signal output end. The bias circuit unit comprises a first voltage output end and a second voltage output end. The first amplification circuit unit comprises a first N-type transistor, a first P-type transistor, a first output capacitor, a second output capacitor, a first impedor, and a second impedor. The first N-type transistor is connected to the first voltage output end and the first signal input end by means of the adjustment unit, and the first P-type transistor is connected to the second voltage output end and the first signal input end by means of the adjustment unit. The source of the first N-type transistor and the source of the first P-type transistor are connected to the second signal input end. The drain of the first N-type transistor and the drain of the first P-type transistor are connected to the impedors, and are respectively connected to the first signal output end and the second signal output end by means of the capacitors.
+31. WO/2014/206064 CRYSTAL OSCILLATOR
+WO
+31.12.2014
+H03B 5/32 Loading...
+H03B 5/32
+Loading...
+PCT/CN2014/070111
+SHANGHAI EASTSOFT MICROELECTRONICS CO., LTD.
+LIU, Ruijin
+H03B 5/32
+Loading...
+Provided is a crystal oscillator, comprising: a voltage stabilization unit, a transconductance unit, a feedback transistor, a resonant crystal, and at least two grounding capacitors. The voltage stabilization unit comprises a current source and a first branch, the first branch comprising a PMOS and an NMOS that are successively connected in series, the source of the PMOS being connected to an output end of the current source, the gate of the PMOS being connected to the drain of the NMOS, and the source of the NMOS being grounded. The transconductance unit comprises a second branch, the second branch comprising a PMOS and an NMOS that are successively connected in series, the source of the PMOS being connected to an output end of the voltage stabilization unit, the gate of the PMOS and the gate of the NMOS being both connected to an input end of the resonant crystal and one end of the feedback transistor, and the drain of the PMOS and the drain of the NMOS being both connected to the output end of the resonant crystal and the other end of the feedback transistor. The at least two grounding capacitors are separately connected at the two sides of the resonant crystal and grounded.
+32. 204044314 芯片自动测试装置
+CN
+24.12.2014
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201420498970.4
+上海海尔集成电路有限公司
+舒慧君
+G01R 31/28
+Loading...
+一种芯片自动测试装置，所述装置包括：进料台，适于将多颗待测芯片一次性送入导轨；导轨，第一端与所述进料台连接，适于接收所述进料台一次性送入的多颗待测芯片，第二端与出料台连接，适于将经过测试的芯片输出；阻挡部件，固定在所述导轨的入口，适于阻挡所述多颗待测芯片在重力作用下的滑动；控制器，适于控制所述阻挡装置移动以阻挡或释放所述多颗待测芯片；测试台，与所述导轨连接，适于对所述多颗待测芯片进行测试；出料台，适于接收经过所述测试台测试的多颗芯片，根据测试结果，将所述经过测试的芯片分类输出。采用所述芯片自动测试装置，可以缩短芯片的测试时间，提高芯片的测试产出效率。
+33. 104242990 电力线载波通信芯片
+CN
+24.12.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310254111.0
+上海东软载波微电子有限公司
+金江晓
+H04B 3/54
+Loading...
+本发明提供一种电力线载波通信芯片，包括MCU、控制模块、OFDM处理模块以及AFE；MCU与OFDM处理模块之间设有第一存储器，OFDM处理模块和AFE之间设有第二存储器；MCU，用于将发送数据发送至第一存储器；控制模块用于控制OFDM处理模块从第一存储器中获取发送数据，还用于控制AFE从第二存储器中获取调制处理后的发送数据；OFDM处理模块，用于从第一存储器中获取发送数据，并对发送数据进行调制处理后发送至第二存储器；AFE，用于从第二存储器中获取调制处理后的发送数据，并对调制处理后的发送数据进行数模转换后发送至与电力线载波通信芯片连接的耦合电路。本发明解决了现有技术中电力线载波通信芯片数据处理速率低的问题。
+34. WO/2014/180170 POWER LINE CARRIER COMMUNICATION METHOD AND APPARATUS
+WO
+13.11.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2014/070109
+SHANGHAI HAIER INTEGRATED CIRCUIT CO., LTD.
+ZHU, Mingjie
+H04B 3/54
+Loading...
+The present invention provides a power line carrier communication method and apparatus. The power line carrier communication apparatus receives a response message from a target device, and when the packet error ratio carried in the response message exceeds a preset value, the power line carrier communication apparatus sends a measurement command to the target device and obtains channel quality of the power line returned by the target device, the measurement command being used to give an instruction to measure the channel quality of the power line; the power line carrier communication apparatus performs calculation according to the channel quality of the current power line and the size of a data packet to be transmitted in the power line, to obtain transmission parameters for data packet transmission in the power line, and then transmits the data packet in the power line according to the transmission parameters. In this way, the transmission parameters for data packet transmission in the power line can be adjusted in real time according to the current channel quality, thereby improving the channel utilization and ensuring the success rate of the data packet transmission in a power line.
+35. 104143999 电力线载波通信方法和装置
+CN
+12.11.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201310167189.9
+上海东软载波微电子有限公司
+朱鸣杰
+H04B 3/54
+Loading...
+本发明提供一种电力线载波通信方法和装置。通过电力线载波通信装置接收的目标设备的响应消息，该响应消息中携带的误包率超过预设值时，电力线载波通信装置向目标设备发送测量命令，并获得目标设备返回的电力线的信道质量，该测量命令用以指示测量电力线的信道质量，并根据当前电力线的信道质量和电力线中准备传输的数据包大小进行计算，获得用于在该电力线中进行数据包传输的传输参数，接着，根据该传输参数在该电力线中传输数据包，从而可以根据当前的信道质量，实时的对用于在该电力线中进行数据包传输的传输参数进行调整，进而提高了信道的利用率，并保证了在电力线上进行数据包传输的成功率。
+36. 104111758 Capacitive touch screen and touch display
+CN
+22.10.2014
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201310135854.6
+上海东软载波微电子有限公司
+王晓辉
+G06F 3/044
+Loading...
+The invention provides a capacitive touch screen and a touch display. The capacitive touch screen comprises a substrate and a capacitance sensor. The capacitance sensor comprises a plurality of first electrodes and a plurality of second electrodes; the first electrodes are arranged in a first direction; the second electrodes are arranged in a second direction; the first electrodes and the second electrodes cross each other and are insulated; an adjacent area in which each first electrode and each second electrode cross each other form a sensing unit; the sensing units do not superpose; the first electrodes and/or the second electrodes in at least one sensing unit extend to the adjacent sensing units and generate mutual capacitance with the second electrodes or the first electrodes in the adjacent sensing units. The sensor sensing units in various sizes are applicable to the capacitive touch screen and the touch display, and sensing linearity and precision of the sensor in the capacitive touch screen can be improved.
+37. 203788280 电力线通信芯片及设备
+CN
+20.08.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201420160880.4
+上海海尔集成电路有限公司
+张伟
+H04B 3/54
+Loading...
+本实用新型提供一种电力线通信芯片及设备。本实用新型电力线通信芯片，包括：微控制器、编码器、调制器、解码器、解调器、模拟前端、数据恢复器、数据压缩器、数据解压器，微控制器与数据压缩器、数据解压器连接，数据压缩器与编码器连接，编码器与调制器连接，解码器与数据恢复器连接，数据恢复器与解调器连接，模拟前端分别与解调器和调制器连接。本实用新型电力线通信芯片通过采用由编码器、解码器、调制器、解调器、微控制器、模拟前端、数据恢复器、数据压缩器、数据解压器，提高了电力线通信芯片的处理能力，能够高效地解决各种时变干扰情况下传输误码率低的问题，提供了一种高传输有效性的电力线通信芯片。
+38. 203788281 电力线载波信号的解调电路及微控制器
+CN
+20.08.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201420164442.5
+上海海尔集成电路有限公司
+谷志坤
+H04B 3/54
+Loading...
+本实用新型提供一种电力线载波信号的解调电路及微控制器。本实用新型的电力线载波信号解调电路包括处理模块、滤波模块及解调模块；该滤波模块包括第一固定低通滤波单元、第一可调低通滤波单元；该处理模块与该第一固定低通滤波单元连接，将载波信号处理生成混频信号，并输出至该第一固定低通滤波单元；该第一固定低通滤波单元将该混频信号进行滤波，并输出至该第一可调低通滤波单元；该第一可调低通滤波单元与该解调模块连接；该第一可调低通滤波单元将该混频信号进行滤波输出至该解调模块；该解调模块根据不同的解调方式生成对应的解调信号。本实用新型提供的解调电路参数可配置，可对不同带宽、不同频率的载波信号进行解调处理。
+39. 103970117 MCU (microprogrammed control unit) chip detecting method and circuit
+CN
+06.08.2014
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201310037660.2
+上海东软载波微电子有限公司
+曾加
+G05B 23/02
+Loading...
+The invention provides an MCU (microprogrammed control circuit) chip detecting method and circuit. A voltage generation circuit 22 is used for providing test signals of voltage for IO (input and output) pins of an MCU chip to be tested at the output state via a sampling circuit 23 under control of a control circuit 21, so that the MCU chip to be tested can adjust electric signals outputted by the IO pins of the MCU chip to be tested according to the test signals. The sampling circuit 23 samples the electric signals outputted by the IO pins of the MCU chip to be tested, so that the control circuit 21 acquires the corresponding relation of voltage and current outputted by the IO pins of the MCU chip to be tested. Since load of the IO pins is changed by the control circuit 21 and the voltage generation circuit 22 and the control circuit 21 and the voltage generation circuit 22 are small in size, the technical problem that an MCU chip detecting circuit is large in size due to the fact that pin loads are changed by resistors different in resistance in the prior art is solved, and the MCU chip detecting circuit is smaller in size.
+40. 103970383 Capacitive-type touch screen contact positioning method and terminal
+CN
+06.08.2014
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201310047432.3
+上海东软载波微电子有限公司
+赵同炜
+G06F 3/044
+Loading...
+The invention provides a capacitive-type touch screen contact positioning method and a terminal. The capacitive-type touch screen contact positioning method includes acquiring a pressure value of each unit in a capacitive-type touch screen which is divided into multiple matrix units in matrix arrangement by driving lines and sensing lines; determining the unit where a contact is positioned according to the pressure values of the units; if the unit where the contact is positioned is an edge unit of the capacitive-type touch screen, determining coordinates of the contact according to a contact coordinate range corresponding to the unit where the contact is positioned and a proportion, of a sum of the pressure value of the unit where the contact is positioned and the pressure values corresponding to two units adjacent to the unit where the contact is positioned on the edge of the capacitive-type touch screen, in a set pressure value. By the capacitive-type touch screen contact positioning method, the problem of inaccuracy in coordinate positioning of contacts at edge areas of the capacitive-type touch screen in the prior art is solved.
+41. WO/2014/108048 APPARATUS FOR TESTING TOUCHSCREEN MODULE AND TOUCHSCREEN MODULE
+WO
+17.07.2014
+G01R 31/02 Loading...
+G01R 31/02
+Loading...
+PCT/CN2014/070108
+SHANGHAI HAIER INTEGRATED CIRCUIT CO., LTD.
+PAN, Song
+G01R 31/02
+Loading...
+Provided are an apparatus and method for testing a touchscreen module and the touchscreen module. The testing apparatus comprises: driving switches (A1, A2, …, An), separately connected in series between a driving line and a driving circuit (Drive 1, Drive 2, …, Drive n); sensor switches (K1, K2, …, Kn), separately connected in series between a sensor line and a sensor circuit (Sense 1, Sense 2, …, Sense n); a self-sensing capacitor (C); driving end capacitor switches (B1, B2, …, Bn), separately connected in series to the driving switches (A1, A2, …, An) and connected in parallel to a first end of the self- sensing capacitor (C); detection end capacitor switches (M1, M2, …, Mn), separately connected in series to the driving switches (K1, K2, …, Kn) and connected in parallel to a second end of the self- sensing capacitor (C); a control module, used to control the ON or OFF state of each switch according a preset path detection policy, and to control each driving circuit (Drive 1, Drive 2, …, and Drive n) to send a driving signal, and to determine any path fault of a signal line according to a sensor signal obtained by each sensor circuit (Sense 1, Sense 2, …, Sense n). The present touchscreen module testing apparatus and method, and automatic control of path detection by the touchscreen module based on existing functions of the control chip, improve working efficiency.
+42. 203661087 低压电力线通信的编码解码装置
+CN
+18.06.2014
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201320725220.1
+上海海尔集成电路有限公司
+陈光胜
+H04L 1/00
+Loading...
+本实用新型提供一种低压电力线通信的编码解码装置。本实用新型低压电力线通信的编码解码装置，包括编码装置和解码装置，编码装置包括编码模块、第一选择模块和第一输出模块；解码装置包括解码模块、第二选择模块和第二输出模块；编码模块包括R-S编码器、卷积码编码器和扩频码编码器；第一选择模块，与编码模块连接，用于从R-S编码器、卷积码编码器和扩频码编码器中任意选择至少两个组成编码器组；编码模块用于通过编码器组对原始数据进行编码；第一输出模块，与编码模块连接；解码模块包括R-S解码器、卷积码解码器和扩频码解码器。本实用新型与现有技术中使用扩频码编码和扩频码解码相比，既提高了通信的有效性，又提高了通信的可靠性。
+43. 203608198 OFDM电力线载波通信芯片
+CN
+21.05.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201320365508.2
+上海海尔集成电路有限公司
+潘松
+H04B 3/54
+Loading...
+本实用新型提供一种OFDM电力线载波通信芯片，包括：MCU、FIFO数据存储缓存器、物理层模块和AFE模块；AFE模块接收与电力线载波通信芯片连接的芯片发送的第一数据，对第一数据进行模数转换后输出至物理层模块，物理层模块对经过模数转换的第一数据进行解调后输出至FIFO数据存储缓存器中，MCU从FIFO数据存储缓存器中获取解调后的第一数据；或，MCU将第二数据存储至FIFO数据存储缓存器；物理层模块从FIFO数据存储缓存器获取第二数据进行调制后输出给AFE模块，AFE模块对调制后的第二数据进行数模转换后发送至与电力线载波通信芯片连接的芯片。本实用新型解决了现有技术中电力线载波通信芯片从系统存储器中读取或存储数据效率低的问题。
+44. 203445873 多相电力线载波通信装置
+CN
+19.02.2014
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201320425579.7
+上海海尔集成电路有限公司
+陈光胜
+H04B 3/54
+Loading...
+本实用新型提供一种多相电力线载波通信装置，所述装置与至少两相电力线对应相连的电力线耦合电路相连，所述装置包括：与每个所述电力线耦合电路对应相连的信号收发模块、与每个所述信号收发模块对应相连的调制解调器，以及与各所述调制解调器分别相连的用于根据通道工作参数协调控制各调制解调器的一个处理器。本实用新型所提供的多相电力线载波通信装置将多相电力线的载波通信通过一个处理器来实现，不仅完成了多相电力线通信的协调处理，实现了任意一相或多相电力线的实时通信，更重要的是提高了电力线载波通信装置的集成度，节省了芯片成本。
+45. 103529973 Gain adjustment method and gain adjustment circuit of touch screen controller
+CN
+22.01.2014
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+201210228913.X
+上海东软载波微电子有限公司
+潘松
+G06F 3/041
+Loading...
+The invention provides a gain adjustment method and a gain adjustment circuit of a touch screen controller. The gain adjustment method comprises the steps that according to any detection unit on a touch screen, the signal strength increment of a current frame is acquired, the signal strength increment is the difference of a signal strength reference value and the actual measurement signal strength value of the current frame, and the actual measurement signal strength value is obtained after gain processing is carried out according to the adjustable gain parameters of the current frame; the adjustable gain parameters of the current frame are adjusted according to the signal strength increment of the current frame to acquire the adjustable gain parameters of a next frame, and the adjustable gain parameters are used for carrying out gain processing on the actual measurement signal strength value to enable the actual measurement signal strength value after the gain processing to be close to a signal strength reference value. The signal strength increment is adjusted to be close to 0 so that automatic gain adjustment can be carried out on the actual measurement signal strength value of any detection unit, and meanwhile the difference of the detection signals, caused by touch movement, of the detection units is kept to acquire real touch information.
+46. 203241973 电容触摸屏和触摸显示器
+CN
+16.10.2013
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201320202154.X
+上海海尔集成电路有限公司
+王晓辉
+G06F 3/044
+Loading...
+本实用新型提供一种电容触摸屏和触摸式显示器，其中电容触摸屏包括基板及电容传感器，所述电容传感器包括多个第一电极和多个第二电极，各所述第一电极沿第一方向设置，各所述第二电极沿第二方向设置，所述第一电极和第二电极相互交叉且保持绝缘，每个所述第一电极和每个所述第二电极相互交叉的邻近区域构成感应单元，且各感应单元互不交叠；至少一个所述感应单元中的第一电极和/或第二电极延伸至相邻的感应单元，与所述相邻的感应单元中的第二电极或第一电极产生互感电容。本实用新型提供的电容触摸屏和触摸式显示器能够应用各种尺寸的传感器感应单元，并且能够提高电容触摸屏中传感器感应的线性度和精确度。
+47. 103326676 功率放大器
+CN
+25.09.2013
+H03F 3/20 Loading...
+H03F 3/20
+Loading...
+201210075015.5
+上海东软载波微电子有限公司
+沈良
+H03F 3/20
+Loading...
+本发明提供一种功率放大器，包括输出管、镜像管和过流管，其中，输出管的栅极连接至信号输入端，输出管的漏极连接至信号输出端，输出管的源极连接至恒压源；镜像管的栅极连接信号输入端，镜像管的源极经采样电阻连接至恒压源，且流过输出管源极电流为流过镜像管源极电流的设定倍数，镜像管的漏极连接至信号输出端；过流管的源极连接至恒压源，且采样电阻连接在过流管的源极和栅极之间，过流管的漏极连接至信号输入端。该功率放大器中设置有过流保护环节，当出现过流时，可自动限制输出电流的大小，实现过流保护的目的，并且，可降低电能的消耗，减小功率放大器对负载的输出功率的影响，可适用于大功率的负载中。
+48. 203178987 电容式触控装置和终端
+CN
+04.09.2013
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201320018370.9
+上海海尔集成电路有限公司
+周泱
+G06F 3/044
+Loading...
+本实用新型提供一种电容式触控装置和终端。该电容式触控装置包括：触摸区域和非触摸区域。该终端包括：本实用新型提供的电容式触控装置和控制器。本实用新型提供的一种电容式触控装置和终端，该触控装置中，用于连接各电极与终端的控制器的连接线设置在非触摸区域，避免了连接线对触摸区域中形成互电容的第一电极与第二电极的遮挡，进而可提高触控屏的透光性和光学均匀性。
+49. 103198002 程序运行时间的测量方法及仿真器
+CN
+10.07.2013
+
+
+
+201210004989.4
+上海海尔集成电路有限公司
+王珊珊
+
+
+本发明提供一种程序运行时间的测量方法及仿真器，其中仿真器包括软件部分和硬件部分。所述硬件部分包括：程序计数器和微控制单元；所述软件部分包括：模式设定模块、模式识别模块、执行控制模块、周期确定模块、软件计数器和时间运算模块。本发明采用软件计数器对机器周期进行计数累计，从而克服了计数溢出的问题；并且测量结果中不包含额外的通信时间和处理时间，因此测量的准确度更高。
+50. 202677359 电容式触控装置和终端
+CN
+16.01.2013
+G06F 3/044 Loading...
+G06F 3/044
+Loading...
+201220293553.7
+上海海尔集成电路有限公司
+夏青
+G06F 3/044
+Loading...
+本实用新型提供了一种电容式触控装置和终端，该装置包括：导电层11和走线层12。该终端包括：控制器1和本实用新型提供的电容式触控装置2。本实用新型提供的电容式触控装置和终端，用于感应触摸信号的感应区域与用于将感应区域和控制器连接的走线层不重叠，利用这种结构降低走线层对感应区域造成的干扰，能够更加准确的感应触控信号。
+51. 202632149 用于转换电压信号的装置
+CN
+26.12.2012
+G05F 3/26 Loading...
+G05F 3/26
+Loading...
+201220193512.0
+上海海尔集成电路有限公司
+沈良
+G05F 3/26
+Loading...
+本实用新型提供一种用于转换电压信号的装置，包括：电流提供电路，提供可调电流；第一电流镜像电路，将电流提供电路提供的电流镜像；电流镜像控制电路，接收0V或5V的电压信号，并且，当电流镜像控制电路接收的电压信号为0V时，控制第二电流镜像电路对第一电流镜像电路镜像的电流镜像，当电流镜像控制电路接收的电压信号为5V时，控制第二电流镜像电路关断；当第二电流镜像电路对第一电流镜像电路镜像的电流镜像时，镜像的电流流入第一调压电阻；当镜像的电流流入第一调压电阻时，第一端输出的电压信号为电源的电压VDD减去电流乘以第一调压电阻的阻值；当第二电流镜像电路关断时，第一端输出的电压信号为VDD。
+52. 102541745 Addressing method for data storage of microcontroller and microcontroller
+CN
+04.07.2012
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201010620014.5
+上海海尔集成电路有限公司
+赵启山
+G06F 12/02
+Loading...
+The invention provides an addressing method for a data storage of a microcontroller and a microcontroller. The method comprises the following steps of: decoding a command; obtaining a command operation code, an access enabling mark of a rapid data storage area and a low address value of a data storage area to be accessed, wherein the rapid data storage area is a continuous address space and at least comprises or is mapped with a special functional register; according to the enabling mark of the rapid data storage area, acquiring an address of the data storage area to be accessed; when the access enabling mark of the rapid data storage area indicates to access the rapid data storage area, combining a prestored high address value of the rapid data storage area, which is used as a high address value of the data storage area to be accessed, with the low address value of the data storage area to be accessed to obtain an address to be accessed. The microcontroller comprises an addressing circuit. The addressing circuit at least comprises a command decoding circuit and an address selecting circuit.
+53. 102193868 Data stack storage circuit and microcontroller
+CN
+21.09.2011
+G06F 12/06 Loading...
+G06F 12/06
+Loading...
+201010123197.X
+Shanghai Haier Integrated Circuit Co., Ltd.
+Shi Weidong
+G06F 12/06
+Loading...
+The invention provides a data stack storage circuit and a microcontroller. The data stack storage circuit comprises a data stack storage and a data stack control circuit which are connected with each other, wherein the data stack storage is connected to a data bus; and the data stack control circuit is connected to a control bus and is used for pushing data prepared for stack in the data bus into the stack top of the data stack storage according to a push operating signal in the control bus or ejecting data prepared for stack from the stack top of the data stack storage into the data bus according to a pop operating signal in the control bus. By adopting the data stack storage circuit and the microcontroller, the aim of completing push and pop operation through a command is fulfilled, and the execution efficiencies of push and pop operations on a data stack are increased.
+54. 102195677 Receiving circuit, transmitting circuit, microcontroller and power-line carrier communication method
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123198.4
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Hu Yajun
+H04B 3/54
+Loading...
+The invention provides a receiving circuit, a transmitting circuit, a microcontroller and a power-line carrier communication method. In the invention, the receiving circuit comprises an analogue amplifier, a receiving filter, an analogue-digital converter, a digital mixer, a digital filter and a digital demodulator which are all connected in sequence; the transmitting circuit comprises a digital modulator, a gain controller, a digital-analogue converter, a sending filter and a sending amplifier which are all connected in sequence; the microcontroller comprises a central processing unit, the receiving circuit or the transmitting circuit. The power-line carrier communication method can be implemented based on the receiving circuit or the microcontroller. According to the receiving circuit, the transmitting circuit, the microcontroller and the power-line carrier communication method provided by the invention, the defect that only one modulation or demodulation method can be applied in the traditional power-line carrier communication system is overcome, different modulation or demodulation methods can be adopted to process power-line carrier communication signals.
+55. 102195678 Power line carrier signal demodulation circuit and microcontroller
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123199.9
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Hu Yajun
+H04B 3/54
+Loading...
+The invention provides a power line carrier signal demodulation circuit and a microcontroller. The power line carrier signal demodulation circuit comprises a processing module, a demodulation circuit and a grating module, wherein the demodulation circuit is connected with the processing module; the grating module is connected with the processing module and provides a selection signal for the processing module; the modulation circuit at least comprises a first modulation unit and a second modulation unit; therefore, the problem that the power line carrier signal modulation circuit in the prior art has a single demodulation mode can be solved, and the power line carrier signal demodulation circuit disclosed by the prior art can support multiple demodulation modes, so that users can select demodulation modes flexibly, the use cost for users can be reduced effectively, and the use convenience for users can be improved.
+56. 102195680 Microcontroller as well as method and device for receiving and processing power line carrier (PLC) signal
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123203.1
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Wang Rui
+H04B 3/54
+Loading...
+The invention provides a microcontroller as well as a method and device for receiving and processing a power line carrier (PLC) signal. The method comprises the following steps: an analog mixer mixes the received PLC signal; an analog filter filters the mixed PLC signal; after analog-to-digital (A/D) conversion on the filtered PLC signal, a digital mixer mixes the PLC signal after A/D conversion; a digital filter filters the PLC signal mixed by the digital mixer; and a digital demodulator demodulates the filtered signal so as to obtain PLC data. The invention further provides the corresponding device and the microcontroller comprising the device. By utilizing the technical scheme, the received PLC signal is subjected to two-stage mixing treatment so that the carrier signals with arbitrary frequency can be modulated to an approximate fixed frequency, thus achieving the purpose of demodulating the carrier signals with arbitrary frequency transmitted on a power line.
+57. 102195679 Power line carrier modulation method, demodulation method, circuit and chip
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123201.2
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Cui Jian
+H04B 3/54
+Loading...
+The invention provides a power line carrier modulation method, a demodulation method, a circuit and a chip. The modulation method comprises the following steps of: detecting narrow-band nongaussian noise frequency in a power line; selecting non-noise frequency from a preset carrier frequency band as modulation carrier frequency; generating a modulation carrier according to the modulation carrier frequency; modulating a digital signal to be modulated to the modulation carrier to generate a power line carrier signal. By using the modulation method, the narrow-band nongaussian noise frequency can be avoided, the change of noise environment of the power line can be adapted, and the quality of power line communication can be improved.
+58. 102193860 Microcontroller online debugging circuit and method as well as microcontroller
+CN
+21.09.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201010123200.8
+上海海尔集成电路有限公司
+史卫东
+G06F 11/36
+Loading...
+The invention provides a microcontroller online debugging circuit and method as well as a microcontroller, wherein the microcontroller online debugging circuit comprises an interface protocol module, a breakpoint mark signal generating module comprising a program breakpoint signal generating unit, and a program execution control module connected with the breakpoint mark signal generating module for controlling the realization of online breakpoint debugging according to the breakpoint mark signal; the breakpoint signal generating unit further comprises at least a first breakpoint signal generating unit for generating the breakpoint signal according to breakpoint setting information; the breakpoint setting information is the information beyond a program breakpoint address value; the breakpoint mark signal generating module further comprises a breakpoint configuration register and a breakpoint combination logic module. The types of the breakpoints are added so as to enhance the functions of the breakpoints and effectively realize the breakpoint debugging method of the complex program.
+59. 102193776 Method for processing skip instruction and microcontroller
+CN
+21.09.2011
+G06F 9/32 Loading...
+G06F 9/32
+Loading...
+201010123204.6
+Shanghai Haier Integrated Circuit Co., Ltd.
+Shi Weidong
+G06F 9/32
+Loading...
+The invention provides a method for processing a skip instruction and a microcontroller. The method comprises the following steps that: a program storage stores the skip instruction, if the skip instruction is a double-byte skip instruction, the skip instruction comprises a first instruction word and a second instruction word, the first instruction word comprises a first operation code and a first address, and the second instruction word comprises a second operation code and a second address; when a controller writes the first instruction word into a first instruction register at the start of the current period, the second instruction word is written into a second instruction register; when the controller determines that the first operation code of the first instruction word is a double-byte skip instruction operation code, the controller writes the first address and the second address into a program counter; in the next period, the controller skips the current skip instruction in the program storage to a first instruction corresponding to a first target address according to the first target address, consisting of the first address and the second address, in the program counter; and the controller writes the first instruction into the second instruction register, so that the addressing capability and the execution efficiency of the skip instruction are effectively improved.
+60. 102195681 Demodulation signal gain control method and device and microcontroller
+CN
+21.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+201010123205.0
+Qingdao Eastsoft Communication Technology Co., Ltd.
+Wang Rui
+H04B 3/54
+Loading...
+The invention provides a demodulation signal gain control method and device and a microcontroller. The gain control method comprises the following steps of: acquiring the effective value of a demodulation signal in power line carrier communication; selecting one preset gain adjustment value from more than two preset gain adjustment values as an actual gain adjustment value according to a difference value between the effective value of the demodulation signal and a preset signal energy reference value, and generating a gain control signal according to the actual gain adjustment value; and sending the generated gain control signal to a gain amplifier so as to amplify or attenuate the demodulation signal. The invention also provides a corresponding device and a microcontroller equipped with the device. The demodulation signal gain control method and device and the microcontroller provided by the invention are adapted to the nonlinear time varying feature of channels in power line carrier communication, thereby realizing the accurate adjustment of demodulation signals in the power line carrier communication.
+61. 102195675 载波侦听方法、电路及微控制器
+CN
+21.09.2011
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+201010123202.7
+青岛东软载波科技股份有限公司
+崔健
+H04B 3/46
+Loading...
+本发明提供一种载波侦听方法、电路及微控制器，其中方法包括：将接收到的模拟信号进行模拟放大；将放大后的模拟信号进行模数转换生成数字信号；对所述数字信号进行解调生成解调信号；根据所述解调信号的幅度值计算所述解调信号的能量值；根据所述解调信号的能量值及预设能量范围确定增益倍数；根据所述增益倍数控制对所述接收到的模拟信号进行模拟放大时的放大倍数。本发明实现了对能量较小的电力线载波信号的侦听，扩展了应用环境。
+62. WO/2011/109963 MICRO-CONTROLLER, PROCESSING METHOD AND DEVICE FOR POWER LINE CARRIER SIGNAL RECEPTION
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073495
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+WANG, Rui
+H04B 3/54
+Loading...
+The present invention provides a micro-controller, a processing method and device for power line carrier signal reception, wherein, the method includes that: an analog mixer mixes the received power line carrier signals, and an analog filter filters the mixed power line carrier signals, the filtered power line carrier signals are processed by analog-to-digital conversion, and a digital mixer mixes the power line carrier signals after the analog-to-digital conversion, a digital filter filters the power line carrier signals which have been mixed by the digital mixer, a digital demodulator performs demodulation to obtain power line carrier data. The present invention also provides a corresponding device and a micro-controller including aforesaid device. The technical solution of the present invention can modulate carrier signals of any frequency to the neighborhood of a fixed frequency by processing the received power line carrier signals by two-stage mixing, thereby enabling to demodulate carrier signals of any frequency on power lines.
+63. WO/2011/109970 DATA STACK MEMORY CIRCUIT AND MICROCONTROLLER
+WO
+15.09.2011
+G06F 12/06 Loading...
+G06F 12/06
+Loading...
+PCT/CN2010/074117
+SHANGHAI HAIER INTEGRATED CIRCUIT CO., LTD.
+SHI, Weidong
+G06F 12/06
+Loading...
+A data stack memory circuit and a microcontroller are provided, the data stack memory circuit comprises a data stack memory and a data stack control circuit; the data stack memory is connected with the data stack control circuit; the data stack memory is connected to a data bus; the data stack control circuit is connected to a control bus; and the data stack control circuit is used to, according to a push operation signal in the control bus, push the data prepared to be pushed in the data bus into the top of the data stack memory, or is used to, according to a pop operation signal in the control bus, pop the data prepared to be popped from the top of the data stack memory to the data bus. This invention realizes the object of implementing the push and pop operations through instructions, and improves the executive efficiency of the push and pop operations for data stack.
+64. WO/2011/109971 CIRCUIT AND METHOD FOR MICROCONTROLLER ONLINE DEBUGGING, MICROCONTROLLER
+WO
+15.09.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+PCT/CN2010/074120
+SHANGHAI HAIER INTEGRATED CIRCUIT CO., LTD.
+SHI, Weidong
+G06F 11/36
+Loading...
+A circuit and a method for microcontroller online debugging and a microcontroller are provided. Wherein the microcontroller online debugging circuit includes: an interface protocol module, a breakpoint symbol signal generation module, which includes a program breakpoint signal generation unit; a program execution control module, which is connected with the breakpoint symbol signal generation module and used to control the realization of the online debugging breakpoint according to the breakpoint symbol signal. The breakpoint signal generation unit also includes: at least one first breakpoint signal generation unit used to generate the breakpoint signal according to the breakpoint setting information, the breakpoint setting information is the information except the program breakpoint address value. The breakpoint symbol signal generation module also includes a breakpoint configuration register and a breakpoint combination logical module. The circuit increases the types of breakpoints, enhances the function of breakpoints and realizes the breakpoint debugging method of complicated program effectively.
+65. WO/2011/109966 POWER LINE CARRIER SIGNAL DEMODULATION CIRCUIT AND MICRO CONTROLLER
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073512
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+HU, Yajun
+H04B 3/54
+Loading...
+A power line carrier signal demodulation circuit and a micro controller. The power line carrier signal demodulation circuit includes a processing module (12), a demodulation circuit (13) connected with the processing module (12), a multiplexer module (11) connected with the processing module (12) and providing a multiplexer signal to the processing module (12). The demodulation circuit (13) includes at least a first demodulation unit (131) and a second demodulation unit (132). The power line carrier signal demodulation circuit and the micro controller can support various demodulation modes, so that flexibly choices can be achieved by the users, the use cost can be effectively reduced, and the use convenience can be improved.
+66. WO/2011/109967 METHOD, APPARATUS AND MICROCONTROLLER OF DEMODULATION SIGNAL GAIN CONTROL
+WO
+15.09.2011
+H03G 3/20 Loading...
+H03G 3/20
+Loading...
+PCT/CN2010/073515
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+WANG, Rui
+H03G 3/20
+Loading...
+The present invention provides a method, apparatus and microcontroller of demodulation signal gain control. The method includes: obtaining the effective value of the demodulation signal in Power Line Carrier (PLC) communications; selecting one from two or more predetermined gain adjustment values as the real gain adjustment value according to the difference value between the demodulation signal's effective value and the predetermined signal energy reference value, and generating a gain control signal according to the real gain adjustment value; transferring the generated gain control signal to a gain amplifier to amplify or attenuate the demodulation signal. The present invention also provides a corresponding apparatus and a microcontroller which includes the apparatus. The method, apparatus and microcontroller of demodulation signal gain control provided in the present invention can adapt the characteristics of nonlinear time-varying channel existing in PLC communications, thus achieving an accurate adjustment on the gain of demodulation signal in PLC communications.
+67. WO/2011/109965 MODULATION METHOD, DEMODULATION METHOD, CIRCUIT AND CHIP FOR POWER LINE CARRIER
+WO
+15.09.2011
+H04B 3/54 Loading...
+H04B 3/54
+Loading...
+PCT/CN2010/073507
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+CUI, Jian
+H04B 3/54
+Loading...
+A modulation method, demodulation method, circuit and chip for power line carrier are provided. The modulation method includes: detecting a frequency of narrow band non-gauss noise in a power line; selecting a non-noise frequency from a preset carrier frequency band as a modulation carrier frequency; generating a modulation carrier with the modulation carrier frequency; modulating digital signals, which are to be modulated, on the modulation carrier, so as to generate power line carrier signals.
+68. WO/2011/109962 RECEIVING CIRCUIT, TRANSMITTING CIRCUIT, MICRO-CONTROLLER AND METHOD FOR POWER LINE CARRIER COMMUNICATION
+WO
+15.09.2011
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2010/073493
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY CO., LTD.
+HU, Yajun
+H04M 11/04
+Loading...
+A receiving circuit, a transmitting circuit, a micro-controller and a method for power line carrier communication are provided by the present invention. The receiving circuit includes an analog amplifier, a receiving filter, an analog-to-digital converter, a digital mixer, a digital filter, a digital demodulator connected successively. The transmitting circuit includes a digital modulator, a gain controller, a digital-to-analog converter, a transmitting filter and a transmitting amplifier connected successively. The micro-controller includes a central processing unit and a receiving circuit or transmitting circuit. The method for power line carrier communication can be implemented on the basis of the receiving circuit or micro-controller. The receiving circuit, the transmitting circuit, the micro-controller and the method for power line carrier communication provided by present invention solve the defect of supporting only one modulation or demodulation mode in the prior power line carrier communication system, and can process the power line carrier signal with different modulation or demodulation mode.
+69. WO/2011/109964 METHOD, CIRCUIT AND MICROCONTROLLER FOR CARRIER SENSE
+WO
+15.09.2011
+H04L 12/413 Loading...
+H04L 12/413
+Loading...
+PCT/CN2010/073506
+QINGDAO EASTSOFT COMMUNICATION TECHNOLOGY C0., LTD.
+CUI, Jian
+H04L 12/413
+Loading...
+The present invention provides a method, circuit and microcontroller for carrier sense. The method includes: performing analog amplification on the received analog signal; performing analog to digital conversion on the amplified analog signal to generate a digital signal; demodulating the digital signal to generate a demodulated signal; calculating the energy value of the demodulated signal according to the amplitude value of the demodulated signal; determining a gain multiple according to the energy value of the demodulated signal and a preset energy range; and according to the gain multiple, controlling the amplification multiple which is used when the analog amplification is performed on the received analog signal. The present invention enables the sense on the power line carrier signal which has less energy, and expands the application environment.
+70. WO/2011/109958 PROCESSING METHOD OF JUMP INSTRUCTIONS AND MICROCONTROLLER
+WO
+15.09.2011
+G06F 9/30 Loading...
+G06F 9/30
+Loading...
+PCT/CN2010/073310
+SHANGHAI HAIER INTEGRATED CIRCUIT CO., LTD.
+SHI, Weidong
+G06F 9/30
+Loading...
+A processing method of jump instructions and a microcontroller are disclosed. The method includes: a program memory stores a jump instruction, which comprises a first instruction word and a second instruction word if the jump instruction is a double-byte jump instruction, the first instruction word comprising a first operation code and a first address and the second instruction word comprising a second operation code and a second address; a controller writes the second instruction word into a second instruction register when the controller begins writing the first instruction word into a first instruction register in the current period; the controller writes the first address and the second address into a program counter when determining the first operation code of the first instruction word as a double-byte jump instruction operation code; the controller jumps the current jump instruction in the program memory into a first instruction corresponding to a first target address which is made up of the first address and the second address in the program counter in the next period; and the controller writes the first instruction into the second instruction register. The method improves the addressing ability and execution efficiency of jump instructions effectively.
+71. 101488082 Interpretation method and apparatus for sophisticated vocabulary microcontroller
+CN
+22.07.2009
+G06F 9/22 Loading...
+G06F 9/22
+Loading...
+200810032643.9
+Shanghai Haier Integrated Circuit Co., Ltd.
+Zhang Xiaoshi
+G06F 9/22
+Loading...
+The invention relates to a complex instruction set microcontroller decoding method and a device thereof. The method comprises the steps as follows: an instruction which is read in advance is sent to a first instruction register, and the instruction is decoded in advance to generate a function code which is effective within the whole instruction period; the instruction which is decoded in advance is sent to a second instruction register; first decoding is carried out on the instruction within the first clock period to generate the function code which is effective within a current machine period; and second decoding is carried out on the instruction within the third clock period of the current machine period or the first clock period or the third clock period of other machine period to generate the function code which is effective within the next clock period. The invention decodes respectively according to different time lengths for realizing function of an instruction code during different stages of an instruction array, thereby improving the decoding efficiency, reducing the machine period quantity for executing the instruction, reducing the operation time of the instruction and improving the executing speed.
+72. 101488100 Interruption system implementing method and device
+CN
+22.07.2009
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+200810032641.X
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 9/48
+Loading...
+The invention relates to an interrupt system realization method and a device thereof, wherein, the method comprises the steps as follows: an interrupt request is received, and the type of the interrupt request is judged; an interrupt vector table is referred to for obtaining the interrupt vector corresponding to the type of the interrupt request; and an interrupt service program corresponding to the interrupt vector is executed. The device comprises a receiving module, a reference module and an executing module. The interrupt system realization method and the device thereof realize the execution of the corresponding interrupt service program according to the type of the interrupt request by judging the type of the interrupt request, referring to the interrupt vector table, obtaining the interrupt vector corresponding to the type of the interrupt request and executing the interrupt service program corresponding to the interrupt vector, and overcomes the disadvantage that the interrupt processing manner is single, thus better optimizing the interrupt processing manner and ensuring that the resource of an interrupt system is brought into better play in the aspect of industrial control.
+73. 101458500 Microcontroller
+CN
+17.06.2009
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+200710172342.1
+Shanghai Haier Integrated Circuit Co., Ltd.
+Chen Liquan
+G05B 19/04
+Loading...
+The invention relates ot a microcontroller which includes a center process unit, a peripheral, a static RAM, an electronic erasable programmable ROM and a flash memory. The flash memory is equipped with a user program memory unit and an appliance programable unit connected with the center process unit through an appliance programable interface for storing user data. The microcontroller provided by the invention realizes function of electronic erasable programmable ROM in the flash memory.
+74. 101458652 Embedded on-line emulation debugging system for microcontroller
+CN
+17.06.2009
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200710172349.3
+Shanghai Haier Integrated Circuit Co., Ltd.
+Chen Liquan
+G06F 11/36
+Loading...
+The invention relates to an embedded type on-line emulation debug system of microcontroller, comprising a communication port control module for receiving an exterior debugging instruction and controlling the data communication between the system, the exterior host computer and the microcontroller; a status control module for outputting a corresponding debug instruction code generating instruction and a breakpoint control instruction based on the exterior debug instruction and performing the on-line emulation debug for the microcontroller based on the corresponding debug instruction code and the breakpoint; a debug instruction control module for generating the corresponding debug performing code based on the debug control instruction; a breakpoint monitoring and triggering module for triggering the corresponding breakpoint of the microcontroller based on the breakpoint control instruction. The invention has simple structure, high-efficiency operation effect and accurate real time monitoring, the invention can be integrated into different microcontroller chips to implement the real time monitoring, the debugging and the emulation control of the chip on the chip grade, the chip debugging capability based on embedded type microcontroller can be greatly improved.
+75. 101458725 Microcontroller chip and debug method thereof
+CN
+17.06.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200710172339.X
+Shanghai Haier Integrated Circuit Co., Ltd.
+Gu Zhikun
+G06F 17/50
+Loading...
+The invention relates to a microcontroller chip and a debugging method therefore. The chip comprises a central program, a debugging module and a debugging interface which are connected with each other, wherein the debugging model comprises a debug processing unit connected with the central processor and the debugging interface, and a track unit connected with the central processor and the debug processing unit for detecting track trigger conditions and recording corresponding address information. The debugging method comprises: in debugging, recording the corresponding address information of the track trigger conditions. The invention adds an internal track unit into the debugging module of the microcontroller chip, to overcome the technical problem that the prior debugging process not supports real-time track on the internal code flow of microcontrollers. The invention supports the real-time track and processing functions on the internal code flow of the microcontroller, and can inquire the history data of debugging process without stopping the microcontroller, thereby realizing flexible debugging process.
+76. 101354730 Simulation method of emulator chip
+CN
+28.01.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200710187208.9
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 17/50
+Loading...
+The invention provides a method for emulating a chip of an emulator. The chip of the emulator comprises an internal module of a microcontroller and an internal bus connected with the internal module, wherein the chip also comprises an external bus and a periphery circuit connected with the external bus; the internal bus and the external bus respectively switch the connection with the internal module of the microcontroller through a mode switching device, when the mode switching device switches the internal bus to the connection with the internal module of the microcontroller, the emulator works in the normal mode; and when the mode switching device switches the external bus to the connection with the external module of the microcontroller, the emulator works in a debugging mode, and the periphery circuit realizes the debugging to the internal module of the microcontroller. The method realizes the real time debugging and the real time emulation to the microcontroller, has better portability and has high use value on the exploration and the application of the chip.
+77. 201188218 微控制器
+CN
+28.01.2009
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200720199303.6
+上海海尔集成电路有限公司
+陈光胜
+G06F 11/36
+Loading...
+本实用新型涉及一种微控制器，包括：用于提供时钟脉冲信号的时钟端口；用于提供串行数据信号的数据端口；中央处理器；用于根据时钟脉冲信号和串行数据信号产生控制信号输出至中央处理器以控制其运行，并将接收到的中央处理器的调试输出结果输出至数据端口的在线调试单元，该在线调试单元与时钟端口、数据端口和中央处理器相连接。本实用新型通过内嵌的在线调试单元输出控制信号对CPU的运行直接进行控制，不需要CPU内部植入调试程序，仅依靠在线调试单元的硬件结构就可以完成在线调试，节省了CPU内部的存储空间，并且仅通过时钟端口和数据端口就可以完成调试数据和命令的输入，以及调试结果的输出，减少了微控制器的端口数目。
+78. 201188222 微控制器的指令加密装置
+CN
+28.01.2009
+G06F 21/24 Loading...
+G06F 21/24
+Loading...
+200720199305.5
+上海海尔集成电路有限公司
+张继文
+G06F 21/24
+Loading...
+本实用新型涉及一种微控制器的指令加密装置，包括：用于通过查询从数据线传输来的程序指令的加密标志位来判断所述程序指令是否要执行加密操作的第一判断单元；用于获取从所述第一判断单元输出的程序指令，并选取与要执行加密操作的程序指令的加密标志位的值相对应的加密方式对所述程序指令进行加密操作的加密单元，与所述第一判断单元相连接；所述判断单元与加密单元置于微控制器的内核内。本实用新型的微控制器提供的微控制器的指令加密装置，可实现对程序中的所有指令选择性加密，并且采用多种加密方式，使得密码被破译的可能性降低，提高密码保护的级别。
+79. 201177788 带有新型复位信号的微控制器
+CN
+07.01.2009
+G06F 1/24 Loading...
+G06F 1/24
+Loading...
+200720199304.0
+上海海尔集成电路有限公司
+岳卫杰
+G06F 1/24
+Loading...
+本实用新型涉及一种带有新型复位信号的微控制器，包括：内核和外设，通过总线相连接，还包括：通过输入的时钟信号可产生二级四段流水线同步时钟信号、通过输入的复位信号可产生同步、异步复位信号的时钟复位逻辑单元，所述时钟复位单元置于所述内核内部；用于对所述同步、异步复位信号进行滤波的复位信号滤波单元，与所述时钟复位逻辑单元相连接，置于所述内核内部；所述复位信号滤波单元的输出与所述内核和外设相连接。本实用新型的带有新型复位信号的微控制器提供的时钟复位逻辑单元及复位信号滤波单元，可以实现微控制器的复位信号具有较强的抗干扰能力，并可防止微控制器的误触发。
+80. 101299185 Microprocessor structural frame based on CISC structure and instruction realizing mode
+CN
+05.11.2008
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+200710187212.5
+Shanghai Haier Integrated Circuit Co., Ltd.
+Zhao Qishan
+G06F 9/38
+Loading...
+The present invention relates to a microprocessor structural frame and implementing mode thereof, which simplifies the numerous and jumbled instruction set of the CISC microprocessor, improves the built-in command implementing mode, separates the data lines and the command lines, so as to speed up the instruction processing velocity, and to make up the shortcomings of the CISC instruction set that the instruction set is numerous and the execution is inefficient. The instruction set is provided with 151 instructions, which supports various typical common instructions, including the data transferring exchange, the arithmetic logic operation, comparison, multiplication and division, shift, circulation, semi-byte operation, bit operation, jumping, call return, stack pushing and out-stack, soft interruption and blank instruction. At the same time, the microprocessor of the invention may be configured with the appropriate external resources; the microprocessor has a plurality of terminal ports, rich resources; the microprocessor can be applied to various types of real-time controlled embedded, SOC systems; the microprocessor has characteristic of high-speed, high-performance, low-power consumption, low noise, strong anti-jamming capability and the like, which is a microcontroller of consumer electronics products such as ousehold electrical appliances, civil communication and the like.
+81. 201145900 微控制器
+CN
+05.11.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200820054708.5
+上海海尔集成电路有限公司
+刘桂蓉
+G06F 15/78
+Loading...
+本实用新型涉及一种微控制器，包括程序存储器、数据存储器及指令缓冲寄存器，其中，所述程序存储器与数据存储器均连接有存储器配置模块，所述存储器配置模块用于从所述数据存储器中读取指令，并放入所述指令缓冲寄存器中。本方案通过存储器配置模块将数据存储器中的指令放入指令缓冲寄存器，使得微控制器中的中央处理器能够执行存储在数据存储器中的程序，从而使得程序能够写入数据存储器，从而减小了数据存储空间，扩大了程序存储空间，实现了微控制器中的程序存储空间与数据存储空间的动态调整。
+82. 201146021 带液晶显示驱动器的8位微控制器
+CN
+05.11.2008
+G09G 3/18 Loading...
+G09G 3/18
+Loading...
+200720309421.8
+上海海尔集成电路有限公司
+史卫东
+G09G 3/18
+Loading...
+本实用新型涉及一种带LCD驱动器的8位微控制器，包括相互连接的中央处理器、控制器和液晶显示驱动器，其中，所述液晶显示驱动器包括与所述控制器连接的用于配置液晶显示驱动器状态的配置模块和与所述配制模块连接的液晶显示驱动模块。本实用新型带LCD驱动器的8位微控制器通过液晶显示驱动器的配制单元对液晶显示驱动器进行状态配置，实现了配置驱动不同状态的LCD，避免了I/O端口的重复或闲置。
+83. 201146055 闪存微控制器
+CN
+05.11.2008
+G11C 16/30 Loading...
+G11C 16/30
+Loading...
+200820054710.2
+上海海尔集成电路有限公司
+岳卫杰
+G11C 16/30
+Loading...
+本实用新型涉及一种闪存微控制器，包括Flash存储器和外设单元，其中还包括：低电压检测单元，用于对系统电压进行检测，当系统电压低于预设的电压阈值时，发出LVD信号；滤波单元，用于对LVD信号进行滤波，当LVD信号的信号宽度大于预设的宽度阈值时，向内核单元发送LVD信号；内核单元，与Flash存储器和外设单元相连，用于当接收到LVD信号后，将Flash存储器中的用户程序区所对应的程序计数器的内容进行保持，并向外设单元发送复位或中断信号。通过本实施例所述闪存微控制器，由于对系统电压进行了监控，因此在受到EMC干扰或其他外部干扰的影响时，仍然能够保证Flash存储器及闪存微控制器的正常工作，从而提高了高集成度MCU的可靠性。
+84. 201145893 复杂指令集微控制器的译码装置
+CN
+05.11.2008
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+200820054711.7
+上海海尔集成电路有限公司
+张晓诗
+G06F 9/38
+Loading...
+本实用新型涉及一种复杂指令集微控制器的译码装置，包括存储预取的指令的第一指令寄存器，第一指令寄存器连接对所述指令进行译码，产生在整个指令周期内有效的功能代码的预译码模块，预译码模块连接存储从预译码模块中读取的指令的第二指令寄存器，第二指令寄存器连接在第一个时钟周期内对第二指令寄存器中的指令进行第一次译码，产生在当前机器周期内有效的功能代码的第一译码模块，第二指令寄存器还连接在当前机器周期的第三个时钟周期或者其他机器周期的第一个时钟周期或第三个时钟周期对第二指令寄存器中的指令进行第二次译码，产生在下一个时钟周期内有效的功能代码的第二译码模块。本实用新型提高了译码效率，减少了指令执行的机器周期数。
+85. 201145897 微控制器
+CN
+05.11.2008
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200820054709.X
+上海海尔集成电路有限公司
+岳卫杰
+G06F 13/40
+Loading...
+本实用新型涉及一种微控制器，包括内核部件，其中还包括：通信接口部件，用于根据来自于内核部件的控制指令发出通信选通信号和统一状态机信号；外设部件，用于根据统一状态机信号，发送或接收数据信号和寻址信号；第一多路选择器，用于根据来自于通信接口部件的所述通信选通信号，将数据信号和寻址信号发送给外设部件；第二多路选择器，用于根据通信选通信号，将来自于外设部件的数据信号和寻址信号发送给内核部件。通过本实施例所述微控制器，由于采用了通信接口部件对各个外设部件的通信进行了协调，因此，能够避免采用总线寻址方式时产生的总线冲突，提高了微控制器的可靠性和整体性能。
+86. 201142034 一种微控制器结构
+CN
+29.10.2008
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+200720198845.1
+上海海尔集成电路有限公司
+史卫东
+G06F 1/04
+Loading...
+本实用新型涉及一种微控制器结构，包括中央处理单元、用于存储内部RC振荡器调较程序以及精度调较值的程序存储器、用于调较内部RC振荡器输出时钟信号频率的调较单元、用于为CPU提供内部时钟信号的内部RC振荡器和用于控制内部RC振荡器接入电阻值的控制器；程序存储器与中央处理单元连接；调较单元与中央处理单元、内部RC振荡器和程序存储器连接；内部RC振荡器与中央处理单元连接；控制器与中央处理单元、调较单元和内部RC振荡器连接。本实用新型提供的一种8位带有用于调较单元的微控制器结构，可根据实际需求通过调较单元对内部RC振荡器的输出信号的频率进行控制，为中央处理器提供高精度时钟信号，减小频率误差，实现芯片的高精度控制。
+87. 201142071 8位闪存微控制器
+CN
+29.10.2008
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+200720198844.7
+上海海尔集成电路有限公司
+张晓诗
+G06F 12/14
+Loading...
+本实用新型涉及一种8位闪存微控制器，包括均与总线连接的一个8位微处理器、一个FLASH存储器、一个数据存储器、四个8位可编程的输入/输出并行端口、三个16位定时/计数器，一个中断嵌套单元、一个串行端口和一个特殊功能寄存器，所述微处理器上连接有一个时钟电路，所述微处理器和FLASH存储器之间还连接有加密解密单元，所述加密解密单元包括：一个加密种子接口电路，一个编程接口电路、分别与所述编程接口电路、加密种子接口电路和FLASH存储器连接的一个地址加密电路和一个数据加密电路，以及分别与所述微处理器和FLASH存储器连接的一个地址解密电路和一个数据加密电路。本实用新型明显增强了系统的保密性和安全性。
+88. 201126573 一种微控制器结构
+CN
+01.10.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720198846.6
+上海海尔集成电路有限公司
+刘桂蓉
+G06F 15/78
+Loading...
+本实用新型涉及一种微控制器结构，包括依次连接的用于对输入信号进行选择的多路选择器、用于对所述多路选择器选择的信号进行比较的比较器、用于对所述比较器的输出结果进行滤波的滤波器和中央处理单元；所述多路选择器与中央处理器之间连接有用于存储选择信号控制参数的第一寄存器。本实用新型提供的微控制器结构，通过对比较器的输出结果进行滤波处理，可防止外部信号的干扰，减少误码的产生，增加可靠性。
+89. 101246743 Flash memory interface
+CN
+20.08.2008
+G11C 16/10 Loading...
+G11C 16/10
+Loading...
+200710307038.3
+Shanghai Haier Integrated Circuit Co., Ltd.
+Yue Weijie
+G11C 16/10
+Loading...
+The invention discloses a flash interface, comprising: a data buffer, a first decoder, a first multi-channel selector, a first encryption module, a second multi-channel selector, a second encryption module, a judging module and a third multi-channel selector. The invention enriches the encryption ways of data to be programmed, realizes flexible encryption according to a user's requirement, and effectively guarantees the data safety of a Flash memory.
+90. 101221214 Microcontroller configuration interface
+CN
+16.07.2008
+G01R 31/317 Loading...
+G01R 31/317
+Loading...
+200710187209.3
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G01R 31/317
+Loading...
+The invention relates to a microcontroller configuration interface and comprises a shift register group, which is used for the shift input of serial data by a serial data wire when high voltage is input in a high voltage port; a mode code storage unit, which is used for storing a predefined operation method code; a comparator, which is connected with the shift register group and the storage unit, and used for comparing the input serial data with the operation method code predefined internally and selecting a corresponding operation method according to the comparing result; the operation method code comprises the operation code which is related to a storage interface and a testing interface. By configuring the interface circuit, the microcontroller configuration interface solves the compatibility problem of the operation methods for testing a chip, saves circuit area, leads the testing to be simpler, and simultaneously leads the testability design of the chip to be more reasonable.
+91. 101221494 Novel 8-digit RISC microcontroller framework
+CN
+16.07.2008
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+200710187213.X
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 9/38
+Loading...
+The present invention discloses a novel 8-bit RISC microcontroller framework, comprising a two-stage four-segment pipeline structure. The two-stage four-segment pipeline structure comprises an instruction processing device, a data readout device, a data operation device, a data writing device, a state machine and a clock generator. Due to the structure, clocks are not coupled crosswise; steady clocks can be generated for sure; the devices depend on and backup each other. The preprocessing and processing to data greatly improve the anti-interference ability of the structure, so as to realize high productivity.
+92. 201084099 低压监控电路及微控制器
+CN
+09.07.2008
+G06F 1/28 Loading...
+G06F 1/28
+Loading...
+200720177181.0
+上海海尔集成电路有限公司
+方贤贵
+G06F 1/28
+Loading...
+本实用新型涉及一种低压监控电路及微控制器，其中低压监控电路包括：控制寄存器；电源电压检测电路，其输入端连接电源，其控制端连接所述控制寄存器输出的控制信号；逻辑控制电路，其输入端连接所述电源电压检测电路输出的电压调节信号，其控制端连接所述控制寄存器输出的控制信号；微控制器包括互相连接的输入电源电路和上述低压监控电路；本实用新型提供的低压监控电路及微控制器，实现了电源电压过低时对系统进行复位处理，克服了复杂环境所引发的电源电压下降的问题，保护了微控制器系统。
+93. 201084148 比较电路和微处理器芯片
+CN
+09.07.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720177184.4
+上海海尔集成电路有限公司
+李浩沅
+G06F 15/78
+Loading...
+本实用新型涉及一种比较电路和微处理器芯片，该比较电路包括比较器，与比较器的输入、输出端分别对应电连接的输入输出接口模块；分别与比较器和输入输出接口模块电连接，用于控制输入输出接口模块与比较器输入端、输出端的切换连接，以及控制比较器工作模式的比较器配置寄存器。该微处理器芯片包括控制单元、控制总线和数据总线，其上集成有本实用新型的比较电路，各配置寄存器通过控制总线与微处理器芯片的控制单元相连，输入输出接口模块与数据总线相连。本实用新型的优势在于：比较电路集成度高、硬件结构简单，并且基于微控制器的配置寄存器，可扩展性和移植性强，能够适应实际应用中的不同需求。
+94. 201083993 一种微控制器
+CN
+09.07.2008
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+200720177185.9
+上海海尔集成电路有限公司
+岳卫杰
+G05B 19/04
+Loading...
+本实用新型涉及一种微控制器，包括：内核，包括中央处理单元、存储器、时钟发生器和指令预处理模块，其中，存储器包括程序存储器和数据存储器，程序存储器、数据存储器和时钟发生器均与中央处理单元相连，指令预处理模块与时钟发生器相连；一个以上外设单元，通过系统总线与内核相连；一个以上功能部件，通过控制总线与中央处理单元相连。上述微控制器具有较好的抗干扰能力、存储容量大、运行速度快，并且具有较完备的外设和大量功能部件，具有较好的灵活性和可靠性。
+95. 201084046 时钟产生电路及微控制器
+CN
+09.07.2008
+G06F 1/04 Loading...
+G06F 1/04
+Loading...
+200720183008.1
+上海海尔集成电路有限公司
+袁俊
+G06F 1/04
+Loading...
+本实用新型涉及一种时钟产生电路，包括用于选择时钟工作模式的配置寄存器、用于控制外部时钟工作模式的工作模式控制电路、用于连接外部时钟源的接口电路，还包括用于提供时钟的外部时钟源和/或内部时钟源；所述配置寄存器、工作模式控制电路、接口电路依次串联，所述外部时钟源与所述接口电路连接，所述内部时钟源与所述配置寄存器连接。还涉及一种包括上述时钟产生电路的微控制器。本实用新型通过设置微控制器的配置寄存器，选择不同的振荡模式，适用于多种时钟产生方式，且可实现兼容内部时钟源和各种外部时钟源。
+96. 201075218 一种8位精简指令集微控制器
+CN
+18.06.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720067382.5
+上海海尔集成电路有限公司
+刘桂蓉
+G06F 15/78
+Loading...
+本实用新型公开了一种8位精简指令集微控制器，其结构包括内核和外设。所述内核包括中央处理单元、FLASH程序存储器、SRAM数据存储器、时钟发生器、复位电路；所述外设包括输入输出端口、三路定时器、增强型捕捉/比较/脉宽调制模块、高速同步异步接收发送器模块、模/数转换器以及两通道模拟比较器和参考电压模块。本实用新型指令完备，外设丰富，降低了系统成本，提高了系统可靠性，增加了设计灵活性，使芯片功能大大增强。
+97. 201075216 一种8位微控制器
+CN
+18.06.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720067379.3
+上海海尔集成电路有限公司
+岳卫杰
+G06F 15/78
+Loading...
+本实用新型公开了一种8位微控制器，至少包括：内核、外设和特殊功能部件，其中，所述内核至少包括中央处理单元、时钟发生器、复位逻辑、程序存储器接口、静态数据随机存储器接口，所述中央处理单元至少包括程序存储器和静态数据随机存储器；所述特殊功能部件至少包括定时器、捕捉/比较/脉宽调制子模块、模数转换器；所述外设至少包括输入输出端口、高速串行外围接口、高速芯片间总线接口、高速同步异步接收发送器接口、高速异步接收发送器接口、高速并行通讯接口。所述微控制器集成度高，包括较完善的特殊功能部件和外设，易于微控制器的内部功能执行以及与外设进行通讯。
+98. 201075217 带程序加密的8位闪存微控制器
+CN
+18.06.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720067380.6
+上海海尔集成电路有限公司
+张晓涛
+G06F 15/78
+Loading...
+一种带程序加密的8位闪存微控制器，包括：一个8位的微处理器CPU，一个FLASH存储器，一个512字节的数据存储器RAM，四个8位的可编程的输入/输出并行端口，3个16位定时/计数器，1个具有6个中断源的中断嵌套单元，两个串行端口UART，一个特殊功能寄存器SFR，一个时钟电路；其中，时钟电路连接在所述的微处理器CPU上，其他的单元均与总线相连；还包括：一个连接所述的微处理器CPU与FLASH存储器的加密解密单元，以及一个与总线相连的在线调试单元。本实用新型克服了现有技术的不足，解决了微控制器程序不可加密，保密性差的问题。
+99. 101178702 Microcontroller
+CN
+14.05.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200710188207.6
+Shanghai Haier Integrated Circuit Co., Ltd.
+Cao Jianxiong
+G06F 15/78
+Loading...
+The invention discloses a microcontroller, comprising a module switching device. The module switching device is connected with a serial data interface, a CPU, an on-line debugger and an inner bus, and the module switching device is used for switching an emulation mode and a working mode, and transmitting the data signal inputted by the serial data interface into the inner bus. If switching into the emulation mode, the mode switching device leads the on-line debugger to acquire the control right of the inner bus by the controlling operation of the CPU and/or the on-line debugger,; and when switching into the working mode, the mode switching device leads the CPU to acquire the control right of the inner bus by the controlling operation of the CPU and/or the on-line debugger. The invention has the advantages of flexibly switching between the working mode and the emulation mode, decreasing the quantity of the terminals needed during the emulation debugging, and needing no emulation program in the CPU.
+100. 101178644 Microprocessor structure based on sophisticated vocabulary computerarchitecture
+CN
+14.05.2008
+G06F 9/318 Loading...
+G06F 9/318
+Loading...
+200610118274.6
+Shanghai Haier Integrated Circuit Co., Ltd.
+Zhao Qishan
+G06F 9/318
+Loading...
+The invention relates to a micro-processor architecture based on a complicated instruction set computer structure, comprising a program memory, a random data memory, a particular function register, a data buffer register, a common register, a data bus and an address bus, a memory interface, an operation and control module, an instruction reading and decoder and an instruction array control module. The data bus is divided into a separated eight-byte program data bus and an eight-byte inner random data bus. The invention is applicable to various embedded SOC systems for real time control, and can be widely applied in electric products such as home appliance, civilian use communication and car electronic.
+101. 201060393 一种8位在线调试微控制器
+CN
+14.05.2008
+G05B 19/00 Loading...
+G05B 19/00
+Loading...
+200720067383.X
+上海海尔集成电路有限公司
+陈光胜
+G05B 19/00
+Loading...
+本实用新型公开了一种8位在线调试微控制器，其结构包括内核和外设。所述内核其结构进一步地包括中央处理单元、数据存储器、程序存储器、时钟发生器和算术逻辑单元；所述外设进一步地包括I/O端口、复位电路、监视定时器、定时器、捕捉/比较/脉宽调制模块、模/数转换器、多种高速串行通信方式、模拟比较器、液晶显示驱动和可编程低电压检测。本实用新型扩展了芯片的程序和数据存储空间，提高了芯片集成度，增加了在线调试功能，从而扩大了芯片的应用领域。
+102. 101154207 Operating method for configured interface of microcontroller
+CN
+02.04.2008
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+200610116869.8
+Shanghai Haier Integrated Circuit Co., Ltd.
+Shi Weidong
+G06F 13/40
+Loading...
+The invention relates to an operation method of a configuration interface of a microcontroller, comprising the follow steps: when a high level is input into a testing port, a serial clock and a serial data are input through an I/O port, the serial data is compared with an operation method code which is internally set, a corresponding operation method can be accessed through the comparison of the effect. The invention also comprises a function testing operation method, a DC parameter testing operation method, a digit/analog conversion testing operation method, a program storage testing operation method, a parallel programming mode operation method and a serial programming mode operation method. The configuration interface operation method of the invention can be scalable, and can access a plurality of testing operation methods and working methods, the access of a chip to different testing or working operation methods becomes more easy.
+103. 101154183 Microcontroller built-in type on-line simulation debugging system
+CN
+02.04.2008
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200610116860.7
+Shanghai Haier Integrated Circuit Co., Ltd.
+Chen Liquan
+G06F 11/36
+Loading...
+The invention provides a microcontroller flush bonding on-line simulation debugging system, comprising a communication port control module, a state control module, a debugging command control module and a hardware breakpoint monitoring trigger module; the modules are collected into a chip through a special debugging command transmitted by a mainboard to control the work of the whole on-line simulation debugging system; complex boundary scan to the inside of the chip through a standard test boundary scan can be finished; the microcontroller chip is controlled according to an outer command to be converted into a debugging mode from a normal mode; a program can be downloaded and numerated from any position in a memorizer of the microcontroller through the debugging communication interface of the mainboard to support the target system single-step debugging and support software breakpoints and hardware breakpoints; the contents of a specific function register, a data memorizer and a program memorizer of the inside of the chip are checked and altered real-time; address bus and data bus are monitored, and the functions of real-time logical tracing, etc. are realized. The invention is of clear and simple structure, high-efficient operating effect and precise real-time monitoring.
+104. 101154212 Eight-digit compatible C51 instruction set microcontroller
+CN
+02.04.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200610116870.0
+Shanghai Haier Integrated Circuit Co., Ltd.
+Zhang Pengfei
+G06F 15/78
+Loading...
+The invention relates to a 8 bit compatible C51 index microcontroller which comprises a 8 bit high speed arithmetic logic component module, an arithmetic logic selection module, a 8x8 bit multiplication/division device, an internal data storage, a register interface module, a special function register, an index execution/direction register, an index state device, a breaking controller module, an index decoder, a program storage unit, a timer/counter module, an external port module, two serial interface modules, three 16 bit timers and one 16 bit watchdog timer; when the internal index is operated, the clock cycle used for each machine cycle is increased from the original twelve clock cycles to two clock cycles, the index operation speed can reach to six times of the prior 51 singlechip, the operation power consumption can be largely reduced, the function is complete, the performance is ideal, a wide application foreground can be obtained.
+105. 101154184 JTAG debugging method for microcontroller
+CN
+02.04.2008
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200610116868.3
+Shanghai Haier Integrated Circuit Co., Ltd.
+Gu Zhikun
+G06F 11/36
+Loading...
+The invention relates to a debug method of a microcontroller JTAG and is characterized by comprising the following steps: a TAP command is used to access a simulation debugging module through a configured JTAG interface and a debugging command is carried out, thereby reaching the aim of on-line simulation. The invention uses a standard JTAG agreement, the utility command is of expansibility, simpleness, strong portability, and can be used as a single module. Through the JTAG communication interface of the invention, the chip can be converted into a debugging mode from a normal mode; the contents inside SFR, RAM and GPR can be altered and checked real-time; the content of ROM is checked; the single-step operation of the target chip and the arrangement of breakpoints are supported; address and data bus can be monitored; the function of real-time tracing is realized.
+106. 201035573 一种闪存微控制器
+CN
+12.03.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720067381.0
+上海海尔集成电路有限公司
+岳卫杰
+G06F 15/78
+Loading...
+本实用新型提供一种闪存微控制器，包括：内核单元、外设单元，内核单元、外设单元通过总线相互通讯；所述内核单元包括CPU、时钟发生器、复位逻辑、存储器，所述外设单元包括输入输出端口、定时器、模数转换器；该闪存微控制器还包括功能部件单元，该功能部件单元至少包括低压检测及复位模块，该低压检测及复位模块通过总线与内核单元、外设单元通讯。本实用新型通过设置低压检测及复位模块、克服了复杂环境给电源系统带来的不稳定因素，能够稳定电源系统、保护负载，从而可以提高整个结构的抗干扰能力。
+107. 201021996 一种8位复杂指令集计算机微控制器
+CN
+13.02.2008
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200720067377.4
+上海海尔集成电路有限公司
+张晓诗
+G06F 15/78
+Loading...
+本实用新型公开了一种8位复杂指令集计算机微控制器，至少包括内核、外围功能模块、存储器、输入输出端口，其中，所述内核至少包括中央处理单元、系统时钟控制器、中断控制器、看门狗定时器；所述外围功能模块至少包括多功能定时器、同步串行通信接口、异步串行通信接口、模数转换器；所述存储器至少包括程序存储器、数据随机存储器；输入输出端口，上述各模块通过总线实现通讯。所述微控制器的存储器容量较大，并能提供丰富的外围功能模块。
+108. 200997135 内置通用同步异步收发器的微控制器结构
+CN
+26.12.2007
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200620047703.0
+上海海尔集成电路有限公司
+周渊
+G06F 15/78
+Loading...
+本实用新型公开了一种内置通用同步异步收发器的微控制器结构，包括各自分别与总线相连的内核、外设和特殊功能部件，所述的内核包括：时钟发生器、复位逻辑电路、存储器、算术逻辑单元分别与中央处理单元相连接，上述器件又分别与总线相连接；所述的外设包括：与总线相连的输入输出端口、8位6路模/数转换器，一路捕捉、三路定时器、比较和脉宽调制模块、通用同步异步收发器分别通过共用引脚数据线与总线连接；所述的特殊功能部件包括：器件配置位、片内上电延时复位、欠压复位逻辑、看门狗定时器、休眠模式，以上器件分别与总线连接。本实用新型抗干扰能力强、低系统成本、高可靠性、设计灵活。
+109. 200997136 内置比较器的微控制器结构
+CN
+26.12.2007
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200620047704.5
+上海海尔集成电路有限公司
+刘桂蓉
+G06F 15/78
+Loading...
+本实用新型公开了一种内置比较器的微控制器结构，包括内核、外设以及连接内核和外设的接口，其特征在于：所述的内核包括：时钟发生器、复位逻辑电路、存储器、算术逻辑单元分别与中央处理单元相连接，上述器件又分别与总线相连接；所述的外设包括：一路捕捉、三路定时器、比较和脉宽调制模块、通过共用引脚数据线与总线连接，同步异步接收发送器、两个模拟比较器和参考电压模块通过共用引脚数据线与总线连接，参考电压模块的输出与两个模拟比较器相连，16个输入输出端口分为两组分别与总线连接。本实用新型抗干扰能力强、低系统成本、高可靠性、设计灵活。
+110. 200990088 一种新型的8位RISC微控制器构架
+CN
+12.12.2007
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200620046589.X
+上海海尔集成电路有限公司
+张继文
+G06F 15/78
+Loading...
+一种新型的8位RISC微控制器构架，包括：内核、外设及特殊功能部件三部分，三部分通过系统总线相连接，其中内核，包括时钟发生器、复位逻辑、CPU(中央处理单元)的操作、ALU(算术逻辑单元)的操作、器件的存储器构成、中断操作和指令集；外设，包括输入输出端口(I/O)、三路定时器、两路捕捉、比较和脉宽调制(CCP)模块、串行外围接口(SPI)模块、芯片间总线IIC方式、通用同步异步收发器USART(SCI)、8位8路模/数(A/D)转换器、并行从动端口(PSP)；特殊功能部件，包括器件配置位、片内上电延时复位(POR)、欠压复位(BOR)逻辑、看门狗定时器(WDT)、休眠模式。本实用新型通过合理的设计，改善了系统架构，增加并调整了外围设备和特殊功能模块，解决了：1.提供一种新型的8位RISC微控制器构架，以使得指令不仅完备，而且能够相互备份，相互依靠，对数据进行预处理，从而提高整个结构的抗干扰能力；2.提供大容量的储存器，以使得芯片能够适应当前应用程序越来越大越来越复杂趋势的需要，从而提高芯片的使用范围；3.提供较完备的外设，以使得单片机能够更方便的与外部进行联系，并可执行内部任务；4.提供大量特殊功能部件，以使得降低系统成本，提高系统可靠性，增加设计灵活性。
+111. 200990087 一种8位精简指令集微控制器
+CN
+12.12.2007
+G06F 15/78 Loading...
+G06F 15/78
+Loading...
+200620046581.3
+上海海尔集成电路有限公司
+岳卫杰
+G06F 15/78
+Loading...
+本实用新型公开了一种新型的8位RISC微控制器构架，采用二级四段流水线、哈佛型结构，并集成了大容量的程序存储器和通用存储器，提供较完备的外设包括输入输出端口。本实用新型通过合理的设计，改善了系统架构，增加并调整了外围设备和特殊功能模块，使得传统控制器的不足之处有所改善。
+112. 200959589 一种8位RISC微控制器构架
+CN
+10.10.2007
+H02P 29/00 Loading...
+H02P 29/00
+Loading...
+200620046580.9
+上海海尔集成电路有限公司
+许漪
+H02P 29/00
+Loading...
+本实用新型公开了一种新型的8位RISC微控制器构架，其包含一个双速电机控制模块，所述双速电机控制模块包括电机驱动控制模块和电机电流检测模块，CPU通过总线与所速双速电机控制模块相连，通过控制寄存器控制所述双速电机控制模块的工作模式和工作状态，所述双速电机控制模块同时通过总线与输入输出端口相连，复用输入输出端口控制外围电路。本实用新型提高了芯片集成度，减少了微控制器开发周期和生产成本。
+113. 200953547 一种基于微控制器的比较电路
+CN
+26.09.2007
+H03K 5/24 Loading...
+H03K 5/24
+Loading...
+200620046582.8
+上海海尔集成电路有限公司
+李浩沅
+H03K 5/24
+Loading...
+本实用新型公开了一种基于微控制器的比较电路，该比较电路包括：比较器配置寄存器、输入输出接口电路、比较器单元、参考电压源电路。其中，参考电压源电路分别与输入输出接口电路、比较器单元依次成电路连接；比较器配置寄存器分别通过控制总线1、2和3控制输入输出接口电路选择单元对比较器单元的同相输入端和反相输入端进行选择、控制判断是否需要对比较器单元内的比较结果进行反相处理、控制选择比较器单元比较结果的输出端口。该方案使得将比较器设计在芯片内部成为一种可能，从而广泛应用于消费电子、通信、卫星定位和音频、视频等领域，满足了用户的不同需求。
+114. 200953545 一种基于微控制器的时钟产生电路
+CN
+26.09.2007
+H03K 3/00 Loading...
+H03K 3/00
+Loading...
+200620046587.0
+上海海尔集成电路有限公司
+袁俊
+H03K 3/00
+Loading...
+一种基于微控制器的时钟产生电路，至少包括用于提供时钟的时钟源，其特征在于，所述电路还包括用于连接外部时钟的接口电路、用于选择时钟工作模式的配置寄存器、用于控制外部时钟工作模式的工作模式控制电路、用于修正内部RC电路的频率的校正寄存器，所述时钟源包括用于提供外部时钟的外部时钟源和用于内部产生时钟的内部RC时钟产生电路。所述电路适用范围广，扩展性和移植性强。在合理搭配外围模块资源后，可集成到各种嵌入式系统、单片系统(SOC)中，被广泛应用于消费电子、通信、卫星定位、音频和视频等领域。
+115. 200953121 基于精简指令集微控制器的低压检测电路
+CN
+26.09.2007
+G06F 1/30 Loading...
+G06F 1/30
+Loading...
+200620046588.5
+上海海尔集成电路有限公司
+方贤贵
+G06F 1/30
+Loading...
+本实用新型是一种基于精简指令集微控制器的低压检测电路，包括：控制寄存器通过控制线分别与电源电压检测电路、滤波器和逻辑控制电路相连，所述电源电压检测电路、滤波器和逻辑控制电路通过控制线串接，所述的逻辑控制电路有两个信号输出端。本实用新型可集成到各种嵌入式系统、单片系统(SOC)中，广泛应用于消费电子、通信、卫星定位和音频、视频等领域，具有较低的制造成本以及广泛的通用性。
+116. 2862189 一种新型的8位RISC微控制器构架
+CN
+24.01.2007
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+200520044694.5
+上海海尔集成电路有限公司
+潘松
+G06F 9/38
+Loading...
+本实用新型公开了一种新型的8位RISC微控制器构架，其特征在于，二级四段流水线结构包括：指令处理装置；数据读取装置；数据运算装置；数据写回装置和时钟发生器。技术效果是：可使其各项时钟不交叉耦合，保证能够产生稳定的时钟，各装置间相互依靠、相互备份，而对数据的预处理和处理，又可使得该结构对于抗干扰能力有很大的提高，从而实现高生产良率。
+117. 2833703 一种基于RISC微控制器的串行通信口
+CN
+01.11.2006
+G06F 3/00 Loading...
+G06F 3/00
+Loading...
+200520044692.6
+上海海尔集成电路有限公司
+潘松
+G06F 3/00
+Loading...
+本实用新型一种基于RISC微控制器的串行通信口，将接口电路作为子模块电路，设计在芯片内部，通过设置微控制器的寄存器，来实现通信模块电路工作，通过通用输入输出端口达到通信的目的。通信模块电路的工作相对独立，操作方式简易方便，在合理搭配外围模块资源后，可集成到各种嵌入式系统、单片系统(SOC)中，广泛应用于消费电子、通信、卫星定位和音频、视频等领域。
+118. 1737766 Interrupt system realizing method
+CN
+22.02.2006
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+200510029283.3
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 9/48
+Loading...
+This invention relates to interval system realization method, which comprise the following steps: the said interval module receives the interval requirement and judges whether the requirement satisfy the valid permit, wherein, if yes, then converting the requirement into interval responding and system enters interval; if no, not generating interval responding. The method can make clear judgment and uses software to realize the priority to make the program simpler.
+119. 1737750 Novel 8 digit RISC micro controller frame
+CN
+22.02.2006
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+200510029281.4
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 9/38
+Loading...
+This invention discloses one new eight bit RISC micro controller frame, which is characterized by the following: the second degree four section streamline structure comprises order process device, data reading device, data computing device, data writing back device and clock generator. The technique achievements are ad following: making each clock non-crossing coupling to ensure the stable clock; each device relies on each other and to pre-process data to improve the structure to realize the high productivity.
+120. 1737770 Operation method for micro-controller configuration interface
+CN
+22.02.2006
+G06F 11/22 Loading...
+G06F 11/22
+Loading...
+200510029284.8
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 11/22
+Loading...
+This invention relates to one micro controller matching interface operation method, which comprises the following steps: when inputting high voltage from terminal, inputting series clock and data from general one; comparing the series data and inside operation method codes; entering relative operation method according to the result. The invention operation method can be explored to enter more test operation method to make chip into each test and working operation method.
+121. 1737776 Simulator chip and simulating method thereof
+CN
+22.02.2006
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200510029285.2
+Shanghai Haier Integrated Circuit Co., Ltd.
+Pan Song
+G06F 11/36
+Loading...
+This invention relates to one artificial chip, which comprises micro controller inside module and inside bus connected, wherein, the artificial chip is located with outside bus to connect outside circuit to micro controller inside module; the outside bus is connected to the inside bus ad mode switch device to switch outside bus ad inside bus with micro controller inside module.
+122. 1584824 Microprocessor frame based on CISC structure and instruction realizing style
+CN
+23.02.2005
+G06F 9/22 Loading...
+G06F 9/22
+Loading...
+03150402.7
+Haier Integrated Circuit Co., Ltd., Shanghai
+Liu Yanjun
+G06F 9/22
+Loading...
+A command realizing method of microprocessor based on CISC structure simplifies complicated instruction set of CISC microprocessor to beinstruction set with 151 commands which can support commands of data transmission and interchange, arithmetical logic operation, comparation, multiplication, division, displacement, circulation, nibble operation, position operation, skip, calling return, stack in and out, software interruption and idle operation.
+123. 1516001 New-type RISC pieline microcontroller structure and its operation method
+CN
+28.07.2004
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+03114784.4
+Shanghai Hair Group Integated Circuit Co. Ltd.
+Zhu Jian'guo
+G06F 9/38
+Loading...
+The present invention relates to a new-type RISC microcontroller frame, its core has two-level pipeline, and its adopts data memory and instruction memory separated Hafford-type structure, its access speed can be increased by once, its instruction set has 38 instructions, coding efficiency is high, it adopts pipeline structure, and it is easy to make instruction extension, said microcontroller frame can support low-power sleeping and wake-up mode, can support external interruption and support B port high-4-bit change interruption, and has strong interruption processing capacity, it can process 8-level interruption. Its data memory adopts single-port asynchronous low power consumption SRAM, storage depth is 256X8, can be extended to 2K, the program memory adopts embedded FLASH, storage depth is 4Kx16 bit, can be extended to 64 K bit, its addressing mode has direct addressing, indirect addressing and immediate number addressing mode, can be operated at DC-40 MHz.
+124. 2588451 8位新型构架微处理器以及使用该处理器的多用途芯片电路
+CN
+26.11.2003
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+02279941.9
+上海海尔集成电路有限公司
+朱建国
+G06F 9/38
+Loading...
+8位新型构架微处理器和以其为核心的片上系统多用途芯片电路。其核心采用两级流水线，哈佛型结构，指令集为35条，编码效率高，非常容易进行指令扩展，它还集成了众多外围器件如：液晶显示控制器和驱动电路，FLASH结构模数转换器，硬件看门狗，一个8位定标计时/外部计数器，两个16位定标定时，外部计数器，一路CCP(捕获/比较/脉宽调制)。支持低功耗睡眠和唤醒模式，支持外部中断，支持B口高4位变化中断，具有强大的中断处理能力，能处理八级中断。数据存储器采用单端口，异步低功耗SRAM，存储深度为256×8，程序存储器采用嵌入式FLASH，存储深度为4K×16位，寻址方式有直接寻址，间接寻址，立即数寻址等方式。片内有上电复位电路，22个双向口(可扩展)，采用LQFP封装，支持DFT设计，能在DC～40MHZ运行。该芯片可广泛应用于家电领域。
+

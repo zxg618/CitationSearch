@@ -1,0 +1,133 @@
+1. 103354647 移动通信系统中的邻区优化方法和装置
+CN
+12.04.2017
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310300471.X
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/02
+Loading...
+本发明涉及一种移动通信系统中的邻区优化方法和装置。所述方法包括如下步骤：S1、获取需要进行优化的服务小区与预先配置为其邻区的各小区的相关数据；S2、根据所述获取的相关数据划定服务小区的冗余邻区；S3、删除划定为冗余邻区的小区与服务小区的邻区关系。本发明的邻区优化方法和装置，以服务小区与预先配置为其邻区的各小区的相关数据或其组合为条件来划定服务小区的冗余邻区，并删除该冗余邻区与服务小区的邻区关系，从而提高了邻区配置的准确性，避免了服务小区将通话切换至邻区信号较差且容易造成掉话的冗余邻区，提高了服务小区的切换成功率，降低了移动台的掉话率。
+2. 102929929 一种数据汇总方法和装置
+CN
+14.09.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000356692
+深圳市网信联动通信技术股份有限公司
+王立
+G06F 17/30
+Loading...
+本发明提出一种数据汇总方法和装置。所述方法包括如下步骤：S1、获取数据，并分类存入相应的数据文件中；S2、依据数据汇总需求生成至少一个数据汇总任务；S3、依据数据汇总任务之间的依赖关系执行每一个数据汇总任务，根据遍历数据文件得到的数据执行该数据汇总任务对应的操作，并在执行该数据汇总任务结束后释放分配的内存。本发明的数据汇总方法和装置，依据数据汇总的需求生成多个数据汇总任务，并依据数据汇总任务之间的依赖关系来串行或并行执行每一数据汇总任务对应的操作，执行任务结束后即释放执行该任务时分配的内存，从而加快了任务处理速度，减少内存占用，避免内存溢出。
+3. 103298008 确定移动通信系统中的漏配邻区的方法和装置
+CN
+10.08.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+102013000263630
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/02
+Loading...
+本发明涉及一种确定移动通信系统中的漏配邻区的方法和装置。所述方法包括如下步骤：S1、获取在服务小区测量到的各个小区的电平值；S2、对获取的各个小区的电平值进行统计分析，选取满足预设的判决条件的小区为服务小区的候选小区；S3、将候选小区的小区标识与获取的预先定义为邻区的小区标识进行比较，并将与预先定义为邻区的小区标识不同的候选小区的小区标识判定为漏配邻区的小区标识。所述预设的判决条件包括以下至少一种：小区的测量次数与总采样次数的比例判决；小区的电平值判决；唯一小区判决。所述预设的判决条件还包括地理判决。本发明提高了确定漏配邻区的准确度。
+4. 103402226 Network element data analysis method and device for mobile communication network
+CN
+20.11.2013
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+201310325949.4
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/06
+Loading...
+The invention relates to a network element data analysis method and a network element data analysis device for a mobile communication network. The method comprises the following steps of S1, receiving range information of a working region selected on a displayed map interface by a user and acquiring relevant parameters of network elements in the working region; S2, generating a separate working space according to the working region and storing the range information of the working region and the relevant parameters of the network elements in the working region in the separate working space; S3, on the basis of an analysis model selected by the user, carrying out computational analysis on the data stored in the separate working space to generate an analysis result; and S4, loading the generated analysis result into the separate working space and generating a new label page to show the analysis result. According to the invention, repeated fussy calling on common resources is avoided and the data analysis speed and efficiency are improved; meanwhile, the showing effect of the analysis result is clearer and is convenient for the user to view.
+5. 103281705 一种WIFI站点选址方法及装置
+CN
+04.09.2013
+H04W 16/18 Loading...
+H04W 16/18
+Loading...
+201310207461.1
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 16/18
+Loading...
+本发明公开了一种WIFI站点选址方法及装置，所述方法包括：获取设定区域的网络中业务点的数据流量；将上述业务点的数据流量从大到小进行排序，确定数据流量排序在前N位的业务点，并计算所述N个业务点中每一个业务点的位置；根据所述N个业务点中每一个业务点的位置，将所述N个业务点聚合成M个业务热点区域；获取所述设定区域中的已有WIFI站点的区域信息；将获取的所述WIFI站点的区域信息与所述M个业务热点区域进行比较，判断所述M个业务热点区域是否已建有WIFI站点；根据比较结果，将未建立WIFI站点的业务热点区域确定为建立WIFI站点的区域。实施本发明的有益效果是，可利用2G网络或3G网络获取业务热点区域，为精确的WIFI建站提供依据，且简单、快速。
+6. 103249061 语音质量测试方法及系统
+CN
+14.08.2013
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+201310152553.4
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/00
+Loading...
+本发明公开了一种语音质量测试方法及系统，所述系统包括：第一测试终端和第二测试终端，所述第一测试终端和第二测试终端通过待测无线通信网络进行通信；其中，所述第一测试终端包括：第一资源调度管理模块、第一语音播放模块、第一语音录制模块、第一数据处理模块；所述第二测试终端包括：第二资源调度管理模块、第二语音播放模块、第二语音录制模块、第二数据处理模块。实施本发明的有益效果是，在测试过程中，减少测试资源之间的冲突、减少资源浪费，提高了资源的利用率；测试结果更加精确；自动执行测试任务，因此无需占用很多人力资源，提高了测试效率；且对于测试人员来说，操作方便，减小测试人员的测试复杂度。
+7. 103228005 移动通信网络数据业务的测试方法及装置
+CN
+31.07.2013
+H04W 24/08 Loading...
+H04W 24/08
+Loading...
+201310152545.X
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/08
+Loading...
+本发明公开了一种移动通信网络数据业务的测试方法及装置，所述测试方法包括：测试终端接收测试请求；根据所述测试请求中的标识与待测试的移动通信网络建立通信连接，并判断所述待测试移动通信网络是否空闲；若所述待测试移动通信网络为空闲，则获取所述待测试移动通信网络的测试数据；对所述测试数据进行格式处理并存储，将格式处理后的测试数据作为计算参考数据；计算所述计算参考数据与预设的阈值之间的差值，并将所述差值与预设的测试参数进行比较以获得测试结果。实施本发明的有益效果是，实现测试时的资源调度，减少资源间的冲突；测试数据更准确和完整，能对测试数据进行分析处理，且能够上传测试结果到指定的目的地；减小测试复杂度。
+8. 103200247 一种数据下载方法和PC下载客户端
+CN
+10.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310098694.2
+深圳市网信联动通信技术股份有限公司
+王立
+H04L 29/08
+Loading...
+本发明涉及一种数据下载方法和PC下载客户端。所述数据下载方法包括如下步骤：S1、PC下载客户端接收用户对数据下载方式的选择指令；S2、根据用户选定的数据下载方式生成相应的下载配置界面以接收用户输入的下载配置参数；S3、根据用户输入的下载配置参数采用选定的下载方式执行数据下载。本发明的通过PC下载客户端实现的数据下载方法，能够根据用户的选择来采用不同的数据下载方式，并能够根据用户输入的下载配置参数来执行不同的下载方案，因而能够通过一个下载工具很方便的从数据库和服务器下载所需要的数据。
+9. 103152755 Refined coverage adjusting method and device of cell signals
+CN
+12.06.2013
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201310066239.4
+深圳市网信联动通信技术股份有限公司
+王立
+H04W 24/02
+Loading...
+The invention relates to a refined coverage adjusting method and device of cell signals. The refined coverage adjusting method comprises the following steps of: S1, determining an area at which the signal intensity needs to be adjusted in a cell; S2, acquiring the signal intensity of the area at which the signal intensity needs to be adjusted; S3, determining the target signal intensity of the area at which the signal intensity needs to be adjusted after an antenna is adjusted according to the acquired signal intensity; S4, virtually adjusting configuration parameters and/or engineering parameters of the antenna according to a preset antenna adjusting scheme till the signal intensity, which is calculated by adopting a preset propagation model, of the area at which the signal intensity needs to be adjusted after the antennal is virtually adjusted, is equal to the target signal intensity; and S5, actually adjusting the configuration parameters and/or engineering parameters of the antenna according to the configuration parameters and/or engineering parameters, obtained during virtual adjustable, of the antenna. According to the refined coverage adjusting method and device, the signal intensity requirement can be met just by once adjusting, a great deal of manpower and materials are saved, and the adjusting time is shortened.
+10. 102968491 一种数据分配方法和装置
+CN
+13.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210490608.8
+深圳市网信联动通信技术股份有限公司
+王立
+G06F 17/30
+Loading...
+本发明涉及一种数据分配方法和装置。所述方法包括：S1、获取需要分析的多个数据；S2、依据数据分析需求确定用于划分所述需要分析的多个数据的字段；S3、针对每个数据，将步骤S2中确定出的字段对应的值与预先确定的计算结点的个数执行取模运算；S4、将所述需要分析的多个数据中取模运算后的值相同的数据分入同一计算结点。本发明通过简单易实现的取模算法将获取的多个数据分配到对应的终端或对应的线程进行处理，能够尽量的做到各个子任务所占数据的份额大致相同，使数据分配得更均衡，充分利用了数据处理终端的多核多线程计算能力，从而使得不同终端或不同线程分析处理数据的时间更接近，达到总的计算时间最少。
+11. 102819671 一种结合地图进行数据分析的方法
+CN
+12.12.2012
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201210259483.8
+深圳市网信联动通信技术股份有限公司
+王立
+G06F 19/00
+Loading...
+本发明涉及一种结合地图进行数据分析的方法，包括：a、以传入地图的指定点坐标为屏幕装载地图容器的中心，根据屏幕装载地图容器的宽度和高度计算出地图可视区域；b、根据计算得到的地图可视区域获取该地图可视区域对应的地图瓦片，拼接并显示获得的地图瓦片；c、基于用户的操作指令，对地图可视区域上用户选择的区域内的数据执行相应的分析处理。本发明的数据分析方法通过结合地图进行数据分析，能够更清楚、更形象地获知划定范围的数据的分析结果，并且，本发明的数据分析方法所提供的地图是由预先划分的多个瓦片拼接得到的，因此能够加快地图显示的速度。
+

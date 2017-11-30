@@ -1,0 +1,925 @@
+1. 106559582 一种VoLTE用户主观感知保障方法和系统
+CN
+05.04.2017
+H04M 3/22 Loading...
+H04M 3/22
+Loading...
+201510632610.8
+亿阳信通股份有限公司
+邓伟
+H04M 3/22
+Loading...
+本发明公开一种VoLTE用户主观感知保障方法，所述方法包括：获取用户真实的客观感知业务指标和各拨测任务的语音媒体流客观感知业务指标；获取各拨测任务和拨测任务的结果，结合所述拨测任务的语音媒体流客观感知业务指标，计算各音频编码格式的损伤参数；根据所述用户真实的客观感知业务指标，结合其对应的所述音频编码格式的损伤参数，获得并保存用户的主观感知损伤下降值；根据用户的投诉信息，为所述用户主观感知损伤下降值增加投诉标签，统计不同投诉数量，获取所述投诉数量和相应所述主观感知损伤下降值的关系曲线；设定用户投诉量容忍值，根据所述关系曲线获得所述用户投诉量容忍值所对应的主观感知损伤下降值门限，若用户的主观感知损伤下降值大于所述门限时，生成用户主观感知损伤告警。本发明还公开一种VoLTE用户主观感知保障装置。
+2. 106487529 一种PCC策略获取方法和装置
+CN
+08.03.2017
+H04L 12/14 Loading...
+H04L 12/14
+Loading...
+201510541104.8
+亿阳信通股份有限公司
+陈明德
+H04L 12/14
+Loading...
+本发明公开一种PCC策略获取方法，所述方法包括：获取用户的业务记录信息，并根据所述业务记录信息计算用户的业务实际使用带宽；存储所述各用户业务记录信息和其对应的实际使用带宽组成的业务记录数据，并为每条所述业务记录数据增加投诉标志位；获得业务质量投诉信息，并根据所述业务质量投诉信息，更改相应业务记录数据中的所述投诉标志位为投诉状态；针对各业务与流向，根据所述投诉标志位确定一定带宽区间的投诉数量，通过所述投诉数量和与其对应的实际使用带宽获得带宽关系曲线，根据所述带宽关系曲线获取与预先设定的投诉数量容忍值相应的PCC策略QoS值。本发明还公开一种PCC策略获取装置。
+3. 106301843 一种云平台保障系统及方法
+CN
+04.01.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510282635.X
+亿阳信通股份有限公司
+陈明德
+H04L 12/24
+Loading...
+本发明公开一种云平台保障系统，所述系统包括：信息采集单元，用于从云平台采集资源信息，所述资源信息包含资源配置信息、资源使用状态信息、资源告警信息；信息获取存储单元，用于存储所述信息采集单元采集的所述资源信息，根据云平台部署和所述资源配置信息获取并分别存储资源间关系；云平台保障单元，用于根据预设异常信息规则判定所述信息采集单元采集的资源信息中的异常信息，结合所述信息获取存储单元存储的资源间关系确定异常设备及资源，进而确定需迁移的异常资源；根据资源间关系和迁移规则确定无异常的目标迁移资源，将所述需迁移异常资源迁移至所述目标迁移资源上。本发明还公开一种云平台保障方法。通过本发明可实现隔离云平台的物理故障点，实现高效准确的云平台保障。
+4. 106304017 LTE网络用户移动性数据业务记录分析方法和装置
+CN
+04.01.2017
+H04W 8/02 Loading...
+H04W 8/02
+Loading...
+201510362892.4
+亿阳信通股份有限公司
+陈明德
+H04W 8/02
+Loading...
+LTE网络用户移动性数据业务记录分析方法，包括获取LTE网络的信令数据包和业务数据包，根据LTE协议分别对相同设备来源的所述信令数据包进行控制信息解析、对所述业务数据包进行业务信息解析；将所述解析的控制信息和所述业务信息依照其所属相同用户信息、小区、业务时间相同的原则和与其对应的所述业务数据包一同封装为移动性管理数据包；根据实际业务需求对相同用户的所述移动性管理数据包进行通用协议解析，获取用户的所述移动性业务数据信息；根据所述解析的控制信息将该用户的移动性业务数据信息合成并调整为完整的用户移动性业务使用过程记录。本发明还公开LTE网络用户移动性数据业务记录分析装置。通过本发明可实现根据LTE网络数据包准确分析出用户移动性数据业务记录。
+5. 106203505 一种利用手机定位数据判断用户移动与停留状态的方法
+CN
+07.12.2016
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+102016000539286
+北京工业大学
+赖见辉
+G06K 9/62
+Loading...
+本发明公开了一种利用手机定位数据判断用户移动与停留状态的方法，属于交通运输技术领域。以用户手机定位产生的连续轨迹数据，建立基于朴素贝叶斯分类器的移动或停留状态识别方法，具体包括：一是建立朴素贝叶斯分类器，利用一定量的训练样本，进行用户分类，计算移动和停留状态的概率以及发生停留或移动状态时特征参数值(方向夹角和最小覆盖圆直径)发生的概率；二是利用朴素贝叶斯分类器对手机定位数据进行移动或停留状态判别，首先进行异常数据过滤，根据数据的稀疏程度进行聚合与填补，然后进行用户分类，计算特征参数方向夹角和最小覆盖圆直径的值，最后利用建立好的朴素贝叶斯分类器，计算类别的条件概率，判断用户状态的类别归属。
+6. 105813092 一种基于话单的楼宇网络覆盖优化方法和装置
+CN
+27.07.2016
+H04W 16/18 Loading...
+H04W 16/18
+Loading...
+201410849474.3
+亿阳信通股份有限公司
+李辉友
+H04W 16/18
+Loading...
+本发明公开一种基于话单的楼宇网络覆盖优化方法对地理区域进行栅格划分，并将话单与所述地理栅格对应；通过所述栅格中所有的话单信息计算所述栅格的网络质量指标，根据设定的栅格质量门限值确定待优化栅格；根据数据库确定所述待优化栅格中是否包含楼宇信息；若所述待优化栅格中包含楼宇信息，则根据所述楼宇信息对所述楼宇网络覆盖质量进行分析优化；若所述待优化栅格中不包含楼宇信息，则对该栅格进行楼宇网络覆盖挖掘优化。通过本发明可实现简洁高效的楼宇网络覆盖分析优化。本发明还公开一种基于话单的楼宇网络覆盖优化装置。
+7. 105786918 基于数据载入存储空间的数据查询方法和装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000828712
+亿阳信通股份有限公司
+李艳平
+G06F 17/30
+Loading...
+本发明公开基于数据载入存储空间的数据查询方法，将存储空间划分为存储块，配置数据获取任务并配置所述数据获取任务与所述存储块的对应关系；根据所述配置的数据获取任务在与所述数据获取任务相应的存储块中创建数据存储数组；执行所述配置的数据获取任务获取数据，将所述获取的数据按照所述数据获取任务中配置的样式载入所述与其相应存储块中相应的存储数组，更新数据载入状态；根据所述任务执行状态直接执行数据查询任务，或，查询获得所述存储空间存储块中数据存储数组中的数据。通过本发明可实现高速高效的数据查询。本发明还公开了基于数据载入存储空间的数据查询装置。
+8. 105786919 一种告警关联规则挖掘方法和装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000828721
+亿阳信通股份有限公司
+刘旭东
+G06F 17/30
+Loading...
+本发明公开一种告警关联规则挖掘方法，根据设定的字段信息对现网告警进行去噪，并根据告警特征属性获取所述去噪告警的权重参数；对所述去噪告警进行分窗；构造事务数据库，以所述去噪告警作为项目，所述告警窗口作为事务，进而结合所述去噪告警的权重参数构造加权频繁模式树；根据所述加权频繁模式树获得加权频繁模式集；根据所述加权频繁模式集与其所有子集的关系获得所述加权频繁模式集中告警间的加权关联规则。运用本发明可实现告警关联规则的高效准确挖掘，本发明还公开一种告警关联规则挖掘装置。
+9. 105786917 时序数据并发入库的方法和装置
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000828696
+亿阳信通股份有限公司
+张涛
+G06F 17/30
+Loading...
+本发明公开时序数据并发入库的方法，获取所述时序数据中同类型数据的唯一标识，预设数据处理器数量，根据所述数据处理器数量和所述同类型数据唯一标识确定与该类型数据对应的所述数据处理器的名称序号；创建下标与所述数据处理器名称序号相应的队列数组存储空间，分别设定队列深度与数组长度；所述各数据处理器接收与其数据类型一致的时序数据，解析获取所述时序数据中的各属性和值，并将所述属性和值依次存入所述队列数组相应下标的存储位置中；当所述队列数组中的队列达到设定深度时，触发数据库接口获取所述队列数组中的所有数据并进行入库操作。通过本发明可实现时序数据的高效入库。本发明还公开了时序数据并发入库的装置。
+10. 105703934 一种面向家庭宽带业务的PON网络故障诊断方法和装置
+CN
+22.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410706925.8
+亿阳信通股份有限公司
+吴智辰
+H04L 12/24
+Loading...
+本发明公开一种面向家庭宽带业务的PON网络故障诊断方法，根据故障诊断经验配置各故障类别的故障诊断流程；根据用户的故障类别，选择与所述故障类别相应的故障诊断流程；进入所述选择的故障诊断流程，根据所述用户宽带业务账号获取该账号相应的设备信息和业务信息，开始依次执行所述故障诊断流程中的各个步骤；根据所述故障诊断流程的诊断结果到故障诊断知识库中获取相应的故障处理方法。使用本发明可有效地减少故障定位的时间，提高处理故障的效率。本发明还公开一种面向家庭宽带业务的PON网络故障诊断装置。
+11. 105636128 一种LTE小区异系统邻区获取方法和装置
+CN
+01.06.2016
+H04W 36/00 Loading...
+H04W 36/00
+Loading...
+201410706050.1
+亿阳信通股份有限公司
+张琪斌
+H04W 36/00
+Loading...
+本发明公开一种LTE小区异系统邻区获取方法，判断所述LTE小区与异系统小区是否存在共站小区，若存在共站小区则进入步骤A，若不存在共站小区则进入步骤B；步骤A：获取LTE小区与异系统小区的共站小区，根据所述共站小区的同向小区原有邻区、所述同向小区原有邻区的相关性、所述共站小区与LTE小区间距离范围获得所述LTE小区异系统邻区；步骤B：根据预设的与所述LTE小区间距离确定异系统周围小区，结合所述LTE小区和所述异系统周围小区的方向角与距离关系获得所述LTE小区异系统邻区。本发明还公开一种LTE小区异系统邻区获取装置。
+12. 105590230 一种户外广告精准投放系统和方法
+CN
+18.05.2016
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201410571463.3
+亿阳信通股份有限公司
+邓伟
+G06Q 30/02
+Loading...
+本发明公开一种户外广告精准投放系统，所述系统包括用户标签管理单元，用于根据电信系统采集上来的业务信息、用户信息、控制信息给用户添加标签并管理用户标签，所用户标签包含“时空标签”、“消费特征标签”；广告屏管理单元，用于根据用户标签管理单元添加的用户标签和广告屏信息确定用户、广告屏、时空、消费特征关联关系，根据所述关联关系获得广告播放策略；广告源管理单元，根据广告屏管理单元计算获得的广告播放策略获取相应的广告源发送给户外广告屏进行播放。通过本发明可实现户外广告的精准投放，本发明还公开一种户外广告精准投放方法。
+13. 105589982 基于符号模板导出设计图纸的方法和装置
+CN
+18.05.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410571619.8
+亿阳信通股份有限公司
+邓伟
+G06F 17/50
+Loading...
+本发明公开基于符号模板导出设计图纸的方法，预先根据资源属性和地物属性制作符号模板文件；获取资源管理系统中的资源对象集合并对其进行空间转换，根据所述符号模板文件和所述各资源对象的属性信息获得各资源对象所对应的资源符号对象；根据所述资源对象集合获取背景地图上的地物对象集合并对其进行空间转换，根据所述符号模板文件和所述各地物对象的属性信息获得各地物对象所对应的地物符号对象；将所述资源符号对象、地物符号对象和空间转换信息组合生成设计图纸文件。本发明还公开了基于符号模板导出设计图纸的装置。
+14. 105530227 一种接口数据传输方法和装置
+CN
+27.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410520242.3
+亿阳信通股份有限公司
+杨宁
+H04L 29/06
+Loading...
+本发明公开一种接口数据传输方法，所述方法包括获取并发布每种接口数据的数据描述信息和与所述各数据描述信息对应的唯一标识信息；确定所述每种接口数据中数据内容的传输格式；提取所述接口数据中的数据内容，依照与该种类接口数据对应的所述传输格式对所述数据内容进行传输；根据所述数据描述信息对应的唯一标识信息，将所述数据描述信息和所述接收到传输的数据内容组合成完整接口数据。使用本发明可实现接口数据高效快速的传输。本发明还公开一种接口数据传输装置。
+15. 103678726 Data complementary collection method and system
+CN
+26.03.2014
+G06F 17/40 Loading...
+G06F 17/40
+Loading...
+201210324126.5
+BOCO INTER-TELECOM CO., LTD.
+NING PING
+G06F 17/40
+Loading...
+The invention provides a data complementary collection method. By the adoption of the data complementary collection method, complementary collection of missing data of data collected by an existing data collection system can be achieved. According to the data complementary collection method and system, a collecting task observation point and a corresponding complementary collection strategy are preset for each collecting unit, target collecting unit information and collecting task information of each collecting task observation point are initialized, and a collecting task completion situation is recorded; when each collecting unit of the data collection system completes a corresponding collecting task, the task completion situation is written into a task completion situation record in the corresponding collecting task observation point; according to an abnormal collecting task completion situation and the corresponding preset complementary collection strategy, complementary collection is conducted on a data source. According to the data complementary collection method and system, through data provided by the collecting task observation points, an unsuccessful collecting link is judged, the step for the unsuccessful collecting link is directly executed, and therefore collection resources can be saved. The invention further provides a data complementary collection system.
+16. 103684828 Method and device for processing faults of telecommunication equipment
+CN
+26.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210346763.2
+BOCO INTER-TELECOM CO., LTD.
+YANG NING
+H04L 12/24
+Loading...
+The embodiment of the invention discloses a method and a device for processing faults of telecommunication equipment. The method comprises the following steps: constructing a fault template library comprising fault features according to fault information characteristics; constructing a fault processing solution library according to the fault processing experience, and describing a solution for positioning and solving equipment problems through a fault processing template; constructing a fault rule library for determining the fault processing template according to a fault feature condition in a fault template; acquiring fault information, and converting the fault information into a fault template format; resolving the fault feature comprised in the fault information, judging whether the fault feature conforms to the fault feature condition of the fault template in the fault rule library, if the fault feature conforms to the fault feature condition of the fault template in the fault rule library, determining the corresponding fault processing template, and executing the corresponding fault processing solution. According to the embodiment of the invention, the automation degree of the fault processing flow is increased, the working efficiency of a client processing the fault is improved, the process that a worker participates into processing of a work order is reduced, and the cost investment of the client is effectively optimized.
+17. 103679681 Method and device for analyzing wireless network interference
+CN
+26.03.2014
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201210326060.3
+BOCO INTER-TELECOM CO., LTD.
+TANG ZHUOYI
+G06T 7/00
+Loading...
+The invention discloses a method for analyzing wireless network interference. The method comprises the following steps: acquiring a frequency distribution support system analysis image of an original frequency distribution support system; performing interference characteristic peak processing on the original frequency distribution support system analysis image for N times respectively to acquire N corresponding processed frequency distribution support system analysis images, wherein N is a positive integral; extracting each processed frequency distribution support system analysis image edge through the edge algorithm respectively to generate a linear graph corresponding to each processed frequency distribution support system analysis image edge; performing matching operation on the linear graph of each generated frequency distribution support system analysis image edge and N standard interference images to acquire post-match results; determining the interference type according to the post-match results. Through the adoption of the method disclosed by the invention, the purpose of fast and automatic positioning of the interference type is realized.
+18. 103686780 Method and device for utilizing multiple data to perform comprehensive intelligent analysis
+CN
+26.03.2014
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+201210332941.6
+BEIJING BOCO INTER-TELECOM TECHNOLOGY CO., LTD.
+LUO CAIYAN
+H04W 24/02
+Loading...
+The invention discloses a method for utilizing multiple data to perform comprehensive intelligent analysis. The method comprises the following steps: establishing an analysis process template library based on a definition index library, an analysis node library and a problem judging experience library, using each analysis process template to analyze a network problem through setting combinations of analysis nodes related to the network problem; sequentially selecting network elements and indexes to be focused from the definition index library, setting filter conditions and time frames, analyzing the problem network elements meeting the filter conditions; then, executing the problem analysis process, for the filtered problem network elements, selecting one of the analysis process templates from the analysis process template library, according to the set analysis node sequence, invoking the corresponding problem judging processes from the problem judging experience library one by one, and obtaining the network problem conclusion. The invention further discloses a comprehensive intelligent analyzing device corresponding to the method. The method and the device for utilizing multiple data to perform comprehensive intelligent analysis can implement flexibly configured comprehensive analysis, and greatly improve the efficiency of network problem analysis.
+19. 103260180 一种告警关联的方法和装置
+CN
+21.08.2013
+H04W 24/04 Loading...
+H04W 24/04
+Loading...
+201210035856.3
+北京亿阳信通科技有限公司
+曹明远
+H04W 24/04
+Loading...
+本发明公开了一种告警关联的方法和装置，该方法为设置针对不同设备管理系统的不同信号类型产生的关键告警的告警规则；获取各不同设备管理系统上报的告警，对符合所述告警规则的关键告警进行拓扑关联处理，生成中间告警并记录该中间告警所关联的拓扑信息；将含有相同拓扑信息的所述中间告警进行再综合，生成最终告警。本发明解决了多个不同设备管理系统的不同信号类型上的各个告警无法进行有效关联处理的问题。
+20. 103246547 远程调用对象的方法和系统
+CN
+14.08.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201110451283.8
+北京亿阳信通科技有限公司
+张旭
+G06F 9/46
+Loading...
+本发明公开了一种远程调用对象的方法，包括：创建与各客户端对应的代理对象；利用该代理对象接收相应的客户端发出的调用命令，并将其转换成与客户端协议相适应的命令信息；将所述命令信息处理成统一数据类型调用命令；按照所述统一数据类型调用命令中的业务对象的名称定位所述业务对象，由该业务对象得到业务对象方法标签；利用该标签对业务对象方法进行调用。本发明同时还公开了一种远程调用对象的系统。本发明预先创建与各客户端相对应的代理对象，并通过将各客户端发送的命令信息按照客户端的协议转换后，进行归一化，由此可以支持来自多个客户端的命令信息，实现业务逻辑的复用，从而实现业务逻辑与接口的剥离，屏蔽了业务接口的专业性，可适配多个客户端，节约了工作人员的工作量，降低成本。
+21. 103186579 一种基于数据库函数的规则实现及应用的方法及装置
+CN
+03.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110451313.5
+北京亿阳信通科技有限公司
+商艳丽
+G06F 17/30
+Loading...
+本发明实施例公开了一种基于数据库函数的规则实现及应用的方法及装置，包括：根据规则应用需求，建立包括一个或多个规则关键要素的业务规则模型；建立符合所述业务规则模型的多个规则；将所述多个规则转化为规则描述语言，保存到规则库中；将所述规则库中的规则实现为对应的数据库函数；根据应用需求配置源数据与所应用规则的关联关系；获取用户输入的所述配置规则中关键要素的值，通过调用所述规则相关联的数据库函数执行所述规则，返回执行结果。采用本发明实施例公开的方法或装置，在基于数据库函数实现的规则引擎的实现结果上，将繁琐算法的实现借助于简单的数据库函数来实现，降低了规则引擎的开发难度，节省了成本，提高了规则处理的效率。
+22. 103188249 集中权限管理系统及其授权方法和鉴权方法
+CN
+03.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110460106.6
+北京亿阳信通科技有限公司
+付育哲
+H04L 29/06
+Loading...
+一种集中权限管理系统，包括授权单元、鉴权单元和人机交互界面，其中授权单元具体包括域控制器和资源管理器，域控制器进一步包括授权管理器和活动目录，在所述授权管理器上存有角色、操作及权限信息，所述活动目录上保存用户信息，资源管理器上存储资源信息，通过人机交互界面匹配用户、角色、资源三者的权限关系，达到集中授权的目的，通过鉴权单元提供的鉴权接口实现鉴权。基于域控制器中授权管理器和活动目录设计的集中权限管理系统，实现各系统的集中鉴权、解决统一登陆、分级分权访问和口令管理问题。
+23. 103186585 一种队列处理方法及装置
+CN
+03.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110451969.7
+北京亿阳信通科技有限公司
+张海洲
+G06F 17/30
+Loading...
+本发明实施例公开了一种队列处理方法和装置，其中，所述方法包括：确定操作类型、队列信息以及待处理数据的字节数；根据所述操作类型和队列信息按字节对所述待处理数据进行处理；所述操作类型包括将数据存储到队列、从队列中取出数据、从队列中复制数据或者将数据从队列中删除。本发明实施例所提供的方法对被操作数据的类型没有限制，无论对队列进行何种操作都是按字节进行的，抛开了现有技术队列处理过程中数据类型的概念，将所有的数据类型统一到字节上，使得用户可以根据实际需要灵活地确定待处理数据，为用户带来了极大的便利。
+24. 103186624 一种数据同步方法和数据同步装置
+CN
+03.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110457757.X
+北京亿阳信通科技有限公司
+王海清
+G06F 17/30
+Loading...
+本发明提供一种数据同步方法，用于将源数据库中的数据搬移到目标数据库中，其特征在于，包括如下步骤：当前时间是否等于或者晚于数据时间点加延迟时间；若是，则进入数据同步步骤；若否，则等待若干时间后，重新进行上述判断；数据同步，即将源数据库的数据搬移到目标数据库的对应位置；同时，记录所搬移的数据的条数；判断数据同步的条数是否大于当前的经验条数与预设的作为系数的阈值的乘积；若是，则搬移结束；若否，则等待预设的等候时长，然后返回数据同步的步骤；同时，记录累计的等候时长；根据本次数据同步记录的搬移数据条数，重新计算确定所述经验条数和延迟时间；回到开始步骤。
+25. 102571550 一种通用的信息交互平台和方法
+CN
+11.07.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010615125.7
+北京亿阳信通科技有限公司
+张毅
+H04L 29/08
+Loading...
+本发明公开了一种通用的信息交互平台，包括：注册与定制管理单元，用于注册或注销服务提供方能够提供的服务，根据业务需求和已注册的服务定制包含一或多个服务的服务包；服务请求处理单元，提供能够适配多种接口协议的接口；获得服务请求方接口信息，通过所述接口接收服务请求方的服务请求信息，从注册与定制管理单元查阅所述请求的服务包接口信息，将其和消息体分发至服务调用单元；服务调用单元，提供能够适配多种接口协议的客户端，根据收到的服务包接口信息选择适应服务提供方接口协议的动态客户端，通过动态客户端对服务提供方提供服务的接口地址调用，将收到的消息体发送给服务提供方。本发明实现了应用系统间便捷的信息交互，易于管理和维护。
+26. 102541529 Query page generating device and method
+CN
+04.07.2012
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010615211.8
+北京亿阳信通科技有限公司
+商艳丽
+G06F 9/44
+Loading...
+The invention discloses a query page generating device and method. The query page generating device comprises a data acquisition unit, a query object storage unit, a condition configuration unit, an instance storage unit and a query page generation unit, wherein the data acquisition unit is used for acquiring storage name information and storage field information of target data; the query object storage unit is used for storing the storage name information and the storage field information of the target data respectively; the condition configuration unit is used for configuring query fields, condition fields and query logic among the condition fields according to practical query demands; the instance storage unit is used for saving query conditions as query instances; and the query page generation unit is used for generating a query page according to the condition fields which are configured as query variables in the query instances stored in the instance storage unit. According to the query page generating device and method disclosed by the invention, different target data and different query demands can be queried; and when the query demands change, the query can be implemented by reconfiguring query statements or inputting new query conditions according to the generated query page, without changing complex codes, so that the purpose of recycling software is achieved.
+27. 102271394 Call-record-data-based mobile terminal positioning method and device
+CN
+07.12.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010189801.9
+BOCO Inter-Telecom
+Sun Fugang
+H04L 12/24
+Loading...
+The invention discloses a call-record-data-based mobile terminal positioning method and a call-record-data-based mobile terminal positioning device. The method comprises the following steps of: determining distances between a mobile terminal and base stations of each cell and the coverage of each cell according to cell information and delay information of each cell in the call record data of the mobile terminal to be positioned, and acquiring a set of positions of the mobile terminal in each cell; and positioning the mobile terminal according to the set of positions of the mobile terminal in each cell in combination with the common coverage of each cell and/or a movement trend line, obtained by the call record data of the mobile terminal, of the mobile terminal in the latest time bucket. In the method and the device, the participation of the coverage of the cell in the positioning is introduced, thereby narrowing the possible range of mobile terminal positioning; and simultaneously, the movement trend line is introduced to further position the terminal on the basis of utilizing the coverage of the cell to maximally ensure positioning accuracy.
+28. 102223646 Simulative division method and system for cell coverage
+CN
+19.10.2011
+H04W 16/18 Loading...
+H04W 16/18
+Loading...
+201010154176.4
+Beijing BOCO Software Research Institute Co ., Ltd.
+Huang Shuying
+H04W 16/18
+Loading...
+The invention discloses a simulative division method and a simulative division system for cell coverage. The method comprises the following steps that: after performing discretization on a target area, and then acquiring the coverage diagram of the cell through a free space of a single cell, the system acquires a combined coverage diagram of a plurality of cells; and the system performs vector processing on the acquired combined coverage diagram of the plurality of cells by means of boundary following and key point fitting to acquire the simulative division of the coverage corresponding to each cell. By using the invention, the problems that the conventional cell coverage simulative division algorithm based on Voroni diagram is low in accuracy, and a large amount of data is generated in the cell coverage simulative division based on field intensity are solved.
+29. 102118257 Method and device for remote monitoring maintenance
+CN
+06.07.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910216803.X
+Boco Inter-Telecom
+Wu Yanqin
+H04L 12/24
+Loading...
+The invention provides a method and a device for remote monitoring maintenance. The method includes the following steps: setting all managed network devices as monitoring objects; selecting and automatically connecting network devices needing to be monitored; automatically connecting network devices needing to be monitored; automatically checking the installation documents required for the operation of network devices needing to be monitored; according to the check of the installation documents, judging whether the installation documents of the network devices need to be updated; when updating is not needed according to the judgment, automatically checking the configuration documents of the network devices; according to the check result of the configuration documents, judging whether the configuration documents need to be modified and updated and if not, automatically analyzing the operability of the network devices; and according to the analysis result of operability, judging whether the network devices have operating conditions and if so, automatically monitoring the operating situation of the network devices.
+30. 102117520 Integrated circuit (IC) card-based payment method, management device, server and mobile terminal
+CN
+06.07.2011
+G07F 19/00 Loading...
+G07F 19/00
+Loading...
+200910217536.8
+Boco Inter-Telecom
+Li Pengfei
+G07F 19/00
+Loading...
+The invention provides an integrated circuit (IC) card-based payment method, a management device, a management server and a mobile terminal. The IC card-based payment method comprises the following steps of: receiving a payment request from a merchant server; generating a deduction request according to the payment request, and transmitting the deduction request to an IC card electronic wallet management server; receiving and storing deduction confirmation information generated after recording corresponding details of the deduction request by the IC card electronic wallet management server; generating a deduction instruction according to the deduction confirmation information, and transmitting the deduction instruction to the mobile terminal; receiving transaction prompting information generated after deduction from an IC card electronic wallet according to the deduction instruction from the mobile terminal, and storing the historic payment records of the IC electronic wallet; and generating transaction success information according to the transaction prompting information, and transmitting the transaction success information to the merchant server and the mobile terminal. By the IC card-based payment method, a consumer can perform various off-site payment transactions anytime anywhere, and great convenience is brought to the life of the consumer.
+31. 102118776 Verification method of setting accuracy for interoperation of adjacent cells with different communication modes and device
+CN
+06.07.2011
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+200910244586.5
+Beijing BOCO Software Research Institute Co ., Ltd.
+Qiu Ling
+H04W 24/02
+Loading...
+The invention provides a verification method of setting accuracy for interoperation of adjacent cells with different communication modes and a device. The method comprises the steps of: automatically acquiring related data of adjacent cells; verifying the consistency of the relation of the adjacent cells; verifying the consistency of the data of the adjacent cells and data of external cells; and giving out verified results and advices, wherein the related data of the adjacent cells comprises data of the adjacent cells, which are defined by a network side with a communication mode L, and are positioned in a network with a communication mode S, data of the adjacent cells, which are defined by a network side with a communication mode S and are positioned in a network with a communication mode L, data of external cells, which are defined by a network side with a communication mode L and are positioned in a network with a communication mode S and data of external cells, which are defined by a network side with a communication mode S and are positioned in a network with a communication mode L. By the method and the device provided by the invention, the data can be acquired automatically, and comprehensive verification is carried out automatically, so that the labor cost is greatly saved.
+32. 102118276 Method and device for providing performance alarm services
+CN
+06.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910244624.7
+Beijing Bright Oceans Software Institute Co., Ltd.
+Zhang Wen
+H04L 12/26
+Loading...
+The invention discloses a method for providing performance alarm services. The method comprises the following steps: defining data storage structures for a universal performance index object and a universal alarm regulation object; receiving configuration information about addition, deletion and alternation of key performance indexes and alarm regulations of network elements, and storing the configuration information as the universal performance index object and the universal alarm regulation object; establishing communication connection with a north interface of a data service provider, and collecting performance data related to the key performance indexes of the network elements; normalizing the collected performance data; calculating the values of the key performance indexes configured for the network elements; and judging whether the calculated values meet the configured alarm regulations or not, if so, generating a performance alarm. According to the invention, the flexible requirements of various network management systems can be met, that is, performance alarms can be customized according to the performance management needs of the systems; and also the requirements of the various network management systems, such as accessibility to universal performance alarm services and the expandability of supporting functions, can be met; and the establishment cost of the network management systems can be reduced for an operator.
+33. 102111307 Method and device for monitoring and controlling network risks
+CN
+29.06.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910265479.0
+BOCO Inter-Telecom
+Sun Dawei
+H04L 12/26
+Loading...
+The invention provides a method and device for monitoring and controlling network risks. The method is executed by a computer and comprises the following steps: step one, selecting the sample space of network objectives of some network element (NE), carrying out statistic analysis on the sample point data of the sample space, and calculating a dynamic baseline, wherein the network objectives comply with a normal distribution character; step two, according to preset tolerability and the dynamic baseline, determining the upper tolerance limit and the lower tolerance limit of the network objectives as early warning thresholds for triggering an early warning generating mechanism of the predictive network objectives; and step three, judging whether values of the predictive network objectives which are monitored and controlled in real time exceed the early warning thresholds; and if the values exceed the early warning thresholds, triggering the early warning generating mechanism. By realizing a dynamic threshold method, the threshold values can be set more reasonably and accurately, multiple early warning grades can be triggered, accurate monitoring and control for networks is reached, hidden failures in the networks are found, and finally after-event problem analysis of the prior art for the network failures is changed into initiative monitoring and controlling of the network objectives before problems generate, thus effectively ensuring the normal operation of the networks.
+34. 102111284 Method and device for predicting telecom traffic
+CN
+29.06.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910243569.X
+Beijing BOCO Software Research Institute Co ., Ltd.
+Zhang Jiangong
+H04L 12/24
+Loading...
+The invention provides a method and device for predicting telecom traffic. The method comprises the following steps: determining the prediction granulation of the telecom traffic; selecting a historical sample and a prediction sample; respectively calculating the growth rates and the initial values of the telecom traffics of the historical sample and the prediction sample by using a unary linear regression model; calculating the prediction traffics of the historical sample and the prediction sample; reading the actual traffic of the historical sample; and adjusting the second prediction traffic according to the deviation between the traffic of first prediction and the actual traffic to obtain the prediction traffic adjusted by a user. The behavior mode of the user is obtained through analyzing the deviation between the linear prediction value and the actual value in the historical sample, and accordingly, the linear prediction value of future telecom traffic data is adjusted to obtain more accurate telecom network traffic, thereby providing decision support for the user to plan, organize and manage network more accurately.
+35. 102088362 Collecting method and device of performance data
+CN
+08.06.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910242059.0
+Beijing BOCO Inter-Telecom Software Research Institute Co., Ltd.
+Li Peng
+H04L 12/24
+Loading...
+The invention discloses a collecting method of performance data, comprising the following steps: making collection allocation information according to the relevant information of known performance measuring items, wherein the collection allocation information defines the measuring items to be collected and (or) measuring sub-items which are more classified in details according to application requirements; obtaining measuring item names and values of the measuring item names matched with the collection allocation information from an equipment performance report file according to the syntax format of the equipment performance report file, and (or) measuring the sub-item names and the values of the sub-item names; establishing a measuring table and (or) a measuring sub-table according to the collection allocation information; filling the measuring items and (or) the measuring sub-item names and values which are obtained from the equipment performance report file into the established measuring table and (or) measuring sub-table for the performance data analysis of a network management system, so that an automated processing procedure from allocation, collection to storage is realized, and the technical scheme of obtaining things as required is provided. The invention further discloses a collecting device of performance data.
+36. 102025531 Filling method and device thereof for performance data
+CN
+20.04.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010256368.6
+Beijing Boco Inter-Telecom Soft-Ware Research Institute Ltd.
+Yu Yanhua
+H04L 12/24
+Loading...
+The invention provides a filing method and a device thereof for performance data, and the method comprises the following steps: getting a sequence of historical performance data records; detecting the internal association among different data items with specific relationship according to the sequence of the historical performance data records; establishing a regression model for mutual fitting for the associated data items with the internal association; and using the corresponding regression model to calculate estimation values of the data items in deletion according to the known values of the associated data items if the deletion of the data items occurs in the performance data records and filling the estimation values to the performance data records in deletion. The modeling method based on mathematical statistics and data mining technology is firstly applied in filling of the performance data in a network management system, thereby realizing scientification, intelligentization and automation of the filling method, not only effectively ensuring the accuracy of data filling, but also greatly improving the filling efficiency of the batch data in deletion.
+37. 101964998 Forecasting method and device of telephone traffic in ordinary holiday of telecommunication network
+CN
+02.02.2011
+H04W 24/06 Loading...
+H04W 24/06
+Loading...
+200910089575.4
+Beijing BOCO Inter-Telecom Soft-ware Research Institute Ltd. Company
+Yu Yanhua
+H04W 24/06
+Loading...
+The invention discloses a forecasting method and a device of telephone traffic in an ordinary holiday of a telecommunication network, wherein the method comprises the following steps: acquiring the history value of telephone traffic of the network as history sample data, pre-processing the history sample data and obtaining normal sample data; carrying out modeling and forecasting on the normal sample data by utilizing a forecasting model; utilizing a variance analysis method to carry out a significance test of difference of the telephone traffic in holidays and the telephone traffic at ordinary time on the normal sample data; if the difference of the telephone traffic in holidays and the telephone traffic at ordinary time is significant, carrying out correction on forecasting values of the forecasting model and obtaining a final forecasting value; or the forecasting value of the forecasting model is the final forecasting value. The invention also discloses a forecasting device of telephone traffic in an ordinary holiday telecommunication network, so the invention can carry out accurate forecasting on the telephone traffic in the ordinary holiday.
+38. 101945346 Method and device for automatically creating multimedia message
+CN
+12.01.2011
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+200910088004.9
+Beijing BOCO Inter-Telecom Soft-ware Research Institute Ltd. Company
+Zhang Dazhi
+H04W 4/12
+Loading...
+The invention discloses a method for automatically creating a multimedia message, which comprises the following steps of: receiving the basic information of a multimedia message to be made; making a multimedia message template according to the obtained basic information of the multimedia message; obtaining the individualized service data related to a multimedia message service object as the dynamic message content of the multimedia message if the multimedia message template comprises a dynamic message part of the multimedia message; and creating an individualized multimedia message adaptive to the multimedia message template automatically according to the multimedia message template. By customizing the multimedia message template, various requirements on customers for freely making the multimedia message according to demands can be met, the individualized multimedia message adaptive to the multimedia message template can be created automatically, and thus the working efficiency for making the multimedia message can be enhanced greatly. The invention also discloses a device for automatically creating a multimedia message.
+39. 101883015 Method and system for filtering construction alarms
+CN
+10.11.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910083170.X
+Beijing Yiyang Nobumichi Software Institute Co., Ltd.
+Wu Linying
+H04L 12/24
+Loading...
+The invention discloses a method for filtering construction alarms, which includes the following steps: collecting current construction implementation data information, and generating construction implementation objects according to defined construction implementation object classes; comparing construction implementation time ranges in the construction implementation objects with the current time, adding 'construction state' or 'non-construction state' construction identifiers on the construction implementation objects according to the comparison result, and storing the construction identifiers; and at the current time, filtering the alarm information generated by the construction implementation objects with the 'construction state' identifiers. The invention also discloses a system for filtering construction alarms, which is used for implementing the method. The invention can accurately add construction identifiers on construction implementation data and filter alarm information according to the construction identifiers, thus greatly increasing the efficiency and accuracy of construction alarm filtration.
+40. 101877695 System and method for controlling access right
+CN
+03.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910135891.0
+Yiyang Security Technology Co., Ltd.
+Tang Jianping
+H04L 29/06
+Loading...
+The invention discloses a system and a method for controlling an access right. The system comprises a login management unit and an agency and forwarding unit, wherein the login management unit is used for acquiring a network address of a user terminal, receiving a login request of a user account, acquiring the access right information of the user according to the login request and sending the network address and the access right information of the user terminal to the agency and forwarding unit; and the agency and forwarding unit is connected with the login management unit and used for forwarding a WEB application packet of the user terminal according to the network address and the access right information of the user terminal. The system and the method for controlling the access right of embodiment of the invention achieve the purposes of flexibly using different terminals and efficiently accessing a WEB application service system in a controlled mode on the premise of not changing network configurations, improve the safety management level of the WEB application service system and guarantee the user experience degree.
+41. 101877637 Single sign-on method and single sign-on system
+CN
+03.11.2010
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200910135890.6
+Yiyang Security Technology Co., Ltd.
+Tang Jianping
+H04L 9/32
+Loading...
+The invention discloses a single sign-on method and a single sign-on system. The single sign-on method comprises the steps of: receiving and authenticating a primary account name and a primary account password of a user; acquiring sub account names for all applications of the user after the user passes primary account authentication; generating a corresponding sub account password according to the sub account name selected by the user, and sending the sub account name and the sub account password to an application system corresponding to the sub account; receiving the sub account name and the sub account password which are forwarded by the application system, and generating a sub account authentication password according to the sub account name to authenticate the sub account password; and when the authentication is successful, completing the signing on to the application system. In the single sign-on method and the single sign-on system of the embodiment of the invention, secondary sign on authentication is realized by automatically generating the sub account passwords of all the application systems and filling out to all the application systems in a substitute way, thereby reducing the safety risks of application systems, caused by the disclose of all the application system passwords stored in a single sign-on platform, and also reducing the operation complexity.
+42. 101771466 Synchronous digital hierarchy (SDH) circuit fault diagnosing method and device
+CN
+07.07.2010
+H04B 10/07 Loading...
+H04B 10/07
+Loading...
+200810246646.2
+BOCO Software Institute Co., Ltd.
+Jia Yuewen
+H04B 10/07
+Loading...
+The invention discloses a synchronous digital hierarchy (SDH) circuit fault diagnosing method comprising the following steps of: obtaining original alarms of the equipment of all companies in a communication network; screening circuit fault characteristic alarms from the original alarms; obtaining circuit information influenced by the circuit fault characteristic alarms and position information of the circuit fault characteristic alarms according to the circuit fault characteristic alarms; judging by determining judgment rules of circuit faults according to the position information of the circuit fault characteristic alarms; and when the circuit fault characteristic alarms and the circuit information influenced by the circuit fault characteristic alarms accord with the judgment rules of the circuit faults, determining that a circuit is out of order. The invention also discloses a circuit fault diagnosing device. The invention can fast and automatically diagnose the circuit faults by utilizing the conventional alarms and resource libraries, prevent the lag of circuit fault processing, enhance the service quality and efficiency of a telecommunication network and ensure the normal operation of the telecommunication network.
+43. 101771758 Dynamic determine method for normal fluctuation range of performance index value and device thereof
+CN
+07.07.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810246647.7
+BOCO Software Institute Co., Ltd.
+Li Ping
+H04L 12/26
+Loading...
+The invention discloses a dynamic determine method for normal fluctuation range of performance index value and device thereof, the method comprises the following steps: obtaining the historical value of the network performance index, dynamically obtaining the latest historical sample data, preprocessing the latest historical sample data necessarily for using the latest historical sample data as training sample data; aiming at the training sample data, modeling is conducted through utilizing seasonal ARIMA model, and the best seasonal ARIMA model is determined; calculating the predictive value and normal fluctuation range of the to-be-predicted performance index through using the best seasonal ARIMA model. The advantages of the invention are as follows: the accuracy of the performance monitoring early-warning is greatly increased, and the mis-performance-warning and the miss-performance-warning are reduced. The invention also discloses a determine device for normal fluctuation range of performance index.
+44. 101772043 Office data checking method and device
+CN
+07.07.2010
+H04W 24/00 Loading...
+H04W 24/00
+Loading...
+200810247037.9
+BOCO Software Institute Co., Ltd.
+Yuan Zhanxue
+H04W 24/00
+Loading...
+The invention discloses an office data checking method and a device; the method comprises the following steps: setting a transformational rule by which the office data to be checked and standard office data are transformed into the office data which is to be checked and is in line with a reserved module; obtaining the assemblage of the standard office data and the assemblage of the original office data; transforming the assemblage of the original office data into the assemblage of the office data to be checked which is in line with the standard describing way; respectively transforming the assemblage of the office data to be checked and the assemblage of the standard office data into the assemblage of the office data to be checked and the assemblage of the standard office data according to the corresponding transformational rule; based on the assemblage of the standard office data, inspecting the data in the assemblage of the office data to be checked and generating inspecting results. The embodiment of the invention can adapt to various types of office datum and has better generality and expandability.
+45. 101770479 Association relationship query method and device
+CN
+07.07.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200810246648.1
+BOCO Software Institute Co., Ltd.
+Chen Xiaofeng
+G06F 17/30
+Loading...
+The invention provides an association relationship query method and a device. The association relationship query method comprises the following steps: receiving an association relationship request carrying an object identifier and a scheme identifier; obtaining an association relationship table which is associated with the scheme identifier from the preset association relationship table; and querying the association relationship which corresponds to the object identifier from the obtained association relationship table. The association relationship query technical method directly queries the association relationship of an object from the association relationship table which is associated with the scheme, thereby overcoming the problems of slow query speed and low efficiency produced by multi-table combined query of the association relationship in the prior art and realizing the rapid and high-efficient association relationship query.
+46. 101515863 Network data acquiring method, acquisition machine and acquisition system
+CN
+26.08.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810100824.0
+China Mobile Communications Corp.
+Feng Ruijun
+H04L 12/24
+Loading...
+The invention discloses a network data acquiring method, which comprises the following steps that: after receiving an acquisition policy, a north orientation interface layer of an acquisition machine sends the acquisition policy to a logic control and processing layer in an instruction mode; the logic control and processing layer stores the instruction into a database of the acquisition machine in a task mode; the logic control and processing layer reads the task and performs dispatching according to the task; and a data adaptor layer acquires data according to the dispatching of the logic control and processing layer, and feeds back the acquired data. The invention discloses a network data acquisition machine and a network data acquisition system at the same time. The invention can achieve the aim of acquisition according to need, and can customize acquisition range, acquisition mode, acquisition content, acquisition granularity, and the like of the acquisition machine to control the acquisition action of the acquisition machine and acquire the most needed data so as to reduce the working load of the system.
+47. 101442363 Method and apparatus for revealing light path design graph
+CN
+27.05.2009
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200810246645.8
+Beijing Yiyangxintong Software Institute Co., Ltd.
+Yang Yuanwei
+H04B 10/08
+Loading...
+The invention discloses a method for exhibiting a design graph of a light path, which comprises the following steps: a data object of light path routing information related to the light path is obtained, a graphic object corresponding to the data object of the light path routing information is obtained, the data object of the light path routing information is bound with the obtained graphic object, the attribute information corresponding to the obtained graphic object is determined according to the data type of the data object of the light path routing information, and the graphic exhibition is performed according to the attribute information of the obtained graphic object. The invention also discloses a device for exhibiting the design graph of the light path, which is used for finishing the method. The method finally obtains the graphic object corresponding to the data object of the light path routing information according to the data object of the light path routing information, realizes the graphic exhibition of light path routing, improves the accuracy of the design of the light path, ensures that the design of the light path is simple, real-time, quick and convenient, and is easy to save and maintain a design result.
+48. 101330405 Method for discovering network topology and related equipment
+CN
+24.12.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200810116048.3
+Beijing Yiyang Nobumichi Software Institute Co., Ltd.
+Xu Meibo
+H04L 12/24
+Loading...
+The invention discloses a network topology discovery method and related equipment thereof. The method comprises the following steps: acquiring a spanning tree protocol (STP) result of a switch; processing the STP result of the switch to obtain the topological connection relationships of uplink ports of the switch; judging whether a switch uplink port with an undetermined topological connection relationship exists, and, if yes, obtaining the topological connection relationship of the switch uplink port with the undetermined topological connection relationship according to the MAC address forward table of the switch uplink port with the undetermined topological connection relationship. The invention further discloses a network information processing device with a network topology discovery function. In the method, the link layer topological connection relationship discovered by the STP result and the link layer topological connection relationship discovered by the MAC address forward table are closely related, so that the method can accurately discover and obtain various types of topological connection relationships of the switch uplink ports.
+49. 101330530 Method and apparatus for managing IP address segment
+CN
+24.12.2008
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+200810116047.9
+Beijing Yiyang Nobumichi Software Institute Co., Ltd.
+Pu Bingrong
+H04L 29/12
+Loading...
+The invention discloses an IP address field management method. The method comprises the following steps: any IP address field including an undivided address field is taken as a parent address field, undivided address fields included on the parent address field are obtained, the address number included in each undivided address field is calculated, a mask code matched with each undivided address field is found according to the traversal mask code of the address number included in each undivided address field, and a complete address field divided through the matching is determined according to the mask code. Meanwhile, the invention also discloses an IP address field management device. Through the effective management and the re-division of the undivided address field, the utilization rate of the IP address is greatly improved, and the IP address management is clearer and more concise.
+50. 101316389 Mobile communication service handling method and device
+CN
+03.12.2008
+H04W 8/16 Loading...
+H04W 8/16
+Loading...
+200810110668.6
+Beijing Yiyang Nobumichi Software Institute Co., Ltd.
+Zhang Guohua
+H04W 8/16
+Loading...
+The invention discloses a processing method of mobile communication services and a device thereof. The processing method of the invention includes that linkage information for establishing the mobile communication services with a mobile terminal is first obtained; the linkage with an access interface of an information storage database of the mobile communication services is established according to the linkage information, and service process information is obtained from the interface; services which fail to establish the mobile communication service and the related mobile terminals are screened out based on the service process information and service analysis rules; finally, the causes of the failure in the establishment of mobile communication services are obtained. By adopting the method and the device of the invention, the causes of the failure of the related mobile terminals can be automatically obtained and directly fed back to users at the mobile terminals after the mobile terminals fail to establish the mobile communication services so as to reduce the complaints from users and improve the work efficiency of the network operation management by operators as well as the competitiveness of the operators.
+51. 101267362 A dynamic identification method and its device for normal fluctuation range of performance normal value
+CN
+17.09.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200810097911.5
+Bright Oceans Corporation
+Yu Yanhua
+H04L 12/26
+Loading...
+The invention discloses a dynamic confirming method for performance index value normal fluctuating range, comprising following steps: obtaining a historical value of the network performance index, and dynamically obtaining the latest historical sample data; processing pre-treatment to obtain a normal sample data; processing phase space re-construction to obtain a training sample data; processing training modeling to take residual error white noise as condition of selecting the optimal supporting vector machine model; using the optimal supporting vector machine model to predict the data on the to-be predicted time point, and calculating the confidence interval of the predicted value to obtain the performance index value normal fluctuating range; detecting whether the optimal supporting vector machine model is suitable for the next prediction of the to-be predicted time point; if the model is not suitable, processing re-training. The invention also discloses a device for the dynamic confirmation performance index value normal fluctuating range. The invention significantly enhances the precision of the performance dynamic early warning, and reduces wrong report and missing report of the performance warning.
+52. 101227465 Method and system for administrating IP address
+CN
+23.07.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710308413.6
+Beijing Yiyang Nobumichi Software Institute Co., Ltd.
+Pu Bingrong
+H04L 29/06
+Loading...
+The invention relates to the internet technology, in particular to a management technology of IP address, disclosing an IP address hierarchy management technology, which comprises deciding the IP address allocation scheme according to the network architecture of users, compiling a hierarchy allocation file and a hierarchy property allocation file, generating the relative IP address database according to the hierarchy allocation file, loading the hierarchy property allocation into hierarchy management interfaces of IP address layer by layer, storing the IP address allocation information which is referred by users through the IP address management interfaces into the IP address database, thereby simplifying the operation of allocating IP address by users, recording the allocation information which is referred by users into the IP address database, thereby simplifying the operation of allocating IP address and managing IP address for users, further realizing the collision detection of a public network IP address and the authority extend of the IP address.
+53. 101217400 An integrated intelligent polling method and system
+CN
+09.07.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710308422.5
+Bright Oceans Inter-Telecom Software Research Institute Co., Ltd.
+Du Dajiang
+H04L 12/24
+Loading...
+The embodiment of the invention discloses a method of intelligent patrol and comprises obtaining network element information of every professional intelligent patrol system and keeping the professional intelligent patrol system synchronous with an integrated intelligent patrol system; making operation plans according to the contents needed to be implemented in patrol and the network element information; implementing and recording the operating plans of the integrated intelligent patrol system; obtaining the patrol results of every professional intelligent patrol system according to the implementation of the recorded operation plans. The embodiment of the invention also provides an integrated intelligent patrol system and comprises network element information obtaining units, an operation plan making unit, an operation plan implementation unit and a patrol result obtaining unit. The invention is highly efficient in maintenance process and can overcome the technical problem of conveniently visiting the isomer professional intelligent patrol system by the interface technology of the intelligent patrol system.
+54. 101212357 Interface testing method and device
+CN
+02.07.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610135449.4
+Bright Oceans Co., Ltd.
+Wu Jinqiang
+H04L 12/26
+Loading...
+The invention discloses a method for testing an interface, which comprises the following steps: a case file for testing and an interface adapter corresponding to a tested interface are determined; a mapping relation between testing cases in the case file for testing and testing order in the interface adapter is established; testing cases to be tested are chosen in the case file for testing; a testing parameter is set for the testing cases waited for testing; testing order corresponding to the testing cases to be tested in the interface adapter is determined by the mapping relation; testing is carried out for the tested interface by using the testing parameter and the testing order. The invention also discloses a testing device of the interface. Through the interface adapter corresponding to the tested interface is determined; when the testing cases are selected, a testing order corresponding to the testing cases in the interface adapter is determined by the mapping relation; testing is carried out to the interface by using the testing order, the invention avoids the difference and professional property of diverse interfaces so as to suit for different type of interface flexibly.
+55. 101212367 Alarm message processing method and device
+CN
+02.07.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200710304183.6
+Beijing Bright Oceans Software Institute Co., Ltd.
+Wang Kedong
+H04L 12/26
+Loading...
+The invention discloses a method for treating alarming information, which includes the following steps: types of the alarming information which can affect the normal operation of a specific subject are preset and the types includes core alarming and professional alarming; an association relationship between the core alarming and the professional alarming as well as between the professional alarming which are mutually affected is set and priority of an alarming association condition is also set, while an alarming association relation table is established; the alarming information is obtained and whether or not the alarming information is the type which can affect the normal operation of the specific subject is judged, while the judging result is preserved; according to the alarming association relationship table, the alarming information with the alarming information type which can affect the normal operation of the specific subject is calculated about alarming association to obtain origin alarming information. The invention also discloses a device for handling the alarming information. Through presetting the alarming information types which can affect the specific subject, the invention realize filtration of a great amount of obtained alarming information, thus reducing data processing amount of the alarming association calculation and rapidly obtaining the origin alarming information.
+56. 101202663 Method and device for switched network batch making limit data
+CN
+18.06.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710178529.2
+Beijing Yiyang Xintong Software Institute Co., Ltd.
+Liang Li
+H04L 12/24
+Loading...
+The invention discloses a method for producing the office data in batch for an exchanging network which includes confirming the device types needed office data making in advance, preparing the office data making order document for each type of device; carrying through office data making on each device according to the following steps after a communication connection is respectively set up with each device needed the office data making; transmitting the office data order in the office data making order document to each device of the device type; acquiring the implement results for each device to carry through the office data order and switching the implement results into the information of preset style and to do feedback to an operating personnel. The invention simultaneously discloses a device for producing the office data in batch for the exchanging network. The invention can carry through operation automatically and needs not too much manual intervention of the operating personnel, thus reducing the working load of the operating personnel and reducing the error rate. The invention has broad universality. For the operating personnel, a device port and the special characteristic of an office data preparing order need not to be considered.
+57. 101203015 Method and apparatus for determining base station wireless field strength overlay area range
+CN
+18.06.2008
+H04W 24/10 Loading...
+H04W 24/10
+Loading...
+200610165233.2
+Beijing Yiyang Xintong Software Institute Co., Ltd.
+Ma Hainan
+H04W 24/10
+Loading...
+The invention discloses a method which determines the strong covering area coverage of a base station wireless field. The invention comprises the steps: location points which are corresponding to the latitudes and longitudes of all the base stations are reflected to be a whole base station point set on a plane; the whole base station point set is processed to be subdivision triangulation lattices; the circle center positions of circumcircles of the triangle, which contain the same base station point in the subdivision triangulation lattices, are determined and regions formed by the circle centers being sequentially connected with each other are determined to be a Thiessen polygon region of the base station; the overlap region of the Thiessen polygon region of the base station and the initial circle coverage region is determined and the scope of the overlap region is determined to be the scope of the strong covering area coverage of the base station wireless field. At the same time, the invention also discloses a device which determines the strong covering area coverage of the base station wireless field. By utilizing the invention, the factors of landform and physiognomy are not needed to be considered; the strong covering area coverage of the base station wireless field or a community can be simply and conveniently and fast determined.
+58. 101198105 Mobile communication service handling method and device
+CN
+11.06.2008
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200710304155.4
+Beijing Yiyang Xintong Software Institute Co., Ltd.
+Zhang Guohua
+H04Q 7/22
+Loading...
+The invention discloses a method for processing the mobile service and a device. The method comprises the following steps that: the connection information of building the mobile service with a movable terminal is obtained; the connection with an access interface of an information storage database of the mobile service is built according to the connection information, the service process information is obtained from the interface; the service failing to build the mobile service and the movable terminal involved are screened out according to the service process information and the service analyzing rule; the reason for the failure of building the mobile service is obtained. After the movable terminal fails to build the mobile service, the invention can automatically obtain the reason for the failure of the movable terminal involved and directly send information back to the movable terminal user, thereby reducing the customer complaint, raising the work efficiency of the operation and the maintenance as well as the management of the network of the operators and improving the competition of the operators.
+59. 101183993 Network management system and performance data processing method
+CN
+21.05.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710301539.0
+BOCO Xintong Co., Ltd.
+Chen Xiaofeng
+H04L 12/24
+Loading...
+The invention discloses a network managing system, comprising an acquisition system and a performance database; wherein the acquisition system comprises a plurality of acquisition elements distributed in different areas and used for acquiring the performance data of the equipment within each area; the performance data table used to carry the performance index data is stored in the performance database; the acquisition elements and the performance database are connected by the network. The invention also comprises: a performance data processing system used for acquiring performance data from the acquisition elements, processing the performance data into performance index data and storing the data; a synchronous processing system used for acquiring the performance index data from the performance data processing system and synchronously filling the performance index data into the performance data table of the performance database. The invention also discloses a performance data processing method in the network system. The invention computes the performance data in the performance data processing system independent of the performance database and then synchronizes into the performance database, thus the system has the advantages that the work load of the performance database is reduced.
+60. 101170454 A method and system for monitoring data collection and summary status
+CN
+30.04.2008
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200610114116.3
+Yiyang Telecom Co., Ltd.
+Wang Haiqing
+H04L 12/26
+Loading...
+The invention discloses a method of monitoring the data collection and aggregation states, including the following steps: a. the invention detects the information of collection and aggregation states of various data migration points during the collection and aggregation process; b. the client makes use of the configuration information of various data migration points and the information of collection and aggregation states to generate the navigation tree information and the topology graph information which takes the concerned data migration points as the center, and the information is displayed by legend. The invention also discloses a system of monitoring the data collection and aggregation states at the same time. The invention can provide the intuitive, vivid and real-time information of data collection and aggregation states for the working staff, the general technical staff can carry out the objective assessment of the information of the data collection and aggregation states of various processes during the collection and aggregation process by the invention, which does not need the telecommunication network management maintenance staff with the experiences, furthermore, the invention can timely and clearly discover the problems and accurately position the problems, further to adopt the targeted operations to solve the problems.
+61. 101136781 Performance data acquisition occasion control method and device in network management system
+CN
+05.03.2008
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710149996.2
+Yiyang Xintong Co., Ltd.
+Gao Jianjun
+H04L 12/24
+Loading...
+The method includes steps: based on experiential value to create task for testing performance data (PD) aimed at side of manufacturer equipment; calling and executing the said test task to detect integrality of PD at side of manufacturer equipment, and determining whether PD is integral; if yes, then triggering collection program to execute collecting PD. The invention also discloses device for controlling time to collect PD. Instead of current technique, which uses method of detection in real time, the invention lightens burden on side of manufacturer equipment, and burden on network management system.
+62. 101136140 Roads traffic speed calculating and matching method and system
+CN
+05.03.2008
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+200610127604.8
+Yiyang Xintong Co., Ltd.
+Liu Zhonghua
+G08G 1/01
+Loading...
+The traffic speed counting and matching method for road traffic includes: fetching position information of mobile terminals from collected traffic data information; when the position information of the mobile terminals is lost, according to the change information of the position information of the mobile terminals, dynamic predicting and obtaining the position and speed information of the mobile terminals by using follow-up arithmetic; matching the position and speed information of the mobile terminals onto a road network to generate road traffic speed information. The road traffic speed counting and matching system is also disclosed. The method and system can provide exact traffic condition information to traffic managers and going out people.
+63. 101128017 Alarm system and car alarm method based on this alarm system
+CN
+20.02.2008
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+200610109670.2
+Beijing Yiyang Value-added Communication Holding Co., Ltd.
+Wan Jun
+H04M 11/04
+Loading...
+The utility model relates to an alarm system, which comprises a mobile terminal, a mobile switching center connected with the mobile terminal through communication networks, a home location register connected with the mobile switching center, a visited location register connected with the mobile switching center and a central module connected with the mobile switching center. The utility model also relates to a vehicle alarm method based on the alarm system, in which the mobile terminal is solidly fixed with the vehicles, comprising the follow steps: first, the central module searches for mobile switching centers through the home location register with mobile terminals; second, the device should implement according to the instruction 5 if the information of the checked visited location register is implicit separation state, otherwise the instruction 3 should be implemented; third, the central module sends paging message to the central modules; fourth, if during the time of threshold value, the mobile switching center receives the response message of the paging message of the mobile terminal, then the instruction 1 should be implemented, otherwise the instruction 5 should be implemented; fifth, the central module alarms or triggers other operations.
+64. 101127971 Mobile terminal and car alarming method based on this mobile terminal
+CN
+20.02.2008
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200610109669.X
+Beijing Yiyang Value-added Communication Holding Co., Ltd.
+Wan Jun
+H04Q 7/32
+Loading...
+The utility model relates to a mobile terminal, comprising a communication module, a memory and a processor; wherein the communication module is used to receive position region identification information of district lists, the memory is used to store the position region identification information, and the processor is connected with the communication module and the memory to judge whether the change between the received district lists in the position region identification information and the district lists in the position region identification information stored in the memory exceeds preset change rate; when the change exceeds the preset change rate, the processor then alarms. The utility model also provides a vehicle alarm method based on the mobile terminal and the mobile terminal is fixed with the vehicle. The vehicle alarm method is as follows: when the vehicle is parking, the mobile terminal locks the identification information of the first position region comprising the first district list stored in the memory at the moment; the mobile terminal judges whether the change between the received second district list in the identification information of the second position region and the first district list exceeds the change rate; when the change exceeds the change rate, the mobile terminal then alarms. Therefore, the utility model realizes alarming using the mobile terminal.
+65. 101115004 Method for preventing host computer from access to network appliance and blocking server
+CN
+30.01.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710119826.X
+Beijing BOCO Inter-Telecom Soft-ware Research Institute Ltd Company
+Cao Hua
+H04L 12/56
+Loading...
+The invention discloses a method used for preventing a host from accessing network equipment which comprises: the physical net mouth on a blocking server is provided with a plurality of virtual net mouths which correspond to a plurality of virtual LAN (VLAN); Aiming at the virtual net mouths of the blocking server, the subnet addresses of the virtual mouths which are in conformity with the destination host subnet addresses are gained; TRUNK protocol is started or TRUNK technology is carried out on a switch which is passed by the transmission link of the blocking server and the destination host; the blocked data packets are sent from the virtual mouths corresponding to the gained subnet addresses of the virtual mouths to the destination host by the blocking server through the TRUNK protocol. The invention also discloses a blocking server. When the invention is applied in large network that contains a plurality of VLANs, even though a hub which is used for connecting the VLAN is not needed, the blocked data packet can also be sent by the blocking server to stride the VLAN, thereby improving the operability of preventing the host from accessing the network equipment.
+66. 101090296 Diagnostic method and device for breakout of cable
+CN
+19.12.2007
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+200710141521.9
+Yiyang Xintong Co., Ltd.
+Zhang Haizhou
+H04B 10/08
+Loading...
+This invention discloses a method for diagnosing interruption of optical cables including: obtaining the original warming information of all plant equipment in communication network to process them to self-defined warning information, selecting the information with the cable interruption characters from the self-defined information to decide that some cables have been interrupted. This invention also discloses a diagnosis device.
+67. 101051942 Method and device for determining business parameter grade quantizing range of business service
+CN
+10.10.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710065074.3
+Yiyangxintong Software Inst Co., Ltd.
+Chen Gang
+H04L 12/24
+Loading...
+The method includes steps: obtaining information of experience and evaluation of ratable business parameters (BP) for business service (BS) from users; according to information of experience and evaluation from users to determine weight of related BP, in order to determine adjusting step size for BP; using the adjusting step size for BP to carry out multiple times of adjustment for each BP value of BS on each service grade; recording adjusting step size for BP, adjusting number, as well as users' evaluated values on adjusted BS in order to determine graded quantizing ranges of BP. The invention also discloses device for determining graded quantizing ranges of BP for BS. Through determining users' sensitive degrees of each BP of BS, the invention sets up corresponding adjusting step size so as to adjust BP accurately, and further to determine quantizing ranges of each BP accurately.
+68. 101035027 Network management interface information interaction method, device and notice reporting method
+CN
+12.09.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200710107148.5
+Yiyang Communication Co., Ltd.
+Wu Yanqin
+H04L 12/24
+Loading...
+This invention discloses a network management interface information interaction method, including: to normalize the order information come from different NMS; After normalization to convert interface protocol the order information according to processing equipment management, then send to target device management system; Receive the responses of Equipment Management system and normalized response information; After normalization the responses will undergo the NMS for protocol conversion, sent to the NMS. The present invention also opens a network management interface interactive devices and information submitted to the notification method. The present invention can also fit a variety of equipment management systems and a variety of NMS, and shielding NMS and equipment management system interface specialties, and thus achieve a variety of NMS management system and a variety of changing of information between the interactions.
+69. 101001434 Intelligent checking method and device for configuration parameter of communication network
+CN
+18.07.2007
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200610170567.9
+Beijing Yiyang Xintong Software Inst. Co., Ltd.
+Zhang Guohua
+H04Q 7/34
+Loading...
+This invention discloses an intelligent check method for configured parameters of communication networks including the following steps: setting up check items, determining the content, setting up script realization logic of check objects in the item, generating a check task of the item, executing the check task of the item, which overcomes the difficulty and low efficiency that the current communication network configuration parameters are checked manually and checks operation of script program combining with the automatic collection system of communication device parameters. This invention also discloses an intelligent check device for communication network configuration parameters.
+70. 1913452 Method and equipment of intelligent patrol detection for communication network
+CN
+14.02.2007
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200610109881.6
+Yiyang Communication Co., Ltd.
+Zhang Zhigang
+H04L 12/24
+Loading...
+This invention discloses a method for intelligent patrol inspection by communication network including: executing said inspection task to an assigned NE by an intelligent patrol inspection server in the task, said NE feeds back the inspection state information in terms of the task to feed back the state information of said NE to said intelligent server, at the same time, this invention also discloses a device for patrol inspection in the communication network.
+71. 1905727 Method for network managing resource message access
+CN
+31.01.2007
+H04Q 7/34 Loading...
+H04Q 7/34
+Loading...
+200610115863.9
+Yiyang Xintong Co., Ltd.
+Hai Jianzhong
+H04Q 7/34
+Loading...
+The invention discloses a method for obtaining the information about network resource management, including: it obtains the information and establishes the database containing the data with uncertain attribute and/or complex attribute. The database receives request-information and implements reading or writing operations according to the request-information.
+72. 1905745 Carrier configuration regulating method based on wireless network dynamic load capacity
+CN
+31.01.2007
+H04W 16/04 Loading...
+H04W 16/04
+Loading...
+200610104028.5
+Yiyang Xintong Co., Ltd.
+Zhang Guohua
+H04W 16/04
+Loading...
+The invention discloses a method of carrier frequency allocation and adjustment based on the dynamic load capacity of wireless network, which includes: selecting the sample area information, of which, the perfect rate of carrier frequency and the congestion number of voice channels meet the quality requirements of network service, distribute and get the average of traffic volume from the sample information according to different load frequency allocations to make the critical traffic of different areas to determine the nearest critical traffic volume to that of destination area and consult its corresponding load frequency allocation to regulate load frequency allocation of the destination area.
+73. 1904946 Control system and control method for parking management
+CN
+31.01.2007
+G07B 15/00 Loading...
+G07B 15/00
+Loading...
+200510087152.0
+Beijing Yiying Value-Adding Service Communication Co., Ltd.
+Wan Jun
+G07B 15/00
+Loading...
+The invention relates to a control system of parking management that includes center managing system that includes first processing module, first communicating module, database and charging module, controller that includes the second process module and the second communicating module, control keyboard, display and power supply module. It also relates to a control method of parking managing that includes the following steps: parking, controller sending parking information to center managing system; center managing system starting timing; when car stops parking, controller sending information to managing system; system calculating time and gaining parking charge; sending parking time and charging information to controller from center managing system; display the parking time and charge on controller. The invention realizes real time and accurate control to car parking management.
+74. 2790050 ETS交换机时间同步装置
+CN
+21.06.2006
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200420114063.1
+上海欣泰通信技术有限公司
+张恩
+H04L 12/24
+Loading...
+本实用新型提供一种ETS交换机时间同步装置，主要由时间同步基准模块、网管宿主同步模块和交换机时间同步模块三部分组成。其中后两个模块装载于综合网管系统的网管终端上，构成时间同步控制机。嵌入本实用新型装置的网管系统，使用协调世界时UTC为参考标准，从全球定位系统GPS获得时间标准，可使各网元内部时间保持一致，使网络中交换机的时间保持同步。同时，装置还能测量和监测时间网中时间输出的准确度，回避交换机在时间同步过程中需要回避的时间和事件，显示时间同步中的各种告警，并具有强大的统计及维护信息短信通知功能。
+75. 1787450 Time synchronous apparatus for ETS exchanger
+CN
+14.06.2006
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200410089430.1
+Xintai Communication Tech. Co., Ltd., Shanghai
+Zhang En
+H04L 12/24
+Loading...
+This invention provides a time synchronous device of an ETS switch composed of a time synchronous primary standard module, a management host synchronous module and a switch time synchronous module, among which, the latter two modules are loaded on a network management terminal of an integrated management system to make up of a time synchronous controller. The system inserted into the invented device uses UTC as the reference standard to get the time standard from GPS so as to keep the internal time of the cells constant and keep the time of the switch synchronous, at the same time, the device can measure the accuracy of time output in the time net to blench the time and matters necessarily blenched in the synchronous period of the switch to display alarms in the process.
+76. 1588946 Managing system for providing service quality assuranced on internet and its realizing method
+CN
+02.03.2005
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200410074751.4
+Beijing Post and Telecommunication Univ.
+Jiao Li
+H04L 29/06
+Loading...
+A management system for providing service quality guaranteed service in Internet is composed of a three-transverse three-vertical structure system namely, three layers are set vertically according to the service logic flow: a service layer, a network service layer and a network resource control layer which are divided into three transverse layers: a service arrange layer, a service guarantee layer and an accounting layer. A closed feedback control loop is composed of a Qos measurement subsystem, a resource plotting module, an acceptance control module, a resource arranging module and a resource database to finish the resource plotting=>service arrange, =>service operation=>service guarantee=>closed loop feedback.
+77. 1479551 Method of mobile terminal payment and its system
+CN
+03.03.2004
+H04M 11/00 Loading...
+H04M 11/00
+Loading...
+03140802.8
+Harbin Yiyang Communication Co., Ltd.
+Qiu Guanghua
+H04M 11/00
+Loading...
+The system includes gateway and mobile terminals. The characters are that the system also includes shop terminals and payment platform. The said shop terminals and mobile terminals are linked to gateway respectively. The gateway is connected to the payment platform. The said payment platform stores the shop information of the shop terminals as well as users information of mobile terminals. When payment of a mobile terminal is carried out, the mobile terminal makes a communication including voice communication with the payment platform, and the shop terminal also makes a communication with the payment platform.
+

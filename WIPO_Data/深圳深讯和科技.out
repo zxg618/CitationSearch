@@ -1,0 +1,541 @@
+1. 205335428 一种应用于连接天线的馈线
+CN
+22.06.2016
+H01Q 1/50 Loading...
+H01Q 1/50
+Loading...
+201620029307.9
+深圳市和讯利科技有限公司
+刘海雄
+H01Q 1/50
+Loading...
+本实用新型提供一种应用于连接天线的馈线，包括天线连接端、连接线和电路板连接端，其中，所述连接线的一端从天线连接端的侧面穿入天线连接端与顶针垂直连接，所述连接线的另一端与电路板连接端连接。本实用新型通过巧妙的设计，改变传统的连接线从天线连接端的底部直接引出的方式，从侧面垂直焊接，可以有效改变连接线引出天线连接端后在设备壳体内需要弯折的技术缺陷，这种结构的改变，可以增强天线的信号传输效率。
+2. 205320099 一种无线中继路由器
+CN
+15.06.2016
+H04L 12/771 Loading...
+H04L 12/771
+Loading...
+201620078574.5
+深圳市和讯利科技有限公司
+刘海雄
+H04L 12/771
+Loading...
+一种无线中继路由器，包括无线网络模块、中央处理器、网络接口、信号增益天线、散热器电源模块，所述的中央处理器分别与网络接口、无线网卡和散热器联接，信号增益天线与无线网卡联接，电源模块分别与无线网络模块、中央处理器、网络接口、所述的电源模块包括POE供电模块、太阳能供电模块和USB供电模块。
+3. 205320359 基于WIFI的遥控灯具
+CN
+15.06.2016
+H05B 37/02 Loading...
+H05B 37/02
+Loading...
+201620078569.4
+深圳市和讯利科技有限公司
+刘海雄
+H05B 37/02
+Loading...
+基于WIFI的遥控灯具，涉及智能家居设备，包括WIFI网关、灯具及遥控设备，作为本实用新型的技术改进，灯具控制板由处理器、传感装置、串口转WIFI模块、无线网卡模块及电源模块。本实用新型的有益效果是：可以接入智能家居系统、能够分别用手机和遥控器控制灯具。
+4. 205320098 一种无线路由器
+CN
+15.06.2016
+H04L 12/771 Loading...
+H04L 12/771
+Loading...
+201620078571.1
+深圳市和讯利科技有限公司
+刘海雄
+H04L 12/771
+Loading...
+一种无线路由器，涉及一种信号放大的无线路由器，包括中央处理器、散热器、网络接口、无线网卡及电源模块其特征在于：还包括信号增益天线；增益天线包括螺牙本体、PIN针、连接线、连接头和连接组件，还包括螺母本体；？PIN针位于螺牙本体、第一连接组件和螺母依次连接所组成的内管中心；连接线穿过螺母本体，与第一PIN针连接；连接头内的第二PIN针通过第二连接组件与连接线连接；中央处理器分别与网络接口、无线网卡和散热器联接，信号增益天线与无线网卡联接。通过在螺母本体上开通孔，使PIN针无需弯曲也可与连接线连接，避免了因为PIN针弯曲而造成的天线信号损失，达到了天线信号强，传递远，可穿墙有益效果，实现了路由器信号放大数倍的有益效果。
+5. 104243948 Depth adjusting method and device for converting 2D image to 3D image
+CN
+24.12.2014
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201310713733.5
+深圳深讯和科技有限公司
+孔德明
+H04N 13/00
+Loading...
+The invention provides a depth adjusting method for converting a 2D image to a 3D image. The method includes the steps of obtaining macro blocks in the 2D image, obtaining initial depth values of the macro blocks, finding out the minimum initial depth value and the maximum initial depth value, obtaining an average depth value through calculation according to the initial depth values of the macro blocks, normalizing the depth values of the macro blocks to be the gray values ranging from 0 to 255 in a nonlinear mode according to the average depth value, the minimum initial depth value and the maximum initial depth value, and converting the 2D image to the 3D image according to the normalized depth value. The invention further provides a depth adjusting device for converting the 2D image to the 3D image. The depth adjusting method and device for converting the 2D image to the 3D image can improve the 3D effect.
+6. 103942756 Post-processing filtering method for depth map
+CN
+23.07.2014
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201410092432.X
+华中科技大学
+杨铀
+G06T 5/00
+Loading...
+The invention relates to a post-processing filtering method for a depth map. The post-processing filtering method for the depth map comprises the following steps that (A1) the depth map and a color map on the same scene are input; (A2) the color map is partitioned into blocks, edge detection based on a grey-scale map is carried out on each block, a boundary based on a chrominance component is used for correcting a grey-scale edge on the scene, and the obtained boundary serves as the boundary of different depth planes in the depth map; (A3) the depth map is divided into blocks as large as those in the step (A2) and is segmented based on the blocks, and denoising filtering is carried on the depth map with each block as a unit; (A4) the steps from (A1) to (A3) are carried out repeatedly until all maps are processed; (A5) an obtained depth map sequence is output. According to the post-processing filtering method for the depth map, the smoothness features of pixel points in a space domain and a time domain are extracted, and calculation on the depth map is carried out in the reading and scanning processes, so that the depth map with the defects of time domain vibration, space domain instability, low scene reducibility and the like is improved.
+7. 103916656 Image rendering method by utilizing depth image
+CN
+09.07.2014
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+201410092452.7
+华中科技大学
+杨铀
+H04N 13/00
+Loading...
+The invention relates to an image rendering method by utilizing a depth image. The image rendering method is characterized by comprising the following steps of (1) inputting a color image and the corresponding depth image, (2) inputting rendering parameters of a new viewpoint, (3) rendering the new viewpoint by utilizing the color image and the depth image to obtain a color image I, (4) performing post treatment on the color image I to obtain an image II and (5) outputting the obtained image II. According to the image rendering method, the process of image rendering and the process of hole filling are combined, and therefore the problem of hole filling is directly solved in the process of image rendering. In this way, the method not only can lower the time complexity of an algorithm but also can improve the quality of image rendering.
+8. 103533322 Method for transcoding YUV frame to RGB frame and device thereof
+CN
+22.01.2014
+H04N 11/02 Loading...
+H04N 11/02
+Loading...
+201210226037.7
+深圳深讯和科技有限公司
+单旺财
+H04N 11/02
+Loading...
+A method for transcoding a YUV frame to an RGB frame comprises the following steps: acquiring the YUV frame, the front frame of the YUV frame, and the RGB frame which corresponds with the front frame; acquiring a difference frame between the YUV frame and the front frame; converting the YUV value of a pixel point in the difference frame to a RGB value and acquiring a difference RGB frame; and acquiring the RGB frame which corresponds with the YUV frame according to the difference RGB frame and the RGB frame that corresponds with the front frame. Furthermore, the invention further provides a device for transcoding the YUV frame to the RGB frame. The method for transcoding the YUV frame to the RGB frame and the device can improve transcoding efficiency.
+9. 103489427 Method and system for converting YUV into RGB and converting RGB into YUV
+CN
+01.01.2014
+G09G 5/02 Loading...
+G09G 5/02
+Loading...
+201210196607.2
+深圳深讯和科技有限公司
+单旺财
+G09G 5/02
+Loading...
+The invention relates to a method for converting a YUV into an RGB. The method for converting YUV into the RGB includes the following steps that YUV data of image pixels are obtained, numbers of effectively digits of the YUV data of multiple pixels of the image are spliced to different segments of digits of one datum to obtain the combined YUV data of the multiple pixels; the combined YUV data of the multiple pixels are calculated to obtain combined RGB data of the multiple pixels; numbers on digits of corresponding segments of all the pixels in the combined RGB data are RGB data of all the pixels. The YUV data and the RGB data have the range between 0 and 255. Only eight digits are needed to perform presenting, however, multiple processors can process data with more than eight data bits. According to the method for converting the YUV into the RGB, the data of the pixels are combined into one datum to carry out conversion calculation. The feature that many data bits can be processed by the processors is fully utilized, multiple times of conversion calculation can be combined to form a one-time conversion calculation and thus, the conversion efficiency is improved. In addition, the invention further provides a method and system for converting the RGB into the YUV and a system where the RGB and the YUV are mutually converted.
+10. 203055207 一种同步网络教学终端
+CN
+10.07.2013
+G09B 5/06 Loading...
+G09B 5/06
+Loading...
+201220726551.2
+深圳市和强迪讯科技发展有限公司
+叶素清
+G09B 5/06
+Loading...
+本实用新型公开了一种同步网络教学终端，包括：监控单元，用于监控网络中数字量的输入，若没有数字量的输入，则进入视频输入单元，若存在数字量的输入，则进入数/模转换单元；视频输入单元，用于输入教学视频信息，所述的视频信息包括语音信息以及图像信息；模/数转换单元，用于将所述的教学视频信息转换成数字量；发送单元，用于发送所述的数字量；数/模转换单元，用于将所述的数字量转换为模拟量。本技术方案能在不同空间和相同时间进行远程在线互动和教学活动，此种模式的网络课堂能在很大程度上提高学生的参与度，从而提升课堂实效。
+11. 203057318 一种电脑电视一体化主板及遥控器
+CN
+10.07.2013
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+201220725899.X
+深圳市和强迪讯科技发展有限公司
+叶素清
+H04N 5/44
+Loading...
+本实用新型公开了一种电脑电视一体化主板，包括电脑主板本体，还包括集成于所述的电脑主板本体上的数字视频解码模块。本实用新型电脑电视一体化集成，一机多用，不仅节省成本，而且方便用户。
+12. 203057132 一种车载设备
+CN
+10.07.2013
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201220725889.6
+深圳市和强迪讯科技发展有限公司
+叶素清
+H04B 1/38
+Loading...
+本实用新型公开了一种车载设备，包括控制单元、显示单元、输入单元、输出单元，其中，所述的显示单元、输入单元、输出单元均与所述的控制单元相连，还包括与所述的控制单元及显示单元、输出单元均相接的通讯单元，所述的显示单元显示所述的通讯单元接收和/或发送的视频信息，所述的输出单元输出所述的通讯单元接收和/或发送的语音信息。本实用新型的车载设备可实现商务办公、广告插播、标准电脑操作、无线互联网等功能。
+13. 203054958 一种用于停车场的智能闸机
+CN
+10.07.2013
+G07C 9/00 Loading...
+G07C 9/00
+Loading...
+201220725971.9
+深圳市和强迪讯科技发展有限公司
+叶素清
+G07C 9/00
+Loading...
+本实用新型公开了一种用于停车场的智能闸机，包括闸机本体，所述的闸机本体上具有控制单元、显示单元，其中，所述的显示单元与所述的控制单元相连，还包括通过网络与停车场摄像头相连的通讯单元，所述的通讯单元用于将停车场的数据信息传送至控制单元，以便控制单元处理后在所述的显示单元进行显示。本实用新型的用于停车场的智能闸机可以实现智能化管理停车场车位、停车场安防监控、远程联网防盗报警、商业广告等功能。
+14. 203054817 一种多屏操作益智机
+CN
+10.07.2013
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201220726517.5
+深圳市和强迪讯科技发展有限公司
+叶素清
+G06F 3/14
+Loading...
+本实用新型公开了一种多屏操作益智机，包括电脑主板本体，还包括集成于所述的电脑主板本体上的多个显示驱动接口，所述的多个显示驱动接口可分别接不同的显示单元。本实用新型同一主板驱动多个显示接口，一体化集成，一机多用，不仅节省成本，而且方便用户。
+15. 203057352 一种用于医院病床的智能监控系统
+CN
+10.07.2013
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201220726614.4
+深圳市和强迪讯科技发展有限公司
+叶素清
+H04N 7/18
+Loading...
+本实用新型提出了一种用于医院病床的智能监控系统，包括供电单元，用于给所述的监控系统的所有用电单元进行供电，还包括：至少一个设置于医院病床的用于采集病人活动信息的摄像头，所述的摄像头通过第一网络与后台监控中心相连接。实施本实用新型的一种用于医院病床的智能监控系统自动监控病床的病人的活动信息，节省人力，物力。
+16. 203054994 一种自动售卖控制终端
+CN
+10.07.2013
+G07F 11/00 Loading...
+G07F 11/00
+Loading...
+201220725798.2
+深圳市和强迪讯科技发展有限公司
+叶素清
+G07F 11/00
+Loading...
+本实用新型公开了一种自动售卖控制终端，包括控制单元、显示单元、输入单元、打印单元，其中，所述的显示单元、输入单元、打印单元均与所述的控制单元相连，还包括通过网络与存有货源的数据库连接的通讯单元，所述的自动售卖控制终端通过所述的通讯单元可以在所述的显示单元实现播放、查询和选择商品，在所述的打印单元打印商品订单。本实用新型的终端使用联网技术实现商品入库、查询、货架搜索功能；使用互联网技术实现远程售卖。
+17. 203054870 一种指纹录入机
+CN
+10.07.2013
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+201220726552.7
+深圳市和强迪讯科技发展有限公司
+叶素清
+G06K 9/20
+Loading...
+本实用新型公开了一种指纹录入机，包括指纹录入机本体，所述的指纹录入机本体具有指纹录入单元，还包括集成于所述的指纹录入机本体上的摄像单元，用于摄取人脸图像并与摄像时刻一起保存于所述的指纹录入机本体中。本实用新型指纹录入机既具有指纹录入，也具有人脸视别，功能更强大，应用范围更广。
+18. 203057228 一种纯平触控通讯手机
+CN
+10.07.2013
+H04M 1/02 Loading...
+H04M 1/02
+Loading...
+201220726631.8
+深圳市和强迪讯科技发展有限公司
+叶素清
+H04M 1/02
+Loading...
+本实用新型公开了一种纯平触控通讯手机，包括控制单元、用于无线通讯的通讯单元、用户输入信息的输入单元、输出所述的控制单元处理之后的信息的输出单元以及显示输出和/或输入信息的显示单元，所述的通讯单元、输入单元、输出单元以及显示单元分别与控制单元相连，还包括散热单元，通过接口与所述的控制单元相连。本实用新型设备配置灵活方便、功能齐全，很容易满足各种应用的需求，散热效果显著，提高了元器件的寿命，节能环保。
+19. 203054473 一种用于汽车故障诊断的控制主板
+CN
+10.07.2013
+G05B 15/02 Loading...
+G05B 15/02
+Loading...
+201220725967.2
+深圳市和强迪讯科技发展有限公司
+叶素清
+G05B 15/02
+Loading...
+本实用新型公开了一种用于汽车故障诊断的控制主板，包括电脑主板本体，还包括集成于所述的电脑主板本体上的汽车故障诊断模块。本实用新型中的控制主板用于汽车故障诊断时，数字化、集成化和智能化，更高效，更方便。
+20. 103116898 生成水墨画风格图像的方法及装置
+CN
+22.05.2013
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+201310036228.1
+深圳深讯和科技有限公司
+杨志雄
+G06T 11/00
+Loading...
+本发明涉及一种生成水墨画风格图像的方法，包括：获取原始图像；对所述原始图像进行模糊处理，生成模糊图像；对所述模糊图像进行边缘检测，生成边缘图像；对所述边缘图像进行反色处理，生成反色图像；根据第一Alpha混合算子将所述模糊图像与所述反色图像混合，生成混合图像；降低所述混合图像的饱和度，生成墨色图像，并对所述墨色图像进行高斯模糊，生成扩散图像；根据第二Alpha混合算子将所述墨色图像和所述扩散图像混合，得到水墨画风格图像。此外，还包括一种生成水墨画风格图像的装置。上述生成水墨画风格图像的方法及装置可以提高处理速度，且生成的水墨画风格图像具有扩散感和留空特性，充满清雅柔丽的水墨韵味。
+21. 103093417 生成水彩画风格图像的方法及装置
+CN
+08.05.2013
+G06T 3/00 Loading...
+G06T 3/00
+Loading...
+201310037570.3
+深圳深讯和科技有限公司
+杨志雄
+G06T 3/00
+Loading...
+本发明涉及一种生成水彩画风格图像的方法，包括：获取原始图像；对所述原始图像进行模糊处理，生成模糊图像；对所述模糊图像进行边缘检测，生成边缘图像；对所述边缘图像进行反色处理，生成反色图像；对所述模糊图像与所述反色图像进行Alpha混合，生成水彩画风格图像。此外，还包括一种生成水彩画风格图像的装置。上述生成水彩画风格图像的方法及装置可以提高处理速度，且生成的水彩画风格图像表现出丰富灵动的色彩效果以及透明空灵的视觉感受。
+22. 103093437 生成铅笔画风格图像的方法及装置
+CN
+08.05.2013
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201310036238.5
+深圳深讯和科技有限公司
+杨志雄
+G06T 5/00
+Loading...
+本发明涉及一种生成铅笔画风格图像的方法，包括：获取原始图像；对所述原始图像进行灰度处理，生成灰度图像；对所述灰度图像进行最大值滤波操作，生成滤波图像；对所述滤波图像做反色处理，生成反色图像，对所述反色图像与所述灰度图像根据第一Alpha混合算子进行图像混合，生成混合图像；对所述原始图像与所述混合图像根据第二Alpha混合算子进行图像混合，生成铅笔画风格图像。此外，还包括一种生成铅笔画风格图像的装置。上述生成铅笔画风格图像的方法及装置可以提高处理速度，且生成的铅笔画风格图像表现出形与色的充分融合，充满唯美的铅笔淡彩以及卡通意趣。
+23. 103093438 生成中国画风格图像的方法及装置
+CN
+08.05.2013
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+201310036304.9
+深圳深讯和科技有限公司
+杨志雄
+G06T 5/00
+Loading...
+本发明涉及一种生成中国画风格图像的方法，包括：获取原始图像；对所述原始图像进行模糊处理，生成模糊图像；降低所述模糊图像的饱和度，并提高所述模糊图像的对比度和亮度，生成中国画风格图像。此外，还包括一种生成中国画风格图像的装置。上述生成中国画风格图像的方法及装置可以提高处理速度，且生成的中国画风格图像色彩淡雅自然具有中国画神韵。
+24. 103049922 移轴特效图像生成方法及装置
+CN
+17.04.2013
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+201210516792.9
+深圳深讯和科技有限公司
+王标
+G06T 11/00
+Loading...
+本发明涉及一种移轴特效图像生成方法，包括：获取原始图像；通过对所述原始图像进行高斯滤波得到原始图像副本；获取所述原始图像对应的混合系数；根据所述混合系数将所述原始图像和所述原始图像副本加权叠加生成移轴特效图像。此外，还包括一种移轴特效图像生成装置。上述移轴特效图像生成方法及装置可以提高操作的便利性。
+25. 103035019 图像处理方法及装置
+CN
+10.04.2013
+G06T 11/00 Loading...
+G06T 11/00
+Loading...
+201210532210.6
+深圳深讯和科技有限公司
+龚勇
+G06T 11/00
+Loading...
+本发明涉及一种图像处理方法，包括：获取输入的原始图像；根据所述输入的原始图像生成对应的灰度图像；通过对所述灰度图像进行非线性滤波得到滤波图像；通过将所述原始图像和所述滤波图像混合生成美化图像。此外，还包括一种图像处理装置。上述图像处理方法及装置可以提高处理速度。
+26. 103034856 定位图像中文字区域的方法及装置
+CN
+10.04.2013
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+201210552389.1
+深圳深讯和科技有限公司
+李冰
+G06K 9/20
+Loading...
+本发明涉及一种定位图像中文字区域的方法，包括：获取原始图像；通过Roberts算子对所述原始图像进行转换生成灰度图像；将所述灰度图像二值化得到边缘图像；将所述边缘图像膨胀，提取所述边缘图像的连通域的位置信息。此外，还包括一种定位图像中文字区域的装置。上述定位图像中文字区域的方法及装置可以提高定位的准确性。
+27. 103020621 中英文混排文字图像的切割方法及装置
+CN
+03.04.2013
+G06K 9/34 Loading...
+G06K 9/34
+Loading...
+201210572704.7
+深圳深讯和科技有限公司
+李冰
+G06K 9/34
+Loading...
+本发明涉及一种中英文混排文字图像的切割方法，包括：获取文本行图像区域，获取所述文本行图像区域的行高；通过投影法对所述文本行图像区域进行切分获取字符块；获取所述字符块的块高及块宽；根据所述行高、块高及块宽提取中文字符区域。此外，还包括一种中英文混排文字图像的切割装置。上述中英文混排文字图像的切割方法及装置可以提高识别的准确率。
+28. 202837627 一种使用插片式光分路器的光分路器单元箱
+CN
+27.03.2013
+G02B 6/44 Loading...
+G02B 6/44
+Loading...
+201220461428.2
+深圳市恒嘉和通讯科技有限公司
+谢科辉
+G02B 6/44
+Loading...
+本实用新型涉及一种光分路器单元箱，具体地说，涉及一种使用插片式光分路器的光分路器单元箱,包括箱体1、安装耳2、导轨3，单元箱内可安装插片式光分路器。单元箱安装尺寸采用标准19英寸安装结构，可以安装在19英寸标准机柜内。安装耳跟箱体前端的距离可根据需要调节，满足不同机柜安装位置的需要。单元箱内可安装16个1分8的插片式光分路器(8)，或可安装8个1分16的插片式光分路器，或可安装4个1分32的插片式光分路器，或可安装2个1分64的插片式光分路器，或可安装1个1分128的插片式光分路器。本产品结构紧凑，使用灵活，光分路器可视情况进行组合应用。
+29. 202837589 一种皮线光缆定长切割装置
+CN
+27.03.2013
+G02B 6/25 Loading...
+G02B 6/25
+Loading...
+201220461429.7
+深圳市恒嘉和通讯科技有限公司
+谢科辉
+G02B 6/25
+Loading...
+本实用新型涉及一种皮线光缆定长切割装置，它包括定长切割尺、光缆夹，该定长切割装置用于皮线光缆的定长切割，使用时将皮线光缆用皮线光缆剥线钳开剥一段长度，然后将开剥后的皮线光缆卡入光缆夹固定位置，将卡入皮线光缆的光缆夹放入定长切割尺的固定位置，用光纤涂覆层剥离钳紧靠定长切割尺的边缘开剥出一段裸光纤出来，用无尘布醮酒精将裸光纤擦干净，将整个装置放在光缆切割刀上切割。切割好的皮线光缆同机械式快速接头匹配使用。该定长切割装置简便、实用，能够快速切割出一段皮线光缆，且定位准确。
+30. 202837628 一种熔接配线储纤单元箱
+CN
+27.03.2013
+G02B 6/44 Loading...
+G02B 6/44
+Loading...
+201220461438.6
+深圳市恒嘉和通讯科技有限公司
+谢科辉
+G02B 6/44
+Loading...
+本实用新型涉及一种熔接配线储纤单元箱，具体地说，涉及一种带熔接、配线、储纤功能的单元箱，包括盖板、右安装板、右侧板、安装耳、底板、门板、储纤盘、左安装板、左侧板、导轨、熔接配线模块、背板，单元箱内可安装熔接配线模块、储纤盘。根据用户需要，熔接配线模块、储纤盘数量可任意调配，以满足用户不同使用环境的需求。
+31. 201633696 一种基于蓝牙终端的汽车防盗装置及包含该装置的汽车
+CN
+17.11.2010
+B60R 25/10 Loading...
+B60R 25/10
+Loading...
+201020119026.5
+深圳市和讯康科技有限公司
+薛振峰
+B60R 25/10
+Loading...
+本实用新型提供了一种基于蓝牙终端的汽车防盗装置及包含该装置的汽车，包括主控制模块、防盗输出控制接口、用于与所述蓝牙终端配对连接并监测所述蓝牙终端的状态值的蓝牙模块，所述主控制模块分别与所述蓝牙模块、防盗输出控制接口连接；所述主控制模块接收所述蓝牙模块的监测结果，在监测的状态值符合第一预设值时向所述防盗输出控制接口输出设防信号，在监测的状态值符合第二预设值时向所述防盗输出控制接口输出解防信号。本实用新型实现了一种安全方便的汽车防盗方式。
+32. 201569933 一种手机电脑
+CN
+01.09.2010
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+200920132649.3
+深圳市和强迪讯科技发展有限公司
+叶素清
+G06F 1/16
+Loading...
+一种手机电脑，解决了现有手机不能进行办公软件操作和窗口自由切换的问题。采用的技术方案是手机主体中还设置有电脑中央处理单元，与手机中央处理单元通过串行接口实现连接，电脑中央处理单元分别与显示屏、音响、麦克风、触摸式键盘、I/O通信接口电路直接相连，本实用新型结构中同时还设置有配套的多项任务同步调节控制电路，多工RF无线接收器将接收到的通讯信号经通讯信道模块传送给手机中央处理单元，手机中央处理单元发出任务请求信号给同步调节控制电路，同步控制电路进行判断后，将任务时序、顺序控制信号发送到电脑中央处理单元参照执行。本实用新型在进行任务切换时，能够自如的进行调节，安装和删除软件操作简单、快捷。
+33. 101610308 Mobile phone computer
+CN
+23.12.2009
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+200910107931.0
+Shenzhen Headsun Technology Co.,Ltd.
+Ye Suqing
+G06F 1/16
+Loading...
+A mobile phone computer helps solve the problem that the existing mobile phone can not perform office software operation and free switch of windows. The technical scheme adopted is characterized in that a mobile phone body is also provided with a computer central processing unit, connection between the mobile phone body and the computer central processing unit is realized by a serial interface, and the computer central processing unit is directly connected with a display screen, an audio device, a microphone, a touch keyboard and an I/O communication interface circuit respectively. Meanwhile, the mobile phone computer is also provided with a matched multi-task synchronous adjustment and control circuit, a multiplex RF wireless receiver transmits received communication signals to a mobile phone central processing unit by a communication channel module, and the mobile phone central processing unit sends a task request signal to the synchronous adjustment and control circuit which judges the task request signal and then sends a task time sequence signal and a sequential control signal to the computer central processing unit for implementation by reference. The mobile phone computer has the advantages of being capable of free adjustment in task switch, and simple and rapid software installation and deletion.
+34. 201233664 一种利用网络实现互动教学的装置
+CN
+06.05.2009
+G09B 5/00 Loading...
+G09B 5/00
+Loading...
+200820095105.X
+深圳市和强迪讯科技发展有限公司
+周秀英
+G09B 5/00
+Loading...
+本实用新型公开一种用于混合架构下的在线导学的利用网络实现互动教学的装置。该装置包括中央处理单元、输入单元、显示单元、网络连接单元，输入单元与中央处理单元的数据输入端连接，网络连接单元与中央处理单元的数据端连接，中央处理单元驱动显示单元进行显示。本实用新型结构新颖，使用时具有传统意义上的课本、练习本、文具盒和黑板的功能，改进了传统的教学工具和教学环境，实现了无纸化的网络互动教学和教育资源的共享，又具有较全面的交互通讯功能，便于学生与教师之间的及时交流；同时具有友好的个性化交互界面，能抓住学习者的注意力和思维，充分调动学习者积极性和主动性，打破时空条件的限制，使学生更有效地利用丰富的学习资源。
+35. 101325009 Apparatus for implementing interactive teaching using network
+CN
+17.12.2008
+G09B 5/08 Loading...
+G09B 5/08
+Loading...
+200810068051.2
+Shenzhen Headsun Technology Co., Ltd.
+Zhou Xiuying
+G09B 5/08
+Loading...
+The invention discloses a device for on-line guiding learning under a mixed framework and realizing interactive teaching by utilizing a network. The device comprises a central processing unit, an input unit, a display unit and a network linkage unit; the input unit is connected with the data input end of the central processing unit; the network linkage unit is connected with the data end of the central processing unit; and the central processing unit drives the display unit to display. The device has the advantages that the structure is novel; the device has the functions of a text book, an exercise book, writing case and a blackboard in traditional sense when in use; the traditional teaching tool and the teaching environment are improved; the share of network interaction teaching and education resources without paper is realized; the device further has relatively complete interactive communication function, thereby facilitating the opportune communication between students and teachers; the device has a friendly individualized interactive interface simultaneously, and can seize the attentiveness and the thought of learners, fully mobilize the activeness and the initiative of the learners, and break the restrain of time space conditions, so that the students can effectively utilize the rich learning resources.
+36. WO/2007/140721 A METHOD AND SYSTEM FOR DATA TRANSMISSION BASED ON PEER TO PEER
+WO
+13.12.2007
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+PCT/CN2007/070045
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+GONG, Yi
+H04L 12/28
+Loading...
+A method for data transmission based on peer to peer (P2P), creates a P2P link in advance between the transmitter and receiver, and the method also includes: A. the transmitter identifies the said transmitting data based on the type of transmitting data, and sends the identified transmitting data to the receiver based on the said P2P link, thereinto the types of transmitting data being at least one (101); B. the receiver analyses the transmitting data to gain the identification of the transmitting data, and processes the transmitting data basing on the type corresponding to the identification (102). The embodiment of the present invention also discloses a system for data transmission based on P2P.
+37. 2932709 一种机车通信系统中主机与终端的连接器的插座和插头
+CN
+08.08.2007
+H01R 13/62 Loading...
+H01R 13/62
+Loading...
+200620001516.9
+上海新干通通信设备有限公司
+陈志杰
+H01R 13/62
+Loading...
+本实用新型涉及一种机车通信系统中主机与终端连接器的插座，包括：一限位卡接外壳；一安装法兰，套接于所述限位卡接外壳外侧；一插针定位法兰，套接于所述限位卡接外壳内侧；数个插针或插针孔，枢接于所述插针定位法兰上。还涉及一种机车通信系统中主机与终端连接器的插头，包括：一内壳；一插针孔定位架，容置于所述内壳内；数个插针孔或插针，容置于所述插接体内；一快速安装螺旋卡接外壳，与所述内壳相套接，并形成一容置槽。因此，本实用新型机车通信系统中主机与终端的连接器的插座和插头，能够在列车强震动、强电磁干扰的环境中可靠和良好的通信。
+38. WO/2007/019809 A METHOD AND STSTEM FOR ESTABLISHING A DIRECT P2P CHANNEL
+WO
+22.02.2007
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+PCT/CN2006/002111
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+ZHU, Ye
+H04L 12/28
+Loading...
+A method for establishing a direct P2P channel, the method comprises: a server sends synchronization data packets containing at least address information about the other end to both the first and the second hosts after it received synchronization request from the first host; the first and the second hosts send UDP data packets to the other end immediately after they received synchronization data packets. The present invention also provides a system for establishing a direct P2P channel. By using the present invention, because the first and the second hosts have sent data packets to the other end when they received data packet from the other end, therefore, we can establish direct P2P channel for both end successfully in most cases. Accordingly, the present invention can increase success ratio of the establishment for direct P2P channels.
+39. WO/2006/131037 A SYSTEM AND METHOD FOR ACHIEVING THE DATA COMMUNICATION
+WO
+14.12.2006
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2006/000428
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+ZHU, Ye
+H04L 12/24
+Loading...
+A system and method for achieving data communication. A part of communication nodes are confirmed to be the super nodes in the system, and the respective super nodes forward the message based on the respective routing table to achieve the following contents: when a communication node registers the system, the network information of the said communication node registering the system is stored in the super node which most close with this node in logic, by means of the message forward between the respective super nodes. When the source communication node inquires the destination node, the network information of the destination communication node is returned by the super node which most close with the destination communication node in logic to the source communication node, by means of the message forward between the respective super nodes in the super nodes layer. The source node establishes the connection with the destination communication node using the acquired network information of the destination communication node, then achieves the data communication using this connection.
+40. WO/2006/099793 A SYSTEM FOR SENDING PREVIEW INFORMATION IN THE INSTANT MESSAGING SYSTEM AND THE CLIENT AND METHOD THEREOF
+WO
+28.09.2006
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+PCT/CN2006/000418
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+TANG, Mu
+H04L 12/58
+Loading...
+A system for transmitting preview information in the Instant Messaging system and the client and method thereof. The system comprises a recipient (400), a sender (100), an Instant Messaging system (200) and the Internet (300), and the sender (100) includes a preview information process module (101) and a sending module (104), while the recipient (400) includes a preview information process module (401), a preview information display module (402) and a receiving module (403), and the preview information process module (101) transforms the preview information into a code and sends it to the sending module (104), the sending module (104) sends it to the receiving module (403) via the Internet (300), and the receiving module (403) sends the code to the preview information process module (401) to transform it to the clue information indicating the preview information and sends it to the preview information display module (402) to display.
+41. 2822039 机车无线通信系统
+CN
+27.09.2006
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200520108986.0
+上海新干通通信设备有限公司
+陈志杰
+H04B 7/24
+Loading...
+本实用新型涉及一种机车无线通信系统，包括列尾主机，至少一个操作显示终端和与其相连接的主机，所述主机包括主控模块和天线馈线模块，以及与主控模块和天线馈线模块连接的800MHz列尾和列车安全预警车载电台、GSM－R话音模块、GSM－R数据模块、450MHz机车电台、450MHz调度命令模块、GPS模块、所述主机还连接有电源模块。因此，本实用新型机车无线通信系统同时满足了450MHz模拟通道的通信、800MHz通道上列尾和列车安全预警以及GMS－R网络下的语音和数据通信。
+42. WO/2006/034635 A METHOD FOR ESTABLISHING THE P2P CONNECTION
+WO
+06.04.2006
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2005/001564
+TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED
+LIANG, Zhu
+H04L 29/06
+Loading...
+A method for establishing the P2P connection, comprises the steps: first, the connecting party transmits a message which bears the address of the connecting party to the connected party via the center server; then, the connected party receives the said message, reads the address of the connecting party beared by the message, originates P2P connection to the address of connecting party, and establish the P2P connection. And the another method for establishing the P2P connection can implement the establishment of the P2P connection based on the type of UDP and TCP. The present invention used can implement the P2P connection originated by the connected party, and implement the establishment of the origination of the bidirectional P2P connection. The methed for establishing the multi-policy P2P connection provided by the present invention attempts to adopt the multi-policy to establish the P2P connection and raises the connection rate of P2P.
+43. 1710827 Locomotive number and train number registration and deregistration method in locomotive wireless communication system
+CN
+21.12.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078270.5
+Xingantong Communication Apparatus Co., Ltd., Shanghai
+ChenZhijie
+H04B 7/24
+Loading...
+The invention includes steps: (1) switching operation display terminals based on area covered by network; if it is district covered by GSM - R, then starting up GSM - R data module and executing step (2); if it is district covered by 450MHz analog network, then starting up 450MHz analog communication module and executing step (3); (2) based on GSM-R network, registration and cancellation of locomotive functional number and functional number of train number are carried out; if district entered is covered by 450MHz analog network, then step (3) is executed; (3) based on 450MHz analog network, registration and cancellation of locomotive number and train number are carried out; if district entered is covered by GSM-R network, then step (2) is executed. It is convenient to register and cancel locomotive number and train number in district covered by GSM - R or 450MHz analog network through the invention.
+44. 1702982 Locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078271.X
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system, which comprises engine tail, one operation display terminal and one host machine, wherein, the host comprises main control module and antenna feedback module and the 800MHz tail and safety pre-warning radio, GSM-R sound module and data module, 450MHz engine radio, 450MHz dispatching order module, GPS module. The invention meets the demands of 450MHz analogue channel communication, tail of 800MHz channel and pre-warning and the sound and data communication.
+45. 1702983 Communicating method of locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078272.4
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system method, which comprises the following steps: a, the operation display terminal switching according to path network, wherein, if the path covered by GSM-R network, then the operation and display terminal main control module sending sound module of GSM-R and data module information for starting GSM-R sound module and data module; b, if the path covered by the 450MHz network, then the operation and display terminal sending the starting information for starting; c, the antenna module receiving the sound calling information or dispatching orders or sending sound communication operations.
+

@@ -1,0 +1,61 @@
+1. 106657287 一种数据访问方法及系统
+CN
+10.05.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016001088642
+广州市千钧网络科技有限公司
+马锦涛
+H04L 29/08
+Loading...
+本发明公开了一种数据访问方法及系统，该方法包括：负载服务器接收到客户端发送的访问请求后，采样负载均衡算法为客户端分配一目标前端服务器，并向客户端发送携带目标前端服务器信息的分配消息，目标前端服务器为前端服务器集群中的一台处于正常工作状态的服务器；客户端在接收到分配消息后，向目标前端服务器发送业务请求；目标前端服务器在接收到业务请求后，获取为业务请求分配的目标后端服务器的信息，并向目标后端服务器发送业务请求，所述目标后端服务器为后端服务器集群中的一台服务器；目标后端服务器在接收到业务请求后，获取业务请求所请求的目标数据，并通过目标前端服务器向客户端返回目标数据。本发明能够提高数据访问的成功率。
+2. 106453289 一种视频直播的数据传输方法及传输装置
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610866819.5
+广州市千钧网络科技有限公司
+杨松
+H04L 29/06
+Loading...
+本发明实施例提供了一种视频直播的数据传输方法及传输装置，第一客户端与第二客户端建立UDP连接；采集第一主播的音频数据和图像数据；将所述第一主播的音频数据和图像数据通过所述UDP连接采用Web RTC协议发送至所述第二客户端。第一客户端通过UDP连接采用Web RTC协议将第一终端的音频数据和图像数据发送到第二客户端，UDP连接面向非连接，传输速度快，减小音频数据和图像数据传输的时延差，提高两个主播之间的互动性。
+3. 106326499 一种数据处理方法及装置
+CN
+11.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610899295.X
+广州市千钧网络科技有限公司
+周俊君
+G06F 17/30
+Loading...
+本发明公开了一种数据处理方法及装置，用于提高在高并发情况下对操作对象进行操作的效率，该方法包括：获取对操作对象进行操作的请求，对操作对象进行操作的请求中包括用户标识以及操作对象标识；查询外部缓存中是否存在用户标识对应的用户信息，如果外部缓存中存在用户标识对应的用户信息，从外部缓存中获取用户标识对应的用户信息；查询内存中是否存在操作对象标识对应的配置信息，如果内存中存在操作对象标识对应的配置信息，从内存中获取操作对象标识对应的配置信息；当用户标识对应的用户信息与操作对象标识对应的配置信息匹配时，对操作对象进行操作并生成包括用户标识以及操作对象标识的操作信息；将操作信息写入至数据库的一个分表中。
+4. 106331791 一种数据处理方法及装置
+CN
+11.01.2017
+H04N 21/262 Loading...
+H04N 21/262
+Loading...
+102016000836704
+广州市千钧网络科技有限公司
+朱俊荣
+H04N 21/262
+Loading...
+本发明公开了一种数据处理方法，用于为用户的资源转移操作提供提示特效，该方法包括：从消息队列接收用户资源模块推送的资源转移数据，所述资源转移数据包括用户标识、用户群组标识以及资源消耗值；根据所述资源转移数据生成所述用户群组标识对应的资源累加值；当所述用户群组标识对应的资源累加值达到预设阈值时，通过广播模块向所述用户群组标识对应的客户端发送显示提示消息，以使所述用户群组标识对应的客户端在接收到所述显示提示消息后显示提示特效。本发明还公开了一种数据处理装置。
+5. 101957752 FLASH video previewing method and system thereof, and FLASH player
+CN
+26.01.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010275194.8
+Guangzhou Qianjun Network Technology Development Co., Ltd.
+Huang Yixin
+G06F 9/44
+Loading...
+The invention provides a FLASH video previewing method and a system thereof, and a FLASH player. The FLASH video previewing method comprises the following steps of calculating a previewing time point according to the position of a mouse positioned on a playing progress bar; obtaining the corresponding previewing video data according to the previewing time point; and establishing a Video object to load the previewing video data and playing the video picture corresponding to the previewing time point in the previewing video data in a previewing window. In the FLASH video previewing method, the previewing time point of users is judged according to the position of the mouse on the playing progress bar to generate the corresponding video previewing graph so as to be convenient for the users to preview other part content in the course of playing a FLASH video; the FLASH video playing function can be perfected; the video playing function can be enriched; and the user experience can be enhanced.
+

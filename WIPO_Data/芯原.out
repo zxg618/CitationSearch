@@ -1,0 +1,517 @@
+1. 106570494 基于卷积神经网络的交通信号灯识别方法及装置
+CN
+19.04.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016001021336
+北京智芯原动科技有限公司
+谢静
+G06K 9/00
+Loading...
+本发明提供了基于卷积神经网络的交通信号灯识别方法，该方法包括：选取标签信号灯形状的样本图像，对卷积神经网络进行训练，输出训练好的信号灯形状识别模型；通过车载相机采集场景的彩色图像；选取彩色图像的待分割区域，进行黑色分割处理，提取黑色区域；提取原始图像中对应黑色区域的图像作为灯板图像；从灯板图像中分割出红色、绿色、黄色和蓝色区域，并分别提取原始图像中对应红色、绿色、黄色和蓝色区域的图像作为红灯、绿灯、黄灯和蓝灯图像；采用训练好的信号灯形状识别模型对红灯、绿灯、黄灯和蓝灯图像进行信号灯形状识别；输出信号灯的颜色和形状识别结果。与现有技术相比，本发明能快速地识别4种颜色、10种形状的交通信号灯。
+2. 106488234 HEVC编码单元级码率控制的实现装置及方法
+CN
+08.03.2017
+H04N 19/146 Loading...
+H04N 19/146
+Loading...
+102015000532605
+芯原微电子（上海）有限公司
+黄莹
+H04N 19/146
+Loading...
+本发明提供一种HEVC编码单元级码率控制的实现装置及方法，所述实现装置包括：复杂度分布统计模块，用于统计前一帧图像各最大编码单元的复杂度分布信息；复杂度阈值计算模块，用于根据前一帧图像中各最大编码单元的复杂度分布信息，计算当前帧的复杂度阈值；以及量化参数处理模块，将当前帧各最大编码单元的复杂度与当前帧复杂度阈值进行比较，最终确定当前帧各最大编码单元的量化参数。本发明根据前一帧图像中各最大编码单元LCU的复杂度分布情况可确定当前帧图像的复杂度阈值，通过当前帧各LCU复杂度与所确定阈值相比较得出其对应的量化参数。本发明可在资源受限的系统上，实现低复杂度、低运算量、低延时的LCU级码率控制，提升视频编码的主观质量。
+3. 106485224 一种安全带佩戴识别方法及装置
+CN
+08.03.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610892329.2
+北京智芯原动科技有限公司
+谢静
+G06K 9/00
+Loading...
+本发明提供了一种安全带佩戴识别方法，该方法包括：选取标签的样本图像，采用深度卷积神经网络进行训练，获取训练好的安全带佩戴识别模型；获取车牌区域；获取前车窗区域；提取驾驶位区域和副驾驶位区域；检测副驾驶位区域，若副驾驶位区域存在人脸，则转入第六步骤，否则转入第七步骤；利用训练好的安全带佩戴识别模型对副驾驶位区域进行识别，标注出异常佩戴安全带或者未佩戴安全带的区域；利用训练好的安全带佩戴识别模型对驾驶位区域进行识别，标注出异常佩戴安全带或者未佩戴安全带的区域；输出标注区域。本发明能同时识别出驾驶位与副驾驶位的安全带佩戴情况，且识别准确率高。
+4. 106446811 基于深度学习的驾驶员疲劳检测方法及装置
+CN
+22.02.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610818104.2
+北京智芯原动科技有限公司
+谢静
+G06K 9/00
+Loading...
+本发明提供了基于深度学习的驾驶员疲劳检测方法，该方法包括：选取不同状态的驾驶员图像作为样本图像，对具有深度学习的神经网络进行训练，获取训练好的驾驶员状态识别模型；采集驾驶员的视频图像；采用人脸检测算法从每帧视频图像中获取人脸区域；采用训练好的驾驶员状态识别模型对每帧视频图像的人脸区域进行识别，获取每帧视频图像中驾驶员的状态；根据连续帧的视频图像中驾驶员的状态，采用眨眼分析、打哈欠分析、综合分析判断驾驶员是否疲劳，并输出结果。与现有技术相比，本发明能准确地检测驾驶员是否疲劳。
+5. 106407878 基于多分类器的人脸检测方法及装置
+CN
+15.02.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610487857.X
+北京智芯原动科技有限公司
+曾建平
+G06K 9/00
+Loading...
+本发明提供了基于多分类器的人脸检测方法，该方法包括：选取正样本图像和负样本图像，通过K‑means聚类算法对正样本图像进行聚类，获取聚类正样本集；采用Cascade算法分别利用主分类器和子分类器对聚类正样本集和负样本图像进行训练，获取训练好的主分类器和子分类器；输入图像，根据训练好的主分类器和子分类器对输入的图像进行检测，输出检测结果。与现有技术相比，本发明能够从复杂的图像中检测出人脸，检测准确率较高。
+6. 104714590 一种NMOS驱动输出带隙基准电路
+CN
+01.02.2017
+G05F 1/56 Loading...
+G05F 1/56
+Loading...
+102015000012144
+芯原微电子（上海）有限公司
+朱彤
+G05F 1/56
+Loading...
+本发明提供一种NMOS驱动输出带隙基准电路，包括提供偏置电压的启动电路模块、用于固定带隙基准模块的两个反馈输入端的节点电压的运算放大器模块以及用于产生零温度系数的基准电压的带隙基准模块；所述启动电路模块向所述运算放大器模块及所述带隙基准模块提供偏置电压。本发明使用NMOS作为带隙基准电压的输出，提高了带隙基准的驱动能力；使用PMOS镜像启动电路的电流，带隙基准零温度系数产生电路流过几百nA电流，增强带隙基准的启动能力，提高电路的可靠性；使用单位电阻并联串联来等效电阻R0，提高电阻匹配性能，优化带隙基准精度；使用在NMOS驱动管和电源之间串联电阻，提高电路的静电保护能力。
+7. 106294144 串行通信协议的测试向量的生成方法、系统及服务器
+CN
+04.01.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201610634369.7
+芯原微电子（上海）有限公司
+廖毅
+G06F 11/36
+Loading...
+本发明提供一种串行通信协议测试向量的生成方法、系统及服务器，所述生成方法包括：分析串行通信协议的操作时序要求和时钟周期；根据串行通信协议的时序要求和时钟周期，提取与串行通信协议的操作时序要求对应的测试矢量，将提取到的测试矢量按时钟周期组成所述测试矢量的顺序集合，将提取到的测试矢量的顺序集合编辑为待测实体的时序模板；按照测试机的预设编辑格式，对待测实体的时序模板进行改写；将改写后的串行通信协议的时序模板按照测试机的固定向量格式，编辑串行通信协议的测试向量文件。本发明在提高效率的同时不产生额外的成本，完全回避了仿真、生成VCD文件、转换VCD等耗费时间的中间过程。
+8. 106289159 基于测距补偿的车辆测距方法及装置
+CN
+04.01.2017
+G01C 3/00 Loading...
+G01C 3/00
+Loading...
+102016000608255
+北京智芯原动科技有限公司
+崔凯
+G01C 3/00
+Loading...
+本发明提供了基于测距补偿的车辆测距方法，该方法包括：采用相机内参标定算法计算车载相机的内参；利用陀螺仪测量车载相机的俯仰角，利用标尺测量车载相机离地面的真实高度；将参考车辆分别停放在N个不同的位置，利用激光测距仪、单目视觉车辆测距方法分别获取停放在N个不同位置参考车辆的真实距离集、预估距离集，并获取距离差值集；采集视频图像，采用车辆检测算法从视频图像中检测出目标车辆；利用单目视觉车辆测距方法获取目标车辆的预估车距，获取与预估车距相对应的距离补偿值；根据预估车距和距离补偿值，计算目标车辆的车距并输出。与现有技术相比，本发明通过测距补偿提高了车辆测距的准确度且测距速度快。
+9. 106295491 车道直线检测方法及装置
+CN
+04.01.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610134621.8
+北京智芯原动科技有限公司
+崔凯
+G06K 9/00
+Loading...
+本发明提供一种车道直线检测方法和装置，该方法包括：图像处理步骤，即，对图像采集获得的路面车道的图像进行格式转换，并对格式转换后的图像进行二值化处理；Hough变换步骤，即，对所述二值化处理中的灰度值为255的N个像素点进行Hough变换，以在θ‑r极坐标系下获得N条曲线，根据所述N条曲线的满足所设定的阈值条件的M个交点获得x‑y坐标系下的M条直线；以及直线合并步骤，即，在所述Hough变换步骤中获得的所述M条直线中，对一条车道对应多条直线方程的情形，利用半径约束将所述多条直线方程合并为一条直线方程。
+10. 106295635 车牌识别方法及系统
+CN
+04.01.2017
+G06K 9/32 Loading...
+G06K 9/32
+Loading...
+201610090025.4
+北京智芯原动科技有限公司
+崔凯
+G06K 9/32
+Loading...
+本发明应用于多媒体技术领域，尤其是图像处理领域，提出了一种基于多分类器选择的车牌识别方法及系统。该车牌识别方法对数据样本和待测样本进行特征提取，并且通过训练获得多个单分类器；对待测样本进行近邻选择，并对待测样本和近邻选择的近邻训练样本进行分类；通过近邻训练样本的权值计算进行多分类器选择；并对待测样本进行多分类器的加权融合分类。通过上述步骤，使得对于每个待测样本，多个分类器的权重是动态变化的，因此，这种方式的多分类器分类的融合具有高度的自适应性，提高了分类的精度。
+11. 106250845 基于卷积神经网络的火焰检测方法及装置
+CN
+21.12.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016000609104
+北京智芯原动科技有限公司
+谢静
+G06K 9/00
+Loading...
+本发明提供了基于卷积神经网络的火焰检测方法，该方法包括：选取标签的样本图像，利用卷积神经网络对样本图像进行训练，获取训练好的模型；提取彩色的场景图像中的疑似火焰点，将疑似火焰点作为前景点，获取二值图像；采用连通区域法对二值图像进行连通区域处理，获取一系列的连通区域；对连通区域进行筛选，获取候选区域；利用训练好的模型对候选区域进行识别，输出识别结果。与现有的火焰检测技术相比，本发明的火焰检测准确率高，且鲁棒性较好。
+12. 106203422 基于HSV颜色空间的车牌遮挡检测方法及装置
+CN
+07.12.2016
+G06K 9/32 Loading...
+G06K 9/32
+Loading...
+102016000487685
+北京智芯原动科技有限公司
+班华忠
+G06K 9/32
+Loading...
+本发明提供了基于HSV颜色空间的车牌遮挡检测方法，该方法包括：第一步骤，采用车牌定位算法从输入图像中提取车牌区域；采用字符分割算法对车牌区域进行分割，获取分割的字符区域；根据字符区域的HSV颜色均匀性，判断车牌区域是否存在颜色异常，若存在颜色异常，则输出车牌区域存在遮挡，否则转入第四步骤；对车牌区域进行灰度化处理，根据车牌区域的灰度均匀性，判断车牌区域是否存在灰度异常，若存在灰度异常，则输出车牌区域存在遮挡，否则输出车牌区域不存在遮挡。与现有技术相比，本发明可以快速的检测输入图像中的车牌是否存在遮挡，检测准确率高且鲁棒性好。
+13. 205722831 窗口式氮化硅板
+CN
+23.11.2016
+G21K 7/00 Loading...
+G21K 7/00
+Loading...
+201620360000.7
+苏州原位芯片科技有限责任公司
+王建平
+G21K 7/00
+Loading...
+本实用新型涉及一种窗口式氮化硅板，包括有硅垫底层，其特点是：硅垫底层的上方外围设置有单晶硅外框，硅垫底层上分布有凹槽结构，凹槽内分布有若干单晶硅支架梁，若干单晶硅支架梁相互之间间隔排布，构成框架阵列，框架阵列之间形成氮化硅窗口，硅垫底层的上方、硅垫底层的下方、单晶硅支架梁的顶端，均分布有氮化硅膜层。由此，单晶硅支架梁的高度与宽度采用精简化设计，保证承载能力的同时，无需向外延长发展，降低了使用成本。并且，即便是某些特殊情况下，需要进行外延分布，高度亦可以超过20um，减少了规格上的限制。采用框架阵列的构造，整体结构稳定，有效承载外界应力。制造便利，实施工艺简单，实际投产的成品优良率高。
+14. 106022285 一种基于卷积神经网络的车款识别方法及装置
+CN
+12.10.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610368032.6
+北京智芯原动科技有限公司
+李志国
+G06K 9/00
+Loading...
+本发明提供了一种基于卷积神经网络的车款识别方法，该方法包括：选取标签车款的车脸灰度图像为样本，采用卷积神经网络对样本进行反复训练，获取训练好的车款识别模型；采集场景的视频图像；从场景的视频图像中获取车脸区域；利用训练好的车款识别模型对车脸区域进行识别，输出车款识别结果。与现有技术相比，本发明的车款识别方法的识别准确率较高。
+15. 105976392 基于最大输出概率的车辆轮胎检测方法及装置
+CN
+28.09.2016
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+102016000369372
+北京智芯原动科技有限公司
+崔凯
+G06T 7/00
+Loading...
+本发明提供了基于最大输出概率的车辆轮胎检测方法，该方法包括：获取样本图像的HOG特征向量，采用SVM分类器进行训练，获取训练好的分类器；采集场景图像；利用训练好的分类器进行检测，获取感兴趣区域及输出概率；获取基准区域，构建基准区域与感兴趣区域的直线，计算这些直线与水平方向的夹角，根据夹角确定轮胎区域，并输出结果。与现有技术相比，本发明可以快速检测出轮胎区域，且鲁棒性较好，可用于车辆定位中。
+16. 103762948 一种集成于片上系统的CMOS 射频功率放大器
+CN
+28.09.2016
+H03F 1/30 Loading...
+H03F 1/30
+Loading...
+102013000724049
+芯原微电子（上海）有限公司
+黄志忠
+H03F 1/30
+Loading...
+本发明提供一种集成于片上系统的CMOS射频功率放大器，所述功率放大器集成于片上系统SOC中，实现输出信号功率放大的功能；所述功率放大器包括偏置电路、第一级放大电路、第二级放大电路及输出匹配电路。本发明的功率放大器采用CMOS工艺实现，很好地集成到SOC芯片中，因此能够单芯片实现功率控制和脉宽调制（PWM）；与以往分立元件或者III‑V族化合物半导体实现的功率放大器相比，本发明的功率放大器具有双重功率可调，不需要单独的外部控制芯片，大大节省了应用系统的成本，更方便了系统的调试；并且本发明的功率放大器具有多频段输出功率可调，可以广泛运用在从10MHz到1GHz范围内的多种应用中。
+17. 105975970 一种基于SVF的车牌定位方法及装置
+CN
+28.09.2016
+G06K 9/32 Loading...
+G06K 9/32
+Loading...
+102016000367923
+北京智芯原动科技有限公司
+谢静
+G06K 9/32
+Loading...
+本发明提供了一种基于SVF的车牌定位方法，该方法包括：采集场景彩色图像；采用SVF对场景彩色图像进行分割，提取前景图像；对前景图像进行连通区域处理，获取连通区域；对连通区域进行筛选，获取候选区域并输出。与现有技术相比，本发明能实现复杂环境下的快速车牌定位。
+18. 105956524 一种交通标识识别方法及装置
+CN
+21.09.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610256273.1
+北京智芯原动科技有限公司
+谢静
+G06K 9/00
+Loading...
+本发明提供了一种交通标识识别方法，该方法首先利用卷积神经网络对标签的交通标识图像进行特征训练，获得深度学习模型，然后对图像进行SVF颜色分割，获得候选区域，最后使用深度学习模型对候选区域进行交通标识识别并输出结果。与现有技术相比，本发明的交通标识识别方法识别率较高，实用性较强。
+19. 105930800 一种车道线检测方法及装置
+CN
+07.09.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016000252133
+北京智芯原动科技有限公司
+耿磊
+G06K 9/00
+Loading...
+本发明提供了一种车道线检测方法，该方法包括：采集现实中的场景图像；对场景图像进行逆透视变换，获取鸟瞰图像；计算鸟瞰图像在水平方向上的梯度；进行梯度宽度滤波，获取候选线段离散点；用聚类算法对候选线段离散点进行聚类；对每一个聚类上的离散点进行特征点筛选，获取特征点；用最小二乘法拟合特征点获取候选车道线；对候选车道线进行筛选并输出车道线。本发明能较好地检测复杂场景下的车道线。
+20. 105930803 一种基于Edge Boxes的前车检测方法及装置
+CN
+07.09.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201610256259.1
+北京智芯原动科技有限公司
+耿磊
+G06K 9/00
+Loading...
+本发明提供了一种基于Edge Boxes的前车检测方法，该方法包括：采集场景图像；对场景图像进行灰度处理，获取灰度图像；采用Edge Boxes算法提取灰度图像中的候选车辆窗口；利用分类器对候选车辆窗口进行识别并输出结果。与现有技术相比，本发明可以实现复杂场景中的前车检测，且鲁棒性和实用性较强。
+21. 105914121 三角形单晶硅支撑粱结构式X射线氮化硅窗口构造及其制备方法
+CN
+31.08.2016
+H01J 35/18 Loading...
+H01J 35/18
+Loading...
+102016000265059
+苏州原位芯片科技有限责任公司
+王建平
+H01J 35/18
+Loading...
+本发明涉及一种三角形单晶硅支撑粱结构式X射线氮化硅窗口构造及其制造方法，其特点是通过掩膜层氮化硅膜生长，光刻与刻蚀，湿法刻蚀，氮化硅膜生长，背面套刻与刻蚀，湿法刻蚀工艺来获得最终产品，构成薄层三角形结构框架阵列，在框架阵列之间形成氮化硅窗口。由此，可实现更粗的支撑梁，支撑梁结构稳定，实施制备工艺简单。
+22. 105892553 电源电压上电检测电路及其检测上电的实现方法
+CN
+24.08.2016
+G05F 3/26 Loading...
+G05F 3/26
+Loading...
+102016000297935
+芯原微电子（上海）有限公司
+丁川
+G05F 3/26
+Loading...
+本发明提供一种电源电压上电检测电路及其检测上电的实现方法，所述电源电压上电检测电路至少包括：电源电压检测电路，与所述电源电压检测电路连接的电压比较器电路，以及与所述电压比较器电路连接的电平转换电路。本发明的电源电压上电检测电路，避免了输出电压出现的抖动和翻转现象，同时有效地提高了电路输出电压的驱动能力；其阈值电压随温度的变化小，具有高精度、低温度系数的特点；其结构简单，功耗小，有效降低了现有电路的复杂度，减小了电路的功耗。本发明的电源电压上电检测电路检测上电的实现方法，方法简单，检测上电速度快，有效提高了检测效率，同时避免了在检测上电时，电源电压上电检测电路的阈值电压随温度变化大而导致的精度低的问题。
+23. 105869183 基于单波段的火焰检测方法及装置
+CN
+17.08.2016
+G06T 7/20 Loading...
+G06T 7/20
+Loading...
+102016000176995
+北京智芯原动科技有限公司
+谢静
+G06T 7/20
+Loading...
+本发明提供了基于单波段的火焰探测方法，该方法包括：采集经过滤光处理后的滤光图像；对滤光图像进行帧间分析，获取候选区域；对候选区域进行筛选；将剩余的候选区域作为火焰检测图像并输出。与现有技术相比，本发明的火焰检测方法及装置具有更好的实用性。
+24. 105868697 一种快速人头检测方法及装置
+CN
+17.08.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102016000176753
+北京智芯原动科技有限公司
+曾建平
+G06K 9/00
+Loading...
+本发明提供了一种快速人头检测方法，包括：根据标定线段计算分辨率图像和人头的最小半径图像和最大半径图像；计算图像的边缘点图像和边缘梯度向量图像；根据霍夫投票，获取霍夫空间图像；提取人头候选点；计算候选人头半径和置信度，并获取候选人头区域；对候选人头区域进行筛选；将剩余的候选人头区域作为人头检测区域并输出。本发明实现了人头的快速检测，可运用于行人计数中。
+25. 105844642 基于高速相机的多波段火焰探测方法及装置
+CN
+10.08.2016
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+102016000176796
+北京智芯原动科技有限公司
+班华忠
+G06T 7/00
+Loading...
+本发明提供了基于高速相机的多波段火焰探测方法，该方法包括：采集初始滤光处理后的高频率图像；对采集的高频率图像帧差分析，判断是否存在帧差明显区域，若存在则转入第三步骤，否则直接输出无火焰图像；获取火焰检测图像并输出。与现有技术相比，本发明的火焰检测的准确率更高。
+26. 105100799 一种减少HEVC编码器中帧内编码时延的方法
+CN
+25.11.2015
+H04N 19/11 Loading...
+H04N 19/11
+Loading...
+201510202656.6
+芯原微电子（北京）有限公司
+付桂鹏
+H04N 19/11
+Loading...
+本发明公开了一种减少HEVC编码器中帧内编码时延的方法，包括以下步骤：S1、对待编码的最大编码单元做模式决策，获得其所有子编码单元分割结果和预测模式决策结果；S2、将待编码的最大编码单元所选择的结果发送至调度器；S3、调度器通过反向触发标记的方法生成当前最大编码单元的基本单元的数据依赖图；S4、根据所述数据依赖图驱动帧内编码单元运算；S5、调度器根据所述运算结果准备下一个帧内编码单元输入所需数据，并触发所述下一个帧内编码单元运行。本发明的方法减小了帧内编码模式中最大编码模块的时延，实现了流水线处理，采用反向触发标记的方法解决了在高效视频编码中如何判断各个编码单元的依赖问题。
+27. WO/2014/190670 METHOD AND CIRCUIT FOR PROVIDING ZERO-TEMPERATURE COEFFICIENT VOLTAGE AND CURRENT
+WO
+04.12.2014
+G05F 3/30 Loading...
+G05F 3/30
+Loading...
+PCT/CN2013/086515
+STATE GRID CORPORATION OF CHINA (SGCC)
+LI, Zhenguo
+G05F 3/30
+Loading...
+A method and a circuit for providing a zero-temperature coefficient voltage and current. The circuit comprises a first bipolar transistor (Q1), a second bipolar transistor (Q2), a first field-effect transistor (M1), a second field-effect transistor (M2), an operational amplifier (A), a first resistor (R1), a second resistor (R2), a third resistor (R3), and a fourth resistor (R4). A collector and a base of the first bipolar transistor (Q1) are grounded, and an emitter is connected to one end of the second resistor (R2) and an inverting input end (VN) of the operational amplifier (A). A collector and a base of the second bipolar transistor (Q2) are grounded, an emitter is connected to one end of the first resistor (R1), and the other end of the first resistor (R1) is connected to one end of the third resistor (R3) and a non-inverting input end (VP) of the operational amplifier (A). A drain of the first field-effect transistor (M1) is connected to the other end of the second resistor (R2), the other end of the third resistor (R3) and one end of the fourth resistor (R4), and the other end of the fourth resistor (R4) is grounded. Gates of the two field-effect transistors are simultaneously connected to an output end of the operational amplifier (A), and sources are simultaneously connected to a power supply (VDD). By means of the method and the circuit, the zero-temperature coefficient voltage and current can be simultaneously provided.
+28. WO/2014/190666 DETECTION CIRCUIT AND DETECTION METHOD FOR POWER GLITCH SIGNAL
+WO
+04.12.2014
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+PCT/CN2013/086267
+STATE GRID CORPORATION OF CHINA (SGCC)
+YANG, Xiaokun
+G01R 31/00
+Loading...
+A detection circuit and detection method for a power glitch signal. The detection circuit comprises: a power supply, a comparator, a first capacitor, a second capacitor, a first resistor, a second resistor, and a third resistor, wherein the positive input port of the comparator is connected to one electrode of the power supply via the first capacitor, and the negative input port of the comparator is connected to the other electrode of the power supply via the second capacitor; the power supply comprises the positive electrode of the power supply and the negative electrode of the power supply; the first resistor, the second resistor and the third resistor are connected in series; a current is input from the first resistor, and the third resistor is connected to the ground; the first capacitor is connected to the positive input port of the comparator via a connection point of the first resistor and the second resistor; and the second capacitor is connected to the negative input port of the comparator via a connection point of the second resistor and the third resistor.
+29. 103873870 Optimized AEC decoder
+CN
+18.06.2014
+H04N 19/44 Loading...
+H04N 19/44
+Loading...
+201410070447.6
+芯原微电子（上海）有限公司
+崔明礼
+H04N 19/44
+Loading...
+The invention provides an optimized AEC decoder, at least comprising a data flow input storage, a CTX storage, a CTX access control unit, a CTX index calculation unit, a CTX index initial address unit, a CTX index table initial address unit, an AEC decoding parameter buffer, a CTX parameter buffer, a CTX parameter updating circuit, an AEC decoding initial parameter calculation unit, an AEC decoding middle parameter calculation unit, an AEC decoding parameter updating unit, a binary bit decoding calculation unit, a binaryzation unit, a syntactic element unit and a run and level output storage. The optimized AEC decoder adopts storages for both input and output, so a flow line structure can be formed by the AEC decoder together with the subsequent decoding units, so the whole decoding speed is improved; meanwhile, the AEC decoder can work under the ultra-high-speed clock frequency, so the decoding speed is increased in a multiplying mode, the increment multiply is determined by the frequency of a work clock, and the decoding throughput rate is improved by 3-4 times compared with that of a standard circuit realized according to all original steps.
+30. 103793208 Data processing system for collaborative operation of vector DSP and coprocessors
+CN
+14.05.2014
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201410029998.8
+芯原微电子（上海）有限公司
+彭正宏
+G06F 9/38
+Loading...
+The invention provides a data processing system for the collaborative operation of a vector DSP and coprocessors. The data processing system comprises the vector DSP serving as a main processor, the coprocessors, an order memory and a data memory. The coprocessors are coupled with vector arithmetic units in the vector DSP together. The coprocessors comprise a tight coupling work mode and a loose coupling work mode. According to the data processing system for the collaborative operation of the vector DSP and the coprocessors, coprocessor orders are divided into three categories and are merged into a main processor order set in a unified mode; the coprocessors are coupled with the vector arithmetic units in the high-performance vector DSP to enable the coprocessors to obtain data resources equivalent to the data resources of the corresponding vector arithmetic units; the tight coupling work mode and the loose coupling work mode of the coprocessors are provided, and the data processing system is suitable for operation characteristics of the different coprocessors; a plug-in matrix type coprocessor cluster is formed by externally connecting an arbiter and adjusting the number of the arithmetic units, and different application requirements are met.
+31. 103281533 用于可伸缩视频编码中增强层运动估计的设备和方法
+CN
+04.09.2013
+H04N 19/30 Loading...
+H04N 19/30
+Loading...
+201310178010.X
+芯原微电子（北京）有限公司
+付桂鹏
+H04N 19/30
+Loading...
+在视频编码器的设计中，运动估计是运算量最大，运算复杂度最高的部分。在对可伸缩视频编码器中，利用层间的相关性，可以减小增强层的运动估计的复杂性。本发明提出一种方法，利用较低分辨率的图层的运动信息，对增强层的运动矢量进行粗略估算，从而减少了增强层的运动估计的范围，从而减少了运算复杂性。
+32. 103248895 一种用于HEVC帧内编码的快速模式估计方法
+CN
+14.08.2013
+H04N 19/567 Loading...
+H04N 19/567
+Loading...
+201310178025.6
+芯原微电子（北京）有限公司
+付桂鹏
+H04N 19/567
+Loading...
+本发明提出了一种用于HEVC帧内编码的快速模式估计方法。在HEVC(High？Efficient？Video？Coding)视频编码的规范中，帧内编码的可用模式更复杂，在编码中要从更多的预测角度中选出最佳的模式。这使编码器的运算复杂性大大增强。本发明提出一种方法，首先计算出各行或列的整数点预测误差及其所对应的模式角度，然后通过插值的方法估算各种模式对应角度下的各行或列的预测误差，最后将各行或列的对应模式的预测误差合并作为整个预测模式的预测误差。用这种方法，可以较快速地完成对不同角度下进行帧内预测的预测误差的估算，从而帮助最终决策出较优的预测模式。
+33. 103024389 一种用于HEVC的解码装置和方法
+CN
+03.04.2013
+H04N 19/44 Loading...
+H04N 19/44
+Loading...
+201210566569.5
+芯原微电子（北京）有限公司
+张琪
+H04N 19/44
+Loading...
+本发明提供了一种用于HEVC的解码装置和方法，该装置的解码子模块处理的基本数据单元不是尺寸最大到64x64的编码单元，而是在较小的数据区域（如32x32、16x16或8x8区域）内的变换单元或预测单元。基于这种设计的H EVC解码装置不需要每个解码子模块都支持最大尺寸可能为64x64的编码单元，而是根据产品定义的子模块处理的最大数据区域来设计系统流水线架构，这样可以显著的节省本地存储器的开销。
+34. WO/2013/010362 INTEGRATED CIRCUIT AND METHOD FOR DEFENDING AGAINST POWER ATTACK
+WO
+24.01.2013
+G06F 21/76 Loading...
+G06F 21/76
+Loading...
+PCT/CN2011/083060
+CHINA ELECTRIC POWER RESEARCH INSTITUTE
+YUAN, Yidong
+G06F 21/76
+Loading...
+Provided are an integrated circuit and a method for defending against a power attack. The integrated circuit comprises: a power source, a power source management module (2), an algorithm module (3), a storage unit (4), control logic (5) and an attack defense module (6). The attack defense module (6) has a true random number generator (9) and a scrambling algorithm module (10). A CMOS integrated circuit is used in the scrambling algorithm module (10). The method utilizes the scrambling algorithm module (10) to process N random signals Xctrl[N:l], so as to generate N control signals Yctrl[N:l]. The integrated circuit and method enables a random consumption circuit to have a high degree of randomness, thereby desirably covering the power curve, and enhancing the security and reliability of information communication of the entire chip.
+35. 102833542 Device and method for increasing coding speed of quality enhancement layer in scalable video coding
+CN
+19.12.2012
+H04N 19/103 Loading...
+H04N 19/103
+Loading...
+201210283403.2
+芯原微电子（北京）有限公司
+张琪
+H04N 19/103
+Loading...
+The invention relates to a device and a method for increasing the coding speed of a quality enhancement layer in scalable video coding. The device and the method are used for generating multilayer quality scalable video coding data according to image data to be coded, reference image data and reference data for inter-layer prediction and reserved during coding. The device and the method have the advantages that coding system design complexity and arithmetic unit implementation complexity are lowered, and bus bandwidth is saved while the coding speed of the quality enhancement layer is increased.
+36. 102831215 Method and device for processing text based on embedded metalanguage instruction
+CN
+19.12.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210293466.6
+芯原微电子（北京）有限公司
+张扬
+G06F 17/30
+Loading...
+The invention discloses a method and a device for processing a text based on an embedded metalanguage instruction. The method includes: a user enters a metalanguage instruction to an original text file to generate the text file with the embedded metalanguage instruction; and a filter engine processes the text file with the embedded metalanguage instruction, identifies the embedded metalanguage instruction, filters selectively, encrypts and decrypts text contents according to the metalanguage instruction, and outputs to generate a target file. By the method and the device, file storage space is saved, manual maintenance cost is saved, and safety of the text contents is protected.
+37. 102801980 Scalable video coding decoding device and method
+CN
+28.11.2012
+H04N 19/129 Loading...
+H04N 19/129
+Loading...
+201210283405.1
+芯原微电子（北京）有限公司
+张琪
+H04N 19/129
+Loading...
+The invention provides a scalable video coding decoding device and method. The device comprises an arithmetic unit in which all operations related to scalable video decoding are performed, a memory unit used for storing input data, output data and intermediate data and a bus for data transmission between the arithmetic unit and the memory unit. According to the device and the method which are provided by the invention, part of standard arithmetic units are modified and copied, a plurality of quality scalable layers are decoded in one attempt, the decoding speed is increased at limited cost, and the bandwidth of the bus is saved.
+38. 102026005 Operation method for H.264 chromaticity interpolated calculation
+CN
+20.04.2011
+H04N 11/04 Loading...
+H04N 11/04
+Loading...
+201010608407.4
+VeriSillicon (Beijing), Inc.
+Fan You
+H04N 11/04
+Loading...
+The invention provides an operation method for H.264 chromaticity interpolated calculation, comprising the following steps: firstly, the chromaticity values of two corresponding pixel points at two adjacent lines or columns in at least three lines of continuous pixel points are combined to form 32-bit unsigned data in a pairwise mode, wherein each line comprises at least two pixel points; then, 4-order filtering chromaticity interpolation is carried out to obtain the median of at least one 32-bit position based on each formed 32-bit datum, interpolation points and position offsets of corresponding pixel points as well as the H.264 standard; and finally, the data at the low 16-bit position and the data at the high 16-bit position of the at least one median are respectively shifted by the preset position to obtain the chromaticity data of the inline interpolation points, thus realizing that two interpolation results can be obtained by one-time chromaticity interpolated calculation, and greatly improving the H.264 chromaticity interpolated calculation speed.
+39. 102014287 Operating method used for interpolating calculation of H.264 luminance
+CN
+13.04.2011
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201010608418.2
+VeriSilicon Microelectronics (Beijing) Co., Ltd.
+Fan You
+H04N 7/26
+Loading...
+The invention provides an operating method used for the interpolating calculation of H.264 luminance. The operating method comprises the following steps of: combining luminance values of pixel points of one row or two adjacent columns in pairs to form unsigned 32-bit data; performing 6-order filtering in the direction of rows or columns based on the formed 32-bit data to acquire 32-bit intermediate values; adding a preset value to each intermediate value to acquire new 32-bit data; and judging whether low 16-bit data of the new 32-bit data is less than 0 or not, if so, adding one to high 16-bit data of the corresponding new 32-bit data; and respectively performing preset bits shift on the low 16-bit data and the acquired high 16-bit data of the new 32-bit data to acquire luminance data of interpolating points of the rows or the columns; or buffering the low 16-bit data and the acquired high 16-bit data of the new 32-bit data. Therefore, the speed of the interpolating calculation of the H.264 luminance can be improved greatly.
+40. 101789032 Design method and structure thereof of physical layout of CUP weld pad zone
+CN
+28.07.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200910151189.3
+VeriSilicon Holdings Co., Ltd.
+Fei Weibin
+G06F 17/50
+Loading...
+The invention relates to design method and structure thereof of physical layout of a CUP weld pad zone. The method comprises the following steps of: determining the required number of through holes; determining the minimum allowable spacing among the through holes; dispersing the through holes in a zone outside a passivating window at intervals smaller than the minimum allowable spacing; and when the required amount of through holes can not be arranged in the zone outside the window, arranging the rest of through holes in the edge zone of the window or the zone far away from the center in the window. The through holes of the structure of the physical layout of CUP weld pad zone are evenly dispersed in the zone far away from the center of the passivating window, which can reduce the generation of bad microdefects in the pressure welding process and keep the stability of the structure of the weld pad zone, thereby improving the yield and the reliability of chip packaging.
+41. 101634677 Digital instrument based on UVC transmission protocol and use method thereof
+CN
+27.01.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200810133785.4
+VeriSilicon Holdings Co., Ltd.
+Li Ren
+G01R 31/00
+Loading...
+The invention discloses a USB digital instrument based on a UVC transmission protocol, which comprises a test module, a conversion interface module and a display module electrically connected in turn, wherein the conversion interface module at least comprises a test data processing module, a test data storage module, a USB UVC control module and a USB UVC transmission module. The USB digital instrument uses a USB interface so as to save the display part of the digital instrument and directly uses a computer or a palm computer for display, so the cost is low, the volume is small, and the application is convenient.
+42. 101483442 BCH decoder for configuring error correcting capability according to Nand Flash extra space
+CN
+15.07.2009
+H03M 13/15 Loading...
+H03M 13/15
+Loading...
+200910046088.X
+VeriSilicon (Shanghai) Inc.
+Zhu Xuancheng
+H03M 13/15
+Loading...
+A BCH decoder which configures error correcting capability according to the spare space of Nand Flash comprises the following components: an error correcting capability indicating module which is used for collocating the error correcting bit number of decoder according to the spare space of Nand Flash; an odd syndrome calculating module which adopts an iterative method for parallel calculating the syndrome of corresponding odd number according to the configured error correcting bit number and the input code word; an even syndrome calculating module which is used for serially calculating the syndrome of oven number according to the calculated syndrome of odd number; a Newton's identity solving module which is used for iteratively solving each coefficient and error code word number of error position equation with the non-inverse simplified BMA algorithm according to the calculated syndrome of odd number and even number; and a chien searching module which is used for searching out the position of error bit according to each solved coefficient and the number of error code for further realizing decoding. The BCH decoder of the invention has the advantages of small decoding delay, excellent compatibility and high multiplexing rate of hardware.
+43. 101478309 System and method for improving precision of A/D converter
+CN
+08.07.2009
+H03M 1/06 Loading...
+H03M 1/06
+Loading...
+200810144174.X
+VeriSilicon Holdings Co., Ltd.
+Bai Jianjun
+H03M 1/06
+Loading...
+The invention discloses a system for increasing the precision of an analog-to-digital converter. The system is used on an electric-charge redistributing type successive approximation analog-to-digital converter, and comprises a control logic module, a comparator, a digital-to-analog converter and a plurality of data wires, wherein, the system further comprises a thermometer coder connected between the control logic module and the digital-to-analog converter; and the thermometer coder is used for transforming binary coding output by the control logic module into thermometer coding. The system leads the thermometer coding in the analog-to-digital converter, so that the matching precision is higher compared with traditional binary codes; and the traditional SAR ADC matching precision adopting the binary codes can reach 10 bits without adopting digital correction, and the system leads the matching precision to be increased by 12 bits through leading the thermometer coding to the SAR ADC.
+

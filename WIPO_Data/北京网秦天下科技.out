@@ -1,0 +1,1273 @@
+1. 103514406 解析多引擎检测结果的方法和装置
+CN
+01.03.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+102013000316894
+北京网秦天下科技有限公司
+韩严强
+G06F 21/56
+Loading...
+本发明提供了一种用于解析多引擎的检测结果的方法和装置。所述方法，包括：检测步骤，由至少两种病毒分析引擎对病毒样本进行检测，以生成各个引擎的检测结果；解析步骤，将各个引擎的检测结果分别与预定义的各个引擎的解析模板进行匹配，以生成完整的解析记录；以及输出步骤，输出所生成的完整的解析记录以向用户展示。本发明的解析方法可以解决多种病毒分析引擎的检测结果的不确定性问题，优选地，还可以提供对多种病毒分析引擎的检测结果的多样化展示。
+2. 103442361 移动应用的安全性检测方法及移动终端
+CN
+25.01.2017
+H04W 12/12 Loading...
+H04W 12/12
+Loading...
+102013000407170
+北京网秦天下科技有限公司
+陈继
+H04W 12/12
+Loading...
+本发明提供了一种用于检测移动终端上的移动应用的安全性的方法以及相应的移动终端。该方法包括以下步骤：监控移动应用针对远程网络访问的会话的请求；在所述请求使用的协议满足规定的访问协议的情况下，截获所述请求的访问内容；在所述请求的访问内容包含URL访问请求的情况下，判断所述URL访问请求中的URL地址或对应的服务器地址是否为恶意地址；以及根据判断结果对所述移动应用执行安全操作。
+3. 103415014 针对移动终端进行鉴权的方法和装置
+CN
+28.12.2016
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+102013000381465
+北京网秦天下科技有限公司
+王玉印
+H04W 12/06
+Loading...
+本发明提出了一种根据移动终端的设备标识和网络订户标识以及用户标识对移动终端进行鉴权的方法和装置。该方法包括：接收移动终端客户端发送的鉴权请求，该请求至少包含设备标识字段、网络订户标识字段、以及用户标识字段；通过在数据库中检索与鉴权请求匹配的用户记录，对移动终端进行鉴权，其中，如果在数据库中检索到与该鉴权请求包含的三个标识字段中的至少两个匹配的用户记录，则鉴权结果为该移动终端属于现有用户并且将该用户记录中的用户标识视为该移动终端客户端的用户标识，否则鉴权结果为该移动终端属于新用户并且向该移动终端客户端分配新的用户标识；以及向该移动终端客户端发送鉴权结果。本发明的方案能够减少数据交互和冗余数据。
+4. WO/2015/101149 APPLICATION CERTIFICATE-BASED METHOD FOR DETECTING SECURITY OF APPLICATION INSTALLATION PACKAGE, TERMINAL, AND ASSISTING SERVER
+WO
+09.07.2015
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+PCT/CN2014/093443
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHEN, Ji
+G06F 21/51
+Loading...
+The present invention provides an application certificate-based method for detecting security of an application installation package, a terminal, and an assisting server. The method comprises: (a) querying an application certificate library for an application certificate corresponding to an application comprised in an application installation package to be detected; (b) comparing the application certificate found in the application certificate library with an application certificate comprised in the application installation package; and (c) providing a corresponding detection result according to one or more predetermined detection criteria based on the comparison result.
+5. WO/2015/090155 MOBILE TERMINAL AND METHOD
+WO
+25.06.2015
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+PCT/CN2014/093665
+BEIJING NQ TECHNOLOGY CO., LTD
+CHEN, Ji
+H04W 12/02
+Loading...
+　Provided is a mobile terminal, comprising: an encryption password setting unit configured to set an encryption password and encrypt the encryption password; an encryption password management unit configured to backup the encrypted encryption password to the cloud end or to acquire the encrypted encryption password from the cloud end; a storage encryption unit configured to request the encrypted encryption password from the encryption password management unit so as to decrypt the encrypted encryption password and to encrypt data to be stored by using the encryption password; and a reading decryption unit configured to request the encrypted encryption password from the encryption password management unit so as to decrypt the encrypted encryption password and to decrypt data to be read by using the encryption password. Also provided in the present invention is a method implemented by a mobile terminal. By means of the present invention, the risk of confidential data being leaked caused by data protection on a mobile terminal being cracked without a user knowing it is reduced.
+6. WO/2015/090153 SECURITY DETECTION METHOD, APPARATUS, AND SYSTEM FOR APPLICATION INSTALLATION PACKAGE
+WO
+25.06.2015
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+PCT/CN2014/093585
+BEIJING NQ TECHNOLOGY CO., LTD.
+CHEN, Ji
+G06F 21/51
+Loading...
+Provided are a security detection method and apparatus when an application installation package runs, and a corresponding system. The method may comprise: detecting a running request from an application installation package in a terminal; in response to detecting the running request, analysing the application installation package to acquire security key information; comparing the acquired security key information with native security key information corresponding to the application; and when the comparison result is that the difference exceeds a security threshold value, terminating the running of the application installation package. According to the embodiments of the present invention, an application tampered with maliciously can be effectively identified and prevented.
+7. 104269067 Method and device for transmitting traffic sign signals
+CN
+07.01.2015
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201410515758.9
+北京网秦天下科技有限公司
+张圣涛
+G08G 1/09
+Loading...
+The invention discloses a method and device for transmitting traffic sign signals. The method includes the steps of collecting the traffic sign signals, wherein the traffic sign signals are analog signals generated through a signal transmitting device; conducting analog-to-digital conversion on the traffic sign signals to generate traffic sign information, wherein the traffic sign information is digital signals; obtaining reminding information matched with the traffic sign information from a database; sending the reminding information to a terminal. The method and the device solve the problem that due to the fact that in the prior art, a traditional traffic sign reminding system transmits information of traffic signs through visual signals, traffic management efficiency is low when drivers can not effectively know traffic signs in front of the drivers under the condition of the severe environments with dim light rays, rain, snow and the like.
+8. 104267958 Mobile application container and management method thereof
+CN
+07.01.2015
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410513586.1
+北京网秦天下科技有限公司
+刘伟
+G06F 9/44
+Loading...
+The invention provides a mobile application container and a management method thereof. The mobile application container comprises an application installation module, an appearance engine, a data engine and a code engine. The application installation module is used for installation of one or a plurality of applications. The appearance engine is used for reading appearance files of installed applications and setting the appearances of the applications. The data engine is used for reading data files of installed applications. The code engine is used for reading execution codes of installed applications so as to respond to user trigger events to perform business processing. The mobile application container and the management method thereof can reduce the development work load of application developers.
+9. 104268814 Method and device for generating electronic medical record
+CN
+07.01.2015
+G06Q 50/24 Loading...
+G06Q 50/24
+Loading...
+201410535274.0
+北京网秦天下科技有限公司
+吴迪
+G06Q 50/24
+Loading...
+The invention discloses a method and device for generating an electronic medical record. The method includes the steps that an image of a paper medical record is obtained and sent to an image pre-processing module; the image pre-processing module pre-processes the image of the paper medical record to generate an electronic image used for recognition; the electronic image used for recognition is sent to a character recognition module; the character recognition module carries out character recognition on the electronic image used for recognition so that the electronic medical record can be generated, wherein the electronic medical record is displayed on a display device. By means of the method and device, the problems that according to a common existing method or generating electronic medical records, electronic computers of a hospital are used for scanning existing paper medical records, users cannot quickly obtain electronic medical records and the electronic medical record generation efficiency is low are solved.
+10. 104268011 Instruction processing method, device and system of mobile device
+CN
+07.01.2015
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201410499493.8
+北京网秦天下科技有限公司
+曾宏亮
+G06F 9/46
+Loading...
+The invention discloses an instruction processing method, device and system of a mobile device. The instruction processing method includes that a first application client in the mobile device receives a control instruction sent by a server through a message pushing mechanism; a second application client and the first application client in the mobile device establish a communication relationship; the second application client executes the control instruction received by the first application client and generates an execution result; the second application client returns the execution result to the first application client; the first application client sends the execution result to the server. According to the instruction processing method, device and system of the mobile device, the problem that the mobile device is low in efficiency due to the fact that the mobile device cannot execute the instruction sent out by the server through the message pushing mechanism is solved.
+11. 104166557 应用程序的运行方法和装置
+CN
+26.11.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410438689.6
+北京网秦天下科技有限公司
+兰伟
+G06F 9/44
+Loading...
+本发明公开了一种应用程序的运行方法和装置。其中，该应用程序的运行方法包括：检测应用安全的运行状态，应用安全用于为目标应用提供安全运行环境，目标应用为企业内部应用；判断应用安全的运行状态是否为正在运行状态；如果判断出应用安全的运行状态为正在运行状态，则运行目标应用。通过本发明，解决了相关技术中在应用安全退出后，不能控制企业内部的目标应用无法使用的问题。
+12. 104168391 移动终端的控制方法及装置
+CN
+26.11.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410454178.3
+北京网秦天下科技有限公司
+安景学
+H04M 1/725
+Loading...
+本发明公开了一种移动终端的控制方法及装置。其中，移动终端的控制方法包括：检测移动终端当前所处环境的环境参数，得到当前环境参数；找与当前环境参数对应的工作模式，得到目标工作模式，其中，在移动终端上存储有多种环境参数和多种工作模式，并存储有多种环境参数和多种工作模式之间的对应关系；控制移动终端按照目标工作模式运行。通过本发明，解决了现有技术中移动终端的操作方式繁琐的问题，达到了节省时间，提高了生活和工作效率的效果。
+13. 104156648 屏幕解锁方法及装置
+CN
+19.11.2014
+G06F 21/31 Loading...
+G06F 21/31
+Loading...
+201410422480.0
+北京网秦天下科技有限公司
+陈继
+G06F 21/31
+Loading...
+本发明公开了一种屏幕解锁方法及装置，其中，该方法包括：在终端设备处于锁屏状态下接收用于对终端设备上的屏幕进行解锁的解锁请求；响应解锁请求通过终端设备上的摄像头获取当前解锁认证信息；判断当前解锁认证信息与预设解锁认证信息是否相同，若当前解锁认证信息与预设解锁认证信息相同，则对屏幕解锁。本发明解决了现有技术由于人工手动输入解锁密码以完成屏幕解锁所导致的操作效率低的技术问题，达到了提高移动终端的解锁效率的技术效果。
+14. WO/2014/117424 INTELLIGENT INPUT METHOD AND DEVICE
+WO
+07.08.2014
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+PCT/CN2013/072614
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZHANG, Yuping
+G06F 3/023
+Loading...
+The present invention provides an intelligent input method. The intelligent input method comprises: receiving an input; determining whether the input conforms to a standard; if the input conforms to the standard, presenting an operable item; and executing a corresponding action in response to operation of the operable item. The present invention also provides an intelligent input device which can implement the intelligent input method.
+15. WO/2014/094388 PASSWORD HIDING METHOD AND APPARATUS, AND PASSWORD RETRIEVAL METHOD AND APPARATUS
+WO
+26.06.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/072387
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CASELY, Geoffrey Terence
+H04L 29/06
+Loading...
+The present invention provides a password hiding method (100), which comprises: receiving password information and an image input by a user (S110); processing the image and integrating the password information to data of the image in a way that does not affect image use (S120); and returning a processed image(S130). The present invention also provides a password retrieval method (200), a password hiding apparatus (1000) and a password retrieval apparatus (2000).
+16. WO/2014/094389 PASSWORD SECURITY SYSTEM AND PASSWORD SECURITY METHOD
+WO
+26.06.2014
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+PCT/CN2013/072392
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CASELY, Geoffrey Terence
+H04L 9/32
+Loading...
+The present invention provides a password security system (3000), which comprises a server (300) and a terminal (500), wherein the terminal (500) is used for receiving password information and an image input by a user, processing the image, integrating the password information to data of the image in a way that does not affect image use, and returning a processed image. The server (300) is used for receiving the processed user-input image, processing the processed user-input image, extracting the password information integrated to the processed user-input image in the way that does not affect the image use, and returning the password information that is extracted. The present invention also provides a password security method.
+17. WO/2014/089937 MOBILE TERMINAL INTELLIGENT ANTI-THEFT METHOD AND MOBILE TERMINAL
+WO
+19.06.2014
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2013/072289
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YANG, Xiao
+H04M 11/04
+Loading...
+The present invention provides a mobile terminal anti-theft method (100) which comprises triggering a mobile terminal anti-theft operation according to operations on a mobile terminal (S110). The mobile terminal anti-theft operation at least comprises: collecting location information and environment information of the mobile terminal (S122, S124) and backing up private data of the mobile terminal (S126) and sending the collected location information and environment information and the backup private data to a result designated location (S130). The present invention further provides a mobile terminal (200) used for achieving the mobile terminal anti-theft method (100).
+18. WO/2014/086125 LOGIN METHOD AND LOGIN SYSTEM OF MOBILE TERMINAL
+WO
+12.06.2014
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+PCT/CN2013/072684
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LI, Xiaojun
+G06F 21/00
+Loading...
+The present invention provides a login method and a login system of a mobile terminal. The login method comprises: online login steps: if a connection state between a mobile terminal and a server side is accessible, the mobile terminal logging, by using a mode 1, in to and accessing the server side; and offline login steps: if the state of the connection between the mobile terminal and the server side is inaccessible, the mobile terminal logging, by using a mode 2, in to a local mobile terminal, and accessing local data of the mobile terminal. In the present invention, by providing an offline login mode in addition to an online login mode, a user can log in to a local client to access important data in a case where a mobile terminal fails to be properly connected to a server side, thereby reducing the number of times of connecting a network, shortening network access time, and bringing convenience to the user.
+19. WO/2014/086123 SEARCH METHOD AND INFORMATION SEARCH TERMINAL
+WO
+12.06.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2013/072575
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LI, Xiaojun
+H04L 29/08
+Loading...
+The present invention provides a search method implemented on an information search terminal. The method comprises: receiving a to-be-searched keyword on an information search terminal; searching in local data of the information search terminal according to the keyword, and obtaining local associated data information; sending the received keyword to a server, and receiving server associated data information from the server; and merging the received server associated data information and local associated data information, and providing the merged associated data information for a user. The present invention further provides an information search terminal for implementing the foregoing search method.
+20. WO/2014/082396 METHOD AND MOBILE TERMINAL FOR LOCKING MOBILE TERMINAL
+WO
+05.06.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+PCT/CN2013/072281
+BEIJING NETQIN TECHNOLOGY CO., LTD
+JIA, Ling
+H04M 1/725
+Loading...
+The present invention provides a method for locking a mobile terminal, the method comprising the steps of: receiving and parsing locking machine command information (S110), and obtaining a locking machine command, a user name and password information; verifying the obtained user name and password information (S120) by a user name and password information locally stored in the mobile terminal; after a successful verification, performing the locking machine command, and locking the mobile terminal (S130). The present invention further provides a mobile terminal for implementing the method for locking a mobile terminal.
+21. WO/2014/082397 APPLICATION MANAGEMENT METHOD AND SERVER
+WO
+05.06.2014
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+PCT/CN2013/072282
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIU, Wei
+G06F 9/46
+Loading...
+Provided in the present invention is an application management method (100), comprising: receiving a designation from a user equipment (UE1) for one or multiple other user equipment (UE1,..., and UE1-N) (S105); binding the one or more other user equipment (UE1-1,..., and UE1-N) with the user equipment (UE1) into a group (GA1-1) (S110), where all of the user equipment among the one or multiple other user equipment (UE1-1,..., and UE1-N) and the user equipment (UE1) are group members of the group (GA1-1); receiving a group installation command from one of the group members of the group (GA1-1) for an application (S115); and, executing an installation process of the application for all of the group members of the group (GA1-1), and installing the application for all of the group members of the group (GA1-1) (S120). Also provided in the present invention is a server (200) for use in implementing the application management method (100).
+22. WO/2014/082399 METHOD AND SYSTEM FOR MANAGEMENT OF MOBILE TERMINAL
+WO
+05.06.2014
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+PCT/CN2013/072444
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIU, Wei
+G06F 21/60
+Loading...
+Provided in the present invention are a method and system for management of a mobile terminal. The method comprises: a backup and erase step, if the mobile terminal is determined to satisfy set condition 1, then a server-side identifies the mobile terminal as suspected-to-be-lost, backs up data of the mobile terminal to the server-side, and then erase the data of the mobile terminal; and, a clearing step, if the mobile terminal is determined to satisfy set condition 2, then the server-side indentifies the mobile terminal is confirmed-to-be-lost, and clears all of the data of the mobile terminal. By identifying the mobile terminal respectively as suspected-to-be-lost and confirmed-to-be-lost, and by performing different processes on the basis of the type of lost, the present invention allows for convenient and effective management of the mobile terminal, and ensures the security of the data of the mobile terminal.
+23. WO/2014/082398 MULTI-PLATFORM APPLICATION SEARCHING METHOD AND SERVER
+WO
+05.06.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2013/072291
+BEIJING NETQIN TECHNOLOGY CO., LTD
+JIA, Ling
+G06F 17/30
+Loading...
+The present invention provides a multi-platform application searching method (100) comprising: collecting links of one or more applications from multiple platforms according to search configuration (S110); for each link of the one or more applications, extracting and storing information related to corresponding applications from corresponding web pages (S120); and excluding and deleting repeated information according to the extracted information related to the applications (S130). A server (200) is further provided for implementing the multi-platform application searching method.
+24. 103793657 System and method used for hiding application on mobile terminal
+CN
+14.05.2014
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201410054266.4
+北京网秦天下科技有限公司
+李坤
+G06F 21/60
+Loading...
+The invention provides a system used for hiding application on a mobile terminal. The system comprises a selection unit, a hiding unit, a detection unit and a monitoring unit. The selection unit is used for selecting the hidden application and containing parasitic application of the hidden application. The hiding unit is used as an icon which does not display the hidden application on a desktop of the mobile terminal. The detection unit is used for detecting starting of the parasitic application. The monitoring unit is used for monitoring appearance of specified conditions after the parasitic application is started and for starting the hidden application when the specified conditions appear. The invention further provides a method for hiding the application on the mobile terminal. Through the system and method used for hiding the application on the mobile terminal, the private application of a user can not be found, so the privacy of the user is protected.
+25. WO/2014/063461 AUTOMATIC DOWNLOAD METHOD AND SYSTEM
+WO
+01.05.2014
+H04W 8/24 Loading...
+H04W 8/24
+Loading...
+PCT/CN2013/072616
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LI, Xiaojun
+H04W 8/24
+Loading...
+Provided is an automatic download method. The method comprises: an acquisition step: acquiring a program parameter corresponding to information about an application program within a predetermined range by accessing a server end, and storing the program parameter within the predetermined range in a control end database; a connection step: a download terminal acquiring the program parameter within the predetermined range from the control end database; and a download step: the download terminal automatically starting up a download operation according to the program parameter within the predetermined range, and downloading the information about the application program corresponding to the program parameter within the predetermined range to the download terminal from the server end. The present invention can automatically download applications updated at any time on a network, and help users download some timed free applications in time, thereby saving on download times, and meeting the requirement of users for enjoying free applications at any time.
+26. WO/2014/059755 SERVER, CLIENT, DOCUMENT MANAGEMENT SYSTEM AND DOCUMENT MANAGEMENT METHOD THEREOF
+WO
+24.04.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2013/072630
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIU, Wei
+G06F 17/30
+Loading...
+The present invention provides a document management method. The document management method comprises: a setting step: setting a specific group through one of at least one client, and adding several clients in the specific group; an uploading step: uploading through the client in the set specific group to the server a document associated with the specific group, and setting an enable time of the document; and an open step: when the enable time arrives, the client, in a preset range, in the specific group being capable of opening the document. By means of the document management method provided by the present invention, a user can share a document conveniently, and it is ensured that sharing is carried out with a specific user and the shared document can be managed, thereby guaranteeing the security of the document.
+27. WO/2014/048090 METHOD AND SYSTEM FOR PUSHING INFORMATION
+WO
+03.04.2014
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+PCT/CN2013/072627
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YANG, Peng
+H04W 4/02
+Loading...
+The present invention provides a method and system for pushing information. Said method comprises: a judging step, judging for instant information of a first user using a pre-setting condition, and capturing objects satisfying the pre-setting condition; a capturing step, capturing a destination address of the pushing information using the objects; and a pushing step, a server end capturing and pushing weather information of the destination address using a pre-setting mode. The present invention judges instant information content of a user to determine the destination address and the destination user of the pushing weather information, and determines the pushing content by the weather information which the destination user concerned, in order to push the appropriate information to the appropriate user, and satisfy the request of the user.
+28. WO/2014/044030 DISPLAY DEVICE AND DISPLAY METHOD THEREFOR
+WO
+27.03.2014
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+PCT/CN2013/072609
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZHANG, Yuping
+G06F 9/445
+Loading...
+The present invention provides a display method used for software. The method comprises: step 1, displaying interesting content when software is starting but not ready; step 2, immediately closing the interesting content when the software is ready. The display method provided by the present invention enables a user to browse various information when waiting for software startup, thereby meeting requirements of the user on utilizing fragmentary time and greatly improving user experience of the software.
+29. 103677705 Display device and display method thereof
+CN
+26.03.2014
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201210355347.9
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+ZHANG YUPING
+G06F 3/14
+Loading...
+The invention relates to a display device and a display method thereof. The display method for software includes steps of firstly, displaying interesting contents when the software starts and is not ready; secondly, immediately closing the interesting contents once the software is ready. By means of the display method, users can browse all kinds of information when waiting for starting of the software, so that users' requirements for using fragmentary time are met, and user experience of the software is greatly improved.
+30. 103686592 Safety promotion method and system
+CN
+26.03.2014
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201210342281.X
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+LIANG JUNNAN
+H04W 4/02
+Loading...
+The invention provides safety promotion method and system. The method comprises a safety setting step, setting a safety range and limiting time of a second user by a first user, and setting the safety requirements; a position obtaining step, determining a current position of a second user mobile terminal by a server terminal by adopting a mobile terminal positioning technology according to a position request message transmitted by the mobile terminal of the first user and/or the second user; a judging step, comparing the current position with the safety range, comparing the current time with the limiting time, and judging whether the safety requirement is accorded according to the comparison result; a safety promotion step, returning the comparison result to the mobile terminal of the first user and/or the second user, and if the safety requirement is not accorded, transmitting safety promotion information. By adopting the safety promotion method and system, the safety range of the mobile terminal can be set, the current position of the mobile terminal can be determined by using the positioning technology, whether safety is determined by comparing the current position with the safety range, and a hint is transmitted to the risk.
+31. 103678305 Method and system for displaying inquiring information based on image recognition
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210318666.2
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+ZOU SHIHONG
+G06F 17/30
+Loading...
+The invention provides a method and system for displaying inquiring information based on image recognition. The method and system for displaying the inquiring information based on the image recognition are applied to a mobile terminal which comprises a camera module and a display module. The method comprises the steps of inputting, wherein the mobile terminal shoots a marker image through the camera module and uploads the marker image to a server side; recognition processing, wherein the server side carries out character recognition and comparison on the marker image, information searching is carried out, and inquiring information is acquired. According to the method and system for displaying the inquiring information based on the image recognition, a corresponding marker can be recognized according to an image shot by a user, rich inquiring information can be acquired by searching and constantly correcting the content of the image through the server side, and thus a result is increasingly close to demands of the user.
+32. 103686256 Method and system for displaying interactive information
+CN
+26.03.2014
+H04N 21/274 Loading...
+H04N 21/274
+Loading...
+201210319727.7
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+ZOU SHIHONG
+H04N 21/274
+Loading...
+The invention provides a method and system for displaying interactive information. The method comprises the following steps: inputting: a mobile terminal starts a camera module to shoot or record images or video streaming currently showed by a television program and uploads the images or the video streaming to a server side; information processing: the server side detects and arranges the images or the video streaming to obtain image-text information; identifying and retrieving: the server side conducts identification to obtain television program information according to the image-text information and retrieves the interactive information corresponding to the television program information. According to the method and the system, the mobile terminal equipment collects images and the video streaming, the server side extracts and analyzes the image-text information in the television program, the image-text information is utilized for searching at the server side to identify the station caption of a television station and the corresponding interactive information, and a user can conveniently interacts with the television program through the information and can interact with other televiewers.
+33. WO/2014/040406 METHOD AND SYSTEM FOR SAFETY WARNING
+WO
+20.03.2014
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2013/072605
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIANG, Junnan
+H04M 11/04
+Loading...
+Provided are a method and system for a safety warning. The method comprises: a safety setting step: a server end setting a safe range and limited time of a second user according to the requirements of a first user, and setting safety requirements; a location acquisition step: the server end determining the current location of a mobile terminal of the second user according to the location request information sent by a mobile terminal of the first user and/or the second user by means of mobile terminal location technique; a judgement step: the server end comparing the current location with the safe range, comparing the current time with the limited time, and judging whether the safety requirements are met according to the comparison result; and a safety warning step, the server end returning the comparison result to the mobile terminal of the first user and/or the second user, and if the safety requirements are not met, then sending safety warning information. The present invention can set the safe range of a mobile terminal, utilize locating technique to determine the current location of the mobile terminal, determine safety by comparing the current location with the safe range, and send a warning of danger.
+34. 103634789 Mobile terminal and method
+CN
+12.03.2014
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+201310692720.4
+BEIJING WANGQIN WORLD TECHNOLOGY CO., LTD.
+CHEN JI
+H04W 12/02
+Loading...
+The invention provides a mobile terminal which comprises an encrypted password setting unit configured to set an encrypted password and encrypting the encrypted password, an encrypted password management unit configured to backup the encrypted password which is encrypted to the cloud or obtain the encrypted password which is encrypted from the cloud, a storage and encryption unit configured to require the encrypted password which is encrypted to the encrypted password management unit to decrypt the encrypted password which is encrypted and encrypt data to be stored by means of the encrypted password, and a reading and decrypting unit configured to require the encrypted password encrypted to the encrypted password management unit to decrypt the encrypted password which is encrypted and decrypt data to be read by means of the encrypted password. The invention further provides a method of executing the mobile terminal. By adopting the mobile terminal and method provided by the invention, the risk of leakage of confidential data due to data protection cracked on the mobile terminal can be reduced when a user is in a unwitting condition.
+35. 103632073 Method and device used for controlling terminal application permission
+CN
+12.03.2014
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+201310652369.6
+BEIJING WANGQIN WORLD TECHNOLOGY CO., LTD.
+CHEN JI
+G06F 21/12
+Loading...
+The invention provides a method and a device used for controlling the terminal application permission. The method comprises the following steps of detecting a permission request emitted when an application is installed in a terminal; when the phenomenon that the permission request is detected is responded, determining the application classification to which the application belongs, and determining a security permission range corresponding to the application classification; and when the phenomenon that the permission request exceeds the security permission range is responded, stopping installing the application. According to the embodiment of the invention, the permission can be effectively prevented from exceeding the range when the application is installed.
+36. 103632089 Security detection method, device and system of application installation package
+CN
+12.03.2014
+G06F 21/51 Loading...
+G06F 21/51
+Loading...
+201310689652.6
+BEIJING WANGQIN WORLD TECHNOLOGY CO., LTD.
+CHEN JI
+G06F 21/51
+Loading...
+The invention provides a security detection method, a device and a corresponding system used when an application installation package is operated. The method comprises the following steps: detecting an operation request of the application package in a terminal, responding to the detected operation request, analyzing the application installation package so as to acquire critical security information, comparing the acquired critical security information with original critical security information corresponding to an application, and terminating the operation of the installation package when the difference of the compassion result exceeds a security threshold. According to the embodiment of the invention, applications which are viciously falsified can be effectively identified and prevented.
+37. WO/2014/032419 METHOD AND SYSTEM FOR OBTAINING CONSULTATION INFORMATION BASED ON PICTURE
+WO
+06.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2013/072598
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZOU, Shihong
+G06F 17/30
+Loading...
+The present invention provides a method and a system for obtaining consultation information based on a picture, and is applied to a mobile terminal comprising a camera module and a display module. The method comprises: an inputting step, that is, shooting, by the mobile terminal, a picture of a marker by means of a camera module, and uploading the picture of the marker to a server end; an identification processing step, that is, performing, by the server end, character identification and comparison on the picture of the marker, and performing information searching, so as to obtain the consultation information. According to the present invention, a corresponding marker may be identified according to a photo shot by a user, and the server end performs searching and continuous correction on picture content, so as to obtain abundant consultation information, which thereby makes a result closer and closer to a requirement of the user.
+38. WO/2014/032420 METHOD AND SYSTEM FOR OBTAINING INTERACTION INFORMATION
+WO
+06.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2013/072618
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZOU, Shihong
+G06F 17/30
+Loading...
+The present invention provides a method and a system for obtaining interaction information. The method comprises: an inputting step, that is, starting a camera module by a mobile terminal, to shoot or record an image or a video stream currently played in a television program, and uploading the image or video stream to a server end; an information processing step, that is, performing, by the server end, detection and collation on the image or video stream to obtain graphics and text information; and an identification and retrieval step, that is, performing, by the server end, identification according to the graphics and text information to obtain television column information, and retrieving interaction information corresponding to the television column information. According to the present invention, the mobile terminal collects the image and video stream, the server end extracts and analyzes the graphics and text information in the television program, reading the graphics and text information is performed to search in the server end, and a logo and corresponding interaction information of the television station are identified. With the information, a user may conveniently interacts with the television program, and interact with other televiewers.
+39. 103619008 System and method for performing backup and restoration on data
+CN
+05.03.2014
+H04W 8/30 Loading...
+H04W 8/30
+Loading...
+201310673790.5
+BEIJING WANGQIN WORLD TECHNOLOGY CO., LTD.
+CHEN JI
+H04W 8/30
+Loading...
+The invention provides a system for performing backup and restoration on data. The system comprises a backup unit, a restoration unit and a monitoring unit, wherein the backup unit is configured as follows: data related to application are backed-up to a remote-end server; the restoration unit is configured as follows: the data related to the application are restored from the remote-end server; the monitoring unit is configured as follows: the backup unit and/or restoration unit is controlled according to the need so as to back and/or restore the data related to the application. The invention also provides a method for performing the backup and the restoration of the data. The system and the method provided by the invention have the advantages that after the software or hardware system is updated, the complete restoration of the application-level data can be realized.
+40. 103617394 SDK providing and invoking method and associated device
+CN
+05.03.2014
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201310647814.X
+BEIJING WANGQIN WORLD TECHNOLOGY CO., LTD.
+LI MING
+G06F 21/56
+Loading...
+The invention provides a software development kit SDK providing method and a device. An SDK is provided by an SDK providing direction application developer. The method comprises the following steps of receiving information related to application of the application developer from the application developer; calculating information abstract on the application according to received information; utilizing a private key of a symmetric encryption algorithm to encrypt the information abstract so as to generate a digital signature; packing the digital signature and a public key of the symmetric encryption algorithm into the SDK; sending the packed SDK to the application developer for SDK invoking by the application. The invention further provides an SDK invoking method and a device.
+41. WO/2014/029205 COMMUNICATION SYSTEM AND COMMUNICATION METHOD THEREOF
+WO
+27.02.2014
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+PCT/CN2013/072717
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHENG, Ping
+H04L 12/58
+Loading...
+The present invention provides a communication system including a home end device, an opposite end device and a server; the server includes a conversion module used to convert a message to be transmitted by the home end device to message code and save the correspondence between the message and the message code; the home end device includes a transmitting module used to transmit the message code to the opposite end device; the opposite end device includes an obtaining module used to obtain the message corresponding to the message code from the server. The communication system provided by the present invention decreases the possibility of the message disclosure and enhances the safety of the instant communication by means of sending the message code to transmit the information.
+42. 103607705 Junk message filtering method and engine
+CN
+26.02.2014
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201310646010.8
+北京网秦天下科技有限公司
+史领航
+H04W 4/14
+Loading...
+The invention provides a junk message filtering method and a junk message filtering engine. The method includes the steps of extracting a telephone number and/or a uniform resource locator (URL) in the content of a message, retrieving the credit level of the extracted telephone number and/or the URL from a credit level library of telephone numbers and/or URLs, and judging whether the message is a junk message at least according to the credit level of the extracted telephone number and/or the URL, wherein the credit level library of the telephone numbers and/or the URLs is determined according to a collected message sample set. By means of the method, the efficiency for filtering junk messages which are sent by formal commercial message numbers provided by operators and contain malicious telephone numbers and/or malicious websites can be improved.
+43. 103581405 Mobile terminal theft prevention device and prevention method thereof
+CN
+12.02.2014
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210251901.9
+北京网秦天下科技有限公司
+程平
+H04M 1/725
+Loading...
+The invention provides a mobile terminal theft prevention method which is used in a mobile terminal containing a camera module and a display module. The method comprises a starting step in which the camera module is started when the mobile terminal enters a standby state, a capture step in which a face image captured by the camera module is stored, and a determining step in which the display module is enabled to display the captured face image and warning information when the mobile terminal is awakened. The mobile terminal theft prevention method provided by the invention can enable the mobile terminal to automatically sound a warning before the mobile terminal can be stolen, thereby achieving an effect of crime termination, greatly reducing the possibility that the mobile terminal may be stolen, improving the security of the mobile terminal and meeting the needs of users.
+44. WO/2014/019363 DATA RECOVERY METHOD AND SYSTEM
+WO
+06.02.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/072622
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHENG, Lin
+H04L 29/06
+Loading...
+Provided is a data recovery method, the method comprising: a), receiving the type of the to-be-recovered data selected by a user; b), detecting the capacity 1 of the same type data on the server, detecting the remaining local storage capacity 2 of the mobile terminal, and comparing capacity 1 with capacity 2, if capacity 1 exceeds capacity 2, then interrupting the recovery process, and if not, then performing step c); and c), downloading the to-be-recovered data from the server to the mobile terminal for recovery, and displaying the recovery result upon completion of the recovery. The present invention addresses mass data recovery by recovering data on a server, thus reducing the amount of calculation of a local mobile terminal and reducing resource consumption, while properly protecting important data from being lost, and being convenient and easy to use.
+45. WO/2014/019365 HELP SYSTEM AND HELP METHOD THEREFOR
+WO
+06.02.2014
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2013/072719
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIN, Yu
+H04M 11/04
+Loading...
+Provided is a help system, comprising a mobile terminal and a server. The mobile terminal comprises a help module used for sending help information, and the server comprises a receiving module used for receiving help information and a forwarding module used for forwarding the help information according to the content of the help information. The help system and the help method therefor provided in the present invention enable a mobile terminal user to get help quickly and effectively through a mobile terminal, thereby shortening the help time greatly and meeting the requirements of the user.
+46. WO/2014/019364 PRIVACY PROTECTION DEVICE AND PRIVACY PROTECTION METHOD FOR MOBILE TERMINAL
+WO
+06.02.2014
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+PCT/CN2013/072713
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YAN, Ting
+H04W 88/02
+Loading...
+The present invention provides a privacy protection method for a mobile terminal. The mobile terminal comprises an application program module and a service manager module. The method comprises: a mode switching step of switching to a privacy protection mode; and a privacy protection step, wherein when the application program module requests for data of the mobile terminal, the service manager module returns virtual data to the application program module. The privacy protection method for a mobile terminal provided in the present invention can hide real data information of a user, and only reveal fake virtual information to the external, so that the privacy security of the user is well protected.
+47. WO/2014/019362 METHOD AND SYSTEM FOR DATA BACKUP
+WO
+06.02.2014
+G06F 9/06 Loading...
+G06F 9/06
+Loading...
+PCT/CN2013/072606
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LIANG, Tao
+G06F 9/06
+Loading...
+Provided is a method for data backup. The method includes: A, receiving the data type of data in need of backup selected by a user; B, calculating the capacity 1 of data the type of which is the same as the data type, and detecting the user residual capacity 2 of a server end, comparing the capacity 1 with the capacity 2, and if the capacity 1 exceeds the capacity 2, interrupting the backup process, and if it does not exceed said capacity, executing step C; and C, encrypting and uploading the data in need of backup to a database of the server end for backing up, and displaying the backup result after the backup is finished. The present invention can directly back up important data to a server end via a mobile terminal, which can not only occupy less storage space of a local mobile terminal, but can also effectively protect important data from going missing, greatly satisfying the security requirements of users.
+48. 103561045 Safety monitoring system and method for Android system
+CN
+05.02.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310593904.5
+北京网秦天下科技有限公司
+马琳
+H04L 29/06
+Loading...
+The invention provides a safety monitoring system for an Android system. The system comprises a configuration management unit, a centralized management unit and a plurality of detection units, wherein the configuration management unit is configured to conduct configuration on the safety strategy, the centralized management unit can be configured to execute the safety detection according to the safety strategy, each detection unit is configured to detect whether an application required to be executed is safe or not through the centralized management unit, and the detection units are arranged on the different levels of the Android system. The invention further provides a safety monitoring method for the Android system. By the adoption of the system and method, unauthorized and unsafe obtaining of resources, data and access behaviors of the Android system can be effectively prevented, and the safety of the Android system is greatly improved.
+49. WO/2014/012380 ANTI-THEFT DEVICE AND METHOD FOR MOBILE TERMINAL
+WO
+23.01.2014
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+PCT/CN2013/072704
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHENG, Ping
+H04M 11/04
+Loading...
+Provided in the present invention is an anti-theft method for a mobile terminal. The mobile terminal comprises a camera module and a display module. The method includes: a capturing step, in which the camera module is initiated to capture a facial image when the mobile terminal enters a stand-by state; and a determining step, in which the captured facial image and warning information are displayed on the display module when the mobile terminal is waked up. The anti-theft method of the mobile terminal provided in the present invention enables the mobile terminal to activate an alarm automatically before it can be stolen, therefore brings the effect of terminating a crime, greatly reduces the possibility of the mobile terminal being stolen, improves the safety of the mobile terminal, and satisfies needs of users.
+50. WO/2014/012378 POWER SAVING DEVICE AND POWER SAVING METHOD FOR MOBILE TERMINAL
+WO
+23.01.2014
+H04W 52/02 Loading...
+H04W 52/02
+Loading...
+PCT/CN2013/072602
+BEIJING NETQIN TECHNOLOGY CO., LTD
+BAI, En
+H04W 52/02
+Loading...
+Provided is a power saving method for a mobile terminal, the method comprising: a mode setting step for setting different power saving modes; a condition setting step for setting corresponding trigger conditions for the different power saving modes; and an activation step for activating the power saving mode corresponding to the trigger condition when the trigger condition is satisfied. The power saving method for a mobile terminal provided by the present invention enables the mobile terminal to enter different power saving modes according to preset settings, thus satisfying user use requirement while extending the service life of the mobile terminal.
+51. WO/2014/000468 SECURITY DETECTION METHOD AND SECURITY DETECTION APPARATUS
+WO
+03.01.2014
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+PCT/CN2013/072608
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZHENG, Yongbo
+G06F 21/56
+Loading...
+A security detection method is provided. The method includes: a calculation step for calculating the hash value of a target file; an obtaining step for obtaining the locating sequence from the hash value; a determining step for determining whether the bit in a bit table corresponding to the locating sequence is valid. The provided security detection method can reduce the memory space occupied by virus signature significantly and increase the operation speed of system, and has good scalability.
+52. 103491175 Method and terminal for application program management
+CN
+01.01.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310445477.6
+北京网秦天下科技有限公司
+李晓军
+H04L 29/08
+Loading...
+The invention provides a method and terminal for application program management. The method includes the step a, receiving instructions for recognizing one or more application programs from a server, the step b, judging whether an application program installed on a terminal is matched with the one or more application programs recognized by the instructions, and the step c, reporting relevant information to the server according to matching results.
+53. 103475687 Distributed method and distributed system for downloading website data
+CN
+25.12.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310198673.8
+北京网秦天下科技有限公司
+吴自立
+H04L 29/08
+Loading...
+The invention provides a distributed method and a distributed system for downloading website data. The distributed method comprises the following steps that one or more downloading groups are set; website lists corresponding to the downloading groups in a database are maintained; each of one or more downloading modules acquires one or more downloading queues of corresponding websites, aiming at the website lists maintained by the downloading groups associated with the downloading modules; and each of the downloading modules performs downloading according to the one or more downloading queues.
+54. 103458383 Processing method and processing system for reported short messages
+CN
+18.12.2013
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+201310435442.4
+北京网秦天下科技有限公司
+孟宪巍
+H04W 4/14
+Loading...
+The invention provides a processing method for reported short messages. The reported short messages comprise reported short message contents and user judgment results. The method comprises the steps of determining a judgment result of the contents of a reported short message by a junk short message screening engine for the contents of each reported short message, wherein the judgment result indicates whether the contents of each reported short message are normal contents or junk contents; carrying out statistics on the number of first reporting users with the user judgment results consistent with the engine judgment results and on the number of second reporting users with the user judgment results inconsistent with the engine judgment results; calculating the contribution value of the contents of the reported short messages based on the number of the first reporting users and the number of the second reporting user. The method further comprises the step of carrying out screening on the contents of all the reported short messages based on the calculated contribution value. According to processing method for the reported short messages, the short messages which contribute to improving the screening strategies of junk short messages can be screened from the massive reported short messages automatically, and thus processing efficiency is improved greatly.
+55. WO/2013/181957 METHOD AND SYSTEM FOR DATA RECOVERY OF MOBILE TERMINAL
+WO
+12.12.2013
+H04W 88/02 Loading...
+H04W 88/02
+Loading...
+PCT/CN2013/072625
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YANG, Wei
+H04W 88/02
+Loading...
+A method for data recovery of a mobile terminal. The method comprises: A, receiving a criterion selected by a user and used for specifying a file that requires data recovery; B, querying all data satisfying the criterion, and displaying a query result; and C, selecting a file object according to the query result and performing a data wiping or data recovery operation on the selected file object. The present invention can perform data recovery on a file deleted by the user on a mobile terminal, thereby reducing the loss resulting from deletion by mistake, and bringing about great convenience to users.
+56. 103442348 移动终端、服务器和方法
+CN
+11.12.2013
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+201310378905.8
+北京网秦天下科技有限公司
+宫琳琳
+H04W 8/18
+Loading...
+本发明提供了一种移动终端，包括：发送单元，被配置为向服务器发送与移动终端有关的信息；判断结果接收单元，被配置为从服务器接收判断结果，所述判断结果指示移动终端是否满足特定条件；检测单元，被配置为在所述判断结果指示移动终端满足特定条件的情况下检测移动终端；验证单元，被配置为在检测通过后向服务器验证移动终端的号码；支付单元，被配置为在验证完成后根据服务器提供的资费信息进行支付，并向服务器传送支付结果；以及维护信息接收单元，被配置为从服务器接收移动终端的维护信息。本发明还提供了一种服务器、一种用于移动终端的方法和一种用于服务器的方法。本发明的操作简单快捷，并提高了工作效率。
+57. 103413095 Method and device for managing mobile terminal
+CN
+27.11.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201310367191.0
+北京网秦天下科技有限公司
+贾凌
+G06F 21/60
+Loading...
+The invention provides a method and a device for managing a mobile terminal according to a geographic position. The method comprises the following steps of an acquiring step: acquiring position information of the mobile terminal; a matching step: matching the acquired position information of the mobile terminal with a pre-set geographic fence; a managing step: responding to a matched result to indicate the mobile terminal to enter or leave the geographic fence; and carrying out secrete-keeping operation for the mobile terminal. According to the method and the device provided by the invention, the information safety of enterprises can be improved and secrets are prevented from being breached.
+58. WO/2013/163907 METHOD AND DEVICE FOR DISPLAYING OBJECT IN MOBILE DEVICE
+WO
+07.11.2013
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+PCT/CN2013/072533
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YU, Jia
+G06F 3/048
+Loading...
+Provided are a method and device for displaying an object in a mobile device. The method comprises: identifying the current state of a mobile device; and according to the state of the mobile device, automatically adjusting a ranking display manner of an object list and displaying same. The present invention has the beneficial effects that the display content of an object can be changed or displayed according to different ranking elements while rotating a mobile device, i.e. the object can have different display manners when the mobile device is in different rotational states, which can meet the individual requirements of users, facilitate the use by users, and improve the user experience.
+59. WO/2013/159609 SECURITY DEVICE AND DISPLAY METHOD THEREOF
+WO
+31.10.2013
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+PCT/CN2013/072600
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHENG, Ping
+G06F 21/00
+Loading...
+Provided is a display method for a security device installed with a photographing module and a display module, the method comprising: A, when the security device captures a specific image via the photographing module, the security device displays a password input interface via the display module; B, when the password matching is successful, the security device displays a preset object via the display module. The present invention improves device security performance by concealing the password input interface, and satisfies the current requirement for information security.
+60. WO/2013/159607 SECURITY DETECTION METHOD AND SYSTEM
+WO
+31.10.2013
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+PCT/CN2013/072534
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZHANG, Jun
+G06F 21/00
+Loading...
+Disclosed are a security detection method and system. The method comprises: a. performing security scanning on a code of an application program, if a high risk is detected, indicating that the application program is a high risk application program, generating a detection result, and performing step d; otherwise, performing step b (S110); b. analyzing the code of the application program, and generating an analysis result (S120); c. performing detection determining based on the analysis result, determining security of the application program, and generating a detection determining result (S130); and d. storing the detection result or the detection determining result to form security grade data (S140). The system comprises a vulnerability detection module, an analysis module, a detection determining module, and a database. According to this embodiment, a malicious application program can be rapidly found from a great number of application programs, and a risk grade of the application program is provided, so as to enable a user to easily know the high risk application program and avoid using it, thereby reducing the loss and regularly managing an application market.
+61. WO/2013/143393 METHOD AND SYSTEM UTILIZING CLOUD COMPUTATION FOR SCANNING FILES OF DEVICE
+WO
+03.10.2013
+G06F 9/40 Loading...
+G06F 9/40
+Loading...
+PCT/CN2013/072538
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHEN, Yaowei
+G06F 9/40
+Loading...
+Provided in the present invention are a method and system utilizing cloud computation for scanning redundant files of a mobile terminal. The method comprises: a client on the mobile terminal scanning a file system on a local mobile terminal, and generating a file information list; the client on the mobile terminal submitting to a server side the file information list; the server side comparing the received file information list with a file information association list in a server side database, and returning the comparison result; the client comparing the comparison result of the server side with an application list of the mobile terminal; and the client executing a cleanup operation on the basis of the comparison result of the client. Effects of the present invention comprise the capability for timely and effective cleanup of the redundant files on the mobile terminal to release more storage space, thus allowing a storage space of the mobile terminal to be free of the redundant files, while at the same preventing to the greatest extent misidentification and accidental deletion of the redundant files, thus allowing a user to utilize and maintain at increased effectiveness a storage space resource of the mobile terminal, and facilitating use for the user.
+62. WO/2013/143391 METHOD AND SYSTEM FOR CLEANING UP FILES ON DEVICE
+WO
+03.10.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2013/072535
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHEN, Yaowei
+G06F 17/30
+Loading...
+A method and system for cleaning up junk files on a mobile terminal. The method comprises: a mobile terminal client scanning a file system on a local mobile terminal, and generating a file information list; the mobile terminal client submitting to a server side the file information list; the server side comparing the file information list submitted by the mobile terminal client with a file information association list in a server side database, and returning the comparison result; determining a cleanup request with respect to the file system on the basis of the comparison result, and the mobile terminal client executing a cleanup operation. The method allows for timely and effective cleanup of the junk files on the mobile terminal, while at the same time allows to the greatest extent prevention of misidentification and accidental deletion of the junk files, thus allowing a user to efficiently utilize and maintain a storage space resource of the mobile terminal.
+63. 103295046 生成和使用安全二维码的方法和设备
+CN
+11.09.2013
+G06K 19/06 Loading...
+G06K 19/06
+Loading...
+201310233577.2
+北京网秦天下科技有限公司
+杨骁
+G06K 19/06
+Loading...
+本发明提供了用于生成和使用安全二维码的方法。用于生成安全二维码的方法包括：a)接收发布方的证书信息、认证信息和想要发布的发布内容；b)生成所述发布内容的数字摘要；c)使用与所述证书信息相对应的加密密钥对所述认证信息和所述数字摘要进行加密，以获得加密信息；以及d)将所述发布内容、所述证书信息、以及所述加密信息编码为二维码形式，以获得安全二维码。
+64. 103294830 用于更新规则数据集的方法和设备
+CN
+11.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310261691.6
+北京网秦天下科技有限公司
+吴自立
+G06F 17/30
+Loading...
+本发明提供了一种用于更新规则数据集的方法，包括：初始化第一数据表和第二数据表，所述第一数据表用于保存当前有效的规则，所述第二数据表用于保存发生变更的规则的编号；当需要更新时，对所述第一数据表中的规则进行更新；以及在对所述第一数据表中的规则进行更新后，将所更新的规则的编号添加到所述第二数据表中。本发明还提供了一种用于更新规则数据集的设备。利用本发明，规则集的内容分析/维护变得更加方便，额外开销很小且更有效率。
+65. 103281187 安全认证方法、设备和系统
+CN
+04.09.2013
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201310183490.9
+北京网秦天下科技有限公司
+施华国
+H04L 9/32
+Loading...
+本发明提供了一种用于安全认证的方法，包括：(a)向认证服务器发送与认证客户端相关的数据；(b)从所述认证服务器接收由所述认证服务器基于所述与认证客户端相关的数据和由目标服务器返回的认证数据所生成的客户端数据；(c)使用所述客户端数据中包括的可执行代码来验证所述认证客户端的安全性；以及(d)在确定所述认证客户端安全的情况下，使用所述认证数据来登录所述目标服务器。
+66. 103268439 在移动终端外部执行的检测移动终端安全性的方法及设备
+CN
+28.08.2013
+G06F 21/50 Loading...
+G06F 21/50
+Loading...
+201310136803.5
+北京网秦天下科技有限公司
+施华国
+G06F 21/50
+Loading...
+本发明提供了在移动终端外部执行的用于检测移动终端的安全性的方法以及相应设备。该方法包括：从移动终端获取程序；对所获取的程序进行安全处理；根据该安全处理的结果，生成安全报告；以及根据该安全报告，对所述移动终端执行安全操作。
+67. 103268448 动态检测移动应用的安全性的方法和系统
+CN
+28.08.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201310198937.X
+北京网秦天下科技有限公司
+张冰
+G06F 21/56
+Loading...
+本发明提供了一种动态检测移动应用的安全性的方法和系统，其使用蜜罐节点技术，动态构造触发条件，能够尽可能多地捕获移动应用中可能存在的恶意行为以避免漏检。所述方法包括：在至少一个移动终端上执行用于诱发恶意行为的控制脚本，并且通过动态监控来生成日志信息；以及，通过对从所述至少一个移动终端收集的日志信息进行分析以识别恶意应用。
+68. 103246846 检测定制ROM的安全性的方法和装置
+CN
+14.08.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201310144459.4
+北京网秦天下科技有限公司
+张军
+G06F 21/56
+Loading...
+本发明提供了在移动终端中检测定制系统升级固件的安全性的方法、装置和对应的系统。该方法包括：提取系统升级固件的特征；将提取的系统升级固件的特征发送给云端，以与云端特征库进行比较；以及根据云端返回的比较结果，执行处理。根据本发明的方法可以提供云端ROM特征库。用户在移动终端上安装了根据本发明的客户端程序后，可以将本机的特征与安全ROM的特征进行比对，从而确保本机ROM的安全。
+69. WO/2013/097715 METHOD AND SYSTEM FOR PERFORMING PARENT CONTROL ON MOBILE DEVICE
+WO
+04.07.2013
+H04W 12/08 Loading...
+H04W 12/08
+Loading...
+PCT/CN2012/087523
+BEIJING NETQIN TECHNOLOGY CO., LTD
+OU, Jianhong
+H04W 12/08
+Loading...
+The present invention provides a method and system for performing parent control on a mobile device. The method comprises: monitoring and recording one or more kinds of information of a mobile device on a website browsed by a user, geographic location information, an installation event of an application program, and a start event of an application program; uploading to a server one or more selected from the website browsed by the user, the geographic location information, the installation event of an application program, a message received or sent by the user, and call logs; the server receiving the uploaded content and providing an interface for the user to view the content. The beneficial effect of the present invention lies in that the operation by the user on the mobile device is monitored in real time, and a parent can monitor the operation by the user on the mobile device by accessing data on the server.
+70. WO/2013/097714 STATISTICAL ANALYSIS AND PROMPTING METHOD AND SYSTEM FOR MOBILE TERMINAL INTERNET TRAFFIC
+WO
+04.07.2013
+H04W 4/26 Loading...
+H04W 4/26
+Loading...
+PCT/CN2012/087521
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LUO, Chao
+H04W 4/26
+Loading...
+The present invention provides a statistical analysis and prompting method and system for mobile terminal Internet traffic. The method comprises: a mobile terminal obtaining mobile terminal Internet traffic usage data from an operator in real time; monitoring local mobile terminal Internet traffic usage data in real time; performing synchronization processing on the mobile terminal Internet traffic usage data obtained from the operator and the local mobile terminal Internet traffic usage data monitored in real time, to obtain real-time Internet traffic usage data; using the real-time Internet traffic usage data to calculate the estimated number of days with the traffic still being available, and prompting the information regarding the estimated number of days to the user in real time. The effects of the present invention comprise that trend analysis can be performed on the data of the Internet traffic already used by the mobile terminal to obtain the estimated number of days for the remaining traffic, and the result is prompted to the user in real time, so that the user can know the availability of the traffic in time, thereby achieving the objective of reasonably allocating and fully taking advantage of the traffic resources.
+71. 103188227 一种对移动设备进行家长控制的方法和系统
+CN
+03.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110452314.1
+北京网秦天下科技有限公司
+欧建宏
+H04L 29/06
+Loading...
+本发明提供一种对移动设备进行家长控制的方法和系统。该方法包括监控和记录移动设备的用户浏览的网址、地理位置信息、应用程序的安装事件和应用程序的启动事件中的一种或多种信息，将用户浏览的网址、地理位置信息和应用程序的安装事件、用户接收和发送的消息以及通话记录中的一种或多种上传服务器端，服务器端接收所述记录并提供接口供用户查阅所述记录。本发明的有益效果在于实时监控移动设备用户的操作行为，并使家长能够通过访问服务器端的数据而监控移动设备用户的操作行为。
+72. 103188647 一种移动终端上网流量统计分析和提醒的方法和系统
+CN
+03.07.2013
+H04W 4/26 Loading...
+H04W 4/26
+Loading...
+201110451912.7
+北京网秦天下科技有限公司
+罗超
+H04W 4/26
+Loading...
+本发明提供一种移动终端上网流量统计分析和提醒的方法和系统，该方法包括移动终端实时从运营商处获取移动终端上网流量使用数据，实时监控本地移动终端上网流量使用数据，对从运营商处获得的上网流量使用数据和本地移动终端实时监控到的上网流量使用数据进行同步处理，得到实时的上网流量使用数据，利用实时的上网流量使用数据计算得到流量预计可用天数，并实时向用户提示预计可用天数信息。本发明的效果包括能对移动终端已使用的上网流量数据进行趋势分析，得出剩余流量的预计可用天数，并将结果实时提醒给用户，使用户及时了解流量可使用情况，达到合理分配和充分利用流量资源的目的。
+73. WO/2013/083075 METHOD AND SYSTEM FOR BATTERY POWER-SAVING
+WO
+13.06.2013
+H04M 1/73 Loading...
+H04M 1/73
+Loading...
+PCT/CN2012/086160
+BEIJING NETQIN TECHNOLOGY CO., LTD
+LAI, Mubin
+H04M 1/73
+Loading...
+The present invention relates to a method and system for battery power-saving. The method comprises the following steps: determining if a user is starting a new process, when the user is starting a new process, saving the new process started by the user into a history database; determining if the user is connected to a network, when the user is connected to a network, saving a network connection state of the user into the history database; determining if battery level is triggering a dynamic power-saving scheduling, when the battery level is triggering the dynamic power-saving scheduling, power-saving scheduling on the basis of an engine; and, determining if monitor-off is triggering a dynamic network scheduling, when the monitor-off is triggering the dynamic network scheduling, network scheduling on the basis of a network scheduling engine. The method for battery power-saving of the present invention makes improvement in terms of the intellectualization of process control and/or network management.
+74. WO/2013/071863 METHOD USING MOBILE-PHONE CLIENT SIDE TO PROVIDE VOICE OPTION AND TEXT PROMPT AND CORRESPONDING MOBILE-PHONE CLIENT SIDE
+WO
+23.05.2013
+H04M 1/64 Loading...
+H04M 1/64
+Loading...
+PCT/CN2012/084584
+BEIJING NETQIN TECHNOLOGY CO., LTD
+YANG, Xiao
+H04M 1/64
+Loading...
+Provided are a method using a mobile-phone client side to provide voice prompt and text prompt and corresponding mobile-phone client side, the method comprising: utilizing local mobile phone software to automatically answer an incoming call; providing a voice prompt for a caller, the voice prompt containing a plurality of options; and according to the caller selection, providing a mobile-phone user with a text prompt corresponding to the caller selection. The present invention utilizes the functions of mobile-phone software to achieve voice prompt and quick text feedback, so that the mobile phone user can quickly learn the intent of the caller.
+75. WO/2013/071841 METHOD AND SYSTEM FOR MONITORING APPLICATION PROGRAM OF MOBILE DEVICE
+WO
+23.05.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+PCT/CN2012/084371
+BEIJING NETQIN TECHNOLOGY CO., LTD
+ZENG, Yang
+G06F 21/56
+Loading...
+Provided are a method and system for monitoring an application program, the method comprising: establishing a simulation system service; establishing a connection with a function managing a device I/O channel in a device driver; intercepting the function data transmitted to the device driver by the application program for managing the device I/O channel; according to the intercepted data, replacing the system service requested by the application program with a corresponding simulation system service; recording and forwarding the request received by the simulation system service to an analysis module for analysis. The benefit of the present invention is that all system requests are intercepted in the Binder communication transmission process of the system, and a simulated system layer service is utilized to analyze the behavior characteristics of the application program in an Android operating system. Compared to other application program interception technologies, the method and system do not interfere with the normal running of application programs.
+76. 103116408 智能输入方法和设备
+CN
+22.05.2013
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201310036485.5
+北京网秦天下科技有限公司
+张宇平
+G06F 3/023
+Loading...
+本发明提供了一种智能输入方法。所述智能输入方法包括接收输入；判断所述输入是否符合标准；如果所述输入符合所述标准，则呈现可操作项；以及响应于对所述可操作项的操作，执行相应的动作。本发明还提供了一种实现上述智能输入方法的智能输入设备。
+77. WO/2013/056673 METHOD AND SYSTEM FOR UNLOCKING DEVICE HAVING TOUCHSCREEN MONITOR
+WO
+25.04.2013
+G06F 3/041 Loading...
+G06F 3/041
+Loading...
+PCT/CN2012/083217
+BEIJING NETQIN TECHNOLOGY CO., LTD
+DANG, Jinfeng
+G06F 3/041
+Loading...
+Provided in the present invention are a method and system for unlocking a device having a touchscreen monitor. The method comprises the following steps: a device client acquiring from a network-side a trademark logo; the device client monitoring a touchscreen monitor input; if the touchscreen monitor input monitored corresponds to the trademark logo, then the device client allowing the device to unlock; and the device client acquiring an update of the trademark logo from the network-side at a predetermined time.
+78. WO/2013/053316 METHOD AND SYSTEM FOR CREATING AND MANAGING SCHEDULE ON BASIS OF SOCIAL NETWORK
+WO
+18.04.2013
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+PCT/CN2012/082693
+BEIJING NETQIN TECHNOLOGY CO., LTD
+WANG, Yanwei
+H04L 12/58
+Loading...
+Provided are a method and a system for creating and managing a schedule on the basis of a social network. The method comprises the following steps: a schedule management server obtaining information from a specific account of a social network end, the schedule management server parsing the information type, an information creator identity and an information content, the schedule management server creating a schedule event according to the parsed information type, information creator identity and information content, and the schedule management server providing a user interface so that a user logs in through the Internet and views the created schedule event.
+79. 103037310 移动终端智能防盗方法和移动终端
+CN
+10.04.2013
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201210545230.7
+北京网秦天下科技有限公司
+杨骁
+H04W 4/02
+Loading...
+本发明提供了一种移动终端智能防盗方法(100)，包括：根据对移动终端的操作，触发移动终端防盗操作(S110)，所述移动终端防盗操作至少包括：收集移动终端的位置信息、环境信息(S122、S124)，备份移动终端中的隐私数据(S126)；以及将所收集到的移动终端的位置信息、环境信息和所备份的隐私数据发送至结果指定位置(S130)。本发明还提供了一种用于实现上述移动终端智能防盗方法(100)的移动终端(200)。
+80. WO/2013/044769 INFORMATION RECOMMENDATION METHOD AND SYSTEM BASED ON MESSAGE CONTENT
+WO
+04.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2012/081835
+BEIJING NETQIN TECHNOLOGY CO., LTD
+CHEN, Yaowei
+G06F 17/30
+Loading...
+Provided are an information recommendation method and system based on message content, the method comprising the following steps: when a user side views a message, providing a guide option for the user; if the user triggers the guide option, then performing single-level classification or multi-level classification on the message to obtain category information; and a server returns the information related to the category information to the user side.
+81. 103020188 多平台应用搜索方法和服务器
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210505780.6
+北京网秦天下科技有限公司
+贾凌
+G06F 17/30
+Loading...
+本发明提供了一种多平台应用搜索方法(100)，包括：根据搜索配置，对多个平台上的一个或多个应用程序的链接进行收集(S110)；针对所述一个或多个应用程序的链接中的每一个，从相应的网页上提取并保存与相应的应用程序有关的信息(S120)；以及根据所提取的与应用程序有关的信息，排除并删除重复的信息(S130)。本发明还提供了一种用于实现上述多平台应用搜索方法的服务器(200)。
+82. 103024160 移动终端锁定方法和移动终端
+CN
+03.04.2013
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201210507131.X
+北京网秦天下科技有限公司
+贾凌
+H04M 1/725
+Loading...
+本发明提供了一种移动终端锁定方法，包括：接收并解析锁机指令信息，获得锁机指令、用户名和密码信息；利用移动终端本地存储的用户名和密码信息，对所获得的用户名和密码信息进行验证；在验证成功后，执行锁机指令，锁定移动终端。本发明还提供了一种用于实现上述移动终端锁定方法的移动终端。
+83. 103020534 一种移动终端管理的方法和系统
+CN
+03.04.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210504501.4
+北京网秦天下科技有限公司
+刘伟
+G06F 21/60
+Loading...
+本发明提供一种移动终端管理的方法和系统，该方法包括：备份步骤，判断移动终端如果满足设定条件1，则服务器端将所述移动终端标识为疑似丢失，并将所述移动终端的数据备份到服务器端，之后擦除所述移动终端的数据；清除步骤，判断移动终端如果满足设定条件2，则服务器端将所述移动终端标识为确认丢失，并清除所述移动终端的全部数据。本发明通过对丢失的移动终端分别标记为疑似丢失和确认丢失，并依据丢失的类别进行不同的处理，能更方便有效的管理移动终端，保证移动终端数据的安全。
+84. 103019816 应用程序管理方法和服务器
+CN
+03.04.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201210499855.4
+北京网秦天下科技有限公司
+刘伟
+G06F 9/46
+Loading...
+本发明提供了一种应用程序管理方法(100)，包括：接收来自一用户设备(UE1)的对一个或多个其他用户设备(UE1-1、…、UE1-N)的指定(S105)；将所述一个或多个其他用户设备(UE1-1、…、UE1-N)与所述用户设备(UE1)绑定成一个群组(GA1-1)(S110)，所述一个或多个其他用户设备(UE1-1、…、UE1-N)和所述用户设备(UE1)中的每个用户设备均是所述群组(GA1-1)的群组成员；接收来自所述群组(GA1-1)的群组成员之一的针对一应用程序的群组安装命令(S115)；以及对所述群组(GA1-1)的所有群组成员执行所述应用程序的安装过程，为所述群组(GA1-1)的每个群组成员安装所述应用程序(S120)。本发明还提供了一种用于实现上述应用程序管理方法(100)的服务器(200)。
+85. 103023901 移动终端的登录方法及登录系统
+CN
+03.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210523685.9
+北京网秦天下科技有限公司
+李晓军
+H04L 29/06
+Loading...
+本发明提供移动终端的登录方法及登录系统，该方法包括：联网登录步骤，判断如果移动终端和服务器端的联网状态通畅，所述移动终端通过方式1登录并访问所述服务器端；离线登录步骤，判断如果移动终端和服务器端的联网状态不通畅，通过方式2登录到本地移动终端，验证通过则可以访问所述本地移动终端的数据。本发明通过在联网登录下增加离线登录的方式，使用户在移动终端无法与服务器端进行正常联网的情况下，也能登录到本地客户端实现对重要数据的访问，既减少了联网次数，缩短上网的时间，也方便了用户使用。
+86. 102999628 搜索方法和信息搜索终端
+CN
+27.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210526020.3
+北京网秦天下科技有限公司
+李晓军
+G06F 17/30
+Loading...
+本发明提供了一种在信息搜索终端上执行的搜索方法。所述方法包括：在所述信息搜索终端上接收要搜索的关键字；根据所述关键字，在所述信息搜索终端的本地数据中进行搜索，并得到本地关联数据信息；向服务器发送接收到的关键字，并从所述服务器接收服务器关联数据信息；以及将接收到的所述服务器关联数据信息与所述本地关联数据信息合并，并向所述用户提供合并后的关联数据信息。本发明还提供了一种用于实现上述搜索方法的信息搜索终端。
+87. 102447773 一种移动终端通讯录智能化分组的系统及方法
+CN
+09.05.2012
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201010501259.6
+北京网秦天下科技有限公司
+李锋
+H04M 1/725
+Loading...
+本发明公开一种移动终端通讯录智能化分组的系统及方法。该方法包括无线或者有线连接客户端和服务器，构成智能识别系统，其中该方法进一步包括：将所述客户端的通讯录同步至服务器；通过所述客户端发现事件，提取所发现事件中的数据信息；智能识别系统基于收到的数据信息进行数据分析，自动根据数据信息对客户端的通讯录进行分组，通过服务器与客户端的通信，所述分组信息在客户端和服务器之间进行同步；将通讯录进行分组的结果存储至服务器的数据库；以及在客户端显示分组信息。
+88. WO/2012/041151 INTELLIGENT GROUPING SYSTEM AND METHOD FOR MOBILE TERMINAL CONTACT BOOK
+WO
+05.04.2012
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+PCT/CN2011/079298
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+LI, Feng
+H04M 1/725
+Loading...
+Disclosed are an intelligent grouping system and method for a mobile terminal contact book. The method comprises: connecting a client to a server in a wireless or wired manner to form an intelligent recognition system. The method further comprises: synchronizing a contact book of the client to the server; the client discovering an event and extracting data information in the discovered event; the intelligent recognition system performing data analysis based on received data information, and automatically performing grouping on the contact book of the client according to the data information, grouping information being synchronized between the client and the server through communication between the server and client; storing a contact book grouping result in a database of the server; and displaying group information on the client.
+89. WO/2011/069438 WORKING METHOD AND SYSTEM FOR SELF-LEARNING INTELLECTUALIZED SHORT MESSAGE FIREWALL OF MOBILE TERMINAL
+WO
+16.06.2011
+H04W 8/00 Loading...
+H04W 8/00
+Loading...
+PCT/CN2010/079522
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+LI, Feng
+H04W 8/00
+Loading...
+A working method and system for self-learning intellectualized short message firewall of mobile terminal are provided in the present invention. According to another embodiment of the present invention, a working method for self-learning intellectualized short message firewall of mobile terminal is provided, and includes the following steps: the transmission of the short message is monitored, the number and the corresponding process name or software name are matched by the client side when a short message is transmitted, and it is judged whether the process name or software name of the transmitted short message belongs to the local black list; if the process name or software name of the transmitted short message belongs to the local black list, the transmission of the short message is stopped. Furthermore, it can be judged that the process name or software name of the transmitted short message belong to one of the black list, the white list, the rascal software and the green software or the combination with the method of the present invention. The system and method of the present invention can solve the problem in a dilemma that both the behavior that the malicious and rascal software transmits short message automatically must be avoided and the behavior that the normal manufacturer and production transmit short message must be taken account of.
+90. 102088679 Working method and system of intelligent short message firewall of self-learning mobile terminal
+CN
+08.06.2011
+H04W 4/14 Loading...
+H04W 4/14
+Loading...
+200910253538.2
+NetQin Mobile Inc.
+Li Feng
+H04W 4/14
+Loading...
+The invention relates to a working method and system of an intelligent short message firewall of a self-learning mobile terminal. According to an embodiment of the invention, the working method of the intelligent short message firewall of the self-learning mobile terminal comprises the following steps: monitoring sending of a short message; when the short message is sent, matching a number with a corresponding process name or software name by a client side, and judging whether the process name or the software name which sends the short message belongs to a local ''blacklist''; and stopping sending the short message if the process name or the software name which sends the short message is in the local ''blacklist''. In addition, the method disclosed by the invention can judge whether the process name or the software name belongs to one of or the combination of the ''blacklist'', a ''white list'', ''rogue software'' and ''green software''. The system and method provided by the invention can prevent the malicious software or the rogue software from automatically sending short messages, and also needs to consider the condition of sending short messages by normal manufacturers and product suppliers in the market.
+91. 102055826 Method and system for maintaining multi-dimensional related information related to contacts in address list
+CN
+11.05.2011
+H04M 1/2745 Loading...
+H04M 1/2745
+Loading...
+200910180673.9
+Beijing Netqin Technology Co., Ltd.
+Cheng Ping
+H04M 1/2745
+Loading...
+The invention relates to a method and a system for maintaining multi-dimensional related information related to contacts in an address list. The method comprises the following steps of: confirming that an event affecting the multi-dimensional related information data has happened; analyzing the event, and identifying the multi-dimensional related information data; and storing the multi-dimensional related information data and maintaining the association between the multi-dimensional related information data and the contacts. The method and the system can automatically analyze, create and maintain time, place and related person information related to a certain contact in the address list of a mobile phone, and allow a user to search the address list from multiple dimensions. Under the condition that the burden of the user is not increased, the available address list search conditions of the user are enlarged, and the efficiency of managing the address list of the mobile phone of the user with more contacts is greatly improved.
+92. WO/2011/050714 METHOD AND SYSTEM FOR MAINTAINING MULTI-DIMENSIONAL RELEVANT INFORMATION RELATED TO CONTACTS IN ADDRESS BOOK
+WO
+05.05.2011
+H04M 1/2745 Loading...
+H04M 1/2745
+Loading...
+PCT/CN2010/078131
+BEIJING NETQIN TECH. CO., LTD.
+CHENG, Ping
+H04M 1/2745
+Loading...
+The present invention discloses a method and system for maintaining multi-dimensional relevant information related to the contacts in an address book. The method includes: it is determined that the event which affects the multi-dimensional relevant information data has happened; the event is analyzed and the multi-dimensional relevant information data are identified thereof; the multi-dimensional relevant information data are saved and the correlation between the multi-dimensional relevant information data and the contacts is maintained. The method and system in the present invention can automatically analyze, create and maintain the time, place and relevant person information related to a certain contact in the address book of a mobile phone, and enable users to search the address book in multiple dimensions. Under the condition that any burden for users is not increased, address book search conditions useable for users are extended, and management efficiency of the mobile phone address book, in which the user has a large number of contacts, is greatly improved.
+93. WO/2010/108418 CONTEXT-BASED MULTI-DIMENSIONAL INQUIRING METHOD OF NUMBER ADDRESS BOOK
+WO
+30.09.2010
+H04M 1/26 Loading...
+H04M 1/26
+Loading...
+PCT/CN2010/071097
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+LIN, Yu
+H04M 1/26
+Loading...
+A context-based multi-dimensional inquiring method of the number address book is disclosed, the method comprises, inputting the searching field, determining if the searching field match a certain city name, searching the full visiting card information in the address book, and sorting the coordinators in the address book based on the multi-dimension.
+94. 101848266 Multi-dimensional number address list inquiring method based on context
+CN
+29.09.2010
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+200910080632.2
+NetQin Mobile Inc.
+Lin Yv
+H04M 1/725
+Loading...
+The invention provides a multi-dimensional number address list inquiring method based on contexts, which comprises the following steps: inputting searching field selections; judging whether the searching field selections are matched with a city name; carrying out whole name card information searching on the address list; and sequencing contact persons in the address list based on the multiple dimensions. The inquiring method enlarges the searching range of the information of the contact persons in the address list, and greatly improves the inquiring efficiency.
+95. 101827147 Telephone firewall for preventing hang-up of calling with once ringing
+CN
+08.09.2010
+H04M 1/66 Loading...
+H04M 1/66
+Loading...
+201010004295.1
+NetQin Mobile Inc.
+Zhu Yiliang
+H04M 1/66
+Loading...
+The invention provides a method for a telephone firewall for preventing hang-up of calling with once ringing for a terminal which is easy to realize intelligent control. The firewall primarily divides a calling party into a credible party and an incredible party through software, executes normal calling for the credible party through intelligent judgment of the software, and adopts weak prompt for a certain time and then adopts a normal calling notification mode for the incredible party. The invention further discloses a method for the telephone firewall for preventing hang-up of calling with once ringing for a terminal which is not easy to realize or cannot realize intelligent control, which is characterized in that the terminal plays ring tones of mute in the previous time for all callings. The method has the advantage of shielding the influence of nuisance call such as calling with once ringing on a telephone user.
+96. 101754106 Method and system for recommending contents between mobile phone users
+CN
+23.06.2010
+H04W 4/12 Loading...
+H04W 4/12
+Loading...
+200810227980.3
+Ni Xianle
+Ni Xianle
+H04W 4/12
+Loading...
+The invention relates to a method and system for recommending contents between mobile phone users. The method includes extracting recommending information, taking the recommending information as parameter and transferring the recommending information to a recommending module; assembling the recommending information, the mobile phone number of a recommended person and selective recommending reasons into recommending information and transmitting to the mobile phone of a recommended party through the recommending module; after the mobile phone of the recommended party receives the recommending information, monitoring and resolving the information through a 'monitoring download module' which runs in the background; popping up a download prompt through the monitoring download module according to the resolved content, and obtaining URL of corresponding content after asking for the user to confirm, and the user downloads content designated by URL from a server. The invention solves the problem of difficult sharing between users by implementing adaptation at the server, increasing shortcut at the mobile phone end, and then transmitting the recommending information to the recommended party and automatically downloading matched contents from the server after the mobile phone end receives the recommending information.
+97. 101754182 Packed-based network contact list implementation method and system
+CN
+23.06.2010
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+200810240184.3
+Beijing Netqin Technology Co., Ltd.
+Li Feng
+H04W 8/18
+Loading...
+The invention provides a packet-based network contact list implementation method and a system. The method includes that: a server storing network contact list data is accessed through a web configuration interface; a network contact list is created and the details of the network contact list are edited; the contacts in the network contact list are grouped according to dimensions of information and grouping rules to generate the group-based contact list; and the generated network contact list is confirmed and stored. The user can access the network contact list through a client, and the access process includes that: a client program is installed in a personal terminal which accesses the server port through network; the server performs authentication on the personal terminal; if the personal terminal passes the authentication, the persona terminal logs in the network contact list to obtain the contact list information; if the personal terminal is unable to pass the authentication, the process is over. The method and system in the invention are adopted to improve the sense of reality and reliability of message sending with sp special service number, and realize more convenient communication within the group and also protect the personal privacy information.
+98. WO/2010/063200 METHOD AND SYSTEM FOR RECOMMENDING CONTENT AMONG MOBILE PHONE USERS
+WO
+10.06.2010
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+PCT/CN2009/074457
+BEIJING NETQIN TECHNOLOGY CO., LTD.
+NI, Xianle
+H04W 4/00
+Loading...
+A method and system for recommending content among mobile phone users are provided. The method includes: picking up recommendation message, and transmitting it to the recommendation module as a parameter; the recommendation module combines the recommendation message, the mobile phone number of the user being recommended to, and selective recommendation reasons into a recommendation message, and transmits it to the mobile phone of the user being recommended to; as long as the mobile phone of the user being recommended to receives the recommendation message, the monitor and download module which is running all through at the background monitors and analyzes this message; according to the analyzed content, the monitor and download module pops up a download reminder, asks the user for affirmation, and gets the URL of relevant content, then the user downloads the content appointed by the URL from the server. Application of the present invention solves the problem that it is difficult for users to share contents among each other, by adapting at the server, adding shortcut mode at the mobile phone side, then transmitting the recommendation message to the user being recommended to; the mobile phone side downloads the matching contents from the server automatically as soon as the recommendation message is received.
+99. 101184264 Mobile phone telephone and message anti-disturbance and private communication method and system
+CN
+21.05.2008
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200710178179.X
+Beijing NetQin Tech. Co., Ltd.
+Li Feng
+H04Q 7/22
+Loading...
+The invention relates to a processing method and the system of anti-harassment of mobile phone calls and messages and private communication, which is as follow: when grouping the contacts in the mobile phone address list according to different classes, a private group of private communicating contacts is added, and different scene modes of the user are set; when receiving a mobile phone call or a message (text message, multimedia message), depending on the grouping sort of the contact of the incoming call or the message or the multimedia message, and the current scene of the user, together with the behavior characteristics of the harassing call and the spam message with the database information of the public harassing message issued by the authoritative institution or obtained from social statistics, the corresponding process to the call, the message and the multimedia message of the mobile phone is executed to reduce harassment; meanwhile the communication records of incoming, dialed calls and message, multimedia message with the contacts in the private grouping are encrypted and preserved to protect the personal privacy of the user. The invention has the advantages of adopting the operating steps of uniform process, and resolving synthetically the harassment of calls, messages and multimedia messages for the mobile phone and the private protection.
+100. 101119387 Method and system with convenience to customize, configure and transfer handset software service
+CN
+06.02.2008
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+200710121575.9
+Beijing NetQin Tech. Co., Ltd.
+Zou Shihong
+H04W 8/18
+Loading...
+The present invention relates to a method which is user centered for customizing, deploying and transferring software operation of mobile phone. The method takes the softwares of various mobile phone operations as the carroer of the operation. After mobile phone of the user opens certain operation, user describing information of the mobile phone and describing information of the related operation are stored at the operation management platform at the same time. The user logs in the operation management platform by the access device. After passing the identification and authentication, user can customize mobile phone operation and various optional functions, or using the access device deploy the operation parameter. After completing the customing and deploying operation, mobile phone can directly download the mobile phone software or the operation describing information from the operation management platform and to install at the mobile phonr of the user. When in case of replacing the mobile phone, user can use the new mobile phone login the operation management, After passing the identification and authentication, the user can optionally or totally move the various mobile phone operations and the operation decribing information which the original mobile phone use to the new mobile phone. The present invention is convenient for user to replace mobile phone, making the individual customing and deploying of the operation software.
+101. 101119425 Handset self-carried photosensitive sensor based handset anti-theft method
+CN
+06.02.2008
+H04M 11/04 Loading...
+H04M 11/04
+Loading...
+200710121821.0
+Beijing NetQin Tech. Co., Ltd.
+Dang Jinfeng
+H04M 11/04
+Loading...
+The present invention relates to a cell phone guarding method basing on the optical inductor of the cell phone applies the change of light-sensing intensity of the optical inductor which is arranged in the cell phone to automatically trigger the alarm, preventing the cell phone being stealing or losing. The specific method includes the steps that a steal-proof software module is arranged in the cell phone provided with an optical inductor, and then a keysoke or keystoke assembly which is preinstalled is pressed to make the cell phone with the condtion of steal-proof mode; during the period which is preset before the alarm device is started, the cell phone has to be put into the handbag or other place insulated from the light; when the preset period is out, the steal-proof software module drives the cell phone to open the optical inductor. If the light intensity is dim or no light, the cell phone does not alarm; or, once the cell phone is taken out from the handbag or fallen out accidently, the light intensity of the optical inductor is stronger than the set value, the alarm is promptly triggered, informing that the cell phone is probably stolen. The method of the invention is low in cost, convenient in usage and wide in applicability, being applicable in variable cell phones which are provided with the optical inductors.
+102. 101056176 End-to-end encryption method and control device for the mobile phone SMS
+CN
+17.10.2007
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710099892.5
+Beijing NetQin Tech. Co., Ltd.
+Zou Shihong
+H04L 9/32
+Loading...
+A method for the end-end encryption of message sent by mobile, before communication, two mobile users may mutually negotiate through the Diffie-Hellman key switching algorithm and calculate respectively to establish a shared key for both parties; then after encrypted the mobile message with the shared key, sent to the other party; after another user received this encrypted message, decrypts the encrypted message with the shared key, presents the original information to the receiver. The control device for the invention is a control component equipped in the mobile for mutual communicating with the message transmitting and receiving module, consists of decryption module, interface presenting module, encryption message storage module, key management module and key negotiation module. The invention method is easier to realize, high feasibility, the structure of control device is simple, the operating of user is almost identical with the receiving and transmitting of ordinary mobile messages, but the method has higher safety, meets with the high safety demand for mobile messages.
+103. 101043686 Inquiry based method for mobile terminal to refuse rubbish SMS
+CN
+26.09.2007
+H04Q 7/32 Loading...
+H04Q 7/32
+Loading...
+200710098662.7
+Beijing NetQin Tech. Co., Ltd.
+Zou Shihong
+H04Q 7/32
+Loading...
+The disclosed method for rejecting garbage SMS based on inquiry comprises: when receiving SMS from a new number, the mobile terminal automatic replies a inquiry SMS with simple problem, and sends both the SMS and number into the areas waiting for being determined; if the returned answer right, moving the SMS into the receiving box, and adding the number into ''white'' name list; or lese, moving the SMS into garbage box, and adding the name into black list. Wherein, to the known number, directly processing the number and SMS. This invention is simple and low cost.
+104. 101035098 Method for the mobile terminal to reject the spam via the query
+CN
+12.09.2007
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200710098661.2
+Beijing NetQin Tech. Co., Ltd.
+Zou Shihong
+H04L 12/58
+Loading...
+A method based on question of mobile terminals to refuse to accept spam. Mobile terminals connected by the mail server receives head information of the mail first to collect sender address; If the address is unfamiliar , mobile terminals send an e-mail question to question the sender automatically, and put the head of the mail information and addresses to areas of confirmed list and to be ascertained; When the returned mail response answered correctly, it downloaded from the mail server integrity of the mail and sent to the address to the White List, in order to receive the user's mail directly next time; If the answer is wrong, the head Mail information will be send to garbage bins, and put address in blacklist; If the address of the sender address is a non-stranger, according to the addresses in the respective white list or blacklist to download the mail or put the head mail information into litter bins. The method is simple, high degree of automation and low cost, and save time and flow costs, easy to implement and promote.
+105. 101018364 A method and system for publishing the advertisement at the mobile terminal
+CN
+15.08.2007
+H04Q 7/22 Loading...
+H04Q 7/22
+Loading...
+200710064437.1
+Beijing NetQin Tech. Co., Ltd.
+Zou Shihong
+H04Q 7/22
+Loading...
+The ad-releasing method on mobile terminal comprises: (1) user installs a client ad receiving module in mobile terminal; (2) user initiates the module; (3) the receiving module interacts with the provider's platform periodically to receive ad; and (4) once calling or called, the client module displays ad on terminal. This invention is simple by just adding client ad receiving module on the terminal and connecting platform in Internet, and can satisfy user individual demand, while rewording scores for displaying ad.
+106. 1752888 Virus characteristics extraction and detection system and method for mobile/intelligent terminal
+CN
+29.03.2006
+G06F 1/00 Loading...
+G06F 1/00
+Loading...
+200510115671.3
+Zhu Lin
+Bo Da
+G06F 1/00
+Loading...
+The present invention relates to a virus characteristics extraction and detection device for mobile/intelligent terminal. Said device is formed from program sample classification generation component, classification category storage component, characteristic information classification management component (virus library management component), virus characteristics information extraction component and scanning engine component. Said invention also provides the concrete steps of its extraction and detection method.
+

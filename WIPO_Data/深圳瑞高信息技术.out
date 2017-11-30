@@ -1,0 +1,97 @@
+1. WO/2013/159521 OPERATION CONTROL CONVERSION METHOD FOR VIRTUAL ICON TOUCHSCREEN APPLICATION PROGRAM, AND TOUCHSCREEN TERMINAL
+WO
+31.10.2013
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+PCT/CN2012/085568
+SHENZHEN IREADYGO INFORMATION TECHNOLOGY CO., LTD
+QIU, Jian
+G06F 3/048
+Loading...
+Disclosed is an operation control conversion method for a virtual icon touchscreen application program, which comprises: operating a touchscreen application program; loading a mapping configuration file corresponding to the touchscreen application program, the mapping configuration file comprising mapping rule information between a touchscreen event and a physical input device; obtaining an operation control instruction of the physical input device, and resolving the operation control instruction according to the mapping rule information in the mapping configuration file, so as to convert the operation control instruction to a touchscreen event; and according to the converted touchscreen event, performing operation control on the touchscreen application program. By implementing the embodiments of the present invention, a user can obtain a real operation hand feeling by selecting a physical input device or a touch control manner to perform operation control on a touchscreen application program, thereby improving the operation accuracy and the operation experience.
+2. 103207740 非触摸屏终端设备上按键操作的转换方法、装置及设备
+CN
+17.07.2013
+G06F 3/0487 Loading...
+G06F 3/0487
+Loading...
+201310066011.5
+深圳瑞高信息技术有限公司
+杨克遵
+G06F 3/0487
+Loading...
+本发明实施例公开了一种非触摸屏终端设备上按键操作的转换方法，包括：检测终端设备上目标按键的点击操作，并获取该目标按键的身份信息；根据所述身份信息在预置的配置文件中查询与该身份信息对应的位置信息；生成所述终端设备显示屏上所述位置信息指示的位置处的触摸屏事件。采用本发明，能在非触摸屏终端设备上兼容运行触摸屏的应用程序，提高终端设备的兼容性。
+3. 103186251 一种按键功能转换方法、装置及电子设备
+CN
+03.07.2013
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201310063355.0
+深圳瑞高信息技术有限公司
+邱剑
+G06F 3/023
+Loading...
+本发明实施例公开了一种按键功能转换方法，包括：检测第一按键发出的点击操作；在预置的按键映射表中查询所述第一按键所关联的第二按键，并将所述第一按键发出的点击操作转换成所述第二按键的发出点击操作；生成所述第二按键发出的点击操作所对应的功能触发信号。本发明实施例还公开了一种按键功能转换装置和电子设备。采用本发明，能提高终端设备对应用程序的兼容性。
+4. 103186254 一种摇杆模拟鼠标操作的方法、装置及电子设备
+CN
+03.07.2013
+G06F 3/0338 Loading...
+G06F 3/0338
+Loading...
+201310062982.2
+深圳瑞高信息技术有限公司
+龙观水
+G06F 3/0338
+Loading...
+本发明实施例公开了一种摇杆模拟鼠标操作的方法，包括：获取摇杆运动时输入的运动参数；根据所述运动参数计算得到鼠标指针在终端设备界面上的目标位置；在所述目标位置指示的位置处显示所述鼠标指针。本发明实施例还公开了一种摇杆模拟鼠标操作的装置和电子设备，采用本发明，能在提高鼠标操作的准确性和精确性。
+5. 103186253 一种双摇杆模拟多点触控的方法、装置及设备
+CN
+03.07.2013
+G06F 3/033 Loading...
+G06F 3/033
+Loading...
+201310063439.4
+深圳瑞高信息技术有限公司
+邱剑
+G06F 3/033
+Loading...
+本发明实施例公开了一种双摇杆模拟多点触控的方法，包括：接收第一摇杆及第二摇杆运动时输入的运动参数；根据所述运动参数得到终端设备图形界面上所述第一摇杆对应的第一鼠标指针和所述第二摇杆对应的第二鼠标指针的运动轨迹；根据所述第一鼠标指针及所述第二鼠标指针的运动轨迹生成相应的手势触控信号。采用本发明，能使非触摸屏显示终端支持多点触控，提高了终端设备的兼容性。
+6. 103049540 一种大文件烧录的方法及相关装置
+CN
+17.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210574589.7
+深圳瑞高信息技术有限公司
+黎国强
+G06F 17/30
+Loading...
+本发明公开了一种大文件烧录的方法，包括：包括：将待传输的大文件分割为多个小文件，所述多个小文件的数据长度之和为所述大文件的数据长度；将所述小文件传送给客户机，以通过所述客户机对所述小文件进行文件烧录。本发明还公开了一种主机和一种客户机。采用本发明，具有提升文件传输、烧录的速度，使得大文件的烧录变得更方便、快捷的优点。
+7. 102035856 Game community management method and system and game customer terminals
+CN
+27.04.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010618831.7
+Shenzhen Ruigao Information Technologies Co., Ltd.
+Chen Gang
+H04L 29/06
+Loading...
+The embodiment of the invention discloses a game community management method. The method comprises the following steps that: a first game customer terminal logs in a game, performs game interaction with a game logic server and acquires the current game state information; an extensible markup language (XML) data stream is generated on the basis of a jabber protocol; the current game state information is carried in the message body of the XML data stream in an expanded mode; the XML data stream is sent to a game community server; and the game community server forwards the received message body to a second game customer terminal, so that the second game customer terminal displays the current game state of the first game customer terminal according to the message body. The embodiment of the invention also discloses the game customer terminals, the game community server and a game community management system. By expanding the jabber protocol in a targeted mode, the game community management system capable of meeting the requirements of network games is constructed, the problem of large code development amount of the network games in the prior art is effectively solved, and the development difficulty of the network games and operation platforms is lowered.
+8. 102023868 Mobile terminal and control conversion method thereof
+CN
+20.04.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010595849.X
+Shenzhen Ruigao Information Technology Co., Ltd.
+Ji Dasheng
+G06F 9/44
+Loading...
+The embodiment of the invention discloses a control conversion method of a mobile terminal, comprising the following steps of: starting a software application program and transferring a predetermined conversion configuration file which corresponds to the software application program and includes information of conversion rules between original control and target control; loading the conversion configuration file and acquiring the information of the conversion rules in the conversion configuration file; acquiring a control command which is input to the mobile terminal as a target, resolving the control command according to the information of the conversion rules and converting the control command into a control signal based on the original control; and controlling the started software application program according to the control signal. The embodiment of the invention also discloses the mobile terminal, well realizes the interactive control of the software application program on the mobile terminal and can directly load the traditional software application program to the mobile terminal to operate smoothly and enhance the control effect on interaction with a user when the software application program operates.
+

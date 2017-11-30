@@ -1,0 +1,325 @@
+1. 106407809 一种Linux平台恶意软件检测方法
+CN
+15.02.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201610834406.9
+四川大学
+王俊峰
+G06F 21/56
+Loading...
+本发明公开了一种Linux平台恶意软件检测方法，包括以下步骤：用objdump‑D命令反汇编ELF格式的良性软件以及恶意软件样本，生成汇编文件；对生成的汇编文件逐个遍历，读取ELF文件的代码段，同时识别代码段中是否包含main函数；对读取的代码段进行分析，划分基本块，每个基本块用该基本块所含最低的地址标记，向邻接链表添加控制流图中的顶点，建立基本块之间的联系，向邻接链表添加控制流图的边，生成一个基本的控制流图；提取控制流图的特征，将特征写入arff文件；将生成的arff文件作为机器学习工具weka的数据集，进行数据挖掘，构建分类器；用分类器对待测的ELF样本进行分类。本发明不需要直接比较庞大的特征库，速度更快，能检测未知的恶意软件。
+2. 102882694 基于CAP规范标准预警信息的LED显示屏发布终端
+CN
+21.12.2016
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+102012000320200
+北京东方正通科技有限公司
+张骥
+H04L 12/18
+Loading...
+本发明提供用于接发CAP规范标准预警信息的LED显示屏发布终端，包括终端硬件和软件系统，还包括消息引擎模块、系统整合模块、融合通信模块和安全认证加密模块四个主要功能模块，所述消息引擎模块实现国际标准告警CAP协议格式的订阅与解析；所述系统整合模块用于整合原有的已建成发布系统；所述融合通信模块采用标准传输协议和策略；所述安全认证加密模块在终端设备订阅发布消息服务时安全设计采用五级的安全架构体系。本发明是以整合现有发布终端为目标；提供标准预警消息的解析、易定制化的模板内容输出方式，解决对各种LED离线电子显示屏和在线电子显示屏的定向发布问题。通过系统整合，利用已建设的系统设备而可大大缩减成本。
+3. 105786909 一种自适应消息队列积压负载的应用触发方法和系统
+CN
+20.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410826747.2
+北京东方通科技股份有限公司
+谭辅州
+G06F 17/30
+Loading...
+本发明实施例公开了一种自适应消息队列积压负载的应用触发方法和系统，涉及数据传输技术领域，解决了现有技术中消息中间件在引入数据处理逻辑后，数据处理效率大幅下降，系统整体性能降低的问题。本发明的自适应消息队列积压负载的应用触发方法包括：服务端获取消息队列中的积压消息数；服务端判断所述消息队列中的积压消息数是否大于或等于预设值；若所述消息队列中的积压消息数大于或等于预设值，则服务端根据所述积压消息数启动新的本地应用进程处理积压消息。本发明的实施例主要用于在数据传输类产品中根据消息队列的积压情况自动触发并启动应用程序。
+4. 105653269 一种Boot启动装置和启动方法
+CN
+08.06.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201511001363.8
+北京星地恒通信息科技有限公司
+王宝
+G06F 9/44
+Loading...
+一种Boot启动装置和启动方法，所述Boot启动装置存储设备，用于存放配置信息和可执行程序；所述配置信息为预先给定的配置参数；CPU，用于启动Boot，读取存储设备中的配置信息和可执行程序；RAM，用于存放从存储设备中读取的可执行程序和Boot启动过程中产生的数据，本发明可以通过读取存储设备的配置信息初始化相应硬件模块，在没有运行可执行程序之前实现预定功能的快速启动，满足了在嵌入式系统启动过程中预设功能的快速启动的需求，而且在Boot运行过程中输出标志信息，监控Boot的执行过程。
+5. 103245407 光纤微振动传感报警系统
+CN
+14.08.2013
+G01H 9/00 Loading...
+G01H 9/00
+Loading...
+201210028716.3
+北京东方通达科技有限公司
+高一恒
+G01H 9/00
+Loading...
+光纤微振动传感报警系统，属于光电子测试类领域，由终端、传感光缆、引导光缆、主控仪和主控计算机等组成，所述终端是由N个终端盒组成，终端之间设为防区，终端盒之间布设传感光缆，所述的传感光缆布设的方式有：挂网、贴合、内置、埋地等方法。布设在防区的传感光缆上的任何一点如有微振动，以标准通信光缆作为传感元件，通过主控仪接收激光的明暗条纹的变化，再通过主控计算机的电子细分，迅速判断振动的性质同时得到振动的位置，从而知道距离的细微和准确变化。本发明是新一代安全预警系统，该系统采用光纤传感技术和光电信号检测技术，实现零漏警率，监控距离长、范围大，无需外场供电；传感光缆本质安全，无电磁干扰。
+6. 103116510 基于OSGI的类加载隔离系统和方法
+CN
+22.05.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201310026972.3
+北京东方通科技股份有限公司
+于洋
+G06F 9/445
+Loading...
+本发明提供一种基于OSGI的类加载隔离系统和方法，所述系统包括：转换器，用于将web应用转换为标准wab；处理器，用于为所述web应用创建虚拟组件集合；过滤器，用于为所述虚拟组件集合设置隔离关系。所述方法包括：S1：将web应用转换成标准wab，并为所述web应用创建虚拟组件集合；S2：为所述虚拟组件集合创建过滤器；S3：根据所述过滤器中的可见性列表，为所述虚拟组件集合设置隔离关系。本发明通过提出一种基于OSGI的类加载隔离系统和方法，是面向JavaEE平台下的web应用，根据具体需求细粒度的控制应用间类隔离性和服务的隔离性，且配置更加灵活。
+7. 102999377 服务并发访问控制方法及装置
+CN
+27.03.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201210506416.1
+北京东方通科技股份有限公司
+代卫兴
+G06F 9/46
+Loading...
+本发明公开了一种服务并发访问控制方法及装置，该方法包括步骤：S401，服务系统接收服务请求；S402，判断服务请求数量是否达到了服务系统能够响应的最大并发数，是则转S403，否则转S404；S403，给服务请求方返回服务系统忙的信息；S404，根据服务请求的应急程度以及服务系统的处理通道数量，判断服务请求是否需要排队，是则转S405；否则转S406；处理通道耗完，则转S407；S405，服务请求排队，等待被唤醒执行；S406，服务请求被处理；S407，返回处理通道耗完信息。本发明按照需要在控制服务请求并发的同时，保证不同节点或节点域的访问请求能够按照需要的权重方式得到服务，并且在提供应急处理通道的同时保证应急服务请求得到及时服务，提高服务并发控制的精确度与效率。
+8. 202750097 基于CAP规范标准预警信息的大喇叭发布终端
+CN
+20.02.2013
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201220444059.6
+北京东方正通科技有限公司
+张骥
+H04H 20/59
+Loading...
+本实用新型提供一种基于CAP规范标准预警信息的大喇叭发布终端，包括中央处理器、通讯模组、语音处理器、信号切换控制器、信号输入模组、信号输出模组、电源管理部件和GPS模块，中央处理器分别与通讯模组、语音处理器、信号切换控制器、电源管理部件以及GPS模块相连接，信号输入模组与原有已建成的第三方发布系统输出信号源相连接，信号输出模组与大喇叭输出终端相连接，电源管理部件包括电源适配器和稳压组件。本实用新型以整合现有的发布终端为目标，可大大缩减成本。产品设计严格遵循CAP1.2最新标准，解决通过各种大喇叭定向发布预警信息的要求。
+9. 202750098 基于CAP规范标准预警信息的LED显示屏发布终端
+CN
+20.02.2013
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+201220443391.0
+北京东方正通科技有限公司
+张骥
+H04L 12/18
+Loading...
+本实用新型提供种基于CAP规范标准预警信息的LED显示屏发布终端，其特征在于，包括中央处理器、通讯模组、视频采集处理器、信号切换控制器、信号输入模组、信号输出模组、电源管理部件和GPS模块，中央处理器分别与通讯模组、视频采集处理器、信号切换控制器、电源管理部件以及GPS模块相连接；信号输入模组与第三方发布系统输出信号源相连接；信号输出模组与LED输出终端相连接。本实用新型以整合现有发布终端为目标，产品设计严格遵循CAP1.2最新标准，提供标准预警消息的解析、易定制化的模板内容输出方式。通过CAP标准协议的遵循，保证终端即插即用，接收标准的预警信息，可大大缩减成本。
+10. 202750099 基于CAP规范标准预警信息的多媒体发布终端
+CN
+20.02.2013
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+201220443740.9
+北京东方正通科技有限公司
+张骥
+H04L 12/18
+Loading...
+本实用新型提供一种基于CAP规范标准预警信息的多媒体发布终端，包括中央处理器、通讯模组、多媒体处理部件、信号切换控制器、信号输入模组、信号输出模组和电源管理部件，中央处理器分别与通讯模组、多媒体处理部件、信号切换控制器、电源管理部件以及GPS模块相连接；信号输入模组与原有已建成的第三方发布系统输出信号源相连接；信号输出模组与多媒体输出终端相连接。本实用新型以整合现有发布终端为目标。产品设计严格遵循CAP1.2最新标准，提供标准预警消息的解析、易定制化的模板内容输出方式，解决对各种多媒体显示屏和在线电子显示屏的定向发布问题。通过CAP标准协议的遵循，保证终端即插即用，接收标准的预警信息，可大大缩减成本。
+11. 102843201 Big horn release terminal based on CAP (Common Alerting Protocol) code standard alert messages
+CN
+26.12.2012
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201210320915.1
+北京东方正通科技有限公司
+张骥
+H04H 20/59
+Loading...
+The invention provides a big horn release terminal based on CAP (Common Alerting Protocol) code standard alert messages, which is used for receiving and releasing alert messages. The big horn release terminal comprises terminal hardware and a software system operating on the terminal hardware. The big horn release terminal is provided with a message engine module, a TTS (Text to Speed) speech synthesis module, a system integration module, a converged communication module and a security encryption module; the message engine module is used to realize the subscription and the analysis of an international standard warning CAP format; the TTS speech synthesis module dynamically synthesizes text messages into speech messages, and the system integration module is used for integrating originally constructed release systems; a standard transmission protocol and strategy is adopted in the converged communication module; and a five-stage security architecture system is adopted in the security encryption module. The big horn release terminal has the purpose of integrating the existing release terminals and is used to realize the analysis of the standard alert messages and an output way of easily-customized template content. Through system integration, the cost can be greatly reduced by utilizing the constructed system equipment.
+12. 102316544 机车无线通信中多工作模式切换方法及其系统
+CN
+11.01.2012
+H04W 36/14 Loading...
+H04W 36/14
+Loading...
+201110192699.2
+中国铁路总公司
+姜永富
+H04W 36/14
+Loading...
+本发明公开了一种机车无线通信中多工作模式切换方法及其系统，该切换方法包括：基于卫星定位系统实时获取列车当前位置的原始定位信息，并进行校验；取出经校验后有效的原始定位信息的经度值和纬度值，生成包含经度值和纬度值的列车当前位置的坐标，并将列车当前位置的坐标与预设的基准坐标相减，得到列车当前位置的相对坐标；根据相对坐标识别待切换的工作模式，并发送工作模式切换命令给主控模块。该机车无线通信中多工作模式切换方法及其系统，可实现多种无线通信方式下多工作模式之间的方便切换，并且效率高，为司机操作多种通信设备提供便捷。
+13. 102184311 Mobile personal digital assistant (PDA) field emergency command system
+CN
+14.09.2011
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201110037559.8
+Beijing Harmony Technologies Co., Ltd.
+Zhang Ji
+G06F 19/00
+Loading...
+The invention discloses a mobile personal digital assistant (PDA) field emergency command system. The system comprises a PDA mobile terminal and a server end, wherein the PDA mobile terminal comprises an emergency information receiving module, an information query module, a spatial assistant analysis module, a data acquisition module and a mobile terminal video monitoring module which are connected in turn; and the server end comprises a system configuration module, a data receiving and warehousing module, an emergency information transmitting module, a command scheduling module, a data management module, a spatial data service module, a data collection statistical module and a server end video monitoring module. The system has the advantages of establishing a reliable communication network through a wireless communication network and an emergency command centre; the processing capacity and efficiency of emergency events are greatly improved; and system is very suitable for the meets in the aspects of emergency information receiving, information query, space emergent and critical incident scene.
+14. 102163195 Query optimization method based on unified view of distributed heterogeneous database
+CN
+24.08.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010112856.X
+Beijing Dongfangtong Technology Development Co., Ltd.
+Liu Chuan
+G06F 17/30
+Loading...
+The invention discloses a query optimization method based on a unified view of a distributed heterogeneous database. The method comprises the following steps of: configuring the unified view for the distributed heterogeneous database for external access; effectively decomposing SQL query statements of the unified view according to a physical table of a database to be queried so as to maximally reduce the number of accesses; querying corresponding physical table by the decomposed SQL query statements and returning back resultant data, wherein a cache region is firstly queried, if the cache region contains corresponding resultant data, the result is directly obtained, and priorities are set for the SQL query statements so as to obtain an optimal result set as much as possible in each time while querying the physical table; and combining the resultant data returned after querying the physical table, and storing the combined resultant data and the corresponding SQL query statements into the cache region. The query optimization method based on the unified view of the distributed heterogeneous database improves efficiency for querying the unified view of the distributed heterogeneous database and reduces usage of resource.
+15. 101674255 Method, server and system for forwarding messages of enterprise service bus
+CN
+17.03.2010
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200810119861.6
+Beijing TongTech Technology Development Co., Ltd.
+Xu Hongbo
+H04L 12/58
+Loading...
+The invention relates to a system for forwarding messages of an ESB. The system comprises an access engine and an ESB kernel, wherein the access engine provides access support of respective technicalspecification for a caller party and a callee party, and forwards a call request of the caller party or an execution result of the callee party; and the ESB kernel determines positions and types of afirst access engine corresponding to the caller party and a second access engine corresponding to the callee party, and selects direct forwarding, forwarding after natural serialization or forwardingor after unified message conversion of the call request transmitted by the caller party through the first access engine according to a determination result. The invention also relates to an ESB message forwarding method and a server which correspond to the system. The method and the system thereof perform message conversion of different strategies aiming at different conditions on comparison of the access engine types on the ESB, execute direct forwarding, natural serialization or unified message conversion of the messages according to different priorities, and achieve the aims of reducing message conversion times and improving the performance through optimization.
+16. 101470636 Message read-write method and apparatus
+CN
+01.07.2009
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+200710304415.8
+Beijing Tongtech Co., Ltd.
+Zhu Luwei
+G06F 9/54
+Loading...
+The invention discloses a message read-write method, which comprises the steps: message is sent to a message queue from a producer, a message synchronous list is inquired according to the type of the message, if recording which corresponds to the type of the message exists in the message synchronous list, corresponding consumers are confirmed. When having corresponding consumers, one of the corresponding consumers is awaked, and the message is sent to the awaked consumer. The invention further discloses a message read-write device, which comprises a sending device, an inquiry device, an awaking device and a device which sends the message to the awaked consumer. The invention inquires the corresponding consumers in the message synchronous list through the producer according to the type of the message, and the method of awaking one of the consumers leads the consumers not to be awaked wastefully, thereby saving the CPU time.
+17. 201181249 注射泵压力检测机构
+CN
+14.01.2009
+G01L 9/00 Loading...
+G01L 9/00
+Loading...
+200820079181.1
+北京东方诚益通科技开发中心
+梁毅
+G01L 9/00
+Loading...
+本实用新型公开了一种注射泵压力检测机构，在支架上活动装有注射推进装置，注射推进装置包括丝杠，丝杠上固定有齿轮，通过步进电机驱动，丝杠的两端活动装于支架上，支架上设有支撑簧片和复位弹簧，丝杠的两端分别抵在所述支撑簧片和复位弹簧上，支撑簧片上固定有磁钢，磁钢处设有霍尔传感器。通过霍尔传感器检测注射时丝杠产生的位移变化，实现监测阻塞现象、报警的目的，同时改变泵控系统的工作状态，确保输液安全，结构简单、安全性高。
+18. 2932709 一种机车通信系统中主机与终端的连接器的插座和插头
+CN
+08.08.2007
+H01R 13/62 Loading...
+H01R 13/62
+Loading...
+200620001516.9
+上海新干通通信设备有限公司
+陈志杰
+H01R 13/62
+Loading...
+本实用新型涉及一种机车通信系统中主机与终端连接器的插座，包括：一限位卡接外壳；一安装法兰，套接于所述限位卡接外壳外侧；一插针定位法兰，套接于所述限位卡接外壳内侧；数个插针或插针孔，枢接于所述插针定位法兰上。还涉及一种机车通信系统中主机与终端连接器的插头，包括：一内壳；一插针孔定位架，容置于所述内壳内；数个插针孔或插针，容置于所述插接体内；一快速安装螺旋卡接外壳，与所述内壳相套接，并形成一容置槽。因此，本实用新型机车通信系统中主机与终端的连接器的插座和插头，能够在列车强震动、强电磁干扰的环境中可靠和良好的通信。
+19. 2864657 自动取样阀
+CN
+31.01.2007
+G01N 1/10 Loading...
+G01N 1/10
+Loading...
+200520122796.4
+北京东方诚益通科技开发中心
+梁凯
+G01N 1/10
+Loading...
+本实用新型公开了一种自动取样阀，包括阀体和阀芯，阀体包括进料口与出料口，还包括驱动装置与自动控制装置。驱动装置与阀芯连接，驱动装置通过驱动阀芯运动接通或断开进料口；自动控制装置与驱动装置连接，并控制驱动装置工作。通过在自动控制装置中预先输入控制时间，利用时间自动控制进料口、出料口和消毒口的相互配合开启，不仅解决了已往取样时需手工操作、取样量无法控制、取样质量不稳定的缺点，实现了操作过程自动实现，而且取样数量稳定可靠、样液浪费少、经济效益高，在生产环境中无外接气源时，还可通过手动方式开启进料口提取样液，具有很强的适应性和可靠性。
+20. 2822039 机车无线通信系统
+CN
+27.09.2006
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200520108986.0
+上海新干通通信设备有限公司
+陈志杰
+H04B 7/24
+Loading...
+本实用新型涉及一种机车无线通信系统，包括列尾主机，至少一个操作显示终端和与其相连接的主机，所述主机包括主控模块和天线馈线模块，以及与主控模块和天线馈线模块连接的800MHz列尾和列车安全预警车载电台、GSM－R话音模块、GSM－R数据模块、450MHz机车电台、450MHz调度命令模块、GPS模块、所述主机还连接有电源模块。因此，本实用新型机车无线通信系统同时满足了450MHz模拟通道的通信、800MHz通道上列尾和列车安全预警以及GMS－R网络下的语音和数据通信。
+21. 1710827 Locomotive number and train number registration and deregistration method in locomotive wireless communication system
+CN
+21.12.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078270.5
+Xingantong Communication Apparatus Co., Ltd., Shanghai
+ChenZhijie
+H04B 7/24
+Loading...
+The invention includes steps: (1) switching operation display terminals based on area covered by network; if it is district covered by GSM - R, then starting up GSM - R data module and executing step (2); if it is district covered by 450MHz analog network, then starting up 450MHz analog communication module and executing step (3); (2) based on GSM-R network, registration and cancellation of locomotive functional number and functional number of train number are carried out; if district entered is covered by 450MHz analog network, then step (3) is executed; (3) based on 450MHz analog network, registration and cancellation of locomotive number and train number are carried out; if district entered is covered by GSM-R network, then step (2) is executed. It is convenient to register and cancel locomotive number and train number in district covered by GSM - R or 450MHz analog network through the invention.
+22. 1702982 Locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078271.X
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system, which comprises engine tail, one operation display terminal and one host machine, wherein, the host comprises main control module and antenna feedback module and the 800MHz tail and safety pre-warning radio, GSM-R sound module and data module, 450MHz engine radio, 450MHz dispatching order module, GPS module. The invention meets the demands of 450MHz analogue channel communication, tail of 800MHz channel and pre-warning and the sound and data communication.
+23. 1702983 Communicating method of locomotive wireless communication system
+CN
+30.11.2005
+H04B 7/24 Loading...
+H04B 7/24
+Loading...
+200510078272.4
+Shanghai Xingantong Communication Equipment Co., Ltd.
+Chen Zhijie
+H04B 7/24
+Loading...
+This invention relates to engine wireless communication system method, which comprises the following steps: a, the operation display terminal switching according to path network, wherein, if the path covered by GSM-R network, then the operation and display terminal main control module sending sound module of GSM-R and data module information for starting GSM-R sound module and data module; b, if the path covered by the 450MHz network, then the operation and display terminal sending the starting information for starting; c, the antenna module receiving the sound calling information or dispatching orders or sending sound communication operations.
+24. 2507868 一种流加补料装置
+CN
+28.08.2002
+C12M 1/00 Loading...
+C12M 1/00
+Loading...
+01267937.2
+北京东方诚益通科技开发中心
+孙宝刚
+C12M 1/00
+Loading...
+本实用新型涉及一种用于生物工程中的流加补料装置,包括储罐、流量计、发酵罐、报警器、控制器及气泵,其主要是所述储罐通过管道与所述流量计连接,其连接管道上装有手动阀,所述流量计经管道与所述发酵罐连接,其连接管道上顺序装有节流板及气动隔膜阀,所述气动隔膜阀连接有二位三通电磁阀,所述二位三通电磁阀分别与所述气泵、控制器连接,所述控制器分别与所述流量计、报警器连接。本实用新型结构简单、造价低、流加精度高、安装操作方便,具有极大的推广价值。
+25. 1334537 Integrated securities information service network system
+CN
+06.02.2002
+G06F 15/163 Loading...
+G06F 15/163
+Loading...
+00121043.2
+Dongfang Jinwangtong Science and Techonlogy Co., Ltd, Beijing
+Zheng Lei
+G06F 15/163
+Loading...
+The invention relates to an integrated service network system for information of negotiable securities. The system is composed of satellite and central information management network as well as local information management network and local wireless data-broadcasting network built based on local need. The local information management network consists of a networking center and the network for business operation of negotiable securities mainly. The local wireless data-broadcasting network consists of wireless transmitting station and the users with portable terminal who can receive the real-time information of negotiable securities wirelessly or through wire. The agency transaction of negotiable securities can be carried on through wire. The system provides features of large quantity of information, large covered area, secure transaction and lower transaction cost.
+26. 2463838 电话线与电力线搭接故障检测装置
+CN
+05.12.2001
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+01201081.2
+北京东方信通科技中心
+楼建明
+G01R 31/08
+Loading...
+一种电话线与电力线搭故障检测装置,包括由带线路板的主机和碰线电流检测传感器连接构成,其主要是线路板上装有电源和网络接线端子,电缆搭接电力线检测输入端子、电缆断缆检测输入端子、发光二极管及设有模拟开关电路、低噪声放大器、带通滤波器、精密整流电路、信号调理电路、A/D变换电路及单片机,碰线电流检测传感器由C型铁芯、线圈、卡簧及紧固螺栓组成,线圈底部设有屏蔽端子和接线端子。该装置能及时检测搭接对地漏电流,发生报警信号。
+27. 1199897 Trade identity ensuring method
+CN
+25.11.1998
+G06F 17/60 Loading...
+G06F 17/60
+Loading...
+98101433.X
+Beijing Dongfangtong Science &. Technology Development Co., Ltd.
+Zhu Luwei
+G06F 17/60
+Loading...
+In on-line business processing system, data processing consistence is ensured through checking and repeated submission and cancel. The main causes leading to inconsistent results are short time failure of network to produce data loss and system failure to produce wrong result. Once execution has certain failure probability and repeated execution can reduce the total failure probability to acceptable level. The present invention is practical in ensuring the processing reliability, efficiency and use convenience of system.
+

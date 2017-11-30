@@ -1,0 +1,1093 @@
+1. 206100075 一种列控业务承载系统
+CN
+12.04.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201621138172.6
+北京全路通信信号研究设计院集团有限公司
+李莉
+H04L 29/08
+Loading...
+本申请提供了一种列控业务承载系统，所述列控业务承载系统包括列控系统地面设备、列控系统车载设备和LTE系统，列控系统车载设备将列车状态信息通过LTE系统发送至列控系统地面设备，列控系统地面设备将列车控制信息通过LTE系统发送至列控系统车载设备。由于列控系统地面设备和列控系统车载设备之间的传输系统为LTE系统，LTE系统为宽带系统，相比与窄带系统的GSM‑R无线通信系统来说，业务承载能力更强，解决了现有技术中在承载列控业务时，使用GSM‑R无线通信系统承载能力差的问题。
+2. 106547488 一种混合缓存管理方法
+CN
+29.03.2017
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201610922042.X
+国家计算机网络与信息安全管理中心
+李正民
+G06F 3/06
+Loading...
+本发明涉及一种混合缓存管理方法，所述方法包括：在混合缓存的最后一级共享高速缓存LLC中的SRAM的高速缓存块上增加读写标记字段；根据所述混合缓存接收的访问请求在所述最后一级共享高速缓存LLC的STT‑RAM和SRAM的命中情况及读写标记字段的标记规则对SRAM的高速缓存块上的读写标记字段进行标记；本发明提供的方法，利用混合缓存拥有更高的存储密度的特点，通过合理的缓存管理策略抑制长尾现象，提高执行多应用效率。
+3. 106547662 一种用于分布式数据库的性能故障定位方法
+CN
+29.03.2017
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201610922085.8
+长安通信科技有限责任公司
+谭怀远
+G06F 11/30
+Loading...
+本发明提供一种用于分布式数据库的性能故障定位方法，定位执行速度缓慢的性能故障节点；判断性能故障节点的SQL执行计划是否改变，若是，则性能故障定位完成，并优化性能故障节点的SQL执行计划，若否，则依次查看系统资源负载、协调器性能及用户网络状况，直至完成性能故障的定位。本发明提出的方法简单且高效，能够快速且准确地找出分布式环境下的用户调度数据库过程中的性能故障所在，大大将少了在MPP(分布式数据库)环境下性能定位的时间，让工程师有了更清晰的思路，避免做很多无用工作，可以集中精力的进行问题解决。
+4. 106547860 一种分布式数据库性能故障的定位方法
+CN
+29.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610921283.2
+长安通信科技有限责任公司
+谭怀远
+G06F 17/30
+Loading...
+本发明提供一种分布式数据库性能故障的定位方法，获取用户发出的SQL语句并定位SQL语句；在分布式数据库的节点中查找出存在性能故障的问题节点；比较问题节点与非问题节点的SQL语句的执行计划；查找并判断问题节点的资源使用情况；判断是否完成全部的问题节点的定位；检查并修正协调器的性能。本发明提出的方法极大的缩短了在分布式数据库环境下性能故障定位的时间，实现了对性能故障的有效且准确可靠地定位，进而减少了维护时间与成本，提高了分布式数据库的运行稳定性。
+5. 106487592 一种基于数据立方体的分布式系统故障诊断方法
+CN
+08.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000921292
+国家计算机网络与信息安全管理中心
+赵丽
+H04L 12/24
+Loading...
+本发明提供一种基于数据立方体的分布式系统故障诊断方法，其方法步骤如下：获取分布式系统测试数据，其包括外部测试数据和内部监测定位数据；测试数据预处理，建立测试数据集；构建数据立方体：通过分析数据立方体，诊断分布式系统故障；再次执行故障诊断。通过该方法能够显著提高准确定位故障的效率，大大降低对故障定位人员的要求。
+6. 106487593 一种无效网管告警的屏蔽方法
+CN
+08.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000921888
+国家计算机网络与信息安全管理中心
+郝帅
+H04L 12/24
+Loading...
+本发明提供一种无效网管告警的屏蔽方法，根据无效告警触发事件构建屏蔽指标集合；配置屏蔽正则表达式；将无效告警触发事件的告警格式转化为告警正则表达式，与屏蔽正则表达式进行正则运算，完成屏蔽。本发明提出的方法适用于主机和网络设备的数量和复杂度的增加的现网，实现了及时且可靠地识别无效告警触发事件；能够高效且显著地减少无效网管告警的数量，减轻了维护人员的维护压力，提高了维护的效率；进而保证了网络的运行稳定性。
+7. 106452885 一种基于有限状态机的网管告警推送方法
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610922083.9
+国家计算机网络与信息安全管理中心
+郝帅
+H04L 12/24
+Loading...
+本发明提供一种基于有限状态机的网管告警推送方法，所述方法包括如下步骤：(1)周期式采集各个网管服务器的告警信息；(2)对所述网管服务器的告警信息进行预处理；(3)建立有限状态机模型，并根据模型对所述网管服务器的告警信息进行状态转换；(4)所述网管服务器的告警信息进入终止态时停止对本条网管信息的处理。本发明设计和实现了网管告警推送系统，能够接入多类网管告警，能够在半分钟内发送告警信息至维护人员，可以及时发现和处理告警造成的不利影响，且能够适应复杂的业务流程。
+8. 106411818 安全域结构检查方法及装置
+CN
+15.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000456955
+中国移动通信集团河北有限公司
+周智
+H04L 29/06
+Loading...
+本发明公开了安全域结构检查方法及装置。所述方法包括：从目标网络系统中采集用于反映目标网络系统中网络设备之间连通状况的网络结构信息；根据所述网络结构信息确定所述目标网络系统各个网络设备之间的连接路径；根据所述连接路径完成对所述目标网络系统的安全域结构检查。采用本发明实施例所提供的安全域结构检查方法及装置，可以自动确定所述目标网络系统各个网络设备之间的连接路径，进而根据所述连接路径完成对所述目标网络系统的安全域结构检查，从而可以准确高效的自动完成网络系统的安全域结构检查，得到描绘安全域结构的相关信息。
+9. 106410740 一种电源端口防护电路
+CN
+15.02.2017
+H02H 3/00 Loading...
+H02H 3/00
+Loading...
+201610495912.X
+北京全路通信信号研究设计院集团有限公司
+孙超
+H02H 3/00
+Loading...
+本申请提供了一种电源端口防护电路，包括：第一低损耗功率器件、第二低损耗功率器件、反接防护电路、欠压防护电路、过压防护电路和过流防护电路；第一低损耗功率器件的第一端与电源输入端相连，第一低损耗功率器件的第二端与第二低损耗功率器件的第一端相连，第二低损耗功率器件的第二端与待防护电源端口的输入端相连；反接防护电路分别与第一低损耗功率器件的第三端和电源输入端相连；欠压防护电路、过压防护电路和过流防护电路均与第一低损耗功率器件的第二端、第二低损耗功率器件的第二端和第二低损耗功率器件的第三端相连。在本申请中，通过以上方式能够避免电源端口出现反接、过压、欠压和过流等情况，提高了系统运行可靠性。
+10. WO/2017/012370 METHOD FOR PROMPTING HIGH-SPEED RAILWAY VEHICLE-MOUNTED EARTHQUAKE EMERGENCY TREATMENT APPARATUS INFORMATION, AND TERMINAL
+WO
+26.01.2017
+B61L 23/00 Loading...
+B61L 23/00
+Loading...
+PCT/CN2016/077728
+CARS SAFETY TECHNOLOGY CO., LTD
+WANG, Lan
+B61L 23/00
+Loading...
+Disclosed are a method for prompting high-speed railway vehicle-mounted earthquake emergency treatment apparatus information, and a terminal. The method comprises: receiving earthquake emergency treatment information in an earthquake emergency treatment apparatus and state information about the earthquake emergency treatment apparatus, wherein the earthquake emergency treatment information in the earthquake emergency treatment apparatus is pre-received by the earthquake emergency treatment apparatus; processing and converting the earthquake emergency treatment information and the state information about the earthquake emergency treatment apparatus; and giving a prompt according to the level of the processed and converted earthquake emergency treatment information and the state information about the earthquake emergency treatment apparatus. In the method, by converting and prompting received earthquake emergency treatment information and state information about an earthquake emergency treatment apparatus, a train driver can brake a train according to this prompt, thereby improving the timeliness for acquiring the earthquake emergency treatment information, so that the security of a high-speed railway apparatus and passengers is ensured when an earthquake occurs, and losses caused by a secondary disaster of the earthquake are effectively reduced.
+11. 106341275 一种异构网络中的IP地址定位方法及系统
+CN
+18.01.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610921261.6
+国家计算机网络与信息安全管理中心
+郝帅
+H04L 12/24
+Loading...
+本发明涉及一种异构网络中的IP地址定位方法及系统，所述方法包括：创建定位特征库，其中，所述定位特征库包括：网络设备对应的SNMP定位数据集和定位算法；将所述SNMP定位数据集中数据输入至所述定位算法对所述网络设备进行IP定位；本发明提供的一种异构网络中的IP地址定位方法及系统能够通过SNMP定位数据信息，在某局域网中，把网络中出现IP或IP段定位至网络设备的具体的端口上，解决不同网络设备中网管信息的异构性问题。
+12. 106330535 一种车地通信数据处理方法及装置
+CN
+11.01.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610698563.1
+北京全路通信信号研究设计院集团有限公司
+师进
+H04L 12/24
+Loading...
+本申请提供了一种车地通信数据处理方法及装置，车地通信数据处理方法包括：获取车地通信原始数据；根据车地通信原始获取车地通信原始数据数据的数值，对车地通信原始数据进行分类，得到分类结果；根据分类结果对车地通信原始数据进行标记，得到标记数据；在知识库中查找是否存在与标记数据相对应的故障数据，所述故障数据为故障原因或可能导致的故障；若存在，则输出至少包括标记数据和标记数据相对应的故障数据的第一运算结果；若不存在，则对标记数据进行非实时分析，得到第二运算结果，并输出第二运算结果。在本申请中，通过以上方式提高了检测效率，从而可以及时排除故障，改善了列车运行的可靠性和安全性。
+13. 104316091 一种模块化的分布式光纤传感装置
+CN
+11.01.2017
+G01D 5/353 Loading...
+G01D 5/353
+Loading...
+201410584463.7
+国家电网公司
+吕立冬
+G01D 5/353
+Loading...
+本发明公开了一种模块化的分布式光纤传感装置，装置包括机箱、调制模块、光电模块、信号采集与处理模块和控制器模块；调制模块、光电模块、信号采集与处理模块和控制器模块均与机箱的插槽类型匹配，控制器模块选用嵌入式控制器，调制模块产生电脉冲驱动光电模块中的调制器产生光脉冲，光电模块的光接口输出光脉冲，同时接收从被测光纤中返回的光信号，并经光电探测器转换成电信号，信号采集与处理模块采集并处理从光电模块传输来的电信号，将测量结果传送给控制器模块存储和显示。本发明能推动分布式光纤传感装置的集成化、标准化和模块化生产，从而提升装置的灵活性和通用性，且大大降低传感装置的成本。
+14. 106184289 一种基于多个RBC实现的列车MA移交方法和装置
+CN
+07.12.2016
+B61L 15/00 Loading...
+B61L 15/00
+Loading...
+102016000515982
+北京全路通信信号研究设计院集团有限公司
+杨韬
+B61L 15/00
+Loading...
+本发明提供一种基于多个RBC实现的列车MA移交方法和装置。RBC(n)预先配置有RBC移交关系信息和RBC边界信息。方法包括：当RBC(n)向列车发送的MA中的授权终点位置为移交执行应答器的位置时，RBC(n)确定出RBC(n+1)；RBC(n)向RBC(n+1)发送移交预告信息；RBC(n)接收到RBC(n+1)发送的确认启动移交信息后，向RBC(n+1)发送第n进路请求信息；RBC(n)接收RBC(n+1)发送的第n+1授权相关信息；RBC(n)将其管辖范围内的MA长度与RBC(n+1)发送的MA长度进行拼接，并将拼接后的MA长度发送给列车。本发明保证了列车在通过RBC边界时不减速。
+15. 205775696 一种减小浅埋暗挖通道上部交通荷载的结构
+CN
+07.12.2016
+E01C 9/08 Loading...
+E01C 9/08
+Loading...
+202016000642521
+南昌轨道交通集团有限公司
+黄展民
+E01C 9/08
+Loading...
+本实用新型公开了一种减小浅埋暗挖通道上部交通荷载的结构，包括两个相同的钢板，两个钢板相邻的一侧通过连接杆和螺栓连接，钢板的另一侧连接两个相互平行的固定杆，两个固定杆的表面连接有不少于三个的减速带，所述钢板的底部连接有不少于三个的弹簧减震杆，所述弹簧减震杆垂直于钢板的底面。该减小上部交通荷载对浅埋暗挖通道的结构，通过减速带可以降低车速，并且在钢板的底部设有弹簧减震杆可以减轻振动程度，推板和长钉的设置可以改变荷载的方向，可以有效降低交通荷载对通道的动力影响，进而减小通道施工中的变形，避免通道的坍塌，保证工程施工的安全和顺利进行。
+16. 106034157 数据交换中传输HTTP协议的方法、服务器及存储设备
+CN
+19.10.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102015000119975
+国家计算机网络与信息安全管理中心
+刘阳
+H04L 29/08
+Loading...
+本发明提供一种数据交换中传输HTTP协议的方法，该方法包括所述服务器端接收连接请求；通过HTTP建立所述连接；通过所述连接接收数据请求；对所述数据请求做出响应，发送回执响应；处理所述数据请求以对所请求的数据进行检索；在检索到所述所请求的数据后，向所述客户端发送最终响应。另外，本发明还提供了用于和客户端进行数据交换的服务器以及一种用于储存提供HTTP协议上的信息，以通过网络在客户端和服务器端之间进行数据交换存储设备的计算机可读存储设备。本发明提供的数据交换中传输HTTP协议的方法、服务器及存储设备，能够不需要复杂编码和配置，且不会丢失建立起来的连接。
+17. 106034105 OpenFlow交换机及处理DDoS攻击的方法
+CN
+19.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000102958
+国家计算机网络与信息安全管理中心
+刘阳
+H04L 29/06
+Loading...
+本发明公开一种OpenFlow交换机及处理DDoS攻击的方法，该交换机包括：判断模块，用于以预定周期间隔收集关于数据包处理的统计信息，以判断是否出现分布式拒绝服务DDoS攻击，所述数据包是要在所述OpenFlow交换机中处理的数据包；响应模块，用于在判断出现所述DDoS攻击之后，利用被引入至所述OpenFlow交换机中的所述数据包来感知所述DDoS攻击的特征，并根据所述DDoS攻击的所述所感知特征来处理所述数据包。通过这种方式，能够判断OpenFlow交换机中的DDoS攻击并对DDoS攻击作出响应。
+18. 106034116 减少恶意网络流量的方法和系统
+CN
+19.10.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102015000112440
+国家计算机网络与信息安全管理中心
+刘阳
+H04L 29/06
+Loading...
+本发明公开一种减少恶意网络流量的系统和方法。该系统包括：受保护的服务器，位于域内；至少一个权威域名系统DNS服务器；至少一个DNS流量分析器和防火墙DTAF，其中，网络流量在访问权威DNS服务器之前必须穿过DTAF防火墙，且DTAF防火墙分析试图穿过DTAF防火墙的网络流量；中央主DTAF，其中DTAF防火墙发送网络流量数据到中央主DTAF，且中央主DTAF发送至少一个访问控制列表到DTAF防火墙。通过这种方式，能够减少恶意互联网流量(例如DDOS攻击)。
+19. 105890916 一种高速铁路车载地震紧急处置装置测试系统及方法
+CN
+24.08.2016
+G01M 17/08 Loading...
+G01M 17/08
+Loading...
+102016000218150
+中国铁道科学研究院铁道科学技术研究发展中心
+王澜
+G01M 17/08
+Loading...
+本发明公开了一种高速铁路车载地震紧急处置装置测试系统及方法，系统包括：电源、安全环路、继电器、示波器、GSM‑R天线和GPS时钟；电源用于供电；安全环路用于模拟动车组紧急制动安全保护组合环路；继电器串联在安全环路中，当待测车载装置输出地震紧急制动电信号时，将所述继电器的触点由常闭状态切换至常开状态；示波器用于采集并显示待测车载装置和所述GPS时钟的输出信号；GSM‑R天线用于接收地震监测预警信息；GPS时钟用于接收卫星信号并处理得到GPS时间。本发明通过电源供电，GSM‑R天线接收地震监测预警信息，继电器和安全环路模拟触发动车组紧急制动，示波器和GPS时钟调整车载装置的时间，能够验证车载装置各项功能的完备性、正确性及性能情况。
+20. 103324664 一种基于傅里叶变换的文档相似判别方法
+CN
+10.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000153223
+国家电网公司
+张涛
+G06F 17/30
+Loading...
+本发明提供一种基于傅里叶变换的文档相似判别方法，包括以下步骤：获得文档集合S的关键词序列Ks和对应的关键词次数集合Ns，以及检测文档s′相对于文档集合S的关键词序列Ks'和对应的关键词次数集合Ns'；计算关键词序列Ks和Ks'中每个关键词的权值系数，以及关键词序列Ks的权值序列FKs和关键词序列Ks'的权值序列FKs'；对权值序列FKs和FKs'进行傅里叶变换，并计算检测文档s′和文档集合S中任意文档是否相似的相似度距离的阀值ωS；计算检测文档s′和文档集合S中文档si之间的相似度距离D(s′,si)，并将其与阀值ωS进行比较，判定检测文档s′与文档集合S是否相似。本发明不仅可以在计算相似度时降低对文档表示方法的要求，而且会降低计算的复杂度，提高计算效率。
+21. 105824003 一种基于轨迹平滑的室内移动目标定位方法
+CN
+03.08.2016
+G01S 5/02 Loading...
+G01S 5/02
+Loading...
+201410779717.0
+国家电网公司
+夏玮玮
+G01S 5/02
+Loading...
+本发明提出一种基于轨迹平滑的室内移动目标定位方法，所述方法包括(1)移动UWB节点通过轮询的方式获得与各个锚节点之间的距离；(2)将某一时刻锚节点测得距离通过无迹卡尔曼滤波器进行修正；(3)将时刻滤波后的UWB测量值采用三边测量定位法获得移动目标的位置坐标；(4)通过无迹卡尔曼滤波对定位结果进行修正；(5)采用自适应平滑算法对滤波后的定位结果进行平滑，从而到达移动目标当前时刻的位置估计值。本发明充分利用当前时刻与先前时刻的测量值和估计值，采用无迹卡尔曼滤波方式，减小了由于环境、器件等因素对测量结果的影响，提高了三边测量法的定位精度，并对定位结果进行二次滤波和自适应平滑，进一步提高定位精度。
+22. 105592015 云环境下的安全检查方法及装置
+CN
+18.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410579171.4
+中国移动通信集团广东有限公司
+罗朝彤
+H04L 29/06
+Loading...
+本发明的实施例中公开了云环境下的安全检查方法及装置，用于安全检查装置，所述方法包括：获取被检查的云环境设备的安全配置信息,其中，所述云环境设备包括云管理组件和虚拟资源；将云环境设备的安全配置信息与预设安全标准进行比较；若所述安全配置信息符合所述安全标准，则生成检查通过信息；若所述安全配置信息不符合所述安全标准，则生成检查未通过信息。本发明能提高云环境的安全性能。
+23. 105574424 一种大数据加解密处理方法及系统
+CN
+11.05.2016
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+201410549032.7
+中国移动通信集团广东有限公司
+罗朝彤
+G06F 21/62
+Loading...
+本发明实施例公开了一种大数据加解密处理方法及系统，包括：在数据存入开源存储系统之前，检测数据是否为明文数据；如果数据为明文数据，将所述数据加密为密文数据；将密文数据存入开源存储系统；核查开源存储系统中的数据是否存在明文数据；当开源存储系统中存在明文数据时，将所述明文数据加密为密文数据；密文数据从开源存储系统输出时，解密所述密文数据。本发明通过对存入开源存储系统的数据进行加密，在数据输出时进行解密恢复数据，从而在不影响数据的正常展示和处理的基础上保障数据的安全性和用户的隐私不被泄漏。
+24. 105530279 数据处理方法及处理装置
+CN
+27.04.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410568038.9
+中国移动通信集团广东有限公司
+罗朝彤
+H04L 29/08
+Loading...
+本发明的实施例中公开了一种数据处理方法和处理装置，所述处理方法包括：接收数据生产者发送的连接请求；判断所述数据生产者发送的连接请求是否为合法连接请求；若所述连接请求为合法连接请求，则获取所述待接收的数据的数据格式；搜索与所述数据的数据格式相匹配的数据集合，若搜索到相匹配的数据集合，则将所述数据加入所述相匹配的数据集合中，若未搜索到相匹配的数据集合，则建立新的数据集合，将所述数据加入所述新的数据集合中，并以所述数据的数据格式作为新建立的数据集合的数据格式。能提高处理大数据时的处理效率，且安全性较高。
+25. 105426427 基于RAID 0 存储的MPP 数据库集群副本实现方法
+CN
+23.03.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510740873.0
+国家计算机网络与信息安全管理中心
+王洋
+G06F 17/30
+Loading...
+本发明涉及一种基于RAID？0存储的MPP数据库集群副本实现方法，其技术特点是包括副本分布算法模块、副本状态维护模块、访问重定向模块、数据一致性维护模块并通过以下步骤实现：进行数据库存储部署；计算副本存储位置；创建副本存储实体；进行副本元信息维护；进行副本数据访问；使用数据一致性维护模块进行副本数据一致性维护。本发明设计合理，其为MPP数据库集群引入系统层面的数据冗余，通过牺牲一定的存储空间来换取数据安全，提高了系统可用性；当出现硬件故障或副本数据被破坏(失效)时，系统自动将对该数据分片的访问导向另一个可用副本，实现对外不间断服务,并且解决单一数据并发访问“过热”问题，提高系统的吞吐性能。
+26. 105335479 一种基于SQL的文本数据统计实现方法
+CN
+17.02.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510657159.5
+国家计算机网络与信息安全管理中心
+王洋
+G06F 17/30
+Loading...
+本发明涉及一种基于SQL的文本数据统计实现方法，其技术特点是：对输入SQL语法进行解析；在结构化数据仓库中建立和子查询投影结构一致的临时表；识别全文索引引擎数据分布规则；将基于SQL的简单子查询翻译为全文索引引擎语法，并在全文索引引擎中执行；获取全文索引查询结果并将结果导入到结构化数据仓库引擎临时表中；完成查询结果导入过程，向数据仓库下发重写后的基于临时表SQL查询语句，并向客户端返回查询结果。本发明结合全文索引引擎和结构化数据仓库引擎的特点，实现对海量文本数据的基于通用SQL语言的统计分析方法，解决了传统方法统计功能薄弱和结构化数据仓库无法支持高效文本检索的问题，大大提高了文本数据统计分析的易用性。
+27. 105320889 一种安全检测方法及装置
+CN
+10.02.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201510073561.9
+中国移动通信集团广东有限公司
+韩杰
+G06F 21/57
+Loading...
+本发明实施例提供了一种安全检测方法及装置，其中的方法包括：接收安全检测指令；根据所述安全检测指令生成并显示安全检测服务列表，所述安全检测服务列表中包括多个安全检测服务选项，每个所述安全检测服务选项在后台都对应有相应的安全检测工具及与所述安全检测工具组合在一起的安全检测模板；接收对待检测对象的选择指令以及对所述安全检测服务列表中的安全检测服务选项的选择指令；使用所选择的安全检测服务选项所对应的安全检测工具及安全检测模板，对所述待检测对象进行安全检测。本发明取消了各种繁琐的步骤，降低了用户的操作复杂度，使得企业对软件硬件资产的安全检测过程变得简单、便捷，大大提高了检测效率。
+28. 205025387 一种在油藏评估中用于油井采样的油杆短节移运装置
+CN
+10.02.2016
+E21B 19/14 Loading...
+E21B 19/14
+Loading...
+201520797899.4
+北京交通大学中国产业安全研究中心博士后科研工作站
+赵艳霞
+E21B 19/14
+Loading...
+本实用新型涉及一种在油藏评估中用于油井采样的油杆短节移运装置，其特征在于：它包括由涡轮、蜗杆、液压马达、第一钢丝绳构成的移运组件，以及由油缸、滑轮、第二钢丝绳构成的装卸组件。其中液压马达、油缸通过由PLC控制的液压泵站提供动力，可通过PLC控制移运油杆短节，本装置灵活度高，可进行旋转移运以及装卸油杆短节，提升移运效率。
+29. 105302638 基于系统负载的MPP集群任务调度方法
+CN
+03.02.2016
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201510740736.7
+国家计算机网络与信息安全管理中心
+王洋
+G06F 9/48
+Loading...
+本发明涉及一种基于系统负载的MPP集群任务调度方法，其技术特点是包括设置在MPP集群主控节点上的多功能任务调度器和设置在各个节点上的系统负载计算模块，并按以下步骤实现：各个节点上的系统负载计算模块实时监控节点的负载变化并反馈至MPP集群主控节点上；MPP集群主控节点上的多功能任务调度器根据任务的分布信息以及对应节点的负载情况完成任务的排队和调度。本发明在MPP集群主控节点上设置多功能任务调度器并实时收集群内所有计算节点的系统负载信息，MPP集群主控节点依据任务的分布信息以及对应节点的负载情况，完成对任务的排队和调度，通过对系统负载的实时监控，实现动态并发控制，可以有效提高资源的利用率，使系统达到最佳吞吐性能。
+30. 105302667 基于集群架构的高可靠性数据备份与恢复方法
+CN
+03.02.2016
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201510657187.7
+国家计算机网络与信息安全管理中心
+王洋
+G06F 11/14
+Loading...
+本发明涉及一种基于集群架构的高可靠性数据备份与恢复方法，其技术特点是：包括在线数据备份与恢复方法和历史数据备份与恢复方法，所述在线数据备份与恢复方法包括：创建表空间并按时间划分范围分区表；在向数据库导入数据的过程中实现一个备份功能；将备份信息写入系统表；当天数据变成历史数据时将其按历史数据备份方式完成备份；当发生磁盘故障时，重新装载数据，实现在线数据的恢复。本发明对两类数据采用了不同的备份恢复方法，使得在发生介质故障时，提高了单数据库节点的高可用性、高可靠性，有效地解决了一般集群双机热备方案中无法有效恢复节点数据、互备节点同时发生介质故障时的数据丢失等问题。
+31. 105303252 基于遗传算法的多阶段神经网络模型训练方法
+CN
+03.02.2016
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201510657269.1
+国家计算机网络与信息安全管理中心
+王洋
+G06Q 10/04
+Loading...
+本发明涉及一种基于遗传算法的多阶段神经网络模型训练方法，其技术特点是包括以下步骤：对数据进行预处理以消除字段的量纲影响；根据输入层、隐含层、输出层节点数，构建多输入层网络结构；采用遗传算法训练初始权重和阈值；利用迭代算法更新权重；根据迭代次数及模型误差判断是否满足模型终止条件：如果满足，则模型结束，否则重新更新权重。本发明针对过程控制中参数分阶段影响输出的问题，构建一个多阶段神经网络结构，根据遗传算法具有全局搜索的特点，采用其为网络结构选择一组较合理的初始权重，从而尽可能地防止网络训练进行局部极小点，解决了只有一个输入层的神经网络结构无法解决工程控制中具有前后顺序的参数影响产品加工的问题。
+32. 105279213 一种日志数据库检索装置及检索方法
+CN
+27.01.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510113006.4
+中国移动通信集团广东有限公司
+孙宝寅
+G06F 17/30
+Loading...
+本发明实施例提供了一种日志数据库检索装置及检索方法，其中装置包括：索引创建模块，用于获取新的日志数据，将新的日志数据进行格式转化后建立全文索引，将全文索引以文件形式存储在磁盘中；检索模块，用于接收查询请求，根据查询请求及内存中的索引进行查询，并返回查询结果；索引管理模块，用于判断检索模块接收到的查询请求所涉及的索引是否已在内存中，如果不在内存中，则从磁盘加载查询请求所涉及的索引到内存。本发明将索引以文件的形式保存在磁盘中，需要时再加载到内存，可提高检索效率。同时不是维护一个索引文件，而是使索引分块化，实现索引递增式的扩展，避免因索引更新而导致的大量IO操作，提高了查询效率。
+33. 105282131 基于风险项扫描的信息安全评估方法、装置及系统
+CN
+27.01.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510073370.2
+中国移动通信集团广东有限公司
+韩杰
+H04L 29/06
+Loading...
+本发明公开了基于风险项扫描的信息安全评估方法、装置及系统，该方法包括，根据评估对象的级别确定评估对象包含的设备和所述设备对应的风险项，根据所述风险项对设备进行扫描，根据扫描结果获得该设备对应的当前风险项数目；根据该当前风险项数目和风险项评估规则对该设备进行风险项评估，获得该设备对应的风险项评估值；根据该评估对象包含的设备的风险项评估值进行加权，得到该评估对象的信息安全评估值。该评估规则为根据已有的扫描结果中的风险项的概率分布得到，准确性较高。此外通过自动加权评估对象包含的各设备的评估值可以得到任何级别的评估对象的评估值，方便管理者从各个层次级别和各个维度对企业的信息安全状况进行监管。
+34. 204964774 一种用于公路桥梁混凝土三维检测的雷达系统
+CN
+13.01.2016
+G01V 3/12 Loading...
+G01V 3/12
+Loading...
+201520774595.6
+辽宁省交通工程质量与安全监督局
+喻永华
+G01V 3/12
+Loading...
+本实用新型是一种用于公路桥梁混凝土三维检测的雷达系统，涉及公路桥梁检测领域。包括：探地雷达主机、可移动载具装置、显示装置和天阵线列装置；所述探地雷达主机固定在所述可移动载具装置内，且与所述可移动载具装置的测距轮编码器连接；所述显示装置固定在所述可移动载具装置上，与所述探地雷达主机连接；将所述天阵线列固定设置在所述可移动载具装置上，所述天阵线列与所述探地雷达主机连接。本实用新型实现了对公路桥梁混凝土结构进行快速高效的检测，达到快速、准确、高效、无损检测的目的，且形成直观可视化的三维图示结果。
+35. 105128893 一种列车全程运行时刻信息的生成方法及系统
+CN
+09.12.2015
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201510531174.5
+北京全路通信信号研究设计院集团有限公司
+赵桂敏
+B61L 27/00
+Loading...
+本发明公开一种列车全程运行时刻信息的生成方法及系统。所述方法包括：获取一个调度区段的第一列车运行计划信息；从已缓存的列车运行计划信息中确定与所述第一列车运行计划信息的车次相同的第二列车运行计划信息；判断所述第一列车运行计划信息与所述第二列车运行计划信息是否同时满足空间一致性规则与时间一致性规则；如果同时满足，则对所述第一列车运行计划信息与所述第二列车运行计划信息进行接续处理；将接触处理后的列车运行计划信息存入列车全程运行时刻信息库。采用本发明的方法或系统，可以根据各个调度区段的列车运行计划信息，整合生成列车全程运行时刻信息。
+36. 105015563 高速铁路车载地震紧急处置装置信息的提示方法及终端
+CN
+04.11.2015
+B61C 17/00 Loading...
+B61C 17/00
+Loading...
+201510438113.4
+北京中铁科轨道交通安全技术有限公司
+王澜
+B61C 17/00
+Loading...
+本发明公开了一种高速铁路车载地震紧急处置装置信息的提示方法及终端，该方法包括：接收地震紧急处置装置中的地震紧急处置信息和地震紧急处置装置的状态信息，其中，地震紧急处置装置中的地震紧急处置信息为地震紧急处置装置预先接收的；对地震紧急处置信息和地震紧急处置装置的状态信息进行处理转换；根据处理转换后的地震紧急处置信息和地震紧急处置装置的状态信息的等级进行提示。该方法通过对接收的地震紧急处置信息和地震紧急处置装置的状态信息进行转换并进行提示，进而使得列车司机根据该提示对列车进行制动，提高了获取地震紧急处置信息的时效性；从而保证地震发生时高速铁路装备及乘客的安全，有效地降低地震次生灾害损失。
+37. 104670266 Large-volume transponder transmission system
+CN
+03.06.2015
+B61L 25/04 Loading...
+B61L 25/04
+Loading...
+201510072756.1
+中国铁路总公司
+不公告发明人
+B61L 25/04
+Loading...
+The invention discloses a large-volume transponder transmission system, and relates to the field of railway traffic safety. The large-volume transponder transmission system comprises vehicle-mounted receiving equipment and a transponder, wherein the vehicle-mounted receiving equipment and the transponder respectively comprise an existing communication channel adopting FSK (frequency shift keying) system modulation and a newly added communication channel adopting PSK (phase shift keying) system modulation. The large-volume transponder transmission system has the advantages that the communication data quantity between a train and the ground in the train operation period can be greatly improved, a train control system is enabled to realize safe, reliable and precise train control, and the traffic safety is further guaranteed.
+38. 104468000 Spectrum sensing method of electric power radio-on-fiber system
+CN
+25.03.2015
+H04B 17/382 Loading...
+H04B 17/382
+Loading...
+201410768663.8
+国家电网公司
+郭经红
+H04B 17/382
+Loading...
+The invention provides a spectrum sensing method of an electric power radio-on-fiber system. The electric power radio-on-fiber system comprises a base band unit special for electric power, a far-end unit and a communication terminal. The spectrum sensing method includes the following steps that the far-end unit and the communication terminal conduct independent spectrum sensing to provide basic data for cooperation spectrum sensing; first-level cooperation on the side of the far-end unit is executed; if the first-level cooperation cannot determine whether a target sensing frequency band is idle or not, second-level cooperation on the side of the base band unit is executed. According to the spectrum sensing method of the electric power radio-on-fiber system, the framework features of the electric power radio-on-fiber system and the features of a practical application scene are combined, rough detection and fine detection are combined, and the spectrum sensing method has the advantages of being capable of reducing sensing power consumption, improving the sensing accuracy and shortening the sensing time and the like.
+39. 203770520 一种用于轨道交通车辆的多孔约束阻尼式减振降噪盘
+CN
+13.08.2014
+F16F 15/10 Loading...
+F16F 15/10
+Loading...
+201420194751.7
+中国铁道科学研究院
+王俊彪
+F16F 15/10
+Loading...
+本实用新型涉及一种用于轨道交通车辆的多孔约束阻尼式减振降噪盘，包括约束层和阻尼层，所述约束层和阻尼层之间通过粘贴剂黏贴，所述约束层和阻尼层上均设置有多个孔。本实用新型的约束层和阻尼层均采用多孔结构，多孔介质对于声波具有较好的吸收能力，减小了约束层的重量，提升了减振降噪的效果。
+40. 203770498 一种用于轨道交通车辆的复合约束阻尼式减振降噪盘
+CN
+13.08.2014
+F16F 1/36 Loading...
+F16F 1/36
+Loading...
+201420194738.1
+中国铁道科学研究院
+王俊彪
+F16F 1/36
+Loading...
+本实用新型涉及一种用于轨道交通车辆的复合约束阻尼式减振降噪盘，包括依次设置的基层、阻尼层和约束层，所述基层和阻尼层之间还设置有扩展层，所述扩展层上设置有若干凹槽。本实用新型在基层和阻尼层之间增加了一层带槽扩展层，加大了基层和阻尼层之间的距离，当结构体系受到外力时，阻尼层材料上下表面的剪切变形比传统的约束阻尼结构更加明显，同时由于扩展层材料本身的剪切变形远大于其拉伸变形，更放大了阻尼层材料的剪切变形，从而能够耗散掉更多的能量，获得更好的减振降噪效果。
+41. 203720219 电感放电型高陡度冲击电流发生器
+CN
+16.07.2014
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201320889621.0
+上海交通大学
+陈坚
+G01R 1/28
+Loading...
+一种电感放电型高陡度冲击电流发生器，其构成包括：充电电路、主电容器组、放电开关、断路开关、主电感、第一调波电阻、放电间隙、第二调波电感和第二调波电阻，所述的充电电路与主电容器组并联后一端接地，另一端依次经所述的放电开关、断路开关、接所述的放电间隙的一端，该放电间隙的另一端经调波电感接所述的第二调波电阻，所述的主电感与第一调波电阻并联后一端接所述的回路等效电阻与所述的放电间隙的节点，另一端接地。本实用新型用RL回路产生冲击电流，充电电容两端的电压不需要太高，而且产生的高陡度冲击电流幅值较大，提高了工程应用的可行性和经济性。
+42. 103786753 一种高速铁路地震车载紧急处置装置
+CN
+14.05.2014
+B61L 23/00 Loading...
+B61L 23/00
+Loading...
+201410028510.X
+中国铁路总公司
+王澜
+B61L 23/00
+Loading...
+本发明涉及一种高速铁路地震车载紧急处置装置，所述装置包括：GSM-R通信单元、接触网断电检测单元和控制单元；GSM-R通信单元，用于接收地震警报信息并传送给控制单元；接触网断电检测单元，用于检测接触网是否处于断电状态并将检测结果传送给控制单元；控制单元和安装在列车制动系统上的紧急制动环路硬线连接，用于根据GSM-R通信单元和接触网断电检测单元传送过来的信息在必要时控制紧急制动环路进行紧急制动。本发明通过GSM-R无线通信系统接收地震预警系统发出的预警信息，并实时在线检测接触网供电状态，根据接收到的预警信息和接触网断电状态采取相应的控车方式，从而有效地提高了地震紧急处置的可靠性和时效性。
+43. 103754241 一种高速铁路地震紧急处置方法及系统
+CN
+30.04.2014
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201410028517.1
+中国铁路总公司
+王澜
+B61L 27/00
+Loading...
+本发明涉及一种高速铁路地震紧急处置方法及系统，该方法包括：铁路局中心系统接收地震警报信息，对所述地震警报信息确认后进行发布；地震监测预警台站接收到所述发布的地震警报信息时，控制相应区域的牵引变电所接触网断电；车载紧急处置装置接收到所述发布的地震警报信息时，根据所述地震警报信息和检测到的接触网断电状态在必要时控制列车紧急制动；列车运行控制系统接收到所述发布的地震警报信息时，根据所述地震警报信息的警报等级，控制列车的运行模式，并进行调度控制来禁止其他列车进入震区。通过本发明公开的高速铁路地震紧急处置方法及系统，有效地提高了地震紧急处置的可靠性和时效性。
+44. 103675375 Inductive discharge high-gradient impact current generator
+CN
+26.03.2014
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201310750521.4
+SHANGHAI JIAO TONG UNIVERSITY
+CHEN JIAN
+G01R 1/28
+Loading...
+The invention discloses an inductive discharge high-gradient impact current generator, which comprises a charging circuit, a main capacitor bank, a discharge switch, a cut-off switch, a main inductor, a first wave modulating resistor, a discharge gap, a second wave modulating inductor and a second wave modulating resistor, wherein after the charging circuit is connected in parallel with the main capacitor bank, one end of the charging circuit is grounded and the other end of the charging circuit is connected with one end of the discharge gap through the discharge switch and the cut-off switch in sequence; the other end of the discharge gap is connected with the second wave modulating resistor through the wave modulating inductor; after the main inductor is connected in parallel with the first wave modulating resistor, one end of the main inductor is connected with the node of a loop equivalent resistor and the discharge gap, and the other end of the main inductor is grounded. Impact current is produced by using an RL loop, the requirements on the voltages at the two ends of a charging capacitor are low, and the amplitude of the produced high-gradient impact current is high, thereby enhancing the practicability and economic efficiency of engineering application.
+45. 203405409 一种基于TDLAS的分布式光纤甲烷监测系统
+CN
+22.01.2014
+G01N 21/39 Loading...
+G01N 21/39
+Loading...
+201320487264.5
+国家安全生产监督管理总局通信信息中心
+张瑞新
+G01N 21/39
+Loading...
+一种基于TDLAS的分布式光纤甲烷监测系统，它由检测主机、传输层和多个检测终端三部分组成，该检测主机位于井上，是整个监测系统的核心，用于产生检测激光，汇总、展示检测数据和控制检测终端；该检测终端位于井下，用于持续地、不间断地对甲烷气体浓度进行检测，支持与检测主机数据互通和根据检测主机要求调整工作方式；该传输层用于井上检测主机和井下检测终端的数据交互和检测激光的传输工作。本实用新型精度高、零漂移小、稳定性好、选择性好、寿命长且可以自动校正。它在光电、数据管理及安检设备技术领域里具有较好的实用价值和广阔地应用前景。
+46. 103475709 Method and system for ectype dynamic control for cloud computing platform
+CN
+25.12.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310407543.0
+国家电网公司
+马守明
+H04L 29/08
+Loading...
+The invention provides a method and system for ectype dynamic control for a cloud computing platform. The method comprises the following steps that a minimum usable rate Rexp of ectypes is set; the minimum number rmin of the ectypes is obtained in the unit time t; whether waste of system resources exists or not is judged; a cost series from ectype nodes to standby ectype nodes is obtained; the standby ectype nodes used for containing the ectype nodes are obtained; the ectypes are duplicated to the standby ectype nodes. The method and system are used for improving the reliability and the usability of data in cloud computing and enabling balance between the usability and the cost to be achieved.
+47. 103327134 一种基于DHCP服务的网络数据重定向方法及装置
+CN
+25.09.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310234113.3
+国家电网公司
+张涛
+H04L 29/12
+Loading...
+本发明提供了一种网络数据重定向方法及装置，所述方法包括如下步骤：A、DHCP服务器netfilter的HOOK模块接收网络数据包；B、所述HOOK模块向转发模块返回放行指令或转发指令；C、所述转发模块依据放行指令将所述网络数据包发送到内部网络或外部网络；所述转发模块依据转发指令将所述网络数据包发送到内部网络或蜜网收集系统；所述装置包括与DHCP服务器netfilter构架相连的IP转发规则表模块、HOOK模块和转发模块。和现有技术相比，本发明提供的一种网络数据重定向方法及装置具有良好的跨平台兼容性、可扩展性和实用性。
+48. 103279478 一种基于分布式互信息文档特征提取方法
+CN
+04.09.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310138475.2
+国家电网公司
+林为民
+G06F 17/30
+Loading...
+本发明提供针对海量文档处理过程中的数据处理规模限制和性能不足等方面的瓶颈问题，本发明提供一种基于分布式互信息文档特征提取方法，包括以下步骤：进行文档集合，并对文档进行初始化；计算文档中分词出现的频率和不同分类中分词的互信息值，从而选择出特征词集合；计算所有特征词的权值，从而形成最终的文档向量集合。本发明利用MapReduce分布式计算框架来进行文档分类的特征词以及其权值的提取，可以加快文档分类的速度以及可扩展性，通过对键值对的设计，在提取特征词的同时就可以并行计算出特征词在文档中的权值，加快文档分类的效率。
+49. 103218477 网络观点传播与预测方法
+CN
+24.07.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201310086913.5
+中国信息安全测评中心
+吴世忠
+G06F 17/50
+Loading...
+本发明公开了一种网络观点传播与预测方法，该方法包括：对网络拓扑信息进行数字化建模，针对个体的各个观点状态进行数字量化；根据得到的量化信息，建立基于离散个体交互行为的预测模型；本方法可以用来预测网络用户的整体观点走向，在已给定网络用户状态与网络拓扑结构的环境，本发明的方法可以更为有效的预测网络中某观点的走势，进而对网络舆论的预测、突发事件的应对策略以及网络用户和观点走势之间的相互影响规律做出总结。
+50. 103220673 WLAN用户认证方法、认证服务器及用户设备
+CN
+24.07.2013
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+201310146092.X
+中国联合网络通信集团有限公司
+姚韬
+H04W 12/06
+Loading...
+本发明提供一种无线局域网WLAN用户认证方法、认证服务器及用户设备。本发明的WLAN用户认证方法，包括：认证服务器获取用户设备UE发起的认证请求报文，所述认证请求报文中包括所述UE根据所述认证服务器签发的数字证书生成的账号数据信息；所述认证服务器解析所述账号数据信息，当所述账号数据信息有效时，为所述UE返回认证成功报文。在本发明的方法，通过验证UE根据认证服务器签发的数字证书生成的账号数据信息来进行WLAN用户认证，无需用户每次输入账号与密码，即可实现快速认证，避免了采用字典或穷举方式破解账号密码，增强了抵御攻击的能力，提高了WLAN用户认证的安全性。
+51. 103198159 一种基于事务重做的异构集群多副本一致性维护方法
+CN
+10.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310153332.9
+国家计算机网络与信息安全管理中心
+王洋
+G06F 17/30
+Loading...
+本发明涉及一种基于事务重做的异构集群多副本一致性维护方法，其特点是：包括查询执行阶段：集群事务管理模块跟踪活动事务表，录制事务操作；集群为主数据节点生成事务重做日志；集群将事务重做日志文件发送给所有副本数据节点并管理节点状态；副本维护阶段：副本数据节点接收来自于主数据节点的事务重做日志文件；故障恢复阶段：数据库管理员将查找出故障节点对应的存档日志，将所有副本数据节点的数据恢复到同主数据节点一致的状态。本发明解决了现有技术存在代价高、性能差的问题，弥补了二进制日志传输方式无法支持异构数据库的不足，实现了多副本之间的快速一致性维护，保证无共享集群的高可用性，同时能够支持集群数据库节点的异构化。
+52. 202903730 平板式工作电极
+CN
+24.04.2013
+G01N 27/30 Loading...
+G01N 27/30
+Loading...
+201220539973.9
+中国检验检疫科学研究院
+张庆
+G01N 27/30
+Loading...
+本实用新型公开了一种平板式工作电极，包括平板式导体层、聚合物导电膜、胶带层，聚合物导电膜粘贴在平板式导体层上，胶带层粘贴在聚合物导电膜上一端，胶带层采用具有绝缘性能的防水胶带。本实用新型平板式工作电极结构简单，无毒性，成本低廉，可作为一次性电极使用；可以方便的集成在纸基分析系统中，检测操作简便，准确度高，不同电极间的结果重现性良好；其制作方法简便、快捷，可在普通实验室实现。
+53. 202803022 使用防冻结输水装置的喷雾降尘系统
+CN
+20.03.2013
+B01D 47/06 Loading...
+B01D 47/06
+Loading...
+201220421048.6
+郑州光力科技股份有限公司
+赵彤凯
+B01D 47/06
+Loading...
+本实用新型公开了一种使用防冻结输水装置的喷雾降尘系统，输水装置包括储水箱和连接在储水箱上的出水管，出水管的末端为出水口，出水管通过输气管连接有空压机，在输气管上设有用于防止出水管中的水进入空压机的单向阀，出水管上于对应所述输气管的出水管管段的两侧分别设有第一开关阀和第二开关阀。当喷雾降尘系统不工作时，关闭第一开关阀，第二开关阀打开，空压机工作以通过输气管向出水管输入高压气体，高压气体将出水管水从出水口排出，打开第一开关阀，并关闭第二开关阀，空压机继续工作向出水管输入高压气体，高压气体将出水管的部分管段的水排入储水箱，这样在喷雾高压系统不工作时，可以有效防止水在出水管中的凝固冻结。
+54. 102982236 一种通过网络用户建模的观点预测方法
+CN
+20.03.2013
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201210442535.5
+北京交通大学
+刘云
+G06F 19/00
+Loading...
+本发明公开了一种基于改进型离散行为与连续观点交流特性的网络用户建模与观点预测方法。该方法包括：对网络拓扑信息进行数字化建模，针对个体的各个观点状态进行数字量化；根据得到的量化信息，建立基于离散个体交互行为的预测模型；本方法可以用来预测网络用户的整体观点走向。在已给定网络用户状态与网络拓扑结构的环境，本发明的方法可以更为有效的预测网络中某观点的走势，进而对网络舆论的预测、突发事件的应对策略以及网络用户和观点走势之间的相互影响规律做出总结。
+55. 102928487 平板式工作电极及其制作方法
+CN
+13.02.2013
+G01N 27/30 Loading...
+G01N 27/30
+Loading...
+201210401318.1
+中国检验检疫科学研究院
+张庆
+G01N 27/30
+Loading...
+本发明公开了一种平板式工作电极及其制作方法，包括平板式导体层、聚合物导电膜、胶带层，聚合物导电膜粘贴在平板式导体层上，胶带层粘贴在聚合物导电膜上一端，胶带层采用具有绝缘性能的防水胶带。本发明平板式工作电极结构简单，无毒性，成本低廉，可作为一次性电极使用；可以方便的集成在纸基分析系统中，检测操作简便，准确度高，不同电极间的结果重现性良好；其制作方法简便、快捷，可在普通实验室实现。
+56. 202731977 一种自动洒水降尘装置
+CN
+13.02.2013
+E21F 5/02 Loading...
+E21F 5/02
+Loading...
+201220423490.2
+郑州光力科技股份有限公司
+梁誉
+E21F 5/02
+Loading...
+本实用新型涉及自动洒水降尘装置，包括控制器和设有电磁阀的喷水管路，所述喷水管路上连接有喷头，所述的控制器与所述电磁阀控制连接，所述的自动洒水降尘装置还包括用于感知是否有移动物体经过的光控传感器，所述的控制器的信号输入端与所述光控传感器的信号输出端采样连接以在光控传感器检测到有行人通过时使控制器控制所述电磁阀关闭。本实用新型提供了一种能够有工作人员经过时便停止喷水的洒水降尘装置。
+57. 202731982 一种使用防冻结输水装置的喷雾降尘系统
+CN
+13.02.2013
+E21F 5/04 Loading...
+E21F 5/04
+Loading...
+201220420986.4
+郑州光力科技股份有限公司
+王锋
+E21F 5/04
+Loading...
+本实用新型公开了一种使用防冻结输水装置的喷雾降尘系统，所述输水装置包括储水箱，所述储水箱通过输送管连接有用于向储水箱输送防冻液的防冻液箱，在输送管上设有控制输送管路通断的控制阀。当喷雾降尘系统不工作时，打开输送管上的控制阀使得输送管导通，防冻液箱中的防冻液进入储水箱中，防冻液与储水箱中的混合均匀，然后使储水箱中的水和防冻液的混合液体进入输水管路中，这样储水箱和输水管路中的液体不会出现凝固冻结而堵塞输水管路的问题，保证在下次喷雾降尘系统工作时，输水装置可以继续向喷头正常输水，保证喷雾降尘系统的正常工作。
+58. 202731979 自动洒水降尘装置
+CN
+13.02.2013
+E21F 5/02 Loading...
+E21F 5/02
+Loading...
+201220423767.1
+郑州光力科技股份有限公司
+梁誉
+E21F 5/02
+Loading...
+本实用新型涉及自动洒水降尘装置，包括控制器和设有电磁阀的喷水管路，所述喷水管路上连接有喷头，所述的控制器与所述电磁阀控制连接，所述的自动洒水降尘装置还包括用于检测空气中煤尘浓度的粉尘浓度传感器，所述粉尘浓度传感器的信号输出端与所述控制器的信号输入端采样连接。本实用新型提供了一种能够在空气中煤尘浓度达到一定程度才会喷水，以节省水源的自动洒水降尘装置。
+59. 202729239 一种定量给尘装置
+CN
+13.02.2013
+B65G 33/14 Loading...
+B65G 33/14
+Loading...
+201220418157.2
+郑州光力科技股份有限公司
+王新亚
+B65G 33/14
+Loading...
+本实用新型涉及粉尘测量仪的校验附件，尤其是一种定量给尘装置。定量给尘装置包括机架，机架上设有漏斗式的粉料仓，粉料仓的放料口处装配有管式螺旋输送机，管式螺旋输送机包括壳体及装配在壳体中的螺杆，螺杆的一端为用于与驱动装置传动连接的动力输入端，管式螺旋输送机的壳体上在螺杆的一端处设有喷粉口及用于与风机连接的进风口；在使用的过程中可通过所述的管式螺旋输送机来实现从粉料仓的放料口处定量的接收并输出粉料，被管式螺旋输送机输出的粉料在风机的作用下形成粉尘平稳的输送至对应的粉尘监测仪以对其进行校验，在校验过程中仅需保证螺杆的转速及风机风力的平稳即可实现定量均匀给尘，从而提高对粉尘监测仪的校验结果的可靠性。
+60. 202735326 一种矿用多参数仪
+CN
+13.02.2013
+G01N 33/00 Loading...
+G01N 33/00
+Loading...
+201220420964.8
+郑州光力科技股份有限公司
+赵彤凯
+G01N 33/00
+Loading...
+本实用新型涉及矿用安全检测装置，特别是一种矿用多参数仪。矿用多参数仪包括壳体，壳体中设置有甲烷传感器，壳体中还设有自燃监测部分，所述自燃监测部分包括CO传感器、CO2传感器以及O2传感器中的至少一个；CO传感器可检测抽放气体中的CO含量指示自燃趋势；CO2传感器可检测抽放气体中的CO2含量，指示初期自燃反应；O2传感器可检测抽放气体中的氧气含量，氧气含量的高低直接说明了抽放工作面处的密封性能的好坏，从而在抽放工作面密封破坏的第一时间给出指示，防止空气进入煤层中，从根本上杜绝自燃现象的出现；本实用新型的矿用多参数仪在检测抽放瓦斯含量的同时实现对瓦斯抽放过程中的自燃现象的监测，有效地降低了煤矿开采过程中的风险。
+61. 202704478 喷水除尘装置及使用该喷水除尘装置的煤炭输送设备
+CN
+30.01.2013
+B65G 45/22 Loading...
+B65G 45/22
+Loading...
+201220420953.X
+郑州光力科技股份有限公司
+李军伟
+B65G 45/22
+Loading...
+本实用新型涉及喷水除尘装置及使用该喷水除尘装置的煤炭输送设备，喷水除尘装置，包括设有主控制阀的主水管，所述的主水管上连接有第一支水管和第二支水管，所述的第一支水管上连接有至少一个用于向相应导料槽喷水的导料槽喷头，所述的第二支水管上连接有至少一个下料斗喷水管，每个下料斗喷水管上均设置有支路控制阀，每个下料斗喷水管上均连接有分别用于向对应下料斗的下料口喷水的下料斗喷头。本实用新型提供了一种能够针对易产生粉尘位置进行分时喷水，以节省水源的喷水除尘装置。
+62. 202710539 一种均流式粉尘校验装置
+CN
+30.01.2013
+G01N 33/00 Loading...
+G01N 33/00
+Loading...
+201220418044.2
+郑州光力科技股份有限公司
+刘春峰
+G01N 33/00
+Loading...
+本实用新型涉及粉尘测量仪的校验附件，尤其是一种均流式粉尘校验装置。均流式粉尘校验装置包括风洞，风洞包括从前向后依次连接的收缩段、试验段及动力段；收缩段的内孔呈前大后小的喇叭形，收缩段的前端设有集风口；试验段上开设有用于与基准粉尘采样仪连接的测量口及用于与待校验的装置连接的校验口；动力段中设有用于向后吹风的引流风机；在使用时，可通过测量口与基准粉尘采样仪连接，通过校验口与待校验的仪器连接，引流风机的工作使得风洞内部形成一个稳定的流速场，此时通过集风口向风洞中加入物料，则物料在随气流流动的过程中均匀分布，从而为仪器的测试提供一个稳定的含尘环境，可有助于提高对粉尘监测仪的校验结果的可靠性。
+63. 202710580 插入式取气引流管装置
+CN
+30.01.2013
+G01N 35/10 Loading...
+G01N 35/10
+Loading...
+201220418158.7
+郑州光力科技股份有限公司
+赵彤凯
+G01N 35/10
+Loading...
+本实用新型涉及用于输气管道与测量仪器之间的连接附件，尤其是一种插入式取气引流管装置。插入式取气引流管装置包括取气管，取气管的插接端处套设有转接套，另一端固定装配有用于与对应的测试仪连接的气嘴座，所述取气管、气嘴座及转接套中的至少一个上设有用于防止取气管在装置工作时转动的止旋结构；由于本实用新型的插入式取气引流管装置在其取气管、气嘴座及转接套中的至少一个上设有用于防止取气管在装置工作时转动的止旋结构，因此，可有效地防止取气管在装置工作的过程中发生转动，解决了现有的插入式取气引流装置使用时由于易转动而带来的测量偏差问题。
+64. WO/2012/155728 MULTI-MODE INTELLIGENT ACCESS METHOD, DEVICE AND SYSTEM
+WO
+22.11.2012
+H04W 36/00 Loading...
+H04W 36/00
+Loading...
+PCT/CN2012/073959
+ZTE CORPORATION
+ZHU, Jinguo
+H04W 36/00
+Loading...
+Disclosed are a multi-mode intelligent access method, apparatus and system. A multi-mode mobile intelligent access device is added in a communication network. The multi-mode mobile intelligent access device utilizes manners including traffic migration between different access networks to support a terminal to access a core network gateway via various types of access networks. The multi-mode intelligent access technology in the present invention enables a terminal to use various types of access networks at the same time, and implements data traffic migration among various types of access networks, so as to utilize wireless bandwidth in a more optimized manner and increase the transmission speed, and meanwhile reduce the cost of a mobile terminal and enhance the service experience of a user.
+65. 102663101 Sina microblog-based user grade sequencing algorithm
+CN
+12.09.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210109215.8
+北京交通大学
+刘云
+G06F 17/30
+Loading...
+The invention discloses a Sina microblog-based user grade sequencing algorithm. The Sina microblog-based user grade sequencing algorithm comprises the following steps: a) capturing real-time data in Sina microblogs; b) determining restraining factors which affect user grade sequencing in the Sina microblogs through data analysis; c) establishing a user influence power reference model in the user grade sequencing; d) establishing a user liveness reference model in the user grade sequencing; and e) getting a user weight calculation model by weighting the user influence power and the user liveness models, and realizing the user grade sequencing of the Sina microblogs by utilizing the model. The Sina microblog-based user grade sequencing algorithm can be used in the field of research of social networks. The Sina microblog-based user grade sequencing algorithm disclosed by the invention has higher rationality and smaller time loss, and is suitable for real-time network environments.
+66. 202351209 用于电化学检测的纸基电解池及三电极体系
+CN
+25.07.2012
+G01N 27/416 Loading...
+G01N 27/416
+Loading...
+201120503728.8
+中国检验检疫科学研究院
+张庆
+G01N 27/416
+Loading...
+本实用新型公开了一种用于电化学检测的纸基电解池，包括滤纸，滤纸上设有封闭的碳粉区域，碳粉区域围成的区域为电解池区域。本实用新型还提供了由上述纸基电解池构成的用于电化学检测的三电极体系，包括纸基电解池、工作电极、参比电极、对电极，对电极、参比电极和工作电极分别固定在滤纸上，且各电极表面分别与电解池区域相接触。本实用新型用于电化学检测的纸基电解池加工所需设备简单，可在普通实验室实现，制作成本低，制作简单速度快，检测所需的样品量仅需要1～100微升，使用范围广，体积小，携带方便，适合于便携式电化学检测的需求，并且为可丢弃型。
+67. 102495123 用于电化学检测的纸基电解池及其制作方法及三电极体系
+CN
+13.06.2012
+G01N 27/416 Loading...
+G01N 27/416
+Loading...
+201110401965.8
+中国检验检疫科学研究院
+张庆
+G01N 27/416
+Loading...
+本发明公开了一种用于电化学检测的纸基电解池，包括滤纸，滤纸上设有封闭的碳粉区域，碳粉区域围成的区域为电解池区域。本发明还提供了上述纸基电解池的制作方法，包括如下步骤：在电脑上制作出碳粉区域的图案，采用分辨率≥300dpi的激光打印机在滤纸上打印出碳粉区域，用加热装置，将打印好图案的滤纸在温度120℃～180℃下加热60～300分钟，得到本发明的纸基电解池。本发明用于电化学检测的纸基电解池加工所需设备简单，可在普通实验室实现，制作成本低，制作简单速度快，检测所需的样品量仅需要1～100微升，使用范围广，体积小，携带方便，适合于便携式电化学检测的需求，并且为可丢弃型。
+68. WO/2012/051934 METHOD AND DEVICE FOR ORDERING SEARCH RESULTS, METHOD AND DEVICE FOR PROVIDING INFORMATION
+WO
+26.04.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2011/080886
+CHINA MOBILE GROUP SICHUAN CO., LTD.
+WANG, Quanli
+G06F 17/30
+Loading...
+A method for providing information comprises: first obtaining the search keyword input by the user, then selecting at least one search strategy from each of the predetermined search strategies; for every selected search strategy, separately processing the search keyword according to the selected search strategy; and searching through the post-processing information corresponding to the search keyword, then providing the user with all the information found. The embodiment of the present invention solves the problems of low search accuracy and smaller amount of information found when conducting information search with existing technology.
+69. WO/2012/045262 METHOD AND SYSTEM FOR ASSIGNING MSISDN, AND SHORT MESSAGE TRANSMISSION METHOD AND DEVICE THEREFOR
+WO
+12.04.2012
+H04W 8/02 Loading...
+H04W 8/02
+Loading...
+PCT/CN2011/080057
+ZTE CORPORATION
+LI, Zhijun
+H04W 8/02
+Loading...
+Disclosed in the present invention is a method for assigning MSISDNs, said method comprising: when a terminal attaches to a network, an MSISDN is dynamically assigned to the terminal; when the terminal detaches from the network, the MSISDN assigned to the terminal is released. Also disclosed in the present invention is a system for assigning MSISDNs, and a short message transmission method and a system therefor based on the method for assigning MSISDNs. The present invention enables a small amount of MSISDN resources to serve as many terminals as possible, thereby effectively conserving MSISDN resources. The present invention is particularly applicable when MTC involves a large number of terminals.
+70. 102380706 光纤激光毛化系统
+CN
+21.03.2012
+B23K 26/00 Loading...
+B23K 26/00
+Loading...
+201110202006.3
+中国钢研科技集团有限公司
+张岩
+B23K 26/00
+Loading...
+本发明提供了一种光纤激光毛化系统，所述系统包括：光纤激光器，光纤激光器与输出光纤直接耦合或者通过分光闸耦合到输出光纤，输出光纤与机器人相连，从而将激光输出到设置在机器人中的射出头；机器人，其上设置有射出头和侧吹系统，射出头用于将所述光纤激光器输出的激光投射到待加工的工件表面上，侧吹系统设置在射出头的一侧；冷却系统，用于对光纤激光器进行冷却；控制系统，用于控制所述机器人和光纤激光器；机床，机床上设置有待加工的工件。与传统激光毛化相比具有下述技术优势：(a)柔性化特点。(b)不需要预涂层处理。(c)机床的精度要求低。(d)高质高效低成本的特性。该装置的能量密度，加工质量和效率均很高。
+71. 102215488 Smart phone digital certificate application method and system
+CN
+12.10.2011
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201110140406.6
+China Unicom
+Yao Tao
+H04L 9/32
+Loading...
+The invention provides a smart phone digital certificate application method and a smart phone digital certificate application system. The method comprises that: a certificate management module transmits a digital certificate application message to a certificate authority (CA) system, wherein the digital certificate application message comprises the certificate registration information of a smart phone user; the certificate management module receives a digital certificate response message returned by the CA system, and feeds a certificate downloading code back to the smart phone user, so that a smart phone can download the digital certificate according to the certificate downloading code from the CA system, wherein the digital certificate response message comprises a certificate downloading code of a digital certificate. By the smart phone digital certificate application method and the smart phone digital certificate application system provided by the invention, the certificate management module directly interacts online with the CA system, and receives the certificate downloading code from the CA system, and the smart phone user downloads the digital certificate from the CA system by adopting the downloading code, so the security of the certificate in use is greatly improved, and a support to the third-party digital certificate is realized.
+72. 102184110 Identification and drive loading method and system of SD (Secure Digital) intelligent card
+CN
+14.09.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110097120.4
+China United Network Communications Group Co., Ltd.
+Yao Tao
+G06F 9/445
+Loading...
+The invention discloses an identification and drive loading method and system of an SD (Secure Digital) intelligent card. The method comprises the steps of: deploying a client side tool management platform on a web portal by an operator, establishing correspondence between a manufacturer identification and a manufacturer drive program on the platform; setting a manufacturer identification location on the SD intelligent card by a manufacturer according to an application list; logging the web portal by a user through a mobile phone, downloading the application list from the web portal, and downloading a client side tool and the correspondence between the manufacturer identification and the manufacturer drive program from the client side tool management platform, and installing the client side tool, wherein the client side tool dynamically obtains insertion information of the SD intelligent card and reads and judges the manufacturer identification location; and if a field recorded by the read manufacturer identification location is in the application list, determining the manufacturer drive program corresponding to the manufacturer identification location, loading the manufacturer drive program, and if the field of the read manufacturer identification location is not in the application list, not loading the drive program.
+73. 102170631 Service information acquisition method, equipment and system
+CN
+31.08.2011
+H04W 8/20 Loading...
+H04W 8/20
+Loading...
+201110100804.5
+China United Network Communications Group Co., Ltd.
+Fan Yongjie
+H04W 8/20
+Loading...
+The invention provides a service information acquisition method, service information acquisition equipment and a service information acquisition system. The method comprises the following steps of: receiving an access request comprising a system identification code from a user terminal, and if the system identification code is judged to be included according to a plurality of stored file lists comprising the system identification codes, transmitting a corresponding file list according to a text format supported by the user terminal; receiving an installation packet downloading request of a service system selected according to the file list, and transmitting a corresponding installation packet according to the text format; and receiving a transmitted login request, transmitting the login request to the service system according to a communication protocol supported by the service system, and transmitting service information provided by the service system to the user terminal according to the text format. By the service information acquisition method, the service information acquisition equipment and the service information acquisition system provided by the invention, the sharing of service system server resources of different enterprises and the standardization of the user terminal are realized, and a large number of software and hardware resources are saved.
+74. WO/2011/082636 AN ACCESS IMPLEMENTING METHOD AND DEVICE FOR MACHINE TO MACHINE CORE NETWORK
+WO
+14.07.2011
+H04W 48/08 Loading...
+H04W 48/08
+Loading...
+PCT/CN2010/080317
+ZTE CORPORATION
+XIE, Baoguo
+H04W 48/08
+Loading...
+An access implementing method and device for Machine to Machine (M2M) core network. In said method, a network element receives an access request message carried with a device identity indication information, wherein said access request message is initiated by a terminal equipment, and determines the terminal equipment to be an M2M equipment according to the device identity indication information, then selects corresponding M2M core network for the terminal equipment to realize the access of the terminal equipment. With the solution of present invention, enhancement and large expansion of existing network are not necessary. The network can meet the M2M service requirements, while it still provides service to the existing H2H equipment.
+75. 201707360 长波形冲击电流发生器
+CN
+12.01.2011
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201020131660.0
+上海交通大学
+傅正财
+G01R 1/28
+Loading...
+一种冲击电流检测技术领域的长波形冲击电流发生器，包括：初级能量电路(1)、充电电容器组(2)、主放电球隙(3)、主放电球隙触发电路(4)、回路总电感(5)、回路总电阻(6)、放电开关(7)和开关控制电路(8)，其中：初级能量电路(1)与充电电容器组(2)并联并分别与主放电球隙(3)的第一端口以及放电开关(7)的第二主电极相连接，主放电球隙(3)的第二端口分别与放电开关(7)的第一主电极(a)和回路总电感(5)相连接，回路总电感(5)串接回路总电阻(6)并与放电开关(7)的第二主电极(c)一并接地，开关控制电路(8)分别与放电开关(7)的第一主电极(a)、触发电极(b)和第二主电极(c)相连接。
+76. 101877695 System and method for controlling access right
+CN
+03.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910135891.0
+Yiyang Security Technology Co., Ltd.
+Tang Jianping
+H04L 29/06
+Loading...
+The invention discloses a system and a method for controlling an access right. The system comprises a login management unit and an agency and forwarding unit, wherein the login management unit is used for acquiring a network address of a user terminal, receiving a login request of a user account, acquiring the access right information of the user according to the login request and sending the network address and the access right information of the user terminal to the agency and forwarding unit; and the agency and forwarding unit is connected with the login management unit and used for forwarding a WEB application packet of the user terminal according to the network address and the access right information of the user terminal. The system and the method for controlling the access right of embodiment of the invention achieve the purposes of flexibly using different terminals and efficiently accessing a WEB application service system in a controlled mode on the premise of not changing network configurations, improve the safety management level of the WEB application service system and guarantee the user experience degree.
+77. 101877637 Single sign-on method and single sign-on system
+CN
+03.11.2010
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200910135890.6
+Yiyang Security Technology Co., Ltd.
+Tang Jianping
+H04L 9/32
+Loading...
+The invention discloses a single sign-on method and a single sign-on system. The single sign-on method comprises the steps of: receiving and authenticating a primary account name and a primary account password of a user; acquiring sub account names for all applications of the user after the user passes primary account authentication; generating a corresponding sub account password according to the sub account name selected by the user, and sending the sub account name and the sub account password to an application system corresponding to the sub account; receiving the sub account name and the sub account password which are forwarded by the application system, and generating a sub account authentication password according to the sub account name to authenticate the sub account password; and when the authentication is successful, completing the signing on to the application system. In the single sign-on method and the single sign-on system of the embodiment of the invention, secondary sign on authentication is realized by automatically generating the sub account passwords of all the application systems and filling out to all the application systems in a substitute way, thereby reducing the safety risks of application systems, caused by the disclose of all the application system passwords stored in a single sign-on platform, and also reducing the operation complexity.
+78. WO/2010/108447 REALIZATION METHOD AND SYSTEM FOR SINGLE WIRELESS ACCESS MODE SPEECH HANDOFF
+WO
+30.09.2010
+H04W 36/38 Loading...
+H04W 36/38
+Loading...
+PCT/CN2010/071328
+ZTE CORPORATION
+HAO, Zhenwu
+H04W 36/38
+Loading...
+A realization method for speech service handoff in a single wireless access mode is provided by the present invention. When a source wireless access network decides to switch the ongoing speech service of a single wireless access terminal to a target circuit domain network, the method includes that: the source wireless access network sends a circuit domain handoff request to an Interworking Gateway (IWG); the IWG completes the preparation process for the circuit domain handoff with the target circuit domain network; in the meantime of an access branch handoff, the IWG sends pre-handoff indication information and handoff information to the single wireless access terminal through the source wireless access network; the single wireless access terminal saves the handoff information, waits for a handoff command according to the pre-handoff indication information, and completes the following handoff process. The realization method and system of the present invention can ensure to realize the speech service handoff successfully.
+79. WO/2010/108375 METHOD AND APPARATUS FOR SUPPORTING FEMTO-BASE STATION ACCESS AND SWITCHING AND SWITCHING TERMINAL
+WO
+30.09.2010
+H04W 74/00 Loading...
+H04W 74/00
+Loading...
+PCT/CN2009/076110
+ZTE CORPORATION
+JIA, Yunxiang
+H04W 74/00
+Loading...
+A method for supporting Femto-Base Station (FBS) access is provided by the present invention, which sets an access threshold of the FBS. The method comprises: a mobile terminal searches whether an FBS it can access exists, when an FBS it can access exists, it periodically scans the signal of the FBS, and obtains the current signal quality of the FBS; if the signal quality of the FBS reaches the set access threshold, then the mobile terminal switches to the FBS. A method for supporting FBS switching is also provided by the present invention. A mobile terminal periodically scans the signal quality of the FBS it has accessed, and determines whether the signal quality of the FBS it has accessed reaches or is below the exit threshold, if the signal quality reaches or is below an exit threshold, then the mobile terminal exits the FBS. An apparatus for supporting FBS access, apparatus for supporting FBS switching and terminal for supporting FBS switching are provided by the present invention. Application of the present invention enables the FBS access, the switching between the FBS and the macro base station and the switching between the FBS and other FBSs.
+80. 101841525 Secure access method, system and client
+CN
+22.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010117069.4
+China Unicom Corporation Co., Ltd.
+Wang Binghui
+H04L 29/06
+Loading...
+The invention provides secure access method, system and client. The secure access method comprises the following steps of: signing and encrypting information inside a secure smart card by using a built-in digital certificate of the secure smart card; sending the information of the signed and encrypted secure smart card to a platform so that the platform can verify the legality of the information of the validity of the digital certificate; after verifying the legality of the information of the validity of the digital certificate, signing and encrypting an access request by using the digital certificate, and sending the signed and encrypted access request to a network-side device to realize secure access. The secure access method, system and client provided by the embodiment of the invention overcome the defect that the legality of hardware KEY can not be guaranteed when network access is realized in the prior art and increase the security of network access.
+81. WO/2010/091591 A METHOD AND SYSTEM FOR DATA TRANSMISSION
+WO
+19.08.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2009/076038
+ZTE CORPORATION
+CHEN, Yuqin
+H04L 29/06
+Loading...
+A method and system for data transmission are provided, a source user device sends the data for a destination user device to a base station through the pre-setup service flow corresponding with the destination user device; the base station parses the received data, acquires the air interface connection address of the service flow between the base station and the destination user device, forwards the data to the destination user device. According to the technical scheme provided by the present invention, it solves the problem in prior art that the local forwarding can not be realized because the address information of the destination user device can not be acquired, accordingly reducing the data transmission path, shortening the delay for the data process and debasing the consumption of the network resource.
+82. 101795263 Secure broadband access method, authentication method, device and system
+CN
+04.08.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910244074.9
+China United Network Communication Group Co. Ltd.
+Wang Binghui
+H04L 29/06
+Loading...
+The invention discloses a secure broadband access method, a secure broadband access authentication method, a secure broadband access device, a secure broadband access authentication device and a secure broadband access system. The secure broadband access method comprises the following steps: performing private key signature process on user broadband account information read from a chip memory, wherein the user broadband account information comprises a user name and a password; coding the user broadband account information through the private key signature process and a user personal digital certificate read from the chip memory respectively; organizing the coded user broadband account information and the coded user personal digital certificate to form authentication information, and sending the authentication information to an access authentication system so that the access authentication system authenticates the authentication information; and under the condition that the authentication information passes the authentication of the access authentication system, receiving login success message sent by the access authentication system. The invention improves the security of the authentication information in the transmission process.
+83. 201184823 煤层温度远距离监测装置
+CN
+21.01.2009
+G01K 7/00 Loading...
+G01K 7/00
+Loading...
+200820034793.9
+宜兴市三恒自动化仪表有限公司
+毕成模
+G01K 7/00
+Loading...
+煤层温度远距离监测装置，涉及一种实时监测煤矿煤层温度变化的监测装置，一煤层温度探针通过电缆信号连接一标准信号变送器，所述的标准信号变送器电缆信号接通煤矿安全监控系统，其可对煤矿高温火区煤层温度实现远距离实时监测，提前采取预防措施防止煤层自燃，该装置具有制作工艺简单，成本低，抗干扰能力强，应用方便，能在井下恶劣环境中可靠工作等特点。
+84. 101267260 Intelligent automatic road measuring device mileage statistical method in mobile network
+CN
+17.09.2008
+H04B 17/00 Loading...
+H04B 17/00
+Loading...
+200710185412.7
+China Mobile Group Hebei Co., Ltd.
+Song Xiaohui
+H04B 17/00
+Loading...
+The present invention relates to a mileage counting method of a mobile network intelligent automatic path test apparatus. The method comprises the following procedures: (1) test data inputting: transmitting the test data to a TA system namely an intelligent automatic path test apparatus of the Ericsson corporation with a LOG file form by a foreground test terminal of the automatic path measuring system, and inputting into the TA system data base; and (2) confirming a test time period and a running mileage of the tested vehicle. Each test sampling point is corresponding to a test time and a latitude and longitude coordinate of this point. Each test sampling point time is in series connected to form a whole test time period of a foreground test terminal of the automatic path test apparatus. When the latitude and longitude corresponding two adjacent test sampling points are converted to distance, the running mileage is obtained by adding the distances in sequence. The invention possesses the beneficial effect that the TA test mileage can be quickly and accurately counted and the accurate measurement to network indexes of ''mileage voice missing ratio'' and the like is provided with scientific criterions.
+85. 101267649 Point, line and surface for comprehensive analysis application system in GSM mobile network optimization
+CN
+17.09.2008
+H04Q 7/36 Loading...
+H04Q 7/36
+Loading...
+200710185411.2
+China Mobile Group Hebei Co., Ltd.
+Song Xiaohui
+H04Q 7/36
+Loading...
+The invention relates to an application system of point, line and plane combination in GSM mobile network optimization, comprising a collecting server, a switch, a router, and a PC terminal; an input end of the collecting server is connected with the router via the switch, an output end of the collecting server is connected with a data server, the data server is connected with the PC terminal via a mobile data special network; the router is connected with the switch in a provincial company apparatus room via the mobile data special network, wherein, the switch in the provincial company apparatus room is connected with a TA system, a network management system, a static state resource system and an EOMS system respectively; the switch in the provincial company apparatus room is connected with OSS servers and OMC servers of districts respectively via the mobile data special network. The invention has the advantages of largely increasing the efficiency and accuracy of network optimization.
+86. 101232424 Access method, access system, trust service center, network trust platform
+CN
+30.07.2008
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200810101336.1
+China Mobile Group Design Institute Co., Ltd.
+Du Xuetao
+H04L 12/28
+Loading...
+The invention provides an access method, which comprise the following steps that (101) a user receives identity authentication; (102) after the identity authentication is passed, trust of the user is authenticated according to each trust in a user history accounting trust assemble; and if the trust authentication is passed, and step (103) is continuously executed, otherwise, the trust authentication is failed; and (103) according to each trust in the user history accounting trust assemble, corresponding authority of the user in target application is granted. The method has the advantages that by adopting a trust service center and a network mutual trust platform in the invention, the user accessed into a wireless wire via identity authentication can acquire last accounting trust value in the network; and the trust value of the user will dynamically vary along different operations of the user so that wireless resources allocation and priority of the user are combined, therefore, authorization to user service with different security levels can be carried out according to the user trust.
+87. 2007186126 METHOD OF CONTROLLING STEERING ACTUATOR FOR RAILWAY VEHICLE
+JP
+26.07.2007
+B61F 5/44 Loading...
+B61F 5/44
+Loading...
+2006006501
+SUMITOMO METAL IND LTD
+SATO YOSHI
+B61F 5/44
+Loading...
+PROBLEM TO BE SOLVED: To reduce a delay in generation of operating force when controlling steering, and to reduce a steady deviation. SOLUTION: A method of controlling a steering actuator 4 to be operated by an electrical command and provided between a vehicle body 2 and a bogie frame 1 of each of two bogies fitted to a front part and a rear part of the vehicle body 2 is structured so as to work in the rotating direction freely to rotate between the vehicle body and the bogies in the curving direction of a curve when passing through a curved section. As a command voltage to the actuator 4, a value obained by adding the amount of friction resistance compensation, which is obtained by multiplying a direction (code) of any one of curvature speed, angular velocity of the bogie and speed of the actuator, by the friction force Fc of the actuator 4 itself, which is previously measured, is used. As a result, the outer rail side lateral pressure to be applied to a leading wheel axle when passing through a curved section can be reduced, and a reliable actuator can be realized at low cost. COPYRIGHT: (C)2007,JPO&INPIT
+88. 1967550 Portable apparatus for inquiring, calculating and estimating nutrition and method therefor
+CN
+23.05.2007
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+200610114758.3
+Institute of Nutrition and food security, Chinese Centre for Disease Control and
+Yang Yuexin
+G06F 19/00
+Loading...
+The invention is a portable nutrition inquiry, calculation and evaluation device, including a microprocessor and the operation panel linked to microprocessor, small LCD screen, the audio output device for voice information output, and the communication device for exchange of information with personal computers and the specific websites of the Internet further. Microprocessor has a variety of modules for nutrition inquiries, the individual body measuring and calculating, weight regulation, nutrition calculation and evaluation. The invention also provides the nutrition inquiry, calculation and evaluation methods of the device. The useful technical effect of the invention is: easy to carry, readily available, no external power and other equipments need, timely internal food composition database expansion and nutrition module function updating, but also integration with electronic dictionaries, mobile phones and other devices. Users can understand their nutritional status of the body, and promptly adjust diet and exercise mode, more effectively protect their health.
+89. 2004138398 RADAR SURVEY DEVICE
+JP
+13.05.2004
+G01V 3/12 Loading...
+G01V 3/12
+Loading...
+2002300820
+KANTO REGIONAL DEVELOPMENT BUREAU MINISTRY OF LAND INFRASTRUCTURE & TRANSPORT
+MOCHIMARU SHUICHI
+G01V 3/12
+Loading...
+PROBLEM TO BE SOLVED: To provide a survey device capable of efficiently surveying underground or the interior of a structure. SOLUTION: This survey device has a plurality of antenna bodies 20, an information processing means 30 for collectively processing receiving information obtained from each of the antenna bodies, and a traveling device 40 traveled on an object of detection. The traveling device 40, which is traveled by the power of an electric motor 41, comprises an installation part 44 for installing the antenna bodies, an obstacle sensor 44a arranged on the installation part 44, a link mechanism 45 for vertically moving the installation part, and an operator boarding part 46. The installation part has an air gap with the object of detection, and the electric motor is stopped when the obstacle sensor detects an obstacle. The information processing means comprises a GPS receiver 32 and a camera device 33. The processing means obtains position measurement information from the GPS receiver and camera device, and overlaps the position measurement information on the receiving information. COPYRIGHT: (C)2004,JPO
+90. 1223219 Navigation mark holder for ship use
+CN
+21.07.1999
+B63B 35/00 Loading...
+B63B 35/00
+Loading...
+98113109.3
+Guangzhou Marine Security Supervision Bureau, Ministry of Communications
+Xu Xiaozhong
+B63B 35/00
+Loading...
+The present invention relates to a marine navigation mark holding device, and is characterized by that it possesses a hollow box body with holding arm, one end of said box body is fixedly equipped with a hollow Y-type holding arm, a holding device controlled by means of power transmission system is fixed in the interior of the Y-type holding arm, and another end of said box body is connected with a turning device controlled by power transmission system, and said turning device is fixed on the ship body by means of support seat. Said invention can make the navigation mark float on the water surface be connected together with ship as free floating body for safe operation.
+91. 2327606 船用夹持航标装置
+CN
+07.07.1999
+B63B 22/16 Loading...
+B63B 22/16
+Loading...
+98233564.4
+交通部广州海上安全监督局
+徐孝忠
+B63B 22/16
+Loading...
+本实用新型涉及船用夹持航标装置,其特征是有一个夹持臂空心的箱体(1),其一头固定有一个叉式空心夹持臂,在其二叉枝内均固定有一个柱塞油缸(3),柱塞油缸(3)的一端与液压系统相连通,另一端与夹持臂(5)可旋转活动的铰接,夹持臂(5)通过固定栓(4)可旋转活动的固定在空心夹持臂内,在箱体(1)的另一头通过固定在其尾端的轴承(9)与两侧面上由液压系统控制的翻转油马达(8)相固定,翻转油马达(8)固定在支座(11)上。
+

@@ -1,0 +1,985 @@
+1. 206049416 单相供电装置、电气化铁路牵引供电系统
+CN
+29.03.2017
+B60M 3/00 Loading...
+B60M 3/00
+Loading...
+201620944968.4
+广州智光电气股份有限公司
+姜新宇
+B60M 3/00
+Loading...
+本实用新型公开了单相供电装置、电气化铁路牵引供电系统，供电系统包括供电同步控制器、若干单相供电装置、若干区间联络开关，单相供电装置包括多副边绕组变压器、若干功率转换单元体和主控制器，供电同步控制器负责牵引网全网电压的有效值、频率和相位均一致，单相供电装置根据同步指令实现三相电源转化为同步的单相电源，区间联络开关连接各个供电区间为统一整体。本实用新型有效解决了传统牵引供电系统对公共电网造成的电能质量问题，为电气化机车提供可控、可靠、连续的供电电源，同时提供融冰功能，保障了牵引供电系统的安全可靠。
+2. 106532703 储能变流系统与变流器及双向变流器的控制方法和控制器
+CN
+22.03.2017
+H02J 3/01 Loading...
+H02J 3/01
+Loading...
+102016001187286
+广州智光电气股份有限公司
+吴志鹏
+H02J 3/01
+Loading...
+本发明公开了一种储能变流系统与变流器及双向变流器的控制方法和控制器。双向变流器的控制方法包括：将预先确定的馈网电流参考值与储能变流器交流侧的电感电流相减，得到偏差信号，并将偏差信号经过准比例谐振控制器调制得到电压基准信号；将储能变流器交流侧的馈网电流进行线性卡尔曼滤波处理，得到馈网电流中各次谐波电流的状态估计信号；将馈网电流中各次谐波电流的状态估计信号经过相对应的增益处理后作为减量与电压基准信号相减，得到电压参考信号；将电压参考信号经过PWM发生器调制，得到控制双向变流器功率开关管的开通与关断的SPWM控制信号。本发明能够有效滤除储能变流器交流侧电流中11次以内的次高频谐波，改善输出电能的质量。
+3. 106532704 储能变流系统与变流器及四象限运行器的控制方法和控制器
+CN
+22.03.2017
+H02J 3/01 Loading...
+H02J 3/01
+Loading...
+102016001187306
+广州智光电气股份有限公司
+吴志鹏
+H02J 3/01
+Loading...
+本发明公开了一种储能变流系统与变流器及四象限运行器的控制方法和控制器。四象限运行器的控制方法包括：将预先确定的馈网电流参考值与储能变流器交流侧的电感电流相减，得到偏差信号，并将偏差信号经过准比例谐振控制器调制得到电压基准信号；将储能变流器交流侧的馈网电流进行集员滤波处理，得到馈网电流中各次谐波电流的状态估计信号；将馈网电流中各次谐波电流的状态估计信号经过相对应的增益处理后作为减量与电压基准信号相减，得到电压参考信号；将电压参考信号经过PWM发生器调制，得到控制四象限运行器功率开关管的开通与关断的SPWM控制信号。本发明能够有效滤除储能变流器交流侧电流中25次以内的次高频谐波，改善输出电能的质量。
+4. 106452110 一种电力变换装置和微电网
+CN
+22.02.2017
+H02M 7/00 Loading...
+H02M 7/00
+Loading...
+201611018095.5
+广州智光电气股份有限公司
+吴志鹏
+H02M 7/00
+Loading...
+本发明公开了一种电力变换装置和微电网。其中电力变换装置包括：依序连接的直流侧端口、直流预充电电路、直流稳压谐振电路、四象限运行电力变换器、交流滤波电路、交流预充电电路、交流侧端口；所述直流预充电电路包括多个限流电阻，用于对直流侧电流进行限流；其中，接入电路的限流电阻数量可调节；所述交流预充电电路包括多个限流电阻，用于对交流侧电流进行限流；其中，接入电路的限流电阻数量可调节。该技术方案使得电力变换装置直流侧端口和交流侧端口可接入的电压在一个较宽的范围内，从而将该电力变换装置的应用环境大大拓宽，例如应用于微电网中，可以适应区域电网的电压波动，具有良好的稳定性，内部器件不易损坏。
+5. 104201938 一种基于CPLD的变频器软启动方法
+CN
+11.01.2017
+H02P 1/30 Loading...
+H02P 1/30
+Loading...
+102014000371212
+广州智光电气股份有限公司
+刘卫军
+H02P 1/30
+Loading...
+本发明公开了一种基于CPLD的变频器软启动方法，对电网电压过零检测得到方波信号；然后由CPLD对方波信号进行相位调整，获取调整后方波信号的相位及频率信息；根据获取的相位及频率信息调整变频器输出电压的相位及频率，锁定变频器输出电压；最后把电动机的供电源从变频器切换到工频电网电压，完成变频器同步切换。本发明能精准得到电网电压的相位及频率信息，大大提高了锁相环同步切换时电网电压与变频器输出电压这两个电压波形的重合度，解决了变频器启动时对电网冲击大的技术问题。
+6. 106240405 单相供电装置、电气化铁路牵引供电系统及其控制方法
+CN
+21.12.2016
+B60M 3/00 Loading...
+B60M 3/00
+Loading...
+102016000727188
+广州智光电气股份有限公司
+姜新宇
+B60M 3/00
+Loading...
+本发明公开了单相供电装置及其新型电气化铁路牵引供电系统、控制方法，供电系统包括供电同步控制器、若干单相供电装置、若干区间联络开关，单相供电装置包括多副边绕组变压器、若干功率转换单元体和主控制器，供电同步控制器负责牵引网全网电压的有效值、频率和相位均一致，单相供电装置根据同步指令实现三相电源转化为同步的单相电源，区间联络开关连接各个供电区间为统一整体。本发明有效解决了传统牵引供电系统对公共电网造成的电能质量问题，为电气化机车提供可控、可靠、连续的供电电源，同时提供融冰功能，保障了牵引供电系统的安全可靠。
+7. 106100310 一种优化电压源型换流器软启动过程的方法和装置
+CN
+09.11.2016
+H02M 1/36 Loading...
+H02M 1/36
+Loading...
+201610461019.5
+广州智光电气股份有限公司
+刘冰
+H02M 1/36
+Loading...
+本发明公开了一种优化电压源型换流器软启动过程的方法，包括：当直流侧电容的电压值上升到第一预设电压值时，控制与充电电阻并联的开关闭合；当允许输出PWM控制信号时，生成变权重的电压前馈信号与正弦调制信号；将所述变权重的电压前馈信号加入所述正弦调制信号，生成总调制信号；根据所述总调制信号，生成PWM控制信号；输出所述PWM控制信号到IGBT变流器以控制所述IGBT变流器的导通和关断，进而控制所述直流侧电容的充电；当所述直流侧电容的电压值上升到第二预设电压值时，判定软启动完成。本发明还公开了一种优化电压源型换流器软启动过程的装置。采用本发明，能够在电网环境恶劣的情况下，实现并网过程的平滑过渡，提高了换流器对电网的适应能力。
+8. 205377448 一种配电变压器防窃电成套装置
+CN
+06.07.2016
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201521015227.X
+广州智光电气股份有限公司
+王宇明
+H02J 13/00
+Loading...
+本实用新型涉及一种配电变压器防窃电成套装置，包括防窃电控制器、低压电流互感器及高压交流接触器，电网、高压交流接触器与配电变压器的高压侧接线端依次串联连接，低压电流互感器与配电变压器的低压侧接线端串联连接；防窃电控制器分别与低压电流互感器的二次绕组、高压交流接触器连接；低压电流互感器采集配电变压器低压侧电流信号，将该电流信号作为窃电判据输出给防窃电控制器，防窃电控制器根据窃电判据发出投切脉冲给高压交流接触器进行合闸或分闸操作。该装置不但能够有效检测出窃电情况，还能有效自动阻止窃电行为，减少油田因非法窃电行为而受的损失。
+9. 103675539 一种级联式储能变流器检测平台及其控制方法
+CN
+22.06.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+102013000637043
+广州智光电气股份有限公司
+许贤昶
+G01R 31/00
+Loading...
+本发明涉及级联式储能变流器检测平台及其控制方法，通过模拟电池组工作特性和电网调度系统下发的遥调指令，使级联式储能变流器具备了运行所需要的外部条件，可在不使用电池组情况下完成调试和检测。其检测平台包括主控制器，用于向带检测的级联式储能变流器的控制器发出有功、无功指令，以模拟级联式储能变流器从电网吸收的有功、无功功率变化；多副边绕组变压器，通过低压侧多个独立的副边绕组为若干PWM整流器供电；用于模拟电池组工作特性的若干PWM整流器；主控制器与多副边绕组变压器高压侧连接，多个副边绕组和若干PWM整流器的交流侧一一对应相连，PWM整流器的直流侧与级联式储能变流器的功率模块的直流侧相连。
+10. 205335975 光伏智能变电站
+CN
+22.06.2016
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+202015001131243
+广州智光电气股份有限公司
+王宇明
+H02J 13/00
+Loading...
+本实用新型公开了一种光伏智能变电站，其包括直流配电柜、光伏逆变器、低压开关柜、升压变压器、高压开关设备、就地智能监控终端、站控层智能监控终端、低压静止无功发生装置、智能变电站箱体，所述直流配电柜、光伏逆变器、低压开关柜、光伏逆变器、低压静止无功发生装置、升压变压器以及高压开关设备顺序连接，所述就地智能监控终端，是属于控制部分，光伏发电智能监控基站的安装点可以在箱变内，也可以在用户的控制房内。本实用新型将传统光伏发电站分散安装的变电部分通过专业结构设计高度整合为箱式变电站，并增加低压侧无功发生装置、就地智能监控终端作为扩展功能，使光伏发电变电部分向智慧能源领域迈进，向能源互联网模式迈进。
+11. 105652222 开关磁阻电机凸极与轭部磁阻特性测量方法及系统
+CN
+08.06.2016
+G01R 33/12 Loading...
+G01R 33/12
+Loading...
+201610133411.7
+广州智光电气股份有限公司
+曾辉
+G01R 33/12
+Loading...
+本发明涉及一种开关磁阻电机凸极与轭部磁阻特性测量方法及系统。本发明利用开关磁阻电机的几何对称性，导通单相绕组，以及正向串联、反向串联特定的两相绕组，测量各相磁链，基于磁路法即可以获得定转子凸极以及轭部磁阻对磁通的特性曲线。本发明无需额外的机械测量平台与测试电路，利用开关磁阻电机系统自带的功率变换器，在工业现场即可完成测量，过程简单快速，具有较强实用性；无需预知电机结构参数与硅钢片磁化特性，通用性强；有助于建立考虑相间互感影响的等效磁网络电机模型，对于提高无位置传感器控制与平滑转矩控制性能，推广开关磁阻电动机系统应用领域，十分有意义。
+12. 105553342 级联型双变频器的运行控制方法和系统
+CN
+04.05.2016
+H02P 6/04 Loading...
+H02P 6/04
+Loading...
+201511024750.3
+广州智光电气股份有限公司
+孙开发
+H02P 6/04
+Loading...
+本发明涉及一种级联型双变频器的运行控制方法和系统，其是先控制主变频器发送开启命令打开离合器，再同时启动运行主变频器和从变频器，并使主变频器运行至预设频率，从变频器以频率跟随主变频器频率的模式运行至预设频率；在主从变频器均达到预设频率后，控制主变频器发送闭合命令闭合离合器；接收到离合器返回的闭合抱紧信息后，控制主变频器运行至工作频率，从变频器以直流电压和转矩电流跟随主变频器直流电压和转矩电流的模式运行至工作频率。从变频器直流电压和转矩电流跟随主变频器，达到工作频率，使从变频器输出的功率跟随主变频器的输出功率，以平衡主变频器和从变频器驱动的两台同步电动机的功率，从而实现节能，减缓系统设备受损。
+13. 105490612 开关磁阻电机无位置传感器控制方法和系统
+CN
+13.04.2016
+H02P 25/089 Loading...
+H02P 25/089
+Loading...
+201511031250.2
+广州智光电气股份有限公司
+曾辉
+H02P 25/089
+Loading...
+本发明涉及一种开关磁阻电机无位置传感器控制方法和系统，该方法包括：获取上一个周期开关磁阻电机绕组的相电流信号；在绕组的关断时刻对相电流信号分别进行低通滤波和反因果滤波，分别得到第一电流波形信息和第二电流波形信息；确定第一电流波形信息出现峰值的第一时刻以及第二电流波形信息出现峰值的第二时刻；计算开关磁阻电机的转速；根据第一时刻、第二时刻以及转速获得因实时滤波造成的相位差；根据所述相位差对转子的位置信息进行补偿，得到转子的实时位置信息，以进行无位置传感器控制。本发明可提高位置检测精度，扩大电流梯度法适用的转速范围，且无需增加硬件成本，是一种通用、低成本、实用的开关磁阻电机无位置传感器控制技术。
+14. 204086455 电缆线路局部放电检测模拟装置
+CN
+07.01.2015
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201420288395.5
+智友光电技术发展有限公司
+东盛刚
+G01R 31/12
+Loading...
+一种用于电缆线路局部放电检测的模拟装置，主要涉及电缆线路局放测试的技术领域。它的连接方法是：用通讯同轴电缆、“T”型接头、“一”型接头、BNC分叉线对模拟电缆终端、电缆中间接头连接，在电缆中间接头的铠装接续位置用BNC分叉线和通信同轴电缆将其与电缆铠装交叉互联换位箱或电缆铠装直接接地箱连接起来。传感器可以安装在模拟线路的任意位置上，连接局放测试系统，模拟局放信号发生器可以从任意位置向模拟电缆注入脉冲信号而模拟该点发生的局部放电，从而可以进行一系列相关局部放电检测和局部放电定位的模拟测试项目。
+15. 204044293 手持式局部放电检测装置
+CN
+24.12.2014
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201420287363.3
+智友光电技术发展有限公司
+东盛刚
+G01R 31/12
+Loading...
+手持式局部放电检测装置，它涉及电力电缆局部放电检测领域。本体的前侧上部设置有LCD显示屏，本体的内部设置有信号处理模块、按键控制模块、MCU信号采集模块和SD卡，信号处理模块分别与信号输入端、MCU信号采集模块连接，按键控制模块包括电源开关按键、背光按键、量程按键、复位按键，按键控制模块与MCU信号采集模块连接，MCU信号采集模块分别与LCD显示屏、SD卡连接，供电电池分别与LCD显示屏、信号处理模块、MCU信号采集模块连接。它作为一款手持式设备，删减了一些不必要的辅助功能。本装置不仅可以较准确地检测出局部放电信号，还可以量化地显示信号的大小-相位-密度的相互关系的3维图谱，实现局部放电的简单判断。同时也可以相当大量地存储检测数据以备后用，还具有体积小、操作简易、造价低的特点。
+16. 204044215 一种用于局放检测及定位的多口高频脉冲电流互感器
+CN
+24.12.2014
+G01R 15/18 Loading...
+G01R 15/18
+Loading...
+201420288915.2
+智友光电技术发展有限公司
+东盛刚
+G01R 15/18
+Loading...
+一种用于局放检测及定位的多口高频脉冲电流互感器，它涉及电流互感器技术领域，高频脉冲电流互感器磁芯安装在屏蔽机壳内，高频脉冲电流互感器磁芯上设置有由采用漆包线不同线圈数绕制而成的局放检测用二次线圈、局放检测校正用二次线圈、局放定位用二次线圈、局放判别用相位信号二次线圈，匹配电阻元件分别安装在局放检测用二次线圈、局放检测校正用二次线圈、定位用二次线圈、局放判别用相位信号二次线圈上，高频脉冲电流互感器上设置有端口机构，所述的端口机构包含可根据需要而设置的二个端口或四个端口，所述的二个端口由局放检测端口与校正端口组成；它的灵敏度高，频率响应范围宽，重量轻、性能优良、三防性能高，且具有多端口。
+17. 203929977 独立网站式局部放电在线监测装置
+CN
+05.11.2014
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201420287362.9
+智友光电技术发展有限公司
+东盛刚
+G01R 31/12
+Loading...
+独立网站式局部放电在线监测装置，它涉及电力设备局部放电监测技术领域，局放传感器通过高频线与就地主机连接，就地主机通过信号与3Gmodem连接，所述的就地主机包括通道切换单元、模拟信号处理单元、相位单元、数据采集单元和服务器单元，通道切换单元分别与局放传感器、模拟信号处理单元相连接，数据采集单元分别与模拟信号处理单元、相位单元、通道切换单元相连接，服务器单元分别与数据采集单元、3Gmodem相连接。它成本、功耗低，电脑、智能手机均可访问，具有一定的智能性，装置具备良好的信噪比与检测灵敏度，能够对监测地点的电力设备局部放电现象进行有效的监测。
+18. 203933140 一种电缆负荷电流CT取电智能电源装置
+CN
+05.11.2014
+H02J 9/04 Loading...
+H02J 9/04
+Loading...
+201420301355.X
+中山大学
+谭晓军
+H02J 9/04
+Loading...
+一种电缆负荷电流CT取电智能电源装置，它涉及智能电源技术领域；取电CT的输出端通过电源输入接口与整流装置的输入端连接，要求取电CT唤醒电流即一次电流或电缆负荷电流为10A，并在20-500A的负荷电流范围内整流装置输出电压16V；系统主板的输入端与整流装置的输出端连接，其另一端与旁路匹配的电池连接，系统主板的输出端连接电源输出接口，并通过电源线连接到负载；它可以在无电源或突然停电情况下为监测设备供电。
+19. 203930037 PQN可控式局部放电模拟信号发生装置
+CN
+05.11.2014
+G01R 35/00 Loading...
+G01R 35/00
+Loading...
+201420287176.5
+智友光电技术发展有限公司
+东盛刚
+G01R 35/00
+Loading...
+PQN可控式局部放电模拟信号发生装置，它涉及高压绝缘设备的局放测试技术领域，壳体内安装有单片机模块，单片机模块的数个IO接口分别与按键模块、显示模块、相位模块、升压模块、继电器模块相连接；升压模块与PQN信号发生模块相连接；继电器模块与PQN信号发生模块相连接；电源模块分别与单片机模块、显示模块、相位模块、升压模块、继电器模块相连接；PQN信号发生模块与信号输出模块相连接；它可以模拟出与电力电缆、GIS设备、变压器等高压绝缘设备的局部放电更为近似的模拟局放脉冲信号，可以调节和控制放电信号的相位位置并使放电信号更具备50Hz的工频相位特征，可以调节放电电量的大小水平并使放电信号在所设定的电量范围值内随机变化，可以调节放电信号的密度并使放电脉冲均匀或非均匀即随机地发生。操作简便，使用方便，使用性强。
+20. 203930480 一种独立网站式电力设备状态在线监测装置
+CN
+05.11.2014
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201420286892.1
+智友光电技术发展有限公司
+东盛刚
+G05B 19/418
+Loading...
+一种独立网站式电力设备状态在线监测装置，它涉及监测装置技术领域，包含局放传感器(X16)、传感器模块(1)、通道切换单元(2)、模拟处理器(3)、相位单元(4)、数据采集器(5)、服务器单元(6)、数据存取单元(7)和3Gmodem(8)；本实用新型结构简单、设计合理且操作方便，针对电力设备的绝缘状态和运行环境状态进行长期在线监测，极早的发现电缆中存在的隐患，并结合高速发展的3G网络通信，利用普通计算机或手机就可实时查看现场状况，这样就避免了测试人员需要不断去现场进行测试，同时也避免了一些现有产品需要铺设通信线路的烦琐工作。
+21. 203929976 一种局部放电电磁波检测器
+CN
+05.11.2014
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201420287187.3
+智友光电技术发展有限公司
+东盛刚
+G01R 31/12
+Loading...
+一种局部放电电磁波检测器，或称之为局放电磁波传感器，它涉及高压设备局部放电检测技术领域，它包含天线面板、高通滤波器、高频放大器、检波回路、放大器、切换开关、输出端口；天线面板与切换开关连接，切换开关与高通滤波器、输出端口连接，高通滤波器与高频放大器连接，高频放大器与检波回路连接，检波回路与放大器连接，放大器与切换开关连接；它可以通过切换快关改变内部连接线路来输出不同类型的信号，以适应现场检测条件，而不用通过更换或者增加局部放电电磁波传感器来完成现场检测任务，使测试系统简化，更方便、快捷、准确地完成测试任务。
+22. 203929975 遥控多频段带通滤波局放在线监测装置
+CN
+05.11.2014
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201420287177.X
+智友光电技术发展有限公司
+东盛刚
+G01R 31/12
+Loading...
+遥控多频段带通滤波局放在线监测装置，它涉及高压电缆线路的局部放电监测技术领域，局放传感器通过高频线和通道切换单元连接，通道切换单元与模拟信号处理单元连接，模拟信号处理单元与多频段带通滤波器BPF连接，多频段带通滤波器BPF再与高速A/D转换与数字信号控制单元连接；高速A/D转换与数字信号控制单元又另外分别与数字信号控制扩展单元、相位采集单元、电光信号转换单元E/O连接，数字信号控制扩展单元分别与多频段带通滤波器BPF、装置自检单元、通道切换单元连接,电光信号转换单元E/O通过光纤连接到信号集中处理装置；它解决了单频带通滤波器在线局放监测设备所存在的不足之处。
+23. 203879964 液力耦合器油压调节装置
+CN
+15.10.2014
+F16D 33/06 Loading...
+F16D 33/06
+Loading...
+201420250495.9
+广州智光电气股份有限公司
+郭威
+F16D 33/06
+Loading...
+液力耦合器油压调节装置包括油泵、电机、压力传感器、变频器、控制器和五个可调阀门；油泵的进油口通过主输油管道连通液力耦合器的油箱的出油口，油泵的出油口通过输油管道连通液力耦合器的工作油冷油器和润滑油冷油器的进油口，油泵的出油口还通过主回油管道连通油箱的进油口，该工作油冷油器和润滑油冷油器的出油口分别通过回油管道连通油箱的进油口；工作油冷油器和油箱之间的回油管道、润滑油冷油器和油箱之间的回油管道、工作油冷油器和油泵之间的输油管道、润滑油冷油器和油泵之间的输油管道以及油箱和油泵之间的主输油管道各设一可调阀门。上述实用新型可使得液力耦合器的润滑油和工作油运作更稳定，以及保障设备安全稳定运行。
+24. 104037778 一种具有故障自动重启功能的链式SVG装置
+CN
+10.09.2014
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201410206693.X
+广州智光电气股份有限公司
+石磊
+H02J 3/18
+Loading...
+一种具有故障自动重启功能的链式SVG装置，包括主控制器模块、具有H桥电路的SVG功率模块、主开关、第一故障检测模块、故障排除模块以及状态确认模块；第一故障检测模块用于对电网及SVG装置的运行状态进行故障检测；当该主控制器模块检测到第一故障检测模块异常时，主控制器模块向SVG功率模块发送用于关断H桥电路的闭锁信号且驱动故障排除模块投入运行，直至检测到第一故障检测模块恢复正常；当主控制器模块检测到第一故障检测模块恢复正常时，主控制器模块向SVG功率模块发送用于启动H桥电路的闭锁解除信号。本发明可实现SVG装置在发生故障后自动重启，整个过程非常快速，且无需人工处理。
+25. 203574379 分相同步投切控制装置
+CN
+30.04.2014
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201320666260.3
+广州智光电气股份有限公司
+王宇明
+H02J 3/18
+Loading...
+本实用新型涉及分相同步投切控制装置，其包括真空永磁断路器、电流互感器组、电抗器组、电容器组、电网电压同步信号检测器、AB相分合闸线圈驱动器、AB相操作单元、C相分合闸线圈驱动器和C相操作单元。 本实用新型 通过在电网的参考电压过零点投切电容器组来有效控制合闸涌流和分闸过电压。相对于传统使用三相断路器或三相真空接触器投切电容器组时产生的较大合闸涌流和分闸过电压。
+26. 103701333 Circulating current suppression method for cascade parallel high-voltage frequency converter
+CN
+02.04.2014
+H02M 5/44 Loading...
+H02M 5/44
+Loading...
+201310733074.1
+广州智光电气股份有限公司
+袁俊波
+H02M 5/44
+Loading...
+The invention discloses a circulating current suppression method for a cascade parallel high-voltage frequency converter. The method comprises the following steps of sampling and calculating an actual output voltage value and an actual output current value of each phase; calculating difference values between a given voltage value and the actual voltage values, and performing proportional-integral regulation to obtain current regulating variables of cascade branch circuits; calculating an average value of the actual current value of the cascade branch circuit of each phase, calculating difference values between the average value and the actual current values, and performing proportional-integral regulation to obtain offset regulating variables of modulated waves of x cascade branch circuits; adding the offset regulating variables to sinusoidal modulated waves to generate modulated waves required by the cascade branch circuits respectively; comparing the modulated waves with preset carriers in power units in parallel branch circuits to generate PWM (pulse width modulation) triggering signals of the power units respectively. According to the method, a voltage and current dual-closed loop control mode is adopted for controlling circulating current generated between the parallel cascade branch circuits, so that the aim of balancing the current of the parallel cascade branch circuits is fulfilled, and the circulating current in the parallel cascade branch circuits is eliminated.
+27. 103675539 Cascaded energy storage converter detecting platform and control method thereof
+CN
+26.03.2014
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201310637043.6
+GUANGZHOU ZHIGUANG ELECTRIC CO., LTD.
+XU XIANCHANG
+G01R 31/00
+Loading...
+The invention relates to a cascaded energy storage converter detecting platform and a control method thereof. Operating characteristics of a battery pack and remote regulating instructions issued by a power grid dispatching system are simulated to enable a cascaded energy storage converter to have external conditions needed for operation, and debugging and detection can be completed without using the battery pack. The detection platform comprises a main controller, a multi-secondary-side winding transformer and a plurality of PWM (pulse-width modulation) rectifiers. The main controller is used for sending active and reactive instructions to a controller with the detected cascaded energy storage converter so as to simulate changes of active and reactive power absorbed by the cascaded energy storage converter from a power grid. The multi-secondary-side winding transformer supplies power to the PWM rectifiers through multiple independent secondary-side windings on a low-voltage side. The PWM rectifiers are used for simulating the operating characteristics of the battery pack. The main controller is connected with a high-voltage side of the multi-secondary-side winding transformer, the secondary-side windings are in one-to-one-correspondence to alternating-current sides of the PWM rectifiers, and direct-current sides of the PWM rectifiers are connected with direct-current sides of power modules of the cascaded energy storage converter.
+28. 203457098 高压变频调速系统的充电电路
+CN
+26.02.2014
+H02P 27/06 Loading...
+H02P 27/06
+Loading...
+201320524454.X
+广州智光电气股份有限公司
+孙开发
+H02P 27/06
+Loading...
+本实用新型公开了一种高压变频调速系统的充电电路，包括电网、高压变频调速系统，高压变频调速系统一次侧包括三个相，三个相分别与电网电气连接，还包括第一电阻、第二电阻、第一开关、第二开关，第一电阻与第一开关相并联，第二电阻与第二开关相并联，变压器一次侧的三个相中有一个相与电网通过导线连接，第一电阻、第二电阻分别设置在高压变频调速系统一次侧的三个相中剩余两个相与电网之间。在接通高压电之前，断开第一开关和第二开关，接通高压电后，第一电阻、第二电阻起到限流作用，减小了预充电电流，保证了设备的安全，同时，本实用新型的高压变频调速系统体积更小，需要的预充电电路更加简单。
+29. 203457041 级联型高压变频器预充电电路
+CN
+26.02.2014
+H02M 1/36 Loading...
+H02M 1/36
+Loading...
+201320524434.2
+广州智光电气股份有限公司
+邱培春
+H02M 1/36
+Loading...
+本实用新型公开了一种级联型高压变频器预充电电路，包括电网、变压器，变压器一次侧包括三个相，三个相分别与电网电气连接，还包括电阻、第一开关、第二开关，电阻与第一开关相并联，变压器一次侧的三个相中有一个相与电网通过导线连接，电阻和第二开关分别设置在变压器一次侧的三个相中剩余两个相与电网之间。在接通高压电之前，断开第一开关和第二开关，接通高压电后，级联型高压变频器中与电网相连的两相给级联型高压变频器预充电，电阻起到限流作用，减小了预充电电流，保证了设备的安全，同时，相对于一般的变频器而言，本实用新型的级联型高压变频器体积更小，需要的预充电电路更加简单。
+30. 203352138 高压变频移相整流变压器超温保护装置
+CN
+18.12.2013
+H02H 7/04 Loading...
+H02H 7/04
+Loading...
+201320423395.7
+广州智光电气股份有限公司
+高义
+H02H 7/04
+Loading...
+本实用新型公开了一种高压变频移相整流变压器超温保护装置，包括被保护移相整流变压器的阀侧绕组、温度继电器、隔离变压器以及电压继电器，所述阀侧绕组的电源绕组、温度继电器和隔离变压器的一次绕组串联构成主回路，所述隔离变压器的二次绕组与电压继电器连接构成辅助二次回路；所述温度继电器与阀侧绕组电位一致或相近，所述隔离变压器为采用较低工作电压与较高隔离电压的电子变压器。本实用新型的超温保护装置采用了电磁机械原理，无需整流、光电转换、无线电发送、红外感知等环节，并通过隔离变压器进行了电气隔离，使得辅助二次回路无高压，具有结构简单、感温准确、动作迅速、安全可靠等优点。
+31. 103441663 Cascade type high-voltage inverter pre-charging circuit and control method thereof
+CN
+11.12.2013
+H02M 1/36 Loading...
+H02M 1/36
+Loading...
+201310377417.5
+广州智光电气股份有限公司
+邱培春
+H02M 1/36
+Loading...
+The invention discloses a cascade type high-voltage inverter pre-charging circuit and a control method of the cascade type high-voltage inverter pre-charging circuit. The cascade type high-voltage inverter pre-charging circuit comprises a power grid and a transformer, the transformer primary side comprises three phases, the three phases are respectively and electrically connected with the power grid, the cascade type high-voltage inverter pre-charging circuit further comprises a resistor, a first switch and a second switch, the resistor is connected with the first switch in parallel, one of the three phases of the transformer primary side is connected with the power grid through a wire, and the resistor and the second switch are arranged between the other two of the three phases of the transformer primary side and the power grid respectively. Before the high-voltage power is connected, the first switch and the second switch are turned off. After the high-voltage power is connected, pre-charging is carried out on a cascade type high-voltage inverter through the two phases, connected with the power grid, of the cascade type high-voltage inverter, the resistor has the current limiting function, and the safety of equipment is guaranteed. Meanwhile, compared with a general inverter, the cascade type high-voltage inverter is small in size and requires a simple pre-charging circuit.
+32. 203242471 变流变压器的阀侧绕组出线结构
+CN
+16.10.2013
+H01F 27/28 Loading...
+H01F 27/28
+Loading...
+201320117913.2
+广州智光电气股份有限公司
+龙清华
+H01F 27/28
+Loading...
+本实用新型涉及变流变压器的阀侧绕组出线结构，其每一组阀侧绕组由三个线圈排列构成，三个线圈的中轴线所在的平面为中心平面，每一组阀侧绕组的中心平面的两侧均具有出线头，所述出线头包括线圈的首头、中间抽头和尾头。本实用新型具有 电气安全性和运行可靠性好的优点。
+33. 203164019 变压器油中气体在线监测装置的油路气体排空系统
+CN
+28.08.2013
+G01N 1/10 Loading...
+G01N 1/10
+Loading...
+201320115066.6
+上海智光电力技术有限公司
+刘勇
+G01N 1/10
+Loading...
+本实用新型涉及变压器油中气体在线监测装置的油路气体排空系统，其包括第一法兰、油泵、第一三通电磁阀、第二三通电磁阀、第二法兰以及控制器。所述第一法兰上开设有第一法兰排气孔，所述第一法兰排气孔密封连接一第一法兰排气螺栓；所述第二法兰上开设有第二法兰排气孔，所述第二法兰排气孔密封连接一第二法兰排气螺栓。本实用新型的优点：（1）可以在变压器带电情况下进行油路排空操作，不影响变压器运行；（2）能彻底排空油路中的气体，不留“死角”，操作过程中不污染变压器油。
+34. 103245529 变压器油中气体在线监测装置的油路气体排空系统及方法
+CN
+14.08.2013
+G01N 1/10 Loading...
+G01N 1/10
+Loading...
+201310080632.9
+上海智光电力技术有限公司
+刘勇
+G01N 1/10
+Loading...
+本发明涉及变压器油中气体在线监测装置的油路气体排空系统及方法。该油路气体排空系统其包括第一法兰、油泵、第一三通电磁阀、第二三通电磁阀、第二法兰以及控制器。所述第一法兰上开设有第一法兰排气孔，所述第一法兰排气孔密封连接一第一法兰排气螺栓；所述第二法兰上开设有第二法兰排气孔，所述第二法兰排气孔密封连接一第二法兰排气螺栓。本发明的优点：（1）可以在变压器带电情况下进行油路排空操作，不影响变压器运行；（2）能彻底排空油路中的气体，不留“死角”，操作过程中不污染变压器油。
+35. 202693701 一种功率单元体检测平台
+CN
+23.01.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201220300328.1
+广州智光电气股份有限公司
+石磊
+G01R 31/00
+Loading...
+本实用新型涉及一种功率单元体检测平台，其包括整流电路、升压电路、电压传感器、电流传感器、电抗器、显示屏和主控制器；整流电路的交流侧与电网相连，直流侧与升压电路的输入侧相连；升压电路的输出侧与待检测功率单元体的直流侧相连；电压传感器的原边与升压电路的输出侧相连；电流传感器的原边和电抗器串联后与待检测功率单元体的交流侧相连；主控制器通过光纤与待检测功率单元体相连；主控制器通过屏蔽双绞线与升压电路的调控端相连；电压传感器的副边、电流传感器的副边分别通过屏蔽电缆与主控制器相连；主控制器通过通讯接口与显示屏相连。本实用新型有效降低功率单元体返厂维修率，节约了运输成本，加快了故障排查的速度。
+36. 202694110 主抽风机综合监控系统
+CN
+23.01.2013
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201220284509.X
+广州智光电机有限公司
+刘卫军
+G05B 19/418
+Loading...
+本实用新型公开了一种主抽风机综合监控系统，包括一个监控后台、一个可编程控制器和多组参数采集单元，其中所述可编程控制器分别与监控后台和多组参数采集单元连接；所述参数采集单元设置在风机、电机、高压变频器、励磁柜、油箱、水冷柜或冷却塔上。本实用新型能实现对两台主抽风机系统的运行状态监视、报警提示、故障停机保护、故障自动修复运行、现场设备的远程控制操作，操作直观方便，监控实时有效，分析准确，诊断、维护方便。
+37. 202651781 中性点联合接地成套装置
+CN
+02.01.2013
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+201220330799.7
+广东电网公司中山供电局
+蔡永智
+H02H 9/08
+Loading...
+本实用新型提出中性点联合接地成套装置，包括：接地变压器、电压互感器、消弧线圈、电流互感器、电阻、单相高压开关、智能控制装置；其中，接地变压器的高压绕组中性点连接消弧线圈的高压绕组一端；消弧线圈高压绕组的另一端串联电流互感器后直接接地；电阻与单相高压开关串联连接后，并联在消弧线圈两端；电压互感器的原边与接地变压器的高压绕组中性点连接；电压互感器的副边接地端与地连接；电压互感器的副边输出端和电流互感器的二次绕组输出端，分别与智能控制装置的模拟信号输入端连接；智能控制装置的控制信号输出端，与消弧线圈及单相高压开关的控制输入端连接。使用本实用新型，可以提高系统供电的安全性和可靠性。
+38. 202206344 基于高压电机控制和无功补偿的综合控制系统
+CN
+25.04.2012
+H02P 27/08 Loading...
+H02P 27/08
+Loading...
+201120268276.X
+广州智光电气股份有限公司
+孙开发
+H02P 27/08
+Loading...
+本实用新型公开了一种基于高压电机控制和无功补偿的综合控制系统，所述系统包括：三相变压器、功率单元、电压互感器、隔离变压器、电流互感器、主控制器、每个功率单元包含一个功率单元控制器。本实用新型提供的基于高压电机控制和无功补偿的综合控制系统，既能进行高压电机控制，又可进行无功补偿，从而极大地提高节能效果，降低系统成本，实现最优化的节能目标。
+39. 202206326 一种级联型光伏并网逆变器
+CN
+25.04.2012
+H02M 7/48 Loading...
+H02M 7/48
+Loading...
+201120293708.2
+广州智光电气股份有限公司
+孙开发
+H02M 7/48
+Loading...
+本实用新型公开了一种级联型光伏并网逆变器，具有电压等级高、功率等级大、电能质量好等优点，可以直接高压并网，不需要变压器，节省了成本和占地面积。其逆变器包括光伏阵列和若干个级联的单元体；所述光伏阵列包括若干个光伏单元，每个光伏单元均与一个单元体的输入侧连接；每个单元体均是一个单级式单相光伏并网逆变器。所述单级式单相光伏并网逆变器包括直流母线电容和H桥逆变电路；直流母线电容并联在单级式单相光伏并网逆变器的输入端；H桥逆变电路与直流母线电容并联。
+40. 102420564 高压变频器智能旁路系统
+CN
+18.04.2012
+H02P 27/00 Loading...
+H02P 27/00
+Loading...
+201110430986.2
+广州智光电机有限公司
+姜新宇
+H02P 27/00
+Loading...
+本发明公开了一种高压变频器智能旁路系统，包括高压固态软起动器、刀闸一、刀闸二、接触器一、接触器二、接触器三和三相电阻，刀闸一、接触器一、高压固态软起动器、三相电阻和刀闸二依次串联，刀闸一一端连接接触器一，另一端连接高压变频器输入端，刀闸二一端连接三相电阻的一端，另一端连接高压变频器输出端，接触器二一端连接高压变频器输入端，另一端连接高压变频器输出端，接触器三并接在三相电阻两端。旁路处理时，闭合接触器一，闭合接触器三，起动高压固态软起动器并重起电机，闭合接触器二，断开接触器一和接触器三。本发明能使电机稳定、可靠和无扰动地切换到工频电压运行，可有效地解决旁路处理时冲击电流过大的问题。
+41. 102420563 高压变频器智能旁路系统
+CN
+18.04.2012
+H02P 27/00 Loading...
+H02P 27/00
+Loading...
+201110429995.X
+广州智光电机有限公司
+姜新宇
+H02P 27/00
+Loading...
+本发明公开了一种高压变频器智能旁路系统，包括高压固态软起动器、刀闸一、刀闸二、接触器一、接触器二、接触器三和三相电阻，刀闸一、接触器一、高压固态软起动器和刀闸二依次串联，刀闸一另一端连接高压变频器输入端，刀闸二另一端连接高压变频器输出端，接触器二并接在高压变频器两端，三相电阻一端短接在一起，另一端连接接触器三一端，接触器三另一端连接至刀闸二与高压固态软起动器相连接的一端。进行旁路处理时，闭合接触器三，对电机消磁后，断开接触器三，闭合接触器一，起动高压固态软起动器并重起电机后，闭合接触器二，断开接触器一。本发明能使电机稳定可靠地切换到工频电压运行，可解决旁路处理时冲击电流过大问题。
+42. 102353852 高压固态软起动器的相序识别方法和高压固态软起动器
+CN
+15.02.2012
+G01R 29/18 Loading...
+G01R 29/18
+Loading...
+201110247708.3
+广州智光电气股份有限公司
+孙开发
+G01R 29/18
+Loading...
+本发明的高压固态软起动器包括三相阀组、电磁触发电路及传输光纤、电源侧接触器、旁路接触器、三相电压检测电路、三相电流检测电路、电源及信号综合处理电路、控制器及人机界面系统，控制器检测电网三相电压ua、ub和uc，采用软件锁相环控制技术，获得电网电压矢量旋转的角速度ω并识别电网电压的相序。如果电网电压为正序，则正常起动电机；如果电网电压为负序，且允许电机反转，则反向起动电机，并发送告警信息；如果电网电压为负序，且不允许电机反转，则禁止起动电机，并发送告警信息。本发明增强了系统的现场适应能力，增强了系统的安全性。
+43. 202111633 一种光伏并网逆变器
+CN
+11.01.2012
+H02M 7/537 Loading...
+H02M 7/537
+Loading...
+201120046946.3
+广州智光电气股份有限公司
+许贤昶
+H02M 7/537
+Loading...
+本实用新型公开了一种光伏并网逆变器，包括光伏阵列；多个单元体，每个单元体的前级分别连接一所述光伏阵列；三条单元体串联支路；交流电抗器及并网开关；所述单元体串联支路与所述交流电抗器、并网开关串联后汇接到电网中；单元体控制器，每个单元体均包含一个所述单元体控制器；主控制器。本实用新型公开的逆变器，采用单元体串联而非功率器件的直接串联，解决了器件均压的问题；功率等级大，克服了电力电子器件负荷能力的限制；采用单元移相叠波技术，输出谐波小；由于储能电池的作用，当光照突然消失时，不会导致系统突然脱网待机；采用单元体自动旁路技术，提高了系统的安全性。
+44. 102290828 Cascaded photovoltaic grid-connected inverter and control method
+CN
+21.12.2011
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201110231631.0
+Guangzhou Zhiguang Electric Co., Ltd.
+Sun Kaifa
+H02J 3/38
+Loading...
+The invention discloses a cascaded photovoltaic grid-connected inverter and a control method. The cascaded photovoltaic grid-connected inverter has the advantages of high voltage level, high power level, high power quality and the like, and can realize direct high voltage grid connection without any transformer to save cost and an occupied area. The inverter comprises a photovoltaic array and a plurality of cascaded unit bodies. The photovoltaic array comprises a plurality of photovoltaic units of which each is connected with the input side of a corresponding unit body. Each unit body is a single-stage single-phase photovoltaic grid-connected inverter which comprises a DC bus capacitor and an H bridge inverter circuit, wherein the DC bus capacitor is connected in parallel to the input end of the single-stage single-phase photovoltaic grid-connected inverter; and the H bridge inverter circuit is connected in parallel with the DC bus capacitor.
+45. 202085175 一种通讯管理机主备机无缝切换的装置
+CN
+21.12.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201020662318.3
+广州智光电气股份有限公司
+韩文
+H04L 12/24
+Loading...
+本实用新型提供一种通讯管理机主备机无缝切换的装置，该装置包括通讯管理机主机和通讯管理机备机，所述通讯管理机主机与通讯管理机备机通过主备通讯链路相互连接，所述通讯管理机主机和通讯管理机备机结构相同，均包括若干个物理通信接口、报文收发缓存区单元、实时数据库单元。本实用新型通过通讯管理机主备机无缝切换，确保通讯管理机备机时刻在模拟主机的工作状态，使主备机工作状态保持一致，且主机只要将当前上行或者下行通讯媒体链路上接收到的信息传送给备机，数据量小，传送实时好，能达到通讯管理机主备机无缝切换的目的，对确保重要监控场合系统的通讯可靠性和连续性具有重要的意义。
+46. 102255603 Comprehensive control system and method based on high voltage motor control and reactive power compensation
+CN
+23.11.2011
+H02P 27/08 Loading...
+H02P 27/08
+Loading...
+201110211602.8
+Guangdong Zhiguang Electric Co.,Ltd.
+Sun Kaifa
+H02P 27/08
+Loading...
+The invention discloses a comprehensive control system based on high voltage motor control and reactive power compensation. The system comprises a three-phase transformer, power units, a voltage transformer, an isolating transformer, a current transformer and a master control unit, wherein each power unit comprises a power unit controller. Correspondingly, the invention also discloses a comprehensive control method based on the high voltage motor control and the reactive power compensation. By the comprehensive control system and the comprehensive control method based on the high voltage motor control and the reactive power compensation, both the high voltage motor control and the reactive power compensation can be performed, thereby greatly bettering energy saving effects, reducing system cost and fulfilling an optimal energy saving aim.
+47. 202034929 一种高压双变频带动双电机软起动的控制装置
+CN
+09.11.2011
+H02P 1/58 Loading...
+H02P 1/58
+Loading...
+201120109945.9
+广州智光电气股份有限公司
+许贤昶
+H02P 1/58
+Loading...
+本实用新型公开了一种高压双变频带动双电机软起的控制装置，包括两台高压变频器、两台电机、若干接触器和一个控制器；每台电机与高压母线之间均连接一个接触器；每台电机与每台高压变频器之间均连接一个接触器；每个接触器与控制器连接，每个接触器的通断状态受控于控制器。通过PLC控制器、接触器控制两台高压变频器与两台电机之间的连接方式在接通和断开两种连接方式之间切换，即可根据实际情况灵活调整两台电机的控制方式；在两台高压变频器都正常工作的情况下，可以采用两台高压变频器分别带动两台电机同时软起动且变频运行的方式。
+48. 202004702 一种兼顾无功补偿的电机软启动装置
+CN
+05.10.2011
+H02P 1/28 Loading...
+H02P 1/28
+Loading...
+201120006368.0
+广州智光电气股份有限公司
+许贤昶
+H02P 1/28
+Loading...
+本实用新型公开了一种兼顾无功补偿的电机软启动装置，该装置包括功率变换器、切换开关和主控制器，切换开关包括电网侧开关、电机侧开关和并网开关；功率变换器包括三相移相变压器、若干个整流模块和逆变模块、交流电抗器，三相移相变压器的原边绕组通过电网侧切换开关与电网相连，副边绕组与同级的整流模块相连，整流模块与逆变模块相连，同相的逆变模块依次串联后与交流电抗器相连，交流电抗器通过电机与电网相连；主控制器分别与安装在三相移相变压器原边和交流电抗器的电压互感器和电流互感器相连，经过光纤与逆变模块相连。本实用新型可实现电机的软启动，且可根据电机的工况动态补偿无功功率。
+49. 102175957 Online insulation monitoring system
+CN
+07.09.2011
+G01R 31/12 Loading...
+G01R 31/12
+Loading...
+201110044812.2
+Shanghai Longyuan Zhiguang Electric Co., Ltd.
+Liu Yong
+G01R 31/12
+Loading...
+The invention discloses an online insulation monitoring system. A station-end information management unit transmits a collection command; a sensor collects data after receiving the collection command to synchronously start the collection of current and voltage signals; and the wirings between the sensor and an apparatus to be monitored are simplified without changing the grounding connection state of the apparatus to be monitored by separating the sensor from an in-situ data processing unit and mounting the sensor close to the apparatus to be monitored. Meanwhile, an optical fiber is used for substituting for the conventional cable to achieve the signal transmission among systems at low noise. Accordingly, the online insulation monitoring system is suitable for long-distance signal transmission in the environment of strong electric field and strong magnetic field of substations.
+50. 201955412 绝缘在线监测系统
+CN
+31.08.2011
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201120041066.7
+上海龙源智光电力技术有限公司
+刘勇
+G01R 31/00
+Loading...
+本实用新型公开了一种绝缘在线监测系统，采用站端信息管理单元发送采集命令，传感器接到采集命令后进行数据采集，实现了电流和电压信号采集的同步启动，又由于将传感器从就地数据处理单元分离出来，安装在待监测设备附近，简化了传感器与待监测设备间的接线，且不会改变待监测设备的接地连接状态，同时，采用光纤代替传统的电缆来完成系统间信号的传输，实现了信号的低噪声传送，适于变电站强电场与强磁场环境下信号远距离的传输。
+51. 102111080 Photovoltaic grid-connected inverter and control method
+CN
+29.06.2011
+H02M 7/42 Loading...
+H02M 7/42
+Loading...
+201110044943.0
+Guangdong Zhiguang Electric Co.,Ltd.
+Xu Xianchang
+H02M 7/42
+Loading...
+The invention discloses a photovoltaic grid-connected inverter. The photovoltaic grid-connected inverter comprises a photovoltaic array, a plurality of unit bodies, three unit body series branches, an alternating current reactor, a grid-connected switch, unit body controllers and a master controller, wherein the preceding stage of each unit body is respectively connected with the photovoltaic array; the unit body series branches are connected into a power grid after being connected with the alternating current reactor and the grid-connected switch in series; and each unit body comprises one of the unit body controllers. The invention also discloses a photovoltaic grid-connected inverter control method. In the inverter and the control method disclosed by the invention, the unit bodies are connected in series instead of directly connecting power devices in series, so that the problem of voltage-sharing of devices are solved; the power level is high; the limitation of load capacity of power electronic devices is overcome; a unit phase shift wave overlapping technology is adopted, so that an output harmonic wave is small; because of the action of an energy storage battery, when illumination disappears suddenly, a system cannot be off-grid and standby suddenly; and because of adopting a unit body automatic bypass technology, the security of the system is improved.
+52. 201887732 用于晶闸管阀组的触发及在线监测系统
+CN
+29.06.2011
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+201020556512.3
+广州智光电气股份有限公司
+王卫宏
+H03K 3/02
+Loading...
+本实用新型用于晶闸管阀组的触发及在线监测系统，设有若干个相串联的晶闸管组件，其特征在于，包括逻辑控制电路，以及分别与逻辑控制电路连接的接收和发送回路、门极触发电路以及晶闸管状态监测电路；所述逻辑控制电路通过门极触发电路产生触发脉冲触发晶闸管；所述接收和发送回路用于传输晶闸管阀组触发信号、晶闸管状态信号；所述晶闸管状态监测电路用于监测晶闸管的状态，并提供晶闸管状态信号给逻辑控制电路。该系统能够为晶闸管阀组提供一致性强脉冲触发，能够对晶闸管阀组上的每只晶闸管的状态进行监测。
+53. 201887549 用于断路器监控的智能组件装置
+CN
+29.06.2011
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+201020617302.0
+广州智光电气股份有限公司
+赵正军
+H02J 13/00
+Loading...
+本实用新型提供一种用于断路器监控的智能组件装置，包括：断路器监测单元一、断路器监测单元二、断路器保护单元以及合并单元；断路器监测单元一、断路器监测单元二以及断路器保护单元分别与合并单元相连接。本实用新型能解决现有技术无法给断路器提供全面的监控和保护的问题，应用灵活，可根据需求任意裁剪，极大地方便了现场的就地监测单元的扩充和维护；面且在监测断路器的电气参数和动作参数的同时可给断路器提供全面保护，能实时监测断路器的工作状态，为断路器提供完备的保护，延长断路器的使用寿命，具有极高的市场推广价值。
+54. 201886077 带有时标电能并具有通讯功能的电力损耗测量装置
+CN
+29.06.2011
+G01R 21/06 Loading...
+G01R 21/06
+Loading...
+201020631646.7
+广州智光电气股份有限公司
+闻成胜
+G01R 21/06
+Loading...
+本实用新型公开一种带有时标电能并具有通讯功能的电力损耗测量装置，包括至少2个设于待测电路上的测量单元和上位机，各测量单元分别与上位机连接；各测量单元内部包括通讯模块、主控模块、电源模块、人机交互模块、时间模块和信号采集模块，信号采集模块的输入端与电路的测量点连接，信号采集模块的输出端、时间模块的输出端、人机交互模块和通讯模块分别与主控模块连接，主控模块还与电源模块连接，通讯模块还与上位机连接。本电力损耗测量装置原理简单明了，使用方便，通过该装置测量得到的不是线路、变压器或其它设备的损耗瞬时值，而是某段时间内的电力损耗值，有效避免了在测试时时间不一致造成的测量的错误结果。
+55. 102064749 Motor soft startup device capable of giving consideration to reactive power compensation and control method thereof
+CN
+18.05.2011
+H02P 1/28 Loading...
+H02P 1/28
+Loading...
+201110004360.5
+Guangzhou Zhiguang Electric Holdings Co., Ltd.
+Xu Xianchang
+H02P 1/28
+Loading...
+The invention discloses a motor soft startup device capable of giving consideration to reactive power compensation and a control method thereof. The device comprises a power inverter, a selector switch and a master controller, wherein the selector switch comprises a power grid side switch, a motor side switch and a synchronization switch; the power inverter comprises a three-phase phase shift transformer, a plurality of rectifier modules, a plurality of inverter modules and an alternating current reactor, wherein a primary winding of the three-phase phase shift transformer is connected with a power grid by the power grid side selector switch; a secondary winding of the three-phase phase shift transformer is connected with the rectifier modules of the same level; the rectifier modules are connected with the inverter modules; after being successively connected in series, the inverter modules of same phase are connected with the alternating current reactor connected with the power grid by the motor; and the master controller is respectively connected with a voltage transformer and a current transformer installed on the primary winding of the three-phase phase shift transformer and the alternating current reactor and is connected with the inverter module via an optical fiber. The invention also discloses a control method based on the motor soft startup device. The invention can realize the soft startup of the motor, and can dynamically compensate reactive power according to the working condition of the motor.
+56. 102055307 Trigger and online monitoring system for thyristor valve group
+CN
+11.05.2011
+H02M 1/092 Loading...
+H02M 1/092
+Loading...
+201010503109.9
+Guangzhou Zhiguang Electric Co., Ltd.
+Wang Weihong
+H02M 1/092
+Loading...
+The invention relates to a trigger and online monitoring system for a thyristor valve group, which is provided with a plurality of thyristor assemblies connected in series. The trigger and online monitoring system for a thyristor valve group is characterized by comprising a logic control circuit, a receiving and transmitting loop, a gate electrode trigger circuit and a thyristor state monitoring circuit, wherein the receiving and transmitting loop, the gate electrode trigger circuit and the thyristor state monitoring circuit are respectively connected with the logic control circuit; the logic control circuit generates a trigger impulse by the gate electrode trigger circuit to trigger a thyristor; the receiving and transmitting loop is used for transmitting a thyristor valve group trigger signal and a thyristor state signal; and the thyristor state monitoring circuit is used for monitoring the state of the thyristor and providing the thyristor state signal to the logic control circuit. The system can provide high-consistency pulse trigger for the thyristor valve group and monitor the state of each thyristor in the thyristor valve group.
+57. 201820571 一种电抗器
+CN
+04.05.2011
+H01F 17/02 Loading...
+H01F 17/02
+Loading...
+201020243755.1
+广州智光电气股份有限公司
+姜新宇
+H01F 17/02
+Loading...
+本实用新型提供一种电抗器，包括两个空心的线圈绕组和支架，所述支架包括导磁的上夹板和下夹板，所述两个线圈绕组相邻地并排夹持在所述上夹板和所述下夹板之间，经过两个所述线圈绕组的电流的环绕方向相反。本实用新型提供的电抗器具有两个并排的线圈绕组，并且经过两个所述线圈绕组的电流的环绕方向相反，两个所述线圈绕组产生的磁通基本上互相抵消，因此对所述电抗器周围的电磁环境影响较小，并且具有结构简单，体积小，伏安特性较好的优点。
+58. 201820100 电力测控系统
+CN
+04.05.2011
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201020539187.X
+广州智光电气股份有限公司
+韩文
+G05B 19/04
+Loading...
+本实用新型公开了一种电力测控系统，包括测量模块、控制模块及执行模块，控制模块同时与测量模块及执行模块电气连接；控制模块包括两个数字信号处理芯片及现场可编程芯片，两个数字信号处理芯片的地址总线、数据总线、控制总线，复位及中断信号线均与现场可编程芯片电气连接。本实用新型的响应速度快、可用于高速数据采集和复杂的逻辑控制。
+59. 201796109 一种数字化单相接地故障选线装置
+CN
+13.04.2011
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+201020539966.X
+广州智光电气股份有限公司
+姜新宇
+G01R 31/08
+Loading...
+本实用新型为一种数字化单相接地故障选线的装置，包括：数字化自动选线装置，装设在系统中性点的、在收到数字化自动选线装置发出的扰动命令后对系统零序回路发出扰动的扰动源，对扰动前后零序回路电流进行采样、并对原始数据进行合并和处理、实现同步采样的数据采集单元；所述数据采集单元、数字化自动选线装置及扰动源依次连接；所述数据采集单元包括若干个零序电流测量装置和至少一个合并器，每个零序电流测量装置都分别与合并器连接，合并器与数字化自动选线装置连接。本实用新型原理简单，不需要考虑零序电流方向，与零序电流互感器的极性无关，不需要提取或分离谐波，仅以零序电流的相对变化量作为确定接地故障线路的判据。
+60. 201788058 检测密闭水冷高压晶闸管阀组冷却水泄漏的装置
+CN
+06.04.2011
+G01M 3/02 Loading...
+G01M 3/02
+Loading...
+201020508735.2
+广州智光电气股份有限公司
+王卫宏
+G01M 3/02
+Loading...
+本实用新型为检测密闭水冷高压晶闸管阀组冷却水泄漏的装置，包括传感器、接水盘、排水管、光纤发送装置以及检测处理器；所述接水盘安装在阀组底座上、水冷管路下方；接水盘的底面为倾斜面，排水管安装在接水盘的一端且位于所述倾斜面的最低端，排水管的出口处安装传感器；传感器、检测处理器及光纤发送装置依次电信号连接；检测处理器将传感器输出的检测信号转换为电平信号，然后对电平信号进行编码，最后以光信号的形式通过光纤发送装置传输出去。本实用新型解决了高压带电运行设备冷却系统漏水检测的问题。
+61. 201788794 大功率脉冲变压器
+CN
+06.04.2011
+H01F 27/24 Loading...
+H01F 27/24
+Loading...
+201020539177.6
+广州智光电气股份有限公司
+王卫宏
+H01F 27/24
+Loading...
+本实用新型公开了一种大功率脉冲变压器，包括铁芯、一次侧线圈及二次侧线圈，所述铁芯为环形的非晶合金铁芯，所述二次侧线圈为两个，一次侧线圈缠绕于环形铁芯的第一侧，两个二次侧线圈分别缠绕于环形线圈的第二侧，一次侧线圈与两个二次侧线圈之间、两个二次侧线圈之间均设有隔离结构体。本实用新型触发功率大，结构简单。
+62. 101997727 Device for seamless switching of host and standby of communication management machine and method thereof
+CN
+30.03.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010590670.5
+Guangzhou Zhiguang Electric Co., Ltd.
+Han Wen
+H04L 12/24
+Loading...
+The invention provides a device for seamless switching of a host and a standby of a communication management machine. The device comprises the host and the standby of the communication management machine. The communication management machine comprises a plurality of physical communication interfaces, a communication media equipment management unit, a message transceiving cache region unit, a downlink communication media protocol processing unit, a real-time database unit and an uplink communication media protocol processing unit. The invention further provides a method for seamless switching of the host and the standby of the communication management machine. By the seamless switching of the host and the standby of the communication management machine, the standby of the communication management machine is under working status of the analog host so as to keep the working status of the host and the standby in the same pace. In addition, the host only sends the information received on the existing uplink or downlink communication media link to the standby, so the data volume is small, realtime transmission can be realized, the purpose of seamless switching of the host and the standby of the communication management machine is achieved, and the invention has the great significance for communication reliability and continuity of the important monitoring occasion system.
+63. 101968989 High power pulse transformer
+CN
+09.02.2011
+H01F 27/24 Loading...
+H01F 27/24
+Loading...
+201010289394.9
+Guangzhou Zhiguang Electric Co., Ltd.
+Wang Weihong
+H01F 27/24
+Loading...
+The invention discloses a high power pulse transformer which comprises an iron core, a primary side coil and two secondary side coils. The iron core is an annular amorphous alloy iron core, the primary side coil is wound at the first side of the annular iron core, the two secondary side coils are respectively wound at the second side of the annular coil, and isolation structures are arranged between the primary side coil and the two secondary side coils and between the two secondary side coils. The invention has the advantages of high triggering power and simple structure.
+64. 201733081 单相接地故障选线的装置
+CN
+02.02.2011
+H02H 7/26 Loading...
+H02H 7/26
+Loading...
+201020230148.1
+广州智光电气股份有限公司
+姜新宇
+H02H 7/26
+Loading...
+本实用新型提供单相接地故障选线的装置，包括自动选线装置，装设在系统中性点的、在收到自动选线装置发出的扰动命令后对系统零序回路发出扰动的扰动源，以及装设于各线路上的、与自动选线装置连接的、用于对扰动后零序回路电流进行采样的零序电流互感器。本实用新型不受系统电容电流大小、接地类型等因数的限制，能可靠、准确的选出接地故障线路。
+65. 201674405 具有四象限运行功能的高压变频器
+CN
+15.12.2010
+H02M 5/458 Loading...
+H02M 5/458
+Loading...
+201020181433.9
+广州智光电气股份有限公司
+孙开发
+H02M 5/458
+Loading...
+本实用新型公开了具有四象限运行功能的高压变频器，包括依次连接的三相移相变压器、若干功率单元，还包括与各功率单元连接的主控制系统；三相移相变压器的原边安装电压互感器或者增设辅助绕组，电压互感器或辅助绕组的输出与隔离变压器的原边相连；电压互感器或者辅助绕组与各功率单元之间设有至少一个隔离变压器。本实用新型使得高压变频器能够取消功率单元输入侧的交流电抗器，并且保证系统能够取得良好的控制效果，对于高压变频器优化成本，缩小体积和减轻重量有显著作用。
+66. 101882498 Reactor
+CN
+10.11.2010
+H01F 17/02 Loading...
+H01F 17/02
+Loading...
+201010214639.1
+Guangzhou Zhiguang Electric Co., Ltd.
+Jiang Xinyu
+H01F 17/02
+Loading...
+The invention provides a reactor which comprises two hollow coil windings and a support; the support comprises an upper splint and a lower splint; the upper splint and the lower splint are made of magnetic conducting material; the two coil windings are clamped between the upper splint and the lower splint in parallel; and the surrounding directions of current passing through the two coil windings are opposite to each other. Because the reactor is provided with the two coil windings and the surrounding directions of the current passing through the two coil windings are opposite to each other, the magnetic flux produced by the two coil windings is basically and mutually canceled, so that the impact on the electromagnetic environment around the reactor is smaller, and the reactor has the advantages of simple structure, small size and better voltage characteristics.
+67. 101865967 Device for single-phase earth fault line selection and method thereof
+CN
+20.10.2010
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+201010203357.1
+Guangzhou Zhiguang Electric Co., Ltd.
+Jiang Xinyu
+G01R 31/08
+Loading...
+The invention provides a method for single-phase earth fault line selection and a method thereof. The device comprises an automatic line selection device, a disturbance source and a zero sequence current transformer, wherein the disturbance source is arranged on a system neutral point and transmits the disturbance to a zero sequence circuit of the system after receiving a disturbance command transmitted by the automatic line selection device; and the zero sequence current transformer is arranged on each line, is connected with the automatic line selection device and is used for sampling the disturbed zero sequence circuit current. The invention is not limited by the magnitude of the system capacitance current, earth types and other factors and can be used for reliably and accurately selecting an earth fault line.
+68. 101833037 Device and method for detecting input voltage phase of power unit of high voltage frequency converter
+CN
+15.09.2010
+G01R 25/00 Loading...
+G01R 25/00
+Loading...
+201010163418.6
+Guangzhou Zhiguang Electric Holdings Co., Ltd.
+Shi Lei
+G01R 25/00
+Loading...
+The invention relates to a device and a method for the detecting input voltage phase of a power unit connected with a multi-level high voltage frequency converter in series, and solves the problem that the input end voltage phase of the power unit is difficult to detect accurately in the prior art. The method comprises the following steps: at the primary side of a phase-shifting transformer, the input voltage of the high voltage frequency converter is measured by adopting a voltage transformer; a measure signal passes through an isolation transformer and then is changed into a low-voltage sinusoidal signal and then is conveyed to the power units; the synchronous rectification circuit of the power unit rectifies the input low-voltage sinusoidal signal, outputs voltage waveform only with positive half-wave, and outputs a square signal with the same phase as the primary side voltage of the phase-shifting transformer to a phase-locked loop after passing through an over-zero comparing unit; the phase-locked loop locks and outputs the phase of the primary side voltage of the phase-shifting transformer; and the control chip of the power unit receives the phase of the high-pressure side voltage, and figures out the phase of the input voltage of the power unit according to the phase relation between the primary side voltage and the secondary side voltage of the phase-shifting transformer.
+69. 201550028 一种无谐波污染大功率的直接电加热中频电源
+CN
+11.08.2010
+H02M 5/44 Loading...
+H02M 5/44
+Loading...
+200920237448.X
+广州智光电气股份有限公司
+王卫宏
+H02M 5/44
+Loading...
+本实用新型公开了一种无谐波污染大功率的直接电加热中频电源，包括依次电连接的移相整流变压器、电压变换单元、输出中频变压器，以及控制系统；所述电压变换单元设有若干个，若干个电压变换单元的输出电压依次串联后输出至输出中频变压器；所述移相整流变压器原边与输入电源连接，并设有若干个副边绕组；所述控制系统分别与输入电源、电压变换单元、输出中频变压器连接。本实用新型使得直接输入的三相电流平衡并且谐波满足国家电网电压质量标准、功率因数高，输出变压器体积小于工频电源的变压器体积。
+70. 201506271 一种电力机车牵引同相供电装置
+CN
+16.06.2010
+B60M 3/00 Loading...
+B60M 3/00
+Loading...
+200920194658.5
+广州智光电气股份有限公司
+杨忠民
+B60M 3/00
+Loading...
+本实用新型涉及电力机车牵引同相供电装置，包括设有第一次级绕组、第二次级绕组、第三次级绕组的降压变压器，与降压变压器第一次级绕组、第二次级绕组连接的牵引变压器，连接在降压变压器第三次级绕组与牵引变压器之间的、用于调节降压变压器输出电压相位与幅值的动态有功调节器，以及并联在牵引变压器输出端的滤波器、无功补偿器。本实用新型基于动态有功调节、无功补偿，可实现电气化铁路接触网的联网运行，扩大供电电源容量，使得机车供电电压稳定；动态有功调节及无功补偿消除了对电网的影响，无论对改造还是新建都是较佳的选择方案。
+71. 101662146 Traction inphase power supply device for track electric locomotive
+CN
+03.03.2010
+H02J 3/00 Loading...
+H02J 3/00
+Loading...
+200910041299.4
+Guangzhou Zhiguang Electric Co., Ltd.
+Yang Zhongmin
+H02J 3/00
+Loading...
+The invention relates to a traction inphase power supply device for a track electric locomotive, which comprises a reducing transformer, a traction transformer, a dynamic active regulator, a filter and a reactive compensator. The reducing transformer is provided with a first secondary winding, a second secondary winding and a third secondary winding; the traction transformer is connected with thefirst secondary winding and the second secondary winding of the reducing transformer; the dynamic active regulator is connected between the third secondary winding of the reducing transformer and thetraction transformer and is used for regulating the phase and the amplitude of the output voltage of the reducing transformer; and the filter and the reactive compensator are connected in parallel with the output end of the traction transformer. The invention is based on dynamic active regulation and reactive compensation, realizes networking operation of an electrified railway contact network, enlarges the capacity of the power supply source, and enables the power supply voltage of the locomotive to be stable. The dynamic active regulation and the reactive compensation eliminate the influenceon the grid, and are preferable selection schemes for both transformation and new establishment.
+72. 201344957 高压变频移相或整流变压器负载模拟装置
+CN
+11.11.2009
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200820205100.8
+广州智光电气股份有限公司
+杨忠民
+G01R 31/00
+Loading...
+本实用新型涉及高压变频移相或整流变压器负载模拟装置，其结构特点是：由若干个全波整流电路和可调式高阻抗负载模块连接而成；所述全波整流电路预留交流输入端；1)全部全波整流电路的直流输出端“+”、“－”极串联后与可调式高阻抗负载模块并联，所述可调式高阻抗负载模块由单个可调式高阻抗负载或由i个可调式高阻抗负载串联或并联构成；2)或者每个全波整流电路的直流输出端“+”、“－”极连接一个可调式高阻抗负载模块LB i；i＝1，2，3，……n；3)n＝3，4，5，6，7，8，9，10或者10以上的自然数。本实用新型可为大容量变压器准确实施负载试验，甚至温升试验。
+73. 101441241 High-pressure frequency conversion phase shift or rectifier transformer load simulating device
+CN
+27.05.2009
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200810219892.9
+Guangzhou Zhiguang Electric Co., Ltd.
+Yang Zhongmin
+G01R 31/00
+Loading...
+The invention relates to a high-voltage frequency conversion dephasing or rectiformer load analog device, which has the structural characteristics that, the device is formed by the connection of a plurality of full-wave rectification circuits and an adjustable high-impedance load module; wherein the full-wave rectification circuits reserve alternating current input ends; 1) positive electrodes and negative electrodes of the direct current output ends of the full-wave rectification circuits are connected in series and further connected with the adjustable high-impedance load module in parallel; wherein the adjustable high-impedance load module is formed by a single adjustable high-impedance load or the serial connection or parallel connection of i adjustable high-impedance loads; 2) or the positive electrode and the negative electrode of the alternating current output end of each full-wave rectification circuit are connected with an adjustable high-impedance load module LB i; i is equal to 1, 2, 3, ......n; 3)n is equal to 3, 4, 5, 6, 7, 8, 9, 10 or a natural number larger than 10. The device can implement load test or even temperature rise test for a large-capacity transformer.
+74. 201138751 电力网可控电抗与小电阻复合型接地成套装置
+CN
+22.10.2008
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+200720061273.2
+广州智光电气股份有限公司
+刘味果
+H02H 9/08
+Loading...
+本实用新型涉及电力网可控电抗与小电阻复合型接地成套装置，其特征是：包括接地变压器(1)、可控电抗器(2)、小电阻(3)和控制器(4)；接地变压器(1)的次级绕组连接电力网的中性点PT和通过可控电抗器(2)连接接地点CT，小电阻(3)串联高压开关(5)后与可控电抗器(2)并联；控制器(4)的二个信号输入端分别连接输入端连接中性点PT、接地点CT，控制器(4)的控制信号输出端连接高压开关(5)的控制输入端。本实用新型克服现有电网接地故障的各种类型保护装置的隔离接地线路困难、查找接地线路难度较大的缺陷，可迅速消除故障，无须跳闸，是理想的配电网接地故障保护成套装置。
+75. 101183788 Power network controlled reactance and small resistor combination type earthing device
+CN
+21.05.2008
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+200710032362.9
+Guangzhou Zhiguang Electric Co., Ltd.
+Liu Weiguo
+H02H 9/08
+Loading...
+The invention relates to a complete set of compound grounding devices of the controllable reactor and the small resistor for the power grid. The invention is characterized in that the invention comprises a grounding transformer (1), a controllable reactor (2), a small resistor (3) and a controller (4); the secondary winding of the grounding transformer (1) is connected with the neutral point (PT) of the power grid and connected with the grounding point (CT) through the controllable reactor (2), and the small resistor (3) is connected in series with a high voltage switch (5), and the small resistor (3) and the high voltage switch (5) are connected in parallel with the controlled reactor (2); the two inputs of the controller (4) are connected with PT and CT respectively, and the control signal output of the controller (4) is connected with the control input of the high voltage switch (5). The invention solves the problems that various prior protection devices for the grounding fault of the power grid are very difficult to be grounded in isolation, and the grounding lines are very difficult to be found. The invention implements the fast removal of the fault without tripping, and is an ideal set of grounding fault protection device for the distribution network.
+76. 200996971 负荷控制及多路分时计费电能复合管理系统
+CN
+26.12.2007
+G01R 11/56 Loading...
+G01R 11/56
+Loading...
+200620155301.2
+广州智光电气股份有限公司
+王政
+G01R 11/56
+Loading...
+本实用新型提供一种负荷控制及多路分时计费电能复合管理系统，包括主控模块、数据采集模块、时间模块、抄表模块、执行模块、显示模块、通讯模块、键盘控制模块、电源模块，所述数据采集模块、时间模块、抄表模块、执行模块、显示模块、通讯模块、键盘控制模块与主控模块及电源模块相连接，所述抄表模块与电网中各电表相连接。本系统通过对信号采集模块获得的数据的计算与分析，进行电量测量与控制；结合抄表模块与时间模块，管理多个不具备分时计费功能的电度表，使其具备复费率表的通讯、分时计费、需量统计、负荷切除等功能。本实用新型具有操作简单，使用方便，利于改造，节约成本，经济效益好的特点。
+77. 101000710 Loading control and multi-channel time-shared charge electric energy combined management system and its implementing method
+CN
+18.07.2007
+G08C 19/00 Loading...
+G08C 19/00
+Loading...
+200610132328.4
+Guangzhou Zhiguang Electric Co., Ltd.
+Wang Zheng
+G08C 19/00
+Loading...
+An electric energy management system with load control and multi-path time-division charging function is prepared as connecting data collection module, time module, meter-copying module, execution module, display module, communication module and keyboard control module to master control module and power supply module; and connecting said meter-copying module to each electric meter in electric network. Its managing method is also disclosed.
+78. 1705180 Three-core five-post grounding current automatic tracking and compensation system
+CN
+07.12.2005
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+200410027333.X
+Guangzhou Zhiguang Electric Co., Ltd.
+Jiang Xinyu
+H02H 9/08
+Loading...
+A three-core five-column type grounding current automatic tracking compensation system, which contains three-core five-column transformer, controllable inductive current generator, current detection unit and controller, the three-phase winding is respectively wound on three iron columns, each phase winding containing one primary winding and several secondary winding, the primary winding connected with three phases of main circuit of power network, secondary winding connected with inductive current generator to provide ac low voltage power supply, control input end of inductive current generator connected with output end of controller, the current detection unit set at the grounding end of the primary winding of transformer. Said invention can eliminate grounding arc light to protect electric network equipment.
+79. 2729740 一种新型配电网接地故障检测装置
+CN
+28.09.2005
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+200420093823.5
+广州智光电气有限公司
+梅中健
+G01R 31/08
+Loading...
+本实用新型涉及一种新型配电网接地故障检测装置，其结构特点是：主要包括交流电量采集电路(1)、开关量采集电路(2)、主逻辑控制电路(3)、电源电路(4)、跳闸回路(5)、信号回路(6)、显示及键盘控制回路(7)、通信回路(8)、消弧控制器(9)和控制柜(10)；交流电量采集电路(1)采集系统母线零序电压互感器PTo电压和线路零序电流互感器CTo电流；主逻辑控制电路(3)将接地故障检测装置的动作情况送给跳闸回路(5)、信号回路(6)，实现人机交往。本实用新型适用于6～35kV小电流接地系统，属于线路发生单相金属性、高阻或弧光接地判别故障线路的方法，特别是对于中性点经消弧线圈接地的配电网，选线准确率高。
+80. 2724166 全范围快速可调电抗器
+CN
+07.09.2005
+H01F 27/42 Loading...
+H01F 27/42
+Loading...
+200420045397.8
+广州智光电气有限公司
+陆国庆
+H01F 27/42
+Loading...
+本实用新型涉及全范围快速可调电抗器，其特征是：包括变压器(1)、可控感性电流发生回路(2)和控制电路(5)，变压器(1)包括至少一个二次绕组；变压器(1)的一次绕组接入电网主回路、一个二次绕组连接可控感性电流发生器(2)，可控感性电流发生器(2)由n组可控电感负载支路并联而成，每一组可控电感负载支路由电抗器Xm、可控开关Km串联而成，其中n为常数、其数值范围为1～200，m＝1～n；可控开关Kn由可控硅SCR、IGBT、GTO、IGCT或真空开关构成；控制电路(5)的输出端连接可控感性电流发生回路(2)的控制输入端，控制电路(5)通过调节可控开关Kn的导通角调节电抗器的电抗。本实用新型调节范围宽，调节速度快，调节精度高，使用寿命长。
+81. 2718879 三芯五柱式接地电流自动跟踪补偿系统
+CN
+17.08.2005
+H02H 9/08 Loading...
+H02H 9/08
+Loading...
+200420046193.6
+广州智光电气有限公司
+姜新宇
+H02H 9/08
+Loading...
+本实用新型涉及一种三芯五柱式接地电流自动跟踪补偿系统，其结构特点是：包括三芯五柱变压器2、可控感性电流发生器3、电流检测单元4和控制器5；三芯五柱变压器2的三相绕组分别绕在三个铁芯柱上，每相绕组包括一个一次绕组和若干个二次绕组，一次绕组接入电网主回路的A、B、C三相，二次绕组连接成开口三角形接法后与感性电流发生器3连接或接成曲折形接法后提供站用交流低压电源；感性电流发生器3的控制输入端连接控制器5的输出端；电流检测单元4设置在变压器2的一次绕组接地端。本实用新型可作为一种自动跟踪消弧线圈补偿系统接入配电网，用以补偿配电网发生单相接地时流经接地点的接地电容电流，起到降低接地点故障电流从而消除接地弧光，保护配网设备。
+82. 1465986 Method for testing single phase grounding current of electric power network
+CN
+07.01.2004
+G01R 31/08 Loading...
+G01R 31/08
+Loading...
+02134294.6
+Guangzhou Zhiguang Electric Co., Ltd.
+Jiang Xinyu
+G01R 31/08
+Loading...
+The invention refers to a distribution network single-phase ground current test method, its character: inject at least two different frequency voltage signals into the tested power grid by the special test equipment, respectively test out the current and voltage values of the signal output end of the test equipment and the connection point of the tested power grid at different frequency voltage signals, and according to the frequency and the current and voltage values, use specific relationship to calculate the capacitance relative to the ground and the capacitance's current value.
+

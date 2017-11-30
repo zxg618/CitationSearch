@@ -1,0 +1,241 @@
+1. 106209831 一种网络安全指数计算方法
+CN
+07.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000537518
+瑞达信息安全产业股份有限公司
+刘毅
+H04L 29/06
+Loading...
+本发明公开了一种网络安全指数计算方法，将定性描述网络状态的事件定性量化，先将网络事件定义为异常事件和安全事件，然后通过事件的集合确定网络事件体系中异常事件/安全事件的数量和各事件的风险等级，然后计算事件等级指数，最后根据事件规模指数与事件等级指数计算网络的安全指数，即可得出解释系统平稳性的描述；本发明方法能够将对网络的定性描述转化为定量描述，以反应网络安全状态的基本事实。
+2. 106209826 一种网络安全设备监测的安全事件分析方法
+CN
+07.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000534869
+瑞达信息安全产业股份有限公司
+刘毅
+H04L 29/06
+Loading...
+本发明公开了一种网络安全设备监测的安全事件分析方法，包括如下步骤：根据日志报文中某个关键字，辨别该日志报文是应用日志、系统日志、还是安全日志，将上述日志分成普通事件、异常事件和安全事件，从普通事件的集合中通过异常识别方法寻找出异常事件，从异常事件的集合中通过识别违规操作行为和威胁行为寻找出安全事件；本发明通过识别网络环境中各类设备产生的日志，用事件详细分类解释网络状况，针对所有事件集合，明确地给出了事件的详细分类情况，便于管理人员理解网络中实时发生的事件状态。
+3. 105681300 一种基于地理位置信息的可信网络连接方法
+CN
+15.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610024578.X
+瑞达信息安全产业股份有限公司
+刘毅
+H04L 29/06
+Loading...
+本发明公开了一种基于地理位置信息的可信网络连接方法，设备在首次使用时，将当前的安全地理位置信息写入基于地理位置信息的可信终端中；设备将可信终端的可信安全地理位置信息和设备的平台身份证书传输给可信策略服务器；可信策略服务器保存设备身份信息，并与安全地理位置信息进行绑定；可信策略服务器要求设备传输实时的地理位置信息；设备的可信终端采集实时地理位置信息，并发送给可信策略服务器；可信策略服务器对比设备的实时地理位置信息与预期值，并做出相应的网络连接决定；本发明方法提高了设备的可信度，降低因设备丢失而造成数据丢失的风险，并采用模糊比对的方法，使设备的地理位置在不超出设定的区域的情况下也认为是可信的。
+4. 105678176 一种虚拟环境下的强制访问控制方法
+CN
+15.06.2016
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201610025141.8
+瑞达信息安全产业股份有限公司
+刘毅
+G06F 21/60
+Loading...
+本发明公开了一种虚拟环境下的强制访问控制方法，包括以下步骤：在Xen虚拟机系统中，以可信虚拟机为根，其它虚拟机作为它的子节点建立层次关系；可信虚拟机采用敏感标签对单个的虚拟机进行标识；通过可信虚拟机建立访问矩阵文件；当某一个虚拟机启动的时候，将它的敏感标签、ID号作为参数传到虚拟机监控器内部；当作为主体的虚拟机访问作为客体的虚拟机时，需要按照虚拟环境下BLP改进模型的安全策略来判断；如果上一步骤中允许进行访问，那么在作为主体的虚拟机的当前访问集合B中将这次的访问记录加入进去，当访问结束时，从当前访问集合B中将这次记录删除；本发明可以有效地增强虚拟机之间通信的保密性、完整性和可用性。
+5. 203894744 跨主机、跨平台的远程命令调用系统
+CN
+22.10.2014
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201320881290.6
+瑞达信息安全产业股份有限公司
+刘毅
+G06F 11/36
+Loading...
+本实用新型涉及计算机信息交互技术领域，特别涉及一种跨主机、跨平台的远程命令调用系统，包括客户端和服务端，客户端包括：封装单元、命令调用单元、调用结果处理单元和资源判断单元；所述服务端包括：接收单元、解析单元、处理单元和结果返回单元。其中，指令表明服务端要执行调用的服务程序；参数是需要处理的数据。本实用新型使得目标机器和本地机器在不涉及界面操作和应用层协议的情况下进行交互操作，可选择本地机器或目标机器处理数据，统一调度跨主机、跨平台间的系统资源。
+6. 103309852 一种基于统计和规则的特定领域的合成词发现方法
+CN
+18.09.2013
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+201310237883.3
+瑞达信息安全产业股份有限公司
+刘毅
+G06F 17/27
+Loading...
+本发明属于计算机自然语言处理领域，涉及一种基于统计和规则的特定领域的合成词发现方法。其步骤包括：利用分词系统分词和词性标注，遍历分词结果利用停用词和构词规则过滤，遍历生成原子词的有向图，利用深度遍历排列组合可能的合成词组合并用统计指标和构词规则同时约束，生成合成词候选集供人工筛选，导入合成词进入字典文件供以后使用。本发明的优点有：建立了原子词的有向图，利用深度遍历自动探寻合成词的边界，可以识别出任意长度的合成词；构词规则便于定制和扩展，有良好的移植性；同时具有较高的准确率和召回率，提高汉语分词的准确度；生成的合成词能够更为精确的概念，这也为中文信息处理的深入研究奠定良好的基础。
+7. 102446254 一种基于文本挖掘的相似漏洞查询方法
+CN
+09.05.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110452353.1
+中国信息安全测评中心
+刘晖
+G06F 17/30
+Loading...
+本发明涉及一种基于文本挖掘的相似漏洞查询方法，属于计算机信息安全技术领域，其步骤包括：A、对漏洞数据进行预处理；B、相似漏洞查询输入处理；C、漏洞记录数据的处理；D、输出相似漏洞查询结果。本发明的优点有：将不明确采用文字描述的漏洞信息明确化，便于计算机系统对漏洞记录数据进行智能化处理；区别于基于关键字匹配的查询，根据相似度的大小输出查询结果，是一种模糊查询；能挖掘出漏洞数据之间暗含的模式和规律，为漏洞数据的进一步应用提供基础。
+8. 201498001 一种基于对称密钥密码的可信计算平台
+CN
+02.06.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200920227896.1
+瑞达信息安全产业股份有限公司
+刘毅
+G06F 21/00
+Loading...
+本实用新型涉及一种基于对称密钥密码的可信计算平台，属于计算机信息安全技术领域。该平台包括依次连接的CPU、属于图形与存储集中控制器的北桥及属于周边设备集成集中控制器的南桥；显示器及内存分别与北桥连接；键盘、硬盘、BIOS ROM及可信密码模块分别与南桥连接。本实用新型优点是：使密钥存储保护速度快，可靠性高，既节省了有限的平台内部资源，又避免了敏感密钥暴露在可信平台外。
+9. 201479144 一种可信计算平台密钥迁移系统
+CN
+19.05.2010
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200920227895.7
+瑞达信息安全产业股份有限公司
+刘毅
+H04L 9/08
+Loading...
+本实用新型涉及一种可信计算平台密钥迁移系统，它由两个可信计算平台构成，其中一个是需要迁移密钥的源平台，另一个是迁移密钥的目标平台；源平台中包括可信计算模块(TPMA)，该可信计算模块(TPMA)的存储器中存放有待迁移密钥(migratedKey)、过程密钥(SymKey)和源平台的平台身份密钥(PIKa)；目标平台包括可信计算模块(TPMB)，该可信计算模块(TPMB)的存储器中存放有迁移加密密钥(MEK)和目标平台的平台身份密钥(PIKb)；源平台与目标平台之间通过安全信道连接。本实用新型优点在于：不仅保证待迁移密钥的机密性和完整性，提高了迁移加解密的速度，并且可实现可信的第三方对可信计算实行安全监管。
+10. 201477599 可信计算密码平台
+CN
+19.05.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200920227897.6
+瑞达信息安全产业股份有限公司
+刘毅
+G06F 21/00
+Loading...
+本实用新型涉及可信计算密码平台，属于计算机安全技术领域，包括一个硬件系统，两者相连接；硬件系统包括一个硬件安全模块HSM，它与平台相绑定，包括连接在主板上的嵌入式安全模块ESM或/和插拔的USB/PCI密码模块；操作系统有一个操作系统安全模块，包括强制访问控制子模块、进程监控子模块、应用程序完整性度量验证模块，分别包括访问控制执行部件，进程监控执行部件，度量验证执行部件。本实用新型的优点是，增加了所述可信计算密码平台技术的适用范围，增加了强制访问控制子模块、进程监控子模块和完整性度量验证模块本身的抗攻击程度，整个平台的完整性都被度量，整个平台的可信环境予以建立，充分保证平台使用者的利益。
+11. 101651538 Method for safe transmission of data based on creditable password module
+CN
+17.02.2010
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+200910063823.8
+Jetway Information Security Industry Co., Ltd.
+Liu Yi
+H04L 9/08
+Loading...
+The invention relates to a method for the safe transmission of data based on a creditable password module, which belongs to the technical field of the safety of computer information and is especiallysuitable for a creditable calculation platform to use. The method comprises the following steps: (A) establishing a sharing secret conversation generation key; (B) encrypting data, generating an information identifying code and sending the information identifying code to a creditable password module for identifying; (C) decrypting the data and reconstructing the information identifying code for transmitting the data; and (D) identifying the information identifying code. The invention has the advantages of enhancing the secrecy of data transmission and reinforcing the safety strength of data transmission protection.
+12. 101650764 Creditable calculation password platform and realization method thereof
+CN
+17.02.2010
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200910063824.2
+Jetway Information Security Industry Co., Ltd.
+Liu Yi
+G06F 21/00
+Loading...
+The invention relates to a creditable calculation password platform and a realization method thereof, which belong to the technical field of computer safety. The creditable calculation password platform comprises a hardware system and an operation system, wherein the hardware system is connected with the operation system; the hardware system comprises a hardware safety module (HSM); the HSM is bound with the platform and the realization method thereof and comprises an embedded safety module (ESM) or/and an inserted and pulled USB/PCI password module which is connected to a main plate; and theoperation system is provided with an operation system safety module comprising a forced access control submodule, a progress monitoring submodule and an application program integrality measurement identification module. The invention has the advantages of increasing the application range of the creditable calculation password platform and the technique of the realization method thereof, increasingthe self attack resisting degree of the forced access control submodule, the progress monitoring submodule and the integrality measurement identification module, measuring the integrality of the whole platform and the realization method thereof, establishing the creditable environment of the whole platform and the realization method thereof and fully ensuring the benefit of a user of the platformand the realization method thereof.
+13. 101651543 Creditable calculation platform key migration system and key migration method thereof
+CN
+17.02.2010
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200910063825.7
+Jetway Information Security Industry Co., Ltd.
+Liu Yi
+H04L 9/32
+Loading...
+The invention relates to a creditable calculation platform key migration system and a key migration method thereof. The key migration system comprises two creditable calculation platforms; and a source platform and a target platform are connected by a safety channel. The key migration method comprises the following steps: (1) generating an identity key PIK of the platform and generating and activating an identity certificate of the platform; (2) the key migration step comprises the following procedures: (a) transmitting a public key part to the source platform; (b) encrypting a process key bythe public key part of the platform migration key of the target platform; (c) transmitting the encrypted key to be migrated and the encrypted process key to the target platform; and (d) decrypting thecryptogram of the process key by the target platform to obtain the process key and then decrypting the cryptogram of the key to be migrated by the process key to obtain the key to be migrated. The invention has the advantages of not only ensuring the confidentiality and the integrality of the key to be migrated and enhancing the speed of migration, encryption and decryption, but also realizing that a creditable third party executes safety supervision on creditable calculation.
+14. 101330495 Control method and control system for implementing non-equity access in a computer network
+CN
+24.12.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710052499.0
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+H04L 29/06
+Loading...
+The invention relates to a control method for realizing non-peer access in the computer network, and a control system, and belongs to the security technology field of the computer network. The method comprises the following steps: (A) registering computer information; (B) making access strategy; (C) making a request and obtaining access control strategy; (D) filtering the data packet. The system is characterized in that a network layer control program is added on the network layer of a computer operating system in the network and used for controlling the inlet and outlet flow direction of the data packet, and a kernel protection mechanism is used for protecting the network layer control program from being unloaded illegally. The control method and the control system have the advantages that the non-peer access between the computer and the computer can be realized in the computer network under the security environment condition, once the network layer control program is distorted maliciously, the system is restarted, repair processing is executed, so as to prevent the network layer control program in the kernel from being unloaded illegally, and in addition, the local computer information used for registration is comprehensive, and the authentication ability and the authentication ability are strong.
+15. 101330494 Method for implementing computer terminal safety admittance based on credible authentication gateway
+CN
+24.12.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710052498.6
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+H04L 29/06
+Loading...
+The invention discloses a method for realizing the safety admittance of a computer terminal based on a trusted authentication gateway, and belongs to the security technology field of the computer. The method comprises the following procedures: (1) the computer terminal initiates an access request to the gateway; (2) the basic identity information of the computer terminal is registered to the gateway; (3) an active label of the computer terminal is formed by the gateway; (4) the identity and the authority of the active label are verified through the trusted authentication gateway; (5) the trusted authentication gateway judges whether the identity and the authority of the active label are legal or not; (5.1), when the identity and the authority of the active label are illegal, the access of the computer terminal is barred; (5.2), when the identity and the authority of the active label are legal, the access of the computer terminal is permitted. The method has the advantages: firstly, the uniqueness and the identifiability of the identity of the computer terminal to the network are realized; secondly, the possibility that the terminal identification is falsified illegally can be avoided, and the terminal identification can not be forged.
+16. 101329657 System and method for safe sharing dynamic memory of multi-application space
+CN
+24.12.2008
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+200710052495.2
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+G06F 12/14
+Loading...
+The invention relates to a safe sharing dynamic memory system used for multiple applications and a method thereof, which pertains to the technical field of information safety and is especially applicable to exchanging information safely among multiple systems. The system comprises a sharing memory pool, a memory block and an access control module; the sharing memory pool is a multi-array sharing memory pool; the sharing memory pool is a virtual two-dimensional multi-array memory space; each memory space can be allocated by size dynamically and specified with access privileges, and adopt different cipherkey algorithms so as to ensure the completeness and confidentiality of data in the memory and achieve data sharing among multiple applications. The method adopted in the system comprises procedures of establishing the sharing memory pool, writing data, reading data, writing the data into the sharing memory and decrypting the data. The system and the method of the invention have the advantages of ensuring the completeness and confidentiality of the data in the memory, achieving safe, convenient and flexible data sharing among multiple applications and also being capable of serving as a basic facility to realize safe information exchanging among multiple systems.
+17. 101330383 Credible system for monitoring network resource based on user identification and action
+CN
+24.12.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710052497.1
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+H04L 9/32
+Loading...
+The invention relates to a network resource monitoring device based on reliable user IDs and behaviors, and belongs to the technical field of network information security. The monitoring system comprises a behavior monitoring sub-system, an authentication sub-system, and at least one of the following sub-systems: a terminal reinforcement sub-system used for reinforcing the safety of a terminal or terminal software, an information leak-proof sub-system used for preventing the information of the terminal from being leaking on purpose or by accident; and an audit sub-system which is an optional sub-system and is used for recoding or analyzing the operation behaviors of the user. The sub-system interchanges data with other sub-systems through the behavior monitoring sub-system. The network resource monitoring system comprises the authentication system used for verifying the authenticity, the integrity and the uniqueness of the user ID, and further comprises an audit sub-system used for recoding and analyzing all the operation behaviors of the user, or the terminal reinforcement sub-system used for improving the safety of the terminal operating system, or the information leak-proof sub-system used for prevent the data input and output by the terminal from leakage.
+18. 101226571 Information safety computer
+CN
+23.07.2008
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200710051270.5
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+G06F 21/00
+Loading...
+The invention relates to an information safety computer, which belongs to the technical field of computer safety, particularly suitable for using on occasion with strict requirement to computer information safety. The invention comprises a central processing unit and a mainboard, wherein the mainboard is provided with a safety control system which includes a south bridge chip, a super input output chip, a basic input output system chip and a safety chip, the safety chip is an integrated circuit chip which is equipped with an LPC interface or simultaneously with an SPI interface, one end of the integrated circuit chip is used to connect with the LPC interface of the south bridge chip, the other end of the integrated circuit chip is connected with the super input output chip and the basic input output chip. The invention has the advantages that the LPC interface on the mainboard is safely controlled, thereby in particular simultaneously the invention realizes real-time for equipment under the basic input output system chip and the super input output chip in a structural manner of pure hardware. As a result, the computer information safety is more effectively realized.
+19. 101226572 Information safety computer for protecting basic input/output system safety
+CN
+23.07.2008
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200710051271.X
+JETWAY Information Security Industry Co., Ltd.
+Liu Yi
+G06F 21/00
+Loading...
+The invention relates to an information safety computer which protects the safety of basic input output systems, which belongs to the technical field of computer safety. The invention comprises a mainboard, a central processing unit, a south bridge chip, a basic input output system chip, a super input output chip and a safety chip. The invention is characterized in that the safety chip is an integrated circuit chip, one end of the integrated circuit chip is used to connect with an LPC interface connected with the south bridge chip, the other end of the integrated circuit chip is provided with an interface correspondingly connected with the LPC interface or an SPI interface of a chip of the basic input output chip system (BIOS), the safety chip is responsible for the safety management function of the chip of the basic input output chip system (BIOS), and the chip of the basic input output chip system (BIOS) and the safety chip are separated components. The invention realizes safety control by pure hardware, thereby the computer safety is more effectively protected, and simultaneously the integral performance of the system is increased. Further, the invention has the advantages of convenient elements changing, and low cost for manufacturing, maintaining and updating.
+20. 1423202 Embedded safety module and its safety protection method
+CN
+11.06.2003
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+01138249.X
+Ruida Electronics Co., Ltd., Wuhan
+Liu Yi
+G06F 12/14
+Loading...
+The security module comprises the CPU for managing the security, the memory, the input and the output units for transferring the external information as well as the security control unit for controlling the hardware at the bottom layer of the computer. The method for protecting the security is as follows. Based on the information of the user's authorities transferred to the security module by the input and the output module, the security control unit outputs the control signal to turn on or off control the hardware devices at the bottom layer of the computer. Thus, the hardward resources of the computer are managed and controlled by the security module, and are no longer complete open any more. The security protection is carried out from the hardware devices at the bottom layer of the computer. The use's securities are limited for users with different security status.
+

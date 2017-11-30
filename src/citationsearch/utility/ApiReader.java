@@ -6,11 +6,13 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
+import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -94,7 +96,7 @@ public class ApiReader extends Reader
 		String urlParamters = "";
 		
 		String total = "";
-		this.localFile = searchKeyword + DATA_FILE_POSTFIX;
+		this.localFile = WIPO_DATA_PATH + searchKeyword + DATA_FILE_POSTFIX;
 		if (this.fileExist()) {
 			return "FileExist";
 		}
@@ -114,7 +116,7 @@ public class ApiReader extends Reader
 	        		.maxBodySize(1024*1024*1024)
 	        		.get();
 	        //System.out.println(document.text());
-	        resultTableContent = document.select("#resultListForm").text();
+	        resultTableContent = document.select("#resultListFormTop").text();
 	        if (resultTableContent.length() == 0) {
 	        	total = "search error";
 	        	detailContent = document.select("#resultPanel1").text();
@@ -167,5 +169,59 @@ public class ApiReader extends Reader
 			e.printStackTrace();
 		}
 		
+	}
+	
+	public String readWipoSimpleSearchUsingPubNr(String pubNr) {
+		String applicantName = "";
+		
+		try {
+			/*
+			//read total number of patents
+	        Document document = Jsoup.connect(this.location)
+	        		//.followRedirects(true)
+	        		.data(
+							"simpleSearchSearchForm", "simpleSearchSearchForm",
+							"simpleSearchSearchForm:j_idt379", "FP",
+							"simpleSearchSearchForm:fpSearch", pubNr,
+							"simpleSearchSearchForm:j_idt447", "workaround"
+							)
+					.post();
+	        System.out.println(document.text());
+	        System.out.println("-----------------------");
+	        applicantName = document.select("detailMainForm:NPapplicants").text();
+	        System.out.println(applicantName);
+	        */
+			
+			Response response = Jsoup.connect(this.location)
+					.followRedirects(false)
+					.execute();
+			System.out.println(response.url());
+			System.out.println(response.header("location"));
+			System.out.println(response.cookie("JSESSIONID"));
+			//System.out.println(response.cookie("\\_ga"));
+			
+			Response response2 = Jsoup.connect(this.location)
+					.header("Host", "patentscope.wipo.int")
+					.header("Origin", "https://patentscope.wipo.int")
+					.header("Referer", "https://patentscope.wipo.int/search/en/search.jsf")
+					.data(
+							"simpleSearchSearchForm", "simpleSearchSearchForm",
+							"simpleSearchSearchForm:fpSearch", pubNr
+							)
+				    .cookie("JSESSIONID", response.cookie("JSESSIONID"))
+				    //.cookie("_ga", response.cookie("_ga"))
+				    .method(Method.POST)
+				    .execute();
+			
+			System.out.println(response2.url());
+			System.out.println(response2.header("location"));
+			System.out.println(response2.cookie("JSESSIONID"));
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return applicantName;
 	}
 }

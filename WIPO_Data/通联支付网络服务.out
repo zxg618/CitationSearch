@@ -1,0 +1,61 @@
+1. 106203988 一种综合支付核心系统
+CN
+07.12.2016
+G06Q 20/02 Loading...
+G06Q 20/02
+Loading...
+102016000594873
+通联支付网络服务股份有限公司
+张洪伟
+G06Q 20/02
+Loading...
+本发明涉及一种综合支付核心系统，包括：公共资源管理模块，用于实现各业务条线资源数据的共享；交易原子化模块，用于提供大量原子交易，为业务处理和业务管理提供调用；清结算模块，用于实现多场次的清结算；会计模块，用于满足各单位或机构的独立核算。本发明有效实现了公共资源的集中管理，整合了现有分散在各业务系统上的支付功能。
+2. 106210109 一种用于综合支付的产品系统
+CN
+07.12.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000594899
+通联支付网络服务股份有限公司
+张洪伟
+H04L 29/08
+Loading...
+本发明涉及一种用于综合支付的产品系统，包括：TCP/IP通信进程模块，用于处理各接入系统的请求并实时应答，通过配置接入系统信息，并配置相应的应用进程实现接入系统的横向扩展；内部总线队列模块，用于内部数据结构处理，将各接入系统的请求转换为统一的报文格式，增加消息唯一标识，并进行消息路由标记；在所述内部总线队列模块中的消息经过处理后进入各系统对应的消息队列模块，并由对应的应用处理模块取出消息进行处理；应用处理模块，用于调用CICS PD程序进行交易业务逻辑处理。本发明能够将各个接入系统与支付核心系统进行有效衔接，实现支付产品的快速扩展。
+3. 106204010 一种渠道接入系统
+CN
+07.12.2016
+G06Q 20/16 Loading...
+G06Q 20/16
+Loading...
+102016000594521
+通联支付网络服务股份有限公司
+王垒
+G06Q 20/16
+Loading...
+本发明涉及一种渠道接入系统，包括：交易前置模块，用于预处理接入方交易请求、业务处理、渠道交换和交易流程控制；通讯前置模块集成了基础通讯服务；任务调度模块，用于为交易和作业任务提供定时任务配置管理、批处理任务管理和任务调度控制；消息服务模块，用于生产各类消息、消息持久化、创建消息发送任务和消息发送；渠道前置模块，用于负责与后端所有银行渠道的对接及技术管理工作。本发明能够屏蔽银行、银联、第三方账户等各支付渠道各类交易的接口差异，为支付核心系统和支付网关提供统一的支付接入接口和规范。
+4. 101783041 Product coding system
+CN
+21.07.2010
+G07F 7/10 Loading...
+G07F 7/10
+Loading...
+201010022681.3
+Allinpay Network Services Co., Ltd.
+Huang Ruyan
+G07F 7/10
+Loading...
+The invention relates to a product coding system, comprising a background system and an acceptance terminal. After being defined, coded and distributed, the product is bonded with an accepted commercial tenant; then the terminal administrative module is employed to record the product list corresponding to each accepting terminal; each time when the accepting terminal signs in, the terminal administrative module uploads the product list to the accepting terminal. A brand-new interactive mode is established at a background system platform and a front-end accepting terminal of a prepaid card, so that acceptance of various products can be realized through the terminal; through introducing product code, the prepaid card system platform is upgraded from a simple pre-paid card operation platform to a comprehensive operation platform which integrates the pre-paid card system and interactive marketing.
+5. 101656007 Safe system realizing one machine with multiple ciphers on POS machine and method thereof
+CN
+24.02.2010
+H04L 9/14 Loading...
+H04L 9/14
+Loading...
+200910056501.0
+Allinpay Network Service Co., Ltd.
+Li Baohua
+H04L 9/14
+Loading...
+The invention relates to a safe system realizing one machine with multiple ciphers on POS machine and a method thereof. The system comprises a hardware encrypting machine, a TEK distribution module, aPOS terminal device, a TMK distribution module and a POS background system, wherein, the hardware encrypting machine is connected with a secret key POS terminal by the TEK distribution module, the hardware encrypting machine is connected with the secret key POS terminal by the TMK distribution module, the secret key POS terminal is connected with a POS terminal cipher keyboard, and the hardware encrypting machine is connected with the POS terminal cipher keyboard by the POS background system. The method is based on a 3DES symmetric secret key system, safely produces, distributes and uses themethod of the main secret key TMK of the POS terminal to realize the function of one machine with multiple ciphers on the POS terminal.
+

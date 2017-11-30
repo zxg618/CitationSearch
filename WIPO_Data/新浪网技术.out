@@ -1,0 +1,1609 @@
+1. 103491170 电子邮件到达消息提醒的方法及系统
+CN
+29.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000439581
+新浪网技术(中国)有限公司
+宋健
+H04L 29/08
+Loading...
+本发明公开了一种电子邮件到达消息提醒的方法及系统，所述方法包括：邮件落信服务器接收到电子邮件后推送该电子邮件的邮件到达通知；通知分发服务器的通知接收模块接收到邮件到达通知后存于缓存队列中；通知分发服务器的子进程创建模块依次读取邮件到达通知，为每个邮件到达通知创建一个通知处理子进程，将该邮件到达通知传入其中；每个通知处理子进程解析出收件方邮箱地址，确定出其所绑定的社交通讯工具的账号，向对应该社交通讯工具的消息推送服务器发送消息推送请求；消息推送服务器解析出社交通讯工具的账号；调用该社交通讯工具的服务器提供的消息推送接口，向该社交通讯工具的账号推送所述消息内容。从而实现了电子邮件到达消息提醒。
+2. 103716187 网络拓扑结构确定方法和系统
+CN
+29.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102013000713224
+新浪网技术(中国)有限公司
+梁振方
+H04L 12/24
+Loading...
+本发明公开了一种网络拓扑结构确定方法和系统，该方法包括：根据预先统计的每个网络设备的各端口的流量特征，对于属于不同网络设备的任意两个端口，计算其中一个端口的输入流量特征与另一个端口的输出流量特征之间的相似度，根据计算出的相似度确定所述两个端口之间的流量相似度；对于每个端口，选取与该端口的流量相似度最大的端口，作为该端口的连接端口；根据每个端口的连接端口、及其所属网络设备，确定出网络拓扑结构。应用本发明，可以提高网络拓扑结构发现的准确度以及应用范围，并降低运算复杂度。
+3. 106503725 一种图形处理方法及装置
+CN
+15.03.2017
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+102016000816481
+新浪网技术（中国）有限公司
+刘鲁
+G06K 9/62
+Loading...
+本发明公开了一种图形处理方法及装置，该方法包括：接收图形匹配请求，并基于该图形匹配请求，在待分析的二维线图上获取设定区间内的第一图形，根据所述第一图形，分别在预先存储的各二维线图各自的全区间内，获取与所述第一图形相匹配的第二图形，在所述第二图形所属的二维线图上，获取处于所述第二图形所对应的区间之外且满足预设条件的第三图形，展示所述第一图形、第二图形以及第三图形。本申请可基于各二维线图的全区间，查找与第一图形相匹配的图形片段，还将进一步获取额外的图形片段，以对图形后续趋势进行参考分析。
+4. 106487919 基于PaaS平台的HTTP请求处理方法、装置及系统
+CN
+08.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000992540
+新浪网技术（中国）有限公司
+李文强
+H04L 29/08
+Loading...
+本发明实施例提供基于PaaS平台的HTTP请求处理方法、装置及系统，所述方法包括：通过PaaS平台的前端代理获取应用的HTTP请求；根据所述应用的HTTP请求，获取发送所述应用的HTTP请求对应的应用信息；判断是否预存所述应用的HTTP请求对应的应用信息的禁用规则，获取第一判断结果；根据所述第一判断结果对所述应用的HTTP请求进行处理。上述技术方案具有如下有益效果：可以友好合理的限制应用使用PaaS平台资源。
+5. 103701688 消息队列服务器及其垃圾邮件信息处理方法
+CN
+01.03.2017
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+102013000712252
+新浪网技术(中国)有限公司
+宋健
+H04L 12/58
+Loading...
+本发明公开了一种消息队列服务器及其垃圾邮件信息处理方法，所述方法包括：消息队列服务器MQS将待处理垃圾邮件信息存储到数据库中，根据其中的收件方邮箱地址确定出管理员的手机号码后，若手机号码的状态为不在线，则调用手机短信平台提供的短信发送接口，根据手机号码发送通知管理员处理垃圾邮件的短信；若MQS接收到客户端发送的垃圾邮件处理页面的访问请求，则对其中携带的用户名和密码验证通过后，将与用户名预先绑定的手机号码的状态设置为在线，并从数据库中读取与该手机号码对应的待处理垃圾邮件信息后，将其包含于垃圾邮件处理页面中向客户端返回；MQS接收到邮件信息处理结果后更新数据库。从而，实现了垃圾邮件信息的及时处理。
+6. 106372668 一种数据匹配方法及装置
+CN
+01.02.2017
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+102016000797496
+新浪网技术（中国）有限公司
+苗泽民
+G06K 9/62
+Loading...
+本申请公开了一种数据匹配方法，用以解决现有技术仅根据IP地址对数据进行匹配，得到的匹配结果准确率较低的问题。方法包括：获取第一数据集合和第二数据集合，所述第一数据集合、第二数据集合分别包含至少一个数据组，每个所述数据组包含至少两个数据；将所述第一数据集合中包含的数据组与所述第二数据集合中包含的数据组进行匹配，得到待定匹配数据组对；确定各所述待定匹配数据组对的匹配准确度；根据各所述待定匹配数据组对的匹配准确度，从各所述待定匹配数据组对中确定出至少一个匹配数据组对。本申请还公开了一种数据匹配装置。
+7. 102780680 SNS平台数据回推方法及系统
+CN
+01.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102011000121256
+新浪网技术（中国）有限公司
+芦义
+H04L 29/06
+Loading...
+一种SNS平台数据回推的方法，第三方网站发表内容后，分享到SNS平台，同时，向SNS平台请求数据回推服务，并提供回推地址和订阅规则，然后开放自己的数据接口，该接口对应数据回推地址。SNS平台验证该接口可用后，当产生新的内容时，将实时通过数据中心模块进行数据的匹配，当发现某条数据符合此前第三方网站所订阅的信息时，将这些数据从数据中心模块抽取出来，放到数据分发模块里去。数据分发模块获取到之前第三方订阅的信息，将数据对应到回推地址。最后，这些数据进入到推送模块发送至第三方网站所定义的回推地址。该方法仅需第三方网站发起一次注册请求就可以实时且不限次数地从SNS平台获得所需的内容。
+8. 103746833 基于PXE的RAID自动配置方法和系统
+CN
+01.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102013000724306
+新浪网技术(中国)有限公司
+王建飞
+H04L 12/24
+Loading...
+本发明公开了一种基于PXE的RAID自动配置方法和系统，所述方法包括：PXE客户端从PXE启动，根据从PXE服务器下载的PXE引导程序加载系统内核程序和初始化内存磁盘程序后，初始化内存磁盘程序根据启动配置文件的预安装模块中记载的自动配置磁盘阵列RAID的脚本代码，执行初始化内存磁盘程序中预先嵌入的RAID芯片在预安装环境下所需的执行程序和依赖程序，完成RAID自动配置；之后，初始化内存磁盘程序根据启动配置文件的安装模块中的脚本代码进行操作系统的安装；所述系统包括：PXE服务器，以及多个PXE客户端。应用本发明，可以提高RAID配置的效率。
+9. 103647694 一种电子邮件清理方法及装置
+CN
+25.01.2017
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+102013000446556
+新浪网技术（中国）有限公司
+王怀宗
+H04L 12/58
+Loading...
+本发明公开了一种电子邮件清理方法及装置，包括：从索引服务器中筛选出待清理邮件列表；然后将该待清理邮件列表中的每个待清理邮件标识，分别插入到与存储该待清理邮件标识表示的待清理邮件的存储服务器对应的清理队列中；以及按照各存储服务器对应的清理队列中的待清理邮件标识，分别对各存储服务器中存储的待清理邮件进行清理。采用本发明实施例提供的方案，提高了电子邮件清理的效率，且降低了网络资源的消耗，并且能够分别对各存储服务器的清理负荷进行有效控制，避免了可能出现的存储服务器清理负荷较高的问题。
+10. 103618758 Web服务器及其系统资源访问控制方法
+CN
+11.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000530031
+新浪网技术(中国)有限公司
+张任重
+H04L 29/08
+Loading...
+本发明公开了一种Web服务器及其系统资源访问控制方法，所述方法包括：主进程接收到Web请求后，将该Web请求分配给一个工作进程，该工作进程调用标记模块，并将分配的Web请求传送给标记模块；标记模块从接收的Web请求中解析出用户标识，并将解析出的用户标识传送给为该工作进程配置的沙箱系统模块；之后，在该工作进程调用该沙箱系统模块的资源访问API时，该资源访问API根据对应所述用户标识的资源限制设置项对资源访问操作进行限制。从而，本发明在实现用户资源隔离的请提下，节约了服务器资源。
+11. 103634301 客户端及其访问服务器中用户存储的私有数据的方法
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000566731
+新浪网技术(中国)有限公司
+何知翰
+H04L 29/06
+Loading...
+本发明公开了一种移动终端及其访问服务器中用户存储的私有数据的方法，该方法包括：安装在移动终端中的客户端向资源访问接口传入本地保存的访问令牌后，若接收到服务器返回的令牌过期或无效的信息，则以不可见方式调用网页浏览组件加载服务器的授权页面；之后，客户端向网页浏览组件注入脚本代码命令，将本地保存的用户名和密码向服务器返回；并在接收到服务器返回的访问令牌后，使用当前接收的访问令牌更新本地保存的访问令牌，并再次调用服务器的资源访问接口，向资源访问接口传入当前接收的访问令牌，从服务器获取用户的私有数据进行展示。应用本发明，可以在客户端访问令牌过期时，避免用户重复输入用户名和密码信息的操作，提升用户体验感。
+12. 102902731 邮件索引的存储方法
+CN
+21.12.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102012000333394
+新浪网技术(中国)有限公司
+陈华英
+G06F 17/30
+Loading...
+本发明公开了一种邮件索引的存储方法。本发明中的邮件索引的存储方法包括：在块设备上为每个用户设置一个独立的用户区域；将各个用户的邮件索引信息分别存储在各个用户的用户区域中。通过使用本发明中的邮件索引的存储方法，可以有效地节省读写文件系统的开销，提高系统的读写性能。
+13. 102982330 文字图像中字符识别方法和识别装置
+CN
+21.12.2016
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+102012000477638
+新浪网技术(中国)有限公司
+郝双
+G06K 9/20
+Loading...
+本发明公开了一种文字图像中字符识别方法和识别装置，所述方法包括：对文字图像中切割出的字符，以设定单位进行划分；对所述设定单位内的每个字符进行特征提取和特征匹配后，确定每个字符的候选字；针对所述设定单位内的每个字符，确定该字符的每个候选字的相似度、以及该字符的每个候选字与该字符相邻的字符的候选字之间的转移概率；根据确定出的相似度和转移概率，确定出所述设定单位内的字符的识别结果。由于在进行字符识别的过程中，对于字符的多个候选字，除了依据候选字的相似度（即字形信息）外，还根据相邻候选字之间的转移概率（即语义信息），从多个候选字中选择出一个作为该字符的识别结果；从而大大提高字符识别的准确率。
+14. 106095594 一种资源处理的方法、装置及系统
+CN
+09.11.2016
+G06F 9/52 Loading...
+G06F 9/52
+Loading...
+201610381984.1
+新浪网技术（中国）有限公司
+黄旭
+G06F 9/52
+Loading...
+本申请实施例提供一种资源处理的方法、装置及系统，该方法中业务服务器在确定出进程所需的资源后，可根据该资源，向各锁服务器发送获取该资源对应的各锁的请求，相应的，业务服务器可接收各锁服务器根据该请求返回的各操作结果，其中，当返回的部分操作结果为操作失败，且另一部分操作结果为获取成功时，则可通过该进程获取并处理所述资源。从上述方法中可以看出，由于业务服务器可从至少两个锁服务器中获取该进程所需的锁，因此，即使一个锁服务器出现了运行故障，其他锁服务器也能够向该进程分配锁，进而有效的保证了该进程的正常运行，提高了业务服务器的业务处理效率。
+15. 103488530 一种锁迁移方法及装置
+CN
+19.10.2016
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+102013000425019
+新浪网技术（中国）有限公司
+汪海
+G06F 9/46
+Loading...
+本发明公开了一种锁迁移方法及装置，用以解决现有技术中现有的锁迁移过程中任务会被执行两次，浪费了执行任务所消耗的资源的问题。迁移装置在将各执行器从第一锁迁移到第二锁上时，将各执行器的取锁目标地址修改为该迁移装置自身的地址，并接收执行器发送的添加键值的请求，将接收到的请求发送给第一锁和第二锁，当接收到的第二锁返回的结果是存在结果时，向执行器返回该存在结果，当接收到的第二锁返回的结果不是存在结果时，将接收到的第一锁返回的结果返回给执行器，迁移装置将各执行器的取锁目标地址修改为第二锁的地址。通过上述方法，可避免各执行器从第一锁迁移到第二锁的过程中重复执行相同的任务。
+16. 106027639 一种PAAS平台的广域网访问方法及装置
+CN
+12.10.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610331736.6
+新浪网技术（中国）有限公司
+王阳
+H04L 29/08
+Loading...
+本申请公开了一种PAAS平台的广域网访问方法，用以解决现有技术为了使PAAS平台上的应用程序能够访问广域网而需要对应用程序的代码进行修改的问题。方法包括：PAAS平台接收应用程序发送的第一访问请求；所述第一访问请求中包含广域网地址；所述应用程序运行在所述PAAS平台上；生成与所述第一访问请求对应的验证信息；调用预先设置在所述PAAS平台上的应用程序编程接口API，通过所述API，将所述第一访问请求和所述验证信息发送至代理服务器，以使得所述代理服务器在对所述验证信息验证通过后，根据所述第一访问请求中包含的广域网地址，对所述广域网地址进行访问。本申请还公开了一种PAAS平台的广域网访问装置。
+17. 103347009 一种信息过滤方法及装置
+CN
+28.09.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000247624
+新浪网技术（中国）有限公司
+戴明洋
+H04L 29/06
+Loading...
+本发明公开了一种信息过滤方法及装置，用以解决现有技术中维护黑名单的效率较低，信息发布的时效性较低的问题。该方法通过规则过滤方法判断待过滤信息中是否包含敏感分词，若包含则直接将其过滤，否则，通过机器学习过滤方法判断其是否为非法信息，若是，则删除发布的该待过滤信息，否则保持该待过滤信息的发布状态。通过上述方法，需维护的黑名单中仅包括敏感分词，有效减少了需要维护的黑名单中的分词的数量，提高了维护黑名单的效率，而且，在通过规则过滤方法确定待过滤信息中不包含敏感分词时，可直接将其发布，即使该信息是除敏感信息以外的其他非法信息，后续也可通过机器学习过滤方法将发布的该信息删除，因此提高了信息发布的时效性。
+18. 105915387 一种IaaS云平台下云主机的外网带宽限速方法、装置及系统
+CN
+31.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000378467
+新浪网技术（中国）有限公司
+赵海川
+H04L 12/24
+Loading...
+本发明实施例提供一种IaaS云平台下云主机的外网带宽限速方法、装置及系统，用以实现云主机外网带宽的双向有效限速。所述方法包括：当L3agent给虚拟路由器增加外部网络接口时，在入口方向建立无类的队列规则、出口方向建立有类的根队列规则；接收到客户端发送的外网浮动IP绑定云主机请求后，将外网浮动IP绑定到外部网络接口上，并获取外网浮动IP对应的自定义带宽值；在外部网络接口的入口方向上创建第一过滤器，并设置第一过滤器需要过滤数据包的目的IP为外网浮动IP、限速带宽为自定义带宽值；在外部网络接口的出口方向上创建用于带宽限速的类及其对应的第二过滤器，并设置第二过滤器需要过滤数据包的源IP为外网浮动IP、类的限速带宽为自定义带宽值。
+19. 103218419 网络标签聚类方法和系统
+CN
+31.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000109375
+新浪网技术(中国)有限公司
+陈玉焓
+G06F 17/30
+Loading...
+本发明公开了一种网络标签聚类方法和系统，所述方法包括：根据网络标签向量集中各网络标签向量的模值大小对二维化的网络标签向量进行排序；根据排序结果，选取数目与簇数目相一致的、网络标签向量集中排序在前的网络标签向量，分别作为所述网络标签向量集中各簇的初始质心；所述簇数目为所述网络标签向量集中待聚类的簇的数目；根据簇数目，以及确定的各簇的初始质心，对所述网络标签向量集运用聚类算法得到所述网络标签向量集中聚类后的各簇。本发明将网络标签向量二维化，从而可以采用优化初始质心和或优化簇数目的技术手段，来提高网络标签向量进行聚类的精度，即提高了网络标签向量对应的网络标签的聚类精度。
+20. 105897866 一种基于IaaS云平台的云主机迁移方法及装置
+CN
+24.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000188293
+新浪网技术（中国）有限公司
+赵海川
+H04L 29/08
+Loading...
+本发明实施例提供一种基于IaaS云平台的云主机迁移方法及装置，用以实现快速高效的将云计算环境下的云主机由本地存储迁移至共享存储。所述方法，包括：初始化迁移环境，具体包括：准备云环境SDK；从预先注册的待迁移云主机列表中选取一个云主机并调用云环境SDK获取其元信息；对选取的基于本地存储的云主机执行关机操作，并转换其磁盘格式；调用云环境SDK删除基于本地存储的云主机，并调用云环境SDK根据获取的元信息创建一个基于共享存储的云主机；对新创建的云主机执行关机操作，删除新创建的云主机在共享存储上对应存储池中的磁盘文件，并将基于本地存储的云主机在磁盘格式转换后的磁盘文件导入到新创建的云主机在共享存储上对应存储池中；之后启动新创建的云主机。
+21. 105893349 类目标签匹配映射方法及装置
+CN
+24.08.2016
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+102016000195707
+新浪网技术（中国）有限公司
+方庆安
+G06F 17/27
+Loading...
+本发明实施例提供一种类目标签匹配映射方法及装置，该方法包括：获取源类目标签的标签信息和目标类目标签的标签信息；根据标签字符串，分别确定各源类目标签和各目标类目标签的字面相似度；根据标签信息得到标签的向量化信息，结合标签路径信息，分别确定各源类目标签和各目标类目标签的语义相似度；根据标签路径信息，分别确定各源类目标签和各目标类目标签的结构相似度；根据各源类目标签与各目标类目标签的字面相似度、语义相似度和结构相似度中的至少一个，选择出相似度符合设定条件的源类目标签和目标类目标签，建立映射关系。能够实现快速、准确的标签相似度匹配和标签映射，匹配映射的效率高，不需要人工参与，节约人力物力财力。
+22. 103605480 Web服务器及其磁盘资源访问控制方法
+CN
+17.08.2016
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+102013000524149
+新浪网技术(中国)有限公司
+张任重
+G06F 3/06
+Loading...
+本发明公开了一种Web服务器及其磁盘资源访问控制方法，该方法包括：主进程将Web请求分配给一个工作进程，将其它工作进程的请求处理信息传给该工作进程；该工作进程调用标记模块，将标记模块从Web请求中解析出的用户标识发送给主进程；主进程记录该工作进程的请求处理信息；该工作进程调用统计模块，将从其它工作进程的请求处理信息中查找出的该用户标识对应的进程标识与该用户标识传给统计模块；统计模块读取进程磁盘文件中的磁盘资源访问量进行统计；若统计结果超过为该用户标识配置的资源访问配额，则返回拒绝信息，该工作进程拒绝Web请求；否则返回确认信息，该工作进程对Web请求进行处理。从而使得磁盘资源访问控制更加灵活。
+23. 103488517 PHP代码编译方法、PHP代码运行方法及装置
+CN
+10.08.2016
+G06F 9/45 Loading...
+G06F 9/45
+Loading...
+102013000409987
+新浪网技术（中国）有限公司
+陈磊
+G06F 9/45
+Loading...
+本发明公开了一种PHP代码编译方法、PHP代码运行方法及装置，包括：获取待编译PHP代码后，对该待编译PHP代码进行编译，得到与该待编译PHP代码对应的Opcode Array，该Opcode Array中包括用于在该Opcode Array被Web应用执行时获取上述待编译PHP代码对应该Web应用的代码目录的目录获取代码；并缓存该Opcode Array，用于Web服务器上各Web应用运行上述待编译PHP代码。采用本发明实施例提供的方案，节省了Web服务器的处理资源和存储资源，提高了Web服务器性能。
+24. 105843851 欺诈邮件分析与提取方法和装置
+CN
+10.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000149631
+新浪网技术（中国）有限公司
+陈玉焓
+G06F 17/30
+Loading...
+本发明实施例提供一种欺诈邮件分析与提取方法及装置，该方法包括：根据一个周期内的发件行为建立邮件IP特征向量集，并对所述IP特征向量集进行聚类处理得到可疑IP集；对所述可疑IP集进行对话行为过滤及链接过滤处理，得到可疑邮件集；从所述可疑邮件集中提取邮件内容特征，生成内容特征向量；对所述内容特征向量基于LDA主题模型分析出所述可疑邮件集的主题概率分布；根据所述可疑邮件集的主题概率分布提取出欺诈邮件。该方法能够提高欺诈邮件提取精度和效率。
+25. 105847113 企业邮件海外转发方法及系统
+CN
+10.08.2016
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+102016000147668
+新浪网技术（中国）有限公司
+刘洁
+H04L 12/58
+Loading...
+本发明实施例提供一种企业邮件海外转发方法及系统，该方法包括：对发信失败邮件的退信进行解析，获得发信失败原因；如果所述发信失败原因是收件人不存在，则执行邮件退信；如果所述发信失败原因是发信返回超时和/或目标地址无法解析，则控制预先部署的至少一个海外转发服务器执行邮件海外转发。本发明的实施例的企业邮件海外转发方法及系统进行退信解析并根据解析出的发信失原因判断执行退信或海外转发，有利于提高现有邮件系统发信的成功率，特别是海外发信成功率，改善用户发信体验。
+26. 105843911 数据缓存实现方法、系统及数据服务器
+CN
+10.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610171603.7
+新浪网技术（中国）有限公司
+王旋
+G06F 17/30
+Loading...
+本发明实施例提供一种数据缓存实现方法、系统及数据服务器，该方法包括：获取本区域提交的用户数据或其他区域的数据服务器转发的用户数据；为用户数据添加命令头信息和结束符得到缓存数据，将缓存数据加入到本区域缓存队列中；所述缓存数据包括命令头信息、用户数据和结束符，所述命令头信息中包括指示执行动作的命令号；从本区域缓存队列中读取缓存数据，解析出所述命令头信息和用户数据，根据包括的所述命令号对解析出的用户数据执行相应的动作。能够保证数据及时、准确的同步到不同位置的服务器缓存中，提高数据缓存的速度和效率，保证数据缓存的同步性。
+27. 105843682 一种迁移虚拟机到IaaS云平台的方法及装置
+CN
+10.08.2016
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+102016000188311
+新浪网技术（中国）有限公司
+赵海川
+G06F 9/48
+Loading...
+本发明实施例提供一种迁移虚拟机到IaaS云平台的方法及装置，用以快速、高效的自动化迁移虚拟机到IaaS云平台。所述方法，包括：初始化迁移环境；根据虚拟机迁移目录，初始化待迁移虚拟机，并在待迁移虚拟机中注入自动文件系统修复工具及自动初始化处理工具；启动待迁移虚拟机，并基于虚拟化环境、自动修复文件系统工具及自动初始化处理工具，对待迁移虚拟机进行文件系统修复以及初始化处理；压缩待迁移虚拟机上已注入用户数据的系统盘；基于云环境SDK、以及待迁移虚拟机的配置信息，在IaaS云平台上使用空文件镜像创建云主机；对创建的云主机做关机操作，使用待迁移虚拟机上压缩后的系统盘文件替换IaaS云平台上云主机的硬盘文件，之后启动云主机。
+28. 105843912 文件审核处理方法及装置
+CN
+10.08.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610171614.5
+新浪网技术（中国）有限公司
+王旋
+G06F 17/30
+Loading...
+本发明实施例提供一种文件审核处理方法及装置，该方法包括：获取待审核文件的概要信息，通过预设的概要过滤信息和所述概要信息，确定需屏蔽的文件和过滤通过的文件；获取过滤通过的文件的文件信息，通过预设的文件审核信息和所述文件信息，从所述过滤通过的文件中确定出需屏蔽的文件、允许公开的文件和需人工审核的文件；对所述需人工审核的文件提供给审核人员进行人工审核，获取人工审核结果确定出需屏蔽的文件和允许公开的文件。能够实现对各种格式文件的独立审核，其预览方便，审核的效率高，能够准确的发现和控制违规文件的公开发布，避免恶意内容造成的危害。
+29. 105844493 实时竞价广告出价建议实现方法及装置
+CN
+10.08.2016
+G06Q 30/02 Loading...
+G06Q 30/02
+Loading...
+201610191496.4
+新浪网技术（中国）有限公司
+彭琨
+G06Q 30/02
+Loading...
+本发明实施例提供一种实时竞价广告出价建议实现方法及装置，包括：获取发布用户的广告信息投放历史记录，确定下列出价建议信息中的至少一个：根据对各定向条件的出价高低排序，确定对各定向条件的最优出价调整值；根据对各定向条件的出价信息的稳定性和广告信息对发布用户的价值，确定对各定向条件的最优出价调整值；根据每天对选定定向条件的估值的稳定性，确定对各个定向条件的最优出价调整值；根据对所有的定向条件的估值一致性，确定对各定向条件的最优出价调整值；根据出价建议信息以及发布用户每日的平均出价信息，确定稳定性最好的出价建议信息提供给发布用户。该方法能够准确、可靠地进行量化的出价建议，省时省力。
+30. 103294581 一种数据监控方法、装置及系统
+CN
+13.07.2016
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+102013000214933
+新浪网技术（中国）有限公司
+黎智云
+G06F 11/30
+Loading...
+本发明公开了一种数据监控方法、装置及系统，应用于PaaS平台上运行的第一应用，包括：第一应用获取自身所位于进程的运行状况数据，作为PaaS平台上运行的且与第一应用位于同一进程中的第二应用的运行状况数据；并展现获取的第二应用的运行状况数据。采用本发明实施例提供的方案，实现了对PaaS平台上运行的应用的运行状况数据的监控。
+31. 105743988 网络用户追踪实现方法、装置及系统
+CN
+06.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610192830.8
+新浪网技术（中国）有限公司
+方庆安
+H04L 29/08
+Loading...
+本发明实施例提供一种网络用户追踪实现方法、装置及系统，该方法包括：接收到客户端发送的访问用户的标识匹配请求时，获取提供标识交换的第三方服务列表；通过客户端向第三方服务列表中的第三方服务器发送标识交换请求，并接收第三方服务器通过客户端返回的重定向标识交换请求，其中包括访问用户的第三方标识信息；根据访问用户的当前标识信息和第三方标识信息匹配得到访问用户的标识配对信息，根据得到的标识配对信息更新数据库中访问用户的标识配对信息；根据数据库中存储的标识配对信息聚类得到访问用户的通用标识信息，用于对用户进行追踪。能够实现安全、高效、准确的用户标识交换、追踪和用户行为的追踪，准确度和覆盖率高。
+32. 105677794 PaaS系统中文件的操作处理方法及装置
+CN
+15.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511029908.6
+新浪网技术（中国）有限公司
+王阳
+G06F 17/30
+Loading...
+本发明实施例提供一种PaaS系统中文件的操作处理方法及装置，该方法包括：获取用户的文件操作处理指令；根据所述文件操作处理指令中的文件路径，确定对应的服务类型；根据确定出的服务类型，调用相应的操作处理函数，对文件进行操作处理。能够在不修改代码的情况下，仅通过修改文件路径便可使用户方便的使用各种服务。
+33. 105617658 基于真实室内环境的多人移动射击游戏系统
+CN
+01.06.2016
+A63F 13/837 Loading...
+A63F 13/837
+Loading...
+201510993479.8
+新浪网技术（中国）有限公司
+刘洁
+A63F 13/837
+Loading...
+本发明实施例提供一种基于真实室内环境的多人移动射击游戏系统，其包括通过网络互相连接的视觉定位装置、游戏场景管理装置和红外枪信息处理装置；视觉定位装置，用于定位游戏玩家在室内真实场景中的空间位置信息，利用所述空间位置信息驱动游戏场景中的虚拟角色的运动，并将空间位置信息传送给游戏场景管理装置；红外枪信息处理装置，用于获取红外枪在投影屏幕上的二维投影位置及游戏玩家开火时的开火信号，并传送给游戏场景管理装置；游戏场景管理装置包括：三维游戏地图管理模块，用于绘制游戏场景；以及命中检测模块，用于根据红外枪在投影屏幕上的二维投影位置及开火信号进行虚拟角色的命中检测。该系统能增加现有射击游戏的参与感和交互性。
+34. 105635324 用于浏览器或服务器的大文件上传、续传方法和装置
+CN
+01.06.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610153817.1
+新浪网技术（中国）有限公司
+张良
+H04L 29/08
+Loading...
+本发明实施例提供用于浏览器或服务器的大文件上传、续传方法和装置，该用于浏览器的大文件上传、续传方法包括：截取文件的部分内容进行安全哈希算法SHA1计算，得到文件的SHA1值；使用所述文件的SHA1值查询服务器是否已经存在所述文件；若不存在则对所述文件进行分片处理获得多个文件片段，生成各文件片段的验证信息，并将各文件片段及其验证信息执行分片上传；其中，每个文件片段的验证信息包括通过截取该文件片段的部分内容执行MD5计算而生成的MD5值；若已经存在所述文件但未完成全部上传，则对所述文件的未上传的各文件片段及其验证信息执行分片续传。本实施例的方法优化了SHA1和MD5取样方式，提升了性能。
+35. 105610833 一种基于IP信誉值的邮件反垃圾方法及系统
+CN
+25.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511020898.X
+新浪网技术（中国）有限公司
+刘洋
+H04L 29/06
+Loading...
+本发明实施例提供一种基于IP信誉值的邮件反垃圾方法及系统，所述方法包括：识别发件方的IP地址；查询缓存中的分类信息；所述分类信息包括指定时间段内所接收邮件对应的IP地址及所述IP地址是否正常的标识；若在所述缓存中不能查到该发件方IP地址，则根据基于实时黑名单的IP历史记录及衰减值计算该发件方IP地址的信誉值，得到其分类信息；若该IP地址的分类信息为正常，则进行后续反垃圾程序；若该IP地址的分类信息为非正常，则将所述邮件丢弃。通过该方法，不仅保持了实时黑名单简便高效的优点，还可根据已知黑名单发现未知黑名单，大幅降低了误判率和漏判率，提高了邮件收发质量。
+36. 105608215 PaaS系统中hbase数据删除方法及装置
+CN
+25.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511029045.2
+新浪网技术（中国）有限公司
+王阳
+G06F 17/30
+Loading...
+本发明实施例提供一种PaaS系统中hbase数据删除方法及装置，该方法包括：接收用户发送的数据删除指令，所述数据删除指令中包括关键字范围；根据所述关键字范围，确定待删除的用户数据的起始关键字和结束关键字所在的存储区域；对起始关键字和结束关键字所在的存储区域，根据所述关键字范围对其中存储的用户数据进行关键字匹配判断，将关键字匹配的用户数据删除；对处于起始关键字和结束关键字所在的存储区域之间的存储区域，将其中的用户数据删除。能够实现快速、高效的数据删除，数据删除操作的处理速度快，处理时间短。
+37. 105589957 一种文档转化方法及文档转化系统
+CN
+18.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510970376.X
+新浪网技术（中国）有限公司
+王旋
+G06F 17/30
+Loading...
+本发明实施例提供一种文档转化方法及文档转化系统，所述方法包括：接收文档转化任务；根据所述文档转化任务，获取源文档文件、所述源文档文件的格式和需最终转化成的格式；根据所述源文档文件的格式和需最终转化成的格式，经路由将所述源文档文件转发给需最终转化成的格式对应的处理模块进行文档转换，获取转化后的文档文件。上述技术方案具有如下有益效果：可以支持转化的格式比较多，接入方便，各模块功能独立，队列处理请求，高效可靠，部分模块可以复用，监控方便。
+38. 105577480 一种网络连接性能的监测方法及装置
+CN
+11.05.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610069413.4
+新浪网技术（中国）有限公司
+张少恺
+H04L 12/26
+Loading...
+本发明公开了一种网络连接性能的监测方法及装置，在操作系统内核中设置监测点，在所述监测点处插入用于获取网络连接的连接状态数据的代码，该方法包括：根据所述代码，获取基于网络连接协议的网络连接的连接状态数据，根据所述连接状态数据，生成所述网络连接的监测结果。通过本方法，服务器通过在操作系统的内核中设置监测点，并在监测点处插入相应的代码的方式，获取网络连接的连接状态数据，采用本申请中的方式，无需对内核进行修改，而是直接针对网络连接协议设置监测点的方式完成连接状态数据的获取。显然，这样的方式有效地简化了对内核进行修改的复杂操作，同时也有效提升了在获取网络连接的连接状态数据的便捷性。
+39. 105550209 一种资源处理方法及装置
+CN
+04.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510874150.X
+新浪网技术（中国）有限公司
+李文强
+G06F 17/30
+Loading...
+本发明公开了一种资源处理方法及装置，该资源处理方法包括：加载配置文件，根据所述配置文件中包含的各业务对应的第一资源数据的标识，获取各业务对应的第一资源数据，根据所述配置文件中包含的各业务对应的第一资源统计规则，对获取到的各业务对应的第一资源数据进行统计，确定每个第一资源数据对应的第一资源用量。与现有技术不同是的，采用配置文件的方式大大提升了定义统计规则的便捷性，而不用针对全部已有的统计规则进行重新编译，此外，采用配置文件的方式还可以便捷的发布针对各类业务的资源数据自定的统计规则，加载配置文件并不会影响服务系统的正常工作，可以保证服务系统的稳定运行。
+40. 105488225 PaaS系统中hbase数据导出方法及装置
+CN
+13.04.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511021476.4
+新浪网技术（中国）有限公司
+王阳
+G06F 17/30
+Loading...
+本发明实施例提供一种PaaS系统中hbase数据导出方法及装置，该方法包括：接收用户发送的数据读取指令，所述数据读取指令中包括关键字范围；根据所述关键字范围，确定待导出的用户数据的起始关键字和结束关键字所在的存储区域；对起始关键字和结束关键字所在的存储区域，根据所述关键字范围对其中存储的用户数据进行关键字匹配判断，将关键字匹配的用户数据拷贝到下载目录下供用户下载；对处于起始关键字和结束关键字所在的存储区域之间的存储区域，将其中的用户数据拷贝到下载目录下供用户下载。能够实现快速、高效的数据导出，数据导出的处理速度快，处理时间短。
+41. 105338058 一种应用更新的方法及装置
+CN
+17.02.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510618517.1
+新浪网技术（中国）有限公司
+李鹏
+H04L 29/08
+Loading...
+本申请实施例提供一种应用更新的方法、装置及系统，该方法服务器加载更新后的应用时，更新后的应用将其对应的端口标识发送给更新前的应用，当负载均衡器向更新前的应用发送检查信息时，更新前的应用将更新后的应用对应的端口标识发送给负载均衡器，当负载均衡器监测到接收到的端口标识与预先保存的更新前的应用对应的端口标识不同时，通知服务器发布更新后的应用对应的端口标识，并将保存的访问更新前的应用的访问请求的目的端口标识，修改为更新后的应用对应的端口标识。通过上述方法，当服务器加载更新后的应用时，更新前的应用已接收但未处理的访问请求可被更新后的应用继续处理，用户无需等待更新过程结束，有效提高用户使用应用的便利性。
+42. 105306465 网站安全访问实现方法及装置
+CN
+03.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510728012.0
+新浪网技术（中国）有限公司
+李文强
+H04L 29/06
+Loading...
+本发明实施例提供一种网站安全访问实现方法及装置，包括：接收用户发送的网站访问请求；根据其中包括的IP地址和根据访问日志文件设置的阻止规则，判断该IP地址是否是有攻击的IP地址或可能有攻击的IP地址；当判断出不是有攻击的IP地址和可能有攻击的IP地址，允许访问网站；当判断出是有攻击的IP地址，拒绝访问网站；当判断出是可能有攻击的IP地址，向用户获取验证码进行安全验证，验证通过时允许访问网站；验证不通过时拒绝访问网站。该方法能够根据动态访问日志动态调整访问限制规则，实现网络安全访问的动态调整，从而提高网络安全访问规则设置的灵活性和自动化程度。
+43. 105278922 一种数据分发方法、系统及装置
+CN
+27.01.2016
+G06F 9/38 Loading...
+G06F 9/38
+Loading...
+201510634599.9
+新浪网技术（中国）有限公司
+王旋
+G06F 9/38
+Loading...
+本发明实施例提供一种数据分发方法、系统及装置，该方法包括：分发服务器接收到用户的数据文件获取请求；分发服务器根据数据分发进程的总进程数，确定数据文件的索引标识ID与数据分发进程的对应关系；分发服务器获取数据库服务器中存储的用户分享的数据文件，根据数据分发进程的进程号、以及所述索引ID与数据分发进程的对应关系，将数据文件加载到与相应的数据分发进程对应的数据处理队列中供下载服务器读取。该方法能够提高数据分发的处理速度，避免数据堵塞发生，降低处理时延，减轻服务器负荷。
+44. 105227352 一种用户标识集的更新方法及装置
+CN
+06.01.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510558014.X
+新浪网技术（中国）有限公司
+周永
+H04L 12/24
+Loading...
+本申请公开了一种用户标识集的更新方法，用以在获得新增的用户标识时，使用新增的用户标识更新由识别出的、由表示同一用户的用户标识构成的用户标识集。方法包括：获得用户标识和待更新的用户标识集，并在获得的用户标识中，确定在同一业务行为中表示同一用户的用户标识之间的关联关系；对获得的用户标识和待更新的用户标识集中的用户标识进行聚类，得到更新后的用户标识集；根据更新后的用户标识集中的用户标识是否已包含唯一标识的判断结果，分别确定每个更新后的用户标识集的唯一标识，并建立唯一标识与更新后的用户标识集中各用户标识之间的映射关系。本申请还公开一种用户标识集的更新装置。
+45. 105224606 一种用户标识的处理方法及装置
+CN
+06.01.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510558017.3
+新浪网技术（中国）有限公司
+高翔
+G06F 17/30
+Loading...
+本申请公开了一种用户标识的处理方法，用以准确识别属于同一用户的各用户标识。方法包括：获得至少两个用户标识；其中，获得的用户标识包括：终端设备保存的用户标识；和/或用户在浏览数据平台时使用的用户标识；确定获得的用户标识中的、在同一业务行为中表示同一用户的用户标识之间的关联关系；根据所述关联关系和获得的用户标识，构建分布式连通子图，并利用构建的分布式连通子图，对获得的用户标识进行聚类，得到用户标识集；分别针对每个用户标识集生成唯一标识，并建立唯一标识与相应的用户标识集中各用户标识之间的映射关系。本申请还公开一种用户标识的处理装置。
+46. 105187429 基于ASCII码的字符二维码终端登陆方法、装置及系统
+CN
+23.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510586482.8
+新浪网技术（中国）有限公司
+张杰
+H04L 29/06
+Loading...
+本发明实施例提供基于ASCII码的字符二维码终端登陆方法、装置及系统，所述方法包括：当用户登录通道机，输入目的服务器地址时，向服务器端发出获取ASCII码的二维码数据的请求；接收所述服务器端反馈的ASCII码的二维码数据；根据所述ASCII码的二维码数据生成对应的字符二维码进行展示，并启动一个线程执行与所述服务器端的长轮询；当通过与所述服务器端的长轮询，得到验证成功的信息后，跳转到所述用户输入的目的服务器地址对应的界面。本发明实施例可扩展性强，实现了基于ASCII码而不是基于图片的二维码，这样解决了在字符终端界面显示二维码的问题。
+47. 105159668 PaaS系统中的类加载实现方法及装置
+CN
+16.12.2015
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201510490247.0
+新浪网技术（中国）有限公司
+王阳
+G06F 9/44
+Loading...
+本发明实施例提供一种PaaS系统中的类加载实现方法及装置，该方法包括：获取待加载类的代码描述信息；根据所述代码描述信息确定待加载类的级别；当确定所述待加载类的级别高于用户级别时，加载所述待加载类；当确定所述待加载类的级别为用户级别时，从加载所述待加载类的类加载器中获取保护域的权限集合，根据获取的权限集合创建所述待加载类对应的保护域。该方法既能实现类加载的自定义、具有较好的易用性，又能保证安全性。
+48. 105138555 一种网页多语言国际化的加载方法和装置
+CN
+09.12.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510427330.3
+新浪网技术（中国）有限公司
+张良
+G06F 17/30
+Loading...
+本发明实施例提供一种网页多语言国际化的加载方法和装置，所述方法包括：当用户终端上浏览器的网页模板加载完成后，根据缓存在该用户终端上的数据，判断该用户终端是否已设置网页语言；若所述用户终端已设置网页语言，则载入所述网页语言对应的语言配置文件；利用所述语言配置文件进行网页多语言国际化的加载。上述技术方案具有如下有益效果：采用载入网页语言对应的语言配置文件的方式来减少数据请求和连接数，提高了页面加载效率。
+49. 105100101 一种基于SSL会话的方法、装置及系统
+CN
+25.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510462829.8
+新浪网技术（中国）有限公司
+李鹏
+H04L 29/06
+Loading...
+本发明实施例提供一种基于SSL会话的方法、装置及系统，所述方法包括：接收客户端发送的客户问候消息；根据所述客户问候消息判断是否有会话识别内容，得到判断结果；根据所述判断结果，对与所述客户端SSL会话的SSL集群中的SSL服务器进行调度，将所述客户问候消息发往对应SSL服务器。上述技术方案具有如下有益效果：不但提高了SSL？Session命中率，而且实现了集群扩展。
+50. 105069108 基于PaaS系统大数据查询方法及装置
+CN
+18.11.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510484889.X
+新浪网技术（中国）有限公司
+王阳
+G06F 17/30
+Loading...
+本发明实施例提供一种基于PaaS系统的大数据查询方法及装置，该方法包括：获取用户输入的查询请求信息；根据用户输入的查询请求信息，查询存储的用户行为数据，并存储查询到的查询结果以及将查询结果展示给用户；所述存储的用户行为数据包括抓取的外部系统记录的用户行为数据和抓取的PaaS系统内部记录的用户行为数据。该方法能够方便、快捷、高速、高效的实现用户行为数据的查询分析，且成本投入低。
+51. 105072111 PaaS系统中的java安全验证方法及装置
+CN
+18.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510484902.1
+新浪网技术（中国）有限公司
+王阳
+H04L 29/06
+Loading...
+本发明实施例提供一种PaaS系统中的java安全验证方法及装置，该方法包括：当需要对待操作文件进行操作时，判断是否配置了安全管理器；若配置了安全管理器，获取原始策略文件和扩展策略文件；根据原始策略文件中的权限项列表和扩展策略文件中的权限项列表，对待操作文件进行原始策略权限检查和扩展策略权限检查，当所有权限项都检查通过时，确认对待操作文件的安全验证通过。能够实现安全策略的灵活配置、针对不同的需求配置不同的安全策略，可扩展性好。
+52. 105049334 电子邮件过滤方法及装置
+CN
+11.11.2015
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201510470653.0
+新浪网技术（中国）有限公司
+郝双
+H04L 12/58
+Loading...
+本发明实施例提供一种电子邮件过滤方法及装置，该方法包括：获取待过滤的电子邮件；确定所述电子邮件的邮件类型，以及确定所述电子邮件的收件用户所属的用户类型；根据预先建立的用户类型和邮件类型的对应关系，判断所述待过滤的电子邮件的邮件类型是否属于所述收件用户所属的用户类型所允许接收的邮件类型；当判断为是时，确定所述待过滤的电子邮件不是垃圾邮件；当判断为否时，确定所述待过滤的电子邮件是垃圾邮件。在实现个性化电子邮件过滤时，占用的存储资源比较小，能够节省存储空间，提高电子邮件过滤的速度和效率。
+53. 105045762 一种配置文件的管理方法及装置
+CN
+11.11.2015
+G06F 15/177 Loading...
+G06F 15/177
+Loading...
+201510445918.1
+新浪网技术（中国）有限公司
+李鹏
+G06F 15/177
+Loading...
+本申请公开了一种配置文件的管理方法及装置，该方法包括：接收各负载均衡实例，确定各负载均衡实例对应的标识，将各负载均衡实例及其对应的标识写入到同一个配置文件中，通过上述方法，由于所有的负载均衡实例都在同一个配置文件中，而一个配置文件只需一个进程运行，因此，不需要分配访问请求的负载均衡实例不会占用额外的进程，处于LBaaS架构下的云服务端也就不会浪费CPU资源来运行这些额外的进程，不仅节省了云服务端的CPU资源，同时也提高了云服务端的运行效率。
+54. 104268644 Method and device for predicting click frequency of advertisement at advertising position
+CN
+07.01.2015
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201410490512.0
+新浪网技术(中国)有限公司
+高翔
+G06Q 10/04
+Loading...
+The invention discloses a method and device for predicting the click frequency of an advertisement at an advertising position. The method comprises the steps that with respect to each orientation of the advertisement to be estimated issued at the advertising position, an advertisement exposure frequency prediction model which is selected in advance is used, and an advertisement exposure frequency predicted value of the orientation within a set prediction time period is obtained; according to the sum of statistical advertisement exposure frequency actual values of all the orientations and the sum of statistical advertisement click frequency actual values within a set historical time period, the advertisement click rate within the set historical time period is determined; the products of the advertisement exposure frequency predicted values of all the orientations and the advertisement click rate are calculated respectively, and the sum of the calculated products serves as the advertisement click frequency predicted value within the set prediction time period, wherein the advertisement exposure frequency prediction model is selected from at least two prediction models according to the prediction error rates of at least two advertisement exposure frequency prediction models trained in advance. The method can increase the advertisement click frequency prediction accuracy rate.
+55. 103995831 Object processing method, system and device based on similarity among objects
+CN
+20.08.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410158957.9
+新浪网技术(中国)有限公司
+刘洋
+G06F 17/30
+Loading...
+The invention discloses an object processing method, system and device based on similarity among objects. The method comprises the steps that similarity records with the names of the objects as indexes are searched for in an object similarity list according to the names of the objects referred to by an object processing instruction, and the objects are processed according to the searched similarity records; according to updating of the object similarity list, after features identical to the features of newly-added objects are searched for from a feature list with the features as indexes, the names of the original objects corresponding to the searched features are determined; the similarity of the original objects and the newly-added objects is stored in the similarity records with the names of the original objects as the indexes in the object similarity list; the similarity records with the names of the newly-added objects as the indexes are created in the object similarity list, and the similarity of the newly-added objects and the original objects is stored, and therefore similarity updating speed and object processing speed are improved.
+56. 103984703 Mail classification method and device
+CN
+13.08.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201410163082.1
+新浪网技术(中国)有限公司
+陈玉焓
+G06F 17/30
+Loading...
+The invention discloses a mail classification method and device. The method comprises the following steps: with regard to the class of each mail, calculating the possibility that a mail to be classified belongs to the mail class; taking the calculated possibility as the possibility of the class corresponding to the mail; sequencing the calculated possibility corresponding to each mail class and judging whether a feature word of the mail to be classified comprises at least one keyword of the mail class corresponding to the maximum possibility or not; if so, classifying the mail to be classified into the mail class corresponding to the maximum possibility; otherwise, calculating a difference value between the maximum possibility and a second possibility and a specific value between the difference value and the maximum possibility; if the specific value is less than a set rate threshold value and the feature word of the mail to be classified contains at least one keyword of the mail class corresponding to the second possibility, classifying the mail to be classified to the mail class corresponding to the second possibility. Therefore, the keyword of the set mail class enables the mail classification to be more accurate.
+57. 103942051 Application deployment method and device based on PAAS platform
+CN
+23.07.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410150666.5
+新浪网技术(中国)有限公司
+王阳
+G06F 9/44
+Loading...
+The invention discloses an application deployment method and device based on a PAAS platform. The method comprises the steps that a constant pool of a binary file of an application to be deployed is scanned, and the names of utility categories referenced by the binary file are determined from the constant pool; the names, corresponding to the names of the utility categories, of proxy categories are searched for in a replacement list, and the names of the utility categories in the constant pool are replaced with the searched names of the proxy categories; statements calling specific categories, corresponding to the utility categories corresponding to the proxy categories, in the PAAS platform are packaged in the proxy categories; the binary lengths of the names of the corresponding utility categories and proxy categories in the replacement list are equal; according to the binary file with the names of the utility categories in the constant pool replaced, the application is deployed to operate in the PAAS platform. Through the method and device, the modification number of underlying codes can be reduced, and BUG arising risks can be reduced.
+58. 103745092 Evaluation method and evaluation system for utilization ratio of server
+CN
+23.04.2014
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201310722907.4
+新浪网技术(中国)有限公司
+揭震
+G06F 11/34
+Loading...
+The invention discloses an evaluation method and an evaluation system for the utilization ratio of a server. The method comprises the following steps that: the utilization estimated value of the server is determined according to the index data of various indexes aiming at the utilization ratio correlated characteristics of the server, and the weights of the various indexes; the utilization ratio of the server is determined according to the utilization estimated value of the server, wherein the weights of the indexes are determined according to importance degree compared values among the various utilization ratio correlated characteristics, and importance degree compared values among the various indexes under the same utilization ratio correlated characteristic. By applying the evaluation method and the evaluation system disclosed by the invention, the evaluation accuracy of the utilization ratio of the server can be improved.
+59. 103678549 Webpage table data sharing method and device
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310648053.X
+SINA.COM TECHNOLOGY (CHINA) CO., LTD.
+DU DAPENG
+G06F 17/30
+Loading...
+The invention discloses a webpage table data sharing method and device. The method includes the steps that a main feed reader in webpage tables opened by a browser sends a network request instruction to subscribers of the webpage tables, and after the subscribers of the webpage tables receive the network quest instruction, obtained network data are returned to the main feed reader; for each webpage table, sound monitors established for all feed readers of the webpage table exist in a sub page table which is loaded by the feed readers of the webpage table and has an appointed URL; the main feed reader sends received network data to the corresponding sound monitors, the sound monitors store the received network data into a local storage file with the assigned URL, after each sound monitor receives a storage event notice sent by the browser, the network data in the local storage file with the assigned URL are obtained and sent to the feed readers corresponding to the sound monitor; the network data received by each feed reader are transmitted to the subscribers, and therefore network sources are saved, and loads of a server are reduced.
+60. 103678009 Method and device for webpage table subscriber to receive network data
+CN
+26.03.2014
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+201310653272.7
+SINA.COM TECHNOLOGY (CHINA) CO., LTD.
+DU DAPENG
+G06F 9/54
+Loading...
+The invention discloses a method and device for a webpage table subscriber to receive network data. The method includes the steps that after a connection establishment instruction sent by the subscriber is received by a feed reader established by the subscriber in a webpage table opened by a browser, if a WebSocket module is effective, a network connection API of the module is called, and the network data are sent to the subscriber after being received in a WebSocket mode; otherwise, if a FlashSocket module is effective, a network connection API of the module is called, the network data are sent to the subscriber after being received in a FlashSocket mode, if the FlashSocket module is not effective, a network connection API of an Etag module is called, and the network data are sent to the subscriber after being received in an Etag mode. Therefore, the function that a majority of mobile terminals and a majority of PCs receive the network data in a webpage table updated in real time can be supported better.
+61. 103678577 Method and device for updating data
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310671693.2
+SINA.COM TECHNOLOGY (CHINA) CO., LTD.
+HUANG XU
+G06F 17/30
+Loading...
+The invention discloses a method and device for updating data. The method for updating the data comprises the steps that when the data need to be updated, the data to be updated are stored in an idle memory space of a data table; a data index corresponding to the data to be updated and a memory address, in the data table, of the data to be updated are correspondingly stored in an updating queue; a memory address, corresponding to the data index corresponding to the data to be updated, in the updating queue is used for updating a memory address, corresponding to the data index, in an index address table, wherein the corresponding relation between data indexes of data stored in the data table and memory addresses, in the data table, of the stored data is recorded in the index address table. According to the scheme, compared with the prior art, copies of the data table are not needed, the occupied memory space is small, and system resources are saved.
+62. 103684885 Method and device for determining web server accessing abnormities
+CN
+26.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310753071.4
+新浪网技术（中国）有限公司
+黄旭
+H04L 12/24
+Loading...
+The invention discloses a method and device for determining web server accessing abnormities. The method comprises the following steps: obtaining the terminal IP address of each access in a plurality of accesses to the web server of any IDC (Internet Data Center) of an appointed website within a preset time period; inquiring a network operator, classified according to local position, to which the IP address belongs, from an IP library aiming at the obtained terminal IP address of each access; determining the accessing frequency of the terminal IP address belonging to the network operator to the IDC for each inquired network operator; determining whether an abnormity exists on an accessing to the web server of the IDC within a preset time period on the basis of the accessing frequency of each determined network operator to the IDC. After the adoption of the scheme provided by the embodiment of the invention, detecting of web server accessing abnormity caused by unreasonable IP address feedback of the web server in domain name resolution can be achieved.
+63. 103647694 E-mail cleaning method and device <
+CN
+19.03.2014
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310446556.9
+SINA CORPORATION
+WANG HUAIZONG
+H04L 12/58
+Loading...
+The invention discloses an E-mail cleaning method and device. The method comprises the following steps: a list of E-mails to be cleaned is screened out from an index server; and then, the identifier of each E-mail to be cleaned in the list of E-mails to be cleaned is inserted into a cleaning queue corresponding to a storage server for storing the E-mail to be cleaned represented by the identifier of the E-mail to be cleaned; and the E-mail to be cleaned stored in each storage server is cleaned according to the identifier of the E-mail to be cleaned in the cleaning queue corresponding to each storage server. By adopting the scheme provided in the embodiments of the invention, the E-mail cleaning efficiency can be improved, and the consumption of network resources can be reduced, and effective control can be performed on the cleaning load of each storage server, so the problem of high storage server cleaning load which possibly occurs can be avoided.
+64. 103634301 Client side and method for accessing private data stored in server by user
+CN
+12.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310566731.8
+SINA CORPORATION
+HE ZHIHAN
+H04L 29/06
+Loading...
+The invention discloses a mobile terminal and a method for accessing private data stored in a server by a user. The method comprises the steps of after a locally-saved access token is transmitted to a resource access interface by a client side arranged in the mobile terminal, calling a web browsing assembly and loading an authorized page of the server in an invisible way if out-of-date or invalid token information returned by the server is received; then, injecting a script code command in the web browsing assembly by the client side, and returning a user name and passwords which are locally saved to the server; after an access token returned by the server is received, updating the locally-saved access token by using the currently-received access token, calling the resource access interface of the server again, transmitting the currently-received access token to the resource access interface, and obtaining and showing the private data of the user from the server. By applying the method disclosed by the invention, the operation of repeatedly inputting the user name and password information by the user can be prevented when the access token of the client side is out-of-date, and the user experience is increased.
+65. 103634201 Electronic mail system and electronic mail quarantine processing method thereof
+CN
+12.03.2014
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310559808.9
+SINA CORPORATION
+SONG JIAN
+H04L 12/58
+Loading...
+The invention discloses an electronic mail system and an electronic mail quarantine processing method thereof. The system comprises a database server, an electronic mail sending server and a management platform server, wherein the database server is used for storing a quarantined electronic mail data sheet; the electronic mail sending server is used for judging whether an electronic mail is accordant with a quarantine condition or not, moving the electronic mail into a quarantine area, which corresponds to an quarantine condition, into the server after a positive judgment result is obtained, adding the quarantine information of the electronic mail into the quarantined electronic mail data sheet, performing operation of a corresponding quarantined electronic mail operation type on a corresponding electronic mail under a corresponding directory according to the directory name of the quarantine area, the file name of the electronic mail and the quarantined electronic mail operation type in a received quarantined electronic mail operation request, and returning an operation completion notice; the management platform is used for forwarding the received quarantined electronic mail operation request to the electronic mail sending server, and deleting the quarantine information of the electronic mail relative to the operation completion notice in the quarantined electronic mail data sheet after receiving the operation completion notice. According to the electronic mail system and the electronic mail quarantine processing method, the performance of the electronic mail sending server is ensured, and the network bandwidth is saved.
+66. 103634144 Method, system and equipment for managing multi-IDC (internet data center) cluster configuration file
+CN
+12.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310575110.6
+SINA CORPORATION
+SONG JIAN
+H04L 12/24
+Loading...
+The invention discloses a method, a system and equipment for managing a multi-IDC (internet data center) cluster configuration file. The method comprises the steps that according to the logo of the IDC cluster carried by a configuration updating request, the IP (internet protocol) address of one online server in the IDC cluster and the name of a configuration file, a supervisor acquires a corresponding configuration file as the copy of the configuration file to locally store the copy from the corresponding online server in the corresponding IDC cluster and displays configuration parameters in the copy of the configuration file by a configuration interface; after a configuration submit request is received, the corresponding configuration parameters in the copy of the configuration file are updated according to the configuration parameters modified through the configuration interface by a user; after a configuration issuing request is received, the copy of the configuration file is issued to each online server in the IDC cluster or is issued to each online server in each IDC cluster. Therefore, the management on the configuration file of multiple IDC clusters is realized by a simple logic, the management is more convenient and the stability of the online servers is higher.
+67. 103618758 Web server and system resource access control method thereof
+CN
+05.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310530031.3
+SINA CORPORATION
+ZHANG RENZHONG
+H04L 29/08
+Loading...
+The invention discloses a Web server and a system resource access control method thereof. The method comprises the following steps that: after receiving a Web request, a host process allocates the Web request to a work process, and the work process calls a marking module and transmits the allocated Web request to the marking module; the marking module analyzes the received Web request to obtain a user identifier, and transmits the user identifier which is obtained through analysis to a sandbox system module configured for the work process; and when the work process calls a resource access API of the sandbox system module, the resource access API limits resource access operation according to a resource limitation setting item of the user identifier. With the Web server and the system resource access control method thereof of the invention adopted, server resources can be saved under the premise that user resource isolation is realized.
+68. 103490898 E-mail collection authorization method, device and system
+CN
+01.01.2014
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201310432164.7
+新浪网技术（中国）有限公司
+崔金峰
+H04L 9/32
+Loading...
+The invention discloses an e-mail collection authorization method, device and system. The e-mail collection authorization method includes the steps that an e-mail collection server receives an e-mail collection authorization request with the address of a collected mailbox, wherein the e-mail collection authorization request is sent by a user terminal which logins to a collection mailbox; an e-mail collected server corresponding to the address of the collected mailbox is triggered, and an e-mail collection authorization page is pushed to the user terminal; an access password, corresponding to the address of the collected mailbox, sent by the mail collected server is received, and the access password is generated by the e-mail collected server after the user terminal authenticates the mail collection authentication page; the corresponding relation between the collection mailbox and the access password is built, and the collection mailbox is used for collecting e-mails of the collected mailbox. By the adoption of the scheme, when the password of the collected mailbox is changed, the access password cannot lose efficacy, and the mailbox collection server still can utilize the access password to collect the e-mails of the collected mailbox.
+69. 103491007 Method and device for transmitting data package
+CN
+01.01.2014
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201310419141.2
+新浪网技术（中国）有限公司
+胡锦江
+H04L 12/741
+Loading...
+The invention discloses a method and device for transmitting a data package. The method and the device are applied to a service server connected with load balancing equipment and other network equipment, and a DR mode is not adopted in the load balancing equipment. According to the scheme, the service server receives the request data package, a response data package corresponding to the request data package is determined, and according to the source MAC address of the request data package and a first routing list based on the MAC address, the response data package corresponding to the request data package is returned. Due to the adoption of the scheme, the complexity of route configuration and the maintenance difficulty of the routing list are lowered.
+70. 103490983 Enterprise mail system and mail migration executing method thereof
+CN
+01.01.2014
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310424669.9
+新浪网技术(中国)有限公司
+张亮
+H04L 12/58
+Loading...
+The invention discloses an enterprise mail system and a mail migration executing method thereof. The method comprises the steps that the enterprise mail system obtains a domain name, a user name and a password from a mail box login request after receiving the mail box login request sent by an enterprise user through a client side; after a migration function on state of the enterprise migration state corresponding to the domain name in a database is confirmed, the user migration state corresponding to the user name under the domain name is searched in the database; if the user migration state is a migration unfinished state, a pop domain name of an old enterprise mail system corresponding to the domain name in the database is obtained, and the analyzed user name and the analyzed password are used for sending a pop authentication request to the old enterprise mail system; after the information of the success of the pop authentication is sent back by the old enterprise mail system and is received, mails in a mail box of the user name in the old enterprise mail system are migrated to a mail box of the user name in the enterprise mail system. Therefore, the migration of the mails of enterprise users is convenient to achieve.
+71. 103440292 Method and system for retrieving multimedia information based on bit vector
+CN
+11.12.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310359716.6
+新浪网技术(中国)有限公司
+刘洁
+G06F 17/30
+Loading...
+The invention discloses a method and system for retrieving multimedia information based on a bit vector. The method comprises the steps that the characteristic data of the current multimedia information are extracted to obtain the n-dimensional high-dimensional characteristic vector of the current multi-media information; the n-dimensional high-dimensional characteristic vector is converted through a projection matrix to obtain an m-dimensional middle vector; all the elements of an m-dimensional threshold vector are compared with the corresponding elements of the middle vector respectively, and binaryzation is carried out on the middle vector according to a comparison result to obtain the m-dimensional bit vector of the current multimedia information; m is smaller than n; according to the obtained bit vector, a bit vector similar to the bit vector is searched for in a multimedia characteristic database, and the multimedia information corresponding to the found bit vector is used for being output as a retrieved result. The method ensures original vector identification capacity, and after the high-dimensional characteristic vector of the multimedia information is mapped into a low-dimensional bit vector, the retrieval efficiency based on the bit vector is higher, and the retrieval loss based on the bit vector is smaller.
+72. 103441920 Judgment method and device of junk mail server
+CN
+11.12.2013
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310352828.9
+新浪网技术(中国)有限公司
+王安国
+H04L 12/58
+Loading...
+The invention discloses a judgment method and device of a junk mail server. The method includes the steps that after the size of each received E-mail from a mail server to be judged is compared with at least two predetermined quantiles, the quantile which the E-mail belongs to is determined; with respect to a plurality of received E-mails from the mail server to be judged, the mean square error of serial numbers of the quantiles which the E-mails belong to is calculated; if the calculated mean square error is smaller than a set threshold value, the mail server is judged to be a junk mail server; the at least two quantiles are determined after a statistical analysis is made about the sizes of the E-mails of various non-junk mails in a data bank. Due to the fact that the junk mail server is judged according to the mean square error of the quantile which the E-mail belongs to, plenty of analyses and calculations of mail content are avoided, judging of the junk mail server is made to be rapider and more efficient, and the anti-jamming capability for judgment of the junk mail server is enhanced.
+73. 103425568 Method and device for processing log information
+CN
+04.12.2013
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201310371281.7
+新浪网技术(中国)有限公司
+彭昱玮
+G06F 11/34
+Loading...
+The invention discloses a method and a device for processing log information. The method comprises the following steps of obtaining the log information of a virtual machine or a host machine in a cloud environment to cache; when the set processing cycle U is reached, combining and processing the log information cached in the processing cycle; and for the same type of log information obtained from the same virtual machine or the same host machine, combining the continuously cached W log information into one log information, and then storing, wherein W is equal to U*M/N, M is the collecting frequency of the log information in the type, N is the statistical analysis frequency of the log information, and M is greater than N. As the same type of continuously cached log information is combined into one log information, and the log information is stored, the storage space is saved, the bandwith of a network is saved, and the cost of storing the raw data of a large amount of log information is reduced.
+74. 103384219 E-mail sending method and system
+CN
+06.11.2013
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310303764
+新浪网技术(中国)有限公司
+张亮
+H04L 12/58
+Loading...
+The invention discloses an e-mail sending method and system. The method includes that a mail distributing module of the e-mail sending system acquires e-mails to be sent from a to-be-sent queue and processes the e-mails every set time period sequentially; for the currently processed e-mail, under the condition that sending queues of a mail receiving server corresponding to the e-mail are not full and the times for sending e-mails to the mail receiving server in unit time, counted according to a sender of the e-mail and searched in a cache module are smaller than the time upper limit value set by the sender and the mail receiving server, the e-mail is stored in a sending queue corresponding to the mail receiving server; a mail sending module of the e-mail sending system acquires e-mails from the sending queues every set time period and sends the e-mails to the corresponding mail receiving server. Therefore, the rejection number is reduced, and the e-mail sending success rate is improved.
+75. 103347009 一种信息过滤方法及装置
+CN
+09.10.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310247624.9
+新浪网技术（中国）有限公司
+戴明洋
+H04L 29/06
+Loading...
+本发明公开了一种信息过滤方法及装置，用以解决现有技术中维护黑名单的效率较低，信息发布的时效性较低的问题。该方法通过规则过滤方法判断待过滤信息中是否包含敏感分词，若包含则直接将其过滤，否则，通过机器学习过滤方法判断其是否为非法信息，若是，则删除发布的该待过滤信息，否则保持该待过滤信息的发布状态。通过上述方法，需维护的黑名单中仅包括敏感分词，有效减少了需要维护的黑名单中的分词的数量，提高了维护黑名单的效率，而且，在通过规则过滤方法确定待过滤信息中不包含敏感分词时，可直接将其发布，即使该信息是除敏感信息以外的其他非法信息，后续也可通过机器学习过滤方法将发布的该信息删除，因此提高了信息发布的时效性。
+76. 103345496 多媒体信息检索方法和系统
+CN
+09.10.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310264225.3
+新浪网技术(中国)有限公司
+刘洁
+G06F 17/30
+Loading...
+本发明公开了一种多媒体信息检索方法及系统，所述方法包括：提取当前多媒体信息的特征数据，根据提取的特征数据得到所述当前多媒体信息的特征比特向量；对当前多媒体信息的特征比特向量进行分割，得到所述当前多媒体信息的k个子向量；针对所述当前多媒体信息的每个子向量，分别确定对应该子向量的候选集合；对于得到的候选集合中的各向量标识，分别在多媒体特征数据库中查找出对应的特征比特向量；并计算所述当前多媒体信息的特征比特向量与查找到的特征比特向量之间的汉明距离，将汉明距离符合设定条件的特征比特向量所对应的多媒体信息作为检索结果输出。利用上述方法通过建立分段索引结构对特征比特向量进行索引，能够大大提高多媒体信息检索速度和检索效率。
+77. 103338243 Web节点的缓存数据更新方法和系统
+CN
+02.10.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310247168.8
+新浪网技术(中国)有限公司
+尚斌
+H04L 29/08
+Loading...
+本发明公开了一种Web节点的缓存数据更新方法和系统，所述方法包括：Web节点在修改本节点缓存的数据后，更新中心节点服务器中相应的数据；并向清除接口服务器发送清除消息，所述清除消息中携带有对应所述数据的键值；所述清除接口服务器将所述清除消息发送到其它Web节点；所述其它Web节点查找本节点中是否缓存有所述键值对应的数据；若有，则将所述键值对应的数据删除；所述其它Web节点若接收到所述数据的请求信息，则从所述中心节点服务器中获取更新后的数据。本发明的技术方案中，其它Web节点在无该数据的情况下，若接收到用户对该数据的请求，则从中心节点服务器获取更新后的数据，避免出现返回更新前的错误数据的现象。
+78. 103338233 负载均衡设备、Web服务器及请求信息处理方法和系统
+CN
+02.10.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310222399.3
+新浪网技术(中国)有限公司
+陈磊
+H04L 29/08
+Loading...
+本发明公开了一种负载均衡设备、Web服务器及请求信息处理方法和系统，所述系统包括：负载均衡设备、配置信息数据库和网络Web服务器；其中，负载均衡设备根据接收的请求信息中携带的地址信息确定出该请求信息请求访问的网站后，从配置信息数据库中获取该网站的PHP配置信息后将其携带在该请求信息后向Web服务器转发；Web服务器根据请求信息中携带的PHP配置信息对PHP运行环境进行动态配置；经动态配置后的PHP运行环境根据该请求信息运行相应的PHP脚本程序，生成网页向客户端返回。如此在进行网站维护时，只需在配置信息数据库中统一维护各网站的PHP配置信息，从而大大减少了维护工作量，降低了维护成本。
+79. 103326885 一种报警信息的处理方法及装置
+CN
+25.09.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310219531.5
+新浪网技术（中国）有限公司
+马晓越
+H04L 12/24
+Loading...
+本发明公开了一种报警信息的处理方法及装置，用以解决现有技术中出现故障的网络设备长时间得不到恢复的问题。该方法监控机获得报警信息后，确定该报警信息的属性信息，当根据确定的属性信息判定该报警信息为新增报警信息时，在预设的新增报警视图中显示该报警信息。通过上述方法，监控机可将未处理过的新增报警信息显示在单独的一个视图中，因此可有效避免监控人员出现漏报，从而使出现故障的网络设备可以及时恢复。
+80. 103312785 一种访问关系的确定方法及装置
+CN
+18.09.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310182324.7
+新浪网技术（中国）有限公司
+刘洋
+H04L 29/08
+Loading...
+本申请公开了一种访问关系的确定方法及装置，用以解决现有技术中在确定页面访问关系过程中所导致的页面的加载速度较低的问题。该方法网站服务器提取自身保存的日志文件，并根据日志文件中记录的每个用户访问的各页面，以及每个用户访问各页面的顺序，确定待定页面的访问关系。通过上述方法，网站服务器可基于保存的日志文件在后台确定页面的访问关系，而无需通过在前台展示的页面中添加第三方代码来确定访问关系，因此可解决现有技术中在确定页面访问关系过程中所导致的页面的加载速度较低的问题，有效提高页面的加载速度。
+81. 103312812 一种移动应用的业务处理方法、装置及系统
+CN
+18.09.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310261964.7
+新浪网技术（中国）有限公司
+黎智云
+H04L 29/08
+Loading...
+本发明公开了一种移动应用的业务处理方法、装置及系统，包括：PaaS平台侧的PaaS应用接收来自移动端侧的与该PaaS应用对应的应用客户端的业务处理请求；并当该业务处理请求用于请求进行非后端服务处理时，按照与请求的非后端服务对应的非后端服务处理方式进行业务处理；并当该业务处理请求用于请求进行后端服务处理时，按照与请求的后端服务对应的后端服务处理方式，通过与PaaS平台侧的PaaS云服务端之间的信息交互，进行业务处理；以及向该应用客户端返回与该业务处理请求对应的业务处理响应。采用本发明实施例提供的方案，降低了通过云服务技术为移动应用提供服务的局限性。
+82. 103294581 一种数据监控方法、装置及系统
+CN
+11.09.2013
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+201310214933.6
+新浪网技术（中国）有限公司
+黎智云
+G06F 11/30
+Loading...
+本发明公开了一种数据监控方法、装置及系统，应用于PaaS平台上运行的第一应用，包括：第一应用获取自身所位于进程的运行状况数据，作为PaaS平台上运行的且与第一应用位于同一进程中的第二应用的运行状况数据；并展现获取的第二应用的运行状况数据。采用本发明实施例提供的方案，实现了对PaaS平台上运行的应用的运行状况数据的监控。
+83. 103279339 一种代码上线系统及方法
+CN
+04.09.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310140680.2
+新浪网技术（中国）有限公司
+张朝
+G06F 9/44
+Loading...
+本发明公开了一种代码上线系统及方法，包括：前端服务器根据代码上线任务的任务属性信息，生成该代码上线任务的任务处理信息，以及将生成的该任务处理信息保存到数据库服务器中；数据库服务器存储代码上线任务的任务处理信息；版本控制服务器存储代码上线任务对应的各代码文件；中控机服务器从数据库服务器中根据该任务处理信息，从版本控制服务器中获取该代码上线任务对应的待上线代码文件，以及将获取的该代码上线任务对应的待上线代码文件分发给业务服务器。采用本发明实施例提供的方案，提高了代码上线的效率。
+84. 103279353 一种应用优化策略确定方法、装置及系统
+CN
+04.09.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310214923.2
+新浪网技术（中国）有限公司
+黎智云
+G06F 9/44
+Loading...
+本发明公开了一种应用优化策略确定方法、装置及系统，包括：第一应用在预设时间段内获取自身所位于进程的运行状况数据，作为PaaS平台上运行的且与第一应用位于同一进程中的第二应用的运行状况数据；并基于获取的第二应用的运行状况数据，确定对第二应用进行性能优化的优化策略。采用本发明实施例提供的方案，能够基于PaaS平台上的应用实际运行的运行状况数据，针对该应用确定出更合理的优化策略。
+85. 103281206 一种连接关系的确定系统、方法及装置
+CN
+04.09.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310206709.2
+新浪网技术（中国）有限公司
+马晓越
+H04L 12/24
+Loading...
+本发明公开了一种连接关系的确定系统、方法及装置，用以解决现有技术中确定连接关系的效率和准确性较低的问题。该方法服务器接收到交换机发送的携带交换机的标识以及所使用的物理端口的指定报文后，将服务器自身的标识、接收指定报文所使用的物理端口的标识以及该指定报文中携带的交换机的标识和交换机的物理端口的标识携带在第一数据中，并上报给数据库，数据库使用第一数据确定连接关系。上述方法无需人工记录连接关系，也无需通过编写脚本获取MAC地址，因此可提高确定连接关系的效率，而且即使将服务器或交换机中的多个物理端口进行合并，上述方法仍可准确的确定连接关系，提高了确定连接关系的准确性。
+86. 103235965 一种二维码图像处理方法及装置
+CN
+07.08.2013
+G06K 19/06 Loading...
+G06K 19/06
+Loading...
+201310098511.7
+新浪网技术（中国）有限公司
+蒋玉新
+G06K 19/06
+Loading...
+本发明公开了一种二维码图像处理方法及装置，包括：获取输入的个性元素的属性及属性值；基于该输入的个性元素的属性及属性值对待处理二维码图像进行处理，得到个性二维码图像。采用本发明提供的方法和装置，能够生成个性元素更多样化的二维码图像。
+87. 103218419 网络标签聚类方法和系统
+CN
+24.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310109375.7
+新浪网技术(中国)有限公司
+陈玉焓
+G06F 17/30
+Loading...
+本发明公开了一种网络标签聚类方法和系统，所述方法包括：根据网络标签向量集中各网络标签向量的模值大小对二维化的网络标签向量进行排序；根据排序结果，选取数目与簇数目相一致的、网络标签向量集中排序在前的网络标签向量，分别作为所述网络标签向量集中各簇的初始质心；所述簇数目为所述网络标签向量集中待聚类的簇的数目；根据簇数目，以及确定的各簇的初始质心，对所述网络标签向量集运用聚类算法得到所述网络标签向量集中聚类后的各簇。本发明将网络标签向量二维化，从而可以采用优化初始质心和或优化簇数目的技术手段，来提高网络标签向量进行聚类的精度，即提高了网络标签向量对应的网络标签的聚类精度。
+88. 103207899 文本文件推荐方法及系统
+CN
+17.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310088575.9
+新浪网技术(中国)有限公司
+刘洋
+G06F 17/30
+Loading...
+本发明公开了一种文本文件推荐方法及系统，所述方法包括：确定出当前文本文件的词语集合后，确定该词语集合中的每个词语的TF值或TF‑IDF值，确定出当前文本文件的隐含主题特征向量，分别计算所述当前文本文件的隐含主题特征向量与各待推荐文本文件的隐含主题特征向量之间的相似度，选择隐含主题特征向量与所述当前文本文件的隐含主题特征向量的相似度符合预设的筛选条件的待推荐文本文件进行推荐。由于隐含主题特征向量来计算文本文件之间相似度，从而使得文本文件推荐系统的推荐方法更加准确。
+89. 103207907 一种索引文件合并方法及装置
+CN
+17.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310105560.9
+新浪网技术（中国）有限公司
+叶森
+G06F 17/30
+Loading...
+本发明公开了一种索引文件合并方法及装置，循环执行如下步骤，直到对待合并的多个索引文件进行合并处理完成：依次针对该多个索引文件中的每个索引文件，当该索引文件中存在未获取过的索引结构体，且内存中未缓存有该索引文件中的索引结构体时，从该索引文件的未获取过的索引结构体中按照索引项的指定顺序获取预设数量的索引结构体，得到若干个索引结构体；并将得到的该若干个索引结构体缓存到内存中；并针对内存中当前缓存的所有索引结构体，进行索引结构体的合并处理，得到合并后的索引结构体；以及将合并后的索引结构体保存到合并后索引文件中。采用本发明实施例提供的方案，降低了内存资源消耗，且提高了合并处理的效率。
+90. 103209116 多平台信息发布方法和系统
+CN
+17.07.2013
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201310128129.6
+新浪网技术(中国)有限公司
+何知翰
+H04L 12/58
+Loading...
+本发明公开了一种多平台信息发布方法和系统，所述方法包括：接收用户输入的信息发布指令后，针对所述指令所涉及的每个账号，在与该用户相关联的好友信息组中查找是否存储有与该账号相同的账号；若有，则将存储有与该账号相同的账号的好友信息组确定为发布对象信息组；将确定为发布对象信息组中的各账号确定为发布对象账号，并从所述发布对象信息组中获取每个发布对象账号的平台信息；根据每个发布对象账号及其平台信息，发布所述指令所涉及的发布内容。由于在进行多平台信息发布时，有针对性地在与用户相关的好友信息组中确定发布对象账号，向确定的发布对象账号进行信息发布，能够更为保证发布对象的准确性。
+91. 103198108 一种索引数据更新方法、检索服务器及系统
+CN
+10.07.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310100783.6
+新浪网技术（中国）有限公司
+叶森
+G06F 17/30
+Loading...
+本发明公开了一种索引数据更新方法、检索服务器及系统，包括：检索服务器当需要对其对应的索引库中的索引数据进行更新时，对该索引库中的索引数据进行缓存；并使用待更新索引数据对该索引库中的索引数据进行更新；以及在对该索引库中的索引数据进行更新的过程中，当接收到检索请求时，基于缓存的索引数据进行索引查询。采用本发明实施例提供的方案，提高了更新索引库中的索引数据时进行索引查询的实时性，进而提高了对检索请求进行处理的处理效率。
+92. 103177105 Method and device of image search
+CN
+26.06.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310100027.3
+新浪网技术（中国）有限公司
+刘洁
+G06F 17/30
+Loading...
+The invention provides a method and a device of image search. The method of the image search comprises extracting a plurality of local features of a to-be-searched image; confirming a high-information-content local feature in which contained information content is larger than a preset information content threshold from the plurality of local features; and confirming a similar image which has a local feature matched with the high-information-content local feature from images in an image library, and using a similar image as an image search result which corresponds to the to-be-searched image. The method and the device of the image search solve the problem that in the prior art, image search on the basis of local features of a to-be-searched image is low in accuracy, and relate to the technical field of the image search.
+93. 103176953 一种文本处理方法及系统
+CN
+26.06.2013
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+201310090249.1
+新浪网技术（中国）有限公司
+戴明洋
+G06F 17/21
+Loading...
+本发明公开了一种文本处理方法及系统，用以解决现有技术中文本处理的效率和准确性较低的问题。该方法文本处理系统对文本进行分词得到单元词，针对每个单元词，根据该单元词中的字以及该单元词确定该单元词的词性，并据此确定该单元词的实体词属性，根据每个单元词的实体词属性识别文本中的实体词，根据识别出的实体词对文本进行处理。通过上述方法，文本处理系统是以单元词为单位进行实体识别的，因此可以有效缩短采用CRF算法解码时的路径长度，提高实体识别的效率和准确性，从而提高了后续基于识别出的实体词进行文本处理的效率和准确性。
+94. 103116628 图像文件数字签名、以及重复图像文件判断方法和装置
+CN
+22.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310039144.3
+新浪网技术(中国)有限公司
+刘洁
+G06F 17/30
+Loading...
+本发明公开了一种图像文件数字签名、以及重复图像文件判断方法和装置，所述方法包括：对于为灰度图像的图像文件，将其进行缩放，得到设定大小的灰度图像；计算所述设定大小的灰度图像的灰度均值；根据计算出的灰度均值，将所述设定大小的灰度图像转换为设定大小的二值图像；根据所述二值图像生成该图像文件的数字签名。由于将图像文件缩放为设定大小，该过程中保留了图像文件的主体结构信息，而忽略掉一些细节信息，可以防止实质的图像内容相同而细节微小变化导致的不同数字签名，从而在图像去重过程中误判为不同图像没有进行去重处理；因此，本发明的数字图像签名方法可以被有效地被应用于图像去重的处理步骤中。
+95. 103116752 图片审核方法和系统
+CN
+22.05.2013
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+201310058758.6
+新浪网技术(中国)有限公司
+郝双
+G06K 9/20
+Loading...
+本发明公开了一种图片审核方法和系统，所述方法包括：对文本图片进行OCR处理，提取该文本图片中的文本信息；对提取的文本信息进行关键字/词的匹配，判断其中是否包含要过滤的关键字/词；若是，则对该文本图片进行过滤处理。由于将文本图片中的文本信息提取出来，根据提取的文本信息对文本图片进行要过滤的关键字/词的审核，从而可以实现对文本图片进行审核的目的。
+96. 103116639 基于用户-物品二分图模型的物品推荐方法及系统
+CN
+22.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310054742.8
+新浪网技术(中国)有限公司
+刘洋
+G06F 17/30
+Loading...
+本发明公开了一种基于用户-物品二分图模型的物品推荐方法及系统。该方法包括：提取获取的用户行为信息，构建用户-物品二分图模型；基于构建的用户-物品二分图模型，构建物品到用户的倒排列表模型并计算物品权重，构建用户-物品权重列表；根据构建的用户-物品权重列表，计算用户对应的物品对权重以及物品对的共同用户权重，构建物品对-共同用户权重列表；按照预先设置的相似度算法进行运算，获取物品间相似度列表；查询构建的用户-物品二分图模型，获取待推荐用户映射的物品，根据待推荐用户映射的物品查询物品间相似度列表，获取查询结果，根据查询结果生成推荐列表。应用本发明，可以降低推荐所需的计算量、提升推荐效率。
+97. 103116641 获取排序的统计数据的方法及排序装置
+CN
+22.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310055790.9
+新浪网技术(中国)有限公司
+张任重
+G06F 17/30
+Loading...
+本发明公开了一种获取排序的统计数据的方法及排序装置。该方法包括：预先在内存中设置用于存储统计数据的第一扩展红黑树以及第二扩展红黑树；接收到统计数据后，在内存中进行查询，如果未查询到接收的统计数据对应的键，根据接收的统计数据对应的值、第一扩展红黑树存储的各统计数据对应的最小值、第二扩展红黑树存储的各统计数据对应的最小值以及最大值，更新内存中存储的统计数据；如果查询到，根据接收的统计数据对应的值，更新第一扩展红黑树或第二扩展红黑树中查询到的统计数据；接收到排序查询请求后，在第一扩展红黑树中获取排序查询请求对应的排序的第一阈值的统计数据。应用本发明，可以降低排序所需的时间、提高统计数据的排序效率。
+98. 103106262 文档分类、支持向量机模型生成的方法和装置
+CN
+15.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310033125.X
+新浪网技术(中国)有限公司
+戴明洋
+G06F 17/30
+Loading...
+本发明公开了一种文档分类、支持向量机模型生成的方法和装置，所述方法包括：根据待分类文档的特征向量、以及根据经过类别扁平化处理的训练集生成的支持向量机模型，确定该待分类文档所属类别，其中，训练集的类别扁平化处理过程包括：针对训练集中的每个训练样本，对该训练样本预先设置的所属类别，按类别的层级高低进行排序；针对该训练样本所属的每个类别，从层级较高的类别开始，判断该训练样本所属类别中是否有该类别的子类类别；若有，则将该类别从该训练样本所属类别中剔除。由于根据类别之间的层级关系先对训练集进行类别扁平化处理，从而使得得到的支持向量机模型可适用于对多层级类别的文档进行分类，使得分类结果具有较好的精确性。
+99. 103095820 一种确定访问页面的终端数量的方法及装置
+CN
+08.05.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310001451.2
+新浪网技术（中国）有限公司
+刘洋
+H04L 29/08
+Loading...
+本发明公开了一种确定访问页面的终端数量的方法及装置，包括：获取历史时间段内访问页面集合中的页面的终端数量，以及该历史时间段内该页面集合中的页面被访问的次数；并确定获取的该终端数量与该次数的比值；以及基于确定的该比值，根据统计的评估时间段内该页面集合中的页面被访问的次数，确定该评估时间段内访问该页面集合中的页面的终端数量。采用本发明实施例提供的方案，减少了确定访问页面的终端数量时消耗的处理资源，并提高了处理效率。
+100. 103092920 半结构化数据的存储方法及存储系统
+CN
+08.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210574109.7
+新浪网技术(中国)有限公司
+侯军伟
+G06F 17/30
+Loading...
+本发明公开了一种半结构化数据的存储方法及存储系统。该方法包括：关系型数据库插件接收用户的数据查询请求，调用关系型数据库存储引擎查询内存，所述内存通过所述关系型数据库存储引擎用最近最少使用队列维护数据，将预定时间内未被使用的数据从内存中逐出，存放在外部的固态硬盘中；关系型数据库存储引擎判断内存中是否存储有数据查询请求对应的数据；如果有，将查询得到的数据携带在数据查询请求结果中进行输出；如果未存储有，从外部的固态硬盘中进行查询，通过外部的固态硬盘查询，获取数据查询请求结果进行输出。应用本发明，可以提高资源利用率、提升查询响应速度。
+101. 103077164 文本分析方法及文本分析器
+CN
+01.05.2013
+G06F 17/27 Loading...
+G06F 17/27
+Loading...
+201210581448.8
+新浪网技术(中国)有限公司
+戴明洋
+G06F 17/27
+Loading...
+本发明公开了一种文本分析方法及文本分析器。该方法包括：对获取的文本以字符为单位进行切分处理，对切分得到的字符按照预先设置的字符特征进行特征标注，形成特征字串；按照预先构建的分词模型，对特征字串进行分词处理，得到包含字序的分词结果；根据分词结果中的字序进行合并处理，对合并得到的词按照预先设置的字符特征进行特征标注，形成特征词串；根据预先构建的词性标注模型，对特征词串进行词性标注，得到词性标注结果；确认词性标注结果中包含实体词词性标注，则按照相邻相同规则，合并词性标注结果中包含实体词词性标注的实体词，得到文本分析结果。应用本发明，可以提高实体词的文本分析准确率。
+102. 103067463 用户root权限集中管理系统和管理方法
+CN
+24.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210557359.X
+新浪网技术(中国)有限公司
+聂彦超
+H04L 29/08
+Loading...
+本发明公开了一种用户root权限集中管理系统和管理方法，所述系统包括：授权管理服务器、数据中心，以及服务器集群；其中，所述授权管理服务器接收用户权限修改信息后，更新数据中心的权限信息数据库中的记录；所述服务器集群中的服务器在用户登录、输入root权限命令后，根据该用户登录的用户名、输入的root权限命令的名称、服务器标识生成查询条件，使用该查询条件查询数据中心；根据查询结果，决定是否执行root权限命令。由于将用户权限信息存储在数据中心，由数据中心统一对服务器集群中的各服务器的用户root权限进行集中管理，而不必在每台服务器的配置文件中存储有所有的用户权限信息；从而大大节约了系统中的资源。
+103. 103051742 IP地址属性确定方法、页面处理方法、相关设备及系统
+CN
+17.04.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201210558947.5
+新浪网技术（中国）有限公司
+张晓龙
+H04L 29/12
+Loading...
+本发明公开了一种IP地址属性确定方法、页面处理方法、相关设备及系统，包括：根据客户端发送的页面访问请求，向该客户端返回对应的请求页面；并接收该客户端在接收到该请求页面之后生成并发送的测试域名；并确定与该测试域名对应的该客户端的IP地址；以及确定该客户端在针对该测试域名对应的IP地址时使用的DNS服务器的IP地址；以及确定该客户端使用的该DNS服务器的IP地址的属性，与该测试域名对应的该客户端的IP地址的属性是否相同。采用本发明实施例提供的方案，能够确定客户端使用的DNS服务器的IP地址的属性，与客户端的IP地址的属性是否相同。
+104. 103051706 应用于动态网站的动态网页请求处理系统和方法
+CN
+17.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210555498.9
+新浪网技术(中国)有限公司
+王浩宇
+H04L 29/08
+Loading...
+本发明公开了一种应用于动态网站的动态网页请求处理系统和方法，所述系统包括：负载均衡设备、静态资源请求处理服务器、存储服务器；负载均衡设备用于根据请求中被请求资源的后缀名，若确定该请求为静态资源请求，则将该请求发送给静态资源请求处理服务器；静态资源请求处理服务器在缓存中若查找到对应于该请求的请求处理结果，则向所述客户端返回；否则，对该请求进行处理，得到请求处理结果向客户端返回，并在缓存中对应于该请求存储得到的请求处理结果。由于动态网站对于请求的资源是静态的这类请求的重复请求，不再对其进行解释、处理，而是将之前存储的对应请求处理结果进行返回；从而既可以加快请求的响应速度，同时也减少了网站的压力。
+105. 103051709 数据传输路径确定方法、网络节点及内容分发网络系统
+CN
+17.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210557439.5
+新浪网技术（中国）有限公司
+熊宗涛
+H04L 29/08
+Loading...
+本发明公开了一种数据传输路径确定方法、网络节点及内容分发网络系统，包括：内容分发网络中的探测网络节点向各待探测网络节点发送探测请求报文；并接收各待探测网络节点在接收到探测请求报文后分别返回的探测响应报文，探测响应报文中携带待探测网络节点到内容分发网络中与源站服务器绑定的绑定网络节点的往返时延；并根据接收的探测响应报文确定探测网络节点分别到各待探测网络节点的往返时延；以及从与各待探测网络节点分别对应的各传输路径中，确定传输延迟最小的传输路径为探测网络节点到源站服务器之间的传输路径。采用本发明实施例提供的方案，能够通过确定传输延迟最小的数据传输路径提高数据传输效率。
+106. 103051722 一种确定页面是否被劫持的方法及相关设备
+CN
+17.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210576989.1
+新浪网技术（中国）有限公司
+朱欢
+H04L 29/08
+Loading...
+本发明公开了一种确定页面是否被劫持的方法及相关设备，包括：网站服务器接收客户端在接收到请求页面之后发送的该请求页面中携带的生成时间，该请求页面中携带的生成时间为网站服务器生成该请求页面的生成时间；并根据接收的客户端发送的生成时间与当前时间的时间间隔与预设时间阈值的大小关系，确定客户端接收的该请求页面是否被劫持。采用本发明实施例提供的方案，能够确定客户端接收的该请求页面是否被劫持。
+107. 103020276 一种社交对象搜索方法及装置
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210578913.2
+新浪网技术（中国）有限公司
+刘正军
+G06F 17/30
+Loading...
+本发明公开了一种社交对象搜索方法及装置，包括：按照搜索条件对社交对象进行搜索，得到与搜索条件相匹配的各社交对象；并依次将各社交对象中每个社交对象作为当前社交对象，获取该当前社交对象关注的社交对象，以及关注该当前社交对象的社交对象；并根据各社交对象分别关注的社交对象，以及分别关注各社交对象的社交对象，确定各社交对象的权重指标值；以及按照权重指标值从高到低的顺序，返回各社交对象。采用本发明实施例提供的方案，在对社交对象搜索时减少社交网络侧处理资源的消耗，以及减少网络带宽资源的消耗。
+108. 103020243 一种数据库主从复制结构更换方法及装置
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210552774.6
+新浪网技术（中国）有限公司
+肖鹏
+G06F 17/30
+Loading...
+本发明公开了一种数据库主从复制结构更换方法及装置，包括：控制主数据库与该主数据库的第一从数据库之间进行主从数据复制的当前数据复制进度，和该主数据库与该主数据库的第二从数据库之间进行主从数据复制的已完成的指定数据复制进度相同；并将该第一从数据库的主数据库更换为该第二从数据库；以及从该指定数据复制进度起始，启动该第一从数据库与作为该第一从数据库的更新后的主数据库的该第二从数据库之间的主从数据复制。采用本发明实施例提供的方案，提高了对数据库主从复制结构进行更换的效率，并降低了由于结构更换对基于数据库所提供的数据处理业务的影响。
+109. 103020295 一种问题标签标注方法及装置
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210590047.9
+新浪网技术（中国）有限公司
+陈玉焓
+G06F 17/30
+Loading...
+本发明公开了一种问题标签标注方法及装置，包括：对待标注问题进行分词处理，得到该待标注问题包括的各问题分词；并从该各问题分词中确定词性为预设词性的各第一待选问题分词；并基于预设词性与第一权重值的对应关系，根据各第一待选问题分词的词性，分别确定各第一待选问题分词的第一权重值；以及基于各第一待选问题分词的第一权重值，从各第一待选问题分词中选择问题分词作为问题标签，对该待标注问题进行标注。采用本发明实施例提供的方案，提高了对问题标注问题标签的及时性、准确性和全面性。
+110. 102982330 文字图像中字符识别方法和识别装置
+CN
+20.03.2013
+G06K 9/20 Loading...
+G06K 9/20
+Loading...
+201210477638.5
+新浪网技术(中国)有限公司
+郝双
+G06K 9/20
+Loading...
+本发明公开了一种文字图像中字符识别方法和识别装置，所述方法包括：对文字图像中切割出的字符，以设定单位进行划分；对所述设定单位内的每个字符进行特征提取和特征匹配后，确定每个字符的候选字；针对所述设定单位内的每个字符，确定该字符的每个候选字的相似度、以及该字符的每个候选字与该字符相邻的字符的候选字之间的转移概率；根据确定出的相似度和转移概率，确定出所述设定单位内的字符的识别结果。由于在进行字符识别的过程中，对于字符的多个候选字，除了依据候选字的相似度（即字形信息）外，还根据相邻候选字之间的转移概率（即语义信息），从多个候选字中选择出一个作为该字符的识别结果；从而大大提高字符识别的准确率。
+111. 102938775 一种视频微博发布方法、系统及客户端
+CN
+20.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210365278.X
+新浪网技术（中国）有限公司
+刘强
+H04L 29/08
+Loading...
+本发明公开了一种视频微博发布方法、系统及客户端，包括：微博服务器接收微博客户端在成功向网盘服务器上传视频文件后发送的携带该视频文件的文件信息的微博发布请求；并根据微博发布请求中携带的该视频文件的文件信息，从网盘服务器上获取存储的该微博客户端上传的该视频文件；以及发布该视频文件对应视频的视频微博。采用本发明实施例提供的方案，提高了视频微博发布的效率。
+112. 102929912 生成微博图片的方法及系统
+CN
+13.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210333643.9
+新浪网技术(中国)有限公司
+王斌科
+G06F 17/30
+Loading...
+本发明公开了一种生成微博图片的方法及系统。该方法包括：接收用户编辑的长文本，解析长文本，获取长文本中包含的内容信息以及样式信息；加载解析获取的内容信息以及样式信息，生成目标页面，截取目标页面，生成微博图片。应用本发明，可以降低系统资源消耗、提升生成微博图片的效率。
+113. 102915344 一种SQL语句处理方法及装置
+CN
+06.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210361178.X
+新浪网技术（中国）有限公司
+丛磊
+G06F 17/30
+Loading...
+本发明公开了一种SQL语句处理方法及装置，包括：获取请求进行数据库处理操作的SQL语句；并对该SQL语句进行结构分析，得到分析结果；并根据分析结果，确定按照该SQL语句进行数据库处理操作时所表征的基准行数，基准行数为进行数据库处理操作时需要查询的数据行数；以及当确定的基准行数小于行数阈值时，确定按照该SQL语句进行数据库处理操作，否则，确定取消按照该SQL语句进行数据库处理操作。采用本发明实施例提供的方案，提高了数据库运行性能。
+114. 102915328 编辑富文本的方法及富文本编辑器
+CN
+06.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210324774.0
+新浪网技术(中国)有限公司
+冯黎明
+G06F 17/30
+Loading...
+本发明公开了一种编辑富文本的方法及富文本编辑器。该方法包括：构建浮动的框架页面，在构建的浮动框架页面中，通过JavaScript脚本设置富文本编辑器操作菜单、包含层叠样式表的内容容器以及文本输入框；采用JavaScript脚本，初始化富文本编辑器操作菜单，绑定用于监听用户操作的处理事件；响应处理事件，根据预先设置的排版策略，接收用户通过文本输入框分次输入的文本内容，将文本内容以层片方式依序承载至内容容器中的各层片；在内容容器中，分别对承载至内容容器中的层片进行编辑，并将经编辑后的各层片进行组合，生成符合排版策略的页面。应用本发明，可以提高富文本编辑效率、丰富编辑的富文本样式。
+115. 102902731 邮件索引的存储方法
+CN
+30.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210333394.3
+新浪网技术(中国)有限公司
+陈华英
+G06F 17/30
+Loading...
+本发明公开了一种邮件索引的存储方法。本发明中的邮件索引的存储方法包括：在块设备上为每个用户设置一个独立的用户区域；将各个用户的邮件索引信息分别存储在各个用户的用户区域中。通过使用本发明中的邮件索引的存储方法，可以有效地节省读写文件系统的开销，提高系统的读写性能。
+116. 102902561 数据存储方法及数据存储系统
+CN
+30.01.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210339989.X
+新浪网技术(中国)有限公司
+汤晓刚
+G06F 9/445
+Loading...
+本发明公开了一种数据存储方法及数据存储系统。该方法包括：接收数据更新命令，为数据更新命令分配游标；将接收的数据更新命令以及分配的游标写入不断添加模式AOF文件，并将AOF文件写入磁盘；根据数据更新命令更新数据，在更新数据成功后，按照预先设置的时间周期，将数据写入磁盘中的数据文件，将为数据更新命令分配的游标写入磁盘中的游标文件；重启服务，加载磁盘数据文件中的数据，获取游标文件中顺序位最高的游标，从存储的AOF文件中，加载该游标对应的数据更新命令之后的数据更新命令。应用本发明，可以降低数据恢复所需的时间、避免数据丢失。
+117. 102902775 互联网实时计算的方法和系统
+CN
+30.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210369816.2
+新浪网技术(中国)有限公司
+何跃
+G06F 17/30
+Loading...
+本发明公开了一种互联网实时计算的方法和系统。根据用户在网站上的操作，前端服务器生成指定格式的消息日志并发送所生成的指定格式的消息日志；中心消息日志收发处理单元接收前端服务器发送的消息日志，并根据消息日志的属性，分发消息日志到后端的相应的实时计算模型单元中；实时计算模型单元对接收到的消息日志进行预定的计算，得出实时热点内容排行榜、活跃用户、垃圾消息、非法消息等结果，把计算结果放在内存或者磁盘中，或将结果作为API供其他程序调用。本发明的互联网实时计算的方法和系统没有延时性，能第一时间反应出当前应用的热点，方案包括了数据收集、数据分发、数据分析建模、结果存储以及对外服务，是一个完整的解决方案。
+118. 102902752 一种日志监控方法及系统
+CN
+30.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210352836.9
+新浪网技术（中国）有限公司
+顾淼
+G06F 17/30
+Loading...
+本发明公开了一种日志监控方法及系统，包括：实时获取当前生成的指定主题的日志；并采用非监督分类算法，基于指定主题对应的分类模型，对获取的该日志进行分类；以及在监控界面展示该日志以及该日志所属的类别。采用本发明实施例提供的方案，实现了对日志的实时分类监控，提高了对日志管理的效率。
+119. 102904752 一种节点选举方法、节点设备及系统
+CN
+30.01.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210361189.8
+新浪网技术（中国）有限公司
+丛磊
+H04L 12/24
+Loading...
+本发明公开了一种节点选举方法、节点设备及系统，包括：按照指定顺序依次获取预先设置的N-1个锁的使用权限，且当获取到当前锁的使用权限之后，触发获取下一个锁的使用权限；并当获取到当前锁的使用权限已被其它节点获取的信息时，确定自身退出选举；以及当获取到最后一个锁的使用权限时，确定自身为N个节点中的主节点。采用本发明实施例提供的方案，提高了节点选举效率。
+120. 102902730 基于数据缓存的读数据方法及装置
+CN
+30.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210333370.8
+新浪网技术(中国)有限公司
+全宗峰
+G06F 17/30
+Loading...
+本发明公开了一种基于数据缓存的读数据方法及装置。接收用户用于获取数据输入的读访问请求信息，抽取生成关键词；确定缓存数据库中未缓存生成的关键词对应的数据键值，初始化待获取数据的标志值；或者，确定缓存数据库中缓存有生成的关键词对应的数据键值，但缓存的数据键值中包含的数据失效，设定待获取数据的标志值为获得的数据键值中包含的标志值；读数据库从库，查询得到生成的关键词对应的数据；获取读数据库从库的时间戳信息，根据设置的待获取数据的标志、读数据库从库的时间戳信息以及待获取数据，设置键值对的数据键值信息，并更新缓存数据库；将查询得到的数据输出。应用本发明，可以提升数据的缓存效率，优化数据缓存的综合性能。
+121. 102902558 项目脚本文件更新系统和方法、脚本文件合并方法和装置
+CN
+30.01.2013
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201210334837.0
+新浪网技术(中国)有限公司
+王强
+G06F 9/445
+Loading...
+本发明公开了一种项目脚本文件更新系统和方法、脚本文件合并方法和装置，所述系统包括：代码管理服务器，用于管理项目中的脚本文件，并记录下所述项目中各被修改的脚本文件及其相关信息；脚本合并服务器，用于获取所述项目中被修改的脚本文件及其相关信息；查找出所述项目中引用了被修改的脚本文件的配置文件，根据查找出的配置文件进行该项目的合并脚本文件的更新。由于从项目的配置文件中查找出引用了被修改的脚本文件的配置文件，仅根据找出的配置文件进行脚本文件合并，不用对没有引用被修改的脚本文件的配置文件，进行重复的脚本文件合并工作，从而节省脚本文件合并所耗时间，提高了工作效率。
+122. 102890631 Method for transmitting message based on persistent message queue and message transmission device
+CN
+23.01.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210340047.3
+新浪网技术(中国)有限公司
+汤晓刚
+G06F 9/44
+Loading...
+The invention discloses a method for transmitting a message based on a persistent message queue and a message transmission device. The method comprises the following steps of: receiving the message to be transmitted, setting vernier information for the message to be transmitted, writing the message set with the vernier information into the message queue; obtaining a current to-be-transmitted message according to vernier confirmation information updated and stored at present, reading and transmitting the current to-be-transmitted message from the message queue; receiving the vernier confirmation information returned according to the transmitted current to-be-transmitted message, and updating the vernier confirmation information stored at present. By application of the method, message processing efficiency can be improved.
+123. 102880698 Method and device for determining caught website
+CN
+16.01.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210356892.X
+新浪网技术（中国）有限公司
+张鹏
+G06F 17/30
+Loading...
+The invention discloses a method and a device for determining a caught website. The method comprises the following steps of: acquiring a moment when an application terminal accesses an appointed website within a set time period and the number of times of accessing the appointed website; determining the time discrete degree of the application terminal accessing the appointed website within the set time period according to the acquired moment of accessing the appointed website; and judging whether the application terminal is an application terminal for catching the website according to a relation of the determined time discrete degree and a discrete degree threshold value and a relation of the acquired number of times and an access time threshold value. By the scheme supplied by the embodiment of the invention, the accuracy for determining a user terminal for catching the website is improved.
+124. 102857578 一种网络硬盘的文件上传方法、系统及网盘客户端
+CN
+02.01.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210362185.1
+新浪网技术（中国）有限公司
+陈铮
+H04L 29/08
+Loading...
+本发明公开了一种网络硬盘的文件上传方法、系统及网盘客户端，包括：网盘服务器接收网盘客户端发送的携带待上传文件内容摘要的文件上传请求消息，该待上传文件内容摘要为该网盘客户端基于待上传文件的内容生成；确定已存储文件的文件内容摘要中是否存在该待上传文件内容摘要；当确定已存储文件的文件内容摘要中不存在该待上传文件内容摘要时，向该网盘客户端返回文件上传指示消息；接收该网盘客户端上传的该待上传文件，并存储该待上传文件内容摘要。采用本发明提供的方法、系统及网盘客户端，能够节省网络资源及服务器资源。
+125. 102843310 Method and system for releasing and subscribing information in wide area network based on gossip protocol
+CN
+26.12.2012
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201210247046.4
+新浪网技术（中国）有限公司
+王聃
+H04L 12/58
+Loading...
+The embodiment of the invention provides a method and a system for releasing and subscribing information in a wide area network based on a gossip protocol. Efficiency of releasing the information in the wide area network and stability of the system can be improved. The releasing method comprises the steps as follows: receiving information released into a theme by a client terminal, and synchronizing the information with other communication stations subscribing the theme; and synchronizing the information in the theme in the communication stations subscribing the theme. According to the method and system provided by the embodiment of the invention, the information is released to the theme, the client terminal obtains the information by subscribing the theme, the information is synchronized between the communication stations subscribing the theme, and at the moment, when one communication station is out of operation, the client terminal can obtain the information in the subscribed theme through other communication stations, so that the information can be obtained without interruption, the single-point fault problem is solved, overall writing efficiency of the system is enhanced, and the expandability is improved.
+126. 102833323 Method and system for remote control of controlled terminal by server
+CN
+19.12.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210288537.3
+新浪网技术（中国）有限公司
+张脉
+H04L 29/08
+Loading...
+The invention discloses a method and a system for remote control of a controlled terminal by a server. The method includes running a pre-inserted script, and performing operation of opening a browser and accessing a control page of the server by the controlled terminal; running a long-connection communication program embedded in the control page by the browser of the controlled terminal, and establishing long-connection communication with the server; and sending information to the controlled terminal to control the controlled terminal by the server after establishing the long-connection communication. The control page of the server is automatically accessed by the browser by running the script, the long-connection communication program in the control page is run, long-connection communication with the server is established by the WebSocket technology, and accordingly software need not be mounted at the controlled terminal to implement communicate and control, and control cost of a system is reduced greatly.
+127. 102799654 Intelligent terminal and document online previewing method and system for intelligent terminal
+CN
+28.11.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210226258.4
+新浪网技术（中国）有限公司
+胜岳
+G06F 17/30
+Loading...
+The invention discloses an intelligent terminal and a document online previewing method and a system for the intelligent terminal. The document online previewing method comprises the following steps: receiving a document online previewing request sent by the intelligent terminal, wherein the document online previewing request comprises a document identification; according to the document online previewing request, assembling page previewing content of the top pages in specified quantity in a document corresponding to the document identification onto a webpage to form a previewing webpage, and adding a control script into the previewing webpage; and sending the previewing webpage added with the control script to the intelligent terminal, wherein the control script comprises a script which is used for controlling the page previewing content of the document to be changed and displayed on the intelligent terminal. Thus, the document online previewing method for the intelligent terminal disclosed by the invention has better user friendliness and is easier to be applied to various cross-platform terminals.
+128. 102799628 Method and device for data partitioning in key-value database
+CN
+28.11.2012
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210212320.4
+新浪网技术（中国）有限公司
+张海洋
+G06F 17/30
+Loading...
+The invention discloses a method and a device for data partitioning in a key-value database. The method comprises the following steps of: resolving partitioning number information and partitioning algorithm information from a pre-stored partitioning information basic list; and running a corresponding partitioning algorithm by a partitioning callback function according to the partitioning algorithm information, wherein the corresponding partitioning algorithm determines information of partitioned sub databases of key-value data to be partitioned according to the partitioning number information and a calculation value; and the calculation value is a value relevant to the key-value data to be partitioned. The partitioning number information and the partitioning algorithm information are recorded into the partitioning information basic list; when the key-value data are subjected to operation such as storage and query, the partitioned sub databases are determined for the key-value data according to contents recorded in the partitioning information basic list; and therefore, the partitioning mode can be flexibly changed by modifying the contents in the partitioning information basic list.
+129. 102244867 Network access control method and system
+CN
+16.11.2011
+H04W 12/08 Loading...
+H04W 12/08
+Loading...
+201010179790.6
+Sina Corporation
+Chen Yang
+H04W 12/08
+Loading...
+The embodiment of the invention provides a network access control method and system, which can be used for solving the limited application problem which is caused by the need of customizing and installing client software in the traditional network access control method. The method comprises the following steps: a terminal is accessed to a network through a switch, and the switch generates an enabling log, wherein the enabling log comprises a switch identifier, a switch port identifier and a port state and the port state comprises an enabling state; the switch sends the enabling log to a first server; a second server obtains the enabling log through the first server, and if the port state is the enabling state, the second server obtains address information of the accessed terminal from the switch through the switcher identifier and the switch port identifier; and the second server controls the network access of the terminal according to the address information. Because any software is unnecessary to install on the user terminal, the network access control method disclosed by the invention can be applicable to a terminal with any operation system.
+130. 102130776 Communication method and system
+CN
+20.07.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010002599.4
+Sina Corporation
+Wang Naichao
+H04L 12/24
+Loading...
+The embodiment of the invention provides a communication method and system, which can solve the problems of low communication efficiency and high cost existing in the conventional communication system. The communication system comprises a switch, an application server and a management server, wherein the application server is used for receiving a user request forwarded by the switch and/or the management server, processing the request and transmitting a processing result to the switch; the switch is used for switching data; and the management server is used for monitoring the status of the application server and controlling the data forwarding of the switch according to the status of the application server and a preset rule, so that the switch can forward the user request transmitted to a failed application server to the management server when the application server fails. According to the invention, a server load balancing function, a server failure shielding function, a self-failure shielding function, a user transparent mode accessing function and a failure recovery self-healing function can be realized, and the contradiction between the improvement of switching performance and increasing network flow is thoroughly eliminated.
+131. 102103416 Chinese character input method and device
+CN
+22.06.2011
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+200910261064.6
+Sina Technology (China) Co., Ltd.
+Cai Heng
+G06F 3/023
+Loading...
+The embodiment of the invention provides a Chinese character input method and a Chinese character input device for solving the problem that the Chinese character input speed is low in the prior art. The method comprises the following steps of: acquiring a Pinyin string; splitting the Pinyin string according to a dictionary to obtain the Pinyin sub-strings of the Pinyin string; acquiring candidate entries corresponding to the Pinyin sub-strings according to the dictionary, and the appearance probabilities corresponding to the candidate entries, the appearance probabilities of the candidate entries under the condition that the other entries appear, and the characteristics of the candidate entries; calculating the weight of each candidate entry according to the above candidate entry from left to right; and determining the input result according to the weight of the candidate entry. In the embodiment of the invention, as the characteristic of the word is considered and a certain constraint relation of the characteristics exists, the correctness of inputting the Chinese character corresponding to the Pinyin string is improved, and the input speed is quickened.
+132. 102053974 Chinese character input method and device
+CN
+11.05.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910208791.6
+Sina.com Technology (China) Co., Ltd.
+Dong Gongjin
+G06F 17/30
+Loading...
+The embodiment of the invention provides a Chinese character input method and a device, which aims to solve the problems that in the prior art, the Chinese character input speed is slow, and the input efficiency is low. The method comprises the following steps: generating a system dictionary according to the information on the Internet; generating a user dictionary according to the information input by a user; and inputting Chinese characters according to the system dictionary and the user dictionary. The method and the device provided by the embodiment of the invention have the advantages that because of taking public and real-time changed Internet information as the word-frequency statistical source of the system dictionary of an input method, the generated word frequency information is the latest and the best; the word frequency information is updated to an input-method client in any mode through the Internet, so that the word frequency of the user keeps consistent with the word frequency of the Internet; meanwhile, an exclusive vocabulary of the user is learned through analyzing the input action of the user, thereby forming the user dictionary of the input method; and the accuracies of intelligent sentence building and preferred words are improved by using the method above, thereby improving the input speed and the input efficiency.
+133. 102036241 Authentication method and system
+CN
+27.04.2011
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+200910175615.7
+Sina Technology (China) Co., Ltd.
+Chen Yang
+H04W 12/06
+Loading...
+The embodiment of the invention provides an authentication method and an authentication system, which can solve the problem of higher cost in the authentication method of the prior art. The method comprises the following steps that: a first server acquires user information and a first password, wherein the user information comprises a user name and a mobile phone number; a terminal requests a second password from the first server, and the first server randomly generates the second password and transmits the second password to a mobile phone corresponding to the mobile phone number; the terminal transmits authentication information to a second server according to the first password and the second password; and the second server authenticates the terminal through the first server according to the authentication information. Because the mobile phone is an article which is necessarily carried by every person in modern society and the authentication information is received or transmitted by the mobile phone, the expenditure of a token is saved; therefore, the expenditure of authentication is saved.
+134. 1645371 Questioning knowledge polymerizing and sharing method based on searching engine technology
+CN
+27.07.2005
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200510008604.1
+Xinlang Network Technology (China) Co., Ltd.
+Yu Chi
+G06F 17/30
+Loading...
+A method for sharing knowledge includes inputting question by knowledge demander and providing answer by existed knowledgebank on computer, setting it as paid out accumulation points for obtaining knowledge if the answer is not satisfied and placing question under relevant classification to issue question to all users for answer, awarding accumulation point to answer maker if answer is accepted by knowledge demander and collecting the answer into computer knowlegebank.
+

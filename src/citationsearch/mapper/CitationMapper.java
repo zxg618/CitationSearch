@@ -13,6 +13,7 @@ public class CitationMapper extends Mapper {
 		PatentMapper pm = new PatentMapper();
 		int patPublnId = patent.getPatPublnId();
 		int i = 0;
+		int total = 0;
 		
 		String[] citationIds = this.getAllCitationIdsByPatentId(patPublnId);
 		
@@ -29,7 +30,18 @@ public class CitationMapper extends Mapper {
 			this.save(tmpCitation);
 		}
 		
-		patent.setCitationTotal(citationIds.length);
+		this.query = "select count(distinct citing_application_docdb_family_id) as total from unsw_bs_citation where patent_id = " + patent.getID();
+		ResultSet rs = this.executeGetQuery();
+		try {
+			if (rs.next()) {
+				total = rs.getInt("total");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		patent.setCitationTotal(total);
 		pm.save(patent);
 		pm.close();
 		
@@ -37,7 +49,7 @@ public class CitationMapper extends Mapper {
 	
 	protected void getCitingPatentDetails(Citation cit) {
 		int patPublnId = cit.getCitingPatentId();
-		this.query = "select publn.publn_nr, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date "
+		this.query = "select publn.publn_nr, publn.publn_date, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_auth, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, appln.docdb_family_id "
 				+ "from tls211_pat_publn as publn "
 				+ "join tls201_appln as appln on publn.pat_publn_id = " + patPublnId + " and publn.appln_id = appln.appln_id "
 				+ "join tls201_appln as appln2 "
@@ -47,11 +59,14 @@ public class CitationMapper extends Mapper {
 		try {
 			if (rs.next()) {
 				cit.setCitingPublnNum(rs.getString("publn_nr"));
+				cit.setPublnDateBySqlDate(rs.getDate("publn_date"));
 				cit.setCitingAppNum(rs.getString("appln_nr"));
 				cit.setPriorityNumber(rs.getString("appln_nr_epodoc"));
 				cit.setPrefix(rs.getString("appln_auth"));
 				cit.setPostfix(rs.getString("appln_kind"));
 				cit.setApplnDateBySqlDate(rs.getDate("appln_filing_date"));
+				cit.setEarliestFilingDateBySqlDate(rs.getDate("earliest_filing_date"));
+				cit.setCitingAppDocdbFamilyId(rs.getInt("docdb_family_id"));
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -95,21 +110,27 @@ public class CitationMapper extends Mapper {
 				+ "company_id, "
 				+ "citing_patent_id, "
 				+ "citing_publication_number, "
+				+ "citing_publication_date, "
 				+ "citing_application_number, "
 				+ "citing_priority_number, "
 				+ "citing_prefix, "
 				+ "citing_postfix, "
-				+ "citing_priority_date, "
+				+ "citing_filing_date, "
+				+ "citing_earliest_filing_date, "
+				+ "citing_application_docdb_family_id, "
 				+ "citn_id) values ("
 				+ citation.getPatentId() + ", "
 				+ citation.getCompanyId() + ", "
 				+ citation.getCitingPatentId() + ", "
 				+ "\'" + citation.getCitingPublnNum() + "\', "
+				+ "\'" + citation.getPublnDateString() + "\', "
 				+ "\'" + citation.getCitingAppNum() + "\', "
 				+ "\'" + citation.getPriorityNumber() + "\', "
 				+ "\'" + citation.getPrefix() + "\', "
 				+ "\'" + citation.getPostfix() + "\', "
 				+ "\'" + citation.getApplnDateString() + "\', "
+				+ "\'" + citation.getEarliestFilingDateString() + "\', "
+				+ citation.getCitingAppDocdbFamilyId() + ", "
 				+ citation.getCitnId()
 				+ ")";
 		
@@ -145,10 +166,14 @@ public class CitationMapper extends Mapper {
 				cit.setCompanyId(rs.getInt("company_id"));
 				cit.setCitingPatentId(rs.getInt("citing_patent_id"));
 				cit.setCitingPublnNum(rs.getString("citing_publication_number"));
+				cit.setPublnDateBySqlDate(rs.getDate("citing_publication_date"));
+				cit.setCitingAppNum(rs.getString("citing_application_number"));
 				cit.setPriorityNumber(rs.getString("citing_priority_number"));
 				cit.setPrefix(rs.getString("citing_prefix"));
 				cit.setPostfix(rs.getString("citing_postfix"));
-				cit.setApplnDateBySqlDate(rs.getDate("citing_priority_date"));
+				cit.setApplnDateBySqlDate(rs.getDate("citing_filing_date"));
+				cit.setEarliestFilingDateBySqlDate(rs.getDate("citing_earliest_filing_date"));
+				cit.setCitingAppDocdbFamilyId(rs.getInt("citing_application_docdb_family_id"));
 				cit.setCitnId(rs.getInt("citn_id"));
 				citations.add(cit);
 			}

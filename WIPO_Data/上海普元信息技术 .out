@@ -1,0 +1,181 @@
+1. 102323894 企业分布式应用间实现非阻塞方式相互调用的系统及方法
+CN
+18.01.2012
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201110266490.6
+上海普元信息技术股份有限公司
+王文斌
+G06F 9/46
+Loading...
+本发明涉及一种企业分布式应用间实现非阻塞方式相互调用的系统，其包括用以进行基于java.nio数据包的数据读写操作的NIO读写模块、连接NIO读写模块的线程池管理模块和数据打解包模块、连接NIO读写模块并连接外部系统的请求处理模块，以及连接线程池管理模块和数据打解包模块的响应回调管理模块。本发明还涉及一种企业分布式应用间实现非阻塞方式相互调用的方法。采用了该发明的企业分布式应用间实现非阻塞方式相互调用的系统及方法，由于其包括NIO读写模块、线程池管理、数据打解包、请求处理、响应回调管理操作五个核心部分，其可通过有效地保护系统资源，实现不受外部因素的干扰，从而保证当前系统自身的稳定运行。
+2. 102289774 Graphical message processing and test system and method in financial transaction processing system
+CN
+21.12.2011
+G06Q 40/00 Loading...
+G06Q 40/00
+Loading...
+201110270048.0
+Shanghai Primeton Technologies Co., Ltd.
+Gu Wei
+G06Q 40/00
+Loading...
+The invention relates to a graphical message processing and test system in a financial transaction processing system, which comprises a message structure graphical defining module, a message analog data generating module, a host machine stimulator configuration module, a customer terminal test code generating module, a message compiling module and a message generation static service data object (sdo) module. The invention further provides a method of using the system to realize graphical message processing and a test method. In the system and the method disclosed by the invention, a visual tool is adopted to support and define various messages, the messages are compiled automatically and are converted into a general XML schemas definition (xsd) data format, definitions of the messages are verified through the analog of message data, and the messages can be converted with other types of data simply by generating a static sdo, therefore a packing and unpacking logic of the messages can be realized quickly and consequently the defect of the prior art can be solved well, the business development efficiency is improved, the development cost is reduced, and the application range is more extensive.
+3. 101996091 System and method for realizing graph executing virtual machine supporting multiple flow operation
+CN
+30.03.2011
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+201010533222.1
+Shanghai Primeton Technologies Co., Ltd.
+Liu Hang
+G06F 9/455
+Loading...
+The invention relates to a system for realizing a graph executing virtual machine supporting multiple flow operation, which comprises an appearance controller, a context container, a node behavior register, a core scheduler and a unit scheduler, wherein the core scheduler is respectively connected with the appearance controller and the context container; and the unit scheduler is respectively connected with the context container, the node behavior register and the core scheduler. The invention also relates to a method for realizing a graph executing virtual machine supporting multiple flow operation based on the system. The system and the method for realizing the graph executing virtual machine supporting multiple flow operation are favorable for quickly developing stable and reliable flow engine products, improve software reusability, save workload, reduce module coupling degree, improve concurrent development capacity and the expandability of the flow engine, effectively avoid instability of the flow engine caused by a little change, improve the stability and maintainability of the flow engine, reduce maintenance cost and have wider applicable range.
+4. 101957758 Method for realizing rapid Web Service publishment in service oriented architecture application systems
+CN
+26.01.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010507367.4
+Shanghai Puyuan Information Technology Co., Ltd.
+Chen Xueping
+G06F 9/44
+Loading...
+The invention relates to a method for realizing rapid Web Service publishment in service oriented architecture application systems, including an imaging service assembly platform and a service running platform. The method comprises an imaging service assembly processing operation and a service running processing operation, wherein in the imaging service assembly processing operation, imaging assembly, compilation, compiling check and rapid establishment of a new member are completed; and in the service running processing operation, the uploading of service assembly files, the dynamic register of services, the automatic creation of a WSDL (Web Services Description Language) file and the monitoring of the user requests are completed. By adopting the method for realizing rapid Web Service publishment in the service oriented architecture application systems, the integration efficiency among the SOA (Service Oriented Architecture) application systems is greatly improved, meanwhile, the method can be used for rapidly and intuitively publishing the traditional business function as Web services, greatly improves the integration efficiency among the application systems and has the advantages of steady and reliable operation performance and wider application range.
+5. 101930379 Structure and method for incremental deploying of server applications in distributed software system
+CN
+29.12.2010
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201010260314.7
+Shanghai Primeton Technologies Co., Ltd.
+Wu Yuhou
+G06F 9/46
+Loading...
+The invention relates to a structure for incremental deploying of server applications in a distributed software system, which comprises a deployer, resource deployers, a manager of the resource deployers and a backspace device, wherein the deployer is used for deploying the applications of a server; each resource deployer is used for deploying a resource; the manager of the resource deployers is used for registering and searching the resource deployers of corresponding resources; and the backspace device is used for establishing a backspace warehouse, recording backspace logs and executing backspace operations. The invention also relates to a method for incremental deploying of the applications in the distributed software system on the basis of the system structure. By adopting the structure and the method for incremental deploying of the server applications in the distributed software system, the problems of incremental deploying of standard J2EE applications are solved, and users can conveniently use package deploying and backspace functions to expand and support various package formats, and the invention has the advantages of simple and quick processing process, stable and reliable working property and wider application scope, can be applied to the system service deployment function of EOS (Electronic Order System), thereby effectively solving the backspace problem of incremental deployment.
+6. 101930370 System structure for realizing data conversion in service integration of SOA (Service Oriented Architecture) application system and method thereof
+CN
+29.12.2010
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010277201.8
+Shanghai Primeton Technologies Co., Ltd.
+Wang Feng
+G06F 9/44
+Loading...
+The invention relates to a system structure for realizing data conversion in service integration of an SOA (Service Oriented Architecture) application system, which comprises a runtime general frame module and a development period configuration format defining module, wherein the run time general frame module is used for supporting conversion extension of different data objects; and the development period configuration format defining module is connected with the runtime general frame module and used for defining configuration formats of the data object conversion. The invention also relates to a method for realizing the data conversion in the service integration of the SOA application system based on the system structure. By adopting the system structure for realizing the data conversion in the service integration of the SOA application system and the method thereof, the integration work of the system is simple and efficient, the calling process is more visual and convenient and rapid, the calling efficiency is improved, the run efficiency of the system is higher, the performance is stable and reliable, the cost of development and maintenance is lowered, the development period is simple, interfaces are clear, the configuration is convenient, the runtime efficiency is higher, the application range is wider, and the solid foundation is laid for the integration development of the SOA system.
+7. 101917286 Web performance analysis system and method for realizing cross-browser in internet application system
+CN
+15.12.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010240664.7
+Shanghai Primeton Technologies Co., Ltd.
+Cao Zongwei
+H04L 12/24
+Loading...
+The invention relates to a Web performance analysis system for realizing a cross-browser in an internet application system. The system comprises a result showing layer, a data acquisition layer and an application and operation layer, wherein the result showing layer is connected with the application and operation layer through the data acquisition layer. The invention also relates to a Web performance analysis method for realizing the cross-browser in the internet application system on the basis of the system. By adopting the Web performance analysis system and method for realizing the cross-browser in the internet application system, the Javascript performance analysis of the cross-browser is realized, a uniform approach to the performance analysis is provided, and the efficiency of the performance analysis is improved. The invention has simple and vivid operation, rapidness, convenience, higher operation efficiency of the whole performance analysis environment, stable and reliable working performance and wider application scope. Moreover, the method also can report a performance result to users in a graphical mode and provide an optimized proposal, which lays a solid foundation for the performance tuning of internet application.
+8. 101908014 System structure and method for realizing security audit and track in computer software system
+CN
+08.12.2010
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201010269087.4
+Zhejiang Puyuan Information Technology Co., Ltd.
+Chen Luning
+G06F 11/34
+Loading...
+The invention relates to a system structure for realizing security audit and track in a computer software system, which comprises a configuration interface functional module, a filter, a data decomposer and a log recording functional module, wherein the configuration interface functional module is connected with the log recording functional module by a filter and a data decomposer in turn. The invention also relates to a method for realizing the metadata element-based security audit and track in the computer software system through the system structure. When the system and the method for realizing the security audit and track in the computer software system are used, special service function audit and special service function service data audit are added flexibly and service data granularity and volume configuration is performed flexibly for any service function through a configuration interface, a security audit rule fixation problem is solved, security audit can be changed according to needs, service development efficiency is improved, development cost is reduced, working performance is stable and reliable, and the application range is wide.
+9. 101853156 Method for realizing web service call in component-based software system
+CN
+06.10.2010
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010171986.0
+Shanghai Puyuan Information Technology Co., Ltd.
+Wang Feng
+G06F 9/44
+Loading...
+The invention relates to a method for realizing web service call in a component-based software system. The component-based software system comprises a graphical component development platform and a component running platform connected with the graphical component development platform, wherein the method comprises the following steps of the development processing operation of a Web Service call component and the running processing operation of the Web Service call component. By adopting the method for realizing the Web Service call in the component-based software system, the development process and the call process of the Web Service are more visual, simpler, more efficient, rapid and convenient, the running efficiency of the system is higher, the performance is stable and reliable, and the development and maintenance costs are reduced; meanwhile, the portability and the expandability of the system are enhanced; the method can rapidly respond to the changes and the technical changes of service demands, can support the establishment of the high-modularity and high-integration software, has comparatively wide range of application and lays a firm foundation for the further development of a computer component-based software technology.
+10. 101840350 Method for realizing direct calling of Java method based on EL expression in computer software system
+CN
+22.09.2010
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201010151681.3
+Shanghai Primeton Technologies Co., Ltd.
+Wu Yuhou
+G06F 9/46
+Loading...
+The invention relates to a method for realizing direct calling of the Java method based on an EL expression in a computer software system, and the method comprises the following steps: adding function suffix definition realization information in suffix attribute predefinition information of the system, increasing resolution realization information of function suffix definition in the operation of carrying out suffix attribute predefinition information resolution in an EL expression resolver of the system, finding the corresponding Java method according to Java method calling information in the EL expression, and calling and implementing the Java method. The adoption of the method for realizing the direct calling of the Java method based on the EL expression in the computer software system can conveniently use the EL expression for directly calling the Java method, be used in a graphic programmed graphical element of an EOS and a richweb label, realize the direct calling of the Java method supporting the EL expression, effectively solve the problem of inflexible value selection of a variable in the EL expression and simultaneously have the advantages of simple and convenient realization process, stable and reliable working performance and a wide range of applications.
+11. 101807272 System structure and method for realizing integrities of process affairs and business affairs in workflow system
+CN
+18.08.2010
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+201010131694.4
+Primeton Technologies Co., Ltd.
+Liu Hang
+G06Q 10/00
+Loading...
+The invention relates to a system structure for realizing the integrities of process affairs and business affairs in a workflow system, comprising an import affair coordinator, an engine activity dispatcher, a segmented affair coordinator and an export affair coordinator, wherein the import affair coordinator is sequentially connected with the engine activity dispatcher, the segmented affair coordinator and the export affair coordinator. The invention also relates to a method for realizing the integrities of the process affairs and the business affairs in the workflow system. By adopting the system structure and the method for realizing the integrities of the process affairs and the business affairs in the workflow system, the integrities of working process affairs, the consistency of businesses and workflow data and the executive independence of workflow activities are ensured so that a workflow affair field has the advantages of compactness, easy operation, flexibility and variability, the transportability and the expandability of the system are enhanced, and the system has the advantages of rapid and convenient use, higher running efficiency, stable and reliable performance and wider application range.
+12. 101719093 System and method for realizing cross-browser Javascript debugging in enterprise Web application system
+CN
+02.06.2010
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200910200183.0
+Shanghai Primeton Technologies Co., Ltd.
+Cao Zongwei
+G06F 11/36
+Loading...
+The invention relates to a system for realizing cross-browser Javascript debugging in an enterprise Web application system, comprising a graphical Javascript debugging platform and a cross-browser Javascript debugging framework, wherein, the graphical Javascript debugging platform comprises a debugger engine module, an Http server module, a proxy server module, a compiling engine module, a debugging server module and a debugger UI module, the cross-browser Javascript debugging framework comprises a cross-browser supporting module, a debugging code API module, a call stack managing module and a debugging command resolving module. The invention also relates to a method for realizing cross-browser Javascript debugging in an enterprise Web application system based on the system. By adopting the system and the method for realizing cross-browser Javascript debugging in the enterprise Web application system, the debugging efficiency is high, the operation is simple, fast and convenient, the system performance is stable and reliable, the development and maintenance cost is reduced, the portability and the extendibility of the system are enhanced, the applicable scope is wide, thereby laying the solid foundation for the further development of the enterprise Web application software technology.
+13. 1987818 Method for realizing Java structure debugging in structurized software system
+CN
+27.06.2007
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+200610030481.6
+Puyuan Information Technology Co., Ltd., Shanghai
+Huang Liuqing
+G06F 11/36
+Loading...
+This invention relates to the realization of non Java component debug method which in the component software system. The operating of broken allocation includes the debug platform founds the sign of component broken point, and registers to the broken administrative element, and forms the information of design broken point and records on the allocation profile, or the broken point administrative element forms the corresponding requirement of broken point and inform the application server to refresh the state information of broken point. During the running, the original code of broken point will search the orientation operation which includes the application server judge the pattern of the component, the application server forms the Java code and the corresponding relation with the component, and allocates the broken point in the code, and the application server transfers the design/JSP information of broken point to the debug platform which dose the display of the design and JSP broken point. The realization of the non Java component's debug by this component software system is easy to operate, intuitionstic, simply, convenient, and the efficient is high, the function is stable, and it decrease the development and maintenance cost, and the applicable scale is large.
+14. 1912840 Method of implementing distribution type operation logical calculation in structure software system
+CN
+14.02.2007
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+200610030480.1
+Shanghai Shanyuan Information Technology Co., Ltd.
+Huang Liuqing
+G06F 9/46
+Loading...
+A method for realizing distribution logic calculation in structuralized software system includes starting up initializing treatment of service logic engine by remote server, requesting to set group number by front end controller, retransmitting remote server address and packaging service logic information then sending it to object retransmission remote server, receiving formed message by remote server, up packaging said message by MDB monitor and sending it to service logic engine for carrying out logic calling up treatment, repackaging calculation result then sending it back to local system.
+15. 1828531 Component interface and operation logic construction method in component-based software system
+CN
+06.09.2006
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200610024054.7
+Shanghai Primeton Information Technology Co., Ltd.
+Huang Liuqing
+G06F 9/44
+Loading...
+The related method comprises: in exploitation, building root node with process node elements; in the latter, building vertex list node with a plurality of vertex elements comprised of opposite vertex information and edge list node with a plurality of edge elements comprised of opposite edge information; in running, building root node with process nodes, additional information node elements and a plurality of parameter node elements; in the latter, building a plurality of logic node with opposite logic feature information. This invention can show the system relation and inner operation process, improve efficiency, reduces maintenance cost, and has wide application.
+

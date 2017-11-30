@@ -23,7 +23,7 @@ public class WipoDataFileReader extends Reader {
 	public void batchRead(String[] searchKeywords) {
 		int total = searchKeywords.length;
 		for (int i = 0; i < total; i++) {
-			File dataFile = new File(searchKeywords[i] + DATA_FILE_POSTFIX);
+			File dataFile = new File(WIPO_DATA_PATH + searchKeywords[i] + DATA_FILE_POSTFIX);
 			if (dataFile.length() <= 0) {
 				continue;
 			}
@@ -61,6 +61,47 @@ public class WipoDataFileReader extends Reader {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public String getApplicantNameByKeywordPublnNr(String searchKeyword, String publnNr) {
+		File dataFile = new File(WIPO_DATA_PATH + searchKeyword + DATA_FILE_POSTFIX);
+		String line = "";
+		String applicantName = "";
+		int lineNumber = 1;
+		String[] lineElements = null;
+		boolean flag = false;
+		
+		if (dataFile.length() <= 0) {
+			return applicantName;	
+		}
+		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(dataFile));
+			while ((line = br.readLine()) != null) {
+				if (line.length() == 0) {
+					lineNumber++;
+					continue;
+				}
+				if (lineNumber == 1 || lineNumber % 12 == 1) {
+					lineElements = line.split(" ");
+					String tmpPubNr = lineElements[1];
+					if (publnNr.equals(tmpPubNr)) {
+						flag = true;
+					}
+				}
+				
+				if (lineNumber % 12 == 8 && flag) {
+					return line;
+				}
+				
+				lineNumber++;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return applicantName;
+		
 	}
 
 }

@@ -1,0 +1,2401 @@
+1. WO/2017/076173 MOBILE TERMINAL, TRADE CONFIRMATION METHOD AND APPARATUS THEREFOR, AND SMART CARD
+WO
+11.05.2017
+G06Q 20/38 Loading...
+G06Q 20/38
+Loading...
+PCT/CN2016/102863
+NATIONZ TECHNOLOGIES INC.
+ZHANG, Xiang
+G06Q 20/38
+Loading...
+A mobile terminal, a trade confirmation method and apparatus therefor, and a smart card. The trade confirmation method comprises: acquiring trade data and request to be signed/confirmed (101); popping up an STK menu, displaying the trade data and request to be signed/confirmed in the STK menu, and receiving user input (102); when the user input confirms trade continuing, executing a secure operation by using a secure element (SE) in a smart card (103); and returning a secure operation result (104).
+2. WO/2017/076258 SMART CARD AND APPLICATION DOWNLOADING METHOD THEREOF
+WO
+11.05.2017
+H04B 5/00 Loading...
+H04B 5/00
+Loading...
+PCT/CN2016/104063
+NATIONZ TECHNOLOGIES INC.
+LIU, Yong
+H04B 5/00
+Loading...
+The present invention relates to a smart card and application downloading method thereof. The smart card comprises: a master control module, used to load and operate a Java virtual machine, and to store and install an application program received via a Bluetooth channel; a Bluetooth module, used to connect with a mobile smart terminal and perform a data communication. The present invention addresses the current problem of the lack of a device-card channel between the mobile smart terminal and the telecommunication smart card by adding a Bluetooth function to a telecommunication smart card capable of supporting multiple applications as an application download channel between the mobile smart terminal and the telecommunication smart card.
+3. WO/2017/076216 SERVER, MOBILE TERMINAL, AND INTERNET REAL NAME AUTHENTICATION SYSTEM AND METHOD
+WO
+11.05.2017
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+PCT/CN2016/103536
+NATIONZ TECHNOLOGIES INC.
+LI, Youbin
+H04W 12/06
+Loading...
+Disclosed are an internet real name authentication server, a mobile terminal, and a smart card-based internet real name authentication system and method. The system comprises: an authentication center, which registers identity information of users and is capable of authenticating an identity of a user; a mobile terminal, which supports a Bluetooth function and is installed with a smart card and client software, the smart card having a hardware ID, supports a Bluetooth function, and is used for storing digital identity information of users to perform digital signing, and the client software is used for providing a human-machine interface, obtaining a digital signature of the smart card, receiving smart card transmission information, and transmitting the information to a server for authenticating; and a server, used for receiving information sent by the client software and sends the received information to the authentication center for identity confirmation and authentication, so as to determine whether to allow the user to use a internet service. The present invention effectively overcomes the technical disadvantages of low security and operating difficulty that exist in the existing internet real name authentication
+4. WO/2017/076291 SMART CARD AND PEAK CURRENT REDUCING METHOD THEREFOR
+WO
+11.05.2017
+G06K 19/07 Loading...
+G06K 19/07
+Loading...
+PCT/CN2016/104343
+NATIONZ TECHNOLOGIES INC.
+XIONG, Xing
+G06K 19/07
+Loading...
+A smart card and a peak current reducing method therefor. The smart card comprises: a Bluetooth module (1) and a master control module (7), the Bluetooth module (1) comprising: a radio frequency open unit and a radio frequency close unit. The radio frequency open unit is used for informing the master control module (7) to run by reducing frequency in an interruption way before opening a radio frequency signal; and the radio frequency close unit is used for informing the master control module (7) to run by recovering normal frequency in the interruption way after closing the radio frequency signal. The peak current reducing method comprises the steps: informing the master control module (7) to run by reducing the frequency in the interruption way before the Bluetooth module (1) opens the radio frequency signal; and informing the master control module (7) to run by recovering the normal frequency in the interruption way after the Bluetooth module (1) closes the radio frequency signal. The smart card and the peak current reducing method therefor can perform peak shifting processing on the smart card, and reduce a peak current of the smart card.
+5. WO/2017/076202 SMART CARD, MOBILE TERMINAL, AND METHOD FOR USING SMART CARD TO IMPLEMENT NETWORK IDENTITY AUTHENTICATION
+WO
+11.05.2017
+G06F 21/35 Loading...
+G06F 21/35
+Loading...
+PCT/CN2016/103345
+NATIONZ TECHNOLOGIES INC.
+XIAO, Deyin
+G06F 21/35
+Loading...
+A smart card, a mobile terminal, and a method for using the smart card to implement network identity authentication. The smart card is provided with a wireless interface, comprising: a secure master control chip, personal network identity information being stored therein; and a radio frequency chip, for implementing wireless communication transmission by means of the wireless interface, such that an application program of the terminal acquires the personal network identity information stored in the secure master control chip by means of the radio frequency chip. Network identity authentication can be implemented by merely replacing a smart card written with network identity information; the present invention is convenient and quick, and has prospects for wide application.
+6. WO/2017/076270 SMART CARD HAVING FUNCTION OF ONE TIME PASSWORD (OTP), AND WORK METHOD THEREFOR
+WO
+11.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/104200
+NATIONZ TECHNOLOGIES INC.
+XIA, Shengfeng
+H04L 29/06
+Loading...
+The present invention provides a smart card having a function of one time password (OTP), and a work method therefor. The smart card comprises: a smart card main control module, used for realizing basic functions of the smart card, and separately connected to a radio frequency control module, an OTP main control chip and a contact-type interface for transmitting and exchanging data information; the radio frequency control module, used for controlling a radio frequency antenna so as to realize a wireless communication protocol, and establishing corresponding wireless communication connection with a terminal for realizing interaction with APP application software; the radio frequency antenna, used for receiving and sending radio-frequency signals; the OTP main control chip, used for receiving trade information that is transmitted by the terminal by means of wireless communication connection or the contact-type interface, producing a dynamic code and sending same to the smart card main control module; and the contact-type interface, used for realizing an interface for connecting the smart card main control module and the terminal so as to transmit data and control information, and realize interaction with an STK application or the APP application software.
+7. WO/2017/076257 SYSTEM AND METHOD FOR APP CERTIFICATION
+WO
+11.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/104059
+NATIONZ TECHNOLOGIES INC.
+XIAO, Deyin
+H04L 29/06
+Loading...
+Disclosed is an APP certification system, comprising a terminal being certified, a certifying terminal, and an auxiliary certifying terminal. The terminal being certified is used for transmitting a software identification (ID), a certifying terminal attribute value, and a main device attribute value to the auxiliary certifying terminal and transmitting a check key generated by the auxiliary certifying terminal to the certifying terminal. The auxiliary certifying terminal is used for utilizing the software identification (ID) stored therein to check the software identification (ID) received from the terminal being certified and, if the check passed, then generating, on the basis of the certifying terminal attribute value and the main device attribute value received from the terminal being certified, an auxiliary certification check key and transmitting same to the terminal being certified. The certifying terminal is used for running a check on the check key on the basis of the certifying terminal attribute value and the main device attribute value acquired by self. The technical solution of the present invention allows an external device to certify the security of an APP, thus increasing the security of device data, is not only easy to implement but also easy to promote, and also increases the stability of a service process.
+8. WO/2017/076269 SMART DEVICE, AND METHOD AND APPARATUS FOR ESTABLISHING BLUETOOTH CONNECTION BETWEEN DEVICES THEREFOR
+WO
+11.05.2017
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+PCT/CN2016/104195
+NATIONZ TECHNOLOGIES INC.
+ZHAI, Yuehui
+H04W 76/02
+Loading...
+The present invention relates to a smart device, and a method and an apparatus for establishing Bluetooth connection between devices therefor. The method for establishing a Bluetooth connection between devices comprises: acquiring matching parameters of a target Bluetooth device; turning on a self Bluetooth module; starting a scanning function of the Bluetooth module; and after the target Bluetooth device that matches the acquired matching parameters is scanned out, stopping the scanning function of the Bluetooth module, and establishing Bluetooth connection, the matching parameters comprising a parameter uniquely corresponding to the target Bluetooth device, a pairing code, a Bluetooth name of the target Bluetooth device or service matching filter rule parameter information. The apparatus for establishing Bluetooth connection for the smart device is used for implementing operation, completed by the smart device or an initiator, in the method for establishing the Bluetooth connection between devices. The present invention does not limit preset connection information, thereby expanding a channel for acquiring Bluetooth matching parameters; and by first acquiring the matching parameters of a target Bluetooth device, the target Bluetooth device discovery efficiency is higher.
+9. WO/2017/076287 METHOD AND DEVICE FOR PAIRING BLUETOOTH DEVICES
+WO
+11.05.2017
+H04W 4/00 Loading...
+H04W 4/00
+Loading...
+PCT/CN2016/104326
+NATIONZ TECHNOLOGIES INC.
+YANG, Xianwei
+H04W 4/00
+Loading...
+Disclosed are a method and a device for pairing Bluetooth devices. The method comprises the following steps: a mobile terminal pops up or is controlled by a smart card to pop up an STK menu so as to prompt to enter pairing parameter information needed by Bluetooth connection, or prompt to confirm pairing parameter information that is automatically generated by a system; and obtain Bluetooth pairing parameters according to the pairing parameter information. The device is used for setting Bluetooth pairing parameters. The method and the device for pairing Bluetooth devices are capable of more safely setting Bluetooth pairing parameters, thereby improving the security of Bluetooth connection.
+10. WO/2017/076249 PAIRING METHOD, PAIRING APPARATUS, SMART TERMINAL, AND SMART CARD
+WO
+11.05.2017
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+PCT/CN2016/103983
+NATIONZ TECHNOLOGIES INC.
+XIAO, Deyin
+H04W 48/16
+Loading...
+Disclosed in the present invention are a pairing method and a pairing apparatus, and a smart terminal and a smart card, the pairing method comprising: scanning feature information images of a slave device; on the basis of the feature information images, parsing out unique identification information of the slave device; and, using the unique identification information of the slave device as a pairing parameter, sending a Bluetooth connection request to the slave device. Rapid pairing between a Bluetooth main and slave device is thereby implemented, ensuring the security and uniqueness of said Bluetooth connection.
+11. WO/2017/076226 METHOD AND SYSTEM FOR GETTING SIM CARD FROM LONG DISTANCE
+WO
+11.05.2017
+H04W 12/06 Loading...
+H04W 12/06
+Loading...
+PCT/CN2016/103750
+NATIONZ TECHNOLOGIES INC.
+ZHAI, Yuehui
+H04W 12/06
+Loading...
+Disclosed are a method and system for getting an SIM card from a long distance. The method comprises the following steps: data acquisition, an operator provides an online window for acquiring identity authentication information filled out by a smart device user; and examination and verification, the operator examines and verifies the identity and number of the user according to an order generated by the information filled out by the user, comprising performing image authentication by means of technologies including image identification and face identification. By means of the technical solution of the present invention, a user can implement operations of getting a card and changing the card completely on the internet, and the security is improved by means of identity authentication.
+12. WO/2017/076277 COMMUNICATION CARD E-BANK KEY AND FUNCTIONING METHOD THEREOF
+WO
+11.05.2017
+G06F 21/77 Loading...
+G06F 21/77
+Loading...
+PCT/CN2016/104244
+NATIONZ TECHNOLOGIES INC.
+XIAO, Deyin
+G06F 21/77
+Loading...
+Disclosed in the present invention are a communication card E-bank KEY and a functioning method thereof, wherein the E-bank KEY comprises: an ISO7816 interface and power management module, a communication card telecommunication application module, a public-key cryptography supporting security chip module, and a Bluetooth communication module. The ISO7816 interface and the power management module is connected with a communication card slot of a communication device, while the ISO7816 interface and the power management module is connected with the communication card telecommunication application module, the public-key cryptography supporting security chip module and the Bluetooth communication module. The communication card telecommunication application module communicates with the communication device through the ISO7816 interface, provided by the ISO7816 interface and the power management module, to complete the operation of the telecommunication application. The public-key cryptography supporting security chip module is connected with the Bluetooth communication module to complete operations of encryption, decryption, signature, signature verification, key exchange and the like.
+13. WO/2017/067499 SHARED SWITCH-CAPACITOR TRUE RANDOM NUMBER GENERATOR AND METHOD THEREFOR FOR GENERATING TRUE RANDOM NUMBER
+WO
+27.04.2017
+G06F 7/58 Loading...
+G06F 7/58
+Loading...
+PCT/CN2016/102836
+NATIONZ TECHNOLOGIES INC.
+SHEN, Ye
+G06F 7/58
+Loading...
+The present invention provides a shared switch-capacitor true random number generator, which comprises a first true random number generating unit and a second true random number generating unit, the first and second true random number generating units being connected together in series in an end-to-end connection way to form a loop, the first and second true random number generating units having a shared operational amplifier, and the first true random number generating unit and the second true random number generating unit respectively and alternately completing random number generating operation under the control of a first clock control signal and a second clock control signal. The present invention also provides a method for operating the shared switch-capacitor true random number generator. By means of the technical scheme of the present invention, a circuit can be simplified, thereby reducing the power consumption of the circuit, and reducing the area of the circuit.
+14. 106603361 综合模块化航电机柜、系统和飞行装置及数据传输方法
+CN
+26.04.2017
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+102016001168835
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+蒋欣
+H04L 12/40
+Loading...
+本发明实施例公开了一种综合模块化航电机柜、系统和飞行装置与传输方法，属于航电技术领域。其中，该机柜包括：两个内置时间触发以太网交换机，为所述机柜与机柜外飞机其他系统提供网络连接；三个通用处理模块，分别与内置时间触发以太网交换机连接，为飞机系统的驻留应用提供处理资源，用于实现驻留的系统和机柜外部飞机其他系统之间的数据交互；两个电源控制模块，与所述内置时间触发以太网交换机和所述通用处理模块连接，用于为所述内置时间触发以太网交换机和所述通用处理模块提供电源。
+15. 106579692 一种使用方便的便携式查验腰包
+CN
+26.04.2017
+A45C 1/04 Loading...
+A45C 1/04
+Loading...
+102016001196465
+中华人民共和国太仓出入境检验检疫局综合技术服务中心
+叶忠伟
+A45C 1/04
+Loading...
+本发明公开了一种使用方便的便携式查验腰包，包括包体、上盖、固定带和暗扣，其中所述包体上设有上盖，所述上盖通过暗扣扣合在包体上；所述包体背面设有固定带，所述固定带通过暗扣扣合在包体上。本发明所述的使用方便的便携式查验腰包结构简单、合理，易于实现，其中包体内可以防止各类的查验用专用工具，上盖可以方便的通过暗扣扣合和打开，背面的固定带通过暗扣打开和扣合可以固定在腰带上，方便腰包的固定和取下，十分的便捷。
+16. 106597443 低频合成孔径雷达图像对比相消射频干扰抑制方法
+CN
+26.04.2017
+G01S 13/90 Loading...
+G01S 13/90
+Loading...
+102016001187960
+中国人民解放军国防科学技术大学
+李悦丽
+G01S 13/90
+Loading...
+本发明提供了一种低频合成孔径雷达图像对比相消射频干扰抑制方法，包括三个步骤：(1)基于雷达时频域回波的距离谱均衡和SAR成像，获得图像(2)基于自适应滤波的脉内RFI抑制和SAR成像，获得图像(3)将图像和的像素点的幅度值进行逐点比较，消除残余RFI，得到图像Io(tm,tf)，该图像即为采用图像对比相消法抑制了残余RFI的SAR图像。本发明利用谱均衡法对RFI抑制性能稳健的特点，结合自适应NLMS滤波法，实现RFI抑制性能上的互补，并且生成的图像无需进行配准，目标的位置不存在误差，能够直接在图像域进行逐点比较，消除残余RFI，运算量小，实时性强，易于工程实现。
+17. 105034847 剔除桥梁位移反馈的磁浮列车—桥梁自激振动抑制方法
+CN
+26.04.2017
+B60L 13/06 Loading...
+B60L 13/06
+Loading...
+102015000376935
+中国人民解放军国防科学技术大学
+李杰
+B60L 13/06
+Loading...
+本发明公开了一种剔除桥梁位移反馈的磁浮列车—桥梁自激振动抑制方法，相比于磁浮列车传统的悬浮控制律，剔除了桥梁位移反馈，仅需通过振动加速度传感器测量得到电磁铁的振动加速度，并计算得到电磁铁的振动位移，再采用本发明磁浮列车的悬浮控制律，就能实现磁浮列车—桥梁耦合系统的稳定，避免自激振动的出现，提高磁浮列车低速通过桥梁的能力，降低了系统成本，提高了系统的可靠性。
+18. 106599580 基于可重构度的卫星在轨健康状态评估方法及评估系统
+CN
+26.04.2017
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201611153180.2
+中国人民解放军国防科学技术大学
+金光
+G06F 19/00
+Loading...
+一种基于可重构度的卫星在轨健康状态评估方法，其操作步骤包括：根据卫星系统的物理结构确定系统层次结构得到系统结构树；然后再逐层确定各层次元素的可重构度；收集部件健康状态下遥测参数的遥测数据；根据遥测数据提取部件健康状态的特征量数据，用多元状态估计方法或非参数回归方法确定部件健康状态指标值；再确定元素贡献度，采用层次分析法确定系统结构树中下一层次各元素对与其关联的上一层次元素的贡献度，获得系统健康状态指标值：借此评估系统健康状态。本发明还提供了包括数据获取模块、数据预处理模块、系统结构树编辑模块、数据分析模块和数据可视化模块的评估系统，以实现从部件到系统的多级健康状态评估。
+19. 106595710 一种用于惯性导航系统的系统级二次温度补偿方法
+CN
+26.04.2017
+G01C 25/00 Loading...
+G01C 25/00
+Loading...
+201611153766.9
+中国人民解放军国防科学技术大学
+魏国
+G01C 25/00
+Loading...
+本发明涉及一种用于惯性导航系统的系统级二次温度补偿方法，属惯性导航、制导及控制领域。本发明在惯性导航系统进行初次温度补偿的基础上，针对冷态启动、快速导航的应用条件，对不同温度条件下惯性元器件冷态启动的零偏进行了测试，不仅保证了惯性导航系统在全温域的温度补偿效果，而且在任一温度点进行冷态启动，也可以保证系统长时间、高精度地工作。
+20. 106600629 一种面向大尺度运动的光流估计方法
+CN
+26.04.2017
+
+
+
+201611150045.2
+中国人民解放军国防科学技术大学
+康来
+
+
+本发明公开了一种面向大尺度运动的光流估计方法，其目的是计算包含大位移和大尺度变化场景对象的图像之间的稠密像素对应关系。首先，对输入的图像对进行预处理；然后，构建光流控制点集合，并在此基础上计算控制光流向量和控制点状态矩阵，以及构建初始光流向量和光流偏移向量；最后，在离散优化框架下实现光流向量的迭代优化。采用本发明方法可以有效处理光流估计中场景对象大位移和大尺度变化问题，显著提高大尺度运动光流估计的精度，且与已有方法相比本发明方法计算效率有显著提升。
+21. 106597489 一种卫星导航多导频通道软件并行接收方法
+CN
+26.04.2017
+G01S 19/25 Loading...
+G01S 19/25
+Loading...
+201611150155.9
+中国人民解放军国防科学技术大学
+牟卫华
+G01S 19/25
+Loading...
+本发明属于卫星导航扩频信号接收处理领域，涉及一种卫星导航多导频通道软件并行接收方法。具体步骤为(S1)将输入信号向量化；(S2)根据伪码频率fPi、伪码初始相位ρ0i以及相关间隔相位δi，生成本地伪码向量，每个通道中3个相关间隔为δi共K个通道的本地伪码向量组成本地多通道参考伪码矩阵YEPL‑K；(S3)根据多普勒频率fdi、载波相位计算生成本地多通道载波多普勒信号矩阵CK；(S4)计算本地多通道参考伪码矩阵YEPL‑K与本地多通道载波多普勒信号矩阵CK的哈达马积，得到本地参考信号矩阵YFd‑EPL；(S5)基于GPU的CUBLAS或MKL，计算本地参考信号矩阵YFd‑EPL与输入信号向量S的乘积，得到K个导频信号通道不同伪码延迟的相关值向量RK。本发明实现了卫星导航宽带多导频通道的软件实时相关接收。
+22. 105929337 航天器多功能结构锂电池系统数据处理单元
+CN
+26.04.2017
+G01R 31/36 Loading...
+G01R 31/36
+Loading...
+201610303755.8
+中国人民解放军国防科学技术大学
+吴军
+G01R 31/36
+Loading...
+本发明属于航天技术领域，涉及一种航天器多功能结构锂电池系统数据处理单元，具有采集、存储、处理和传输航天器多功能结构锂电池系统工作参数的功能。所述数据处理单元包括用于获取供电电源的电源接口模块、负责数据采集控制和处理的数据处理模块、采集外部信号的数据采集模块以及光纤控制器模块。本发明通过结合故障诊断功能和内置于外部反熔丝PROM中的程序代码，可实现外部最小安全系统，提高单机设备在空间强辐照环境中的生存能力；通过分时复用1553B总线的遥测通道，可作为数传接口下传Flash数据的冗余传输通道，提高数据安全性；通过采用新型电磁屏蔽材料、优化接地设计和滤波器设计，可实现单机良好的电磁兼容性能。
+23. 106027904 视频卫星姿态运动图像补偿方法
+CN
+26.04.2017
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+201610494336.7
+中国人民解放军国防科学技术大学
+项军华
+H04N 5/232
+Loading...
+本发明公开了一种视频卫星姿态运动图像补偿方法，其根据卫星姿态运动信息，得到当前帧时刻相对于上一帧时刻的姿态欧拉角，或者相对于过去某一时刻的姿态欧拉角，从而对之前已获得的图像或目标运动轨迹补偿姿态运动。该方法算法简单，给出了工程实践中常见的简化情况，运算量小。该方法可将已得到的图像或轨迹变换到当前的图像坐标系下，便于进行图像观察与分析。
+24. 104616561 大型运输机的操纵负荷模拟装置
+CN
+26.04.2017
+G09B 9/12 Loading...
+G09B 9/12
+Loading...
+102014000731068
+中国人民解放军空军航空大学军事仿真技术研究所
+郭全
+G09B 9/12
+Loading...
+本发明的一种大型运输机的操纵负荷模拟装置，包括机械系统和控制系统。利用高精度绝对值编码器采集驾驶杆的操纵量，通过计算机计算由舵面作用到驾驶杆上的力，通过控制高精度操纵负荷模拟装置来控制驾驶杆上的作用力。实现驾驶杆上的力随飞机飞行高度和速度的变化而变化；模拟自动驾驶时操纵系统的工作情况；实现飞机操纵系统出现特情时的应急处置训练；模拟升降舵配平即零力矩点调节过程，减轻和消除飞行人员的驾驶疲劳。所述的大型运输机的高精度操纵负荷模拟装置有益于提高飞行训练效益和飞行模拟器的逼真度。
+25. 106599366 基于机动性的高层次综合调度方法
+CN
+26.04.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201610996769.2
+中国人民解放军国防科学技术大学
+李勇
+G06F 17/50
+Loading...
+本发明公开了一种基于机动性的高层次综合调度方法，其步骤为：S1：确定算子的机动性；S2：确定算子的调度顺序：从机动性最小的算子开始调度；S3：调度算子：在确定算子的调度顺序之后，开始将算子安排到确定的控制步。本发明具有原理简单、易于实现、能够提高综合后电路的资源利用率、最终减小硬件电路面积等优点。
+26. 106599620 一种基于动态代码变换的二进制软件保护方法
+CN
+26.04.2017
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+102016001009332
+中国人民解放军国防科学技术大学
+张怡
+G06F 21/12
+Loading...
+本发明公开了一种基于动态代码变换的二进制软件保护方法，其步骤为：S1：提取待保护代码的基本块，得到片；S2：对片进行处理；将所有片均分为两部分：上半部分和下半部分；在上半部分随机选取一些片初始为密文状态，则其对应的下半部分的其余片为密文状态；S3：插入解密函数；在所有片的末尾插入到解密函数的跳转，解密函数功能为在运行时解密即将执行的下一片。本发明具有原理简单、实现容易、执行高效、保护强度较大等优点。
+27. 106603082 通用型高速LDPC码编码方法及编码器
+CN
+26.04.2017
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+201611136149.8
+中国人民解放军国防科学技术大学
+雷菁
+H03M 13/11
+Loading...
+本发明涉及无线通信领域，其针对发送端信道编码器大吞吐量的需求，设计和实现了一种通用型高速低密度奇偶校验码(LDPC码)编码方法及编码器。本发明通过先对LDPC码的校验矩阵进行预处理，然后利用预处理后的校验矩阵进行编码这两个步骤将LDPC码的校验矩阵通过行列置换和高斯消元，使每个校验位的运算只与预处理后矩阵的对应行相关，具备了可以灵活并行处理的结构；在编码器的硬件设计上，本发明提出了一种校验位并行分步运算的编码器架构，通过同时计算所有校验位，分步处理单个校验位，有效地降低了硬件实现复杂度，缩短了关键路径时延，实现了编码速率的极大提高。
+28. 104818609 聚碳硅烷纤维低氧不熔化方法
+CN
+26.04.2017
+D06M 11/58 Loading...
+D06M 11/58
+Loading...
+201510244138.0
+中国人民解放军国防科学技术大学
+简科
+D06M 11/58
+Loading...
+本发明涉及一种聚碳硅烷纤维低氧不熔化方法，将聚碳硅烷纤维原丝卷绕到聚碳硅烷纤维原丝筒上，然后置于带进出气系统和鼓风系统的烘箱中，以120～180℃/h的速度升温至130～140℃，恒温1～2h，除去吸附的水分，然后以10～30℃/h的速度升温至175～180℃，恒温2～3h；往鼓风烘箱中通入氮气，边通入氮气边继续升温，以5～10℃/h的速度升温至195～210℃，恒温1～2h。停止加热，自然冷却，即得到低氧聚碳硅烷不熔化纤维。本发明具有如下优点：可以采用较低软化点的高线性聚碳硅烷，原纤维质量较好；不熔化工艺控制简便，成本较低，能够批量进行聚碳硅烷纤维低氧不熔化。
+29. 106602391 一种具备波前畸变自校正能力的板条激光模块
+CN
+26.04.2017
+H01S 3/042 Loading...
+H01S 3/042
+Loading...
+201611129909.2
+中国人民解放军海军航空工程学院
+刘亮
+H01S 3/042
+Loading...
+本发明通过优化热管理和光路设计，提供一种具备波前畸变自校正能力的板条激光模块，包括激光反射装置和作为增益介质的板条介质；所述板条介质两端的上下两个表面为无倏逝膜区域，上下表面的中间部分为倏逝膜区域；入射激光L1从板条介质的无倏逝膜区域进入板条介质内部，并沿板条介质长度方向传输，从板条介质另一端的无倏逝膜区域出射；所述激光反射装置将出射的入射激光L1再次反射进入板条介质的内部进行第二次传输，并从第一次的入射端出射，其中入射激光L1第二次的入射点位置约束条件为：入射激光L1两次通过板条介质时产生的波前畸变波形相反，进而得到消除波前畸变、高功率高光束质量的出射激光。
+30. 103471530 一种基于多传感器扫描的超精密测量方法
+CN
+26.04.2017
+G01B 11/27 Loading...
+G01B 11/27
+Loading...
+102013000445029
+中国人民解放军国防科学技术大学
+尹自强
+G01B 11/27
+Loading...
+一种基于多传感器扫描的超精密测量方法，为：构造两组不同间距的传感器，均利用逐次两点法精确重构出一组直线度轮廓，并确定这两组直线度轮廓间隔的大小，使之能够在前一组曲线和后一组曲线中找到相同的采样点；如果一组曲线中的某条曲线和另一组曲线中的某条曲线至少有两个相同采样点，据此计算出这两条曲线之间的相对平移量和倾斜量，确定这两条曲线之间的位置关系；在第一组曲线中分别确定其与第二组曲线中某一条曲线的相互位置关系，则确定了第一组曲线的相互位置关系，从而在所有采样点上精确重构出被测表面直线度轮廓。本发明测量精度高、测量速度快、可消除传感器系统误差和扫描平台直线度误差。
+31. 104852067 基于燃料电池的飞机发电系统
+CN
+26.04.2017
+
+
+
+201510182466.2
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+王志峰
+
+
+本发明实施例提供一种基于燃料电池的飞机发电系统。该飞机发电系统包括：燃料电池供电系统、主发动机发电系统和空气冲压涡轮发电系统及蓄电池。通过将燃料电池供电系统作为飞机的主要电源，全时段工作，为连接在直流汇流条上的全部负载供电，提高了发电的效率，避免了从主发动机发电系统提取功率，可以提高飞机的燃油经济性；将主发动机发电系统和空气冲压涡轮发电系统及蓄电池用作燃料电池供电系统的备份电源，主发动机发电系统对全部负载中的第一设定负载形成备份，空气冲压涡轮发电系统及蓄电池对关键设备形成备份，通过冗余备份保证了供电的可靠性。
+32. 106598843 一种基于程序分析的软件日志行为自动识别方法
+CN
+26.04.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+102016001016393
+中国人民解放军国防科学技术大学
+廖湘科
+G06F 11/36
+Loading...
+本发明公开了一种基于程序分析的软件日志行为自动识别方法，目的是解决现有日志增强工作难以自动、准确识别软件已有日志行为的问题。技术方案是先将目标工程Proj的源代码以函数为单位分割，识别函数中的分支语句、函数调用语句、日志语句，并分别放到该函数的分支语句集合、函数调用语句集合和日志语句集合中，筛选出调用集和分支集之间存在数据依赖的元素，在存在数据依赖的元素中再筛选出与日志集元素存在控制依赖的元素，得到日志行为集。采用本发明可以自动识别源代码中面向故障诊断的日志行为，也可以精确识别函数调用语句、分支语句与日志语句之间的对应关系，提升日志增强的有效性，使得日志行为识别更为快速、准确。
+33. 106603147 基于软件定义网络的空天信息网络业务转发方法
+CN
+26.04.2017
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+201710036628.0
+中国人民解放军国防科学技术大学
+赵宝康
+H04B 7/185
+Loading...
+本发明提出了一种基于软件定义网络的空天信息网络业务转发方法。根据空天信息网络不同类型业务在带宽、时延、丢包率具有不同的服务质量要求需求特点，引入软件定义网络的思想，采取集中控制的方式，实现控制平面和数据平面的分离，在空天信息网络拓扑核心网中构建基于业务类型的隧道控制机制，多个隧道根据预留带宽、优先级和隧道业务类型进行不同类型业务流量路径计算。根据南向接口传递的上传报文流元组匹配信息，判断业务基于分组或者标签转发。根据数据平面节点流状态反馈信息，在网络资源不够时根据优先级重新规划标签路径。本发明设计的转发机制具备灵活性和全局性，可以高效地实现空天信息网络业务投递。
+34. 106585693 桌面式多功能搬运工具车
+CN
+26.04.2017
+B62B 3/02 Loading...
+B62B 3/02
+Loading...
+201710037059.1
+中国人民解放军国防科学技术大学
+宋殿义
+B62B 3/02
+Loading...
+一种桌面式多功能搬运工具车，包括：外骨架装配体，两侧为空心套管，前端安装大轮胎装配体，后端设有竖向套管；内骨架前端连接在轴套上，后端装有万向轮或底脚；内骨架支撑件下端与内骨架铰接，上端与外骨架装配体的横梁连接；长拉杆插入外骨架装配体的两侧空心套管或竖向套管内；折叠桌面板装配体包括上板和下板，上板和下板后部铰接，下板后端挂套在外骨架装配体横梁上，下板前端与旋转支架上端铰接，旋转支架下端与外骨架装配体横梁连接。本发明不仅能够承受较大的载荷，而且结构组合多变，实现多种功能多种用途，特别是能够折叠收缩和展开，方便携带和运输。
+35. 106583757 高精度超薄金属箔片的加工装置及加工方法
+CN
+26.04.2017
+B23B 5/00 Loading...
+B23B 5/00
+Loading...
+201611084403.4
+中国人民解放军国防科学技术大学
+铁贵鹏
+B23B 5/00
+Loading...
+本发明公开了一种高精度超薄金属箔片的加工装置及加工方法，装置包括车床，车床上装设有主轴和车削刀具，主轴上装设有用于吸附装夹待加工金属箔片的真空吸盘，真空吸盘包括吸盘本体和多孔质吸附垫体，吸盘本体装设在主轴上，多孔质吸附垫体装设在吸盘本体的中心区域，吸盘本体在其轴线开设有用于将金属箔片的待加工区域吸附在多孔质吸附垫体上的中心气孔，吸盘本体在中心气孔侧部的同向方向均匀开设有多个用于吸附金属箔片边沿的侧部气孔。方法包括以下步骤：S1：装夹；S2：基准面加工；S3：翻面装夹；S4：减薄加工；S5：拆卸。本发明具有拆装方便、装夹稳定、可提高生产效率、能保证金属箔片亚微米量级厚度均匀性的优点。
+36. 106603511 一种基于独立内核模块的LISP数据流处理方法
+CN
+26.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611085207.9
+中国人民解放军国防科学技术大学
+邓文平
+H04L 29/06
+Loading...
+本发明公开了一种基于独立内核模块的LISP数据流处理方法，目的是解决采用对Linux系统协议栈打补丁的方法来实现LISP数据流处理方法在代码维护成本、跨平台部署难度和开发周期等方面的不足。技术方案是将标准LISP数据流处理软件和虚拟接口Tunnel的网络驱动模块整合，得到改进后LISP数据流处理软件，并将改进后LISP数据流处理软件加载到Linux系统中，由改进后LISP数据流处理软件创建虚拟接口Tunnel；协议栈中的IP协议栈、虚拟接口Tunnel、改进后LISP数据流处理软件相互协作，从网络接口收发报文。采用本发明使得不需要修改Linux协议栈的代码，不需要对Linux系统的协议栈打补丁就能实现LISP数据流处理，使得代码维护成本低，开发人员能力要求大大降低，跨平台部署难度降低，开发周期减少。
+37. 106603512 一种基于SDN架构的IS‑IS路由协议的可信认证方法
+CN
+26.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001085261
+中国人民解放军国防科学技术大学
+王宝生
+H04L 29/06
+Loading...
+本发明公开了一种基于SDN架构的IS‑IS路由协议的可信认证方法，目的是提供一种既能确保接入网络的路由器的可靠性，又能确保路由器之间发送的路由协议消息可信的方法。技术方案是先构建一个由N个可信路由器和一台集中控制服务器构成的网络系统，在Hello数据报文尾部增加设备序列号TLV；集中控制服务器安装有可信路由认证软件，可信路由认证软件由认证数据表，认证模块和配置终端组成；认证模块将认证申请报文中的设备序列号对与认证数据表中的设备序列号对进行比对，将得到的认证结果字段的值通过认证结果报文发送给发送认证申请报文的可信路由器以确定是否通过认证。本发明既能确保入网的路由器的可靠性，也能确保路由器之间发送的路由协议消息可信。
+38. 106604333 一种基于LISP的终端快速移动切换方法
+CN
+26.04.2017
+H04W 36/00 Loading...
+H04W 36/00
+Loading...
+102016001083308
+中国人民解放军国防科学技术大学
+王宝生
+H04W 36/00
+Loading...
+本发明公开了一种基于LISP的终端快速移动切换方法，包括以下步骤：1.移动终端接入接入编号为A的隧道路由器xTRA，并向xTRA注册；2.xTRA向映射系统发送映射注册报文，映射系统根据该报文的推送标志位向其余隧道路由器(简记为xTR)发送映射推送报文，其余xTR更新xTRA的映射信息；3.移动终端和xTRA之间维持接入状态；4.移动终端断开与xTRA的连接；5.xTRA向映射系统发送映射注册报文删除旧的映射信息，映射系统根据该报文的推送标志位向其余xTR发送映射推送报文，其余xTR删除该移动终端的映射信息；6.移动终端接入编号为C隧道路由器xTRC，并向xTRC注册；7.xTRC向映射系统更新映射信息；8.移动终端和xTRC之间维持接入状态。本发明实现了标地分离网络中移动终端的快速切换。
+39. 106600551 一种适用于大场景星载SAR图像的高精度几何校正方法
+CN
+26.04.2017
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+102016001097771
+中国人民解放军国防科学技术大学
+余安喜
+G06T 5/00
+Loading...
+本发明提供一种适用于大场景星载SAR图像的高精度几何校正方法。已知待校正SAR图像、辅助参数和DEM数据，技术方案包括：第一步，确定要分块的大小和总分块数量；第二步，求解第k个子块的RPC模型参数，计算图像坐标；第三步，获得整幅图像的图像坐标；第四步，采用插值法计算几何校正后的星载SAR图像。本发明提出的分块RPC模型划分若干子块过程，使得几何校正算法既能保持良好的效率，又能克服现有RPC模型在校正大场景星载SAR图像时误差显著增大的问题。
+40. 106597607 一种低损耗全光纤高压气体腔系统及其实现方法
+CN
+26.04.2017
+G02B 6/255 Loading...
+G02B 6/255
+Loading...
+102016001216802
+中国人民解放军国防科学技术大学
+王泽锋
+G02B 6/255
+Loading...
+一种低损耗全光纤高压气体腔系统，包括空芯光纤、左端与右端拉锥处理的实芯光纤、左端与右端空芯光纤与实芯光纤对接封装模块、金属气密腔、高精度气压计、气体流量监测及充放气模块。其中，空芯光纤左端面通过密封胶与金属气密腔紧密连接；金属气密腔与高精度气压计紧密连接；金属气密腔与气体流量监测及充放气模块紧密连接。本发明还设计一种采用低损耗全光纤气体腔系统进行全光纤封装的全光纤高压气体腔实现方法。可实现具有低损耗、高强度和长期稳定性等突出特点的全光纤高压气体腔，在光纤气体拉曼激光器等方面有广泛的应用前景和重要的应用价值。
+41. 106602395 一种基于多波长泵浦的超宽带随机光纤激光器
+CN
+26.04.2017
+H01S 3/067 Loading...
+H01S 3/067
+Loading...
+102017000043919
+中国人民解放军国防科学技术大学
+张汉伟
+H01S 3/067
+Loading...
+本发明涉及一种基于多波长泵浦的超宽普随机光纤激光器。包括多波长泵浦源、超宽带耦合器以及被动光纤。多波长泵浦源可以是常规的光纤激光器，也可以是光纤耦合的半导体激光器或者固体激光器，单一波长激光器线宽在1nm到5nm之间，波长的数量根据实际需求确定，波长间隔在5nm到15nm之间，各单一波长激光器采用波分复用器或者直接级联的方式产生。若采用直接级联的方式，级联顺序是长波长激光在前，短波长激光在后。超宽带耦合器能保证泵浦波长和产生的信号泵浦都低损耗的通过。本发明与现有随机光纤激光器相比能够产生更宽谱宽、更高功率的随机光纤激光。
+42. 106591767 一种用于制备耐腐蚀Al‑Zn‑Mg‑Ni非晶纳米晶复合涂层的粉芯丝材
+CN
+26.04.2017
+
+
+
+201710048373.X
+中国人民解放军装甲兵工程学院
+梁秀兵
+
+
+本发明公开了一种用于制备耐腐蚀Al‑Zn‑Mg‑Ni非晶纳米晶复合涂层的粉芯丝材，其特征在于，所述的粉芯丝材外皮为纯铝带；所述的粉芯为Zn、Mg、Ni的金属粉，占丝材的质量百分比为38‑44％；所述粉芯的各组分及其质量百分比为：16‑22％Zn、14‑18％Mg、4‑8％Ni。本粉芯丝材经高速电弧喷涂技术加工后可形成铝基非晶纳米晶复合涂层，涂层由非晶、纳米晶及晶化相等多相结构组成，具有优异的耐腐蚀性能，可有效提高钢结构件表面耐腐蚀性能，延长服役寿命。
+43. 106591768 一种用于高速电弧喷涂技术制备Al‑Ni‑Nb‑Co非晶涂层的粉芯丝材
+CN
+26.04.2017
+
+
+
+102017000051902
+中国人民解放军装甲兵工程学院
+张志彬
+
+
+本发明公开了一种用于高速电弧喷涂技术制备Al‑Ni‑Nb‑Co非晶涂层的粉芯丝材，其特征在于，所述的粉芯丝材外皮为纯铝带；所述的粉芯占丝材的质量百分比为34‑38％；所述粉芯的各组分及其质量百分比为：12‑16％Ni、12‑16％Nb、6‑10％Co。所述粉芯丝材具有较强的非晶形成能力，采用高速电弧喷涂技术制备的涂层中非晶含量较高，兼具防腐与耐磨双重功能，可为钢铁及轻合金零部件表面防护提供坚实的材料保障。
+44. 106596039 基于上视雷达的降雨条件下飞机尾流速度环量估计方法
+CN
+26.04.2017
+G01M 9/08 Loading...
+G01M 9/08
+Loading...
+102016001044250
+中国人民解放军国防科学技术大学
+李健兵
+G01M 9/08
+Loading...
+本发明提供一种基于上视雷达的降雨条件下飞机尾流速度环量估计方法。利用上视Doppler雷达进行探测，技术方案包括下述步骤：第一步、无飞机尾流时，计算最强散射雨滴的下落末速度；第二步、有飞机尾流时，计算各雷达距离单元内最强散射雨滴的速度和加速度；第三步、利用非线性最小二乘方法优化求解最强散射雨滴的运动方程获得飞机尾流速度环量。采用本发明可以实现飞机起飞和降落阶段尾流的速度环量估计，为定量评估飞机尾流危害性并实时调整飞机起降间隔提供技术支撑。
+45. 106588044 C/C‑ZrC复合材料及其制备方法和应用
+CN
+26.04.2017
+C04B 35/66 Loading...
+C04B 35/66
+Loading...
+201611103115.9
+中国人民解放军国防科学技术大学
+陈思安
+C04B 35/66
+Loading...
+本发明公开了一种C/C‑ZrC复合材料及其制备方法，C/C‑ZrC复合材料以碳纤维预制件为增强体，以沥青碳和ZrC为基体，沥青碳通过沥青经催化交联、裂解和石墨化制备得到，碳化锆通过聚乙酰丙酮锆催化交联、裂解转化得到。其制备方法包括先驱体制备、熔融浸渍、催化交联、加压半焦化、裂解、致密化、石墨化、再致密化等步骤。本发明的C/C‑ZrC复合材料耐高温、抗烧蚀冲刷性能优异，ZrC含量高、致密度高，其制备周期短，应用于高超声速飞行器热防护材料的制备。
+46. 106589192 高等规度聚丙烯腈的自由基聚合的合成方法
+CN
+26.04.2017
+C08F 120/44 Loading...
+C08F 120/44
+Loading...
+102016000954801
+中国人民解放军国防科学技术大学
+胡天娇
+C08F 120/44
+Loading...
+本发明公开了一种高等规度聚丙烯腈的自由基聚合的合成方法，包括以下步骤：将有机溶剂与引发剂加入反应器中，去除反应器中的空气并密封，然后将密封的反应器置于磁场和恒温条件下，向反应器中加入丙烯腈单体，经自由基聚合反应后，得到高等规度聚丙烯腈。本发明的合成方法操作简单、反应时间短，PAN规整度和分子量高、且单体转化率高。
+47. 106597434 一种基于推扫轨迹的敏捷卫星目标分解方法及系统
+CN
+26.04.2017
+G01S 13/89 Loading...
+G01S 13/89
+Loading...
+102016001063401
+中国人民解放军国防科学技术大学
+贺仁杰
+G01S 13/89
+Loading...
+本发明公开一种基于推扫轨迹的卫星目标分解方法及系统。方法包括：获取卫星过卫星目标的每个顶点时的过顶侧摆；计算过顶侧摆中的最小侧摆对应的幅宽作为条带宽度；利用条带宽度求解每个推扫轨迹的两个端点；根据每个推扫轨迹的两个端点计算对应条带的边界特征点；利用边界特征点对推扫轨迹进行延展，得到推扫轨迹向量；将推扫轨迹向量和条带宽度代入条带四顶点计算模型，得到条带四顶点坐标；条带四顶点计算模型为利用基于共轭四元数的坐标变换的方法建立的模型，用于计算条带四顶点坐标。本发明的方法及系统，选择卫星过顶时刻最小侧摆对应的幅宽作为条带宽度，从而能够保证条带被完全覆盖，提高了卫星的幅宽的利用率。
+48. 206114300 用于高压冷气冲击加载试验系统的测控装置
+CN
+19.04.2017
+G01M 15/02 Loading...
+G01M 15/02
+Loading...
+202016001141320
+中国人民解放军国防科学技术大学
+申志彬
+G01M 15/02
+Loading...
+本实用新型公开了一种用于高压冷气冲击加载试验系统的测控装置，包括控制单元、压力检测单元和开关单元，所述压力检测单元安装于高压冷气冲击加载试验系统的模拟发动机上，所述开关单元安装于高压冷气冲击加载试验系统的充气管路上，所述压力检测单元与所述控制单元相连、用于检测模拟发动机的压力并将压力信号发送至所述控制单元，所述控制单元与所述开关单元相连、用于根据所述压力信号控制所述开关单元的开关。本实用新型的用于高压冷气冲击加载试验系统的测控装置具有结构简单、自动化程度高、安全可靠且控制精度高等优点。
+49. 106569827 一种采用动态链接库进行仿真系统硬件控制隔离的方法
+CN
+19.04.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201610988417.2
+中国人民解放军空军航空大学军事仿真技术研究所
+张志春
+G06F 9/44
+Loading...
+本发明公开一种采用动态链接库进行仿真系统硬件控制隔离的方法，将硬件控制软件的通用代码与差异代码相分离，通用代码实现为上位控制程序，差异代码实现为下位动态库，上位控制程序可以不加修改地重用于不同的硬件控制系统；下位动态库实现与具体硬件控制技术相关的操作，将其封装为动态库，使上位控制程序及下位动态库成为高内聚、低耦合的代码；上位控制程序还为下位动态库提供了微妙级高精度定时时钟，足以满足几乎所有仿真系统硬件控制对时钟的要求；硬件设备由于老化或长期使用损耗，通常会出现指示不准确的问题。本发明通过引入外部精度表技术，使得可以通过修改精度表文件而不是修改软件来达到调整指示精度的目标。
+50. 106564536 一种多履带移动平台
+CN
+19.04.2017
+B62D 55/116 Loading...
+B62D 55/116
+Loading...
+102016000993142
+中国人民解放军国防科学技术大学
+徐小军
+B62D 55/116
+Loading...
+一种多履带移动平台，它包括车体，车体上设置有两个以上的履带行走机构，履带行走机构为偶数个并呈对称状布置于车体的两侧和/或前后位置，每个履带行走机构通过可变形主动悬架与车体相连；可变行主动悬架包括上定摆臂、上动摆臂、下摆臂、主作动器及副作动器；上定摆臂一端铰接于车体上，另一端与上动摆臂的一端铰接，上动摆臂另一端通铰接在履带行走机构的主要承力支架；下摆臂一端铰接在车体上，另一端与主要承力支架铰接；车体、主要承力支架、下摆臂、上定摆臂、上动摆臂构成一个五杆机构，主作动器和副作动器安装于五杆机构上，并用来控制五杆机构的伸缩运动。本发明具有结构简单、易实现、适应能力强、能够大大提高安全性和可靠性等优点。
+51. 106570893 一种基于相关滤波的快速稳健视觉跟踪方法
+CN
+19.04.2017
+
+
+
+201610943999.2
+中国人民解放军国防科学技术大学
+安玮
+
+
+本发明公开了一种基于相关滤波的快速稳健视觉跟踪方法，基于图像局部的时间和空间信息，利用卷积和频域滤波等相关知识和技术对下一帧中目标可能出现的位置进行预测和评估，因此具有快速、简单、鲁棒等特点。本发明通过对目标区域进行循环移位来近似模拟采样过程(即稠密采样)，构建分块循环矩阵并将其变换到频域对所有的采样信息同时进行计算，极大地降低了算法的复杂度，同时没有舍弃原本的信息，得到了更高的精度。
+52. 106562785 基于单一磁传感器的空间多点磁场强度测量装置及方法
+CN
+19.04.2017
+A61B 5/0476 Loading...
+A61B 5/0476
+Loading...
+102016000849944
+中国人民解放军国防科学技术大学
+周宗潭
+A61B 5/0476
+Loading...
+本发明公开了一种基于单一磁传感器的空间多点磁场强度测量装置及方法，空间多点磁场强度测量装置包括磁传感器探头、磁通聚集阵列和屏蔽腔体，磁传感器探头装设于屏蔽腔体内，屏蔽腔体上设有多个非屏蔽区域，非屏蔽区域处设快门装置，磁通聚集阵列包括磁通聚集器，任一磁通聚集器布置于屏蔽腔体上对应的非屏蔽区域外侧；空间多点磁场强度测量方法步骤包括在所有快门装置处于关闭状态下依次开闭一个快门装置，使得各磁通聚集器的信号周期性通过非屏蔽区域导入屏蔽腔体被磁传感器探头探测，得到空间多点磁场强度的测量结果。本发明具有仅需要一个磁传感器即可实现空间多点磁场强度测量、结构简单、方便简便、节约人力物力、检测准确度高的优点。
+53. 106571827 差分SAR ADC和其开关电容结构、A/D转换方法、版图实现方法
+CN
+19.04.2017
+H03M 1/38 Loading...
+H03M 1/38
+Loading...
+201510648188.5
+国民技术股份有限公司
+沈晔
+H03M 1/38
+Loading...
+本发明提供的一种差分SAR ADC和其开关电容结构、A/D转换方法、版图实现方法，其中，所述差分SAR ADC包括：SAR逻辑电路、电压比较器、电容阵列、开关阵列，其中，电容阵列中包括：采样电容和运算电容；开关阵列中包括：采样开关，用于控制采样电容在采样阶段进行采样；预充电开关，用于控制运算电容进行预充电；异向相连开关，用于控制运算电容与采样电容异向相连；同向相连开关，用于控制运算电容与采样电容同向相连的；电压比较器的输出端连接至SAR逻辑电路；SAR逻辑电路根据电压比较器的输出产生开关控制信号，控制开关阵列中的各开关的状态。
+54. 103167486 一种射频链路工作参数的配置方法及其无线通讯装置
+CN
+19.04.2017
+H04W 12/02 Loading...
+H04W 12/02
+Loading...
+102011000409229
+国民技术股份有限公司
+杨贤伟
+H04W 12/02
+Loading...
+本发明公布了一种射频链路工作参数的配置方法及其无线通讯装置，本发明的射频链路工作参数的配置方法对磁通道传送的临时配置射频链路工作参数的配置信息进行单向变换计算，从而得到射频链路工作参数。本发明的射频链路工作参数的配置方法及其无线通讯装置不仅能通过磁通道快速配置射频工作参数，还能够保证在射频链路工作参数配置过程中以及数据传送的安全性，进一步还提高了磁通道数据的传输使用效率。
+55. 103326988 一种正交振幅调制的软解调方法
+CN
+19.04.2017
+H04L 27/38 Loading...
+H04L 27/38
+Loading...
+102012000077736
+国民技术股份有限公司
+陈烽
+H04L 27/38
+Loading...
+本发明公开一种正交振幅调制的软解调方法，该方法根据待解调数据的实部Rdata或虚部Idata计算解调后得到的各比特的近似软解调输出值LLRapproximate；从预设的查找表中查找各比特的软解调修正值LLRD‑Normalized；根据各比特的近似软解调输出值LLRapproximate和软解调修正值LLRD‑Normalized计算其最终软解调输出值LLROutput。本发明通过以上技术方案，提供一种更加完善的QAM的软解调方法。
+56. 104268411 一种产品设计阶段维修性评估与薄弱环节识别方法
+CN
+19.04.2017
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+102014000511230
+中国人民解放军国防科学技术大学
+杨拥民
+G06F 19/00
+Loading...
+本发明公开了一种设计阶段产品维修性评估与设计缺陷识别的方法，其过程是从影响维修的观点出发分析产品的维修性属性，对维修性属性进行分类并明确各个属性的基本分析评价层次，在此基础上定义产品的维修性指标以在设计阶段评估产品的维修性。本发明可提高维修性评估的准确性、客观性和针对性，同时具有可识别产品维修性设计薄弱环节的优点。
+57. 103955446 基于DSP芯片的可变长度FFT计算方法
+CN
+19.04.2017
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+102014000174461
+中国人民解放军国防科学技术大学
+雷元武
+G06F 17/14
+Loading...
+本发明公开一种基于DSP芯片的可变长FFT计算方法，步骤为：1)判断待运算数据的长度N，若N
+58. 104021425 一种用于解决提早‑延期调度问题的模因演化算法
+CN
+19.04.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102014000210787
+中国人民解放军国防科学技术大学
+贺仁杰
+G06Q 10/04
+Loading...
+本发明提供了一种基于遗传算法思想的模因演化算法来解决单机、并行机环境下的提早‑延期调度问题，其特征在于采用遗传算法作为搜索框架，引入一种迭代改进搜索策略作为局部搜索，所述模因演化算法包括以下步骤：编码及种群初始化，选择操作，交叉操作，变异操作，局部搜索。本发明研究的问题考虑了加工转换时间、工件的释放时间和工件的提早惩罚，是比当前的研究问题更为一般化的问题；本发明采用遗传算法作为搜索框架，并引入一种迭代改进搜索策略作为局部搜索，在优化精度和计算时间之间取得很好的平衡。
+59. 106571888 一种仿真系统自动同步可靠通信方法
+CN
+19.04.2017
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201610988418.7
+中国人民解放军空军航空大学军事仿真技术研究所
+张志春
+H04J 3/06
+Loading...
+本发明公开一种仿真系统自动同步可靠通信方法。将网络通信代码封装到一个类中，使仿真系统内的各子系统可以通过该类的对象来方便地实现可靠通信；本发明的积极效果在于这种可靠通信使得数据包只被接收一次，既不会出现重复接收、接收不到、也不会乱序；它具有TCP传输的可靠性，又克服了TCP传输需要在接收端进行数据包识别的缺点；它不需要像TCP传输那样进行通信连接；因为仿真系统内的各子系统是自主运行的，在运行中某个或某些子系统可能会重新启动，因此其上次运行时的通信关系需要恢复。
+60. 206086241 一种工程车辆刚性牵引辅助连接装置
+CN
+12.04.2017
+B60D 1/58 Loading...
+B60D 1/58
+Loading...
+202016001092267
+中国人民解放军装甲兵技术学院
+钱永产
+B60D 1/58
+Loading...
+本实用新型公开了一种工程车辆刚性牵引辅助连接装置，包括：第一本体，其包括第一主体扣合部和由第一主体扣合部延长出的第一卡固部；第二本体，其包括第二主体扣合部和由第二主体扣合部延长出的第二卡固部；第一卡固部能够与第二卡固部扣合，以使第一主体扣合部和第二主体扣合部形成安装空间，第一主体扣合部和第二主体扣合部顶部设置安装孔，安装孔能够卡装在工程车尾部中心牵引钩上的连接销上，第二卡固部的上沿与连接销的上端面平齐，通过在装甲抢救车尾部中心牵引钩增加简单的支撑结构，在刚性牵引装置与中心牵引钩连接的最后危险阶段代替人工作业，降低人员劳动强度和意外伤害，同时可提高作业效率。
+61. 206095173 双平行光管快速定光轴系统
+CN
+12.04.2017
+G01B 11/26 Loading...
+G01B 11/26
+Loading...
+202016001041593
+中国人民解放军装甲兵技术学院
+翟旭华
+G01B 11/26
+Loading...
+本实用新型涉及一种双平行光管快速定光轴系统，属于光学系统测试领域。物镜组件分别安装在平行光管本体的两端，反射镜组件上装有平面反射镜，其旋转轴一端安装在平行光管本体上的圆孔内，另一端有操纵旋钮，反射镜组件的上盖上有弧形槽，限制反射镜组件的旋转行程，反射镜组件安装在平行光管本体上。毛玻璃和分划板分别装在毛玻璃框和分划板框内，分划照明组件螺接在平行光管连接体的一端，平行光管连接体另一端螺接在平行光管本体上。优点在于：结构新颖、操作简单，效果好。双平行光管共用一个十字分划，很快将瞄准镜的光轴与平行光管光轴调整重合，保证瞄准镜光轴及激光出射光轴和检测仪前置物镜光轴重合，保证接收的激光光斑质量不失真。
+62. 206086240 一种用于车辆牵引的伸缩拉杆
+CN
+12.04.2017
+B60D 1/173 Loading...
+B60D 1/173
+Loading...
+202016001092188
+中国人民解放军装甲兵技术学院
+钱永产
+B60D 1/173
+Loading...
+本实用新型公开了一种用于车辆牵引的伸缩拉杆，包括：主拉杆，其上开有伸缩孔，且一端与主连接环的一侧固定连接；副拉杆，其上开有伸缩孔，且一端与所述主连接环的另一侧转动连接；伸缩机构，其套设在所述主拉杆和所述副拉杆的下部，能够改变所述主拉杆和副拉杆的长度。在牵引装置中设置伸缩机构，能够降低对救援车和被牵引车的相对位置要求，使牵引装置根据牵引时的地形和被牵引物的距离，通过伸缩拉杆长度的调整以方便两个段分别与救援车辆和被牵引车辆连接，提高牵引拉杆连接效率，并能够在不使用时收缩，节省占用空间。本牵引装置还能够应用在中重型车辆及其他行走式工程车辆中，牵引效果好。
+63. 206086239 一种用于车辆牵引的折叠拉杆
+CN
+12.04.2017
+B60D 1/155 Loading...
+B60D 1/155
+Loading...
+202016001092252
+中国人民解放军装甲兵技术学院
+钱永产
+B60D 1/155
+Loading...
+本实用新型公开了一种用于车辆牵引的折叠拉杆，包括：主拉杆，其一端与主连接环的一侧固定连接，另一端与第一连接耳的一端固定连接；副拉杆，其一端通过第一U型叉与所述主连接环转动连接，另一端与第二连接耳的一端固定连接；折叠机构，其分别与所述第一连接耳和第二连接耳转动连接，能够使牵引器折叠，便于携带，方便牵引器的安装；其中，所述主连接环能够与用于牵引的设备进行连接。采用刚性牵引装置，能够防止在路途颠簸时防止牵引设备发生损坏，在紧急刹车时，不因前车突然急刹车而导致牵引车和被牵引车发生碰撞。在牵引装置上设置折叠机构，在使用时方便安装，在不使用时能够折叠收放。
+64. 106559273 面向时间触发以太网的自适应服务质量优先级调度方法
+CN
+05.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201710043673.9
+中国人民解放军国防科学技术大学
+赵宝康
+H04L 12/24
+Loading...
+本发明提供了一种面向时间触发以太网的自适应服务质量优先级调度方法，本方法通过链路观测模块对链路进行实时监测，计算并统计不同优先级报文的信息，动态的给出系统相关参数的配置，使得系统能够对链路做出实时的调整，在保障高优先级数据优先转发的情况下，通过自适应的调整各条流的带宽限速速率，以达到在不同的链路情况下更加合理的利用带宽的目的。
+65. 106052595 基于激光陀螺捷联惯导的三轴转台轴线垂直度检测方法
+CN
+05.04.2017
+G01B 11/26 Loading...
+G01B 11/26
+Loading...
+201610353369.X
+中国人民解放军国防科学技术大学
+魏国
+G01B 11/26
+Loading...
+本发明公开了一种基于激光陀螺捷联惯导的三轴转台轴线垂直度检测方法，包括激光陀螺捷联惯导、三轴转台、三轴转台姿态采集系统、惯导输出姿态采集系统和数据处理计算机，所述激光陀螺捷联惯导固定安装到被检三轴转台的台面上，通过采集三轴转台自身角姿态输出和激光陀螺捷联惯导的姿态测量信息，利用固联刚体旋转矢量增量不受测量点影响的原理完成三轴转台轴线垂直度的检测。本发明具有可检测三轴转台任意两轴系的轴线垂直度、检测精度高、系统组成操作简单、适用范围广等优点。
+66. 106557681 一种安全智能卡及其使用方法
+CN
+05.04.2017
+G06F 21/34 Loading...
+G06F 21/34
+Loading...
+201510617741.9
+国民技术股份有限公司
+邓煜平
+G06F 21/34
+Loading...
+本发明公开了一种安全智能卡及其使用方法，该安全智能卡包括：传感器模块、安全主控模块和接口模块；其中，传感器模块，用于感应外部因素所致智能卡物理特征的变化，生成感应信息发送至安全主控模块；安全主控模块，用于进行密码运算和安全控制，根据接收到所述感应信息，识别所述外部因素；接口模块，用于建立安全主控模块与智能卡外部实体的信息传输通道；其中，传感器模块与安全主控模块连接，安全主控模块与接口模块连接。
+67. 106557881 一种基于业务活动执行顺序的业务流程系统构建方法
+CN
+05.04.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201611073845.9
+中国人民解放军国防科学技术大学
+舒振
+G06Q 10/06
+Loading...
+本发明公开了一种基于业务活动执行顺序的业务流程系统构建方法包括：获取业务流程的日志信息，从日志信息中提取出业务流程数据，并根据业务流程数据建立事件日志；从事件日志中提取案例轨迹信息，从案例轨迹信息中提取基础业务活动集，并根据基础业务活动集建立基础业务流程模型；从事件日志中提取各案例轨迹中各业务活动的执行顺序与业务流程中各业务活动的执行顺序，根据各案例轨迹中各业务活动的执行顺序与业务流程中各业务活动的执行顺序建立业务活动比较表集合，并根据业务活动比较表集合改进基础业务流程模型，获得改进后的业务流程模型；对改进后的业务流程模型进行去冗余与简化处理。
+68. 106558038 一种水天线检测方法及装置
+CN
+05.04.2017
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201510595935.3
+中国人民解放军国防科学技术大学
+胡庭波
+G06T 7/00
+Loading...
+本发明实施例公开了一种水天线检测方法及装置，基于第一相机和第二相机在同一时刻拍摄目标水域得到的图像，获得目标水域的水平面在预设三维坐标系中的空间位置，进而，利用水平面的空间位置，获取水平面在图像中的投影线，并将该投影线确定为目标水域的水天线。本公开实施例公开的检测方法和装置，在目标水域的水面颜色纹理发生变化，或光照发生变化时，能够准确地检测到水天线。并且，在拍摄的图像中不存在真正的水天线，或者水天线被遮挡时，也能够正确地检测到水天线在图像中的位置，有效提高检测方法及检测装置的适应性。
+69. 206076718 一种中红外波段光纤抽运/信号合束器
+CN
+05.04.2017
+H01S 3/067 Loading...
+H01S 3/067
+Loading...
+201621024211.X
+中国人民解放军国防科学技术大学
+殷科
+H01S 3/067
+Loading...
+本实用新型的目的是提供一种中红外波段光纤抽运/信号合束器，包括信号光纤、抽运光纤、石英玻璃套管和输出光纤；所述信号光纤的纤芯材料为纯二氧化锗材料，所述光纤组束的拉锥区的拉锥比例在1～3之间；所述光纤组束与输出光纤熔接，可采用非对称电极放电加热熔接或低温熔接，信号光纤的熔接损耗低于10％；本实用新型可以实现对中红外波段激光的信号光和泵浦激光合束输出，实现高功率低损耗的信号光通过，抽运激光在光纤组束的通过率通常可以控制在98％以上，可以耦合大于百瓦的抽运激光进入输出光纤，保证高功率中红外光纤放大器的实现。
+70. 106549847 一种新型综合模块化航电系统架构
+CN
+29.03.2017
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+201611170369.2
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+涂林艳
+H04L 12/40
+Loading...
+本发明实施例公开了一种新型综合模块化航电系统架构，属于航电技术领域。该架构包括：航电核心资源子系统，为飞机控制域系统的驻留应用提供计算资源；航电信息平台子系统，为飞机信息服务域系统的驻留应用提供计算资源；航电数据网络子系统，分别与航电核心资源子系统和航电信息平台子系统连接，传输航电核心资源子系统与航电信息平台子系统之间的交互数据；数据转换子系统，与航电数据网络子系统连接，用于为飞机系统提供信号转换功能，实现非ARINC664信号与ARINC664信号间的相互转换。本发明实施例根据各驻留功能所属的功能域不同，采用不同的方式进行功能驻留，从而提高飞机系统的综合化、集成化程度，同时提高系统性能。
+71. 104875080 一种倾斜入射的离子束抛光修形加工方法
+CN
+29.03.2017
+B24B 1/00 Loading...
+B24B 1/00
+Loading...
+102015000236617
+中国人民解放军国防科学技术大学
+周林
+B24B 1/00
+Loading...
+本发明公开了一种倾斜入射的离子束抛光修形加工方法，步骤包括：根据待加工光学元件的形状和尺寸建立离子束修形加工路径；设定倾斜加工入射角获取倾斜入射去除函数并计算出离子束修形加工路径上各点Pi处的加工驻留时间τi；计算出各点Pi处的常规机床运动控制坐标，并修正为倾斜入射加工所需的机床运动控制坐标；根据离子束修形加工路径上各点Pi处的倾斜入射加工所需的机床运动控制坐标、加工驻留时间τi对待加工光学元件的表面进行数控修行加工。本发明具有加工效率高、加工时间短的优点，而且由于倾斜入射的方式修形加工，能够减小某些材料的表面粗糙度、提高表面质量。
+72. 104652036 一种三维四向混编织物的制备方法
+CN
+29.03.2017
+D04C 1/06 Loading...
+D04C 1/06
+Loading...
+102015000129317
+中国人民解放军国防科学技术大学
+周新贵
+D04C 1/06
+Loading...
+本发明公开了一种三维四向混编织物的制备方法，包括以下步骤：（1）将两种纱锭在编织机床上按单个交替排列、隔行交替排列或隔列交替排列的方式进行排布；（2）根据四步法三维编织工艺进行编织，制备得到三维四向混编织物。本发明以横截面积相等的不同编织纱线制备了三维四向混编织物，解决了不同纱线在织物横截面上难以均匀分布的难题，并且能够使本发明混编织物增强的SiC基体复合材料具备抗氧化性能优异、强度高、成本低等优点。
+73. 105388248 一种高速气流条件下微米级固体颗粒着火燃烧试验装置
+CN
+29.03.2017
+G01N 31/12 Loading...
+G01N 31/12
+Loading...
+102015001028053
+中国人民解放军国防科学技术大学
+夏智勋
+G01N 31/12
+Loading...
+本发明实施提供了一种高速气流条件下微米级固体颗粒着火燃烧试验装置，包括：燃气发生器部分、补燃室部分、取样部分、观测部分四个部分；该试验装置可改变燃气发生器中燃料与氧化剂的比例，并实现固体颗粒质量流量的稳定可控调节，从而实现不同工况下固体火箭冲压发动机补燃室内的工作环境的模拟；通过传感器及高速相机等设备对实验过程进行实时监测，并在试验过程中对高能固体颗粒燃烧产物进行取样，实现对微米级高能固体在补燃室环境下的着火燃烧过程研究，本发明所需试验准备时间较短，费用成本较低，补燃室内部燃烧过程的观测手段多，可获得试验数据多，试验系统可重复利用性好，所得实验数据的工程参考价值高。
+74. 103187994 通信系统、设备及方法
+CN
+29.03.2017
+H04B 5/00 Loading...
+H04B 5/00
+Loading...
+102011000458419
+国民技术股份有限公司
+黄强
+H04B 5/00
+Loading...
+本发明涉及一种通信系统及方法。通信系统包括第一通信设备和第二通信设备,所述第一通信设备和所述第二通信设备通过第一无线通道控制通信距离，所述第一通信设备和所述第二通信设备通过第二无线通道进行数据交换，所述第一通信设备包括无线广播发送模块、第一主控模块和多种第一无线通信模块；所述第二通信设备包括无线广播接收模块、第二主控模块和第二无线通信模块。本发明的通信系统及方法，使得满足设定通信距离要求的通信设备之间能够快速、自动地建立通信连接以及进行数据交换，接入过程不需要用户介入和干预，避免了用户进行复杂繁琐的通信参数的配置操作，降低了使用复杂度，提高了通信设备之间近距离通信的便利性，提升了用户体验。
+75. 104445934 一种耐高温的尖劈形吸波材料及其制备方法
+CN
+29.03.2017
+C03C 4/14 Loading...
+C03C 4/14
+Loading...
+102014000631187
+中国人民解放军国防科学技术大学
+程海峰
+C03C 4/14
+Loading...
+一种耐高温的尖劈形吸波材料，采用导电玻璃材料体系，包含有玻璃相和导电相，且以玻璃相作为基体，该体系是以裂解炭作为导电相，且导电相均匀分布在玻璃相中。该尖劈形吸波材料的制备方法包括原料混合、造粒、压制、烧结、逐面加工和涂覆抗氧化涂层步骤，原料混合步骤中添加有有机化合物，且该有机化合物分别参与后续的造粒、压制和烧结步骤并用作不同的功能性添加剂；在造粒步骤中，有机化合物用作颗粒成型剂；在压制步骤中，压制成型生坯所用的玻璃粉是以有机化合物作为粘接剂；在烧结步骤中，有机化合物用作目标产品导电玻璃材料体系中导电相的先驱体。本发明产品能够满足材料以及器件高温电磁性能及高功率密度微波辐射条件下测试的需要。
+76. 105244245 碳化硅纳米线‑石墨复合阴极及其制备方法
+CN
+29.03.2017
+H01J 1/30 Loading...
+H01J 1/30
+Loading...
+201510546908.7
+中国人民解放军国防科学技术大学
+陈兴宇
+H01J 1/30
+Loading...
+本发明公开了一种碳化硅纳米线‑石墨复合阴极及其制备方法。该碳化硅纳米线‑石墨复合阴极是由石墨阴极坯体和碳化硅纳米线组成，碳化硅纳米线原位生长且均匀分布于石墨阴极坯体的刃口部位。制备方法包括（1）以Si粉和SiC粉的混合物或者Si粉为硅源，以石墨阴极坯体为基体，置于反应容器中；（2）将反应容器于烧结炉中先抽真空，然后通入惰性气体加热升温，经保温后，得到碳化硅纳米线‑石墨复合阴极。本发明的碳化硅纳米线‑石墨复合阴极具有使用寿命长、均匀性好、表面场增强因子大的特点，制备方法简单方便、成本低廉。
+77. 104898404 等价于二状态变量Kalman滤波器的数字锁相环原子钟驾驭方法
+CN
+29.03.2017
+G04F 5/14 Loading...
+G04F 5/14
+Loading...
+201510353792.5
+中国人民解放军国防科学技术大学
+龚航
+G04F 5/14
+Loading...
+一种等价于二状态变量Kalman滤波器的数字锁相环原子钟驾驭方法，通过一个等价于二状态变量Kalman滤波器的DPLL，用铯钟对氢钟进行驾驭。首先推导了该DPLL的闭环系统传递函数，证明该DPLL为二阶2类DPLL。然后推导了由过程噪声方差和观测噪声方差比值近似决定的Kalman增益。于是，由DPLL的闭环传递函数可知，该比值，以及环路增益，采样间隔这3个参数决定了该DPLL的性能。进一步，本发明给出了一个简单有效的选取参数的方法。通过等效变换，得到了等效于该DPLL的模拟锁相环(APLL)。在频域中，通过调整参数，使该等价APLL的系统传递函数和误差传递函数的交点频率等于氢钟和铯钟的SSB相位噪声曲线的交点频率，最终获取最优参数。其有效地用铯钟对氢钟进行驾驭，驾驭性能非常好。
+78. 104693387 一种咔唑嵌段共聚物的合成方法
+CN
+29.03.2017
+C08F 293/00 Loading...
+C08F 293/00
+Loading...
+201510151000.6
+中国人民解放军国防科学技术大学
+苟燕子
+C08F 293/00
+Loading...
+一种咔唑嵌段共聚物的合成方法，包括以下步骤：（1）将卤化亚铜和含氮多齿配体溶解反应，得组分a；（2）将VBCz溶解，加到组分a，得组分b；（3）加引发剂，得组分c；（4）通入空气，放入冰水，溶解，层析，层析液浓缩，滴加到质子性溶剂，过滤，滤渣清洗，干燥，得PVBCz；（5）按步骤（1）～（2），将步骤（2）的VBCz换为DMAEMA，得组分d；（6）将PVBCz溶解，加到组分d，得组分e；（7）通入空气，放入冰水，溶解，层析，层析液浓缩，滴加到质子性溶剂，过滤，滤渣清洗，干燥，得咔唑嵌段共聚物。本发明方法实现了咔唑嵌段共聚物的分子量均一、可控，分子结构可设计，且具有荧光功能和刺激响应功能。
+79. 105621485 一种三氧化二钒粉体的制备方法
+CN
+29.03.2017
+C01G 31/02 Loading...
+C01G 31/02
+Loading...
+102015001027266
+中国人民解放军国防科学技术大学
+刘东青
+C01G 31/02
+Loading...
+本发明公开了一种三氧化二钒粉体的制备方法，采用钒源、巯基乙酸和去离子水为初始原料，按一定量的比例搅拌混合均匀后，转移到水热釜中进行水热反应，待反应结束后，经过离心、洗涤和真空干燥，即得到三氧化二钒粉体。本发明利用巯基乙酸具有还原性的羧酸基和巯基双还原基团的结构特点，一步水热法制得三氧化二钒粉体，得到的三氧化二钒粉体为纯相的，形貌为纳米棒状，尺寸分布均匀，结晶性良好。本发明的制备方法工艺简单，不需要复杂设备，反应效率高，反应温度低，反应条件易于控制，易实现大规模工业化生产。
+80. 106547716 一种面向低管脚数的扩展总线配置系统及方法
+CN
+29.03.2017
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201610965472.X
+中国人民解放军国防科学技术大学
+陈一骄
+G06F 13/40
+Loading...
+本发明涉及一种面向低管脚数的扩展总线配置系统及方法。系统包括：一个主机设备、一个EPLD器件、一个NOR Flash存储单元及一个FPGA器件，方法，包括初始化操作、写操作、读操作和配置操作。主机与EPLD器件通信总线不再为固定的总线宽度，可以根据实际的硬件资源进行配置，总线传输写操作和读操作相比I2C总线和LPC总线协议进行了简化，增大了数据传输速度，有效地减少了配置时间。
+81. 106548661 一种基于状态预测的空中防撞方法
+CN
+29.03.2017
+G08G 5/04 Loading...
+G08G 5/04
+Loading...
+201611078355.8
+中国人民解放军国防科学技术大学
+汤俊
+G08G 5/04
+Loading...
+本发明公开了一种基于状态预测的空中防撞方法包括：持续通过本机检测局部空域中当前所有飞机的运动状态信息；根据所有飞机的运动状态信息，计算未来指定时间长度内的所有飞机的飞行情况，并筛选出靠近本机的目标飞机；判断目标飞机与本机是否构成冲突风险，若构成冲突风险则发出交通警戒信息；判断构成冲突风险的目标飞机与本机是否构成碰撞威胁，若构成碰撞威胁则发出决策警告信息并提供避撞决策。本发明通过使用持续观测未来指定时间长度内的所有飞机的飞行情况，筛选出靠近本机的目标飞机，判断目标飞机与本机是否构成冲突风险或碰撞威胁，并提供避撞决策的技术手段，有效降低了飞行冲突的概率与次数，保障飞行安全。
+82. 106548235 一种基于遗传算法的网络节点标签生成策略
+CN
+29.03.2017
+G06N 3/12 Loading...
+G06N 3/12
+Loading...
+201610894436.9
+中国人民解放军国防科学技术大学
+赵翔
+G06N 3/12
+Loading...
+本发明公开了一种基于遗传算法的网络节点标签生成策略，包括：（1）选择编码策略，定义适应度函数：将标签分布比例ld放入编码策略中解决，网络同质性h放入适应度函数中解决；（2）选择策略的设定：使用轮盘赌方法选择个体；（3）交叉策略的设定：采用多点交叉策略进行交叉操作，将分割点固定选在标签分布比例ld参数指定的位置，在分割点周边选取小部分节点序列进行交换；（4）变异策略的设定：随机选定种群中的某一个体，按照标签分布比例ld参数的设定找到标签分割的位置；在两个标签集合中，分别随机选取一个节点，将其位置互换，进而得到一个新的个体。本发明在给定网络拓扑结构G的情况下，根据指定的标签分布比例ld和网络同质性h，可以快速地生成满足要求的节点标签。
+83. 106546975 一种基于雷达数据的轻小型无人机与飞鸟分类识别方法
+CN
+29.03.2017
+G01S 13/66 Loading...
+G01S 13/66
+Loading...
+201610896005.6
+中国民航科学技术研究院
+陈唯实
+G01S 13/66
+Loading...
+本发明公开了一种基于雷达数据的轻小型无人机与飞鸟分类识别方法。本发明提出的轻小型无人机与飞鸟分类识别方法基于雷达获取的目标量测信息，通过多模型目标跟踪、多模型概率提取、目标运动模式判断、目标运动特征提取等四个步骤，最终提取出目标运动模型转换频率等目标特征，用以区分轻小型无人机目标与飞鸟目标。本发明克服了低空空域雷达监视系统无法区分轻小型无人机与飞鸟的缺点，利用雷达数据提取出目标运动特征，用以区分轻小型无人机目标与飞鸟目标，提升低空空域雷达监视系统的识别能力。
+84. 206057362 一种车辆转速传感器信号源发生装置
+CN
+29.03.2017
+G01P 3/44 Loading...
+G01P 3/44
+Loading...
+201621092276.8
+中国人民解放军装甲兵技术学院
+高强
+G01P 3/44
+Loading...
+本实用新型公开了一种车辆转速传感器信号源发生装置，包括：电机，其设置在试验台内部，与调速器的一端连接；传感器，其设置在所述试验台的台面上，能够测量转速；转盘，其设置在所述电机的转轴上，并位于所述试验台的台面上，能够随电机进行转动，提供转速；电流转换器，其输入端与交流电源接口连接，能够将交流电转换为直流电，并包括调压电路。将转速传感器和配套电源设置为一体，组成转速传感器信号源装置，装置自带电源开关，能够独立工作，保证产生的转速与车辆转速传感器测速范围一致，提高转速传感器的测量精度。在试验台的侧面设置散热口，能够在电机持续运行产生高温时进行散热，保证了试验台运行的持续性。
+85. 106548848 直线型超导磁体Halbach阵列、涡流制动系统及电动悬浮系统
+CN
+29.03.2017
+H01F 6/00 Loading...
+H01F 6/00
+Loading...
+201611127886.1
+中国人民解放军国防科学技术大学
+李杰
+H01F 6/00
+Loading...
+本发明公开了一种单边直线型超导磁体Halbach阵列，包括若干个沿直线排列的超导磁体（1），所述超导磁体（1）由芯体（11）和绕制在芯体（1）外周的超导线圈（12）组成，其中任意相邻的两个超导磁体（1）的超导线圈（12）的轴线相互垂直。本发明还提供一种双边直线型超导磁体Halbach阵列和应用双边直线型超导磁体Halbach阵列的涡流制动系统及电动悬浮系统。由于超导磁体的超导线圈具有电流密度大、零电阻的特点，超导线圈可以通大电流，产生强磁场，这样芯体不需要使用过重的铁芯来增强磁场，从而减轻了重量，并且可减少线圈匝数，减小电感，控制更加方便，此外，由于超导材料零电阻，还可以降低电流损耗。
+86. 106549292 一种基于倾斜光纤光栅的大功率随机光纤激光器
+CN
+29.03.2017
+H01S 3/067 Loading...
+H01S 3/067
+Loading...
+201710043652.7
+中国人民解放军国防科学技术大学
+周朴
+H01S 3/067
+Loading...
+本发明涉及一种基于倾斜光纤光栅的大功率随机光纤激光器，基于倾斜光纤光栅特殊的折射率分布，将纤芯中传输的二阶拉曼光耦合为反向传输的包层模或辐射模，从而抑制二阶拉曼光“起振”，突破二阶拉曼光产生对激光器输出功率的限制。基本组成包括：泵浦源、倾斜光纤光栅和被动光纤。该大功率随机光纤激光器突破传统随机光纤激光器中二阶拉曼光的产生对激光器输出功率的限制，进一步提升随机光纤激光器的输出功率。
+87. 206056823 一种车辆温度传感器信号源装置
+CN
+29.03.2017
+G01K 15/00 Loading...
+G01K 15/00
+Loading...
+201621092279.1
+中国人民解放军装甲兵技术学院
+徐远哲
+G01K 15/00
+Loading...
+本实用新型公开了一种车辆温度传感器信号源装置，包括温度源，其上开设第一探头连接口；加热圈，其连接温度源，用于对温度源进行加热；散热器，其连接温度源，用于对温度源进行散热；数显调控机构，包括数字温度表、温度调节旋钮和控制器，温度调节旋钮输入温度源的设定温度，数字温度表连接第一探头连接口，用于探测温度源的实际温度，控制器连接数字温度表和温度调节旋钮，用于输出第一信号和第二信号；温控开关，其一端连接电源，另一端选择性连接加热圈和散热器；其中，温控开关连接控制器，其接收第一信号，接通电源和加热圈；其接收第二信号，接通电源和散热器。本实用新型的信号源装置对车辆温度传感器进行信号测量及故障判断。
+88. 206050096 飞机与轨道车接驳式起降系统
+CN
+29.03.2017
+B64F 1/10 Loading...
+B64F 1/10
+Loading...
+201621074494.9
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+王志峰
+B64F 1/10
+Loading...
+本实用新型公开了飞机与轨道车接驳式起降系统，涉及飞行器技术领域。系统包括设置于飞机上的第一接驳系统和设置于轨道车上的第二接驳系统。第一接驳系统包括锁定器。第二接驳系统包括活动基座和设置于活动基座上的锁定钩。锁定钩在飞机降落在活动基座上时锁定锁定器，在飞机起飞时释放锁定器。飞机起飞时，轨道车带动飞机加速到起飞速度，释放飞机。飞机降落时，轨道车与飞机速度同步时，飞机降落在轨道车上并被其锁定，轨道车减速行驶直至停止。本实用新型省去飞机的起落架，大大减轻了飞机的重量，另外，在飞机与轨道车接驳后，在飞机与轨道车之间建立通道，当轨道车加速或减速到预定速度后，乘客登机或下机，大大节约了乘客登机或下机的时间。
+89. 206057502 基于芯片的侧信道泄露分析系统
+CN
+29.03.2017
+G01R 31/28 Loading...
+G01R 31/28
+Loading...
+201621029103.1
+国民技术股份有限公司
+唐有
+G01R 31/28
+Loading...
+本实用新型公开了一种基于芯片的侧信道泄露分析系统，包括：芯片载台、探针座、探针、信息采集模块以及工作站。其中，芯片载台用于承载待测芯片，探针座用于承载探针，探针用于获取待测芯片内部的目标走线的信息泄露。信息采集模块与探针连接，并用于对探针获取的信息泄露进行采集。工作站与信息采集模块连接，并用于对信息采集模块采集的信息泄露进行处理和分析。本实用新型的侧信道泄露分析系统引入了探针，并通过探针直接获取芯片内部的目标走线的信息泄露。通过上述方式，可以提升攻击的精确度以及所获曲线的信噪比，并且可以选择性旁路掉某些安全防护措施，实现更加全面的安全性评估，具有实际可操作性。
+90. 106525524 一种脑组织样本制备装置及制备方法
+CN
+22.03.2017
+G01N 1/28 Loading...
+G01N 1/28
+Loading...
+201610894923.5
+中国人民解放军国防科学技术大学
+官凤娇
+G01N 1/28
+Loading...
+本发明提供了一种脑组织样本制备装置，包括切割架(1)、支撑台(2)，切割架(1)、支撑台(2)为两个可分离结构体，其中脑组织样本(3)放置于支撑台(2)上，该装置能有效的降低切割过程中的黏附作用、减少切割用力、降低切割过程中对脑组织的力学性能影响，同时能够快速地获取几何尺寸及形状保持一致的脑组织样本。同时该装置使得切割架与支撑台能相互分离，直接更换具有不同切割样本尺寸的切割架与同一支撑台的不同凹槽相配合，便可切割制备多个不同尺寸的脑组织样本。本装置制作方法简单，操作便捷，生产样本效率高、易于携带且价格低廉。
+91. 106530242 基于聚类的极化SAR图像相干斑自适应滤波方法
+CN
+22.03.2017
+G06T 5/00 Loading...
+G06T 5/00
+Loading...
+102016000930681
+中国人民解放军国防科学技术大学
+陈思伟
+G06T 5/00
+Loading...
+本发明属于全极化SAR成像遥感技术领域，涉及一种基于聚类的极化SAR图像相干斑自适应滤波方法，具体步骤：(S1)输入待滤波的极化SAR图像，由极化SAR图像的极化相干矩阵计算相似度参数；(S2)根据相似度参数，计算相似度参数的距离测度；(S3)计算原始聚类特征参数；(S4)对原始聚类特征参数序列进行降序排列；(S5)确定聚类类别数目和聚类中心；(S6)根据聚类中心，进行聚类处理，得到聚类类别参数序列；(S7)选取候选样本像素集，并对待滤波像素进行滤波处理，遍历极化SAR图像中的每一个像素，得到极化SAR相干斑滤波结果图。本发明实现简单，对不同地物具有很好的鲁棒性，可对不同波段和不同分辨率的极化SAR图像进行处理。
+92. 106516169 一种星球表面着陆系统
+CN
+22.03.2017
+B64G 1/62 Loading...
+B64G 1/62
+Loading...
+201610953239.X
+中国人民解放军国防科学技术大学
+李清廉
+B64G 1/62
+Loading...
+一种星球表面着陆系统，包括载荷舱、连接机构和火箭旋翼组合发动机，载荷舱用于承载有效载荷和存储推进剂，一个以上的火箭旋翼组合发动机通过连接机构与载荷舱连接，所述火箭旋翼组合发动机包括外壳、旋翼以及设置在外壳内用于驱动旋翼的动力系统，所述旋翼设置在外壳的顶部且与外壳内的动力系统连接，旋翼在动力系统的驱动下旋转产生气动升力，提供着陆时星球表面着陆系统减速所需要的阻力，通过调节各火箭旋翼组合发动机上旋翼的转速，实现整个星球表面着陆系统的俯仰、滚转和偏航运动。通过使用火箭与旋翼的组合作为动力，充分减小了火箭尾气带走的能量，并且通过改变旋翼转速来实现飞行器的姿态控制，能够较好地解决现有技术中存在的问题。
+93. 106518583 一种米级超高燃速高能致密复合材料及其制备方法
+CN
+22.03.2017
+C06B 27/00 Loading...
+C06B 27/00
+Loading...
+201610956412.1
+中国人民解放军国防科学技术大学
+阳世清
+C06B 27/00
+Loading...
+本发明提供了一种米级超高燃速高能致密复合材料及其制备方法，该材料的配方中含有多种共混氟聚物、金属粉体以及添加剂，采用湿法和干法两种制备工艺，其拉伸强度大于3MPa，线燃速达到米级(1000mm/s)超高燃速；该材料在燃气发生剂、烟火剂、固体推进剂等领域中有重要应用价值。
+94. 106515140 一种中温频率选择表面材料及其制备方法
+CN
+22.03.2017
+B32B 19/02 Loading...
+B32B 19/02
+Loading...
+201610846579.2
+中国人民解放军国防科学技术大学
+黄文质
+B32B 19/02
+Loading...
+本发明公开了一种中温频率选择表面材料，为层状结构，由下至上依次包括基底层(石英纤维增强聚酰亚胺树脂基复合材料)、中间介质层(耐高温聚酰亚胺薄膜)和金属型频率选择表面层。本发明的制备方法：将聚酰亚胺溶液涂覆到石英纤维布上制成预浸料，再将预浸料制成基底层；在聚酰亚胺薄膜的表面制备一层金属镀层，再在金属镀层上刻蚀出频率选择表面，得到中间介质层/金属型频率选择表面层；将聚酰亚胺粘结剂涂覆于基底层表面，再采用热模压法将基底层与中间介质层/金属型频率选择表面层粘合成一个整体，即得到中温频率选择表面材料。本发明的中温频率选择表面材料耐温等级显著提高，可以短期耐受400℃～600℃，具有较好的耐温性能。
+95. 106530633 一种智能事中处置的安防方法及系统
+CN
+22.03.2017
+G08B 21/18 Loading...
+G08B 21/18
+Loading...
+201610934647.0
+中国人民解放军国防科学技术大学
+肖湘江
+G08B 21/18
+Loading...
+本发明公开了一种智能事中处置的安防方法及系统，该安防方法包括：感知环境的特征信息；设定每种特征信息的权重，并根据每种信息的危险值和权重大小，计算得到危险叠加值；将上述危险叠加值与危险阀值进行比对，判定现场环境的危险级别，若危险，向监控端发出不同等级的报警信号，同时生成匹配的处置方案；自动执行处置方案或由监控人员终止自动程序，通过遥控停止或实施现场制暴。本发明不仅使后台监控人员通过视觉、听觉直接获得报警信息，还可以智能感知判断现场人员的面部、行为特征，物品的形状及属性、周边环境等信息，自动实现危险事件的事中处置。本发明收集报警信号智能全面、判断方法精准、现场处置及时，实用性强，有利于推广使用。
+96. 106530189 一种基于支持向量机的机场驱鸟智能决策方法
+CN
+22.03.2017
+G06Q 50/30 Loading...
+G06Q 50/30
+Loading...
+201610896104.4
+中国民航科学技术研究院
+陈唯实
+G06Q 50/30
+Loading...
+本发明公开了一种基于支持向量机的机场驱鸟智能决策方法，本发明提出的机场驱鸟智能决策方法基于大量历史鸟情信息以及专家知识，利用支持向量机建立驱鸟策略分类模型，实现了机场驱鸟实时智能决策。本方法包括训练和测试两部分，其中，训练部分基于历史鸟情信息和专家知识，通过数据预处理与支持向量机训练两个步骤，建立驱鸟策略分类模型，测试部分根据驱鸟实时智能决策结果，对驱鸟策略分类模型进行修正与优化。本发明克服了传统驱鸟方法中驱鸟设备长期单调重复运行的缺点，通过智能决策方法，针对实时鸟情信息，实现了多种驱鸟设备的实时优化组合。
+97. 106528976 一种综合力‑电功能的多功能航天结构一体化设计方法
+CN
+22.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201610940433.4
+中国人民解放军国防科学技术大学
+李东旭
+G06F 17/50
+Loading...
+本发明属于航天器多功能结构技术领域，具体涉及一种综合力‑电功能的多功能航天结构一体化设计方法，该方法包括三个部分，分别为：结构设计、电池组设计和约束匹配模块设计；所述结构设计包括对多功能航天结构进行结构总体方案设计和结构参数设计，并提出对电池组设计的约束条件；所述电池组设计包括对电池组总体方案进行设计和对单体电池电芯进行设计，并提出对结构设计的约束条件；所述约束匹配模块设计用于检验结构设计和电池组设计是否满足要求的标准；对初步设计出来的多功能航天结构分别进行结构设计验证、电池组设计验证，并根据验证结果对结构设计、电池组设计进行匹配、迭代和修改，直至满足多功能航天器结构功能要求。
+98. 106526635 一种GNSS信号载波跟踪和导航解算紧组合的滤波方法
+CN
+22.03.2017
+G01S 19/37 Loading...
+G01S 19/37
+Loading...
+102016001243563
+中国人民解放军国防科学技术大学
+唐小妹
+G01S 19/37
+Loading...
+本发明属于导航接收机设备领域，涉及一种GNSS信号载波跟踪和导航解算紧组合的滤波方法，具体为：步骤1，接收机将接收到GNSS信号变为数字中频信号r(t)；步骤2，各通道NCO分别生成两路正交信号；步骤3，相关器进行相干积累；步骤4，将相关器的输出结果输至跟踪通道中的鉴别器进行处理；步骤5，本地载波跟踪滤波器进行滤波处理；步骤6，提取观测量；步骤7，导航解算滤波器进行滤波；步骤8，根据接收机中导航滤波器的解算结果，预测下一时刻各个通道中的NCO控制字；步骤9，将本地载波跟踪滤波器的滤波结果与导航解算滤波器的预测值进行紧组合，获得最终通道NCO的控制参数,将紧组合的结果用于控制通道NCO，并同步反馈到本地载波跟踪滤波器中。
+99. 106526628 一种用于GNSS信号的多速率组合卡尔曼载波跟踪环路及方法
+CN
+22.03.2017
+G01S 19/24 Loading...
+G01S 19/24
+Loading...
+102016001248348
+中国人民解放军国防科学技术大学
+欧钢
+G01S 19/24
+Loading...
+本发明属于导航接收机设备研制领域，涉及一种用于GNSS导航接收机信号跟踪的多速率卡尔曼载波跟踪环路及方法。该方法步骤为：步骤1，使GNSS信号依次经过接收机中的天线、射频前端、AD转换器后转变为数字中频信号r(t)；步骤2，本地载波生成装置NCO产生频率控制字为fNCO的两路信号，分别为同相信号sI(t)和正交信号sQ(t)，本地伪码生成装置产生导频支路伪码信号cp(t)和数据支路伪码信号cd(t)；步骤3，相关器进行相关处理；步骤4，鉴别器处理；步骤5，多更新速率卡尔曼滤波器MUKF进行滤波处理，将滤波结果反馈至载波生成装置中用于更新频率控制字fNCO。本发明还提供了一种用于GNSS信号跟踪的多更新速率卡尔曼跟踪环路，本发明解决了两种以上不同更新速率载波环路的组合问题。
+100. 104123225 一种利用故障耦合矩阵分析系统单粒子软错误传播过程的方法
+CN
+22.03.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+102014000352364
+中国人民解放军国防科学技术大学
+杨俊
+G06F 11/36
+Loading...
+本发明公开了一种利用故障耦合矩阵分析系统单粒子软错误传播过程的方法，其特征在于，将系统进行功能模块划分，分析功能模块之间信号联系和逻辑关系相互影响因素，确定单粒子软错误传播耦合因子；然后，建立系统的单粒子软错误耦合矩阵，修改两两功能模块之间耦合因子对应的矩阵元；接下来，建立系统功能模块的故障状态向量，模拟功能模块发生单粒子软错误发生之后系统故障状态向量的变化，统计系统发生故障的功能模块数，分析单粒子软错误在系统中的传播影响过程。本发明具有原理简单、操作易行、分析结果合理有效等优点。
+101. 106530330 基于低秩稀疏的视频目标跟踪方法
+CN
+22.03.2017
+
+
+
+102016001120314
+中国人民解放军国防科学技术大学
+刘煜
+
+
+本发明提出一种基于低秩稀疏的视频目标跟踪方法，避免因为图像特征信息冗余导致的处理速度减慢等问题。该方法利用统计跟踪方法粒子滤波进行状态估计。通过建立字典对目标、粒子进行低秩稀疏表示，使得计算复杂度大大降低。利用重建错误预先删除部分粒子，再计算差别分数，最终选定下一帧目标。本发明所述方法对视频图像中的目标能够实时跟踪、准确性高、计算复杂度低，符合实际跟踪中应用的需要。
+102. 106533117 一种超导直线直流电机
+CN
+22.03.2017
+H02K 41/035 Loading...
+H02K 41/035
+Loading...
+102016001134444
+中国人民解放军国防科学技术大学
+李杰
+H02K 41/035
+Loading...
+本发明公开了一种超导直线直流电机，可以应用于超高速电磁推进。根据径向磁场和环向电流的思想，采用超导线圈作为励磁磁体，电枢绕组沿环向以螺线管形式绕制在定子上，各相绕组间隔绕制；每相绕组由多组线圈串联连接，同相相邻的线圈组采用反向串联的连接方式；励磁磁体和定子电枢均为空心结构；定子采用非导磁非导电材料。本发明可应用于火箭辅助发射、超高速滑撬试验平台等，在一定的电源储能条件下，相对于传统直线交流电机具有结构简单，发射负载大、稳定可靠，能量转化效率高的特点。
+103. 106526641 一种应用于旋翼直升机的北斗定位及通信系统
+CN
+22.03.2017
+G01S 19/42 Loading...
+G01S 19/42
+Loading...
+102016001051119
+北京航空航天大学
+姜博
+G01S 19/42
+Loading...
+本发明公开了一种应用于旋翼直升机的北斗定位及通信系统，属于北斗应用技术领域。所述系统包括两个北斗终端和两个显示终端，所述的北斗终端和显示终端之间通过串口—Wi‑Fi模块实现连接通信；所述的两个北斗终端分别安装在直升机的两侧侧窗上，安装朝向完全相反；所述的两个显示终端采用Android平板电脑，用于接收北斗终端的北斗定位信息并进行定位显示。本发明填补了北斗卫星导航系统在旋翼直升机上应用的空白，本发明设计了北斗双模工作模式，消除了北斗终端接收盲区及飞机姿态变化对北斗终端接收信号的影响，实现了不间断通信；结合机组岗位配置，为驾驶员提供两套显示终端，实现二者协调工作，使北斗卫星导航系统更加便捷。
+104. 106516175 敏捷成像卫星自主运控系统及其运行流程
+CN
+22.03.2017
+B64G 3/00 Loading...
+B64G 3/00
+Loading...
+201611059696.0
+中国人民解放军国防科学技术大学
+陈英武
+B64G 3/00
+Loading...
+本发明公开了的敏捷成像卫星自主运控系统包括地面支持系统和成像卫星，成像卫星配备星务分系统、天线分系统、星上其他分系统、星载重规划分系统和实时任务的接收器，当天线分系统接收到多源任务信息后，将任务需求信息传递给重规划分系统，重规划分系统生成新的任务规划方案，一方面将新的任务规划方案传给天线分系统，并传回给地面运控中心，一方面生成指令，传递给星务分系统，运控中心接到卫星的规划方案后，同步生成星上相同的控制指令和数传计划，分别发送给测控中心和地面站。自主运控系统可提升卫星执行复杂任务的能力；可有效提升星上任务实际观测效率；可缓解测控通道的压力，降低地面管控的复杂性；可有效、快速响应应急突发事件。
+105. 106526228 激光诱导荧光测速的自标定方法及系统
+CN
+22.03.2017
+G01P 5/26 Loading...
+G01P 5/26
+Loading...
+102016000944005
+中国人民解放军国防科学技术大学
+程谋森
+G01P 5/26
+Loading...
+本发明公开了一种激光诱导荧光测速的自标定方法及系统，该标定方法包括：调制激励激光在待测流场中以两束方向相反的激光作用于待测流场中的待测粒子；测量激光路径上的待测粒子被激发的荧光信号强度得到实测荧光光谱线型；对实测荧光光谱线型进行拟合，得到与两束相反方向的激光分别对应的第一、第二荧光光谱线型，并对第一、第二荧光光谱线型的中心频率点求算数平均值得到绝对速度零点对应的激光频率。本发明实现了原位标定，无需单独构建参考等离子体源，既简化了标定方案、节约了测量成本，又可以排除因参考等离子体源与待测等离子体之间密度不相等时由斯塔克效应所带来的测量误差，提高了测量精度。
+106. 106528454 一种基于闪存的内存系统缓存机制
+CN
+22.03.2017
+
+
+
+201610962631.0
+中国人民解放军国防科学技术大学
+肖侬
+
+
+本发明涉及一种基于闪存的内存系统缓存机制。它提出在基于闪存的内存系统的DRAM中构建两个缓存区：页缓存区和cache line缓存区。一方面通过历史感知热点识别机制，鉴别并保存每个数据页内热的cache line，提升DRAM缓存的命中率。另一方面，采用延迟刷下机制，在缓存区满时优先剔除干净的数据块，从而减少对闪存的写。同时，采用弱变异系数算法，增加历史访问记录和脏标记位等方式，该缓存机制在时间、空间开销等方面都不大。该机制充分利用闪存的特性，能够有效改善基于闪存的内存系统的读写延迟和使用寿命。
+107. 206041953 一种用于晶闸管驱动的高压隔离电源电路
+CN
+22.03.2017
+H03K 17/16 Loading...
+H03K 17/16
+Loading...
+201621071668.6
+中国人民解放军国防科学技术大学
+邱永峰
+H03K 17/16
+Loading...
+本实用新型涉及一种用于晶闸管驱动的高压隔离电源电路，涉及半导体高压器件技术领域，其目的是为了解决现有的晶闸管驱动用高压隔离电源隔离电压不高以及晶闸管串并联时隔离电源结构复杂、成本高、体积大、容易受到电磁干扰、不便于远程控制等问题。包括一个光电转换模块、一个三极管开关模块、一个场效应管开关模块、一个24伏蓄电池模块和一个磁环变压器。由于采用了光电转换模块，一方面可以将高压“地”完全电气隔离，另一方面原始输入信号是光信号，采用光纤传输，可以将空间电磁干扰完全隔离。同时由于采用了磁环隔离变压器，能够容易地实现数千伏的隔离电压，以消除高频串扰对供电的影响，提高电路系统的抗干扰能力。
+108. 104710926 一种SiC纤维增强的聚氨酯系防滑涂料及其制备方法
+CN
+22.03.2017
+C09D 175/08 Loading...
+C09D 175/08
+Loading...
+102015000081631
+中国人民解放军国防科学技术大学
+王亦菲
+C09D 175/08
+Loading...
+一种SiC纤维增强的聚氨酯系防滑涂料及其制备方法，所述防滑涂料由组分A、B、C和其它组分混合制备而成，组分A为聚四氢呋喃醚二醇、液化MDI和E44型环氧树脂，组分B为SiC短纤维、Al2O3和表面改性剂，组分C为液化MDI、扩链剂、BaSO4、钛白粉和滑石粉，其它组分为稀释剂、消泡剂和流平剂。所述制备方法是将组分A中各组分混合制得组分A；将组分B中各组分混合制得组分B；再将相当于组分C质量3～8%的组分B与组分C混合，加入其它组分混合制得组分D；最后将组分A与组分D以1:1～1.1的质量比混合，即成。本发明防滑涂料具有高摩擦系数和高附着力，在低温时综合性能优异。制备方法简单。
+109. 104503435 一种用于航天动力系统实时故障检测的综合决策方法
+CN
+22.03.2017
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+102014000725350
+中国人民解放军国防科学技术大学
+吴建军
+G05B 23/02
+Loading...
+本发明公开了一种用于航天动力系统实时故障检测的综合决策方法，包括以下步骤：步骤一：统计各种故障检测算法在离线考核验证过程中的先验结果信息；步骤二：计算综合决策结果:对于试车试验中应用多种故障检测算法的结果，利用步骤一中的先验结果信息估计最优结果，给出决策结果；步骤三：估计故障时间:通过试验得到各种故障检测算法的时间样本，对时间样本进行偏差分析计算诊断时间概率进而对故障诊断时间进行估计。本发明的方法具有提高实时故障检测的准确性和可靠性的优点。
+110. 106531598 可机械调频的L波段渡越时间振荡器
+CN
+22.03.2017
+H01J 25/00 Loading...
+H01J 25/00
+Loading...
+102016000971671
+中国人民解放军国防科学技术大学
+贺军涛
+H01J 25/00
+Loading...
+本发明涉及高功率微波技术领域的微波源器件，尤其是一种可机械调频的L波段渡越时间振荡器，属于高功率微波技术领域。所述振荡器包括阴极(1)、内导体(2)、调节栓(3)、外导体(4)、密封帽安装座(5)，密封帽(6)、金属薄片(7)、调节杆(8)，整个结构关于中心轴线旋转对称，阴极(1)左端连接脉冲功率源的内导体，内导体(2)右端连接辐射系统的内导体，外导体(4)左端外接脉冲功率源的外导体，外导体(4)右端连接辐射系统的外导体。本发明克服了通常渡越时间振荡器不可调频的问题，且可机械调频的L波段渡越时间振荡器输出效率高、可调频段宽、工作模式纯。
+111. 103888361 一种面向胖树型拓扑结构的光路由器
+CN
+22.03.2017
+H04L 12/771 Loading...
+H04L 12/771
+Loading...
+102013000659066
+中国人民解放军国防科学技术大学
+窦强
+H04L 12/771
+Loading...
+本发明公开了一种面向胖树型拓扑结构的光路由器，目的是减少所用微环，减小网络直径并减少阻塞。本发明由光交换阵列、光交换阵列控制逻辑和光交换阵列配置表组成；本发明采用的光交换阵列是面向胖树型拓扑结构的8×8光交换阵列，该结构由3级子交换阵列组成，第一级子交换阵列由4个PSE1构成，第二级子光交换阵列由4个PSE1和8个PSE2组成，第三级子光交换阵列由4个PSE2构成；光交换阵列配置表是一个二维表，记录所有可行的光交换阵列配置状态；交换阵列控制逻辑由8个状态寄存器、1个配置寄存器、1个链路建立有限状态机和1个链路拆除有限状态机组成。采用本发明搭建胖树型拓扑结构时，网络直径较小，阻塞率较低，微环数量较少。
+112. 104808347 一种基于双折射晶体的高占空比合束系统
+CN
+22.03.2017
+G02B 27/10 Loading...
+G02B 27/10
+Loading...
+102015000241041
+中国人民解放军国防科学技术大学
+周朴
+G02B 27/10
+Loading...
+一种基于双折射晶体的高占空比合束系统，包括偏振态旋转系统、准直器排布系统、高占空比合成系统。首先利用偏振态旋转系统实现对入射光束的偏振态控制，随后经过准直器排布系统对需要拼接的光束进行合理的空间排布，最后经过高占空比合成系统对整个阵列进行高占空比孔径拼接。本发明适合大尺寸的激光合成，可以有效的降低各个合束器件上激光的功率密度，提高整个相干合成系统的合成孔径，便于合成光束的远距离传输。且本发明可以实现任意路光束、任意排布结构阵列的高占空比孔径填充。
+113. 105905316 用于微小卫星系统的多功能舱壁结构
+CN
+22.03.2017
+B64G 1/10 Loading...
+B64G 1/10
+Loading...
+201610303836.8
+中国人民解放军国防科学技术大学
+范才智
+B64G 1/10
+Loading...
+本发明提供一种用于微小卫星系统的多功能舱壁结构，涉及航天器结构和电源系统设计领域。多功能舱壁结构包括碳纤维支撑结构、锂离子电池、平衡充电电路、电连接器、电压显示模块等部件，集承力、供电、平衡充电等功能于一体。该多功能舱壁结构实现了电源分系统、结构分系统以及状态检测分系统三者的一体化设计，并综合考虑了多功能舱壁结构的长寿命以及散热等问题。本发明具有体积小、重量轻、寿命长以及与卫星总体相容性好等优点，而且通过在微重力气浮模拟卫星上的应用表明：本发明有效减小了气浮模拟卫星本体的重量并增大了气浮模拟卫星的有效载荷装载空间。
+114. 106126915 一种风洞天平振动信号稳定值的预测方法
+CN
+22.03.2017
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201610459771.6
+中国人民解放军63820部队吸气式高超声速技术研究中心
+刘伟雄
+G06F 19/00
+Loading...
+本发明提供了一种风洞天平振动信号稳定值的预测方法，属于信号分析技术领域。1、从多体动力学角度出发，将系统简化成为一个四自由度的动力学模型，对每个自由度进行动力学建模。2、从天平实测信号中初步截取其中一段数据，将该数据段分为流场、稳定振动、状态平稳三个过程；3、选取上述数据段中信号波谷为起始时间和截止时间，使截断信号包含倍数周期；4、对上述截断信号进行傅里叶变换，提取该信号主频率；5、得到主频率以后，基于第一步得到的衰减函数模型和梯度下降法，对截断信号曲线进行拟合和预测；6、为实现振动信号周期的自动截取，并提取振动信号主频率。分析周期数和信号精度之间的关系。主要用于风洞天平振动信号稳定值的预测。
+115. 106503872 一种基于基础业务活动集的业务流程系统构建方法
+CN
+15.03.2017
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+102016001073861
+中国人民解放军国防科学技术大学
+舒振
+G06Q 10/04
+Loading...
+本发明公开了一种基于基础业务活动集的业务流程系统构建方法包括：获取业务流程的日志信息，从日志信息中提取出业务流程数据，并根据业务流程数据建立事件日志；从事件日志中提取案例轨迹信息，从案例轨迹信息中提取基础业务活动集，并根据基础业务活动集建立基础业务流程模型；根据事件日志中的案例轨迹信息建立业务活动比较表集合，并根据业务活动比较表集合改进基础业务流程模型，获得改进后的业务流程模型；对改进后的业务流程模型进行去冗余与简化处理。本发明能够快速、准确、高效地构建出符合流程日志要求的业务流程模型，且计算过程简单、应用范围广、复杂度低。
+116. 105514267 一种基于非晶态SiC薄膜的低功耗忆阻器及其制备方法
+CN
+15.03.2017
+H01L 45/00 Loading...
+H01L 45/00
+Loading...
+102015000933266
+中国人民解放军国防科学技术大学
+刘东青
+H01L 45/00
+Loading...
+本发明公开了一种基于非晶态SiC薄膜的低功耗忆阻器，为由衬底、底电极、顶电极以及位于底电极和顶电极之间的功能层组成的叠加结构，所述功能层为非晶态SiC薄膜，所述非晶态SiC薄膜的厚度为10nm～30nm。本发明的制备方法，包括以下步骤：(1)在衬底上制备底电极；(2)在所述底电极上通过射频磁控溅射方法制备非晶态SiC薄膜；(3)在所述非晶态SiC薄膜上通过金属掩模板用直流磁控溅射方法制备顶电极，即得到所述低功耗忆阻器。本发明的忆阻器操作电压、操作电流小，从而降低了器件的功耗；本发明的制备方法在室温下进行可降低能耗，易于与其他工艺兼容。
+117. 104733825 一种基于透波介质和金属镀层的新型波导耦合器
+CN
+15.03.2017
+H01P 5/12 Loading...
+H01P 5/12
+Loading...
+102015000181106
+中国人民解放军国防科学技术大学
+张军
+H01P 5/12
+Loading...
+本发明涉及微波器件领域，具体涉及一种基于透波介质和金属镀层的新型波导耦合器。本发明所述耦合器包括作为微波主通道的主波导，作为取样信号通道的副波导和作为耦合通道的耦合孔：所述主波导由透波介质制成并在介质内表面镀金属层；所述副波导为标准矩形波导，该矩形波导实质上为在主波导的介质壁中由外向内挖出的一个长方体空腔，所述长方体空腔内嵌于主波导壁中；所述耦合孔位于主波导内表面的金属层上，正对副波导与主波导相交面的中心。本发明具有加工难度小、成本低、主波导密封性良好等优点。
+118. 106494022 点阵增强泡沫夹芯预成型体及其制备方法和应用
+CN
+15.03.2017
+B32B 9/00 Loading...
+B32B 9/00
+Loading...
+102016000846208
+中国人民解放军国防科学技术大学
+曾竟成
+B32B 9/00
+Loading...
+本发明公开了一种点阵增强泡沫夹芯预成型体及其制备方法和应用，点阵增强泡沫夹芯预成型体包括上层纤维织物、泡沫芯材、下层纤维织物和纱线；上层纤维织物、泡沫芯材和下层纤维织物依次叠加，通过纱线缝合。其制备方法包括以下步骤：裁剪相同尺寸的纤维布和泡沫芯材，将裁剪后的纤维布分别铺覆在泡沫芯材的上表面和下表面，进行喷胶粘贴形成夹芯结构；将夹芯结构用纱线缝合得到点阵增强泡沫夹芯预成型体。本发明的点阵增强泡沫夹芯预成型体抗冲刷性能好、纤维织物层间贴合密实，可应用于制备力学性能更好、更稳定的坦克旋转底板用复合材料。
+119. 106501786 一种基于矩阵相关的微动目标参数估计方法
+CN
+15.03.2017
+G01S 7/41 Loading...
+G01S 7/41
+Loading...
+102016000890147
+中国人民解放军国防科学技术大学
+艾小锋
+G01S 7/41
+Loading...
+本发明涉及一种基于矩阵相关的微动目标参数估计方法，步骤一：获取一维距离像；步骤二：连续观测构建时间‑距离分布矩阵；步骤三：计算时间‑距离分布矩阵的自相关矩阵；步骤四：自相关矩阵峰值提取；步骤五：微动周期估计；步骤六：连续观测求平均值。本发明的优点及可取得的技术效果如下：本发明将一维相关推广二维相关，微动周期估计更加稳定可靠，方法简单实用；本发明微动周期估计不存在虚假分量，且受信噪比影响较小；本发明对自旋、进动、摆动、章动等微运动目标均适用。
+120. 106497313 一种耐高温吸波涂层及其应用
+CN
+15.03.2017
+C09D 163/00 Loading...
+C09D 163/00
+Loading...
+102016000892299
+中国人民解放军国防科学技术大学
+邢欣
+C09D 163/00
+Loading...
+本发明属于电子材料技术领域，特别涉及一种耐高温电磁波吸波涂层及其在飞行器隐身中的应用。其技术方案是：一种耐高温吸波涂层，它包括涂覆于基底上的至少一层吸波层(1)和两层隔热阻氧层(2)，两层隔热阻氧层(2)分别位于吸波层(1)的上表面和下表面；吸波层(1)以耐高温吸收剂和耐高温树脂为主要成分，具有吸收电磁波和抗氧化功能；隔热阻氧层(2)主要由耐高温树脂和填料组成，以降低吸波层(1)在高温下的温度和阻止吸波层(1)直接与空气接触。本发明可用于飞行器外表面，实现目标在高温环境下的雷达隐身。
+121. 106501781 基于斜投影滤波的SAR射频干扰抑制方法
+CN
+15.03.2017
+G01S 7/36 Loading...
+G01S 7/36
+Loading...
+102016000965930
+中国人民解放军国防科学技术大学
+张永胜
+G01S 7/36
+Loading...
+本发明提供一种基于斜投影滤波的SAR射频干扰抑制方法。技术方案包括下述步骤：第一步：根据SAR接收回波信号估计出RFI的波达角；第二步：根据RFI的波达角建立RFI子空间和低阶RFI子空间；第三步：利用RFI子空间和低阶RFI子空间构造斜投影滤波器；第四步：对回波进行滤波操作，完成RFI抑制。本发明相比于现有的空域滤波方法，计算过程不再受多个干扰源存在情况下，空间导向矢量相关性所引入误差增大的影响，进而实现更好的干扰抑制效果，实验结果证明性能稳健。
+122. 106494521 一种履带可变形行走机构
+CN
+15.03.2017
+B62D 55/084 Loading...
+B62D 55/084
+Loading...
+102016000993391
+中国人民解放军国防科学技术大学
+徐海军
+B62D 55/084
+Loading...
+本发明公开了一种履带可变形行走机构，它包括履带、托带轮、主架、驱动轮组件、主负重轮组件及诱导轮组件，托带轮安装于主架的上端，托带轮可绕固定轴线在主架上自由转动；驱动轮组件通过铰链安装在主架的一侧，诱导轮组件通过铰链安装在主架的另一侧，主负重轮组件安装在主架的下侧；履带包覆于托带轮、驱动轮组件、主负重轮组件及诱导轮组件的外侧，并通过支撑确定形状；驱动轮组件和诱导轮组件中均包含有伸缩驱动组件，通过伸缩驱动组件的伸缩运动改变履带前侧和/或后侧的形状。本发明具有结构简单、易实现、适用范围广、安全可靠等优点。
+123. 106499917 一种非限位的多功能粘弹性支撑结构群
+CN
+15.03.2017
+F16M 11/00 Loading...
+F16M 11/00
+Loading...
+102016000933481
+中国人民解放军国防科学技术大学
+李东旭
+F16M 11/00
+Loading...
+本发明属于航天结构设计领域，具体的涉及一种非限位的多功能粘弹性支撑结构群，包括基础结构、被支撑结构和若干个粘弹性支撑结构单元；所述若干个粘弹性支撑结构单元构成的一个环状的、不连续的群组，粘弹性支撑结构单元设置在基础结构与被支撑结构之间；所述粘弹性支撑结构单元分别与基础结构和被支撑结构以预压紧和面接触的方式相连接，不存在固定约束关系。本发明通过自身结构材料的粘弹性效应来吸收振动能量，还与被支撑结构一起构成了弹簧‑振子减振系统，通过所述结构群几何拓扑边界的变化，允许被支撑结构发生相对运动，从而将外界传来的振动能量转化为振子动能的方式来消耗振动能量，有效地改善了被支撑结构的力学环境。
+124. 106501822 一种基于GPU的长码部分相关全局直接捕获方法
+CN
+15.03.2017
+G01S 19/29 Loading...
+G01S 19/29
+Loading...
+102016001006749
+中国人民解放军国防科学技术大学
+牟卫华
+G01S 19/29
+Loading...
+针对长周期伪码直接捕获时大量码相位搜索问题，本发明实施例提供了一种基于GPU的长码部分相关全局直接捕获方法，突破了嵌入式器件FFT变换处理点数限制，利用GPU中数以百计的浮点运算单元并行进行FFT运算，直接对长周期伪码扩频信号不确定范围内的伪码相位全局搜索，提高了长码伪码相位捕获速度，对卫星导航扩频信号软件接收有着重大意义。
+125. 106500625 一种远心立体视觉测量装置及其应用于物体三维形貌微米级精度测量的方法
+CN
+15.03.2017
+G01B 11/24 Loading...
+G01B 11/24
+Loading...
+102016001208159
+中国人民解放军国防科学技术大学
+刘海波
+G01B 11/24
+Loading...
+本发明涉及一种远心立体视觉测量装置及其应用于物体三维形貌微米级精度测量的方法，实现被测物体三维形貌数据的微米级获取与检测。远心立体视觉测量装置，包括远心相机A、远心相机B和数据处理计算机。远心相机A、远心相机B固联安装，数据处理计算机与远心相机联通，实时同步采集两台远心相机的图像数据，并解算待测物体三维形貌数据。远心相机在成像景深范围内放大倍率恒定不变，且具有低畸变、大景深等特点，利用远心相机构成的测量系统，测量精度高。极线校正方法，应用于远心立体视觉测量系统，可将后续图像密集匹配的搜索维度由二维简化为一维，提高了密集匹配的效率。
+126. 106505308 一种新型水平极化全向介质谐振天线
+CN
+15.03.2017
+H01Q 1/38 Loading...
+H01Q 1/38
+Loading...
+102016000938265
+中国人民解放军国防科学技术大学
+杨虎
+H01Q 1/38
+Loading...
+本发明提供一种介质谐振天线。技术方案是：包括两个完全相同的介质圆环以及一个夹在两个介质圆环之间的激励装置，激励装置包括刻蚀在介质圆盘上的弧形单极子、锥形渐变线和阻抗匹配带。阻抗匹配带是以介质圆盘的圆心为中心刻蚀出的圆形区域。每个锥形渐变线均与阻抗匹配带电连接，每个锥形渐变线与一个弧形单极子电连接，四个锥形渐变线关于介质圆盘中心旋转对称，四个弧形单极子关于介质圆盘中心旋转对称。本发明具有激励装置简单，全向性高，结构紧凑的优点，可广泛应用于无线通信系统中。
+127. 106503349 一种类周期结构目标电磁散射特性快速计算方法
+CN
+15.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102016000938045
+中国人民解放军国防科学技术大学
+杨虎
+G06F 17/50
+Loading...
+本发明提供一种类周期结构目标电磁散射特性快速计算方法。技术方案是：步骤①～③对于类周期结构目标特殊的三角剖分处理和建立RWG函数的过程，其目的是为了使得不同子模块的离散函数具有相关性，进而使得不同子模块的离散函数可以重复使用；步骤④、⑤对类周期结构目标不同子模块离散函数的建立过程；步骤⑥利用步骤④、⑤建立的离散函数计算目标电磁散射特性。本发明针对类周期结构目标，使得离散函数的建立过程不用重复进行多次，只需将针对最小子模块建立的离散函数进行坐标转化，即可得到所有子模块的离散函数，大大提高了计算效率。本发明的实施方式简单且不影响算法的计算精度。
+128. 106499544 一种火箭旋翼着陆动力系统
+CN
+15.03.2017
+F02K 3/00 Loading...
+F02K 3/00
+Loading...
+102016000953237
+中国人民解放军国防科学技术大学
+李清廉
+F02K 3/00
+Loading...
+一种火箭旋翼着陆动力系统，包括压气机、环形混合室、高压涡轮、低压涡轮、尾喷管、燃气发生器、内轴、外轴、进气口、外壳、氧化剂供应管路、燃料供应管路和旋翼桨盘。其通过设置压气机，压气机将吸入气体进行加压，并与燃气发生器产生高温高压燃气在环形混合室进行混合，混合后的气体驱动高压涡轮转动，高压涡轮带动压气机转动；混合后气体继续驱动低压涡轮转动，再通过变速机构，进而带动旋翼转动产生升力。大面积比尾喷管设计可以使混合气体产生足够的喷管出口速度，同样产生升力。由于高、低压涡轮带走了高温高压混合气体的一部分能量，尾喷管出口的气体速度减小，进而减小了尾气带走的能量，提高了推进剂利用效率，最终提高了推进效率。
+129. 106505744 消除主电能传输线束的飞机供电系统及其电能分配方法
+CN
+15.03.2017
+
+
+
+102016000980358
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+武志勇
+
+
+本发明主要属于飞机供电系统技术领域，具体涉及一种消除主电能传输线束的飞机供电系统及其电能分配方法。所述供电系统利用电磁感应装置产生交变电磁波，并通过导磁金属机体传递所述交变电磁波至电能发生器，电能发生器产生交流电能为电能负载供电，所述供电系统能够减少电气线束距离，降低机载设备重量。本发明所述供电系统不仅消除了主电能传输线束，实现了飞机减重并降低油耗，还有利于降低主电气线束故障并防止由于主电气线束故障所产生的热量、电磁干扰等因素造成的飞机机体损伤以及其他机上设备的故障。
+130. 106501509 一种高灵敏度层析试纸条的制备及应用
+CN
+15.03.2017
+G01N 33/558 Loading...
+G01N 33/558
+Loading...
+102016000910794
+中国人民解放军军事医学科学院放射与辐射医学研究所
+王升启
+G01N 33/558
+Loading...
+本发明公开了一种高灵敏度的富集免疫层析试纸条，其主要部件包括：样品垫、胶体金垫、层析膜、吸水垫和背衬板。其中，层析膜为中间窄两边宽的结构，检测区位于层析膜的狭窄处，质控区位于检测区上方。所述胶体金垫上结合有检测抗体标记的纳米金颗粒，检测区上包被捕获抗体或抗原，质控区上包被二抗。本发明提供的富集免疫层析试纸条通过设置狭窄区间快速富集样品中的待测成分，操作简单，大大提高了样品的检测灵敏度，检测的目标物可以是蛋白质、核酸、糖等生物大分子、小分子化合物及细胞和亚细胞成分等，可用于临床诊断、检验检疫、食品安全检测、司法鉴定、毒品检测等领域。
+131. 106500994 大通径快响应高压强输气装置及输气方法
+CN
+15.03.2017
+G01M 15/02 Loading...
+G01M 15/02
+Loading...
+102016000914483
+中国人民解放军国防科学技术大学
+申志彬
+G01M 15/02
+Loading...
+本发明公开了一种大通径快响应高压强输气装置及输气方法。输气装置包括前段输气管、中段输气管和后段输气管，前段输气管和中段输气管之间连接有常开电磁阀，中段输气管和后段输气管之间连接有常闭电磁阀，后段输气管与试验单元连接。输气方法包括以下步骤：S1：安装；S2：预备输气；S3：输气冲击；S4：关闭阀组。本发明具有大通径、承压能力强、响应快的优点。
+132. 106503319 一种适用于网络节点分类方法评估的仿真网络生成方法
+CN
+15.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102016000894291
+中国人民解放军国防科学技术大学
+李乐
+G06F 17/50
+Loading...
+本发明公开了一种适用于网络节点分类方法评估的仿真网络生成方法，该方法包括：首先，根据指定的拓扑结构参数，如节点数量、边的数量、最大度、平均度分布、小世界以及社区结构等，生成接近于真实网络的初步仿真网络结构；其次，根据指定的标签特征生成网络中每个节点的标签，进而得到一个适合评估网络节点分类器的带有标签的仿真网络。本发明不仅能够生成接近真实网络的拓扑结构，并且考虑了节点的标签信息，使得生成的仿真网络更利于全面地评估节点分类方法，本发明在生成网络的过程中将拓扑结构和标签生成过程分开，可以有效地保证参数影响的独立化，能够更加准确的评估分类方法对于不同属性的依赖程度。
+133. 106504451 一种基于矩阵论的光纤周界安全信号的解调算法
+CN
+15.03.2017
+G08B 13/186 Loading...
+G08B 13/186
+Loading...
+102016000997575
+中国人民解放军国防科学技术大学
+杨晗
+G08B 13/186
+Loading...
+本发明涉及一种基于矩阵论的光纤周界安全信号解调算法，通过对重点区域环绕铺设传感光纤、感知各处应力变化、采集入侵信号、利用入侵事件预报函数解调信号并准确提供入侵事件地点和种类。该算法建立入侵事件类型的数据库，通过该入侵事件对应的通用信号的强度、频率、相位信息，与获得的实测信息进行匹配，同时得到入侵事件位置、入侵事件类型二维信息。提高了周界安全警戒的可行性和准确度，降低了误报率，并在阈值矩阵设定层面提供了警戒等级的可操作性，能够较好地推动周界安全警戒系统的发展。
+134. 106507499 一种无线通信方法、装置和及其应用设备
+CN
+15.03.2017
+H04W 76/02 Loading...
+H04W 76/02
+Loading...
+102015000557321
+国民技术股份有限公司
+杨贤伟
+H04W 76/02
+Loading...
+本发明公开了一种无线通信方法、装置和及其应用设备，其中，一种无线通信方法，包括：移动终端确定建立第一通信方式所需的通信参数；移动终端发送预设的指令，通过第二通信方式将所述通信参数传输至智能卡；移动终端利用所述通信参数，与接收到所述通信参数的智能卡，建立第一通信方式的连接；其中，所述第一通信方式为需要通信参数建立连接的无线通信方式；所述第二通信方式为不同于第一通信方式的一对一通信方式。
+135. 106506587 一种基于分布式存储的Docker镜像下载方法
+CN
+15.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000843748
+中国人民解放军国防科学技术大学
+李东升
+H04L 29/08
+Loading...
+本申请公开了一种基于分布式存储的Docker镜像下载方法。具体包括：将分布式文件系统挂在Registry节点存储镜像的目录，并且集群中所有节点都要创建对应目录并挂载分布式文件系统；集群中的Docker节点向Registry请求下载镜像；Registry根据Docker端的请求确定镜像数据在分布式文件系统中的存储位置，并将镜像元数据返回给Docker节点；Docker节点根据从Registry接受到的元数据确定镜像数据的存储位置，并直接到存储节点提取镜像数据。Docker向Registry节点发送请求时只传送元数据，真正的数据去实际的存储节点中去取，从而真正缓解Registry节点的网络瓶颈。
+136. 206021730 一种模拟电子技术综合示教装置
+CN
+15.03.2017
+G09B 23/18 Loading...
+G09B 23/18
+Loading...
+201620880701.3
+中国人民解放军装甲兵技术学院
+佟大鹏
+G09B 23/18
+Loading...
+本实用新型公开了一种模拟电子技术综合示教装置，包括主演示板和子演示版，所述子演示板采用插接的方式与所述主演示板连接；所述主演示板上嵌入有直流电流表、直流电压表、交流电流表、交流电压表、示波器以及信号发生器，所述主演示板上还设置有插孔，所述直流电流表、直流电压表、交流电流表、交流电压表、示波器及信号发生器的引脚与所述插孔连接；所述子演示板上设置有功率放大电路、二极管稳压电路、桥式整流电路和差分放大电路中的一种。本实用新型不仅能演示多个典型电路的协同工作过程，还包含电压测量、电流测量、演示波形、搭接电路演示、信号产生的功能。尺寸大，演示效果好；功能全，综合性强，使课堂教学效率更高效果更好。
+137. 106506589 一种机器人集群方法及系统
+CN
+15.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000858260
+中国人民解放军国防科学技术大学
+沈林成
+H04L 29/08
+Loading...
+本发明公开了一种机器人集群方法及系统，管控系统，包括管控中心、计算与数据中心、计算与数据节点、局域网移动管控终端、远程移动管控终端、机器人本体；所述管控中心、计算与数据中心、计算与数据节点、局域网移动管控终端、远程移动管控终端、机器人本体均接入互联网/局域网；所述机器人本体包括依次连接的路由器、交换机、网络摄像头；所述交换机与工控机连接；所述路由器与人机交互终端通信；所述人机交互终端通过WIFI热点或3G/4G基站与所述互联网/局域网通信。本发明改善了机器人内部各个设备连网的可靠性；具有多种网络类型(3G、4G、局域网和互联网）可选择组网或接入；除了管控机器人各种状态情况外，具有对机器人异常管控的能力。
+138. 104764045 一种超声速燃烧室凹腔点火装置及超燃冲压发动机
+CN
+15.03.2017
+F23R 3/28 Loading...
+F23R 3/28
+Loading...
+102015000191098
+中国人民解放军国防科学技术大学
+蔡尊
+F23R 3/28
+Loading...
+本发明公开了一种超声速燃烧室凹腔点火装置及超燃冲压发动机，包括安装底座，所述安装底座上游设置有燃料喷孔，安装底座下游设置有凹腔，燃料喷孔与所述凹腔设置于所述安装底座同一平面，所述凹腔底面设置有火花塞，所述火花塞下游方向设置有挡片，所述挡片包括形状相同的左侧挡片和右侧挡片，所述左侧挡片与所述右侧挡片为三角形，左侧挡片与右侧挡片长度相等的一条边相连接且另一相邻边分别固定在所述凹腔底面上，所述左侧挡片与所述右侧挡片面向所述火花塞方向的夹角α小于180°。该超声速燃烧室凹腔点火装置通过挡片对燃料的抬举作用，有效降低了火花塞处燃料发生的富集情况，保证燃料与空气具有适当的混合比，加大点火的成功率。
+139. 105529234 一种X、Ku波段可调高功率微波源
+CN
+15.03.2017
+H01J 23/24 Loading...
+H01J 23/24
+Loading...
+102016000033561
+中国人民解放军国防科学技术大学
+葛行军
+H01J 23/24
+Loading...
+本发明提供一种X、Ku波段可调高功率微波源，通过调节内导体的长度，可以改变器件工作模式，实现工作频率跨X、Ku波段转换。
+140. 104261798 一种耐高温SiCOB气凝胶隔热复合材料及其制备方法
+CN
+15.03.2017
+C04B 30/02 Loading...
+C04B 30/02
+Loading...
+102014000480276
+中国人民解放军国防科学技术大学
+冯坚
+C04B 30/02
+Loading...
+本发明公开了一种耐高温SiCOB气凝胶隔热复合材料及其制备方法。耐高温SiCOB气凝胶隔热复合材料由耐高温无机陶瓷纤维与SiCOB气凝胶组成；耐高温无机陶瓷纤维、SiCOB气凝胶体积百分含量分别为20～70％、30‑80％。制备方法是：配制SiCOB有机前驱体溶胶、制备纤维预制件、将纤维预制件与溶胶进行混合，待混合体凝胶后，经老化、超临界干燥后得到SiCOB气凝胶复合材料前驱体，再将气凝胶隔热复合材料前驱体进行高温裂解，得到耐高温、抗氧化SiCOB气凝胶隔热复合材料。本发明复合材料导热系数低，高温隔热性能好，耐温性能及耐高温氧化性能显著提高，最高使用温度可达1500℃；制备方法低成本、无环境污染。
+141. 105947230 一种乘波体和进气道一体化构型的设计方法
+CN
+15.03.2017
+B64F 5/00 Loading...
+B64F 5/00
+Loading...
+102016000349707
+中国人民解放军63820部队吸气式高超声速技术研究中心
+贺旭照
+B64F 5/00
+Loading...
+一种乘波体和进气道一体化构型的设计方法，属于吸气式高超声速飞行器空气动力学外形和发动机流道设计领域，解决了长期困扰高超声速飞行器的乘波机体和进气道的耦合设计难题。包括：1、确定轴对称基准流场；2定义唇口激波型线和乘波体前缘型线，3、形成密切面，4、几何匹配，5、确定追踪流线，6、确定乘波机体压缩型线，7、重复步骤3至步骤6，确定乘波机体压缩面，8、确定其余构型。本发明可在显著提升飞行器升阻比的同时，保持良好的进气特性，有利于吸气式高超声速飞行器克服推阻屏障。所得乘波机体和进气道一体化构型乘波压缩面外凸，整个机体型面更加饱满，具有良好的容积特性，增强了飞行器的工程可实现性。
+142. 104615576 面向CPU+GPU处理器的混合粒度一致性维护方法
+CN
+15.03.2017
+G06F 15/16 Loading...
+G06F 15/16
+Loading...
+102015000092458
+中国人民解放军国防科学技术大学
+邢座程
+G06F 15/16
+Loading...
+本发明公开了面向CPU+GPU处理器的混合粒度一致性维护方法，目的是解决CPU簇和GPU簇的二级缓存的一致性问题。技术方案是设计一个由粗粒度的域目录和细粒度的块目录组成的双目录结构，双目录结构嵌在L2Cache和主存通道之间，根据CPU簇和GPU簇发出的不同访存请求类型，若访存请求的初始来源为GPU，则采用GPU请求维护流程，若访存请求的初始来源为GPU，启动CPU请求维护流程，通过域目录和块目录相互通信并协作，完成一致性信息的更新和维护以及数据的传递，保证处理器访存的一致性。本发明能有效过滤GPU应用对一致性资源的竞争、减少GPU对CPU性能干扰、保证CPU数据精确记录，极大地提升CPU+GPU异构多核系统的处理性能，且能满足CPU应用对重要数据精细跟踪的需求。
+143. 104992035 一种太赫兹频段表面粗糙目标电磁散射的快速计算方法
+CN
+15.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102015000449832
+中国人民解放军国防科学技术大学
+王宏强
+G06F 17/50
+Loading...
+本发明提出了一种太赫兹频段表面粗糙目标电磁散射的快速计算方法，是一种面片分级的半确定性目标建模方法，并采用E.Bahar针对粗糙面散射问题提出的全波理论实现对表面粗糙目标的电磁散射计算。基于面片分级的半确定性目标建模方法能够满足既描绘目标形状又反映目标表面的粗糙特征的要求，同时降低了目标模型占用的存储空间。基于全波理论的粗糙面散射快速计算方法对较宽范围的粗糙参数具有良好的适应性，计算效率高，能实现对粗糙目标散射的快速计算。
+144. 104181235 一种基于虚拟时间反转的声发射被动成像方法和装置
+CN
+15.03.2017
+G01N 29/14 Loading...
+G01N 29/14
+Loading...
+102014000147838
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+蔡建
+G01N 29/14
+Loading...
+本发明公开了一种基于虚拟时间反转的声发射被动成像方法和装置。该方法包括：接收设置在待测结构上的n个压电片采集的n个声发射信号，其中n为大于或等于3的整数；对所述声发射信号进行虚拟时间反转处理以得到反转信号；提取所述反转信号的包络线信号；根据所述包络线信号进行成像处理，以得到峰值像素点位置，作为待测结构的声发射源位置。本发明提供的一种基于虚拟时间反转的声发射被动成像方法和装置，通过虚拟时间反转处理，把声发射信号中与单个压电片相关的不确定的绝对波达时间转换为与两个压电片相关的确定的波达时间差，便于实现高精度快速成像定位，无需确定声发射信号的波达时间，无需校准压电传感器性能，对先验数据依赖性低。
+145. 104926346 一种含界面相的氧化铝纤维织物增强碳化硅陶瓷及其制备方法
+CN
+15.03.2017
+C04B 35/80 Loading...
+C04B 35/80
+Loading...
+102015000266810
+中国人民解放军国防科学技术大学
+刘海韬
+C04B 35/80
+Loading...
+一种含界面相的氧化铝纤维织物增强碳化硅陶瓷，其是以氧化铝纤维织物作为增强体，以碳化硅陶瓷作为基体，且增强体和基体之间形成有牺牲碳界面相；其制备的工艺步骤包括：先将氧化铝纤维织物置于马弗炉中进行高温氧化，利用化学气相沉积工艺在纤维织物表面沉积裂解碳涂层；配制先驱体溶液，以其真空浸渍纤维织物，经低温交联和高温陶瓷化后完成一次致密化及多次反复的致密化，制得含裂解碳界面相的氧化铝纤维织物增强碳化硅陶瓷；最后通过高温热处理牺牲裂解碳界面相，制得最终产品。本发明产品的力学性能、抗氧化性能及高温性能均优异，且制备周期短、成本低、可以近净尺寸成型。
+146. 105502496 一种核壳结构二氧化钒/硫化锌复合粉体及其制备方法
+CN
+15.03.2017
+C01G 31/02 Loading...
+C01G 31/02
+Loading...
+102015001011306
+中国人民解放军国防科学技术大学
+刘东青
+C01G 31/02
+Loading...
+本发明公开了一种核壳结构二氧化钒/硫化锌复合粉体，其内核为二氧化钒粉体，外壳为硫化锌。核壳结构二氧化钒/硫化锌复合粉体的制备方法，包括以下步骤：（1）通过一步水热法合成单斜相二氧化钒粉体；（2）配制醋酸锌/醋酸/醋酸钠混合缓冲溶液；（3）在混合缓冲溶液中加入表面活性剂和二氧化钒粉体后进行搅拌，加入巯基乙胺后进行加热，冷却后得到产物悬浊液；（4）将产物悬浊液进行离心、洗涤、真空干燥。得到的二氧化钒/硫化锌粉体可以保持其红外自适应特性，实现可见光/红外兼容的自适应伪装，具有更加优异的伪装防护性能和热稳定性，这使本发明的核壳结构二氧化钒/硫化锌复合粉体在伪装防护领域具有广阔的应用前景。
+147. 104926345 一种氧化铝纤维增强碳化硅‑硅酸铝陶瓷及其制备方法
+CN
+15.03.2017
+C04B 35/80 Loading...
+C04B 35/80
+Loading...
+102015000266750
+中国人民解放军国防科学技术大学
+王义
+C04B 35/80
+Loading...
+一种氧化铝纤维增强碳化硅‑硅酸铝陶瓷，其是以氧化铝纤维织物作为增强体，以碳化硅陶瓷和硅酸铝陶瓷作为基体，碳化硅陶瓷主要是采用化学气相渗透法成型得到，硅酸铝陶瓷是通过溶胶‑凝胶工艺引入；该制备方法包括以下步骤：以氧化铝纤维织物、三氯甲基硅烷、氢气、氩气为原料，采用化学气相渗透法制备Al2O3f/SiC陶瓷坯体；对制得的陶瓷坯体进行表面加工，将表面的大量闭孔变为开孔；利用硅铝复合溶胶真空浸渍陶瓷坯体，经凝胶化、高温陶瓷化后转变为中间产品；重复至少4次，最终制得氧化铝纤维增强碳化硅‑硅酸铝陶瓷。本发明的产品力学性能、耐高温和抗氧化性能优异，且制备周期短、成本低、可以近净尺寸成型。
+148. 105865587 一种发动机流量计的标定方法
+CN
+15.03.2017
+G01F 25/00 Loading...
+G01F 25/00
+Loading...
+102016000326352
+中国人民解放军63820部队吸气式高超声速技术研究中心
+邓维鑫
+G01F 25/00
+Loading...
+本发明提供了一种发动机流量计的标定方法，属于流量测量技术领域。其步骤如下：一、建立与使用环境一样的标定条件，二、建立发动机流量测量系统，三、利用槽道式流量计获得标准的发动机流量，四、发动机流量计标定数据处理，五、发动机流量计标定系统不确定度分析。本发明可以解决发动机流量计的标定问题，给出标定系数及不确定度。主要用于发动机流量计的标定。
+149. 106016363 一种点火器
+CN
+15.03.2017
+F23R 3/28 Loading...
+F23R 3/28
+Loading...
+102016000326246
+中国人民解放军63820部队吸气式高超声速技术研究中心
+邓维鑫
+F23R 3/28
+Loading...
+本发明提供了一种点火器，属于发动机点火技术领域。它能有效地解决超燃冲压发动机点火问题。端盖圆心处设有通孔，其纵向剖面呈横向H形，周围均布四个空气入口；喷嘴中部的台阶设有螺纹，与通孔的右端开口通过螺纹连接，喷嘴的左肩部和通孔之间设有O型密封圈，喷嘴左端为闭合端，靠近闭合端处设有四个与内径相切的微形通孔，微形通孔位于通孔的左端开口空间内；隔离板的左端与端盖右侧形成机体左腔室，隔离板左端设有同心管路，该管路与喷嘴之间的间隙形成环形空气回路，隔离板右端开口呈喇叭形，隔离板端面周围均布通孔，隔离板右侧为燃烧室，燃烧室侧壁设有火花塞，在火花塞处设有周向稳焰凹槽；燃烧室颈部为音速出口。主要用于发动机点火。
+150. 206021635 一种能量回馈型飞机电气负载模拟装置
+CN
+15.03.2017
+G09B 9/00 Loading...
+G09B 9/00
+Loading...
+201620459813.1
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+康元丽
+G09B 9/00
+Loading...
+本实用新型属于航空电气系统领域，尤其涉及一种包括负载模拟器和并网逆变器的能量回馈型飞机电气负载模拟装置，该模拟装置包括：用于将合适电压或电流提供给综合电源并将电网与模拟装置物理隔离的隔离变压器，用于提供电气负载的电压源的综合电源、用于模拟电气负载的电气负载模拟装置组成。本实用新型利用电气负载模拟装置实现对飞机电气负载的模拟，在完成飞机上起发系统、配电系统等前期实验室论证阶段带载测试的基础上，将电气模拟负载输出的能量循环再生利用，不仅节约能源，不产生大量的热量，节省使用冷却设备的空间，大大减小噪音污染，从而节约了成本，为当前宽体客机以及未来更加绿色环保的全电飞机的研制提供技术基础和研究基础。
+151. 206021731 一种插接式数字电路演示板
+CN
+15.03.2017
+G09B 23/18 Loading...
+G09B 23/18
+Loading...
+201620880702.8
+中国人民解放军装甲兵技术学院
+孙世鹏
+G09B 23/18
+Loading...
+本实用新型公开了一种插接式数字电路演示板，包括：主电路板，其上嵌入有电流表、电压表、示波器以及信号发生器；副电路板，其上嵌入有门电路、触发器电路、计数器电路和寄存器电路中的至少一种；所述电流表、电压表示波器以及信号发生器的引脚与设置在主电路板上的插孔连接；所述电流表包括直流电流和交流电流表，所述电压表包括直流电压表和交流电压表。本实用新型提供的插接式数字电路演示板，不仅能够进行多种数字电路的协同演示，还能进行电压、电流的测量，波形演示，搭接电路，信号产生等功能。主电路板的尺寸大，演示效果好，可以提供多种电压的直流或交流电源，功能齐全，满足了不同的演示需求。
+152. 106485948 一种用于区域内高速公路车距预警的车辆间通信方法及装置
+CN
+08.03.2017
+G08G 1/16 Loading...
+G08G 1/16
+Loading...
+201510549745.8
+中国人民解放军国防科学技术大学
+王威
+G08G 1/16
+Loading...
+一种用于区域内高速公路车距预警的车辆间通信方法，其步骤为：S1：获取本车位置信息并实现与卫星导航系统时间的同步；S2：将某时间段划分为若干发播时隙；S3：实时接收周边车辆的发播信息，提取其中信息；S4：判断本车的发播时隙是否与周边车辆的发播时隙或冲突时隙出现冲突；如为是，则重新进行本车发播时隙的计算，直到没有出现发播时隙冲突。S5：判断周边车辆之间是否发生发播时隙冲突现象；如为是，则将发生冲突的发播时隙编入本车的发播信息中；S6：将本车的信息编码，并在本车的发播时隙向外发播；S7：依据提取的周边车辆ID和位置信息计算与周边车辆的距离。该装置用来执行上述方法。本发明具有原理简单、智能化程度高、可靠性好等优点。
+153. 106480600 一种UHMWPE片材的制造方法
+CN
+08.03.2017
+D04H 1/4291 Loading...
+D04H 1/4291
+Loading...
+201510515441.X
+北京同益中特种纤维技术开发有限公司
+陈振坤
+D04H 1/4291
+Loading...
+本发明公开一种UHMWPE片材的制造方法，包括将纤维束进行退绕、集束、排布、展开、上胶、干燥的步骤，所述展开步骤采用展丝设备进行，所述展丝设备包括若干个展丝单元，每个展丝单元包括沿水平方向设置的第一展丝件以及沿水平方向设置的第二展丝件，所述第一展丝件具有弧形曲面，所述第二展丝件具有棱角，所述纤维束通过接触所述第一展丝件的弧形曲面以及接触所述第二展丝件的棱角来展开。本发明方法制得的单取向预浸带在同种面密度下，防弹性能提高至少10％。
+154. 106487931 一种基于相似文件协同的BitTorrent数据分发系统及方法
+CN
+08.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201611144224.5
+中国人民解放军国防科学技术大学
+符永铨
+H04L 29/08
+Loading...
+本发明公开一种基于相似文件协同的BitTorrent数据分发系统，由控制节点、对等节点、种子节点构成，控制节点主动发现与对等节点待下载文件相似度最高的一组文件，并将拥有这些文件的种子节点的地址信息传输给对等节点；对等节点向这些种子节点请求下载数据块，同时从下载相同文件的其它对等节点和拥有相同文件的种子节点获取数据块。本发明还公开一种基于相似文件协同的BitTorrent数据分发方法。本发明具有以下有益效果：下载节点在继承BitTorrent传输协议的同时，实现了跨相似文件进行数据块交换的功能，下载节点同时与下载相同文件的其它节点及从拥有相似文件的种子节点交换数据，有效提高了数据分发的效率。
+155. 106485001 一种小型运载火箭结构参数化设计方法
+CN
+08.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102016000889800
+中国人民解放军国防科学技术大学
+江振宇
+G06F 17/50
+Loading...
+本发明提供一种小型运载火箭结构参数化设计方法，包含以下步骤：第一步：提取特征参数，确定建模思路，分别建立整流罩、舱段、翼片的参数化模型；第二步：制作用户界面，自动生成对话框C++模板文件；第三步：在Visual Studio 2010中建立NX Open工程项目，编写建模程序；第四步：编译、运行，得到动态链接库文件；第五步：用户界面进行参数输入，点击“确定”，得到对应的结构模型；第六步：在Visual Studio 2010中建立NX Open工程项目，在C++源文件中添加自动装配程序；第七步：编译、运行，得到动态链接库文件；第八步：在UG中执行动态链接库文件，得到自动装配模型。本发明显著提高了小型运载火箭结构设计的效率，所用到的方法可以推广到其他火箭或飞行器的参数化设计研究。
+156. 106482745 激光陀螺仪零偏磁场灵敏度测试及磁致零偏温度补偿方法
+CN
+08.03.2017
+G01C 25/00 Loading...
+G01C 25/00
+Loading...
+201610897787.5
+中国人民解放军国防科学技术大学
+李耿
+G01C 25/00
+Loading...
+本发明涉及一种激光陀螺仪零偏磁场灵敏度的测试方法及激光陀螺仪的磁致零偏温度补偿方法，属惯性导航、制导及控制领域。本发明将原有的激光陀螺仪零偏磁场灵敏度测试方法进行了完善和补充，使其可以反映激光陀螺仪零偏在不同磁感应强度和不同温度条件下的磁场灵敏度特性，从而全面地评估激光陀螺仪的磁致零偏性能，基于该测试方法，本发明提出一种激光陀螺仪的磁致零偏温度补偿方法，利用已经测得的激光陀螺仪零偏在不同磁感应强度和不同温度条件下的磁场灵敏度特性，对激光陀螺仪的磁致零偏进行补偿，从而满足激光陀螺仪在不同温度及不同电磁工作环境下的性能要求，提高激光陀螺惯性导航系统的导航精度。
+157. 106483606 一种低损耗的全光纤低压气体腔系统及其实现方法
+CN
+08.03.2017
+G02B 6/38 Loading...
+G02B 6/38
+Loading...
+201611217190.8
+中国人民解放军国防科学技术大学
+王泽锋
+G02B 6/38
+Loading...
+一种全光纤低压气体腔系统，包括空芯光纤、左端及右端拉锥处理的实芯光纤、左端及右端空芯光纤与实芯光纤对接封装模块、气体腔充放气模块。空芯光纤分别通过左、右端空芯光纤与实芯光纤对接封装模块分别与左、右端拉锥处理的实芯光纤进行对接封装。左、右端空芯光纤与实芯光纤对接封装模块分别与气体腔充放气模块紧密连接，用于对空芯光纤气体腔进行抽取真空、充气、放气操作和气体腔内部气压监测。本发明还包括采用上述全光纤低压气体腔进行全光纤封装的全光纤低压气体腔实现方法，可实现低损耗、高强度、长期稳定性好的全光纤低压气体腔系统，在全光纤化中红外气体激光器方面有广泛的应用前景和重要的应用价值。
+158. 106478796 采用原核表达体系获取鸽子磁敏蛋白的方法
+CN
+08.03.2017
+C07K 14/465 Loading...
+C07K 14/465
+Loading...
+102016000824038
+中国人民解放军国防科学技术大学
+王璟
+C07K 14/465
+Loading...
+本发明公开了一种采用原核表达体系获取鸽子磁敏蛋白的方法，包括以下步骤：提取含ClCry1的目的基因；双酶切目的基因片段和载体；将酶切后的目的基因连接到载体上得到重组载体；将重组载体转化至感受态细胞中，筛选阳性克隆；将阳性克隆进行培养、蛋白表达、纯化得到鸽子磁敏蛋白。本发明的方法简单、快速、低成本的，能高效表达鸽子磁敏蛋白ClCry1。
+159. 106486884 一种功率稳定型调频激光器
+CN
+08.03.2017
+H01S 3/13 Loading...
+H01S 3/13
+Loading...
+201610971673.0
+中国人民解放军国防科学技术大学
+谭中奇
+H01S 3/13
+Loading...
+本发明涉及激光技术领域，尤其是指一种功率稳定型调频激光器，由全反射棱镜、摆片、稳功率推挽装置、布鲁斯特窗、增益介质、泵浦源、腔体、高反射镜、调频推挽装置、光分束器、光电探测器及系统电路组成。相比于现有的调频激光器方案而言，本发明在激光调频过程中通过控制全反射棱镜全反射面处的光学隧穿功率大小，调节激光器光学谐振腔的腔内损耗，从而实现激光调谐过程中的输出功率稳定，该稳功率的过程不会改变激光器的光学谐振腔几何结构，因此输出激光性能稳定。
+160. 106478124 一种多孔炭隔热复合材料的制备方法
+CN
+08.03.2017
+C04B 35/83 Loading...
+C04B 35/83
+Loading...
+102016000846385
+中国人民解放军国防科学技术大学
+冯军宗
+C04B 35/83
+Loading...
+本发明公开了一种多孔炭隔热复合材料的制备方法，目的是解决现有多孔炭隔热复合材料制备方法工艺周期长、炭化过程中体积收缩大、安全隐患大等问题。技术方案是以离子液体作为炭前躯体，低共熔盐类混合物作为致孔剂，无机炭纤维预制件作为增强体，首先将离子液体和低共熔盐类混合物研磨混合，在高压惰性气体保护下升温熔融后与炭纤维预制件混合，继续升温使离子液体炭化形成多孔炭，得到炭纤维增强多孔炭/盐复合体，再经过冷却水洗干燥后获得炭纤维增强多孔炭隔热复合材料。本发明制备工艺简单，周期短，安全隐患小、绿色环保，且制备的炭纤维增强多孔炭隔热复合材料热导率低，隔热性能好，表面不会开裂，更有利于制备异形构件。
+161. 106483480 基于GMI效应的单探头生物磁场探测方法、电路及传感器
+CN
+08.03.2017
+G01R 33/09 Loading...
+G01R 33/09
+Loading...
+102016000849945
+中国人民解放军国防科学技术大学
+周宗潭
+G01R 33/09
+Loading...
+本发明公开了基于GMI效应的单探头生物磁场探测方法、电路及传感器，方法步骤包括将非晶丝GMI探头的输出信号分为独立且互不干扰的两路并分别采用截止频率不同的低通滤波器滤波后，再进行差分放大得到生物磁场探测信号；电路包括隔离电路、第一低通滤波单元、第二低通滤波单元和差分放大单元；传感器包括非晶丝GMI探头和前述电路。本发明将单个非晶丝GMI探头输出的感应信号隔离分离变成两路可独立处理的信号分别进行低通滤波处理后差分放大，能够排除环境中均一磁场的干扰、起到高频滤波前置的作用，不需要考虑非晶丝材料一致性要求，便于微型化、集成化，具有适应性好的优点。
+162. 106469349 一种多跑道系统航班容量的数学模型评估方法
+CN
+01.03.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201610784688.6
+中国民航科学技术研究院
+鱼海洋
+G06Q 10/06
+Loading...
+一种多跑道系统航班容量的数学模型评估方法，包括以下步骤：确定跑道构型及允许运行模式；进行基本前提假设；进行运行模式参数设置；确定交通需求状况；计算得到两两航空器连续进近航班最小时间间隔、连续离场航班最小时间间隔、先进近后离场最小时间间隔和先离场后进近最小时间间隔；针对各跑道安排起降航班；获得全部航班队列整个运行情况；得到各跑道总航班容量。本发明能够非常方便地计算得到多跑道系统容量。
+163. 104702401 一种地基导航系统时间的同步方法
+CN
+01.03.2017
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+102015000137785
+中国人民解放军国防科学技术大学
+郭熙业
+H04L 7/00
+Loading...
+本发明公开了一种地基导航系统时间同步方法，其流程为：S1：从站跟踪锁定主站的时标信号；S2：待稳定跟踪后，从站时钟频率与主站保持一致，进行双向时间比对；S3：在双向时间比对过程中测量设备发射通道与接收通道的信号传播组合时延；S4：收集主站测量结果；S5：计算出站间钟差△t′，从站以此为偏移量调整时钟；即，根据双向时间比对结果以及传播组合时延计算站间钟差，利用该站间钟差调整本地时钟。本发明可克服对流层延迟对时间同步精度的影响、实现低成本站间高精度时间同步。
+164. 205990216 一种叉吊组合液压推车
+CN
+01.03.2017
+B66F 9/075 Loading...
+B66F 9/075
+Loading...
+201620110584.2
+中国人民解放军国防科学技术大学
+宋殿义
+B66F 9/075
+Loading...
+本实用新型公开了一种叉吊组合液压推车，包括吊具部件、翻转部件和支腿部件；翻转部件包括翻转架、抬升架、翻转机、主横梁、第二千斤顶和手柄，翻转机固定在主横梁上，翻转机输出轴与翻转架键连接，翻转架上设置有滑轨，抬升架上设置有滑块，抬升架通过滑块与滑轨配合可移动安装在翻转架上；吊具部件包括旋转座、第一千斤顶、后吊臂、前吊臂、手动葫芦和吊钩，旋转座安装在翻转架横梁上；支腿部件包括两个支腿机构，支腿机构包括前支腿、后支腿、前轮、定位板和万向轮。上述叉吊组合液压推车，具有体积小，操作方便，可根据运送物资的形状、重量、路况等来选择采用运送方式；台面可折叠、拆卸，使用灵活的优点。
+165. 103364842 一种捷联式航空重力仪误差分离方法
+CN
+01.03.2017
+G01V 7/16 Loading...
+G01V 7/16
+Loading...
+102013000322954
+中国人民解放军国防科学技术大学
+张开东
+G01V 7/16
+Loading...
+本发明公开了一种捷联式航空重力仪误差分离方法，其步骤为：（1）、捷联式航空重力仪原始数据的预处理：将捷联式航空重力仪得到的加速度计和陀螺的原始脉冲信号通过当量转换成正常的测量信息；（2）、确定捷联式航空重力仪在飞行测量过程中产生的姿态误差；（3）、通过步骤（2）确定的姿态误差对捷联式重力仪的测量结果进行修正，实现误差的分离。本发明具有原理简单、操作简便、分离精度高、易推广使用等优点。
+166. 205989810 一种飞机机翼
+CN
+01.03.2017
+B64C 3/26 Loading...
+B64C 3/26
+Loading...
+201621039919.2
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+马波
+B64C 3/26
+Loading...
+本实用新型涉及航空结构相关技术领域，具体公开了一种飞机机翼，包括左机翼、右机翼和对接组件，所述左机翼的左机翼翼盒包括左机翼单曲面部和与其一体成型的左机翼双曲面部，所述右机翼翼盒包括右机翼单曲面部和与其一体成型的右机翼双曲面部，所述左机翼单曲面部与右机翼单曲面部分别从机身的两侧伸入机身中部并通过对接组件连接。本实用新型将原有的左机翼和右机翼分别与中央翼对接的结构，优化为左机翼和右机翼直接对接的结构，将对接方式由原有的单曲面与双曲面的对接，优化为单曲面与单曲面对接，且将原有的两处对接优化为一处对接；从而大大降低了机翼的连接装配难度，简化了翼根的设计，优化了油路密封设计，减少了机翼零组件数量。
+167. 205992656 一种超大带宽超连续谱激光光源
+CN
+01.03.2017
+H01S 3/067 Loading...
+H01S 3/067
+Loading...
+201620471561.4
+中国人民解放军国防科学技术大学
+殷科
+H01S 3/067
+Loading...
+本实用新型提供一种超大带宽超连续谱激光光源，主要包括脉冲光纤激光器，光纤放大器和氧化锗光纤；其中氧化锗光纤采用阶跃折射率型折射率结构光纤、光子晶体结构光纤或微结构光纤；所述超大带宽超连续谱激光光源通过对氧化锗光纤引入正波导色散，可以将氧化锗光纤的零色散点从1.7μm向短波长方向移动到1.5μm波段附近，使其接近脉冲光纤激光器波长，并且形成关于零色散点频率对称分布的群速度色散曲线；所述光源的输出光谱可以覆盖可见光到中红外波段，具有全光纤结构、成本低廉、稳定性好等特点，易于在光学元件性能测试、显微成像、生物医学、广谱传感、光谱学等众多领域大范围推广使用。
+168. 103913173 单X射线脉冲星导航观星序列选择方法
+CN
+01.03.2017
+G01C 21/24 Loading...
+G01C 21/24
+Loading...
+102014000158478
+中国人民解放军国防科学技术大学
+王奕迪
+G01C 21/24
+Loading...
+本发明提供了一种基于可观性分析的单X射线脉冲星导航观星序列选择方法，去除在航天器导航过程中会发生周期跃变的脉冲星、导航过程中会被天体遮挡的脉冲星、在太阳遮蔽角内的脉冲星后，选择使特定的指标函数达到最大值的脉冲星序列。本发明提出的方法原理简单，可操作性强，易推广和使用，大大提高了单X射线脉冲星导航的可靠性和稳定性，为其推广提供了条件。
+169. 103954298 一种GNSS和MIMU组合导航中微陀螺g敏感性误差补偿方法
+CN
+01.03.2017
+G01C 25/00 Loading...
+G01C 25/00
+Loading...
+102014000158231
+中国人民解放军国防科学技术大学
+胡小平
+G01C 25/00
+Loading...
+本发明公开了一种GNSS和MIMU组合导航中微陀螺g敏感性误差补偿方法，其步骤为：（1）建立微陀螺的g敏感性误差方程；（2）建立含g敏感性误差的GNSS/MIMU组合导航系统方程；（3）采用非线性全局可观性分析方法，对含g敏感性误差的GNSS/MIMU组合导航系统进行全局可观性分析，设计该组合系统全局可观的运动路径；（4）依据步骤（1）中得到的微陀螺的g敏感性误差方程，构建相应的卡尔曼滤波器，并按照步骤（3）得到的运动路径运动，实现微陀螺g敏感性误差的补偿。本发明具有原理简单、操作简便、适用范围广等优点。
+170. 105148599 防水击过滤器
+CN
+01.03.2017
+B01D 35/02 Loading...
+B01D 35/02
+Loading...
+102015000474880
+徐州恒安石油储运技术有限公司
+石永春
+B01D 35/02
+Loading...
+本发明公开了一种防水击过滤器。提供了一种吸收效果好、节省空间、投资小的集过滤和防水击为一体的流体装置。装置腔内装有滤芯和用于吸收管道内水击压力和热膨胀压力的环形气囊,环形气囊安装在固定支架上,固定支架安装在过滤器腔体或盖板上,环形气囊上设置充气管,充气管上设有阀门、充气口和压力表。本装置可安装于泵前及液体发放系统流量计前的管道上，既能过滤杂质，又能消除水击，同时还能有效避免封闭管道内液体因热胀冷缩而损坏设备，占用空间小，投资小，可广泛应用于化学工业、石油、食品、水等液体介质的输送领域。
+171. 105181984 智能标本反应分析装置
+CN
+01.03.2017
+G01N 35/00 Loading...
+G01N 35/00
+Loading...
+102015000630038
+北京泱深生物信息技术有限公司
+唐锁勤
+G01N 35/00
+Loading...
+本发明公开了一种智能标本反应分析装置，该装置包括控制装置，标本液采集装置，反应装置，分析装置，处理装置，其特征在于，所述装置还包括反应模块，传送装置，所述控制装置控制所有装置工作，控制装置设置于入口处，包括控制面板，扫描装置，信息接收模块，信息传输模块，信息分析存储模块；所述反应装置内包含反应液抽取装置，反应模块放置槽，信息接收模块及信息传输模块；分析装置内设置反应模块放置处、信息接收模块与信息传输模块；处理装置内设置有清洗装置，消毒装置；反应装置，分析装置及处理装置前与装置内部都设置有推送结构；反应模块通过传送装置到达反应装置，分析装置及处理装置。本发明可智能的完成从标本的检测程序准确性高。
+172. 205989809 一种飞机机翼的翼梁连接结构
+CN
+01.03.2017
+B64C 3/18 Loading...
+B64C 3/18
+Loading...
+201621041198.9
+中国商用飞机有限责任公司北京民用飞机技术研究中心
+刘传军
+B64C 3/18
+Loading...
+本实用新型公开了一种飞机机翼的翼梁连接结构，包括中央翼翼梁，外翼翼梁以及连接组件；复合材料制成的中央翼翼梁与复合材料制成的外翼翼梁通过钛合金或铝合金制成的连接组件连接；铝合金制成的连接组件与复合材料制成的中央翼翼梁、复合材料制成的外翼翼梁的接触面之间设有至少一层绝缘层。采用钛合金材料制成的连接组件连接复合材料制成的中央翼翼梁和外翼翼梁，避免了发生电偶腐蚀现象。采用铝合金材料制成的连接组件连接复合材料制成的中央翼翼梁和外翼翼梁时，通过在连接组件与中央翼翼梁、外翼翼梁的接触面之间设置绝缘层，解决了复合材料与铝合金材料之间的电势差问题，有效避免电偶腐蚀现象的发生，延长了机翼的使用寿命。
+173. 106428605 无人机电磁弹射器联合制动系统
+CN
+22.02.2017
+B64F 1/06 Loading...
+B64F 1/06
+Loading...
+102016001094159
+中国人民解放军国防科学技术大学
+吴峻
+B64F 1/06
+Loading...
+为了克服现有技术中弹射器制动距离过长、效率低、冲击大等缺陷，本发明提出了一种无人机电磁弹射器联合制动系统，包括弹射机架以及无人机支撑弹射平台，所述弹射机架上设置有滑轨，无人机支撑弹射平台通过其两侧支撑在弹射机架的滑轨上，无人机支撑弹射平台能够在弹射电机的驱动下沿着滑轨运动，在弹射机架上设置有反接制动单元，且在弹射机架上还设置有液压制动单元和永磁涡流制动单元中的至少一种制动单元。多种制动方式协同联合制动，能在短时间、短距离范围内消耗永磁直线电机动子及无人机支撑弹射平台的动能。
+174. 106443580 一种测试方法及系统
+CN
+22.02.2017
+G01S 5/04 Loading...
+G01S 5/04
+Loading...
+201510494479.3
+中国人民解放军国防科学技术大学
+胡庭波
+G01S 5/04
+Loading...
+本发明是关于一种测试方法及系统，包括：通过行人携带的信号广播设备、评估设备和至少三个信号接收设备来测试行人检测装置的检测准确度，其中，通过至少三个信号接收设备接收信号广播设备广播的RFID信号，可以精确定位出信号广播设备的参考位置，并作为行人的参考位置；然后将行人检测设备检测到的行人的检测位置与行人的参考位置进行比对，如此可以测试出行人检测装置的检测准确度。在行人的参考位置准确的情况下，可以更加准确地测试出行人检测装置的检测准确度。并且通过至少三个信号接收设备接收信号广播设备广播的RFID信号定位出行人的参考的方法所需硬件成本较低，满足规模化测试需求。
+175. 106453084 一种基于拥塞系数的混合数据中心网络流调度方法
+CN
+22.02.2017
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201611047098.1
+中国人民解放军国防科学技术大学
+郭得科
+H04L 12/721
+Loading...
+本发明公开了一种基于拥塞系数的混合数据中心网络流调度方法，包括：确定混合数据中心网络系统中多个机架间的有线Fat‑Tree结构与无线2D‑Torus结构中的链接，以及任意机架对间的路由；获取批量到达的多条待注入数据流，并为每条批量流指定一条拥塞系数之和最小的传输路径；持续获取序列到达的多条待注入数据流，并为每条序列流指定一条拥塞系数增量之和最小的传输路径。本发明通过使用将到达的数据流拆分为批量流和数据流，先调度批量流再调度数据流的技术手段，进一步提升了混合结构的网络性能。
+176. 106450593 一种高功率容量的栅格化介质透镜
+CN
+22.02.2017
+H01P 1/08 Loading...
+H01P 1/08
+Loading...
+201610945359.5
+中国人民解放军国防科学技术大学
+李国林
+H01P 1/08
+Loading...
+本发明涉及高功率微波技术领域的用作微波输出窗的一种栅格化介质透镜，尤其是一种工作在高功率容量的栅格化介质透镜。为了克服现有高功率微波发射天线输出窗在介质输出窗口‑真空和介质输出窗口‑空气分界面容易击穿，导致传输效率不够高，脉冲缩短等不足，本发明提供一种具有高功率容量、击穿阈值高、传输效率高的栅格化介质透镜及其制作方法，由N条金属栅条和介质输出窗口两部分组成，所述N条金属栅条按照一定的间隔p采用贯穿介质输出窗口厚度方向的方式周期性地排列于介质输出窗口内。由于介质透镜表面采用金属栅条隔开，本发明次级电子发射率更小，功率容量大幅提升，传输效率高，脉冲缩短现象大幅减少，可以应用于高功率微波输出系统中。
+177. 106450705 液体混合腔式可调控天线
+CN
+22.02.2017
+H01Q 1/36 Loading...
+H01Q 1/36
+Loading...
+201611072078.X
+中国人民解放军国防科学技术大学
+李高升
+H01Q 1/36
+Loading...
+本发明提供了一种液体混合腔式可调控天线，包括空心腔体结构的天线以及与所述天线连接的馈电端；所述天线内部注入有液体；所述馈电端包括同轴接头、微波介质基板以及设置于所述微波介质基板下方的金属地；所述天线设置于微波介质基板上方；所述同轴接头贯穿微波介质基板和金属地设置，且所述同轴接头设有与所述天线内部液体连通的探针，所述天线包括内腔体、外腔体和调控柱；所述内腔体设置在所述外腔体内部空腔，所述调控柱贯穿所述内腔体和所述外腔体下端通孔设置。本发明结构精简，通过拉动调控柱可使内腔和外腔连通，调节内腔和外腔内液体高度，引起天线方向图主瓣指向、增益数值的变化，实现液体分布的重构，改变天线的辐射和匹配性能。
+178. 106434917 一种金黄色葡萄球菌的LAMP引物组及检测试剂盒与使用方法
+CN
+22.02.2017
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+201610851281.0
+中华人民共和国广州机场出入境检验检疫局
+柏建山
+C12Q 1/68
+Loading...
+本发明公开了一种金黄色葡萄球菌的LAMP引物组及检测试剂盒与使用方法。金黄色葡萄球菌的LAMP引物组包括一对外引物、一对内引物和一环引物。本发明根据金黄色葡萄球菌耐热核酸酶基因（nuc）保守区序列设计环介导等温扩增引物，利用LAMP技术扩增靶基因的特定区域，从分子水平上实现金黄色葡萄球菌的快速检测，为金黄色葡萄球菌检测提供一种更有效更快速的核酸筛查检测方法。
+179. 106441781 一种流量可测的进气道节流装置
+CN
+22.02.2017
+G01M 9/00 Loading...
+G01M 9/00
+Loading...
+102016000818030
+中国人民解放军国防科学技术大学
+范晓樯
+G01M 9/00
+Loading...
+一种流量可测的进气道节流装置，包括节流蝶阀、节流蝶阀驱动机构、节流筒以及音速喷嘴，所述节流筒内相对于其轴线竖直插装有一节流蝶阀，节流蝶阀驱动机构设置在节流筒外侧，所述节流蝶阀在节流蝶阀驱动机构的驱动下实现转动进而改变节流筒内的堵塞面积实现反压大小的调节，所述音速喷嘴安装在节流筒的出口端。本发明中的节流蝶阀受到较小的气动阻力矩，所需驱动电机功率较小；其驱动节流蝶阀转动的电机安装在流道外部，大大缩短了节流装置的长度。本发明的节流装置与音速喷嘴串联使用，能够实现调节进气道出口反压的同时实时获得进气道流量，且测量误差较小。
+180. 106441806 半导体激光器退化测试与寿命预测实验平台
+CN
+22.02.2017
+G01M 11/00 Loading...
+G01M 11/00
+Loading...
+102016000772926
+中国人民解放军国防科学技术大学
+王贵山
+G01M 11/00
+Loading...
+本发明提供了一种半导体激光器退化测试与寿命预测实验平台，包括计算机分析系统、半导体激光器驱动控制系统和数据传输系统。所述计算机分析系统通过数据传输系统接收半导体激光器的状态数据并做计算和分析，实现曲线绘制、退化测试和寿命预测等功能；所述半导体激光器驱动控制系统通过数据传输系统接收并解析参数设置和模式控制数据包，对半导体激光器调制电流、偏置电流、光功率和温度的控制。本发明在不影响半导体激光器正常调制工作的前提下，能够对其退化表征参数进行测试，并能采集工作中的电流、电压、温度应力进行寿命预测，实验平台能够用于半导体激光器出厂测试、光电子器件特性和激光通信的实验和教学科研。
+181. 106443673 基于旋转域极化相干特征的建筑物倒损率估计方法
+CN
+22.02.2017
+G01S 13/90 Loading...
+G01S 13/90
+Loading...
+201610826430.8
+中国人民解放军国防科学技术大学
+陈思伟
+G01S 13/90
+Loading...
+本发明属于全极化SAR成像遥感技术领域，涉及一种基于旋转域极化相干特征的全极化SAR建筑物倒损率估计方法。所述方法包括以下步骤：第一步，极化散射矩阵绕全极化雷达视线作旋转处理；第二步，计算旋转域中的极化相干特征序列；第三步，计算极化相干起伏度；第四步,计算建筑物极化倒损因子；第五步，建筑物倒损率估计。本发明实现简单，对不同建筑物目标具有很好的鲁棒性，并且实施起来也非常方便，可直接用于对各种全极化SAR系统获得的多时相全极化SAR图像进行处理。本发明对于全极化SAR建筑物倒损评估、减灾防灾等应用领域有着重要的参考价值。
+182. 106441918 一种进气道试验脉动反压产生装置
+CN
+22.02.2017
+G01M 15/14 Loading...
+G01M 15/14
+Loading...
+102016000817769
+中国人民解放军国防科学技术大学
+熊冰
+G01M 15/14
+Loading...
+一种进气道试验脉动反压产生装置，包括安装在风洞出口外侧的节流旋片以及驱动节流旋片旋转的驱动机构，所述节流旋片包括2片以上的旋片，节流旋片在驱动机构的驱动下旋转，在旋转过程中每片旋片均能够实现轮流挡住一定面积的风洞出口进而产生节流。与现有技术中采用的节流堵锥以及旋转椭圆方法相比，本发明能够产生更高频率范围的脉动反压信号，而且其脉动反压信号的时均值、振幅、频率均是可调的。另外，本发明产生相同频率的脉动反压信号，所需电机转速更低。
+183. 106447184 基于多传感器测量与神经网络学习的无人机操作员状态评估方法
+CN
+22.02.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201610838299.7
+中国人民解放军国防科学技术大学
+牛轶峰
+G06Q 10/06
+Loading...
+本发明提出了一种基于多传感器测量与神经网络学习的无人机操作员状态评估方法，建立与上述传感器特征与语义之间的映射关系，从而估计出操作员的决策等级。该方法便于更加直观地掌握操作员的实时状态，估计操作员当前是否适合该任务，以及对任务可做出相应的调整。由于采用了神经网络的学习方法，可建立不同操作员的特征空间，因此，适用于具有不同熟练程度的各种层次的无人机操作员。
+184. 106443723 一种基于GPU的高动态扩频信号实时仿真生成方法
+CN
+22.02.2017
+G01S 19/23 Loading...
+G01S 19/23
+Loading...
+201610813744.4
+中国人民解放军国防科学技术大学
+牟卫华
+G01S 19/23
+Loading...
+本发明实施例提供了一种基于GPU的高动态扩频信号实时仿真生成方法，解决了现有技术中高动态信号软件仿真生成运算时间长的问题。本发明实施例提供的信号仿真生成方法包括利用三次多项式分段拟合变化的伪距，然后在每一段时间内，给定动态参数和当前采样点的时间，根据各采样点计算彼此不相关的特性，利用GPU调用信号仿真核函数并行计算各离散采样点处的瞬时伪码相位和瞬时载波相位，最后实时仿真生成高动态的扩频信号，对高动态卫星导航扩频信号的实时仿真生成有着重大意义。
+185. 106432727 一种以咪唑类离子液作为交联剂制备电荷梯度及疏水性梯度阳离子型聚合物抗菌膜的方法
+CN
+22.02.2017
+
+
+
+201610825724.9
+中国人民解放军国防科学技术大学
+李义和
+
+
+本发明涉及一种以咪唑类离子液作为交联剂制备电荷梯度及疏水性梯度阳离子型聚合物抗菌膜的方法，通过引入一种带正电荷的二烯丙基咪唑鎓盐制备一种复合交联剂，从而分别单独改变抗菌高分子薄膜所带电荷密度和疏水性，制备新型高分子抗菌薄膜；实现了对高分子薄膜电荷梯度及疏水梯度的单独调控；二烯丙基咪唑的合成原料易得且廉价，合成步骤简单，产率高；巯基－烯光聚合体系反应快速并对氧不敏感，形成的聚合物结构统一，具有优良的隔热性、高折射率、氧化惰性和耐水性等众多优点。
+186. 106427115 一种基于双层超材料的耐高温雷达红外兼容隐身材料及其制备方法
+CN
+22.02.2017
+B32B 9/00 Loading...
+B32B 9/00
+Loading...
+201610837738.2
+中国人民解放军国防科学技术大学
+刘海韬
+B32B 9/00
+Loading...
+本发明公开了一种基于双层超材料的耐高温雷达红外兼容隐身材料，为层状结构，由内至外依次包括介质层Ⅰ、电阻型高温超材料层、介质层Ⅱ、修饰层和频率选择表面层；其中，介质层Ⅰ和介质层Ⅱ均为氧化物纤维增强氧化物基复合材料；电阻型高温超材料层主要由呈周期性图案的耐高温电阻涂层组成；修饰层为玻璃涂层；频率选择表面层主要由呈周期性图案的耐高温、抗氧化、低红外发射率的贵金属镀层组成。本发明的制备方法各层材料分层制备。本发明的耐高温雷达红外兼容隐身材料具有较强的可设计性，采用超材料技术可从结构设计角度较好的解决雷达红外兼容隐身的矛盾性问题，具备较好的宽频吸波性能与低发射率特性；同时还可以耐受1000℃以上的高温。
+187. 106446382 面向领域实体的图形化建模与分析环境及其实现方法
+CN
+22.02.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201610824050.0
+中国人民解放军国防科学技术大学
+汤俊
+G06F 17/50
+Loading...
+一种面向领域实体的图形化建模与分析环境，包括模型资源管理模块、模型组成图元模块、模型图形化构建模块和模型状态分析模块四个部分；模型资源管理模块，用于对构建实体模型的相关文件和各类图元进行管理；模型组成图元模块，列举了构建实体模型需要用到的所有图元标识；模型图形化构建模块，用于图形化描述领域实体模型的组成元素及其逻辑执行流程；模型状态分析模块，用于对领域实体模型逻辑执行的正确性进行分析检验。该环境能有效满足面向领域实体的仿真模型快速灵活开发、易于维护更新、具有高可信度等要求。
+188. 106428620 一种大容积高升阻比脊形吻切锥乘波体设计方法
+CN
+22.02.2017
+B64F 5/00 Loading...
+B64F 5/00
+Loading...
+201610927947.6
+中国人民解放军国防科学技术大学
+柳军
+B64F 5/00
+Loading...
+本发明提供一种大容积高升阻比脊形吻切锥乘波体设计方法，首先，给定乘波体的飞行条件、尺寸约束和性能要求，根据吻切锥理论和尺寸约束来设计吻切锥乘波体；然后，根据尺寸约束设计容积体；最后，基准乘波体与容积体结合，并进行翼身融合操作，以重新设计乘波体上表面并得到最终的脊形吻切乘波体。本发明可以根据任务需求来设计满足容积指标的脊形乘波体，在有攻角的情况下具有高升阻比气动性能，有效解决了容积要求导致乘波体升阻比损失的问题。
+189. 106449739 基于量子点的单电子自旋过滤器及单电子自旋过滤方法
+CN
+22.02.2017
+H01L 29/66 Loading...
+H01L 29/66
+Loading...
+201610907225.4
+中国人民解放军国防科学技术大学
+方靖岳
+H01L 29/66
+Loading...
+一种基于量子点的单电子自旋过滤器及单电子自旋过滤方法，主要组成部分是单电子晶体管，单电子晶体管具有库仑岛、源极、漏极和栅极，量子点作为单电子晶体管的库仑岛，库仑岛与源极和漏极以隧穿势垒连接，库仑岛与栅极以电容形式耦合；单电子晶体管置于垂直磁场中，单电子晶体管的漏极输出端连接自旋电子读出电路，自旋电子读出电路置于水平非均匀磁场中。本发明采用外部调控的方法，使自旋非极化的电子经过单电子晶体管后，变为自旋极化的电子，而且能对电子的自旋方向进行判定和计数，有利于数据处理快、功耗低、稳定性好的自旋电子器件的设计应用。
+190. 106443722 一种天线相位中心偏差检测方法
+CN
+22.02.2017
+G01S 19/23 Loading...
+G01S 19/23
+Loading...
+201610813741.0
+中国人民解放军国防科学技术大学
+牟卫华
+G01S 19/23
+Loading...
+本发明提供一种天线相位中心偏差检测方法，所述天线相位中心偏差检测方法包括天线校准步骤、观测数据取样步骤、基线向量解算步骤和偏差计算步骤，其中，所述偏差计算步骤使用最小二乘准则对所述基线向量解算步骤得出的基线向量进行计算，得到天线相位中心偏差。本发明所提供的天线相位中心偏差检测方法相对于旋转天线法的成本更低，克服了旋转天线所产生的误差；相对于交换天线法，能够同时校准多个设备，提高了校准设备的效率；相对于相对定位法，对输入观测数据的旋转角度无约束要求，消除了旋转角度误差对检测结果的影响；并且观测数据点的个数最小3个，最多不限，增加观测数据有利于提高检测精度，天线相位中心水平偏移标定精度优于0.05mm。同时，检测过程更加易于操作。
+191. 106443718 非理想信道下基于相关峰修正的测量零值无偏跟踪系统及其方法
+CN
+22.02.2017
+G01S 19/21 Loading...
+G01S 19/21
+Loading...
+201610813703.5
+中国人民解放军国防科学技术大学
+孙广富
+G01S 19/21
+Loading...
+本发明提出了一种非理想信道下基于相关峰修正的测量零值无偏跟踪系统及其方法，其从抗干扰滤波器的结构出发，首先将干扰抑制后的相关峰分解为中心相关峰与一系列延迟相关峰之和，再利用最小二乘法估算出输入至跟踪环路的相关峰幅度，最后根据已知的干扰抑制滤波器阶数、系数和采样率先验信息，从最终合成的相关峰中扣除延迟相关峰分量，从而使得输入至早迟环的相关峰形状与干扰抑制前的相关峰形状一致。该方法解决了传统的跟踪通道在非理想信道下测量零值随外部干扰变化而波动的问题，且工程实现非常简单。本发明可应用于同时需要满足抗干扰需求和高精度测距的卫星导航接收机中。
+192. 106443719 一种基于改进Rake结构的频域抗干扰方法
+CN
+22.02.2017
+G01S 19/21 Loading...
+G01S 19/21
+Loading...
+201610813745.9
+中国人民解放军国防科学技术大学
+王飞雪
+G01S 19/21
+Loading...
+本发明属于卫星导航抗干扰领域，具体涉及一种基于改进Rake结构的频域抗干扰方法，主要包括以下步骤：(S1)输入中频采样信号，计算频域抗干扰后信号的相关函数，获取码时延粗估计；(S2)获取通道0的直达信号跟踪结果；(S3)获取除通道0外其余通道的多径信号跟踪结果；(S4)计算去除多径后的直达信号。本发明的频域抗干扰方法在抑制干扰的同时不可避免会导致信号质量下降。尤其在面对宽带干扰时，本发明能够在一定程度上减小抗干扰损耗，提升频域抗干扰后信号的信噪比，减小导航数据解调的误码率，提升接收机的通信性能。
+193. 106444836 一种无控探空火箭抗干扰设计方法
+CN
+22.02.2017
+G05D 1/10 Loading...
+G05D 1/10
+Loading...
+201610889776.2
+中国人民解放军国防科学技术大学
+江振宇
+G05D 1/10
+Loading...
+为了减小探空火箭任务载荷释放点和火箭残骸落点的性能散布，本发明提供一种无控探空火箭抗干扰设计方法，其包括以下步骤：(1)选择箭体静稳定度和发动机推力作为抗干扰设计变量；(2)通过仿真确定弹道性能偏差规律建立六自由度弹道模型；(3)确定抗干扰设计变量的取值；(4)确定发射条件。该方法通过六自由度弹道仿真的方法确定弹体的发动机推力特性、质量特性、稳定裕度，以此来减小这种弹道性能偏差，降低飞行任务和探测任务的风险，并减小残骸落点散布。本方法在几乎不增加成本的情况下有效的减少了无控探空火箭的弹道性能偏差，该方法适合各种探空火箭、火箭弹等无控箭弹的总体设计。
+194. 106434916 一种阪崎肠杆菌的LAMP引物组及试剂盒与使用方法
+CN
+22.02.2017
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+201610851244.X
+中华人民共和国广州机场出入境检验检疫局
+柏建山
+C12Q 1/68
+Loading...
+本发明公开了一种阪崎肠杆菌的LAMP引物组及试剂盒与使用方法。阪崎肠杆菌的LAMP引物组，包括一对外引物、一对内引物和一对环引物，其核苷酸序列分别如下SEQ NO.1所示：本发明根据阪崎肠杆菌的16SrRNA基因（ES16S）保守区序列设计环介导等温扩增引物，应用PrimerExplorer V4在线设计特异引物组，利用LAMP技术扩增靶基因的特定区域，从分子水平上实现阪崎肠杆菌的快速检测，为阪崎肠杆菌检测提供了有效且快速的核酸筛查检测方法。
+195. 106430082 一种基于单电子晶体管的电荷探针及其制备方法
+CN
+22.02.2017
+B81C 1/00 Loading...
+B81C 1/00
+Loading...
+201610907246.6
+中国人民解放军国防科学技术大学
+方靖岳
+B81C 1/00
+Loading...
+一种基于单电子晶体管（SET）的电荷探针及其制备方法，SET集成在探针悬臂梁的针尖端面，所述SET的源极、漏极、侧栅极和库仑岛埋嵌在探针悬臂梁针尖端面的二氧化硅中，所述电荷探针，以绝缘衬底上的硅（Silicon‑On‑Insulator，SOI）为基片，SET的基本组成单元：源极、漏极、侧栅极、库仑岛和隧穿势垒集成在上述基片的顶层硅上，并且SET位于电荷探针针尖的端面，其中纳米金颗粒作为SET的库仑岛，位于源极、漏极和侧栅极之间，库仑岛被由基片顶层硅氧化而来的二氧化硅介质包围，库仑岛与源极、漏极以隧道结合的形式耦合，库仑岛与侧栅极以电容的形式耦合。本发明为实现原子力SET扫描探针在纳米级高度对样品表面电荷分布进行高灵敏度扫描探测奠定了基础。
+196. 106441910 固体发动机高压强冷气快速冲击加载试验系统及方法
+CN
+22.02.2017
+G01M 15/02 Loading...
+G01M 15/02
+Loading...
+201610914482.0
+中国人民解放军国防科学技术大学
+申志彬
+G01M 15/02
+Loading...
+本发明公开了一种固体发动机高压强冷气快速冲击加载试验系统及方法，系统包括气源单元、输气单元、试验单元和测控单元，气源单元、输气单元和试验单元三者之间设有连接管道，测控单元与气源单元、输气单元以及试验单元之间设有测控电缆。方法包括以下步骤：S1：气源充气；S2：快速冲击；S3：冲击完成；S4：放气泄压。该试验系统及方法具有高压强、快响应、大容积、结构简单、操作便捷、安全性高、成本低廉的优点。
+197. 106444845 一种无信息条件下的多UAV协同搜索方法
+CN
+22.02.2017
+G05D 1/12 Loading...
+G05D 1/12
+Loading...
+201610898192.1
+中国人民解放军国防科学技术大学
+胡天江
+G05D 1/12
+Loading...
+本发明公开了一种无信息条件下的多无人机协同搜索方法，涉及人工智能和机器学习领域，包括区域分散布局和机动巡逻围捕，区域分散布局是将搜索区域内随机位置处可供调动的若干架搜索UAV以近似相等的分散距离均布在预先设定的巡逻位置处，保证各UAV具有较小初始分散距离差，各UAV在搜索区域内分散运动，探测范围不断变化，各向均布的分散布局减小分散过程中的搜索重叠区域。机动巡逻围捕是在各UAV到达初始巡逻位置后，按照预先设定的巡逻路线向搜索区域中心近心螺旋运动。本发明在少量先验信息甚至无信息条件下实现目标搜索，在有限的时间内尽可能多获取整个搜索区域的信息，搜索到给定区域内的来犯目标。
+198. 106434915 一种单核细胞增生李斯特氏菌的LAMP引物组及检测试剂盒与使用方法
+CN
+22.02.2017
+C12Q 1/68 Loading...
+C12Q 1/68
+Loading...
+201610851243.5
+中华人民共和国广州机场出入境检验检疫局
+柏建山
+C12Q 1/68
+Loading...
+本发明公开了一种单核细胞增生李斯特氏菌的LAMP引物组及检测试剂盒与使用方法。包括一对外引物、一对内引物和一对环引物。本发明根据单增李斯特氏菌的溶血素基因（hlyA）保守区序列设计环介导等温扩增引物，应用PrimerExplorer V4在线设计特异引物组，利用LAMP技术扩增靶基因的特定区域，从分子水平上实现单增李斯特菌的快速检测，为单增李斯特菌检测提供了有效且快速的核酸筛查检测方法。
+199. 106449336 磁绝缘线振荡器重频运行气体捕集器及捕集方法
+CN
+22.02.2017
+H01J 25/36 Loading...
+H01J 25/36
+Loading...
+201610859223.2
+中国人民解放军国防科学技术大学
+荀涛
+H01J 25/36
+Loading...
+本发明公开了一种磁绝缘线振荡器重频运行气体捕集器及捕集方法，目的是在脱离外部真空抽气环境的条件下，维持磁绝缘线振荡器重频、连续工作所需真空环境，对放出的气体进行捕集。磁绝缘线振荡器重频运行气体捕集器由气体捕集腔、吸气剂、真空阀门、真空变送器、衬环组成：气体捕集腔位于磁绝缘线高功率微波振荡器和微波模式转换器之间，吸气剂采用非蒸散型吸气剂，真空阀门采用真空金属阀门，真空变送器采用冷阴极真空变送器，真空阀门、真空变送器、吸气剂固定在气体捕集腔入口环面底上。本发明捕集器在磁绝缘线振荡器重复频率工作时，能取代外部真空抽气环境，有效捕集磁绝缘线振荡器放出的气体，维持磁绝缘线振荡器内部所需的真空环境。
+200. 106451066 一种基于蓄电池的半导体激光器电源
+CN
+22.02.2017
+H01S 5/042 Loading...
+H01S 5/042
+Loading...
+201610890678.0
+中国人民解放军国防科学技术大学
+陈景春
+H01S 5/042
+Loading...
+本发明涉及一种基于蓄电池的半导体激光器电源。采用蓄电池组串联直流转换模块的方案为半导体激光器供电，由于蓄电池组将提供主要的功率输出，其直流转换模块输出功率较低，因此电路设计相对简单且对电子器件的要求也较低，更容易实现更高的电能转换效率。
+

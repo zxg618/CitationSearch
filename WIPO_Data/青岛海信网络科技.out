@@ -1,0 +1,2401 @@
+1. 106569821 一种生成Webservice类的方法及装置
+CN
+19.04.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102016000973010
+青岛海信网络科技股份有限公司
+李坤鹏
+G06F 9/44
+Loading...
+本发明公开了一种生成Webservice类的方法及装置，该方法包括根据待生成Webservice类的配置文件，生成待生成Webservice类的Webservice接口以及与Webservice接口相适配的实现类，并进行编译，得到待生成Webservice类，将待生成Webservice类进行发布。由于通过待生成Webservice类的配置文件将该待生成Webservice类所要代理的普通类进行配置，生成了待生成Webservice类的Webservice接口以及与该Webservice接口相适配的实现类，从而无需对所要代理的普通类重新进行编码，就可以实现将普通类封装为Webservice类。
+2. 106571029 一种车辆排队长度检测的方法和装置
+CN
+19.04.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201610908635.0
+青岛海信网络科技股份有限公司
+张茂雷
+G08G 1/01
+Loading...
+本发明实施例提供一种车辆排队长度检测的方法和装置，该方法包括：获取预设周期内经过待分析路段的车辆的行程时间，对获取的预设周期内经过待分析路段的车辆的行程时间进行聚类，确定多个数据集，针对任意一个数据集，根据数据集中行程时间的中位数、周期时间及自由流行程时间确定数据集对应的所有车辆的停车次数，根据预设周期内经过待分析路径的所有车辆的停车次数、待分析路段的车道数、待分析路段的交通相位确定预设周期内待分析路段的最大排队长度。由于复用已有的电子警察抓拍系统得到行程时间数据，并将行程时间数据进行聚类后求取最长排队长度，一方面降低了检测成本，另一方面提高了待分析路段最长排队长度计算精度。
+3. 206098313 过压保护装置及信号机过压保护系统
+CN
+12.04.2017
+H01H 71/02 Loading...
+H01H 71/02
+Loading...
+202016001153446
+青岛海信网络科技股份有限公司
+冯飞
+H01H 71/02
+Loading...
+本实用新型涉及过压保护装置及信号机过压保护系统，其中过压保护装置包括上壳体、下壳体、过压保护器、电源模块和空气开关；电源模块设置在上壳体内并为过压保护器提供电能；过压保护器设置在上壳体插装在下壳体内；上壳体套设在过压保护器上；空气开关设置在下壳体上，且与过压保护器连接。该装置用于避免在过压时导致用电设备（例如信号机）故障或损坏的问题，提高了用电设备的使用安全性，延长用电设备的使用寿命，降低人身和财产损失；该过压保护装置装配简单，结构紧凑，有效利用安装空间。
+4. 103530622 一种车辆车标识别方法
+CN
+29.03.2017
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102013000546633
+青岛海信网络科技股份有限公司
+刘韶
+G06K 9/00
+Loading...
+本发明公开了一种车辆车标识别方法，包括：（1）、建立车标样本库步骤；（2）、车标样本库特征提取步骤，包括对样本进行标签标识，以及将样本划分为N个子区域，对样本分别在各子区域的特征进行特征提取；（3）、车标识别步骤，对待检测车标图像进行特征提取，共得到N个待匹配特征，将每个待匹配特征分别与其所在子区域的特征库进行匹配，最终获得车标结果；本识别方法具有可以应对不同光照的影响，以及不受倾斜车牌的影响，提高了对倾斜车标的识别率，具有计算量小，速度快以及识别精度高的优点。
+5. 106548451 一种客车客流拥挤度计算方法和装置
+CN
+29.03.2017
+G06T 3/40 Loading...
+G06T 3/40
+Loading...
+201610899819.5
+青岛海信网络科技股份有限公司
+邢江
+G06T 3/40
+Loading...
+本发明实施例提供一种客车客流拥挤度计算方法及装置，该方法包括：获取客车车辆内至少两个摄像头分别采集到的图像，对采集到的图像进行拼接形成车辆内的全景图像，针对所述全景图像进行人体识别和计数，所述计数结果用于进行客车流量分析。本发明实施例中根据图像坐标变换矩阵对多个摄像头采集到的图像进行拼接，确定出车内的全景图像，然后对车内全景图像进行人体检测确定车内所有人数，由于根据全景图像中检测到的乘客数量对车辆客流拥挤程度进行分析，而不是通过上下车门乘客的累计差进行统计，从而避免了累计误差，提高了统计精度。
+6. 106529371 一种车辆智能服务系统
+CN
+22.03.2017
+G06K 7/14 Loading...
+G06K 7/14
+Loading...
+201610948992.X
+巴中市大巴山网络科技有限公司
+后志鹏
+G06K 7/14
+Loading...
+本发明涉及车辆挪车技术领域，提供一种车辆智能服务系统，包括：扫码挪车单元，用于对二维码进行扫描，获取车主联系信息，并依据车主联系信息执行挪车提醒动作；基于车牌的挪车单元，用于根据车辆的车牌信息，执行挪车提醒动作；基于车辆代码的挪车单元，用于根据预先生成的车主用户的车辆代码，执行挪车提醒动作；贴条提示服务单元，用于触发生成贴条指令，并将贴条区域信息推送给处于贴条区域内的所有车主用户的终端设备上；商家信息提示服务单元，用于对车主终端设备当前位置进行地理位置定位，并向车主的终端设备推送周边商家的位置信息和产品信息，从而为车主用户提供全方位的智能服务，实现挪车提醒、贴条提醒和商家服务提醒。
+7. 106530745 一种地磁车辆检测的数据包传输及处理方法和主控器
+CN
+22.03.2017
+G08G 1/042 Loading...
+G08G 1/042
+Loading...
+102016001144744
+青岛海信网络科技股份有限公司
+高树静
+G08G 1/042
+Loading...
+本发明实施例提供一种地磁车辆检测的数据包传输及处理方法和主控器，该方法包括主控器接收检测器发送的数据包，根据接收到的多个数据包的编号和预设的编号规则，判断是否有数据包丢失及确定丢失的数据包的数量；若是，则主控器根据丢失的数据包的数量、丢失的数据包相邻的数据包的车辆状态变化信息、检测器依次发送数据包携带的车辆状态变化信息交替为“车辆占有”、“车辆离开”的规律，生成丢失的数据包。本发明实施中检测器对数据包进行命名和编号，故主控器根据接收的数据包的命名和编号快速判断数据包是否丢失，进而生成丢失的数据包，从而避免了因无线通信失败而导致的检测准确率低的问题。
+8. 106506226 一种故障检测的启动方法及装置
+CN
+15.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016001074001
+青岛海信网络科技股份有限公司
+刘尊民
+H04L 12/24
+Loading...
+本发明公开了一种故障检测的启动方法及装置，该方法包括服务器获取设定时间段内终端设备的上传数据的历史时间间隔，对所述历史时间间隔进行优化，并确定出优化后的历史时间间隔的第一平均值和第一方差，根据所述优化后的历史时间间隔的第一平均值和第一方差，确定出故障检测的时间间隔阈值，若确定终端设备当前上传数据的时间间隔大于所述故障检测的时间间隔阈值，则进行所述终端设备的故障检测。通过通过终端设备的上传数据的历史时间间隔，自动运算产生故障检测的时间间隔阈值，并在确定终端设备当前上传数据的时间间隔超过该时间间隔阈值之后自动启动故障检测的流程，可以实现快速的启动故障检测，提高故障检测的效率。
+9. 106504531 一种确定下游信号控制点位的方法和装置
+CN
+15.03.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102016000986547
+青岛海信网络科技股份有限公司
+高林
+G08G 1/01
+Loading...
+本发明实施例提供一种确定下游信号控制点位的方法和装置，涉及智能交通领域，包括：确定拥堵点的位置，获取设定时间段内拥堵点设定范围内的下游的所有路径的交通出行量。对所有路径的交通出行量进行分析，确定出与拥堵点相关的疏导路径。根据与拥堵点相关的疏导路径确定拥堵点的下游的信号控制点位，信号控制点位为与拥堵点相关的疏导路径的下游路口所在的位置。由于在确定信号控制点位时，以卡口过车数据为基础，通过分析离开拥堵点的车辆确定疏导路径，进而得到信号控制点位，而不需要依靠人工经验，一方面简化了操作过程，另一方面提高了交通调控的时效性和有效性。
+10. 106504532 一种确定上游信号控制点位的方法和装置
+CN
+15.03.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102016000986723
+青岛海信网络科技股份有限公司
+高林
+G08G 1/01
+Loading...
+本发明实施例提供一种确定上游信号控制点位的方法和装置，涉及智能交通领域，包括：确定拥堵点的位置，获取设定时间段内拥堵点设定范围内的上游的所有路径的交通出行量。对所有路径的交通出行量进行分析，确定出与拥堵点相关的拥堵路径。根据与拥堵点相关的拥堵路径确定拥堵点的上游的信号控制点位，信号控制点位为与拥堵点相关的拥堵路径的上游路口所在的位置。由于在确定信号控制点位时，以卡口过车数据为基础，通过分析进入拥堵点的车辆确定拥堵路径，进而得到信号控制点位，而不需要依靠人工经验，一方面简化了操作过程，另一方面提高了交通调控的时效性和有效性。
+11. 106504577 一种停车换乘出行路线规划方法及装置
+CN
+15.03.2017
+G08G 1/14 Loading...
+G08G 1/14
+Loading...
+102016001037460
+青岛海信网络科技股份有限公司
+刘爱华
+G08G 1/14
+Loading...
+本发明公开了一种停车换乘出行路线规划方法及装置，该方法包括根据用户输入的出发地的位置信息和目的地的位置信息，确定驾车到达时可用的停车场，根据出发地的位置信息、目的地的位置信息和可用的停车场的位置信息，规划出出发地与目的地之间的多条停车换乘出行路线，并确定出每条停车换乘出行路线的出行成本，从多条可用的停车场的预测剩余车位对应的停车换乘出行路线中确定出出行成本小于设定成本阈值的停车换乘出行路线，并推送给用户。通过确定出出发地和目的地之间的可用的停车场，规划出先驾车到停车场，再换乘停车场附近的公共交通工具来实现停车换乘出行路线的规划，并基于每条停车换乘出行路线的出行成本推荐出最优的停车换乘出行路线。
+12. 104408915 一种交通状态参数的估计方法和系统
+CN
+15.03.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102014000617762
+青岛海信网络科技股份有限公司
+柏才盟
+G08G 1/01
+Loading...
+本发明公开了一种交通状态参数的估计方法和系统。其中的方法包括：实时获取交通数据样本；如果当前时间段内所采集的当前交通数据样本的数量大于预设的交通采集最小样本量，则根据预设的训练模型对当前交通数据样本进行数据拟合，基于误差比判别准则通过修正矩阵对拟合后的数据进行修正，并根据修正后的数据获取交通状态参数的估计值；否则，为当前交通数据样本、上一时间段的交通数据样本和历史量化数据分别设置相应的权重系数；并根据当前交通数据样本、上一时间段的交通数据样本、历史量化数据以及各自的权重系数，计算得到交通状态参数的估计值。通过使用本发明所提供的方法和系统，可以有效地提高交通状态参数估计的准确性和可靠性。
+13. 106448178 一种套牌车分析方法及装置
+CN
+22.02.2017
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+102016000803191
+青岛海信网络科技股份有限公司
+姜东昕
+G08G 1/017
+Loading...
+本发明公开了一种套牌车分析方法及装置，该方法包括获取车辆的多个历史过车数据，根据多个历史过车数据中相邻两个历史过车数据的最短可达路径中经过的监控设备，对多个历史过车数据进行分析，划分出车辆的多个过车线路，将多个过车线路中历史过车数据的个数大于等于第一阈值的确定为第一过车线路，根据车辆的多个第一过车线路进行套牌车分析。通过对多个历史过车数据中相邻两个历史过车数据的最短可达路径中经过的监控设备进行分析，划分出车辆的多个过车线路，可以查找出离散的历史过车数据，再根据多个过车线路中历史过车数据的个数大于等于第一阈值，剔除离散的历史过车数据，有效减少了离散分析的偏向性，从而提高了套牌车分析的准确率。
+14. 103715659 车载电源保护电路
+CN
+25.01.2017
+H02H 7/10 Loading...
+H02H 7/10
+Loading...
+102013000695473
+青岛海信网络科技股份有限公司
+杨自华
+H02H 7/10
+Loading...
+本发明公开了一种车载电源保护电路，包括：反接保护电路、过流保护电路，还包括：过压保护电路，其与所述过流保护电路相连，用于接收所述过流保护电路输出的电压，并在接收的电压在下限设定阈值与上限设定阈值之间时输出接收的电压；否则，输出截止；电压转换电路，其与所述过压保护电路相连，用于将所述过压保护电路输出的电压转换为车载终端设备所需的供电电压向所述车载终端设备输送；储能电路，与所述电压转换电路的输入端相连，在所述过压保护电路输出电压时充电，在所述过压保护电路截止输出时向所述电压转换电路放电。应用本发明，可以降低车载终端设备的故障率。
+15. 106356806 一种交通信号机的保护电路
+CN
+25.01.2017
+H02H 3/20 Loading...
+H02H 3/20
+Loading...
+102016000970766
+青岛海信网络科技股份有限公司
+魏霖
+H02H 3/20
+Loading...
+本发明公开了一种交通信号机的保护电路，涉及道路交通信号控制机领域，包括：继电器、电压采集电路、处理电路、控制电路。继电器的输入端与外部电源连接，继电器的输出端与信号机连接，用于控制外部电源给信号机供电。电压采集电路与外部电源连接，用于采集外部电源的电压值。处理电路与电压采集电路连接，用于对电压采集电路采集的电压进行处理并确定出处理后的电平值。控制电路的第一输入端与处理电路连接，第二输入端与继电器的输出端连接，输出端与继电器的使能端连接，控制电路根据处理电路确定出的处理后的电平值和继电器的开关状态的电平值控制继电器的开关，以实现控制外部电源给信号机供电，从而对信号机进行过欠压保护。
+16. 104157147 交通信号机、隧道内交通异常事件的检测控制方法及系统
+CN
+25.01.2017
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+102014000360499
+青岛海信网络科技股份有限公司
+张茂雷
+G08G 1/07
+Loading...
+本发明公开了一种交通信号机、隧道内交通异常事件的检测控制方法和系统，所述方法包括：获取预先布设于城市隧道内至少三个检测断面处各车道中的车辆检测器输出的交通数据；对于每个检测断面，根据获取的交通数据判断该检测断面处是否发生交通异常事件；若判断出有检测断面处发生交通异常事件，则根据发生交通异常事件的检测断面到城市隧道出口的距离，确定城市隧道入口处的交通信号灯的绿信比；根据确定出的绿信比控制交通信号灯进行红绿交替显示；否则，控制交通信号灯为常绿显示。本发明在城市隧道内发生交通异常事件后，可通过对城市隧道入口处的交通信号灯的控制，避免城市隧道内排队过长，保障城市隧道内的行车通畅。
+17. 205864626 一种监控摄像机用安装装置及监控装置
+CN
+04.01.2017
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201620853179.X
+青岛海信网络科技股份有限公司
+赵洪源
+H04N 7/18
+Loading...
+本实用新型提供了一种监控摄像机用安装装置及监控装置，该监控摄像机用安装装置包括杆体、悬臂以及监控设备箱，悬臂连接在杆体的上部，用于安装监控摄像机，监控设备箱内安装有用于控制监控摄像机的工作状态的控制装置，杆体的下部设有报警按钮以及对讲终端，当触发报警按钮后，对讲终端接通报警指挥中心。监控装置则包括监控摄像机以及上述的安装装置。本实用新型提供的安装装置，其中的杆体一杆多用，不仅用于安装监控摄像机，还具有即时报警、即时与报警指挥中心联系的功能。
+18. 106251628 一种确定机动车的交通出行量的方法及装置
+CN
+21.12.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201610825904.7
+青岛海信网络科技股份有限公司
+穆尚涛
+G08G 1/01
+Loading...
+本发明公开了一种确定机动车的交通出行量的方法及装置，该方法包括获取设定时间内的机动车的出行数据，依据交通小区的编号信息以及第一类机动车的出行数据，确定出第一类机动车的出行数据对应的交通出行量以及第一类机动车的出行数据的起点所属交通小区的编号、终点所属交通小区的编号，依据交通小区的编号信息以及第二类机动车的出行数据，确定第二类机动车的出行数据对应的交通出行量以及第二类机动车的出行数据的起点所属交通小区的编号、终点所属交通小区的编号，从而确定机动车的交通出行量。通过获取准确的第一类机动车的出行数据，而不使用第一类机动车从交通监控系统得到的过车数据，可以提高估算机动车的交通出行量的准确率。
+19. 106156520 一种城市轨道交通拓扑着色方法及装置
+CN
+23.11.2016
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+102016000595087
+青岛海信网络科技股份有限公司
+王永磊
+G06F 19/00
+Loading...
+本发明公开了一种城市轨道交通拓扑着色方法及装置，该方法包括获取本车站设备的设备状态，在开关设备状态发生变化时，根据发生变化的开关设备状态，将本车站的拓扑连接关系图中的多个拓扑连接关系子图进行重新划分，根据设备状态中的电源设备状态，对重新划分的多个拓扑连接关系子图进行带电分析，确定重新划分的多个拓扑连接关系子图的带电状态，将重新划分的多个拓扑连接关系子图的带电状态发送至城市轨道交通控制中心，以使城市轨道交通控制中心根据电压等级对应的颜色进行拓扑着色。通过发送变化的开关设备状态重新划分多个拓扑连接关系子图，提高了拓扑计算的执行效率和准确率，确保了多个拓扑连接关系子图的显示一致性。
+20. 106097730 一种路段车辆排队长度的估计方法、装置及系统
+CN
+09.11.2016
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201610652009.X
+青岛海信网络科技股份有限公司
+刘海青
+G08G 1/065
+Loading...
+本发明公开了一种路段车辆排队长度的估计方法、装置及系统。本发明方法包括：获取信号周期内路段的车流量、以及路段上智能车辆上报的车辆行驶状态信息；根据车流量，确定路段在信号周期内所达到的最大排队长度以及达到该最大排队长度的第一时刻；根据智能车辆上报的车辆行驶状态信息，确定信号周期内智能车辆在路段上的N个停车时刻以及路段在该N个停车时刻对应的排队长度；根据路段在该N个停车时刻对应的排队长度，以及路段在第一时刻对应的最大排队长度，确定路段在信号周期内的不同时刻对应的排队长度。本发明能够提高路段车辆排队长度估计的准确性。
+21. 205669213 一种箱式线缆井
+CN
+02.11.2016
+E02D 29/12 Loading...
+E02D 29/12
+Loading...
+201620576301.3
+青岛海信网络科技股份有限公司
+赵洪源
+E02D 29/12
+Loading...
+本实用新型提供了一种箱式线缆井，包括箱体、井盖框架以及井盖。所述箱体包括周围侧板和底板，至少两个所述侧板开设有走线孔，所述底板开设有渗水孔；所述井盖框架设置在箱体的顶部所形成的开口上；所述井盖设置在所述井盖框架上，用于遮盖所述开口。本实用新型提供的箱式线缆井不仅可实现管道窖井的批量化制造，还能解决现有管道窖井在建造时存在的工序多、周期长以及人力耗费严重的问题。
+22. 106028291 一种公交车报站方法及装置
+CN
+12.10.2016
+H04W 4/04 Loading...
+H04W 4/04
+Loading...
+102016000591698
+青岛海信网络科技股份有限公司
+牛继云
+H04W 4/04
+Loading...
+本发明公开了一种公交车报站方法及装置，该方法包括获取公交路线上的待驶入站点的站点信息，确定所述待驶入站点的站点信息中是否包括所述待驶入站点对应的站间距，若是，则获取公交车距离当前站点的里程，在所述待驶入站点对应的站间距与所述公交车距离当前站点的里程的差值小于第一阈值时，播放所述待驶入站点的入站语音文件。通过判断出待驶入站点中的站点信息中包含有待驶入站点对应的站间距，表明该待驶入站点为位于卫星定位盲区的站点，因此通过确定该待驶入站点的站间距与公交车距离当前站点的里程的差值小于第一阈值时，为公交车报站，解决了卫星信号盲区下的不自动报站或自动报站不准确问题。
+23. 104354723 一种轨道交通综合监控方法及系统
+CN
+28.09.2016
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+102014000527994
+青岛海信网络科技股份有限公司
+廖常斌
+B61L 27/00
+Loading...
+本发明涉及轨道交通领域，尤其涉及一种轨道交通综合监控方法及系统。首先，设置有备用的中心数据处理单元的车站子系统对中心控制子系统中的中心数据处理单元的可用状态进行检测，并当检测到所述中心控制子系统中的中心数据处理单元的不可用时；然后，将本车站子系统中设置的备用的中心数据处理单元设置为主用的中心数据处理单元。可以看出，只要在车站子系统中设置一个备用的中心数据处理单元即可实现独立的备用中心控制子系统所具有的功能，而不需要增加额外的场地以及硬件投资，从而能够降低轨道交通的建设成本。
+24. 205584655 一种户外挂箱
+CN
+14.09.2016
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201620422574.2
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 5/00
+Loading...
+本实用新型公开了一种户外挂箱，包括壳体，在所述壳体内部安装有控制单元，所述壳体包括前壳和后壳，在所述前壳的内侧设置有一圈开口朝向所述后壳的U形防水槽，在所述防水槽内设置有密封条；所述前壳和后壳铰接，所述前壳和后壳扣合后，所述密封条抵接所述后壳侧壁的前端面。本实用新型的户外挂箱，通过在前壳内侧设置有一圈防水槽，在防水槽内设置有密封条，密封条的一端抵接防水槽的槽底，另一端抵接后壳侧壁的前端面，从而避免雨水和灰尘进入壳体内部，具有较好的防雨防尘效果，提高了壳体内部的控制单元等设备的安全性，避免因雨水或灰尘侵蚀导致的安全事故的发生。
+25. 205584679 一种无线地磁检测器防水外壳及无线地磁检测器
+CN
+14.09.2016
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+202016000419985
+青岛海信网络科技股份有限公司
+冯飞
+H05K 5/06
+Loading...
+本实用新型公开了一种无线地磁检测器防水外壳及无线地磁检测器，无线地磁检测器防水外壳包括上壳、下壳和第一密封件，所述下壳包括壳壁，壳壁的上端为环形台阶结构，环形台阶结构包括低台阶、高台阶以及连接低台阶和高台阶的竖直部分，高台阶顶端内侧为倒角结构；所述上壳包括外沿和内沿，所述第一密封件位于所述内沿的外边缘；所述上壳和所述下壳连接时，所述第一密封件被挤入所述倒角结构中。所述无线地磁检测器防水外壳的密封性好，防水效果好。所述无线地磁检测器因为采用了如上所述的无线地磁检测器防水外壳，因此，外界水和水汽很难进入所述无线地磁检测器内部，延长了所述无线地磁检测器的使用寿命。
+26. 205540449 一种车载终端
+CN
+31.08.2016
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201620294277.4
+青岛海信网络科技股份有限公司
+张希
+G06F 1/16
+Loading...
+本实用新型公开了一种车载终端，包括主机、显示屏、按键盒；所述主机与显示屏一体式结构设计，所述主机控制显示屏的运行；所述按键盒包括多个控制按键，所述多个控制按键生成的按键信号分别发送至主机。本实用新型的车载终端，由于按键盒独立设计，体积较小，便于安装，可安装在距离司机较近的地方，如方向盘下方等，既不影响司机的正常驾驶行为，又便于司机操作按键盒上的控制按键，从而控制主机和显示屏的运行；主机和显示屏一体式结构设计，简化了主机与显示屏的布线，减小了体积，减小了安装空间，便于安装和维护，可安装在距离司机稍远的位置，既不影响司机的正常驾驶行为，又便于司机查看显示屏。
+27. 105868861 一种基于时空数据融合的公交客流演化分析方法
+CN
+17.08.2016
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201610217959.X
+青岛海信网络科技股份有限公司
+周钊
+G06Q 10/04
+Loading...
+本发明公开了一种基于时空数据融合的公交客流演化分析方法，包括以下步骤：（1）、历史时空数据预处理步骤，（2）、计算出行下车概率，（3）、公交客流时空演化分析步骤，（4）、多尺度客流时空分布特征分析步骤，根据所获取的时空网络，以及相应的时空网络弧段的流量，绘制公交时空分布特征图。本发明的分析方法，1、基于大量历史时空数据统计得到出行下车概率，精度较高，方案简单实用，求解效率高，可快速求解整个城市公交系统相关运行指标。2、具有良好的实时性。基于已计算和存储的出行下车概率，可结合公交上车客流实时计算站点OD，进而可实时动态反映线路客流的时空演化规律。
+28. 205451507 一种信号机
+CN
+10.08.2016
+G08G 1/095 Loading...
+G08G 1/095
+Loading...
+201521076829.6
+青岛海信网络科技股份有限公司
+衣佳攭
+G08G 1/095
+Loading...
+本实用新型公开了一种信号机，包括用于与多条信号灯链路连接的接线端子，每条信号灯链路分别连接有一组信号灯，每条信号灯链路包括三根火线以及一根零线，还包括漏电检测单元，漏电检测单元与信号灯链路一一对应设置，所述漏电检测单元检测信号灯链路的各火线流入电流和零线流出电流的电流矢量和，所述漏电检测单元连接有放大电路，所述放大电路将所述的电流矢量和进行放大处理，并转换为电压信号，发送至A/D转换电路，由所述A/D转换电路进行采样后发送至主控单元，本信号机通过检测信号灯链路的各火线流入电流和零线流出电流的电流矢量和，即可检测到漏电，检测精度高，有利于提前预防，排查故障，杜绝可能的安全隐患。
+29. 105825675 一种基于大数据的路段旅行时间计算方法和装置
+CN
+03.08.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102016000326378
+青岛海信网络科技股份有限公司
+吕建辉
+G08G 1/01
+Loading...
+本发明实施例涉及智能交通领域，尤其涉及一种基于大数据的路段旅行时间计算方法和装置。在获取第m周期内通过i路段的每辆车辆所花费的单车时间后，根据各车辆的单车时间，确定i路段在第m周期内的初步旅行时间值，需要进一步根据各车辆的单车时间和初步旅行时间值，确定异常车辆，最后根据排除异常车辆后的车辆的单车时间，确定i路段在所述第m周期的路段旅行时间值，因此能够保证数据的质量，从而能够实现根据采集的交通流信息，基于大数据技术准确的计算出路段旅行时间，同时还可提供实时交通信息服务，为交通管理者进行交通组织优化、拥堵治理提供决策依据，提高交通管理水平。
+30. 105701156 一种分布式文件系统管理方法及装置
+CN
+22.06.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201511022393.7
+青岛海信网络科技股份有限公司
+王鑫义
+G06F 17/30
+Loading...
+本发明公开了一种分布式文件系统管理方法及装置，该方法包括元数据管理器接收FTP服务器发送的文件存储指令，然后校验目录路径信息是否已存储，若未存储，则将待存储的文件发送至FastDFS中进行持久化存储，接收FastDFS发送的文件存储信息，建立文件存储信息与目录路径信息的对应关系，生成待存储的文件的元数据，并将待存储的文件的元数据进行缓存。FTP服务器通过与元数据管理器的交互，将文件存储在FastDFS中，并通过文件的元数据查找到文件存储在FastDFS中的存储信息，以使FTP服务器根据该存储信息从FastDFS中访问已经存储的文件，提高FTP服务器的存储稳定性和降低FTP服务器维护的成本。
+31. 104318790 一种交通信号灯配置方法及装置
+CN
+15.06.2016
+G08G 1/08 Loading...
+G08G 1/08
+Loading...
+201410559203.4
+青岛海信网络科技股份有限公司
+李瑾
+G08G 1/08
+Loading...
+本发明涉及交通控制技术领域，本发明实施例提供一种交通信号灯配置方法及装置，根据本发明实施例提供的方法，实现了自动生成的多时段交通信号灯配置，能够大量减少道路交叉口在进行交通信号灯配置时人员和时间的投入，同时，可以为交通信号灯配置人员提供较优的方案做参考，如果再需要精调，只需在此方案基础上精调，无需投入大量时间进行调研，大大降低交通信号灯配置的费用以及配置难度。
+32. 105630483 一种组态图元的显示方法及装置
+CN
+01.06.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201510944881.7
+青岛海信网络科技股份有限公司
+赵玉伦
+G06F 9/44
+Loading...
+本发明实施例公开了一种组态图元的显示方法及装置。本发明实施例中，获取待显示对象的文件，确定待显示对象的文件的存储格式不是标识存储格式的情况下，针对待显示对象的每个图元，通过解释器将每个图元转换为数据仓库中的属性数据，通过运算器将数据仓库中的属性数据转换为图形绘制数据，进而根据各个图元的图形绘制数据，通过图形渲染器绘制待显示对象的图形形状并显示。其中，标识存储格式可以为不需要经过上述转换便可直接将文件显示出来的存储格式。本发明实施例通过采用数据仓库、运算器以及图形渲染器，进而将不是标识存储格式的文件显示出来，从而克服了组态画面资源不兼容的问题，并有效地整合了系统资源。
+33. 105631411 一种基于视频分析的公交车拥挤度计算方法
+CN
+01.06.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201510974637.5
+青岛海信网络科技股份有限公司
+裴凯
+G06K 9/00
+Loading...
+本发明公开了一种基于视频分析的公交车拥挤度计算方法，包括以下步骤：（1）、获取公交车内监控视频图像信息；（2）、采用帧间差法检测车厢中后部的覆盖区域，统计车厢中后部的覆盖区域占车厢中后部的比例；（3）、采用梯度法检测车厢前部的覆盖区域，统计车厢前部的覆盖区域占车厢前部的比例；（4）、根据车厢中后部的覆盖区域占车厢中后部的比例和车厢前部的覆盖区域占车厢前部的比例判断公交车拥挤度。本发明的基于视频分析的公交车拥挤度计算方法，通过对图像分析得出公交车拥挤程度，更加接近实际拥挤程度，采用纯视频分析，节省生产和实施成本；对检测区域进行小区域划分，使结果更合理化。
+34. 105608894 一种确定突发性拥堵状态的方法及装置
+CN
+25.05.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201610112029.8
+青岛海信网络科技股份有限公司
+高林
+G08G 1/01
+Loading...
+本发明实施例公开了一种确定突发性拥堵状态的方法及装置。本发明实施例中，获取待测时间段在第N统计周期内所对应的交通状态，确定交通状态为拥堵状态后，根据待测时间段在前N-1个统计周期内所对应的N-1组交通流参数以及待测时间段的相邻时间段在第N统计周期内所对应的交通流参数，确定待测时间段在第N统计周期内是否处于突发性拥堵状态。本发明实施例在确定突发性拥堵状态时，综合考虑了待测时间段的交通状态、历史统计信息以及待测时间段的相邻时间段的交通流参数，依据较为全面，为从多维度确定突发性拥堵状态提供了技术依据，保证确定突发性拥堵状态的准确性。且能够及时识别突发性拥堵，提高交通资源的使用效率。
+35. 105551262 一种基于无线地磁检测器的车辆检测的方法及装置
+CN
+04.05.2016
+G08G 1/042 Loading...
+G08G 1/042
+Loading...
+201510980777.3
+青岛海信网络科技股份有限公司
+高树静
+G08G 1/042
+Loading...
+本发明公开了一种基于无线地磁检测器的车辆检测方法及装置，解决了现有技术中中继器能量消耗大的问题。所述方法包括：传输设备在工作周期开始时接收时间同步信号，根据所述时间同步信息进行时间同步；所述传输设备在工作周期中向控制设备发送车辆检测信息，以使所述控制设备在接收所述车辆检测信息后对所述车辆检测信息进行处理；其中，所述时间同步信号是附近其他传输设备转发收到的时间同步信号或由所述控制设备发送的时间同步信号。
+36. 105469603 一种交通拥堵源头分析方法及装置
+CN
+06.04.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201511025476.1
+青岛海信网络科技股份有限公司
+许光伟
+G08G 1/01
+Loading...
+本发明公开了一种交通拥堵源头分析方法及装置，包括获取拥堵路段的N个上游路段的历史交通数据，将上游路段的历史交通数据按照采样周期进行划分，得到每个采样周期的历史交通状态，得到上游路段的交通状态向量，确定上游路段的采样周期调整策略，调整上游路段的采样周期，得到调整后的上游路段的交通状态向量，根据关联规则挖掘算法对调整后的N个上游路段的交通状态向量组成的集合进行拥堵频度分析，确定出拥堵路段的拥堵源头。通过对拥堵路段的上游路段的历史交通数据的处理，将历史交通数据离散化，根据关联规则挖掘算法对离散化的数据进行拥堵频度分析，可以自动的分析出拥堵路段的拥堵源头，解决了只能依靠人工经验查找交通源头的问题。
+37. 105448117 一种信号机及信号灯链路漏电检测方法
+CN
+30.03.2016
+G08G 1/095 Loading...
+G08G 1/095
+Loading...
+201510970348.8
+青岛海信网络科技股份有限公司
+衣佳政
+G08G 1/095
+Loading...
+本发明公开了一种信号机及信号灯链路漏电检测方法，包括用于与多条信号灯链路连接的接线端子，每条信号灯链路分别连接有一组信号灯，每条信号灯链路包括三根火线以及一根零线，还包括漏电检测单元，漏电检测单元与信号灯链路一一对应设置，所述漏电检测单元检测信号灯链路的各火线流入电流和零线流出电流的电流矢量和，所述漏电检测单元连接有放大电路，所述放大电路将所述的电流矢量和进行放大处理，并转换为电压信号，发送至A/D转换电路，由所述A/D转换电路进行采样后发送至主控单元，本信号机通过检测信号灯链路的各火线流入电流和零线流出电流的电流矢量和，即可检测到漏电，检测精度高，有利于提前预防，排查故障，杜绝可能的安全隐患。
+38. 105427647 一种区别车辆转向的路径分配方法及装置
+CN
+23.03.2016
+G08G 1/0968 Loading...
+G08G 1/0968
+Loading...
+201510995985.0
+青岛海信网络科技股份有限公司
+梁红梅
+G08G 1/0968
+Loading...
+本发明公开了一种区别车辆转向的路径分配方法及装置，包括：在抽象路网拓扑图中确定起始节点以及终止节点；针对所述抽象路网拓扑图中的任意一个由两个相邻节点构成的有向弧段，将所述有向弧段的代价因子与所述有向弧段的预测行程时间之和确定为所述有向弧段的动态阻抗；其中，所述有向弧段的代价因子由所述有向弧段的一级节点与所述终止节点之间的距离以及速度阈值确定；所述有向弧段的预测行程时间为根据前M天采集到的所述有向弧段的行程时间以及当天采集到的所述有向弧段的行程时间确定的；将所述起始节点至所述终止节点的所有可能的路径中路径阻抗最小的路径确定为所述起始节点至所述终止节点之间的最优路径。
+39. 105430384 一种视频质量诊断方法和系统
+CN
+23.03.2016
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201510910276.8
+青岛海信网络科技股份有限公司
+王彬
+H04N 17/00
+Loading...
+本发明公开了一种视频质量诊断方法和系统，方法为：获取视频数据；对获取的视频数据进行抽帧，抽取多幅图像，将抽取的多幅图像转换成YUV格式；分别对多幅YUV格式的图像的各项指标进行检测，根据图像检测结果判定当前视频质量，并输出视频质量诊断结果；其中，各项指标包括图像信号丢失、图像模糊、图像灰度异常、图像过亮过暗、图像遮挡、图像偏色、增益紊乱、画面冻结中的一种或几种。本发明视频质量诊断方法将对视频的分析转化成对有限图像的综合评定，能够在短时间内对一段较长时间的视频流进行分析，诊断有无视频质量异常。本发明异常视频检测正确率不低于85%，漏报率小于10%；在Intel？E3-1230？V2的CPU下，轮询800路视频耗时40分钟，检测效率提高了20%。
+40. 105427594 一种基于双向上车客流的公交断面客流量获取方法及系统
+CN
+23.03.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510821045.X
+青岛海信网络科技股份有限公司
+周钊
+G08G 1/01
+Loading...
+本发明公开了一种基于双向上车客流的公交断面客流量获取方法，包括以下步骤：（1）、站点信息预处理；（2）、对各站点的历史上车客流分别进行统计；（3）、计算出行下车概率；（4）、实时计算各站点的交通出行量，根据公交IC卡和GPS报站信息，实时计算上下行各方向的实时站点的交通出行量；（5）、根据所述上下行各方向的实时站点的交通出行量计算线路断面需求信息。本发明的基于双向上车客流的公交断面客流量获取方法，基于双向上车客流首先计算出旅客的出行下车概率，基于历史上车客流数据，可以预先计算并存储，可直接调用出行下车概率对计算时期上车流量计算交通出行量，方案简单实用，求解效率高，同时具有良好的实时性。
+41. 205105495 一种穿线模块及机柜
+CN
+23.03.2016
+H05K 7/02 Loading...
+H05K 7/02
+Loading...
+201520874886.2
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 7/02
+Loading...
+本实用新型公开了一种穿线模块及机柜，所述穿线模块包括由弹性材料制成的穿线板，在所述穿线板的一侧开设有多个用于安装线缆的穿线缝，多个穿线缝间隔布设。本实用新型的穿线模块在穿线板一侧开设多个穿线缝，便于线缆从侧面推入穿线缝，便于线缆的安装、维护和更换，提高了工作效率；且由于穿线板由弹性材料制成，具有回弹力，密封防护效果好；且加工方便，成本较低，降低了密封防护成本。将穿线模块应用在机柜上，提高了线缆的安装、维护和更换效率，提高了机柜的防尘能力，降低了机柜的防尘成本。
+42. 105405293 一种道路旅行时间短期预测方法和系统
+CN
+16.03.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510980309.6
+青岛海信网络科技股份有限公司
+尹纪军
+G08G 1/01
+Loading...
+本发明公开了一种道路旅行时间短期预测方法和系统，预测方法为利用当前采样周期计算的实际旅行时间值、历史采样周期的历史旅行时间值与平滑系数的关系确定道路旅行时间短期预测值，能够准确预测未来一段时间之内车辆通过通行区间的旅行时间。本发明可以通过现有的电子警察、交通卡口、电子车牌等多种设备实现车辆信息的实时采集，预测旅行时间数据根据历史规律和当前实时数据综合得出，具有变化平稳、波动性小的特点，能够很好的描述历史交通状态变化特性和实时趋势。本发明预测准确度高，20分钟内短期预测准确度高达90%，而且算法简单、便于实现，运算速度快，不涉及其他趋势等变量，简化了系统复杂度，便于在工程中灵活使用。
+43. 105389987 一种道路交通状况预测方法及装置
+CN
+09.03.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510889408.3
+青岛海信网络科技股份有限公司
+王栋梁
+G08G 1/01
+Loading...
+本发明公开了一种道路交通状况预测方法及装置，主要内容包括：通过对确定的用于预测道路交通状况的交通流数据进行筛选、补偿，以保证交通流数据的有效性、合理性，提高后续预测交通状况的准确性；并通过时间、空间两个方面对任一道路断面的交通状况进行预测，确定表征道路断面交通状况的拥堵指标。由于考虑的是基于当前时刻之前15分钟内相应采集周期的交通流数据，因此，其预测的实时性、准确性相对较高；而且所涉及的算法复杂度较低，仅利用时间占有率和车辆速度以及预设阈值就可以确定每个道路断面的拥堵指标，很好的实现了短时单点预测，且提高了准确度。进而，便于对即将发生的交通拥堵进行预治理、疏导，以及避开即将发生的交通拥堵道路。
+44. 105336167 一种常态交通状态评价方法和装置
+CN
+17.02.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510848798.X
+青岛海信网络科技股份有限公司
+高林
+G08G 1/01
+Loading...
+本发明实施例涉及智能交通领域，尤其涉及一种常态交通状态评价方法和装置，用以确定路段的常态交通状态等级。本发明实施例中，获取每个时间段在N个统计周期内所对应的N个即时交通状态等级；N个即时交通状态等级中的每个即时交通状态等级为预设的M个交通状态等级中的一个，N和M为大于1的整数；针对N个统计周期内的每个时间段，执行：在该时间段的N个即时交通状态等级中，确定出该预设的M个交通状态等级中每个交通状态等级在N个即时交通状态等级中所存在的数量；若待确定交通状态等级在N个即时交通状态等级中所存在的数量满足第一条件，则确定待评价路段在该时间段对应的常态交通状态等级为待确定交通状态等级。
+45. 105336169 一种基于视频判断交通拥堵的方法和系统
+CN
+17.02.2016
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510904467.3
+青岛海信网络科技股份有限公司
+魏楠楠
+G08G 1/01
+Loading...
+本发明公开了一种基于视频判断交通拥堵的方法和系统，对视频定时抽取图像，并对每帧图像提取特征点，利用特征点的位移差计算车速，并可以根据特征点计算排队长度，通过车速、排队长度与设定阈值的关系判断交通拥堵情况。由于特征点在任意情况下都能提取，不受运动物体的影响，不受环境干扰，例如，在阴影,雨天,黄昏,各种环境对特征点的数目、特征点的定位都没有影响，本发明交通拥堵判断的准确性大大提高。而且本发明还可以通过控制特征点的数目来控制程序的耗时,一般情况下，使用特征点检测可以比背景前景的方法减少一半的耗时。因而，本发明判断交通拥堵的方法的即时性、实时性和准确率都大大提高。
+46. 105336183 一种基于路段通行能力的交通拥堵控制方法及装置
+CN
+17.02.2016
+G08G 1/08 Loading...
+G08G 1/08
+Loading...
+201510701600.5
+青岛海信网络科技股份有限公司
+梁红梅
+G08G 1/08
+Loading...
+本发明公开了一种基于路段通行能力的交通拥堵控制方法及装置，包括：根据路段的存车能力以及所述路段的周期来车数确定路段的路段类型；若确定路段的路段类型为短路段，则对路段的上游路口和下游路口的通行能力进行预匹配，并在确定路段的上下游通行能力不匹配时，根据路段下游路口的通行能力调整所述路段的上游路口的每个相位的绿灯时长，调整后的路段的上游路口的通行能力与路段的下游路口的通行能力相匹配；若确定所述路段的路段类型为长路段，则确定路段的排队长度，并在确定排队长度大于阈值时，根据路段下游路口的通行能力调整路段的上游路口的每个相位的绿灯时长；根据调整后的绿灯时长控制路段的上游路口的每个相位的交通。
+47. 105302670 一种采用多机冗余方式对车站进行监控的方法及装置
+CN
+03.02.2016
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201510741031.7
+青岛海信网络科技股份有限公司
+张雪庆
+G06F 11/14
+Loading...
+本发明实施例公开了一种采用多机冗余方式对车站进行监控的方法及装置，该方法应用于轨道交通监控系统，该方法包括：第一数据处理单元获取将第一数据处理单元作为备用数据处理单元的N个车站的数据信息；第一数据处理单元确定第二车站系统的车站数据处理单元处于非主用状态的情况下，将第一数据处理单元更新为第二车站的主用数据处理单元，并根据第二车站的数据信息，对第二车站进行监控。本发明实施例通过在一个数据处理单元中部署多个车站的数据信息，在无需大量追加硬件投入的基础上，实现了多机冗余的效果，有效提高系统的整体可靠性。
+48. 105243868 一种公交车辆到站时间预测方法及装置
+CN
+13.01.2016
+G08G 1/123 Loading...
+G08G 1/123
+Loading...
+201510732068.3
+青岛海信网络科技股份有限公司
+刘刚
+G08G 1/123
+Loading...
+本发明公开了一种公交车辆到站时间预测方法及装置，包括：获取待预测车辆到达运行线路上的M个站点的到站时间并确定待预测车辆的M个站点中的每两个相邻站点间的到站时间差；获取历史数据中与待预测车辆同一运行线路的N个车次的到站时间记录，并确定N个车次的M个站点中的每两个相邻站点间的到站时间差；根据待预测车辆的M个站点中的每两个相邻站点间的到站时间差和N个车次的M个站点中的每两个相邻站点间的到站时间差，确定与待预测车辆运行规律相似的车次的到站时间记录；根据与待预测车辆运行规律相似的车次的到站时间记录，确定待预测车辆到达运行线路上第P站点的到站时间，可以准确预测公交车辆未到达站点的到站时间。
+49. 105225500 一种交通控制辅助决策方法及装置
+CN
+06.01.2016
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201510518969.2
+青岛海信网络科技股份有限公司
+刘海青
+G08G 1/07
+Loading...
+本发明提供一种交通控制辅助决策方法及装置，包括：获取路段的路段交通数据；根据所述路段交通数据确定路段的拥堵信息和/或交通事故信息，所述拥堵信息包括路段的交通状态、拥堵状态分布类型，所述交通事故信息包括交通事故影响等级；根据所述路段的拥堵信息和/或所述交通事故影响等级确定交通控制辅助决策预案。
+50. 204945404 一种无线中继接收器
+CN
+06.01.2016
+G01V 3/40 Loading...
+G01V 3/40
+Loading...
+201520675221.9
+青岛海信网络科技股份有限公司
+冯飞
+G01V 3/40
+Loading...
+本实用新型提供了一种无线中继接收器，包括壳体、以及位于壳体内的PCB板和电池组，所述壳体具有相互扣合密封的上壳体和下壳体，所述上壳体和下壳体的后端相互铰接，所述上壳体和下壳体的前端设置有相互匹配的卡合固定结构。通过设置所述上壳体和下壳体的后端相互铰接，所述上壳体和下壳体的前端设置有相互匹配的卡合固定结构，使得在无线中继接收器在生产装配时，将PCB板和电池组安装到壳体内后，将上壳体旋转扣合在下壳体上，并通过卡合固定结构将上、下壳体卡合固定就可，避免了上下壳体之间通过多个螺钉固定，使得装配简单、效率高，降低了生产成本。
+51. 105185148 一种公交调度方法、装置及系统
+CN
+23.12.2015
+G08G 1/123 Loading...
+G08G 1/123
+Loading...
+201510640457.3
+青岛海信网络科技股份有限公司
+李坤鹏
+G08G 1/123
+Loading...
+本发明公开了一种公交调度的方法、装置及系统，方法包括：按照参与联合行车调度的车次到达交接站点的原始到达时间的先后顺序，对参与联合行车调度的车次进行排序，得到待调整车次列表；根据设定的到达交接站点的目标时间间隔，以及参与联合行车调度的车次到达交接站点的原始到达时间，确定待调整车次列表中的参与联合行车调度的车次到达交接站点的目标到达时间和目标发车时间，使得参与联合行车调度的车次到达交接站点的目标到达时间的时间间隔相同，可实现共有路段上同一方向运行的车辆间隔均匀，减少了部分乘客在共有路段的共有站点的平均候车时间，可有效减少多辆公交车同时进站造成的不安全和交通拥堵，提高乘客安全以及道路通行能力。
+52. 105160881 一种交通监测系统及其方法
+CN
+16.12.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201510624303.5
+青岛海信网络科技股份有限公司
+许晶玉
+G08G 1/01
+Loading...
+本发明公开了一种交通监测系统及其方法，包括：至少一个监测子系统，数据接口模块和业务应用模块。其中，数据接口模块，分别与各监测子系统连接，用于接收各监测子系统发送的交通信息。业务应用模块，用于接收监测指令，并根据监测指令中的监测对象获取监测对象对应的监测子系统的交通信息并根据监测对象对应的监测子系统的交通信息生成第一交通数据。可以看出，可首先通过数据接口模块接收各监测子系统发送的交通信息，然后业务应用模块根据监测指令将获取的监测对象对应的监测子系统的交通信息生成第一交通数据，因此能够对多个监测子系统所监测到的交通信息进行集成、提炼以及融合，从而能够获得综合的交通运输运行信息。
+53. 105120426 一种寻车方法及装置
+CN
+02.12.2015
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201510419914.6
+青岛海信网络科技股份有限公司
+马飞
+H04W 4/02
+Loading...
+本发明实施例公开了一种寻车方法及装置。本发明实施例中，服务器通过接收终端发送的寻车请求消息，根据终端标识获取与终端对应的待定位车辆的停放位置，由于待定位车辆的停放位置是服务器根据接收到的接入点上报的终端的信号强度信息以及接入点的位置信息得到的，从而使得在确定待定位车辆的停放位置过程中，用户无需在终端上进行特殊的设置，比如与接入点建立网络连接与服务器进行通信，既可实现服务器侧主动定位，又节省了终端的资源消耗；服务器根据待定位车辆的停放位置以及终端当前的位置信息，得到终端到待定位车辆的路径信息，并发送给终端，使得用户根据路径信息快速准确地找到待定位车辆。
+54. 105101082 一种定位方法与装置
+CN
+25.11.2015
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201510413565.7
+青岛海信网络科技股份有限公司
+陈晨
+H04W 4/02
+Loading...
+本发明实施例涉及通信技术领域，尤其涉及一种定位方法与装置，用于实现人员的室内定位。本发明实施例中，根据接收到的待定位终端的K个信号强度信息和待定位终端的K个信号强度信息对应的K个接入点的位置信息，确定出待定位终端在第一时刻对应的初始位置信息，从而实现了室内的人员定位的目的，进一步根据待定位终端标识，获取待定位终端在第一时刻之前的N个时刻的位置信息，将待定位终端在第一时刻的初始位置信息和待定位终端在第一时刻之前的N个时刻的位置信息进行加权相加，得到待定位终端在第一时刻的位置信息，如此，则对该待定位终端在第一时刻的初始位置信息进行了优化，进一步提高了对室内人员定位的准确度。
+55. 104994311 电子警察装置自动调整补光方法
+CN
+21.10.2015
+H04N 5/243 Loading...
+H04N 5/243
+Loading...
+201510331870.1
+青岛海信网络科技股份有限公司
+郝旭宁
+H04N 5/243
+Loading...
+本发明公开了一种电子警察装置自动调整补光方法，包括以下步骤：（1）、计算当前图像亮度L；（2）、判断当前图像亮度L是否满足图像处理要求，若不满足，则执行步骤（3）；（3）、分析当前图像亮度情况，若亮度过高，则执行降低补光亮度步骤，若亮度过低，则执行增加补光亮度步骤；本发明的补光方法，根据图像亮度情况，分别增加或者降低亮度直接调整补光亮度，实现了补光亮度的粗调，当亮度满足处理要求后，再通过减小补光灯的脉宽方式，在不影响图像亮度的前提下尽量降低补光灯电能的浪费，实时对电子警察装置采集的图像进行亮度分析，动态跟踪光线的变化进行调整，适合各种天气情况下的图像采集，满足所采集图像符合处理要求。
+56. 204719244 一种地磁检测系统
+CN
+21.10.2015
+G01V 3/40 Loading...
+G01V 3/40
+Loading...
+201520423165.X
+青岛海信网络科技股份有限公司
+高树静
+G01V 3/40
+Loading...
+本实用新型公开了一种地磁检测系统，包括接入点装置、中继器、多个地磁检测器，所述中继器包括第一处理单元、射频开关、内置天线、外置天线，所述内置天线和外置天线分别通过所述射频开关连接所述第一处理单元，所述内置天线接收所述地磁检测器发送的信号，所述外置天线向所述接入点装置发送信号。本实用新型的地磁检测系统通过在中继器中设置内置天线和外置天线，既能覆盖了较多的地磁检测器，又能与接入点装置有较远的通信距离，从而降低了中继器安装位置和方向的选择难度。
+57. 104494653 一种轨道交通综合监控系统
+CN
+08.04.2015
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201410805065.3
+青岛海信网络科技股份有限公司
+万思军
+B61L 27/00
+Loading...
+本发明公开了一种轨道交通综合监控系统，包括：综合监控维护管理工作站、配置与部署服务器、综合监控调度工作站、综合监控服务器、乘客信息播放控制器和综合监控前置机；综合监控维护管理工作站设置系统配置信息并通过配置与部署服务器下发给各个设备；综合监控调度工作站根据输入的操作指令产生系统内部的业务数据；综合监控服务器对业务数据进行汇总并存储到实时数据库中，将业务数据转发给乘客信息播放控制器；乘客信息播放控制器显示所接收的数据；综合监控前置机采集系统外部业务数据，与系统内各种被监控设备或外部系统进行通信，对所接收的数据进行协议转换。使用上述系统，可节约成本，提高控制响应速度，方便进行信息共享和联动控制。
+58. 204242395 一种具备视频分析功能的一体化智能车载终端
+CN
+01.04.2015
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201420702019.6
+青岛海信网络科技股份有限公司
+吴风炎
+G08G 1/00
+Loading...
+本实用新型涉及一种具备视频分析功能的一体化智能车载终端，包括主控模块、模拟摄像机、拾音器、数字摄像机、彩色触摸液晶屏、卫星定位模块、无线通信模块、硬盘以及电源模块。根据本实用新型的具备视频分析功能的一体化智能车载终端，将车载设备调度业务和音视频监控集成到一个设备中，使车载设备调度业务和音视频监控一体化，安装空间小、便于维修；通过对模拟摄像机和数字摄像机所采集的数据的处理，能够进行车厢拥挤度分析、违章车辆抓拍以及车牌识别，便于车辆智能调度、安全监控和乘客信息服务，实现智能车辆调配、线网优化和违章车辆处罚。
+59. 104392607 Method and device for identifying traffic conditions
+CN
+04.03.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201410659333.5
+青岛海信网络科技股份有限公司
+张茂雷
+G08G 1/01
+Loading...
+The invention relates to the traffic control field and provides a method and a device for identifying traffic conditions in one embodiment. The method comprises the following steps: the traffic data comprising at least vehicle signs and vehicle passing time at a first intersection and a second intersection are obtained, wherein the second intersection is adjacent to the first intersection, the average speed of vehicles passing through the first intersection from the second intersection within a preset period is determined according to the vehicle signs and the vehicle passing time, next, the maximum parking times of vehicles from the second intersection to the first intersection within the preset period are determined, and the length of a vehicle queue is determined according to the maximum parking times; the traffic conditions of the road segment from the second intersection to the first intersection within the preset period are determined according to the average speed, the maximum parking times and the length of the vehicle queue.
+60. 104392606 Bus location mileage-based road condition detection method and system
+CN
+04.03.2015
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201410606691.X
+青岛海信网络科技股份有限公司
+李坤鹏
+G08G 1/01
+Loading...
+The invention discloses a bus location mileage-based road condition detection method and system. The road condition detection method and system is characterized by comprising the following steps that: (1) mileage data s of a bus in a target road section are calculated, and the calculation of the mileage data s further includes the steps of: acquiring locating data of the locations of the bus in real time, calculating a distance between a location where the locating data are obtained for the first time and a location where the locating data are obtained for the last time in the locations where the locating data are obtained several continuous times every time, and accumulating each distance to the mileage data; and (2) the average speed V of the bus in the target road section is calculated. According to the bus location mileage-based road condition detection method of the invention, the locating data of the locations of the bus are acquired in real time, and the acquisition frequency can reach 1 second; distances between the locations where the locating data are obtained several continuous times every time are obtained and are accumulated to the mileage data; since the acquisition frequency is high, influences of corner turning on the mileage data can be neglected; and the calculation precision of the mileage data is high, so that the error of vehicle speed information which is calculated according to the mileage data is small.
+61. 104376561 Safety belt detection method
+CN
+25.02.2015
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201410664111.2
+青岛海信网络科技股份有限公司
+刘兵
+G06K 9/00
+Loading...
+The invention discloses a safety belt detection method which includes the steps of safety belt detection area location and safety belt location. Safety belt detection area location includes the steps that a rectangular car body area containing a car window is located according to the position and length of a license plate; an edge detection graph is obtained; an upper frame and a lower frame of the car window are selected from the edge detection graph; a right frame of the car window is selected; a rectangular area of a safety belt detection area is located. Safety belt location includes the steps that multiple communication areas are selected as safety belt candidate areas; edge detection is carried out on the safety belt detection area; line segments in each safety belt candidate area are detected by means of Hough transformation, wherein the included angle between each line segment and the horizontal line ranges from 30 degrees to 60 degrees; the confidence coefficient that every two line segments constitute a safety belt is calculated in each safety belt candidate area; the maximum confidence coefficient is selected, and whether the maximum confidence coefficient is within the safety belt is judged. According to the safety belt detection method, accuracy of safety belt detection area location and safety belt location is improved, so that accuracy of safety belt detection is improved.
+62. 104166570 一种在线更新文件的方法、设备及系统
+CN
+26.11.2014
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201410403236.X
+青岛海信网络科技股份有限公司
+禇建
+G06F 9/445
+Loading...
+本发明公开了一种在线更新文件的方法、设备及系统。客户端设备接收服务器发送的文件特征码，所述客户端设备将所述文件特征码与所述客户端设备的系统文件的特征码进行比对，根据比对结果确定所述客户端设备需要升级的系统文件，并从所述服务器下载所述需要升级的系统文件；所述客户端设备将下载得到的系统文件部署到第一模块对应的第一内存区，并暂停所述第一模块的运行，将所述需要升级的系统文件所使用的内存区更新为所述第一内存区；所述客户端设备对所述第一模块恢复运行。解决了将组态环境的编码结果更新到运行环境中需要重新启动整个运行环境，中断线上业务，而且浪费组态服务器资源的问题。
+63. 104134109 集成版本管理的工程组态方法及系统
+CN
+05.11.2014
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201410286871.4
+青岛海信网络科技股份有限公司
+张洪波
+G06Q 10/06
+Loading...
+本发明公开了一种集成版本管理的工程组态方法及系统，该方法包括：客户端下载组态工程后，发送携带有该组态工程中待编辑的模块的标识和客户端的标识的编辑请求；若版本管理服务器查找到的组态工程中对应待编辑的模块的标识所记录的编辑状态为待编辑，则返回编辑权限，将编辑状态修改为编辑中；客户端接收到编辑权限后，将编辑后得到的已编辑模块替换掉组态工程中的待编辑的模块，将向版本管理服务器提交修改后的组态工程提交、并发送携带有已编辑模块的标识和客户端的标识的释放请求；版本管理服务器将对应已编辑模块的标识所记录的编辑状态置为待编辑，为客户端提交的组态工程分配新的版本号进行存储。应用本发明，可以提高组态效率。
+64. 203934183 挂杆式机箱
+CN
+05.11.2014
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201420304182.7
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 5/02
+Loading...
+本实用新型公开了一种挂杆式机箱，包括机箱和灯杆，所述机箱的背面上设置有挂接部，所述灯杆上设置有挂接部配合部，所述机箱的背面还开设有第一走线孔，所述灯杆上设置有与所述第一走线孔对应的第二走线孔，所述机箱通过所述挂接部与所述挂接部配合部配合挂在所述灯杆上，所述第一走线孔与所述第二走线孔相对设置。通过挂接部与所述挂接部配合部配合实现机箱挂在灯杆上，在安装过程中，仅需要单个操作人员便可以将机箱挂在灯杆上，有效的简化了机箱的安装过程；另外，外部电缆通过第一走线孔和第二走线孔连接机箱，第一走线孔和第二走线孔相对设置使得电缆不会暴露在外面，提高了挂杆式机箱的安全性。
+65. 103700265 Travel origin and destination-based road network traffic information acquisition method
+CN
+02.04.2014
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201310690036.2
+青岛海信网络科技股份有限公司
+高林
+G08G 1/065
+Loading...
+The invention discloses a travel origin and destination-based road network traffic information acquisition method, which comprises the following steps of acquiring an information set of inbound vehicles driven from a preset travel origin and an information set of outbound vehicles driven away from a preset destination within a preset period respectively; performing number plate pairing based on the acquired information sets of the inbound vehicles and the outbound vehicles; counting a paired number plate number and an outbound vehicle information volume in the information set of the outbound vehicles, and applying the obtained paired number plate number and the obtained outbound vehicle information volume to a preset road network traffic calculation formula to obtain road network traffic information. According to the method, cost required by the acquisition of the road network traffic information can be lowered, and personalized road network traffic information analysis can be provided.
+66. 203520870 固定车载固态硬盘的装置
+CN
+02.04.2014
+G11B 33/08 Loading...
+G11B 33/08
+Loading...
+201320596626.4
+青岛海信网络科技股份有限公司
+杨自华
+G11B 33/08
+Loading...
+本实用新型公开了一种固定车载固态硬盘的装置，该装置包括：机壳、固态硬盘盒支架、转换电路板以及固态硬盘盒；其中，转换电路板固定在固态硬盘盒内壁一侧，并配置有输入接口以及输出接口，输入接口通过开设在固态硬盘盒内壁一侧的通孔与容置在机壳内的主板进行插接，输出接口与容置在固态硬盘盒内的固态硬盘进行插接；固态硬盘盒支架固定在所述机壳内，包括固态硬盘盒上支架、固态硬盘盒导轨支架；固态硬盘盒安装在固态硬盘盒上支架与所述固态硬盘盒导轨支架之间。应用本实用新型，可以实现固态硬盘与主板的固定，并降低固态硬盘的故障率。
+67. 103699111 分布式监控系统的故障检测方法和装置
+CN
+02.04.2014
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201310445948.3
+青岛海信网络科技股份有限公司
+刘东海
+G05B 23/02
+Loading...
+本发明公开了一种分布式监控系统的故障检测方法和装置，所述方法包括：故障分析模块在接收到用户输入的故障的描述信息后，确定出该故障在所述分布式监控系统中所涉及的数据传输路径；并向数据传输路径中各硬件设备中安装的故障信息收集模块发送故障诊断命令；每个接收到故障诊断命令的故障信息收集模块，从安装于本模块所在设备中的组件，获取与该故障相关的信息向故障分析模块返回；故障分析模块根据各故障信息收集模块返回的信息，确定出所述分布式监控系统中的故障硬件设备，以及故障组件。应用本发明，提高对分布式监控系统的各设备中运行的软件进行故障检测的效率。
+68. 103680152 Vehicle detecting method and system
+CN
+26.03.2014
+G08G 1/042 Loading...
+G08G 1/042
+Loading...
+201310681794.8
+青岛海信网络科技股份有限公司
+殷作亮
+G08G 1/042
+Loading...
+The invention discloses a vehicle detecting method and system. The method comprises the steps that after vehicle coming data of a vehicle are determined from z-axis terrestrial magnetism data collected by a terrestrial magnetism sensor periodically, the magnetic field disturbance amplitude of the vehicle is worked out according to the coming vehicle data; according to the magnetic field disturbance amplitude of the vehicle, the corresponding vehicle leaving count value, the x-axis vehicle leaving threshold, the y-axis vehicle leaving threshold and the z-axis vehicle leaving threshold are determined; according to the determined vehicle leaving count value, the determined x-axis vehicle leaving threshold, the determined y-axis vehicle leaving threshold and the determined z-axis vehicle leaving threshold, x-axis vehicle leaving data of the vehicle, y-axis vehicle leaving data of the vehicle and z-axis vehicle leaving data of the vehicle are determined respectively from x-axis terrestrial magnetism data, y-axis terrestrial magnetism data and z-axis terrestrial magnetism data, and the face that the vehicle is left is judged; wherein the x-axis terrestrial magnetism data, the y-axis terrestrial magnetism data and the z-axis terrestrial magnetism data are collected by the terrestrial magnetism sensor after the vehicle coming data. The system comprises a terrestrial magnetism data obtaining module, a vehicle coming data determining module, a magnetic field disturbance amplitude calculating module, a vehicle leaving threshold determining module and a vehicle leaving data determining module. By the application of the vehicle detecting method and system, the vehicle detecting precision can be improved.
+69. 103680163 Regional bus signal priority method based on bus demands
+CN
+26.03.2014
+G08G 1/087 Loading...
+G08G 1/087
+Loading...
+201310643670.0
+青岛海信网络科技股份有限公司
+王彬
+G08G 1/087
+Loading...
+The invention discloses a regional bus signal priority method based on bus demands. The method includes the following steps of (1) carrying out region-grade bus priority judgment, and comparing conflict priority requests of current intersections to obtain a bus route i with the toppest priority, (2) carrying out a route-grade bus priority judgment, judging whether the bus route i is in a late state or a normal state, executing a route-grade bus priority if the bus route i is in the late state, and otherwise, executing an intersection-grade bus priority, (3) as for the intersection-grade bus priority, judging whether a priority vehicle at a current intersection is in a late state or a normal state, executing a normal intersection priority mode when the vehicle is in the normal state, and executing the late intersection priority mode when the vehicle is in the late state. By means of the method, on one hand, the probability that multiple bus routes trigger a priority processing conflict problem at an intersection at the same time is avoided, on the other hand, the intersection-grade bus priority and an intelligent selection single-intersection priority mode can be achieved, and the priority effect is maintained during a traffic jam.
+70. 103680154 一种视频车辆检测方法
+CN
+26.03.2014
+G08G 1/065 Loading...
+G08G 1/065
+Loading...
+201310630480.5
+青岛海信网络科技股份有限公司
+刘韶
+G08G 1/065
+Loading...
+本发明公开了一种视频车辆检测方法，采用安装于车道一侧的摄像机进行视频检测，摄像头的检测方向与车辆行驶方向垂直，车辆的大灯眩光不会直接照射到摄像头上，不会对摄像头的检测造成影响。同时本发明进行分车道处理和分区域检测，对第一车道进行车顶建模，对第二车道进行车轮建模，对第三车道通过形成动态目标分界线确定第三车道的目标区域，在目标区域内进行背景差目标检测，防止第二车道的车辆对第三车道的影响，解决了第二车道对第三车道遮挡的问题。另外，本发明的安装不采用横臂，建设成本低，在实施安装、调试、维护时不需要封路，不会妨碍正常交通。
+71. 103617495 Comprehensive transportation junction operation management system and method based on full-configuration HMI
+CN
+05.03.2014
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201310635215.6
+QINGDAO HISENSE TRANS-TECH CO., LTD.
+HU JIHUO
+G06Q 10/06
+Loading...
+The invention discloses a comprehensive transportation junction operation management system and method based on a full-configuration HMI. The operation management system comprises a comprehensive transportation junction operation management system body, a real-time data base module, an interface display module, an information exchange module and a front end collector. The information exchange module is used for receiving quasi-real-time service data reported by all subsystems and reporting the service data after protocol conversion to the real-time data base module; the front end collector is used for receiving real-time state data reported by front end devices and reporting the state data to the real-time data base module. The comprehensive transportation junction operation management system and method can perform information integration and state display on all comprehensive transportation junction transportation mode management subsystems and all facility device subsystems on the same management platform, so that a junction manager comprehensively masters junction operation situations and device operation states and timely finds and deals with junction operation abnormities and device operation faults, and the junction operation management capacity and informatization level are effectively improved.
+72. 103607408 Fuel consumption accounting method and device based on real-time fuel consumption information acquisition
+CN
+26.02.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310633907.7
+青岛海信网络科技股份有限公司
+苏士斌
+H04L 29/06
+Loading...
+The invention discloses a fuel consumption accounting method and device based on real-time fuel consumption information acquisition. According to the fuel consumption accounting method and device, all vehicle-mounted terminals acquire accumulative fuel consumption information sent by an engine electronic control unit from a controller local area network bus according to a preset sampling period; a fuel consumption accounting server reads pre-stored public transportation operation data; the fuel consumption accounting server applies the accumulative fuel consumption information from all the vehicle-mounted terminals and the read public transportation operation data to a preset fuel consumption strategy algorithm so as to obtain fuel consumption information. By means of the fuel consumption accounting method and device based on real-time fuel consumption information acquisition, fuel consumption accounting accuracy can be improved, and refined accounting of fuel consumption can be realized.
+73. 203456577 一种装配GPS天线模块的信号机机柜
+CN
+26.02.2014
+H01Q 1/24 Loading...
+H01Q 1/24
+Loading...
+201320492194.2
+青岛海信网络科技股份有限公司
+赵洪源
+H01Q 1/24
+Loading...
+本实用新型提供了一种装配GPS天线模块的信号机机柜，该信号机机柜包括机柜主体和顶盖，所述顶盖上装配有GPS天线模块。本实用新型信号机机柜中的GPS天线模块安装方便、信号接收可靠、防护性好、与机柜配合一致性好。
+74. 103600756 可分专业调试运行和故障隔离的综合监控设备及系统
+CN
+26.02.2014
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201310547581.6
+青岛海信网络科技股份有限公司
+张雪庆
+B61L 27/00
+Loading...
+本发明公开了一种可分专业调试运行和故障隔离的综合监控设备及系统。本发明中，采用完全分布式的架构，对于电力、环控、火灾等各个专业进行深度集成。在中心监控子系统和车站综合监控子系统都采用按专业组为进程单位运行综合监控系统的架构，使得各个专业系统能够实现独立组态、独立部署、独立调试运行，有效的避免了中心监控子系统和车站综合监控子系统的各个专业系统之间的相互干扰，可以实现并行调试和投运。又因为各个专业系统运行在不同的进程中，有效的实现了各个专业系统间的故障隔离。应用本发明，可以提升综合监控系统的易用性及运行可靠性。
+75. 103593976 Road traffic state determining method and system based on detector
+CN
+19.02.2014
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201310624478.7
+青岛海信网络科技股份有限公司
+王栋梁
+G08G 1/01
+Loading...
+The invention discloses a road traffic state determining method and system based on a detector. Lane traffic information is obtained from traffic flow information collected by the detector in the current sampling period, and the obtained lane traffic flow information is applied to a preset lane traffic flow parameter calculation strategy to obtain lane sampling period traffic flow parameters; the obtained lane sampling period traffic flow parameters are applied to a preset traffic jam index calculation strategy to generate a road comprehensive traffic jam index in a publishing period, wherein the publishing period comprises one or more sampling periods; according to a road traffic state of the last publishing period and a preset road comprehensive traffic jam index threshold, a road traffic state corresponding to the generated road comprehensive traffic jam index is determined. By means of the road traffic state determining method and system, accuracy of the determined road traffic state can be improved.
+76. 103559795 Multi-strategy and multi-object self-adaptation traffic control method
+CN
+05.02.2014
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201310548921.7
+青岛海信网络科技股份有限公司
+张茂雷
+G08G 1/07
+Loading...
+The invention discloses a multi-strategy and multi-object self-adaptation traffic control method. The multi-strategy and multi-object self-adaptation traffic control method is characterized by comprising the following steps that (1), traffic state inspection equipment collects traffic flow data in real time, obtains the traffic state information and sends the traffic state information to an intersection signal machine, and the intersection signal machine uploads the traffic flow data to a signal center control system; (2), the intersection signal machine calculates the traffic intensity of an intersection, judges the traffic states of the intersection and adjusts the control plan of the current intersection in real time according to the different traffic states; (3), according to the intersection traffic flow data uploaded in real time, the signal center control system optimizes the intersection signal control scheme from the global angle of a road network. According to the control method, the road network grade global optimization self-adaptation signal control method is provided through judgment and analysis of the traffic states of the road network, and artery coordination control applicable to any traffic state is achieved.
+77. 103531018 Bus departure scheduling method and bus departure scheduling system
+CN
+22.01.2014
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201310441322.5
+青岛海信网络科技股份有限公司
+王宝山
+G08G 1/00
+Loading...
+The invention discloses a bus departure scheduling method and a bus departure scheduling system. The method comprises the following steps: counting received operation application number in a current scheduling period; when determining that the counted operation application number is greater than a preset operation application threshold, pre-queuing vehicle-mounted terminals applying operation according to a preset queuing rule; acquiring a dynamic departure interval which is not less than a static departure interval in a next departure period according to the current scheduling period, the number of the pre-queued vehicle-mounted terminals and the preset static departure interval in the next departure period; sequentially selecting the first N vehicle-mounted terminals in the pre-queued vehicle-mounted terminals, wherein N is the static departure interval number included in the next departure period; generating a departure plan of the next departure period for the selected N vehicle-mounted terminals respectively according to the departure time point corresponding to the static departure interval in the next departure period and the acquired dynamic departure interval. By applying the method and the system, the departure plan execution efficiency and the operation efficiency can be improved.
+78. 203378163 一种具有防撬结构的信号机机柜
+CN
+01.01.2014
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201320492266.3
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 5/02
+Loading...
+本实用新型提供了一种具有防撬结构的信号机机柜，该机柜包括机柜主体和柜门，所述柜门内嵌于机柜主体内，柜门闭合后与机柜主体外表面平齐，所述柜门的门轴一侧与机柜主体之间装配有铰链。本实用新型解决了由于柜门和机柜主体之间的缝隙较大导致安全性和可靠性较低的问题，采用内嵌门结构形式，在柜门和机柜主体之间采用全新结构的铰链，该铰链内嵌于机柜主体和柜门之间的缝隙中，美观性提高，而且不易被破坏，达到防撬作用。
+79. 103473965 Rail transit simulation training method and system
+CN
+25.12.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201310398682.1
+青岛海信网络科技股份有限公司
+阎嵩
+G06F 17/50
+Loading...
+The invention discloses a rail transit simulation training method and system. According to the method, a simulation control command is generated according to controlled objects; simulation training management information of all the controlled objects is established through configuration software and interacts with a training database used for storing configuration information of the controlled objects, and then configuration of the controlled objects in the training database is carried out; the simulation control command is received and interacts with the training database, configuration information corresponding to the simulation control command is obtained, operation is carried out according to the configuration information, and a control feedback result corresponding to the configuration information is uploaded; a storage simulation training operation subsystem executes the uploaded control feedback result according to the simulation control command, and the control feedback result which is uploaded by the storage simulation training operation subsystem and corresponds to the simulation control command is output to a trainee computer; the control feedback result corresponding to the simulation control command is received and displayed. The rail transit simulation training method and system can reduce simulation training cost.
+80. 103473620 Prediction method and system for multiple traffic means of comprehensive passenger traffic hub
+CN
+25.12.2013
+G06Q 10/04 Loading...
+G06Q 10/04
+Loading...
+201310446931.X
+青岛海信网络科技股份有限公司
+胡基火
+G06Q 10/04
+Loading...
+The invention discloses a prediction method and system for multiple traffic means of a comprehensive passenger traffic hub. The prediction method comprises the first step of predicting the total arriving passenger flow through historical data of passenger flow and a data statistical method, and the second step of predicting the passenger flow sharing proportion of each traffic mean through historical data of passenger flow sharing of the traffic means. According to the prediction method for the multiple traffic means of the comprehensive passenger traffic hub, a mathematical statistical theory and a mathematical modeling method are adopted, a scientific and reasonable passenger flow prediction model is built for the total passenger flow of the hub and the passenger flow sharing proportion of each traffic mean, the problems that as an existing comprehensive passenger traffic hub is large in passenger flow fluctuation, and the passenger flow sharing proportions of the traffic means are unbalanced, the existing hub is low in evacuation efficiency of passenger flow and passengers cannot know the traffic capacity of the traffic means are solved, and the highest evacuation efficiency of the passenger flow of the hub and the overall optimizing of the system are achieved.
+81. 103475819 Ultra-high definition intelligent video camera and image data splicing method thereof
+CN
+25.12.2013
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+201310398344.8
+青岛海信网络科技股份有限公司
+隋守鑫
+H04N 5/232
+Loading...
+The invention discloses an ultra-high definition intelligent video camera and an image data splicing method of the ultra-high definition intelligent video camera. The ultra-high definition intelligent video camera comprises a lens, a four-channel imaging sensor, four AD units, an FPGA and a memorizer, wherein a control signal input terminal, a drive signal input terminal and an analog signal output terminal of each CCD unit are connected with a control signal output terminal, a drive signal output terminal and an analog signal input terminal of the AD unit corresponding to the CCD unit respectively; a communication interface of the FPGA is connected with a communication interface of each AD unit through a communication bus; a digital signal output terminal of each AD unit is further connected with a digital signal input terminal of the FPGA; a data storage port and a data reading port of the FPGA are connected with a data input port and a data output port of the memorizer respectively. Through the application of the ultra-high definition intelligent video camera and the image data splicing method of the ultra-high definition intelligent video camera, the requirement for the transmission rate can be met at the same time under the condition that a high image resolution ratio is achieved.
+82. 103473935 Crossing traffic jam judging and control method and system based on sensing detectors
+CN
+25.12.2013
+G08G 1/042 Loading...
+G08G 1/042
+Loading...
+201310395431.8
+青岛海信网络科技股份有限公司
+张茂雷
+G08G 1/042
+Loading...
+The invention discloses a crossing traffic jam judging and control method and system based on sensing detectors. The method includes the steps that according detection signals sent by the sensing detectors, a signal light control device calculates the traffic intensity of a crossing every other set statistic cycle, calculates the time occupancy for each sensing detector in a set time period every other set sampling cycle and further determines whether lanes where the sensing detectors are located are in the jam state or not, and if the crossing traffic intensity calculated in the current statistic cycle is judged to exceed a set traffic intensity threshold value and the lanes are in the jam state, the traffic condition of the crossing is judged to be the jam condition of queue overflow and traffic signal lights at the crossing are controlled according to a traffic signal light control scheme corresponding to the jam condition of the queue overflow. According to the method, the crossing jam condition is detected through the small invested cost and the small road jam area, the traffic signal lights at the crossing are controlled, and therefore the traffic circulation of vehicles at the crossing is guaranteed.
+83. 103440503 一种车辆车身颜色检测识别方法
+CN
+11.12.2013
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201310414231.2
+青岛海信网络科技股份有限公司
+田永鸿
+G06K 9/62
+Loading...
+本发明公开了一种车辆车身颜色检测识别方法，包括以下步骤：训练步骤：训练出主颜色模型；颜色检测识别步骤：（1）、检测获取车辆矩形区域；（2）、主颜色识别，包括：（21）、将区域内的所有像素点输入主颜色模型，判断出各像素点对应主颜色模型中颜色列表中的颜色；（22）、统计出所述颜色列表中各颜色的占比，并按照占比由大至小进行排序；（23）、利用排序前4位占比的方差M，判断为花车还是单色车。本发明的车辆车身颜色检测识别方法，对全车进行颜色分析，不仅可以识别单一颜色车辆，还可以识别多颜色的花车，有利于快速的定位相关车辆；利用高置信度区域可以避免选择固定区域时各种光线的干扰；计算量小，实现高清实时检测。
+84. 103400157 Road pedestrian and non-motor vehicle detection method based on video analysis
+CN
+20.11.2013
+G06K 9/66 Loading...
+G06K 9/66
+Loading...
+201310310299.6
+青岛海信网络科技股份有限公司
+付廷杰
+G06K 9/66
+Loading...
+The invention discloses a road pedestrian and non-motor vehicle detection method based on video analysis. The method comprises the steps of detection region setting and scale model calibration, including 1) performing moving region detection to a current frame image to obtain all moving regions; 2) performing target detection and tracking to the moving regions: if the moving regions are in a target entering region, firstly a tracking target matching method is adopted to perform calculation of matching the existing tracking targets with the moving regions, the moving regions which are failed to be matched are detected by adopting a mode recognition algorithm to detect moving target types and moving target position information; and if the moving regions are in a target tracking region, performing calculation of matching the existing tracking targets with the moving regions to obtain the matched positions of the tracking targets in the current frame; and 3) performing target prediction. The detection method disclosed by the invention has the advantages that the calculation complexity is effectively reduced, the calculation amount is small, the calculation speed is fast and the detection accuracy is high.
+85. 103383816 Method and device for controlling traffic signals of multipurpose electronic police mixed traffic flow detection
+CN
+06.11.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201310272195
+青岛海信网络科技股份有限公司
+魏立夏
+G08G 1/07
+Loading...
+The invention discloses a method and device for controlling traffic signals of multipurpose electronic police mixed traffic flow detection. The method comprises the steps that traffic operation conditions of a crossing is monitored by a crossing video camera in real time and detected traffic operation condition information is output to an electronic police processor; the received traffic operation condition information is processed by the electronic police processor arranged in the crossing and traffic flow information obtained through processing is transmitted to a traffic signal controller in real time; statistic analysis is conducted on the received traffic flow information by the traffic signal controller and a real-time traffic signal controlling scheme is generated so that traffic signals of the crossing can be controlled. According to the method and device for controlling the traffic signals of multipurpose electronic police mixed traffic flow detection, the instantaneity of traffic signal control can be improved and the traffic signal control efficiency is improved.
+86. 103258429 路口拥堵时机动车强行驶入的视频检测方法
+CN
+21.08.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201310150425.6
+青岛海信网络科技股份有限公司
+孙婷婷
+G08G 1/01
+Loading...
+本发明公开了一种路口拥堵时机动车强行驶入的视频检测方法。该方法包括：根据所获取的视频图像数据对前方路口的溢出检测区的状态进行监测；实时跟踪并记录视频图像数据中出现的各个车辆的位置和停留时间，当溢出检测区的状态为车辆溢出状态时，将越过车辆检测区的停车线的车辆标记为疑似违章车辆；根据所获取的视频图像数据确定当前道路的交通状态；当当前道路的交通状态为拥堵状态时，将达到违章标准的疑似违章车辆标记为违章车辆；针对每一辆违章车辆，从所获取的视频图像数据中提取表征该违章车辆违章过程的多张图片。通过使用本发明中的视频检测方法，可以有效地对路口发生拥堵时强行驶入交叉路口的违章车辆进行违章抓拍。
+87. 103247182 交通信号控制器及其信号灯控制方法
+CN
+14.08.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201310150232.0
+青岛海信网络科技股份有限公司
+李瑾
+G08G 1/07
+Loading...
+本发明公开了一种交通信号控制器及其信号灯控制方法，该方法包括：交通信号控制器中的主控板正常工作时，通过总线向各相位板发送灯色控制指令，各相位板根据接收到的本相位板的灯色控制指令进行信号灯控制；交通信号控制器中的接管控制设备记录通过总线接收的主控板发送到各相位板的灯色控制指令；接管控制设备在判断出设定时间段内没有通过总线接收到主控板发送的灯色控制指令后，通过总线向各相位板发送之前记录的灯色控制指令，进行信号灯的控制。本发明的交通信号控制器在主控板故障时，接管控制设备临时代替主控板向各相位板发送灯色信息进行信号灯的控制，保障了交通信号控制器在主控板故障时仍能实现正常的交通信号控制，避免了交通瘫痪。
+88. WO/2013/086749 METHOD AND DEVICE FOR DETERMINING AVERAGE RIDING DISTANCE
+WO
+20.06.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+PCT/CN2011/084299
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LIU, Gang
+G08G 1/01
+Loading...
+A method and a device for determining the average riding distance are disclosed, and relate to the field of intelligent transportation, so as to solve the problem of how to automatically determine the average riding distance. In the application, the method comprises: acquiring riding check-in records within at least one time period, each riding check-in record comprising a card number and check-in data; sieving the acquired riding check-in records, the riding check-in records within each time period and obtained after the sieving meeting the following conditions: for each riding check-in record within the time period, merely one different riding check-in record paired with the riding check-in record exists within the time period, and the two paired riding check-in records comprise the same card number; and determining the average riding distance within the at least one time period according to the riding check-in records within each time period and obtained after the sieving. Through the application, a solution of automatically determining the average riding distance is achieved.
+89. WO/2013/075373 SATURATION TRAFFIC DETERMINATION METHOD AND DEVICE
+WO
+30.05.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+PCT/CN2011/084184
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LI, Jin
+G08G 1/01
+Loading...
+A saturation traffic determination method and device, relating to the field of intelligent transportation and used for realizing automatic measurement and calculation of saturation traffic values. The method includes: collecting pulse data output by a detector provided at an approach of a signal crossing; counting the time headway at the approach according to the collected pulse data; and determining a saturation traffic value according to the counted time headway.
+90. WO/2013/067735 COMPONENTS MANAGING METHOD ADAPTED FOR RAIL TRANSIT COMPREHENSIVE MONITORING SYSTEM
+WO
+16.05.2013
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+PCT/CN2011/084282
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LIAO, Changbin
+B61L 27/00
+Loading...
+A components managing method adapted for rail transit comprehensive monitoring system is provided, wherein at least two level component managing service modules（11，121，12n，131，131n） are set in a computer of the rail transit comprehensive monitoring system, and some of lower level component managing service modules are harmonized and managed by a upper level component managing service module. The lower level component managing service modules are connected to the upper level component managing service module as clients. Some of components are harmonized and managed by the lowest level component managing service modules（131，13n）, and the components are connected to the lowest level component managing service modules as clients. The method enables performing hierarchical and distributed component managements, optimizing interaction process and increasing data transmission speed.
+91. 103106702 基于云计算的公交出行服务系统
+CN
+15.05.2013
+G07C 5/00 Loading...
+G07C 5/00
+Loading...
+201210557999.0
+青岛海信网络科技股份有限公司
+李坤鹏
+G07C 5/00
+Loading...
+本发明公开了一种基于云计算的公交出行服务系统，包括车载终端、车载计算中心、云存储、出行计算中心、出行应用服务以及出行应用，其中出行应用可安装在手机、PAD等移动终端上。乘客可以使用本系统完成出行规划，获取出行方案及最近的真实的出行平均时间，便于指导乘客进行行程安排。本系统可提供全程公交导乘服务，提供车辆到站提示、到站和换乘提醒功能，出行更方便简单，避免坐过车或坐错车。自动提示周边服务信息，方便乘客下一步安排。可通过乘车轨迹为治安事件、纠纷、失物追回等提供支持。
+92. WO/2013/063820 METHOD AND DEVICE FOR POSITIONING LICENSE PLATE IMAGE
+WO
+10.05.2013
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+PCT/CN2011/081964
+QINGDAO HISENSE TRANSTECH CO., LTD.
+FU, Tingjie
+G06K 9/00
+Loading...
+Disclosed are a method and device for positioning a license plate image. The method includes: determining a pixel row corresponding to the colour projection height according to a colour horizontal projection value; when the difference between the colour projection height and the standard height is smaller than a first boundary threshold, taking the starting pixel row and the ending pixel row corresponding to the colour projection height as a first boundary and a second boundary of a license plate image; determining a corresponding pixel column corresponding to the colour projection width according to a colour vertical projection value; when the difference between the colour projection width and the standard width is smaller than a second boundary threshold, taking the starting pixel column and the ending pixel column corresponding to the colour projection width as a third boundary and a fourth boundary of the license plate image. The method and device for positioning a license plate image can position a license plate correctly.
+93. 103093181 一种车牌图像定位的方法和装置
+CN
+08.05.2013
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110339877.X
+青岛海信网络科技股份有限公司
+付廷杰
+G06K 9/00
+Loading...
+本发明涉及通信领域技术，尤其涉及车牌图像定位的方法和装置，方法包括：根据颜色水平投影值，确定出颜色投影高度对应的像素行；当颜色投影高度与标准高度的差值小于第一边界阈值时，将颜色投影高度对应的起始像素行和终止像素行作为车牌图像的第一边界和第二边界；根据颜色垂直投影值，确定出颜色投影宽度对应的像素列；当颜色投影宽度与标准宽度的差值小于第二边界阈值时，将颜色投影宽度对应的起始像素列和终止像素列作为车牌图像的第三边界和第四边界。使用本发明实施例提供的车牌图像定位的方法和装置，可以准确进行车牌定位。
+94. 103065476 基于上下游车辆协调的路段行人过街控制方法
+CN
+24.04.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201210558065.9
+青岛海信网络科技股份有限公司
+陈晓明
+G08G 1/07
+Loading...
+本发明公开了一种基于上下游车辆协调的路段行人过街控制方法，当行人请求产生时，首先判断当前时间是否处于放行允许区间，若是，综合警戒时间、行人最大等待时间TWM判断后，行人请求获得有条件的执行；若不是，则行人请求不能立刻得到执行，须等到其放行允许区间再执行，但行人请求已达到最大等待时间TWM的立即给予放行。本发明保证了上下游车辆的协调效果不被破坏，在此基础上充分考虑了行人的通行安全、请求的及时响应性。从而提高道路的智能化控制水平，对城市交通的有序、顺畅放行起到积极效果。
+95. 103065463 交通控制仿真系统及方法
+CN
+24.04.2013
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201210557918.7
+青岛海信网络科技股份有限公司
+秦晓松
+G08G 1/00
+Loading...
+本发明公开了一种交通控制仿真系统及方法，交通控制仿真系统通过网络接口与智能交通控制系统通讯实现仿真，智能交通控制系统通过网络接口与各监测模拟器对接，用于接收数据和控制指令下达。仿真系统包括：车辆行人模拟发生器：用于产生模拟车辆与行人数据，并且控制车辆、行人的状态；信号机模拟器：用于模拟信号机工作；流量监测模拟器：用于模拟埋设在路口的监测器，监测车流量；排队监测模拟器：用于模拟埋设在路口的监测器，监测等待通过路口的排队车辆信息；行人监测模拟器：用于模拟埋设在路口的监测器，监测是否有行人需要通过路口；显示屏：用于显示被模拟的车辆与行人在街道地图上的移动状况。
+96. WO/2013/053159 METHOD AND DEVICE FOR TRACKING VEHICLE
+WO
+18.04.2013
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+PCT/CN2011/081782
+QINGDAO HISENSE TRANSTECH CO., LTD.
+WANG, Xiaoman
+G08G 1/017
+Loading...
+A method and a device for tracking a vehicle are used for improving the efficiency of an intelligent transportation system. The method comprises: determining a license plate recognized in a detection region of a current video image frame as a current target point (101); if license plate information of the current target point matches license plate information of a target point to be tracked, determining the current target point as the target point to be tracked and updating tracking list information of the target point to be tracked (103); otherwise, determining the current target point as a new target point to be tracked, and establishing tracking list information of the new target point to be tracked (104).
+97. 202887451 融合红外和可见光补光的电子警察系统
+CN
+17.04.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201220554356.6
+青岛海信网络科技股份有限公司
+郝旭宁
+G08G 1/01
+Loading...
+本实用新型公开了一种融合红外和可见光补光的电子警察系统，包括图像补光单元、图像采集与数据分析单元、数据传输单元和中心管理单元，所述图像补光单元为红外光与可见光混合型补光灯，所述补光灯包括LED灯珠模块、步进电机调节模块、智能控制模块以及照度传感器；其中，智能控制模块通过照度传感器采集环境亮度，控制LED灯珠模块的工作状态，所述智能控制模块与图像采集与数据分析单元通讯，智能控制模块通过步进电机调节模块调节LED灯珠模块形成的光斑形态。本实用新型既可解决LED灯过亮产生的影响，又可解决红外灯补光出现偏色的现象，相机在彩色模式下的夜间图片整体质量有较大的改善，有效的保证了车牌识别率。
+98. 202886973 多功能信号机柜
+CN
+17.04.2013
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201220590451.1
+青岛海信网络科技股份有限公司
+刘洪梅
+G05B 19/418
+Loading...
+本实用新型公开了一种多功能信号机柜，信号机柜设置有信号机柜状态检测单元、数据采集单元以及网络通讯单元，所述数据采集单元通过信号机状态检测单元检测信号机的实时状态信息，并将实时状态信息通过网络通讯单元上传。本实用新型可通过远程监控系统对信号机机柜状态进行实时监控，维护人员无需现场排查，能够及时发现解决故障，大大提高工作效率，降低信号机故障率，提高交通安全性。
+99. 202838299 实现大容量高可靠的本地存储装置
+CN
+27.03.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201220488129.8
+青岛海信网络科技股份有限公司
+隋守鑫
+G06F 3/06
+Loading...
+本实用新型公开了一种实现大容量高可靠的本地存储装置，电源给中央处理器和FLASH存储设备供电，并通过供电控制电路给硬盘供电；中央处理器通过数据总线与FLASH存储设备、硬盘相接；中央处理器检测网络状态并发出控制信号至供电控制电路，供电控制电路控制硬盘的供电状态。本实用新型的存储介质包括用于缓存的FLASH存储设备和至少两个硬盘，采用FLASH存储设备作为缓存，可以在硬盘交替上电响应过程中对数据先进行缓存，当硬盘正常工作后，再将缓存数据存储于硬盘中，保证了数据不丢失。同时，本实用新型采用了多块硬盘交替上电工作，可根据网络状态和硬盘状态选择存储方案，保证了数据存储的可靠性。
+100. 102982687 快速插入相位的信号机手动控制系统及方法
+CN
+20.03.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201210498099.3
+青岛海信网络科技股份有限公司
+陈晓明
+G08G 1/07
+Loading...
+本发明公开了一种快速插入相位的信号机手动控制系统和方法，系统包括手动控制命令下发模块、通信消息处理模块、防冲突处理模块、放行数据存储模块、最小绿判断模块、手动控制过渡模块、手动控制命令执行模块、退出手动控制命令模块。本发明支持快速插入相位，可打破正在放行的顺序和灯色组合，插入一组新的放行灯色组合。实现手动控制中的快速插入相位，同时手动控制中的防冲突、最小绿保护、灯色变换的过渡和手动控制退出机制，保证手动控制的快速执行和安全过渡。信号控制机的快速插入相位手动控制功能退出后，能够继续执行原先放行的顺序和灯色组合。
+101. 102982678 交通数据信息服务系统及实现交通数据信息服务的方法
+CN
+20.03.2013
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201210497023.9
+青岛海信网络科技股份有限公司
+尹纪军
+G08G 1/00
+Loading...
+本发明公开了一种交通数据信息服务系统及实现交通数据信息服务的方法。包括：通过TSB获取交通数据信息，输出至监控调度器的交通数据采集器；接收交通数据信息，通过云计算架构体系获取系统内各交通数据处理器的运行状态信息，分配云计算资源，并根据为交通数据处理器分配的云计算资源，对接收的交通数据信息进行拆分，输出至相应的交通数据处理器的监控调度器；接收交通数据信息，进行异常数据清洗处理以及缺失数据补偿处理，并依据经过处理的交通数据信息，进行拥堵路况计算以及旅行时间计算，并将计算结果输出至交通数据信息服务器的交通数据处理器；接收计算结果，进行发布的交通数据信息服务器。应用本发明，可以提高路径规划效率。
+102. 102968901 获取区域拥堵信息的方法及区域拥堵分析装置
+CN
+13.03.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201210501361.5
+青岛海信网络科技股份有限公司
+李月高
+G08G 1/01
+Loading...
+本发明公开了一种获取区域拥堵信息的方法及区域拥堵分析装置。该方法包括：获取预定时间内区域内各路段的交通流数据信息，以预定时间内的单位时间进行拆分；对拆分的交通流数据信息进行预处理；根据预处理的交通流数据信息，获取区域内各路段的拥堵时段信息；根据获取的各路段拥堵时段信息，计算获取与拥堵路段关联的关联路段的拥堵时段信息；根据获取的关联路段的拥堵时段信息，获取区域拥堵信息，并进行发布。应用本发明，可以提高拥堵疏导效率。
+103. 102968360 具有N+1冗余功能的存储系统及方法
+CN
+13.03.2013
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201210494172.X
+青岛海信网络科技股份有限公司
+郭中磊
+G06F 11/14
+Loading...
+本发明公开了一种具有N+1冗余功能的存储系统和方法，所述系统包括摄像机、存储设备和存储转发服务器，存储转发服务器接收摄像机发送的视频码流并将其存储至存储设备，所述存储设备包括N个存储设备和一个冗余存储设备，所述存储转发服务器包括：转发缓存模块、存储管理模块、冗余切换模块、冗余恢复模块和数据备份模块。本发明有效解决了存储设备损坏后视频大量丢失的情况。冗余期间数据的自动备份，保证了冗余恢复后的数据完整性以及无障碍的后续冗余切换。冗余切换及恢复时的计划保护，保证了系统正常运行。转发时的码流缓存，保证了冗余切换及恢复时的视频存储不丢失，确保系统的无损存储。
+104. 102968494 通过微博采集交通信息的系统及方法
+CN
+13.03.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210494171.5
+青岛海信网络科技股份有限公司
+尹纪军
+G06F 17/30
+Loading...
+本发明公开了一种通过微博采集交通信息的系统及方法，系统包括：采集策略定制模块，微博信息采集模块，信息预处理模块，语义分析模块，交通信息中心以及交通信息发布终端。本发明通过策略定制模块采集微博的交通信息，提高微博采集交通信息的效率，保证采集数据的完整性、精确性；对采集的交通信息进行语义分析，快速准确匹配交通信息地理位置、事件时间。本发明采用分布式并发处理的架构，数据处理能力强，能够支持超大规模的微博数据和其它类型交通信息数据的处理，同时分布式的特点也使得系统的应用部署实施更加灵活，可扩展性好。
+105. WO/2013/029304 METHOD AND SIGNAL MACHINE FOR PRIOR CONTROLLING SIGNAL
+WO
+07.03.2013
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+PCT/CN2011/082037
+QINGDAO HISENSE TRANSTECH CO., LTD.
+WANG, Bin
+G08G 1/07
+Loading...
+A method and a signal machine for prior controlling signal are provided, and they relate to traffic control field. The method comprises that the signal machine judging whether the phase at the current phase barrier (A) being green light after receiving the signal for requesting prior passing through of the vehicle (101), and the signal machine inserting a special phase for giving the vehicle requesting prior passing through green light before the current phase barrier (A) after determining that the phase at current phase barrier (A) being green light (102).The signal machine comprises a judging module (10) for implementing aforementioned judging step (101) and a phase inserting module (20) for implementing aforementioned phase inserting step (102). Because a special phase is inserted at the phase barrier (A) after the signal machine detects a vehicle requesting prior passing through, the vehicle requesting prior passing through can pass through the road crossing in advance as much as possible.
+106. 102941852 智能车载终端
+CN
+27.02.2013
+B60W 50/14 Loading...
+B60W 50/14
+Loading...
+201210422678.X
+青岛海信网络科技股份有限公司
+徐龙芳
+B60W 50/14
+Loading...
+本发明公开了一种智能车载终端，所述终端包括：车身信息采集装置、主控装置和人机交互装置；所述车身信息采集装置用于获取车辆的车身信息后发送给所述主控装置，所述车身信息中包括：行驶速度、车门开关状态信息；所述主控装置用于根据所述行驶速度、车门开关状态信息判断是否存在安全隐患；若判断出存在安全隐患，则向所述人机交互装置发送相关的安全隐患告警信息；人机交互装置用于根据所述安全隐患告警信息显示安全隐患告警的视频信息，进行安全隐患告警的语音播放。由于其主控装置可以获取多种信息采集装置获取的信息，从而实现车辆中的各种信息的共享，提供更为智能化的功能，例如安全隐患告警功能。
+107. 102945603 检测交通事件的方法及电子警察装置
+CN
+27.02.2013
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201210416993.1
+青岛海信网络科技股份有限公司
+刘韶
+G08G 1/01
+Loading...
+本发明公开了一种检测交通事件的方法及电子警察装置。该方法包括：采集交通道路的视频信息，生成视频图像；对依序生成的视频图像进行实时分析，确定目标对象，提取目标对象特征信息；基于事件检测以及提取的目标对象特征信息，提取目标对象的交通事件特征信息，根据预先设置的事件策略判断提取的交通事件特征信息为交通事件后，将交通事件对应的交通事件特征信息输出。应用本发明，可以提高交通事件监控精度、降低维护成本。
+108. 202759702 具有防撬结构的信号机机柜
+CN
+27.02.2013
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201220414799.5
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 5/02
+Loading...
+本实用新型提供一种具有防撬结构的信号机机柜。具有防撬结构的信号机机柜，包括柜体和柜门，所述柜门嵌在所述柜体的门框中，所述柜门铰接在所述柜体上。通过将柜门嵌在门框中，一方面缩小柜门的整体面积，另一方面柜门嵌在门框中，门框包裹住柜门，门框与柜门周边的间隙较小，撬门工具无法插入到门框与柜门之间的间隙中，避免柜门被撬开，提高了信号机机柜的可靠性和安全性。
+109. 202759536 高可靠性的车载视频存储装置及车载视频装置
+CN
+27.02.2013
+H04N 5/781 Loading...
+H04N 5/781
+Loading...
+201220432322.X
+青岛海信网络科技股份有限公司
+刘方栋
+H04N 5/781
+Loading...
+本实用新型公开了一种高可靠性的车载视频存储装置及车载视频装置，车载视频存储装置包括存储单元和视频编码单元，存储单元包括机械式硬盘存储单元和flash介质存储单元；视频编码单元对视频源编码生成视频数据流分别存储至机械式硬盘存储单元和flash介质存储单元。本实用新型采用机械式硬盘存储与flash介质存储单元相结合的存储方式。在车辆正常运行时，机械式硬盘存储保证了对较长时间之前的事件进行取证。遇到车辆发生剧烈震动等恶性事故之后，如果机械式硬盘没有完整记录下事件的整个经过，则flash介质存储还可以提供保存最近一段时间的录像，这就足以还原恶性事故的整个经过。
+110. 102938730 交通信号控制系统、交通信号传输装置及方法
+CN
+20.02.2013
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+201210418589.8
+青岛海信网络科技股份有限公司
+秦晓松
+H04L 12/70
+Loading...
+本发明公开了一种交通信号传输装置，该装置包含发送端、及通过N个网络与发送端建立连接的M个接收端；N为大于1的整数，M为自然数。发送端检测N个网络包含的主网络的网络状况，在判定主网络故障，无法正常传输数据，或者传输延迟很大，无法在指定时间内完成指令传输时，将交通信号指令拆分成N个携带数据标识的数据片段，通过N个网络发送N个携带数据标识的数据片段至与其对应的接收端；接收端接收N个网络中的每个网络所传输的携带数据标识的数据片段，根据数据标识重组数据片段，获得所述发送端下发的交通信号指令。本发明能够并行传输信号，提高传输地准确性、精度及成功率，还提高了整个控制系统的工作效率。
+111. 102929220 分布式监控系统及其数据库服务器和故障处理装置及方法
+CN
+13.02.2013
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201210367590.2
+青岛海信网络科技股份有限公司
+廖常斌
+G05B 19/418
+Loading...
+本发明公开了一种分布式监控系统及其数据库服务器和故障处理装置及方法，所述方法包括：若数据库服务器探测到监控系统中其它数据库服务器出现故障，则根据预先制订的原则，重新确定监控数据与数据库服务器的隶属关系；并将新确定的隶属关系向各数据采集装置发送；各数据采集装置接收到隶属关系后更新本地存储的隶属关系，根据更新后的隶属关系向对应的数据库服务器发送其采集的监控数据。由于数据库服务器可以自动探测本监控系统中的其它数据库服务器是否正常工作，在探测出其它数据库服务器出现故障时，依据预先制定的规则重新进行任务分配，将隶属于出现故障的数据库服务器的监控数据分配到其它数据库服务器，从而大大提高了监控系统的可靠性。
+112. 102927988 基于GIS的用于公路管理的定位系统及方法
+CN
+13.02.2013
+G01C 21/28 Loading...
+G01C 21/28
+Loading...
+201210421899.5
+青岛海信网络科技股份有限公司
+刘宏斌
+G01C 21/28
+Loading...
+本发明公开了基于GIS的用于公路管理的定位系统和方法。该系统包含数据库，第一定位模块和/或第二定位模块。第一定位模块根据接收的道路名称及里程值，从数据库中查询与道路对应的空间位置信息，根据输入里程值及道路空间位置信息，确定输入里程值对应的经度及纬度；第二定位模块根据接收的定位点的屏幕坐标，计算出与定位点最近的投影点，利用与定位点最近的投影点和从数据库中查询获得的与投影点所属的道路的空间位置信息，获得定位点对应于道路上的里程值；数据库保存任一道路的名称和至少包含每一个构成点的里程值、经度及纬度的空间位置信息。本发明能够将里程值与对应的经纬度相互转换，实现对任一位置点的定位，而非简单地查询输出。
+113. 102930736 交通信号控制信息的显示方法和系统
+CN
+13.02.2013
+G08G 1/09 Loading...
+G08G 1/09
+Loading...
+201210421900.4
+青岛海信网络科技股份有限公司
+陈晓明
+G08G 1/09
+Loading...
+本发明公开了一种交通信号控制信息的显示方法和系统。其中的方法包括：A、在交叉路口的每个进口道均设置一个与交通信号控制机连接的信息显示屏；B、将同一个进口道的所有相位与设置在该进口道的信息显示屏进行关联设置；C、交通信号控制机根据当前的交通控制模式和关联设置确定各个信息显示屏所需显示的交通信号控制信息，并将相应的交通信号控制信息发送给各个信息显示屏；D、各个信息显示屏显示所接收的交通信号控制信息。通过使用本发明中的交通信号控制信息的显示方法和系统，可在交叉路口的信息显示屏上显示各种交通信号控制信息。
+114. 202737556 有效延长电源应用时间的有源电子车牌及其电源控制电路
+CN
+13.02.2013
+H02J 7/35 Loading...
+H02J 7/35
+Loading...
+201220394717.5
+青岛海信网络科技股份有限公司
+于水川
+H02J 7/35
+Loading...
+本实用新型公开了一种有效延长电源应用时间的有源电子车牌及其电源控制电路，电源控制电路包括为电子车牌负载供电的电池，电池两端并接有电容和太阳能电池，电池的正极连接第一二极管的正极，第一二极管的负极与电容的正极相接，电池的负极与电容的负极相接；太阳能电池的正极通过稳压器连接第二二极管的正极，第二二极管的负极与电容的正极相接，太阳能电池的负极与电容的负极相接。本实用新型通过双供电机制的供电方式，延长了电池的使用寿命；采用低功耗处理模块，在电子车牌处于非工作状态时降低MCU频率，关闭高频外设接口与MCU时钟系统，仅选择性的使能部分低功耗外设；有效解决了市场上电子车牌电源应用时间短的问题。
+115. 102815324 Method and system for generating rail transit emergency evacuation route
+CN
+12.12.2012
+B61L 27/00 Loading...
+B61L 27/00
+Loading...
+201210305465.9
+青岛海信网络科技股份有限公司
+杜军威
+B61L 27/00
+Loading...
+The invention discloses a method and a system for generating rail transit emergency evacuation routes. The method comprises the following steps of: when occurrence of a disaster is monitored, forming a dynamic three-dimensional disaster scene which uses disaster scene sub-zones as basic spatial structures, and constructing theoretical emergency evacuation routes from each disaster scene sub-zone to an evacuation site; according to real-time boundary information of each disaster scene sub-zone, dynamically loading boundary parameters to the theoretical emergency evacuation routes which are mapped to each disaster scene sub-zone; and according to the boundary parameters loaded in the disaster scene sub-zones, computing the priorities of the theoretical emergency evacuation routes which are mapped to the disaster scene sub-zones, and selecting a preset quantity of higher-priority theoretical emergency evacuation routes as the rail transit emergency evacuation routes for the disaster scene sub-zones. By using the method and the system for generating rail transit emergency evacuation routes, the emergency evacuation efficiency can be improved.
+116. 102821250 红外摄像机的自动调光方法及装置
+CN
+12.12.2012
+H04N 5/235 Loading...
+H04N 5/235
+Loading...
+201210302159.X
+青岛海信网络科技股份有限公司
+何东晓
+H04N 5/235
+Loading...
+本发明公开了一种红外摄像机的自动调光方法及装置，根据视频画面中移动目标区域的亮度对LED灯组的亮度进行调整，从而得到最为关注的移动目标的清晰图像。通过比较移动目标区域亮度和背景区域亮度反差以及移动目标是否有过曝或过暗的情况，来调节红外灯的亮度，这样可以精确的控制红外灯的亮度等级，避免前景目标过曝或过暗而导致看不清移动目标的细节。在交通领域时，只对车牌区域进行是否过曝或过暗的判断，而不是对整幅图像进行判断，可以更加精确的控制LED灯组亮度来获得车牌的有用细节。本发明可以有效的控制LED灯的光电转换，智能控制LED灯的亮度，有效提升移动目标细节的分辨率，减小红外灯的热能消耗，延长整机的使用寿命。
+117. 202422747 一种车载硬盘监控系统及车载硬盘录像机
+CN
+05.09.2012
+G11B 33/14 Loading...
+G11B 33/14
+Loading...
+201220037779.0
+青岛海信网络科技股份有限公司
+于水川
+G11B 33/14
+Loading...
+本实用新型公开了一种车载硬盘监控系统及车载硬盘录像机，包括处理器单元、温度传感器、辅助存储介质、以及与硬盘连接的硬盘电源管理模块；所述温度传感器检测硬盘所处的环境温度，并传输至处理器单元；所述处理器单元连接硬盘和辅助存储介质，并在检测到环境温度超出设定范围时输出控制信号至所述的硬盘电源管理模块，控制硬盘电源管理模块切断硬盘电源，切换至辅助存储介质进行数据存储。本实用新型通过对车载硬盘所处的环境温度进行实时检测，并在环境温度超出硬盘所规定的工作温度范围时切断硬盘的电源供应，控制硬盘停止工作，将数据的存储任务切换至温度性能相对较好的辅助存储介质完成，由此达到了保护硬盘的设计目的。
+118. 202331575 嵌入式车道控制机
+CN
+11.07.2012
+G07B 15/06 Loading...
+G07B 15/06
+Loading...
+201120466709.2
+青岛海信网络科技股份有限公司
+赵新东
+G07B 15/06
+Loading...
+本实用新型公开了一种嵌入式车道控制机，包括一块嵌入式开发板，所述开发板上集成有CPU以及存储单元，以及开发板上还设置有音视频接口、隔离控制单元接口、存储设备接口、电源接口、网口、至少一路串口。本控制机采用单片开发板，最大程度地删除了板间连接件，增加了系统稳定性；单板便于维护，有效降低了维护成本；通过在单板上集成多个不同接口，增强了设备的扩展性和应用灵活性。
+119. 102521000 信号机程序升级方法及装置
+CN
+27.06.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110425875.2
+青岛海信网络科技股份有限公司
+刘洪梅
+G06F 9/445
+Loading...
+本发明提供一种信号机程序升级方法及装置。信号机程序升级方法，包括：信号机检测插入的外部存储设备是否有升级程序；若有，则将升级程序拷贝到信号机中的闪存中；将升级程序替换信号机中的原有程序。通过将存储有升级程序的外部存储设备插到信号机上，信号机在确认外部存储设备上有升级程序后便可以自动将升级程序拷贝到信号机中的闪存中，然后自动替换原有的程序，实现信号机的升级，无需操作人员通过笔记本或PDA与信号机通讯操控信号机升级，从而有效的简化了信号机的升级过程。
+120. 102521001 一种C/S结构应用程序版本兼容性控制方法
+CN
+27.06.2012
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201110425948.8
+青岛海信网络科技股份有限公司
+丁建德
+G06F 9/445
+Loading...
+本发明公开了一种C/S结构应用程序版本兼容性控制方法，在数据库中保存有配置文件DbV,所述文件DbV中记录有当前数据库版本，以及与其可兼容的应用服务器版本，应用服务器端启动运行时，判断当前应用服务器版本与当前数据库版本是否兼容，只有在两者兼容的情况下才允许应用服务器端运行。本方法通过在数据库中配置记录有当前数据库版本，以及与其可兼容的应用服务器版本的文件，方便检查版本之间的兼容性，可以有效防止版本不兼容时继续运行导致出错，以及具有报错功能，可以提醒维护人员错误出现位置，便于及时维护。
+121. 102521981 一种基于消息中间件的交通态势计算方法
+CN
+27.06.2012
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201110429910.8
+青岛海信网络科技股份有限公司
+叶杨
+G08G 1/01
+Loading...
+本发明公开了一种基于消息中间件的交通态势计算方法，其特征在于，包括以下步骤：采用消息中间件的统一接口方式采集多源异构数据，生成的字符串作为消息中间件的消息，向主题发送；交通态势计算单元主动订阅主题上的消息，解析并计算交通态势。本交通态势计算方法，基于消息中间件，对所采集的多源异构交通信息数据进行统一处理，解决了现有技术分别对多源异构交通信息数据处理而导致方法繁琐、程序复杂以及容易出错的问题，利用改进的神经网络算法计算交通态势，算法实用，训练过程快速，取得较好的效果。
+122. 102509456 饱和流量确定方法和装置
+CN
+20.06.2012
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201110371621.7
+青岛海信网络科技股份有限公司
+李瑾
+G08G 1/01
+Loading...
+本发明实施例公开了一种饱和流量确定方法和装置，涉及智能交通领域，用于实现饱和流量值的自动测算方案。本发明中，采集设置在信号交叉口的进口道处的检测器输出的脉冲数据；根据采集到的脉冲数据，统计所述进口道处的车头时距；根据统计得到的车头时距确定饱和流量值，可见，本发明实现了饱和流量的自动测算方案。
+123. 102509095 一种车牌图像的预处理方法
+CN
+20.06.2012
+G06K 9/36 Loading...
+G06K 9/36
+Loading...
+201110340408.X
+青岛海信网络科技股份有限公司
+卜珂
+G06K 9/36
+Loading...
+本发明公开了一种车牌图像的预处理方法，包括以下步骤：（1）、获取车牌字符区域的上下边界；（2）、确定车牌字符区域的阴阳分界线，所述阴阳分界线即车牌因亮度差异形成的分界线；（3）、计算车牌字符区域是否需要亮度补偿；（4）、对车牌字符区域进行亮度补偿。本发明的车牌预处理方法可以明显改善阴阳车牌的车牌识别率，而且易于实现，计算量小，可以满足实时性处理的需求。
+124. 102509457 一种车辆跟踪的方法及装置
+CN
+20.06.2012
+G08G 1/017 Loading...
+G08G 1/017
+Loading...
+201110302716.3
+青岛海信网络科技股份有限公司
+王晓曼
+G08G 1/017
+Loading...
+本发明公开了一种车辆跟踪方法及装置，用以提高智能交通系统的效率。该方法包括：将从当前帧视频图像的检测区域内识别出的一个车牌确定为当前目标点，当所述当前目标点的车牌信息与一个待跟踪目标点的车牌信息匹配时，确定所述当前目标点为所述待跟踪目标点，并更新所述待跟踪目标点的跟踪列表信息；否则，确定所述当前目标点为新的待跟踪目标点，并建立所述新的待跟踪目标点的跟踪列表信息。
+125. 102497279 一种适应于轨道交通综合监控系统的组件管理方法
+CN
+13.06.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110356900.6
+青岛海信网络科技股份有限公司
+廖常斌
+H04L 12/24
+Loading...
+本发明公开了一种适应于轨道交通综合监控系统的组件管理方法，该方法为轨道交通综合监控系统的计算机中的组件设置至少两级的组件管理服务，上级组件管理服务协调和管理若干个下级组件管理服务，下级组件管理服务作为客户端连接到上级组件管理服务；最低级组件管理服务协调和管理若干个组件，组件作为客户端连接到最低级组件管理服务。本发明通过设置分层次的多级组件管理服务，实现分层、分布式的组件管理，可以解决现有技术存在的交互途径单一、交互过程不能优化、数据传输速度及传输量受限制等问题。
+126. 102496290 一种基于CAN通信的交通信号控制机
+CN
+13.06.2012
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201110426134.6
+青岛海信网络科技股份有限公司
+刘红梅
+G08G 1/07
+Loading...
+本发明公开了一种基于CAN通信的交通信号控制机，包括主控单元、车检单元和信号灯控制单元；其中，所述主控单元通过CAN总线分别与所述的车检单元和信号灯控制单元连接通信。本发明的交通信号控制机采用CAN总线通信方式进行数据传输，抗干扰能力强，在恶劣的电磁环境下可以有效降低设备的故障率，保证信号机可靠运行，在保障路口交通畅通的同时，降低维护成本。同时，由于CAN总线通信采用差分信号传输方式，因而传输线路少，成本低。
+127. 102496276 一种高效车辆检测方法
+CN
+13.06.2012
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201110392296.2
+青岛海信网络科技股份有限公司
+刘韶
+G08G 1/01
+Loading...
+本发明公开了一种高效车辆检测方法，包括车存在信息检测和车运动信息检测，车存在信息检测包括以下步骤：（11）统计背景图像模型；（12）计算图像-背景差分图；（13）对图像-背景差分图做二值化处理；（14）判断是否有车存在；车运动信息检测包括以下步骤：（21）对相邻两帧图像做差分，并对差分图像提取边缘点；（22）统计出差分图像的边缘点的梯度方向直方图；（23）判断是否存在车运动。本发明的车辆检测方法检测精度高，检测效果好。
+128. 102497555 一种高清编码器的中文支持方法及系统
+CN
+13.06.2012
+H04N 19/46 Loading...
+H04N 19/46
+Loading...
+201110426517.3
+青岛海信网络科技股份有限公司
+何东晓
+H04N 19/46
+Loading...
+本发明公开了一种高清编码器的中文支持方法及系统，包括以下步骤：1、将输入的中文字符转换成文本文件；2、将所述文本文件转换成为图像文件；3、将所述图像文件转换成为灰度文件；4、将所述灰度文件转换成为二进制格式文件。本发明的方法通过对所输入的中文字符进行一系列的转换，最终转换成为编码器可识别的二进制格式文件，实现了该类高清编码器的中文支持，方法简单易于实现。
+129. 102496283 面向多车道电子警察的高清网络抓拍系统
+CN
+13.06.2012
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201110429202.4
+青岛海信网络科技股份有限公司
+郑金山
+G08G 1/01
+Loading...
+本发明公开了一种面向多车道电子警察的高清网络抓拍系统，包括电源板子系统、图像采集板子系统、以及系统处理板子系统，所述的电源板子系统包括电源单元、通信接口单元，所述电源单元用于为图像采集板子系统和系统处理板子系统提供电源，所述通信接口单元用于建立外围设备与系统处理板子系统之间的通信连接；所述图像采集板子系统可以同时采集多车道的图像，并将其转换成为数字信号后发送至系统处理板子系统处理。本系统实现了一台抓拍机可以同时抓拍同一方向上的多个车道，布线简单，系统性能稳定。
+130. 102497276 一种电源切换电路及具有所述电路的网络摄像机
+CN
+13.06.2012
+H04L 12/10 Loading...
+H04L 12/10
+Loading...
+201110427861.4
+青岛海信网络科技股份有限公司
+隋守鑫
+H04L 12/10
+Loading...
+本发明提出一种电源切换电路及具有所述电路的网络摄像机，当POE供电和24V交流供电同时存在时，系统优先选择24V交流供电，当24V供电突然断掉时，系统无缝切换到POE供电，从而解决了POE电路检测到错误输出不断重启的问题。实现了网络摄像机内双电源功能，使得网络摄像机应用更加灵活，可以降低安防工程施工成本，提高了系统的可靠行。
+131. 202257384 一种主机板及具有所述主机板的车载终端
+CN
+30.05.2012
+G06F 1/16 Loading...
+G06F 1/16
+Loading...
+201120387991.5
+青岛海信网络科技股份有限公司
+徐龙芳
+G06F 1/16
+Loading...
+本实用新型提出一种主机板及具有所述主机板的车载终端，所述主机板上集成有控制器以及与该控制器相连的音/视频处理模块、用以与调度系统进行双向通信的无线传输模块、GPS定位模块、用以实现主机单元与外设单元或显示屏传输信号的接口模块以及用于采集车辆信息的检测模块。具有此主机板的车载终端可以通过此主机板实现车载终端的高度集成，简化了安装维护工序，提高了运行的智能化水平，减少了重复投资和重复安装施工所带来的问题，同时降低了维护成本和日常的运营成本。
+132. 202261649 道路监控系统
+CN
+30.05.2012
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201120409132.1
+青岛海信网络科技股份有限公司
+郝旭宁
+H04N 7/18
+Loading...
+本实用新型提供一种道路监控系统，包括图像采集装置、数据传输装置、数据处理装置和中心控制装置，所述图像采集装置、所述数据处理装置和所述中心控制装置分别与所述数据传输装置连接。通过设置图像采集装置可以准确有效的获取图像数据，并且图像数据经过数据传输装置可以稳定可靠的传给数据处理装置和中心控制装置，通过数据处理装置对图像数据进行处理后传给中心控制装置，由中心控制装置根据接收到的图像数据记录道路上车辆的运行信息，提高了道路监控系统的可靠性。
+133. 202252685 转向支架及半球摄像机
+CN
+30.05.2012
+F16M 11/22 Loading...
+F16M 11/22
+Loading...
+201120412967.2
+青岛海信网络科技股份有限公司
+赵洪源
+F16M 11/22
+Loading...
+本实用新型提供一种转向支架及半球摄像机。转向支架，包括：圆形支架，所述圆形支架的圆周方向上开设有多段第一弧形槽，所述圆形支架的下部还设置有垂直于所述圆形支架的折臂，所述折臂上开设有轴孔以及与所述轴孔同心设置的第二弧形槽。通过在圆形支架上开设第一弧形槽，可以实现摄像机通过第一弧形槽进行水平方向旋转，圆形支架的下部还设置有开设有轴孔和第二弧形槽的折臂，可以实现摄像机通过轴孔和第二弧形槽进行竖直方向旋转，从而通过圆形支架可以同时实现摄像机进行水平旋转和竖直旋转，实现降低了转向支架的成本以降低半球摄像机的成本。
+134. WO/2012/065339 METHOD, DEVICE AND SYSTEM FOR CONTROLLING TRAFFIC SIGNALS AT INTERSECTIONS
+WO
+24.05.2012
+G08G 1/08 Loading...
+G08G 1/08
+Loading...
+PCT/CN2010/080299
+QINGDAO HISENSE TRANSTECH CO., LTD.
+CHEN, Xiaoming
+G08G 1/08
+Loading...
+A method, a device and a system for controlling traffic signals at intersections are provided. The method involves detecting whether the road between an upstream intersection (A) and a downstream intersection (B) is congested or not by a congestion detector (C) arranged between the upstream intersection (A) and the downstream intersection (B), and when the road is congested, prolonging the time of the green light of the downstream intersection (B) or shortening the time of the green light of the upstream intersection (A). The system comprises a detector (51) and a traffic signal controller (52). The detector (51) detects whether the road between the upstream intersection (A) and the downstream intersection (B) is congested or not and sends a congestion message when the road is congested. The traffic signal controller (52) is connected with the detector (51) and prolongs the time of the green light of the downstream intersection (B) and/or shortens the time of the green light of the upstream intersection (A) when the congestion message is received.
+135. 102436399 一种负载均衡的采集方法
+CN
+02.05.2012
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201110215797.3
+青岛海信网络科技股份有限公司
+刘东海
+G06F 9/50
+Loading...
+本发明公开了一种负载均衡的采集方法，包括实时数据库和多个前置机，采集点通过通道与前置机连接，所述的负载均衡的采集方法包括以下步骤：（1）建立各个前置机和实时数据库的网络连接；（2）组态采集系统，将通道分配到不同采集前置机上；（3）前置机启动时加载本机内所有的通道信息和采集点的信息，同时设置主、从通道；（4）前置机根据配置文件信息，启动主通道的采集任务，建立主通道的连接；（5）前置机通过主通道接收采集点发送的采集的信息，并发送至实时数据库相应的数据点中。本发明通过动态分配采集任务，可以提高计算机的利用率，同时可以提高采集的效率和对实时数据库下发命令的响应速度。
+136. 102436752 道路信号优先控制系统及方法
+CN
+02.05.2012
+G08G 1/087 Loading...
+G08G 1/087
+Loading...
+201110298939.7
+青岛海信网络科技股份有限公司
+杨金东
+G08G 1/087
+Loading...
+本发明提供一种道路信号优先控制系统及方法。道路信号优先控制系统，包括：车载检测装置、路边传输装置和信号机控制装置；车载检测装置用于采集车辆的运行信息并将采集到的运行信息通过无线通信方式传给路边传输装置，路边传输装置用于将接收到的运行信息通过有线传输方式传给信号机控制装置，信号机控制装置用于根据接收到的运行信息控制路口交通信号灯的运行。通过车载检测装置可以准确的获取车辆的运行信息，并当该车辆到达路口处，便可以与路边传输装置进行无线通讯，准确的将运行信息传给路边传输装置，并由路边传输装置将接收到的运行信息传给信号机控制装置，有效的避免漏检运行信息的现象，提高了道路信号优先控制系统的可靠性。
+137. 102436409 双机冗余系统的冗余管理及切换方法
+CN
+02.05.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110345287.8
+青岛海信网络科技股份有限公司
+廖常斌
+G06F 11/14
+Loading...
+本发明公开了一种双机冗余系统的冗余管理及切换方法，系统包括两台计算机，每台计算机中的软件模块根据功能分为执行整机冗余协调和管理的冗余管理模块、对外提供服务的若干个接口模块以及实现具体操作的若干个内核模块，冗余管理模块中设置有系统冗余状态，每个接口模块及内核模块均设置有与系统冗余状态一致的本地冗余状态副本。利用软件模块分类及设置冗余状态副本的方式，可以减少多线程调用的锁竞争及伪共享，提高双机冗余系统的性能，特别适应于多核多CPU计算机环境。
+138. 102426793 快速路出口交替放行控制方法及控制装置
+CN
+25.04.2012
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201110394713.7
+青岛海信网络科技股份有限公司
+李瑾
+G08G 1/07
+Loading...
+本发明公开了一种快速路出口交替放行控制方法及控制装置。所述方法包括下述步骤：在快速路出口处的辅路的上游变道处为每个车道设置停车线及信号灯；在停车线前为每个车道设置用于检测车辆拥堵情况的检测装置；将检测装置检测的车辆拥堵信号传输至信号机，信号机根据接收的车辆拥堵信号控制信号灯，以控制各车道为常态或交替放行状态。本发明的方法及装置通过检测器检测辅路拥堵状况，根据检测结果执行相应的控制，可以有效解决快速路出口的拥堵问题。
+139. 102402470 闪存程序自动纠错修复方法及装置
+CN
+04.04.2012
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110425886.0
+青岛海信网络科技股份有限公司
+刘方栋
+G06F 11/14
+Loading...
+本发明提供一种闪存程序自动纠错修复方法及装置。闪存程序自动纠错修复方法，包括：在闪存中存储的原程序运行前，对原程序进行完整性校验；若原程序不完整，则将事先存储的备份程序覆盖闪存中存储的原程序。通过在原程序运行前先对原程序进行完整性校验，并在确认原程序不完整时，将备份程序覆盖原程序，可以确保嵌入式设备能够正常启动运行，避免出现因原程序损坏而导致嵌入式设备无法正常运行，实现提高了嵌入式设备的程序系统可靠性。
+140. 102394873 一种轨道交通综合监控的权限管理系统及方法
+CN
+28.03.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110329645.6
+青岛海信网络科技股份有限公司
+廖常斌
+H04L 29/06
+Loading...
+本发明公开了一种轨道交通综合监控的权限管理系统，包括一个控制中心和至少一个车站，控制中心、各车站分别包括至少两个用户及权限服务器，控制中心包括至少一个中心客户端；各车站分别包括至少一个车站客户端。本发明同时公开了一种轨道交通综合监控的权限管理方法，包括以下步骤：在控制中心、各车站分别设置用户及权限服务器，控制中心包括中心客户端，各车站分别包括车站客户端；各车站启动用户及权限服务器，确定是否更新服务器的用户配置信息；客户端进行用户权限验证；客户端用户可以访问所有车站或者控制中心的数据。本发明的权限管理系统以及方法，各车站能够独立运行、对服务器端的压力小、用户配置信息统一、系统更加安全、稳定。
+141. 102394011 公交车自动化动态调度系统及方法
+CN
+28.03.2012
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110295094.6
+青岛海信网络科技股份有限公司
+张新稳
+G08G 1/00
+Loading...
+本发明提出一种公交车自动化动态调度系统及方法，通过车载终端上传的GPS数据和车辆到离站数据以及历史模型参数，获得车辆到达首末站的时间；通过车辆到达首末站的时间和数据库中当前线路的运营指标、车辆状态和发车规则数据，获得下一发车周期的发车间隔；根据发车间隔获得下一周期的发车时刻点，依据排队规则从可用车辆集合中获取车辆，进而生成发车计划，并发送到调度客户端，实现公交车辆发车计划的自动调整，进而实现公交车辆的自动发车，减轻调度人员的工作强度，提高工作效率，同时提高发车水平，给出行者提供更好的出行体验，为企业实现集中调度、现场调度、单边调度、双边调度奠定技术基础。
+142. 102393655 一种嵌入式智能化控制装置
+CN
+28.03.2012
+G05B 19/04 Loading...
+G05B 19/04
+Loading...
+201110373537.9
+青岛海信网络科技股份有限公司
+赵新东
+G05B 19/04
+Loading...
+本发明公开了一种嵌入式智能化控制装置，包括一块嵌入式开发板，所述开发板上集成有CPU以及存储单元，以及开发板上还设置有音视频接口、ISA总线接口、存储设备接口、电源接口、网口、至少一路串口。本控制装置采用单片开发板，最大程度地删除了板间连接件，增加了系统稳定性；单板便于维护，有效降低了维护成本；通过在单板上集成多个不同接口，增强了设备的扩展性和应用灵活性。
+143. 102346847 一种支持向量机的车牌字符识别方法
+CN
+08.02.2012
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201110287924.0
+青岛海信网络科技股份有限公司
+裴雷
+G06K 9/00
+Loading...
+本发明公开了一种车牌字符识别方法，包括支持向量机的训练过程和使用支持向量机进行车牌识别过程，本发明的车牌字符识别方法，采用LPP算法提取字符特征，得到的字符特征更具有分类判别性，提高判别效果；对字母数字分类器采用分层组建，可针对车牌的特点实现小类别范围内的识别，提高识别分别率，降低了识别算法的复杂度和训练参数存储资源，适用于嵌入式系统应用。采用基于置信度的视频流统计识别，避免了因单帧拍摄效果不好或车牌预处理效果不好而导致的识别效果不好的弊端，可进一步提高识别率。
+144. WO/2012/009931 IDENTIFICATION METHOD AND APPARATUS OF CONFUSABLE CHARACTER
+WO
+26.01.2012
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+PCT/CN2010/080296
+QINGDAO HISENSE TRANSTECH CO., LTD.
+WEI, Nannan
+G06K 9/62
+Loading...
+An identification method and apparatus of confusable character are provided. The method involves: the detected character image is identified to gain the initial character information which is corresponding to the character image; the step change times of the corresponding external outline of the character image are counted if the initial character information is the confusable character; the final character information corresponding to the character image is confirmed according to the step change times; The final character information of the character image can be known conveniently according to the step change times, therefore the corresponding correct character information of the character image can be identified more precisely. The possibility of wrong identification of the character image because of the appearing confusable character can be reduced, and the identification precision rate of the confusable character can be improved.
+145. WO/2012/000296 IMAGE TILT CORRECTION METHOD AND APPARATUS
+WO
+05.01.2012
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+PCT/CN2010/080304
+QINGDAO HISENSE TRANSTECH CO., LTD.
+LI, Ting
+G06T 7/00
+Loading...
+An image tilt correction method and apparatus are provided, and the method comprises: performing greyscale processing on the acquired image to obtain a greyscale image, performing projection processing on the greyscale image to judge whether the greyscale image is tilted, and performing tilt correction processing on the greyscale image if the greyscale image is tilted. The tilt correction processing is not performed on the greyscale image which is not tilted, thus the efficiency of the image tilt correction method is improved.
+146. 102306292 一种复合式倾斜校正方法
+CN
+04.01.2012
+G06K 9/32 Loading...
+G06K 9/32
+Loading...
+201110217730.3
+青岛海信网络科技股份有限公司
+付廷杰
+G06K 9/32
+Loading...
+本发明提出一种复合式倾斜校正方法来实现复杂环境下提高校正效果的目的，具体实现思想如下：当车牌边框明显时，通过Hough(霍夫)变换检测车牌的边框直线，进而确定车牌的倾斜角，若号牌无边框或边框污损时，转而使用车牌字符目标点的分布特征，通过特征向量完成校正。本发明结合边缘特征和目标分布特征，有效利用两种方法的优点，有效改善复杂环境下系统整体的校正效果，即有效改善了夜间边缘检测校正方法失效时及白天部分车牌目标边缘无法检测时的校正效果，避免了干扰信息的影响。
+147. 102279711 Plug-in-based real-time data storage method and device
+CN
+14.12.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201110226586.X
+Hisense Trans-Tech Co.,Ltd.
+Huang Yuping
+G06F 3/06
+Loading...
+The invention provides a plug-in-based real-time data storage method and a plug-in-based real-time data storage device. The plug-in-based real-time data storage method comprises the steps of: acquiring a format type, a reception type and a target type corresponding to source data according to a communication protocol; determining a first plug-in corresponding to the source data according to the reception type so as to determine the reception address of the source data through the first plug-in; determining the second plug-in necessary for the source data analysis according to the format type; analyzing the source data through the second plug-in to remove the real-time transport protocol of the source data and form bare data; and storing the bare data. The plug-in-based real-time data storage method can store different types of data, simplify the data storage process and reduce the usage amount of the storage equipment. In addition, because the bare data is only stored in the real-time transport protocol in which the data are deleted, great storage space occupation of a large number of real-time transport protocols is avoided, and the utilization rate of the storage space is improved effectively.
+148. 202075871 车载终端设备及车辆
+CN
+14.12.2011
+G08G 1/0968 Loading...
+G08G 1/0968
+Loading...
+201120190304.0
+青岛海信网络科技股份有限公司
+邓超
+G08G 1/0968
+Loading...
+本实用新型提供一种车载终端设备及车辆。车载终端设备，包括中央处理器、GPS模块和无线通讯模块，还包括：CAN通讯模块，所述CAN通讯模块与所述中央处理器电连接。通过CAN通讯模块可以直接与车辆中的CAN总线连接，从而使车载终端设备获取车辆的自身参数信息，并通过中央处理器控制无线通讯模块便可以方便的将车辆的自身参数信息传给监控系统，使监控人员准确的获知有关车辆的全部信息，实现了通过车载终端设备直接获取车辆的自身参数信息，实现了监控系统全面的对车辆进行监控。
+149. 102254001 Efficient data management method and system
+CN
+23.11.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110197307.1
+Hisense Trans-Tech Co.,Ltd.
+Yan Song
+G06F 17/30
+Loading...
+The invention discloses an efficient data management method and system. The efficient data management method comprises the following steps of: 1, storing and counting configuration data, storing configuration parameters; 2, storing data needing to be stored according to a configured storage mode; and 3, counting and calculating data needing to be counted according to a configured counting mode on the basis of the stored historical data, wherein the counting and calculating step is executed when a server is idle. The efficient data management method is used for flexibly configuring the storage mode, the time granularity and the counting mode of the historical data aiming at different service demands, thus unnecessary overhead is effectively reduced, redundant data is rejected when the historical data is stored so that efficiency is improved, counting overhead is shared based on the historical data for improving the efficiency, and functions of locally caching, filtering and completing historical inquiry data are increased so that the system is more practical and perfect.
+150. 102254444 Phase insertion type bus signal priority control method
+CN
+23.11.2011
+G08G 1/087 Loading...
+G08G 1/087
+Loading...
+201110198271.9
+Hisense Trans-Tech Co.,Ltd.
+Wang Bin
+G08G 1/087
+Loading...
+The invention provides a phase insertion type bus signal priority control method. A bus phase is inserted into a phase barrier, so that the buses, which cannot be given priority in releasing through an earlier start and later cutoff policy of a green light, are enabled to pass through road crossings in advance as much as possible. With the bus phase inserted into the phase barrier, no matter a single-ring structure or a multi-ring structure, influence between conflicted phases is maximally reduced, and influence on traffic organization order of the road crossings is reduced, so that the buses are given priority to pass through the road crossings, and operating efficiency of the buses is improved.
+151. 202050504 网络视频编码解码装置及网络视频监控系统
+CN
+23.11.2011
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201120062221.3
+青岛海信网络科技股份有限公司
+隋守鑫
+H04N 7/26
+Loading...
+本实用新型提供一种网络视频编码解码装置及网络视频监控系统。网络视频编码解码装置，包括：主板和至少一个视频接口板，主板包括主板主体、连接器、编译码器和网口，连接器、编译码器和网口通过主板主体电连接在一起，视频接口板包括接口和数据处理模块，接口和数据处理模块电连接；数据处理模块插接在连接器上。通过设置视频接口板，可以根据不同类型的视频信号在视频接口板中设置与之对应类型的接口，通过共用统一的主板并根据不同类型的视频信号设置与之对应的视频接口板，可以有效的降低网络视频编码解码装置的开发成本。
+152. 102236791 Method for subdividing characters of slant license plate
+CN
+09.11.2011
+G06K 9/34 Loading...
+G06K 9/34
+Loading...
+201110197311.8
+Hisense Trans-Tech Co.,Ltd.
+Wei Nannan
+G06K 9/34
+Loading...
+The invention discloses a method for subdividing characters of a slant license plate. The method disclosed by the invention comprises the following steps of: binarizing the license plate to obtain a binary image with separated characters and a background; arranging an upper horizontal subdividing line and a lower horizontal subdividing line; judging whether the license plate is slanted; vertically subdividing the license plate; and if the license plate is slanted, carrying out a slant compensation. The method for subdividing characters of the slant license plate provided by the invention is precise in horizontal subdivision for the slant license plate which is difficult to horizontally subdivide; and the method has a simple algorithm and can satisfy real-time processing requirements on the basis of improving the performance.
+153. 102231234 Public transportation intelligent dispatching system and method with support for VOIP 3G transmission
+CN
+02.11.2011
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201110206158.0
+Qingdao Hisense TransTech Co.,Ltd.
+Liu Zhending
+G08G 1/00
+Loading...
+The invention discloses a public transportation intelligent dispatching system and a method with support for VOIP 3G transmission. The system comprises a dispatching terminal and a vehicle terminal. The vehicle terminal and the dispatching terminal are respectively equipped with voice input equipment, voice output equipment, and voice conversion modules. Besides, the vehicle terminal is also provided with a GPS positioning module and a wireless communication module. In addition, the public transportation intelligent dispatching system also comprises a voice gateway and a control gateway. According to the public transportation intelligent dispatching system with support for VOIP 3G transmission provided in the invention, the operation cost of a pubic transportation enterprise can be reduced; clear and fluent voice communication is realized in the public transport environment; broadcasting and monitoring based on VOIP is beneficial to improve emergency and safety supervision abilities of the public transport environment, so that dispatching level and efficiency are improved.
+154. 201986154 定位监控装置及车辆定位监控系统
+CN
+21.09.2011
+H04W 4/02 Loading...
+H04W 4/02
+Loading...
+201120095479.3
+青岛海信网络科技股份有限公司
+吴风炎
+H04W 4/02
+Loading...
+本实用新型提供一种定位监控装置及车辆定位监控系统。定位监控装置，包括：定位监控模块和无线数据通信模块，所述定位监控模块与所述无线数据通信模块电连接，所述定位监控模块包括GPS模块和视频监控模块，所述GPS模块和所述视频监控模块电连接。通过将GPS模块和视频监控模块电连接在一起，GPS模块和视频监控模块通过一个无线数据通信模块便可以与车辆定位监控系统中的服务器进行数据传输，无需在车辆中单独安装GPS车载终端和视频监控车载终，并且定位监控装置由于采用一个无线数据通信模块传输信息，使定位监控装置只占用一条无线通道，实现通过定位监控装置降低了车辆定位监控系统的成本。
+155. 201984630 一种高清电子警察处理器
+CN
+21.09.2011
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201120095716.6
+青岛海信网络科技股份有限公司
+郝旭宁
+G08G 1/01
+Loading...
+本实用新型公开了一种高清电子警察处理器，包括背板单元、视频处理单元、以及电源单元，所述的电源单元与背板单元连接，视频处理单元与背板单元连接。本实用新型的高清电子警察处理器，避免了使用图片式识别软件或工控机带来的处理速度慢，可靠性低的问题，处理速度快，性能稳定。
+156. 102186058 Traffic monitoring video data transmission method and device as well as traffic monitoring system
+CN
+14.09.2011
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201110083315.3
+Hisense Trans-Tech Co.,Ltd.
+Zhang Xi
+H04N 7/18
+Loading...
+The invention provides a traffic monitoring video data transmission method and device as well as a traffic monitoring system. The traffic monitoring video data transmission method comprises the following steps of: video pre-processing: at a transmitting end, adding a video coding information protocol used by a decoder of a receiving end and a network transmission communication protocol for transmission quality statistics at the receiving end to each video data frame, and transmitting the video data frames to the receiving end; statistical processing: at the receiving end, counting the statistical information of error video data frames received by the receiving end according to the network transmission communication protocol, and transmitting the statistical information to the transmitting end; decoding processing: at the receiving end, decoding the accurate video data frames according to the video coding information protocol; and feedback processing: at the transmitting end, regulating the transmitting parameters of the transmitting end according to the feedback statistical information. By using the traffic monitoring video data transmission method, the bit error rate of the video data frames is reduced to improve the reliability of the traffic monitoring video data transmission method.
+157. 102110134 Real-time database for rail transit, operating method and operating device
+CN
+29.06.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010608137.7
+Hisense Trans-Tech Co.,Ltd.
+Liao Changbin
+G06F 17/30
+Loading...
+The invention provides a real-time database for a rail transit, an operating method and an operating device. The real-time database for the rail transit comprises a type memory table, a main memory table and a plurality of sub memory tables stored in a memory; the memory addresses of the sub memory tables of different types are stored in the type memory table; data of a monitoring point of single type are correspondingly stored in each sub memory table; the main memory table is provided with a basic attribute field and a sub table associated attribute field, the main table addresses of all monitoring points are stored in the basic attribute field, and the sub table addresses corresponding to all the monitoring points in the sub memory tables are stored in the sub table associated attribute field; and the main table addresses are the addresses of the monitoring points in the main memory table, and the sub table addresses are the addresses of the monitoring points in the sub memory tables. Quick loading and access of the monitoring points of different types are realized, maintenance of operating personnel is more convenient, and the reliability of the real-time database for the rail transit is improved.
+158. 102096698 Video data storage format, storage method and search method
+CN
+15.06.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010585546.X
+Qingdao Hisense Network Technology Co., Ltd.
+Gao Ling
+G06F 17/30
+Loading...
+The invention discloses a video data storage format, a video data storage method and a video data search method. The storage format is that: a logical volume in a memory is divided into two types, namely an equipment head and a plurality of pages, wherein the equipment head stores related information of the pages; the related information comprises a current page field and a current offset field into which video data is written; each page is divided into two parts, namely a page head and at least one data block, wherein the page head comprises a start time field when the video data is stored into the page; and each data block is divided into two parts, namely a block head and a real video data storage area, wherein the block head comprises a data block size field and a time offset field opposite to the page head. Received video data is directly stored into a raw device based on the storage method disclosed by the storage format, disk fragmentation can be reduced, and search efficiency can be improved. In addition, the video data takes data blocks as units, is stored in the pages of each logical volume, is convenient to manage and has high data access performance.
+159. 102075688 Wide dynamic processing method for single-frame double-exposure image
+CN
+25.05.2011
+H04N 5/235 Loading...
+H04N 5/235
+Loading...
+201010608108.0
+Hisense TransTech Co., Ltd.
+He Dongxiao
+H04N 5/235
+Loading...
+The invention discloses a wide dynamic processing method for a single-frame double-exposure image. The single-frame double-exposure image is a 12-bit original image comprising long exposure pixel blocks and short exposure pixel blocks simultaneously, and the method comprises the following steps of: (1) performing interpolation calculation, namely completing values of three channels of red, green and blue (RGB) for each pixel; (2) performing wide dynamic mapping, namely mapping and compressing the interpolated image; (3) segmenting image subjected to wide dynamic mapping to obtain two images only with the long exposure pixels and the short exposure pixels respectively; and (4) combining the two images by using a brightness distribution histogram interval segmenting method. Through the wide dynamic processing method for the single-frame double-exposure image, the pixels in two exposure modes in the single-frame image are combined, so that each part is subjected to proper exposure. Moreover, the single-frame image is only needed to be processed, the calculated quantity is reduced, and the wide dynamic image quality is improved through detection and correction of dead pixels and correction of the image.
+160. 102063494 Database synchronizing method and device
+CN
+18.05.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010616051.9
+Hisense TransTech Co., Ltd.
+Li Kunpeng
+G06F 17/30
+Loading...
+The invention provides database synchronizing method and device. The database synchronizing method comprises the following steps of: establishing a central row versioning number table in a central database, and correspondingly establishing a client row versioning number table in each client database, wherein names of tables to be synchronized and changed central row versioning numbers are saved in the central row versioning number table, while names of tables to be synchronized, changed client row versioning numbers, client row versioning numbers before changed and changed central versioning numbers are saved in the client versioning number table; and synchronizing corresponding tables to be synchronized in the client database and the central database. Through correspondingly establishing a central row versioning number table and a client row versioning number table in the central database and the client database, the phenomenon that data is repeatedly synchronized is avoided, the phenomenon that the data is disordered when the database is synchronized is reduced, and the synchronization efficiency is improved.
+161. 201837810 摄像装置
+CN
+18.05.2011
+G03B 17/02 Loading...
+G03B 17/02
+Loading...
+201020553093.8
+青岛海信网络科技股份有限公司
+赵洪源
+G03B 17/02
+Loading...
+本实用新型提供一种摄像装置。摄像装置，包括：前壳、安装筒、至少一个板卡和后壳；所述前壳固定在所述安装筒的一端部；所述安装筒内开设有用于安装所述板卡的滑槽，所述板卡滑设在所述滑槽中；所述后壳固定在所述安装筒的另一端部。通过在安装筒上开设至少一个滑槽，将板卡滑设在滑槽内，节省了多个螺钉和螺母，从而实现了简化装配工序，降低加工成本的目的。
+162. 102054169 License plate positioning method
+CN
+11.05.2011
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201010608131.X
+Hisense TransTech Co., Ltd.
+Liu Shao
+G06K 9/00
+Loading...
+The invention provides a license plate positioning method, which comprises the following steps of: (1) roughly scanning a license plate: forming a vertical border binary image by extracting a license plate grayscale image vertical edge, scanning the vertical border binary image for finding a license plate line to be suspected to obtain one or more license plate scanning regions to be suspected; 2, roughly positioning the license plate: singly processing the obtained license plate scanning regions to be suspected, respectively carrying out vertical edge extraction and horizontal edge extraction on each license plate scanning region to be suspected to obtain at least one license plate roughly positioning region; and 3, accurately positioning the license plate: carrying out binaryzation treatment on the license plate roughly positioning regions one by one to obtain a final license plate. The license plate positioning method provided by the invention avoids using a ground loop, can be used for positioning a plurality of paths of license plates, is favorable for effectively reducing the calculation, and has a better positioning effect.
+163. 102043959 License plate character segmentation method
+CN
+04.05.2011
+G06K 9/46 Loading...
+G06K 9/46
+Loading...
+201010608132.4
+Qingdao Hisense Trans Tech Co., Ltd.
+Sun Zhiyang
+G06K 9/46
+Loading...
+The invention discloses a license plate character segmentation method. The method comprises the following steps: preprocessing an image to obtain a preprocessed image; performing binarization to the preprocessed image to obtain a binary image, wherein license plate characters and the background are separated in the binary image; determining a template according to the character properties of the binary image, performing template matching by sliding the template on the binary image, determining the first two characters; and adopting a simplified clustering method to segment other characters on the license plate. The character segmentation method disclosed by the invention is suitable for the character segmentation of the image under various complex environments; and by adopting the method, the calculated amount can be reduced and the anti-interference capability can be increased.
+164. 102043624 Method for automatically programming intermediate communication interface and device
+CN
+04.05.2011
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201010593521.4
+Qingdao Hisense Trans Tech Co., Ltd.
+Liao Changbin
+G06F 9/44
+Loading...
+The invention provides a method for automatically programming an intermediate communication interface and a device. The method comprises the following steps of: adding notes and labels to a definitional language of an interface requiring automatic programming processing in a definitional language file of the interface; establishing a template file according to the type of the interface requiring automatic programming processing, wherein templates of interface programs corresponding to different types of interfaces are recorded in the template file; scanning the definitional language of the interface to acquire all the definitional languages with notes and labels; and calling the template file to automatically generate an interface program according to the definitional language of the interface and the corresponding notes and labels. Regarding the interface requiring automatic programming processing, in the definitional language file of the interface, the notes and labels are added to the definitional language of the interface, and the interface program corresponding to the interface is automatically generated according to the notes and labels and the established template file, so that the programming workload is reduced by the method for automatically programming the intermediate communication interface, and subsequent maintenance is facilitated.
+165. 201813484 视频监控控制装置及视频监控系统
+CN
+27.04.2011
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201020525626.1
+青岛海信网络科技股份有限公司
+徐骏宇
+H04N 7/18
+Loading...
+本实用新型提供一种视频监控控制装置及视频监控系统。视频监控控制装置，包括：用于实现矩阵级联功能和云台控制功能的串口模块、用于实现视频信号采集和录像功能的视频采集模块、用于实现视频解码输出功能的解码模块和用于实现高清视频输出和多屏显示功能的显示模块；串口模块、视频采集模块、解码模块和显示模块依次电连接在一起。通过串口模块实现视频矩阵和云台控制两种功能，可以使多个摄像机传输的视频信号通过串口模块传给视频采集模块，然后通过视频采集模块进行录像并将视频信号传给解码模块，通过解码模块对视频信号进行解码处理，最终通过显示模块将多个摄像机对应的视频信号分别输出，降低了视频监控系统的制造成本。
+166. 102006311 Streaming media multifunctional distributing system and method
+CN
+06.04.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010608116.5
+Hisense TransTech Co., Ltd.
+Wang Wei
+H04L 29/06
+Loading...
+The invention discloses a streaming media multifunctional distributing system which comprises a control module, a receiving module, an intermediate processing module and a transmitting module, wherein the control module is used for receiving a command transmitted by a business side and generating an internal control command; the receiving module is used for receiving the receiving command and streaming media data transmitted by a coder; if the internal control command comprises an intermediate processing command, the intermediate processing module is used for unpacking, converting and packaging the streaming media data received by the receiving module; and the transmitting module is used for transmitting the streaming media data received by the receiving module or the streaming media data processed by the intermediate processing module to the client side. The invention also discloses a streaming media multifunctional distributing method. By setting the intermediate processing step and a function plugin, the service forwarding function is enriched, and the flexibility and the practicability of service forwarding are improved.
+167. 102005124 Method and device for controlling traffic signals of intersections
+CN
+06.04.2011
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201010560046.0
+Hisense TransTech Co., Ltd.
+Chen Xiaoming
+G08G 1/07
+Loading...
+The invention provides a method and device for controlling traffic signals of intersections. The method for controlling traffic signals of intersections comprises the following steps: (1) detecting whether the road between an upstream intersection and a downstream intersection is congested or not by a congestion detector, wherein the congestion detector is arranged between the upstream intersection and the downstream intersection; and (2) if the road is congested, prolonging the time of the green light of the downstream intersection or shortening the time of the green light of the upstream intersection. When the road is congested, by prolonging the time of the green light of the downstream intersection, vehicles on the congested road can pass through the downstream intersection and run away from the congested road because of longer green light time, so that the congested road can be unblocked quickly; or by shortening the time of the green light of the upstream intersection, the number of the vehicles running on the congested road is reduced, so that the congested road can also be unblocked quickly, thereby realizing the purpose of reducing the occurrence of the phenomenon that the traffic capacity of the road network in a large range is lowered because a single intersection is congested.
+168. 201725436 公交报站器及交通工具
+CN
+26.01.2011
+G08G 1/123 Loading...
+G08G 1/123
+Loading...
+201020203359.6
+青岛海信网络科技股份有限公司
+于静
+G08G 1/123
+Loading...
+本实用新型提供一种公交报站器及交通工具。公交报站器，包括公交报站器主体，还包括用于放置集成电路卡的容置装置；所述容置装置设置在所述公交报站器主体上。通过在公交报站器主体上设置容置装置，可以方便的将IC卡放置到容置装置中，使IC卡能够固定在公交报站器上，当IC卡长时间与公交报站器进行信息交换时，无需用户长时间手持IC卡，从而方便用户使用公交报站器。
+169. 101950483 Repairing method and device for traffic data fault
+CN
+19.01.2011
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+201010288050.6
+Qingdao Hisense Network Technology Co., Ltd.
+Liu Wenguang
+G08G 1/01
+Loading...
+The invention provides a repairing method and a device for traffic data faults. The repairing method for the traffic data faults comprises the following steps of: judging whether data obtained by a detector is fault data or not; and repairing the data obtained by the detector if the obtained data is the fault data. By judging whether the data obtained by the detector is the fault data or not and confirming that the data obtained by the detector is the fault data, the data obtained by the detector is repaired so that the data repaired by the detector can more accurately reflect traffic conditions of roads, therefore, the fault data obtained by the detector is repaired with the repairing method for the traffic data fault so that the traffic data can completely and accurately reflect the traffic conditions of the roads.
+170. 101923710 Image tilt correction method and device
+CN
+22.12.2010
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201010221775.3
+Qingdao Hisense Network Technology Co., Ltd.
+Li Ting
+G06T 7/00
+Loading...
+The invention provides an image tilt correction method and a device. The image tilt correction method comprises the following steps: performing gray scale processing on the acquired image to obtain a gray image; and performing projection processing on the gray image to judge whether the gray image is tilted, if so, performing tilt correction processing on the gray image. The gray image is subjected to projection processing so as to judge whether the gray image is tilted; if the gray image is tilted, the gray image is subjected to tilt correction processing, and the gray image which does not tilt is not subjected to the tilt correction processing, thereby improving the correction efficiency of the image tilt correction method.
+171. 101916375 Method and device for extracting characteristic of Chinese character image
+CN
+15.12.2010
+G06K 9/48 Loading...
+G06K 9/48
+Loading...
+201010242814.8
+Qingdao Hisense Network Technology Co., Ltd.
+Wang Xiaoman
+G06K 9/48
+Loading...
+The invention provides a method and a device for extracting the characteristic of a Chinese character image. The method for extracting the characteristic of the Chinese character image comprises the following steps of: creating a wavelet function according to the detected Chinese character image; generating a texture map corresponding to the Chinese character image according to the wavelet function and the Chinese character image; and processing the texture map by a principal component analysis algorithm so as to extract Chinese character characteristic information corresponding to the Chinese character image. By creating the wavelet function according to the detected Chinese character image, processing the Chinese character image by the wavelet function to generate the texture map, and finally processing the texture map by the principal component analysis algorithm to accurately extract the Chinese character characteristic information corresponding to the Chinese character image, the invention effectively retains the characteristic details of each frequency of the Chinese character image, reflects the Chinese character characteristic information corresponding to the Chinese character image more accurately and improves the accuracy rate of the method for extracting the characteristic of the Chinese character image.
+172. 101916378 Method and device for recognizing confusable character
+CN
+15.12.2010
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201010236964.8
+Qingdao Hisense Network Technology Co., Ltd.
+Wei Nannan
+G06K 9/62
+Loading...
+The invention provides a method and a device for recognizing a confusable character. The method for recognizing the confusable character comprises the following steps of: recognizing a detected character image to obtain initial character information corresponding to the character image; if the initial character information is the confusable character, calculating the step change time of a profile corresponding to the character image; and determining final character information corresponding to the character image according to the step change time. Whether the initial character information is the confusable character or not is judged, the step change time corresponding to the character image is calculated under the condition that the initial character information is the confusable character and the final character information in the character image can be acquired conveniently according to the step change time, so that correct character information corresponding to the character image can be recognized more correctly, the possibility of faulty recognition of the character image caused by the occurrence of the confusable character is reduced effectively and the recognition accuracy of the method for recognizing the confusable character is increased.
+173. 101908280 Control method and device of signal light at ring road junction of express way
+CN
+08.12.2010
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201010236959.7
+Hisense TransTech Co., Ltd.
+Li Jin
+G08G 1/07
+Loading...
+The invention provides control method and device of a signal light at a ring road junction of an express way. The control method of the signal light at the ring road junction of the express comprises the following steps of: after the signal light of an auxiliary road turns green until the first green light duration finishes, if the auxiliary road is in a congestion state, controlling the signal light to continuously turn green until the second green light duration finishes; if the ring road is in the congestion state, controlling the signal light to turn red until the first red light duration finishes; judging whether the auxiliary road is in the congestion state or not; if the auxiliary road is in the congestion state, controlling the signal light to turn green until the first green light duration finishes; and if the auxiliary road is not in the congestion state, controlling the signal light to continuously turn red until the second red light duration finishes, wherein the first green light duration is less than the second green light duration, and the first red light duration is less than the second red light duration. By controlling the operation of the signal light, the traffic pressure of a main road and the auxiliary road is effectively relieved, thereby realizing the purpose of reducing the congestion of express way by using the control method of the signal light at the ring road junction of the express way.
+174. 101908271 Signal lamp color identification method and device
+CN
+08.12.2010
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201010221151.1
+Hisense TransTech Co., Ltd.
+Yang Jing
+G08G 1/00
+Loading...
+The invention provides a signal lamp color identification method and a signal lamp color identification device. The signal lamp color identification method comprises the following steps of: identifying the color of an acquired image of a signal lamp to determine that a first color lamp of the signal lamp is in an on state; setting a status bit corresponding to the first color lamp in a normally on state; detecting whether a second color lamp corresponding to a lamp which is matched with the first color lamp is in an on state or not; if the second color lamp is in the on state, setting the status bit corresponding to the first color lamp in an off state and setting the status bit corresponding to the second color lamp into a normally on state; and if the second color lamp is in the off state, keeping the status bit corresponding to the first color lamp normally turned on. After the first color lamp is known to be in the on state by identifying the color of the image, the status bit corresponding to the first color lamp is set in the normally on state, and thus, the signal lamp color identification method can accurately identify the on state of the signal lamp.
+175. 201667131 支持无线通讯的信号机及基于该信号机的无线控制系统
+CN
+08.12.2010
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+201020101268.1
+青岛海信网络科技股份有限公司
+李月高
+G08G 1/07
+Loading...
+本实用新型公开了一种支持无线通讯的信号机及基于该信号机的无线控制系统，包括机柜和控制器，所述控制器与一下位机无线通讯模块有线连接，通过下位机无线通讯模块与上位机建立无线通信链接，传输操控信号，实现上位机与信号机之间数据信号的无线传输，从而在信号机的内部控制方案需要变更或进行其他操作时，不需要开启信号机的机柜门，即可接收上位机发出的操控指令，实现对信号机控制方案的更新配置。不仅操作简便，省时省力，而且操作过程不受天气条件影响，可随时进行，可以有效避免信号机内部电气装置遭受恶劣环境的侵蚀破坏，进而提高了信号机运行的可靠性，延长了信号机的使用寿命。
+176. 101894476 Traffic signal cycle time calculating method and device
+CN
+24.11.2010
+G08G 1/08 Loading...
+G08G 1/08
+Loading...
+201010224666.7
+Hisense TransTech Co., Ltd.
+Chen Xiaoming
+G08G 1/08
+Loading...
+The invention provides a traffic signal cycle time calculating method and a traffic signal cycle time calculating device. The traffic signal cycle time calculating method comprises the following steps: calculating the traffic intensity of each phase according to the flow and time occupancy ratio, which are detected by a sensing detector, of each phase of a road intersection; calculating the sum of the traffic intensities of all phases of the road intersection; and calculating the traffic signal cycle time of the road intersection according to the traffic intensity of the road intersection. In the invention, the traffic signal cycle time of the road intersection is calculated according to the time occupancy ratio and flow information of the road intersection, which means the acquisition of the traffic signal cycle time takes both the influences of the flow information of the road intersection and the influences of the time occupancy ratio of the road intersection into consideration; therefore, a high-density and low-flow traffic state can be reflected effectively, the traffic signal cycle time of the road intersection can be calculated accurately according to the time occupancy ratio and flow information, and the reliability of the traffic signal cycle time calculating method is improved.
+177. 101877050 Automatic extracting method for characters on license plate
+CN
+03.11.2010
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+200910229978.4
+Hisense Network Technology Co., Ltd.
+Sun Zhiyang
+G06K 9/00
+Loading...
+The invention discloses an automatic extracting method for characters on a license plate, which is used for processing a license plate image by a combined global and local binarization method, wherein the global binarization processing is carried out for the license plate image by an Ostu method, the characters and background on the license plate can be accurately separated; and each split single character image is processed by the self-adaptive secondary local binarization method, and the integrity of the character details can be ensured. The method has small operand, high realizability and strong adaptability, can adapt to the license plate images under different environments and illumination conditions, and highlighting the character characteristic can improve the identification accuracy rate of the subsequent characters. The method can be used in an automatic identification system of new vehicle license plates based on digital video/image processing, and for realizing the automatic identification of vehicle license plates in the system.
+178. 201622683 信号机遥控器及基于所述遥控器构建的信号机控制系统
+CN
+03.11.2010
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+201020109925.7
+青岛海信网络科技股份有限公司
+李月高
+G08C 17/02
+Loading...
+本实用新型公开了一种信号机遥控器及基于所述遥控器构建的信号机控制系统，包括信号机和遥控器两部分；其中，在所述信号机中设置有基于ZigBee模块的接收单元；在信号机遥控器中设置有可与所述ZigBee模块建立起基于ZigBee协议的无线网络链接、传输操作指令的ZigBee射频模块，所述ZigBee射频模块与遥控器中的控制器相连接，接收控制器输出的操作指令。本实用新型的信号机遥控器采用基于ZigBee协议的无线通信技术建立与远程信号机的通讯链接，进行操作指令的传输，抗无线电干扰能力强，通信可靠，可以消除电磁干扰对无线电遥控信号产生的影响，避免信号机发生误动作或者失控，进而确保道路交通的实时畅通。
+179. 101867721 Implement method, implement device and imaging device for wide dynamic images
+CN
+20.10.2010
+H04N 5/232 Loading...
+H04N 5/232
+Loading...
+201010153269.5
+Qingdao Hisense Network Technology Co., Ltd.
+Bu Qingkai
+H04N 5/232
+Loading...
+The invention discloses an implement method, an implement device and an imaging device for wide dynamic images, wherein the implement method comprises the following steps: acquiring multiframe original images; acquiring the wavelet coefficient of each frame original image by respectively carrying out wavelet transform on the multiframe original images; acquiring the wavelet coefficient of fused images by fusing the wavelet coefficient of each frame original image; and acquiring fused wide dynamic images by carrying out inverse wavelet transform on the wavelet coefficients of the fused images. The implement method for the wide dynamic images in the invention has simple realization mode and wider dynamic range of the acquired images and can provide images containing more information and details for users.
+180. 101833754 Image enhancement method and image enhancement system
+CN
+15.09.2010
+G06T 5/50 Loading...
+G06T 5/50
+Loading...
+201010153257.2
+Qingdao Hisense Network Technology Co., Ltd.
+Bu Qingkai
+G06T 5/50
+Loading...
+The invention discloses an image enhancement method and an image enhancement system. The image enhancement method comprises the following steps of: changing an original image from RGB space into grayscale space to acquire a grayscale image corresponding to the original image; calculating the grayscale average value of the grayscale image, and comparing the grayscale average value with a preset threshold value and acquiring grayscale comparison result; performing contrast stretching on the original images, wherein contrast stretching parameters are determined by the grayscale comparison results; and performing image merging on images of which the contrast is stretched and the original images to acquire enhanced images. The images with poor contrast are processed by utilizing the image enhancement method to provide the images which have the clear contrast and contain much detail information for users.
+181. 201585216 一种机柜挂杆系统
+CN
+15.09.2010
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201020000820.8
+青岛海信网络科技股份有限公司
+赵洪源
+H05K 5/02
+Loading...
+本实用新型公开了一种机柜挂杆系统，其包括固定于机柜的第一固定架和环绕于杆体的环形支架，所述机柜挂杆系统还包括转接支架和紧固部件，所述第一固定架内设有凹槽，所述转接支架一端通过所述紧固部件固定于所述凹槽，另一端牵引所述环形支架。采用本实用新型，可根据需要自行调节，满足不同需要的设计，适应性强，且安装方便。
+182. 201570070 车道控制机
+CN
+01.09.2010
+G07B 15/00 Loading...
+G07B 15/00
+Loading...
+200920352362.1
+青岛海信网络科技股份有限公司
+赵新东
+G07B 15/00
+Loading...
+本实用新型公开了一种车道控制机，包括机箱、电源、工控部分及接口接线，其特征在于：所述机箱包括左侧及右侧单元，所述右侧单元通过隔板隔成上、下单元，所述工控部分位于所述隔板上方，所述电源位于左侧机箱内上方，所述接口接线位于所述机箱侧面板上。本实用新型结构合理，具有通用接口，易于维护，可广泛应用于国内高速公路上。
+183. 201549227 车载硬盘的安装装置
+CN
+11.08.2010
+G11B 33/08 Loading...
+G11B 33/08
+Loading...
+200920291718.5
+青岛海信网络科技股份有限公司
+李月高
+G11B 33/08
+Loading...
+本实用新型公开了一种车载硬盘的安装装置，包括壳体，设置于该壳体内的硬盘承载机构，还包括减震机构，所述减震机构包括内部减震机构和外部减震机构；所述内部减震机构与所述硬盘承载机构连接，所述外部减震机构与所述壳体连接。本实用新型中，由于在所述装置的内部及外部共同综合了多种减震方式，因而使得减震效果更佳。
+184. 201540736 一种车载硬盘的安装装置
+CN
+04.08.2010
+G11B 33/08 Loading...
+G11B 33/08
+Loading...
+200920291720.2
+青岛海信网络科技股份有限公司
+李月高
+G11B 33/08
+Loading...
+本实用新型公开了一种车载硬盘的安装装置，包括壳体，设置于该壳体内的减震机构及硬盘承载机构，所述硬盘承载机构包括连接所述减震机构的导轨，该导轨用以承载与其配合以实现推拉的硬盘。本实用新型中，将硬盘与硬盘承载机构和减震机构分离，从而不必连同所述硬盘承载机构和减震机构一起移出，使得携带方便，也便于数据的转移；另外，由于所述硬盘承载机构上设置了导轨，因而使得硬盘的推拉变得十分方便。
+185. 101782632 Testing system for optical feedback faults of signal lamp terminal
+CN
+21.07.2010
+G01R 31/44 Loading...
+G01R 31/44
+Loading...
+201010107105.9
+Hisense TransTech Co., Ltd.
+Gao Libo
+G01R 31/44
+Loading...
+The invention discloses a testing system for optical feedback faults of a signal lamp terminal, comprising an optical collecting unit for collecting an optical signal output by a signal lamp, an optical signal transmission unit for transmitting the collected optical signal to a photo electric conversion module, and the photo electric conversion module for converting the received optical signal to an electrical signal and transmitting the electrical signal to a signal machine controller to judge the operation state of the signal lamp. Employing a photo electric testing technique, the invention can judge the current operation condition of the signal lamp according to the on/off of the signal lamp to achieve correct and reliable testing to the operation faults of the signal lamp so as to overcome the misjudgment caused by the electric leakage of an external circuit in the traditional testing proposal. The front end of the system is designed in an all-optical design, thus effectively avoiding electromagnetic interference and being favorable for improving the accuracy and stability of fault diagnosis of the signal machine controller.
+186. 101783013 Image enhancement system and method applicable to traffic control
+CN
+21.07.2010
+G06T 5/50 Loading...
+G06T 5/50
+Loading...
+201010120064.7
+Qingdao Hisense Network Technology Co., Ltd.
+Bu Qingkai
+G06T 5/50
+Loading...
+The invention discloses a method applicable to the traffic control, which comprises the following steps: a. obtaining an original image; b. carrying out contrast grade stretching on the original image; and c. carrying out image merging on the original image and the image after the contract grade stretching; and d, outputting the merged images. In the invention, because of the adoption of the contract stretching and image merging on the candid images, the identification effect of the image is high. The invention discloses an image enhancement system used for the traffic control.
+187. 101783946 Video decoding method, video decoder and video monitoring system
+CN
+21.07.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201010104771.7
+Hisense TransTech Co., Ltd.
+Han Min
+H04N 7/26
+Loading...
+The invention discloses a video decoding method, a video decoder and a video monitoring system. The video decoding method comprises the following steps: judging the type and the quantity of received video streams; identifying each path of the video streams when the received video streams are a plurality of paths of standard definition video streams; decoding each path of the video streams in a parallel way; and combining the plurality of paths of decoded standard definition video images into a path of high definition video image for outputting. By using the video decoding method of the invention, one decoder can process the plurality of paths of the standard definition video streams at the same time and combine the plurality of paths of the standard definition video images into a path of the high definition video image for outputting; and high definition display equipment is sufficiently used for improving the definition of displayed video images and a video display effect on the premise of avoiding image distortion to the greatest extent.
+188. 101754038 Parallax extraction method
+CN
+23.06.2010
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+200910231239.9
+Hisense TransTech Co., Ltd.
+Li Yuegao
+H04N 13/00
+Loading...
+The invention discloses a parallax extraction method, which comprises: determining flat points and non-flat points of a left /right eye image; segmenting the left /right eye image into a plurality of pixel blocks, if all pixel points in the pixel blocks are of the flat points, executing the following processing: taking a pixel point of the pixel block as a central pixel point and carrying out matching search on the left /right eye image in the preset range in accordance with the gray-scale window matching principle to obtain the matching point of the central pixel point, and then calculating a parallax value; the remaining pixel points in the pixel block take the parallax value of the central pixel point as a rough parallax value; and for the remaining pixel points of the pixel block, taking the rough parallax value as a basis and carrying out matching search on the left /right eye image in the preset range in accordance with the gray-scale window matching principle to obtain the matching points of the remaining pixel points, and then calculating a precise parallax value. The precise calculation is carried out on the basis of rough calculation, thereby greatly reducing search range and reducing the computational complexity of matching.
+189. 101739553 Method for identifying target in parallax image
+CN
+16.06.2010
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+200910231186.0
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G06K 9/00
+Loading...
+The invention discloses a method for identifying a target in a parallax image, which comprises the following steps: (a) segmenting the parallax image to obtain a plurality of parallax regions; and (b) carrying out the projection positioning on the parallax regions to obtain the target position. In the invention, the parallax image is previously segmented, and the projection positioning is carried out on the segmented regions to obtain the target position, thereby greatly reducing the possibility of detection omission and having high identification rate.
+190. 101740091 Device for installing vehicle-mounted hard disks
+CN
+16.06.2010
+G11B 33/04 Loading...
+G11B 33/04
+Loading...
+200910253899.7
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G11B 33/04
+Loading...
+The invention discloses a device for installing vehicle-mounted hard disks, comprising a casing body and a hard disk loading mechanism arranged in the casing body. The device also comprises a damping mechanism, wherein the damping mechanism comprises an inside damping mechanism and an outside mechanism; and the inside damping mechanism is connected with the hard disk loading mechanism, and the outside damping mechanism is connected with the casing body. In the invention, because the inside and the outside of the device jointly integrate a plurality of damping modes, the damping effect is better.
+191. 101740092 Installation device of vehicle hard disc
+CN
+16.06.2010
+G11B 33/08 Loading...
+G11B 33/08
+Loading...
+200910253900.6
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G11B 33/08
+Loading...
+The invention discloses an installation device of a vehicle hard disc, which comprises a shell, a damping mechanism arranged in the shell and a hard disc bearing mechanism arranged in the shell, wherein the hard disc bearing mechanism comprises a guide rail which is connected with the damping mechanism, and the guide rail is used for bearing the hard disc used for realizing pushing and pulling by matching with the guide rail. In the invention, since the hard disc is separated from the hard disc bearing mechanism and the damping mechanism, the hard disc bearing mechanism and the damping mechanism are not needed to be moved out together, which facilitating carrying and data transfer; in addition, because the hard disc bearing mechanism is provided with the guide rail, pushing and pulling of the hard disc become convenient.
+192. 201494378 车载终端设备
+CN
+02.06.2010
+B60R 11/00 Loading...
+B60R 11/00
+Loading...
+200920305338.2
+青岛海信网络科技股份有限公司
+于静
+B60R 11/00
+Loading...
+本实用新型涉及城市公共交通使用的车载终端设备，是为了解决现有技术存在的挡片拆装不方便等技术问题。为了解决上述技术问题，本实用新型包括挡板和挡片，其特征在于：所述挡片的一端与挡板插装连接，另一端通过螺钉紧固在挡板上。由于本实用新型采用了上述技术方案，挡片与挡板间拆装非常方便，拧开唯一一个螺钉后，由于螺钉孔为长条形，挡片可以向外抽拉，使插接部从挡板内脱开，挡片可以螺钉为轴旋转180°，从而即可露出内置接口，可方便地实现单手操作，并有效避免了螺钉及挡片掉落现象，提高了工作效率。
+193. 201498104 接口扩展板及具有所述扩展板的车载终端
+CN
+02.06.2010
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+200920307564.4
+青岛海信网络科技股份有限公司
+徐龙芳
+G08G 1/01
+Loading...
+本实用新型公开了一种接口扩展板及具有所述扩展板的车载终端，集合了开关量采集功能、脉冲量采集功能、无线短程通讯功能、以及RS232/RS422接口和双CAN接口等功能，双CAN总线接口，不但能保证我们选取有用数据，也可起到备份的作用，一旦其中一路发生故障，可以立马切换到另一路，保障了后台及时收到车自身的数据。接收的数据通过DSRC无线通讯的方式上传数据，提高了数据的完整性和实时性，有效降低了网络阻塞和数据丢包的概率，从而提高了运行的智能化水平。
+194. 101710423 Matching search method for stereo image
+CN
+19.05.2010
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+200910231177.1
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G06T 7/00
+Loading...
+The invention discloses a matching search method for a stereo image, which comprises the process of performing dynamic adjustment on the search length of matching points, wherein the process judges the trend of matching error of the matching points, and finishes the matching process of current reference points if the increase trend is showed. The method determines whether the matching process continues to be executed or not by judging the variation trend of the matching error, thereby realizing the dynamic adjustment of the search length. By narrowing the search range, the unnecessary matching operation is reduced as much as possible, which not only improves matching accuracy and matching efficiency, but also ensures accurate matching of shadowed parts.
+195. 101694695 Vehicle type recognizing method
+CN
+14.04.2010
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+200910308609.4
+Hisense Network Technology Co., Ltd.
+Chen Weiqiang
+G06K 9/00
+Loading...
+The invention discloses a vehicle type recognizing method which comprises the following steps: the step of calculating the portion of the vehicle length in an image accounting for the image length on the same direction, the step of obtaining the practical length of the vehicle according to the proportion and the practical length after the image length on the same direction is demarcated, and the step of determining the vehicle type according to the practical length of the vehicle. In the method, since the vehicle type is measured through the parameter of length, and when the length or the proportion is in the set range, the vehicle type can be determined, thereby enabling the recognized result to be more accurate.
+196. 101694741 Background update method in traffic monitoring
+CN
+14.04.2010
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+200910019287.1
+Hisense Network Technology Co., Ltd.
+Guo Feng
+G08G 1/00
+Loading...
+The invention discloses a background update method in traffic monitoring, which comprises a process that whether a judgment background needs updating. The process that whether the judgment background needs updating comprises a step of judging traffic flow density and the step of deciding whether the background is updated according to traffic flow density. The invention uses the traffic flow density in the monitoring scene as the judgment bases for deciding whether the background is updated, which increases the accuracy of background updating.
+197. 101692271 Comprehensive guidance method of multiple means of transportation
+CN
+07.04.2010
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+200910019404.4
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G06Q 10/00
+Loading...
+The invention provides a comprehensive guidance method of multiple means of transportation. The method has the following effects: the method can carry out real-time comprehensive guidance on multiple means of transportation such as buses, taxies, private cars, ferries and the like, and make up the defect that the current guidance modes are single and can not obtain the dynamic traffic information in real time by guiding multiple means of transportation such as buses, taxies, private cars, ferries and the like in comprehensive consideration of time, space, costs and other factors; on the one hand, the method ensures the comprehensive traffic capacity of the network to be fully utilized by balancing the traffic flow on the network from the angle of the macro network, so as to improve the use efficiency of the entire transportation system, improve the safety of the transportation system, reduce the consumption of resources and lighten the environmental pollution; and on the other hand, the method helps the travelers to select proper means of traveling according to the real-time road condition information from the angle of the micro travelers, provides convenient, comfortable and fast traffic information services, guides travel route selection and improves the standard of living.
+198. 101661672 Traffic information interactive system facing traveler
+CN
+03.03.2010
+G08G 1/0962 Loading...
+G08G 1/0962
+Loading...
+200910307932.X
+Hisense Network Technology Co., Ltd.
+Li Yuegao
+G08G 1/0962
+Loading...
+The invention discloses a traffic information interactive system facing travelers, which comprises a traffic information acquisition device for acquiring real-time traffic information, a traffic information service center for receiving travel voice data containing a preset information structure transmitted by the traveler and identifying the voice data, a traffic information data center for receiving and storing the traffic information acquired by the traffic information acquisition device, storing bus route information, querying the bus route information according to identification results ofthe voice data of the traffic information service center, and sending query results and real-time traffic information related to the query results to the traveler by the traffic information data center in a voice transmission mode. In the system, the existence of a voice interactive mode, a short message interactive mode, a bus embedded machine interactive mode and a website interactive mode increases the real-time and pertinence of the traffic information interactive, and is convenient for the travelers to acquire the traffic information.
+199. 101631237 Video monitoring data storing and managing system
+CN
+20.01.2010
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+200910305216.8
+Qingdao Hisense Network Technology Co., Ltd.
+Chen Weiqiang
+H04N 7/18
+Loading...
+The invention discloses a video monitoring data storing and managing system which comprises a video analyzing device, a video coder, a memory, a data managing device and an input and output device, wherein the video analyzing device is used for carrying out background reference frame modeling on obtained video monitoring data so as to obtain a background reference frame and detecting a motion object according to the background reference frame so as to obtain a motion object; the video coder is used for carrying out video coding on each section of video monitoring data; the memory is used for storing video data coded by the video coder; the data managing device is used as a database managing system for storing and managing the index information; and the input and output device is used for displaying the index information and the video data. Because the index information containing the characteristic information of the motion object is obtained, displayed and stored, video can be inquired and retrieved by the index information, and the inquiring and retrieving efficiency is greatly improved.
+200. 101615344 Area traffic control method based on line coordination
+CN
+30.12.2009
+G08G 1/081 Loading...
+G08G 1/081
+Loading...
+200910016876.4
+Qingdao Hisense Network Technology Co., Ltd.
+Zhou Yongshun
+G08G 1/081
+Loading...
+The invention discloses an area traffic control method based on line coordination, which comprises the following steps: determining one of a plurality of crossroads as a related intersection and using a coordination phase on a subarea where the related intersection is positioned as a reference phase; determining the green light starting time of the coordination phase of the related intersection on the other subarea through the allocation of the green light starting time of the reference phase and the green ratio time of the related intersection; and calculating the green light starting time of residual coordination phases according to the green light starting time of the reference phase and the coordination phase and phase differences of all coordination phases of the area. Because the area traffic control method based on line coordination is used in the invention, conditions of areas including cross-subareas are fully considered, the traffic control of cross-subareas is coordinated, and the effect on the traffic control is better.
+

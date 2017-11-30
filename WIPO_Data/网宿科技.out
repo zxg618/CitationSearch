@@ -1,0 +1,2233 @@
+1. WO/2017/075923 METHOD AND SYSTEM FOR MANAGING REDIS KEY-VALUE
+WO
+11.05.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2016/073845
+WANGSU SCIENCE & TECHNOLOGY CO., LTD
+LIU, Yangbin
+G06F 17/30
+Loading...
+Provided are a method and system for managing Redis key-values configured to manage and control Redis key-values generated for a same service in a streaming framework. The method comprises: packaging Redis key-values generated for a same service, and storing the same in a same data bucket (S1); performing deduplication on the Redis key-values in the same data bucket for an external data call (S2); and performing a batch deletion of the Redis key-values being used for the external data call (S3). In the method, the data bucket is used to store the Redis key-values located in the same partition for the same service. Accordingly, the data bucket can be positioned to perform the deduplication on the Redis key-values stored therein for the external data call, and then the batch deletion of the Redis key-values being used for the external data call is performed. The invention enables an effective control on Redis key-values, so that a required Redis key-value can be found quickly.
+2. 106603728 HTTPS加速方法和系统、数据中心、节点服务云端
+CN
+26.04.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102017000074638
+网宿科技股份有限公司
+何晓峰
+H04L 29/08
+Loading...
+本发明公开了一种HTTPS加速方法和系统、数据中心、节点服务云端，本发明属于信息技术领域。所述方法包括：客户端根据收敛规则对目的域名进行收敛生成虚拟域名并发送给加速服务器；加速服务器根据收敛规则将虚拟域名还原成目的域名，并根据目的域名与源服务器建立通信连接。这样，本发明可在一次访问中将多次的SSL/TLS连接时间减少为1次，从而达到的减少SSL/TLS连接数的效果，可以有效提升HTTPS访问速度，同时降低了计算性能消耗。
+3. 106572090 数据传输方法及系统
+CN
+19.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610919517.X
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供了一种数据传输方法及系统，其中，该方法包括：发送端和接收端分别进行双边缓存安装模块、对端IP地址及端口类型的配置；发送端和接收端建立连接；发送端确认待发送的数据包是否符合对端IP地址及端口类型；在确认数据包符合对端IP地址及端口类型的情况下，发送端和接收端启动双边缓存功能传输数据包。采用上述方案，解决了相关技术中对存在冗余数据的数据包传输效率低的问题，提高了对存在冗余数据的数据包的传输效率。
+4. 206077014 一种电气试验现场专用电源
+CN
+05.04.2017
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201621112874.7
+国网江苏省电力公司宿迁供电公司
+詹坤
+H02J 7/00
+Loading...
+本实用新型一种电气试验现场专用电源属于电气试验领域，具体的是一种适用于电气试验现场使用的配套专用电源。包括输入充电部分、储能部分、输出功率逆变部分和多功能组合输出部分；输入充电部分包括依次相连的电源输入插座、输入整流电路、输入充电功率逆变电路和高频整流滤波电路，在输入充电功率逆变电路和高频整流滤波电路之间还设有高频降压变压器，输入充电功率逆变电路与输入充电控制电路相连；储能部分包括依次相连的储能锂电池、电池保护电路和电池状态指示电路；输出功率逆变部分包括依次相连的输出功率逆变电路、高频变压器和工频滤波器；输出功率逆变电路与输出控制电路相连。
+5. WO/2017/050116 GPU-BASED COMPLETE HARDWARE TRANSCODING METHOD AND SYSTEM
+WO
+30.03.2017
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+PCT/CN2016/097986
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD.
+HONG, Ke
+H04N 21/4402
+Loading...
+The present application relates to a GPU-based complete hardware transcoding method and system. Particularly, the method and system of the present application decode hardware by means of a CUVID packaged by an OPENCV on the basis of an original NVENC, perform transcoding calculation in a video memory by using newly developed transcoding logics, and finally perform encoding by using an NVENC encoder, thereby implementing a complete pure GPU hardware transcoding process.
+6. WO/2017/050117 NETWORK LOAD BALANCE PROCESSING SYSTEM, METHOD, AND APPARATUS
+WO
+30.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2016/097988
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD.
+HONG, Ke
+H04L 29/08
+Loading...
+Disclosed are a network load balance processing system, method, and apparatus. The network load balance processing method comprises: a virtual server establishes a connection with a client; the virtual server sends a control command to a rear-end server, and sends relevant information of the connection to the rear-end server, such that the rear-end server starts connection service for the connection according to the control command; and the virtual server forwards a data request packet from the client to the rear-end server, the rear-end server being used for: responding to the data request packet on the basis of the connection service, and sending a response message to the client. The present invention resolves the problem of high consumption of a network load balance processing memory, thereby achieving the effect of low consumption of the network load balance processing memory.
+7. WO/2017/050141 DISTRIBUTED STORAGE-BASED FILE DELIVERY SYSTEM AND METHOD
+WO
+30.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2016/098652
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+CHEN, Liang
+H04L 29/08
+Loading...
+The present invention provides a distributed storage-based file delivery system and method. The system comprises: a scheduling server; one or more source groups, each source group comprising a plurality of distributed file storage clusters, and each distributed file storage cluster comprising a plurality of data nodes. The scheduling server performs task scheduling and generating task commands on the basis of received tasks and according to operators to which the distributed file storage clusters belong and load information of the data nodes, the tasks being sent by a client or the data nodes. The data nodes that the task commands point to execute the tasks and/or distribute the tasks according to the task commands so as to maintain synchronization of data in all the distributed file storage clusters of a same source group. The present invention adopts a scheduling server to scheduling tasks of a plurality of distributed file storage clusters, thereby effectively improving the file delivery efficiency among the plurality of distributed file storage clusters.
+8. 106547788 数据处理方法和装置
+CN
+29.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510608871.6
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+本发明公开了一种数据处理方法和装置。该数据处理方法包括：解析日志记录，得到解析结果；分析业务需求和解析结果，得到对应的命令和键；批量压缩命令和键，得到压缩结果；将压缩结果保存到第一预设文件；将第一预设文件的内容提交至预设数据库。通过本发明，降低了数据处理占用网络资源的占用量。
+9. 106533974 应用程序的流量管理方法、系统及具有该系统的终端设备
+CN
+22.03.2017
+H04L 12/859 Loading...
+H04L 12/859
+Loading...
+102016000882916
+网宿科技股份有限公司
+刘成彦
+H04L 12/859
+Loading...
+本发明提供一种应用程序的流量管理方法、系统及具有该系统的终端设备，所述应用程序的流量管理方法包括以下步骤：读取所述应用程序发送的数据包的用于表示其来源的属性信息；根据该数据包的属性信息，判断发送该数据包的应用程序是否为指定播放工具，以对来源于指定播放工具的数据包和非来源于指定播放工具的数据包进行区别管理。本发明所述的应用程序的流量管理方法、系统及具有该系统的终端设备实现了对不同应用程序的流量进行精确管理，并且不需要APP的干预，不需要对终端设备系统架构进行改动。
+10. 106534099 三维处理方法、装置及系统
+CN
+22.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610970564.7
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供了一种三维处理方法、装置及系统，其中，该方法包括：中间服务器接收客户端发送的请求以及源站服务器对客户端发送的请求的响应，其中，所述请求用于请求在所述客户端显示的内容，所述内容包括绘制完毕的三维数据；所述中间服务器判断所述中间服务器本地是否保存有绘制完毕的三维数据，如果有则将所述绘制完毕的三维数据发送给所述客户端，如果没有，则向调度中心请求绘制所述三维数据。采用上述方案，解决了三维网站的大模型数据传输与用户交互上实时性差、绘制大场景效率低的问题，提高了三维网站的大模型数据传输与用户交互上的实时性、绘制大场景的效率。
+11. 106534328 节点连接方法及分布式计算系统
+CN
+22.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016001060923
+网宿科技股份有限公司
+刘成彦
+H04L 29/08
+Loading...
+本发明公开了一种节点连接方法及分布式计算系统，所述分布式计算系统包括若干客户端以及服务端，所述服务端包括映射表，所述节点连接方法包括：在所述映射表中记录节点信息以及节点间的映射关系；客户端根据节点信息访问分布式计算系统的服务侧；获取所述节点信息在所述映射表中对应的目标节点；所述客户端连接所述目标节点。本发明能够简化分布式计算系统的系统结构，降低系统管理成本，提高系统内客户端工作效率以及各服务器主备变更速度。
+12. 106534390 权威域名系统服务器数据的存储和管理方法及系统
+CN
+22.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201710059323.1
+网宿科技股份有限公司
+曹聪
+H04L 29/08
+Loading...
+本发明公开了一种权威域名系统服务器数据的存储和管理方法及系统，所述方法包括以下步骤：将授权域中不同视图的域名系统数据进行划分，得到域名系统数据存储信息，然后将域名系统数据存储信息分别发送给分发服务器和权威域名系统服务器；分发服务器按照域名系统数据存储信息将划分好的域名系统数据分发到相应的存储服务器上存储；权威域名系统服务器收到查询请求，按照域名系统数据存储信息在存储服务器上进行查询，然后将查询结果返回请求端。本发明解决了由于域名和视图数量激增带来的权威域名系统服务器存储瓶颈和查询效率下降的问题，以及域名系统数据分发和存储中的资源浪费问题，在合理优化的同时确保域名系统查询结果的正确性。
+13. 106534331 一种基于动态端口切换的数据传输方法和系统
+CN
+22.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201611078535.6
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种基于动态端口切换的数据传输方法和系统，所述方法包括以下步骤：发送端和接收端建立包含第一源端口的连接，然后所述发送端设置第二源端口；所述发送端通过所述第一源端口向所述接收端发送报文；当所述发送端与所述接收端连接被禁止时，所述发送端通过所述第二源端口与所述接收端建立连接并发送报文。本发明包括“连接禁止”自动检测机制和动态端口切换机制，通过动态的变换端口的机制，可以有效的解决传输链路基础设施对连接进行限制的问题，实现在传输协议层面的连接自动断线重连，对应用层完全透明，并保证数据传输的稳定性。
+14. 103220355 内容分发网络中的多用户配置方法
+CN
+15.03.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000139161
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种内容分发网络中的多用户配置方法，包括：读取配置文件；对所述配置文件进行解析，为所述配置文件中的每一用户分别创建用户配置，并将所述配置文件中各用户名下的配置项保存在对应用户的用户配置中。本发明按照用户来组织和使用配置项，避免了不同用户配置的相互影响，提高了配置文件加载和配置项查找的效率。
+15. 106503193 恢复浏览器中页面的方法及其装置
+CN
+15.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000943736
+网宿科技股份有限公司
+刘成彦
+G06F 17/30
+Loading...
+本发明公开了一种恢复浏览器中页面的方法及其装置，所述方法包括以下步骤：浏览器接收指令，打开页面一；浏览器接收指令，存储页面一的脚本状态数据，离开页面一，打开页面二；浏览器接收指令，存储页面二的脚本状态数据，离开页面二，重新打开页面一，在浏览器中恢复页面一的脚本状态数据，恢复页面一的脚本运行。本发明针对当前浏览器大多只缓存了网页主资源，却未对javascript脚本做相关的缓存，导致出现网页事件丢失等问题，提出一种解决如何缓存基于CrossWalk内核的浏览器V8引擎中javascript内容和状态，以及状态恢复的方法。本发明的方法能够有效提升页面的恢复速度，防止网页事件丢失，提升用户浏览体验。
+16. 106503008 文件存储方法和装置及文件查询方法和装置
+CN
+15.03.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102015000563992
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+本发明公开了一种文件存储方法和装置及文件查询方法和装置。该文件存储方法包括：接收日志数据；解析日志数据，得到多个元信息；将多个元信息划分为多个数据块；将多个数据块按序保存到内存缓冲区；根据内存缓冲区的多个数据块将日志数据保存到预设文件。通过本发明，达到了提高文件读写效率的效果。
+17. 106487691 虚拟路由器的数据处理方法、装置和虚拟路由器
+CN
+08.03.2017
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+102016000895814
+网宿科技股份有限公司
+洪珂
+H04L 12/741
+Loading...
+本发明公开了一种虚拟路由器的数据处理方法、装置和虚拟路由器。其中，该方法包括：以预设优先级在虚拟路由器中添加新增路由表，每个新增路由表中包含一个与虚拟路由器公网网关对应的路由规则；在待发送数据包的目标地址属于虚拟路由器公网的情况下，根据待发送数据包的源地址对应的新增路由表，将待发送数据包发送至目标地址；其中，预设优先级低于内网路由规则的优先级且高于默认路由规则的优先级。本发明解决了现有技术中使用不同的公网网段需要使用不同的虚拟路由器导致增加了使用虚拟路由器的复杂性的技术问题。
+18. 106452692 一种数据传输方法和系统
+CN
+22.02.2017
+H04L 1/18 Loading...
+H04L 1/18
+Loading...
+201611079298.5
+网宿科技股份有限公司
+洪珂
+H04L 1/18
+Loading...
+本发明公开了一种数据传输的方法和系统，所述方法包括以下步骤：发送端和接收端建立用户数据报协议；发送端将数据分成若干个数据包，然后向接收端发送数据包和分组询问报文；接收端接收数据包和分组询问报文，并根据数据包的接收情况和分组询问报文，向发送端反馈分组确认报文；发送端根据分组确认报文对丢失的数据包进行重传。本发明实现了一种基于数据包分组确认和丢包容忍的数据传输方法和系统。该方案能够准确识别丢失的数据包，减少误判；容忍一定比例的丢包，从而不降低发送速率，保证传输速率的稳定性，有效提高宽带利用率；可有效提高跨国、跨运营商等恶劣网络环境下数据传输效率。
+19. 106453668 一种文件反向上传方法和系统
+CN
+22.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201611214534.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种文件反向上传方法和系统，所述方法包括以下步骤：发送终端将待发送文件的文件信息发送至目标服务器；目标服务器根据文件信息进行下载任务分配，并生成下载任务，将下载任务发送至缓存服务器；缓存服务器在接收到下载任务后与发送终端建立连接，根据下载任务从发送终端下载对应的文件，并将下载到的文件发送至目标服务器以完成上传。本发明的技术方案成功解决了在网络差、缓存服务器故障、运营商限制等情况下的文件上传问题，提高了文件上传的效率。
+20. 106453675 302跳转方法、URL生成方法及系统、域名解析方法及系统
+CN
+22.02.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201610831336.1
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明提供跳转URL的生成方法、系统及跳转服务器，域名解析请求的解析方法、系统及DNS服务器，支持HTTPS的302跳转方法及网络系统。客户端发送第一HTTP请求；跳转服务器指定内容服务器并将其IP转换成跳转域名的前缀，将服务域名作为后缀，与第一HTTP请求的URL组成跳转URL发至客户端；客户端请求解析跳转域名；DNS服务器识别服务域名，对跳转域名的前缀进行逆转换，得到内容服务器的IP发至客户端；客户端向内容服务器发送包含跳转URL的第二HTTP请求；内容服务器将解析生成的HTTP响应发至客户端。解决了全站使用HTTPS时传统CDN系统中302跳转无法直接使用的问题，并能有效提高可扩展性。
+21. 106446246 通信系统、缓存服务器、缓存内容推送、查找方法及系统
+CN
+22.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610891253.1
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+本发明提供一种通信系统、缓存服务器、缓存内容推送、查找方法及系统，其中缓存服务器根据缓存推送请求的类型分别建立平衡树和字典树，且对接收的缓存推送请求的类型进行判断，当类型为正则表达式时，根据平衡树查找相匹配的树节点，当类型为相对路径时，根据字典树查找相匹配的树节点，且查找到相匹配的节点后，对节点对应的缓存内容进行更新。本发明灵活的根据缓存推送请求的推送规则的类型对缓存内容分别进行不同方式的存储和查找，查找的时间复杂度低且准确性高。
+22. 106453356 无线网络双边加速传输方法和系统
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610938700.4
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种无线网络双边加速传输方法和系统，包括以下步骤：客户端和服务端基于用户数据报协议构建双边加速传输协议；客户端和服务端基于双边加速传输协议进行数据传输。本发明的协议可以根据客户端不同的网络类型设置不同的初始传输窗口，是传输控制协议连接无法实现的。对于加快数据传输特别是小请求的传输具有比较好的效果，能够缩短网络带宽探测估算的时间开销。移动端的网络切换会比较频繁，传输控制协议在这种情况下需要重新创建连接才能继续通信，本发明的协议不需要重新建立连接，可以减少网络切换时重建连接的时间开销。
+23. 106412043 CDN网络流量引导方法和装置
+CN
+15.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610836267.3
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种CDN网络流量引导方法和装置。其中，该方法包括：CDN接收运营商承载网的承载网部署参数，其中，承载网部署参数包含有运营商承载网的网络资源部署信息；CDN接收用户请求；以及CDN根据承载网部署参数将用户请求调度至目标CDN节点，其中，CDN中设置有至少一个CDN节点，至少一个CDN节点包括目标CDN节点。本发明解决了相关技术中CDN根据经验对用户请求进行调度，导致调度带有盲目性的技术问题。
+24. 106411734 一种路由选择方法和路由器
+CN
+15.02.2017
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201610906761.2
+网宿科技股份有限公司
+刘成彦
+H04L 12/721
+Loading...
+本发明公开了一种路由选择方法和路由器，本发明属于通信技术领域。所述方法包括：在时间周期T1内，统计采集到请求数据包的源IP地址和/或目的IP地址，计算请求数据包的UV值和PV值；生成多个分组，每个分组对应一组服务端节点，其中，每个分组包括一个UV值区间和一个PV值区间；在时间周期T2内，将请求数据包的UV值和PV值分别与分组进行对照，根据请求数据包的UV值和PV值所在的分组，获得分组对应的服务端节点。本路由选择方法可以通过请求数据包的源IP地址和/或目的IP地址，再根据UV值和PV值动态调整路由。
+25. 106412054 将动态网址转换为静态网址的命名方法、系统及其应用
+CN
+15.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610855959.2
+网宿科技股份有限公司
+刘成彦
+H04L 29/08
+Loading...
+本发明涉及将动态网址转换为静态网址的命名方法、系统及其应用。所述方法包括：接收来自客户端的包含有动态查询网址的请求；从所述请求中解析出所述动态查询网址；根据标准将所述动态查询网址拆分成包含查询字符串的多个部分；对所述查询字符串进行散列计算；将经散列的查询字符串与拆分出的其它部分拼接出新的文件名；以及以该新文件名存储与所述动态查询网址相关联的备份文件。
+26. 103825906 基于内容分发网络的企业私钥自加密自部署方法
+CN
+15.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102014000097098
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种基于内容分发网络的企业私钥自加密自部署方法。该方法包括利用私钥加密客户端来加密需要部署的内容并发送至内容分发网络管理中心，其中私钥加密客户端允许用户在加密时自行设定加密密码；若密文发送成功，则内容分发网络管理中心生成密文ID，并将密文ID返回给私钥加密客户端；若用户选择立即进行私钥部署，则用户在私钥加密客户端输入密文ID和加密密码，并与内容分发网络管理中心平台连接校验；内容分发网络管理中心在收到私钥加密客户端的部署指令后，对密文ID所对应的证书和私钥进行可用性校验；若证书和私钥通过可用性校验，则利用内容分发网络管理中心平台进行自助预部署；以及若预部署成功，则用户进行全部节点自助部署。
+27. 106375128 基于PPTP VPN的加速访问方法、装置和设备
+CN
+01.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000825161
+网宿科技股份有限公司
+刘成彦
+H04L 12/24
+Loading...
+本发明提供了一种基于PPTP VPN的加速访问方法、装置和设备。PPTP VPN系统包括客户端、第一服务器、VPN服务器、以及作为加速系统的连接在第一服务器和VPN服务器之间的支持GRE协议的第二服务器集群。在客户端发起加速访问时，在第一服务器侧接收来自同一客户端的第一PPTP报文和第一GRE报文，并对第一GRE报文进行封装，连同第一PPTP报文发送至同一个第二服务器；对封装的第一GRE报文进行解封装，再对第一GRE报文和第一PPTP报文中的源地址进行修改，从而实现传输的可靠性；反向亦然。本发明加速了VPN服务器的访问速度，提高了用户的访问质量。
+28. 106357792 节点选路方法及系统
+CN
+25.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000884051
+网宿科技股份有限公司
+刘成彦
+H04L 29/08
+Loading...
+本发明提供一种用于节点选路的方法，其特征在于，包括：提供一种用于节点选路的方法，所述方法包括：由调度中心向入口节点预分配加速节点集群；在入口节点处接收用户访问请求；由入口节点处的服务部件根据用户访问请求从为该入口节点分配的加速节点集群中选择最优加速节点；以及针对所述用户访问请求，经由所述最优加速节点进行回源。本发明还提供了一种用于节点选路的系统。根据本发明的节点选路方法和系统可以所选选路时间、提高响应速度、提升系统处理效率。
+29. 106331766 视频文件的播放方法和装置
+CN
+11.01.2017
+H04N 21/24 Loading...
+H04N 21/24
+Loading...
+201610791427.7
+网宿科技股份有限公司
+洪珂
+H04N 21/24
+Loading...
+本发明公开了一种视频文件的播放方法和装置。其中，该方法包括：在视频播放器播放视频文件的过程中，扫描视频播放器的当前缓冲值；判断当前缓冲值是否大于预先设定的缓冲阈值；若判断出当前缓冲值大于缓冲阈值，则获取跳转时长，其中，跳转时长根据当前缓冲值和第一播放缓冲值得到；从卡顿时刻跳转跳转时长来继续播放视频文件，其中，卡顿时刻为播放完视频播放器的缓冲区中数据的时刻。本发明解决了由于网络拥塞和卡顿导致的延时累积的技术问题。
+30. 106331184 基于互联网的大数据分发方法和分发平台
+CN
+11.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016001085922
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种基于互联网的大数据分发方法和分发平台，分发方法包括以下步骤：任务调度管理平台向文件分发服务器和文件接收客户端分别发送分发任务信息；文件分发服务器和文件接收客户端分别接收分发任务信息，并根据所述分发任务信息分别进行状态检查；文件分发服务器与文件接收客户端建立最优数据分发通道；文件分发服务器通过最优数据分发通道，将分发任务的数据文件主动下发主动推送至文件接收客户端。本发明通过私有传输协议实现分发服务端到客户端的传输加速，克服传统传输协议实现超大文件传输尤其是200GB以上文件的网络性能限制瓶颈问题，实现任务定时下发和智能推送，构成统一的数据分发和调度管理平台。
+31. 106330997 一种用于移动终端应用的内容分发的方法和系统
+CN
+11.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510345155.3
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种用于移动终端应用的内容分发的方法和系统。该方法包括：移动终端应用集成嵌入软件开发库，并将一下载请求导入所述软件开发库，并等待接收下载数据；软件开发库接收移动终端应用导入的下载请求，并根据请求向缓存系统或源站下载首包，并根据该首包来确定是否可以启动p2p下载；如果确定可以启动p2p下载，软件开发库将剩余的未下载的数据切片成多个虚拟文件；软件开发库对所述多个虚拟文件逐一发起下载并缓存下载结果，直到所有的虚拟文件下载完成，其中，在下载所述虚拟文件过程中，软件开发库将已下载的虚拟文件实时转发给移动终端应用；在下载虚拟文件过程中，软件开发库根据分享策略将已下载并且已缓存的资源进行分享。
+32. 106302613 一种基于Windows Phone 8平台的引导应用流量的方法
+CN
+04.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510316722.2
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种基于Windows Phone 8平台的引导应用流量的方法，该方法包括：向系统注册HTTP/HTTPS前缀的请求创建模块并配置目标代理服务器的IP地址及端口；构造一个自主实现的支持代理设置的HTTP请求对象；在该HTTP请求对象中设置之前所配置的目标代理服务器的IP地址以及端口；将该HTTP请求对象返回给上层应用程序；解析所述上层应用程序的请求并按对应格式转发给所述目标代理服务器；接收HTTP响应的头部，构造HTTP响应对象返回给所述上层应用程序；从所述目标代理服务器接收所述HTTP响应的内容并转换成响应格式传递给所述上层应用程序。
+33. 106302661 P2P数据加速方法、装置和系统
+CN
+04.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610626593.1
+网宿科技股份有限公司
+刘成彦
+H04L 29/08
+Loading...
+本发明公开了一种P2P数据加速方法、装置和系统。其中，该方法包括：接收客户端发送的认证信息包，并获取认证信息包中的文件标识符，其中，文件标识符与客户端请求下载的文件对应；根据文件标识符通过预设算法得到与文件标识符对应的目标缓存加速设备的标识信息；将认证信息包的原目的标识信息替换为目标缓存加速设备的标识信息；按照认证信息包中替换后的标识信息将认证信息包发送至目标缓存加速设备。本发明解决了现有技术的P2P缓存加速中，将代理设备与缓存加速设备分开部署时，难以对多台缓存设备进行负载均衡的技术问题。
+34. 106294663 一种电子设备、及其应用的图片处理方法及系统
+CN
+04.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610634368.2
+网宿科技股份有限公司
+刘成彦
+G06F 17/30
+Loading...
+本发明提供一种电子设备、及其应用的图片处理方法及系统，以下载的图片的资源大小、部分字节、及后缀名为键值建立第一缓存映射表，且根据所述第一缓存映射表将所述图片缓存于本地。且在后续需要下载图片时，可先根据待下载图片的后缀名、资源大小以及部分字节在本地进行查找相匹配的图片，如果存在相匹配的图片，则直接获取，如果没有相匹配的图片，才从控制端对图片进行下载，避免了图片的重复下载，提高图片获取的效率，且以图片的后缀名、资源大小以及部分字节为键值进行匹配，提高匹配的准确率，可防止现有技术只以图片名称为键值进行匹配而产生匹配结果不准确从而图片需要重复下载而降低处理效率等的问题。
+35. WO/2016/206283 METHOD AND DEVICE FOR GUIDING VIDEO TRAFFIC, AND ELECTRONIC DEVICE
+WO
+29.12.2016
+H04N 21/858 Loading...
+H04N 21/858
+Loading...
+PCT/CN2015/094270
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD
+WU, Xin
+H04N 21/858
+Loading...
+A method and device for guiding video traffic, and an electronic device are provided in the present invention, the method comprising: constructing an initialization function of a new video URL; exchanging an address of an original initialization function and an address of the initialization function of the new video URL; and hijacking the original initialization function, that is, when a system calls a video corresponding to a request of the original initialization function, executing the new initialization function, so as to enable a target address in a modified URL to be an address of a specified proxy server, thereby guiding video traffic to the specified proxy server. Thus, guiding of traffic for a video request of a UIWebView control in iOS is achieved.
+36. WO/2016/201776 CONTENT DISTRIBUTION METHOD AND SYSTEM FOR MOBILE TERMINAL APPLICATION
+WO
+22.12.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2015/086979
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+HUANG, Zhongwang
+H04L 29/08
+Loading...
+Disclosed are a content distribution method and system for a mobile terminal application. The method comprises: integratedly embedding, by a mobile terminal application, a software development library therein, introducing a download request to the software development library, and waiting for receiving download data; receiving, by the software development library, the download request introduced by the mobile terminal application, downloading a first packet from a buffering system or a source site according to the request, and determining whether a peer-to-peer (P2P) download process can be initiated according to the first packet; if it is determined that the P2P download process can be initiated, slicing, by the software development library, the remaining undownloaded data into a plurality of virtual files; initiating, by the software development library, a download process for each of the plurality of virtual files one by one and buffering download results until all of the download processes of the virtual files are completed. In the download process of the virtual files, the software development library forwards the downloaded virtual files to the mobile terminal application in real time and shares the downloaded and buffered resources according to a sharing policy.
+37. 106254899 一种直播连麦的控制方法和系统
+CN
+21.12.2016
+H04N 21/2365 Loading...
+H04N 21/2365
+Loading...
+201610675536.2
+网宿科技股份有限公司
+洪珂
+H04N 21/2365
+Loading...
+本发明提供一种直播连麦的控制方法和系统，所述方法包括：建立第一直播端和第二直播端之间的连麦；分别接收所述第一直播端和所述第二直播端推送的直播流并供所述第一直播端拉流获取所述第二直播端的直播流，所述第二直播端拉流获取所述第一直播端的直播流；接收所述第一直播端推送的包含所述第一直播端的直播流和所述第二直播端的直播流的合并流并供观众端拉流获取所述合并流。本发明有效解决了主播与“二麦”之间存在跨区域、跨运营商现象而导致的音视频数据传输质量低下问题，有效保证了主播音视频数据与“二麦”音视频数据的同步性，对观看直播的观众下行带宽的要求更低。
+38. 106209896 基于音视频格式的流媒体加密方法和模块
+CN
+07.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000613721
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本申请涉及一种基于音视频格式的加密流媒体的方法和模块。其方案包括：接收需要加密的音视频文件和由用户所提供的用于加密的密钥；根据设定的加密级别，使用与所述加密级别相关联的加密算法来基于用户提供的所述密钥对所述音视频文件进行加密；输出经加密的音视频文件。
+39. 106170023 一种网络资源的处理方法、装置、系统以及服务器
+CN
+30.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610793091.8
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供一种网络资源的处理方法、装置、系统以及服务器，所述方法包括：在接收到用户终端发送的网络资源请求时，将网络资源请求传输至源站服务器；在接收到源站服务器返回的TCP报文时，判断TCP报文的可选字段中是否有与预先建立的内容标识存储表中的内容标识相同的内容标识，若是，则将可选字段中的内容标识添加到内容标识存储表中并将内容标识所对应的请求内容的连接复制后返回给用户终端，终止将用户终端的后续网络资源请求传输至源站服务器；若否，则将可选字段中的内容标识添加到内容标识存储表中并将TCP报文中携带的包含请求资源内容的连接返回给所述用户终端。本发明解决了TCP长连接应用中源站带宽使用量大的问题。
+40. 205716291 一种稳定性好的计算机服务器临时固定装置
+CN
+23.11.2016
+F16M 11/20 Loading...
+F16M 11/20
+Loading...
+201620591504.X
+宿迁风向标网络科技有限公司
+李培豹
+F16M 11/20
+Loading...
+本实用新型公开了一种稳定性好的计算机服务器临时固定装置，包括底板，所述伸缩腿的下端设有第二万向轮，所述底板的上端设有支撑杆，所述支撑杆的侧壁上沿竖直方向均匀设有螺纹孔，所述螺纹孔内插接有螺栓，所述螺栓的上侧设有弹簧，且弹簧套接在支撑杆上，所述弹簧的上侧设有杆套，且杆套套接在支撑杆上，所述杆套的侧壁上设有水平的托盘。该稳定性好的计算机服务器临时固定装置，当路面不好时，拉出伸缩杆，底板两侧的第二导向筒和伸缩腿，起到支撑平衡作用，防止底板发生歪斜，很好的保护了计算机服务器，而且，当路面比较好时，可以将伸缩杆取下，减小移动面积，这样在不增加底板面积的情况下提高了整体的稳定性。
+41. 106161158 提供增值服务的方法、装置和系统
+CN
+23.11.2016
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+102016000579496
+网宿科技股份有限公司
+刘成彦
+H04L 12/28
+Loading...
+本发明公开了一种提供增值服务的方法、装置和系统。其中，该方法包括：DNS重定向服务器从DNS请求中筛选得到满足预设条件的DNS请求，其中，满足预设条件的DNS请求为DNS请求中的目的网址为预设网址的DNS请求；DNS重定向服务器向发起满足预设条件的DNS请求的用户终端返回增值服务平台的IP地址；用户终端通过增值服务平台的IP地址请求增值服务。
+42. 106161636 提供增值服务的方法、装置和系统
+CN
+23.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000579422
+网宿科技股份有限公司
+刘成彦
+H04L 29/08
+Loading...
+本发明公开了一种提供增值服务的方法、装置和系统。其中，该方法包括：HTTP302重定向服务器从HTTP请求中筛选得到满足预设条件的HTTP请求，其中，满足预设条件的HTTP请求为HTTP请求中的目的网址为预设网址的HTTP请求；HTTP302重定向服务器向发起满足预设条件的HTTP请求的用户终端返回增值服务平台的IP地址；用户终端通过增值服务平台的IP地址请求增值服务。
+43. WO/2016/179894 CDN-BASED CONTENT MANAGEMENT SYSTEM
+WO
+17.11.2016
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+PCT/CN2015/084341
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD
+CHEN, Liang
+G06F 9/50
+Loading...
+Provided is a CDN-based content management system, comprising: a distributed scheduling center, a big data center, a task execution server cluster, a distributed reliable coordination system and a content cache server. The distributed scheduling center performs task scheduling according to a user request. The big data center stores client task request data. The task execution server cluster receives a task switching instruction transmitted by a distributed scheduling server, and transmits the task instruction to a corresponding region and the content cache server of an operator. The distributed reliable coordination system stores states and properties of all the servers of the content management system. The content cache server caches a file of the client. The CDN-based content management system provided in the present invention effectively manages the cached files.
+44. 106100863 提供增值服务的方法、装置和系统
+CN
+09.11.2016
+H04L 12/14 Loading...
+H04L 12/14
+Loading...
+201610579498.0
+网宿科技股份有限公司
+刘成彦
+H04L 12/14
+Loading...
+本发明公开了一种提供增值服务的方法、装置和系统。其中，该方法包括：验证用户终端的权限，用户终端将第一流量的目的网址替换为增值服务平台的网址，得到第二流量，其中，第一流量为通过验证的用户终端的上行流量中目的网址为预设网址的流量，分流设备从上行流量中筛选第二流量，并将筛选出的第二流量转发至增值服务平台，增值服务平台为第二流量提供增值服务。
+45. 106101161 一种用于处理伪造的TCP数据包的方法和系统
+CN
+09.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610743506.0
+网宿科技股份有限公司
+刘成彦
+H04L 29/06
+Loading...
+本发明涉及一种用于处理伪造的TCP数据包的方法和系统。具体而言，本发明利用待处理的TCP数据包头部的窗口大小字段与窗口扩大因子(Window Scale)计算出待处理的TCP数据包的接收窗口，并将它与实际接收窗口比较，随后，根据所述比较结果与阈值的偏差程度来判断所述待处理的TCP数据包是否是伪造的，从而更大概率地发现并丢弃伪造TCP数据包。
+46. 205681441 网络设备
+CN
+09.11.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201620117328.6
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本实用新型涉及一种网络设备。该网络设备包括设置在网络设备上的多功能按键，该多功能按键的不同组合能够触发对所述网络设备的对应配置操作。本实用新型的网络设备还包括处理单元，该处理单元包括：接收模块，用于接收来自用户对所述多功能按键的操作；标识模块，用于基于网络设备操作配置表来标识用户操作所对应的网络设备配置命令；执行模块，用于基于标识出的网络设备配置命令来执行网络设备配置操作；以及存储装置。本实用新型的网络设备还包括设置在网络设备上的状态指示机构。
+47. 103269353 Web缓存回源优化方法及Web缓存系统
+CN
+02.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000139117
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种Web缓存回源优化方法及Web缓存系统，该Web缓存回源优化方法包括：接收用户的Web请求；根据该Web请求指向的资源的至少部分文件内容确定该资源的文件指纹向量；根据该文件指纹向量判断该资源是否在资源缓存单元中；如果在，则将所述资源缓存单元中缓存的该资源返回至所述用户。本发明能够保证同一资源不会被重复缓存，提高缓存节点的利用效率，进一步减小带宽压力并提高用户体验。
+48. 106034330 基于内容分发网络的移动终端流量处理方法、装置及系统
+CN
+19.10.2016
+H04W 28/10 Loading...
+H04W 28/10
+Loading...
+102015000117473
+网宿科技股份有限公司
+洪珂
+H04W 28/10
+Loading...
+本发明公开了一种基于内容分发网络的移动终端流量处理方法、装置及系统。该方法包括：移动终端将数据信息发送至调度机构，其中，调度机构用于根据数据信息确定第一目标服务节点地址；移动终端接收第一目标服务节点地址；移动终端确定第一目标服务节点，第一目标服务节点为第一目标服务节点地址对应的服务节点；移动终端确定应用程序流量的服务类型，其中，应用程序流量的服务类型为根据应用程序执行网络访问的流量识别出的应用程序的服务类型；以及移动终端根据服务节点地址和应用程序流量的服务类型引导应用程序流量至第一目标服务节点。通过本发明，解决了现有技术中内容分发网络应用于移动网络中流量调度准确性较低、网络访问速度慢的问题。
+49. 106034073 一种基于内容分发网络的多路径传输优化的方法
+CN
+19.10.2016
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+102015000125588
+网宿科技股份有限公司
+洪珂
+H04L 12/721
+Loading...
+本发明提供了一种基于内容分发网络的针对同一机房内部的多路径传输优化的方法。所述方法包括：由客户端发送访问请求；在所述访问请求的机房流量入口处设置管理服务器，并通过所述管理服务器在所述流量入口处进行监听；定期获取TCP连接的服务质量信息并建立源IP地址与目的IP地址之间的映射关系；根据所述TCP连接的服务质量信息以及所述映射关系，判断当前内容服务器提供的服务是否是最优的，如果当前内容服务器提供的服务是最优的，则继续提供服务；如果不是，则选择最优的内容服务器以响应所述客户端的访问请求。
+50. 105991365 路径探测的方法、设备和系统
+CN
+05.10.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510091865.8
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+本发明公开了一种路径探测的方法、设备和系统。其中，该方法包括：中央服务器获取出口代理设备发送的探测结果信息，其中，该探测结果信息包括该出口代理设备在探测该出口代理设备与源站服务器的链路后得到的第一链路质量信息；获取入口代理设备至该出口代理设备之间的最优路径，并获得该最优路径对应的第二链路质量信息，根据该第一链路质量信息和该第二链路质量信息获取该入口代理设备与该源站服务器之间的链路路径的第三链路质量信息，根据该第三链路质量信息得到传输路径，其中，该传输路径包括该入口代理设备到该源站服务器经过的传输链路。解决了无法准确得到最优传输路径的问题。
+51. 103150497 Web应用开发的可视化权限配置方法、校验方法和系统
+CN
+28.09.2016
+G06F 21/45 Loading...
+G06F 21/45
+Loading...
+102013000116847
+网宿科技股份有限公司
+洪珂
+G06F 21/45
+Loading...
+本发明公开了Web应用开发的可视化权限配置方法，可以简化web系统中的权限管理，通过可视化的方式直观的体现用户权限状态，有效减少错误配置。其技术方案为：选择web应用开发权限所赋予的对象；以可视化的方式确定权限赋予对象和相应资源之间的联系；建立权限赋予对象和相应资源之间的映射关系，配置权限规则。此外，本发明还公开了Web应用开发的可视化权限的配置系统、校验方法和系统。
+52. WO/2016/145753 METHOD, DEVICE AND SYSTEM FOR PROCESSING TRAFFIC OF MOBILE TERMINAL BASED ON CONTENT DELIVERY NETWORK
+WO
+22.09.2016
+H04W 28/10 Loading...
+H04W 28/10
+Loading...
+PCT/CN2015/083112
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD.
+ZOU, Shuang
+H04W 28/10
+Loading...
+Disclosed are a method, device and system for processing traffic of a mobile terminal based on a content delivery network (CDN). The method comprises: transmitting, by a mobile terminal, data information to a scheduling mechanism, the scheduling mechanism being used to determine a first target service node address according to the data information; receiving, by the mobile terminal, the first target service node address; determining, by the mobile terminal, a first target service node, the first target service node being a service node corresponding to the first target service node address; determining, by the mobile terminal, a service type of application program traffic, the service type of the application program traffic being a service type of an application program recognized according to the traffic of the application program for executing a network access; and guiding, by the mobile terminal, the application program traffic to the first target service node according to the service node address and the service type of the application program traffic. The present invention addresses the problems of a low traffic scheduling accuracy and a slow network access speed in the prior art in which the CDN is applied to a mobile network.
+53. 105956423 认证方法及装置
+CN
+21.09.2016
+G06F 21/12 Loading...
+G06F 21/12
+Loading...
+201610251828.3
+网宿科技股份有限公司
+洪珂
+G06F 21/12
+Loading...
+本发明公开了一种认证方法及装置。其中，该方法包括：接收目标服务器请求安装服务端时发送的服务器信息；验证接收到的服务器信息是否与预配置服务器信息匹配，以确定目标服务器是否具有对服务端的安装权；在匹配的情况下，确定目标服务器具有对服务端的安装权。本发明解决了相关技术中注册码由于容易丢失或泄露，造成非法用户可在未被授权的情况下使用对应的软件产品，从而给企业和合法用户带来损失的技术问题。
+54. 105930191 系统服务的重载方法及装置
+CN
+07.09.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201610278178.1
+网宿科技股份有限公司
+洪珂
+G06F 9/445
+Loading...
+本发明公开了一种系统服务的重载方法及装置。其中，该方法包括：接收用于调用系统服务的调用请求，其中，系统服务中至少包括两条具有相同配置信息的服务进程；根据预先设置的服务重载状态，判断是否对系统服务进行重载，其中，服务重载状态至少包括：开启状态和关闭状态；当服务重载状态为开启状态时，获取与服务进程对应的进程属性，其中，进程属性用于标记创建服务进程的先后顺序；根据进程属性，确定在系统服务中用于应答调用请求的服务进程。本发明解决了由于系统服务重载，导致重载期间内的系统服务时延长的技术问题。
+55. 105915587 内容推送方法、系统、以及缓存服务器
+CN
+31.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000208278
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供一种内容推送方法、系统、以及缓存服务器，在缓存服务器接收到一内容推送请求后，令主进程对推送请求进行解析以构造一推送主任务，且将推送主任务存放于一共享内存中；并分别向各从进程发送通知信息；令各从进程分别根据接收的通知信息，从共享内存中读取相应推送子任务，并构造推送子请求，以执行推送子任务，且将执行结果发送至主进程；令主进程接收所有执行结果并进行综合分析得到主任务的执行结果，并响应内容推送请求。本发明令客户端不需要重复推送每个进程，只需往缓存服务器中某个进程发送推送请求，就能推送掉所有进程的相同缓存，既能提高推送效率，又能减少推送量，提高系统的运行性能。
+56. 105903191 跨终端的数据处理方法及系统
+CN
+31.08.2016
+A63F 13/42 Loading...
+A63F 13/42
+Loading...
+102016000218558
+网宿科技股份有限公司
+洪珂
+A63F 13/42
+Loading...
+本发明公开了一种跨终端的数据处理方法及系统。其中，该方法包括：接收目标终端发送的第一人机交互指令，其中，目标终端安装有游戏应用；基于预先设定的人机交互指令映射关系，确定出第一人机交互指令对应的第二人机交互指令，其中，第二人机交互指令与第一人机交互指令对应的游戏控制指令相同，第二人机交互指令为在游戏应用的原始代码中记录的用于指示游戏控制指令的指令；将第二人机交互指令发送至游戏应用服务器，其中，第二人机交互指令用于指示服务器执行游戏控制指令。本发明解决了现有技术中跨终端移植游戏应用时，因为重新定制人机交互方式，而大量修改原游戏代码，导致游戏应用跨终端移植成本高的技术问题。
+57. 103200278 源站文件更新发布方法及缓存文件更新方法
+CN
+31.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000147926
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种源站文件更新发布方法及缓存文件更新方法，该缓存文件更新方法包括：缓存服务器接收文件源站发布的更新通知，该更新通知采用正则表达式的方式表示资源文件的批量更新；该缓存服务器对缓存的资源文件进行遍历，将与该正则表达式相匹配的资源文件标记为过期。本发明能够高效快速地进行缓存资源的更新。
+58. 105897947 移动终端的网络访问方法和装置
+CN
+24.08.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016000218406
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明公开了一种移动终端的网络访问方法和装置。其中，该方法包括：按照移动终端上应用的鉴权请求的指示判断鉴权服务器的域名是否被劫持，移动终端通过鉴权服务器与数据中心的CDN服务器连接；在判断出鉴权服务器的域名未被劫持的情况下，判断CDN服务器的域名是否被劫持；在判断出CDN服务器的域名未被劫持的情况下，将CDN服务器作为移动终端的代理服务器；在接收到移动终端上的应用发起访问目标网站的访问请求时，通过代理服务器解析出对应于访问请求中域名信息的第一IP地址，移动终端通过第一IP地址访问目标网站。本发明解决了相关技术中由于DNS服务器造成的移动终端不能访问目标网站的技术问题。
+59. 105898775 一种实现移动app的定向UDP流量引导的方法和系统
+CN
+24.08.2016
+H04W 24/02 Loading...
+H04W 24/02
+Loading...
+102016000200010
+网宿科技股份有限公司
+洪珂
+H04W 24/02
+Loading...
+本申请涉及一种实现移动app的定向UDP流量引导的方法和系统。其技术方案，包括：系统初始化过程，包括：开启本地代理服务，取得用户标识符，鉴权并设置配置数据；UDP流量引导过程，包括：接收到UDP网络请求数据，UDP数据处理，发送到指定的远程引导节点，接收返回的UDP数据，处理返回的UDP数据，将经处理的UDP数据返回给移动APP。采用本发明所述方法和装置，解决IP收敛和UDP流量泄漏的问题。
+60. 105897694 一种客户端会话识别方法及系统
+CN
+24.08.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000178575
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供一种客户端会话识别方法及系统，包括判断客户端发送来的http请求数据包中是否存在Cookie标识；若存在，判断客户端发送来的http请求数据包中的Cookie标识是否被伪造；若是，清除http请求数据包中的Cookie标识，重新生成一个重定向到该http请求域名首页的数据包并发往服务端，并添加Cookie标识；若否，判断Cookie标识记录的结果是否支持JavaScript；若支持，则判断是否到达客户端的验证时间；若到达验证时间，则根据超过设定的缓冲时间没验证完成、在设定的缓冲时间内验证完成和在设定的缓冲时间内验证未完成的情况进行判断验证。本发明的客户端会话识别方法及系统能够使用客户端Cookie唯一标识来回溯整个客户端的浏览行为。
+61. 105847458 基于DNS的P2P缓存引导系统及方法
+CN
+10.08.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510023218.3
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明提供一种基于DNS的P2P缓存引导系统及方法，包括DNS服务器、策略服务器、转换服务器和重定向服务器；所述DNS服务器用于将用户的DNS白名单请求所对应的VIP返回给用户；所述策略服务器用于将指定目的VIP段的用户数据策略到转换服务器；所述转换服务器用于将用户的不同数据包引导到不同的源站服务器，并且将源站服务器返回的数据包转发给对应的用户；所述重定向服务器用于监听所有转换服务器发出去的数据包，甄选出有用的指定数据包进行重定向构造，然后返回给用户。本发明的基于DNS的P2P缓存引导系统及方法使得数据流量的引导方便可控，在没有重定向成功的情况下也可以从源站服务器获取到正确的数据。
+62. 105828096 媒体流文件的处理方法和装置
+CN
+03.08.2016
+H04N 21/231 Loading...
+H04N 21/231
+Loading...
+102016000341723
+网宿科技股份有限公司
+刘成彦
+H04N 21/231
+Loading...
+本发明公开了一种媒体流文件的处理方法和装置。其中，该方法包括：接收媒体流请求消息，其中，媒体流请求消息用于指示从预先存储的媒体段文件中获取子媒体段文件，媒体段文件为由多个子媒体段文件合并而成的文件，多个子媒体段文件为对播放器待播放的媒体流文件进行切割后得到的文件；以及响应媒体流请求消息，从预先存储的媒体段文件中获取子媒体段文件，并将获取到的子媒体段文件发送至播放器进行播放。本发明解决了相关技术中将媒体流文件切割成大量的小文件将会降低对小文件进行存取的效率，而将媒体流文件切割成大文件又将会导致对大文件请求的延迟大的技术问题。
+63. 105808287 一种重启网络服务的方法及系统
+CN
+27.07.2016
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201610104989.X
+网宿科技股份有限公司
+洪珂
+G06F 9/445
+Loading...
+本发明提供一种重启网络服务的方法及系统，所述方法包括：在接收到准备进行网络服务进程重启的准备信号时，配置Linux操作系统中Iptables的报文入队处理规则，将待处理报文从内核空间缓存到用户空间；通过于用户空间内设置一报文释放处理程序来实现在接收到网络服务进程重启完成的完成信号时，将用户空间缓存的待处理报文释放到内核空间，以使待处理报文与所述网络服务的新进程建立连接；所述IP信息包过滤系统利用NFQUEUE或者QUEUE将待处理报文缓存到用户空间。本发明只需要配置一条Iptables命令，以及一个用户空间程序即可实现，具有配置部署简单，对传出传入的连接都有效，使用场景不受限制等优点。
+64. 105812833 文件处理方法和装置
+CN
+27.07.2016
+H04N 21/231 Loading...
+H04N 21/231
+Loading...
+201610213593.9
+网宿科技股份有限公司
+洪珂
+H04N 21/231
+Loading...
+本发明公开了一种文件处理方法和装置。该文件处理方法包括：接收请求获取第一预设文件的请求命令；根据请求命令判断第二预设文件是否在服务器的本地缓存，其中，第二预设文件为第一预设文件的原始处理文件；如果根据请求命令判断出第二预设文件在服务器的本地缓存，将第二预设文件按照第一预设文件的索引进行切片处理，得到第一预设文件；如果根据请求命令判断出第二预设文件没有在服务器的本地缓存，发送请求命令至源站，其中，源站在接收到请求命令之后对第二预设文件按照第一预设文件的索引进行切片处理，得到第一预设文件。通过本发明，达到了降低源站对文件的处理压力的效果。
+65. 105812255 回源线路的选择方法及装置
+CN
+27.07.2016
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201610298114.8
+网宿科技股份有限公司
+洪珂
+H04L 12/721
+Loading...
+本发明公开了一种回源线路的选择方法及装置。其中，该方法包括：接收用于请求服务器提供目标服务的请求；获取请求在各条回源线路上传输时的往返时延；获取各条回源线路所花费的成本；根据请求在各条回源线路上传输时的往返时延和各条回源线路所花费的成本，确定各条回源线路中每条回源线路的选择值；根据确定的每条回源线路的选择值，从各条回源线路中选取最优回源线路。本发明解决了相关技术中由于多数网站在执行回源任务时都会选取质量最好的线路而导致的网络运营商带的成本投入不断增加的技术问题。
+66. 105791315 一种UDP协议加速方法和系统
+CN
+20.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610261388.X
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种UDP协议加速方法和系统。该系统包括客户端、加速服务器和源站，其中客户端包括处于应用层的本地代理和待加速的一个或多个本地应用以及处于IP层的网络过滤器。本地代理在收到请求后识别来自不同应用的重定向请求，并查询原始目的地址，将目的地址与请求封装后发送至加速服务器；加速服务器解析出原始目的地址，并代理请求，将响应返送回本地代理；本地代理收到加速服务器的响应后，查询加速记录，将响应转发至对应本地应用。
+67. 105763569 对账号鉴权的方法、客户端、服务平台及管理平台
+CN
+13.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000251827
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种对账号鉴权的方法、客户端、服务平台及管理平台。其中，该方法包括：获取由管理平台下发的用于登录指定客户端的目标账号；在利用目标账号登录指定客户端的过程中，向服务平台发送账号权限验证请求，其中，服务平台用于依据接收到的账号权限验证请求以及管理平台下发的账号权限验证信息，验证目标账号是否具有访问服务平台的权限。本发明解决了相关技术中由于账户鉴权及相关权限控制需要通过同一管理平台实现而导致该管理平台必须承受较大的访问压力的技术问题。
+68. 105763618 数据传输的方法和装置
+CN
+13.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610200997.4
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种数据传输的方法和装置。其中，该方法包括：检测客户端向目标服务器发送的数据传输请求；在检测到客户端向目标服务器发送的数据传输请求时，判断是否启用中转服务器，其中，中转服务器的传输速率高于目标服务器；若判断出启用中转服务器，则通过中转服务器向目标服务器发送数据传输请求所请求发送的数据。本发明解决了现有技术中数据传输过程中加速效果较差的技术问题。
+69. 105743934 一种HTTP访问可用性的优化方法和移动智能终端
+CN
+06.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410742240.9
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供一种HTTP访问可用性的优化方法和移动智能终端，所述移动智能终端包括SDK模块；HTTP访问可用性的优化方法包括：向多个DNS服务器发起DNS查询，生成HTTP服务器IP列表；移动智能终端向HTTP服务器IP列表的每一个HTTP服务器发出探测请求，根据响应时间和响应准确性生成HTTP服务器优先级列表；在移动智能终端有HTTP请求时，移动智能终端直接将HTTP请求根据HTTP服务器优先级列表向优先级最高的HTTP服务器进行转发和获取响应；并在转发或响应出现异常时，按照优先级别进行HTTP服务器的故障切换。本发明优化了DNS访问，规避了DNS劫持和污染，降低优化成本。
+70. 105743614 数据的传输方法和装置
+CN
+06.07.2016
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201610205817.1
+网宿科技股份有限公司
+洪珂
+H04L 1/00
+Loading...
+本发明公开了一种数据的传输方法和装置。其中，该方法包括：接收数据发送端通过第一目标传输路径发送的目标报文，其中，第一目标传输路径为第一时刻数据接收端与数据发送端之间建立的多个传输路径中的最优传输路径，目标报文用于表示数据发送端发送的原始数据中存在丢失的数据；判断目标报文是否为预设报文，其中，预设报文为数据发送端发送的原始数据经过前向纠错编码后的报文；如果判断出目标报文为预设报文，则对目标报文进行解析，得到解析信息，并将解析信息发送至数据发送端，其中，解析信息用于通知数据发送端重新传输解析信息所指示的数据。本发明解决了现有技术中数据传输效率较低的技术问题。
+71. WO/2016/101493 DATA TRANSMISSION METHOD AND DEVICE, TERMINAL AND STORAGE MEDIUM
+WO
+30.06.2016
+H04L 12/711 Loading...
+H04L 12/711
+Loading...
+PCT/CN2015/078704
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+HONG, Ke
+H04L 12/711
+Loading...
+Disclosed are a data transmission method and device, a terminal and a storage medium. The method comprises: establishing a physical connection between a first network element and a second network element; for each physical connection, establishing a plurality of virtual connections on the physical connection; according to a pre-set rule, selecting a first virtual connection from the plurality of virtual connections; and executing a data transmission process on the selected first virtual connection. By means of the present invention, the problems in relevant technology that the transmission quality is poor and resources are wasted when a TCP connection is employed to perform the data transmission are solved, thereby increasing data transmission efficiency.
+72. 105721304 一种自适应路由调整方法、系统及服务设备
+CN
+29.06.2016
+H04L 12/721 Loading...
+H04L 12/721
+Loading...
+201610208286.1
+网宿科技股份有限公司
+洪珂
+H04L 12/721
+Loading...
+本发明提供一种自适应路由调整方法、系统及服务设备，应用于包括路由设备和与所述路由设备连接的多个终端设备的通信网络，所述自适应基于服务可用性探测的路由调整方法包括以下步骤：实时监测网络内每一终端设备服务设备的运行服务状态，并收集每一服务终端设备在所述运行服务状态下的服务状态参数；分析所述服务状态参数，判断其是否为异常；若异常，则继续判断该服务设备是离散型异常还是持续性异常，若为持续性异常，则执行路由调整策略；若为离散型异常，则记录离散型异常的服务状态参数，并继续监控。本发明所述的自适应路由调整方法根据流量的提前疏导调整均衡，提升服务的可用性和可靠性。
+73. 105721484 一种流媒体的转推方法、系统及具有该系统的服务器
+CN
+29.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000124125
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供一种流媒体的转推方法，应用于转推服务器，转推服务器内设置多个目标转推渠道，每一目标转推渠道对应一与转推服务器连接的目标服务器，流媒体的转推方法包括：接收推流至转推服务器的流媒体；根据预存在转推服务器中的原始推流域名的相关配置参数，判断是否需要通过多个目标转推渠道转推该流媒体；若否，则将该流媒体直接推送至该转推服务器的上层目标地址；若是，则将该流媒体转推至所述多个目标转推渠道内，按照相关配置参数，将该流媒体推流至与目标转推渠道对应的目标服务器。本发明可实现多渠道的流媒体转推功能，实现了多渠道转推需求的灵活扩展需求，且基于目标IP地址的精确调度，准确的转推到最近节点，规避DNS解析弊端。
+74. WO/2016/095628 VIDEO TERMINAL AND VIDEO PLAY RESTRICTING METHOD AND SYSTEM THEREOF
+WO
+23.06.2016
+H04N 21/454 Loading...
+H04N 21/454
+Loading...
+PCT/CN2015/094269
+WANGSU SCIENCE & TECHNOLOGY CO., LTD
+HONG, Ke
+H04N 21/454
+Loading...
+Provided are a video terminal and video play restricting method and system thereof. According to the method, the restriction system obtains related information corresponding to video to be played or being played from data pack received from the video terminal and/or a video software installed on the video terminal; conducting authorization filtration on related information of the obtained video, if the video corresponding to the data pack is determined to be an authorized video, the video is permitted to be played, if the video corresponding to the data pack is determined to be an unauthorized video, the video is prohibited from being played. The present invention extracts related information of the video in the data pack to analyze whether the video to be played and being played is authorized, thus avoiding inability to close cached unauthorized video in an emergency situation.
+75. 105704034 接入网络的方法和中央服务器
+CN
+22.06.2016
+H04L 12/733 Loading...
+H04L 12/733
+Loading...
+201610209537.8
+网宿科技股份有限公司
+洪珂
+H04L 12/733
+Loading...
+本申请公开了一种接入网络的方法和中央服务器。其中，本申请的实施例所述的方法包括：中央服务器获取目标终端与第一加速服务器的第一传输距离，并且获取目标终端与第二加速服务器的第二传输距离；中央服务器获取第一加速服务器与源服务器的第三传输距离，并且获取第二加速服务器与源服务器的第四传输距离；中央服务器从第一传输距离与第三传输距离之和、第二传输距离与第四传输距离之和中选择最短传输距离；中央服务器将最短传输距离对应的路径中的加速服务器作为目标终端接入的目标加速服务器。本申请解决了现有技术中将终端接入网络时选择的路径不是最优路径的技术问题。
+76. 105704060 一种基于单连接多请求的流量控制方法
+CN
+22.06.2016
+H04L 12/807 Loading...
+H04L 12/807
+Loading...
+201410696767.2
+网宿科技股份有限公司
+洪珂
+H04L 12/807
+Loading...
+本发明提供一种基于单连接多请求的流量控制方法，包括步骤S1、服务端接收客户端发起的请求，并将请求转给源服务端；步骤S2、服务端接收到源服务器发回的响应后，将该响应切分成帧，放入待发送数据集合中该请求的响应链表中；步骤S3、服务端检测与客户端的连接是否可写，若是，进入步骤S4；步骤S4、依据系统缓冲区待发送数据大小来调整各个请求的发送窗口大小；步骤S5、从待发送数据集合中获取并发送数据到系统缓冲区中，转入步骤S3。本发明的基于单连接多请求的流量控制方法利用系统自身的TCP机制，在服务端实时计算当前每个请求的窗口大小，从而提高了流量控制的实时性；不需要客户端发送窗口变更通知，减少了上行的开销。
+77. 105681892 差分数据传输的方法、装置及系统
+CN
+15.06.2016
+H04N 21/44 Loading...
+H04N 21/44
+Loading...
+201610094820.0
+网宿科技股份有限公司
+洪珂
+H04N 21/44
+Loading...
+本发明公开了一种差分数据传输的方法、装置及系统。其中，该方法包括：在中间服务器的差分处理模块开关关闭的情况下，差分响应端接收数据请求信息；差分响应端解析数据请求信息，得到数据请求信息的类别；当数据请求信息为差分请求时，差分响应端判断差分请求是否携带预设标识；在判断结果为是的情况下，差分响应端返回第一数据响应信息；在判断结果为否的情况下，差分响应端返回第二数据响应信息。本发明解决了由于相关技术中差分请求段的基准缓存版本不一，导致差分响应端需要存储多份不同版本的基准缓存，从而浪费有限的缓存空间的技术问题。
+78. 105681491 一种域名解析加速方法、系统和装置
+CN
+15.06.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201610216679.7
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明提供了一种域名解析加速方法、系统和装置，域名解析加速装置连接于DNS解析器和一个或多个权威DNS服务器之间。域名解析加速方法包括接收由DNS解析器发出的解析待解析域名的第一请求，第一请求包括待解析域名的解析结果的记录类型；通过与待解析域名相关联的一个或多个权威DNS服务器进行待解析域名的递归解析，以获取整个递归解析过程中与待解析域名相关联的一个或多个权威DNS服务器响应的解析结果；收集所有的解析结果，并在所有解析结果中隐藏递归解析过程中出现的别名记录，选择与第一请求中待解析域名的解析结果的记录类型相同的解析结果响应至DNS解析器。本发明保证了域名的解析记录稳定有效，具有更精准的调度能力。
+79. WO/2016/086482 METHOD AND SYSTEM FOR GUARANTEEING RESOURCE UTILIZATION RATE OF WEBSITE USING CONTENT DISTRIBUTION NETWORK
+WO
+09.06.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2014/095483
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+CAI, Zhenhe
+H04L 29/08
+Loading...
+The present invention relates to a method and a system for guaranteeing the resource utilization rate of a website using a content distribution network. The method comprises the following steps: receiving a domain name resolution request sent by a local domain name server; monitoring a resource load of a source website corresponding to the domain name resolution request; determining the result of the domain name resolution request as one of the address of the source website and a content distribution network system by using monitored data and according to a predetermined strategy; and sending the domain name resolution result to the local domain name server.
+80. 105656699 内容分发网络的告警管理方法及系统
+CN
+08.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610188407.0
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本发明提供一种内容分发网络的告警管理方法及系统，方法包括：采集所述内容分发网络中运行的各节点服务器的访问日志；从各所述访问日志的内容中提取各告警记录，将各所述告警记录表示为一或多个特征字段及与所述一或多个特征字段对应的特征字段信息的形式作为各告警特征信息；建立与各所述告警特征信息相关联的筛选条件并加以存储，所述筛选条件包括：用于与所述一或多个特征字段及与所述一或多个特征字段对应的特征字段信息比对的一或多个预设字段及与所述一或多个预设字段对应的预设字段信息。本发明能够自动处理海量的告警记录，有针对性地筛选有用告警，降低告警故障排查的难度。
+81. 105653189 基于智能终端的虚拟主机手柄的方法及系统
+CN
+08.06.2016
+G06F 3/0488 Loading...
+G06F 3/0488
+Loading...
+201511005723.1
+网宿科技股份有限公司
+洪珂
+G06F 3/0488
+Loading...
+本发明提供一种基于智能终端的虚拟主机手柄的方法及系统，包括以下步骤：步骤S1、在智能终端的虚拟手柄界面上设置切换键，通过点击所述切换键实现左摇杆与方向键的切换、ABXY动作键与右摇杆的切换；步骤S2、通过获取所述智能终端的虚拟手柄界面上的LT键或RT键上的按压时长来模拟实体手柄对应的LT键或RT键的感应压力，并将按压时长转换为介于0~1之间的按键值。本发明的基于智能终端的虚拟主机手柄的方法及系统基于智能终端的屏幕特性和交互特性，不仅虚拟了主机手柄的所有按键，同时保证用户的操作体验；支持游戏过程，能够灵活切换功能键，减少了用户的误操作。
+82. 105657006 一种基于上网加速网络的首次访问加速方法和系统
+CN
+08.06.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201511015920.1
+厦门网宿软件科技有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种基于上网加速网络的首次访问加速方法和系统。该系统包括包含上网加速接入设备、包含各个上网加速节点的上网加速网络、上网加速源站以及与该上网加速接入设备和上网加速网络连接的中央服务器。可以根据以往的访问记录来计算出最优路径。如果不存在以往信息，可以根据源站的IP信息查找与之最相近的其他源站并根据以往的访问记录来计算出最优路径。如果不存在与之相近的源站信息，可以根据源站IP信息查找与之最接近的回源节点作为最优回源节点，然后在最优回源节点与上网加速接入设备之间选择一条最优路径。
+83. WO/2016/082289 CONTENT DISTRIBUTION NETWORK (CDN)-BASED WEBSITE ACCELERATION METHOD AND SYSTEM
+WO
+02.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+PCT/CN2014/095903
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+LIANG, Longhu
+H04L 12/26
+Loading...
+Provided in the present invention is a content distribution network (CDN)-based website acceleration method and system, the method comprising: detecting a resource structure of a website, acquiring a domain name and resource of the website; monitoring operational data of the website, acquiring a user individual IP distribution of an accessed website, analyzing and acquiring a region to which the user individual IP belongs, a network operator type and resource accessed by the user individual IP; connecting an accelerated domain name provided by each CDN accelerated service provider, according to operational data of the website, establishing a comparison task of comparing each CDN accelerated service provider to the acceleration effect of the website; according to a test result of the acceleration effect comparison task, acquiring the optimum accelerated domain name of the website in each region, each network operator, and different types of resource; selecting the optimum CDN accelerated service provider corresponding to each resource according to the optimum accelerated domain name. The present invention enables a website to select a CDN accelerated service according to a practical situation of the website, achieving an optimal acceleration effect in each national region, and reasonably controlling usage costs.
+84. 105634992 CDN平台自适应带宽控制方法和系统
+CN
+01.06.2016
+H04L 12/917 Loading...
+H04L 12/917
+Loading...
+201511009412.2
+网宿科技股份有限公司
+洪珂
+H04L 12/917
+Loading...
+本发明涉及一种用于CDN平台的自适应带宽控制方法和系统。在所述方案中，UI平台为自适应带宽控制系统提供统一的配置入口和功能操作界面。代理向控制中心注册任务以获得由控制中心所分配的可控制的CDN服务器资源，随后，对这些CDN服务器资源进行数据采集并将所采集的数据发送给控制中心。控制中心对采集的数据进行汇总和分析以生成自适应控制线并据此对代理下达控制指令。代理在接收到控制指令之后，通过对其进行自我学习调整生成最终的控制策略，并将该控制策略下达给对应的CDN服务资源以实现CDN平台的自适应带宽控制。
+85. 105610604 TCP传输数据的图形化分析方法和系统
+CN
+25.05.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510946845.4
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本申请涉及一种用于传输协议数据包的图形化分析方法和系统，特别针对TCP传输协议的数据包。所述图形化分析方法包括：判断要分析的传输协议数据包的存储格式；如果所述要分析的传输协议数据包的存储格式是支持的存储格式，则从读取的数据包的内容中提取相应不同的数据并将其写入到相应的图形文件中；基于从相应的图形文件中读取的数据来图形化展示所述传输协议数据包的传输过程。因此，所述图形化分析方法和系统能够尽可能地通过更加立体的图形化的方式将数据包尽可能详细的展示，便于分析者更加直观的分析在一段链接之中TCP协议的数据包相互交互的过程，更好发现和解决TCP协议传输过程中的问题。
+86. WO/2016/074323 HTTP SCHEDULING SYSTEM AND METHOD OF CONTENT DELIVERY NETWORK
+WO
+19.05.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2014/095485
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD.
+MO, Xiaoqi
+H04L 29/08
+Loading...
+The present invention relates to a hypertext transfer protocol (HTTP) scheduling system of a content delivery network (CDN), comprising: a central decision-making server, one or more central scheduling servers, and one or more edge scheduling servers. The central decision-making server is configured to generate a central decision-making file according to the bandwidth and loading information of a global server cluster. The central scheduling server is connected to the central decision-making server, the central scheduling server is configured to execute the central decision-making file, and when a content request of a client is received, selecting a preferred server cluster and a standby server cluster according to a geographical location and request content of the client, and returning to the client a jump address having the preferred server cluster and the standby server cluster. The edge scheduling server is disposed in a corresponding edge server cluster, and each edge scheduling server is configured to obtain bandwidth and loading status of the corresponding edge server cluster when the content request of the client is received, and determining thereby whether the request should be guided to the standby server cluster.
+87. 205229734 变电站避雷器数据同步采集传输装置
+CN
+11.05.2016
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201520979832.2
+江苏省电力公司宿迁供电公司
+刘群英
+G05B 19/042
+Loading...
+本实用新型变电站避雷器数据同步采集传输装置涉及变电站避雷器运行状态的数据采集转换传输技术领域，具体涉及一种用于智能变电站避雷器运行状态同步信息采集与传输的技术。包括传感器模块、信号处理模块和ZigBee无线传输模块，所述传感器模块由线圈绕制的霍尔电流传感器组成；传感器模块将所采集的避雷器的电压电流信号传向信号处理模块，所述电压电流信号经过信号处理模块中的功率放大器放大后，经ZigBee无线传输模块传向监控中心的上位机；信号处理模块包括多通道AD及调理电路模块、时钟同步模块、高速CPLD模块、DSP模块、IEC61850-9-2协议处理模块和FPGA模块。
+88. 105553748 网络设备配置方法和系统
+CN
+04.05.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610082082.8
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本发明涉及一种网络设备配置方法和系统。该网络设备具有多功能按键。本发明的网络设备配置方法包括接收来自用户对所述多功能按键的操作，基于网络设备操作配置表来标识用户操作所对应的网络设备配置命令，以及基于标识出的网络设备配置命令来执行网络设备配置操作，其中所述多功能按键具有多种可配置操作模式，每种操作模式与所述网络设备操作配置表中的对应的网络设备配置命令相关联。
+89. 105548739 一种避雷器运行状态信号处理方法
+CN
+04.05.2016
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201510877750.1
+江苏省电力公司宿迁供电公司
+刘群英
+G01R 31/00
+Loading...
+本发明一种避雷器运行状态信号处理方法涉及电力系统信号处理技术，特别涉及基于变电站避雷器运行状态在线监测的信号处理技术。该处理方法基于滤波、快速傅里叶变换、希尔伯特-黄变换与加汉宁窗修正的信号处理算法，包括数值滤波、傅里叶变换、汉宁窗修正和希尔伯特-黄变换；本发明算法基于避雷器运行状态的在线监测数据进行分析，提高了避雷器运行状态数据分析结果的有效性和直观性，为避雷器故障检修及在线监测提供了良好的分析手段。
+90. 105549769 基于智能终端的智能终端屏幕实现虚拟空鼠的方法及系统
+CN
+04.05.2016
+G06F 3/038 Loading...
+G06F 3/038
+Loading...
+201510954706.6
+网宿科技股份有限公司
+洪珂
+G06F 3/038
+Loading...
+本发明提供一种基于智能终端的智能终端屏幕实现虚拟空鼠的方法及系统，包括以下步骤：步骤S1、智能终端屏幕生成一个虚拟的空鼠节点；步骤S2、当智能终端发送来模拟的空鼠数据时，智能终端屏幕通过虚拟的空鼠节点接收所述模拟的空鼠数据；步骤S3、根据接收到的模拟的空鼠数据，智能终端屏幕生成对应的空鼠事件，以供智能终端屏幕的应用响应。本发明的基于智能终端的智能终端屏幕实现虚拟空鼠的方法及系统无需外接接收器，即可实现对智能终端屏幕的空鼠操作；无需在软件上匹配各类驱动；降低了用户使用的复杂度，减少了使用成本，增强了用户体验；不会影响智能终端屏幕外接辅助设备的时的所有功能。
+91. 105530255 验证请求数据的方法及装置
+CN
+27.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510954838.9
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种验证请求数据的方法及装置。其中，该方法包括：截获客户端发送的网络请求；解析网络请求，得到客户端的应用包名；依据预先存储的应用包名白名单匹配应用包名，判断应用包名是否在应用包名白名单中；在判断结果为否的情况下，丢弃网络请求；在判断结果为是的情况下，转发网络请求。本发明解决了由于相关技术中缺少对智能电视和/或电视盒子有效监管的技术，导致的非法电视客户端APP的使用的技术问题。
+92. 105487441 变电站避雷器数据同步采集传输装置及其控制方法
+CN
+13.04.2016
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201510864954.1
+江苏省电力公司宿迁供电公司
+刘群英
+G05B 19/042
+Loading...
+本发明变电站避雷器数据同步采集传输装置及其控制方法涉及变电站避雷器运行状态的数据采集转换传输技术领域，具体涉及一种用于智能变电站避雷器运行状态同步信息采集与传输的技术。包括传感器模块、信号处理模块和ZigBee无线传输模块，所述传感器模块由线圈绕制的霍尔电流传感器组成；传感器模块将所采集的避雷器的电压电流信号传向信号处理模块，所述电压电流信号经过信号处理模块中的功率放大器放大后，经ZigBee无线传输模块传向监控中心的上位机；信号处理模块包括多通道AD及调理电路模块、时钟同步模块、高速CPLD模块、DSP模块、IEC61850-9-2协议处理模块、其它类型协议处理模块和FPGA模块。
+93. 105491081 移动智能终端下转发应用内流量的方法
+CN
+13.04.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201410471822.8
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提出一种移动智能终端下转发应用程序内流量的方法，适用于iOS操作系统，该方法包括以下步骤：1)在该iOS操作系统的一种应用程序启动时，根据应用程序的配置决定是否需要启动代理，当需要启动代理时，在该应用程序上执行以下网络代理管理操作：使用一更新http代理函数替换该iOS操作系统的动态库中的原生http代理函数，该更新http代理函数包含代理服务器信息；使用一更新Socket连接创建函数更换该iOS操作系统的动态库中的原生Socket连接创建函数，该更新Socket连接创建函数的连接目标为该代理服务器；2)当该应用程序发出http或https请求时，使用该更新http代理函数指向该代理服务器，当该应用程序发出TCP/IP请求时，使用该更新Socket连接创建函数指向该代理服务器。
+94. 105450782 一种无丢包零停机重启网络服务的方法和系统
+CN
+30.03.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201610028287.8
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明涉及一种无丢包零停机重启网络服务的方法和系统，包括：a)所述网络服务的旧进程在一端口上进行监听；b)配置并启动过渡进程，所述配置包括使得所述过渡进程在与旧进程不同的另一端口上进行监听；c)在连接跟踪模块运行的同时，添加iptables规则来将定向到所述一端口的连接重定向到所述另一端口；d)一直等待直到所述旧进程上的已有连接全部处理完毕后，才退出所述旧进程；e)使用新的配置文件在所述一端口上启动新进程；f)重新配置iptables规则以取消端口的重定向；以及g)一直等待直到所述过渡进程上的已有连接全部处理完毕后，退出过渡进程。
+95. 105451046 基于智能终端的智能机顶盒虚拟手柄生成方法及系统
+CN
+30.03.2016
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+201510765624.7
+网宿科技股份有限公司
+洪珂
+H04N 21/41
+Loading...
+本发明提供一种基于智能终端的智能机顶盒虚拟手柄生成方法及系统，包括步骤S1、智能机顶盒与智能终端建立通信连接；步骤S2、智能机顶盒识别智能终端，并自动添加一个与该智能终端相对应的虚拟手柄设备；步骤S3、当使用智能终端进行虚拟手柄操作时，智能机顶盒接收智能终端发送来的虚拟手柄事件数据，在所述智能机顶盒系统内部生成对应的手柄操作事件，以供所述智能机顶盒的应用响应。本发明的基于智能终端的智能机顶盒虚拟手柄生成方法及系统能够完全模拟实体手柄设备的所有功能；对所有第三方应用完全适应，减少了用户设备投入成本；支持多个智能终端同时模拟多个虚拟手柄；支持虚拟手柄在智能机顶盒系统上的动态插入与拔出。
+96. WO/2016/041322 METHOD OF FORWARDING IN-APPLICATION TRAFFIC ON SMART MOBILE TERMINAL
+WO
+24.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/073000
+WANGSU SCIENCE & TECHNOLOGY CO., LTD.
+ZOU, Shuang
+H04L 29/06
+Loading...
+Provided is a method of forwarding in-application traffic on a smart mobile terminal, suitable for use in an iOS operating system, the method comprising the following steps: 1) when an application of the iOS operating system starts, determining whether to start a proxy according to a configuration of the application; if a proxy needs to be started, then performing the following network proxy management operations in the application: replacing a native http proxy function in a dynamic library of the iOS operating system with an updated http proxy function, the updated http proxy function comprising information about a proxy server; replacing a native socket connection creation function in the dynamic library of the iOS operating system with an updated socket connection creation function, the connection target of the updated socket connection creation function being the proxy server; 2) when the application initiates an http or https request, using the updated http proxy function to point to the proxy server; and when the application initiates a TCP/IP request, using the updated socket connection creation function to point to the proxy server.
+97. 105404498 移动智能终端下转发应用程序内流量的方法
+CN
+16.03.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201410471861.8
+网宿科技股份有限公司
+洪珂
+G06F 9/44
+Loading...
+本发明涉及一种移动智能终端下转发应用程序内流量的方法，适用于安卓操作系统，该方法包括以下步骤：在一代码重写工具包读取应用程序的字节码文件；在该代码重写工具包检索该字节码文件中与一个或多个网络请求对应的一个或多个第一字节码；在该代码重写工具包从一软件开发工具包中提取与各第一字节码对应的第二字节码，并以各第二字节码替换各第一字节码；以及将各第二字节码返回给该打包程序，从而使该打包程序使用重写的各第二字节码生成应用包。
+98. 105357190 访问请求鉴权的方法及系统
+CN
+24.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510703837.7
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种访问请求鉴权的方法及系统。其中，该方法包括：CDN服务器接收访问终端的访问请求，其中，访问请求至少包括用于标识访问请求的第一标识；如果在CDN服务器的本地缓存中查询到第一标识，CDN服务器在本地对访问请求进行鉴权,其中，鉴权用于确定访问请求的合法性；如果在CDN服务器的本地缓存中没有查询到第一标识，CDN服务器将访问请求发送至鉴权服务器进行鉴权。本发明解决了现有的回源鉴权的防盗链方法在任何情况下都只依靠鉴权服务器来对盗链请求进行识别，造成鉴权服务器负荷过大的技术问题。
+99. 105337793 一种网络线路广告监控方法、系统、及一种服务器
+CN
+17.02.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510617247.2
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+本发明提供一种网络线路广告监控方法、系统、及一种服务器，同时通过预设的未插入广告的样本线路和待监控线路进行相应访问，并对两者的访问反馈信息进行比对，以根据所述比对结果判断所述待监控线路是否有广告插入，本发明免除了现有技术中需要大量搜集广告关键词进行是否有广告插入的判断，而造成的效率低下，且免除了因为大量关键词的比对，造成是否有广告插入的判断的延迟的问题，本发明通过设置一条参照的线路，可以高效且及时的判断被监控线路中是否有广告插入的情况。
+100. 105337959 网络负载防攻击处理方法和系统及防攻击服务器
+CN
+17.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510622991.1
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种网络负载防攻击处理方法和系统及防攻击服务器。其中，交换机将来自客户端的握手信号包转发至防攻击服务器，其中，防攻击服务器用于根据握手信号包构造应答信号包；交换机然后转发应答信号包至客户端，其中，客户端用于根据应答信号包生成响应信号包；交换机再转发响应信号包至应用服务器，其中，应用服务器用于验证响应信号包的合法性并在验证响应信号包合法的情况下为客户端提供应用服务。通过本发明，提高了网络负载的防攻击性能。
+101. 105337808 数据传输的方法、装置及系统
+CN
+17.02.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510862271.2
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+本发明公开了一种数据传输的方法、装置及系统。其中，该方法包括：接收客户端发送的第一数据包；匹配第一数据包中的端口信息是否与预先存储的端口信息相同，端口信息包括：客户端端口、客户端地址、服务器端口和服务器地址；在匹配结果相同的情况下，将服务器端口重定向至中转服务器的指定端口；将端口信息中的客户端端口和客户端地址作为源端口和源地址，并以服务器端口和服务器地址作为目的端口和目的地址封装第一数据包；将封装后的第一数据包通过预先建立的数据连接发送至服务器。本发明解决了相关技术中由于在多个数据连接过程中需要监听多个数据端口，导致的在数据传输过程中端口资源和系统资源的消耗增加的技术问题。
+102. 105228000 一种基于GPU的完全硬件转码的方法和系统
+CN
+06.01.2016
+H04N 21/4402 Loading...
+H04N 21/4402
+Loading...
+201510621107.2
+网宿科技股份有限公司
+洪珂
+H04N 21/4402
+Loading...
+本申请涉及一种基于GPU的完全硬件转码的方法和系统。具体而言，本申请的方法和系统是在原本NVENC的基础上，借助OPENCV封装的CUVID进行硬件解码，然后在显存里使用新开发的转码逻辑进行转码计算，最后使用NVENC的编码器进行编码，从而实现完整的纯GPU硬件转码过程。
+103. 105162883 网络负载均衡处理系统及其方法和装置
+CN
+16.12.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510623156.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种网络负载均衡处理系统及其方法和装置。网络负载均衡处理方法包括：虚拟服务器与客户端建立连接；虚拟服务器向后端服务器发送控制命令，将连接的相关信息发送至后端服务器，以使后端服务器根据控制命令针对连接开启连接服务；以及虚拟服务器向后端服务器转发来自客户端的数据请求包，其中，后端服务器用于基于连接服务对数据请求包进行响应并将响应消息发送至客户端。通过本发明，解决了网络负载均衡处理内存消耗高的问题，进而达到了网络负载均衡处理内存消耗低的效果。
+104. 105162878 基于分布式存储的文件分发系统及方法
+CN
+16.12.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510616269.7
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种基于分布式存储的文件分发系统及方法，该系统包括：调度服务器；一个或多个源组，每一源组包括多个分布式文件存储集群，每一分布式文件存储集群包括多个数据节点；其中，所述调度服务器基于接收到的任务，根据所述分布式文件存储集群所属的运营商以及各个数据节点的负载信息进行任务调度并生成任务指令，所述任务由所述客户发出或者由所述数据节点发出；所述任务指令指向的数据节点根据所述任务指令执行任务和/或进行任务分发，以使得同一源组内的所有分布式文件存储集群内的数据保持同步。本发明采用调度服务器对多个分布式文件存储集群进行任务调度，从而能够有效提高多个分布式文件存储集群之间的文件分发效率。
+105. 105141660 一种流媒体管理方法及系统
+CN
+09.12.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510443095.9
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供一种流媒体管理方法及系统，所述流媒体管理方法包括：接收RTMP协议推送的流媒体数据，获取所述流媒体数据对应的URL；将所述流媒体数据采用的传输协议从RTMP协议转换成HTTP协议；遵照设定的负载均衡策略对所述URL进行负载均衡管理，确定所述URL对应至少一个上层服务器，并将采用HTTP协议的流媒体数据发送给所确定的上层服务器。所述流媒体管理方法还包括：接受到客户端的RTMP或者HTTP协议的播放请求，并进行相应的处理，返回RTMP或者HTTP协议的流媒体数据。本发明的技术方案用URL做负载均衡，大大降低了数据在流媒体服务器集群中的冗余。
+106. 105141636 适用于CDN增值业务平台的HTTP安全通信方法及系统
+CN
+09.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510617217.1
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供一种适用于CDN增值业务平台的HTTP安全通信方法及系统，客户端需从增值业务平台调度控制中心获取可用的身份令牌，并在向CDN节点发起HTTP请求时附带身份令牌信息，CDN节点识别身份令牌信息，拒绝令牌无效的请求，放行令牌有效的请求至源站。本发明的适用于CDN增值业务平台的HTTP安全通信方法及系统利用CDN增值业务平台的业务架构特性，在HTTP数据包中增加少量额外的安全数据，进行安全校验，在部署代价和额外资源消耗低于HTTPS的前提下，达成了安全传输的目的。
+107. 105100958 一种基于Android系统的视频流量引导的方法和装置
+CN
+25.11.2015
+H04N 21/81 Loading...
+H04N 21/81
+Loading...
+201510447234.5
+网宿科技股份有限公司
+洪珂
+H04N 21/81
+Loading...
+本发明公开了一种基于Android系统的视频流量引导的方法和装置。所述方法包括：劫持原始的播放器初始化函数；构造新的播放器初始化函数；该新的播放器初始化函数对原始的播放器初始化函数所传入的URL进行替换，其中该替换后的URL主机名与目标代理服务器的URL主机名一致；该新的播放器初始化函数用该替换后的URL调用该原始的播放器初始化函数。
+108. 105101147 一种实现移动app的定向流量的方法和系统
+CN
+25.11.2015
+H04W 4/24 Loading...
+H04W 4/24
+Loading...
+201510511519.0
+网宿科技股份有限公司
+洪珂
+H04W 4/24
+Loading...
+本申请涉及一种实现移动app的定向流量的方法和系统。其技术方案，包括：系统初始化过程，包括：开启本地代理服务，取得用户标识符，鉴权并设置配置数据；流量引导过程，包括：接收到请求数据，数据处理，发送到指定的远程引导节点，接收返回的数据，处理数据，将经处理的数据返回给移动APP。采用本发明所述方法和装置，解决IP收敛和流量泄漏的问题。
+109. 105072211 基于DNS的域名部署系统及方法
+CN
+18.11.2015
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510492447.X
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明提供一种基于DNS的域名部署系统及方法，包括配置模块、集群配置数据库、接口服务器、中心集群和DNS服务器集群；所述配置模块用于管理中心集群、DNS服务器集群以及两个集群之间的映射关系的配置；所述接口服务器用于按DNS后缀拆分DNS域名配置；所述中心集群用于接收并解析域名相关配置，并在分布存储后，使用MDT格式推送到所述DNS服务器集群进行部署；所述DNS服务器集群用于接收来自所述中心集群提供的MDT格式的tar包，合并任务并以集群方式提供DNS解析服务。本发明能够有效解决单中心部署系统应对海量域名时的中心存储瓶颈、并发度不高以及边缘DNS服务器硬件要求高、资源浪费等问题。
+110. 105072172 一种基于内容分发网络的热点统计及推送方法及系统
+CN
+18.11.2015
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510464547.1
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供一种基于内容分发网络的热点统计及推送方法，该方法包括：根据配置的热点统计方式，实时记录下辖的客户端的Web访问行为，并生成日志信息；周期性地统计分析日志信息，提取出热点信息，并从源站服务器下载本地未缓存的热点内容；在本地缓存本地未缓存的热点内容；提取出客户端的Web访问请求，若Web访问请求的内容未缓存在本地，则从源站服务器下载内容响应客户端并缓存；否则从本地获取内容响应客户端；提取出客户端的Web访问请求附带的热点摘要信息，根据热点摘要信息和配置的热点分发方式，向客户端推送热点内容。本发明在分布式网络边缘缓存节点中进行热点信息采集、统计及分发，加速了客户端对Web热点内容的访问。
+111. 105046011 基于分布式电网拓扑计算的电气设备状态快速分析方法
+CN
+11.11.2015
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510467588.6
+国电南瑞科技股份有限公司
+唐元合
+G06F 17/50
+Loading...
+本发明公开了一种基于分布式电网拓扑计算的电气设备状态快速分析方法，利用分布式电网拓扑计算结果，对分布式电网边界设备冗余建模，实现局部分布式电网内设备状态的快速分析，从而有效解决大规模电力网络中，集中式拓扑造成的设备状态分析效率低的问题，同时通过分布式电网局部拓扑计算降低电网局部运行方式变化对全局数据的影响，为电网系统的实时性提供了可靠保证，具有良好的应用前景。
+112. 104994093 一种服务负载均衡方法及系统
+CN
+21.10.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510376780.4
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供一种服务负载均衡方法及系统。服务负载均衡方法包括：服务端通过统一的代理端口号接收客户端的请求报文，请求报文包括连接请求报文或应用请求报文，根据连接请求报文建立服务端与客户端的连接，并为所建立的连接在内核中创建一个连接管理结构，连接管理结构中保存有与客户端的连接相关信息；当服务端接收到一个应用请求报文时，在内核空间为应用请求报文选择一个可用的端口号，根据发送应用请求报文的客户端对应的连接相关信息建立所选择的端口号与所述客户端的一个socket通道；端口号对应的应用服务实例根据应用请求报文提供相应的服务，并通过socket通道将服务结果反馈给客户端。本发明的技术方案能够大大提高系统效率。
+113. 104994079 访问请求的处理方法和装置、加速服务器
+CN
+21.10.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510316276.5
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种访问请求的处理方法和装置、加速服务器。其中，该处理方法包括：接收用户终端发送的用于访问源服务器的访问请求；判断访问请求对应的通讯协议是否为预设协议；若通讯协议为预设协议，则断开加速服务器与源服务器的连接，并将缓存于加速服务器中的目标数据发送至用户终端，其中，目标数据为访问请求所请求的数据。本发明解决了现有技术中不能对可缓存的TCP连接进行缓存加速的技术问题，实现了提高加速效率的效果。
+114. 104967629 网络攻击检测方法及装置
+CN
+07.10.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510419362.9
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了一种网络攻击检测方法及装置。其中，该方法包括：获取在待检测时段内，访问源访问目标资源的次数，其中，目标资源为与目标域名相关联的至少一个资源；根据访问源访问目标资源的次数，计算待检测条件熵，其中，待检测条件熵为在待检测时段内，当目标资源被访问时访问源的条件熵；判断待检测条件熵是否落入第一检测数据集，其中，在判断出待检测条件熵落入第一检测数据集的情况下，确定在待检测时段内，目标域名受到攻击。本发明解决了由于相关技术中仅根据访问源的访问频率或者仅根据目标资源被访问的频率，判断目标域名是否受到攻击，而造成的网络攻击检测准确率低的技术问题。
+115. 204694765 一种基于物联网技术的变压器铁芯接地电流检测装置
+CN
+07.10.2015
+G01R 19/25 Loading...
+G01R 19/25
+Loading...
+201520321312.2
+国家电网公司
+赵敏
+G01R 19/25
+Loading...
+本实用新型公开了一种基于物联网技术的变压器铁芯接地电流检测装置，与变压器铁芯电流传感器通信连接。所述变压器铁芯电流传感器安装于扁钢接地线上，用于采集接地线上的模拟电流信号。该基于物联网技术的变压器铁芯接地电流检测装置内置单片机控制电路、信号调理电路、时钟模块、ZIGBEE通讯模块、数据存储电路、无线通讯模块、串口通讯接口电路和为上述电路供电的电源电路。本实用新型相比现有技术具有以下优点：本实用新型提供的一种基于物联网技术的变压器铁芯接地电流检测装置，内嵌物联网无线传输终端，利用ZIGBEE网络为多台变压器铁芯电流检测装置组网，实时监控变压器铁芯电流数据。
+116. 104834722 基于CDN的内容管理系统
+CN
+12.08.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510239665.2
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+本发明提供一种基于CDN的内容管理系统，包括分布式调度中心、大数据中心、任务执行服务器集群、分布式可靠协调系统和内容缓存服务器；所述分布式调度中心用于根据客户请求进行任务调度；所述大数据中心用于保存客户任务请求数据；所述任务执行服务器集群用于接收分布式调度服务器发送的任务转换指令，并发送任务指令到对应区域和运营商的所述内容缓存服务器；所述分布式可靠协调系统用于保存内容管理系统的所有服务器的状态及属性；所述内容缓存服务器用于缓存客户的文件。本发明的基于CDN的内容管理系统能够实现对缓存文件有效管理。
+117. 104820612 一种可执行文件的内存执行方法
+CN
+05.08.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510268028.8
+网宿科技股份有限公司
+洪珂
+G06F 9/445
+Loading...
+本发明提供了一种目标程序的内存执行方法。该方法包括：宿主程序向服务器上请求目标程序，其中所述宿主程序位于目标机器内，所述目标程序位于所述服务器内；所述宿主程序解析所述目标程序的各个代码段，并将所述各个代码段映射到所述目标机器的内存的对应地址空间中；所述宿主程序解析所述目标程序执行时所需的传入参数，并将所述传入参数存储在所述宿主程序的当前进程的栈地址；所述宿主程序在向目标程序移交控制权前，释放本身执行时所占用的运行时内存空间；所述目标程序从所述栈地址获得传入参数并执行，所述宿主程序被所述目标程序覆盖。
+118. WO/2015/058705 DATA DISTRIBUTION METHOD AND APPARATUS
+WO
+30.04.2015
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+PCT/CN2014/089385
+WANGSU SCIENCE & TECHNOLOGY CO.,LTD.
+HONG, Ke
+G06F 9/54
+Loading...
+Disclosed in the present invention are a data distribution method and apparatus. The data distribution method comprises: a data distribution node receiving a data distribution request from a first application program to a second application program; the data distribution node determining a data distribution path between the first application program and the second application program according to the data distribution request; and according to the data distribution path, distributing data distributed from the first application program to the second application program. The present invention enables an improvement of the efficiency of data distribution.
+119. 204118467 智能机构箱驱潮装置
+CN
+21.01.2015
+H02B 1/00 Loading...
+H02B 1/00
+Loading...
+201420556867.0
+国家电网公司
+刘立
+H02B 1/00
+Loading...
+本实用新型提供一种智能机构箱驱潮装置，安装于需保护的机构箱内部，其包括加热装置，抽湿装置，吸附装置，集成温度传感器和湿度传感器的温湿度传感器，所述加热装置安装于所述机构箱内，所述吸附装置靠近且不接触所述加热装置的散热侧，所述温湿度传感器远离所述加热装置的散热侧，所述加热装置通过加热继电器电连接于加热电源，所述抽湿装置通过抽湿继电器电连接于抽湿电源，所述加热继电器、抽湿继电器电连接于温湿度控制器，所述温湿度控制器电连接并接收所述温湿度传感器的信号，所述加热装置还通过强制加热开关电连接于所述加热电源，所述抽湿装置还通过强制抽湿开关电连接于所述抽湿电源，该驱潮装置能有效防止机构箱受潮。
+120. 204115861 输电导线疲劳预警装置
+CN
+21.01.2015
+G01H 17/00 Loading...
+G01H 17/00
+Loading...
+201420543357.X
+国家电网公司
+李亚东
+G01H 17/00
+Loading...
+本实用新型公开了一种输电导线疲劳预警装置，所述装置包括三个振动加速度传感器、一个超声波损伤探测模块、信号调理模块、信号处理模块、供电模块以及无线传输模块。所述预警装置通过使用振动加速度传感器以及超声波损伤探测模块分别采集导线的振动以及超声回波得出导线的疲劳程度，具有测量准确，使用效果好的特点。此外，所述预警装置还包括风速以及风向传感器，充分考虑风速以及风向对导线振动的影响，进一步提高了导线状态测量的准确度，防止错误判断导线状态；供电模块采用太阳能供电或者高压感应供电，就地取电，使用方便。
+121. 104270291 Content delivery network (CDN) quality monitoring method
+CN
+07.01.2015
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201410567526.8
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+The invention relates to a content delivery network (CDN) quality monitoring method. A CDN comprises a data center, a bandwidth provider switch and edge nodes. The method includes the following steps that monitors in the data center carry out packet internet grope (PING) testing on node servers; the monitors in the data center carry out PING testing on the bandwidth provider switch networked with the data center; the monitors in the data center carry out testing on the edge nodes, if the edge nodes are controllable nodes, at least a part of PING testing, downloading rate testing and page Poll testing are carried out, and if the edge nodes are uncontrollable nodes, PING testing is carried out; the controllable nodes are edge nodes, capable of being logged into by a supervisor of the data center through the network and deploying downloading rate testing and page Poll testing, of HTTP website service, and the uncontrollable nodes are edge nodes, incapable of being logged into by the supervisor of the data center through the network or deploying downloading rate testing or page Poll testing, of the HTTP website service.
+122. 104266678 High-voltage transmission line fatigue monitoring system
+CN
+07.01.2015
+G01D 21/02 Loading...
+G01D 21/02
+Loading...
+201410484112.9
+国家电网公司
+李亚东
+G01D 21/02
+Loading...
+The invention discloses a high-voltage transmission line fatigue monitoring system, and relates to the technical field of mechanical vibration or ultrasonic detection devices. The monitoring system comprises a plurality of line fatigue early-warning devices installed on a transmission line, a line monitoring base station, a WEB server, a data backup server, a plurality of Internet user terminals, a user base station and a plurality of mobile user terminals. The system can monitor vibration and ultrasonic echo conditions of the transmission line in real time through the line fatigue early-warning devices, analyze the fatigue conditions of the line, send out warning information, assist operation departments in effectively maintaining the transmission line, and avoid the line breakage accident which is caused by breeze vibration to the transmission line.
+123. 104168210 基于智能路由的网络软件加速系统
+CN
+26.11.2014
+H04L 12/811 Loading...
+H04L 12/811
+Loading...
+201410387574.9
+网宿科技股份有限公司
+洪珂
+H04L 12/811
+Loading...
+本发明提供的基于智能路由的网络软件加速系统，其中，所述路由器端包括：加速服务端模块，用于接收到用户端加速控制命令时，输出VPN连接控制指令；开源VPN客户端模块，网络连接于多个开源VPN加速服务器，用于接收所述VPN连接控制指令并据以连接开源VPN加速服务器来创建至用户端的用于加速的VPN隧道；从而，可以加速路由器内网的各种用户终端设备如（PC、手机、平板电脑）运行的网络软件例如网络游戏等，稳定性及移植性佳，且只要对协议做一些专用性的变化，即可以使服务器更专用，防止被恶意盗用，从而通过上述如内网专用、服务器专用等方式使运行更加稳定，为目标用户提供更好的软件加速服务。
+124. 203520387 一种计算机硬件断电数据保护模块
+CN
+02.04.2014
+G06F 12/16 Loading...
+G06F 12/16
+Loading...
+201320489709.3
+宿迁祥天网络科技有限公司
+王其军
+G06F 12/16
+Loading...
+本实用新型涉及一种计算机硬件断电数据保护模块，具体的说是一种采用瞬间蓄电保存数据的一种措施机制系统。所述的模块支架内扣有硬盘、锂电池，硬盘与锂电池之间设有断电保护芯片；锂电池电源输出线通过通电计数器连接后接入机箱电源上，并在通电计数器上连接有复位键；模块壳内设有散热风扇，散热风扇通过散热孔进行排热；本实用新型实现了当突然之间断电，相关在制作的数据还来不及保存的时候，计算机内部的断电保护模块就启动实现了数据的短时间内的自动保存；从而使得计算机数据免受丢失的情况发生；通过计算机电源管理软硬件的结合，实现了全自动的计算机断电睡眠数据保护模式，从而在微型锂电池的保护下，实现了断电数据自动保存的目的。
+125. 203376550 电网缺陷远程观察数码记录仪
+CN
+01.01.2014
+G03B 17/17 Loading...
+G03B 17/17
+Loading...
+201320462051.7
+国家电网公司
+董昌宝
+G03B 17/17
+Loading...
+本实用新型适用于电网线路巡检技术领域，提供一种电网缺陷远程观察数码记录仪，包括壳体、设在所述壳体内的物镜、目镜、反光板以及一个图像传感器，所述目镜和图像传感器分布于所述反光板两侧，所述反光板上开有小孔，物体光线穿过所述物镜，一部分光线通过所述反光板反射从所述目镜照射出，一部分光线透过所述反光板上的小孔，照射在所述图像传感器上成像。通过本实用新型，线巡员可以对塔身及线路进行巡查并且拍照取证，大大缓解选线员的劳动强度，提高巡线精度，确保电网畅通。
+126. 203376421 复合绝缘子串带电检测装置
+CN
+01.01.2014
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201320461283.0
+国家电网公司
+董昌宝
+G01R 31/00
+Loading...
+本实用新型适用于电力检测领领域，提供一种复合绝缘子串带电检测装置。所述装置包括设置在复合绝缘子串外周的绝缘导轨架，所述绝缘导轨架上对称设置有至少两个电场探头，所述电场探头在所述绝缘导轨架上由电机机构驱动运行，所述装置还包括用于检测电场探头位移的位移检测器，所述位移检测器将检测到的位置数据输出至中央处理器，所述电场探头检测到电场强度后输出电场数据，所述电场数据依次通过放大电路、模数转换电路输出至所述中央处理器，所述中央处理器连接有用于保存所述电场数据和位置数据的存储器，以及用于显示出位置-电场强度关系曲线图的显示屏。本实用新型通过设置多个电场探头保证了复合绝缘子串缺陷检测的准确性，有效避免误检。
+127. 103457956 HTTP streaming media live broadcasting method and system based on multiple TCP links
+CN
+18.12.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310424840.6
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+The invention discloses an HTTP streaming media live broadcasting method and system based on multiple TCP links. According to the method and system, the transmission speed can be obviously increased, the problem of playing lagging caused by network congestion or packet dropout is solved, the live broadcasting with a higher code rate can be supported, and the user experience can be improved. According to the technical scheme, through the linking and binding technology, the multiple TCP links are related with one another on the service side, and streaming type data are dispersed to all the links to be transmitted. A client side splices the segmentation streaming type data received by all the links and can then conduct playing.
+128. 103439367 Composite insulator string live detection equipment
+CN
+11.12.2013
+G01N 27/00 Loading...
+G01N 27/00
+Loading...
+201310397758.9
+国家电网公司
+董昌宝
+G01N 27/00
+Loading...
+The invention is applicable to the field of power detection and provides composite insulator string live detection equipment. The equipment comprises an insulating guide rail bracket arranged at the periphery of a composite insulator string, wherein detection elements are arranged on the insulating guide rail bracket; each detection element comprises an electric field probe used for detecting the electric field intensity, and also comprises a temperature sensor used for detecting the temperature and/or a humidity sensor used for detecting the humidity; the equipment also comprises a motor mechanism used for driving the detection elements to operate on the insulating guide rail bracket, a displacement detector used for detecting the displacement of each detection element, and a central processing unit, an amplifying circuit, an analog/digital conversion circuit, a storage device and a display screen; detection data comprise electric field data and temperature data and/or humidity data. Electric field data are corrected through the temperature data and/or the humidity data, the defect detection accuracy of the composite insulator string is guaranteed, and the false detection is effectively avoided.
+129. 103401946 HTTP (hyper text transfer protocol) uploading acceleration method and system
+CN
+20.11.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310362191.1
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+The invention discloses an HTTP uploading acceleration method and system, which can shorten the response time, increase the response speed and reduce pressure of CDN (content distribution network) service nodes simultaneously for an HTTP uploading request meeting a certain condition. The technical scheme is as follows: uploading configuration is performed on a source station; static data is uploaded by a user through the uploading configuration; a CDN node receives a request; whether the received request is suitable for an uploading acceleration function is judged by the CDN node; if the request is not suitable for the uploading acceleration function, the data is uploaded to the source station, and a response returned from the source station is received and sent to the user; and if the request is suitable for the uploading acceleration function, the response is sent to the user after the user data is completely uploaded, the data is stored in local cache, and the data in the local cache is synchronized to the source station at any time thereafter.
+130. 103401942 内容分发网络节点实现web应用加速的方法和系统
+CN
+20.11.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310349444.1
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种内容分发网络节点实现web应用加速的方法和系统，保证了数据传输的稳定性和及时性。其技术方案为：优化后实时Web应用加速方案仍然保持对原有方案的支持，同时添加了基于WebSocket协议的高效实时Web应用加速方案，该方案将Web应用中的实时部分和非实时部分进行了分离，客户端呈现的非实时内容仍然采用HTTP协议来获取，而实时内容则采用WebSocket协议来获取。
+131. 103347103 实现IPv4和IPv6双网内容分发的系统和方法
+CN
+09.10.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310310905.4
+网宿科技股份有限公司
+洪珂
+H04L 29/12
+Loading...
+本发明公开了实现IPv4和IPv6双网内容分发的系统和方法，让IPv4和IPv6网络接入的用户可以顺利访问到内容服务商的内容服务，同时有效减小了源站的服务压力。其技术方案为：在IPv4和IPv6的双栈环境中部署一组服务集群，包括IPv4网络处理模块、IPv6网络处理模块、访问控制模块、缓存处理模块以及回源处理模块，实现了IPv4和IPv6双网内容分发，让IPv4和IPv6网络接入的用户可以顺利访问到内容服务商的内容服务，而不需要关心内容服务器是部署在IPv4网络内还是IPv6网络内。
+132. 103324481 通过汇编实现代码混淆的编译方法和系统
+CN
+25.09.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310258325.5
+网宿科技股份有限公司
+洪珂
+G06F 9/44
+Loading...
+本发明公开了通过汇编实现代码混淆的编译方法和系统，解决了安卓ARM平台下无法隐藏系统调用，通过反汇编核心技术容易被竞争队首破解的问题，从而增加软件被破解的难度。其技术方案为：方法包括：编写核心函数；反汇编核心函数；创建可执行内存映射区；往内存映射区复制核心函数的汇编代码；步骤5：执行内存映射区的汇编代码，生成混淆后的核心函数。
+133. 103281568 实现流媒体直播动态码率的方法及系统
+CN
+04.09.2013
+H04N 21/238 Loading...
+H04N 21/238
+Loading...
+201310146474.2
+网宿科技股份有限公司
+洪珂
+H04N 21/238
+Loading...
+本发明提供了一种实现流媒体直播动态码率的方法及系统，该方法包括：源服务器仅提供具有第一码率的高码率媒体流；内容分发网络服务器从该源服务器获取该高码率媒体流；所述内容分发网络服务器转换该高码率媒体流得到多路低码率媒体流，所述多路低码率媒体流分别具有低于所述第一码率的多种不同码率；所述内容分发网络服务器根据与播放器间的数据传输状况，将所述多路低码率媒体流其中之一或高码率媒体流的路径动态更新至播放列表内，并将该播放列表发送至所述播放器以供播放。本发明能够减小源服务器的工作负担和运行复杂度，也有利于降低源服务器所需的带宽。
+134. 103279420 优化的移动终端应用程序自动化测试方法和系统
+CN
+04.09.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201310229401.X
+网宿科技股份有限公司
+洪珂
+G06F 11/36
+Loading...
+本发明公开了一种优化的移动终端应用程序自动化测试方法和系统，提高移动终端应用程序自动化测试的效率和开发质量。其技术方案为：选取相对节点，获得所选取的相对节点到目标节点的父子关系；将相对节点和目标节点的父子关系存储在数组中；基于数组存储的父子关系，通过标示属性的值查找目标节点并返回查找到的目标节点对应的元素对象；根据查找返回的元素对象，操作对应的测试控件进行自动化测试。
+135. 103269353 Web缓存回源优化方法及Web缓存系统
+CN
+28.08.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310139117.3
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种Web缓存回源优化方法及Web缓存系统，该Web缓存回源优化方法包括：接收用户的Web请求；根据该Web请求指向的资源的至少部分文件内容确定该资源的文件指纹向量；根据该文件指纹向量判断该资源是否在资源缓存单元中；如果在，则将所述资源缓存单元中缓存的该资源返回至所述用户。本发明能够保证同一资源不会被重复缓存，提高缓存节点的利用效率，进一步减小带宽压力并提高用户体验。
+136. 103248709 无线信号自动化仿真方法及系统
+CN
+14.08.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310195767.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种无线信号自动化仿真方法及系统，该方法包括：移动终端组织请求，该请求包含网络状态参数以及目标路径；代理机接收该请求，根据该请求内的网络状态参数设置该代理机与Web服务器之间的无线网络状态；所述代理机根据所述无线网络状态模拟相应的无线网络信号以访问所述Web服务器。本发明能够实现无线网络信号的自动化模拟仿真。
+137. 103237031 在内容分发网络中的有序回源方法及装置
+CN
+07.08.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310149174.X
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供了一种在内容分发网络中的有序回源方法及装置，该方法包括：接收用户请求；如果该用户请求需要回源，则判断源站服务器当前的处理负荷是否达到预设的限定值；如果所述源站服务器当前的处理负荷达到该预设的限定值，则对该用户请求进行排序等待；在所述源站服务器的处理负荷低于该预设的限定值时，所述源站服务器对排序最先的用户请求优先进行处理。本发明能够有利于减小源站服务器的压力，提高对用户回源请求的响应效率。
+138. 103227801 基于内容分发网络的HTTPS证书部署方法及系统
+CN
+31.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310178363.X
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明提供了一种基于内容分发网络的HTTPS证书部署方法及系统，该方法包括：对证书和私钥进行加密，生成加密包；CDN平台保存该加密包，并验证该加密包中的证书和私钥的可用性；若该加密包中的证书和私钥可用，则所述CDN平台自动向CDN边缘节点部署该加密包。本发明能够降低企业和CDN服务商的安全风险，而且有利于节约CDN服务商的人工成本。
+139. 103227839 内容分发网络服务器区域自治的管理系统
+CN
+31.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310173427.7
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种内容分发网络服务器区域自治的管理系统，提高了对大型服务器集群的管理效率，降低了对大型服务器集群的维护难度。其技术方案为：系统包括中心调度服务器和多个区域自治集群，其中每一区域自治集群由多个边缘服务器组成，中心调度服务器接收外部输入数据，对边缘服务器进行区域自治集群的划分、调度和管理，一方面接收所有边缘服务器的网络心跳回报和部署结果反馈，另一方面分发指定配置给各个区域自治集群的代表服务器。
+140. 103220355 内容分发网络中的多用户配置方法
+CN
+24.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310139161.4
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种内容分发网络中的多用户配置方法，包括：读取配置文件；对所述配置文件进行解析，为所述配置文件中的每一用户分别创建用户配置，并将所述配置文件中各用户名下的配置项保存在对应用户的用户配置中。本发明按照用户来组织和使用配置项，避免了不同用户配置的相互影响，提高了配置文件加载和配置项查找的效率。
+141. 103218299 优化的蚁群算法测试用例自动生成方法和系统
+CN
+24.07.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201310184996.1
+网宿科技股份有限公司
+洪珂
+G06F 11/36
+Loading...
+本发明公开了一种优化的蚁群算法测试用例自动生成方法和系统，能够自动生成与优化测试路径，并进一步改进测试用例的自动生成算法。其技术方案为：借助测试路径的自动生成与测试用例的自动生成相结合，通过蚁后插桩、不可覆盖路径排除、初始用例优化、以及信息素动态调整和用例优化，实现测试路径和测试用例的自动生成和优化。
+142. 103209222 内容分发网络中对重叠乱序的范围请求的处理方法及装置
+CN
+17.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310145495.2
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种内容分发网络中对重叠乱序的范围请求的处理方法及装置，该方法包括：在边缘节点服务器接收到带重叠和/或乱序的范围的客户请求时，检测该边缘节点服务器本地是否存在对应于该客户请求的内容缓存；如果本地存在对应于该客户请求的内容缓存，则从该内容缓存中提取该客户请求标识的内容范围；将提取的该内容范围返回至客户端。本发明能够在接收到带重叠或乱序的范围的客户请求时更高效地响应，有效地节省了资源。
+143. 103200278 源站文件更新发布方法及缓存文件更新方法
+CN
+10.07.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310147926.9
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明提供了一种源站文件更新发布方法及缓存文件更新方法，该缓存文件更新方法包括：缓存服务器接收文件源站发布的更新通知，该更新通知采用正则表达式的方式表示资源文件的批量更新；该缓存服务器对缓存的资源文件进行遍历，将与该正则表达式相匹配的资源文件标记为过期。本发明能够高效快速地进行缓存资源的更新。
+144. 103176900 Automatic detection method and system for mobile terminal application program optimization effect
+CN
+26.06.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201310048126.1
+网宿科技股份有限公司
+洪珂
+G06F 11/36
+Loading...
+The invention discloses an automatic detection method and system for a mobile terminal application program optimization effect. The automatic detection method and system for the mobile terminal application program optimization effect can automatically simulate requirements and quantize an overall optimization effect of webpage loading and the optimization of each requirement. According to the technical scheme, a mobile terminal application program automatically accesses a web page and obtains requirements and response packets before and after optimization; the requirements before and after the optimization are obtained and non-empty packets are responded through filtering empty packets; the overall effects, before and after the web optimization, of the mobile terminal application program are automatically analyzed; and the effect, before and after the optimization, of each URL link of the mobile terminal application program is automatically analyzed.
+145. 103150402 Index-code-based virtual file system, establishment method and access method
+CN
+12.06.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310102492.0
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+The invention discloses an index-code-based virtual file system, an establishment method and an access method, decreases read and write operations generated during file merge, reduces system IO load, and ensures that a file merge operation is completed without reading or writing content. The technical scheme is as follows: a system comprises an interface module, for receiving a merge request from a user and generating an index file, wherein the merge request contains a plurality of original files and target mirror image files; an index catalogue module, for connecting with the interface module and storing the generated index file via an index catalogue structure, wherein the index files are one-to-one correspond to the target mirror image files, and the index file contains the file information of the target mirror image files and the originals files; and a mirror image file system, for connecting with the index catalogue module, and generating a corresponding target mirror image file in the mirror image file system according to the index file in the index catalogue structure and the original file pointed out in the index file.
+146. 103078936 基于GFS的分布式文件系统的元数据分级存储方法和系统
+CN
+01.05.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210592003.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于GFS的分布式文件系统的元数据分级存储方法和系统，减少主服务器master的内存压力和瓶颈，从而提高分布式文件系统的存储访问性能和可靠性。并且将元数据信息分级存储，既能最大限度地满足用户需求，又可使存储成本最小化。其技术方案为：采用分布式文件系统提供源站服务，通过分级存储主服务器master的元数据信息，也就是在主服务器master启动时将最近一段时间的文件的元数据信息这部分保存在内存中，一些暂时不会被使用到的元数据信息保存在固盘中，还有一些长期都不会被访问的数据还可以直接存储在磁盘中，通过这种元数据存储的分级来减少了master大量元数据信息造成的内存压力和瓶颈。
+147. 202918328 内网安全装置
+CN
+01.05.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201220254754.6
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本实用新型公开了一种内网安全装置，构建一个完整一致的内网信息解决方案，基本解决了内网信息安全问题。其技术方案为：三类源服务器，分别是第一类源服务器、第二类源服务器、第三类源服务器；安全网关，连接所述第一类源服务器；Linux无盘系统服务器，连接所述第二类源服务器；上网行为管理服务器，连接所述第三类源服务器；核心网络设备，分别连接所述安全网关、所述Linux无盘系统服务器、所述上网行为管理服务器；至少一个终端，连接所述核心网络设备。
+148. 103067517 结合重定向和主动连接的P2P缓存服务器系统和实现方法
+CN
+24.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210592070.1
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种结合重定向和主动连接的P2P缓存服务器系统和实现方法，可结合重定向和主动连接两种方式，提供高实时性和高可靠性的P2P缓存服务。其技术方案为：利用重定向的方式，监控到用户的下载请求后，立即尝试将其引向缓存服务器，从而尽可能的保证实时性。还可以主动获取下载用户信息，利用主动连接功能，缓存服务器主动连接到下载用户并提供资源，防止重定向失败等导致的用户未向缓存服务器请求资源，解决重定向可靠性不高的问题，即使在重定向成功率很高的情况下，也可通过主动连接，增加服务对象和服务效果。
+149. 103037009 基于智能编码的加速方法和系统
+CN
+10.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210572951.7
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种基于智能编码的加速方法和系统，使用户得到正确的文件格式，降低文件传输时间，提升客户体验效果。其技术方案为：通过CDN网络内部的处理，达到节省带宽的效果，同时对源站的响应文件起到一定的纠错作用。当客户请求经过CDN网络时，利用CDN网络双级架构的特点，在CDN网络内部可以对数据进行处理，而不影响客户端实际得到的数据。针对客户的非压缩请求，可以在CDN网络中进行压缩解压缩处理，从而减少文件传输的时间。
+150. 103019933 测试用例覆盖度自动识别方法及装置
+CN
+03.04.2013
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201210492170.7
+网宿科技股份有限公司
+洪珂
+G06F 11/36
+Loading...
+本发明提供了一种测试用例覆盖度自动识别方法及装置，该方法包括：将混合源码分离为系统源码和用户源码；根据原始的覆盖率信息，针对所述用户源码进行统计分析，重新计算所述用户源码的有效覆盖率；将所述有效覆盖率与预设的覆盖率阈值进行比较，若所述有效覆盖率不小于所述预设的覆盖率阈值，则测试结束，否则给出告警信息。本发明能够提高测试用例的覆盖度、识别准确度，并能够快速定位没有被测试用例覆盖的源码位置。
+151. 103020241 基于会话的动态页面缓存方法和系统
+CN
+03.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210552209.X
+网宿科技股份有限公司
+洪珂
+G06F 17/30
+Loading...
+本发明公开了一种基于会话的动态页面缓存方法和系统，解决可登录的动态页面的缓存问题，在不影响CDN服务效率的同时增强缓存可登录动态页面的能力。其技术方案为：方法包括：比较登录用户和未登录用户请求同一个网站时的HTTP请求的请求头，得到网站服务器用于判断用户登录状态的特定差异部分；对用户未登录时源站给出的页面进行缓存；根据用户的HTTP请求中的请求头是否包含特定差异部分判断用户是否登录，对于登录用户，回源取得响应发送给用户，对于未登录用户，使用缓存的页面进行响应。
+152. 103023998 基于内容分发网络节点的临时跳转纠错方法和系统
+CN
+03.04.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210501114.5
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于内容分发网络节点的临时跳转纠错方法和系统，通过智能纠错保证用户获得实时的网页信息，通过控制用户代理缓存解决了用户代理缓存临时跳转的问题。其技术方案为：方法包括：CDN节点初始化探测周期；CDN节点从临时跳转队列中选取URL；CDN节点向URL发送探测请求；若探测成功，则删除对应URL的缓存目标文件，并保存正常响应以用于后面用户的请求，从临时跳转队列中删除处理过的URL，若探测失败，则更新临时跳转的缓存时间值，并根据探测结果动态更改探测周期，将当前的URL按照优先级置于临时跳转队列的对应位置。
+153. 103023924 基于内容分发网络的云分发平台的DDoS攻击防护方法和系统
+CN
+03.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210592641.1
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了基于内容分发网络的云分发平台的DDoS攻击防护方法和系统，可以有效防护大规模DDoS攻击。其技术方案为：系统包括多个内容分发网络安全节点、报警组件、决策组件和DNS组件，其中内容分发网络安全节点检测DDoS攻击，执行防护策略；报警组件连接内容分发网络安全节点，收集和分析内容分发网络节点的流量以及攻击行为特征匹配，发出DDoS攻击的报警信息；决策组件连接报警组件，对报警信息进行分析，生成针对DDoS攻击的防护策略，并将防护策略发送给内容分发网络安全节点，若防护策略包括切换服务节点则发送切换指令给DNS组件；DNS组件连接决策组件，根据切换指令切换网站的服务节点。
+154. 102970381 基于内容分发网络按比重轮询的多源负载均衡方法和系统
+CN
+13.03.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210563914.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了一种基于内容分发网络按比重轮询的多源负载均衡方法和系统，保证各个源服务器的正常服务，实现各个源服务器正常服务基础上的多源负载均衡。其技术方案为：方法包括：接收用户需要进行回源的文件请求，内容分发网络的边缘节点进行回源请求；依照各个源服务器的比重值进行分配到相应的源服务器进行回源请求。
+155. 102970296 基于内容分发网络的网站内容智能防抓取方法和系统
+CN
+13.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210480461.4
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了基于内容分发网络的网站内容智能防抓取方法和系统，能够减少由于误判导致的正常客户端无法访问网站，且能自动解除禁问状态。其技术方案为：内容分发网络系统接收客户端请求，监测客户端访问行为；判断客户端访问频率是否超过预设阈值，若未超过则直接返回所请求的内容；否则继续判断客户端本次请求时间是否大于上次超过访问频率的时间加上预设的防抓取状态时长；若大于则返回所请求的内容；否则返回客户端验证码页面；判断客户端是否提交了正确的验证码，若是则返回所请求的内容；否则判断客户提交的非法验证码次数是否超过设定值，若未超过则返回客户端验证码页面，否则认为客户端是抓取机器，对其禁止访问，返回403响应。
+156. 102946442 基于智能刷新的文件更新发布的方法和系统
+CN
+27.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210520720.1
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于智能刷新的文件更新发布的方法和系统，适用于使用缓存服务器架构的源站进行文件的同步更新，减轻源站压力。其技术方案为：在源站对资源引用时添加资源版本号的查询串，当部分文件资源需要修改时对所有资源的版本号查询串进行修改。缓存服务器对于URL相同但版本号不同的资源默认为同一个资源。当版本号相同时直接使用缓存资源，当版本号不同时使用新的URL和旧缓存的Etag、Last-Modified值回源验证：如果资源改变了则从源站获取新资源使用，如果源站没有改变资源则返回304响应，不需要给出整个资源的内容。
+157. 102938716 内容分发网络加速测试方法和装置
+CN
+20.02.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210518120.1
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+本发明公开了内容分发网络加速测试方法和装置，解决了网站正式进行CDN加速前，无法获知加速效果的问题。其技术方案为：方法包括：获取用于测试的目标URL地址；对目标URL进行拉取文件的测试，判断对该目标URL的访问是否正常；对正常访问的目标URL，通知内容分发网络的各边缘节点执行预部署，在执行预部署的边缘节点上缓存目标URL的内容；通过对源站和边缘节点的对比测试，记录访问时间，并根据返回的测试数据生成网络加速效果的测试报告。
+158. 102932466 基于内容分发网络的分布式源监控方法和系统
+CN
+13.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210442312.9
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于内容分发网络的分布式源监控方法和系统，避免由于人员误删除操作造成错误故障报警，减轻源站的负载压力，能够区分运营商网络故障问题。其技术方案为：方法包括：内容分发网络边缘的分布式节点发出回源请求；分布式节点判定是否回源服务器，若需回源则向源服务器发送请求；若源服务器发生异常，则由分布式节点向中心监控模块提交异常数据；中心监控模块判断异常数据是否满足报警的预设条件，若满足则发出警报，否则不发出警报。
+159. 102932380 基于内容分发网络的分布式防恶意攻击方法和系统
+CN
+13.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210501570.X
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了基于内容分发网络的分布式防恶意攻击方法和系统，利用CDN的分布式网络分摊攻击量，并且利用恶意攻击识别技术，识别出攻击IP，把攻击用户限制在CDN网络内部，最大限度的减少连接到客户源站的恶意请求。其技术方案为：方法包括：识别不同区域的恶意攻击请求；将不同区域的恶意攻击请求分配到各区域独立的内容分发网络防攻击节点组，实现分布式分摊大流量的恶意攻击；在内容分发网络防攻击节点组中，将分配到各自区域的恶意攻击再次分摊到不同的防攻击节点机器；防攻击节点机器对于识别为恶意攻击的请求，禁止其继续访问，对识别为非恶意攻击的请求，将请求转发给源站，以使源站收到请求后作出正常响应。
+160. 102932358 基于内容分发网络的第三方文件改写加速分发方法和装置
+CN
+13.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210442315.2
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本发明公开了基于内容分发网络的第三方文件改写加速分发方法和装置，加快了第三方文件的响应速度，提高了访问速度和用户体验。其技术方案为：方法包括：接收用户对站点的初次访问，触发内容分发网络的节点回源抓取内容；判定访问内容中是否有第三方文件以及第三方文件是否需要改写；对于需要改写的第三方文件，由节点根据预设的规则进行改写，预设的规则为源文件改写成节点可识别的加速文件的根据，且具有还原为源文件的能力；由节点存储已改写完成的第三方文件并生成记录日志；节点将已改写完成的第三方文件分发给用户。
+161. 102917067 基于客户端自适应并发控制提高响应速度的方法和装置
+CN
+06.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210409050.6
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于客户端自适应并发控制提高响应速度的方法和装置，可应用于web服务器和web缓存服务器上，源站将不需要将资源分配到多个域名上，能自适应地动态分配最合适的域名数。其技术方案为：方法包括：源站或缓存服务器将需要响应的数据包发送给该客户端自适应并发控制模块；该客户端自适应并发控制模块对于响应的数据包，修改数据包的响应内容之后再发送给客户端，其中对于响应的第一个数据包，在修改响应内容之前根据页面渲染反馈的响应时间结果选择域名个数以分散资源；在响应结束之后在响应中添加统计页面渲染时间的脚本。
+162. 102917076 基于冗余编码的HTTP报文传输、发送和接收方法
+CN
+06.02.2013
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210465499.4
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于冗余编码的HTTP报文传输、发送和接收方法，使CDN网络中传输HTTP报文时避免TCP协议在三次握手和超时重传的时间开销，减少HTTP报文的传输时间。其技术方案为：客户端通过UDP协议，以冗余编码的方式发送HTTP请求报文并同时启动定时器，若超过定时器所设的时限值之后未收到来自服务器的HTTP响应或者收到不完整的HTTP响应报文，则使用TCP协议再次发送HTTP请求报文；服务器若通过UDP协议接收到来自客户端的以UDP协议发送的HTTP请求报文，则通过UDP协议并以冗余编码的方式发送HTTP响应，服务器若收到TCP协议发送的HTTP请求，则使用TCP协议发送HTTP响应。
+163. 102843426 Method and system for sharing Web cached resource based on intelligent father node
+CN
+26.12.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210281673.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+The invention discloses a method and a system for sharing Web cached resource based on an intelligent father node, which are used for further reducing the back source bandwidth of a caching system and the access pressure on a source station. The technical scheme of the invention is as follows: the system comprises multiple WEB cache nodes, a source station server, a cached resource list pool and the intelligent father node. The multiple Web cache nodes are used for caching the resource, receiving the user request and returning back the resource corresponding to the user request to the user; the source station server is used for storing the source data; the cached resource list pool is used for receiving and reporting the resource of the multiple Web cache nodes, and forming a resource detailed list of all the Web cache nodes; and the intelligent father node is used for receiving the request of one Web cache node, inquiring the cache position of the resource to be requested in the cached resource list pool, and realizing the resource sharing scheduling among multiple Web cache nodes by redirection.
+164. 102594877 Method and system for combining redirected download request and agency service to accelerate network service
+CN
+18.07.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210017913.5
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+The invention discloses a method and a system for combining redirected download request and agency service to accelerate network service. On one hand, the load of a proxy server can be reduced, and on the other hand, the resource downloading speed is more remarkably improved as long as a cache server is arranged at a good position. The invention adopts the technical scheme that the method comprises the following steps that: a client side collects a URL (Uniform Resource Locator) of the network service and the protocol port range of real-time data; the client side grabs a corresponding Http Get request according to the collected URL and also grabs the real-time data of the network service according to the protocol port range; the client side redirects the grabbed Http Get request to the cache server; the cache server is deployed into the structure that if resources requested by the client side exist, the resources are directly sent back to the client side; if the resources requested by the client side do not exist, a request is initiated to an original address requested by the client side, is cached on the machine and is then sent back to the client end; and the client side carries out agency service operation on the grabbed real-time data of the network service and is forwarded through the proxy server.
+165. 102594876 游戏实时数据和更新数据的混合加速系统
+CN
+18.07.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210017826.X
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了游戏实时数据和更新数据的混合加速方法和系统，降低代理服务器的负载、降低了服务端的带宽成本，提升客户端的游戏补丁更新速度，提升网游加速的用户体验。其技术方案为：方法包括：将游戏服务器与客户端的实时数据转发到代理服务器；将游戏更新服务器的数据暂存到缓存网络；缓存网络发送游戏更新数据至提出更新请求的客户端。
+166. 102523127 主备服务器切换方法和系统
+CN
+27.06.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110456977.0
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本发明公开了主备服务器切换方法和系统，解决了服务器自身故障无法工作后，无法自动启用备份机制的问题。其技术方案为：方法包括：主服务器和备服务器同时向调度服务器发送请求；调度服务器接收到请求后，从数据库获取预设时间段内有请求的主服务器和备服务器的IP列表；调度服务器从页面服务器获取默认配置的主服务器IP，决策采用主服务器和备服务器其中之一进行操作；调度服务器根据决策结果向主服务器或备服务器返回是否工作的指令。
+167. 202218262 内网信息安全管理系统
+CN
+09.05.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201120356153.1
+网宿科技股份有限公司
+洪珂
+H04L 29/06
+Loading...
+本实用新型揭示了一种内网信息安全管理系统，实现对内网中用户、计算机和信息的安全管理。其技术方案为：系统包括数据来源服务器、第一核心网络设备、安全网关服务器、第二核心网络设备、上网行为管理服务器、第三核心网络设备、数据存储中心，其中数据来源服务器通过第一核心网络设备连接安全网关服务器，安全网关服务器通过第二核心网络设备连接上网行为管理服务器，上网行为管理服务器还连接数据存储中心，上网行为管理服务器通过第三核心网络设备连接外网。
+168. 102427412 基于内容分发网络的零延时主备源灾备切换方法和系统
+CN
+25.04.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110458543.4
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本发明公开了基于内容分发网络的零延时主备源灾备切换方法和系统，使灾备切换满足无缝切换，减轻源站的负载压力。其技术方案为：方法包括：内容分发网络边缘节点回源请求；由节点源站监控判定回源服务器，并向源服务器发送请求；基于主源服务器的状态进行不同的操作：若主源服务器正常则响应本次请求并继续节点源站服务器的监控，若主源服务器异常则由备源服务器完成本次请求的响应，并进行灾备切换。
+169. 102404237 基于流量调整物理带宽的方法和系统
+CN
+04.04.2012
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201110458051.5
+网宿科技股份有限公司
+洪珂
+H04L 12/56
+Loading...
+本发明公开了基于流量调整物理带宽的方法和系统，一方面对用户提供更可靠、更简洁的操作方法，另一方面可以节约运营商资源。其技术方案为：系统包括服务器和客户端，其中客户端包括流量检测器、宽带信息查询器、操作决策器，所述服务器包括宽带信息查询接口、调速器。其中流量检测器采集网卡上的流量；宽带信息查询器通过服务器上的宽带信息查询接口查询宽带信息；操作决策器连接流量检测器和宽带信息查询器，根据采集到的流量信息和查询到的宽带信息，判断出宽带速度的调整操作，并发出宽带速度的调整指令；调速器，接收操作决策器发出的调整指令，进行相应的速度调整。
+170. 102355381 自适应的差分自回归移动平均模型的流量预测方法和系统
+CN
+15.02.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110237615.2
+网宿科技股份有限公司
+洪珂
+H04L 12/26
+Loading...
+本发明公开了自适应的差分自回归移动平均模型的流量预测方法和系统，让模型更加的吻合当前流量的数据走势。其技术方案为：利用ARIMA模型对流量进行预测，当实际值偏离预测的置信区间时，产生报警；产生报警的同时，启动备选方案来进行监控流量数据，用以防止异常数据进入ARIMA模型预测；在ARIMA模型正常运作时，实时判别ARIMA模型的参数是否还适用，若发现不再适用时，自动进行再学习，通过再学习获得新的模型参数，以此提高模型预测的准确性。
+171. 102347907 区分传输内容的网络调度方法和系统
+CN
+08.02.2012
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201110366033.4
+网宿科技股份有限公司
+洪珂
+H04L 12/56
+Loading...
+本发明公开了一种区分传输内容的网络调度方法和系统，可使网络拥塞和延迟得到极大的环节，提高了客户体验，节省了传输成本。其技术方案为：使用一个中央调度信息服务器，实时更新每个候选服务器的资源信息状况；客户端在网络传输开始前，对需要传输的内容进行分段分析，计算每个分段对网络资源的需求，并根据中央调度信息服务器提供的调度信息，为每段内容选择能够满足传输需求的消耗资源最小的网络资源进行数据传输，从而在满足传输需求的前提下，达到消耗网络资源的最小化。
+172. 102347864 基于内容分发网络的服务质量监控系统
+CN
+08.02.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110342056.1
+网宿科技股份有限公司
+洪珂
+H04L 12/24
+Loading...
+本发明公开了一种基于内容分发网络的服务质量监控系统和方法，对CDN服务质量进行高效、准确、及时的监控，从而有效提高各个域名的CDN服务质量。其技术方案为：首先为添加CDN服务的域名建立测试任务，通过中央调度将测试的目标资源地址等信息发往分布于全国各个区域的测试点。在提供CDN服务后，测试点采用高频并发测试对目标资源进行分析，将测试数据汇总上报。此后，上层数据分析管理模块对上报数据进行处理，得到各节点服务情况，并根据异常规则进行匹配和报警。
+173. 102307244 基于B/S架构的多连接的下载方法和系统
+CN
+04.01.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110309337.7
+网宿科技股份有限公司
+洪珂
+H04L 29/08
+Loading...
+本发明公开了基于B/S架构的多连接的下载方法和系统，更好的提升传输的质量，提高了用户的体验。其技术方案为：方法包括：应用框架根据分段算法将下载的内容分成n个部份Pi，其中n是大于1的自然数，i是1到n之间的自然数；应用框架根据调度算法决定下载每一部份Pi对应的服务器；应用框架并行地从各个服务器下载相应的内容分段Pi，直至所有的内容传输完毕。
+174. 102291411 Anti-DDOS (distributed denial of service) attack method and system against DNS (domain name system) service
+CN
+21.12.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110237997.9
+ChinaNetCenter Technology Co., Ltd.
+Hong Ke
+H04L 29/06
+Loading...
+The invention discloses an anti-DDOS (distributed denial of service) attack method and system against DNS (domain name system) service to detect and defense DDOS attack against DNS service accurately in real time. The technical scheme comprises the following steps: monitoring an DNS request of an access IP (Internet protocol); determining the IP section of the access IP and the time period of the current time, and counting the total access flow of the current timing time slice and the access flow of the IP section of the access IP; detecting whether DDOS attack occurs currently; if the DDOS attack is detected, filtering the access IP request according to the history access flow of the IP section of the access IP in the current time period; and if the DDOS attack is not detected, updating the history total access flow in the current time period and the history access flow of the IP section of the access IP in the current time period, and forwarding the DNS request of the access IP.
+175. 102291394 Security defense system based on network accelerating equipment
+CN
+21.12.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110207882.5
+ChinaNetCenter Technology Co., Ltd.
+Hong Ke
+H04L 29/06
+Loading...
+The invention discloses a security defense system based on network accelerating equipment. The system aims to effectively protect various web sites purchasing network accelerating service. The technical scheme provided by the invention is that: the system comprises a system rule base module, a system decision module, a system intrusion detection module and a system feedback module, wherein the system rule base module initializes rule base files aiming at web attack; the system decision module registers a decision algorithm required by security detection; the system intrusion detection module receives a request from a web application program client, performs content detection and verification on the request according to the decision algorithm in the system decision module so as to guarantee the security of the request, and then transmits a detection result to the system feedback module; and if the request meets the security requirement, the system feedback module allows the request to directly access the next flow after security defense, and if the request cannot meet the security requirement, the system feedback module adopts corresponding defending measures.
+176. 102255778 Anti-hijacking domain name authorization monitoring system
+CN
+23.11.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110261827.4
+ChinaNetCenter Technology Co. Ltd.
+Huang Shalin
+H04L 12/26
+Loading...
+The invention discloses an anti-hijacking domain name authorization monitoring system, which is used for preventing the loss of websites, caused by the falsification of domain name authorization or the abnormity of DNS (Domain Name Server) analysis service. The technical scheme of the invention is as follows: the system comprises a recording module, an inquiring module, a first judging module and an alarming module, wherein the recording module is used for recording monitoring information of domain names to be monitored at intervals of preset time; the inquiring module is connected with the recording module and is used for checking authorization information of the domain names and analyzing the domain names to obtain an IP result set of a current domain name server; the first judging module is connected with the inquiring module and is used for judging whether the authorization of the domain names is hijacked based on an inquiring result of the inquiring module; and the alarming module is connected with the first judging module and is used for giving an alarm under the condition of judging the authorization of the domain names is hijacked.
+177. 102256162 Method and system for optimizing media-on-demand based on real-time file format conversion
+CN
+23.11.2011
+H04N 21/238 Loading...
+H04N 21/238
+Loading...
+201110207857.7
+ChinaNetCenter Technology Co. Ltd.
+Hong Ke
+H04N 21/238
+Loading...
+The invention discloses a method and system for optimizing media-on-demand based on real-time file format conversion, and realizes transmission of a small data set video file header through quick file format conversion, so that the repeated multiplexing of a file by a server can be realized. The method adopts a technical scheme as follows: a client transmits an http request of a file to a server; and after receiving the http request, the server analyzes the http request to find out the file corresponding to the http request; and after determining that the network broadcasting quality of the file is lower than an expected value, the server starts real-time file format conversion, converts the data encapsulation format of the file to maintain basic coding and decoding information in accordance with file transmission in a file header, and transmits the file subjected to the data encapsulation format conversion to the client to play.
+178. 102118278 Method and system for measuring network conditions as well as method for monitoring network coverage
+CN
+06.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010620171.6
+ChinaNetCenter Technology Co. Ltd.
+Hong Ke
+H04L 12/26
+Loading...
+The invention discloses a method and system for measuring network conditions as well as a method for monitoring network coverage, which can be used for obtaining network connection delay, network data transmission delay, packet loss ratio and network conditions from a monitoring node to a target network between two host machines. In a technical scheme provided by the invention, the method for measuring network conditions comprises the steps of: sending a syn (synchronize) packet to a machine to be measured by utilizing a measuring machine, measuring the sending time and the time interval of receiving syn-ack (acknowledge character), and when the syn-ack is not received beyond a preset time, judging that syn packet loss occurs; sending a packet of a first sequence number to the machine to be measured and measuring the time interval from the sending time to the receiving response time after an ack response is received by utilizing the measuring machine, when the ack response is not received beyond the preset time, sending the packet of a second sequence number which is less than the first sequence number to the machine to be measured, when the ack response is not received beyond the preset time, judging that the packet loss occurs, and if the ack response is received in the preset time, judging whether the packet loss is a downlink packet loss or an uplink packet loss according to the response to the first sequence number or to the second sequence number.
+179. 102118433 Multiple-tier distributed cluster system
+CN
+06.07.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010617218.3
+ChinaNetCenter Technology Co. Ltd.
+Hong Ke
+H04L 29/08
+Loading...
+The invention discloses a multiple-tier distributed cluster system and solves the possible content transfer of common load balance technology that is based on a polling strategy or content hash. The system solves the problems of cluster expansibility, content transfer and the like by adopting tiered load balance technology and combining the polling strategy and consistent hashing algorithm. The technical scheme of the system is as follows: the system comprises a transport tier load balancer at the front end of the system, a URL (Uniform Resource Locator) consistent hashing balancer at the middle tier of the system, and a real server at the rear end of the system, wherein the transport tier load balancer receives request data transmitted by a client side and conducts load balance; requests of the client side are distributed to the URL consistent hashing balancer at the middle tier; the URL consistent hashing balancer receives the request data of the client side distributed by the transport tier load balancer and distributes the same URL to the same real balancer for service through the consistent hashing algorithm; and the real server stores the data.
+180. 102111310 Method and system for monitoring content delivery network (CDN) equipment status
+CN
+29.06.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010622162.0
+ChinaNetCenter Technology Co. Ltd.
+Hong Ke
+H04L 12/26
+Loading...
+The invention discloses a method and system for monitoring the content delivery network (CDN) equipment status, which are used to provide an efficient platform for quick positioning and correct exception handling for operation and maintenance personnel. The method comprises the following steps: periodically reporting equipment heartbeat information to a monitoring server which is taken as a heartbeat receiving end by monitored CDN equipment; periodically and initiatively detecting the status of the monitored CDN equipment on the monitoring server to obtain an initiative detection result; comprehensively monitoring the equipment heartbeat information and the initiative detection result which are collected by the monitoring server, determining the equipment status by combining with the topological structure of the equipment, and sending an alarm aiming at root causes of a failure; and intuitionally displaying a decision result from an equipment status decision device by combining with machine room distribution and the topological structure of the equipment, and displaying the root cause alarm given out by the equipment status decision device on an alarm page.
+181. 102075358 System and method for distributing and deploying content of large-scale server cluster
+CN
+25.05.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010622153.1
+ChinaNetCenter Co., Ltd.
+Hong Ke
+H04L 12/24
+Loading...
+The invention discloses a system and a method for distributing and deploying the content of a large-scale server cluster, which can quickly, accurately and safely deploy various resources to appointed servers. The technical scheme is as follows: in the system, a scheduling server receives a deploy task, executes the deploy task according to a scheduling strategy, transmits an excitation package to a controlled end so as to provide task information for the controlled end, and receives an executed result of a deploy package fed by the controlled end to the scheduling server; the controlled end receives the excitation package transmitted by the scheduling server by monitoring a user datagram protocol (UDP) port, acquires sub task information from the scheduling server and analyzes the task information, downloads the deploy package from a downloading server, executes a script in the deploy package, and feeds back the executed result to the scheduling server; and the downloading server provides a download service of the deploy package for the controlled end.
+182. 102065142 File downloading based scheduling method and system for content delivery network (CDN)
+CN
+18.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010607702.8
+Shanghai ChinaNetCenter Technology Co., Ltd.
+Hong Ke
+H04L 29/08
+Loading...
+The invention discloses a file downloading based scheduling method and system for a content delivery network (CDN). The access of each link is accurately controlled by adopting the method and the system, thus improving the service quality of file downloading accelerating systems on the whole. The technical scheme is as follows: the method comprises the following steps: a decision machine carries out the decision after acquiring the statistical and acquired data of domain name system (DNS) machines and production machines and sends the scheduling decision results to the DNS machines and the production machines; the DNS machines carry out primary DNS scheduling on the DNS commonly used by the public network according to the received scheduling decision results; and the production machines carry out secondary uniform resource locator (URL) scheduling on a last accessing client according to the received scheduling decision results.
+183. 102065098 Method and system for synchronizing data among network nodes
+CN
+18.05.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010622155.0
+Shanghai ChinaNetCenter Technology Co., Ltd.
+Hong Ke
+H04L 29/06
+Loading...
+The invention discloses a method and a system for synchronizing data among network nodes, for improving data synchronizing performance, safety and self-adaptability. The technical scheme of the invention is as follows: the method comprises the steps: a client side sends a request of synchronizing files to a server; the client side segments a first file into data blocks with different sizes by adopting a variable data block segmenting method and calculates weak check and strong check for each data block; the server segments a second file by adopting a method same with the client side and calculates weak check and strong check by adopting a manner same with the client side; the server sends a weak check value and a strong check value of the data blocks of the second file to the client side; the client side searches the data blocks in the second file, which have already been in the first file, by adopting a Hash Algorithm, deletes repeated data in the lost data block set and requests unrepeated lost data blocks for the server; the server sends the requested data blocks to the client side; and after receiving the required data blocks, the client side reconstructs a copy of the second file.
+184. 101924776 Method and system for domain name resolution server to resist flooding attacks of DNS (Domain Name System) request reports
+CN
+22.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010282564.0
+ChinaNetCenter Co., Ltd.
+Hong Ke
+H04L 29/06
+Loading...
+The invention discloses a method and a system for a domain name resolution server to resist the flooding attack of DNS (Domain Name System) request messages, which can effectively resist the flooding attacks of the DNS request messages, protect the domain name resolution server, and ensure the normal operation of domain name resolution. In the technical scheme, the method comprises the steps of: combining a plurality of domain name resolution servers into a server cluster which shares one IP address; timely monitoring the service parameters and the cluster service availability of all the domain name resolution servers by a monitoring server, and reporting the service parameters and the cluster service availability to a control server; determining whether attacks exist or not by the control server according to the collected service parameters and cluster service availability of the domain name resolution server; if so, adjusting the domain name resolution server and notifying a refreshing server; and refreshing the domain name resolution server information cached by a public network domain name server by the refreshing server so as to ensure that the adjustment of the domain name resolution server takes effect.
+185. 101895529 Method for judging process of TCP/IP packet in driver layer
+CN
+24.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010188864.2
+Shanghai Wangsu Science & Technology Co., Ltd.
+Zheng Ming
+H04L 29/06
+Loading...
+The invention discloses a method for judging a process of a TCP/IP packet in a driver layer, which can accurately distinguish the process of a packet in a network driver interface specification (NDIS) filter driver. The technical scheme comprises that the method comprises the following steps of: when a certain program uses a Windows socket interface, loading a layered service provider through a certain process; acquiring an identification number of the process and a source port opened by the process by the layered service provider; judging whether the process is an interested process according to the identification number of the layered service provider; if the process is the interested process, transmitting a user datagram protocol (UDP) notification packet to a specific address and a port; receiving the UDP notification packet, extracting the identification number of the process, a protocol used by the process and the source port opened by the process from the UDP notification packet, saving the identification number of the process, the protocol used by the process and the source port opened by the process as an association table, and discarding the UDP notification packet by using an intermediate layer driver/filter driver normalized by a network driver interface; and when the intermediate layer driver/the filter driver receives another TCP/IP packet transmitted by a local host, judging whether the TCP/IP packet comprises the information consistent with the contents in the association table, and determining the identification number of the process to which the TCP/IP packet belongs according to the judgment.
+186. 101702669 Bandwidth allocation method and system
+CN
+05.05.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200910198952.8
+Shanghai Wangsu Science & Technology Co., Ltd.
+Liu Honghao
+H04L 12/56
+Loading...
+The invention discloses bandwidth allocation method and system for achieving higher bandwidth utilization rate of CDN nodes on one hand, avoiding node congestion, more reasonably allocating bandwidth for connections and improving the user service quality on the other hand. The method comprises the following steps of: (1) every two periods, production machines report the connection number of various self flows and the use bandwidth of each connection corresponding to each flow to a decision-making machine; (2) the decision-making machine collects the information reported by various production machines, allocates bandwidth for each connection corresponding to each flow of each production machine and feeds back decision information relating to bandwidth allocation to the production machines; and (3) the production machines control the sending velocities of various self connections according to the received decision information from the decision-making machine.
+

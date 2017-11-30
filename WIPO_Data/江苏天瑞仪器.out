@@ -1,0 +1,2401 @@
+1. 106596694 一种金属离子浓度的谱线数据优化分析方法
+CN
+26.04.2017
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+102016001112435
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 27/48
+Loading...
+本发明公开一种金属离子浓度的谱线数据优化分析方法,包括以下步骤：Step1.数据采集；Step2.数据处理，其包括去噪处理、校正处理、得到校正基线、得出校正峰值、得到校正峰面积；step3计算待测样品金属离子浓度；本发明通过使用算法进行去噪处理、寻找下凸包校正处理，获取校正基线、校正峰值、校正峰面积，可以使得基线、峰型更加规则易于计算，同时也可以使得计算结果更加准确。
+2. 106596695 一种谱线优化处理方法
+CN
+26.04.2017
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+102016001112436
+江苏天瑞仪器股份有限公司
+应刚
+G01N 27/48
+Loading...
+本发明公开一种谱线优化处理方法,包括以下步骤：step1去噪处理；step 2校正处理；step 3得到校正基线；本发明通过使用算法进行去噪处理、寻找下凸包校正处理，获取校正基线、校正峰值、校正峰面积，可以使得基线、峰型更加规则易于计算，同时也可以使得计算结果更加准确。
+3. 106528997 一种绘制区域颗粒物小时浓度分布图的方法
+CN
+22.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102016000959276
+江苏天瑞仪器股份有限公司
+刘召贵
+G06F 17/50
+Loading...
+本发明涉及一种绘制区域颗粒物小时浓度分布图的方法；本发明要解决的问题是采集监测区域颗粒物浓度数据并绘制出该区域的颗粒物小时浓度分布图。颗粒物分析仪将监测点颗粒物浓度发送到数据处理平台，监测区域需要安装多个颗粒物分析仪才能很好地将监测区域的浓度分布图绘制出来；本发明通过将监测区域颗粒物分析仪的数量定制为3个或以上，根据分析仪器摆放位置形成原始浓度数据矩阵，将每个颗粒物分析仪分析得到的浓度值放入矩阵，用拉普拉斯插入法根据颗粒物分析仪监测浓度数据产生矩阵中非颗粒物分析仪监测浓度值，再用双三次插值法对浓度矩阵中数据进行平滑，然后对矩阵中各个浓度值着色成对应颜色值，从而绘制出颗粒物浓度区域分布图；其优点在于减少了颗粒物分析仪的数量，并且适当扩大了测量区域，绘制的分布图更直观、更精确。
+4. 104332381 一种质谱仪三维移动平台
+CN
+15.03.2017
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+102014000621659
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/02
+Loading...
+本发明公开了一种质谱仪三维移动平台，包括外腔体；由水平调节直线马达控制的水平调节组件；由垂直调节直线马达和深度调节直线马达控制的垂直/深度调节装置，其通过安装在垂直调节组件上的由垂直调节直线马达带动做直线运动且可绕和所述垂直调节直线马达联接的移动腔转轴旋转的转轴控制杆与安装在所述深度调节组件上的由所述深度调节直线马达带动做直线运动的转轴托架联接进行垂直和深度的调节；本发明通过对深度和垂直方向的连杆式调节，保证了精确调节，且大大减小了体积，更利于仪器整体化、小型化设计，同时降低了成本，提升了操作的便捷性。
+5. 206020260 一种用于光谱检测的晶体切换部件
+CN
+15.03.2017
+G01N 21/31 Loading...
+G01N 21/31
+Loading...
+201620949030.1
+江苏天瑞仪器股份有限公司
+黄冲
+G01N 21/31
+Loading...
+本实用新型公开了一种用于光谱检测的晶体切换部件，晶体切换部件为柱型，包括n个晶体装配结构，晶体装配结构均匀分布在晶体切换部件的外侧面；本实用新型通过在一个晶体切换部件上同时装配足够多个晶体且能自由切换，实现了全部谱线的测量，避免了拆卸装置的人力同时也避免了拆装过程中带来的晶体定位的误差，因此具有明显的优点。
+6. 206019844 一种用于光谱检测的晶体切换机构
+CN
+15.03.2017
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201620949015.7
+江苏天瑞仪器股份有限公司
+黄冲
+G01J 3/02
+Loading...
+本实用新型公开了一种用于光谱检测的晶体切换机构，包括晶体支撑部件，支撑框架，定位机构，晶体支撑部件通过中轴转动安装在支撑框架上，晶体支撑部件为柱型，包括n个晶体装配结构，晶体装配结构均匀分布在晶体支撑部件的外侧面，定位机构安装在支撑框架上，定位机构中的定位基座的中轴和晶体支撑部件的中轴固定联结且与支撑框架转动联结，定位基座上的基座定位结构与晶体支撑部件上的晶体装配结构精确定位装配且一一对应；本实用新型通过采用晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，且动作过程可靠，并使检测装置的使用寿命增长了，因此具有明显的优点。
+7. 104616962 用于液相色谱‑质谱仪的离子源组件
+CN
+01.03.2017
+H01J 49/10 Loading...
+H01J 49/10
+Loading...
+102015000084072
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/10
+Loading...
+本发明提出一种用于液相色谱‑质谱仪的离子源组件，包括：固定板；所述离子源与固定板可枢转地相连；电流弹针设在固定板上，金属触块设在离子源上，电流弹针的伸缩针头朝向金属触块；当离子源打开时，电流弹针的伸缩针头与金属触块分离且伸出电流弹针，当离子源关闭时，电流弹针的伸缩针头与金属触块压接且缩回电流弹针。根据本发明实施例的用于液相色谱‑质谱仪的离子源组件，当所述离子源打开时，所述电流弹针的伸缩针头与所述金属触块分离且伸出所述电流弹针，当所述离子源关闭时，所述电流弹针的伸缩针头与所述金属触块压接且缩回所述电流弹针，离子源的打开与关闭不会对接电造成影响，避免了电线随着离子源开关而移动拉扯可能造成的风险。
+8. 104637773 质谱仪一级真空结构
+CN
+01.03.2017
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+102015000084542
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/02
+Loading...
+本发明公开了一种质谱仪一级真空结构，包括内有进样腔室的进样锥、安装在进样锥后侧且前端伸入进样腔室并内有聚焦腔室的聚焦环、安装在聚焦环后侧且前端伸入所述聚焦腔室并内有截取腔室的截取锥以及支撑部件，进样腔室与聚焦腔室以及截取腔室依次连通且进样锥安装在支撑部件前端，聚焦环和截取锥安装在支撑部件内部，支撑部件的周边具有对称设置且连通内部腔室的排气出口；本发明设计四周对称的排出口，并且使排出口的设计尽可能的靠近截取锥的后侧，同时进一步在聚焦环的后侧设计与排气口相通的通道，不仅使得流体流动稳定，并进一步延长了有效离子的运动路程，如此可以保存更多的被测样品，进一步提高测试结果的灵敏度。
+9. 106429323 一种输送塑料试管装置
+CN
+22.02.2017
+B65G 47/14 Loading...
+B65G 47/14
+Loading...
+201610646865.4
+江苏天瑞仪器股份有限公司
+应刚
+B65G 47/14
+Loading...
+本发明公开了一种输送塑料试管装置，包括试管仓、载台、分料器和试管流道，试管仓的上部具有上开口，试管仓的下部具有锥形仓和与锥形仓联接的试管出口，试管出口的纵向、横向尺寸匹配于试管的直径和长度，载台包括试管缝隙且位于试管仓的下方，试管出口的下沿到载台的上表面的垂直高度大于等于一个试管的直径小于两个试管直径之和，分料器包括分料板且安装在载台上方，试管流道包括流道开口，试管流道安装在载台的下方；本发明通过采用试管仓、分料器和试管流道的配合，实现了一次输出一根试管，且每根输出试管开口都朝上，解放了人工重复劳动，且可靠度和试管输出稳定性高，受到的外界干扰因素少，因此具有明显的优点。
+10. 106404169 一种用于光谱仪具有分度模组的晶体切换装置
+CN
+15.02.2017
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+102016000731196
+江苏天瑞仪器股份有限公司
+应刚
+G01J 3/02
+Loading...
+本发明公开了一种用于光谱仪具有分度模组的晶体切换装置，包括分度机构，传动机构，晶体支撑部件，支撑框架，定位机构；分度机构通过传动机构与晶体支撑部件相联，分度机构包括分度从动部件和分度主动部件，分度主动部件与分度从动部件转动联接；传动机构包括传动主部件和传动从部件，分度从动部件和传动机构以及晶体支撑部件均安装在支撑框架上；分度机构的分度数量与晶体支撑部件安装的晶体数量相同，定位机构安装在所述支撑框架上；本发明通过采用分度机构、晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，且动作过程可靠，即使在工业现场频繁使用下，检测装置的寿命都有显著提高，因此具有明显的优点。
+11. 106404664 一种用于光谱检测具有定位机构的晶体切换装置
+CN
+15.02.2017
+G01N 21/01 Loading...
+G01N 21/01
+Loading...
+102016000731180
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/01
+Loading...
+本发明公开了一种用于光谱检测具有定位机构的晶体切换装置，包括晶体支撑部件，支撑框架，定位机构；晶体支撑部件通过中轴转动安装在支撑框架上，晶体支撑部件为柱型，包括n个晶体装配结构，晶体装配结构均匀分布在晶体支撑部件的外侧面；定位机构安装在支撑框架上，定位机构中的定位基座的中轴和晶体支撑部件的中轴固定联接且与支撑框架转动联接；定位基座上的基座定位结构与晶体支撑部件上的晶体装配结构精确定位装配且一一对应；本发明通过采用晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，且动作过程可靠，并使检测装置的使用寿命增长了，因此具有明显的优点。
+12. 106404170 一种用于光谱仪真空腔室盖板装置
+CN
+15.02.2017
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+102016000731728
+江苏天瑞仪器股份有限公司
+刘召贵
+G01J 3/02
+Loading...
+本发明公开了一种用于光谱仪真空腔室盖板装置，包括盖板，盖板下部具有凹下的盖板腔室，盖板腔室内有凸起支柱，第一密封部件下部具有第一密封腔室且与盖板通过第一联接件联接凸起支柱和配合通孔进行联接，第二密封部件安装在第一密封腔室内且位于配合通孔下部且通过与第一密封部件联接的第二联接件封闭配合通孔，弹性件安装在第一联接件或凸起支柱部位外壁且位于第一联接件或凸起支柱部位外壁和配合通孔内壁之间；本发明通过采用盖板腔室、凸起支柱、弹性件、第一密封部件和第二密封部件的配合，使得在抽真空的过程中，盖板结构受力时会有一个缓冲作用，且样品腔室不会受到急剧变化的压力影响，保护了待检测样品。
+13. 106352837 一种双轴测角仪
+CN
+25.01.2017
+G01B 21/22 Loading...
+G01B 21/22
+Loading...
+102016000774225
+江苏天瑞仪器股份有限公司
+应刚
+G01B 21/22
+Loading...
+本发明公开了一种双轴测角仪，包括：驱动单元，包括第一驱动单元和第二驱动单元；传动部件，传动部件包括第一传动部件和第二传动部件，第一传动部件包括第一蜗杆和与第一蜗杆啮合的第一直齿轮，第一蜗杆与第一驱动单元联结，第二传动部件包括第二蜗杆和与第二蜗杆啮合的第二直齿轮，第二蜗杆与第二驱动单元联结；传动圆筒，包括第一圆筒和第二圆筒，第一圆筒和第一直齿轮联结，第二圆筒和第二直齿轮联结，第二圆筒为中空圆筒，第一圆筒同轴安装在第二圆筒中空腔中且转动配合；本发明通过第一、第二驱动单元分别带动第一、第二蜗杆并传动给第一、第二直齿轮，从而带动第一、第二圆筒转动，实现了角度的测量及精准定位。
+14. 106338340 一种用于光谱检测晶体切换装置的定位装置
+CN
+18.01.2017
+G01J 3/28 Loading...
+G01J 3/28
+Loading...
+102016000731202
+江苏天瑞仪器股份有限公司
+刘召贵
+G01J 3/28
+Loading...
+本发明公开了一种用于光谱检测晶体切换装置的定位装置，包括定位机构，支撑框架，定位机构安装在支撑框架上，定位机构包括定位基座，定位模块以及回弹机构，定位基座中心轴安装在支撑框架上且具有基座定位结构，定位模块一端联接在支撑框架上，另一端具有模块定位结构，基座定位结构与模块定位结构紧密配合，回弹机构一端固定联接在支撑框架上，另一端与定位模块相联，定位基座为圆盘结构，基座定位结构位于圆盘结构边缘，基座定位结构为凹槽或凸起，模块定位结构为与凹槽或凸起精确配合的定位凸起或定位凹槽；本发明采用定位基座、定位模块和回弹机构的结合，在晶体切换的过程中，确保切换晶体前后的定位位置误差很低，因此具有明显的优点。
+15. 106338504 一种电感耦合等离子体全谱直读光谱仪定性分析方法
+CN
+18.01.2017
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+102016000631353
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/73
+Loading...
+本发明公开了一种电感耦合等离子体全谱直读光谱仪定性分析方法，包括：步骤1，摄取样品溶液光谱和空白溶液光谱；步骤2，编辑选择元素群组，根据目标元素情况，编辑待测元素群组；步骤3，判断主元素；步骤4，判断次元素，重复步骤3中的步骤，去除主元素及已检测过的元素干扰，根据步骤2中形成的待测元素群组，依次遍历待测元素群组中的未检测过的元素，分别进行该元素的前三条灵敏线进行检测，并对前三条灵敏线进行权重分配，统计概率结果；本发明提出了一种高效的定性分析方法，针对复杂基体，依次甄别主含量元素、次主含量元素，以此为判断先验条件来判断未知元素是否存在，同时采用概率显示分析结果，大幅提高了定性分析准确度。
+16. 106324006 一种X荧光光谱法对土壤中重金属元素铬的快速测定方法
+CN
+11.01.2017
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+102016000776429
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本发明公开了一种X荧光光谱法对土壤中重金属元素铬的快速测定方法，包括：1）取一定量土壤粉末；2）将所述土壤粉末装入样品杯并用手动压片机压实，形成待测样品；3）将待测样品放入样品测试盒中，该测试盒包括：外壳，所述外壳上端具有孔，孔内安装有弹片；样品台，所述样品台安装在所述外壳内部的底端；手持机，所述手持机前端有N个凹槽，所述手持机通过凹槽和所述弹片的配合与所述样品测试盒联接；4）利用X荧光光谱法测量待测样品的X荧光强度；以及5）基于所述待测样品的X荧光强度，计算得到该土壤中的铬元素含量；本发明所述方法采用便携式X荧光光谱法可对土壤样品直接进行铬元素定量分析，测试准确率达到96%以上，测试方法操作简单，无污染，无耗材，同时，本发明的实施例的测定方法还具有如下优点：体积小，易携带，方便野外工作，现场分析。
+17. 106289520 一种用于光谱检测晶体切换装置
+CN
+04.01.2017
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201610731730.8
+江苏天瑞仪器股份有限公司
+应刚
+G01J 3/02
+Loading...
+本发明公开了一种用于光谱检测晶体切换装置，包括晶体支撑部件，支撑框架，定位机构，晶体支撑部件通过中轴转动安装在支撑框架上，晶体支撑部件为柱型，包括n个晶体装配结构，晶体装配结构均匀分布在晶体支撑部件的外侧面，定位机构安装在支撑框架上，定位机构中的定位基座的中轴和晶体支撑部件的中轴固定联接且与支撑框架转动联接，定位基座上的基座定位结构与晶体支撑部件上的晶体装配结构精确定位装配且一一对应；本发明通过采用晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，且动作过程可靠，并使检测装置的使用寿命增长了，因此具有明显的优点。
+18. 106248708 一种X荧光光谱法对土壤中重金属元素铅的快速测定方法
+CN
+21.12.2016
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201610776494.1
+江苏天瑞仪器股份有限公司
+应刚
+G01N 23/223
+Loading...
+本发明公开了一种X荧光光谱法对土壤中重金属元素铅的快速测定方法，包括：1）取一定量土壤粉末；2）将所述土壤粉末装入样品杯并用手动压片机压实，形成待测样品；3）将待测样品放入样品测试盒中，该测试盒包括：外壳，所述外壳上端具有孔，孔内安装有弹片；样品台，所述样品台安装在所述外壳内部的底端；手持机，所述手持机前端有N个凹槽，所述手持机通过凹槽和所述弹片的配合与所述样品测试盒联接；4）利用X荧光光谱法测量待测样品的X荧光强度；以及5）基于所述待测样品的X荧光强度，计算得到该土壤中的铅元素含量；本发明所述方法采用便携式X荧光光谱法可对土壤样品直接进行铅元素定量分析，测试准确率达到96%以上，测试方法操作简单，无污染，无耗材，同时，本发明的实施例的测定方法还具有如下优点：体积小，易携带，方便野外工作，现场分析。
+19. 106248205 一种用于光谱仪分度晶体切换装置
+CN
+21.12.2016
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201610731179.7
+江苏天瑞仪器股份有限公司
+刘召贵
+G01J 3/02
+Loading...
+本发明公开了一种用于光谱仪分度晶体切换装置，包括分度机构，传动机构，晶体支撑部件，支撑框架，定位机构，分度机构通过传动机构与晶体支撑部件相联，分度机构包括分度从动部件和分度主动部件，分度主动部件与分度从动部件转动联接，传动机构包括传动主部件和传动从部件，分度从动部件和传动机构以及晶体支撑部件均安装在支撑框架上，分度机构的分度数量与晶体支撑部件安装的晶体数量相同，定位机构安装在支撑框架上，定位机构与晶体支撑部件位置具有多个精确定位位置；本发明采用分度机构、晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，在工业现场频繁使用下的检测装置的寿命都能显著增加，且动作过程可靠。
+20. 106248206 一种用于光谱检测具有分度机构的晶体切换装置
+CN
+21.12.2016
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201610731201.8
+江苏天瑞仪器股份有限公司
+应刚
+G01J 3/02
+Loading...
+本发明公开了一种用于光谱检测具有分度机构的晶体切换装置，包括分度机构，传动机构，晶体支撑部件，支撑框架，定位机构，分度机构通过传动机构与晶体支撑部件相联，分度机构包括分度从动部件和分度主动部件，分度主动部件与分度从动部件转动联接，传动机构包括传动主部件和传动从部件，分度从动部件和传动机构以及晶体支撑部件均安装在支撑框架上，分度机构的分度数量与晶体支撑部件安装的晶体数量相同；定位机构安装在支撑框架上 ；本发明通过采用分度机构、晶体支撑部件和定位机构的结合，在完成切换晶体的同时还保证了晶体的定位精度，且动作过程可靠，并使检测装置的寿命在工业现场频繁使用下都能增加，因此具有明显的优点。
+21. 205797605 一种制冷型旋流雾化室
+CN
+14.12.2016
+B05B 15/00 Loading...
+B05B 15/00
+Loading...
+202016000731245
+江苏天瑞仪器股份有限公司
+应刚
+B05B 15/00
+Loading...
+本实用新型公开了一种制冷行旋流雾化室，包括旋流雾化室，导热硅胶层，外部金属导热层；所述导热硅胶层均匀附着在所述旋流雾化室外壁，所述外部金属导热层通过所述导热硅胶与所述旋流雾化室相联；本实用新型通过形成一层导热硅胶层与外部的金属导热层进行结合装配，可以避免原有技术因旋流雾化室外部结构复杂而带来的原有转配件加工难度高成本大以及难以紧密接触从而降低雾化室热传导性并进而影响整个制冷系统的功能和稳定等缺点。
+22. 205797880 一种用于原子吸收自动进样系统的清洗部件
+CN
+14.12.2016
+B08B 3/04 Loading...
+B08B 3/04
+Loading...
+202016000732097
+江苏天瑞仪器股份有限公司
+应刚
+B08B 3/04
+Loading...
+本实用新型公开了一种用于原子吸收自动进样系统的清洗部件，包括：用于进行清洗且安置于自动进样系统的进样盘边侧的腔体，置于腔体内的第一腔室，置于腔体内的第二腔室，置于腔体内的第三腔室，第二腔室底部具有与外部联通的通孔，形成第一腔室的第一腔室壁和形成第三腔室的第三腔室壁高度低于腔体的外壁；本实用新型采用三个不同功能的腔室，且第一腔室壁和第三腔室壁的高度均低于腔体的外壁，使得液体满溢出腔室时有排泄口，且结构简单，操作方便，因此具有明显的优点。
+23. 205800060 一种用于制备制冷型旋流雾化室的模具
+CN
+14.12.2016
+B29C 45/26 Loading...
+B29C 45/26
+Loading...
+202016000731229
+江苏天瑞仪器股份有限公司
+刘召贵
+B29C 45/26
+Loading...
+本实用新型公开了一种用于制备制冷型旋流雾化室的模具，包括模具下腔体和模具上腔体，模具下腔体和模具上腔体结合处的分模面与经过制冷型旋流雾化室进口中轴线且与制冷型旋流雾化室的横截面平行的面重合，模具上腔体和模具下腔体与制冷型旋流雾化室上部和制冷型旋流雾化室下部吻合，模具与制冷型旋流雾化室进口结合部位有密封装置；本实用新型不仅能够简化转配件的制造工艺难度和成本，也能够使得接触更加紧密大大提高雾化室的热传导，进而大大提升整个制冷系统的制冷功能及稳定性。
+24. 205810761 用于解析离子源进样装置的XY移动平台
+CN
+14.12.2016
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+202016000556931
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/04
+Loading...
+本实用新型公开了一种用于解析离子源进样装置的XY移动平台，包括X移动平台和Y移动平台，X移动平台安装在所述Y移动平台上，X移动平台包括基座，滑动部件和轨道部件，滑动部件滑动安装在所述轨道部件上，所述轨道部件安装在所述基座上，所述X移动平台上包括第一挡块和第二挡块；本实用新型通过XY移动平台的运动推动举靶顶靶机构使得盖板上的凹槽与靶槽平台形成封闭腔室并由真空系统抽真空，以形成过渡真空腔室，可以有效地使得样品进行一个动态的样品对于真空度的适应过程，操作更加灵活和便捷。
+25. 106182558 一种制备制冷型旋流雾化室的方法
+CN
+07.12.2016
+B29C 45/00 Loading...
+B29C 45/00
+Loading...
+102016000546252
+江苏天瑞仪器股份有限公司
+刘召贵
+B29C 45/00
+Loading...
+本发明公开了一种制备制冷型旋流雾化室的方法，包括制备六块模具且选择特定的分模面，选用液体状态的导热硅胶进行均匀调和后并置于环境温度为20度‑30度之间的环境下放置大于等于20分钟，在模具内壁均匀涂抹无硫膏体并在制冷型旋转雾化室与模具外部联通的部件安置密封部件，安装到模具中，封闭不必要孔，向模具中注射液体导热硅胶，注射结束后静置，待导热硅胶完全固化，融化无硫膏体，打开模具，取出所述制冷型旋流雾化室；本发明可以解决目前技术所带来的装配件的制造工艺难度和成本高以及难以紧密接触从而降低了雾化室的热传导性进而影响整个制冷系统的功能及稳定等缺点。
+26. 205786472 一种激光解析离子源装置
+CN
+07.12.2016
+G01N 27/62 Loading...
+G01N 27/62
+Loading...
+202016000590572
+江苏天瑞仪器股份有限公司
+应刚
+G01N 27/62
+Loading...
+本实用新型公开了一种激光解析离子源装置，包括样品靶，前级板，离子聚焦透镜，检测器，激光器，上位机，下拉脉冲发生装置和延时电路，在下拉脉冲装置中，单极性高压直流电源通过串联高压电阻与快速开关部件的开关模块一端及脉冲输出端联接，开关电路另一端接地，同步脉冲信号源与快速开关部件的触发模块联接以控制快速开关部件的开关模块的开或闭，主脉冲输入端与驱动脉冲输出端联接，主脉冲输入端通过主电路第一滤波模块与第一分流器和第二分流器的第一端联接，第一分流器的第二端与主电路第二输出端联接，第二分流器的第二端与主电路第一输出端联接；本实用新型设计的装置通过提高飞行时间质谱的灵敏度和分辨率，提升了解析中的精度要求。
+27. 205792486 一种用于高压下拉脉冲发生装置的脉冲驱动电路
+CN
+07.12.2016
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+202016000590879
+江苏天瑞仪器股份有限公司
+刘召贵
+H03K 3/02
+Loading...
+本实用新型公开了一种用于高压下拉脉冲发生装置的脉冲驱动电路，包括驱动电路包括单极性高压直流电源，同步脉冲信号源，快速开关部件，驱动脉冲输出端，单极性高压直流电源通过串联高压电阻与快速开关部件的开关模块一端及脉冲输出端联接，开关电路另一端接地，同步脉冲信号源与快速开关部件的触发模块联接以控制快速开关部件的开关模块的开或闭；本实用新型通过这种驱动电路提高了飞行时间质谱的灵敏度和分辨率，且设计简单，降低了成本。
+28. 106153656 一种X荧光光谱法对土壤中重金属镉元素的快速测定方法
+CN
+23.11.2016
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+102016000776717
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本发明公开了一种X荧光光谱法对土壤中重金属元素镉的快速测定方法，包括：1）取一定量土壤粉末；2）将所述土壤粉末装入样品杯并用手动压片机压实，形成待测样品；3）将待测样品放入样品测试盒中，该测试盒包括：外壳，所述外壳上端具有孔，孔内安装有弹片；样品台，所述样品台安装在所述外壳内部的底端；手持机，所述手持机前端有N个凹槽，所述手持机通过凹槽和所述弹片的配合与所述样品测试盒联接；4）利用X荧光光谱法测量待测样品的X荧光强度；以及5）基于所述待测样品的X荧光强度，计算得到该土壤中的镉元素含量；本发明所述方法采用便携式X荧光光谱法可对土壤样品直接进行镉元素定量分析，测试准确率达到96%以上，测试方法操作简单，无污染，无耗材，同时，本发明的实施例的测定方法还具有如下优点：体积小，易携带，方便野外工作，现场分析。
+29. 106066360 用于解析离子源进样装置的举靶顶靶机构
+CN
+02.11.2016
+G01N 27/64 Loading...
+G01N 27/64
+Loading...
+102016000405698
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 27/64
+Loading...
+本发明公开了一种用于解析离子源进样装置的举靶顶靶机构，包括顶靶机构和举靶机构，举靶机构具有举靶平台，举靶平台在进靶过程中向上托举且在退靶过程中向下回退，顶靶机构具有顶靶部件，顶靶部件在进靶过程中向上顶且在退靶过程中向下回退，举靶机构具有定位杆，顶靶机构具有滑动部件，滑动部件滑动安装在定位杆，顶靶机构固定安装在安装在举靶机构上的托块上；本发明提供的举靶顶靶机构实现了样品能够先进行一种低真空过度，进而再进入高真空的过程，具有操作灵活和便捷的优点。
+30. 106026980 一种用于高压下拉脉冲发生装置的脉冲驱动电路
+CN
+12.10.2016
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+102016000430851
+江苏天瑞仪器股份有限公司
+刘召贵
+H03K 3/02
+Loading...
+本发明公开了一种用于高压下拉脉冲发生装置的脉冲驱动电路，包括驱动电路包括单极性高压直流电源，同步脉冲信号源，快速开关部件，驱动脉冲输出端，单极性高压直流电源通过串联高压电阻与快速开关部件的开关模块一端及脉冲输出端联接，开关电路另一端接地，同步脉冲信号源与快速开关部件的触发模块联接以控制快速开关部件的开关模块的开或闭；本发明通过这种驱动电路提高了飞行时间质谱的灵敏度和分辨率，且设计简单，降低了成本。
+31. 105984082 一种用于制备制冷型旋流雾化室的模具
+CN
+05.10.2016
+B29C 45/26 Loading...
+B29C 45/26
+Loading...
+102016000546251
+江苏天瑞仪器股份有限公司
+刘召贵
+B29C 45/26
+Loading...
+本发明公开了一种用于制备制冷型旋流雾化室的模具，包括模具下腔体和模具上腔体，模具下腔体和模具上腔体结合处的分模面与经过制冷型旋流雾化室进口中轴线且与制冷型旋流雾化室的横截面平行的面重合，模具上腔体和模具下腔体与制冷型旋流雾化室上部和制冷型旋流雾化室下部吻合，模具与制冷型旋流雾化室进口结合部位有密封装置；本发明不仅能够简化转配件的制造工艺难度和成本，也能够使得接触更加紧密大大提高雾化室的热传导，进而大大提升整个制冷系统的制冷功能及稳定性。
+32. 105964462 一种制冷型旋流雾化室
+CN
+28.09.2016
+B05B 15/00 Loading...
+B05B 15/00
+Loading...
+201610546168.1
+江苏天瑞仪器股份有限公司
+应刚
+B05B 15/00
+Loading...
+本发明公开了一种制冷行旋流雾化室，包括旋流雾化室，导热硅胶层，外部金属导热层；所述导热硅胶层均匀附着在所述旋流雾化室外壁，所述外部金属导热层通过所述导热硅胶与所述旋流雾化室相联；本发明通过形成一层导热硅胶层与外部的金属导热层进行结合装配，可以避免原有技术因旋流雾化室外部结构复杂而带来的原有转配件加工难度高成本大以及难以紧密接触从而降低雾化室热传导性并进而影响整个制冷系统的功能和稳定等缺点。
+33. 105929870 一种新型光室恒温系统
+CN
+07.09.2016
+G05D 23/20 Loading...
+G05D 23/20
+Loading...
+201610557601.1
+江苏天瑞仪器股份有限公司
+刘召贵
+G05D 23/20
+Loading...
+本发明公开了一种新型光室恒温系统，包括光谱仪光室，多个加热元器件，和加热元器件一一对应的温度传感器；加热元器件安装在光谱仪光室外侧表面上；温度传感器安装在光谱仪光室内侧表面，且与加热元器件一一对应；在恒温系统中，温度控制系统通过安装在光谱仪光室内侧表面的温度传感器得到光谱仪光室内部温度，对采集回来的所有温度数据进行加权优化计算后，再结合PID控制原则，得出每一个所述加热元器件的PWM控制信号，驱动所述加热元器件对光室进行加热并稳定在预定温度值；本发明可以快速恒温，减少测量误差，保证整个光室温度的均匀性。
+34. 105915102 一种高压下拉脉冲发生装置
+CN
+31.08.2016
+H02M 9/06 Loading...
+H02M 9/06
+Loading...
+102016000431069
+江苏天瑞仪器股份有限公司
+应刚
+H02M 9/06
+Loading...
+本发明公开了一种高压下拉脉冲发生装置，包括主电路和驱动电路，在驱动电路中，单极性高压直流电源通过串联高压电阻与快速开关部件的开关模块一端及脉冲输出端联接，开关电路另一端接地，同步脉冲信号源与快速开关部件的触发模块联接以控制快速开关部件的开关模块的开或闭，在主电路中，主脉冲输入端与驱动脉冲输出端联接，主脉冲输入端通过主电路第一滤波模块与第一分流器和第二分流器的第一端联接，第一分流器的第二端与主电路第二输出端联接，第二分流器的第二端与主电路第一输出端联接；本发明设计的装置提高了飞行时间质谱的灵敏度和分辨率，且结构简单，降低了成本。
+35. 105911130 一种激光解析离子源装置
+CN
+31.08.2016
+G01N 27/62 Loading...
+G01N 27/62
+Loading...
+102016000431068
+江苏天瑞仪器股份有限公司
+应刚
+G01N 27/62
+Loading...
+本发明公开了一种激光解析离子源装置，包括样品靶，前级板，离子聚焦透镜，检测器，激光器，上位机，下拉脉冲发生装置和延时电路，在下拉脉冲装置中，单极性高压直流电源通过串联高压电阻与快速开关部件的开关模块一端及脉冲输出端联接，开关电路另一端接地，同步脉冲信号源与快速开关部件的触发模块联接以控制快速开关部件的开关模块的开或闭，主脉冲输入端与驱动脉冲输出端联接，主脉冲输入端通过主电路第一滤波模块与第一分流器和第二分流器的第一端联接，第一分流器的第二端与主电路第二输出端联接，第二分流器的第二端与主电路第一输出端联接；本发明设计的装置通过提高飞行时间质谱的灵敏度和分辨率，提升了解析中的精度要求。
+36. 205542705 一种非线性预四极杆
+CN
+31.08.2016
+H01J 49/42 Loading...
+H01J 49/42
+Loading...
+201620255312.1
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/42
+Loading...
+本实用新型专利公开了一种非线性预四极杆，包括具有2n个金属杆且两两相对导通的金属杆组件、固定环，所述金属杆组件固定安装在所述固定环，所述金属杆组件具有非线性结构,进一步地，非线性结构可以为多个弯曲结构；本实用新型可以在不改变透镜电位的情况下，使得中性粒子无法到达检测器，从而可以直接降低和消除中性粒子引起的噪音，同时又不影响离子强度。
+37. 105891318 基质辅助激光解析离子源进样装置
+CN
+24.08.2016
+G01N 27/62 Loading...
+G01N 27/62
+Loading...
+102016000405700
+江苏天瑞仪器股份有限公司
+应刚
+G01N 27/62
+Loading...
+本发明公开了一种基质辅助激光解析离子源进样装置，包括内部具有腔室的中空部件，安装在中空部件内部的Y向平台和安装在Y向平台上的X向平台，放置在安装在X向平台上的靶槽平台上的靶槽，安装在中空部件内部且与X向平台正向相对的顶靶机构和举靶机构，以及安装在中空部件顶部的具有凹槽的盖板；本发明通过举靶机构和顶靶机构的运动使得盖板上的凹槽与靶槽平台形成封闭腔室并由真空系统抽真空，以形成过渡真空腔室，可以有效地使得样品进行一个动态的样品对于真空度的适应过程，操作更加灵活和便捷。
+38. 105895492 用于解析离子源进样装置的XY移动平台
+CN
+24.08.2016
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+102016000405689
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/04
+Loading...
+本发明公开了一种用于解析离子源进样装置的XY移动平台，包括X移动平台和Y移动平台，X移动平台安装在所述Y移动平台上，X移动平台包括基座，滑动部件和轨道部件，滑动部件滑动安装在所述轨道部件上，所述轨道部件安装在所述基座上，所述X移动平台上包括第一挡块和第二挡块；本发明通过XY移动平台的运动推动举靶顶靶机构使得盖板上的凹槽与靶槽平台形成封闭腔室并由真空系统抽真空，以形成过渡真空腔室，可以有效地使得样品进行一个动态的样品对于真空度的适应过程，操作更加灵活和便捷。
+39. 105869985 用于解析离子源进样装置的真空盖板结构
+CN
+17.08.2016
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201610405688.0
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/04
+Loading...
+本发明公开了一种用于解析离子源进样装置的真空盖板结构，包括盖板，样品盖板，盖板包括检测孔，样品放置孔，样品盖板活动安装在样品放置孔处且位于盖板的上表面，盖板的与样品放置孔对应的下表面处有一凹槽，凹槽侧壁上有贯通盖板内部且向外开口在盖板的侧壁上的凹槽真空联通孔；本发明通过举靶机构和顶靶机构的运动使得盖板上的凹槽与靶槽平台形成封闭腔室并由真空系统抽真空，以形成过渡真空腔室，可以有效地使得样品进行一个动态的样品对于真空度的适应过程，操作更加灵活和便捷。
+40. 103364425 一种手持式能量色散分析仪测试支架
+CN
+29.06.2016
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+102013000066076
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 23/223
+Loading...
+本发明公开了一种手持式能量色散分析仪测试支架，包括框架、仪器固定座、样品腔顶盖，其特征在于，所述框架包括支撑垫脚、底盘、立杆、样品平台；所述仪器固定座包括销钉、右卡扣、仪器固定适配头、左卡扣、弹性部件、对捏式夹子；所述样品腔顶盖包括合页、顶盖、气撑、铰链；使用本发明的克服了用手持分析仪进行长时间测量的不足，避免了X射线可能对人体可能造成的辐射，降低了工作强度，同时提高了测量结果的准确程度。
+41. 105679639 一种非线性预四极杆
+CN
+15.06.2016
+H01J 49/42 Loading...
+H01J 49/42
+Loading...
+201610191023.4
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/42
+Loading...
+本发明专利公开了一种非线性预四极杆，包括具有2n个金属杆且两两相对导通的金属杆组件、固定环，所述金属杆组件固定安装在所述固定环，所述金属杆组件具有非线性结构,进一步地，非线性结构可以为多个弯曲结构；本发明可以在不改变透镜电位的情况下，使得中性粒子无法到达检测器，从而可以直接降低和消除中性粒子引起的噪音，同时又不影响离子强度。
+42. 103353472 一种网络在线水质重金属分析仪
+CN
+27.04.2016
+G01N 27/26 Loading...
+G01N 27/26
+Loading...
+201310139012.8
+江苏天瑞仪器股份有限公司
+夏洪海
+G01N 27/26
+Loading...
+本发明公开了一种网络在线水质重金属分析仪，包括工业级一体式控制单元、检测单元、自动采样单元、水样前处理单元、对外输入输出单元、网络模块。本发明提供的网络在线水质重金属分析仪可以使用所述工业级一体式控制单元通过所述通讯接口自动控制所述检测单元、所述自动采样单元、所述水样前处理单元、所述对外输入输出单元，本发明采用模块化的思想，可以方便的对上述单元的数量和种类进行扩展和缩减，同时在上述单元内部的组件也是相互独立，同样能够方便的进行扩展和缩减，采用低成本的标准网络机柜可以降低整体成本，并且让数据的处理更加方便；同时为适应远程控制需求，网络模块能够便捷的通过有线无线网络进行数据传输。
+43. 103364378 一种用于原子荧光光谱仪的多功能联合进样系统
+CN
+20.04.2016
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+201310069764.1
+江苏天瑞仪器股份有限公司
+马聪
+G01N 21/64
+Loading...
+本发明公开了一种用于原子荧光光谱仪的多功能联合进样系统，包括蠕动泵断续进样装置，注射泵进样装置，切换装置，四通混合反应模块，储液装置，控制系统；本发明通过控制系统方便的对几种进样方式进行切换，并能一定程度的兼顾多种进样方式，同时能够在一台设备上集成多个进样方式，在蠕动泵断续进样模式下，注射泵部件、三通阀部件不工作，蠕动泵部件同时吸取样品（或载液）与还原剂；在注射泵进样工作模式下，注射泵部件和三通阀部件负责吸取样品（或载液），蠕动泵部件辅助吸取还原剂，因此有效的降低成本和提升效率。
+44. 205177772 光路装置及质谱仪
+CN
+20.04.2016
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201520237014.5
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/16
+Loading...
+本实用新型公开了基质辅助激光解吸电离用样品激发和样品成像的光路装置，所述光路装置包括外接接口和4路相互独立的光路，所述外接接口连接基于基质辅助激光解吸电离离子源的质谱质量分析器，4路光路分别为：2路样品照明光路；样品激发光路；以及样品成像光路。根据本实用新型实施例的光路装置，其光路结构简单；且能够结合离子源腔体内的照明亮度及所选成像器件的灵敏度、曝光时间、增益及帧速率而适当地采用对应的1路或2路照明光路来进行照明，从而大大改善照明差的问题，使样品得到充分的照明，以利于成像器件快速、清晰的取得样品的实时图像。
+45. 105043822 一种大气颗粒物采集测量装置
+CN
+11.11.2015
+G01N 1/22 Loading...
+G01N 1/22
+Loading...
+201410844817.7
+江苏天瑞仪器股份有限公司
+应刚
+G01N 1/22
+Loading...
+本发明公开了一种大气颗粒物采集测量装置,包括基板，β放射源切换单元，滤纸压紧单元，凸轮动力单元，所述β放射源切换单元、所述滤纸压紧单元自上到下依次安装，且安装在所述基板同侧；所述凸轮动力单元安装在所述基板上，所述凸轮动力单元通过安装在所述凸轮动力单元输出轴端部的凸轮与所述滤纸压紧单元联接；本发明通过将使用将滤纸进行定位加紧，使其能够在采集时段无张力状态下进行采集，避免了以往的断纸现象，同时使用凸轮结构使得结构进一步简化、紧凑，使得整体体积更小，进一步便利了实时监测的需要，而且本机构能够保证气体颗粒物采集和测量的部分保持完全一致，因此也避免了传统设备存在的由于滤纸位置变动造成的测量误差。
+46. 105021640 一种X荧光光谱法对谷物中硒元素的快速测定方法
+CN
+04.11.2015
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201510297368.3
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本发明公开了一种X荧光光谱法对谷物中硒元素的快速测定方法，包括：1）取一定量谷物去皮，粉碎过目筛，得到谷物粉末；2）将所述谷物粉末装入样品杯并压实，形成待测样品；3）利用X荧光光谱法测量待测样品的X荧光强度；以及4）基于所述待测样品的X荧光强度，计算得到该谷物中的硒元素含量。根据本发明实施例的测定方法，通过将谷物进行粉碎过目筛来进行检测，可以，也能够保证测试的高精确性。同时，本发明的实施例的测定方法还具有如下优点：处理方法简单--仅使用锤式旋风磨对样品进行粉碎过筛处理即可；时间短，样品前处理仅需2min；仪器测试简单，一键化操作即可以，且无任何废弃耗材。
+47. 204731044 取样-卸样装置
+CN
+28.10.2015
+G01N 1/04 Loading...
+G01N 1/04
+Loading...
+201520374431.4
+江苏天瑞仪器股份有限公司
+朱兰
+G01N 1/04
+Loading...
+本实用新型提出一种取样-卸样装置，包括：圆盘上具有沿上下方向贯通圆盘的取样孔；圆盘驱动组件与圆盘相连以驱动圆盘转动；固定板设在圆盘的下面且具有与取样孔上下对应的卸样孔；密封挡板可移动地设在圆盘与固定板之间以在封闭取样孔和卸样孔的取样位置以及连通取样孔和卸样孔的卸样位置间可移动；弹性件设在圆盘和密封挡板之间以常推动密封挡板处于取样位置；偏心轮组件与密封挡板相连以推动密封挡板克服弹性件的弹力以处于卸样位置。根据本实用新型实施例的取样-卸样装置，可以实现自动取样-卸样，并且可连续作业，降低了劳动强度。
+48. 204583325 一种小型谷物粉碎机
+CN
+26.08.2015
+B02C 9/02 Loading...
+B02C 9/02
+Loading...
+201520236898.2
+江苏天瑞仪器股份有限公司
+谢松林
+B02C 9/02
+Loading...
+本实用新型提出一种小型谷物粉碎机，包括：控制单元，所述控制单元包括主控板、启停控制器和步进电机控制器；粉碎单元包括下料器与粉碎系统，下料器包括步进电机和分料斗；粉碎系统包括粉碎室、刀片、电机和筛网，粉碎室与分料斗相连，粉碎室包括粉碎腔，刀片位于粉碎腔内，电机的电机轴前端伸入粉碎腔内，并与刀片相连，筛网固定于粉碎腔内壁上；收集单元包括通粉管道、贮粉部和通风布袋，通粉管道包括上出粉管、下出粉管和进粉管，上出粉管与通风布袋相连，下出粉管与贮粉部相连，进粉管与粉碎室相连。本实用新型的小型谷物粉碎机，体积小、重量轻便于自动化集成，能够连续长时间工作，能耗小、噪音小。
+49. 104637778 Reverse air blowing method for mass spectrometer
+CN
+20.05.2015
+H01J 49/26 Loading...
+H01J 49/26
+Loading...
+201510084177.9
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/26
+Loading...
+The invention discloses a reverse air blowing method for a mass spectrometer. The method comprises the following steps that reverse blowing air enters a reverse air blowing cone through a reverse blowing air inputting opening formed in the reverse air blowing cone, and enters a cavity communicated with the reverse air blowing cone and a sample feeding cone after passing through a passage formed by a heating ring arranged on the periphery of the sample feeding cone and a baffle ring component arranged at the inner side of the reverse air blowing cone; the heating ring is heated, the sample feeding cone and the internal support component are preheated through heat radiation and through heat transfer via the heating ring, and then, the reverse blowing air entering an internal passages of the reverse air blowing cone is heated. The reverse air blowing method has the advantages that the outsourcing standard heating ring is simply arranged at the outer side of the sample feeding cone, and in addition, a reverse blowing air heating passage is added, so that the reverse blowing air preheating effect is better, the reverse blowing air temperature is properly raised, the drying atomization effect on ions can be further improved, more effective ions can be increased to enter a continuous system, the utilization rate of samples can be improved, and in addition, the sensitivity of detecting signals is further improved.
+50. 204256556 一种多路温度控制系统
+CN
+08.04.2015
+G05D 23/20 Loading...
+G05D 23/20
+Loading...
+201420737354.X
+江苏天瑞仪器股份有限公司
+刘召贵
+G05D 23/20
+Loading...
+本实用新型公开了一种多路温度控制系统，包括：多路温度采集电路，多路加热电路，SPI总线，数据总线，微控制器电路，其通过SPI总线与多路温度采集电路相联，并对多路温度采集电路进行信息传递和控制；微控制电路通过数据总线与多路加热电路相联，并对多路加热电路进行信息传递和控制;本实用新型通过使用高速MCU，采用SPI总线技术，温度读取速度快，精度高，将控制算法烧录在MCU中，实现气相色谱仪多路温度控制的要求，并且每路温度控制独立运行，通过输入各路温度控制的目标值，系统根据设置的目标值自动运行实现温度的自动控制，进一步避免原有设计方案或方法的复杂性，使其更在设计上更加简便，成本更低以及安装维修更加便捷。
+51. 104465278 X-ray tube heat dissipation device
+CN
+25.03.2015
+H01J 35/02 Loading...
+H01J 35/02
+Loading...
+201410844818.1
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 35/02
+Loading...
+The invention discloses an X-ray tube heat dissipation device. The X-ray tube heat dissipation device comprises an X-ray tube, a cylindrical ventilation duct, a heat dissipation component, an air inlet and a wind power device. The X-ray tube is installed in the center of the ventilation duct, and the central axis of the X-ray tube coincides with the central axis of the cylindrical ventilation duct. The heat dissipation component is installed between the X-ray tube and the ventilation duct and is a copper metal sheet. The air inlet is installed on the lower portion of the ventilation duct. The wind power device is connected with the air inlet.
+52. 204179053 一种质谱仪三维移动平台
+CN
+25.02.2015
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201420661370.5
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/02
+Loading...
+本实用新型公开了一种质谱仪三维移动平台，包括外腔体；由水平调节直线马达控制的水平调节组件；由垂直调节直线马达和深度调节直线马达控制的垂直/深度调节装置，其通过安装在垂直调节组件上的由垂直调节直线马达带动做直线运动且可绕和所述垂直调节直线马达联接的移动腔转轴旋转的转轴控制杆与安装在所述深度调节组件上的由所述深度调节直线马达带动做直线运动的转轴托架联接进行垂直和深度的调节；本实用新型通过对深度和垂直方向的连杆式调节，保证了精确调节，且大大减小了体积，更利于仪器整体化、小型化设计，同时降低了成本，提升了操作的便捷性。
+53. 204114169 一种电感耦合等离子体质谱仪真空阀门
+CN
+21.01.2015
+F16K 1/00 Loading...
+F16K 1/00
+Loading...
+201420661275.5
+江苏天瑞仪器股份有限公司
+应刚
+F16K 1/00
+Loading...
+本实用新型公开了电感耦合等离子体质谱仪真空阀门，包括：基座，所述基座具有待密封封口，且具有第一腔室及第二腔室；具有前后伸缩部件的动力源装置；滑动系统；封闭装置等;本实用新型采用开合结构，通过开合来实现静态和动态真空，并且开启时，进气量很小，满足检测需要。同时此结构简单，可通过软件控制，运动顺畅，更适合于仪器整体化设计，装配简单，智能化程度高，满足高真空要求等。
+54. 204087030 可控高压直流电源
+CN
+07.01.2015
+G05F 1/46 Loading...
+G05F 1/46
+Loading...
+201420495646.7
+江苏天瑞仪器股份有限公司
+应刚
+G05F 1/46
+Loading...
+本实用新型提出了一种可控高压直流电源，用于对质谱仪中的离子透镜系统提供电场，包括：数模转换模块，用以提供基准电压；直流高压模块，用以提供第一直流电压；电压调理模块，耦接数模转换模块及直流高压模块，用以根据基准电压与第一直流电压产生第二直流电压；滤波模块，耦接电压调理模块，用以对第二直流电压进行滤波以产生第三直流电压；输出端，耦接滤波模块，用以输出第三直流电压；电压检测模块，耦接输出端，用以实时检测第三直流电压；模数转换模块，耦接电压检测模块，用以将电压检测模块所检测到的第三直流电压进行模数转换；控制模块，耦接数模转换模块与模数转换模块，用以根据模数转换模块的输入控制数模转换模块以提供基准电压。
+55. 204086287 一种用于重金属快速检测仪的旋转装置
+CN
+07.01.2015
+G01N 35/04 Loading...
+G01N 35/04
+Loading...
+201420528788.9
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 35/04
+Loading...
+本实用新型公开了一种用于重金属快速检测仪的旋转装置，包括工作平台；包括n个样品盒的样品盒转盘装置，包括电动机、同步带轮、同步带、从动带轮的传动装置，由电机带动样品盒转盘转动；包括光电开关等的传感部件，以使样品盒转盘装置在适当的位置保持静止；以及增强样品盒转盘转动刚性的弹性支撑部件;本实用新型通过电机带动转盘进行圆周运动，并配备多个样品安装空间，可以实现多样品的检测。
+56. 204086642 一种用于重金属检测仪的滤光片切换装置
+CN
+07.01.2015
+G02B 7/00 Loading...
+G02B 7/00
+Loading...
+201420528235.3
+江苏天瑞仪器股份有限公司
+应刚
+G02B 7/00
+Loading...
+本实用新型公开了一种用于重金属检测仪的滤光片切换装置，包括支撑座；动力装置，包括安装在支撑座上的电机基座及电机；传动装置；滑动装置，包括滑轨、滑块；滤光片安装部件，所述滤光片安装部件一端固定联接在所述滑块上，另一端有n个滤光片安装位；传感装置，包括遮光片、光电开关，所述遮光片安装在滑块上，且具有n个遮光齿，所述遮光齿位置和所述滤光片安装位相对应;本实用新型通过电机带动螺杆带动滤光片安装部件进行前后运动，并配备传感装置，使得能够自动进行滤光片的切换，节省了测试不同样品的时间，提高了整台仪器的工作效率。
+57. 204086234 一种毛细管气相色谱仪的分流/不分流进样口载气控制系统
+CN
+07.01.2015
+G01N 30/32 Loading...
+G01N 30/32
+Loading...
+201420524844.1
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 30/32
+Loading...
+本实用新型公开了毛细管气相色谱仪的分流/不分流进样口载气控制系统，包括内有模数转换器、数模转换器、单片机和输出串口等部件的系统控制单元；与模数转换器和所述数模转换器相联的进样口压力控制器；与输出串口相联的隔垫吹扫流量控制器；与输出串口相联的分流流量控制器；一端与所述进样口压力控制器相联，另一端与隔垫吹扫流量控制器相联的分流/不分流进样口；色谱柱，所述色谱柱与所述分流/不分流进样口相联;本实用新型使得整体结构简单易懂、构造清晰、抗干扰能力强、维护简单，避免了分立器件设计中的抗干扰、调试难度大等问题和生产过程中传感器部件的标定和校准等投入的大量人力物力。
+58. 204086176 一种单一准直食品重金属检测仪
+CN
+07.01.2015
+G01N 23/22 Loading...
+G01N 23/22
+Loading...
+201420528232.X
+江苏天瑞仪器股份有限公司
+应刚
+G01N 23/22
+Loading...
+本实用新型公开了一种单一准直食品重金属检测仪，包括整体构造的X光路探测腔室装置，内部有X射线探测腔室，两侧有用于安装组件的安装通孔，上部有样品台面；通过固定板固定安装在X光路探测腔室装置一侧的光管安装通孔的X射线管组件，由具有固定端和活动端的光管卡箍一端固定在固定板上，另一端通过限位固定部件利用光管卡箍自身弹性结构将具有圆弧型底部的X射线管卡在光管安装通孔处；利用紧固件通过隔离法兰安装在X光路探测腔室装置另一侧安装通孔的探测器组件，以及与所述样品台面联接的顶盖;本实用新型通过将检测腔室进行整体成型，缩短原有的腔室长度，使被测样品距离X射线管和探测器更近，提高X光的激发和接收效率，保证了超近的样品测试距离，可以提高测试样品的精确度。
+59. 104198628 Flow distribution/non-flow distribution sample inlet carrier gas control system of capillary gas chromatograph instrument
+CN
+10.12.2014
+G01N 30/32 Loading...
+G01N 30/32
+Loading...
+201410464465.2
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 30/32
+Loading...
+The invention discloses a flow distribution/non-flow distribution sample inlet carrier gas control system of a capillary gas chromatograph instrument. The system comprises a system control unit in which parts such as an analog-digital converter, a digital-analog converter, a single chip and an output serial port are arranged, a sample inlet pressure controller connected with the analog-digital converter and the digital-analog converter, a spacing cushion purge flow controller connected with the output serial port, a flow distribution/non-flow distribution sample inlet with one end connected with the sample inlet pressure controller and the other end connected with the spacing cushion purge flow controller, and a chromatographic column connected with the flow distribution/non-flow distribution sample inlet. The system is simple and easy to understand in overall structure, clear in construction, good in anti-jamming capability and easy to maintain; the problems of jamming resistance, high debugging difficulty and the like in the design of a discrete device and a large amount of manpower and material resources in calibration and the like of a sensor part in a production process are avoided.
+60. 204013238 可控高压交流电源
+CN
+10.12.2014
+H02M 5/12 Loading...
+H02M 5/12
+Loading...
+201420496230.7
+江苏天瑞仪器股份有限公司
+刘召贵
+H02M 5/12
+Loading...
+本实用新型提出了一种可控高压交流电源，用于对质谱仪中的离子透镜系统提供电场，包括：数模转换模块，用以提供基准电压；交流幅度调节模块，耦接数模转换模块，用以根据基准电压输出第一直流电压；开关模块，耦接交流幅度调节模块，用以根据第一直流电压的驱动输出第一交流电压；变压器，耦接开关模块，其一次侧输入第一交流电压，其二次侧输出第二交流电压；分压模块，耦接变压器，用以对第二交流电压进行分压；检波模块，输入端耦接分压模块，输出端耦接交流幅度调节模块，用以将分压模块对第二交流电压分压后的电压反馈至交流幅度调节模块；输出端，耦接变压器，用以输出第二交流电压。本实用新型实现了对离子透镜系统中的电场进行实时控制。
+61. 204011360 一种质谱仪用户可调的检测器信号处理部件
+CN
+10.12.2014
+H01J 49/00 Loading...
+H01J 49/00
+Loading...
+201420389317.4
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/00
+Loading...
+本实用新型公开了一种质谱仪用户可调的检测器信号处理部件，包括用于匹配接收检测器输出的脉冲信号并进行初次放大的前置放大电路；接收初次放大信号并对其进行多次缓冲放大后输入到下一级电路的多级放大电路；包括至少一个起比较器作用的并具有开关状态及可以设置门限的三极管，并将来自多级放大电路的信号经过处理后输出到下一级电路的背景扣除设置电路；把来自背景扣除设置电路不规则信号变换成易于被检测的规则信号，并输出至下一级单元的波形变化电路；以及增大驱动能力、减小输出阻抗的信号输出单元;本实用新型提供的使用硬件进行背景扣除的部件，则能够方便、灵活以及实施有效的对质谱仪提供的最终谱图进行一次到位的处理。
+62. 104166419 可控高压直流电源
+CN
+26.11.2014
+G05F 1/46 Loading...
+G05F 1/46
+Loading...
+201410436227.0
+江苏天瑞仪器股份有限公司
+应刚
+G05F 1/46
+Loading...
+本发明提出了一种可控高压直流电源，用于对质谱仪中的离子透镜系统提供电场，包括：数模转换模块，用以提供基准电压；直流高压模块，用以提供第一直流电压；电压调理模块，耦接数模转换模块及直流高压模块，用以根据基准电压与第一直流电压产生第二直流电压；滤波模块，耦接电压调理模块，用以对第二直流电压进行滤波以产生第三直流电压；输出端，耦接滤波模块，用以输出第三直流电压；电压检测模块，耦接输出端，用以实时检测第三直流电压；模数转换模块，耦接电压检测模块，用以将电压检测模块所检测到的第三直流电压进行模数转换；控制模块，耦接数模转换模块与模数转换模块，用以根据模数转换模块的输入控制数模转换模块以提供基准电压。
+63. 203965967 温度控制电路
+CN
+26.11.2014
+G05D 23/20 Loading...
+G05D 23/20
+Loading...
+201420390607.0
+江苏天瑞仪器股份有限公司
+刘召贵
+G05D 23/20
+Loading...
+本实用新型提出了一种温度控制电路，用于对质谱仪进样系统的雾化室的温度进行控制，雾化室配设有制冷片，温度控制电路包括：程控恒流源模块，用以对制冷片提供恒流电源；温度传感器模块，用以采集雾化室内的实时温度以获得温度采样信号；模数转换模块，耦接于温度传感器模块，用以对温度采样信号进行模数转换；以及控制模块，耦接于程控恒流源模块与模数转换模块间，用以根据温度采样信号经模数转换模块转换后值控制程控恒流源模块的输出。本实用新型所提出的本温度控制电路，同时实现了制冷片和温度传感器的在线断路检测功能，从而可以提高温度控制的可靠性和自检能力。
+64. 203965356 用于X射线荧光光谱仪的数字多道脉冲幅度分析器
+CN
+26.11.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201320849055.0
+江苏天瑞仪器股份有限公司
+应刚
+G01N 23/223
+Loading...
+本实用新型提供了一种用于X射线荧光光谱仪的数字多道脉冲幅度分析器，包括：信号输入部，其用于输入由X射线荧光光谱仪测量所得的光谱信号；信号处理部，其接受由所述信号输入部输入的所述光谱信号并对所述光谱信号进行处理，得到经处理后的光谱；以及输出部，其接收来自信号处理部的经处理后的光谱并输出，其中，信号处理部包括：滤波处理部件，所述滤波处理部件对所述光谱信号进行滤波，以得到梯形滤波；基线恢复处理部件，所述基线恢复处理部件对所述光谱信号进行实时基线恢复处理；以及峰识别部件，所述峰识别部件基于恢复后的基线进行峰识别以得到经处理后的光谱，其中，在所述基线恢复中，实时地采集基线上的多个点值进行平均值处理，所述多个点为1024~16384个点。
+65. 104102250 Temperature control circuit
+CN
+15.10.2014
+G05D 23/20 Loading...
+G05D 23/20
+Loading...
+201410335727.5
+江苏天瑞仪器股份有限公司
+刘召贵
+G05D 23/20
+Loading...
+The invention discloses a temperature control circuit used for controlling a temperature of an atomizing chamber of a mass spectrometer sampling system. The atomizing chamber is provided with refrigerating sheets; the temperature control circuit comprises a program-controlled constant current source module used for providing a constant current power supply for the refrigerating sheets, a temperature sensor module used for acquiring a real-time temperature inside the atomizing chamber to obtain a temperature sampling signal, an analogue-digital conversion module coupled with the temperature sensor module and used for performing analogue-digital conversion on the temperature sampling signal, and a control module coupled between the program-controlled constant current source module and the analogue-digital conversion module and used for controlling output of the program-controlled constant current source module based on a value of the temperature sampling signal after being converted by the analogue-digital conversion module. The temperature control circuit realizes online circuit break detection function on the refrigerating sheets and the temperature sensor at the same time, and therefore can improve reliability and self-checking capability of the temperature control.
+66. 203870043 基于数字多道脉冲幅度分析的X射线荧光光谱仪
+CN
+08.10.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201320848634.3
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本实用新型提供了一种基于数字多道脉冲幅度分析的X射线荧光光谱仪，包括：测试部，对试样进行检测并获得光谱信号；和多道脉冲幅度分析器，其对所述光谱信号进行分析处理并输出经处理后的光谱，多道脉冲幅度分析器包括：信号输入部，用于输入光谱信号；信号处理部，其接受所述光谱信号并对所述光谱信号进行处理，得到经处理后的光谱；以及输出部，其接收经处理后的光谱并输出，其中，信号处理部包括：滤波处理部件，对所述光谱信号进行滤波，以得到梯形滤波；基线恢复处理部件，对所述光谱信号进行实时基线恢复处理；以及峰识别部件，基于恢复后的基线进行峰识别以得到经处理后的光谱，其中，在所述基线恢复中，实时地采集基线上的多个点值进行平均值处理，所述多个点为1024~1634个点。
+67. 104078302 Detector signal processing component capable of being adjusted by user and applicable to mass spectrometer
+CN
+01.10.2014
+H01J 49/00 Loading...
+H01J 49/00
+Loading...
+201410335416.9
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/00
+Loading...
+The invention discloses a detector signal processing component capable of being adjusted by a user and applicable to a mass spectrometer. The detector signal processing component comprises a pre-amplification electric circuit, a multistage amplification circuit, a background deduction setting circuit, a waveform change circuit and a signal output unit, wherein the pre-amplification electric circuit is used for matching and receiving pulse signals output by a detector and conducting first amplification on the pulse signals; the multistage amplification circuit is used for receiving first amplified signals, conducting multiple times of buffer amplification on the first amplified signals and outputting the signals to a next-stage circuit; the background deduction setting circuit comprises at least one triode and is used for processing the signals from the multistage amplification circuit and outputting the signals to the next-stage circuit, wherein the triode has the functions of a comparator and has on-off states, and a threshold of the triode can be set; the waveform change circuit is used for converting irregular signals from the background deduction setting circuit into regular signals easy to detect and outputting the regular signals to a next-stage unit; the signal output unit is used for increasing driving capacity and reducing output impedance. By the adoption of the detector signal processing component capable of conducting background deduction through hardware, one-time processing on a final spectrogram provided by the mass spectrometer can be achieved conveniently, flexibly and effectively.
+68. 104051218 Mass spectrograph user adjustable detector signal processing method
+CN
+17.09.2014
+H01J 49/00 Loading...
+H01J 49/00
+Loading...
+201410335517.6
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/00
+Loading...
+The invention discloses a mass spectrograph user adjustable detector signal processing method. The method includes the steps that a background deduction circuit is used for setting a threshold on a preceding-stage signal, wherein primary amplifying is conducted on the preceding-stage signal through a pre-amplification circuit, and buffering and amplifying are conducted on the preceding-stage signal through a multi-stage amplification circuit; afterwards, signals obtained after threshold processing is conducted are input into a waveform transformation circuit. According to the method for conducting background deduction through hardware, one-time processing can be conducted on a final spectrogram provided by the spectrograph conveniently and flexibly in an effective implement mode.
+69. 203798451 用于直读光谱仪的分光室
+CN
+27.08.2014
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201320732432.2
+江苏天瑞仪器股份有限公司
+张明亮
+G01J 3/02
+Loading...
+本实用新型提供一种用于直读光谱仪的分光室，包括：入射狭缝和光栅，来自光源的光穿过所述入射狭缝入射到所述光栅以进行分光；以及光栅二维倾斜支架和出射狭缝，所述光栅二维倾斜支架安装在所述光栅上以便通过调节所述光栅二维倾斜支架来使所述光栅刻线平行于所述入射狭缝以及所述出射狭缝从而使得经所述光栅分出的光通过所述出射狭缝射出。根据本实用新型的分光室，只需通过二维倾斜架来调节光栅X、Y、Z轴的变化就是入射狭缝、光栅、出射狭缝的成像精确平行，达到调试效果，能够很好的简化安装，用更简单机械结构完成复杂的调光效果，而且节省了很多的机械部件成本。
+70. 203732475 一种用于测试光路与成像光路同轴的光路系统
+CN
+23.07.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201420103737.1
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本实用新型公开了一种用于测试光路与成像光路同轴的光路系统，包括测试光路、成像光路、入射及反射部件，所述测试光路和所述成像光路安装在所述入射及反射部件两侧，成反射镜像对称；其中，测试光路中包括准直孔装置，成像光路中包括胶合组镜组;本实用新型通过准直孔装置屏蔽测试光路中的X射线以及通过胶合组镜组对可见光进行折射，使得以往成像观测过程中形成的黑斑得到消减直至消失，可以使得观测和调节更加方便。
+71. 103837485 Method for detecting zinc ions in water mass
+CN
+04.06.2014
+G01N 21/31 Loading...
+G01N 21/31
+Loading...
+201410072993.3
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/31
+Loading...
+The invention provides a method for detecting zinc ions in water mass. The method comprises the following steps of measuring and taking a modifier solution, a color developing agent solution and a buffer solution; sequentially adding the modifier solution, the color developing agent solution and the buffer solution to water to be detected, so as to obtain a sample to be detected; and detecting an absorbance value of the sample to be detected by utilizing a spectrophotometer, and calculating the content of zinc in the water to be detected, wherein in the sample to be detected, the volume ratio of the water to be detected to the color developing agent solution to the modifier solution to the buffer solution is (3-15):(0.5-3):(0.5-3):(1-4), the volume ratio of a modifier to water in the modifier solution is (0.5-5):(500-3,000), and the modifier is one of an anionic surface active agent, a cationic surface active agent and nonionic surface active agent.
+72. 103823019 Reagent bag used for detecting zinc ion in water
+CN
+28.05.2014
+G01N 31/22 Loading...
+G01N 31/22
+Loading...
+201410072187.6
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 31/22
+Loading...
+The invention provides a reagent bag used for detecting zinc ion in water. The reagent bag comprises a conditioning agent solution, a developer solution and a buffer. The volume ratio of a conditioning agent to water in the conditioning agent solution is (0.5-5):(500-3000). The conditioning agent is any one of an anionic surfactant, a cationic surfactant and a nonionic surfactant. According to the reagent bag, adoption of the conditioning agent can generate a sensibilization function for a system, thus effectively increasing the sensitivity of the zinc ion detection.
+73. 103674986 X-ray fluorescence spectrograph based on digital multi-channel pulse amplitude analysis
+CN
+26.03.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201310710729.3
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+LIU ZHAOGUI
+G01N 23/223
+Loading...
+The invention provides an X-ray fluorescence spectrograph based on digital multi-channel pulse amplitude analysis. The X-ray fluorescence spectrograph comprises a testing part and a multi-channel pulse amplitude analyzer, wherein the testing part detects samples to obtain a spectrum signal; the multi-channel pulse amplitude analyzer analyzes and processes the spectrum signal and outputs the processed spectrum, and comprises a signal input part, a signal processing part and an output part; the signal input part is used for inputting the spectrum signal; the signal processing part receives the spectrum signal and processes the spectrum signal to obtain a processed spectrum; the output part receives and outputs the processed spectrum. The signal input part comprises a filtering processing component, a baseline recovery processing component and a peak identifying component, wherein the filtering processing component filters the spectrum signal to obtain trapezoidal filtration, the baseline recovery processing component conducts real-time baseline recovery processing on the spectrum signal, and the peak identifying component conducts peak identification based on a recovered baseline to obtain the processed spectrum. In the baseline recovery, multiple point values on the baseline are collected in real time for average value processing, and the number of the points is 1024-1634.
+74. 103674989 X-ray fluorescence spectrum analysis method based on digital multi-channel pulse amplitude analysis
+CN
+26.03.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201310713248.8
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+WU SHENGHAI
+G01N 23/223
+Loading...
+The invention provides an X-ray fluorescence spectrum analysis method based on digital multi-channel pulse amplitude analysis. The method comprises the following steps: (a) testing samples to obtain an untreated spectrum signal; (b) conducting amplitude analysis on the spectrum signal to obtain a spectrum which is subjected to baseline recovery processing. The amplitude analysis comprises the following steps: (1) inputting the untreated spectrum signal; (2) filtering the untreated spectrum signal to obtain trapezoidal filtration; (3) conducting baseline recovery on the filtered signal, and conducting peak identification based on a recovered baseline, wherein multiple point values on the baseline are collected in real time for average value processing in the baseline recovery; the number of the points is 1024-16384. According to the X-ray fluorescence spectrum analysis method based on digital multi-channel pulse amplitude analysis, the baseline is recovered in real time, and therefore the purpose of stable measurement can be achieved.
+75. 103674988 Baseline restoring method applicable to digital multi-channel pulse amplitude analysis
+CN
+26.03.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201310712244.8
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+NI PEIPEI
+G01N 23/223
+Loading...
+The invention provides a baseline restoring method applicable to digital multi-channel pulse amplitude analysis. The baseline restoring method comprises the following steps: performing baseline restoration on a signal after trapezoidal filtration; and in the baseline restoration, acquiring multiple point values on a baseline in real time and averaging the multiple point values, wherein 1024-16384 points are adopted. In the baseline restoring method applicable to the digital multi-channel pulse amplitude analysis, the multiple point values on the baseline are acquired in real time and averaged, so that the change of the baseline can be captured in real time, thereby achieving an aim of stabilizing measurement.
+76. 103674987 Digital multi-channel pulse amplitude analysis method
+CN
+26.03.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201310711618.4
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+NI PEIPEI
+G01N 23/223
+Loading...
+The invention provides a digital multi-channel pulse amplitude analysis method which comprises the following steps of (1) inputting a signal to be analyzed; (2) filtering the signal to obtain trapezoid filtering; (3) performing baseline recovery on the filtered signal, and performing peak identification based on a recovered baseline, wherein during baseline recovery, the number of a plurality of points on the baseline is collected in a real-time manner, and averaging is conducted so that the aim of stable measurement can be fulfilled. The number of the points ranges from 1024 to16384. According to the embodiment of the digital multi-channel pulse amplitude analysis method, the aim of stable measurement can be fulfilled through recover the baseline in a real-time manner.
+77. 103645203 Digital multi-path impulse amplitude analyzer for X-ray fluorescence spectrophotometer
+CN
+19.03.2014
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201310713549.0
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+YING GANG
+G01N 23/223
+Loading...
+The invention provides a digital multi-path impulse amplitude analyzer for an X-ray fluorescence spectrophotometer. The digital multi-path impulse amplitude analyzer comprises a signal input part, a signal processing part and an output part, wherein the signal input part is used for inputting a spectral signal measured by the X-ray fluorescence spectrophotometer; the signal processing part is used for receiving the spectral signal input by the signal input part and processing the spectral signal to obtain a processed spectrum; the output part is used for receiving and outputting the spectrum treated by the signal processing part; the signal processing part comprises a filtering processing part, a base line recovering processing part and a peak identification part, wherein the filtering processing part is used for filtering the spectral signal to obtain trapezoidal filtering waves; the base line recovering processing part is used for carrying out real-time base line recovering processing on the spectral signal; the peak identification part is used for carrying out peak identification based on a recovered base line to obtain the processed spectrum; in the base line recovering process, a plurality of point values on a base line are collected in real time and are subjected to average value processing; 1024-1634 points are available.
+78. 103630597 Spectral line processing method for 15-point optimized polarogram
+CN
+12.03.2014
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+201310485978.7
+JIANGSU SKYRAY INSTRUMENT CO.,LTD.
+SHENG MIN
+G01N 27/48
+Loading...
+The invention discloses a spectral line processing method for a 15-point optimized polarogram. The spectral line processing method comprises the following steps: step1, carrying out de-noising processing; step 2, carrying out correction processing; and step 3, obtaining a corrected base line. According to the spectral line processing method, the corrected base line, a corrected peak value and a corrected peak area are obtained by using 15-point de-noising processing and lower convex hull finding and correcting processing; the base line and a peak pattern can be regular and easy to calculate; meanwhile, a calculation result can be very accurate.
+79. 203365381 一种在线水质重金属分析仪
+CN
+25.12.2013
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+201320204117.2
+江苏天瑞仪器股份有限公司
+夏洪海
+G01N 27/48
+Loading...
+本实用新型公开了一种在线水质重金属分析仪，包括工业级一体式控制单元、检测单元、自动采样单元、水样前处理单元、对外输入输出单元。本实用新型提供的在线水质重金属分析仪可以使用所述工业级一体式控制单元通过所述通讯接口自动控制所述检测单元、所述自动采样单元、所述水样前处理单元、所述对外输入输出单元，本实用新型采用模块化的思想，可以方便的对上述单元的数量和种类进行扩展和缩减，同时在上述单元内部的组件也是相互独立，同样能够方便的进行扩展和缩减，采用低成本的标准网络机柜可以降低整体成本，并且让数据的处理更加方便。
+80. 203365371 一种网络在线水质重金属分析仪
+CN
+25.12.2013
+G01N 27/26 Loading...
+G01N 27/26
+Loading...
+201320204089.4
+江苏天瑞仪器股份有限公司
+夏洪海
+G01N 27/26
+Loading...
+本实用新型公开了一种网络在线水质重金属分析仪，包括工业级一体式控制单元、检测单元、自动采样单元、水样前处理单元、对外输入输出单元、网络模块。本实用新型提供的网络在线水质重金属分析仪可以使用所述工业级一体式控制单元通过所述通讯接口自动控制所述检测单元、所述自动采样单元、所述水样前处理单元、所述对外输入输出单元，本实用新型采用模块化的思想，可以方便的对上述单元的数量和种类进行扩展和缩减，同时在上述单元内部的组件也是相互独立，同样能够方便的进行扩展和缩减，采用低成本的标准网络机柜可以降低整体成本，并且让数据的处理更加方便；同时为适应远程控制需求，网络模块能够便捷的通过有线无线网络进行数据传输。
+81. 203364968 一种用于光谱仪上的光栅二维倾斜架
+CN
+25.12.2013
+G01J 3/02 Loading...
+G01J 3/02
+Loading...
+201320140329.9
+江苏天瑞仪器股份有限公司
+王建平
+G01J 3/02
+Loading...
+本实用新型公开了一种用于光谱仪上的光栅二维倾斜架，包括基座、数量为3个的支撑，其中，基座包括支撑通孔，支撑通过支撑通孔与基座固定联结且支撑通孔中心两两连线形成等边三角形；基座中心位置有安装光栅的腔室，与基座共同运动；支撑包括基座调节机构、支撑柱、调节部件、固定部件；基座调节结构一端联接在支撑柱上且与调节部件固定连接可随调节部件运动，从而调节与基座调节机构连接的基座的位置变动；调节部件安装在支撑柱上且可在支撑柱上进行移动；固定部件通过调节部件上的通孔调节部件位置进行固定。本实用新型提供的用于光谱仪上的光栅二维倾斜架，可以使其结构更紧凑组装方便，并且使所需真空腔室体积变小。
+82. 103337434 电子发生器、其制作方法和其测试装置
+CN
+02.10.2013
+H01J 9/04 Loading...
+H01J 9/04
+Loading...
+201210121248.4
+江苏天瑞仪器股份有限公司
+熊亮
+H01J 9/04
+Loading...
+本发明公开了一种电子发生器、其制作方法及其测试装置，所述电子发生器包括：底座、第一和第二支撑杆，固定胶以及灯丝，所述制作方法包括以下步骤：步骤S10，绕制灯丝使灯丝具有螺旋部；步骤S20，使所述第一和第二支撑杆分别通过所述固定胶与所述底座相连且所述第一和第二支撑杆不相交；步骤S30，使所述灯丝的两端分别与所述第一和第二支撑杆相连。根据本发明实施例的用于质谱仪的低功耗电子发生器，可在低能耗下工作，节约能源，降低成本。且具有螺旋部的灯丝能更好的集中热量，提高了灯丝发射电子的效率，降低了灯丝预热时间，提高了灯丝的性能。此外，固定胶可以提高灯丝安装的稳定性，使灯丝稳定安装在底座上。
+83. 103335924 大气重金属在线分析仪
+CN
+02.10.2013
+G01N 15/06 Loading...
+G01N 15/06
+Loading...
+201210528187.3
+江苏天瑞仪器股份有限公司
+张苏伟
+G01N 15/06
+Loading...
+本发明提出一种大气重金属在线分析仪，包括：机壳；颗粒物分离部，颗粒物分离部固定在机壳上且部分贯穿机壳以分离空气中颗粒物；颗粒物采集部，颗粒物采集部设在机壳内且与颗粒分离部相连通，以在恒定流量工作环境中富集颗粒物在采样载体上；采样传输部，采样传输部设在机壳内以传输采样载体；XRF检测部，XRF检测部设在机壳内以检测由采样传输部传输至XRF检测部的采样载体，以及处理机，处理机根据XRF检测部的检测结果输出分析数据。由此，根据本发明实施例的大气重金属在线分析仪克服了现有技术中需要将检测和测量分为两个步骤进行的缺点，能够完成固定站点或野外无人值守的大气颗粒物自动监测任务，实现连续、在线、自动监测且样品无需预处理。
+84. 103335869 大气颗粒采集测量装置
+CN
+02.10.2013
+G01N 1/22 Loading...
+G01N 1/22
+Loading...
+201210528534.2
+江苏天瑞仪器股份有限公司
+张苏伟
+G01N 1/22
+Loading...
+本发明公开了一种大气颗粒采集测量装置，包括：底座、第一压板组件、第二压板组件、滤纸、升降组件、放射源和探测器。具体而言，所述第一压板组件固定在所述底座上且所述第一压板组件与所述底座间隔预定距离，所述第一压板组件上设有进气通道；所述第二压板组件上形成有与所述进气通道的第二端相适配的通孔，所述第二压板组件在第一位置和第二位置可移动地设在所述底座和所述第一压板组件之间；所述滤纸设在所述第一压板组件和第二压板组件之间；所述升降组件用于推动第二压板组件在第一位置和第二位置之间移动；放射源和探测器。根据本发明的大气颗粒采集测量装置，结构简单且故障率低、维护方便。
+85. 103323319 颗粒物的富集和检测设备
+CN
+25.09.2013
+G01N 1/40 Loading...
+G01N 1/40
+Loading...
+201210483397.5
+江苏天瑞仪器股份有限公司
+栾旭东
+G01N 1/40
+Loading...
+本发明公开了一种颗粒物的富集和检测设备，包括：采样腔体，所述采样腔体内具有采样腔，所述采样腔内设有将所述采样腔分成进气腔和出气腔的采样滤膜，所述进气腔具有进气口且所述出气腔具有出气口；和检测装置，所述检测装置的检测窗口与所述进气腔和/或所述出气腔连通以对富集在所述采样滤膜上的颗粒物进行检测和分析。根据本发明实施例的颗粒物的富集和检测设备，通过在采样腔内设置采样滤膜和检测装置，可以同时实现颗粒物在采样滤膜上的富集和检测，克服了颗粒物采样与富集分开进行，无法实时测量的缺点，并且可以克服采样滤膜运动造成的误差，适用于气体颗粒物在线监测。
+86. 203217154 用于激光在线气体分析仪器实现管道光路准直调节的装置
+CN
+25.09.2013
+G02B 7/182 Loading...
+G02B 7/182
+Loading...
+201320102239.0
+江苏天瑞仪器股份有限公司
+张苏伟
+G02B 7/182
+Loading...
+本实用新型公开了一种用于激光在线气体分析仪器实现管道光路准直调节的装置，可对放置在管道内的光学镜片起保护作用的装置，它包括法兰调节组件，镜片放置管道，连接管道，镜片适配器以及锁定环等，通过各个机构连接成整套装置，可以实现管道的准直度调节，可以实现光学镜片俯仰角调节，采用独特的管道外螺纹和套环内螺纹齿合的连接方式，避免光学镜片受金属碎屑的损伤，可以根据实际需要选取有效的光学腔长度，并方便安装和拆卸。
+87. 103307957 测角仪
+CN
+18.09.2013
+G01B 5/24 Loading...
+G01B 5/24
+Loading...
+201210066960.9
+江苏天瑞仪器股份有限公司
+黄大旭
+G01B 5/24
+Loading...
+本发明公开了一种测角仪，包括：滑动座；驱动单元，所述驱动单元与所述滑动座相连以驱动所述滑动座向左或向右直线运动；轴承；圆筒，所述圆筒可旋转地安装在所述轴承上；和第一和第二连接部件，所述第一连接部件的第一端与所述滑动座相连且所述第一连接部件的第二端与所述圆筒相连以牵引所述圆筒顺时针方向转动，所述第二连接部件的第一端与所述滑动座相连且所述第二连接部件的第二端与所述圆筒相连以牵引所述圆筒逆时针方向转动。根据本发明实施例的测角仪，可以平稳、高精度地实现角度定位和测量。
+88. 103293158 翡翠检定装置及具有该装置的翡翠检定仪
+CN
+11.09.2013
+G01N 21/87 Loading...
+G01N 21/87
+Loading...
+201210055250.6
+江苏天瑞仪器股份有限公司
+费成振
+G01N 21/87
+Loading...
+本发明公开了一种翡翠检定装置，包括：基体，基体上具有样品池；红外光源，红外光源设在基体上；探测器组件，探测器组件设在基体上且与红外光源相对地设在样品池的两侧，探测器组件包括红外探测器和滤波片，滤波片设在红外探测器和样品池之间；氟化钙窗片，氟化钙窗片设在滤波片和样品池之间，其中红外探测器、滤波片、氟化钙窗片和红外光源的中心在一条轴线上；和用于控制红外光源和探测器组件的控制测量组件。根据本发明实施例的翡翠检定装置，不仅可快速、准确、无损的对样品进行检定，且光路中没有任何机械运动部件，结构紧凑、抗震能力强，且体积小便于携带，同时成本低。本发明还公开了一种具有上述翡翠检定装置的翡翠检定仪。
+89. 203178189 一种用于原子荧光光谱仪的多功能联合进样系统
+CN
+04.09.2013
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+201320100722.5
+江苏天瑞仪器股份有限公司
+马聪
+G01N 21/64
+Loading...
+本实用新型公开了一种用于原子荧光光谱仪的多功能联合进样系统，包括蠕动泵断续进样装置，注射泵进样装置，切换装置，四通混合反应模块，储液装置，控制系统；本实用新型通过控制系统方便的对几种进样方式进行切换，并能一定程度的兼顾多种进样方式，同时能够在一台设备上集成多个进样方式，在蠕动泵断续进样模式下，注射泵部件、三通阀部件不工作，蠕动泵部件同时吸取样品（或载液）与还原剂；在注射泵进样工作模式下，注射泵部件和三通阀部件负责吸取样品（或载液），蠕动泵部件辅助吸取还原剂，因此有效的降低成本和提升效率。
+90. 203178218 一种手持式能量色散分析仪测试支架
+CN
+04.09.2013
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201320095461.2
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 23/223
+Loading...
+本实用新型公开了一种手持式能量色散分析仪测试支架，包括框架、仪器固定座、样品腔顶盖，其特征在于，所述框架包括支撑垫脚、底盘、立杆、样品平台；所述仪器固定座包括销钉、右卡扣、仪器固定适配头、左卡扣、弹性部件、对捏式夹子；所述样品腔顶盖包括合页、顶盖、气撑、铰链;使用本实用新型的克服了用手持分析仪进行长时间测量的不足，避免了X射线可能对人体可能造成的辐射，降低了工作强度，同时提高了测量结果的准确程度。
+91. 103257110 用于激光在线气体分析的信号传输方法及其传输装置
+CN
+21.08.2013
+G01N 21/31 Loading...
+G01N 21/31
+Loading...
+201210033885.6
+江苏天瑞仪器股份有限公司
+费成振
+G01N 21/31
+Loading...
+本发明提供一种基于DLAS技术的用于激光在线气体分析的信号传输方法及其传输装置，以及具有该信号传输装置的激光在线气体分析仪器。通过将半导体激光器发射的测量光束通过输出光纤传输到测量位置，在测量单元的接收端设置有源光-光装换模块接收经过被测气体吸收后的自由空间激光，将信号放大后再耦合进输出光纤传输到远端的光电探测器。相对于使用电缆传输电信号以及使用无源光耦合器件接收光信号等现有的激光在线气体分析仪的信号传输装置，光纤传输的光信号衰减小，从而可以实现信号远距离传输，并且光信号抗电磁干扰能力强，从而可以实现电气隔离以达到防爆的目的。
+92. 103245682 一种在线检测气体中颗粒物的重金属含量的方法及装置
+CN
+14.08.2013
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201210025635.8
+江苏天瑞仪器股份有限公司
+栾旭东
+G01N 23/223
+Loading...
+本发明公开了一种在线检测气体中颗粒物的重金属含量的方法及装置，所述方法包括：a)建立检测重金属的X射线荧光模型；b)在线收集气体中的颗粒物；c)利用X射线光谱仪测量收集到的所述颗粒物并获得颗粒物XRF谱线；以及d)利用X射线荧光模型对所述XRF谱线进行分析，以便确定所述颗粒物中的重金属的种类及其含量。根据本发明实施例的在线检测气体中颗粒物的重金属含量的方法及装置，可以实现气体中的颗粒物中多种重金属的在线检测，并实现对气体中的颗粒物中重金属长时间自动富集、自动测量、样品自动保存，能广泛的应用于环境空气、工业过程气体以及废气中重金属的监测。
+93. 203037509 大气颗粒采集测量装置
+CN
+03.07.2013
+G01N 1/22 Loading...
+G01N 1/22
+Loading...
+201220675915.9
+江苏天瑞仪器股份有限公司
+张苏伟
+G01N 1/22
+Loading...
+本实用新型公开了一种大气颗粒采集测量装置，包括：底座、第一压板组件、第二压板组件、滤纸、升降组件、放射源和探测器。具体而言，所述第一压板组件固定在所述底座上且所述第一压板组件与所述底座间隔预定距离，所述第一压板组件上设有进气通道；所述第二压板组件上形成有与所述进气通道的第二端相适配的通孔，所述第二压板组件在第一位置和第二位置可移动地设在所述底座和所述第一压板组件之间；所述滤纸设在所述第一压板组件和第二压板组件之间；所述升降组件用于推动第二压板组件在第一位置和第二位置之间移动；放射源和探测器。根据本实用新型的大气颗粒采集测量装置，结构简单且故障率低、维护方便。
+94. 203037554 大气重金属在线分析仪
+CN
+03.07.2013
+G01N 15/06 Loading...
+G01N 15/06
+Loading...
+201220676787.X
+江苏天瑞仪器股份有限公司
+张苏伟
+G01N 15/06
+Loading...
+一种大气重金属在线分析仪，包括：机壳；颗粒物分离部，颗粒物分离部固定在机壳上且部分贯穿机壳以分离空气中颗粒物；颗粒物采集部，颗粒物采集部设在机壳内且与颗粒分离部相连通；采样传输部，采样传输部设在机壳内以传输采样载体；XRF检测部，XRF检测部设在机壳内以检测由采样传输部传输至XRF检测部的采样载体，处理机，处理机根据XRF检测部的检测结果输出分析数据。克服了现有技术中需要将检测和测量分为两个步骤进行的缺点，能够完成固定站点或野外无人值守的大气颗粒物自动监测任务，实现连续、在线、自动监测且样品无需预处理。
+95. 103115917 一种利用ICP-AES测定油脂样品中杂质金属元素的方法
+CN
+22.05.2013
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+201110365913.X
+江苏天瑞仪器股份有限公司
+郑建明
+G01N 21/73
+Loading...
+本发明公开了一种利用ICP-AES测定油脂样品中杂质金属元素的方法，包括以下步骤：a)利用硝酸-石油醚体系对所述油脂样品进行萃取分离，得到硝酸馏分和石油醚馏分；以及b)利用ICP-AES测试所述硝酸馏分中的杂质金属元素的强度，以便计算得到所述杂质元素的含量。根据本发明实施例的利用ICP-AES测定油脂样品中杂质金属元素的方法，弥补了ICP-AES法分析油脂样品的前处理中有机进样有机溶剂基体效应、炬管积碳、需要辅助气源等缺点，同时相比其它无机处理法，具有操作简单、试剂用量少、无废气污染、前处理设备简单，结果准确可靠、回收率高特点。
+96. 103105407 测定液体样品中重金属的含量的装置、方法及应用
+CN
+15.05.2013
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201110362322.7
+江苏天瑞仪器股份有限公司
+栾旭东
+G01N 23/223
+Loading...
+本发明公开了测定液体样品中重金属的含量的装置、方法及应用。一种测定液体样品中重金属的含量的方法，包括以下步骤：利用高分子膜对所述液体样品进行过滤，所述高分子膜对于所述重金属是不透的，以便使得所述液体样品中的重金属被截留在所述高分子膜上，并且获得附着重金属的高分子膜；利用X射线荧光光谱仪对所述附着重金属的高分子膜进行检测，以便获得X射线荧光光谱数据；以及基于所述X射线荧光光谱数据，确定所述液体样品中重金属的含量。利用该方法能够有效地对液体样品中的重金属进行测定。
+97. 103035471 ESI离子源、用于其的可控高压直流电源
+CN
+10.04.2013
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201110293776.3
+江苏天瑞仪器股份有限公司
+周立
+H01J 49/16
+Loading...
+本发明公开了一种用于ESI离子源的可控高压直流电源，包括：振荡模块，用于进行自激振荡以生成开关信号；开关模块，用于在开关信号的控制下交替导通以输出初始交流电压；升压模块，用于将初始交流电压进行升压，得到二次交流电压；倍压整流模块，用于对二次交流电压按照预设倍数进行升压，并将升压后的电压进行整流以输出直流电压；滤波模块，用于将直流电压进行滤波；输出模块，用于输出滤波后的直流电压。本发明还公开了一种ESI离子源。本发明通过向电喷雾离子源提供高电压和强电场，可以显著提高对样品的电离效率和产生离子的传输效率。
+98. 103035472 质谱仪及动态透镜板
+CN
+10.04.2013
+H01J 49/26 Loading...
+H01J 49/26
+Loading...
+201110293902.5
+江苏天瑞仪器股份有限公司
+周立
+H01J 49/26
+Loading...
+本发明实施例提出了一种质谱仪，包括：离子源；毛细管；取样锥和六级杆；第一离子引导级和第二离子引导级；第一离子推斥极和第二离子推斥极；飞行管和检测器；以及动态透镜板，动态透镜板根据上位机的控制信号对毛细管的出口电压、取样锥的电压、第一离子引导级的电压、第二离子引导级的电压、第一离子推斥极的电压和第二离子推斥极的电压进行控制。通过本发明实施例，上位机能够随时控制动态透镜板的输出电压，从而提高适合的毛细管的出口电压、取样锥的电压、第一离子引导级的电压、第二离子引导级的电压、第一离子推斥极的电压和第二离子推斥极的电压，实现源内碰撞诱导解离，从而达到最高的离子传输效率，并有效地提高灵敏度和分辨率。
+99. 103028862 用于将质谱仪的六级杆焊接在固定板上的焊剂及工艺
+CN
+10.04.2013
+B23K 35/26 Loading...
+B23K 35/26
+Loading...
+201110293760.2
+江苏天瑞仪器股份有限公司
+周立
+B23K 35/26
+Loading...
+本发明公开了用于将质谱仪的六级杆焊接在固定板上的焊剂及工艺。其中，焊剂包括焊丝和前焊剂，焊丝含有95～98wt％的锡、1～4wt％的银和0.5～2wt％的铜，前焊剂包括用于喷涂在所述固定板上的3～10wt％磷酸水溶液和用于喷涂在所述六级杆上的5～15wt％氯化锌水溶液。该工艺包括以下步骤：a)用前焊剂分别对所述六级杆和固定板进行预处理，所述前焊剂包括用于喷涂在所述固定板上的3～10wt％磷酸水溶液和用于喷涂在所述六级杆上的5～15wt％氯化锌水溶液；b)使用焊丝并通过软钎焊工艺将预处理后所述六级杆焊接在所述固定板上，所述焊丝含有95～98wt％的锡、1～4wt％的银和0.5～2wt％的铜；以及c)焊接后，先用2％盐酸溶液洗涤所述六级杆，再用纯净水清洗所述六级杆和所述固定板。
+100. 103018183 用于在线监测六价铬的试剂盒及方法
+CN
+03.04.2013
+G01N 21/31 Loading...
+G01N 21/31
+Loading...
+201110283912.0
+江苏天瑞仪器股份有限公司
+栾旭东
+G01N 21/31
+Loading...
+本发明公开了一种用于监测六价铬的试剂盒，由硫磷酸溶液和显色剂溶液组成，所述硫磷酸溶液包括体积比为(0.5～1.5)∶(0.5～1.5)∶(135～160)的浓硫酸、浓磷酸和水；所述显色剂溶液包括显色剂、无水乙醇和水。本发明采用无水乙醇溶解显色剂，无需丙酮作为溶剂，对环境更加友好。并且，本发明提供的试剂盒酸含量较少，保证了监测结果的同时，减小酸给人体带来危害，节约了资源。本发明还提供一种用于监测六价铬的方法，该方法仅需硫磷酸溶液和显色剂溶液两种试剂，与现有技术中将三种试剂分别进样相比，减小了在线监测仪由于进样种类繁多所产生的误差，监测结果准确。
+101. 102928496 一种便携式水质重金属分析仪及其分析方法
+CN
+13.02.2013
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+201110228785.4
+江苏天瑞仪器股份有限公司
+方军
+G01N 27/48
+Loading...
+本发明公开了一种便携式水质重金属分析仪及其分析方法，分析仪由电解装置和分析仪主体构成，电解装置包括上盖、电极固定座、透明视窗、底座、搅拌电机、电极、搅拌杆和电解杯；分析仪主体包括对外接口和内部电路模块。分析仪各部分在所述嵌入式系统控制下协调工作，自动控制富集、搅拌、静置和溶出过程。本发明可以实现现场快速、准确检测水质重金属离子浓度，并实现测试数据和测试地点同时生成，避免人为记录或者统计错误的发生。通过便携小型化设计，本发明可直接用于野外现场重金属污染应急快速检测。
+102. 202649168 基质辅助激光解析离子源进样装置
+CN
+02.01.2013
+G01N 27/64 Loading...
+G01N 27/64
+Loading...
+201220117195.4
+江苏天瑞仪器股份有限公司
+蔡克亚
+G01N 27/64
+Loading...
+本实用新型提出一种基质辅助激光解析离子源进样装置，该装置包括样品托盘；密封腔，密封腔内具有第一真空度；真空腔，真空腔内具有高于第一真空度的第二真空度，真空腔与密封腔相连且通过真空腔的前密封板与密封腔隔开；设在密封腔一侧、用于将样品托盘送入密封腔内且从密封腔内输送到真空腔内的第一级进样组件；设在真空腔内且用于从第一级进样组件接纳样品托盘并将样品托盘输送至真空腔内的检测位置的第二级进样组件；密封门组件，密封门组件可打开和关闭地设在真空腔的前密封板上；和真空泵，由此，根据本实用新型的进样装置，能够将样品从常压环境平稳地送入高真空环境内且使样品在进样过程中逐渐适应真空度，保证样品的检测质量。
+103. 102809564 System and method for distinguishing A-grade jade and B-grade jade
+CN
+05.12.2012
+G01N 21/87 Loading...
+G01N 21/87
+Loading...
+201110146792.X
+江苏天瑞仪器股份有限公司
+吴升海
+G01N 21/87
+Loading...
+The invention discloses a system and method for distinguishing A-grade jade and B-grade jade. The invention is characterized in that a non-dispersed infrared method and Fabry-Perot interference effect are combined skillfully to accurately distinguish A-grade jade and B-grade jade through characteristic absorption peak. According to the method, jade is under the irradiation of infrared light, the intensity of transmission light is measured by a infrared detector; wavelength of the infrared light or the transmission light is selected according to Fabry-Perot interference effect and can be changed through change of parameters of the Fabry-Perot interference effect, the absorption intensities of jade at different wavelengths are different; and finally A-grade jade and B-grade jade can be distinguished according to characteristic absorption peak. The system and the method provided by the invention realizes nondestructive test, is errorless, simple to implement and low in implementation cost; and the system is easy to carry and realizes quick detection.
+104. 202582457 测角仪
+CN
+05.12.2012
+G01B 5/24 Loading...
+G01B 5/24
+Loading...
+201220095662.8
+江苏天瑞仪器股份有限公司
+黄大旭
+G01B 5/24
+Loading...
+本实用新型公开了一种测角仪，包括：滑动座；驱动单元，所述驱动单元与所述滑动座相连以驱动所述滑动座向左或向右直线运动；轴承；圆筒，所述圆筒可旋转地安装在所述轴承上；和第一和第二连接部件，所述第一连接部件的第一端与所述滑动座相连且所述第一连接部件的第二端与所述圆筒相连以牵引所述圆筒顺时针方向转动，所述第二连接部件的第一端与所述滑动座相连且所述第二连接部件的第二端与所述圆筒相连以牵引所述圆筒逆时针方向转动。根据本实用新型的测角仪，可以平稳、高精度地实现角度定位和测量。
+105. 202550984 脉冲发生器、高压脉冲电路及激光解析离子源的装置
+CN
+21.11.2012
+H03K 3/02 Loading...
+H03K 3/02
+Loading...
+201220100994.0
+江苏天瑞仪器股份有限公司
+蔡克亚
+H03K 3/02
+Loading...
+本实用新型公开了一种脉冲发生器和具有该脉冲发生器的高压脉冲电路以及具有该高压脉冲电路的激光解析离子源的装置，其中，所述脉冲发生器包括：第一直流电压源；脉冲输出单元；驱动电路，所述驱动电路包括：第一至第五开关；第一和第二控制单元；第一控制器；第二控制器。根据本实用新型实施例的脉冲发生器，可使脉冲输出单元生成高电平脉冲信号或低电平脉冲信号。第一直流电压源具有高电压且第五开关闭合时间短，可生成幅值高、宽度窄的脉冲信号。使根据本脉冲发生器的高压脉冲电路的第一输出端为直流电源输出端且第二输出端为高压脉冲电源输出端，输出高电压以提高实验或仪器的精度。
+106. 202485970 一种高温高压密封消解装置
+CN
+10.10.2012
+G01N 1/44 Loading...
+G01N 1/44
+Loading...
+201220076989.0
+江苏天瑞仪器股份有限公司
+陈敏
+G01N 1/44
+Loading...
+本实用新型公开了一种高温高压密封消解装置，包括：壳体、消解罐和拧紧螺母，其中，所述壳体还包括左支撑板和右支撑板以支撑所述壳体，所述左支撑板和所述右支撑板之间连接有保护罩和电风扇安装板，所述电风扇安装板上安装有电风扇以加快装置空气流通。根据本实用新型的高温高压密封消解装置，由于将所述消解罐安装于上固定板和下固定板之间，通过拧紧螺母加固所述消解罐的安装，并设有保护罩增强了消解罐的密闭可靠性，提高了消解装置的化学分析效果，所述消解罐的安装结构简单，制备成本低，扩大了消解装置的应用范围。
+107. 202487528 电喷雾针装置
+CN
+10.10.2012
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201220076715.1
+江苏天瑞仪器股份有限公司
+潘翔
+H01J 49/04
+Loading...
+本实用新型公开了一种电喷雾针装置，包括：喷针支架；喷针室，所述喷针室安装在所述喷针支架上；进样管连接组件，所述进样管连接组件安装在所述喷针支架上且与所述喷针室相对；电喷雾针，所述电喷雾针的一端从所述喷针室伸出且另一端穿过所述喷针室和所述喷针支架与所述进样管连接组件相连；封闭室垫圈，所述封闭室垫圈安装在所述喷针支架上，所述封闭室垫圈相对于所述喷针支架可移动以驱动所述喷针室和所述电喷雾针相对于所述喷针支架移动；和调节组件，所述调节组件安装在所述喷针支架上用于驱动所述封闭室垫圈相对于所述喷针支架移动。根据本实用新型的电喷雾针装置离子化效率高，传输效果好。
+108. 202471452 矿浆管道取样器
+CN
+03.10.2012
+G01N 1/10 Loading...
+G01N 1/10
+Loading...
+201220045962.5
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 1/10
+Loading...
+本实用新型提出一种矿浆管道取样器，该取样器包括：上腔体，上腔体的两端分别设有进浆口和出浆口；取样部件，取样部件可转动地设在上腔体内，取样部件的内部具有取样腔，取样腔的周壁上设有截浆口，取样腔通过截浆口与上腔体的内腔连通；下腔体，下腔体设有取样口，下腔体位于上腔体下方且与取样部件的下端密封连接，下腔体的内腔与取样腔连通。本实用新型的矿浆管道取样器，通过转动取样部件以改变矿浆冲刷截浆口的角度以完成取样部件的在线自我清理，因此节约了维护成本，提高了工作效率并延长了使用寿命。另外，本实用新型实施例的矿浆管道取样器结构简单、紧凑，适于小管径的矿浆管道。
+109. 202405230 混合离子源装置
+CN
+29.08.2012
+H01J 49/10 Loading...
+H01J 49/10
+Loading...
+201120466488.9
+江苏天瑞仪器股份有限公司
+潘翔
+H01J 49/10
+Loading...
+本实用新型公开了一种混合离子源装置，包括：壳体；玻璃罩，所述玻璃罩内限定有离子源封闭室且所述玻璃罩的外壁与所述壳体的内壁相连；加热器组件，所述加热器组件与所述壳体的顶部相连；电极，所述电极与所述玻璃罩的内壁相连；电晕放电针，所述电晕放电针的第一端与所述玻璃罩相连且所述电晕放电针的第二端具有折弯部；门体，所述门体可枢转地安装在所述壳体的底部以打开和关闭所述离子源封闭室；和喷针，所述针座与所述门体相连且所述针头邻近所述电晕放电针的折弯部。根据本实用新型的混合离子源装置，将电晕放电针和喷针有机地结合在一个装置内，可以使用户针对具体需要进行选择，提高了根据本实用新型的混合离子源装置适用范围。
+110. 202332785 用于离子源的加热装置
+CN
+11.07.2012
+H01J 49/10 Loading...
+H01J 49/10
+Loading...
+201120467555.9
+江苏天瑞仪器股份有限公司
+潘翔
+H01J 49/10
+Loading...
+本实用新型公开了一种用于离子源的加热装置，包括：本体，所述本体内限定出加热腔室，本体第一端具有加热端头，加热端头的第一侧表面上形成有环形的第一气体通道和气体入口；陶瓷件，所述陶瓷件包括主体段和陶瓷端头，主体段间隙配合在加热腔室内，主体段与本体之间限定出环形的第二气体通道，其中，第二气体通道和第一气体通道通过多个气体缺口相连通。根据本实用新型的加热装置，通过形成相通的第一气体通道和第二气体通道中，为气体的流动提供了充足空间，以方便气体与本体以及陶瓷件的充分热交换，减少了热量损失，大大提高了气体加热的效率，进而在质谱过程中，提高了质谱离子化的效率，并有效地降低了产品的成本。
+111. 202275068 一种便携式水质重金属分析仪
+CN
+13.06.2012
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+201120289677.3
+江苏天瑞仪器股份有限公司
+方军
+G01N 27/48
+Loading...
+本实用新型公开了一种便携式水质重金属分析仪，分析仪由电解装置和分析仪主体构成，电解装置包括上盖、电极固定座、透明视窗、底座、搅拌电机、电极、搅拌杆和电解杯；分析仪主体包括对外接口和内部电路模块。分析仪各部分在所述嵌入式系统控制下协调工作，自动控制富集、搅拌、静置和溶出过程。本实用新型的便携式水质重金属分析仪可以实现现场快速、准确检测水质重金属离子浓度，并实现测试数据和测试地点同时生成，避免人为记录或者统计错误的发生。通过便携小型化设计，本实用新型可直接用于野外现场重金属污染应急快速检测。
+112. 202259132 质谱仪六级杆及其治具
+CN
+30.05.2012
+H01J 9/02 Loading...
+H01J 9/02
+Loading...
+201120380282.4
+江苏天瑞仪器股份有限公司
+周立
+H01J 9/02
+Loading...
+本实用新型提供了一种质谱仪六级杆治具，包括：套筒，所述套筒的内壁形成有沿径向方向延伸的凸缘，所述套筒在所述凸缘的左侧开有多个第一窗口且所述套筒在所述凸缘的右侧开有多个第二窗口；第一和第二盖帽，所述第一和第二盖帽均具有第一中心孔和环绕所述第一中心孔且均匀分布的六个定位孔；第一和第二止帽，所述第一和第二止帽均具有第二中心孔；和中心杆，所述中心杆穿过所述第一和第二中心孔与所述第一和第二盖帽以及第一和第二止帽相连。根据本实用新型的质谱仪六级杆治具，可以实现对质谱仪六级杆的六根杆体的径向位置和轴向位置进行准确定位。本实用新型还提供了一种质谱仪六级杆。
+113. 102435661 一种极谱数据分析方法
+CN
+02.05.2012
+G01N 27/48 Loading...
+G01N 27/48
+Loading...
+201110261971.8
+江苏天瑞仪器股份有限公司
+彭建波
+G01N 27/48
+Loading...
+一种极谱数据分析方法，包括极谱数据采集：通过极谱仪扫描得到谱线，设置极谱仪的扫描条件富集时间范围为5-50s，扫描速率范围为200～600mV/s，扫描电压范围为-4000mV～+4000mV，扫描电压步长范围为1～20mV；数据处理：计算谱线中选定的峰窗口的峰面积；和金属离子浓度计算：对已知浓度的标准样品进行极谱数据采集及数据处理后，得到标注样品的峰面积，进而可得出样品浓度和峰面积比例关系，默认峰面积为0时浓度为0；对测量样品进行极谱数据采集及数据处理后，得到测量样品的峰面积，根据样品浓度和峰面积比例关系则可计算出样品离子浓度。本发明数据处理后峰型规则使峰面积计算更快速准确，浓度计算准确。
+114. 102419206 一种用于光谱仪的双向观测全谱直读光路系统
+CN
+18.04.2012
+G01J 3/18 Loading...
+G01J 3/18
+Loading...
+201110261903.1
+江苏天瑞仪器股份有限公司
+刘召贵
+G01J 3/18
+Loading...
+本发明公开了一种用于光谱仪的双向观测全谱直读光路系统，其包括一双向观测前置照明系统和一交叉色散主光路系统，所述双向观测前置照明系统位于水平方向，所述交叉色散主光路系统位于竖直方向，两系统构成一T形结构，所述前置照明光路系统将目标成像在狭缝上，通过狭缝进入交叉色散主光路系统，得到的二维光谱图由面阵探测器接收，实现全谱直读。本发明具有以下特点：前置照明光路系统和竖直色散主光路系统构成T型，结构紧凑，节省空间；色散主光路系统采用竖直光路，能很好的改善彗差和象散，提高成像质量，改善分辨率，无任何移动部件，降低元件损耗；光学元件少且简单，无特殊非球面镜，加工容易，成本经济。
+115. 102346069 紫外-可见检测器单色仪
+CN
+08.02.2012
+G01J 3/18 Loading...
+G01J 3/18
+Loading...
+201010243699.6
+江苏天瑞仪器股份有限公司
+胡晓斌
+G01J 3/18
+Loading...
+本发明公开了一种紫外-可见检测器单色仪，包括灯箱、透镜、狭缝座、滤光盘装置、光栅装置、分束器以及反射镜，其中，灯箱为卧式灯箱，且氘灯和钨灯设置灯箱内，位于靠近单色仪箱体的前面板位置；所述滤光盘装置包括滤光盘以及与所述滤光盘相连、驱动该滤光盘转动的驱动电机，其中：所述滤光盘上设置有一个空通光孔和放置有钬玻璃的通光孔。在紫外-可见检测器单色仪中，因为灯箱为卧式灯箱，当需要更换钨灯时，只需打开单色仪的前面板和前钣金门板，就可以直接取下钨灯；更换氘灯时，只需再拧下氘灯上的两个螺钉，即抽出氘灯，实现了简单方便换灯操作；并且，在滤光盘上设置有放置有钬玻璃的通光孔，通过钬玻璃可以进行单色仪的波长校准工作。
+116. 102347198 质谱仪中灯丝发射电流稳定控制电路
+CN
+08.02.2012
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201010244113.8
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/02
+Loading...
+本发明公开了一种质谱仪中灯丝发射电流稳定控制电路，包括，比较器A，所述比较器A连接有电容C26、电阻R35、电容C37、电阻R34、电阻R24和电阻R23；比较器A通过三极管Q8连接有光耦PC6，光耦PC6一输入端连接有电阻R39；比较器A还连接至灯丝发射电流采集控制模块；比较器B，比较器B连接有二极管D14、电容C32、电阻R36；比较器B与比较器A相互连接；比较器B连接一光耦PC4，光耦PC4的一输入端连接有电阻R27，光耦PC4的一输出端通过电阻R38连接一复合管，复合管连接至灯丝发射电流采集控制模块，灯丝发射电流采集控制模块还连接在光耦PC4的一输入端。本发明可自动稳定灯丝的发射电流。
+117. 102347201 折线形离子源
+CN
+08.02.2012
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201010244110.4
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/16
+Loading...
+本发明公开了一种折线形离子源，包括一离子源本体，所述离子源本体上开有离子微孔通道，所述离子微孔通道包括第一折弯部和第二折弯部。优选的，所述离子微孔通道还包括第三折弯部。本发明的机构制作简易方便，成本低廉，被电离的气体经过折弯的离子微孔通道传输后，盐分的沉积就不会堵住微孔，从而有效的避免了脏物堵塞微孔。
+118. 102346174 利用液相色谱-紫外线检测器测定皮革中含氯苯酚的方法
+CN
+08.02.2012
+G01N 30/02 Loading...
+G01N 30/02
+Loading...
+201010244118.0
+江苏天瑞仪器股份有限公司
+余正东
+G01N 30/02
+Loading...
+本发明公开了利用液相色谱-紫外线检测器测定皮革中含氯苯酚的方法，该方法以丙酮为提取溶剂，采用超声提取法提取皮革中的含氯苯酚，用甲醇定溶，以相对保留时间定性，峰面积进行定量，本发明具有方便快捷、灵敏度高、回收率高、精密度好的特点，且试剂用量少，避免了大量化学试剂的使用，减少了环境污染，用来测定皮革中含氯苯酚的含量是简单可行的。
+119. 102346144 利用氢化物发生-原子荧光法测定阿胶中砷、镉的方法
+CN
+08.02.2012
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+201010244088.3
+江苏天瑞仪器股份有限公司
+余正东
+G01N 21/64
+Loading...
+本发明公开了利用氢化物发生-原子荧光法测定阿胶中砷、镉的方法，包括1)配置合适的还原剂和载流溶液；2)设定仪器和测量参数；3)配置标准品系列溶液剂标准空白；4)测定标准空白至仪器稳定；5)测定标准品系列溶液的荧光强度，并以标准品溶液系列的浓度为自变量，标准品溶液系列的荧光强度为因变量绘制标准曲线；6)测定样品空白的荧光强度；7)测定样品的荧光强度；8)根据样品的荧光强度和标准曲线方程算出样品浓度；以及在进行步骤6和7之前进行试样消解。本发明的方法具有灵敏度高、检出限低，基本干扰少，快速简便的优点。
+120. 102347200 环形加热丝加热气体装置
+CN
+08.02.2012
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201010244107.2
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/04
+Loading...
+本发明公开了一种环形加热丝加热气体装置，包括一加热腔体，所述加热腔体一端设有气体入口管道，所述加热腔体另一端安装有一温控开关，所述温控开关内部接出一加热丝，所述加热腔体的外壁上开有一环形加热丝路径槽，所述加热丝沿着所述环形加热丝路径槽缠绕在所述加热腔体的外壁上。本发明的装置可均匀加热气体提高去溶剂效率，制作简易方便，成本低廉，本发明的装置可推广使用。
+121. 102347199 ESI源质谱中金属毛细管伸出长度的微调机构
+CN
+08.02.2012
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201010244097.2
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/04
+Loading...
+本发明公开了一种ESI源质谱中金属毛细管伸出长度的微调机构，其包括一机架和一金属毛细管，所述机架另一端固定有一旋钮座，所述旋钮座一侧设置有第二毛细管穿透件，所述旋钮座另一侧安装有一调节杆，所述调节杆一端通过一销钉连接所述高压连接件。本发明的机构用于ESI源质谱中金属毛细管伸出长度的微调，通过所述调节杆的旋钮带动金属套管在PEEK管道中移动，从而带动金属毛细管和金属套管的移动，从而可以方便的调节金属毛细管距离子入口处的距离。
+122. 102338784 一种高效液相色谱仪的控制系统及控制方法
+CN
+01.02.2012
+G01N 30/36 Loading...
+G01N 30/36
+Loading...
+201010235425.2
+江苏天瑞仪器股份有限公司
+张云海
+G01N 30/36
+Loading...
+本发明公开了一种高效液相色谱仪的控制系统及控制方法，该系统包括电磁阀、与所述电磁阀的出口相连接的输液泵、与所述输液泵相连接的凸轮和用于检测所述凸轮位置的检测装置，以及与所述电磁阀和所述检测装置相连接的主控模块，其中：所述主控模块实时接收所述检测装置检测到的所述凸轮的位置，通过所述凸轮的位置识别所述输液泵的工作状态，当所述工作状态为吸液状态时，控制所述电磁阀开启，当所述工作状态为排液状态时，控制所述电磁阀关闭。本发明通过对凸轮的实时检测，获取输液泵当前的状态，以便于及时的更新电磁阀的开关状态。因此，可以保证电磁阀的启闭状态完全与输液泵的吸排状态相对应，从而提高了对样品溶剂分析的精确度和准确度。
+123. 102338787 紫外-可见检测器流通池
+CN
+01.02.2012
+G01N 30/62 Loading...
+G01N 30/62
+Loading...
+201010235405.5
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 30/62
+Loading...
+本发明公开了一种紫外-可见检测器流通池，包括：流通池体以及连接在所述流通池体上的前、后夹板；其中：所述流通池体与前、后夹板之间均放置有垫片；所述流通池体、前、后夹板以及垫片的相应位置上设置有定位孔，孔内放置有定位销；所述前、后夹板上的石英玻璃窗上通过垫圈安装有压紧螺母。本发明公开的紫外-可见检测器流通池中，压紧螺母通过垫圈将前、后夹板上的石英玻璃窗压紧在垫片上，增强了流通池的耐压强度，避免液体沿垫片与流通池体的接触面流出，解决了现有的流通池因耐压强度差导致生成漏液的问题。
+124. 102309933 液相梯度混合器
+CN
+11.01.2012
+B01F 5/06 Loading...
+B01F 5/06
+Loading...
+201010228411.8
+江苏天瑞仪器股份有限公司
+刘召贵
+B01F 5/06
+Loading...
+本发明公开了一种液相梯度混合器，包括：横截面为方形的第一混合腔和第二混合腔，其中：所述第一混合腔和第二混合腔内填充有氧化锆珠，且所述第一混合腔的一端设置有流动相进口，另一端通过传输管与所述第二混合腔一端相连，所述第二混合腔的另一端设置有流动相出口。本发明公开的液相梯度混合器，采用横截面为方形、且通过传输管相连接的两个混合腔作为混合流动相的容器，流动相能够占用混合器的大部分体积，解决了现有的静态混合器死体积较大的问题。
+125. 102312807 液相色谱仪及其输液泵
+CN
+11.01.2012
+F04B 9/04 Loading...
+F04B 9/04
+Loading...
+201010221764.5
+江苏天瑞仪器股份有限公司
+刘召贵
+F04B 9/04
+Loading...
+本发明实施例公开了一种液相色谱仪输液泵，包括：凸轮，所述凸轮的行程在2mm和6mm之间；与所述凸轮相连的推杆；套设在所述推杆的内腔中的柱塞座，该柱塞座的外圈套装有弹簧，该弹簧的两端分别靠所述柱塞座以及固定在该输液泵的泵头上的弹簧固定座定位；与所述柱塞座相连的柱塞杆。本发明提供的输液泵通过采用2mm至6mm之间行程的凸轮，实现了高压输液泵在较宽流速范围内的低压力脉动，高流量稳定性，解决了较短凸轮行程偶尔不吸液的问题，提高了高压输液泵的稳定性和可靠性。
+126. 102279236 Chromatograph mass spectrometer
+CN
+14.12.2011
+G01N 30/72 Loading...
+G01N 30/72
+Loading...
+201010194035.5
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 30/72
+Loading...
+The invention discloses a chromatograph mass spectrometer. The chromatograph mass spectrometer comprises a first machine body and a second machine body, wherein a radio frequency power supply and a molecular pump are arranged in the first machine body; a fluorocarbon (FC) reagent device is arranged outside the first machine body; a vacuum gauge is arranged in the second machine body and connected with a vacuum cavity; the vacuum cavity is connected with a sampling probe; a mass analyzer is arranged in the vacuum cavity and provided with a quadrupole; the length of each pole of the quadrupole is 180 to 200mm; the diameter of each pole is 6 to 10.8mm; and the radio frequency power supply is a high voltage power supply. The chromatograph mass spectrometer has two functions of high resolution and high sensitivity, is an effective tool for determining the nature and the quantity of Chinese medicines and metabolites in a biological sample, has a simple structure and is easy to disassemble and assemble.
+127. 102278320 Control circuit for turbo molecular pump for mass spectrum
+CN
+14.12.2011
+F04D 27/00 Loading...
+F04D 27/00
+Loading...
+201010193975.2
+Jiangsu Skyray Instrument Co., Ltd.
+Hu Xiaobin
+F04D 27/00
+Loading...
+The invention discloses a control circuit for a turbo molecular pump for a mass spectrum. The control circuit comprises an upper machine which is a PC (Personal Computer), wherein the upper machine is connected with an FPGA (Field Programmable Gate Array) module through a communication interface; the FPGA module is connected with a digital/analogue conversion chip module; the control circuit further comprises a control circuit module which is connected with a power supply module; the control circuit module comprises a turbo molecular pump starting circuit, a standby mode starting circuit, a turbo molecular pump error-reporting circuit, a turbo molecular pump rotating speed signal detecting circuit and a turbo molecular pump state detecting circuit; the FPGA module is also connected with the turbo molecular pump starting circuit, the standby mode starting circuit and the turbo molecular pump error-reporting circuit; and the digital/analogue conversion chip module is also connected with the turbo molecular pump rotating speed signal circuit. The control circuit is simple in control, thus the control over the turbo molecular pump can be finished by just using a few of TTL (Transistor-Transistor Logic) level signals.
+128. 102279249 Sample loading apparatus for analysis of full elements and noble metals
+CN
+14.12.2011
+G01N 33/20 Loading...
+G01N 33/20
+Loading...
+201010194031.7
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+G01N 33/20
+Loading...
+The invention discloses a sample loading apparatus for analysis of full elements and noble metals. The apparatus comprises a template, wherein the template is provided with a bearing positioning hole, a bearing is arranged in the bearing positioning hole, the bearing is provided with a big gear, a sample cup is arranged in the big gear, a side of the bearing positioning hole arranged on the template is provided with a generator shaft hole; the sample loading apparatus further comprises a generator, the generator is fixed on the template through a generator fixation frame, the generator shaft of the generator passes through the generator shaft hole, the through end of the generator shaft is provided with a reduction gear, the reduction gear is engaged with the big gear. With the present invention, the sample loading apparatus provided by the present invention is applicable for the equipment for analysis of the full elements and the noble metals, the generator drives the sample cup to rotate, such that a relative motion is generated between test points and the sample, so as to increase the coverage area of the test points, so that the result tends to be more integration, the data is more accurate and reliable.
+129. 102279301 Ion flow size detection apparatus of sample in mass spectrometer vacuum cavity
+CN
+14.12.2011
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201010193989.4
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01R 19/00
+Loading...
+The invention discloses an ion flow size detection apparatus of a sample in a mass spectrometer vacuum cavity. The detection apparatus comprises the mass spectrometer vacuum cavity and a PC machine. The PC machine is provided with electrostatic simulation software and connects with a picoammeter through a connecting line. The vacuum cavity is provided with a Faraday cup inside. Through a single core shield cable, the Faraday cup connects with an end of a vacuum seal connector fixed on the vacuum cavity. The other end of the vacuum seal connector connects with an input terminal of the picoammeter through a first low capacity shielding cable. A grounding terminal of the picoammeter connects with the vacuum cavity through a second low capacity shielding cable. The vacuum cavity is a public place of a whole system. Current generated by the Faraday cup flows into the public place through a lead and the picoammeter to form a testing loop. The detection apparatus in the invention has small external interference influence, and can detect ion flow size of the sample effectively.
+130. 102280348 Electron impact ion source control system
+CN
+14.12.2011
+H01J 49/14 Loading...
+H01J 49/14
+Loading...
+201010194038.9
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+H01J 49/14
+Loading...
+The invention discloses an electron impact ion source control system, which comprises an upper computer and a first lamp filament, wherein the upper computer is connected with an ion source heating module and an ion source temperature feedback module respectively; the HT+ end of the ion source heating module is connected with a heating rod for heating an ion source; the PT+ end of the ion source temperature feedback module is connected with a platinum resistor for sensing the temperature of the ion source; and the ion source heating module is used for controlling voltage output in a pulse width modulation (PWM) mode, and an outputted voltage value can be linearly adjusted from 0 to 24V. By the electron impact ion source control system, the electronic impact ion source is easy to control, namely a master control board is only required to provide a set value; and various states of the ion source can be adjusted to the optimum state automatically by the system, so the influence of factors such as the aging of the lamp filament, temperature jumping and the like on signal stability is prevented.
+131. 102280344 Shielding cover for quadrupole in mass spectrometer
+CN
+14.12.2011
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201010194004.X
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+H01J 49/02
+Loading...
+The invention discloses a shielding cover of a quadrupole in a mass spectrometer. The shielding cover is a barrel body with two penetrated ends, wherein the barrel body comprises a head part, a middle part and a tail part; the head part is of an annular structure, an annular plane of the annular structure is at least provided with a bolt positioning hole, and the annular edge of the annular structure is at least provided with a routing gap; the middle part is of a barrel-structured structure, wherein a barrel body of the barrel-shaped structure is at least provided with a routing hole; the annular edge of the annular structure of the head part protrudes out of the barrel body at the middle part, and the tail part is smoothly spliced with the middle part; and the shielding cover is made of metal materials. In the application process of the shielding cover of the quadrupole in the mass spectrometer, the quadrupole device is arranged in a cavity of the shielding cover, and therefore the shielding effect on the quadrupole is strong in pertinency and is good.
+132. 102280350 Vacuum chamber system for mass spectrometer
+CN
+14.12.2011
+H01J 49/24 Loading...
+H01J 49/24
+Loading...
+201010194015.8
+Jiangsu Skyray Instrument Co., Ltd.
+Hu Xiaobin
+H01J 49/24
+Loading...
+The invention discloses a vacuum chamber system for a mass spectrometer. The vacuum chamber system comprises a vacuum chamber which is connected with a molecular pump through a connecting chamber, wherein the molecular pump is connected with a stainless steel pipe, the vacuum chamber is also connected with a vacuum gauge, end covers are respectively at two ends of the vacuum chamber, an O-shaped seal ring is additionally arranged on a connection part between the end covers and the vacuum chamber, the surface roughness Ra of the vacuum chamber reaches 0.8-1.6, and the vacuum chamber is made of an aluminum material. The vacuum chamber for the mass spectrometer, disclosed by the invention, is simple in structure and easy to assemble and disassemble and can ensure that the vacuum level of the mass spectrometer reaches a higher level.
+133. 102280349 Ionization device used for mass spectrometer
+CN
+14.12.2011
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201010194020.9
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+H01J 49/16
+Loading...
+The invention discloses an ionization device used for a mass spectrometer. The ionization device comprises an electron collection chamber. The electron collection chamber has a small hole which is used to place a capillary column. A repeller electrode is placed in the electron collection chamber. A ceramic ring is arranged between the electron collection chamber and the repeller electrode. At least one filament lead is arranged out of the electron collection chamber. A filament and an electron collector are respectively fixed on a bottom of the filament lead. The filament lead is fixed on a lamp socket. The lamp socket is fixed on a magnet base through a lamp socket pin. The magnet base is fixed on a rack. The electron collection chamber is fixed on the magnet base through a connection board. A magnet is arranged between the magnet base and the rack. The repeller electrode and the electron collection chamber are fixed as one body. The ionization device used for the mass spectrometer of the invention has a simple structure, is easy for dismounting and has high ionization efficiency.
+134. 102280346 Ion extraction lens for mass spectrometer
+CN
+14.12.2011
+H01J 49/06 Loading...
+H01J 49/06
+Loading...
+201010194018.1
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+H01J 49/06
+Loading...
+The invention discloses an ion extraction lens for a mass spectrometer. The ion extraction lens comprises a first-stage lens, a second-stage lens arranged below the first-stage lens and a third-stage lens arranged below the second-stage lens, wherein the first-stage lens, the second-stage lens and the third-stage lens are penetratively fixed through a quartz column; a conducting electrode is respectively connected to one end of the second-stage lens and one end of the third-stage lens; the first-stage lens, the second-stage lens and the third-stage lens are separated by ceramic gaskets, and the upper end of the first-stage lens and the lower end of the third-stage lens are also provided with ceramic gaskets; and an elastic sheet structure is arranged between the ceramic gasket between the second-stage lens and the third-stage lens. The elastic sheet structure can be used for effectively preventing the heated ceramic gaskets from being damaged. The ion extraction lens disclosed by the invention has the advantages of small size and good focusing effect.
+135. 102280345 Faraday cup
+CN
+14.12.2011
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201010194033.6
+Jiangsu Skyray Instrument Co., Ltd.
+Hu Xiaobin
+H01J 49/02
+Loading...
+The invention discloses a faraday cup comprising an ion collection cup, wherein the ion collection cup comprises an opened end, a sealed end and a cup body; an insulating cover is packed outside the cup body; a front shielding case is arranged at the opened end; a rear shielding case is arranged at the sealed end; the a front insulating barrier is arranged between the front shielding case and the opened end; and a rear insulating barrier is arranged between the rear shielding case and the sealed end. In the faraday cup, a metal shielding case structure is additionally arranged outside the ion collection cup, thus shielding the interferences caused by ions which are scattered in a vacuum cavity, thereby collecting the ions to reach the target ion number accurately and effectively.
+136. 201912899 液相梯度混合器
+CN
+03.08.2011
+B01F 5/06 Loading...
+B01F 5/06
+Loading...
+201020259299.X
+江苏天瑞仪器股份有限公司
+刘召贵
+B01F 5/06
+Loading...
+本实用新型公开了一种液相梯度混合器，包括：横截面为方形的第一混合腔和第二混合腔，其中：所述第一混合腔和第二混合腔内填充有氧化锆珠，且所述第一混合腔的一端设置有流动相进口，另一端通过传输管与所述第二混合腔一端相连，所述第二混合腔的另一端设置有流动相出口。本实用新型公开的液相梯度混合器，采用横截面为方形、且通过传输管相连接的两个混合腔作为混合流动相的容器，流动相能够占用混合器的大部分体积，解决了现有的静态混合器死体积较大的问题。
+137. 102128847 Spectrum signal acquisition device for X-ray fluorescence spectrometer
+CN
+20.07.2011
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201010004422.8
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 23/223
+Loading...
+The invention relates to a spectrum signal acquisition device for an X-ray fluorescence spectrometer, which comprises an objective table, an X-ray generating device, a detector, a secondary target platform and a coupled control device, wherein the objective table is used for supporting a sample; the X-ray generating device is used for emitting primary X-rays; the detector is used for detecting fluorescence generated when the sample is irradiated by the X-rays to acquire a corresponding spectrum signal; the secondary target platform is used for placing a secondary target material; the coupled control device is used for controlling the X-ray generating device, so that the primary X-rays emitted by the X-ray generating device irradiate the sample or the secondary target material; and secondary X-rays generated when the secondary target material is irradiated by the primary X-rays irradiates to the sample. The primary X-rays and the secondary X-rays are used together, and a background peak of the fluorescence spectrum signal acquired by the detector is reduced, so that a control system for analyzing the fluorescence spectrum signal can analyze high-content elements and low-content elements in the sample.
+138. 102128848 Energy dispersion X ray fluorescence spectrometer
+CN
+20.07.2011
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+201010004423.2
+Jiangsu Tianrui Instrument Co.,Ltd.
+Liu Zhaogui
+G01N 23/223
+Loading...
+The invention discloses an energy dispersion X ray fluorescence spectrometer, which comprises an object stage, an X ray generating device, a detector, a control system and a secondary target stage, wherein the object stage is used for bearing a sample; the X ray generating device is used for emitting primary X rays; the detector is used for detecting fluorescent light generated by the sample under the irradiation of X rays; the control system is used for receiving the fluorescent light generated by the sample and detected by the detector and analyzing the elements and element contents in the sample; the secondary target stage is used for accommodating a secondary target material; and secondary X rays generated by the secondary target material under the irradiation of primary X rays are irradiated to the sample. The primary X rays generated by the X ray generating device are used for irradiating the secondary target material and a single-color excitation source generated by the secondary target material under the irradiation of the primary X rays is used for irradiating the sample, so that low-content elements in the sample can be detected, high-content and low-content elements in the sample can be tested through one-time measurement by using the same instrument, and the testing accuracy and efficiency are greatly improved.
+139. 102110566 X ray tube
+CN
+29.06.2011
+H01J 35/02 Loading...
+H01J 35/02
+Loading...
+201010004421.3
+Jiangsu Tianrui Instrument Co.,Ltd.
+Ying Gang
+H01J 35/02
+Loading...
+The invention relates to an X ray tube which comprises a shell, a second flange and a sealing device, wherein the shell comprises a first opening positioned at one end of the shell, a second opening positioned at the other end of the shell and an X ray tube positioned in the shell, and the shell is filled with insulating pressure-resistant oil; the second flange is connected to the second opening of the shell; the sealing device is positioned outside the shell and is connected to the first opening of the shell; the sealing device comprises a telescopic tube, an end cover connected to a first orifice of the telescopic tube and a first flange connected to a second orifice of the telescopic tube; the telescopic tube, the end cover and the first flange are made of metal materials; the first flange also comprises at least one through hole; and the insulating pressure-resistant oil is fully filled in the telescopic tube via the through hole. The sealing device is made of the metal materials, and the metal materials have the advantages of long service life and reliable structure, thereby solving the problems of poor reliability and short service life of the sealing device made of rubber materials.
+140. 201829450 用于质谱仪的真空腔系统
+CN
+11.05.2011
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201020218077.3
+江苏天瑞仪器股份有限公司
+胡晓斌
+H01J 49/04
+Loading...
+本实用新型公开了一种用于质谱仪的真空腔系统，其包括一真空腔，所述真空腔通过一连接腔连接一分子泵，所述分子泵连接一不锈钢管，所述真空腔还连接一真空规，所述真空腔两端设有端盖，所述端盖与真空腔连接处加设有O型密封圈，所述真空腔的表面粗糙度Ra达到0.8-1.6，所述真空腔使用的是铝材料。本实用新型的用于质谱仪的真空腔系统结构简单，易于拆装，可以保证质谱仪的真空度达到一个较高的水平。
+141. 201829451 电子轰击离子源控制系统
+CN
+11.05.2011
+H01J 49/14 Loading...
+H01J 49/14
+Loading...
+201020218117.4
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/14
+Loading...
+本实用新型公开了一种电子轰击离子源控制系统，包括上位机和第一灯丝，所述上位机分别连有离子源加热模块和离子源温度反馈模块，所述离子源加热模块的HT+端连接有一加热棒用于加热离子源，所述离子源温度反馈模块的PT+端连接有一铂电阻，用于感测离子源的温度，所述离子源加热模块采用的是PWM(脉宽调制)方式控制电压输出，输出电压值可以从0-24V线性可调。本实用新型的电子轰击离子源控制系统使得电子轰击离子源的控制变得简单，只需主控板给一个设定值，本系统就可以自动将离子源的各项状态调整到最佳状态，避免了灯丝老化，温度跳变等因素的对信号稳定性的影响。
+142. 201829452 用于质谱仪的离子化装置
+CN
+11.05.2011
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201020218090.9
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/16
+Loading...
+本实用新型公开了一种用于质谱仪的离子化装置，其包括一电子收集室，所述电子收集室上开有一小孔用于放置毛细柱，所述电子收集室内安置有一推斥极，所述电子收集室与推斥极之间设有一陶瓷环，所述电子收集室外布置有至少一根灯丝导线，所述灯丝导线底端分别固定有一灯丝和电子收集器，所述灯丝导线固定在灯座上，所述灯座通过灯座销固定在磁铁座上，所述磁铁座固定在一机架上，所述电子收集室通过一连接板固定在磁铁座上。所述电子收集室外布置有两根灯丝导线，暨本装置具有两个灯丝和两个电子收集器。本实用新型的用于质谱仪的离子化装置结构简单，易于拆装，离子化效率高。
+143. 201788062 真空腔检漏设备
+CN
+06.04.2011
+G01M 3/10 Loading...
+G01M 3/10
+Loading...
+201020281315.5
+江苏天瑞仪器股份有限公司
+应刚
+G01M 3/10
+Loading...
+本实用新型公开了一种真空腔检漏设备，其包括一气体充注装置，所述气体充注装置连接一软管，所述软管连接一刚性管，所述刚性管可通过连接部件与待测真空腔体连接；其还包括一真空腔体安置容器，所述真空腔体安置容器中可盛放一定量的液体，所述刚性管铺设于所述真空腔体安置容器中。本实用新型的设备用于真空腔气密性的检漏过程，设备制作简易方便，成本低廉，便于操作，能够很好的检测腔体的气密性能，且一次可以同时检测多个腔体的气密性能，提高检测效率。
+144. 201788940 折线形离子源
+CN
+06.04.2011
+H01J 49/16 Loading...
+H01J 49/16
+Loading...
+201020281311.7
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/16
+Loading...
+本实用新型公开了一种折线形离子源，包括一离子源本体，所述离子源本体上开有离子微孔通道，所述离子微孔通道包括第一折弯部和第二折弯部。优选的，所述离子微孔通道还包括第三折弯部。本实用新型的机构制作简易方便，成本低廉，被电离的气体经过折弯的离子微孔通道传输后，盐分的沉积就不会堵住微孔，从而有效的避免了脏物堵塞微孔。
+145. 201788167 ESI源质谱仪中鞘气的流经加热装置
+CN
+06.04.2011
+G01N 27/68 Loading...
+G01N 27/68
+Loading...
+201020281329.7
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 27/68
+Loading...
+本实用新型公开了一种ESI源质谱仪中鞘气的流经加热装置，包括一加热腔主体，所述加热腔主体上设置有一通向所述加热腔主体腔内的气体流入管道，所述加热腔主体的内壁开有一螺纹结构的轨道，所述螺纹结构的轨道通过轨道切口与一环形槽联通，所述环形槽与所述气体流入管道联通。本实用新型的装置可使鞘气均匀的受热，以提高去溶剂的效果，本实用新型的ESI源质谱仪中鞘气的流经加热装置制作简易方便，成本低廉，可推广使用。
+146. 201788938 ESI源质谱中金属毛细管伸出长度的微调机构
+CN
+06.04.2011
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201020281300.9
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/04
+Loading...
+本实用新型公开了一种ESI源质谱中金属毛细管伸出长度的微调机构，其包括一机架和一金属毛细管，所述机架另一端固定有一旋钮座，所述旋钮座一侧设置有第二毛细管穿透件，所述旋钮座另一侧安装有一调节杆，所述调节杆一端通过一销钉连接所述高压连接件。本实用新型的机构用于ESI源质谱中金属毛细管伸出长度的微调，通过所述调节杆的旋钮带动金属套管在PEEK管道中移动，从而带动金属毛细管和金属套管的移动，从而可以方便的调节金属毛细管距离子入口处的距离。
+147. 201788941 质谱仪中灯丝发射电流稳定控制电路
+CN
+06.04.2011
+H01J 49/42 Loading...
+H01J 49/42
+Loading...
+201020281323.X
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/42
+Loading...
+本实用新型公开了一种质谱仪中灯丝发射电流稳定控制电路，包括，比较器A，所述比较器A连接有电容C26、电阻R35、电容C37、电阻R34、电阻R24和电阻R23；比较器A通过三极管Q8连接有光耦PC6，光耦PC6一输入端连接有电阻R39；比较器A还连接至灯丝发射电流采集控制模块；比较器B，比较器B连接有二极管D14、电容C32、电阻R36；比较器B与比较器A相互连接；比较器B连接一光耦PC4，光耦PC4的一输入端连接有电阻R27，光耦PC4的一输出端通过电阻R38连接一复合管，复合管连接至灯丝发射电流采集控制模块，灯丝发射电流采集控制模块还连接在光耦PC4的一输入端。本实用新型可自动稳定灯丝的发射电流。
+148. 201788939 ESI源质谱中取样锥和电喷雾针的同轴调整机构
+CN
+06.04.2011
+H01J 49/04 Loading...
+H01J 49/04
+Loading...
+201020281336.7
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/04
+Loading...
+本实用新型公开了一种ESI源质谱中取样锥和电喷雾针的同轴调整机构，包括一取样锥固定支架，所述取样锥固定支架内安装有一可横向纵向移动的移动体，所述移动体上安装有取样锥，所述移动体的横向和纵向开有一卡槽，所述卡槽内安装有一金属片，所述金属片与一螺杆连接，所述螺杆与一连接杆连接，所述连接杆上安装有一旋转头。本实用新型的机构制作简易方便，成本低廉，通过横向和纵向旋钮的调节即可调整取样锥二维的位置，以实现取样锥与电喷雾针同轴的目的。
+149. 201789645 环形加热丝加热气体装置
+CN
+06.04.2011
+H05B 3/06 Loading...
+H05B 3/06
+Loading...
+201020281308.5
+江苏天瑞仪器股份有限公司
+刘召贵
+H05B 3/06
+Loading...
+本实用新型公开了一种环形加热丝加热气体装置，包括一加热腔体，所述加热腔体一端设有气体入口管道，所述加热腔体另一端安装有一温控开关，所述温控开关内部接出一加热丝，所述加热腔体的外壁上开有一环形加热丝路径槽，所述加热丝沿着所述环形加热丝路径槽缠绕在所述加热腔体的外壁上。本实用新型的装置可均匀加热气体提高去溶剂效率，制作简易方便，成本低廉，本实用新型的装置可推广使用。
+150. 201788942 质谱仪中探测器移动辅助装置
+CN
+06.04.2011
+H01J 49/42 Loading...
+H01J 49/42
+Loading...
+201020281326.3
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 49/42
+Loading...
+本实用新型公开了一种质谱仪中探测器移动辅助装置，包括一固定板，所述固定板一端安装有一挡板，所述固定板另一端通过一探测器支架安装有一探测器，所述挡板通过一第二滑轨与所述固定板连接，所述探测器支架通过一第一滑轨与所述固定板连接。本实用新型的机构制作简易方便，成本低廉，操作简便，通过调节第一滑轨和/或第二滑轨就可实现调节探测器与质量分析器之间的距离。
+151. 201773095 色谱质谱联用仪
+CN
+23.03.2011
+G01N 30/72 Loading...
+G01N 30/72
+Loading...
+201020218114.0
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 30/72
+Loading...
+本实用新型公开了一种色谱质谱联用仪，包括第一机体和第二机体，所述第一机体内安置有射频电源和一分子泵，所述第一机体外部安装有一FC试剂装置，所述第二机体内安置有一真空规，所述真空规连接一真空腔，所述真空腔连接一采样探测头，所述真空腔内设置有一质量分析器，所述质量分析器设置有一四级杆，所述四级杆的每根杆的长度为180-200mm，直径为6-10.8mm，所述射频电源为高压电源。本实用新型的色谱质谱联用仪具有高分辨率和高灵敏度两重功能，是生物样品中药物与代谢物定性定量的有效工具，该仪器结构简单，易于拆装。
+152. 201771815 质谱用涡轮分子泵控制电路
+CN
+23.03.2011
+F04D 27/00 Loading...
+F04D 27/00
+Loading...
+201020218058.0
+江苏天瑞仪器股份有限公司
+胡晓斌
+F04D 27/00
+Loading...
+本实用新型公开了一种质谱用涡轮分子泵控制电路，其包括一上位机PC，所述上位机PC通过一通信接口连接一FPGA模块，所述FPGA模块连接一模数转换芯片模块；其还包括一控制电路模块，所述控制电路模块接电源模块，所述控制电路模块包括一涡轮分子泵启动电路、一Standby模式启动电路、一涡轮分子泵报错电路、一涡轮分子泵转速信号检测电路以及一涡轮分子泵状态检测电路；所述FPGA模块还连接这所述涡轮分子泵启动电路、一Standby模式启动电路和涡轮分子泵报错电路，所述模数转换芯片模块还连接着所述涡轮分子泵转速信号检测电路。该控制电路控制简单，只需要几个TTL电平信号就可以完成涡轮分子泵的控制。
+153. 201708126 用于质谱仪的离子引出透镜
+CN
+12.01.2011
+H01J 49/06 Loading...
+H01J 49/06
+Loading...
+201020218087.7
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/06
+Loading...
+本实用新型公开了一种用于质谱仪的离子引出透镜，其包括第一级透镜，所述第一级透镜下方设置有第二级透镜，所述第二级透镜下方设置有第三级透镜，所述第一级透镜、第二级透镜和第三级透镜通过石英柱贯穿固定，所述第二级透镜与第三级透镜一端连接有一导电电极。所述第一级透镜、第二级透镜和第三级透镜之间通过陶瓷垫片隔开，所述第一级透镜上端和第三级透镜下端还设置有陶瓷垫片。所述第二级透镜与所述第三级透镜之间的陶瓷垫片之间安装有一弹片结构，所述弹片结构可以防止受热后的陶瓷垫片损坏。该装置体积小，聚焦效果好。
+154. 201707381 质谱仪真空腔内样品离子流大小检测装置
+CN
+12.01.2011
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201020218064.6
+江苏天瑞仪器股份有限公司
+刘召贵
+G01R 19/00
+Loading...
+本实用新型公开了一种质谱仪真空腔内样品离子流大小检测装置，包括质谱仪真空腔体和一PC机，所述PC机内安装有静电仿真软件，所述PC机通过连接线连接有一皮安电流计，所述真空腔体内设置有一法拉第杯，所述法拉第杯通过单芯屏蔽电缆连接至一固定在所述真空腔体上的真空密封连接器的一端，所述真空密封连接器的另一端通过第一低容值屏蔽线连接至所述皮安电流计的输入端，所述皮安电流计的接地端通过第二低容值屏蔽电缆连接至所述真空腔体上；所述真空腔体为整个系统的公共地，所述法拉第杯产生的电流通过导线和皮安电流计流到公共地，形成测试回路，该装置受到的外部干扰影响小，可以有效的检测到样品离子流的大小。
+155. 201708124 用于质谱仪中四级杆的屏蔽罩
+CN
+12.01.2011
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201020218074.X
+江苏天瑞仪器股份有限公司
+应刚
+H01J 49/02
+Loading...
+本实用新型公开了一种用于质谱仪中四级杆的屏蔽罩，所述屏蔽罩为一两端贯通的筒体，所述筒体由头部、中部和尾部组成。所述头部为一环状结构，所述环状结构的环平面上至少开有一个螺栓定位孔，所述环状结构的环边沿至少开有一个走线缺口。所述中部为一筒状结构，所述筒状结构的筒体上至少开有一个走线孔。所述头部的环状结构的环边沿凸出所述中部的筒体，所述尾部与所述中部平滑拼接。所述屏蔽罩的材料为金属材料。本实用新型的用于质谱仪中四级杆的屏蔽罩在应用过程中，四级杆装置放置于屏蔽罩腔体内，因此对四级杆的屏蔽作用针对性强，效果好。
+156. 201707327 用于全元素和贵金属进行分析的样品承载装置
+CN
+12.01.2011
+G01N 33/20 Loading...
+G01N 33/20
+Loading...
+201020218101.3
+江苏天瑞仪器股份有限公司
+应刚
+G01N 33/20
+Loading...
+本实用新型公开了一种用于全元素和贵金属进行分析的样品承载装置，其包括一模板，所述模板上开有一轴承定位孔，所述轴承定位孔内安置一轴承，所述轴承上安置一大齿轮，所述大齿轮内安放一样品杯，所述模板上轴承定位孔一侧还开有一电机轴孔；所述样品承载装置还包括一电机，所述电机通过一电机固定架固定在所述模板上，所述电机的电机轴穿过所述电机轴孔，所述电机轴的穿过端安装有一减速齿轮，所述减速齿轮与所述大齿轮相互啮合，本实用新型的样品承载装置应用于全元素和贵金属进行分析的仪器中，电机可带动样品杯的转动，使测试点和样品产生相对运动，增加了测试点的覆盖面积，使结果更趋于整体化，数据更精密更可靠。
+157. 201708125 法拉第杯
+CN
+12.01.2011
+H01J 49/02 Loading...
+H01J 49/02
+Loading...
+201020218105.1
+江苏天瑞仪器股份有限公司
+胡晓斌
+H01J 49/02
+Loading...
+本实用新型公开了一种法拉第杯，其包括一离子收集杯，所述离子收集杯包括一开口端、一封口端和一杯身，所述杯身外包裹有一个绝缘罩，所述开口端处设有一前屏蔽罩，所述封口端处设有一后屏蔽罩，所述前屏蔽罩与开口端之间加设有一前绝缘挡板，所述后屏蔽罩与封口端之间加设有一后绝缘挡板。本实用新型的法拉第杯在离子收集杯外增加了金属屏蔽罩结构，可以屏蔽掉真空腔体内部散射的离子造成的干扰，因此可以准确有效的收集目标离子数。
+158. 101900739 Ore pulp current-carrying analyzer system
+CN
+01.12.2010
+G01N 35/10 Loading...
+G01N 35/10
+Loading...
+200910057306.X
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 35/10
+Loading...
+The invention relates to an ore pulp current-carrying analyzer system. The system comprises at least one primary sampler, a secondary sampler, a spectrometer analyzer and a calibration sampler, wherein the primary sampler divides ore pulp samples with a flow rate of between 70 and 120L/minute from process ore pulp in an ore pulp pipeline and conveys the ore pulp samples; the secondary sampler further divides the ore pulp samples conveyed by the primary sampler to separate out the ore pulp samples with the flow rate of 20L/minute and convey the ore pulp samples; the spectrometer analyzer analyzes and conveys the ore pulp samples separated by the secondary sampler; and the calibration sampler calibrates a part of the ore pump samples conveyed by the spectrometer analyzer and conveys the remaining ore pulp samples into the ore pulp pipeline system by type. The ore pulp current-carrying analyzer system also comprises a control system for controlling the work of the entire system. The ore pulp sample in the entire system has high fluidity, uniform mixing and high representativeness, the measurement result accurately reflects the true situation of the process ore pulp and can adapt to various industrial fields with complex situation and severe condition. In addition, the entire system can monitor a plurality of important operating points during the production on line in real time and provide latest data information and variation trend of metal grade in the process ore pulp for operators or managers to instruct the production.
+159. 201628684 一种ICP光谱仪进样系统的雾化室
+CN
+10.11.2010
+G01N 21/71 Loading...
+G01N 21/71
+Loading...
+200920282853.3
+江苏天瑞仪器股份有限公司
+应刚
+G01N 21/71
+Loading...
+本实用新型公开了一种ICP光谱仪进样系统的雾化室，其包括双筒同心部，所述双筒同心部上分别设有气溶胶出口、废液排放口以及旋流雾化室安装口，所述旋流雾化室安装口上连有旋流雾化室，所述旋流雾化室上分别设有雾化室废液排放口以及雾化器安装口。本实用新型的ICP光谱仪进样系统的雾化室结合了旋流雾化室以及双筒同心雾化室的特性，由于双筒部分的缓冲能力比较强，有效抑制了由于雾化器提升量的波动以及雾化气体流量气压波动带来的影响，有效的改善了雾化室出口处的气溶胶的均匀性，进而有效改善了ICP光谱仪进样系统的稳定性。
+160. 201628674 一种用于增强发射光谱仪信噪比的装置
+CN
+10.11.2010
+G01N 21/01 Loading...
+G01N 21/01
+Loading...
+200920282862.2
+江苏天瑞仪器股份有限公司
+应刚
+G01N 21/01
+Loading...
+本实用新型公开了一种用于增强发射光谱仪信噪比的装置，包括激发光源以及依次排列的于所述激发光源一侧的入射光学系统、入射狭缝、由单色器和光电转换传感器组成的光电转换系统、光电信号放大及处理系统，所述激发光源的另一侧设有一凹面反射镜，所述凹面反射镜的球心位于所述激发光源处。通过本装置，发射光谱仪光源的后向辐射汇聚到前向辐射的方向来，使得发射光谱仪的入射光通量得到显著提高，光谱仪能够收集更多的光源辐射信息，相当于增强了光源的强度，这样对后级的信号放大就降低了要求，也就增大了发射光谱仪的信噪比。
+161. 201628685 ICP自动点火装置
+CN
+10.11.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200920256066.1
+江苏天瑞仪器股份有限公司
+张树龙
+G01N 21/73
+Loading...
+本实用新型提供了一种新的ICP自动点火装置，其包括一微控制器U1，所述微控制器U1的一输入输出端i/o接一场效应管Q1的栅极g，所述场效应管Q1的漏极d接一自耦变压器T1初级的一端，所述自耦变压器T1初级的另一端接一直流电源DC的负极，所述直流电源的正极接所述场效应管Q1的源极s。该装置具有电路结构简单蒸发能力强的有益效果。
+162. 201628686 一种提高ICP光谱仪进样系统稳定性的废液排出装置
+CN
+10.11.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200920282854.8
+江苏天瑞仪器股份有限公司
+胡晓斌
+G01N 21/73
+Loading...
+本实用新型公开了一种提高ICP光谱仪进样系统稳定性的废液排出装置，其包括依次连接的蠕动泵、软管、水封瓶以及连接管，所述连接管与ICP光谱仪进样系统的雾化室连接。该废液排出装置的雾化室，通过调节蠕动泵的转向和转速，使得废液的排出速度与雾化室生成废液的速度相适应，以使水封瓶中的废液液面高度保持不变，不会发生脉动式排液的现象，有效地消除了由于脉动排液造成的气溶胶流速波动的现象，改善了ICP光谱仪进样系统的稳定性。
+163. 201628687 电感耦合等离子体发射光谱仪
+CN
+10.11.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200920282855.2
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/73
+Loading...
+本实用新型公开了一种电感耦合等离子体发射光谱仪，包括高频发生器、感应圈、炬管、供气系统和试样引入系统，所述炬管由三层同心石英管组成，所述供气系统包括一个三通，所述三通进气口与Ar气源连接，所述三通的一个出气口通过第一流量计与所述炬管的外层石英管连通，所述供气系统还包括一切换阀，所述切换阀的一个进气口与所述三通的另一个出气口连通，所述切换阀的另一个进气口与氧气气源连通，所述切换阀的出气口通过第二流量计与所述炬管的中层石英管连通。该电感耦合等离子体发射光谱仪在检测有机物时不会在炬管的管口形成碳沉积，从而可保证等离子体的稳定运行和光谱正确测定。
+164. 201625498 一种用于原子荧光光谱仪的有害气体净化装置
+CN
+10.11.2010
+B01D 53/78 Loading...
+B01D 53/78
+Loading...
+200920232837.3
+江苏天瑞仪器股份有限公司
+马聪
+B01D 53/78
+Loading...
+本实用新型涉及一种用于原子荧光光谱仪的有害气体净化装置，其包括有害气体净化器、有害气体收集装置以及控制系统，控制系统由51内核单片机以及驱动电路组成，有害气体收集装置由本体以及设置与本体一端的风扇组成，有害气体净化器为U字形，有害气体净化器两端分别设置有有害气体进口以及有害气体出口。有害气体从有害气体进口进入后，在有害气体净化器管道内流过，吸收有害气体中的酸气和气态氢化物，从而起到有害气体净化作用。整个装置结构简单，布局合理；能够最大程度地净化原子荧光光谱仪工作时产生的有害气体，保护实验室环境以及实验人员身体健康；用户操作使用方便。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析中的有害气体的净化之用。
+165. 201583490 一种新型上照式测试机构
+CN
+15.09.2010
+G01N 21/01 Loading...
+G01N 21/01
+Loading...
+200920256067.6
+江苏天瑞仪器股份有限公司
+卢学伟
+G01N 21/01
+Loading...
+本实用新型为克服现有技术中下照式测试机构不能很好的在考古领域中的应用以及上照式测试机构机械手臂不能灵活投入采样分析工作的不足，提供了一种新型上照式测试机构，其包括一测试机头，所述测试机头一端固定在一上下微调连接块一端，所述上下微调连接块的另一端连接一万向云台一端，所述万向云台的另一端连接一悬臂系统一端，所述悬臂系统的另一端安装在一升降系统上。所述的悬臂系统由转臂，上下活动摇臂，转动连接块依次连接组成。所述的悬臂系统通过所述升降系统上安有的升降滑块相互连接。本测试机构可以达到在不破坏样品的同时灵活的操作。
+166. 201576658 电感耦合等离子体光源的供气系统
+CN
+08.09.2010
+H01J 65/00 Loading...
+H01J 65/00
+Loading...
+200920256062.3
+江苏天瑞仪器股份有限公司
+刘召贵
+H01J 65/00
+Loading...
+本实用新型一种电感耦合等离子体光源的供气系统，包括气源、等离子气供气支路、辅助气供气支路和载气供气支路，所述气源分别通过一质量流量控制器与所述离子气供气支路、辅助气供气支路、载气供气支路连接。在该方案中气源与供气支路之间通过质量流量控制器连接，质量流量控制器能够接收来自于主控制器的模拟电压信号，并根据该电压的大小对输出的流量进行控制，从而大大的提高了工作气体流量的调节与控制的精度以及自动化程度。
+167. 201555807 ICP光谱仪进样系统的雾化室
+CN
+18.08.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200920256063.8
+江苏天瑞仪器股份有限公司
+应刚
+G01N 21/73
+Loading...
+本实用新型公开了一种ICP光谱仪进样系统的雾化室，该雾化室采用三个雾化筒同心套接而成，雾化筒之间的间隙形成气溶胶流动的通道，由于每个雾化筒进气口和出气口都彼此远离，这样就延长了气溶胶在雾化室内的行程，增加了雾化室的体积，从而将雾化器废液液滴的滴落或者由于载气压力的波动引起的气溶胶进样速度的波动对信号的影响减到最小，增强了信号的稳定性。
+168. 201540265 一种X荧光光谱镀层分析仪的装配结构
+CN
+04.08.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200920234681.2
+江苏天瑞仪器股份有限公司
+黄清华
+G01N 23/223
+Loading...
+本实用新型涉及一种X荧光光谱镀层分析仪的装配结构，包括机座、固定座，机座上设有卡钩，固定座上设有套孔，固定座通过套孔套设于卡钩以实现机座与固定座的固定，固定座上设有两隔板将固定座分隔成三个隔室，电源系统、光源系统以及高压系统被分别设在这三个隔室内，隔板上设有固定孔。整个装配结构简单；方便仪器的组装与拆卸；提高了售后服务维护的效率；减轻了仪器的整机质量。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化等行业的X荧光光谱镀层分析仪之用。
+169. 101788539 Method to measure phthalates plasticizer volumes in PVC products
+CN
+28.07.2010
+G01N 30/02 Loading...
+G01N 30/02
+Loading...
+201010102006.1
+Jiangsu Skyray Instrument Co., Ltd.
+Chen Zaijie
+G01N 30/02
+Loading...
+The invention relates to a method to measure phthalates plasticizer volumes in PVC products, comprising the following concrete steps: taking 5 to 10 grams sample and grind them to 5mm*5mm. Mixing and weigh 2 grams precise and putting into the extraction tube made of folded filter paper; adding about 100 ml dissolvent in a 45 DEG C water bath for Soxhlet extraction. Move the extract liquor to the evaporation pan to vaporize the extract liquor by water bath. Metering 25 ml of the remnants by volume metering agents in the volumetric flask and shaking up. Filtrating the solution with organic filter membrane of 0.45 um thickness, and storing the extraction in a glass sample bottle to be tested. The method of the invention is simple and fast, precise and sensitive, highly adaptable and efficient in recovery rate. The method is applicable to factory quality control and testing samples from institutes.
+170. 101776570 Device for enhancing signal-to-noise ratio of emission spectrometer
+CN
+14.07.2010
+G01N 21/01 Loading...
+G01N 21/01
+Loading...
+200910264833.8
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+G01N 21/01
+Loading...
+The invention discloses a device for enhancing the signal-to-noise ratio of emission spectrometers, which comprises an excitation light source, and an incidence optical system, an incidence slit, a photoelectric conversion system and an photoelectric signal amplifying and processing system which are successively arranged at one side of the excitation light source, wherein one side of the excitation light source is provided with a concave reflection mirror the spherical center of which lies in the position of the excitation light source, and the photoelectric conversion system consists of a monochromator and a photoelectric conversion sensor. The backward radiation of the light source of an emission spectrometer is converged with the forward radiation by means of the device, so the incident light flux of the emission spectrometer is greatly improved, and the emission spectrometer is capable of gathering much radiation information of the light source, i.e., the strength of the light source is enhanced, thereby greatly lowering the requirements to the amplification of the next signal and improving the signal-to-noise ratio.
+171. 201514373 一种夹具
+CN
+23.06.2010
+G01N 21/01 Loading...
+G01N 21/01
+Loading...
+200920043302.1
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/01
+Loading...
+本实用新型涉及一种夹具，包括升降平台，升降平台被套设在螺杆上，螺杆上设置有把手，升降平台上还设置有滑块，滑块被套设在导轨上，升降平台上设置有夹紧机构，夹紧机构包括支撑壁、夹壁以及设置于支撑壁与夹壁之间的样品夹块，样品夹块与支撑壁之间连接有光轴以及弹簧，光轴的作用在于使样品滑块平稳滑动而不晃动，光轴上套设有直线轴承，样品夹块上设有拨动部，可方便人手拨动样品夹块。整个夹具结构简单，可方便对环形样品的内壁进行测试，且能调节升降平台的高度，操作使用方便。
+172. 101726482 Method for detecting content of elements in oil with inductively coupled plasma (ICP) spectrometer
+CN
+09.06.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200910264829.1
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 21/73
+Loading...
+The invention discloses a method for detecting the content of elements in oil with an inductively coupled plasma (ICP) spectrometer. The ICP spectrometer comprises a torque tube, and the torque tube is formed by three layers of concentric quartz tubes. Cooling gas is guided into the quartz tube of the outer layer, oxygen is guided into the quartz tube of the middle layer and gasoloid of the oil which is diluted by organic solution is injected into the quartz tube of the outer layer. The method for detecting the content of elements in oil with the ICP spectrometer makes up the deficiency of the prior art.
+173. 101726479 Test point positioning device for down-lighting fluorescence analyzing apparatus
+CN
+09.06.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200910264830.4
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 23/223
+Loading...
+The invention discloses a test point positioning device for a down-lighting fluorescence analyzing apparatus, which comprises a movable two-dimensional test platform. A high-definition variable-focus camera, a spectrum detector, a fluorescent cross frame and a fluorescent X-ray tube are arranged below the movable two-dimensional test platform; and the front end of the fluorescent X-ray tube is provided with a collimator. The positioning device of the invention is applied to the test positioning of the down-lighting fluorescence analyzing apparatus to realize convenient and precise positioning.
+174. 101718699 Air supply system of inductive coupling plasma light source
+CN
+02.06.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200910232131.1
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 21/73
+Loading...
+The invention relates to an air supply system of an inductive coupling plasma light source, comprising an air source, a plasma air supply branch, an auxiliary air supply branch and a carrier air supply branch, wherein the air source is connected with the plasma air supply branch, the auxiliary air supply branch and the carrier air supply branch respectively through a mass flow controller. In the air supply system, the air source is connected with the air supply branches through the mass flow controllers, and the mass flow controllers can receive analog voltage signals from a main controller and control output flows according to the voltage so as to greatly improve the accuracy and the degree of the automation of the regulation and the control of the flows of working air.
+175. 101718700 Output matching circuit of inductive coupling plasma power supply
+CN
+02.06.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200910232136.4
+Jiangsu Skyray Instrument Co., Ltd.
+Shen Pengfei
+G01N 21/73
+Loading...
+The invention discloses an output matching circuit of an inductive coupling plasma power supply, comprising a transformer, wherein a primary coil of the transformer is connected with input signals; a secondary coil of the transformer is connected with one end of a first adjustable capacitor and one end of a second adjustable capacitor; the other end of the first adjustable capacitor is connected with a working coil, and the other end of the second adjustable capacitor is grounded; the first adjustable capacitor is adjusted by a first motor, and the second adjustable capacitor is adjusted by a second motor; and the first motor and the second motor are connected with a signal feedback unit capable of detecting the transmission efficiency of the working coil. The output matching circuit can automatically adjust output matches according to the working condition of the working coil so as to ensure that output power can be transmitted onto the output load working coil by the highest efficiency.
+176. 101718701 Constant-temperature monochromator box for ICP spectrometer
+CN
+02.06.2010
+G01N 21/73 Loading...
+G01N 21/73
+Loading...
+200910232139.8
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 21/73
+Loading...
+The invention discloses a constant-temperature monochromator box for an ICP spectrometer, which is characterized in that a temperature preservation layer is arranged outside a monochromator box; an electric heating filament and a refrigerating fin are arranged in the temperature preservation layer; the electric heating filament is connected with a heater; the refrigerating fin is connected with a refrigerator; a temperature sensor is also arranged on the monochromator box; and the temperature sensor, the heater and the refrigerator are connected with a microcontroller. The electric heating filament and the refrigerating fin are arranged in the temperature preservation layer of the monochromator box, and the microcontroller can control the heater by the temperature fed back by the temperature sensor so that the electric heating filament works to raise the temperature of the monochromator box or control the refrigerator so that the refrigerating fin works to reduce the temperature of the monochromator box, thereby achieving the aim of controlling the temperature of the monochromator box and keeping the temperature of the monochromator box unchanged.
+177. 201496906 一种用于原子荧光光谱仪的人工智能型光源装置
+CN
+02.06.2010
+F21V 23/00 Loading...
+F21V 23/00
+Loading...
+200920232833.5
+江苏天瑞仪器股份有限公司
+马聪
+F21V 23/00
+Loading...
+本实用新型涉及一种用于原子荧光光谱仪的人工智能型光源装置，包括光源插座以及插设于其上的光源，光源插座上设置有与光源电性连接的光源识别和控制装置，光源识别和控制装置由51内核单片机以及驱动电路所控制，光源为空心阴极灯。整个装置结构简单，布局合理；使用户可以很方便的识别并控制仪器光源，从而能够获得原子荧光光谱仪的最佳工作条件；用户操作使用方便。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析中的光源的智能识别与控制之用。
+178. 201497704 一种用于原子荧光光谱仪的光源热插拔装置
+CN
+02.06.2010
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+200920232836.9
+江苏天瑞仪器股份有限公司
+马聪
+G01N 21/64
+Loading...
+本实用新型涉及一种用于原子荧光光谱仪的光源热插拔装置，包括光源与光源驱动电源，光源与光源驱动电源之间设置有电源开关，电源开关与光电开关连接，光电开关上连接有机械开关，光电开关与机械开关都被设置于固定座上，固定座上还设置有光源插座与磁性固定块，光源插设在光源插座内并被所磁性固定块固定。整个装置结构简单，布局合理；增加了原子荧光光谱仪光源热插拔的功能，安全可靠，易于实现，简化了光源更换操作的流程，极大地方便了用户对仪器的使用，节约了仪器操作时间。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析。
+179. 201496904 一种原子吸收分光光度计的灯架装置
+CN
+02.06.2010
+F21V 21/30 Loading...
+F21V 21/30
+Loading...
+200920234678.0
+江苏天瑞仪器股份有限公司
+韦大纶
+F21V 21/30
+Loading...
+本实用新型涉及一种原子吸收分光光度计的灯架装置，其中心设有灯架转轴，其四周设有固定架及弹簧片，固定架及弹簧片成环形，灯架转轴上连接有驱动装置，灯架装置四周设有至少八个元素灯，元素灯固定于固定架上，驱动装置由依次连接的套设在灯架转轴上的大皮带轮、皮带、小皮带轮、电机输出轴、步进电机组成，大皮带轮上设有位置感应装置。整个装置结构简单，布局合理；缩小了灯与灯之间的节圆距离，测试中灯架对的位置对得准确；所能装载的元素灯得到了增加，提高了工作效率。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化等行业的原子吸收分光光度计元素灯固定灯架之用。
+180. 201497705 一种用于原子荧光光谱仪的火焰实时观察装置
+CN
+02.06.2010
+G01N 21/72 Loading...
+G01N 21/72
+Loading...
+200920232835.4
+江苏天瑞仪器股份有限公司
+马聪
+G01N 21/72
+Loading...
+本实用新型涉及一种用于原子荧光光谱仪的火焰实时观察装置，包括摄像头支架，摄像头支架一端设置有摄像头固定座，摄像头固定座上设置有摄像头，摄像头与计算机的接口连接并正对原子荧光光谱仪的火焰。整个装置结构简单，布局合理；解决了原有火焰观察装置的诸多潜在问题，自动化程度高，实现简单，稳定可靠；用户操作使用方便。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析中的火焰观察用。
+181. 201497712 一种X荧光光谱镀层分析仪
+CN
+02.06.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200920234680.8
+江苏天瑞仪器股份有限公司
+黄清华
+G01N 23/223
+Loading...
+本实用新型涉及一种X荧光光谱镀层分析仪，包括主支架、测试组件、以及样品平台，测试组件固定于主支架的上的一升降平台框上，样品平台位于主支架的底部且位于升降平台框的下方，升降平台框与主支架之间设有滑轨，升降平台框上连有一Z轴电机，样品平台上连有X轴电机与Y轴电机，测试组件底部两侧设有位置传感器，测试组件底部中间位置设有高度激光装置，测试组件包括一摄像头。提高了仪器的自动化程度，扩大了可测试样品的范围；位置传感器保护了测试组件和被测样品；可实时观测样品的测试过程；样品平台和测试组件位置可调节。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化等行业的X荧光光谱镀层分析之用。
+182. 201497713 一种用于X荧光光谱镀层分析仪的准直器
+CN
+02.06.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200920234682.7
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 23/223
+Loading...
+本实用新型涉及一种用于X荧光光谱镀层分析仪的准直器，其由三个片体组成，第一片体的一长边与第二片体的一长边对齐拼接，第三片体叠放在第一片体与第二片体上，第一片体或第二片体中的一长边的中部开设有一微槽，第三片体的中部开设有一长槽，微槽与长槽在长度方向上垂直叠放，微槽的长大于等于长槽的宽，第一片体、第二片体面积相等，第三片体的面积等于第一片体与第二片体面积之和，长槽为哑铃形。整个准直器结构简单；实现了传统工艺较难实现的微孔的加工；精度得到了很好的保证；推动了X荧光光谱镀层分析仪的发展。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的X荧光光谱镀层分析仪之用。
+183. 201477047 一种用于原子荧光光谱仪的点火炉丝功率输出调节装置
+CN
+19.05.2010
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+200920232834.X
+江苏天瑞仪器股份有限公司
+马聪
+G01N 21/64
+Loading...
+本实用新型涉及一种用于原子荧光光谱仪的点火炉丝功率输出调节装置，包括原子化器及设置于原子化器上的点火炉丝，点火炉丝与电源连接，点火炉丝与电源之间另外连接有控制单元，控制系统控制单元由依次连接的计算机控制单元、电路板控制模块、电源驱动模块组成，电源驱动模块设置于点火炉丝与电源之间，控制单元控制电源输出电压的占空比以调节点火炉丝的输出功率。整个装置结构简单，布局合理；可以很方便地控制原子化器温度，对于不同元素的测量，操作者可以使用不同的点火功率，而实现不同的测量效果；用户操作使用方便。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析中的原子化器的温度调节之用。
+184. 201477040 一种原子吸收分光光度计的点火装置
+CN
+19.05.2010
+G01N 21/31 Loading...
+G01N 21/31
+Loading...
+200920234679.5
+江苏天瑞仪器股份有限公司
+韦大纶
+G01N 21/31
+Loading...
+本实用新型涉及一种原子吸收分光光度计的点火装置，包括底座、以及设置于底座上的雾化筒，雾化筒一端设有空气进口、乙炔气体进口以及样品进样口，雾化筒另一端设有燃烧头，底座上还设有一旋转电磁铁、旋转电磁铁安装座、点火针固定架，旋转电磁铁安装在旋转电磁铁安装座上，点火针固定架套设在旋转电磁铁上，点火针固定架上设有一点火针，雾化筒设在底座中部。整个装置结构简单，布局合理；采用直接点火的方式，从结构上比传统点火方式进行了精简，不但节约了成本，而且点火的时候也比传统点火方式更加快速。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化等行业的原子吸收分光光度计使用时的点火之用。
+185. 201477048 一种用于降低原子荧光光谱仪光学背景及噪声的装置
+CN
+19.05.2010
+G01N 21/64 Loading...
+G01N 21/64
+Loading...
+200920232838.8
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/64
+Loading...
+本实用新型涉及一种用于降低原子荧光光谱仪光学背景及噪声的装置，包括光学暗室，光学暗室与光路筒的外壁相贴合，光路筒正对光学暗室的一侧设置有两光源以及信号接收装置，光源的正前方靠近光学暗室处各装有一反射镜，反射镜由光路筒内壁向外壁凸设，光学暗室内壁处设置有吸光材料，光路筒的内壁正对信号接收装置处设置有通光孔，本实施例中光源为空心阴极灯。整个装置结构简单，布局合理；最大程度地降低仪器的杂散光，将仪器空白测量的噪声值降低到最小；用户操作使用方便。其适用于环境保护、临床医学、农业、地质冶金、制药行业、石化行业等行业的原子光谱分析中的降低仪器使用中的光学背景及噪声之用。
+186. 101707842 ICP light source power stabilizing circuit
+CN
+12.05.2010
+H05B 41/24 Loading...
+H05B 41/24
+Loading...
+200910232137.9
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+H05B 41/24
+Loading...
+The invention discloses an ICP light source power stabilizing circuit which comprises a high-frequency signal source, a power drive circuit, a power amplification circuit, an output matching circuit and a working coil, and also comprises a phase discrimination feedback circuit and an automatic gain reduction circuit, wherein the phase discrimination feedback circuit is connected with the automatic gain reduction circuit, and the phase discrimination feedback circuit and the automatic gain reduction circuit are positioned between the power drive circuit and the output matching circuit and are used for feeding signals of the output matching circuit back to the power drive circuit. In the technical scheme of the invention, the phase discrimination feedback circuit and the automatic gain reduction circuit are additionally arranged between the power drive circuit and the output matching circuit, which enables an ICP light source to realize closed loop control, and enhances the stability of output power of the ICP light source.
+187. 101706422 Infrared carbon and sulfur determination analyzer
+CN
+12.05.2010
+G01N 21/35 Loading...
+G01N 21/35
+Loading...
+200910232142.X
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+G01N 21/35
+Loading...
+The invention discloses an infrared carbon and sulfur determination analyzer, which comprises an oxidation unit, an infrared absorption unit and a detection unit. The oxidation unit comprises a combustion furnace and an oxygen source, and the combustion furnace is connected with the oxygen source; the infrared absorption unit comprises an absorption cell and an infrared light source, wherein the infrared ray generated by the infrared light source passes through the absorption cell, and the absorption cell is connected with the air outlet of the combustion furnace; and the detection unit comprises a detector and a master control board for analyzing the content of carbon and sulfur, wherein the detector can receive the infrared ray passing through the absorption cell and is connected with the master control board. The analyzer has simple structure and convenient operation, and can very accurately measure the content of carbon and sulfur in a substance.
+188. 101707843 Inductance coupling plasma light source
+CN
+12.05.2010
+H05B 41/24 Loading...
+H05B 41/24
+Loading...
+200910232140.0
+Jiangsu Skyray Instrument Co., Ltd.
+Wang Hongwei
+H05B 41/24
+Loading...
+The invention discloses an inductance coupling plasma light source which comprises a high-frequency signal source, a power boosting unit, a power amplifying unit, an output matching unit, a phase discrimination feedback unit, an automatic gain attenuating unit and a main control plate, wherein the high-frequency signal source is used for generating a high-frequency signal; the power boosting unit is used for carrying out primary amplification on the output high-frequency signal; the power amplifying unit is used for carrying out secondary amplification on the high-frequency signal output by the power boosting unit; the output matching unit outputs the signal output by the power amplifying unit to a working coil so that the working coil generates a plasma; the phase discrimination feedback unit is used for detecting the output power of the output matching unit; the automatic gain attenuating unit is used for adjusting and feeding a feedback signal output by the phase discrimination feedback unit back to the power boosting unit; and the main control plate is used for controlling the adjusting range of the automatic gain attenuating unit on the feedback signal. Compared with the traditional electronic pipe light source, the inductance coupling plasma light source has the advantages of small size, high efficiency and good stability.
+189. 101707849 ICP light source output power adjusting circuit
+CN
+12.05.2010
+H05B 41/38 Loading...
+H05B 41/38
+Loading...
+200910232138.3
+Jiangsu Skyray Instrument Co., Ltd.
+Hu Xiaobin
+H05B 41/38
+Loading...
+The invention discloses an ICP light source output power adjusting circuit which comprises a digital-to-analog converter and a field-effect tube, wherein the output end of the digital-to-analog converter is connected with the grid of the field-effect tube through a negative feedback amplification circuit. In the technical scheme of the invention, the digital-to-analog converter converts digital signals into analog output voltage and is connected with the grid of the field-effect tube through the negative feedback amplification circuit. The field-effect tube has the voltage dividing function of an on resistance (Ron), which enables the field-effect tube to control the amplitude of input power drive stage signal output and further control the size of final output power, thereby achieving the purpose of controlling the output power of a light source through software of a computer, and improving the precision of control adjustment and the automation degree.
+190. 101706436 Atomizing chamber of ICP spectrometer sampling system
+CN
+12.05.2010
+G01N 21/71 Loading...
+G01N 21/71
+Loading...
+200910232132.6
+Jiangsu Skyray Instrument Co., Ltd.
+Li Quanchun
+G01N 21/71
+Loading...
+The invention discloses an atomizing chamber of an ICP spectrometer sampling system, which is formed by concentrically sleeving three atomizing cylinders, wherein gaps among the atomizing cylinders form a channel in which aerosol flows. Gas inlets and gas outlets of the atomizing cylinders are far away from each other, which prolongs the stroke of the aerosol in the atomizing chamber and increases the volume of the atomizing chamber, thereby reducing the influence on signals caused by dropping of waste liquid drops of atomizers or fluctuation of sampling speeds of the aerosol because of the fluctuation of gas carrying pressures, and strengthening the stability of the signals.
+191. 101707821 Infrared source circuit of carbon-sulfur determination analyzer
+CN
+12.05.2010
+H05B 37/00 Loading...
+H05B 37/00
+Loading...
+200910232141.5
+Jiangsu Skyray Instrument Co., Ltd.
+Liu Zhaogui
+H05B 37/00
+Loading...
+The invention discloses an infrared source circuit of a carbon-sulfur determination analyzer, which comprises a constant current source Darlington pipe drive circuit, an infrared source and a direct current supply, wherein the constant current source Darlington pipe drive circuit is provided with a pulse signal input end, the constant current source Darlington pipe drive circuit is connected with one end of the infrared source, and the direct current supply is connected with the other end of the infrared source. The infrared source of the circuit is driven by the constant current source Darlington pipe drive circuit to realize the modulation of the infrared source, thereby saving the cost and the structure space of a chopping motor, simplifying the system design and more easily realizing the modulation of the infrared source; the adoption of electrical modulation has the largest advantages of no movable members, more stable radiation of the infrared source for the outside, high system accuracy, long life and low cost.
+192. 201449369 一种自动换样平台
+CN
+05.05.2010
+G01N 21/13 Loading...
+G01N 21/13
+Loading...
+200920043303.6
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 21/13
+Loading...
+一种自动换样平台，设置在荧光光谱仪上，包括工作平台，工作平台上设置有大皮带轮、小皮带轮以及连接大皮带轮和小皮带轮的皮带，大皮带轮上设置有工作转轴，工作转轴上套设有转盘，转盘上设置有至少一样品杯，样品杯由转盘螺母固定在转盘上，小皮带轮连接有一驱动装置，驱动装置由步进旋转电机以及电机密封舱组成，步进旋转电机的本体被密封在电机密封舱内，步进旋转电机的转轴与小皮带轮连接，转盘上还设置有观测部，观测部与测试组件对应。本实用新型的自动换样平台的整个装置结构紧凑，设计合理，能自动换样，可一次处理多个样品，操作使用维护方便。
+193. 201448217 一种抽真空装置
+CN
+05.05.2010
+F04B 37/14 Loading...
+F04B 37/14
+Loading...
+200920043301.7
+江苏天瑞仪器股份有限公司
+刘召贵
+F04B 37/14
+Loading...
+本实用新型涉及一种抽真空装置，该抽真空装置包括三通阀、电磁阀、真空泵以及电机，三通阀具有控制端、进气端以及出气端，控制端连接电磁阀，进气端接待抽真空仪器，出气端与真空泵上的阀门连接，真空泵与电机连接，当电机控制真空泵起动后，阀门打开，对待抽真空仪器抽真空，当电机停止工作时，阀门关闭，起密封作用。本实用新型的抽真空装置，结构紧凑，设计合理，控制使用维护方便，特别适用于满足矿浆样本分析装置的抽真空需求。
+194. 201417230 一种矿浆样品标定取样器
+CN
+03.03.2010
+G01N 1/20 Loading...
+G01N 1/20
+Loading...
+200920073958.8
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 1/20
+Loading...
+本实用新型涉及一种矿浆样品标定取样器，其包括一取样器本体，取样器本体顶部设置有一柱体，柱体上设置有一进样口，取样器本体底部设置有至少一出样口，进样口与出样口相通，取样器本体上还设置有一标定取样装置，标定取样装置上设置有一取样狭缝以及一标定样品出样口。柱体连接有一气缸。取样器本体上还设置有一冲洗口。整个标定取样器采用连续取样方式，保证了其取样的可靠性和准确性，取样通道可自动冲洗，清理脏物，免维护，可根据矿浆样本类型自动切换排浆。特别适合在线矿浆监测仪中使用。
+195. 201417229 一种矿浆截流取样器
+CN
+03.03.2010
+G01N 1/20 Loading...
+G01N 1/20
+Loading...
+200920073956.9
+江苏天瑞仪器股份有限公司
+刘召贵
+G01N 1/20
+Loading...
+一种矿浆截流取样器包括一取样器本体，取样器本体内形成有一腔体，腔体两端分别设置有一进浆口以及一出浆口，腔体还设置有一刀口形状的截浆口，截浆口截取部分流过腔体的矿浆样本通过一与取样器本体相连的弯通从一出样口流出。矿浆截流取样器还包括一连接体，连接体通过弯通与取样器本体连接，出样口设置在连接体上。连接体上设置有一腔体冲洗球阀，取样器本体上设置有一疏堵杆气缸以及一刀架，刀架上设置有一疏堵杆，腔体冲洗球阀与疏堵杆气缸气动连接，疏堵杆与疏堵杆气缸气动连接。本实用新型的矿浆截流取样器的采用矿浆流截面刀口取样方式，保证了取样具有足够的代表性，另外能自动定时刀口脏物清理和腔体冲洗。它是选矿工艺中理想的样本矿浆取样器。
+196. 201417228 一种矿浆样品多路取样器
+CN
+03.03.2010
+G01N 1/18 Loading...
+G01N 1/18
+Loading...
+200920073955.4
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 1/18
+Loading...
+本实用新型涉及一种矿浆样品多路取样器，其包括一取样器本体，取样器本体顶部设置有至少一进浆口以及与进浆口相连的胶管，取样器本体内还设置有一取样装置，胶管延伸入取样装置内，取样装置包括一第一腔体以及一第二腔体，第一腔体底部形成有一出样口，第二腔体底部形成有一出浆口。取样装置还包括一日取样器用于累计化学分析取样。进浆口的类型包括弯头进浆口以及直头进浆口，提供进浆口直头、弯头接口，可实现190°角度范围与管道水平联接。第一腔体内设置有一滤网，可自清理脏物，大大的降低维护量。特别适合在线矿浆载流分析仪中使用。
+197. 201408137 一种矿浆样品盒
+CN
+17.02.2010
+G01N 1/20 Loading...
+G01N 1/20
+Loading...
+200920073954.X
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 1/20
+Loading...
+本实用新型涉及一种矿浆样品盒，其包括一盒体，盒体内形成有一射流腔体，盒体外设有一进样口以及一出样口，矿浆样本从进样口进入射流腔体后从出样口流出，所述射流腔体底部设置有一监测窗口，窗口设置有窗口膜，监测窗口正对监测探头，使监测探头能透过监测窗口监测射流腔体内矿浆样本的品位。盒体外设置有一窗口膜盒，盒体内设置有膜阻尼片，体外设置有一换膜手柄，监测窗口四周设置有一密封圈。整个样盒采用射流技术，射流腔体独特腔体结构设计，使到达监测窗口分析灵敏区样品具有足够的代表性和新鲜性，保证了分析结果的真实性、准确性。监测窗口可人工连续换膜，无需切断X射线光管高压，也无需打开样盒体。特别适合在线矿浆载流分析仪中使用。
+198. 201408138 一种矿浆压力取样器
+CN
+17.02.2010
+G01N 1/20 Loading...
+G01N 1/20
+Loading...
+200920073957.3
+江苏天瑞仪器股份有限公司
+王嘉勇
+G01N 1/20
+Loading...
+本实用新型涉及一种矿浆压力取样器，矿浆压力取样器包括一取样器本体，取样器本体内形成有一第一腔体，取样器本体外还凸设有一第一连接体，第一连接体内形成有一第二腔体，第一腔体一端设置有一进浆口，第二腔体远离取样器本体的一端设置有一出浆口，第一腔体远离进浆口一端设置有一第二连接体，第二连接体两端分别设置有一取样口以及一出样口，取样口靠近进浆口。本实用新型中矿浆压力取样器的取样口为锥形，第一腔体内设置有至少一紊流杆，紊流杆使过程矿浆产生紊流作用，这样保证了取样的代表性，另外能自动定时脏物清理和腔体冲洗。它是选矿工艺中理想的样本矿浆取样器。
+199. 101644689 Multi-target material X light tube
+CN
+10.02.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200910184782.8
+Jiangsu Skyray Instrument Co., Ltd.
+Li Yuhua
+G01N 23/223
+Loading...
+The invention discloses a multi-target material X light tube, relating to the technical field of X-ray light tubes in an X fluorescence analyzer. The multi-target material X light tube comprises a shell, high pressure oil, a glass tube, a cathode, an anode target, an anode, electron beam, X-ray and an X-ray window, wherein the cathode and the anode are respectively arranged at both ends of the glass tube in which vacuum is formed; the anode target is arranged at an end face of the anode which is close to the cathode; the electron beam ejected by the cathode ejects on the anode target to form X-ray which passes through the X-ray window; the anode target consists of a plurality of small target faces; and at least one magnet and an automatic light spot locating device are arranged around theperiphery of the X-ray window. The invention aims at providing a multi-target material X light tube of which the target face consists of multiple target materials, with high target face use ratio, increased analysis range and improved service life of the target face.
+200. 101625330 X fluorescence spectrum coating analyzer
+CN
+13.01.2010
+G01N 23/223 Loading...
+G01N 23/223
+Loading...
+200910184489.1
+Jiangsu Skyray Instrument Co., Ltd.
+Ying Gang
+G01N 23/223
+Loading...
+The invention relates to an X fluorescence spectrum coating analyzer which comprises a light pipe, a collimator, a camera, a laser regulating device, a detector and a sample testing platform, wherein the collimator is fixed on a flange of the light pipe, the laser regulating device is fixed on a front-end support leg of the light pipe, the camera is arranged at one side of the light pipe, the detector is positioned at the other side of the light pipe, the sample testing platform is positioned on an optical path of the light pipe, a first lens is arranged on a base of the collimator and positioned on the optical path of the light pipe, and a second lens is arranged on an optical path at the bottom of the camera. The X fluorescence spectrum coating analyzer can accurately position the testing position of a sample on the sample testing platform, has compact whole structure, can observe the testing process of the sample in real time, regulate the relative height position of the sample and a testing assembly, avoid the loss caused by unnecessary collisions and be suitable for analyzing X fluorescence spectrum coatings in the industries of environmental protection, clinical medicines, agriculture, geology and metallurgy, pharmacy, petrochemical engineering, and the like.
+

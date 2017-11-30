@@ -1,0 +1,565 @@
+1. 205375479 一种支持逻辑销毁和物理销毁的磁盘阵列
+CN
+06.07.2016
+G06F 21/80 Loading...
+G06F 21/80
+Loading...
+201521140772.1
+北京同有飞骥科技股份有限公司
+李世坤
+G06F 21/80
+Loading...
+本实用新型涉及一种支持逻辑销毁和物理销毁的磁盘阵列，属于计算机存储技术领域；包括销毁控制单元(2)、逻辑销毁按钮(6)和物理销毁按钮(7)以及结果显示器(8)；销毁控制单元分别与硬盘背板(3)和电源(5)相连，逻辑销毁按键、物理销毁按键和结果显示器分别与销毁控制单元相连；销毁控制单元用于识别销毁按键信号，向硬盘背板发出销毁信号，收集销毁状态信息，并将结果输出到结果显示器；逻辑销毁按键用于逻辑销毁信号输入；物理销毁按键用于物理销毁信号输入；结果显示器用于根据输入的结果进行显示。对比现有技术，本实用新型能够快速一键逻辑销毁硬盘数据或物理销毁硬盘电路及数据，满足用户快速一键销毁数据的要求。
+2. 105681074 一种增强双机集群可靠、可用性的方法及装置
+CN
+15.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201511008960.3
+北京同有飞骥科技股份有限公司
+王道邦
+H04L 12/24
+Loading...
+本发明涉及一种增强双机集群可靠、可用性的方法，适用于大数据集群存储，属于集群存储技术领域。本发明针对传统双机集群中,心跳信息的传递只通过网络或者串口实现，当串口和网络故障后,集群之间的心跳信息就无法传递,导致集群脑裂,互相争抢资源,从而导致数据出现不一致性。为解决此问题,设计实现一种基于集群之间的共享磁盘进行心跳信息传递的方法及装置，通过在磁盘上预留空间作为心跳盘，当心跳网络故障时通过心跳盘进行通讯，避免了脑裂的发生，增强了集群的一致性，保证了集群的高可靠性和高可用性。
+3. 105630639 一种双机集群的节点热替换方法
+CN
+01.06.2016
+G06F 11/16 Loading...
+G06F 11/16
+Loading...
+201510993669.X
+北京同有飞骥科技股份有限公司
+王道邦
+G06F 11/16
+Loading...
+本发明涉及一种节点热替换方法，属于计算机存储技术领域。本发明包括：给处于IO状态的磁盘保留出一部分空间；按监控策略，周期性监控，获取设备配置属性；用轮询遍历的方式，让设备的配置信息保存在每一块磁盘上，减少因单块磁盘故障造成设备信息丢失的损失；保存的信息采用HEAD+方式组织，保证设备在双机和单机工作模式下都能完整的保存设备配置信息。与传统技术相比，本发明实现了节点的热替换，有效保证了系统的高可用性，极大的降低了设备出现故障无法恢复的窘迫状况，大数据时代，数据是核心竞争力，存储设备最重要的职责就是保护好数据的完整性，该发明的设计初衷就在此处，更安全，更能防止不可预知因素。
+4. 105553783 一种配置双机资源切换的自动化测试方法
+CN
+04.05.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201610046098.3
+北京同有飞骥科技股份有限公司
+王道邦
+H04L 12/26
+Loading...
+本发明涉及一种配置双机资源切换的自动化测试方法，适用于任何业务的双机集群，属于计算机存储技术领域。本发明实现过程为：自动配置集群节点间安全外壳协议(SSH)免密码登陆；自动配置双机集群节点，创建双机集群资源；配置客户端访问双机集群资源，并正常进行IO读写；遍历触发双机集群资源切换条件；任意一种故障导致的资源切换要进行数千次以上的测试。若客户端IO无中断且能查询到资源在当前节点上的状态，则重新测试，否则测试终止，保存系统日志信息，保留系统环境。通过本发明，能够高效、准确的执行双机集群资源切换测试，且在出现问题时，能提供可靠的信息用以分析问题所在。
+5. 105472022 一种解决双机集群脑裂的方法及装置
+CN
+06.04.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510993111.1
+北京同有飞骥科技股份有限公司
+王道邦
+H04L 29/08
+Loading...
+本发明涉及一种解决双机集群脑裂的方法及装置，属于海量数据存储技术领域。本发明通过后端共享盘创建1个或多个存储池,同一个存储池可根据用户选择归属于某节点,在存储池中为各节点创建仲裁盘用于存储交换信息，交换信息中包括用于标识集群及相关信息位置与长度的仲裁超级块，用于标识资源争抢结果的仲裁信息，以及用于标识其它节点放弃对该资源的争抢的响应信息；当发生脑裂时，获得资源的节点向仲裁盘写入仲裁信息，表明其已获得该仲裁盘所在节点的资源；未获得资源的节点向仲裁盘写入响应信息，表明其已知道该仲裁盘所在节点的资源已被其它节点接管，自己将放弃对该资源的争抢。对比现有技术，通过应用本发明，成功的避免了脑裂的发生。
+6. 204576477 一种基于龙芯CPU控制器的高密度磁盘阵列装置
+CN
+19.08.2015
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201520013487.7
+北京同有飞骥科技股份有限公司
+陈侃
+G06F 3/06
+Loading...
+本实用新型涉及一种基于龙芯CPU控制器的高密度磁盘阵列装置，属于计算机存储技术领域。包括扩展控制器(1)、龙芯CPU控制器(2)、存储区域三(3)、电源(4)、风扇(5)、机箱外壳(6)、存储区域二(7)、存储区域一(8)、SAS线缆(9)和机箱上盖(10)。本实用新型将龙芯CPU控制器通过扩展控制器和SAS线缆与存储区域一、存储区域二、存储区域三的数据背板连接，单台基于龙芯CPU控制器的磁盘阵列7U空间支持64块3.5寸磁盘。和现有技术相比，单台磁盘阵列装置可以支持64块3.5寸硬盘，平均每U空间可以支持9块3.5寸硬盘，极大提升基于龙芯CPU控制器的磁盘阵列存储容量和密度，在国产磁盘阵列发展领域起到了积极的促进作用。
+7. 103761156 Online repair method aimed at file system
+CN
+30.04.2014
+G06F 11/07 Loading...
+G06F 11/07
+Loading...
+201310676083.1
+北京同有飞骥科技股份有限公司
+霍米会
+G06F 11/07
+Loading...
+The invention relates to an online repair method aimed at a file system, and belongs to the technical field of computer storage. The online repair method comprises the following steps: scanning the damage of a storage volume associated with the file system, carrying out real-time error correction, and simultaneously keeping the storage volume online, so that the file system still can respond to an IO request; during the scanning process, classifying encountering errors, and adopting a corresponding repair scheme; during the repair process, establishing repair time for specific errors, and giving out a repair rate of progress; if the repair is in failure, clearing off the data; Establishing a manager device above the storage volume, and taking the last part of storage space of the storage volume as a logger device, wherein the manager device is in charge of management and maintenance; during the period of error amending, intercepting and processing the IO request issued by the file system by the manager device; processing a read-write request aimed at the damaged part of the storage volume. According to the online repair method, during the period of repairing the errors of the storage volume, the file system still can respond to the IO request normally.
+8. 103761051 一种基于持续数据多输入输出流并发写入性能优化方法
+CN
+30.04.2014
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201310689138.2
+北京同有飞骥科技股份有限公司
+王道邦
+G06F 3/06
+Loading...
+本发明涉及一种基于持续数据多输入输出流并发写入性能优化方法，属于计算机存储技术领域。本发明通过接收数据流线程池将数据蓄流到缓存池中，再通过下刷线程池将缓存刷入下层设备中，在接受数据蓄流和下刷缓存时，根据应用优先级进行标记，优先处理优先级最高的应用数据。本发明通过对上层应用数据IO特性和下层设备的IO访问能力的学习，动态调整线缓存池和线程池的配置，达到对持续数据IO的性能优化和应用优先级的保证。本发明可减少底层存储设备的IO写入次数，充分发挥下层存储设备的IO能力；合理利用存储设备的带宽，有效地提高应用的性能；降低底层设备的高IOPS需求，降低整个设备的成本；采用功耗更低的部件，落实绿色存储。
+9. 103677829 System and method for access control of object operations
+CN
+26.03.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310676111.X
+北京同有飞骥科技股份有限公司
+王清翰
+G06F 9/44
+Loading...
+The invention relates to a system and method for access control of object operations. According to the system and method, the function of carrying out control according to defined categories in the process of filtering the object operations is provided, and a permission configuration method of all object operation functions in an operation system is provided. Object tracking can be carried out according to an index structure, log and audit tracking, behavior tracking and user permission, but is not limited to the index structure, log and audit tracking, behavior tracking and the user permission. Object access control is all operation modes of objects and can be extended and upgraded. The method for access control of the object operations can control any single function or combined functions of any object and can carry out function upgrading. According to the system and method for access control of the object operations, functions for control of the object operations are more and are more than three categories, namely reading, writing and executing; sources of permission of the object operations are increased; the system and method are not limited to user permission and user group permission.
+10. 103645862 一种磁盘阵列初始化性能提升方法
+CN
+19.03.2014
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201310671498.X
+北京同有飞骥科技股份有限公司
+杨峰
+G06F 3/06
+Loading...
+本发明涉及一种更加有效的磁盘阵列初始化方法。该方法包括：将组建磁盘阵列设备的每个存储介质划分成N个区域，每个区域内可包括多个条带，同一区域内，选取一块存储介质作为初始化校验盘，不同区域，选择的初始化校验盘不同；初始化时，从磁盘阵列中初始化校验盘以外的每个存储介质上读取未完成初始化的数据，其中每个存储介质读取的数据块大小相同，且在同一区域；根据磁盘阵列校验算法对读取的多个存储介质的数据进行校验，以生成校验数据，然后将其写入到校验盘的相应位置，以保证上述初始化区域的数据一致性。本发明实现了多个区域并行初始化，不会出现读写交叉，通过区域的设计，大大提高了初始化速度与性能。
+11. 103246478 一种基于软RAID支持无分组式全局热备盘的磁盘阵列系统
+CN
+14.08.2013
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201210026590.6
+北京同有飞骥科技股份有限公司
+王道邦
+G06F 3/06
+Loading...
+本发明涉及一种基于软RAID支持无分组式全局热备盘的磁盘阵列系统，包括1个或多个RAID、1个或多个空闲磁盘、0个或1个以上全局热备盘、系统盘和存储操作系统。所述RAID是在Linux操作系统中，使用mdadm软件的“-C”或“-create”参数完成创建，并由mdadm进行管理。所述系统盘与每个RAID、全局热备盘以及空闲磁盘连接；系统盘内存储的内容包括但不限于：对RAID进行管理的存储操作系统和应用程序。所述存储操作系统存储于系统盘，是一个扩充了内核的Linux操作系统，包括：人机交互模块、全局热备盘创建模块、全局热备盘检索模块、全局热备盘删除模块和RAID坏盘检测处理模块。本发明设置的全局热备盘，不受RAID组的限制，且无需配置文件，便于数据迁移。
+12. 202522978 一种多硬盘数据存储机箱
+CN
+07.11.2012
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201120577266.4
+北京同有飞骥科技股份有限公司
+耿成山
+G06F 1/18
+Loading...
+本实用新型提出了一种多硬盘数据存储机箱，用于解决操作系统硬盘与应用数据硬盘共同占用硬盘资源的问题。所述机箱主要包括箱体、硬盘支架、上导槽、下导槽、下导槽支撑架、电源固定支架、上盖及背板。下导槽支撑架固定在机箱底壁上；下导槽固定在机箱底壁和下导槽支撑架上；上导槽固定在机箱侧壁上；背板固定在上、下导槽上；2.5英寸硬盘支架固定在上导槽铆柱上；电源固定支架固定在机箱后窗和机箱底壁上；3.5英寸硬盘支架安装在上、下导槽组成的导轨通道中。上导槽、下导槽、电源固定支架、上盖均固定在箱体上；2.5英寸硬盘固定支架固定在上导槽上。本实用新型简化了背板的装配过程，实现了在线更换部件及可持续存储功能。
+13. 202486672 一种存储机箱硬盘固定支架
+CN
+10.10.2012
+G06F 1/18 Loading...
+G06F 1/18
+Loading...
+201120577250.3
+北京同有飞骥科技股份有限公司
+耿成山
+G06F 1/18
+Loading...
+本实用新型涉及一种硬盘固定支架，尤其涉及一种结构简单、能够实现硬盘在存储机箱中的快速安插和更换的固定支架，包括前面板、手柄、左滑轨、右滑轨、EMI弹片支架、托盘支架、第一EMI弹片、第二EMI弹片、第一光轴和螺钉。在模具设计相对简单的基础上大大简化了硬盘固定支架的组成部件。其中两种EMI弹片对应不同的结构，以适应不同的部件，其中两种结构均比较简单，能够大大简化了加工及装配步骤。手柄的转轴和前面板的转轴分别实现硬盘固定支架的滑动和锁死功能，当硬盘支架在机箱中以滑动的形式进入，滑动过程中，当硬盘支架推至背板接口位置，再通过推动手柄，实现硬盘再向内滑动，保证硬盘接口与背板接口连接，直至卡锁卡在卡钩中，锁死硬盘。
+14. 202473252 一种硬盘减震装置
+CN
+03.10.2012
+G11B 33/08 Loading...
+G11B 33/08
+Loading...
+201220106972.5
+北京同有飞骥科技股份有限公司
+耿成山
+G11B 33/08
+Loading...
+本实用新型是关于一种保护硬盘避免受到外界冲击时损坏的一种减震装置，特别是指应用于车载存储与备份产品中的硬盘减震装置。本实用新型提出的装置组成部件较少，结构简单，大大简化了硬盘的更换步骤；减震垫的通风孔及上下支架的通孔保证了硬盘的散热；可调节的减震垫厚度及弹簧强度系数、使用数量大大扩展了该减震装置的使用减震范围；上下支架对减震垫的作用力，使硬盘本身在一种加压状态下，相对减小了硬盘的震动幅度，大大提高了硬盘在恶劣环境下的抗冲击能力，解决了车载存储与备份产品中的硬盘减震问题。所述一种硬盘减震装置，包括下支架、上支架、减震垫、弹簧。
+15. 102508724 一种基于软RAID的磁盘坏块处理方法
+CN
+20.06.2012
+G06F 11/00 Loading...
+G06F 11/00
+Loading...
+201110326370.0
+北京同有飞骥科技股份有限公司
+王道邦
+G06F 11/00
+Loading...
+本发明涉及一种基于软RAID的磁盘坏块处理方法。本方法集成于磁盘阵列对应的存储操作系统中，在磁盘阵列的每个磁盘内预留了若干备用扇区以备本磁盘的坏块重映射使用，自定义了坏块重映射表用来保存本磁盘上的坏块重映射关系，然后主要修改存储操作系统的内核驱动，依据所用磁盘是否处于冗余状态，以及磁盘本身是否支持坏块重映射操作等具体特点，分情况对磁盘坏块进行处理。本发明可以提高软RAID环境下的数据可靠性，且处理方式比较灵活，处理效率较高。
+16. 201984466 一种构建节能磁盘阵列的总线扩展卡
+CN
+21.09.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201020645629.9
+北京同有飞骥科技股份有限公司
+孙志卓
+G06F 3/06
+Loading...
+本实用新型涉及一种构建节能磁盘阵列的总线扩展卡，包括节能磁盘阵列处理器、NVRAM、RAM、FIFO缓冲器、校验运算器、磁盘访问控制器、报警指示，其中节能磁盘阵列处理器的前端通过总线与主系统相连，后端分别与NVRAM、RAM、FIFO缓冲器、校验运算器、磁盘访问控制器、报警指示连接，磁盘访问控制器另一端连接到磁盘组。本实用新型既满足了连续数据存储的海量存储与数据保护需求，又克服了普通RAID为提供高性能，阵列中所有磁盘全天候并行工作，能耗高与磁盘寿命短的缺点。
+17. 201965596 一种基于节能磁盘阵列的虚拟磁带库系统
+CN
+07.09.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201020645673.X
+北京同有飞骥科技股份有限公司
+孙志卓
+G06F 3/06
+Loading...
+本实用新型涉及一种磁带库，特别涉及一种基于节能磁盘阵列的虚拟磁带库系统，属于计算机存储领域。本实用新型包括虚拟磁带库服务器、网络接口、节能磁盘阵列，其中虚拟磁带库服务器一端与网络接口相连，另一端连接到节能磁盘阵列；网络接口通过交换机或直接与前端存储系统相连；节能磁盘阵列适用于连续数据存储，包括节能磁盘阵列控制器和磁盘组，节能磁盘阵列控制器与虚拟磁带库服务器相连。本实用新型既满足了虚拟磁带库的海量存储与数据保护需求，又克服了普通RAID为提供高性能，阵列中所有磁盘全天候并行工作，能耗高与磁盘寿命短的缺点。
+18. 201887786 一种共享Cache结构的高性能NRS系统
+CN
+29.06.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201020529929.0
+北京同有飞骥科技股份有限公司
+李虓
+H04L 12/24
+Loading...
+本实用新型涉及一种共享Cache结构的高性能NRS系统，属于计算机存储领域。本实用新型包括两台交换机、两套NRS系统、储存池、共享USB Hub、两套存储设备；集合LUN A中的每台被保护主机通过一台交换机同时与两套NRS系统连接，集合LUN B中的每台被保护主机通过另一台交换机同时与两套NRS系统各自的千兆以太网接口模块数据连接，储存池同时与两套NRS系统连接，共享USBHub的两个上行USB端口分别与两套NRS系统连接，共享USB Hub的下行交换逻辑同时与两套NRS系统连接，共享USB Hub的两个下行USB端口各连接一个的存储设备。本实用新型结构简单，易于操作，有效提高了数据的存储性能和系统整体的可靠性。
+19. 201887800 一种基于节能磁盘阵列的网络恢复系统
+CN
+29.06.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020645640.5
+北京同有飞骥科技股份有限公司
+孙志卓
+H04L 29/08
+Loading...
+本实用新型涉及一种网络恢复系统，特别涉及一种基于节能磁盘阵列的网络恢复系统，属于计算机存储领域。本实用新型包括CDP服务器、网络接口和节能磁盘阵列，其中网络接口一端与CDP服务器相连，另一端与被保护系统或交换机相连；节能磁盘阵列适于连续数据存储，包括节能磁盘阵列控制器和磁盘组，节能磁盘阵列控制器与CDP服务器另一端相连。本实用新型既满足了CDP的海量存储与数据保护需求，又克服了普通RAID为提供高性能，阵列中所有磁盘全天候并行工作，能耗高与磁盘寿命短的缺点。
+20. 102065071 Storage equipment supporting multi-transport protocol
+CN
+18.05.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910238192.9
+Beijing Toyou Feiji Electronics Co., Ltd.
+Geng Chengshan
+H04L 29/06
+Loading...
+The invention discloses storage equipment supporting a multi-transport protocol, which comprises disk array module, a connection module, a protocol conversion module and an output interface module, wherein the disk array module comprises more than one disk array supporting a single transport protocol; the connection module is used to be physically connected with the disk array module and the protocol conversion module respectively, and transport a transport protocol signal supported by the disk array module; the protocol conversion module is used for realizing mapping between the disk array supporting the single transport protocol and a disk logic volume; and the output interface module comprises more than one interface supporting the single transport protocol. In the scheme of the invention, the disk arrays supporting the single transport protocol are changed into disk arrays supporting the multi-transport protocol, so that the demand of storage space is small, but clients who need multiple applications can have multiple applications under the condition of buying one disk array.
+21. 201830296 一种适于云存储的集中监控系统
+CN
+11.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020537097.7
+北京同有飞骥科技股份有限公司
+张丽
+H04L 29/08
+Loading...
+本实用新型特别涉及一种适于云存储的集中监控系统，属于网络存储的管理技术领域。本实用新型包括网络存储管理模块和一个共享的短信猫硬件；网络存储管理模块内部的MySql数据库模块同时与NSCC Agent模块、NSCC GUI模块和NSCC CLI模块连接；网络存储管理模块的NSCC CLI模块和NSCC Agent模块通过以太网与被监控的大规模磁盘阵列相连，同时NSCC Agent模块还通过USB接口连接共享的短信猫硬件；网络存储管理模块中的NSCC GUI模块通过以太网与管理员终端相连。本实用新型结构简单；对磁盘阵列进行统一配置，管理效率高；只需配备一个共享的短信猫硬件和一个公用邮件账号，报警设备的利用率高，实现对云存储系统中存储设备的集中管理、状态监控和故障维护。
+22. 201820214 一种可快速恢复的高可用统一存储系统
+CN
+04.05.2011
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201020529939.4
+北京同有飞骥科技股份有限公司
+孙志卓
+G06F 11/14
+Loading...
+本实用新型涉及一种可快速恢复的高可用统一存储系统，属于计算机存储领域。本实用新型包括两台交换机、两套统一存储系统、多主USB Hub和存储设备；每台被保护的计算机同时与两台交换机通过数据线连接，两台交换机分别与两套统一存储系统通过数据线连接，两套统一存储系统分别通过USB总线连接于多主USB Hub，多主USB Hub通过数据线连接存储设备。本实用新型结构简单，操作方便；当统一存储系统出现故障时，只需要进行必要的软硬件维护，不需要对统一存储系统重新配置，不会因统一存储配置信息丢失而导致数据保护失败，具有可快速恢复的特性。
+23. 201821386 一种共享高速缓冲存储器结构的高性能统一存储系统
+CN
+04.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020529958.7
+北京同有飞骥科技股份有限公司
+周泽湘
+H04L 29/08
+Loading...
+本实用新型涉及一种共享高速缓冲存储器结构的高性能统一存储系统，属于计算机存储领域。本实用新型包括两台交换机、两套统一存储系统、储存池、共享USB Hub、两个存储设备；集合NETA中的每台存储主机通过一台交换机同时与两套统一存储系统连接，集合NET B中的每台存储主机通过另一台交换机同时与两套统一存储系统连接，储存池同时与两套统一存储系统连接，共享USB Hub的两个上行USB端口分别与两套统一存储系统连接，共享USB Hub的下行交换逻辑同时与两套统一存储系统连接，共享USB Hub的两个下行USB端口各连接一个的存储设备。本实用新型结构简单，易于操作，有效提高了数据存储的性能和系统整体的可靠性。
+24. 102033766 Method for updating memory operating system
+CN
+27.04.2011
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010575638.X
+Beijing Toyou Feiji Electronics Co., Ltd.
+Zhang Weitao
+G06F 9/445
+Loading...
+The invention relates to a method for updating a memory operating system. The method comprises the following steps of: 1, modifying the memory operating system on a local platform with the same version software system and the same hardware configuration by using a developer; 2, manufacturing a patch.fs file; 3, uploading the patch.fs file which is temporarily stored on a terminal to a disc array on any common terminal which is connected with the disc array by using a user; 4, putting the uploaded patch.fs file into a memory, controlling to move the patch.fs file to a temporary folder by using a background process, executing the mount operation of a user space content represented by the file, and processing according to a mount result; and 5, after the patch.fs file is successfully updated, restarting the disc array, and completing software update by utilizing the characteristic that a file system supports union mount at a starting guide stage. In the method, the file for realizing the software update has a small occupied space and high safety.
+25. 102033716 Method for constructing energy-saving type disc array with double discs for fault tolerance
+CN
+27.04.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010575578.1
+Beijing Toyou Feiji Electronics Co., Ltd.
+Sun Zhizhuo
+G06F 3/06
+Loading...
+The invention relates to a method for constructing an energy-saving type disc array with double discs for fault tolerance, which is suitable for continuous data storage and belongs to the technical field of redundant array of independent disks (RAID). Aiming at the characteristic of the continuous data storage, the invention designs to realize an energy-saving type disc array S-RAID 6 with double discs for fault tolerance, wherein the construction method comprises the partitioning and laying out of strips, data blocks, verification blocks and data subblocks for a disc array, the conversion scheduling strategy for a disc working state, an optimized processing method during data writing, a faulted disc processing method and the like. The disc array S-RAID 6 not only has a favorable redundant data protection mechanism, but also can obviously reduce power consumption and prolong the service life of the discs.
+26. 102033822 Method for binding storage operating system and hardware system
+CN
+27.04.2011
+G06F 12/14 Loading...
+G06F 12/14
+Loading...
+201010575656.8
+Beijing Toyou Feiji Electronics Co., Ltd.
+Zhang Weitao
+G06F 12/14
+Loading...
+The invention relates to a method for binding a storage operating system and a hardware system, which comprises the following steps of: 1. setting a user-defined instruction in a U disk firmware; 2. reading a certain length of information from a memory address OxFFFF0 on a disk array; 3. processing the returning valves of the first two steps through MD5 algorithm to obtain a information abstract with 128 bits; 4. storing the information abstract in a certain specific file on a U disk during the delivery of the storage operating system; 5. coding an executable file in initrd, wherein the executable file is responsible for the comprehensive inspection of a hardware platform; 6. during performing the mounting operation of equipment in a /init file, calling the executable file in the initrd for carrying out comprehensive inspection on the hardware platform, if not passing the comprehensive inspection, indicating system boot failed. The invention utilizes the combination of hardware information to protect the operating system, has high reliability, and can effectively prevent the illegal use of the storage operating system in an early period.
+27. 102023819 Method for constructing double-disk fault tolerance horizontal grouping and parallel access disk array
+CN
+20.04.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010575611.0
+Beijing Tongyoufeiji Technology Co., Ltd.
+Tan Yuan
+G06F 3/06
+Loading...
+The invention relates to a method for constructing double-disk fault tolerance horizontal grouping and parallel access disk array SHE-RAID 6, applicable to continuous data storage and belonging to the technical field of redundant array of independent disks. The method mainly includes partition and layout of stripes, data blocks, check blocks and data subblocks, a disk working state transition scheduling policy, an optimization processing method when writing data, a faulted disk processing method and the like, wherein the partition and layout are carried out on the disk array. The invention not only has good redundant data protection mechanism but also can obviously reduce power consumption, and the service life of disk is prolonged.
+28. 102023820 Method for constructing double-disk fault-tolerant vertical packet parallel access disk array
+CN
+20.04.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010575625.2
+Beijing Tongyoufeiji Technology Co., Ltd.
+Sun Zhizhuo
+G06F 3/06
+Loading...
+The invention relates to a method for constructing a double-disk fault-tolerant vertical packet parallel access disk array SVE-RAID 6, which is applicable to continuous data storage and belongs to the technical field of independent disk redundant arrays. In the invention, a double-disk fault-tolerant vertical packet parallel access disk array SVE-RAID 6 is designed according to the characteristics of continuous data storage mainly through the following steps: division and layout of strips, data blocks, check blocks and data sub-blocks of the disk array; disk working state conversion scheduling policy; optimization processing method during data wiring; and failed disk processing method and the like. The disk array SVE-RAID 6 not only has the advantages that the redundant data protection mechanism is excellent, the power consumption can be obviously reduced and the service life of the disk can be prolonged.
+29. 201804331 一种基于协处理器的重复数据删除系统
+CN
+20.04.2011
+G06F 15/167 Loading...
+G06F 15/167
+Loading...
+201020537083.5
+北京同有飞骥科技股份有限公司
+刘靖宇
+G06F 15/167
+Loading...
+本实用新型涉及一种基于协处理器的重复数据删除系统，属于重复数据删除领域。本实用新型包括：CPU、协处理器模块、DRAM、存储设备；协处理器模块内部的命令处理模块、特征值计算模块、查询模块和信息反馈模块依次通过数据线连接；CPU通过数据线同时连接协处理器模块的命令处理模块和信息反馈模块，CPU、协处理器模块的命令处理模块和查找模块同时通过数据线连接DRAM；DRAM连接一个或并联多个的存储设备，且DRAM通过数据线同时与每个存储设备的数据存储区和Hash库连接。本实用新型结构简单，采用廉价的协处理模块代替CPU进行大量重复性复杂计算，有效的提高了CPU的计算速度，从而满足系统需求。
+30. 201805454 一种具有并行Cache同步链路的高性能存储系统
+CN
+20.04.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020537008.9
+北京同有飞骥科技股份有限公司
+谭毓安
+H04L 29/08
+Loading...
+本实用新型涉及一种具有并行Cache同步链路的高性能存储系统，属于数据存储领域。本实用新型包括两个存储节点；每个节点包括Cache、四口以太网卡、存储控制器、HBA，Cache通过数据线同时连接四口以太网卡和存储控制器，存储控制器通过PCI总线与HBA连接，每个节点的HBA同时通过数据线连接所有存储设备，每个节点的通过数据线连接一台被保护主机的内存，两个存储节点的两个四口以太网卡之间通过数据线连接。本实用新型由于采用Cache实时同步，不会因为Cache的数据未写盘而丢失，提高了系统的可靠性；由于采用四口以太网卡实现了两节点间的多链路连接，提高了网络传输速度，节约了成本。本实用新型实现了一个价格低廉、高带宽、高性能、高可靠性的存储网络系统。
+31. 201797568 一种基于节能磁盘阵列的视频监控系统
+CN
+13.04.2011
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+201020645636.9
+北京同有飞骥科技股份有限公司
+孙志卓
+H04N 7/18
+Loading...
+一种基于节能磁盘阵列的视频监控系统，包括视频采集模块、视频传输模块、计算机、视频存储模块、视频显示模块，其中视频传输模块一端连接到视频采集模块，另一端与计算机相连；视频存储模块、视频显示模块分别与计算机相连，视频存储模块采用适于连续数据存储的节能磁盘阵列。本实用新型既满足了视频监控系统的海量存储与数据保护需求，又克服了使用普通RAID作为视频存储模块，为提供高性能，阵列中所有磁盘全天候并行工作，能耗高与磁盘寿命短的缺点。
+32. 201789513 一种可快速恢复的高可用VTL系统
+CN
+06.04.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201020529966.1
+北京同有飞骥科技股份有限公司
+孙志卓
+H04L 12/24
+Loading...
+本实用新型涉及一种可快速恢复的高可用VTL系统，属于计算机存储领域。本实用新型包括两台交换机、两套VTL系统、多主USB Hub和存储设备；每台被保护的计算机同时与两台交换机通过数据线连接，两台交换机分别与两套VTL系统通过数据线连接，两套VTL系统分别通过USB总线连接于多主USBHub，多主USB Hub通过数据线连接存储设备。本实用新型结构简单，操作方便；当VTL系统出现故障时，只需要进行必要的软硬件维护，不需要对VTL系统重新配置，不会因VTL配置信息丢失而导致数据保护失败，具有可快速恢复的特性。
+33. 201789514 一种可快速恢复的高可用NRS系统
+CN
+06.04.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201020529978.4
+北京同有飞骥科技股份有限公司
+孙志卓
+H04L 12/24
+Loading...
+本实用新型涉及一种可快速恢复的高可用NRS系统，属于计算机存储领域。本实用新型包括两台交换机、两套NRS系统、多主USB Hub和存储设备；每台被保护的计算机同时与两台交换机通过数据线连接，两台交换机分别与两套NRS系统通过数据线连接，两套NRS系统分别通过USB总线连接于多主USBHub，多主USB Hub通过数据线连接存储设备。本实用新型结构简单，操作方便；当NRS系统出现故障时，只需要进行必要的软硬件维护，不需要对NRS系统重新配置，不会因NRS配置信息丢失而导致数据保护失败，具有可快速恢复的特性。
+34. 201781507 一种共享Cache结构的高性能VTL系统
+CN
+30.03.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201020529973.1
+北京同有飞骥科技股份有限公司
+李虓
+H04L 29/08
+Loading...
+本实用新型涉及一种共享Cache结构的高性能VTL系统，属于计算机存储领域。本实用新型包括两台交换机、两套VTL系统、储存池、共享USB Hub、两套存储设备；集合LUN A中的每台被保护主机通过一台交换机同时与两套VTL系统连接，集合LUN B中的每台被保护主机通过另一台交换机同时与两套VTL系统各自的千兆以太网接口模块数据连接，储存池同时与两套VTL系统连接，共享USBHub的两个上行USB端口分别与两套VTL系统连接，共享USB Hub的下行交换逻辑同时与两套VTL系统连接，共享USB Hub的两个下行USB端口各连接一个的存储设备。本实用新型结构简单，易于操作，有效提高了数据备份的性能和系统整体的可靠性。
+35. 101976177 Method for constructing vertical grouped disk array capable of being subject to parallel centralized check
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256711.7
+Beijing Tongyou Feiji Technology Co., Ltd.
+Sun Zhizhuo
+G06F 3/06
+Loading...
+The invention relates to a method for constructing a vertical grouped disk array capable of being subject to parallel centralized check, which is applicable to continuous data storage and belongs to the technical field of redundant array of independent disks (RAID). Based on the characteristics of continuous data storage, the invention designs a vertical grouped disk array SVE-RAID4 capable of being subject to parallel centralized check, mainly comprising the layout of the stored data on the SVE-RAID4, the reading/writing of the stored data, the generation mode of check data, data buffer and pre-reading optimization in data writing, conversion and scheduling of the disk working state, and the like. The disk array SVE-RAID4 not only has good redundant data protection mechanism, but also can obviously reduce the power consumption and prolong the service life.
+36. 101976179 Construction method of vertical-type grouping parallel-distributed and checked disk array
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256908.0
+Beijing Tongyou Feiji Technology Co., Ltd.
+Sun Zhizhuo
+G06F 3/06
+Loading...
+The invention relates to a construction method of a vertical-type grouping parallel-distributed and checked disk array, which is applicable to continuous data storage and belongs to the technical field of independent disk redundant arrays. Aiming at the characteristic of the continuous data storage, the invention designs and realizes a vertical-type grouping parallel-distributed and checked disk array SVE-RAID 5 which mainly comprises the layout of stored data on the SVE-RAID 5, the reading and writing of the stored data, the generation mode of checked data, data buffering and preread optimization during data reading, the converting and dispatching of the working condition of a disk, and the like. The disk array SVE-RAID 5 not only has good redundant-data protection mechanism, but also can markedly reduce the power consumption and prolong the service life.
+37. 101976174 Method for constructing energy-saving disk array of vertical configuration distribution check
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256665.0
+Beijing Tongyou Feiji Technology Co., Ltd.
+Tan Yuan
+G06F 3/06
+Loading...
+The invention relates to a method for constructing an energy-saving disk array of vertical configuration distribution check, which is suitable for continuous data storage and belongs to the technical field of redundant arrays of independent disks. Aiming at the characteristics of continuous data storage, an energy-saving disk array S-RAID 5 of the vertical configuration distribution check is designed. The method mainly comprises the steps of: distributing storage data in the S-RAID 5, reading and writing the storage data, checking a generation mode of the data, buffering, and prereading and optimizing the data when the data is written, switching and scheduling work states of a disk, and the like. The disk array S-RAID 5 has a better redundant data protecting mechanism, and can remarkably reduce the power consumption and prolong the service life.
+38. 101976175 Method for constructing disk array by horizontal grouping parallel concentrated verification
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256679.2
+Beijing Tongyou Feiji Technology Co., Ltd.
+Zhou Zexiang
+G06F 3/06
+Loading...
+The invention relates to a method for constructing disk array by horizontal grouping parallel concentrated verification, applicable to continuous data storage, belonging to the technical field of independent disk redundant array. The invention designs and realizes a new redundant array SHE-RAID 4 according to the characteristics of continuous data storage, mainly including: layout of stored data on SHE-RAID4, read-write of stored data, generating of verification data, data buffering and preread optimization while writing data and disk working state switching and dispatching. The disk array SHE-RAID 4 not only has good redundant data protection mechanism but also can obviously reduced power consumption, and service life is prolonged.
+39. 101976178 Method for constructing vertically-arranged and centrally-inspected energy-saving disk arrays
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256899.5
+Beijing Tongyou Feiji Technology Co., Ltd.
+Tan Yuan
+G06F 3/06
+Loading...
+The invention relates to a method for constructing vertically-arranged and centrally-inspected energy-saving disk arrays, which is suitable for continuous data storage and belongs to the technical field of redundant arrays of independent disks (RAID). According to the characteristic of continuous data storage, a new S-RAID 4 is designed and implemented. The new RAID mainly comprises the layout of stored data on the S-RAID 4, the reading and writing of the stored data, the generating mode of inspection data, data buffering and pre-reading optimization during data writing, switching and scheduling of disk working state and the like. The disk array S-RAID 4 has a good redundant data protection mechanism and can remarkably lower power consumption and prolong service life.
+40. 101976176 Method for constructing disk array of horizontal grouping parallel distribution check
+CN
+16.02.2011
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201010256699.X
+Beijing Tongyou Feiji Technology Co., Ltd.
+Zhou Zexiang
+G06F 3/06
+Loading...
+The invention relates to a method for constructing a disk array of horizontal grouping parallel distribution check, which is suitable for continuous data storage and belongs to the technical field of redundant arrays of independent disks. Aiming at the characteristics of continuous data storage, a disk array SHE-RAID 5 of the horizontal grouping parallel distribution check is designed. The method mainly comprises the steps of: distributing storage data in the SHF-RAID 5, reading and writing the storage data, checking a generation mode of the data, buffering, prereading and optimizing the data when the data is written, switching and scheduling work states of a disk, and the like. The disk array SHE-RAID 5 has a better redundant data protecting mechanism, and can remarkably reduce the power consumption and prolong the service life.
+41. 101957840 Storage and optimization method of MPI (Message Passing Interface) parallel data
+CN
+26.01.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010281839.9
+Beijing Toyou Feiji Electronics Co., Ltd.
+Zhang Weitao
+G06F 17/30
+Loading...
+The invention relates to a storage and optimization method of the parallel data of an MPI (Message Passing Interface). The method comprises the following steps of: (1) calling an MPI function relative to a target filet to be written, i.e. opening the file, writing the file, closing the file and encapsulating in a same-parameter and different-name type; (2) acquiring an integral multiple distance X from a current operation data offset to the next fsBlkSize as well as an integral multiple distance Y from the tail offset formed by offset+count to the last fsBlkSize according to a data block fsBlkSize of the current file system, the offset of the current operation data and a bit number (count) to be written in the file writing function encapsulated in the step (1), and acquiring different processing modes by the encapsulated file writing function according to the acquired X and Y values; and (3) substituting the encapsulated function in the step (1) for all MPI functions to be called by all target files to be written in an application program. Without any edition to the file system, the invention can ensure the result accuracy of the write operation at receivable efficiency by little edition of an application layer.
+42. 101894066 Disk array virtualization-based network storage management software testing method
+CN
+24.11.2010
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201010157684.8
+Beijing Toyou Feiji Electronics Co., Ltd.
+Zhang Li
+G06F 11/36
+Loading...
+The invention discloses a disk array virtualization-based network storage management software testing method. The basic principle of the method is that: when the performance of network storage management software is tested, the reading and writing of a remote actual disk array are not needed, and the reading and writing operation, executed after receiving a management command of the management software, of the actual disk array is simulated by running service processes of a plurality of virtual disk arrays in a remote personal computer (PC); and the service processes of the virtual disk arrays interact with client processes of the network storage management software through a user datagram protocol (UDP) and a transmission control protocol (TCP) so as to finish testing the performance of the software. As the reading and writing of the remote actual disk array are not needed when the accuracy and validity of the network storage management software are tested, the method of the invention has the advantages of reducing the software testing cost and improving the testing flexibility, along with high practical value and great economic benefit.
+43. 101789977 Teledata copying and de-emphasis method based on Hash coding
+CN
+28.07.2010
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201019185019.7
+Beijing Toyou Feiji Electronics Co., Ltd.
+Liu Jingyu
+H04L 29/08
+Loading...
+The invention provides a teledata copying and de-emphasis method based on Hash coding. Extra storage space is used for storing the Hash value of each data block of a data disk out of the data disk of a source node and a target node, and the source node recognizes a repeated data block with the Hash coding matching method after the source node receives a write request to a target data block, does not need to transmit the data block to the target node, but transmits the addresses of the source data block and the target data block to the target node; the target node reads the data of the source data block from the disk thereof, and then, the data is written into the target data block. Thus, when data is repeated, only a block number needs to be transmitted without transmitting the data block, thus lowering network band width expenditure for data transmission, and saving network band width and synchronous time.
+44. 101777018 Copying and snapshot combined Windows system protection method
+CN
+14.07.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201019185018.2
+Toyou Feiji Electronics Co., Ltd.
+Sun Zhizhuo
+G06F 11/14
+Loading...
+The invention discloses a copying and snapshot combined Windows system protection method. A driver is run in a Windows system, the change of a local disk block of a computer is mirrored to a storage server on line in real time, and a snapshot of the mirror is generated on the storage server. The storage server is provided with a WinPE system with a recovery management program. When the system is recovered, the computer starts the WinPE system with the recovery management program on the storage server remotely, and the snapshot is mounted as a remote read-only disk which can execute disk grade recovery; the recovery management program is run, the files and registries of the remote disk and a local disk are compared, and according to the comparison result, the recovery of the file grade and the registry items can be executed. By adopting the method, multi-grade recovery and fine-grain comparison and recovery can be realized without the need of a recovery optical disc or a U disk.
+45. 101777016 Snapshot storage and data recovery method of continuous data protection system
+CN
+14.07.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201019185014.4
+Toyou Feiji Electronics Co., Ltd.
+Guo Yi
+G06F 11/14
+Loading...
+The invention discloses a snapshot storage and data recovery method of a continuous data protection system. In a block-level continuous data protection (CDP) system, each write operation of a disk data block has a CDP metadata for recording the write operation. The CDP metadata is taken as a chain table node, and besides a block number containing the data block, the node also sets up three fields of forward link, uplink and downlink. On the basis, a binary tree is constructed to record the table head of each key chain table node, thereby forming a key node set, and the chain table starting from the table heads can reflect the mapping relation from each block address of the disk of the current time to the log data block. The invention can store the mapping relation of the snapshot time by using less storage space, thereby supporting more intensive data snapshot and being beneficial to shortening the data recovery time.
+46. 101777017 Rapid recovery method of continuous data protection system
+CN
+14.07.2010
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201019185017.8
+Toyou Feiji Electronics Co., Ltd.
+He Guangtao
+G06F 11/14
+Loading...
+The invention discloses a rapid recovery method of a continuous data protection system. When the disk image of a certain time point is generated, a CDP system does not need to acquire the mapping relation of all data blocks of a disk, but when a computer reads a certain data block of the disk image, the CDP system acquires the mapping relation of the data block from a log and acquires the data block content from a CDP data area. The method realizes the on-demand recovery of the data block of the disk, and thereby, the disk image of any time point can be provided for users in a shorter time.
+47. 101727299 RAID5-orientated optimal design method for writing operation in continuous data storage
+CN
+09.06.2010
+G06F 3/06 Loading...
+G06F 3/06
+Loading...
+201019185012.5
+Beijing Toyou Feiji Electronics Co., Ltd.
+Liu Jingyu
+G06F 3/06
+Loading...
+The invention discloses an RAID (redundant array of independent disc) 5-orientated optical design method for a writing operation in continuous data storage. The method comprises the steps of: in continuous data storage application, saving writing data blocks, transmitted by an application program, in a memory buffer area; constructing an alignment data block of which the length is the same as that of a complete strip of an RAID5; then enabling the alignment data block to fill the overall strip opportunely on the RAID5; and then transmitting the alignment data block to the RAID5 so as to write the overall strip of the RAID5. Therefore, the written data blocks fill the overall strip of the RAID5 opportunely to avoid the expense for generating the verification of reconstruction, read-modify-write and the like; and the continuity of the data blocks avoids the expense of track seeking of a magnetic head, and improves the throughput capacity of a storage system. Simultaneously, the data blocks written into the RAID5 are sequenced and are written into adjacent strips continuously so as to realize the continuous I/O transmission of the RAID5. The invention is also suitable for an RAID6.
+

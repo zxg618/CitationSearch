@@ -1,0 +1,253 @@
+1. 106452444 一种开关电容式数模转换器
+CN
+22.02.2017
+H03M 1/66 Loading...
+H03M 1/66
+Loading...
+201610516576.2
+晶晨半导体（上海）有限公司
+朱昊
+H03M 1/66
+Loading...
+本发明涉及一种数模转换器，尤其涉及一种用于将数字输入码转换为模拟信号的开关电容式数模转换器（DAC），包括一个开关电容阵列以及一个具有第一端和第二端的重置开关。所述数字输入码被输入至所述开关电容阵列，所述开关电容阵列连接至一个求和节点；所述第一端被连接至所述求和节点且所述第二端被连接至一共模电压；所述重置开关在复数个采样周期后闭合；基于一求和电压，所述模拟信号被提供在所述求和节点处。
+2. 106330203 一种LDPC的解码方法
+CN
+11.01.2017
+H03M 13/11 Loading...
+H03M 13/11
+Loading...
+102016000739659
+晶晨半导体（上海）有限公司
+刘小同
+H03M 13/11
+Loading...
+本发明涉及译码器领域，尤其涉及一种LDPC(Low Density Parity Check Code，低密度奇偶校验码)的解码方法。该解码方法包括：在rwsr(Row‑Wise Scanning Round，行序串行扫描)阶段，恢复电路读取前次存储的符号位、最小值的绝对值、次小值的绝对值和第三小值的绝对值，并由比较和选择器输出；对比较和选择器的输出进行移位操作后和每个符号位合并，得到前次校验节点的更新消息，通过加法电路将更新消息从后验概率中减去，得到本次校验节点更新单元的输入；在cwsr(Column‑Wise Scanning Round，列序串行扫描)阶段，将恢复电路输出的每个更新信息，经搜索模块寻找其中的三个最小值的绝对值和对应位置，以及每个符号位存储于对应的ram(random access memory，随机存取存储器)中，同时更新后验概率的值。
+3. 106201998 非基2点多数据模式FFT的实现方法和装置
+CN
+07.12.2016
+G06F 17/14 Loading...
+G06F 17/14
+Loading...
+102016000566194
+晶晨半导体（上海）有限公司
+邹阳
+G06F 17/14
+Loading...
+本发明涉及快速傅里叶变换的数据处理，尤其涉及一种非基2点多数据模式FFT的实现方法和装置。实现方法包括：使用混合基算法和素因子分解算法分解原FFT运算成为多级使用可编程WFTA算法的FFT串联运算；一级可编程WFTA单元完成3点、3点、5点、3点的FFT运算；二级可编程WFTA单元完成4点、5点、5点、5点的FFT运算；三级可编程WFTA单元完成9点、8点、5点、9点的FFT运算；四级可编程WFTA单元完成5点、5点、5点、5点的FFT运算；五级可编程WFTA单元完成7点、7点、7点、7点的FFT运算。实现系统包括多模FFT模块，多模FFT模块包括：依次连接的可编程WFTA单元，对3780点数据、4200点数据、4375点数据和4725点数据进行FFT运算，每一级可编程WFTA单元为一个FFT运算阶段。
+4. 106027431 一种信道估计方法
+CN
+12.10.2016
+H04L 25/02 Loading...
+H04L 25/02
+Loading...
+201610298413.1
+晶晨半导体（上海）有限公司
+张锦红
+H04L 25/02
+Loading...
+本发明涉及地面广播传输领域，尤其涉及一种信道的估计方法。一种信道估计方法，应用于对下一载波信号帧的信道进行估计，所述信道估计方法包括：对当前的信号帧和所述当前的信号帧所在的信道进行载波均衡，得到所述当前的信号帧的发送序列和所述当前的信号帧的信噪比，通过对所述发送序列进行计算，得到参考信道；根据所述信号帧的信噪比，完成初始的信道估计；通过自适应滤波的方法对估计的初始信道和所述参考信道进行处理，得到下一个信号帧的估计信道。
+5. 105933701 一种自动测试DTMB性能的系统及方法
+CN
+07.09.2016
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201610311168.3
+晶晨半导体（上海）有限公司
+李刚
+H04N 17/00
+Loading...
+本发明涉及计算机技术领域，尤其涉及一种自动测试DTMB性能的系统及方法，通过设置分别与测试设备和被测设备双向通信连接的控制处理设备，以根据预设误码变化值对被测设备播放经调整后的测试设备输出的音视频数据的实时误码变化值进行比对，并根据比对结果输出DTMB性能的测试结果；从而避免了人工观察图像造成细小的马赛克遗漏以及无法24小时不间断测试的问题，且本发明测试结果稳定可靠，每次测试误差小于0.1dB，大大提高了测试效率。
+6. 105897628 单载波均衡器及包括该单载波均衡器的接收机系统
+CN
+24.08.2016
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+102016000423401
+晶晨半导体（上海）有限公司
+牛进
+H04L 25/03
+Loading...
+本发明涉及均衡器技术领域，具体涉及一种单载波均衡器及包括该单载波均衡器的接收机系统，通过迭代的方式来逐步提升频域均衡器的性能，即可基于输入信号的频域值及输入信号的信道的频域值，利用迭代更新器进行初次迭代后，将其发送至反快速傅里叶变化器，并利用信号判决器对反快速傅里叶变化器输出的值进行判决，而判决器输出信号则又分别传送至快速傅里叶变化器及迭代更新器，即计算完快速傅里叶变化器后的信号也进入迭代更新器，此时迭代更新器开始下一次迭代均衡操作，并以此往复，直到迭代停止条件达到，且在均衡时，利用迭代计算器提高单载波迭代均衡器在窄带干扰下的性能，减少窄带干扰的影响。
+7. 105897629 一种信号判决器及信号判决方法
+CN
+24.08.2016
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+102016000423404
+晶晨半导体（上海）有限公司
+牛进
+H04L 25/03
+Loading...
+本发明涉及均衡器技术领域，尤其涉及一种信号判决器及信号判决方法。本发明通过对硬判决信号进行误差计算，之后通过门限条件进行条件的判决，决定是输出均衡时域信号还是硬判决信号，减小输出的信号的误差，上述技术方案通过软比特信息代替的硬判决信号直接进行迭代更新，提高了均衡器的性能。
+8. 105610750 单载波均衡器及包括该单载波均衡器的接收机系统
+CN
+25.05.2016
+H04L 25/03 Loading...
+H04L 25/03
+Loading...
+201511025178.2
+晶晨半导体（上海）有限公司
+牛进
+H04L 25/03
+Loading...
+本发明涉及均衡器技术领域，具体涉及一种单载波均衡器及包括该单载波均衡器的接收机系统，主要是通过迭代的方式来逐步提升频域均衡器的性能，即可基于输入信号的频域值及输入信号的信道的频域值，利用迭代更新器进行初次迭代后，将其发送至反快速傅里叶变化器，并利用信号判决器对反快速傅里叶变化器输出的值进行判决，而判决器输出信号则又分别传送至快速傅里叶变化器及迭代更新器，即计算完快速傅里叶变化器后的信号也进入迭代更新器，此时迭代更新器可以开始下一次迭代均衡操作，并以此往复，直到迭代停止条件达到，进而能够有效提升均衡器的抗多径及移动性能同时，提升整个接收机系统的解调性能。
+9. WO/2016/070732 SPLIT-TYPE TELEVISION
+WO
+12.05.2016
+H04N 21/41 Loading...
+H04N 21/41
+Loading...
+PCT/CN2015/092889
+AMLOGIC (SHANGHAI), INC.
+ZHONG, John
+H04N 21/41
+Loading...
+The present invention relates to the field of televisions. Provided is a split-type television. A main control module and a display of a television are independently arranged. The display is mainly used for audio/video data playback and play control. The main control module is mainly used for receiving and processing the audio/video data of the television. The main control module and the display are independently arranged in the physical structure, so a user can separately carry out operations such as repair, maintenance, upgrade and replacement on the main control module and the display. The display (that is, the screen end) is provided with a power adapter of the main control module, so as long as the main control module is connected to the display, the main control module can be normally powered on. Therefore, the main control module and the display that are separately arranged can share one power supply, which prevents increase of the cost due to separate arrangement of power supply devices for the display and the main control module, and facilitates the arrangement and operation of the television bought by the user.
+10. WO/2016/070733 AUDIO AND VIDEO CONVERSION DEVICE
+WO
+12.05.2016
+H04N 21/426 Loading...
+H04N 21/426
+Loading...
+PCT/CN2015/092894
+AMLOGIC (SHANGHAI), INC.
+ZHONG, John
+H04N 21/426
+Loading...
+The present invention relates to the field of televisions. Provided is an audio and video conversion device. An LVDS and/or a V-by-One input port on a display is converted into an HDMI port to enable the display to adapt to an HDMI audio and video processing device currently in wide use, thus improving the flexibility of application thereof; furthermore, the audio and video conversion device directly converts a television signal in an HDMI format to a television signal in an LVDS and/or a V-by-One format and directly transmits the same to a play device for playing, thus eliminating the need to provide a traditional television LVDS chip and/or a V-by-One television chip on the display, and supporting a higher frequency to match the division and conversion frequency of the screen end, thereby producing the best image quality.
+11. WO/2016/070735 AUDIO/VIDEO SIGNAL TRANSMISSION CONNECTOR
+WO
+12.05.2016
+H01R 27/00 Loading...
+H01R 27/00
+Loading...
+PCT/CN2015/092902
+AMLOGIC (SHANGHAI), INC.
+ZHONG, John
+H01R 27/00
+Loading...
+An audio/video signal transmission connector (1). The connector has a connection port (10) connected to another component. The connection port comprises multiple connection areas, and each connection area comprises at least one interface unit (11-13, 141-143). An isolation layer (3) is disposed between the connection areas to avoid signal crosstalk between the connection areas. Interface connection end surfaces in all the connection areas are in the same horizontal plane, so that the connector is easy to be plugged with another component, and contact is reliable, it is not easy to loosen, and it is beneficial to production and welding.
+12. WO/2016/070734 PLUG-IN TELEVISION
+WO
+12.05.2016
+H04N 5/64 Loading...
+H04N 5/64
+Loading...
+PCT/CN2015/092901
+AMLOGIC (SHANGHAI), INC.
+ZHONG, John
+H04N 5/64
+Loading...
+The present invention relates to the field of televisions. Provided is a plug-in television. A main control module of a television is integrated into a plug-in card and is disposed independent of a display. The display is mainly used for audio/video data playback and play control. The plug-in card is mainly used for receiving and processing audio/video data of the television. Because the plug-in card and the display are independently disposed in the physical structure, a user can separately carry out operations such as repair, maintenance, upgrade and replacement on the plug-in card and the display. Because the display is a main structure of the television, and the plug-in card is plugged into a corresponding slot provided on the display to form the television, a case in which the upgrade speed of a screen end device is extremely unmatched with the upgrade speed of a main control device of the screen end device in the current television field can be effectively resolved, that is, the user can conveniently perform maintenance and upgrade operations on the television by replacing or upgrading the plug-in card.
+13. WO/2016/070731 SPLIT-TYPE TELEVISION
+WO
+12.05.2016
+H04N 5/64 Loading...
+H04N 5/64
+Loading...
+PCT/CN2015/092884
+AMLOGIC (SHANGHAI), INC.
+ZHONG, John
+H04N 5/64
+Loading...
+The present invention relates to the field of televisions. Provided is a split-type television. A main control module and a screen end module of a television are independently arranged. The screen end module is mainly used for audio/video data playback and play control. The main control module is mainly used for receiving and processing the audio/video data of the television. The main control module and the screen end module are independently arranged in the physical structure, so a user can separately carry out operations such as repair, maintenance, upgrade and replacement on the main control module and the screen end module. Especially for the problem that the upgrade speed of a screen end device is extremely unmatched with the upgrade speed of a main control device of the screen end device in the current television field, the split-type television of the present application can carry out upgrade of all independent units according to personalized demands, thereby effectively reducing the upgrade cost of the television.
+14. 105117246 电子设备快速启动的方法
+CN
+02.12.2015
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510471929.7
+晶晨半导体（上海）有限公司
+李振飞
+G06F 9/445
+Loading...
+本申请一种电子设备快速启动的方法，涉及电子设备技术领域，通过利用在电子设备的非易失性存储器中生成并存储内存镜像，以在电子设备重启时直接调取该内存镜像进行诸如内存数据的恢复、设备状态的恢复等操作，进而快速完成电子设备的重启；即电子设备在重启时不再需要按照常规启动的方式于启动内核后，依次调用服务管理器和系统应用程序及利用Zygote创建运行环境，才能启动进程及其他的初始化操作等一系列动作才能完成重启动作，进而可大大提升电子设备的重启速度及用户体验。
+15. 104867475 一种支持多显示接口的显示桥
+CN
+26.08.2015
+G09G 5/00 Loading...
+G09G 5/00
+Loading...
+201510236637.5
+晶晨半导体（上海）有限公司
+施超
+G09G 5/00
+Loading...
+本发明提供一种支持多显示接口的显示桥的方法和装置，该新颖的显示桥包括一个提供数据输入信号的预驱动器；接收数据输入信号的共享输出驱动器，输出驱动器兼容于驱动MIPI-DSI,EDP,或者LVDS的显示提供输出显示信号；稳压器电源，耦合至共享输出驱动器，调节共享输出驱动器的运作电压并为该共享输出驱动器提供电流源。一共享终端输出单元，耦合至共享输出驱动器，为输出显示信号提供终端电阻并为该终端电阻提供终端电压。
+16. 1560854 HVD disc playing device and its playing method
+CN
+05.01.2005
+G11B 7/00 Loading...
+G11B 7/00
+Loading...
+200410016550.9
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+G11B 7/00
+Loading...
+The invention is a displaying device and method for HVD disk. It includes disk driver, center processor, external memory, output unit and state displaying panel. The center processor charges the entire dispatch and cooperation of the whole device, the disk driver transmits the data in the HVD disk to the center processor, the center processor separates and guides the information to the external memory, the audio frequency and video frequency code flow are transmitted to the decoder to be decoded, and the result is stored in the external memory, and the outputting unit outputs them to the external terminals. Detects the HVD disk, reads the entire control files, audio and video frequency property files, index files, command control files, acquires the real playing position, and reads the audio and video frequency data, plays and the controls the play flow.
+17. 1561111 Method for quckly indexing plaing information in digital video compression code stream
+CN
+05.01.2005
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200410016540.5
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+H04N 7/26
+Loading...
+A method for quickly indexing and playing information in digital video compression ASCII stream is to analyse video compression ASCII stream in advance and pick up useful index information from it including video stream head information and a frame image position information and store the index information in definite time intervals by finding related offset position of recording one frame picture data and its corresponding video stream information head and its related position is found out once from the playing time so as to realize time search and trick playing of multiple video compression streams.
+18. 1561094 Method of overlaying caption in digital compression video code stream
+CN
+05.01.2005
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200410016539.2
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+H04N 7/26
+Loading...
+This invention relates to a method for overlapping captions in a digital compression video ASCII stream. The composite ASCII stream is finished by composite process of the system which composites audio, video compressed streams, starting time of captions and a caption data region including caption end time, a display region, a forced display region and a character lattice data composite by its character documents and character lattice base. The command control file in the pilot system is composed of a caption coloring board, and a mixed degree control data generated by a disk generation system.
+19. 1560855 HVD disc making device and method
+CN
+05.01.2005
+G11B 7/00 Loading...
+G11B 7/00
+Loading...
+200410016551.3
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+G11B 7/00
+Loading...
+The invention is a manufacturing device and method for HVD disk. The manufacturing method of the HVD disk is made up of video processor and a PC for manufacturing HVD disk information, the video frequency processor has audio frequency interface card, magnetic disk array, and assembles with video compressing software, audio frequency compressing software and audio frequency combining software, and it arranges caption adding software, HVD disk producing software in the PC. The producing process includes: compressing the audio frequency and video frequency source, adding in the caption, generating the audio and video frequency property files, generating the index files, generating command control files, generating total control files and duplicating the files to the DVD physical media.
+20. 1560856 High-definition autio-vedio HVD optical disc
+CN
+05.01.2005
+G11B 20/10 Loading...
+G11B 20/10
+Loading...
+200410016552.8
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+G11B 20/10
+Loading...
+The invention is a high visibility audio image HVD disk, which belongs to audio image transmission technology field. The invention is made up of HVD system layer including total control files and audio and video frequency playing control files group; audio and video frequency playing control files group layer including each concrete audio frequency, video frequency files, index files and command control files which is used to control the play of each files; playing flow layer including audio frequency flow, video frequency flow and caption flow, which are used for the reoccurrence of the video frequency, video frequency and the caption. The invention supports video frequency flow produced with multiple standard compression methods, supplies strong functions; the navigation control information can be separated with the audio frequency, video frequency playing flow, and it can be duplicated, upgrades the error during ability.
+21. 1560749 Method for controlling command in playing procedure of video player
+CN
+05.01.2005
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+200410016538.8
+Jingchen Semiconductor (Shanghai) Co., Ltd.
+Zhong Peifeng
+G06F 13/10
+Loading...
+The invention is a method for command control in the process of playing of video player. The invention uses a independent command control file to store all the needed commands, the command files are made up of several command groups, each command group is made up of several commands, the command control files store the information file for controlling the play order and effect of the disk needed by the disk, which includes the control of playing connection among each audio frequency sources, the settings control of audio and caption, the control of the playing effect of caption and high bright area, the system executes these commands through a series of commands. In the invention, the interaction operation of user becomes the necessary function of the audio frequency disk playing, and the playing of the player can be realized easily.
+

@@ -1,0 +1,2401 @@
+1. 106873553 基于工业互联网操作系统的现场设备控制管理方法及装置
+CN
+20.06.2017
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+102017000071597
+北京东土科技股份有限公司
+黄易
+G05B 19/418
+Loading...
+本发明涉及基于工业互联网操作系统的现场设备控制管理方法及装置，该方法打破了传统工业现场设备需手动配置、局域网控制的工作模式，通过工业云服务器将设备标识配置策略发送给工业现场设备，使工业现场设备与工业云服务器建立通信连接，生成工业现场设备标识，进而生成设备信息列表，工业云服务器通过工业现场设备主动发送的设备信息列表实现对工业现场设备的云监控、云管理。这样，工业现场设备不需要依赖专门的硬件设备，能自动获取设备标识，并主动上报给工业云服务器，减少对人工的依赖，简化了操作，更加智能化。本发明为实现工业现设备集中管理和控制提供了解决方案，是工业互联网操作系统工业可视化管理、集成各种异构现场设备的基础。
+2. 106850713 基于串口服务器的数据传输方法及装置、串口服务器
+CN
+13.06.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510885365.1
+北京东土科技股份有限公司
+刘昺麟
+H04L 29/08
+Loading...
+本发明提供了一种基于串口服务器的数据传输方法及装置、串口服务器，该方法包括：串口服务器接收控制中心发送的请求数据消息；串口服务器将请求数据消息发送至远端网络设备，远端网络设备对地址标识进行识别，在地址标识与本机的地址标识相同时，向串口服务器发送与请求数据消息对应的数据；串口服务器在向控制中心发送所述数据前，向Modern的接口发送开启信号。由于远端网络设备只有请求数据消息中的地址标识与本机的地址标识一致才会发送数据，保证了同一时间内有且仅有一个远端网络设备向控制中心发送数据，串口服务器仅开启向控制中心发送数据时所通过Modern，避免了所有Modern均开启的情况下导致远端网络设备与控制中心之间的交互产生干扰。
+3. 106850423 一种双网口设备的快速倒换方法及装置
+CN
+13.06.2017
+H04L 12/707 Loading...
+H04L 12/707
+Loading...
+201510885840.5
+北京东土军悦科技有限公司
+马洪伟
+H04L 12/707
+Loading...
+本发明实施例提供了一种双网口设备的快速倒换方法及装置，所述双网口设备包括FPGA，所述FPGA与主用网口和备用网口的PHY连接，该方法中，所述FPGA判断是否接收到所述主用网口发送的故障告警信息；当确定接收到所述主用网口发送的故障告警信息时，将备用网口切换为激活状态；获取所述主用网口的缓存数据，使所述备用网口对所述缓存数据进行处理。由于在本发明实施例中采用FPGA将主用网口和备用网口进行硬件连接，当发生网口倒换时，通过将主用网口的缓存数据保存至备用网口的缓存中继续进行处理，从而有效的避免了主用网口缓存的数据丢失，因此，提高了网口的倒换速度，减少了数据丢包，保证了数据传输的可靠性。
+4. 106850054 一种光纤收发器中接口故障检测方法及装置
+CN
+13.06.2017
+H04B 10/07 Loading...
+H04B 10/07
+Loading...
+201510886189.3
+北京东土科技股份有限公司
+陈超
+H04B 10/07
+Loading...
+本发明实施例提供了一种光纤收发器中接口故障检测方法及装置，在该方法中，获取光模块的状态电压；根据所述状态电压所在的区间，判断所述光模块是否被接入；当确定所述光模块未被接入时，停止向电模块供电；当确定所述光模块被接入时，向电模块供电，并判断所述电模块对应的第一指示灯是否上电；当确定所述电模块对应的第一指示灯未上电时，停止向光模块供电。由于在本发明实施例中通过预判电路将光纤收发器的光模块和电模块的端口状态进行关联，因此，可以将光模块和电模块的端口状态进行同步，从而实现了链路故障透传功能，降低了组网成本，减少了整体功耗。
+5. 106776382 一种PCIE设备的配置方法及装置
+CN
+31.05.2017
+G06F 13/10 Loading...
+G06F 13/10
+Loading...
+102016001097298
+北京东土军悦科技有限公司
+孙大娟
+G06F 13/10
+Loading...
+本发明实施例提供了一种PCIE设备的配置方法及装置，方法包括：系统中使用至少两个所述PCIE控制器连接PCIE设备时，Vxworks5.5操作系统分别向各PCIE控制器分配真实总线号，以及向各PCIE设备分配真实总线号；根据真实总线号，向各PCIE控制器重新分配虚拟总线号，以及向各PCIE设备重新分配虚拟总线号；在接收到针对待处理的PCIE控制器或者PCIE设备的读写操作时，根据虚拟总线号，对待处理的PCIE控制器或者PCIE设备执行读写操作。应用本发明实施例能够在一个CPU上配置至少两个PCIE控制器，使至少两台PCIE设备能够分别与所述PCIE控制器连接，以减少PCIE设备的配置成本。
+6. 106789264 一种链路聚合组通道快速切换的方法和装置
+CN
+31.05.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016001220020
+北京东土军悦科技有限公司
+邵继超
+H04L 12/24
+Loading...
+本发明公开了一种链路聚合组通道快速切换的方法和装置。所述方法包括：在初始状态时所述链路聚合组内的端口状态位都设置为up，所述链路聚合组内的每个端口向其对端端口发送CCM报文，根据接收到的CCM报文计算单位时间段内的端口状态；根据所述单位时间段内的端口状态选择主端口，所述主端口发生故障时发送LOC告警，当维护的端口状态位存在up时，消除所述LOC告警；将主端口状态位由up设置为down，将所述主端口切换到端口状态位为up的高优先级端口上。在端口通道的内部切换时，仅有极少的链路丢包问题。在MPLS的保护机制中，由于快速的判出LOC告警的上报使得备份链路的切换，同样达到了少量的链路丢包。
+7. 106789623 基于OSPF协议的链路通信保障方法和系统
+CN
+31.05.2017
+H04L 12/703 Loading...
+H04L 12/703
+Loading...
+102016001220810
+北京东土军悦科技有限公司
+熊文柱
+H04L 12/703
+Loading...
+本发明提供一种基于OSPF协议的链路通信保障方法和系统，所述方法包括：在开放最短路径优先OSPF协议下，选举一级控制中心为指定路由器，次级控制中心和三级控制中心为邻居路由器；获取Hello报文中所述指定路由器和所述邻居路由器携带的邻居数目；当指定路由器携带的邻居数目小于某个邻居路由器的邻居数目时，判定一级控制中心与次级控制中心之间通信链路故障，触发重新选举指定路由器，使得一级控制中心与次级控制中心之间恢复通信，保证了设备传输数据过程中链路的可靠性。
+8. 106789737 一种保障应急系统的指令链路通讯的实现方法和系统
+CN
+31.05.2017
+H04L 12/863 Loading...
+H04L 12/863
+Loading...
+102016001261905
+北京东土军悦科技有限公司
+郭守金
+H04L 12/863
+Loading...
+本发明提供一种保障应急系统的指令链路通讯的实现方法和系统，包括至少一个一级控制中心、数个二级控制中心及其通过有线链路和无线链路连接的数个三级控制中心；三级控制中心通过其不同端口向二级控制中心和无线基站发送第一通讯链路报文，无线基站通过其不同端口向一级控制中心和二级控制中心转发第一通讯链路报文；二级控制中心根据接收到的第一通讯链路报文中的端口转发标志，将相同介质的端口转发标志的路径设置为上行链路，并根据上行链路的链路质量选定主通迅链路和备份通讯链路；当主通讯链路出现链路中断时，三级控制中心选定备份通讯链路作为通讯链路，保证了设备传输的数据为控制命令时数据传输可靠性和实时性。
+9. 106713351 一种基于串口服务器的安全通讯方法及装置
+CN
+24.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201710049190.X
+北京东土军悦科技有限公司
+董凯
+H04L 29/06
+Loading...
+本发明实施例提供了一种基于串口服务器的安全通讯方法及装置，应用于串口服务器，该方法中，接收网络设备发送的控制指令，提取所述控制指令中携带的控制信息及被控制串口设备的标识信息；根据所述控制信息及所述被控制串口设备的标识信息，在自身保存的第一映射列表中查找对应的报文格式；根据查找到的所述控制信息对应的报文格式，对所述控制信息进行格式转换；将转换格式后的控制信息发送给所述被控制串口设备。由于在本发明实施例中通过在串口服务器中保存各串口设备与指令集的对应关系，因此，根据查找到对应的报文格式，将控制指令转化为对应的报文格式发送至被控制串口设备，从而实现了对串口设备的控制，保证了系统的安全性和可靠性。
+10. 106685990 一种基于工业互联网操作系统的安全性检测方法及装置
+CN
+17.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201710071598.7
+北京东土科技股份有限公司
+吕志勇
+H04L 29/06
+Loading...
+本发明涉及工业互联网技术领域，尤其涉及一种基于工业互联网操作系统的安全性检测方法及装置，用以解决现有技术中存在的工业现场安全性较差、现场设备不易管控的问题。该方法为：基于实时数据库采集的工业现场中多样、异构、分散的运行数据信息以及工业大数据分析平台的大数据分析方式，获取每一个现场设备对应的各个安全检测规则，并在对每一个现场设备对应的各个安全检测规则进行选取后下发至相应的执行设备，以实现对每一个现场设备的安全性检测，保证了工业现场安全性的可控性，基于大数据分析方式，实现了从工业数据采集、解析、存储到数据挖掘、数据优化、数据安全的全过程，从而使得工业云和每一个现场设备能够在可信的工作环境中运行。
+11. 106685987 一种级联网络的安全认证方法及装置
+CN
+17.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102017000051060
+北京东土军悦科技有限公司
+胡志文
+H04L 29/06
+Loading...
+本发明实施例公开了一种级联网络的安全认证方法及装置，应用于所述级联网络中的第一级网络且通过级联端口与第二级网络中的可信网络装备连接的可信根网络装备，所述方法包括：接收所述级联网络中，待认证可信网络装备发送的连接请求；获得所述待认证可信网络装备的设备标识；根据所述设备标识判断所述待认证可信网络装备是否满足预设的安全条件；如果满足，打开所述待认证可信网络装备所请求的级联端口的数据传输功能，以使所述待认证可信网络装备通过所述级联端口传输数据。由于级联网络中的各级网络的可信网络装备在传输数据前需要通过第一级网络的可信根网络装备进行安全认证，大大提高了级联网络的安全性。
+12. 106656355 一种远程水声通信系统及其控制方法
+CN
+10.05.2017
+H04B 13/02 Loading...
+H04B 13/02
+Loading...
+201610875843.5
+北京东土科技股份有限公司
+闫志伟
+H04B 13/02
+Loading...
+本发明公开了一种远程水声通信系统及其控制方法，该系统包括：多个分布于浅海区域的浅海通信模块，以及多个分布于大洋声道区域的深海通信模块；其中，在距离浅海通信模块的预设范围内，各浅海通信模块对应至少一个深海通信模块；浅海通信模块，用于将通信信号发送至对应的任意一个深海通信模块；接收对应的深海通信模块转发的通信信号；深海通信模块，用于在接收到对应的浅海通信模块发送的通信信号时，采用低频无线的方式将通信信号转发至目标浅海通信模块对应的任意一个深海通信模块；在接收到其他深海通信模块转发的通信信号时，将通信信号转发至对应的目标浅海通信模块。本发明实施例提供的远程水声通信系统，实现了通信信号在海水中的远程通信。
+13. 106657035 一种网络报文传输方法及装置
+CN
+10.05.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611109940.X
+北京东土军悦科技有限公司
+王立文
+H04L 29/06
+Loading...
+本发明实施例提供了一种网络报文传输方法及装置，应用于网络安全技术领域，所述方法包括：获取第一网络节点发送的第一网络报文；将第一网络节点地址信息转换为虚拟第一网络节点地址信息，将第二网络节点地址信息转换为本地第二网络节点地址信息，在转换后的第一网络报文通过安全分析检测后，将虚拟第一网络节点地址信息转换为本地第一网络节点地址信息，将本地第二网络节点地址信息转换为虚拟第二网络节点地址信息，得到第二网络报文；将本地第一网络节点地址信息转换为第一网络节点地址信息，将虚拟第二网络节点地址信息转换为第二网络节点地址信息，将转换后的第二网络报文发送至第二网络节点。本发明实现了WAF设备的透明化。
+14. 106603745 一种修改协议地址的方法及装置
+CN
+26.04.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016001198123
+北京东土科技股份有限公司
+高运雷
+H04L 29/12
+Loading...
+本发明实施例公开了一种修改协议地址的方法及装置，方法包括：利用预设跨网段协议，向各网段设备发送跨网段报文，在接收到各网段设备发送的回复报文后，从回复报文中获取各网段设备的第一地址信息；当需要修改不同网段中设备的协议地址时，向各网段目标设备(需要修改协议地址的设备)发送修改地址报文，各网段目标设备根据该修改地址报文中携带的第二地址信息修改自身协议地址。这样，便实现了修改不同网段中设备的协议地址，且不需要在各个网段中分别部署修改工具，操作简单。
+15. 106603523 一种报文转发方法及网络交换设备
+CN
+26.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611130090.1
+北京东土军悦科技有限公司
+邵继超
+H04L 29/06
+Loading...
+本发明实施例公开了一种报文转发方法及网络交换设备，网络交换设备包含安全板和多个交换板，交换板接收到业务报文后，并不直接对其进行转发，而是将该业务报文转发送至安全板。如果是第一类交换板从外部收到的业务报文，直接发送到安全板；如果是非第一类交换板从外部收到的业务报文，通过第一类交换板转发至安全板。安全板根据预先存储的安全策略验证该业务报文是否合法，仅在该业务报文合法的情况下，安全板将该业务报文发送至第一类交换板，由第一类交换板将其发送至外部设备或将其对其进行转发到非第一类交换板，避免了非法报文攻击其他设备的情况，提高了网络交换设备的安全性。
+16. 206118242 一种插箱结构及电子设备
+CN
+19.04.2017
+H05K 7/14 Loading...
+H05K 7/14
+Loading...
+201621073261.7
+北京东土军悦科技有限公司
+王敬文
+H05K 7/14
+Loading...
+本实用新型公开了一种插箱结构及电子设备。插箱结构包括PCB板和连接器，连接器包括用于连接电子器件的连接端，连接端凸设于PCB板，插箱结构还包括背板支撑板和插箱本体，背板支撑板上开设有第一通孔，PCB板与背板支撑板固定连接，连接端位于第一通孔内或穿过第一通孔，插箱本体的端部设置有向外开口的凹槽，端部插入第一通孔内，端部与第一通孔的内壁间隙配合，连接端容置于凹槽。此插箱结构将未安插子卡的连接端容置于由PCB板、背板支撑板和插箱本体的端部的凹槽形成的较封闭的结构内，不仅将PCB板和连接端与外部空间隔离，而且也与机箱内的散热风道隔离，提高了PCB板和连接端的IP防护等级和EMC防护等级。
+17. 206095881 一种快速测定混凝土透水率的试验装置
+CN
+12.04.2017
+G01N 15/08 Loading...
+G01N 15/08
+Loading...
+202016000699008
+北京东方建宇混凝土科学技术研究院有限公司
+黎吉军
+G01N 15/08
+Loading...
+一种快速测定混凝土透水率的试验装置，包括由上至下依次连接的盛水容器、连接细管、连接盘和混凝土试件容器；所述连接细管中部连接有球阀；其中盛水容器与连接细管承插连接、连接细管与连接盘承插连接、连接盘与混凝土试件容器可拆卸连接。本实用新型为了弥补目前试验室关于混凝土透水率试验的空缺，提供了一种简单的、可以模拟实际透水形式的混凝土透水率的测定装置，模拟实际工程中的透水混凝土路面透水率试验方法的同时实现在试验室中对混凝土试件透水率做出测定，避免在实际工程中因混凝土透水率不合格而造成的损失。可广泛应用于混凝土透水率试验。
+18. 106559395 一种基于工业网络的数据报文检测方法及装置
+CN
+05.04.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510634673.7
+北京东土军悦科技有限公司
+苏盘社
+H04L 29/06
+Loading...
+本发明实施例提供了一种基于工业网络的数据报文检测方法及装置，该方法适用于包含至少一个过滤板卡和至少一个存储板卡的交换设备，该方法中，交换设备接收网络侧发送的数据报文，根据接收所述数据报文的端口查询自身保存的端口映射列表；根据查询结果将所述数据报文重定向到该接收端口对应的过滤板卡，并将所述数据报文镜像到该接收端口对应的存储板卡进行存储；过滤板卡根据过滤结果，确定是否转发所述数据报文。由于在本发明实施例中通过将数据报文镜像到过滤板卡进行存储，因此，可以通过对过滤掉的数据报文进行安全分析，防止有效数据流失，并及时发现新的攻击手段，从而提高工业网络的可靠性。
+19. 106557358 一种基于双核处理器的数据存储方法及装置
+CN
+05.04.2017
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201510634222.3
+北京东土军悦科技有限公司
+苏盘社
+G06F 9/48
+Loading...
+本发明实施例提供了一种基于双核处理器的数据存储方法及装置，该方法适用于包含双核处理器的交换设备，该方法中，通过接收端口接收数据报文，将所述数据报文发送到第一核处理器；第一核处理器接收所述数据报文产生中断，并将所述数据报文存储到收包缓存队列；第二核处理器从收包缓存队列中取出数据报文并解析，将解析后的数据报文存储到数据缓存队列实现该数据报文的存储。由于在本发明实施例中将数据接收和数据解析分别在不同的内核处理器中进行处理，因此，可以有效的避免数据接收产生的中断，对数据存储的影响，从而提高了存储效率，保证了系统的可靠性。
+20. 106557441 一种基于中断控制器的低速接口中断处理方法及系统
+CN
+05.04.2017
+G06F 13/24 Loading...
+G06F 13/24
+Loading...
+201510629995.2
+北京东土科技股份有限公司
+张敏光
+G06F 13/24
+Loading...
+本发明公开一种基于中断控制器的低速接口中断处理方法及系统，该方法包括：第一例程在接收到CPLD发送的运行任务的中断服务信号以及中断服务信号的类型时，向外设总中断发送第一中断信号；第一例程在将外设总中断关闭后，将中断服务信号发送至与中断服务信号的类型对应的第二例程，以使第二例程根据所述中断服务信号对中断服务信号对应的运行任务进行中断，并在中断后，向外设总中断发送第一开启信号以使外设总中断开启。上述方法将原来在第一例程中的处理中断以及关闭外设中断通过第二例程进行处理，避免由于在外部中断设备为低速设备，还没对中断进行处理完毕时，其外设总中断已开启，被高频率的中断触发导致设备发生死机的问题。
+21. 106559327 一种百兆光口恢复方法及装置
+CN
+05.04.2017
+H04L 12/703 Loading...
+H04L 12/703
+Loading...
+201510633819.6
+北京东土科技股份有限公司
+袁志亚
+H04L 12/703
+Loading...
+本发明实施例公开了一种百兆光口恢复方法及装置。一种百兆光口恢复方法，可以包括以下步骤：A.确定当前网络中各个端口的状态和/或类型；B.根据各个端口的状态和/或类型，确定至少一个待恢复的问题端口；C.针对每个问题端口，关闭该问题端口接收和发送报文功能，设置该问题端口的自环；D.取消该问题端口的自环，打开该问题端口接收和发送报文功能。应用本发明实施例所提供的技术方案，不用受现场环境对于硬件的限制，可以有效解决启动后端口不能正常连接的问题。
+22. 106506716 一种SDN控制器带内管理的连接方法及装置
+CN
+15.03.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+102016000916483
+北京东土科技股份有限公司
+田明昊
+H04L 29/12
+Loading...
+本发明实施例提供了一种SDN控制器带内管理的连接方法及装置，所述方法包括：SDN控制器向处于在线状态的端口连接的交换机发送初始连接报文；从至少一个处于在线状态的端口接收交换机发送的初始连接回复报文，其中，初始连接回复报文包括发送初始连接回复报文的交换机的网络互连协议IP地址；为IP地址为默认IP地址的交换机分配新的IP地址；通过接收到初始连接回复报文的端口向已分配IP地址的交换机发送地址配置报文，以使接收到地址配置报文的交换机将IP地址配置为地址配置报文中的IP地址。应用本发明实施例能够实现SDN控制器主动快速连接交换机并分配IP地址，能够减小SDN交换机的管理网络的配置复杂度和部署难度。
+23. 106506476 安全修改设备信息的方法和系统
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000939682
+北京东土科技股份有限公司
+杜彦南
+H04L 29/06
+Loading...
+本发明实施例涉及通信技术领域，尤其涉及一种安全修改设备信息的方法和系统。用于提高修改设备信息过程的安全性。本发明实施例中，第一设备使用与第二设备约定的密钥对设备信息请求进行加密，并广播加密的设备信息请求；第一设备接收第二设备返回的使用密钥加密的设备信息响应；第一设备使用密钥对接收到的设备信息响应进行解密，得到第二设备的设备信息；第一设备根据设备信息响应，向第二设备单播使用密钥加密的设备信息修改报文；设备信息修改报文中包括第二设备的修改后的设备信息；设备信息修改报文用于使第二设备将设备信息修改为修改后的设备信息。有效防止了在传输过程中设备信息请求、设备信息响应和设备信息修改报文被篡改。
+24. 106487586 一种自组织网络拓扑建立方法及装置
+CN
+08.03.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610893710.0
+北京东土科技股份有限公司
+闫志伟
+H04L 12/24
+Loading...
+本发明涉及一种将大量节点划分为两级多簇、半对等、无中心的自组织网络拓扑建立方法及装置。本发明的自组织网络拓扑建立方法，将节点划分为多个节点簇，针对簇节点组成多个第二级自组织网络，以及从每个节点簇中选取节点组成第一级自组织网络，得到由多个自组织网络构成的网络拓扑，并且该网络拓扑中的任意两个节点可进行通信。相比于现有技术中自组织网络拓扑存在的所包含节点数量有限、扩展性差的问题，本发明实施例的网络拓扑增加了自组织网络中的节点数量，可支持大量节点之间的数据传输和处理。基于本发明实施例的自组织网络拓扑建立方法构建的数据链网络，包含大量节点、架构灵活、扩展性高，适用于多兵种联合作战的新一代数据链网络结构。
+25. 106454152 视频图像拼接方法、装置和系统
+CN
+22.02.2017
+H04N 5/265 Loading...
+H04N 5/265
+Loading...
+201611095314.X
+北京东土军悦科技有限公司
+李明
+H04N 5/265
+Loading...
+本发明实施例提供了一种视频图像拼接方法、装置和系统，一种视频图像拼接方法包括：FPGA的采集模块从至少两个与不同视频图像采集装置连接的网络接口分别接收至少两个采集数据；FPGA的缓存控制模块将至少两个采集数据存储在缓存中；FPGA的图像预处理模块对缓存中的每个采集数据进行图像预处理，得到用于表征每个采集数据的图像特征的至少一个特征数据；微处理器根据至少两个采集数据的所有特征数据，对缓存中的至少两个采集数据进行拼接处理，得到拼接后的视频图像并将拼接后的视频图像传输至视频图像服务器，以使视频图像服务器显示拼接后的视频图像，使视频图像服务器显示拼接后的视频图像。提高了对视频图像进行拼接的处理效率。
+26. 106452695 冗余报文处理方法、装置及系统
+CN
+22.02.2017
+H04L 1/22 Loading...
+H04L 1/22
+Loading...
+201610890858.9
+北京东土科技股份有限公司
+樊晓冬
+H04L 1/22
+Loading...
+本发明提供了冗余报文处理方法、装置及系统，用以根据报文中的序列号与报文是一一对应的关系，确定接收到的报文是否为重复的报文，从而简化了确定是否为重复的报文的流程，提升了报文处理的效率，也缩短了产品开发周期，减少了逻辑资源占用的数量，降低了功耗；无需针对每一报文均建表，也就无需使用外部处理芯片，从而降低了硬件的设计成本。所述方法包括：接收报文，并比较接收到的报文的序列号是否大于序列号参数，其中，所述序列号参数为用于标识转发过的报文的序列号的最大值；若是，则根据所述报文的目标地址，转发所述报文，并将所述序列号参数更新为所述报文的序列号；否则，删除所述报文。
+27. 106453678 IP地址配置方法和系统
+CN
+22.02.2017
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201610865585.2
+北京东土科技股份有限公司
+张亮
+H04L 29/12
+Loading...
+本发明实施例提供了一种IP地址配置方法和系统，一种IP地址配置方法包括：服务器发送发现请求报文，发现请求报文用于请求网络设备发送标识信息，标识信息为能够唯一确定网络设备的信息；服务器接收至少一个网络设备返回的发现响应报文，发现响应报文包括发送发现响应报文的网络设备的标识信息；服务器根据至少一个网络设备的标识信息分别为至少一个网络设备配置IP地址；服务器发送地址配置报文，地址配置报文包括服务器为至少一个网络设备配置的IP地址和至少一个网络设备的标识信息的对应关系。通过服务器请求网络设备发送标识信息，并根据网络设备的标识信息为网络设备分配IP地址，提高为网络设备分配IP地址的效率。
+28. 106452862 一种确定环形网络的方法及装置
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610868475.1
+北京东土科技股份有限公司
+高运雷
+H04L 12/24
+Loading...
+本发明公开了一种确定环形网络的方法及装置，第一设备在接收到环网检测指令后，通过第一设备的各端口分别发送第一环感知报文，第一环感知报文中携带第一设备的设备标识；第一设备在预设时间内通过第一设备的第一端口接收到第一环感知报文，则根据第一环感知报文中的各设备的设备标识确定第一端口对应的环形网络路径。本发明实施例提供的一种确定环形网络的方法及装置，通过发送环感知报文自动确定出整个环网拓扑，不需要人工查找环形网络的各个节点及手动配置，提高了工作效率和准确性。
+29. 106452894 故障连接检测方法和设备
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610939311.3
+北京东土科技股份有限公司
+袁志亚
+H04L 12/24
+Loading...
+本发明实施例涉及通信技术领域，尤其涉及一种故障连接检测方法和设备，用于实现准确的检测出环网中各个端口是否处于正常的连接状态。第一设备的第一端口接收第二设备的第一端口发送的第一报文；其中，第一报文包括对端设备的地址和对端端口的标识；第一设备若确定第一设备的地址与对端设备的地址相同、且第一设备的第一端口的标识与对端端口的标识相同，则确定第一设备的第一端口处于正常连接状态，且第二设备的第一端口处于正常连接状态。现有技术中只能检测两台设备之间的链路是否连通的方法，本方案能够确定第一设备的第一端口和第一设备的对端设备的端口是否处于正确的连接状态，因此能够准确的检测出环网中各端口是否处于正常的连接状态。
+30. 106452963 网络路径侦测方法和系统
+CN
+22.02.2017
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+102016000907426
+北京东土科技股份有限公司
+高运雷
+H04L 12/26
+Loading...
+本发明实施例提供了一种网络路径侦测方法和系统，一种网络路径侦测方法包括：源节点向目的节点发送路径侦测报文，目的IP地址为目的节点的IP地址，携带源节点的IP地址和MAC地址；接收到路径侦测报文的中间节点向源节点发送路径侦测回应中间报文，携带源节点的IP地址和MAC地址以及中间节点的IP地址和MAC地址；中间节点向目的节点转发路径侦测报文，直至目的节点接收到路径侦测报文；目的节点向源节点发送路径侦测回应报文，携带源节点的IP地址和MAC地址以及目的节点的IP地址和MAC地址；源节点根据至少一个中间节点发送的路径侦测回应中间报文和目的节点发送的路径侦测回应报文，确定源节点和目的节点之间的网络路径。
+31. 106452874 环ID生成方法和网络系统
+CN
+22.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000907429
+北京东土科技股份有限公司
+高运雷
+H04L 12/24
+Loading...
+本发明实施例提供了一种环ID生成方法和网络系统；一种环ID生成方法包括：当至少一个端口处于已连接状态的第一网络设备上，未处于连接状态的第一端口的状态变为连接状态时，第一网络设备发送源MAC地址和目的MAC地址均为第一网络设备的MAC地址的第一环侦测报文；每个接收到第一环侦测报文的第二网络设备发送源MAC地址和目的MAC地址均为第二网络设备的MAC地址的第二环侦测报文；第一网络设备在接收到第一环侦测报文后，根据第一环侦测报文中的MAC地址和接收到的各个第二环侦测报文中的MAC地址，按照预设算法计算出第一环ID。本发明实施例提供的环ID生成方法和网络系统，提高了环ID配置效率，减少环ID配置错误。
+32. 103581173 一种基于工业以太网的数据安全传输方法、系统及装置
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102013000412456
+北京东土科技股份有限公司
+丁杰
+H04L 29/06
+Loading...
+本发明公开了一种基于工业以太网的数据安全传输方法、系统及装置，解决现有工业以太网中进行数据传输时，接收端不能对发送端的身份进行认证，无法保证数据传输安全性的问题。在该方法中当发送端发送数据信息时，还发送其数字签名以及待验证信息，交换设备根据待验证信息包含的时间戳信息和密钥信息完成对发送端身份的一次验证，根据数字签名完成对发送端身份的二次验证，当发送端的身份验证通过后，根据该数据信息的工业协议信息检验该数据信息的安全性。由于本发明实现了对发送端和数据信息的全面检测，既达到了对发送端身份验证的目的，又实现了对数据信息的安全性检验，因此，提高了在工业以太网中进行数据传输的安全性。
+33. 106411624 一种丢包端口定位方法及装置
+CN
+15.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016001215862
+北京东土科技股份有限公司
+陈发
+H04L 12/24
+Loading...
+本发明实施例公开了一种丢包端口定位方法及装置，测试设备的测试端口与待测设备的各待测端口构成至少一条数据流路径，当出现丢包情况时，确定目标待测端口，获取目标待测端口在对应的数据流路径方向中转发数据包的转发数量，根据该转发数量确定丢包端口。由此可见，应用本方案，各端口间构成数据流路径，不需要在每两个相邻待测端口间连接测试端口，成本低且操作简单。
+34. 106411790 基于智能变电站保护控制系统的数据传输方法
+CN
+15.02.2017
+H04L 12/935 Loading...
+H04L 12/935
+Loading...
+102016000866118
+北京东土科技股份有限公司
+丁玉奇
+H04L 12/935
+Loading...
+本发明涉及基于智能变电站保护控制系统的数据传输方法，所述智能变电站内所有间隔的合智一体单元分别接入智能电力服务器的FPGA接入芯片的对应传输端口，所述方法包括：在接收周期内，实时业务中央处理器从接收缓存片读取报文，报文处理后写入到接收缓存片；在发送周期内，实时业务中央处理器将指示信息下发给FPGA接入芯片，以由所述芯片根据指示信息生成报文并写入发送缓存区。采用上述技术方案，可以保证报文的实时接收与发送，提升报文处理效率，提升智能变电站的数据传输效率，并为智能变电站的数据传输提供了高性能、高可靠、高实时和高安全的解决方案。
+35. 106412049 智能交通云控制系统
+CN
+15.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000851802
+北京东土科技股份有限公司
+李平
+H04L 29/08
+Loading...
+本申请涉及一种用于交通系统现场大数据量采集、集中分析和控制的智能交通云控制系统。本发明所述的智能交通云控制系统不同于传统的交通指挥控制系统基于不同传感装置数据分别采集传输后由中心系统信息汇总和分析处理的工作模式，而是通过基于IP地址的宽带总线通信的现场控制服务器实现大数据集中分析处理，并通过相邻多个现场控制服务器融合边缘计算和云计算实现了自适应的交通控制、交通执法、定位追踪、协同控制等功能服务。本发明为实现智能交通控制系统的大数据处理的高可靠、高实时和控制功能的高集成提供了解决方案。
+36. 106412048 基于智能交通云控制系统的信息处理方法及装置
+CN
+15.02.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000851718
+北京东土科技股份有限公司
+张福生
+H04L 29/08
+Loading...
+本发明涉及道路交通控制领域，特别涉及基于智能交通云控制系统的信息处理方法及装置。该方法为：第一节点向控制服务器发布订阅消息，当控制服务器确定满足订阅消息指示的预设条件时，将IP化现场设备采集信息以及相应处理结果返回给第一节点，第一节点针对返回的IP化现场设备采集信息以及相应处理结果生成相应的协同控制策略或本地控制策略。由于第一节点可以按需获取各个控制服务器的IP化现场设备采集信息以及相应处理结果，那么，这样就可以提高某一区域内交通状况的调节效果，同时也降低了智能交通云控制系统的整体信息传输量，从而，就不会导致信息传输拥堵，在保证了传输效率的同时，也降低了中心系统的信息存储量以及信息计算量。
+37. 106374439 基于智能变电站保护控制系统的软件定义实现方法
+CN
+01.02.2017
+H02H 7/22 Loading...
+H02H 7/22
+Loading...
+201610865600.3
+北京东土科技股份有限公司
+吴银福
+H02H 7/22
+Loading...
+本发明涉及基于智能变电站保护控制系统的软件定义实现方法。本发明所述的智能电力服务器改变了传统变电站采用先增加单个物理装置后增加每个装置功能的分散建模方式，而是以整个变电站作为建模对象，采用了在变电站配置描述中直接增加和更新所有的保护、测控、交换和远动的集中建模方式。由于本发明根据智能变电站规划的合智一体单元和专用功能，建立智能变电站的SCD文件，在智能变电站的SCD文件中设置每个所述专用功能的配置信息，达到了通过软件定义智能变电站的专用功能的目的。本发明极大减少了变电站内二次设备数量和整个变电站的占地面积，降低了施工维护难度，并为实现变电站的云控制、云服务、能源大数据和能源互联网提供了解决方案。
+38. 106373396 基于智能交通云控制系统的控制服务器
+CN
+01.02.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102016000851839
+北京东土科技股份有限公司
+张福生
+G08G 1/01
+Loading...
+本申请涉及智能交通技术领域，尤其涉及基于智能交通云控制系统的控制服务器，用以解决现有技术中存在的控制服务器对交通的管控能力较低的问题；本申请实施例提供的控制服务器包括：第一CPU，用于接收第二CPU传输的现场设备提供的交通数据，并对所述数据进行存储、分析处理，以及生成第一控制指令；第二CPU，用于接收现场设备提供的交通数据，传输给第一CPU；以及接收所述第一CPU生成的第一控制指令，并且基于该第一控制指令对所述现场设备进行控制管理。这里，控制服务器可以对现场设备传输的数据进行分析处理，基于对所述数据的分析处理结果还可以对现场设备进行控制管理，因此提高了控制服务器对交通的管控能力。
+39. 106355878 基于智能交通云控制系统的协同控制方法及装置
+CN
+25.01.2017
+G08G 1/01 Loading...
+G08G 1/01
+Loading...
+102016000851719
+北京东土科技股份有限公司
+张福生
+G08G 1/01
+Loading...
+本申请涉及道路交通控制领域，尤其涉及基于智能交通云控制系统的协同控制方法及装置，该方法为：可以由中心系统进行全局性的协同控制，也可以由控制服务器进行区域性的协同控制，当控制服务器进行区域性的协同控制时，控制服务器可以针对管辖区域范围内的具体状况发布具有针对性的协同控制策略，这样，便减轻了中心系统负荷，降低了智能交通系统的整体数据信息传输量，同时，还缩短了数据信息的传输时间，提高了协同控制策略的制定及执行效率，实时且有效的解决了路口交通拥堵问题。
+40. 106357000 基于工业互联网架构的智能变电站保护控制系统
+CN
+25.01.2017
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+102016000865599
+北京东土科技股份有限公司
+李平
+H02J 13/00
+Loading...
+本发明涉及基于工业互联网架构的智能变电站保护控制系统，本发明所述智能变电站改变了传统变电站采用先增加物理装置后增加装置功能的分散建模方式，而是以整个变电站作为建模对象，采用在变电站配置描述中增加所有的保护、测控、交换、远动的集中建模方式；另一方面，所述智能变电站改变了传统变电站中合智一体单元接入不同物理装置分别实现测控和各种保护的工作方式，而是智能电力服务器通过嵌入式高带宽交换通讯网络实时采集过程层数据，并对采集到的过程层数据完成实时数据处理，实现对一次设备所有的保护和测控。本发明减少了变电站内二次设备数量，并为实现变电站的云控制、云服务、能源大数据和能源互联网提供了解决方案。
+41. 106341218 一种基于windows操作系统的时钟同步方法及装置
+CN
+18.01.2017
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201510391243.7
+北京东土军悦科技有限公司
+郭守金
+H04L 7/00
+Loading...
+本发明提供一种基于windows操作系统的时钟同步方法及装置，该方法包括：利用预先安装的抓包软件抓取主时钟设备发送的同步报文，并记录抓取时间戳T2；解析同步报文中携带的主时钟设备发送同步报文的发送时间戳T1；利用抓包软件将延时请求报文封装后发送给主时钟设备，并记录封装时间戳T3；利用抓包软件抓取延时响应报文，并解析延时响应报文中携带的主时钟设备发送延时响应报文的发送时间戳T4；根据T1、T2、T3以及T4，计算从时钟设备与主时钟设备的时钟偏差，并根据该时钟偏差对从时钟设备进行对时。本发明通过抓包软件得到时钟同步所需要的时间戳参数，不需在从时钟设备上额外添加硬件，能够节省硬件资源，降低成本。
+42. 106341237 基于POE系统的PSE供电方法及装置
+CN
+18.01.2017
+H04L 12/10 Loading...
+H04L 12/10
+Loading...
+201510392015.1
+北京东土科技股份有限公司
+张敏光
+H04L 12/10
+Loading...
+本发明公开了一种基于POE系统的PSE供电方法及装置，该方法包括：当PSE检测到PD连接时，获取所述PD接入端口的功率限制值；PSE通过向所述PD输出探测电压检测所述PD所需最大功率值；当所述PD接入端口的功率限制值不小于所述PD所需最大功率值时，检测电源剩余量是否不小于所述PD供电所需最大功率值；当检测结果为否时，按优先级由低到高的顺序切断当前供电端口的供电，直至电源剩余量不小于所述PD供电所需最大功率值，进而对所述PD进行供电。通过检测该PD接入端口的功率限制值是否不小于该PD所需最大功率值，进一步检测电源剩余量是否满足该PD供电，然后按优先级由低到高的顺序切断当前供电端口的供电，保证PSE供电的稳定性和可靠性。
+43. 205902244 一种高可用模组化电子设备
+CN
+18.01.2017
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201620580400.9
+北京东土军悦科技有限公司
+王敬文
+H05K 5/02
+Loading...
+本实用新型公开了一种高可用模组化电子设备，设备由背板分为前、后两个空间，分别安装主功能模块和辅助功能模块。主功能模块由金属壳体封闭，处于散热风道中，散热气流通过后部空间的封闭风道排到外部环境。电子设备整体具备较高防护等级和良好散热性能，能在恶劣环境中稳定工作。
+44. 106325912 嵌入式操作系统的启动方法及装置
+CN
+11.01.2017
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201510383213.1
+北京东土科技股份有限公司
+刘昺麟
+G06F 9/445
+Loading...
+本发明公开了一种嵌入式操作系统的启动方法及装置，该方法包括：在嵌入式操作系统启动时，检测存储区域中的环境变量的值；若环境变量的值非0，则确定嵌入式操作系统的启动代码有逻辑错误；采用第三版本文件修复第二版本文件，采用修复完成后的第二版本文件修复第一版本文件；在第一版本文件修复完成时，清除环境变量的非0值，重新启动嵌入式操作系统。通过预先在存储区域中设置环境变量，并根据环境变量判断嵌入式操作系统的启动代码是否有逻辑错误，在该启动代码存在逻辑错误时，通过已备份的预先存储在存储区域中的其他版本的文件修复第一版本文件，利用修复完成后的第一版本文件启动嵌入式操作系统，保障了嵌入式操作系统安全启动。
+45. 106326066 一种嵌入式系统任务响应性能的监测调整的方法及其系统
+CN
+11.01.2017
+G06F 11/30 Loading...
+G06F 11/30
+Loading...
+102015000393685
+北京东土科技股份有限公司
+汤渊清
+G06F 11/30
+Loading...
+本发明中提供了一种嵌入式系统任务响应性能的监测调整的方法及其系统，根据系统任务的重要性预设所述系统任务运行的优先级，其中系统任务都设定任务运行的门限时间；监测每个系统任务的运行信息，其中运行信息包括任务ID、任务调度次数和时钟中断次数；根据监测到每个系统任务的运行信息计算所述系统任务连续运行的时间；当监测到高优先级系统任务的连续运行时间超过预设的门限时间，将所述高优先级系统任务的优先级减低到需要及时调度的系统任务的优先级之下。保证了系统软件执行任务的实时性；同时保证系统其它任务可以被调用，同时也保证系统任务出现超时间运行后该任务还可以再次被调用执行，保证了系统的安全性。
+46. 106327043 一种变电站一体化中数据处理方法、系统及装置
+CN
+11.01.2017
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+102015000382328
+北京东土科技股份有限公司
+李平
+G06Q 10/06
+Loading...
+本发明提供一种变电站一体化中的数据处理方法、系统及装置，该方法中主服务器接收每个智能开关单元发送的携带对应类型的数据的goose或sv报文，主服务器根据数据的类型，将报文保存到对应该类型的数据的数据库中，根据每种测控策略对应的处理周期，到对应的数据库中查找并采用对应的测控策略对该数据处理，并根据处理结果对该智能开关单元进行控制。由于在本发明实施例的变电站一体化系统中采用了主服务器接收智能开关单元发送的goose或sv报文并采用对应的测控策略进行处理，根据处理结果控制对应的智能开关。从而实现了变电站内数据处理的一体化，节省了部署保护装置的成本，简化了布线操作，实现了变电站的一体化。
+47. WO/2017/000549 DATA PROCESSING METHOD, SYSTEM AND DEVICE IN SUBSTATION INTEGRATION
+WO
+05.01.2017
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+PCT/CN2016/072204
+KYLAND TECHNOLOGY CO., LTD
+LI, Ping
+H02J 13/00
+Loading...
+A data processing method, system and device in substation integration. The method comprises: receiving, by a main server (21), a goose or sv packet sent from each smart switch unit (22) and carrying data of a corresponding type; storing, by the main server (21) and according to the type of the data, the packet to a database corresponding to said type of data; and according to processing periods of respective measurement and control policies, searching a corresponding database, employing the corresponding measurement and control policy to process the data, and controlling said smart switch unit (22) according to the processing result. In a substation integration system, a main server (21) is used to receive a goose or sv packet sent from a smart switch unit (22), so as to perform processing by employing a corresponding measurement and control policy and to control a corresponding smart switch according to the processing result. Therefore, integration of data processing in a substation is achieved, thus saving costs on deploying protection devices, simplifying wiring and operation and realizing substation integration.
+48. WO/2017/000550 METHOD AND DEVICE FOR SWITCHING BETWEEN PRIMARY AND BACKUP LINK AND REALIZING REDUNDANCY BACKUP OF LINK
+WO
+05.01.2017
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2016/072690
+KYLAND TECHNOLOGY CO., LTD.
+JIANG, Qiyun
+H04L 29/08
+Loading...
+Embodiments of the present invention disclose methods and devices for switching between a primary link and backup link and realizing redundancy backup of a link. A method for switching between a primary link and backup link is applied in a first switch, and can comprise the following steps: receiving a failure communication packet; searching, according to port numbers of ports for corresponding links allocated by respective backup groups and recorded in a local configuration information table, for a corresponding port; and configuring the found port to be in an open state, such that a first link connected to the port is in a connected state. A method for realizing redundancy back of a link is applied in the first switch, and can comprise the following steps: monitoring a link state of a DRP ring network link of the first switch, the DRP ring network link being connected to a second switch; searching for all ports in a blocked state; and selecting one port from the found ports to configure the selected port to be in an open state. The technical solutions provided in the embodiments of the present application can be applied to reduce an operating cost of redundancy backup of a link, and satisfy the millisecond level requirement of switching in industrial applications.
+49. 106253487 应用于智能变电站保护控制系统的智能电力服务器
+CN
+21.12.2016
+H02J 13/00 Loading...
+H02J 13/00
+Loading...
+102016000866110
+北京东土科技股份有限公司
+李平
+H02J 13/00
+Loading...
+本发明涉及应用于智能变电站保护控制系统的智能电力服务器。本发明中智能变电站内所有间隔的合智一体单元均直接接入智能电力服务器，每个合智一体单元通过嵌入式高带宽交换通讯网络接入智能电力服务器上一个传输端口；智能电力服务器实现全站一次设备的测控保护、全站信息的交换和运动功能。采用本发明技术方案，可以减少变电站内二次设备的数量和变电站占地面积，降低变电站的施工维护难度，并为实现变电站的云控制、云服务、能源大数据和能源互联网提供了解决方案，同时本发明的推广将推动配网和微电网建设新技术的融合和部署，该技术极大地提高了变电站的整体稳定性和可靠性，为电网能源的多样性接入提供技术保障。
+50. 106251620 基于智能交通云控制系统的中心系统
+CN
+21.12.2016
+G08G 1/00 Loading...
+G08G 1/00
+Loading...
+201610851853.5
+北京东土科技股份有限公司
+张福生
+G08G 1/00
+Loading...
+本申请涉及智能交通技术领域，尤其涉及基于智能交通云控制系统的中心系统，用以解决现有技术中中心系统压力大、运行速率低的问题；本申请实施例提供的智能交通云控制系统至少包括中心系统、若干控制服务器和若干现场设备，所述中心系统和控制服务器之间通过网络连接，所述现场设备和控制服务器之间基于IP地址的宽带总线连接，所述中心系统用于：采用以下数据采集模式中的一种或多种进行数据采集：实时监测所述控制服务器的状态数据，非实时地向所述控制服务器查询数据、向所述控制服务器按需订阅数据。本申请实施例中的中心系统可以有选择地向控制服务器获取数据，因此减轻了中心系统的压力，提高了其运行速率。
+51. 106209542 工业互联网现场层宽带总线架构系统
+CN
+07.12.2016
+H04L 12/40 Loading...
+H04L 12/40
+Loading...
+102016000525317
+北京东土科技股份有限公司
+李平
+H04L 12/40
+Loading...
+本发明涉及一种工业互联网现场层宽带总线架构系统，本发明所述的工业以太网宽带总线系统基于传统工业控制系统中广泛使用的两线制数据传输网络，在不改变原有布线和拓扑的同时提供了高性能的以太网通信，为实现工控系统现场层网络从传统的现场总线向工业以太网总线的转换提供高性能、高可靠、高实时和高安全的解决方案。
+52. 103297257 一种冗余网络的实现方法
+CN
+19.10.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102012000047122
+北京东土科技股份有限公司
+马化一
+H04L 12/24
+Loading...
+本发明公开了一种冗余网络的实现方法，环网节点在初始状态时设置为主站，环网端口设置为半阻塞状态，并在预设时间间隔内向环网端口广播发送主站选举通知报文，节点接收主站选举通知报文，通过比较接收到的主站选举通知报文中的节点质量比较向量和节点的节点质量比较向量选举得出主站和备用主站，主站的环网端口之一设置为半阻塞状态，其余端口设置为转发状态，主站周期性地在预设时间间隔内向环网端口广播发送主站选举通知报文，备用主站停止发送主站选举通知报文，环网端口设置为转发状态，并接收主站发送的主站选举通知报文。采用了本发明的技术方案，能够根据节点质量更换主站，从而降低了环路操作的复杂性，降低了硬件的要求。
+53. 103561048 一种确定TCP端口扫描的方法及装置
+CN
+31.08.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102013000392926
+北京东土科技股份有限公司
+丁杰
+H04L 29/08
+Loading...
+本发明公开了一种确定TCP端口扫描的方法及装置，解决现有进行端口扫描检测时，效率低、适用范围窄的问题。转发装置在过滤出的待确定的端口扫描报文中识别SYN报文，根据识别出的SYN报文的源地址信息和目的地址信息，构造SYN加ACK报文，并向报文的源地址信息对应的设备发送，当该源地址信息对应的设备向该目的地址信息对应的设备发送ACK报文时，当同时扫描该目的地址信息对应设备的存在和不存在的目的地址或目的端口的SYN报文数量大于设定的阈值N1时，确定该设备进行TCP端口扫描。由于本发明可以检测出半隐蔽方式的TCP端口扫描及低速TCP端口扫描，提高了该检测方法的适用范围，节省了系统资源，并提高了端口扫描的确定效率。
+54. WO/2016/127803 TRAFFIC LIGHT CONTROL METHOD AND SYSTEM
+WO
+18.08.2016
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+PCT/CN2016/072203
+KYLAND TECHNOLOGY CO.,LTD
+LI, Ping
+G08G 1/07
+Loading...
+A traffic light control method and system, for use in improving the safety of traffic light control. In the method, a receiving device is mounted on each signal light base, each receiving device is assigned a corresponding IPv6 address, a traffic signal control device searches, on the basis of a saved correlation between IPv6 address information of the receiving devices on the signal light bases and location information, for the IPv6 address of the receiving device at a location to be controlled (S101), and transmits a control signal to the receiving device to control the signal lights connected onto the light base (S102). Because the receiving devices are mounted on the signal light bases and the receiving devices are assigned with the IPv6 addresses, control of the signal lights is implemented on the basis of the IPv6 addresses, thus increasing the safety of signal light control, and implementing intelligent control with respect to each traffic light.
+55. WO/2016/127950 DISTRIBUTED REDUNDANCY CONTROL METHOD AND SYSTEM FOR INTELLIGENT TRANSPORTATION NETWORK
+WO
+18.08.2016
+G08G 1/07 Loading...
+G08G 1/07
+Loading...
+PCT/CN2016/073825
+KYLAND TECHNOLOGY CO.,LTD
+LI, Ping
+G08G 1/07
+Loading...
+A distributed redundancy control method and system for an intelligent transportation network. The method comprises: with respect to communication control nodes (62-67), the communication control nodes transmit a master device election packet to the other communication control nodes, elect a master device (67) among the multiple communication control nodes on the basis of priorities configured for the communication control nodes, and back up data of the communication control nodes into the master device (67) (S202); the master device (67) transmits a state detection packet to the other communication control nodes (62-66) and, with respect to the other communication control nodes (62-66) other than the master device, when a response packet from the communication control nodes for the state detection packet is such that the communication control nodes are incapable of executing an action for controlling a subordinate device of the communication control nodes, executes an action for controlling the subordinate device of the communication control nodes, and the master device (67) adjusts control times for signal lights of corresponding junctions on the basis of junction traffic volumes corresponding to the communication control nodes (62-67) in the redundancy network (S203). The method implements distributed redundancy control for the intelligent transportation network.
+56. 103634177 基于网络业务的组态实现方法和系统
+CN
+17.08.2016
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+102013000655180
+北京东土科技股份有限公司
+陈凡民
+H04L 12/28
+Loading...
+本发明公开了一种基于网络业务的组态实现方法和系统，为用户建立了建立网络业务配置数据库，基于网络业务需求的网络拓扑内容和具体业务内容中从该数据库中可以选取拓扑结构、业务流的标识和承载业务流的网络设备的标识，物理端口、VLAN选择等配置信息，从而根据在承载业务流的网络设备端口中识别业务类型、源MAC地址和目的MAC地址，从网络业务配置数据库中业务流标识和端口配置信息建立网路拓扑，从VLAN选择中传输同一业务实现组态配置，同时将这些配置信息下发到各网络设备，降低了网络组态的复杂度和繁琐度，组态的网络使得具体业务传输更具有可识别性，使得网络配置列表可靠性高。
+57. 103428086 基于PTP协议的透明时钟被动端口选举方法及装置
+CN
+03.08.2016
+H04L 12/705 Loading...
+H04L 12/705
+Loading...
+102012000168427
+北京东土科技股份有限公司
+马化一
+H04L 12/705
+Loading...
+本发明提供了一种基于PTP协议的透明时钟被动端口选举方法及装置，在该方法中网络设备的第一端口通过提取接收的宣告报文的TLV字段，获取该TLV字段携带的时钟标识信息、转发次数信息及端口标识信息，并根据该TLV字段携带的转发次数信息及时钟标识信息，与自身从端口接收的宣告报文包含的TLV字段中携带的转发次数信息及自身的时钟标识信息进行比较，从而选择一个端口作为被动端口，因此通过在宣告报文的TLV字段中增加时钟标识信息、转发次数信息及端口标识信息等比较因子，使得透明时钟支持PTP协议，从而避免了在由透明时钟构成的复杂拓扑网络及环形网络中PTP报文形成的协议风暴，提高了网络的稳定性。
+58. 105812266 一种请求报文的硬件配置处理方法及装置
+CN
+27.07.2016
+H04L 12/761 Loading...
+H04L 12/761
+Loading...
+201410852524.3
+北京东土科技股份有限公司
+何英军
+H04L 12/761
+Loading...
+本发明提供一种请求报文的硬件配置处理方法及装置，在该方法中节点设备接收其他设备发送的请求报文，判断所述请求报文是否需要进行硬件配置；当确定所述请求报文需要进行硬件配置时，缓存所述请求报文；判断在设定的时间长度内是否接收到其他的请求报文；当确定在设定的时间长度内未接收到其他请求报文时，将缓存的所述请求报文进行硬件配置处理；当确定所述请求报文无需进行硬件配置时，处理所述请求报文。由于在本发明实施例中节点设备通过将接收到的需要进行硬件配置的请求报文进行缓存，减少了硬件下发对CPU资源的占用，提高了处理效率。
+59. 105808454 一种多端口访问共享缓存的方法及装置
+CN
+27.07.2016
+G06F 12/08 Loading...
+G06F 12/08
+Loading...
+201410851929.5
+北京东土科技股份有限公司
+路全
+G06F 12/08
+Loading...
+本发明公开了一种多端口访问共享缓存的方法及装置，该方法包括：采集多端口数据流量；将所采集的多端口数据流量作为样本，输入预先建立的BP神经网络模型进行训练；根据所述BP网络模型的输出值，计算每个端口访问共享缓存的时间长度；每个端口在所分配的时间长度内依次访问共享缓存。本发明通过统计多端口的数据流量，依据端口传输数量流量的多少，为每个端口分配相匹配的访问共享缓存的时间长度，合理利用缓存总线，保证各个端口与共享缓存之间数据传输的可靠性。
+60. 105812164 基于TCAM多级流表的规则索引管理实现方法和装置
+CN
+27.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410852392.4
+北京东土科技股份有限公司
+徐小海
+H04L 12/24
+Loading...
+本发明提供一种基于TCAM多级流表的规则索引管理实现方法和装置，该方法包括：基于所述规则索引建立相应的排序链表，所述排序链表包括一级规则索引和/或二级规则索引；将所述二级规则索引添加到相应的一级规则索引上，所述二级规则索引包括动作表索引，二级查表索引和用户自定义规则索引；查询所述TCAM多级流表，由所述一级规则索引的返回值判断是否需要二级查表，根据判断结果进行一级查表和/或二级查表执行相应处理动作。本发明不仅解决了对处理大流量和多种复杂业务的设备的多级查表的问题，同时也解决了现有技术中指定规则编号带来的索引添加和查找的困难。
+61. 105812167 一种VDSL端口模式自动配置的方法及装置
+CN
+27.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410853384.1
+北京东土科技股份有限公司
+李志强
+H04L 12/24
+Loading...
+本发明提供一种VDSL端口模式自动配置的方法及装置，该方法中节点设备接收到控制报文，且该控制报文中携带MAC地址时，且地址相同时，根据控制报文中携带的端口模式进行配置，并通知对端节点设备进行VDSL端口配置，当该控制报文中未携带MAC地址时，或地址不同时，向对端节点设备发送eoc消息，使对端节点设备根据该eoc消息进行VDSL端口配置，并在配置完成时返回eoc响应消息，通知节点设备配置自身VDSL端口模式。由于在本发明实施例中当需要进行VDSL端口配置时发送控制报文，并且节点设备之间通过eoc消息进行VDSL端口配置的通知，从而使VDSL连接的两个节点设备能够通信。
+62. 105812163 一种防止端口Vlan配置错误的方法和系统
+CN
+27.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410852238.7
+北京东土科技股份有限公司
+袁志亚
+H04L 12/24
+Loading...
+本发明提供一种防止端口Vlan配置错误的方法和系统，其中当交换设备的端口PVID是ARP报文所在Vlan ID，则判断端口PVID是否为tag属性；当端口PVID为tag属性时，则从端口向终端设备发送一个Vlan ID等于端口PVID的带tag的ARP报文，当在第一时间段内收到终端设备的回应，则终端设备能识别带tag报文；当在第一时间段内未收到终端设备的回应，从端口强制发送一个untag的ARP报文；当在第二时间段内收到终端设备的回应，则强制将端口在PVID内的属性修改为untag，有效解决了终端设备无法再访问交换设备，即交换设备脱管或者终端设备无法被访问等问题。
+63. 105812160 一种无缝冗余网络模式自适应方法及装置
+CN
+27.07.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410850097.5
+北京东土科技股份有限公司
+尹二飞
+H04L 12/24
+Loading...
+本发明公开了一种无缝冗余网络模式自适应方法及装置，该方法应用于组网模式自适应，该组网包括多个第一设备，该第一设备支持HSR和PRP协议，该方法包括：对于组网中任一第一设备，该第一设备发送探测报文，该探测报文至少携带MAC地址；当组网中其他第一设备接收到该探测报文时，更新并转发该探测报文携带信息；当该第一设备接收到探测报文时，根据携带的MAC地址该探测报文为其发送的探测报文时，根据携带的信息切换网络模式。本发明通过由任一第一设备发送探测报文，组网中其他第一设备接收到该探测报文时，更新并转发该探测报文，该第一设备能够获取组网中第一设备的数量，进而自适应切换网络模式，保证组网模式配置的可靠性。
+64. WO/2016/106907 METHOD AND SYSTEM FOR TRANSMITTING DATA BASED ON DISTRIBUTED FTP
+WO
+07.07.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+PCT/CN2015/071526
+KYLAND TECHNOLOGY CO., LTD
+WANG, Liwen
+H04L 29/08
+Loading...
+A method and system for transmitting data based on a distributed FTP are used for realizing that an upper computer accesses a storage card based on content. In the method, after a switching card receives a request sent by the upper computer, an idle IP address is allocated to the request, and when the upper computer sends a connection request, a virtual connection between the upper computer and each storage card is established; and after an operation request sent by the upper computer with a destination address being the idle IP address is received, a storage card where a file is located is determined according to information about the file carried in the operation request, and the corresponding storage card is notified to transmit data to the upper computer. Since in the embodiments of the present invention a switching card receives a request sent by an upper computer, and an idle IP address thereof is allocated to the request, so that the upper computer establishes a virtual connection with a storage card, and so that the upper computer transmits data with a corresponding storage card when an operation request is received, even though the upper computer cannot learn a storage address of a file, a corresponding file can be acquired.
+65. WO/2016/106908 METHOD AND SYSTEM FOR SYNCHRONIZING CLOCKS IN SDH NETWORK
+WO
+07.07.2016
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+PCT/CN2015/071528
+KYLAND TECHNOLOGY CO., LTD
+WANG, Liwen
+H04J 3/06
+Loading...
+A method and system for synchronizing clocks in an SDH network. In the method, a slave clock device determines, according to a PTP synchronization message transmitted between itself and a primary master clock device and stored time delay between itself and the primary master clock device, a master and slave clock deviation value between itself and the primary master clock device, and performs time tick with the primary master clock device when it is determined that the master and slave clock deviation value is within the range of a set first threshold value, and otherwise performs time tick with other standby master clock devices. Since in the embodiments of the present invention the slave clock device establishes a time tick channel with master clock devices in a plurality of different SDH paths at the same time, during the time tick, it can be determined whether the current time tick process is accurate according to the currently calculated master and slave clock deviation value, so as to determine whether a fault occurs to the time tick channel and the master clock devices, thereby ensuring the accuracy of the time tick.
+66. WO/2016/095322 VRRP-BASED DATA TRANSMISSION METHOD AND APPARATUS
+WO
+23.06.2016
+H04L 12/713 Loading...
+H04L 12/713
+Loading...
+PCT/CN2015/071527
+KYLAND TECHNOLOGY CO., LTD
+XIONG, Wenzhu
+H04L 12/713
+Loading...
+A VRRP-based data transmission method and apparatus. When node devices in two private networks communicate by using a public network, each edge node device in the two private networks establishes a corresponding tunnel cross the public network, and elects an active node device; the elected active node device instructs, by using a tunnel, an edge node device at a peer end, to upgrade into an active node device; and active nodes in the two private networks perform data transmission according to the established tunnels. Because edge node devices in private networks establish tunnels, and elect active node devices in two private networks, and the elected active node devices instruct, by using tunnels, edge node devices at peer ends to upgrade into active node devices, data transmission is implemented, the packet loss rate is reduced, and accuracy of data transmission is ensured.
+67. WO/2016/095323 DATA TRANSMISSION METHOD AND APPARATUS BASED ON SERIAL SERVER
+WO
+23.06.2016
+H04L 12/861 Loading...
+H04L 12/861
+Loading...
+PCT/CN2015/071529
+KYLAND TECHNOLOGY CO., LTD
+LIU, Binglin
+H04L 12/861
+Loading...
+Provided are a data transmission method and apparatus based on a serial server. In the method, when receiving a data packet sent by a serial terminal, a serial server starts a timer, judges whether other data packets sent by the serial terminal are received within a timing duration of the timer, and caches the data packet and restarts the timer when the other data packets are received, or otherwise sends the cached data packet to a first far-end network device. In the embodiments of the present invention, since after receiving a data packet from a serial terminal a serial server starts a timer, when the data packet is received again within the duration range of the timer it is considered that the data packet is sent by the serial terminal, and the data packet is cached, or otherwise it is considered that the data sending process of the serial terminal ends, and accordingly the cached data packet is sent to a far-end network device, so as to recombine the cached data packet, thereby reducing the configuration requirement and resource consumption of the far-end network device, and improving the operation efficiency of the far-end network device.
+68. 105200855 一种基于硅藻土的表面施胶剂组合物及其应用
+CN
+18.05.2016
+D21H 21/16 Loading...
+D21H 21/16
+Loading...
+201510607825.4
+内蒙古东盛硅藻土科技创新产业园有限公司
+文启东
+D21H 21/16
+Loading...
+本发明涉及一种基于硅藻土的表面施胶剂组合物及其应用。所述组合物包含：淀粉；氯化钙；络合剂；白色系染料；硅藻土；和膨润土。本发明还涉及一种制造印刷纸的方法，所述方法采用所述组合物对印刷纸进行表面施胶。本发明还涉及所述组合物在印刷纸制造中的应用。本发明所述的组合物采用硅藻土或者硅藻土与膨润土的组合来有效地抑制采用氯化钙-淀粉型施胶剂施胶制得的印刷纸的白度和亮度。
+69. 105200854 一种用于改善印刷品质的硅藻土型施胶剂组合物及其应用
+CN
+18.05.2016
+D21H 21/16 Loading...
+D21H 21/16
+Loading...
+201510607824.X
+内蒙古东盛硅藻土科技创新产业园有限公司
+文启东
+D21H 21/16
+Loading...
+本发明涉及一种用于改善印刷品质的硅藻土型组合物及其应用。所述组合物包含：淀粉；氯化钙；络合剂；白色系染料；硅藻土；膨润土；和云母。本发明还涉及一种制造印刷纸的方法，所述方法采用所述组合物对印刷纸进行表面施胶。本发明还涉及所述组合物在印刷纸制造中的应用。本发明所述的组合物采用硅藻土、膨润土和云母的组合来有效地抑制采用氯化钙-淀粉型施胶剂施胶制得的印刷纸的白度和亮度，同时改善了油墨转移率。
+70. WO/2016/070478 RULE TABLE ENTRY OPTIMIZATION METHOD AND APPARATUS FOR MESSAGE PROCESSING
+WO
+12.05.2016
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+PCT/CN2014/092780
+KYLAND TECHNOLOGY CO., LTD
+WANG, Lifeng
+H04L 12/741
+Loading...
+Provided are a rule table entry optimization method and apparatus for message processing, which are used for improving the accuracy of message processing. The method includes: after receiving a data packet to be processed, determining, by a switching device, rule table entries for processing the data packet; updating the number of times of the rule table entries being used after the data packet is processed using the rule table entries; and updating rule table entries stored in a TCAM according to the updated number of times of each rule table entry being used. Also provided is a corresponding apparatus. In the embodiments of the present invention, the number of times of each rule table entry being used is counted, and rule table entries stored in a TCAM are updated according to the number of times of each rule table entry being used; therefore rule table entries which are often used by users are stored under the condition that a TCAM space is not largely occupied, so that the waste of TCAM space resources can be reduced, and it is guaranteed that a data packet is normally processed.
+71. 105236906 一种基于硅藻土材料制成的硅酸盐-石膏复合砖及其制备方法
+CN
+11.05.2016
+C04B 28/14 Loading...
+C04B 28/14
+Loading...
+201510548880.0
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/14
+Loading...
+本发明提供了一种基于硅藻土材料制成的硅酸盐-石膏复合砖及其制备方法。所述方法包括(1)混合制浆、(2)湿坯制备、(3)高湿度培养和(4)蒸压。本发明还提供所述复合砖的制备方法。由本发明所述方法制得的复合砖具有优异的抗强度、干燥收缩低等优点。
+72. 105198344 一种含硅藻土材料的维纶纤维增强水泥板及其制备方法
+CN
+11.05.2016
+C04B 28/14 Loading...
+C04B 28/14
+Loading...
+201510548120.X
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/14
+Loading...
+本发明提供了一种含硅藻土材料的维纶纤维增强水泥板及其制备方法。所述方法包括(1)混合、(2)湿坯制备、(3)高湿度培养和(4)蒸压。本发明还提供所述含硅藻土材料的维纶纤维增强水泥板的制备方法。由本发明所述方法制得的含硅藻土材料的维纶纤维增强水泥板具有优异的抗强度、干缩率低等优点。
+73. 105236880 含硅藻土的水泥基填缝剂组合物及其应用
+CN
+11.05.2016
+C04B 28/04 Loading...
+C04B 28/04
+Loading...
+201510549562.6
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/04
+Loading...
+本发明提供了含硅藻土的水泥基填缝剂组合物及其应用。所述组合物的组成如下：(1)20至40重量份的硅藻土；(2)20至40重量份的石英砂；(3)0.5至2.5重量份的膨润土；(4)4至6重量份的重质碳酸钙；(5)1至2重量份的硅酸钠；(6)10至20重量份的方解石粉；(7)4至8重量份的海泡石粉末；(8)2至4重量份的钛白粉；(9)1至2重量份的纤维素，所述纤维素选自由羟乙基纤维素、羟乙基甲基纤维素、羟丙基甲基纤维素中至少一种；和(10)30至40重量份的水泥。本发明还提供了所述组合物在填缝作业中的应用。本发明使得水泥基填缝剂组合物可以具有硅藻土的各种优点例如质轻、隔音、耐磨等本身的性能。
+74. 105198479 一种利用硅藻土制备含淀粉陶瓷浆料的方法
+CN
+11.05.2016
+C04B 38/00 Loading...
+C04B 38/00
+Loading...
+201510656956.1
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 38/00
+Loading...
+本发明涉及一种利用硅藻土制备含淀粉陶瓷浆料的方法，所述方法包括如下步骤：(1)利用球磨机将由陶瓷粉料、淀粉、硅藻土和可选的膨润土组成的粉料组合物球磨4至6小时，得到粒径为5微米至15微米的球磨粉料；(2)将分散剂和水混合，制得分散剂溶液；(3)将所述球磨粉料加入到所述分散剂溶液中，制备固含量为60至70重量％的陶瓷浆料。本发明还涉及由所述方法制得的陶瓷浆料以及所述陶瓷浆料在制备多孔陶瓷材料中的应用。本发明的所述陶瓷浆料具有淀粉含量高、固含量高并且粘度低等特性，可以用于制备高孔隙度的高质量的多孔陶瓷材料。
+75. 105323171 一种网络设备清除MAC地址表的方法及装置
+CN
+10.02.2016
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201410324078.9
+北京东土科技股份有限公司
+何英军
+H04L 12/741
+Loading...
+本发明提供一种网络设备清除MAC地址表的方法及装置，该方法中，网络设备接收TC报文或者携带TC标记的RSTP报文；根据所述TC报文或携带TC标记的RSTP报文中携带的端口信息，判断在定时器的定时时间长度内清除该端口的MAC地址表的次数是否达到设定阈值；当清除该端口的MAC地址表的次数未达到设定阈值时，清除所述端口的MAC地址表，并将该端口对应的清表次数加1，否则，禁止清除该端口的MAC地址表。由于在本发明中设置了在定时器的时间长度内对端口MAC地址表的清除次数，因此在网络设备的状态机稳定之前，对每个端口的MAC地址表的清除次数在定时器的时间长度内最多是设定阈值，因此可以有效的避免流量泛洪。
+76. 105302738 一种内存分配方法及装置
+CN
+03.02.2016
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201510906621.0
+北京东土科技股份有限公司
+汤渊清
+G06F 12/02
+Loading...
+本发明实施例公开了一种内存分配方法及装置。一种内存分配方法，包括以下步骤：接收目标任务的内存申请；根据所述申请内存大小，确定分配内存大小；确定第一内存池中是否存在满足所述分配内存大小的空闲内存块；如果存在，在所述第一内存池中为所述目标任务分配所述分配内存大小的内存块；否则，在所述目标任务的优先级高于预设的优先级阈值的情况下，在预先保留的第二内存池中为所述目标任务分配所述分配内存大小的内存块。应用本发明实施例所提供的技术方案，当第一内存池中内存耗尽时，系统可以将预先保留的内存分配给优先级较高的关键任务，保证系统的基本管理能力以及诊断能力，提高系统的安全性和可靠性。
+77. 105282109 一种VLAN聚合中ARP代理的方法及装置
+CN
+27.01.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410325361.3
+北京东土科技股份有限公司
+何英军
+H04L 29/06
+Loading...
+本发明实施例提供了一种VLAN聚合中ARP代理的方法及装置，在该方法中Super？VLAN设备转发第一交换机发送的ARP请求报文，并启动老化定时器，根据在老化定时器的计时时间长度内，是否接收到第二交换机返回的ARP应答报文，确定是否通知第一交换机和第二交换机建立连接。由于在本发明实施例中Super？VLAN设备转发第一交换机的ARP请求报文，在老化定时器的计时时间长度内接收到第二交换机返回的ARP应答报文时，才通知第一交换机和第二交换机建立连接，从而避免了在等待第二交换机返回ARP应答报文时，自身的端口受到第一交换机的报文冲击，从而保证了网络的可靠性。
+78. WO/2016/004647 DYNAMIC PATH ADJUSTMENT METHOD AND APPARATUS FOR LINK CONGESTION
+WO
+14.01.2016
+H04L 12/729 Loading...
+H04L 12/729
+Loading...
+PCT/CN2014/082623
+KYLAND TECHNOLOGY CO., LTD
+XIONG, Wenzhu
+H04L 12/729
+Loading...
+A dynamic path adjustment method and apparatus for link congestion. In the method, when a label edge router cannot allocate an LSP for a bandwidth requirement of a pre-application link of a data packet to be sent currently, the label edge router determines each LSP to a destination address according to the bandwidth requirement and the destination address; determine whether the sum of reserved bandwidths of all LSPs meets the bandwidth requirement; if yes, use the reserved bandwidth of each LSP to send the data packet to be sent; otherwise, add the bandwidth requirement of the pre-application link of the data packet to be sent to a waiting queue. Whether the current bandwidth requirement can be met is determined according to the sum of reserved bandwidths of all determined LSPs, that is, the reserved bandwidth of each LSP is used as the bandwidth for transmitting the data packet, so that the bandwidth resource is efficiently used, the transmission efficiency of the data packet is improved, and the real-time requirement of data packet transmission is met.
+79. WO/2016/004646 METHOD, SYSTEM AND APPARATUS FOR ACQUIRING TOPOLOGICAL CONNECTION RELATIONSHIP BETWEEN DEVICES
+WO
+14.01.2016
+H04L 12/751 Loading...
+H04L 12/751
+Loading...
+PCT/CN2014/082622
+KYLAND TECHNOLOGY CO., LTD
+YUAN, Zhiya
+H04L 12/751
+Loading...
+The present application provides a method, system and apparatus for acquiring the topological connection relationship between devices, which realize determination of the topological relationship between switches. In the method, a first switch sends, through each LINK UP port of the first switch, a MAC notification packet having a destination address and a source address being a MAC address of the port or a bridge MAC of the first switch; and it is determined, according to the number of second switches comprised in an associated switch group corresponding to each port, whether the port of the first switch is connected to ports, learning the MAC address of the port of the first switch, of the second switches in the associated switch group. In embodiments of the present application, each switch sends a MAC notification packet through each LINK UP port of the switch, and the connection relationship between the ports of the switches is determined according to the information of each switch in an associated switch group and a non-associated switch group, and therefore determination of the topological connection relationship between devices is achieved.
+80. WO/2016/004644 METHOD AND APPARATUS FOR MONITORING ETHERNET CLOCK SYNCHRONIZATION
+WO
+14.01.2016
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+PCT/CN2014/082619
+KYLAND TECHNOLOGY CO., LTD
+YIN, Erfei
+H04J 3/06
+Loading...
+The present application provides a method and apparatus for monitoring Ethernet clock synchronization. In the method, when a slave clock device returns a delay request packet to a master clock device, the delay request packet carries link delay information, determined by the slave clock device, between the master clock device and the slave clock device of a last time synchronization cycle, so that the master clock device can determine a time deviation between the master clock device and the slave clock device and determine, according to whether the time deviation is smaller than a set time deviation threshold, whether to send alarm information. Because in embodiments of the present application, the slave clock device returns the determined link delay information between the slave clock device and the master clock device to the master clock device, the master clock device can determine a time synchronization condition of the slave clock device so as to achieve the purpose of monitoring the slave clock device, and thus precision demands of time synchronization are ensured and loss caused by inaccuracy of time synchronization is reduced.
+81. WO/2016/004645 IEEE1588 CLOCK SYNCHRONIZATION METHOD, SYSTEM AND APPARATUS BASED ON E1 LINK
+WO
+14.01.2016
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+PCT/CN2014/082620
+KYLAND TECHNOLOGY CO.,LTD
+YIN, Erfei
+H04L 7/00
+Loading...
+An IEEE1588 clock synchronization method, system and apparatus based on an E1 link, which are used for improving precision of clock synchronization. In the method, a second conversion device keeping clock synchronization with a slave clock device determines a link delay from a first conversion device to the second conversion device according to a time point t2 of each timestamp t1 in multiple received E1 packets, receives a link delay, sent by the first conversion device keeping clock synchronization with a maser clock, from the second conversion device to the first conversion device, and performs time synchronization on a clock of the slave clock device according to the determined link delay between the first conversion device and the second conversion device. Because clock synchronization is performed by the second conversion device keeping clock synchronization with the slave clock, timestamps are attached to ingoing and outgoing synchronization packets at the conversion device, and a link delay is determined by sending multiple E1 packets carrying timestamps, so that the influence caused by a delay jitter of the E1 link is avoided, and precision of clock synchronization is improved.
+82. 105174840 一种硅藻土-粉煤灰型填缝剂组合物及其应用
+CN
+23.12.2015
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201510548821.3
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/00
+Loading...
+本发明提供了一种硅藻土-粉煤灰型填缝剂组合物及其应用。所述组合物的组成如下：(1)20至40重量份的硅藻土；(2)10至15重量份的粉煤灰；(3)0.5至2.5重量份的膨润土；(4)4至6重量份的重质碳酸钙；(5)1至2重量份的硅酸钠；(6)10至20重量份的方解石粉；(7)4至8重量份的海泡石粉末；(8)2至4重量份的钛白粉；(9)1至2重量份的纤维素，所述纤维素选自由羟乙基纤维素、羟乙基甲基纤维素、羟丙基甲基纤维素中至少一种；和(10)30至40重量份的水泥。本发明还提供了所述组合物在填缝作业中的应用。本发明使得水泥基填缝剂组合物可以具有硅藻土的各种优点例如质轻、隔音、耐磨等本身的性能。而且，本发明还可以利用粉煤灰来制备填缝剂，从而降低了填缝剂的制造成本。
+83. 105175635 一种包含硅藻土的淀粉系保水剂及其制备和应用
+CN
+23.12.2015
+C08F 251/00 Loading...
+C08F 251/00
+Loading...
+201510649678.7
+北京东泰富博新材料科技股份有限公司
+文启东
+C08F 251/00
+Loading...
+本发明提供了一种包含硅藻土的淀粉系保水剂及其制备和应用。所述保水剂的原料组成如下：以重量份计，丙烯酰胺100份、丙烯酸10至20份、淀粉40至60份、硅藻土30至50份、引发剂3至5份、交联剂0.6至0.8份、壬基酚聚氧乙烯醚6至8份、石油醚6至8份。本发明还提供了一种制备包含硅藻土的所述保水剂的方法以及所述保水剂的应用。本发明所述的保水剂具有吸水量大、容易降解因而环境友好以及吸水后结构强大大等优点。可以应用于卫生用品、农林园艺、日用化工、食品工业、建筑工业、医药纺织等领域。
+84. 105174839 用于与水泥组合使用来制备板材的组合物、使用方法以及由其制得的板材
+CN
+23.12.2015
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201510548129.0
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/00
+Loading...
+本发明提供了用于制备板材的含硅藻土的组合物、使用其制备板材的方法以及由其制得的板材。所述组合物的组成如下：60重量份至70重量份的硅藻土；40重量份至60重量份的石英砂；20重量份至25重量份的水泥；10重量份至20重量份的无机纤维；2重量份至5重量份的无机填料；和0.5重量份至2.5重量份的膨润土。本发明还提供了一种制备基于硅藻土的纤维增强板材的方法以及由此制得的板材。本发明的组合物具有稳定性好等优点，并且由本发明方法所制得的硅藻土板材具有质量轻、高强度并且纵横各向强度均一等优点。
+85. 105174838 制备基于硅藻土的纤维增强板材的方法及由此制得的板材
+CN
+23.12.2015
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201510547744.X
+北京东泰富博新材料科技股份有限公司
+文启东
+C04B 28/00
+Loading...
+本发明提供了一种制备基于硅藻土的纤维增强板材的方法及由此制得的板材。本发明的所述方法包括如下步骤：(1)将硅藻土、石英砂、水泥、无机纤维、无机填料和膨润土于水中混合制浆；(2)将所述浆料制成湿坯；(3)将湿坯于高湿度条件下培养；(4)将所述坯体于蒸压釜中进行高温养护以制成板材；(5)将板材高温干燥，从而得到所述基于硅藻土的纤维增强板材。由本发明方法所制得的硅藻土板材具有质量轻、高强度并且纵横各向强度均一的特点。
+86. 105126782 基于硅藻土的粉状过滤材料及其制备方法和应用
+CN
+09.12.2015
+B01J 20/26 Loading...
+B01J 20/26
+Loading...
+201510464955.7
+北京东泰富博新材料科技股份有限公司
+文启东
+B01J 20/26
+Loading...
+本发明提供了一种用于制备基于硅藻土的粉状过滤材料的方法，其特征在于，所述方法主要包括如下步骤：获得硅藻土粉末；将所述硅藻土粉末与一元碱水溶液蒸煮，获得硅藻土蒸煮液；将所述硅藻土蒸煮液过滤，获得硅藻土蒸煮滤液；依次向所述硅藻土蒸煮滤液添加甘油、聚乙烯吡咯烷酮和乙醇并搅拌均匀；将pH调节至pH 5至6，然后在室温静置至胶凝，得到第一硅藻土凝胶；将所述第一硅藻土凝胶浸泡在乙醇中12小时至18小时，得到第二硅藻土凝胶；将所述第二硅藻土凝胶进行超临界干燥，得到所述基于硅藻土的粉状过滤材料。由本发明的方法所制得的粉状过滤材料的具有显著的吸收甲醛的能力，可以用于室内空气过滤，例如可以制造成滤芯放到空调机的风道中。
+87. WO/2015/176212 TCAM AND FPGA-BASED PACKET PROCESSING METHOD AND DEVICE
+WO
+26.11.2015
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+PCT/CN2014/077799
+KYLAND TECHNOLOGY CO., LTD
+DING, Yuqi
+H04L 12/741
+Loading...
+A TCAM and FPGA-based packet processing method and device. The method comprises: according to a packet type of a received packet, extracting, by a switch, data header information about the packet, wherein the data header information comprises at least one piece of unary information and at least one piece of multiple information; searching for flow tables corresponding to all pieces of information in each data header in parallel and integrating output results; and judging whether a multiple flow table corresponding to the multiple information is idle when the data header information is multiple information, and sending the multiple flow table to a processing queue of the multiple flow table when the multiple flow table is not idle. By means of the solution provided in the embodiments of the present invention, the deep parsing conducted on a packet can be effectively realized, and the results obtained by looking up a table previously can be effectively associated in a manner of combining parallel connection with series connection and the processing efficiency of the packet can be effectively increased.
+88. WO/2015/176213 NODE DEVICE ACCESS METHOD, SYSTEM AND APPARATUS BASED ON MAC ADDRESS
+WO
+26.11.2015
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+PCT/CN2014/077800
+KYLAND TECHNOLOGY CO., LTD
+HE, Yingjun
+H04L 12/28
+Loading...
+A node device access method, system and apparatus based on a MAC address. In the method, a first node device receives a MAC conflict detection packet sent by a newly added node device; determines, according to locally saved MAC addresses of other node devices in a network where the first node device is located, whether a MAC address of the newly added node device conflicts with the MAC addresses of the other node devices; when a conflict exists, stops forwarding the packet; and when no conflict exists, saves the MAC address, and adds a timestamp for receiving the packet to the packet and forwards the packet. In embodiments of the present invention, each node device saves MAC addresses of other node devices in a network where the node device is located; therefore, when the node device receives a MAC conflict detection packet, the node device can make overall judgment according to the condition in the network, and the access efficiency of the node device can be improved; in addition, when no conflict is detected, a timestamp is added to the packet, so that follow-up MAC address counterfeit detection can be facilitated, and the security of the system is improved.
+89. 105099771 一种主备链路切换、实现链路冗余备份方法及装置
+CN
+25.11.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201510383324.2
+北京东土科技股份有限公司
+江启运
+H04L 12/24
+Loading...
+本发明实施例公开了一种主备链路切换、实现链路冗余备份方法及装置。一种主备链路切换方法，应用于第一交换设备，可以包括以下步骤：接收故障通讯报文；根据本地配置信息表中记录的针对每个备份组自身为相应链路分配的端口的端口号，查找对应的端口；将查找到的端口设置为打开状态，使与该端口连接的第一链路处于连通状态；一种实现链路冗余备份方法，应用于第一交换设备，可以包括以下步骤：监测自身与所述第二交换设备连接的DRP环网链路的链路状态；查找处于阻塞状态的每个端口；从查找到的端口中选择一个端口，设置为打开状态。应用本发明实施例所提供的技术方案，降低了链路的冗余备份的运行成本，可以满足工业应用中毫秒级的切换要求。
+90. 105099743 一种列车冗余动态配置方法及系统
+CN
+25.11.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201410212407.0
+北京东土科技股份有限公司
+江启运
+H04L 12/24
+Loading...
+本发明实施例提供一种列车冗余动态配置方法及系统，在该方法中，第一骨干交换机判断自身是否位于列车车头或车尾位置；当判定结果为是时，第一骨干交换机识别通过子网冗余线与其连接的第二骨干交换机；第二骨干交换机根据通过子网冗余线与第一骨干交换机连接的第一子网冗余端口，将自身的第二子网冗余端口阻塞。由于在本发明实施例中各骨干交换机之间通过子网冗余线进行连接，每个骨干交换机的子网端口分别与子网冗余第一端口和第二端口bypass，通过设置骨干交换机其中一个子网冗余端口阻塞，完成相邻骨干交换机的相互备份，从而实现了骨干交换机的动态冗余配置，保证了列车以太网的可靠性，提高了列车组网的灵活性。
+91. 105094995 一种内核与用户态进程间的安全通信传输方法和系统
+CN
+25.11.2015
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+201410211069.9
+北京东土科技股份有限公司
+何英军
+G06F 9/54
+Loading...
+本发明公开一种内核与用户态进程间的安全通信传输方法和系统，包括以下步骤：1、用户态进程向内核发起握手通信，所述握手通信由内核接收用户态进程发送通信消息，其中内核对所述具有握手通信消息的CRC值进行校验，2、用户态进程接收所述内核回复的包含该消息队列序号的通信消息，对内核回复的包含该消息队列序号的通信消息的CRC值进行校验；3、用户态进程向内核发送包括消息队列序号的通信消息，内核接收到该通信消息时，首先将通信消息中的消息队列序号与内核保存的消息队列序号表进行比较。4、根据比较结果，用户态进程从通信消息获得消息队列序号，解决Netlink协议传输过程可能被修改的危险，从而提升了系统本身的安全性。
+92. 105099165 一种高压电源的EMC防护和滤波装置及方法
+CN
+25.11.2015
+H02M 1/44 Loading...
+H02M 1/44
+Loading...
+201410211238.9
+北京东土科技股份有限公司
+孙学民
+H02M 1/44
+Loading...
+本发明公开了一种高压电源的EMC防护和滤波装置及方法，解决现有设备在受到EMC干扰时，导致工业以太网交换机收发数据丢包的问题。本装置包括：第一防护模块、共模滤波模块、第二防护模块、电源转换模块和干扰噪声滤波模块；电源输入端依次连接第一防护模块、共模滤波模块、第二防护模块、电源转换模块和干扰噪声滤波模块；其中，第一防护模块和第二防护模块中的元件在共模滤波模块的前后等效组成双T型滤波器，提高共模滤波模块的输入阻尼，干扰噪声滤波模块中的元件组成T型滤波器、π型滤波器，减小直流输出的高频噪声和尖峰干扰，使得工业以太网交换机的交流供电入口在有高级别的EMC干扰时，设备收发数据零丢包，有效地提高了设备的可靠性。
+93. WO/2015/172398 METHOD AND APPARATUS FOR ACQUIRING PACKET TRANSMISSION DELAY
+WO
+19.11.2015
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+PCT/CN2014/077877
+KYLAND TECHNOLOGY CO., LTD
+REN, Cankao
+H04J 3/06
+Loading...
+Disclosed are a method and apparatus for acquiring a packet transmission delay. The method comprises: acquiring first clock information for receiving a communication packet by a receiving port and second clock information for sending the communication packet by a sending port; and determining a transmission delay of the communication packet in a switch according to the first clock information and the second clock information. By using the technical scheme, corresponding timestamp information is added by a switch to a designated position in the communication packet, and a transmission delay of the corresponding communication packet in the switch is determined during the local transmission process of the communication packet in the switch according to the timestamp information, so that the transmission delay of the communication packet in the switch can still be conveniently and rapidly determined in a case in which an industrial measurement and control system is out of synchronization with a synchronous source, thereby ensuring device fault protection in the industrial measurement and control system and the accuracy of a fault detection result.
+94. WO/2015/103735 DEVICE CONFIGURATION CONNECTION PROTECTION METHOD, SYSTEM AND APPARATUS
+WO
+16.07.2015
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2014/070251
+KYLAND TECHNOLOGY CO., LTD
+LV, Zhiyong
+H04L 12/24
+Loading...
+A device configuration connection protection method, a system and an apparatus, wherein the method comprises: a managed device, based on a configuration connection protection enabling instruction that is received, backing up current configuration information of itself; receiving first configuration information, updating a configuration parameter of itself, and periodically sending a connectivity detection request message to a management device; and when determining that a connectivity detection response message is not received in a time interval that is set, based on backup configuration information saved by itself, restoring configuration information of itself to an initial configuration. In embodiments of the present invention, because the managed device periodically sends the connectivity detection request message, and when the connectivity detection response message is not received within certain time, restores to a configuration when the configuration connection protection enabling instruction is received based on the configuration information that is saved in advance; thus the initial configuration before the configuration is modified can be restored timely, ensuring that a connection can be quickly established with the management device for re-configuration, and improving a fault tolerance rate of a configuration process.
+95. WO/2015/081502 NETWORK SERVICE FLOW-BASED DYNAMIC CONTROL TRANSMISSION METHOD AND APPARATUS
+WO
+11.06.2015
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+PCT/CN2013/088454
+KYLAND TECHNOLOGY CO.,LTD
+WANG, Liwen
+H04L 12/801
+Loading...
+Disclosed are a network service flow-based dynamic control transmission method and apparatus. By identifying the type of each service flow in network transmission, a traffic threshold is set for transmission of each service flow, and basic normal traffic transmission for which each service flow can be transmitted in a network is ensured; for transmission of a constantly-changing service flow, a method, for determining that one or some service flows with large traffic changes are in dynamic control transmission on the basis of comparison between a transmission priority of each service flow and a change of an actual transmission traffic of the service flow, is used. The method can ensure normal transmission of the service flows, and can also ensure transmission of some high-traffic service flows in a practical application, thereby ensuring the service quality of a specific service flow demand.
+96. WO/2015/081499 METHOD AND DEVICE FOR PREVENTING RING NETWORK PROTOCOL MESSAGES FROM ATTACKING CPU OF DEVICE
+WO
+11.06.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/088448
+KYLAND TECHNOLOGY CO., LTD
+JIANG, Qiyun
+H04L 29/06
+Loading...
+A method and device for preventing ring network protocol messages from attacking the CPU of a device are disclosed, and solve the problems that the normal operation of a ring network is affected and ring network protocol is abnormal when the ring network protocol messages are prevented from attacking the CPU of the device in the prior art. The method includes: when a device detects that the number of messages processed by itself is exceeding, generating a random value for generating a ring network protocol eigenvalue and sending the random value to each device in the ring network, so that the hardware of each device detects the received messages by using the new generated eigenvalue, and sending the messages to the CPU for processing when the messages is not attacking messages. In the embodiments of the present invention, when the ring network protocol messages processed by itself are exceeding, the ring network protocol eigenvalue of each device in the ring network is updated, thus filtering the attacking messages in time, and effectively preventing the ring network protocol messages from attacking the CPU of the device by hardware judgment.
+97. WO/2015/081542 NETWORK SERVICE BASED CONFIGURATION IMPLEMENTATION METHOD AND SYSTEM
+WO
+11.06.2015
+H04L 12/927 Loading...
+H04L 12/927
+Loading...
+PCT/CN2013/088687
+KYLAND TECHNOLOGY CO., LTD
+CHEN, Fanmin
+H04L 12/927
+Loading...
+Disclosed are a network service based configuration implementation method and system, the method comprising: establishing a network service configuration database for a user; selecting from the database the configuration information such as topology structure, the identifier of a service flow and the identifier of a network device bearing the service flow, a physical port, and VLAN selection, and the like. based on network topology content and specific service content of a network service requirement, thus identifying a service type, a source MAC address and a destination MAC address in a network device port bearing the service flow; establishing a network topology from the identifier of the service flow and port configuration information in the network service configuration database; implementing a configuration by transmitting the same service in a VLAN selection, and issuing the configuration information to each network device, thus reducing the complexity of a network configuration. The configured network enables specific service transmission to be more identifiable, and improves the reliability of a network configuration list.
+98. WO/2015/035576 SECURE DATA TRANSMISSION METHOD, SYSTEM AND DEVICE BASED ON INDUSTRIAL ETHERNET
+WO
+19.03.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/083330
+KYLAND TECHNOLOGY CO., LTD
+DING, Jie
+H04L 29/06
+Loading...
+Disclosed are a secure data transmission method, system and device based on industrial Ethernet, which solve the problems that when data transmission is performed in the existing industrial Ethernet, a receiving end cannot verify the identity of a sending end and the security of data transmission cannot be guaranteed. In the method, when the sending end sends data information, the sending end also sends the digital signature and information to be verified thereof, and a switching device completes primary verification of the identity of the sending end according to timestamp information and key information which are contained in the information to be verified, completes secondary verification of the identity of the sending end according to the digital signature and checks the security of the data information according to industrial protocol information about the data information when the sending end passes identity verification. Since the present invention realizes comprehensive detection of the sending end and the data information, the objective of verifying the identity of the sending end is achieved, the detection of the security of the data information is also achieved, and therefore, the security of data transmission in industrial Ethernet is improved.
+99. WO/2015/027523 METHOD AND DEVICE FOR DETERMINING TCP PORT SCANNING
+WO
+05.03.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/082811
+KYLAND TECHNOLOGY CO., LTD
+DING, Jie
+H04L 29/06
+Loading...
+Disclosed in the present invention are a method and device for determining TCP port scanning, and the present invention solves the problem of low efficiency and narrow application range while a port scanning is detected in the prior art. A forwarding device identifies an SYN message in filtered port scanning messages to be determined. According to the source address information and the destination address information of the identified SYN message, an SYN plus ACK message is constructed and sent to a device corresponding to the source address information of the message. When the device corresponding to the source address information sends an ACK message to the device corresponding to the destination address information, if the quantity of SYN messages scanning the existent and nonexistent destination addresses or destination ports of the device corresponding to the destination address information at the same time is larger than a set threshold value N1, it is determined that the device is scanning TCP ports. The present invention can detect TCP port scanning of semi-hidden mode and low speed TCP port scanning, thus the application range of the detection method is extended, the system resources are saved, and determination efficiency of port scanning is improved.
+100. WO/2015/024250 METHOD AND SYSTEM FOR TRANSMITTING PRECISE CLOCK PACKET ACROSS NON-1588 NETWORKS
+WO
+26.02.2015
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+PCT/CN2013/082176
+KYLAND TECHNOLOGY CO., LTD
+KONG, Yong
+H04L 7/00
+Loading...
+Disclosed are a method and a system for transmitting a precise clock packet between non-1588 networks, which solve the problem that the precision is not high when an existing main switch and an auxiliary switch perform clock synchronization by crossing a switch not based on a 1588 protocol. The method comprises: an auxiliary clock receiving multiple Sync packets which are sent by a main clock and comprise each piece of first sending time information, determining each piece of first receiving time information, sending multiple Delay-Req packets comprising each piece of second sending time information to the main clock, and receiving corresponding multiple Delay-Resp packets which are returned by the main lock and comprise each piece of time receiving time information; and determining link delay according to the receiving time and the sending time, and performing clock synchronization. In the embodiments of the present invention, multiple clock synchronization packets of each category are sent, and some packets which are immune from a storage/forwarding mechanism always exist at an outlet port of a switch among the multiple clock synchronization packets, and accordingly, jitters of time delay can be effectively reduced, and the precision of clock synchronization can be improved.
+101. 104276775 一种低品质再生骨料的分级评价体系
+CN
+14.01.2015
+C04B 20/00 Loading...
+C04B 20/00
+Loading...
+201410323120.5
+北京东方建宇混凝土科学技术研究院有限公司
+王安岭
+C04B 20/00
+Loading...
+本发明公开了一种低品质再生骨料的分级评价体系，包括如下步骤：(1)对低品质再生骨料进行分级评价；(2)对普通骨料进行分级评价；(3)对混合骨料进行分级评价：混合粗骨料由低品质再生粗骨料和普通粗骨料组成，所述混合粗骨料的性能指标满足如下要求：压碎值指标＜30％，坚固性小于12％，1h吸水率＜3％；混合细骨料由低品质再生细骨料和普通细骨料组成，所述混合细骨料的性能指标满足如下要求：28d抗压强度比≥85％，坚固性＜10％，饱和面干吸水率＜5％。满足本发明所述分级评价指标的低品质砖再生骨料用于制备再生骨料混凝土时，再生骨料混凝土具有抗压强度高、性能稳定等优点。可以有效解决低品质再生骨料的再利用问题。
+102. 104261731 一种再生骨料混凝土的配合比设计方法
+CN
+07.01.2015
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201410323257.0
+北京东方建宇混凝土科学技术研究院有限公司
+武俊宇
+C04B 28/00
+Loading...
+本发明提供一种再生骨料混凝土配合比的设计方法，包括如下步骤：(1)设定需要配制的再生骨料混凝土的设计强度，根据JGJ55-2011《普通混凝土配合比设计规程》中规定的设计方法，计算该设计强度下再生骨料混凝土的水胶比、用水量、胶凝材料用量、砂率，细骨料用量和粗骨料用量；(2)初步确定再生粗骨料的掺加比例；(3)初步确定再生细骨料的掺加比例；(4)确定再生骨料混凝土的配制强度；(5)确定再生骨料混凝土的总用水量(6)确定再生骨料混凝土的附加用水量。本发明所述配合比设计方法能够大掺量掺入低品质再生骨料及微粉，有利于推进再生骨料的应用，以及为低品质再生骨料的使用提供了借鉴及指导作用。
+103. WO/2014/161206 METHOD AND APPARATUS FOR TRANSMITTING CLOCK SYNCHRONIZATION PACKET IN E1 LINK
+WO
+09.10.2014
+H04B 7/26 Loading...
+H04B 7/26
+Loading...
+PCT/CN2013/074077
+KYLAND TECHNOLOGY CO., LTD
+WEI, Jinju
+H04B 7/26
+Loading...
+The present application provides a method and an apparatus for transmitting a clock synchronization packet in an E1 link, so as to solve the problem of inaccuracy of clock synchronization when the clock synchronization packet is transmitted in the E1 link. The method comprises: each slave clock performing time synchronization in a time slice allocated for each slave clock; and when an E1 interface receives an Ethernet packet for performing clock synchronization between a master clock and the slave clock, determining, according to a position of a timeslot of adding start position identification information and stored timeslot quantity information comprised in each packet, a timeslot for transmitting the packet, and transmitting the packet by using the determined timeslot. In the present application, each slave clock performs clock synchronization with a master clock in a time slice allocated for the slave clock, the temporary storage time of a synchronization packet in a buffer can be effectively reduced; in addition, when the slave clock receives an Ethernet packet for clock synchronization, the packet is transmitted instantly in a current timeslot, thereby further reducing the temporary storage time of the packet in the buffer and ensuring the accuracy of clock synchronization.
+104. WO/2014/161213 CLOCK SYNCHRONIZATION METHOD AND APPARATUS IN SEAMLESS REDUNDANT NETWORK
+WO
+09.10.2014
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+PCT/CN2013/075089
+KYLAND TECHNOLOGY CO., LTD
+XIAO, Zhizhong
+H04L 7/00
+Loading...
+Disclosed are a clock synchronization method and apparatus in a seamless redundant network, so as to solve the problem in the prior art that precision of synchronization between a primary node clock and a secondary node clock is low. The method comprises: a secondary clock node in a seamless redundant network receiving a seamless redundant packet through different seamless redundant ports of the secondary clock node separately; determining, according to a packet identifier carried by the received seamless redundant packet, whether each seamless redundant packet comprises PTP packet information; if a determining result is yes, storing the seamless redundant packets comprising the PTP packet information; parsing the stored seamless redundant packets received through different seamless redundant ports, and obtaining PTP adjustment value sets corresponding to the different seamless redundant ports according to the PTP packet information obtained by parsing; and selecting one PTP adjustment value set from the obtained PTP adjustment value sets to adjust a local clock of the secondary clock node.
+105. WO/2014/161205 METHOD, SYSTEM AND DEVICE FOR PROCESSING NETWORK CONGESTION
+WO
+09.10.2014
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+PCT/CN2013/074069
+KYLAND TECHNOLOGY CO., LTD
+HE, Yingjun
+H04L 12/801
+Loading...
+Provided are a method, system and device for processing network congestion, which solve the problems of hidden security dangers and ring network paralysis caused by the network congestion. The method comprises: after receiving a detection message, a first node device detecting whether the traffic of each port thereof exceeds a set traffic average value or not; when the traffic of a non-ring port exceeds the set traffic average value corresponding to the port, closing the port; and when the port is a ring port, stopping receiving a message through the ring port, sending the detection message to a third node device connected thereto, and then notifying a second node device to open the ring port which is used for receiving congestion conditions. The present application detects whether each port of each node device has a fault or not through the detection message and the traffic average value which is set corresponding to each port of each node device, and closes the port having a fault until the port is found, thereby effectively processing the problem of network congestion, effectively avoiding ring network paralysis and improving the security of a ring network.
+106. 104072061 Macroporous concrete containing low grade recycled aggregates and preparation method of concrete
+CN
+01.10.2014
+C04B 28/04 Loading...
+C04B 28/04
+Loading...
+201410318445.4
+北京东方建宇混凝土科学技术研究院有限公司
+段遵莉
+C04B 28/04
+Loading...
+The invention discloses macroporous concrete containing low grade recycled aggregates. The macroporous concrete containing low grade recycled aggregates is prepared from the following raw materials: cement, water, low grade recycled aggregates, modified starch and a sugar retarder, wherein the grain size of the low grade recycled aggregates is 5-16mm, and the bulk density is 700-900kg/m<3>. The macroporous concrete containing low grade recycled aggregates is further prepared from additional water, the use level of which is calculated according to the follow formula: delta W=mgr*wgr, wherein delta W is the use level of the additional water of the macroporous concrete containing low grade recycled aggregates; mgr is the use level of the low grade recycled aggregates and wgr is 1h water absorption of the low grade recycled aggregates. According to the invention, the grade recycled aggregates are applied to preparation of the macroporous concrete, so that the mixture state satisfies the using demand under the condition that an additive in an extra amount is not added by virtue of adjusting the raw materials and matching with the sugar retarder and modified starch.
+107. 104009924 Message processing method and device based on TCAM and FPGA
+CN
+27.08.2014
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201410211306.1
+北京东土科技股份有限公司
+丁玉奇
+H04L 12/741
+Loading...
+The invention provides a message processing method and device based on the TCAM and FPGA. According to the method, an interchanger extracts data packet header information of a message according to the type of the message received, wherein the data packet header information comprises at least one piece of unitary information and at least one piece of multi-component system information; flow tables corresponding to each piece of information in each data packet header are looked up concurrently, output results are integrated, whether a multi-component system flow table corresponding to the multi-component system information is idle is judged when the data packet header information is the multi-component system information, and the multi-component system flow table is sent to a multi-component system flow table processing queue when the multi-component system flow table is not idle. According to the scheme, deep analysis of the message can be achieved effectively, results obtained through lookup before can be effectively correlated through combination of parallel connection and serial connection, and message processing efficiency can be effectively improved.
+108. 203734973 一种模块插拔与锁紧构件
+CN
+23.07.2014
+H05K 7/12 Loading...
+H05K 7/12
+Loading...
+201320767562.X
+北京东土科技股份有限公司
+王若男
+H05K 7/12
+Loading...
+本实用新型公开了一种模块插拔与锁紧构件，用于电子设备模块在机框中的固定和拆装。构件基本设计为一种桥型悬置臂，与模块配合装配，并可在模块侧壁导槽前后滑动，在不占用空间的情况下，可方便地实现电子设备模块的紧固和插拔。本实用新型具有构造简单，成本低、重量轻等特点，可满足动态环境及对于空间要求较苛刻等情况下电子设备模块拆、装的需要。
+109. 203689424 高可靠CPCI以太网交换机
+CN
+02.07.2014
+G06F 1/20 Loading...
+G06F 1/20
+Loading...
+201420027033.0
+北京东土科技股份有限公司
+窦木辉
+G06F 1/20
+Loading...
+高可靠CPCI以太网交换机，属于通信电子设备领域，包括交换机主机箱，钢丝绳隔震底座，CPCI核心机架模块，滑轨支架。交换机采用模块化设计，整体考虑散热、密闭防护、减震等问题的解决。交换机内部核心机架模块采用散热器结合风洞加速散热,主机箱侧板配有与散热风洞紧密配合的风道法兰向外通风，底部通过钢丝绳隔震器与隔震底座连接。本产品在密封性、抗震性、散热性等方面都达到了较高的等级，满足了舰载、车载等恶劣环境下设备可靠使用的要求。
+110. WO/2014/079092 REAL TIME DATA TRANSMISSION METHOD AND NODE DEVICE
+WO
+30.05.2014
+H04L 12/853 Loading...
+H04L 12/853
+Loading...
+PCT/CN2012/085600
+KYLAND TECHNOLOGY CO., LTD
+MA, Huayi
+H04L 12/853
+Loading...
+A real time data transmission method and node device, solving the problem of wasting network bandwidth resources in the prior art during TTE-based data transmission; the method comprising: when a main node receives a packet transmission request transmitted by a node, determining the packet transmission physical link of each node; dividing the nodes using different physical links by group, each node being uniquely located in only one group; determining the time slot of each group according to the time slot length allocated to each node in each group; and notifying each node to transmit data according to the time slot allocated to the group to which the node belongs. The nodes using different physical links are placed in one group, and each group is allocated the same time slot, therefore the nodes in the group can transmit data at the same time according to the allocated time slot, thus effectively saving the data transmission time in a network, and effectively improving bandwidth resource utilization rate.
+111. WO/2014/079088 METHOD AND NODE FOR IMPLEMENTING REDUNDANCY ON BASIS OF CHAIN NETWORK
+WO
+30.05.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2012/085564
+KYLAND TECHNOLOGY CO., LTD
+JIANG, Qiyun
+H04L 12/24
+Loading...
+Disclosed are a method and a node for implementing redundancy on the basis of a chain network, so as to solve the problem that the existing redundancy switching mode needs a large amount of network device overhead and long link switching time. The method in the embodiments of the present invention comprises: each node of a chain network selecting a main node of the chain network according to a received notification packet sent by another node; the selected main node setting one of two ports comprised by the selected main node to a blocking state, and setting the other port to a forwarding state, and periodically sending the notification packet by using the two ports, and an edge node returning a response packet after the edge node receives the notification packet; and each node determining ON and OFF states of the chain network on the basis that whether a network management packet of the chain network is received, and when each node determines that link interruption occurs on the chain network, again determining the main node of the chain network. By using the technical solutions of the present invention, rapid switching of the redundancy can be implemented, the repairing speed can be improved, and the reliability of the network can be improved.
+112. WO/2014/079091 TIME-TRIGGERED ETHERNET-BASED DATA TRANSMISSION METHOD AND NODE DEVICE
+WO
+30.05.2014
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+PCT/CN2012/085598
+KYLAND TECHNOLOGY CO., LTD
+MA, Huayi
+H04L 12/70
+Loading...
+A time-triggered Ethernet (TTE)-based data transmission method and node device, solving the problem of wasting network bandwidth resources in the prior art during TTE-based data transmission; in the method, a main node determines a scheduling period table based on a time-triggered packet; when a node has a to-be-transmitted event-triggered packet, and the node determines, according to the information stored in the scheduling period table, that a physical link occupied by the event-triggered packet is not in conflict with a physical link corresponding to the current time slot, the node transmits the event-triggered packet in the current time slot. The main node does not need to separately allocate time for the event-triggered packet of each node. Therefore, when a node has a to-be-transmitted event-triggered packet, the node can transmit the event-triggered packet in the current time slot as long as the physical link occupied by the event-triggered packet is not in conflict with the physical link corresponding to the current time slot, thus effectively improving data transmission efficiency and network bandwidth utilization.
+113. 103755186 Modified phosphorous slag powder, concrete prepared from modified phosphorous slag powder and preparation method of concrete
+CN
+30.04.2014
+C04B 18/04 Loading...
+C04B 18/04
+Loading...
+201310720258.4
+北京东方建宇混凝土科学技术研究院有限公司
+段遵莉
+C04B 18/04
+Loading...
+The invention provides a modified phosphorous slag powder, a concrete prepared from the modified phosphorous slag powder and a preparation method of the concrete, and belongs to the technical field of concrete preparation. The modified phosphorous slag powder comprises a phosphorous slag powder, an organic salt and cationic starch. The organic salt and the cationic starch are used for modifying the phosphorous slag powder in stead of common chemical excitation carried out on the phosphorous slag by using an inorganic alkali activator in the prior art; when the modified phosphorous slag powder is used for preparing the concrete, the dosage of the modified phosphorous slag powder accounts for 38-70wt% of the total amount of the cementing material; the 3d compressive strength of the concrete ranges from 14.5 to 33.5MPa, and the 28d compressive strength of the concrete ranges from 30.6 to 77.3MPa, and the stability of the concrete is good; the utilization rate of the phosphorous slag powder is greatly reduced while the cost of the concrete is reduced, and therefore, the environmental pollution problem caused by the phosphorous slag can be reduced.
+114. 103698241 Method for quantitatively measuring contents of mountain flour and mud in artificial sand or mixed sand
+CN
+02.04.2014
+G01N 5/00 Loading...
+G01N 5/00
+Loading...
+201310713176.7
+北京东方建宇混凝土科学技术研究院有限公司
+王安岭
+G01N 5/00
+Loading...
+The invention provides a method for quantitatively measuring contents of mountain flour and mud in artificial sand or mixed sand, and belongs to the field of construction. The method comprises the steps of (1) testing the total content omega of the mud powder and the mountain flour in the artificial sand or the mixed sand and the total MB value a of the mud powder and the mountain flour, and setting the content of the mud powder as omega and the content of the mountain flour as omega ; (2) preparing pure artificial sand or pure mixed sand; (3) taking i parts of a certain amount of pure artificial sand or pure mixed sand, respectively adding a certain amount of mountain flour to each part, measuring the MB value b of each part of mountain flour, and taking the average value; (4) taking j parts of a certain amount of pure artificial sand or pure mixed sand, respectively adding a certain amount of mud powder to each part, testing the content x and the MB value y of each part of the mud powder so as to obtain the regression equation of the MB value and the content of mud powder, wherein y=c+dx; and (5) determining the content omega of the mountain flour and the content omega of the mud powder according to the formulas in the specification, wherein omega s=omega-omega. The method provided by the invention can solve the problems in the prior art that the contents of the mud powder and the mountain flour in the artificial sand or the mixed sand cannot be simultaneously quantitatively calculated.
+115. 103693916 Lightweight aggregate concrete and preparation method thereof
+CN
+02.04.2014
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201310697448.9
+北京东方建宇混凝土科学技术研究院有限公司
+武俊宇
+C04B 28/00
+Loading...
+The invention provides lightweight aggregate concrete and a preparation method thereof, belonging to the technical field of concrete preparation. The lightweight aggregate concrete contains the following raw materials: cement, fly ash, slag powder, modified lightweight silicomanganese slag fine aggregate, ordinary ultrafine sand, lightweight coarse aggregate, water reducing agent and water, wherein the modified lightweight silicomanganese slag fine aggregate is organic salt modified lightweight silicomanganese slag, and the lightweight silicomanganese slag has the particle size of 0-5mm, the fineness modulus of 3.1-3.6, the apparent density of 1,600-2,000kg/m<3>, the bulk density of 700-1,000kg/m<3> and the crushing index of 10-50%. The lightweight aggregate concrete provided by the invention has the advantages of low cost and stable performance, meanwhile, the utilization ratio of silicomanganese slag is greatly increased while the cost of the concrete is reduced, and then, the reduction of environmental pollution caused by the silicomanganese slag is facilitated.
+116. 103634223 Network service flow based dynamic control transmission method and device
+CN
+12.03.2014
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201310642293.9
+北京东土科技股份有限公司
+王立文
+H04L 12/801
+Loading...
+The invention discloses a network service flow based dynamic control transmission method and device. According to the method, types of all service flows in network transmission are identified, then a traffic threshold is set for transmission of each service flow, and each service flow is ensured to be capable of realizing basic normal traffic transmission in network transmission; meanwhile, for transmission of each constantly-changing service flow, a method, for determining that one or some service flows with large traffic change are in dynamic control transmission on the basis of contrast between transmission priority of each service flow and change of actual transmission traffic of each service flow, is adopted. By the method, normal transmission of the service flows can be ensured, and transmission of some high-traffic service flows in practical application is guaranteed, so that service quality of specific service flow requirements is guaranteed.
+117. 103634423 Three-layered interface based MPLS-TP (multi-protocol label switching-transport profile) configuration method and device
+CN
+12.03.2014
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310647325.4
+北京东土科技股份有限公司
+邵继超
+H04L 29/12
+Loading...
+An embodiment of the invention provides a three-layered interface based MPLS-TP (multi-protocol label switching-transport profile) configuration method and device. The method includes: according to VLAN (virtual local area network) interface information in a self-stored label address table, sending an ARP (address resolution protocol) request message of label information through each VLAN interface; receiving a returned ARP reply message of the label information, comparing MAC (media access control) address information and out interface information carried in the ARP reply message with information in the label address table, and when destination MAC address information in the label address table is inconsistent with the out interface information, updating the label address table. Due to creation of a mapping list of the label information, next-hop IP (internet protocol) address information, the VLAN information, the out interface information and the destination MAC address information, when network topology changes, information for labeling next-hop nodes can be updated timely, and further flexibility in PTN (packet transport network) equipment configuration is improved greatly.
+118. 103634177 Method and system for implementing configuration on basis of network services
+CN
+12.03.2014
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201310655180.2
+BEIJING KYLAND TECHNOLOGY CO., LTD.
+CHEN FANMIN
+H04L 12/28
+Loading...
+The invention discloses a method and a system for implementing configuration on the basis of network services. The method and the system have the advantages that network service configuration databases are created for users, topological structures, identification of service flows, identification of network devices for carrying the service flows and configuration information of physical ports, VLAN (virtual local area network) selection and the like can be selected from the databases for network topological contents and specific service contents on the basis of network service requirements, accordingly, service types, source MAC (media access control) addresses and target MAC addresses can be identified according to ports for the network devices for carrying the service flows, network topology can be creased on the basis of the identification of the service flows and the configuration information of the ports in the network service configuration databases, the same services can be transmitted in selected VLANs, and the configuration can be implemented; the configuration information can be issued to the various network devices, so that the complexity and the troublesome degree of the network configuration can be lowered, the specific services can be transmitted among the configured networks in an identifiable manner, and network configuration lists are high in reliability.
+119. WO/2014/032350 METHOD AND NODE BASED ON SEAMLESS REDUNDANT RING NETWORK FOR INCREASING PRECISION OF CLOCK
+WO
+06.03.2014
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+PCT/CN2012/082004
+KYLAND TECHNOLOGY CO., LTD
+HUANG, Jianchao
+H04L 7/00
+Loading...
+A method and node based on a seamless redundant ring network for increasing clock precision. When synchronize clock information transmitted by an adjacent node or by a master clock is received by the node in the seamless redundant ring network, the node determines the residing duration of the synchronize clock information in the present node, where the residing duration is the length of time between a point in time that the synchronize clock information is inputted to an entry port and a point in time that the synchronize clock information is outputted to an exit port. The received synchronize clock information is revised on the basis of the determined residing duration. If the exit port is a ring port, then the revised synchronize clock information is forwarded to the adjacent node via the ring port; if the exit port is an external port, then the revised synchronize clock information is forwarded to a slave clock via the external port, thus allowing the slave clock to perform a clock synchronization on the basis of the synchronize clock information. The technical solution of the present invention solves the problem of increased synchronization error between the master and slave clocks.
+120. WO/2014/032348 DATA TRANSMISSION METHOD AND DEVICE BASED ON TIME TRIGGERED MECHANISM
+WO
+06.03.2014
+H04L 5/22 Loading...
+H04L 5/22
+Loading...
+PCT/CN2012/081972
+KYLAND TECHNOLOGY CO., LTD
+HUANG, Jianchao
+H04L 5/22
+Loading...
+A data transmission method and device based on a time triggered mechanism. In the method, request packets transmitted by nodes connected to a switching device is received by same, and the length of time corresponding to time slices is determined on the basis of the total bandwidth of communication links to a network node and of acquired information on the total number of bytes comprised by packets-to-be-transmitted by the nodes within one scheduling time cycle; a time cycle schedule table is determined on the basis of the determined length of time corresponding to the time slices and of the information on the total number of bytes comprised by the packets-to-be-transmitted by the nodes; and, the packets of the nodes are forwarded to the network node on the basis of the time cycle schedule table. In the present invention, the switching device employs, on the basis of data transmission requirements of the nodes, the time triggered mechanism to schedule the nodes by formulating the time cycle schedule table, and prevents the problem that some of the packets cannot be processed timely, thus effectively increases the degree of security of service processing.
+121. 103618723 Method and device for preventing looped network protocol message from attacking device CPU
+CN
+05.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310642307.7
+北京东土科技股份有限公司
+江启运
+H04L 29/06
+Loading...
+The invention discloses a method and device for preventing a looped network protocol message from attacking a device CPU. The problems that when an existing looped network protocol message is prevented from attacking the device CPU, the normal operation of the looped network is affected and the abnormity of a looped network protocol is caused are solved. The method comprises that when one device detects that messages to be processed by the device are overspeed, random values for generating the characteristic values of the looped network protocol are generated and sent to each device in the looped network so that the hardware of each device can detect the received messages according to the newly generated characteristic values, and if the messages are not attacking messages, the messages are sent to the CPU to be processed. When the device detects that the looped network protocol messages to be processed by the device are overspeed, the looped network protocol characteristic values of each device in the looped network are started to be updated, the attacking messages can be filtered in time, and by means of the hardware judging method, the device CPU can be effectively prevented from being attacked by the looped network protocol messages.
+122. 103618630 Data safe transmission method and device based on double up links
+CN
+05.03.2014
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201310655446.3
+BEIJING KYLAND TECHNOLOGY CO., LTD.
+LI YANRUI
+H04L 12/24
+Loading...
+The invention discloses a data safe transmission method and deice based on double up links. According to the embodiment of the invention, a plurality of ports connected to an upstream device are respectively configured to be action ports and monitoring ports, moreover, two connecting links are built between the action ports and the upstream device and between the monitoring ports and the upstream device respectively, the state of the action ports is set to be a blocked state, and data intersection is performed just through the connecting link between the monitoring ports and the upstream device, so that the configuration process is easy and convenient, the loop problem is effectively avoided, and network performance is effectively improved.
+123. 103580846 Method and system for transmitting precision clock message by spanning non-1588 network
+CN
+12.02.2014
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201310373843.1
+北京东土科技股份有限公司
+孔勇
+H04L 7/00
+Loading...
+The invention discloses a method and system for transmitting a precision clock message by spanning the non-1588 network. The method and system solve the problem that an existing main switch and an auxiliary switch perform clock synchronization by crossing a switch which is not based on the 1588 protocol, and the precision is not high. According to the method, multiple Sync messages containing each piece of first sending time information are sent from a main clock and received by an auxiliary clock, each piece of first receiving time information is determined and multiple Delay-Req messages comprising each piece of second sending time information are sent to the main clock and corresponding multiple Delay-Resp messages comprising each piece of time receiving time information are returned by the main lock and received. According to the receiving time and the sending time, link delay is determined and clock synchronization is performed. According to the method and system for transmitting the precision clock message by spanning the non-1588 network, multiple clock synchronization messages of each category are sent and messages which are immune from a storage/forwarding mechanism exist at an outlet port of the switch among the multiple clock synchronization messages, thus, the delay variation can be effectively relieved and clock synchronization precision is improved.
+124. WO/2014/000317 CONFIGURATION INFORMATION AUTO-MANAGEMENT METHOD BASED ON INTELLIGENT SUBSTATION
+WO
+03.01.2014
+H04L 12/70 Loading...
+H04L 12/70
+Loading...
+PCT/CN2012/078162
+KYLAND TECHNOLOGY CO., LTD
+MA, Huayi
+H04L 12/70
+Loading...
+A configuration information auto-management method based on an intelligent substation. The intelligent substation applies an IEC-61850 standard. The intelligent substation comprises an intelligent electronic device (IED) and a switch. The method comprises the following steps: parsing and obtaining communication configuration information of the IED device and communication association configuration information of the IED device according to an intelligent substation configuration file; and generating a switch configuration file according to the communication configuration information and communication association configuration information of the IED device. With the method, the intelligent substation configuration file is parsed, the switch configuration file is generated, and the switch configuration file is used to implement automated configuration of an industrial Ethernet switch in the intelligent substation.
+125. WO/2013/174025 TRANSPARENT CLOCK PASSIVE PORT ELECTION METHOD AND DEVICE BASED ON PTP PROTOCOL
+WO
+28.11.2013
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+PCT/CN2012/076216
+KYLAND TECHNOLOGY CO.,LTD
+MA, Huayi
+H04L 7/00
+Loading...
+Provided are a transparent clock passive port election method and device based on the PTP protocol. In the method, by extracting the TLV field of a received announce message, a first port of a network device acquires the clock identification information, forwarding times information and port identification information carried in the TLV field, and then compares the forwarding times information and clock identification information carried in the TLV field to the forwarding times information carried in the TLV field contained in a received announce message from a port by itself, and its own clock identification information, so as to select a port as a passive port. Therefore, by adding the comparison factors, such as clock identification information, forwarding times information and port identification information, in the TLV field of an announce message, a transparent clock is allowed to support the PTP protocol, thus avoiding a protocol storm formed by a PTP message in a complex topology network and a ring network constituted by the transparent clock to improve the stability of the network.
+126. WO/2013/174024 SEAMLESS REDUNDANCY REALIZATION METHOD FOR RING NETWORK
+WO
+28.11.2013
+H04L 12/437 Loading...
+H04L 12/437
+Loading...
+PCT/CN2012/076165
+KYLAND TECHNOLOGY CO., LTD
+HUANG, Jianchao
+H04L 12/437
+Loading...
+Disclosed is a seamless redundancy realization method for ring network, transmitting node transmits a pair of same data frames at the same time through one of redundancy ports and the other; receiving node receives a pair of same data frames, filters the received data frames, and transmits a pair of the filtered same data frames at the same time through one of its redundancy ports and the other; receiving node preserves first reaching one of the pair of same data frames which are received from one of its redundancy ports or the other, discards last reaching one of the pair of same data frames which are received from one of its redundancy ports or the other; after receiving node receives the pair of same data frames through one of its redundancy ports and the other, stop transmitting one of the pair of same data frames through one of its redundancy ports and the other respectively. Using the technical solution of present invention can not only reduce waste in transmission path of ring network, but also increase utilization ratio of port resources in node.
+127. 103297358 一种智能电网跨广域网GOOSE报文传输系统及方法
+CN
+11.09.2013
+H04L 12/951 Loading...
+H04L 12/951
+Loading...
+201210047990.5
+北京东土科技股份有限公司
+吕志勇
+H04L 12/951
+Loading...
+本发明公开了一种智能电网跨广域网GOOSE报文传输系统及方法，该系统包括发送端及接收端，该发送端包括：封装存储桶，用于接收GOOSE报文，对该GOOSE报文进行通用路由GRE封装，生成一表明GOOSE报文封装次序的封装序号，并将该封装序号写入GRE报头，之后对该经GRE封装后的GOOSE报文进行IP封装，生成并保存该IP报文；及第一排序发送桶，用于将所述封装存储桶中的IP报文按照封装序号排序后发送至IP网络。接收端包括：解封装存储桶，用于接收来自所述IP网络的IP报文，对该IP报文进行IP解封装及GRE解封装得到GOOSE报文，并存储解封装得到的GOOSE报文；及第二排序发送桶，用于将所述解封装存储桶中的GOOSE报文按照封装序号排序后发送至一个或多个位于变电站内的智能电子设备。
+128. 103297257 一种冗余网络的实现方法
+CN
+11.09.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210047122.7
+北京东土科技股份有限公司
+马化一
+H04L 12/24
+Loading...
+本发明公开了一种冗余网络的实现方法，环网节点在初始状态时设置为主站，环网端口设置为半阻塞状态，并在预设时间间隔内向环网端口广播发送主站选举通知报文，节点接收主站选举通知报文，通过比较接收到的主站选举通知报文中的节点质量比较向量和节点的节点质量比较向量选举得出主站和备用主站，主站的环网端口之一设置为半阻塞状态，其余端口设置为转发状态，主站周期性地在预设时间间隔内向环网端口广播发送主站选举通知报文，备用主站停止发送主站选举通知报文，环网端口设置为转发状态，并接收主站发送的主站选举通知报文。采用了本发明的技术方案，能够根据节点质量更换主站，从而降低了环路操作的复杂性，降低了硬件的要求。
+129. WO/2013/127078 SYSTEM AND METHOD FOR TRANSMITTING GOOSE PACKET OF INTELLIGENT POWER GRID OVER WIDE AREA NETWORK
+WO
+06.09.2013
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+PCT/CN2012/071797
+KYLAND TECHNOLOGY CO., LTD
+LV, Zhiyong
+H04L 12/56
+Loading...
+Disclosed are a system and method for transmitting the GOOSE packet of an intelligent power grid over a wide area network, the system comprising a transmitter and a receiver. The transmitter comprises an encapsulation storage bin and a first sequencing transmission bin; the encapsulation storage bin is used to receive the GOOSE packet, conduct generic routing encapsulation (GRE) on the GOOSE packet, generate an encapsulation sequence number representing the encapsulation sequence of the GOOSE packet, write the encapsulation sequence number into a GRE packet header, and then conduct IP encapsulation on the GRE-encapsulated GOOSE packet, generate and save the IP packet; the first sequencing transmission bin is used to sequence the IP packets in the encapsulation storage bin according to the encapsulation sequence number, and then transmit the IP packets to an IP network. The receiver comprises a decapsulation storage bin and a second sequencing transmission bin; the decapsulation storage bin is used to receive the IP packet from the IP network, conduct IP decapsulation and GRE decapsulation on the IP packet to obtain the GOOSE packet, and save the decapsulated GOOSE packet; and the second sequencing transmission bin is used to sequence the GOOSE packets in the decapsulation storage bin according to the encapsulation sequence number, and then transmit the IP packets to one or more intelligent electronic devices in a transformer substation.
+130. WO/2013/127075 REDUNDANT NETWORK REALIZING METHOD
+WO
+06.09.2013
+H04L 1/22 Loading...
+H04L 1/22
+Loading...
+PCT/CN2012/071787
+KYLAND TECHNOLOGY CO., LTD
+MA, Huayi
+H04L 1/22
+Loading...
+Disclosed is a redundant network realizing method: setting a ring network node in an initial state as a master station, setting a ring network port in a semi-blocked state, broadcasting and transmitting a master station election notification packet to the ring network port within a preset time interval; the node receives the master station election notification packet, and elects a master station and a standby master station by comparing a node quality comparison vector in the received master station election notification packet and a node quality comparison vector of the node; one of the ring network ports of the master station is set in a semi-blocked state, and the remaining ports are set in a forwarding state; the master station periodically broadcasts and transmits the master station election notification packet to the ring network port within the preset time interval; the standby master station stops transmitting the master station election notification packet, the ring network port is set in a forwarding state, and receives the master station election notification packet transmitted by the master station. The technical solution of the present invention can replace the master station according to the node quality, thus reducing loop operation complexity and hardware requirements.
+131. 103236894 一种无缝冗余网络中时钟同步方法和装置
+CN
+07.08.2013
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201310114335.1
+北京东土科技股份有限公司
+肖智中
+H04J 3/06
+Loading...
+本发明公开了一种无缝冗余网络中时钟同步方法和装置，用以解决了现有技术中主从节点时钟同步精度低的问题。所述方法包括：无缝冗余网络中的从时钟节点通过其不同的无缝冗余端口分别接收无缝冗余报文；根据接收到的无缝冗余报文携带的报文标识，确定无缝冗余报文是否包括PTP报文信息；当确定结果为是时，将所述包含PTP报文信息的无缝冗余报文进行保存；并对保存的通过不同无缝冗余端口所分别接收的无缝冗余报文进行解析，并根据解析出的PTP报文信息，得到对应于不同的无缝冗余端口的PTP调整值集合；从得到的PTP调整值集合中选取一个PTP调整值集合调整所述从时钟节点的本地时钟。
+132. 103227753 一种网络拥塞处理方法、系统及装置
+CN
+31.07.2013
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201310111521.X
+北京东土科技股份有限公司
+何英军
+H04L 12/801
+Loading...
+本发明实施例提供一种网络拥塞处理方法、系统及装置，解决网络拥塞造成的安全隐患、导致的环网瘫痪问题。该方法中第一节点设备接收到检测报文后，检测自身每个端口的流量是否超过设置的流量均值，当非环端口的流量超过设置的该端口对应的流量均值，将该端口关闭，当该端口为环端口时，停止通过该环端口接收报文，并向与其连接的第三节点设备发送检测报文，之后通知第二节点设备打开接收阻塞状况的环端口。由于本发明实施例通过检测报文，及对应每个节点设备的每个端口设置的流量均值，检测每个节点设备的每个端口是否故障，直到找到存在故障的端口后将其关闭，从而有效的处理网络拥塞的问题，有效避免环网瘫痪，提高了环网的安全性。
+133. 103227708 一种E1链路中的时钟同步报文的传输方法及装置
+CN
+31.07.2013
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201310111371.2
+北京东土科技股份有限公司
+韦锦驹
+H04L 7/00
+Loading...
+本发明实施例提供一种E1链路中的时钟同步报文的传输方法及装置，解决现有E1链路传输时钟同步报文时，时钟同步不准确的问题。该方法每个从时钟在其被分配的时间片内进行时钟同步，当E1接口接收到主时钟与从时钟之间进行时钟同步的以太网报文时，根据添加起始位置标识信息的时隙的位置，及保存的每个报文包含的时隙数量信息，确定传输该报文的时隙并采用该确定的时隙传输该报文。本发明实施例中每个从时钟在其分配的时间片内与主时钟进行同步，可以有效的降低时钟同步报文在缓存区中的缓存时间，另外，当从时钟接收到时钟同步以太网报文时，即刻在当前时隙中传输该报文，进一步减小报文在缓存区中缓存的时间，保证了时钟同步的准确性。
+134. 103220187 一种三层接口状态的检测方法和装置
+CN
+24.07.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310114339.X
+北京东土科技股份有限公司
+何英军
+H04L 12/26
+Loading...
+本发明公开了一种三层端口状态的检测方法和装置，用以解决现有技术中检测三层端口的状态的及时性较差的问题。该方法包括：接收由端口硬件中断而产生的第一中断消息；根据预设的端口状态震荡标识，判断是否屏蔽接收到的第一中断消息；在判断结果为是且在规定的时间长度内没有接收到与第一中断消息携带有相同的端口标识的第二中断消息，或者在判断结果为否时，根据第一中断消息中包含的端口标识确定与其相对应的端口连接数量信息；根据第一中断消息中包含的端口状态标识，对确定出的端口连接数量信息进行更新；根据预先规定的端口连接数量信息与三层端口的状态的对应关系，以及更新后的端口连接数量信息，确定三层端口的状态。
+135. 103193434 一种低碳和吸碳混凝土及其制备方法
+CN
+10.07.2013
+C04B 28/04 Loading...
+C04B 28/04
+Loading...
+201310111482.3
+北京东方建宇混凝土科学技术研究院有限公司
+张京涛
+C04B 28/04
+Loading...
+本发明提供一种低碳和吸碳混凝土及其制备方法，所述低碳和吸碳混凝土包括胶凝材料、骨料、激发剂、减水剂和水；以每立方米混凝土计，所述胶凝材料加入量为290～560kg；所述骨料加入量为1690～1860kg；所述激发剂的加入量为6～12kg；所述减水剂的加入量为1.5～6kg；水胶比为0.28～0.65；其中，在所述胶凝材料中，所述胶凝材料包括如下原料：水泥、矿渣粉、高钙粉煤灰或增钙粉煤灰；所述激发剂为至少含有硫酸钠、天然石膏、工业石膏中的一种、和速溶硅酸钠、碳酸钠、碳酸氢钠、氢氧化钠、氟化钠中的任意一种或几种。本发明所述低碳和吸碳混凝土是在利用高钙粉煤灰或增钙粉煤灰制备得到的在水泥用量较少的情况下具有高强度、高稳定性且吸碳性能的低碳混凝土。
+136. 103200110 一种应用于智能变电站局域网的数据组播方法和装置
+CN
+10.07.2013
+H04L 12/761 Loading...
+H04L 12/761
+Loading...
+201310109760.1
+北京东土科技股份有限公司
+吕志勇
+H04L 12/761
+Loading...
+本发明公开了一种应用于智能变电站局域网的数据组播方法和装置，在智能变电站的VLAN中，VLAN接收到监控端口配置请求，该监控端口配置请求中携带组播出端口的标识，将该组播出端口标识所代表的组播出端口确定为监控端口，建立该监控端口的标识与每一项已注册的组播流量的标识的对应关系，建立该监控端口的标识与未注册组播流量的标识的对应关系，VLAN接收到组播流量后，根据建立的这两个对应关系来转发组播流量，从而VLAN能够将已注册的组播流量和未注册的组播流量均转发给监控端口，当该监控端口下联有监控设备时，该监控设备就能够接收到VLAN中的已注册组播流量和未注册组播流量，从而能够进行有效的组播统计。
+137. 103188257 一种实现DHCP客户端与服务器安全交互的装置
+CN
+03.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210183226.0
+北京东土科技股份有限公司
+李红雨
+H04L 29/06
+Loading...
+一种实现DHCP客户端与服务器安全交互的装置，包括DHCP客户端和DHCP服务器，在所述DHCP客户端预先设定所述的DHCP服务器的IP地址；当所述的DHCP客户端与所述的DHCP服务器进行交互时，所述的DHCP客户端从收到的DHCP服务器发送的DHCP询价报文中提取DHCP服务器的IP地址，然后与所述的预先设定DHCP服务器的IP地址比较，从而限制与所述的DHCP客户端交互的DHCP服务器；确保了所选择的服务器是安全可靠的，无需DHCP服务器做任何改变，仅是在客户端进行事先配置，报文交互时进行判断，在实际应用场景中，具有明显安全性特点。
+138. 103188258 一种实现安全修改信息协议报文的加密装置和方法
+CN
+03.07.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210183229.4
+北京东土科技股份有限公司
+肖智中
+H04L 29/06
+Loading...
+本发明公开了一种实现安全修改信息协议报文的加密装置和方法，利用了在对客户端的设备配置修改之前，需对发送修改报文的服务器的源mac地址和客户端保存的mac地址配置表进行比较，并根据比较结果判断是否利用客户端的私钥解密修改报文中的数据信息，从而以确保客户端根据用户设置命令的协议报文安全地修改客户端设备配置信息。
+139. 103188354 一种节点地址冲突的检测方法及装置
+CN
+03.07.2013
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201310109676.X
+北京东土科技股份有限公司
+李志强
+H04L 29/12
+Loading...
+本发明公开了一种节点地址冲突的检测方法及装置，该方法第二网络节点周期性的广播以自身每个MAC地址和IP地址为源地址的各ARP报文，且第二网络节点不同时广播所有的ARP报文，第一网络节点接收ARP报文，并判断该ARP报文的源地址是否与第一网络节点自身的地址冲突，若冲突，则向网管服务器上报携带该ARP报文的源地址的地址冲突信息。通过上述方法，第一网络节点除了可以检测自身的IP地址是否与第二网络节点的IP地址冲突以外，还可以检测自身的MAC地址是否与第二网络节点的MAC地址冲突，因此提高了检测节点地址冲突的准确性，并且第二网络节点不同时广播所有的ARP报文，可以减小网络传输压力。
+140. 103043944 一种混凝土用抗油侵蚀剂及其制备方法
+CN
+17.04.2013
+C04B 24/40 Loading...
+C04B 24/40
+Loading...
+201210582422.5
+北京东方建宇混凝土科学技术研究院有限公司
+王安岭
+C04B 24/40
+Loading...
+本发明提供一种混凝土用抗油侵蚀剂，属于建筑材料制备领域。包括，有机硅、水玻璃、引气剂、多元醇和水，其中，以质量百分比计，所述有机硅的添加量为10~30wt%、所述水玻璃的添加量为10~20wt%，所述引气剂的添加量为0~0.05wt%，所述多元醇的添加量为5~15wt%，所述水的添加量为35~75wt%。本发明所述混凝土用抗油侵蚀剂用于混凝土中后，可显著改善混凝土的抗油侵蚀性和混凝土的耐久性能。经测试，在混凝土中添加混凝土总质量的2~3wt%的抗油侵蚀剂，可以混凝土的抗油渗透高度比提高35%以上，吸油率比提高40%以上，使各龄期的混凝土的抗压强度提高16%以上。
+141. 202886661 一种易装配的防静电干扰接口板
+CN
+17.04.2013
+G02B 6/42 Loading...
+G02B 6/42
+Loading...
+201220556992.2
+北京东土科技股份有限公司
+王石磊
+G02B 6/42
+Loading...
+本实用新型提供了一种易装配的防静电干扰接口板，包括底部板、顶部板和中部板，所述顶部板上设置有光口或电口，所述中部板上设置有光口或电口，所述顶部板上设置的光口或电口在所述中部板上设置的光口或电口上方且水平方向上错开，所述中部板上的光口或电口与所述顶部板上的光口或电口朝同一方向设置。本实用新型使得可以通过底部板、中部板和顶部板的顺序来进行装配，在装配中部板时将光口或电口通过紧包光纤或电缆连接到后面板，在装配顶部板时将光口或电口通过紧包光纤或电缆连接到后面板。通过有序的装配可以提高装配的效率，并且所有紧包光纤或电缆的走向都是朝向后面板，也可以减少光纤或电缆的长度。
+142. 202889384 一种高可用性的活动理线装置
+CN
+17.04.2013
+H04L 12/931 Loading...
+H04L 12/931
+Loading...
+201220556495.2
+北京东土科技股份有限公司
+窦木辉
+H04L 12/931
+Loading...
+本实用新型公开了一种高可用性的活动理线装置，在交换机的背部和交换机的机柜的上部或背部之间固定有铰链式拖线架，将所述交换机背部伸出的线缆固定在所述铰链式拖线架上本实用新型能够将从交换机背部伸出的线缆固定在铰链式拖线架上，从而使得便于对交换机进行维护，并能够避免线缆或连接器在拉出过程中遭到损坏，从而延长系统的寿命。
+143. 103011648 一种混凝土用改性铁尾矿活性掺合料及其制备方法
+CN
+03.04.2013
+C04B 18/12 Loading...
+C04B 18/12
+Loading...
+201210585500.7
+北京东方建宇混凝土科学技术研究院有限公司
+王安岭
+C04B 18/12
+Loading...
+本发明提供了一种混凝土用改性铁尾矿活性掺合料，包括如下组分：铁尾矿、聚羧酸盐；其中，以铁尾矿的质量计，所述聚羧酸盐的添加量为0.2~0.6wt%；所述铁尾矿与所述聚羧酸盐的比表面积均为400~600m2/kg。本发明所述铁尾矿活性掺合料替代矿渣粉以及粉煤灰用于混凝土中可配制C10～C100泵送混凝土，并可以满足建筑用混凝土各项性能指标，在建设工程中有广阔的应用前景。
+144. 103001722 一种基于时间触发以太网的数据传输方法及节点设备
+CN
+27.03.2013
+H04J 3/16 Loading...
+H04J 3/16
+Loading...
+201210484945.6
+北京东土科技股份有限公司
+马化一
+H04J 3/16
+Loading...
+本发明公开了一种基于TTE的数据传输方法及节点设备，解决现有基于TTE在进行数据传输时，造成的网络带宽浪费的问题，该方法中主节点基于时间触发报文确定调度周期表，各节点在存在待发送的事件触发报文时，根据该调度周期表中保存的信息，判断该事件触发报文占用的物理链路与该当前时隙对应的物理链路不冲突时，在该当前时隙发送该事件触发报文。由于在本发明中主节点无须再为各节点的事件触发报文单独分配时间，当各节点存在待发送的事件触发报文时，只要该事件触发报文占用的物理链路与当前该时隙对应的物理链路冲突，就可以在该当前时隙发送该事件触发报文，从而有效的提高了数据发送的效率，并且提高了网络带宽的利用率。
+145. 103001759 一种基于网络的时间同步方法、系统及装置
+CN
+27.03.2013
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201210484976.1
+北京东土科技股份有限公司
+肖智中
+H04L 7/00
+Loading...
+本发明实施例提出一种基于网络的时间同步方法、系统及装置，包括主用时钟单元以及至少一个从属时钟单元，所述从属时钟单元包含一个备份时钟模块，用于当确定自身为备份主钟单元时，通过主用时钟单元提供的时间同步信号进行时钟同步，包括：从属时钟单元接收备份主钟选择报文，获得所述备份主钟选择报文中携带的优先级信息；根据获得的优先级信息，及自身优先级信息，在确定出自身为备份主钟单元时，通过备份时钟模块提供的时间同步信号进行时间同步；以及在确定出所述主用时钟单元提供的时间同步信号丢失时，将自身的时钟源切换为所述备份时钟模块，并提供时间同步信号进行时间同步。本发明公开了能够较好地提高系统的可靠性。
+146. 103001799 基于链状网络的冗余实现方法及节点
+CN
+27.03.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210485016.7
+北京东土科技股份有限公司
+江启运
+H04L 12/24
+Loading...
+本发明公开了基于链状网络的冗余实现方法及节点，用以解决现有的冗余倒换方式需要大量的网络设备开销，且需要较长的链路倒换时间的问题，本发明实施例的方法包括：链状网络的各节点根据接收到的其他节点发送的通知报文，选举出本链状网络的主节点；选举出的主节点将自身包含的两个端口中的一个设为阻塞状态，另一个设为转发状态，并通过该两个端口周期性发送通知报文，其中边缘节点在接收到通知报文后返回应答报文；各节点根据是否接收到本链状网络的网络管理报文，判断链状网络的通断状态，并在确定本链状网络发生链路中断时，重新确定本链状网络的主节点。采用本发明的技术方案能够实现冗余的快速倒换，提高网络的修复速度，提高网络的可靠性。
+147. 202841158 一种高防护等级的工业以太网交换机
+CN
+27.03.2013
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201220389748.1
+北京东土科技股份有限公司
+王敬文
+H04L 12/04
+Loading...
+本实用新型涉及一种高防护等级的工业以太网交换机，包括插箱模块，插箱模块包括交换模块、电源模块、以及接口模块中的至少一者和/或背板模块；交换模块、电源模块、以及接口模块中的至少一者包括第一密封装置和第一母板；背板模块包括第二密封装置和第二母板；其中第一密封装置的前面板和后面板分别与左盖板以及右盖板之间具有密封结构并安装有导电橡胶密封圈，左盖板与右盖板之间具有密封结构并安装有导电橡胶密封圈；第一母板固定在第一密封装置内部；第二密封装置的结构背板和结构背板盖板之间具有密封结构并安装有导电橡胶密封圈；第二母板固定在第二密封装置内部。本实用新型可以防水、防尘和防盐雾，从而延长交换机的寿命。
+148. 103001888 一种实时数据的传输方法及节点设备
+CN
+27.03.2013
+H04L 12/853 Loading...
+H04L 12/853
+Loading...
+201210484893.2
+北京东土科技股份有限公司
+马化一
+H04L 12/853
+Loading...
+本发明公开了一种实时数据的传输方法及节点设备，解决现有基于TTE在进行数据传输时，造成的网络带宽资源浪费的问题，该方法当主节点接收到各节点发送的报文发送请求时，确定每个节点发送报文的物理链路，将物理链路不同的节点划分在一个组中，每个节点只唯一位于一个组中，并根据每个组中每个节点被分配的时隙长度，确定每个组的时隙，并通知每个节点根据其所在组被分配的时隙进行数据传输。由于在本发明中将物理链路不同的节点划分为了一组，该组被分配的时隙相同，该组中每个节点按照该被分配的时隙同时进行数据的发送，从而可以有效的节省该组网中数据发送的时间，并有效提高了带宽资源的利用率。
+149. 202759727 一种高可靠性的工业以太网交换机
+CN
+27.02.2013
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201220389768.9
+北京东土科技股份有限公司
+王敬文
+H05K 7/20
+Loading...
+本实用新型提供了一种高可靠性的工业以太网交换机，交换机包括插箱模块，交换机的机柜底部具有钢丝绳减震器，钢丝绳减震器的一端与机柜的底板固定连接，减震器的另一端与减震安装板固定连接；插箱模块包括交换模块、电源模块、以及接口模块中的至少一者和背板模块；交换模块、电源模块、以及接口模块中的至少一者包括第一母板后面板；背板模块包括第二母板、结构背板和结构背板盖板；后面板的上部和/或下部具有定位销，结构背板、结构背板盖板以及第二母板上具有与定位销对应的定位孔，定位中内安装有定位套，定位销插入定位套中。本实用新型可以减少对交换机的冲击并可将插箱模块固定。
+150. 202759472 一种工业以太网交换机
+CN
+27.02.2013
+H04L 12/931 Loading...
+H04L 12/931
+Loading...
+201220444658.8
+北京东土科技股份有限公司
+王石磊
+H04L 12/931
+Loading...
+本实用新型公开了一种工业以太网交换机，包括：控制单元，通过本地总线管理所述交换单元中的集成PHY的MAC芯片、通过介质无关接口即MII接口与所述交换单元中的集成PHY的MAC芯片进行数据通信以及用于对所述时钟单元、电源单元和接口单元进行进程调控；交换单元，接收来自于所述处理器控制单元的控制信号，通过所述交换单元中的集成PHY的MAC芯片进行数据交换；时钟单元，用于对所述交换单元中的集成PHY的MAC芯片或所述处理器控制单元中的CPU芯片提供所需的时钟信号；所述CPLD控制单元，用于对所述处理器控制单元中的CPU扣板的信号进行预处理。本实用新型克服了现有交换机设计复杂和成本比较高的缺点。
+151. 102916758 以太网时间同步装置和网络设备
+CN
+06.02.2013
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201210382462.5
+北京东土科技股份有限公司
+陈青青
+H04J 3/06
+Loading...
+本发明公开了一种以太网时间同步装置和网络设备，主时间端口从来自上级时间同步设备的初始数据中恢复出时钟信号，并在初始数据中携带上时间戳信息作为中间数据，中央处理单元根据中间数据中的主时钟信号信息、时间戳信息和精密时钟协议确定调整信息，时间同步单元根据调整信息调整时钟信号和同步脉冲信号，将调整后的时钟信号和同步脉冲信号分路后统一发送给各个时间端口，能够减少开关器件的数量以及减少开关器件与时间端口相连接的数据线的数量，能够避免现有技术中用于传输时钟信号的数据线的数量多导致设备结构复杂度高、用于传输时钟信号的数据线不等长导致的时间信号延时的问题。
+152. 102916949 一种Web认证方法及装置
+CN
+06.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210384252.X
+北京东土科技股份有限公司
+郭红亮
+H04L 29/06
+Loading...
+本发明公开了一种Web认证方法及装置，用以简化Web认证流程，节约网络传输资源，所述方法包括：端口开启Web认证时，下发Web认证前的ACL规则，所述ACL规则为HTTP协议报文的目的IP地址非本地IP地址的IP报文转发到CPU；允许DNS协议报文的转发；允许广播报文的转发；允许本端口连接的设备与交换机进行直接通信；接收内网用户发送的HTTP报文，其中携带有报文传输信息，报文传输信息包括HTTP报文传输的目的IP地址、所使用的传输协议信息和目的端口；判断目的IP地址是否为非本地IP地址、且所使用的传输协议是否为TCP以及目的端口是否为80；若判断结果均为是，对所述内网用户进行Web认证。
+153. 102904662 一种基于PTP协议的跨域时钟同步方法及系统
+CN
+30.01.2013
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201210374959.2
+北京东土科技股份有限公司
+肖智中
+H04J 3/06
+Loading...
+本发明涉及一种基于PTP协议的跨域时钟同步方法及系统。该方法包括：交换机按照设定的周期进行时钟同步时，判断本地设置域的主时钟是否丢失；当确定所述本地设置域的主时钟丢失时，判断自身是否与其他域相连接；当确定自身与所述其他域相连时，在自身保存的所述其他域中选择一个域；根据所选择的域的时钟信息同步本地时钟，并将同步后的本地时钟信息发送。本发明通过存储其他域的时钟信息，并在本地设置域的主时钟丢失时，通过选择其他域的时钟信息来修改本地时钟信息，从而实现本地设置域的时钟同步，保证网络稳定运行。
+154. 102882726 Configuration management method and system for configurable equipment
+CN
+16.01.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210376151.8
+北京东土科技股份有限公司
+邵科峰
+H04L 12/24
+Loading...
+The invention provides a configuration management method for configurable equipment and a configuration management system for configurable equipment. The equipment comprises a management center module and at least two service modules. The configuration management method comprises the following steps that: the service modules register priority levels of the service modules to the management center module when the service modules start loading; the management center module compares the priority levels of the service modules to obtain an ordering result, and periodically detects the ordering result; and the management center module obtains a priority level order according to the ordering result, then transmits configuration data corresponding to the service modules to the service modules according to the order of the priority levels to finish the configuration of the service modules. By the method and the system, configuration data can be transmitted and restored to the service modules dynamically in an ordered way according to the priority levels of the service modules; and the defect that a code is required to be modified when the service modules are restored by utilizing static configuration in the prior art is overcome.
+155. 102833168 Data transmission method and device based on time triggering mechanism
+CN
+19.12.2012
+H04L 12/863 Loading...
+H04L 12/863
+Loading...
+201210320810.6
+北京东土科技股份有限公司
+黄剑超
+H04L 12/863
+Loading...
+The invention provides a data transmission method and a data transmission device based on a time triggering mechanism. The method comprises the following steps of: receiving a request message sent by each node connected with exchange equipment by the exchange equipment; determining time length corresponding to a time slice according to total bandwidth of a communication line between network nodes and total byte information contained in an acquired message to be sent of each node at a scheduling time period; determining a time period scheduling table according to the determined time length corresponding to the time slice and the total byte information contained in the message to be sent of each node; and forwarding the message of each node to the network nodes according to the time period scheduling table. According to the method, the exchange equipment adopts the time triggering mechanism to schedule each node through the formulated time period scheduling table according to data transmission demand of each node, the problem that a part of messages cannot be processed timely is solved, and the safety of service processing is effectively improved.
+156. 102833061 基于无缝冗余环网的提高时钟精度的方法及节点
+CN
+19.12.2012
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201210320749.5
+北京东土科技股份有限公司
+黄剑超
+H04L 7/00
+Loading...
+本发明涉及基于无缝冗余环网的提高时钟精度的方法及节点，所述无缝冗余环网中的节点接收到相邻的节点或主时钟发送的同步时钟信息之后，确定接收到的同步时钟信息在本节点内的驻留时长，所述驻留时长为同步时钟信息从输入到入端口的时间点到输出到出端口的时间点之间的时间长度；根据确定出的驻留时长，修正接收到的所述同步时钟信息；若所述出端口为环端口，则通过该环端口将修正后的同步时钟信息转发给相邻的节点；若所述出端口为外接端口，则通过该外接端口将修正后的同步时钟信息转发给从时钟，以使从时钟根据同步时钟信息进行时钟同步。本发明技术方案解决了主从时钟的同步误差较大的问题。
+157. 102672665 Assistant unplugging device and using method thereof
+CN
+19.09.2012
+B25B 27/00 Loading...
+B25B 27/00
+Loading...
+201210182152.9
+北京东土科技股份有限公司
+侯鑫
+B25B 27/00
+Loading...
+The invention discloses an assistant unplugging device and a using method thereof. The assistant unplugging device comprises an external frame, a built-in movable frame and a fixed stud, wherein the external frame has a quadrilateral shape; a frame side is formed on one side of the external frame; another three sides of the external frame are interconnected frame sides; a guide rail groove is formed inside each of the non-adjacent two sides of the external frame; the built-in movable frame is a quadrilateral; a frame side is formed on one side of the built-in movable frame; another three sides of the built-in movable frame are interconnected frame sides; the two sides of the built-in movable frame are placed in the guide rail grooves of the external frame and serve as guide rails of the built-in movable frame; and the fixed stud is positioned inside the intermediate frame of the external frame and passes through the screw hole of the intermediate frame of the built-in movable frame to fix the built-in movable frame to the guide rail grooves. An external module can be unplugged from electronic equipment easily, and external damage to the electronic equipment also can be reduced.
+158. 202406120 一种高等级防静电的工业以太网交换机
+CN
+29.08.2012
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201120559433.2
+北京东土科技股份有限公司
+郎庆凯
+H04L 12/04
+Loading...
+一种高等级防静电的工业以太网交换机，包括光模块和光纤转换器，所述光纤转换器为所述高等级防静电的工业以太网交换机的外接接口，所述光模块包括集成电路板、发射组件和接收组件，所述发射组件和接收组件分别通过自身的信号输出管脚一端与所述集成电路板焊接连接，所述发射组件和接收组件的信号输出管脚另一端分别与所述光纤转换器通过光纤连接，此距离至少为15mm，使得所述的高等级防静电的工业以太网交换机满足了电磁兼容静电放电测试工业四级的A判据，提高了所述交换机的电磁兼容的性能。
+159. 202404575 一种Console串口及Debug串口的复用系统
+CN
+29.08.2012
+G06F 11/16 Loading...
+G06F 11/16
+Loading...
+201120561016.1
+北京东土科技股份有限公司
+杨志祥
+G06F 11/16
+Loading...
+本实用新型实施例提供一种Console串口及Debug串口的复用系统，该系统中CPU的Console串口及Debug串口分别与控制器的输入端口连接，并复用该控制器的输出端口，该CPU的Debug串口的数据发送端与触发电路连接，当控制器检测到与Debug串口的数据发送端连接的输入端口为高电平时，则选通Debug串口，否则，选通Console串口。由于Console串口及Debug串口复用控制器的一个输出端口，通过触发电路输出高电平，可以实现Console串口和Debug串口的选通，因此节省了硬件资源、方便设备的维护调试，避免了维护过程中可能导致的安全隐患，从而提高了系统的可靠性。
+160. 202406133 一种兼容交流220V和直流110V电源输入的交换机
+CN
+29.08.2012
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201120559455.9
+北京东土科技股份有限公司
+刘红瑞
+H04L 12/56
+Loading...
+一种兼容交流220V和直流110V电源输入的交换机，包括所述兼容交流220V和直流110V的输入电源和所述交换机的功能模块，所述兼容交流220V和直流110V的输入电源包括兼容交流220V和直流110V电源的输入端、整流滤波电路、功率因数校正电路、反激同步整流电路、选择功耗模块和输出功耗选择开关，节省了所述交换机的机箱空间，满足了所述交换机的不同功能模块的功耗需求，使其它部分设计更灵活。
+161. 102629900 一种超级密码生成系统以及应用方法
+CN
+08.08.2012
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201210056607.2
+北京东土科技股份有限公司
+郭红亮
+H04L 9/32
+Loading...
+本发明采用的超级密码生成系统包括了所述超级密码生成系统包括交换机设备、PC侧的交换机监控器和超级密码生成装置，其中所述PC侧的交换机监控器输出随机校验码，进而通过超级密码生成装置进行算法加密输出基于速记校验码和设备信息的超级密码，基于上述超级密码生成系统以及应用方法具有了下面的特点：1、唯一性，单个设备使用。由于超级密码集成了设备信息，所以该密码只能适用于与设备信息完全相符的设备。2、一次性，保证用户网络的访问安全。在用户输入特定字符串时，设备根据一定的算法，生成随机的字符串。在应用了超级密码后，超级密码机制即复位，如果下次使用，需要重新执行一遍，从而确保每次生成的密码是一次性的。
+162. 102491694 一种自密实混凝土及其制备方法
+CN
+13.06.2012
+C04B 28/00 Loading...
+C04B 28/00
+Loading...
+201110408477.X
+北京新航建材集团有限公司
+聂法智
+C04B 28/00
+Loading...
+本发明所述的自密实混凝土采用低引气聚羧酸及聚丙烯酰胺作为外加剂、用5—20mm连续级配的矿山废石作为粗骨料、0—5mm的矿山废石作为细骨料，以及大掺量粉煤灰、矿粉，采用二次投料法制备而成的；本发明采用引气聚羧酸结合聚丙烯酰胺絮凝剂做为外加剂，克服了现有技术自密实混凝土抗离析性差，石子包裹性差的特点，可以使新拌混凝土水泥石内部孔隙体积明显减少、水泥石更为致密、混凝土的抗压强度显著提高；本发明全部采用矿山废石替代混凝土骨料，大幅提高了矿山废石的利用率，聚丙烯酰胺的使用减少了水泥用量，从而降低混凝土的成本，且本明自密实混凝土拌合物流动性能、自密实性能、泵送性能、拆模后混凝土表观均优于现有技术。
+163. 202190278 一种万兆模组化交换机
+CN
+11.04.2012
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201120231431.0
+北京东土科技股份有限公司
+王敬文
+H04L 12/04
+Loading...
+一种万兆模组化交换机，属于电子通信设备技术领域。包括机壳、功能模块、电源模块。功能模块分别是单独的封闭结构；电源模块和功能模块并排安装于机壳的后部，在机壳里可自由插拔。本实用新型可根据用户的不同需求，灵活配置，功能模块及箱体装配后为一全封闭的结构，提高了该装置的环境适应性，具有防辐射，防电磁干扰，防静电(工业4级)的功能，防护能力达到IP40。可满足工业现场使用要求，以及安装、运输、安全要求。
+164. 102394781 基于IEC-61850的交换机端口属性建模方法
+CN
+28.03.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110360616.6
+浙江省电力公司
+叶大革
+H04L 12/24
+Loading...
+本发明公开了一种基于IEC-61850标准的交换机端口建模方法，包括了依据IEC61850标准将交换机端口作为一个逻辑设备（LN），设置交换机物理设备逻辑节点（LPHD）、逻辑节点0（LLN0）、交换机端口管理逻辑节点（ZSWP），还包括设置交换机端口管理逻辑节点（ZSWP）的数据以及数据集，本发明具有统一建模、利于扩展，简化管理，集中化的特点。
+165. 102368715 基于IEC-61850协议网关的交换机集中网管实现设备
+CN
+07.03.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110360617.0
+浙江省电力公司
+叶大革
+H04L 12/24
+Loading...
+本发明公开了一种基于IEC-61850协议网关的交换机集中网管实现设备，包括SNMP服务器、SNMP客户端、IEC-61850客户端、IEC-61850服务器以及SNMP客户端与IEC-61850服务器之间的管理信息映射组成协议网关；其中SNMP服务器用以提供交换机的管理信息节点给SNMP客户端协议数据报文；SNMP客户端通过SNMP协议数据报文获取交换机SNMP管理信息库的管理信息；协议网关获取上述管理信息后，通过管理信息映射到IEC-61850服务器的IEC-61850管理信息模型上，作为IEC-61850服务器的数据源；IEC-61850客户端通过IEC-61850标准同IEC-61850服务器通信，从而控制和管理交换机。本发明具有统一建模、利于扩展，简化管理，集中化的特点。
+166. 202150108 实现数据传输的模式转换装置
+CN
+22.02.2012
+G06F 13/38 Loading...
+G06F 13/38
+Loading...
+201120184363.7
+北京东土科技股份有限公司
+曲建宁
+G06F 13/38
+Loading...
+实现数据传输的模式转换装置，特别是涉及利用RS232模式、RS485模式或RS422模式进行串口数据转换控制，包括模式转换控制装置、数据模式装置和电源供应单元，其特征在于：所述的模式控制装置通过连接线与数据模式装置连接，所述的模式控制装置向所述的数据模式装置输出模式转换信号，所述的数据模式装置根据模式转换命令转换相应的数据传输模式；包括供电电源的控制切换装置和对于上述数据模式装置的直接控制切换装置，上述两种模式切换控制装置简单、方便，解决了在实际使用中由于技术偏见而一直没有解决的三种数据模式装置的转换问题。
+167. 102315971 一种基于IEC-61850标准的网络设备建模方法
+CN
+11.01.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110294877.2
+北京东土科技股份有限公司
+马化一
+H04L 12/24
+Loading...
+一种基于IEC-61850标准的网络设备建模方法，包括了依据IEC61850标准，将网络设备作为一个逻辑设备（LN），设置网络设备物理设备逻辑节点（LPHD）、逻辑节点0（LLN0）、网络设备通用功能管理逻辑节点（ZSWM）和网络设备端口管理逻辑节点（ZSWP），还包括设置网络设备通用功能管理逻辑节点（ZSWM）和网络设备端口管理逻辑节点（ZSWP）的数据以及数据集，实现了统一建模、利于扩展，简化管理，集中化等的优点。
+168. 102307249 一种基于链路层拓扑的IP地址自动配置方法
+CN
+04.01.2012
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201110295996.X
+北京东土科技股份有限公司
+马化一
+H04L 29/12
+Loading...
+一种基于链路层拓扑的IP地址自动配置方法，包括支持LLDP协议的服务器端设备为待分配IP地址设备和支持LLDP协议的客户端设备为分配IP地址的设备，所述客户端设备依据逻辑拓扑按照广度优先搜索或深度优先搜索完成IP地址分配，由于本方法是基于交换机的软件实施的，所以具有实现简单、方便、灵活、使用简单的优点，支持多种分配规则和人机交互配置模式，方便用户管理和在线配置，主动分配模式，操作更直观和可靠。
+169. 202059440 一种实现时钟格式转换的装置
+CN
+30.11.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201120184344.4
+北京东土科技股份有限公司
+黄剑超
+H04L 29/06
+Loading...
+一种实现时钟格式转换的装置，包括网络接口模块、协议处理模块、时钟转换模块和驱动电路，利用网络接口模块接收以太网中包含有时钟信息的数据包；将所述的以太网中包含有时钟信息数据包输入协议处理模块，经所述的协议处理模块按照IEEE1588协议分析处理获得时钟信息，并将所述的时钟信息提供给时钟转换模块；所述的时钟转换模块中的时钟生成模块将所述的时钟信息转换成IRIG-B格式或脉冲输出格式的同步时钟，所述的时钟转换模块中的驱动电路将所述的同步时钟转换成物理信号发送；所述装置兼容原有系统中的终端设备，保护原有网络的投资；可以提供大量的同步时钟接口，满足工业现场大量终端设备需要同步时钟的需求。
+170. 102255682 Method and device for converting precision time protocol clock into inter-range instrumentation group B (IRIG-B) code
+CN
+23.11.2011
+H04J 3/06 Loading...
+H04J 3/06
+Loading...
+201110184312.9
+Beijing Kyland Technology Co., Ltd.
+Huang Jianchao
+H04J 3/06
+Loading...
+The invention discloses a method and a device for converting a precision time protocol clock into an inter-range instrumentation group B (IRIG-B) code. The device comprises an institute of electrical and electronic engineers (IEEE) 1588 synchronization module, a time interface module, a basic clock module, an IRIG-B coding module and a waveform generation module. The method comprises that: after an IEEE1588 protocol message is kept synchronous with a master clock, the IEEE1588 synchronization module acquires universal time coordinated (UTC) time consisting of second information in a binary format, converts the UTC time into year, month, day, hour, minute and second time information in a binary-coded decimal (BCD) format and transmits the year, month, day, hour, minute and second time information to the time interface module; the rising edge of a pulse per second (1PPS) signal generated by the IEEE1588 synchronization module triggers the IRIG-B coding module, and converts the year, month, day, hour, minute and second time information in the BCD format into a serial code consisting of IRIG-B code elements; the IEEE1588 synchronization module receives an interrupt signal and updates the year, month, day, hour, minute and second time information in the BCD format; and the waveform generation module receives the serial code consisting of the IRIG-B code elements, and converts the serial code into corresponding waveform output.
+171. 201985879 一种加固型船用以太网交换机
+CN
+21.09.2011
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201020687198.2
+北京东土科技股份有限公司
+王敬文
+H04L 12/04
+Loading...
+一种加固型船用以太网交换机，属于电子通信设备技术领域。包含机箱体，业务模块，熔纤固定架，防水电源连接器，防水信号连接器，防水光纤旋紧套，电源输入保护装置，减震器，指示灯模块。光纤接入方式为外部船用光缆从防水光纤旋紧套通过熔纤固定架连接到业务模块。本实用新型可根据用户的不同需求，灵活的选择4～6路百兆或千兆光电接口。适用于船体设备舱的湿热、霉菌、振动、冲击等恶劣环境。
+172. 201839306 一种现场可配置的非管理型以太网交换机
+CN
+18.05.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201020515604.7
+北京东土科技股份有限公司
+韦锦驹
+H04L 12/56
+Loading...
+本实用新型公开了一种现场可配置的非管理型以太网交换机，旨在提供一种新型的非管理型以太网交换机架构。其技术方案的要点是，一种现场可配置的非管理型以太网交换机，包含以太网MAC模块、配置存储器和以太网PHY模块，在以太网MAC模块访问配置存储器的访问接口上插入一个切换电路，将配置存储器的访问接口选择性的连接到交换机内的以太网MAC模块或者对外的用户配置接口上。本实用新型的用途：本实用新型对现有的非管理型交换机进行改进，不需要在非管理型以太网交换及内部加入任何进行配置信息处理转换模块，在保留其结构简单成本低廉的优势的同时，让用户在应用现场可以根据不同的应用需要对交换机的配置信息进行适当修改，从而达到灵活满足不同应用环境需求的目的。
+173. 102025799 Method for discovery and automatic configuration for IP address of device
+CN
+20.04.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010608584.2
+Kyland Technology Co., Ltd.
+Qu Jianning
+H04L 29/12
+Loading...
+The invention relates to a method for automatic discovery and automatic configuration for IP address of an embedded device, and the key points are as follows: the function of automatic discovery of the device is realized through a RARP (reverse address resolution protocol) request massage and a multicast massage, and the IP address is configured through a reply massage of the RARP. Through the invention, the problem of configuration difficulty of batch deployment of the embedded device can be solved effectively, the automatic ability of the embedded device is improved greatly, and the use is very flexible and convenient.
+174. 201766604 一种模组化无风扇核心交换机
+CN
+16.03.2011
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201020515606.6
+北京东土科技股份有限公司
+王敬文
+H04L 12/04
+Loading...
+本实用新型公开了一种高可靠性能的交换机，属于电子领域，涉及到一种高可靠性能的交换机。包含机壳、电源模块，业务模块，电源模块和业务模块分别是单独的封闭结构，通过卡轨在形成空气对流散热设计的机壳里自由插拔，电源模块安装在机壳的最上部，业务模块安装在电源模块下面；机壳的后面板安装有背板，电源模块和业务模块一端有与外部连接的接口，另一端有插针，插针与背板相连接。适用于需要多端口交换机的环境。
+175. 101964712 Modular fanless core switch
+CN
+02.02.2011
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+201010271532.0
+Kyland Technology Co., Ltd.
+Wang Jingwen
+H04L 12/04
+Loading...
+The invention discloses a high-reliability switch, belongs to the field of electronics, and relates to the high-reliability switch. The high-reliability switch comprises a machine shell, a power supply module and a service module, wherein the power supply module and the service module are an individual closed structure respectively, and are plugged freely in the machine shell which has the design of air convection and heat dissipation through a chucking rail; the power supply module is arranged on the topmost part of the machine shell, and the service module is arranged below the power supply module; a backing plate is arranged on the rear panel of the machine shell; interfaces connected with exterior are formed at one end of the power supply module and one end of the service module, and contact pins are arranged at the other end; and the contact pins are connected with the backing plate. The modular fanless core switch is suitable for environment which needs multi-port switches.
+176. 101958832 Field-configurable unmanaged Ethernet switch
+CN
+26.01.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010271524.6
+Kyland Technology Co., Ltd.
+Wei Jinju
+H04L 12/56
+Loading...
+The invention discloses a field-configurable unmanaged Ethernet switch and aims to provide a novel unmanaged Ethernet switch framework. The key points of the technical scheme are that: the field-configurable unmanaged Ethernet switch comprises an Ethernet media access control (MAC) module, a configuration memory and an Ethernet physical layer (PHY) module, wherein a switching circuit is inserted into an access interface for the Ethernet MAC module to access the configuration memory; and the access interface of the configuration memory is selectively connected to the Ethernet MAC module in the switch or an external user configuration interface. The switch has the advantages that: the conventional unmanaged switch is improved without arranging any configuration information processing and converting module inside the unmanaged Ethernet switch; and a user is allowed to making appropriate modifications on the configuration information of the switch according to different application demands on an application field while keeping the advantages of simple structure and low cost so as to fulfill the aim of flexibly meeting the requirements of different application environments.
+177. 101916197 Method for controlling self-starting program of system
+CN
+15.12.2010
+G06F 9/445 Loading...
+G06F 9/445
+Loading...
+201010233976.5
+Kyland Technology Co., Ltd.
+Qu Jianning
+G06F 9/445
+Loading...
+The invention discloses a method for controlling a self-starting program of a system and aims to provide a method for controlling the self-starting program of the system in the embedded computer field. The key points of technical scheme are that: a self-starting program list is stored in the boot parameters of a boot program, and after the system is started, loading and executing the self-starting program in the list, wherein the self-starting program list is divided into two parts: the self-starting program list carried in the system and a user self-starting program. The method has the advantages of overcoming the defect that the curing of the self-starting program cannot be freely controlled in an embedded system, effectively reducing the use of the memory and CPU by controlling the self-starting of the programs, and bringing convenience to the debugging of the programs.
+178. 201674741 一种加固型电子设备
+CN
+15.12.2010
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201020190336.6
+北京东土科技股份有限公司
+李鹏飞
+H05K 5/06
+Loading...
+一种加固型电子设备，属于电子通信设备技术领域。由上盖板、下盖板、后面板、前面板、左右侧板组成；各构件的连接全部采用防脱出螺钉，各构件之间的接触部位添加导电橡胶密封条，外表面具有鳍片状设计。适用于湿热、霉菌、振动、冲击等恶劣环境。
+179. 201674731 一种加固型卡槽式电子设备
+CN
+15.12.2010
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+201020190347.4
+北京东土科技股份有限公司
+王敬文
+H05K 5/00
+Loading...
+一种加固型卡槽式电子设备，属于电子通信设备技术领域。由上盖板、下盖板、后面板、前面板、左右侧板组成；前面板具有接口端子，后面板带金手指，上下面板带导轨，前面板带拉手。前面板从上到下排列各种数据接口。适用于用设备机身自带导轨插板或机柜中的使用环境。
+180. 101888308 Method for realizing integrated management of multi-board embedded device
+CN
+17.11.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010196598.8
+Kyland Technology Co., Ltd.
+Qu Jianning
+H04L 12/24
+Loading...
+The invention discloses a method for realizing integrated management of a multi-board embedded device and aims to provide an automatic control method which relates to the fields of multi-board cooperative control and embedded control and is implemented through a WEB interface and a command line interface (CLI). The key points of the technical scheme are that: a main management device is connected with each sub-device through a network interface; the management address of the sub-device and user login information are transmitted to the central processing unit (CPU) of the main management device through a neighbor discovery protocol; the ID and address information of the sub-device is automatically configured and saved in the main management device; and when the sub-device needs accessing, automatic connection to the sub-device can be realized through the WEB interface or the CLI interface of the main management device without artificially memorizing the address of the sub-device. The method has the advantages of solving the problem of management redundancy of the embedded multi-board device, lowering the address management difficulty of a plurality of boards, enhancing the cooperative capacity of a system and realizing centralized management of the plurality of boards along with convenient use.
+181. 201639591 一种嵌入式协议转换器功能的工业以太网交换机
+CN
+17.11.2010
+H04L 12/02 Loading...
+H04L 12/02
+Loading...
+200920350818.0
+北京东土科技股份有限公司
+于建卫
+H04L 12/02
+Loading...
+一种嵌入式协议转换器功能的工业以太网交换机，属于电子通信设备技术领域。包括前面板10、上盖板11、侧板12，其特征在于：前面板10包括位于下端的接口模块103，位于接口模块103上端的接口模块101，和位于接口模块103、接口模块101右侧的接口模块102；接口模块101由两个百兆光接口或两个电接口组成，接口模块103由三个电接口组成，接口模块102由四路数据接口或一个电接口组成。本实用新型为集以太网接入、串行数据传输于一体的综合光通信设备，适用于需要串口协议与以太网协议直接的转换的通讯环境。
+182. 101867469 Realization method of precision synchronous clock
+CN
+20.10.2010
+H04L 7/00 Loading...
+H04L 7/00
+Loading...
+201010196579.5
+Kyland Technology Co., Ltd.
+Huang Jianchao
+H04L 7/00
+Loading...
+The invention discloses a realization method of a precision synchronous clock and aims at providing a transmission method of a precision synchronous clock in a measuring and automatic system based on an industrial Ethernet. The essential points of the technical scheme of the invention are that the realizing method comprises a frequency and deviation adjusting algorithm based on a fuzzy PID (Proportion Integration Differentiation), a quick internal clock synchronous algorithm, a real-time synchronous check method and a real-time clock frequency and time deviation adjusting algorithm. The invention has the following applications that the method can be used for realizing quick switch of the clock, can be applied to a high-reliability redundant clock source system and can finish the switch of the clock in ten seconds; the transmission precision of a single-stage clock can reach 50ns level; and since the algorithm can be used for realizing the quick switch of the clock, the algorithm is also applied to a high-reliability clock synchronous system under a redundant loop net and the clock HOLDOVER function on terminal equipment is degraded. The invention achieves the functions of software for receiving and transmitting a precision synchronous clock protocol message and adjusting and calibrating a system clock.
+183. 101867513 Method for implementing reversing performance optimization of three-layer network multiple spanning tree link
+CN
+20.10.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010173359.0
+Kyland Technology Co., Ltd.
+Qu Zhifeng
+H04L 12/56
+Loading...
+The invention discloses a method for implementing reversing performance optimization of a three-layer network multiple spanning tree link, and aims to provide optimization of reversing performance of a multiple spanning tree link in the communication field. The invention adopts the technical scheme that the method for implementing the reversing performance optimization of the three-layer network multiple spanning tree link comprises the following steps of: packing all TCs, and uniformly sending the TCs; changing a clearing process, and uniformly clearing an ARP port at one time when a plurality of instances clear an ARP table for one port according to the port in a one-time topological variation process; and avoiding carrying the TCs in hello message. The specific implementation comprises variation of forwarding to the TCs at the port and processing after the TCs are received. The method is used for greatly improving the reversing performance of the spanning tree link on the premise of ensuring the basic functions of the multiple spanning trees, and the three-layer reversing performance can reach 300 to 600ms.
+184. 101860541 Realization method for port authentication security policy
+CN
+13.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010196593.5
+Kyland Technology Co., Ltd.
+Deng Yaoyong
+H04L 29/06
+Loading...
+The invention discloses a realization method for port authentication security policies, aiming at providing a realization method for communication equipment port security policies. The technical scheme is that in the process of the authentication of client equipment and server equipment, a method of adding random values is used for keeping random values to be inconsistent, thereby data after one-way encryption is inconsistent and a service message is transmitted after authentication; and a re-authentication mechanism is adopted, the server equipment continuously conducts round robin to the state of the authenticated port, if a reply message is not received after specific times, the service message is refused to pass and the client equipment is required to be re-authenticated at the moment. Since the one-way encryption algorithm is adopted, i.e. password cannot be recovered through a decryption algorithm, the invention has the advantages that the problems in the authentication and the security in an industrial Ethernet, the system security performance is improved, the bidirectional authentication can be realized, the authentication process is high-efficiency, simple and rapid, the RC4 encryption is adopted for the storage of user password to prevent the password from being stolen, the use is very convenient and the authentication cannot be imitated and cracked.
+185. 101854358 Realization method of multiple-spanning-tree link switching performance optimization
+CN
+06.10.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010173357.1
+Kyland Technology Co., Ltd.
+Qu Zhifeng
+H04L 29/06
+Loading...
+The invention discloses a realization method of multiple-panning-tree link switching performance optimization, which aims at providing an optimization method of multiple-spanning-tree link switching performance in the communication field, and adopts the technical scheme that: multiple spanning trees are classified into a plurality of examples, all example information is collected tighter to be packed into a message to be sent out; sending treatment of restriction message is carried out at the place at which each example is treated, a packet is allowed to send until the flow required for each example is processed and completed in each state machine, and the packet brings about the information of all examples. The uniform packing and sending treatment is carried out at two places, the first place is of a processing function of each event, and the second place is of a place for receiving and sending the packet. The method has the advantages that: on the premise that the basic function of the multiple spanning tree is ensured, the spanning tree link switching performance is greatly improved, and the switching performance of two layers can reach 40 to 70 ms.
+186. 101820411 Method for implementing data transmission link reconstruction
+CN
+01.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200910091462.8
+Beijing Kyland Telecom Technology Co., Ltd.
+He Yingjun
+H04L 29/06
+Loading...
+The invention discloses a method for implementing data transmission link reconstruction, and aims to provide a technique for data transmission link reconstruction. The invention adopts the technical scheme that the method comprises the following steps of: selecting a certain vlan on a certain controllable exchanger, then starting a server, sending link reconstruction protocol message to all exchangers capable of being collected through the server, and adding all ports into the vlan id sent together with the link reconstruction protocol message after the server and a client receive the link reconstruction message; and canceling the vlan id to recover an initial state when the server and the client cannot receive the link reconstruction message in a certain time or receive a stop command. After two ports receive the same link reconstruction protocol message, the protocol message shields the redundant ports according to a self loop formation algorithm, and retains one network topology which does not form a loop so as to normally access the exchanger of which a logic layer cannot be accessed. The method is suitable for solving the problem that people cannot touch an exchanger entity of which the logic layer cannot be accessed so that the communication cannot be performed and heavy loss may be caused.
+187. 201571072 一种配置灵活的工业以太网交换机
+CN
+01.09.2010
+H04L 12/04 Loading...
+H04L 12/04
+Loading...
+200920350817.6
+北京东土科技股份有限公司
+黄剑超
+H04L 12/04
+Loading...
+一种配置灵活的工业以太网交换机，属于电子通信设备技术领域。包括前面板11、后面板10、上盖板12、侧板13、高度为1U；后面板10包括从左至右排列的四个可拆卸并能够自由组合的板卡101、板卡102、板卡103、板卡104和电源105。板卡104为四个千兆电接口，或四个不脱落孔，或四个千兆光接口，或由两个千兆光接口和两个不脱落孔组成的四个接口。板卡101、板卡102、板卡103，每个板卡包含八对百兆光接口或八个百兆电接口或由百兆光接口和百兆电接口的组合成的八个接口。本实用新型后面板10可根据用户的不同需求，灵活的配置不同的板卡，最多可提供4*N(N＝0～6)个百兆电接口和4*N(N＝0～6)对百兆光接口，4个SPF形式或RJ45形式千兆接口，可以灵活的接入SFP千兆光/电器件，满足工业现场的多种配置需求。
+188. 101815103 Multi-board communication equipment address query method
+CN
+25.08.2010
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010104258.8
+Kyland Technology Co., Ltd.
+Qu Jianning
+H04L 29/12
+Loading...
+The invention discloses a multi-board communications equipment address query method, the key points of the technical scheme are as follows: comprising at least board modules and querying the address information of another board module or several board modules by an LLDP protocol, which are that: A1. a board module needing to query sends an LLDP message to an MAC address, and repeatedly sends the message at interval: A2. a receiving board module manages a CPU to receive the LLDP message, and upgrades and storage the message in real time; and A3. when needing to query the board module to log in, a user is free from remembering the address of the board module needing to query, the log can be realized by the address stored in the interior of a system. The invention has the purposes that by the invention, the user can obtain the management address of another board through a board CPU, the problem that a network address can not obtained when other boards have no debug serial port can be solved, the difficulty of the multi-bard address management can be reduced, the cooperation capability of the system can be improved, and the use is very convenient.
+189. 101813809 Realization method of improving noise immunity by light modules
+CN
+25.08.2010
+G02B 6/42 Loading...
+G02B 6/42
+Loading...
+200910243291.6
+Kyland Technology Co., Ltd.
+Lang Qingkai
+G02B 6/42
+Loading...
+The invention discloses a realization method of improving the noise immunity by light modules, which is characterized in that metal sleeve pipes (used for being matched with an insertion core of optical fiber) of the light modules carry out grounding treatment, or the sleeve pipes of the light modules are made into nonmetal sleeve pipes. Two metal sleeves of the TX end and the RX end of the light modules are connected with metal cases of the light modules, and two metal sleeve pipes of the TX end and the RX end of the light modules without the metal case need to be respectively communicated with GND pins of the light modules. The invention has the purpose that the technical defects are overcome, and the realization method of improving the noise immunity by the light modules is provided. The invention can effectively improve the EMC noise immunity performance of the light module, and can particularly improve the EMC noise immunity performance of electronic equipment using the light modules, so the electronic equipment using the light module can meet the market requirements to obtain commercial success.
+190. 201550396 一种高电磁屏蔽、高防震电子设备结构体
+CN
+11.08.2010
+H05K 9/00 Loading...
+H05K 9/00
+Loading...
+200920173213.9
+北京东土科技股份有限公司
+张政
+H05K 9/00
+Loading...
+本实用新型公开了一种高电磁屏蔽、高防震电子设备结构体，旨在解决连接体之间的缝隙存在电磁泄漏及抗震性能差的问题。其技术方案的要点是，电子设备两侧板、底板、后面板及前面板框架采用焊接方式连接，两侧板、底板、后面板及前面板框架焊接为一体；结构体内部关键器件做固定。在前面板框架及焊接体与上盖板接触平面各开一条宽3mm、深2mm的环状U型槽，此U型槽用来填充直径3mm的带橡胶芯丝网衬垫。前面板所有的连接器在装配时都需要安装环状电磁密封圈。安装在前面板上的连接器均需是滤波连接器。电源模块安装在独立密封的金属盒里面，再将该金属盒固定在底板上。本实用新型适用于对防电磁辐射和抗震性能要求高的电子设备。
+191. 101777936 Surge immunity test method of high-speed signal wire
+CN
+14.07.2010
+H04B 3/46 Loading...
+H04B 3/46
+Loading...
+200910087685.7
+Kyland Technology Co., Ltd.
+Huang Kun
+H04B 3/46
+Loading...
+The invention discloses a surge immunity test method of a high-speed signal wire, and aims at providing a test method for testing surge immunity of a communication wire under the condition that the electrical and the electronic devices adopt non-shielding cables to normally run and to transmit and process the high-speed electric signals, which adopts the technical scheme that: a test system consists of a device to be tested, an auxiliary device, a test signal generator and a photoelectric converter. A grounding bolt of the test signal generator and a grounding bolt of the device to be tested are collectively connected with a ground wire; and an anode of the test signal generator is connected with a wire core of a communication cable which is stripped. A data interface of the device to be tested is connected with an electric port of the photoelectric converter, and an optical port of the photoelectric converter is connected with the auxiliary device.
+192. 101741625 Method for configuring command line
+CN
+16.06.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010104256.9
+Beijing Kyland Technology Co., Ltd.
+Ren Jinyao
+H04L 12/24
+Loading...
+The invention discloses a method for configuring a command line, in particular to a method for configuring a command line for communication equipment. According to the technical scheme, the method for configuring the command line is characterized in that the character strings of the command line are interpreted by an interpreter in a processor into command keywords and parameters; the parameters are saved in a corresponding data structure in a memory configuration adaption layer; the task of the protocol takes charge of checking that whether a configuration is changed; if a configuration is changed, related parameter is read from the corresponding data structure in the memory configuration adaption layer, and the command is given actually; and other modules read the parameters of the protocol through the memory configuration adaption layer. The invention ensures the state machine running efficiency, ensures the state uniqueness and the operation safety due to the unified management of the configuration and the unified release of the mechanism under the condition of the existence of multi-users and simplifies the inquiry process because the configuration data is saved in the memory configuration adaption layer and result of inquiring the configuration by other modules is directly given by the memory configuration adaption layer.
+193. 101741224 Voltage-drop compensation method for power output lines and switch power supply
+CN
+16.06.2010
+H02M 1/00 Loading...
+H02M 1/00
+Loading...
+200910243292.0
+Beijing Kyland Technology Co., Ltd.
+Liu Bang
+H02M 1/00
+Loading...
+The invention discloses a voltage-drop compensation method for power output lines and a switch power supply, and the key points of the technical scheme are as follows: the circuit at the feedback part of the switch power supply comprises a sampling resister 04, a reference source 03, a photoelectric coupler 02, an output capacitor 05, a power output line resister 06 and a current-limiting resister 01, wherein one end of the current-limiting resister 01 is connected with the output resister 05, and the other end thereof is connected with the photoelectric coupler 02; the photoelectric coupler 02 is connected with the cathode of the reference source 03, the anode of the reference source 03 is set as a reference ground, and the reference end of the reference source 03 is connected with the common ports of R2 and R3 of the sampling resister 04; R2 end of R2 and R3 of the serial sampling circuit 04 is connected with the output capacitor 05, and R3 end is connected with the reference ground of the reference source 03; and a compensation resister Rd is added between the reference ground of the reference source 03 and R3 of the sampling resister 04. The invention has the advantages of saving wires and improving load regulation. The invention can be used in the feedback parts of various power supplies, and comprises but is not limited to the following devices such as a flyback converter, a forward converter, a half-bridge converter, a full-bridge converter, a quasi-resonant converter and the like.
+194. 101729295 Method for realizing log function
+CN
+09.06.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910241712.1
+Beijing KY Land Technologies Co., Ltd.
+Qu Jianning
+H04L 12/24
+Loading...
+The invention discloses a method for realizing a log function, which aims to provide a method for recording and viewing the log function of communication equipment. Key points of the technical scheme thereof are that: the method for realizing the log function utilizes a message mechanism to transmit log information inside the system of the communication equipment, and utilizes a process mechanism to receive and store the log information; a cache system is used for matching logs with same content in short time, and reducing the storage times of repeated logs; and a storage system can write the logs into an internal storage unit or network storage equipment, and the logs in the internal storage unit also allow to be automatically or manually transferred to the network storage equipment. The use of the invention is to provide a safe, conveniently used and flexible method for recording and viewing the log function of the communication equipment. The method can effectively avoid the paralysis of the log function caused by the attack of broadcast and unicast storms.
+195. 201504241 一种模块化千兆工业以太网交换机
+CN
+09.06.2010
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200820109805.X
+北京东土科技股份有限公司
+黄剑超
+H04L 12/56
+Loading...
+一种模块化千兆工业以太网交换机。本实用新型为标准19英寸机箱，上盖板采用单肋的设计，提高了工业交换机的散热面积，可使工业交换机工作在-40～+75℃；后面板中的101-104是4个可拆卸并能够自由组合的板卡，可满足客户对光电接口的不同需求。4个千兆光口(可根据客户需求选用0-4个)，为全封闭的结构，而且也可根据客户的不同需求选用电源的接入方式，可以很好的满足恶劣工业现场的需求。
+196. 101720181 Electronic equipment with high sealing performance
+CN
+02.06.2010
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+200910241713.6
+Beijing KY Land Technologies Co., Ltd.
+Wang Jingwen
+H05K 5/06
+Loading...
+The invention discloses electronic equipment with high sealing performance, and aims to solve the problems of electronic equipment with high sealing performance and good electromagnetic performance. Key points of the technical scheme thereof are that: the electronic equipment with high sealing performance comprises a machine shell, and a main body is a connection whole obtained by milling or casting or adopting other ways, has a closed structure and has no seams; and sealing and conductive measures are adopted at a seam crossing between an external connecting device on a bottom plate or an upper cover plate or the equipment and the machine shell of the equipment. The invention is suitable for electronic equipment which has high requirement on sealing performance and electromagnetic compatibility.
+197. 201467613 一种密闭壳体电子设备的组合散热装置
+CN
+12.05.2010
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+200920109586.X
+北京东土科技股份有限公司
+王敬文
+H05K 7/20
+Loading...
+本实用新型公开了一种密闭壳体电子设备风机和热管等的组合散热装置，旨在解决密闭壳体电子设备既要求高防护等级、又要求良好散热的矛盾。其技术方案的要点是，该种密闭壳体电子设备的组合散热装置结构由风扇、带散热片的壳体、导热膜、PCB固定支架、导热管、芯片导热板组成。导热管连接芯片导热板与PCB固定支架，PCB固定支架侧板垂直截面形状为楔形，楔形面与与机壳内壁紧密接触，机壳内侧与PCB支架侧板配合面为相同角度的斜面，在接触面之间有可压缩的导热膜，保证PCB固定支架与机壳内壁紧密接触；壳体外壳侧为片状散热结构；散热片端固定有风扇，形成风道，为散热片风冷对流散热。本实用新型适用于密闭壳体电子设备的散热。
+198. 101631062 PVLAN implementation method of trunking port isolation
+CN
+20.01.2010
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+200910091461.3
+Beijing Kyland Telecom Technology Co., Ltd.
+Li Yanrui
+H04L 12/46
+Loading...
+The invention discloses a PVLAN implementation method of trunking port isolation, which aims at providing a technology related to trunking port isolation of virtual local area network (VLAN). The technical schemes of the method adopts the following key points: calling a port collocated in a PVLAN region as a PVLAN port, and dividing the port into two equivalence classes in the PVLAN port: shared port regions and isolated port regions; adding an upstream port into the shared port regions in a UNTAG way; adding a downstream port into each isolated port region in a UNTAG way; adding the ports into the isolated port regions into the shared port region in a UNTAG way; adding ports of all shared port regions into the isolated port regions in a UNTAG way; and correcting a learning mode of an MAC address into a shared VLAN learning mode. The invention is suitable for solving the technical difficulties of trunking port VLAN isolation, realizes the network optimization and solves the problem of communication safety.
+199. 101600325 Combination heat sink of closed shell electronic equipment
+CN
+09.12.2009
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+200910087684.2
+Beijing KY Land Technologies Co., Ltd.
+Wang Jingwen
+H05K 7/20
+Loading...
+The invention discloses a combination heat sink of a fan, heat pipe and the like of closed shell electronic equipment, aiming at solving the conflict between high protection grade and excellent heat dissipation required by the closed shell electronic equipment. The key of the technical proposal is as follows: the combination heat sink of the closed shell electronic equipment comprises the structures of the fan, the shell with heat sinks, a heat conduction film, a PCB fixed bracket, a heat conducting pipe and a chip heat conducting plate. The heat conducting pipe connects the chip heat conducting plate and the PCB fixed bracket, the vertical section shape of the side plate of the PCB fixed bracket is of wedge shape, the wedge-shaped face is in tight contact with the inner wall of the shell, the inner side of the shell and the matching face of the side plate of the PCB fixed bracket are inclined planes with the same angle, the heat conduction film is arranged between the contact faces to ensure the tight contact between the PCB fixed bracket and the inner wall of the shell; the outer shell side of the shell is platy heat dissipation structure; the end of the heat sinks is fixed with the fan to form an air passage, thus providing air cooling and convection heat dissipation for the heat sinks. The invention is suitable for the heat dissipation of the closed shell electronic equipment.
+200. 101534216 Automatic topology realisation method based on topological bucket algorithm
+CN
+16.09.2009
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+200910082893.8
+Beijing KY Land Technologies Co., Ltd.
+Li Hui
+H04L 12/24
+Loading...
+The invention discloses an automatic topology realisation method based on topological bucket algorithm, belongs to the field of computer network management, and is particularly suitable for network topology management of an Ethernet exchanger. The invention solves the technical problem of quick formation of wide area automatic topology. The invention comprises the steps of optionally selecting a network apparatus in a topological seed bucket as a seed net element, sending a message for inquiring apparatus adjacency relation to the seed net element, obtaining the apparatus adjacency relation, adding the inquired adjacent apparatus in a temporary topological queue, orderly constructing net elements and apparatus icons on a topological plane, and establishing a topological relation; comparing the apparatuses in the temporary topological queue with the apparatuses in the topological bucket and the topological seed bucket, then orderly taking out the adjacent apparatuses as seed net elements from the to-be-topological queue, continuously searching and circulating, and accomplishing topology until the temporary topological queue, the to-be-topological queue and the topological seed bucket are blank. The technical proposal of the invention has the advantages of high efficiency, high flexibility and high accuracy, and the topology is relatively intuitive.
+

@@ -1,0 +1,1633 @@
+1. 106603179 应急广播资源筛选方法和系统
+CN
+26.04.2017
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201710003743.8
+北京数码视讯科技股份有限公司
+孙欣
+H04H 20/59
+Loading...
+本发明提供了应急广播资源筛选方法和系统，通过获取播发请求信息；根据播发请求信息从播出系统资源中选择第一资源集合；将第一资源集合根据匹配资源要素得到第二资源集合；对第二资源集合进行预评；判断第二资源集合是否达标；如果不达标，则对匹配资源要素按照配置顺序依次调整匹配条件，生成新的调度方案，对新的调度方案进行预评，直至达标，可以在满足播发的覆盖要求的同时，实现播出资源的优化配置利用。
+2. 106550242 IP实时媒体流的转换方法和装置
+CN
+29.03.2017
+H04N 21/234 Loading...
+H04N 21/234
+Loading...
+201611125175.0
+北京数码视讯科技股份有限公司
+马华文
+H04N 21/234
+Loading...
+本申请提供了IP实时媒体流的转换方法和装置，涉及多媒体通信技术领域，其中，该IP实时媒体流的转换方法包括：虚拟配置设备接收IP实时媒体流，其中，虚拟配置设备中包括电连接的网关和媒体单元，网关对IP实时媒体流进行注册，以获取IP实时媒体流的标号，网关还对IP实时媒体流进行SIP/H.323呼叫以解析IP实时媒体流的信令格式，媒体单元对IP实时媒体流进行解包，按照信令格式将IP实时媒体流进行压包，并将压包后的IP实时媒体流发送给SIP/H.323设备，通过该方法使得IP实时媒体流在接入SIP/H.323设备之前，不必再经过编解码器等进行格式转换，使得IP实时媒体流的接入更加方便。
+3. 106529650 一种智能卡掩膜应用的扩展方法及装置
+CN
+22.03.2017
+G06K 19/073 Loading...
+G06K 19/073
+Loading...
+102015000575310
+北京数码视讯科技股份有限公司
+郑黎方
+G06K 19/073
+Loading...
+本发明公开了一种智能卡掩膜应用的扩展方法及装置，所述方法包括根据接收到的待处理指令，进行预处理；根据进行指令处理的指令处理扩展功能代码的下载标志，判断指令处理扩展功能代码是否已下载；其中，指令处理包括以下处理中的任一种或组合：读数据、写数据、对比校验、加密、解密、签名和验签；若是，则根据指令处理扩展功能代码对待处理指令进行指令处理，若否，则根据掩膜指令处理功能代码对待处理指令进行指令处理；并获得指令处理结果；对指令处理结果进行后处理。根据本发明提供的方法能够自由灵活的扩展应用的功能。
+4. 106534896 一种传输流TS的传输方法及装置
+CN
+22.03.2017
+H04N 21/235 Loading...
+H04N 21/235
+Loading...
+201611054569.1
+北京数码视讯科技股份有限公司
+陈冰
+H04N 21/235
+Loading...
+本发明提供一种传输流TS的传输方法及装置，该方法包括：第一设备确定当前缓存的TS流中相邻的两个原始TS包的发送时间间隔；第一设备至少将所述相邻的两个原始TS包中前一原始TS包的包长以及所述发送时间间隔，编辑到所述前一原始TS包的包头之前且与所述前一原始TS包的包头相邻的位置，得到编辑后TS包；第一设备确定到达所述前一原始TS包的传输顺序时，将所述编辑后的TS包通过传输网络传输至第二设备。本发明无需对原始TS包中的码率和间隔进行更改，保证了后端设备能够接收到正常的TS包。
+5. 106453433 多信令协议互通方法及多信令转换设备
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611181745.8
+北京数码视讯科技股份有限公司
+马华文
+H04L 29/06
+Loading...
+本发明提供一种多信令协议互通方法及多信令转换设备。所述多信令转换设备对不同的每种协议终端进行标准化通信处理，执行三次握手请求操作及两次自适应媒体协商操作，以实现多个不同协议终端之间的互连互通。由此，能够根据用户的需求，实现主流标准协议或用户定制私有协议等各种不同协议终端的互连互通。本发明中的自适应媒体协商操作，能解决多种协议交互时引入的业务延时问题，可快速响应不同用户对多种协议互联互通的需求。
+6. 106453302 一种应急广播消息传输装置和系统
+CN
+22.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610880543.6
+北京数码视讯科技股份有限公司
+任彦明
+H04L 29/06
+Loading...
+本发明提供了一种应急广播消息传输装置和系统，其中，该装置包括：通过传输流TS传输链路连接的应急广播适配器和应急广播处理器；应急广播适配器用于将应急广播消息转换为传输流格式的应急广播消息，并通过TS传输链路发送至应急广播处理器；应急广播处理器用于将传输流格式的应急广播消息进行解析处理，生成应急广播指令和应急广播内容，并将应急广播指令和应急广播内容发送至广播电视前端和/或发射台，以使广播电视前端和/或发射台根据应急广播指令对应急广播内容进行应急广播。本发明通过使用现有的TS传输链路进行应急广播消息的传输，大大降低了应急广播消息传输系统的建设成本，同时也提高了消息传输的实时性和安全性。
+7. 106412689 音频响度调整方法及装置
+CN
+15.02.2017
+H04N 21/439 Loading...
+H04N 21/439
+Loading...
+201610973491.7
+北京数码视讯科技股份有限公司
+郭长振
+H04N 21/439
+Loading...
+本发明实施例提供一种音频响度调整方法及装置，涉及音频音量控制技术领域。所述方法包括：对音频增益进行平滑处理，得到平滑后的音频增益；采用平滑后的音频增益对输入音频信号进行处理，得到音频响度调整后的输出音频信号。所述音频响度调整方法通过对音频增益进行平滑处理，并采用平滑后的音频增益对输入音频信号进行处理，使得在对音视频(如，广播电视节目)进行切换时输出的音频信号的音量保持在一适当的响度，有效地避免了广播电视节目进行切换过程中产生的突变噪声，提高了用户观看广播电视节目的舒适度。
+8. 104157104 一种运行状态分析报警模块及系统和方法
+CN
+15.02.2017
+G08B 21/18 Loading...
+G08B 21/18
+Loading...
+102013000179704
+北京捷诺视讯数码科技有限公司
+段兴强
+G08B 21/18
+Loading...
+本发明公开了一种运行状态分析报警模块及系统和方法：所述模块，包括：事件接收子模块，事件复核子模块，队列管理子模块，运行策略管理子模块，运行状态分析子模块，运行状态信号灯控制子模块和数据库管理子模块。所述系统，包括所述的模块。所述方法包括步骤：S1，对设备事件进行分类、分级；S2，滤除重复的和错误的设备事件；S3，结合历史数据，确定设备事件的风险系数；S4，综合全部设备事件信息，根据所述系数和系统当前状态，生成系统运行状态指数。本发明的方案解决了事件重复、误报、数量多的问题；自动分析、评估、生成系统运行状态指数，根据指数报告系统运行状况；有效减少工作量，提高工作效率，降低管理成本，减小管理难度。
+9. 106354748 一种网页生成方法和装置
+CN
+25.01.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000669046
+北京数码视讯科技股份有限公司
+夏玉晓
+G06F 17/30
+Loading...
+本发明提供了一种网页生成方法和装置，其中，该方法包括：服务器通过网页配置文件的编辑界面接收当前网页的配置信息，并保存至网页配置文件中；当接收到网页展现命令时，服务器加载网页配置文件，并获取网页配置文件中保存的当前网页的配置信息；服务器调用当前网页对应的公共模块对当前网页进行页面布局操作和参数展现操作；其中，页面布局操作根据网页展现配置信息进行；参数展现操作根据网页展现参数进行；公共模块包括当前页面的层叠样式表、浏览器脚本语言库、网页配置文件的解析接口和参数校验接口；当页面布局操作和参数展现操作完成后，服务器确定当前网页生成完毕。本发明提高了网页的开发效率和可维护性。
+10. 106330821 一种集成电路卡的认证码获取方法、装置及系统
+CN
+11.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510346704.9
+北京数码视讯科技股份有限公司
+陈德权
+H04L 29/06
+Loading...
+本发明公开了一种集成电路卡的认证码获取方法、装置及系统，包括：处理平台获取客户端发送的集成电路IC卡的全球唯一编号UID和所述客户端的IP地址；在数据库中查找与IP地址对应的客户端所属的公司名称和区域编号；将查找到的公司名称、区域编号，以及UID发送给认证码生成服务器；将接收到的认证码生成服务器发送的与UID对应的认证码，发送给客户端，使得客户端通过调用IC卡的认证码写入接口将UID和认证码提供给IC卡。采用本发明实施例提供的方案，相比现有技术，减少了认证码的获取时间，提高了获取效率。
+11. 106331777 一种视频推荐方法及装置
+CN
+11.01.2017
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+102015000346534
+北京数码视讯科技股份有限公司
+崔玉斌
+H04N 21/258
+Loading...
+本发明涉及一种视频推荐方法及装置。所述方法包括：获取参考视频属性；所述视频属性包括以下中的至少一种：视频名称、视频主演、视频导演、视频类型、视频评分；根据参考视频属性，计算存储的视频的视频属性与参考视频属性之间的相关性；根据计算的相关性进行视频推荐。通过本发明的方法能够提高视频推荐的准确性。
+12. 106301232 一种多通道数字上变频系统及方法
+CN
+04.01.2017
+H03D 7/16 Loading...
+H03D 7/16
+Loading...
+201510259681.8
+北京数码视讯科技股份有限公司
+范光荣
+H03D 7/16
+Loading...
+本发明涉及一种多通道数字上变频系统及方法，该系统包括：预处理模块、傅里叶搬频模块、合路模块和实调制信号获取模块：预处理模块用于将每一路待变频信号的中心频率搬频至该路待变频信号对应的预设频点并将处理结果输出给傅里叶搬频模块；傅里叶搬频模块用于将各路信号同时进行傅里叶逆变换以将各路信号的中心频率搬频至对应的目标频点；以及，将处理结果输出给合路模块；合路模块用于将各路信号进行一次内插滤波后进行合路，并将处理结果输出给实调制信号获取模块；实调制信号获取模块用于对合路后的信号进行二次内插滤波后，再进行正交调制后输出实调制信号。通过本发明提供的系统能够节约硬件资源。
+13. 103369331 图像空洞的填补方法和装置及视频图像的处理方法和装置
+CN
+21.12.2016
+H04N 13/00 Loading...
+H04N 13/00
+Loading...
+102012000084837
+北京数码视讯科技股份有限公司
+杨铀
+H04N 13/00
+Loading...
+本发明公开了一种图像空洞的填补方法和装置及视频图像的处理方法和装置。其中，图像空洞的填补方法包括：获取视频图像和视频图像的三维空间信息；确定视频图像的各个像素点的视差值；将视差值乘以预设常数得到虚拟视点图像中各个虚拟视点的位置信息；根据预设常数确定绘制虚拟视点图像的方向；按照确定的方向从三维空间信息中读取各个像素点的像素值和与各个像素点对应的虚拟视点的位置信息，并在读取过程中绘制虚拟视点图像；以及在虚拟视点图像出现空洞时，根据读取到的像素点的像素值填补空洞。通过本发明，解决了现有技术中难以通过光栅扫描方式填补虚拟视点图像中的空洞的问题，进而达到了简化空洞填补时运算类型，降低计算复杂度的效果。
+14. 205829640 一种应急广播系统
+CN
+21.12.2016
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201620565126.8
+宁波广播电视集团
+曾建辉
+H04H 20/59
+Loading...
+本实用新型公开了一种应急广播系统，该应急广播系统包括服务器设备，以及互为主备的第一链路和第二链路，服务器设备与所述第一链路和所述第二链路分别连接。通过本实用新型提供的应急广播系统，能够提高应急广播系统的可靠性。
+15. 106231315 一种视频编码系统和应用该系统的视频编码方法
+CN
+14.12.2016
+H04N 19/176 Loading...
+H04N 19/176
+Loading...
+102016000639691
+北京数码视讯科技股份有限公司
+司继播
+H04N 19/176
+Loading...
+本发明提供了一种视频编码系统和应用该系统的视频编码方法，其中，该系统包括：与外界视频源连接的第一编码器，用于读入视频帧，并根据指定的编码标准对视频帧进行编码，并输出第一码流；与第一编码器连接的解码器，用于对第一码流进行解码，从解码结果中的提取并保存视频编码参考信息；其中，该视频编码参考信息包括视频信息；与外界视频源和解码器连接的第二编码器，用于读入视频帧和视频编码参考信息，并根据指定的编码标准和视频编码参考信息对视频帧进行编码，并输出第二码流。本发明能够高效、快速地进行编码，且计算量小、可扩展性高。
+16. 106162820 一种终端间传输数据的方法及装置
+CN
+23.11.2016
+H04W 48/16 Loading...
+H04W 48/16
+Loading...
+102015000197850
+北京数码视讯科技股份有限公司
+潘强
+H04W 48/16
+Loading...
+本发明提供一种终端间传输数据的方法及装置，该方法包括：已开启无线直连广播的第一终端获取所述第一终端的无线直连媒体访问控制MAC地址；通过所述第一终端的近距离无线通信NFC接口将所述第一终端的无线直连MAC地址发送给第二终端，所述第二终端已开启NFC功能，所述MAC地址用于触发所述第二终端向所述第一终端发起无线直连连接请求；所述第一终端接收所述第二终端发送的无线直连连接请求并确定与所述第二终端建立无线直连连接时，与所述第二终端进行数据传输。本发明利用终端的NFC功能的便携性以及传输小数据的快捷性，能够快速自动完成两个终端间的无线直连连接，从而使得终端之间的无线直连连接更加快速可靠。
+17. 106161590 一种不同协议终端之间的通信方法及装置
+CN
+23.11.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102016000425538
+北京数码视讯科技股份有限公司
+刘士川
+H04L 29/08
+Loading...
+本发明公开了一种不同协议终端之间的通信方法及装置，该方法包括：接收第一终端发送的用于呼叫第二终端的呼叫请求，其中所述第一终端是基于第一通信协议的终端，所述第二终端基于第二通信协议的终端；基于所述第一终端的通信协议和所述第一终端协商，获得所述呼叫请求中的第二终端的标识；确定所述标识对应的第二终端的通信协议；按照所述第二通信协议呼叫所述第二终端，以建立所述第一终端和第二终端的通信链路，用于解决基于H.323协议的系统和基于ONVIF协议的系统的可扩展性和互通性。
+18. 106156700 一种图像处理中人体特征的提取方法及装置
+CN
+23.11.2016
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+102015000149262
+北京数码视讯科技股份有限公司
+余大勇
+G06K 9/00
+Loading...
+本发明涉及一种图像处理中人体特征的提取方法及装置，该方法包括：在人体影像中，针对待提取中心点的人体部位，从该人体部位的基础点集中，选取生长点集；针对生长点集中的任一点，当该点满足预设条件时，以该点为种子点，确定该种子点的种子区域；针对每一个种子区域，计算该种子区域的重心；针对每个重心，计算该重心为人体部位的中心点的预测概率；根据计算获得的各重心的预测概率，确定人体部位的中心点。通过本发明提供的方法能够提高提取中心点的准确性，并满足实时处理图像提取中心的速度需求。
+19. 106162176 帧内预测模式选择方法和装置
+CN
+23.11.2016
+H04N 19/11 Loading...
+H04N 19/11
+Loading...
+102016000881596
+北京数码视讯科技股份有限公司
+钟亮
+H04N 19/11
+Loading...
+本发明提供了一种帧内预测模式选择方法和装置，涉及视频编码技术领域，包括：获取当前编码块的目标预测单元PU；根据35种预测模式，逐一对PU进行预测，得到每种预测模式对应的PU的预测像素；计算预测像素与PU的实际像素的残差值，得到每种预测模式对应的残差值；根据当前编码块的周围块中已确定的预测模式和计算得到的每种预测模式对应的残差值，从35种预测模式中选择当前编码块的最优预测模式。本发明解决了视频编码中预测方式的选择计算复杂度较高且准确度较低的问题，可以降低视频编码时预测方式选择时的计算复杂度、节省计算量，进而提高编码速度。
+20. 105991276 一种集成电路卡的密钥传输系统、方法及装置
+CN
+05.10.2016
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201510041385.0
+北京数码视讯科技股份有限公司
+王欣
+H04L 9/08
+Loading...
+本发明公开了一种集成电路卡的密钥传输系统、方法及装置，包括：第一保护设备、第二保护设备，其中：第一保护设备，用于使用生成的第一密钥对集成电路卡的制卡数据密钥进行加密；将加密后的制卡数据密钥发送给第二保护设备；该制卡数据密钥为对集成电路IC卡的制卡数据进行加密的密钥数据；第二保护设备，用于接收第一保护设备发送的加密后的制卡数据密钥；使用生成的第二密钥对加密后的制卡数据密钥进行解密，得到制卡数据密钥。采用本发明实施例提供的方案，避免了人工向密码机输入密钥分量出错的问题，保证了制卡数据密钥传输的安全性。
+21. 105847961 一种音频数据的处理方法及装置
+CN
+10.08.2016
+H04N 21/439 Loading...
+H04N 21/439
+Loading...
+102016000189268
+北京数码视讯科技股份有限公司
+郭长振
+H04N 21/439
+Loading...
+本发明公开了一种音频数据的处理方法及装置，用以在不影响音频输出质量的同时，有效解决音频数据输出缓存区的溢出问题。所述音频数据的处理方法，包括：获取音频数据缓存区中缓存的音频数据量，该音频数据量包括多路音频信号解码后的音频采样点数据；当确定所述音频数据量与该缓存区的额定缓存数据量相差超出预设范围时，对所述多路音频信号中至少一路音频信号进行重采样。
+22. 105812079 一种应急广播状态上报、接收方法及装置
+CN
+27.07.2016
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201610131328.6
+北京数码视讯科技股份有限公司
+焦朋伟
+H04H 20/59
+Loading...
+本发明公开了一种应急广播状态上报、接收方法及装置，包括：接收应急广播平台发送的指令，并转发至各应急广播设备，所述应急广播设备是所述应急广播平台下属的各应急广播设备；接收各应急广播设备上报的应急广播状态报告，并转发至应急广播平台；其中，在进行接收及转发时，是通过传输控制协议通道进行接收及转发的。采用本发明能够避免现有回传系统中各级应急广播平台独立申请固定IP地址的浪费问题，极大缩减应急广播成本。
+23. 105791866 视频编码中间数据获取方法、设备及系统
+CN
+20.07.2016
+H04N 19/61 Loading...
+H04N 19/61
+Loading...
+102014000823074
+北京数码视讯科技股份有限公司
+张刚
+H04N 19/61
+Loading...
+本发明实施例提供了一种视频编码中间数据获取方法、设备及系统，提高了视频编码/转码设备对视频的处理效率。方法包括：在视频编码设备进行视频编码过程中，针对视频中的每一待编码帧，执行以下操作：在确定该待编码帧的帧类型时，保存该确定的帧类型；在针对该待编码帧中的每一宏块进行编码的过程中，在确定该宏块的最优编码模式时，保存该宏块的最优编码模式；将该待编码帧的帧号与帧类型、帧内各宏块的最优编码模式对应存储；在完成所述视频的视频编码后，将所有对应存储的帧号与帧类型、帧内各宏块的最优编码模式作为所述视频的视频编码中间数据。
+24. 105791837 一种视频数据编码方法、解码方法、转码方法及设备
+CN
+20.07.2016
+H04N 19/174 Loading...
+H04N 19/174
+Loading...
+201410818230.9
+北京数码视讯科技股份有限公司
+张刚
+H04N 19/174
+Loading...
+本发明实施例提供了一种视频数据编码方法、解码方法、转码方法及设备，数据编码方法包括：确定当前帧中第一条带集合和第二条带集合，针对第一条带集合中的每一第一条带，根据第一条带的起始位置和结束位置，对该第一条带进行编码；针对第二条带集合中的每一第二条带，根据第二条带的起始位置和结束位置，对该第二条带进行编码，在当前帧需要参考帧时，当前帧的每一第二条带中宏块的参考块的位置均位于参考帧的第二条带集合中第二条带所占的区域；将已编码的第一条带或第二条带的条带序号记录在当前帧的码流数据的用户自定义字段中。使得在视频编码或转码中添加、删除、修改视频内容时只需部分转码，提高了处理速度并降低了转码造成的质量损失。
+25. 105787548 一种智能卡、智能卡的物理接口控制方法和装置
+CN
+20.07.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+102014000823029
+北京数码视讯科技股份有限公司
+王红霞
+G06K 19/077
+Loading...
+本发明公开了一种智能卡、智能卡的物理接口控制方法和装置，包括：应用模块和权限模块，其中：应用模块，用于接收读卡终端发送的物理接口控制请求；在确定对读卡终端发送的校验码验证成功后，将物理接口控制请求发送给权限模块；接收权限模块发送的控制结果，并将控制结果发送给读卡终端；权限模块，用于接收物理接口控制请求；在预存的权限信息表中查找应用模块是否具有请求控制物理接口的权限；当确定应用模块具有请求控制物理接口的权限后，根据物理接口控制请求，对物理接口进行相应的控制；并将控制结果发送给应用模块。采用本发明实施例提供的方案，提高了智能卡的安全性。
+26. 105792000 一种视频推荐方法及装置
+CN
+20.07.2016
+H04N 21/466 Loading...
+H04N 21/466
+Loading...
+201410816129.X
+北京数码视讯科技股份有限公司
+崔玉斌
+H04N 21/466
+Loading...
+本发明涉及一种视频推荐方法及装置，所述方法包括：预先获取用户集中各用户的视频操作记录，并根据视频操作记录计算用户对浏览过的视频的评分；获取所述用户集中待推荐用户对浏览过的视频的评分，并获取相关用户对浏览过的视频的评分，计算所述相关用户对待推荐视频和所述相关用户对参考视频的评分差；以所述待推荐用户对所述参考视频的评分为基础，根据计算的所述评分差，预估所述待推荐用户对所述待推荐视频的评分；按照评分由高到低的顺序，向所述待推荐用户推荐预设数量的所述待推荐视频。本发明实施例提供的方法能够提高视频推荐的效率。
+27. 105786641 一种备份恢复智能卡应用数据的方法、设备及智能卡
+CN
+20.07.2016
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201410790487.8
+北京数码视讯科技股份有限公司
+习熹
+G06F 11/14
+Loading...
+本发明提供一种备份恢复智能卡应用数据的方法、设备及智能卡，用以解决现有技术中存在的在对智能卡上的需要更新的应用的数据进行备份和采用备份的数据对更新后的应用进行数据恢复时，数据的备份操作和数据的恢复操作较复杂的问题。本发明的方法包括：智能卡在接收到来自终端的更新应用请求后，将更新应用请求对应的应用的应用数据备份到备份池中；智能卡在更新应用操作完成后，根据备份池中的应用数据，恢复更新后的应用的应用数据。由于本发明实施例避免了通过应用发行商或远程可信任服务平台对应用数据进行备份和恢复操作，降低了应用数据的备份操作和应用数据的恢复操作的复杂度，进而提高了对数据进行备份和恢复的效率。
+28. 105743860 一种字符转换的方法和设备
+CN
+06.07.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102014000758262
+北京数码视讯科技股份有限公司
+宫翔宇
+H04L 29/06
+Loading...
+本发明涉及数据传输技术领域，尤其涉及一种字符转换的方法和设备。本发明实施例的方法包括：信息输入设备在确定用户需要输入密码后，向信息存储设备发送生成字符映射表的请求；信息输入设备在接收到信息存储设备发送的用于表示字符映射表已经生成的通知后，提示用户根据信息存储设备生成的字符映射表输入每一位密码字符对应的映射字符；信息输入设备将用户输入的映射字符发送给信息存储设备。由于信息输入设备在输入密码时，能够提示用户根据信息存储设备生成的字符映射表输入每一位密码字符对应的映射字符，因而防止了在用户在输入和传输密码数据的过程中密码数据被人监听或者窃取，进而提高了密码数据传输的安全性。
+29. 105740271 一种管理智能卡应用信息的方法、设备及智能卡
+CN
+06.07.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102014000757954
+北京数码视讯科技股份有限公司
+郑黎方
+G06F 17/30
+Loading...
+本发明提供一种管理智能卡应用信息的方法、设备及智能卡，用以解决现有技术中存在的卡外设备在获取智能卡上的应用的信息时，只能获取到应用的AID，因而获取到的应用的信息较单一的问题。本发明的方法包括：智能卡中的AIMM通过APDU接口接收来自卡外设备的APDU命令；AIMM根据APDU命令，从AIMM对应的存储空间保存的应用的附属信息中，确定APDU命令对应的应用的附属信息；AIMM将确定的附属信息反馈给卡外设备。由于本发明实施例AIMM在接收到来自卡外设备的APDU命令后，会将APDU命令对应的应用的存储于AIMM对应的存储空间中的附属信息反馈给卡外设备，以便于卡外设备获取到更多的应用信息。
+30. 102624560 一种分布式部署、集中式控制的有线电视网络宽带接入系统
+CN
+29.06.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102012000063644
+深圳市天威视讯股份有限公司
+盛志凡
+H04L 12/24
+Loading...
+本发明提出了一种分布式部署、集中式控制的有线电视网络宽带接入系统，包括：系统终端，用于对上下行业务数据进行接收和发送，对接入控制数据和管理控制数据进行接收和应答；系统接入端，用于对所述上下行的业务数据、系统终端接入控制数据和管理控制数据进行数据格式转换和数据转发或处理，以及对系统接入端的管理控制数据进行发送、接收和应答；系统头端，用于对所述系统接入端和所述系统终端进行管理控制和接入控制，对所述上下行业务数据进行处理、汇聚和转发；所述系统是由系统终端、系统接入端和系统头端所构成的三级分布式部署、集中式控制的系统架构，不仅可实现数据业务的端到端控制管理和QoS优先级保障，而且布网简单、成本低且效率高。
+31. 105703899 数据的传输、接收方法及装置
+CN
+22.06.2016
+H04L 9/06 Loading...
+H04L 9/06
+Loading...
+201410707185.X
+北京数码视讯科技股份有限公司
+陈德权
+H04L 9/06
+Loading...
+本发明公开了一种数据的传输、接收方法及装置，在上述方法中，获取用户输入的数据；采用预先设定的加密算法对数据进行加密处理，并对经过加密处理后的数据进行传输。根据本发明提供的技术方案，有效地保障了用户输入数据的私密性以及数据在传输过程中的安全性。
+32. 105703863 一种应急广播的播放方法及系统
+CN
+22.06.2016
+H04H 20/59 Loading...
+H04H 20/59
+Loading...
+201610146309.0
+北京数码视讯科技股份有限公司
+宋承岩
+H04H 20/59
+Loading...
+本发明公开了一种应急广播的播放方法及系统，用以解决终端判断应急广播优先级的计算压力，以及应急广播优先级产生变化造成终端的维护成本提高的问题。所述应急广播的播放方法，包括：网络侧前端控制模块接收到在正在广播的目标区域插播应急广播的请求时，根据预设的下发应急广播的用户的优先级和应急广播的目标区域的优先级级别判定规则，当确定下发所述应急广播的用户的优先级高于正在播放广播的目标区域的优先级时，发送插播应急广播的控制指令给所述应急广播的目标区域的终端，其中，所述控制指令包括应急广播的目标区域的终端的识别码，使得终端确定控制指令中的识别码与本地识别码匹配时，停止正在播放的广播并插播所述应急广播。
+33. 105703860 一种应急广播方法及装置
+CN
+22.06.2016
+H04H 20/10 Loading...
+H04H 20/10
+Loading...
+201610147018.3
+北京数码视讯科技股份有限公司
+边雁
+H04H 20/10
+Loading...
+本发明公开了一种应急广播方法及装置，包括：在应急广播平台确定需要进行广播的各内容及各应急广播终端；根据各内容的广播要求，以及各应急广播终端的广播方式制定广播方案；根据广播方案，在需要插播时，对目标应急广播终端下发播放目标内容的控制指令。采用本发明可以避免终端多样引起的插播效果不一致且终端部署后变更困难的问题。
+34. 105678192 一种基于智能卡的密钥应用方法及应用装置
+CN
+15.06.2016
+G06F 21/64 Loading...
+G06F 21/64
+Loading...
+201511018551.1
+北京数码视讯科技股份有限公司
+郑黎方
+G06F 21/64
+Loading...
+本发明公开了一种基于智能卡的密钥应用方法及应用装置，用以减少密钥泄露的安全隐患。该方法为：智能卡接收应用程序发送的第一业务请求后，根据第一业务请求中携带的第一密钥索引和密钥关联信息之间的映射关系，从本地指定的密钥存储区域中读取对应第一密钥索引设置的密钥关联信息，再基于密钥关联信息获得第一密钥索引对应的第一密钥，并采用第一密钥与业务对端完成相关业务操作。这样，智能卡在处理第一业务请求时，是通过第一密钥索引和密钥关联信息之间的映射关系，从本地指定的密钥存储区域中获取的第一密钥，而不再是直接从应用程序中获取第一密钥，从而避免了由于应用程序被黑客、木马等攻击造成密钥泄露的安全隐患。
+35. 105678732 一种点球、角球和任意球关键帧的检测方法和装置
+CN
+15.06.2016
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201410658408.8
+北京数码视讯科技股份有限公司
+崔玉斌
+G06T 7/00
+Loading...
+本发明实施例公开了一种点球、角球和任意球关键帧的检测方法和装置，涉及计算机视觉领域，用以判断由连续N个中镜头图像帧组成的视频片段中发生的定位球事件的类型。在本发明实施例中，对于足球比赛直播中的任一中镜头图像帧，根据确定出的该中镜头图像帧中的足球场草坪区域和足球区域，确定该中镜头图像帧中的足球在足球场草坪区域中的位置信息和足球大小；当连续N个中镜头图像帧中足球在足球场草坪区域中的位置信息未发生变化时，根据在连续N个中镜头图像帧中足球在足球场草坪区域中的位置信息和/或足球大小，确定由连续N个中镜头图像帧组成的视频片段中发生的定位球事件的类型；从而实现了上述方案。
+36. 105657526 一种获取信息的方法及装置
+CN
+08.06.2016
+H04N 21/436 Loading...
+H04N 21/436
+Loading...
+201410641568.1
+北京数码视讯科技股份有限公司
+吕乐然
+H04N 21/436
+Loading...
+本发明涉及网络通信技术领域，本发明实施例提供一种获取信息的方法及装置，该方法包括：第一终端向第二终端发送建立连接请求消息，请求与所述第二终端建立连接；所述第一终端接收到所述第二终端发送的同意建立连接消息之后，发送查询请求消息，用以查询所述第二终端中的播放节目列表；所述第一终端接收所述第二终端发送的对所述查询请求消息的响应消息，并在获取到与所述查询请求消息的响应消息相关的信息后，显示获取到的与所述查询请求消息的响应消息相关的信息。根据本发明实施例提供的方法，用户可以及时查询第二终端中的播放节目列表，并可以根据获得到的播放节目列表中的目标节目名称，通过网络搜索到与该目标节目名称相关的信息。
+37. 105654172 一种IC卡及IC卡制作方法
+CN
+08.06.2016
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201410746345.1
+北京数码视讯科技股份有限公司
+陈德权
+G06K 19/077
+Loading...
+本发明涉及一种IC卡及IC卡制作方法，该IC卡包括IC封装载版、智能卡芯片、卡基、第一感应线圈，以及第二感应线圈，其中，所述卡基上嵌有所述IC封装载版，且具有围绕所述IC封装载版的第一感应线圈；所述IC封装载版上具有所述智能卡芯片和所述第二感应线圈，且所述第二感应线圈在所述智能卡芯片的外围；第二感应线圈中具有待连接的第一触点和第二触点；所述智能卡芯片用于传输无线载波信号的第一输入\输出接口和第二输入\输出接口；第二感应线圈的第一触点与所述第一输入\输出接口相连，第二触点与所述第二输入\输出接口相连。本发明的IC卡因第一感应线圈上没有与天线连接的连接点，因而能够避免该连接点受机械力量影响而损坏。
+38. 205266079 一种广播设备的外壳及广播设备
+CN
+25.05.2016
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201520926267.3
+北京数码视讯科技股份有限公司
+刘玉婷
+H05K 5/06
+Loading...
+本实用新型涉及防护设备领域，公开一种用于广播设备的外壳及广播设备，外壳包括顶板、侧围板和底座，顶板和底座安装于侧围板的两端开口处，顶板、侧围板和底座配合形成器件安装腔体，底座包括底板和防水壁，其中，防水壁设置于底板周边并与底板配合形成容纳槽；底板上设置有安装平台，安装平台位于容纳槽内、且背离底板的一侧凸出于底板。该外壳通过防水壁将外壳内部与外界隔开，可直接阻挡外界的水进入其内部可降低外壳内部器件因进水损坏的概率，提高了广播设备的使用稳定性和使用寿命。
+39. 105581651 一种饮水机聪明座及饮水机
+CN
+18.05.2016
+A47J 31/00 Loading...
+A47J 31/00
+Loading...
+201410578437.3
+北京数码视讯科技股份有限公司
+惠楠
+A47J 31/00
+Loading...
+本发明公开了一种饮水机聪明座，可以改善饮水机清洗时的清洗效果并提高清洗效率。饮水机聪明座包括：底部具有漏水孔的聪明座本体；位于聪明座本体内侧底部的聪明芯，所述聪明芯的侧壁具有漏水口；以及设置于聪明座本体底部下方的搅拌装置。本发明还公开了一种包含上述饮水机聪明座的饮水机。
+40. 105578213 一种电视终端机顶盒应用管理方法及装置
+CN
+11.05.2016
+H04N 21/258 Loading...
+H04N 21/258
+Loading...
+201410594349.2
+北京数码视讯科技股份有限公司
+何振源
+H04N 21/258
+Loading...
+本发明公开了一种电视终端机顶盒应用管理方法及装置，方法为，服务器基于本地保存的所有应用，生成数据包；服务器将数据包转换为码流发送至电视终端机顶盒；电视终端机顶盒对上述码流进行解析，对解析后得到的描述符信息和描述符信息对应的XML文件进行判断，当确定描述符信息和描述符信息对应的XML均正确时，下载发生更新的应用文件，并根据该发生更新的应用文件进行应用管理。采用本发明技术方案，服务器将包含更新的应用的数据包转换为码流后发送至电视终端机顶盒，从而降低了应用管理的复杂度，提高了应用管理的效率。
+41. 105578244 一种节目播放方法、装置和系统
+CN
+11.05.2016
+H04N 21/426 Loading...
+H04N 21/426
+Loading...
+201610022204.4
+北京数码视讯科技股份有限公司
+孟庆康
+H04N 21/426
+Loading...
+本发明公开了一种节目播放方法、装置和系统。该方法包括：通过机顶盒设备中的服务器接收移动终端发送的数字电视直播节目播放请求；根据所述数字电视直播节目播放请求，通过所述机顶盒设备中的数字电视直播节目传输流TS过滤引擎获取所述数字电视直播节目的TS数据包；将所述数字电视直播节目的TS数据包发送给所述移动终端。由于这种方式是直接利用机顶盒设备来获取TS数据包在移动终端上进行播放，因此与现有技术相比，不仅清晰度高，流畅性好，而且在切换数字电视直播节目时的速度也比较快。
+42. 205074994 一种助拔器
+CN
+09.03.2016
+B25B 27/00 Loading...
+B25B 27/00
+Loading...
+201520856797.5
+北京数码视讯科技股份有限公司
+张强
+B25B 27/00
+Loading...
+本实用新型涉及通信设备技术领域，公开一种助拔器，该助拔器包括：采用弹性材料制成的头部；呈杆状的把手部，所述把手部的一端通过颈部与所述头部连接；在垂直于把手部轴心线的平面内，所述头部的投影面积大于所述颈部的投影面积；当通过挤压将头部插入机箱后面板的固定孔内时，所述颈部卡在固定孔处。由于该助拔器安装时为直接插接，不需要使用螺钉和安装工具，因此，安装过程中不会影响机箱后面板各个接口中子卡的插拔；且该助拔器的把手部为杆状结构，占用机箱后面板的空间非常小，因此，安装该助拔器后也不会影响机箱后面板各个接口中子卡的插拔。所以，该助拔器的使用过程不会影响机箱后面板各接口中子卡的插拔以及接口的信号传输。
+43. 105357332 一种网络地址转换方法及装置
+CN
+24.02.2016
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201510729339.X
+北京数码视讯科技股份有限公司
+李志军
+H04L 29/12
+Loading...
+本发明实施例公开了一种网络地址转换的方法及装置。本发明实施例通过预先在第二网络设备中配置各个第三网络设备的标识信息，第二网络设备发送的数据报文中包含有第三网络设备的标识信息，因此，第一网络设备能够通过数据报文中的第三网络设备的标识信息得到第三网络设备的IP地址，并通过修改数据报文的相关信息，实现将数据报文发送给第三网络设备。本发明实施例中，第一网络设备无需对第三网络设备的端口号进行修改，从而可避免现有技术中由于第三网络设备的端口被修改而导致信息不能有效接收的问题，使得其它程序的使用更为方便，进一步降低了开发成本和维护成本。
+44. 105328901 3D打印方法、装置及3D打印机
+CN
+17.02.2016
+B29C 67/00 Loading...
+B29C 67/00
+Loading...
+201410371635.2
+北京数码视讯科技股份有限公司
+姜汉龙
+B29C 67/00
+Loading...
+本发明提供了一种3D打印方法、装置及3D打印机，其中，该方法包括：划分3D打印对象物体模型的边缘与内部；确定打印的层厚；以层厚逐层打印边缘的预定层数；将打印完的预定层数合并为一层打印内部，通过本发明，解决了相关技术中3D打印技术无法兼顾精度与速度的问题，进而达到了精度与速度同时兼顾的效果。
+45. 105338402 一种进行蓝牙连接的方法及装置
+CN
+17.02.2016
+H04N 21/4363 Loading...
+H04N 21/4363
+Loading...
+201510738757.5
+北京数码视讯科技股份有限公司
+孟庆康
+H04N 21/4363
+Loading...
+本发明涉及通信领域的机顶盒控制技术，公开了一种进行蓝牙连接的方法及装置，所述方法包括：机顶盒在开机后检测蓝牙白名单中是否有蓝牙遥控器，其中所述蓝牙白名单中的蓝牙遥控器为与所述机顶盒进行过蓝牙连接的蓝牙遥控器；若蓝牙白名单中没有蓝牙遥控器，则所述机顶盒提示用户进行蓝牙遥控器配对；所述机顶盒在接收到扫描到的蓝牙遥控器发送的第一广播信息后，与所述蓝牙遥控器通过蓝牙方式进行配对；所述机顶盒在接收到蓝牙遥控器发送的连接请求后，与所述蓝牙遥控器通过蓝牙方式进行连接，并将所述蓝牙遥控器加入到所述蓝牙白名单中。用以解决现有的蓝牙遥控器配对过程需要用户通过红外遥控器或其他输入设备手动调出配对界面的问题。
+46. 105338426 一种传输流中时间标签的修正方法及装置
+CN
+17.02.2016
+H04N 21/8547 Loading...
+H04N 21/8547
+Loading...
+201510725560.8
+北京数码视讯科技股份有限公司
+郝旭东
+H04N 21/8547
+Loading...
+本发明公开了一种传输流中时间标签的修正方法及装置，该方法包括：可获取当前传输流并缓存，再提取所述当前传输流中的DTS值和/或PTS值，利用调整后的PCR值修正提取到的所述DTS值和/或PTS值，得到修正后的DTS值和/或PTS值，以及，将已缓存的所述当前传输流中的DTS值和/或PTS值替换为所述修正后的DTS值和/或PTS值，得到新的传输流，以由解码器根据所述新的传输流进行解码输出。也就是说，在本发明实施例所述技术方案中，可根据调整后的PCR值修正当前传输流中的DTS值和/或PTS值，从而使得调整后的PCR值与时间标签的对应关系保持一致，进而使得解码器能够准确解码输出音视频，提高用户体验。
+47. 105323578 统计复用方法及装置
+CN
+10.02.2016
+H04N 17/00 Loading...
+H04N 17/00
+Loading...
+201410303048.X
+北京数码视讯科技股份有限公司
+包佳晶
+H04N 17/00
+Loading...
+本发明公开了一种统计复用方法及装置，其中统计复用方法包括：对多路视频流中各路视频流编码，得到对应的多路ES，其中，多路ES的总码率等于TS码率；将多路ES缓存到缓存区；当缓存区中待输出ES流的总码率等于TS码率时，对待输出ES进行统计复用，得到码率恒定的TS。通过本发明，实现了在不填充空包的情况下得到码率恒定的TS，提高了视频编码带宽利用的效率。
+48. 105282397 运动字幕的去隔行方法及装置
+CN
+27.01.2016
+H04N 5/14 Loading...
+H04N 5/14
+Loading...
+201410351662.3
+北京数码视讯科技股份有限公司
+张天若
+H04N 5/14
+Loading...
+本发明公开了一种运动字幕的去隔行方法及装置，其中，该方法包括：读取隔行扫描所得视频流的图像数据帧，检测该图像数据帧中的字幕区域，确定字幕的运动方向，根据上述运动方向移动字幕区域的顶场图像和/或字幕区域的底场图像。通过本发明，提高了字幕显示效果。
+49. 105279097 一种调用瞬态对象的管理方法、设备及智能卡
+CN
+27.01.2016
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+201410320778.0
+北京数码视讯科技股份有限公司
+郑黎方
+G06F 12/02
+Loading...
+本发明公开了一种调用瞬态对象ITO的管理方法、设备及智能卡，将组合调用对象CIO中的用于在Init方法以及Dofinal方法组合调用期间缓存中间结果的数据成员作为ITO，并在CIO调用Init方法的过程中，从预先分配的调用瞬态空间ITR共享区域中为各ITO分配相应的ITR，以及，在CIO调用Dofinal方法的过程中，释放各ITO占据的ITR，从而相比于目前存在的在CIO实例化时即为ITO分配相应的瞬态空间以及在CIO回收时才释放ITO占据的瞬态空间来说，可极大地降低各ITO占用瞬态空间的时长以及提高各ITO占用瞬态空间的灵活性，进而可达到大大提高智能卡中的瞬态空间的利用率的效果。
+50. 105260026 终端设备的控制方法、装置及系统
+CN
+20.01.2016
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201510674533.2
+北京数码视讯科技股份有限公司
+吕乐然
+G06F 3/01
+Loading...
+本发明公开了终端设备的控制方法、装置及系统，在本方案中，由于通过射频识别卡控制器生成并发送终端设备的设置指令给射频识别卡存储，由终端设备通过自身的读卡器读取射频识别卡中的设置指令，并执行。从而可以避免用户通过实体按键对终端设备进行设置，从而丰富终端设备的设置方式。此外，由于当终端设备出现故障，导致设置的信息丢失后，终端设备只需要重新读取射频识别卡内的设置指令，并根据设置指令进行相应操作即可。无需用户再次手动对终端设备的各设置参数一一进行设置，从而可以简化对终端设备的设置操作。
+51. 105227518 服务器、客户端、交互系统及信息发送和接收方法
+CN
+06.01.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410236078.3
+北京数码视讯科技股份有限公司
+王欣
+H04L 29/06
+Loading...
+本发明公开了一种服务器、客户端、交互系统及信息发送和接收方法。其中，该信息接收方法包括：向客户端发送携带有预设图片的第一消息，预设图片上设有图形码；接收客户端发送的携带有触屏操作记录的第二消息，触屏操作记录表示客户端在展示预设图片时所记录的在一个或多个触屏操作；根据预设图片获取与触屏操作记录对应的图形码信息。本发明解决了现有的信息传输方案中由于客户端存有待传输的信息明文所造成的信息安全性不足的技术问题。
+52. 105025153 非接触操作结果的显示方法、装置及系统、外接设备
+CN
+04.11.2015
+H04M 1/725 Loading...
+H04M 1/725
+Loading...
+201410156338.6
+北京数码视讯科技股份有限公司
+潘强
+H04M 1/725
+Loading...
+本发明提供了一种非接触操作结果的显示方法及装置，其中，该方法包括：外接设备使用第一逻辑通道进行非接触操作；在进行所述非接触操作时，所述外接设备通过第二逻辑通道查询所述非接触操作的操作结果；所述外接设备输出所述操作结果并显示，采用本发明提供的上述技术方案，解决了相关技术中，手机应用不能实时并主动反馈非接操作的查询结果的问题，用户可以通过本发明的技术手段来实现主动显示非接段的操作结果在手机界面上，减少用户操作，提高了用户的使用体验。
+53. 105024740 移动通信装置
+CN
+04.11.2015
+H04B 5/02 Loading...
+H04B 5/02
+Loading...
+201410160719.1
+北京数码视讯科技股份有限公司
+谢海
+H04B 5/02
+Loading...
+本发明公开了一种移动通信装置，包括：蓝牙芯片，用于接收来自移动设备的操作请求，并将操起请求转发给SE芯片，其中，操作请求包括：充值请求、查询请求、或支付请求；SE芯片，用于接收操作请求，并根据操作请求和预先存储的安全信息执行相应的安全操作，其中，安全操作包括：充值操作、查询操作、或支付操作；微控制单元（MCU），用于与蓝牙芯片和SE芯片进行通信，控制移动通信功能的实现；电源模块，用于为移动通信装置供电。通过本发明，可以真正实现一卡多用，并减少由于卡多、卡充值不便所造成的麻烦。
+54. 104970510 钱包及导电薄膜
+CN
+14.10.2015
+A45C 1/06 Loading...
+A45C 1/06
+Loading...
+201410146246.X
+北京数码视讯科技股份有限公司
+熊大壮
+A45C 1/06
+Loading...
+本发明公开了一种钱包及导电薄膜。其中，该钱包包括：钱包的外面料和/或内面料采用导电材料，其中，导电材料的密度大于等于预先设置的能够屏蔽电磁信号的密度阈值。通过本发明，可以有效地保护用户的支持非接触智能卡的信息。
+55. 104978593 一种电子支付方法和非接触IC卡
+CN
+14.10.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201410131281.4
+北京数码视讯科技股份有限公司
+陈德权
+G06K 19/077
+Loading...
+本发明公开了一种电子支付方法和非接触IC卡，用以提高非接触IC卡使用的安全性。所述电子支付方法，应用于非接触集成电路IC卡中，所述非接触IC卡包括安全元件SE、感应线圈和控制模块，所述SE和所述感应线圈通过所述控制模块连接；所述方法，包括：所述感应线圈感应到场强信号满足预设条件时，触发所述SE检测所述控制模块是否处于允许支付状态；所述SE确定所述控制模块处于允许支付状态时，进行电子支付操作。
+56. 104980913 保护终端设备中数据信息安全的方法和终端设备
+CN
+14.10.2015
+H04W 8/18 Loading...
+H04W 8/18
+Loading...
+201410145356.4
+北京数码视讯科技股份有限公司
+陈德权
+H04W 8/18
+Loading...
+本发明公开了一种保护终端设备中数据信息安全的方法和终端设备，用以提高终端设备中存储的数据信息的安全性。在终端设备中设置有SE，所述SE与所述终端设备中安装的SIM绑定；所述方法，包括：所述SIM在复位启动或者上电启动时，与所述SE进行交互认证；所述SIM确定交互认证成功之后，进入正常工作状态。
+57. 104978583 人物动作的识别方法及装置
+CN
+14.10.2015
+G06K 9/62 Loading...
+G06K 9/62
+Loading...
+201410145741.9
+北京数码视讯科技股份有限公司
+陈大伟
+G06K 9/62
+Loading...
+本发明公开了一种人物动作的识别方法及装置，在上述方法中，采用全部表征人物与图像采集设备之间距离的深度图像集合训练姿势模型；通过训练得到的姿势模型计算动作模型；根据训练得到的姿势模型以及计算得到的动作模型，采用预设算法对实时采集的深度图像中的人物动作进行识别。根据本发明提供的技术方案，进而大幅度减少了动作识别时的计算量，提高了动作识别的准确度，可以方便地在模型中加入新动作。
+58. 104978867 一种车辆管理系统、方法和设备
+CN
+14.10.2015
+G08G 1/0968 Loading...
+G08G 1/0968
+Loading...
+201410138705.X
+北京数码视讯科技股份有限公司
+陈德权
+G08G 1/0968
+Loading...
+本发明公开了一种车辆管理系统、方法和设备，用以对目标车辆进行管理，提高目标车辆管理效率。所述系统包括目标车辆、数据处理服务器和数据读取设备，目标车辆安装有导航设备，导航设备中嵌入车辆识别模块，其中：数据读取设备，用于读取车辆识别模块的身份标识；并向数据处理服务器发送身份标识；数据处理服务器，用于在根据身份标识确定目标车辆的车辆标识；根据确定出的车辆标识确定目标车辆的规划路线；并向目标车辆安装的导航设备发送规划路线；导航设备，用于在接收到规划路线之后，显示规划路线；并在目标车辆行驶过程中，记录目标车辆的车辆行驶数据；以及向数据处理服务器发送车辆行驶数据。
+59. 104978734 前景图像的提取方法及装置
+CN
+14.10.2015
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201410146261.4
+北京数码视讯科技股份有限公司
+王行
+G06T 7/00
+Loading...
+本发明公开了一种前景图像的提取方法及装置，在上述方法中，采用连续的视频流建立背景模型；根据背景模型从当前图像帧中提取前景物体；通过背景模型和前景物体确定前景图像。根据本发明提供的技术方案，进而大幅度减少了背景建模过程中需要存储的数据量，降低了背景建模以及前景提取过程中的计算量，提高了前景提取的稳定性。
+60. 104978558 目标的识别方法及装置
+CN
+14.10.2015
+G06K 9/00 Loading...
+G06K 9/00
+Loading...
+201410146229.6
+北京数码视讯科技股份有限公司
+王行
+G06K 9/00
+Loading...
+本发明公开了一种目标的识别方法及装置，在上述方法中，采用表征物体与图像采集装置之间距离的深度图像识别预设场景中的目标集合；通过运动检测处理在目标集合中提取备选目标；获取备选目标与预设目标模型的匹配度；确定匹配度满足预设条件，并对备选目标进行目标跟踪。根据本发明提供的技术方案，进而改善了在识别过程中所受到的周围光照以及场景的影响，增强了识别目标的稳定性以及实用性。
+61. 204285329 一种导光板
+CN
+22.04.2015
+F21V 8/00 Loading...
+F21V 8/00
+Loading...
+201420556353.5
+北京数码视讯科技股份有限公司
+黄海
+F21V 8/00
+Loading...
+本实用新型公开了一种导光板，所述导光板的入光面至所述导光板的出光面以平滑的弧形结构过渡。本实用新型实施例通过弧形结构的导光板传导光线，使得光线到达出光面后的光亮度保持不变，从而保证了发光区域的发光强度，解决了相关技术中光源距离发光区域远，导致光线到达发光区域后光强度变弱的问题。本实用新型实施例中的导光板为平滑的弧形导光板，使得进入入光面的光线能够传导至出光面，不会引起光线损失，从而进一步提高光源能量的利用率。此外，弧形的结构设计，提高了导光板制作误差的容错能力，制作简单，方便，因而制作成本较低。
+62. 104168497 一种电视的智能盒子的控制方法及装置
+CN
+26.11.2014
+H04N 21/422 Loading...
+H04N 21/422
+Loading...
+201410377228.2
+北京数码视讯科技股份有限公司
+顾凌斐
+H04N 21/422
+Loading...
+本发明提供一种电视的智能盒子的控制方法及装置。所述方法包括：智能盒子在当前应用中执行任务时，接收对主页键的选择指令；根据所述选择指令，输出主页键呼出功能页给电视显示，所述主页键呼出功能页中至少包括进入主页的快捷入口和返回所述当前应用的快捷入口。通过本发明提供的方法，能够简化用户操作，提高对智能盒子的控制效率。
+63. 104168504 一种切换数字电视节目的方法及装置
+CN
+26.11.2014
+H04N 21/438 Loading...
+H04N 21/438
+Loading...
+201410376791.8
+北京数码视讯科技股份有限公司
+张刚
+H04N 21/438
+Loading...
+本发明涉及数字电视技术领域，公开了一种切换数字电视节目的方法及装置。所述方法包括：局端接收机顶盒发送来的切换至目标数字电视节目的节目切换指令，所述节目切换指令中包括所述目标数字电视节目的唯一标识码；根据所述目标数字电视节目的唯一标识码，将所述目标数字电视节目通过预先为所述机顶盒配置的固定的频点，发送至所述机顶盒。通过本发明提供的方法能够提高切换数字电视节目的速度、避免切换数字电视节目过程中出现马赛克。
+64. 103458237 Determination method and determination device for video coding modes, video coding method and video coding device
+CN
+18.12.2013
+H04N 19/134 Loading...
+H04N 19/134
+Loading...
+201210173117.0
+北京数码视讯科技股份有限公司
+张天若
+H04N 19/134
+Loading...
+The invention discloses a determination method and a determination device for video coding modes, a video coding method and a video coding device. The determination method includes calculating a frame field judgment standard of a first macro block pair; when the judgment standard is smaller than a first preset valve, determining a coding mode of the first macro block pair as a first mode; when the judgment standard is larger than a second preset value, determining the coding mode of the first macro block pair as a second mode; when the judgment standard is between the first preset value and the second preset value, determining the coding mode of the first macro block pair according to coding costs corresponding to the first mode and the second mode, updating the first preset value and/or the second preset value according the coding mode determined by the coding costs, and determining a coding mode of a second macro block pair by utilizing updated preset values. By the determination method, the determination device, the video coding method and the video coding device, a selection method of updating threshold values in real time is adopted, so that the coding modes can be determined rapidly and coding speed can be increased.
+65. 103424083 Object depth detection method, device and system
+CN
+04.12.2013
+G01B 11/22 Loading...
+G01B 11/22
+Loading...
+201210166092.1
+北京数码视讯科技股份有限公司
+王行
+G01B 11/22
+Loading...
+The invention discloses detection method, device and system of object depth. The detection method comprises the steps that an image transmitting device transmits a preset optical image to a detected object; an image pickup device collects the optical image modulated by the detected object to acquire a target image; the disparity value of the target image relative to a reference image is calculated; and the depth value of the detected object is calculated according to the disparity value. According to the invention, the object depth detection is completed by using a single image pickup device; the detection cost is reduced; and when the depth value of the object is calculated, less data are processed and the detection efficiency of the object depth is improved.
+66. WO/2013/135156 DISTRIBUTED DEPLOYMENT AND CENTRALIZED CONTROL CABLE TELEVISION NETWORK BROADBAND ACCESS SYSTEM
+WO
+19.09.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2013/072434
+SHENZHEN TOPWAY VIDEO COMMUNICATION CO., LTD
+SHENG, Zhifan
+H04L 12/24
+Loading...
+Provided in the present invention is a distributed deployment and centralized control cable television network broadband access system, comprising: a system terminal, used for receiving and transmitting uplink/downlink service data, and for receiving and replying access control data and management control data; a system access end, used for data format conversion and data forwarding or processing of the uplink/downlink service data and of the access control data and the management control data of the system terminal, and for transmitting, receiving, and replying the management control data of the system access end; and a system head end, used for management control and access control of the system access end and of the system terminal, and for processing, combining, and forwarding the uplink/downlink service data. The system is a system infrastructure of three-tier distributed deployment and centralized control constituted by the system terminal, the system access end, and the system head end. This implements not only end-to-end control management of a data service and QoS priority assurance, but also simple network distribution, reduced costs, and great efficiency.
+67. WO/2013/135158 IEEE OAM-BASED MANAGEMENT MESSAGE ENCAPSULATION METHOD, AND C-DOCSIS RADIO-FREQUENCY INTERFACE MODULE AND SYSTEM CONTROL MODULE
+WO
+19.09.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2013/072436
+ACADEMY OF BROADCASTING PLANNING, SARFT
+QIN, Yanlong
+H04L 12/24
+Loading...
+Proposed is an IEEE OAM-based management message (CDMM) encapsulation method, which comprises: step 1: when the length of a CDMM is greater than the maximum transport length of the transport layer, conducting frame fragmentation on the CDMM, each fragment being a protocol data unit (PDU) of the CDMM, and the CDMM comprising a first PDU and following PDUs; and step 2: encapsulating in an IEEE OAM-based transport layer the CDMM on which the frame fragmentation is conducted, the first PDU comprising a PDU version number field used for identifying a reserved field of a radio-frequency output port, an opcode field of the CDMM message, a session ID field of the CDMM, and a data field related to an opcode, and a CDMM message frame which is encapsulated in the IEEE OAM-based transport layer comprising a transport layer protocol head and a message content. A CDMM which is encapsulated using the present invention can achieve standard interoperability-based distributed configuration of a system control module and a radio-frequency interface module, and can exchange configuration, status and management messages between the system control module and the radio-frequency interface module.
+68. 103295219 图像分割的方法与装置
+CN
+11.09.2013
+G06T 7/00 Loading...
+G06T 7/00
+Loading...
+201210054179.X
+北京数码视讯科技股份有限公司
+石坤
+G06T 7/00
+Loading...
+本发明提供了一种图像分割的方法和装置，用以解决现有技术中的图像分割方法效率不高的问题。该方法包括：对输入图像进行下采样，得到预处理图像；按照预处理图像建立图像数据模型；通过对图像数据模型的计算确定目标图像的边缘轮廓；利用边缘轮廓在预处理图像中的位置确定目标图像在输入图像的位置；按照目标图像在输入图像的位置提取目标图像。采用本发明的技术方案，有助于减少图像分割过程的计算量，从而提高图像分割的速度，有效节省分割时间。
+69. 103077243 文件系统访问的处理方法及系统
+CN
+01.05.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310016781.9
+北京数码视讯科技股份有限公司
+姜汉龙
+G06F 17/30
+Loading...
+本发明公开了一种文件系统访问的处理方法及系统。其中，该方法包括：文件过滤驱动接收输入输出管理器转发的来自用户的操作请求消息，其中，文件过滤驱动是预先设置在输入输出管理器和文件系统驱动之间的；文件过滤驱动判断操作请求消息是否符合预定的过滤条件，在判断结果为是的情况下，将操作请求消息发送给用户层代理程序进行处理，否则，将操作请求消息发送给文件系统驱动进行处理。通过本发明，达到了提高系统性能、减小额外时间开销以及增强系统兼容性的效果。
+70. 103036664 一种数字音频广播中通道的复用方法
+CN
+10.04.2013
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+201210537495.2
+中国国际广播电台
+王联
+H04L 5/00
+Loading...
+一种数字音频广播中通道的复用方法，将需要在数字音频广播信道上传输的信息划分为业务描述信息和业务数据；以第一复用帧模式打包所述业务描述信息以形成控制复用帧；以第二复用帧模式打包所述业务数据以形成业务复用帧；在每个逻辑帧中均提供业务描述信息通道和业务数据通道，以分别承载一个所述控制复用帧和一个或多个业务复用帧。本发明的复用方法保持了业务复用的灵活性和高效性，实现了控制信道和业务信道的完全分离。减少了控制信道对业务信道的干扰，同时进一步实现控制信道和业务信道的并行接收，增强了系统对动态信道和动态业务的支持，降低了控制业务的开销，进一步提高了复用的效率。
+71. 103001756 一种数字音频广播中分层传输业务数据的方法
+CN
+27.03.2013
+H04L 5/00 Loading...
+H04L 5/00
+Loading...
+201210537592.1
+中国国际广播电台
+王联
+H04L 5/00
+Loading...
+本发明提供了一种数字音频广播中分层传输业务数据的方法，将需要在数字音频广播信道上传输的信息划分为控制信息和业务数据；以第一复用帧模式打包所述业务描述信息以形成控制复用帧；以第二复用帧模式打包所述业务数据以形成业务复用帧；在每个逻辑帧中均提供业务描述信息通道和业务数据通道，以分别承载一个所述控制复用帧和一个或多个业务复用帧；在一个逻辑帧中保护率相同的业务数据通道承载一个业务复用帧；由多个所述逻辑帧打包为信道超帧。利用本发明的分层传输法可以实现为不同接收条件的用户提供不同等级的服务。
+72. 102820975 数据更新方法、推送装置及终端
+CN
+12.12.2012
+H04L 12/751 Loading...
+H04L 12/751
+Loading...
+201210113262.X
+国家广播电影电视总局广播科学研究院
+朱佩江
+H04L 12/751
+Loading...
+本发明提供一种数据更新方法、推送装置及终端，所述方法包括：推送装置采用对象轮播方式向终端发送数据流，所述数据流包括：用于指示终端更新指定目录下第一数据的更新指令、与所述更新指令对应的目录中的新的数据文件、完整路径结构描述；以使终端将内部存储的实际路径结构描述与所述完整路径结构描述进行比较，进而根据所述更新指令，采用所述数据文件更新所述终端内部的第一数据。上述方法用于解决现有技术的传输网络中带宽资源被占用，造成带宽资源浪费的问题。
+73. 202565394 设备透明音视频解码装置
+CN
+28.11.2012
+H04N 5/917 Loading...
+H04N 5/917
+Loading...
+201220132186.2
+北京捷诺视讯数码科技有限公司
+段兴强
+H04N 5/917
+Loading...
+本实用新型提供了一种设备透明音视频解码装置，包括音视频数据接收模块、解码方式分析模块、解码模组和音视频数据发送模块，所述视频数据接收模块与所述解码方式分析模块连接，所述解码方式分析模块与所述解码模组连接，所述解码模组与所述音视频数据发送模块连接。本实用新型提供的设备透明音视频解码装置通过音视频数据进行解码处理；屏蔽了各厂家及各种设备类型之间的差异，屏蔽了解码设备的解码方式，为解码设备提供了统一的解码接口，预留了二次扩展的接口，方便进行系统集成，降低用户管理成本并提高了相关管理人员的工作效率。
+74. 202563658 智能化报警分析处理装置
+CN
+28.11.2012
+G08B 29/00 Loading...
+G08B 29/00
+Loading...
+201220132188.1
+北京捷诺视讯数码科技有限公司
+段兴强
+G08B 29/00
+Loading...
+本实用新型提供的智能化报警分析处理装置包括报警设备接口、报警信息分析处理单元、报警信号输出接口和警告发生装置，所述报警设备接口、所述报警信息分析处理单元、所述报警信号输出接口和所述警告发生装置顺序连接。可以大幅度地减少误报信息和重复报警信息，增加有用报警信息，提高工作人员的工作效率；可以降低管理成本，减小管理难度；智能化报警分析处理装置具备自动学习训练能力，可以动态地调整报警级别，提高系统的实用性；将现有安防系统从以视频监控为中心的被动监控模式转变为以报警信号为中心的主动监控模式。
+75. 102752662 Root key generation method, module and chip of conditional access system receiving terminal and receiving terminal
+CN
+24.10.2012
+H04N 21/4623 Loading...
+H04N 21/4623
+Loading...
+201210044867.8
+中央电视台
+盛志凡
+H04N 21/4623
+Loading...
+The invention discloses root key generation method of a conditional access system receiving terminal. The method comprises that Step 1, a root key generation module of a receiving terminal chip receives a root key generation parameter P provided by a manufacturer; and Step 2, the root key generation module generates a root key according to a preset root key derivation system and the parameter P, wherein the root key derivation system is provided by the chip manufacturer. By the aid of the method, the root key is not required to be embedded in the security chip at the receiving terminal, and the root key is generated through the root key derivation system embedded in the chip during operation, so that the root key or the condition receiving manufacturer can be replaced without replacing terminal devices.
+76. 102393886 移动终端的安全控制方法、装置及系统
+CN
+28.03.2012
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201110180246.8
+北京数码视讯科技股份有限公司
+王蜀洪
+G06F 21/00
+Loading...
+本发明公开了一种移动终端的安全控制方法、装置及系统。其中，该方法包括：应用程序检测安全硬件，在满足检测条件的情况下应用程序调用第一键盘驱动，第一键盘驱动屏蔽第二键盘驱动；第一键盘驱动读取键盘接收到的键值，并将键值转发至安全硬件；安全硬件将键值加密，并将加密键值返回至应用程序；应用程序对加密键值解密，以得到键值。通过本发明，能够实现全方位的信息安全保护，具有更广的适用性。
+77. 102325025 提供源真实性的数据处理方法及系统
+CN
+18.01.2012
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201110137776.4
+北京数码视讯科技股份有限公司
+王蜀洪
+H04L 1/00
+Loading...
+本发明公开了一种提供源真实性的数据处理方法及系统。其中，该方法包括：将业务数据进行分段以获取多个数据段；对各个数据段进行功能数据处理以获取每个数据段对应的第一段哈希值；根据第一段哈希值来获取整个业务数据的第一源值；通过容错编码算法分别对第一段哈希值和第一源值进行编码处理，以获取多个容错编码数据；在将多个容错编码数据分别与每个数据段结合之后，将数据段打包成业务数据包发送。本发明通过降低了数据包功能数据的载荷，能够提高传输网络的信道利用率，同时满足了业务性能需求。
+78. 102263906 Method and device for processing video images
+CN
+30.11.2011
+H04N 5/262 Loading...
+H04N 5/262
+Loading...
+201110210886.9
+Beijing Sumavision Technologies Co., Ltd.
+Xi Luofei
+H04N 5/262
+Loading...
+The invention discloses a method and device for processing video images. The method comprises the following steps: determining an inserting mode according to the attribute of an object to be inserted of an video image, wherein the inserting mode comprises a strip mode and a film mode; processing the object to be inserted according to the determined inserting mode; overlaying the processed object to be inserted into the video frame of the video image; and displaying the overlaid video image. According to the method and the device, a flow for special effect processing is simplified, the system handling capability is improved, and the user experience is improved.
+79. 102227138 Conditional access module card and realization method thereof
+CN
+26.10.2011
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+201110173828.3
+Beijing Sumavision Technologies Co., Ltd.
+Xu Fugang
+H04N 21/418
+Loading...
+The invention discloses a conditional access module (CAM) card and a realization method thereof. The CAM card comprises an FPGA (Field Programmable Gate Array). The FPGA comprises a PCMCIA interface module, a de-multiplexing module, a decryption module and a descrambling module, wherein the PCMCIA (Personal Computer Memory Card International Association) interface module is used to receive a TS (Transport Stream) from a set top box and send the data descrambled by the descrambling module to the set top box, the de-multiplexing module is used to carry out a de-multiplexing towards the TS under the control of an MCU (Management Control Unit), send the content data de-multiplexed to a descrambling module and send the information data de-multiplexed to the decryption module, the decryption module is used to communicate with a CA (Conditional Access) intelligent card inserted with the CAM card, complete the decryption of the CA algorithm of the information data and acquire the CW (Control Word) obtained from the decryption and the descrambling module is used to descramble the de-multiplexed content data based on the CW from the decryption module. According to the invention, the research and development cost is reduced and the application range of the CAM card is expanded.
+80. 102221888 Control method and system based on remote controller
+CN
+19.10.2011
+G06F 3/01 Loading...
+G06F 3/01
+Loading...
+201110174672.0
+Beijing Sumavision Technologies Co., Ltd.
+Xu Fugang
+G06F 3/01
+Loading...
+The invention discloses a control method and system based on a remote controller, wherein the method comprises the following steps: the remote controller acquires the moving track of the remote controller in space according to the position change of a luminous body relatively preset on terminal equipment, and sends the moving track to the terminal equipment by a wireless communication mode; and after receiving the moving track, the terminal equipment converts the moving track into a form corresponding to the current operation mode, sends the form to a display and displays the form to users, wherein the operation mode comprises a character input mode and a cursor moving mode. In the control method, the application range of the remote controller is expanded and the user experience is improved.
+81. 102223272 System and method for improving data service bandwidth of cable television network
+CN
+19.10.2011
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+201110159587.7
+Beijing Sumavision Technologies Co., Ltd.
+Ren Yanming
+H04L 12/28
+Loading...
+The invention discloses a system and a method for improving the data service bandwidth of a cable television network. The system comprises head-end equipment, modulation equipment and terminal equipment, wherein the head-end equipment comprises Ethernet over Coax (EoC) head-end equipment which is used for providing a first sending channel for sending a first data packet of service data; the modulation equipment is used for providing a second sending channel for sending a second data packet of the service data; and the terminal equipment comprises EoC terminal equipment which is used for providing two receiving channels for receiving the first data packet and the second packet of the service data respectively. By the invention, the problem of limited channel expansion capacity caused by relatively low EoC bandwidth and relatively few available channels is solved, and the data service bandwidth of the cable television network can be improved.
+82. 102215348 Processing method of video frame of transfer stream station caption subtitle insertion system
+CN
+12.10.2011
+H04N 5/265 Loading...
+H04N 5/265
+Loading...
+201110204075.8
+Beijing Sumavision Technologies Co., Ltd.
+Cui Yubin
+H04N 5/265
+Loading...
+The invention provides a processing method of a video frame of a transfer stream station caption subtitle insertion system for solving the problem of incorrect terminal decoding display for a reconstructed macro block caused by the station caption subtitle insertion in the video frame in the prior art. The method comprises: determining all decoding reconstructed macro blocks in the video frame to be processed according to the decoding relationship of the macro blocks in the video frame to be processed in a decoding strip in the video frame to be processed; carrying out decoding reconstruction on each decoding reconstruction macro block in the video frame to be processed according to the frame type of the video frame to be processed, the position of each decoding reconstructed macro block in the video frame to be processed and the reference relationship between each decoding reconstruction macro block and a reference macro block, and acquiring and storing a reconstruction value of each decoding reconstructed macro block of a referenced macro block. The adoption of the technical scheme provided by the invention is good for realizing the station caption subtitle insertion for the TS (transfer stream) in real time and reserving the original quality of television programs maximally.
+83. 102186083 Quantization processing method and device
+CN
+14.09.2011
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201110123168.8
+Beijing Sumavision Technologies Co., Ltd.
+Xi Luofei
+H04N 7/26
+Loading...
+The invention provides a quantization processing method and a quantization processing device. The quantization processing method comprises the following steps of: performing quantization prediction on a plurality of quantization factors, and counting a total quantization error amount of each quantization factor respectively; selecting a preset number of quantization factors as preferred quantization factors according to the total quantization error amount; and counting the low loss point numbers of the preferred quantization factors, and selecting the preferred quantization factor with the smallest low loss point number for the quantization of video data. In the method and the system, the quantization factors are selected comprehensively in terms of the total quantization error amount and the low loss point number by utilizing the counting rules of the video data, so that a bandwidth is combined in the quantization of the video data, and simultaneously, the image quality can be maximally ensured.
+84. 102169616 System and method for safety monitoring
+CN
+31.08.2011
+G08B 21/02 Loading...
+G08B 21/02
+Loading...
+201110063950.5
+Beijing Sumavision Technologies Co., Ltd.
+Han Yongxiang
+G08B 21/02
+Loading...
+The invention discloses a system and a method for safety monitoring. The safety monitoring system comprises: a monitoring terminal, which is used for collecting risk data of users, sending self-early-warning signals when the risk data reach a preset self-early-warning risk grade, and sending remote alarm signals when the risk data reach a preset remote alarm risk grade; an intelligent equipment terminal, connected to the monitoring terminal and used for transferring the remote alarm signals sent by the monitoring terminal; and a television set terminal comprising display equipment, connected to the intelligent equipment terminal and used for receiving the remote alarm signals sent by the intelligent equipment terminal and displaying the remote alarm signals on the display equipment. Compared with the prior art, the system of the invention can provide intelligent safety monitoring for common users who have dangerous physical behavior or conduct dangerous operation.
+85. 101984667 Code rate control method and code rate controller
+CN
+09.03.2011
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201010552460.7
+Beijing Sumavision Technology Co., Ltd.
+Wang Zhi
+H04N 7/26
+Loading...
+The invention discloses a code rate control method and a code rate controller, and the code rate control method comprises the following steps: adding a DTS stamp on a packet after source frame is transcoded; and controlling the range of output code rate based on the size of the DTS stamp. By the invention, the problem of normal decoding does not performs frequently due to overflow of a decoding buffer zone in relative technologies is solved, thus inhibiting the overflow of the decoding buffer zone and ensuring normal decoding effect of video data.
+86. 101888542 Control method for frame level bit-rate of video transcoding and transcoder
+CN
+17.11.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201010205384.2
+Beijing Sumavision Technologies Co., Ltd.
+Wang Zhi
+H04N 7/26
+Loading...
+The invention discloses a control method for a frame level bit-rate of a video transcoding and a transcoder. The method comprises the following steps: the transcoder decodes an encoding video data flow; the transcoder acquires frame information in the decoded video data flow and establishes a rate-distortion model according to the frame information; and the transcoders carries out the decoding according to the rate-distortion model. By the invention, an input bit-rate can be correctly controlled and input, and the stationarity of the image quality is improved.
+87. 101877776 Intelligent card used for digital television receiving terminal and working method thereof
+CN
+03.11.2010
+H04N 21/4367 Loading...
+H04N 21/4367
+Loading...
+200910082986.0
+Beijing Sumavision Technologies Co., Ltd.
+Xiu Yuwen
+H04N 21/4367
+Loading...
+The invention provides a working method of an intelligent card used for a digital television receiving terminal. The method comprises the following steps: receiving an encrypted control word from the digital television receiving terminal; judging whether the frequency of the received encrypted control word is less than a predetermined frequency value; and if not, stopping working. By using the working method, the situation that a plurality of digital television receiving terminals use the same authorized intelligent card together and watch television programs together can be resisted; and the economic loss caused by watching the television programs together when the plurality of the digital television receiving terminals use the same authorized intelligent card together is avoided for digital television operators.
+88. 201611518 基于红外摄像技术的空间遥控系统
+CN
+20.10.2010
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+200920246258.4
+北京数码视讯科技股份有限公司
+徐福刚
+G08C 17/02
+Loading...
+本实用新型提供了一种基于红外摄像技术的空间遥控系统，包括：发光体和遥控器，其中发光体设置于视频装置前面板，适合于为遥控器提供基准坐标目标；遥控器的摄像单元适合于拍摄发光体，并根据所拍摄的图片进行处理，生成发光体的位置坐标，并将位置坐标无线发射到视频装置内适合于接收位置坐标的无线接收单元。本实用新型克服了现有技术中公共焦点只限于按照水平和垂直两个方向逐格平移，不能在整个电视屏幕范围内随意移动的问题。
+89. 201611927 用于数字电视条件接收系统的子母卡
+CN
+20.10.2010
+H04N 7/167 Loading...
+H04N 7/167
+Loading...
+200920277434.0
+北京数码视讯科技股份有限公司
+魏晔
+H04N 7/167
+Loading...
+本实用新型提供了一种用于数字电视条件接收系统的子母卡，母卡包括：第一控制模块；以及第一RF模块，其与第一控制模块电连接，用于接收来自子卡的配对请求；还用于将子母卡配对命令发送给子卡；第一处理模块，其与第一控制模块电连接，用于根据配对请求为子卡生成子母卡配对命令；子卡包括：第二控制模块；以及第二RF模块，其与第二控制模块电连接，用于向母卡发送配对请求；第二处理模块，其与第二控制模块电连接，用于执行接收到的来自母卡的子母卡配对命令，获取解密授权控制信息的权限；其中，母卡和子卡通过无线方式进行通信。
+90. 101860755 Decoding method and image insertion method for station caption subtitle insertion system
+CN
+13.10.2010
+H04N 21/2343 Loading...
+H04N 21/2343
+Loading...
+201010174645.9
+Beijing Sumavision Technologies Co., Ltd.
+Cui Yubin
+H04N 21/2343
+Loading...
+The invention provides a decoding method and an image insertion method for a station caption subtitle insertion system. The decoding method comprises the following steps of: setting a decoding parameter for a decoding region of a video frame to be decoded in a video sequence frame; judging the frame type of the video frame to be decoded; and adjusting the decoding range of the decoding region of the video frame to be decoded according to the decoding parameter, the frame type and the motion complexity of a plurality of decoded video frames in the video sequence frame in front of the video frame to be decoded and decoding the decoding region of the video frame to be decoded according to the adjusted decoding range. In the decoding method, the decoding range of the decoding region of the video frame is adjusted in a self-adaptive mode, so that the decoding computational complexity of the decoding region of the video frame is reduced and the decoding time is shortened. Since the image insertion method adopts the decoding method in a video frame decoding step, the computational complexity of image insertion is reduced and the processing time is shortened.
+91. 101827094 Method for sending down digital certificate, device and system
+CN
+08.09.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010139685.X
+Beijing Sumavision Technologies Co., Ltd.
+Niu Zhangli
+H04L 29/06
+Loading...
+The invention discloses a method for sending down a digital certificate, a device and a system. The method for sending the digital certificate comprises the following steps: a front-end system acquires a digital certificate file; and the front-end system sends down the digital certificate file through a broadcast channel. By adopting the method, the device and the system, the efficiency of sending the digital certificated can be enhanced.
+92. 101820545 Encoding method of macro block of video frame inserting area
+CN
+01.09.2010
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+201010168159.6
+Beijing Sumavision Technology Co., Ltd.
+Cui Yubin
+H04N 7/26
+Loading...
+The invention provides an encoding method of a macro block of a video frame inserting area, comprising the following steps: decoding the macro block of the video frame inserting area in the transport stream; acquiring the MV of the macro block of the video frame inserting area from the decoding data; carrying out interlaying calculation on the data of the inserted image and the macro blocks so as to insert the inserted image into the video frame inserting area; adjusting MV according to the motion property and transparency property of the inserted image; and carrying out re-encoding on the macro block of the video frame inserting area according to the adjusted MV. In the invention, the MV of the decoded macro block of the video frame inserting area is adjusted according to the motion property and transparency property of the inserted image, and the adjusted MV is utilized to re-encode the macro block of the inserting area so as to lower the re-encoded residual data of the macro block to the minimum, thus lowering the calculation complexity of the inserting and encoding processes of station captions.
+93. 101815071 Method, device and system for applying for digital certificate
+CN
+25.08.2010
+H04N 21/254 Loading...
+H04N 21/254
+Loading...
+201010139682.6
+Beijing Sumavision Technologies Co., Ltd.
+Pan Zaiyou
+H04N 21/254
+Loading...
+The invention discloses a method, a device and a system for applying for a digital certificate, wherein the method comprises the following steps: a business server judges whether the digital certificate is needed or not; if yes, a client side applies to a digital certificate server for the digital certificate; and the business server receives the digital certificate from the client side. The method, the device and the system enable the client side to access to the digital certificate server automatically and realize the digital certificate application process in which a user does not need to participate manually.
+94. 101814040 Single-thread browser and processing method thereof
+CN
+25.08.2010
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201010139675.6
+Beijing Sumavision Technologies Co., Ltd.
+Pan Zaiyou
+G06F 9/46
+Loading...
+The invention discloses a processing method and a device of a single-thread browser, wherein the method comprises the following step that: the single-thread browser starts the business process to call the service of a bottom layer and displays the execution progress of the service of the bottom layer. The invention can realize the progress bar service on the single-thread browser, thus improving the sensitivity of a user to use the business.
+95. 101753586 Method for transmitting data, process method for receiving data and device
+CN
+23.06.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010034290.3
+Beijing Sumavision Technologies Co., Ltd.
+Hu Changbai
+H04L 29/06
+Loading...
+The invention provides a method and a device for transmitting data, and a process method and a device for receiving data, belonging to the field of communication. The method for transmitting the data comprises the steps of: ensuring data structure corresponding to data to be transmitted, ensuring command type and data length, memorizing current data according to the appointed mode of an data packet when firstly transiting the data in the data structure, and transmitting the current data by the means of TCP, wherein the appointed mode of the data packet comprises an command packet head and the current data, and the command packet head carries the command type and the data length. By adopting the appointed mode of the data packet to transmit the data, the invention leads the receiving party to be capable of correctly packaging the received data packet based on the length, and reliably transmitting the data with sequence and structural information.
+96. 101720012 Primary and subsidiary cards for digital television condition receiving system and realization method thereof
+CN
+02.06.2010
+H04N 21/418 Loading...
+H04N 21/418
+Loading...
+200910237975.5
+Beijing Sumvison Technology Co., Ltd.
+Liu Lihua
+H04N 21/418
+Loading...
+The invention provides primary and subsidiary cards for a digital television condition receiving system and a realization method thereof, wherein the realization method comprises the following steps of: sending a pairing request to a primary card by a subsidiary card; generating a primary and subsidiary card pairing command for the subsidiary card and sending the primary and subsidiary card pairing command to the subsidiary card by the primary card after the primary card receives the pairing request; and executing the received primary and subsidiary card pairing command by the subsidiary card, and obtaining the authority for deciphering authorized control information, wherein the primary card and the subsidiary card are communicated through a wireless mode. On the premise of unchanging the primary card and the subsidiary card and normally using the primary card and the subsidiary card for watching programs, the primary card and the subsidiary card can automatically pair, so that the subsidiary card can obtain the authority for deciphering the authorized control information again.
+97. 101695107 Method of soft keyboard for safely inputting code of set top box of digital television
+CN
+14.04.2010
+H04N 21/431 Loading...
+H04N 21/431
+Loading...
+200910235804.9
+Beijing Sumavision Technologies Co., Ltd.
+Yang Zibin
+H04N 21/431
+Loading...
+The invention provides a method of a soft keyboard for safely inputting code of a set box of a digital television. The method comprises steps as follows: generating a code image via a front end system, storing ID of the code image and corresponding relationship of words in the code image and position coordinates thereof, selecting words of the code image via the soft keyboard of the set top box, acquiring position coordinates of words selected by users and encrypting the acquired code coordinate cipher text via the soft keyboard of the set top box, transmitting the ID of the code image and the code coordinate cipher text to a browser of the set top box which then sends the same to the front end system, decoding the code coordinate cipher text by the front end system, and finally acquiring user code according to the ID of the code image and the corresponding relationship of the words in the code image and the position coordinates thereof. The method overcomes the shortage that user code is disclosed from the browser because the user code can be acquired by the browser in the prior art.
+98. 101695124 Mosaic program navigating method
+CN
+14.04.2010
+H04N 21/435 Loading...
+H04N 21/435
+Loading...
+200910236524.X
+Beijing Sumavision Technologies Co., Ltd.
+Zhang Qi
+H04N 21/435
+Loading...
+The invention provides a mosaic program navigating method, which comprises the following steps: adopting a mosaic synthesizer to synthesize sub unit programs integrating with corresponded private information, uniformly processing private information in the sub unit programs, packing program flow containing private information to form mosaic program flow after the mosaic synthesizer synthesizes sub unit programs, and sending to a set up box to analyze. The mosaic program navigating method overcomes the problems that a data organization mode in the prior art requires to edit information which is to be sent in advance, since the quantity of sub units contained in mosaic programs is not assured, the program arraying sequence in the sub unit is not assured, although information related with programs of each sub unit is fixed, private information is required to edit once the sequence is changed or the number of the unit is changed, and working capacity for organizing private information is bigger.
+99. WO/2010/017703 SET-CARD SEPARATION METHOD IN DIGITAL TV RECEIVING TERMINAL
+WO
+18.02.2010
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+PCT/CN2009/070485
+SUMAVISION TECHNOLOGIES CO., LTD.
+ZHENG, Haitao
+H04N 7/16
+Loading...
+A set-card separation method in digital TV receiving terminal is disclosed, wherein the receiving terminal includes storage card interface. The digital TV receiving terminal software is stored in storage card, and the information for decrypting the authorization information and scrambling control information sent by the front end of conditional access system is stored in storage card, thus the authorization information and scrambling control information can be decrypted by the storage card. The solution of present invention can improve generality of the digital TV terminal and decrease cost.
+100. 101552765 QAM modulator for cable digital television and carrier generation circuit thereof
+CN
+07.10.2009
+H04L 27/36 Loading...
+H04L 27/36
+Loading...
+200910084124.1
+Beijing Sumvison Technology Co., Ltd.
+Ren Yanming
+H04L 27/36
+Loading...
+The present invention provides a QAM modulator for cable digital television and carrier generation circuit thereof. The carrier generation circuit includes a first voltage controlled oscillator for supplying a first carrier to a quadrature modulation unit of the QAM; a first mixer for mixing the first carrier and the second carrier to generate mixing signals; a phase-locked loop for phase locking output of a second voltage controlled oscillator to get a second carrier according to a phase-locked loop control signal of external input and the mixing signals; a second voltage controlled oscillator for supplying a second carrier to a second mixer of the QAM modulator. The invention reaches a technical effect of simple structure and high accuracy carrier frequency.
+101. 101534408 Method for storing and playing dynamic code rate transport stream and media stream and for detecting exception
+CN
+16.09.2009
+H04N 5/92 Loading...
+H04N 5/92
+Loading...
+200910082825.1
+Beijing Sumvison Technology Co., Ltd.
+Zhang Gang
+H04N 5/92
+Loading...
+The invention provides a method for storing dynamic code rate transport stream and media stream, comprising the following steps of receiving data and recording the time point when the data comes; when the time fragmented file, where the time point is located, is established, judging whether the interval between the time point and the former recorded time point reaches the interval time of the index time density, if so, storing the current byte quantity of the time fragmented file and the deviation value of the time point corresponding to the starting time of the time fragmented file in an index file of the time fragmented file as a data pair, and storing the data in a storage file, otherwise, continuously receiving the stream media data. The invention solves the problem that the prior art stores the dynamic code rate TS media stream by filling empty packet and causes the filled empty packet to waste much storage space.
+102. 101527826 Video monitoring front-end system
+CN
+09.09.2009
+H04N 7/18 Loading...
+H04N 7/18
+Loading...
+200910082042.3
+Beijing Sumavision Technologies Co., Ltd.
+Zhou Xiaomin
+H04N 7/18
+Loading...
+The present invention provides a video monitoring front-end system which comprises the following components: a camera shooting module which is used for collecting the field video image; a DSP module which is used for real-time compressing the video image with a high speed; an ARM module which is used for realizing the control to DSP module and FPGA module; and an FPGA module which is used for realizing the data exchange between the DSP module and the ARM module. The video monitoring front-end system of the invention realizes the high-quality and high-reliability real-time video monitoring function and has the advantages of low cost, simple device structure, convenient installation, convenient use and convenient maintenance. The problems of inferior stability and complicated maintenance existing in the video monitoring front-end system based on PC machine card insertion type in prior art are overcome.
+103. 101505406 Video on demand method for cable TV network
+CN
+12.08.2009
+H04N 7/173 Loading...
+H04N 7/173
+Loading...
+200910080043.4
+Beijing Sumavision Technologies Co., Ltd.
+Dai Cheng
+H04N 7/173
+Loading...
+The invention provides a method for video on demand (VOD) in a cable television network, which comprises the following steps that: a VOD management system receives a program-demanding request from a user and sends a VOD management instruction and a VOD authorization instruction to an appointed edge device according to the program-demanding request; the edge device sends the demanded contents and the VOD authorization instruction to a digital television terminal through the cable television network according to the received VOD management instruction and the VOD authorization instruction; and the digital television terminal plays the demanded contents according to the VOD authorization instruction. The method solves the problem that the prior cable television network cannot achieve VOD, thus the VOD based on the cable television network can be achieved.
+104. 101482887 Anti-tamper verification method for key data in database
+CN
+15.07.2009
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910078143.3
+Beijing Sumavision Technology Co., Ltd.
+Yang Zibin
+G06F 17/30
+Loading...
+The invention provides a tamper-proofing test method of key data in the database, which comprises following steps: arranging a check code in the record of the database, wherein the check code is generated according to the key data in the record; generating a cipher text of the key data when testing; comparing the cipher text and the check code, and determining if the key data is tampered with according to the comparing result. In the state of guaranteeing the safety of the system key and after the database is externally tampered with, the external attack which tampers with the data can't obtain a key value and can't fake the check code matched with the core data, thereby the tamper-proofing test method of the invention can fundamentally guarantee the accuracy of the data, and overcome the problems that the prior art is the tamper-proofing scheme aiming at web page, and when the core data stored in the database server is tampered with, the prior art can't test and monitor the tampered core data.
+105. 101459813 Bill sending method and television MMS system
+CN
+17.06.2009
+H04N 7/025 Loading...
+H04N 7/025
+Loading...
+200810241074.9
+Beijing Sumavision Technology Co., Ltd.
+Miao Lin
+H04N 7/025
+Loading...
+The invention provides a bill sending method, which comprises the following steps: a television broadcast station sends bills to a digital television terminal through television multimedia messages. The invention further provides a television multimedia message system, which is characterized by comprising a television broadcast station for sending bills to the digital television terminal through the television multimedia messages, and a digital television terminal for receiving bills. The method solves the problems that an existing bill sending mode is delayed or the information quantity is too less, furthermore, the function of sending bills can be added based on a television multimedia message system, which enables the notice of bills to be more convenient and rapid.
+106. 101459814 Multimedia message sending method and apparatus for television MMS system
+CN
+17.06.2009
+H04N 7/025 Loading...
+H04N 7/025
+Loading...
+200910076590.5
+Beijing Sumavision Technology Co., Ltd.
+Miao Lin
+H04N 7/025
+Loading...
+The invention provides a multimedia message sending method for a television multimedia message system, which comprises the following steps: a television broadcast station divides each of a plurality of the multimedia messages into a plurality of sections, interweaving a plurality of the sections of each of the multimedia messages, and then sending a plurality of the sections after the weaving. The method solves the problem that the processing speed of a set-top box of a digital television terminal can not follow the sending speed of the multimedia message, thereby the multimedia massages can not be received, and the method further realizes the spacing sending of a plurality of the sections of the same multimedia messages, thereby guaranteeing the successful receiving of the multimedia massage and greatly improving the receiving rate of the content of the multimedia messages.
+107. 101420548 Interaction method and device used for digital television service system
+CN
+29.04.2009
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810239204.5
+Beijing Sumavision Technology Co., Ltd.
+Yang Zibin
+H04N 5/44
+Loading...
+The invention provides an interactive method used in a digital television business system, which comprises that a web page is provided and comprises an option marked with a symbol; the symbol is corresponding to a button of a control device; an instruction generated by operating the button of the control device is received; the instruction pitches on the option of the symbol which the button is corresponding to; the selected option is carried out. The invention also provides an interactive device used in the digital television business device, which comprises a display module, a receiving module, and a processing module. The display module is used for providing a web page which comprises the option marked with the symbol which is corresponding to the button of the control device. The receiving module is used for receiving the instruction generated by operating the button of the control device and the instruction pitches on the option of the symbol which the button is corresponding to. The processing module is used for carrying out the selected option. The invention solves the problems of much key-press frequency when in operation, complex and tedious operation in the operation of the prior art. The invention can reduce the key-press frequency when in operation and reduces the operation complexity, thus realizing the simple, fast and intuitive operation.
+108. 101404749 Machine-card separation method according to DVB-CI standard and digital television receiving terminal using the same
+CN
+08.04.2009
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200810225883.0
+Beijing Sumavision Technology Co., Ltd.
+Zheng Haitao
+H04N 7/16
+Loading...
+The invention provides a set-card separation method for realizing a DVB-CI standard and a digital TV receiving terminal using the method; wherein, the set-card separation digital TV receiving terminal for realizing the DVB-CI standard comprises the digital TV receiving terminal, a DVB-CI module for storing application software for running of the digital TV receiving terminal, and a connecting device which is arranged on the digital TV receiving terminal and is used for connecting the DVB-CI module and the digital TV receiving terminal in a detachable way. The technical scheme of the invention solves the independence of a terminal receiver and value-added services.
+109. 101370076 Method for implementing set-card separation based on USB interface
+CN
+18.02.2009
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200810119990.5
+Beijing Sumavision Technology Co., Ltd.
+Zheng Haitao
+H04N 5/00
+Loading...
+The invention provides a machine-card separation method of a digital television receiving terminator, wherein, the terminator is equipped with a USB port. The software of the digital television receiving terminator is stored in a card in the USB port. The information for decrypting the authorization message and scrambling control message which are transmitted by the front end of a conditional access system is stored in the card in the USB port so that the card in the USB port can decrypt the authorization message and scrambling control message. The technical scheme of the invention can improve commonality of the digital television terminator and decrease cost.
+110. 101355642 Digital television receiving terminal
+CN
+28.01.2009
+H04N 5/00 Loading...
+H04N 5/00
+Loading...
+200810211919.X
+Sumavision Technologies Co., Ltd.
+Zheng Haitao
+H04N 5/00
+Loading...
+The invention provides a receiving terminal for a digital television, comprising a local machine of the receiving terminal of the digital television, an SD card used for storing the application software used in the operation of the local machine of the receiving terminal of the digital television, and a connecting device which is arranged on the local machine of the receiving terminal of the digital television and is used for detachably connecting the SD card to the local machine of the receiving terminal of the digital television. The technical proposal improves the commonality of the terminal of the digital television and lowers the cost.
+111. 101321290 Block-removing filtering method based on digital signal processor
+CN
+10.12.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810116784.9
+Beijing Sumavision Technology Co., Ltd.
+Zhang Gang
+H04N 7/26
+Loading...
+The invention provides a filtering method for removing blocks based on the DSP, comprising: step one, calculating a first filter intensity of the vertical boundary and a second filter intensity of a horizontal boundary; step two, respectively judging whether it processes the enforced filter for the vertical boundary and enforced filter for the horizontal boundary according to the first filter intensity and the second filter intensity; and step three, using the collateral instruction to filter the plurality of boundaries at two sides of the vertical boundary and using the e collateral instruction to filter the plurality of boundaries at two sides of the horizontal boundary. The invention uses the collateral processing unit to filter the plurality of boundaries by the DSP.
+112. 201160347 一种机箱
+CN
+03.12.2008
+H05K 5/00 Loading...
+H05K 5/00
+Loading...
+200820078520.4
+北京数码视讯科技股份有限公司
+曾文晶
+H05K 5/00
+Loading...
+本实用新型公开了一种机箱，用于安装板卡，包括一个顶板、一个底板、一个前面板、两个侧板，构成后面开口的机箱框架，还包括不少于两个的导轨板、不少于两个的后面板，所述导轨板位于所述机箱框架内，所述导轨板的壁上设置有不少于一层导轨，所述板卡的两边插入所述导轨板的导轨内，所述后面板分别对应一个板卡，安装在相邻的所述导轨板上，用于封闭所述机箱框架的后面开口。采用了本实用新型的技术方案，不需要把设备所有的连线断开，也不需要把机箱从机架上搬下来，只需要拧下后面板的几颗螺钉即可实现更换内部的PCB板，可插拔的形式提供了便利。
+113. 101296337 Digital television receiving system
+CN
+29.10.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200810114423.0
+Beijing Sumavision Technology Co., Ltd.
+Ru Jigang
+H04N 5/44
+Loading...
+The invention discloses a digital TV receiving system which comprises a tuner used for receiving a digital TV radio-frequency signal and converting the digital TV radio-frequency signal into a digital signal stream to be sent to a computer by a data bus, a channel demodulation module which is positioned in the computer and used for demodulating the digital signal stream to generate a demodulated digital signal stream to be sent to a channel decoding module, and the channel decoding module which is positioned in the computer and used for decoding the demodulated digital signal stream to generate a decoded digital signal stream to be then sent to a signal source decoding unit. By adopting the digital TV receiving system of the invention, the computer can be equipped with a portable receiving terminal with small volume to fully implement the functions of a digital TV set-top box so as to realize the mobile and portable receiving of a digital television.
+114. 101295427 Long-range control system and method of multimedia software
+CN
+29.10.2008
+G08C 17/02 Loading...
+G08C 17/02
+Loading...
+200810114422.6
+Beijing Sumavision Technology Co., Ltd.
+Ru Jigang
+G08C 17/02
+Loading...
+The invention discloses a multimedia software long-distance control system and method, wherein, the system comprises a long-distance control unit wirelessly connected with a signal receiving unit and used for generating control signals according to the operation by users and sending control signals to the signal receiving unit through the wireless connection with the signal receiving unit; the signal receiving unit connected between a computer and the long-distance control unit and used for receiving control signals and sending control signals to a signal processing unit through connecting parts with the computer; the signal processing unit arranged in the computer and used for receiving control signals sent by the signal receiving unit and converting the control signal into control instructions and sending control instructions to a multimedia software. With the invention, users can carry out a long-distance control to the multimedia software in the computer so as to reinforce the enjoyment of users.
+115. 101272501 Video/audio encoding and decoding method and device
+CN
+24.09.2008
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+200810105992.9
+Beijing Sumavision Technology Co., Ltd.
+Yu Xiaojian
+H04N 7/52
+Loading...
+The invention discloses a video and audio coding and decoding method and a device, which adopts double DSP principal and subordinate architectures. The principal DSP sends a code command to the subordinate DSP. Image data are collected from the subordinate DSP and are coded. A video bit stream is generated and is stored in a data postpositional memory zone, and a data receiving command is sent to the principal DSP; the principal DSP polls the command of the subordinate DSP, and the video bit stream is read according to a data receiving command and is output through a net mouth after being packed; the principal DSP codes by collecting audio data, and an audio bit stream is generated and output through a net mouth after being packed; the principal DSP receives the video bit stream and the audio bit stream which are input from the net mouth and are synchronously processed after being decoded, and images and sounds are output. By adopting the technical proposal of the invention, full-duplex real-time video and audio coding and decoding can be realized and the requirements of bidirectional talkback and bidirectional visibility in video monitoring can be satisfied.
+116. 101272497 Video encoding method
+CN
+24.09.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200810105991.4
+Beijing Sumavision Technology Co., Ltd.
+Yu Xiaojian
+H04N 7/26
+Loading...
+The invention discloses a video coding method, which divides an image into no less than two bands. The data of the bands are sent to a corresponding band code DSP; the band code DSP codes the input band data to generate the bit stream with grades. Meanwhile, the transmission of the band data corresponding to the image waiting to be coded in the next frame is started. If an upper adjacent band is provided, the transmission of the inference image data of the upper adjacent band is started when the coding is below the searching range of the upper band; the band coding is finished, and if a lower adjacent band is provided, the transmission of the inference image data of the lower adjacent band is started; the band height of the image waiting to be coded in the next frame is adjusted, and the generating bit streams of all band code DSP are processed. With the technical proposal of the invention adopted, the coding efficiency and the system performance of a multi-DSP code system can be improved and the efficiency problem of a H.264 code program running on a multiple DSP system platform can be effectively solved.
+117. 101184244 Video coding method and system
+CN
+21.05.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710304116.4
+BEIJING SUMAVISION TECHNOLOGIES CO., LTD.
+Zhang Gang
+H04N 7/26
+Loading...
+The invention discloses a video encoding method and the system, which is suitable for the AVS field. The method is as follow: the image acquisition DSP acquires a frame of encoding original image via a video input device, the image acquisition DSP divides the original image to no less than two strips in raster scanning order and sends the strip data to the corresponding strip encoding DSP; the strip encoding DSP encodes the input strip data to generate strip grade bit streams; the strip encoding DSP sends the strip grade bit streams to a main control CPU; the strip grade bit streams are connected together by the main control CPU in the serial number order, then the information of a frame head and a sequence head is added to form a complete code stream and output. The invention has the advantages of enabling to control a plurality of DSPs to work jointly and ensuring the real-time accomplishment of the arithmetic stated by the AVS standard.
+118. 101184245 Video coding method
+CN
+21.05.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710304117.9
+BEIJING SUMAVISION TECHNOLOGIES CO., LTD.
+Zhang Gang
+H04N 7/26
+Loading...
+The invention discloses a video encoding method, applicable for the AVS field. The technological proposal comprises that divide a frame of original image to be encoded into a plurality of macro blocks; divide the macro blocks into macro block groups with each group comprising at least two blocks; save the information required in processing the macro blocks into a DSP storage unit from an external storage unit; conduct movement analysis in turn of all the macro blocks within the macro block groups and save the movement analysis results into the DSP storage unit; conduct compensation coding in turn of all the macro blocks within the macro block groups and save the compensation coding results into the DSP storage unit; conduct entropy coding in turn of all the macro blocks within the macro block groups to acquire and output the bit stream to the external storage unit. The invention has the advantage of improving greatly the data access speed by adopting the technical proposal, which solves the efficiency problem of the AVS video encoding program operation on the DSP platform.
+119. 101184246 Method for transmitting MPEG2 video/audio code stream in E1 channel
+CN
+21.05.2008
+H04N 7/26 Loading...
+H04N 7/26
+Loading...
+200710304118.3
+BEIJING SUMAVISION TECHNOLOGIES CO., LTD.
+Zhang Gang
+H04N 7/26
+Loading...
+The invention discloses a method of transporting MPEG2 video and audio streams in E1 channel. A channel of MPEG2 video and audio streams are separated and allocated, and is divided into eight channels of data streams which are suitable to go through the narrow frame format channels with the speed of 2.048Mbit/s; then the streams enter data business network to be transported. At the receiving end, the received data streams in E1 narrow frame format from eight channels are adapted and re-organized into a new channel of MPEG2 video and audio stream. In the adoption of the technical proposal, the MPEG2 video and audio streams that are slower than 16Mbit/s can be transported in E1 channel.
+120. 101141620 Digital television conditional receiving system and uses thereof
+CN
+12.03.2008
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710176593.7
+Beijing Digital Visual Information Technology Co., Ltd.
+Su Yuwen
+H04N 7/16
+Loading...
+The present invention relates to the digital television technical field, which discloses a digital television conditional access receiving system. The system comprises a digital television CAS front end subsystem and a digital television CAS terminal subsystem, wherein, the digital television CAS front end subsystem is used for generating a current communication cryptographic key after the authorization request is received, authorization information is encrypted through the utilization of the current communication cryptographic key, and the encrypted authorization information is returned to the digital television CAS terminal subsystem through a downward channel; anti-authorization information is encrypted through the utilization of the last generated communication cryptographic key, the encrypted anti-authorization information is issued to the digital television CAS terminal subsystem of sending the authorization request last time through the downward channel, and the obtained authorization is cancelled; the digital television CAS terminal subsystem is used for decoding the encrypted authorization information to obtain the authorization after the encrypted authorization information is received, and to decode the encrypted anti-authorization information to cancel the last obtained authorization after the encrypted anti-authorization information is received. By utilizing the present invention, the security of the system is enhanced, and the damage of a pirated smart card is reduced.
+121. 101119496 Method for implementing internet terminal to transmit message to digital television color message system
+CN
+06.02.2008
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+200710121069.X
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04N 7/52
+Loading...
+The present invention relates to the broadcasting television technology field and discloses a method used for the internet terminal sending information to the digital television multimedia massage system, while the method comprises: configuring information head table, file table and user registration information table; before sending information to the digital television multimedia massage system, the internet terminal builds communication with the digital television multimedia massage system using the configured information head table, then carrying the information that needs sending in the information head table, the file table or the user registration information, and sending the information to the digital television multimedia massage system. The present invention realizes that the internet terminal sending information to the digital television multimedia massage system.
+122. 101119471 System and method for implementing digital television on-line payment
+CN
+06.02.2008
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710121063.2
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04N 7/16
+Loading...
+The present invention relates to radiated television technical field and discloses a system to realize on-line payment of digital TV programs and consists of a digital TV terminal system that is used for checking the password of the receiving intelligence card and for encrypting the basic information and purchasing/charging information of subscribers after the check is passed through and for sending the encrypt information to the digital TV front-end sub-system; the digital TV front-end sub-system is used for carrying out decryption and validity check of the received encrypt information and for searching bank card information binding with the digital TV account of the subscribers after the check is passed through and then for sending encrypted payment request information to the sub-system of the bank according to the information of the bank card; the bank sub-system is used for deciphering and to executing validity check on the payment request received, and for conducting payment handling after the check is qualified and then for return the payment handling results to the digital TV terminal system. The present invention further discloses a method to realize on-line payment of digital TV. Utilizing the present invention, the attainable cost is reduced thus is favorable to be promoted and popularized.
+123. 101119472 Digital television color message accounting device and implementing method
+CN
+06.02.2008
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200710121066.6
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04N 7/16
+Loading...
+The present invention discloses a digital television multimedia message settlement device, comprising a main processing cell, which is used for analyzing the multimedia message paid out, judging the payment manner adopted and transferring the interface connected with the SMS system, the interface connected with the telecom operator payment gateway and the rechargeable card management cell to conduct the balance inquiry and the direct debits of the fee payment account after the digital television multimedia message system receives the multimedia message; an interface connected with the SMS system, which is used for inquiring the balance of the digital television account and for deducting the multimedia message fee from the digital television account; an interface connected with the telecom operator payment gateway, which is used for inquiring the balance of the payment terminal account and for informing the telecom operator deduct the multimedia message fee from the payment terminal account; a rechargeable card management cell, which is used for inquiring the balance information of the rechargeable account and deducting the multimedia message fee from the rechargeable account. The present invention also discloses a digital television multimedia message settlement method by utilizing the digital television multimedia message settlement device. The present invention achieves the settlement of the digital television multimedia message fee.
+124. 101118576 System and method for realizing real time medium copyright protection
+CN
+06.02.2008
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+200610089076.1
+Beijing Digital And Visual Technology Co.,Ltd
+Yang Jian
+G06F 21/00
+Loading...
+The present invention discloses a system which can realize the copyright protection of the media in real time, and includes a content issuance unit used to process the media source content to generate encryption content, CEK is encrypted to generate key encryption information, the encryption content, the key encryption information and the auxiliary information that are generated are sealed to product DCP, the DCP produced is issued to a terminal substitutive unit; an authorized issuance unit used to decrypt the authorized requirement and authorize the certificate, after ensuring the availability of authorization, the authorization information is generated, the authorized information and REK are encrypted to generate encrypted RO, and the encrypted RO is sent to the terminal substitutive unit; and the terminal substitutive unit used to decompose the received the DCP, the encrypted RO is obtained according to discomposed content logo information, the obtained encrypted RO is decrypted to generate the authorized information and the REK, according to the REK, the decomposed key encryption information is decrypted to generate the CEK, according to the CEK, the encrypted content is decrypted to generate the media source content. The present invention discloses a method to realize real time media copyright protection.
+125. 101119495 Method for digital television color message system to transmit cyclically color message to digital television terminal
+CN
+06.02.2008
+H04N 7/52 Loading...
+H04N 7/52
+Loading...
+200710121068.5
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04N 7/52
+Loading...
+The present invention relates to the broadcasting television technology field and discloses a method used for a digital television multimedia message system circularly sending multimedia massage to digital television terminals, while the digital television multimedia system comprises at least a sending unit, and the digital television terminal comprises at least a terminal processing unit and a displaying unit; the method comprises the following steps: the sending unit of the digital television multimedia massage system circularly sending the multimedia massage and the multimedia massage inform to the digital television transferring system; the terminal processing unit of the digital television terminal system receiving and analyzing the multimedia massage and multimedia massage inform sent by the digital television transferring system; the displaying unit of the digital television terminal system displaying the multimedia massage and multimedia massage inform analyzed by the terminal processing unit. The present invention can improve the multimedia massage sending and receiving rate efficiently by circularly sending the multimedia massage and multimedia inform to the digital television transferring system.
+126. 101119194 Method for encrypting and deciphering digital contents and authorization
+CN
+06.02.2008
+H04L 9/30 Loading...
+H04L 9/30
+Loading...
+200710121064.7
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04L 9/30
+Loading...
+The present invention discloses an encryption and description method to digital and authorization. The present invention includes a public key PK which is generated by a terminal agent, a private key SK, a plaintext digital content which is generated by authorized servers, a DK, a RO and a CEK. The authorized server encrypts the digital contents of the plaintext with CEK and gets the contents of the encrypted text. The authorized server encrypts the digital contents of the plaintext CEk with PEK and gets the contents of the encrypted text CEk. The authorized server encrypts the digital contents of the plaintext RO with DK and gets the contents of the encrypted text RO. The authorized server encrypts the digital contents of the plaintext DK with PK and gets the contents of the encrypted text DK. The contents of the encrypted text, encrypted text CEK, encrypted text RO and encrypted text DK are sent to the terminal. The authorized server decrypts the digital contents of the encrypted text DK with SK and gets the contents of the plaintext DK. The authorized server decrypts the digital contents of the encrypted text RO with DK and gets the contents of the plaintext RO. The authorized server decrypts the digital contents of the encrypted text CEK with the plaintext PEK in the plaintext RO and gets the contents of the plaintext CEK. The authorized server decrypts the digital contents of the encrypted text with the plaintext CEK in the plaintext RO and gets the contents of the plaintext. The present invention realizes protection for the digital content and authorized copyright of DRM systems.
+127. 101119450 Implementing one-user multi-terminal digital television terminal system and method
+CN
+06.02.2008
+H04N 5/44 Loading...
+H04N 5/44
+Loading...
+200710121065.1
+Beijing Digital And Visual Technology Co.,Ltd
+Xiu Yuwen
+H04N 5/44
+Loading...
+The present invention relates to the technical field of digital TV, disclosing a terminal system of digital TV which can provide a plurality of terminals for one user. The system includes: a card processing device for parent card of smart card of digital TV, which is used for receiving multimedia data on television network with the help of the message saved in the smart card parent card of digital TV and the outside RF control signal, and to output the received multimedia data to main display device; a main display device used for playing and displaying the multimedia data; at least one processing device of daughter card of the smart card of digital TV used for receiving the multimedia data on television network with the help of the message saved in the smart card daughter card of digital TV and the outside RF control signal, and to output the received multimedia data to the main sub-display device. At least one sub-display device is used for playing and displaying the multimedia. The present invention also discloses a method for realization of multi-terminal of digital TV for one user. The present invention solves the difficulty of viewing TV program at multiple points, being good for the popularization of digital TV.
+128. 101110796 Method for sending and receiving multimedia message based on bidirectional digital television network
+CN
+23.01.2008
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+200710121067.0
+Beijing Sumavision Technologies Co., Ltd.
+Xiu Yuwen
+H04L 12/58
+Loading...
+The present invention relates to the broadcasting and television technical field, and discloses a method for sending and receiving multimedia messages based on the bi-directional digital television network. The method comprises that a digital television multimedia message system sends multimedia messages and/or multimedia message auxiliary information to the digital television terminal through the broadcast channels of the bi-directional digital television network or the return channels; the digital television terminal receives the multimedia messages and/or multimedia messages auxiliary information sent by the digital television multimedia message system, and returns confirmation information to the digital television multimedia message system through the return channels of the bi-directional digital television network. The multimedia message sending and receiving based on the bi-directional digital television network can be realized by using the present invention.
+129. 101110897 System and method for sending multimedia message by digital television
+CN
+23.01.2008
+H04N 7/025 Loading...
+H04N 7/025
+Loading...
+200710121070.2
+Beijing Sumavision Technologies Co., Ltd.
+Xiu Yuwen
+H04N 7/025
+Loading...
+The present invention relates to the broadcast television technical field, which discloses a multimedia message sending system by utilizing a digital television. The system comprises: a digital television terminal and a digital television multimedia message center, the digital television terminal is used for editing and importing the multimedia message which is sent to the digital television multimedia message center through the digital television network, and receiving and displaying the multimedia message sent by the digital television multimedia message center through the digital television network; the digital television center is used for receiving the multimedia message from the digital television terminal and then validating and verifying, and sending the validated and verified multimedia message to the multimedia message receiving terminal through the digital television network, the communication network or the Internet. The present invention also discloses a multimedia message sending method by utilizing the digital television. By utilizing the present invention, the multimedia message sending through the digital television is achieved, the advantage of the television as a multimedia terminal is exerted, and the telecom multimedia message service is expanded to the broadcast television platform successfully.
+130. 101110898 System and method for receiving multimedia message by digital television
+CN
+23.01.2008
+H04N 7/025 Loading...
+H04N 7/025
+Loading...
+200710121071.7
+Beijing Sumavision Technologies Co., Ltd.
+Xiu Yuwen
+H04N 7/025
+Loading...
+The present invention relates to the broadcast television technical field, which discloses a multimedia message receiving system by utilizing a digital television. The system comprises: a digital television multimedia message center and a digital television terminal, the digital television multimedia message center is used for receiving the multimedia message from the digital television terminal and then validating and verifying, and sending the validated and verified multimedia message to the multimedia message receiving terminal through the digital television network; the digital television terminal is used for receiving and displaying the multimedia message sent by the digital television multimedia message center through the digital television network. The present invention also discloses a multimedia message sending method by utilizing the digital television. By utilizing the present invention, the multimedia message sending through the digital television is achieved, the advantage of the television as a multimedia terminal is exerted, and the telecom multimedia message service is expanded to the broadcast television platform successfully.
+131. 101110675 Method implementing compatibility among different digital publication right management systems
+CN
+23.01.2008
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200710121062.8
+Beijing Sumavision Technologies Co., Ltd.
+Xiu Yuwen
+H04L 9/32
+Loading...
+The present invention discloses a method to realize compatibility of different DRM systems belonging to the technical field of digital copyright conservation, which comprises a universal RM information packaging structure, a LM information packaging structure and a SC standard interface API. A front-end DRM system encrypts digital contents to create digital cryptographs and generate RM information and LM information through the universal RM information packaging structure and the LM information packaging structure. And then, the created digital cryptographs, the RM information and the LM information are dispatched to a terminal DRM system. The terminal DRM system transmits the RM information and the LM information to the SC through the SC standard interface API. The SC extracts a decryption key from the LM information according to the RM information and sends the decryption key to the terminal DRM system through the SC standard interface API. Thus, the terminal DRM system decrypts the digital cryptographs and obtains decrypted contents. The present invention realizes compatibility of different DRM systems.
+132. 1761315 Implementation method for replacing conditional receiving system in two stages
+CN
+19.04.2006
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200510105787.9
+Beijing Digital Code Video & Communication Tech Co., Ltd.
+Dai Cheng
+H04N 7/16
+Loading...
+Cooperation between digital royalty management (DRM) and conditional acceptance system (CAS) accomplishes two stages conditional acceptance function of digital TV. DRM server is setup at upper level (content provider), and DRM client end is setup at lower level (program operator). DRM server scrambles content of digital media down loaded from upper level. DRM server uses signature of cryptographic key to encrypt program. After encryption, the encrypted program is down loaded to DRM client end, which decrypts the encrypted program. After signature is validated, the cryptographic key for encrypting program is encrypted and sent to CAS in lower level so as to realize control of program source. After obtaining permission from DRM server, DRM client end sends users's certificate to CAS in lower level, and then through the CAS, certificates are sent to users. It is needed to apply for reception permission from DRM client end when users in lower level to watch programs in upper level.
+133. 1589008 Method for realizing region locking
+CN
+02.03.2005
+H04N 7/16 Loading...
+H04N 7/16
+Loading...
+200410077927.1
+Beijing Digital Video Communication Science and Technology
+Chen Dequan
+H04N 7/16
+Loading...
+A method for realizing region locking is that a regional locking module is added at the general front of a digital TV condition receiving system and some TS process modules are set at several branch front ends separately, in which, the general front regional locking module applies for EMM data with described code stream to the condition receiving module to be bundled to TS data packet conforming the DVB standard to be delivered to a multiplexer by a TS play card, then to be downwarded to several branch front ends by HFC or SDH after multiplexed by the multiplexer, the branch front ends filter and remain related TS data packets containing the described character stream and modify their PID in comformity with EMMPID assigned in the interfered TS packet to be processed to realize regional locking by set-top box.
+134. 2569458 卫星信号传送流接收转发器
+CN
+27.08.2003
+H04B 7/185 Loading...
+H04B 7/185
+Loading...
+02230770.2
+北京数码视讯科技有限公司
+徐江
+H04B 7/185
+Loading...
+一种卫星信号传送流转发器，包括I2C总线上的QPSK一体化高频头单元、可编程逻辑单元、数字信号处理器、异步串行输出接口单元(ASI)、同步并行输出接口单元(SPI)和FLASH存储器、看门狗电路、I2C总线控制器、主板控制单元。数字信号处理器和可编程逻辑单元是通过数字信号处理器接收来自高频头单元的TS流信号，解复用后给可编程逻辑单元进行节目过滤的方式相连，可编程逻辑单元和ASI或SPI的相连是通过可编程逻辑单元输出信号给ASI或SPI，ASI或SPI输出符合MPEG－2/DVB标准的TS流的方式。
+135. 2562531 一种卫星信号数据传输流接收转发调制器
+CN
+23.07.2003
+H04N 7/20 Loading...
+H04N 7/20
+Loading...
+02252006.6
+北京数码视讯科技有限公司
+马自军
+H04N 7/20
+Loading...
+一种卫星TS流接收转发调制器，具有节目过滤功能，包括输入QPSK高频头单元、TS流处理单元、控制单元(包括IIC总线、IIC总线控制器、控制芯片、系统总线、终端)，QAM调制单元、射频输出单元(包括滤波、放大、上变频三部分)。TS流处理单元接收来自高频头单元的TS流信号，解复用有选择地调节后输出TS流信号，再进行QAM调制、上变频，最终输出射频信号，供电视台将数字电视节目发送到CATV终端用户。
+136. 2547080 将8兆数据分配到4个2兆通道传输的网络适配器
+CN
+23.04.2003
+H04M 11/00 Loading...
+H04M 11/00
+Loading...
+02234792.5
+北京数码视讯科技有限公司
+王久雨
+H04M 11/00
+Loading...
+一种将8兆数据分配到4个2兆通道传输的网络适配器，包括ASI异步串行输入接口单元、输入FIFO缓存单元、数字信号处理器、可编程逻辑单元、输出FIFO缓存单元、E2接口输出单元、E1接口输出单元和FLASH存储器。数字信号处理器接收来自FIFO的6～8M TS信号，将其成帧后通过E2接口单元或4×E1接口单元输出到E2或E1网络上进行传输。
+

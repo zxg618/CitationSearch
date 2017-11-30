@@ -1,0 +1,61 @@
+1. 101232612 Assistant medium playing method triggered based on video contents
+CN
+30.07.2008
+H04N 7/24 Loading...
+H04N 7/24
+Loading...
+200710178861.9
+Beijing Unioncast Network Technology Co., Ltd.
+Huo Longshe
+H04N 7/24
+Loading...
+The invention relates to an auxiliary media player method based on a video content trigger. The invention is characterized in that playing of each auxiliary media object is triggered due to time stamp value in video frame exhibition that is drawn from the main video stream in advance according to video contents; the invention includes the following steps: (a) editting and create an auxiliary media object description file for each principal tone video media file on the server's end, wherein the step comprises zero to a plurality of records of the auxiliary media objects; (b) downloading the auxiliary media object description file; (c) during the course of playing main video streams, performing matching selection and downloading auxiliary media objects based on time stamps; (d) during the course of playing the main video stream, performing matching selection and playing auxiliary media objects based on time stamps; (e) ending the media playing process. The auxiliary media contents that are distributed based on the method can be deemed as prompting information, so as to further intensify the users' understanding for the video contents; therefore, the invention can form a media publishing and dispatching mode for media service suppliers and users.
+2. 101184052 Congestion control method of implementing reliable UDP transmission
+CN
+21.05.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710304126.8
+Beijing Unioncast Network Technologies Co., Ltd.
+Li Yonghua
+H04L 12/56
+Loading...
+The invention relates to a congestion control method for realizing reliable UDP transmission, belonging to an end-to-end control mechanism, which is as follow: the congestion control mechanism of end-to-end under the UDP protocol is realized with control strategy for receiving end and control strategy for sending end; when every four packets are received by the receiving end, an acknowledgement packet is sent, wherein, the information of network traffic is contained in the acknowledgement packet; based on the information contained in the acknowledgement packet, the time interval for sending the packets is adjusted by the sending end depending on the measured round trip time change of the packets, and the sending rate of packets is regulated; the congested network is recovered to unblock, and the bandwidth between both transmission sides is fully utilized. The invention has the advantages of efficient resource saving.
+3. 101170565 SDP 2D extension method supporting multiple mixed media layer negotiations
+CN
+30.04.2008
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200710178865.7
+Beijing Guangshi Tongda Network Technology Co., Ltd.
+Xu Yongze
+H04L 29/06
+Loading...
+The invention relates to the SDP two-dimension extension method supporting multi-mixed media hierarchy consultation. The method has the following steps: (1): all media streams are processed so that the corresponding SDP session message body is generated; (2): the SDP message body is extended by the extension method; (3): the SDP two-dimension message body which is extended is taken as media consultation session which is transmitted to client end through transmitted module; (4): after receiving the SDP message body which is extended, client end processes the SDP message body. As sub-media stream SDP message body is added to main media stream by the property method, the invention can uniformly process the application of multi-media, simplify system and provide the hierarchy process method in order to differ the relation of a plurality of media streams and improve the flexibility of the system. With the adoption of the hierarchy processing method, the system can be further suitable for the variation of network and hence is more practical.
+4. 101170430 An advertisement distribution method based on distributed P2P stream media platform
+CN
+30.04.2008
+H04L 12/18 Loading...
+H04L 12/18
+Loading...
+200710178860.4
+Beijing Guangshi Tongda Network Technology Co., Ltd.
+Guo Rui
+H04L 12/18
+Loading...
+The invention relates to an advertising method based on a distributed P2P flow media platform which is characterized in that: a buffer pool is pushed and received on the P2P flow media client; a user submits the customized advertising media content thereof, the launching strategy and the priority on a designated network; an operator reviews the advertising media content provided by the user, digitally endorse the legitimate content and adds push buffering pool; P2P network records each piece of advertising information, maintains and updates them by distributed method, check for the legitimacy thereof at the time of distribution and launching, so as to decide whether to proceed or not; after a node in P2P network senses and establishes the own topologic structure thereof, the node will distribute the legitimate advertisements through distribution strategy; the user will add the advertisements pushed by other users to the receiving buffer pool, select advertisements for launching according to customized launching strategy, update information corresponding to the advertisement and further start a new round of legitimacy inspection and selection. The invention can be widely used in internet advertising.
+5. 101170506 A P2P stream media data dispatching method based on response drive
+CN
+30.04.2008
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+200710178859.1
+Beijing Guangshi Tongda Network Technology Co., Ltd.
+Chen Shuangjia
+H04L 12/56
+Loading...
+The invention relates to a respondent-driven-based scheduling method of P2P streaming media data, the operation steps of the data scheduling program is as following: (1) finding a first data block that has not existed yet from the initial position of the buffer sequence of the present node, and attributing the sequence number to the current data block nCurrBlock; (2) judging whether the sequence number is bigger than the sequence number of the last data block of the buffer sequence of the present node, and if not, turning to (9); (3) judging whether the present node has held the data block with the sequence number of nCurrBlock, and if yes, turning to (8); (4) intensively selecting a node with the sequence number of nCurrBlock among all the partner nodes of the present node according to the node selection method, and assigning the value to the data-providing node, and if the value does not exist, emptying the data-providing node; (5) judging whether the node is empty, and if not, turning to (8); (6) transmitting a request data packet to the data-providing node to request for the data block with sequence number of nCurrBlock ; (7) adding one to the field value of the request number corresponding to the data-providing node; (8) adding one to the field value of nCurrBlock, and then turning to (2); (9) finishing the scheduling process.
+

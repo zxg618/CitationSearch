@@ -1,0 +1,985 @@
+1. 103838891 一种平板显示器设计中的等电阻布线实现方法‑蛇形布线
+CN
+22.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102012000486912
+北京华大九天软件有限公司
+丁斌
+G06F 17/50
+Loading...
+本发明公开一种面板设计中自动实现等电阻布线的布线方法‑蛇形布线。根据走线的基本单元体的形状的不同，本发明提出三种配线形状方案：矩形蛇形布线、梯形蛇形布线和三角形蛇形布线，其单元体形状分别是矩形、梯形和三角形，见附图1、图2、图3。蛇形布线以配线形状似蛇形而命名。本发明进一步支持以多种变量参数控制蛇形走线的形状，它们是：蛇形图案(Pattern)、凹槽尺寸(Notch)、振幅模式(Equal Amplitude)、相邻走线间最大电阻差(Max Inter‑deviation)、最大/最小电阻比值(Res.Max/Min)，这些参数确定了蛇形布线的形状和效果，是本发明的重要组成部分。
+2. 103336709 一种在集群中实现虚拟化分布式统一管理的方法及系统
+CN
+15.03.2017
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+102013000215736
+北京华胜天成科技股份有限公司
+刘兴辉
+G06F 9/455
+Loading...
+本发明公开了一种在集群中实现虚拟化分布式统一管理的方法及系统，包括以下步骤：S1，管理端添加物理主机；S2，用户在管理端操作下达一个任务；S3，任务调度模块对所述任务进行分解，并对分解后的任务进行调度，将任务的具体步骤和内容下达到具体的物理主机执行；S4，物理主机执行分解后的具体任务，并将任务执行的成功或失败结果反馈给任务调度模块，如果任务调度模块长时间没有收到任务执行结果的状态，则任务超时失败；S5，任务调度模块将任务执行结果记录到数据库，同时展现到管理端，用户可以看到任务执行结果；如果任务执行成功，管理端显示任务执行后的结果，用户可以继续操作下达其他任务。本发明通过上述方式，可方便高效管理整个集群下所有的物理主机及虚拟机。
+3. 106484924 一种比较标准单元库的数值标准化方法
+CN
+08.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510523405.8
+北京华大九天软件有限公司
+周舒哲
+G06F 17/50
+Loading...
+随着超深亚微米工艺条件下的标准单元库文件数量不断增加，文件规模不断增大。这使得库文件大量的数据比较人工无法完成，所以需要使用EDA工具辅助比较和分析数据。本文提出一种比较标准单元库的方法：1）cell和pin的属性值，可以直接比较；2）二维表需要转换为数值进行比较。我们需要预先处理除零和两值相当的特殊情况，然后进行相对误差的计算。基于相对误差再利用变形的sigmoid函数对数据进行归一化处理，以便于后续进行数据的统计和柱状图的描述。最后，我们根据计算出的误差相对值，给出柱状图分析报告，这使得工程师能直观的了解数据的偏差情况。
+4. 106484923 一种检测标准单元库时延单调性的方法
+CN
+08.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102015000522952
+北京华大九天软件有限公司
+周舒哲
+G06F 17/50
+Loading...
+当今超深亚微米工艺条件下的标准单元库文件数量不断增加，文件规模不断增大。这使得大量的数据分析人工难以完成，所以需要使用EDA工具辅助分析数据的合理性和准确性。通常时延数据是以NLDM（非线性时延模型）方式出现的二维表，包括表头和时延数据两部分。本文提出一种检测标准单元库时延单调性的方法，通过表头定义的模型的名称，index的数值，我们可以确定行列的含义；需要设定一个阈值，确定每一行每一列是否都是递增，且增幅都大于该阈值；如发现有不单调递增的行列，给出了明确的报告形式。这使得工程师能快速定位违反单调性的位置，从而保证了数值的准确性和合理性。
+5. 106469233 一种检查不同类型库单元正确性及一致性的方法
+CN
+01.03.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+102015000514988
+北京华大九天软件有限公司
+陈彬
+G06F 17/50
+Loading...
+随着超大规模集成电路的不断发展，设计者会面对越来越多、越来越复杂的设计库（Library）。如何保证库单元的正确性以及库单元之间的一致性，提高设计质量已经成为了业界关注的焦点。本文提出了一种方法，利用workspace/session/view/corner等概念，可以有效地层次化组织和管理不同类型、不同版本的多个库单元文件。针对某一具体的库单元，可以针对其正确性进行自我检查“self-check”；针对不同类型的库单元之间，可以针对其一致性进行对比检查“cross-check”；针对相同类型的库单元之间，可以比较其性能差异“compare”。详细的检查报告和图形化结果显示会帮助使用者方便地进行库单元的检查与修正，以保证设计质量。
+6. 103488717 一种无锁数据汇聚方法及装置
+CN
+22.02.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102013000413005
+北京华胜天成科技股份有限公司
+李成金
+G06F 17/30
+Loading...
+本发明公开了一种无锁数据汇聚方法及装置，方法包括：在缓存中开辟至少一个缓存内存数组，所述缓存内存数组的属性包括取指针、存指针和用于标识所述存指针是否在所述取指针前面的缓存标志；创建至少一个用于将从客户端提取的数据包保存到缓存内存数组存线程和至少一个用于从缓存内存数组中取出数据包的取线程，以使所开辟的各缓存内存数组均有一个对应的存线程和一个对应的取线程；使所开辟的各缓存内存数组所对应的存线程和取线程根据所对应的缓存内存数组的属性进行线程运行或线程等待，以并行从至少一个客户端提取数据包并进行汇聚。本发明实施例能实现多个线程并发地通过缓存进行数据汇聚，能提高数据汇聚的效率。
+7. 103617039 一种访问用户空间文件系统的方法及装置
+CN
+01.02.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102013000625947
+北京华胜天成科技股份有限公司
+赵前
+G06F 9/44
+Loading...
+本发明提供一种访问用户空间文件系统的方法及装置，所述方法包括：通过动态库拦截应用程序用于访问文件系统的访问指令；如果通过所述动态库根据所述访问指令的内容，识别出访问的文件系统为用户空间文件系统，则调用所述用户空间文件系统的应用程序编程接口，访问所述用户空间文件系统。对应地，动态库包括：指令拦截模块、接口调用模块等，应用本发明提供的一种访问用户空间文件系统的方法及动态库，实现了全程在用户态下访问用户空间文件系统的方法，提高了对用户态文件系统的访问效率。
+8. 106326101 一种基于QT的应用程序自动化测试方法
+CN
+11.01.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201510389955.5
+北京华大九天软件有限公司
+韩永朋
+G06F 11/36
+Loading...
+本发明公开了一种基于 QT 的应用程序自动化测试方法，属于软件自动化测试领域。针对 QT 应用程序，在录制过程中截获 QT 事件，记录事件的相关信息，同时保存应用程序运行过程中的待测信息。在回放过程中，解析录制过程中记录的事件信息，利用控件的属性信息查找出唯一的控件，模拟 QT 事件，发送到事件队列中自动运行，并保存应用程序运行过程中的待测信息。最后比较录制和回放过程中待测信息的差异。本发明提供的方法只需要简单地运行应用程序就可以完成录制回放操作，同时其回放过程是坐标不敏感的，界面内控件位置的变化，不会影响测试结果，并且该方法采用了统一有效的控件识别方法，以降低识别不同控件带来的负担和错误机率。
+9. 103605620 一种集群存储数据保护方法及装置
+CN
+11.01.2017
+G06F 12/16 Loading...
+G06F 12/16
+Loading...
+102013000625622
+北京华胜天成科技股份有限公司
+赵前
+G06F 12/16
+Loading...
+本发明提供一种集群存储数据保护方法及装置，使用一种存储终端和一种管理终端组成集群存储系统，通过存储终端识别到主电源停止供电时，切换至备用电源为所述存储终端供电；存储终端向集群中的管理终端发送报警信息；存储终端将缓存中的数据全部存入磁盘，以及管理终端接收存储终端发送的报警信息，并根据所述报警信息，将所述存储终端标记为异常终端，且停止向所述存储终端分配文件；当所述管理终端接收所述存储终端发送的恢复信息时，去除所述存储终端的异常标记，且向所述存储终端分配文件等步骤以较低的成本提高集群存储数据的安全性。
+10. 106294910 一种在版图中自动设置坐标原点的九宫格方法
+CN
+04.01.2017
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510300647.0
+北京华大九天软件有限公司
+王明英
+G06F 17/50
+Loading...
+一种在版图中自动设置坐标原点的九宫格方法，涉及IC（集成电路）设计和FPD（平板显示）设计领域。在版图设计中，对例化单元要进行中心点对齐，或者对例化单元进行旋转等编辑操作时，都要以某个基点为中心，这个基点即为例化单元的坐标原点。在例化单元中设置坐标原点时，如果通过鼠标点击来完成，需要事先测量距离，且需要将版图放大到一定程度才能精准地完成，即费时又费力。这里提出一种方法：即由程序自动计算出版图区域的特征位置，且通过九宫格界面的方式呈现给用户，用户根据需要选择其中的一种特征位置，来自动完成坐标原点的重置，这样可以省去事先的测量和放大等繁琐的步骤，提高版图设计的效率，进而提高设计者的工作效率。
+11. 103856502 实现虚拟机镜像文件热迁移的方法和NAS集群系统
+CN
+21.12.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+102012000501182
+北京华胜天成科技股份有限公司
+赵前
+H04L 29/08
+Loading...
+本发明提供一种实现虚拟机镜像文件热迁移的方法和NAS集群系统，其中方法包括：检测NAS集群系统中的每个物理主机节点，在检测处理每个物理主机节点时，实时判断当前物理主机上运行的虚拟机的镜像文件是否存储在当前物理主机的本地存储设备上；若判断结果为否，则在虚拟机和当前物理主机的存储设备均满足预设的条件时，将需要迁移的虚拟机镜像文件从源物理主机迁移至当前物理主机的本地存储设备上。本发明提供的实现虚拟机镜像文件热迁移的方法和NAS集群系统，提高了虚拟机对相应的虚拟机镜像文件中所包含的应用文件和操作系统文件的I/O处理效率，并保障了集群系统网络运行的稳定性。
+12. 105843415 一种将快捷命令标记在键盘图上的方法
+CN
+10.08.2016
+G06F 3/023 Loading...
+G06F 3/023
+Loading...
+201510019298.5
+北京华大九天软件有限公司
+冯小辉
+G06F 3/023
+Loading...
+本发明公开一种将快捷键命令标记在键盘图上的方法，有了该键盘图使初学用户在编辑版图时摆脱了频繁查阅手册的困扰，大大节约了设计时间，将客户从繁重的劳动中解脱出来。
+13. 105844682 一种集成电路版图图形的修改方法
+CN
+10.08.2016
+G06T 11/80 Loading...
+G06T 11/80
+Loading...
+201510019344.1
+北京华大九天软件有限公司
+刘磊
+G06T 11/80
+Loading...
+本发明公开一种集成电路版图图形的修改方法。本发明会根据鼠标光标在原始图形上的投影产生吸附点，吸附点提示了原始图形与新图形的边界交点；本发明还采用快捷键，自动补全鼠标光标与吸附点间的线段，快速结束操作。这种图形形状修改方法，能大大提高命令执行速度，减少大量的版图放大、缩小及点击操作，提高绘制版图的效率。
+14. 105808486 以有源电感为负载的高速驱动电路的实现
+CN
+27.07.2016
+G06F 13/40 Loading...
+G06F 13/40
+Loading...
+201410830012.7
+北京华大九天软件有限公司
+项骏
+G06F 13/40
+Loading...
+本发明公开了一种以有源电感为负载的高速驱动电路的实现方法，如图1所示。图中VIP/VIN为芯片的差分输入信号，VOP/VON为差分输出信号，通过3级驱动电路实现高速驱动；因为在高速串行通信的发送端，能看到线缆的非理想性带来的衰减，所以经常需要通过在最后一级驱动电路上用无源电感来吸收容性负载；但是传统无源电感面积大，随工艺温度变化大，建模复杂，不利于芯片集成；为了解决上述问题，本发明在高速驱动电路中创造性的使用了一个有源电感电路，既能实现无源电感同样性能，又可以节省芯片面积，方便芯片集成。
+15. 105811967 HDMI标准中用于产生小数分频时钟的电路
+CN
+27.07.2016
+H03L 7/08 Loading...
+H03L 7/08
+Loading...
+201410845195.X
+北京华大九天软件有限公司
+沈炎俊
+H03L 7/08
+Loading...
+本发明公开了HDMI标准中用于产生小数分频时钟的电路，如图1所示。图中PH0、PH90、PH180和PH270是锁相环电路产生的其中四个相位差间隔90度的时钟。通过约翰逊计数单元产生的四个选择信号来切换该时钟，并由复接电路输出MUX_CK_OUT。该信号经过延时电路后输出作为计数单元的时钟。当校准时，即CAL_DONE=0，利用SEL2 对MUX_CK_OUT来采样输出SENSE信号。数字算法电路根据SENSE信号的具体类型而得到相应的控制字，该控制字用于选择延时电路的时间。当DIV_SEL=0时，该电路为除以1.25的小数分频；反之，为除以1.5的小数频率。
+16. 105812013 一种用于串行信号通信收发终端电阻的自动校准电路和方法
+CN
+27.07.2016
+H04B 1/40 Loading...
+H04B 1/40
+Loading...
+201410845155.5
+北京华大九天软件有限公司
+赵庆中
+H04B 1/40
+Loading...
+本发明公开了一种用于串行信号通信收发终端电阻的自动校准电路和方法，如图1所示。Rref为片外参考电阻，Rcal是目标校准电阻，Isource 为poly电流，如果目标电阻Rcal大于Rref，则Vcal小于Vref，Vref-Vcal之间的差值Vdiff经过一个前置放大器放大过后，然后送给一个比较器，比较器输出一个高电平，Digital FSM则调整Rcal<4:0>减小目标电阻Rcal。相反，如果Rcal小于Rref，则比较器输出一个低电平，Digital FSM 调整Rcal<4:0>增大目标电阻Rcal。
+17. 105808791 一种用于电阻计算网格划分的加速方法
+CN
+27.07.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410828634.6
+北京华大九天软件有限公司
+闫海霞
+G06F 17/50
+Loading...
+由于超深亚微米工艺技术的发展，简单参量已经不能描述互连线的特性，互连线寄生参数(电阻、电感、电容和电导)的快速准确提取对高性能芯片的成功设计具有十分重要意义。本文提出了一种快速提取电阻方法，通过图形切割，图形复用等技术提高了提取电阻的速度，解决了因为版图的复杂性导致的提取电阻非常耗时的缺点；同时利用三角剖分有限元方法也很好的保证了提取电阻的精度。
+18. 105740492 一种用于Memory Compiler的netlist生成时进行连线的方法
+CN
+06.07.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410758953.4
+北京华大九天软件有限公司
+虞宙
+G06F 17/50
+Loading...
+本发明叙述了一种在Memory Compiler的netlist生成时通过读取配置文件来对指定层次路径上的指定端口进行连线的方法。通常当需要在已有的netlist rule基础上增加连线的时，原来的做法是直接去修改相关的生成函数，这样做的缺点是：涉及的生成函数会比较多，改动量大，而且修改的部分难以维护和管理。本发明针对上面的情况，设计了一种通过配置文件来定义要添加的连线的方法，程序会在正常的拼接完成后，通过读取配置文件中的定义，在指定的层次路径上进行自动连线，并且可以对指定的子电路添加要连线的新端口。
+19. 105631062 一种检查集成电路线网连通关系的方法
+CN
+01.06.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410595730.0
+北京华大九天软件有限公司
+王国庆
+G06F 17/50
+Loading...
+一种检查集成电路线网连通关系的方法，所属的技术领域是EDA（电气设计自动化），尤其是版图验证领域的ERC（电气规则检查）和LVS（集成电路版图与原理图的一致性比较）。对于由N个线网和D个器件组成的集成电路版图，仅采用一个大小为N的连通关系表记录连通关系，时间和空间复杂度明显优于基于二分图的方法。本发明的目的是提供一种内存占用少、运行速度快且非常容易实现的连通关系检查方法，提高相关EDA软件的运行效率，缩短集成电路的设计周期。
+20. 105631581 一种用于离散制造业的结构化工艺设计方法
+CN
+01.06.2016
+G06Q 10/06 Loading...
+G06Q 10/06
+Loading...
+201510961409.4
+山东山大华天软件有限公司
+刘军
+G06Q 10/06
+Loading...
+本发明公开了一种用于离散制造业的结构化工艺设计方法，包括以下步骤：根据工艺对象确定工艺业务数据，建立工艺过程对象模型，进行结构化的工艺过程规划，设计相应的工艺过程；验证工艺过程对象与零组件的消耗关系、工艺过程对象与资源对象之间的指派分配关系和工艺零组件与资源对象的专用关系；在图形化环境中设计支持结构化工艺，建立图示化工具与已定义的业务数据之间双向交互关系；选择工艺过程节点，基于APQP对象生成过程流程图，创建PFMEA的工艺特性和控制计划。本发明面向企业生产技术准备全过程，保证数据的一致、有效和重用；同时为后续制造工艺的可视化、分析和优化提供数据基础和支持机制。
+21. 105573274 基于PLM系统的TS16949关联对象控制方法
+CN
+11.05.2016
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201510943491.8
+山东山大华天软件有限公司
+房东
+G05B 19/418
+Loading...
+本发明公开了基于PLM系统的TS16949关联对象控制方法，步骤如下：建立TS16949关联对象模型；维护TS16949关联对象经验库；在新产品开发过程中，对每一个产品项目创建一套TS16949关联对象及其子对象；子对象分别是过程流程图子对象、PFMEA子对象和控制计划子对象；维护过程流程图子对象：维护过程流程图和过程流程图基本信息；维护PFEMA子对象，进行PFMEA风险分析；维护控制计划子对象；建立出过程流程图子对象、PFMEA子对象和控制计划子对象变更及关联更改关系，实现TS16949各子对象模型发生变更时的数据一致性；根据TS16949关联对象导出过程流程图、PFMEA和控制计划的报表文件。保证了PLM系统中存储TS16949管理对象下的数据输出的灵活性，可以应付多种主机厂客户的文档要求。
+22. 105488239 一种平板显示版图设计规则检查结果自动筛选方法
+CN
+13.04.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410525722.9
+北京华大九天软件有限公司
+于士涛
+G06F 17/50
+Loading...
+一种平板显示版图设计规则检查结果自动筛选方法属于半导体集成电路设计自动化领域，主要涉及如何从违反设计规则的检查结果中自动筛选出需要修改版图的结果。平板显示版图的设计规则检查借鉴于集成电路版图，但处理情况更加复杂，并非所有违规结果都需要修改版图。目前，对违规结果的筛选大都依赖人工观察，从几十万个结果中筛选出需要修改版图的部分，工作效率很低。特别是每次修改版图后迭代检查时，又需要重新筛选结果，严重拖延版图设计流程。本发明将机器学习领域的数据分类方法引入平板显示设计领域，通过分类决策树实现设计规则检查结果的自动筛选，自动区分哪些结果需要修改版图，显著缩短了版图迭代修改周期，加速设计流程。
+23. 105447908 基于口腔扫描数据和CBCT数据的牙列模型生成方法
+CN
+30.03.2016
+G06T 17/00 Loading...
+G06T 17/00
+Loading...
+201510890689.4
+山东山大华天软件有限公司
+梅敬成
+G06T 17/00
+Loading...
+本发明公开了基于口腔扫描数据和CBCT数据的牙列模型生成方法，读取口腔三维多源数据模型；设定配准固定模型与浮动模型，其中固定模型为通过CBCT创建的三角网格模型，浮动模型为口内扫描的三角网格模型；在固定模型和浮动模型上，手动拾取模型特征点对，根据模型点云曲率修正特征点对，将特征点移动到周围邻域中曲率最大的点，采用点到点的ICP算法，对特征点对进行初步配准；计算初步配准后模型点云误差并结合医学参数要求，设置精确配准的参数；采用优化的点到面的ICP算法进行精确配准；对配准后的CBCT数据和口内扫描数据进行融合，将配准融合后的牙根和牙冠模型输出。实现不同设备数据或患者不同姿态数据的快速精确配准融合。
+24. 105446945 Word标记报告生成方法
+CN
+30.03.2016
+G06F 17/22 Loading...
+G06F 17/22
+Loading...
+201510870568.3
+广东电网有限责任公司电网规划研究中心
+吴烈鑫
+G06F 17/22
+Loading...
+本发明的目的在于提供一种Word标记报告生成方法，该方法是根据每年项目的结算数据，自动生成年度/半年度/季度报告，用以减轻工作人员每年的重复工作量，提高工作效率。本方法包括如下步骤：1)通过往年的Word格式电网公司项目结算报告，生成报告模板；2)服务端从数据库读取项目结算造价数据，并计算出结果；3)把计算结果替换成特殊字符组，在内存中采用docx4j()组件进行替换操作；4)KPI计算结果图表图片采用JFreeChart组件生成，每次生成后保存成临时图片文件，再将这些临时图片文件以文件流的形式保存到word文档的相应位置；5)报告中的特殊字符组全部替换完成后，将生成的报告保存到服务器的指定路径。
+25. 105426555 层次LVS中的PORT归纳匹配方法
+CN
+23.03.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410480673.1
+北京华大九天软件有限公司
+李桢荣
+G06F 17/50
+Loading...
+本发明提供一种层次LVS中的PORT归纳匹配方法，能够充分利用所有父单元中所有子单元实例的PIN上连接关系，无论是已经确定匹配关系的PIN匹配对还是未匹配的多个PIN线网组成的分组，均按照统一方法归纳整理出权重值给子单元，从而帮助子单元确定其PORT的匹配或者分组关系，减少LVS层次验证的循环迭代次数。
+26. 105426556 版图设计规则文件中图层关系的可视化分析方法
+CN
+23.03.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410480676.5
+北京华大九天软件有限公司
+王小波
+G06F 17/50
+Loading...
+本发明公开了一种版图设计规则文件中图层关系的可视化分析方法，属于半导体集成电路设计自动化领域，主要用于分析集成电路设计中验证模块的规则文件。针对集成电路版图设计规则文件开发和维护中，用户分析文件结构不便的弊端，提供一种可视化分析方法。该方法首先解析设计规则文件，对用户选择的一个或多个图层，获取与用户选择图层具有依赖关系的图层集合；以依赖关系集合中的图层为节点，以图层间的引用关系为边，进行布局布线处理，生成并画出可视化关系图。帮助用户理清规则逻辑、优化规则内容，提高开发效率，方便后期维护和修改。
+27. 105404352 一种检查时钟树综合结果瓶颈从而提高综合质量的方法
+CN
+16.03.2016
+G06F 1/12 Loading...
+G06F 1/12
+Loading...
+201410458980.X
+北京华大九天软件有限公司
+刘毅
+G06F 1/12
+Loading...
+随着超大规模集成电路的时钟系统结构日趋复杂，如何分析时钟树综合结果，提高时钟树综合质量，从而减少时钟传输延迟，提高系统性能成为了业界关注的焦点。本文定义了时钟树综合结果中的“瓶颈路径”，通过比较、筛选找到此类瓶颈路径，借助图形化方法显示其时钟结构和单元物理位置分布，设计者可以清楚地理解瓶颈路径形成的原因，并且可以通过调整瓶颈路径上的单元物理布局位置，或者优化时钟结构的方法来重新进行时钟树综合，降低瓶颈路径上的时钟传输延迟。这种方法应用在复杂时钟树结构的设计当中，可以快速地定位限制时钟树综合质量的问题所在，并提供行之有效的解决方案。
+28. 105357223 基于即时通信协议的三维协同会议系统及其实现方法
+CN
+24.02.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510896944.6
+山东山大华天软件有限公司
+梅敬成
+H04L 29/06
+Loading...
+本发明公开了一种基于即时通信协议的三维协同会议系统及其实现方法，包括服务器端和客户端，客户端和服务器端通过网络进行信息交互，所述服务器端包括多个虚拟会议室，客户端选择并请求进入任意虚拟会议室，获取服务器端生成的虚拟会议室的ID和会议密码，向其他客户端发出会议邀请，其他客户端接受会议邀请，将加密信息上传至服务器端，服务器端对加密信息进行分析判断，如果接受会议邀请的客户端发来的加密信息有效，则确认其加入虚拟会议室，服务器端对处于不同区域或不同操作系统的客户端，进行三维协同操作以及音频数据的共享，与虚拟会议室进行信息上传或下载，分布在不同地点的、属于不同企业或部门人员能够不受地域、时间、设备的限制。
+29. 105354396 一种不同软件协同建模的几何比对方法
+CN
+24.02.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510890496.9
+山东山大华天软件有限公司
+梅敬成
+G06F 17/50
+Loading...
+本发明公开了一种不同软件协同建模的几何比对方法，包括以下步骤：读取两个三维模型的几何拓扑信息；每个模型的几何拓扑信息中包括三维模型中所有几何面信息，通过等步长的面上采点法获取每个几何面的点云数据，从而分别构成两个模型的点云数据；通过主元分析法将两个模型的姿态对齐，对齐处理包括平移、旋转，不包括缩放；在模型点云姿态对齐后，通过点到点的最近点迭代法对两个三维模型点云进行精确配准；精确配准后，记录两个三维模型点云中不匹配的点，并将不匹配的点作为差异显示出来。本发明采用两个模型自动比对，避免了人工比对存在遗漏的问题，模型比对识别度稿，将不匹配的点作为差异显示出来，模型比对精确性更高。
+30. 105335586 用于换热器设计中建立自动布管模型的方法
+CN
+17.02.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201510890389.6
+山东山大华天软件有限公司
+张道忠
+G06F 17/50
+Loading...
+本发明公开了用于换热器设计中建立自动布管模型的方法，根据获得的换热器基本数据确定得出布管所需参数，计算出换热器中心到隔板槽的垂直距离；根据网格是否连续，计算隔板槽位置；搭建初步布管模型，根据不同的换热管排列形式，抽象出对应的数学模型，根据选择的分程布置形式特点，在管程所覆盖的象限中按照抽象出的数据模型进行管子排列；初步布管模型自动校核调整，获取最优结构，输出建立的最优通用自动布管的模型。本发明方法操作简单、算法简便、通用性强，基于数值分析与几何图形相结合的方法搭建出来低管程到高管程的通用自动布管模型，并进行无限拟合优化，大大提高了布管准确率。
+31. 105320795 一种集成电路版图图形自动捕捉方法
+CN
+10.02.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410377125.6
+北京华大九天软件有限公司
+刘磊
+G06F 17/50
+Loading...
+本发明公开一种集成电路版图图形自动捕捉方法，使光标位置自动捕捉到图形的顶点、中心点、中心线、边线、边线中点等重要特征位置上。本发明根据鼠标位置，在鼠标周围一个小矩形内遍历图形，识别并捕捉到图形的顶点、中心点、中心线、边线、边线中点等重要特征位置。这种自动捕捉的功能，能大大提高命令执行速度，减少大量的zoomIn/zoomOut操作，提高绘制版图的效率。
+32. 105320783 一种集成电路设计工具中基于二维SVG矢量图形的三维矢量对象表达方法
+CN
+10.02.2016
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201410309029.8
+北京华大九天软件有限公司
+于士涛
+G06F 17/50
+Loading...
+一种集成电路设计工具中基于二维SVG矢量图形的三维矢量对象表达方法属于半导体集成电路设计自动化领域，主要涉及集成电路相关三维对象的描述与显示。半导体行业用户越来越期望在版图设计工具中观察到直观的三维视图，事实上该行业的工具软件运行环境受限，只有通用的二维窗口绘图接口，几乎没有三维引擎支持。本发明基于纯二维的SVG图形格式标准，解决了三维对象从建模到显示的一系列问题，提出了完整可行的解决方案。
+33. 105094723 一种在波形显示器中快速渲染大型模拟波形的方法
+CN
+25.11.2015
+G06F 3/14 Loading...
+G06F 3/14
+Loading...
+201410198682.1
+北京华大九天软件有限公司
+郭根华
+G06F 3/14
+Loading...
+随着集成电路规模的急剧增加，电路仿真所产生的波形文件也越来越大，一个信号的点数很容易达到千万级别甚至更多，这给波形显示器的渲染显示提出了更高的要求。因此，对原始波形进行扫描和数学分析，提取能够代表波形特征的特殊点，然后进行过滤和转换，得到点数较少的新波形。该方法可以大大提高渲染的速度，同时保证转换后的波形形状与原始波形一致，这对于快速查看和测量波形，以便验证仿真结果具有重要意义。本发明基于一种高效的波形过滤方法，提出了用于快速渲染显示大型模拟波形的解决方案。在实际工程应用中，此方法可以加快波形的显示速度，极大地提高了仿真结果验证的效率。
+34. 105069501 一种金属工具超高频RFID标签的安装方法
+CN
+18.11.2015
+G06K 19/077 Loading...
+G06K 19/077
+Loading...
+201510447717.5
+广州华微明天软件技术有限公司
+李静
+G06K 19/077
+Loading...
+本发明提供了一种金属工具超高频RFID标签的安装方法，其特征在于，包括以下步骤：S100：采用砂纸或打磨工具清理好工具的表面，确保工具的表面无异物或锈蚀；S200：将RFID标签的背面紧贴于工具的表面，采用电工胶布将RFID标签缠绕固定；S300：采用热塑管套设于RFID标签的表面，确保使热塑管完全覆盖住RFID标签，然后采用热风枪对热塑管均匀加热，使热塑管受热收缩，将RFID标签紧密包裹固定在工具的表面。本发明能够实现RFID标签的牢固安装。
+35. 103856503 Processing method of file data of NAS cluster system and NAS cluster system
+CN
+11.06.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210501184.0
+北京华胜天成科技股份有限公司
+高杰
+H04L 29/08
+Loading...
+The invention discloses a processing method of file data of an NAS cluster system and an NAS cluster system. The method comprises the following steps that: before a client needs to execute file establishment, corresponding storage devices are determined by using an HASH algorithm; storage information of a plurality of storage devices corresponding to the client is analyzed; and on the condition that the file storage space demand is determined to be satisfied, files are established at corresponding storage devices in a priority storage device order of local storage devices corresponding to the client, the corresponding storage devices determined by file HASH values, and storage devices in a cluster storage device list. On the basis of the storage device selection strategy, because the local storage way is used whenever possible, occupation of network resources during reading and writing can be avoided; and file searching can be carried out conveniently. According to the invention, with the processing method and the NAS cluster system, the data flow based on network transmission is reduced, the network load is reduced, and the I/O processing efficiency of the NAS cluster system is improved.
+36. 103678742 Efficient debugging method for connection errors of integrated circuit layout
+CN
+26.03.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210344330.3
+BEIJING HUADA EMPYREAN SOFTWARE CO., LTD.
+DAI WENHUA
+G06F 17/50
+Loading...
+The invention discloses an efficient debugging method for the connection errors of an integrated circuit layout, which belongs to the field of automation of semiconductor integrated circuit design. The efficient debugging method is mainly used for performing interface debugging on the error results of layout versus schematic checking during a back-end layout design. The invention provides an efficient and intuitive LVS graphical debugging method, wherein back-end layout design personnel can be helped to reduce the frequency of iterative analysis during LVS error analysis by converting usual LVS error text information to a logic circuit diagram with a clear structure and a simple layout, and providing a debugging which is easier to use and more effective, thus increasing the error analysis efficiency, and then reducing the design cost of the layout.
+37. 103678583 Method and system for comparing structural data
+CN
+26.03.2014
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201310676018.9
+BEIJING TEAMSUN TECHNOLOGY CO., LTD.
+JIANG JIANYUN
+G06F 17/30
+Loading...
+The invention discloses a method and system for comparing structural data. The method for comparing the structural data comprises the following steps that the sequencing Hash distribution algorithm is adopted, line Hash values of data lines of databases are used as node values, the Hash value of a line keyword of each data line is used as a keyword of each node, and a standard sequencing Hash table of a standard database and a comparison sequencing Hash table of a comparison database are established respectively; the keywords of the nodes with data and the node values in the standard sequencing Hash table are connected into standard characters, the keywords of the nodes with data and the node values in the comparison sequencing Hash table are connected into comparison characters, and the standard Hash value of each standard character and the comparison Hash value of each comparison character are worked out; whether each standard Hash value is identical to the corresponding comparison Hash value or not is judged; if yes, the data in the standard database are identical to the data in the comparison database; if not, the data in the standard database are different from the data in the comparison database. By the adoption of the method and system for comparing the structural data, sorting work through a database server is not needed, the calculation pressure of the database server is reduced, the resource occupancy rate is low, efficiency is high, and the risk of breakdown of the server is avoided.
+38. 103678741 Graph optimization method for short-circuit path in integrated circuit layout verification
+CN
+26.03.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210344329.0
+BEIJING HUADA EMPYREAN SOFTWARE CO., LTD.
+DING FENGQING
+G06F 17/50
+Loading...
+The invention discloses a graph optimization method for a short-circuit path in integrated circuit layout verification, which belongs to the technical field of integrated circuit computer-aided design, and particularly relates to the field of design rule checking (DRC) and layout versus schematic checking (LVS) for an integrated circuit layout. The graph optimization method disclosed by the invention refers to the following three key steps: step one, splitting graphs, specifically, splitting complex graphs into simple trapezoids or triangles by means of a scanning line method; step two, abstracting a problem to a path finding problem for an undirected graph, finding a path with the fewest graphs from a source point to an end point by virtue of breadth-first traversal; and step three, combining the trapezoids or triangles obtained by splitting the same graph by virtue of the characteristics of the split graphs. The presentation of the short-circuit path in a layout can be effectively optimized to be more intuitive and simpler by utilizing the method in the integrated circuit layout verification, thus facilitating design personnel to rapidly locate a short-circuit position.
+39. 103617039 Method and device for accessing user space file system
+CN
+05.03.2014
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310625947.7
+BEIJING TEAMSUN TECHNOLOGY CO., LTD.
+ZHAO QIAN
+G06F 9/44
+Loading...
+The invention provides a method and device for accessing a user space file system. The method includes the steps of intercepting an accessing command, used for accessing a file system, of an application program through a dynamic depot, if it is recognized that the accessed file system is the user space file system through the dynamic depot according to contents of the accessing command, calling an application programming interface of the user space file system, and accessing the user space file system. Correspondingly, the dynamic depot comprises a command intercepting module, an interface calling module and the like. According to the method for accessing the user space file system and the dynamic depot, the method for accessing the user space file system in the user state in the whole process is achieved, and the accessing efficiency to the user space file system is improved.
+40. 103425804 Method for graphically displaying structure of clock system
+CN
+04.12.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210149903.7
+北京华大九天软件有限公司
+刘毅
+G06F 17/50
+Loading...
+The invention provides a method for graphically displaying the structure of a clock system. The way for clearly displaying the structures of clocks and mutual relations of the clocks becomes the focus of attention in the industry along with increase of the complexity of the structures of clock systems of large-scale integrated circuits. The method is characterized in that the integral structure of the clock system is displayed in a graphical window; a menu zone brings convenience for executing various operations; inheritance relations among clocks are represented by a tree-shaped structure in a clock list zone; time sequence information and logical levels are indicated in a scale zone; connection relations of units are displayed in a clock structure zone, the feature units and feature attributes are highlighted by the aid of symbols, and an effect of highlighting check results and keyword-based query results by different colors is supported. The method has the advantages that a process for abstracting a clock Sink module, a clock Gating module and an Excluded module is summarized in order to filtering secondary information in the clock system and effectively highlighting structural characteristics of the clocks, and accordingly contents displayed on the main window are greatly simplified.
+41. 103399787 Map Reduce task streaming scheduling method and scheduling system based on Hadoop cloud computing platform
+CN
+20.11.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201310339780.8
+北京华胜天成科技股份有限公司
+李成金
+G06F 9/46
+Loading...
+The invention discloses a Map Reduce task streaming scheduling method and a scheduling system based on a Hadoop cloud computing platform. The method comprises the step of converging and storing source data to the Hadoop cloud computing platform in real time, the step of assigning a corresponding strategy for launching the task, for example, the launching is carried out in a timing and punctual mode or the data in the corresponding time frame of granularities are completely converged, the step of assigning corresponding starting scripts and starting systems to a single-step task and a multi-step task and controlling the operation of the task efficiently and intelligently through a procedure, and the step of controlling the tasks to be finished fast in a step-by-step mode through the 'flow' thought. By means of the device and method, independent strategies can be assigned to the tasks of the granularities, the tasks of different granularities are controlled, and the safety of the tasks is guaranteed according to different strategies.
+42. 103336709 一种在集群中实现虚拟化分布式统一管理的方法及系统
+CN
+02.10.2013
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+201310215736.6
+北京华胜天成科技股份有限公司
+刘兴辉
+G06F 9/455
+Loading...
+本发明公开了一种在集群中实现虚拟化分布式统一管理的方法及系统，包括以下步骤：S1，管理端添加物理主机；S2，用户在管理端操作下达一个任务；S3，任务调度模块对所述任务进行分解，并对分解后的任务进行调度，将任务的具体步骤和内容下达到具体的物理主机执行；S4，物理主机执行分解后的具体任务，并将任务执行的成功或失败结果反馈给任务调度模块，如果任务调度模块长时间没有收到任务执行结果的状态，则任务超时失败；S5，任务调度模块将任务执行结果记录到数据库，同时展现到管理端，用户可以看到任务执行结果；如果任务执行成功，管理端显示任务执行后的结果，用户可以继续操作下达其他任务。本发明通过上述方式，可方便高效管理整个集群下所有的物理主机及虚拟机。
+43. 103279385 一种云计算环境中集群任务调度方法及系统
+CN
+04.09.2013
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201310215619.X
+北京华胜天成科技股份有限公司
+刘兴辉
+G06F 9/48
+Loading...
+本发明公开了一种云计算环境中集群任务调度方法及系统，所述方法包括以下步骤：S1、用户在管理端操作，利用控制器模块操作进行一个或多个集群任务，任务全部被加入到任务池模块中；S2、任务分类解析模块对任务池模块里的任务进行分类和分解；S3、控制器模块将分解后的任务加入任务队列模块；S4、资源调度模块从任务队列模块取出任务进行资源调度，将任务调度到指定节点执行；S5、目标节点执行分解后的任务，将执行结果反馈给控制器模块。通过本发明，可实现高效地任务调度，保障集群系统的可靠运行。
+44. 203104494 用于IT系统的分布式运维监控系统
+CN
+31.07.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201220698449.6
+北京华胜天成科技股份有限公司
+陈海富
+H04L 12/24
+Loading...
+一种用于IT系统的分布式运维监控系统，其特征在于所述系统包括：至少一个监控前端，其安装在位于需要监控的IT系统所在的企业局域网中的一台服务器中，用于采集被监控的IT系统的运行情况；至少一个监控客户端，安装在位于需要监控的IT系统所在的企业局域网中的一台服务器中，用于管理所述监控前端，具有自身的数据存储能力，提供B/S或C/S方式浏览所述监控前端采集到的运行信息；数据汇总端，其位于互联网或企业内部局域网中，用于接收所述至少一个监控客户端上传的数据和提供下载监控配置数据功能；数据展现端，其位于互联网或企业内部网中，为用户通过C/S或B/S方式展现与数据汇总端所汇总的数据，为企业提供统一管理平台。
+45. 103186690 一种集成电路版图验证中短路路径的识别方法
+CN
+03.07.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110461306.3
+北京华大九天软件有限公司
+王志明
+G06F 17/50
+Loading...
+本发明是一种使用于集成电路版图验证中短路路径的识别方法，所属的技术领域是集成电路计算机辅助设计领域，尤其是涉及集成电路版图的设计规则检查(DRC)和版图与原理图的一致性检查(LVS)领域。本发明的目的在于：提出了一种快速查找版图数据库中短路路径的方法。通过抽象表示，将查找版图数据库中的短路路径问题转化为无向图中指定顶点之间的最短路径的问题，根据无向图的连通特性，将解空间划分为多个相互独立子空间，从而降低问题求解的算法复杂度；同时，本方法根据集成电路设计中数据量大、连接关系复杂的特点，采用了多点出发的广度优先最短路径搜索算法，相对与普通搜索算法，所需的存储空间更小，运行效率更高。
+46. 103164560 Data reusing method of very large scale integrated circuit layout comparing tool
+CN
+19.06.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110427520.7
+北京华大九天软件有限公司
+于士涛
+G06F 17/50
+Loading...
+The invention discloses a data reusing method of a very large scale integrated circuit layout comparing tool, and belongs to the field of semiconductor integrated circuit design automation. The data reusing method is mainly used for providing data support to solve a scheme aiming at the comparing operation of differences of a very large scale rear end layout. Aiming at solving the problems that memory consumption is very large, exchange often happens between internal storage and an externer speicher in the process of the comparing operation of the very large scale integrated circuit layout and the problems that the time is consumed and the comparing operation of the layout cannot be solved finally, the invention provides a brand new and high-efficient data support method. According to the method, a data reusing technology is adopted to achieve delayering of a layer layout. Compared with a traditional layout delayering method, internal storage occupation is obviously reduced, the exchange between the internal storage and the externer speicher is reduced or even completely avoided, processing efficiency is improved, and project solvability of the comparing operation of the layout is obviously enhanced.
+47. 202903904 一种能源使用效率检测仪及检测系统
+CN
+24.04.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201220425843.2
+北京华胜天成科技股份有限公司
+刘斌
+G01R 31/00
+Loading...
+本实用新型公开了一种能源使用效率检测仪及检测系统，涉及检测技术领域，以解决现有技术存在的能源效率检测周期长、成本高和局限性大的问题。该能源使用效率检测仪包括：采集被检测设备的能源使用数据的采集模块、配置该能源使用效率检测仪的检测参数以及显示获得的被检测设备的能源使用数据的交互模块、根据预先配置的检测参数对接收的能源使用数据进行计算的主控模块、以及存储数据和预置的多种能源使用效率计算策略对应的指令的存储模块，所述主控模块分别与交互模块、采集模块和存储模块连接。
+48. 103034742 一种快捷生成器件的方法
+CN
+10.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110291412.1
+北京华大九天软件有限公司
+李京
+G06F 17/50
+Loading...
+EDA编辑工具一般包括Layout编辑器，Schematic编辑器和Symbol编辑器。在IC设计过程中，经常使用这些预先设计好的单元进行实例化，比如在版图编辑过程中，调用一个单元标准单元在当前编辑单元中创建一个实例，在实例化过程中，需要指定Library，Cell，View以及实例化当前单元的参数信息，由于生成器件实例数量多，且频繁使用的被调用单元只是少数几个常见器件。而创建Instance的过程中经常在不同单元中交替进行。在这个过程中需要反复指定Library，Cell，View以及参数等信息，存在大量繁琐的重复体力劳动。因此在这里我们提出了一种方法：快捷生成器件的方法，即把常用器件生成对应快捷器件图标的方式可以有效地提高常用器件的调用效率，可以大大提高版图设计、原理图设计的效率，进而可以提高设计者的工作效率。
+49. 103034740 一种原理图驱动版图的生成层次版图方法
+CN
+10.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110291398.5
+北京华大九天软件有限公司
+谢光益
+G06F 17/50
+Loading...
+原理图驱动版图的生成层次版图方法是一种批量自动生成层次版图的操作。一个完整的原理图设计层次结异常复杂，通常需要用户手动产生所有的单元，以及单元调用关系，因此我们提出一种批量自动生成层次版图方法。在原理图驱动版图的自动生成层次版图方法中，实现的主要技术有：采用深度遍历算法从顶至下提取所有的原理图单元，及调用关系，并从底向上产生对应版图数据；根据原理图单元与版图单元的映射机制获得版图单元数据，并创建相应的调用关系；提供缺省的原理图到版图映射，以及模块级映射机制；支持不同逻辑门电路影射到同一版图单元的机制。使得版图设计可以直接基于门电路或子模块进行设计实现，有效地提高设计重用性，进而提高设计效率。
+50. 103034741 一种集成电路可变参数单元实现方法
+CN
+10.04.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110291399.X
+北京华大九天软件有限公司
+李志雄
+G06F 17/50
+Loading...
+本发明公开了一种使用Tcl实现集成电路可变参数单元的方法。该方法允许在脚本文件内编程实现集成电路可变参数单元所包含的版图图形。该脚本文件基于Tcl脚本语言。依照本发明，该Tcl脚本文件定义了可变参数单元的参数，以及根据参数的值计算要生成的版图图形的规格熟悉；本发明还进一步包括EDA工具执行Tcl脚本并生成版图图形的方法。
+51. 103001806 用于IT系统的分布式运维监控系统
+CN
+27.03.2013
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201210548074.X
+北京华胜天成科技股份有限公司
+陈海富
+H04L 12/24
+Loading...
+一种用于IT系统的分布式运维监控系统，其特征在于所述系统包括：至少一个监控前端，其安装在位于需要监控的IT系统所在的企业局域网中的一台服务器中，用于采集被监控的IT系统的运行情况；至少一个监控客户端，安装在位于需要监控的IT系统所在的企业局域网中的一台服务器中，用于管理所述监控前端，具有自身的数据存储能力，提供B/S或C/S方式浏览所述监控前端采集到的运行信息；数据汇总端，其位于互联网或企业内部局域网中，用于接收所述至少一个监控客户端上传的数据和提供下载监控配置数据功能；数据展现端，其位于互联网或企业内部网中，为用户通过C/S或B/S方式展现与数据汇总端所汇总的数据，为企业提供统一管理平台。
+52. 102956020 基于数据挖掘技术的银行私人业务信息系统
+CN
+06.03.2013
+G06Q 40/06 Loading...
+G06Q 40/06
+Loading...
+201110237861.8
+大连华天软件有限公司
+胡剑锋
+G06Q 40/06
+Loading...
+本发明公开了一种基于数据挖掘技术的银行私人业务信息系统具有如下步骤：客户端按多维特征对客户进行分类存入相应的数据仓库；所述数据仓库接收客户端发送的信息，按多维特征对客户进行整体赢利性分析和单一赢利性分析，以确定向合适的客户提供合适的产品并赢得合适的利润；所述数据仓库主要由数据仓库、仓库管理和分析工具三部分组成，通过抽取，转换，装载，变成有意义的信息和主题；所述数据仓库具有趋势线动态改变系统行为。采用OSGi技术实现了真正的组件化开发和动态部署，更具拓展性和安全性，应用数据仓库和数据挖掘技术使系统更具有明显的竞争优势。
+53. 102890730 Validation method of rectangular containing rule in layout verification of integrated circuit
+CN
+23.01.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110202790.8
+清华大学
+于士涛
+G06F 17/50
+Loading...
+The invention discloses a validation method of a rectangular containing rule in layout verification of an integrated circuit (hereafter referred to as validation method), belongs to the technical field of integrated circuit computer aided design, and particularly relates to the field of design rule check (DRC) of the integrated circuit layout and consistency check (LVS) of layout and a schematic diagram. The invention proposes a concept of a 'paired edge interval'; firstly, a pattern is divided into a plurality of paired edge intervals; the position range of a pattern including a rectangle is limited by the paired edge intervals, then the position relation of the paired edge intervals is utilized to continuously update and adjust the position range of the rectangles containing in the existing paired edge intervals, if a paired edge interval meeting the rectangular containing rule is found, then the pattern meets the rectangular containing rule. The method is utilized in the layout verification of the integrated circuit; the efficiency of validating the rectangular containing rule can be greatly improved, and the scale of the validated version can be expanded.
+54. 202261262 一种车载无线终端设备
+CN
+30.05.2012
+H04B 1/38 Loading...
+H04B 1/38
+Loading...
+201120359996.7
+烟台华东电子软件技术有限公司
+曲光辉
+H04B 1/38
+Loading...
+本实用新型公开了一种车载无线终端设备，它包括机身（6），其特点是在机身（6）内设主板（4）和双向无线电台（5），主板（4）通过线路与双向无线电台（5）双向连接，在机身（6）上设前框（1），在前框（1）上设真空荧光显示屏（2）和按键（3）；在机身（6）的顶部设天线（8）、数据线（10）、电源线（7），天线（8）与双向无线电台（5）连接，数据线（10）、电源线（7）与主板（4）连接，主板（4）通过线路分别与真空荧光显示屏（2）和按键（3）连接；具有稳定性好、覆盖范围广、可靠性高的特点，其设计结构简单，有很好的抗震、防尘、防水性能，适合港口码头等环境恶劣场合使用。
+55. 102411642 一种集成电路门电路识别方法
+CN
+11.04.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010291051.6
+北京华大九天软件有限公司
+李志梁
+G06F 17/50
+Loading...
+本发明公开了一种集成电路门电路识别方法，属于半导体集成电路设计自动化领域，主要用于后端版图设计时的版图与原理图一致性检查(LVS-Layout Versus Schematic)。在超大规模乃至甚大规模集成电路设计中，版图规模急剧膨胀，识别门电路可以降低LVS的数据处理规模，从而提高效率，有效缩短版图设计的迭代周期。本发明从电路网表中识别串联结构(SERIES-STRUCTURE)、上拉结构(PULL-UP-STRUCTURE)和下拉结构(PULL-DOWN-STRUCTURE)、与非门(NAND)和或非门(NOR)、反相器(INV)。
+56. 102411643 集成电路版图验证自适应扫描线计算方法
+CN
+11.04.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010291055.4
+北京华大九天软件有限公司
+宋德强
+G06F 17/50
+Loading...
+本发明公布了一种集成电路版图验证自适应扫描线解决方案(以下简称自适应方案)，所属的技术领域是集成电路计算机辅助设计领域，尤其是涉及集成电路版图的设计规则检查(DRC)和版图与原理图的一致性检查(LVS)领域。本发明创造性地提出了归并扫描线方法和索引扫描线方法，并将这两种方法相结合生成自适应扫描线解决方案，用于解决甚大规模集成电路版图验证过程中所面临的运行时间过长，验证效率低，进而导致版图无法验证的问题。自适应方案有效地利用了版图数据局部特征，极好地发挥了归并扫描线方法与索引扫描线方法的特征优势，极大地提高了版图验证效率。
+57. 102402630 一种层次版图验证中单元间图形连接关系的识别方法
+CN
+04.04.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010279383.2
+北京华大九天软件有限公司
+马海南
+G06F 17/50
+Loading...
+一种层次版图验证中单元间图形连接关系的识别方法属于半导体集成电路设计自动化领域，主要针对层次版图验证中两个单元的图形之间的连接关系的识别操作，提供了一种高效的解决方案。半导体集成电路设计版图的单元中的绝大部分数据都是与坐标轴正交的矩形单元，传统方法是把单元中的多边形转化为边，然后采用基于边的扫描线方法来实现图形单元之间的连接关系识别，数据量翻倍且效率低下，本发明针对这一问题，提出了以矩形为单位的扫描线方法，大大减少处理数据单元数量，显著提高运行效率。
+58. 102402631 一种集成电路层次网表比较方法
+CN
+04.04.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010279396.X
+北京华大九天软件有限公司
+李桢荣
+G06F 17/50
+Loading...
+本发明公开了一种集成电路层次网表比较方法，属于半导体集成电路设计自动化领域，主要用于后端版图设计时的版图与原理图一致性检查(Layout versus Schematic)。本发明通过传递端口(PORT)和引脚(PIN)的匹配信息来完成各个层次单元的比较，减少后端版图设计的迭代周期。其实现过程为：对层次网表经过层次预处理后，先按照逆拓扑序依次比较各个层次单元，比较过程中不能完全匹配的层次单元则追加到挂起队列尾部；然后循环采用拓扑序进行归纳和逆拓扑序进行广播方法处理挂起队列中的层次单元，并且当归纳方法对所有挂起单元都失败时采用层次任意匹配法，如此反复直到挂起队列为空。
+59. 102314530 一种交互式层次短路跟踪及动态调试方法
+CN
+11.01.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010223035.3
+北京华大九天软件有限公司
+谢光益
+G06F 17/50
+Loading...
+Trace short是在版图设计中提供交互式短路跟踪的一种操作，用户根据确定的两根线网，在两根线网中分别选择一个图形，查找所有与之相连的图形，同时显示两个线网中一条最短路径。由于线网错综复杂，引起线网短路的关键点难以识别，故此提出动态调试方法进行关键点定位。在动态调试阶段提供试探法查找当前短路关键点图形，虚拟删除版图中图形，及把虚拟删除的图形虚拟置回到原始版图等方法。通过这种反复的虚拟删除与虚拟置回操作，即可准确定位到引起当前短路的关键点，进而执行本功能提供的break操作把引起短路的关键点图形从版图中实际删除出去。通过上述无缝衔接的操作可以有效地提高Trace short的效率。
+60. 102314531 集成电路版图自动构造层次方法
+CN
+11.01.2012
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010223044.2
+北京华大九天软件有限公司
+王国庆
+G06F 17/50
+Loading...
+集成电路版图自动构造层次方法，所属的技术领域是集成电路计算机辅助设计领域，尤其是涉及集成电路版图的设计规则检查(DRC)和版图与原理图的一致性检查(LVS)领域。主要应用于设计规则检查工具、版图与原理图的一致性检查工具等。本发明的目的在于提供一种集成电路版图自动构造层次的方法，能够自动识别集成电路版图中重复出现的组合，并基于这些组合模式构造可被重复调用的单元，使层次DRC/LVS工具对重复出现的单元只处理一次，可显著提高处理效率，并减少计算机内存使用。其实现过程主要包括：将集成电路版图空间划分为大小不等的多级网格；并将几何图形或单元实例放入适当大小的网格中；在每个网格中以及相邻的网格之间找到所有相互连接的图形或单元实例组合；利用哈希表存储组合并查找重复出现的组合；将重复出现的组合构造成新的单元并重复调用这些新单元。
+61. 102142040 Method for rapidly displaying level territory
+CN
+03.08.2011
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010102886.2
+China Integrated Circuit Design Corp., Ltd.
+Su Yi
+G06F 17/50
+Loading...
+The invention relates to a method for rapidly displaying a level territory by utilizing texture mapping and level scattering. The levels of an ordinary level territory are expanded one by one when being displayed, the coordinate conversion is carried out on the graphs in precedents, and then the graphs are displayed. The invention has the result that the data which are originally not large are rapidly swelled after being expanded, thus the workload of data query and drawing is exponentially increased to reduce the display speed. In the method provided by the invention, the content of the precedents in the territory is displayed and stored into bitmap textures under the appropriate condition by utilizing the characteristics of data repeatability in the level territory, and the content is displayed by utilizing a mapping method. When selection bitmaps generate objects, the scattering operation on levels is carried out on the precedents so that the following content of all the levels in the bitmaps of the precedents is contained in the bitmaps; and thus, the data query does not need to enter the interior of the same precedents for multiple times, the effect of pruning on a level tree is reached and the content which needs to be queried is reduced, thereby enhancing the display speed.
+62. 102129492 Method for simulating device related noises in integrated circuit
+CN
+20.07.2011
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201110049106.7
+Huada Empyrean Software Co.,Ltd.
+Shang Yechun
+G06F 17/50
+Loading...
+The invention provides a noise analysis method for high-frequency circuit simulation. In the method, the influence of device noise source correlation on output noises under the condition of high frequency is taken into account. In the method, based on conventional noise analysis in which only an independent noise source is taken into account, a transmission function for the coupling of related noise sources is calculated to obtain a noise analysis result in the coupling of each related noise source, and the result is added into final output noise power spectrum density. The noise analysis method in which the noise source correlation is taken into account is an improvement in the conventional circuit noise analysis, and an additional related noise source sub-circuit model is not required to be established, so conciseness and short simulation time are ensured.
+63. 201838056 出入境自助登记一体机
+CN
+18.05.2011
+G07C 9/00 Loading...
+G07C 9/00
+Loading...
+201020621030.1
+天津奥赛软件技术有限公司
+游红疆
+G07C 9/00
+Loading...
+一种出入境自助登记一体机，机柜上有显示器、触摸屏、护照扫描仪、主机、打印机、扬声器、风扇和电源；开关键设于机柜背面，出纸口位于机柜正面中部，送纸口位于机柜背面中部。主机上设有两个232串口。优点是：护照扫描仪、电脑、打印机和显示器一体式的设计，使得护照扫描打印一体机具有护照扫描、识别、打印功能，不需单独配置、安装和连接相关设备，使用更方便；减少了外部连接点，更加方便移动和安装；一键式开关机，提高了使用过程中的操作效率。大大降低出入境登记卡人工录入工作量，数据准确度提高至99.9％。
+64. 102054073 Data support method for large-scale integrated circuit layout
+CN
+11.05.2011
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200910210674.3
+Huada Empyrean Software Co., Ltd.
+Yu Shitao
+G06F 17/50
+Loading...
+The invention relates to a data support method for large-scale integrated circuit layout, and belongs to the field of the design automation of semiconductor integrated circuits. Aiming at operation such as design, verification and the like of large-scale rear-end layout, a data support scheme is provided. In the method, for solving the problem that the layout processing cannot be solved finally and the like due to the aggravation of time burden caused by insufficient in memory addresses and low effective utilization rate of memory space in the layout processing process of a large-scale integrated circuit, the comprehensive and effective data support method is provided. In the method, a bounded and comparable data compression method and a global virtual disk file method are adopted, the solution of the data support is realized from two points of view, namely a data using mode and a memory extension mode; meanwhile, the space and time efficiency of layout processing tools are improved, and the solvability of the layout processing is enhanced obviously.
+65. 201812167 模拟量输出电路
+CN
+27.04.2011
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201020209813.9
+天台县源华软件技术有限公司
+陈军方
+G05B 19/042
+Loading...
+本实用新型公开了一种模拟量输出电路，它包括串联连接的光电耦合器、单片机、滤波电路，单片机输出的PWM信号经过滤波电路输出后分别送入电压输出电路和电流输出电路的运算放大器，辅助电源电路包括由第一三极管和基准电压芯片构成的串联稳压电路和硅二极管，串联稳压电路的负电压输出端与硅二极管的正极相连，所述串联稳压电路为单片机和光电耦合器提供+5V稳定电源，硅二极管阴极与电压输出电路和电流输出电路的运算放大器负电源端相连。本实用新型不仅可输出高精度正负电源的电路，降低产品隔离电源成本，还进一步实现了零点线性输出。
+66. 101968896 System and method for designing and processing characters for tire mold in three-dimensional CAD/CAM environment
+CN
+09.02.2011
+G06T 19/00 Loading...
+G06T 19/00
+Loading...
+201010512829.1
+Shandong Hoteam Software Co., Ltd.
+Yang Chaoying
+G06T 19/00
+Loading...
+The invention relates to a system and a method for designing and processing characters for a tire mold in a three-dimensional CAD/CAM environment. The system mainly comprises a character design module, an NC data generation module and an NC device, wherein the character design module is connected with the NC data generation module through a three-dimensional CAD/CAM system; and the NC data generation module is connected with the NC device; the character design module is used for designing and editing characters in the three-dimensional CAD/CAM environment and extracting character outlines for display; the NC data generation module is used for generating a cutting track according to the character outlines and further generating an NC program according to the condition of a machine tool; the NC device is used for controlling processing actions of the machine tool to process the characters according to the NC program; and the three-dimensional CAD/CAM system is an operating platform of a character designing and processing system for the tire mold, and connects the character design module with the NC data generation module through CAD/CAM-identified line elements.
+67. 101901288 Method for eliminating internal nodes of metal-oxide-semiconductor field effect transistor (MOSFET) used in rapid circuit simulation
+CN
+01.12.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010231861.2
+Beijing Huadajiutian Software Co., Ltd.
+Shang Yechun
+G06F 17/50
+Loading...
+The invention provides a method for eliminating internal nodes of a metal-oxide-semiconductor field effect transistor (MOSFET) used in rapid circuit simulation. The method comprises the following steps of: making a 4-node MOSFET model which does not comprise any internal node equivalent to a 6-node MOSFET model which comprises internal nodes in a circuit simulation process; solving the voltages of two internal nodes of the MOSFET by an analytic method; calculating the change of an internal node voltage along with an external node voltage; and finally obtaining a transient conductance relation among external nodes of all apparatuses used in matrix calculation. The method has the advantages of ensuring circuit simulation accuracy by considering the effect of MOSFET parasitic resistance on an electrical property, eliminating the internal nodes of the MOSFET, reducing a circuit solving matrix, reducing matrix solving time and increasing circuit simulation speed.
+68. 101859117 Analogue quantity output circuit
+CN
+13.10.2010
+G05B 19/042 Loading...
+G05B 19/042
+Loading...
+201010187647.1
+Tiantai Yuanhua Software Technology Co., Ltd.
+Chen Junfang
+G05B 19/042
+Loading...
+The invention discloses an analogue quantity output circuit, comprising a photoelectric coupler, a singlechip and a filter circuit which are connected in series. PWN signals output by the singlechip are respectively transmitted to the operational amplifiers of a voltage output circuit and a current output circuit after being output by the filter circuit; an assistant power circuit comprises a serial voltage stabilizing circuit composed of a first triode and a reference voltage chip and a silicon diode; the negative voltage output end of the serial voltage stabilizing circuit is connected with the positive pole of the silicon diode; the serial voltage stabilizing circuit provides a +5V stable power supply for the singlechip and the photoelectric coupler; and the negative pole of the silicon diode and the negative power supply ends of the operational amplifiers of the voltage output circuit and the current output circuit are connected. The invention can output high-precision positive-negative power supply circuits, lower cost for isolated power and further realizes zero point linear output.
+69. 101853322 Check method for model calculation in circuit simulation
+CN
+06.10.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201010200001.2
+Beijing Jiutian Digital Technology Co., Ltd.
+Shang Yechun
+G06F 17/50
+Loading...
+The invention provides a check method of model calculation in circuit simulation, belonging to the field of electron design automation. The method comprises the following steps of: scanning node voltage of a single transistor; respectively calculating the relationship of various parameters in a device model and scanning voltage; and investigating an analyzing derivative and a numerical derivative of the parameter. By checking the change continuousness of the parameters along with the scanning voltage and the consistency of the analyzing derivative and the numerical derivative, the problems in the model calculation can be found and corrected, thereby ensuring the continuousness, the smoothness and no singular point in the relationship of the parameters and various bias voltages and ensuring the accurate calculation of various parameters on the derivatives of the voltages. The method can be used for improving the performances of a circuit simulator and can also be used for checking the non-convergence phenomenon appearing in the circuit simulation.
+70. 101770530 Method for extracting conductance matrix by utilizing automatic differentiation in simulation of integrated circuit
+CN
+07.07.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810240846.7
+Beijing Jiutian Digital Technology Co., Ltd.
+Liu Qiang
+G06F 17/50
+Loading...
+The invention belongs to the field of the auxiliary design of an integrated circuit computer. The extraction of a conductance matrix is an important step of the numerical simulation of an integrated circuit, and a nonlinear equation conforming to the input/output relationship of the circuit and a Jacobi matrix thereof can be constructed for resolution only by correctly calculating the conductance of each branch in the circuit so as to obtain a correct numerical simulation result. The invention provides a novel method for extracting the conductance matrix.
+71. 101770532 Method for improving circuit emulator convergence
+CN
+07.07.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810241099.9
+Beijing Jiutian Digital Technology Co., Ltd.
+Liu Qiang
+G06F 17/50
+Loading...
+The invention belongs to the integrated circuit CAD field. The semiconductor devices such as the dioxide and the MOS tube are the basic devices for transistor-level circuit emulation; the exponential function relation exists in the current and voltage of almost all semiconductor device models. The exponential function is a function with high increment speed; the situation that the function value is overlarge and even overflow often occurs in the Newton iteration process, resulting in that the iteration process is difficult to be converged; in Verilog-A, the problem can be avoided by limexp. The invention provides a novel method for limiting the increment of the exponential function and improving the semiconductor device emulation convergence.
+72. 101770654 Method for realizing two-dimensional Cartoon drawing in layout editing under XWindow system
+CN
+07.07.2010
+G06T 13/00 Loading...
+G06T 13/00
+Loading...
+200810240848.6
+Beijing Jiutian Digital Technology Co., Ltd.
+Li Xuefeng
+G06T 13/00
+Loading...
+The invention relates to a method for realizing two-dimensional Cartoon drawing in a XWindow system. The two-dimensional Cartoon drawing is mainly used for a layout editing tool belonging to the field of integrated circuit aided design and especially used for the visual part of a user in an interactive editing process. The invention also provides a method for realizing the cartoon drawing of interactive layout editting in the XWindow system. The invention has instantaneity and hardware compatibility, can ensure the color consistency in a cartoon moving process under the condition without occupying color resources, records the drawing content by adopting a standby cache when drawing a picture and recovers a background picture according to the standby cache in a TILE mode when eliminating cartoons.
+73. 101770531 Method for improving circuit emulation run speed
+CN
+07.07.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810241097.X
+Beijing Jiutian Digital Technology Co., Ltd.
+Liu Qiang
+G06F 17/50
+Loading...
+The invention belongs to the integrated circuit CAD field. Newton iteration is a basic method for all circuit emulators to solve a system of nonlinear equations. In view of efficiency, various variables of Newton iteration are widely applied in reality, such as modified Newton iteration and damping Newton iteration, and to improve the efficiency of Newton iteration is also one of the key factors in emulator acceleration. Aiming at the step of computing Newton direction in the Newton iteration process, the invention provides a novel method for confirming intervals of LU decomposition times, improving the speed of computing Newton direction and optimizing the efficiency of computing Newton direction and Newton iteration.
+74. 101751494 Marginal projection optimization method based on reverse order tree scan line algorithm
+CN
+23.06.2010
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810227988.X
+Huada Empyrean Software Co., Ltd.
+Hou Jinsong
+G06F 17/50
+Loading...
+The invention belongs to the field of the computer aided design of an integrated circuit, in particular relates to the field of layout verification. In HDRC, the projection of layout data is an important operation, as the hierarchical relationship among graphics in an original layout is not strictly consistent and as the factors of a promotion policy, the margins of some lower layer units can be promoted to upper layer units to cause the dislocation of the hierarchical relationship. By projecting the promoted layer, the correction of the topological relationship among the graphics among continuous commands can be ensured. The invention provides an optimization method aiming at a projection algorithm. In the HDRC, the margin rather than a polygon is substantially processed in the projection. A new projection method based on above thought reduces computational complexity and solves the marginal layer projection problem in the HDRC.
+75. 101593220 Management method for very large scale integrated circuit layout data
+CN
+02.12.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810113116.0
+Beijing Jiutian Digital Technology Co., Ltd.
+Su Yi
+G06F 17/50
+Loading...
+The invention discloses a management method for very large scale integrated circuit layout data, in particular to a management method aiming at display and local data revision in layout cross compilation. The management method separates layers according to object sizes; on each layer, a space filling curve is used to calculate one value for each object to serve as a label; as to each layer, a B+tree is built on the basis of the label sequence of the objects on the layer, data is stored in data documents which take page layout as a unit; when an object assembly in a certain area needs to be acquired or revised, index documents are firstly read in, the B+tree is taken as the index, and corresponding data is input into a main memory to be processed, or corresponding data is rewritten out of documents after the data is revised; and specific cache is used for reading in and writing out the page layout.
+76. 101593222 Density checking method in territory verification
+CN
+02.12.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200810113123.0
+Beijing Jiutian Digital Technology Co., Ltd.
+Li Ning
+G06F 17/50
+Loading...
+The invention relates to a quick density checking method in territory verification, belonging to the field of territory verification in IC CAD tools. Density checking is a figure operation in a design rule checking (DRC) in the IC CAD tool territory verification, and the primary meaning of density checking is to check area percent of a certain layer of figure in the whole zone area; some density checking asks for that area computation is available when a computing layer figure is located in another corresponding figure layer. The description method is as follows: density is available when a computing figure layer is inside of a corresponding figure layer, but in the condition, density is difficult to calculate. The invention provides a density checking and realizing method aiming to the above conditions, so that computational efficiency of density checking with computation layers can be greatly improved.
+77. 101464916 Device attribute computing method for integrated circuit layout
+CN
+24.06.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200710303730.9
+Beijing CEC Huada Electronic Design Co., Ltd.
+Wang Guoqing
+G06F 17/50
+Loading...
+The invention discloses a method for calculating the attributes of a device in an integrated circuit layout, belongs to the technical field of computer aided design of integrated circuits, and particularly relates to the field of net list extraction of integrated circuit layouts and consistency check of the layout and schematic diagram. The method is mainly applied to net list extraction tools and tools for consistency check of the layouts and schematic diagram. The invention aims to provide a method for calculating the attributes of the device in the integrated circuit layout, so as to quickly calculate the attributes of the device in the integrated circuit layout, provide support to the consistency check of the layout and schematic diagram and reduce the occupation of resources at the same time. The realization process mainly comprises the following steps: the layout data structure based on graphics is converted into data structure based on edges; the scan-line algorithm is adopted, and scanning can only be performed on positions containing graphic tops; the attributes of the graphics can be calculated on a scanning line according to the state of edges, and the vertical edge is not required to be recovered; and the attributes of the device can be obtained by utilizing the attributes of the graphics.
+78. 101452493 Method for enhancing graph spread velocity in territory verification
+CN
+10.06.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200710178295.1
+Beijing CEC Huada Electronic Design Co., Ltd.
+Yu Wenzhong
+G06F 17/50
+Loading...
+Size Step Inside is a graphical operation in design rule checking (DRC) in layout verification in an IC CAD tool. The method for realizing the Size Step Inside belongs to the field of layout verification in the IC CAD tool. The invention provides the method for completing the operation with less steps aiming at the problem of lower speed because the prior Size Step Inside needs to perform size_value/step_value operation (a higher integer is taken if the size can not be divided exactly). The method mainly adopts a technical proposal that the method simplifies certain operations starting from application aims. The main application of the method is to accelerate the Size Step Inside.
+79. 101452492 Partial re-signing repairing method for consistency examination of integrated circuit diagram and schematic
+CN
+10.06.2009
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200710178293.2
+Beijing CEC Huada Electronic Design Co., Ltd.
+Li Zhenrong
+G06F 17/50
+Loading...
+The invention discloses a local re-signature repair method for checking the consistency of an integrated circuit layout and a schematic diagram, which belongs to the field of semiconductor integrated circuit design automation and is mainly used for checking the consistency of the layout and the schematic diagram when designing a back-end layout. When the layout and the schematic diagram are inconsistent, a great deal of mismatching occurs often, so that a layout designer is very difficult to search for errors. The invention adopts the local re-signature method, can repair the errors beginning from initial matching points when the layout and the schematic diagram are inconsistent, respectively adopts a method for repairing a wire mesh beginning from a device and a method for repairing the device beginning from the wire mesh according to the type, namely the device or the wire mesh, of the initial matching points, repairs originally matched nodes to be matched with each other, circularly adds the repaired nodes into a next initial matching point set, and performs repeated execution, so as to highlight unmatched poor nodes and accurately position error sources, thereby being capable of greatly improving the error-checking efficiency of the layout designer.
+80. 101290675 Electric network information management system and its exhibition method
+CN
+22.10.2008
+G06Q 50/00 Loading...
+G06Q 50/00
+Loading...
+200710032442.4
+Guangzhou Power Supply Cable Design Co., Ltd.
+Yi Zepei
+G06Q 50/00
+Loading...
+The invention provides an electric network information management system. The system consists of three parts of an electric network business database, a data conversion module and a client terminal. At the same time, the invention provides a method for exhibiting the electric network information management system. The exhibition method comprises three steps of data extraction, data conversion and data exhibition. The invention is the electric network information management system with low cost, open system, small maintenance workload, convenient operation and high management efficiency and the visual exhibition method thereof.
+81. 101114306 Tracking algorithm based on barrel
+CN
+30.01.2008
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200610088920.9
+Beijing CEC Huada Electronic Design Co., Ltd.
+Li Zhiliang
+G06F 17/50
+Loading...
+A tracing algorithm based on barrels belongs to CAD field of an integrated circuit, in particular to the filed of layout verification. A commonly used partitioning algorithm is Gemini/GeminiII, that is to sign for Instances and Nets in Layout and Schematic, and if the layout can not be distinguished, a method of ''signature radius introduction'' is commonly used, but the defect of the method is that a demand for the signature function is high and huge in calculation, in addition, every ''wavefront'' of Instance/Net must be recorded when signing, so a space complexity is high. The present invention uses basic principles of the existing tracing algorithm and the partitioning algorithm, and the tracing algorithm is extended from a tracing based on a matching point to a tracing based on barrel, and the tracing algorithm is extended from starting from the matching point and finding out a node of uniqueness to starting from the barrel and new barrels can be produced in groups according to a principle of Instance types or Net degrees and equal signature values. Both a function of tracing and a function of partitioning can be completed; the tracing and partitioning can be integrated together.
+82. 1892661 Algorithm based on equivalence class to resolve short-circuit problem in IILVS
+CN
+10.01.2007
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+200510080646.6
+Zhongdian-Huada Electronic Design Co., Ltd., Beijing
+Li Zhiliang
+G06F 17/50
+Loading...
+The present invention discloses solving HLVS short circuit problem algorithm Based on equivalence class, belonging to integrated circuit computer aided design field, especially relating to territory verifying field. The present invention provides dividing short circuit problem into two statuses processing, i.e. Inside Short and Outside Short. In HLVS, no matter Inside Short or Outside Short is all essentially an equivalence class problem, i.e. it capable of according to given equivalence relation dividing certain gather into equivalence class problem, thereby right meaning circuit connection relation. Therefore solving HLVS short circuit core problem is converted into equivalence class resolution problem, said invention mainly used in solving HLVS short circuit problem and making made preparations for circuit comparison.
+

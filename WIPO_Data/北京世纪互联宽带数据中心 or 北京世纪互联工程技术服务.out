@@ -1,0 +1,877 @@
+1. 102193982 Method for controlling search data in graphic database online transaction
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072954.X
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for controlling search data in graphic database online transaction. The method comprises the following steps of: 1) calling an application program interface (API) by a client program; 2) checking whether the transaction is valid, finishing the calling and returning error information if the transaction is invalid, otherwise, continuing the calling; 3) checking whether a target node exists, exiting if the target node does not exit, otherwise, continuing; 4) checking whether the path expression of a return node data result set is accurate, exiting if the path expression is inaccurate, otherwise, continuing; 5) checking whether the filter condition is legal, exiting if the filter condition is illegal, otherwise, continuing; 6) checking whether the filter condition contains the path expression, if so, performing a path-expression-based query step 7), otherwise, performing a simple query step 8); 7) executing path-expression-based condition query, and turning to a step 9); 8) performing simple query; and 9) returning the queried result set to an API calling person, and finishing the query. The method has characteristic of transaction isolation, and the query in a certain online transaction is not affected by other online transactions or non online transactions.
+2. 102193978 Control method of deleting data in offline transaction of pattern database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072939.5
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a control method of deleting data in an offline transaction of a pattern database, which comprises the following steps of: 1) dispatching an API (application programming interface) by a client program, transmitting parameter data to the pattern database; 2) entering a synchronization zone; 3) determining to-be-deleted data; 4) checking whether the to-be-deleted data are locked by the transaction, if so, turning to the step 8), and otherwise continuously executing the following steps; 5) checking whether a Relation relative to the to-be-deleted data is locked by the transaction, and if so, turning to the step 8), and otherwise continuously executing the following steps; 6) physically deleting the to-be-deleted data determined in the step 3) from the DataSet; 7) quitting from the synchronization zone, ending the program; 8) waiting for a period of time; and 9) judging whether the operation is overtime, if so, quitting the execution logic, and otherwise turning to the step 2) to re-enter the synchronization zone. As the effective supplementary of deleting the data in an online transaction, the API of the offline transaction can be dispatched to directly delete the data without starting an online transaction in an application scene of deleting the data.
+3. 102193991 OLTP(on-line transaction processing)-based data modifying method and system as well as graphic database server
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110073796.X
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The embodiment of the invention discloses an OLTP((on-line transaction processing)-based data modifying method and system as well as a graphic database server. The method comprises the steps that of: receiving a data modification command transmitted by a client side through calling an API (application programming interface). wherein the data modification command comprises a transaction identifier, a node name, a filtering condition and data to be updated; searching transaction records according to the transaction identifier, and adding the node name to the searched effective transaction record; searching a node attribute status information table according to the node name, and acquiring the data records meeting the filtering condition from the node attribute status information table; and updating the data records one by one by the data to be updated. By applying the data modifying and system as well as the graphic database server disclosed by the embodiment of the invention, the data record modification on multiple nodes related to one transaction can be realized, so as to guarantee the synchronism and the integrity of data modification; and when the transaction fails, data can be recovered through rollback operation so as to guarantee the integrity of a database.
+4. 102193976 Method for implementing transaction rollback mechanism in online transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072881.4
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for implementing a transaction rollback mechanism in an online transaction of a graphic database. The method comprises the following steps of: calling an application program interface (API) of graphic data by a client program and transmitting a transaction number to be submitted; checking whether a transaction exists, the transaction is overdue, the transaction is submitted, the transaction is rolled back and the transaction is locked and marking a transaction rollback state; restoring a data record of the locking of the transaction; deleting dirty data; and deleting the transaction record. By a simple and reliable data rollback mechanism, a third state between a rollback and a non rollback state cannot appear. The data operation has continuity of any broken point, namely after transaction rollback operation is called, if accident performing is interrupted at any time point from start to finish of the data restoration, the performing can be continued until the restoration is finished after the system is restarted.
+5. 102193977 Method for increasing node data relation in off-line transactions of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072937.6
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for increasing a node data relation in off-line transactions of a graphic database, and the method comprises the following steps: 1) using a client program to call an API (application program interface); 2) entering into a synchronization zone; 3) checking whether source node data is locked by the transaction or not, if so, turning to the step 9), otherwise, continuing; 4) checking whether target data node is locked by the transaction or not, if so, turning the step 9), otherwise, continuing; 5) checking whether the relation related with the source node data is locked by the transaction or not, if so, turning to the step 9), otherwise, continuing; 6) checking whether the relation related with the target node data is locked by the transaction or not, if so, turning to the step 9), otherwise, continuing; 7) creating the new relation; 8) exiting from the synchronization zone, and terminating the program; 9) waiting for a period of time; and 10) judging whether the operation exceeds the time or not, if so, exiting from execution logic, otherwise, turning to the step 2) and further entering into the synchronization zone. The method has the following advantages: compared with the operation of increasing the node data relation in on-line transactions, the operation of increasing the node data relation in the off-line transactions can avoid a large quantity of data locking check and enable the execution efficiency to be higher.
+6. 102193980 Control method for inserting data into offline transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072944.6
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a control method for inserting data into an offline transaction of a graphic database. The method comprises the following steps of: (1) calling an API (Application Program Interface) by using a client program and transmitting parameter data to the graphic database; (2) checking whether a target node of data to be inserted exists, if so, continuing performing the following steps, and if not, exiting; (3) checking whether the data to be inserted are legal, if so, continuing performing the following steps, and if not, exiting; (4) entering a synchronization zone; (5) generating a global unique record identifier (RID); (6) inserting the data and adding data transmitted while calling the API into a homonymous data set corresponding to a specified node; and (7) exiting from the synchronization zone. Compared with data insertion in an online transaction, data insertion of the offline transaction has the advantages that: lock detection of mass data is avoided, thus higher execution performance is achieved. Data insertion operation in the offline transaction is indivisible atomic operation, and is not influenced by locking, committing and rollback of the online transaction.
+7. 102193981 Method for realizing transaction expiration mechanism in online transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072953.5
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for realizing a transaction expiration mechanism in an online transaction of a graphic database. The method comprises the following steps of: checking whether the transaction is expired, if so, storing a record in a waiting queue; calculating a waiting transaction queue; if no waiting transaction exists, waiting, otherwise, extracting every record in the transaction queue in sequence; if the transaction is not expired, committed, rolled back or locked, marking the transaction in expiration state, recovering a data record locked by the transaction, deleting dirty data and deleting the transaction record to complete expiration recovery operation of the transaction; and otherwise, giving the record up and processing a next record. The invention provides a simple and reliable data transaction expiration self-check mechanism. Data recovery operation triggered during self-check has optional breakpoint continuity. After recovery operation is started, data updating can be continually executed by restarting a system after sudden execution interruption from the start of data updating to any completion time point until recovery is completed.
+8. 102193983 Relation path-based node data filtering method of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072955.4
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a relation-path-based node data filtering method of a graphic database. The node data filtering method comprises the steps of: firstly, by beginning from a start node and according to the description of a path expression, sequentially inquiring data sets of graphic_db_relation_def to obtain the name of a next node until the end of the path expression; secondly, retrieving data in a finish node through a filtering condition to obtain matched data records; and thirdly, by taking all the data records just inquired as the starting points and according to the description of a reversed path expression, sequentially inquiring data sets of graphic_db_relation_record_def to obtain records related to the records until the end of the path expression, wherein the required final relevant data records are the final inquiry results. In the invention, when data of a certain node in the graphic database is filtered and retrieved, not only a data attribute column in the current node can serve as the filtering condition, but also data attribute columns in other nodes having incidence relations with the current node can serve as the filtering conditions through a relation path, therefore the flexibility of inquiry is improved.
+9. 102193988 Method and system for retrieving node data in graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110073754.6
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The application discloses a method for retrieving node data in a graphic database, and the method comprises the following steps: defining a path description relation between nodes in the graphic database; getting a source node which needs to perform data retrieval and a target node related with the source node; determining a path expression of a path where the source node and the target node are located according to the path description relation; and sequentially performing the data retrieval on the source node, the target node and related nodes between the source node and the target node in the path expression. In the method for retrieving the node data in the graphic database, data information of the source node and the other nodes related with the source node can be directly got by determining the path expression of the path at which the node needing the retrieval in the graphic database is located and sequentially performing the data retrieval on all the nodes contained in the path expression.
+10. 102193990 Pattern database and realization method thereof
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110073795.5
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention provides a pattern database and a realization method thereof. The pattern database comprises an information obtaining unit for obtaining to-be-stored data information which comprises node information and relation information among nodes, a data set interface unit for dispatching a corresponding data structure according to the to-be-stored data information, and a storing unit for storing the to-be-stored data according to the format of the data structure. In the embodiment in the invention, the low storage efficiency can be avoided when a tree or a net data structure is stored, the storage efficiency of the data is improved.
+11. 102193987 Method and system for increasing node data relationship based on OLTP (online transaction processing)
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110073753.1
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention discloses a method and system for increasing node data relationship based on OLTP (online transaction processing). During the operation of increasing the node data relationship, under the confirmed conditions that a transaction is valid and source node data and target node data are not occupied by other transactions, the transaction record is locked up, at this moment, any other operations of increasing node data relationship are in a waiting state. Through the invention, the technical problems of conflict and data incompletion in a database caused by conflict in the prior art can be solved.
+12. 102193989 Graphic database-based online transaction processing system and data insertion method
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110073794.0
+北京世纪互联宽带数据中心有限公司
+陈升
+G06F 17/30
+Loading...
+The invention provides a graphic database-based online transaction processing system and a data insertion method. The method comprises the following steps of: pre-creating a new transaction, and receiving a transaction identifier of the new transaction, data to be inserted and a target data set identifier in a graphic database; locking the current transaction record corresponding to the transaction identifier to make the current operation of the graphic database serve as the data insertion under the new transaction; the data insertion specifically comprises the specific steps of: adding the target data set identifier to a relevant node field of the current transaction record and writing data to the inserted into a target data set; and unlocking the current transaction record corresponding to the transaction identifier. The embodiment of the invention can solve the technical problems of data conflict existing in the prior art and incomplete data in a database caused by the data conflict.
+13. 102193975 Method for realizing transaction committing mechanism in online transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072872.5
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for realizing a transaction committing mechanism in an online transaction of a graphic database. The method comprises the following steps of: (1) calling an API (Application Program Interface) of graphic data by using a client program and transmitting a transaction number to be committed; (2) checking whether the transaction exists; (3) checking whether the transaction is overdue; (4) checking whether the transaction is committed; (5) checking whether the transaction rolls back; (6) checking whether the transaction is locked; (7) marking a transaction committing state; (8) deleting a data record locked by the transaction; (9) updating a dirty data state; and (10) deleting the transaction record. The invention provides a simple and reliable data transaction committing mechanism, the committing operation has an indivisible 'atomic operation' characteristic, and a third state does not occur between a committing state and a non-committing state. The data operation of the method has optional breakpoint continuity, and data updating can be continually executed by restarting a system after sudden execution interruption from the start of data updating to any completion time point until updating is completed after the transaction committing operation is called.
+14. 102193979 Control method for inquiring data from offline transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072942.7
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a control method for inquiring data from an offline transaction of a graphic database. The method comprises the following steps of: (1) calling an API (Application Program Interface) by using a client program; (2) checking whether a target node of data to be inquired exists, and if so, continuing; (3) checking whether a path expression of a return node data result set is correct, and if so, continuing; (4) checking whether a filter condition is legal, and if so, continuing; (5) checking whether the filter condition comprises a path expression, if so, performing a step (6) for inquiring based on the path expression, and if not, performing a step (7) for simple inquiry; (6) performing condition inquiry based on the path expression; (7) performing simple inquiry; and (8) returning an inquiry result to an API caller and ending inquiry. Compared with inquiry operation in an online transaction, inquiry of the offline transaction has the advantages that: lock detection of mass data is avoided, thus higher inquiry performance can be achieved. The inquiry operation of the offline transaction is not influenced by locking, committing and rollback of the online transaction.
+15. 102193986 Method of implementing online transaction in graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072982.1
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method of implementing online transaction in a graphic database. The method comprises the steps of: (1) creating an on-line transaction; (2) performing on-line transaction data operation; and (3) submitting the on-line transaction: marking the submission status of the transaction; reading the relevant node name in an associate_node column of the record and sequentially processing dirty data related to the transaction in the corresponding node; and deleting the record in DataSet corresponding to the transaction. The steps are ended if the submission of the online transaction is successful, otherwise, the on-line transaction is rolled back. The invention has the advantage that the online transaction is identified with a 'transaction ID (identifier)' and is free from the connection limitation of a called client-side program, and the same transaction can be shared among multiple client sides, therefore the distributed transaction is conveniently realized.
+16. 102193984 Control method for modifying data in non-online transaction of graphic database
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072971.3
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a control method for modifying data in a non-online transaction of a graphic database. The control method comprises the steps of: (1) calling an API (application programming interface) by a client program; (2) entering a synchronous zone; (3) determining data to be updated; (4) checking the number of the data to be updated, and ending the program if the number is 0; (5) checking whether the data to be updated are locked , and turning to a step (9) if the data are locked; (6) checking whether Relation related to the data to be updated is locked, and turning into the step (9) if the Relation is locked; (7) sequentially updating the data to be dated confirmed in the step (3) from DataSet and updating the data into the values of data parameters transmitted in when API is called; (8) exiting the synchronous zone and ending the program; (9) waiting; and (10) judging whether the operation is timeout, exiting from the actuating logic if the operation is timeout, otherwise, turning into the step (2) and re-entering the synchronous zone. As an effective supplement for modifying data in online transaction, the control method disclosed by the invention can be used for calling the API of non-online transaction and directly modifying the data without the need of turning on the online transaction in an application scene for modifying data, and therefore the additional operations of turning on transaction, submitting transaction and the like can be avoided, and the actuating efficiency is improved.
+17. 102193985 Method for canceling node data relation in graphical database offline transaction
+CN
+21.09.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110072972.8
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 17/30
+Loading...
+The invention relates to a method for canceling a node data relation in a graphical database offline transaction. The method comprises the following steps of: 1) calling an application program interface (API) by using a client program, transmitting parameter data to a graphical database; 2) entering a synchronization zone; 3) checking whether source node data is locked by a transaction; if the source node data is locked by the transaction, turning to the step 8); and if the source node data is not locked by the transaction, continuing to execute the following steps; 4) checking whether target node data is locked by the transaction; if the target node data is locked by the transaction, turning to the step 8); and if the target node data is not locked by the transaction, continuing to execute the following steps; 5) checking whether the relation related to the source node data is locked by the transaction; if the relation is locked by the transaction, turning to the step 8); and if the relation is not locked by the transaction, continuing to execute the following steps; 6) canceling the relation; 7), exiting the synchronization zone, and ending the program; 8) waiting for a period of time, judging whether the operation is overtime; if the operation is overtime, exiting an executing logic; and if the operation is not overtime, turning to the step 2) and entering the synchronization zone again. Compared with the operation of canceling the node data relation in the online transaction, the operation of canceling the node data relation in the offline transaction avoids a large amount of data locking check so that the executing efficiency is higher.
+18. 102156718 Method and system for canceling node data relationship in graphic database online transaction
+CN
+17.08.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110074461.X
+北京世纪互联宽带数据中心有限公司
+陈升
+G06F 17/30
+Loading...
+The invention discloses a method for canceling a node data relationship in a graphic database online transaction. The method comprises the following steps: receiving a transaction canceling operation command transmitted by a client, wherein the operation command comprises a transaction number and a node data relationship to be canceled; searching for the corresponding transaction according to the transaction umber; and opening a transaction processing mark when the transaction is effective and operation data in the transaction is not locked by other transactions, and canceling the node data relationship to be canceled in the transaction. The node data relationship canceling method and system provided by the embodiment of the invention can perform canceling and other corresponding operations on the node data relationship to be canceled in each stage of the transaction operation process on the premise that the transaction is effective and the operation data in the transaction is not locked by other transactions.
+19. 102141946 Method and system for recovering online transaction data in graph database
+CN
+03.08.2011
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+201110074449.9
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Chen Sheng
+G06F 11/14
+Loading...
+The invention discloses a method for recovering the online transaction data in a graph database. The method comprises the following steps: defining the processing level of the online transactions in the graph database; checking the operation transactions in the course of processing the online transactions; and when finding that the operation transactions contain abnormal operation transactions through checking, calling a recovery mechanism to perform data recovery on the abnormal operation transactions. In the method for recovering the online transaction data in the graph database provided by the invention, the operation transactions in the processing procedure of the online transactions are checked during the procedure of processing the online transactions to confirm whether the operation transactions contain the abnormal operation transactions or not; and when the abnormal operation transactions exist, the recovery mechanism is called to perform data recovery on the abnormal operation transactions. The abnormal operation transaction recovery mechanism provided by the embodiment of the invention comprises rolling operation, submitting operation and the like, and can be used for timely and effectively recovering transactions interrupted by accidents in the course of processing the transactions in the graph database.
+20. 102111309 Method and system for detecting content delivery network (CDN) node
+CN
+29.06.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010615974.2
+Beijing Shiji Hulian Engineering Services Co., Ltd.
+Yao Fuyuan
+H04L 12/26
+Loading...
+The invention discloses a method for detecting a content delivery network (CDN) node, comprising the following steps: acquiring a detection object and a detection threshold from a configuration end; detecting the detection object to acquire detection data; carrying out analysis and statistics on the detection data to acquire an analytic statistics result; and comparing the analytic statistics result with the detection threshold to determine the survival state of the detection threshold, and converting the state of the CDN node corresponding to the survival state of the detection threshold in accordance with the survival state of the detection threshold. The method for detecting a CDN node is used to effectively and exactly detect the survival state of the CDN node and effectively provide a required CDN node detection function for an intelligent domain name server (DNS) library.
+21. 102103642 OLTP-based data deletion method, system and graphic database sever
+CN
+22.06.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201110074497.8
+北京世纪互联宽带数据中心有限公司
+陈升
+G06F 17/30
+Loading...
+The embodiment of the invention discloses an on-line transaction processing (OLTP)-based data deletion method, an OLTP-based data deletion system and a graphic database sever. The method comprises the following steps of: receiving a data deletion command transmitted by calling an application programming interface (API) through a client, wherein the data deletion command contains transaction identification, node name and filter condition; searching transaction record according to the transaction identification, and adding the node name into the searched valid transaction record; searching a node attribute state information table according to the node name, and acquiring data records in accordance with the filter condition from the node attribute state information table; and deleting the data records in accordance with the filter condition item by item. By using the embodiment of the invention, deletion of the data records of one transaction on multiple nodes can be realized, and synchronism and integrity of data deletion can be ensured; and when the transaction is invalid, data recovery can be performed by rollback operation, and the integrity of the database is ensured.
+22. 102088404 Method for limiting speed of network card in Xen virtual machine
+CN
+08.06.2011
+H04L 12/56 Loading...
+H04L 12/56
+Loading...
+201010582931.9
+21Vianet Co., Ltd.
+Wang Peng
+H04L 12/56
+Loading...
+The invention provides a method for limiting the bandwidth rate of a virtual network card in a Xen virtual machine environment. In the speed limiting method, the flows at the entrance and the exit of the network card in a virtual domain 0 are limited according to the characteristic of the corresponding relation between the network card running on the virtual domain 0 and a network card running on a virtual domain U in a Xen virtual machine, so that corresponding flow limit on the exit and the entrance of the network card in the corresponding virtual domain U is realized. Therefore, entrance flow limit of the network card of the virtual machine can become possible, and the flow rate of the network card of the started virtual machine can be flexibly configured.
+23. 102088367 Method for quickly deploying in virtualization environment
+CN
+08.06.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010587742.0
+21Vianet Co., Ltd.
+Shen Qilong
+H04L 12/24
+Loading...
+The invention discloses a method for quickly deploying in a virtualization environment. The method comprises the following steps of: (1) keeping image copies of idle operating systems in a physical server; (2) transmitting system information necessary for opening a virtual server to a management server, and selecting an initialization script, creating a configuration file and mapping the initialization script and the configuration file into the equipment space of a node server by using the management server; (3) creating a virtual machine by using the management server, virtualizing the image copies of customized operating systems into a disc of the virtual server, and simulating the equipment of the node server into a compact disc read-only memory of the virtual server; (4) starting the virtual server, and running a startup script program with a specified name on the compact disc read-only memory in customized startup scripts of a system; and (5) submitting user name and password information to a foreground user self-service platform by using a resource scheduling system, and allowing a user to decrypt a cipher text and log in by using acquired plain text information. Quick provisioning, quick configuration, and safe, reliable and quick delivery of the virtual machine can be implemented in the virtualization environment.
+24. 102075593 Method and system for generating secure data network system (SDNS) data
+CN
+25.05.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010616458.1
+Beijing Century Internet Engineering Technology Service Co., Ltd.
+Yao Fuyuan
+H04L 29/12
+Loading...
+The invention discloses a method and system for generating secure data network system (SDNS) data. The method comprises the following steps: receiving the ID of a domain name and identifying the ID; when the verification of the ID is qualified, inspecting switches at different levels related in the process of domain name logical operation; selecting a pool in conformance to requirements during the inspection in accordance with the relation weight between regions and the pool; limiting the proportion sum of content delivery network (CDN) nodes under the selected pool; and generating the SDNS data based on the switches of the CND nodes or weight changes. By utilizing the method for generating the SDNS data provided by the embodiment of the invention, the SDNS data required by each intelligent DNS node can be effectively generated.
+25. 102075355 Log system and using method thereof
+CN
+25.05.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010616520.7
+Beijing Century Internet Engineering Technology Service Co., Ltd.
+Yao Fuyuan
+H04L 12/24
+Loading...
+The invention discloses a log system and a using method thereof. The log system comprises a log recording unit, a log storage unit and a log analysis unit, wherein the log recording unit is connected with a plurality of intelligent domain name servers (DNS) and used for receiving log message sent by the intelligent DNS and converting the log message into log files; the log storage unit exchanges information with the log recording unit, and is used for storing the log files converted by the log recording unit and performing preliminary analytic statistics on the log files; and the log analysis unit exchanges information with the log storage unit, and is used for deep analysis of the statistic result of the log files of the log storage unit. The embodiment of the invention provides the log system, which can better defense abnormal access addresses by recording and analyzing the log message to acquire query times and response time of domain names in a fixed time period.
+26. 102064966 Configuration method, server, equipment and system
+CN
+18.05.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010612111.X
+Beijing Century Hulian Engineering Technology Service Co., Ltd.
+Zhang Yongsen
+H04L 12/24
+Loading...
+The invention provides a configuration method, a server, equipment and a system, wherein the method comprises the following steps of: receiving a request which is submitted by a user and configures corresponding equipment; finding corresponding pre-edited configuration information according to the request; and providing the configuration information to the equipment so as to lead the equipment to acquire the configuration information and configure per se according to the configuration information. In the invention, manual remote entry is not needed for all equipment to edit configuration content respectively, and the operation is simple, so that the configuration efficiency is improved.
+27. 102055815 System for acquiring local domain name analyses server of caller
+CN
+11.05.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010593617.0
+Beijing Shiji Hulian Engineering Technology Service Co., Ltd.
+Yu Hongfang
+H04L 29/12
+Loading...
+The invention relates to a system for acquiring Local DNS (domain name server) of a caller. The system comprises: a detection heavy guide subsystem receives a request of a client terminal and records the IP (internet protocol) address of the request, generates an identification code and stores to a data recording subsystem, generates subdomain name according to the identification, and returns an instruction for the client terminal to access the subdomain name; an intelligent DNS subsystem receives the Local DNS analyses request, records the IP address, and stores the IP address and identification code to the data recording subsystem; the data recording subsystem stores the IP address and the identification code of the client terminal, as well as the IP address and the identification code of the Local DNS, matches and merges the IP address and the identification code of the client terminal with the IP address and the identification code of the Local DNS according to the identification codes, and stores in a database; and a statistical analysis subsystem counts and analyzes the detected data in the data recording subsystem, and counts the IP address of a computer for analyses service using a certain Local DNS. According to the invention, the Local DNS and the corresponding practical caller IP can be acquired, through analyzing the IP data, the IP data can be analyzed to a more suitable service node, thereby promoting the service quality.
+28. 102055799 Content refreshing system
+CN
+11.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010581471.8
+CloudEx Inc.
+Yang Fan
+H04L 29/08
+Loading...
+The invention discloses a content refreshing system, which comprises a central task server and a plurality of proxy refreshing servers, wherein the central task server is used for receiving tasks submitted by a user, processing the tasks according to system configuration and transmitting the processed tasks to the proxy refreshing servers in a multi-threading way; and the proxy refreshing server is used for refreshing the tasks transmitted by the central task server and feeding an operating result back to the central task server. In the content refreshing system provided by the embodiment of the invention, the proxy refreshing server is used as a task refreshing main body, so that the problem that cache contents cannot be refreshed in time due to a plurality of situations such as over high load pressure and the like of a local server is solved, and real-time refreshing of the cache contents is realized effectively.
+29. 102055818 Distributed intelligent DNS (domain name server) library system
+CN
+11.05.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010616460.9
+Beijing Shiji Hulian Engineering Technology Service Co., Ltd.
+Yao Fuyuan
+H04L 29/12
+Loading...
+The invention discloses a distributed intelligent DNS (domain name server) library system which comprises a DNS configuration module, a domain name logical operation module, a detection module, a communication module and a plurality of intelligent DNS nodes. By the distributed intelligent DNS library system provided by the embodiment of the invention, through the mutual cooperation of modules, when the DNS of a user passes the local DNS server request to the intelligent DNS nodes, the intelligent DNS nodes return the user DNS request result, thus the user can nearby access a CDN (content distribution network) node with the best performance.
+30. 102045171 Unified authentication system and login method based on same
+CN
+04.05.2011
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201010614522.2
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Jia Zhidong
+H04L 9/32
+Loading...
+The invention discloses a unified authentication system and a login method. The system comprises a login authentication and authorization management system which is connected with a TICKET server through a service interface module. The method comprises the following steps: a user inputs a user name and a password to enter; if being a legal user, a user terminal produces local session, generates an authentication mark and stores the mark in the user terminal; the TICKET information in the local session is stored in the TICKET server; and when the user accesses a subsystem, the subsystem acquires the TICKET information from the TICKET server according to the authentication mark acquired from the user terminal so as to judge whether the user has right to access the subsystem. In the invention, in the case of subsystem access, the user does not need to carry out any other operation in addition to input the user name and the password, thus being very convenient; and in the case of huge user access quantity, the TICKET server in the system does not become a system bottleneck.
+31. 102045400 Method and system for synchronizing file content
+CN
+04.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010611954.8
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Zhang Yongsen
+H04L 29/08
+Loading...
+The embodiment of the invention discloses a method and system for synchronizing a file content, wherein the method comprises: a synchronizing task is sent to a target node synchronization server by a main control server according to the principle of minimum time delay; and the target-node synchronization server successfully downloads a file content from a source station, and then the file content is downloaded by the synchronization servers of other nodes, thereby completing the content distribution. The system in the embodiment of the invention is corresponding to the method, and composed of the main control server as a core, the target-node synchronization server as a download source, and a plurality of node synchronization servers for mutual downloading; and aiming at the defect in the existing file content synchronization method that the timeliness is poor, the synchronization of the file content and the improvement of the download timeliness of the file content are realized. In addition, in the embodiment of the invention, a mode of monitoring the transmission speeds of paths between the nodes and the source station and searching an optimum source file download path is applied, therefore, the timeliness of file download is further improved.
+32. 102044025 Employee service platform based on network reimbursement
+CN
+04.05.2011
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+201110029644.X
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Wang Lili
+G06Q 10/00
+Loading...
+The invention discloses an employee service platform based on network reimbursement, comprising a fee application system, a fee reimbursement system, a budget management system and a contract management system, wherein the fee application system, the fee reimbursement system, the budget management system and the contract management system are mutually connected in a communication manner. By utilizing the employee service platform based on the network reimbursement, automatic reimbursement for fee to be reimbursed is realized, centralized management and monitoring for the finance of a group are realized, the use efficiency of funds is improved, and remote processing and dynamic accounting are realized.
+33. 201821605 一种机柜圆弧门
+CN
+04.05.2011
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201020511485.8
+北京世纪互联宽带数据中心有限公司
+翁原
+H05K 5/02
+Loading...
+本实用新型公开了一种机柜圆弧门，它包括：两门框和一弧形板体，该弧形板体上间隔开设有若干网孔区，在相邻网孔区之间形成有分隔带。在所述分隔带的背面焊接加强筋。本实用新型所得到的机柜圆弧门，通过设置分隔带及在分隔带的背面焊接加强筋，在不影响通风和散热的前提下同时保证了圆弧门的强度要求，有效避免了在搬运和安装过程中对本实用新型圆弧门的挤压造成的变形。其外形美观，新颖。
+34. 102034046 Data underlay encryption method based on disk drive in cloud computing environment
+CN
+27.04.2011
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201010587760.9
+Banyano Century Interconnection Engineering Technology Service Co., Ltd.
+Niu Lixin
+G06F 21/00
+Loading...
+The invention discloses a data encryption underlay encryption method based on disk drive in the cloud computing environment, comprising the following steps of: (1) granting a page allocated by a memory space to an equipment virtual machine on which a rear-end drive is positioned through a front-end drive by using a grant table; (2) encrypting data in a buffer area by a front end; (3) placing a writing request of a disk into an annular buffer area shared with the rear-end drive and informing the writing request of the rear-end drive through an event channel; (4) after the rear-end drive is awaken, reading a writing disk request in the shared buffer area and mapping the granted page corresponding to the grant table to the own memory space to generate a real disk access request; and (5) after the disk request is finished, releasing the map by the rear-end drive, placing a response in the shared buffer area and simultaneously awaking the front-end drive through the event channel. The invention can ensure that important data stored by the user in a cloud memory are cipher texts and can still provide safety guarantee for private data of the user even if a storage cell is completely exposed.
+35. 102035905 Method for obtaining visitor Local DNS (Local Domain-Name Server)
+CN
+27.04.2011
+H04L 29/12 Loading...
+H04L 29/12
+Loading...
+201010594008.7
+Banyano Century Interconnection Engineering Technology Service Co., Ltd.
+Yu Hongfang
+H04L 29/12
+Loading...
+The invention relates to a method for obtaining a visitor Local DNS, which comprises the following steps of: (1) embedding an HTML (Hyper Text Mark-up Language) pointing to a detection redirecting subsystem on a website needing to be detected, and sending out a request to the detection redirecting subsystem after the code is analyzed by a visitor browser; (2) recording the IP (Internet Protocol) address of a computer at the end of the visitor browser after the detection redirecting subsystem receives the request of the visitor browser, and returning a script instruction; (3) enabling the visitor browser to drive the Local DNS to send out a request to an intelligent DNS subsystem again; (4) recording the IP of the visitor Local DNS by the intelligent DNS subsystem; (5) merging the data of the two requests by a data recording subsystem, and storing the data into a database; and (6) after a certain period of time, counting the IP address information corresponding to each visitor Local DNS by an analyzing subsystem after detection is finished. The invention can be used for obtaining the Local DNS and the actual visitor IP corresponding to the Local DNS and analyzing the Local DNS and the actual visitor IP to a more proper serving node by analyzing the IP data, thereby enhancing the service quality.
+36. 102033930 Distributed memory database system
+CN
+27.04.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010593590.5
+Banyano Century Interconnection Engineering Technology Service Co., Ltd.
+Yao Fuyuan
+G06F 17/30
+Loading...
+The invention provides a distributed memory database system, which comprises a server and multiple memory database nodes. The server comprises a configuration centre and a central database; the configuration centre generates key data according to the input data and writes the generated key data into the central database; the central database comprises a database and an event list; the database is used for storing the key data written by the configuration centre; the event list is used for recording the data update information of the database; the memory database node comprises a node database and a node event list; the node database is used for receiving and storing the key data transferred by the server; and the node event list is used for synchronizing the event list of the server end. Through the invention, the system data are updated without waiting for the update information of corresponding events, the real-time synchronous update of data between the server and the nodes can be realized, and the data transmission efficiency of the system is greatly improved.
+37. 201813645 服务器机柜盲板安装卡
+CN
+27.04.2011
+H05K 7/14 Loading...
+H05K 7/14
+Loading...
+201020555861.3
+北京世纪互联工程技术服务有限公司
+翁原
+H05K 7/14
+Loading...
+本实用新型提供一种服务器机柜盲板安装卡，该安装卡的前端为截面略呈V字形的安装卡本体，后端为安装卡手柄，中间位置为起限位作用的限位槽。该安装卡由弹性材料制成。使用该服务器机柜盲板安装卡可以实现服务器机柜盲板的快速安装和拆卸，省时省力，提高了工作效率。
+38. 102025743 Method and device for exporting mirror image of virtual machine in cloud computing
+CN
+20.04.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010596783.6
+Beijing Century Hulian Engineering Technology Service Co., Ltd.
+Song Zhuo
+H04L 29/06
+Loading...
+The invention provides a method and device for exporting the mirror image of a virtual machine in cloud computing. The method for exporting the mirror image of the virtual machine in cloud computing comprises the following steps: when the mirror image of the virtual machine is exported, computing the hash value for the mirror image of the virtual machine; encrypting the hash value to obtain the data signature for the mirror image of the virtual machine; and adding the data signature into the exported mirror image of the virtual machine. In the invention, the exported mirror image of the virtual machine is added with the data signature, thereby ensuring the safe export for the mirror image of the virtual machine.
+39. 102024051 Data updating method for distributed memory database
+CN
+20.04.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010594262.7
+Beijing Century Hulian Engineering Technology Service Co., Ltd.
+Yao Fuyuan
+G06F 17/30
+Loading...
+The invention provides a data updating method for a distributed memory database, the data content to be updated is firstly written into a memory block which is not used through the distributed memory database, and the switching of the memory block is further completed by amending the index bit of the memory block after the writing is completed. Therefore, when the memory block is written for updating, the current access and the use do not need to be stopped, thereby greatly improving the reading and writing efficiency of node memory of the database and further improving the updating speed of a databse system.
+40. 102025744 Import and export system of virtual machine image in cloud computing
+CN
+20.04.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010597265.6
+Beijing Century Hulian Engineering Technology Service Co., Ltd.
+Song Zhuo
+H04L 29/06
+Loading...
+The invention provides an import and export system of virtual machine images in cloud computing, comprising an export device for a virtual machine image in cloud computing and an import device for a virtual machine image in cloud computing, wherein, the export device is used for computing a hash value of the virtual machine image, encrypting the hash value to obtain the data signature of the virtual machine image, and adding the data signature into the exported virtual machine image when the virtual machine image is exported; and the import device is used for receiving the virtual machine image imported by the exported device of the virtual machine image in the cloud computing, extracting the data signature of the virtual machine image, decrypting the data signature to obtain the hash value of the virtual machine image, computing the original hash value of the virtual machine image, and allowing the virtual machine image to be imported if the obtained hash value and the computed original hash value are judged to be the same. The import and export system provided by the invention ensures that the problem that illegal virtual machine image is imported solved, and simultaneously ensures the complete problem that the virtual machine image is exported safely.
+41. 102024123 Method and device for importing mirror image of virtual machine in cloud calculation
+CN
+20.04.2011
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+201010597537.2
+Beijing Century Hulian Engineering Technology Service Co., Ltd.
+Song Zhuo
+G06F 21/62
+Loading...
+The invention provides a method and device for importing a mirror image of a virtual machine in the cloud calculation. The method for importing the mirror image of the virtual machine in the cloud calculation comprises the following steps of: receiving the imported mirror image of the virtual machine; extracting a data signature of the mirror image of the virtual machine; decrypting the data signature to obtain a hash value of the mirror image of the virtual machine; calculating the original hash value of the mirror image of the virtual machine; and if the obtained hash value is judged to be identical to the calculated original hash value, allowing the virtual machine to be imported. The invention aims at solving the problem that the mirror image of the virtual machine is imported illegally, thereby ensuring the safety importing of the mirror image of the virtual machine.
+42. 101984631 Safety dynamic migration method of Xen virtual machine
+CN
+09.03.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010533715.5
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Xu An
+H04L 29/08
+Loading...
+The invention discloses a safety dynamic migration method of an Xen virtual machine, which comprises the following steps: generating a key on a source physical server based on an SSL protocol by a symmetric cryptographic algorithm; generating a public key and a private key on a target physical server based on an SSL protocol by an asymmetric cryptographic algorithm, and transmitting the public key to the source physical server; encrypting the key by the public key on the source physical server, and transmitting the encrypted key to the target physical server; decrypting the encrypted key by the private key on the target physical server to obtain the key; encrypting a transfer object by the key on the source physical server, and transmitting the encrypted transfer object to the target physical server; and after the target physical server receives the encrypted transfer object, decrypting the encrypted transfer object so as to complete migration of the transfer object from the source physical server to the target physical server. The safety dynamic migration method effectively prevents a listener from stealing the transmitted data so as to ensure transmission security of the migrated data.
+43. 101980206 File task management tool
+CN
+23.02.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010534423.3
+CloudEx Inc.
+Yang Fan
+G06F 17/30
+Loading...
+The invention discloses a file task management tool, which comprises a task receiving module, a task processing module, a task transmitting module and a task execution state processing module, wherein the task processing module is used for reading a file general task received by the task receiving module and generating file sub-tasks of the file general task according to system configuration; the task transmitting module starts a multithread to transmit the generated file sub-tasks to a task management server, and each thread can transmit a plurality of tasks to the task management server at the same time, so that the distributing speed and distributing efficiency of the task are improved; meanwhile, the task execution state processing module arranged in the management tool can receive the task processing state information fed back by a task processing server and judges the execution state of the task according to the task processing state information to obtain a judgment result so as to update the file general task; and thus, the information interaction between the task processing servers is realized.
+44. 101980194 Method for managing domain names
+CN
+23.02.2011
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010521229.1
+Beijing Shiji Interconnection Broadband Data Center Co., Ltd.
+Wang Baoku
+G06F 17/30
+Loading...
+The embodiment of the invention discloses a method for managing domain names. The method is characterized by comprising the following steps of: receiving requests of users through a request receiving port in the form of a WEB interface; converting commands that a database needs operating in the requests submitted by the users through the WEB interface into operating instructions of tables in a preset database so as to update the database, wherein the database is used for storing the domain names of the users, correlating the domain names according to father-son level and corresponding the domain names to preset berkeley internet name domain (BIND)configuration files; judging whether the requests submitted by the users through the WEB interface contain commands that the BIND configuration files need operating or not; and if so, converting the operating requests of the BIND configuration files into the operating instructions of the BIND configuration files so as to update the BIND configuration files. By embodiment of the method, labor intensity of staff is relieved; and when the users have requirements on relative management and updating maintenance operation of domain name resolution services, the work efficiency can be effectively improved.
+45. 101980474 Internet data center (IDC) network management monitoring platform
+CN
+23.02.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010516192.3
+Beijing Shiji Interconnection Broadband Data Center Co., Ltd.
+Ma Zhibo
+H04L 12/24
+Loading...
+The invention provides an internet data center (IDC) network management monitoring platform, which has a data acquisition layer, a data processing layer and a comprehensive data layer three structures. The conventional independent IDC network management monitoring systems are integrated in a uniform platform structure, so that the platform has multi-service and multi-product data integrating capability. The IDC network management monitoring platform solves the problems of limited monitoring range, low system expandability, singular monitoring manners and the like of the conventional network management monitoring platform and has obvious advantages in a plurality of aspects such as upgradability, reliability, usability, expandability, maintainability and the like of the system.
+46. 101980168 Dynamic partitioning transmission method and device
+CN
+23.02.2011
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201010534427.1
+CloudEx Inc.
+Yang Fan
+G06F 9/46
+Loading...
+The invention discloses a dynamic partitioning transmission method. The method comprises the following steps of: acquiring the amount value of a central processing unit (CPU) in a system; averagely partitioning files needing to be uploaded according to the amount value of CPU; and starting multithreading, and transmitting the partitioned files to the CPU simultaneously. In the dynamic partitioning transmission method provided by the invention, before the files are sent, the available amount value of CPU in the system is acquired first, the files needing to be uploaded are averagely partitioned according to the amount value of CPU, and the multithreading is started so as to transmit the partitioned files to the CPU simultaneously; and due to the partitioning of the files, the transmission tasks of each threading are reduced, the transmission pressure is released, the transmission speed is increased, the phenomenon of low transmission speed caused by threading blocking during transmission is eliminated.
+47. 101980509 File fragment transmission method and device
+CN
+23.02.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010534502.4
+CloudEx Inc.
+Yang Fan
+H04L 29/08
+Loading...
+The invention discloses a file fragment transmission method, which comprises the following steps of: acquiring a to-be-uploaded file of a client; dividing the file into fragment files with specified size; and starting multiple threads to transmit the fragment files to a CUP (central processing unit) in a non-clogging form. The embodiment of the invention also discloses a file fragment transmission device. After the file uploaded by the client is acquired, the file is divided into the fragment files with specified size, then the divided fragment files are simultaneously transmitted to the CUP under the multiple threads, and the CPU combines the received fragment files into the original file so that the file fragment transmission method and the file fragment transmission device provided by the embodiment of the invention effectively improve the utilization rate of the CPU and make full use of the CPU resources of a system.
+48. 101976317 Virtual machine image safety method in private cloud computing application
+CN
+16.02.2011
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201010533733.3
+Beijing Shiji Hulian Engineering Technology Service Co., Ltd.
+Song Zhuo
+G06F 21/00
+Loading...
+The invention provides a method for providing safe guard for virtual machine image file in private cloud computing application. The safety method is based on the method of dynamic decomposition and recombination, and recombination and encryption are carried out on virtual machine image files which are imported or exported by private cloud. The method of dynamic decomposition and recombination carries out safety encryption on virtual machine image file of private cloud, thus not only avoiding that a hacker operates and utilizes the virtual machine outside private cloud but also preventing that the hacker attacks by virtue of falsification or guessing from the following aspects.
+49. 101977236 Large-file multipoint distribution system
+CN
+16.02.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010534421.4
+北京世纪互联宽带数据中心有限公司
+杨凡
+H04L 29/08
+Loading...
+The invention discloses a large-file multipoint distribution system, comprising a client, a center server, an upload server and a plurality of task processing servers; when files are required by the client to upload, the client transmits a file upload request to the center server, the center server determines the target task processing server for the client after receiving the upload request and the client uploads the files to be uploaded to the center server or the target task processing server by the upload server; and when the files are required by the client to download, the client transmits a file download request to the center server, the center server distributes a download task to the task processing server after receiving the download request, and the center server or the task processing server transmits the files required by the client to download to the client. The invention effectively avoids the problem that the center server has reduced performance or is halted because the files can be downloaded or uploaded from the center server only.
+50. 101969447 Method and system for supplying stream media service
+CN
+09.02.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010534428.6
+CloudEx. Inc.
+Gao Shihong
+H04L 29/06
+Loading...
+The invention discloses a method and a system for supplying a stream media service. The method comprises the following steps of: pre-building a plurality of duplicate files with different code stream transmitting rates for a stream media file; acquiring the state information of a client which requires to display the stream medium file; determining the duplicate file which is matched with the state information; and supplying the stream media service to the client by using the duplicate file matched with the state information. When the method and the system are used, the fluency degree of video or audio which is played at the client can be improved in a process of supplying the stream media service.
+51. 201742660 一种服务器机柜后立柱
+CN
+09.02.2011
+H05K 5/02 Loading...
+H05K 5/02
+Loading...
+201020243420.X
+北京世纪互联宽带数据中心有限公司
+翁原
+H05K 5/02
+Loading...
+本实用新型公开了一种服务器机柜后立柱，该后立柱为一折弯状的板体，该折弯状的板体形成有一用于容设插线座安装板的容置槽。所述折弯状的板体呈凹形；所述插线座安装板固设在所述容置槽内。本实用新型所得到的服务器机柜后立柱，其后立柱的主要结构部分是一块弯板，与插线座安装板焊接在一起，对其进行封口，把插线座安装板往外移，有效加大了机柜内部的利用空间，使结构更紧凑，同时使机柜达到了既美观，又满足了立柱的功能、强度方面的要求。
+52. 201740838 低功耗断电检测采集装置
+CN
+09.02.2011
+G01R 31/02 Loading...
+G01R 31/02
+Loading...
+201020243430.3
+北京世纪互联宽带数据中心有限公司
+黄轶彪
+G01R 31/02
+Loading...
+本实用新型公开了一种低功耗断电检测采集装置，包括顺序连接的机柜断电检测采集部分、开关量信号转换部分和数据记录与报警部分。在机柜断电检测采集部分中，EMI滤波电路一方面连接交流电源，另一方面连接整流滤波电路，整流滤波电路一方面连接电源状态指示电路，另一方面连接光电隔离电路，光电隔离电路连接驱动电路，驱动电路连接USB接口，该USB接口用于实现干接点输出和外部直流电源输入。本断电检测采集装置平时处于监测状态时的功耗极低，对数据中心机房的电力供应系统不会产生干扰。当机柜意外断电时，采用电源状态指示和报警信号输出相结合的方式输出断电检测信号。
+53. 101964824 Method and device for selecting uploading server
+CN
+02.02.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010534425.2
+CloudEx. Inc.
+Yang Fan
+H04L 29/08
+Loading...
+The invention discloses a method and a device for selecting an uploading server. The method comprises the following steps of: receiving an uploading request of a user and acquiring all server addresses capable of responding to the request; uploading files with designated size to the servers corresponding to the server addresses; measuring the file uploading speeds of the servers and sorting the uploading speeds; and selecting the server with the optimal uploading speed as the uploading server. In the method and the device for selecting the uploading server, after the uploading request of the user is received, the speeds of all servers capable of responding to the uploading request are measured and sorted, and the server with the optimal uploading speed is selected as the uploading server; the uploading speed of the server is optimal, which indicates that the server is in an idle state or in a state with relatively a few tasks at the stage; therefore, the phenomenon of slow file uploading due to a blocked transmission link in the file uploading process is avoided by selecting the server as a main server.
+54. 101964762 System for realizing information sharing among internet television users
+CN
+02.02.2011
+H04L 12/58 Loading...
+H04L 12/58
+Loading...
+201010268050.X
+Beijing Banyano Co., Ltd.
+Sun Jihong
+H04L 12/58
+Loading...
+The invention relates to a system for realizing information sharing among internet television users, which comprises an internet television management system, a user database, a user friend list, a user group list, a user sharing list and a playing platform, wherein the database and the playing platform are connected with the internet television management system through an internet; the user friend list, the user group list and the user sharing list are stored in the user database. The invention can carry out the sharing operations of program presentation, recommendation, propelling and the like among the users and can share the user information among different playing platforms.
+55. 101964795 Log collecting system, log collection method and log recycling server
+CN
+02.02.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010504198.9
+Beijing Banyano Co., Ltd.
+Yang Lijun
+H04L 29/06
+Loading...
+The invention relates to a log collection system, a log collection method and a log recycling server. The log collection system comprises acceleration servers, log recycling servers and a center server, wherein the acceleration servers are used for generating log files and uploading the log files to the log recycling server; the log recycling servers are used for receiving the log files uploaded by the plurality of acceleration servers and uploading the received log files to the center server; the center server is used for receiving log files uploaded by the plurality of log recycling servers; and the number of the log recycling servers is smaller than that of the acceleration servers. The log collection system, the log collection method and the log recycling server can effectively reduce the pressure of the center server and the network overhead, and improve transmission efficiency.
+56. 101958837 Log processing system, log processing method, node server and center server
+CN
+26.01.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010504193.6
+北京世纪互联宽带数据中心有限公司
+杨利军
+H04L 12/24
+Loading...
+The invention relates to a log processing system, a log processing method, a node server and a center server. The log processing system comprises edge servers, node servers and center servers, wherein one edge server at least corresponds to one node server, and one node server at least corresponds to one center server; the edge server is used for generating logs and uploading the logs to the corresponding node server; the node server is used for converting the logs uploaded by the edge server into preformatted logs and uploading the preformatted logs to the corresponding center server; and the center server is used for processing the preformatted logs uploaded by the node server. The log processing system, the log processing method, the node server and the center server can effectively reduce the complexity of log processing by the center server, thereby improving the processing efficiency.
+57. 101938515 Method for information sharing between internet TV users
+CN
+05.01.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010268057.1
+Beijing Shijihulian Engineering Technology Service Co., Ltd.
+Sun Jihong
+H04L 29/08
+Loading...
+The invention relates to a method for information sharing between internet TV users, which comprises the following steps: 1) establishing an internet TV user database, and recording information of each user in a type of data sheet in the internet TV user database; 2) establishing a friend table in the user database, and adding friends in the friend table by the user; 3) establishing a user sharing table in the user database; 4) sharing programs between the users; and 5) sharing user materials and information between different player platforms. The invention enables the sharing operations of program presentation, recommendation, releasing and the like to be carried out between the users, and the user information can be shared between the player platforms.
+58. 101930467 Dynamic query method of bandwidth data
+CN
+29.12.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201010269604.8
+北京世纪互联宽带数据中心有限公司
+杨利军
+G06F 17/30
+Loading...
+The invention provides a dynamic query method of bandwidth data, which comprises the steps of: receiving a query condition aiming at the bandwidth data input by a user; and matching from a preset database according to the query condition to obtain target data, wherein the preset database is used for storing the bandwidth data. The system comprises a receiving module used for receiving the query condition aiming at the bandwidth data input by the user, and a query module used for matching from a preset database according to the query condition to obtain the target data, wherein the preset database is used for storing the bandwidth data. The invention can solve the technical problems of server unbalance operation load and poorer property caused by the prior art, and can also solve the technical problem of inaccurate accounted bandwidth data in the prior art.
+59. 101907671 Low-power consumption power outage detection acquisition system for data center
+CN
+08.12.2010
+G01R 31/02 Loading...
+G01R 31/02
+Loading...
+201010214383.4
+Beijing Shiji Interconnection Broadband Data Center Co., Ltd.
+Huang Yibiao
+G01R 31/02
+Loading...
+The invention discloses a low-power consumption power outage detection acquisition system for a data center. The system comprises a machine cabinet power outage detection acquisition part, a switching value signal conversion part and a data recording and alarming part which are connected sequentially, wherein in the machine cabinet power outage detection acquisition part, an EMI filter circuit is connected with an alternating-current power supply and a rectifier filter circuit; the rectifier filter circuit is connected with a power status indicating circuit and a photoelectric isolation circuit; the photoelectric isolation circuit is connected with a driving circuit; and the driving circuit is connected with a USB interface, and the USB interface is used for outputting dry contacts and inputting an external direct-current power source. The power outage detection acquisition system has low power consumption in the monitoring state and does not generate interference on a power supply system of a data center machine room; and when a machine cabinet meets power outage unexpectedly, a power outage detection signal is outputted by adopting a mode of combining power status indication and alarm signal output.
+60. 101902468 Multimedia safety signaling system
+CN
+01.12.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010222931.8
+21ViaNet (China), Inc.
+Hu Jinfei
+H04L 29/06
+Loading...
+The embodiment of the invention discloses a multimedia safety signaling system which realizes the purpose of managing service contents and user behavior through a monitoring function provided by service nodes, so that a manager can know specific service conditions of each multimedia content, thereby carrying out monitoring and managing according to the actual conditions; and the system dynamically selects proper multimedia service nodes for a user terminal through intelligent routing, thereby solving the problem of poor service reliability caused by that the user terminal only can access single multimedia service nodes.
+61. 101888384 Multi-media safety signaling system
+CN
+17.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010222946.4
+21ViaNet (China), Inc.
+Hu Jinfei
+H04L 29/06
+Loading...
+The invention discloses a multi-media safety signaling system which comprises a plurality of service nodes, an intelligent route node and a transport network, wherein the service nodes are arranged on different locations of the network in order to provide multi-media data to a user terminal, the intelligent route node comprises a service node selecting device which is used for selecting a target service node from the service nodes for the user terminal; and the transport network is used for carrying out data interaction among the service nodes, the intelligent route node and an external media source according to a preset encryption transport mode. The invention provides a reliable encryption transport process for information transport by adopting the encryption transport mode in the information transport process, solves the problem of poor safety of the prior art, dynamically selects a proper multi-media service node for the user terminal by the intelligent route node, and solves the problem of poor service reliability because the user terminal only accesses the single multi-media service node.
+62. 101888385 Multi-media safety signaling system
+CN
+17.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010223130.3
+21ViaNet (China), Inc.
+Hu Jinfei
+H04L 29/06
+Loading...
+The invention discloses a multi-media safety signaling system which comprises a plurality of service nodes, an intelligent route node and a transport network, wherein the service nodes are arranged on different locations of the network in order to provide multi-media data to a user terminal, the intelligent route node comprises a service node selecting device which is used for selecting a target service node from the service nodes for the user terminal; and the transport network is used for carrying out data interaction among the service nodes, the intelligent route node and an external media source according to a preset encryption transport mode. The invention dynamically selects a proper multi-media service node for the user terminal by the intelligent route node, and solves the problem of poor service reliability because the user terminal only accesses the single multi-media service node.
+63. 101877709 Multi-media safety signaling system
+CN
+03.11.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010222953.4
+21ViaNet (China) Inc.
+Hu Jinfei
+H04L 29/06
+Loading...
+The embodiment of the invention discloses a multi-media safety signaling system which comprises a plurality of service nodes, an intelligent route node and a transmission network, wherein the service nodes are configured on different positions of the network and used for providing multi-media data for a user terminal; the intelligent route node comprises a log record unit which is used for recording behavior logs of the user terminal in a process of accessing the service nodes; and the transmission network is used for carrying out data interaction among the service nodes, the intelligent route node and an external media source. The invention records the process of accessing the service nodes by the user terminal through the intelligent route node, thereby knowing the access behavior of the user and improving the safety and the efficiency of the service content and the service process.
+64. 101840346 Method and system for deploying cloud host computer
+CN
+22.09.2010
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+200910244182.6
+Beijing Century Internet Broadband Data Center Co., Ltd.
+Chang Xiaodong
+G06F 9/455
+Loading...
+The invention discloses a method and a system for deploying a cloud host computer. The method comprises the following steps of: establishing a virtual machine object according to a virtual machine establishing request of a user; modifying the attribute of the virtual machine object; converting the virtual machine object into a template data file; copying the template data file and creating a preset amount of pre-manufactured virtual machines; and receiving addresses and public key setting of the pre-manufactured virtual machines and enabling one of the pre-manufactured virtual machines. The method and the system for deploying the cloud host computer have the advantages of overcoming the disadvantages that the current cloud host deployment entirely depends on manual operation, production rate is low and maintenance cost is high, solving the problem of high error probability of the manual deployment of the cloud machine, and meeting the requirements of quickly deploying the cloud host machine and acquiring enough computing power.
+65. 101841451 Virtual local area network-based speed limiting method and system for cloud hosts
+CN
+22.09.2010
+H04L 12/46 Loading...
+H04L 12/46
+Loading...
+200910244181.1
+Beijing Century Internet Broadband Data Center Co., Ltd.
+Hu Xiangtao
+H04L 12/46
+Loading...
+The invention discloses a virtual local area network-based speed limiting method and a virtual local area network-based speed limiting system. A core switch is arranged in an elastic compute node network and is connected with a network switch. A gateway is configured for public cloud and private cloud respectively on the core switch; and a public cloud public network and each private cloud public network WLAN between the core switch and the network switch are connected through independent links. Each common server in a CloudEx network is respectively connected to the network switch through two lines, wherein one line is used for public network communication; the other line is used for private network communication. Each common server is respectively connected to the network switch through at least two lines, wherein one line is used for public network communication and used for bearing the public cloud public network VLAN and all private cloud public networks VLAN, and the other line is used for private network communication; and the public cloud public network VLAN and each private cloud public network VLAN between the core switch and the network switch are communicated through mutually independent links respectively. The method and the system make a plurality of cloud hosts share the network bandwidth and realize network isolation between users.
+66. 201583610 机架式热负载
+CN
+15.09.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200920299915.1
+北京世纪互联宽带数据中心有限公司
+张朵
+G01R 31/00
+Loading...
+本实用新型公开了一种机架式热负载，它由服务器机箱、安装在服务器机箱内的开关电源、PTC加热单元、风扇、安装在服务器机箱上的电源插座、指示灯和开关构成；所述服务器机箱为标准的2U高服务器机箱；PTC加热单元、风扇通过所述开关与所述开关电源相连；所述开关电源通过导线与安装在机箱上的电源插座相连。本实用新型利用PTC加热单元模拟安装在数据中心的服务器的发热元件，利用风扇模拟服务器的风扇散热。本实用新型的优点：结构简单，工程实用性强。
+67. 101778013 Website testing system and method
+CN
+14.07.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910243982.6
+21ViaNet (China), Inc.
+Jiang Jianping
+H04L 12/26
+Loading...
+The invention provides a website testing system. The website testing system comprises a task center, an intelligent client side, a data center, an analysis center and a test report center, wherein the task center is used to receive a test target defined by a tester and generate and store a test task according to the test target; the codes of the intelligent client side are embedded in the webpages of a host website, the intelligent client side is used to obtain the test task generated by the task center when the host website is accessed, perform a test according to the test task and report the test result after the test; the data center is used to receive and analyze the test result; the analysis center is used to collect and analyze the test result; and the test report center is used to combine the analyzed test result with user report and configuration and generate a diagram. The intelligent client side of the website testing system can be directly embedded in the host website, thus solving the problem that when the existing website testing system is used to perform website testing, the client side is needed to be hung up or nodes are needed to arrange in backbone networks so as to increase the cost of arranging test client side.
+68. 101739455 Analysis method of streaming media information on demand and method thereof
+CN
+16.06.2010
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200910244008.1
+Beijing 21ViaNet Inc.
+Chen Tao
+G06F 17/30
+Loading...
+The embodiment of the invention discloses an analysis method of streaming media information on demand and a method thereof. The method comprises the steps of: building an information data bank according to basic information and configuring a unified log information format; collecting log information after receiving an inquiry request of a user, and processing the collected log information to obtain the basic information; collecting the basic information to generate a basic information table; merging the basic information in the basic information table to generate an merged information table; screening out merged information which is accordant with the merged information table from the information data bank according to the basic information; and computing the screened merged information to obtain result information and providing the result information to the user. By adopting the way, the invention can provide more detailed and specific result information for the user.
+69. 101739618 Integrated service processing system
+CN
+16.06.2010
+G06Q 10/00 Loading...
+G06Q 10/00
+Loading...
+200910243414.6
+Beijing 21ViaNet Inc.
+Huang Wei
+G06Q 10/00
+Loading...
+The invention relates to an integrated service processing system, which comprises a central control module for uniformly coordinating and controlling each module and each subsystem in the system, an authority management module for managing the authority of a user, a man-machine interface module for providing a man-machine interface for the user to realize input and output of user data and service data, a database management module for storing various user data and service data and one or more service processing subsystems for processing services. The service processing configuration of different stages is performed on different users through the authority management module, so the users can operate the services which need to be processed after logging in the integrated service processing system, and the integrated service processing system is convenient and also improves the security; and the integrated service processing system can be connected with various service processing subsystems as required, and the subsystems are coordinated and controlled through the central control module, so the stability and the flexibility of the system are promoted.
+70. 101726639 Rack-mounted heat load and application thereof
+CN
+09.06.2010
+G01R 1/20 Loading...
+G01R 1/20
+Loading...
+200910259613.6
+Beijing 21ViaNet Data Center Co., Ltd.
+Weng Yuan
+G01R 1/20
+Loading...
+The invention discloses a rack-mounted heat load, comprising a server chassis, a switch power installed in the server chassis, a PTC heat unit, a fan, a power socket installed on the server chassis, an indicator light and a switch, wherein, the server chassis is a standard 2U server chassis; the PTC heat unit and the fan are connected with the switch power through the switch; and the switch power is connected with the power socket installed on the chassis through wires. The rack-mounted heat load of the invention utilizes PTC heat unit to simulate a heat element of a server installed in a data center, and utilizes the fan to simulate fan radiating of the server. The rack-mounted heat load has the advantages of simple structure and strong-practicability engineering.
+71. 101718825 Testing method of low-voltage power supply and distribution system of data center
+CN
+02.06.2010
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+200910241996.4
+Beijing 21ViaNet Data Center Co., Ltd.
+Li Ruiya
+G01R 31/00
+Loading...
+The invention discloses a testing method of a low-voltage power supply and distribution system of a data center, which adopts the working state of a low-power stand type heat load simulating server which can be installed in a cabinet, uses the low-voltage power supply and distribution system of the data center as an organic whole, and simultaneously tests equipment, a centralized monitoring system and an air-conditioning system in the low-voltage power supply and distribution system with loads. Before the data center is used, by comprehensively and systematically testing the power supply and distribution system in an on-line way, the invention can find out hidden faults and hidden hazards and can decrease the risk of power failure to the minimum. The invention not only can effectively debug the power supply and distribution system, the air-conditioning system and the centralized monitoring system integrally, but also can simultaneously test three systems, thereby shortening the testing period and improving the working efficiency.
+72. 101561164 Data center machine room energy-saving system
+CN
+21.10.2009
+F24F 5/00 Loading...
+F24F 5/00
+Loading...
+200810247583.2
+Beijing BANYANO Data Center Solutions Ltd.
+Tang Mali
+F24F 5/00
+Loading...
+The embodiment of the invention discloses a data center machine room energy-saving system, which comprises two rows of server machine cabinets placed face to face; the system is characterized in that wind tight baffles are arranged on the upward side and both ends of cold aisles of the two rows of server machine cabinets placed face to face and two ends; the wind tight baffles on the upward side and both ends of the cold aisles, the front of two rows of servers and a floor circle an enclosure space; the floor and/or on the baffles on the upward side of the cold aisles are provided with air outlet receiving cold air coming from an air conditioner and leading into the cold aisles. The system can reduce the energy consumption of the data center machine room conditioner, thus realizing the energy consumption of the data center machine room.
+73. 101482839 Electronic document increment memory processing method
+CN
+15.07.2009
+G06F 11/14 Loading...
+G06F 11/14
+Loading...
+200910078365.5
+Beijing Century Broadband Internet Data Center Co., Ltd.
+Jiang Jianping
+G06F 11/14
+Loading...
+The present invention relates to a method for generating incremental document after edition of electronic document, wherein the method comprises the following steps: reading the data from a reference document into an internal memory and dividing; calculating the index value corresponding with the divided reference data block and relating; sequentially reading the edited data block into the internal memory and calculating the corresponding index value; comparing the index value corresponding with the reference data block with the index value corresponding with the data block after editing, if the two index value are matching with each other, writing the matching position of reference document and matching mark into the incremental document, and otherwise writing the unmatched segment in the document after editing, the unmatched length and the unmatched mark into the incremental document. The invention also relates to a method for recovering the document after editing according to incremental document. The invention generates the incremental document through establishing a mapping relationship between two documents before and after editing and according to the recorded mapping relationship. The incremental document only requires processing for substituting the document after editing in the aspects of data storing, filing, backup, etc. for further reducing the storing burden or network transmission burden.
+

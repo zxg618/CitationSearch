@@ -1,0 +1,757 @@
+1. 106295397 一种文档操作信息跟踪方法
+CN
+04.01.2017
+G06F 21/62 Loading...
+G06F 21/62
+Loading...
+102016000617236
+无锡永中军安科技有限公司
+卢红波
+G06F 21/62
+Loading...
+本发明公开了一种文档操作信息跟踪方法，其包括：对给定文档进行输出操作，其中该给定文档内具有操作记录表；将所述输出操作的操作信息记录到该给定文档内的操作记录表中。这样，可以实现在任意环境下均可记录文档的输出操作信息，更好的保护文档安全。
+2. 101169777 Method for implementing word processing software layout compatibility
+CN
+30.04.2008
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200710177265.9
+Wuxi Evermore Software Co., Ltd.
+Zhuang Guolin
+G06F 17/21
+Loading...
+The invention relates to a word processing software version compatible method, which comprises reading data content from a word processing file; reading version information stored in the word processing file; loading the date content according to the object information, paragraph information and row information to generate a layout content of the word processing file; and displaying the layout content. The invention effectively assure the layout uniformity of different versions of word processing software opening under different software environments through the layout information stored in the word processing file, so as to realize version compatibility of different versions of word processing software under different software environments, especially to assure character amount uniformity in each row of the file, not causing character flowing in rows.
+3. WO/2007/115496 METHOD, PROGRAM AND STORAGE MEDIUM FOR STORING XML DOCUMENT
+WO
+18.10.2007
+G06F 17/20 Loading...
+G06F 17/20
+Loading...
+PCT/CN2007/001131
+WUXI EVERMORE SOFTWARE, INC
+HU, Jie
+G06F 17/20
+Loading...
+A method for storing a XML document includes: extracting the location information of data in a data structure; storing the location information of data into the XML document. When the XML document is opened, the corresponding data structure is created, and the data is loaded according to the address stored in the XML document. The data structure can be the tree type of the data structure or a spreadsheet.
+4. WO/2007/109988 ELECTRONIC TABLE DATA PROCESSING METHOD AND SYSTEM BASED ON TIME SEQUENCES
+WO
+04.10.2007
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+PCT/CN2007/000948
+WUXI EVERMORE SOFTWARE, INC
+WEI, Lijun
+G06F 17/24
+Loading...
+An electronic table data processing method based on time sequences includes: after receiving the processing request information for computing the data objects with time attribute, reading the basic period information in the electronic table, and computing the result data, determining the basic period contained in each computation result data and the write-in position of the computation result data in the electronic table based on the computing mode information in the processing request information, generating a computation formula for computing the basic period contained in the computation result data, and then utilizing the computation formula to compute the data object and writing the computation result data generated in the computation in terms of the requirement of the processing request information in the electronic table. An electronic table data processing system based on time sequences includes a position determining module and a computing module.
+5. WO/2007/095844 METHOD AND SYSTEM FOR BUILDING ARBORESCENCE FILE STRUCTURE IN COMPUTER
+WO
+30.08.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2007/000465
+WUXI EVERMORE SOFTWARE, INC
+WU, Liangqiao
+G06F 17/30
+Loading...
+A method and system for establishing arborescence file structure in computer, the method contains the steps as follows: a computer calling a panel generation program while it opening a file to establish a documentary arborescence constructional panel for displaying the file; the program calling file tree to generate a sub-process, adding a file node corresponded to the file into the panel, the displaying content of the file node of the file being the file name; the sub-process using the file node as root node, generating the file's arborescence structure of the file in the panel. The method can display opened file and information and mutual relation, so as to support every application file window among the switching, and avoid faulty operation occurrence. The system contains a panel establish module, a file node adding module, and an arborescence structure generating module. The system can implement the method for establishing arborescence file structure in the computer.
+6. WO/2007/093119 A PROCESSING METHOD AND SYSTEM OF CUSTOM OBJECT BASED ON OBJECT STORAGE LIBRARY
+WO
+23.08.2007
+G06F 17/20 Loading...
+G06F 17/20
+Loading...
+PCT/CN2007/000466
+WUXI EVERMORE SOFTWARE, INC
+LENG, Ye
+G06F 17/20
+Loading...
+A processing method and system of a custom object based on an object storage library is disclosed. The processing method includes: newly creating a universal object template (10), writing a corresponding information of the custom object into a name attribute, an application attribute, a display attribute and a data domain of the universal object template (20), storing the above information of the universal object template as a universal object in an identifiable format by the application (30), storing the universal object in an object storage library (40), loading the universal object by the application (50). The processing system includes: a module for newly creating a universal object template, a module for writing a corresponding information of the custom object into a name attribute, an application attribute, a display attribute and a data domain of the universal object template, a module for storing the above information of the universal object template as a universal object in an identifiable format by the application, a module for storing the universal object in an object storage library, a module for loading the universal object by the application.
+7. WO/2007/087753 PASTE LINK PROCESSING METHOD AND PASTE LINK PROCESSOR BASED ON OBJECT MEMORY DATABASE
+WO
+09.08.2007
+G06F 12/02 Loading...
+G06F 12/02
+Loading...
+PCT/CN2007/000310
+WUXI EVERMORE SOFTWARE, INC
+FENG, Jianpei
+G06F 12/02
+Loading...
+A processing method of paste link and a paste link processor based on object storage library are disclosed. The object storage library saves object and object link address which records the line or column number of an excel form; the line or column of the excel form saves a group of relative object storage address; the object storage address is the storage address of the object, when the object changes, implementing following steps: (1) accessing the object storage library and reading the object link address; (2) accessing the line or column of the excel form according to the recorded line or column number of the object link address; (3) updating the object content in the object storage library according to the object content changing, and/or updating object address in the line or column according to the object address changing. The paste link processor comprises a storage module, a guiding module, a positioning module and an editing module formed by the excel form.
+8. WO/2007/087754 OBJECT REFERENCE METHOD AND SYSTEM BASED ON OBJECT STORAGE LIBRARY
+WO
+09.08.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2007/000311
+WUXI EVERMORE SOFTWARE, INC
+HUANG, Fang
+G06F 17/30
+Loading...
+An object reference method based on object storage library comprises the steps: the reference object acquires the proxy address of the referred object according to the referred object, visits the proxy of the referred object based on the proxy address, and reads the object address recorded in the proxy. The reference object refers the referred object based on object address. The system includes: module for the reference object to acquire the proxy address of the referred object based on the referred object, module for visiting the proxy of the referred object based on the proxy address, module for reading the object address recorded in the proxy; module for the reference object to refer the referred object based on the object address.
+9. WO/2007/079678 INTEGRATED DISPLAYING METHOD AND SYSTEM FOR DEMO FILES
+WO
+19.07.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2007/000073
+WUXI EVERMORE SOFTWARE, INC
+GU, Wen
+G06F 17/30
+Loading...
+Integrated displaying method and system for demo files. At least two demo files are led into the integrated frame, at least one integrated-demo-file is generated by the integrated frame. The integrated frame establishes a tree structure for the integrated-demo-file. The integrated-demo-file, the demo files and the demo page are set on the nodes of different levels of the tree file structure in turns. The nodes that need to be displayed is marked, and an integrated play list composed by the items corresponding to the marked nodes is generated, a play engine displays the items of the play list by sequence.
+10. WO/2007/076717 GENERATING METHOD OF COMPUTER FORMAT DOCUMENT AND OPENING METHOD
+WO
+12.07.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2006/003730
+WUXI EVERMORE SOFTWARE, INC
+CHEN, Jie
+G06F 17/30
+Loading...
+A generating and an opening method for the format files of computers are disclosed, in which, the generating method includes transforming the content of spooling files of a character process file at the current environment to pictures to generate format file information describing related information of said picture numbers, format and stored position and packaging them into format files. Said method provides two generation modes: a format file storing pictures only and the format file storing file data and pictures. The opening method includes reading information of a file head to get the total pages and reading and displaying pictures in the format file based on the analysis of the file head information and the total pages, the opening mode includes two a read only mode and an edit mode.
+11. WO/2007/071181 METHOD FOR ACCESSING THE DATA IN XML FILE
+WO
+28.06.2007
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+PCT/CN2006/003490
+WUXI EVERMORE SOFTWARE, INC
+GUO, Wei
+G06F 17/30
+Loading...
+A method for accessing the data in the XML file is disclosed. The method includes the following steps: judging whether the index of the XML file which will be accessed is existed, if not, then constructing the index first; reading the index of the XML file into the memory; searching the marked information in the index with the predefined rules, and obtaining the location parameter of the marked information; abstracting the corresponding data object or element from the XML file based on the said location parameter of the marked information. According to the present invention, the data object or element to be processed can be located high efficiency and quickly, and speed for accessing the data of the large XML file can be improved, so that the operability is improved for the user.
+12. WO/2007/071182 METHOD FOR DISPLAYING THE DOCUMENT
+WO
+28.06.2007
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+PCT/CN2006/003491
+WUXI EVERMORE SOFTWARE, INC
+XU, Liang
+G06F 17/21
+Loading...
+A method for displaying the document is disclosed. The method includes the following steps: after the word processing process received the command for displaying the view, the system is switched to the state of the full screen displaying; the word processing process adjusts the zoom scale of the view display based on the resolution of the display device; the word processing process divides the document into several display pages based on the resolution of the display device and the zoom scale of the view; the word processing process displays the page full of the screen. The present invention realizes a new view manner. When the document is displayed, zoom scale is adjusted automatically, so that the document is adapted to the display device for the full screen displaying. When displaying the document full of the screen, the layout between the word and the object such as picture, form and so on in the document is kept. There are several functions such as navigation, drawing and so on embedded in the view in the state of the full screen display.
+13. WO/2007/071183 METHOD FOR INSERTING AND PLAYING A SLIDE IN A FILE
+WO
+28.06.2007
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+PCT/CN2006/003492
+WUXI EVERMORE SOFTWARE, INC
+PAN, Guojun
+G06F 17/21
+Loading...
+A slide inserting method in a file comprises the following steps: judging whether the inserted file is a slide file; setting the file type of the slide file if it is; extracting the file name, path, type and ID number array of the slide file and storing them in the internal memory, wherein the file ID number array records the slide ID number in the slide file selected by the user sequentially; establishing the slide object according to the file name, path, type and first ID number; inserting the slide object into the cursor position of the file. A slide playing method in a file is also provided.
+14. WO/2007/068204 PROCESSING METHOD OF ENHANCING OPENING SPEED OF CHARACTER PROCESSING DOCUMENT
+WO
+21.06.2007
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+PCT/CN2006/003392
+WUXI EVERMORE SOFTWARE, INC
+XU, Wenping
+G06F 17/21
+Loading...
+A processing method for raising the document opening speed of character processing, comprising: reading the data content of a document, reading the document-stored page typesetting information, obtaining the paragraph and the object information of pages, loading the data contents of the pages according to the paragraph and object information, and generating and displaying the page typesetting content. The method reads typesetting information of the document and routine data contents at the same time.
+15. 1862498 Converting method of object linking and embedded object
+CN
+15.11.2006
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+200610083272.8
+Wuxi Yongzhong Science and Technology Co., Ltd.
+Si Pengfei
+G06F 9/46
+Loading...
+The present invention relates to a conversion method of object interlinkage and embedded object. Said method includes the following steps: using computer to fetch OLE file, analyze its structure; according to the object type of obtained OLE object generating the object correspondent to current software, analyzing object file data of said object; making the analyzed object file data undergo the process of conversion treatment, utilizing object type correspondent to object file in current software to set the converted object file data on newly-generated object. Besides, by adopting reverse process of said process the object in current software can be converted into OLE object.
+16. 1862542 Method of shared object attribute
+CN
+15.11.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610083592.3
+Wuxi Yongzhong Science and Technology Co., Ltd.
+Jiang Baoxin
+G06F 17/30
+Loading...
+The present invention relates to a method of attribute share, including method for creating attribute library and method for searching object attribute data. The method for creating attribute library includes the steps of extracting attribute of object, associating attribute name with correspondent numerical value to form attribute object, writing all the attribute objects into data base and creating index for attribute objects. The method for searching object attribute data includes the steps of obtaining attribute name of object, accessing attribute library, searching correspondent attribute object and obtaining attribute data of object.
+17. 1862527 Method of line header and row header showing information in electronic table
+CN
+15.11.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200610083589.1
+Wuxi Yongzhong Science and Technology Co., Ltd.
+Wei Lijun
+G06F 17/24
+Loading...
+The present invention relates to a method for displaying line head and column head information in electronic table. Said method includes the following steps: (1), customer end module can send a display request information for displaying data information in line head and column head displayed on current page of electronic table into electronic table application program, in said display request information the address information of the described line head and column head is carried; (2), electronic table application program can obtain the data information correspondent to the described address information from system table, and can correspondently write said data information into the described line head or column head; (3), the electronic table application program can send the display indication information for displaying data information in described line head and column head into customer end module; and (4), customer end module can display correspondent data information in the described line head and column head.
+18. 1862528 Method for displaying data object discriptive information
+CN
+15.11.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200610083590.4
+Wuxi Yongzhong Scinece and Technology Co., Ltd.
+Wei Lijun
+G06F 17/24
+Loading...
+The present invention relates to a display method of descriptive information of data object. Said method includes the following steps: after the activated information of unit check on electronic table page is received by customer end module, the customer end module can send a request information for displaying descriptive information of data object in current activated unit check into electronic table application program; the electronic table application program can read the address information of current activated unit check, utilize the address information of said unit check to obtain the address of line head and column head correspondent to said unit check, then read the data information correspondent to line head and column head and write the literal information which is represented by data information and is used for describing data object message into display position, then send the indication information for displaying descriptive information of data object in display position into customer end module; the customer end module can display literal information in display position.
+19. 1858701 Realizing method for on-screen aid
+CN
+08.11.2006
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200610080683.1
+Yongzhong Science and Technology Co., Ltd., Wuxi
+Zhang Yiqiang
+G06F 9/44
+Loading...
+This invention relates to a realization method for on-screen help including the following steps: 1, starting up an on-screen help program, 2, generating an order character string describing the traversal relation of the control after the primary program of the applied software obtains the focus matter information for controlling the obtained focus to enter into the activation state on the applied software interface, 3, said on-screen help program conmmunacates with said primary program to get the order character string, 4, said on-screen program inquires the index table of the file of the on-screen help to get its path information corresponding to the character string, 5, outputting and displaying the on-screen help file corresponding to the string.
+20. 1831828 Method for saving XML file
+CN
+13.09.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610073001.4
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Hu Jie
+G06F 17/30
+Loading...
+A method for saving XML file includes picking up location information of data in data structure to save location information of data in XML file for loading data as per saved address in XML file, saving node address of data in file and loading data in tree structure according to node address in file when tree data structure is applied in file, saving lattice address of data in file and placing data in electronic table according to lattice address stored in electronic table when electronic table is applied in file.
+21. 1828607 Data search method for tree-type structural file
+CN
+06.09.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610066596.0
+Wuxi Evermore Software Co., Ltd.
+Chen Yan
+G06F 17/30
+Loading...
+The method comprises: after receiving the data lookup command, the data lookup program extracts the label information of the being-finding data to find out the information in index document and obtain opposite position parameters; then, obtains the data. This invention can look up data content rapidly even in non-tree-structure document.
+22. 1821993 Electronic form data processing method based on time sequence
+CN
+23.08.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200610065597.3
+Yongzhong Science and Technology Co., Ltd., Wuxi
+Wei Lijun
+G06F 17/24
+Loading...
+This invention provides a process method for electronic table data based on time sequences including reading the basic period information in the electronic table after receiving the required information for computing the data objects with time attribute and determining the basic period contained in each computation result datum and the write-in position of said datum in the table based on the computation result data to generate a computation formula for computing the basic period then utilizing said formula to compute the data object and writing the computed data generated in the computation in terms of the requirement of the request information in the electronic table.
+23. 1811775 Method for building tree file structure in computer
+CN
+02.08.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610008020.9
+Yongzhong Science & Technology Wuxi Co., Ltd.
+Wu Liangqiao
+G06F 17/30
+Loading...
+Present invention relates to a method for establishing arborescence file structure. It contains 1, computer calling panel generation program in open a file to establish a documentary arborescence constructional panel for displaying said file, 2, said program calling file tree generating subprocess, adding file node corresponded with said file, said file node displaying content is said file name, 3, said subprocess using said file node as root node generating said file arborescence structure in said panel .Said method can display opened, information and mutual relation, supporting every application file window switching, faulty operation occurrence.
+24. 1811788 Method for generating dynamic watermark in electronic documents
+CN
+02.08.2006
+G06F 21/24 Loading...
+G06F 21/24
+Loading...
+200610057687.8
+Yongzhong Science & Technology Co., Ltd., Wuxi
+Song Xueyong
+G06F 21/24
+Loading...
+Present invention relates to a method for generating dynamical watermark in electronic documents. It contains 1, determining dynamical watermark centre co-ordinate and shifting track according to page size and predetermined dynamical generating mode, 2, calling dynamical watermark time thread, interval exciting dynamical watermark drawing, 3, drawing first frame of dynamical watermark, 4, time thread erasing previous frame after predetermined time interval, drawing next frame if said dynamical watermark is page interval display, then time thread drawing next frame in next page, 5, executing step 4until user stopping or temporary stopping dynamical watermark effect, 6, display dynamical watermark. Present invention provides unitive plug-in unit interface integrating outside self-defined cartoon effect dynamical watermark, thereby to realize forgery prevention and protecting documentation target.
+25. 1808436 Object memory store based custom object processing method
+CN
+26.07.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610007388.3
+Wuxi Evermore Software Co., Ltd.
+Leng Ye
+G06F 17/30
+Loading...
+The invention relates to a treatment method for self-defining object of a small data or an application based on object database, which comprises: when application program loads self-defining object, the object database engine executes following operations: (1) new creating a general object template; (2) writing opposite information in the title attribute, application program attribute, display attribute and data domain; (3) storing said information as general object with format recognized by application program; (4) storing said object into database; (5) loading the object by application program. This invention realizes finally the secondary development of functional expansion to unknown object with office software.
+26. 1808381 User panel manager and method for creating user-defined dynamic subwindow
+CN
+26.07.2006
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200610007629.4
+Wuxi Evermore Software Co., Ltd.
+Rong Mingjun
+G06F 9/44
+Loading...
+The invention relates to a user interface manager and a method for stabling self definition dynamic sub window by employing the user interface manager. The user interface manager comprises: a surface module, a file module, a configuration module, a deploy module and a communication module. The interface module is set in the macro editor of the software system for responding the commands of 'insert' the 'user panel'; the file module, configuration module and the deploy module completes user complex program, relationship deploy and interface setting in present technology; user can establish self-definition sub window with simple element selection and arrangement.
+27. 1808390 Method for processing cut and pasted data
+CN
+26.07.2006
+G06F 9/54 Loading...
+G06F 9/54
+Loading...
+200610002855.3
+Wuxi Evermore Software Co., Ltd.
+Liu Kunpeng
+G06F 9/54
+Loading...
+The invention relates to a method for processing clip data comprising following steps: when capturing cut or copy commands, host process saves data object as files with current software format; clip subroutine takes format conversion on files with pre-defined format; clip subroutine saves the converted files on system clipboard. The invention also relates to another method for processing clip data comprising: when host process converting active status to inactive status, clip subroutine takes format conversion on files with pre-defined format. The invention has the advantages that: employing current file format to keep clip data can convert data format according to the environment requirement of paste software and avoid losing file format; it also can save clipboard data as a single file and provide good preview effect matching current software; the invention can improve develop efficiency by employing present software data conversion program without developing.
+28. 1808434 Object memory store based object reference method
+CN
+26.07.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200610003033.7
+Wuxi Evermore Software Co., Ltd.
+Huang Fang
+G06F 17/30
+Loading...
+The invention relates to a object reference method based object database, which comprises: the reference object acquires the proxy address of referred object to visit the proxy to read the recorded address in proxy and refer the referred object according. This invention creates a new object reference mechanism based on proxy to transfer the complex web reference relation into one-to-one reference relation and a new adjustment mechanism for object address without need to scan all reference objects to reduce extra processing and improve running speed and treatment performance.
+29. 1808364 Method for displaying electronic lantern navigation information on computer
+CN
+26.07.2006
+G06F 3/048 Loading...
+G06F 3/048
+Loading...
+200510132636.2
+Wuxi Evermore Software Co., Ltd.
+Rong Mingjun
+G06F 3/048
+Loading...
+The invention relates to a method for displaying electronic magic lantern navigating information on computer, which comprises steps of: 1. capturing pre-defined operating information triggered by external devices via main program; 2. according to the operating information, the main program starting the navigating information subroutine for reading lantern files and generating the clipped graphics of each lantern slides; 3. the navigating information subroutine displaying the clipped graphics list composed by the clipped graphics on screen with navigation bar. The invention has the advantages of providing more information to user and of being easy to operate.
+30. 1808388 Paste link processing method based on object memory database and past link processor
+CN
+26.07.2006
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+200610003036.0
+Wuxi Evermore Software Co., Ltd.
+Feng Jianpei
+G06F 9/46
+Loading...
+The invention relates to a processing method of paste link based on object store and a paste link processor. The object store saves object and object link address which records the line or column number of an excel form; the line or column of the excel from saves a group relative object storage address; the object storage address is the storage address of object, when object changes, implements following steps: (1) accessing object store and reading object link address; (2) accessing the line or column of the excel form according to the recoded line or column number of object link address; (3) updating object content in the object store according to the object content changes, and/or updating object address in the line or column according to the object address changes. The paste link processor comprises a storage module, a guiding module, a positioning module and an editing module formed by the excel form.
+31. 1804828 Method for implementing positioning display of opened file according to role
+CN
+19.07.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200610002119.8
+Wuxi Evermore Software Co., Ltd.
+Teng Jianfa
+G06F 17/24
+Loading...
+The invention relates to a method for doing position display to the file opened by angular pair, which comprises the following steps: 1. capturing the file's angular information which is main author information and /or accepter information and /or endorser information when the office software receives the opening file order; 2. quoting weather the angular information has the same information of the office software stored user information, if it has, carrying out the step 3, if not, carrying out the step 4; 3. capturing user information corresponding edit position information and displaying the file's edit position of the edit position information, then carrying out the step 5; 4. displaying the first page of the file; 5. finishing.
+32. 1801138 Method of undoing operation item in file compilation
+CN
+12.07.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200510133980.3
+Wuxi Evermore Software Co., Ltd.
+Liu Kunpeng
+G06F 17/24
+Loading...
+The invention discloses an item operation cancel method in the file editing course, which is characterized by the following: when the file editing program receives the item operation cancel order, it starts operation to cancel subprogram, which displays the item cancel list according to the stored editing data information; the user selects the operation item with cancel need in the item cancel list, who can select one or more operation item randomly; the operation subprogram judges whether the operation item is canceled; if yes, the subprogram cancels the operation item and displays the canceled file, which adjusts the canceled item in the present cancel list; if not, the subprogram prompts error information for user. The invention accomplishes the function of non-continuous cancel operation item, which is convenient to see execution result for user.
+33. 1794167 Method of setting printing parameter
+CN
+28.06.2006
+G06F 3/12 Loading...
+G06F 3/12
+Loading...
+200610000347.1
+Wuxi Yongzhong Science & Tech. Co., Ltd.
+Li Yang
+G06F 3/12
+Loading...
+A method for setting the printing parameter includes selecting out a set of printing parameter form system electronic table stored with printing parameter set and setting the printing equipment according said printing parameter when printing command is received by application software system, establishing electronic table in advance for storing the printing parameter set, storing tacitly approved printing pattern of application software system and storing the printing pattern.
+34. 1794221 Method of inserting/opening application document in electron list
+CN
+28.06.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200510130124.2
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Dang Yongzai
+G06F 17/24
+Loading...
+This invention relates to a method for plugging and opening applied files, in which, said plugging method includes: opening up a space for storing plugged applied files, obtaining the address information of said space and type information of the applied files to be stored in a unit and the data of the applied file is stored in the space, said opening method includes: judging if a program module for processing the applied files is in the electronic table process software, if so, it is started to open the applied file based on the address information, if not, it judges if an applied program is in the operation system, if so, it is started to open the applied file based on the address information.
+35. 1794219 Integrated playing method of demonstration manuscript
+CN
+28.06.2006
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200610000543.9
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Gu Wen
+G06F 17/21
+Loading...
+This invention relates to an integrated play method for a demonstration manuscript carried out in the software environment with an integration and leading-in function: leading in at least two demonstration manuscripts in the integration frame generating an integration manuscript and a tree like file structure, setting the files, manuscripts and pages on the nodes of different stages of the tree like structure, labeling the needed played nodes and generating an integrated play list composed of the items corresponding to the labeled nodes and playing the engine sequence and items contained in the integrated play list, which can set an integration list to realize the function of regulating play sequence and circulated play or selects to store a list for one subject or stores the list and related pages to a new integrated file.
+36. 1794081 Control method of object motion in filmslide
+CN
+28.06.2006
+G03B 21/00 Loading...
+G03B 21/00
+Loading...
+200510133979.0
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Rong Mingjun
+G03B 21/00
+Loading...
+A method for controlling object movement in lantern slide includes setting cartoon parameter with movement function for object, storing cartoon parameter in lantern slide processing procedure, receiving cartoon playing command by said procedure and analyzing movement function by it then generating play parameter according cartoon parameter, playing cartoon by lantern slide processing procedure according to play parameter.
+37. 1794218 Generating method of computer format document and opening method
+CN
+28.06.2006
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200510137834.8
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Chen Jie
+G06F 17/21
+Loading...
+This invention relates to a generating and an opening method for the format files of computers, in which, the generating method includes: transforming the content of spooling files of a character process file at the current environment to pictures to generate format file information describing related information of said picture numbers, format and stored position and package them to format files, said method provides two generation modes: a format file storing pictures only and the format file storing file data and pictures, the opening method includes: reading information of a file head to get the total pages and read and display pictures in the format file based on the analysis of the file head information and the total pages, the opening mode includes two: a read only mode and an edit mode.
+38. 1790339 Simulative operation system human-computer interaction implementation method based on browser
+CN
+21.06.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200510134301.4
+Wuxi Evermore Software Co., Ltd.
+Zhou Yong
+G06F 17/30
+Loading...
+The invention discloses a person-set mutual realization method of operation system emulation based on scanner, which comprises the following steps: (1) the customer sets the page through the network to connect server and scanner to enroll the server; (2) the scanner reads and operates the customer table program; the network table is established in the scanner; (3) the scanner downloads the mutual program and allocation data in the setting page; (4) the customer end analyzes the allocation data; (5) the mutual program reads the allocation data, which establishes the table manager; (6) the table manager establishes and allocates the table mutual element. The table mutual element contains speed pattern object, window object, task column and task column button object. The invention displays strong mutual function without any limit and refreshing the page, which improves the mutual function to the maximum limit.
+39. 1790316 Method of inserting and playing slide in file
+CN
+21.06.2006
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200510132635.8
+Wuxi Evermore Software Co., Ltd.
+Pan Guojun
+G06F 17/21
+Loading...
+The invention discloses a slide plugging method and play method in the file, which comprises the following steps: judging the plugged file is slide file; setting the file pattern if yes; extracting and storing the file name, path, pattern and mark number group in the internal memory, wherein the file mark number group records the slide mark number in the file; establishing the slide object according to the file name, path, pattern and first mark number; plugging the slide object at the cursor position. The invention is convenient to operate for user, which saves the slide play time and improves the working efficiency.
+40. 1790262 Method for controlling computer software running based on mouse track data
+CN
+21.06.2006
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+200510132634.3
+Wuxi Evermore Software Co., Ltd.
+Rong Mingjun
+G06F 9/44
+Loading...
+The invention discloses an operation and control method of computer software based on mouse track data, which comprises the following steps: 1. starting the mouse moving subprogram; 2. recording the mouse moving track data until the mouse stops moving; 3. comparing the moving track data of mouse moving subprogram with itself moving track sample; sending the operation order of relative moving track sample from the mouse moving subprogram to the main procedure if matching; executing step 2 if not matching. The invention transmits the moving track into the special software operation, which is convenient to memorize and use.
+41. 1790336 Document display method
+CN
+21.06.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200510132638.1
+Wuxi Evermore Software Co., Ltd.
+Xu Liang
+G06F 17/30
+Loading...
+The invention discloses a file display method, which comprises the following steps: after the character disposal procedure receives the view play order, it enters into full-screen state; the character disposal procedure adjusts the view convergent-divergent proportion according to the display equipment resolution ratio, which cuts the file into several playing pages and displays the playing page for full-screen. The invention reserves the typesetting pattern, which possesses the navigation and drafting and other functions.
+42. 1790988 Anti-theft electronic signature making and checking method
+CN
+21.06.2006
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+200510132307.8
+Wuxi Evermore Software Co., Ltd.
+Yang Chunlin
+H04L 9/32
+Loading...
+The invention relates to a manufacture method for electronic signature for theft protection, which comprises: producing a couple of public/private keys and enciphered discrete sequence values; calculating to generate enciphered data with said private key and discrete sequence values by encipher algorithm; preparing figure with said data to add on said signature by means of watermark. The opposite check method comprises: user inputs said public key; calculating by the manufacture software discrete sequence values with input key to compare with data contained in watermark; if same, sending a pass-check information to user by said software; or else, sending a check-failure information. This invention can ensure the authority and truth of electric document signed by electric signature.
+43. 1790335 XML file data access method
+CN
+21.06.2006
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200510132306.3
+Wuxi Evermore Software Co., Ltd.
+Guo Wei
+G06F 17/30
+Loading...
+The invention discloses an XML file data access method, which comprises the following steps: judging the index file of XML file exists; establishing the index file if not existing; reading the index file of XML file in the internal memory; finding the mark information in the index file according to the predefined regulation; obtaining the location parameter of marked information; prompting the data object or element in the XML file according to the location parameter of marked information. The invention quickens the data access speed of large-type XML file, which makes the user feel better operation.
+44. 1787471 Method for carrying communication connection over LAN
+CN
+14.06.2006
+H04L 12/28 Loading...
+H04L 12/28
+Loading...
+200510127418.X
+Yongzhong Sci. & Tech. Co., Ltd., Wuxi
+Jiang Tao
+H04L 12/28
+Loading...
+This invention relates to a method for carrying out communication connection in a LAN including: 1, a first computer sends a request to a second computer, 2, the second one examines if the connection number has reached to the maximum, if so, step 3 is done, otherwise, the local server program sets up connection with the first one, 3, the second one transfers requests orderly to servers of adjacent computers and examines if it has reached to the maximum connection number, if so, step 4 is carried out, otherwise, the server program sets up connection with the first one, 4, the extended server module in any server program expands the local server programs automatically to be connected with the first one.
+45. 1786942 Saving method for file editing environment and return method thereof
+CN
+14.06.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200510127419.4
+Yongzhong Sci. & Tech. Co., Ltd. Wuxi
+Liu Kunpeng
+G06F 17/24
+Loading...
+The invention relates to a method for storing and recovering file editing environment. As storing a file, the storing method stores various editing environment messages generated as editing into an editing environment message file, the editing environment messages comprise editing operation and editing data and the editing environment message file comprises arbitrary combinations of undo/redo, cut board, cursor and select, view region and other messages. As opening a file, the recovering method loads the editing environment messages contained by the read-in editing environment message file into the editing environments of the file to make corresponding treatments, such as display and switch. The invention creatively advances the concepts of editing environment and editing environment message file and can make a user keep the continuity of the train of editing thought by storing and recovering the editing environments and make the software with this technique have very strong extended applications, such as editing operation before recovery, recurrence of editing course, tracking editing record, etc.
+46. 1787443 Method for realizing file coordination processing
+CN
+14.06.2006
+H04L 12/16 Loading...
+H04L 12/16
+Loading...
+200510127417.5
+Wuxi Yongzhong Sci. & Tech. Co., Ltd.
+Jiang Tao
+H04L 12/16
+Loading...
+This invention discloses a method for realizing file cooperate process, in which, an edit terminal judges if shared files are stored in it, if not, the terminal sets up copies of the shared files and judges if the documents to be edited in the shared files are at the locked state and edits the armed edited documents and codes them to codes delivered by networks to generate refreshed prompt instruction and further sends said codes and refreshed prompt instruction out and releases the edited documents from locking.
+47. 1786941 Processing method of enhancing opening speed of word processing file
+CN
+14.06.2006
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200510131861.4
+Yongzhong Sci. & Tech. Co., Ltd., Wuxi
+Xu Wenping
+G06F 17/21
+Loading...
+The invention relates to a processing method for raising the document opening speed of character processing, comprising: reading the data content of a document, reading the document-stored page typesetting information, obtaining paragraph and object information of pages, and loading the data contents of the pages according to the paragraph and object information. The invention creatively advances a technical solution of reading typesetting information of the document and routine data contents at the same time, and can obtain the typesetting content of each page of the document using the page as a unit through completely simple calculated typesetting, so as to make a user only spend a shorter time in seeing the contents and typesetting styles of the needed pages. The invention has a more obvious effect of raising the document opening speed with respect to a document with more contents and richer formatting information, for an example of a 1000-page document, the opening time of the invention is only 1% of that of the existing character processing software.
+48. 1776667 Object position treating method for file editing
+CN
+24.05.2006
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200510130362.3
+Wuxi Yongzhong Sci & Tech. Co., Ltd.
+Zhuang Guolin
+G06F 17/24
+Loading...
+When arranging objects in paragraph, the layout program obtains horizontal justifying attribute of object and adjusts horizontal coordinate of object according to the horizontal justifying attribute. Obtaining vertical justifying attribute of object, the layout program determines whether the object possesses parameters of positioning attribute setup in advance; if yes, the layout program adjusts vertical coordinate of object according to parameters of justifying attribute; otherwise, the layout program adjusts vertical coordinate of object according to parameters of vertical position in vertical justifying attribute. In editing procedure, based on parameters of justifying attribute setup by user, the invention adjusts objects to the positions expected by the user automatically such as 'final page' or 'specified page'. The invention provides convenient and flexible tools for users to edit files.
+49. 1601522 Integrated data processing system
+CN
+30.03.2005
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200410074474.7
+Wuxi Yongzhong Tech Co., Ltd.
+Tsao Sheng A.
+G06F 17/24
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files 35. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+50. 1591409 Method for processing data using application program
+CN
+09.03.2005
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200410074473.2
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/24
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+51. 1591401 Data processing system using application program edition
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074475.1
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+52. 1591406 Integrated multi-purpose data processing system
+CN
+09.03.2005
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+200410074483.6
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/30
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+53. 1591400 Integrated data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074472.8
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+54. 1591403 Edition compatible data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074477.0
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+55. 1591411 Data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074479.X
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+56. 1591404 Multi-edition data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074481.7
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+57. 1591402 Integrated data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074476.6
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+58. 1591405 Edition compatible data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074482.1
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+59. 1591410 Integrated data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074478.5
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+60. 1591408 Method for processing data using application program
+CN
+09.03.2005
+G06F 17/24 Loading...
+G06F 17/24
+Loading...
+200410074471.3
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/24
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+61. 1591412 Integrated data processing system
+CN
+09.03.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200410074480.2
+Wuxi Yongzhong Science And Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/21
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+62. 1578949 Integrated data processing system with links
+CN
+09.02.2005
+G06F 17/00 Loading...
+G06F 17/00
+Loading...
+02821481.1
+Wuxi Yongzhong Science & Technology Co., Ltd.
+Tsao Sheng A.
+G06F 17/00
+Loading...
+An integrated multi-application data processing system including means for generating, storing, and retrieving data files, each data file having a multi-dimensional array of data cells, and a program framework providing a common user interface for at least one application program for user interaction with one or more of the data files. Further disclosed aspects of the invention include a version-compatible data processing system including an application program for user interaction with stored data a method for data processing using versions of an application program, and an integrated data processing system including an application program that has means for generating and editing data files.
+63. 1348135 Method of using electronic table unit as data target memory and linking
+CN
+08.05.2002
+G06F 9/06 Loading...
+G06F 9/06
+Loading...
+01134154.8
+Wuxi Yongzhong Science &. Technology Co., Ltd.
+Cao Can
+G06F 9/06
+Loading...
+A method of use electronic table unit as a data object storage bank and for interlinking adopts each unit to store data object and to use electronic table as data object storage bank with two dimensional table forming unit by the cross between each column to another and the formed electronic table unit being used as a data object storage tank to store the data. A storage unit will be formed by the number of line and column in the electronic table and the data object will be divided into three kinds of base, composite and combination. The data interlinking can be established quickly between office applications by "stick interlinking" command in making a real interlinking of data source in the target object to target object for keeping the synchronizatino and uniformity of the data.
+

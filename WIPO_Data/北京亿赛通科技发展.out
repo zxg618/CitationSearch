@@ -1,0 +1,85 @@
+1. 104980401 NAS服务器数据安全存储系统、安全存储及读取方法
+CN
+14.10.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410141431.X
+北京亿赛通科技发展有限责任公司
+阮晓迅
+H04L 29/06
+Loading...
+本发明公开了一种NAS服务器数据安全存储系统、数据安全存储方法及读取方法，属于网络存储技术领域。本发明所述的系统包括权限服务器和NAS服务器，用户在登录NAS服务器进行文件的安全存储或读取时，首先需要向权限服务器获取用于登录NAS服务器的用户证书，之后在登录到NAS服务器进行文件读取时，NAS服务器会通过类型密文生成装置模块对用户需要读取的文件进行加密，生成与用户权限匹配的类型密文并发送给用户；进行文件存储时，也会根据文件类型进行加密后再存储。通过本发明能够确保攻击者即使使用管理员权限账户从后台登入也无法获得机密数据，提高NAS服务器存储的安全性。
+2. 102929716 一种启动多进程的方法
+CN
+13.02.2013
+G06F 9/48 Loading...
+G06F 9/48
+Loading...
+201210440296.X
+北京亿赛通科技发展有限责任公司
+阮晓迅
+G06F 9/48
+Loading...
+本发明公开了一种启动多进程的方法，该方法首先监控目标程序启动进程，并向目标进程中注入动态链接库；然后创建内核对象目录，并在内核对象目录中创建内核符号链接对象；拦截目标进程创建或打开内核对象时需拦截的相关函数；最后监控目标进程对命名内核对象的操作并进行重定向。该方法通过重定向命名内核对象的方法，解决了现有启动多进程方法中目标程序不支持命令行多进程启动参数时，不能够启动多进程的问题，且能够不用分析目标程序和更新现有代码的情况下对启动多进程进行支持。解决了现有启动多进程方法的通用性问题。
+3. 102855419 Copyright protection method for data files of intelligent terminals
+CN
+02.01.2013
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201210254556.4
+北京亿赛通科技发展有限责任公司
+阮晓迅
+G06F 21/10
+Loading...
+The invention discloses a copyright protection method for data files of intelligent terminals, and belongs to the technical field of digital copyright protection. The method includes setting encipherment protection strategies including adopted encryption algorithm, used key length, generation type of keys and basic limits of authority of users for common data files, wherein the basic limits of authority include whether the data files can be edited and printed and whether user intelligent terminals are permitted to store dedicated authorized data; performing protection process on the common data files to be protected according to the encipherment protection strategies, and applying the protected data files to the user intelligent terminals. According to the copyright protection method, content of the protected data files is encrypted, if a user wants to access the files, he must download authorized data from an authorization server, the encrypted data files cannot be opened without the authorized data, and non-authoritative usage of the protected data can be prevented effectively.
+4. 102842002 智能终端的数字媒体版权保护方法
+CN
+26.12.2012
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201210254350.1
+北京亿赛通科技发展有限责任公司
+阮晓迅
+G06F 21/10
+Loading...
+本发明公开了一种智能终端的数字媒体版权保护方法，属于数字版权保护技术领域，本发明采用的技术方案是：设置普通数字媒体文件的加密保护策略，根据所述加密保护策略对待保护的普通数字媒体文件进行保护处理，用户智能终端应用所述受保护数字媒体文件。本发明对受保护数字媒体文件的内容加密，要播放该文件，必须从授权服务器上下载授权数据，没有授权数据，加密的数字媒体文件是无法播放的，能够有效地防止受保护数字媒体的非授权使用。
+5. 102819704 Document copyright protection method for intelligent terminal
+CN
+12.12.2012
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201210254541.8
+北京亿赛通科技发展有限责任公司
+阮晓迅
+G06F 21/10
+Loading...
+The invention discloses a document copyright protection method for an intelligent terminal and belongs to the technical field of the digital copyright protection. The method comprises the following steps of: setting an encryption protection strategy of a document file; converting the document file which needs to be protected into a hyper text markup language HTML form by using the page as the unit; according to the encryption protection strategy, carrying out protection processing on the converted document file to be protected and ensuring the intelligent mobile of a user to apply the protected document file. According to the invention, contents in the protected document file are encrypted, so that the unauthorized application of the protected document file can be effectively prevented. The access of the user to the file by using the page as the unit so as to control the times, chapters and the like that the user reads the file, prevent the uncontrolled diffusion of the document file and protect the intellectual property of the document file. The control fineness of the document copyright protection method is the page and the protection strategy not only can provide protection on the integral document file, but also can provide protection on the chapters of the file.
+6. 102158558 SAN (Storage Area Networking) storage encryption system and method
+CN
+17.08.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110092437.9
+Ruan Xiaoxun
+Yuan Xiaoxun
+H04L 29/08
+Loading...
+The invention discloses an SAN (Storage Area Networking) storage encryption system and method. The method comprises the following steps of: firstly, receiving an ISCSI (Internet Small Computer System Interface) or SCSI (Small Computer System Interface) order; transmitting an analyzed written-in roll order or a read roll order to an SAN storage encryption and decryption manager; then, generating an encryption strategy for a data encryption roll by the SAN storage encryption and decryption manager; encrypting data in a data buffer zone by an SAN storage encryption device according to the encryption strategy of the roll to obtain new encrypted data; decrypting data in the data buffer zone by an SAN storage decryption device according to a roll decryption strategy generated by the SAN storage encryption and decryption manager; and finally, transmitting the decrypted data to an SAN network or an SCSI bus. According to the system and the method disclosed by the invention, data on the SAN storage network and the storage equipment can not be revealed, and the safety of confidential data on the SAN storage network and equipment can be protected.
+7. 102129532 Method and system for digital copyright protection
+CN
+20.07.2011
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201110070536.7
+Ruan Xiaoxun
+Ruan Xiaoxun
+G06F 21/10
+Loading...
+The invention discloses a method and a system for digital copyright protection. According to the method and the system, a copyright protection policy is firstly set through a copyright data protection processing device, a common data file is encrypted by a key and then converted into the data file under copyright protection; an inquiry is then initiated according to copyright data ID of the data file under copyright protection through an authorized file generating device in order to obtain the key and the protection policy, and a user characteristic code is used to encrypt the key and the protection policy to obtain an authorized file; through an authorized file application device, the keys and the protection policy in the authorized file are restored to a key plaintext and a protection policy plaintext which can be directly used by a copyright data protection application device; and in the end, the decrypted and restored copyright data is transmitted to an application system through the copyright data protection application device and an application system interface. By means of the method and the system, the breaking of attackers can be effectively prevented in order to realize the protection for digital copyright.
+

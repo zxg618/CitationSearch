@@ -1,0 +1,1849 @@
+1. 106570142 一种数据渲染方法和装置
+CN
+19.04.2017
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000965356
+北京神州绿盟信息安全科技股份有限公司
+郑彬
+G06F 17/30
+Loading...
+本发明公开了一种数据渲染方法和装置，所述方法，包括：在进行数据渲染时，根据滑动块相对于滚动条顶部的距离、待展示数据集合大小和展示区域高度确定展示区域内首行展示数据在待展示数据集合中的第一序列标识；以及根据单位展示高度、所述第一序列标识以及展示区域高度确定展示区域内末行展示数据在待展示数据集合中的第二序列标识；根据第一序列标识和第二序列标识确定本次在展示区域展示的第一数据；根据所述第一数据进行渲染显示，采用本发明提供的方法，可以采用尽可能少的DOM节点来渲染海量数据，不仅节省了内存开销，且提高了用户体验。
+2. 106571951 审计日志获取、生成、验证方法、系统及装置
+CN
+19.04.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201610912393.2
+北京神州绿盟信息安全科技股份有限公司
+许德昭
+H04L 12/24
+Loading...
+本申请公开了一种审计日志获取、生成、验证方法、系统及装置，对审计日志的访问控制安全性较高。上述审计日志获取方法包括：审计服务器接收用户终端发送的身份验证请求；上述身份验证请求中包含用户身份标识信息；上述审计服务器在对用户进行身份验证通过后，接收上述用户终端发送的授权获取请求；上述授权获取请求中包含用户输入的第一识别码；上述审计服务器根据上述用户身份标识信息和上述第一识别码，生成授权文件，并将上述授权文件发送给上述用户终端；上述用户终端获取用户输入的第二识别码，基于上述第二识别码和接收的上述授权文件，获取存储器中存储的来自审计服务器的审计日志。
+3. 106557315 一种Web面板布局方法和装置
+CN
+05.04.2017
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201610965358.7
+北京神州绿盟信息安全科技股份有限公司
+郑彬
+G06F 9/44
+Loading...
+本发明公开了一种Web面板布局方法和装置，所述方法包括：对画布进行栅格化，栅格化后的画布包括至少一个画布宽度单元和至少一个画布高度单元，其中，每一画布高度单元包含多个画布宽度单元；针对任一面板模块，获取该面板模块包含的面板高度单元数和面板宽度单元数；遍历画布高度单元，确定当前遍历画布高度单元中的空闲画布宽度单元；根据所述面板高度单元数和面板宽度单元数，从所述空闲画布宽度单元开始确定该面板模块占用的画布宽度单元，采用此方法支持各种布局，且当面板模块或画布发生变化时，只需对发生变化的面板模块进行渲染，具有较高的灵活性和扩展性。
+4. 106549980 一种恶意C&C服务器确定方法及装置
+CN
+29.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201611264192.2
+北京神州绿盟信息安全科技股份有限公司
+周素华
+H04L 29/06
+Loading...
+本发明公开了一种恶意C&C服务器确定方法及装置，所述方法包括：模拟运行接收到的C&C文件，获取所述C&C文件关联的IP地址或URL；如果获取到IP地址，根据获取到的所述C&C文件是否存在预设的每项操作，及存在每项操作时对应的权重系数，确定所述C&C文件的评价分值，根据评价分值，确定所述IP地址对应的C&C服务器是否为恶意C&C服务器；如果获取到URL，获取所述URL对应的特征向量中的每个特征参数，根据预先训练完成检测模型及特征向量，确定所述URL对应的C&C服务器是否为恶意C&C服务器。用以解决现有技术中面对大量的C&C文件的数据无法有效处理，确定的恶意C&C服务器的准确性无法保证的问题。
+5. 106534078 一种建立黑名单的方法及装置
+CN
+22.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610912740.1
+北京神州绿盟信息安全科技股份有限公司
+邓军
+H04L 29/06
+Loading...
+本发明涉及网络安全技术领域，尤其涉及一种建立黑名单的方法及装置，用于实现对攻击源IP的快速预判和封禁。本发明实施例中，按照IP地址的连续性，建立第一IP地址区间；识别第一IP地址区间中的攻击源IP；根据相邻攻击源IP之间的间距和第一阈值，确定多个第二IP地址区；确定第二IP地址区间内的攻击源IP的密度，若攻击源IP的密度大于第二阈值，则将第二IP地址区间内首个攻击源IP和最后一个攻击源IP的信息记录于黑名单中。本发明实施例建立的黑名单反映了攻击源IP的分布规律，因此采用此黑名单可以实现对攻击源IP的快速预判从而提高了封禁效率，增强了设备性能。
+6. 106506553 一种网际协议IP过滤方法及系统
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001238386
+北京神州绿盟信息安全科技股份有限公司
+周思承
+H04L 29/06
+Loading...
+本发明公开了一种网际协议IP过滤方法及系统，所述方法包括：在获取到待过滤的IP报文后，获取所述IP报文中的IP标识信息；根据所述IP标识信息和预设的过滤条件，从所述IP信誉库中确定与所述IP标识信息对应的属性信息中符合所述过滤条件的属性项及所述IP标识信息对应的IP信誉值；根据所述IP标识信息对应的IP信誉值和所述符合所述过滤条件的属性项的参考值，确定所述待过滤的IP报文的安全等级；根据所述待过滤的IP报文的安全等级确定对所述待过滤的IP报文的响应结果。本发明实施例由于预设的过滤条件可以根据不同的应用场景进行设置，对IP的相应结果是结合了应用场景进行确定的，与现有技术相比，响应结果更加准确。
+7. 106506557 一种端口扫描检测方法及装置
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001246755
+北京神州绿盟信息安全科技股份有限公司
+袁帅
+H04L 29/06
+Loading...
+本发明实施例公开了一种端口扫描检测方法及装置，所述方法包括：A、统计设定时间长度内每个连接发起者与连接响应者进行数据包传输的信息，确定聚类后的类别数量；C：根据确定的类别数量，及每个特征向量对应的特征点之间的距离，对每个特征向量进行聚类；判断当前聚类的中心点与预先设定的标准点的最小距离对应的聚类是否满足终止条件；如果否，进行B；D：如果是，将当前聚类的中心点与预先设定的标准点的最小距离对应的聚类作为目标聚类；确定目标聚类中的每个特征向量对应的连接发起者对连接响应者进行端口扫描。用以解决现有技术存在端口扫描检测范围小、检测精度不高和性能不好的问题。
+8. 106506556 一种网络流量异常检测方法及装置
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001246751
+北京神州绿盟信息安全科技股份有限公司
+吴子建
+H04L 29/06
+Loading...
+本发明公开一种网络流量异常检测方法及装置，该方法包括：获取网络监测节点在设定时间段内生成的网络数据流；针对所述网络数据流中的任一属性，根据所述任一属性，将所述网络数据流以设定时间间隔进行聚合，生成关于所述任一属性的N个时间序列；根据各个属性分别对应的N个时间序列，确定所述网络数据流对应的N个待检测样本，计算所述第一时间序列分别与其余N‑1个待检测样本中的所述第一属性对应的N‑1个第二时间序列之间的角度相异度，根据所述第一时间序列对应的N‑1个角度相异度，确定出关于所述第一时间序列的第一检测结果；根据每个待检测样本中的每个时间序列的检测结果，确定所述每个待检测样本是否为异常数据流。
+9. 106506564 一种漏洞管理方法及装置
+CN
+15.03.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001264196
+北京神州绿盟信息安全科技股份有限公司
+李瀛
+H04L 29/06
+Loading...
+本发明涉及信息安全领域，尤其涉及一种漏洞管理方法及装置，该方法为，针对获得的每一个漏洞，根据预设的风险评分方法，分别计算每一个漏洞的脆弱性值；其中，所述脆弱性值表征漏洞的风险评分；根据获得的每一个漏洞的脆弱性值，分别计算每一个漏洞在各个预设的优先级构成因子下的加权脆弱性值；根据计算获得的每一个漏洞在各个预设的优先级构成因子下的加权脆弱性值，分别计算每一个漏洞的处置优先级，这样，引入了处置优先级的概念，可以根据用户需求设定优先级构成因子，在现有风险评分基础上量化了漏洞的处置优先级，有利于区分风险和处置优先级，更为贴近用户的需求，便于用户对漏洞风险的量化管理，提高了用户管理漏洞的效率。
+10. WO/2017/028789 NETWORK ATTACK DETECTION METHOD AND DEVICE
+WO
+23.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2016/095714
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+SHEN, Junli
+H04L 29/06
+Loading...
+Provided are a network attack detection method and device. The method comprises: carrying out word segmentation to a character string to be detected and obtain words; determining the tuples corresponding to the to-be-detected character string; determining whether, in an attack model database, there are model tuples corresponding to the tuples, and whether there are model words corresponding to the first one of these words, the model tuples, the occurrence probability of each model tuple, the model words and the occurrence probability of each model word being stored in the attack model database; if there are, acquiring the corresponding model tuples and the occurrence probability of the corresponding model words, and determining, on the basis of the occurrence probability of the corresponding model tuples and the occurrence probability of the corresponding model words, the attack probability corresponding to the to-be-detected character string; and if the attack probability is larger than or equal to a preset probability threshold, determining that the to-be-detected character string is a character string having an attack behavior, and thereby accurately determining whether the to-be-detected character string has an attack behavior.
+11. 106452738 一种登录设备的认证方法、装置和系统
+CN
+22.02.2017
+H04L 9/08 Loading...
+H04L 9/08
+Loading...
+201610840048.2
+北京神州绿盟信息安全科技股份有限公司
+高峰
+H04L 9/08
+Loading...
+本发明公开了一种登录设备的认证方法、装置和系统，所述方法包括：在登录中间网络设备的过程中，接收客户端发送的身份验证请求，所述身份验证请求中携带有认证图形码和云帐号信息，所述认证图形码中携带有所述中间网络设备的设备标识信息；根据所述云帐号信息，在存储的云帐号信息与设备标识信息之间的对应关系中查找其对应的设备标识信息；根据查找到的设备标识信息确定身份验证结果；向所述中间网络设备返回身份验证结果，所述身份验证结果用于指示所述中间网络设备对所述用户进行登录认证，用户无需再记忆复杂的密码即可实现对中间网络设备的登录和配置，同时也避免了因密码泄露所带来的中间网络设备不安全问题。
+12. 106411589 一种实现高可用的方法和装置
+CN
+15.02.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000866059
+北京神州绿盟信息安全科技股份有限公司
+孙翔宇
+H04L 12/24
+Loading...
+本发明实施例涉及网络安全领域，尤其涉及一种实现高可用的方法和装置，用于使多种网络安全设备实现高可用。第一监控单元获取第一被监控对象的状态变化信息，并接收第二监控单元发送的第二被监控对象的状态变化信息，第二被监控对象为第一被监控对象的主设备或从设备；第一监控单元在第一被监控对象的状态变化信息和第二被监控对象的状态变化信息满足预设的主备切换条件时，更新第一被监控对象的主备状态；同时兼容“转发引擎并行化”架构下的下一代防火墙/入侵防御系统、ATCA分布式防火墙和虚拟防火墙；当需要更换网络安全设备时，不需要对设备或者设备的系统进行更改或更换，降低了运行成本，提高了工作效率。
+13. 106385407 一种应用识别待分析数据包去噪声的方法和装置
+CN
+08.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610804745.2
+北京神州绿盟信息安全科技股份有限公司
+赵洪亮
+H04L 29/06
+Loading...
+本发明实施例涉及网络技术领域，尤其涉及一种应用识别待分析数据包去噪声的方法和装置，包括：获取待识别的会话数据包，将二级网段IP地址相同的会话数据包划分为一类分类数据包，将包含相同域名的分类数据包合并为目标数据包，然后获取待查找的应用关键词，并确定与应用关键词对应的目标域名，最后将目标数据包中包含目标域名的会话数据包作为待分析会话数据包。可以看出，在获取待识别的会话数据包之后，将二级网段IP地址相同的会话数据包划分为一类分类数据包，并将包含相同域名的分类数据包合并为目标数据包，因此，能够将IP地址、Host字段看似不相关的会话数据包，实则属于同一应用的会话数据包归类为待分析的会话数据包。
+14. 106385378 一种带内管理控制下控制报文的处理方法及装置
+CN
+08.02.2017
+H04L 12/823 Loading...
+H04L 12/823
+Loading...
+201610796963.6
+北京神州绿盟信息安全科技股份有限公司
+赵跃明
+H04L 12/823
+Loading...
+本发明公开了一种带内管理下控制报文的处理方法及装置，该方法为基于分配获得的第一CPU资源，接收上游设备发送的数据流，并从数据流中区分出管理报文和业务报文，以及将管理报文和业务报文分别存入缓存队列；基于分配获得的第二CPU资源，对管理报文进行处理；基于分配获得的第三CPU资源，对业务报文进行处理，并在确定第三CPU资源达到业务性能极限时，基于第一CPU资源，对业务报文进行丢弃处理。这样，设备就可以始终线速地接收所有上游设备发送的数据流，并确保了即使在业务性能达到极限时，只丢弃业务报文，从而使管理报文可以及时处理，保证了管理报文的协议的稳定性，网络的有效稳定运行，以及用户业务的持续稳定运行。
+15. 106375318 一种网络访问控制系统和方法
+CN
+01.02.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000801105
+北京神州绿盟信息安全科技股份有限公司
+周年华
+H04L 29/06
+Loading...
+本发明公开了一种网络访问控制系统和方法，用以保证防火墙获得的IP地址与PC端获得的IP地址一致，提高了网络访问控制的准确性。所述网络访问控制系统，包括：解码模块，用于截获并解码域名服务器发送给个人电脑PC端的地址解析协议DNS协议响应数据包，所述DNS协议响应数据包中携带有域名对象与互联网协议IP地址列表的对应关系；预处理模块，用于根据所述域名对象与IP地址列表的对应关系以及预设的域名对象与安全策略的对应关系，得到所述IP地址列表与安全策略的对应关系；所述数据转发模块，用于从所述预处理模块获取所述IP地址列表与安全策略的对应关系；并根据所述IP地址列表与安全策略的对应关系进行网络访问控制。
+16. 103984898 一种喷射模式攻击的检测方法和装置
+CN
+01.02.2017
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+102014000236293
+北京神州绿盟信息安全科技股份有限公司
+郝力男
+G06F 21/56
+Loading...
+本发明实施例涉及计算机安全技术领域，尤其涉及一种喷射模式攻击的检测方法和装置，用以解决仅通过检测恶意攻击指令shellcode是否可执行来判断是否存在喷射模式攻击的方法会出现检测失效的问题。本发明实施例的方法包括：对敏感函数的调用情况进行检测；若敏感函数的调用异常且产生异常内存块的累计次数不小于第一阈值，则对敏感函数调用过程中产生的异常内存块进行时间戳检测，依据时间戳检测的结果生成第一分数；若第一分数不小于第二阈值，则确定应用程序存在喷射模式的攻击。由于通过对异常内存块的时间戳进行检测即可判断出是否存在喷射模式的攻击，从而减少了检测失效的情况的发生。
+17. 106357685 一种防御分布式拒绝服务攻击的方法及装置
+CN
+25.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000967129
+北京神州绿盟信息安全科技股份有限公司
+周士钦
+H04L 29/06
+Loading...
+本申请涉及网络安全技术领域，尤其涉及一种防御DDOS攻击的方法及装置，用以解决现有技术中流量清洗装置在遇到DDOS攻击时，无法对受保护端进行实时有效地防护的问题；本申请实施例提供的方法包括：云端安全服务中心在检测到受保护端的状态满足预设的故障条件时，根据受保护端对应的流量清洗装置上报的流量统计数据，判断流量清洗装置是否正在接受DDOS攻击；在确定流量清洗装置正在接受DDOS攻击后，向流量清洗装置发送抓取报文的指令；接收流量清洗装置发送的报文，通过分析接收的报文的攻击特征，为流量清洗装置生成更新的防护策略；将生成的更新的防护策略发送给流量清洗装置，以便流量清洗装置对DDOS攻击进行防御。
+18. 106357696 一种SQL注入攻击检测方法及系统
+CN
+25.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016001000131
+北京神州绿盟信息安全科技股份有限公司
+彭元
+H04L 29/06
+Loading...
+本发明公开了一种SQL注入攻击检测方法及系统，用以提高SQL注入攻击漏洞检测的准确性，帮助网站发现真实的SQL注入漏洞。所述SQL注入攻击检测方法，包括：针对请求端向服务端发送的超文本传输协议HTTP请求，检测所述HTTP请求中包含的危险攻击HTTP请求和/或安全攻击HTTP请求；对于检测到的安全攻击HTTP请求发送给所述服务端，并拦截检测到的危险攻击HTTP请求；针对所述服务端向所述请求端返回的包含有所述安全攻击HTTP请求的HTTP请求对应的HTTP响应，如果检测到所述HTTP响应中包含预设的第一特征信息，则确认存在SQL注入漏洞。
+19. 106330951 一种网络防护方法、装置和系统
+CN
+11.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610827108.7
+北京神州绿盟信息安全科技股份有限公司
+陈涛
+H04L 29/06
+Loading...
+本发明公开了一种网络防护方法、装置和系统，所述网络防护方法，包括接收至少一台流量清洗设备发送的其针对每一目的IP统计的访问流量；针对每一流量清洗设备，统计该流量清洗设备的访问流量总和，和/或统计所有流量清洗设备的访问流量总和，和/或相同目的IP访问流量总和；如果任一流量清洗设备的访问流量总和或者所有流量清洗设备的访问流量总和超过预设阈值，则按照访问流量总和由大到小的顺序对所有目的IP进行排序；将前N位目的IP的下一跳路由配置为空路由，其中N为大于等于1的自然数，从而可以快速检测到DDoS大流量攻击，并有效地实现对DDoS大流量攻击的防护，从而保证了其它业务的正常访问。
+20. 106330563 一种确定内网HTTP通信流服务类型的方法及装置
+CN
+11.01.2017
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000787223
+北京神州绿盟信息安全科技股份有限公司
+徐牧池
+H04L 12/24
+Loading...
+本发明涉及计算机技术领域，尤其涉及一种确定内网HTTP通信流服务类型的方法及装置，包括：解析HTTP通信流得到URL，判断是否满足触发条件，若满足，则判断当前时间与最有效服务通信流列表的更新时间的差值是否不小于更新时间阈值；若不小于，表明最有效服务通信流列表中的HTTP通信流趋于稳定，则解析出最有效服务通信流列表中的HTTP通信流的服务类型和服务标志信息，并建立识别规则。本发明实施例，从大量通信流中筛选出部分最有效服务通信流来建立识别规则，从而实现了自动化的对内部网络中HTTP通信流中的有效服务完成识别，在无人工参与情况下可以有效管控内部网络中的HTTP通信流。
+21. 106294150 一种测试加载方法及装置
+CN
+04.01.2017
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201610648290.X
+北京神州绿盟信息安全科技股份有限公司
+鲁迅
+G06F 11/36
+Loading...
+本申请涉及计算机技术领域，尤其涉及一种测试加载方法及装置，用以解决现有技术中存在的自动化测试技术中，测试的灵活性较低，实现测试的成本较高的问题；本申请实施例提供的方法包括：确定待执行的测试任务对应的测试版本信息、用例文件信息和测试技术；根据所述测试版本信息和用例文件信息，加载用例文件；根据加载的所述用例文件中指定的业务功能、所述测试技术、以及所述测试版本信息，加载实现所述业务功能的测试脚本以及测试数据，进而可以基于加载的所述测试脚本和测试数据，执行测试运行流程，因而能有效提高测试的灵活性，降低测试的成本。
+22. 106302495 一种ACK Flood攻击的防护方法及中间防护装置
+CN
+04.01.2017
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610726609.6
+北京神州绿盟信息安全科技股份有限公司
+杨旭
+H04L 29/06
+Loading...
+本发明公开了一种ACK Flood攻击的防护方法及中间防护装置，用以在保证客户端与目标服务器之间的连接不中断的同时，提高ACK Flood攻击的防护效果。该方法为：中间防护装置分别基于各个待处理ACK报文，生成相应的探测报文后，丢弃各个待处理ACK报文，分别将各个探测报文返回至相应的客户端，判定返回探测响应报文的客户端是合法客户端，将该合法客户端重传的待处理ACK报文发送至相应的目标服务器；判定未返回探测响应报文的客户端是非法客户端。这样，中间防护装置就可以在保证各个合法客户端与相应的目标服务器之间的连接不中断的同时，识别出各个非法客户端，以提高ACK Flood攻击的防护效果。
+23. 106254394 一种攻击流量的记录方法和装置
+CN
+21.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000867805
+北京神州绿盟信息安全科技股份有限公司
+刘文辉
+H04L 29/06
+Loading...
+本发明公开了一种攻击流量的记录方法和装置，用以解决现有技术中存在的DDoS攻击记录冗余，以及长时间开启手工抓包导致防护工具防护性能下降的问题，所述攻击流量的记录方法，包括：接收流量检测引擎发送的开始记录流量的第一请求，所述第一请求中携带有需记录的数据包序列及获取所述数据包序列的第一时间；根据所述数据包序列每一数据包的大小，确定所述数据包序列对应的流量值；根据所述流量值及所述第一时间确定流量记录频率；按照确定出的所述流量记录频率对服务器访问流量进行记录并存储。
+24. 106254375 一种无线热点设备的识别方法及装置
+CN
+21.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102016000804232
+北京神州绿盟信息安全科技股份有限公司
+凌杰
+H04L 29/06
+Loading...
+本发明涉及网络安全领域，特别涉及一种无线热点设备的识别方法及装置。该方法为：边界网关对其接收到的来自企业内网的数据流量中的各个数据包进行协议分析，根据分析结果，边界网关至少要识别出各个数据包所对应的TTL信息，然后，边界网关会至少基于各个数据包的TTL信息判断网络中是否存在疑似无线热点设备。此识别方法只需要对来自企业内网的数据流量中的数据包进行TTL信息分析即可得到识别结果，这样，就不存在技术局限性，在降低了技术实现复杂度的同时，也能确保边界网关能够准确识别出疑似无线热点设备，并且此识别方法的执行方式具有随时性，因此，也能够有效提高识别效率。
+25. 106230823 一种流量统计方法及装置
+CN
+14.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610622351.5
+北京神州绿盟信息安全科技股份有限公司
+张磊
+H04L 29/06
+Loading...
+本发明涉及网络安全领域，尤其涉及一种流量统计方法及装置，用于在保证流量统计性能的同时，减小内存占用量。该方法为：清洗装置利用若干线程分别获得的数据流量进行报文统计，将多个线程绑定在不同的物理CPU下，同时给各个物理CPU分别分配一份内存资源，而各个线程将各自的统计结果存储在绑定的物理CPU对应的内存资源中；这样，可以不必为每一个线程分配单独的内存，从而大大减小了内存占用量；另一方面，虽然每一份内存资源下的各个线程在存储各自的统计结果时仍需要排队访问，但同一个物理CPU下内存的缓存命中率高，访问速度快，因此，即使排除访问不会影响存储速度，从而有效提高了统计效率，保证了流量统计性能。
+26. 103368927 一种安全配置核查设备和方法
+CN
+14.12.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+102012000104284
+北京神州绿盟信息安全科技股份有限公司
+孙建鹏
+H04L 29/06
+Loading...
+本发明公开了一种安全配置核查设备，包括一个或者多个扫描策略，每个扫描策略对应于一种网络设备，其中每个扫描策略包括一个或者多个安全检查项，每个安全检查项与相对应网络设备上的安全配置相关联；一个或者多个预定义模板，每个预定义模板与一个安全检查项相对应；转换引擎，被配置为选择与目标网络设备相对应的扫描策略中的一个安全检查项，将根据与该安全检查项相对应的预定义模板来将该安全检查项转换为可执行应用；以及执行接口，被配置为通过该接口下载经转换的可执行应用以便在目标网络设备上执行。本发明还公开了一种相应的安全配置核查方法。
+27. 106101145 一种网站漏洞检测方法及装置
+CN
+09.11.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201610654171.5
+北京神州绿盟信息安全科技股份有限公司
+李虎
+H04L 29/06
+Loading...
+本发明公开一种网站漏洞检测方法及装置，该方法包括：接收用户对网络站点的访问请求，所述访问请求中包含http请求链接；根据所述访问请求加载页面数据，并在加载页面数据时加载漏洞检测程序；运行加载的漏洞检测程序，所述漏洞检测程序用于监控与所述http请求链接对应的网页程序中的关键函数，并获取所述关键函数运行时的参数；判断所述关键函数运行时的参数是否在异常信息数据库中是否存在匹配项；若存在，则根据所述关键函数的类型确定对应的网站漏洞，用以解决现有技术中存在无法准确高效实时地检测网站漏洞的问题。
+28. 103491025 一种应用流量识别的方法及装置
+CN
+19.10.2016
+H04L 12/865 Loading...
+H04L 12/865
+Loading...
+102013000418298
+北京神州绿盟信息安全科技股份有限公司
+严心猷
+H04L 12/865
+Loading...
+本发明公开了一种应用流量识别的方法及装置，主要包括：针对应用产生的会话中各数据包中字符串的状态和数据包的特征从定义的大量协议中筛选出与该应用匹配的协议，进而根据协议优先级选择出与该应用匹配的协议中优先级最高的协议作为该应用所依据的协议，由于最终选择出的协议是与该应用匹配的且优先级最高的协议，因此，根据最终选择出的协议来识别应用可有效提高应用识别的准确性。
+29. 106021373 一种文件更新方法及装置
+CN
+12.10.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201610309804.9
+北京神州绿盟信息安全科技股份有限公司
+范敦球
+G06F 17/30
+Loading...
+本发明公开了一种文件更新方法及装置，包括：在确定出需要对文件进行更新时，将预先设定的文件更新层的第一更新文件目录重新命名为第二更新文件目录；备份所述第二更新文件目录并将备份的所述第二更新文件目录重新命名为第一更新文件目录；获得更新的文件内容；将所述文件内容安装到重新命名后的所述第一更新目录中；以及在设定时间到达时更新所述文件内容至预先设定的文件更新层，用于在不影响工控系统的运行的前提下，提高文件更新的灵活性。
+30. 105975493 一种文件合并方法及装置
+CN
+28.09.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+102016000266690
+北京神州绿盟信息安全科技股份有限公司
+方明
+G06F 17/30
+Loading...
+本发明公开了一种文件合并方法及装置，该方法包括：在分布式数据库存储系统中，针对数据库中任一文件存储区，在确定出所述文件存储区符合设定的文件合并条件时，创建与所述数据库相同格式的临时存储区；将所述文件存储区中的第一文件复制到所述临时存储区第二文件中；以及将所述临时存储区中的第二文件回写入所述文件存储区中，以覆盖所述文件存储区中第一文件；从而有效的合并数据库中的小文件。
+31. 103226470 一种确定基于BVS的检查项权重值的方法及装置
+CN
+14.09.2016
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+102013000091507
+北京神州绿盟信息安全科技股份有限公司
+符润祯
+G06F 9/44
+Loading...
+本发明公开了一种确定基于BVS的检查项权重值的方法及装置，该方法包括：在自定义扫描模板时，新建一条检查项后，确定新建检查项所属的模板类型，并在预先建立的检查项库中获取与所述新建检查项所属的模板类型相同的检查项，作为所述新建检查项的同类型检查项；从所述同类型检查项中筛选出与所述新建检查项的相似度大于设定阈值的检查项作为所述新建检查项的相似检查项；若能够筛选出所述新建检查项的相似检查项，根据所述相似检查项与所述新建检查项的相似度、及对应的相似检查项的权重值，确定所述新建检查项的权重值。该方案可以提高确定新建检查项的权重值的效率和准确性。
+32. 105915400 一种数据流切换方法及系统
+CN
+31.08.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+102016000495144
+北京神州绿盟信息安全科技股份有限公司
+孙翔宇
+H04L 12/24
+Loading...
+本发明公开一种数据流切换方法及系统，该方法包括：利用VRRP监测上下游链路，当满足主备设备切换条件时触发第一转发设备和第二转发设备的主备状态发生切换，向网络侧的交换机发送免费ARP通告报文；删除第一转发设备与上游路由器之间联通链路的第一静态路由，生成第二转发设备与上游路由器之间联通链路的第二静态路由；根据所述第二转发设备向网络侧的交换机发送的免费ARP通告报文，更新所述交换机的转发信息，向上游的路由器重分发直连路由和第二静态路由的信息，以使路由器重新计算最优链路路径的路由表，根据计算得到的路由表切换上游路由器数据流的流向，以解决现有技术中当主备切换后数据流流向错误的问题。
+33. 103310160 一种防止网页被篡改的方法、系统及装置
+CN
+10.08.2016
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+102013000247171
+北京神州绿盟信息安全科技股份有限公司
+张云海
+G06F 21/60
+Loading...
+本发明公开了一种防止网页被篡改的方法、系统及装置，能够有效地对网页数据进行认证，提高网页数据的安全性。其中，该方法包括：接收终端用户发来的网页数据更新请求；在所述网页数据更新请求是请求对静态数据进行更新时，通过密钥对更新的静态数据进行签名后，发送给网络系统中的文件服务器，和/或在所述网页数据更新请求是请求对动态数据进行更新时，通过密钥对用于更新动态数据的SQL中各字段的数值进行签名后，发送给网络系统中的数据库服务器，其中数据库服务器在确定出SQL中各字段的数值的签名均为有效签名时，执行SQL进行动态数据的更新。
+34. WO/2016/095591 VULNERABILITY SCANNING METHOD AND DEVICE
+WO
+23.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/091030
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+LI, Ying
+H04L 29/06
+Loading...
+Provided in an embodiment of the present invention are a vulnerability scanning method and device. The method comprises: a reverse scan proxy module obtains a client packet; the reverse scan proxy module sends the client packet to a vulnerability scanner, such that the vulnerability scanner identifies a vulnerability of the client according to the client packet; or the reverse scan proxy module identifies the vulnerability of the client according to the client packet, and sends the vulnerability of the client to the vulnerability scanner; the reverse scan proxy module receives a control signaling of the vulnerability scanner, changes an operating method and/or an operating mode according to the control signaling, and updates a vulnerability rule. The embodiment of the present invention obtains a client packet via a reverse scan proxy module, analyzes the client packet to identify a vulnerability existed in a client, and on the basis of a security problem of a remote detection server, adds the analysis on a client security problem, thus detecting the security of a whole network environment.
+35. 105704119 一种确定网络安全态势分布的方法及装置
+CN
+22.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511032688.2
+北京神州绿盟信息安全科技股份有限公司
+李瀛
+H04L 29/06
+Loading...
+本发明实施例公开了一种确定网络安全态势的方法及装置。本发明实施例中，从网络安全数据的M个对象中确定第一待评估对象和第二待评估对象，并根据所述第一待评估对象对于所述第一待评估对象的第i属性的网络安全态势和所述第二待评估对象与所述第一待评估对象之间的映射关系，确定所述第二待评估对象对于所述第i属性的网络安全态势。本发明实施例通过确定第一待评估对象和第二待评估对象之间的映射关系，将第二待评估对象与第i属性关联起来，从而确定出第二待评估对象对于第i属性的网络安全态势。本发明实施例中的方法，支持对网络安全态势的研究和发掘，可生成更多的网络安全态势，从而实现扩充网络安全态势的完备性。
+36. 105681389 一种基于Skype不同功能通信流的识别方法及装置
+CN
+15.06.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201510958932.1
+北京神州绿盟信息安全科技股份有限公司
+徐牧池
+H04L 29/08
+Loading...
+本发明公开了一种基于Skype不同功能通信流的识别方法及装置，该方法包括，获取当前会话中传输报文，并对所述传输报文进行初步检测，若所述传输报文被准确识别，则将所述当前会话标记上相应的功能应用标签，否则确定所述传输报文所归属的检测层次，并按照所述传输报文所归属的检测层次对应的检测规则对所述传输报文进行检测，并在满足检测条件时，将所述当前会话标记上所述传输报文所归属的检测层次对应的功能应用标签。也就是说，在本发明中，通过递增性识别，解决了耦合性流量无法区分的问题，从而能够识别出Skype的单一功能，可以完成对Skype流量的精细化访问控制。
+37. 105681274 一种原始告警信息处理的方法及装置
+CN
+15.06.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510958909.2
+北京神州绿盟信息安全科技股份有限公司
+高浩浩
+H04L 29/06
+Loading...
+本发明涉及网络安全领域，尤其涉及一种原始告警信息处理的方法及装置。该方法为，将原始告警信息分类，确定原始告警信息的攻击类别；根据攻击类别，将原始告警信息分别和预设的正向推理状态机进行特征匹配操作，以及和预设的反向推理状态机进行关联事件匹配操作，在匹配成功后，生成相应的高威胁告警事件；其中，正向推理状态机表征预设的攻击事件特征规则，反向推理状态机表征预设的与攻击事件关联的其他事件，这样，通过正向推理状态机，及早发现受威胁度最高的目的IP及威胁度最高的源IP；通过反向推理状态机，对攻击事件进行行为推理，可以发现没有检测出的攻击甚至0day攻击，且在攻陷后，及早反查出攻击链，进行告警提醒。
+38. 105678168 一种基于栈异常的shellcode检测方法及装置
+CN
+15.06.2016
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201511020089.9
+北京神州绿盟信息安全科技股份有限公司
+孙建坡
+G06F 21/56
+Loading...
+本发明涉及计算机领域，尤其涉及一种基于栈异常的shellcode检测方法及装置。该方法为，基于指定的每一个API函数分别生成相应的栈帧链，并分别依次检测每一个栈帧链中的每一个栈帧，筛选出所有异常的栈帧，其中，在检测一个栈帧时，包括：检测所述一个栈帧的元素指标是否符合预设条件，在确定不符合预设条件时，判定所述一个栈帧异常；其中，所述元素指标包括栈帧长度、栈帧EBP地址和栈帧返回地址中的一项或任意组合。这样，只针对指定的API函数对应的栈帧链进行检测，避免对所有函数进行盲目的检测，减小了系统性能开销；而且，直接根据栈帧的元素指标，筛选出异常栈帧，提高系统检测性能，减小误报率。
+39. 105678115 一种软件认证方法及相关设备与系统
+CN
+15.06.2016
+G06F 21/10 Loading...
+G06F 21/10
+Loading...
+201511032481.5
+北京神州绿盟信息安全科技股份有限公司
+朱宝祥
+G06F 21/10
+Loading...
+本发明公开了一种软件认证方法及相关设备与系统，第一服务器若确定待认证软件的认证方式为远端认证，则可向安装有加密狗的第二服务器发送认证请求，并在接收到所述第二服务器返回的携带有加密狗的序列号的第一响应消息时，根据所述第一响应消息中携带的所述加密狗的序列号，确定所述待认证软件的软件证书的序列号是否与所述加密狗的序列号相一致，若一致，则确定所述待认证软件认证成功；其中，所述第一响应消息是所述第二服务器在确定所述第一服务器为与所述第二服务器相绑定的指定服务器时，返回给所述第一服务器的。从而在确保软件授权安全性的基础上，扩展了加密狗认证的应用场景，提高了系统兼容性。
+40. 105678166 一种篡改引擎测试方法和装置
+CN
+15.06.2016
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201510959366.6
+北京神州绿盟信息安全科技股份有限公司
+高鹏莎
+G06F 21/55
+Loading...
+本发明公开了一种篡改引擎测试方法和装置，用以实现篡改引擎的自动化测试，提高篡改引擎测试效率和测试结果的准确性。篡改引擎测试方法，包括：启动预先生成的配置文件，所述配置文件中包含有页面变更时间参数和页面变更内容；对篡改引擎访问测试页面的次数进行计数；如果根据计数结果确定所述篡改引擎访问所述测试页面的访问次数属于集合N时，则根据所述页面变更内容修改所述测试页面并返回给所述篡改引擎，N为大于等于1的自然数集合；在所述配置文件执行结束时，生成所述配置文件执行的预期结果；比较所述预期结果与所述篡改引擎的检测结果得到测试结果。
+41. 105653937 一种文件防护方法和装置
+CN
+08.06.2016
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+201511021253.8
+北京神州绿盟信息安全科技股份有限公司
+马驰
+G06F 21/53
+Loading...
+本发明公开了一种文件防护方法和装置。该方法应用于Xen半虚拟化环境系统中，包括：驱动程序初始化时，定位系统调用表；将所述系统调用表映射到所述Xen半虚拟化环境系统中可写的内存分页；修改所述系统调用表中的函数指针，修改后的函数指针指向预先设置的规则检查函数；通过所述规则检查函数，判断所述内核级文件操作是否符合预设防护规则，如果是，则阻止所述内核级文件操作，如果否，则完成所述内核级文件操作。该方法能够通过对Xen半虚拟化环境系统中系统调用表的修改，实现对内核级文件的防护。
+42. 105653954 一种检测恶意代码的方法及装置
+CN
+08.06.2016
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201510997664.4
+北京神州绿盟信息安全科技股份有限公司
+熊华根
+G06F 21/56
+Loading...
+本申请涉及网络安全领域，公开了一种检测恶意代码的方法及装置，用以提高恶意代码检验的准确率。该方法为：获取待检测文件，并从待检测文件中读取指令，每读取一条指令，执行上述一条指令并记录执行结果，以及将上述执行结果与预设的行为特征模型进行匹配；其中，上述行为特征模型是基于海量的自解码恶意代码运行后产生的行为数据生成的；确定读取到的任意一条指令的执行结果与上述行为特征模型匹配成功时，判定上述待检测文件包含自解码恶意代码。这样，通过对待检测文件进行反编译，可以逐条读取并执行其包含的指令，并对这些指令的执行结果进行行为特征匹配，从而有效提高检测自解码恶意代码的准确率，减少漏检率，进而提高系统的安全性。
+43. 105631745 一种资产视图构建方法及装置
+CN
+01.06.2016
+G06Q 40/06 Loading...
+G06Q 40/06
+Loading...
+201511032632.7
+北京神州绿盟信息安全科技股份有限公司
+朱二夫
+G06Q 40/06
+Loading...
+本发明公开了一种资产视图构建方法及装置，针对用户所需的每一资产视图类型，可建立根节点为所述资产视图类型的标签树，且可根据系统中的各资产的资产属性，将系统中的相关资产划分至该标签树的各子节点下，形成与该标签树对应的资产视图类型相关的资产视图。从而使得用户可根据不同的需求建立不同类型的资产视图，实现从不同维度查看资产数据以及在不同维度下对资产业务进行管理的目标，解决了由于资产视图单一、不易扩展所导致的资产管理的灵活性和可扩展性较差的问题。
+44. 105634863 一种应用协议检测的方法及设备
+CN
+01.06.2016
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201511001393.9
+北京神州绿盟信息安全科技股份有限公司
+徐牧池
+H04L 12/26
+Loading...
+本发明公开了一种应用协议检测的方法及设备，包括：获取检测报文所属会话；若所述检测报文所属会话未包含操作系统OS标识，则从互联网协议会话的源IP和OS标识的对应关系表中查找所述检测报文所属会话对应的OS标识；若从所述对应关系表中查找到所述检测报文所属会话中的源IP对应的OS标识，则将查询到的源IP对应的OS标识写入所述检测报文的所属会话中；解决了现有技术中使用DPI技术和DFI技术难以精确识别每个App产生的流量所属的OS的情况，避免了识别每个App产生的流量所属的OS的准确率低的问题，提高了应用识别的细粒度和准确度。
+45. 105608133 一种关键页面的确定方法及装置
+CN
+25.05.2016
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510947063.2
+北京神州绿盟信息安全科技股份有限公司
+张龙
+G06F 17/30
+Loading...
+本发明公开了一种关键页面的确定方法及装置，可针对任一站点，获取该站点中的所有有效链接以及所有有效链接之间的父子关系；以及，针对每一有效链接，根据得到的父子关系，确定所述有效链接的关键度相关参数，并根据各关键度相关参数以及其所对应的权重，计算所述有效链接的关键度；最后，将确定的至少一个关键度不小于设定阈值的有效链接所分别对应的页面作为该站点的关键页面。即，通过设置与链接的重要性相关的参数以及各参数所对应的权重，为关键页面的确定提供直接的量化指标，从而可自动、定量地计算站点中各页面的关键度，使得关键页面的确定以及选取更加准确、灵活，并减少了手动配置关键页面等的工作量，提高了确定关键页面的效率。
+46. 105574416 一种浏览器漏洞检测方法及装置
+CN
+11.05.2016
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201510946272.5
+北京神州绿盟信息安全科技股份有限公司
+刘永军
+G06F 21/57
+Loading...
+本发明公开了一种浏览器漏洞检测方法及装置，该方法包括：检测装置生成与待测浏览器相对应的测试用例，并向待测浏览器下发测试用例和测试用例调用页面，以及，接收待测浏览器根据测试用例调用页面发送的用于调用测试用例的调度指令，并根据调度指令依次调用测试用例测试待测浏览器，记录测试用例测试进度以及测试待测浏览器发生异常时所用测试用例的测试用例信息，以及，监控待测浏览器，同时记录待测浏览器发生异常时的异常信息，并根据异常信息确定与异常信息相匹配的测试用例信息，并根据确定的测试用例信息还原异常，从而解决了现有浏览器漏洞检测方法中存在的不能稳定还原异常、通用性较差以及效率较低等问题。
+47. 105577669 一种识别虚假源攻击的方法及装置
+CN
+11.05.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510998006.7
+北京神州绿盟信息安全科技股份有限公司
+彭武杰
+H04L 29/06
+Loading...
+本发明公开了一种识别虚假源攻击的方法及装置，可在服务器有攻击触发时，针对每一到达该服务器的报文，提取该报文的源IP地址以及当前TTL，并根据该源IP地址、源IP地址与地理区域之间的对应关系以及地理区域与到达该服务器的报文的TTL阈值范围之间的对应关系，确定该报文所属的地理区域内的报文到达该服务器的TTL阈值范围，以判断该报文的当前TTL是否位于确定的TTL阈值范围内，若否，则确定该报文对应的客户端为虚假源。无需对到达服务器的各报文进行首包丢弃或跳转处理，便可对所有报文进行识别，不仅避免了对服务器的正常业务运行所带来的影响，而且节省了网络资源，提高了虚假源识别的效率。
+48. 105550575 一种未导出的函数地址和数据结构偏移的获取方法及装置
+CN
+04.05.2016
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+201510881945.3
+北京神州绿盟信息安全科技股份有限公司
+刘业欣
+G06F 21/53
+Loading...
+本发明公开了一种未导出的函数地址和数据结构偏移的获取方法及装置，用以实现未导出的函数地址和数据结构偏移的自动获取，以解决现有技术中靠人工获取未导出的函数地址和数据结构偏移所造成的人力浪费问题，同时提高系统的支持效率。其中，所述方法包括：当待监控系统的内核执行到断点时，调用控制函数，通过所述控制函数找出与所述指定函数存在访问关系的所述未导出的函数地址和/或数据结构偏移的函数，获取所述未导出的函数地址和/或数据结构偏移的函数的数据属性；其中所述数据属性是所述未导出的函数地址和/或数据结构偏移的属性信息；所述内核根据所述数据属性，确定所述未导出的函数地址和/或数据结构偏移。
+49. 105554152 一种数据特征提取的方法及装置
+CN
+04.05.2016
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201511021283.9
+北京神州绿盟信息安全科技股份有限公司
+徐牧池
+H04L 29/08
+Loading...
+本发明涉及通信技术领域，尤其涉及一种数据特征提取的方法及装置。该方法为，分别从确定的第一会话和第二会话中提取设定数目的报文信息，其中，第一会话和第二会话是同一个应用操作在不同时间所产生的，报文信息中至少包括报文应用层负载字节序；根据从第一会话提取的报文应用层负载字节序和指定多模式匹配算法，构建相应状态机，并根据从第二会话中提取的报文应用层负载字节序，进行匹配，获得应用操作的数据特征，解决了对私有协议及加密流量的应用特征提取难得问题，提高了效率，解放了人力，并且通过特征串迭代合并得到了强特征集合，提高了所提取特征串的有效性。
+50. 105554740 一种识别无线热点的方法、装置及设备
+CN
+04.05.2016
+H04W 12/00 Loading...
+H04W 12/00
+Loading...
+201511032613.4
+北京神州绿盟信息安全科技股份有限公司
+吴崇武
+H04W 12/00
+Loading...
+本发明提供一种识别无线热点的方法、装置及设备，该方法包括：针对当前网络中各设备访问网络产生的各个数据包，解析数据包中携带的至少一个预设特征参数；根据至少一个预设特征参数，以及预先建立的特征参数与应用属性的对应关系，确定发送数据包的应用的应用属性，所述应用属性包括：应用所属的设备类型，对应关系中的特征参数包括数据包的发送端口、数据包的负载长度、连续设定数目个数据包对应的数据包长度序列以及数据包的固定字段携带的固定信息中的至少一项；确定发送数据包的应用所属的设备类型为移动终端类型时，确定当前网络中存在无线热点。本发明能够准确的识别出当前网络中的无线热点，从而提高了识别无线热点的准确度。
+51. 105553743 获得日志的方法、系统、第一网络设备及第三网络设备
+CN
+04.05.2016
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201511026295.0
+北京神州绿盟信息安全科技股份有限公司
+吴崇武
+H04L 12/24
+Loading...
+本发明公开了一种获得日志的方法、系统、第三网络设备以及第一网络设备，包括：一种获得日志的系统，其特征在于，包括第一网络设备、第二网络设备以及第三网络设备，其中，所述第二网络设备发送预警消息，所述第一网络设备，接收所述第二网络设备发送的预警消息，所述第一网络设备向第三网络设备发送日志备份指令，所述第三网络设备接收第一网络设备发送的日志备份指令，在确定出所述日志备份指令符合要求时，按照所述日志备份指令，备份日志；所述第三网络设备将所述备份日志发送给所述第一网络设备；所述第一网络设备接收所述第三网络设备发送的备份日志，用于提高获取日志的效率，实现对故障的定位分析，提高效率。
+52. 105491060 防御分布式拒绝服务攻击的方法、装置、客户端及设备
+CN
+13.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511021292.8
+北京神州绿盟信息安全科技股份有限公司
+陈涛
+H04L 29/06
+Loading...
+本发明提供防御分布式拒绝服务攻击的方法、装置、客户端及设备，其中一种方法包括：截取客户端向服务器发送的业务报文；根据与所述客户端约定的规则，获取所述业务报文的第一预设字段携带的信息、所述业务报文的固有字段携带的固有信息以及至少一个第二预设字段携带的添加信息；按照与客户端约定的哈希算法，对所述固有信息以及至少一个添加信息进行哈希处理，得到哈希结果；确定所述哈希结果与所述第一预设字段携带的信息不同时，丢弃所述业务报文。本发明由于预先与客户端约定了规则和哈希算法，不需要统计各种业务报文中的特征，实现复杂度相对较低，误丢弃非攻击报文的概率较小。
+53. 105491062 一种客户端软件保护方法、装置及客户端
+CN
+13.04.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201511024718.5
+北京神州绿盟信息安全科技股份有限公司
+孙建鹏
+H04L 29/06
+Loading...
+本发明提供一种客户端软件保护方法、装置及客户端，该方法包括：服务器接收客户端发送的业务请求消息，所述业务请求消息中携带所述客户端对应的许可证书，所述业务请求消息为激活请求消息、认证请求消息或授权请求消息，所述许可证书用于验证所述客户端的合法性；服务器判断是否在保存的许可证书数据库中匹配到所述客户端对应的许可证书；如果是，确定所述客户端合法并执行所述业务请求消息对应的操作；否则，确定所述客户端不合法并向所述客户端返回告警消息。本发明在服务器侧实现了对客户端软件的保护，从而提高了客户端软件的安全性，并加大了对客户端软件的保护力度。
+54. 105471748 一种应用分流方法和装置
+CN
+06.04.2016
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201511020086.5
+北京神州绿盟信息安全科技股份有限公司
+解张鹏
+H04L 12/741
+Loading...
+本发明公开了一种应用分流方法和装置，用以提高流量转发的可靠性。应用分流方法，包括：根据接收到的数据包中的传输地址信息查找存储的流转发表中是否存在对应的第一路由转发信息；如果查找到第一路由转发信息，则根据所述第一路由转发信息转发所述数据包；如果未查找到第一路由转发信息，则根据所述传输地址信息查找存储的应用缓存表中是否存在对应的应用标识；如果查找到所述应用标识，则根据所述应用标识和所述传输地址信息从存储的应用标识与路由转发信息之间的对应关系表中查找所述应用标识对应的第二路由转发信息，并根据所述第二路由转发信息转发所述数据包。
+55. WO/2016/037579 DDOS ATTACK DETECTION METHOD AND APPARATUS
+WO
+17.03.2016
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2015/089334
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+CHEN, Hanbing
+H04L 29/06
+Loading...
+Provided are a DDoS attack detection method and apparatus. The method comprises: acquiring network traffic of a target moment within a first period by sampling, then querying a traffic period change curve acquired in advance, determining predicted traffic corresponding to the target moment, and confirming a DDoS attack if the network traffic acquired by sampling is larger than the determined predicted traffic. The traffic period change curve is used for indicating a period change law of the predicted traffic, so that before DDoS attack detection is performed at each target moment, it only needs to determine the predicted traffic corresponding to the target moment according to the traffic period change curve without calculating the predicted traffic according to massive historical traffic data before each DDoS attack detection; and the calculation volume is reduced.
+56. 105243019 一种检测python代码漏洞的方法及装置
+CN
+13.01.2016
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201510708735.4
+北京神州绿盟信息安全科技股份有限公司
+廖新喜
+G06F 11/36
+Loading...
+本发明涉及计算机技术，公开了一种检测python代码漏洞的方法及装置，用于提高python代码漏洞的检测精准度。该方法为：基于待检测python代码生成相应的语法树，提取出危险函数；再对危险函数的外层函数所包含的参数进行跟踪，将赋值类型满足预设传递规则的参数确定为可控参数，组成可控参数集合，以及确定危险函数中包含的参数归属于上述可控参数组合时，确定危险函数中包含有可控参数；最后，再根据包含有可控参数的危险函数确定相应的代码漏洞。这样，大大提高了python代码漏洞检测的准确性，解决了python代码语法灵活维护困难的问题，由于是自动化的跟踪参数，降低了操作复杂度。
+57. 105184156 一种安全威胁管理方法和系统
+CN
+23.12.2015
+G06F 21/55 Loading...
+G06F 21/55
+Loading...
+201510364620.8
+北京神州绿盟信息安全科技股份有限公司
+李瀛
+G06F 21/55
+Loading...
+本发明公开了一安全威胁管理方法和系统，以解决现有的对威胁事件的检测不准确的问题。该方法为，根据用户的配置策略获取待监测对象的风险标识，通过检索预存的安全威胁模板库，获取对应该风险标识设置威胁事件标识集合；根据预设的威胁事件检测策略，通过检索预存的威胁事件库，获取对应该威胁事件标识集合中的每一个威胁事件标识设置的威胁事件检测算法标识和相应的固化参数值；在预存的安全威胁算法库中调用对应的威胁事件检测算法执行对应的威胁事件检测，这样通过层次化的威胁组织，将算法和参数从中分离，从识别角度量化威胁事件，不仅使威胁的检测更加准确，而且便于威胁的量化管理和产品威胁事件及检测规则的扩展和定制。
+58. 105187408 网络攻击检测方法和设备
+CN
+23.12.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510505895.9
+北京神州绿盟信息安全科技股份有限公司
+申军利
+H04L 29/06
+Loading...
+本发明提供一种网络攻击检测方法和设备，该方法包括：对待检测字符串进行分词处理得到各单词；确定与待检测字符串对应的各元组；确定攻击模型数据库中是否存在与各元组对应的模型元组，是否存在与各单词中的第一个单词对应的模型单词，攻击模型数据库中存储有各模型元组以及每个模型元组的出现概率，各模型单词以及每个模型单词的出现概率；若存在，则获取各对应模型元组以及对应模型单词的出现概率，并根据各对应模型元组的出现概率以及各对应模型单词的出现概率，确定待检测字符串对应的攻击概率；若攻击概率大于或等于预设概率阈值，则确定待检测字符串是具有攻击行为的字符串，从而保证能准确确定该待检测字符串是否具有攻击行为。
+59. 105160252 一种结构化查询语言注入攻击的检测方法及装置
+CN
+16.12.2015
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201510487026.8
+北京神州绿盟信息安全科技股份有限公司
+赵阳
+G06F 21/56
+Loading...
+本发明公开了一种结构化查询语言SQL注入攻击的检测方法及装置，用于提高SQL注入攻击的检测效率，降低误报漏报率。SQL注入攻击的检测方法，包括：获取待检测的SQL语句，并对待检测的SQL语句进行解析，得到待检测的SQL语句中包含的词法以及词法顺序，然后根据每一类词法与特定字符或特定字符串的对应关系和待检测SQL语句中包含的词法以及词法顺序将待检测的SQL语句转化为待检测的字符串；将待检测的字符串与预先存储的SQL注入SQLI语句对应的字符串库中的字符串进行匹配；当待检测的字符串与预先存储的SQLI语句对应的字符串库中任一字符串匹配成功时，则确定存在SQL注入攻击。
+60. 105099825 一种外置Bypass的安全保护方法及装置
+CN
+25.11.2015
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201510505253.9
+北京神州绿盟信息安全科技股份有限公司
+黄发
+H04L 12/26
+Loading...
+本发明公开了一种外置Bypass的安全保护方法及装置，以降低当网络主线路故障时强制或人为的切换到主线路时导致网络业务被中断的风险。该方法为，当检测到主用线路上的IPS设备故障时，将当前网络从主用线路切换到备用线路，周期性向主用线路发送连通性检测报文检测主用线路是否恢复正常，在连续的设定时长内检测到主用线路为正常后，将当前网络从备用线路切换到主用线路，这样不仅解决了IPS设备的端口故障或者整机故障通过切换外置bypass到备用线路进行保护的问题，同时也解决了切换到备用线路后关闭主用线路工作端口，在强制或者人为的切回到主用线路时导致网络业务存在被中断风险的问题。
+61. 105072095 一种检测SQL注入漏洞的方法及装置
+CN
+18.11.2015
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201510428942.4
+北京神州绿盟信息安全科技股份有限公司
+田杰
+H04L 29/06
+Loading...
+本发明公开了一种检测SQL注入漏洞的方法及装置，用于提高漏洞的检测准确率，以及降低检测时web应用漏洞扫描系统的运行负荷。该方法为：根据实际的响应时间和攻击向量中期望的延时时间所计算出的相似度进行漏洞存在与否的判定。由于在相近时刻内响应时间受到的网络影响基本一致，在计算期望的延时时间和实际的响应时间的相似度时，相近的变化幅度不会对相似度的计算结果造成决定性的影响，所以不会影响漏洞存在判定的准确性。因此，可以保证在不同的网络情况及不同的目标环境下，程序能够快速准确的检测出基于时间的SQL注入漏洞，同时，也有效降低了判定SQL注入漏洞给web应用漏洞扫描系统带来的运行负荷。
+62. 105022824 无效链接的识别方法和装置
+CN
+04.11.2015
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201510430940.9
+北京神州绿盟信息安全科技股份有限公司
+李菲
+G06F 17/30
+Loading...
+本发明提供一种无效链接的识别方法和装置，通过获取待识别链接对应的URL，根据待识别链接对应的URL构造多个无效链接，进而获取多个无效链接对应的响应页面和待识别链接对应的响应页面，确定待识别链接对应的响应页面和多个无效链接对应的响应页面的相似度，若待识别链接对应的响应页面和多个无效链接中的任意一个无效链接对应的响应页面的相似度大于设定的相似度阈值，则确定待识别链接为无效链接。所述方法中，通过主动构造无效链接的样本，根据待识别链接和无效链接对应的响应页面的相似度确定无效链接，提高了无效链接识别的准确性。
+63. 103997489 Method and device for recognizing DDoS bot network communication protocol
+CN
+20.08.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201410196838.2
+北京神州绿盟信息安全科技股份有限公司
+周大
+H04L 29/06
+Loading...
+The invention relates to the technical field of computer network security, in particular to a method and device for recognizing a DDoS bot network communication protocol. The method for recognizing the DDoS bot network communication protocol includes the steps that command messages and communication messages communicated between a bot operating in a host and a server are acquired; attack attribute information of all classes of attacks conducted every time is determined from the acquired communication messages; attack command messages are determined from the acquired command messages according to the attack attribute information of all the classes of attacks conducted every time; characteristic information of the attack command messages is determined according to the attack command messages and/or the attack attribute information. The technical complexity is low, and the goal of giving an early warning for the emerging C&C protocol in time can be achieved.
+64. 103701779 Method and device for accessing website for second time and firewall equipment
+CN
+02.04.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310685307.5
+北京神州绿盟信息安全科技股份有限公司
+周培和
+H04L 29/06
+Loading...
+The invention discloses a method and a device for accessing a website for a second time and firewall equipment. The method comprises the following steps: A, receiving a first HTTP (Hyper Text Transport Protocol) request message carrying the IP (Internet Protocol) address, a URL (Uniform Resource Locator) and first generation time information of a client; B, judging whether the first HTTP request message is trustable or not, and if so, executing F; otherwise, executing C; C, detecting whether a website which corresponds to the URL is a malicious website or not, if so, executing D, and otherwise, executing F; D, transmitting an HTTP response message to the client; E, receiving a second HTTP request message carrying ID information, an IP address, a URL and second generation time information to generate a table entry in a trustable access chain table, instructing the client to request to access the website which corresponds to the URL once again, and executing A; F, transmitting the first HTTP request message to the website which corresponds to the URL. By adopting the scheme, a special technician does not need to be configured, and high maintainability is achieved.
+65. 103684931 Online safety product stability testing method and control panel thereof
+CN
+26.03.2014
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201310750715.4
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+GAO HONGLEI
+H04L 12/26
+Loading...
+The invention discloses an online safety product stability testing method and a control panel thereof. The testing method comprises enabling the control panel to send configuration information of parameters to clients and a server, so as to allow the clients and the server to interact the configuration information of parameters with each other by the online safety product and to provide the online safety product with initial combined traffic, controlling the control panel to acquire performance parameters of the online safety product when the received initial combined traffic is processed by the online safety product, evaluating the performance of the online safety product according to the performance parameters, adjusting the configuration information of the parameters according to the value of performance evaluation so as to allow the control panel to be able to automatically test the stability of the online safety product and acquire the maximum combined traffic of the online safety product upon working in a stable condition. Accordingly, the testing efficiency of the online safety product is improved and the testing cost of the online safety product is reduced.
+66. 103685321 Data packet forwarding and safety protection detection system, load balancing method and device
+CN
+26.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310753226.4
+北京神州绿盟信息安全科技股份有限公司
+彭权
+H04L 29/06
+Loading...
+The invention discloses a data packet forwarding and safety protection detection system. The data packet forwarding and safety protection detection system comprises a data packet forwarding module, a plurality of safety engines and annular queues in one-to-one correspondence with the safety engines, wherein the data packet forwarding module comprises a packet receiving module, a packet processing module and a packet transmitting module; the safety engines are used for obtaining forwarded data packets from the annular queues corresponding to safety engines; the forwarded data packets is subjected to safety protection detection; the forwarded safety packets with safety detection result identifiers are loaded in the annular queues corresponding to the safety engines; the annular queues are used for storing forwarded data packets transmitted by the packet processing module and the forwarded data packets with safety detection result identifiers transmitted by the safety engines corresponding to the annular queues. With the adoption of the scheme provided by the embodiment of the invention, the processing efficiency on the data packet forwarding and safety protection detection is improved.
+67. 103646213 Method and device for classifying malicious software
+CN
+19.03.2014
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201310446158.7
+北京神州绿盟信息安全科技股份有限公司
+刘亚
+G06F 21/56
+Loading...
+The invention discloses a method and device for classifying malicious software to solve the problem that in the prior art, the accuracy is low when the malicious software is classified. The method includes the steps of setting up a virtual process corresponding to process information according to the process information which is generated in advance on the basis of feature behaviors of obtained malicious software; running malicious software to be classified, recording dynamic behaviors which are generated by the malicious software to be classified for set virtual installation records and the set virtual process; outputting the dynamic behaviors of the records to a malicious software classifying tool so that the malicious software classifying tool can classify the malicious software to be classified according to the recorded dynamic behaviors, wherein the virtual installation records are set up according to the software installation information which is generated in advance on the basis of the feature behaviors of the obtained malicious software.
+68. 103634214 Route information generating method and device
+CN
+12.03.2014
+H04L 12/741 Loading...
+H04L 12/741
+Loading...
+201310603031.1
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+HAO CHAO
+H04L 12/741
+Loading...
+The invention relates to the technical field of network communication, in particular to a route information generating method and device, which are used for solving the problems that the configuration and updating of a static route both need manual intervention, and the maintenance cost is high and not timely. A data transmission method provided by the embodiment of the invention comprises the steps of after a route determines that a received data packet is a DNS (domain name system) request packet, recording first information of the DNS request packet, determining the subsequently received second information of a DNS answering packet for answering the DNS request packet according to the first information, generating one piece of DNS dynamic route information in a DNS dynamic route table according to the first information and the second information, wherein the DNS dynamic route table is used for allowing the route to query and send the interface of a data transmission packet and receive the next-hop IP (internet protocol) address of the data transmission packet and each piece of DNS dynamic route information in the DNS dynamic route table comprises a destination IP address, the next-hop IP address and the interface information.
+69. WO/2014/032600 METHOD AND APPARATUS FOR DETERMINING AUTOMATIC SCANNING ACTION
+WO
+06.03.2014
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2013/082556
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+XIONG, Junyong
+H04L 29/06
+Loading...
+Disclosed are a method and an apparatus for determining an automatic scanning action. The method comprises: in a set period, collecting access request messages sent from a selected sending end to a selected network server and access response messages returned from the selected network server to the selected sending end; equally dividing the set period into at least two set sub-periods, successively counting the number of the access request messages in each set sub-period, and determining a request credible value of the selected sending end; counting the number of response success messages and the number of response failure messages in the collected access response messages, and determining a response credible value of the selected sending end; calculating a general accessed value of the selected sending end in the set period according to the determined request credible value, the response credible value, first weight, and second weight; and comparing the general accessed value with a first set threshold, and determining whether the selected sending end performs automatic scanning. This solution is more applicable and more accurate than the prior art.
+70. 103618791 WEB reverse proxy method, device and system supporting XSLT file
+CN
+05.03.2014
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201310628344.2
+北京神州绿盟信息安全科技股份有限公司
+关万君
+H04L 29/08
+Loading...
+The invention discloses a WEB reverse proxy method, device and system supporting an XSLT file. According to the technical scheme, the conversion work of an XML file and the XSLT file is carried out by a client end, a proxy server only needs to be used for converting an XML page which introduces the XSLT file into an HTML page to be sent to the client end, an original HTML rewriting mechanism is used for modifying an XHTML file which is obtained after converting of the client end, and therefore the proxy server does not need to judge which places in the XSLT file need to be modified. When new modified characteristics of the XSLT file are added, the proxy server does not need to be additionally provided with new codes to maintain an original judging process, the original HTML rewriting mechanism only needs to be maintained, and the maintainability and the expandability of the proxy server are greatly improved.
+71. 103428301 Interface layer and method for processing data packet
+CN
+04.12.2013
+H04L 29/10 Loading...
+H04L 29/10
+Loading...
+201310336623.1
+北京神州绿盟信息安全科技股份有限公司
+金帅
+H04L 29/10
+Loading...
+The invention discloses an interface system and a method for processing a data packet. The interface system is deployed into multiple layers, and a forward attribute configured to a physic interface in the prior art is peeled off from the physic interface; the reception, transmission and logic processing of the data packet is realized by adding logic interfaces configured with the forward attribute to the physic interface. As the number of the logic interfaces and the configured forward attribute can be adjusted dynamically based on the practical need, the scheme of the embodiment of the invention can increase the deployment flexibility of the interface technology in the physic layer, relieves limitation to the number of the interfaces to a certain extent and improves expandability of the interface deployment.
+72. 103310160 一种防止网页被篡改的方法、系统及装置
+CN
+18.09.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201310247171.X
+北京神州绿盟信息安全科技股份有限公司
+张云海
+G06F 21/60
+Loading...
+本发明公开了一种防止网页被篡改的方法、系统及装置，能够有效地对网页数据进行认证，提高网页数据的安全性。其中，该方法包括：接收终端用户发来的网页数据更新请求；在所述网页数据更新请求是请求对静态数据进行更新时，通过密钥对更新的静态数据进行签名后，发送给网络系统中的文件服务器，和/或在所述网页数据更新请求是请求对动态数据进行更新时，通过密钥对用于更新动态数据的SQL中各字段的数值进行签名后，发送给网络系统中的数据库服务器，其中数据库服务器在确定出SQL中各字段的数值的签名均为有效签名时，执行SQL进行动态数据的更新。
+73. 103226470 一种确定基于BVS的检查项权重值的方法及装置
+CN
+31.07.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201310091507.8
+北京神州绿盟信息安全科技股份有限公司
+符润祯
+G06F 9/44
+Loading...
+本发明公开了一种确定基于BVS的检查项权重值的方法及装置，该方法包括：在自定义扫描模板时，新建一条检查项后，确定新建检查项所属的模板类型，并在预先建立的检查项库中获取与所述新建检查项所属的模板类型相同的检查项，作为所述新建检查项的同类型检查项；从所述同类型检查项中筛选出与所述新建检查项的相似度大于设定阈值的检查项作为所述新建检查项的相似检查项；若能够筛选出所述新建检查项的相似检查项，根据所述相似检查项与所述新建检查项的相似度、及对应的相似检查项的权重值，确定所述新建检查项的权重值。该方案可以提高确定新建检查项的权重值的效率和准确性。
+74. WO/2013/091534 TROJAN DETECTION METHOD AND DEVICE
+WO
+27.06.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2012/086871
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+DUAN, Yuxuan
+H04L 29/06
+Loading...
+A trojan detection method and device, used to solve the problem in the prior art of being unable to effectively detect a trojan in a network, the method comprising: when a trojan heartbeat is detected in a session, according to whether the trojan heartbeat detection frequency is fixed, increasing the recorded session weight by a corresponding weight and recording the increased weight, and checking whether each packet transmitted from a controlling end to a controlled end complies with the characteristics of a trojan control command packet; if yes, then increasing by a third weight onto the recorded session weight and recording the same, and when the session weight reaches an alarm threshold, generating an alarm to notify that the session is initiated by a trojan. An embodiment of the present invention achieves trojan detection by detecting the packet in the session, thereby the trojan in a network can be detected. The detection to the packet in the session is not simply string matching, thus reducing false alarm rate and effectively detecting the trojan in the network.
+75. WO/2013/086968 METHOD, DEVICE AND SYSTEM FOR NETWORK SECURITY PROTECTION
+WO
+20.06.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2012/086366
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+HUANG, Mingfeng
+H04L 29/06
+Loading...
+A method, device and system for network security protection comprise: according to a received scan task, a network security device performs a security bug scan of the scan task appointed web site, and when a scan result is obtained, transmits the scan result to a network application firewall, so that the network application firewall can configure a individuality security strategy for the web site according to the received scan result. The problem that it can not be implemented complete individuality security configuration of the web site can be solved in this way.
+76. 103164649 Process behavior analysis method and system
+CN
+19.06.2013
+G06F 21/50 Loading...
+G06F 21/50
+Loading...
+201310052560.7
+北京神州绿盟信息安全科技股份有限公司
+刘业欣
+G06F 21/50
+Loading...
+The invention discloses a process behavior analysis method and a system. The process behavior analysis method includes that monitoring recorded data of a monitored preset sensitive process are obtained; according to the monitoring recorded data, a handle, a process and a thread in the monitoring process are simulated and reproduced, virtual table entries respectively corresponding to the handle, the process and the thread are obtained, and the virtual table entries record the handle, the process and the thread and corresponding attributes created during the sensitivity process. A relative process of the sensitivity process is set, according to the virtual table entries, corresponding handle, process and thread operation of the relative sensitivity process and corresponding attributes are associated to a sensitivity process behavior analysis result. According to the process behavior analysis method and the system, behaviors of all processes relative to one process is comprehensively analyzed, and the quality and efficiency of process behavior analysis are improved.
+77. 103152343 Method for establishing Internet protocol security virtual private network tunnel and network equipment
+CN
+12.06.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310068073.X
+北京神州绿盟信息安全科技股份有限公司
+吕翀昊
+H04L 29/06
+Loading...
+The invention provides a method for establishing an Internet protocol security virtual private network (IPsec VPN) tunnel and network equipment. The method comprises the following steps that first network equipment transmits a negotiation request message carrying a negotiation identifier to second network equipment, receives a returned negotiation response message carrying a verification result, transmits a tunnel establishment request message carrying identifiers of information of a plurality of sub-networks with the first and second network equipment to the second network equipment if the verification result shows that the negotiation request message passes verification, receives a returned response message carrying a verification result, and maps the information of the sub-networks with the first network equipment and an identifier of the tunnel requested to be established if the verification result shows that negotiation is successful. According to the method for establishing the IPsec VPN tunnel and the network equipment, identifiers of the first and second network equipment are carried in the tunnel establishment request message, so that a plurality of pairs of sub-networks can be dealt with by establishing a single tunnel, and the workload of a network manager and network traffic are reduced.
+78. 103139206 Detection method and detection device of zombie host computers
+CN
+05.06.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201310037815.2
+北京神州绿盟信息安全科技股份有限公司
+周俊峰
+H04L 29/06
+Loading...
+The invention provides a detection method and a detection device of zombie host computers. The detection method of the zombie host computers includes the following steps: email flow information of each to-be-detected host computer in the network is obtained within set time; according to the obtained email flow information, internet protocol (IP) addresses according with preset conditions are selected, and a possibility measuring value of each to-be-detected host computer corresponding to each of the selected IP addresses is calculated out; and the calculated out possibility measuring value of each IP addresses is judged whether to be lager than a fourth threshold in sequence, and under the condition of 'yes', the to-be-detected host computers corresponding to the IP addresses are determined as the zombie host computers. According to the detection method and the detection device of the zombie host computers, the email flow information of the to-be-detected host computers can be periodically obtained, and the detection method is relatively timely. Besides, after the email flow information is processed according to the preset conditions, the high-possibility IP addresses of the zombie host computers can be obtained, the zombie host computers in the network can be obtained after processed with a certain algorithm, and the detection efficiency and the accuracy are improved.
+79. 103118003 一种基于资产的风险扫描方法、装置及系统
+CN
+22.05.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210581447.3
+北京神州绿盟信息安全科技股份有限公司
+路娟
+H04L 29/06
+Loading...
+本发明公开了一种基于资产的风险扫描方法、装置及系统，该方法包括：风险扫描装置确定系统中的资产以及各资产的资产属性信息，并按照以确定的任一资产属性信息的各不同属性值为节点的资产树的形式，将各资产进行分类展示，以及，根据客户端的扫描指令，对资产树中设定位置处的资产或资产节点进行风险扫描，得到该资产或该资产节点下的各资产的漏洞信息和配置信息，并根据得到的该资产或该资产节点下的各资产的漏洞信息和配置信息，确定该资产或该资产节点的资产风险值。通过本发明所述技术方案，能够实现以资产为中心的风险扫描和风险分析，解决了现有技术中存在的无法从宏观角度确定系统中所有资产的当前风险情况和历史风险变化趋势的问题。
+80. 103078852 一种资产状态判别方法及装置
+CN
+01.05.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210587606.0
+北京神州绿盟信息安全科技股份有限公司
+鲍旭华
+H04L 29/06
+Loading...
+本发明公开了一种资产状态判别方法及装置，该方法包括：为各资产配置初始状态向量，并获取各资产的资产记录信息；针对任一资产，若确定该资产的资产记录信息中存在资产登记记录信息和资产扫描记录信息，则将该资产的初始状态向量中与资产的恶意接入状态、违规接入状态、疑似状态对应的状态系数值调整为零，并对该资产依次进行存活度判别、伤害度判别及受控度判别，以及根据得到的存活概率、伤害概率及受控概率依次对该资产的当前状态系数值进行修正，并根据修正后的各状态系数值，确定该资产的当前状态。通过本发明所述方案，能够根据修正后的与资产的各潜在状态一一对应的状态系数值，确定各资产的当前状态，提高了资产状态判别的准确性。
+81. 103077029 一种导入表的修复方法及装置
+CN
+01.05.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210592469.X
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/44
+Loading...
+本发明公开了一种导入表的修复方法及装置，该方法包括：记录运行加壳程序过程中产生的数据改写信息和模块加载信息；在确定加壳程序对应的原始程序的OEP后，根据数据改写时间、数据改写地址和设定组合规则将改写数据进行组合，根据模块加载信息和导入表格式在组合后的改写数据中搜寻待选导入表；若搜到，确定每个待选导入表对应的导入地址表，获取在到达OEP的时刻存在于内存中、且内存地址最小的导入地址表，将获取的导入地址表对应的待选导入表作为加壳程序对应的原始程序的导入表；若搜不到，根据记录的数据改写信息重建加壳程序对应的原始程序的导入表。该方案可以适用于修复各种加壳程序对应的原始程序的导入表，方法简单，修复效率高。
+82. 103064687 一种程序入口点OEP的确定方法及装置
+CN
+24.04.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210587608.X
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/44
+Loading...
+本发明公开了一种程序入口点OEP的确定方法及装置，该方法包括：记录加壳程序运行过程中产生的数据改写信息，所述数据改写信息包括数据改写地址和数据改写时间；根据记录的数据改写信息确定所述加壳程序运行过程中进入后直到结束没有离开的内存区域；获取记录每条数据改写信息后所述内存区域中每个内存地址的数据，并根据获取的数据计算在对应的数据改写信息中包括的数据改写时间的所述内存区域的熵值；获取熵值开始大于等于设定阈值的数据改写时间对应的数据改写地址为所述加壳程序对应的原始程序的OEP。该方案可以适用于确定各种加壳程序对应的原始程序的OEP，方法简单，效率高。
+83. 103049696 一种虚拟机躲避识别的方法及装置
+CN
+17.04.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201210477628.1
+北京神州绿盟信息安全科技股份有限公司
+王明华
+G06F 21/56
+Loading...
+本发明公开了一种虚拟机躲避识别的方法及装置。其方法包括：获取虚拟机特征参数，该虚拟机特征参数为被用来识别虚拟机的参数，修改所述虚拟机特征参数。本发明提供的技术方案，通过修改所述虚拟机特征参数，从而躲避恶意软件通过虚拟机特征参数对虚拟机的识别，提供了一种有效的虚拟机躲避识别方案，从而增加对恶意软件的监测和捕捉的有效性。
+84. 103049516 一种数据处理方法及装置
+CN
+17.04.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210546597.0
+北京神州绿盟信息安全科技股份有限公司
+徐洋
+G06F 17/30
+Loading...
+本发明实施例提供一种数据处理方法及装置，预先将数据的一个属性需要进行匹配的规则，利用指纹函数映射到第一指纹数字区间，从而可以利用每个规则对应的第一数字映射区间，将该属性需要进行匹配的规则通过平衡二叉树方法聚合为一棵判断树，使得可以利用该判断树每个叶子节点对应的第二指纹数字区间，判断接收到的数据的该属性的指纹信息属于哪个叶子节点，从而确定该数据的该属性匹配的规则子集。针对该数据的每个指定属性均做上述处理，即可确定该数据对应的规则集，实现将数据属性与该数据属性对应的每条规则进行规则匹配，保证了对数据属性的全面准确的判断，且通过判断树来匹配规则子集，还可以有效提高数据属性规则匹配的效率。
+85. 103051605 一种数据包处理方法、装置和系统
+CN
+17.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210476237.8
+国家计算机网络与信息安全管理中心
+徐娜
+H04L 29/06
+Loading...
+本发明实施例提供一种数据包处理方法、装置和系统，包括：针对现有技术在检测到发往目的主机的异常数据包，阻断包含该异常数据包的数据流，导致用于进行网络攻击的异常数据包无法被完整接收，进而无法用于后续的攻击行为和特征的准确分析的问题，本发明实施例提出，如果在向目的主机发送的数据包中，确定出异常数据包，则将该异常数据包发往指定主机，在保证目的主机不会受到异常数据包攻击的同时，可以利用指定主机完整接收用于进行网络攻击的异常数据包，从而可以利用指定主机接收到的异常数据包进行后续的攻击者攻击行为和特征的准确分析，跟踪研究最新的攻击手段和方法。
+86. 103036741 流量监测基线的确定方法及装置
+CN
+10.04.2013
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201210555010.2
+北京神州绿盟信息安全科技股份有限公司
+张磊
+H04L 12/26
+Loading...
+本发明提供一种流量监测基线的确定方法及装置。该方法包括：在直角坐标平面内确定预设周期内的历史流量数据图，所述直角坐标平面内的第一坐标轴表示所述预设周期内的时间，所述直角坐标平面内的第二坐标轴表示所述历史流量数据；根据所述历史流量数据图与所述第一坐标轴和所述第二坐标轴围成的区域，在所述坐标平面内确定基线绘制区域；在所述基线绘制区域内，接收用户根据所述历史流量数据图触发的鼠标事件；根据所述鼠标事件在所述基线绘制区域内的坐标位置，确定流量监测基线值。该装置包括：第一处理模块、第二处理模块、接收模块和第三处理模块。通过本发明的技术方案，可以准确确定流量监测基线值，避免误报和漏报。
+87. 103036905 企业网络安全分析方法和装置
+CN
+10.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210580940.3
+北京神州绿盟信息安全科技股份有限公司
+侯奎宇
+H04L 29/06
+Loading...
+本发明提供一种企业网络安全分析方法和装置，其中方法包括：获取企业系统中各部门部署的安全设备的安全事件信息，安全事件信息中至少包括事件内容信息、事件对应的源IP地址、事件对应的目的IP地址，根据所获取的各部门部署的安全设备的安全事件信息中的源IP地址和目的IP地址，生成各部门之间的安全事件对应关系信息，根据安全事件对应关系信息以及事件内容信息，定位影响企业网络安全运行的威胁因素信息。用于解决现有的企业设备系统的安全运行问题难以定位，进而导致维护效果差的问题。
+88. 103034579 图形运维操作有效性的自动分析处理方法和系统
+CN
+10.04.2013
+G06F 11/34 Loading...
+G06F 11/34
+Loading...
+201210500944.6
+北京神州绿盟信息安全科技股份有限公司
+王伟
+G06F 11/34
+Loading...
+本发明提供一种图形运维操作有效性的自动分析处理方法和系统，其中，方法包括：获取用户在客户端远程桌面上进行图形运维操作所对应的、通过堡垒机发往服务器的事件请求，根据事件请求获取事件类型，根据事件类型获取权重值，获取服务器根据事件请求而返回的响应画面集，获取响应画面集内所有响应图片的面积和，根据公式V=W*B/D计算图形运维操作的有效性信息，V表示有效性信息，W表示权重值，B表示面积和，D表示桌面的面积。本发明通过利用公式V=W*B/D来计算图形运维操作的有效性信息，解决了现有技术中人工评估运维人员操作的有效性所存在的效率低，耗费时间长，准确性差的问题。
+89. 103019865 虚拟机监控方法和系统
+CN
+03.04.2013
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201210587189.X
+北京神州绿盟信息安全科技股份有限公司
+刘业欣
+G06F 9/50
+Loading...
+本发明公开了一种虚拟机监控方法和系统。其中虚拟机监控方法，包括：获取虚拟机操作系统的虚拟指令块，所述虚拟指令块中包括多个虚拟指令；在所述虚拟指令块的翻译阶段，确定当前翻译的虚拟指令的地址是否在监控断点列表中预设的监控断点的地址范围，若在，则对所述虚拟指令设置第一监控断点；当执行所述虚拟指令时，根据第一监控断点执行监控。本发明适用于在指令翻译阶段进行监控断点设置，而指令执行阶段无需检查监控断点，提高虚拟机的执行效率，能有效提升虚拟机的性能。
+90. 103023914 一种防火墙系统及其实现方法
+CN
+03.04.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210575044.8
+北京神州绿盟信息安全科技股份有限公司
+韩啸
+H04L 29/06
+Loading...
+本发明提供一种防火墙系统及其实现方法，包括：调用用户空间驱动UIO获取网络中传输的数据包，所述数据包包括用于标识数据包编码格式的包头字段；根据包头字段调用用户空间的解码器对所述数据包进行与所述数据包编码格式相对应的解码处理，以获取数据包的源IP地址和源MAC地址；根据数据包的源IP地址和源MAC地址查询预设的访问绑定列表，若确定访问绑定列表中存在数据包的源IP地址、但不存在数据包的源IP地址和源MAC地址的对应关系，则丢弃数据包。本发明通过将防火墙系统设置在用户空间，并调用用户空间的相关模块协作实现防火墙功能，从而避免了用户空间与内核空间的传递过程，进而提高了系统的性能。
+91. 103019828 一种基于加壳程序的辅助脱壳方法及装置
+CN
+03.04.2013
+G06F 9/46 Loading...
+G06F 9/46
+Loading...
+201210592483.X
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/46
+Loading...
+本发明公开了一种基于加壳程序的辅助脱壳方法及装置，该方法包括：在对加壳程序执行脱壳操作前，获取运行加壳程序过程中产生的数据改写信息，每条数据改写信息包含至少两类子信息；选取数据改写信息中的至少两类子信息，根据所有数据改写信息中选取的至少两类子信息的数据构建第一辅助图形；和/或，获取运行加壳程序过程中产生的代码流程信息，每条代码流程信息包含至少两类子信息；选取代码流程信息中的至少两类子信息，根据所有代码流程信息中选取的至少两类子信息的数据构建第二辅助图形；根据第一辅助图形和/或第二辅助图形确定加壳程序对应的原始程序的重定位表和导入表的所在地址范围。该方案节省人力资源，又能提高效率。
+92. 103019739 重定位表的修复方法、程序脱壳方法及相关装置
+CN
+03.04.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210587721.8
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/44
+Loading...
+本发明公开了一种重定位表的修复方法、程序脱壳方法及相关装置，该方法包括：记录运行加壳程序过程中产生的数据改写信息和模块加载信息；在确定加壳程序对应的原始程序的OEP后，将记录的数据改写信息中的改写数据进行组合，并根据模块加载信息和重定位表格式在组合后的改写数据中搜寻待选重定位表；若搜寻到待选重定位表，获取在到达OEP的时刻所有重定位项指向内存地址的数据都存在于内存中、并且包含指向的内存地址最小的重定位项的待选重定位表为所述加壳程序对应的原始程序的重定位表；若搜寻不到，重新建立重定位表。方案可以适用于修复各种加壳程序对应的原始程序的重定位表，方法简单，修复效率高。
+93. 103019740 一种获取导入表和重定位表的方法及装置
+CN
+03.04.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210587722.2
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/44
+Loading...
+本发明公开了一种获取导入表和重定位表的方法及装置，该方法包括：记录运行加壳程序过程中产生的数据改写信息，所述数据改写信息包括数据改写地址、改写数据和数据改写时间；在确定所述加壳程序对应的原始程序的入口点OEP后，在记录的数据改写信息中，将数据改写时间连续且数据改写地址连续的数据改写信息所对应的改写数据进行组合；和/或，在记录的数据改写信息中，将数据改写时间连续、至少两个连续的数据改写地址循环的数据改写信息所对应的改写数据进行组合；逐一分析组合后的改写数据来获取所述加壳程序对应的原始程序的导入表和重定位表。该方案减少了耗时，提高了效率。
+94. 103019862 一种符号执行方法、装置及系统
+CN
+03.04.2013
+G06F 9/50 Loading...
+G06F 9/50
+Loading...
+201210540027.0
+北京神州绿盟信息安全科技股份有限公司
+忽朝俭
+G06F 9/50
+Loading...
+本发明公开了一种符号执行方法、装置及系统，主要内容包括：应用于包含负载均衡器和至少两个控制器的系统中，控制器执行待测试程序中的某条路径的同时将待测试程序中与该路径相关的路径进行分解，生成路径种子，并将生成的路径种子发送至负载均衡器，由负载均衡器将路径种子分发给多个空闲的控制器。通过本发明实施例的方案，一方面由于采用了分布式并行方式对待测试程序进行符号执行分析，有效解决了基于生成的符号执行中遇到的路径爆炸问题；另一方面，负载均衡器仅需保存路径种子，占用的内存资源较少，且每个分布式控制器在执行完本次的符号执行任务后就释放了占用的内存资源，因此有效地解决了资源耗尽问题。
+95. 102999330 基于用户态网卡驱动的网卡配置方法及装置
+CN
+27.03.2013
+G06F 9/44 Loading...
+G06F 9/44
+Loading...
+201210450860.6
+北京神州绿盟信息安全科技股份有限公司
+戈舒宁
+G06F 9/44
+Loading...
+本发明公开了一种基于用户态网卡驱动的网卡配置方法及装置，该方法包括：接收用户输入的待配置网卡的名称、参数名称和参数值后，在预设的参数名称与命令ID的对应关系中获取参数名称对应的命令ID；在维护的网卡的名称、类型、地址指针的对应关系中获取待配置网卡的名称对应的地址指针和类型；确定获取的待配置网卡的地址指针指向的所述待配置网卡的用户态内存空间地址，以及根据命令ID和所述待配置网卡的类型在预设的函数库中调用配置所述待配置网卡所需的函数；使用调用的函数和参数值在获取的所述待配置网卡的用户态内存空间地址配置待配置网卡。该方案实现了当网卡驱动移到用户空间后，对网卡进行配置。
+96. 102999374 一种基于虚拟机的信息记录方法
+CN
+27.03.2013
+G06F 9/455 Loading...
+G06F 9/455
+Loading...
+201210530485.6
+北京神州绿盟信息安全科技股份有限公司
+陈锦
+G06F 9/455
+Loading...
+本发明公开了一种基于虚拟机的信息记录方法，该方法包括：虚拟机运行选定程序时，根据所述选定程序中的跳转指令分割所述选定程序，得到若干代码块；以及在执行代码块的过程中，所述虚拟机监控事件发生，并按照事件发生的先后顺序记录事件标识和事件信息，所述事件信息包括：创建的线程或进程信息、加载的模块信息、进程分配的堆信息、进程创建的栈信息、数据改写信息、代码块信息、循环次数信息、新栈顶的位置信息、函数调用信息、函数返回信息、以及中央处理器CPU异常信息中之一或组合。该方案中记录信息的方式大大提高了记录效率，并且记录文件非常小，节省了存储空间；能够为后续信息分析提供更好的帮助。
+97. 102982282 程序漏洞的检测系统和方法
+CN
+20.03.2013
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201210487298.4
+北京神州绿盟信息安全科技股份有限公司
+孙建坡
+G06F 21/56
+Loading...
+本发明公开了一种程序漏洞的检测系统和方法，用以解决采用现有技术提供的程序漏洞检测方式对程序漏洞的检测不够完善，存在误报率比较高的问题。系统包括：执行路径模拟生成器、漏洞属性关联生成器和模糊状态自动机检测器。执行路径模拟生成器确定程序源代码的执行路径信息并发送给模糊状态自动机检测器；漏洞属性关联生成器根据设置的漏洞库中存储的漏洞信息，生成频繁模糊模式集合发送给模糊状态自动机检测器；模糊状态自动机检测器根据执行路径信息确定程序源代码的执行流程；并确定该执行流程与频繁模糊模式集合中包含的模糊模式的匹配度，以及根据该匹配度确定程序源代码的安全度。
+98. 102984160 分布式网络扫描任务处理方法和系统
+CN
+20.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210518355.0
+北京神州绿盟信息安全科技股份有限公司
+李新春
+H04L 29/06
+Loading...
+本发明提供一种分布式网络扫描任务处理方法和系统，其中方法通过第一扫描设备向第二扫描设备发送扫描指示信息，进而由第一扫描设备向第二扫描设备发送查询指示信息，获得第二扫描设备执行网络扫描任务的状态，根据第二扫描设备执行网络扫描任务的状态，确定向第二扫描设备重新发送扫描指示信息，或者发送查询指示信息，或者发送获取指示信息，实现了对网络扫描任务处理过程的监控和管理，从而解决了现有技术中在第一扫描设备向第二扫描设备发送扫描指示信息的过程中，第一扫描设备与第二扫描设备之间出现通信故障，造成第二扫描设备无法成功接收到扫描指示信息，进而无法对网络设备进行扫描，导致分布式网络扫描任务处理的成功率较低的技术问题。
+99. 102957704 一种确定MITM攻击的方法、装置及系统
+CN
+06.03.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210448821.2
+北京神州绿盟信息安全科技股份有限公司
+李镇鹏
+H04L 29/06
+Loading...
+本发明公开了一种确定中间人MITM攻击的方法、装置及系统，该方法包括：在接收到客户端发来的RDP连接请求时，将所述RDP连接请求转发给服务端；并获得服务端发来的第一RDP连接响应请求，其中，所述第一RDP连接响应请求中包含服务端生成的非对称加密公钥；将所述获得的第一RDP连接响应请求中包含的非对称加密公钥替换为预设的第一身份识别公钥，形成第二RDP连接响应请求并发送给客户端，其中客户端根据接收到的第二RDP连接响应请求中包含的非对称加密公钥和预设的第一身份识别公钥，确定是否存在MITM攻击。从而能够对MITM攻击进行主动检测，并且较好地提高了确定MITM攻击的准确性，从而提高网络安全性。
+100. 102945340 信息对象检测方法及系统
+CN
+27.02.2013
+G06F 21/50 Loading...
+G06F 21/50
+Loading...
+201210407575.6
+北京神州绿盟信息安全科技股份有限公司
+王卫东
+G06F 21/50
+Loading...
+本发明实施例提供一种信息对象检测方法及系统。方法包括：检测设备接收来自待检测对象的信息，待检测对象的信息携带有待检测对象的标识；检测设备根据待检测对象的标识，查询信誉值数据库获取待检测对象的信誉值；待检测对象的信誉值是通过对待检测对象在指定时间内的影响因素进行综合评测得到的，影响因素是指对待检测对象的安全性有影响的待检测对象的行为或状态；检测设备将待检测对象的信誉值与预设的至少一个信誉值范围进行比较，获取待检测对象的信誉值所属的第一信誉值范围，并根据第一信誉值范围对应的检测策略对待检测对象的信息进行安全检测。采用本发明技术方案可以提高检测性能，降低误判和漏判概率。
+101. 102938765 应用识别验证方法及装置
+CN
+20.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210448731.3
+北京神州绿盟信息安全科技股份有限公司
+卢蓉
+H04L 29/06
+Loading...
+本发明提供一种应用识别验证方法及装置，该方法包括：接收应用识别设备发送的应用识别结果；若所述应用识别结果与预期结果不同，则确定与所述应用相关的其它应用；获取所述应用与所述其它应用之间的相关性分析结果；根据所述应用的特征信息确定所述应用复杂度，并根据所述应用识别结果、所述预期结果以及所述相关性分析结果确定额外匹配应用数；根据所述应用复杂度和所述额外匹配应用数，确定误报风险度。本发明通过对应用识别结果进行验证，并进行误报分析，为应用识别更加准确提供依据和保障。
+102. 102938042 网页篡改检测方法及装置
+CN
+20.02.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210424973.9
+北京神州绿盟信息安全科技股份有限公司
+张鸿勋
+G06F 21/60
+Loading...
+本发明提供一种网页篡改检测方法及装置。该方法包括：根据每一种类网页篡改的属性获取每个时间检测点i的网页篡改检测值Vi以构造网页篡改检测算法可读取的训练样本集Strain，以ωf(l)为概率抽取样本集Df对训练样本集Strain进行训练，更新训练样本权重以得到强学习机H；若不满足下列条件1及条件2，则以ωf(n)为概率抽取样本集Df对训练样本集Strain进行迭代训练，重复更新训练样本权重以得到强学习机H；否则，输出强学习机H，利用强学习机完成网页篡改的检测。其中，条件1为网页篡改检测算法达到最大迭代次数k，条件2为样本集Df不再变化。本发明提供的网页篡改检测方法，通过网页篡改检测算法得到的网页篡改检测模型，从而提高网页篡改检测的准确度。
+103. 102938041 一种页面篡改的综合检测方法及系统
+CN
+20.02.2013
+G06F 21/60 Loading...
+G06F 21/60
+Loading...
+201210424499.X
+北京神州绿盟信息安全科技股份有限公司
+张鸿勋
+G06F 21/60
+Loading...
+本发明提供一种页面篡改的综合检测方法及系统，所述方法包括：获取当前检测页面的属性信息；确定当前检测页面的属性信息与预先存储的恶意属性规则是否匹配，若所述当前检测页面的属性信息与预设的恶意属性规则不匹配，则分别对所述当前检测页面进行页面元素匹配、页面变化率和页面内容的检测，并分别根据所述页面元素匹配、页面变化率和页面内容的检测结果确定当前检测页面是否为疑似篡改页面；若根据至少两项检测结果确定当前检测页面是疑似篡改页面，则确定当前检测页面为篡改页面。本发明的方法能够实现从多方位多角度对页面进行检测，从而减少了页面篡改的误报和漏报问题，使得对页面篡改的检测结果更加精准。
+104. 102938764 应用识别处理方法及装置
+CN
+20.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210448057.9
+北京神州绿盟信息安全科技股份有限公司
+韩鹏
+H04L 29/06
+Loading...
+本发明提供一种应用识别处理方法及装置，该方法包括：对与应用对应的抓包文件进行解析，获取各抓包文件中的会话；对所述会话进行特征提取，获取应用特征信息；对所述应用特征信息进行匹配校验，获取与各应用特征信息对应的特征命中率；采用命中率最高的应用特征信息，对所述应用进行识别处理。本发明通过获取应用的特征信息，实现了根据这些特征信息识别出相应的应用，并通过匹配校验保证了识别应用的准确性。
+105. 102932376 文件传输系统与方法
+CN
+13.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210487706.6
+北京神州绿盟信息安全科技股份有限公司
+王豪
+H04L 29/06
+Loading...
+本发明提供一种文件传输系统与方法。该系统包括：系统策略模块用于存储用户能够访问的服务器信息，登录选择模块用于将从系统策略模块获得的服务器信息封装为SFTP协议的数据并发送给系统客户端，系统客户端用于向客户端发送SFTP协议的数据，接收客户端从SFTP协议的数据解封装获得的服务器信息中选择的服务器信息并登录对应的服务器，将服务器返回的信息发送给系统服务端，系统服务端用于接收服务器返回的信息并将服务器返回的信息发送给客户端。本发明的文件传输系统与方法，实现了在第三方客户端预先不知道服务器信息的情况下可以获取要访问的服务器信息以及能够访问的服务器信息，进而可以连接用户需要的服务器。
+106. 102916955 网络入侵防御/检测系统及方法
+CN
+06.02.2013
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210390071.8
+北京神州绿盟信息安全科技股份有限公司
+刘水生
+H04L 29/06
+Loading...
+本发明公开了一种网络入侵防御/检测系统及方法。其中，网络入侵防御/检测方法包括：对从网络中获取的数据包进行重组；当重组后获取的数据流的长度大于等于第n阶段规则对应的数据流长度的第n临界值时，对重组的数据流利用第n阶段规则进行规则匹配检测；若重组的数据流匹配第n阶段规则，则对重组的数据流进行相应的预定义处理，并结束当前的重组及检测；否则，继续重组以使重组后的数据流长度大于等于第n+1阶段规则对应的数据流长度的第n+1临界值时，对重组的数据流利用第n+1阶段规则进行规则匹配检测；第n临界值小于第n+1临界值，n为正整数。本发明适用于复杂网络环境下的网络入侵防御/检测系统。
+107. 102915376 检测数据库异常行为的方法和设备
+CN
+06.02.2013
+G06F 17/30 Loading...
+G06F 17/30
+Loading...
+201210454438.8
+北京神州绿盟信息安全科技股份有限公司
+周振
+G06F 17/30
+Loading...
+本发明提供一种检测数据库异常行为的方法和设备。该方法包括：收集数据库正常行为对应的SQL语句，对SQL语句进行SQL语句关键字分析、SQL内置函数分析、SQL拓展存储过程分析和SQL语句敏感区域分析，生成白名单数据库，采用公式V=f1×w1+f2×w2+f3×w3+f4×w4获得对数据库行为进行分析的结果V，若V大于等于预设值，则判断数据库行为为数据库异常行为。本发明提供的检测数据库异常行为的方法和设备，实现了对数据库行为可以进行全面地检查，不会产生漏报的情况，提高了检测数据库异常行为的效率。
+108. 102821161 一种网络安全审计方法、装置及系统
+CN
+12.12.2012
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201210305831.0
+北京神州绿盟信息安全科技股份有限公司
+王伟
+H04L 29/08
+Loading...
+本发明公开了一种网络安全审计方法、装置及系统，用以解决现有技术中远程服务器的安全性较低的问题。该方法堡垒机通过VNC协议建立远程服务器至本地设备的远程桌面链接的同时，接收本地设备通过FTP上传的文件，并根据保存的审计策略对该文件进行审计，当审计通过时，将该文件发送给远程服务器保存，当审计不通过时，丢弃该文件。上述方法中通过FTP实现本地设备与远程服务器之间的文件传输，因此堡垒机接收到本地设备通过FTP上传的文件时，可以对该文件进行审计，并根据审计结果对该文件进行控制，提高了远程服务器的安全性。
+109. 102779252 漏洞扫描器及其插件调度方法
+CN
+14.11.2012
+G06F 21/56 Loading...
+G06F 21/56
+Loading...
+201210226908.5
+北京神州绿盟信息安全科技股份有限公司
+李振环
+G06F 21/56
+Loading...
+本发明提供一种漏洞扫描器及其插件调度方法。其中方法包括：其中包括：漏洞扫描器启动后将预设的通用插件加载到内存中；接收到漏洞扫描任务后，识别目标设备的操作系统类别；根据所述操作系统类别选择预设的扫描模板；调用所选择的扫描模板中记录的插件。本发明通过先调用通用插件，然后识别目标设备的操作系统类别，将相应的插件加载到内存中进行调用，与现有技术中一次性加载全部插件到内存中的方式相比，缩短了加载时间，因此相应提高了扫描速度；并且也减少了对内存容量的需求，从而有利于降低硬件成本。
+110. 102769626 Method, device and system for session information synchronization
+CN
+07.11.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201210262544.6
+北京神州绿盟信息安全科技股份有限公司
+田翠翠
+H04L 29/06
+Loading...
+The invention discloses a method, a device and a system for session information synchronization. The method comprises the following steps: A. when a primary device in a high availability system determines that the heartbeat and an engine of the primary device and a backup device are normal, establishing user data packet protocol (UDP) connection with the backup device; B. synchronizing the session information chosen from the session information in self-maintenance and the session information generated in real time to the backup device; and C. according to the received confirmation information fed back from the backup device, turning to the step B after determining that the backup device receives the chosen session information. According to the scheme, a data structure can be accurately and reliably sent to the backup device, thereby realizing seamless switching and prolonging the continuous operating time of a network security system.
+111. WO/2012/097678 VULNERABILITY DETECTION DEVICE AND METHOD
+WO
+26.07.2012
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+PCT/CN2012/000080
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+ZHAO, Liang
+G06F 21/00
+Loading...
+Disclosed is a vulnerability monitoring method, for carrying out vulnerability detection on a system with data execution prevention (DEP) enabled. The method includes the steps of: monitoring operations on the DEP; and concluding that there is behaviour of using the vulnerability in the system when an operation of closing DEP is detected. Further disclosed is a corresponding vulnerability monitoring device.
+112. 102523223 一种木马检测的方法及装置
+CN
+27.06.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110430821.5
+北京神州绿盟信息安全科技股份有限公司
+段宇璇
+H04L 29/06
+Loading...
+本发明公开了一种木马检测的方法及装置，用以解决现有技术不能有效的对网络中存在的木马进行检测的问题。该方法当检测到会话中存在木马心跳检测时，根据木马心跳检测的频率是否固定，将记录的会话权值增加相应的权值并记录，并针对控制端向被控制端发送的每个报文，检测该报文是否符合木马控制命令报文的特征，若符合，则将记录的会话权值增加第三权值并记录，在会话权值达到告警阈值时发出告警，以通知该会话为木马发起的会话。由于本发明实施例通过对会话中的报文进行检测实现木马检测，因此可以检测到网络中存在的木马，并且对会话中的报文进行检测时，并不只是简单的字符串匹配，因此降低了误报率，可以有效的对网络中存在的木马进行检测。
+113. 102523196 一种信息识别方法、装置及系统
+CN
+27.06.2012
+
+
+
+201110371172.6
+北京神州绿盟信息安全科技股份有限公司
+熊华根
+
+
+本发明公开了一种信息识别方法、装置及系统，用以解决现有技术中信息识别的方法导致信息识别装置的负担重，降低信息识别的效率，识别准确性低的问题。该方法将输入的IP地址发送给用于保存IP地址与域名信息的对应关系的域名存储装置，并根据域名存储装置返回的该IP地址对应的各域名信息，在该IP地址对应的服务器中，抓取各域名信息对应的网页中包含的信息，根据配置的识别策略对抓取的信息进行识别。通过上述方法，可以避免信息识别装置对同样的信息进行重复的识别，减轻了信息识别装置的负担，提高了信息识别的效率，并且，即使服务器上的某些信息未被用户访问，信息识别装置仍然可以对这些信息进行识别，提高了信息识别的准确性。
+114. 102523218 一种网络安全防护方法、设备和系统
+CN
+27.06.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201110424804.0
+北京神州绿盟信息安全科技股份有限公司
+黄明峰
+H04L 29/06
+Loading...
+本发明公开了一种网络安全防护方法、设备和系统，主要内容包括：网络安全设备根据接收到的扫描任务，对该扫描任务指定的WEB站点进行安全漏洞的扫描，得到扫描结果后，将扫描结果发送给网络应用防火墙，以便于网络应用防火墙根据接收到的扫描结果为WEB站点配置个性化的安全策略，这样就克服无法对WEB站点进行全面个性化的安全配置的问题。
+115. WO/2012/065367 DEVICE AND METHOD FOR CHECKING SECURITY CONFIGURATION AND NETWORK SYSTEM USING THE DEVICE
+WO
+24.05.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2011/001929
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+NIE, Baichan
+H04L 12/24
+Loading...
+Disclosed is a device for checking the security configuration of a network device, including: one or more pre-configured scan policies; a scan policy generator for selecting one or more scan policies from the pre-configured scan policies so as to generate a new scan policy corresponding to the network device; and a scanner for performing a security scan on the network device using the newly generated scan policy so as to check the security configuration thereof. Also disclosed is a corresponding method for checking the security configuration and a network system using the checking device.
+116. 102468985 针对网络安全设备进行渗透测试的方法和系统
+CN
+23.05.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010532859.9
+北京神州绿盟信息安全科技股份有限公司
+白敏
+H04L 12/26
+Loading...
+本发明公开了一种针对网络安全设备进行渗透测试的方法，包括步骤：利用搭建的网络仿真环境，自动化配置并提供针对漏洞的渗透测试参数作为全局变量(101)；自动执行漏洞的同步与辅助模块的扩展(102)；调用渗透测试执行引擎，利用所述渗透测试参数，执行有效载荷的交叉遍历以批量进行漏洞检测和攻击测试(103)；以及当全部有效载荷执行完毕后，自动生成攻击报表分析模块(104)。本发明还公开了一种针对网络安全设备进行渗透测试的系统。所述方法和系统大幅度提高了设备对已知和未知漏洞的发现和检测完备性，提高了在真实网络环境中实现漏洞的攻击、检测、和评估能力，并且大大提高了安全测试人员渗透测试的效率。
+117. 102457500 一种网站扫描设备和方法
+CN
+16.05.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010522435.4
+北京神州绿盟信息安全科技股份有限公司
+周大
+H04L 29/06
+Loading...
+本发明公开了一种用于对目标网站进行安全漏洞扫描的网站扫描设备，包括：网页获取部件，获取与待处理链接相对应的网页的当前内容和/或特征；链接处理部件，其包括改变判断装置，用于基于所存储的与待处理链接相对应的网页内容和/或特征以及该待处理链接的当前网页内容和/或特征来判断待处理链接所对应的网页是否发生了改变；以及漏洞检测部件，用于对与网页发生了改变的待处理链接相对应的网页进行安全漏洞检测。本发明还公开了一种与之对应的网站扫描方法。
+118. WO/2012/058994 DATA MATCHING DEVICE AND METHOD AND NETWORK INTRUSION DETECTION DEVICE AND METHOD
+WO
+10.05.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2011/080308
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+YAO, Gang
+H04L 29/06
+Loading...
+Disclosed are a data matching device and method thereof, and a network intrusion detection device and method, the data matching method comprising the steps of: finding in a regular expression set one or more complex regular expressions that may cause the exponential increase of the state number generated according to the regular expression; constructing a simplified expression corresponding to each complex regular expression; compiling a simplified state machine; compiling one or more sub-state machines, wherein each of the one or more sub-state machines is compiled according to one of the corresponding one or more complex regular expressions; and data matching according to the simplified state machine and the one or more sub-state machines. Also disclosed are a data matching device using the data matching method and an intrusion detection device and method using the data matching method and device.
+119. WO/2012/051802 WEBSITE SCANNING DEVICE AND METHOD
+WO
+26.04.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2011/001755
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+ZHOU, Da
+H04L 12/24
+Loading...
+Disclosed is a website scanning device for scanning a target website for security vulnerabilities, the device comprising: a webpage acquisition component for acquiring the current content and/or characteristics of a webpage corresponding to a link to be processed; a link processing component, including a change determination unit, for determining whether the webpage corresponding to the a to be processed has been changed according to the stored content and/or characteristics of the webpage corresponding to said link and according to the current webpage content and/or characteristics of the link; and a vulnerabilities detection component for detecting security vulnerabilities in a webpage having changed content and corresponding to a link to be processed. Also disclosed is a corresponding method for scanning a website.
+120. 102413013 网络异常行为检测方法及装置
+CN
+11.04.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110371820.8
+北京神州绿盟信息安全科技股份有限公司
+王卫东
+H04L 12/26
+Loading...
+本发明提供一种网络异常行为检测方法及装置。方法包括：获取网络设备的历史日志数据；解析所述历史日志数据，生成历史网络行为数据；根据所述历史网络行为数据和规则模板，生成白名单、黑名单和基调规则；获取所述网络设备的当前日志数据；解析所述当前日志数据，生成当前网络行为数据；根据所述白名单对所述当前网络行为数据进行过滤，得到可疑行为数据；根据所述黑名单对所述可疑行为数据进行过滤，得到异常行为数据和未知行为数据；将所述未知行为数据与所述未知行为数据中行为人身份对应的基调规则比较，将超出所述基调规则的未知行为数据标识为异常行为数据；输出包括所述异常行为数据的告警信息。
+121. 102404281 一种网站扫描设备和方法
+CN
+04.04.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010278838.9
+北京神州绿盟信息安全科技股份有限公司
+周大
+H04L 29/06
+Loading...
+本发明公开了一种网站扫描设备，包括策略分析装置，判断目标网站中的链接是否属于目标网站所采用的已知网络应用，如果所述链接属于已识别的网络应用，则不对上述链接进行漏洞扫描；爬虫装置，获取所述链接所指向的链接内容；网络应用识别装置，判断所述链接是否属于已知网络应用；全面扫描装置，对判断为不属于已知网络应用的链接进行全面的漏洞扫描；以及已知网络应用漏洞检测装置，针对所确定的已识别网络应用，根据已识别网络应用的已知漏洞对网站进行漏洞检测，以确定所述网站是否存在所述已识别网络应用的已知漏洞。本发明还公开了一种在该网站扫描设备中采用的网站扫描方法。
+122. WO/2012/031460 WEBSITE SCANNING SERVICE AND METHOD
+WO
+15.03.2012
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+PCT/CN2011/001526
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+ZHOU, Da
+H04L 29/06
+Loading...
+Disclosed is a website scanning device comprising: a policy analysis device for determining whether a link in a target website belongs to a known network application used by the target website, if the link belongs to an identified network application, then a vulnerability scan is not performed for the link; a crawler device for obtaining the link content pointed to by the link; a network application identification device for determining whether the link belongs to a known network application; a full scan device for performing full vulnerability scans on links determined as not belonging to a known network application; and a known network application vulnerability detection device for detecting website vulnerabilities for the confirmed and identified network application according to the known vulnerabilities of the identified network applications to confirm whether the website contains known vulnerabilities of the identified network application. Also disclosed is a website scanning method employed in the website scanning device.
+123. 102354355 计算机安全风险评估方法和设备
+CN
+15.02.2012
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+201110292996.4
+北京神州绿盟信息安全科技股份有限公司
+张增骏
+G06F 21/57
+Loading...
+本发明公开了对计算机的安全风险进行评估的安全风险评估方法，包括步骤：获取计算机中存在的一个或者多个安全漏洞；根据安全漏洞的危险程度为每个安全漏洞分配风险等级；逐个等级地计算每个风险等级的安全风险评估值，直到计算了计算机中的安全漏洞所具有的最高风险等级为止；以及基于最高风险等级的安全风险评估值来确定所述计算机的安全风险值。本发明还公开了用于执行安全风险评估方法的安全风险评估设备。
+124. 102325062 异常登录检测方法及装置
+CN
+18.01.2012
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110280524.7
+北京神州绿盟信息安全科技股份有限公司
+侯奎宇
+H04L 12/26
+Loading...
+本发明提供了一种异常登录检测方法，该方法包括：接收用户的登录行为的属性数据；获取与该用户对应的行为标准，其中所述行为标准至少记录一组登录行为的历史属性数据，并记录根据该至少一组历史登录行为数据的统计结果生成的判定值；并根据该判定值与预设阈值进行比较，检测所述登录行为数据是否存在异常；若所述登录行为不存在异常，则正常提供服务，若存在异常，则发出预警通知或中止提供服务。相应地，本发明还提供了一种异常登录检测装置。实施本发明，提高了服务提供系统的安全性，并减少了服务提供系统管理员的工作量，也提高了工作效率。
+125. 102307114 一种网络的管理方法
+CN
+04.01.2012
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110281126.7
+北京神州绿盟信息安全科技股份有限公司
+熊华根
+H04L 12/24
+Loading...
+本发明提供了一种网络的管理方法，包括：在受控网络中设置超级管理员，登录该超级管理员以创建并配置所述受控网络中的设备管理员和普通用户；登录所述设备管理员，以管理针对所述受控网络中至少一个设备的访问，并为该设备配置访问控制策略；登录所述普通用户，以根据所述访问控制策略访问所述设备。实施本发明提供的方法可实现对受控网络中的账户进行集中管理和提升受控网络的管理的安全性和便捷性，也便于对设备管理员或普通用户的操作行为进行安全审计。
+126. 102279795 Test method and test device
+CN
+14.12.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110243930.6
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Zhou Huifang
+G06F 11/36
+Loading...
+The invention discloses a test method and a test device for solving the problem of low efficiency in test of software in the prior art. The method comprises the following steps of: according to the current state information of software to be tested, extracting a state path which comprises the current state information; according to a connection relation of each piece of state information in the extracted state path, determining the next state information of the current state information; and according to a recorded skipping condition for skipping from the current state information to the next state information, inputting the skipping condition which serves as an operating instruction to test the software to be tested. In the embodiment of the invention, the skipping condition for skipping from each piece of state information which is stored in the state path to the next state information serves as the input operating instruction to test the software to be tested, so that the software can be automatically tested; and manual operation is not required in a test process, so that the test efficiency of the software is improved.
+127. 102279796 Method and device for testing software compatibility
+CN
+14.12.2011
+G06F 11/36 Loading...
+G06F 11/36
+Loading...
+201110247149.6
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Zhai Yujia
+G06F 11/36
+Loading...
+The invention discloses a method and a device for testing software compatibility, the method comprising the following step: classifying various application software deployed as a test environment according to different run modes, so that the application software can be run according to the run mode of the corresponding classification when a software compatibility test is performed, and various application software can really indicate influence on other software and received influence from other software during running, i.e., the run mode property of various application software in a real environment can be really reflected, the test environment can really simulate the real environment, and the accuracy of the test result of the soft compatibility can be improved.
+128. 102271042 Certificate authorization method, system, universal serial bus (USB) Key equipment and server
+CN
+07.12.2011
+H04L 9/32 Loading...
+H04L 9/32
+Loading...
+201110247312.9
+NSFOCUS Information Technology Co., Ltd.
+Liu Yongjun
+H04L 9/32
+Loading...
+The invention discloses a certificate authorization method, a certificate authorization system, universal serial bus (USB) Key equipment and a server. A secure storage area in the USB Key equipment additionally stores a security identifier with uniqueness, correspondence between a hardware identifier of the USB Key equipment and the security identifier is established in the server, an operational result of an encryption operation performed by utilizing the security identifier and a received digital certificate is transmitted to the server, and the server authenticates the received operational result by utilizing a locally stored security identifier and allows the USB Key equipment to use the received digital certificate only when the received operational result passes the authentication. A client cannot read information in the secure storage area in the USB Key equipment, so illegal USB Key equipment cannot pass the authentication of the server even after acquiring the digital certificate to avoid the illegal usage of the digital certificate and improve the service security of a legal user.
+129. 102271147 Information delivery system and method thereof
+CN
+07.12.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201010197976.4
+NSFOCUS Information Technology Co., Ltd.
+Chen Xueli
+H04L 29/08
+Loading...
+The invention discloses an information delivery system that is used for delivering information in a network. The system comprises: at least a calculating node, which is used for collecting various information from a network; at least information collection and distribution equipment, which is used for receiving and storing the information that is collected by the calculating node; and at least an information analyzer, which is used for obtaining the information from the information collection and distribution equipment and carrying out processing on the information. Each information collection and distribution equipment maintains an active information collection and distribution equipment listing and the calculating node updates an information collection and distribution equipment listing of the calculating node by utilizing the active information collection and distribution equipment listing maintained by the information collection and distribution equipment. In addition, the invention also discloses a method used in the information delivery system as well as information collection and distribution equipment applied in the method.
+130. 102254121 Method, device and system for processing data
+CN
+23.11.2011
+G06F 21/85 Loading...
+G06F 21/85
+Loading...
+201110187000.3
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Liu Yongjun
+G06F 21/85
+Loading...
+The embodiment of the invention provides a method, a device and a system for processing data. The embodiment of the invention, for a Personal System (PS)/2 keyboard, takes the technical means of sending random confusion data generated to an Input Output (IO) port which then sends the random confusion data to a keyboard filter module, so that only information containing the random confusion data can be intercepted by direct IO key stroke interception; for a Universal Serial Bus Hand Interface Device (USB HID) keyboard, the following technical means can be employed: a keyboard-type service callback function is searched; if the search is successful, the keyboard-type service callback function is invoked to send the generated random confusion data to the keyboard filter module; and if the search is failed, alarm information is output; therefore, the key stroke interception of the keyboard-type service callback function of the Hook-type drive can be detected out, thus realizing effective protection and guaranteeing data security.
+131. 102238038 Network equipment security evaluation method and device
+CN
+09.11.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201110210444.4
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Lu Juan
+H04L 12/24
+Loading...
+The invention discloses a network equipment security evaluation method and a network equipment security evaluation device, which are used for solving the problem of network equipment security evaluation inaccuracy in the prior art. The method comprises the following steps of: scanning each piece of risk data corresponding to each piece of risk type information in network equipment according at least one piece of set risk type information; and for each piece of risk type information, comparing each piece of risk data corresponding to the risk type information in a scanning result with each piece of saved risk data corresponding to the risk type information in a security baseline set for the network equipment, and outputting a comparison result. Security evaluation is performed on the network equipment according to each piece of saved risk data corresponding to each piece of risk type information in the security baseline set for the network equipment, so the embodiment of the invention can more accurately evaluate the security of the network equipment.
+132. 102209010 Network test system and method
+CN
+05.10.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110155558.3
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Xue Ruifang
+H04L 12/26
+Loading...
+The invention discloses a network test system. The network test system comprises a client and a flow analysis device, wherein the client is suitable for directly constructing a network flow information data packet packaged by a netflow protocol and sending the constructed network flow information data packet; and the flow analysis device is used for receiving the network flow information data packet packaged by the netflow protocol, and generating a flow analysis result based on the network flow information data packet. The invention further discloses a network test method suitable for the network test system.
+133. 102209006 Rule test equipment and method
+CN
+05.10.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110052045.X
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Zhang Xiumei
+H04L 12/26
+Loading...
+The invention discloses rule test equipment (100) and is used to test equipment to be tested which carries out a network communication with the rule test equipment. The rule test equipment comprises a rule memory (110), a playback device (120), a monitor (130) and a determining device (140), wherein the rule memory (110) is used to store rules and expectation alarm information corresponding to the rules, the rules define a specific network data mode, the playback device (120) is used to read the rules from the rule memory (110), generate a network data packet set corresponding to the rules and play back the network data packet set to the equipment to be tested, the monitor (130) is used to monitor the alarm information triggered by the equipment to be tested in a predetermined time-delay period, the determining device (140) is used to read the expectation alarm information form the rule memory (110), receive the monitored alarm information from the monitor (130) and produce a test result on whether the equipment to be tested successfully uses the rules or not based on whether the monitored alarm information comprises the expectation alarm information or not.
+134. 102195876 Network task distribution equipment, system and method
+CN
+21.09.2011
+H04L 12/729 Loading...
+H04L 12/729
+Loading...
+201110067395.3
+NSFOCUS Information Technology Co., Ltd.
+Zhou Da
+H04L 12/729
+Loading...
+The invention discloses network task distribution equipment which is suitable for distributing a network task to one or more pieces of network processing equipment. The network task distribution equipment comprises a communication unit, a network task storage, a state storage and a task distributor, wherein the communication unit is used for communicating with the network processing equipment to transmit a network task to the network processing equipment for executing, and for receiving an execution result of the network task from the network processing equipment and the load and/or bandwidth state information of the network processing equipment; the network task storage is used for storing a list of network tasks to be executed; the state storage is used for storing the information of the network task executed on each piece of network processing equipment and the current load and/or bandwidth state of each piece of network processing equipment; and the task distributor is configured to distribute a network task to be executed to the network processing equipment for executing based on the current load and/or bandwidth state of the network processing equipment so as to ensure that each network task is executed at an appropriate network bandwidth.
+135. 102164182 Device and method for identifying network protocol
+CN
+24.08.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+201110096512.9
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Cheng Lijun
+H04L 29/08
+Loading...
+The invention discloses a network protocol identification method for identifying a network protocol used for transmitting network data between a client and a server. The method comprises the following steps: acquiring a plurality of packets in the same dialogue at the moment of transmitting the network data, and dividing the packets into the packets sent to the server from the client and the packets sent to the client from the server; for the packets sent to the server from the client, calculating a first index related to the size of the packets and a second index related to the time interval for the packets to reach the server; for the packets sent to the client from the server, calculating a third index related to the size of the packets and a fourth index related to the time interval for the packets to reach the client; constructing a feature vector the components of which contain the first, second, third and fourth indexes; and confirming the network protocol used for transmitting the network data according to the feature vector. The invention also relates to a protocol identification device corresponding to the network protocol identification method and a network communication system using the protocol identification device.
+136. 102123058 Test equipment and method for testing network protocol decoder
+CN
+13.07.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201110021592.1
+NSFOCUS Information Technology Co., Ltd.
+Zheng Waizhong
+H04L 12/26
+Loading...
+The invention discloses test equipment for testing a network protocol decoder in network equipment, which comprises a protocol template memory, a configuration file memory, a test data generator and a test result generator, wherein one or more protocol templates are memorized in the protocol template memory; a configuration file is memorized in the configuration file memory; the configuration file defines the protocol template required to be used and a test parameter adopted in a test; the test data generator generates a test data packet based on the protocol template and the test parameter defined in the configuration file, and sends the generated test data packet to the network equipment in order that the network protocol decoder in the network equipment decodes the test data packet; and the test result generator generates a test result based on a decoded result from the network equipment and the configuration file. The invention also discloses a corresponding test method.
+137. 102111236 Decoding equipment and method aiming at structuring protocol
+CN
+29.06.2011
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+201010549845.8
+Beijing Shenzhou LvmengInformation Security Technology Co., Ltd.
+Zheng Waizhong
+H04L 1/00
+Loading...
+The invention discloses decoding equipment aiming at a structuring protocol. The decoding equipment comprises a state setter and a state-based decoder, wherein the state setter is used for setting a decoding state for a data packet which is encoded by the structuring protocol according to a preset rule; and the state-based decoder is used for receiving the data packet of which the decoding state is set, and selecting a sub-decoder corresponding to the present decoding state of the data packet to decode a structure corresponding to the present decoding state among one or more structures of the data packet. The invention also discloses a corresponding decoding method, and a network intrusion detecting system and a network intrusion detecting method which use the decoding equipment and the decoding method respectively.
+138. 102075418 Network data flow control equipment and method
+CN
+25.05.2011
+H04L 12/811 Loading...
+H04L 12/811
+Loading...
+201010617333.0
+NSFOCUS Information Technology Co., Ltd.
+Shi Wenfeng
+H04L 12/811
+Loading...
+The invention relates to network data flow control equipment (100), which comprises a network adapter (110), a decoding classifier (120) and a flow limiter (130), wherein the network adapter (110) is used for receiving data packets, the decoding classifier (120) is used for decoding and classifying the received data packets, and the flow limiter (130) comprises a flow limiting passage (132) and a virtual network adapter (134) corresponding to the flow limiting passage, wherein the data packets classified by the decoding classifier (120) are sent into the flow limiting passage (132) relevant to the category of the data packets, and in addition, the virtual network adapter (134) corresponding to the flow limiting passage (132) limits the flow of data packets in the flow limiting passage (132) and sends the flow limited data packets to the network adapter (110) so that the data packets are sent out through the network adapter (110). The invention also provides a network data flow control method executed in the network data flow control equipment (100).
+139. 102075412 Network data transmission rate control equipment and method
+CN
+25.05.2011
+H04L 12/801 Loading...
+H04L 12/801
+Loading...
+201010522441.X
+NSFOCUS Information Technology Co., Ltd.
+Shi Wenfeng
+H04L 12/801
+Loading...
+The invention discloses a network data transmission rate control method, comprising the steps of: acquiring IP (Internet Protocol) data packets to be transmitted; acquiring flow control information correlated to the IP data packets according to the sources or target IP addresses of the IP data packets; determining whether the transmission of the IP data packets is allowed according to an admissible value in the correlated flow control information and the size of the IP data packets; if so, updating the admissible value in the correlated flow control information according to the size of the IP data packets, and transmitting the IP data packets, and if not, caching the IP data packets so as to retransmit the IP data packets later or discarding the IP data packets. The invention also discloses network data transmission rate control equipment for executing the method.
+140. 102075512 Method and device for decoding network protocol
+CN
+25.05.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010532903.6
+NSFOCUS Information Technology Co., Ltd.
+Han Peng
+H04L 29/06
+Loading...
+The invention relates to a method for decoding application layer network protocol data packets and a decoder. Each application layer network protocol data packet comprises a plurality of data fragment groups. The method comprises the following steps of: (a) extracting the data in a first data fragment group of the application layer network protocol data packet, jumping to a first intermediate state by taking the extracted data as an input and simultaneously executing corresponding protocol decoding; (b) extracting the data in a next data fragment group of the application layer network protocol data packet, jumping to a next first intermediate state by taking the extracted data as the input and simultaneously executing corresponding protocol decoding; and (c) sequentially repeating the step (b) on the residual data fragment groups of the application layer network protocol data packet till the finishing state reaches. Therefore, all data received from a lower module can be provided for the decoder without integration so that a data integration module in the traditional decoding scheme can be removed, and the module design of a network intrusion detection device is simplified.
+141. 102075347 Security configuration checking equipment and method, and network system adopting equipment
+CN
+25.05.2011
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+201010549861.7
+NSFOCUS Information Technology Co., Ltd.
+Nie Baichuan
+H04L 12/24
+Loading...
+The invention discloses security configuration checking equipment for performing security configuration checking on network equipment, which comprises one or more preconfigured scanning strategies, a scanning strategy generator and a scanner, wherein the scanning strategy generator selects one of the one or more preconfigured scanning strategies to generate a novel scanning strategy corresponding to the network equipment; and the scanner performs security scanning on the network equipment by utilizing the generated novel scanning strategy, thereby performing security configuration checking. The invention also discloses a corresponding security configuration checking method and a network system adopting the checking equipment.
+142. 102075511 Data matching equipment and method as well as network intrusion detection equipment and method
+CN
+25.05.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010532853.1
+NSFOCUS Information Technology Co., Ltd.
+Me Gang
+H04L 29/06
+Loading...
+The invention discloses a regular expression based data matching method for matching data on the basis of a regular expression set comprising one or more regular expressions. The method comprises the following steps of: concentratively searching one or more complex regular expressions causing state number generated on the basis of the regular expressions to quickly increase in an index way during interaction in the regular expression set; constructing a simplified expression corresponding to each complex regular expression for each of the one or more searched complex regular expressions; compiling a simplified state machine on the basis of the constructed simplified expression and other regular expressions except for the one or more searched complex regular expressions in the regular expression set; compiling one or more state submachines, wherein each of the one or more state submachines is compiled on the basis of a corresponding complex regular expression in the one or more complex regular expressions; and matching data on the basis of the simplified state machine and the one or more state submachines. The invention also discloses data matching equipment with the data matching method as well as an intrusion detection equipment and method adopting the data matching method and equipment.
+143. 102075377 Network equipment test system and method thereof
+CN
+25.05.2011
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+201010572442.5
+NSFOCUS Information Technology Co., Ltd.
+Ji Dong
+H04L 12/26
+Loading...
+The invention discloses a network equipment test system, which comprises a sample message memory, a tester and a report generator, wherein the sample message memory stores one or a plurality of samples and one or a plurality of category classification messages relevant to one or a plurality of samples, the tester obtains one or a plurality of samples from the sample message memory and generates test scripts based on one or a plurality of samples for respectively testing network equipment so as to generate one or a plurality of corresponding test results, and the report generator generates test result reports aiming at the network equipment on the basis of one or a plurality of test results and one or a plurality of category classification messages. The invention also discloses a corresponding network equipment test method.
+144. 102075508 Vulnerability disclosure system and method aiming at network protocol
+CN
+25.05.2011
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+201010271811.7
+NSFOCUS Information Technology Co., Ltd.
+Liu Yexin
+H04L 29/06
+Loading...
+The invention discloses a vulnerability disclosure system aiming at the network protocol, which comprises a client, a service end, an intermediator controller, a client controller and/or a service end controller, wherein the client and the service end are used for communication according to the network protocol, the intermediator controller is used for monitoring the communication between the client and the service end and capturing and modifying communication data to carry out vulnerability disclosure on the client or the service end, the client controller is used for controlling the client and monitoring the operation state of the client, and the service end controller is used for controlling the service end and monitoring the operation state of the service end, wherein when the abnormal operation state of the client is caused by that the client processes the communication data modified by the intermediator controller, the client end is restarted, and when the abnormal operation state of the service end is caused by that the service end processes the communication data modified by the intermediator controller, the service end is restarted. The invention also discloses a vulnerability disclosure method suitable for operating in the vulnerability disclosure system.
+145. 102073818 Vulnerability detection equipment and method
+CN
+25.05.2011
+G06F 21/00 Loading...
+G06F 21/00
+Loading...
+201110008981.0
+NSFOCUS Information Technology Co., Ltd.
+Zhao Liang
+G06F 21/00
+Loading...
+The invention discloses a vulnerability detection method, which is used for performing vulnerability detection on a system employing data execution prevention (DEP). The method comprises the following steps of: detecting operation aiming at DEP; and when the operation of closing the DEP is detected, considering that a vulnerability utilization behavior happens in the system. The invention also discloses corresponding vulnerability detection equipment.
+146. 102065111 Reverse proxy method and reverse proxy server
+CN
+18.05.2011
+H04L 29/08 Loading...
+H04L 29/08
+Loading...
+200910238028.8
+北京神州绿盟信息安全科技股份有限公司
+欧怀谷
+H04L 29/08
+Loading...
+The invention discloses a reversed proxy method for a reverse proxy server which is arranged between an external client and an internal server so as to being convenient for the external client to access to the internal server to provide a reverse proxy service. The reverse proxy method comprises the following steps: receiving packets captured by the communication port of the reverse proxy server; removing media access control (MAC) layer encapsulation and internet protocol (IP) layer or higher layer encapsulation of the packets; processing the packets which are subject to removing the encapsulation, and then encapsulating the processed packets again; and sending the packets by a corresponding communication interface, wherein the source IP address and destination IP address of the re-encapsulated packets are consistent with those of the packets which are not subject to removing encapsulation.
+147. 101964025 XSS (Cross Site Scripting) detection method and device
+CN
+02.02.2011
+G06F 21/57 Loading...
+G06F 21/57
+Loading...
+200910089786.8
+北京神州绿盟信息安全科技股份有限公司
+刘光旭
+G06F 21/57
+Loading...
+The invention discloses an XSS (Cross Site Scripting) loophole detection method for detecting XSS loopholes in a webpage, which comprises the following steps of: for each parameter-value pair in a parameter-value pair set which can be received by the webpage, constructing a parameter-value pair with a specific script inserted in the value, assembling a URL (Uniform Resource Locator) corresponding to the webpage on the basis of the parameter-value pair inserted with the specific script, acquiring dynamic webpage content corresponding to the assembled URL, and simulating to execute the acquired dynamic webpage content. If the specific script is executed, then the XSS loopholes exist in the processing on the parameter in the webpage. The invention also discloses a corresponding XSS loophole detection device as well as a website security scanning system and a network scanning system, using the device.
+148. WO/2011/009295 METHOD AND DEVICE FOR XSS DETECTING
+WO
+27.01.2011
+G06F 21/53 Loading...
+G06F 21/53
+Loading...
+PCT/CN2010/001119
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+LIU, Guangxu
+G06F 21/53
+Loading...
+A method for detecting a cross site scripting (XSS) vulnerability in the web page is disclosed. The method includes: constructing a parameter-value pair with a specific script inserted into the value for every parameter-value pair in the parameter-value pair set which can be accepted by the web page; composing a URL corresponding to the web page based on the parameter-value pair with the inserted specific script; acquiring a dynamic web page content corresponding to the composed URL; and simulating the execution of the acquired dynamic web page content, if the specific script is executed, then it is regarded that the processing of the parameter in the web page has an XSS vulnerability. A corresponding device for detecting an XSS vulnerability and a web site safety scanning system and a network scanning system using the device are also disclosed.
+149. WO/2010/130154 DEVICE, METHOD AND SYSTEM FOR PREVENTING NETWORK CONTENTS FROM BEING TAMPERED
+WO
+18.11.2010
+H04L 12/24 Loading...
+H04L 12/24
+Loading...
+PCT/CN2010/000674
+NSFOCUS INFORMATION TECHNOLOGY CO., LTD.
+OU, Huaigu
+H04L 12/24
+Loading...
+A system for preventing network contents in one or more network servers (130a, 130b) from being tampered is provided. The system includes: a content buffering and providing device (120), which is used for buffering the network contents in one or more network servers (130a, 130b); a content monitoring sub-system (140), which includes one or more content monitoring clients (143a, 143b) merging into the network servers (130a, 130b), and one or more content monitoring servers (141) merging into the content buffer and provision device (120). The present invention also discloses a content buffer and provision device, a network contents provision system and a method thereof. According to the system, device and method of the present invention, that network contents being tampered can be avoided effectively, while, access speed and safety of the network contents can be improved.
+150. 101888313 Main machine detection system and method
+CN
+17.11.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910084545.4
+NSFOCUS Information Technology Co., Ltd.
+Zhang Yunhai
+H04L 12/26
+Loading...
+The invention discloses a main machine detection system for detecting main machine information, which comprises a cloud security center which stores main machine information and generates a main machine detection policy or main machine detection list according to the stored main machine information; and a main machine information detection device group which is used for receiving the main machine detection policy or main machine detection list, collects main machine detection information accordingly and sends the collected main machine detection information to the cloud security center, wherein the cloud security center processes the main machine detection information and generates and stores main machine information. The invention also discloses a corresponding main machine detection method and a main machine query method. The main machine detection system and the main machine detection method of the invention overcome the drawbacks of difficult main machine detection implementation and incomplete detection result in the field of the prior art, and provide real-time and reliable main machine detection information for users.
+151. 101888311 Equipment, method and system for preventing network contents from being tampered
+CN
+17.11.2010
+H04L 12/26 Loading...
+H04L 12/26
+Loading...
+200910083751.3
+NSFOCUS Information Technology Co., Ltd.
+Ou Huaigu
+H04L 12/26
+Loading...
+The invention discloses a system for preventing network contents on one or more network servers from being tampered. The system comprises content caching and supply equipment and a content monitoring subsystem, wherein the content caching and supply equipment is used for caching the network contents on one or more network servers; and the content monitoring subsystem comprises one or more content monitoring client parts merged into the network servers respectively and a content monitoring server part merged into the content caching and supply equipment. The invention also discloses the content caching and supply equipment, a network content supply system and a using method thereof. The system, the equipment and the method can effectively prevent the network contents from being tampered and improve the network content access speed and security at the same time.
+152. 101686235 Device and method for analyzing abnormal network flow
+CN
+31.03.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810223052.X
+Nsfocus Information Technology (Beijing) Co., Ltd.
+Chen Jingmei
+H04L 29/06
+Loading...
+The invention discloses a method for analyzing abnormal network flow, which comprises the following steps: computing an index value set of a monitored server according to acquired IP network data; carrying out primary detection on the computed index value set to generate a vector corresponding to the index value set; and carrying out secondary detection on the vector to determine whether the abnormal flow and an abnormal type related to the monitored server exist. The invention also relates to a related device for analyzing the abnormal network flow, and a system and a method for monitoring network flow by using the device and the method for analyzing the abnormal network flow.
+153. 101656710 Proactive audit system and method
+CN
+24.02.2010
+H04L 29/06 Loading...
+H04L 29/06
+Loading...
+200810118759.4
+NSFOCUS Information Technology (Beijing) Co., Ltd.
+Zhang Yunhai
+H04L 29/06
+Loading...
+The invention provides a content security audit system, which comprises an allocation device, a webpage extracting device, a content analysis and audit device, and a passive content security audit subsystem, wherein the allocation device acquires a URL list appointed to be proactively audited; the webpage extracting device extracts a webpage source code of a webpage pointed by the URL for each URLin the URL list; the content analysis and audit device performs content analysis on the webpage source code to determine whether the webpage source code comprises sensitive content or malicious codes; and the passive content security audit subsystem is used for acquiring data at network essential nodes, and analyzing the data to determine the URL list. The invention also provides a content security audit method used by the system.
+154. 1612135 Invasion detection (protection) product and firewall product protocol identifying technology
+CN
+04.05.2005
+G06F 17/21 Loading...
+G06F 17/21
+Loading...
+200310102293.6
+Zhonglian Lumeng Information Technology (Beijing) Co., Ltd.
+Chen Xueli
+G06F 17/21
+Loading...
+The invention discloses a protocol identification technique in invasion detection (protection) product and firewall product, including training course method and classifying course method, where the former includes the steps of preprocessing training text, extracting characteristic item, reprocessing training text and connecting the follow-up construction classifier and the latter includes the steps of preprocessing new text, classifying and outputting. It makes protocol analysis by analyzing various data flows captured in the network, finds and obstructs the invasion behavior but need not inquire port mapping list or similar data file, and has extremely high protocol identification accuracy.
+

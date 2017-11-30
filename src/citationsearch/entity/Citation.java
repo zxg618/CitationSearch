@@ -20,16 +20,86 @@ public class Citation extends Entity {
 	protected int citingPatentId = 0;
 	
 	protected String citingPublnNum = "";
+	protected Date citingPubDate = null;
+	
 	protected String citingAppNum = "";
 	protected String priorityNumber = "";
 	protected String prefix = "";
 	protected String postfix = "";
 	protected Date priorityDate = null;
+	protected Date earliestFilingDate = null;
+	protected int citingAppDocdbFamilyId = 0;
 	
 	protected int citnId = 0;
 	
+	
+	public Date getEarliestFilingDate() {
+		return earliestFilingDate;
+	}
+	
+	public String getEarliestFilingDateString() {
+		if (this.earliestFilingDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.earliestFilingDate);
+	}
+	
+	public void setEarliestFilingDateString(String dateString) {
+		try {
+			this.earliestFilingDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setEarliestFilingDateBySqlDate(java.sql.Date date) {
+		this.earliestFilingDate = new Date(date.getTime());
+	}
+	
+	public void setEarliestFilingDate(Date earliestFilingDate) {
+		this.earliestFilingDate = earliestFilingDate;
+	}
+	
+	
+	public int getCitingAppDocdbFamilyId() {
+		return citingAppDocdbFamilyId;
+	}
+	public void setCitingAppDocdbFamilyId(int citingAppDocdbFamilyId) {
+		this.citingAppDocdbFamilyId = citingAppDocdbFamilyId;
+	}
+	
+	public Date getCitingPubDate() {
+		return this.citingPubDate;
+	}
+	public void setCitingPubDate(Date citingPubDate) {
+		this.citingPubDate = citingPubDate;
+	}
+	
+	public String getPublnDateString() {
+		if (this.citingPubDate == null) {
+			return "1900-01-01";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		return sdf.format(this.citingPubDate);
+	}
+	
+	public void setPublnDateString(String dateString) {
+		try {
+			this.citingPubDate = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).parse(dateString);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void setPublnDateBySqlDate(java.sql.Date date) {
+		this.citingPubDate = new Date(date.getTime());
+	}
+	
 	public String getCitingAppNum() {
-		return citingAppNum;
+		return this.citingAppNum;
 	}
 	public void setCitingAppNum(String citingAppNum) {
 		this.citingAppNum = citingAppNum;
@@ -41,19 +111,19 @@ public class Citation extends Entity {
 		this.citingPublnNum = citingPublnNum;
 	}
 	public String getPriorityNumber() {
-		return priorityNumber;
+		return this.priorityNumber;
 	}
 	public void setPriorityNumber(String priorityNumber) {
 		this.priorityNumber = priorityNumber;
 	}
 	public String getPrefix() {
-		return prefix;
+		return this.prefix;
 	}
 	public void setPrefix(String prefix) {
 		this.prefix = prefix;
 	}
 	public String getPostfix() {
-		return postfix;
+		return this.postfix;
 	}
 	public void setPostfix(String postfix) {
 		this.postfix = postfix;
@@ -114,7 +184,7 @@ public class Citation extends Entity {
 	
 	public String getCitingApplnType() {
 		String typeCode = "";
-		String applicationNumber = this.getPriorityNumber();
+		String applicationNumber = this.getCitingAppNum();
 		if (applicationNumber.length() <= 0) {
 			typeCode = "N/A";
 		} else {
@@ -123,9 +193,8 @@ public class Citation extends Entity {
 			} else {
 				typeCode = applicationNumber.substring(2, 3);
 			}
-			typeCode = applicationNumber.substring(0, 1);
 		}
 		
-		return PatentTypeEnum.getValue(typeCode);
+		return PatentTypeEnum.getValue(typeCode) + "(" + typeCode + ")";
 	}
 }

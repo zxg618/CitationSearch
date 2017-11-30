@@ -1,0 +1,2401 @@
+1. 205841684 防启停冲击造成齿轮箱破坏的行星齿轮传动结构
+CN
+28.12.2016
+F16H 57/02 Loading...
+F16H 57/02
+Loading...
+201620683659.6
+华锐风电科技（集团）股份有限公司
+华青松
+F16H 57/02
+Loading...
+本实用新型提供一种防启停冲击造成齿轮箱破坏的行星齿轮传动结构，在箱体内壁上用螺纹连接有内齿圈，内齿圈的两端各用一个碟簧限制其轴向位置，内齿圈、行星轮以及太阳轮依次啮合；内齿圈与箱体内壁之间的螺纹的螺旋角大于自锁角。如此一来，当冲击载荷传递到内齿圈上时，内齿圈可以沿着所述螺纹发生旋转，用碟簧来缓冲该冲击载荷，而当该冲击载荷消失或者减弱后，内齿圈又可以在碟簧的回复弹力和行星轮的带动下，回到平衡位置。采用本实用新型提供的结构，内齿圈非刚性固定，有一定的缓冲量，可以降低冲击载荷的危害，轮齿的弯曲强度安全系数和接触安全系数都有一定的提高，对于频繁来回转动的工况效果尤其明显。
+2. 105973596 一种基于LLTSA和PNN的风机故障诊断方法
+CN
+28.09.2016
+G01M 13/04 Loading...
+G01M 13/04
+Loading...
+201610301493.1
+华锐风电科技（集团）股份有限公司
+万鹏
+G01M 13/04
+Loading...
+本发明公开了一种基于LLTSA和PNN的风机故障诊断方法，该方法用于对风电场中的多个风力发电机组中的风机进行故障诊断，将径向传感器安装于风机中受监测部位的径向，以采集监测部位的径向振动数据，为后续建立故障诊断模型提供依据，同时也用于最终的故障诊断。其中，建立故障诊断模型时，需要对LLTSA算法中的目标维数d及参数领域点数e进行遍历寻优，以筛选出准确率最高的故障诊断模型。本发明提供的基于LLTSA和PNN的风机故障诊断方法能够有效诊断分析风机中主要部件的振动故障，提取出风机组振动信号中的早期微弱的突变故障信息并对其进行诊断，从而为风电机组故障诊断人员提供有力的科学依据，提高风机故障诊断的效率和准确率。
+3. 103516462 一种非标准Canopen从节点的数据帧发送方法及装置
+CN
+17.08.2016
+H04L 1/00 Loading...
+H04L 1/00
+Loading...
+102012000203998
+华锐风电科技（集团）股份有限公司
+卫浩
+H04L 1/00
+Loading...
+本发明公开了一种非标准Canopen从节点的数据帧发送方法及装置，用于解决现有技术中基于Canopen协议开发的从节点比较费时费力，并且实现比较复杂的问题。该方法包括：将从节点设备中数据帧仲裁场的识别符位填充Canopen网络中进程数据对象PDO的功能码和通信对象标识符，并在数据场中填充待发送的数据，得到第一数据帧；对待发送的数据进行校验并生成校验结果；将校验结果添加到第一数据帧中，得到第二数据帧，将第二数据帧发送至Canopen网络的主节点设备。实现了仅支持Can2.0设备与Canopen网络主节点的通信功能，从而可以缩短基于Canopen协议开发从节点的周期，并且降低了操作的复杂程度。
+4. 103256173 风机监控方法及系统、风机组监控系统
+CN
+03.08.2016
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+102012000040203
+华锐风电科技（集团）股份有限公司
+肖圳杰
+F03D 7/00
+Loading...
+本发明实施例提供一种风机监控方法及系统、风机组监控系统，其中，风机监控系统包括：风机监控器、联动模块和视频监控器；所述风机监控器，用于接收安装在风机上的风机控制器发送的报警信号，并将所述报警信号发送给联动模块，所述报警信号包括报警时间和所述风机的标识；所述联动模块，用于解析所述报警信号中包含的报警时间和风机的标识，将解析后的所述报警信号发送给所述视频监控器；所述视频监控器，用于根据所述风机的标识和所述报警时间，确定与所述风机的标识和报警时间匹配的风机图像信息，并进行显示，能够解决现有的风电机组监控方式存在滞后性的问题。
+5. 105446313 一种PLC及IO模块的检测方法
+CN
+30.03.2016
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201510590746.7
+华锐风电科技（集团）股份有限公司
+陈宇
+G05B 23/02
+Loading...
+本发明公开一种PLC及IO模块的检测方法，直流电源通过过流保护保险丝为PLC及IO模块提供工作电源；FM211模块和FS211模块通过光纤通讯；RS204模块的COM1口与COM2口通过第一RS232插头连接，RS204模块的COM3口与COM4口通过第二RS232插头连接；CM202模块的CAN1口与CAN2口采用CAN总线连接；DI280模块的前16个输出口与DI232的32个输入口采用1对2方式连接；DIO280模块的后64个端口中，32个输入口与32个输出口依次连接；DIO216模块的8个输入口分别与8个输出口依次连接。
+6. 205068099 一种PLC及IO模块的检测平台
+CN
+02.03.2016
+G05B 19/05 Loading...
+G05B 19/05
+Loading...
+201520617579.6
+华锐风电科技（集团）股份有限公司
+陈宇
+G05B 19/05
+Loading...
+本实用新型公开一种PLC及IO模块的检测平台，直流电源通过过流保护保险丝为PLC及IO模块提供工作电源；FM211模块和FS211模块通过光纤通讯；RS204模块的COM1口与COM2口通过第一RS232插头连接，？RS204模块的COM3口与COM4口通过第二RS232插头连接；CM202模块的CAN1口与CAN2口采用CAN总线连接。本检测平台不仅能够简单、快速检测Bachmann？PLC及IO模块的硬件，而且能够节约检测成本、提高检测的准确性。同时，该检测平台对检测环境没有要求，既能在实验室完成，也能在工业现场完成，给检测带来了方便。
+7. 205064176 风电机组叶片及风电机组
+CN
+02.03.2016
+F03D 1/06 Loading...
+F03D 1/06
+Loading...
+201520711223.9
+华锐风电科技（集团）股份有限公司
+马文勇
+F03D 1/06
+Loading...
+本实用新型涉及一种风电机组叶片及风电机组，包括叶尖部和叶根部，以及由叶片上主梁、叶片下主梁和连接叶片上下主梁的叶片前缘、后缘围成的叶片内腔，每个叶片内腔从叶尖部起设有按预定间隔布置的多个自切割装置。本实用新型还提供了一种风电机组。当风电机组叶片受到台风等强风的吹动时，自切割控制系统检测到载荷超出叶片的承受能力时，启动三支叶片上的自切割装置，从而使三只叶片同时从叶尖部开始，同时逐段脱落。叶尖部的脱落使得整个风电机组叶片的直径减小，风轮扫掠面积减小，进而使得整个叶片对塔架和基础施加的弯曲载荷减小。上述风电机组叶片在台风等强风的环境中使得塔架和基础得以保存，减小了整个风电机组的损失。
+8. 204965172 一种PLC及IO扩展模块检测平台
+CN
+13.01.2016
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201520603308.5
+华锐风电科技（集团）股份有限公司
+阙维林
+G05B 23/02
+Loading...
+本实用新型公开一种PLC及IO扩展模块检测平台，包括：直流电源、过流保护保险丝、PC机、通信线缆、RS232插头和CS31总线，其中，直流电源通过过流保护保险丝分别为PLC及IO扩展模块提供工作电源，PLC与PC机之间通过通信线缆连接通讯，PLC的24路数字量输出端口分别与PLC自身的24路数字量输入端口连接，PLC的4路模拟量输出端口与PLC自身的8路模拟量输入端口连接，每路模拟量输出端口连接两路模拟量输入端口；PLC的COM1口和COM2口通过RS232插头连接；PLC的CS31通讯端口通过CS31总线与IO扩展模块连接。
+9. 204961178 一种便于发电机快速吊装的机舱罩
+CN
+13.01.2016
+F03D 80/00 Loading...
+F03D 80/00
+Loading...
+201520598840.2
+华锐风电科技（集团）股份有限公司
+王雪松
+F03D 80/00
+Loading...
+本实用新型公开了一种便于发电机快速吊装的机舱罩，其目的在于提供一种结构简单、操作简便的便于发电机快速吊装的机舱罩，从而提高发电机维修及更换效率，本实用新型所述机舱罩顶部机舱框架处设有舱口，所述舱口边部设有下框架安装板，所述下框架安装板上安装有下框架，所述下框架转动连接一能够开合的上框架，所述机舱框架上位于所述上框架和所述下框架连接处一侧设有液压油缸，所述液压油缸连接有所述上框架，所述上框架包括上框架顶部盖板。
+10. 204966983 一种电气控制柜内齿线槽
+CN
+13.01.2016
+H02B 1/20 Loading...
+H02B 1/20
+Loading...
+201520707682.X
+华锐风电科技（集团）股份有限公司
+陈宇
+H02B 1/20
+Loading...
+本实用新型公开一种电气控制柜内齿线槽，包括：至少两排横棱，每排横棱的两横棱之间设置有多个呈L型的内齿线槽，用于安放元器件接线，两横棱之间的多个内线线槽呈左右对称分布；两横棱之间的间距不小于设定值。
+11. 105182966 一种PLC及IO扩展模块检测方法
+CN
+23.12.2015
+G05B 23/02 Loading...
+G05B 23/02
+Loading...
+201510591139.2
+华锐风电科技（集团）股份有限公司
+阙维林
+G05B 23/02
+Loading...
+本发明公开一种PLC及IO扩展模块检测方法，在该检测方法中，直流电源通过过流保护保险丝分别为PLC及IO扩展模块提供工作电源，PLC与PC机之间通过通信线缆连接通讯，PLC的24路数字量输出端口分别与PLC自身的24路数字量输入端口连接，PLC的4路模拟量输出端口与PLC自身的8路模拟量输入端口连接，每路模拟量输出端口连接两路模拟量输入端口；PLC的COM1口和COM2口通过RS232插头连接；PLC的CS31通讯端口通过CS31总线与IO扩展模块连接。
+12. 105156266 风电机组叶片及风电机组
+CN
+16.12.2015
+F03D 1/06 Loading...
+F03D 1/06
+Loading...
+201510583678.1
+华锐风电科技（集团）股份有限公司
+马文勇
+F03D 1/06
+Loading...
+本发明涉及一种风电机组叶片及风电机组，包括叶尖部和叶根部，以及由叶片上主梁、叶片下主梁和连接叶片上叶片下主梁的叶片前缘与后缘围成的叶片内腔，每个叶片内腔从叶尖部起设有按预定间隔布置的多个自切割装置。本发明还提供了一种风电机组。当风电机组叶片受到台风等强风的吹动时，自切割控制系统检测到载荷超出叶片的承受能力时，启动三支叶片上的自切割装置，从而使三只叶片同时从叶尖部开始，同时逐段脱落。叶尖部的脱落使得整个风电机组叶片的直径减小，风轮扫掠面积减小，进而使得整个叶片对塔架和基础施加的弯曲载荷减小。上述风电机组叶片在台风等强风的环境中使得塔架和基础得以保存，减小了整个风电机组的损失。
+13. 104052052 Power proportion-based wind speed error analyzing method
+CN
+17.09.2014
+H02J 3/00 Loading...
+H02J 3/00
+Loading...
+201310076852.4
+华锐风电科技（集团）股份有限公司
+王颖
+H02J 3/00
+Loading...
+The invention provides a power proportion-based wind speed error analyzing method. The method comprises the following steps: obtaining predictive wind speeds and actually measured wind speeds of a wind power plant motor fan at at least two time points within a set time period; according to a power curve of the wind power plant motor fan, obtaining corresponding power contribution proportions corresponding to all wind speed segments; calculating wind speed errors of all time points within the set time period; respectively multiplying all wind speed errors by power contribution proportions corresponding to the wind speed segments, at which the actually measured wind speeds are located, of the wind speed errors so as to obtain new wind speed errors of all time points; and carrying out summation of the new wind speed errors of all time points within the set time period and carrying out averaging so as to obtain a wind speed error corresponding to the set time period based on the power proportion. According to the invention, a smaller wind speed error can be obtained; the power precision is improved; and the reliable basis is provided for improvement of the power system stability of the power prediction system.
+14. 103883471 Transmission device and wind-driven power generating set
+CN
+25.06.2014
+
+
+
+201210560860.1
+华锐风电科技（集团）股份有限公司
+黎焱
+
+
+The invention provides a transmission device and a wind-driven power generating set. The transmission device comprises an impeller, a gear box and a power generator. The impeller comprises a hub and blades, wherein the hub and the blades are fixedly connected, and the hub is provided with a through hole. The gear box comprises a box body, a gear system disposed inside the box body, and a first input shaft and an output shaft which are connected with the gear system. The box body is disposed in the through hole. Bearings are disposed between the inner wall of the through hole and the box body. The hub is fixedly connected with the first input shaft. The power generator is fixedly connected with the output shaft. The transmission device has the advantages that due to the fact that the gear box is disposed inside the hub, the weight of the whole impeller is supported by the box body of the gear box, and no additional support parts are needed to support the impeller and the gear box; the space inside the hub is fully utilized, transmission parts are reduced, size of the transmission device is reduced, and cost of the transmission device is lowered.
+15. 103872932 Grid-side PWM (pulse width modulation) rectifier
+CN
+18.06.2014
+H02M 7/217 Loading...
+H02M 7/217
+Loading...
+201210545485.3
+华锐风电科技（集团）股份有限公司
+刘凤龙
+H02M 7/217
+Loading...
+The invention provides a grid-side PWM (pulse width modulation) rectifier. The grid-side PWM rectifier comprises a three-phase half-bridge type rectifier and a controller, wherein the three-phase half-bridge type rectifier comprises three bridge type circuits; each bridge type circuit comprises a first triode and a second triode; collectors of the first triodes of the three bridge type circuits are mutually connected, and emitters of the second triodes of the three bridge type circuits are mutually connected; the input end of the controller is connected with a three-phase power grid and is connected with a collector connection point of the first triodes of the three bridge type circuits and an emitter connection point of the second triodes of the three bridge type circuits, and the output end of the controller is connected with bases of the first triodes and the second triodes; control voltage signals are obtained according to a sampling value of the three-phase power grid and a preset voltage value, and are conveyed to the bases of the first triodes and the second triodes. According to the grid-side PWM rectifier provided by the invention, the voltage signals of the bases of the triodes in the three-phase half-bridge type rectifier are controlled by the aid of the controller to enable the grid-side PWM rectifier to be applied to a state of voltage unbalance of the three-phase power grid.
+16. 103807108 Maintenance and replacement device for part of pitch system and wind turbine generator set
+CN
+21.05.2014
+
+
+
+201210448772.2
+华锐风电科技（集团）股份有限公司
+孙广
+
+
+The invention provides a maintenance and replacement device for a part of a pitch system and a wind turbine generator set. The maintenance and replacement device for the part of the pitch system comprises a rotating driving device and an operating arm which are mutually connected, wherein the rotating driving device is fixedly arranged at the top of a cabin framework; the rotating driving device is used for driving the operating arm to rotate; the operating arm is used for lifting the part of the pitch system to a position outside an opening of a hub wall and rotates to a position above a cabin under the drive of the rotating driving device. The maintenance and replacement device for the part of the pitch system provided by the invention has the advantages that the maintenance and the replacement of the part which cannot be detached by manpower of the pitch system in a high-power set hub are enabled to become more simple and feasible, the hub is not required to be detached and the production, transportation and hoisting costs are greatly reduced.
+17. 103777035 风机风速测量方法、装置和系统
+CN
+07.05.2014
+G01P 5/00 Loading...
+G01P 5/00
+Loading...
+201210401055.4
+华锐风电科技（集团）股份有限公司
+郭振江
+G01P 5/00
+Loading...
+本发明提供一种风机风速测量方法、装置和系统，其中方法部分为：根据风电机组与测量点的相对位置，计算第一测量波的发射角度，根据所述第一测量波的发射角度，向所述测量点发射所述第一测量波，以使得所述测量点利用所述测量点所在位置的气流和所述第一测量波反射第二测量波，接收所述第二测量波，根据所述第一测量波和所述第二测量波，获得所述气流的速率，解决了现有技术中风机风速测量范围较小的技术问题，从而能够提高变浆系统的工作效率。
+18. 103728134 机组轴承的检测方法和装置及风电机组
+CN
+16.04.2014
+G01M 13/04 Loading...
+G01M 13/04
+Loading...
+201210393567.0
+华锐风电科技（集团）股份有限公司
+张强
+G01M 13/04
+Loading...
+本发明公开了一种机组轴承的检测方法和装置及风电机组。其中，机组轴承的检测方法包括：采集第一轴承的振动数据，其中，第一轴承为风电机组中的任一轴承；对振动数据进行数据处理，得到振动数据对应的频谱数据；判断频谱数据与第一轴承的历史频谱数据是否相吻合，其中，在风电机组中存储有第一轴承的历史频谱数据；在判定频谱数据与第一轴承的历史频谱数据相吻合时，确定所处第一轴承无故障；以及在判定频谱数据与第一轴承的历史频谱数据不相吻合时，确定所处第一轴承出现故障。通过本发明，解决了现有技术中机组轴承的故障检测方法效率低的问题，进而达到了缩短机组的检测周期、提高机组检测效率的效果。
+19. 203413107 一种齿轮箱润滑系统的连接结构
+CN
+29.01.2014
+F16H 57/04 Loading...
+F16H 57/04
+Loading...
+201320486790.X
+华锐风电科技（集团）股份有限公司
+陈杨
+F16H 57/04
+Loading...
+本实用新型公开一种齿轮箱润滑系统的连接结构，包括电机支架，所述电机支架包括互相垂直的电机油泵安装台和齿轮箱安装台；所述电机油泵安装台包括用于安装润滑电机的上层法兰面和用于安装润滑油泵的下层法兰面，所述上层法兰面和下层法兰面之间留有间距，供所述润滑电机和所述润滑油泵在该间距内通过联轴器相连接；所述上层法兰面包括电机导向孔，所述下层法兰面包括油泵导向孔，所述电机导向孔和所述油泵导向孔同轴设置，分别用于对所述润滑电机和所述润滑油泵起导向定位作用；所述齿轮箱安装台用以和所述齿轮箱螺栓连接。
+20. 203413105 风电机组冷却风道
+CN
+29.01.2014
+F16H 57/04 Loading...
+F16H 57/04
+Loading...
+201320471204.4
+华锐风电科技（集团）股份有限公司
+刘庆
+F16H 57/04
+Loading...
+本实用新型提供一种风电机组冷却风道，包括一个与油-空气冷却器下部相连通的底部风道，所述底部风道的两侧各连通一个侧风道，在风电机组的机舱罩顶部开有两孔，各孔位置用压板和密封条固定有防雨罩，所述防雨罩与所述侧风道之间用伸缩风道相连通，所述防雨罩的开口处还设有百叶窗，避免杂物误入冷却风道。使用本实用新型，可以让机舱内部的油-空气冷却器使用机舱外部空气进行冷却，提高了冷却器的散热效果；还可以避免了油-空气冷却器与机舱内部的油气接触，保证了冷却器清洁。
+21. 103511191 Embedded bolt, prefabricated blade root, blade, forming method of blade and wind generating set
+CN
+15.01.2014
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201210202811.0
+华锐风电科技（集团）股份有限公司
+贾海涛
+F03D 11/00
+Loading...
+The invention provides an embedded bolt, a prefabricated blade root, a blade, a forming method of the blade and a wind generating set. The embedded bolt comprises a rod-shaped thread part and a rod-shaped embedded part, wherein the thread part and the embedded part are integrally formed, outer threads are arranged on the thread part, protrusions extending to the outer side are arranged on the tail portion of the embedded part, the thread part is used for extending out of the prefabricated blade root of the wind generating set, and the embedded part is used for being fixed inside the prefabricated blade root in an embedded mode. By means of the technical scheme of the embedded bolt, only the protrusions of the embedded part are connected with the prefabricated blade root in a fastened mode, and the intensity and the rigidity, of the position of the blade root, of the initial design can be kept to the greatest degree. Meanwhile, the tensile capacity and the anti-torque capacity of the embedded bolt can be effectively improved, the embedded depth of the bolt can be designed to be small to increase the added mass of the blade as small as possible, and therefore the design of the blade is optimized.
+22. 103511181 Blade correction method and system
+CN
+15.01.2014
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210220802.4
+华锐风电科技（集团）股份有限公司
+陈曦
+F03D 7/00
+Loading...
+The invention provides a blade correction method and system. The method comprises the steps that a first reference base value is determined through one state that a blade presses a collision block and another state that a work position is switched, so that initial zero making is conducted; before a draught fan operates, the first reference base value is compared with a second reference base value after the blade presses the collision block, the second reference base value is compared with a first threshold value, and blade correction is finished when the second reference base value is closest to the first threshold value. According to the blade correction method and system, the first reference base value is found in an initial zero making process after the blade is arranged, a position, closest to the first reference base value, of the blade is obtained through comparison and calculation before the draught fan operates, and therefore the position before the blade operates is consistent with the position after the blade is arranged, and control accuracy is improved.
+23. 103514308 Method and device for designing wind driven generator blades
+CN
+15.01.2014
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210210721.6
+华锐风电科技（集团）股份有限公司
+唐超
+G06F 17/50
+Loading...
+The invention provides a method and device for designing wind driven generator blades. The method comprises the step of acquiring the blade design target of a wind driven generator, the step of preliminarily calculating to obtain the convergent blade load according to the blade design target, the step of optimally designing the blades based on the genetic iterative algorithm according to the convergent blade load to obtain blade design data, the step of screening the blade design data according to the preset load and the rigidity condition and storing the blade design data conforming to the demands, the step of ranking the blade design data conforming to the demands according to the preset ranking condition and generating a blade design paper according to the blade design data ranked preferentially. Therefore, targeted earlier stage primary design and later detail optimization are carried out on the blade design process, the first rough and later detail design flow is achieved, the calculated amount is reduced, the calculated time is shortened, the performance requirements in the pneumatic design, the load calculation and the structural design are comprehensively taken into consideration, and the optimizing result mismatching produced in the process of pursuing a single target is avoided.
+24. 103490440 Mixed convertor device and method suitable for double-fed wind turbine system
+CN
+01.01.2014
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201210193582.0
+华锐风电科技（集团）股份有限公司
+于建军
+H02J 3/38
+Loading...
+The invention discloses a mixed convertor device and method suitable for a double-fed wind turbine system. The mixed convertor device comprises a double-fed wind turbine generator, a main transformer, a VSC and a CSC, wherein the VSC is connected between the generator rotor side and the low voltage side of the main transformer, the CSC is connected between the generator rotor side and the low voltage side of the main transformer, mixed conversion is carried out through the CSC and the VSC, the CSC of the mixed convertor device serves as a main convertor to bear most of circulation currents, and the VSC of the mixed convertor device serves as an auxiliary convertor to bear a small part of the circulation currents. The mixed convertor device has the advantages of a voltage source type converter and a current source type converter, the switch losses are reduced, the low-order harmonic content is reduced, meanwhile, the system response time is shortened, and oscillations of the current on the alternating current side are restrained.
+25. 103487753 Method and test bed for testing dynamic performance of wind generating set
+CN
+01.01.2014
+G01R 31/34 Loading...
+G01R 31/34
+Loading...
+201210192019.1
+华锐风电科技（集团）股份有限公司
+矫斌
+G01R 31/34
+Loading...
+The invention discloses a method and test bed for testing dynamic performance of a wind generating set, and relates to the technical field of wind power generation. The method comprises the steps that when an asynchronous motor is started, the working mode of the asynchronous motor is adjusted into the asynchronous motor mode, and the control mode of a double-fed frequency converter is adjusted into a V/F control mode suitable for the asynchronous motor mode; the double-fed frequency converter controls the operation of the asynchronous motor in the V/F control mode, and after the revolving speed of the asynchronous motor reaches the revolving speed allowed by the double-fed mode grid connection, the working mode of the asynchronous motor is adjusted into the double-fed mode, and the control mode of the double-fed frequency converter is adjusted to the vector control mode suitable for the double-fed mode; the double-fed frequency converter controls the operation of the asynchronous motor in the vector control mode to enable the asynchronous motor to drive a wind generating set to be detected to operate, and after the revolving speed of the wind generating set to be detected reaches the revolving speed allowed by the wind generating set grid connection, the wind generating set to be detected is connected to a grid so that the dynamic performance of the wind generating set to be detected can be detected conveniently.
+26. 103490442 Energy storing device, system and method for stabilizing wind turbine generator output power fluctuations
+CN
+01.01.2014
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201210197089.6
+华锐风电科技（集团）股份有限公司
+刘先正
+H02J 3/38
+Loading...
+The invention provides an energy storing device, system and method for stabilizing wind turbine generator output power fluctuations. The energy storing device comprises a storage battery pack, a direct current chopper, a capacitor and an inverter. The low voltage side of the direct current chopper is connected with the storage battery pack, the high voltage side of the direct current chopper is connected with the capacitor, the direct current side of the inverter is connected with the capacitor, and the alternating current side of the inverter is used for being connected with a grid connection point of a wind turbine generator. According to the energy storing device, when the output power of the wind turbine generator has the fluctuations, the output power of the wind turbine generator can be absorbed through the energy storing device, or the power can be output to be connected into a power grid to stabilize influences on the power grid in the process that the output power is connected into the power grid through the wind turbine generator, and the power grid operation stability and the quality of electric energy output by the power grid are improved.
+27. 103423105 Wind generation set impeller assembling device and impeller assembling method
+CN
+04.12.2013
+F03D 11/04 Loading...
+F03D 11/04
+Loading...
+201210158618.1
+华锐风电科技（集团）股份有限公司
+曾杰
+F03D 11/04
+Loading...
+The invention discloses a wind generation set impeller assembling device which is characterized by comprising an installation seat (1) used for positioning and supporting a hub (5), and multiple impeller installing devices used for installing an impeller (6) and the hub (5) in an aligned mode. The impeller installing devices are respectively connected with the installation seat (1) so as to form an impeller assembling platform. The installation seat (1) is provided with a plurality of connection portions (10) which are connected with the impeller installing devices respectively. When the impeller is assembled, the hub (5) is arranged on the installation seat (1), each variable pitch bearing of the hub (5) corresponds to one impeller installing device, the impeller (6) is placed on one corresponding impeller installing device and moved to one corresponding variable pitch bearing of the hub (5), so that the impeller and the hub are connected. According to the wind generation set impeller assembling device, the impeller and the hub can be fast aligned and positioned, installing the impeller is fast, the structural design is simple, and the wind generation set impeller assembling device is convenient to use and applicable.
+28. 103389388 Method and device for predicting wind speed in wind power plant and method and system for predicting power in wind power plant
+CN
+13.11.2013
+G01P 5/00 Loading...
+G01P 5/00
+Loading...
+201210140904.5
+华锐风电科技（集团）股份有限公司
+王颖
+G01P 5/00
+Loading...
+The invention provides a method and device for predicting wind speed in a wind power plant and a method and system for predicting power in the wind power plant. The method for predicting the wind speed in the wind power plant comprises the steps of acquiring space coordinates of positions where all wind turbine generators in the wind power plant are located, acquiring topographic feature parameters of the region where the wind power plant is located, acquiring wind speed time sequence values in the region where the wind power plant is located within a preset period of time, taking the space coordinates and the topographic feature parameters of the positions where the wind turbine generators are located as control parameters, taking the wind speed time sequence values of the region where the wind power plant is located within the preset period of time, and working out and displaying wind speed time sequence values of the positions where the wind turbine generators are located within the preset period of time according to a wind power plant physical model built in advance. The method for predicting the wind speed in the wind power plant improves precision of prediction of wind speeds of the wind turbine generators, and therefore precision of the wind power plant power predicting system is improved.
+29. 103390896 Hybrid cascading multi-level static synchronous compensation device and wind turbine generator set power supply system
+CN
+13.11.2013
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201210142237.4
+华锐风电科技（集团）股份有限公司
+于建军
+H02J 3/18
+Loading...
+The invention provides a hybrid cascading multi-level static synchronous compensation device and a wind turbine generator set power supply system. The synchronous compensation device comprises a first H-bridge power unit and a second H-bridge power unit. The first H-bridge power unit comprises two parallel-connection bridge arms, wherein each bridge arm comprises two series-connection gate pole turn-off thyristors. The second H-bridge power unit comprises two parallel-connection bridge arms, wherein each bridge arm comprises two series-connection insulated gate bipolar transistors. The characteristics of power devices in the first H-bridge power unit in the synchronous compensation device and the characteristics of power devices in the second H-bridge power unit in the synchronous compensation device are complementary to form a hybrid cascading circuit structure, the aims that the switching frequency of the power devices is reduced and the capacity of the synchronous compensation device is improved can be well achieved, and the synchronous compensation device can be applied in power supply systems of various types, and particularly suitable for the power supply system of a wind turbine generator set with the high megawatt power so as to meet the application requirements of the high-power wind turbine generator set.
+30. 203233325 网侧PWM整流器
+CN
+09.10.2013
+H02M 7/217 Loading...
+H02M 7/217
+Loading...
+201220695031.X
+华锐风电科技（集团）股份有限公司
+刘凤龙
+H02M 7/217
+Loading...
+本实用新型提供一种网侧PWM整流器，包括：三相半桥式整流器和控制器，三相半桥式整流器包括三个桥式电路，每个桥式电路包括一个第一三极管和一个第二三极管，三个桥式电路的第一三极管的集电极互相连接，三个桥式电路的第二三极管的发射极互相连接；控制器的输入端连接三相电网，并连接三个桥式电路的第一三极管的集电极连接点和三个桥式电路的第二三极管的发射极连接点，输出端连接第一三极管和第二三极管的基极，根据三相电网的采样值和预设的电压值获得控制电压信号并输送给第一三极管和第二三极管的基极。本实用新型提供的网侧PWM整流器，通过控制器控制三相半桥式整流器中三极管基极的电压信号，使其适用于三相电网电压不平衡状态。
+31. 203231065 风力发电机组主齿轮箱润滑油更换装置
+CN
+09.10.2013
+F16N 33/00 Loading...
+F16N 33/00
+Loading...
+201220717779.5
+华锐风电科技（集团）股份有限公司
+祝国栋
+F16N 33/00
+Loading...
+本实用新型提供了一种风力发电机组主齿轮箱润滑油更换装置，包括：润滑油引入管道，连接风力发电机组的主齿轮箱和新润滑油储存装置；泵，设置在润滑油引入管道中，用于将新的润滑油输送至主齿轮箱；润滑油引出管道，用于将主齿轮箱中的旧润滑油输送至旧润滑油储存装置，润滑油引出管道的一端与主齿轮箱连接，另一端连接旧润滑油储存装置。应用本实用新型的技术方案，采用液压泵将润滑油泵送到风电机组的齿轮箱中，相对目前常规的采用人工的齿轮箱润滑油更换方案，在低成本投入的前提下，极大地提高了工作效率，减少发电量损失。
+32. 103321841 一种风力发电机的叶片及风力发电机
+CN
+25.09.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201210073214.2
+华锐风电科技（集团）股份有限公司
+金宝年
+F03D 9/00
+Loading...
+本发明公开了一种风力发电机的叶片，包括至少两段叶片段，所述叶片段内部具有至少一个主梁腹板，所述主梁腹板的对接端具有凸凹形的边界线，相对接的所述主梁腹板的边界线相配合并固定连接。叶片分段后便于运输，运输后安装前进行组装。组装叶片时，对接端凸凹形的边界线相配合固定连接，可以在边界线的结合面上涂胶，也可以设置插销。所述主梁腹板对接时相配合的凸凹形的边界线增加了叶片段对接结合面的面积，确保了连接的可靠性。与现有技术相比，施工人员的操作也十分简单，叶片段的连接方式简单方便可靠。本发明还公开了一种风力发电机，包括上述叶片，该风力发电机的叶片为分段结构，各叶片段之间的连接方式简单且易操作。
+33. 103321839 风机振动监测方法及系统、风机监控器
+CN
+25.09.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210074591.8
+华锐风电科技（集团）股份有限公司
+张雯
+F03D 7/00
+Loading...
+本发明实施例提供一种风机振动监测方法及系统、风机监控器，其中，该方法包括：风机监控器接收数据采集模块发送的多个振动信息和风机过程参数，每个振动信息中包含振动数据和振动标识；所述风机监控器根据所述风机过程参数，确定与所述风机过程参数匹配的风机工况；所述风机监控器根据所述风机工况，查询与所述风机工况对应的报警阈值列表，根据所述振动标识，获取与所述风机工况对应的报警阈值列表中的与所述振动标识对应的报警阈值；所述风机监控器若确定所述振动数据大于所述报警阈值，则生成报警信号，所述报警信号中包括所述振动标识和所述风机工况；能够解决现有的风机振动检测技术存在报警准确率低的问题。
+34. 103296961 抑制海上风电机组振动的控制方法及控制系统
+CN
+11.09.2013
+H02P 23/04 Loading...
+H02P 23/04
+Loading...
+201210042022.5
+华锐风电科技（集团）股份有限公司
+杨明明
+H02P 23/04
+Loading...
+本发明提供了一种抑制海上风电机组振动的控制方法及控制系统，该控制方法包括：采集塔架振动加速度信号，根据所述塔架振动加速度信号计算获得用于调整发电机电磁转矩的第一转矩信号；采集发电机转速信号，根据所述发电机转速信号计算获得用于调整发电机电磁转矩的第二转矩信号；将所述第一转矩信号和第二转矩信号叠加，根据叠加后的转矩信号计算获得变频控制信号，并输出给发电机变流变频器；所述变流变频器根据所述变频控制信号输出电流力矩信号给发电机。本发明提供的抑制海上风电机组振动的控制方法及控制系统是在发电机电磁转矩给定的基础上再增加一个和塔架谐振频率上的较小波动，通过相位的调整来抵消谐振的作用，有效的增加了塔架的阻尼。
+35. 103291541 风力发电机组控制方法及控制系统
+CN
+11.09.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210043000.0
+华锐风电科技（集团）股份有限公司
+杨明明
+F03D 7/00
+Loading...
+本发明提供一种风力发电机组控制方法及控制系统，其中，该控制方法包括：检测风速和发电机转速；当判断出风速达到第一风速门限值，且发电机转速还未达到第一转速门限值时，向风力发电机组的变桨变频器输出控制改变桨叶角的变浆控制指令；当判断出发电机转速达到第一转速门限值时，向发电机变频器输出执行并网操作的控制指令。本发明提供的风力发电机组控制方法及控制系统通过检测风速和发电机转速，在发电机并网发电前，控制变桨，以最大限度地追踪最佳攻角，提高了风能利用率。
+36. 103259480 双馈风力发电机无速度传感器控制方法和系统
+CN
+21.08.2013
+H02P 21/14 Loading...
+H02P 21/14
+Loading...
+201210040056.0
+华锐风电科技（集团）股份有限公司
+孙寅飞
+H02P 21/14
+Loading...
+本发明提供了一种双馈风力发电机无速度传感器控制方法和系统。该方法包括：按照采样周期，测量k时刻电机的定子电压值、定子电流值和转子电流值并换算；根据k时刻定子电压值和定子电流值计算获取k时刻转子参考磁链；根据k-1时刻的转子角速度辨识值、转子磁链辨识值和转子电流值计算k时刻的转子磁链辨识值；根据k-1时刻的转子参考磁链和转子电流值，以及k时刻的转子磁链辨识值，计算获得k-1时刻的转子角速度的辨识值；根据k-1时刻的转子角速度的辨识值进行风力发电机闭环反馈控制。本发明运用离散化算法，提出了基于离散滑模模型参考自适应的速度辨识方法。使得通过本方法得到的速度估计值，精确，抗扰能力强，且不受工况影响。
+37. 103256173 风机监控方法及系统、风机组监控系统
+CN
+21.08.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210040203.4
+华锐风电科技（集团）股份有限公司
+肖圳杰
+F03D 7/00
+Loading...
+本发明实施例提供一种风机监控方法及系统、风机组监控系统，其中，风机监控系统包括：风机监控器、联动模块和视频监控器；所述风机监控器，用于接收安装在风机上的风机控制器发送的报警信号，并将所述报警信号发送给联动模块，所述报警信号包括报警时间和所述风机的标识；所述联动模块，用于解析所述报警信号中包含的报警时间和风机的标识，将解析后的所述报警信号发送给所述视频监控器；所述视频监控器，用于根据所述风机的标识和所述报警时间，确定与所述风机的标识和报警时间匹配的风机图像信息，并进行显示，能够解决现有的风电机组监控方式存在滞后性的问题。
+38. 103259467 一种大功率风力发电机组的驱动控制系统
+CN
+21.08.2013
+H02P 5/747 Loading...
+H02P 5/747
+Loading...
+201210039286.5
+华锐风电科技（集团）股份有限公司
+汪晓
+H02P 5/747
+Loading...
+本发明提供一种大功率风力发电机组的驱动控制系统，该驱动控制系统包括：控制单元、变频器、第一电机、第二电机、双输入轴齿轮箱、振动检测和诊断单元；控制单元与变频器电连接，变频器分别与第一电机和第二电机电连接，其中，控制单元根据用户输入的指令向变频器下发控制信号，变频器根据控制信号控制第一电机转动的转速和第二电机的转矩，第一电机和第二电机采用负荷分配控制策略，以实现第一电机和第二电机力的均匀分配，同步驱动双输入轴齿轮箱运转，使双输入轴齿轮箱输出轴提供准确负载扭矩。上述大功率风力发电机组驱动控制系统能够实现对整机机组的性能测试，保证风力发电机组电气系统的可靠和高效运行。
+39. 203098145 风力发电机组
+CN
+31.07.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201320093928.X
+华锐风电科技（集团）股份有限公司
+高宝山
+F03D 7/00
+Loading...
+本实用新型提供一种风力发电机组，包括塔架，设置在所述塔架顶端的机舱，所述塔架和机舱之间直接设置有偏航系统，所述偏航系统包括与所述机舱固定连接的偏航轴承，以及用于驱动所述偏航轴承转动的第一驱动电机，还包括：至少一个第一制动器，用于与所述偏航轴承外侧的齿轮配合对所述偏航轴承制动；与每一个所述第一制动器对应设置的第一能量回收装置，用于对所述第一制动器在制动过程中获得的动能进行能量回收。上述技术方案能够在偏航过程中，对制动时进行能量回收，避免能量浪费。
+40. 103207082 风电机组变桨系统的测试系统和测试方法
+CN
+17.07.2013
+G01M 15/02 Loading...
+G01M 15/02
+Loading...
+201210012955.X
+华锐风电科技（集团）股份有限公司
+李磊
+G01M 15/02
+Loading...
+本发明提供一种风电机组变桨系统的测试系统和测试方法，该测试系统包括加载控制器、拖动驱动器和拖动电机，其中，加载控制器包括负载计算单元和负载输出端；拖动驱动器与负载输出端相连；拖动电机与拖动驱动器相连，且拖动电机的输出轴与待测变桨电机的输出轴同轴相连。该测试系统中加载装置结构简单，不需要设置结构复杂的液压系统，因此，简化了测试系统的整体结构，并且，降低了测试系统的成本。
+41. 103207373 风电机组变桨系统后备电源的测试系统和测试方法
+CN
+17.07.2013
+G01R 31/40 Loading...
+G01R 31/40
+Loading...
+201210013095.1
+华锐风电科技（集团）股份有限公司
+李磊
+G01R 31/40
+Loading...
+本发明提供一种风电机组变桨系统后备电源的测试系统和测试方法，该测试系统包括控制器、加载组件和变桨驱动器，控制器包括计算单元、加载输出端和变桨输出端，所述计算单元用于根据预设算法计算各工况下的转矩给定值和桨距角给定值，并分别从所述加载输出端和变桨输出端输出；加载组件分别与所述加载输出端和变桨电机相连；变桨驱动器与变桨输出端相连，且与待测后备电源相连。该测试系统，不需要将风电机组整体吊装完成后进行现场测试，因此，不会对风电机组的安全运行造成影响，避免发生安全事故，满足对后备电源的安全测试需求。
+42. 103207924 风力发电机组机械暂态与电气暂态混合仿真系统及方法
+CN
+17.07.2013
+G06F 17/50 Loading...
+G06F 17/50
+Loading...
+201210013111.7
+华锐风电科技（集团）股份有限公司
+刘先正
+G06F 17/50
+Loading...
+本发明公开了一种风力发电机组机械暂态与电气暂态混合仿真系统及方法，该混合仿真系统及方法通过对风力发电机组的机械暂态过程进行仿真计算，并采集该仿真计算的结果和步长间隔；并在对机械暂态过程进行仿真计算的同时，对风力发电机组的电气暂态过程进行仿真计算，且采集该仿真计算的结果和步长间隔；然后将机械暂态过程的仿真计算结果与电气暂态过程的仿真计算结果实时进行数据交换，并通过统一上述步长间隔使两个仿真计算同步，直至到达两个仿真计算设定的完成时间，从而结合了机械暂态仿真与电气暂态仿真各自的优点，且在保证对风力发电机组的仿真精度的条件下加快了仿真运算速度。
+43. 103183116 逃生装置及海上风电机组
+CN
+03.07.2013
+B63C 9/04 Loading...
+B63C 9/04
+Loading...
+201110460363.X
+华锐风电科技（集团）股份有限公司
+朱兵
+B63C 9/04
+Loading...
+本发明提供一种逃生装置及海上风电机组，其中逃生装置包括滚筒组件，具有滚筒轴和滚筒，所述滚筒套设在所述滚筒轴上，所述滚筒轴用于与风电机组的机舱罩固定连接；下降索具，所述下降索具的一端缠绕在所述滚筒上；船体，与所述下降索具的另一端固定连接；以及桨具，放置在所述船体内部。本发明提供的逃生装置，结构紧凑简单，适用于海上风电机组的特殊工况要求，操作简便，使用的安全性和可靠性高。
+44. 103184743 模板法兰
+CN
+03.07.2013
+E02D 27/44 Loading...
+E02D 27/44
+Loading...
+201110456298.3
+华锐风电科技（集团）股份有限公司
+宋连江
+E02D 27/44
+Loading...
+本发明提供一种模板法兰，包括用于对风力发电机组地脚螺栓式基础中的螺柱进行定位的法兰，其中，还包括：模板，由与法兰平行设置的基板和固定在基板外缘的侧板构成，模板通过多个连接件与法兰固定连接并形成与法兰之间的间隙，侧板在基板外缘的固定使模板形成朝向法兰的凹槽。本发明提供的模板法兰通过设置法兰实现了为螺柱精确定位的作用，同时通过设置模板可以作为后续灌浆槽的模板，能周转使用，经济及技术效益显著，同时也提高了工作效率。
+45. 103187745 风电机组自用电系统、风力发电机及其自用电供电方法
+CN
+03.07.2013
+H02J 7/00 Loading...
+H02J 7/00
+Loading...
+201110455530.1
+华锐风电科技（集团）股份有限公司
+刘征奇
+H02J 7/00
+Loading...
+本发明提供一种风电机组自用电系统、风力发电机及其自用电供电方法，其中风电机组自用电系统包括箱式变压器、辅助变压器、塔基柜和主控柜，所述塔基柜中安装有第一超级电容，所述箱式变压器、所述辅助变压器、所述第一超级电容和所述主控柜顺次电性连接，其中，还包括：太阳能光伏装置，与所述第一超级电容电性连接，用于向所述第一超级电容供电。上述技术方案，在风机调试过程中，太阳能光伏装置提供的电能可以满足风电机组的调试需求，而无需再借助辅助变压器从电网中取电，使得风电机组可以正常启动及并网。另外，由于太阳能光伏装置可以持续向第一超级电容供电，也大大降低了第一超级电容出现亏电情况的几率，提高了超级电容的使用寿命。
+46. 103184982 具有机舱温湿度调节与防盐雾系统的风力发电机
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201110456678.7
+华锐风电科技（集团）股份有限公司
+黄强
+F03D 11/00
+Loading...
+本发明提供一种具有机舱温湿度调节与防盐雾系统的风力发电机，机舱及设置于机舱一端的叶轮，蒸发器、膨胀阀、散热器及压缩机；蒸发器冷却介质入口与膨胀阀的冷却介质出口连通，膨胀阀的冷却介质入口与散热器的冷却介质出口连通，散热器的冷却介质入口与压缩机的冷却介质出口连通，压缩机的冷却介质入口与翅管的冷却介质出口连通；蒸发器具有相互连通的空气入口和空气出口，靠近空气入口或靠近所述空气出口处设置有送风机；散热器位于机舱外；设置压差传感器和变频器来控制送风机的转速在机舱内形成微正压。该方案解决风力发电机机舱及叶轮内温度过高使风力发电机可利用率下降，及因盐雾进入机舱腐蚀电气元件危及风力发电机的正常运行的问题。
+47. 103185806 风速风向仪支架及风电机组
+CN
+03.07.2013
+G01P 1/00 Loading...
+G01P 1/00
+Loading...
+201110454477.3
+华锐风电科技（集团）股份有限公司
+肖圳杰
+G01P 1/00
+Loading...
+本发明提供一种风速风向仪支架及风电机组。风速风向仪支架包括一架体，架体顶部为安装面；安装面上固定设置有至少三个固定座，固定座分别位于同一多边形的各个顶点的位置；固定座上分别固定设置有水平的径向横梁，且径向横梁由多边形的中心分别向固定座的方向延伸；径向横梁上套设有移动端片，每个移动端片的顶部形成有凸起的夹持部和用于垂向支撑风速风向仪的支撑部；在径向横梁上、且在每个移动端片的两侧分别螺接有用于调节移动端片位置的调节螺母。本发明提供的风速风向仪支架和风电机组，在更换风速风向仪时，无需更换风速风向仪支架，节约了成本；简化了风速风向仪更换操作工序，提高了效率。
+48. 103187814 永磁横向磁通电机
+CN
+03.07.2013
+H02K 1/27 Loading...
+H02K 1/27
+Loading...
+201110456080.8
+华锐风电科技（集团）股份有限公司
+李鹏
+H02K 1/27
+Loading...
+本发明公开一种永磁横向磁通电机，所述电机具有定子和转子，所述转子由多个永磁体首尾连接呈圆环状，相邻两永磁体的充磁方向相反；所述定子由多个铁芯和分别缠绕在所述铁芯上的绕组构成，所述铁芯环绕所述转子外围一周布置。本发明实现了永磁横向磁通电机结构和工艺的简化，易于加工制造，解决了现有技术中由于结构复杂而带来的难于加工制造和不便于散热的技术问题。
+49. 103184973 风力发电机组偏航系统及风力发电机组
+CN
+03.07.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201110456826.5
+华锐风电科技（集团）股份有限公司
+金宝年
+F03D 7/00
+Loading...
+本发明提供一种风力发电机组偏航系统及风力发电机组，该偏航系统包括制动盘、偏航轴承和液压制动器，其中，制动盘设置在塔筒顶部法兰与偏航轴承之间；偏航轴承的内圈用于固定主机架；液压制动器固定安装在主机架上，该偏航系统还包括固定设置在主机架上的机械制动器，包括：顶紧块，开设配合孔；阶梯轴状的压紧销，其小径下端插入配合孔，外部套设弹性垫，其一端抵顶顶紧块的上表面，另一端抵顶压紧销的阶梯面。本发明提供的风力发电机组偏航系统及风力发电机组通过设置机械制动器，提高了制动时的制动力，降低了偏航驱动及偏航轴承所受的承载力，同时在偏航时避免了对液压制动器制动垫的疲劳磨损，节约了成本。
+50. 103184983 风电机组的塔筒及其制作方法
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201110457422.8
+华锐风电科技（集团）股份有限公司
+金宝年
+F03D 11/00
+Loading...
+本发明提供一种风电机组的塔筒及其制作方法。该塔筒包括圆形筒体，所述圆形筒体包括：内蒙皮和外蒙皮，所述内蒙皮和外蒙皮之间设置有栅格板；所述栅格板为多个钢板组成的栅格形结构。本发明提供的塔筒壁采用栅格板结构，在确保塔筒壁强度的基础上，可有效减少塔筒壁制作所使用的钢板消耗，减少塔筒制作成本。
+51. 203035459 风电发电机组主轴用防雷滑道及防雷装置
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220539266.X
+华锐风电科技（集团）股份有限公司
+刘怡思
+F03D 11/00
+Loading...
+本实用新型提供了一种风电发电机组主轴用防雷滑道及防雷装置，所述防雷滑道为能够覆盖风电发电机组主轴与防雷碳刷之间接触面的带状结构，所述防雷滑道的材质为不锈钢。本实用新型可以解决与防雷碳刷接触的主轴的接触面易产生锈蚀、磨损等情况，造成高频的雷电无法正常通过碳刷传导的缺陷。
+52. 203035462 一种风电机组的塔筒局部加强结构
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220569094.0
+华锐风电科技（集团）股份有限公司
+董伯先
+F03D 11/00
+Loading...
+本实用新型公开了一种风电机组的塔筒局部加强结构，其特征在于，包括：固定在塔筒（1）内壁上的至少两个环向减载板（21）；固定在塔筒（1）内壁上的多个纵向加强梁（22），每个纵向加强梁（22）的两端分别固定在环向减载板（21）上；若干个环向保持架（23），每个环向保持架（23）分别与多个纵向加强梁（22）固定连接。所述多个纵向加强梁（22）间隔焊接在塔筒内壁上。环向保持架（23）开有多个泄压槽（23a）。该塔筒局部加强结构在几乎不增加成本的基础上可有效提高塔筒的稳定性，同时提高塔筒的抗疲劳性能。本实用新型结构设计简单，加工制造方便。
+53. 203034981 一种风电机组塔筒门自润滑铰链
+CN
+03.07.2013
+E05D 11/02 Loading...
+E05D 11/02
+Loading...
+201220576571.6
+华锐风电科技（集团）股份有限公司
+董伯先
+E05D 11/02
+Loading...
+本实用新型公开了一种风电机组塔筒门自润滑铰链，包括，焊接在塔筒门框或外壁上的铰链底座（5），其特征在于，还包括：与铰链底座（5）转动连接的储油套筒（4）；连接所述储油套筒（4）的被动式注油油杯（2）。储油套筒（4）包括：从储油套筒（4）顶端向下开设并用于安装被动式注油油杯（2）的螺纹孔（4a）；连通螺纹孔（4a）的储油腔（4b）；连通储油腔（4b）并延伸到储油套筒（4）底端的轴孔（4c）。所述铰链底座（5）上设置有安装在轴孔（4c）中的固定轴。本实用新型自润滑铰链较以往钢对钢的铰链磨损减小，不仅有效提高开关塔筒门时的便捷性和舒适性，而且提高铰链的使用寿命。
+54. 203035460 一种塔筒导电轨临时支撑装置
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220551823.X
+华锐风电科技（集团）股份有限公司
+陈永军
+F03D 11/00
+Loading...
+本实用新型公开了一种塔筒导电轨临时支撑装置，其特征在于，包括：用来安装到塔筒上的螺柱（2）；以及用来支撑导电轨的支撑角钢（3），该支撑角钢（3）与所述螺柱（2）相连接。支撑角钢（3）包括：连接螺柱（2）的第一侧面（31）；垂直于第一侧面（31）并与导电轨贴合的第二侧面（32）。支撑角钢（3）的第一侧面（31）设有长圆安装孔（31a），螺栓穿过长圆安装孔（31a）并旋入螺柱（2）的螺纹孔（2a），将支撑角钢固定在螺柱（2）上。本实用新型可有效解决位于爬梯两侧的导电轨由于重力而产生的变形甚至损坏的问题，且结构简单，加工成本低，可重复利用。
+55. 203029867 风电机组的灭火设备和风电机组
+CN
+03.07.2013
+A62C 3/16 Loading...
+A62C 3/16
+Loading...
+201220633707.2
+华锐风电科技（集团）股份有限公司
+王新元
+A62C 3/16
+Loading...
+本实用新型提供一种风电机组的灭火设备和风电机组，通过用于在所述风电机组所在环境的温度大于或等于预设温度时产生热信号的热敏线和用于接收所述热信号，提供灭火物质的至少一个灭火装置，其中，所述灭火装置与所述热敏线相连，避免了灭火设备误操作或灭火设备失灵，解决了现有技术中灭火设备误操作或灭火设备失灵，可靠性较低的技术问题。
+56. 203039243 风力发电机的中压开关柜及其并网结构
+CN
+03.07.2013
+H02B 1/24 Loading...
+H02B 1/24
+Loading...
+201220710632.3
+华锐风电科技（集团）股份有限公司
+芮守娟
+H02B 1/24
+Loading...
+本实用新型提供一种风力发电机的中压开关柜及其并网结构，包括：接触器并联电路，每条并联支路上均串接有中压接触器，接触器并联电路的第一端与发电机定子连接，接触器并联电路的第二端与电网变压器连接。本实用新型提供实施例的风力发电机的中压开关柜，通过与发电机定子和电网变压器相连的中压接触器，实现风力发电机的并网；且接触器并联电路的设计及两个中压接触器的同时分合闸，可实现风力发电机大电流、大容量的供应，满足现代社会日益增长的电力需求。
+57. 203037767 低电压穿越测试设备
+CN
+03.07.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201220717781.2
+华锐风电科技（集团）股份有限公司
+李超锋
+G01R 31/00
+Loading...
+本实用新型提供了一种低电压穿越测试设备，串联在电网和待测风机之间，包括：第一电抗器，串联在电网和待测风机之间；第二断路器，与第一电抗器并联；接地线路，一端从第一电抗器与待测风机之间引出，另一端接地；第二电抗器，串联在接地线路中；第三断路器，串联在接地线路中；PLC模块，控制第二断路器和第三断路器的通断。应用本实用新型的技术方案，采用串联在电网和风机之间的低电压穿越测试设备，专用于低电压穿越试验，通过设置两个电抗器，改变电抗配比实现不同幅值的跌落，从而方便地进行低电压测试。
+58. 203035463 变桨系统零部件的维护更换装置及风力发电机组
+CN
+03.07.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220591724.4
+华锐风电科技（集团）股份有限公司
+孙广
+F03D 11/00
+Loading...
+本实用新型提供一种变桨系统零部件的维护更换装置及带有变桨系统零部件的维护更换装置的风力发电机组。该变桨系统零部件的维护更换装置包括相互连接的旋转驱动装置和操作臂，所述旋转驱动装置固定在机舱框架顶部；所述旋转驱动装置，用于驱动所述操作臂旋转；所述操作臂，用于将变桨系统零部件悬吊到轮毂壁的开口外，并在所述旋转驱动装置的驱动下旋转到所述机舱上方。本实用新型提供的变桨系统零部件的维护更换装置，使得大功率机组轮毂内超出人力所能拆卸的变桨系统零部件的维护和更换变得简单可行，无需拆下轮毂，节约了大量生产、运输和吊装成本。
+59. 203038278 风电场功率的预测系统
+CN
+03.07.2013
+G06F 19/00 Loading...
+G06F 19/00
+Loading...
+201220462681.X
+华锐风电科技（集团）股份有限公司
+甘家飞
+G06F 19/00
+Loading...
+本实用新型公开了一种风电场功率的预测系统，该风电场功率的预测系统包括：数值天气预报NWP服务器，用于在获取全球气象数据后预测多个风电场的气象数据；数据库服务器，其中，一个数据库服务器连接至多个NWP服务器，用于存储来自多个NWP服务器的多个风电场的气象数据；以及预测服务器，连接至数据库服务器，用于生成多个子程序并控制多个子程序根据各风电场的气象数据预测风电场功率。相比与在各风电设置独立的功率预测系统，本实用新型方便了对风电场功率预测系统的统一的管理而且减少了硬件设备的投入成本。
+60. 203033667 新型维修吊车行走驱动装置
+CN
+03.07.2013
+B66C 9/14 Loading...
+B66C 9/14
+Loading...
+201220684414.7
+华锐风电科技（集团）股份有限公司
+金宝年
+B66C 9/14
+Loading...
+本实用新型公开了一种新型维修吊车行走驱动装置，其包括：位于吊车两侧的行走车轮；与行走车轮连接的减速器；与减速器连接的驱动机构；安装于减速器和驱动机构之间的逆向锁死装置，用于吊车到达吊装位置后锁死行走车轮使其固定不动。本实用新型的新型维修吊车行走驱动装置结构简单，使用方便，吊车在吊装过程中容易定位，提高了维修吊车工作的可靠性。
+61. 103175678 Loading test table
+CN
+26.06.2013
+G01M 13/00 Loading...
+G01M 13/00
+Loading...
+201110439294.4
+华锐风电科技（集团）股份有限公司
+张东升
+G01M 13/00
+Loading...
+The invention provides a loading test table which is provided with a machine seat and a bearing seat. Two groups of hydraulic cylinders are hinged between the bearing seat and the machine seat. The two groups of hydraulic cylinders are in central symmetry with the circle center of a bearing installation hole of the bearing seat as the symmetrical center, and two groups of strip elastic pieces are arranged between the machine seat and the bearing seat in parallel and symmetrical with a plane of the bearing installation hole as the symmetrical center. Due to the fact that the two groups of strip elastic pieces are symmetrical with the plane of the bearing installation hole as the symmetrical center, when the bearing seat rotates, one group of strip elastic pieces are pulled to generate pull force, and the other group of strip elastic pieces are pressed to generate press force. The press force and the pull force generate new additional counter torque for the bearing seat, the direction of the counter torque is opposite to that of the additional torque generated by self deflection of the bearing seat, and the counter torque is controlled by selecting the strip elastic pieces with proper stiffness factor to enable the counter torque to completely offset the additional torque, further stabilize a system of the loading test table and avoid test failure even major accidents.
+62. 103174159 Single tubular pile base equipment of offshore wind power generating set
+CN
+26.06.2013
+E02D 27/12 Loading...
+E02D 27/12
+Loading...
+201110439338.3
+华锐风电科技（集团）股份有限公司
+朱宏兵
+E02D 27/12
+Loading...
+The invention provides single tubular pile base equipment of an offshore wind generating set. The single tubular pile base equipment of the offshore wind generating set comprises a tubular pile, a transition section, circumferential direction shear keys, and a grouting layer, wherein the transition section is sleeved on the upper portion of the tubular pile, the lower portion of the tubular pile can be inserted into a seabed, the grouting layer is filled between the tubular pile and the transition section, and the circumferential direction shear keys are fixed on the tubular pile outer wall and / or the transition section inner wall in a multilayer mode at intervals along the axis direction of the tubular pile and are buried in the grouting layer. Due to the fact that the circumferential direction shear keys are arranged on the tubular pile outer wall and the transition section inner wall and the circumferential direction shear keys are buried in the grouting layer, so that connection strength of the tubular pile and the transition section is increased, vertical force, horizontal bending moment and torsional moment transmitted from the transition section are effectively transmitted to the tubular pile and then to the seabed, and manufacturing cost of basic single tubular pile base equipment of offshore wind generation is reduced.
+63. 103162017 Pipe clamp
+CN
+19.06.2013
+F16L 3/12 Loading...
+F16L 3/12
+Loading...
+201110409524.2
+华锐风电科技（集团）股份有限公司
+宿新红
+F16L 3/12
+Loading...
+The invention provides a pipe clamp. The pipe clamp comprises a first clamping block and a second clamping block, wherein a first opening and a second opening are correspondingly formed between the first clamping block and the second clamping block. The pipe clamp is characterized in that elastic pieces are arranged on the inner wall of the first opening and / or the inner wall of the second opening, wherein the elastic pieces are used for clamping a to-be-clamped pipeline or a to-be-clamped cable.
+64. 103104421 叶轮锁紧装置及风力发电机组
+CN
+15.05.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201110355851.4
+华锐风电科技（集团）股份有限公司
+金宝年
+F03D 11/00
+Loading...
+本发明提供一种叶轮锁紧装置及风力发电机组，该叶轮锁紧装置包括销轴，用于插入叶轮锁紧盘上开设的销轴孔中，其中，该锁紧装置还包括：传感器组件，用于检测销轴的移动距离，并将距离参数传送至控制器组件；控制器组件，与传感器组件相连，用于根据接收的距离参数，向终端发出控制指令。本发明提供的叶轮锁紧装置及风力发电机组通过设置传感器组件检测销轴的移动距离，控制器组件通过对销轴移动距离的判断来告知工作人员叶轮的锁紧状态，从而避免了工作人员因为不知道叶轮锁紧而带来的安全隐患。
+65. 103091103 风电机组主轴轴承测试系统和测试方法
+CN
+08.05.2013
+G01M 13/04 Loading...
+G01M 13/04
+Loading...
+201110332615.0
+华锐风电科技（集团）股份有限公司
+王兆奎
+G01M 13/04
+Loading...
+本发明公开了一种风电机组主轴轴承测试系统和测试方法，该测试系统包括控制器、电压控制开关、变频器、驱动电机和液压加载装置，其中，控制器分别与变频器、液压加载装置和电压控制开关相连；电压控制开关与驱动电压源相连；变频器分别与驱动电压源和驱动电机相连；驱动电机的输出轴与待测主轴轴承相连；液压加载装置与待测主轴轴承相连。该测试系统和测试方法通过模拟轴承实际的运行环境以及其他风电设施对它的影响，在工作周期内对轴承进行实际工况的模拟测试，实现风载的完全模拟，测试轴承在不同工况下运行时的性能，可满足风电机组主轴轴承的性能测试需要。
+66. 103091105 风电机组变桨系统的测试系统和测试方法
+CN
+08.05.2013
+G01M 15/00 Loading...
+G01M 15/00
+Loading...
+201110332617.X
+华锐风电科技（集团）股份有限公司
+王兆奎
+G01M 15/00
+Loading...
+本发明公开了一种风电机组变桨系统的测试系统和测试方法，该测试系统包括控制器、电压控制开关、变频器、变桨电机和液压加载装置，其中，控制器分别与电压控制开关、变频器和液压加载装置相连；电压控制开关与驱动电压源相连；变频器分别与驱动电压源、变频电机相连；变桨电机的转轴与变桨轴承相连；液压加载装置与变桨轴承相连。该风电机组变桨系统的测试系统和测试方法，可测试不同工况下整个变桨系统的运行可靠性和稳定性，满足风电机组对变桨系统的性能测试需要。
+67. 103089542 风力发电机组传动系统与风力发电机组
+CN
+08.05.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201110335225.9
+华锐风电科技（集团）股份有限公司
+黎焱
+F03D 9/00
+Loading...
+本发明提供一种风力发电机组传动系统与风力发电机组，该传动系统包括叶轮及设置在机舱罩内的齿轮箱和发电机，齿轮箱包括壳体以及设置在壳体内的输入轴和输出轴；发电机包括定子和转子，其中：上述齿轮箱的输出轴与发电机的转子直接相连；齿轮箱的壳体与发电机的定子固定连接。本发明提供的风力发电机组通过将齿轮箱的输出轴与发电机转子直接相连，将齿轮箱的壳体与发电机的定子固定连接，从而将齿轮箱的壳体作为主要的承载部件，简化了其他承载件的结构，降低了设计制造的难度。
+68. 103061972 风力发电机组的功率控制方法及系统
+CN
+24.04.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201110320973.X
+华锐风电科技（集团）股份有限公司
+宫玉鹏
+F03D 7/00
+Loading...
+本发明提供一种风力发电机组的功率控制方法及系统，方法包括：获取所述风力发电机组的实际转矩TN和预设转矩TM；根据所述实际转矩TN和所述预设转矩TM，判断是否同时启动所述风力发电机组的第一PID控制器和第二PID控制器，并根据判断结果判断是否向所述第一PID控制器和所述第二PID控制器发送启动信号。本发明提供的风力发电机组的功率控制方法及系统，通过实时判断是否同时启动所述风力发电机组的第一PID控制器和第二PID控制器，不仅可以减小风力发电机组的闪变，而且能够使该风力发电机组尽量工作在最佳状态下。
+69. 103042502 地脚螺栓预紧力施加方法
+CN
+17.04.2013
+B25B 27/14 Loading...
+B25B 27/14
+Loading...
+201110313649.5
+华锐风电科技（集团）股份有限公司
+朱宏兵
+B25B 27/14
+Loading...
+本发明提供一种地脚螺栓预紧力施加方法，其中包括：在塔筒法兰和紧固螺母之间安装设定尺寸的垫圈，所述垫圈用于支撑张拉器的支撑桥，其中，所述设定尺寸是指垫圈的径向尺寸大于所述张拉器的支撑桥尺寸；使用所述张拉器对塔筒法兰上安装的内圈地脚螺栓和外圈地脚螺栓施加预紧力。本发明提供的地脚螺栓预紧力施加方法，采用设定尺寸的垫圈代替传统垫圈，使得张拉器不会直接与塔筒法兰的表面接触，张拉器的压力经由垫圈均匀传输至塔筒法兰，避免了对塔筒法兰表面油漆的破坏，提高了塔筒的安装质量以及使用寿命。
+70. 103036328 定子、制造方法和电机
+CN
+10.04.2013
+H02K 1/16 Loading...
+H02K 1/16
+Loading...
+201110298178.5
+华锐风电科技（集团）股份有限公司
+张沛
+H02K 1/16
+Loading...
+本发明公开了一种定子、制造方法和电机，定子包括定子铁心和定子绕组，所述定子铁心为圆环形，所述定子铁心的内圆周上开设有槽口，所述定子绕组布置在所述槽口内，所述定子铁心的内圆表面上贴合有金属层。由于定子铁心的内圆表面贴合有金属层，该金属层磁阻极小而且金属层与定子铁心的内圆表面紧密结合，定子铁心和金属层的接触面的磁势压降很小；在安装有上述定子的电机运行时，定子铁心的齿部的一部分磁通会分流到金属层中，对应于定子铁心的槽口的部位，再穿过定子与转子之间的气隙进入转子；可以削弱定子铁心的槽口引起的齿槽效应，避免了定子铁心的齿顶处磁密过于集中，提高气隙磁阻的均匀性，进而可以提高电机运行的平稳性和使用寿命。
+71. 202859970 防火装置、自动防火系统和风力发电机组
+CN
+10.04.2013
+A62C 35/02 Loading...
+A62C 35/02
+Loading...
+201120041626.9
+华锐风电科技（集团）股份有限公司
+吴霞
+A62C 35/02
+Loading...
+本实用新型公开了一种防火装置、自动防火系统和风力发电机组，该防火装置包括启动瓶、探测管和电磁阀，启动瓶用于充装压力气体；探测管置于待防火空间中以探测火源；电磁阀用于产生报警信号。该自动防火系统包括灭火系统柜、中控室和报警系统，还包括本实用新型提供的防火装置。该风力发电机组，包括风力发电设备和机舱，还包括本实用新型提供的自动防火系统。本实用新型提供的防火装置、自动防火系统和风力发电机组，可及时发现火源并产生报警信号，以便根据报警信号采取灭火措施，将火患扑灭在萌芽状态，减小因火灾造成的经济损失。
+72. 103015387 保护装置和海上支撑台
+CN
+03.04.2013
+E02B 17/00 Loading...
+E02B 17/00
+Loading...
+201110285627.2
+华锐风电科技（集团）股份有限公司
+孙阳
+E02B 17/00
+Loading...
+本发明公开了一种保护装置，包括至少两个上下间隔布设的保护圈，该保护圈用于套设在海上支撑台的支撑柱的外围；本发明公开了一种海上支撑台，包括承载台和支撑柱，所述支撑柱的上端与承载台连接，所述支撑柱的下端用于插入海床中，该海上支撑台还包括上述保护装置，所述保护装置的保护圈与所述支撑柱连接。本发明提供的保护装置和海上支撑台，通过保护圈与波浪相互作用，改变水质点的运动规律，从而大幅度降低波浪的高度，减小波浪的能量，进而可以削弱作用在海上支撑台的支撑柱上的波浪载荷强度，提高海上支撑台的稳定性和风电机组运行的安全性。
+73. 102996343 风电机组控制方法、装置及系统
+CN
+27.03.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210492089.9
+华锐风电科技（集团）股份有限公司
+蔡旋
+F03D 7/00
+Loading...
+本发明提供了一种风电机组控制方法、装置及系统。其中方法包括：获取检测到的低温运行参数；根据检测到的所述低温运行参数判断是否满足低温运行条件；当根据检测到的所述低温运行参数判断出满足所述低温运行条件时，则启动低温运行模式，所述低温运行模式包括：将风电机组的叶片调整至迎风转动状态；当根据检测到的所述低温运行参数判断出不满足所述低温运行条件时，则启动常温运行模式。本发明通过判断出当低温运行参数满足低温运行条件时，启动低温运行模式，将风电机组的叶片调整至迎风转动状态，使得风电机组空转，通过机械转动产生热量让风电机组各部件迅速升温，缩短风电机组启动时间，提高了发电效率。
+74. 102980651 风电机组状态监测方法、装置及系统
+CN
+20.03.2013
+G01H 17/00 Loading...
+G01H 17/00
+Loading...
+201210434462.5
+华锐风电科技（集团）股份有限公司
+杨天时
+G01H 17/00
+Loading...
+本发明提供了一种风电机组状态监测方法、装置及系统。其中方法包括：获取风电机组塔筒顶部的振动信号；对所述振动信号进行分析，包括时域分析和频域分析，以获得反映所述塔筒顶部振动状态的时域特征值和频域特征值；根据所述时域特征值和频域特征值，判断风电机组塔筒及基础的状态。本发明通过检测塔筒顶部的振动信号，对振动信号进行时域分析和频域分析，得到能反映出塔筒及基础状态的时域特征值和频域特征值，通过与设定值进行比较来判断风电机组塔筒及基础是否发生了衰退，能够实时监测塔筒及基础的状态，保证风电机组正常运行，延长风电机组的使用寿命。
+75. 202817975 盘式发电机
+CN
+20.03.2013
+H02K 5/24 Loading...
+H02K 5/24
+Loading...
+201220200912.X
+华锐风电科技（集团）股份有限公司
+彭作明
+H02K 5/24
+Loading...
+本实用新型提供一种盘式发电机，包括发电机壳体和支撑座，发电机壳体的外侧沿圆周方向具有多个第一连接部，支撑座上具有与各第一连接部对应的多个第二连接部，各第一连接部与对应的各第二连接部均通过螺栓固定连接，且各第一连接部与对应的各第二连接部之间垫装有第一减振元件。上述方案通过在发电机壳体的外侧沿圆周方向设置多个第一连接部，在支撑座上设置第二连接部，通过第一连接部与第二连接部将发电机壳体与支撑座可靠的固定连接在一起，提高了该盘式发电机的稳定性，避免出现侧倾的问题，且在第一连接部与第二连接部之间垫装第一减振元件来缓冲发电机壳体因电磁力矩而产生的振动，实现发电机壳体与支撑座之间的减振功能。
+76. 202811203 一种串联式风力发电设备
+CN
+20.03.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220317947.1
+华锐风电科技（集团）股份有限公司
+焦立盈
+F03D 9/00
+Loading...
+本实用新型公开了一种串联式风力发电设备，包括：风机叶轮；连接风机叶轮的增速齿轮箱；连接所述增速齿轮箱的传动输出部的直流发电机；其主动部连接所述直流发电机的传动输出部的液力耦合器；连接所述液力耦合器的从动部的交流发电机。本实用新型具有结构简单、成本低、运行可靠并可以在低风和高风区域高效发电。
+77. 202815178 用于测试接触器的装置
+CN
+20.03.2013
+G01R 31/327 Loading...
+G01R 31/327
+Loading...
+201220429382.6
+华锐风电科技（集团）股份有限公司
+李红垒
+G01R 31/327
+Loading...
+本实用新型提供一种用于测试接触器的装置，其中，包括：电压电流监测组件，用于监测接触器的动触头和静触头之间的电压值和电流值；数据采集卡，与所述电压电流监测组件电性连接，用于采集所述电压电流监测组件监测得到的电压值和电流值；上位机，与所述数据采集卡电性连接，用于根据所述电压值和电流值计算所述接触器的动触头和静触头断开时的电弧能量。上述技术方案提供的用于测试接触器的装置，通过综合比较两款甚至多款接触器的接通和断开的瞬时特性以及吸合保持后的稳态特性，实现在两个甚至多个同规格接触器中，选择出接通电流冲击小，过载能力强，断开瞬间电弧能量小以及灭弧效果好的接触器。
+78. 202814375 一种风力机叶片实验台的叶片位移测量装置及测量系统
+CN
+20.03.2013
+G01B 21/02 Loading...
+G01B 21/02
+Loading...
+201220375471.7
+华锐风电科技集团（上海）有限公司
+黄松波
+G01B 21/02
+Loading...
+本实用新型一种风力机叶片实验台的叶片位移测量装置及测量系统公开了一种风力机叶片实验台的叶片位移测量装置，其包括：安装在被测叶片附近的两个架高的传感器安装座；分别安装在两个传感器安装座上的两个拉线位移传感器，且所述两个拉线位移传感器的传感器拉线绳的末端分别与安装在实验台上的被测叶片的被测点相连。本实用新型的叶片位移测量装置可以实时测量加载后被测叶片上任一点的位移，计算准确，精度高，并且结构简单，安装方便，适用范围广；本实用新型还提供一种风力机叶片实验台的叶片位移测量系统，其包括：多个如上所述的叶片位移测量装置；采集多个叶片位移测量装置中被测点位移信息并进行数据处理的数据采集装置。通过该测量系统，可将受载后的被测叶片上的各被测点位移准确计算，为叶片在实际应用中的强度分析提供理论依据。
+79. 202818079 变流器的电流均衡装置和变流器
+CN
+20.03.2013
+H02M 1/088 Loading...
+H02M 1/088
+Loading...
+201220366089.X
+华锐风电科技集团(上海)有限公司
+张少杰
+H02M 1/088
+Loading...
+本实用新型提供一种变流器的电流均衡装置和变流器，该电流均衡装置驱动电路、多个延时单元、多个限流电阻、均流计算单元和多个均流环，其中，驱动电路用于与变流器中控制电路的信号输出端相连，且变流器中各功率开关管的驱动信号输入极分别经限流电阻和延时单元与驱动电路相连；各均流环分别设置于变流器中各功率开关管所在桥臂上，均流计算单元分别与各均流环相连。该电流均衡装置可使变流器中各功率开关管的导通时刻相同，最终使流经各功率开关管的电流大小相等，各功率开关管承受的电流大小相同，达到均流的目的，可避免有的功率开关管因承受的电流大于其额定电流而损坏，可改善变流器的工作性能。
+80. 202811223 一种风力发电机舱罩天窗安装结构
+CN
+20.03.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220381933.6
+华锐风电科技集团（上海）有限公司
+张彧
+F03D 11/00
+Loading...
+本实用新型公开了一种风力发电机舱罩天窗安装结构，其特征在于包括：机舱罩体(1)；和安装在机舱罩体(1)上的天窗；其特征在于，所述机舱罩体(1)与所述天窗的连接处设置有用来防止雨水进入机舱罩内的挡板(201)。天窗与机舱罩体安装严密，能够避免雨水渗入机舱内部，保证了机舱内电气和机械元件的正常工作。
+81. 202812144 齿轮箱支撑装置和风力发电机
+CN
+20.03.2013
+F16H 57/025 Loading...
+F16H 57/025
+Loading...
+201220424968.3
+华锐风电科技（集团）股份有限公司
+王伟达
+F16H 57/025
+Loading...
+本实用新型提供一种齿轮箱支撑装置和风力发电机，包括第一连接杆、第二连接杆、第一杠杆梁、第二杠杆梁、第一主动力矩器、第二主动力矩器和滑座；第一连接杆和第二连接杆的上端用于分别与齿轮箱的外壁两侧的挂耳铰接，第一连接杆的下端与第一杠杆梁的外端铰接，第一杠杆梁靠近外端处与第一支座铰接，第二连接杆的下端与第二杠杆梁的外端铰接，第二杠杆梁靠近外端处与第二支座铰接，第一支座和第二支座用于与风力发电机的主机架连接；第一杠杆梁内端与第一主动力矩器连接，第二杠杆梁内端与第二主动力矩器连接，滑座具有竖直滑道，第一主动力矩器和第二主动力矩器能够在竖直滑道内上下滑动，滑座的下端用于与主机架连接。
+82. 202811204 一种串联式风力发电设备
+CN
+20.03.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220318044.5
+华锐风电科技（集团）股份有限公司
+张健
+F03D 9/00
+Loading...
+本实用新型公开了一种串联式风力发电设备，包括：风机叶轮；连接风机叶轮的增速齿轮箱；连接所述增速齿轮箱的传动输出部的直流发电机；其主动部连接所述直流发电机的传动输出部的电磁离合器；连接所述电磁离合器的从动部的交流发电机。本实用新型具有结构简单、成本低、运行可靠并可以在低风和高风区域高效发电。
+83. 202811233 风力发电机组及传动机构
+CN
+20.03.2013
+F03D 11/02 Loading...
+F03D 11/02
+Loading...
+201220488222.9
+华锐风电科技（集团）股份有限公司
+万保库
+F03D 11/02
+Loading...
+本实用新型提供一种风力发电机组及传动机构，该机构包括齿轮箱，减振单元呈柱销状，箱体上具有至少一连接板，连接板上具有连接孔，所有连接板位于同一平面上，过齿轮箱重心的齿轮箱输入轴中心线法平面穿过该平面，齿轮箱通过连接板和多个减振单元支撑在机架上；齿轮箱输入轴与主轴弹性连接。齿轮箱不再采用输入轴悬挂的方式支撑，而是采用在齿轮箱重心处支撑的方式，在齿轮箱的重心位置通过减振单元支撑在机架上，这样齿轮箱就不再是悬臂梁式的支撑，而是重心位置支撑，刚度较大，可以减小齿轮箱自重产生弯矩引起的箱体变形。
+84. 202811229 一种风电机组高速轴防护罩
+CN
+20.03.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220488502.X
+华锐风电科技（集团）股份有限公司
+陈芳
+F03D 11/00
+Loading...
+本实用新型公开了一种风电机组高速轴防护罩，包括：设置在制动盘外围的制动盘防护罩（1）；设置在联轴器外围并与所述制动盘防护罩（1）相连接的联轴器防护罩（2），其特征在于，所述制动盘防护罩（1）呈圆弧形，并且包括连接在一起的多个圆弧形薄钢板（11）和焊接在所述薄钢板内弧面一端的端部挡板（12）；所述联轴器防护罩（2）包括安装在一起的顶罩（21）和底罩（22）。本实用新型结构设计合理、安装维修方便、稳定性好。
+85. 202811234 一种风力发电机组齿轮箱
+CN
+20.03.2013
+F03D 11/02 Loading...
+F03D 11/02
+Loading...
+201220488547.7
+华锐风电科技（集团）股份有限公司
+路计庄
+F03D 11/02
+Loading...
+本实用新型公开了一种风力发电机组齿轮箱，包括，箱体（1），其特征在于还包括：安装在箱体底部（11）用来收集箱体内污染颗粒和沉淀物的盒体（2）；开设在箱体底部（11）并连通所述盒体（2）的通孔（8）。所述盒体（2）底部设有次排油阀（4）。所述盒体（2）底部的内壁开设有数个盲孔（23）。所述盒体（2）底部的内壁安装有数个楔形块（24）。所述箱体底部（11）具有一定的倾斜角度，并逐渐向所述盒体（2）收缩。该风力发电机组齿轮箱结构简单，安装拆卸方便，清洗彻底。
+86. 202811677 风力发电机变桨系统锁紧装置
+CN
+20.03.2013
+F16B 1/04 Loading...
+F16B 1/04
+Loading...
+201220488577.8
+华锐风电科技（集团）股份有限公司
+王伟
+F16B 1/04
+Loading...
+本实用新型公开了一种风力发电机变桨系统锁紧装置，其包括：安装在轮毂上的底座结构；安置在底座结构上的锁紧块；调整锁紧块的锁紧位置并将其锁紧在底座结构上的固定结构；其中，锁紧块前端设有齿型结构，该齿型结构与变桨系统中的变桨轴承内齿圈啮合并将其锁紧。本实用新型的风力发电机变桨系统锁紧装置结构简单，操作方便，在底座固定后可以对变桨轴承的锁紧位置进行调整，节省了调节时间，提高了工作效率。
+87. 202805076 一种叶轮组装支架
+CN
+20.03.2013
+B25B 27/00 Loading...
+B25B 27/00
+Loading...
+201220413277.3
+华锐风电科技（集团）股份有限公司
+解明君
+B25B 27/00
+Loading...
+本实用新型公开了一种叶轮组装支架，其特征在于包括：用来支撑轮毂的安装座(1)，其上设置有多个接口(2a、2b、2c)；分别连接在多个接口(2a、2b、2c)上以便支撑安装座的多个支撑臂(4a、4b、4c)，分别通过销轴与所述多个接口连接。该叶轮组装支架能够防止叶轮在组装过程中发生倾翻，使叶轮的组装更安全可靠，同时提高了叶轮组装的装配效率。
+88. 202817964 电机绝缘端盖及双馈风力发电机
+CN
+20.03.2013
+H02K 5/08 Loading...
+H02K 5/08
+Loading...
+201220435785.1
+华锐风电科技（集团）股份有限公司
+袁世鹏
+H02K 5/08
+Loading...
+本实用新型提供一种电机绝缘端盖及双馈风力发电机，用于安装在双馈风力发电机上，该电机绝缘端盖包括电机端盖及轴承座，在电机端盖及轴承座之间设有使电机端盖及轴承座保持绝缘的绝缘结构；轴承座的外侧设置有轴承外端盖，轴承座的内侧设置有轴承内端盖；在轴承内端盖上设置有挡油罩，挡油罩绕轴承座的中心环绕设置。通过在轴承内端盖上设置挡油罩，能够有效防止电机轴承室中由于迷宫密封失效引起的油脂飞溅出，而粘结在电机端盖与轴承座之间连接的绝缘结构上，可避免电机端盖与绝缘装置之间的绝缘结构失效，从而保护轴承免受电蚀损伤。
+89. 202811221 具有自冷却功能的海上风电机组塔筒及风电机组
+CN
+20.03.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220268295.7
+华锐风电科技（集团）股份有限公司
+孙阳
+F03D 11/00
+Loading...
+本实用新型提供一种具有自冷却功能的海上风电机组塔筒及风电机组。包括：筒体，筒体的内固定设置有电器元件，筒体外侧还固定设置有送气管和通风管；送气管包括送气总管、用于将送气总管连通至容置空腔的第一分送气管和第二分送气管，以及海水容置腔，且海水容置腔的末端设有开口；通风管与容置空腔相连通，其上还分别设置有第一通风口和第二通风口；第一分送气管上设置有第一阀门，第二分送气管上设置有第二阀门；第一通风口处设置有第三阀门，第二通风口处设置有第四阀门。本实用新型利用海浪带动筒体内气体的循环流动，实现降低容置空腔内的气体温度、冷却筒体内的电器元件；无需外供电能，节约了海上上风电机组的工程成本。
+90. 202814565 风机齿轮箱温度监控装置
+CN
+20.03.2013
+G01K 1/02 Loading...
+G01K 1/02
+Loading...
+201220429057.X
+华锐风电科技（集团）股份有限公司
+李斌
+G01K 1/02
+Loading...
+本实用新型提供一种风机齿轮箱温度监控装置，包括：采集模块，用于采集齿轮箱温度采集点的当前温度值，将采集点的当前温度值以及采集点标识发送给主控模块；主控模块，用于根据采集点标识，获取与采集点标识对应的温度预测变化曲线值及对应的预警温度上限值和预警温度下限值，若确定采集点的温度预测趋势为下降趋势，且采集点的当前温度值小于所述预警温度下限值，或者采集点的温度预测趋势为上升趋势，且采集点的当前温度值大于所述预警温度上限值，则发送预警触发信号给预警模块；预警模块，用于根据所述预警触发信号，生成预警信息，以便工作人员及时对所述预警信息进行分析和处理；提高了对齿轮箱温度告警问题的分析和处理效率。
+91. 202811225 一种风力发电机机舱罩
+CN
+20.03.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220413314.0
+华锐风电科技（集团）股份有限公司
+陈淑娜
+F03D 11/00
+Loading...
+本实用新型公开了一种风力发电机机舱罩，其特征在于包括：多个罩体(1、2、3)和用来连接相邻罩体的多个接口(5、6、7)，其中每个接口设置有用来挡水的挡水板，以便防止雨水由接口进入机舱罩内。所述多个罩体包括顶罩(1)、侧罩(2)、底罩(3)；所述多个接口(5、6、7)包括数个水平接口(5、6)和数个竖直接口(7)。连接相邻罩体的多个接口都连接有通向所述机舱罩底部外侧的导水管道。本实用新型机舱罩结构设计简单，装配严密，能有效防止雨水进入机舱。
+92. 202817789 发电系统电能质量的云监测系统和电力系统
+CN
+20.03.2013
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201220432675.X
+华锐风电科技（集团）股份有限公司
+宋志强
+H02J 3/38
+Loading...
+本实用新型公开了一种发电系统电能质量的云监测系统和电力系统，其中，发电系统电能质量的云监测系统包括：分布式数据终端，与接入电网的发电系统连接，实时采集发电系统的电力数据；企业云资源平台，与分布式数据终端网络连接，对分布式数据终端采集的电力数据利用所述企业云资源平台中分布的计算节点进行云计算获取稳态和动态监测数据，并将所述电力数据和计算获取的监测数据利用所述企业云资源平台中分布的存储器节点进行云存储。本实用新型能够对风机或太阳能光伏发电站等新能源发电系统的稳态和动态参数进行实时监测。
+93. 202818121 变频器及风能光能互补发电系统
+CN
+20.03.2013
+H02M 5/45 Loading...
+H02M 5/45
+Loading...
+201220467539.4
+华锐风电科技（集团）股份有限公司
+高山岳
+H02M 5/45
+Loading...
+本实用新型提供一种变频器及风能光能互补发电系统。所述变频器包括：整流电路、限流电路、第一预充电电路、第二预充电电路、保护电路和逆变电路。整流电路的第一输出端与限流电路的第一接入端连接；限流电路的第二接入端与第一预充电电路的第一接入端连接；第一预充电电路的第一接入端与逆变电路的第一输入端连接，第一预充电电路的第二接入端分别与整流电路的第二输出端和逆变电路的第二输入端连接；第二预充电电路的第一接入端与保护电路的第一接入端连接，第二预充电电路的第二接入端与逆变电路的第二输入端连接；保护电路的第二接入端与逆变电路的第一输入端连接。采用本实用新型所述变频器可有效简化风能光能互补发电系统的电路结构。
+94. 202811189 风电叶片试验台叶片安装固定装置
+CN
+20.03.2013
+F03D 1/04 Loading...
+F03D 1/04
+Loading...
+201220524975.0
+华锐风电科技（集团）股份有限公司
+张蕾
+F03D 1/04
+Loading...
+本实用新型公开了一种风电叶片试验台叶片安装固定装置，其包括：用于风电叶片试验且可调整结构尺寸的叶片固定装置，其一侧端面与被测叶片连接，且被测叶片与叶片固定装置间设置有变桨轴承。其中，叶片固定装置包括：可拆卸安装在地基上的下固定台；安装在下固定台上表面的上固定台。本实用新型的风电叶片试验台叶片安装固定装置，其结构紧凑，边界约束条件准确，测试数据准确，资金投入少，测试范围广，通用性好，可节省大量的人力、物力和财力。
+95. 102966488 降低海上风力发电机组载荷的方法和系统
+CN
+13.03.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201210434533.1
+华锐风电科技（集团）股份有限公司
+杨明明
+F03D 7/00
+Loading...
+本发明提供一种降低海上风力发电机组载荷的方法和系统，其中方法包括：测量风速值；根据所述风速值确定转速给定值；测量发电机转速值；根据所述转速给定值和所述发电机转速值，确定转速偏差；根据所述转速偏差，确定第一变桨速率给定值，以便变桨执行系统减小风轮的变桨角度，使得减小变浆角度后的风轮的转速稳定在根据所述第一变桨速率给定值确定的速率值上。本发明能够解决降低海上风力发电机组在非发电状态下的载荷，延长机组寿命。
+96. 102966116 海上风力发电机组群桩基础装置
+CN
+13.03.2013
+E02D 27/44 Loading...
+E02D 27/44
+Loading...
+201110257619.7
+华锐风电科技（集团）股份有限公司
+金宝年
+E02D 27/44
+Loading...
+本发明提供一种海上风力发电机组群桩基础装置，包括承台，所述承台的下方固定安装有多根支撑桩，多根所述支撑桩的外侧共同套装有至少一个防撞环，所述防撞环与所述支撑桩固定连接。该海上风力发电机组群桩基础装置，设置了与各支撑桩固定连接的防撞环，防撞环将各支撑桩连接成一个整体，在防撞环受到船舶的撞击时，防撞环将撞击能量分散至多根支撑桩上，则每根支撑桩所受到的撞击能量就相对较小，因此提高了该群桩基础装置的抗撞击能力，降低了支撑桩被撞弯、撞损的可能性，减少了因支撑桩被撞损或撞变形而产生的安全隐患。
+97. 102953938 防腐蚀系统及风力发电机组
+CN
+06.03.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201110240459.5
+华锐风电科技（集团）股份有限公司
+黄强
+F03D 11/00
+Loading...
+本发明公开了一种防腐蚀系统及风力发电机组，其中防腐蚀系统包括相互连接的微正压装置和风道；所述微正压装置用于与封闭空间连通，对进入所述微正压装置的空气进行除湿处理，并将处理后的干净空气输出至所述封闭空间，以使所述封闭空间内的大气压强大于外部大气压强；所述风道包括通过通槽相互贯通的舱外进风口和出风口，所述出风口与所述微正压装置连接，所述舱外进风口用于将外部空气导引至所述微正压装置。本发明提供的防腐蚀系统及风力发电机组，可有效实现部件的防腐蚀。
+98. 202748462 电机调压测试电路和测试系统
+CN
+20.02.2013
+G01R 31/34 Loading...
+G01R 31/34
+Loading...
+201220279652.X
+华锐风电科技（集团）股份有限公司
+方威
+G01R 31/34
+Loading...
+本实用新型提供一种电机调压测试电路和测试系统，该测试电路包括调压器和变压器，调压器，其输入端用于连接至电网，其输出端与变压器一次绕组接线端子相连，用于对电网电压进行无级调整，以在输出端获得输出电压；变压器，其二次绕组接线端子通过第一控制开关连接至被试电机的输入端，用于将所述调压器的输出电压调整设定倍数后输出。该测试电路，作为对被试电机进行堵转测试试验的电路，以直接获得堵转时的试验数据，不需要进行试验数据的换算或者折算等，因此，可提高获得相应试验数据准确性。
+99. 202746427 静压花键装置
+CN
+20.02.2013
+F16D 3/06 Loading...
+F16D 3/06
+Loading...
+201220278246.1
+华锐风电科技（江苏）有限公司
+刘国藩
+F16D 3/06
+Loading...
+本实用新型公开一种静压花键装置，该装置由花键轴和花键套构成，所述花键轴与花键套两啮合的齿面间设有径向间隙，所述花键轴与花键套两轴向定位面之间设有轴向间隙，所述花键套上通过螺栓连接有用于密封花键套与花键轴的端盖，所述花键套内部设有多个与所述轴向间隙和径向间隙连通的注油孔。通过注油孔向齿面径向间隙中注入压力油，从而在两啮合齿面间形成具有一定刚度的油膜，并通过油膜将两齿隔开，保证扭矩传递过程中花键轴与花键套上的两齿间无刚性接触，实现了由传统花键副间的刚性干摩擦变为液体摩擦，在传递大扭矩过程中，只需极小的轴向力即可克服两花键副间的摩擦阻力，实现轴向变形补偿。
+100. 202746115 风力发电机组用轮毂罩和风力发电机组
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220301374.3
+华锐风电科技（集团）股份有限公司
+陈明
+F03D 11/00
+Loading...
+本实用新型提供一种风力发电机组用轮毂罩和风力发电机组，其中风力发电机组用轮毂罩包括轮毂罩端盖、至少两块轮毂罩底板和至少两块轮毂罩壁，各轮毂罩底板之间和各轮毂罩壁之间均轴向对称，轮毂罩壁的边缘处形成凹口，相邻的轮毂罩壁拼合后，凹口组成通孔，所述轮毂罩壁上设置有横向加强筋，设置在所述轮毂罩壁的中部。本实用新型的风力发电机组用轮毂罩通过在轮毂罩壁的中部设置横向加强筋，从而提高轮毂罩的结构强度，降低产品厚度和重量。
+101. 202746099 风电机组
+CN
+20.02.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220301054.8
+华锐风电科技（集团）股份有限公司
+刘文广
+F03D 9/00
+Loading...
+本实用新型提供一种风电机组，包括塔筒，以及固定在塔筒顶端的叶轮和机舱，叶轮和机舱通过主轴连接为一体；叶轮包括轮毂和三个叶片，叶片通过法兰固定安装在轮毂上，轮毂内还设置有叶片变桨装置，叶片变桨装置用于驱动叶片变桨；轮毂的壳体上，对应叶片变桨装置的位置开设有人孔，以及机舱上部固定设置有吊车，吊车用于通过人孔吊装叶片变桨装置。该风电机组通过在轮毂上设置人孔和在机舱内设置吊车，从而在维护或更换叶片变桨装置时不需要大型吊车，降低了成本，而且机舱内的空间大，有利于将吊车安装在机舱内，对叶片变桨装置进行维护和更换更加安全方便。
+102. 202746907 风机偏航制动盘除油装置
+CN
+20.02.2013
+F16N 31/02 Loading...
+F16N 31/02
+Loading...
+201220301117.X
+华锐风电科技（集团）股份有限公司
+谭贤顺
+F16N 31/02
+Loading...
+本实用新型提供了一种风机偏航制动盘除油装置，包括：立柱，所述立柱的顶端与风电机组主机的底部固定连接，用于随风电机组主机同步转动，所述立柱中部的径向方向上开设有通孔，所述通孔中穿过一横杆，所述横杆与水平穿过所述立柱并与所述横杆垂直设置的销轴枢接，所述横杆能够绕所述销轴转动；所述横杆的另一端铰接有水平方向的刮板，所述刮板的下表面与偏航制动盘的上表面接触。该风机偏航制动盘除油装置通过设置于偏航制动盘上表面的刮板，随着风电机组主机相对于偏航制动盘运动实现对偏航制动盘的自动除油，解决了现有风机偏航制动盘油脂清理困难，影响系统工作效率及给机组带来安全隐患的问题。
+103. 202740964 盐雾分离装置及风力发电机组
+CN
+20.02.2013
+B01D 50/00 Loading...
+B01D 50/00
+Loading...
+201220307560.8
+华锐风电科技（集团）股份有限公司
+黄强
+B01D 50/00
+Loading...
+本实用新型提供一种盐雾分离装置及风力发电机组，所述盐雾分离装置包括盐雾分离器、过滤系统和轴流风机，所述盐雾分离器出口与过滤系统入口导通且采用紧固件固定；所述轴流风机入口固定在过滤系统出口一侧，并与过滤系统出口导通；所述盐雾分离器中设置有多片相互平行的叶片，所述叶片沿水平方向的剖线为波浪线，所述波浪线自盐雾分离器入口向盐雾分离器出口方向延伸。本实用新型还公开了一种采用上述盐雾分离装置的风力发电机组。本实用新型结构简单、合理、紧凑，可实现快速、有效的分离盐雾。
+104. 202749835 风力发电机组的中压并网设备
+CN
+20.02.2013
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201220303982.8
+华锐风电科技（集团）股份有限公司
+杨松
+H02J 3/38
+Loading...
+本实用新型提供一种风力发电机组的中压并网设备，包括：将风能转换成电能的风力发电机；将风力发电机输出的中压电能转换成高压电能的主变压器；以及连接在所述风力发电机与主变压器之间中压开关柜；其中，所述中压开关柜具有连接所述风力发电机的中压接触器，用于进行将风力发电机输出的中压电能传输给主变压器的分合闸操作。由于本实用新型进行并网操作的中压接触器的机械寿命和电气寿命远远超过断路器，可以适应频繁并网投切操作，从而规避了现有的断路器并网的缺点，满足了风机20年的使用寿命。
+105. 202746561 一种风机齿轮箱的换油装置
+CN
+20.02.2013
+F16H 57/04 Loading...
+F16H 57/04
+Loading...
+201220336288.6
+华锐风电科技（集团）股份有限公司
+宿新红
+F16H 57/04
+Loading...
+本实用新型提供一种风机齿轮箱的换油装置，包括排油装置和充油装置，排油装置和充油装置设置在承载平台上，其中：排油装置包括废油油箱和排油油泵，废油油箱上设置有与齿轮箱连接的排油管，排油油泵设置在排油管上，排油油泵连接有第一驱动电机；充油装置包括新油油箱和充油油泵，新油油箱上设置有与齿轮箱连接的充油管，充油油泵设置在充油管上，充油油泵连接有第二驱动电机。本实用新型通过排油装置和充油装置替代人工换油方式完成风机齿轮箱的换油工作，从而降低了风机齿轮箱的换油成本，并利用排油管对齿轮箱内的旧油进行排出后，再利用充油管向齿轮箱内注入新油，从而实现了风机齿轮箱的封闭换油，有效避免了风机齿轮箱换油时油污染的问题。
+106. 202749836 一种双馈风力发电系统的低压穿越装置
+CN
+20.02.2013
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201220337033.1
+华锐风电科技（集团）股份有限公司
+黄玉龙
+H02J 3/38
+Loading...
+本实用新型公开了一种双馈风力发电系统的低压穿越装置，包括：用于向双馈风力发电系统提供电能的不间断电源UPS；输入端串接在电网和双馈风力发电系统网侧滤波器之间的能量储存装置；连接所述能量储存装置的输出端以便向所述UPS提供电能的交直变换器；连接所述能量储存装置输出端的旁路开关；以及连接所述旁路开关以便控制所述旁路开关通断的开关控制装置。本实用新型能够在电网电压跌落时，保证双馈风力发电系统中变频器的安全和双馈风力发电机组不脱网运行，实现了双馈风力发电系统的低电压穿越功能。
+107. 202748640 一种便携式风力发电场噪声测试数据采集系统
+CN
+20.02.2013
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201220219194.0
+华锐风电科技（集团）股份有限公司
+蒋杏国
+G05B 19/418
+Loading...
+本实用新型公开了一种便携式风力发电场噪声测试数据采集系统，涉及风力发电领域，所述系统包括：分别对声学信号和气象信号进行低通滤波的滤波装置；连接滤波装置一个输出端的气象数据采集装置，用来对经过低通滤波的气象信号进行气象数据采集；连接滤波装置另一输出端的声学数据采集装置，用来对经过低通滤波的声学信号进行声学数据采集；分别连接滤波装置、气象数据采集装置和声学数据采集装置的控制及数据传送装置，用于控制所述滤波装置、气象数据采集装置和声学数据采集装置进行相应操作，并向外传送已采集的气象数据和声学数据。本实用新型解决了现有数据采集系统体积过大，在位置偏僻的风电场所中搬运起来耗费人力、物力和财力的问题。
+108. 202744191 一种变桨轴承用吊具
+CN
+20.02.2013
+B66C 1/62 Loading...
+B66C 1/62
+Loading...
+201220263693.X
+华锐风电科技（集团）股份有限公司
+刘鹏
+B66C 1/62
+Loading...
+本实用新型公开了一种变桨轴承用吊具，其特征在于包括：第一面板（1）；用来插入变桨轴承（5）光孔内的支撑杆（2），其一端固定在第一面板（1）上；固定在第一面板（1）上的吊装板（3），与第一面板（1）形成大于零度小于180度的夹角，吊装板（3）上对应所述支撑杆（2）的另一端设置有吊装部（31a）；其中，吊装板（3）与支撑杆（2）位于第一面板（1）的同侧。能够将变桨轴承由平放状态翻转至竖立状态，并可保证变桨轴承与轮毂无间隙贴合。
+109. 202749881 一种用于风场机组调试的电池供电设备
+CN
+20.02.2013
+H02J 7/02 Loading...
+H02J 7/02
+Loading...
+201220266308.7
+华锐风电科技（集团）股份有限公司
+陈党慧
+H02J 7/02
+Loading...
+本实用新型是一种用于风场机组并网调试的电池供电设备，包括：可移动的车厢；安装在车厢中的电池柜；连接所述电池柜的充放电控制柜。其充放电控制柜包括：对交流电进行整流的整流桥；连接所述整流桥将直流电变换成交流电的逆变桥；连接所述整流桥和逆变桥的充放电控制回路。由于本实用新型的电池柜和充放电控制柜安装在机动性好的车厢上，因而可以在任何时间和任何地点满足吊装好的风力发电机组的调试需要。
+110. 202746114 风电机组叶片锁紧装置
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220301371.X
+华锐风电科技（集团）股份有限公司
+李志涛
+F03D 11/00
+Loading...
+本实用新型提供一种风电机组叶片锁紧装置，包括底座、卡齿板和螺栓，底座包括两两间隔设定距离、且平行顺次设置的第一板、第二板和第三板，第一板和第二板上分别设置有两个以上通孔，第一板上的通孔分别与第二板上的通孔相对应，第二板上的通孔设置有与螺栓相配合的内螺纹，第一板上的通孔为光孔，所述第一板的位置对应于变桨轴承内齿轮圈的范围内；卡齿板的一边上设置有齿，卡齿板的齿与轴承内齿圈的齿啮合，卡齿板上还设置有两个以上腰形孔，腰形孔的中心分别与第一板上的通孔相对应。本实用新型结构合理、紧凑，克服了现有技术的诸多缺点，实现安全可靠、简单易行的锁紧风电机组叶片。
+111. 202746117 风力发电机组用机舱罩支撑板及机舱罩系统
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220338318.7
+华锐风电科技（集团）股份有限公司
+陈明
+F03D 11/00
+Loading...
+本实用新型提供一种风力发电机组用机舱罩支撑板及机舱罩系统，其中风力发电机组用机舱罩支撑板包括两个间隔设置的U形金属板，所述两个U形金属板的两个侧壁外分别固接有一条形复合材料板，两个所述条形复合材料板平行设置；其中，至少一个所述条形复合材料板位于两个U形金属板之间部分的内侧面和/或外侧面上设置有凹槽。本实用新型可改善应力分布，优化机械性能。
+112. 202749184 大功率风电整机试验台变压器预充磁装置
+CN
+20.02.2013
+H01F 13/00 Loading...
+H01F 13/00
+Loading...
+201220305666.4
+华锐风电科技（集团）股份有限公司
+荆海斌
+H01F 13/00
+Loading...
+本实用新型是一种大功率风电整机试验台变压器预充磁装置，涉及风力发电测试技术领域，所述装置包括：设置在被充磁变压器T2、T3之内的预充磁绕组1、2；连接在所述被充磁变压器T2和T3与并网变压器T1之间的并网开关Q2和Q3；连接在所述预充磁绕组1和2与充磁电源之间的充磁接触器KM1和KM2。本实用新型提供一种将预充磁绕组内置于变压器内部，对变压器投入电网前进行预充磁，有效地抑制励磁涌流，降低并网柜频繁跳闸和合不上闸的情况。
+113. 202746401 具有调心功能的轴承座和主轴系统
+CN
+20.02.2013
+F16C 23/06 Loading...
+F16C 23/06
+Loading...
+201220319245.7
+华锐风电科技（集团）股份有限公司
+张成
+F16C 23/06
+Loading...
+本实用新型公开了一种具有调心功能的轴承座，其包括：轴承座本体，一端设有沿相反方向向外伸展的一对支柱，所述的支柱的轴线与轴承座本体轴线垂直；套设于支柱上的轴套；用于支撑轴套的第一支座，该第一支座与用于安装轴承座本体的机架可拆卸连接；其中，支柱与轴套和/或轴套与第一支座之间为间隙连接，使得支柱能相对于第一支座做微小的转动。本实用新型的具有调心功能的轴承座，其结构简单，使用方便，具有调心功能。本实用新型还公开了一种主轴系统，其具有主轴和支撑主轴的轴承装置，其中轴承装置包括轴承和上述的具有调心功能的轴承座。该主轴系统承载能力强，轴承的选用范围大、使用寿命长、采购成本低。
+114. 202749097 大型实验车间用闭式循环水冷却系统
+CN
+20.02.2013
+G12B 15/02 Loading...
+G12B 15/02
+Loading...
+201220369588.4
+华锐风电科技集团(上海)有限公司
+毛俊杰
+G12B 15/02
+Loading...
+本实用新型提供一种大型实验车间用闭式循环水冷却系统，包括顺次连通的软化补水装置、储水装置、待冷却设备、冷却装置以及监控各个设备运行状态的控制装置，其中，冷却装置包括数个冷却塔，从所述冷却塔流出的水经过流出管路再流回所述储水装置，其中，每个所述冷却塔的入口管路上设置有第一电动阀，所述第一电动阀与所述控制装置电性连接，用于开启或关闭水流入该冷却塔的通道。上述技术方案提供的闭式循环水冷却系统，设置第一电动阀后，当某个冷却塔出现故障时，可以关闭水流向该冷却塔的通路，以进行检修作业，而不会影响其他冷却塔的工作，这样无需停止实验，从而降低了实验的时间成本和经济成本。
+115. 202742249 风电机组压主轴工装
+CN
+20.02.2013
+B25B 11/00 Loading...
+B25B 11/00
+Loading...
+201220402354.5
+华锐风电科技（集团）股份有限公司
+关雪松
+B25B 11/00
+Loading...
+本实用新型公开了一种风电机组压主轴工装，其包括：套设在主轴上并将其固定的支撑座；设于支撑座两端的调节装置，其将固定主轴后的支撑座固定在风电机组主机架的机架臂翻边上。其中，支撑座包括上支撑座和下支撑座，对应连接后的上支撑座与下支撑座之间形成安置主轴的空腔，且对应连接后上支撑座两端的第一耳板与下支撑座两端的第二耳板将风电机组主机架的机架臂翻边夹在中间；而调节装置为多个调整螺栓，其穿过设置在第一耳板上的螺纹孔，将上支撑座固定在风电机组主机架的机架臂翻边上。本实用新型的风电机组压主轴工装在拆除齿轮箱后，可将主轴固定，其结构简单，安装、使用方便。
+116. 202746491 平行轴齿轮传动装置
+CN
+20.02.2013
+F16H 1/08 Loading...
+F16H 1/08
+Loading...
+201220402996.5
+华锐风电科技（集团）股份有限公司
+彭作明
+F16H 1/08
+Loading...
+本实用新型公开了一种平行轴齿轮传动装置，其包括：由多个支撑架模块连接在一起组成的内部具有空腔的齿轮支撑架；安置在齿轮支撑架空腔内的大齿圈轮辐，其两端的第一伸出轴架设在齿轮支撑架上；安装在每个第一伸出轴与齿轮支撑架间支撑大齿圈轮辐的大齿圈支撑轴承；套设在大齿圈轮辐的外圆表面并与大齿圈轮辐可拆卸连接的大齿圈；其上的轮齿与所述大齿圈的轮齿啮合连接的小齿轮轴，其两端的第二伸出轴架设在齿轮支撑架上；安装在每个第二伸出轴与齿轮支撑架间支撑小齿轮轴的小齿轮支撑轴承。本实用新型的平行轴齿轮传动装置中，齿轮支撑架和大齿圈采用模块化的结构，因此安装、使用、维护方便，适用于风电机组的传动系统中。
+117. 202742359 叶片翻转装置
+CN
+20.02.2013
+B25H 1/10 Loading...
+B25H 1/10
+Loading...
+201220320500.X
+华锐风电科技（集团）股份有限公司
+朱兵
+B25H 1/10
+Loading...
+本实用新型提供一种叶片翻转装置，包括：支撑架、两个支撑轮支座、两个支撑轮、叶片支撑箍和驱动系统，所述支撑架上固定有两个支撑轮支座，两个所述支撑轮支座上分别铰接有支撑轮，两个所述支撑轮旋转轴平行；所述支撑轮外环上设置有环其一周的凹陷；所述叶片支撑箍为与两个支撑轮配合并能在两个支撑轮的带动下转动的圆环结构，所述圆环结构的外环上设置有与支撑轮外环上凹陷相配合的环其一周的凸起；所述驱动系统与两个支撑轮连接，用于驱动两个支撑轮同步旋转。本实用新型结构简单、合理、紧凑，克服了现有技术的诸多缺点，实现了快速、节能、安全的翻转叶片。
+118. 202746093 风力发电机组的噪声控制设备
+CN
+20.02.2013
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201220303985.1
+华锐风电科技（集团）股份有限公司
+徐芳
+F03D 7/00
+Loading...
+本实用新型是一种风力发电机组的噪声控制设备，涉及风力发电领域，所述控制设备包括：风力发电机组；布置在风力发电机组周围用来检测其噪声的噪声检测装置；连接在所述噪声检测装置与所述风力发电机组之间的控制系统，所述控制系统通过比较噪声检测装置检测的噪声值与预置的噪声阈值，控制风力发电机组转速来控制风力发电机组的噪声。本实用新型提出建立风电机组与测试设备之间的通讯，通过对噪声数据进行必要的处理和分析，实现调整叶轮转速，以达到风电机组在特殊环境要求下满足噪声指标的目的。
+119. 202746590 风力发电机组的机舱罩密封结构
+CN
+20.02.2013
+F16J 15/16 Loading...
+F16J 15/16
+Loading...
+201220318885.6
+华锐风电科技（集团）股份有限公司
+路计庄
+F16J 15/16
+Loading...
+本实用新型公开了一种风力发电机组的机舱罩密封结构，其具有用来密封机舱罩与塔筒之间缝隙的多个密封毛刷；机舱罩或塔筒的一端设有密封槽；每个密封毛刷的一端安装于塔筒或机舱罩上；以及每个密封毛刷另一端上的密封毛刷体伸入机舱罩或塔筒上的密封槽里。本实用新型的密封结构，解决了相邻密封毛刷间的间隙较大、机舱罩与塔筒间密封效果差的问题，减少了机组的维护工作量，增加了机组的工作可靠性。
+120. 202748486 风力发电机组噪声测试中的气象信号测量系统
+CN
+20.02.2013
+G01W 1/02 Loading...
+G01W 1/02
+Loading...
+201220366167.6
+华锐风电科技集团(上海)有限公司
+蒋杏国
+G01W 1/02
+Loading...
+本实用新型提供一种风力发电机组噪声测试中的气象信号测量系统。该系统包括气象信号测量装置，用于采集气象信号，并将所述气象信号以无线传输方式发送出去；气象信号采集装置，与所述气象信号测量装置无线连接，用于接收所述气象信号。本实用新型技术方案可在气象信号测量过程中，对气象信号进行无线传输，可有效提高风力发电机组噪声测试中气象系统安装的便利性，提高噪声测试的效率。
+121. 202746118 风电机组用机械式强制冷却系统及风电机组
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220364481.0
+华锐风电科技集团（上海）有限公司
+金宝年
+F03D 11/00
+Loading...
+本实用新型公开了一种风电机组用机械式强制冷却系统，其包括：与发电机相对设置的水空散热器；连接在变频柜换热器和发电机换热器与所述水空散热器之间的冷却介质循环系统；面向水空散热器设置并与发电机转轴连接的扇叶。本实用新型还公开了一种具有上述机械式强制冷却系统的风电机组。本实用新型的风电机组用机械式强制冷却系统，无须增加驱动电机，减少了机组的维护工作量，并可提供恒定的风速，提高了机组运行的稳定性和可靠性。
+122. 202746116 叶轮
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220303701.9
+华锐风电科技（集团）股份有限公司
+马波
+F03D 11/00
+Loading...
+本实用新型提供一种叶轮，包括轮毂体、端盖、叶片、变桨轴承、变桨电机和齿轮箱，端盖安装在轮毂体的顶孔上，变桨轴承由内圈和外圈构成，叶片与内圈固定连接，内圈上设置有至少一个螺纹销轴，螺纹销轴用于与轮毂体上销孔配合将叶片和内圈固定；外圈通过法兰固定在轮毂体上，变桨电机固定在轮毂体上，用于驱动齿轮箱上的齿轮转动，齿轮箱上的齿轮与内圈上的齿轮啮合。该叶轮通过设计无叶轮罩结构和设置了螺纹销轴和相应的销轴孔为叶片固定装置，此叶片固定装置结构简单，大大降低了叶轮的重量，有利于叶轮的运输和组装。
+123. 202748391 负载箱及风机调试系统
+CN
+20.02.2013
+G01R 1/28 Loading...
+G01R 1/28
+Loading...
+201220318689.9
+华锐风电科技（集团）股份有限公司
+刘小勇
+G01R 1/28
+Loading...
+本实用新型公开了一种负载箱及风机调试系统，该负载箱包括外壳和设在该外壳内的多个功率档电阻，每个所述功率档电阻均串联有一个接触器形成一个功率电阻支路，各所述功率电阻支路均并联，外壳上设有控制器，所述控制器设有用于通信连接待调试风机控制器的输入端和用于根据输入端获取的信号计算出每个接触器开关状态的输出端，该输出端分别连接各接触器。本实用新型通过控制器控制负载箱功率档的接触器来调节负载箱的功率吸收，使得负载箱消耗的功率跟随待调试风机发出的功率，一方面能减少或消除待调试风机向电网系统中注入的功率，另一方面当负载箱吸收功率大于待调试风机发出的功率时，能减少负载箱从电网吸收的功率，使得调试成本降到最低。
+124. 202749789 防雷装置、风力发电机组叶片组件及风力发电机组
+CN
+20.02.2013
+H02G 13/00 Loading...
+H02G 13/00
+Loading...
+201220161172.3
+华锐风电科技（集团）股份有限公司
+王海军
+H02G 13/00
+Loading...
+本实用新型提供一种防雷装置、风力发电机组叶片组件及风力发电机组，其中防雷装置包括：导电片，呈弧形，数量为数段，各段所述导电片连接，形成与叶片的前缘弧度相匹配的形状，所述导电片沿所述叶片的前缘延伸至通过叶根接地；接闪器，用于固定在所述叶片的叶尖上，所述接闪器与所述导电片导电连接。上述技术方案提供的防雷装置，制作工艺简便，无需在叶片内部设置连接导线，所以在使用过程中，便于更换出现故障的导电片，且可有效将雷击电流通过传导给大地，防雷效果可靠。
+125. 202746113 一种海上风力发电机组的冷却装置
+CN
+20.02.2013
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220266530.7
+华锐风电科技（集团）股份有限公司
+高山岳
+F03D 11/00
+Loading...
+本实用新型公开了一种海上风力发电机组的冷却装置，其特征在于包括：安装在海平面以下的防冻液储存器（1）；用来将防冻液提取至风力发电机组中以便冷却风力发电机组的提取装置（2），与防冻液储存器的出口（1a）连接；用来将防冻液回收至防冻液储存器（1）中的回收装置（3），连接在风力发电机组与防冻液储存器（1）的进口（1b）之间。该冷却装置防冻液储存器安置在海平面以下以便冷却，冷却效果好，循环周期短，成本低。
+126. 202742368 一种车间用吊具放置装置
+CN
+20.02.2013
+B25H 5/00 Loading...
+B25H 5/00
+Loading...
+201220262149.3
+华锐风电科技（集团）股份有限公司
+刘鹏
+B25H 5/00
+Loading...
+本实用新型公开了一种车间用吊具放置装置，其特征在于包括：底座（1）；安装在底座（1）上的支架（2）；固定在支架（2）的多个用来安置吊具的吊具安置部；以及安装在底座（1）底部的车轮（4）。本实用新型的车间用吊具放置装置能够实现吊具的统一放置和管理。
+127. 202746101 一种便于维护的风力发电机组
+CN
+20.02.2013
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220343988.8
+华锐风电科技（集团）股份有限公司
+刘文广
+F03D 9/00
+Loading...
+本实用新型公开了一种便于维护的风力发电机组，包括叶轮和机舱，叶轮的轮毂（1）与机舱内的主轴（21）连接，其特征在于，所述主轴（2）的侧壁上设置有供人进入主轴（2）内部并由主轴进入所述轮毂（1）内部的人孔（201）。使得人员能够非常方便、安全地进入轮毂内部，结构设计简单。
+128. 202746020 风力发电机组传动链
+CN
+20.02.2013
+F02D 11/02 Loading...
+F02D 11/02
+Loading...
+201220292860.3
+华锐风电科技（集团）股份有限公司
+刘文广
+F02D 11/02
+Loading...
+本实用新型提供一种风力发电机组传动链。该传动链包括轮毂、主轴、主轴承、轴承安装座、主机架、齿轮箱和发电机；所述主轴承包括前主轴承和后主轴承，所述主轴承的内外圈分别与所述主轴和所述轴承安装座连接；所述轴承安装座安装在所述主机架上，所述主轴的前端法兰与所述轮毂连接，后端法兰与所述齿轮箱的低速端连接，所述齿轮箱的高速端通过联轴器与所述发电机连接。通过合理的传动链设计，有效的降低了机组部件大小和受力状况，进而降低了机组重量及运输和吊装的难度。
+129. 202744244 一种风力发电机轮毂内变桨齿轮箱更换装置
+CN
+20.02.2013
+B66C 25/00 Loading...
+B66C 25/00
+Loading...
+201220347140.2
+华锐风电科技（集团）股份有限公司
+王晓辉
+B66C 25/00
+Loading...
+本实用新型公开了一种风力发电机轮毂内变桨齿轮箱更换装置，其特征在于包括：安装在地面的卷扬机（5）；安装在所述轮毂（1）内的换向轮；一端缠绕在卷扬机（5）上，另一端绕过换向轮的钢丝绳（7）；以及固定在所述钢丝绳的所述另一端用来连接所述变桨齿轮箱（4）的连接装置（6）。该风力发电机轮毂内变桨齿轮箱更换装置能够对轮毂内变桨齿轮箱进行快速更换，结构设计简单，方便适用。
+130. 202746548 传动机构及风力发电机组
+CN
+20.02.2013
+F16H 57/02 Loading...
+F16H 57/02
+Loading...
+201220417098.7
+华锐风电科技（集团）股份有限公司
+万保库
+F16H 57/02
+Loading...
+本实用新型提供一种传动机构及风力发电机组，其中，传动机构，包括机架、齿轮箱和主轴，所述齿轮箱的箱体与所述机架弹性连接；所述齿轮箱的输入轴与所述主轴补偿式连接。上述技术方案提供的传动机构，齿轮箱不再采用输入轴悬挂的支撑方式，而是采用箱体悬挂支撑的方式，即齿轮箱的箱体直接与机架连接。虽然齿轮箱还是悬臂梁式的支撑，但箱体的直径比输入轴大的多，刚度自然大得多。所以，上述传动机构可以提高齿轮箱的支撑刚度，减小齿轮箱自重引起的箱体变形，减小齿轮的承载不均，避免齿轮的啮合问题，提高齿轮箱的使用寿命和可靠性。
+131. 202748417 风力发电机组中变频器的参数监控系统
+CN
+20.02.2013
+G01R 31/00 Loading...
+G01R 31/00
+Loading...
+201220334811.1
+华锐风电科技（集团）股份有限公司
+杨静
+G01R 31/00
+Loading...
+本实用新型公开了一种风力发电机组中变频器的参数监控系统，所述系统包括：位于变频器内的下位机DSP，用于采集变频器相关参数数据；通过CAN总线连接所述下位机DSP的上位机参数监控装置，用于根据所述变频器相关参数数据监控变频器的运行状态。本实用新型可以实现快速多通道远距离数据传输，在高采样频率下，能够准确实时绘制变频器参数的多条曲线，记录数据，捕获和保存参数的感兴趣状态；并且能够对变频器各个故障状态进行监控和反馈，达到实时监控的目的。
+132. 202749136 电缆及其固定装置
+CN
+20.02.2013
+H01B 9/00 Loading...
+H01B 9/00
+Loading...
+201220364802.7
+华锐风电科技集团（上海）有限公司
+刘作辉
+H01B 9/00
+Loading...
+本实用新型公开了一种电缆，其包括：若干导线和设置在导线周围的电缆外皮；在电缆外皮沿导线长度方向延伸的外表面上安装有间隔分布的若干锯齿。本实用新型的电缆由于具有锯齿而减少了电缆在使用过程中因外皮磨损而产生的安全隐患。本实用新型还公开了一种上述电缆的固定装置，其包括：第一半管夹和第二半管夹，且所述第一半管夹和第二半管夹通过多个螺栓连接形成一个完整的管夹；分别设于所述第一半管夹和第二半管夹相对端面中心的半通孔，对接后形成管夹通孔，该管夹通孔内壁设有与所述锯齿相配合的管夹锯齿。该电缆固定装置结构简单，吊挂方式灵活，方便使用。
+133. 102928644 风力发电机组并网点电压闪变检测方法及装置
+CN
+13.02.2013
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201210392477.X
+华锐风电科技（集团）股份有限公司
+王沛然
+G01R 19/00
+Loading...
+本发明提供的风力发电机组并网点电压闪变检测方法及装置，将对单台风机输出端进行采样得到的三相电流信号和三相电压信号进行分离和组合，得到三路单相信号；将三路单相信号分别输入虚拟电网数值模型和虚拟电网电路模型，虚拟电网数值模型根据虚拟电网模拟相电压瞬时值表达式构建，虚拟电网电路模型根据虚拟电网相图构建，在该相图中电流源的两端并入并联电阻R；测量虚拟电网数值模型PCC点基准电压us和虚拟电网电路模型中PCC点电压ud；测量PCC点基准电压us的闪变值pst1和PCC点电压ud的闪变值pst2；根据闪变值pst1和闪变值pst2，得到PCC点电压ud的闪变精度值；根据闪变精度值调整R的阻值，使闪变精度值在预设的精度范围内，从而可提高电压闪变的测量精度。
+134. 102913611 偏航轴承齿面润滑控制方法、装置及偏航轴承润滑系统
+CN
+06.02.2013
+F16H 57/04 Loading...
+F16H 57/04
+Loading...
+201110222415.X
+华锐风电科技（集团）股份有限公司
+李磊
+F16H 57/04
+Loading...
+本发明提供一种偏航轴承齿面润滑控制方法、装置及偏航轴承润滑系统，该方法包括根据风向分布概率，生成各目标区域对应的润滑因子；根据各目标区域对应的润滑因子，生成各目标区域对应的齿面润滑油脂量；根据各目标区域对应的齿面润滑油脂量，生成齿面润滑油脂控制信号。该装置包括润滑因子生成模块、齿面润滑油脂量生成模块和齿面控制信号生成模块。本发明提供的偏航轴承齿面润滑控制方法、装置及偏航轴承润滑系统，实现了对偏航轴承的齿面的实时润滑的控制，对偏航轴承的齿面的待润滑区域的不同目标区域添加对应量的润滑油脂，提高了对偏航轴承齿面的润滑效果，提高了偏航系统的使用寿命，避免了润滑油脂的浪费。
+135. 102913731 偏航轴承滑道润滑控制方法、装置及偏航轴承润滑系统
+CN
+06.02.2013
+F16N 7/38 Loading...
+F16N 7/38
+Loading...
+201110222414.5
+华锐风电科技（集团）股份有限公司
+李磊
+F16N 7/38
+Loading...
+本发明提供一种偏航轴承滑道润滑控制方法、装置及偏航轴承润滑系统，该方法包括：获取偏航轴承的当前摩擦力矩，根据当前摩擦力矩，生成当前摩擦因子；根据预期摩擦因子和当前摩擦因子，生成滑道润滑油脂量；根据滑道润滑油脂量，生成滑道润滑油脂控制信号。该装置包括当前摩擦因子生成模块、滑道润滑油脂量生成模块和滑道控制信号生成模块。本发明提供的偏航轴承滑道润滑控制方法、装置及偏航轴承润滑系统，对于磨损程度不同的偏航轴承的滑道所添加的润滑油脂的量也不同，提高了对偏航轴承滑道的润滑效果，提高了偏航系统的使用寿命，避免了润滑油脂的浪费。
+136. 102880907 Method and device for correcting wind speed
+CN
+16.01.2013
+G06N 3/08 Loading...
+G06N 3/08
+Loading...
+201210305466.3
+华锐风电科技（集团）股份有限公司
+朴金姬
+G06N 3/08
+Loading...
+The invention provides a method and a device for correcting wind speed. The method comprises the following steps of: acquiring weather prognosis data within a preset time by using a numerical weather prediction (NWP) model, dividing the weather prognosis data into training data and test data, training a feed-forward back-propagation (BP) neural network model to meet a preset accuracy requirement according to the training data and actual wind speed data within the preset time, and inputting the test data to the BP neural network model to acquire a corrected wind speed value. By the method and the device for correcting the wind speed, the accuracy of the wind speed can be improved.
+137. 202597344 法兰及风力发电机组
+CN
+12.12.2012
+F16B 1/00 Loading...
+F16B 1/00
+Loading...
+201220201620.8
+华锐风电科技（集团）股份有限公司
+李都宁
+F16B 1/00
+Loading...
+本实用新型提供一种法兰及风力发电机组。所述法兰包括螺栓安装段和焊接段，所述焊接段靠近法兰圆心的一侧为内侧面，远离法兰圆心的一侧为外侧面，所述焊接段的内侧面和/或外侧面为斜面或圆弧面。本实用新型还提供了一种风力发电机组，装备有上述法兰，法兰用于连接主机架与风电塔筒。本实用新型法兰结构简单、合理，克服了现有法兰焊接面易出现裂纹，导致无法满足工作强度的缺陷，通过内侧面和/或外侧面为斜面或圆弧面的设计，可以有效减少法兰焊接面的应力集中，使法兰的疲劳强度显著提高，进而提高了其使用寿命。
+138. 202594651 风力发电机组维修吊车
+CN
+12.12.2012
+B66C 17/06 Loading...
+B66C 17/06
+Loading...
+201220168965.8
+华锐风电科技（集团）股份有限公司
+王敬芝
+B66C 17/06
+Loading...
+本实用新型提供一种风力发电机组维修吊车，其中，包括：平行设置的端梁，端梁上均设置有能带动端梁沿机舱顶部支撑框架移动的滚轮；主梁，设置在平行的端梁之间，两端与端梁固定连接；能沿主梁的轴向移动的小车，固定设置在主梁上；提升机，固定设置在小车的下端。本实用新型提供的风力发电机组维修吊车通过在端梁上设置滚轮，使滚轮能够沿着机舱顶部支撑框架移动，从而带动主梁上的提升机沿支撑框架移动，通过在主梁上设置小车，使小车能带动提升机沿主梁的轴向移动，从而实现了提升机能根据故障件的位置灵活移动，减小了工人的劳动强度，提高了工作效率。
+139. 202602291 风力发电机组滤波电路及发电系统
+CN
+12.12.2012
+H02J 3/01 Loading...
+H02J 3/01
+Loading...
+201220208422.4
+华锐风电科技（集团）股份有限公司
+徐芳
+H02J 3/01
+Loading...
+本实用新型提供一种风力发电机组滤波电路及发电系统，该滤波电路包括相互串接的第一滤波单元和第二滤波单元，其中第一滤波单元由第一电容器、第一电感器和第一电阻器串联而成；第二滤波单元由第二电感器和第二电阻器串联后与第二电容器并联而成，第二电阻器、第一电容器、第二电容器，第一电感器和第二电感器的取值满足如下条件：R2<1；本实用新型提供的风力发电机组滤波电路及发电系统利用第一滤波单元和第二滤波单元形成两个谐振频率来吸收对电网波动影响较大的两处谐波，有效的改善了电压的波动和闪变现象，提高了并网发电的电能质量。
+140. 202602428 安全罩及具有该安全罩的双馈风力发电机组
+CN
+12.12.2012
+H02K 5/00 Loading...
+H02K 5/00
+Loading...
+201220214535.5
+华锐风电科技（集团）股份有限公司
+袁世鹏
+H02K 5/00
+Loading...
+本实用新型提供了一种安全罩及具有该安全罩的双馈风力发电机组。该安全罩包括罩体（1）和罩盖（2），所述罩盖（2）包括：固定罩盖（21），固定设置于所述罩体（1）上；移动罩盖（22），所述移动罩盖（22）相对于所述罩体（1）可移动且在移动方向上具有两个以上的固定位置。根据本实用新型的安全罩，可以减少维护的时间和人力，提高工作效率，对安全罩的防护功能不会产生不利影响。进一步地，可以使安全罩避免由于安全罩内部设备的尺寸差异和加工误差，传动链整体的装配误差等带来的不易安装等问题。
+141. 202596966 机舱罩
+CN
+12.12.2012
+F03B 11/00 Loading...
+F03B 11/00
+Loading...
+201220196730.X
+华锐风电科技（集团）股份有限公司
+陈明
+F03B 11/00
+Loading...
+本实用新型提供一种机舱罩，包括由壁板围成的矩形腔体，壁板上设置有凸起和/或凹陷结构。凸起和/或凹陷的形状、大小和所在区域根据机舱罩尺寸决定。本实用新型结构简单、合理，克服了现有技术的诸多问题，实现了以下几方面优点：机舱罩壁板上分布的凸起和/或凹陷，可以在不增加机舱罩重量的情况下，加强机舱罩的工作强度；机舱罩在相同载荷下，变形较小，可以有效减小机舱罩在风载及人载下的变形，增加机舱罩整体机械性能，提高机舱罩的安全系数；凸起和/或凹陷选用部分艺术曲线样式的形貌结构，也可以增加机舱罩的美观性，突出机组的差异性和可识别度。
+142. 202597633 功率分流差动轮系齿轮箱
+CN
+12.12.2012
+F16H 48/11 Loading...
+F16H 48/11
+Loading...
+201220160530.9
+华锐风电科技（集团）股份有限公司
+郑远韬
+F16H 48/11
+Loading...
+本实用新型提供一种功率分流差动轮系齿轮箱，包括：齿轮箱体；第一级内齿圈，固定连接于齿轮箱体内；驱动轴，与第一级内齿圈同轴设置，驱动轴上顺次止旋穿装有第一级行星架和第二级行星架；第一级行星轮，与第一级行星架边缘的转动轴转动连接，且与第一级内齿圈啮合；第二级行星轮，与第二级行星架边缘的转动轴转动连接；过渡齿轮，包括同轴且相互固定连接的外齿圈和第二级内齿圈，外齿圈与第一级行星轮啮合，第二级内齿圈与第二级行星轮啮合；太阳轮，与驱动轴同轴设置，且与第二级行星轮啮合。上述方案的功率分流差动轮系齿轮箱体积较小，重量较轻，具有较高的功率密度，降低了对机舱内空间的占用量。
+143. 202602261 一种风力发电机组电控柜内的闪弧保护装置
+CN
+12.12.2012
+H02H 7/22 Loading...
+H02H 7/22
+Loading...
+201220276722.6
+华锐风电科技（集团）股份有限公司
+汪晓
+H02H 7/22
+Loading...
+本实用新型公开了一种风力发电机组电控柜内的闪弧保护装置，包括：安装在风力发电机组电控柜内用来检测柜内弧光的多个弧光传感器；分别连接所述多个弧光传感器的弧闪控制单元，用于根据任何一个弧光传感器检测到的弧光信号，发出切断主回路电源或者一个支路电源的控制信号；连接所述弧闪控制单元的跳闸线圈，用于根据所述控制信号，切断主回路电源或者支路电源的供应。本实用新型能够减小或消除电弧火花对电控柜内的电气器件及电缆的损坏，同时也避免了因电弧造成的人员伤害，以及风力发电机组内大面积火灾的发生。
+144. 202597411 钢丝螺套组件、叶片及风力发电机组
+CN
+12.12.2012
+F16B 37/12 Loading...
+F16B 37/12
+Loading...
+201220221769.2
+华锐风电科技（集团）股份有限公司
+贾海涛
+F16B 37/12
+Loading...
+本实用新型提供一种钢丝螺套组件、叶片及风力发电机组，其中钢丝螺套组件包括：钢丝螺套，具有内螺纹孔；缠绕层，为柔性材质，所述缠绕层紧密缠绕在所述螺纹本体外侧。上述技术方案提供的钢丝螺套组件、叶片及风力发电机组，在满足叶根设计强度、刚度和承载能力的情况下，可以减轻叶根部的附加质量，同时能够减小叶根直径和叶根的厚度。
+145. 202597531 一种具有扭矩限制的连接装置
+CN
+12.12.2012
+F16D 7/02 Loading...
+F16D 7/02
+Loading...
+201220227184.1
+华锐风电科技（集团）股份有限公司
+张成
+F16D 7/02
+Loading...
+本实用新型公开了一种具有扭矩限制的连接装置，其特征在于，设置在相互套装的第一转动部件（1a）与第二转动部件（1b）之间，包括：套装在第一转动部件（1a）外部的隔圈（2）；用来胀紧第二转动部件（1b）和挤压隔圈（2）的胀紧装置（3），套装在第二转动部件（1b）内部，位于隔圈（2）与第二转动部件（1b）之间。该连接装置可以实现在短时间扭矩超过限定值时，自动断开发电机；扭矩恢复正常后，连接发电机，使其正常运转，结构设计简单，安全可靠，方便适用。
+146. 202597703 风电机组主轴承油封及具有其的风电机组
+CN
+12.12.2012
+F16J 15/32 Loading...
+F16J 15/32
+Loading...
+201220227185.6
+华锐风电科技（集团）股份有限公司
+苗向文
+F16J 15/32
+Loading...
+本实用新型提供了一种风电机组主轴承油封及具有其的风电机组。风电机组主轴承油封包括：油封主体(1)，包括唇口(121)；弹簧圈(2)，用于增强唇口(121)的压紧力；保护部，在保护部与唇口(121)之间形成安装空间，弹簧圈(2)容纳于安装空间内并依靠保护部与唇口(121)的形状限位。根据本实用新型的风电机组主轴承油封，由于弹簧圈安装在保护部与油封主体的唇口之间形成的安装空间内，可以避免弹簧圈因断裂或安装不当导致在运行中脱出，降低弹簧圈损伤轴承的风险。同时保证了弹簧圈可以比固定于油封主体上时能发挥更好的功效。
+147. 202594666 风电机组安装船
+CN
+12.12.2012
+B66C 23/52 Loading...
+B66C 23/52
+Loading...
+201220115015.9
+华锐风电科技（集团）股份有限公司
+金宝年
+B66C 23/52
+Loading...
+本实用新型提供一种风电机组安装船，包括船体和安装在该船体上的起重机，起重机包括起重臂和回转支撑台；起重臂包括两个间隔设置的吊臂，两个吊臂之间的间隔用于在起吊过程中容纳风电机组的机舱；起重臂的后端与回转支撑台铰接，回转支撑台安装在船体上，起重臂能够随回转支撑台在水平面上转动并且能够绕起重臂的铰接轴在垂直面内转动；船体上安装有用于搭载风电机组的风机支撑座。本实用新型提供的风电机组安装船，由于起重臂为两个间隔设置的吊臂，因而在海上吊装风电机组时，风电机组的机舱的一部分可以容纳在起重臂之间，因而可以在起重高度小于风电机组高度的情况向先，实现对风电机组的整体吊装且作业方便。
+148. 202597388 用于连接第一部件和第二部件的连接组件及风力发电机组
+CN
+12.12.2012
+F16B 35/00 Loading...
+F16B 35/00
+Loading...
+201220227391.7
+华锐风电科技（集团）股份有限公司
+关雪松
+F16B 35/00
+Loading...
+本实用新型提供一种用于连接第一部件和第二部件的连接组件及风力发电机组，其中，连接组件包括：销，所述销上沿轴线方向设置有光孔，所述销用于与所述第一部件和第二部件紧固配合；螺纹紧固件，所述螺纹紧固件的长度长于所述销的长度，所述螺纹紧固件伸出所述光孔，且所述螺纹紧固件伸出所述光孔的部分通过螺纹连接将所述第一部件和第二部件紧密连接起来。上述技术方案中，连接组件可同时承受横向载荷和轴向载荷，而且节约第一部件和第二部件之间的连接空间。
+149. 202599560 一种动力电缆安全监控设备
+CN
+12.12.2012
+G01K 7/18 Loading...
+G01K 7/18
+Loading...
+201220239460.6
+华锐风电科技（江苏）有限公司
+于建军
+G01K 7/18
+Loading...
+本实用新型为一种动力电缆安全监控设备，所述设备中可编程逻辑控制器与第一测温装置、第二测温装置和变频器分别相连，第一测温装置测量机舱内环境温度输入可编程逻辑控制器，第二测温装置测量动力电缆表面温度输入可编程逻辑控制器，可编程控制器根据动力电缆的安全载流量与环境温度信号和表面温度信号之间的反比例关系，计算获得动力电缆的安全载流量，比较动力电缆的电流信号与安全载流量的大小，如果动力电缆中的电流信号大于安全载流量，发送一个控制信号到所述变频器，变频器根据控制信号改变发电机组的转矩变化改变发电功率，从而改变动力电缆中电流值的大小，实现动态调节动力电缆中的电流值，保护动力电缆。
+150. 202596997 机舱罩及风力发电机组
+CN
+12.12.2012
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220185366.7
+华锐风电科技（集团）股份有限公司
+路计庄
+F03D 11/00
+Loading...
+本实用新型提供一种机舱罩及风力发电机组，其中，机舱罩上开设有透光孔，所述透光孔上密封固定有透光体。上述技术方案中，通过在机舱罩上设置透光孔，在透光孔上设置透光体。使得外界的自然光能够透过透光体进入到机舱罩内部，在检修机舱罩内的设备时，外界的自然光能够有效起到照明的作用，所以，设置透光孔和透光体后，白天检修作业时，无需再打开机舱罩内的照明灯，也不会影响机舱的备用电源。另外，设置透光孔和透光体后，机舱罩里光线亮度充足，维护人员不会发生误碰伤、刮伤或滑倒等安全事故，检修作业的人体舒适度较高。
+151. 202591922 风电机组叶片锁紧装置
+CN
+12.12.2012
+B23P 19/00 Loading...
+B23P 19/00
+Loading...
+201220255746.3
+华锐风电科技（集团）股份有限公司
+李志涛
+B23P 19/00
+Loading...
+本实用新型提供了一种风电机组叶片锁紧装置，包括：底座(11)，包括锁紧销孔(117)；锁紧销(12)，包括同轴设置的主体段(121)和操作段(124)，主体段(121)包括远离操作段(124)的锁定端、靠近操作段(124)的连接端以及位于锁定端和连接端之间并与锁紧销孔(117)间隙配合的孔配合部，锁定端与风电机组叶片的相邻两根叶根螺栓(10)之间的空隙间隙配合或与风电机组叶片的相邻两根叶根螺栓(10)上的螺母之间的空隙间隙配合。本实用新型的风电机组叶片锁紧装置在安全可靠的基础上，实现了操作方便的效果，提高了叶片安装效率。
+152. 202602189 一种线缆固定装置
+CN
+12.12.2012
+H02G 3/04 Loading...
+H02G 3/04
+Loading...
+201220259018.X
+华锐风电科技（集团）股份有限公司
+姜冬
+H02G 3/04
+Loading...
+本实用新型公开一种线缆固定装置，其特征在于包括：基板（2）和连接在基板（2）上的至少一个线缆固定单元。其中，每个线缆固定单元包括：压板（1）；连接在压板（1）与基板（2）之间并可调节压板（1）与基板（2）之间距离使之适应不同直径线缆的压板固定装置。该线缆固定装置可以根据线缆或管路直径的需要适时调节，以便将其固定，结构设计简单，使用方便。
+153. 202599642 风机叶片测试用可拆式夹持装置
+CN
+12.12.2012
+G01M 13/00 Loading...
+G01M 13/00
+Loading...
+201220161170.4
+华锐风电科技（集团）股份有限公司
+金宝年
+G01M 13/00
+Loading...
+本实用新型提供一种风机叶片测试用可拆式夹持装置，包括矩形夹持框架，所述矩形夹持框架的长边设置有用于调节所在长边长度的长度调节机构，短边设置有用于调节所在短边长度的宽度调节机构。上述方案的风机叶片测试用可拆式夹持装置，具有长度调节机构和宽度调节机构，在用于夹持风机叶片的夹持件的大小随风机叶片的大小变化时，只需对长度调节机构和宽度调节机构进行相应的伸缩调节，即可来固定尺寸变化后的夹持件，因此，该风机叶片测试用可拆式夹持装置具有较高的通用性。另外，只需一套该风机叶片测试用可拆式夹持装置即可对多种大小的叶片夹持件进行夹持，因此，降低了夹持装置的设计及加工成本。
+154. 202599970 风电场风速预测装置和风电场功率预测系统
+CN
+12.12.2012
+G01P 5/00 Loading...
+G01P 5/00
+Loading...
+201220205386.6
+华锐风电科技（集团）股份有限公司
+王颖
+G01P 5/00
+Loading...
+本实用新型提供一种风电场风速预测装置和风电场功率预测系统，该风电场风速预测装置，包括风机位置获取模块、风电场地形参数获取模块、风速值获取模块，风机风速值计算模块和第一显示模块。该预测装置预测的风速时间序列值更加接近各风电机组所在位置的实际风速、风向和温度等，提高了对风电机组风速时间序列值预测的精度，为获得准确的风电机组的预测输出功率奠定了基础，从而得到较高精度各风电机组的预测输出功率。
+155. 202596987 接线装置和风力发电机
+CN
+12.12.2012
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220185800.1
+华锐风电科技（集团）股份有限公司
+谢贤彬
+F03D 9/00
+Loading...
+本实用新型提供一种接线装置和风力发电机，接线装置包括用于与轮毂连接的第一球铰、用于与叶片连接的第二球铰以及套接的外管和内管；所述第一球铰和第二球铰的球铰轴分别与所述外管和内管的外伸出端连接，所述第一球铰和第二球铰具有与所述外管和内管连通的接线孔，所述外管与内管能够相对滑动。本实用新型提供的接线装置和风力发电机，可以将数据线设置在由第一球铰内的引线孔、外管和内管的管孔以及第二球铰的引线孔形成的贯通孔内，当叶片相对于轮毂转动时，第一球铰和第二球铰可以相应地转动，数据线不会产生摇晃或损坏，因此能够保证数据信号传输的稳定性。
+156. 202590472 一种风电机组齿轮箱过滤器滤芯
+CN
+12.12.2012
+B01D 29/50 Loading...
+B01D 29/50
+Loading...
+201220251736.2
+华锐风电科技（集团）股份有限公司
+尹德峰
+B01D 29/50
+Loading...
+本实用新型公开了一种齿轮箱过滤器滤芯，包括：圆筒状的外滤芯层（1）；和套装在外滤芯层（1）内部并与其连接的圆筒状内滤芯层（2），所述外滤芯层（1）沿其横截面的圆周方向均匀分布多个褶皱（10），相邻褶皱（10）之间形成开口向外的滤槽（11），其特征在于，每个所述褶皱（10）偏离所述圆周的径向延伸。该齿轮箱过滤器滤芯大大提高了滤材的过滤面积，过滤油液通流分配相对均匀，并且提高了纳污能力和滤芯的使用寿命，结构设计简单，方便适用。
+157. 202602584 一种双馈型风力发电系统机侧变频器
+CN
+12.12.2012
+H02P 9/04 Loading...
+H02P 9/04
+Loading...
+201220213329.2
+华锐风电科技（集团）股份有限公司
+刘凤龙
+H02P 9/04
+Loading...
+本实用新型公开了一种双馈型风力发电系统机侧变频器，包括：连接双馈感应发电机的采样处理单元，用于采样定子电压、定子电流、转子电流及转子角度，并根据定子电压、定子电流确定定子无功功率，根据转子角度确定转子转速；连接所述采样处理单元的转速外环PI控制器，用于根据转子转速、定子无功功率、比例系数调节参数确定参考电流；连接转速外环PI控制器以及采样处理单元的基于内模控制IMC的电流内环PI控制器，用于根据参考电流、转子电流确定参考电压；连接转速外环PI控制器以及采样处理单元的适配单元，用于将参考电压转换成调整转子转速的脉宽调制信号；连接适配单元的功率单元，用于输出用来控制双馈感应发电机转子转速的电流。
+158. 202603131 全封闭散热器及风力发电机
+CN
+12.12.2012
+H05K 7/20 Loading...
+H05K 7/20
+Loading...
+201220227095.7
+华锐风电科技（集团）股份有限公司
+魏永秋
+H05K 7/20
+Loading...
+本实用新型提供一种全封闭散热器及风力发电机，其中，散热器包括散热器壳体，所述散热器壳体具有位于上方的出风口与位于下方的进风口，所述散热器壳体上固定连接散热板，所述散热板遮挡于所述进风口处，所述散热器壳体的两侧均设置有支架，各所述支架的底部均设置有冷却装置支架，所述冷却装置支架具有能挡止所述散热板的凸出部，所述凸出部与所述散热板之间设置有用于拆装所述散热板的间隙。上述结构的散热器清理、维护时工作量小，操作简单，劳动强度低。
+159. 202596995 风机叶片的配重装置及风机叶片
+CN
+12.12.2012
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201220117488.2
+华锐风电科技（集团）股份有限公司
+王海军
+F03D 11/00
+Loading...
+本实用新型公开了一种风机叶片的配重装置及风机叶片，该配重装置包括：配重仓，固定设置于风机叶片的内部，该配重仓的上表面和下表面分别与风机叶片的上翼型面和下翼型面形状相适应，并且该配重仓上开设有一个以上的孔槽；配重件，能拆卸地固定在配重仓的孔槽中，用以通过自重对风机叶片进行静平衡调平；配重仓盖，覆盖在配重仓的孔槽的开口上，并与配重仓固定连接。本实用新型能够简化风机叶片的配重调平方式，使风机叶片的生产效率提高，生产成本降低，并且使风机叶片配重部分的调整和后期的维护保养变得方便。
+160. 102780223 Monitoring system and monitoring method for low voltage ride through of wind turbine
+CN
+14.11.2012
+G06F 1/28 Loading...
+G06F 1/28
+Loading...
+201210270678.2
+华锐风电科技（集团）股份有限公司
+蔡旋
+G06F 1/28
+Loading...
+The invention provides a monitoring system and a monitoring method for low voltage ride through of a wind turbine. The monitoring system comprises a data acquisition module and an instruction execution control module. The data acquisition module is used for acquiring parameters of the wind turbine under the working condition. When low voltage ride through occurs, the parameters of the wind turbine at the stage of the low voltage ride through of the wind turbine are acquired and recorded according to preset frequency. The instruction execution control module is used for turning off a wind turbine safety chain so as to enable the wind turbine to be shut down when the low voltage ride through of the wind turbine is judged to fail according to current parameters of the wind turbine in a first preset duration after the low voltage ride through occurs and when the wind turbine is judged not to be shun down according to current parameters of the wind turbine in a second preset duration after the low voltage ride through occurs. The monitoring system and the monitoring method effectively guarantee safety of the wind turbine during the low voltage ride through.
+161. 102777321 Input signal acquisition device and method of independent variable-pitch control system
+CN
+14.11.2012
+F03D 7/02 Loading...
+F03D 7/02
+Loading...
+201210301237.4
+华锐风电科技（集团）股份有限公司
+金宝年
+F03D 7/02
+Loading...
+The invention discloses an input signal acquisition device of an independent variable-pitch control system. The input signal acquisition device comprises a sensor bracket which is connected with a cross rod in front of a wheel hub, and a sensor bracket which has a first distance from the wheel hub. Axial direction of the sensor bracket and the cross rod is coaxial with the rotation axial direction of the wheel hub, the sensor bracket is synchronously rotated with the cross rod in a running process of an impeller, at least a receiving-transmitting device is installed in the sensor bracket, and the at least one receiving-transmitting device and a host machine installed in a cabin of a fan together constitute a laser Doppler radar wind measurement system. The receiving-transmitting device is used for transmitting a bundle of narrow band laser pulses with stable frequency and controlling the laser pulses to point to a set measure point area in an inflow area in a set slope angle so as to obtain Doppler frequency shift data so that the host machine can calculate the average wind speed in the set measure point area according to the Doppler frequency shift data. The invention also discloses an input signal acquisition method of the independent variable-pitch control system.
+162. 202503302 风电场储能装置
+CN
+24.10.2012
+H02J 3/28 Loading...
+H02J 3/28
+Loading...
+201220082780.5
+华锐风电科技（集团）股份有限公司
+李磊
+H02J 3/28
+Loading...
+本实用新型提供一种风电场储能装置，包括蓄电池储能装置，蓄电池储能装置包括多个并联设置的蓄电池储能单元，每个蓄电池储能单元包括顺次串联的第一变压器、第一交直流转化器及蓄电池，储能装置还包括超级电容储能装置，超级电容储能装置包括多个并联设置的超级电容储能单元，每个超级电容储能单元包括顺次串联的第二变压器、第二交直流转化器及超级电容，每个蓄电池储能单元与每个超级电容储能单元均并联。采用上述方案既能充分利用蓄电池能量密度大的优点，又能利用并联的超级电容储能装置来弥补蓄电池储能装置的不足，使该风电场储能装置适应频繁的充放电，有效提高了蓄电池的使用寿命，且能满足风电场平抑功率波动的要求。
+163. 202500720 风力发电机组偏航装置及风力发电机组
+CN
+24.10.2012
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201220115026.7
+华锐风电科技（集团）股份有限公司
+谢博
+F03D 7/00
+Loading...
+本实用新型提供一种风力发电机组偏航装置及风力发电机组。本风力发电机组偏航装置包括：用于固定支撑机舱的主机架，与主机架固定连接的轴承外圈，轴承内圈，以及与主机架固定连接的偏航驱动器和偏航制动器，偏航驱动器上的驱动齿轮与轴承内圈相啮合，轴承内圈的顶部或底部固定设置有圆环状的制动盘，制动盘的外缘伸出至轴承外圈外侧、并环绕在轴承外圈的周围，且偏航制动器对应制动盘的外缘设置。本实用新型提供的风力发电机组偏航装置，增加了偏航制动器的有效制动半径，有效地提高了制动效果；有利于节约了成本，并能方便偏航制动器的日常维修及维护。
+164. 202501838 风电机组叶片静力实验电控系统
+CN
+24.10.2012
+G01B 21/32 Loading...
+G01B 21/32
+Loading...
+201120573609.X
+华锐风电科技（集团）股份有限公司
+方威
+G01B 21/32
+Loading...
+本实用新型公开一种风电机组叶片静力实验电控系统，其包括：多个加载装置，其用于对风电机组的叶片实施拉力；电机驱动装置，其与所述的加载装置相连；控制装置，其与所述的多个加载装置及所述的电机驱动装置相连，将所述多个加载装置检测到的拉力值反馈回所述控制装置，并与一预设值比较后向所述电机驱动装置发出控制指令，从而实现拉力的闭环控制。本实用新型是一种可应多种型号、高精度的风电机组叶片静力实验电控系统。
+165. 202503304 适用于双馈风力发电系统的新型的低电压穿越装置
+CN
+24.10.2012
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201120543581.5
+华锐风电科技（集团）股份有限公司
+刘征奇
+H02J 3/38
+Loading...
+本实用新型公开一种适用于双馈风力发电系统的新型的低电压穿越装置：包括普通Crowbar电路单元和第一IGBT、反向二极管、第二IGBT；所述第一IGBT和所述反向二极管的并联回路，作为开关，串联在发电机转子侧，与普通Crowbar电路电性连接，所述第一IGBT的开关信号，正常工作时开通；所述第二IGBT控制在机侧和网侧外接的一条支路的通断；当故障发生时，电压跌落引起普通Crowbar电路动作，第一IGBT关断，阻断能量支路的第二IGBT开通，两侧变流器同时工作在整流状态，能量由支路和网侧回路回馈给电网。
+166. 202500162 海上风电机组基础
+CN
+24.10.2012
+E02D 31/06 Loading...
+E02D 31/06
+Loading...
+201220106320.1
+华锐风电科技（集团）股份有限公司
+孙阳
+E02D 31/06
+Loading...
+本实用新型提供一种海上风电机组基础，包括桩柱和由所述桩柱支撑的承台，其中，还包括数根用于包覆所述桩柱位于海床内部分的防护箍；每根所述防护箍包括橡胶带，各根所述橡胶带沿所述桩柱的长度方向依次密封包覆在所述桩柱的外壁上，各根所述橡胶带首尾固定，两根相邻的所述橡胶带之间密封配合。本实用新型提供的海上风电机组基础，耐腐蚀性能良好。
+167. 102723739 风力发电系统
+CN
+10.10.2012
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201210240261.1
+华锐风电科技（集团）股份有限公司
+苏丽营
+H02J 3/38
+Loading...
+本发明提供了一种风力发电系统，包括叶轮（10）；交流发电装置（20），通过叶轮（10）驱动，交流发电装置（20）发出的交流电输送至电网（100）；直流发电装置（30），与交流发电装置（20）同轴地设置，直流发电装置（30）发出的直流电中至少一部分直流电转换为交流电并输送至电网（100）。本发明的风力发电系统，由交流发电设备和直流发电设备两部分组成，在额定风速下共同向电网输出稳定的交流电能，且在电网瞬态波动时对发电环节有良好的调节能力；在低风速时机组可以仅由直流发电设备馈电，因此机组可以在更宽的风速范围内运行，风能的利用效率高，更适合大容量风力发电机组。
+168. 202442067 防火罩
+CN
+19.09.2012
+F16L 59/10 Loading...
+F16L 59/10
+Loading...
+201220026352.0
+华锐风电科技（集团）股份有限公司
+王国军
+F16L 59/10
+Loading...
+本实用新型提供一种防火罩。该防火罩包括罩体，所述罩体上涂覆有至少一层防火涂料层，所述的防火涂料层中设有一层纤维布。本实用新型通过在所述防火涂料层中设置纤维布，不仅能降低防火涂料的用量，还能有效的加固防火涂料膨胀层的作用，提高防火时间，防止火焰的蔓延，阻止罩体燃烧。本实用新型所述防火罩可作为风力发电机组机舱罩，有效避免火灾的发生。此外，本实用新型还适用于船体或车体内部的玻璃钢部件的防火。
+169. 202440551 风力发电电解海水系统
+CN
+19.09.2012
+C25B 1/04 Loading...
+C25B 1/04
+Loading...
+201220018529.2
+华锐风电科技（集团）股份有限公司
+徐韩董
+C25B 1/04
+Loading...
+一种风力发电电解海水系统，包括至少一组风力发电机组和至少一组电解海水装置，风力发电机组为电解海水装置供电，该电解海水装置包括依次通过管道连接的加水泵、海水水箱、电解液过滤器和电解槽入口，该电解槽的氢气出口与氢分离器的入口连接，该氢分离器的气体出口通过氢气处理器与氢气储罐连接；该电解槽的氧气出口与氧分离器的入口连接，该氧分离器的气体出口通过氧气处理器与氧气储罐连接；在该氢分离器和该氧分离器的底端均设有液体出口。优点是：采用风力发电机组和电解海水装置结合，利用风力发电机组发电供给电解海水装置动力，不仅保证了电解海水装置拥有稳定且低廉的电力供应，而且制氢和制氧过程全程几乎不产生任何污染物排放。
+170. 202441780 制动盘及联轴器
+CN
+19.09.2012
+F16D 65/12 Loading...
+F16D 65/12
+Loading...
+201220056021.1
+华锐风电科技（集团）股份有限公司
+刘作辉
+F16D 65/12
+Loading...
+本实用新型提供一种制动盘及联轴器，其中，所述制动盘边缘设置有数个轮齿，所述轮齿用于和盘车装置啮合。本实用新型提供的制动盘，通过在制动盘上设置轮齿，使得可以使用盘车装置进行盘车，由于盘车装置动力足，即便是大功率的设备，也能顺利进行盘车操作。
+171. 202444377 风力发电机
+CN
+19.09.2012
+H02K 9/06 Loading...
+H02K 9/06
+Loading...
+201220071734.5
+华锐风电科技（集团）股份有限公司
+金宝年
+H02K 9/06
+Loading...
+本实用新型公开了一种风力发电机，包括：发电机壳体、发电机转轴、发电机绕组、风扇、换热单元、冷却液泵及散热器，其中，风扇设置在发电机绕组的一侧，用以将发电机绕组中的热空气抽向换热单元；换热单元包括彼此间隔地设置在发电机绕组下方的一级换热板和二级换热板，用以将热空气分两次冷却，一级换热板和二级换热板的内部形成有供冷却液流通的管路；冷却液泵与一级换热板和二级换热板的冷却液进口连接，用以驱动换热板中的冷却液循环流动；散热器与一级换热板和二级换热板的冷却液出口连接，用以使升温后的冷却液重新冷却。本实用新型解决了现有技术的风力发电机的冷却装置冷却效率较低且可能因冷却液泄漏而造成绕组损坏的技术问题。
+172. 202441541 一种风电机组的变桨控制系统
+CN
+19.09.2012
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201220018530.5
+华锐风电科技（集团）股份有限公司
+刘京波
+F03D 7/00
+Loading...
+本实用新型涉及一种风电机组的变桨控制系统。该系统包括ARM处理器和变桨电机；其中，ARM处理器与变桨电机相连；变桨电机接风电机组的叶片。本实用新型可以快速准确地控制叶片转动，使其很好的适应复杂的自然条件。
+173. 202444271 一种双馈型风力发电系统的低电压穿越装置
+CN
+19.09.2012
+H02J 3/18 Loading...
+H02J 3/18
+Loading...
+201220053986.5
+华锐风电科技（集团）股份有限公司
+刘凤龙
+H02J 3/18
+Loading...
+本实用新型公开了一种双馈型风力发电系统的低电压穿越装置，其包括：网侧变流器、机侧变流器和主动式撬棒电路，其中，网侧变流器与风力发电系统中变压器前的直流母线相连接，网侧变流器和机侧变流器串联，机侧变流器与风力发电系统中的双馈感应电机相连接；主动式撬棒电路与机侧变流器和双馈感应电机相连接。
+174. 202432114 动力电缆防磨损金属拉网
+CN
+12.09.2012
+F16L 3/00 Loading...
+F16L 3/00
+Loading...
+201120543261.X
+华锐风电科技（集团）股份有限公司
+侯银娟
+F16L 3/00
+Loading...
+一种动力电缆防磨损金属拉网，由多股网丝相互交叉编织而成，所述金属拉网两端均为开放式，动力电缆由上端开口进入，下端开口出，所述金属拉网入口处的多股网丝合并为两股进行收口，护套管套设于所述金属拉网入口的每股网丝上。金属拉网的入口下方15cm处以上的每股网丝上均套设有护套管。收口后的所述网丝整股套入内径比单股网丝大的护套管。护套管的主要成分为聚氨酯。本实用新型可有效改善风机长期运行过程中，动力电缆与拉网的磨损现象。
+175. 202431438 风力发电机组偏航系统制动盘装置
+CN
+12.09.2012
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201120543230.4
+华锐风电科技（集团）股份有限公司
+何爱颖
+F03D 7/00
+Loading...
+本实用新型公开了一种风力发电机组偏航系统制动盘装置，其包括：多段制动盘、多个螺钉和多个定位销，其中，多段制动盘构成一圆形制动盘；多个螺钉和多个定位销连接在多段制动盘之间，将多段制动盘固定连接为一圆形制动盘。本实用新型可以使得偏航系统制动盘安装后的变形较小，并增强其更换时的互换性。
+176. 202434104 一种风电机组的虚拟现实仿真系统
+CN
+12.09.2012
+G09B 23/18 Loading...
+G09B 23/18
+Loading...
+201120544972.9
+华锐风电科技（集团）股份有限公司
+刘先正
+G09B 23/18
+Loading...
+本实用新型涉及一种风电机组的虚拟现实仿真系统。该系统包括风机远程监控模块，塔基控制柜操作模块，机舱控制柜操作模块用于对虚拟风电场中的所有风电机组模型进行状态监测和人工控制；该系统还包括处理单元、可视化模块和音响模块；其中，处理单元分别与各个模块具有通信连接。本实用新型能摆脱人员培训对于场地、时间和空间的要求，并给受训人员带来直观的培训感受，提高培训效果。
+177. 202430296 用于风电海水淡化系统的电解海水制氯装置
+CN
+12.09.2012
+C25B 1/26 Loading...
+C25B 1/26
+Loading...
+201120545099.5
+华锐风电科技（集团）股份有限公司
+徐韩董
+C25B 1/26
+Loading...
+一种用于风电海水淡化系统的电解海水制氯装置，包括风电系统和海水淡化系统，在海水淡化系统的进水管道连接有电解海水制氯装置，该制氯装置包括：通过压力管线依次连接的前置过滤器、升压泵、后置过滤器、电解槽、次氯酸钠储罐和注射泵，在该次氯酸钠储罐设有鼓风口和排氢口，在该鼓风口装有鼓风机，注射泵的出口连接到海水淡化系统的进水管道；在风电系统输出端与电解海水制氯装置之间通过母排和电缆依次连接有变压器、整流器和低压配电装置。本实用新型的优点是：采用风电机组将风能转化的电力带动海水淡化系统的运行，既解决了风电无法存储的难题，也解决了海水淡化工厂面临的电力紧张的困境，保证海水淡化系统的稳定高效运行。
+178. 202433501 一种新型风力发电机叠频试验平台电气设计系统
+CN
+12.09.2012
+G01R 31/34 Loading...
+G01R 31/34
+Loading...
+201120543583.4
+华锐风电科技（集团）股份有限公司
+汪晓
+G01R 31/34
+Loading...
+本实用新型公开一种新型风力发电机叠频试验平台电气设计系统，其包括：一主电源，所述的主电源包括电网及连接所述电网的调压器，所述的主电源通过所述调压器供电，所述的调压器连接被试电机；一辅助电源，所述的辅助电源包括电网及连接所述电网的变频器，所述的辅助电源通过所述的变频器供电，所述的变频器连接被试电机。因此，本实用新型可通过频率的叠加模拟负载，在折算较好的情况下完全可以代替驱动电机开展各项温升和负载试验，达到低成本高效率的开展风力发电机出厂试验的目的。
+179. 202433502 全功率异步风力发电机组的测试装置
+CN
+12.09.2012
+G01R 31/34 Loading...
+G01R 31/34
+Loading...
+201120545100.4
+华锐风电科技（集团）股份有限公司
+汪晓
+G01R 31/34
+Loading...
+本实用新型公开了一种全功率异步风力发电机组的测试装置，用于对两台全功率异步风力发电机组同时进行测试，该测试装置包括：万向联轴器、液压平台和隔离变压器，其中万向联轴器设置在液压平台上；万向联轴器连接在一全功率异步风力发电机组的异步电动机与另一全功率异步风力发电机组的异步电动机之间；隔离变压器连接在一全功率异步风力发电机组的输出、另一全功率异步风力发电机组的输出和高压母线之间。
+180. 202433179 加载试验台
+CN
+12.09.2012
+G01M 13/00 Loading...
+G01M 13/00
+Loading...
+201120548329.3
+华锐风电科技（集团）股份有限公司
+张东升
+G01M 13/00
+Loading...
+本实用新型提供一种加载试验台，具有机座和轴承座，轴承座与机座之间铰接有两组液压缸，两组液压缸以轴承座的轴承安装孔的圆心呈中心对称，机座与轴承座之间设置有两组条状弹性件，两组条状弹性件平行设置、且以经过轴承安装孔的平面对称。由于设置了两组以经过轴承安装孔的平面对称的条状弹性件，当轴承座发生转动，则两组条状弹性件中的一组受拉产生拉力、另一组受压产生压力，压力与拉力会对轴承座产生一个新的附加反力矩，该反力矩的方向与轴承座自身偏转产生的附加力矩的方向相反，通过选择合适劲度系数的条状弹性件来控制反力矩的大小，使其与附加力矩可以完全抵消，使得加载试验台系统稳定，避免出现试验失败甚至发生重大事故的问题。
+181. 202431459 风机叶片根部连接结构用固定件及风机叶片
+CN
+12.09.2012
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201120575390.7
+华锐风电科技（集团）股份有限公司
+王国军
+F03D 11/00
+Loading...
+本实用新型提供一种风机叶片根部连接结构用固定件及风机叶片。包括：一弧状弯曲的基板，所述基板包括呈柱面状的外侧面、内侧面，以及呈平面状的相对的两端面，所述外侧面和内侧面分别与风机叶片根部的外侧壁和内侧壁的形状相匹配，所述基板的一个所述端面上开设有用于穿设连接件的连接孔。本实用新型提供的风机叶片根部连接结构用固定件，将现有技术中连接件与树脂的直接接触转化成连接件与固定件的连接，提高了根部件与连接件之间的连接强度，并起到加固连接件的作用；且由于固定件的设置，可使叶片根部的刚度得到提高，从而能够降低叶片尖部的挠度变形，提高了叶片性能。
+182. 202431440 风电机组安全保护装置
+CN
+12.09.2012
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201120567103.8
+华锐风电科技（集团）股份有限公司
+党群
+F03D 7/00
+Loading...
+本实用新型提供一种风电机组安全保护装置，包括叶片、能够阻止叶片向工作方向转动的单向制动器和径向截面为楔形的法兰盘；所述单向制动器安装在变浆电机的主轴上，所述法兰盘的斜端面与叶片的端面连接，所述法兰盘的平端面用于与轮毂的端面连接，所述叶片的重心与所述叶片根部端面中心形成的连线，与所述叶片根部轴线形成夹角。由于单向制动器能够阻止叶片向工作位置转动，并且叶片的重心和叶片根部中心的连线，与叶片根部轴线形成夹角，使得叶片在顺浆方向力矩的作用下向顺浆位置转动，使得风电机组在脱网掉电且备用电池也无法工作状况下，叶片能够装置顺浆位置，提高风电机组的安全性。
+183. 202431457 风力发电机叶片根部结构及叶片
+CN
+12.09.2012
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201120567227.6
+华锐风电科技（集团）股份有限公司
+刘作辉
+F03D 11/00
+Loading...
+本实用新型提供一种风力发电机叶片根部结构及叶片，其中，根部结构具有圆管形叶片根部件和双头螺柱，圆管形叶片根部件管壁内固定设置有多个螺杆连接组件，螺杆连接组件具有同轴固定连接的第一连接件和第二连接件，第一连接件有螺纹孔，第二连接件有通孔，通孔与螺纹孔同轴，第一连接件位于管壁内，第二连接件一端与第一连接件固定，另一端与圆管形叶片根部件的端面平齐，双头螺柱的一端与螺纹孔螺接、另一端则露于圆管形叶片根部件外，双头螺柱的轴线与圆管形叶片根部件的轴线平行。双头螺柱与第一连接件螺接，不与圆管形叶片根部件相接触，保证了双头螺柱的强度。在双头螺柱失效时，可以对双头螺柱更新，延长了叶片的寿命，降低了维护成本。
+184. 202431441 一种风电机组的状态监控系统
+CN
+12.09.2012
+F03D 7/00 Loading...
+F03D 7/00
+Loading...
+201120570246.4
+华锐风电科技（集团）股份有限公司
+张强
+F03D 7/00
+Loading...
+本实用新型涉及一种风电机组的状态监控系统。该系统包括采集装置、服务器和数据存储器；其中，采集装置包括：采集处理器、存储卡以及分布在风电机组各受监测位置的多个振动传感器；各振动传感器分别与采集处理器相连；采集处理器与存储卡相连；服务器分别与存储卡以及数据存储器具有通信连接。本实用新型能防止风电机组状态数据的丢失，保证对风电机组状态监控的连续性。
+185. 202433504 风力发电机组的测试系统
+CN
+12.09.2012
+G01R 31/34 Loading...
+G01R 31/34
+Loading...
+201220026513.6
+华锐风电科技（集团）股份有限公司
+芮守娟
+G01R 31/34
+Loading...
+本实用新型提供一种风力发电机组的测试系统，包括：风机、用于消耗所述风机产生的电能的电阻箱，所述风机通过所述电阻箱连接至电网。本实用新型通过设置与风机连接的电阻箱，可以通过该电阻箱将风机所发电能进入电网之前全部消耗。
+186. 202433435 一种IGBT过流保护电路
+CN
+12.09.2012
+G01R 19/00 Loading...
+G01R 19/00
+Loading...
+201220026510.2
+华锐风电科技（集团）股份有限公司
+张少杰
+G01R 19/00
+Loading...
+本实用新型公开一种IGBT过流保护电路，其包括，一晶体管，其具有一基极、一发射极及一集电极；一第一电阻，其具有一第一端及一第二端，所述第一电阻的第一端连接所述晶体管的基极，所述第一电阻的第二端连接所述晶体管的发射极；一二极管，其具有一正极及一负极，所述二极管的正极连接所述晶体管的发射极，所述二极管的负极连接所述晶体管的集电极；一可调电阻，其具有一第一端、一第二端及一滑动端，所述可调电阻的第一端接地，所述可调电阻的第二端连接一驱动模块，所述可调电阻的滑动端连接所述晶体管的集电极。本实用新型可提高检测精度，增加系统可靠性，降低故障率。
+187. 202428737 阻燃型风电机组机舱罩板及阻燃型风电机组机舱罩
+CN
+12.09.2012
+B32B 17/04 Loading...
+B32B 17/04
+Loading...
+201120574860.8
+华锐风电科技（集团）股份有限公司
+王国军
+B32B 17/04
+Loading...
+本实用新型提供一种阻燃型风电机组机舱罩板及阻燃型风电机组机舱罩，所述阻燃型风电机组机舱罩板具有纤维复合材料基板，以及涂覆在该纤维复合材料基板内侧的阻燃层。所述阻燃型风电机组机舱罩由所述阻燃型风电机组机舱罩板制成。本实用新型提供的阻燃型风电机组机舱罩板和阻燃型风电机组机舱罩具有良好的阻燃性能，能够有效防止火灾的发生。
+188. 202435764 防腐蚀电气柜
+CN
+12.09.2012
+H05K 5/06 Loading...
+H05K 5/06
+Loading...
+201120575407.9
+华锐风电科技（集团）股份有限公司
+黄强
+H05K 5/06
+Loading...
+本实用新型提供一种防腐蚀电气柜。包括：一垂直设置的用于容置电气元件的封闭箱体，所述箱体的底面上开设有至少一个的电线安装口，所述电线安装口通过弹性密封片密封，所述弹性密封片上开设有至少一个的电线通过孔；所述箱体的顶面上固定设置有用于排出所述箱体内的空气的排风装置，所述箱体的侧面的底部开设有进风口，所述进风口上固定覆盖有用于滤除流向所述箱体内的空气中的颗粒的过滤装置。本实用新型提供的防腐蚀电气柜在保护电气柜内的电气元件不受盐雾腐蚀的同时，还能促使箱体内部的空气与外部空气进行交换，降低箱体内的空气温度，以延长电气元件的使用寿命，有利于降低风电机组的维护成本。
+189. 202435408 一种触发变流器的系统
+CN
+12.09.2012
+H04B 10/08 Loading...
+H04B 10/08
+Loading...
+201220026381.7
+华锐风电科技（集团）股份有限公司
+宋志强
+H04B 10/08
+Loading...
+本实用新型涉及一种触发变流器的系统。该系统包括：处理器、触发电路、自检电路和显示装置；其中，处理器通过触发电路与变流器相连；处理器分别与自检电路和显示装置具有通信连接。本实用新型能及时发现变流器与处理器之间的通信故障，提高修复的效率。
+190. 202431458 风力发电机叶片
+CN
+12.09.2012
+F03D 11/00 Loading...
+F03D 11/00
+Loading...
+201120574717.9
+华锐风电科技（集团）股份有限公司
+贾海涛
+F03D 11/00
+Loading...
+本实用新型提供一种风力发电机叶片，包括一体成型的叶片翼部和叶片根部，叶片根部具有圆管段，圆管段的一端固定连接锥管段、另一端的管壁中固定设置多个连接螺栓，连接螺栓的螺纹段露于圆管段外，连接螺栓的轴线与圆管段的轴线平行，锥管段远离圆管段的一端与叶片翼部固定连接，锥管段与圆管段连接的一端的直径大于另一端的直径。在圆管段与叶片翼部之间固定设置了锥管段，其中，锥管段的小径端作为叶片根部圆，锥管段的大径端作为轮毂变桨轴承圆和连接圆，这就解决了圆管形根部的叶片，其叶片根部圆的直径、轮毂变桨轴承圆的直径及连接圆的直径需要一致，必须采用上述三者中直径最大的作为最终设计，导致载荷、重量及成本的增加的问题。
+191. 202435050 风电场的分布式储能系统
+CN
+12.09.2012
+H02J 3/28 Loading...
+H02J 3/28
+Loading...
+201220018072.5
+华锐风电科技（集团）股份有限公司
+王杰
+H02J 3/28
+Loading...
+本实用新型涉及一种风电场的分布式储能系统，包括：集中式常规容量风电机组、分布式常规容量风电机组、大容量风电机组、多个升压变压器、主变压器、多个储能装置、电网、以及上级电网，集中式常规容量风电机组，多个风力发电机并联后，与升压变压器的低压侧、储能装置相连；分布式常规容量风电机组，多条风力发电机和升压变压器串联的支路并联后，与风电场汇流母线、储能装置相连；大容量风电机组，与储能装置、升压变压器的低压侧相连；风电场汇流母线与主变压器的低压侧、储能装置、升压变压器的高压侧相连。本实用新型可根据风电场的实际情况分布不同容量的储能装置，稳定可靠地并入电网。
+192. 202435335 大型风力发电机轴电流防范系统
+CN
+12.09.2012
+H02P 9/00 Loading...
+H02P 9/00
+Loading...
+201220026516.X
+华锐风电科技（集团）股份有限公司
+黄玉龙
+H02P 9/00
+Loading...
+本实用新型公开一种大型风力发电机轴电流防范系统，其包括变频器，所述变频器的三个输出端分别安装有滤波器，所述滤波器输出三相电压发送给发电机。本实用新型通过在变频器的输出端加入滤波器，所述滤波器降低了电机输入脉冲电压的电压上升率，电机内分布电容的电压耦合作用便会大大减弱，轴电压以及由此引起的EDM电流都会下降，同时由于电压变化率引起的dv/dt电流也会明显减少，因此，本实用新型的电流防范系统可以有效地抑制轴承电流的产生。
+193. 202435055 具主动式Crowbar电路的DFIG风电系统
+CN
+12.09.2012
+H02J 3/38 Loading...
+H02J 3/38
+Loading...
+201220026678.3
+华锐风电科技（集团）股份有限公司
+冯其塔
+H02J 3/38
+Loading...
+本实用新型公开一种具主动式Crowbar电路的DFIG风电系统，其包括：一双馈风电机组，其转子侧连接一第一电压型变换器；一电网，其用于对所述双馈风电机组供电，所述电网的网侧端具有一第二电压型变换器，所述的第二电压型变换器与所述的第一电压型变换器相连；一Crowbar电路，其连接于所述双馈风电机组的转子侧。本实用新型是基于DFIG的风电场在电网故障期间在适当的控制策略和装置作用下，采用主动式IGBT型Crowbar能够发出无功给电网提供电压支持，实现一定的低电压穿越功能。
+194. 202435036 风力发电机组机侧滤波装置
+CN
+12.09.2012
+H02J 3/01 Loading...
+H02J 3/01
+Loading...
+201120570185.1
+华锐风电科技（集团）股份有限公司
+陶刚
+H02J 3/01
+Loading...
+本实用新型公开了一种风力发电机组机侧滤波装置，其包括：LCR滤波器和RC滤波器，其中，LCR滤波器连接在变频器侧，RC滤波器连接在发电机转子侧，LCR滤波器与RC滤波器串联；LCR滤波器包括电抗、第一电容和第一电阻，电抗串联在变频器侧，第一电容和第一电阻串联之后再与电抗并联；RC滤波器包括串联的第二电容和第二电阻。
+195. 202429934 风力发电机组轮毂内零部件的吊运装置和风力发电机组
+CN
+12.09.2012
+B66C 25/00 Loading...
+B66C 25/00
+Loading...
+201120570452.5
+华锐风电科技（集团）股份有限公司
+王晓辉
+B66C 25/00
+Loading...
+本实用新型提供一种风力发电机组轮毂内零部件的吊运装置和风力发电机组。该装置包括吊装横梁，以及沿所述吊装横梁滑动设置的滑动小车；所述吊装横梁上设置有与轮毂固定连接的安装结构；所述滑动小车上设置有定滑轮，所述定滑轮上套设有一端与卷扬机连接的钢丝绳，所述钢丝绳的另一端连接有吊装部件。本实用新型技术方案可在更换轮毂内的零部件时，实现对轮毂内零部件的吊装，可有效提高零部件吊运的便利性，提高更换效率。
+196. 202431940 润滑油的自动加注装置
+CN
+12.09.2012
+F16H 57/04 Loading...
+F16H 57/04
+Loading...
+201120570760.8
+华锐风电科技（集团）股份有限公司
+卜忠林
+F16H 57/04
+Loading...
+本实用新型公开了一种润滑油的自动加注装置，其包括：用于与风力发电机组的变浆驱动齿轮啮合的齿轮、中空结构的中心轴、支架和第一润滑油管道；所述中心轴通过所述支架固定，所述齿轮套装在所述中心轴的外围；所述齿轮具有多个齿，每一齿具有多个第一孔，所述第一孔贯通所述齿的端部和尾部，所述尾部靠近所述中心轴；所述中心轴内部设置有连接润滑油泵的至少一个第一润滑油管道，该第一润滑油管道上设置有至少一个第一分支管道；所述第一分支管道穿透所述中心轴与所述第一孔的一端连通。上述润滑油的自动加注装置解决了现有技术中的人工方式涂抹润滑油不均匀、周期长且浪费成本的问题。
+197. 202435032 小型风电场微电网运行自调节系统
+CN
+12.09.2012
+H02J 3/00 Loading...
+H02J 3/00
+Loading...
+201220018071.0
+华锐风电科技（集团）股份有限公司
+王杰
+H02J 3/00
+Loading...
+本实用新型涉及一种小型风电场微电网运行自调节系统，包括：上级供电电网、大容量风电机组、变电所、大容量负载设备、电阻箱、以及至少一个风电机组；上级供电电网，与变电所的高压侧相连，电能从上级供电电网流向变电所；变电所，包括变电所通信控制装置，电能从变电所流向大容量负载设备；大容量负载设备，与变电所的低压侧相连；电阻箱，包括电阻箱通信控制装置和多个电阻容量单元；至少一个风电机组，每个风电机组包括一个风电机组通信控制装置。本实用新型能在风力发电机组并网前测试，而且，对于不许可风电机组所发电能流向上级电网、或地理环境不具备并网条件的小型风电场，能更好的提高风电机组利用率和效益。
+198. 202433763 一种风电机组的远程监控系统
+CN
+12.09.2012
+G05B 19/418 Loading...
+G05B 19/418
+Loading...
+201220018576.7
+华锐风电科技（集团）股份有限公司
+张沛
+G05B 19/418
+Loading...
+本实用新型涉及一种风电机组的远程监控系统。该系统包括：与各风电机组通信连接的监控装置以及与监控装置通过无线网络连接起来的一个以上的移动办公设备。本实用新型能远程监控风电机组的运行状况，及时发现故障和予以远程维护。
+199. 202431448 基于直接转矩控制的风力发电机组
+CN
+12.09.2012
+F03D 9/00 Loading...
+F03D 9/00
+Loading...
+201220026607.3
+华锐风电科技（集团）股份有限公司
+刘振富
+F03D 9/00
+Loading...
+本实用新型公开了一种基于直接转矩控制的风力发电机组，其包括：叶片、轮毂、至少一个变流器、风力发电机和变压器，其中，叶片与轮毂相连接，轮毂与风力发电机的主轴相连接，风力发电机与至少一个变流器的输入端相连接，至少一个变流器的输出端与变压器的输入端相连接，至少一个变流器将风力发电机输出的交流电转换为与电网的相位和频率一致的交流电，变压器将变流器输出的交流电升压后接入电网。
+200. 202428379 风力发电机组偏航系统装配辅助装置
+CN
+12.09.2012
+B25B 27/00 Loading...
+B25B 27/00
+Loading...
+201120568769.5
+华锐风电科技（集团）股份有限公司
+何爱颖
+B25B 27/00
+Loading...
+本实用新型公开了一种风力发电机组偏航系统装配辅助装置，其包括：工装托架、工装定位环、定位销和螺栓，其中工装托架通过螺栓连接在偏航系统的侧面轴承与偏航齿圈之间；定位销安装在侧面轴承上，工装定位环与定位销相连接，对侧面轴承的轴向和径向进行定位。
+
