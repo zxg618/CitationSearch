@@ -2,10 +2,7 @@ package citationsearch.service;
 
 import static citationsearch.constants.Constants.*;
 
-import citationsearch.utility.ExcelFileReader;
-import citationsearch.utility.ExcelFileWriter;
-import citationsearch.utility.FileReader;
-import citationsearch.utility.WipoDataFileReader;
+import citationsearch.utility.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,7 +10,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.IntPredicate;
 import java.util.Map.Entry;
 
 import org.apache.commons.text.similarity.LevenshteinDistance;
@@ -24,7 +20,6 @@ import citationsearch.entity.Patent;
 import citationsearch.mapper.CitationMapper;
 import citationsearch.mapper.CompanyMapper;
 import citationsearch.mapper.PatentMapper;
-import citationsearch.utility.ApiReader;
 
 
 public class CitationSearchService 
@@ -241,7 +236,7 @@ public class CitationSearchService
 				String translation = translations[j].getCompanyName();
 				if (transMap.containsKey(translation)) {
 					int val = transMap.get(translation);
-					transMap.replace(translation, val);
+					transMap.put(translation, val);
 				} else {
 					transMap.put(translation, 1);
 				}
@@ -276,8 +271,8 @@ public class CitationSearchService
 	 * Check if search string matches target string
 	 * Goal: half of search string should match
 	 * 
-	 * @param String s1 search string
-	 * @param String s2 target string
+	 * @param s1 search string
+	 * @param s2 target string
 	 * @return boolean -1 false and others true
 	 */
 	protected boolean isSimilarStrings(String s1, String s2, int factor) {
@@ -403,7 +398,7 @@ public class CitationSearchService
 			System.out.println(elements[6] + "\t" + elements[7]);
 			
 			String[] keyArray = Arrays.copyOfRange(elements, 0, 6);
-			String key = String.join("\t", keyArray);
+			String key = Java8UtilImp.stringJoin("\t", keyArray);
 			
 			System.out.println("key was: " + lines[i]);
 			System.out.println("Key is: " + key);
@@ -416,8 +411,8 @@ public class CitationSearchService
 				}
 				set.add(elements[7]);
 				valueArray = set.toArray(new String[0]);
-				value = String.join("|", valueArray);
-				map.replace(key, value);
+				value = Java8UtilImp.stringJoin("|", valueArray);
+				map.put(key, value);
 			} else {
 				set.clear();
 				map.put(key, elements[7]);
@@ -447,15 +442,20 @@ public class CitationSearchService
 	
 	//jre 7 version
 	protected boolean validateString(String string) {
-		 return string.codePoints().anyMatch(
-		            new IntPredicate() {
-						@Override
-						public boolean test(int codepoint) {
-							return Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN;
-						}
-					});
+		//https://stackoverflow.com/questions/26357938/detect-chinese-character-in-java/26358371
+
+		for (int i = 0; i < string.length(); ) {
+			int codepoint = string.codePointAt(i);
+			i += Character.charCount(codepoint);
+			if (Character.UnicodeScript.of(codepoint) == Character.UnicodeScript.HAN) {
+				return true;
+			}
+		}
+		return false;
 	}
-	
+
+
+
 	
 	//second half of the code
 	//1. find all patents according to human filtered person ids
@@ -488,7 +488,7 @@ public class CitationSearchService
 		int valid = 0;
 		
 		for (i = 1; i < originalLines.length; i++) {
-//			if (i < 10000) {
+//			if (i < 519) {
 //				continue;
 //			}
 			System.out.println("Processing original line " + i);
@@ -539,6 +539,7 @@ public class CitationSearchService
 			//6 flag
 			String[] elements = refinedLines[i].split("\t");
 			//System.out.println("Element 7 is " + elements[7]);
+
 			String flag = elements[7];
 			//System.out.println("Flag string length is " + flag.length());
 			if (flag.equalsIgnoreCase("related")) {

@@ -30,7 +30,7 @@ public class Mapper {
 	/**
 	 * Read
 	 * 
-	 * @param int id get an entity by id
+	 * @param id get an entity by id
 	 * 
 	 * @return Entity
 	 */
@@ -41,7 +41,7 @@ public class Mapper {
 	/**
 	 * Create
 	 * 
-	 * @param Entity entity
+	 * @param entity
 	 * 
 	 * @return int new entity id
 	 */
@@ -52,7 +52,7 @@ public class Mapper {
 	/**
 	 * Delete
 	 * 
-	 * @param int id
+	 * @param id
 	 * 
 	 * @return void
 	 */

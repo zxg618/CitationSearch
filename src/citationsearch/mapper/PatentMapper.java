@@ -13,6 +13,7 @@ import citationsearch.entity.Citation;
 import citationsearch.entity.Company;
 import citationsearch.entity.CompanyApplicant;
 import citationsearch.entity.Patent;
+import citationsearch.utility.Java8UtilImp;
 
 public class PatentMapper extends Mapper {
 	protected HashSet<Integer> personIds = null;
@@ -276,7 +277,7 @@ public class PatentMapper extends Mapper {
 		tmphs.addAll(personIds);
 		personIds.clear();
 		personIds.addAll(tmphs);
-		System.out.println("Left and Right route return these person ids " + String.join(",", personIds.toArray(new String[0])));
+		System.out.println("Left and Right route return these person ids " + Java8UtilImp.stringJoin(",", personIds.toArray(new String[0])));
 		
 		tmphs.clear();
 		for (i = 0; i < personIds.size(); i++) {
@@ -296,10 +297,10 @@ public class PatentMapper extends Mapper {
 		
 		System.out.println("Size of the hs is " + hs.size());
 		System.out.println("Size of the tmphs is " + tmphs.size());
-		System.out.println("Searching name exact match for these ids: " + String.join(",", personIds.toArray(new String[0])));
+		System.out.println("Searching name exact match for these ids: " + Java8UtilImp.stringJoin(",", personIds.toArray(new String[0])));
 		
-		personQuery1 = String.join(",", personIds.toArray(new String[0]));
-		personQuery2 = String.join(",", personIds.toArray(new String[0]));
+		personQuery1 = Java8UtilImp.stringJoin(",", personIds.toArray(new String[0]));
+		personQuery2 = Java8UtilImp.stringJoin(",", personIds.toArray(new String[0]));
 		
 		this.query = "select person2.* from tls206_person as person1 join"
 				+ " tls206_person as person2 on person1.person_id in (" + personQuery1 + ") and person2.person_name = person1.person_name";
@@ -324,7 +325,7 @@ public class PatentMapper extends Mapper {
 		tmphs.addAll(personIds);
 		personIds.clear();
 		personIds.addAll(tmphs);
-		System.out.println("Name exact match return these person ids " + String.join(",", personIds.toArray(new String[0])));
+		System.out.println("Name exact match return these person ids " + Java8UtilImp.stringJoin(",", personIds.toArray(new String[0])));
 		
 		hs.addAll(personIds);
 		
@@ -335,8 +336,8 @@ public class PatentMapper extends Mapper {
 		}
 		//--------------
 		
-		personQuery1 = String.join(",", personIds.toArray(new String[0]));
-		personQuery2 = String.join(",", personIds.toArray(new String[0]));
+		personQuery1 = Java8UtilImp.stringJoin(",", personIds.toArray(new String[0]));
+		personQuery2 = Java8UtilImp.stringJoin(",", personIds.toArray(new String[0]));
 		
 		this.query = "select * from tls211_pat_publn where appln_id in (select appln_id from tls207_pers_appln where person_id in "
 				+ "(" + personQuery1 + ") and APPLT_SEQ_NR > 0 and invt_seq_nr = 0"
@@ -617,7 +618,7 @@ public class PatentMapper extends Mapper {
 		}
 		
 		String[] applnIds = applnIdList.toArray(new String[0]);
-		String applnIdString = String.join(",", applnIds);
+		String applnIdString = Java8UtilImp.stringJoin(",", applnIds);
 		
 		this.query = "select * from tls211_pat_publn where appln_id in ("
 				+ "select appln_id from tls201_appln where docdb_family_id in ("

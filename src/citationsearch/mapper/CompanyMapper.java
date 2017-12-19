@@ -161,11 +161,11 @@ public class CompanyMapper extends Mapper {
 	
 	public boolean isValidPerson(Company company, int personId) {
 		/* can not use this filter as it may lost some correct results
-		if (company.getSearchKeyword().matches("中国银行") && personId == 41370098) {
+		if (company.getSearchKeyword().matches("") && personId == 41370098) {
 			return false;
-		} else if (company.getSearchKeyword().matches("中国银行") && personId == 21257941) {
+		} else if (company.getSearchKeyword().matches("") && personId == 21257941) {
 			return false;
-		} else if (company.getSearchKeyword().matches("深圳市奇迹通讯") && personId == 40780075) {
+		} else if (company.getSearchKeyword().matches("") && personId == 40780075) {
 			return false;
 		}
 		*/

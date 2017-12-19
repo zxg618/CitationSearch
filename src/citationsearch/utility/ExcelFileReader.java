@@ -330,7 +330,7 @@ public class ExcelFileReader extends Reader
 		                	line.add(content);
 		                }
 		        	}
-		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	String tmpLine = Java8UtilImp.stringJoin("\t", line.toArray(new String[0]));
 		        	lines.add(tmpLine);
 		        }
 		    }
@@ -378,7 +378,7 @@ public class ExcelFileReader extends Reader
 		                	line.add(content);
 		                }
 		        	}
-		        	String tmpLine = String.join("\t", line.toArray(new String[0]));
+		        	String tmpLine = Java8UtilImp.stringJoin("\t", line.toArray(new String[0]));
 		        	lines.add(tmpLine);
 		        }
 		    }

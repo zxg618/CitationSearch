@@ -20,13 +20,20 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
-		<dependency>
-		    <groupId>com.microsoft.sqlserver</groupId>
-		    <artifactId>mssql-jdbc</artifactId>
-		    <version>6.1.7.jre8-preview</version>
-		</dependency>
-		
-		   <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+		<!--<dependency>-->
+		    <!--<groupId>com.microsoft.sqlserver</groupId>-->
+		    <!--<artifactId>mssql-jdbc</artifactId>-->
+		    <!--<version>6.1.7.jre8-preview</version>-->
+		<!--</dependency>-->
+
+      <!--For Java 7-->
+      <dependency>
+          <groupId>com.microsoft.sqlserver</groupId>
+          <artifactId>mssql-jdbc</artifactId>
+          <version>6.2.2.jre7</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
