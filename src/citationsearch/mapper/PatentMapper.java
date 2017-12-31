@@ -572,7 +572,7 @@ public class PatentMapper extends Mapper {
 		return publnNrList.toArray(new String[0]);
 	}
 	
-	public void getPatentsByPersonId(int personId, int companyId) {
+	public long getPatentsByPersonId(int personId, int companyId) {
 		//--------------------------
 		long startTime = System.currentTimeMillis();
 		//--------------------------
@@ -614,7 +614,7 @@ public class PatentMapper extends Mapper {
 		//debug purpose
 		if (applnIdList.size() < 1) {
 			System.out.println("Person id: " + personId + " does not have any patents");
-			return;
+			return 0;
 		}
 		
 		String[] applnIds = applnIdList.toArray(new String[0]);
@@ -683,6 +683,8 @@ public class PatentMapper extends Mapper {
 		endTime = System.currentTimeMillis();
 		System.out.println("Total running time for each application id query is " + TimeUnit.SECONDS.convert((endTime - startTime), TimeUnit.MILLISECONDS) + " seconds");
 		
+		
+		return endTime - startTime;
 	}
 	
 }

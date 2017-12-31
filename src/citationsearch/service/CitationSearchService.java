@@ -10,6 +10,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 import java.util.Map.Entry;
 
 import org.apache.commons.text.similarity.LevenshteinDistance;
@@ -464,9 +465,9 @@ public class CitationSearchService
 	//4. generate output file
 	public void processPersonIds() {
 		this.findAllPatentsByPersonIds();
-		this.getAllCitations();
-		this.countAllCitationsForEachCompany();
-		this.generateOutputExcelFiles();
+//		this.getAllCitations();
+//		this.countAllCitationsForEachCompany();
+//		this.generateOutputExcelFiles();
 	}
 	
 	protected void findAllPatentsByPersonIds() {
@@ -486,6 +487,10 @@ public class CitationSearchService
 		int ct = 0;
 		//flag length > 7 (------------  ones)
 		int valid = 0;
+		
+		Long total = (long) 0;
+		int minutes = 60 * 6;
+		long threshold = TimeUnit.MINUTES.toMillis(minutes);
 		
 		for (i = 1; i < originalLines.length; i++) {
 //			if (i < 519) {
@@ -519,7 +524,13 @@ public class CitationSearchService
 //				continue;
 //			}
 			cm.saveCompApplntByPersonId(companyId, personId);
-			pm.getPatentsByPersonId(personId, companyId);
+			long runningTime = pm.getPatentsByPersonId(personId, companyId);
+			total += runningTime;
+			
+			if (total > threshold) {
+				System.out.println("Total running time is: " + TimeUnit.MINUTES.convert((total), TimeUnit.MILLISECONDS) + " minutes");
+				System.exit(0);
+			}
 		}
 		
 		
@@ -570,7 +581,8 @@ public class CitationSearchService
 //				continue;
 //			}
 			cm.saveCompApplntByPersonId(companyId, personId);
-			pm.getPatentsByPersonId(personId, companyId);
+			long runningTime = pm.getPatentsByPersonId(personId, companyId);
+			total += runningTime;
 			//pm.getPatentsByPersonId(personId, companyId);
 			
 			//System.out.println(elements[0]);

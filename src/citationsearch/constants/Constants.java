@@ -31,9 +31,9 @@ public final class Constants {
 	
 	//SQL server related
 	//zxg
-//	public static final String SERVER_ADDR = "jdbc:sqlserver://192.168.1.118:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
+	public static final String SERVER_ADDR = "jdbc:sqlserver://192.168.1.118:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
 
-	public static final String SERVER_ADDR = "jdbc:sqlserver://14.202.168.100:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
+	//public static final String SERVER_ADDR = "jdbc:sqlserver://14.202.168.100:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
 
 
 //	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1434;user=fansapp;password=abcd1234;databaseName=patstat2016b";
