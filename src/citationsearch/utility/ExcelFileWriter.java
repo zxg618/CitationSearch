@@ -89,7 +89,7 @@ public class ExcelFileWriter {
 		            	if (c != 2) {
 		            		continue;
 		            	}
-		                cell = row.getCell((short)c);
+		                cell = row.getCell(c);
 		                if(cell != null) {
 		                	String companyName = cell.toString().trim();
 		                	if (companyName.length() > 0) {
@@ -98,7 +98,7 @@ public class ExcelFileWriter {
 		                		searchKeyword = searchKeyword.replaceAll("\u00A0", "");
 		                		
 		                		//get source file id
-		                		cell = row.getCell((short)(c - 2));
+		                		cell = row.getCell((c - 2));
 		                		String sourceFileId = cell.toString().trim();
 		                		double sourceFileLineNumn = Double.parseDouble(sourceFileId);
 		                		sourceFileId = Integer.toString((int)sourceFileLineNumn);
@@ -152,7 +152,7 @@ public class ExcelFileWriter {
 		cell.setCellValue(COMPANY_COLUMN6);
 		
 		for (i = 0; i < rowCount; i++) {
-			row = sheet.createRow((short)(i + 1));
+			row = sheet.createRow(i + 1);
 			cell = row.createCell(0);
 		    cell.setCellValue(this.companies[i].getID());
 		    cell = row.createCell(1);
@@ -232,7 +232,7 @@ public class ExcelFileWriter {
 			patents = this.patentMapper.getPatentsByIDRange(start, end);
 			j = 0;
 			for (i = start; i < start + patents.length; i++) {
-				row = sheet.createRow((short)(i + 1));
+				row = sheet.createRow(i + 1);
 				cell = row.createCell(0);
 				cell.setCellValue(patents[j].getID());
 				cell = row.createCell(1);
@@ -347,7 +347,7 @@ public class ExcelFileWriter {
 			citations = this.citationMapper.getCitationsByIDRange(start, end);
 			j = 0;
 			for (i = start; i < start + citations.length; i++) {
-				row = sheet.createRow((short)(i + 1));
+				row = sheet.createRow(i + 1);
 				cell = row.createCell(0);
 				cell.setCellValue(citations[j].getID());
 				cell = row.createCell(1);
@@ -412,7 +412,7 @@ public class ExcelFileWriter {
 		CompanyApplicant[] translations = null;
 		
 		//write column titles
-		row = sheet.createRow((short)currentLine);
+		row = sheet.createRow(currentLine);
 		cell = row.createCell(0);
 		cell.setCellValue(COMPANY_TRANS_COLUMN1);
 		cell = row.createCell(1);
@@ -430,7 +430,7 @@ public class ExcelFileWriter {
 			j = 0;
 			for (j = 0; j < translations.length; j++) {
 				currentLine++;
-				row = sheet.createRow((short)currentLine);
+				row = sheet.createRow(currentLine);
 				cell = row.createCell(0);
 				cell.setCellValue(translations[j].getID());
 				cell = row.createCell(1);

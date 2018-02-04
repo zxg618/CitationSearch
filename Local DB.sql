@@ -68,11 +68,26 @@
 --select count(*) from unsw_bs_patent;
 --select count(*) from unsw_bs_citation;
 
-select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
-from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = 418067657;
+--select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
+--from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id and publn.pat_publn_id = 418067657;
 
-select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
-from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id where publn.pat_publn_id = 418067657;
+--select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id 
+--from tls201_appln appln join tls211_pat_publn publn on appln.appln_id = publn.appln_id where publn.pat_publn_id = 418067657;
 
 --select * from tls211_pat_publn where pat_publn_id = 266826938;
-select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id  from tls201_appln as appln where appln_id IN (select appln_id from tls211_pat_publn where pat_publn_id = 418067657);
+--select appln.appln_auth, appln.appln_nr, appln.appln_nr_epodoc, appln.appln_kind, appln.appln_filing_date, appln.earliest_filing_date, docdb_family_id  from tls201_appln as appln where appln_id IN (select appln_id from tls211_pat_publn where pat_publn_id = 418067657);
+
+
+
+--USE patstat2016b
+--GO
+IF  EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[tls201_appln]') AND name = N'IX_tls201_docdb_family_id')
+DROP INDEX [IX_tls201_docdb_family_id] ON [dbo].[tls201_appln] WITH ( ONLINE = OFF )
+GO
+
+CREATE NONCLUSTERED INDEX [IX_tls201_docdb_family_id] ON [dbo].[tls201_appln] 
+(
+	[docdb_family_id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+GO
+

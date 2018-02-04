@@ -109,4 +109,6 @@ public final class Constants {
 	
 	public static final String REFINED_PERSONS_FILE = "output/ReversedFulltobecheckedallcompleted.xls";
 	public static final String ORIGINAL_PERSONS_FILE = "output/CandidateCompanyNames.xlsx";
+	
+	public static final String DEAL_DATE_FILE = "output/fancostogetpatstats.xlsx";
 }

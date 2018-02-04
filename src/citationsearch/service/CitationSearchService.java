@@ -5,6 +5,7 @@ import static citationsearch.constants.Constants.*;
 import citationsearch.utility.*;
 
 import java.util.Arrays;
+import java.sql.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -17,8 +18,10 @@ import org.apache.commons.text.similarity.LevenshteinDistance;
 
 import citationsearch.entity.Company;
 import citationsearch.entity.CompanyApplicant;
+import citationsearch.entity.CompanyDealDate;
 import citationsearch.entity.Patent;
 import citationsearch.mapper.CitationMapper;
+import citationsearch.mapper.CompanyDealDateMapper;
 import citationsearch.mapper.CompanyMapper;
 import citationsearch.mapper.PatentMapper;
 
@@ -454,21 +457,6 @@ public class CitationSearchService
 		}
 		return false;
 	}
-
-
-
-	
-	//second half of the code
-	//1. find all patents according to human filtered person ids
-	//2. find all citations according to patents
-	//3. count all patents and citations
-	//4. generate output file
-	public void processPersonIds() {
-		this.findAllPatentsByPersonIds();
-//		this.getAllCitations();
-//		this.countAllCitationsForEachCompany();
-//		this.generateOutputExcelFiles();
-	}
 	
 	protected void findAllPatentsByPersonIds() {
 		PatentMapper pm = new PatentMapper();
@@ -597,4 +585,50 @@ public class CitationSearchService
 		cm.close();
 	}
 	
+	/**
+	 * Read deal date file
+	 * - connect them to company table
+	 * - save to db company_deal_date table
+	 */
+	protected void getDealDate()
+	{
+		ExcelFileReader efr = new ExcelFileReader(DEAL_DATE_FILE);
+		CompanyDealDateMapper cddMapper = new CompanyDealDateMapper();
+		CompanyMapper cm = new CompanyMapper();
+		int i = 0;
+		
+		String[] lines = efr.readRefinedPersonsFileXSSF(DEAL_DATE_FILE);
+		for (i = 1; i < lines.length; i++) {
+			System.out.println(lines[i]);
+			CompanyDealDate model = new CompanyDealDate();
+			String[] attributes = lines[i].split("\t");
+			int companyId = 0;
+			
+			String englishName = attributes[4];
+			String chineseName = attributes[2];
+			if (englishName.length() > 0) {
+				companyId = cm.searchCompanyByEnglishName(englishName);
+			} else if (chineseName.length() > 0) {
+				companyId = cm.searchCompanyByChineseName(chineseName);
+			}
+			
+			model.setCompanyId(companyId);
+			model.setDealDateFromString(attributes[5]);
+			cddMapper.save(model);
+		}
+	}
+
+	
+	//second half of the code
+	//1. find all patents according to human filtered person ids
+	//2. find all citations according to patents
+	//3. count all patents and citations
+	//4. generate output file
+	public void processPersonIds() {
+		//this.findAllPatentsByPersonIds();
+		//this.getAllCitations();
+		//this.countAllCitationsForEachCompany();
+		//this.generateOutputExcelFiles();
+		this.getDealDate();
+	}
 }

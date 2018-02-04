@@ -234,4 +234,35 @@ public class CompanyMapper extends Mapper {
 			this.createCompantApplicant(ca);
 		}
 	}
+	
+	public int searchCompanyByEnglishName(String name)
+	{
+		this.query = "select id from " + Company.TABLE + " where english_name = \'" + name + "\'";
+		ResultSet rs = this.executeGetQuery();
+		int companyId = 0;
+		try {
+			if (rs.next()) {
+				companyId = rs.getInt("id");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return companyId;
+	}
+	
+	public int searchCompanyByChineseName(String name)
+	{
+		this.query = "select id from " + Company.TABLE + " where chinese_name = \'" + name + "\'";
+		ResultSet rs = this.executeGetQuery();
+		int companyId = 0;
+		try {
+			if (rs.next()) {
+				companyId = rs.getInt("id");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return companyId;	}
 }
