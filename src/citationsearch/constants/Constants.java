@@ -33,10 +33,14 @@ public final class Constants {
 	//zxg
 //	public static final String SERVER_ADDR = "jdbc:sqlserver://192.168.1.118:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
 
-	public static final String SERVER_ADDR = "jdbc:sqlserver://14.202.168.100:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
+//	public static final String SERVER_ADDR = "jdbc:sqlserver://14.202.168.100:1433;user=zxg618;password=19830618;databaseName=patstat2016b";
+
+	//Fan Desktop
+//	public static final String SERVER_ADDR = "jdbc:sqlserver://192.168.8.100:1433;user=fan;password=fan;databaseName=patstat2016b";
 
 
-//	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1434;user=fansapp;password=abcd1234;databaseName=patstat2016b";
+	//RA server
+	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1433;user=fansapp;password=abcd1234;databaseName=patstat2016b";
 	public static final String SQL_DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	public static final int KEY_DATE_LENGTH = 8;
 	

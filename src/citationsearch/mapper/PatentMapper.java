@@ -619,6 +619,8 @@ public class PatentMapper extends Mapper {
 		
 		String[] applnIds = applnIdList.toArray(new String[0]);
 		String applnIdString = Java8UtilImp.stringJoin(",", applnIds);
+
+
 		
 		this.query = "select * from tls211_pat_publn where appln_id in ("
 				+ "select appln_id from tls201_appln where docdb_family_id in ("
@@ -626,9 +628,8 @@ public class PatentMapper extends Mapper {
 				+ ")"
 				+ ");";
 		
-		//System.out.println(this.query);
-		
-		
+		System.out.println("docdb query: [" + this.query + "]");
+
 		
 		rs = this.executeGetQuery();
 		try {
