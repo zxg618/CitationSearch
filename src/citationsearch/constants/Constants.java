@@ -40,7 +40,11 @@ public final class Constants {
 
 
 	//RA server
-	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1433;user=fansapp;password=abcd1234;databaseName=patstat2016b";
+//	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1433;user=fansapp;password=abcd1234;databaseName=patstat2016b";
+
+	//Win Vm in Mac
+	public static final String SERVER_ADDR = "jdbc:sqlserver://localhost:1433;user=fan;password=fan;databaseName=patstat2016b";
+
 	public static final String SQL_DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	public static final int KEY_DATE_LENGTH = 8;
 	
