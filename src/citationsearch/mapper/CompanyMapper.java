@@ -12,7 +12,7 @@ public class CompanyMapper extends Mapper {
 		Company company = new Company();
 		this.query = "select * from " + Company.TABLE + " where id = " + id;
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			if (rs.next()) {
 				company.setID(id);
@@ -27,14 +27,14 @@ public class CompanyMapper extends Mapper {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 		return null;
 	}
-	
+
 	public int getCompanyByKeyword(String searchKeyword) {
 		this.query = "select * from " + Company.TABLE + " where search_keyword = N\'" + searchKeyword + "\'";
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			if (rs.next()) {
 				return rs.getInt("id");
@@ -42,16 +42,16 @@ public class CompanyMapper extends Mapper {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 		return 0;
 	}
-	
+
 	public Company[] getAllCompanys() {
 		ArrayList<Company> companies = new ArrayList<Company>();
-		
+
 		this.query = "select * from " + Company.TABLE;
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			while (rs.next()) {
 				Company comp = new Company();
@@ -67,12 +67,12 @@ public class CompanyMapper extends Mapper {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 		return companies.toArray(new Company[0]);
 	}
 
 	public int create(Company company) {
-		
+
 		this.query = "INSERT INTO " + Company.TABLE + " (chinese_name, search_keyword, english_name, source_file_id, patents_total, citations_total)"
 				+ " VALUES (N\'"
 				+ company.getChineseName()
@@ -86,7 +86,7 @@ public class CompanyMapper extends Mapper {
 				+ company.getCitationTotal()
 				+ ")";
 		int result = this.executeOtherQuery();
-		
+
 		return result;
 	}
 
@@ -94,7 +94,7 @@ public class CompanyMapper extends Mapper {
 		// TODO Auto-generated method stub
 		super.delete(id);
 	}
-	
+
 	//tls010_company_applnt section
 	public int createCompantApplicant(CompanyApplicant compApplnt) {
 		this.query = "select id from " + Company.TRANS_TABLE + " where company_id = " + compApplnt.getCompanyId() + " and person_id = " + compApplnt.getPersonId();
@@ -107,23 +107,23 @@ public class CompanyMapper extends Mapper {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		this.query = "insert into " + Company.TRANS_TABLE + " (company_id, person_id, company_name)"
 				+ " values ("
 				+ compApplnt.getCompanyId() + ", "
 				+ compApplnt.getPersonId() + ", "
 				+ "\'" + compApplnt.getCompanyName().replace("'", "''") + "\'"
 				+ ")";
-		
+
 		return this.executeOtherQuery();
 	}
-	
+
 	public CompanyApplicant[] getTranslationsByCompanyId(int companyId) {
 		ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
-		
+
 		this.query = "select * from " + Company.TRANS_TABLE + " where company_id = " + companyId + " order by id";
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			while (rs.next()) {
 				CompanyApplicant tmpTrans = new CompanyApplicant();
@@ -137,16 +137,16 @@ public class CompanyMapper extends Mapper {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return translations.toArray(new CompanyApplicant[0]);
 	}
-	
+
 	//tls010_company_applnt section end
-	
+
 	public int save(Company company) {
 		int id = this.getCompanyByKeyword(company.getSearchKeyword());
 		company.setID(id);
-		
+
 		if (id == 0) {
 			return this.create(company);
 		} else {
@@ -154,11 +154,11 @@ public class CompanyMapper extends Mapper {
 					+ "patents_total = " + company.getPatentsTotal() + ", "
 					+ "citations_total = " + company.getCitationTotal() + " "
 					+ "where id = " + company.getID()
-					;
+			;
 			return this.executeOtherQuery();
 		}
 	}
-	
+
 	public boolean isValidPerson(Company company, int personId) {
 		/* can not use this filter as it may lost some correct results
 		if (company.getSearchKeyword().matches("") && personId == 41370098) {
@@ -169,16 +169,16 @@ public class CompanyMapper extends Mapper {
 			return false;
 		}
 		*/
-		
+
 		return true;
 	}
-	
+
 	public CompanyApplicant[] getAllTranslations() {
-	ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
-		
+		ArrayList<CompanyApplicant> translations = new ArrayList<CompanyApplicant>();
+
 		this.query = "select * from " + Company.TRANS_TABLE;
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			while (rs.next()) {
 				CompanyApplicant translation = new CompanyApplicant();
@@ -191,15 +191,15 @@ public class CompanyMapper extends Mapper {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+
 		return translations.toArray(new CompanyApplicant[0]);
 	}
-	
+
 	public int getCompanyIdBySourceFileId(int sourceFileId) {
 		int companyId = 0;
 		this.query = "select id from unsw_bs_company where source_file_id = " + sourceFileId;
 		ResultSet rs = this.executeGetQuery();
-		
+
 		try {
 			if (rs.next()) {
 				companyId = rs.getInt("id");
@@ -208,7 +208,7 @@ public class CompanyMapper extends Mapper {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return companyId;
 	}
 
@@ -217,7 +217,7 @@ public class CompanyMapper extends Mapper {
 		this.query = "select person_name from tls206_person where person_id = " + personId;
 		ResultSet rs = this.executeGetQuery();
 		String personName = "";
-		
+
 		try {
 			if (rs.next()) {
 				personName = rs.getString("person_name");
@@ -226,7 +226,7 @@ public class CompanyMapper extends Mapper {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		if (personName.length() > 0) {
 			ca.setCompanyId(companyId);
 			ca.setPersonId(personId);
@@ -234,4 +234,35 @@ public class CompanyMapper extends Mapper {
 			this.createCompantApplicant(ca);
 		}
 	}
+
+	public int searchCompanyByEnglishName(String name)
+	{
+		this.query = "select id from " + Company.TABLE + " where english_name = \'" + name + "\'";
+		ResultSet rs = this.executeGetQuery();
+		int companyId = 0;
+		try {
+			if (rs.next()) {
+				companyId = rs.getInt("id");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return companyId;
+	}
+
+	public int searchCompanyByChineseName(String name)
+	{
+		this.query = "select id from " + Company.TABLE + " where chinese_name = \'" + name + "\'";
+		ResultSet rs = this.executeGetQuery();
+		int companyId = 0;
+		try {
+			if (rs.next()) {
+				companyId = rs.getInt("id");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return companyId;	}
 }
