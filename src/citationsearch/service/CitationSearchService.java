@@ -466,7 +466,7 @@ public class CitationSearchService
 		this.findAllPatentsByPersonIds();
 		this.getAllCitations();
 		this.countAllCitationsForEachCompany();
-//		this.generateOutputExcelFiles();
+		this.generateOutputExcelFiles();
 	}
 	
 	protected void findAllPatentsByPersonIds() {
