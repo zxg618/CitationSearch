@@ -610,6 +610,10 @@ public class CitationSearchService
 
 			String englishName = attributes[4];
 			String chineseName = attributes[2];
+
+			//Exact string matching on company eng/ch names is not able to work with all records in the source file
+			//Todo:
+			//fix me
 			if (englishName.length() > 0) {
 				companyId = cm.searchCompanyByEnglishName(englishName);
 			} else if (chineseName.length() > 0) {

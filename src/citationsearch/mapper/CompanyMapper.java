@@ -237,7 +237,7 @@ public class CompanyMapper extends Mapper {
 
 	public int searchCompanyByEnglishName(String name)
 	{
-		this.query = "select id from " + Company.TABLE + " where english_name = \'" + name + "\'";
+		this.query = "select id from " + Company.TABLE + " where english_name = \'" + name.replaceAll("'","''") + "\'";
 		ResultSet rs = this.executeGetQuery();
 		int companyId = 0;
 		try {
@@ -253,7 +253,7 @@ public class CompanyMapper extends Mapper {
 
 	public int searchCompanyByChineseName(String name)
 	{
-		this.query = "select id from " + Company.TABLE + " where chinese_name = \'" + name + "\'";
+		this.query = "select id from " + Company.TABLE + " where chinese_name = \'" + name.replaceAll("'","''") + "\'";
 		ResultSet rs = this.executeGetQuery();
 		int companyId = 0;
 		try {
