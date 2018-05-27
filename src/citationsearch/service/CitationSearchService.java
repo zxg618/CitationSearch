@@ -469,8 +469,9 @@ public class CitationSearchService
 //		this.findAllPatentsByPersonIds();
 //		this.getAllCitations();
 //		this.countAllCitationsForEachCompany();
-//		this.generateOutputExcelFiles();
-		this.getDealDate();
+		this.generateOutputExcelFiles();
+//		this.getDealDate();
+//		this.getSummaryOne();
 	}
 
 	protected void findAllPatentsByPersonIds() {
@@ -625,5 +626,53 @@ public class CitationSearchService
 			cddMapper.save(model);
 		}
 	}
+
+	/*
+	Number of Chinese patents held at time of deal date (by type U, I, A)
+	Number of Chinese patents held at 3 years after deal date (by type U, I, A)
+	Number of Chinese patents held at 5 years after deal date (by type U, I, A)
+	Number of Foreign patents held at time of deal date
+	Number of Foreign patents held at 3 years after deal date
+	Number of Foreign patents held at 5 years after deal date
+	 */
+
+	void getSummaryOne(){
+		PatentMapper pm = new PatentMapper();
+//		pm.countPatentsByCompanyId()
+
+	}
+
+    public void addTypeToPatentTable() {
+		PatentMapper pm = new PatentMapper();
+
+		//manually retrieved total counts
+		int totalNumberOfPatents = 268749;
+
+
+		for (int i = 1; i <= totalNumberOfPatents; i++){
+			Patent patent = pm.get(i);
+
+			String applnNum = patent.getApplnNum();
+			String typeKey = "";
+
+			if (applnNum.length() <= 0) {
+				typeKey = "N/A";
+			} else {
+				if (applnNum.length() > 8) {
+					typeKey = applnNum.substring(4, 5);
+				} else {
+					typeKey = applnNum.substring(2, 3);
+				}
+
+				if(typeKey.equals("M")){
+					System.out.println("======== applnNum = " + applnNum);
+				}
+			}
+			patent.setType(typeKey);
+
+			pm.updateType(patent);
+		}
+    }
+
 
 }

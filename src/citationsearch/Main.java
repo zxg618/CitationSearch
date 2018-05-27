@@ -32,9 +32,17 @@ public class Main
 		//service.formatWipoApplicantsFile();
 		
 		//second half part
-		service.processPersonIds();
+//		service.processPersonIds();
 		
 		//not used now
 		//service.searchAllCitationsByEnglishName();
+
+		//one-off
+
+		//Add 'type' to patent table
+		service.addTypeToPatentTable();
+
+
+
 	}
 }

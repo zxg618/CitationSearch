@@ -464,7 +464,16 @@ public class PatentMapper extends Mapper {
 			return this.executeOtherQuery();
 		}
 	}
-	
+
+	//Works for the Patent table which has the `type` field added
+	public int updateType(Patent patent) {
+		this.query = "update " + Patent.TABLE + " set "
+					+ "type = \'" + patent.getType() + "\'"
+					+ " where id = " + patent.getID();
+		return this.executeOtherQuery();
+	}
+
+
 	public int getTotalCitationsByCompanyId(int companyId) {
 		int totalCitations = 0;
 		

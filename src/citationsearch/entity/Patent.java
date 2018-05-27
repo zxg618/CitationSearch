@@ -30,7 +30,17 @@ public class Patent extends Entity {
 	protected Date appFilingDate = null;
 	protected Date appEarliestDate = null;
 	protected int docdbFamId = 0;
-	
+
+	protected String type = "";
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
 	public Date getAppEarliestDate() {
 		return appEarliestDate;
 	}
