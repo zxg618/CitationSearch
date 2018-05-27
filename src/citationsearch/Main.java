@@ -37,12 +37,14 @@ public class Main
 		//not used now
 		//service.searchAllCitationsByEnglishName();
 
-		//one-off
+
+		//==== one-off operations ====
 
 		//Add 'type' to patent table
-		service.addTypeToPatentTable();
+//		service.addTypeToPatentTable();
 
 
+		service.addDealDate();
 
 	}
 }

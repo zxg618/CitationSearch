@@ -12,12 +12,23 @@ public class CompanyDealDate extends Entity
     public final String DATE_FORMAT = "dd-MMM-yyyy";
 
     protected int companyId;
+
+    protected int sourceCompanyId;
     protected Date dealDate;
 
     public CompanyDealDate() {
         this.companyId = 0;
         this.dealDate = null;
     }
+
+    public int getSourceCompanyId() {
+        return sourceCompanyId;
+    }
+
+    public void setSourceCompanyId(int sourceCompanyId) {
+        this.sourceCompanyId = sourceCompanyId;
+    }
+
 
     public int getCompanyId() {
         return companyId;

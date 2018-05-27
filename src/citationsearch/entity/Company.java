@@ -1,5 +1,8 @@
 package citationsearch.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Company extends Entity {
 	public static final String TABLE = "dbo.unsw_bs_company";
 	public static final String TRANS_TABLE = "dbo.unsw_bs_company_applnt";
@@ -14,7 +17,21 @@ public class Company extends Entity {
 	protected int sourceExcelLineNumbers = 0;
 	
 	protected String sourceFileIds = "";
-	
+
+	List<CompanyDealDate> dealDates = new ArrayList<>();
+
+	public List<CompanyDealDate> getDealDates() {
+		return dealDates;
+	}
+
+	public void setDealDates(List<CompanyDealDate> dealDates) {
+		this.dealDates = dealDates;
+	}
+
+	public void addDealDate(CompanyDealDate dealDate) {
+		this.dealDates.add(dealDate);
+	}
+
 	public String getSourceFileIds() {
 		return sourceFileIds;
 	}

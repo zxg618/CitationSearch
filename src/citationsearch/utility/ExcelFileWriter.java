@@ -6,16 +6,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import citationsearch.entity.*;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import citationsearch.constants.PatentTypeEnum;
-import citationsearch.entity.Citation;
-import citationsearch.entity.Company;
-import citationsearch.entity.CompanyApplicant;
-import citationsearch.entity.Patent;
 import citationsearch.mapper.CitationMapper;
 import citationsearch.mapper.CompanyMapper;
 import citationsearch.mapper.PatentMapper;
@@ -120,6 +117,86 @@ public class ExcelFileWriter {
 		    }
 		    
 		    wb.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Slightly updated to server addDealDate()
+	 *
+	 * @param companies
+	 */
+	public void addAllSourceFileIdsToCompanyByFan(Company[] companies) {
+		ExcelFileReader reader = new ExcelFileReader(FILE_PATH);
+
+		File file = new File(FILE_PATH);
+		String searchKeyword = "";
+
+		try {
+			XSSFWorkbook wb = new XSSFWorkbook(new FileInputStream(file));
+
+			XSSFSheet sheet = wb.getSheetAt(0);
+			XSSFRow row;
+			XSSFCell cell;
+
+			int rows; // No of rows
+			rows = sheet.getPhysicalNumberOfRows();
+
+			int cols = 0; // No of columns
+			int tmp = 0;
+			int i = 0;
+
+			// This trick ensures that we get the data properly even if it doesn't start from first few rows
+			for(i = 0; i < 10 || i < rows; i++) {
+				row = sheet.getRow(i);
+				if(row != null) {
+					tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+					if(tmp > cols) cols = tmp;
+				}
+			}
+
+			for(int r = 1; r < rows; r++) {
+				row = sheet.getRow(r);
+				if (row != null) {
+					XSSFCell idCell = row.getCell(0);
+					XSSFCell nameCell = row.getCell(2);
+					XSSFCell dealDateCell = row.getCell(6);
+
+					if (nameCell != null) {
+						String companyName = nameCell.toString().trim();
+						if (companyName.length() > 0) {
+							searchKeyword = reader.removeUselessChars(companyName).trim();
+							//remove special html character &nbsp;
+							searchKeyword = searchKeyword.replaceAll("\u00A0", "");
+
+							//get source file id
+							String sourceFileId = idCell.toString().trim();
+							double sourceFileLineNumn = Double.parseDouble(sourceFileId);
+							sourceFileId = Integer.toString((int) sourceFileLineNumn);
+
+							//get dealDateCell
+							String dealDateStr = dealDateCell.toString().trim();
+
+							for (i = 0; i < companies.length; i++) {
+								if (searchKeyword.equals(companies[i].getSearchKeyword())) {
+									CompanyDealDate dealDate = new CompanyDealDate();
+
+									dealDate.setCompanyId(companies[i].getID());
+									dealDate.setSourceCompanyId((int) sourceFileLineNumn);
+									dealDate.setDealDateFromString(dealDateStr);
+
+									companies[i].addDealDate(dealDate);
+								}
+							}
+
+						}
+					}
+				}
+
+			}
+
+			wb.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

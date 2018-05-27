@@ -6,13 +6,8 @@ import citationsearch.entity.CompanyDealDate;
 import citationsearch.mapper.CompanyDealDateMapper;
 import citationsearch.utility.*;
 
-import java.util.Arrays;
+import java.util.*;
 import java.sql.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
 
 import org.apache.commons.text.similarity.LevenshteinDistance;
@@ -469,8 +464,8 @@ public class CitationSearchService
 //		this.findAllPatentsByPersonIds();
 //		this.getAllCitations();
 //		this.countAllCitationsForEachCompany();
-		this.generateOutputExcelFiles();
-//		this.getDealDate();
+//		this.generateOutputExcelFiles();
+		this.getDealDate();
 //		this.getSummaryOne();
 	}
 
@@ -642,6 +637,9 @@ public class CitationSearchService
 
 	}
 
+	/**
+	 * One off operation
+	 */
     public void addTypeToPatentTable() {
 		PatentMapper pm = new PatentMapper();
 
@@ -674,5 +672,26 @@ public class CitationSearchService
 		}
     }
 
+	/**
+	 * One off operation
+	 */
+	public void addDealDate(){
 
+
+		CompanyMapper companyMapper = new CompanyMapper();
+		Company[] companies = companyMapper.getAllCompanys();
+		CompanyDealDateMapper cddMapper = new CompanyDealDateMapper();
+
+		this.excelFileWriter = new ExcelFileWriter();
+		excelFileWriter.addAllSourceFileIdsToCompanyByFan(companies);
+
+
+		for(int i = 0; i < companies.length; i++){
+			List<CompanyDealDate> dealDateList = companies[i].getDealDates();
+
+			for(CompanyDealDate dealDate : dealDateList){
+				cddMapper.save(dealDate);
+			}
+		}
+	}
 }

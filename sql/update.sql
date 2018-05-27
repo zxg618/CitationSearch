@@ -11,3 +11,4 @@ set patents_total = 0, citations_total = 0;
 DBCC CHECKIDENT ('[unsw_bs_patent]', RESEED, 0);
 DBCC CHECKIDENT ('[unsw_bs_citation]', RESEED, 0);
 DBCC CHECKIDENT ('[unsw_bs_company_applnt]', RESEED, 0);
+DBCC CHECKIDENT ('[unsw_bs_company_deal_date]', RESEED, 0);
