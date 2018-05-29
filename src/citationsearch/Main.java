@@ -3,6 +3,9 @@ package citationsearch;
 import static citationsearch.constants.Constants.*;
 import citationsearch.service.CitationSearchService;
 
+import javax.sound.midi.SysexMessage;
+import java.util.Date;
+
 public class Main
 {	
 	public static void main(String[] args) {	
@@ -17,7 +20,7 @@ public class Main
 		//service.displayTotalNumberOfPatentsOnWIPO();
 		
 		//get related patents and citations
-		//service.runStatistics();
+//		service.runStatistics();
 		
 		//generate output file
 		//service.generateOutputExcelFiles();
@@ -42,9 +45,10 @@ public class Main
 
 		//Add 'type' to patent table
 //		service.addTypeToPatentTable();
+//		service.addDealDate();
 
 
-		service.addDealDate();
-
+		//Compute statistics
+		service.getStats();
 	}
 }

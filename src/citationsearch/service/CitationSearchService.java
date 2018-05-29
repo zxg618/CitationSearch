@@ -2,8 +2,8 @@ package citationsearch.service;
 
 import static citationsearch.constants.Constants.*;
 
-import citationsearch.entity.CompanyDealDate;
-import citationsearch.mapper.CompanyDealDateMapper;
+import citationsearch.entity.*;
+import citationsearch.mapper.*;
 import citationsearch.utility.*;
 
 import java.util.*;
@@ -11,13 +11,6 @@ import java.sql.Date;
 import java.util.Map.Entry;
 
 import org.apache.commons.text.similarity.LevenshteinDistance;
-
-import citationsearch.entity.Company;
-import citationsearch.entity.CompanyApplicant;
-import citationsearch.entity.Patent;
-import citationsearch.mapper.CitationMapper;
-import citationsearch.mapper.CompanyMapper;
-import citationsearch.mapper.PatentMapper;
 
 
 public class CitationSearchService
@@ -465,8 +458,8 @@ public class CitationSearchService
 //		this.getAllCitations();
 //		this.countAllCitationsForEachCompany();
 //		this.generateOutputExcelFiles();
-		this.getDealDate();
-//		this.getSummaryOne();
+//		this.getDealDate();
+
 	}
 
 	protected void findAllPatentsByPersonIds() {
@@ -622,18 +615,81 @@ public class CitationSearchService
 		}
 	}
 
-	/*
-	Number of Chinese patents held at time of deal date (by type U, I, A)
-	Number of Chinese patents held at 3 years after deal date (by type U, I, A)
-	Number of Chinese patents held at 5 years after deal date (by type U, I, A)
-	Number of Foreign patents held at time of deal date
-	Number of Foreign patents held at 3 years after deal date
-	Number of Foreign patents held at 5 years after deal date
+	/**
+		Number of Chinese patents held at time of deal date (by type U, I, A)
+		Number of Chinese patents held at 3 years after deal date (by type U, I, A)
+		Number of Chinese patents held at 5 years after deal date (by type U, I, A)
+		Number of Foreign patents held at time of deal date
+		Number of Foreign patents held at 3 years after deal date
+		Number of Foreign patents held at 5 years after deal date
 	 */
+	public void getStats(){
+		getPatStats();
+		getCitaStats();
+	}
 
-	void getSummaryOne(){
-		PatentMapper pm = new PatentMapper();
-//		pm.countPatentsByCompanyId()
+	public void getPatStats(){
+		CompanyDealDateMapper cddm = new CompanyDealDateMapper();
+		PatStatsMapper psm = new PatStatsMapper();
+
+		List<CompanyDealDate> companyDealDateList = cddm.getAllCompanyDealDates();
+
+		for(CompanyDealDate cdd : companyDealDateList){
+			PatStats ps = new PatStats();
+			ps.setCompanyId(cdd.getCompanyId());
+			ps.setSourceCompanyId(cdd.getSourceCompanyId());
+			ps.setDealDate(cdd.getDealDate());
+
+			//Number of Chinese patents held at time of deal date (by type U, I, A)
+			ps.setCN_PAT_AT_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "CN", cdd.getDealDate().toString(), "All"));
+			ps.setCN_PAT_AT_DEAL_U(psm.findStats(cdd.getCompanyId(), "CN", cdd.getDealDate().toString(), "1"));
+			ps.setCN_PAT_AT_DEAL_I(psm.findStats(cdd.getCompanyId(), "CN", cdd.getDealDate().toString(), "2"));
+			ps.setCN_PAT_AT_DEAL_A(psm.findStats(cdd.getCompanyId(), "CN", cdd.getDealDate().toString(), "3"));
+
+			//Number of Chinese patents held at 3 years after deal date (by type U, I, A)
+			Date date = cdd.getDealDate();
+
+			Date after3years = new Date(date.getTime() +  MILLI_SEC_IN_YEAR * 3);
+			String after3yearsStr = after3years.toString();
+
+			ps.setCN_PAT_3Y_AFTER_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "CN", after3yearsStr, "All"));
+			ps.setCN_PAT_3Y_AFTER_DEAL_U(psm.findStats(cdd.getCompanyId(), "CN", after3yearsStr, "1"));
+			ps.setCN_PAT_3Y_AFTER_DEAL_I(psm.findStats(cdd.getCompanyId(), "CN", after3yearsStr, "2"));
+			ps.setCN_PAT_3Y_AFTER_DEAL_A(psm.findStats(cdd.getCompanyId(), "CN", after3yearsStr, "3"));
+
+			//Number of Chinese patents held at 5 years after deal date (by type U, I, A)
+			Date after5years = new Date(date.getTime() +  MILLI_SEC_IN_YEAR * 5);
+			String after5yearsStr = after5years.toString();
+
+			ps.setCN_PAT_5Y_AFTER_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "CN", after5yearsStr, "All"));
+			ps.setCN_PAT_5Y_AFTER_DEAL_U(psm.findStats(cdd.getCompanyId(), "CN", after5yearsStr, "1"));
+			ps.setCN_PAT_5Y_AFTER_DEAL_I(psm.findStats(cdd.getCompanyId(), "CN", after5yearsStr, "2"));
+			ps.setCN_PAT_5Y_AFTER_DEAL_A(psm.findStats(cdd.getCompanyId(), "CN", after5yearsStr, "3"));
+
+			//Number of Foreign patents held at time of deal date (by type U, I, A)
+			ps.setFR_PAT_AT_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "FR", cdd.getDealDate().toString(), "All"));
+			ps.setFR_PAT_AT_DEAL_U(psm.findStats(cdd.getCompanyId(), "FR", cdd.getDealDate().toString(), "1"));
+			ps.setFR_PAT_AT_DEAL_I(psm.findStats(cdd.getCompanyId(), "FR", cdd.getDealDate().toString(), "2"));
+			ps.setFR_PAT_AT_DEAL_A(psm.findStats(cdd.getCompanyId(), "FR", cdd.getDealDate().toString(), "3"));
+
+			//Number of Foreign patents held at 3 years after deal date (by type U, I, A)
+			ps.setFR_PAT_3Y_AFTER_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "FR", after3yearsStr, "All"));
+			ps.setFR_PAT_3Y_AFTER_DEAL_U(psm.findStats(cdd.getCompanyId(), "FR", after3yearsStr, "1"));
+			ps.setFR_PAT_3Y_AFTER_DEAL_I(psm.findStats(cdd.getCompanyId(), "FR", after3yearsStr, "2"));
+			ps.setFR_PAT_3Y_AFTER_DEAL_A(psm.findStats(cdd.getCompanyId(), "FR", after3yearsStr, "3"));
+
+			//Number of Foreign patents held at 5 years after deal date (by type U, I, A)
+			ps.setFR_PAT_5Y_AFTER_DEAL_ALL(psm.findStats(cdd.getCompanyId(), "FR", after5yearsStr, "All"));
+			ps.setFR_PAT_5Y_AFTER_DEAL_U(psm.findStats(cdd.getCompanyId(), "FR", after5yearsStr, "1"));
+			ps.setFR_PAT_5Y_AFTER_DEAL_I(psm.findStats(cdd.getCompanyId(), "FR", after5yearsStr, "2"));
+			ps.setFR_PAT_5Y_AFTER_DEAL_A(psm.findStats(cdd.getCompanyId(), "FR", after5yearsStr, "3"));
+
+			psm.save(ps);
+		}
+	}
+
+	public void getCitaStats(){
+
 
 	}
 
@@ -650,8 +706,13 @@ public class CitationSearchService
 		for (int i = 1; i <= totalNumberOfPatents; i++){
 			Patent patent = pm.get(i);
 
+			//=====================
+			//Originally from XG, using application number to determine type digit
+			//However there are 8k patents having type digit 8
+
 			String applnNum = patent.getApplnNum();
 			String typeKey = "";
+			String typeKeyByPubNum = "";
 
 			if (applnNum.length() <= 0) {
 				typeKey = "N/A";
@@ -662,12 +723,20 @@ public class CitationSearchService
 					typeKey = applnNum.substring(2, 3);
 				}
 
-				if(typeKey.equals("M")){
-					System.out.println("======== applnNum = " + applnNum);
+				if( ! (typeKey.equals("1") || typeKey.equals("2") || typeKey.equals("3"))){
+
+					String pubNum = patent.getPublicationNumber();
+					typeKeyByPubNum = pubNum.substring(0, 1);
+
+					if( (typeKeyByPubNum.equals("1") || typeKeyByPubNum.equals("2") || typeKeyByPubNum.equals("3"))) {
+						//=====================
+						//Switching to use publication number to determine type digit
+						typeKey = typeKeyByPubNum;
+					}
 				}
 			}
-			patent.setType(typeKey);
 
+			patent.setType(typeKey);
 			pm.updateType(patent);
 		}
     }

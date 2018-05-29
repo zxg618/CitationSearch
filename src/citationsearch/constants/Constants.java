@@ -28,6 +28,8 @@ public final class Constants {
 	public static final String DATA_FILE_POSTFIX = ".out";
 	public static final String PSN_SECTOR_COMPANY = "COMPANY";
 	public static final String COUNTRY_CODE_LIST = "('CN', '')";
+
+	public static final long MILLI_SEC_IN_YEAR = ((long) 1000 * 60 * 60 * 24 * 365);
 	
 	//SQL server related
 	//zxg
