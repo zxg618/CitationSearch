@@ -23,7 +23,7 @@ public class Main
 //		service.runStatistics();
 		
 		//generate output file
-		//service.generateOutputExcelFiles();
+//		service.generateOutputExcelFiles();
 		
 		//validate person ids
 		//service.validateApplicants();
@@ -44,11 +44,12 @@ public class Main
 		//==== one-off operations ====
 
 		//Add 'type' to patent table
-//		service.addTypeToPatentTable();
+		service.addTypeToPatentTable();
 //		service.addDealDate();
 
 
 		//Compute statistics
-		service.getStats();
+//		service.getStats();
+		service.generatePatStatsOutputExcelFiles();
 	}
 }

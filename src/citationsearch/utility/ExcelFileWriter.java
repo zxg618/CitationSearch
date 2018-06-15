@@ -5,8 +5,10 @@ import static citationsearch.constants.Constants.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.List;
 
 import citationsearch.entity.*;
+import citationsearch.mapper.PatStatsMapper;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -49,6 +51,156 @@ public class ExcelFileWriter {
 		this.generateTranslationFile();
 		System.out.println("Done.");
 	}
+
+	public void generatePatStatsOutputExcelFiles() {
+		System.out.print("Writing to " + PAT_STATS_FILENAME + "....");
+
+		PatStatsMapper psm = new PatStatsMapper();
+		List<PatStats> psList = psm.getAllPatStats();
+
+		XSSFWorkbook wb = new XSSFWorkbook();
+		XSSFSheet sheet = wb.createSheet();
+		XSSFRow row = null;
+		XSSFCell cell = null;
+		FileOutputStream fileOut = null;
+		int rowCount = psList.size();
+		int i = 0;
+
+		//write column titles
+		row = sheet.createRow(0);
+		cell = row.createCell(0);
+		cell.setCellValue(PAT_STATS_COLUMN_1);
+		cell = row.createCell(1);
+		cell.setCellValue(PAT_STATS_COLUMN_2);
+		cell = row.createCell(2);
+		cell.setCellValue(PAT_STATS_COLUMN_3);
+		cell = row.createCell(3);
+		cell.setCellValue(PAT_STATS_COLUMN_4);
+		cell = row.createCell(4);
+		cell.setCellValue(PAT_STATS_COLUMN_5);
+		cell = row.createCell(5);
+		cell.setCellValue(PAT_STATS_COLUMN_6);
+		cell = row.createCell(6);
+		cell.setCellValue(PAT_STATS_COLUMN_7);
+		cell = row.createCell(7);
+		cell.setCellValue(PAT_STATS_COLUMN_8);
+		cell = row.createCell(8);
+		cell.setCellValue(PAT_STATS_COLUMN_9);
+		cell = row.createCell(9);
+		cell.setCellValue(PAT_STATS_COLUMN_10);
+		cell = row.createCell(10);
+		cell.setCellValue(PAT_STATS_COLUMN_11);
+		cell = row.createCell(11);
+		cell.setCellValue(PAT_STATS_COLUMN_12);
+		cell = row.createCell(12);
+		cell.setCellValue(PAT_STATS_COLUMN_13);
+		cell = row.createCell(13);
+		cell.setCellValue(PAT_STATS_COLUMN_14);
+		cell = row.createCell(14);
+		cell.setCellValue(PAT_STATS_COLUMN_15);
+		cell = row.createCell(15);
+		cell.setCellValue(PAT_STATS_COLUMN_16);
+		cell = row.createCell(16);
+		cell.setCellValue(PAT_STATS_COLUMN_17);
+		cell = row.createCell(17);
+		cell.setCellValue(PAT_STATS_COLUMN_18);
+		cell = row.createCell(18);
+		cell.setCellValue(PAT_STATS_COLUMN_19);
+		cell = row.createCell(19);
+		cell.setCellValue(PAT_STATS_COLUMN_20);
+		cell = row.createCell(20);
+		cell.setCellValue(PAT_STATS_COLUMN_21);
+		cell = row.createCell(21);
+		cell.setCellValue(PAT_STATS_COLUMN_22);
+		cell = row.createCell(22);
+		cell.setCellValue(PAT_STATS_COLUMN_23);
+		cell = row.createCell(23);
+		cell.setCellValue(PAT_STATS_COLUMN_24);
+		cell = row.createCell(24);
+		cell.setCellValue(PAT_STATS_COLUMN_25);
+		cell = row.createCell(25);
+		cell.setCellValue(PAT_STATS_COLUMN_26);
+		cell = row.createCell(26);
+		cell.setCellValue(PAT_STATS_COLUMN_27);
+		cell = row.createCell(27);
+		cell.setCellValue(PAT_STATS_COLUMN_28);
+
+		for (i = 0; i < rowCount; i++) {
+			row = sheet.createRow(i + 1);
+			cell = row.createCell(0);
+			cell.setCellValue(psList.get(i).getID());
+			cell = row.createCell(1);
+			cell.setCellValue(psList.get(i).getCompanyId());
+			cell = row.createCell(2);
+			cell.setCellValue(psList.get(i).getSourceCompanyId());
+			cell = row.createCell(3);
+			cell.setCellValue(psList.get(i).getDealDate().toString());
+
+			cell = row.createCell(4);
+			cell.setCellValue(psList.get(i).getCN_PAT_AT_DEAL_ALL());
+			cell = row.createCell(5);
+			cell.setCellValue(psList.get(i).getCN_PAT_AT_DEAL_U());
+			cell = row.createCell(6);
+			cell.setCellValue(psList.get(i).getCN_PAT_AT_DEAL_I());
+			cell = row.createCell(7);
+			cell.setCellValue(psList.get(i).getCN_PAT_AT_DEAL_A());
+			cell = row.createCell(8);
+			cell.setCellValue(psList.get(i).getCN_PAT_3Y_AFTER_DEAL_ALL());
+			cell = row.createCell(9);
+			cell.setCellValue(psList.get(i).getCN_PAT_3Y_AFTER_DEAL_U());
+			cell = row.createCell(10);
+			cell.setCellValue(psList.get(i).getCN_PAT_3Y_AFTER_DEAL_I());
+			cell = row.createCell(11);
+			cell.setCellValue(psList.get(i).getCN_PAT_3Y_AFTER_DEAL_A());
+			cell = row.createCell(12);
+			cell.setCellValue(psList.get(i).getCN_PAT_5Y_AFTER_DEAL_ALL());
+			cell = row.createCell(13);
+			cell.setCellValue(psList.get(i).getCN_PAT_5Y_AFTER_DEAL_U());
+			cell = row.createCell(14);
+			cell.setCellValue(psList.get(i).getCN_PAT_5Y_AFTER_DEAL_I());
+			cell = row.createCell(15);
+			cell.setCellValue(psList.get(i).getCN_PAT_5Y_AFTER_DEAL_A());
+			cell = row.createCell(16);
+			cell.setCellValue(psList.get(i).getFR_PAT_AT_DEAL_ALL());
+			cell = row.createCell(17);
+			cell.setCellValue(psList.get(i).getFR_PAT_AT_DEAL_U());
+			cell = row.createCell(18);
+			cell.setCellValue(psList.get(i).getFR_PAT_AT_DEAL_I());
+			cell = row.createCell(19);
+			cell.setCellValue(psList.get(i).getFR_PAT_AT_DEAL_A());
+			cell = row.createCell(20);
+			cell.setCellValue(psList.get(i).getFR_PAT_3Y_AFTER_DEAL_ALL());
+			cell = row.createCell(21);
+			cell.setCellValue(psList.get(i).getFR_PAT_3Y_AFTER_DEAL_U());
+			cell = row.createCell(22);
+			cell.setCellValue(psList.get(i).getFR_PAT_3Y_AFTER_DEAL_I());
+			cell = row.createCell(23);
+			cell.setCellValue(psList.get(i).getFR_PAT_3Y_AFTER_DEAL_A());
+			cell = row.createCell(24);
+			cell.setCellValue(psList.get(i).getFR_PAT_5Y_AFTER_DEAL_ALL());
+			cell = row.createCell(25);
+			cell.setCellValue(psList.get(i).getFR_PAT_5Y_AFTER_DEAL_U());
+			cell = row.createCell(26);
+			cell.setCellValue(psList.get(i).getFR_PAT_5Y_AFTER_DEAL_I());
+			cell = row.createCell(27);
+			cell.setCellValue(psList.get(i).getFR_PAT_5Y_AFTER_DEAL_A());
+		}
+
+		for (i = 0; i < PAT_STATS_COLUMNS; i++) {
+			sheet.autoSizeColumn(i);
+		}
+
+		try {
+			fileOut = new FileOutputStream(PAT_STATS_FILENAME);
+			wb.write(fileOut);
+			wb.close();
+			fileOut.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
 	
 	protected void addAllSourceFileIdsToCompany(Company[] companies) {
 		ExcelFileReader reader = new ExcelFileReader(FILE_PATH);

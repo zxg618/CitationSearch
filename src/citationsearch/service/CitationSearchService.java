@@ -175,6 +175,11 @@ public class CitationSearchService
 		this.excelFileWriter.generateOutputFiles();
 	}
 
+	public void generatePatStatsOutputExcelFiles() {
+		this.excelFileWriter = new ExcelFileWriter();
+		this.excelFileWriter.generatePatStatsOutputExcelFiles();
+	}
+
 
 	public void searchAllCitationsByEnglishName() {
 		CompanyMapper cm = new CompanyMapper();

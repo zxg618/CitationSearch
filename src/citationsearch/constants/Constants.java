@@ -68,6 +68,7 @@ public final class Constants {
 	public static final String PATENT_FILENAME = "patents.xlsx";
 	public static final String CITATION_FILENAME = "citations.xlsx";
 	public static final String COMPANY_TRANSLATION_FILENAME = "company_translation.xlsx";
+	public static final String PAT_STATS_FILENAME = "PatentStats.xlsx";
 	//id, Chinese name, English name, total patents, total citations
 	public static final int COMPANY_COLUMNS = 6;
 	public static final String COMPANY_COLUMN1 = "RAP - Company ID";
@@ -116,7 +117,38 @@ public final class Constants {
 	public static final String COMPANY_TRANS_COLUMN3 = "EPO Company ID";
 	public static final String COMPANY_TRANS_COLUMN4 = "Source - Company Name in Chinese";
 	public static final String COMPANY_TRANS_COLUMN5 = "RAP - Company Name in English";
-	
+
+	//PatStats output file
+	public static final int PAT_STATS_COLUMNS = 28;
+	public static final String PAT_STATS_COLUMN_1 = "RAP - Pat Stats ID";
+	public static final String PAT_STATS_COLUMN_2 = "RAP - Company ID";
+	public static final String PAT_STATS_COLUMN_3 = "Source - Company ID";
+	public static final String PAT_STATS_COLUMN_4 = "Source - Deal Date";
+	public static final String PAT_STATS_COLUMN_5 = "CN_PAT_AT_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_6 = "CN_PAT_AT_DEAL_U";
+	public static final String PAT_STATS_COLUMN_7 = "CN_PAT_AT_DEAL_I";
+	public static final String PAT_STATS_COLUMN_8 = "CN_PAT_AT_DEAL_A";
+	public static final String PAT_STATS_COLUMN_9 = "CN_PAT_3Y_AFTER_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_10 = "CN_PAT_3Y_AFTER_DEAL_U";
+	public static final String PAT_STATS_COLUMN_11 = "CN_PAT_3Y_AFTER_DEAL_I";
+	public static final String PAT_STATS_COLUMN_12 = "CN_PAT_3Y_AFTER_DEAL_A";
+	public static final String PAT_STATS_COLUMN_13 = "CN_PAT_5Y_AFTER_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_14 = "CN_PAT_5Y_AFTER_DEAL_U";
+	public static final String PAT_STATS_COLUMN_15 = "CN_PAT_5Y_AFTER_DEAL_I";
+	public static final String PAT_STATS_COLUMN_16 = "CN_PAT_5Y_AFTER_DEAL_A";
+	public static final String PAT_STATS_COLUMN_17 = "FR_PAT_AT_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_18 = "FR_PAT_AT_DEAL_U";
+	public static final String PAT_STATS_COLUMN_19 = "FR_PAT_AT_DEAL_I";
+	public static final String PAT_STATS_COLUMN_20 = "FR_PAT_AT_DEAL_A";
+	public static final String PAT_STATS_COLUMN_21 = "FR_PAT_3Y_AFTER_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_22 = "FR_PAT_3Y_AFTER_DEAL_U";
+	public static final String PAT_STATS_COLUMN_23 = "FR_PAT_3Y_AFTER_DEAL_I";
+	public static final String PAT_STATS_COLUMN_24 = "FR_PAT_3Y_AFTER_DEAL_A";
+	public static final String PAT_STATS_COLUMN_25 = "FR_PAT_5Y_AFTER_DEAL_ALL";
+	public static final String PAT_STATS_COLUMN_26 = "FR_PAT_5Y_AFTER_DEAL_U";
+	public static final String PAT_STATS_COLUMN_27 = "FR_PAT_5Y_AFTER_DEAL_I";
+	public static final String PAT_STATS_COLUMN_28 = "FR_PAT_5Y_AFTER_DEAL_A";
+
 	public static final String REFINED_PERSONS_FILE = "output/ReversedFulltobecheckedallcompleted.xls";
 	public static final String ORIGINAL_PERSONS_FILE = "output/CandidateCompanyNames.xlsx";
 
