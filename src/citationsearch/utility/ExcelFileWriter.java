@@ -8,16 +8,13 @@ import java.io.FileOutputStream;
 import java.util.List;
 
 import citationsearch.entity.*;
-import citationsearch.mapper.PatStatsMapper;
+import citationsearch.mapper.*;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import citationsearch.constants.PatentTypeEnum;
-import citationsearch.mapper.CitationMapper;
-import citationsearch.mapper.CompanyMapper;
-import citationsearch.mapper.PatentMapper;
 
 public class ExcelFileWriter {
 	protected Company[] companies = null;
@@ -199,6 +196,90 @@ public class ExcelFileWriter {
 			e.printStackTrace();
 		}
 
+	}
+
+	public void generateCitStatsOutputExcelFiles() {
+		System.out.print("Writing to " + CIT_STATS_FILENAME + "....");
+
+		CitStatsMapper csm = new CitStatsMapper();
+		List<CitStats> csList = csm.getAllCitStats();
+
+		XSSFWorkbook wb = new XSSFWorkbook();
+		XSSFSheet sheet = wb.createSheet();
+		XSSFRow row = null;
+		XSSFCell cell = null;
+		FileOutputStream fileOut = null;
+		int rowCount = csList.size();
+		int i = 0;
+
+		//write column titles
+		row = sheet.createRow(0);
+		cell = row.createCell(0);
+		cell.setCellValue(CIT_STATS_COLUMN_1);
+		cell = row.createCell(1);
+		cell.setCellValue(CIT_STATS_COLUMN_2);
+		cell = row.createCell(2);
+		cell.setCellValue(CIT_STATS_COLUMN_3);
+		cell = row.createCell(3);
+		cell.setCellValue(CIT_STATS_COLUMN_4);
+		cell = row.createCell(4);
+		cell.setCellValue(CIT_STATS_COLUMN_5);
+		cell = row.createCell(5);
+		cell.setCellValue(CIT_STATS_COLUMN_6);
+		cell = row.createCell(6);
+		cell.setCellValue(CIT_STATS_COLUMN_7);
+		cell = row.createCell(7);
+		cell.setCellValue(CIT_STATS_COLUMN_8);
+		cell = row.createCell(8);
+		cell.setCellValue(CIT_STATS_COLUMN_9);
+		cell = row.createCell(9);
+		cell.setCellValue(CIT_STATS_COLUMN_10);
+		cell = row.createCell(10);
+		cell.setCellValue(CIT_STATS_COLUMN_11);
+		cell = row.createCell(11);
+		cell.setCellValue(CIT_STATS_COLUMN_12);
+
+		for (i = 0; i < rowCount; i++) {
+			row = sheet.createRow(i + 1);
+			cell = row.createCell(0);
+			cell.setCellValue(csList.get(i).getID());
+			cell = row.createCell(1);
+			cell.setCellValue(csList.get(i).getCompanyId());
+			cell = row.createCell(2);
+			cell.setCellValue(csList.get(i).getSourceCompanyId());
+			cell = row.createCell(3);
+			cell.setCellValue(csList.get(i).getDealDate().toString());
+
+			cell = row.createCell(4);
+			cell.setCellValue(csList.get(i).getCN_CIT_AT_DEAL_ON_PAT_AT_DEAL());
+			cell = row.createCell(5);
+			cell.setCellValue(csList.get(i).getFR_CIT_AT_DEAL_ON_PAT_AT_DEAL());
+			cell = row.createCell(6);
+			cell.setCellValue(csList.get(i).getCN_CIT_AT_2016_ON_PAT_AT_DEAL());
+			cell = row.createCell(7);
+			cell.setCellValue(csList.get(i).getFR_CIT_AT_2016_ON_PAT_AT_DEAL());
+			cell = row.createCell(8);
+			cell.setCellValue(csList.get(i).getCN_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL());
+			cell = row.createCell(9);
+			cell.setCellValue(csList.get(i).getFR_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL());
+			cell = row.createCell(10);
+			cell.setCellValue(csList.get(i).getCN_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL());
+			cell = row.createCell(11);
+			cell.setCellValue(csList.get(i).getFR_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL());
+		}
+
+		for (i = 0; i < CIT_STATS_COLUMNS; i++) {
+			sheet.autoSizeColumn(i);
+		}
+
+		try {
+			fileOut = new FileOutputStream(CIT_STATS_FILENAME);
+			wb.write(fileOut);
+			wb.close();
+			fileOut.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	

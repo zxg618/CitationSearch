@@ -69,6 +69,7 @@ public final class Constants {
 	public static final String CITATION_FILENAME = "citations.xlsx";
 	public static final String COMPANY_TRANSLATION_FILENAME = "company_translation.xlsx";
 	public static final String PAT_STATS_FILENAME = "PatentStats.xlsx";
+	public static final String CIT_STATS_FILENAME = "CitationStats.xlsx";
 	//id, Chinese name, English name, total patents, total citations
 	public static final int COMPANY_COLUMNS = 6;
 	public static final String COMPANY_COLUMN1 = "RAP - Company ID";
@@ -148,6 +149,21 @@ public final class Constants {
 	public static final String PAT_STATS_COLUMN_26 = "FR_PAT_5Y_AFTER_DEAL_U";
 	public static final String PAT_STATS_COLUMN_27 = "FR_PAT_5Y_AFTER_DEAL_I";
 	public static final String PAT_STATS_COLUMN_28 = "FR_PAT_5Y_AFTER_DEAL_A";
+
+	//CitStats output file
+	public static final int CIT_STATS_COLUMNS = 12;
+	public static final String CIT_STATS_COLUMN_1 = "RAP - Citation Stats ID";
+	public static final String CIT_STATS_COLUMN_2 = "RAP - Company ID";
+	public static final String CIT_STATS_COLUMN_3 = "Source - Company ID";
+	public static final String CIT_STATS_COLUMN_4 = "Source - Deal Date";
+	public static final String CIT_STATS_COLUMN_5 = "CN_CIT_AT_DEAL_ON_PAT_AT_DEAL";
+	public static final String CIT_STATS_COLUMN_6 = "FR_CIT_AT_DEAL_ON_PAT_AT_DEAL";
+	public static final String CIT_STATS_COLUMN_7 = "CN_CIT_AT_2016_ON_PAT_AT_DEAL";
+	public static final String CIT_STATS_COLUMN_8 = "FR_CIT_AT_2016_ON_PAT_AT_DEAL";
+	public static final String CIT_STATS_COLUMN_9 = "CN_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL";
+	public static final String CIT_STATS_COLUMN_10 = "FR_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL";
+	public static final String CIT_STATS_COLUMN_11 = "CN_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL";
+	public static final String CIT_STATS_COLUMN_12 = "FR_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL";
 
 	public static final String REFINED_PERSONS_FILE = "output/ReversedFulltobecheckedallcompleted.xls";
 	public static final String ORIGINAL_PERSONS_FILE = "output/CandidateCompanyNames.xlsx";

@@ -44,12 +44,13 @@ public class Main
 		//==== one-off operations ====
 
 		//Add 'type' to patent table
-		service.addTypeToPatentTable();
+//		service.addTypeToPatentTable();
 //		service.addDealDate();
 
 
 		//Compute statistics
 //		service.getStats();
-		service.generatePatStatsOutputExcelFiles();
+//		service.generatePatStatsOutputExcelFiles();
+		service.generateCitStatsOutputExcelFiles();
 	}
 }

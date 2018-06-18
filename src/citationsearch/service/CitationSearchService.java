@@ -180,6 +180,11 @@ public class CitationSearchService
 		this.excelFileWriter.generatePatStatsOutputExcelFiles();
 	}
 
+	public void generateCitStatsOutputExcelFiles() {
+		this.excelFileWriter = new ExcelFileWriter();
+		this.excelFileWriter.generateCitStatsOutputExcelFiles();
+	}
+
 
 	public void searchAllCitationsByEnglishName() {
 		CompanyMapper cm = new CompanyMapper();
@@ -629,8 +634,8 @@ public class CitationSearchService
 		Number of Foreign patents held at 5 years after deal date
 	 */
 	public void getStats(){
-		getPatStats();
-		getCitaStats();
+//		getPatStats();
+		getCitStats();
 	}
 
 	public void getPatStats(){
@@ -693,8 +698,53 @@ public class CitationSearchService
 		}
 	}
 
-	public void getCitaStats(){
+	public void getCitStats(){
+		CompanyDealDateMapper cddm = new CompanyDealDateMapper();
+		CitStatsMapper csm = new CitStatsMapper();
 
+		List<CompanyDealDate> companyDealDateList = cddm.getAllCompanyDealDates();
+
+		for(CompanyDealDate cdd : companyDealDateList){
+			CitStats cs = new CitStats();
+			cs.setCompanyId(cdd.getCompanyId());
+			cs.setSourceCompanyId(cdd.getSourceCompanyId());
+			cs.setDealDate(cdd.getDealDate());
+
+			String dealDateStr = cdd.getDealDate().toString();
+			int companyId = cdd.getCompanyId();
+
+			Date dealDate = cdd.getDealDate();
+			Date after3years = new Date(dealDate.getTime() +  MILLI_SEC_IN_YEAR * 3);
+			String after3yearsStr = after3years.toString();
+			Date after5years = new Date(dealDate.getTime() +  MILLI_SEC_IN_YEAR * 5);
+			String after5yearsStr = after5years.toString();
+
+			//Number of Chinese citations of patents held at time of deal date, at deal date
+			cs.setCN_CIT_AT_DEAL_ON_PAT_AT_DEAL(csm.findStats(companyId, "CN", dealDateStr, dealDateStr));
+
+			//Number of Foreign citations of patents held at time of deal date, at deal date
+			cs.setFR_CIT_AT_DEAL_ON_PAT_AT_DEAL(csm.findStats(companyId, "FR", dealDateStr, dealDateStr));
+
+			//Number of Chinese citations of patents held at time of deal date, at latest date (2016?)
+			cs.setCN_CIT_AT_2016_ON_PAT_AT_DEAL(csm.findStats(companyId, "CN", "", dealDateStr));
+
+			//Number of Foreign citations of patents held at time of deal date, at latest date (2016?)
+			cs.setFR_CIT_AT_2016_ON_PAT_AT_DEAL(csm.findStats(companyId, "FR", "", dealDateStr));
+
+			//Number of Chinese citations of patents held at 3 years after deal date, at latest date (2016?)
+			cs.setCN_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL(csm.findStats(companyId, "CN", "", after3yearsStr));
+
+			//Number of Foreign citations of patents held at 3 years after deal date, at latest date (2016?)
+			cs.setFR_CIT_AT_2016_ON_PAT_3Y_AFTER_DEAL(csm.findStats(companyId, "FR", "", after3yearsStr));
+
+			//Number of Chinese citations of patents held at 5 years after deal date, at latest date (2016?)
+			cs.setCN_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL(csm.findStats(companyId, "CN", "", after5yearsStr));
+
+			//Number of Foreign citations of patents held at 5 years after deal date, at latest date (2016?)
+			cs.setFR_CIT_AT_2016_ON_PAT_5Y_AFTER_DEAL(csm.findStats(companyId, "FR", "", after5yearsStr));
+
+			csm.save(cs);
+		}
 
 	}
 
